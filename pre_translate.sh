@@ -14,6 +14,7 @@ for LOCALE in ${LOCALES}
 do
   echo "Updating translation catalog for ${LOCALE}:"
   echo "------------------------------------"
+  mkdir -p _static_${LOCALE}
   mkdir -p i18n/${LOCALE}/LC_MESSAGES
   for FILE in `ls i18n/pot`
   do

@@ -8,21 +8,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: learnosm 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-26 10:33\n"
+"POT-Creation-Date: 2012-07-26 10:36\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../README.rst:2
 # 58571ca89dd3483e8fad05d70136176c
+#: ../../README.rst:2
 msgid "learnosm"
 msgstr ""
 
-#: ../../README.rst:4
 # c945f3b5f6624b60854ed3723f8cd120
+#: ../../README.rst:4
 msgid "Learn OSM"
 msgstr ""
-
