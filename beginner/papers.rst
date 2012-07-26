@@ -13,7 +13,7 @@ you can add your locations to OpenStreetMap.
 Overview of Walking Papers
 --------------------------
 
-Before we walk go into detail about Walking Papers, let’s look at an overview
+Before we walk go into detail about Walking Papers, let's look at an overview
 of how the process works:
 
 **Step 1:** Locate the area you want to map on the Walking Papers website.
@@ -39,7 +39,7 @@ detailed information about each object.
    :align: center
    :width: 350px
 
-**Step 3:**  Scan your paper into the computer.  If you don’t have a scanner,
+**Step 3:**  Scan your paper into the computer.  If you don't have a scanner,
 you can take a photograph of the paper, if your camera is able to take high
 quality pictures.  Upload the image to the Walking Papers website.
 
@@ -66,7 +66,7 @@ location of the map that you are using to survey.  Later, when you load the
 paper back into JOSM, all the objects that you drew will be in shown in their
 actual locations, or at least quite close, which is good enough for us.
 
-Now let’s learn how to create and use Walking Papers.
+Now let's learn how to create and use Walking Papers.
 
 Create and Print
 ----------------
@@ -93,34 +93,34 @@ Create and Print
   website, using your left mouse button to drag the map East or West, and your
   scroll wheel to zoom in and out of the map.  Left-clicking on the + and –
   buttons in the upper left corner will also zoom in and out.
-* Just above the map is a search box with a “Find” button next to it.  You can
+* Just above the map is a search box with a "Find" button next to it.  You can
   use this to search for a location and move the map there automatically.  Try
-  typing the name of your village or town inside the box, and click “Find”.  If
+  typing the name of your village or town inside the box, and click "Find".  If
   Walking Papers finds the location you typed, the map will automatically move
   there.
 * Just below the map are some additional options.  The first option is labelled
-  “Orientation.”  This allows you to change the size and orientation of your
-  printed map.  Try changing this by clicking in the box next to “Orientation”
-  and selecting “Landscape (A4)”.  You should see the size and shape of the map
+  "Orientation."  This allows you to change the size and orientation of your
+  printed map.  Try changing this by clicking in the box next to "Orientation"
+  and selecting "Landscape (A4)".  You should see the size and shape of the map
   change to be wide, and sized to be printed on A4 size paper.
-* Click on the box next to the word “Provider:”  Here you can select from
+* Click on the box next to the word "Provider:"  Here you can select from
   different options that will change how the map looks.  Most of the options
   show different styles of map, such as thinner lines, or different colors and
-  text.  Click on “Bing Aerial Imagery” and instead of a map you will see
+  text.  Click on "Bing Aerial Imagery" and instead of a map you will see
   imagery provided by Microsoft of the location you are viewing.  Note that not
   all locations are covered by high quality imagery, so what you see may be
   blurry, and not very useful for making maps!
 * Make sure that the map shows the area that you want to map.  Even after you
   search for your location, you may want to move the map around to choose the
   right area.  When you zoom in and out of the map, you are changing what are
-  called “zoom levels”, which is simply a way of saying how close you are
+  called "zoom levels", which is simply a way of saying how close you are
   zoomed in.  When you are zoomed as far away as possible and you can see the
   whole Earth, you are at zoom level 0.  When you zoom in as far as you can go
   you are at zoom level 18.  The current zoom level is shown just above the
   map.  Usually zoom level 15, 16, or 17 is good for making Walking Papers.
-* Let’s make the print now!  If you have found the area you are interested in
+* Let's make the print now!  If you have found the area you are interested in
   mapping and have selected the options that make your paper look good, you are
-  ready.  Click the button labelled “Make”, just below the map.
+  ready.  Click the button labelled "Make", just below the map.
 * You will see a new page which says that your print is being processed.  When
   it is finished, you will see your print on this page.  It usually take
   anywhere from a few minutes up to twenty minutes for a print to be completed.
@@ -128,7 +128,7 @@ Create and Print
   .. figure:: ../_static/paper_prepare_print.png
      :align: center
 
-* When your print is ready, click “Download map PDF for print”.  The Walking
+* When your print is ready, click "Download map PDF for print".  The Walking
   Paper should begin downloading.
 * When the download is finish, open the PDF file.  Connect your computer to a
   printer and print the page.  If everything goes well, you should now have
@@ -159,7 +159,7 @@ Scan and Upload
   our information digitally, and save our changes on OpenStreetMap.
 * The first step is to scan your Walking Paper into your computer.  You can do
   this by attaching a scanner to your computer, scanning the paper, and saving
-  it as an image file.  If you don’t have a scanner, you can take a photography
+  it as an image file.  If you don't have a scanner, you can take a photography
   of the paper, but you should be carefuly to take a very good photo.  Make
   sure that the paper is flat and your camera is directly in front of it.  Be
   sure to include the barcode in the image, as Walking Papers will not work
@@ -171,15 +171,15 @@ Scan and Upload
 
 * Once you have your walking paper scanned and saved on the computer, open your
   web browser and return to walking-papers.org, just as before.
-* Click on the “Upload” tab.
+* Click on the "Upload" tab.
 
   .. figure:: ../_static/paper_upload.png
      :align: center
      :width: 500px
 
-* Click “Browse...” and navigate to the file where you scanned/photographed
+* Click "Browse..." and navigate to the file where you scanned/photographed
   your Walking Paper.
-* Click “Send.”
+* Click "Send."
 * It may take a few minutes for your paper to upload, depending on the speed of
   your internet connection.  When the upload finishes, you will see a new page
   with a couple questions about your scan.
@@ -188,12 +188,12 @@ Scan and Upload
      :align: center
      :width: 350px
 
-* Next to the question, “Do you plan to edit this yourself?” select “No”.  This
+* Next to the question, "Do you plan to edit this yourself?" select "No".  This
   will make your paper public, so that other mappers can see it too.
 * In the empty box at the bottom, describe what you mapped.  This might include
   the location and the types of objects that you added.
-* Click “Save.”  Your Walking Paper will begin to process.  This may take 20
-  minutes or more.  If you made your paper public by selecting “No” on the
+* Click "Save."  Your Walking Paper will begin to process.  This may take 20
+  minutes or more.  If you made your paper public by selecting "No" on the
   previous page, you can close your internet browser and return to it later
   when it has finished processing.
 
@@ -204,7 +204,7 @@ Open in JOSM
   to add your information to OpenStreetMap.  Return to the Walking Papers
   website, by typing `walking-papers.org <http://walking-papers.org/>`_ in your
   web browser, just as before.
-* Click “Scans”.
+* Click "Scans".
 * Find your paper from the list, and click on it.  You should see something
   like this:
 
@@ -217,9 +217,9 @@ Open in JOSM
   text and press CTRL+C on your keyboard to copy.  The text should look similar
   to this:  http://walking-papers.org/scan.php?id=fmxcgdqd
 * Now open JOSM.  In Chapter 3 we installed the Walking Papers plugin, which
-  allows us to see our scan.  If you don’t have Walking Papers installed, go
+  allows us to see our scan.  If you don't have Walking Papers installed, go
   back to Chapter 3.3 for instructions on how to install.
-* On the top menu of JOSM, Click “Walking Papers”.  Then click “Scanned Map...”
+* On the top menu of JOSM, Click "Walking Papers".  Then click "Scanned Map..."
 * Press CTRL+V on your keyboard to paste the text that you copied from the
   Walking Papers website.
 * Click OK.

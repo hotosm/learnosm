@@ -16,7 +16,7 @@ understanding of how to draw maps in JOSM.
 Videos Related to this Chapter
 ------------------------------
 
-We’ve created a video that goes through some of the material in this chapter.
+We've created a video that goes through some of the material in this chapter.
 `View it on YouTube here. <http://www.youtube.com/watch?v=jRqn-S9maL0>`_
 
 Download JOSM
@@ -24,7 +24,7 @@ Download JOSM
 
 * If you have a copy of JOSM on a CD or usb flash drive, you can skip to
   section 2, Install JOSM.
-* If you don’t have JOSM already, or want the newest version, open your web
+* If you don't have JOSM already, or want the newest version, open your web
   browser – this may be Firefox, Chrome, Opera, or Internet Explorer.
 * In the address bar at the top of the window, enter the following text and
   press Enter: josm.openstreetmap.de
@@ -50,14 +50,14 @@ Install JOSM
   your computer. If you have problems in this section, try downloading and
   installing Java. You can download it here: http://www.java.com/en/download/
 * Find the JOSM install file on your computer. Double-click it to begin setup.
-* Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation is
-  complete, click ‘Finish’ to launch JOSM for the first time. Later, when you
+* Click ‘OK', ‘Next', ‘I Agree', and ‘Install'. When the installation is
+  complete, click ‘Finish' to launch JOSM for the first time. Later, when you
   want to start JOSM, you can do so by clicking on the Start Menu in the lower
   left corner of your computer, and clicking the program JOSM.
 * You may see a window pop up that asks if you want to update the software. You
-  don’t need to update it since it is new. Press the button that says “Cancel.”
-  If you don’t ever want to see this message again, check the box at the bottom
-  before pressing “Cancel.”
+  don't need to update it since it is new. Press the button that says "Cancel."
+  If you don't ever want to see this message again, check the box at the bottom
+  before pressing "Cancel."
 * When JOSM starts, it will look something like this:
   
   .. figure:: ../_static/josm_opens.png
@@ -69,9 +69,9 @@ Install JOSM
 Change JOSM Settings
 --------------------
 
-* Before we begin using JOSM, it’s a good idea to change some of the settings
-  so that is will be easier to use. To change the settings, click “Edit” on the
-  top menu, and then click “Preferences.”
+* Before we begin using JOSM, it's a good idea to change some of the settings
+  so that is will be easier to use. To change the settings, click "Edit" on the
+  top menu, and then click "Preferences."
 
   .. figure:: ../_static/josm_preferences.png
      :align: center
@@ -83,9 +83,9 @@ Add Bing Imagery
 ................
 
 * We want to be able to use satellite imagery when we are making our maps, so
-  let’s add that from the Preferences window. On the left side of the
+  let's add that from the Preferences window. On the left side of the
   Preferences window there are different icons for different settings. Click on
-  the icon that says “WMS TMS”.
+  the icon that says "WMS TMS".
 
   .. figure:: ../_static/wms_tms.png
      :align: center
@@ -95,13 +95,13 @@ Add Bing Imagery
   .. figure:: ../_static/scroll_bar.png
      :align: center
  
-* Click on “Bing Sat”. Then Click “Activate”.
+* Click on "Bing Sat". Then Click "Activate".
 
   .. figure:: ../_static/activate_bing_sat.png
      :align: center
      :width: 350px
    
-* You should now see “Bing Sat” in the list below the Activate button.
+* You should now see "Bing Sat" in the list below the Activate button.
 
 Add Presets
 ...........
@@ -110,14 +110,14 @@ Add Presets
   can add it now. For example, the building structure presets file used in
   Indonesia is called `building.xml
   <http://www.learnosm.org/files/building.xml>`_.
-* You should still have the Preferences window open. If you don’t, click Edit
+* You should still have the Preferences window open. If you don't, click Edit
   -> Preferences to open the window.
 * On the left side, click the icon that looks like a grid.
 
   .. figure:: ../_static/grid_icon.png
      :align: center
 
-* Click the tab at the top that reads “Tagging Presets”.
+* Click the tab at the top that reads "Tagging Presets".
 * In the upper right, press the + button.
 * Next to the second box on the right, click the button that looks like a
   folder. Navigate to the presets file you want to add, for example,
@@ -132,59 +132,59 @@ Add Walking Papers Plugin
   then load it into JOSM in the background. Then we can add our drawings and
   our notes into OpenStreetMap. Now we will add the Walking Papers plugin to
   JOSM.
-* You should still have the Preferences window open. If you don’t, click Edit
+* You should still have the Preferences window open. If you don't, click Edit
   -> Preferences to open the window.
 * On the left side, click the icon that looks like a plug.
 
   .. figure:: ../_static/plug_icon.png
      :align: center
 
-* Click the button that says “Download list”. The list will download from the
+* Click the button that says "Download list". The list will download from the
   internet, and when it is finished you will see a list of optional plugins
   appear in the window.
-* In the search box at the top, type “walking”. This will show only items in
-  the list that have “walking” in the title.
+* In the search box at the top, type "walking". This will show only items in
+  the list that have "walking" in the title.
 * Click the checkbox next to the walkingpapers plugin, and press OK at the
   bottom of the window.
-* Walking Papers will now be downloaded and installed. Do not click “Cancel”.
+* Walking Papers will now be downloaded and installed. Do not click "Cancel".
 
 Change Language
 ...............
 
 * JOSM has been translated into many languages. If it has been translated into
   your language, you can change it in the Preferences.
-* If you don’t have the Preferences window open, click Edit -> Preferences.
+* If you don't have the Preferences window open, click Edit -> Preferences.
 * On the left side, click the icon that looks like a paint can and paint brush.
-* At the top of the window, click the tab that says “Look and Feel”.
-* Choose your language in the dropdown box next to the word “Language”.
+* At the top of the window, click the tab that says "Look and Feel".
+* Choose your language in the dropdown box next to the word "Language".
 * Click OK.
 
   .. figure:: ../_static/grid_icon.png
      :align: center
 
-* You need to restart JOSM to save your settings. Click “File” in the upper
-  left corner, and Click “Exit” at the bottom of the menu.
+* You need to restart JOSM to save your settings. Click "File" in the upper
+  left corner, and Click "Exit" at the bottom of the menu.
 * Start JOSM again by going to the Windows Start Menu in the bottom left
   corner. Find JOSM and click on it to start.
 
 Learn Basic Drawing with JOSM
 -----------------------------
 
-* Now let’s open up a sample OSM file which we will use to learn the basic ways
+* Now let's open up a sample OSM file which we will use to learn the basic ways
   to draw maps with JOSM. Note that this map is not real, in that it is not a
   real map of a real place, so we will not save it on OpenStreetMap.
 * If you were given a set of files by your instructor, you should already have
   the file we will open, named sample.osm.
-* If you don’t have the file sample.osm, right-click on `this link
+* If you don't have the file sample.osm, right-click on `this link
   <http://www.learnosm.org/files/sample.osm>`_ and click
-  “Save Link As…” Choose a location on your computer to save the file.
-* Now let’s open the sample map file in JOSM. Open JOSM. Click the “Open”
+  "Save Link As…" Choose a location on your computer to save the file.
+* Now let's open the sample map file in JOSM. Open JOSM. Click the "Open"
   button in the upper left.
 
   .. figure:: ../_static/open_icon.png
      :align: center
 
-* Find the file sample.osm. Click on it, and then click “Open”.
+* Find the file sample.osm. Click on it, and then click "Open".
 * You should now see a sample map, similar to this:
 
   .. figure:: ../_static/sample_osm_file.png
@@ -200,7 +200,7 @@ Basic Operations
   and move your mouse.
 * There are several ways to zoom in and out of the map. If you have a mouse,
   you can use your scroll wheel to zoom in and out. If you are using a laptop
-  and don’t have a mouse, you can zoom in and out using the scale bar in the
+  and don't have a mouse, you can zoom in and out using the scale bar in the
   upper left of the map window. Drag the bar left and right by holding your
   left mouse down and moving the bar left or right with your mouse.
 
@@ -223,16 +223,16 @@ Points, Lines, and Shapes
   cart.
 * There are several lines on the map as well, which represent roads. If you
   look closely you will see that within the lines, there are points as well.
-  These points don’t have any symbols or other information associated with
+  These points don't have any symbols or other information associated with
   them, but they help to define where the line is located.
 * Lastly, there are numerous shapes on the sample map, representing different
   places – a forest, a river, and buildings. A shape generally represents an
   area, like a field or a building. A shape is exactly like a line – the only
   difference is that the line begins at the same point where it ends.
 * You may notice that when you select an object, a list appears to the right of
-  the map in a window called “Properties”. These are known as tags. Tags are
+  the map in a window called "Properties". These are known as tags. Tags are
   information that is tied to a point, line or shape that describes what it is.
-  We’ll learn more about tags in Chapter 7, Advanced Editing. For now all you
+  We'll learn more about tags in Chapter 7, Advanced Editing. For now all you
   need to know is that this information helps describe whether our object is a
   forest, a river, a building, or something else.
 * Think about drawing a map by hand, and how you are also drawing points,
@@ -288,7 +288,7 @@ Drawing
 Add Presets
 ...........
 
-* Now we know how to draw points, lines and shapes, but we still haven’t
+* Now we know how to draw points, lines and shapes, but we still haven't
   defined what they represent. We want to be able to say that our points are
   shops, schools, or something else, and whether our shapes are fields,
   buildings, or something else.
@@ -298,19 +298,19 @@ Add Presets
      :align: center
 
 * Select one of the objects that you drew with the Draw tool. On the top menu,
-  click “Presets”. Move your mouse through the sub-menu to the type of location
+  click "Presets". Move your mouse through the sub-menu to the type of location
   you would like to define.
 * When you click on a preset, a form will pop up asking you for more
   information. You do not have to fill in every field, but you may wish to add
   some of the important fields, such as the name of the object.
-* When you are finished entering the information, click “Apply Preset”. If
+* When you are finished entering the information, click "Apply Preset". If
   everything went well, your point, line, or shape should change colors or show
   a symbol. This is because you have defined what it is.
 
 Draw Your Own Map
 .................
 
-* Now let’s draw a map in order to practice the techniques you have learned.
+* Now let's draw a map in order to practice the techniques you have learned.
   You may wish to redraw the map that you drew on paper in Chapter 1.
 * Drag the map away from the sample map. Hold the right mouse button and drag
   your mouse, until you have a nice empty area to draw on.

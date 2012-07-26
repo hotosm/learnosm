@@ -15,7 +15,7 @@ most problematic? Questions like these can often best be expressed with maps,
 and maps can help find solutions to these questions. As an exercise, get a pen
 and paper and draw a map of your town or village. What are the most important
 things to include on the map? What is the most important information? Spend a
-few minutes making your map, and when you’re finished, think about why the
+few minutes making your map, and when you're finished, think about why the
 information you included is important, and who it might be important to.
 
 .. figure:: ../_static/vill1.jpg
