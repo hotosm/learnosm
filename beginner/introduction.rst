@@ -1,6 +1,6 @@
-========================
-Chapter 1 – Introduction
-========================
+============
+Introduction
+============
 
 Information is powerful. With good information and the right understanding,
 individuals and communities are better able to improve their lives and make
@@ -15,7 +15,7 @@ most problematic? Questions like these can often best be expressed with maps,
 and maps can help find solutions to these questions. As an exercise, get a pen
 and paper and draw a map of your town or village. What are the most important
 things to include on the map? What is the most important information? Spend a
-few minutes making your map, and when you’re finished, think about why the
+few minutes making your map, and when you're finished, think about why the
 information you included is important, and who it might be important to.
 
 .. figure:: ../_static/vill1.jpg
@@ -49,7 +49,7 @@ There is only one copy of the map and the way you drew it may make sense to
 you, but perhaps not to someone else who would have drawn their own map in a
 different way. Because your map is merely on paper, it is difficult to get that
 information to others. This is why making your map on a computer, in such a way
-that anyone can access it, can be much more valuable.OpenStreetMap is a tool
+that anyone can access it, can be much more valuable. OpenStreetMap is a tool
 for creating and sharing map information. Anyone can contribute to OSM, and
 thousands of people add to the project every day. Users draw maps on
 computers, rather than paper, but as we will see in this guide, drawing a map
