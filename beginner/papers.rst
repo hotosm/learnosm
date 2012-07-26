@@ -35,7 +35,7 @@ forth.  Write notes about each location directly on the map, or write numbers
 on the map that relate to numbers in your notebook, where you can write more
 detailed information about each object.
 
-.. figure:: ../_static/paper_example.png
+.. figure:: ../_static/paper_example.jpg
    :align: center
    :width: 350px
 
@@ -144,7 +144,7 @@ Map with Walking Papers
   numbers in your notebook, where you can write more detailed information about
   each object.
 
-  .. figure:: ../_static/paper_example.png
+  .. figure:: ../_static/paper_example.jpg
      :align: center
      :width: 350px
 
@@ -165,7 +165,7 @@ Scan and Upload
   sure to include the barcode in the image, as Walking Papers will not work
   without it.  Here is an example of a scanned/photographed image:
 
-  .. figure:: ../_static/paper_example2.png
+  .. figure:: ../_static/paper_example2.jpg
      :align: center
      :width: 350px
 

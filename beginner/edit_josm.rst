@@ -54,7 +54,7 @@ Download OSM Data
   After you open your files, look in the bottom left corner of JOSM. You can
   see the latitude and longitude (coordinates) of your mouse cursor.
 
-  .. figure:: ../_static/josm_lay_lon.png
+  .. figure:: ../_static/josm_lat_lon.png
      :align: center
 
 * Because our map window is already showing the area that we want to edit, it
