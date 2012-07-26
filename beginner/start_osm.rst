@@ -17,8 +17,11 @@ ___________________________________
 -In the address bar at the top of the window, enter the following text:  www.openstreetmap.org
 -When the page has finished loading, you should see something like this:
 
-OpenStreetMap website with some main functions listed
+.. figure:: ../_static/osm_website.jpg
+   :align: center
+   :width: 520px
 
+   OpenStreetMap website with some main functions listed
 
 2.  Navigate the Map
 ____________________
@@ -26,14 +29,22 @@ ____________________
 -If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel.  If you don’t have a scroll-wheel, use the + and – buttons on in the upper right corner of the map. (see figure below)
 -To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above).  Type in the name of your town or village and press Enter.  A window should appear to the left of the map with the results of your search.  Click on the location that looks like the one you want.  The map will automatically move to the location you chose.
 
-Mouse navigation
+.. figure:: ../_static/mouse.jpg
+   :align: center
+   :width: 255px
+
+   Mouse navigation
 
 3.  Save an Image of the Map
 ____________________________
 
 -If you want to save an image from OpenStreetMap that you can easily print, follow these instructions.
 
-Exporting a map
+.. figure:: ../_static/export.jpg
+   :align: center
+   :width: 520px
+
+   Exporting a map
 
 -Just above the map, click on the button labeled “Export”.  A new panel will appear next to the map.
 -In the new window, make sure the button is highlighted next to “Mapnik Image”.
@@ -47,7 +58,11 @@ ___________________________________
 -Go back to the OpenStreetMap website.  Click “sign up” in the top right corner of the page.
 -You should see a new page that looks like this:
 
-Registering an OpenStreetMap Account
+.. figure:: ../_static/register.png
+   :align: center
+   :width: 520px
+
+   Registering an OpenStreetMap Account
 
 -There are five boxes on this page that you need to fill in to register an account with OSM.
 -Enter your email address in the first two boxes.  You should enter the same email address in both boxes.  Later, you will need to open your email to confirm your account with OpenStreetMap.
@@ -58,7 +73,11 @@ Registering an OpenStreetMap Account
 -If there are any problems, an error message may pop up.  Check to make sure that your email is the same in the first to boxes, and your password is the same in the bottom two boxes.  If the third box is highlighted red, it means that someone else has already chosen your username, and you should try a different name.
 -Next you will see a page that displays the contributor terms, which you will need to accept in order to create an OSM account.  Basically, the agreement states that you will not add data to OpenStreetMap that is taken from other maps, unless you have clear permission to do so.  The agreement also states how your contributions to OSM may be used.  Data entered into OSM has what is called a Creative Commons license, which essentially means that anyone can use the data as they like, but they can’t take the data and claim it as their own.
 
-Contributor Terms
+.. figure:: ../_static/terms.png
+   :align: center
+   :width: 520px
+
+   Contributor Terms
 
 -You have the option of declaring your additions to OpenStreetMap as public domain, which means that anyone can do absolutely anything they want with your data, with no restrictions whatsoever.  If you would like to make your edits public domain, click the checkbox at the bottom of the page next to “Public Domain”.
 -To accept the agreement, click “Agree” at the bottom of the page.
@@ -66,7 +85,11 @@ Contributor Terms
 -Enter your email address and your email password to open your email.  Note that this is not the same as your OpenStreetMap username and password.
 -If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox.  Open the email.  It should look like the image below.  Click on the link that is identified below:
 
-Confirming your OpenStreetMap account
+.. figure:: ../_static/confirm.png
+   :align: center
+   :width: 536px
+
+   Confirming your OpenStreetMap account
 
 -A new tab or window will open.  If everything went well, you should have an OSM account!
 -On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter.  You should now be logged in.  You should see your username in the upper right corner of the page.
@@ -80,13 +103,21 @@ ____________________________
 -Move the map to a place that you know very well, such as your town or village.
 -Zoom in to a place where you would like to add a point to the map.
 
-Start editing
+.. figure:: ../_static/editing.jpg
+   :align: center
+   :width: 519px
+
+   Start editing
 
 -Just above the map on the left, there is a tab marked “Edit”.  Hover your mouse over this button, but don’t click.  You should see a menu drop down.
 -Click “Edit with Potlatch 2 (in-browser editor).
 -The online editor for OpenStreetMap should open.  If a window pops up, press “OK”
 
-Editing with in-browser editor
+.. figure:: ../_static/editing_browser.jpg
+   :align: center
+   :width: 519px
+
+   Editing with in-browser editor
 
 -You can add a point to the map by clicking on an icon on the left, and dragging it to its location on the map.  After you add the point and are satisfied that it is correct, click “Save” in the upper right corner.
 -When you click “Save” your edits will be saved to OpenStreetMap.  Return to the main OpenStreetMap page by clicking on the “View” tab at the top of your browser.  You should now see any edits that you have made on the map.  If you don’t see your edits, try refreshing the page by pressing CTRL+r on your keyboard. Sometimes it takes up to 5 minutes for changes to be added to the map, so don’t worry if you don’t see your changes right away!
@@ -101,5 +132,7 @@ Go to Chapter 3 – Getting Started with JOSM
 Related Videos
 ______________
 
+'Getting Started <http://www.youtube.com/watch?v=P8qKaL9IGjk/>'
 
+'Signing Up and Making Your First Edits <http://www.youtube.com/watch?v=tXDWxGUp8N0/>'
 
