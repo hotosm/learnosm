@@ -18,11 +18,29 @@ things to include on the map? What is the most important information? Spend a
 few minutes making your map, and when you’re finished, think about why the
 information you included is important, and who it might be important to.
 
+.. figure:: ../_static/vill1.jpg
+   :align: center
+   :width: 350px
+
+   A village in Indonesia
+
+.. figure:: ../_static/drawing.gif
+   :align: center
+   :width: 350px
+
+   Example of a Hand-drawn Map
+
 If your town is like most, you may have drawn some lines to represent roads,
 possibly a river or stream. Perhaps you added important buildings such as
 schools and offices, fields, or boundaries. Whatever you drew, you probably
 used symbols – a line to symbolize a road, a square to symbolize a building,
 and so on. Your map is a representation of what is on the ground.
+
+.. figure:: ../_static/symb.jpg
+   :align: center
+   :width: 350px
+
+   Examples of Symbols  
 
 Your map is informative. You might use a map like this to explain to someone
 where different places are, where problems are in your community, or merely to
@@ -39,6 +57,12 @@ on a computer is not all that different from drawing on paper. We still draw
 lines to represent roads, fields, and anything else, and we still represent
 schools and hospitals with symbols. The important thing is that OSM maps are
 saved on the internet, and anyone can access them at any time, totally free.
+
+.. figure:: ../_static/osm1.png
+   :align: center
+   :width: 350px
+
+   Digital Maps with OpenStreetMap
 
 We hope that you will find OpenStreetMap useful and interesting in your work.
 By following this guide, you should be able to quickly start making digital
