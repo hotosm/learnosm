@@ -125,7 +125,6 @@ Upload Changes
 
   .. figure:: ../_static/josm_icon_upload.png
      :align: center
-     :width: 500px
 
 * The window that appears shows a list of the objects that you are adding and
   the objects you are modifying or deleting. In the box at the bottom you are
