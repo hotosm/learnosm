@@ -1,5 +1,5 @@
 =========================
-Chapter 2 – Beginning OSM
+Beginning OSM
 =========================
 
 Introduction
@@ -10,7 +10,7 @@ Videos Related to this Chapter
 ______________________________
 We’ve created two videos that go through the material in this chapter. Scroll to the bottom to watch these videos.
 
-1.  Visit the OpenStreetMap Website
+Visit the OpenStreetMap Website
 ___________________________________
 - Be sure that your computer is on and you are connected to the internet.
 - To visit the OpenStreetMap website, you need to open your web browser.  Start your browser – Firefox, Chrome, Opera, or Internet Explorer.
@@ -23,7 +23,7 @@ ___________________________________
 
    OpenStreetMap website with some main functions listed
 
-2.  Navigate the Map
+Navigate the Map
 ____________________
 - The main thing you should see is the map.  Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below)
 - If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel.  If you don’t have a scroll-wheel, use the + and – buttons on in the upper right corner of the map. (see figure below)
@@ -35,7 +35,7 @@ ____________________
 
    Mouse navigation
 
-3.  Save an Image of the Map
+Save an Image of the Map
 ____________________________
 
 - If you want to save an image from OpenStreetMap that you can easily print, follow these instructions.
@@ -51,7 +51,7 @@ ____________________________
 - Click “Export” at the bottom of the new window.  A download will start.  Save it to your computer.
 - Open the file that you downloaded.  If you would like to print the map, you can select “Print” from the File menu, after connected your computer to a printer.
 
-4.  Create an OpenStreetMap Account
+Create an OpenStreetMap Account
 ___________________________________
 
 - Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
@@ -95,7 +95,7 @@ ___________________________________
 - On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter.  You should now be logged in.  You should see your username in the upper right corner of the page.
 - If this is your first time logging in, you will see a page where you can change your profil settings. You may edit this if you want, but you don’t have to. To return to the map, click on the “View” tab at the top of the page.
 
-5.  Adding Your First Points
+Adding Your First Points
 ____________________________
 
 - Now that you are logged in with your username on the OpenStreetMap website, you can use the Potlatch editor to add your first point to the map.
