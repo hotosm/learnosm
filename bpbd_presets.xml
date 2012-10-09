@@ -75,7 +75,7 @@
 	<item name="sekolah">
 		<key key="amenity" value="school" />
 		<text key="name" text="nama" />
-		<combo key="type:id" text="jenis" values="SD,SMP,SMA,SMK" />
+		<combo key="school:type_idn" text="jenis" values="sd,smp,sma,smk" />
 		<combo key="building:levels" text="jumlah tingkat" values="1,2,3,4-7,>7"/>
 		<combo key="access:roof" text="akses ke atap" values="no,yes" display_values="tidak,ya"/>
 	<text key="capacity:persons" text="kapasitas"/>
