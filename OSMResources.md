@@ -11,7 +11,7 @@ Quality Assurance<br>
 Presets and Tagging Conventions<br>
 Tasking Manager<br>
 Downloading/Extracting Data<br>
-Data Servers: PostGIS and Mapnik Configuration<br>	
+Data Servers: PostGIS and Mapnik Configuration<br>
 Printing and Displaying OSM Maps<br>
 QGIS<br>
 Community Support and Resources	<br>
@@ -118,7 +118,7 @@ A specific [version of tags] that have been brainstormed for Indonesia.
 Tasking Manager	
 ---------------
 ###*Task Manager###
-A mapping tool for delegating collaborative mapping.  	
+A [mapping tool] for delegating collaborative mapping.  	
 [mapping tool]: http://tasks.hotosm.org/
 
 ###*Task Manager Wiki###
@@ -129,7 +129,7 @@ A [wiki guide] to the Tasking Manager.
 
 Downloading/Extracting Data
 ---------------------------
-###*Geofabrik Downloads###	
+###*Geofabrik Downloads	
 The recommended [source for downloading OSM data].  These maps are updated quite regularly. 
 [source for downloading OSM data]: http://download.geofabrik.de/osm/
 
@@ -181,12 +181,19 @@ A [guide] for creating your [own OSM tile server].  It includes the installation
 [guide]: http://switch2osm.org/the-basics/
 [own OSM tile server]: http://switch2osm.org/serving-tiles/manually-building-a-tile-server-12-04/
 
+###OpenGeo###
+A suite of [OpenSource Tools].  Great for Windows users. 
+[OpenSource Tools]: http://opengeo.org/technology/sdk/
+
 
 Printing and Displaying OSM Maps
 --------------------------------	
 ###*MapOSMatic###
 A great [site] for selecting and printing maps.  You can insert a road table of contents, as well as use different styles.  Takes about 15 to 20 minutes to render. 	
 [site]: http://maposmatic.org/new/
+
+###Field Papers###
+Mentioned Above, but good for printing, espeically if you need room for notes or need to print an extensive area on many pieces of paper.
 
 ###*Safety Maps###
 A [website] that allows users to print out pocket sized maps.  They are intended for emergency uses.  	
@@ -240,8 +247,10 @@ OSM Twitter Handle [@OSMblogs],[@OpenStreetMap], etc.
 [@OpenStreetMap]: https://twitter.com/openstreetmap
 
 ###*Indonesian Facebook and Twitter###
-Indonesian [Facebook] and Twitter support (Emir style)	@OSM_ID
+Indonesian [Facebook] and Twitter support (Emir style)	[@OSM_ID] [@HOTOSM]
 [Facebook]: http://www.facebook.com/groups/osm.id/
+[@OSM_ID]: https://twitter.com/OSM_ID
+[@HOTOSM]: https://twitter.com/hotosm
 
 ###*Mailing Lists###
 A collection of mailing lists regarding openstreetmap.  Ranging from specific tools to OSM in certain countries, these mailing lists require subscriptions for editing tips, bugs and community support. 	
