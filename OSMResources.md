@@ -5,17 +5,17 @@ Useful OSM Links
 
 INDEX
 ------
-Introduction and Basics  
-Data Collection	
-Quality Assurance
-Presets and Tagging Conventions
-Tasking Manager
-Downloading/Extracting Data
-Data Servers: PostGIS and Mapnik Configuration	
-Printing and Displaying OSM Maps
-QGIS
-Community Support and Resources	
-Other Useful Web-Based Tools
+Introduction and Basics  <br>
+Data Collection	<br>
+Quality Assurance<br>
+Presets and Tagging Conventions<br>
+Tasking Manager<br>
+Downloading/Extracting Data<br>
+Data Servers: PostGIS and Mapnik Configuration<br>	
+Printing and Displaying OSM Maps<br>
+QGIS<br>
+Community Support and Resources	<br>
+Other Useful Web-Based Tools<br>
 
 
 
