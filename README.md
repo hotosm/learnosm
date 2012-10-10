@@ -18,7 +18,7 @@ You can file a ticket, or issue, on the top tab under **Issues**, next to **Pull
 
 To file an issue or task, click **New Issue** on top next to the Search bar and icon. 
 
-Hopefully, someone will respond and you will get an answer or someone assigned to the task. If you are _Watching_ or have this repo _starred_ then you should get an email when someone responses.
+Hopefully, someone will respond and you will get an answer or someone assigned to the task. If you are *Watching* or have this repo *starred* then you should get an email when someone responses.
 Thank you! Terima kasih!
 
 
