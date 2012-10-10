@@ -1,7 +1,7 @@
 Useful OSM Links
 ================
 
-![screenshot] (https://raw.github.com/MappingKat/hot-indo/Master/jakarta.png)
+![screenshot] (https://raw.github.com/MappingKat/hot-indo/master/jakarta.png)
 
 INDEX
 ------
