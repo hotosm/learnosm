@@ -164,7 +164,7 @@ PostGIS provides a way of storing large volumes of data for a GeoServer.  Read m
 
 ###*PostGres###
 [Postgres] is Object Relational Database Management System(ORDBMS), essentially a bridge between objects & relational databases.  This [database management system] stores relational data and uses a client/server model. In other words, it can manage backend mapping data.	
-[database management system]]: http://manikandanmv.wordpress.com/2011/02/10/postgresql-basics/
+[database management system]: http://manikandanmv.wordpress.com/2011/02/10/postgresql-basics/
 [Postgres]: www.postgresql.org/
 http://www.postgresql.org/docs/8.2/static/index.html
 
@@ -222,8 +222,8 @@ QGIS
 [Community support]: http://www.qgis.org/en/community.html
 
 ###*Inasafe###
-Information regarding the QGIS plug-in, [“Inasafe”], which can be used for modeling disasters.  This tool is dependent on good data collection from OSM (or other sources) and hazard data (which is normally conducted by scientists or historic events).	
-["Inasafe"]: http://www.inasafe.org/
+Information regarding the QGIS plug-in, [Inasafe], which can be used for modeling disasters.  This tool is dependent on good data collection from OSM (or other sources) and hazard data (which is normally conducted by scientists or historic events).	
+[Inasafe]: http://www.inasafe.org/
 
 Github and OSM
 --------------
@@ -231,7 +231,7 @@ Github and OSM
 A [cheat-cheat] for Github code. 
 [cheat-cheat]:http://cheat.errtheblog.com/s/git
 
-###*Github Support ###
+###*Github Support###
 Check out the documentation at [http://help.github.com/pages] or contact support@github.com.
 
 
@@ -241,7 +241,7 @@ Community Support and Resources
 A [facebook group] devoted to Indonesian support.
 
 
-###*Twitter### 
+###*Twitter
 OSM Twitter Handle [@OSMblogs],[@OpenStreetMap], etc.
 [@OSMblogs]:https://twitter.com/osmblogs
 [@OpenStreetMap]: https://twitter.com/openstreetmap
@@ -281,6 +281,7 @@ A look at some of the [best examples] of OSM.
 If you want to see who is mapping in your area, or anywhere in the world, right now you can view them at this [link]. (You have to save your edits to get on the site).
 [link]: http://live.openstreetmap.fr
 
-
+###*WhoDidIt###
+A new website devoted to determining who edited objects
 
 
