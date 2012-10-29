@@ -3,10 +3,8 @@
 # This file is distributed under the same license as the learnosm package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: learnosm 1.0\n"
+msgstr "Project-Id-Version: learnosm 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-26 14:01\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -38,7 +36,7 @@ msgid ""
 "and shapes. You added presets to these objects in order to attach "
 "information about them. By the end, you were able to draw your own map in "
 "JOSM."
-msgstr ""
+msgstr "第3章ではJOSMをインストールし、最初のポイントやライン、シェイプの描き方を紹介しました。また、編集したオブジェクトに対して、プリセットを使って情報を追加する方法も紹介しています。これだけの知識でも、JOSMで地図を描くことは可能です。"
 
 # 83cfe8eeb66c4fe4b808a0107643e98b
 #: ../../beginner/edit_josm.rst:12
@@ -48,7 +46,7 @@ msgid ""
 "yet included location. In the past two chapters we've examined two tools, "
 "GPS and Walking Papers, which allow us to collect actual locations of "
 "places. These locations are represented by coordinates."
-msgstr ""
+msgstr "しかし、第3章で紹介した知識はあくまでも最低限の操作方法だけです。そして、私たちの地図はこのままでは不正確です。私たちは、記述する対象の正しい位置情報をまだ把握していません。ですが、ここまでの2章の間に、GPSとウォーキングペーパーという2つのツールを紹介しました。どちらも、特定の場所に対する位置情報を収集するツールです。位置情報は、緯度と経度と呼ばれる2つの数字の組み合わせによって表現されます。"
 
 # 4cab3c9f83a44b74a80b4da24c4c273d
 #: ../../beginner/edit_josm.rst:18
@@ -58,48 +56,48 @@ msgid ""
 "in chapter 3. But now, we will use our GPS points and tracks, and our "
 "Walking Papers, to draw similar maps at their correct locations on the "
 "planet."
-msgstr ""
+msgstr "現実世界を紙の地図に描くには、ポイントやライン、シェイプの正しい位置を把握する必要があります。それに関しては、3章で私たちが描いたデジタル地図と紙の地図で変わることはありません。そして、デジタルの地図を描く際には、GPSの移動記録とウォーキングペーパーを使うことで、この地球上におけるそれら地点の正しい位置を知ることができます。"
 
 # 7abdd4b36e434b28846a37a8797c0de9
 #: ../../beginner/edit_josm.rst:23
 msgid ""
 "In this chapter we will learn how to edit the map on OpenStreetMap and add "
 "our improvements. We'll learn the basic cycle of mapping on OSM:"
-msgstr ""
+msgstr "この章では、実際のOpenStreetMapの地図データを修正し、改良する方法について紹介します。まずは、OSM編集の基本的なサイクルは以下のようになります。"
 
 # 90d095ac3c434576b1db091c1dda490b
 #: ../../beginner/edit_josm.rst:26
 msgid "**download** the current map data from OSM"
-msgstr ""
+msgstr "現在OSMデータベースに入力されているデータを **ダウンロード**"
 
 # 524d6cca6ba249588060ecd53cc9695b
 #: ../../beginner/edit_josm.rst:27
 msgid "**edit** it using GPS, Walking Papers, and notes as a guide"
-msgstr ""
+msgstr "GPSやウォーキングペーパー、その他のノートを参考にして **情報を編集**"
 
 # a3d77e0753214717bcc9ff90ae106d15
 #: ../../beginner/edit_josm.rst:28
 msgid "**save** changes to OpenStreetMap"
-msgstr ""
+msgstr "OpenStreetMapへデータをアップロードして **保存**"
 
 # 409175b15e47478e9158ebafb510e116
 #: ../../beginner/edit_josm.rst:30
 msgid ""
 "By the end of this chapter, we will be able to see our additions on the OSM "
 "map."
-msgstr ""
+msgstr "この章の内容を理解することで、OSMの地図上で自身が編集した情報を閲覧することができるようになるでしょう。"
 
 # 12e7914308eb48599437ed945f2973b5
 #: ../../beginner/edit_josm.rst:34
 msgid "Prepare JOSM"
-msgstr ""
+msgstr "JOSMの準備"
 
 # 36ee78977bd742dba599af9b3b5821f6
 #: ../../beginner/edit_josm.rst:36
 msgid ""
 "To start JOSM, click on the Start Menu in the lower left corner of your "
 "computer, and find the program JOSM."
-msgstr ""
+msgstr "コンピュータの画面左下に配置されているスタートメニューからJOSMを選択し、起動します。"
 
 # 577661adbd534f8fab306df742643eb1
 #: ../../beginner/edit_josm.rst:38
@@ -107,12 +105,12 @@ msgid ""
 "Now load your gpx file and you Walking Paper. You don't need to open both, "
 "but you can if you want. Refer to the previous two chapters if you don't "
 "remember how to open these in JOSM."
-msgstr ""
+msgstr "起動が完了したら、GPSの移動記録gpxファイルとウォーキングペーパーをJOSMへ読み込んでください。2つのデータは同時に読み込んでも別々に読み込んでもかまいません。JOSMでのファイル読み込み方法がわからない場合は、前述の2章の記述を参照してください。"
 
 # fa631674a64a4ce6a1075f1961db7411
 #: ../../beginner/edit_josm.rst:47
 msgid "Download OSM Data"
-msgstr ""
+msgstr "OSMデータのダウンロード"
 
 # 2cfe55725e174ee6aa06d1c06d1361c2
 #: ../../beginner/edit_josm.rst:49
@@ -120,7 +118,7 @@ msgid ""
 "Remember the cycle of editing OpenStreetMap described in the introduction of "
 "this chapter? **Download, edit, save.** Before we can edit the map, we must "
 "download the existing OSM data in our area."
-msgstr ""
+msgstr "この章の最初に説明した、OpenStreetMapの情報編集サイクルを思い出してください。**ダウンロード、編集、セーブです。** 地図を編集可能な状態にするには、まずはあなたが描きたい地域のデータをダウンロードする必要があります。"
 
 # d9cabef11ad7451c9da3321075315d54
 #: ../../beginner/edit_josm.rst:52
@@ -129,7 +127,7 @@ msgid ""
 "you have opened, and will automatically move to the correct coordinates. "
 "After you open your files, look in the bottom left corner of JOSM. You can "
 "see the latitude and longitude (coordinates) of your mouse cursor."
-msgstr ""
+msgstr "既にGPXファイルやウォーキングペーパーを読み込んでいる場合、そのデータが画面に表示され、自動的に当該の地域へ表示域が移動しているはずです。ファイルを読み込んだ後に、JOSMの左下を確認してみてください。マウスカーソルが示す位置の緯度と経度(座標)が表示されます。"
 
 # c023da98d3084d6facac368e05f0fe13
 #: ../../beginner/edit_josm.rst:60
@@ -139,14 +137,14 @@ msgid ""
 "in the top left corner of JOSM and click \"Download from OSM\". This will "
 "open up the download window. You can access this window more simply by "
 "clicking on the download button, shown here:"
-msgstr ""
+msgstr "編集したい地域を既に読み込んでいる場合、その地域のOpenStreetMapデータをダウンロードするのは簡単です。JOSM画面左上の”ファイル”→”OSMからダウンロード”をクリックすると、ダウンロード用の画面がポップアップします。この画面は、以下のダウンロードボタンをクリックすることでも呼び出すことができます。"
 
 # 3a1ac19e045f4fd39ca91aa56629825b
 #: ../../beginner/edit_josm.rst:69
 msgid ""
 "When the download window opens, you should see a map with a pink box drawn "
 "on it. If you don't see the map, click on the tab marked \"Slippy map\"."
-msgstr ""
+msgstr "ダウンロード画面には、ピンク色の四角形が描かれた地図が表示されているはずです。地図が表示されない場合は、”スリッピーマップ”と書かれたタブをクリックしてください。"
 
 # 0a9d7dfa77264a5a998ca3591d54d5c0
 #: ../../beginner/edit_josm.rst:76
@@ -158,7 +156,7 @@ msgid ""
 "To draw a new box, click on the map, hold your left mouse button down, and "
 "drag your mouse to create a box. Release the mouse button to finish drawing "
 "the box."
-msgstr ""
+msgstr "ピンク色の四角形で囲まれた部分がダウンロードされ、編集用のデータになります。GPSファイルやウォーキングペーパーを読み込ませた後、地域を移動させずにダウンロード画面を開いた場合、それらの地域を囲む形でピンク色の四角形が描かれます。もし自分で新しく四角形を描いた場合、より広い地域がダウンロードの対象となります。新しく四角形を描く場合は、マウスを左クリックしたままドラッグしてください。左クリックをやめた地点を終点として、四角形が描かれます。"
 
 # e6afe7c780c54a21835452c944348da2
 #: ../../beginner/edit_josm.rst:83
@@ -166,19 +164,19 @@ msgid ""
 "When you are satisfied with the size and location of the box, click "
 "\"Download\" at the bottom of the window. JOSM will get the data for this "
 "area from OpenStreetMap and open it in your map window for editing."
-msgstr ""
+msgstr "ダウンロードする領域を決定したら、”ダウンロード”ボタンをクリックしてください。JOSMは自動的にその地域のOpenStreetMapデータをダウンロードし、編集用データとして画面に表示させます。"
 
 # b1266136f22f45d8b7527ee88c499ae1
 #: ../../beginner/edit_josm.rst:88
 msgid "Edit"
-msgstr ""
+msgstr "編集"
 
 # 6cad927373424246a516633083a4e37b
 #: ../../beginner/edit_josm.rst:90
 msgid ""
 "The next step is to edit the map and add new items. This is not always easy "
 "at first, but with practice you will get better and better."
-msgstr ""
+msgstr "次は実際に地図を編集し、新しいオブジェクトを追加してみましょう。慣れないうちは大変かもしれませんが、何度か練習で描いて感覚をおぼえましょう。"
 
 # 92a327c9a1484e7ab44ff89e716c2e58
 #: ../../beginner/edit_josm.rst:92
@@ -186,20 +184,20 @@ msgid ""
 "If you want to move a point, line, or shape, use the **select tool.** Click "
 "on an object and drag it where it should be. This can be used to correct the "
 "location of items that have been put in the wrong place."
-msgstr ""
+msgstr "ポイントやライン、シェイプを移動させる際には、”選択”ツールを使います。オブジェクトをクリックし、正しい位置へ移動させてください。こうすることで、誤った位置に配置されたオブジェクトを、正しい位置へ移動させることが可能です。"
 
 # 3fd595ba73d740acadc60301f99a0747
 #: ../../beginner/edit_josm.rst:99
 msgid ""
 "Use the **draw tool** to draw new points, lines, and shapes. Describe these "
 "objects by selecting from the Presets menu, as you did in Chapter 3."
-msgstr ""
+msgstr "ポイントやライン、シェイプを新しく描き足すには、”描画”ツールを使います。描いたオブジェクトに情報を追加するには、第3章で紹介したプリセットメニューを選択します。"
 
 # eeab4c91f2e840cc9884cdf605e320e1
 #: ../../beginner/edit_josm.rst:101
 msgid ""
 "Remember that your GPS points and your Walking Papers don't automatically go"
-msgstr ""
+msgstr "GPSやウォーキングペーパーの内容が自動的にOpenStreetMapに保存されるわけではないことに注意してください。"
 
 # 8610115af7fb456bae1ffe76db4cff91
 #: ../../beginner/edit_josm.rst:102
@@ -207,7 +205,7 @@ msgid ""
 "into OpenStreetMap. You need to add them to the OSM map digitally, using the "
 "draw tool. But your points, tracks, and Walking Papers can be seen in the "
 "background as a guide."
-msgstr ""
+msgstr ". それらの情報をOSMへデジタル情報として追加するには、”描画”ツールを使う必要があります。GPS記録やウォーキングペーパーは、編集時の参考画像として背景に読み込まれます。"
 
 # cc9109ab334f46af83db16f07338dc9d
 #: ../../beginner/edit_josm.rst:105
@@ -218,12 +216,12 @@ msgid ""
 "your map window. This will create a point. Then go to the Presets menu, and "
 "find the preset for school. Enter the name of the school and click \"Apply "
 "Preset\". Do the same to add lines and shapes."
-msgstr ""
+msgstr "例えばGPSの記録に”030″と記されたポイントがあり、メモ帳には”030は学校”と書いてあるとしましょう。JOSMを使ってこのポイントをOpenStreetMapへ追加するには、まず描画ツールを選択し、地図編集領域に表示された”030″の位置でダブルクリックします。ポイントが作成されます。次にプリセットメニューを選択し、学校のプリセットを選択します。学校の名称を入力し、”プリセットの適用”を選択します。その他、ラインやシェイプについても同様に処理してください。"
 
 # 7f17f14ce7da4a4682f1bb098f99f524
 #: ../../beginner/edit_josm.rst:117
 msgid "Upload Changes"
-msgstr ""
+msgstr "変更のアップロード"
 
 # 7e447aee1bf048658e494020493f9790
 #: ../../beginner/edit_josm.rst:119
@@ -231,7 +229,7 @@ msgid ""
 "After you have made a couple of changes to improve the map, let's save those "
 "changes to OpenStreetMap. To save the changes, we need to be connected to "
 "the internet, because we are in fact uploading the changes to OpenStreetMap."
-msgstr ""
+msgstr "編集が終わったら、結果をOpenStreetMapへ保存しましょう。変更を保存するということは、OpenSteetMapへ変更をアップロードする、という意味でもあります。そのため、インターネットへの接続環境が必要です。"
 
 # 9a3c71f6a2b34d3583b368cbaad10770
 #: ../../beginner/edit_josm.rst:122
@@ -239,7 +237,7 @@ msgid ""
 "Click \"File\" on the top menu, and then click \"Upload Data\". This will "
 "open up the upload window. You can access this window more simply by "
 "clicking on the upload button, shown here:"
-msgstr ""
+msgstr "トップメニューから”ファイル”を選択し、”データをアップロード”をクリックすると、アップロード画面がポップアップします。この画面は、以下のアップロードボタンをクリックすることでも呼び出すことができます。"
 
 # e47e56a03702442583a3e6568189886f
 #: ../../beginner/edit_josm.rst:130
@@ -248,12 +246,12 @@ msgid ""
 "the objects you are modifying or deleting. In the box at the bottom you are "
 "asked to provide a comment about the changes that you are making. Type in "
 "here a description of your edits."
-msgstr ""
+msgstr "アップロード画面には、あなたが追加編集したオブジェクトが一覧で表示されています。下部に表示されたボックスには、あなたが行った変更に対するコメントの入力欄があります。簡単な文章でかまいませんので、行った変更内容を入力してください。"
 
 # 8616b5e4ada94d8aa5997f811ff31dbd
 #: ../../beginner/edit_josm.rst:139
 msgid "Click \"Upload Changes\"."
-msgstr ""
+msgstr "“変更のアップロード”をクリックしてください。"
 
 # 55f2ceb11af346e8a6983ad0d383f3cc
 #: ../../beginner/edit_josm.rst:140
@@ -263,7 +261,7 @@ msgid ""
 "them in the window that appears. If you check the box in this window, your "
 "username and password will be saved and you won't need to enter them again "
 "in the future. Click \"Authenticate\"."
-msgstr ""
+msgstr "はじめてOpenStreetMapへ変更を保存する際にはユーザ名とパスワードの入力を求められます。2章で作成したユーザ名とパスワードを入力してください。ボックスにチェックを入れると、ユーザ名とパスワードはJOSMに保存され、以降の操作のたびに入力する必要はなくなります。”認証”をクリックしてください。"
 
 # 79bb4fac7c47405baf8191e26427e3d5
 #: ../../beginner/edit_josm.rst:149
@@ -272,24 +270,24 @@ msgid ""
 "then you are done! You have made your first edits to OpenStreetMap. You may "
 "continue editing to add all your points if you wish. Always be sure to "
 "upload your changes before you close JOSM."
-msgstr ""
+msgstr "変更内容がサーバにアップロードされるには、少なくとも数十秒かかります。OpenStreetMapの最初の編集はこれにて完了です！また、アップロードした後でも、編集を続けて行うことができます。変更した内容はJOSMを閉じる前に必ずアップロードするよう、注意してください。"
 
 # 9d66f9e788b64873a0ca20c932b76eb7
 #: ../../beginner/edit_josm.rst:155
 msgid "See Your Changes on the Map"
-msgstr ""
+msgstr "変更結果を地図で確認"
 
 # 394bf9387a454dcf85cd0954477766dc
 #: ../../beginner/edit_josm.rst:157
 msgid ""
 "Open your internet browser and go to `openstreetmap.org <http://www."
 "openstreetmap.org/>`_."
-msgstr ""
+msgstr "ブラウザを開き、`openstreetmap.org <http://www.openstreetmap.org/>`_ を表示してください。"
 
 # 60cdc3a73faf40cc9afb7d84889ccd32
 #: ../../beginner/edit_josm.rst:158
 msgid "Move the map to the area that you edited."
-msgstr ""
+msgstr "表示されたら、編集を行った地域まで地図を移動させます。"
 
 # 84ee0bd6ad23453a8ff246b22f754842
 #: ../../beginner/edit_josm.rst:159
@@ -297,7 +295,7 @@ msgid ""
 "You should see your changes now appearing on the map! If you don't, try "
 "pressing CTRL+R to refresh the web page. Sometimes the map doesn't update "
 "properly and needs to be reloaded."
-msgstr ""
+msgstr "あなたが行った変更は地図に反映されているでしょうか？もしまだ表示に反映されていないときは、Ctrl+Rキーを押してウェブページを更新してください。稀にではありますが、地図の更新が正常に行われず、ページの更新が必要になる場合があります。"
 
 # 198960c7b86244a1b305cb0e18efcdbd
 #: ../../beginner/edit_josm.rst:162
@@ -307,7 +305,7 @@ msgid ""
 "to make sure that you added them correctly. A good general rule is, if your "
 "point has an icon in JOSM, then it should be seen on the main map at the "
 "OpenStreetMap website."
-msgstr ""
+msgstr "基本的に、地図に変更が反映されるには数分間かかる場合があります。この動作は正常ですので、安心して下さい。心配な場合は、JOSM画面で追加分をチェックすることで、更新作業が正常に完了したか確認することができます。一般的な動作として、もしJOSMでポイントが正常に表示されている場合、時間がかかることはありますがOpenStreetMapの地図でも表示されます。"
 
 # 82cd304c95ff4f9280035928ee45b6aa
 # 2a43350ecf5a48f6b33a12c19ecf10d2
@@ -316,7 +314,7 @@ msgstr ""
 #: ../../beginner/edit_josm.rst:169 ../../beginner/moving_forward.rst:84
 #: ../../beginner/papers.rst:240 ../../beginner/start_josm.rst:323
 msgid "Summary"
-msgstr ""
+msgstr "まとめ"
 
 # 53cd21d513fb4e4981d48d8eeeadbff7
 #: ../../beginner/edit_josm.rst:171
@@ -326,7 +324,7 @@ msgid ""
 "to the map, those changes remain and the data gets better and better. And "
 "just as you can improve other people's work, so they can improve your work "
 "too."
-msgstr ""
+msgstr "OpenStreetMapへデータを追加する方法を把握できましたか？OSMの地図は、時間と更新を経るごとに改善されてゆく、ということを忘れないで下さい。地図に手を加えるごとに、加わった改良はデータとして残り、地図はさらに使い勝手の良い、便利な地図へと更新されてゆきます。そして、他の誰かが更新した内容にあなたが手を加えるのと同じように、あなたの行った変更は他の誰かからも手が加えられます。"
 
 # 9103b03d63184b47a913a0810ed40926
 #: ../../beginner/edit_josm.rst:176
@@ -334,7 +332,7 @@ msgid ""
 "In the next chapter, we will go over some more advanced JOSM techniques. "
 "We'll learn how to draw better shapes, how to use different tools, and what "
 "all the buttons and windows are surround the map!"
-msgstr ""
+msgstr "次の章では、JOSMの機能についてさらに詳しく紹介します。より便利なシェイプの描き方や、新しいツールの使い方、地図を表示している領域を囲む様々なボタンとパネルについて紹介します。"
 
 # c20e880e77e6469da82df649b7d5b5cd
 #: ../../beginner/index.rst:15
@@ -375,7 +373,7 @@ msgid ""
 "important information? Spend a few minutes making your map, and when you're "
 "finished, think about why the information you included is important, and who "
 "it might be important to."
-msgstr ""
+msgstr "情報にはチカラがあります。有用な情報を正しく理解すると、日々の生活はより豊かに変わってゆきます。また、これから起きるかもしれない事柄に対して準備をするためにも、情報を得ておくことはとても大切です。これは、個人であっても集団でもあっても変わりません。現在、私たちの日々の生活には、多くの組織や人々が関わっています。例えば政府やNGO、そしてNPOや個人といったそれらの人々が良質な情報を得ることができれば、各々の組織や個人は判断をしやすくなり、結果として、私たちの日々の生活は少しずつ便利になるはずです。そして地図とは、情報を伝達するためにたいへん有効な手段の一つです。地図とは、私たちの世界をシンボルとして視覚化したものです。誰かに自分のアイデアを伝えるとき、言葉で説明するよりも地図の上に示すほうが説明しやすいことはよくあることでしょう。この問いかけはいわば、重要な質問への回答を導く鍵となります。ここから一番近い学校施設や病院の位置はどこなのでしょうか。それらの施設への行き方を知っているのは誰なのでしょうか。あるいは、生活が困窮している住民が多い地域はどこなのでしょうか。こういった質問に対しては地図をもって答えるのが最も理解しやすく、なおかつ、実際に地図を書くことで解決への糸口がつかめることもよくあることでしょう。試しに、実際に手近な紙とペンを使って、あなたの住む街の地図を描いてみてください。地図の上に何かを描く時、そこで最も強調して表現したいものはなんでしょうか。その地図で最も伝えたい情報とはなんでしょうか。地図を描く数分の間、そして地図を描き終わった際に、少し考えてみてください。地図の上に記述した事柄は、なぜ重要だったのでしょうか、そしてその事柄は、誰にとって重要なのでしょうか。"
 
 # 90569acc98534116be9bad8ffb511115
 #: ../../beginner/introduction.rst:33
@@ -385,7 +383,7 @@ msgid ""
 "schools and offices, fields, or boundaries. Whatever you drew, you probably "
 "used symbols – a line to symbolize a road, a square to symbolize a building, "
 "and so on. Your map is a representation of what is on the ground."
-msgstr ""
+msgstr "あなたが住んでいる場所がどこであれ、大抵の場合、地図には道路が描かれているでしょう。時には河川や小川が描かれているかもしれませんし、学校やオフィスなどの重要な建物や、田畑や山林といった土地の利用方法、なんらかの境界線を描いているかもしれません。また、あなたが描いた地図には、何らかのシンボルが描かれていることでしょう。シンボルとは例えば、道路を表す線や建物を表す四角形などもシンボルのひとつです。あなたの描いた地図とシンボルは、その土地に何があるのか、を表現しています。"
 
 # 2a5df35280974ffd9feee4deea7f12fa
 #: ../../beginner/introduction.rst:45
@@ -406,7 +404,9 @@ msgid ""
 "anything else, and we still represent schools and hospitals with symbols. "
 "The important thing is that OSM maps are saved on the internet, and anyone "
 "can access them at any time, totally free."
-msgstr ""
+msgstr "あなたが描いた地図には情報が埋め込まれています。コミュニティで問題が発生した時、あるいは単純に、誰かに助言を求める場合など、あなたが誰かに地域の説明をする場合はこのような手書きの地図が使われることでしょう。しかしながら、あなたの描いた地図の使い道はとても限定的です。その地図は1枚だけしかありませんし、さらに、あなたの観点による記述はあなたにとってのみ価値があるものです。異なった観点をもつ他の誰かにとって、あなたの地図がそのまま意味を持つとは限りません。あなたの描いた地図は、そのままでは紙の上に描かれた単なる点と線に過ぎず、他の人がそこから情報を得ることは困難なのです。そこでコンピュータ上の地図の出番です。\n"
+"\n"
+"コンピュータの上に描かれることによって、地図は誰もがアクセスできるものとなり、その価値を増します。OpenStreetMapとは地図そのものを作成し、さらに地図に描かれたさまざまな情報を共有するためのツールです。OSMへは誰でも手を加えることができます。そして実際、毎日数千人もの人たちが、このプロジェクトへの加筆修正を加えています。このプロジェクトの地図は、紙ではなくコンピュータの上に描かれます。しかし、このガイドの中で紹介されているように、コンピュータを使った地図の描き方と紙の上での描き方に大きな違いはありません。土地の利用方法や道路などを示すには線を描きますし、学校や病院を表すにはシンボルを使います。重要なのは、OSMはインターネットの上に保存され、誰しもがアクセスでき、すべてが自由(フリー)である、ということです。"
 
 # 21978ed9dfa243fc9db9421a8662ed8c
 #: ../../beginner/introduction.rst:67
@@ -414,12 +414,12 @@ msgid ""
 "We hope that you will find OpenStreetMap useful and interesting in your "
 "work. By following this guide, you should be able to quickly start making "
 "digital maps and adding to OSM."
-msgstr ""
+msgstr "OpenStreetMapがあなたの活動にとって興味深く使いやすいものであるように、そしてさらに、このガイドを手引きとして、あなたもまたOSMというデジタル地図を描くようになってもらえることを、私たちは願っています。"
 
 # 41ba3c0aed6545cf99633fa40a661b9f
 #: ../../beginner/moving_forward.rst:3
 msgid "Moving Forward"
-msgstr ""
+msgstr "次への一歩"
 
 # 537778ae25b04e64937373232389fa17
 #: ../../beginner/moving_forward.rst:5
@@ -428,12 +428,12 @@ msgid ""
 "understanding now of how to make maps with OpenStreetMap. What else can you "
 "do with OSM? How can you learn more? How can you stay connected to the "
 "community of mappers?"
-msgstr ""
+msgstr "ここまでの長い道のり、おつかれさまでした！OpenStreetMapで地図を描くにあたって、あなたは既に十分な知識を得ています。では、OSMを使うことによって、具体的に何が出来るようになるでしょうか。これから先、OSMについてさらに多くのことを知るにはどうしたらよいのでしょうか。マッパーたちのコミュニティと繋がり続けるにはどうしたらよいのでしょうか。"
 
 # 68975a1f1f6c477d9bee47b3b7686b2b
 #: ../../beginner/moving_forward.rst:11
 msgid "OpenStreetMap Tools"
-msgstr ""
+msgstr "OpenStreetMap関連ツール"
 
 # 9a4e43ff2f424804aceb75bb909c2238
 #: ../../beginner/moving_forward.rst:13
@@ -442,7 +442,7 @@ msgid ""
 "need to contribute to the map. But because the data on OSM is open, it has "
 "encouraged many more projects and tools that allow you to do more with the "
 "OpenStreetMap map."
-msgstr ""
+msgstr "このガイドでは、OSMを支える技術、そして地図を描くために必要なツールについて紹介してきました。しかしOSMのデータはそもそもオープンであり、その地図データを利用するたくさんの派生プロジェクトやツールが存在しています。"
 
 # 4f6957239a7344bfb1fc7c0e181b4900
 #: ../../beginner/moving_forward.rst:19
@@ -457,12 +457,12 @@ msgid ""
 "a simple tool for printing a map of any area you choose. It will "
 "automatically create the map, along with a grid over the map, and an index "
 "of locations that are included in the area."
-msgstr ""
+msgstr "その中の一つにMapOSMaticがあります。ブラウザから `maposmatic.org <http://www.maposmatic.org/>`_ へアクセスしてみてください。MapOSMaticはシンプルなツールで、いくつか選択した地域を同時に表示することができます。対象地域の地図は自動的に生成され、座標を表すマス目が重ねられたうえで、地域内の地物が一覧として表示されます。"
 
 # ca554fcc60dd4299aad48376e7115a1b
 #: ../../beginner/moving_forward.rst:32
 msgid "Learn More"
-msgstr ""
+msgstr "OSMについてさらに知るには"
 
 # f7b3f6870fb74ae8a8fa734b6ef21bfc
 #: ../../beginner/moving_forward.rst:34
@@ -471,12 +471,12 @@ msgid ""
 "openstreetmap.org <http://wiki.openstreetmap.org/>`_. Here you can find "
 "information about other projects that are related to OpenStreetMap, and "
 "documents and tutorials that can help you learn more about OSM."
-msgstr ""
+msgstr "`wiki.openstreetmap.org <http://wiki.openstreetmap.org/>`_ にアクセスしてみてください。このWikiには、OpenSteetMapに関する非常に多くの情報が集まっています。OSMについてより深い知識を得るためには、このWikiページに記載されているOpenStreetMapに関連するプロジェクトの情報、ドキュメント、チュートリアルを読むことが非常に有益となるでしょう。"
 
 # bdf11006d21944738995c653366be559
 #: ../../beginner/moving_forward.rst:40
 msgid "Mailing List"
-msgstr ""
+msgstr "メーリングリスト"
 
 # a1963bfe9ff548a5895db6d5937678e1
 #: ../../beginner/moving_forward.rst:42
@@ -485,14 +485,14 @@ msgid ""
 "your local mailing list. Many people sign up, using their email accounts to "
 "the OSM mailing list. Once you are on the list, you can send an email to the "
 "group if you have a question or want to talk about OpenStreetMap."
-msgstr ""
+msgstr "OpenStreetMapのコミュニティとつながりを持ち続けるには、あなたの住んでいる地域のメーリングリストに参加するのが最善です。メーリングリストには、多くの人達が自身のメールアドレスを登録して参加しています。リストに参加することで、OpenStreetMapに関する質問や回答のメールを、グループに対して送付することができます。"
 
 # 5cdfd68b0bd74bf583bee1b9d55a9afe
 #: ../../beginner/moving_forward.rst:47
 msgid ""
 "To sign up for your country's mailing list, open your internet browser and "
 "go to `lists.openstreetmap.org <http://lists.openstreetmap.org/>`_."
-msgstr ""
+msgstr "あなたが住んでいる地域のメーリングリストに参加するには、 `lists.openstreetmap.org <http://lists.openstreetmap.org/>`_ をブラウザで開いてください。"
 
 # 21fa386f214846ea82a240b7f0cb81aa
 #: ../../beginner/moving_forward.rst:54
@@ -500,42 +500,42 @@ msgid ""
 "Scroll down the page to find the list associated with your country. The "
 "country lists are named \"Talk-lg\", where lg represents the country of that "
 "list. For example, \"Talk-id\" is the list for Indonesia."
-msgstr ""
+msgstr "画面をスクロールさせて、あなたの国のリストを探してみましょう。メーリングリストは”Talk-lg”という形式になっており、lgの部分にそれぞれの国の名称が割り当てられています。例えば、インドネシアのリストは”Talk-id”になります。"
 
 # 40168a51137644c492bc80830ff31ef7
 #: ../../beginner/moving_forward.rst:57
 msgid "Click on the list you want to join."
-msgstr ""
+msgstr "参加したいリストをクリックしてください。"
 
 # 425565a8573a42fa8803605012eede15
 #: ../../beginner/moving_forward.rst:58
 msgid "Enter the following information in the boxes on this page:"
-msgstr ""
+msgstr "表示されたページに、以下の情報を入力します。"
 
 # a65e263c2dd74cf6af0cd91fd53ed0c3
 #: ../../beginner/moving_forward.rst:60
 msgid "your email address"
-msgstr ""
+msgstr "あなたのメールアドレス"
 
 # b011d1966cb74293a2a1871b22a64141
 #: ../../beginner/moving_forward.rst:61
 msgid "your first name"
-msgstr ""
+msgstr "あなたの名前"
 
 # 0ddd622b153c47e693d79fac3b59a3e7
 #: ../../beginner/moving_forward.rst:62
 msgid "a new password"
-msgstr ""
+msgstr "パスワード"
 
 # 3178ff22fbdb494991ab92bb1c5ae639
 #: ../../beginner/moving_forward.rst:63
 msgid "repeat the password"
-msgstr ""
+msgstr "パスワードを再入力"
 
 # 7c654f3625ef4ad29e96edfb10b08b62
 #: ../../beginner/moving_forward.rst:69
 msgid "When you are finished, click Subscribe."
-msgstr ""
+msgstr "入力が終わったら、”Subscribe”をクリックしてください。"
 
 # 08213de4cf9a4ab58dbbb2039021b64b
 #: ../../beginner/moving_forward.rst:70
@@ -543,17 +543,17 @@ msgid ""
 "Now you need to open your email, just as you did when you signed up for "
 "OpenStreetMap in chapter 2. There will be a confirmation email in your inbox "
 "from the mailing list."
-msgstr ""
+msgstr "第2章でOpenStreetMapのウェブサイトに登録した時と同じように、入力したメールアドレス宛てにメールが送付されます。メールには、登録するメールアドレスの確認項目がありますので、確認をします。"
 
 # 66a9ff6564f749cfa61062d3345d8d96
 #: ../../beginner/moving_forward.rst:73
 msgid "Click on the confirmation link, which looks like this:"
-msgstr ""
+msgstr "以下のような文面で、確認のリンクが記載されていますので、クリックします。"
 
 # deacfd759db7450eb20291b10d34e64c
 #: ../../beginner/moving_forward.rst:78
 msgid "You should now be a member of the mailing list."
-msgstr ""
+msgstr "以上で、メーリングリストへの登録は完了です。"
 
 # 1689c7e78ac74dc7baa61556d067c5f7
 #: ../../beginner/moving_forward.rst:79
@@ -561,7 +561,7 @@ msgid ""
 "Now when you want to send a message to the list, you can send it to talk-"
 "id@openstreetmap.org, replacing \"id\" with the country for your list. You "
 "will also receive emails when other members send a message to the list."
-msgstr ""
+msgstr "メーリングリストにメッセージを送付する際には、”talk-id@openstreetmap.org”(“talk-id”の部分は、あなたが登録したリスト名に読み替えてください)に対してメールを送付します。また同様に、リストに参加しているメンバーがメールを送付した際には、あなたのもとにメールが届きます。"
 
 # d988fd6b9308472f8ced73815a5170eb
 #: ../../beginner/moving_forward.rst:86
@@ -569,12 +569,12 @@ msgid ""
 "These are some of the ways that you can use and stay connected with the "
 "OpenStreetMap community and learn more. We hope you'll continue exploring "
 "and learning more about OSM, and contribute to the project. Happy Mapping!"
-msgstr ""
+msgstr "OpenStreetMapのコミュニティとつながり、より多くの知識を得るにはいくつもの方法が存在しています。私たちは、OpenStreetMap、さらにその関連プロジェクトについて、これからもあなたが興味を持ち、学び続けていただけることを祈っています。Happy Mapping!"
 
 # 84637d3728f14a768528826d618e6fc1
 #: ../../beginner/papers.rst:3
 msgid "Using Walking Papers"
-msgstr ""
+msgstr "ウォーキングペーパーの利用法"
 
 # 8fbe262cbe9c4852b0da2ecba5b4261a
 #: ../../beginner/papers.rst:8
@@ -583,19 +583,19 @@ msgid ""
 "without a GPS. We will use a tool called Walking Papers, which allow you to "
 "print a map of an area, draw on it and add notes, and load the paper back "
 "into JOSM, where you can add your locations to OpenStreetMap."
-msgstr ""
+msgstr "この章では、GPSを使わずに土地の情報を記録するための方法を紹介します。今回はウォーキングペーパーと呼ばれるツールを使って、対象地域の地図を紙に印刷します。さらに、その紙の上に描いたメモや地物をJOSMに読み込ませることで、OpenStreetMapへデータを入力してみましょう。"
 
 # 81978366353f468ba339799c00180bf3
 #: ../../beginner/papers.rst:14
 msgid "Overview of Walking Papers"
-msgstr ""
+msgstr "ウォーキングペーパーの概要"
 
 # a6d0d748b673471180ab7fc0e613d843
 #: ../../beginner/papers.rst:16
 msgid ""
 "Before we walk go into detail about Walking Papers, let's look at an "
 "overview of how the process works:"
-msgstr ""
+msgstr "ウォーキングペーパーについて詳細に説明する前に、動作原理を簡単に紹介します。"
 
 # d659f91f4663414ca71ebeeb71334b89
 #: ../../beginner/papers.rst:19
@@ -604,7 +604,7 @@ msgid ""
 "Print out a map of this area.  You can choose to print the current map of "
 "the area on OpenStreetMap, or you can choose to print aerial imagery, if it "
 "is available in your area."
-msgstr ""
+msgstr "**ステップ 1:** 地図を描く対象の地域をウォーキングペーパーのウェブサイトで特定し、地図を印刷します。印刷の際には、対象地域で既に書かれているOpenStreetMapの画像か、あるいは(もし提供されていれば)その地域の航空写真かのどちらかを選ぶことができます。"
 
 # 8ff0411fba2b4e4089fece7ad0b3b55c
 #: ../../beginner/papers.rst:32
@@ -614,7 +614,7 @@ msgid ""
 "forth.  Write notes about each location directly on the map, or write "
 "numbers on the map that relate to numbers in your notebook, where you can "
 "write more detailed information about each object."
-msgstr ""
+msgstr "**ステップ 2:**  印刷された地図を使って、その地域を調査します。紙の地図の上に、より多くの事柄を追記してください。道路を示す線を引いたり、建物の形状を記載してもよいでしょう。対象についてのメモは、紙の地図の上に直接残します。あるいは他にメモ帳を用意しておき、対象についての詳細はメモ帳に別記して、地図の上には項番だけ記載しておくのも良い方法です。"
 
 # 0d6cb4fbda91412cb5f5600b7e881450
 #: ../../beginner/papers.rst:42
@@ -622,19 +622,19 @@ msgid ""
 "**Step 3:**  Scan your paper into the computer.  If you don't have a "
 "scanner, you can take a photograph of the paper, if your camera is able to "
 "take high quality pictures.  Upload the image to the Walking Papers website."
-msgstr ""
+msgstr "**ステップ 3:**  紙の地図をコンピュータでスキャンします。スキャナが無い場合は、高解像度のカメラで紙の地図の写真を撮ることでも代用できます。ウォーキングペーパーのウェブサイトへ、作成した画像ファイルをアップロードします。"
 
 # 9e2c6aefaa334b299726a6052277441c
 #: ../../beginner/papers.rst:46
 msgid ""
 "**Step 4:** In JOSM, load the Walking Paper.  Use the objects you draw as a "
 "reference to add them digitally into OpenStreetMap."
-msgstr ""
+msgstr "**ステップ 4:** JOSMを起動させ、ウォーキングペーパーを読み込みます。紙に描かれている情報を参考にして、OpenStreetMapの上へデジタル情報として記載を行います。"
 
 # 482a740634584eff87714957caec27f1
 #: ../../beginner/papers.rst:54
 msgid "How does Walking Papers work?"
-msgstr ""
+msgstr "ウォーキングペーパーの動作原理"
 
 # 506721f5b6434e7686cade6b1957c64d
 #: ../../beginner/papers.rst:56
@@ -642,7 +642,7 @@ msgid ""
 "If you follow the Walking Papers process described above, you will be "
 "collecting accurate geographic coordinates of places with nothing more than "
 "paper.  How is this possible?"
-msgstr ""
+msgstr "ここまでに紹介した手順に従うことで、現地で使うツールが紙とペンだけであっても、正確な土地データを収集することができます。では、その裏側ではどのような処理が行われているのでしょうか。"
 
 # 610a4669b39e4871b54b14ac3425a2a0
 #: ../../beginner/papers.rst:63
@@ -653,37 +653,37 @@ msgid ""
 "load the paper back into JOSM, all the objects that you drew will be in "
 "shown in their actual locations, or at least quite close, which is good "
 "enough for us."
-msgstr ""
+msgstr "ウォーキングペーパーを印刷すると、紙の下側に四角いバーコードが一緒に印刷されます。ウォーキングペーパーはこのバーコードを読み込むことで、調査対象地域の正確な座標を割り出します。このため、調査が完了した後、紙の地図をJOSMで読み込む際に、紙に記載されたすべての対象の実際の位置が(少なくとも、私たちにとっては十分なくらいの精度で)表示されるのです。"
 
 # b4f3074f599e44699f4c814727aa6018
 #: ../../beginner/papers.rst:69
 msgid "Now let's learn how to create and use Walking Papers."
-msgstr ""
+msgstr "それではここからは、ウォーキングペーパーを実際に印刷して、使ってみましょう。"
 
 # f61d19a2255e4b3281ce6dc6d5f3c04c
 #: ../../beginner/papers.rst:72
 msgid "Create and Print"
-msgstr ""
+msgstr "対象の地域の指定と印刷"
 
 # 1d6b40e445534a66b267e13a4c8b8d9a
 #: ../../beginner/papers.rst:74
 msgid ""
 "Open your web browser – this may be Firefox, Chrome, Opera, or Internet "
 "Explorer."
-msgstr ""
+msgstr "ブラウザを開きます。Firefox,Chrome,Opera,InternetExploerer、どのブラウザでもかまいません。"
 
 # f54a2f765cbb422e97b5aa04fedbf60a
 #: ../../beginner/papers.rst:76
 msgid ""
 "In the address bar at the top of the window, enter the following text and "
 "press Enter: `walking-papers.org <http://walking-papers.org/>`_"
-msgstr ""
+msgstr "ウィンドウ上部のアドレスバーに `walking-papers.org <http://walking-papers.org/>`_ と入力し、エンターキーを押してください。"
 
 # a9383156781e40daa3b599e7b0ab1e84
 # 54f690357c7a4531b45ff8ed4b5ca8fd
 #: ../../beginner/papers.rst:78 ../../beginner/start_josm.rst:32
 msgid "The website should look something like this:"
-msgstr ""
+msgstr "以下の画像のような画面が表示されます。"
 
 # 868894f5b4f54a3cb5cac672bd785007
 #: ../../beginner/papers.rst:84
@@ -691,7 +691,7 @@ msgid ""
 "Scroll down the page using the wheel on your mouse, or by dragging the "
 "scroll bar on the right side of the page.  Stop when you see the map, as "
 "shown here:"
-msgstr ""
+msgstr "マウスのホイールを使うか、ブラウザの右端にあるスクロールバーを使って、ページを下へスクロールしてください。この図にあるような地図が表示されたところで、スクロールを止めてください。"
 
 # d630a38175064472a316b39beac2cd45
 #: ../../beginner/papers.rst:91
@@ -701,7 +701,7 @@ msgid ""
 "website, using your left mouse button to drag the map East or West, and your "
 "scroll wheel to zoom in and out of the map.  Left-clicking on the + and – "
 "buttons in the upper left corner will also zoom in and out."
-msgstr ""
+msgstr "この地図に表示された地域が、ウォーキングペーパーの対象地域として紙に印刷されます。この地図は、OpenStreetMapのウェブサイトと同じ方法で操作できます。マウスの左クリックを押しながらドラッグして地域の移動、マウスホイールを使って拡大、縮小が可能です。地図の拡大縮小は、画面左上端に表示されている＋とーボタンを左クリックすることでも可能です。"
 
 # 96dbb8d5546e48498f3efee60f69d7c4
 #: ../../beginner/papers.rst:96
@@ -711,7 +711,7 @@ msgid ""
 "Try typing the name of your village or town inside the box, and click \"Find"
 "\".  If Walking Papers finds the location you typed, the map will "
 "automatically move there."
-msgstr ""
+msgstr "地図の上には、検索ボックスと”検索”ボタンが表示されています。目的の地点を検索することで、地図の表示領域を自動的に移動させることができます。検索ボックスへ市町村の名前を入力し、検索ボタンをクリックしてください。検索に適合する結果が存在すれば、地図の表示領域は自動的にその地点へ移動します。"
 
 # e600c41b8857423f905867f9d6c5ef5d
 #: ../../beginner/papers.rst:101
@@ -722,7 +722,7 @@ msgid ""
 "next to \"Orientation\" and selecting \"Landscape (A4)\".  You should see "
 "the size and shape of the map change to be wide, and sized to be printed on "
 "A4 size paper."
-msgstr ""
+msgstr "地図の下には、追加でいくつかのオプションが表示されています。最初のオプションは”向き”の項目です。この項目を操作することで、地図の印刷サイズと、紙の向きが変更できます。”向き”と書かれた隣のボックスで、”縦(A4)”を選んでみてください。地図の表示領域が少し大きくなり、印刷時にA4サイズで印刷されるようになります。"
 
 # 467e00a9d62f46e4b7ce73c4472c9768
 #: ../../beginner/papers.rst:106
@@ -734,7 +734,7 @@ msgid ""
 "imagery provided by Microsoft of the location you are viewing.  Note that "
 "not all locations are covered by high quality imagery, so what you see may "
 "be blurry, and not very useful for making maps!"
-msgstr ""
+msgstr "ウィンドウの一番上に表示されている”地図供給者”という文字列の隣のボックスをクリックします。この部分を操作することで、地図の見た目を変更することができます。オプションの多くは、地図の表示方法の変更に関するものです。例えば、地図によって線の描画が細くなったり、彩色や文字表示が変更されたりします。”BingAerialImagery”をクリックすると、地図ではなく、マイクロソフト社から提供されたその地域の航空写真を表示させることができます。ただし、高解像度の写真でカバーされている地域は限られています。そのため、表示される画像がぼやけすぎて地図作成に有効とはいえないこともありますので注意してください。"
 
 # f77199bace3b44cfbce260d49199a618
 #: ../../beginner/papers.rst:113
@@ -747,7 +747,7 @@ msgid ""
 "whole Earth, you are at zoom level 0.  When you zoom in as far as you can go "
 "you are at zoom level 18.  The current zoom level is shown just above the "
 "map.  Usually zoom level 15, 16, or 17 is good for making Walking Papers."
-msgstr ""
+msgstr "表示形式を選択し、あなたが編集したい地域を地図に表示させてください。検索によって目標地点を表示させた後でも、より正確な位置へ地図の表示を移動させることが可能です。地図の拡大・縮小を行うときには、\"ズームレベル\"と呼ばれる数字が変化します。この数字の意味は単純で、どれだけ対象の地点を拡大しているか、ということを表しています。最も広い地域を含めて対象の地域を表示しようとした場合は、地球全体が表示され、ズームレベルは0となります。対象の地点を最も拡大して表示した場合、ズームレベルは18となります。現在指定されているズームレベルは、地図の上部に表示されます。ウォーキングペーパーで地図を印刷する際には、ズームレベル15, 16, 17くらいがよく使われます。"
 
 # b2b3f5bdf8504b9abc14962cdd95178a
 #: ../../beginner/papers.rst:121
@@ -755,7 +755,7 @@ msgid ""
 "Let's make the print now!  If you have found the area you are interested in "
 "mapping and have selected the options that make your paper look good, you "
 "are ready.  Click the button labelled \"Make\", just below the map."
-msgstr ""
+msgstr "さぁ、それでは地図を印刷してみましょう！マッピングしたい地域が決まり、オプションを選んで表示を整えたら、ウォーキングペーパーの準備は完了です。地図の下に表示されている”作成”ボタンをクリックしてください。"
 
 # 4422007fd4bc4d8190459aea9e97ed0f
 #: ../../beginner/papers.rst:124
@@ -763,14 +763,14 @@ msgid ""
 "You will see a new page which says that your print is being processed.  When "
 "it is finished, you will see your print on this page.  It usually take "
 "anywhere from a few minutes up to twenty minutes for a print to be completed."
-msgstr ""
+msgstr "クリック後、新しいページが表示され、印刷時のイメージを作成する処理が実行されます。処理が完了すると、同じページ内に画像が表示されます。処理が完了するまでには、だいたい数分から20分ほど必要です。"
 
 # 294c8beb721b4305949391a5d52b61bb
 #: ../../beginner/papers.rst:131
 msgid ""
 "When your print is ready, click \"Download map PDF for print\".  The Walking "
 "Paper should begin downloading."
-msgstr ""
+msgstr "印刷の準備ができたら、”マップをダウンロード”を選択することで、PDFファイルのダウンロードが開始されます。"
 
 # d6a155cdb8d34cbd8281ed7162e5b947
 #: ../../beginner/papers.rst:133
@@ -778,19 +778,19 @@ msgid ""
 "When the download is finish, open the PDF file.  Connect your computer to a "
 "printer and print the page.  If everything goes well, you should now have "
 "your map printed on paper."
-msgstr ""
+msgstr "ダウンロードが完了したらPDFファイルを開いてみましょう。コンピュータとプリンタが接続されていることを確認して、PDFファイルを印刷します。以上の操作で、紙に印刷された地図の出来上がりです。"
 
 # bbea95a34439433aa2e9dbf72a9132f8
 #: ../../beginner/papers.rst:138
 msgid "Map with Walking Papers"
-msgstr ""
+msgstr "ウォーキングペーパーを使ったマッピング"
 
 # 69aa0c0e3e794612b6f534140a4035d6
 #: ../../beginner/papers.rst:140
 msgid ""
 "Take your Walking Paper outside, and use it as a guide to walk and identify "
 "new places that are not on the map."
-msgstr ""
+msgstr "さぁ、ウォーキングペーパーを持って街へ出ましょう。ウォーキングペーパーの記述を手がかりにして、まだ地図に記されていない場所を記録してください。"
 
 # abf3fd099d8a45d492aa8464917000e8
 #: ../../beginner/papers.rst:142
@@ -799,19 +799,19 @@ msgid ""
 "each location directly on the map, or write numbers on the map that relate "
 "to numbers in your notebook, where you can write more detailed information "
 "about each object."
-msgstr ""
+msgstr "道路を示す線を引いたり、建物の形状を記載してもよいでしょう。対象についてのメモは、紙の地図の上に直接残します。あるいは他にメモ帳を用意しておき、対象についての詳細はメモ帳に別記して、地図の上には項番だけ記載しておくのも良い方法です。"
 
 # 535f04c6c7c04a32a5a59b3d7ff974fa
 #: ../../beginner/papers.rst:151
 msgid ""
 "When you are satisfied with your additions on the paper map, then you can "
 "add them digitally into OpenStreetMap."
-msgstr ""
+msgstr "納得が行くまで紙の地図へ情報を書き込んだら、その情報をOpenStreetMapにも記入しましょう。"
 
 # 579c1eb0d03a4c6b87d0062c751610a4
 #: ../../beginner/papers.rst:155
 msgid "Scan and Upload"
-msgstr ""
+msgstr "スキャンとアップロード"
 
 # c4b3b9f6481c4b90b1527c6a959f0929
 #: ../../beginner/papers.rst:157
@@ -819,7 +819,7 @@ msgid ""
 "Walking Papers are very useful for mapping with nothing more than paper, but "
 "they are not 100% magic.  We will still need to add our paper into JOSM, add "
 "our information digitally, and save our changes on OpenStreetMap."
-msgstr ""
+msgstr "紙だけしか使わないマッピングとして、ウォーキングペーパーは非常に有効です。ただし残念ながら、ウォーキングペーパーは100％の魔法のツールではありません。OpenStreetMapに登録するためには、紙に記載した情報をJOSMに読み込み、内容をデジタル化する必要があります。"
 
 # 0493a107f12d4b238331478affa0846f
 #: ../../beginner/papers.rst:160
@@ -832,31 +832,31 @@ msgid ""
 "front of it.  Be sure to include the barcode in the image, as Walking Papers "
 "will not work without it.  Here is an example of a scanned/photographed "
 "image:"
-msgstr ""
+msgstr "まずは、あなたのコンピュータへウォーキングペーパーをスキャンします。スキャナをコンピュータへ接続し、紙をスキャンして画像ファイルとして保存します。スキャナをコンピュータへ接続し、紙をスキャンして画像ファイルとして保存します。スキャナが無い場合は、写真を撮ることでも代用できます。ただし、写真の写りには注意してください。紙は平らに伸ばし、カメラに他のものが写り込まないように注意します。印刷されたバーコードが写真に収まるよう気をつけてください。バーコードが無いと、ウォーキングペーパーは正常に動作しません。以下は、スキャン/撮影した画像イメージの一例です。"
 
 # 5b0c681a46fb4351a855238362e34262
 #: ../../beginner/papers.rst:172
 msgid ""
 "Once you have your walking paper scanned and saved on the computer, open "
 "your web browser and return to walking-papers.org, just as before."
-msgstr ""
+msgstr "ウォーキングペーパーをスキャンしてコンピュータへ保存したら、ウォーキングペーパーのウェブサイトを再度開いてください。"
 
 # be32e7f44b304c53b04cdf40bfcf1ce4
 #: ../../beginner/papers.rst:174
 msgid "Click on the \"Upload\" tab."
-msgstr ""
+msgstr "“アップロード”タブをクリックします。"
 
 # aaec56b0fb454844896f1f6d2015c705
 #: ../../beginner/papers.rst:180
 msgid ""
 "Click \"Browse...\" and navigate to the file where you scanned/photographed "
 "your Walking Paper."
-msgstr ""
+msgstr "“参照”ボタンをクリックして、ウォーキングペーパーをスキャン/撮影した画像ファイルを選択して下さい。"
 
 # 52bbbcd563314b86a3a6f26b7131956f
 #: ../../beginner/papers.rst:182
 msgid "Click \"Send.\""
-msgstr ""
+msgstr "選択が終わったら、”送信”ボタンをクリックします。"
 
 # 88af2a4b4e7f422b8f7cd739563e4acc
 #: ../../beginner/papers.rst:183
@@ -864,21 +864,21 @@ msgid ""
 "It may take a few minutes for your paper to upload, depending on the speed "
 "of your internet connection.  When the upload finishes, you will see a new "
 "page with a couple questions about your scan."
-msgstr ""
+msgstr "回線の速度にもよりますが、送信には数分程度必要です。アップロードが完了すると別のページが表示され、質問事項が2つ表示されます。"
 
 # be69493a79834e1ba31a90722ddabb9f
 #: ../../beginner/papers.rst:191
 msgid ""
 "Next to the question, \"Do you plan to edit this yourself?\" select \"No\".  "
 "This will make your paper public, so that other mappers can see it too."
-msgstr ""
+msgstr "“この地図をご自身で編集する予定ですか？”という質問には”いいえ”を選択してください。この場合、ウォーキングペーパーは公開され、他のマッパーがスキャンした地図を参照できるようになります。"
 
 # 2af16d1cc66c40ea8200829db78d68e4
 #: ../../beginner/papers.rst:193
 msgid ""
 "In the empty box at the bottom, describe what you mapped.  This might "
 "include the location and the types of objects that you added."
-msgstr ""
+msgstr "その下にある空白のボックスには、その地図で何をマッピングしたのかの概要を記入してください。マッピングした場所の名称と、追記した地点の種類を含めるとよいでしょう。"
 
 # d3857178996342feb631304960177670
 #: ../../beginner/papers.rst:195
@@ -887,12 +887,12 @@ msgid ""
 "minutes or more.  If you made your paper public by selecting \"No\" on the "
 "previous page, you can close your internet browser and return to it later "
 "when it has finished processing."
-msgstr ""
+msgstr "”保存”をクリックすると、ウォーキングペーパーの処理が開始されます。この処理には20分以上必要となります。選択しで\"いいえ\"を選択して画像を公開状態にしている場合は、ここでいったんブラウザを閉じてインターネット接続を切断してもかまいません。画像の処理が終わった頃に、手順の続きから再開することができます。"
 
 # a366db427acb4451889a1212558867fb
 #: ../../beginner/papers.rst:201
 msgid "Open in JOSM"
-msgstr ""
+msgstr "JOSMでの読み込み"
 
 # fc09709a325243308a820f505f00b4cd
 #: ../../beginner/papers.rst:203
@@ -901,19 +901,19 @@ msgid ""
 "to add your information to OpenStreetMap.  Return to the Walking Papers "
 "website, by typing `walking-papers.org <http://walking-papers.org/>`_ in "
 "your web browser, just as before."
-msgstr ""
+msgstr "地図の画像処理が完了すると、地図はJOSMで読み込める形式に変換されます。書き込んだ情報を元に、OpenStreetMapへ追加を行いましょう。前の手順で行ったのと同様、ブラウザへ `walking-papers.org <http://walking-papers.org/>`_ と入力して、ウォーキングペーパーのウェブサイトを表示してください。"
 
 # 6ee79e221b354b538cb62cc5b7797c6c
 #: ../../beginner/papers.rst:207
 msgid "Click \"Scans\"."
-msgstr ""
+msgstr "“最近の取り込みの続き”をクリックしてください。"
 
 # 968dcdda40f74c43a4f477e0ee2519f4
 #: ../../beginner/papers.rst:208
 msgid ""
 "Find your paper from the list, and click on it.  You should see something "
 "like this:"
-msgstr ""
+msgstr "あなたが追加した地図を探して、クリックします。以下のような画面が表示されます。"
 
 # 3b57f11832574093a98ec520bf5ce701
 #: ../../beginner/papers.rst:215
@@ -922,7 +922,7 @@ msgid ""
 "have scanned.  In the URL bar at the top of your internet browser, select "
 "the text and press CTRL+C on your keyboard to copy.  The text should look "
 "similar to this:  http://walking-papers.org/scan.php?id=fmxcgdqd"
-msgstr ""
+msgstr "処理が完了した地図をJOSMに読み込むには、ウォーキングペーパー上の地図のID番号が必要となります。ブラウザのURLバーを選択し、キーボードのCtrl+Cを押してURLをコピーしてください。文字列は以下のような形式になっているはずです。 http://walking-papers.org/scan.php?id=fmxcgdqd"
 
 # 2d042e93d01942cebabe4f4d3158af0f
 #: ../../beginner/papers.rst:219
@@ -930,21 +930,21 @@ msgid ""
 "Now open JOSM.  In Chapter 3 we installed the Walking Papers plugin, which "
 "allows us to see our scan.  If you don't have Walking Papers installed, go "
 "back to Chapter 3.3 for instructions on how to install."
-msgstr ""
+msgstr "コピーが終わったら、JOSMを起動してください。このガイドの3章でインストールしたウォーキングペーパープラグインを利用して、スキャンされた地図の読み込みを行います。ウォーキングペーパープラグインをインストールしていない場合、ガイドの3.3章を参照してインストールを行なってください。"
 
 # d214879b6e2f4c448cbd770c1039c9d3
 #: ../../beginner/papers.rst:222
 msgid ""
 "On the top menu of JOSM, Click \"Walking Papers\".  Then click \"Scanned "
 "Map...\""
-msgstr ""
+msgstr "JOSMのトップメニューから”ウォーキングペーパー”→”ScannedMap”の順番でクリックしてください。"
 
 # a2498684d28b40a19306c8cc0a26ca98
 #: ../../beginner/papers.rst:223
 msgid ""
 "Press CTRL+V on your keyboard to paste the text that you copied from the "
 "Walking Papers website."
-msgstr ""
+msgstr "入力ボックスが表示されますので、Ctrl+Vを押して、ウォーキングペーパーのウェブサイトでコピーした文字列を貼りつけます。"
 
 # 5987f03f21f34c138ac4a2eeb029a5c0
 # a45883edc1ef4a15aa214844b22d3f84
@@ -952,7 +952,7 @@ msgstr ""
 #: ../../beginner/papers.rst:225 ../../beginner/start_josm.rst:125
 #: ../../beginner/start_josm.rst:160
 msgid "Click OK."
-msgstr ""
+msgstr "OKをクリックします。"
 
 # b39d91f466794cf590f4993d3a0852a2
 #: ../../beginner/papers.rst:226
@@ -960,12 +960,12 @@ msgid ""
 "If all went well, you should see your Walking Paper load into JOSM.  In the "
 "next chapter, we will see how to add the places that you mapped into "
 "OpenStreetMap."
-msgstr ""
+msgstr "以上の操作で、JOSMへのウォーキングペーパー読み込みは完了です。次の章では、地図に追加した地点をOpenStreetMapへ追加する方法について紹介します。"
 
 # ae671c094f264bcb935cf7c990998acc
 #: ../../beginner/papers.rst:231
 msgid "Repeat!"
-msgstr ""
+msgstr "再調査！"
 
 # fd667175d4154786874fc300abf366a8
 #: ../../beginner/papers.rst:233
@@ -974,7 +974,7 @@ msgid ""
 "Then the next time you want to improve the map, you can print out a new "
 "Walking Paper which will include the changes that you made.  As this process "
 "is repeated, the map will get better and better, the more you map!"
-msgstr ""
+msgstr "地図上の変更点をOSMへ追加することにより、情報はOSMの地図上に保存されます。そこまで完了したら、その地図に対してさらなる改良を行いましょう。次の調査で印刷されるウォーキングペーパーには、あなたが追加した情報が書き込まれています。調査は何度も繰り返すことで、OSMの地図も、あなたの地図も、より詳しく、使いやすくなってゆきます。"
 
 # 98bd05d31b93452d826d883a8dbe7f74
 #: ../../beginner/papers.rst:242
@@ -984,12 +984,12 @@ msgid ""
 "Paper.  In the next chapter, we will learn how to add the places that we "
 "mapped into OpenStreetMap, and you will have learned the complete process of "
 "editing the map."
-msgstr ""
+msgstr "おつかれさまでした！この章では、ウォーキングペーパーの使い方と、その動作原理を紹介しました。また、ウォーキングペーパーの印刷、マッピング、スキャン方法についても紹介しています。次の章では、私達がマッピングした地点をOpenStreetMapへ追加する方法、そして、地図の編集手順を紹介します。"
 
 # a3ff94f9e9144ec58748acaf7b8bb5c2
 #: ../../beginner/start_josm.rst:3
 msgid "Getting Started With JOSM"
-msgstr ""
+msgstr "JOSMの導入"
 
 # a5369fde87ae4180b512331ad9845ccc
 #: ../../beginner/start_josm.rst:8
@@ -1001,12 +1001,12 @@ msgid ""
 "you to draw a map of your town or village? We will conclude this chapter by "
 "drawing your map again, this time digitally. After this you should have a "
 "good understanding of how to draw maps in JOSM."
-msgstr ""
+msgstr "この章では、JOSM(JavaOpenStreetMapEditor) のダウンロードとインストール方法について、順を追って説明します。また、JOSMを使いやすくするため、一部設定の変更を行います。章の最後では、サンプル地図を参考にして、JOSMの基本的な使い方を詳解します。街や村の地図を描く方法について第一章で尋ねたことを覚えているでしょうか。この章ではその地図をもう一度、今度はその地図をデジタル情報として描くことになります。この章を通して、JOSMでの地図の描き方についての理解を深めることができるでしょう。"
 
 # bfff136d0e364458aa56a7beae7ed43f
 #: ../../beginner/start_josm.rst:17
 msgid "Videos Related to this Chapter"
-msgstr ""
+msgstr "関連動画"
 
 # ef661458084d41659ff7514e6f006de0
 #: ../../beginner/start_josm.rst:19
@@ -1014,38 +1014,38 @@ msgid ""
 "We've created a video that goes through some of the material in this "
 "chapter. `View it on YouTube here. <http://www.youtube.com/watch?v=jRqn-"
 "S9maL0>`_"
-msgstr ""
+msgstr "この章で行なっていることをわかりやすく説明したビデオを用意しました。`以下のYouTubeリンクから参照できます。<http://www.youtube.com/watch?v=jRqn-S9maL0>`_"
 
 # cc215fadd1814ad3aa54ed3858d81307
 #: ../../beginner/start_josm.rst:23
 msgid "Download JOSM"
-msgstr ""
+msgstr "JOSMのダウンロード"
 
 # d044ae8feca74625a76b1218958f893f
 #: ../../beginner/start_josm.rst:25
 msgid ""
 "If you have a copy of JOSM on a CD or usb flash drive, you can skip to "
 "section 2, Install JOSM."
-msgstr ""
+msgstr "既にCDやUSBメモリなどのメディアでJOSMのファイルを入手している場合は、第2項-JOSMのインストールまで読み飛ばしてください。"
 
 # f79b86658bc54649b94bef3a09d5d6fb
 #: ../../beginner/start_josm.rst:27
 msgid ""
 "If you don't have JOSM already, or want the newest version, open your web "
 "browser – this may be Firefox, Chrome, Opera, or Internet Explorer."
-msgstr ""
+msgstr "JOSMが手元に無い、あるいは入手しているJOSMが最新版ではない場合は、まずブラウザを起動してください。Firefox, Chrome, Opera, InternetExplorer、どのブラウザでもかまいません。"
 
 # ffd8dc01e3464ce5a6aa6b91bfbd0699
 #: ../../beginner/start_josm.rst:29
 msgid ""
 "In the address bar at the top of the window, enter the following text and "
 "press Enter: josm.openstreetmap.de"
-msgstr ""
+msgstr "ウィンドウ上部のアドレスバーに `josm.openstreetmap.de <josm.openstreetmap.de>`_ と入力し、エンターキーを押します。"
 
 # bac38e8443ec4a4fadf502ba5f72c93e
 #: ../../beginner/start_josm.rst:31
 msgid "You can also find this website by searching for \"JOSM\"."
-msgstr ""
+msgstr "ウェブサイトを表示させるには、検索サイトで”JOSM”と検索してもかまいません。"
 
 # 045e7528623d47ce9d2fe16aee004c1d
 #: ../../beginner/start_josm.rst:40
@@ -1055,12 +1055,12 @@ msgid ""
 "click on the link for your system. Your download should begin. In this "
 "chapter we will assume that you are using Windows, but the instructions are "
 "similar for other operating systems."
-msgstr ""
+msgstr "利用しているOSがWindowsの場合、”WindowsJOSMInstaller”のリンクをクリックしてください。その他のOSの場合は、利用中のOS名が表示されているリンクをクリックしてください。ダウンロードが開始されます。以降この章ではWindows版が使われていると仮定しますが、その他のOSでも動作はほぼ同一です。"
 
 # 644f91729052481495a76761216c8fab
 #: ../../beginner/start_josm.rst:47
 msgid "Install JOSM"
-msgstr ""
+msgstr "JOSMのインストール"
 
 # 72fbe1c0e0414bdeb40e9a303e7e5c26
 #: ../../beginner/start_josm.rst:49
@@ -1068,13 +1068,13 @@ msgid ""
 "You may have problems installing JOSM if Java is not already installed on "
 "your computer. If you have problems in this section, try downloading and "
 "installing Java. You can download it here: http://www.java.com/en/download/"
-msgstr ""
+msgstr "JOSMのインストールをする際、Javaのインストールを求められることがあります。もしインストールを求められた場合、Javaをインストールしてください。ダウンロードは以下のページから可能です。 `http://www.java.com/en/download/ <http://www.java.com/en/download/>`_ "
 
 # ce14cc6f5b644eaf99d07a443765f8c4
 #: ../../beginner/start_josm.rst:52
 msgid ""
 "Find the JOSM install file on your computer. Double-click it to begin setup."
-msgstr ""
+msgstr "コンピュータにダウンロードしたJOSMのインストールファイルを探してください。ファイルをダブルクリックするとセットアップが開始されます。"
 
 # 091df258740146fc80897cbbc90e2d05
 #: ../../beginner/start_josm.rst:53
@@ -1083,7 +1083,7 @@ msgid ""
 "complete, click ‘Finish' to launch JOSM for the first time. Later, when you "
 "want to start JOSM, you can do so by clicking on the Start Menu in the lower "
 "left corner of your computer, and clicking the program JOSM."
-msgstr ""
+msgstr "“OK”→”Next”→”IAgree”→”Install”の順にクリックします。イントールが完了したら”Finish”をクリックして、JOSMを起動してください。以降、JOSMを起動するときは、画面左下のスタートメニューからJOSMをクリックすることで起動が可能です。"
 
 # bc789c3b091d42fb91fb6d939869c75c
 #: ../../beginner/start_josm.rst:57
@@ -1092,17 +1092,17 @@ msgid ""
 "You don't need to update it since it is new. Press the button that says "
 "\"Cancel.\" If you don't ever want to see this message again, check the box "
 "at the bottom before pressing \"Cancel.\""
-msgstr ""
+msgstr "起動時にポップアップ表示が行われ、ソフトウェアの更新を促されることがあります。今回は新規インストール直後なので、更新の必要はありません。”Cancel”ボタンを押してください。今後このメッセージを表示させないようにするには、”Cancel”ボタンを押す前に、ボタンの横にあるボックスにチェックを入れてください。"
 
 # f03904ea478a46389842a57241386b7b
 #: ../../beginner/start_josm.rst:61
 msgid "When JOSM starts, it will look something like this:"
-msgstr ""
+msgstr "JOSM起動直後の画面は以下のようになります。"
 
 # b94d793f650949ac9441c80b19cd55c4
 #: ../../beginner/start_josm.rst:70
 msgid "Change JOSM Settings"
-msgstr ""
+msgstr "JOSMの設定変更"
 
 # b32b86879a2f418a84b2f85921051ff0
 #: ../../beginner/start_josm.rst:72
@@ -1110,12 +1110,12 @@ msgid ""
 "Before we begin using JOSM, it's a good idea to change some of the settings "
 "so that is will be easier to use. To change the settings, click \"Edit\" on "
 "the top menu, and then click \"Preferences.\""
-msgstr ""
+msgstr "JOSMを使い始める前にいくつか設定変更を行い、使い勝手をよくしましょう。設定を変更するには、トップメニューの”編集”→”設定”をクリックします。"
 
 # 4db7d110222f4e15952ac02dc2141319
 #: ../../beginner/start_josm.rst:83
 msgid "Add Bing Imagery"
-msgstr ""
+msgstr "Bing画像の追加"
 
 # 7b502570fee54f0eb0eb91c396d24363
 #: ../../beginner/start_josm.rst:85
@@ -1124,28 +1124,28 @@ msgid ""
 "let's add that from the Preferences window. On the left side of the "
 "Preferences window there are different icons for different settings. Click "
 "on the icon that says \"WMS TMS\"."
-msgstr ""
+msgstr "地図を描く時の背景として衛星写真があると便利です。まずは”設定”項目から衛星写真の設定を行いましょう。設定項目の左側には、様々な機能設定を分類するためのアイコンが並んでいます。“WMSTMS”と書かれているアイコンをクリックしてください。"
 
 # 5142ea41f289414d99cc3c4f723307a6
 #: ../../beginner/start_josm.rst:93
 msgid "You may need to click on the down arrow to find it:"
-msgstr ""
+msgstr "表示するには画面を下にスクロールする必要がある時があります。"
 
 # 66818deebaa448dbac06104ae71ac8df
 #: ../../beginner/start_josm.rst:98
 msgid "Click on \"Bing Sat\". Then Click \"Activate\"."
-msgstr ""
+msgstr "“BingSat”→”Activate”の順番にクリックします。."
 
 # b2cedadf2a994a90948d25098e3de582
 #: ../../beginner/start_josm.rst:104
 msgid "You should now see \"Bing Sat\" in the list below the Activate button."
-msgstr ""
+msgstr "アクティベートボタンの下に”BingSat”が追加されます。"
 
 # 1b94d45a12f44ebd87f543794b12786e
 # d036889a0ec54b1abb71153314fa747e
 #: ../../beginner/start_josm.rst:107 ../../beginner/start_josm.rst:289
 msgid "Add Presets"
-msgstr ""
+msgstr "プリセットの追加"
 
 # b6ec0b215ca14cbf8c7ab5d4d81acc17
 #: ../../beginner/start_josm.rst:109
@@ -1154,7 +1154,7 @@ msgid ""
 "can add it now. For example, the building structure presets file used in "
 "Indonesia is called `building.xml <http://www.learnosm.org/files/building."
 "xml>`_."
-msgstr ""
+msgstr "プリセットメニューへの追加ファイルが手元にある場合、追加をしてみましょう。プリセットファイルとは、例えばインドネシアの建物を描画する際に使用される `building.xml <http://www.learnosm.org/files/building.xml>`_ ファイルなどを指します。"
 
 # 3f2148123b614747a18c008ae5ab50ff
 # ce22259573fa4b55ae241f15256a57a9
@@ -1162,22 +1162,22 @@ msgstr ""
 msgid ""
 "You should still have the Preferences window open. If you don't, click Edit -"
 "> Preferences to open the window."
-msgstr ""
+msgstr "“設定”項目はまだ開いているでしょうか。もし閉じてしまった場合、”編集”→”設定”の順番にクリックを行い、設定項目を開いてください。"
 
 # c27802e97c9048228085f45fd5463e86
 #: ../../beginner/start_josm.rst:115
 msgid "On the left side, click the icon that looks like a grid."
-msgstr ""
+msgstr "項目の左側に、グリッド(マス目)のような形のアイコンがあります。"
 
 # 20cba5cece4142d68927d63a917a6d1a
 #: ../../beginner/start_josm.rst:120
 msgid "Click the tab at the top that reads \"Tagging Presets\"."
-msgstr ""
+msgstr "上の方に表示されているタブの”タグ付けプリセット”をクリックします。"
 
 # cc5fe745e68f4f73b8026e159e43fbf7
 #: ../../beginner/start_josm.rst:121
 msgid "In the upper right, press the + button."
-msgstr ""
+msgstr "右上の+ボタンをクリックします。"
 
 # 446d409687fe4508b1b0265afc83d675
 #: ../../beginner/start_josm.rst:122
@@ -1185,12 +1185,12 @@ msgid ""
 "Next to the second box on the right, click the button that looks like a "
 "folder. Navigate to the presets file you want to add, for example, buildings."
 "xml."
-msgstr ""
+msgstr "2列目の入力ボックスの右にフォルダの形をしたボタンが表示されますので、クリックしてください。追加したいプリセット定義ファイル(例:building.xml)を選択します。"
 
 # cd23d91b95024ee4abd68ac7b5723504
 #: ../../beginner/start_josm.rst:128
 msgid "Add Walking Papers Plugin"
-msgstr ""
+msgstr "ウォーキングペーパープラグインの追加"
 
 # 934a4308567e4b3ea919decdbc6dd0b3
 #: ../../beginner/start_josm.rst:130
@@ -1200,12 +1200,12 @@ msgid ""
 "then load it into JOSM in the background. Then we can add our drawings and "
 "our notes into OpenStreetMap. Now we will add the Walking Papers plugin to "
 "JOSM."
-msgstr ""
+msgstr "このガイドの後半で、ウォーキングペーパーというツールを紹介します。マッピングしたい地域の地図を印刷して、その地図の上に調査した内容を描き、画像をJOSMの背景画像として読み込むツールです。そこで読み込んだ情報をJOSMで加工して、OpenStreetMapへ追加します。ここではまず、ウォーキングペーパープラグインをJOSMへ追加してみましょう。"
 
 # 6b9735d54e7645c3a290451fa2c54c17
 #: ../../beginner/start_josm.rst:137
 msgid "On the left side, click the icon that looks like a plug."
-msgstr ""
+msgstr "項目の左側に、コンセントのような形のアイコンがあります。"
 
 # acb50ecffe5c4144a532ed459ef1e24e
 #: ../../beginner/start_josm.rst:142
@@ -1213,80 +1213,80 @@ msgid ""
 "Click the button that says \"Download list\". The list will download from "
 "the internet, and when it is finished you will see a list of optional "
 "plugins appear in the window."
-msgstr ""
+msgstr "“ダウンロードリスト”と書かれたボタンをクリックします。利用可能なプラグインの一覧がインターネットから自動的にダウンロードされます。ダウンロードが完了すると、プラグインの一覧が画面に表示されます。"
 
 # 0f6f9a0c40e34f06b4534adcab15cd02
 #: ../../beginner/start_josm.rst:145
 msgid ""
 "In the search box at the top, type \"walking\". This will show only items in "
 "the list that have \"walking\" in the title."
-msgstr ""
+msgstr "検索ボックスがウィンドウの上のほうにありますので、”Walking”と入力して検索をしてみましょう。名称に”Walking”という文字列が含まれるプラグインはウォーキングペーパーだけです。"
 
 # 73dc7209f71145f09e9dfe0d6d2edccf
 #: ../../beginner/start_josm.rst:147
 msgid ""
 "Click the checkbox next to the walkingpapers plugin, and press OK at the "
 "bottom of the window."
-msgstr ""
+msgstr "ウォーキングペーパーの項目の隣にあるチェックボックスにチェックを入れ、ウィンドウの下部にあるOKボタンを押してください。"
 
 # 6f89f70ce075451297fcea92b486be53
 #: ../../beginner/start_josm.rst:149
 msgid ""
 "Walking Papers will now be downloaded and installed. Do not click \"Cancel\"."
-msgstr ""
+msgstr "ウォーキングペーパープラグインがダウンロードされ、JOSMへインストールされます。途中で”キャンセル”をクリックしないように気をつけてください。"
 
 # f8ecbf6eedef488f9eb921e44eff2b75
 #: ../../beginner/start_josm.rst:152
 msgid "Change Language"
-msgstr ""
+msgstr "言語設定の変更"
 
 # bd1e270048ce46648feb1f4e3988f4f0
 #: ../../beginner/start_josm.rst:154
 msgid ""
 "JOSM has been translated into many languages. If it has been translated into "
 "your language, you can change it in the Preferences."
-msgstr ""
+msgstr "JOSMは多くの言語に翻訳されています。あなたの使っている言語が既に翻訳済みの場合、設定から言語を変更することができます。"
 
 # 6dea395826774de68d714218c7e5bcb6
 #: ../../beginner/start_josm.rst:156
 msgid ""
 "If you don't have the Preferences window open, click Edit -> Preferences."
-msgstr ""
+msgstr "設定項目が開かれていない場合、”編集”→”設定”の順番にクリックを行い、設定項目を開いてください。"
 
 # 279d84ff4b414a4d95c85728a6b701c2
 #: ../../beginner/start_josm.rst:157
 msgid ""
 "On the left side, click the icon that looks like a paint can and paint brush."
-msgstr ""
+msgstr "項目の左側に、ペイントブラシのような形のアイコンがあります。"
 
 # ddf4da1069a747b485a7ad9ff7dcf02c
 #: ../../beginner/start_josm.rst:158
 msgid "At the top of the window, click the tab that says \"Look and Feel\"."
-msgstr ""
+msgstr "ウィンドウの上部にタブが表示されますので、”ルック＆フィール”タブをクリックしてください。"
 
 # 71c33713008947a483c78ea4edd11437
 #: ../../beginner/start_josm.rst:159
 msgid "Choose your language in the dropdown box next to the word \"Language\"."
-msgstr ""
+msgstr "“言語”のドロップダウンメニューから、表示に利用したい言語を選択してください。"
 
 # 6ce50b0f680648b3afa9c9f3884d77b4
 #: ../../beginner/start_josm.rst:165
 msgid ""
 "You need to restart JOSM to save your settings. Click \"File\" in the upper "
 "left corner, and Click \"Exit\" at the bottom of the menu."
-msgstr ""
+msgstr "設定を反映させるには、JOSMを再起動する必要があります。JOSMのトップメニューから”ファイル”→”終了”をクリックしましょう。"
 
 # b2949b023c774f10887133ace8c25786
 #: ../../beginner/start_josm.rst:167
 msgid ""
 "Start JOSM again by going to the Windows Start Menu in the bottom left "
 "corner. Find JOSM and click on it to start."
-msgstr ""
+msgstr "ウィンドウズのスタートメニューからJOSMを選択して、もう一度JOSMを起動します。."
 
 # 39a0b6dc660a4c47981d132583270607
 #: ../../beginner/start_josm.rst:171
 msgid "Learn Basic Drawing with JOSM"
-msgstr ""
+msgstr "JOSMでの描画の基本"
 
 # 297f0fb9ae30422db6efdc867e5c6597
 #: ../../beginner/start_josm.rst:173
@@ -1294,14 +1294,14 @@ msgid ""
 "Now let's open up a sample OSM file which we will use to learn the basic "
 "ways to draw maps with JOSM. Note that this map is not real, in that it is "
 "not a real map of a real place, so we will not save it on OpenStreetMap."
-msgstr ""
+msgstr "それではここからは、サンプルファイルを使ってJOSMの基本的な使い方を学習しましょう。このサンプルファイルで表示される地図は、実際には存在していない場所を示しています。表示される情報も本当の位置情報を示しているわけではありませんので、OpenStreetMapへのアップロードは行いません。"
 
 # 6c9c6c7fdaf44f3bbfd32d126f0a753c
 #: ../../beginner/start_josm.rst:176
 msgid ""
 "If you were given a set of files by your instructor, you should already have "
 "the file we will open, named sample.osm."
-msgstr ""
+msgstr "もしインストラクターがいて、sample.osmという名前のファイルを持っている場合は、そのファイルをJOSMで開いてください。"
 
 # ea5e821e27c64487b8b92d3ee1b54633
 #: ../../beginner/start_josm.rst:178
@@ -1309,36 +1309,36 @@ msgid ""
 "If you don't have the file sample.osm, right-click on `this link <http://www."
 "learnosm.org/files/sample.osm>`_ and click \"Save Link As…\" Choose a "
 "location on your computer to save the file."
-msgstr ""
+msgstr "sample.osmファイルを持っていない場合は、`http://www.learnosm.org/files/ <http://www.learnosm.org/files/>`_ を右クリックして”リンク先をファイルに保存”を選択し、コンピュータ上にファイルを保存してください。"
 
 # 56c8b883ec9844e2b5342d1b5eff9fc5
 #: ../../beginner/start_josm.rst:181
 msgid ""
 "Now let's open the sample map file in JOSM. Open JOSM. Click the \"Open\" "
 "button in the upper left."
-msgstr ""
+msgstr "それでは、サンプルの地図をJOSMで開いてみましょう。"
 
 # 29abd46b592849809f0f86b7d074502e
 #: ../../beginner/start_josm.rst:187
 msgid "Find the file sample.osm. Click on it, and then click \"Open\"."
-msgstr ""
+msgstr "JOSMの左上に表示されている”ファイルを開く”ボタンを押してください。sample.osmファイルをクリックし、もう一度”Open”をクリックしてください。"
 
 # 719195c3fe254cb1a710e81ca90e0c89
 #: ../../beginner/start_josm.rst:188
 msgid "You should now see a sample map, similar to this:"
-msgstr ""
+msgstr "サンプルの地図が開き、以下のように表示されます。"
 
 # 450a1172fcc74cb4bb0ddf2c8ac6aa9d
 #: ../../beginner/start_josm.rst:197
 msgid "Basic Operations"
-msgstr ""
+msgstr "基本操作"
 
 # 0927c9f1e41c49c7bd4a3e248928a239
 #: ../../beginner/start_josm.rst:199
 msgid ""
 "To move the map left or right, up or down, hold your right mouse button "
 "down, and move your mouse."
-msgstr ""
+msgstr "画面上で右クリックをしたままマウスを動かすと、表示領域を上下左右に移動させることができます。"
 
 # 07a2cbcd45e84fd18e6d0777685f6865
 #: ../../beginner/start_josm.rst:201
@@ -1348,7 +1348,7 @@ msgid ""
 "and don't have a mouse, you can zoom in and out using the scale bar in the "
 "upper left of the map window. Drag the bar left and right by holding your "
 "left mouse down and moving the bar left or right with your mouse."
-msgstr ""
+msgstr "表示領域の拡大/縮小を行うにはいくつかの方法があります。マウスが使える場合は、マウスのスクロールホイールを回転させることで、拡大と縮小が可能です。もしトラックパッドやタッチパッドを使っていてマウスホイールがない場合は、地図の左上に表示されている+と-のボタンをクリックしてください。マウスを左クリックしたままバーを左右に動かすことで、地図の拡大と縮小ができます。"
 
 # f8d122f2540244a5a57e326c01952bb3
 #: ../../beginner/start_josm.rst:210
@@ -1356,12 +1356,12 @@ msgid ""
 "Look at the sample map. There a few different types of objects here. There "
 "is a river, a forest, some buildings, several roads, and a couple of shops. "
 "To select an object, click on it with your left mouse button."
-msgstr ""
+msgstr "サンプルの地図を見てみましょう。種類の違うオブジェクトがいくつか表示されています。河川が1つ、森林が1つ、そして建物と道路がいくつか、店舗が2つです。オブジェクトを選択するには、対象を左クリックしてください。"
 
 # 51b478aa4bf64cfaba7ca02b56166d95
 #: ../../beginner/start_josm.rst:215
 msgid "Points, Lines, and Shapes"
-msgstr ""
+msgstr "ポイント、ライン、シェイプ"
 
 # ecfc39e08bda4f1cbd5972b1d50093da
 #: ../../beginner/start_josm.rst:217
@@ -1369,7 +1369,7 @@ msgid ""
 "As you click on different objects on the sample map, notice that there are "
 "three different types of object on the map. There are points, lines, and "
 "shapes."
-msgstr ""
+msgstr "地図の上のオブジェクトをいくつかクリックしているうちに、オブジェクトにはポイント、ライン、シェイプの3つの種類があることに気がつくかもしれません。."
 
 # db7c9e54048c4af58dd6df92c7e60fd9
 #: ../../beginner/start_josm.rst:220
@@ -1378,7 +1378,7 @@ msgid ""
 "there are two points, a clothing shop and a market. The clothing shop is "
 "represented by a shirt symbol, and the market is represented by a shopping "
 "cart."
-msgstr ""
+msgstr "ポイントとは単一の地点で、シンボルによって表現されます。このサンプルマップでは、衣料品店(clothingshop)と市場(market)の2つのポイントが当てはまります。衣料品店はシャツのシンボルで表され、市場はショッピングカートのシンボルで表されます。"
 
 # 9dff3359808e401abbf46df939e94e77
 #: ../../beginner/start_josm.rst:224
@@ -1387,7 +1387,7 @@ msgid ""
 "look closely you will see that within the lines, there are points as well. "
 "These points don't have any symbols or other information associated with "
 "them, but they help to define where the line is located."
-msgstr ""
+msgstr "その他、地図に描かれているいくつかのラインは道路を表現しています。ラインの細部を表示させると、ラインの中にいくつかのポイントが存在していることがわかります。これらのポイントは特定のシンボルや情報を持っておらず、ラインがどの地点を通過しているのかを指し示しています。"
 
 # ac2704ec19164fbbb5057403ff1e8f98
 #: ../../beginner/start_josm.rst:228
@@ -1396,7 +1396,7 @@ msgid ""
 "places – a forest, a river, and buildings. A shape generally represents an "
 "area, like a field or a building. A shape is exactly like a line – the only "
 "difference is that the line begins at the same point where it ends."
-msgstr ""
+msgstr "最後に、地図の上には多くのシェイプが存在し、森や河川、建物など、それぞれ異なる地点を表現しています。シェイプは基本的に、区域や建物など、なんらかのエリアを表しています。シェイプはラインに非常によく似ていますが、唯一、ラインの始点と終点が1つのポイントになっていることが異なっています。"
 
 # f9caef12c578443f97ffc9c3cafb2434
 #: ../../beginner/start_josm.rst:232
@@ -1407,7 +1407,7 @@ msgid ""
 "it is. We'll learn more about tags in Chapter 7, Advanced Editing. For now "
 "all you need to know is that this information helps describe whether our "
 "object is a forest, a river, a building, or something else."
-msgstr ""
+msgstr "オブジェクトを選択すると、JOSMの画面右側に”プロパティ”と呼ばれるリストが表示されることに気がつくかもしれません。ここに表示される値はタグと呼ばれます。タグとは、ポイントやライン、シェイプに関連付けられた情報で、その地点が何を表しているかを示しています。タグについては第7章-高度な編集で詳しく紹介します。いまのところ、森林や河川、建物などの内容はタグに書かれた情報によって表されている、ということを知っているだけでかまいません。"
 
 # 61f84332d5b84d8981c75da2c8a651ae
 #: ../../beginner/start_josm.rst:238
@@ -1415,12 +1415,12 @@ msgid ""
 "Think about drawing a map by hand, and how you are also drawing points, "
 "lines, and shapes. What other places are best represented by points? Lines? "
 "Shapes?"
-msgstr ""
+msgstr "地図を手書きで書くときを思い出してください。ポイントやライン、シェイプをどのように使って描くと、地図がよりわかりやすくなるでしょうか。. ."
 
 # b1e750c027854f988c3d7527a443d0c9
 #: ../../beginner/start_josm.rst:243
 msgid "Changing Objects"
-msgstr ""
+msgstr "オブジェクトの編集"
 
 # 78bb33c168be4ec0b064e2893543093e
 #: ../../beginner/start_josm.rst:245
@@ -1429,7 +1429,7 @@ msgid ""
 "around the forest, not one of the points on the line. Now hold your left "
 "mouse button down and drag your mouse. You should be able to move the forest "
 "to a new location on the map."
-msgstr ""
+msgstr "地図の左側にある森林を選択してみましょう。森林をあらわしているラインを選択します。ラインの上にあるポイントではないので注意してください。選択ができたら、森林を選択した状態でマウスを左クリックし、クリックしたままマウスをドラッグさせてみましょう。地図の中の別の場所へ森林を移動させることができます。"
 
 # 75458ba6d0df44a88c25e00c0dbf5a57
 #: ../../beginner/start_josm.rst:249
@@ -1437,12 +1437,12 @@ msgid ""
 "Click on on of the points on the line around the forest. Hold your left "
 "mouse button down and drag your mouse. You should be able to move the point. "
 "This is how you can change the shape of an object, or move a point."
-msgstr ""
+msgstr "森林をあらわすラインの中にあるポイントを、どこか1つクリックして選択して下さい。マウスを左クリックした状態で、クリックしたままマウスをドラッグさせてみましょう。ポイントを移動させることができます。オブジェクトの位置を変更したい場合や、オブジェクトの形を変更したい場合はこのようにして行います。"
 
 # 5f28e71f661841d2890d9c4bcf54d48b
 #: ../../beginner/start_josm.rst:254
 msgid "Drawing"
-msgstr ""
+msgstr "地図の描画"
 
 # 71aae8b39b6e48d79a1c1da5a8a5e180
 #: ../../beginner/start_josm.rst:256
@@ -1451,39 +1451,39 @@ msgid ""
 "new windows on the right side that provide more information about the map. "
 "The most important buttons, however, are at the top of these column. These "
 "buttons change what you can do with your mouse."
-msgstr ""
+msgstr "JOSM画面の左側には、多くのボタンが配置されています。それらのボタンを押すと右側に新しいボックスが表示され、地図に対する情報がより多く表示されます。しかし、それらのボタンのなかで最も重要なのは、列の一番上に表示されているボタンです。これらのボタンは、マウスで実施できる挙動を変更します。"
 
 # 52b97c9147f04f8a98116eaac4535231
 #: ../../beginner/start_josm.rst:260
 msgid ""
 "The top four buttons in this column are the most important. They allow you "
 "to:"
-msgstr ""
+msgstr "特に、上から4つまでのボタンは非常に重要です。これらのボタンによって、以下の動作が可能になります。"
 
 # 2ba7d1199974444eba1e0cdf46b8d1c4
 #: ../../beginner/start_josm.rst:263
 msgid "Select"
-msgstr ""
+msgstr "選択"
 
 # f4d6a0f42bfa42019ae6dfadff92deef
 #: ../../beginner/start_josm.rst:264
 msgid "Draw"
-msgstr ""
+msgstr "描画"
 
 # 8b53c4f089f24784af1b05eef448bc1e
 #: ../../beginner/start_josm.rst:265
 msgid "Zoom in"
-msgstr ""
+msgstr "拡大"
 
 # 5cc586d88a1b48489ae5867337ec8508
 #: ../../beginner/start_josm.rst:266
 msgid "Delete"
-msgstr ""
+msgstr "削除"
 
 # 1d36f3063c4542bb818f9de92cd80a3e
 #: ../../beginner/start_josm.rst:268
 msgid "Until now, you have been using the Select tool, which looks like this:"
-msgstr ""
+msgstr "ここまでの操作では、”選択”機能を使用しています。“選択”機能は、下のようなボタンで表されています。"
 
 # 8d642cdba7334ec8b689d1bd76ee9bd2
 #: ../../beginner/start_josm.rst:273
@@ -1491,19 +1491,19 @@ msgid ""
 "Before you draw, you need to make sure that nothing is selected. Click in "
 "the black space on the map, where it is empty, to make sure nothing is "
 "selected."
-msgstr ""
+msgstr "描画を行う際には、地図のどのオブジェクトも選択していないことを確認してください。なにもオブジェクトが描かれていない、地図の黒い領域をクリックすることで、なにも選択していない状態にすることができます。"
 
 # 2611beb1663f41b69fdef286e4a145e5
 #: ../../beginner/start_josm.rst:275
 msgid "Click on the second button, the Draw tool."
-msgstr ""
+msgstr "2番目のボタン”描画”をクリックしてみましょう。"
 
 # 52950d85d1654a62867880f21cb2dcd5
 #: ../../beginner/start_josm.rst:280
 msgid ""
 "Find an empty area on the map, and double-click with your mouse. This will "
 "draw a single point."
-msgstr ""
+msgstr "地図の何も書かれていない地点でダブルクリックしてみてください。単一の地点が1つ描画されます。ラインを描画するには、まずどこかでクリックを1回行います。"
 
 # 2c6a840b786341c6a980049f502a91cf
 #: ../../beginner/start_josm.rst:282
@@ -1511,14 +1511,14 @@ msgid ""
 "To draw a line, single-click with your mouse. Move your mouse and click "
 "again. Continue until you are happy with your line. To end the line, double-"
 "click your mouse."
-msgstr ""
+msgstr "そのままマウスを移動させ、別の場所でもう一度クリックします。. ラインの形ができるまで、移動させてクリックを繰り返します。ダブルクリックを行うと、そこでラインの描画は終了となります。"
 
 # a5290cafeb6744ef8495e3cee0e39e95
 #: ../../beginner/start_josm.rst:285
 msgid ""
 "Draw a shape the same way that you draw a line, but finish the shape by "
 "double-clicking on the point where you started the line."
-msgstr ""
+msgstr "シェイプを描くには、ラインと同じような操作をした後、ラインを描き始めたポイントでダブルクリックします。"
 
 # e719b6c3c8604701970922567cc05ebf
 #: ../../beginner/start_josm.rst:291
@@ -1527,12 +1527,12 @@ msgid ""
 "defined what they represent. We want to be able to say that our points are "
 "shops, schools, or something else, and whether our shapes are fields, "
 "buildings, or something else."
-msgstr ""
+msgstr "単にポイントを描いただけでは、そのポイントが何を表しているのか不明瞭なままです。ポイントを追加するときには、それが店舗なのか、学校なのか、それとも他の施設なのかを示しましょう。シェイプについても同様で、そこがなにに使われている土地なのか、それとも建物なのか、などを示します。"
 
 # 8d8845e85b9f4fef888acdbcfb89a63c
 #: ../../beginner/start_josm.rst:295
 msgid "Click on the Select tool, in the column of buttons on the left."
-msgstr ""
+msgstr "画面左側にあるカラムから、”選択”ツールをクリックしてください。"
 
 # 6ed71890bb6a4f4c950bfc0c6aba71b5
 #: ../../beginner/start_josm.rst:300
@@ -1540,7 +1540,7 @@ msgid ""
 "Select one of the objects that you drew with the Draw tool. On the top menu, "
 "click \"Presets\". Move your mouse through the sub-menu to the type of "
 "location you would like to define."
-msgstr ""
+msgstr "描画ツールを選択した状態で、編集したいオブジェクトの一部をクリックしてください。トップメニューに表示されている”プリセット”をクリックしてください。より詳細なメニューが表示されますので、地点に対して定義したい種別が表示されるまでマウスを移動させてください。"
 
 # 6b406243b0b94f4c8599d6f9f45caa0e
 #: ../../beginner/start_josm.rst:303
@@ -1548,7 +1548,7 @@ msgid ""
 "When you click on a preset, a form will pop up asking you for more "
 "information. You do not have to fill in every field, but you may wish to add "
 "some of the important fields, such as the name of the object."
-msgstr ""
+msgstr "プリセットをクリックすると、詳細な情報入力を促すポップアップが表示されます。すべての項目を入力する必要はありませんが、地点の名称など、いくつかの重要な項目については入力ができるとよいでしょう。"
 
 # eb80d609ba33489faf03e23d21d359f5
 #: ../../beginner/start_josm.rst:306
@@ -1556,40 +1556,40 @@ msgid ""
 "When you are finished entering the information, click \"Apply Preset\". If "
 "everything went well, your point, line, or shape should change colors or "
 "show a symbol. This is because you have defined what it is."
-msgstr ""
+msgstr "情報の入力が終わったら、”プリセットの適用”をクリックしてください。以上の操作でオブジェクトに対して情報が追加され、ポイントやライン、シェイプの表示色変更、あるいはシンボル表示の変更などが行われます。."
 
 # ad5caf966da64395988f090e52895287
 #: ../../beginner/start_josm.rst:311
 msgid "Draw Your Own Map"
-msgstr ""
+msgstr "地図を描いてみましょう"
 
 # 536334844c6a4b6dab137e30358c78e8
 #: ../../beginner/start_josm.rst:313
 msgid ""
 "Now let's draw a map in order to practice the techniques you have learned. "
 "You may wish to redraw the map that you drew on paper in Chapter 1."
-msgstr ""
+msgstr "それでは、ここまでで紹介したテクニックを実践するため、実際に自分自身の地図を描いてみましょう。題材として、第一章であなたが紙の上に描いた地図をもう一度取り上げます。"
 
 # 5305be80ab7a4fa7b7c219ce69e687bc
 #: ../../beginner/start_josm.rst:315
 msgid ""
 "Drag the map away from the sample map. Hold the right mouse button and drag "
 "your mouse, until you have a nice empty area to draw on."
-msgstr ""
+msgstr "サンプルの地図表示が画面外になるよう、表示位置を変更します。マウスを右クリックし、何も書かれていない場所までドラッグして移動します。"
 
 # 475cba3d6e5744fd945cabe3d3544415
 #: ../../beginner/start_josm.rst:317
 msgid ""
 "Use the Draw tool to create points, lines, and shapes. Describe what your "
 "objects are by selecting from the Presets menu."
-msgstr ""
+msgstr "描画ツールを使って、ポイント、ライン、シェイプを描いてみてください。描かれたオブジェクトの内容を示すには、プリセットメニューから適切な内容を選択します。"
 
 # 27aa48df9b684323927ac4ccf7818b2c
 #: ../../beginner/start_josm.rst:319
 msgid ""
 "When you are finished, you should have your own map, similar to the sample "
 "map that we opened in sample.osm."
-msgstr ""
+msgstr "自分自身の地図を書き終えたら作業完了です。”sample.osm”で表示されていた地図のように描けたでしょうか？"
 
 # ff6f122847314a1c89b16c4c05f5ea6f
 #: ../../beginner/start_josm.rst:325
@@ -1599,14 +1599,14 @@ msgid ""
 "you will learn how to use GPS and Walking Papers to map your town or "
 "village. In Chapter 6, we will return to JOSM and using the information we "
 "collected, we will add objects to OpenStreetMap."
-msgstr ""
+msgstr "おつかれさまでした！この章では、コンピュータへJOSMを初期設定する方法と、地図を描くための基本的なツールの使い方を紹介しました。ここから先の2章を使って、あなたの住んでいるところをマッピングするために必要な、GPSの使用法、およびウォーキングペーパーの使用法の紹介を行います。第6章では再びJOSMの紹介として、収集した情報を使ってOpenStreetMapへオブジェクトを追加する方法について扱います。"
 
 # 093144cb4db54088aebcffd79a44889d
 #: ../../beginner/start_josm.rst:332
 msgid "Related Videos"
-msgstr ""
+msgstr "関連動画"
 
 # 5fc5412d4fff4b4c9ca20d398bc80cad
 #: ../../beginner/start_josm.rst:334
 msgid "`Setting up JOSM <http://www.youtube.com/watch?v=jRqn-S9maL0>`_."
-msgstr ""
+msgstr "`JOSMの初期設定 (Setting up JOSM) <http://www.youtube.com/watch?v=jRqn-S9maL0>`_."
