@@ -1,4 +1,0 @@
-learnosm
-========
-
-Learn OSM
