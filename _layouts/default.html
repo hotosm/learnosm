@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+  <head>
+    <meta charset="utf-8">
+    <title>LearnOSM</title>
+  </head>
+  <body>
+    <div class='language-switcher'>
+      <a href='{{ site.baseurl }}/en{{page.polylink}}'>English</a> |
+      <a href='{{ site.baseurl }}/es{{page.polylink}}'>Spanish</a>
+    </div>
+    <h1>LearnOSM</h1>
+    <div class='tagline'>{{site.translations.[page.lang].tagline}} </div>
+    {{ content }}
+  </body>
+</html>

@@ -1,0 +1,16 @@
+auto: true
+pygments: true
+server: true
+markdown: rdiscount
+permalink: /:categories/:title
+columnist:
+  paths:
+  - _posts
+baseurl: /learnosm
+rdiscount:
+  extensions: [smart]
+translations:
+  en:
+    tagline: "Learn OpenStreetMap Step-by-Step"
+  es:
+    tagline: "Aprende OpenStreetMap Paso a Paso"
