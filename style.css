@@ -76,3 +76,13 @@ pre {
   padding: 20px 0;
   font-size: 12px;
   }
+
+/* --------------------------------------------------------
+  Layout
+-------------------------------------------------------- */
+.language-switcher.en a.en,
+.language-switcher.es a.es {
+  color: #333;
+  text-decoration: none;
+  cursor: default;
+  }

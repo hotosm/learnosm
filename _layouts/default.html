@@ -8,9 +8,9 @@
   </head>
   <body>
     <div class='inner'>
-      <div class='language-switcher'>
-        <a href='{{ site.baseurl }}/en{{page.polylink}}'>English</a> |
-        <a href='{{ site.baseurl }}/es{{page.polylink}}'>Spanish</a>
+      <div class='language-switcher {{page.lang}}'>
+        <a href='{{ site.baseurl }}/en{{page.polylink}}' class='en'>English</a> |
+        <a href='{{ site.baseurl }}/es{{page.polylink}}' class='es'>Spanish</a>
       </div>
       <div id='header'>
         <h1><a href='{{ site.baseurl }}/{{page.lang}}'>LearnOSM</a></h1>
