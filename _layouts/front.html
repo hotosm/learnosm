@@ -6,7 +6,7 @@ layout: default
   {% for post in site.categories.['beginner'] %}
     {% if {{post.lang}} == {{page.lang}} %}
     <li class='doc'>
-      <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
+      <div class='title'><a href="{{site.baseurl}}{{ post.url }}">➤ {{ post.title }}</a></div>
     </li>
     {% endif %}
   {% endfor %}

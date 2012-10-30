@@ -3,14 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>LearnOSM</title>
+    <link href="{{ site.baseurl }}/reset.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.baseurl }}/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class='language-switcher'>
-      <a href='{{ site.baseurl }}/en{{page.polylink}}'>English</a> |
-      <a href='{{ site.baseurl }}/es{{page.polylink}}'>Spanish</a>
+    <div class='inner'>
+      <div class='language-switcher'>
+        <a href='{{ site.baseurl }}/en{{page.polylink}}'>English</a> |
+        <a href='{{ site.baseurl }}/es{{page.polylink}}'>Spanish</a>
+      </div>
+      <div id='header'>
+        <h1><a href='{{ site.baseurl }}/{{page.lang}}'>LearnOSM</a></h1>
+        <div class='tagline'>{{site.translations.[page.lang].tagline}} </div>
+      </div>
+      {{ content }}
+      <div id='footer'>
+        Official HOT OSM Learning Material
+      </div>
     </div>
-    <h1><a href='{{ site.baseurl }}/{{page.lang}}'>LearnOSM</a></h1>
-    <div class='tagline'>{{site.translations.[page.lang].tagline}} </div>
-    {{ content }}
   </body>
 </html>
