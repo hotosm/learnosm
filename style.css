@@ -80,8 +80,7 @@ pre {
 /* --------------------------------------------------------
   Layout
 -------------------------------------------------------- */
-.language-switcher.en a.en,
-.language-switcher.es a.es {
+.language-switcher a.active {
   color: #333;
   text-decoration: none;
   cursor: default;
