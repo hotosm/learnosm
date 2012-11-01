@@ -65,7 +65,7 @@ We hope that you will find OpenStreetMap useful and interesting in your
 work. By following this guide, you should be able to quickly start
 making digital maps and adding to OSM.
 
-[A village in Indonesia ]: {{site.baseurl}}/images/vill1.jpg
-[Example of a Hand-drawn Map ]: {{site.baseurl}}/images/drawing.gif
-[Examples of Symbols ]: {{site.baseurl}}/images/symb.jpg
-[Digital Maps with OpenStreetMap ]: {{site.baseurl}}/images/osm1.png
+[A village in Indonesia ]: {{site.baseurl}}/en/images/vill1.jpg
+[Example of a Hand-drawn Map ]: {{site.baseurl}}/en/images/drawing.gif
+[Examples of Symbols ]: {{site.baseurl}}/en/images/symb.jpg
+[Digital Maps with OpenStreetMap ]: {{site.baseurl}}/en/images/osm1.png
