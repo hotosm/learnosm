@@ -1,0 +1,100 @@
+
+/* --------------------------------------------------------
+  Typographhy
+-------------------------------------------------------- */
+body {
+  font: normal 12px/20px 'OpenSansRegular','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 50px;
+  }
+h1,h2,h3,h4,h5,h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  }
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+  color: #404040;
+  }
+h1 {
+  font-size: 30px;
+  line-height: 50px;
+  }
+h2 {
+  font-size: 25px;
+  line-height: 50px;
+  }
+h3 {
+  font-size: 20px;
+  line-height: 40px;
+  }
+h4 {
+  font-size: 15px;
+  }
+p, ul {
+  margin: 0 0 20px;
+  }
+a {
+  text-decoration: none;
+  color: #2c8fc6;
+  }
+  a:hover {
+    color: #92c9e7;
+  }
+pre {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin: 10px 0;
+  font-family: monospace;
+}
+
+.doc li {
+  list-style-type: disc;
+  margin-left: 20px;
+  }
+  .doc li p {
+    margin: 0;
+  }
+
+/* --------------------------------------------------------
+  Layout
+-------------------------------------------------------- */
+
+.inner {
+  width: 600px;
+  margin: 0 auto;
+  }
+
+.inner img {
+  display: block;
+  max-width: 550px;
+  margin: 40px auto;
+  padding: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, .3);
+  }
+
+#header {
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  margin: 20px 0;
+  padding: 20px 0;
+  }
+
+#footer {
+  border-top: 5px solid #333;
+  margin: 30px 0;
+  padding: 20px 0;
+  font-size: 12px;
+  }
+
+/* --------------------------------------------------------
+  Layout
+-------------------------------------------------------- */
+.language-switcher a.active {
+  color: #333;
+  text-decoration: none;
+  cursor: default;
+  }

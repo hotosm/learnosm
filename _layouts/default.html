@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+  <head>
+    <meta charset="utf-8">
+    <title>LearnOSM</title>
+    <link href="{{ site.baseurl }}/reset.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.baseurl }}/style.css" rel="stylesheet" type="text/css">
+    <script src="{{ site.baseurl }}/vendor/jquery-1.8.2.min.js"></script>
+    <script>
+      window.app = window.app || {};
+      window.app.permalink = '{{page.permalink}}';
+      window.app.baseurl = '{{site.baseurl}}';
+      window.app.lang = '{{page.lang}}';
+    </script>
+    <script src="{{ site.baseurl }}/site.js"></script>
+  </head>
+  <body>
+    <div class='inner'>
+      <div class='language-switcher'>
+        <a lang='en'>English</a> |
+        <a lang='jp'>Japanese</a> |
+        <a lang='it'>Italian</a> |
+        <a lang='id'>Indonesian</a> |
+        <a lang='es'>Spanish</a>
+      </div>
+      <div id='header'>
+        <h1><a href='{{ site.baseurl }}/{{page.lang}}'>LearnOSM</a></h1>
+        <div class='tagline'>{{site.translations.[page.lang].tagline}} </div>
+      </div>
+      {{ content }}
+      <div id='footer'>
+        Official HOT OSM Learning Material | <a href='{{site.baseurl}}/en/status'>Translation status</a>
+      </div>
+    </div>
+  </body>
+</html>

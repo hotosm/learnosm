@@ -1,0 +1,16 @@
+---
+layout: default
+permalink: /es/status
+polylink: /status
+---
+<h2>{{ page.title }}</h2>
+<div class="status-reports">
+  {% for post in site.categories.['status'] %}
+    {% if {{post.lang}} == {{page.lang}} %}
+    <div class='status'>
+      <a href='{{site.baseurl}}{{ post.subject }}'>{{site.baseurl}}{{ post.subject }}</a>
+      {{ post.content | markdownify }}
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
