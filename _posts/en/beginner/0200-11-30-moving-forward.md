@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Moving Forward
 permalink: /en/beginner/moving-forward
 lang: en

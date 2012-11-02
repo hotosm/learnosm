@@ -33,7 +33,7 @@ h3 {
 h4 {
   font-size: 15px;
   }
-p {
+p, ul {
   margin: 0 0 20px;
   }
 a {
@@ -49,6 +49,14 @@ pre {
   margin: 10px 0;
   font-family: monospace;
 }
+
+.doc li {
+  list-style-type: disc;
+  margin-left: 20px;
+  }
+  .doc li p {
+    margin: 0;
+  }
 
 /* --------------------------------------------------------
   Layout

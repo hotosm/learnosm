@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Getting Started With JOSM
 permalink: /en/beginner/start-josm
 lang: en

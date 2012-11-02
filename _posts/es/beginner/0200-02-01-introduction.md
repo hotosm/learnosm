@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: doc
 title: Introducción
 permalink: /es/beginner/introduction
 lang: es
