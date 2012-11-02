@@ -60,7 +60,12 @@ pre {
   }
 
 .inner img {
-  width: 600px;
+  display: block;
+  max-width: 550px;
+  margin: 40px auto;
+  padding: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, .3);
   }
 
 #header {
@@ -71,8 +76,8 @@ pre {
   }
 
 #footer {
-  border-top: 1px solid #666;
-  margin: 20px 0;
+  border-top: 5px solid #333;
+  margin: 30px 0;
   padding: 20px 0;
   font-size: 12px;
   }
