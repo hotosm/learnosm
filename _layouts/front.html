@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h2>{{ page.translations.beginner }}</h2>
+<ul class="docs">
+  {% for post in site.categories.['beginner'] %}
+    {% if {{post.lang}} == {{page.lang}} %}
+    <li class='doc'>
+      <div class='title'><a href="{{site.baseurl}}{{ post.url }}">➤ {{ post.title }}</a></div>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
