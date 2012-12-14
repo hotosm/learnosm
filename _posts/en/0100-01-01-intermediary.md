@@ -3,8 +3,8 @@ layout: doc
 permalink: /en/intermediary
 lang: en
 title: Intermediary
-category: guide
-guide: intermediary
+category: intermediary
+cover: yes
 ---
 
 [Training materials for Intermediary guide]()

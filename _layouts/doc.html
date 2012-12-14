@@ -5,23 +5,17 @@ layout: default
   {{content}}
 </div>
 <div class='side cell3 pad1'>
-  <h2>
-  {% if {{page.guide}} %}
-    {{ page.title }}
-  {% else %}
-    {% for post in site.categories.['guide'] %}
-      {% if {{post.lang}} == {{page.lang}} and {{post.guide}} == {{page.category}} %}
-        {{ post.title }}
-      {% endif %}
-    {% endfor %}
-  {% endif %}
-  </h2>
   <ul class="docs">
-    {{ page.category }} {{ page.guide }}
-    {% for post in site.categories.['beginner'] %} 
+    {% for post in site.categories.[page.category] %} 
       {% if {{post.lang}} == {{page.lang}} %}
       <li class='doc'>
+        {% if {{post.cover}} %}
+          <div class='cover'>
+        {% endif %}
         <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
+        {% if {{post.cover}} %}
+          </div>
+        {% endif %}
       </li>
       {% endif %}
     {% endfor %}

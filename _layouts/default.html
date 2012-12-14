@@ -28,8 +28,8 @@
         <h1><a href='{{ site.baseurl }}/{{page.lang}}'>LearnOSM</a></h1>
         <div class='tagline'>{{site.translations.[page.lang].tagline}}</div>
         <ul class='all-guides'>
-          {% for post in site.categories.['guide'] %} 
-            {% if {{post.lang}} == {{page.lang}} %}
+          {% for post in site.posts %}
+            {% if {{post.lang}} == {{page.lang}} and {{post.cover}} %}
             <li class='guide'>
               <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
             </li>
