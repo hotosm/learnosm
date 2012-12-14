@@ -1,6 +1,29 @@
 ---
 layout: default
 ---
-<div class='doc'>
-{{content}}
+<div class='doc cell7 pad1'>
+  {{content}}
+</div>
+<div class='side cell3 pad1'>
+  <h2>
+  {% if {{page.guide}} %}
+    {{ page.title }}
+  {% else %}
+    {% for post in site.categories.['guide'] %}
+      {% if {{post.lang}} == {{page.lang}} and {{post.guide}} == {{page.category}} %}
+        {{ post.title }}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  </h2>
+  <ul class="docs">
+    {{ page.category }} {{ page.guide }}
+    {% for post in site.categories.['beginner'] %} 
+      {% if {{post.lang}} == {{page.lang}} %}
+      <li class='doc'>
+        <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 </div>

@@ -1,13 +1,22 @@
 ---
 layout: default
 ---
-<h2>{{ page.translations.beginner }}</h2>
-<ul class="docs">
-  {% for post in site.categories.['beginner'] %}
-    {% if {{post.lang}} == {{page.lang}} %}
-    <li class='doc'>
-      <div class='title'><a href="{{site.baseurl}}{{ post.url }}">➤ {{ post.title }}</a></div>
-    </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+<div class='pad1'>
+  <form class="searchbox">
+    <input type="text" name="search"></input>
+    <input type="submit" name="submit" value="search"></input>
+  </form>
+  <div class='mainintro cell7 pad1T pad0R'>
+    <h4 class='tagtitle'>{{ site.translations.[page.lang].tagtitle }}</h4>
+    <p class='tagwords'>{{ site.translations.[page.lang].tagwords }}</p>
+  </div>
+  <div class='faqbox pad1T'>
+    <h4>Common questions</h4>
+    <ul class='faq'>
+      <li><a href='#'>What is OpenStreetMap?</a></li>
+      <li><a href='#'>What is LearnOSM?</a></li>
+      <li><a href='#'>How can I get started to map?</a></li>
+      <li><a href='#'>Do I need any gears to map</a></li>
+      <li><a href='#'>Where can I find additional help</a></li>
+  </div>
+</div>

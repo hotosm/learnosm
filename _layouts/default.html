@@ -5,6 +5,7 @@
     <title>LearnOSM</title>
     <link href="{{ site.baseurl }}/reset.css" rel="stylesheet" type="text/css">
     <link href="{{ site.baseurl }}/style.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Quattrocento:400,700' rel='stylesheet' type='text/css'>
     <script src="{{ site.baseurl }}/vendor/jquery-1.8.2.min.js"></script>
     <script>
       window.app = window.app || {};
@@ -15,22 +16,31 @@
     <script src="{{ site.baseurl }}/site.js"></script>
   </head>
   <body>
-    <div class='inner'>
-      <div class='language-switcher'>
+    <div class='inner margin1 cell10'> 
+      <small class='language-switcher cell12 fillGray'>
         <a lang='en'>English</a> |
         <a lang='jp'>Japanese</a> |
         <a lang='it'>Italian</a> |
         <a lang='id'>Indonesian</a> |
         <a lang='es'>Spanish</a>
-      </div>
-      <div id='header'>
+      </small>
+      <div id='header' class='pad1'>
         <h1><a href='{{ site.baseurl }}/{{page.lang}}'>LearnOSM</a></h1>
-        <div class='tagline'>{{site.translations.[page.lang].tagline}} </div>
+        <div class='tagline'>{{site.translations.[page.lang].tagline}}</div>
+        <ul class='all-guides'>
+          {% for post in site.categories.['guide'] %} 
+            {% if {{post.lang}} == {{page.lang}} %}
+            <li class='guide'>
+              <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
       {{ content }}
-      <div id='footer'>
+      <small id='footer' class='cell12 pad1 fillGray'>
         Official HOT OSM Learning Material | <a href='{{site.baseurl}}/en/status'>Translation status</a>
-      </div>
+      </small>
     </div>
   </body>
 </html>
