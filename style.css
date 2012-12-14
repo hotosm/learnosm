@@ -28,26 +28,36 @@
 .margin11 { margin-left: 91.6666%; }
 .margin12 { margin-left: 100.0000%; }
 
-.pad0 {padding:40px;}
-.pad0R {padding-right:40px;}
+.pad0 {padding:40px 20px;}
 .pad1 {padding:20px;}
-.pad1T {padding-top:20px;}
-.pad1L {padding-left:20px;}
+.marginR {margin-right:60px;}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+  content:"";
+  display:table;
+  }
+
+.cf:after {
+  clear:both;
+  }
 
 /* --------------------------------------------------------
   Palette
 -------------------------------------------------------- */
-.fillGray {background-color:#f1f1f1;}
+.fillG {background-color:#f1f1f1;}
+.fillW {background-color:#fff;}
 
 /* --------------------------------------------------------
   Typography
 -------------------------------------------------------- */
 body {
-  font: normal 12px/20px 'OpenSansRegular','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
+  font: normal 12px/20px 'Source Sans Pro','OpenSansRegular','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
   color: #333;
   padding: 0;
   font-size: 15px;
-  line-height: 25px;
+  line-height: 1.68em;
   }
 h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
@@ -58,34 +68,40 @@ h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
   color: #404040;
   }
 h1 {
-  font-size: 30px;
-  line-height: 50px;
+  font-size: 24px;
+  margin-bottom:18px;
   }
 h2 {
-  font-size: 25px;
-  line-height: 50px;
+  text-transform:uppercase;
+  font-size: 18px;
+  margin-bottom:12px;
   }
 h3 {
-  font-size: 20px;
-  line-height: 40px;
+  font-size: 16px;
+  margin-bottom:12px;
   }
 h4 {
-  font-size: 15px;
+  font-size: 16px;
+  margin-bottom:26px;
   }
-p, ul {
-  font-family: 'Quattrocento', serif;
+p {
   margin: 0 0 20px;
+  line-height:28px;
   }
-  ul ul {
-    margin: 0;
-    }
+ul ul {
+  margin: 0;
+  }
 
 a {
   text-decoration: none;
-  color: #2c8fc6;
+  color: #808080;
   }
   a:hover {
-    color: #92c9e7;
+    color: #79bc5f;
+    transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
   }
 
 pre {
@@ -96,22 +112,33 @@ pre {
 }
 
 .doc li {
+
+}
+
+.doc li, .doc p {
+  font-family:'Quattrocento',serif;
   list-style-type: square;
-  margin-left: 20px;
-  margin-
-  }
-  .doc li p {
-    margin: 0;
-  }
+/*  margin-left: 20px;*/
+ }
 
 small {
   font-size:12px;
 }
+
 /* --------------------------------------------------------
   Layout
 -------------------------------------------------------- */
+.rounded {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+}
 
-.inner img {
+img {
   margin:20px 0;
   padding:6px;
   display: block;
@@ -119,24 +146,78 @@ small {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, .3);
   }
 
-#header {
-  padding:60px 20px;
-  border-bottom: 2px solid #ddd; /* substitute this with an image*/
+input {
+  border:none;
+  font-size:14px;
+  color:#ccc;
+  padding:4px 20px;
+}
+
+
+input[type='submit']{
+  float:right;
+  color:#fff;
+  background:#efefef;
+  cursor:pointer;
+}
+
+input[type='submit']:hover{
+  background:#ccc;
+}
+.logo {
+  display:block;
+  background:url(./images/sprite.png) no-repeat;
   }
 
-#footer {
-  position:relative;
-}
+.logo-learn {width:170px;
+  height:42px;
+  background-position:0px -55px;
+  }
+.logo-hot {
+  width:62px;
+  height:38px;
+  background-position:0 0;
+  }
+.logo-ausaid {
+  width:90px;
+  height:40px;
+  background-position:0 0;
+  }
+#header {
+  border-bottom:1px dotted #f1f1f1;
+  }
 
-/* --------------------------------------------------------
-  Layout
--------------------------------------------------------- */
+.searchbox {
+  height:32px;
+  border:4px solid #f1f1f1;
+  }
+.faqbox h4 {
+  margin-bottom:48px;
+  }
+.faq li {
+  padding:4px 0;
+  }
+
+.arrow {
+  display:block;
+  float:left;
+  background: url(./images/sprite.png) -36px -109px no-repeat;
+  width: 16px;
+  height: 12px;
+  margin: 7px 0;
+  }
+
 .language-switcher {
   padding:6px 20px;
-}
+  }
 
 .language-switcher a.active {
   color: #333;
   text-decoration: none;
   cursor: default;
+  }
+
+.cover {
+  font-weight:700;
+  margin-bottom:18px;
   }

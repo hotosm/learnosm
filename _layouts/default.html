@@ -5,7 +5,7 @@
     <title>LearnOSM</title>
     <link href="{{ site.baseurl }}/reset.css" rel="stylesheet" type="text/css">
     <link href="{{ site.baseurl }}/style.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700|Quattrocento:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic |Quattrocento:400,700' rel='stylesheet' type='text/css'>
     <script src="{{ site.baseurl }}/vendor/jquery-1.8.2.min.js"></script>
     <script>
       window.app = window.app || {};
@@ -15,19 +15,24 @@
     </script>
     <script src="{{ site.baseurl }}/site.js"></script>
   </head>
-  <body>
-    <div class='inner margin1 cell10'> 
-      <small class='language-switcher cell12 fillGray'>
+  <body class='fillG'>
+    <div class="cell12">
+      <small class='language-switcher margin1 cell10 cf'>
         <a lang='en'>English</a> |
         <a lang='jp'>Japanese</a> |
         <a lang='it'>Italian</a> |
         <a lang='id'>Indonesian</a> |
         <a lang='es'>Spanish</a>
       </small>
-      <div id='header' class='pad1'>
-        <h1><a href='{{ site.baseurl }}/{{page.lang}}'>LearnOSM</a></h1>
+    </div>
+    <div id='header' class='fillW cell12'>
+      <div class='margin1 marginR cell5 pad0 cf'>
+        <h1><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></h1>
         <div class='tagline'>{{site.translations.[page.lang].tagline}}</div>
-        <ul class='all-guides'>
+      </div>
+      <div class='cell4 pad0 cf'>
+        <h4 class='cell3'>Our guides</h4>
+        <ul class='all-guides cell2'>
           {% for post in site.posts %}
             {% if {{post.lang}} == {{page.lang}} and {{post.cover}} %}
             <li class='guide'>
@@ -37,8 +42,10 @@
           {% endfor %}
         </ul>
       </div>
+    </div>
       {{ content }}
-      <small id='footer' class='cell12 pad1 fillGray'>
+    <div class='cell12'>
+      <small id='footer' class='margin1 cell10 pad1 cf'>
         Official HOT OSM Learning Material | <a href='{{site.baseurl}}/en/status'>Translation status</a>
       </small>
     </div>

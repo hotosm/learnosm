@@ -1,22 +1,44 @@
 ---
 layout: default
 ---
-<div class='pad1'>
-  <form class="searchbox">
-    <input type="text" name="search"></input>
-    <input type="submit" name="submit" value="search"></input>
-  </form>
-  <div class='mainintro cell7 pad1T pad0R'>
+<div class='fillW cell12'>
+  <div class='margin1 cell9 pad1'>
+    <form class='searchbox rounded'>
+      <input type='text' name='search' class='cell8'></input>
+      <input type='submit' name='submit' value='search' class='rounded'></input>
+    </form>
+  </div>
+  <div class='mainintro margin1 marginR cell5 pad1'>
     <h4 class='tagtitle'>{{ site.translations.[page.lang].tagtitle }}</h4>
     <p class='tagwords'>{{ site.translations.[page.lang].tagwords }}</p>
   </div>
-  <div class='faqbox pad1T'>
+  <div class='faqbox cell3 pad1'>
     <h4>Common questions</h4>
     <ul class='faq'>
       <li><a href='#'>What is OpenStreetMap?</a></li>
       <li><a href='#'>What is LearnOSM?</a></li>
       <li><a href='#'>How can I get started to map?</a></li>
       <li><a href='#'>Do I need any gears to map</a></li>
-      <li><a href='#'>Where can I find additional help</a></li>
+      <li><a href='#'>Where can I find additional help?</a></li>
   </div>
 </div>
+
+<script>
+  $(".faq").find("li a").prepend("<span class='arrow'></span>");
+
+  var input = $(".searchbox input[type=text]"),
+    inputTitle = "What are you looking for?";
+    input.val(inputTitle);
+
+  input.blur(function() {
+  if (input.val() === "") {
+      input.val(inputTitle); // restore default text
+      input.addClass("default-value"); // for lighter text
+  }
+  }).focus(function() {
+    if (input.val() === inputTitle) {
+        input.val("");
+        input.removeClass("default-value"); // for darker text
+    }
+  });
+</script>

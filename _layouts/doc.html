@@ -1,23 +1,25 @@
 ---
 layout: default
 ---
-<div class='doc cell7 pad1'>
-  {{content}}
-</div>
-<div class='side cell3 pad1'>
-  <ul class="docs">
-    {% for post in site.categories.[page.category] %} 
-      {% if {{post.lang}} == {{page.lang}} %}
-      <li class='doc'>
-        {% if {{post.cover}} %}
-          <div class='cover'>
+<div class='fillW cell12'>
+  <div class='margin1 cell3 pad1 cf'>
+    <ul class="docs">
+      {% for post in site.categories.[page.category] %}
+        {% if {{post.lang}} == {{page.lang}} %}
+        <li class='doc'>
+          {% if {{post.cover}} %}
+            <div class='cover'>
+          {% endif %}
+          <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
+          {% if {{post.cover}} %}
+            </div>
+          {% endif %}
+        </li>
         {% endif %}
-        <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
-        {% if {{post.cover}} %}
-          </div>
-        {% endif %}
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class='doc cell5 pad1 cf'>
+    {{content}}
+  </div>
 </div>

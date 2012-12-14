@@ -1,9 +1,9 @@
 ---
 layout: doc
-permalink: /en/intermediary
+permalink: /en/intermediate
 lang: en
-title: Intermediary
-category: intermediary
+title: Intermediate
+category: intermediate
 cover: yes
 ---
 
