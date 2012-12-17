@@ -24,7 +24,15 @@ layout: default
 </div>
 
 <script>
-  $(".faq").find("li a").prepend("<span class='arrow'></span>");
+  $(".faq").find("li a").prepend("<span class='arrow'></span>")
+    .hover(
+      function(){
+        $(this).find("span").addClass("active");
+      },
+      function(){
+        $(this).find("span").removeClass("active");
+      }
+    );
 
   var input = $(".searchbox input[type=text]"),
     inputTitle = "What are you looking for?";

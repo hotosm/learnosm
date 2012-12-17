@@ -110,15 +110,12 @@ pre {
   margin: 10px 0;
   font-family: monospace;
 }
-
-.doc li {
-
+.doc {
+  margin:10px 0;
 }
-
 .doc li, .doc p {
   font-family:'Quattrocento',serif;
   list-style-type: square;
-/*  margin-left: 20px;*/
  }
 
 small {
@@ -164,25 +161,39 @@ input[type='submit']{
 input[type='submit']:hover{
   background:#ccc;
 }
+
 .logo {
   display:block;
   background:url(./images/sprite.png) no-repeat;
+  width:16px;
+  height:20px;
+  margin-right:20px;
   }
 
-.logo-learn {width:170px;
+.logo-learn {
+  width:170px;
   height:42px;
   background-position:0px -55px;
   }
+
+.logo-email {float:left; background-position:-78px -103px;}
+.logo-twitter {float:left; background-position:-111px -103px;}
+.logo-translation {float:left; background-position:-138px -103px;}
+
 .logo-hot {
+  position:absolute;
+  margin:10px 0;
   width:62px;
   height:38px;
   background-position:0 0;
   }
 .logo-ausaid {
+  margin: 14px 80px;
   width:90px;
   height:40px;
-  background-position:0 0;
+  background-position:-76px 0;
   }
+
 #header {
   border-bottom:1px dotted #f1f1f1;
   }
@@ -191,9 +202,11 @@ input[type='submit']:hover{
   height:32px;
   border:4px solid #f1f1f1;
   }
+
 .faqbox h4 {
   margin-bottom:48px;
   }
+
 .faq li {
   padding:4px 0;
   }
@@ -206,6 +219,10 @@ input[type='submit']:hover{
   height: 12px;
   margin: 7px 0;
   }
+
+.arrow.active {
+  background: url(./images/sprite.png) -56px -109px no-repeat;
+}
 
 .language-switcher {
   padding:6px 20px;
