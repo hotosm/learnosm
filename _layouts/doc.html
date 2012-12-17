@@ -23,3 +23,21 @@ layout: default
     {{content}}
   </div>
 </div>
+
+<script>
+// loop through the node list to get the innerHTML from each node
+// copy that as the id for the node
+    var nodeList = document.getElementsByTagName('h2');
+    for (i = 0; i < nodeList.length; i++) {
+        el = nodeList[i];
+        txtCopy = el.innerHTML.toLowerCase().replace(/ /g, '-').replace(/([^0-9a-z-])/g,'');
+        el.id = txtCopy;
+        el.className = "title-in-doc";
+    };
+
+// make the titles linkable
+    $('h1[id], h2[id]','.doc').attr('title', 'Link to this section').click(function(e) {
+      window.location.hash = $(e.currentTarget).attr('id');
+    });
+
+</script>
