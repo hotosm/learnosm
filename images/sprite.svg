@@ -10,7 +10,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="164.96422"
+   width="600"
    height="120"
    id="svg4781"
    version="1.1"
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.03041"
-     inkscape:cx="79.035766"
-     inkscape:cy="94.728857"
+     inkscape:zoom="1.7785185"
+     inkscape:cx="143.77908"
+     inkscape:cy="62.922304"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -40,8 +40,8 @@
      fit-margin-bottom="0"
      inkscape:window-width="957"
      inkscape:window-height="756"
-     inkscape:window-x="157"
-     inkscape:window-y="21"
+     inkscape:window-x="264"
+     inkscape:window-y="0"
      inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
@@ -154,7 +154,7 @@
          sodipodi:cy="32.362183"
          sodipodi:cx="-35"
          id="path4997"
-         style="color:#000000;fill:#878787;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.20000000000000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         style="color:#000000;fill:#878787;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          sodipodi:type="arc" />
     </g>
     <image

@@ -3,7 +3,6 @@ $(function() {
 
     learnOsm.translation = function(){
         var app = window.app;
-        console.log(app);
         $('.language-switcher a').each(function(i, e) {
             if (app.permalink.length < 3) return;
             $(e).attr('href',

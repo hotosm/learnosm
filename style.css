@@ -89,21 +89,19 @@ p {
   margin: 0 0 20px;
   line-height:28px;
   }
-ul ul {
-  margin: 0;
-  }
 
 a {
   text-decoration: none;
   color: #808080;
   }
-  a:hover {
-    color: #79bc5f;
-    transition: all 200ms linear;
-    -moz-transition: all 200ms linear;
-    -webkit-transition: all 200ms linear;
-    -o-transition: all 200ms linear;
-  }
+
+a:hover {
+  color: #79bc5f;
+  transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+}
 
 small {
   font-size:12px;
@@ -116,8 +114,39 @@ pre {
   margin: 10px 0;
   font-family: monospace;
 }
-.doc {
-  margin:10px 0;
+
+.doc .title{
+  border-top:1px solid #f1f1f1;
+  border-left:1px solid #f1f1f1;
+  border-right:1px solid #f1f1f1;
+}
+.doc .title:last-child{
+  border-bottom:1px solid #f1f1f1;
+}
+.doc .cover {
+  background:#f1f1f1;
+}
+
+.doc .cover .title a:hover{
+  background:#e7e7e7;
+  color:#808080;
+}
+.doc .title a {
+  display:block;
+  padding:10px 0 10px 10px;
+}
+
+.doc .title a:hover {
+  background:#79bc5f;
+  color:#fff;
+  transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+}
+
+.doc h1 {
+  font-weight:400;
 }
 .doc li, .doc p {
   font-family:'Quattrocento',serif;
@@ -201,9 +230,9 @@ input[type='submit']:hover{
   background-position:-76px 0;
   }
 
-#header {
+/*#header {
   border-bottom:1px dotted #f1f1f1;
-  }
+  }*/
 
 .searchbox {
   height:32px;
@@ -241,7 +270,11 @@ input[type='submit']:hover{
   cursor: default;
   }
 
-.cover {
-  font-weight:700;
+/*.docs {
+  border:1px solid #f1f1f1;
+}*/
+
+
+/*.cover {
   margin-bottom:18px;
-  }
+  }*/
