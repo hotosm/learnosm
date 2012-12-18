@@ -17,7 +17,7 @@
   </head>
   <body class='fillG'>
     <div class="cell12">
-      <small class='language-switcher margin1 cell10 cf'>
+      <small class='language-switcher marginL cell10 cf'>
         <a lang='en'>English</a> |
         <a lang='jp'>Japanese</a> |
         <a lang='it'>Italian</a> |
@@ -26,7 +26,7 @@
       </small>
     </div>
     <div id='header' class='fillW cell12'>
-      <div class='margin1 marginR cell5 pad0 cf'>
+      <div class='marginL marginR cell5 pad0 cf'>
         <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
         <span class='tagline'>{{site.translations.[page.lang].tagline}}</span>
       </div>
@@ -45,25 +45,16 @@
     </div>
       {{ content }}
     <small id='footer' class='cell12'>
-      <div class='margin1 marginR cell5 pad0 cf'>
-        <div class='email'>
-          <span class='logo logo-email'></span>
-          <a href="mailto:learnosm@hotosm.org">learnosm@hotosm.org</a>
-        </div>
-        <div class='twitter'>
-          <span class='logo logo-twitter'></span>
-          <a href="https://twitter.com/learnosm">@learnOSM</a>
-        </div>
-        <div class='translation'>
-          <span class='logo logo-translation'></span>
-          <a href='{{site.baseurl}}/en/status'>Translation Status</a>
-        </div>
-      </div>
+      <ul class='contact marginL marginR cell5 pad0 cf'>
+        <li><a class='email' href="mailto:learnosm@hotosm.org">learnosm@hotosm.org</a></li>
+        <li><a class='twitter' href="https://twitter.com/learnosm">@learnOSM</a></li>
+        <li><a class='translation' href='{{site.baseurl}}/en/status'>Translation Status</a></li>
+      </ul>
       <div class='cell4 pad0 cf'>
-        <small>
+        <span>
           Official HOT OSM learning materials |
           <a href='github.com/hotosm/learnosm'> Hosted on Github</a>
-        </small>
+        </span>
         <span class='logo logo-hot'></span>
         <span class='logo logo-ausaid'></span>
       </div>

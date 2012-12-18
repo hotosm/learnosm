@@ -14,23 +14,12 @@
 .cell10 { float:left; width:83.3333%; }
 .cell11 { float:left; width:91.6666%; }
 .cell12 { float:left; width:100.0000%; }
-.margin0 { margin-left: 04.1666%; }
-.margin1 { margin-left: 08.3333%; }
-.margin2 { margin-left: 16.6666%; }
-.margin3 { margin-left: 25.0000%; }
-.margin4 { margin-left: 33.3333%; }
-.margin5 { margin-left: 41.6666%; }
-.margin6 { margin-left: 50.0000%; }
-.margin7 { margin-left: 58.3333%; }
-.margin8 { margin-left: 66.6666%; }
-.margin9 { margin-left: 75.0000%; }
-.margin10 { margin-left: 83.3333%; }
-.margin11 { margin-left: 91.6666%; }
-.margin12 { margin-left: 100.0000%; }
+
+.marginL { margin-left: 08.3333%; }
+.marginR {margin-right:60px;}
 
 .pad0 {padding:40px 20px;}
 .pad1 {padding:20px;}
-.marginR {margin-right:60px;}
 
 /* clearfix */
 .cf:before,
@@ -44,7 +33,7 @@
   }
 
 /* --------------------------------------------------------
-  Palette
+  Colors
 -------------------------------------------------------- */
 .fillG {background-color:#f1f1f1;}
 .fillW {background-color:#fff;}
@@ -52,6 +41,16 @@
 /* --------------------------------------------------------
   Typography
 -------------------------------------------------------- */
+
+/* tagname hierarchy
+h1: guide title
+h2: sections within a guide
+h3: subsections within a section
+h4: used outside of guides
+h5: none
+h6: none
+*/
+
 body {
   font: normal 12px/20px 'Source Sans Pro','OpenSansRegular','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
   color: #333;
@@ -59,7 +58,7 @@ body {
   font-size: 15px;
   line-height: 1.68em;
   }
-h1,h2,h3,h4,h5,h6 {
+h2,h3,h4,h5,h6 {
   font-weight: 700;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -85,7 +84,7 @@ h4 {
   font-size: 16px;
   margin-bottom:26px;
   }
-p {
+p, ul{
   margin: 0 0 20px;
   line-height:28px;
   }
@@ -97,17 +96,12 @@ a {
 
 a:hover {
   color: #79bc5f;
-  transition: all 200ms linear;
-  -moz-transition: all 200ms linear;
-  -webkit-transition: all 200ms linear;
-  -o-transition: all 200ms linear;
 }
 
 small {
   font-size:12px;
 }
 
-/* For doc content*/
 pre {
   background-color: #f5f5f5;
   padding: 10px;
@@ -115,48 +109,21 @@ pre {
   font-family: monospace;
 }
 
-.doc .title{
-  border-top:1px solid #f1f1f1;
-  border-left:1px solid #f1f1f1;
-  border-right:1px solid #f1f1f1;
-}
-.doc .title:last-child{
-  border-bottom:1px solid #f1f1f1;
-}
-.doc .cover {
-  background:#f1f1f1;
-}
-
-.doc .cover .title a:hover{
-  background:#e7e7e7;
-  color:#808080;
-}
-.doc .title a {
-  display:block;
-  padding:10px 0 10px 10px;
-}
-
-.doc .title a:hover {
-  background:#79bc5f;
-  color:#fff;
-  transition: all 200ms linear;
-  -moz-transition: all 200ms linear;
-  -webkit-transition: all 200ms linear;
-  -o-transition: all 200ms linear;
-}
-
-.doc h1 {
-  font-weight:400;
-}
 .doc li, .doc p {
   font-family:'Quattrocento',serif;
   list-style-type: square;
  }
-.title-in-doc {
-  cursor:pointer;
+.doc li {
+  margin:0 0 20px 0;
 }
-.title-in-doc:hover {
-  color: #79bc5f;
+.doc li p {
+  margin:0; /* p and ul inside of an li does not need bottom margins*/
+}
+.doc li ul {
+  margin:0 0 0 20px;
+}
+.doc li ul li {
+  list-style-type: circle;
 }
 /* --------------------------------------------------------
   Layout
@@ -186,7 +153,6 @@ input {
   padding:4px 20px;
 }
 
-
 input[type='submit']{
   float:right;
   color:#fff;
@@ -205,17 +171,11 @@ input[type='submit']:hover{
   height:20px;
   margin-right:20px;
   }
-
 .logo-learn {
   width:170px;
   height:42px;
-  background-position:0px -55px;
+  background-position:0px -44px;
   }
-
-.logo-email {float:left; background-position:-78px -103px;}
-.logo-twitter {float:left; background-position:-111px -103px;}
-.logo-translation {float:left; background-position:-138px -103px;}
-
 .logo-hot {
   position:absolute;
   margin:10px 0;
@@ -230,51 +190,109 @@ input[type='submit']:hover{
   background-position:-76px 0;
   }
 
-/*#header {
-  border-bottom:1px dotted #f1f1f1;
-  }*/
+.email:before,.twitter:before,.translation:before,
+.email:hover:before,.twitter:hover:before,.translation:hover:before {
+  content:'';
+  float:left;
+  margin-right:20px;
+  width:16px;
+  height:20px;
+  background:url(./images/sprite.png) no-repeat;
+  overflow:hidden;
+}
+.email:before {background-position:-19px -87px;}
+.email:hover:before {background-position:-19px -107px;}
+.twitter:before {background-position:-50px -87px;}
+.twitter:hover:before {background-position:-50px -107px;}
+.translation:before {background-position:-80px -87px;}
+.translation:hover:before {background-position:-80px -107px;}
 
 .searchbox {
-  height:32px;
+  height:30px;
   border:4px solid #f1f1f1;
   }
 
-.faqbox h4 {
-  margin-bottom:48px;
+.faqbox h4 {margin-bottom:48px;
   }
 
-.faq li {
-  padding:4px 0;
-  }
+.faq li {padding:4px 0;}
 
-.arrow {
-  display:block;
+.faq li a:before {
+  content:'';
   float:left;
-  background: url(./images/sprite.png) -36px -109px no-repeat;
-  width: 16px;
-  height: 12px;
-  margin: 7px 0;
+  margin-top: 7px;
+  width:16px;
+  height:20px;
+  background:url(./images/sprite.png) 2px -94px no-repeat;
+  overflow:hidden;
   }
-
-.arrow.active {
-  background: url(./images/sprite.png) -56px -109px no-repeat;
-}
+.faq li a:hover:before {
+  background-position:2px -114px;
+  }
 
 .language-switcher {
   padding:6px 20px;
   }
 
 .language-switcher a.active {
-  color: #333;
+  color: #79bc5f;
   text-decoration: none;
   cursor: default;
   }
 
-/*.docs {
-  border:1px solid #f1f1f1;
-}*/
+/* doc page */
+.doc .title{
+  border-top:1px solid #f1f1f1;
+  border-left:1px solid #f1f1f1;
+  border-right:1px solid #f1f1f1;
+  }
+.doc .title:last-child{
+  border-bottom:1px solid #f1f1f1;
+  }
+.doc .cover {
+  background:#f1f1f1;
+  }
 
+.doc .cover .title a:hover{
+  background:#e7e7e7;
+  color:#808080;
+  }
+.doc .title a {
+  display:block;
+  padding:10px 0 10px 10px;
+  }
 
-/*.cover {
-  margin-bottom:18px;
-  }*/
+.doc .title a:hover {
+  background:#79bc5f;
+  color:#fff;
+  transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  }
+
+.doc h2,
+.doc h3 {
+  cursor:pointer;
+  }
+
+.doc h2:target,
+.doc h3:target {
+  color:#79bc5f;
+  }
+
+.doc h2:before,
+.doc h3:before {
+  content:'';
+  float:left;
+  margin:6px 6px 0px -21px;
+  width:16px;
+  height:20px;
+  background:url(./images/sprite.png) -109px -92px no-repeat;
+  overflow:hidden;
+  }
+.doc h2:hover:before,
+.doc h3:hover:before {
+  background-position: -109px -112px;
+  }
+

@@ -2,24 +2,24 @@
 layout: default
 ---
 <div class='fillW cell12'>
-  <div class='pog margin1 marginR cell2'>
+  <div class='pog marginL marginR cell2'>
     <span class=''></span>
   </div>
-  <div class='pog margin1 marginR cell2'>
+  <div class='pog marginL marginR cell2'>
     <span></span>
   </div>
-  <div class='pog margin1 marginR cell2'>
+  <div class='pog marginL marginR cell2'>
     <span></span>
   </div>
 </div>
 <div class='fillW cell12'>
-  <div class='margin1 cell9 pad1'>
+  <div class='marginL cell9 pad1'>
     <form class='searchbox rounded'>
       <input type='text' name='search' class='cell8'></input>
       <input type='submit' name='submit' value='search' class='rounded'></input>
     </form>
   </div>
-  <div class='mainintro margin1 marginR cell5 pad1'>
+  <div class='mainintro marginL marginR cell5 pad1'>
     <h4 class='tagtitle'>{{ site.translations.[page.lang].tagtitle }}</h4>
     <p class='tagwords'>{{ site.translations.[page.lang].tagwords }}</p>
   </div>
@@ -33,31 +33,20 @@ layout: default
       <li><a href='#'>Where can I find additional help?</a></li>
   </div>
 </div>
-
 <script>
-  $(".faq").find("li a").prepend("<span class='arrow'></span>")
-    .hover(
-      function(){
-        $(this).find("span").addClass("active");
-      },
-      function(){
-        $(this).find("span").removeClass("active");
-      }
-    );
+    var input = $(".searchbox input[type=text]"),
+      inputTitle = "What are you looking for?";
+      input.val(inputTitle);
 
-  var input = $(".searchbox input[type=text]"),
-    inputTitle = "What are you looking for?";
-    input.val(inputTitle);
-
-  input.blur(function() {
-  if (input.val() === "") {
-      input.val(inputTitle); // restore default text
-      input.addClass("default-value"); // for lighter text
-  }
-  }).focus(function() {
-    if (input.val() === inputTitle) {
-        input.val("");
-        input.removeClass("default-value"); // for darker text
+    input.blur(function() {s
+    if (input.val() === "") {
+        input.val(inputTitle); // restore default text
+        input.addClass("default-value"); // for lighter text
     }
-  });
+    }).focus(function() {
+      if (input.val() === inputTitle) {
+          input.val("");
+          input.removeClass("default-value"); // for darker text
+      }
+    });
 </script>
