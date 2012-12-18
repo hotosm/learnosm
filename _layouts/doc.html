@@ -10,7 +10,11 @@ layout: default
           {% if {{post.cover}} %}
             <div class='cover'>
           {% endif %}
-          <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
+            <div class='title {% if page.url == post.url %}active{% endif %}'>
+              <a href="{{site.baseurl}}{{ post.url }}">
+                {% if {{post.cover}} %} You are on the Guide for {% endif %}<span {% if {{post.cover}} %} style="font-weight:700;" {% endif %}>{{ post.title }}</span>
+              </a>
+            </div>
           {% if {{post.cover}} %}
             </div>
           {% endif %}
@@ -44,6 +48,12 @@ layout: default
   // make the titles linkable
   $('h2[id], h3[id]','.doc').attr('title', 'Link to this section').click(function(e) {
     window.location.hash = $(e.currentTarget).attr('id');
+  });
+
+  // make related block in the catelog active
+  var path = window.location.pathname;
+  $('.docs li a').click(function(e){
+    console.log(e);
   });
 
 </script>
