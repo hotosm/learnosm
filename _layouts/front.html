@@ -1,18 +1,29 @@
 ---
 layout: default
 ---
-<div class='fillW cell12'>
-  <div class='pog marginL marginR cell2'>
-    <span class=''></span>
-  </div>
-  <div class='pog marginL marginR cell2'>
-    <span></span>
-  </div>
-  <div class='pog marginL marginR cell2'>
-    <span></span>
+<div id='moo' class='fillW cell12'>
+  <div id='divider' class='marginL cell9 pad1'>
+    <div class='cell4'>
+      <a class='moo1' href='{{site.baseurl}}/{{page.lang}}/beginner'>
+        <span>New to OpenStreetMap?</span>
+        Proceed to beginner guide
+      </a>
+    </div>
+    <div class='cell4'>
+      <a class='moo2' href='{{site.baseurl}}/{{page.lang}}/intermediate'>
+         <span>Already familiar with OSM?</span>
+         Check out intermediate guide
+       </a>
+    </div>
+    <div class='cell4'>
+      <a class='moo3' href='{{site.baseurl}}/{{page.lang}}/advanced'>
+        <span>Looking for a deep dive?</span>
+        Read the advanced guide
+      </a>
+    </div>
   </div>
 </div>
-<div class='fillW cell12'>
+<div id='front-text' class='fillW cell12'>
   <div class='marginL cell9 pad1'>
     <form class='searchbox rounded'>
       <input type='text' name='search' class='cell8'></input>
@@ -34,19 +45,20 @@ layout: default
   </div>
 </div>
 <script>
-    var input = $(".searchbox input[type=text]"),
-      inputTitle = "What are you looking for?";
-      input.val(inputTitle);
+// format the search bar
+  var input = $(".searchbox input[type=text]"),
+    inputTitle = "What are you looking for?";
+    input.val(inputTitle);
 
-    input.blur(function() {s
-    if (input.val() === "") {
-        input.val(inputTitle); // restore default text
-        input.addClass("default-value"); // for lighter text
+  input.blur(function() {s
+  if (input.val() === "") {
+      input.val(inputTitle); // restore default text
+      input.addClass("default-value"); // for lighter text
+  }
+  }).focus(function() {
+    if (input.val() === inputTitle) {
+        input.val("");
+        input.removeClass("default-value"); // for darker text
     }
-    }).focus(function() {
-      if (input.val() === inputTitle) {
-          input.val("");
-          input.removeClass("default-value"); // for darker text
-      }
-    });
+  });
 </script>

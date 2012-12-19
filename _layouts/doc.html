@@ -2,36 +2,51 @@
 layout: default
 ---
 <div class='fillW cell12'>
-  <div class='marginL marginR cell2 pad1 cf'>
-    <ul class='docs'>
+  <div class='doc-nav marginL cell2 pad1 cf'>
+    <ul class='rounded'>
+
       {% for post in site.categories.[page.category] %}
         {% if {{post.lang}} == {{page.lang}} %}
         <li class='doc'>
+
           {% if {{post.cover}} %}
-            <div class='cover'>
+          <div class='cover'>
           {% endif %}
+
             <div class='title {% if page.url == post.url %}active{% endif %}'>
               <a href="{{site.baseurl}}{{ post.url }}">
-                {% if {{post.cover}} %} You are on the Guide for {% endif %}<span {% if {{post.cover}} %} style="font-weight:700;" {% endif %}>{{ post.title }}</span>
+                {% if {{post.cover}} %} Current Guide: {% endif %}
+                <span {% if {{post.cover}} %} style="font-weight:700;" {% endif %}>{{ post.title }}</span>
               </a>
             </div>
+
           {% if {{post.cover}} %}
-            </div>
+          </div>
           {% endif %}
+
         </li>
         {% endif %}
       {% endfor %}
+
     </ul>
   </div>
-  <div class='doc cell5 pad1 cf'>
-    {{content}}
+  <div class='doc cell6 pad1 cf'>
+    {% if {{page.cover}} %}
+      <h1>Overview</h1>
+    {% endif %}
+      {{content}}
+    {% if {{page.cover}} %}
+      <div class='training rounded'>
+        <span>Are you a workshop organizer?</span>
+        Check out the <a href='#'>training material</a> for {{page.title}} Guide.
+      </div>
+    {% endif %}
   </div>
 </div>
 
 <script>
   // loop through the node list to get the innerHTML from each node
   // copy that as the id for the node
-
   var makeLinkable = function(list){
     for (i = 0; i < list.length; i++) {
       el = list[i];
@@ -50,10 +65,24 @@ layout: default
     window.location.hash = $(e.currentTarget).attr('id');
   });
 
-  // make related block in the catelog active
-  var path = window.location.pathname;
-  $('.docs li a').click(function(e){
-    console.log(e);
-  });
+  // clickable thumbnails
+  $('.doc img').attr('title','Click to enlarge')
+    .bind('click',function(){
+      var $this = $(this);
+      fullimage = $('<img class="fullimage">')
+        .attr('src',$this.attr('src'))
+        .css('top',$this.prop('offsetTop'))
+        .bind('click',close),
+      close = $('<span class="imageclose logo"></span>')
+        .css('top',$this.prop('offsetTop'))
+        .css('left',$this.prop('offsetLeft') + fullimage.prop('width') + 12)
+        .bind('click',close)
 
+      function close(){
+        fullimage.remove();
+        close.remove();
+      };
+
+      $this.parent().append(fullimage).append(close);
+    });
 </script>
