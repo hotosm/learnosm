@@ -1,13 +1,64 @@
 ---
 layout: default
 ---
-<h2>{{ page.translations.beginner }}</h2>
-<ul class="docs">
-  {% for post in site.categories.['beginner'] %}
-    {% if {{post.lang}} == {{page.lang}} %}
-    <li class='doc'>
-      <div class='title'><a href="{{site.baseurl}}{{ post.url }}">➤ {{ post.title }}</a></div>
-    </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+<div id='moo' class='fillW cell12'>
+  <div id='divider' class='marginL cell9 pad1'>
+    <div class='cell4'>
+      <a class='moo1' href='{{site.baseurl}}/{{page.lang}}/beginner'>
+        <span>New to OpenStreetMap?</span>
+        Proceed to beginner guide
+      </a>
+    </div>
+    <div class='cell4'>
+      <a class='moo2' href='{{site.baseurl}}/{{page.lang}}/intermediate'>
+         <span>Already familiar with OSM?</span>
+         Check out intermediate guide
+       </a>
+    </div>
+    <div class='cell4'>
+      <a class='moo3' href='{{site.baseurl}}/{{page.lang}}/advanced'>
+        <span>Looking for a deep dive?</span>
+        Read the advanced guide
+      </a>
+    </div>
+  </div>
+</div>
+<div id='front-text' class='fillW cell12'>
+  <div class='marginL cell9 pad1'>
+    <form class='searchbox rounded'>
+      <input type='text' name='search' class='cell8'></input>
+      <input type='submit' name='submit' value='search' class='rounded'></input>
+    </form>
+  </div>
+  <div class='mainintro marginL marginR cell5 pad1'>
+    <h4 class='tagtitle'>{{ site.translations.[page.lang].tagtitle }}</h4>
+    <p class='tagwords'>{{ site.translations.[page.lang].tagwords }}</p>
+  </div>
+  <div class='faqbox cell3 pad1'>
+    <h4>Common questions</h4>
+    <ul class='faq'>
+      <li><a href='#'>What is OpenStreetMap?</a></li>
+      <li><a href='#'>What is LearnOSM?</a></li>
+      <li><a href='#'>How can I get started to map?</a></li>
+      <li><a href='#'>Do I need any gears to map</a></li>
+      <li><a href='#'>Where can I find additional help?</a></li>
+  </div>
+</div>
+<script>
+// format the search bar
+  var input = $(".searchbox input[type=text]"),
+    inputTitle = "What are you looking for?";
+    input.val(inputTitle);
+
+  input.blur(function() {s
+  if (input.val() === "") {
+      input.val(inputTitle); // restore default text
+      input.addClass("default-value"); // for lighter text
+  }
+  }).focus(function() {
+    if (input.val() === inputTitle) {
+        input.val("");
+        input.removeClass("default-value"); // for darker text
+    }
+  });
+</script>
