@@ -323,7 +323,7 @@ pre {
 }
   .training span {display:block;font-weight:700;}
   .training a {color: #79bc5f;}
-  .training a:hover {color:#a8d59a;}
+  /*.training a:hover {color:#a8d59a;} */
 
 .book {
   float: right;
