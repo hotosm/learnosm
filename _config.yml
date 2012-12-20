@@ -11,6 +11,10 @@ rdiscount:
   extensions: [smart]
 translations:
   en:
-    tagline: "Learn OpenStreetMap Step-by-Step"
+    tagline: " Learn OpenStreetMap Step-by-Step"
+    tagtitle: "OpenStreetMap is a free street level map of the world, created by an ever growing community of mappers."
+    tagwords: "Anyone can edit OpenStreetMap. Here you can learn how Learn OSM provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. If you are interested in running an OpenStreetMap workshop, check out the LearnOSM trainer resources."
   es:
     tagline: "Aprende OpenStreetMap Paso a Paso"
+    tagtitle: "OpenStreetMap es un mapa a nivel de calle libre del mundo, creado por una comunidad cada vez mayor de mappers."
+    tagwords: "Anyone can edit OpenStreetMap. Here you can learn how Learn OSM provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. If you are interested in running an OpenStreetMap workshop, check out the LearnOSM trainer resources."

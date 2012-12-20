@@ -1,6 +1,88 @@
 ---
 layout: default
 ---
-<div class='doc'>
-{{content}}
+<div class='fillW cell12'>
+  <div class='doc-nav marginL cell2 pad1 cf'>
+    <ul class='rounded'>
+
+      {% for post in site.categories.[page.category] %}
+        {% if {{post.lang}} == {{page.lang}} %}
+        <li class='doc'>
+
+          {% if {{post.cover}} %}
+          <div class='cover'>
+          {% endif %}
+
+            <div class='title {% if page.url == post.url %}active{% endif %}'>
+              <a href="{{site.baseurl}}{{ post.url }}">
+                {% if {{post.cover}} %} Current Guide: {% endif %}
+                <span {% if {{post.cover}} %} style="font-weight:700;" {% endif %}>{{ post.title }}</span>
+              </a>
+            </div>
+
+          {% if {{post.cover}} %}
+          </div>
+          {% endif %}
+
+        </li>
+        {% endif %}
+      {% endfor %}
+
+    </ul>
+  </div>
+  <div class='doc cell6 pad1 cf'>
+    {% if {{page.cover}} %}
+      <h1>Overview</h1>
+    {% endif %}
+      {{content}}
+    {% if {{page.cover}} %}
+      <div class='training rounded'>
+        <span>Are you a workshop organizer?</span>
+        Check out the <a href='#'>training material</a> for {{page.title}} Guide.
+        <div class='logo book'></div>
+      </div>
+    {% endif %}
+  </div>
 </div>
+
+<script>
+  // loop through the node list to get the innerHTML from each node
+  // copy that as the id for the node
+  var makeLinkable = function(list){
+    for (i = 0; i < list.length; i++) {
+      el = list[i];
+      txtCopy = el.innerHTML.toLowerCase().replace(/ /g, '-').replace(/([^0-9a-z-])/g,''); //substitute space with dash
+      el.id = txtCopy;
+    }
+  };
+
+  var allH2 = document.getElementsByTagName('h2');
+  var allH3 = document.getElementsByTagName('h3');
+  makeLinkable(allH2);
+  makeLinkable(allH3);
+
+  // make the titles linkable
+  $('h2[id], h3[id]','.doc').attr('title', 'Link to this section').click(function(e) {
+    window.location.hash = $(e.currentTarget).attr('id');
+  });
+
+  // clickable thumbnails
+  $('.doc img').attr('title','Click to enlarge')
+    .bind('click',function(){
+      var original = $(this);
+      var fullimage = $('<img class="fullimage">')
+        .attr('src',original.attr('src'))
+        .css('top',original.prop('offsetTop'))
+        .bind('click',closeImg);
+      var close = $('<span class="imageclose logo"></span>')
+        .css('top',original.prop('offsetTop'))
+        .css('left',original.prop('offsetLeft') + fullimage.prop('width') + 12)
+        .bind('click',closeImg);
+      var closeImg = function(){
+        fullimage.remove();
+        close.remove();
+      };
+
+      original.parent().append(fullimage).append(close);
+    });
+</script>
