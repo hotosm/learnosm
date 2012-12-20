@@ -53,7 +53,7 @@ h6: none
 
 body {
   font: normal 12px/20px 'Source Sans Pro','OpenSansRegular','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
-  color: #333;
+  color: #404040;
   padding: 0;
   font-size: 15px;
   line-height: 1.68em;
@@ -62,9 +62,6 @@ h2,h3,h4,h5,h6 {
   font-weight: 700;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  }
-h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
-  color: #404040;
   }
 h1 {
   color: #79bc5f;
@@ -215,19 +212,20 @@ pre {
 
 .hand {
   position:absolute;
-  height:180px;
+  height: 145px;
   width:100px;
   right: 0;
-  margin-top: -143px;
-  background-position: -205px -10px;
-  opacity:0.5;
+  margin-top: -145px;
+  background-position: -205px 30px;
+  opacity:0.2;
   transition: all 200ms linear;
   -moz-transition: all 200ms linear;
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
   }
   .hand:hover {
-    opacity:1;
+      background-position:-205px 20px;
+      opacity:1;
     }
     .hand:hover:before {
       content:'I want to contribute!';
@@ -319,17 +317,21 @@ pre {
 
 .training {
   display:block;
-  /*background:#e4d0d0;*/ /*dim HOT red hhhmmmm*/
-  border:1px solid #ffdede;
-  color:#888;
+  border:4px solid #f0f0f0;
+  color:#404040;
   padding:20px;
 }
-  .training span {display:block;}
-  .training span, .training a{
-    font-weight:700;
-    color:#888;
-  }
+  .training span {display:block;font-weight:700;}
+  .training a {color: #79bc5f;}
+  .training a:hover {color:#a8d59a;}
 
+.book {
+  float: right;
+  height: 100px;
+  width: 116px;
+  background-position: -430px 11px;
+  margin: -54px -22px;
+}
 /* doc content */
 .doc h2,
 .doc h3 {

@@ -9,13 +9,4 @@ $(function() {
         );
     });
     $('.language-switcher a[lang=' + app.lang + ']').addClass('active');
-
-    $(".contact").find("li a").hover(
-        function(){
-          $(this).parent().find("span").addClass("active");
-        },
-        function(){
-          $(this).parent().find("span").removeClass("active");
-        }
-      );
 });

@@ -39,6 +39,7 @@ layout: default
       <div class='training rounded'>
         <span>Are you a workshop organizer?</span>
         Check out the <a href='#'>training material</a> for {{page.title}} Guide.
+        <div class='logo book'></div>
       </div>
     {% endif %}
   </div>
@@ -68,21 +69,20 @@ layout: default
   // clickable thumbnails
   $('.doc img').attr('title','Click to enlarge')
     .bind('click',function(){
-      var $this = $(this);
-      fullimage = $('<img class="fullimage">')
-        .attr('src',$this.attr('src'))
-        .css('top',$this.prop('offsetTop'))
-        .bind('click',close),
-      close = $('<span class="imageclose logo"></span>')
-        .css('top',$this.prop('offsetTop'))
-        .css('left',$this.prop('offsetLeft') + fullimage.prop('width') + 12)
-        .bind('click',close)
-
-      function close(){
+      var original = $(this);
+      var fullimage = $('<img class="fullimage">')
+        .attr('src',original.attr('src'))
+        .css('top',original.prop('offsetTop'))
+        .bind('click',closeImg);
+      var close = $('<span class="imageclose logo"></span>')
+        .css('top',original.prop('offsetTop'))
+        .css('left',original.prop('offsetLeft') + fullimage.prop('width') + 12)
+        .bind('click',closeImg);
+      var closeImg = function(){
         fullimage.remove();
         close.remove();
       };
 
-      $this.parent().append(fullimage).append(close);
+      original.parent().append(fullimage).append(close);
     });
 </script>
