@@ -78,7 +78,7 @@ layout: default
         .css('top',original.prop('offsetTop'))
         .css('left',original.prop('offsetLeft') + fullimage.prop('width') + 12)
         .bind('click',closeImg);
-      var closeImg = function(){
+      function closeImg(){
         fullimage.remove();
         close.remove();
       };
