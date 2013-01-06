@@ -1,0 +1,1612 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012, Kate Chapman
+# This file is distributed under the same license as the learnosm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: learnosm 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-26 14:01\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# f351a8bfed734186880bd07b68aec8cc
+#: ../../beginner/edit_josm.rst:3
+msgid "Editing OpenStreetMap with JOSM"
+msgstr ""
+
+# 3d6125ace4e14c688e87c7ab3f842711
+# d6f040535b964f18a05925db8db6260c
+# 048d9684c6614f90b2ccac9689159074
+# 04b0e9d0e4b448b1bd324b64bd8ae8a2
+#: ../../beginner/edit_josm.rst:6 ../../beginner/introduction.rst:3
+#: ../../beginner/papers.rst:6 ../../beginner/start_josm.rst:6
+msgid "Introduction"
+msgstr ""
+
+# afeaaa12a67f4a4bada99c76ee009e32
+#: ../../beginner/edit_josm.rst:8
+msgid ""
+"In Chapter 3 you installed JOSM and began drawing your first points, lines, "
+"and shapes. You added presets to these objects in order to attach "
+"information about them. By the end, you were able to draw your own map in "
+"JOSM."
+msgstr ""
+
+# 83cfe8eeb66c4fe4b808a0107643e98b
+#: ../../beginner/edit_josm.rst:12
+msgid ""
+"Drawing maps in Chapter 3 was an exercise to learn JOSM and learn how to "
+"draw places on the map. But our maps were not accurate, because we hadn't "
+"yet included location. In the past two chapters we've examined two tools, "
+"GPS and Walking Papers, which allow us to collect actual locations of "
+"places. These locations are represented by coordinates."
+msgstr ""
+
+# 4cab3c9f83a44b74a80b4da24c4c273d
+#: ../../beginner/edit_josm.rst:18
+msgid ""
+"Drawing a real map, that is, a map where all the points, lines, and shapes "
+"are in their proper location, is no different than drawing the maps we drew "
+"in chapter 3. But now, we will use our GPS points and tracks, and our "
+"Walking Papers, to draw similar maps at their correct locations on the "
+"planet."
+msgstr ""
+
+# 7abdd4b36e434b28846a37a8797c0de9
+#: ../../beginner/edit_josm.rst:23
+msgid ""
+"In this chapter we will learn how to edit the map on OpenStreetMap and add "
+"our improvements. We'll learn the basic cycle of mapping on OSM:"
+msgstr ""
+
+# 90d095ac3c434576b1db091c1dda490b
+#: ../../beginner/edit_josm.rst:26
+msgid "**download** the current map data from OSM"
+msgstr ""
+
+# 524d6cca6ba249588060ecd53cc9695b
+#: ../../beginner/edit_josm.rst:27
+msgid "**edit** it using GPS, Walking Papers, and notes as a guide"
+msgstr ""
+
+# a3d77e0753214717bcc9ff90ae106d15
+#: ../../beginner/edit_josm.rst:28
+msgid "**save** changes to OpenStreetMap"
+msgstr ""
+
+# 409175b15e47478e9158ebafb510e116
+#: ../../beginner/edit_josm.rst:30
+msgid ""
+"By the end of this chapter, we will be able to see our additions on the OSM "
+"map."
+msgstr ""
+
+# 12e7914308eb48599437ed945f2973b5
+#: ../../beginner/edit_josm.rst:34
+msgid "Prepare JOSM"
+msgstr ""
+
+# 36ee78977bd742dba599af9b3b5821f6
+#: ../../beginner/edit_josm.rst:36
+msgid ""
+"To start JOSM, click on the Start Menu in the lower left corner of your "
+"computer, and find the program JOSM."
+msgstr ""
+
+# 577661adbd534f8fab306df742643eb1
+#: ../../beginner/edit_josm.rst:38
+msgid ""
+"Now load your gpx file and you Walking Paper. You don't need to open both, "
+"but you can if you want. Refer to the previous two chapters if you don't "
+"remember how to open these in JOSM."
+msgstr ""
+
+# fa631674a64a4ce6a1075f1961db7411
+#: ../../beginner/edit_josm.rst:47
+msgid "Download OSM Data"
+msgstr ""
+
+# 2cfe55725e174ee6aa06d1c06d1361c2
+#: ../../beginner/edit_josm.rst:49
+msgid ""
+"Remember the cycle of editing OpenStreetMap described in the introduction of "
+"this chapter? **Download, edit, save.** Before we can edit the map, we must "
+"download the existing OSM data in our area."
+msgstr ""
+
+# d9cabef11ad7451c9da3321075315d54
+#: ../../beginner/edit_josm.rst:52
+msgid ""
+"When you open your gpx track or Walking Paper, the map window will show what "
+"you have opened, and will automatically move to the correct coordinates. "
+"After you open your files, look in the bottom left corner of JOSM. You can "
+"see the latitude and longitude (coordinates) of your mouse cursor."
+msgstr ""
+
+# c023da98d3084d6facac368e05f0fe13
+#: ../../beginner/edit_josm.rst:60
+msgid ""
+"Because our map window is already showing the area that we want to edit, it "
+"is easy to download the OpenStreetMap data for this area. Click on \"File\" "
+"in the top left corner of JOSM and click \"Download from OSM\". This will "
+"open up the download window. You can access this window more simply by "
+"clicking on the download button, shown here:"
+msgstr ""
+
+# 3a1ac19e045f4fd39ca91aa56629825b
+#: ../../beginner/edit_josm.rst:69
+msgid ""
+"When the download window opens, you should see a map with a pink box drawn "
+"on it. If you don't see the map, click on the tab marked \"Slippy map\"."
+msgstr ""
+
+# 0a9d7dfa77264a5a998ca3591d54d5c0
+#: ../../beginner/edit_josm.rst:76
+msgid ""
+"The pink box represents the area of the map that we would like to download "
+"for editing. Unless you have moved the map window since you opened your GPS "
+"file or Walking Papers, the box should be drawn around the correct area. "
+"However if you would like to download a larger area, you can draw a new box. "
+"To draw a new box, click on the map, hold your left mouse button down, and "
+"drag your mouse to create a box. Release the mouse button to finish drawing "
+"the box."
+msgstr ""
+
+# e6afe7c780c54a21835452c944348da2
+#: ../../beginner/edit_josm.rst:83
+msgid ""
+"When you are satisfied with the size and location of the box, click "
+"\"Download\" at the bottom of the window. JOSM will get the data for this "
+"area from OpenStreetMap and open it in your map window for editing."
+msgstr ""
+
+# b1266136f22f45d8b7527ee88c499ae1
+#: ../../beginner/edit_josm.rst:88
+msgid "Edit"
+msgstr ""
+
+# 6cad927373424246a516633083a4e37b
+#: ../../beginner/edit_josm.rst:90
+msgid ""
+"The next step is to edit the map and add new items. This is not always easy "
+"at first, but with practice you will get better and better."
+msgstr ""
+
+# 92a327c9a1484e7ab44ff89e716c2e58
+#: ../../beginner/edit_josm.rst:92
+msgid ""
+"If you want to move a point, line, or shape, use the **select tool.** Click "
+"on an object and drag it where it should be. This can be used to correct the "
+"location of items that have been put in the wrong place."
+msgstr ""
+
+# 3fd595ba73d740acadc60301f99a0747
+#: ../../beginner/edit_josm.rst:99
+msgid ""
+"Use the **draw tool** to draw new points, lines, and shapes. Describe these "
+"objects by selecting from the Presets menu, as you did in Chapter 3."
+msgstr ""
+
+# eeab4c91f2e840cc9884cdf605e320e1
+#: ../../beginner/edit_josm.rst:101
+msgid ""
+"Remember that your GPS points and your Walking Papers don't automatically go"
+msgstr ""
+
+# 8610115af7fb456bae1ffe76db4cff91
+#: ../../beginner/edit_josm.rst:102
+msgid ""
+"into OpenStreetMap. You need to add them to the OSM map digitally, using the "
+"draw tool. But your points, tracks, and Walking Papers can be seen in the "
+"background as a guide."
+msgstr ""
+
+# cc9109ab334f46af83db16f07338dc9d
+#: ../../beginner/edit_josm.rst:105
+msgid ""
+"Let's assume that you saved a waypoint on your GPS named 030, and you wrote "
+"in your notebook that 030 is a school. To add this point into OpenStreetMap, "
+"you should select the draw tool, and double-click on top of point 030 in "
+"your map window. This will create a point. Then go to the Presets menu, and "
+"find the preset for school. Enter the name of the school and click \"Apply "
+"Preset\". Do the same to add lines and shapes."
+msgstr ""
+
+# 7f17f14ce7da4a4682f1bb098f99f524
+#: ../../beginner/edit_josm.rst:117
+msgid "Upload Changes"
+msgstr ""
+
+# 7e447aee1bf048658e494020493f9790
+#: ../../beginner/edit_josm.rst:119
+msgid ""
+"After you have made a couple of changes to improve the map, let's save those "
+"changes to OpenStreetMap. To save the changes, we need to be connected to "
+"the internet, because we are in fact uploading the changes to OpenStreetMap."
+msgstr ""
+
+# 9a3c71f6a2b34d3583b368cbaad10770
+#: ../../beginner/edit_josm.rst:122
+msgid ""
+"Click \"File\" on the top menu, and then click \"Upload Data\". This will "
+"open up the upload window. You can access this window more simply by "
+"clicking on the upload button, shown here:"
+msgstr ""
+
+# e47e56a03702442583a3e6568189886f
+#: ../../beginner/edit_josm.rst:130
+msgid ""
+"The window that appears shows a list of the objects that you are adding and "
+"the objects you are modifying or deleting. In the box at the bottom you are "
+"asked to provide a comment about the changes that you are making. Type in "
+"here a description of your edits."
+msgstr ""
+
+# 8616b5e4ada94d8aa5997f811ff31dbd
+#: ../../beginner/edit_josm.rst:139
+msgid "Click \"Upload Changes\"."
+msgstr ""
+
+# 55f2ceb11af346e8a6983ad0d383f3cc
+#: ../../beginner/edit_josm.rst:140
+msgid ""
+"If this is your first time saving changes to OpenStreetMap, you will be "
+"asked for the username and password that you created in Chapter 2. Enter "
+"them in the window that appears. If you check the box in this window, your "
+"username and password will be saved and you won't need to enter them again "
+"in the future. Click \"Authenticate\"."
+msgstr ""
+
+# 79bb4fac7c47405baf8191e26427e3d5
+#: ../../beginner/edit_josm.rst:149
+msgid ""
+"You will need to wait a few seconds for your changes to be uploaded, and "
+"then you are done! You have made your first edits to OpenStreetMap. You may "
+"continue editing to add all your points if you wish. Always be sure to "
+"upload your changes before you close JOSM."
+msgstr ""
+
+# 9d66f9e788b64873a0ca20c932b76eb7
+#: ../../beginner/edit_josm.rst:155
+msgid "See Your Changes on the Map"
+msgstr ""
+
+# 394bf9387a454dcf85cd0954477766dc
+#: ../../beginner/edit_josm.rst:157
+msgid ""
+"Open your internet browser and go to `openstreetmap.org <http://www."
+"openstreetmap.org/>`_."
+msgstr ""
+
+# 60cdc3a73faf40cc9afb7d84889ccd32
+#: ../../beginner/edit_josm.rst:158
+msgid "Move the map to the area that you edited."
+msgstr ""
+
+# 84ee0bd6ad23453a8ff246b22f754842
+#: ../../beginner/edit_josm.rst:159
+msgid ""
+"You should see your changes now appearing on the map! If you don't, try "
+"pressing CTRL+R to refresh the web page. Sometimes the map doesn't update "
+"properly and needs to be reloaded."
+msgstr ""
+
+# 198960c7b86244a1b305cb0e18efcdbd
+#: ../../beginner/edit_josm.rst:162
+msgid ""
+"What if you don't see your changes? Don't worry – it may take a few minutes "
+"for the changes to be shown on the map. Also, check your additions in JOSM "
+"to make sure that you added them correctly. A good general rule is, if your "
+"point has an icon in JOSM, then it should be seen on the main map at the "
+"OpenStreetMap website."
+msgstr ""
+
+# 82cd304c95ff4f9280035928ee45b6aa
+# 2a43350ecf5a48f6b33a12c19ecf10d2
+# 4e21fefe09ee4b369faf9967494cee40
+# 29b42b1f9d5445b8855909ce51b9405c
+#: ../../beginner/edit_josm.rst:169 ../../beginner/moving_forward.rst:84
+#: ../../beginner/papers.rst:240 ../../beginner/start_josm.rst:323
+msgid "Summary"
+msgstr ""
+
+# 53cd21d513fb4e4981d48d8eeeadbff7
+#: ../../beginner/edit_josm.rst:171
+msgid ""
+"Now that you've seen how to add to OpenStreetMap, what's next? Remember that "
+"OSM maps get better and better over time. Every time you make improvements "
+"to the map, those changes remain and the data gets better and better. And "
+"just as you can improve other people's work, so they can improve your work "
+"too."
+msgstr ""
+
+# 9103b03d63184b47a913a0810ed40926
+#: ../../beginner/edit_josm.rst:176
+msgid ""
+"In the next chapter, we will go over some more advanced JOSM techniques. "
+"We'll learn how to draw better shapes, how to use different tools, and what "
+"all the buttons and windows are surround the map!"
+msgstr ""
+
+# c20e880e77e6469da82df649b7d5b5cd
+#: ../../beginner/index.rst:15
+msgid "Indices and tables"
+msgstr ""
+
+# 0340f39324db4ae9935e0cc97420017f
+#: ../../beginner/index.rst:17
+msgid ":ref:`genindex`"
+msgstr ""
+
+# 48d968661be4498caf213b4815e189e8
+#: ../../beginner/index.rst:18
+msgid ":ref:`modindex`"
+msgstr ""
+
+# 50554c83ad2541b98488011ff4036bcd
+#: ../../beginner/index.rst:19
+msgid ":ref:`search`"
+msgstr ""
+
+# 23f62a500e32445face9562cfd86f67d
+#: ../../beginner/introduction.rst:5
+msgid ""
+"Information is powerful. With good information and the right understanding, "
+"individuals and communities are better able to improve their lives and make "
+"good decisions about the future. There are many people and organizations who "
+"make decisions that affect our lives. Good information allows these NGOs, "
+"governments and citizens to make better decisions, and hopefully make our "
+"lives better. Maps can be a good way to convey information. Maps are visual "
+"symbols of our world. They can often demonstrate an idea better than words. "
+"This in turn can also help answer important questions. Where is the closest "
+"school or hospital? Who has the least access to these facilities? Where is "
+"poverty the most problematic? Questions like these can often best be "
+"expressed with maps, and maps can help find solutions to these questions. As "
+"an exercise, get a pen and paper and draw a map of your town or village. "
+"What are the most important things to include on the map? What is the most "
+"important information? Spend a few minutes making your map, and when you're "
+"finished, think about why the information you included is important, and who "
+"it might be important to."
+msgstr ""
+
+# 90569acc98534116be9bad8ffb511115
+#: ../../beginner/introduction.rst:33
+msgid ""
+"If your town is like most, you may have drawn some lines to represent roads, "
+"possibly a river or stream. Perhaps you added important buildings such as "
+"schools and offices, fields, or boundaries. Whatever you drew, you probably "
+"used symbols – a line to symbolize a road, a square to symbolize a building, "
+"and so on. Your map is a representation of what is on the ground."
+msgstr ""
+
+# 2a5df35280974ffd9feee4deea7f12fa
+#: ../../beginner/introduction.rst:45
+msgid ""
+"Your map is informative. You might use a map like this to explain to someone "
+"where different places are, where problems are in your community, or merely "
+"to help someone find their way around. The uses of your map is limited "
+"though. There is only one copy of the map and the way you drew it may make "
+"sense to you, but perhaps not to someone else who would have drawn their own "
+"map in a different way. Because your map is merely on paper, it is difficult "
+"to get that information to others. This is why making your map on a "
+"computer, in such a way that anyone can access it, can be much more "
+"valuable. OpenStreetMap is a tool for creating and sharing map information. "
+"Anyone can contribute to OSM, and thousands of people add to the project "
+"every day. Users draw maps on computers, rather than paper, but as we will "
+"see in this guide, drawing a map on a computer is not all that different "
+"from drawing on paper. We still draw lines to represent roads, fields, and "
+"anything else, and we still represent schools and hospitals with symbols. "
+"The important thing is that OSM maps are saved on the internet, and anyone "
+"can access them at any time, totally free."
+msgstr ""
+
+# 21978ed9dfa243fc9db9421a8662ed8c
+#: ../../beginner/introduction.rst:67
+msgid ""
+"We hope that you will find OpenStreetMap useful and interesting in your "
+"work. By following this guide, you should be able to quickly start making "
+"digital maps and adding to OSM."
+msgstr ""
+
+# 41ba3c0aed6545cf99633fa40a661b9f
+#: ../../beginner/moving_forward.rst:3
+msgid "Moving Forward"
+msgstr ""
+
+# 537778ae25b04e64937373232389fa17
+#: ../../beginner/moving_forward.rst:5
+msgid ""
+"If you have made it this far, congratulations! You should have a good "
+"understanding now of how to make maps with OpenStreetMap. What else can you "
+"do with OSM? How can you learn more? How can you stay connected to the "
+"community of mappers?"
+msgstr ""
+
+# 68975a1f1f6c477d9bee47b3b7686b2b
+#: ../../beginner/moving_forward.rst:11
+msgid "OpenStreetMap Tools"
+msgstr ""
+
+# 9a4e43ff2f424804aceb75bb909c2238
+#: ../../beginner/moving_forward.rst:13
+msgid ""
+"In this guide we have learned the building blocks of OSM, and the tools you "
+"need to contribute to the map. But because the data on OSM is open, it has "
+"encouraged many more projects and tools that allow you to do more with the "
+"OpenStreetMap map."
+msgstr ""
+
+# 4f6957239a7344bfb1fc7c0e181b4900
+#: ../../beginner/moving_forward.rst:19
+msgid "MapOSMatic"
+msgstr ""
+
+# 02fc47279a6e49f4a480e6aab6b59a3c
+#: ../../beginner/moving_forward.rst:21
+msgid ""
+"One such project is called MapOSMatic, which you can access through your "
+"internet browser at `maposmatic.org <http://www.maposmatic.org/>`_. This is "
+"a simple tool for printing a map of any area you choose. It will "
+"automatically create the map, along with a grid over the map, and an index "
+"of locations that are included in the area."
+msgstr ""
+
+# ca554fcc60dd4299aad48376e7115a1b
+#: ../../beginner/moving_forward.rst:32
+msgid "Learn More"
+msgstr ""
+
+# f7b3f6870fb74ae8a8fa734b6ef21bfc
+#: ../../beginner/moving_forward.rst:34
+msgid ""
+"There is a lot of information about OpenStreetMap available at `wiki."
+"openstreetmap.org <http://wiki.openstreetmap.org/>`_. Here you can find "
+"information about other projects that are related to OpenStreetMap, and "
+"documents and tutorials that can help you learn more about OSM."
+msgstr ""
+
+# bdf11006d21944738995c653366be559
+#: ../../beginner/moving_forward.rst:40
+msgid "Mailing List"
+msgstr ""
+
+# a1963bfe9ff548a5895db6d5937678e1
+#: ../../beginner/moving_forward.rst:42
+msgid ""
+"The best way to get connected to the OpenStreetMap user community is to join "
+"your local mailing list. Many people sign up, using their email accounts to "
+"the OSM mailing list. Once you are on the list, you can send an email to the "
+"group if you have a question or want to talk about OpenStreetMap."
+msgstr ""
+
+# 5cdfd68b0bd74bf583bee1b9d55a9afe
+#: ../../beginner/moving_forward.rst:47
+msgid ""
+"To sign up for your country's mailing list, open your internet browser and "
+"go to `lists.openstreetmap.org <http://lists.openstreetmap.org/>`_."
+msgstr ""
+
+# 21fa386f214846ea82a240b7f0cb81aa
+#: ../../beginner/moving_forward.rst:54
+msgid ""
+"Scroll down the page to find the list associated with your country. The "
+"country lists are named \"Talk-lg\", where lg represents the country of that "
+"list. For example, \"Talk-id\" is the list for Indonesia."
+msgstr ""
+
+# 40168a51137644c492bc80830ff31ef7
+#: ../../beginner/moving_forward.rst:57
+msgid "Click on the list you want to join."
+msgstr ""
+
+# 425565a8573a42fa8803605012eede15
+#: ../../beginner/moving_forward.rst:58
+msgid "Enter the following information in the boxes on this page:"
+msgstr ""
+
+# a65e263c2dd74cf6af0cd91fd53ed0c3
+#: ../../beginner/moving_forward.rst:60
+msgid "your email address"
+msgstr ""
+
+# b011d1966cb74293a2a1871b22a64141
+#: ../../beginner/moving_forward.rst:61
+msgid "your first name"
+msgstr ""
+
+# 0ddd622b153c47e693d79fac3b59a3e7
+#: ../../beginner/moving_forward.rst:62
+msgid "a new password"
+msgstr ""
+
+# 3178ff22fbdb494991ab92bb1c5ae639
+#: ../../beginner/moving_forward.rst:63
+msgid "repeat the password"
+msgstr ""
+
+# 7c654f3625ef4ad29e96edfb10b08b62
+#: ../../beginner/moving_forward.rst:69
+msgid "When you are finished, click Subscribe."
+msgstr ""
+
+# 08213de4cf9a4ab58dbbb2039021b64b
+#: ../../beginner/moving_forward.rst:70
+msgid ""
+"Now you need to open your email, just as you did when you signed up for "
+"OpenStreetMap in chapter 2. There will be a confirmation email in your inbox "
+"from the mailing list."
+msgstr ""
+
+# 66a9ff6564f749cfa61062d3345d8d96
+#: ../../beginner/moving_forward.rst:73
+msgid "Click on the confirmation link, which looks like this:"
+msgstr ""
+
+# deacfd759db7450eb20291b10d34e64c
+#: ../../beginner/moving_forward.rst:78
+msgid "You should now be a member of the mailing list."
+msgstr ""
+
+# 1689c7e78ac74dc7baa61556d067c5f7
+#: ../../beginner/moving_forward.rst:79
+msgid ""
+"Now when you want to send a message to the list, you can send it to talk-"
+"id@openstreetmap.org, replacing \"id\" with the country for your list. You "
+"will also receive emails when other members send a message to the list."
+msgstr ""
+
+# d988fd6b9308472f8ced73815a5170eb
+#: ../../beginner/moving_forward.rst:86
+msgid ""
+"These are some of the ways that you can use and stay connected with the "
+"OpenStreetMap community and learn more. We hope you'll continue exploring "
+"and learning more about OSM, and contribute to the project. Happy Mapping!"
+msgstr ""
+
+# 84637d3728f14a768528826d618e6fc1
+#: ../../beginner/papers.rst:3
+msgid "Using Walking Papers"
+msgstr ""
+
+# 8fbe262cbe9c4852b0da2ecba5b4261a
+#: ../../beginner/papers.rst:8
+msgid ""
+"In this chapter we will see how we can record the coordinates of places "
+"without a GPS. We will use a tool called Walking Papers, which allow you to "
+"print a map of an area, draw on it and add notes, and load the paper back "
+"into JOSM, where you can add your locations to OpenStreetMap."
+msgstr ""
+
+# 81978366353f468ba339799c00180bf3
+#: ../../beginner/papers.rst:14
+msgid "Overview of Walking Papers"
+msgstr ""
+
+# a6d0d748b673471180ab7fc0e613d843
+#: ../../beginner/papers.rst:16
+msgid ""
+"Before we walk go into detail about Walking Papers, let's look at an "
+"overview of how the process works:"
+msgstr ""
+
+# d659f91f4663414ca71ebeeb71334b89
+#: ../../beginner/papers.rst:19
+msgid ""
+"**Step 1:** Locate the area you want to map on the Walking Papers website. "
+"Print out a map of this area.  You can choose to print the current map of "
+"the area on OpenStreetMap, or you can choose to print aerial imagery, if it "
+"is available in your area."
+msgstr ""
+
+# 8ff0411fba2b4e4089fece7ad0b3b55c
+#: ../../beginner/papers.rst:32
+msgid ""
+"**Step 2:**  Use your printed map to survey the area.  Add more places by "
+"drawing them on the map.  Draw lines for roads, shapes for buildings, and so "
+"forth.  Write notes about each location directly on the map, or write "
+"numbers on the map that relate to numbers in your notebook, where you can "
+"write more detailed information about each object."
+msgstr ""
+
+# 0d6cb4fbda91412cb5f5600b7e881450
+#: ../../beginner/papers.rst:42
+msgid ""
+"**Step 3:**  Scan your paper into the computer.  If you don't have a "
+"scanner, you can take a photograph of the paper, if your camera is able to "
+"take high quality pictures.  Upload the image to the Walking Papers website."
+msgstr ""
+
+# 9e2c6aefaa334b299726a6052277441c
+#: ../../beginner/papers.rst:46
+msgid ""
+"**Step 4:** In JOSM, load the Walking Paper.  Use the objects you draw as a "
+"reference to add them digitally into OpenStreetMap."
+msgstr ""
+
+# 482a740634584eff87714957caec27f1
+#: ../../beginner/papers.rst:54
+msgid "How does Walking Papers work?"
+msgstr ""
+
+# 506721f5b6434e7686cade6b1957c64d
+#: ../../beginner/papers.rst:56
+msgid ""
+"If you follow the Walking Papers process described above, you will be "
+"collecting accurate geographic coordinates of places with nothing more than "
+"paper.  How is this possible?"
+msgstr ""
+
+# 610a4669b39e4871b54b14ac3425a2a0
+#: ../../beginner/papers.rst:63
+msgid ""
+"When you print a Walking Paper, the paper comes with a square barcode on the "
+"bottom of the page.  This bar code allows Walking Papers to determine the "
+"exact location of the map that you are using to survey.  Later, when you "
+"load the paper back into JOSM, all the objects that you drew will be in "
+"shown in their actual locations, or at least quite close, which is good "
+"enough for us."
+msgstr ""
+
+# b4f3074f599e44699f4c814727aa6018
+#: ../../beginner/papers.rst:69
+msgid "Now let's learn how to create and use Walking Papers."
+msgstr ""
+
+# f61d19a2255e4b3281ce6dc6d5f3c04c
+#: ../../beginner/papers.rst:72
+msgid "Create and Print"
+msgstr ""
+
+# 1d6b40e445534a66b267e13a4c8b8d9a
+#: ../../beginner/papers.rst:74
+msgid ""
+"Open your web browser – this may be Firefox, Chrome, Opera, or Internet "
+"Explorer."
+msgstr ""
+
+# f54a2f765cbb422e97b5aa04fedbf60a
+#: ../../beginner/papers.rst:76
+msgid ""
+"In the address bar at the top of the window, enter the following text and "
+"press Enter: `walking-papers.org <http://walking-papers.org/>`_"
+msgstr ""
+
+# a9383156781e40daa3b599e7b0ab1e84
+# 54f690357c7a4531b45ff8ed4b5ca8fd
+#: ../../beginner/papers.rst:78 ../../beginner/start_josm.rst:32
+msgid "The website should look something like this:"
+msgstr ""
+
+# 868894f5b4f54a3cb5cac672bd785007
+#: ../../beginner/papers.rst:84
+msgid ""
+"Scroll down the page using the wheel on your mouse, or by dragging the "
+"scroll bar on the right side of the page.  Stop when you see the map, as "
+"shown here:"
+msgstr ""
+
+# d630a38175064472a316b39beac2cd45
+#: ../../beginner/papers.rst:91
+msgid ""
+"The map that you see shows the area that you would like to print on paper. "
+"You can move the map the same way you move the map on the OpenStreetMap "
+"website, using your left mouse button to drag the map East or West, and your "
+"scroll wheel to zoom in and out of the map.  Left-clicking on the + and – "
+"buttons in the upper left corner will also zoom in and out."
+msgstr ""
+
+# 96dbb8d5546e48498f3efee60f69d7c4
+#: ../../beginner/papers.rst:96
+msgid ""
+"Just above the map is a search box with a \"Find\" button next to it.  You "
+"can use this to search for a location and move the map there automatically.  "
+"Try typing the name of your village or town inside the box, and click \"Find"
+"\".  If Walking Papers finds the location you typed, the map will "
+"automatically move there."
+msgstr ""
+
+# e600c41b8857423f905867f9d6c5ef5d
+#: ../../beginner/papers.rst:101
+msgid ""
+"Just below the map are some additional options.  The first option is "
+"labelled \"Orientation.\"  This allows you to change the size and "
+"orientation of your printed map.  Try changing this by clicking in the box "
+"next to \"Orientation\" and selecting \"Landscape (A4)\".  You should see "
+"the size and shape of the map change to be wide, and sized to be printed on "
+"A4 size paper."
+msgstr ""
+
+# 467e00a9d62f46e4b7ce73c4472c9768
+#: ../../beginner/papers.rst:106
+msgid ""
+"Click on the box next to the word \"Provider:\"  Here you can select from "
+"different options that will change how the map looks.  Most of the options "
+"show different styles of map, such as thinner lines, or different colors and "
+"text.  Click on \"Bing Aerial Imagery\" and instead of a map you will see "
+"imagery provided by Microsoft of the location you are viewing.  Note that "
+"not all locations are covered by high quality imagery, so what you see may "
+"be blurry, and not very useful for making maps!"
+msgstr ""
+
+# f77199bace3b44cfbce260d49199a618
+#: ../../beginner/papers.rst:113
+msgid ""
+"Make sure that the map shows the area that you want to map.  Even after you "
+"search for your location, you may want to move the map around to choose the "
+"right area.  When you zoom in and out of the map, you are changing what are "
+"called \"zoom levels\", which is simply a way of saying how close you are "
+"zoomed in.  When you are zoomed as far away as possible and you can see the "
+"whole Earth, you are at zoom level 0.  When you zoom in as far as you can go "
+"you are at zoom level 18.  The current zoom level is shown just above the "
+"map.  Usually zoom level 15, 16, or 17 is good for making Walking Papers."
+msgstr ""
+
+# b2b3f5bdf8504b9abc14962cdd95178a
+#: ../../beginner/papers.rst:121
+msgid ""
+"Let's make the print now!  If you have found the area you are interested in "
+"mapping and have selected the options that make your paper look good, you "
+"are ready.  Click the button labelled \"Make\", just below the map."
+msgstr ""
+
+# 4422007fd4bc4d8190459aea9e97ed0f
+#: ../../beginner/papers.rst:124
+msgid ""
+"You will see a new page which says that your print is being processed.  When "
+"it is finished, you will see your print on this page.  It usually take "
+"anywhere from a few minutes up to twenty minutes for a print to be completed."
+msgstr ""
+
+# 294c8beb721b4305949391a5d52b61bb
+#: ../../beginner/papers.rst:131
+msgid ""
+"When your print is ready, click \"Download map PDF for print\".  The Walking "
+"Paper should begin downloading."
+msgstr ""
+
+# d6a155cdb8d34cbd8281ed7162e5b947
+#: ../../beginner/papers.rst:133
+msgid ""
+"When the download is finish, open the PDF file.  Connect your computer to a "
+"printer and print the page.  If everything goes well, you should now have "
+"your map printed on paper."
+msgstr ""
+
+# bbea95a34439433aa2e9dbf72a9132f8
+#: ../../beginner/papers.rst:138
+msgid "Map with Walking Papers"
+msgstr ""
+
+# 69aa0c0e3e794612b6f534140a4035d6
+#: ../../beginner/papers.rst:140
+msgid ""
+"Take your Walking Paper outside, and use it as a guide to walk and identify "
+"new places that are not on the map."
+msgstr ""
+
+# abf3fd099d8a45d492aa8464917000e8
+#: ../../beginner/papers.rst:142
+msgid ""
+"Draw lines for roads, shapes for buildings, and so forth.  Write notes about "
+"each location directly on the map, or write numbers on the map that relate "
+"to numbers in your notebook, where you can write more detailed information "
+"about each object."
+msgstr ""
+
+# 535f04c6c7c04a32a5a59b3d7ff974fa
+#: ../../beginner/papers.rst:151
+msgid ""
+"When you are satisfied with your additions on the paper map, then you can "
+"add them digitally into OpenStreetMap."
+msgstr ""
+
+# 579c1eb0d03a4c6b87d0062c751610a4
+#: ../../beginner/papers.rst:155
+msgid "Scan and Upload"
+msgstr ""
+
+# c4b3b9f6481c4b90b1527c6a959f0929
+#: ../../beginner/papers.rst:157
+msgid ""
+"Walking Papers are very useful for mapping with nothing more than paper, but "
+"they are not 100% magic.  We will still need to add our paper into JOSM, add "
+"our information digitally, and save our changes on OpenStreetMap."
+msgstr ""
+
+# 0493a107f12d4b238331478affa0846f
+#: ../../beginner/papers.rst:160
+msgid ""
+"The first step is to scan your Walking Paper into your computer.  You can do "
+"this by attaching a scanner to your computer, scanning the paper, and saving "
+"it as an image file.  If you don't have a scanner, you can take a "
+"photography of the paper, but you should be carefuly to take a very good "
+"photo.  Make sure that the paper is flat and your camera is directly in "
+"front of it.  Be sure to include the barcode in the image, as Walking Papers "
+"will not work without it.  Here is an example of a scanned/photographed "
+"image:"
+msgstr ""
+
+# 5b0c681a46fb4351a855238362e34262
+#: ../../beginner/papers.rst:172
+msgid ""
+"Once you have your walking paper scanned and saved on the computer, open "
+"your web browser and return to walking-papers.org, just as before."
+msgstr ""
+
+# be32e7f44b304c53b04cdf40bfcf1ce4
+#: ../../beginner/papers.rst:174
+msgid "Click on the \"Upload\" tab."
+msgstr ""
+
+# aaec56b0fb454844896f1f6d2015c705
+#: ../../beginner/papers.rst:180
+msgid ""
+"Click \"Browse...\" and navigate to the file where you scanned/photographed "
+"your Walking Paper."
+msgstr ""
+
+# 52bbbcd563314b86a3a6f26b7131956f
+#: ../../beginner/papers.rst:182
+msgid "Click \"Send.\""
+msgstr ""
+
+# 88af2a4b4e7f422b8f7cd739563e4acc
+#: ../../beginner/papers.rst:183
+msgid ""
+"It may take a few minutes for your paper to upload, depending on the speed "
+"of your internet connection.  When the upload finishes, you will see a new "
+"page with a couple questions about your scan."
+msgstr ""
+
+# be69493a79834e1ba31a90722ddabb9f
+#: ../../beginner/papers.rst:191
+msgid ""
+"Next to the question, \"Do you plan to edit this yourself?\" select \"No\".  "
+"This will make your paper public, so that other mappers can see it too."
+msgstr ""
+
+# 2af16d1cc66c40ea8200829db78d68e4
+#: ../../beginner/papers.rst:193
+msgid ""
+"In the empty box at the bottom, describe what you mapped.  This might "
+"include the location and the types of objects that you added."
+msgstr ""
+
+# d3857178996342feb631304960177670
+#: ../../beginner/papers.rst:195
+msgid ""
+"Click \"Save.\"  Your Walking Paper will begin to process.  This may take 20 "
+"minutes or more.  If you made your paper public by selecting \"No\" on the "
+"previous page, you can close your internet browser and return to it later "
+"when it has finished processing."
+msgstr ""
+
+# a366db427acb4451889a1212558867fb
+#: ../../beginner/papers.rst:201
+msgid "Open in JOSM"
+msgstr ""
+
+# fc09709a325243308a820f505f00b4cd
+#: ../../beginner/papers.rst:203
+msgid ""
+"When your scan has finished processing, you can load it into JOSM and use it "
+"to add your information to OpenStreetMap.  Return to the Walking Papers "
+"website, by typing `walking-papers.org <http://walking-papers.org/>`_ in "
+"your web browser, just as before."
+msgstr ""
+
+# 6ee79e221b354b538cb62cc5b7797c6c
+#: ../../beginner/papers.rst:207
+msgid "Click \"Scans\"."
+msgstr ""
+
+# 968dcdda40f74c43a4f477e0ee2519f4
+#: ../../beginner/papers.rst:208
+msgid ""
+"Find your paper from the list, and click on it.  You should see something "
+"like this:"
+msgstr ""
+
+# 3b57f11832574093a98ec520bf5ce701
+#: ../../beginner/papers.rst:215
+msgid ""
+"To load the paper into JOSM, we need to copy the ID of the Walking Paper you "
+"have scanned.  In the URL bar at the top of your internet browser, select "
+"the text and press CTRL+C on your keyboard to copy.  The text should look "
+"similar to this:  http://walking-papers.org/scan.php?id=fmxcgdqd"
+msgstr ""
+
+# 2d042e93d01942cebabe4f4d3158af0f
+#: ../../beginner/papers.rst:219
+msgid ""
+"Now open JOSM.  In Chapter 3 we installed the Walking Papers plugin, which "
+"allows us to see our scan.  If you don't have Walking Papers installed, go "
+"back to Chapter 3.3 for instructions on how to install."
+msgstr ""
+
+# d214879b6e2f4c448cbd770c1039c9d3
+#: ../../beginner/papers.rst:222
+msgid ""
+"On the top menu of JOSM, Click \"Walking Papers\".  Then click \"Scanned "
+"Map...\""
+msgstr ""
+
+# a2498684d28b40a19306c8cc0a26ca98
+#: ../../beginner/papers.rst:223
+msgid ""
+"Press CTRL+V on your keyboard to paste the text that you copied from the "
+"Walking Papers website."
+msgstr ""
+
+# 5987f03f21f34c138ac4a2eeb029a5c0
+# a45883edc1ef4a15aa214844b22d3f84
+# 0e88a17ed0754edc8f8e70a7390908a6
+#: ../../beginner/papers.rst:225 ../../beginner/start_josm.rst:125
+#: ../../beginner/start_josm.rst:160
+msgid "Click OK."
+msgstr ""
+
+# b39d91f466794cf590f4993d3a0852a2
+#: ../../beginner/papers.rst:226
+msgid ""
+"If all went well, you should see your Walking Paper load into JOSM.  In the "
+"next chapter, we will see how to add the places that you mapped into "
+"OpenStreetMap."
+msgstr ""
+
+# ae671c094f264bcb935cf7c990998acc
+#: ../../beginner/papers.rst:231
+msgid "Repeat!"
+msgstr ""
+
+# fd667175d4154786874fc300abf366a8
+#: ../../beginner/papers.rst:233
+msgid ""
+"After you add your changes to OSM, they will finally be saved on the map. "
+"Then the next time you want to improve the map, you can print out a new "
+"Walking Paper which will include the changes that you made.  As this process "
+"is repeated, the map will get better and better, the more you map!"
+msgstr ""
+
+# 98bd05d31b93452d826d883a8dbe7f74
+#: ../../beginner/papers.rst:242
+msgid ""
+"Congratulations!  In this chapter you learned the process of using Walking "
+"Papers and how they work.  You learned how to print, map, and scan a Walking "
+"Paper.  In the next chapter, we will learn how to add the places that we "
+"mapped into OpenStreetMap, and you will have learned the complete process of "
+"editing the map."
+msgstr ""
+
+# a3ff94f9e9144ec58748acaf7b8bb5c2
+#: ../../beginner/start_josm.rst:3
+msgid "Getting Started With JOSM"
+msgstr ""
+
+# a5369fde87ae4180b512331ad9845ccc
+#: ../../beginner/start_josm.rst:8
+msgid ""
+"In this chapter we will learn step by step how to download and install JOSM, "
+"the Java OpenStreetMap editor. We will change some of the settings in JOSM "
+"to make it easier to use. Then we will open a sample map and learn some of "
+"the basic operations of the software. Remember in chapter 1 when we asked "
+"you to draw a map of your town or village? We will conclude this chapter by "
+"drawing your map again, this time digitally. After this you should have a "
+"good understanding of how to draw maps in JOSM."
+msgstr ""
+
+# bfff136d0e364458aa56a7beae7ed43f
+#: ../../beginner/start_josm.rst:17
+msgid "Videos Related to this Chapter"
+msgstr ""
+
+# ef661458084d41659ff7514e6f006de0
+#: ../../beginner/start_josm.rst:19
+msgid ""
+"We've created a video that goes through some of the material in this "
+"chapter. `View it on YouTube here. <http://www.youtube.com/watch?v=jRqn-"
+"S9maL0>`_"
+msgstr ""
+
+# cc215fadd1814ad3aa54ed3858d81307
+#: ../../beginner/start_josm.rst:23
+msgid "Download JOSM"
+msgstr ""
+
+# d044ae8feca74625a76b1218958f893f
+#: ../../beginner/start_josm.rst:25
+msgid ""
+"If you have a copy of JOSM on a CD or usb flash drive, you can skip to "
+"section 2, Install JOSM."
+msgstr ""
+
+# f79b86658bc54649b94bef3a09d5d6fb
+#: ../../beginner/start_josm.rst:27
+msgid ""
+"If you don't have JOSM already, or want the newest version, open your web "
+"browser – this may be Firefox, Chrome, Opera, or Internet Explorer."
+msgstr ""
+
+# ffd8dc01e3464ce5a6aa6b91bfbd0699
+#: ../../beginner/start_josm.rst:29
+msgid ""
+"In the address bar at the top of the window, enter the following text and "
+"press Enter: josm.openstreetmap.de"
+msgstr ""
+
+# bac38e8443ec4a4fadf502ba5f72c93e
+#: ../../beginner/start_josm.rst:31
+msgid "You can also find this website by searching for \"JOSM\"."
+msgstr ""
+
+# 045e7528623d47ce9d2fe16aee004c1d
+#: ../../beginner/start_josm.rst:40
+msgid ""
+"If you have Windows installed on your computer, click \"Windows JOSM "
+"Installer\" to download JOSM. If you have a different operating system, "
+"click on the link for your system. Your download should begin. In this "
+"chapter we will assume that you are using Windows, but the instructions are "
+"similar for other operating systems."
+msgstr ""
+
+# 644f91729052481495a76761216c8fab
+#: ../../beginner/start_josm.rst:47
+msgid "Install JOSM"
+msgstr ""
+
+# 72fbe1c0e0414bdeb40e9a303e7e5c26
+#: ../../beginner/start_josm.rst:49
+msgid ""
+"You may have problems installing JOSM if Java is not already installed on "
+"your computer. If you have problems in this section, try downloading and "
+"installing Java. You can download it here: http://www.java.com/en/download/"
+msgstr ""
+
+# ce14cc6f5b644eaf99d07a443765f8c4
+#: ../../beginner/start_josm.rst:52
+msgid ""
+"Find the JOSM install file on your computer. Double-click it to begin setup."
+msgstr ""
+
+# 091df258740146fc80897cbbc90e2d05
+#: ../../beginner/start_josm.rst:53
+msgid ""
+"Click ‘OK', ‘Next', ‘I Agree', and ‘Install'. When the installation is "
+"complete, click ‘Finish' to launch JOSM for the first time. Later, when you "
+"want to start JOSM, you can do so by clicking on the Start Menu in the lower "
+"left corner of your computer, and clicking the program JOSM."
+msgstr ""
+
+# bc789c3b091d42fb91fb6d939869c75c
+#: ../../beginner/start_josm.rst:57
+msgid ""
+"You may see a window pop up that asks if you want to update the software. "
+"You don't need to update it since it is new. Press the button that says "
+"\"Cancel.\" If you don't ever want to see this message again, check the box "
+"at the bottom before pressing \"Cancel.\""
+msgstr ""
+
+# f03904ea478a46389842a57241386b7b
+#: ../../beginner/start_josm.rst:61
+msgid "When JOSM starts, it will look something like this:"
+msgstr ""
+
+# b94d793f650949ac9441c80b19cd55c4
+#: ../../beginner/start_josm.rst:70
+msgid "Change JOSM Settings"
+msgstr ""
+
+# b32b86879a2f418a84b2f85921051ff0
+#: ../../beginner/start_josm.rst:72
+msgid ""
+"Before we begin using JOSM, it's a good idea to change some of the settings "
+"so that is will be easier to use. To change the settings, click \"Edit\" on "
+"the top menu, and then click \"Preferences.\""
+msgstr ""
+
+# 4db7d110222f4e15952ac02dc2141319
+#: ../../beginner/start_josm.rst:83
+msgid "Add Bing Imagery"
+msgstr ""
+
+# 7b502570fee54f0eb0eb91c396d24363
+#: ../../beginner/start_josm.rst:85
+msgid ""
+"We want to be able to use satellite imagery when we are making our maps, so "
+"let's add that from the Preferences window. On the left side of the "
+"Preferences window there are different icons for different settings. Click "
+"on the icon that says \"WMS TMS\"."
+msgstr ""
+
+# 5142ea41f289414d99cc3c4f723307a6
+#: ../../beginner/start_josm.rst:93
+msgid "You may need to click on the down arrow to find it:"
+msgstr ""
+
+# 66818deebaa448dbac06104ae71ac8df
+#: ../../beginner/start_josm.rst:98
+msgid "Click on \"Bing Sat\". Then Click \"Activate\"."
+msgstr ""
+
+# b2cedadf2a994a90948d25098e3de582
+#: ../../beginner/start_josm.rst:104
+msgid "You should now see \"Bing Sat\" in the list below the Activate button."
+msgstr ""
+
+# 1b94d45a12f44ebd87f543794b12786e
+# d036889a0ec54b1abb71153314fa747e
+#: ../../beginner/start_josm.rst:107 ../../beginner/start_josm.rst:289
+msgid "Add Presets"
+msgstr ""
+
+# b6ec0b215ca14cbf8c7ab5d4d81acc17
+#: ../../beginner/start_josm.rst:109
+msgid ""
+"If you have been given a file that should be added to the presets menu, you "
+"can add it now. For example, the building structure presets file used in "
+"Indonesia is called `building.xml <http://www.learnosm.org/files/building."
+"xml>`_."
+msgstr ""
+
+# 3f2148123b614747a18c008ae5ab50ff
+# ce22259573fa4b55ae241f15256a57a9
+#: ../../beginner/start_josm.rst:113 ../../beginner/start_josm.rst:135
+msgid ""
+"You should still have the Preferences window open. If you don't, click Edit -"
+"> Preferences to open the window."
+msgstr ""
+
+# c27802e97c9048228085f45fd5463e86
+#: ../../beginner/start_josm.rst:115
+msgid "On the left side, click the icon that looks like a grid."
+msgstr ""
+
+# 20cba5cece4142d68927d63a917a6d1a
+#: ../../beginner/start_josm.rst:120
+msgid "Click the tab at the top that reads \"Tagging Presets\"."
+msgstr ""
+
+# cc5fe745e68f4f73b8026e159e43fbf7
+#: ../../beginner/start_josm.rst:121
+msgid "In the upper right, press the + button."
+msgstr ""
+
+# 446d409687fe4508b1b0265afc83d675
+#: ../../beginner/start_josm.rst:122
+msgid ""
+"Next to the second box on the right, click the button that looks like a "
+"folder. Navigate to the presets file you want to add, for example, buildings."
+"xml."
+msgstr ""
+
+# cd23d91b95024ee4abd68ac7b5723504
+#: ../../beginner/start_josm.rst:128
+msgid "Add Walking Papers Plugin"
+msgstr ""
+
+# 934a4308567e4b3ea919decdbc6dd0b3
+#: ../../beginner/start_josm.rst:130
+msgid ""
+"Later in this guide we will learn about a tool called Walking Papers, which "
+"will allow us to print out a map of an area, draw on it and take notes, and "
+"then load it into JOSM in the background. Then we can add our drawings and "
+"our notes into OpenStreetMap. Now we will add the Walking Papers plugin to "
+"JOSM."
+msgstr ""
+
+# 6b9735d54e7645c3a290451fa2c54c17
+#: ../../beginner/start_josm.rst:137
+msgid "On the left side, click the icon that looks like a plug."
+msgstr ""
+
+# acb50ecffe5c4144a532ed459ef1e24e
+#: ../../beginner/start_josm.rst:142
+msgid ""
+"Click the button that says \"Download list\". The list will download from "
+"the internet, and when it is finished you will see a list of optional "
+"plugins appear in the window."
+msgstr ""
+
+# 0f6f9a0c40e34f06b4534adcab15cd02
+#: ../../beginner/start_josm.rst:145
+msgid ""
+"In the search box at the top, type \"walking\". This will show only items in "
+"the list that have \"walking\" in the title."
+msgstr ""
+
+# 73dc7209f71145f09e9dfe0d6d2edccf
+#: ../../beginner/start_josm.rst:147
+msgid ""
+"Click the checkbox next to the walkingpapers plugin, and press OK at the "
+"bottom of the window."
+msgstr ""
+
+# 6f89f70ce075451297fcea92b486be53
+#: ../../beginner/start_josm.rst:149
+msgid ""
+"Walking Papers will now be downloaded and installed. Do not click \"Cancel\"."
+msgstr ""
+
+# f8ecbf6eedef488f9eb921e44eff2b75
+#: ../../beginner/start_josm.rst:152
+msgid "Change Language"
+msgstr ""
+
+# bd1e270048ce46648feb1f4e3988f4f0
+#: ../../beginner/start_josm.rst:154
+msgid ""
+"JOSM has been translated into many languages. If it has been translated into "
+"your language, you can change it in the Preferences."
+msgstr ""
+
+# 6dea395826774de68d714218c7e5bcb6
+#: ../../beginner/start_josm.rst:156
+msgid ""
+"If you don't have the Preferences window open, click Edit -> Preferences."
+msgstr ""
+
+# 279d84ff4b414a4d95c85728a6b701c2
+#: ../../beginner/start_josm.rst:157
+msgid ""
+"On the left side, click the icon that looks like a paint can and paint brush."
+msgstr ""
+
+# ddf4da1069a747b485a7ad9ff7dcf02c
+#: ../../beginner/start_josm.rst:158
+msgid "At the top of the window, click the tab that says \"Look and Feel\"."
+msgstr ""
+
+# 71c33713008947a483c78ea4edd11437
+#: ../../beginner/start_josm.rst:159
+msgid "Choose your language in the dropdown box next to the word \"Language\"."
+msgstr ""
+
+# 6ce50b0f680648b3afa9c9f3884d77b4
+#: ../../beginner/start_josm.rst:165
+msgid ""
+"You need to restart JOSM to save your settings. Click \"File\" in the upper "
+"left corner, and Click \"Exit\" at the bottom of the menu."
+msgstr ""
+
+# b2949b023c774f10887133ace8c25786
+#: ../../beginner/start_josm.rst:167
+msgid ""
+"Start JOSM again by going to the Windows Start Menu in the bottom left "
+"corner. Find JOSM and click on it to start."
+msgstr ""
+
+# 39a0b6dc660a4c47981d132583270607
+#: ../../beginner/start_josm.rst:171
+msgid "Learn Basic Drawing with JOSM"
+msgstr ""
+
+# 297f0fb9ae30422db6efdc867e5c6597
+#: ../../beginner/start_josm.rst:173
+msgid ""
+"Now let's open up a sample OSM file which we will use to learn the basic "
+"ways to draw maps with JOSM. Note that this map is not real, in that it is "
+"not a real map of a real place, so we will not save it on OpenStreetMap."
+msgstr ""
+
+# 6c9c6c7fdaf44f3bbfd32d126f0a753c
+#: ../../beginner/start_josm.rst:176
+msgid ""
+"If you were given a set of files by your instructor, you should already have "
+"the file we will open, named sample.osm."
+msgstr ""
+
+# ea5e821e27c64487b8b92d3ee1b54633
+#: ../../beginner/start_josm.rst:178
+msgid ""
+"If you don't have the file sample.osm, right-click on `this link <http://www."
+"learnosm.org/files/sample.osm>`_ and click \"Save Link As…\" Choose a "
+"location on your computer to save the file."
+msgstr ""
+
+# 56c8b883ec9844e2b5342d1b5eff9fc5
+#: ../../beginner/start_josm.rst:181
+msgid ""
+"Now let's open the sample map file in JOSM. Open JOSM. Click the \"Open\" "
+"button in the upper left."
+msgstr ""
+
+# 29abd46b592849809f0f86b7d074502e
+#: ../../beginner/start_josm.rst:187
+msgid "Find the file sample.osm. Click on it, and then click \"Open\"."
+msgstr ""
+
+# 719195c3fe254cb1a710e81ca90e0c89
+#: ../../beginner/start_josm.rst:188
+msgid "You should now see a sample map, similar to this:"
+msgstr ""
+
+# 450a1172fcc74cb4bb0ddf2c8ac6aa9d
+#: ../../beginner/start_josm.rst:197
+msgid "Basic Operations"
+msgstr ""
+
+# 0927c9f1e41c49c7bd4a3e248928a239
+#: ../../beginner/start_josm.rst:199
+msgid ""
+"To move the map left or right, up or down, hold your right mouse button "
+"down, and move your mouse."
+msgstr ""
+
+# 07a2cbcd45e84fd18e6d0777685f6865
+#: ../../beginner/start_josm.rst:201
+msgid ""
+"There are several ways to zoom in and out of the map. If you have a mouse, "
+"you can use your scroll wheel to zoom in and out. If you are using a laptop "
+"and don't have a mouse, you can zoom in and out using the scale bar in the "
+"upper left of the map window. Drag the bar left and right by holding your "
+"left mouse down and moving the bar left or right with your mouse."
+msgstr ""
+
+# f8d122f2540244a5a57e326c01952bb3
+#: ../../beginner/start_josm.rst:210
+msgid ""
+"Look at the sample map. There a few different types of objects here. There "
+"is a river, a forest, some buildings, several roads, and a couple of shops. "
+"To select an object, click on it with your left mouse button."
+msgstr ""
+
+# 51b478aa4bf64cfaba7ca02b56166d95
+#: ../../beginner/start_josm.rst:215
+msgid "Points, Lines, and Shapes"
+msgstr ""
+
+# ecfc39e08bda4f1cbd5972b1d50093da
+#: ../../beginner/start_josm.rst:217
+msgid ""
+"As you click on different objects on the sample map, notice that there are "
+"three different types of object on the map. There are points, lines, and "
+"shapes."
+msgstr ""
+
+# db7c9e54048c4af58dd6df92c7e60fd9
+#: ../../beginner/start_josm.rst:220
+msgid ""
+"Points are a single location, represented by symbols. On this sample map, "
+"there are two points, a clothing shop and a market. The clothing shop is "
+"represented by a shirt symbol, and the market is represented by a shopping "
+"cart."
+msgstr ""
+
+# 9dff3359808e401abbf46df939e94e77
+#: ../../beginner/start_josm.rst:224
+msgid ""
+"There are several lines on the map as well, which represent roads. If you "
+"look closely you will see that within the lines, there are points as well. "
+"These points don't have any symbols or other information associated with "
+"them, but they help to define where the line is located."
+msgstr ""
+
+# ac2704ec19164fbbb5057403ff1e8f98
+#: ../../beginner/start_josm.rst:228
+msgid ""
+"Lastly, there are numerous shapes on the sample map, representing different "
+"places – a forest, a river, and buildings. A shape generally represents an "
+"area, like a field or a building. A shape is exactly like a line – the only "
+"difference is that the line begins at the same point where it ends."
+msgstr ""
+
+# f9caef12c578443f97ffc9c3cafb2434
+#: ../../beginner/start_josm.rst:232
+msgid ""
+"You may notice that when you select an object, a list appears to the right "
+"of the map in a window called \"Properties\". These are known as tags. Tags "
+"are information that is tied to a point, line or shape that describes what "
+"it is. We'll learn more about tags in Chapter 7, Advanced Editing. For now "
+"all you need to know is that this information helps describe whether our "
+"object is a forest, a river, a building, or something else."
+msgstr ""
+
+# 61f84332d5b84d8981c75da2c8a651ae
+#: ../../beginner/start_josm.rst:238
+msgid ""
+"Think about drawing a map by hand, and how you are also drawing points, "
+"lines, and shapes. What other places are best represented by points? Lines? "
+"Shapes?"
+msgstr ""
+
+# b1e750c027854f988c3d7527a443d0c9
+#: ../../beginner/start_josm.rst:243
+msgid "Changing Objects"
+msgstr ""
+
+# 78bb33c168be4ec0b064e2893543093e
+#: ../../beginner/start_josm.rst:245
+msgid ""
+"Select the forest on the left side of the map. Be sure to click on the line "
+"around the forest, not one of the points on the line. Now hold your left "
+"mouse button down and drag your mouse. You should be able to move the forest "
+"to a new location on the map."
+msgstr ""
+
+# 75458ba6d0df44a88c25e00c0dbf5a57
+#: ../../beginner/start_josm.rst:249
+msgid ""
+"Click on on of the points on the line around the forest. Hold your left "
+"mouse button down and drag your mouse. You should be able to move the point. "
+"This is how you can change the shape of an object, or move a point."
+msgstr ""
+
+# 5f28e71f661841d2890d9c4bcf54d48b
+#: ../../beginner/start_josm.rst:254
+msgid "Drawing"
+msgstr ""
+
+# 71aae8b39b6e48d79a1c1da5a8a5e180
+#: ../../beginner/start_josm.rst:256
+msgid ""
+"On the left side of a JOSM is a column of buttons. Many of these button open "
+"new windows on the right side that provide more information about the map. "
+"The most important buttons, however, are at the top of these column. These "
+"buttons change what you can do with your mouse."
+msgstr ""
+
+# 52b97c9147f04f8a98116eaac4535231
+#: ../../beginner/start_josm.rst:260
+msgid ""
+"The top four buttons in this column are the most important. They allow you "
+"to:"
+msgstr ""
+
+# 2ba7d1199974444eba1e0cdf46b8d1c4
+#: ../../beginner/start_josm.rst:263
+msgid "Select"
+msgstr ""
+
+# f4d6a0f42bfa42019ae6dfadff92deef
+#: ../../beginner/start_josm.rst:264
+msgid "Draw"
+msgstr ""
+
+# 8b53c4f089f24784af1b05eef448bc1e
+#: ../../beginner/start_josm.rst:265
+msgid "Zoom in"
+msgstr ""
+
+# 5cc586d88a1b48489ae5867337ec8508
+#: ../../beginner/start_josm.rst:266
+msgid "Delete"
+msgstr ""
+
+# 1d36f3063c4542bb818f9de92cd80a3e
+#: ../../beginner/start_josm.rst:268
+msgid "Until now, you have been using the Select tool, which looks like this:"
+msgstr ""
+
+# 8d642cdba7334ec8b689d1bd76ee9bd2
+#: ../../beginner/start_josm.rst:273
+msgid ""
+"Before you draw, you need to make sure that nothing is selected. Click in "
+"the black space on the map, where it is empty, to make sure nothing is "
+"selected."
+msgstr ""
+
+# 2611beb1663f41b69fdef286e4a145e5
+#: ../../beginner/start_josm.rst:275
+msgid "Click on the second button, the Draw tool."
+msgstr ""
+
+# 52950d85d1654a62867880f21cb2dcd5
+#: ../../beginner/start_josm.rst:280
+msgid ""
+"Find an empty area on the map, and double-click with your mouse. This will "
+"draw a single point."
+msgstr ""
+
+# 2c6a840b786341c6a980049f502a91cf
+#: ../../beginner/start_josm.rst:282
+msgid ""
+"To draw a line, single-click with your mouse. Move your mouse and click "
+"again. Continue until you are happy with your line. To end the line, double-"
+"click your mouse."
+msgstr ""
+
+# a5290cafeb6744ef8495e3cee0e39e95
+#: ../../beginner/start_josm.rst:285
+msgid ""
+"Draw a shape the same way that you draw a line, but finish the shape by "
+"double-clicking on the point where you started the line."
+msgstr ""
+
+# e719b6c3c8604701970922567cc05ebf
+#: ../../beginner/start_josm.rst:291
+msgid ""
+"Now we know how to draw points, lines and shapes, but we still haven't "
+"defined what they represent. We want to be able to say that our points are "
+"shops, schools, or something else, and whether our shapes are fields, "
+"buildings, or something else."
+msgstr ""
+
+# 8d8845e85b9f4fef888acdbcfb89a63c
+#: ../../beginner/start_josm.rst:295
+msgid "Click on the Select tool, in the column of buttons on the left."
+msgstr ""
+
+# 6ed71890bb6a4f4c950bfc0c6aba71b5
+#: ../../beginner/start_josm.rst:300
+msgid ""
+"Select one of the objects that you drew with the Draw tool. On the top menu, "
+"click \"Presets\". Move your mouse through the sub-menu to the type of "
+"location you would like to define."
+msgstr ""
+
+# 6b406243b0b94f4c8599d6f9f45caa0e
+#: ../../beginner/start_josm.rst:303
+msgid ""
+"When you click on a preset, a form will pop up asking you for more "
+"information. You do not have to fill in every field, but you may wish to add "
+"some of the important fields, such as the name of the object."
+msgstr ""
+
+# eb80d609ba33489faf03e23d21d359f5
+#: ../../beginner/start_josm.rst:306
+msgid ""
+"When you are finished entering the information, click \"Apply Preset\". If "
+"everything went well, your point, line, or shape should change colors or "
+"show a symbol. This is because you have defined what it is."
+msgstr ""
+
+# ad5caf966da64395988f090e52895287
+#: ../../beginner/start_josm.rst:311
+msgid "Draw Your Own Map"
+msgstr ""
+
+# 536334844c6a4b6dab137e30358c78e8
+#: ../../beginner/start_josm.rst:313
+msgid ""
+"Now let's draw a map in order to practice the techniques you have learned. "
+"You may wish to redraw the map that you drew on paper in Chapter 1."
+msgstr ""
+
+# 5305be80ab7a4fa7b7c219ce69e687bc
+#: ../../beginner/start_josm.rst:315
+msgid ""
+"Drag the map away from the sample map. Hold the right mouse button and drag "
+"your mouse, until you have a nice empty area to draw on."
+msgstr ""
+
+# 475cba3d6e5744fd945cabe3d3544415
+#: ../../beginner/start_josm.rst:317
+msgid ""
+"Use the Draw tool to create points, lines, and shapes. Describe what your "
+"objects are by selecting from the Presets menu."
+msgstr ""
+
+# 27aa48df9b684323927ac4ccf7818b2c
+#: ../../beginner/start_josm.rst:319
+msgid ""
+"When you are finished, you should have your own map, similar to the sample "
+"map that we opened in sample.osm."
+msgstr ""
+
+# ff6f122847314a1c89b16c4c05f5ea6f
+#: ../../beginner/start_josm.rst:325
+msgid ""
+"Excellent! If all went well you have learned how to setup JOSM on your "
+"computer, and the basic tools for drawing maps. In the next two chapters, "
+"you will learn how to use GPS and Walking Papers to map your town or "
+"village. In Chapter 6, we will return to JOSM and using the information we "
+"collected, we will add objects to OpenStreetMap."
+msgstr ""
+
+# 093144cb4db54088aebcffd79a44889d
+#: ../../beginner/start_josm.rst:332
+msgid "Related Videos"
+msgstr ""
+
+# 5fc5412d4fff4b4c9ca20d398bc80cad
+#: ../../beginner/start_josm.rst:334
+msgid "`Setting up JOSM <http://www.youtube.com/watch?v=jRqn-S9maL0>`_."
+msgstr ""
