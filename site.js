@@ -1,3 +1,6 @@
+---
+---
+
 $(function() {
     var app = window.app;
     $('.language-switcher a').each(function(i, e) {

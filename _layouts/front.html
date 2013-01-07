@@ -5,20 +5,20 @@ layout: default
   <div id='divider' class='marginL cell9 pad1'>
     <div class='cell4'>
       <a class='moo1' href='{{site.baseurl}}/{{page.lang}}/beginner'>
-        <span>New to OpenStreetMap?</span>
-        Proceed to beginner guide
+        <span>{{site.translations.[page.lang].buttons.begspan}}</span>
+        {{site.translations.[page.lang].buttons.beg}}
       </a>
     </div>
     <div class='cell4'>
       <a class='moo2' href='{{site.baseurl}}/{{page.lang}}/intermediate'>
-         <span>Already familiar with OSM?</span>
-         Check out intermediate guide
+         <span>{{site.translations.[page.lang].buttons.interspan}}</span>
+         {{site.translations.[page.lang].buttons.inter}}
        </a>
     </div>
     <div class='cell4'>
       <a class='moo3' href='{{site.baseurl}}/{{page.lang}}/advanced'>
-        <span>Looking for a deep dive?</span>
-        Read the advanced guide
+        <span>{{site.translations.[page.lang].buttons.advspan}}</span>
+        {{site.translations.[page.lang].buttons.adv}}
       </a>
     </div>
   </div>
@@ -26,31 +26,75 @@ layout: default
 <div id='front-text' class='fillW cell12'>
   <div class='marginL cell9 pad1'>
     <form class='searchbox rounded'>
-      <input type='text' name='search' class='cell8'></input>
+      <input id='search-field' type='text' name='search' class='cell8'></input>
       <input type='submit' name='submit' value='search' class='rounded'></input>
     </form>
   </div>
   <div class='mainintro marginL marginR cell5 pad1'>
     <h4 class='tagtitle'>{{ site.translations.[page.lang].tagtitle }}</h4>
-    <p class='tagwords'>{{ site.translations.[page.lang].tagwords }}</p>
+    <p class='tagwords'>{{ site.translations.[page.lang].tagintro }}</p>
   </div>
   <div class='faqbox cell3 pad1'>
     <h4>Common questions</h4>
     <ul class='faq'>
-      <li><a href='#'>What is OpenStreetMap?</a></li>
-      <li><a href='#'>What is LearnOSM?</a></li>
-      <li><a href='#'>How can I get started to map?</a></li>
-      <li><a href='#'>Do I need any gears to map</a></li>
-      <li><a href='#'>Where can I find additional help?</a></li>
+      <li><a href='#'>{{site.translations.[page.lang].faqs.a}}</a></li>
+      <li><a href='#'>{{site.translations.[page.lang].faqs.b}}</a></li>
+      <li><a href='#'>{{site.translations.[page.lang].faqs.c}}</a></li>
+      <li><a href='#'>{{site.translations.[page.lang].faqs.d}}</a></li>
+      <li><a href='#'>{{site.translations.[page.lang].faqs.e}}</a></li>
   </div>
 </div>
+<!-- <script>
+$(function() {
+    var data = [
+        { label: "anders", category: "" },
+        { label: "andreas", category: "" },
+        { label: "antal", category: "" },
+        { label: "annhhx10", category: "Products" },
+        { label: "annk K12", category: "Products" },
+        { label: "annttop C13", category: "Products" },
+        { label: "anders andersson", category: "People" },
+        { label: "andreas andersson", category: "People" },
+        { label: "andreas johnson", category: "People" }
+    ];
+
+    $( "#search-field" ).catcomplete({
+        delay: 0,
+        source: data
+    });
+});
+</script> -->
+
+<script>
+  // using widget factory
+  $.widget( "custom.addChapterSection", $.ui.autocomplete, {
+   _renderMenu: function( ul, items ) {
+       var that = this,
+       currentSection = "",
+       currentChapter = "",
+       $.each( items, function( index, item ) {
+           // this creates a list item for the chapter
+           if (item.chapter != currentChapter) {
+             ul.append( "<li class='ui-autocomplete-chapter'>" + item.chapter + "</li>" );
+             currentChapter = item.chapter;
+             // under that chapter, create a list item for the section
+             if ( item.section != currentSection ) {
+                 ul.append( "<li class='ui-autocomplete-section'>" + item.section + "</li>" );
+                 currentSection = item.section;
+             }
+           }
+           that._renderItemData( ul, item );
+       });
+   }
+  });
+</script>
 <script>
 // format the search bar
   var input = $(".searchbox input[type=text]"),
     inputTitle = "What are you looking for?";
     input.val(inputTitle);
 
-  input.blur(function() {s
+  input.blur(function() {
   if (input.val() === "") {
       input.val(inputTitle); // restore default text
       input.addClass("default-value"); // for lighter text
@@ -61,4 +105,15 @@ layout: default
         input.removeClass("default-value"); // for darker text
     }
   });
+  // autocomplete for search
+  $( "#search-field" ).addChapeterSection({
+   autoFocus: true,
+   delay: 0,
+   source: function(){
+     $.getJSON('{{site.baseurl}}/{{page.lang}}.json',function(data) {
+       console.log(data);
+      });
+   }
+  });
+
 </script>

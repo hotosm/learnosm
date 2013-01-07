@@ -296,6 +296,14 @@ pre {
     background:#ccc;
   }
 
+  /* search drop-down */
+  .ui-autocomplete-category {
+      font-weight: bold;
+      padding: .2em .4em;
+      margin: .8em 0 .2em;
+      line-height: 1.5;
+  }
+
 .faqbox h4 {margin-bottom:46px;}
 .faq li {
   margin:4px 0;

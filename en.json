@@ -1,0 +1,31 @@
+[
+  {
+    "label":"Adding Your First Points",
+    "section":"",
+    "chapter":"beginner",
+    "url":"adding-your-first-points"
+  },
+  {
+    "label":"Add Bing Imagery",
+    "section":"Change JOSM settings",
+    "chapter":"beginner",
+    "url":"add-bing-imagery"
+  },
+  {
+    "label":"Add presets",
+    "section":"Change JOSM settings",
+    "chapter":"beginner",
+    "url":"add-presets"
+  },
+  {
+    "label":"Add Walking Papers Plugin",
+    "section":"Change JOSM settings",
+    "chapter":"beginner",
+    "url":"add-walking-papers-plugin"
+  },
+  {
+    "label":"Add Presets",
+    "section":"Learn Basic Drawing with JOSM",
+    "chapter":"beginner",
+    "url":"add-presets"
+  }

@@ -13,8 +13,22 @@ translations:
   en:
     tagline: " Learn OpenStreetMap Step-by-Step"
     tagtitle: "OpenStreetMap is a free street level map of the world, created by an ever growing community of mappers."
-    tagwords: "Anyone can edit OpenStreetMap. Here you can learn how Learn OSM provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. If you are interested in running an OpenStreetMap workshop, check out the LearnOSM trainer resources."
+    tagintro: "Anyone can edit OpenStreetMap. Here you can learn how Learn OSM provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. If you are interested in running an OpenStreetMap workshop, check out the LearnOSM trainer resources."
+    ourguides: "Our Guides"
+    buttons:
+      begspan: "New to OpenStreetMap?"
+      beg: "Proceed to beginner guide"
+      interspan: "Already familiar with OSM?"
+      inter: "Check out intermediate guide"
+      advspan: "Looking for a deep dive?"
+      adv: "Read the advanced guide"
+    faqs:
+      a: "What is OpenStreetMap?"
+      b: "What is LearnOSM?"
+      c: "How can I get started to map?"
+      d: "Do I need any gears to map?"
+      e: "Where can I find additional help?"
   es:
     tagline: "Aprende OpenStreetMap Paso a Paso"
     tagtitle: "OpenStreetMap es un mapa a nivel de calle libre del mundo, creado por una comunidad cada vez mayor de mappers."
-    tagwords: "Anyone can edit OpenStreetMap. Here you can learn how Learn OSM provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. If you are interested in running an OpenStreetMap workshop, check out the LearnOSM trainer resources."
+    tagintro: "Cualquiera puede editar OpenStreetMap. Aquí usted puede aprender Aprender OSM proporciona fácil de entender, paso a paso guía para que usted pueda empezar a contribuir a OpenStreetMap y el uso de OpenStreetMap y utilizar los datos de OpenStreetMap. Si usted está interesado en el funcionamiento de un taller de OpenStreetMap, disfrutar de los recursos de instructores LearnOSM."

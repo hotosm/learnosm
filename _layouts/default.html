@@ -5,8 +5,10 @@
     <title>LearnOSM</title>
     <link href="{{ site.baseurl }}/reset.css" rel="stylesheet" type="text/css">
     <link href="{{ site.baseurl }}/style.css" rel="stylesheet" type="text/css">
+    <link href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" >
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic |Quattrocento:400,700' rel='stylesheet' type='text/css'>
     <script src="{{ site.baseurl }}/vendor/jquery-1.8.2.min.js"></script>
+    <script src="{{ site.baseurl }}/vendor/jquery-ui-1.9.2.custom.js"></script>
     <script>
       window.app = window.app || {};
       window.app.permalink = '{{page.permalink}}';
@@ -31,7 +33,7 @@
         <span class='tagline'>{{site.translations.[page.lang].tagline}}</span>
       </div>
       <div class='cell4 pad0 cf'>
-        <h4 class='cell3'>Our guides</h4>
+        <h4 class='cell3'>{{site.translations.[page.lang].ourguides}}</h4>
         <ul class='all-guides cell2'>
           {% for post in site.posts %}
             {% if {{post.lang}} == {{page.lang}} and {{post.cover}} %}
@@ -49,8 +51,7 @@
       <ul class='contact marginL marginR cell5 pad0 cf'>
         <li><a class='email' href="mailto:learnosm@hotosm.org">learnosm@hotosm.org</a></li>
         <li><a class='twitter' href="https://twitter.com/learnosm">@learnOSM</a></li>
-        <li><a class='translation' href='#'>Translation Status</a></li>
-        <!-- {{site.url}}/en/status -->
+        <li><a class='translation' href='{{site.baseurl}}/en/status'>Translation Status</a></li>
       </ul>
       <div class='cell4 pad0 cf'>
         <span>
