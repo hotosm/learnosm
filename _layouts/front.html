@@ -45,29 +45,7 @@ layout: default
   </div>
 </div>
 {% include banner.html %}
-<script>
-  // using widget factory
-  $.widget( "custom.addChapterSection", $.ui.autocomplete, {
-   _renderMenu: function( ul, items ) {
-       var that = this,
-       currentSection = "",
-       currentChapter = "",
-       $.each( items, function( index, item ) {
-           // this creates a list item for the chapter
-           if (item.chapter != currentChapter) {
-             ul.append( "<li class='ui-autocomplete-chapter'>" + item.chapter + "</li>" );
-             currentChapter = item.chapter;
-             // under that chapter, create a list item for the section
-             if ( item.section != currentSection ) {
-                 ul.append( "<li class='ui-autocomplete-section'>" + item.section + "</li>" );
-                 currentSection = item.section;
-             }
-           }
-           that._renderItemData( ul, item );
-       });
-   }
-  });
-</script>
+
 <script>
 // format the search bar
   var input = $(".searchbox input[type=text]"),
@@ -85,15 +63,19 @@ layout: default
         input.removeClass("default-value"); // for darker text
     }
   });
-  // autocomplete for search
-  $( "#search-field" ).addChapeterSection({
-   autoFocus: true,
-   delay: 0,
-   source: function(){
-     $.getJSON('{{site.baseurl}}/{{page.lang}}.json',function(data) {
-       console.log(data);
-      });
-   }
+
+  $.getJSON("{{site.baseurl}}/{{page.lang}}.json",function(data){
+    var destination;
+
+    $( "#search-field" ).autocomplete({
+     autoFocus: true,
+     delay: 0,
+     source: data,
+     select: function(event, o) {
+       destination = '{{site.baseurl}}/' + o.item.url;
+       window.location = destination;
+     }
+    });
   });
 
 </script>

@@ -248,22 +248,19 @@ body {
 
 /* contribute banner */
 .banner {
-  background:url(./images/dot.png) white;
-  font-weight:bold;
-  text-align:center;
+  background:url(./images/dot.png) repeat white;
 }
 .banner:hover {
-  color:#404040;
+  background:url(./images/dot-hover.png) repeat white;
 }
 .banner span {
   display:block;
+  font-weight:bold;
+  text-align:center;
   padding:12px;
-  transition: all 200ms linear;
-  -moz-transition: all 200ms linear;
-  -webkit-transition: all 200ms linear;
-  -o-transition: all 200ms linear;
 }
 .banner span:hover {
+  background:#fff;
   background:rgba(255,255,255,0.6);
   color:#fc3f51;
 }
@@ -320,13 +317,27 @@ body {
   }
 
   /* search drop-down */
-  .ui-autocomplete-category {
-      font-weight: bold;
-      padding: .2em .4em;
-      margin: .8em 0 .2em;
-      line-height: 1.5;
+  .ui-helper-hidden-accessible {
+    display:none;
   }
+  .ui-menu {
+    border:2px solid #fff;
+    width:20%;
+    background:#fff;
+    cursor:pointer;
+  }
+  .ui-menu-item{
+    padding:10px;
+    font-family:'Source Sans Pro',sans-serif ;
+  }
+    .ui-menu-item:hover, .ui-menu-item:focus {
+      background:#79bc5f;
+    }
+    .ui-menu-item a:hover, .ui-menu-item a:focus {
+      color:#404040;
+    }
 
+/* faq */
 .faqbox h4 {margin-bottom:46px;}
 .faq li {
   margin:4px 0;
