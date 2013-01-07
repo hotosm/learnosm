@@ -17,8 +17,9 @@
     </script>
     <script src="{{ site.baseurl }}/site.js"></script>
   </head>
-  <body class='fillG'>
-    <div class="cell12">
+  <body>
+  <div id='wrapper'>
+    <div class="fillG cell12">
       <small class='language-switcher marginL cell10 cf'>
         <a lang='en'>English</a> |
         <a lang='jp'>Japanese</a> |
@@ -27,7 +28,7 @@
         <a lang='es'>Spanish</a>
       </small>
     </div>
-    <div id='header' class='fillW cell12'>
+    <div id='header' class='cell12'>
       <div class='marginL marginR cell5 pad0 cf'>
         <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
         <span class='tagline'>{{site.translations.[page.lang].tagline}}</span>
@@ -45,9 +46,10 @@
         </ul>
       </div>
     </div>
+    <div id='content' class='cf'>
       {{ content }}
-    <small id='footer' class='cell12'>
-      <a class='logo hand' href="#"></a>
+    </div>
+    <small id='footer' class='fillG cell12'>
       <ul class='contact marginL marginR cell5 pad0 cf'>
         <li><a class='email' href="mailto:learnosm@hotosm.org">learnosm@hotosm.org</a></li>
         <li><a class='twitter' href="https://twitter.com/learnosm">@learnOSM</a></li>
@@ -62,5 +64,6 @@
         <a class='logo logo-ausaid' href='http://www.ausaid.gov.au/' target='_blank'></a>
       </div>
     </small>
+  </div>
   </body>
 </html>

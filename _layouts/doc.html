@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class='fillW cell12'>
+<div class='cell12'>
   <div class='doc-nav marginL cell2 pad1 cf'>
     <ul class='rounded'>
 
@@ -39,9 +39,16 @@ layout: default
       <div class='training rounded'>
         <span>Are you a workshop organizer?</span>
         Check out the <a href='#'>training material</a> for {{page.title}} Guide.
-        <div class='logo book'></div>
       </div>
     {% endif %}
+    {% unless {{page.cover}} %}
+    <div class='feedback rounded'>
+      <span>Was this chapter helpful?</span>
+      Missing information or got feedback?
+      <a href='mailto:learnosm@hotosm.org'>Let us know</a> or
+      <a href='{{site.baseurl}}/{{page.lang}}/contribute'>help us improve the guides</a>
+    </div>
+    {% endunless %}
   </div>
 </div>
 

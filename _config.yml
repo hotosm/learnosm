@@ -26,8 +26,9 @@ translations:
       a: "What is OpenStreetMap?"
       b: "What is LearnOSM?"
       c: "How can I get started to map?"
-      d: "Do I need any gears to map?"
+      d: "Do I need any special gear to map?"
       e: "Where can I find additional help?"
+    contribute: "I want to contribute!"
   es:
     tagline: "Aprende OpenStreetMap Paso a Paso"
     tagtitle: "OpenStreetMap es un mapa a nivel de calle libre del mundo, creado por una comunidad cada vez mayor de mappers."

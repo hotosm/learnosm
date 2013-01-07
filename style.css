@@ -78,10 +78,7 @@ h1: guide title
 h2: sections within a guide
 h3: subsections within a section
 h4: bolded text (same styling as h3, but will not be linkable)
-h5: none
-h6: none
 */
-
 body {
   font: normal 12px/20px 'Source Sans Pro','OpenSansRegular','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
   color: #404040;
@@ -161,6 +158,26 @@ pre {
 /* --------------------------------------------------------
   Layout
 -------------------------------------------------------- */
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+#wrapper {
+  min-height:100%;
+  position:relative;
+}
+#content {
+  padding-bottom:180px;
+}
+#footer {
+  width:100%;
+  height:180px;
+  position:absolute;
+  bottom:0;
+  left:0;
+}
 .language-switcher {
   padding:6px 20px;
   }
@@ -226,36 +243,42 @@ pre {
     height:40px;
     background-position:-76px 0;
     }
+/* main content wrapper*/
+#content {min-height:80%;}
 
-.hand {
-  position:absolute;
-  height: 145px;
-  width:100px;
-  right: 0;
-  margin-top: -145px;
-  background-position: -205px 30px;
-  opacity:0.2;
+/* contribute banner */
+.banner {
+  background:url(./images/dot.png) white;
+  font-weight:bold;
+  text-align:center;
+}
+.banner:hover {
+  color:#404040;
+}
+.banner span {
+  display:block;
+  padding:12px;
   transition: all 200ms linear;
   -moz-transition: all 200ms linear;
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
-  }
-  .hand:hover {
-      background-position:-205px 20px;
-      opacity:1;
-    }
-    .hand:hover:before {
-      content:'I want to contribute!';
-      position:absolute;
-      top: -60px;
-      width:92px;
-      height:60px;
-      padding:10px;
-      display:block;
-      background: url(./images/sprite.png) -320px -16px no-repeat;
-      color:#fff;
-    }
+}
+.banner span:hover {
+  background:rgba(255,255,255,0.6);
+  color:#fc3f51;
+}
 
+/* contribute page */
+.contribute h4 {
+  font-weight:400;
+}
+.contribute h4 a {
+  font-weight:700;
+}
+.contribute p, .contribute li {
+  font-family:'Source Sans Pro',sans-serif;
+}
+/* footer */
 .contact li {margin-bottom:20px;}
   .email:before,.twitter:before,.translation:before,
   .email:hover:before,.twitter:hover:before,.translation:hover:before {
@@ -344,23 +367,16 @@ pre {
     color:#404040;
   }
 
-.training {
+/* training and feedback boxes*/
+.training, .feedback {
   display:block;
   border:4px solid #f0f0f0;
   color:#404040;
   padding:20px;
 }
-  .training span {display:block;font-weight:700;}
-  .training a {color: #79bc5f;}
-  /*.training a:hover {color:#a8d59a;} */
+  .training span, .feedback span {display:block;font-weight:700;}
+  .training a, .feedback a {color: #79bc5f;}
 
-.book {
-  float: right;
-  height: 100px;
-  width: 116px;
-  background-position: -430px 11px;
-  margin: -54px -22px;
-}
 /* doc content */
 .doc h2,
 .doc h3 {
