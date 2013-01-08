@@ -1,22 +1,18 @@
 [
   {
     "label":"Adding Your First Points",
-    "section":"",
     "url":"en/beginner/walking-papers/#adding-your-first-points"
   },
   {
     "label":"Add Bing Imagery",
-    "section":"Change JOSM settings",
     "url":"en/beginner/start-josm/#add-bing-imagery"
   },
   {
     "label":"Add presets",
-    "section":"Change JOSM settings",
     "url":"en/beginner/start-josm/#add-presets"
   },
   {
     "label":"Add Walking Papers Plugin",
-    "section":"Change JOSM settings",
     "url":"en/beginner/start-josm/#add-walking-papers-plugin"
   }
 ]

@@ -1,0 +1,59 @@
+
+See test files in http://www.extractwidget.com/nodejs/test
+
+Tested live also on following sites :
+
+http://www.extractwidget.com/nodejs/test/testcastorama.html
+
+	--> OK - loads correctly jquery - but error jQuery 1.3.2 for some objects (works with last version of jquery)
+
+http://www.yahoo.com
+
+	--> OK - loads correctly yui - but one js error at the end (jserror image sent back to yahoo - apparently an object not understood by YUI)
+
+http://www.msn.com
+
+	--> OK but asynchronous js error at the end, unidentified source
+	
+http://www.blimpme.com/mobile/
+
+	--> Ajax site
+	--> OK 100% - xhr OK - loads correctly blimpme api and googlemap api v3
+
+http://www.carrefour.fr
+
+	--> site not encoding URI + tons of fw scripts + tons of scripts - loads scripts correctly, one small js error at the end
+	--> jQuery, mootools
+	--> a bit slow, to investigate
+
+http://www.decathlon.fr
+
+	--> OK
+
+http://www.fnac.com
+
+	--> NOK, can not test, this site is supposed to be utf-8 encoded but loads scripts not encoded in utf-8
+
+http://www.ooshop.com
+
+	--> OK - site defining several html,head and body tags ... one js error at the end on timeout
+
+http://www.google.com
+
+	--> OK
+
+http://www.google.com/ig - iGoogle
+
+	--> Incredibly OK, scripts, styles, xhr, etc
+
+http://www.aufeminin.com
+
+	--> OK, use prototype.js
+	--> a bit slow, to investigate
+
+http://www.walmart.com
+
+	--> parser issue, does not understand : <script language="JavaScript" type="text/javascript"><!--
+	var s_account="walmartcom";//-->
+	</script>
+	--> NOK - give up - too many shit on this page
