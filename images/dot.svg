@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.2"
-     inkscape:cx="-5.1996988"
-     inkscape:cy="-1.4624589"
+     inkscape:zoom="69.130802"
+     inkscape:cx="1.3068237"
+     inkscape:cy="3.6914062"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,8 +39,8 @@
      fit-margin-bottom="0"
      inkscape:window-width="882"
      inkscape:window-height="578"
-     inkscape:window-x="859"
-     inkscape:window-y="436"
+     inkscape:window-x="686"
+     inkscape:window-y="391"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -50,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,13 +61,13 @@
      transform="translate(-0.08928572,1.9771056)">
     <path
        sodipodi:type="arc"
-       style="color:#000000;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#fc3a26;fill-opacity:0.39130434;fill-rule:nonzero;stroke:none;stroke-width:0.20000000000000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path2989"
        sodipodi:cx="2.841054"
        sodipodi:cy="3.1905131"
        sodipodi:rx="1.1995561"
        sodipodi:ry="1.1995561"
-       d="m 4.0406101,3.1905131 a 1.1995561,1.1995561 0 1 1 -2.3991122,0 1.1995561,1.1995561 0 1 1 2.3991122,0 z"
+       d="m 4.0406101,3.1905131 c 0,0.6624966 -0.5370596,1.1995561 -1.1995561,1.1995561 -0.6624966,0 -1.1995561,-0.5370595 -1.1995561,-1.1995561 0,-0.6624965 0.5370595,-1.1995561 1.1995561,-1.1995561 0.6624965,0 1.1995561,0.5370596 1.1995561,1.1995561 z"
        transform="matrix(0.8336417,0,0,0.8336417,1.7208647,-0.63685039)" />
     <rect
        style="opacity:0;color:#000000;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"

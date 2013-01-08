@@ -248,10 +248,14 @@ body {
 
 /* contribute banner */
 .banner {
-  background:url(./images/dot.png) repeat white;
+  background:url(./images/dot.png) #f0f0f0 repeat;
+  transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
 }
 .banner:hover {
-  background:url(./images/dot-hover.png) repeat white;
+  background:url(./images/dot.png) repeat;
 }
 .banner span {
   display:block;
@@ -260,8 +264,6 @@ body {
   padding:12px;
 }
 .banner span:hover {
-  background:#fff;
-  background:rgba(255,255,255,0.6);
   color:#fc3f51;
 }
 
@@ -295,47 +297,52 @@ body {
     .translation:hover:before {background-position:-80px -107px;}
 
 .searchbox {
-  height:30px;
+  height:32px;
   border:4px solid #f0f0f0;
   }
   input {
     border:none;
-    font-size:14px;
-    color:#ccc;
-    padding:4px 20px;
+    padding:4px 0px 4px 20px;
+    font-size:16px;
+    font-family:'Source Sans Pro',sans-serif;
+  }
+  .default-value {
+    color:#ccc !important;
+    font-style: italic;
+  }
+  .search-icon{
+    float:left;
+    background-position: -152px -79px;
+    margin-left:3px;
+    width: 30px;
+    height: 30px;
   }
 
-  input[type='submit']{
-    float:right;
-    color:#fff;
-    background:#efefef;
-    cursor:pointer;
+/* overriding default jquery ui css for autocomplete */
+.ui-corner-all {
+  -moz-border-radius:   0px !important;
+  -webkit-border-radius:0px !important;
+  -khtml-border-radius: 0px !important;
+  border-radius:        0px !important;
   }
-
-  input[type='submit']:hover{
-    background:#ccc;
+.ui-menu {
+  border:none !important;
   }
-
-  /* search drop-down */
-  .ui-helper-hidden-accessible {
-    display:none;
+.ui-menu-item {
+  border:1px solid #f0f0f0 !important;
+  font-family:'Source Sans Pro',sans-serif;
+  font-size:14px;
+  cursor:pointer;
   }
-  .ui-menu {
-    border:2px solid #fff;
-    width:20%;
-    background:#fff;
-    cursor:pointer;
+  .ui-menu-item a {
+    display:block !important;
+    padding:8px 18px !important;
   }
-  .ui-menu-item{
-    padding:10px;
-    font-family:'Source Sans Pro',sans-serif ;
+.ui-state-default, .ui-state-hover, .ui-state-focus {
+  border:1px solid #fff !important;
+  background:#79bc5f !important;
+  color:#fff !important;
   }
-    .ui-menu-item:hover, .ui-menu-item:focus {
-      background:#79bc5f;
-    }
-    .ui-menu-item a:hover, .ui-menu-item a:focus {
-      color:#404040;
-    }
 
 /* faq */
 .faqbox h4 {margin-bottom:46px;}
