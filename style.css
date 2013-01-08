@@ -192,6 +192,10 @@ body {
   background: #fff url(./images/dot.png) repeat-x bottom;
 }
 
+.ourguides {
+  margin-right:20px;
+}
+
 #moo {
   padding-top:20px;
 }
@@ -243,28 +247,32 @@ body {
     height:40px;
     background-position:-76px 0;
     }
-/* main content wrapper*/
-#content {min-height:80%;}
 
 /* contribute banner */
 .banner {
-  background:url(./images/dot.png) #f0f0f0 repeat;
+  position:absolute;
+  width:45px;
+  height:80px;
+  top:58px;
+  right:0;
+  background: url(./images/sprite.png) -188px 0px;
   transition: all 200ms linear;
   -moz-transition: all 200ms linear;
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
 }
+
 .banner:hover {
-  background:url(./images/dot.png) repeat;
+  width:204px;
 }
-.banner span {
-  display:block;
-  font-weight:bold;
-  text-align:center;
-  padding:12px;
-}
-.banner span:hover {
-  color:#fc3f51;
+
+.banner-link {
+  color: #79bc5f;
+  text-transform:uppercase;
+  font-weight:700;
+  font-size:14px;
+  padding:20px 0px 20px 50px;
+  display:none;
 }
 
 /* contribute page */
@@ -272,7 +280,7 @@ body {
   font-weight:400;
 }
 .contribute h4 a {
-  font-weight:700;
+  color:#79bc5f;
 }
 .contribute p, .contribute li {
   font-family:'Source Sans Pro',sans-serif;
@@ -310,7 +318,7 @@ body {
     color:#ccc !important;
     font-style: italic;
   }
-  .search-icon{
+  .logo-search{
     float:left;
     background-position: -152px -79px;
     margin-left:3px;

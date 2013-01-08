@@ -45,11 +45,7 @@
           {% endfor %}
         </ul>
       </div>
-      <div class='banner'>
-        <a href='{{site.baseurl}}/{{page.lang}}/contribute' >
-          <!-- <span>{{ site.translations.[page.lang].contribute }}</span> -->
-        </a>
-      </div>
+      <a class='banner'></a>
     </div>
     <div id='content' class='cf'>
       {{ content }}
@@ -71,4 +67,19 @@
     </small>
   </div>
   </body>
+  <script>
+  $('.banner').hover(
+      function() {
+        $(this).attr("href","{{site.baseurl}}/{{page.lang}}/contribute");
+        $(this).append($("<span class='banner-link'>{{site.translations.[page.lang].contribute}}</span>"));
+        setTimeout(function(){
+          $(".banner-link").css("display","block")
+        },300)
+      },
+      function() {
+        $(this).attr("href","");
+        $(this).find("span").remove()
+      }
+  );
+  </script>
 </html>
