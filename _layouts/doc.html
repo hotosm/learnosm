@@ -3,6 +3,9 @@ layout: default
 ---
 <div class='cell12'>
   <div class='doc-nav marginL cell2 pad1 cf'>
+    <!--
+    menu navigation on the doc pages
+    -->
     <ul class='rounded'>
 
       {% for post in site.categories.[page.category] %}
@@ -73,23 +76,25 @@ layout: default
     window.location.hash = $(e.currentTarget).attr('id');
   });
 
-  // clickable thumbnails
-  $('.doc img').attr('title','Click to enlarge')
-    .bind('click',function(){
+  // clickable thumbnail
+  
+  $('.doc img').bind('click',function(){
       var original = $(this);
-      var fullimage = $('<img class="fullimage">')
-        .attr('src',original.attr('src'))
-        .css('top',original.prop('offsetTop'))
-        .bind('click',closeImg);
-      var close = $('<span class="imageclose logo"></span>')
-        .css('top',original.prop('offsetTop'))
-        .css('left',original.prop('offsetLeft') + fullimage.prop('width') + 12)
-        .bind('click',closeImg);
-      function closeImg(){
-        fullimage.remove();
-        close.remove();
-      };
+        var fullimage = $('<img class="fullimage">')
+          .attr('src',original.attr('src'))
+          .css('top',original.prop('offsetTop'))
+          .bind('click',closeImg);
+        var close = $('<span class="imageclose logo"></span>')
+          .css('top',original.prop('offsetTop'))
+          .css('left',original.prop('offsetLeft') + fullimage.prop('width') + 12)
+          .bind('click',closeImg);
+        function closeImg(){
+          fullimage.remove();
+          close.remove();
+        };
 
-      original.parent().append(fullimage).append(close);
+      if (original.prop('naturalWidth') > 200 ) {
+        original.parent().append(fullimage).append(close);
+      }
     });
 </script>

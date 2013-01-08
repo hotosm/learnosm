@@ -2,7 +2,7 @@
 
 /*
     Desired Command: `node import.js --lang=en`
-    Read the contents of `_site` and specify the
+    Read the contents of '_posts' and specify the
     language type in the second argument.
     
     1. Loop through all od the files and write to 

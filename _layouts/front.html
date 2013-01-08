@@ -5,20 +5,20 @@ layout: default
   <div id='divider' class='marginL cell9 pad1'>
     <div class='cell4'>
       <a class='moo1' href='{{site.baseurl}}/{{page.lang}}/beginner'>
-        <span>{{site.translations.[page.lang].buttons.begspan}}</span>
-        {{site.translations.[page.lang].buttons.beg}}
+        <span>{{ page.begspan }}</span>
+        {{ page.beg }}
       </a>
     </div>
     <div class='cell4'>
       <a class='moo2' href='{{site.baseurl}}/{{page.lang}}/intermediate'>
-         <span>{{site.translations.[page.lang].buttons.interspan}}</span>
-         {{site.translations.[page.lang].buttons.inter}}
+         <span>{{ page.interspan }}</span>
+         {{ page.inter }}
        </a>
     </div>
     <div class='cell4'>
       <a class='moo3' href='{{site.baseurl}}/{{page.lang}}/advanced'>
-        <span>{{site.translations.[page.lang].buttons.advspan}}</span>
-        {{site.translations.[page.lang].buttons.adv}}
+        <span> {{ page.advspan }}</span>
+        {{ page.adv }}
       </a>
     </div>
   </div>
@@ -26,30 +26,28 @@ layout: default
 <div id='front-text' class='cell12'>
   <div class='marginL cell9 pad1'>
     <form class='searchbox rounded'>
-      <span class='logo search-icon'></span>
+      <span class='logo logo-search'></span>
       <input id='search-field' type='text' name='search' class='default-value cell10'></input>
     </form>
   </div>
   <div class='marginL marginR cell5 pad1'>
-    <h4 class='tagtitle'>{{ site.translations.[page.lang].tagtitle }}</h4>
-    <p class='tagwords'>{{ site.translations.[page.lang].tagintro }}</p>
+    <h4 class='tagtitle'>{{ page.fronttitle }}</h4>
+    <p class='tagwords'>{{ page.frontintro }}</p>
   </div>
   <div class='faqbox cell3 pad1'>
-    <h4>Common questions</h4>
+    <h4>{{page.faq}}</h4>
     <ul class='faq'>
-      <li><a href='#'>{{site.translations.[page.lang].faqs.a}}</a></li>
-      <li><a href='#'>{{site.translations.[page.lang].faqs.b}}</a></li>
-      <li><a href='#'>{{site.translations.[page.lang].faqs.c}}</a></li>
-      <li><a href='#'>{{site.translations.[page.lang].faqs.d}}</a></li>
-      <li><a href='#'>{{site.translations.[page.lang].faqs.e}}</a></li>
+      <li><a href='#'>{{page.faqA}}</a></li>
+      <li><a href='#'>{{page.faqB}}</a></li>
+      <li><a href='#'>{{page.faqC}}</a></li>
+      <li><a href='#'>{{page.faqD}}</a></li>
+      <li><a href='#'>{{page.faqE}}</a></li>
   </div>
 </div>
-{% include banner.html %}
-
 <script>
 // format the search bar
   var input = $(".searchbox input[type=text]"),
-    inputTitle = "What are you looking for?"; //needs tranlation
+    inputTitle = "{{page.searchtext}}"; //needs tranlation
     input.val(inputTitle);
 
   input.blur(function() {
@@ -67,11 +65,11 @@ layout: default
   $.getJSON("{{site.baseurl}}/{{page.lang}}.json",function(data){
     var destination;
     $( "#search-field" ).autocomplete({
-     autoFocus: true,
+     autoFocus: true, // highlight the first search result in dropdown
      delay: 0,
      source: data,
-     select: function(event, o) {
-       destination = '{{site.baseurl}}/' + o.item.url;
+     select: function(event, ui) {
+       destination = '{{site.baseurl}}/' + ui.item.url;
        window.location = destination;
      }
     });
