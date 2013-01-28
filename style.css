@@ -278,45 +278,6 @@ body {
   display:none;
 }
 
-/* contribute page */
-.contribute h4 {
-  padding-top:20px;
-}
-
-.contribute a {
-  color:#79bc5f;
-}
-
-.contribute-title {
-  color:#79bc5f;
-  margin-left:70px;
-}
-
-.contribute-title:before {
-  content: '';
-  display: inline;
-  width: 50px;
-  height:50px;
-  position:absolute;
-  margin-left:-70px;
-  margin-top:-12px;
-  background: transparent url(./images/sprite.png) -518px -23px;
-}
-.contribute-link li {
-  margin:4px 0;
-  padding:1px 0 0 0;
-  }
-
-.contribute-link li a:before {
-  content:'';
-  float:left;
-  margin-top: 8px;
-  width:16px;
-  height:20px;
-  background:url(./images/sprite.png) 2px -114px no-repeat;
-  overflow:hidden;
-}
-
 /* footer */
 .contact li {margin-bottom:20px;}
   .email:before,.twitter:before,.translation:before,
@@ -446,12 +407,22 @@ body {
 .training, .feedback {
   display:block;
   color:#404040;
-  padding:20px;
-  background:#f0f0f0 url(./images/hatch-white.png) repeat;
+  background: #fff url(./images/dot.png) repeat-x top;
 }
   .training span, .feedback span {display:block;font-weight:700;}
   .training a, .feedback a {color: #79bc5f;}
-
+    .training span:before, .training span:after, .feedback span:before {
+      content:'';
+      display:block;
+      height: 48px;
+      width: 70px;
+      float:left;
+      margin-right: 30px;
+      background: url(./images/sprite.png);
+    }
+    .training span:before {background-position: -350px -95px;}
+    .training span:after {background-position: -412px -95px; float:right;}
+    .feedback span:before {background-position:-508px -100px; width:50px;}
 /* doc content */
 .doc h2,
 .doc h3 {
@@ -489,3 +460,37 @@ body {
   .imageclose:hover {
     cursor: pointer;
     }
+
+/* contribute page */
+.contribute-intro h4, .contribute-links h4 {
+  padding:20px 0px;
+  margin-left:70px;
+}
+  .contribute-intro a {color:#79bc5f}
+  .contribute-intro h4:before,.contribute-links h4:before {
+    content: '';
+    display: inline;
+    width: 60px;
+    height: 60px;
+    position:absolute;
+    margin-left:-70px;
+    margin-top:-12px;
+    background: transparent url(./images/sprite.png)
+  }
+  .contribute-intro h4:before {background-position:  -196px -88px;}
+  .contribute-links h4:before {background-position: -265px -88px;}
+
+.contribute-links ul li {
+  margin:4px 0;
+  padding:1px 0 0 0;
+  }
+  .contribute-links ul li a:before {
+    content:'';
+    float:left;
+    margin-top: 8px;
+    width:16px;
+    height:20px;
+    background:url(./images/sprite.png) 2px -94px no-repeat;
+    overflow:hidden;
+  }
+  .contribute-links ul li a:hover:before {background-position:2px -114px}

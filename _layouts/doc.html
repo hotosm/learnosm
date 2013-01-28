@@ -12,8 +12,7 @@ layout: default
         {% if {{post.lang}} == {{page.lang}} %}
         <li class='doc rounded'>
           <a class='title {% if {{post.cover}} %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
-            <span {% if {{post.cover}} %} style="font-weight:700;" {% endif %}>{{ post.title }} </span>
-            {% if {{post.cover}} %} &#9660;{% endif %}
+            <span {% if {{post.cover}} %} style="font-weight:700;" {% endif %}>{{ post.title }}</span>
           </a>
         </li>
         {% endif %}
@@ -27,15 +26,14 @@ layout: default
     {% endif %}
       {{content}}
     {% if {{page.cover}} %}
-      <div class='training rounded'>
+      <div class='training pad0'>
         <span>Are you a workshop organizer?</span>
         Check out the <a href='#'>training material</a> for {{page.title}} Guide.
       </div>
     {% endif %}
     {% unless {{page.cover}} %}
-    <div class='feedback rounded'>
+    <div class='feedback pad0'>
       <span>Was this chapter helpful?</span>
-      Missing information or got feedback?
       <a href='mailto:learnosm@hotosm.org'>Let us know</a> or
       <a href='{{site.baseurl}}/{{page.lang}}/contribute'>help us improve the guides</a>
     </div>
