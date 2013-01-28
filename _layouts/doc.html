@@ -6,27 +6,15 @@ layout: default
     <!--
     menu navigation on the doc pages
     -->
-    <ul class='rounded'>
+    <ul>
 
       {% for post in site.categories.[page.category] %}
         {% if {{post.lang}} == {{page.lang}} %}
-        <li class='doc'>
-
-          {% if {{post.cover}} %}
-          <div class='cover'>
-          {% endif %}
-
-            <div class='title {% if page.url == post.url %}active{% endif %}'>
-              <a href="{{site.baseurl}}{{ post.url }}">
-                {% if {{post.cover}} %} Current Guide: {% endif %}
-                <span {% if {{post.cover}} %} style="font-weight:700;" {% endif %}>{{ post.title }}</span>
-              </a>
-            </div>
-
-          {% if {{post.cover}} %}
-          </div>
-          {% endif %}
-
+        <li class='doc rounded'>
+          <a class='title {% if {{post.cover}} %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
+            <span {% if {{post.cover}} %} style="font-weight:700;" {% endif %}>{{ post.title }} </span>
+            {% if {{post.cover}} %} &#9660;{% endif %}
+          </a>
         </li>
         {% endif %}
       {% endfor %}
@@ -79,7 +67,7 @@ layout: default
   // clickable thumbnail
   $('.doc img').bind('click',function(){
       var original = $(this);
-        var fullimage = $('<img class="fullimage">')
+        var fullimage = $('<img class="fullimage" style="max-width:520px;">')
           .attr('src',original.attr('src'))
           .css('top',original.prop('offsetTop'))
           .bind('click',closeImg);
@@ -91,7 +79,7 @@ layout: default
           fullimage.remove();
           close.remove();
         };
-
+      // only expand big enough images
       if (original.prop('naturalWidth') > 200 ) {
         original.parent().append(fullimage).append(close);
       }

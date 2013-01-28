@@ -1,8 +1,17 @@
 ---
 layout: default
 ---
-<div class='cell12'>
-  <div class='marginL marginR cell4 pad1 rounded doc contribute'>
-    {{content}}
+<div class='cell12 contribute'>
+  <div class='marginL marginR cell4 pad1'>
+    <h4 class='contribute-title'>{{ page.contributetitle }}</h4>
+    <p>{{ content }}</p>
+  </div>
+  <div class='cell3 pad1'>
+    <h4>{{page.startwith}}</h4>
+    <ul class = 'contribute-link'>
+      <li><a href='#'>{{page.startA}}</a></li>
+      <li><a href='#'>{{page.startB}}</a></li>
+      <li><a href='#'>{{page.startC}}</a></li>
+      <li><a href='#'>{{page.startD}}</a></li>
   </div>
 </div>
