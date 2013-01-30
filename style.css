@@ -408,16 +408,24 @@ body {
   }
 .doc .title{
   display:block;
-  padding:10px 10px 10px 26px;
+  padding:12px;
   background:#f6f6f6;
+  font-size:12px;
+  font-weight:700;
   }
   .doc .title.active {
     background:#79bc5f;
     color:#fff;
     }
-  .doc .cover,
-  .doc .cover:hover,
-  .doc .cover.active {
+    .doc .title span:before {
+      content:'▸';
+      margin-right:8px;
+    }
+  .doc .title.cover,
+  .doc .title.cover:hover,
+  .doc .title.cover.active {
+    font-size:14px;
+    font-weight:400;
     text-align:center;
     background: #fff;
     padding:8px;
@@ -426,6 +434,9 @@ body {
     border-left: 4px solid #f6f6f6;
     border-right: 4px solid #f6f6f6;
 }
+    .doc .cover span:before {
+      content:'';
+    }
 
 /* training and feedback boxes*/
 .training, .feedback {

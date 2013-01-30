@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Aerial Imagery Considerations
+title: Using Arial Imagery
 permalink: /en/beginner/aerial-imagery-considerations
 lang: en
 category: beginner
 ---
 
-Aerial Imagery Considerations
-=============================
+Using Aerial Imagery
+====================
 
 Tracing over imagery is both an easy and powerful way to contribute to
 OSM. Especially when resolution is high and skies are clear, digitizing
