@@ -3,18 +3,17 @@ layout: default
 ---
 <div class='cell12'>
   <div class='doc-nav marginL cell2 pad1 cf'>
-    <!--
-    menu navigation on the doc pages
-    -->
     <ul>
 
       {% for post in site.categories.[page.category] %}
         {% if {{post.lang}} == {{page.lang}} %}
+        {% unless {{post.hidden }}%}
         <li class='doc rounded'>
           <a class='title {% if {{post.cover}} %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
             <span {% if {{post.cover}} %} style="font-weight:700;" {% endif %}>{{ post.title }}</span>
           </a>
         </li>
+        {% endunless %}
         {% endif %}
       {% endfor %}
 

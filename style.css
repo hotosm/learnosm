@@ -78,7 +78,10 @@ h1: guide title
 h2: sections within a guide
 h3: subsections within a section
 h4: bolded text (same styling as h3, but will not be linkable)
+pre: code for translation stats
+blockquote: footnotes, anything with NOTE tag that's secondary
 */
+
 body {
   font: normal 12px/20px 'Source Sans Pro','OpenSansRegular','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
   color: #404040;
@@ -121,6 +124,8 @@ a {
 a:hover {
   color: #79bc5f;
 }
+em {font-style:italic;}
+strong {font-weight:700;}
 
 .doc ul {margin: 20px 0;}
 .doc li,.doc p {font-family:'Quattrocento',serif;}
