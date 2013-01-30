@@ -9,9 +9,6 @@ category: beginner
 Getting Started With JOSM
 =========================
 
-Introduction
-------------
-
 In this chapter we will learn step by step how to download and install
 JOSM, the Java OpenStreetMap editor. We will change some of the settings
 in JOSM to make it easier to use. Then we will open a sample map and
@@ -21,27 +18,20 @@ conclude this chapter by drawing your map again, this time digitally.
 After this you should have a good understanding of how to draw maps in
 JOSM.
 
-Videos Related to this Chapter
-------------------------------
-
-We've created a video that goes through some of the material in this
-chapter. [View it on YouTube
-here.](http://www.youtube.com/watch?v=jRqn-S9maL0)
-
 Download JOSM
 -------------
 
 -   If you have a copy of JOSM on a CD or usb flash drive, you can skip
-    to section 2, Install JOSM.
+    to [section 2]({{site.baseurl}}/en/beginner/start-josm/#install-josm) _Install JOSM_.
 -   If you don't have JOSM already, or want the newest version, open
     your web browser – this may be Firefox, Chrome, Opera, or Internet
     Explorer.
 -   In the address bar at the top of the window, enter the following
-    text and press Enter: josm.openstreetmap.de
+    text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
 -   You can also find this website by searching for "JOSM".
 -   The website should look something like this:
 
-    ![JOSM Website ]({{site.baseurl}}/images/en/josm_website.png)
+    ![JOSM website][]
 
 -   If you have Windows installed on your computer, click "Windows JOSM
     Installer" to download JOSM. If you have a different operating
@@ -55,7 +45,7 @@ Install JOSM
 -   You may have problems installing JOSM if Java is not already
     installed on your computer. If you have problems in this section,
     try downloading and installing Java. You can download it here:
-    [http://www.java.com/en/download](http://www.java.com/en/download)/
+    [http://www.java.com/en/download](http://www.java.com/en/download)
 -   Find the JOSM install file on your computer. Double-click it to
     begin setup.
 -   Click ‘OK', ‘Next', ‘I Agree', and ‘Install'. When the installation
@@ -69,7 +59,7 @@ Install JOSM
     message again, check the box at the bottom before pressing "Cancel."
 -   When JOSM starts, it will look something like this:
 
-    ![JOSM when it opens ]({{site.baseurl}}/images/en/josm_opens.png)
+    ![JOSM when it opens][]
 
 Change JOSM Settings
 --------------------
@@ -78,20 +68,23 @@ Change JOSM Settings
     settings so that is will be easier to use. To change the settings,
     click "Edit" on the top menu, and then click "Preferences."
 
-    ![JOSM Preferences ]({{site.baseurl}}/images/en/josm_preferences.png)
+    ![JOSM preferences][]
 
 ### Add Bing Imagery
 
 -   We want to be able to use satellite imagery when we are making our
     maps, so let's add that from the Preferences window. On the left
     side of the Preferences window there are different icons for
-    different settings. Click on the icon that says "WMS TMS".
-
-    You may need to click on the down arrow to find it:
+    different settings. Click on the icon that says "WMS TMS". You may
+    need to click on the down arrow to find it:
 
 -   Click on "Bing Sat". Then Click "Activate".
 
+    ![WMS TMS][]
+
 -   You should now see "Bing Sat" in the list below the Activate button.
+
+    ![Activate Bing sat][]
 
 ### Add Presets
 
@@ -102,6 +95,8 @@ Change JOSM Settings
 -   You should still have the Preferences window open. If you don't,
     click Edit -\> Preferences to open the window.
 -   On the left side, click the icon that looks like a grid.
+
+    ![Add grid][]
 
 -   Click the tab at the top that reads "Tagging Presets".
 -   In the upper right, press the + button.
@@ -120,6 +115,8 @@ Change JOSM Settings
 -   You should still have the Preferences window open. If you don't,
     click Edit -\> Preferences to open the window.
 -   On the left side, click the icon that looks like a plug.
+
+    ![Add plug-in][]
 
 -   Click the button that says "Download list". The list will download
     from the internet, and when it is finished you will see a list of
@@ -144,6 +141,8 @@ Change JOSM Settings
     "Language".
 -   Click OK.
 
+    ![Look and feel][]
+
 -   You need to restart JOSM to save your settings. Click "File" in the
     upper left corner, and Click "Exit" at the bottom of the menu.
 -   Start JOSM again by going to the Windows Start Menu in the bottom
@@ -157,17 +156,21 @@ Learn Basic Drawing with JOSM
     in that it is not a real map of a real place, so we will not save it
     on OpenStreetMap.
 -   If you were given a set of files by your instructor, you should
-    already have the file we will open, named sample.osm.
--   If you don't have the file sample.osm, right-click on [this
-    link](http://www.learnosm.org/files/sample.osm) and click "Save Link
-    As…" Choose a location on your computer to save the file.
+    already have the file we will open, named _sample.osm_.
+-   If you don't have the file _sample.osm_, you can download it from the
+    internet. Open your internet browser. In the address bar at the top of
+    the window, enter the following text: [http://www.learnosm.org/files/](http://www.learnosm.org/files/)
+    With your mouse, right click on the file called sample.osm, and click
+    “Save Link As...” Choose a location on your computer to save the file.
 -   Now let's open the sample map file in JOSM. Open JOSM. Click the
     "Open" button in the upper left.
+
+    ![Open][]
 
 -   Find the file sample.osm. Click on it, and then click "Open".
 -   You should now see a sample map, similar to this:
 
-    ![Sample OpenStreetMap File ]({{site.baseurl}}/images/en/sample_osm_file.png)
+    ![Sample OpenStreetMap file][]
 
 ### Basic Operations
 
@@ -179,6 +182,8 @@ Learn Basic Drawing with JOSM
     the scale bar in the upper left of the map window. Drag the bar left
     and right by holding your left mouse down and moving the bar left or
     right with your mouse.
+
+    ![Scale bar][]
 
 -   Look at the sample map. There a few different types of objects here.
     There is a river, a forest, some buildings, several roads, and a
@@ -244,10 +249,14 @@ Learn Basic Drawing with JOSM
 -   Until now, you have been using the Select tool, which looks like
     this:
 
+    ![Select tool][]
+
 -   Before you draw, you need to make sure that nothing is selected.
     Click in the black space on the map, where it is empty, to make sure
     nothing is selected.
 -   Click on the second button, the Draw tool.
+
+    ![Draw tool][]
 
 -   Find an empty area on the map, and double-click with your mouse.
     This will draw a single point.
@@ -265,6 +274,8 @@ Learn Basic Drawing with JOSM
     shapes are fields, buildings, or something else.
 -   Click on the Select tool, in the column of buttons on the left.
 
+    ![Select tool][]
+
 -   Select one of the objects that you drew with the Draw tool. On the
     top menu, click "Presets". Move your mouse through the sub-menu to
     the type of location you would like to define.
@@ -281,7 +292,7 @@ Learn Basic Drawing with JOSM
 
 -   Now let's draw a map in order to practice the techniques you have
     learned. You may wish to redraw the map that you drew on paper in
-    Chapter 1.
+    [Chapter 1]({{site.baseurl}}/en/beginner/start-osm).
 -   Drag the map away from the sample map. Hold the right mouse button
     and drag your mouse, until you have a nice empty area to draw on.
 -   Use the Draw tool to create points, lines, and shapes. Describe what
@@ -298,7 +309,16 @@ chapters, you will learn how to use GPS and Walking Papers to map your
 town or village. In Chapter 6, we will return to JOSM and using the
 information we collected, we will add objects to OpenStreetMap.
 
-Related Videos
---------------
-
-[Setting up JOSM](http://www.youtube.com/watch?v=jRqn-S9maL0).
+[JOSM website]: {{site.baseurl}}/images/en/josm_website.png
+[JOSM when it opens]: {{site.baseurl}}/images/en/josm_opens.png
+[JOSM preferences]: {{site.baseurl}}/images/en/josm_preferences.png
+[WMS TMS]: {{site.baseurl}}/images/en/josm_wms_tms.png
+[Activate Bing sat]: {{site.baseurl}}/images/en/josm_activate_bing_sat.png
+[Add grid]: {{site.baseurl}}/images/en/josm_grid_icon.png
+[Add plug-in]: {{site.baseurl}}/images/en/josm_plug_icon.png
+[Look and feel]: {{site.baseurl}}/images/en/josm_look_and_feel.png
+[Open]: {{site.baseurl}}/images/en/josm_open_icon.png
+[Sample OpenStreetMap file]: {{site.baseurl}}/images/en/josm_sample_osm_file.png
+[Scale bar]: {{site.baseurl}}/images/en/josm_scale_bar.png
+[Select tool]: {{site.baseurl}}/images/en/josm_tool_select.png
+[Draw tool]: {{site.baseurl}}/images/en/josm_tool_draw.png

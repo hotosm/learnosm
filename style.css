@@ -125,6 +125,7 @@ a:hover {
 .doc ul {margin: 20px 0;}
 .doc li,.doc p {font-family:'Quattrocento',serif;}
 .doc li {margin-left:30px;}
+.doc li a, .doc p a {color: #79bc5f;}
 
 small {
   font-size:12px;
@@ -138,11 +139,29 @@ img {
   padding:2px;
 }
 
+/* code */
 pre {
   background-color: #f5f5f5;
   padding: 10px;
   margin: 10px 0;
   font-family: monospace;
+}
+
+/* footnotes in the google docs */
+blockquote p{
+  border: 2px dashed #f0f0f0;
+  padding: 0 32px 20px 32px;
+  font: normal 12px/32px 'Source Sans Pro','OpenSansRegular','Helvetica Neue', sans-serif !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+blockquote p:before {
+  content:'NOTE:';
+  display:block;
+  margin:10px 0;
+  font-weight:700;
 }
 
 .rounded {
@@ -421,7 +440,7 @@ body {
     }
     .training span:before {background-position: -350px -95px; margin-right: 32px;}
     .training span:after {background-position: -412px -95px; float:right;}
-    .feedback span:before {background-position:-508px -100px; width:50px; margin-right: 32px;}
+    .feedback span:before {background-position:-508px -100px; margin-right: 32px;}
 /* doc content */
 .doc h2,
 .doc h3 {
