@@ -75,7 +75,7 @@ A Tour of JOSM
     the object will be shown in the Properties panel, and the username
     of the author of that object will be shown in the Authors panel.
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_46acf705.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_46acf705_en.png)
 
 -  On the left side of JOSM, there are several toolbars, which consist
     of many buttons. At the top of this bar are different buttons which
@@ -103,7 +103,7 @@ Download OSM Data
     left corner of JOSM. You can see the latitude and longitude
     (coordinates) of your mouse cursor.
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_m58e5f3e7.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m58e5f3e7_en.png)
 
 -  Because our map window is already showing the area that we want to
     edit, it is easy to download the OpenStreetMap data for this area.
@@ -112,13 +112,13 @@ Download OSM Data
     this window more simply by clicking on the download button, shown
     here:
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_m6f2281c2.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m6f2281c2_en.png)
 
 -  When the download window opens, you should see a map with a pink box
     drawn on it. If you don’t see the map, click on the tab marked
     “Slippy map”.
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_m1318e890.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m1318e890_en.png)
 
 -  The pink box represents the area of the map that we would like to
     download for editing. Unless you have moved the map window since you
@@ -142,7 +142,7 @@ JOSM Layers
     added to the Layers panel on the right side of JOSM. Your Layers
     panel may look something like this:
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_5c2b7c3b.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_5c2b7c3b_en.png)
 
 -  Each item in this list represents a different source of data that
     you have open in your map window. In the example above, “Data Layer
@@ -155,13 +155,13 @@ JOSM Layers
 
 -  To hide one of these layers, select one of them with your mouse and
     click the Show/Hide button that looks like
-    this:![]({{site.baseurl}}/images/en/EditingWithJOSM_html_5c2e696f.png)
+    this:![]({{site.baseurl}}/images/EditingWithJOSM_html_5c2e696f_en.png)
     
 -  You should see the layer that you selected disappear in the map
     window. Click Show/Hide again, and it will reappear.
 
 -  You can close a layer by selecting it and using the delete
-    button:![]({{site.baseurl}}/images/en/EditingWithJOSM_html_m172543d8.png)
+    button:![]({{site.baseurl}}/images/EditingWithJOSM_html_m172543d8_en.png)
 
 -  Lastly, it’s important to know that you can only edit the layer that
     is considered *active* by JOSM. If you are unable to edit the map in
@@ -172,7 +172,7 @@ JOSM Layers
     “Data Layer 1”.
 
 -  To make a layer active, select it in the Layers panel, and click on
-    the Activate button:![]({{site.baseurl}}/images/en/EditingWithJOSM_html_de83a77.png)
+    the Activate button:![]({{site.baseurl}}/images/EditingWithJOSM_html_de83a77_en.png)
 
 Edit
 ----
@@ -186,7 +186,7 @@ Edit
     should be. This can be used to correct the location of items that
     have been put in the wrong place.
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_m2eb4096c.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m2eb4096c_en.png)
 
 -  Use the **draw tool** to draw new points, lines, and shapes.
     Describe these objects by selecting from the Presets menu, as you
@@ -205,7 +205,7 @@ Edit
     school. Enter the name of the school and click “Apply Preset”. Do
     the same to add lines and shapes.
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_1cb5aeb4.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_1cb5aeb4_en.png)
 
 Tags
 ----
@@ -229,7 +229,7 @@ Tags
 -  If you select an object in JOSM, you can see all the tags that are
     attached to it in the Properties panel on the right.
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_m945ccee.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m945ccee_en.png)
 
 ### Editing Tags
 
@@ -246,7 +246,7 @@ Tags
 Presets menu to open up a form and edit the information, or (2) you can
 edit the tags directly in the Properties window on the right. 
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_94da59a.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_94da59a_en.png)
 
 ### Common Mistake: Tagging nodes when you want to tag lines or polygons
 
@@ -261,7 +261,7 @@ edit the tags directly in the Properties window on the right.
     as well. Be sure to **only** select lines when you want to add tags
     to them.
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_2746cce8.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_2746cce8_en.png)
 
 -  More information about tags and presets can be found in Intermediate
     Guide Chapter 4: XML and JOSM Presets.
@@ -278,14 +278,14 @@ Upload Changes
     will open up the upload window. You can access this window more
     simply by clicking on the upload button, shown here:
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_2e194887.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_2e194887_en.png)
 
 -  The window that appears shows a list of the objects that you are
     adding and the objects you are modifying or deleting. In the box at
     the bottom you are asked to provide a comment about the changes that
     you are making. Type in here a description of your edits.
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_67f320b3.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_67f320b3_en.png)
 
 -  Click “Upload Changes”.
 
@@ -295,7 +295,7 @@ Upload Changes
     this window, your username and password will be saved and you won’t
     need to enter them again in the future. Click “Authenticate”.
 
-    ![]({{site.baseurl}}/images/en/EditingWithJOSM_html_m5f20c80.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
 
 -  You will need to wait a few seconds for your changes to be uploaded,
     and then you are done! You have made your first edits to
@@ -330,7 +330,7 @@ Saving OSM files
 -  To save an OSM file, make sure that it is the active layer in the
     the Layers panel. Click “File” on the top menu, and click “Save”.
     Choose a location for the file and give it a name. You can also save
-    by clicking this button:![]({{site.baseurl}}/images/en/EditingWithJOSM_html_m3d7a0a33.png)
+    by clicking this button:![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png)
 
 -  You can now close JOSM and your data will be saved. When you want to
     open the file again, simply open JOSM, go to the “File” menu, and

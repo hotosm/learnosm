@@ -20,7 +20,7 @@ installed a plugin to use Walking Papers. There are many different
 plugins available in JOSM and we will cover some of the most useful ones
 in this chapter.
 
-![plug]({{site.baseurl}}/images/en/plugins_html_m76fc73bd.png)
+![plug]({{site.baseurl}}/images/plugins_html_m76fc73bd_en.png)
 
 Any time you want to install a new plugin, go to Edit --\> Preferences
 and click on the “Plugins” tab. If you don’t see a list of available
@@ -48,7 +48,7 @@ chapters:
 Restart
 -------
 
-![restart]({{site.baseurl}}/images/en/plugins_html_57cb1b84.png)
+![restart]({{site.baseurl}}/images/plugins_html_57cb1b84_en.png)
 
 __Restart__ does just what it says. It adds an item in
 the File menu that tells JOSM to restart. This can save you time when
@@ -57,14 +57,14 @@ guess what! The plugin won’t be activated until you restart, so first
 you will need to restart JOSM manually. Once you have done this, you
 will see the new item on the File menu.
 
-![]({{site.baseurl}}/images/en/plugins_html_m6d2d20a9.png)
+![]({{site.baseurl}}/images/plugins_html_m6d2d20a9_en.png)
 
 Try clicking “Restart JOSM” and watch the software reload on its own.
 
 Mirrored Download
 -----------------
 
-![]({{site.baseurl}}/images/en/plugins_html_m2c477766.png)
+![]({{site.baseurl}}/images/plugins_html_m2c477766_en.png)
 
 __Mirrored Download__ will make downloading OSM
 data for editing faster. Instead of getting the data from the central
@@ -74,7 +74,7 @@ replica of the data but in a location that is faster to access it.
 Once the plugin is installed (and you have restarted JOSM), you will see
 another new entry on the File Menu, “Download from OSM mirror...”
 
-![]({{site.baseurl}}/images/en/plugins_html_1f3d8d84.png)
+![]({{site.baseurl}}/images/plugins_html_1f3d8d84_en.png)
 
 Downloading data is exactly the same process you learned before, but it
 can be much faster!
@@ -82,18 +82,18 @@ can be much faster!
 Direct Upload
 -------------
 
-![]({{site.baseurl}}/images/en/plugins_html_m37f530e4.png)
+![]({{site.baseurl}}/images/plugins_html_m37f530e4_en.png)
 
 __DirectUpload__ uploads GPX tracks directly to OSM
 through JOSM (more information is available in the **Appendix**). Once
 the plug-in is installed (and you have restarted JOSM), you will see
 anew “Upload traces” item under the “Tools” Menu.
 
-![]({{site.baseurl}}/images/en/plugins_html_m53ca88fd.png)
+![]({{site.baseurl}}/images/plugins_html_m53ca88fd_en.png)
 
 When you click on the “Upload Traces” button this window will pop up:
 
-![]({{site.baseurl}}/images/en/plugins_html_2e01a9a7.png)
+![]({{site.baseurl}}/images/plugins_html_2e01a9a7_en.png)
 
 Put keywords (seperated by commas without spaces) that relate to your
 GPS trace in the \<\<Tags (comma delimited)\>\> box. For example,
@@ -113,7 +113,7 @@ about this plug-in and GPS uploads is available in the [Appendix]({{site.baseurl
 edit gpx
 --------
 
-![]({{site.baseurl}}/images/en/plugins_html_m1d1170b2.png)
+![]({{site.baseurl}}/images/plugins_html_m1d1170b2_en.png)
 
 **EditGpx** allows you to prepare recorded GPX tracks
 before uploading them to OSM. Often tracks have parts that you would
@@ -121,18 +121,18 @@ like to remove. Therefore, this plug-in delete points of tracks in a
 speedy manner and creates anonymity for timestamps of a track.
 
 Once the plug-in is installed (and you have restarted JOSM), you will
-see this new tool ![]({{site.baseurl}}/images/en/plugins_html_42e55708.png) in the tool bar on
+see this new tool ![]({{site.baseurl}}/images/plugins_html_42e55708_en.png) in the tool bar on
 the left.
 
-1. Open a GPX file in JOSM![]({{site.baseurl}}/images/en/plugins_html_3fabdc1a.png)
+1. Open a GPX file in JOSM![]({{site.baseurl}}/images/plugins_html_3fabdc1a_en.png)
 
-2. Press the new button ![]({{site.baseurl}}/images/en/plugins_html_42e55708.png) in the left
+2. Press the new button ![]({{site.baseurl}}/images/plugins_html_42e55708_en.png) in the left
 menu bar and the GPX data will be imported to a new EditGpx layer. Every
-node of the track will be highlighted in yellow.![]({{site.baseurl}}/images/en/plugins_html_m3f86e83d.png)
+node of the track will be highlighted in yellow.![]({{site.baseurl}}/images/plugins_html_m3f86e83d_en.png)
 
 3. Now mark the points (by clicking) or areas (by drawing a rectangle on
 their extent) that you would like to delete. The yellow highlighting
-should disappear.![]({{site.baseurl}}/images/en/plugins_html_m7e01ae1f.png)
+should disappear.![]({{site.baseurl}}/images/plugins_html_m7e01ae1f_en.png)
 
 4. Right click on the layer name and choose \<\<Convert to GPX layer\>\> in
 the \<\<Context\>\> menu.
@@ -144,7 +144,7 @@ plugin [DirectUpload](http://josm.openstreetmap.de/wiki/Plugins)).
 Print
 -----
 
-![]({{site.baseurl}}/images/en/plugins_html_m66e7a0a9.png)
+![]({{site.baseurl}}/images/plugins_html_m66e7a0a9_en.png)
 
 If you want a quick an easy way to print a map while you are editing in
 JOSM, install the __print plugin__. Although you won’t be able to
@@ -152,11 +152,11 @@ do anything stylistic with your printout, this is a good way for a quick
 and easy print. Once the plugin is installed, a new item will be
 available on the File menu called “Print...”
 
-![]({{site.baseurl}}/images/en/plugins_html_mbd3c18f.png)
+![]({{site.baseurl}}/images/plugins_html_mbd3c18f_en.png)
 
 Clicking this will open the Print Dialog, which looks like this:
 
-![]({{site.baseurl}}/images/en/plugins_html_49f16afc.png)
+![]({{site.baseurl}}/images/plugins_html_49f16afc_en.png)
 
 Here you can change your printer settings. If you don’t see anything on
 the page, check the box next to “Map Preview” on the right. Zoom in or
@@ -173,7 +173,7 @@ Preferences menu has a short description of each plugin, and you can
 open a web page with more information by clicking on the “More info...”
 link next to each.
 
-![]({{site.baseurl}}/images/en/plugins_html_17ea8a4b.png)
+![]({{site.baseurl}}/images/plugins_html_17ea8a4b_en.png)
 
 Good luck!
 
@@ -183,7 +183,7 @@ Appendix
 DirectUpload Details
 --------------------
 
-![]({{site.baseurl}}/images/en/plugins_html_m7e14a056.png)
+![]({{site.baseurl}}/images/plugins_html_m7e14a056_en.png)
 
 Adding your GPS tracks and waypoints to the OSM Server is useful for
 many reasons.
@@ -235,7 +235,7 @@ private, trackable, public or identifable.
     listings. Trackpoints will be available in timeline order through
     the public GPS API **without timestamps**.
 
-![]({{site.baseurl}}/images/en/plugins_html_2009cd0.png)
+![]({{site.baseurl}}/images/plugins_html_2009cd0_en.png)
 
 Uploading GPS Traces Online
 ---------------------------
@@ -243,7 +243,7 @@ Uploading GPS Traces Online
 1. Go
 to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
 
-2. Select \<\<GPS Traces\>\> found on the left banner.![]({{site.baseurl}}/images/en/plugins_html_32e7d3be.png)
+2. Select \<\<GPS Traces\>\> found on the left banner.![]({{site.baseurl}}/images/plugins_html_32e7d3be_en.png)
 
 3. Select
 [upload a trace](http://www.openstreetmap.org/trace/create).
@@ -253,7 +253,7 @@ Here, you can also  **See just your traces** to review previous GPS tracks.
 box, give it some Tags, and chose what type of Visibility it will have.
 If you have many .gpx files you can compress them into a zip archive and
 upload it. It will be treated as one large gpx file and only one entry
-on the trace list will be created. ![]({{site.baseurl}}/images/en/plugins_html_m63dc490.png)
+on the trace list will be created. ![]({{site.baseurl}}/images/plugins_html_m63dc490_en.png)
 
 5. Click *Upload*.
 

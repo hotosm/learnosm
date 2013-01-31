@@ -213,7 +213,7 @@ body {
 
 #header {
   border: none;
-  background: #fff url(./images/dot.png) repeat-x bottom;
+  background: #fff url(./images/sprites/dot.png) repeat-x bottom;
 }
 
 .ourguides {
@@ -249,7 +249,7 @@ body {
 
 .logo {
   display:block;
-  background:url(./images/sprite.png) no-repeat;
+  background:url(./images/sprites/sprite.png) no-repeat;
   width:16px;
   height:20px;
   margin-right:20px;
@@ -280,7 +280,7 @@ body {
   height:80px;
   top:58px;
   right:0;
-  background: url(./images/sprite.png) -188px 0px;
+  background: url(./images/sprites/sprite.png) -188px 0px;
   transition:         all 200ms ease-in;
   -moz-transition:    all 200ms ease-in;
   -webkit-transition: all 200ms ease-in;
@@ -311,7 +311,7 @@ body {
     margin:-5px 18px 0 0;
     width:16px;
     height:20px;
-    background:url(./images/sprite.png) no-repeat;
+    background:url(./images/sprites/sprite.png) no-repeat;
     overflow:hidden;
   }
     .email:before {background-position:-19px -87px;}
@@ -381,7 +381,7 @@ body {
     margin-top: 8px;
     width:16px;
     height:20px;
-    background:url(./images/sprite.png) 2px -94px no-repeat;
+    background:url(./images/sprites/sprite.png) 2px -94px no-repeat;
     overflow:hidden;
     }
   .faq li a:hover:before {background-position:2px -114px;}
@@ -442,7 +442,7 @@ body {
 .training, .feedback {
   display:block;
   color:#404040;
-  background: #fff url(./images/dot.png) repeat-x top;
+  background: #fff url(./images/sprites/dot.png) repeat-x top;
 }
   .training span, .feedback span {display:block;font-weight:700;}
   .training a, .feedback a {color: #79bc5f;}
@@ -452,7 +452,7 @@ body {
       height: 48px;
       width: 70px;
       float:left;
-      background: url(./images/sprite.png);
+      background: url(./images/sprites/sprite.png);
     }
     .training span:before {background-position: -350px -95px; margin-right: 32px;}
     .training span:after {background-position: -412px -95px; float:right;}
@@ -473,7 +473,7 @@ body {
     margin:6px 6px 0px -21px;
     width:16px;
     height:20px;
-    background:url(./images/sprite.png) -109px -92px no-repeat;
+    background:url(./images/sprites/sprite.png) -109px -92px no-repeat;
     overflow:hidden;
     }
   .doc h2:hover:before,.doc h2:target:before,
@@ -509,7 +509,7 @@ body {
     position:absolute;
     margin-left:-70px;
     margin-top:-12px;
-    background: transparent url(./images/sprite.png)
+    background: transparent url(./images/sprites/sprite.png)
   }
   .contribute-intro h4:before {background-position:  -196px -88px;}
   .contribute-links h4:before {background-position: -265px -88px;}
@@ -524,7 +524,7 @@ body {
     margin-top: 8px;
     width:16px;
     height:20px;
-    background:url(./images/sprite.png) 2px -94px no-repeat;
+    background:url(./images/sprites/sprite.png) 2px -94px no-repeat;
     overflow:hidden;
   }
   .contribute-links ul li a:hover:before {background-position:2px -114px}
@@ -544,7 +544,7 @@ body {
   width:60px;
   height:60px;
   margin:0 auto;
-  background:url(./images/sprite.png) -185px -156px no-repeat;
+  background:url(./images/sprites/sprite.png) -185px -156px no-repeat;
 }
 .notfound h1 {
   font-weight:700;

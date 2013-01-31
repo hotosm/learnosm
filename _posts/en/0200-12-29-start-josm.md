@@ -309,16 +309,16 @@ chapters, you will learn how to use GPS and Walking Papers to map your
 town or village. In Chapter 6, we will return to JOSM and using the
 information we collected, we will add objects to OpenStreetMap.
 
-[JOSM website]: {{site.baseurl}}/images/en/josm_website.png
-[JOSM when it opens]: {{site.baseurl}}/images/en/josm_opens.png
-[JOSM preferences]: {{site.baseurl}}/images/en/josm_preferences.png
-[WMS TMS]: {{site.baseurl}}/images/en/josm_wms_tms.png
-[Activate Bing sat]: {{site.baseurl}}/images/en/josm_activate_bing_sat.png
-[Add grid]: {{site.baseurl}}/images/en/josm_grid_icon.png
-[Add plug-in]: {{site.baseurl}}/images/en/josm_plug_icon.png
-[Look and feel]: {{site.baseurl}}/images/en/josm_look_and_feel.png
-[Open]: {{site.baseurl}}/images/en/josm_open_icon.png
-[Sample OpenStreetMap file]: {{site.baseurl}}/images/en/josm_sample_osm_file.png
-[Scale bar]: {{site.baseurl}}/images/en/josm_scale_bar.png
-[Select tool]: {{site.baseurl}}/images/en/josm_tool_select.png
-[Draw tool]: {{site.baseurl}}/images/en/josm_tool_draw.png
+[JOSM website]: {{site.baseurl}}/images/josm_website_en.png
+[JOSM when it opens]: {{site.baseurl}}/images/josm_opens_en.png
+[JOSM preferences]: {{site.baseurl}}/images/josm_preferences_en.png
+[WMS TMS]: {{site.baseurl}}/images/josm_wms_tms_en.png
+[Activate Bing sat]: {{site.baseurl}}/images/josm_activate_bing_sat_en.png
+[Add grid]: {{site.baseurl}}/images/josm_grid_icon_en.png
+[Add plug-in]: {{site.baseurl}}/images/josm_plug_icon_en.png
+[Look and feel]: {{site.baseurl}}/images/josm_look_and_feel_en.png
+[Open]: {{site.baseurl}}/images/josm_open_icon_en.png
+[Sample OpenStreetMap file]: {{site.baseurl}}/images/josm_sample_osm_file_en.png
+[Scale bar]: {{site.baseurl}}/images/josm_scale_bar_en.png
+[Select tool]: {{site.baseurl}}/images/josm_tool_select_en.png
+[Draw tool]: {{site.baseurl}}/images/josm_tool_draw_en.png

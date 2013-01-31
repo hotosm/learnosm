@@ -181,12 +181,12 @@ Whether it be through poor resolution or poorly georeferenced imagery,
 there are ways you can deal with inaccurate imagery. They mainly involve
 referencing imagery with GPS traces and tracks.
 
-[puzzle]: {{site.baseurl}}/images/en/offset_puzzle.png
-[existing data]: {{site.baseurl}}/images/en/offset_existing_data.png
-[download]: {{site.baseurl}}/images/en/offset_tool_download.png
-[downloaded GPX]: {{site.baseurl}}/images/en/offset_downloaded_gpx.png
-[adjust button]: {{site.baseurl}}/images/en/offset_tool_adjust.png
-[adjust window]: {{site.baseurl}}/images/en/offset_adjust_window.png
-[adding to existing data]: {{site.baseurl}}/images/en/offset_add_to_data.png
-[no data]: {{site.baseurl}}/images/en/offset_no_data.png
-[change opacity]: {{site.baseurl}}/images/en/offset_change_opacity.png
+[puzzle]: {{site.baseurl}}/images/offset_puzzle_en.png
+[existing data]: {{site.baseurl}}/images/offset_existing_data_en.png
+[download]: {{site.baseurl}}/images/offset_tool_download_en.png
+[downloaded GPX]: {{site.baseurl}}/images/offset_downloaded_gpx_en.png
+[adjust button]: {{site.baseurl}}/images/offset_tool_adjust_en.png
+[adjust window]: {{site.baseurl}}/images/offset_adjust_window_en.png
+[adding to existing data]: {{site.baseurl}}/images/offset_add_to_data_en.png
+[no data]: {{site.baseurl}}/images/offset_no_data_en.png
+[change opacity]: {{site.baseurl}}/images/offset_change_opacity_en.png
