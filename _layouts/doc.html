@@ -43,22 +43,26 @@ layout: default
 <script>
   // loop through the node list to get the innerHTML from each node
   // copy that as the id for the node
-  var makeLinkable = function(list){
+
+  var addId = function(list){
     for (i = 0; i < list.length; i++) {
-      el = list[i];
-      txtCopy = el.innerHTML.toLowerCase().replace(/ /g, '-').replace(/([^0-9a-z-])/g,''); //substitute space with dash
-      el.id = txtCopy;
+      element = list[i];
+      sectionCopy = element.innerHTML.toLowerCase().replace(/ /g, '-').replace(/([^0-9a-z-])/g,''); //substitute space with dash
+      element.id = sectionCopy;
     }
   };
 
+  var allH1 = document.getElementsByTagName('h1');
   var allH2 = document.getElementsByTagName('h2');
   var allH3 = document.getElementsByTagName('h3');
-  makeLinkable(allH2);
-  makeLinkable(allH3);
+  addId(allH1);
+  addId(allH2);
+  addId(allH3);
 
   // make the titles linkable
   $('h2[id], h3[id]','.doc').attr('title', 'Link to this section').click(function(e) {
-    window.location.hash = $(e.currentTarget).attr('id');
+    chapterName = $('h1[id]','.doc')[0].id;
+    window.location.hash = chapterName + "-" + $(e.currentTarget).attr('id');
   });
 
   // clickable thumbnail
