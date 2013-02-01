@@ -23,13 +23,13 @@ layout: default
     {% endif %}
       {{content}}
     {% if {{page.cover}} %}
-      <div class='training pad0'>
+      <div class='training pad1'>
         <span>Are you a workshop organizer?</span>
         Check out the <a href='#'>training material</a> for {{page.title}} Guide.
       </div>
     {% endif %}
     {% unless {{page.cover}} %}
-    <div class='feedback pad0'>
+    <div class='feedback pad1'>
       <span>Was this chapter helpful?</span>
       <a href='mailto:learnosm@hotosm.org'>Let us know</a> or
       <a href='{{site.baseurl}}/{{page.lang}}/contribute'>help us improve the guides</a>

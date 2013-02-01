@@ -20,15 +20,21 @@
   <body>
   <div id='wrapper'>
     <div class="fillG cell12">
-      <small class='language-switcher marginL cell10 cf'>
+      <small class='language-switcher marginL cell6 cf'>
         <a lang='en'>English</a> |
         <a lang='jp'>Japanese</a> |
         <a lang='it'>Italian</a> |
         <a lang='id'>Indonesian</a> |
         <a lang='es'>Spanish</a>
       </small>
+      {% unless page.fronttitle or page.contributetitle%}
+      <form class='searchbox-default rounded'>
+        <span class='logo logo-search'></span>
+        <input id='search-field' type='text' name='search' class='default-value'></input>
+      </form>
+      {% endunless%}
     </div>
-    <div id='header' class='{% unless page.fronttitle %} withborder {% endunless %} cell12'>
+    <div id='header' class='{% unless page.fronttitle or page.cover %} withborder {% endunless %} cell12'>
       <div id='limiter' class='marginL cell9 pad1'>
         <div class='cell4'>
            <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
@@ -55,12 +61,12 @@
       {{ content }}
     </div>
     <small id='footer' class='fillG cell12'>
-      <ul class='contact marginL marginR cell5 pad0'>
+      <ul class='contact marginL marginR cell5 pad1'>
         <li><a class='email' href="mailto:learnosm@hotosm.org">learnosm@hotosm.org</a></li>
         <li><a class='twitter' href="https://twitter.com/learnosm">@learnOSM</a></li>
         <li><a class='translation' href='{{site.baseurl}}/en/status'>Translation Status</a></li>
       </ul>
-      <div class='cell3 pad0'>
+      <div class='cell3 pad1'>
         <span>
           Official HOT OSM learning materials |
           <a href='github.com/hotosm/learnosm'> Hosted on Github</a>
@@ -71,4 +77,19 @@
     </small>
   </div>
   </body>
+  <script>
+  $.getJSON("{{site.baseurl}}/{{page.lang}}.json",function(data){
+    console.log(data);
+    var destination;
+    $( "#search-field" ).autocomplete({
+     autoFocus: true, // highlight the first search result in dropdown
+     delay: 0,
+     source: data,
+     select: function(event, ui) {
+       destination = '{{site.baseurl}}' + ui.item.url;
+       window.location = destination;
+     }
+    });
+  });
+  </script>
 </html>

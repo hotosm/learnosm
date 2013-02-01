@@ -18,7 +18,6 @@
 
 .marginL { margin-left: 08.3333%; }
 .marginR { margin-right:08.3333%; }
-.pad0 {padding:40px;}
 .pad1 {padding:20px;}
 
 /* clearfix */
@@ -214,7 +213,6 @@ body {
   text-transform:uppercase;
   font-weight:700;
   font-size:12px;
-
 }
   #header.withborder {
     padding-bottom:20px;
@@ -241,7 +239,6 @@ body {
   }
 
 #front-links a{
-/*  margin:0 60px 0 -30px;*/
   display:block;
   padding:20px;
   border-radius:5px;
@@ -330,6 +327,14 @@ body {
     color:#ccc !important;
     font-style: italic;
   }
+.searchbox-default {
+  padding-right:08.3333%;
+  float:right;
+}
+.searchbox-default input {
+  border:none;
+  margin-top:7px;
+}
 /* overriding default jquery ui css for autocomplete */
 .ui-corner-all {
   -moz-border-radius:   0px !important;
@@ -348,7 +353,7 @@ body {
   }
   .ui-menu-item a {
     display:block !important;
-    padding:8px 18px !important;
+    padding:4px 14px !important;
   }
 .ui-state-default, .ui-state-hover, .ui-state-focus {
   border:1px solid #fff !important;
@@ -434,6 +439,7 @@ body {
 
 /* training and feedback boxes*/
 .training, .feedback {
+  padding-top:40px;
   display:block;
   color:#404040;
   background: #fff url(./images/sprites/dot.png) repeat-x top;

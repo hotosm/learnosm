@@ -45,7 +45,7 @@ layout: default
   </div>
 </div>
 <script>
-// format the search bar
+// format the search bar on the front
   var input = $(".searchbox input[type=text]"),
     inputTitle = "{{page.searchtext}}"; //needs tranlation
     input.val(inputTitle);
@@ -60,19 +60,5 @@ layout: default
         input.val("");
         input.removeClass("default-value");
     }
-  });
-
-  $.getJSON("{{site.baseurl}}/{{page.lang}}.json",function(data){
-    console.log(data);
-    var destination;
-    $( "#search-field" ).autocomplete({
-     autoFocus: true, // highlight the first search result in dropdown
-     delay: 0,
-     source: data,
-     select: function(event, ui) {
-       destination = '{{site.baseurl}}' + ui.item.url;
-       window.location = destination;
-     }
-    });
   });
 </script>
