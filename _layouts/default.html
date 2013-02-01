@@ -28,24 +28,28 @@
         <a lang='es'>Spanish</a>
       </small>
     </div>
-    <div id='header' class='cell12'>
-      <div class='marginL marginR cell5 pad0 cf'>
-        <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
-        <span class='tagline'>{{site.translations.[page.lang].tagline}}</span>
+    <div id='header' class='{% unless page.fronttitle %} withborder {% endunless %} cell12'>
+      <div id='limiter' class='marginL cell9 pad1'>
+        <div class='cell4'>
+           <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
+           <span class='tagline'>{{site.translations.[page.lang].tagline}}</span>
+        </div>
+        <div class='cell4'>
+          <ul class='ourguides cell3'>
+            {% for post in site.posts %}
+              {% if {{post.lang}} == {{page.lang}} and {{post.cover}} %}
+              <li>
+                <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
+              </li>
+              {% endif %}
+            {% endfor %}
+              </li>
+          </ul>
+        </div>
+        <div class='cell4'>
+          <a class='banner cell3' href='{{site.baseurl}}/{{page.lang}}/contribute'>{{site.translations.[page.lang].contribute}}</a>
+        </div>
       </div>
-      <div class='cell3 pad0 cf'>
-        <h4 class='ourguides cell3'>{{site.translations.[page.lang].ourguides}}</h4>
-        <ul class='all-guides cell2'>
-          {% for post in site.posts %}
-            {% if {{post.lang}} == {{page.lang}} and {{post.cover}} %}
-            <li class='guide'>
-              <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
-            </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-      <a class='banner'></a>
     </div>
     <div id='content' class='cf'>
       {{ content }}
@@ -67,20 +71,4 @@
     </small>
   </div>
   </body>
-  <script>
-  // the contribute banner will pop up with its respective language
-  $('.banner').hover(
-      function() {
-        $(this).attr("href","{{site.baseurl}}/{{page.lang}}/contribute");
-        $(this).append($("<span class='banner-link'>{{site.translations.[page.lang].contribute}}</span>"));
-        setTimeout(function(){
-          $(".banner-link").css("display","block")
-        },300)
-      },
-      function() {
-        $(this).attr("href","");
-        $(this).find("span").remove()
-      }
-  );
-  </script>
 </html>

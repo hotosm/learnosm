@@ -1,18 +1,13 @@
+---
+---
 [
-  {
-    "label":"Adding Your First Points",
-    "url":"en/beginner/walking-papers/#adding-your-first-points"
-  },
-  {
-    "label":"Add Bing Imagery",
-    "url":"en/beginner/start-josm/#add-bing-imagery"
-  },
-  {
-    "label":"Add presets",
-    "url":"en/beginner/start-josm/#add-presets"
-  },
-  {
-    "label":"Add Walking Papers Plugin",
-    "url":"en/beginner/start-josm/#add-walking-papers-plugin"
-  }
+  {% for post in site.posts %}
+  {% if {{post.lang}} == 'en' %}
+  {% unless post.nosearch %}
+      {% include post.json %},
+  {% endunless %}
+  {% endif %}
+  {% endfor %}
+  {"label":"",
+   "url":""}
 ]

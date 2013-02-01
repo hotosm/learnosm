@@ -1,22 +1,22 @@
 ---
 layout: default
 ---
-<div id='moo' class='cell12'>
-  <div id='divider' class='marginL cell9 pad1'>
-    <div class='cell4'>
-      <a class='moo1' href='{{site.baseurl}}/{{page.lang}}/beginner'>
+<div id='front-links' class='cell12'>
+  <div id='limiter' class='marginL cell9 pad1'>
+    <div class='link1 cell4'>
+      <a href='{{site.baseurl}}/{{page.lang}}/beginner'>
         <span>{{ page.begspan }}</span>
         {{ page.beg }}
       </a>
     </div>
-    <div class='cell4'>
-      <a class='moo2' href='{{site.baseurl}}/{{page.lang}}/intermediate'>
+    <div class='link2 cell4'>
+      <a href='{{site.baseurl}}/{{page.lang}}/intermediate'>
         <span>{{ page.interspan }}</span>
         {{ page.inter }}
       </a>
     </div>
-    <div class='cell4'>
-      <a class='moo3' href='{{site.baseurl}}/{{page.lang}}/advanced'>
+    <div class='link3 cell4'>
+      <a href='{{site.baseurl}}/{{page.lang}}/advanced'>
         <span> {{ page.advspan }}</span>
         {{ page.adv }}
       </a>
@@ -63,13 +63,14 @@ layout: default
   });
 
   $.getJSON("{{site.baseurl}}/{{page.lang}}.json",function(data){
+    console.log(data);
     var destination;
     $( "#search-field" ).autocomplete({
      autoFocus: true, // highlight the first search result in dropdown
      delay: 0,
      source: data,
      select: function(event, ui) {
-       destination = '{{site.baseurl}}/' + ui.item.url;
+       destination = '{{site.baseurl}}' + ui.item.url;
        window.location = destination;
      }
     });

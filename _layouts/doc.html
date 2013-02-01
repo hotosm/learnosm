@@ -3,23 +3,21 @@ layout: default
 ---
 <div class='cell12'>
   <div class='doc-nav marginL cell2 pad1 cf'>
-    <ul>
+        <ul>
 
       {% for post in site.categories.[page.category] %}
         {% if {{post.lang}} == {{page.lang}} %}
-        {% unless {{post.hidden }}%}
         <li class='doc rounded'>
           <a class='title {% if {{post.cover}} %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
             <span>{{ post.title }}</span>
           </a>
         </li>
-        {% endunless %}
         {% endif %}
       {% endfor %}
 
     </ul>
   </div>
-  <div class='doc cell6 pad1 cf'>
+  <div class='doc-main doc cell6 pad1'>
     {% if {{page.cover}} %}
       <h1>Overview</h1>
     {% endif %}
@@ -85,4 +83,21 @@ layout: default
         original.parent().append(fullimage).append(close);
       }
     });
+
+  // make doc-nav sticky
+  // TODO make the fixed element not conflict with footer
+  {% unless {{page.cover}} %} // excluding cover pages
+  var nav = $('.doc-nav'),
+      navTop = nav.offset().top;
+
+  $(window).scroll(function(e){
+    var windowTop = $(this).scrollTop();
+    if (windowTop >= navTop) {
+      nav.addClass('fixed');
+    } else {
+      nav.removeClass('fixed');
+    }
+  });
+  {% endunless %}
+
 </script>
