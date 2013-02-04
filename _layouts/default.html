@@ -27,6 +27,7 @@
         <a lang='id'>Indonesian</a> |
         <a lang='es'>Spanish</a>
       </small>
+      <!-- small search bar does not appear on the front page -->
       {% unless page.fronttitle or page.contributetitle%}
       <form class='searchbox-default rounded'>
         <span class='logo logo-search'></span>
@@ -34,39 +35,38 @@
       </form>
       {% endunless%}
     </div>
-    <div id='header' class='{% unless page.fronttitle or page.cover %} withborder {% endunless %} cell12'>
-      <div id='limiter' class='marginL cell9 pad1'>
-        <div class='cell4'>
+    <div id='header' class='cell12'>
+      <div class='marginL cell9 padAll'>
+        <div class='cell7 marginR'>
            <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
            <span class='tagline'>{{site.translations.[page.lang].tagline}}</span>
         </div>
-        <div class='cell4'>
-          <ul class='ourguides cell3'>
+        <div class='ourguides cell4'>
+          <span class = 'cell3 marginR'>{{page.ourguides}}</span>
+          <ul class='cell3'>
             {% for post in site.posts %}
               {% if {{post.lang}} == {{page.lang}} and {{post.cover}} %}
               <li>
                 <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
               </li>
               {% endif %}
-            {% endfor %}
+              {% endfor %}
               </li>
           </ul>
         </div>
-        <div class='cell4'>
-          <a class='banner cell3' href='{{site.baseurl}}/{{page.lang}}/contribute'>{{site.translations.[page.lang].contribute}}</a>
-        </div>
+        <a class='banner'></a>
       </div>
     </div>
     <div id='content' class='cf'>
       {{ content }}
     </div>
     <small id='footer' class='fillG cell12'>
-      <ul class='contact marginL marginR cell5 pad1'>
+      <ul class='contact marginL marginR cell5 padAll'>
         <li><a class='email' href="mailto:learnosm@hotosm.org">learnosm@hotosm.org</a></li>
         <li><a class='twitter' href="https://twitter.com/learnosm">@learnOSM</a></li>
         <li><a class='translation' href='{{site.baseurl}}/en/status'>Translation Status</a></li>
       </ul>
-      <div class='cell3 pad1'>
+      <div class='cell3 padAll'>
         <span>
           Official HOT OSM learning materials |
           <a href='github.com/hotosm/learnosm'> Hosted on Github</a>
@@ -78,8 +78,15 @@
   </div>
   </body>
   <script>
+  $('.banner').hover(
+    function() {
+      $(this).addClass('active').attr('href','{{site.baseurl}}/{{page.lang}}/contribute').append('<span>{{site.translations.[page.lang].contribute}}</span>')
+    },
+    function() {
+      $(this).removeClass('active').attr('href','').empty();
+    }
+    );
   $.getJSON("{{site.baseurl}}/{{page.lang}}.json",function(data){
-    console.log(data);
     var destination;
     $( "#search-field" ).autocomplete({
      autoFocus: true, // highlight the first search result in dropdown

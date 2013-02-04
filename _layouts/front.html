@@ -1,40 +1,39 @@
 ---
 layout: default
 ---
-<div id='front-links' class='cell12'>
-  <div id='limiter' class='marginL cell9 pad1'>
-    <div class='link1 cell4'>
-      <a href='{{site.baseurl}}/{{page.lang}}/beginner'>
-        <span>{{ page.begspan }}</span>
-        {{ page.beg }}
-      </a>
-    </div>
-    <div class='link2 cell4'>
-      <a href='{{site.baseurl}}/{{page.lang}}/intermediate'>
-        <span>{{ page.interspan }}</span>
-        {{ page.inter }}
-      </a>
-    </div>
-    <div class='link3 cell4'>
-      <a href='{{site.baseurl}}/{{page.lang}}/advanced'>
-        <span> {{ page.advspan }}</span>
-        {{ page.adv }}
-      </a>
-    </div>
+<div id='ads' class='marginL cell9 padAll'>
+  <div class='ad1 cell8'>
+    <a href='{{site.baseurl}}/{{page.lang}}/beginner'>
+      <span>{{ page.begspan }}</span>
+      {{ page.beg }}
+    </a>
+  </div>
+  <div class='ad2 cell4'>
+    <a href='{{site.baseurl}}/{{page.lang}}/intermediate'>
+      <!-- needs translation -->
+      <span>Looking for more guides?</span>
+      More guides available
+    </a>
+  </div>
+  <div class='ad3 cell4'>
+    <a href='{{site.baseurl}}/{{page.lang}}/advanced'>
+      <span>Organizing a workshop?</span>
+      Check out the trainers materials
+    </a>
   </div>
 </div>
-<div id='front-text' class='cell12'>
-  <div class='marginL cell9 pad1'>
-    <form class='searchbox rounded'>
-      <span class='logo logo-search'></span>
-      <input id='search-field' type='text' name='search' class='default-value cell10'></input>
-    </form>
-  </div>
-  <div class='marginL marginR cell5 pad1'>
+<div class='marginL cell9 padAll'>
+  <form class='searchbox rounded'>
+    <span class='logo logo-search'></span>
+    <input id='search-field' type='text' name='search' class='default-value cell10'></input>
+  </form>
+</div>
+<div class='marginL cell9 padAll'>
+  <div class='front-text cell7 marginR'>
     <h4 class='tagtitle'>{{ page.fronttitle }}</h4>
     <p class='tagwords'>{{ page.frontintro }}</p>
   </div>
-  <div class='faqbox cell3 pad1'>
+  <div class='faqbox cell4'>
     <h4>{{page.faq}}</h4>
     <ul class='faq'>
       <li><a href='#'>{{page.faqA}}</a></li>
