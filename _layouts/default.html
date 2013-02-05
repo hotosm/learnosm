@@ -42,16 +42,19 @@
            <span class='tagline'>{{site.translations.[page.lang].tagline}}</span>
         </div>
         <div class='ourguides cell4'>
-          <span class = 'cell3 marginR'>{{page.ourguides}}</span>
+        {% for post in site.posts %}
+        {% if {{post.lang}} == {{page.lang}} %}
+          <span class = 'cell3 marginR'>{{post.ourguides}}</span>
+        {% endif %}
+        {% endfor %}
           <ul class='cell3'>
             {% for post in site.posts %}
-              {% if {{post.lang}} == {{page.lang}} and {{post.cover}} %}
+            {% if {{post.lang}} == {{page.lang}} and {{post.cover}} %}
               <li>
                 <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
               </li>
-              {% endif %}
-              {% endfor %}
-              </li>
+            {% endif %}
+            {% endfor %}
           </ul>
         </div>
         <a class='banner'></a>
