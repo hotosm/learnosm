@@ -1,0 +1,167 @@
+---
+layout: doc
+title: Editing with Potlatch 2
+permalink: /en/beginner/editing-with-potlatch 2
+lang: en
+category: beginner
+---
+
+Editing with Potlatch 2
+=======================
+
+**Introduction**
+Potlatch 2 is the OpenStreetMap editor you get when you click on 
+the 'Edit' tab of the osm website, it was rewritten from the original Potlatch, 
+and it includes a What You See Is What You Get(WYSIWYG) rendering.
+
+You can use it to add new roads, buildings, and other features to the map, as well as changing existing ones.
+Online means that you do not have to download or install anything: you can make live edits,
+as long as you have a good internet connection, and a web browser with flash player installed on your computer.
+
+**How to run Potlatch**
+-----------------------
+
+1. Open your browser (Flash/Gnash/SWF-enabled), and go to OpenStreetMap.
+2. Login .
+3. Search, locate and zoom into the area you want to edit.
+4. Click the "Edit" tab, or hover the mouse over the edit tab and select potlatch 2, then potlatch
+   will be launched within the browser
+
+Note: 
+- Incase the browser is not flash enabled, potlatch 2 will not be launched, but there will be
+  a link on the page from where you can download and install adobe flash player.
+- When you click edit without logging into your OpenStreetMap account, you will
+  be asked to login in order to edit the map.
+
+### The Interface
+When you open potlatch for the first time, there will be an interface (see image below)
+with tools to help you edit the map, in most cases, a help window will be displayed with quick tips
+and buttons/tabs which you can navigate to show how to use potlatch.
+- image Opening potlatch for the first time
+![](path/to/image)
+
+Click “Ok” when you are done with going through the tips, to start editing.
+
+The potlatch editing interface is organized the same way as the osm main page, it has the left panel, menu bar,
+the aerial/satellite view, the toolbox, zoom in/out buttons with the search icon, which all have different
+functionalities;
+
+- image controls for potlatch editing
+![](path/to/image)
+
+1. **The Menu Bar**
+It has controls like the save, undo and redo buttons (inactive until there are changes made to the map)
+used to save, reverse and resume someone's edits.
+
+When saving edits for the first time, a text box pops up, where you can write a description of your changes
+which are recorded in a “change set”.
+
+The background tab, has a drop down that enables selection of different layers and satellite providers
+over which to edit in potlatch such as (Bing aerial imagery, mapBox Satellite OSM-mapnik, e.t.c).
+The background is not editable.
+
+The map style changes the visual appearance of the potlatch editing nodes and lines between wire-frame,
+enhanced, OpenCycleMap and Potlatch, but the functionality remains the same and
+you can customize styles to have a keyboard shortcut for each.
+
+The gps data tab enables loading of GPS traces uploaded in a gpx file to the OpenStreetMap database by users 
+to view gps data in an area, view their very own uploaded gps traces and clear the display of gps data.
+
+The options tab provides you with other settings for potlatch, such as displaying and removing the tool box,
+showing the mouse latitude/longitude as you map, and the contextual help bar at the bottom of the editing window.
+
+2. **The Satellite / Aerial View (Bing Imagery)**
+This shows features from the overhead pictures taken from a plane or satellite, zoom in one level at a time
+(depending on your internet connection) for a clear view of features.In some areas the satellite imagery will
+disappear beyond certain zoom levels.
+
+Levels between 17 – 19 will be clear enough for the bing imagery to act as a background which shows 
+visible features that can be edited directly if you know what they represent, such as buildings, land use, and roads.
+
+Features traced with the bing imagery need to be tagged and named in order to be represented on the map. 
+Areas that do not have the satellite imagery available will show a white blank background. The Bing maps imagery
+is provided by Microsoft.
+
+3. **Zoom (in/out) and Search icon**
+Use these controls when you want to zoom in and out of an area that you would like to edit
+(plus (+) for zooming in, and (-) for zooming out), depending on the speed of the Internet connection,
+zoom one level at a time, then wait for the data in that area to load, before you start editing.
+
+The search icon enables you to find a different place of interest, that can be edited without leaving the
+potlatch editing interface, a dialogue where you can search for an area to edit is presented,
+where you can type and receive results from which to select where to edit.
+
+4. **Editing panel**
+This panel has editing tools that can be used by simply dragging and dropping icons to their
+corresponding features, the result is a node with a name/icon of what is represented.
+The simple editing mode presents a user with graphical icons that show images that relate to different features.
+
+The panel icons (images) show how the named features will be rendered in the osm standard mode (view),
+they are grouped according to categorizes like: shopping, food and drink, amenity, transport, water, and so on.
+
+*Other ways of Editing*
+- image for advanced tagging
+![](path/to/image001)
+
+5. **The Tool Box**
+The tool box assists you to make accurate features by straightening, joining nodes, merging, deleting, and 
+making nodes square, parallel, round and reversing the direction for different ways.
+
+###Potlatch Editing Tips
+Before you begin editing, the first rule is the use of proprietary data: data from
+copyrighted maps or any other proprietary data is strictly prohibited!. Tracing, or any act of
+reproduction of copyrighted work is not allowed!
+
+**Points of interest**
+Linear features such as streets, footpaths, railways, and building outlines may be referred to as ways.
+You can edit points for shops, health centers, schools, and the like by simply double-clicking at the right location.
+- Select to highlight the point.
+- Drag the point around with the mouse
+- Press Delete (or Backspace) to remove the point.
+- Press Esc to revert all your changes.
+
+*To insert a new node on a way*
+- Click on the way to highlight it, then Shift-click at the desired place where to draw the new node.
+*To insert a new single node*
+- Double click at the desired place.
+- To delete, click on the node to highlight it, and Press Delete or Backspace.
+
+**Drawing a new way**
+A way is a line that you draw on the map: it might be a road, a railway, a river, a fence, a boundary or a
+power line. Each way is a series of joined 'points' (or nodes).
+Draw the ways using your own knowledge of what features exist, using track logs of
+journeys you have made with a GPS receiver; or by tracing from the satellite photo background. (Bing! Aerial Imagery).
+*Steps*
+- Click on the map to start a new way.
+- Click at each successive point. If you make a mistake, press Delete (or Backspace).
+- To finish, double-click, press Enter, Esc, or click the start point again to make a loop.
+*If you make a mistake*
+- Press Delete or Backspace (while drawing) to remove just the last point.
+- Press Esc to cancel the whole way and to stop drawing.
+
+**To extend a way**
+- Click on the first or last point to highlight it. (or press shift + click).
+  A small black dot may appear next to your cursor.
+- Move the cursor in the direction you want to extend the way.
+  A black line will extend from the last node to your cursor. Click to create a new node.
+  Keep drawing points to continue extending the way.
+- To finish, double-click on the last node or press Enter. If you are making a loop, click the start
+  point again just once.
+*To delete an entire way or segment of a way:*
+- Click on the way to highlight it, and press Delete or Backspace.
+
+**Undoing mistakes**
+If you make a mistake while editing, you can change it before it is saved to the server, or cancel it
+entirely with the Esc key, but if you have saved it and realize you've made a mistake, you can click the
+undo tab on the menu bar, or press 'Z' or 'Ctl + Z', to undo the mistake.
+
+**Realigning the Background Layer**
+- With background images, sometimes you'll notice they are not aligned with the OSM data.
+  If this is the case, hold down Space on your keyboard and drag the background image to its correct location.
+
+**GPS data/My tracks**
+- Selecting the GPS tab on the menu bar will display gps traces, and on the drop down arrow
+  gps data will display thin blue lines representing all gps tracks in the area.
+- Selecting My tracks will enable display of a dialogue with your own tracks that you loaded into OSM
+  via the GPS traces; upload a trace function.
+- Selecting clear will switch gps traces off in the editor, or go to Background -> Vector file... and unselect GPS.
