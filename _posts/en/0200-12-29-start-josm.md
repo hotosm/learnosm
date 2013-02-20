@@ -100,7 +100,7 @@ click “Edit” on the top menu, and then click “Preferences.”
   ![]({{site.baseurl}}/images/start_josm_image09_en.png)
 
 - Click the tab at the top that reads “Tagging Presets”.
-- In the upper right, press the + button.
+- In the upper right, press the + button.
 - Next to the second box on the right, click the button that looks
     like a folder. Navigate to the presets file you want to add, for
     example, buildings.xml.

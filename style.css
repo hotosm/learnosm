@@ -140,7 +140,7 @@ small {
 
 img {
   display: block;
-/*  max-width: 100px;*/
+  max-width:520px;
   border:1px solid #ddd;
   padding:2px;
 }
