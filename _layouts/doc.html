@@ -23,16 +23,14 @@ layout: default
     {{content}}
   {% if {{page.cover}} %}
     <div class='training padAll'>
-      <!-- translation needed through post-->
-      <span>Are you a workshop organizer?</span>
-      Check out the <a href='#'>training material</a> for {{page.title}} Guide.
+      <span>{{site.translations.[page.lang].trainingspan}}</span>
+      <a href='{{site.baseurl}}/{{page.lang}}/training'>{{site.translations.[page.lang].training}}</a>
     </div>
   {% endif %}
   {% unless {{page.cover}} %}
   <div class='feedback padAll'>
-    <span>Was this chapter helpful?</span>
-    <a href='mailto:learnosm@hotosm.org'>Let us know</a> or
-    <a href='{{site.baseurl}}/{{page.lang}}/contribute'>help us improve the guides</a>
+    <span>{{site.translations.[page.lang].feedbackspan}}</span>
+    <a href='{{site.baseurl}}/{{page.lang}}/contribute'>{{site.translations.[page.lang].feedback}}</a>
   </div>
   {% endunless %}
 </div>
@@ -62,29 +60,7 @@ layout: default
     window.location.hash = chapterName + "-" + $(e.currentTarget).attr('id');
   });
 
-  // clickable thumbnail
-  // $('.doc img').bind('click',function(){
-  //     var original = $(this);
-  //       var fullimage = $('<img class="fullimage" style="max-width:520px;">')
-  //         .attr('src',original.attr('src'))
-  //         .css('top',original.prop('offsetTop'))
-  //         .bind('click',closeImg);
-  //       var close = $('<span class="imageclose logo"></span>')
-  //         .css('top',original.prop('offsetTop'))
-  //         .css('left',original.prop('offsetLeft') + fullimage.prop('width') + 12)
-  //         .bind('click',closeImg);
-  //       function closeImg(){
-  //         fullimage.remove();
-  //         close.remove();
-  //       };
-  //     // only expand big enough images
-  //     if (original.prop('naturalWidth') > 200 ) {
-  //       original.parent().append(fullimage).append(close);
-  //     }
-  //   });
-
-  // make doc-nav sticky
-  // TODO make the fixed element not conflict with footer
+  // make title nav sticky
   {% unless {{page.cover}} %} // excluding cover pages
   var nav = $('.doc-nav'),
       navTop = nav.offset().top;
