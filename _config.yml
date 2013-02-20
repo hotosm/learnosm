@@ -12,13 +12,13 @@ rdiscount:
 translations:
   en:
     tagline: "Learn OpenStreetMap Step-by-Step"
-    ourguides: "Our Guides"
     contribute: "Help us improve our guides!"
-  es:
-    tagline: "Aprende OpenStreetMap Paso a Paso"
-    ourguides: "Nuestros Guías"
-    contribute: "Nos ayudan a mejorar nuestros guías"
   bi:
     tagline:"Pelajari OpenStreetMap Langkah-Langkah"
-    ourguides: "Pemandu Kami"
     contribute: "Bantu kami meningkatkan pemandu kami!"
+  jp:
+    tagline:"OpenStreetMapはステップバイステップを学ぶ"
+    contribute: "私たちは私たちのガイドを拡充する!"
+  es:
+    tagline: "Aprende OpenStreetMap Paso a Paso"
+    contribute: "Nos ayudan a mejorar nuestros guías"
