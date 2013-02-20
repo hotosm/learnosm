@@ -2,7 +2,7 @@
 layout: contribute
 permalink: /jp/contribute
 lang: jp
-title: Contribute
+title: 貢献する
 contributetitle: "私たちはガイドの改善に役立つ!"
 startwith: "始める準備ができて?"
 startA: "ご意見·ご感想を送る"
