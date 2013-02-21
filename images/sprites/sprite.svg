@@ -52,20 +52,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.03"
-     inkscape:cx="337.00204"
-     inkscape:cy="-290.41592"
+     inkscape:zoom="0.71771338"
+     inkscape:cx="578.38234"
+     inkscape:cy="219.18755"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1916"
      inkscape:window-height="1036"
-     inkscape:window-x="702"
-     inkscape:window-y="0"
+     inkscape:window-x="38"
+     inkscape:window-y="28"
      inkscape:window-maximized="0"
      inkscape:snap-global="false"
      showguides="true"
@@ -415,9 +415,9 @@
          style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
     <rect
-       style="color:#000000;fill:#ffffff;fill-opacity:0.94117647;fill-rule:nonzero;stroke:none;stroke-width:1.50000000000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4903"
-       width="32.823986"
+       width="165.18878"
        height="247.16438"
        x="252.12808"
        y="-32.429043" />
@@ -838,7 +838,7 @@
          style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:1.89884758;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <rect
-       style="color:#000000;fill:#ffffff;fill-opacity:0.94117647;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4963);enable-background:accumulate"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.50000000000000000;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4963);enable-background:accumulate"
        id="rect4903-27"
        width="32.823986"
        height="247.16438"
@@ -847,13 +847,13 @@
        transform="matrix(3.6706891,0,0,0.15614809,-659.99461,166.52766)" />
     <path
        style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 285.02159,175.81811 93.08866,-0.36946 -0.0397,40.05323 -62.90851,0.0299 z"
+       d="m 285.02159,188.9358 93.08866,-0.599 -0.0397,27.17469 -62.90851,0.0203 z"
        id="rect4903-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="color:#000000;fill:#91d683;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 284.93085,94.849922 93.86395,-0.06158 -0.69666,103.905864 -93.18661,-22.8578 z"
+       style="color:#000000;fill:#7ac183;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 284.93085,-20.140394 95.25726,-0.419588 0,235.943202 -94.92825,-26.45252 z"
        id="rect4905"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />

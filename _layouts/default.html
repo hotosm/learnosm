@@ -42,7 +42,7 @@
            <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
            <span class='tagline'>{{site.translations.[page.lang].tagline}}</span>
         </div>
-        <div class='ourguides cell4'>
+        <div class='ourguides cell4 hide-mobile'>
         {% for post in site.posts %}
         {% if {{post.lang}} == {{page.lang}} %}
           <span class = 'cell3 marginR'>{{post.ourguides}}</span>
