@@ -228,7 +228,7 @@ body {
     -o-transition: all 200ms linear;
   }
   #header .banner span {
-    display:block;
+    display:none;
     color: #79bc5f;
     text-transform:uppercase;
     font-size:12px;
@@ -237,6 +237,9 @@ body {
   }
   #header .banner.active {
     width:188px;
+  }
+  #header .banner span.active {
+    display:block;
   }
 #header .ourguides span{
   font-weight:700;

@@ -57,7 +57,9 @@
             {% endfor %}
           </ul>
         </div>
-        <a class='banner'></a>
+        <a class='banner'>
+          <span>{{site.translations.[page.lang].contribute}}</span>
+        </a>
       </div>
     </div>
     <div id='content' class='cf'>
@@ -81,12 +83,17 @@
   </div>
   </body>
   <script>
+  
   $('.banner').hover(
     function() {
-      $(this).addClass('active').attr('href','{{site.baseurl}}/{{page.lang}}/contribute').append('<span>{{site.translations.[page.lang].contribute}}</span>')
+      $(this).addClass('active').attr('href','{{site.baseurl}}/{{page.lang}}/contribute');
+      setTimeout(function(){
+        $('.banner span').addClass('active')
+        },300)
     },
     function() {
-      $(this).removeClass('active').attr('href','').empty();
+      $(this).removeClass('active').attr('href','');
+      $('.banner span').removeClass('active')
     }
     );
   $.getJSON("{{site.baseurl}}/{{page.lang}}.json",function(data){

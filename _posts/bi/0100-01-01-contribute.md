@@ -1,6 +1,6 @@
 ---
 layout: contribute
-permalink: /bi/menyumbang
+permalink: /bi/contribute
 lang: bi
 title: Menyumbang
 contributetitle: "Bantu kami meningkatkan panduan!"
