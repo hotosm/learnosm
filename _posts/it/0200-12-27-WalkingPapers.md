@@ -1,3 +1,11 @@
+---
+layout: doc
+title: Usare i Walking Papers
+permalink: /it/beginner/walking-papers
+lang: it
+category: beginner
+---
+
 Usare i Walking Papers
 ======================
 

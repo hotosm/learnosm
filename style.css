@@ -51,12 +51,12 @@
   .padAll,.padTB,.padLR { padding: 0px;}
   .hide-mobile { display: none;}
   .show-mobile { display: block;text-align:center;}
+  h4 {margin:10px 0 !important;}
   #header {background: none !important;}
     #header > * {margin:0 -20px 0 20px !important;}
   #ads a {margin:0 !important;border-radius:0 !important;}
   #ads .ad1, #ads .ad2, #ads .ad3 {height:auto !important;}
   #content {padding-bottom:240px !important;}
-  h4 {margin:10px 0 !important;}
   .searchbox-default {padding-left:10px !important;float:left !important;}
   .searchbox {border-radius:0px !important; border:8px solid #f0f0f0 !important;}
   .searchbox input {width:200px !important;}

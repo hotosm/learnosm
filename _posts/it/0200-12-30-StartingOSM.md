@@ -1,3 +1,11 @@
+---
+layout: doc
+title: Iniziare con OSM
+permalink: /it/beginner/start-osm
+lang: it
+category: beginner
+---
+
 Iniziare con OSM
 ================
 

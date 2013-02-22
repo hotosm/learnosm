@@ -1,3 +1,11 @@
+---
+layout: doc
+title: Editing di OpenStreetMap con JOSM
+permalink: /it/beginner/editing-with-josm
+lang: it
+category: beginner
+---
+
 Editing di OpenStreetMap con JOSM
 =================================
 

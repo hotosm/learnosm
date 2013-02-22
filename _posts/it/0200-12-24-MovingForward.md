@@ -1,3 +1,11 @@
+---
+layout: doc
+title: Andando avanti
+permalink: /it/beginner/moving-forward
+lang: it
+category: beginner
+---
+
 Andando avanti
 ==============
 
