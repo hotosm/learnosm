@@ -1,8 +1,8 @@
 ---
 layout: doc
-permalink: /pt/beginner
+permalink: /pt/iniciante
 lang: pt
-title: Novato
+title: Iniciante
 category: beginner
 cover: yes
 nosearch: true

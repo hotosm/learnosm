@@ -1,8 +1,8 @@
 ---
 layout: contribute
-permalink: /pt/contribute
+permalink: /pt/contribua
 lang: pt
-title: Contribuir
+title: Contribua
 contributetitle: "Ajude-nos a melhorar os guias!"
 startwith: "Pronto para começar?"
 startA: "Envie-nos um feedback"
