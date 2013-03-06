@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Moving Forward
+title: Further Reading
 permalink: /en/beginner/moving-forward
 lang: en
 category: beginner
 ---
 
-Moving Forward
-==============
+Further Reading
+===============
 
 If you have made it this far, congratulations! You should have a good
 understanding now of how to make maps with OpenStreetMap. What else can

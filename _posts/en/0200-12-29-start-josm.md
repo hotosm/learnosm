@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Getting Started With JOSM
+title: Getting Started Editing
 permalink: /en/beginner/start-josm
 lang: en
 category: beginner
 ---
 
-Getting Started with JOSM
-=========================
+Getting Started Editing: JOSM
+=============================
 
 In this chapter we will learn step by step how to download and install
 JOSM, the Java OpenStreetMap editor. We will change some of the settings

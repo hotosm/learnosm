@@ -17,10 +17,7 @@ layout: default
   </ul>
 </div>
 <div class='doc-main doc cell6 padAll'>
-  {% if {{page.cover}} %}
-    <h1>Overview</h1>
-  {% endif %}
-    {{content}}
+  {{content}}
   {% if {{page.cover}} %}
     <div class='training padAll'>
       <span>{{site.translations.[page.lang].trainingspan}}</span>
