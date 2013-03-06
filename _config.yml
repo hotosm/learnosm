@@ -11,7 +11,7 @@ rdiscount:
   extensions: [smart]
 translations:
   en:
-    tagline: "Learn OpenStreetMap Step-by-Step"
+    tagline: "Learn OpenStreetMap Step by Step"
     contribute: "Help us improve our guides!"
     trainingspan: "Are you a workshop organizer?"
     training: "Check out training material for this guide (in English)"
