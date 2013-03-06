@@ -42,22 +42,6 @@
            <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
            <span class='tagline'>{{site.translations.[page.lang].tagline}}</span>
         </div>
-        <div class='ourguides cell4 hide-mobile'>
-        {% for post in site.posts %}
-        {% if {{post.lang}} == {{page.lang}} %}
-          <span class = 'cell3 marginR'>{{post.ourguides}}</span>
-        {% endif %}
-        {% endfor %}
-          <ul class='cell3'>
-            {% for post in site.posts %}
-            {% if {{post.lang}} == {{page.lang}} and {{post.cover}} %}
-              <li>
-                <div class='title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></div>
-              </li>
-            {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
         <a class='banner'>
           <span>{{site.translations.[page.lang].contribute}}</span>
         </a>
