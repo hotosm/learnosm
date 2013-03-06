@@ -10,16 +10,16 @@ Avançando
 =========
 
 Se chegou até aqui, parabéns! Você já deve ter um bom entendimento
-de como fazer mapas com o OpenStreetMap. Mas, o que mais é possível fazer com o
+de como fazer mapas com o OpenStreetMap. O que mais é possível fazer com o
 OSM? Como descobrir mais? Como se conectar à comunidade de mapeadores?
 
 
 Ferramentas OpenStreetMap
 -------------------------
 
-Neste guia aprendemos as bases do OSM e as ferramentas necessárias para
-contribuir para o mapa. Como os dados do OSM são abertos, surgiram
-muitos projetos e ferramentas que permitem fazer explorar mais 
+Neste guia aprenderemos as bases do OSM e as ferramentas necessárias para
+contribuir para o mapa. Como os dados do OSM são abertos, existem
+muitos projetos e ferramentas que permitem fazer explorar  
 o mapa do OpenStreetMap.
 
 ![]({{site.baseurl}}/images/pt_beg_ch8_image01.png)
@@ -27,7 +27,7 @@ o mapa do OpenStreetMap.
 MapOSMatic
 ----------
 
-Um desses projectos é chamado “MapOSMatic”, que você pode acessar a partir 
+Um desses projetos é chamado “MapOSMatic”, que você pode acessar a partir 
 do seu navegador em [maposmatic.org](http://maposmatic.org/). É 
 uma ferramenta simples para imprimir um mapa de qualquer área de sua
 escolha. O mapa será criado automaticamente, com uma grade sobreposta 
@@ -47,9 +47,9 @@ Lista de E-mail (Mailing List)
 
 A melhor forma de participar da comunidade de utilizadores OpenStreetMap é
 inscrever-se na lista de e-mail local. Muitas pessoas se inscrevem
-nas lista de e-mail do OSM, utilizando suas contas de correio
-eletrônico. Estando na lista, é possível enviar um email para o grupo de
-de mapeadores locais sobre alguma questão ou sobre o OpenStreetMap em geral.
+nas lista de e-mail do OSM, utilizando suas contas de e-mail. Estando na
+lista, é possível enviar um email para o grupo de mapeadores locais sobre 
+alguma questão ou sobre o OpenStreetMap em geral.
 
 -  Para se inscrever na lista de e-mail do seu país, abra o seu
     navegador Internet e vá a:
