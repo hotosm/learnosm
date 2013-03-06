@@ -3,7 +3,7 @@ layout: contribute
 permalink: /en/contribute
 lang: en
 title: Contribute
-contributetitle: "Help us improve the guides!"
+contributetitle: "Help improve our guides"
 startwith: "Ready to get started?"
 startA: "Send us feedback"
 startB: "Create a translation"
