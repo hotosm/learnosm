@@ -358,8 +358,8 @@ body {
 
 /* footer */
 .contact li {margin-bottom:20px;}
-  .email:before,.twitter:before,.translation:before,
-  .email:hover:before,.twitter:hover:before,.translation:hover:before {
+  .email:before,.twitter:before,.github:before,
+  .email:hover:before,.twitter:hover:before,.github:hover:before {
     content:'';
     float:left;
     margin:-5px 18px 0 0;
@@ -372,8 +372,8 @@ body {
     .email:hover:before {background-position:-19px -107px;}
     .twitter:before {background-position:-50px -87px;}
     .twitter:hover:before {background-position:-50px -107px;}
-    .translation:before {background-position:-80px -87px;}
-    .translation:hover:before {background-position:-80px -107px;}
+    .github:before {background-position:-80px -87px;}
+    .github:hover:before {background-position:-80px -107px;}
 
 .searchbox {
   height:32px;
