@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class='doc-nav marginL cell2 padAll padTablet cf'>
+<div class='doc-nav marginL cell3 padAll cf'>
       <ul>
 
     {% for post in site.categories.[page.category] %}
@@ -16,7 +16,7 @@ layout: default
 
   </ul>
 </div>
-<div class='doc-main doc cell6 padAll padTablet'>
+<div class='doc-main doc cell5 padAll'>
   {{content}}
   {% if {{page.cover}} %}
     <div class='training padAll'>
@@ -35,7 +35,6 @@ layout: default
 <script>
   // loop through the node list to get the innerHTML from each node
   // copy that as the id for the node
-
   var addId = function(list){
     for (i = 0; i < list.length; i++) {
       element = list[i];
@@ -54,6 +53,9 @@ layout: default
     window.location.hash = $(e.currentTarget).attr('id');
   });
 
+  //select the image containers so the images can be centered, styles in css
+  $('img').parent().addClass('has-image');
+
   // make title nav sticky
   {% unless {{page.cover}} %} // excluding cover pages
   var nav = $('.doc-nav'),
@@ -69,7 +71,10 @@ layout: default
   });
   {% endunless %}
 
-  //select the image containers so the images can be centered
-  $('img').parent().addClass('has-image');
-
+  //give the user a hint to proceed to introduction
+  {% if {{page.cover}} %}
+  $(window).scroll(function(){
+    $('.doc-nav ul li:nth-child(2)').append('<span class="starthere rounded fadeIn hide-mobile">{{site.translations.[page.lang].starthere}}</span>')
+  });
+  {% endif %}
 </script>

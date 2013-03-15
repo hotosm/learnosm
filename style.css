@@ -15,48 +15,14 @@
 .cell11 { float:left; width:91.6666%; }
 .cell12 { float:left; width:100.0000%; }
 .right {float:right;}
+.left {float:left;}
 
 .marginL { margin-left: 08.3333%; }
 .marginR { margin-right:08.3333%; }
 .padAll {padding:20px;}
 .padTB {padding:20px 0;}
 .padLR {padding:0 20px;}
-
-/* Mobile and tablet Layout
-------------------------------------------------------- */
-
-@media only screen and (max-width: 770px) {
-  .cell1,
-  .cell2,
-  .cell3,
-  .cell4,
-  .cell5,
-  .cell6,
-  .cell7,
-  .cell8,
-  .cell9,
-  .cell10,
-  .cell11,
-  .cell12 { width:100%; max-width:100%; }
-  .marginL { margin-left:0%; }
-  .marginR { margin-right: 0%;}
-  .padAll,.padTB,.padLR { padding: 0px;}
-  .padMobile {padding:20px}
-  .hide-mobile { display: none;}
-  .show-mobile { display: block;}
-  h4 {margin:10px 0 !important;}
-  #header {background: none !important;}
-    #header > * {margin:0 -20px 0 20px !important;}
-  #ads a {margin:0 !important;border-radius:0 !important;}
-  #ads .ad1, #ads .ad2, #ads .ad3 {height:auto !important;}
-  #content {padding-bottom:240px !important;}
-  .searchbox-default {padding-left:10px !important;float:left !important;}
-  .searchbox {border-radius:0px !important; border:8px solid #f0f0f0 !important;}
-  .searchbox input {width:200px !important;}
-  .doc-nav {position:relative !important;}
-  .doc-main {margin-left:0% !important;}
-  img {max-width:300px !important;}
-  }
+.hide-desktop {display:none;}
 
 /* clearfix */
 .cf:before,
@@ -67,6 +33,34 @@
 
 .cf:after {
   clear:both;
+  }
+
+/*animation*/
+.fadeIn {
+    animation:         fadein 1s ease-out 0.4s both;
+    -moz-animation:    fadein 1s ease-out 0.4s both;
+    -webkit-animation: fadein 1s ease-out 0.4s both;
+    -o-animation:      fadein 1s ease-out 0.4s both;
+}
+@keyframes fadein         {
+  0% { background-position: 50% bottom; opacity: 0;}
+  20% { opacity: 1;}
+  100% {background-position: 50% top;}
+  }
+@-moz-keyframes fadein    {
+  0% { background-position: 50% bottom; opacity: 0;}
+  20% { opacity: 1;}
+  100% {background-position: 50% top;}
+  }
+@-webkit-keyframes fadein {
+  0% { background-position: 50% bottom; opacity: 0;}
+  20% { opacity: 1;}
+  100% {background-position: 50% top;}
+  }
+@-o-keyframes fadein      {
+  0% { background-position: 50% bottom; opacity: 0;}
+  20% { opacity: 1;}
+  100% {background-position: 50% top;}
   }
 
 /* custom list style */
@@ -90,7 +84,7 @@
       font-size:12px;
       text-align:center;
     }
-    .doc ul > li:before {content:'–'}
+    .doc ul > li:before {content:'◆'}
     .doc ol > li:before {
       content:counter(li);
       counter-increment:li;
@@ -125,6 +119,7 @@ body {
   padding: 0;
   font-size: 15px;
   line-height: 1.68em;
+  overflow-x:hidden;
   }
 h2,h3,h4,h5,h6 {
   font-weight: 700;
@@ -134,7 +129,7 @@ h2,h3,h4,h5,h6 {
 h1 {
   color: #79bc5f;
   font-size: 22px;
-  margin:20px 0 34px;
+  margin:10px 0 28px;
   }
 h2 {
   text-transform:uppercase;
@@ -165,7 +160,7 @@ em {font-style:italic;}
 strong {font-weight:700;}
 
 .doc ul {margin: 20px 0;}
-.doc  ul li,.doc ol li, .doc p {font-family:'Quattrocento',serif;}
+.doc  ul li,.doc ol li, .doc p { font-family:'Quattrocento',serif; }
 .doc li {margin-left:30px;}
 .doc li a, .doc p a {color: #79bc5f;}
 
@@ -176,7 +171,7 @@ small {
 
 img {
   display: block;
-  max-width:520px;
+  max-width:480px;
   border:1px solid #ddd;
   background: #fff;
   padding:14px;
@@ -268,35 +263,35 @@ body {
     }
 #header {
   padding:20px 0px;
-  background: #fff url(./images/sprites/dot.png) repeat-x bottom;
+  background: #fff url(./img/dot.png) repeat-x bottom;
   }
-#header .banner {
+.banner, .banner-mobile {
     position:absolute;
     right:0;
-    background: transparent url(./images/sprites/sprite.png)  -324px -16px;
-    margin-top:10px;
+    background: transparent url(./img/sprite.png)  -324px 0px;
     width: 60px;
-    height: 60px;
+    height: 76px;
     transition: all 200ms linear;
     -moz-transition: all 200ms linear;
     -webkit-transition: all 200ms linear;
     -o-transition: all 200ms linear;
   }
-  #header .banner span {
+  .banner span {
     display:none;
     color: #79bc5f;
     text-transform:uppercase;
     font-size:12px;
     font-weight:700;
-    padding:6px 0 0 80px;
+    padding:2px 18px 0 60px;
   }
-  #header .banner.active {
+  .banner span.en,.banner span.jp {padding-top:14px;}
+  .banner.active {
     width:188px;
   }
-  #header .banner span.active {
+  .banner span.active {
     display:block;
   }
-#header .ourguides span{
+.ourguides span{
   font-weight:700;
 }
 
@@ -330,41 +325,34 @@ body {
       width:100px;
       margin-top:-60px;
       margin-right:-20px;
-      background:transparent url(./images/sprites/sprite.png);
+      background:transparent url(./img/sprite.png);
       background-position:-280px -160px;
-      transition: all 3000ms linear;
-      -moz-transition: all 3000ms linear;
-      -webkit-transition: all 3000ms linear;
-      -o-transition: all 3000ms linear;
+      transition: all 100ms linear;
+      -moz-transition: all 100ms linear;
+      -webkit-transition: all 100ms linear;
+      -o-transition: all 100ms linear;
     }
     #ads .ad1 a:hover:after {
-      background-position:-270px -192px;
+      background-position:-270px -193px;
     }
-.logo {
-  display:block;
-  background:url(./images/sprites/sprite.png) no-repeat;
+.icon {
+  background:url(./img/sprite.png) no-repeat;
   width:16px;
   height:20px;
   margin-right:20px;
   }
+.logo {
+  display:block;
+  margin-right:20px;
+  width:60px;
+  height:60px;
+  background:url(./img/sprite.png) no-repeat;
+}
   .logo-learn {
     width:170px;
     height:42px;
     margin-bottom:8px;
-    background-position:0px -44px;
-    }
-  .logo-hot {
-    position:absolute;
-    margin:10px 0;
-    width:62px;
-    height:38px;
-    background-position:0 0;
-    }
-  .logo-ausaid {
-    margin: 14px 80px;
-    width:90px;
-    height:40px;
-    background-position:-76px 0;
+    background-position:0px -115px;
     }
 
 /* footer */
@@ -376,15 +364,21 @@ body {
     margin:-5px 18px 0 0;
     width:16px;
     height:20px;
-    background:url(./images/sprites/sprite.png) no-repeat;
+    background:url(./img/sprite.png) no-repeat;
     overflow:hidden;
   }
-    .email:before {background-position:-19px -87px;}
-    .email:hover:before {background-position:-19px -107px;}
-    .twitter:before {background-position:-50px -87px;}
-    .twitter:hover:before {background-position:-50px -107px;}
-    .github:before {background-position:-80px -87px;}
-    .github:hover:before {background-position:-80px -107px;}
+    .email:before {background-position:-19px -158px;}
+    .email:hover:before {background-position:-19px -178px;}
+    .twitter:before {background-position:-50px -158px;}
+    .twitter:hover:before {background-position:-50px -178px;}
+    .github:before {background-position:-80px -158px;}
+    .github:hover:before {background-position:-80px -178px;}
+.sponsors span {display:block;}
+  .sponsors span a {color:#fc3f51;}
+.sponsors a {margin-top:30px;}
+  .sponsors a.logo-hot {background-position:0 0;}
+  .sponsors a.logo-ausaid {width:70px;background-position:-76px 8px;}
+  .sponsors a.logo-bnpb {background-position:-142px 0;margin-top:30px;}
 
 .searchbox {
   height:32px;
@@ -401,7 +395,7 @@ body {
     margin-left:3px;
     width: 30px;
     height: 30px;
-    background-position:-152px -79px;
+    background-position:-152px -150px;
   }
   input.default-value {
     color:#ccc !important;
@@ -442,9 +436,11 @@ body {
   }
 
 /* faq */
-.faqbox h4 {margin-bottom:46px;}
+.faqbox h4 {
+  margin-bottom:52px;
+  }
 .faq li {
-  margin:4px 0;
+  margin:7px 0;
   padding:1px 0 0 0;
   }
   .faq li a:before {
@@ -453,10 +449,10 @@ body {
     margin-top: 8px;
     width:16px;
     height:20px;
-    background:url(./images/sprites/sprite.png) 2px -94px no-repeat;
+    background:url(./img/sprite.png) 2px -165px no-repeat;
     overflow:hidden;
     }
-  .faq li a:hover:before {background-position:2px -114px;}
+  .faq li a:hover:before {background-position:2px -185px;}
 
 /* doc nav */
 .doc-nav {
@@ -491,7 +487,7 @@ body {
   border-bottom-left-radius:          5px;
 }
 .doc-main {
-  margin-left:33.3333%;
+  margin-left:41.6666%;
   min-height:540px;
 }
 .doc .title{
@@ -524,13 +520,34 @@ body {
     .doc .cover span:before {
       content:'';
     }
+.starthere {
+  position:absolute;
+  padding: 10px 20px;
+  text-transform:uppercase;
+  top: 64px;
+  right: -60px;
+  color:#fff;
+  background: #79bc5f;
+}
+  .starthere:before {
+    content:'';
+    position:absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 6px 0;
+    margin-top: 6px;
+    margin-left:-26px;
+    border-color: transparent #79bc5f transparent transparent;
+  }
 
 /* training and feedback boxes*/
 .training, .feedback {
   padding-top:40px;
   display:block;
   color:#404040;
-  background: #fff url(./images/sprites/dot.png) repeat-x top;
+  background: #fff url(./img/dot.png) repeat-x top;
 }
   .training span, .feedback span {display:block;font-weight:700;}
   .training a, .feedback a {color: #79bc5f;}
@@ -540,7 +557,7 @@ body {
       height: 65px;
       width: 70px;
       float:left;
-      background: url(./images/sprites/sprite.png);
+      background: url(./img/sprite.png);
     }
     .training span:before {background-position: -350px -95px; margin-right: 32px;}
     .training span:after {background-position: -412px -95px; float:right;}
@@ -562,12 +579,12 @@ body {
     margin:6px 6px 0px -21px;
     width:16px;
     height:20px;
-    background:url(./images/sprites/sprite.png) -109px -92px no-repeat;
+    background:url(./img/sprite.png) -109px -163px no-repeat;
     overflow:hidden;
     }
   .doc h2:hover:before,.doc h2:target:before,
   .doc h3:hover:before,.doc h3:target:before {
-    background-position: -109px -112px;
+    background-position: -109px -183px;
     }
 
 /* contribute page */
@@ -584,13 +601,13 @@ body {
     position:absolute;
     margin-left:-70px;
     margin-top:-12px;
-    background: transparent url(./images/sprites/sprite.png)
+    background: transparent url(./img/sprite.png)
   }
   .contribute-intro h4:before {background-position:  -196px -88px;}
   .contribute-links h4:before {background-position: -265px -88px;}
 
 .contribute-links ul li {
-  margin:4px 0;
+  margin:8px 0;
   padding:1px 0 0 0;
   }
   .contribute-links ul li a:before {
@@ -599,10 +616,10 @@ body {
     margin-top: 8px;
     width:16px;
     height:20px;
-    background:url(./images/sprites/sprite.png) 2px -94px no-repeat;
+    background:url(./img/sprite.png) 2px -165px no-repeat;
     overflow:hidden;
   }
-  .contribute-links ul li a:hover:before {background-position:2px -114px}
+  .contribute-links ul li a:hover:before {background-position:2px -185px}
 
 /*404 page*/
 .notfound {
@@ -619,7 +636,7 @@ body {
   width:60px;
   height:60px;
   margin:0 auto;
-  background:url(./images/sprites/sprite.png) -185px -156px no-repeat;
+  background:url(./img/sprite.png) -185px -156px no-repeat;
 }
 .notfound h1 {
   font-weight:700;
@@ -627,3 +644,45 @@ body {
 .notfound a {
   color:#79bc5f;
 }
+
+/* Mobile and tablet Layout
+------------------------------------------------------- */
+
+@media only screen and (max-width: 770px) {
+  .cell1,
+  .cell2,
+  .cell3,
+  .cell4,
+  .cell5,
+  .cell6,
+  .cell7,
+  .cell8,
+  .cell9,
+  .cell10,
+  .cell11,
+  .cell12 { width:100%; max-width:100%; }
+  .marginL { margin-left:0%; }
+  .marginR { margin-right: 0%;}
+  .padAll,.padTB,.padLR { padding: 0px;}
+  .hide-desktop {display:block;}
+  .hide-mobile { display: none;}
+  .show-mobile { display: block;}
+  h4 {margin:10px 0;}
+  #header {background: none;}
+    #header > * {margin:0 -20px 0 20px;}
+  #ads a {margin:0 !important;border-radius:0;}
+  #ads .ad1, #ads .ad2, #ads .ad3 {height:auto;}
+  #footer {position:relative;}
+  .searchbox-default {padding-left:10px;float:left;}
+  .searchbox {border-radius:0px; border:8px solid #f0f0f0;}
+  .searchbox input {width:200px;}
+  .doc-nav {position:relative;}
+  .doc-main {margin-left:0%;}
+  img {max-width:300px;}
+  }
+
+/* bug fixes for FF */
+  @-moz-document url-prefix() {
+    #ads .ad1 a:after {margin-top:-35px;}
+    .doc-nav {top:204px;}
+  }
