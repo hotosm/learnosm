@@ -394,7 +394,7 @@ body {
     float:left;
     margin-left:3px;
     width: 30px;
-    height: 30px;
+    height: 28px;
     background-position:-152px -150px;
   }
   input.default-value {
@@ -407,7 +407,7 @@ body {
 }
 .searchbox-default input {
   border:none;
-  margin-top:7px;
+  margin-top:6px;
 }
 /* overriding default jquery ui css for autocomplete */
 .ui-corner-all {
@@ -520,37 +520,27 @@ body {
     .doc .cover span:before {
       content:'';
     }
-.starthere {
-  position:absolute;
-  padding: 10px 20px;
-  text-transform:uppercase;
-  top: 64px;
-  right: -60px;
-  color:#fff;
-  background: #79bc5f;
-}
-  .starthere:before {
-    content:'';
-    position:absolute;
-    display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 6px 6px 0;
-    margin-top: 6px;
-    margin-left:-26px;
-    border-color: transparent #79bc5f transparent transparent;
-  }
 
 /* training and feedback boxes*/
 .training, .feedback {
   padding-top:40px;
   display:block;
-  color:#404040;
+}
+.feedback {
   background: #fff url(./img/dot.png) repeat-x top;
 }
-  .training span, .feedback span {display:block;font-weight:700;}
-  .training a, .feedback a {color: #79bc5f;}
+  .training span a {
+    margin-top:20px;
+    font-size:12px;
+    text-transform:uppercase;
+    font-weight:700;
+    padding:20px 30px;
+    background:#79bc5f;
+    color:#fff !important;
+    }
+    .training span a:hover {color:#fff !important;}
+  .feedback span {display:block;font-weight:700;}
+  .feedback a {color: #79bc5f;}
     .training span:before, .training span:after, .feedback span:before {
       content:'';
       display:block;
@@ -559,8 +549,8 @@ body {
       float:left;
       background: url(./img/sprite.png);
     }
-    .training span:before {background-position: -350px -95px; margin-right: 32px;}
-    .training span:after {background-position: -412px -95px; float:right;}
+    .training span:before {background-position: -350px -95px; margin-right: 56px;margin-top:-10px;}
+    .training span:after {background-position: -412px -95px; float:right;margin-top:-16px;}
     .feedback span:before {background-position:-508px -100px; margin-right: 32px;}
 /* doc content */
 .doc h2,

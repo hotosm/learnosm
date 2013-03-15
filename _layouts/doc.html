@@ -20,8 +20,9 @@ layout: default
   {{content}}
   {% if {{page.cover}} %}
     <div class='training padAll'>
-      <span>{{site.translations.[page.lang].trainingspan}}</span>
-      <a href='https://docs.google.com/document/d/1WCTonbvQC6YHCHZyYduRfR94i7Gp_ISFpivxuNMLO68/edit'>{{site.translations.[page.lang].training}}</a>
+      <span><a class='start rounded'>Proceed to the next chapter</a></span>
+      <!-- <span>{{site.translations.[page.lang].trainingspan}}</span> -->
+      <!-- <a href='https://docs.google.com/document/d/1WCTonbvQC6YHCHZyYduRfR94i7Gp_ISFpivxuNMLO68/edit'>{{site.translations.[page.lang].training}}</a> -->
     </div>
   {% endif %}
   {% unless {{page.cover}} %}
@@ -71,10 +72,7 @@ layout: default
   });
   {% endunless %}
 
-  //give the user a hint to proceed to introduction
-  {% if {{page.cover}} %}
-  $(window).scroll(function(){
-    $('.doc-nav ul li:nth-child(2)').append('<span class="starthere rounded fadeIn hide-mobile">{{site.translations.[page.lang].starthere}}</span>')
-  });
-  {% endif %}
+  // get the second url of doc nav and make it the url of the 'proceed' link
+  var proceedTo = $('.doc-nav li:nth-child(2) a').attr('href');
+  $('a.start').attr('href',proceedTo);
 </script>
