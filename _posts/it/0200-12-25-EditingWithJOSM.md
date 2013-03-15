@@ -51,7 +51,7 @@ Preparare JOSM
     aprirli entrambi, ma se vuoi puoi. Se non ti ricordi come si fa, fai
     riferimento ai due capitoli precedenti.
 
-    ![]({{site.baseurl}}/images/it_beg_ch6 _image04.png)
+    ![]({{site.baseurl}}/images/it_beg_ch6_image04.png)
 
 Scaricare i dati OSM
 --------------------
@@ -68,7 +68,7 @@ Scaricare i dati OSM
     e la longitudine (le coordinate) di dove è posizionato il cursore
     del mouse.
 
-    ![]({{site.baseurl}}/images/it_beg_ch6 _image00.png)
+    ![]({{site.baseurl}}/images/it_beg_ch6_image00.png)
 
 -  Poiché la finestra ci sta già mostrando l’area che vogliamo
     modificare, è facile scaricare i dati di OpenStreetMap di
@@ -77,13 +77,13 @@ Scaricare i dati OSM
     download. Puoi accedere alla finestra più semplicemente cliccando
     sul bottone di download, questo che vedi qua sotto:
 
-    ![]({{site.baseurl}}/images/it_beg_ch6 _image09.png)
+    ![]({{site.baseurl}}/images/it_beg_ch6_image09.png)
 
 -  Quando la finestra di download si apre, dovresti vedere una mappa
     con un riquadro rosa su di essa. Se non vedi la mappa, clicca sulla
     linguetta “Slippy map”.
 
-    ![]({{site.baseurl}}/images/it_beg_ch6 _image06.png)
+    ![]({{site.baseurl}}/images/it_beg_ch6_image06.png)
 
 -  Il riquadro rosa rappresenta l’area della mappa che vorremmo
     scaricare per modificarla. A meno che tu abbia spostato la finestra
@@ -109,7 +109,7 @@ Modifica
     Questo può essere usato per correggere la posizione di oggetti che
     sono stati posizionati erroneamente.
 
-    ![]({{site.baseurl}}/images/it_beg_ch6 _image08.png)
+    ![]({{site.baseurl}}/images/it_beg_ch6_image08.png)
 
 -  Usa lo strumento Disegna per disegnare nuovi punti, linee o forme.
     Descrivi questi oggetti selezionandoli dal menù Preimpostazioni,
@@ -129,7 +129,7 @@ Modifica
     Preimpostazione”. Fai lo stesso procedimento per inserire linee e
     forme.
 
-    ![]({{site.baseurl}}/images/it_beg_ch6 _image01.png)
+    ![]({{site.baseurl}}/images/it_beg_ch6_image01.png)
 
 Upload delle modifiche
 ----------------------
@@ -141,14 +141,14 @@ Upload delle modifiche
     la finestra di upload. Puoi  accedere alla finestra più
     semplicemente premendo il bottone di upload, mostrato di seguito:
 
-    ![]({{site.baseurl}}/images/it_beg_ch6 _image05.png)
+    ![]({{site.baseurl}}/images/it_beg_ch6_image05.png)
 
 -  La finestra che appare mostra una lista di oggetti che stai per
     aggiungere o che stai per modificare o cancellare. Nel box in basso
     ti viene chiesto di inserire un commento sulle modifiche che stai
     per fare. Scrivici la descrizione delle tue modifiche.
 
-    ![]({{site.baseurl}}/images/it_beg_ch6 _image07.png)
+    ![]({{site.baseurl}}/images/it_beg_ch6_image07.png)
 
 -  Clicca “Carica le modifiche”.
 -  Se questa è la prima volta che salvi delle modifiche, ti verrà
@@ -157,7 +157,7 @@ Upload delle modifiche
     casella, le tue credenziali verranno salvate e non ti servirà
     inserirle di nuovo in futuro. Clicca “Autentica”.
 
-    ![]({{site.baseurl}}/images/it_beg_ch6 _image02.png)
+    ![]({{site.baseurl}}/images/it_beg_ch6_image02.png)
 
 -  Devi aspettare finché non termina l’upload dei cambiamenti e hai
     finito! Hai fatto le tue prime modifiche a OpenStreetmap. Puoi

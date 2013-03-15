@@ -18,7 +18,7 @@ OpenStreetMap関連ツール
 
 このガイドでは、OSMを支える技術、そして地図を描くために必要なツールについて紹介してきました。しかしOSMのデータはそもそもオープンであり、その地図データを利用するたくさんの派生プロジェクトやツールが存在しています。
 
-![](images/jp_beg_ch8_image01.png)
+![]({{site.baseurl}}/images/jp_beg_ch8_image01.png)
 
 MapOSMatic
 ----------
@@ -38,7 +38,7 @@ OpenStreetMapのコミュニティとつながりを持ち続けるには、あ�
 
 -  あなたが住んでいる地域のメーリングリストに参加するには、[lists.openstreetmap.org](http://lists.openstreetmap.org)をブラウザで開いてください。        
 
-  ![](images/jp_beg_ch8_image03.png)
+  ![]({{site.baseurl}}/images/jp_beg_ch8_image03.png)
 
 -  画面をスクロールさせて、あなたの国のリストを探してみましょう。メーリングリストは"Talk-lg"という形式になっており、lgの部分にそれぞれの国の名称が割り当てられています。例えば、インドネシアのリストは"Talk-id"になります。
 -  参加したいリストをクリックしてください。
@@ -49,13 +49,13 @@ OpenStreetMapのコミュニティとつながりを持ち続けるには、あ�
 -  パスワード
 -  パスワードを再入力
 
-  ![](images/jp_beg_ch8_image02.png)
+  ![]({{site.baseurl}}/images/jp_beg_ch8_image02.png)
 
 -  入力が終わったら、"Subscribe"をクリックしてください。
 -  第2章でOpenStreetMapのウェブサイトに登録した時と同じように、入力したメールアドレス宛てにメールが送付されます。メールには、登録するメールアドレスの確認項目がありますので、確認をします。
 -  以下のような文面で、確認のリンクが記載されていますので、クリックします。
 
-  ![](images/jp_beg_ch8_image04.png)
+  ![]({{site.baseurl}}/images/jp_beg_ch8_image04.png)
 
 -  以上で、メーリングリストへの登録は完了です。
 -  メーリングリストにメッセージを送付する際には、"talk-id@openstreetmap.org"("talk-id"の部分は、あなたが登録したリスト名に読み替えてください)に対してメールを送付します。また同様に、リストに参加しているメンバーがメールを送付した際には、あなたのもとにメールが届きます。
