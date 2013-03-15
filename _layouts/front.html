@@ -5,20 +5,20 @@ layout: default
   <div class='ad1 cell8'>
     <a href='{{site.baseurl}}/{{page.lang}}/beginner'>
       <span>{{ page.begspan }}</span>
-      {{ page.beg }}
+      <span class='hide-tablet show-mobile'>{{ page.beg }}</span>
     </a>
   </div>
   <div class='ad2 cell4'>
     <a href='https://github.com/hotosm/learnosm/wiki/English-Learning-Guides'>
       <!-- needs translation -->
       <span>{{page.interspan}}</span>
-      {{ page.inter }}
+      <span class='hide-tablet show-mobile'>{{ page.inter }}<span>
     </a>
   </div>
   <div class='ad3 cell4'>
     <a href='https://github.com/hotosm/learnosm/wiki/English-Teaching-Guides'>
       <span>{{page.advspan}}</span>
-      {{ page.adv }}
+      <span class='hide-tablet show-mobile'>{{ page.adv }}<span>
     </a>
   </div>
 </div>
@@ -28,7 +28,7 @@ layout: default
     <input id='search-field' type='text' name='search' class='default-value cell10'></input>
   </form>
 </div>
-<div class='marginL cell9 padAll'>
+<div class='marginL cell9 padAll padTablet'>
   <div class='front-text cell7 marginR'>
     <h4 class='tagtitle'>{{ page.fronttitle }}</h4>
     <p class='tagwords'>{{ page.frontintro }}</p>

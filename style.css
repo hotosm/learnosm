@@ -22,18 +22,10 @@
 .padTB {padding:20px 0;}
 .padLR {padding:0 20px;}
 
-/* Tablet Layout
+/* Mobile and tablet Layout
 ------------------------------------------------------- */
 
 @media only screen and (max-width: 770px) {
-  .hide-tablet { display: none;}
-  .show-tablet { display: block;}
-}
-
-/* Mobile Layout
-------------------------------------------------------- */
-
-@media only screen and (max-width: 640px) {
   .cell1,
   .cell2,
   .cell3,
@@ -49,8 +41,9 @@
   .marginL { margin-left:0%; }
   .marginR { margin-right: 0%;}
   .padAll,.padTB,.padLR { padding: 0px;}
+  .padMobile {padding:20px}
   .hide-mobile { display: none;}
-  .show-mobile { display: block;text-align:center;}
+  .show-mobile { display: block;}
   h4 {margin:10px 0 !important;}
   #header {background: none !important;}
     #header > * {margin:0 -20px 0 20px !important;}
@@ -97,7 +90,7 @@
       font-size:12px;
       text-align:center;
     }
-    .doc ul > li:before {content:'●'}
+    .doc ul > li:before {content:'–'}
     .doc ol > li:before {
       content:counter(li);
       counter-increment:li;
@@ -127,7 +120,7 @@ blockquote: footnotes, anything with NOTE tag that's secondary
 */
 
 body {
-  font: normal 12px/20px 'Source Sans Pro','OpenSansRegular','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
+  font: normal 15px/1.57 'Source Sans Pro','OpenSansRegular','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
   color: #404040;
   padding: 0;
   font-size: 15px;
@@ -158,7 +151,7 @@ h4 {
   }
 p {
   margin: 0 0 20px;
-  line-height:28px;
+  line-height:32px;
   }
 a {
   text-decoration: none;
@@ -172,7 +165,7 @@ em {font-style:italic;}
 strong {font-weight:700;}
 
 .doc ul {margin: 20px 0;}
-.doc li,.doc p {font-family:'Quattrocento',serif;}
+.doc  ul li,.doc ol li, .doc p {font-family:'Quattrocento',serif;}
 .doc li {margin-left:30px;}
 .doc li a, .doc p a {color: #79bc5f;}
 
@@ -185,8 +178,27 @@ img {
   display: block;
   max-width:520px;
   border:1px solid #ddd;
-  padding:2px;
+  background: #fff;
+  padding:14px;
+  margin:20px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
 }
+
+img:hover {
+  background:#f2f2f2;
+  filter: none;
+   -webkit-filter: grayscale(0);
+}
+  p.has-image > img{
+    margin-left:auto;
+    margin-right:auto;
+  }
 
 /* code */
 pre {
@@ -288,7 +300,6 @@ body {
   font-weight:700;
 }
 
-
 #ads a{
   display:block;
   color:#4d4d4d;
@@ -302,7 +313,7 @@ body {
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
 }
-#ads a span {
+#ads a span:first-child {
   display:block;
   font-weight:700;
 }
@@ -455,6 +466,14 @@ body {
   position:fixed;
   top:10px;
 }
+.doc-nav ul li a {
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;	/* Opera */
+  -ms-text-overflow: ellipsis;	/* IE8 */
+  -moz-binding: url('ellipsis.xml#ellipsis');    /* Firefox */ /* see details in http://sharonminsuk.com/blog/2010/07/22/css3-text-truncation-and-ellipses-even-in-firefox-and-without-the-styling-constraints/*/
+}
 .doc-nav ul li:first-child a{
   -webkit-border-top-left-radius: 5px;
   -webkit-border-top-right-radius:5px;
@@ -518,7 +537,7 @@ body {
     .training span:before, .training span:after, .feedback span:before {
       content:'';
       display:block;
-      height: 48px;
+      height: 65px;
       width: 70px;
       float:left;
       background: url(./images/sprites/sprite.png);
@@ -529,6 +548,7 @@ body {
 /* doc content */
 .doc h2,
 .doc h3 {
+  margin:20px 0;
   cursor:pointer;
   }
   .doc h2:hover,.doc h2:target,
@@ -549,20 +569,6 @@ body {
   .doc h3:hover:before,.doc h3:target:before {
     background-position: -109px -112px;
     }
-
-.fullimage {
-  max-width:none;
-  position:absolute;
-  z-index:10;
-  }
-  .imageclose {
-    background-position:-138px -92px;
-    position:absolute;
-   }
-/*  img:hover,
-  .imageclose:hover {
-    cursor: pointer;
-    }*/
 
 /* contribute page */
 .contribute-intro h4, .contribute-links h4 {

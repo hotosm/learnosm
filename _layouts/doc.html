@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class='doc-nav marginL cell2 padAll cf'>
+<div class='doc-nav marginL cell2 padAll padTablet cf'>
       <ul>
 
     {% for post in site.categories.[page.category] %}
@@ -16,7 +16,7 @@ layout: default
 
   </ul>
 </div>
-<div class='doc-main doc cell6 padAll'>
+<div class='doc-main doc cell6 padAll padTablet'>
   {{content}}
   {% if {{page.cover}} %}
     <div class='training padAll'>
@@ -44,17 +44,14 @@ layout: default
     }
   };
 
-  var allH1 = document.getElementsByTagName('h1');
   var allH2 = document.getElementsByTagName('h2');
   var allH3 = document.getElementsByTagName('h3');
-  addId(allH1);
   addId(allH2);
   addId(allH3);
 
   // make the titles linkable
   $('h2[id], h3[id]','.doc').attr('title', 'Link to this section').click(function(e) {
-    chapterName = $('h1[id]','.doc')[0].id;
-    window.location.hash = chapterName + "-" + $(e.currentTarget).attr('id');
+    window.location.hash = $(e.currentTarget).attr('id');
   });
 
   // make title nav sticky
@@ -71,5 +68,8 @@ layout: default
     }
   });
   {% endunless %}
+
+  //select the image containers so the images can be centered
+  $('img').parent().addClass('has-image');
 
 </script>
