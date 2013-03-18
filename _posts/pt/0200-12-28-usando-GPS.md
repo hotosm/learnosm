@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Utilizando o GPS
-permalink: /pt/iniciante/usando-GPS
+permalink: /pt/beginner/using-gps
 lang: pt
 category: beginner
 ---

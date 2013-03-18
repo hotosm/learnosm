@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Avançando
-permalink: /pt/iniciante/avancando
+permalink: /pt/beginner/moving-forward
 lang: pt
 category: beginner
 ---

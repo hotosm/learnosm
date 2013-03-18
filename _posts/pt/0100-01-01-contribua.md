@@ -1,6 +1,6 @@
 ---
 layout: contribute
-permalink: /pt/contribua
+permalink: /pt/contribute
 lang: pt
 title: Contribua
 contributetitle: "Ajude-nos a melhorar os guias!"

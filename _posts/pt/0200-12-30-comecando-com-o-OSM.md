@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Iniciando o OSM
-permalink: /pt/iniciante/comecando-com-o-OSM
+permalink: /pt/beginner/start-osm
 lang: pt
 category: beginner
 ---

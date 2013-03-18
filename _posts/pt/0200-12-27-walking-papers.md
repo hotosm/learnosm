@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Utilizando o “Walking Papers”
-permalink: /pt/iniciante/walking-papers
+permalink: /pt/beginner/walking-papers
 lang: pt
 category: beginner
 ---

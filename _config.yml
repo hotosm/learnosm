@@ -11,6 +11,7 @@ rdiscount:
   extensions: [smart]
 translations:
   en:
+    overview: "Overview"
     tagline: "Learn OpenStreetMap Step-by-Step"
     contribute: "Help us improve our guides!"
     trainingspan: "Are you a workshop organizer?"
@@ -18,6 +19,7 @@ translations:
     feedbackspan: "Was this chapter helpful?"
     feedback: "Let us know and help us improve the guides!"
   bi:
+    overview: "Ikhtisar"
     tagline: "Pelajari OpenStreetMap Langkah-Langkah"
     contribute: "Bantu kami meningkatkan pemandu kami!"
     trainingspan: "Apakah Anda seorang organizer lokakarya?"
@@ -25,6 +27,7 @@ translations:
     feedbackspan: "Apakah pasal ini bermanfaat?"
     feedback: "Beritahu kami dan membantu kami memperbaiki panduan!"
   jp:
+    overview: "概要"
     tagline: "OpenStreetMapはステップバイステップを学ぶ"
     contribute: "私たちは私たちのガイドを拡充する!"
     trainingspan: "あなたは、このワークショップの主催者ですか?"
@@ -32,13 +35,15 @@ translations:
     feedbackspan: "この章では役に立ちましたか?"
     feedback: "私たちが知っている、私たちはガイドを改善するお手伝いをさせて!"
   pt:
-    tagline: "Aprenda sobre o OpenStreetMap Passo-a-Passo"
+    overview: "Sumário"
+    tagline: "Conheça sobre o OpenStreetMap, passo-a-passo."
     contribute: "Ajude-nos a melhorar os nossos guias!"
     trainingspan: "Você é um organizador de workshop?"
     training: "Confira material de treinamento para este guia (em Inglês)"
     feedbackspan: "Este capítulo foi útil?"
     feedback: "Conte-nos e ajude a melhorar os guias!"
   it:
+    overview: "Riassunto"
     tagline: "Per saperne di OpenStreetMap Step-by-Step"
     contribute: "Aiutaci a migliorare le nostre guide!"
     trainingspan: "Sei un organizzatore del workshop?"

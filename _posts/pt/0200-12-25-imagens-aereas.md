@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Edição Avançada
-permalink: /pt/iniciante/imagens-aereas
+permalink: /pt/beginner/aerial-imagery
 lang: pt
 category: beginner
 ---

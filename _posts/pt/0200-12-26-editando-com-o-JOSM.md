@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Utilizar o JOSM para editar o OpenStreetMap
-permalink: /pt/iniciante/editando-com-o-JOSM
+permalink: /pt/beginner/editing-with-josm
 lang: pt
 category: beginner
 ---

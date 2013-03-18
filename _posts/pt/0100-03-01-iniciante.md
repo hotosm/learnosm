@@ -1,6 +1,6 @@
 ---
 layout: doc
-permalink: /pt/iniciante
+permalink: /pt/beginner
 lang: pt
 title: Iniciante
 category: beginner
