@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Introdução ao OpenStreetMap
+title: Introdução
 permalink: /pt/beginner/introduction
 lang: pt
 category: beginner
 ---
 
-Introdução ao OpenStreetMap
-===========================
+Introdução
+==========
 
 A informação é poder. Com capacidade de análise e boa informação,
 indivíduos e comunidades são mais capazes de melhorar suas vidas e

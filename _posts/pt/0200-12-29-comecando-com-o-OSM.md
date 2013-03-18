@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Iniciando o OSM
+title: Iniciando o OpenStreetMap
 permalink: /pt/beginner/start-osm
 lang: pt
 category: beginner
 ---
 
-Iniciando o OSM
-===============
+Iniciando o OpenStreetMap
+=========================
 
 Neste capítulo aprenderemos passo a passo como navegar no site do
 OpenStreetMap, a ver e imprimir mapas, e como criar uma conta de
