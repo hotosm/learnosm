@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Iniciando o OSM
+title: Iniciando o OpenStreetMap
 permalink: /pt/beginner/start-osm
 lang: pt
 category: beginner
 ---
 
-Iniciando o OSM
-===============
+Iniciando o OpenStreetMap
+=========================
 
 Neste capítulo aprenderemos passo a passo como navegar no site do
 OpenStreetMap, a ver e imprimir mapas, e como criar uma conta de
@@ -29,7 +29,7 @@ Visite o Site Web do OpenStreetMap
 -  Quando a página terminar de carregar, deverá ver algo semelhante a
     isto:
 
-    ![]({{site.baseurl}}/images/pt_beg_ch2_image06.png)
+    ![]({{site.baseurl}}/images/pt_beg_ch2_image06.jpg)
 
     Site web do OpenStreetMap com algumas funções principais listadas
 
@@ -51,7 +51,7 @@ Navegar o Mapa
     provável. O mapa mover-se-á automaticamente para a localização
     escolhida.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch2_image02.png)
+    ![]({{site.baseurl}}/images/pt_beg_ch2_image02.jpg)
 
     Nvegação com o Rato
 
@@ -61,7 +61,7 @@ Gravar uma imagem do Mapa
 -  Se quiser gravar uma imagem a partir do OpenStreetMap, que possa
     imprimir facilmente, siga estas instruções.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch2_image07.png)
+    ![]({{site.baseurl}}/images/pt_beg_ch2_image07.jpg)
 
     Exportando um mapa
 
@@ -180,7 +180,7 @@ Adicionando os Primeiros Pontos
     procure no mapa um local com dados, que lhe seja familiar).
 -  Amplie (zoom) uma zona onde queira adicionar um ponto ao mapa.
 
-  ![]({{site.baseurl}}/images/pt_beg_ch2_image03.png)
+  ![]({{site.baseurl}}/images/pt_beg_ch2_image03.jpg)
 
   Começe a Editar
 
@@ -192,7 +192,7 @@ Adicionando os Primeiros Pontos
     opção que é escolhida por omissão.
 -  O editor online do OpenStreetMap deverá abrir.
 
-  ![]({{site.baseurl}}/images/pt_beg_ch2_image05.png)
+  ![]({{site.baseurl}}/images/pt_beg_ch2_image05.jpg)
 
   Editando com o editor Potlatch embebido no navegador web
 
