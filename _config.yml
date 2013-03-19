@@ -19,6 +19,7 @@ translations:
     feedback: "Let us know and help us improve the guides!"
     proceed: "proceed to next chapter"
   bi:
+    overview: "Ikhtisar"
     tagline: "Pelajari OpenStreetMap Langkah-Langkah"
     contribute: "Bantu kami meningkatkan pemandu kami!"
     trainingspan: "Apakah Anda seorang organizer lokakarya?"
@@ -27,6 +28,7 @@ translations:
     feedback: "Beritahu kami dan membantu kami memperbaiki panduan!"
     proceed: "lanjutkan ke bab berikutnya"
   jp:
+    overview: "概要"
     tagline: "OpenStreetMapはステップバイステップを学ぶ"
     contribute: "私たちは私たちのガイドを拡充する!"
     trainingspan: "あなたは、このワークショップの主催者ですか?"
@@ -35,14 +37,16 @@ translations:
     feedback: "私たちが知っている、私たちはガイドを改善するお手伝いをさせて!"
     proceed: "次の章に進んでください"
   pt:
-    tagline: "Aprenda OpenStreetMap Passo-a-Passo"
+    overview: "Sumário"
+    tagline: "Conheça sobre o OpenStreetMap, passo-a-passo."
     contribute: "Ajude-nos a melhorar os nossos guias!"
-    trainingspan: "Você é um organizador do workshop?"
-    training: "Confira material de treinamento para o novato guia (em Inglês)"
-    feedbackspan: "Foi este capítulo foi útil?"
-    feedback: "Conte-nos e ajudar-nos a melhorar os guias!"
+    trainingspan: "Você é um organizador de workshop?"
+    training: "Confira material de treinamento para este guia (em Inglês)"
+    feedbackspan: "Este capítulo foi útil?"
+    feedback: "Conte-nos e ajude a melhorar os guias!"
     proceed: "prosseguir para o próximo capítulo"
   it:
+    overview: "Riassunto"
     tagline: "Per saperne di OpenStreetMap Step-by-Step"
     contribute: "Aiutaci a migliorare le nostre guide!"
     trainingspan: "Sei un organizzatore del workshop?"
