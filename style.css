@@ -522,26 +522,27 @@ body {
     }
 
 /* training and feedback boxes*/
-.training, .feedback {
+.proceed, .feedback {
   padding-top:40px;
   display:block;
 }
 .feedback {
   background: #fff url(./img/dot.png) repeat-x top;
 }
-  .training span a {
-    margin-top:20px;
-    font-size:12px;
+  .proceed span a {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 170px;
+    padding:10px 20px;
+    font-size:14px;
     text-transform:uppercase;
-    font-weight:700;
-    padding:20px 30px;
     background:#79bc5f;
-    color:#fff !important;
     }
-    .training span a:hover {color:#fff !important;}
+    .proceed span a:hover {color:#fff;}
   .feedback span {display:block;font-weight:700;}
   .feedback a {color: #79bc5f;}
-    .training span:before, .training span:after, .feedback span:before {
+    .proceed span:before, .proceed span:after, .feedback span:before {
       content:'';
       display:block;
       height: 65px;
@@ -549,8 +550,8 @@ body {
       float:left;
       background: url(./img/sprite.png);
     }
-    .training span:before {background-position: -350px -95px; margin-right: 56px;margin-top:-10px;}
-    .training span:after {background-position: -412px -95px; float:right;margin-top:-16px;}
+    .proceed span:before {background-position: -350px -95px;margin-top:-10px;}
+    .proceed span:after {background-position: -412px -95px; float:right;margin-top:-52px;}
     .feedback span:before {background-position:-508px -100px; margin-right: 32px;}
 /* doc content */
 .doc h2,

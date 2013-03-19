@@ -19,10 +19,8 @@ layout: default
 <div class='doc-main doc cell5 padAll'>
   {{content}}
   {% if {{page.cover}} %}
-    <div class='training padAll'>
-      <span><a class='start rounded'>Proceed to the next chapter</a></span>
-      <!-- <span>{{site.translations.[page.lang].trainingspan}}</span> -->
-      <!-- <a href='https://docs.google.com/document/d/1WCTonbvQC6YHCHZyYduRfR94i7Gp_ISFpivxuNMLO68/edit'>{{site.translations.[page.lang].training}}</a> -->
+    <div class='proceed'>
+      <span><a class='start rounded'>{{site.translations.[page.lang].proceed}}</a></span>
     </div>
   {% endif %}
   {% unless {{page.cover}} %}

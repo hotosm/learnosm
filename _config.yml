@@ -17,7 +17,7 @@ translations:
     training: "Check out training material for this guide (in English)"
     feedbackspan: "Was this chapter helpful?"
     feedback: "Let us know and help us improve the guides!"
-    starthere: "start here"
+    proceed: "proceed to next chapter"
   bi:
     tagline: "Pelajari OpenStreetMap Langkah-Langkah"
     contribute: "Bantu kami meningkatkan pemandu kami!"
@@ -25,7 +25,7 @@ translations:
     training: "Memeriksa materi pelatihan untuk panduan ini (dalam bahasa Inggris)"
     feedbackspan: "Apakah pasal ini bermanfaat?"
     feedback: "Beritahu kami dan membantu kami memperbaiki panduan!"
-    starthere: "mulai di sini"
+    proceed: "lanjutkan ke bab berikutnya"
   jp:
     tagline: "OpenStreetMapはステップバイステップを学ぶ"
     contribute: "私たちは私たちのガイドを拡充する!"
@@ -33,7 +33,7 @@ translations:
     training: "このガイドの研修教材をチェック(英語で)"
     feedbackspan: "この章では役に立ちましたか?"
     feedback: "私たちが知っている、私たちはガイドを改善するお手伝いをさせて!"
-    starthere: "ここから始めましょう"
+    proceed: "次の章に進んでください"
   pt:
     tagline: "Aprenda OpenStreetMap Passo-a-Passo"
     contribute: "Ajude-nos a melhorar os nossos guias!"
@@ -41,7 +41,7 @@ translations:
     training: "Confira material de treinamento para o novato guia (em Inglês)"
     feedbackspan: "Foi este capítulo foi útil?"
     feedback: "Conte-nos e ajudar-nos a melhorar os guias!"
-    starthere: "começar aqui"
+    proceed: "prosseguir para o próximo capítulo"
   it:
     tagline: "Per saperne di OpenStreetMap Step-by-Step"
     contribute: "Aiutaci a migliorare le nostre guide!"
@@ -49,4 +49,4 @@ translations:
     training: "Scopri materiale di formazione per la guida principianti (in inglese)"
     feedbackspan: "Questa capitolo è stata utile?"
     feedback: "Fateci sapere e ci aiutano a migliorare le guide!"
-    starthere: "inizia da qui"
+    proceed: "procedere al capitolo successivo"
