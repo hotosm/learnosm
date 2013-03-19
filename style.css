@@ -656,13 +656,16 @@ body {
   h4 {margin:10px 0;}
   #header {background: none;}
     #header > * {margin:0 -20px 0 20px;}
-  #ads a {margin:0 !important;border-radius:0;}
+  #ads a {border-radius:0;}
   #ads .ad1, #ads .ad2, #ads .ad3 {height:auto;}
+  #ads .ad1 a, #ads .ad2 a, #ads .ad3 a {margin:0;}
+  #ads .ad1 span.door {margin-top:-60px;}
   #footer {position:relative;}
   .searchbox-default {padding-left:10px;float:left;}
   .searchbox {border-radius:0px; border:8px solid #f0f0f0;}
   .searchbox input {width:200px;}
-  .doc-nav {position:relative;}
+  .doc-nav,.doc-nav.fixed {position:relative;margin-bottom:20px;}
   .doc-main {margin-left:0%;}
+  .feedback {padding-top:20px;}
   img {max-width:300px;}
   }
