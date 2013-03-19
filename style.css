@@ -318,21 +318,16 @@ body {
 #ads .ad3 a {height:60px; background:#7abeff;}
   #ads .ad2 a:hover {background:#f0ca42;}
   #ads .ad3 a:hover {background:#90c4f5;}
-    #ads .ad1 a:after {
-      content:'';
-      float:right;
-      height:200px;
-      width:100px;
-      margin-top:-60px;
-      margin-right:-20px;
-      background:transparent url(./img/sprite.png);
-      background-position:-280px -160px;
-      transition: all 100ms linear;
-      -moz-transition: all 100ms linear;
-      -webkit-transition: all 100ms linear;
-      -o-transition: all 100ms linear;
-    }
-    #ads .ad1 a:hover:after {
+  #ads .ad1 span.door {
+    float: right;
+    margin-right: -20px;
+    margin-top: -35px;
+    height:200px;
+    width:100px;
+    background:transparent url(./img/sprite.png);
+    background-position:-280px -160px;
+  }
+    #ads .ad1 span.door:hover {
       background-position:-270px -193px;
     }
 .icon {
@@ -670,10 +665,4 @@ body {
   .doc-nav {position:relative;}
   .doc-main {margin-left:0%;}
   img {max-width:300px;}
-  }
-
-/* bug fixes for FF */
-  @-moz-document url-prefix() {
-    #ads .ad1 a:after {margin-top:-35px;}
-    .doc-nav {top:204px;}
   }
