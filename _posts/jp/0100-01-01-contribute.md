@@ -1,6 +1,6 @@
 ---
 layout: contribute
-permalink: /jp/contribute
+permalink: /jp/contribute/
 lang: jp
 title: お手伝い
 contributetitle: "このガイドの改善にご協力ください！"

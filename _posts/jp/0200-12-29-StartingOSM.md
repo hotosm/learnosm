@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: OSMことはじめ
-permalink: /jp/beginner/start-osm
+permalink: /jp/beginner/start-osm/
 lang: jp
 category: beginner
 ---
