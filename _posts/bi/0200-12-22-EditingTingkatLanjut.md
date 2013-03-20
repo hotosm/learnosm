@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Editing Tingkat Lanjut
-permalink: /bi/beginner/editing-with-josm
+permalink: /bi/beginner/editing-with-josm/
 lang: bi
 category: beginner
 ---

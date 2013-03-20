@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Andando avanti
-permalink: /it/beginner/moving-forward
+permalink: /it/beginner/moving-forward/
 lang: it
 category: beginner
 ---

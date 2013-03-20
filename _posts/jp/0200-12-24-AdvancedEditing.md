@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: 高度な編集
-permalink: /jp/beginner/aerial-imagery
+permalink: /jp/beginner/aerial-imagery/
 lang: jp
 category: beginner
 ---

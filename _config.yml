@@ -2,7 +2,7 @@ auto: true
 pygments: true
 server: true
 markdown: rdiscount
-permalink: /:categories/:title
+permalink: /:categories/:title/
 columnist:
   paths:
   - _posts

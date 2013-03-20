@@ -20,7 +20,7 @@ Example front matter for a guide chapter:
 
     layout: doc
     title: Moving Forward
-    permalink: /en/beginner/moving-forward
+    permalink: /en/beginner/moving-forward/
     lang: en
     category: beginner
 

@@ -46,7 +46,7 @@
         <a class='banner hide-mobile'>
           <span class='{{page.lang}}'>{{site.translations.[page.lang].contribute}}</span>
         </a>
-        <a class='banner-mobile hide-desktop show-mobile' href='{{site.baseurl}}/{{page.lang}}/contribute'>
+        <a class='banner-mobile hide-desktop show-mobile' href='{{site.baseurl}}/{{page.lang}}/contribute/'>
         </a>
       </div>
     </div>
@@ -87,7 +87,7 @@
   // contribute banner pops out when hovered over
   $('.banner').hover(
     function() {
-      $(this).addClass('active').attr('href','{{site.baseurl}}/{{page.lang}}/contribute');
+      $(this).addClass('active').attr('href','{{site.baseurl}}/{{page.lang}}/contribute/');
       setTimeout(function(){
         $('.banner span').addClass('active')
         },300)
