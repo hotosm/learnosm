@@ -6,11 +6,19 @@ permalink: /:categories/:title
 columnist:
   paths:
   - _posts
-baseurl: /learnosm
+baseurl: ''
 rdiscount:
   extensions: [smart]
 translations:
   en:
+    tagline: "Learn OpenStreetMap Step by Step"
+    contribute: "Help improve our guides"
+    trainingspan: "Are you a workshop organizer?"
+    training: "Check out training material for this guide (in English)"
+    feedbackspan: "Was this chapter helpful?"
+    feedback: "Let us know and help us improve the guides!"
+    proceed: "proceed to next chapter"
+  fr:
     tagline: "Learn OpenStreetMap Step by Step"
     contribute: "Help improve our guides"
     trainingspan: "Are you a workshop organizer?"
