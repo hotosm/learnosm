@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Introduzione a OpenStreetMap
-permalink: /it/beginner/introduction
+permalink: /it/beginner/introduction/
 lang: it
 category: beginner
 ---
