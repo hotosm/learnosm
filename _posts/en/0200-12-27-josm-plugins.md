@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM Plugins
-permalink: /en/beginner/josm-plugins
+permalink: /en/beginner/josm-plugins/
 lang: en
 category: beginner
 ---
