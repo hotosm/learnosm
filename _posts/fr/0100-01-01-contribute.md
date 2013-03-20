@@ -1,7 +1,7 @@
 ---
 layout: contribute
-permalink: /en/contribute
-lang: en
+permalink: /fr/contribute
+lang: fr
 title: Contribute
 contributetitle: "Help improve our guides"
 startwith: "Ready to get started?"

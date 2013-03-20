@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Getting Started Editing
-permalink: /en/beginner/start-josm
-lang: en
+permalink: /fr/beginner/start-josm
+lang: fr
 category: beginner
 ---
 
