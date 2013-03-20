@@ -9,65 +9,28 @@ category: beginner
 Introduction
 ============
 
-Information is powerful. With good information and the right
-understanding, individuals and communities are better able to improve
-their lives and make good decisions about the future. There are many
-people and organizations who make decisions that affect our lives. Good
-information allows these NGOs, governments and citizens to make better
-decisions, and hopefully make our lives better. Maps can be a good way
-to convey information. 
+L'information a de la valeur. Une information de qualité peut aider les individus et les communautés à améliorer leurs vies et prendre les bonnes décision pour le futur. Il existe de nombreuses personnes et organisations qui prennent des décisions qui affectent nos vies. De bonnes informations permettent à ces ONG, gouvernements et simples citoyens de prendre de meilleures décisions pour peut-être améliorer nos vies. Les cartes peuvent être un excellent support pour diffuser ces informations.
 
-Maps are visual symbols of our world. They can
-often demonstrate an idea better than words. This in turn can also help
-answer important questions. Where is the closest school or hospital? Who
-has the least access to these facilities? Where is poverty the most
-problematic? Questions like these can often best be expressed with maps,
-and maps can help find solutions to these questions. 
+Les cartes sont un symbole visuel de notre monde. Elles sont souvent plus adaptées que des mots pour expliquer une idée. Elles peuvent apporter rapidement des réponses à des questions importantes. Où se trouve l'hôpital ou la mairie la plus proche ? Comment peut-on accéder à ces lieux ? Où la pauvreté pose-t-elle le plus de problème ? Les cartes sont souvent le meilleur moyen de trouver des réponses à ces questions.
 
-As an exercise, get
-a pen and paper and draw a map of your town or village. What are the
-most important things to include on the map? What is the most important
-information? Spend a few minutes making your map, and when you’re
-finished, think about why the information you included is important, and
-who it might be important to.
+Vous pouvez faire l'exercice suivant : prenez un stylo et un morceau de papier, et dessinez une carte de votre quartier ou village. Quels sont les éléments les plus importants à inclure ? Quelles sont les informations les plus importantes ? Quand vous aurez terminé de dessiner rapidement votre carte, réfléchissez à l'importance des informations présentes dans votre carte, et à qui ces informations pourraient servir.
 
 ![A village in Indonesia][]
 
 ![Example of a hand-drawn map][]
 
-If your town is like most, you may have drawn some lines to represent
-roads, possibly a river or stream. Perhaps you added important buildings
-such as schools and offices, fields, or boundaries. Whatever you drew,
-you probably used symbols – a line to symbolize a road, a square to
-symbolize a building, and so on. Your map is a representation of what is
-on the ground.
+Vous avez probalement dessiné quelques lignes pour représenter les routes et chemins, ainsi qu'une rivière ou un ruisseau. Peut-être avez vous représenté quelques bâtiments importants, tels que des écoles et des administrations, des champs, ou des frontières. Vous avez probablement utilisé des symboles - une ligne pour une route, un rectangle pour un bâtiment, et ainsi de suite. Votre carte est une représentation de ce qui se trouve sur le sol.
 
 ![Examples of symbols][]
 
-Your map is informative. You might use a map like this to explain to
-someone where different places are, where problems are in your
-community, or merely to help someone find their way around. The uses of
-your map is limited though. There is only one copy of the map and the
-way you drew it may make sense to you, but perhaps not to someone else
-who would have drawn their own map in a different way. Because your map
-is merely on paper, it is difficult to get that information to others.
-This is why making your map on a computer, in such a way that anyone can
-access it, can be much more valuable. 
+Votre carte est informative. Vous pourriez utiliser une carte de ce genre pour expliquer à quelqu'un où trouver divers services, où se trouvent des problèmes dans votre communauté, ou simplement pour aider quelqu'un à trouver son chemin. L'utilité de votre carte est pourtant limitée. Il n'en existe qu'une seule copie, et la manière dont vous l'avez dessiné a du sens pour vous mais peut-être pas pour quelqu'un d'autre qui l'aurait dessiné différement. Il est difficile de diffuser les informations contenues sur votre carte parce qu'elle est en papier, pour cette raison une carte réalisée sur un ordinateur, de telle manière que n'importe qui peut y accéder, peut avoir beaucoup plus de valeur.
 
-OpenStreetMap is a tool for creating and sharing map information. 
-Anyone can contribute to OSM, and thousands of people add to the project 
-every day. Users draw maps on computers, rather than paper, but as we 
-will see in this guide, drawing a map on a computer is not all that 
-different from drawing on paper. We still draw lines to represent roads,
-fields, and anything else, and we still represent schools and hospitals 
-with symbols. The important thing is that OSM maps are saved on the 
-internet, and anyone can access them at any time, totally free.
+OpenStreetMap est un outil pour créer et partager des informations cartographiques. Tout le monde peut contribuer à OSM, et des milliers de personnes ajoutent des information au projet tous les jours. Les utilisateurs dessinent des cartes sur leur ordinateur, plutôt que sur du papier, mais comme vous allez voir dans ce guide, dessiner une carte sur un ordinateur n'est pas fondamentalement différent que de la dessiner sur papier. Nous dessinons aussi des lignes pour représenter les routes, les contours des champs, et tout le reste, et nous représentons aussi les hôpitaux et les écoles avec des symboles. Le point important est que les cartes OSM sont enregistrées sur internet, et que chacun peut les consulter gratuitement à tout moment.
+
 
 ![Digital maps with OpenStreetMap][]
 
-We hope that you will find OpenStreetMap useful and interesting in your
-work. By following this guide, you should be able to quickly start
-making digital maps and adding to OSM.
+Nous espérons que vous trouverez OpenStreetMap utile et intéressant pour votre travail. En suivant ce guide, vous devriez rapidement être capables de créer vos cartes numériques et de les ajouter au projet.
 
 [A village in Indonesia]: {{site.baseurl}}/images/intro_village_en.png
 [Example of a hand-drawn map]: {{site.baseurl}}/images/intro_drawing_en.png
