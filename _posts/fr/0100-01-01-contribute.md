@@ -3,12 +3,12 @@ layout: contribute
 permalink: /fr/contribute
 lang: fr
 title: Contribute
-contributetitle: "Help improve our guides"
-startwith: "Ready to get started?"
-startA: "Send us feedback"
-startB: "Create a translation"
-startC: "Improve Language"
-startD: "Fork and improve site"
+contributetitle: "Contribuez à ces guides"
+startwith: "Envie de contribuer?"
+startA: "Donnez vos impressions"
+startB: "Ajoutez une traduction"
+startC: "Améliorer ce site"
+startD: "Contribuer au code"
 nosearch: true
 ---
-This guide is created and maintained by the [OpenStreetMap](http://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](http://www.openstreetmap.org/) community. You can help us improve this guide by simply sending your feedback or by contributing directly to it via [Github](http://github.com/hotosm/learnosm).
+Ce guide a été créé et est maintenu par la communauté [OpenStreetMap](http://www.openstreetmap.org/) et [l'équipe humanitaire d'OpenStreetMap](http://hotosm.org/). Vous pouvez nous aider à l'améliorer simplement <a href='mailto:learnosm@hotosm.org'>en donnant vos impressions</a> ou en contribuant directement via [Github](http://github.com/hotosm/learnosm).
