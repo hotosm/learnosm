@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Pengenalan
-permalink: /bi/beginner/introduction
+permalink: /bi/beginner/introduction/
 lang: bi
 category: beginner
 ---

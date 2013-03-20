@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Mulai Menggunakan JOSM
-permalink: /bi/beginner/start-josm
+permalink: /bi/beginner/start-josm/
 lang: bi
 category: beginner
 ---

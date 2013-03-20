@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Memperoleh Data OSM
-permalink: /bi/beginner/memperoleh-data-OSM
+permalink: /bi/beginner/memperoleh-data-OSM/
 lang: bi
 category: beginner
 ---

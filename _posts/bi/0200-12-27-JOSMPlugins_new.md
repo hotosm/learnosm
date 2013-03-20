@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Plugin JOSM dan Preference
-permalink: /bi/beginner/josm-plugins
+permalink: /bi/beginner/josm-plugins/
 lang: bi
 category: beginner
 ---
