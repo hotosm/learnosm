@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Using Arial Imagery
+title: Using Aerial Imagery
 permalink: /en/beginner/aerial-imagery
 lang: en
 category: beginner
