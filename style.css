@@ -610,12 +610,8 @@ body {
 /*404 page*/
 .notfound {
   position: relative;
-  width: 300px;
-  margin-top:80px;
-  margin-left:auto;
-  margin-right:auto;
-  text-align:center;
-  background:#f6f6f6;
+  width: 600px;
+  margin:40px auto;
 }
 .notfound span {
   display:block;
@@ -625,7 +621,9 @@ body {
   background:url(./img/sprite.png) -185px -156px no-repeat;
 }
 .notfound h1 {
+  text-align:center;
   font-weight:700;
+  margin-top:40px;
 }
 .notfound a {
   color:#79bc5f;
@@ -667,5 +665,6 @@ body {
   .doc-nav,.doc-nav.fixed {position:relative;margin-bottom:20px;}
   .doc-main {margin-left:0%;}
   .feedback {padding-top:20px;}
+  .notfound {width:300px;}
   img {max-width:300px;}
   }
