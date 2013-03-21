@@ -378,12 +378,14 @@ body {
 .searchbox {
   height:32px;
   border:4px solid #f0f0f0;
+  
   }
   .searchbox input {
     border:none;
     padding:4px 0px 4px 20px;
     font-size:16px;
     font-family:'Source Sans Pro',sans-serif;
+    background-color: #ffffff;
   }
   .logo-search {
     float:left;
@@ -403,6 +405,7 @@ body {
 .searchbox-default input {
   border:none;
   margin-top:6px;
+  background-color: #ffffff;
 }
 /* overriding default jquery ui css for autocomplete */
 .ui-corner-all {
