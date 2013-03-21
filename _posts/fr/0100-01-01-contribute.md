@@ -1,6 +1,6 @@
 ---
 layout: contribute
-permalink: /fr/contribute
+permalink: /fr/contribute/
 lang: fr
 title: Contribute
 contributetitle: "Contribuez à ces guides"

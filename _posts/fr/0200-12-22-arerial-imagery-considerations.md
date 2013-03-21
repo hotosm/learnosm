@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Using Arial Imagery
-permalink: /fr/beginner/aerial-imagery
+permalink: /fr/beginner/aerial-imagery/
 lang: fr
 category: beginner
 ---
