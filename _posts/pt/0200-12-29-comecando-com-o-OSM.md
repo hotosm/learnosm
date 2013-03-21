@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Iniciando o OpenStreetMap
-permalink: /pt/beginner/start-osm
+permalink: /pt/beginner/start-osm/
 lang: pt
 category: beginner
 ---
@@ -11,18 +11,18 @@ Iniciando o OpenStreetMap
 
 Neste capítulo aprenderemos passo a passo como navegar no site do
 OpenStreetMap, a ver e imprimir mapas, e como criar uma conta de
-utilizador. Depois de ter o seu próprio nome de utilizador e palavra
-chave, poderá adicionar os primeiros pontos ao mapa.
+usuário. Depois de ter o seu próprio nome de usuário e senha,
+você poderá adicionar os primeiros pontos ao mapa.
 
 Visite o Site Web do OpenStreetMap
 ----------------------------------
 
 -  Certifique-se de que tem o computador ligado e que está conectado à
     Internet.
--  Para visitar o site web do OpenStreetMap, vai precisar de abrir o
-    navegador web. Inicie  o seu navegador - Firefox, Chrome, Opera, ou
+-  Para visitar o site web do OpenStreetMap, você vai precisar abrir o
+    navegador web. Inicie o seu navegador - Firefox, Chrome, Opera, ou
     Internet Explorer.
--  Na barra de endereços no topo da janela, introduza o texto seguinte:
+-  Na barra de endereços no topo da janela, introduza o seguinte texto:
 
   [www.openstreetmap.org](http://www.openstreetmap.org)
 
@@ -33,18 +33,18 @@ Visite o Site Web do OpenStreetMap
 
     Site web do OpenStreetMap com algumas funções principais listadas
 
-Navegar o Mapa
+Navegar no Mapa
 --------------
 
 -  A coisa principal que deverá ver é o mapa. Mova o mapa clicando nele
-    com o botão esquerdo do seu rato, mantendo o botão premido, e
+    com o botão esquerdo do seu rato, mantendo o botão pressionado, e
     movendo o rato (veja a figura abaixo).
 -  Se tiver um rato com roda de “scroll”, aumente e reduza a
     visualização do mapa (zoom) rodando a roda. Se não tiver uma roda de
     “scroll” utilize os botões + e - no canto superior direito do mapa.
     veja figura abaixo).
 -  Para procurar um lugar, clique com o botão esquerdo na caixa
-    legendada com “Search” do lado esquerdo da página (ver figura
+    legendada com “Buscar” do lado esquerdo da página (ver figura
     acima). Escreva o nome da sua localidade e pressione “Enter”. Uma
     janela deverá parecer à esquerda do mapa com os resultados da
     pesquisa. Clique no texto da localização que pareça ser a mais
@@ -65,15 +65,15 @@ Gravar uma imagem do Mapa
 
     Exportando um mapa
 
--  Mesmo acima da janela do mapa, clique no botão legendado “Export”.
+-  Ainda acima da janela do mapa, clique no botão “Exportar”.
     Um novo painel aparecerá ao lado do mapa.
 -  Na nova janela, certifique-se que o botão ao lado de “Mapnik Image”
     está seleccionado.
--  Clique “Export” que está em baixo no painel. Será iniciada uma
+-  Clique “Exportar” que está em baixo no painel. Será iniciada uma
     descarga de ficheiro (download). Grave o ficheiro no seu computador.
 -  Abra o ficheiro que descarregou. Se quiser imprimir o mapa, pode
     seleccionar “Imprimir” (Print em versões em inglês) a partir do menu
-    “Ficheiro” (“File”). Garanta previamente que tem o computador ligado
+    “Ficheiro” (“File”). Garanta previamente que o computador está ligado
     a uma impressora.
 
 Criar uma Conta OpenStreetMap

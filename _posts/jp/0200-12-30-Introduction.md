@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: OpenStreetMap イントロダクション
-permalink: /jp/beginner/introduction
+permalink: /jp/beginner/introduction/
 lang: jp
 category: beginner
 ---

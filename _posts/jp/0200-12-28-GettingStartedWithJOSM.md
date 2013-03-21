@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSMの導入
-permalink: /jp/beginner/start-josm
+permalink: /jp/beginner/start-josm/
 lang: jp
 category: beginner
 ---

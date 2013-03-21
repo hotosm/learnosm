@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Menggunakan Walking Papers
-permalink: /bi/beginner/walking-papers
+permalink: /bi/beginner/walking-papers/
 lang: bi
 category: beginner
 ---

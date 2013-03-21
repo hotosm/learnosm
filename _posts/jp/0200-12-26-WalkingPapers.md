@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: ウォーキングペーパー
-permalink: /jp/beginner/walking-papers
+permalink: /jp/beginner/walking-papers/
 lang: jp
 category: beginner
 ---
