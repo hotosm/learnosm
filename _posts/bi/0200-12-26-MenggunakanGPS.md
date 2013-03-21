@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Menggunakan GPS
-permalink: /bi/beginner/using-gps
+permalink: /bi/beginner/using-gps/
 lang: bi
 category: beginner
 ---

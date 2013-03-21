@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Editing Avanzato
-permalink: /it/beginner/aerial-imagery
+permalink: /it/beginner/aerial-imagery/
 lang: it
 category: beginner
 ---

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Pergeseran Citra Satelit
-permalink: /bi/beginner/aerial-imagery
+permalink: /bi/beginner/aerial-imagery/
 lang: bi
 category: beginner
 ---

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Introduction
-permalink: /en/beginner/introduction
+permalink: /en/beginner/introduction/
 lang: en
 category: beginner
 ---
