@@ -12,10 +12,10 @@ Iniciação ao JOSM
 Neste capítulo vamos aprender passo a passo como descarregar e instalar
 o JOSM, o editor Java do OpenStreetMap. Modificaremos algumas das
 configurações do JOSM para o tornar mais fácil de utilizar. Depois
-abriremos uma mapa exemplo e aprenderemos algumas das operações básicas
+abriremos um mapa exemplo e aprenderemos algumas operações básicas
 do software. Lembra-se de quando pedimos, no capítulo 1, para desenhar
 um mapa da sua localidade? Concluiremos este capítulo desenhando esse
-mapa de novo, agora de forma digital. Depois disto deverá ter um bom
+mapa de novo, agora de forma digital. Depois disto, você terá um bom
 entendimento de como desenhar mapas no JOSM.
 
 Descarregar o JOSM
@@ -45,7 +45,7 @@ Descarregar o JOSM
 Instalar o JOSM
 ---------------
 
--  Pode ter alguns problemas a instalar o JOSM se o Java não estiver já
+-  Você pode ter alguns problemas a instalar o JOSM se o Java não estiver já
     instalado no seu computador. Se tiver problemas, experimente
     descarregar e instalar o Java. Pode descarregá-lo aqui:  página em
     português -
@@ -61,7 +61,7 @@ Instalar o JOSM
     no menu “Iniciar” (ou “Start” na versão em inglês do Windows) no
     canto inferior esquerdo do seu computador, e escolhendo o JOSM na
     lista de programas  que aparece.
--  Pode ver uma janela que aparece a perguntar se quer actualizar o
+-  Você pode ver uma janela que aparece a perguntar se quer atualizar o
     programa (em inglês “update the software”). Se tiver acabado de
     instalar não precisa de fazer actualização porque é o mais recente
     (mas mais tarde se vir esse aviso, é conveniente ir actualizando
@@ -78,9 +78,9 @@ Modificar configuração do JOSM
 ------------------------------
 
 -  Antes de começar a utilizar o JOSM, é uma boa ideia modificar
-    algumas das suas configurações de forma a ser mais fácil de
-    utilizar. Para modificar as configurações, clicar em “Edit” no menu
-    do topo, e depois escolher “Preferences”.
+    algumas das suas configurações para tornar mais fácil a
+    utilização. Para modificar as configurações, clicar em “Editar” no menu
+    do topo, e depois escolher “Preferências”.
 
     ![]({{site.baseurl}}/images/pt_beg_ch3_image09.png)
 
@@ -92,8 +92,8 @@ Modificar configuração do JOSM
     isso no JOSM como pano de fundo. Depois podemos editar por cima
     dessa imagem, introduzindo as nossas anotações no OpenStreetMap.
     Agora iremos adicionar o plugin “Walking Papers” ao JOSM.
--  Deverá ter ainda a janela de preferências (Preferences) aberta. Se
-    não tiver, clique em “Edit”\>”Preferences” para abrir a janela.
+-  Você deverá estar com a janela de preferências aberta. Se
+    não estiver, clique em “Editar”\>”Preferências” para abrir a janela.
 -  Do lado esquerdo, clique no icon parecido com uma ficha elétrica.
 
   ![]({{site.baseurl}}/images/pt_beg_ch3_image03.png)
@@ -106,30 +106,29 @@ Modificar configuração do JOSM
 -  Clique na caixa ao lado do plugin walkingpapers, e pressione “OK” no
     fundo da janela.
 -  O “Walking Papers” será descarregado e instalado. Não clique em
-    “Cancel”.
+    “Cancelar”.
 
 ### Mudar de Linguagem
 
--  O JOSM foi traduzido para muitas linguagens. Se foi traduzido para a
-    sua linguagem, pode modificar isso em “Preferences” (preferências).
--  NOTA: Neste momento existe tradução do JOSM só para português do
-    Brasil, e mesmo essa tradução está incompleta. Como o JOSM tem vindo
-    a ser melhorado de forma mais ou menos rápida, vão aparecendo novos
-    comandos e opções e a tradução desactualiza-se com uma certa
-    rapidez. Onde não existe tradução os termos aparecem em inglês.
--  Se não tiver a janela de “Preferences” aberta, clique “Edit” -\>
-    “Preferences”.
--  Do lado esquerdo, clique no icon que se parece com uma lata de tinta
-    e pincel.
--  No topo da janela, clique no separador que diz “Look and Feel”.
+-  O JOSM foi traduzido para muitos idiomas. Se foi traduzido para a
+    sua linguagem, pode modificar isso em “Preferências”.
+-  Como o JOSM tem recebido melhorias de forma mais ou menos rápida,
+    vão aparecendo novos comandos e opções e a tradução desatualiza-se
+    com uma certa rapidez. Onde ainda não existe tradução os termos
+    aparecem em inglês.
+-  Se não tiver com a janela de “Preferências” aberta, clique em “Editar” -\>
+    “Preferências”.
+-  Do lado esquerdo, clique no ícone que se parece com uma lata de tinta
+    e um pincel.
+-  No topo da janela, clique no separador que diz “Aparência”.
 
   ![]({{site.baseurl}}/images/pt_beg_ch3_image01.png)
 
--  Escolha a linguagem na lista apresentada “português (Brasil)”.
--  Clique “OK”.
+-  Escolha a linguagem na lista apresentada “português” ou “português (Brasil)”.
+-  Clique em “OK”.
 
--  Precisa de reiniciar o JOSM para gravar e activar as configurações.
-    Clique “File” no canto superior esquerdo, e clique “Exit” no fundo
+-  É necessário reiniciar o JOSM para gravar e ativar as configurações.
+    Clique em “Arquivo” no canto superior esquerdo, e clique em “Sair” no fundo
     do menu.
 -  Reinicie o JOSM outra vez indo ao menu “Start” do Windows no canto
     inferior esquerdo. Procure o JOSM e clique nele para iniciar a
@@ -138,11 +137,11 @@ Modificar configuração do JOSM
 Aprender Desenho Básico com o JOSM
 ----------------------------------
 
--  Agora vamos abrir um ficheiro OSM de exemplo que utilizaremos as
+-  Agora vamos abrir um ficheiro OSM de exemplo no qual utilizaremos as
     formas básicas de desenhar mapas com o JOSM. Note que este mapa não
     é real, no sentido que não é um mapa de um local real, por isso
     não o iremos gravar para o OpenStreetMap.
--  Se lhe foi frnecido um conjunto de ficheiros pelo seu instrutor, já
+-  Se lhe foi fornecido um conjunto de ficheiros pelo seu instrutor, já
     deverá ter o ficheiro que iremos abrir, chamado sample.osm.
 -  Se não tem o ficheiro sample.osm no seu computador, pode
     descarregá-lo da Internet. Abra o seu navegador e na barra de
@@ -150,9 +149,9 @@ Aprender Desenho Básico com o JOSM
 
     [http://www.learnosm.org/files/](http://www.learnosm.org/files/)
 
-Com o rato, clique com o botão direito no ficheiro chamado sample.osm, e
-clique “Save Link As...” Escolha um local no seu computador para gravar
-o ficheiro.
+Clique com o botão direito no ficheiro chamado sample.osm, e
+clique “Salvar Link Como...” Escolha um local no seu computador para gravar
+o arquivo.
 
 -  Agora vamos abrir o ficheiro do mapa de exemplo no JOSM. Abra o
     JOSM. Clique no botão “Open” no lado superior esquerdo.
