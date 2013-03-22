@@ -46,26 +46,12 @@
         <a class='banner hide-mobile'>
           <span class='{{page.lang}}'>{{site.translations.[page.lang].contribute}}</span>
         </a>
-        <a class='banner-mobile hide-desktop show-mobile' href='{{site.baseurl}}/{{page.lang}}/contribute'>
+        <a class='banner-mobile hide-desktop show-mobile' href='{{site.baseurl}}/{{page.lang}}/contribute/'>
         </a>
       </div>
     </div>
     <div id='content' class='cf'>
-      <!-- for 404 page -->
-      {% if page.notfound %}
-        <div class='pad1 notfound rounded'>
-          <span></span>
-      {% endif %}
-      <!--  -->
-
         {{ content }}
-
-      <!-- for 404 page -->
-      {% if page.notfound %}
-        </div>
-      {% endif %}
-      <!--  -->
-
     </div>
     <small id='footer' class='fillG cell12'>
       <ul class='contact marginL marginR cell5 padAll'>
@@ -87,7 +73,7 @@
   // contribute banner pops out when hovered over
   $('.banner').hover(
     function() {
-      $(this).addClass('active').attr('href','{{site.baseurl}}/{{page.lang}}/contribute');
+      $(this).addClass('active').attr('href','{{site.baseurl}}/{{page.lang}}/contribute/');
       setTimeout(function(){
         $('.banner span').addClass('active')
         },300)

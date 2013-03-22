@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: GPSとは
-permalink: /jp/beginner/using-gps
+permalink: /jp/beginner/using-gps/
 lang: jp
 category: beginner
 ---

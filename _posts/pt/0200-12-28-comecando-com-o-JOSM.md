@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Iniciação ao JOSM
-permalink: /pt/beginner/start-josm
+permalink: /pt/beginner/start-josm/
 lang: pt
 category: beginner
 ---

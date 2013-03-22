@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Usare i Walking Papers
-permalink: /it/beginner/walking-papers
+permalink: /it/beginner/walking-papers/
 lang: it
 category: beginner
 ---

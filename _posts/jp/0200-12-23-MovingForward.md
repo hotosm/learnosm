@@ -1,7 +1,7 @@
 ---
 layout: doc
 title:  次の一歩のために
-permalink: /jp/beginner/moving-forward
+permalink: /jp/beginner/moving-forward/
 lang: jp
 category: beginner
 ---

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Iniciando o OpenStreetMap
-permalink: /pt/beginner/start-osm
+permalink: /pt/beginner/start-osm/
 lang: pt
 category: beginner
 ---
