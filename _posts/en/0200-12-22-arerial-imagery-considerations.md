@@ -70,10 +70,10 @@ There are ways that you can minimize the imprecision of the imagery
 offset. You will be exposed to two main scenarios and methods for
 overcoming imagery offset:
 
-Case 1. you want to trace over imagery in an area that has already been
+1. you want to trace over imagery in an area that has already been
 mapped in OSM
 
-Case 2. you want to trace over an imagery in an area where there is no
+2. you want to trace over an imagery in an area where there is no
 existing data in OSM
 
 Offsets with existing data in OSM
