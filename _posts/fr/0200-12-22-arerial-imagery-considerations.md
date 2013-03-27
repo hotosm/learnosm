@@ -1,185 +1,187 @@
 ---
 layout: doc
-title: Using Arial Imagery
+title: Utiliser l'imagerie aérienne
 permalink: /fr/beginner/aerial-imagery/
 lang: fr
 category: beginner
 ---
 
-Using Aerial Imagery
-====================
+Utiliser l'imagerie aérienne
+============================
 
-Tracing over imagery is both an easy and powerful way to contribute to
-OSM. Especially when resolution is high and skies are clear, digitizing
-from satellite imagery can provide the skeleton of OSM maps. This is
-useful because it makes ground-truthing, or gathering attribute data,
-easier for people in the field.
+Tracer à partir d'images aériennes est un moyen simple et efficace de
+contribuer à OSM. Si la résolution est élevée et que le ciel est clair,
+c'est un bon moyen pour mettre en place le squelette de la carte OSM. C'est
+une étape très utile, qui rend plus facile la vérification et la collecte
+des données sur le terrain. 
 
-Nonetheless, tracing from imagery requires some precautions so that
-objects are not placed in the wrong location. There are two important
-aspects that must be considered when tracing from imagery:
+Néanmoins, utiliser les images aériennes demande quelques précautions pour
+ne pas tracer les objets au mauvais endroit. En particulier, deux aspects
+doivent être considérés avec attention:
 
-1.  Resolution: The resolution refers to the detail of imagery or the
-    number of pixels from which the image is comprised. A pixel is the
-    smallest unit of an image. The smaller the area of the pixel the
-    better the resolution. With smaller pixels you are able to
-    distinguish between between objects on earth better, as evidenced by
-    the figure below. On the left is an image with low resolution, and
-    less pixels per image. It is hard to distinguish the puzzle piece
-    because a majority of the image is considered part of the puzzle
-    piece. On the other hand, the image on the right with high
-    resolution has smaller pixel units and therefore enables the puzzle
-    piece to be much
-    more distinguishable. In OSM, you are most likely to be able to use
-    imagery is high resolution. Satellite civil imagery offers
-    resolution under “1 meter”, which means each pixel of the imagery
-    represents a one meter squared. That is pretty good!
+1.  La résolution: la résolution détermine la précision d'une image, en 
+    d'autres termes le nombre de pixels qui la composent. Un pixel 
+    représente la plus petite unité d'une image. Plus le pixel est petit, 
+    plus la résolution est élevée. De plus petits pixels permettent de mieux
+    distinguer les objets au sol, comme le montre l'infographie ci-dessous.
+    Sur la gauche, une image de basse résolution, donc moins de pixels. 
+    Distinguer la pièce de puzzle n'est pas évident puisque l'image est
+    presque entièrement recouverte par sa représentation. De son côté,
+    l'image de droite, de haute résolution, a un pixel plus petit, 
+    permettant de mieux distinguer les contours de la pièce de puzzle.
+    Avec OSM, vous utiliserez généralement des images de haute
+    résolution. Les images provenant des satellites civils ont une
+    résolution inférieure à "1 mètre", ce qui veut dire que chaque pixel
+    représente un carré d'un mètre carré. C'est pas mal!
 
     ![puzzle][]
 
-2.  Georeference: The georeference is a term for how the imagery was
-    set, or essentially how close the imagery’s pixels represent the
-    actual locations on the ground. This a relatively complex process,
-    and the greater the terrain variation and relief, the harder the
-    georeferencing. Satellites are hundreds of kilometers from the
-    surface of the earth and when they take flat pictures to represent
-    the curved earth there is bound to be some distortion and offset.
-    The existence of offsets is shown slightly when you move between two
-    images covering the same area, e.g. when you zoom in and the former
-    displayed layer replaces another one with better resolution. Can you
-    see shifts in the objects displayed in the imagery?
+2.  Le géoréférencement: le géoréférencement représente l'alignement de
+    l'image, ou en d'autres termes les pixels de l'image sont proches
+    des points correspondants sur le terrain. C'est un processus complexe,
+    et plus le terrain a de variation et de relief, plus le géoréférencement
+    sera complexe. Les satellites sont à des centaines de kilomètres de la
+    surface de la Terre, et leurs photos "aplatissent" une planète ronde,
+    ce qui conduit forcément à des distorsions et des décalages. Les
+    décalages sont particulièrement visibles quand on peut passer d'une
+    image à une autre couvrant la même zone, par exemple en zoomant ou
+    dézoomant. Pouvez-vous percevoir des variations dans les objets
+    affichés?
 
-To get an idea of why the offset occurs image taking a picture of a
-statue and printing it. Now try to deform and stretch it so that it
-mimics the shape of the statue. This is what occurs when georeferencing
-imagery.
+Pour mieux comprendre pourquoi il y a des décalages, vous pouvez faire
+l'expérience suivante: prenez la photo d'une statue et essayez de la
+déformer pour lui donner la forme de la statue. C'est en gros ce en quoi
+consiste le géoréférencement.
 
-Fortunately, satellites are progressively being built with greater
-imagery precision and therefore extremely accurate resolution (the unit
-is often in centimeters). On the other hand, the georeferences of
-satellites is still off, for which the unit remains over a meter. A 5-10
-m georeference is considered good.
+Heureusement, la précision des instruments des satellites va en s'améliorant
+et donc la résolution est toujours plus élevée (l'unité est souvent en
+centimètres). D'un autre côté, le géoréférencement souffre encore d'un
+manque de précision, ce qui fait que la résolution des images finales est
+toujours supérieure à un mètre. Un géoréférencement de 5 à 10 mètres est
+considéré de bonne qualité.
 
-When you are trying to accurately map an area based on satellite
-imagery, keep in mind that high resolution imagery is not the only
-aspect that permits good location. Almost all objects in the image are
-offset from the ground location.
+Si vous voulez cartographier avec précision une zone en utilisant les images
+satellite, ayez en tête que leur résolution n'est pas le seul paramètre
+qui permet un positionnement précis. Presque tous les objets de la carte
+sont décalés par rapport à leur réelle position.
 
-There are ways that you can minimize the imprecision of the imagery
-offset. You will be exposed to two main scenarios and methods for
-overcoming imagery offset:
+Des méthodes permettent de réduire l'imprécision des images aériennes. Elles
+dépendent de deux principaux cas de figure:
 
-1. you want to trace over imagery in an area that has already been
-mapped in OSM
+1. vous cartographiez une zone qui a déjà été en partie cartographiée dans
+OSM
 
-2. you want to trace over an imagery in an area where there is no
-existing data in OSM
+2. vous cartographiez une zone pour laquelle aucune donnée n'existe dans OSM
 
-Offsets with existing data in OSM
----------------------------------
 
-Sometimes after downloading OSM data, adding the imagery, and zooming
-into the best resolution, you realize that the existing OSM data,
-especially roads, does not correctly overlay the imagery objects.
+Gérer l'alignement quand il y a déjà des données dans OSM
+---------------------------------------------------------
+
+Parfois, après avoir chargé les données OSM, ajouté les images aériennes, et
+zoomé jusqu'à la meilleure résolution, vous réalisez que les données d'OSM,
+en particulier les routes, ne sont pas parfaitement alignés avec les images.
 
 ![existing data][]
 
-Many OSM beginners believe that the roads have been traced incorrectly
-and thus move the roads to what appear to be the better location. Moving
-the road may be completely __WRONG__! There is a potential that the
-imagery is poorly aligned in comparison to the reality in the field.
+Beaucoup de mappeurs débutants pensent que les routes ont mal été tracées et
+donc les déplacent vers ce qui leur semble un meilleur positionnement. C'était peut-être une __TRÈS__ mauvaise idée! Il est tout à fait probable
+que les images soient moins bien alignées que les données OSM.
 
-A way to check or prove that the imagery is offset is through using GPS
-tracks. To do so, add __existing GPS tracks__(yours or
-other peoples-- more information on how to do this can be found in
-[Adding](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[GPS](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[Data](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[to](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[OSM](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[server](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit))
-to the area you are tracing. Click on
-![download][] then tick «Raw GPS
-data» near the top in the «Download» window. After downloading, an
-additional layer «Downloaded GPX data» will appear.
+Une façon de vérifier le décalage des images est d'utiliser des traces GPS.
+Pour cela, ajoutez des __traces déjà existantes__ (les vôtres ou celles
+d'autres mappeurs -- pour plus d'informations sur le sujet, consulter le
+document [AddingGPSDatatoOSMserver](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit))
+pour la zone en cours d'édition. Cliquez sur ![download][], puis
+sélectionnez «Données GPS» en haut de la fenêtre «Télécharger». Une fois
+les données téléchargées, un nouveau claque «Données GPS téléchargées»
+doit apparaître.
 
 ![downloaded GPX][]
 
-In this example, with the GPS tracks (in red) added you can see that the
-existing data (here: the roads) is positioned correctly. The imagery is
-actually not correctly georeferenced, and has an offset in comparison
-with the reality. It has to be adjusted.
+Cet exemple montre que les traces GPS (en rouge) permettent de vérifier que
+les données existantes (en l'occurrence, les routes) sont correctement
+positionnées. Ce sont donc les images qui ne sont pas correctement
+géoréférencées, et qui sont donc décalées par rapport à la réalité. Ceci
+doit être ajusté.
 
-> Do not be confused that the tracks appear like a sequence of
-> lines and not one solid line. Most GPS devices have a 2-5 m accuracy,
-> which is sufficient for roads because you do not drive or walk in the
-> middle of the road. Try to imagine an average GPS trace somewhere in the
-> middle of the existing lines.
+> Ne soyez par surpris parce que les différentes traces GPS ne sont pas
+> parfaitement superposées. La plupart des GPS ont une précision de 2 à
+> 5 mètres, ce qui est suffisant pour les routes puisqu'on ne conduit ou
+> marche pas au milieu de la route. Considérez que la route réelle se trouve
+> sur la médiane des traces.
 
-To offset imagery, right-click the imagery layer or menu «Imagery», open
-«New offset», or use the imagery adjust button
-![adjust button][] in left toolbar. Then
-drag the imagery so that it is correctly overlaid by the tracks. Click
-on another tool when it is over. Note that for some projects people will
-save offset information to the wiki or other sources so that people
-working together on areas can share common values. You can also give the
-offset a “Bookmark name” if you need to use it again in the future. This
-offset is saved in a new “Imagery offset” menu available from the
-imagery drop-down.
+Pour réaligner les images aériennes, faites un clic droit sur le calque
+de l'imagerie, ou, dans le menu «Imagerie», sélectionnez «Décalage de
+l'imagerie», ou utilisez le bouton d'ajustement de l'imagerie
+![adjust button][] sur la barre d'outils de gauche. Faites ensuite glisser
+les images de sorte à les aligner correctement avec les traces. Notez que
+pour certains projets, il est d'usage de publier les décalages nécessaires,
+par exemple dans le wiki, de sorte à ce que plusieurs personnes travaillant
+sur le même projet puisse utiliser les mêmes valeurs. Si vous pensez
+réutiliser le même offset plus tard, vous pouvez compléter le champ «Nom du signet» pour le mettre en favori. Vous pourrez le réactiver via le menu «Décalage de l'imagerie».
 
 ![adjust window][]
 
 ![downloaded GPX][]
 
-Now that the imagery is adjusted you can trace over it. While mapping
-you can hide layer «Downloaded GPX data» if it interferes with your
-work.
+Maintenant que l'imagerie est correctement alignée, vous pouvez l'utiliser
+pour tracer. Si les traces GPS vous gênent pour travailler, vous pouvez
+masquer le calque «Données GPS téléchargées».
 
 ![adding to existing data][]
 
-One last thing to remember: the offset might not be the same over the
-extent of the imagery! This is especially true in regions with a marked
-relief. So when the imagery seems to be offset again, repeat the whole
-process.
+Une dernière chose à avoir en tête: le décalage peut ne pas être homogène
+pour la zone sur laquelle vous travaillez! Ceci est particulièrement vrai
+pour les régions avec un important relief. Il faudra donc peut-être répéter
+tout le processus si les images semblent décalées de nouveau.
 
-Offsets with no existing data in OSM
-------------------------------------
+Gérer l'alignement quand aucune donnée OSM n'existe
+---------------------------------------------------
 
-It may happen that you are the first one to OSM map an area, e.g. in
-remote rural areas or in developing countries. Therefore, neither
-existing OSM data nor GPS tracks can be downloaded.
+Il peut arriver que vous soyez le premier à cartographier une zone, par
+exemple dans les régions rurales reculées ou dans les pays en voies de
+développement. En conséquence, aucune donnée ou trace GPS ne peut être
+téléchargée.
 
 ![no data][]
 
-How can you deal with this since you do not have any reference to
-control the offset of the imagery? There are two ways around this:
+Comment faire puisque vous n'avez aucune référence permettant de vérifier
+le décalage de l'imagerie? Il y a deux pistes possibles:
 
-1.  Go into the field: If you have the possibility to use a GPS in the
-    area, take waypoints on significant infrastructure or objects that
-    will are visible on the imagery and/or make tracks of the roads,
-    then add them in JOSM.
+1.  Aller sur place: si vous (ou quelqu'un d'autre) avez la possibilité
+    d'utiliser un GPS sur la zone couverte, prenez des waypoints des
+    principales infrastructures ou d'objets remarquables qui seront
+    visibles sur l'imagerie, ou prenez les traces des routes, et ajoutez
+    ces données dans JOSM.
 
-2.  Use existing data: If you cannot go into the field then another
-    option is to gather other __Open Database License data (ODbl)__
-    If you can it is best to check the imagery with another image that
-    is correctly aligned. If you are offsetting an image based on
-    another one, using transparency is the easiest way. To do this,
-    simply click the gradient line and change the opacity of the layer.
+2.  Utiliser des données tierces: si vous ne pouvez pas aller sur le 
+    terrain, une autre option est de collecter d'autres __données sous
+    licence ODbl (Open Database License)__. Le mieux étant de pouvoir
+    contrôler les images à partir d'autres images. Dans ce cas, le plus
+    facile est d'utiliser la transparence. Pour cela, cliquez simplement
+    sur la ligne de gradient et changez l'opacité du calque.
 
     ![change opacity][]
 
-Usually administration imagery has poor resolution, over ten meters of
-resolution, and so might be worst than the previous image.
+En général, les images provenant de l'administration ont une très basse
+résolution, et peuvent donc être de moins bonne qualité que l'imagerie à
+disposition.
 
-If you have access to vector data, roads, lakes, rivers and buildings
-are your best options for determining how offset your imagery is. Try to
-stay away from boundary lines because those are not reliable for
-figuring out if imagery is misaligned.
+Si vous avez accès à des données vectorielles, les routes, lacs, rivières
+et bâtiments sont les meilleures options pour mesurer le décalage de
+l'imagerie. Tâchez de ne pas utiliser les limites administratives, elles
+sont rarement fiables pour ce besoin précis.
 
-Summary
--------
+En résumé
+---------
 
-Tracing imagery is a technique that makes mapping in OSM faster and more
-efficient. However, it must be done with precision and care. There are
-times when you are digitizing an area and the imagery itself may be off.
-Whether it be through poor resolution or poorly georeferenced imagery,
-there are ways you can deal with inaccurate imagery. They mainly involve
-referencing imagery with GPS traces and tracks.
+Tracer avec une imagerie est une technique permettant de cartographie de
+façon rapide et efficace. Néanmoins, cette technique demande de précision
+et précaution. Il arrive que les images à votre disposition pour
+cartographie une zone ne donnent pas satisfaction. Que soit parce qu'elles
+sont de faible résolution ou parce qu'elles sont mal géoréférencées, il y a
+des méthodes pour travailler avec des images manquant de précision. La
+principale consiste à utiliser des données GPS pour les recaler.
 
 [puzzle]: {{site.baseurl}}/images/offset_puzzle_en.png
 [existing data]: {{site.baseurl}}/images/offset_existing_data_en.png
