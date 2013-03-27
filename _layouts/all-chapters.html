@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class='doc-nav marginL cell3 padAll cf'>
+      <ul>
+    {% for post in site.categories.[page.category] %}
+      {% if {{post.lang}} == {{page.lang}} %}{% unless post.hidden %}
+      <li class='doc rounded'>
+        <a class='title {% if {{post.cover}} %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
+          <span>{{ post.title }}</span>
+        </a>
+      </li>
+      {% endunless %}{% endif %}
+    {% endfor %}
+  </ul>
+</div>
