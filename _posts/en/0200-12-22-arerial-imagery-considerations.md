@@ -23,7 +23,7 @@ aspects that must be considered when tracing from imagery:
     number of pixels from which the image is comprised. A pixel is the
     smallest unit of an image. The smaller the area of the pixel the
     better the resolution. With smaller pixels you are able to
-    distinguish between between objects on earth better, as evidenced by
+    distinguish between objects on earth better, as evidenced by
     the figure below. On the left is an image with low resolution, and
     less pixels per image. It is hard to distinguish the puzzle piece
     because a majority of the image is considered part of the puzzle
