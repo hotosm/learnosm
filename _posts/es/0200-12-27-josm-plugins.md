@@ -1,99 +1,114 @@
 ---
 layout: doc
-title: JOSM Plugins
+title: Complementos de JOSM
 permalink: /es/beginner/josm-plugins/
 lang: es
 category: beginner
 ---
 
-JOSM Plugins and Preferences
-============================
+Complementos de JOSM y Opciones
+===============================
 
-As you become more advanced in your editing techniques, you may start
-wondering how you can find additional JOSM features to improve your
-mapping skills. JOSM allows you to install numerous plugins, which are
-extra tools that allow you to complete specific tasks in the software.
-You have already installed several plugins if you have been following
-these tutorials. In the preceding chapter, you installed a plugin that
-allows you to use the SDS (Separate Data Store). Prior to that, you
-installed a plugin to use Walking Papers. There are many different
-plugins available in JOSM and we will cover some of the most useful ones
-in this chapter.
+Según vayas avanzando en tus técnicas de edición podrías empezar a 
+preguntarte como encontrar características adicionales de JOSM que
+te ayuden a mejorar tus habilidades para dibujar mapas. JOSM te permite
+instalar numerosos complementos que son herramientas extras que te 
+permiten realizar tareas específicas en el programa. Ya has instalado
+algunos complementos si has estado siguiendo estos tutoriales.  En el 
+capítulo anterior has instalado un plugin que te permite usar SDS (Separate DAta Store o Almacén de Datos Independiente). Antes de eso, habrás instalado
+el complemento para usar Walking Papers. Hay muchos complementos disponibles
+para JOSM pero en este capítulo solo cubriremos algunos de los más útiles.
+
 
 ![plug]({{site.baseurl}}/images/plugins_html_m76fc73bd_en.png)
 
-Any time you want to install a new plugin, go to Edit --\> Preferences
-and click on the “Plugins” tab. If you don’t see a list of available
-plugins, click “Download List.” You can install any plugin by checking
-the box next to it and clicking OK down at the bottom. When you install
-a new plugin, you will need to restart JOSM. By now you must be tired of
-restarting JOSM every time you change the settings. Luckily, our first
-plugin is made to restart JOSM for you!
+Cuando quieras instalar un complemento nuevo ve a Edición --\> Preferencias
+y clica la pestaña «Complementos». Si no ves una lista con los complementos
+disponibles, haz clic en «Descargar Lista». Para instalar cualquier 
+complemento marca la casilla junto al mismo y haz clic en el botón Aceptar que
+hay en la parte de abajo. Cuando se instala un nuevo complemento es necesario
+reiniciar JOSM. Ya dedes de estar cansado de tener que reiniciar JOSM cada vez que cambias las opciones. Afortunamente, ¡nuestro primer complemento está
+hecho para reiniciar JOSM en tu lugar!
 
-Recommended Plug-ins:
+Complementos recomendados:
+- [Restart]({{site.baseurl}}/es/beginner/josm-plugins/#restart) (añade un
+botón de «reinicio»).
+- [Mirrored Download]({{site.baseurl}}/es/beginner/josm-plugins/#mirrored-download) (te permite descargar más datos de OSM).
+- [Direct Upload]({{site.baseurl}}/es/beginner/josm-plugins/#direct-upload) 
+(te permite subir rastros GPS).
+- [Editgpx]({{site.baseurl}}/es/beginner/josm-plugins/#edit-gpx) (permite la
+edición de archivos GPX).
+- [Print]({{site.baseurl}}/es/beginner/josm-plugins/#print).
 
-- [Restart]({{site.baseurl}}/en/beginner/josm-plugins/#restart) (inserts ´restart´ button)
-- [Mirrored Download]({{site.baseurl}}/en/beginner/josm-plugins/#mirrored-download) (allows you to download more OSM data)]
-- [Direct Upload]({{site.baseurl}}/en/beginner/josm-plugins/#direct-upload) (allow you to upload GPS tracks)]
-- [Editgpx]({{site.baseurl}}/en/beginner/josm-plugins/#edit-gpx) (allows you to edit GPX files)]
-- [Print]({{site.baseurl}}/en/beginner/josm-plugins/#print)
-
-We also recommend downloading these plug-ins, which are covered in other
-chapters:
+También se recomienda la descarga de estos complementos que han se explican
+en otros capítulos.
 
 - Walking Papers
 - Buildings\_tool
 - Utilsplugin2
+
 
 Restart
 -------
 
 ![restart]({{site.baseurl}}/images/plugins_html_57cb1b84_en.png)
 
-__Restart__ does just what it says. It adds an item in
-the File menu that tells JOSM to restart. This can save you time when
-you are changing settings and need to restart the software often. But
-guess what! The plugin won’t be activated until you restart, so first
-you will need to restart JOSM manually. Once you have done this, you
-will see the new item on the File menu.
+__Restart__ (reiniciar) hace justo lo que dice. Añade un elemento en 
+el menú Archivo que le dice a JOSM que se reinicie. Esto ahorra tiempo
+cuando estas cambiando opciones a menudo y necesitas reiniciar el programa
+para que los cambios tengan efecto. Pero ¡sabes qué!, el complemento
+no se activará hasta que reinicies, así que  primero necesitas reiniciar
+JOSM manualmente. Una vez hecho esto, verás la entrada nueva en el menú
+Archivo.
 
 ![]({{site.baseurl}}/images/plugins_html_m6d2d20a9_en.png)
 
-Try clicking “Restart JOSM” and watch the software reload on its own.
+Prueba a seleccionar «Reiniciar JOSM» y verás como el programa se 
+recarga a sí mismo.
+
 
 Mirrored Download
 -----------------
 
 ![]({{site.baseurl}}/images/plugins_html_m2c477766_en.png)
 
-__Mirrored Download__ will make downloading OSM
-data for editing faster. Instead of getting the data from the central
-OSM server, it allows us to get it from a “mirror,” which is an exact
-replica of the data but in a location that is faster to access it.
+__Mirrored Download__  (descarga desde espejo) hace que descargar datos
+de OS para editar sea más rápido. En lugar de obtener los datos desde el
+servidor central de OSM, nos permite descargarlos desde un «espejo» (_mirror_),
+que es una réplica exacta de los datos pero en otra ubicación con un acceso
+más rápido.
 
-Once the plugin is installed (and you have restarted JOSM), you will see
-another new entry on the File Menu, “Download from OSM mirror...”
+Una vez instalado el complemento (y reiniciado JOSM) verás otra nueva 
+entrada en el menú Archivo, «Download from OSM mirror...» (descargar 
+desde espejo de OSM...).
 
 ![]({{site.baseurl}}/images/plugins_html_1f3d8d84_en.png)
 
-Downloading data is exactly the same process you learned before, but it
-can be much faster!
+Para descargar datos hay que seguir el mismo proceso que ya has aprendido
+pero ¡ahora la descarga será mucho más rápida!
 
 Direct Upload
 -------------
 
 ![]({{site.baseurl}}/images/plugins_html_m37f530e4_en.png)
 
-__DirectUpload__ uploads GPX tracks directly to OSM
-through JOSM (more information is available in the **Appendix**). Once
-the plug-in is installed (and you have restarted JOSM), you will see
-anew “Upload traces” item under the “Tools” Menu.
+__DirectUpload__ (subida directa)  sube trazas GPX directamente a OSM
+desde JOSM (más información disponible en el **Apéndice**). Una vez que
+el complemento está instalado (y has reiniciado JOSM) verás un nueva nueva
+entrada en el menú «Herramientas» llamada «Subir trazas».
 
 ![]({{site.baseurl}}/images/plugins_html_m53ca88fd_en.png)
 
-When you click on the “Upload Traces” button this window will pop up:
+Cuando seleccionas el botón «Subir trazas» aparecerá esta ventana:
 
 ![]({{site.baseurl}}/images/plugins_html_2e01a9a7_en.png)
+
+
+
+
+
+
+
 
 Put keywords (seperated by commas without spaces) that relate to your
 GPS trace in the \<\<Tags (comma delimited)\>\> box. For example,
