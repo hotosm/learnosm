@@ -1,133 +1,128 @@
 ---
 layout: doc
 title: Getting Started Editing
-permalink: /en/beginner/start-josm/
-lang: en
+permalink: /de/beginner/start-josm/
+lang: de
 category: beginner
 ---
 
-Getting Started Editing: JOSM
+Mit dem Bearbeiten beginnen: JOSM
 =============================
 
-In this chapter we will learn step by step how to download and install
-JOSM, the Java OpenStreetMap editor. We will change some of the settings
-in JOSM to make it easier to use. Then we will open a sample map and
-learn some of the basic operations of the software. Remember in chapter
-1 when we asked you to draw a map of your town or village? We will
-conclude this chapter by drawing your map again, this time digitally.
-After this you should have a good understanding of how to draw maps in
-JOSM.
+In diesem Kapitel werden wir Schritt für Schritt lernen, wie man JOSM, den Java 
+OpenStreetmap Editor, herunterlädt und installiert. Damit die Benutzung einfacher 
+wird, werden wir ein paar Enstellungen verändern. Anschließend werden wir eine 
+Beispielkarte öffnen, und einige der grundlegenden Arbeitsschritte der Software 
+lernen. Erinnerst du dich an das erste Kapitel, in dem du eine Karte deines 
+Wohnortes zeichnen solltest? Wir werden dieses Kapitel abschließen indem wir 
+die Karte noch einmal zeichnen, dieses Mal allerdings digital. Hiernach solltest 
+du ein gutes Verständnis davon haben, wie man in JOSM Karten erstellt.
 
-Download JOSM
+JOSM Herunterladen
 -------------
 
-- If you have a copy of JOSM on a CD or usb flash drive, you can skip
-to section 2, Install JOSM.
-- If you don’t have JOSM already, or want the newest version, open
-your web browser - this may be Firefox, Chrome, Opera, or Internet
-Explorer.
-- In the address bar at the top of the window, enter the following
-text and press Enter:[josm.openstreetmap.de](http://josm.openstreetmap.de)
-- You can also find this website by searching for “JOSM”
-- The website should look something like this:
+- Wenn du bereits eine Version von JOSM auf CD oder einem USB-Stick hast, kannst 
+du direkt zu Schritt 2, "JOSM Installieren" springen.
+- Wenn du JOSM noch nicht hast, oder die aktuellste Version haben möchtest, öffne 
+deinen Browser - dies könnte Firefox, Chrome, Opera oder Internet Explorer sein.
+- Gebe am oberen Rand des Fensters in der Adresszeile folgenden Link ein und 
+drücke Enter:[josm.openstreetmap.de](http://josm.openstreetmap.de)
+- Du kannst die Seite auch finden, indem du einfach nach "JOSM" suchst.
+- Die Webseite sollte dann in etwa so aussehen:
 
   ![]({{site.baseurl}}/images/start_josm_image05_en.png)
 
-- If you have Windows installed on your computer, click “Windows JOSM
-  Installer” to download JOSM. If you have a different operating
-  system, click on the link for your system. Your download should
-  begin. In this chapter we will assume that you are using Windows,
-  but the instructions are similar for other operating systems.
+- Falls du Windows auf deinem Computer installiert hast, klicke auf "Windows 
+Installer", um JOSM herunterzuladen. Wenn du ein anderes Betriebssystem benutzt, 
+klicke auf den entsprechenden Link für dein System. Die Datei sollte dann 
+automatisch heruntergeladen werden. In diesem Kapitel werden wir davon ausgehen, 
+dass du Windows benutzt, aber die Vorgehensweise ist für andere Betriebssysteme 
+ähnlich.
 
-Install JOSM
+JOSM Installieren
 ------------
 
-- You may have problems installing JOSM if Java is not already
-  installed on your computer. If you have problems in this section,
-  try downloading and installing Java. You can download it here:
-  [http://www.java.com/en/download/](http://www.java.com/en/download/)
-- Find the JOSM install file on your computer. Double-click it to
-  begin setup.
-- Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation
-  is complete, click ‘Finish’ to launch JOSM for the first time.
-  Later, when you want to start JOSM, you can do so by clicking on the
-  Start Menu in the lower left corner of your computer, and clicking
-  the program JOSM.
-- You may see a window pop up that asks if you want to update the
-  software.  You don’t need to update it since it is new.  Press the
-  button that says “Cancel.”  If you don’t ever want to see this
-  message again, check the box at the bottom before pressing “Cancel.”
-- When JOSM starts, it will look something like this:
+- Es kann sein, dass du bei der Installation von JOSM Probleme hast, falls Java 
+noch nicht auf deinem Computer installiert ist. Sollte das der Fall sein, versuche 
+Java herunterzuladen und zu installieren:
+  [http://www.java.com/de/download/](http://www.java.com/de/download/)
+- Suche die JOSM-Installationsdatei und doppelklicke sie, um die Installation zu 
+starten.
+- Klicke "OK", "Weiter", "Annehmen", "Weiter" und "Installieren". Wenn die 
+Installation abgeschlossen ist, klicke "Weiter" und "Fertig stellen", um JOSM das 
+erste Mal zu starten. Wenn du später JOSM starten willst, klicke auf das Startmenu 
+in der unteren linken Ecke deines Desktops, und anschließend auf das Programm JOSM.
+- Möglicherweise siehst du ein Fenster, welches fragt, ob du JOSM aktualisieren willst. 
+Da die Software neu ist, ist dieses nicht notwendig. Klicke daher auf 'Aktualisierung 
+überspringen'. Falls du diese Nachricht nicht mehr sehen willst, aktiviere das 
+Auswahlfeld im unteren Teil des Fensters.
+- Wenn JOSM gestartet ist, wird es in etwa so aussehen:
 
   ![]({{site.baseurl}}/images/start_josm_image08_en.png)
 
-Change JOSM Settings
+JOSM Einstellungen ändern
 --------------------
 
-Before we begin using JOSM, it’s a good idea to change some of the
-settings so that is will be easier to use. To change the settings,
-click “Edit” on the top menu, and then click “Preferences.”
+Bevor wir Anfangen, JOSM zu benutzen, ist es sinnvoll ein paar Einstellungen zu ändern, 
+damit es einfacher zu benutzen wird. Klicke dafür im oberen Menu auf "Bearbeiten" und 
+anschließend auf "Einstellungen".
 
 ![]({{site.baseurl}}/images/start_josm_image13_en.png)
 
-### Add Bing Imagery
+### Bing Sat hinzufügen
 
-- We want to be able to use satellite imagery when we are making our
-  maps, so let’s add that from the Preferences window. On the left
-  side of the Preferences window there are different icons for
-  different settings. Click on the icon that says “WMS TMS”. You may
-  need to click on the down arrow to find it:
+- Wir möchten die Möglichkeit haben, Satellitenbilder zu nutzen, um unsere Karten zu 
+erstellen. Auf der linken Seite des Einstellungen-Fensters sind verschiedene Symbole 
+für diverse Einstellungen. Klicke nun auf das Symbol, welches mit "WMS TMS" beschriftet 
+ist. Möglicherweise musst du auf den Pfeil nach unten klicken, um das Symbol zu finden:
   
   ![]({{site.baseurl}}/images/start_josm_image07_en.png)
   
   ![]({{site.baseurl}}/images/start_josm_image02_en.png)
 
-- Click on “Bing Sat”. Then Click “Activate”.
+- Klicke nun auf on “Bing Sat”. Dann klicke auf “Aktivieren”.
 
   ![]({{site.baseurl}}/images/start_josm_image11_en.png)
 
-- You should now see “Bing Sat” in the list below the Activate button.
+- Nun sollte “Bing Sat” in der Liste unter der Aktivieren-Schaltfläche erschienen sein.
 
-### Add Presets
+### Vorlagen hinzufügen
 
-- If you have been given a file that should be added to the presets
-    menu, you can add it now. For example, a presets file might be named
-    something like buildings.xml.
-- You should still have the Preferences window open. If you don’t,
-    click Edit -\> Preferences to open the window.
-- On the left side, click the icon that looks like a grid.
+- Solltest du eine Datei haben welche zum Vorlagen-Menu hinzugefügt werden soll, 
+kannst du diese nun hinzufügen. Eine solche Datei könnte zum Beispiel buildings.xml heißen.
+- Solltest du das Einstellungen-Fenster nicht mehr geöffnet haben, klicke erneut auf 
+"Bearbeiten" und anschließend auf "Einstellungen" um das Fenster erneut zu öffnen.
+- Klicke nun auf der linken Seite auf das Symbol, welches wie ein Raster aussieht:
 
   ![]({{site.baseurl}}/images/start_josm_image09_en.png)
 
-- Click the tab at the top that reads “Tagging Presets”.
-- In the upper right, press the + button.
-- Next to the second box on the right, click the button that looks
-    like a folder. Navigate to the presets file you want to add, for
-    example, buildings.xml.
-- Click OK
+- Klicke in der oberen Leiste nun auf den Reiter "Objektvorlagen".
+- Klicke die "+" Schaltfläche oben rechts.
+- Klicke nun auf das Ordnersymbol rechts neben dem zweiten Eingabefeld. Navigiere zur 
+Vorlagendatei, welche du hinzufügen willst, zum Beispiel buildings.xml.
+- Klicke OK.
 
-### Add Walking Papers Plugin
+### Walking Papers Erweiterung hinzufügen
 
-- Later in this guide we will learn about a tool called Walking
-  Papers, which will allow us to print out a map of an area, draw on
-  it and take notes, and then load it into JOSM in the background.
-  Then we can add our drawings and our notes into OpenStreetMap. Now
-  we will add the Walking Papers plugin to JOSM.
-- You should still have the Preferences window open. If you don’t,
-   click Edit -\> Preferences to open the window.
-- On the left side, click the icon that looks like a plug.
+- Später werden wir in dieser Anleitung etwas über das Walking Papers Werkzeug erfahren, 
+welches uns erlaubt, einen Kartenausschnitt auszudrucken, darauf zu zeichnen und Notizen 
+zu machen und es anschließend in JOSM als Hintergrund zu laden. Dann können wir unsere 
+Zeichnungen und Notizen in OpenStreetMap hinzufügen. Nun werden wir zunächst die Walking 
+Papers Erweiterung zu JOSM hinzufügen.
+- Solltest du das Einstellungen-Fenster nicht mehr geöffnet haben, klicke erneut auf 
+"Bearbeiten" und anschließend auf "Einstellungen" um das Fenster erneut zu öffnen.
+- Klicke nun auf der linken Seite auf das Symbol, welches wie ein Stecker aussieht:
 
   ![]({{site.baseurl}}/images/start_josm_image04_en.png)
 
-- Click the button that says “Download list”. The list will download
-   from the internet, and when it is finished you will see a list of
-   optional plugins appear in the window.
-- In the search box at the top, type “walking”. This will show only
-   items in the list that have “walking” in the title.
-- Click the checkbox next to the walkingpapers plugin, and press OK at
-   the bottom of the window.
-- Walking Papers will now be downloaded and installed. Do not click
-    “Cancel”.
+- Klicke nun auf die Schaltfläche "Liste herunterladen". Nun wird eine Liste mit 
+optionalen Erweiterungen aus dem Internet geladen, welche nach kurzer Zeit erscheint.
+- Gebe nun in der Suchleiste im oberen Teil des Fensters "walking" ein. 
+Daraufhin werden nur noch die Elemente der Liste angezeigt, welche das Wort "walking" 
+im Titel haben.
+- Klicke nun in das Auswahlkästchen neben der walkingpapers Erweiterung und klicke OK 
+im unteren Teil des Fensters.
+- Die Erweiterung wird nun heruntergeladen und installiert. Klicke nicht auf "Abbrechen".
 
 ### Change Language
 
