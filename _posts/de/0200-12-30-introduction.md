@@ -7,7 +7,7 @@ category: beginner
 ---
 
 Einführung
-============
+==========
 
 Informationen sind mächtig. Mit qualitativ guter Information und dem richtigen Verständnis kann jeder Einzelne aber auch die Gemeinschaft ihr Leben verbessern und bessere Entscheidungen treffen, die ihre Zukunft angehen. Es gibt viele Menschen und Organisationen, die Entscheidungen treffen, die unser Leben beeinflussen.  
 Qualitativ gute Information erlaubt diesen NGOs, Regierungen und Bürgern bessere Entscheidungen zu treffen, und unsere Lebensqualität zu verbessern. 
