@@ -1,80 +1,86 @@
 ---
 layout: doc
-title: Getting Started Editing
+title: Erste Schritte beim Editieren
 permalink: /de/beginner/start-josm/
 lang: de
 category: beginner
 ---
 
-Mit dem Bearbeiten beginnen: JOSM
-=============================
+Erste Schritte beim Editieren mit JOSM
+======================================
 
-In diesem Kapitel werden wir Schritt für Schritt lernen, wie man JOSM, den Java 
-OpenStreetmap Editor, herunterlädt und installiert. Damit die Benutzung einfacher 
-wird, werden wir ein paar Enstellungen verändern. Anschließend werden wir eine 
-Beispielkarte öffnen, und einige der grundlegenden Arbeitsschritte der Software 
-lernen. Erinnerst du dich an das erste Kapitel, in dem du eine Karte deines 
-Wohnortes zeichnen solltest? Wir werden dieses Kapitel abschließen indem wir 
-die Karte noch einmal zeichnen, dieses Mal allerdings digital. Hiernach solltest 
+In diesem Kapitel werden wir Schritt für Schritt lernen, wie man JOSM, 
+den Java OpenStreetmap Editor, herunterlädt und installiert. Damit die 
+Benutzung einfacher wird, werden wir ein paar Enstellungen verändern. 
+Anschließend werden wir eine Beispielkarte öffnen, und einige der 
+grundlegenden Arbeitsschritte der Software lernen. Erinnerst du dich 
+an das erste Kapitel, in dem du eine Karte deines Wohnortes zeichnen 
+solltest? Wir werden dieses Kapitel abschließen indem wir die Karte 
+noch einmal zeichnen, dieses Mal allerdings digital. Hiernach solltest 
 du ein gutes Verständnis davon haben, wie man in JOSM Karten erstellt.
 
 JOSM Herunterladen
--------------
+------------------
 
-- Wenn du bereits eine Version von JOSM auf CD oder einem USB-Stick hast, kannst 
-du direkt zu Schritt 2, "JOSM Installieren" springen.
-- Wenn du JOSM noch nicht hast, oder die aktuellste Version haben möchtest, öffne 
-deinen Browser - dies könnte Firefox, Chrome, Opera oder Internet Explorer sein.
-- Gebe am oberen Rand des Fensters in der Adresszeile folgenden Link ein und 
-drücke Enter:[josm.openstreetmap.de](http://josm.openstreetmap.de)
+- Wenn du bereits eine Version von JOSM auf CD oder einem USB-Stick 
+  hast, kannst du direkt zu Schritt 2, "JOSM Installieren" springen.
+- Wenn du JOSM noch nicht hast, oder die aktuellste Version haben 
+  möchtest, öffne deinen Browser - dies könnte Firefox, Chrome, Opera 
+  oder Internet Explorer sein.
+- Gebe am oberen Rand des Fensters in der Adresszeile folgenden Link 
+  ein und drücke Enter:[josm.openstreetmap.de](http://josm.openstreetmap.de)
 - Du kannst die Seite auch finden, indem du einfach nach "JOSM" suchst.
 - Die Webseite sollte dann in etwa so aussehen:
 
   ![]({{site.baseurl}}/images/start_josm_image05_en.png)
 
-- Falls du Windows auf deinem Computer installiert hast, klicke auf "Windows 
-Installer", um JOSM herunterzuladen. Wenn du ein anderes Betriebssystem benutzt, 
-klicke auf den entsprechenden Link für dein System. Die Datei sollte dann 
-automatisch heruntergeladen werden. In diesem Kapitel werden wir davon ausgehen, 
-dass du Windows benutzt, aber die Vorgehensweise ist für andere Betriebssysteme 
-ähnlich.
+- Falls du Windows auf deinem Computer installiert hast, klicke auf 
+  "Windows Installer", um JOSM herunterzuladen. Wenn du ein anderes 
+  Betriebssystem benutzt, klicke auf den entsprechenden Link für dein 
+  System. Die Datei sollte dann automatisch heruntergeladen werden. In 
+  diesem Kapitel werden wir davon ausgehen, dass du Windows benutzt, 
+  aber die Vorgehensweise ist für andere Betriebssysteme ähnlich.
 
 JOSM Installieren
-------------
+-----------------
 
-- Es kann sein, dass du bei der Installation von JOSM Probleme hast, falls Java 
-noch nicht auf deinem Computer installiert ist. Sollte das der Fall sein, versuche 
-Java herunterzuladen und zu installieren:
+- Es kann sein, dass du bei der Installation von JOSM Probleme hast, 
+  falls Java noch nicht auf deinem Computer installiert ist. Sollte das 
+  der Fall sein, versuche Java herunterzuladen und zu installieren:
   [http://www.java.com/de/download/](http://www.java.com/de/download/)
-- Suche die JOSM-Installationsdatei und doppelklicke sie, um die Installation zu 
-starten.
-- Klicke "OK", "Weiter", "Annehmen", "Weiter" und "Installieren". Wenn die 
-Installation abgeschlossen ist, klicke "Weiter" und "Fertig stellen", um JOSM das 
-erste Mal zu starten. Wenn du später JOSM starten willst, klicke auf das Startmenu 
-in der unteren linken Ecke deines Desktops, und anschließend auf das Programm JOSM.
-- Möglicherweise siehst du ein Fenster, welches fragt, ob du JOSM aktualisieren willst. 
-Da die Software neu ist, ist dieses nicht notwendig. Klicke daher auf 'Aktualisierung 
-überspringen'. Falls du diese Nachricht nicht mehr sehen willst, aktiviere das 
-Auswahlfeld im unteren Teil des Fensters.
+- Suche die JOSM-Installationsdatei und doppelklicke sie, um die 
+  Installation zu starten.
+- Klicke "OK", "Weiter", "Annehmen", "Weiter" und "Installieren". Wenn 
+  die Installation abgeschlossen ist, klicke "Weiter" und "Fertig 
+  stellen", um JOSM das erste Mal zu starten. Wenn du später JOSM 
+  starten willst, klicke auf das Startmenu in der unteren linken 
+  Ecke deines Desktops, und anschließend auf das Programm JOSM.
+- Möglicherweise siehst du ein Fenster, welches fragt, ob du JOSM 
+  aktualisieren willst. Da die Software neu ist, ist dieses nicht 
+  notwendig. Klicke daher auf 'Aktualisierung überspringen'. Falls du 
+  diese Nachricht nicht mehr sehen willst, aktiviere das Auswahlfeld 
+  im unteren Teil des Fensters.
 - Wenn JOSM gestartet ist, wird es in etwa so aussehen:
 
   ![]({{site.baseurl}}/images/start_josm_image08_en.png)
 
 JOSM Einstellungen ändern
---------------------
+-------------------------
 
-Bevor wir Anfangen, JOSM zu benutzen, ist es sinnvoll ein paar Einstellungen zu ändern, 
-damit es einfacher zu benutzen wird. Klicke dafür im oberen Menu auf "Bearbeiten" und 
-anschließend auf "Einstellungen".
+Bevor wir Anfangen, JOSM zu benutzen, ist es sinnvoll ein paar 
+Einstellungen zu ändern, damit es einfacher zu benutzen wird. Klicke 
+dafür im oberen Menu auf "Bearbeiten" und anschließend auf "Einstellungen".
 
 ![]({{site.baseurl}}/images/start_josm_image13_en.png)
 
 ### Bing Sat hinzufügen
 
-- Wir möchten die Möglichkeit haben, Satellitenbilder zu nutzen, um unsere Karten zu 
-erstellen. Auf der linken Seite des Einstellungen-Fensters sind verschiedene Symbole 
-für diverse Einstellungen. Klicke nun auf das Symbol, welches mit "WMS TMS" beschriftet 
-ist. Möglicherweise musst du auf den Pfeil nach unten klicken, um das Symbol zu finden:
+- Wir möchten die Möglichkeit haben, Satellitenbilder zu nutzen, um 
+  unsere Karten zu erstellen. Auf der linken Seite des 
+  Einstellungen-Fensters sind verschiedene Symbole für diverse 
+  Einstellungen. Klicke nun auf das Symbol, welches mit "WMS TMS" 
+  beschriftet ist. Möglicherweise musst du auf den Pfeil nach unten 
+  klicken, um das Symbol zu finden:
   
   ![]({{site.baseurl}}/images/start_josm_image07_en.png)
   
@@ -84,65 +90,79 @@ ist. Möglicherweise musst du auf den Pfeil nach unten klicken, um das Symbol zu
 
   ![]({{site.baseurl}}/images/start_josm_image11_en.png)
 
-- Nun sollte “Bing Sat” in der Liste unter der Aktivieren-Schaltfläche erschienen sein.
+- Nun sollte “Bing Sat” in der Liste unter der Aktivieren-Schaltfläche 
+  erschienen sein.
 
 ### Vorlagen hinzufügen
 
-- Solltest du eine Datei haben welche zum Vorlagen-Menu hinzugefügt werden soll, 
-kannst du diese nun hinzufügen. Eine solche Datei könnte zum Beispiel buildings.xml heißen.
-- Solltest du das Einstellungen-Fenster nicht mehr geöffnet haben, klicke erneut auf 
-"Bearbeiten" und anschließend auf "Einstellungen" um das Fenster erneut zu öffnen.
-- Klicke nun auf der linken Seite auf das Symbol, welches wie ein Raster aussieht:
+- Solltest du eine Datei haben welche zum Vorlagen-Menu hinzugefügt 
+  werden soll, kannst du diese nun hinzufügen. Eine solche Datei könnte 
+  zum Beispiel buildings.xml heißen.
+- Solltest du das Einstellungen-Fenster nicht mehr geöffnet haben, 
+  klicke erneut auf "Bearbeiten" und anschließend auf "Einstellungen" 
+  um das Fenster erneut zu öffnen.
+- Klicke nun auf der linken Seite auf das Symbol, welches wie ein Raster 
+  aussieht:
 
   ![]({{site.baseurl}}/images/start_josm_image09_en.png)
 
 - Klicke in der oberen Leiste nun auf den Reiter "Objektvorlagen".
 - Klicke die "+" Schaltfläche oben rechts.
-- Klicke nun auf das Ordnersymbol rechts neben dem zweiten Eingabefeld. Navigiere zur 
-Vorlagendatei, welche du hinzufügen willst, zum Beispiel buildings.xml.
+- Klicke nun auf das Ordnersymbol rechts neben dem zweiten Eingabefeld. 
+  Navigiere zur Vorlagendatei, welche du hinzufügen willst, zum 
+  Beispiel buildings.xml.
 - Klicke OK.
 
 ### Walking Papers Erweiterung hinzufügen
 
-- Später werden wir in dieser Anleitung etwas über das Walking Papers Werkzeug erfahren, 
-welches uns erlaubt, einen Kartenausschnitt auszudrucken, darauf zu zeichnen und Notizen 
-zu machen und es anschließend in JOSM als Hintergrund zu laden. Dann können wir unsere 
-Zeichnungen und Notizen in OpenStreetMap hinzufügen. Nun werden wir zunächst die Walking 
-Papers Erweiterung zu JOSM hinzufügen.
-- Solltest du das Einstellungen-Fenster nicht mehr geöffnet haben, klicke erneut auf 
-"Bearbeiten" und anschließend auf "Einstellungen" um das Fenster erneut zu öffnen.
-- Klicke nun auf der linken Seite auf das Symbol, welches wie ein Stecker aussieht:
+- Später werden wir in dieser Anleitung etwas über das Walking Papers 
+  Werkzeug erfahren, welches uns erlaubt, einen Kartenausschnitt 
+  auszudrucken, darauf zu zeichnen und Notizen zu machen und es 
+  anschließend in JOSM als Hintergrund zu laden. Dann können wir unsere 
+  Zeichnungen und Notizen in OpenStreetMap hinzufügen. Nun werden wir 
+  zunächst die Walking Papers Erweiterung zu JOSM hinzufügen.
+- Solltest du das Einstellungen-Fenster nicht mehr geöffnet haben, 
+  klicke erneut auf "Bearbeiten" und anschließend auf "Einstellungen" 
+  um das Fenster erneut zu öffnen.
+- Klicke nun auf der linken Seite auf das Symbol, welches wie ein 
+  Stecker aussieht:
 
   ![]({{site.baseurl}}/images/start_josm_image04_en.png)
 
-- Klicke nun auf die Schaltfläche "Liste herunterladen". Nun wird eine Liste mit 
-optionalen Erweiterungen aus dem Internet geladen, welche nach kurzer Zeit erscheint.
+- Klicke nun auf die Schaltfläche "Liste herunterladen". Nun wird eine 
+  Liste mit optionalen Erweiterungen aus dem Internet geladen, welche 
+  nach kurzer Zeit erscheint.
 - Gebe nun in der Suchleiste im oberen Teil des Fensters "walking" ein. 
-Daraufhin werden nur noch die Elemente der Liste angezeigt, welche das Wort "walking" 
-im Titel haben.
-- Klicke nun in das Auswahlkästchen neben der walkingpapers Erweiterung und klicke OK 
-im unteren Teil des Fensters.
-- Die Erweiterung wird nun heruntergeladen und installiert. Klicke nicht auf "Abbrechen".
+  Daraufhin werden nur noch die Elemente der Liste angezeigt, welche 
+  das Wort "walking" im Titel haben.
+- Klicke nun in das Auswahlkästchen neben der walkingpapers Erweiterung 
+  und klicke OK im unteren Teil des Fensters.
+- Die Erweiterung wird nun heruntergeladen und installiert. Klicke 
+  nicht auf "Abbrechen".
 
-### Change Language
+### Sprache einstellen
 
-- JOSM has been translated into many languages. If it has been
-  translated into your language, you can change it in the Preferences.
-- If you don’t have the Preferences window open, click Edit -\>
-  Preferences.
-- On the left side, click the icon that looks like a paint can and
-  paint brush.
+- JOSM wurde bereits in eine Vielzahl von Sprachen übersetzt. Wenn JOSM
+  schon in deine Sprache übersetzt wurde, kannst du diese in den 
+  Einstellungen aktivieren.
+- Öffne das Einstellungen-Fenster über Bearbeiten -\> Einstellungen,
+  wenn du es noch nicht geöffnet hast.
+- Klicke auf der linken Seite auf das oberste Symbol, es sieht aus wie
+  ein Pinsel mit einem Topf Farbe.
 - At the top of the window, click the tab that says “Look and Feel”.
-- Choose your language in the dropdown box next to the word
-  “Language”.
-- Click OK.
+- Klicke jetzt im rechten Teil des Fensters auf den Reiter “Verhalten
+  und Aussehen”.
+- Wähle deine Sprache im Auswahlfeld neben dem Wort “Sprache”.
+- Klicke OK.
   
   ![]({{site.baseurl}}/images/start_josm_image01_en.png)
-  
-- You need to restart JOSM to save your settings. Click “File” in the
-  upper left corner, and Click “Exit” at the bottom of the menu.
-- Start JOSM again by going to the Windows Start Menu in the bottom
-  left corner. Find JOSM and click on it to start.
+
+- Du musst den JOSM Editor neu starten, damit diese Einstellung 
+  gespeichert wird. Klicke dazu auf das Menü “Datei” in der linken 
+  oberen Ecke, dann wähle “Beenden” am unteren Ende des Menüs.
+- Starte den JOSM Editor erneut indem du das Windows Start Menü in 
+  der linken unteren Ecke des Bildschirm öffnest. Gib “JOSM” in die 
+  Suche ein oder wähle es über “Alle Programme” aus.
 
 Learn Basic Drawing with JOSM
 -----------------------------
