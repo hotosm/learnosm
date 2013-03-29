@@ -1,313 +1,321 @@
 ---
 layout: doc
-title: Getting Started Editing
+title: Premiers pas avec JOSM
 permalink: /fr/beginner/start-josm/
 lang: fr
 category: beginner
 ---
 
-Getting Started Editing: JOSM
-=============================
+Premiers pas avec JOSM
+======================
 
-In this chapter we will learn step by step how to download and install
-JOSM, the Java OpenStreetMap editor. We will change some of the settings
-in JOSM to make it easier to use. Then we will open a sample map and
-learn some of the basic operations of the software. Remember in chapter
-1 when we asked you to draw a map of your town or village? We will
-conclude this chapter by drawing your map again, this time digitally.
-After this you should have a good understanding of how to draw maps in
-JOSM.
+Dans ce chapitre, nous allons voir pas à pas comment télécharger et installer
+JOSM, l'éditeur d'OpenStreetMap en Java. Nous allons aussi changer quelques
+paramètres pour que JOSM soit plus facile à utiliser. Ensuite nous allons
+télécharger une carte de test, qui va nous permettre d'apprendre
+les rudiments du logiciel. Vous vous souvenez quand vous avez dû tracer la
+carte de votre ville ou village dans le chapitre 1 ? A la fin de ce chapitre,
+nous allons de nouveau en tracer la carte, mais cette fois sur l'ordinateur.
+Vous aurez alors une bonne vue d'ensemble de la création de carte avec JOSM.
 
-Download JOSM
--------------
+Télécharger JOSM
+----------------
 
-- If you have a copy of JOSM on a CD or usb flash drive, you can skip
-to section 2, Install JOSM.
-- If you don’t have JOSM already, or want the newest version, open
-your web browser - this may be Firefox, Chrome, Opera, or Internet
-Explorer.
-- In the address bar at the top of the window, enter the following
-text and press Enter:[josm.openstreetmap.de](http://josm.openstreetmap.de)
-- You can also find this website by searching for “JOSM”
-- The website should look something like this:
+-   Si vous avez une copie de JOSM sur un CD ou une clé USB, vous pouvez
+    directement passer à la section 2, «Installer JOSM».
+-   Si vous n'avez pas encore JOSM, ou si vous voulez mettre à jour votre
+    version, lancer votre navigateur Internet — ce peut être Firefox, Chrome,
+    Opera, ou Internet Explorer.
+-   Dans la barre d'adresse en haut de la fenêtre, entrez le texte suivant puis
+    appuyez sur entrée: [josm.openstreetmap.de](http://josm.openstreetmap.de)
+-   Vous pouvez aussi trouver ce site en cherchant «JOSM» dans un moteur de
+    recherche
+-   Le site doit ressembler à ça:
 
-  ![]({{site.baseurl}}/images/start_josm_image05_en.png)
+    ![]({{site.baseurl}}/images/start_josm_image05_en.png)
 
-- If you have Windows installed on your computer, click “Windows JOSM
-  Installer” to download JOSM. If you have a different operating
-  system, click on the link for your system. Your download should
-  begin. In this chapter we will assume that you are using Windows,
-  but the instructions are similar for other operating systems.
+-   Si vous utilisez Windows, cliquez sur le lien «Installeur Windows». Si vous
+    avez un autre système d'exploitation, cliquez sur le lien adéquat. Le
+    téléchargement devrait commencer. Dans ce chapitre, nous allons voir la
+    procédure pour Windows, mais les instructions sont les mêmes pour les autres
+    systèmes d'exploitation.
 
-Install JOSM
-------------
+Installer JOSM
+--------------
 
-- You may have problems installing JOSM if Java is not already
-  installed on your computer. If you have problems in this section,
-  try downloading and installing Java. You can download it here:
-  [http://www.java.com/en/download/](http://www.java.com/en/download/)
-- Find the JOSM install file on your computer. Double-click it to
-  begin setup.
-- Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation
-  is complete, click ‘Finish’ to launch JOSM for the first time.
-  Later, when you want to start JOSM, you can do so by clicking on the
-  Start Menu in the lower left corner of your computer, and clicking
-  the program JOSM.
-- You may see a window pop up that asks if you want to update the
-  software.  You don’t need to update it since it is new.  Press the
-  button that says “Cancel.”  If you don’t ever want to see this
-  message again, check the box at the bottom before pressing “Cancel.”
-- When JOSM starts, it will look something like this:
+-   Si Java n'est pas installé sur votre ordinateur, l'installation va échouer.
+    Si c'est le cas, essayez de télécharger et installer Java. Vous pouvez le
+    télécharger ici:
+    [http://www.java.com/fr/download/](http://www.java.com/fr/download/)
+-   Localiser l'installeur JOSM sur votre ordinateur. Double-cliquez dessus pour
+    lancer l'installation.
+-   Cliquez sur «OK», puis «Suivant», «J'accepte», et enfin «Installer». Quand
+    l'installation est finie, cliquez sur «Finir» pour lancer JOSM pour la
+    première fois. A l'avenir, pour lancer JOSM, utilisez le menu Lancement dans
+    le coin en bas à gauche de votre ordinateur, et sélectionnez le programme
+    JOSM.
+-   Si une fenêtre vous propose de mettre à jour le logiciel, ce n'est pas la
+    peine puisque vous venez d'installer la dernière version. Cliquez sur le
+    bouton «Annuler». Si vous ne voulez plus voir ce message, cochez la case
+    à côté du bouton «Annuler» avant d'appuyer.
+-   Quand JOSM est lancé, voici à quoi il ressemble:
 
-  ![]({{site.baseurl}}/images/start_josm_image08_en.png)
+    ![]({{site.baseurl}}/images/start_josm_image08_en.png)
 
-Change JOSM Settings
---------------------
+Changer les paramètres de JOSM
+------------------------------
 
-Before we begin using JOSM, it’s a good idea to change some of the
-settings so that is will be easier to use. To change the settings,
-click “Edit” on the top menu, and then click “Preferences.”
+Avant de commencer à l'utiliser, on va changer quelques paramètres qui vont
+rendre son utilisation plus facile. Pour cela, cliquez sur «Modifier» dans la
+barre de menu du haut, puis choisissez «Préférences».
 
 ![]({{site.baseurl}}/images/start_josm_image13_en.png)
 
-### Add Bing Imagery
+### Ajouter l'imagerie Bing
 
-- We want to be able to use satellite imagery when we are making our
-  maps, so let’s add that from the Preferences window. On the left
-  side of the Preferences window there are different icons for
-  different settings. Click on the icon that says “WMS TMS”. You may
-  need to click on the down arrow to find it:
+Nous voulons pouvoir utiliser des images aériennes quand nous allons éditer la
+carte. Il faut donc les activer.
+
+-   Sur la partie gauche de la fenêtre des
+    préférences, il y a différentes icônes correspondant aux différents types
+    de paramètres. Cliquez sur l'icône indiquant «WMS TMS». Vous devrez
+    peut-être descendre dans la fenêtre pour le trouver:
   
-  ![]({{site.baseurl}}/images/start_josm_image07_en.png)
+    ![]({{site.baseurl}}/images/start_josm_image07_en.png)
   
-  ![]({{site.baseurl}}/images/start_josm_image02_en.png)
+    ![]({{site.baseurl}}/images/start_josm_image02_en.png)
 
-- Click on “Bing Sat”. Then Click “Activate”.
+-   Cliquez sur «Bing Sat», puis sur «Activer».
 
-  ![]({{site.baseurl}}/images/start_josm_image11_en.png)
+    ![]({{site.baseurl}}/images/start_josm_image11_en.png)
 
-- You should now see “Bing Sat” in the list below the Activate button.
+-   «Bing Sat» doit maintenant apparaître dans la liste sous le bouton
+    «Activer».
 
-### Add Presets
+### Ajouter des modèles d'attributs
 
-- If you have been given a file that should be added to the presets
-    menu, you can add it now. For example, a presets file might be named
-    something like buildings.xml.
-- You should still have the Preferences window open. If you don’t,
-    click Edit -\> Preferences to open the window.
-- On the left side, click the icon that looks like a grid.
+Si vous avez un fichier qui doit être ajouté aux modèles d'attributs, c'est
+le moment de l'utiliser. Par exemple, un tel fichier pourrait être nommé
+«buildings.xml».
 
-  ![]({{site.baseurl}}/images/start_josm_image09_en.png)
+-   Toujours dans la fenêtre des préférences, cliquez sur l'icône qui ressemble
+    à une grille.
 
-- Click the tab at the top that reads “Tagging Presets”.
-- In the upper right, press the + button.
-- Next to the second box on the right, click the button that looks
-    like a folder. Navigate to the presets file you want to add, for
-    example, buildings.xml.
-- Click OK
+    ![]({{site.baseurl}}/images/start_josm_image09_en.png)
 
-### Add Walking Papers Plugin
+-   Cliquez sur l'onglet «Modèles d'attributs» en haut de la fenêtre.
+-   Cliquez sur le bouton «+» en haut à droite de la fenêtre.
+-   Cliquez sur le bouton qui ressemble à un dossier, à droite du deuxième
+    champ. Naviguez jusqu'au fichier que vous voulez ajouter, par exemple
+    «buildings.xml».
+-   Cliquez sur «OK».
 
-- Later in this guide we will learn about a tool called Walking
-  Papers, which will allow us to print out a map of an area, draw on
-  it and take notes, and then load it into JOSM in the background.
-  Then we can add our drawings and our notes into OpenStreetMap. Now
-  we will add the Walking Papers plugin to JOSM.
-- You should still have the Preferences window open. If you don’t,
-   click Edit -\> Preferences to open the window.
-- On the left side, click the icon that looks like a plug.
+### Ajouter le greffon Walking Papers
 
-  ![]({{site.baseurl}}/images/start_josm_image04_en.png)
+Plus loin dans ce guide, nous allons apprendre à utiliser un outil appelé
+«Walking Papers», qui nous permettra d'imprimer la carte d'une zone, pour
+tracer dessus et prendre des notes, et enfin la charger comme arrière-plan
+dans JOSM. Ceci nous permettra d'ajouter nos dessins et nos notes dans
+OpenStreetMap. Nous allons donc ajouter maintenant le greffon Walking
+Papers.
 
-- Click the button that says “Download list”. The list will download
-   from the internet, and when it is finished you will see a list of
-   optional plugins appear in the window.
-- In the search box at the top, type “walking”. This will show only
-   items in the list that have “walking” in the title.
-- Click the checkbox next to the walkingpapers plugin, and press OK at
-   the bottom of the window.
-- Walking Papers will now be downloaded and installed. Do not click
-    “Cancel”.
+-   Si vous avez fermé la fenêtre des préférences, vous pouvez l'ouvrir à
+    nouveau via le menu «Modifier», en choisissant «Préférences».
+-   Sur la partie gauche, cliquez sur l'icône qui ressemble à une prise.
 
-### Change Language
+    ![]({{site.baseurl}}/images/start_josm_image04_en.png)
 
-- JOSM has been translated into many languages. If it has been
-  translated into your language, you can change it in the Preferences.
-- If you don’t have the Preferences window open, click Edit -\>
-  Preferences.
-- On the left side, click the icon that looks like a paint can and
-  paint brush.
-- At the top of the window, click the tab that says “Look and Feel”.
-- Choose your language in the dropdown box next to the word
-  “Language”.
-- Click OK.
+-   Cliquez sur «Télécharger la liste». La liste des greffons disponibles va
+    être téléchargée, et devrait apparaître dans la fenêtre.
+-   Dans le champ de recherche en haut de la fenêtre, tapez «walking». Seuls les
+    greffons ayant «walking» dans le titre devraient maintenant apparaître.
+-   Cochez la case à côté du plugin «walkingpapers», et appuyez sur «Valider» en
+    bas de la fenêtre.
+-   Le greffon Walking Papers va maintenant être téléchargé et installé.
+
+### Changer la langue
+
+JOSM a été traduit dans de nombreuses langues. S'il a été traduit dans votre
+langue, vous pouvez l'activer via les préférences.
+
+-   Si vous avez fermé la fenêtre des préférences, vous pouvez l'ouvrir via le
+    menu «Modifier» puis «Préférences».
+-   Sur la partie gauche de la fenêtre, cliquez sur l'icône avec un rouleau et
+    un pot de peinture.
+-   Cliquez, en haut de la fenêtre, sur l'onglet «Apparence».
+-   Choisissez votre langue dans le menu déroulant à gauche du mot «Langue».
+-   Cliquez sur «Valider»
   
-  ![]({{site.baseurl}}/images/start_josm_image01_en.png)
-  
-- You need to restart JOSM to save your settings. Click “File” in the
-  upper left corner, and Click “Exit” at the bottom of the menu.
-- Start JOSM again by going to the Windows Start Menu in the bottom
-  left corner. Find JOSM and click on it to start.
+    ![]({{site.baseurl}}/images/start_josm_image01_en.png)
 
-Learn Basic Drawing with JOSM
------------------------------
+-   Il faut maintenant relancer JOSM pour que vos modifications soient prises
+    en compte. Via le menu «Fichier» de la barre du haut, choisissez «Quitter».
+-   Vous pouvez relancer JOSM via le menu «Démarrer», dans le coin en bas à
+    gauche de votre écran. Localisez JOSM et cliquez dessus pour le lancer.
 
-- Now let’s open up a sample OSM file which we will use to learn the
-  basic ways to draw maps with JOSM. Note that this map is not real,
-  in that it is not a real map of a real place, so we will not save it
-  on OpenStreetMap.
-- If you were given a set of files by your instructor, you should
-  already have the file we will open, named sample.osm.
-- If you don’t have the file sample.osm on your computer, you can
-  download it from the internet. Open your internet browser. In the
-  address bar at the top of the window, enter the following text:
-  [http://www.learnosm.org/files/](http://www.learnosm.org/files/)
-- With your mouse, right click on the file called sample.osm, and click
-“Save Link As...” Choose a location on your computer to save the file.
-- Now let’s open the sample map file in JOSM. Open JOSM. Click the
-  “Open” button in the upper left.
+Les bases du tracé avec JOSM
+----------------------------
 
-  ![]({{site.baseurl}}/images/start_josm_image12_en.png)
+-   Commençons par télécharger une carte OSM de test que nous allons
+    utiliser pour apprendre les rudiments de JOSM. Notez que ceci n'est pas une
+    carte réelle, et que donc nous n'allons pas ajouter nos modifications à
+    OpenStreetMap pour le moment.
+-   Si votre instructeur a mis des fichiers à votre disposition, vous avez
+    certainement déjà le fichier dont nous aurons besoin, nommé «sample.osm».
+-   Si ce n'est pas le cas, vous pouvez le télécharger sur Internet. Ouvrez
+    votre navigateur. Dans la barre d'adresse, entrez le texte suivant:
+    [http://www.learnosm.org/files/](http://www.learnosm.org/files/) et appuyez
+    sur entrée. Une liste de fichiers doit s'afficher.
+-   A l'aide de votre souris, faites un clic droit sur le fichier nommé
+    «sample.osm», puis cliquez sur «Enregistrer sous». Choisissez un emplacement
+    sur votre ordinateur pour enregistrer le fichier.
+-   Maintenant, ouvrons le fichier dans JOSM. Ouvrez JOSM. Cliquez sur le bouton
+    «Ouvrir», dans le coin en haut à gauche.
 
-- Find the file sample.osm. Click on it, and then click “Open”.
-- You should now see a sample map, similar to this:
+    ![]({{site.baseurl}}/images/start_josm_image12_en.png)
 
-  ![]({{site.baseurl}}/images/start_josm_image03_en.png)
+-   Naviguez jusqu'au fichier «sample.osm», sélectionnez-le, puis cliquez sur
+    «Ouvrir».
+-   Vous devriez maintenant voir une carte similaire à:
 
-### Basic Operations
+    ![]({{site.baseurl}}/images/start_josm_image03_en.png)
 
-- To move the map left or right, up or down, hold your right mouse
-  button down, and move your mouse.
-- There are several ways to zoom in and out of the map. If you have a
-  mouse, you can use your scroll wheel to zoom in and out. If you are
-  using a laptop and don’t have a mouse, you can zoom in and out using
-  the scale bar in the upper left of the map window. Drag the bar left
-  and right by holding your left mouse down and moving the bar left or
-  right with your mouse.
+### Opérations de base
+
+-   Pour déplacer la carte de droite à gauche ou de haut en bas, utilisez le
+    bouton droit de votre souris, que vous devez laissez appuyé tout en
+    déplaçant votre souris.
+-   Il y a plusieurs façons de zoomer ou dézoomer la carte. Si vous avez une
+    molette sur votre souris, vous pouvez l'utiliser. Sinon, vous pouvez
+    utiliser le curseur dans le coin en haut à gauche de la carte. Déplacer la
+    barre vers la gauche ou vers la droite avec votre souris pour zoomer ou
+    dézoomer.
 
   ![]({{site.baseurl}}/images/start_josm_image14_en.png)
 
--  Look at the sample map. There a few different types of objects here.
-   There is a river, a forest, some buildings, several roads, and a
-   couple of shops. To select an object, click on it with your left
-   mouse button.
+-   Prenez le temps de regarder la carte de test. Notez les différents types
+    d'objets: il y a une rivière, une forêt, quelques bâtiments, des routes, et
+    quelques magasins. Pour sélectionner un objet, faites un clic gauche dessus
+    avec votre souris.
 
-### Points, Lines, and Shapes
+### Points, lignes et polygones
 
-- As you click different objects on the sample map, notice that there
-  are three different types of objects on the map. There are points,
-  lines, and shapes.
-- Points are a single location, represented by symbols. On this sample
-  map, there are two points, a clothing shop and a market. The
-  clothing shop is represented by a shirt symbol, and the market is
-  represented by a shopping cart.
-- There are several lines on the map as well, which represent roads.
-  If you look closely you will see that within the lines, there are
-  points as well. These points don’t have any symbols or other
-  information associated with them, but they help to define where the
-  line is located.
-- Lastly, there are numerous shapes on the sample map, representing
-  different places - a forest, a river, and buildings. A shape
-  generally represents an area, like a field or a building. A shape is
-  exactly like a line - the only difference is that the line begins at
-  the same point where it ends.
-- You may notice that when you select an object, a list appears to the
-  right of the map in a window called “Properties”. These are known as
-  tags. Tags are information that is tied to a point, line or shape
-  that describes what it is. We’ll learn more about tags in Chapter 7,
-  Advanced Editing. For now all you need to know is that this
-  information helps describe whether our object is a forest, a river,
-  a building, or something else.
-- Think about drawing a map by hand, and how you are also drawing
-  points, lines, and shapes. What other places are best represented by
-  points? Lines? Shapes?
+-   En cliquant sur les différents objets de la carte, notez qu'il y a trois
+    types d'objets: il y a des points, des lignes et des polygones.
+-   Les points sont des lieux simples, représentés par des symboles. Dans notre
+    carte d'exemple, nous avons deux points: une boutique de vêtements et un
+    marché. La boutique de vêtements est représentée par une image de maillot et
+    le marché, par un panier de courses.
+-   Il y a aussi des lignes sur la carte, qui représentent des routes. Si vous
+    regardez attentivement vous remarquerez que les lignes contiennent des
+    points. Aucune information et aucun symbole n'est associé avec ces points:
+    leur rôle est de déterminer le tracé de la ligne.
+-   Enfin, il y a différents polygones, qui représentent plusieurs lieux: une
+    forêt, une rivière, et des bâtiments. Un polygone représente générale une
+    aire, par exemple un champ ou un bâtiment. Le polygone est en fait une
+    ligne avec une caractéristique notable: dans le cas d'un polygone, la ligne
+    commence et finit sur le même point.
+-   Vous avez peut-être remarqué la fenêtre «Attributs» qui apparaît sur la
+    droite quand vous sélectionnez un objet. Celle-ci liste ce qu'on appelle les
+    tags. Les tags sont associés un point, une ligne ou un polygone, et
+    permettent de les définir. Nous en apprendrons un peu plus sur les tags dans
+    le chapitre 7, «Édition avancée avec JOSM». Pour le moment, retenez que
+    les tags servent à déterminer si un objet est une forêt, une rivière, un
+    bâtiment, ou autre chose.
+-   Pensez au cartes dessinées à la main, est-ce qu'on utilise pas là aussi
+    des points, des lignes et des polygones ? Quels lieux peuvent être
+    représentés par des points ? par des lignes ? par des polygones ?
 
-### Changing Objects
+### Modifier les objets
 
-- Select the forest on the left side of the map. Be sure to click on
-  the line around the forest, not one of the points on the line. Now
-  hold your left mouse button down and drag your mouse. You should be
-  able to move the forest to a new location on the map.
-- Click on one of the points on the line around the forest. Hold your
-  left mouse button down and drag your mouse. You should be able to
-  move the point. This is how you can change the shape of an object,
-  or move a point.
+-   Sélectionnez la forêt qui est sur la gauche de la carte. Faites bien
+    attention de cliquer sur la ligne qui entoure la forêt, et pas sur un des
+    points qui la constituent. En maintenant votre clic droit enfoncé et en
+    déplaçant votre souris, vous devriez être capable de changer la forêt de
+    position.
+-   Cliquez maintenant sur un des points constituant le polygone de la forêt.
+    À l'aide de votre souris, en maintenant le clic gauche enfoncé, vous devriez
+    pouvoir déplacer ce point. C'est la façon de faire si vous avez besoin de
+    changer la forme d'un polygone, ou tout simplement pour changer la position
+    d'un point.
 
-### Drawing
+### Tracer
 
-- On the left side of a JOSM is a column of buttons. Many of these
-  buttons open new windows on the right side that provide more
-  information about the map. The most important buttons, however, are
-  at the top of these column. These buttons change what you can do
-  with your mouse.
-- The top four buttons in this column are the most important. They
-  allow you to:
+-   Tout à gauche de la fenêtre de JOSM, il y a une barre d'outils. Une partie
+    de ces boutons permettent d'ouvrir des fenêtres à droite qui affichent des
+    informations supplémentaires sur la carte. Mais les boutons qui nous
+    intéressent pour le moment sont du haut de cette barre d'outils. Ces boutons
+    permettent de définir ce que vous pouvez faire avec votre souris.
+-   Les quatre boutons du haut sont les plus importants. Ils vous permettent de:
 
-  1.  Select
-  2.  Draw
-  3.  Zoom in
-  4.  Delete
+    1. Sélectionner
+    2. Tracer
+    3. Zoomer
+    4. Effacer
 
-- Until now, you have been using the Select tool, which looks like
-  this:
+-   Jusqu'à présent, vous avez utilisé l'outil de sélection, qui ressemble à
+    ceci:
 
-  ![]({{site.baseurl}}/images/start_josm_image00_en.png)
+    ![]({{site.baseurl}}/images/start_josm_image00_en.png)
 
-- Before you draw, you need to make sure that nothing is selected.
-  Click in the black space on the map, where it is empty, to make sure
-  nothing is selected.
-- Click on the second button, the Draw tool.
+-   Avant de commencer à tracer, assurez-vous que rien n'est sélectionné. Pour
+    cela, toujours avec l'outil de sélection, cliquez dans une zone vide de la
+    carte.
+-   Vous pouvez maintenant cliquer sur le deuxième bouton, celui pour tracer.
 
-  ![]({{site.baseurl}}/images/start_josm_image10_en.png)
+    ![]({{site.baseurl}}/images/start_josm_image10_en.png)
 
-- Find an empty area on the map, and double-click with your mouse.
-  This will draw a single point.
-- To draw a line, single-click with your mouse. Move your mouse and
-  click again. Continue until you are happy with your line. To end the
-  line, double-click your mouse.
-- Draw a shape the same way that you draw a line, but finish the shape
-  by double-clicking on the point where you started the line.
+-   Dans une zone vide de la carte, double-cliquez avec le bouton gauche de
+    votre souris. Vous venez de créer un point.
+-   Pour tracer une ligne, faites un simple clic avec votre souris. Déplacez
+    votre souris et cliquez de nouveau. Continuez jusqu'à que vous ayez obtenu
+    le résultat souhaité. Pour finir la ligne, double-cliquez avec votre souris.
+-   Le procédé est le même pour tracer un polygone, mais vous devez finir le
+    polygone en double-cliquant sur le premier point de la ligne.
 
-### Add Presets
+### Utiliser les modèles d'attributs
 
-- Now we know how to draw points, lines and shapes, but we still
-  haven’t defined what they represent. We want to be able to say that
-  our points are shops, schools, or something else, and whether our
-  shapes are fields, buildings, or something else.
-- Click on the Select tool, in the column of buttons on the left.
+-   Nous savons désormais comment tracer des points, des lignes et des
+    polygones, mais pour l'instant nous n'avons pas défini ce qu'ils
+    représentent. Nous voulons être capable de dire qu'un point est une
+    boutique, une école, ou autre chose, et de même si nos polygones sont des
+    champs, des bâtiments, ou autre chose.
+-   Dans la barre d'outils à gauche, cliquez de nouveau sur l'outil de
+    sélection.
 
-  ![]({{site.baseurl}}/images/start_josm_image00_en.png)
+    ![]({{site.baseurl}}/images/start_josm_image00_en.png)
 
-- Select one of the objects that you drew with the Draw tool. On the
-  top menu, click “Presets”. Move your mouse through the sub-menu to
-  the type of location you would like to define.
-- When you click on a preset, a form will pop up asking you for more
-  information. You do not have to fill in every field, but you may
-  wish to add some of the important fields, such as the name of the
-  object.
-- When you are finished entering the information, click “Apply
-  Preset”. If everything went well, your point, line, or shape should
-  change colors or show a symbol. This is because you have defined
-  what it is.
+-   Sélectionnez un des objets que vous venez de tracer. Dans le menu du haut,
+    cliquez sur «Attributs». Déplacer votre souris dans les sous-menus jusqu'à
+    trouver le type de lieu que vous souhaitez.
+-   Après avoir sélectionné un modèle d'attributs, une fenêtre devrait s'ouvrir
+    pour vous permettre d'ajouter des informations. Tous les champs ne sont pas
+    obligatoires, mais vous voudrez certainement ajouter les plus importants,
+    par exemple le nom de votre lieu.
+-   Quand vous avez renseigné toutes les informations voulues, appuyer sur
+    «Appliquer les attributs». Si tout s'est bien passé, votre point, ligne ou
+    polygone devrait changer de couleur ou afficher un symbole. C'est parce que
+    vous avez maintenant défini de quoi il s'agit.
 
-Draw Your Own Map
------------------
+Tracer votre carte
+------------------
 
-- Now let’s draw a map in order to practice the techniques you have
-  learned. You may wish to redraw the map that you drew on paper in
-  Chapter 1.
-- Drag the map away from the sample map. Hold the right mouse button
-  and drag your mouse, until you have a nice empty area to draw on.
-- Use the Draw tool to create points, lines, and shapes. Describe what
-  your objects are by selecting from the Presets menu.
-- When you are finished, you should have your own map, similar to the
-  sample map that we opened in sample.osm.
+-   C'est le moment de tracer une carte pour mettre en pratique ce que l'on
+    vient d'apprendre. Vous pouvez par exemple tracer la carte que vous aviez
+    dessiné dans le chapitre 1.
+-   À l'aide du bouton droit de votre souris, déplacez-vous dans une zone de la
+    carte totalement vide.
+-   Utilisé l'outil de tracé pour créer des points, des lignes et des polygones.
+    N'oubliez pas de définir les objets en utilisant le menu «Attributs».
+-   Quand vous aurez fini, vous devriez avoir une carte similaire à celle que
+    nous avons chargée avec le fichier «sample.osm».
 
-Summary
--------
+En résumé
+---------
 
-Excellent! If all went well you have learned how to setup JOSM on your
-computer, and the basic tools for drawing maps. In the next two
-chapters, you will learn how to use GPS and Walking Papers to map your
-town or village. In Chapter 6, we will return to JOSM and using the
-information we collected, we will add objects to OpenStreetMap.
+Excellent ! Si tout s'est bien passé, vous avez appris comment installer JOSM
+sur votre ordinateur, et vous connaissez maintenant les outils de base pour
+tracer une carte. Dans les deux prochains chapitres, vous apprendrez à utiliser
+un GPS et des Walking Papers pour tracer la carte de votre ville ou de votre
+village. Dans le chapitre 6, nous retournerons sur JOSM pour utiliser les
+informations récoltées, et les ajouter à OpenStreetMap.
