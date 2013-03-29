@@ -244,7 +244,7 @@ Les bases du tracé avec JOSM
 -   Tout à gauche de la fenêtre de JOSM, il y a une barre d'outils. Une partie
     de ces boutons permettent d'ouvrir des fenêtres à droite qui affichent des
     informations supplémentaires sur la carte. Mais les boutons qui nous
-    intéressent pour le moment sont du haut de cette barre d'outils. Ces boutons
+    intéressent pour le moment sont en haut de cette barre d'outils. Ces boutons
     permettent de définir ce que vous pouvez faire avec votre souris.
 -   Les quatre boutons du haut sont les plus importants. Ils vous permettent de:
 
