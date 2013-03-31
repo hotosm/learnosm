@@ -103,174 +103,167 @@ Cuando seleccionas el botón «Subir trazas» aparecerá esta ventana:
 
 ![]({{site.baseurl}}/images/plugins_html_2e01a9a7_en.png)
 
+Escribe palabras claves (separadas por comas) relacionadas con tu traza
+GPS en el campo «Etiquetas (separadas por comas)». Por ejemplo, 
+«País, región, ciudad, barrio, nombre de carretera». A continuación,
+proporciona una descripción para tus etiquetas. Una lista desplegable
+permite reutilizar etiquetas y descripciones usados anteriormente.
+Finalmente, elige el tipo de visibilidad que quieres que tengan tus
+trazas. Hay cuatro niveles, desde privado hasta identificable (todos se
+explican en el [Apéndice]{{site.baseurl}}/learnosm/es/).
+
+Selecciona «Subir traza». Si no estás conectado a tu cuenta de OSM tendrás
+que contectarla ahora.
+
+Una vez se ha realizado la subida con éxito, aparecerá el mensaje 
+«GPX subido correctamente» y el botón «Subir traza» no será clicable.
+Puedes encontrar más información sobre este complemento y las subidas GPX en
+el [Apéndice]({{site.baseurl}}/learnosm/es/).
 
 
-
-
-
-
-
-Put keywords (seperated by commas without spaces) that relate to your
-GPS trace in the \<\<Tags (comma delimited)\>\> box. For example,
-\<\<Country,region,city,neighborhood,road name\>\>. Next, provide a
-description of your tags. A drop-down list will allow you to reuse
-former tags and descriptions. Lastly, choose what type of visibility you
-would like your track to have. There are four levels from private to
-identifiable (all explained below in the [Appendix]{{site.baseurl}}/learnosm/en/).
-
-Click on Upload Trace. If you are not connected to your OSM account, you
-will have to do it now.
-
-Once successfully uploaded, the Text area will display an "OK" status
-and the “Upload Trace” button will not be clickable. More information
-about this plug-in and GPS uploads is available in the [Appendix]({{site.baseurl}}/learnosm/en/).
-
-edit gpx
---------
+Editar gpx
+----------
 
 ![]({{site.baseurl}}/images/plugins_html_m1d1170b2_en.png)
 
-**EditGpx** allows you to prepare recorded GPX tracks
-before uploading them to OSM. Often tracks have parts that you would
-like to remove. Therefore, this plug-in delete points of tracks in a
-speedy manner and creates anonymity for timestamps of a track.
+**EditGpx** permite preparar las trazas GPX grabadas antes de subirlas
+a OSM. A menudo las trazas tienen partes que te gustaría eliminar. Por eso,
+este complemento elimina puntos de la traza de una forma rápida y hace
+que las marcas de tiempo de la traza sean anónimas.
 
-Once the plug-in is installed (and you have restarted JOSM), you will
-see this new tool ![]({{site.baseurl}}/images/plugins_html_42e55708_en.png) in the tool bar on
-the left.
+Una vez el complemento se ha instalado (y has reiniciado JOSM) verás esta
+nueva herramienta ![]({{site.baseurl}}/images/plugins_html_42e55708_en.png) en
+la barra de herrameintas de la izquierda.
 
-1. Open a GPX file in JOSM![]({{site.baseurl}}/images/plugins_html_3fabdc1a_en.png)
+1. Abre un archivo GPX en JOSM![]({{site.baseurl}}/images/plugins_html_3fabdc1a_en.png)
 
-2. Press the new button ![]({{site.baseurl}}/images/plugins_html_42e55708_en.png) in the left
-menu bar and the GPX data will be imported to a new EditGpx layer. Every
-node of the track will be highlighted in yellow.![]({{site.baseurl}}/images/plugins_html_m3f86e83d_en.png)
+2. Presiona el nuevo botón ![]({{site.baseurl}}/images/plugins_html_42e55708_en.png) en la
+barra de la izquierda y los datos GPX se importarán a una nueva capa EditGpx. Cada
+nodo de la traza aparece destacado en amarillo ![]({{site.baseurl}}/images/plugins_html_m3f86e83d_en.png)
 
-3. Now mark the points (by clicking) or areas (by drawing a rectangle on
-their extent) that you would like to delete. The yellow highlighting
-should disappear.![]({{site.baseurl}}/images/plugins_html_m7e01ae1f_en.png)
+3. Ahora marca los puntos (haciendo clic) o áreas (dibujando un rectángunlo en
+su extensión) que te gustaría eliminar. Las marcas amarillas deberían 
+desparecer.![]({{site.baseurl}}/images/plugins_html_m7e01ae1f_en.png)
 
-4. Right click on the layer name and choose \<\<Convert to GPX layer\>\> in
-the \<\<Context\>\> menu.
+4. Haz clic con el botón derecho del ratón en el nombre de la capa y selecciona
+«Convertir a capa GPX» en el menú contextual.
 
-5. Now you can save the normal GPX layer as a file or upload the data to
-OSM (eg by using the
-plugin [DirectUpload](http://josm.openstreetmap.de/wiki/Plugins)).
+5. Ahora puedes guardar esta capa GPX normal como un archivo o subir los datos a
+OSM (por ejemplo usando el complemento [DirectUpload](http://josm.openstreetmap.de/wiki/Plugins)).
 
-Print
------
+Impresión
+---------
 
 ![]({{site.baseurl}}/images/plugins_html_m66e7a0a9_en.png)
 
-If you want a quick an easy way to print a map while you are editing in
-JOSM, install the __print plugin__. Although you won’t be able to
-do anything stylistic with your printout, this is a good way for a quick
-and easy print. Once the plugin is installed, a new item will be
-available on the File menu called “Print...”
+Si quieres una manera rápida y fácil de imprimir un mapa mientras estás
+editando en JOSM, instala el __complemento de impresión__. Aunque no
+podrás hacer cambios estéticos en la impresión, esta es una buena forma
+de obtener una impresión fácil y rápida. Una vez que hayas instalado el complemento 
+aparecerá un nuevo elemento denominado «Imprimir...» en el menú Archivo.
 
 ![]({{site.baseurl}}/images/plugins_html_mbd3c18f_en.png)
 
-Clicking this will open the Print Dialog, which looks like this:
+Haciendo clic ahí se abrirá el diálogo de Impresión que tiene este aspecto
 
 ![]({{site.baseurl}}/images/plugins_html_49f16afc_en.png)
 
-Here you can change your printer settings. If you don’t see anything on
-the page, check the box next to “Map Preview” on the right. Zoom in or
-out on the map by changing the number in the “Scale” box. Increase the
-resolution by changing the number next to “ppi”. When you have finished
-editing the settings, click “Print.”
+Aquí se pueden cambiar las opciones de la impresora. Si no ves nada en
+la página marca la casilla junto a «Map Preview» a la derecha. Acerca o
+aleja el mapa cambiando el valor del campo «Scale». Incrementa la resolución
+cambiando el número junto a «ppi». Cuando hayas acabado de editar las 
+opciones haz clic en «Print».
 
-Summary
+
+Resumen
 -------
 
-These are some useful plugins that are available for JOSM. Feel free to
-continue exploring the many other plugins. As you have already seen, the
-Preferences menu has a short description of each plugin, and you can
-open a web page with more information by clicking on the “More info...”
-link next to each.
+Estos son algunos útiles complementos que están disponibles en  JOSM. Puedes
+continuar explorando los demás complementos. Como ya has visto, el menú 
+Preferencias contiene una pequeña descripción de cada complemento, además
+de poder abrir una página web con más información haciendo clic en el enlace
+«Más información...» que hay junto a cada uno.
 
 ![]({{site.baseurl}}/images/plugins_html_17ea8a4b_en.png)
 
-Good luck!
+¡Buena suerte!
 
-Appendix
+Apéndice
 --------
 
-DirectUpload Details
---------------------
+Detalles de DirectUpload
+------------------------
 
 ![]({{site.baseurl}}/images/plugins_html_m7e14a056_en.png)
 
-Adding your GPS tracks and waypoints to the OSM Server is useful for
-many reasons.
-__(If you do not want your GPX points to be seen by anyone else you do not have to read this section.  You can simply display your GPX files from JOSM, and therefore store them locally)._
-First of all, GPS tracks are the most useful way of collecting and
-georeferencing objects in OSM.
-(See[](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[Chapter](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[6.5:](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[Aerial](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[Imagery](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[Considerations](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit))
-GPS units have greater accuracy than satellite imagery and therefore are
-a useful tool for checking how offset imagery may be. Using many GPS
-tracks (the greater the number of tracks the greater the ability to
-determine geolocation accuracy) allows you to determine if background
-imagery may be misaligned.
+Añadir tus trazas y puntos de referencia GPS al servidor de OSM es útil por
+muchas razones.
+__(Si no quieres que los puntos de tus GPX sean vistos por nadie más no necesitas
+leer esta sección. Puesdes cargar tus archivos GPX en JOSM y almacenarlos localmente).__
+Antes que nada, las trazas GPS son la forma más útil de recopilar y georreferenciar 
+objetos en OSM.
+(Ver [Capítulo 6.5: Consideraciones sobre imágenes áereas](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit).
 
-Uploading tracks to the server permits greater sharing of information.
-It allows people who do not have access to the field, simply because
-they do not live in that area or they do not have access to a GPS
-devices, to help with digitizing. There are two ways to upload your
-traces: 1) JOSM Plugin or 2) on the main OSM website.
+Los dispositivos GPS tienen mayor precisión que las imágenes por satélite
+así que son herramientas útiles para comprobar lo desplazada que una imagen
+puede estar. Usar muchas trazas GPS (a mayor número de trazas mayor capacidad
+para determinar la precisión de la geolocalización) permite determinar si
+la imagen de fondo está desalineada.
 
-> Note: GPS waypoints cannot be uploaded to the OSM database directly.
-> However, they can be converted to tracks and then be uploaded temporarily,
-> for example, so they can be displayed as background objects in Potlatch.
+Subir trazas al servidor permite compartir la información.  Permite a la gente
+que no tiene acceso al terreno, ya sea porque no viven en esa zona o 
+porque no tienen acceso a dispositivos GPS, ayudar en la digitalización. Hay
+dos formas más de subir trazas: 1) Mediante el complemento de JOSM o 2) en
+la página principal de OSM.
 
-After you have opened your GPX file in JOSM and clicked Go to
-\<\<Tools\>\> and click \<\<Upload traces\>\>. Describe the GPX file,
-write some tags, and visibility. For visibility, you can choose whether
-private, trackable, public or identifable.
+> Nota: los puntos de referencia GPS no pueden subirse directamente a la 
+> base de datos de OSM. Sin embargo, pueden ser convertidas en trazas y después
+> ser subidas temporalmente, de forma que pueden ser mostrados como objetos
+> de fondo en Potlatch.
 
-1.  **Identifiable**: Your trace will be shown publicly in Your
-    GPS**traces and in the public GPS traces list. Other users can
-    download the raw trace and connect it with your username. Timestamps
-    of the tracks points will also be available through the public GPS
-    API.
+Una vez que has abierto un archivo GPX en JOSM,  selecciona «Herramientas» y
+dentro de este menú, «Subir trazas». Describe el archivo GPX, escribe algunas
+etiquetas y marca la visibilidad. Para la visibilidad, puedes elegir entre
+privado, trazable, público o identificable.
 
-2.  **Public**: Your trace will be shown publicly in Your GPS**traces
-    and in the public GPS traces list. Other users are still able to
-    download the raw trace from the public trace list and any timestamps
-    contained within. However, data shown in the API does not reference
-    your trace page, nor are the timestamps available, though the points
-    are chronically ordered.
+1. **Identificable**: la traza se mostrará publicamente en Tus trazas**GPS y
+   en la lista de trazas GPS públicas. Otros usues pueden descargar la traza
+   sin procesar y relacionarla con tu nombre de usuario. Las marcas de tiempo
+   también estarán disponibles mediante la API pública de GPS.
 
-1.  **Trackable**: The trace will **not** show up in any public
-    listings, but the trackpoints will still be available through the
-    public GPS API **with timestamps**. Other users will be able
-    to download the trackpoints but these will not be associated with
-    you.
+2. **Público**: tus trazas se mostrarán públicamente en Tus trazas**GPS y en
+   la lista de trazas GPS públicas. Los demás usuarios todavía serán capaces
+   de descargar las trazas sin procesar de la lista pública y las marcas de 
+   tiempo que contiene. Sin embargo, los datos mostrados en la API no harán
+   referencia a la págian de tus trace, ni dispondrán de marcas de tiempo,
+   aunque los puntos estarán ordenados cronológicamente
 
-2.  **Private**: The trace will **not** show up in any public
-    listings. Trackpoints will be available in timeline order through
-    the public GPS API **without timestamps**.
+3. **Trazable**: las trazas **no** se mostrarán en ningún listado público,
+   pero los puntos seguirán estando disponibles mediante la ÁPI pública GPS
+   **con marcas de tiempo**. Los demás usuarios podrán descargar los puntos
+   pero estos no estarán asociados a ti.
+
+4. **Privado**: Las trazas **no** se mostrarán en ningún listado público. 
+   Los puntos estarán disponibles en la api GPS pública, ordenados cronológicamente 
+   pero **sin marcas de tiempo**.
 
 ![]({{site.baseurl}}/images/plugins_html_2009cd0_en.png)
 
-Uploading GPS Traces Online
+Subida de trazas GPS online
 ---------------------------
 
-1. Go
-to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
+1. Ve a [http://www.openstreetmap.org/](http://www.openstreetmap.org/) y haz login.
 
-2. Select \<\<GPS Traces\>\> found on the left banner.![]({{site.baseurl}}/images/plugins_html_32e7d3be_en.png)
+2. Selecciona «GPS Traces» en la columna situada a la izquierda del mapa.![]({{site.baseurl}}/images/plugins_html_32e7d3be_en.png)
 
-3. Select
-[upload a trace](http://www.openstreetmap.org/trace/create).
-Here, you can also  **See just your traces** to review previous GPS tracks.  
+3. Selecciona [upload a trace](http://www.openstreetmap.org/trace/create).
+Aquí también podrás  **See your traces** (ver tus trazas) para revisar tus
+trazas GPS anteriores.
 
-4. Find your file in \<\<Choose File\>\>. Label it in the Description
-box, give it some Tags, and chose what type of Visibility it will have.
-If you have many .gpx files you can compress them into a zip archive and
-upload it. It will be treated as one large gpx file and only one entry
-on the trace list will be created. ![]({{site.baseurl}}/images/plugins_html_m63dc490_en.png)
+4. Selecciona tu archivo en «Choose File». Etiquétalo en el campo _Description_ (descripción),
+proporciona algunas _Tags_ (etiquetas) y elige la visibilidad que tendrá. Si tienes
+muchos archivos .gpx puedes comprimirlos en un archivo ZIP y subirlo. Será
+tratada como un único fichero GPX mayor y solo se creará una entra en la
+lista de trazas. ![]({{site.baseurl}}/images/plugins_html_m63dc490_en.png)
 
-5. Click *Upload*.
-
-  The file will be uploaded to the OSM server, where it will join the
-queue of files waiting to be inserted into the database.
+5. Selecciona *Upload* (subir). El archivo se subirá al servidor OSM, donde se pasará a la lista de archivos que esperan a ser insertados en la base de datos.
