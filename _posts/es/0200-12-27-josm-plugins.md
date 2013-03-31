@@ -36,9 +36,9 @@ botón de «reinicio»).
 - [Mirrored Download]({{site.baseurl}}/es/beginner/josm-plugins/#mirrored-download) (te permite descargar más datos de OSM).
 - [Direct Upload]({{site.baseurl}}/es/beginner/josm-plugins/#direct-upload) 
 (te permite subir rastros GPS).
-- [Editgpx]({{site.baseurl}}/es/beginner/josm-plugins/#edit-gpx) (permite la
+- [Editgpx]({{site.baseurl}}/es/beginner/josm-plugins/#editar-gpx) (permite la
 edición de archivos GPX).
-- [Print]({{site.baseurl}}/es/beginner/josm-plugins/#print).
+- [Print]({{site.baseurl}}/es/beginner/josm-plugins/#Impresión).
 
 También se recomienda la descarga de estos complementos que han se explican
 en otros capítulos.
@@ -51,7 +51,7 @@ en otros capítulos.
 Restart
 -------
 
-![restart]({{site.baseurl}}/images/plugins_html_57cb1b84_en.png)
+![restart]({{site.baseurl}}/images/plugins_html_57cb1b84_es.png)
 
 __Restart__ (reiniciar) hace justo lo que dice. Añade un elemento en 
 el menú Archivo que le dice a JOSM que se reinicie. Esto ahorra tiempo
@@ -61,7 +61,7 @@ no se activará hasta que reinicies, así que  primero necesitas reiniciar
 JOSM manualmente. Una vez hecho esto, verás la entrada nueva en el menú
 Archivo.
 
-![]({{site.baseurl}}/images/plugins_html_m6d2d20a9_en.png)
+![]({{site.baseurl}}/images/plugins_html_m6d2d20a9_es.png)
 
 Prueba a seleccionar «Reiniciar JOSM» y verás como el programa se 
 recarga a sí mismo.
@@ -70,7 +70,7 @@ recarga a sí mismo.
 Mirrored Download
 -----------------
 
-![]({{site.baseurl}}/images/plugins_html_m2c477766_en.png)
+![]({{site.baseurl}}/images/plugins_html_m2c477766_es.png)
 
 __Mirrored Download__  (descarga desde espejo) hace que descargar datos
 de OS para editar sea más rápido. En lugar de obtener los datos desde el
@@ -82,7 +82,7 @@ Una vez instalado el complemento (y reiniciado JOSM) verás otra nueva
 entrada en el menú Archivo, «Download from OSM mirror...» (descargar 
 desde espejo de OSM...).
 
-![]({{site.baseurl}}/images/plugins_html_1f3d8d84_en.png)
+![]({{site.baseurl}}/images/plugins_html_1f3d8d84_es.png)
 
 Para descargar datos hay que seguir el mismo proceso que ya has aprendido
 pero ¡ahora la descarga será mucho más rápida!
@@ -90,18 +90,18 @@ pero ¡ahora la descarga será mucho más rápida!
 Direct Upload
 -------------
 
-![]({{site.baseurl}}/images/plugins_html_m37f530e4_en.png)
+![]({{site.baseurl}}/images/plugins_html_m37f530e4_es.png)
 
 __DirectUpload__ (subida directa)  sube trazas GPX directamente a OSM
 desde JOSM (más información disponible en el **Apéndice**). Una vez que
 el complemento está instalado (y has reiniciado JOSM) verás un nueva nueva
 entrada en el menú «Herramientas» llamada «Subir trazas».
 
-![]({{site.baseurl}}/images/plugins_html_m53ca88fd_en.png)
+![]({{site.baseurl}}/images/plugins_html_m53ca88fd_es.png)
 
 Cuando seleccionas el botón «Subir trazas» aparecerá esta ventana:
 
-![]({{site.baseurl}}/images/plugins_html_2e01a9a7_en.png)
+![]({{site.baseurl}}/images/plugins_html_2e01a9a7_es.png)
 
 Escribe palabras claves (separadas por comas) relacionadas con tu traza
 GPS en el campo «Etiquetas (separadas por comas)». Por ejemplo, 
@@ -110,7 +110,7 @@ proporciona una descripción para tus etiquetas. Una lista desplegable
 permite reutilizar etiquetas y descripciones usados anteriormente.
 Finalmente, elige el tipo de visibilidad que quieres que tengan tus
 trazas. Hay cuatro niveles, desde privado hasta identificable (todos se
-explican en el [Apéndice]{{site.baseurl}}/learnosm/es/).
+explican en el [Apéndice]({{site.baseurl}}/learnosm/es/).
 
 Selecciona «Subir traza». Si no estás conectado a tu cuenta de OSM tendrás
 que contectarla ahora.
@@ -154,7 +154,7 @@ OSM (por ejemplo usando el complemento [DirectUpload](http://josm.openstreetmap.
 Impresión
 ---------
 
-![]({{site.baseurl}}/images/plugins_html_m66e7a0a9_en.png)
+![]({{site.baseurl}}/images/plugins_html_m66e7a0a9_es.png)
 
 Si quieres una manera rápida y fácil de imprimir un mapa mientras estás
 editando en JOSM, instala el __complemento de impresión__. Aunque no
@@ -162,11 +162,11 @@ podrás hacer cambios estéticos en la impresión, esta es una buena forma
 de obtener una impresión fácil y rápida. Una vez que hayas instalado el complemento 
 aparecerá un nuevo elemento denominado «Imprimir...» en el menú Archivo.
 
-![]({{site.baseurl}}/images/plugins_html_mbd3c18f_en.png)
+![]({{site.baseurl}}/images/plugins_html_mbd3c18f_es.png)
 
 Haciendo clic ahí se abrirá el diálogo de Impresión que tiene este aspecto
 
-![]({{site.baseurl}}/images/plugins_html_49f16afc_en.png)
+![]({{site.baseurl}}/images/plugins_html_49f16afc_es.png)
 
 Aquí se pueden cambiar las opciones de la impresora. Si no ves nada en
 la página marca la casilla junto a «Map Preview» a la derecha. Acerca o
@@ -184,7 +184,7 @@ Preferencias contiene una pequeña descripción de cada complemento, además
 de poder abrir una página web con más información haciendo clic en el enlace
 «Más información...» que hay junto a cada uno.
 
-![]({{site.baseurl}}/images/plugins_html_17ea8a4b_en.png)
+![]({{site.baseurl}}/images/plugins_html_17ea8a4b_es.png)
 
 ¡Buena suerte!
 
@@ -247,7 +247,7 @@ privado, trazable, público o identificable.
    Los puntos estarán disponibles en la api GPS pública, ordenados cronológicamente 
    pero **sin marcas de tiempo**.
 
-![]({{site.baseurl}}/images/plugins_html_2009cd0_en.png)
+![]({{site.baseurl}}/images/plugins_html_2009cd0_es.png)
 
 Subida de trazas GPS online
 ---------------------------
