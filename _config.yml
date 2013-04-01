@@ -17,7 +17,7 @@ translations:
     training: "Check out training material for this guide (in English)"
     feedbackspan: "Was this chapter helpful?"
     feedback: "Let us know and help us improve the guides!"
-    proceed: "proceed to next chapter"
+    getstarted: "Get started"
   fr:
     tagline: "Learn OpenStreetMap Step by Step"
     contribute: "Help improve our guides"
@@ -25,7 +25,7 @@ translations:
     training: "Check out training material for this guide (in English)"
     feedbackspan: "Was this chapter helpful?"
     feedback: "Let us know and help us improve the guides!"
-    proceed: "proceed to next chapter"
+    getstarted: "proceed to next chapter"
   bi:
     overview: "Ikhtisar"
     tagline: "Pelajari OpenStreetMap Langkah-Langkah"
@@ -34,7 +34,7 @@ translations:
     training: "Memeriksa materi pelatihan untuk panduan ini (dalam bahasa Inggris)"
     feedbackspan: "Apakah pasal ini bermanfaat?"
     feedback: "Beritahu kami dan membantu kami memperbaiki panduan!"
-    proceed: "lanjutkan ke bab berikutnya"
+    getstarted: "lanjutkan ke bab berikutnya"
   jp:
     overview: "概要"
     tagline: "OpenStreetMapはステップバイステップを学ぶ"
@@ -43,7 +43,7 @@ translations:
     training: "このガイドの研修教材をチェック(英語で)"
     feedbackspan: "この章では役に立ちましたか?"
     feedback: "私たちが知っている、私たちはガイドを改善するお手伝いをさせて!"
-    proceed: "次の章に進んでください"
+    getstarted: "次の章に進んでください"
   pt:
     overview: "Sumário"
     tagline: "Conheça sobre o OpenStreetMap, passo-a-passo."
@@ -52,7 +52,7 @@ translations:
     training: "Confira material de treinamento para este guia (em Inglês)"
     feedbackspan: "Este capítulo foi útil?"
     feedback: "Conte-nos e ajude a melhorar os guias!"
-    proceed: "prosseguir para o próximo capítulo"
+    getstarted: "prosseguir para o próximo capítulo"
   it:
     overview: "Riassunto"
     tagline: "Per saperne di OpenStreetMap Step-by-Step"
@@ -61,4 +61,4 @@ translations:
     training: "Scopri materiale di formazione per la guida principianti (in inglese)"
     feedbackspan: "Questa capitolo è stata utile?"
     feedback: "Fateci sapere e ci aiutano a migliorare le guide!"
-    proceed: "procedere al capitolo successivo"
+    getstarted: "procedere al capitolo successivo"
