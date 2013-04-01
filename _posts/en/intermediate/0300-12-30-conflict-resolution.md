@@ -15,12 +15,12 @@ your beautiful edits you get an *evil* message like this:
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image05.png)
 
->This message is telling you that uploading did not work because another
->user has uploaded their edits already. It is telling you that you
->downloaded the area before someone else because you have version 1 and
->the server has the more recent version. More specifically, the node
->with ID:1,921,173,620 is the problem child. This is the object that has
->been edited by someone else.
+*This message is telling you that uploading did not work because another
+user has uploaded their edits already. It is telling you that you
+downloaded the area before someone else because you have version 1 and
+the server has the more recent version. More specifically, the node
+with ID:1,921,173,620 is the problem child. This is the object that has
+been edited by someone else.*
 
 This pop-up is a **conflict**, which is essentially a confusion by JOSM as
 to determine which edits to use. Basically, the OSM server has received
@@ -47,8 +47,8 @@ will encounter an error, such as this one:
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image23.png)
 
-This window reveals that JOSM deleted some of your objects that were
-previously deleted.
+*This window reveals that JOSM deleted some of your objects that were
+previously deleted.*
 
 This means that JOSM has automatically decided that items in your local
 dataset will not be uploaded to main server because they have already
@@ -60,20 +60,20 @@ course of action is. Therefore, the conflict needs to be resolved:
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image25.png)
 
-This tells you to look at all of your conflicts in Layer 1 in the Dialog
-Listbox.
+*This tells you to look at all of your conflicts in Layer 1 in the **Dialog
+List** box.*
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image18.png)
 
-This window provides you with a warning as to whether you are likely to
+*This window provides you with a warning as to whether you are likely to
 experience a conflict with your edits. If you check on the server you
-will be able to fix the editing issues that would arise.
+will be able to fix the editing issues that would arise.*
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image27.png)
 
-This warning tells you that JOSM failed to delete a node due to it still
+*This warning tells you that JOSM failed to delete a node due to it still
 being referenced in a way. In order to remedy this, the user has to go
-back into JOSM and resolve the conflict before uploading the data.
+back into JOSM and resolve the conflict before uploading the data.*
 
 ## Conflict Resolution
 
