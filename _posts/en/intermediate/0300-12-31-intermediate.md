@@ -2,7 +2,7 @@
 layout: doc
 permalink: /en/intermediate/
 lang: en
-title: Intermediate's guide
+title: Intermediate guide
 category: intermediate
 cover: yes
 nosearch: true
@@ -11,7 +11,9 @@ nosearch: true
 Intermediate's Guide
 ====================
 
-Welcome to the intermediate guide! In the past tutorial you learned how
-to draw points, lines, and shapes in JOSM, how to open your GPS
-waypoints and tracks in JOSM, and how to download, edit, and upload your
-changes on OpenStreetMap. In this guide, #FIXME #FIXME #FIXME
+Welcome to the Intermediate Guide of using OSM. This guide dives more into the details
+of editing and validating. We look at shortcuts and ways to contribute to the OSM
+community, such as through wiki sites or the tasking manager. Understanding these
+elements are useful for developing better and more effective additions to OSM.
+Hopefully, by the end of this guide you will be able to develop the skills and 
+tools needed to correct and strengthen the quality of data in OSM.
