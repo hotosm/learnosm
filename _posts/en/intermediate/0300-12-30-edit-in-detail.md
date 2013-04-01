@@ -6,17 +6,12 @@ lang: en
 category: intermediate
 ---
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image06.png)
-
 # Editing in Detail
 
 ## Introduction
 
-Welcome to the intermediate guide!  In the past tutorial you learned how
-to draw points, lines, and shapes in JOSM, how to open your GPS
-waypoints and tracks in JOSM, and how to download, edit, and upload your
-changes on OpenStreetMap. In this chapter, we will describe relations,
-JOSM editing tools, and editing techniques in greater detail.  
+In this chapter, we will describe relations, JOSM editing tools, and editing
+techniques in greater detail.  
 
 > While this chapter is not extremely advanced, it is more difficult
 > than the previous chapters. If you don’t feel like you fully understand
