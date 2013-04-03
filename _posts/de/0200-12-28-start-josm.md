@@ -32,7 +32,7 @@ JOSM Herunterladen
 - Du kannst die Seite auch finden, indem du einfach nach "JOSM" suchst.
 - Die Webseite sollte dann in etwa so aussehen:
 
-  ![]({{site.baseurl}}/images/start_josm_image05_en.png)
+  ![]({{site.baseurl}}/images/start_josm_image05_de.png)
 
 - Falls du Windows auf deinem Computer installiert hast, klicke auf 
   "Windows Installer", um JOSM herunterzuladen. Wenn du ein anderes 
@@ -188,7 +188,7 @@ Einführung in das Zeichnen mit JOSM
   und dann klicke auf die Schaltfläche "Öffnen".
 - Du solltest jetzt die Beispielkarte sehen, die wie folgt aussieht:
 
-  ![]({{site.baseurl}}/images/start_josm_image03_en.png)
+  ![]({{site.baseurl}}/images/start_josm_image03_de.png)
 
 ### Grundlegende Steuerung
 
@@ -203,7 +203,7 @@ Einführung in das Zeichnen mit JOSM
   Maustaste gedrückt und bewege deine Maus nach links oder rechts.
   Die Zoomleiste sieht folgendermaßen aus:
 
-  ![]({{site.baseurl}}/images/start_josm_image14_en.png)
+  ![]({{site.baseurl}}/images/start_josm_image14_de.png)
 
 - Sieh dir die Beispielkarte an, es gibt dort verschiedene Objekte. Es
   gibt einen Fluss, einen Wald, einige Gebäude, einige Straßen sowie
@@ -215,117 +215,131 @@ Einführung in das Zeichnen mit JOSM
 - Sobald du die Objekte auf der Karte anklickst wirst du merken, dass 
   es dort verschiedene Arten von Objekten gibt: Punkte, Linien und 
   Grundrisse.
+
+  ![]({{site.baseurl}}/images/start_josm_image15_de.png)
+
 - Punkte sind ein eizelner Ort dargestellt mit einem Symbol. Auf der 
   Beispielkarte gibt es zwei Punkte, ein Modegeschäft und einen Markt.
-  Das Modegeschäft hat ein Tshirt, der Markt einen Einkaufskorb als 
+  Das Modegeschäft hat ein Tshirt, der Markt einen Einkaufwagen als 
   Symbol.
-- There are several lines on the map as well, which represent roads.
-  If you look closely you will see that within the lines, there are
-  points as well. These points don’t have any symbols or other
-  information associated with them, but they help to define where the
-  line is located.
-- Lastly, there are numerous shapes on the sample map, representing
-  different places - a forest, a river, and buildings. A shape
-  generally represents an area, like a field or a building. A shape is
-  exactly like a line - the only difference is that the line begins at
-  the same point where it ends.
-- You may notice that when you select an object, a list appears to the
-  right of the map in a window called “Properties”. These are known as
-  tags. Tags are information that is tied to a point, line or shape
-  that describes what it is. We’ll learn more about tags in Chapter 7,
-  Advanced Editing. For now all you need to know is that this
-  information helps describe whether our object is a forest, a river,
-  a building, or something else.
-- Think about drawing a map by hand, and how you are also drawing
-  points, lines, and shapes. What other places are best represented by
-  points? Lines? Shapes?
+- Die Linien auf der Karte stellen Straßen dar. Wenn du genau hinsiehst
+  merkst du, dass diese Linien aus Punkten bestehen. Diese Punkte haben
+  keine Symbole oder andere Information gespeichert, aber sie helfen
+  dir festzulegen, wie die Linie verläuft und wo sie platziert ist.
+- Schließlich gibt es noch Grundrisse auf der Karte, sie stellen
+  verschiedene Orte dar - einen Wald, einen Fluss sowie Gebäude. Ein
+  Grundriss repräsentiert grundsätzlich ein Gebiet, wie ein Feld oder
+  ein Gebäude. Ein Grundriss gleicht einer Linie, nur mit dem 
+  Unterschied, dass die Linie an dem selben Punkt aufhört, wo sie 
+  beginnt.
+- Sobald du ein Objekt angeklickt hast erscheint auf der rechten Seite
+  des Fensters eine Liste mit Eigenschaften (Englisch: tags). Diese 
+  Eigenschaften sind an Punkte, Linien und Grundrisse gebunden und 
+  beschreiben sie. Wir werden später, in Kapitel 7, mehr über diese
+  Eigenschaften erfahren. Im Moment reicht es, dass du weißt, dass 
+  diese Eigenschaften die Punkte auf der Beispielkarte nach Wald,
+  Fluss und Gebäude kategorisieren.
+
+  ![]({{site.baseurl}}/images/start_josm_image16_de.png)
+
+- Stelle dir vor du zeichnest eine Karte von Hand, wie würdest du 
+  Punkte, Linien und Grundrisse darstellen? Welche anderen Orte
+  kann man gut mit Punkten darstellen? Linien? Grundrisse?
 
 ### Objekte verändern
 
-- Select the forest on the left side of the map. Be sure to click on
-  the line around the forest, not one of the points on the line. Now
-  hold your left mouse button down and drag your mouse. You should be
-  able to move the forest to a new location on the map.
-- Click on one of the points on the line around the forest. Hold your
-  left mouse button down and drag your mouse. You should be able to
-  move the point. This is how you can change the shape of an object,
-  or move a point.
+- Markiere den Wald auf der linken Seite der Karte, indem du seinen
+  Rand anklickst. Klicke nicht auf die Punkte am Rand, sondern auf eine
+  der Linien, die die Punkte am Rand verbinden. Halte jetzt deine linke
+  Maustaste gedrückt und bewege deine Maus. Du kannst jetzt den Wald
+  auf der Karte verschieben.
+- Klicke jetzt auf einen der Punkte auf dem Rand des Waldes. Halte 
+  deine linke Maustaste gedrück und bewege deine Maus. Du kannst jetzt
+  den Punkt auf der Karte verschieben und somit die Form des Waldes
+  verändern.
 
 ### Zeichnen
 
-- On the left side of a JOSM is a column of buttons. Many of these
-  buttons open new windows on the right side that provide more
-  information about the map. The most important buttons, however, are
-  at the top of these column. These buttons change what you can do
-  with your mouse.
-- The top four buttons in this column are the most important. They
-  allow you to:
+- Auf der linken Seite des JOSM Fensters befindet sich eine Spalte mit
+  Schaltflächen. Mit den mittleren Knöpfen kannst du Einstellen, 
+  welche Informationen auf der rechten Seite des JOSM Fensters angezeigt
+  werden. Uns interessieren aber erstmal nur die obersten Schaltflächen,
+  mit denen du einstellen kannst was passiert, wenn du auf die Karte
+  klickst.
+- Die obersten vier Schaltflächen in dieser Spalte sind die wichtigsten.
+  Damit stellst du ein was passiert, wenn du auf die Karte klickst:
 
-  1.  Select
-  2.  Draw
-  3.  Zoom in
-  4.  Delete
+  1.  Objekt Auswählen
+  2.  Objekt Zeichnen
+  3.  Karte vergrößern
+  4.  Objekt Löschen
 
-- Until now, you have been using the Select tool, which looks like
-  this:
+- Bisher hast du nur das Auswählen-Werkzeug benutzt, welches wie
+  folgt aussieht:
 
   ![]({{site.baseurl}}/images/start_josm_image00_en.png)
 
-- Before you draw, you need to make sure that nothing is selected.
-  Click in the black space on the map, where it is empty, to make sure
-  nothing is selected.
-- Click on the second button, the Draw tool.
+- Bevor du mit dem Zeichnen anfängst stelle sicher, dass kein Objekt
+  auf der Karte markiert ist. Klicke dazu einfach auf die schwarze
+  Fläche auf der Karte, dort befindet sich nichts.
+- Klicke auf die zweite Schaltfläche, mit der du das 
+  Zeichnen-Werkzeug aktivierst:
 
   ![]({{site.baseurl}}/images/start_josm_image10_en.png)
 
-- Find an empty area on the map, and double-click with your mouse.
-  This will draw a single point.
-- To draw a line, single-click with your mouse. Move your mouse and
-  click again. Continue until you are happy with your line. To end the
-  line, double-click your mouse.
-- Draw a shape the same way that you draw a line, but finish the shape
-  by double-clicking on the point where you started the line.
+- Navigiere zu einer leeren Stelle auf der Karte und klicke doppelt
+  mit deiner Maus. Damit erstellst du einen einzelnen Punkt.
+- Eine Linie zeichnest du, indem du ein mal mit deiner Maus klickst,
+  deine Maus bewegst und erneut klickst. Wiederhole dies so lange, bis
+  die Linie fertig ist, dann klicke doppelt.
+- Um einen Grundriss zu zeichnen verfährst du genau wie eben bei der 
+  Linie, aber klickst zum Schluss wieder auf den Punkt, wo du deine
+  Linie angefangen hast.
 
 ### Vorlagen hinzufügen
 
-- Now we know how to draw points, lines and shapes, but we still
-  haven’t defined what they represent. We want to be able to say that
-  our points are shops, schools, or something else, and whether our
-  shapes are fields, buildings, or something else.
-- Click on the Select tool, in the column of buttons on the left.
+- Jetzt weißt du, wie man Punkte, Linien und Grundrisse zeichnet, aber
+  wir haben noch nicht festgelegt, was sie darstellen. Wir möchten
+  unsere Punkte zu Geschäften und Schulen, unsere Grundrisse zu Feldern,
+  Gebäuden und anderen Objekten in der echten Welt machen.
+- Aktiviere das Auswählen-Werkzeug in der Spalte auf der linken Seite.
 
   ![]({{site.baseurl}}/images/start_josm_image00_en.png)
 
-- Select one of the objects that you drew with the Draw tool. On the
-  top menu, click “Presets”. Move your mouse through the sub-menu to
-  the type of location you would like to define.
-- When you click on a preset, a form will pop up asking you for more
-  information. You do not have to fill in every field, but you may
-  wish to add some of the important fields, such as the name of the
-  object.
-- When you are finished entering the information, click “Apply
-  Preset”. If everything went well, your point, line, or shape should
-  change colors or show a symbol. This is because you have defined
-  what it is.
+- Wähle ein Objekt aus, das du soeben mit dem Zeichnen-Werkzeug 
+  erstellt hast. Klicke im Menü oben im Programm auf "Vorlagen",
+  navigiere durch die Einträge in diesem Menü um festzulegen,
+  was dieses Objekt sein soll, z.B. Geschäfte -\> Lebensmittel -\> 
+  Supermarkt.
+- Sobald du eine Vorlage gewählt hast öffnet sich ein Fenster, wo du
+  nach weiteren Informationen wie dem Namen des Objektes gefragt wirst.
+  Du musst nicht jedes Feld ausfüllen.
+- Wenn du fertig bist klicke auf "Vorlage anwenden". Wenn du alles 
+  richtig gemach hast erscheint hat jetzt dein Punkt, deine Linie 
+  oder dein Grundriss ein anderes Symbol oder eine andere Farbe. 
 
 Zeichne deine eigene Karte
 --------------------------
 
-- Now let’s draw a map in order to practice the techniques you have
-  learned. You may wish to redraw the map that you drew on paper in
-  Chapter 1.
-- Drag the map away from the sample map. Hold the right mouse button
-  and drag your mouse, until you have a nice empty area to draw on.
-- Use the Draw tool to create points, lines, and shapes. Describe what
-  your objects are by selecting from the Presets menu.
-- When you are finished, you should have your own map, similar to the
-  sample map that we opened in sample.osm.
+- Zeichne jetzt eine eigene Karte, um die Techniken, die du hier gelernt
+  hast, weiter zu üben. Du kannst beispielsweise die Karte erneut
+  zeichnen, die du in Kapitel 1 gezeichnet hast.
+- Bewege dich auf der Beispielkarte, indem du die rechte Maustaste
+  gedrückt hälst und die Maus bewegst. Navigiere an einen leeren Ort, 
+  wo es noch keine Objekte gibt und du viel Platz hast zum Zeichnen.
+- Verwende das Zeichnen-Werkzeug, um Punkte, Linien und Grundrisse
+  zu zeichnen. Verwende Vorlagen, um festzulegen, was deine Objekte
+  repräsentieren.
+- Wenn du fertig bist hast du deine selbst erstellte Karte, ähnlich 
+  der Beispielkarte, die wir in der Datei sample.osm vorgefunden haben.
 
 Zusammenfassung
 ---------------
 
-Excellent! If all went well you have learned how to setup JOSM on your
-computer, and the basic tools for drawing maps. In the next two
-chapters, you will learn how to use GPS and Walking Papers to map your
-town or village. In Chapter 6, we will return to JOSM and using the
-information we collected, we will add objects to OpenStreetMap.
+Hervorragend! Wenn alles gut gegangen ist hast du jetzt gelernt, wie 
+du den JOSM Editor auf deinem Computer installierst, und, wie du die 
+Werkzeuge benutzt um Karten zu zeichnen. In den nächsten beiden 
+Kapiteln wirst du den Umgang mit GPS-Geräten und "Walking papers" lernen, 
+was dir helfen wird, deinen Wohnort zu kartieren. In Kapitel 6 kehren wir 
+zu JOSM zurück und benutzen die gesammelten Informationen, um Objekte
+auf OpenStreetMap einzutragen.
