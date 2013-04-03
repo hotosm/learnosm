@@ -62,7 +62,7 @@ JOSM Installieren
   im unteren Teil des Fensters.
 - Wenn JOSM gestartet ist, wird es in etwa so aussehen:
 
-  ![]({{site.baseurl}}/images/start_josm_image08_en.png)
+  ![]({{site.baseurl}}/images/start_josm_image08_de.png)
 
 JOSM Einstellungen ändern
 -------------------------
@@ -71,7 +71,7 @@ Bevor wir Anfangen, JOSM zu benutzen, ist es sinnvoll ein paar
 Einstellungen zu ändern, damit es einfacher zu benutzen wird. Klicke 
 dafür im oberen Menu auf "Bearbeiten" und anschließend auf "Einstellungen".
 
-![]({{site.baseurl}}/images/start_josm_image13_en.png)
+![]({{site.baseurl}}/images/start_josm_image13_de.png)
 
 ### Bing Sat hinzufügen
 
