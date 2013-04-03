@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Introduction
+title: Einführung
 permalink: /de/beginner/introduction/
 lang: de
 category: beginner

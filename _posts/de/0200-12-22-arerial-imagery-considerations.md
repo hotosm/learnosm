@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Using Aerial Imagery
+title: Luft- und Satellitenbilder nutzen
 permalink: /de/beginner/aerial-imagery/
 lang: de
 category: beginner
 ---
 
 Luft- und Satellitenbilder nutzen
-====================
+=================================
 
 
 Das Nachzeichnen von Luft- und Satellitenbildern ist eine einfache und
@@ -82,7 +82,7 @@ dem es noch keine Daten in OSM gibt.
 
 
 Versätze mit existierenden Daten in OSM
----------------------------------
+---------------------------------------
 
 Nach dem Download von OSM-Daten und dem Hinzufügen von Luft- oder Satelliten-
 bildern erkennst du manchmal nach dem Zoomen in die höchste Auflösung, dass 
@@ -180,7 +180,7 @@ vermeiden, weil diese meist nicht verlässlich sind, um den Versatz herauszufind
 
 
 Zusammenfassung
--------
+---------------
 
 Bilder nachzuzeichnen ist eine Technik, die das Kartieren in OSM schneller
 und effizienter macht. Allerdings muss sie mit Präzision und Vorsicht 
