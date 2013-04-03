@@ -28,7 +28,7 @@ JOSM Herunterladen
   möchtest, öffne deinen Browser - dies könnte Firefox, Chrome, Opera 
   oder Internet Explorer sein.
 - Gebe am oberen Rand des Fensters in der Adresszeile folgenden Link 
-  ein und drücke Enter:[josm.openstreetmap.de](http://josm.openstreetmap.de)
+  ein und drücke Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
 - Du kannst die Seite auch finden, indem du einfach nach "JOSM" suchst.
 - Die Webseite sollte dann in etwa so aussehen:
 
@@ -86,11 +86,11 @@ dafür im oberen Menu auf "Bearbeiten" und anschließend auf "Einstellungen".
   
   ![]({{site.baseurl}}/images/start_josm_image02_en.png)
 
-- Klicke nun auf on “Bing Sat”. Dann klicke auf “Aktivieren”.
+- Klicke nun auf on "Bing Sat". Dann klicke auf "Aktivieren".
 
   ![]({{site.baseurl}}/images/start_josm_image11_en.png)
 
-- Nun sollte “Bing Sat” in der Liste unter der Aktivieren-Schaltfläche 
+- Nun sollte "Bing Sat" in der Liste unter der Aktivieren-Schaltfläche 
   erschienen sein.
 
 ### Vorlagen hinzufügen
@@ -149,73 +149,76 @@ dafür im oberen Menu auf "Bearbeiten" und anschließend auf "Einstellungen".
   wenn du es noch nicht geöffnet hast.
 - Klicke auf der linken Seite auf das oberste Symbol, es sieht aus wie
   ein Pinsel mit einem Topf Farbe.
-- At the top of the window, click the tab that says “Look and Feel”.
-- Klicke jetzt im rechten Teil des Fensters auf den Reiter “Verhalten
-  und Aussehen”.
-- Wähle deine Sprache im Auswahlfeld neben dem Wort “Sprache”.
+- Klicke jetzt im rechten Teil des Fensters auf den Reiter "Verhalten
+  und Aussehen".
+- Wähle deine Sprache im Auswahlfeld neben dem Wort "Sprache".
 - Klicke OK.
   
   ![]({{site.baseurl}}/images/start_josm_image01_en.png)
 
 - Du musst den JOSM Editor neu starten, damit diese Einstellung 
-  gespeichert wird. Klicke dazu auf das Menü “Datei” in der linken 
-  oberen Ecke, dann wähle “Beenden” am unteren Ende des Menüs.
+  gespeichert wird. Klicke dazu auf das Menü "Datei" in der linken 
+  oberen Ecke, dann wähle "Beenden" am unteren Ende des Menüs.
 - Starte den JOSM Editor erneut indem du das Windows Start Menü in 
-  der linken unteren Ecke des Bildschirm öffnest. Gib “JOSM” in die 
-  Suche ein oder wähle es über “Alle Programme” aus.
+  der linken unteren Ecke des Bildschirm öffnest. Gib "JOSM" in die 
+  Suche ein oder wähle es über "Alle Programme" aus.
 
-Learn Basic Drawing with JOSM
------------------------------
+Einführung in das Zeichnen mit JOSM
+-----------------------------------
 
-- Now let’s open up a sample OSM file which we will use to learn the
-  basic ways to draw maps with JOSM. Note that this map is not real,
-  in that it is not a real map of a real place, so we will not save it
-  on OpenStreetMap.
-- If you were given a set of files by your instructor, you should
-  already have the file we will open, named sample.osm.
-- If you don’t have the file sample.osm on your computer, you can
-  download it from the internet. Open your internet browser. In the
-  address bar at the top of the window, enter the following text:
-  [http://www.learnosm.org/files/](http://www.learnosm.org/files/)
-- With your mouse, right click on the file called sample.osm, and click
-“Save Link As...” Choose a location on your computer to save the file.
-- Now let’s open the sample map file in JOSM. Open JOSM. Click the
-  “Open” button in the upper left.
+- In einem ersten Schritt werden wir eine OSM Beispielkarte laden, mit 
+  der wir die Grundlagen des Zeichnens in JOSM üben. Diese karte dient
+  lediglich Übungszwecken und zeigt keinen echten Ort, wir werden die 
+  Änderungen nicht bei OpenStreetMap speichern.
+- Wenn dir dein Lehrer die Dateien bereits gegeben hat, dann solltest
+  du die Datei sample.osm bereits haben.
+- Wenn du die sample.osm Datei noch nicht auf deinem Computer hast 
+  kannst du sie kostenlos aus dem Internet herunterladen. Öffne dazu
+  deinen Browser und gib in die Adressleiste im oberen Teil des 
+  Bildschirms foldenden Text ein: [http://www.learnosm.org/files/](http://www.learnosm.org/files/)
+- Klicke mit der rechten Maustaste auf die Datei namens "sample.osm"
+  und klicke auf "Link speichern unter...". Wähle einen Ordner auf 
+  deinem Computer aus, wo die Datei gespeichert werden soll.
+- Öffne die Datei jetzt in JOSM. Öffne JOSM, klicke dann auf die 
+  "Öffnen" Schaltfläche links oben. Die Schaltfläche sieht so aus:
 
   ![]({{site.baseurl}}/images/start_josm_image12_en.png)
 
-- Find the file sample.osm. Click on it, and then click “Open”.
-- You should now see a sample map, similar to this:
+- Suche die Datei sample.osm, klicke sie mit der linken Maustaste an
+  und dann klicke auf die Schaltfläche "Öffnen".
+- Du solltest jetzt die Beispielkarte sehen, die wie folgt aussieht:
 
   ![]({{site.baseurl}}/images/start_josm_image03_en.png)
 
-### Basic Operations
+### Grundlegende Steuerung
 
-- To move the map left or right, up or down, hold your right mouse
-  button down, and move your mouse.
-- There are several ways to zoom in and out of the map. If you have a
-  mouse, you can use your scroll wheel to zoom in and out. If you are
-  using a laptop and don’t have a mouse, you can zoom in and out using
-  the scale bar in the upper left of the map window. Drag the bar left
-  and right by holding your left mouse down and moving the bar left or
-  right with your mouse.
+- Um die Karte nach links und rechts, oben und unten zu bewegen, drücke
+  die rechte Maustaste und halte sie gedrückt, während du die Maus
+  bewegst.
+- Es gib mehrere Wege, die Karte zu vergrößeren und zu verkleinern.
+  Wenn du eine Maus mit Scrollrad hast, dann kannst du dieses drehen, 
+  um die Karte zu vergrößern und zu verkleinern. Wenn du einen Laptop
+  benutzt kannst du stattdessen die Zoomleiste in der oberen linken 
+  Ecke des Fensters benutzen. Klicke auf den Schieber und halte deine
+  Maustaste gedrückt und bewege deine Maus nach links oder rechts.
+  Die Zoomleiste sieht folgendermaßen aus:
 
   ![]({{site.baseurl}}/images/start_josm_image14_en.png)
 
--  Look at the sample map. There a few different types of objects here.
-   There is a river, a forest, some buildings, several roads, and a
-   couple of shops. To select an object, click on it with your left
-   mouse button.
+- Sieh dir die Beispielkarte an, es gibt dort verschiedene Objekte. Es
+  gibt einen Fluss, einen Wald, einige Gebäude, einige Straßen sowie
+  ein paar Geschäfte. Um ein Objekt auszuwählen, klickst du es mit 
+  deiner linken Maustaste an.
 
-### Points, Lines, and Shapes
+### Punkte, Linien und Grundrisse
 
-- As you click different objects on the sample map, notice that there
-  are three different types of objects on the map. There are points,
-  lines, and shapes.
-- Points are a single location, represented by symbols. On this sample
-  map, there are two points, a clothing shop and a market. The
-  clothing shop is represented by a shirt symbol, and the market is
-  represented by a shopping cart.
+- Sobald du die Objekte auf der Karte anklickst wirst du merken, dass 
+  es dort verschiedene Arten von Objekten gibt: Punkte, Linien und 
+  Grundrisse.
+- Punkte sind ein eizelner Ort dargestellt mit einem Symbol. Auf der 
+  Beispielkarte gibt es zwei Punkte, ein Modegeschäft und einen Markt.
+  Das Modegeschäft hat ein Tshirt, der Markt einen Einkaufskorb als 
+  Symbol.
 - There are several lines on the map as well, which represent roads.
   If you look closely you will see that within the lines, there are
   points as well. These points don’t have any symbols or other
@@ -237,7 +240,7 @@ Learn Basic Drawing with JOSM
   points, lines, and shapes. What other places are best represented by
   points? Lines? Shapes?
 
-### Changing Objects
+### Objekte verändern
 
 - Select the forest on the left side of the map. Be sure to click on
   the line around the forest, not one of the points on the line. Now
@@ -248,7 +251,7 @@ Learn Basic Drawing with JOSM
   move the point. This is how you can change the shape of an object,
   or move a point.
 
-### Drawing
+### Zeichnen
 
 - On the left side of a JOSM is a column of buttons. Many of these
   buttons open new windows on the right side that provide more
@@ -283,7 +286,7 @@ Learn Basic Drawing with JOSM
 - Draw a shape the same way that you draw a line, but finish the shape
   by double-clicking on the point where you started the line.
 
-### Add Presets
+### Vorlagen hinzufügen
 
 - Now we know how to draw points, lines and shapes, but we still
   haven’t defined what they represent. We want to be able to say that
@@ -305,8 +308,8 @@ Learn Basic Drawing with JOSM
   change colors or show a symbol. This is because you have defined
   what it is.
 
-Draw Your Own Map
------------------
+Zeichne deine eigene Karte
+--------------------------
 
 - Now let’s draw a map in order to practice the techniques you have
   learned. You may wish to redraw the map that you drew on paper in
@@ -318,8 +321,8 @@ Draw Your Own Map
 - When you are finished, you should have your own map, similar to the
   sample map that we opened in sample.osm.
 
-Summary
--------
+Zusammenfassung
+---------------
 
 Excellent! If all went well you have learned how to setup JOSM on your
 computer, and the basic tools for drawing maps. In the next two
