@@ -154,7 +154,7 @@ dafür im oberen Menu auf "Bearbeiten" und anschließend auf "Einstellungen".
 - Wähle deine Sprache im Auswahlfeld neben dem Wort "Sprache".
 - Klicke OK.
   
-  ![]({{site.baseurl}}/images/start_josm_image01_en.png)
+  ![]({{site.baseurl}}/images/start_josm_image01_de.png)
 
 - Du musst den JOSM Editor neu starten, damit diese Einstellung 
   gespeichert wird. Klicke dazu auf das Menü "Datei" in der linken 
