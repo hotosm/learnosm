@@ -6,80 +6,80 @@ lang: es
 category: beginner
 ---
 
-Further Reading
+Lecturas adicionales
 ===============
 
-If you have made it this far, congratulations! You should have a good
-understanding now of how to make maps with OpenStreetMap. What else can
-you do with OSM? How can you learn more? How can you stay connected to
-the community of mappers?
+Si ha llegado hasta aquí, ¡felicidades! Ahora debería tener buenos 
+conocimientos en cómo hacer mapas con OpenStreetMap. ¿Qué más puede 
+hacer con OSM? ¿Cómo puede aprender más? ¿Cómo puede seguir conectado 
+con la comunidad de mapeadores?
 
-OpenStreetMap Tools
+Herramientas OpenStreetMap
 -------------------
 
-In this guide we have learned the building blocks of OSM, and the tools
-you need to contribute to the map. But because the data on OSM is open,
-it has encouraged many more projects and tools that allow you to do more
-with the OpenStreetMap map.
+En esta guía hemos aprendido los bloques de construcción de OSM, y las 
+herramientas que necesita para contribuir en el mapa. Pero como los 
+datos de OSM son abiertos, ello ha alentado muchos mas proyectos y 
+herramientas que le permiten hacer mucho más con el mapa OpenStreetMap.
 
 MapOSMatic
 ----------
 
-One such project is called MapOSMatic, which you can access through your
-internet browser at [maposmatic.org](http://www.maposmatic.org/). This
-is a simple tool for printing a map of any area you choose. It will
-automatically create the map, along with a grid over the map, and an
-index of locations that are included in the area.
+Uno de estos proyectos se llama MapOSMatic, al cual puede acceder a 
+través de su navegador en [maposmatic.org](http://www.maposmatic.org/).
+Es una simple herramienta para imprimir un mapa del área que escoja. 
+Creará automaticamente el mapa, con una cuadrícula sobre el mapa, y un 
+índice de las localizaciones que estén incluidas en el área.
 
-Learn More
+Aprender Más
 ----------
 
-There is a lot of information about OpenStreetMap available at
-[wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Here you can
-find information about other projects that are related to OpenStreetMap,
-and documents and tutorials that can help you learn more about OSM.
+Hay mucha información disponible sobre OpenStreetMap en 
+[wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Aquí puedes 
+encontrar información sobre otros proyectos que están relacionados con 
+OpenStreetMap, y documentos y tutoriales que pueden ayudarte a aprender
+más sobre OSM.
 
-Mailing List
+Lista de Correo
 ------------
 
-The best way to get connected to the OpenStreetMap user community is to
-join your local mailing list. Many people sign up, using their email
-accounts to the OSM mailing list. Once you are on the list, you can send
-an email to the group if you have a question or want to talk about
-OpenStreetMap.
+La mejor forma de estar conectado con la comunidad de usuarios de OSM es 
+unirse a tu lista de correo local. Mucha gente se registra, usando sus
+cuentas de correo a la lista de correo de OSM. Una vez estés en la lista, 
+puedes mandar un email al grupo si tienes una pregunta o quieres hablar 
+sobre OpenStreetMap.
 
--   To sign up for your country's mailing list, open your internet
-    browser and go to
-    [lists.openstreetmap.org](http://lists.openstreetmap.org/).
+-   Para registrarse en la lista de correo de tu país, abre el navegador de
+    internet y vete a [lists.openstreetmap.org](http://lists.openstreetmap.org/).
 
--   Scroll down the page to find the list associated with your country.
-    The country lists are named "Talk-lg", where lg represents the
-    country of that list. For example, "Talk-id" is the list for
-    Indonesia.
--   Click on the list you want to join.
--   Enter the following information in the boxes on this page:
+-   Desplácese hacia abajo para encontrar la lista asociada con su país.
+    La lista de paises es nombrada "Talk-es", donde es representa el país 
+    de esa lista. Por ejemplo, "Talk-es" es la lista en español.
 
-    -   your email address
-    -   your first name
-    -   a new password
-    -   repeat the password
+-   Haga clic en la lista que quiera suscribirse.
+-   Introduzca la siguiente información en las casillas de esta página:
 
--   When you are finished, click Subscribe.
--   Now you need to open your email, just as you did when you signed up
-    for OpenStreetMap in chapter 2. There will be a confirmation email
-    in your inbox from the mailing list.
--   Click on the confirmation link, which looks like this:
+    -   su dirección de correo electrónico.
+    -   su primer nombre
+    -   una nueva contraseña
+    -   repita la contraseña
 
--   You should now be a member of the mailing list.
--   Now when you want to send a message to the list, you can send it to
-    [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org),
-    replacing "id" with the country for your list. You will also receive
-    emails when other members send a message to the list.
+-   Cuando termine, haga clic en Subscribe.
+-   Ahora necesita abrir su correo, al igual que cuando se registró en
+    OpenStreetMap en el capítulo 2. Habrá un email de confirmación en
+    su bandeja de entrada procedente de la lista de correo.
+-   Haga clic en el enlace de confirmación, el cual se parece a este:
 
-Summary
+-   Ahora debería ser un miembro de la lista de correo.
+-   Ahora cuando envie un mensaje a la lista, usted puede enviarlo a
+    [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), reemplazando 
+    "id" con el país de su lista. Usted recibirá también emails cuando otros 
+    miembros envien mensajes a la lista.
+
+Sumario
 -------
 
-These are some of the ways that you can use and stay connected with the
-OpenStreetMap community and learn more. We hope you'll continue
-exploring and learning more about OSM, and contribute to the project.
-Happy Mapping!
+Estas son algunos de los caminos que puede usar para seguir conectado con 
+la comunidad OpenStreetMap y aprender más. Esperamos que continue explorando
+y aprendiendo más sobre OSM, y obviamente contribuyendo al proyecto.
+¡Feliz Mapeo!
