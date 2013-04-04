@@ -73,7 +73,7 @@ sobre OpenStreetMap.
 -   Ahora debería ser un miembro de la lista de correo.
 -   Ahora cuando envie un mensaje a la lista, usted puede enviarlo a
     [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), reemplazando 
-    "id" con el país de su lista. Usted recibirá también emails cuando otros 
+    «­id» con el país de su lista. Usted recibirá también emails cuando otros 
     miembros envien mensajes a la lista.
 
 Resumen
