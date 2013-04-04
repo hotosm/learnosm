@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Further Reading
+title: Lecturas adicionales
 permalink: /es/beginner/moving-forward/
 lang: es
 category: beginner
 ---
 
 Lecturas adicionales
-===============
+======================
 
 Si ha llegado hasta aquí, ¡felicidades! Ahora debería tener buenos 
 conocimientos en cómo hacer mapas con OpenStreetMap. ¿Qué más puede 
@@ -15,7 +15,7 @@ hacer con OSM? ¿Cómo puede aprender más? ¿Cómo puede seguir conectado
 con la comunidad de mapeadores?
 
 Herramientas OpenStreetMap
--------------------
+-----------------------------
 
 En esta guía hemos aprendido los bloques de construcción de OSM, y las 
 herramientas que necesita para contribuir en el mapa. Pero como los 
@@ -31,8 +31,8 @@ Es una simple herramienta para imprimir un mapa del área que escoja.
 Creará automaticamente el mapa, con una cuadrícula sobre el mapa, y un 
 índice de las localizaciones que estén incluidas en el área.
 
-Aprender Más
-----------
+Aprender más
+--------------
 
 Hay mucha información disponible sobre OpenStreetMap en 
 [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Aquí puedes 
@@ -40,8 +40,8 @@ encontrar información sobre otros proyectos que están relacionados con
 OpenStreetMap, y documentos y tutoriales que pueden ayudarte a aprender
 más sobre OSM.
 
-Lista de Correo
-------------
+Lista de correo
+------------------
 
 La mejor forma de estar conectado con la comunidad de usuarios de OSM es 
 unirse a tu lista de correo local. Mucha gente se registra, usando sus
@@ -53,8 +53,8 @@ sobre OpenStreetMap.
     internet y vete a [lists.openstreetmap.org](http://lists.openstreetmap.org/).
 
 -   Desplácese hacia abajo para encontrar la lista asociada con su país.
-    La lista de paises es nombrada "Talk-es", donde es representa el país 
-    de esa lista. Por ejemplo, "Talk-es" es la lista en español.
+    La lista de paises es nombrada «­Talk-es», donde es representa el país 
+    de esa lista. Por ejemplo, «Talk-es» es la lista en español.
 
 -   Haga clic en la lista que quiera suscribirse.
 -   Introduzca la siguiente información en las casillas de esta página:
@@ -76,7 +76,7 @@ sobre OpenStreetMap.
     "id" con el país de su lista. Usted recibirá también emails cuando otros 
     miembros envien mensajes a la lista.
 
-Sumario
+Resumen
 -------
 
 Estas son algunos de los caminos que puede usar para seguir conectado con 
