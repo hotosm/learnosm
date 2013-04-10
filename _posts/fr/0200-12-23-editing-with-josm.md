@@ -9,13 +9,15 @@ category: beginner
 Éditer avec JOSM
 =================
 
-Dans le [Chapitre 3]({{site.baseurl}}/fr/beginner/start-josm/), vous avez installé JOSM
- et commencé à tracer vos premiers points, lignes et polygones. Vous avez ajouté des attributs
- pour ces objets afin d'ajouter des informations à leur sujet. À la fin, vous avez été en mesure
- de dessiner votre propre carte dans JOSM.
+Dans le [Chapitre 3]({{site.baseurl}}/fr/beginner/start-josm/), vous avez
+installé JOSM et commencé à tracer vos premiers points, lignes et polygones.
+Vous avez ajouté des attributs pour ces objets afin d'ajouter des informations à
+leur sujet. À la fin, vous avez été en mesure de dessiner votre propre carte
+dans JOSM.
 
-Tracer des cartes dans le chapitre 3 a été un exercice pour apprendre JOSM et apprendre à
-tracer sur la carte pour y ajouter des endroits. Mais nos cartes n'étaient pas exactes,
+Tracer des cartes dans le chapitre 3 a été un exercice pour apprendre JOSM et
+apprendre à tracer sur la carte pour y ajouter des endroits. Mais nos cartes
+n'étaient pas exactes,
  car nous n'avions pas encore ajouté de localisation. Dans les deux derniers chapitres, nous avons examiné deux outils, les GPS et les Walking Paper, qui nous permettent de recueillir la localisation actuelle des lieux (En général, les récepteurs GPS permettent de déterminer votre position avec une précision de + / - 10 mètres, de sorte qu'ils peuvent ne pas être tout à fait exacts, en particulier
 si vous ne prennez qu'un seul point). Ces lieux sont représentés par des
 coordonnées.
@@ -169,8 +171,12 @@ Couches JOSM
 Balises
 ----
 
-- Lorsque vous dessinez un point, une ligne ou une forme, il bénéficie d'un emplacement, mais pas
-    des informations sur ce qu'il est. En d'autres termes, nous savons **où** il est, mais pas **ce qu'il est**. Jusqu'à maintenant, nous avons utilisé les éléments  dans le menu Attributs pour définir **ce qu'il est**. La façon dont OpenStreetMap sait **ce qu'est* un objet, se fait à l'aide **'attributs**.
+-   Lorsque vous dessinez un point, une ligne ou une forme, il bénéficie d'un
+    emplacement, mais pas des informations sur ce qu'il est. En d'autres termes,
+    nous savons ***où*** il est, mais pas ***ce*** qu'il est. Jusqu'à maintenant,
+    nous avons utilisé les éléments dans le menu Attributs pour définir ce
+    qu'il **est**. La façon dont OpenStreetMap sait ce qu'**est** un objet se fait
+    à l'aide **attributs**.
 
 - Un Attribut est une étiquette que vous pouvez mettre sur quelque chose. Par exemple, si  je dessine un carré, c'est seulement un carré. Mais ensuite je lui ajoute plusieurs attributs qui décrivent ce que c'est:  cette place est un bâtiment, le nom du bâtiment est «Menara Thamrin", le bâtiment est de 16 niveaux en hauteur.
 
