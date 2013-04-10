@@ -246,6 +246,7 @@ body {
 }
 #content {
   padding-bottom:180px;
+  clear: both;
 }
 #footer {
   width:100%;
