@@ -9,7 +9,7 @@ category: beginner
 Éditer avec JOSM
 =================
 
-Dans le [Chapitre 3] ({{site.baseurl}}/fr/beginner/start-josm/), vous avez installé JOSM
+Dans le [Chapitre 3]({{site.baseurl}}/fr/beginner/start-josm/), vous avez installé JOSM
  et commencé à tracer vos premiers points, lignes et polygones. Vous avez ajouté des attributs
  pour ces objets afin d'ajouter des informations à leur sujet. À la fin, vous avez été en mesure
  de dessiner votre propre carte dans JOSM.
@@ -27,9 +27,9 @@ Dans ce chapitre, nous allons apprendre à modifier la carte sur OpenStreetMap e
 
 **Télécharger** des données de la carte OSM actuelle
 
-  - [Tour de JOSM] JOSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#a-tour-of-josm)
-  - [Télécharger des données OSM] ({{site.baseurl}}/fr/beginner/editing-with-josm/#download-osm-data)
-  - [Couches JOSM] ({{site.baseurl}}/en/beginner/editing-with-josm/#josm-layers)
+  - [Tour de JOSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#a-tour-of-josm)
+  - [Télécharger des données OSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#download-osm-data)
+  - [Couches JOSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#josm-layers)
 
 **Éditer** en utilisant les pistes GPS, Walking Papers, et les notes comme un guide
 
@@ -127,7 +127,7 @@ Couches JOSM
  Cliquez sur Afficher / Masquer de nouveau, et elle réapparaîtra.
 
 - Vous pouvez fermer une couche en le sélectionnant et en cliquant sur le bouton Suppression
-    Bouton: [] ({{}} site.baseurl / images/EditingWithJOSM_html_m172543d8_en.png)
+    Bouton: []({{}} site.baseurl / images/EditingWithJOSM_html_m172543d8_en.png)
 
 - Enfin, il est important de savoir que vous ne pouvez modifier que la couche
     est considéré comme *active* par JOSM. Si vous ne parvenez pas à modifier la carte
@@ -155,7 +155,7 @@ Couches JOSM
 
 - Utiliser les outils de **Dessin** pour dessiner des nouveaux points, des lignes et des formes.
      Décrivez ces objets en les sélectionnant dans le menu Attributs, comme vous l'avez
-     fait dans le [Chapitre 3] ({{site.baseurl}}/en/beginner/start-josm/).
+     fait dans le [Chapitre 3]({{site.baseurl}}/en/beginner/start-josm/).
 
 - Rappelez-vous que vos points GPS et les infos de vos Walking Papers ne sont pas automatiquement transférés dans OpenStreetMap. Vous devez les ajouter à la carte OSM
      *numériquement*, en utilisant l'outil de dessin. Mais vos points, pistes et objets tracés dans le Walking Paper peuvent être vu en arrière-plan comme un guide de tracage.
@@ -218,7 +218,7 @@ Télécharger les modifications
 - Cliquez sur "Fichier" dans le menu du haut, puis cliquez sur "Envoyer». Ceci
      va ouvrir la fenêtre de téléchargement. Vous pouvez accéder à cette fenêtre en cliquant simplement sur le bouton de téléchargement, illustré ici:
 
-      ![]({{site.baseurl}}/images/EditingWithJOSM_html_67f320b3_en.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_67f320b3_en.png)
 
 - La fenêtre qui apparaît affiche la liste des objets que vous ajoutez et les objets que vous modifiez ou supprimer. Dans la boîte au bas du panneeau,
      vous êtes invité à fournir un commentaire sur les modifications que
@@ -242,7 +242,7 @@ Télécharger les modifications
 Voir vos modifications sur la carte
 ---------------------------
 
-- Ouvrez votre navigateur Internet et allez à http://openstreetmap.org/](http://openstreetmap.org/)
+- Ouvrez votre navigateur Internet et allez à [http://openstreetmap.org/](http://openstreetmap.org/)
 
 - Déplacez la carte vers la zone que vous avez modifiée.
 
@@ -262,7 +262,9 @@ Enregistrement des fichiers OSM
 - Pour enregistrer un fichier OSM, assurez-vous qu'il est le calque actif dans la
      le panneau Calques. Cliquez sur "Fichier" dans le menu du haut, puis cliquez sur "Enregistrer".
      Choisissez un emplacement pour le fichier et lui donner un nom. Vous pouvez également enregistrer
-     en cliquant sur ce bouton: ![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png
+     en cliquant sur ce bouton:
+
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png)
 
 - Vous pouvez maintenant fermer JOSM et vos données seront sauvegardées. Lorsque vous voulez accéder au fichier à nouveau, il suffit d'ouvrir JOSM, allez au menu "Fichier", et
      cliquez sur "Ouvrir"
