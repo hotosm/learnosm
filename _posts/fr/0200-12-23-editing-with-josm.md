@@ -11,81 +11,102 @@ category: beginner
 
 Dans le [Chapitre 3]({{site.baseurl}}/fr/beginner/start-josm/), vous avez
 installé JOSM et commencé à tracer vos premiers points, lignes et polygones.
-Vous avez ajouté des attributs pour ces objets afin d'ajouter des informations à
-leur sujet. À la fin, vous avez été en mesure de dessiner votre propre carte
+Vous avez ajouté des attributs pour ces objets afin de leur attribuer des
+informations. À la fin, vous avez été en mesure de dessiner votre propre carte
 dans JOSM.
 
 Tracer des cartes dans le chapitre 3 a été un exercice pour apprendre JOSM et
 apprendre à tracer sur la carte pour y ajouter des endroits. Mais nos cartes
-n'étaient pas exactes,
- car nous n'avions pas encore ajouté de localisation. Dans les deux derniers chapitres, nous avons examiné deux outils, les GPS et les Walking Paper, qui nous permettent de recueillir la localisation actuelle des lieux (En général, les récepteurs GPS permettent de déterminer votre position avec une précision de + / - 10 mètres, de sorte qu'ils peuvent ne pas être tout à fait exacts, en particulier
-si vous ne prennez qu'un seul point). Ces lieux sont représentés par des
-coordonnées.
+n'étaient pas exactes, car nous n'avions pas encore ajouté de localisation. Dans
+les deux derniers chapitres, nous avons examiné deux outils, les GPS et les
+Walking Papers, qui nous permettent de recueillir la localisation actuelle des
+lieux (en général, les récepteurs GPS permettent de déterminer votre position
+avec une précision de + / - 10 mètres, de sorte qu'ils peuvent ne pas être tout
+à fait exacts, en particulier si vous ne prenez qu'un seul point). Ces lieux
+sont représentés par des coordonnées.
 
-Dessiner une *vrai* carte, soit une carte où tous les points, les lignes et
-polygones sont à leur localisation propre, ce n'est pas différent des cartes tracées au cours des chapitres précédents - Mais maintenant, nous allons utiliser nos points et pistes GPS, et nos Walking Papers, pour tracer des cartes similaires à leur bon endroit sur la planète.
+Dessiner une *vraie* carte, soit une carte où tous les points, les lignes et
+polygones sont à leur localisation propre, ce n'est pas différent des cartes
+tracées au cours des chapitres précédents — mais maintenant, nous allons
+utiliser nos points et pistes GPS, et nos Walking Papers, pour tracer des cartes
+similaires à leur bon endroit sur la planète.
 
-Dans ce chapitre, nous allons apprendre à modifier la carte sur OpenStreetMap et y ajouter nos améliorations. Nous allons apprendre le cycle de base de la cartographie sur OSM:
+Dans ce chapitre, nous allons apprendre à modifier la carte sur OpenStreetMap
+et à les améliorer. Nous allons apprendre le cycle de base de la cartographie
+sur OSM:
 
-**Télécharger** des données de la carte OSM actuelle
+1. **Télécharger** des données de la carte OSM actuelle
 
-  - [Tour de JOSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#a-tour-of-josm)
-  - [Télécharger des données OSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#download-osm-data)
-  - [Couches JOSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#josm-layers)
+    -   [Tour de JOSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#a-tour-of-josm)
+    -   [Télécharger des données OSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#download-osm-data)
+    -   [Couches JOSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#josm-layers)
 
-**Éditer** en utilisant les pistes GPS, Walking Papers, et les notes comme un guide
+2. **Éditer** en utilisant les pistes GPS, Walking Papers, et les notes comme un guide
 
-  - [Editer]({{site.baseurl}}/fr/beginner/editing-with-josm/#edit)
-  - [Attributs]({{site.baseurl}}/fr/beginner/editing-with-josm/#tags)
+    -   [Editer]({{site.baseurl}}/fr/beginner/editing-with-josm/#edit)
+    -   [Attributs]({{site.baseurl}}/fr/beginner/editing-with-josm/#tags)
 
-**Enregistrer** les modifications dans la base OpenStreetMap
+3. **Enregistrer** les modifications dans la base OpenStreetMap
 
-  - [Télécharger les modifications]({{site.baseurl}}/fr/beginner/editing-with-josm/#upload-changes)
-  - [Voir vos modifications sur la carte]({{site.baseurl}}/fr/beginner/editing-with-josm/#see-your-changes-on-the-map)
-  - [Sauvegarder les fichiers OSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#saving-osm-files)
+    -   [Télécharger les modifications]({{site.baseurl}}/fr/beginner/editing-with-josm/#upload-changes)
+    -   [Voir vos modifications sur la carte]({{site.baseurl}}/fr/beginner/editing-with-josm/#see-your-changes-on-the-map)
+    -   [Sauvegarder les fichiers OSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#saving-osm-files)
 
-À la fin de ce chapitre, nous serons en mesure de voir nos ajouts sur le
-Carte OSM.
+À la fin de ce chapitre, nous serons en mesure de voir nos ajouts sur la
+carte OSM.
 
 
 Un Tour de JOSM
---------------
+---------------
 
-- Tout d'abord, démarrer JOSM à partir du Menu de programmes de votre ordinateur.
+-   Tout d'abord, démarrer JOSM à partir du Menu de programmes de votre
+    ordinateur.
 
-- Ensuite, chargez votre fichier gpx et votre Walking Paper dans JOSM. Vous n'avez pas
-     besoin d'ouvrir les deux à la fois, mais vous pouvez, si vous le souhaitez. Reportez-vous aux deux précédents chapitres si vous ne vous souvenez pas comment ouvrir ceux-ci dans JOSM.
+-   Ensuite, chargez votre fichier GPX et votre Walking Paper dans JOSM. Vous
+    n'avez pas besoin d'ouvrir les deux à la fois ; mais vous pouvez, si vous le souhaitez. Reportez-vous aux deux précédents chapitres si vous ne vous
+    souvenez pas comment faire.
 
-- Un tour rapide des fonctionnalités de JOSM: JOSM a de nombreuses caractéristiques différentes.
-     Vous êtes déjà familiers ave la fenêtre principale de JOSM -
-   C'est la fenêtre de la carte, et c'est là que la plupart de l'action se déroule. À cet endroit, vous visualisez, éditez et ajoutez les données dans la base OpenStreetMap.
+-   Un tour rapide des fonctionnalités de JOSM : JOSM a de nombreuses
+    caractéristiques. Vous êtes déjà familier ave la fenêtre principale de JOSM
+    — c'est la fenêtre de la carte, et c'est là que la plupart de l'action se
+    déroule. À cet endroit, vous visualisez, éditez et ajoutez les données dans
+    la base OpenStreetMap.
 
-- La fenêtre à droite de la carte contient une série de panneaux avec chacun une fonction différente. En général, lorsque vous installez JOSM,
-     plusieurs panneaux sont affichés par défaut, tels que les calques, Propriétés et
-     Sélection. Lorsque vous sélectionnez un point, une ligne ou une forme sur la fenêtre de la carte,  il sera affiché dans le panneau de sélection. informations sur
-     L'information relative à l'objet sera affichée dans le panneau Propriétés, et le nom d'utilisateur de l'auteur de cet objet sera affiché dans le panneau Auteurs.
+-   La fenêtre à droite de la carte contient une série de panneaux avec chacun
+    une fonction différente. En général, lorsque vous installez JOSM,
+    plusieurs panneaux sont affichés par défaut, tels que les calques,
+    Propriétés et Sélection. Lorsque vous sélectionnez un point, une ligne ou
+    une forme sur la fenêtre de la carte, il sera affiché dans le panneau de
+    sélection. L'information relative à l'objet sera affichée dans le panneau Propriétés, et le nom d'utilisateur de l'auteur de cet objet sera affiché
+    dans le panneau Auteurs.
 
-     ![]({{site.baseurl}}/images/EditingWithJOSM_html_46acf705_en.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_46acf705_en.png)
 
-- Sur le côté gauche de JOSM, il y a plusieurs barres d'outils sous forme de nombreux boutons. Au haut de cette barre. se retrouvent différents boutons qui controlent ce que vous pouvez faire avec votre souris. Vous êtes déjà familier
-     avec les deux premiers, l'outil de sélection et de l'outil de dessin. les autres
-     outils sont utiles pour zoomer, supprimer un objet, dessiner une forme, ou créer une ligne qui est parallèle à une autre ligne.
+-   Sur le côté gauche de JOSM, il y a plusieurs barres d'outils sous forme de
+    nombreux boutons. Au haut de cette barre, se trouvent différents boutons qui
+    controlent ce que vous pouvez faire avec votre souris. Vous êtes déjà
+    familier avec les deux premiers, l'outil de sélection et de l'outil de
+    dessin. les autres outils sont utiles pour zoomer, supprimer un objet,
+    dessiner une forme, ou créer une ligne qui est parallèle à une autre ligne.
 
-- En dessous de ces outils, se retrouvent plusieurs autres boutons. Ceux-ci contrôlent ce
-     que vous voyez sur le côté droit de JOSM. Avec ces boutons vous pouvez ouvrir
-     et fermer les boîtes à droite, comme les propriétés, la sélection et
-     auteur.
+-   En dessous de ces outils, se retrouvent plusieurs autres boutons. Ceux-ci 
+    contrôlent ce que vous voyez sur le côté droit de JOSM. Avec ces boutons
+    vous pouvez ouvrir et fermer les boîtes à droite, comme les propriétés, la
+    sélection et auteur.
 	 
 Télécharger des données OSM
------------------
+---------------------------
 
-- Rappellez-vous le cycle d'édition d'OpenStreetMap décrit dans le
-    introduction de ce chapitre.
-    **Télécharger**, **edit**, **sauver**. Avant d'éditer, nous devons télécharger les données existantes dans la base OSM pour la zone à éditer.
+-   Rappelez-vous le cycle d'édition d'OpenStreetMap décrit dans
+    l'introduction de ce chapitre. **Télécharger**, **éditer**, **sauver**.
+    Avant d'éditer, nous devons télécharger les données existantes dans la base
+    OSM pour la zone à éditer.
 
-- Lorsque vous ouvrez votre piste gpx ou le fichier du Walking Paper, la fenêtre de la carte affiche ce contenu, et se déplace automatiquement pour couvrir les coordonnées couvertes dans le fichier. Suite à l'ouverture de vos fichiers, regardez dans le fond
-    à gauche de JOSM. Vous pouvez voir la latitude et la longitude
-    (Coordonnées) du curseur de votre souris.
+-   Lorsque vous ouvrez votre piste GPX ou le fichier du Walking Paper, la
+    fenêtre de la carte affiche ce contenu, et se déplace automatiquement pour
+    couvrir les coordonnées couvertes dans le fichier. Suite à l'ouverture de
+    vos fichiers, regardez dans le fond à gauche de JOSM. Vous pouvez voir la
+    latitude et la longitude (Coordonnées) du curseur de votre souris.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m58e5f3e7_en.png)
 
@@ -96,21 +117,28 @@ Télécharger des données OSM
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m6f2281c2_en.png)
 
-- Lorsque la fenêtre de téléchargement s'ouvre, vous devriez voir une carte avec une boîte rose dessiné au-dessus. Si vous ne voyez pas la carte, cliquez sur l'onglet marqué
-    "Carte Slippy".
+-   Lorsque la fenêtre de téléchargement s'ouvre, vous devriez voir une carte
+    avec une boîte rose dessinée au-dessus. Si vous ne voyez pas la carte,
+    cliquez sur l'onglet marqué «Carte Slippy».
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m1318e890_en.png)
 
-- La boîte rose correspond à la zone de la carte que nous aimerions télécharger pour l'édition. À l'ouverture, elle correspond à la zone affichée dans la fenêtre Carte. Sauf si vous avez déplacé la fenêtre de la carte, vous pouvez immédiatement télécharger la zone correspondante à votre fichier GPS ou votre Walking Paper. Toutefois, si vous souhaitez télécharger un
-    grande surface, vous pouvez dessiner une nouvelle boîte. Pour dessiner une nouvelle boîte, cliquez sur le
-    carte, maintenez le bouton gauche de la souris et faites glisser la souris pour créer
-    une boîte. Relâchez le bouton de la souris pour terminer le dessin de la boîte.
+-   La boîte rose correspond à la zone de la carte que nous aimerions
+    télécharger pour l'édition. À l'ouverture, elle correspond à la zone
+    affichée dans la fenêtre Carte. Sauf si vous avez déplacé la fenêtre de la
+    carte, vous pouvez immédiatement télécharger la zone correspondante à votre
+    fichier GPS ou votre Walking Paper. Toutefois, si vous souhaitez télécharger
+    une grande surface, vous pouvez dessiner une nouvelle boîte. Pour cela,
+    cliquez sur la carte, maintenez le bouton gauche de la souris et faites
+    glisser la souris pour créer une boîte. Relâchez le bouton de la souris pour terminer le dessin de la boîte.
 
-- Lorsque vous êtes satisfait de la taille et de l'emplacement de la boîte, cliquez sur
-    «Télécharger» en bas de la fenêtre. JOSM obtiendrez ces données à partir de la base OpenStreetMap et les transferera automatiquement dans la fenêtre de votre carte, prêt pour  l'édition.
+-   Lorsque vous êtes satisfait de la taille et de l'emplacement de la boîte,
+    cliquez sur «Télécharger» en bas de la fenêtre. JOSM obtiendra ces données à
+    partir de la base OpenStreetMap et les transférera automatiquement dans la
+    fenêtre de votre carte, prêtes à être éditées.
 
 Couches JOSM
------------
+------------
 
 - Ouvrez votre fichier GPS et téléchargez les données à partir de OpenStreetMap, si ce n'est déjà fait. Vous remarquerez peut-être que lorsque vous ouvrez un fichier, ou ajoutez un Walking Paper, ou le télécharger à partir de OpenStreetMap, un autre élément est
     ajouté dans le panneau Calques sur le côté droit de JOSM. Vos panneaux de couches peuvent ressembler à ceci:
