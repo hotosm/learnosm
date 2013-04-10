@@ -128,8 +128,10 @@ Couches JOSM
 - Vous devriez voir la couche sélectionnée disparaître de la fenêtre Carte.
  Cliquez sur Afficher / Masquer de nouveau, et elle réapparaîtra.
 
-- Vous pouvez fermer une couche en le sélectionnant et en cliquant sur le bouton Suppression
-    Bouton: []({{}} site.baseurl / images/EditingWithJOSM_html_m172543d8_en.png)
+-   Vous pouvez fermer une couche en le sélectionnant et en cliquant sur le 
+    bouton «Suppression»:
+
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m172543d8_en.png)
 
 - Enfin, il est important de savoir que vous ne pouvez modifier que la couche
     est considéré comme *active* par JOSM. Si vous ne parvenez pas à modifier la carte
