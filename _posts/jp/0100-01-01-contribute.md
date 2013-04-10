@@ -4,10 +4,10 @@ permalink: /jp/contribute/
 lang: jp
 title: お手伝い
 contributetitle: "このガイドの改善にご協力ください！"
-startwith: "準備は万端？"
-startA: "ご意見ご感想はこちらまで"
-startB: "このページを翻訳"
-startC: "別の言語でサイトを作成"
+startwith: "参加の方法"
+startA: "ご意見ご感想"
+startB: "ページを翻訳"
+startC: "誤訳の報告"
 startD: "サイトをForkして改善"
 nosearch: true
 ---
