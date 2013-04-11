@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/intermediate/
-lang: en
+permalink: /fr/intermediate/
+lang: fr
 title: Intermediate guide
 category: intermediate
 cover: yes

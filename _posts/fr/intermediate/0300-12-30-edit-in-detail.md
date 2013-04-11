@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Editing in detail
-permalink: /en/intermediate/editing-in-detail/
-lang: en
+permalink: /fr/intermediate/editing-in-detail/
+lang: fr
 category: intermediate
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Quality Assurance
-permalink: /en/intermediate/quality-assurance/
-lang: en
+permalink: /fr/intermediate/quality-assurance/
+lang: fr
 category: intermediate
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Conflict resolution
-permalink: /en/intermediate/conflict-resolution/
-lang: en
+permalink: /fr/intermediate/conflict-resolution/
+lang: fr
 category: intermediate
 ---
 
