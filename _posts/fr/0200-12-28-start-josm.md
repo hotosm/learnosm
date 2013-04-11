@@ -21,8 +21,9 @@ Vous aurez alors une bonne vue d'ensemble de la création de carte avec JOSM.
 Télécharger JOSM
 ----------------
 
--   Si vous avez une copie de JOSM sur un CD ou une clé USB, vous pouvez
-    directement passer à la section 2, «Installer JOSM».
+> Si vous avez une copie de JOSM sur un CD ou une clé USB, vous pouvez
+> directement passer à la section 2, «Installer JOSM».
+
 -   Si vous n'avez pas encore JOSM, ou si vous voulez mettre à jour votre
     version, lancer votre navigateur Internet — ce peut être Firefox, Chrome,
     Opera, ou Internet Explorer.
@@ -241,17 +242,18 @@ Les bases du tracé avec JOSM
 
 ### Tracer
 
--   Tout à gauche de la fenêtre de JOSM, il y a une barre d'outils. Une partie
-    de ces boutons permettent d'ouvrir des fenêtres à droite qui affichent des
-    informations supplémentaires sur la carte. Mais les boutons qui nous
-    intéressent pour le moment sont en haut de cette barre d'outils. Ces boutons
-    permettent de définir ce que vous pouvez faire avec votre souris.
--   Les quatre boutons du haut sont les plus importants. Ils vous permettent de:
+Tout à gauche de la fenêtre de JOSM, il y a une barre d'outils. Une partie
+de ces boutons permettent d'ouvrir des fenêtres à droite qui affichent des
+informations supplémentaires sur la carte. Mais les boutons qui nous
+intéressent pour le moment sont en haut de cette barre d'outils. Ces boutons
+permettent de définir ce que vous pouvez faire avec votre souris.
 
-    1. Sélectionner
-    2. Tracer
-    3. Zoomer
-    4. Effacer
+Les quatre boutons du haut sont les plus importants. Ils vous permettent de:
+
+-   Sélectionner
+-   Tracer
+-   Zoomer
+-   Effacer
 
 -   Jusqu'à présent, vous avez utilisé l'outil de sélection, qui ressemble à
     ceci:
@@ -275,11 +277,11 @@ Les bases du tracé avec JOSM
 
 ### Utiliser les modèles d'attributs
 
--   Nous savons désormais comment tracer des points, des lignes et des
-    polygones, mais pour l'instant nous n'avons pas défini ce qu'ils
-    représentent. Nous voulons être capable de dire qu'un point est une
-    boutique, une école, ou autre chose, et de même si nos polygones sont des
-    champs, des bâtiments, ou autre chose.
+Nous savons désormais comment tracer des points, des lignes et des polygones,
+mais pour l'instant nous n'avons pas défini ce qu'ils représentent. Nous voulons
+être capable de dire qu'un point est une boutique, une école, ou autre chose, et
+de même si nos polygones sont des champs, des bâtiments, ou autre chose.
+
 -   Dans la barre d'outils à gauche, cliquez de nouveau sur l'outil de
     sélection.
 
@@ -300,9 +302,10 @@ Les bases du tracé avec JOSM
 Tracer votre carte
 ------------------
 
--   C'est le moment de tracer une carte pour mettre en pratique ce que l'on
-    vient d'apprendre. Vous pouvez par exemple tracer la carte que vous aviez
-    dessiné dans le chapitre 1.
+C'est le moment de tracer une carte pour mettre en pratique ce que l'on vient
+d'apprendre. Vous pouvez par exemple tracer la carte que vous aviez dessiné dans
+le chapitre 1.
+
 -   À l'aide du bouton droit de votre souris, déplacez-vous dans une zone de la
     carte totalement vide.
 -   Utilisé l'outil de tracé pour créer des points, des lignes et des polygones.
