@@ -96,144 +96,72 @@ Editieren
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_1cb5aeb4_en.png)
 
-Tags
+Attribute
 ----
 
--  When you draw a point, line, or shape, it has a location, but no
-    information about what it is. In other words, we know **where** it
-    is, but not **what** it is. Before now, we have been using items
-    from the Presets menu to define **what** it is. The way
-    OpenStreetMap knows **what** an object is is by using **tags**.
-
--  A tag is like a label that you can put on something. For example, if
-    I draw a square, it’s only a square. But then I add multiple tags to
-    it that describe what it is: this square is a building, the name of
-    the building is “Menara Thamrin”, the building is 16 levels high
-
--  You can add as many tags as you want to an object. Tags are saved as
-    pairs of text, called the **keys** and the **values**. In
-    OpenStreetMap, the tags written above would in fact be:
-    `building = yes, name = Menara Thamrin, building:levels = 16`
-
--  If you select an object in JOSM, you can see all the tags that are
-    attached to it in the Properties panel on the right.
+- Wenn du einen Punkt zeichnest, oder eine Linie oder Grundriss, so ist lediglich bekannt **wo** sich das Objekt befindet, jedoch nicht **was** es ist. Bislang haben wir Objekte aus dem Vorlagenmenü verwendet um zu definieren **was** das Objekt ist. OpenSTreetMap verwendet **Attribute** um zu definieren **was** ein Objekt ist.
+- Ein Attribut ist wie ein Beschriftungsschild die du irgendwo anbringen kannst. Zum Beispiel, wenn du ein Quadrat zeichnest ist es nur ein Quadrat. Aber wenn du mehrere Attribute hinzufügst entsteht folgender Eintrag: Dieses Quadrat ist ein Gebäude, der Name dieses Gebäudes ist „Menara Thamrin“ und das Gebaüde hat 16 Stockwerke.
+- Du kannst soviele Attribute wie du möchtest zu einem Objekt hinzufügen. tags werden als Textpaare gespeichert, genannt **Schlüssel** und **Werte**. In OpenStreetMap würden die Attribute aus dem vorherigen Beispiel so aussehen:  `building = yes, name = Menara Thamrin, building:levels = 16`
+- Wenn du ein Objekt in JOSM auswählst, kannst du alle Attribute die zu diesem Objekt gehören in dem Eigenschaftsmenü auf der rechten Seite sehen.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m945ccee_en.png)
 
-### Editing Tags
+### Attribute editieren
 
--  You can add, edit, and delete these tags from this panel. The tags
-    are traditionally in English however, so it is often better to use
-    the Presets menu. When you add or change tags, such as primary
-    highway versus footpath, the style will change according to the tag.
-
--  To edit an existing object:
-
--  Select it.
-
--  Then you can edit the tags in one of two ways: (1) You can use the
-Presets menu to open up a form and edit the information, or (2) you can
-edit the tags directly in the Properties window on the right. 
+- Du kannst in diesem Menü Attribute hinzufügen, editieren und löschen. Die Attribute sind traditionellerweise auf Englisch, deswegen ist es oftmals besser das Vorlagenmenü zu verwenden. Wenn du ein Attribut hinzufügst oder veränderst, zum Beispiel *primary highway* austauschst mit *footpath*, wird sich die Anzeige entsprechend des Attributs verändern.
+- Um ein bestehendes Objekt zu editieren:
+- Wähle es aus.
+- Dann kannst du die Attribute auf zwei Wege verändern: (1) Du kannst das Vorlagenmenü benutzen um eine Eingabemaske zu öffnen und die Informationen zu bearbeiten, oder (2) du kannst die Attribute direkt im Eigenschaftenmenü auf der rechten Seite bearbeiten.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_94da59a_en.png)
 
-### Common Mistake: Tagging nodes when you want to tag lines or polygons
+### Häufiger Fehler: Attribute von Punkten bearbeiten anstatt von Linien oder Grundrissen
 
--  When you are adding tags to a node, you select the node and then add
-    your tags (or use the presets menu). When you want to add tags to a
-    line or polygon, it is important that you select the line, and NOT
-    the nodes that make up the line.
-
--  A common mistake is to use the JOSM select tool to draw a box around
-    an object, which causes everything, both the line **and** the nodes
-    to be selected, and when you add tags they are applied to the nodes
-    as well. Be sure to **only** select lines when you want to add tags
-    to them.
+- Wenn du Attribute zu einem Punkt hinzufügst, wählst du den Punkt aus und fügst dann die Attribute hinzu (oder benutzst das Vorlagenmenü). Wenn du Attribute zu einer Linie oder einem Grundriss hinzufügen möchtest, musst du darauf achten, die Linie auszuwählen nicht einen der Punkte, welche die Linie beschrieben.
+- Ein häufiger Fehler ist, das JOSM Auswahlwerkzeug zu verwenden um einen Rahmen um ein Objekt zu ziehen. Dadurch werden allerdings alles ausgewählt, die Linie **und** die Punkte und die Attribute werden auch zu den Punkten hinzugefügt. Stelle sicher, dass du **nur** Linien auswählst, wenn du Attribute zu ihnen hinzufügen möchtest.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_2746cce8_en.png)
 
--  More information about tags and presets can be found in Intermediate
-    Guide Chapter 4: XML and JOSM Presets.
+- Weitere Informationen über Attribute und Vorlagen finden sich im *Fortgeschrittene* Kapitel 4: XML und JOSM Vorlagen.
 
-Upload Changes
+Änderungen hochladen
 --------------
 
--  After you have made a couple of changes to improve the map, let’s
-    save those changes to OpenStreetMap. To save the changes, we need to
-    be connected to the internet, because we are in fact uploading the
-    changes to OpenStreetMap.
-
--  Click “File” on the top menu, and then click “Upload Data”. This
-    will open up the upload window. You can access this window more
-    simply by clicking on the upload button, shown here:
+- Nachdem du einige Änderungen gemacht hast um die Karte zu verbessern, lass uns nun diese Änderungen bei OpenStreetMap speichern. Um die Änderungen speichern können müssen wir mit dem Internet verbunden sein, da wir die Änderungen zu OpenStreetMap hochladen.
+- Klicke auf „Datei“ im oberen Menü und dann auf „Daten hochladen“, dadurch öffnet sich das Upload-Fenster. Dieses Fenster lässt sich auch durch einen Klick auf den Upload-Button öffnen, so wie in diesem Screenshot:
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_2e194887_en.png)
 
--  The window that appears shows a list of the objects that you are
-    adding and the objects you are modifying or deleting. In the box at
-    the bottom you are asked to provide a comment about the changes that
-    you are making. Type in here a description of your edits.
+- Das nun erscheinende Fenster zeigt eine Liste der Objekte die du hinzufügst, modifizierst oder löschst. In dem unteren Textfeld kannst du einen Kommentar über deine Änderungen verfassen.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_67f320b3_en.png)
 
--  Click “Upload Changes”.
-
--  If this is your first time saving changes to OpenStreetMap, you will
-    be asked for the username and password that you created in Chapter
-    - Enter them in the window that appears. If you check the box in
-    this window, your username and password will be saved and you won’t
-    need to enter them again in the future. Click “Authenticate”.
+- Klicke auf „Änderungen hochladen“
+- Wenn du zum ersten Mal Änderungen bei OpenStreetmap speicherst, wirst du nach dem Benutzernamen und Kennwort gefragt, welche du in Kapitel angegeben hast.
+- Gib sie in dem Fenster ein, welches erscheint. Wenn du den Haken in dem Kästchen setzt, werden Benutzername und Kennwort gespeichert, sodass du sie in Zukunft nicht mehr eingeben musst. Klcike auf „Authentifizieren“.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
 
--  You will need to wait a few seconds for your changes to be uploaded,
-    and then you are done! You have made your first edits to
-    OpenStreetMap. You may continue editing to add all your points if
-    you wish. Always be sure to upload your changes before you close
-    JOSM.
+- Nun musst du ein paar Sekunden warten währrend deine Änderungen hochgeladen werden und dann bist du fertig! Du hast deine ersten Änderungen bei OpenStreetMap gemacht. Du kannst weiter editieren und alle deine Punkte hinzufügen wenn du möchtest. Stelle nur sicher, dass du immer deine Änderungen hochlädst, bevor du OSM schliesst.
 
-See your changes on the map
+Beobachte deine Änderungen auf der Karte
 ---------------------------
 
--  Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
+- Öffne deinen Internetbrowser und gehe zu [http://openstreetmap.org/](http://openstreetmap.org/)
+- Bewege die Karte zu dem Bereich den du editiert hast.
+- Du solltest deine Änderungen nun auf der Karte sehen! falls nicht, versuche CTRL+R zu drücken um die Webseite neu zu laden. Manchmal aktualisiert sich die Karte nicht richtig und muss neu geladen werden.
+- Was ist, wenn du deine Änderungen nicht siehst? Keine Sorge - es kann einige Minuten dauern, bis die Änderungen auf der Karte angezeigt werden. Außerdem kannst du noch mal in JOSM nachprüfen, dass du deine Änderungen richtig hinzugefügt hast. Eine gute Daumenregel ist: Wenn dein Punkt ein Icon in JOSM hat, dann sollte es auf der Karte auf der OpenStreetMap Webseite zu sehen sein.
 
--  Move the map to the area that you edited.
-
--  You should see your changes now appearing on the map! If you don’t,
-    try pressing CTRL+R to refresh the web page. Sometimes the map
-    doesn’t update properly and needs to be reloaded.
-
--  What if you don’t see your changes? Don’t worry - it may take a few
-    minutes for the changes to be shown on the map. Also, check your
-    additions in JOSM to make sure that you added them correctly. A good
-    general rule is, if your point has an icon in JOSM, then it should
-    be seen on the main map at the OpenStreetMap website.
-
-Saving OSM files
+OSM-Dateien speichern
 ----------------
 
--  Sometimes after you download some OSM data, you may wish to save it
-    so that you can edit it offline, and then upload it later when you
-    have internet access again.
+- Manchmal, nachdem du OSM-Daten heruntergeladen hast, kann es sein, dass du die Daten speichern möchtest. So kannst du offline daran arbeiten und später hochladen, wenn du wieder über eine Internetverbindung verfügst.
+- Um eine OSM datei zu speichern, stelle sicher, dass sie als aktive Ebene im Ebenenmenü ausgewählt ist. Klicke auf „Datei“ im oberen Menü und dann auf „Speichern“. Wähle einen Ort zum speichern und gib der Datei einen Namen. Du kannst auch speichern, indem du auf diesen Button drückst: ![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png)
+- Nun kannst du JOSM schliessen und deine Daten werden gespeichert. Wenn du die Datei wieder öffnen möchtest, starte einfach JOSM, wähle „Datei“ und dann „Öffnen“.
 
--  To save an OSM file, make sure that it is the active layer in the
-    the Layers panel. Click “File” on the top menu, and click “Save”.
-    Choose a location for the file and give it a name. You can also save
-    by clicking this button:![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png)
-
--  You can now close JOSM and your data will be saved. When you want to
-    open the file again, simply open JOSM, go to the “File” menu, and
-    click “Open...”
-
-Summary
+Zusammenfassung
 -------
 
-Now that you’ve seen how to add to OpenStreetMap, what’s next? Remember
-that OSM maps get better and better over time. Every time you make
-improvements to the map, those changes remain and the data gets better
-and better. And just as you can improve other people’s work, so they can
-improve your work too.
+Nun, da du gelernt hast, wie man Objekte zu OpenStreetMap hinzufügt, was kannst du als nächstes tun? Denk daran, dass OSM mit der Zeit immer besser wird. Jedes mal, wenn du die Karte etwas verbesserst, werden auch die Daten besser und besser. Und so wie du die Arbeit anderer Benutzer verbessern kannst, so können auch andere Benutzer deine Arbeit verbessern.
 
-In the final chapter we will step away from JOSM, and look at some
-interesting projects that use OpenStreetMap data, and learn how you can
-continue learning about OSM.
+Im letzten kapitel werden wir von JOSM Abstand nehmen und ein paar interssante Projekte betrachten, welche OpenStreetMap Daten verwenden und du wirst sehen wie du auch weiterhin Sachen über OpenStreetMap lernen kannst.
