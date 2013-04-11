@@ -109,7 +109,7 @@ devons télécharger les données existantes dans la base OSM pour la zone à
 
 -   Parce que la fenêtre de la carte montre déjà la zone que l'on veut
     modifier, il est facile de télécharger les données OpenStreetMap pour cette zone.
-    Cliquez sur "Fichier" dans le coin supérieur gauche de JOSM et cliquez sur "Télécharger de OSM ". Cela permettra d'ouvrir la fenêtre de téléchargement. Vous pouvez accéder à
+    Cliquez sur «Fichier» dans le coin supérieur gauche de JOSM et cliquez sur «Télécharger de OSM». Cela permettra d'ouvrir la fenêtre de téléchargement. Vous pouvez accéder à
     cette fenêtre plus simplement en cliquant sur le bouton de téléchargement décrit ci-dessous:
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m6f2281c2_en.png)
