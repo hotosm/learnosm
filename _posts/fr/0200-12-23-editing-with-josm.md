@@ -6,8 +6,7 @@ lang: fr
 category: beginner
 ---
 
-Éditer avec JOSM
-=================
+# Éditer avec JOSM
 
 Dans le [Chapitre 3]({{site.baseurl}}/fr/beginner/start-josm/), vous avez
 installé JOSM et commencé à tracer vos premiers points, lignes et polygones.
@@ -56,10 +55,9 @@ sur OSM:
 carte OSM.
 
 
-Un Tour de JOSM
----------------
+## Un Tour de JOSM
 
--   Tout d'abord, démarrer JOSM à partir du Menu de programmes de votre
+-   Tout d'abord, démarrez JOSM à partir du Menu de programmes de votre
     ordinateur.
 
 -   Ensuite, chargez votre fichier GPX et votre Walking Paper dans JOSM. Vous
@@ -94,13 +92,12 @@ Un Tour de JOSM
     vous pouvez ouvrir et fermer les boîtes à droite, comme les propriétés, la
     sélection et auteur.
 	 
-Télécharger des données OSM
----------------------------
+## Télécharger des données OSM
 
--   Rappelez-vous le cycle d'édition d'OpenStreetMap décrit dans
-    l'introduction de ce chapitre. **Télécharger**, **éditer**, **sauver**.
-    Avant d'éditer, nous devons télécharger les données existantes dans la base
-    OSM pour la zone à éditer.
+Rappelez-vous le cycle d'édition d'OpenStreetMap décrit dans l'introduction
+de ce chapitre. **Télécharger**, **éditer**, **sauver**. Avant d'éditer, nous
+devons télécharger les données existantes dans la base OSM pour la zone à
+éditer.
 
 -   Lorsque vous ouvrez votre piste GPX ou le fichier du Walking Paper, la
     fenêtre de la carte affiche ce contenu, et se déplace automatiquement pour
@@ -110,7 +107,7 @@ Télécharger des données OSM
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m58e5f3e7_en.png)
 
-- Parce que la fenêtre de la carte montre déjà la zone que l'on veut
+-   Parce que la fenêtre de la carte montre déjà la zone que l'on veut
     modifier, il est facile de télécharger les données OpenStreetMap pour cette zone.
     Cliquez sur "Fichier" dans le coin supérieur gauche de JOSM et cliquez sur "Télécharger de OSM ". Cela permettra d'ouvrir la fenêtre de téléchargement. Vous pouvez accéder à
     cette fenêtre plus simplement en cliquant sur le bouton de téléchargement décrit ci-dessous:
@@ -137,181 +134,236 @@ Télécharger des données OSM
     partir de la base OpenStreetMap et les transférera automatiquement dans la
     fenêtre de votre carte, prêtes à être éditées.
 
-Couches JOSM
-------------
+## Couches JOSM
 
-- Ouvrez votre fichier GPS et téléchargez les données à partir de OpenStreetMap, si ce n'est déjà fait. Vous remarquerez peut-être que lorsque vous ouvrez un fichier, ou ajoutez un Walking Paper, ou le télécharger à partir de OpenStreetMap, un autre élément est
-    ajouté dans le panneau Calques sur le côté droit de JOSM. Vos panneaux de couches peuvent ressembler à ceci:
+-   Ouvrez votre fichier GPS et téléchargez les données à partir
+    d'OpenStreetMap, si ce n'est déjà fait. Vous remarquerez peut-être que
+    lorsque vous ouvrez un fichier, ou ajoutez un Walking Paper, ou le
+    téléchargez à partir d'OpenStreetMap, un autre élément est ajouté dans le
+    panneau Calques sur le côté droit de JOSM. Vos panneaux de couches peuvent ressembler à ceci:
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_5c2b7c3b_en.png)
 
-- Chaque élément de cette liste représente une source de données différente que vous avez ouverte dans la fenêtre de votre carte. Dans l'exemple ci-dessus, "couche de données
-    2 " correspond aux données OpenStreetMap que nous voulons modifier. "Marqueurs" correspond aux
-    waypoints du GPS, et "30 Juni 201-gpx" correspond au fichier GPS. Enfin, "Walking Papers» est la couche créée quand vous avez ajouté le Walking Paper dans JOSM. Vous pouvez ajouter la couche d'imagerie Bing (ie. imagerie par satellite), en cliquant sur "Imagerie" dans le menu en haut de JOSM et en sélectionnant "Bing Sat."
+-   Chaque élément de cette liste représente une source de données différente
+    que vous avez ouverte dans la fenêtre de votre carte. Dans l'exemple
+    ci-dessus, «couche de données 2» correspond aux données OpenStreetMap que
+    nous voulons modifier. «Marqueurs» correspond aux waypoints du GPS, et
+    «30 Juni 201-gpx» correspond au fichier GPS. Enfin, «Walking Papers» est la
+    couche créée quand vous avez ajouté le Walking Paper dans JOSM. Vous pouvez
+    ajouter la couche d'imagerie Bing (i.e. imagerie par satellite), en cliquant
+    sur «Imagerie» dans le menu en haut de JOSM et en sélectionnant «Bing Sat».
 
-- Pour masquer une de ces couches, sélectionnez l'un d'eux avec votre souris et
-    cliquez sur le bouton Afficher / Masquer qui ressemble à
-    ceci: ![]({{site.baseurl}}/images/EditingWithJOSM_html_5c2e696f_en.png)
-    
-- Vous devriez voir la couche sélectionnée disparaître de la fenêtre Carte.
- Cliquez sur Afficher / Masquer de nouveau, et elle réapparaîtra.
+-   Pour masquer une de ces couches, sélectionnez-la avec votre souris et
+    cliquez sur le bouton «Afficher / Masquer» qui ressemble à ceci:
 
--   Vous pouvez fermer une couche en le sélectionnant et en cliquant sur le 
-    bouton «Suppression»:
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_5c2e696f_en.png)
+
+-   Vous devriez voir la couche sélectionnée disparaître de la fenêtre «Carte».
+    Cliquez sur «Afficher / Masquer» de nouveau, et elle réapparaîtra.
+
+-   Vous pouvez fermer une couche en la sélectionnant et en cliquant sur le 
+    bouton «Suppression» :
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m172543d8_en.png)
 
-- Enfin, il est important de savoir que vous ne pouvez modifier que la couche
-    est considéré comme *active* par JOSM. Si vous ne parvenez pas à modifier la carte
-    la fenêtre de votre carte, c'est probablement parce que vous n'avez pas le bon
-    couche définie comme active. La plupart des couches, tels que les points GPS, Marcher
-    Papiers, et l'imagerie satellite ne peut pas être modifié. Les couches seulement que les
-    Vous pouvez modifier les données de OpenStreetMap sont, qui sont généralement appelés
-    "Data Layer 1".
+-   Enfin, il est important de savoir que vous ne pouvez modifier que la couche
+    considérée comme *active* par JOSM. Si vous ne parvenez pas à éditer la
+    carte, c'est probablement parce que vous n'avez pas la bonne couche définie
+    comme active. La plupart des couches, telles que les points GPS, Walking
+    Papiers et l'imagerie satellite, ne peuvent pas être modifiées. Les couches
+    que vous pouvez modifier (les données de OpenStreetMap) sont généralement
+    appelées «Data Layer 1».
 
-- Si vous voulez qu'une couche devienne active, sélectionnez-la dans le panneau Calques, puis cliquez sur
-    le bouton Activer: button:![]({{site.baseurl}}/images/EditingWithJOSM_html_de83a77_en.png)
+-   Si vous voulez qu'une couche devienne active, sélectionnez-la dans le
+    panneau «Calques», puis cliquez sur le bouton «Activer»:
 
-Éditer
-----
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_de83a77_en.png)
 
-- L'étape suivante consiste à éditer la carte et y ajouter de nouveaux éléments. Ce n'est pas
-     toujours facile au début, mais avec la pratique verrez que ce sera de mieux en mieux.
+## Éditer
 
-- Si vous voulez déplacer un point, une ligne ou une forme, utilisez 
-     **sélectionner l'outil**. Cliquez sur un objet et faites-le glisser où il
-     devrait être. Ceci peut être utilisé pour corriger la position des éléments qui
-     ont été mis au mauvais endroit.
+L'étape suivante consiste à éditer la carte et y ajouter de nouveaux éléments.
+Ce n'est pas toujours facile au début, mais avec la pratique verrez que ce sera
+de mieux en mieux.
 
-     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m2eb4096c_en.png)
+-   Si vous voulez déplacer un point, une ligne ou une forme, utilisez
+    **sélectionner l'outil**. Cliquez sur un objet et faites-le glisser où il
+    devrait être. Ceci peut être utilisé pour corriger la position des éléments
+    qui ont été mis au mauvais endroit.
 
-- Utiliser les outils de **Dessin** pour dessiner des nouveaux points, des lignes et des formes.
-     Décrivez ces objets en les sélectionnant dans le menu Attributs, comme vous l'avez
-     fait dans le [Chapitre 3]({{site.baseurl}}/en/beginner/start-josm/).
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m2eb4096c_en.png)
 
-- Rappelez-vous que vos points GPS et les infos de vos Walking Papers ne sont pas automatiquement transférés dans OpenStreetMap. Vous devez les ajouter à la carte OSM
-     *numériquement*, en utilisant l'outil de dessin. Mais vos points, pistes et objets tracés dans le Walking Paper peuvent être vu en arrière-plan comme un guide de tracage.
+-   Utiliser les outils de **Dessin** pour dessiner des nouveaux points, des
+    lignes et des formes. Décrivez ces objets en les sélectionnant dans le menu «Attributs», comme vous l'avez fait dans le [Chapitre 3]({{site.baseurl}}/en/beginner/start-josm/).
 
-- Supposons que vous avez enregistré un waypoint sur votre GPS nommé 030 et  vous avez écrit dans vos notes que 030 est une école. Pour ajouter ce point
-     dans OpenStreetMap, vous devez sélectionner l'outil de dessin, et
-     double-cliquez au-dessus du point 030 en fenêtre de votre carte. Cela va créer un point. Puis allez dans le menu Attributs, et trouvez l'attribut pour l'école. Entrez le nom de l'école et cliquez sur "Appliquez les attributs". Faire de même pour ajouter des lignes et des formes.
+-   Rappelez-vous que vos points GPS et les infos de vos Walking Papers ne sont
+    pas automatiquement transférés dans OpenStreetMap. Vous devez les ajouter à
+    la carte OSM *numériquement*, en utilisant l'outil de dessin. Mais vos
+    points, pistes et objets tracés dans le Walking Paper peuvent être vus en
+    arrière-plan comme un guide de traçage.
 
-     ![]({{site.baseurl}}/images/EditingWithJOSM_html_1cb5aeb4_en.png)
+-   Supposons que vous avez enregistré un waypoint sur votre GPS nommé 030 et
+    vous avez écrit dans vos notes que 030 est une école. Pour ajouter ce point
+    dans OpenStreetMap, vous devez sélectionner l'outil de dessin, et
+    double-cliquer au-dessus du point 030 dans la fenêtre de votre carte. Cela
+    va créer un point. Puis allez dans le menu «Attributs», et trouvez
+    l'attribut pour l'école. Entrez le nom de l'école et cliquez sur «Appliquez les attributs». Faites de même pour ajouter des lignes et des polygones.
+
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_1cb5aeb4_en.png)
 	
-Balises
-----
+## Balises
 
--   Lorsque vous dessinez un point, une ligne ou une forme, il bénéficie d'un
-    emplacement, mais pas des informations sur ce qu'il est. En d'autres termes,
+-   Lorsque vous dessinez un point, une ligne ou une forme, vous avez défini son
+    emplacement, mais pas les informations sur ce qu'il est. En d'autres termes,
     nous savons ***où*** il est, mais pas ***ce*** qu'il est. Jusqu'à maintenant,
-    nous avons utilisé les éléments dans le menu Attributs pour définir ce
+    nous avons utilisé les éléments dans le menu «Attributs» pour définir ce
     qu'il **est**. La façon dont OpenStreetMap sait ce qu'**est** un objet se fait
-    à l'aide **attributs**.
+    à l'aide d'**attributs**.
 
-- Un Attribut est une étiquette que vous pouvez mettre sur quelque chose. Par exemple, si  je dessine un carré, c'est seulement un carré. Mais ensuite je lui ajoute plusieurs attributs qui décrivent ce que c'est:  cette place est un bâtiment, le nom du bâtiment est «Menara Thamrin", le bâtiment est de 16 niveaux en hauteur.
+-   Un *attribut* est une étiquette que vous pouvez mettre sur quelque chose.
+    Par exemple, si  je dessine un carré, c'est seulement un carré. Mais ensuite
+    je lui ajoute plusieurs attributs qui décrivent ce que c'est : c'est un
+    bâtiment, le nom du bâtiment est «Menara Thamrin», le bâtiment est de 16
+    niveaux en hauteur.
 
-- Vous pouvez ajouter autant d'attributs que vous souhaitez à un objet. Les attributs sont enregistrés en tant que
-    paires de texte, appelé les **clés** et **valeurs**. Dans
-    OpenStreetMap, les attributs décrits ci-dessus serait en fait:
+-   Vous pouvez ajouter autant d'attributs que vous souhaitez à un objet. Les
+    attributs sont enregistrés en tant que paires de texte, appelées les
+    **clés** et **valeurs**. Dans OpenStreetMap, les attributs décrits ci-dessus
+    serait en fait :
+
     `building = yes, name = Menara Thamrin, building:levels = 16`
 
-- Si vous sélectionnez un objet dans JOSM, vous pouvez voir toutes les attributs qui luis sont attribués à partir du panneau Propriétés sur la droite.
+-   Si vous sélectionnez un objet dans JOSM, vous pouvez voir tous les attributs
+    qui lui sont attribués à partir du panneau «Propriétés» sur la droite.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m945ccee_en.png)
 
 ### Éditer les attributs
 
-- Vous pouvez ajouter, modifier et supprimer ces attributs dans ce panneau. Cependant, les attributs sont traditionnellement en anglais. Il est souvent préférable d'utiliser le menu Attributs. Lorsque vous ajoutez ou modifiez des étiquettes, telles que primaire
-    autoroute par rapport sentier, le style change en fonction de l'étiquette.
+Vous pouvez ajouter, modifier et supprimer ces attributs dans ce panneau.
+Cependant, les attributs sont traditionnellement en anglais. Il est souvent
+préférable d'utiliser le menu «Attributs». Lorsque vous ajoutez ou modifiez des
+étiquettes, telles que «route principale» au lieu de «sentier», le style
+change en fonction de l'étiquette.
 
-- Pour modifier un objet existant:
+Pour modifier un objet existant :
 
-- Sélectionnez-le.
+-   Sélectionnez-le.
 
-- Ensuite, vous pouvez éditer les attributs selon l'une des deux manières suivantes: (1) Vous pouvez utiliser le
-Menu des attributs pour ouvrir un formulaire et modifier les informations, ou (2) vous pouvez éditer les attributs directement dans la fenêtre Propriétés sur la droite.
+-   Ensuite, vous pouvez éditer les attributs de l'une des deux manières
+    suivantes:
 
-   ![]({{site.baseurl}}/images/EditingWithJOSM_html_94da59a_en.png)
+    1.  Vous pouvez utiliser le Menu des attributs pour ouvrir un formulaire et modifier les informations
 
-### Erreur commune: Ajouter des attributs aux nœuds d'un objet lorsque vous voulez ajouter des attributs à des lignes ou des polygones
+    2. Vous pouvez éditer les attributs directement dans la fenêtre «Propriétés»
+    sur la droite.
 
-- Lorsque vous ajoutez des balises à un nœud, vous sélectionnez le nœud, puis ajouter
-    vos attributs (ou utilisez le menu Attributs). Lorsque vous voulez ajouter des attributs à une ligne ou un polygone, il est important que vous sélectionniez la ligne, et non les noeuds qui composent cette ligne.
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_94da59a_en.png)
 
-- Une erreur courante consiste à utiliser l'outil de sélection de JOSM pour tracer un cadre autour d'un objet, ce qui a pour effet de sélectionner à la fois la **ligne** et les **nœuds** qui la composent. Lorsque vous ajoutez les attributs, ceux-ci sont alors ajoutés et à la ligne et aux noeuds qui la composent. Assurez-vous de ne sélectionner que les *lignes** lorsque vous souhaitez leur ajouter des attributs.
+### Erreur courante: ajouter des attributs aux nœuds d'un objet au lieu de les ajouter à des lignes ou des polygones
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_2746cce8_en.png)
+Lorsque vous ajoutez des balises à un nœud, vous sélectionnez le nœud, puis
+ajoutez vos attributs (ou utilisez le menu «Attributs»). Lorsque vous voulez
+ajouter des attributs à une ligne ou un polygone, il est important que vous sélectionniez la ligne, et non les noeuds qui composent cette ligne.
 
-- Vous pouvez trouver plus d'information sur les attributs et les presets dans le Guide Intermédiaire, Chapitre 4: XML et Attributs JOSM.
+Une erreur courante consiste à utiliser l'outil de sélection de JOSM pour tracer
+un cadre autour d'un objet, ce qui a pour effet de sélectionner à la fois la
+**ligne** ET les **nœuds** qui la composent. Lorsque vous ajoutez les attributs,
+ceux-ci sont alors ajoutés *et* à la ligne *et* aux nœuds qui la composent.
+Assurez-vous de ne sélectionner que les *lignes** lorsque vous souhaitez leur
+ajouter des attributs.
 
-Télécharger les modifications
---------------
+![]({{site.baseurl}}/images/EditingWithJOSM_html_2746cce8_en.png)
 
-- Après avoir effectué quelques changements pour améliorer la carte, nous allons
-     enregistrer ces modifications dans la base OpenStreetMap. Pour enregistrer les modifications, nous devons
-     être connecté à l'Internet, parce que nous allons, en fait, télécharger les modifications vers la base OpenStreetMap via internet.
+> Vous pouvez trouver plus d'information sur les attributs et les presets dans
+> le guide intermédiaire, «Chapitre 4: XML et attributs JOSM».
 
-- Cliquez sur "Fichier" dans le menu du haut, puis cliquez sur "Envoyer». Ceci
-     va ouvrir la fenêtre de téléchargement. Vous pouvez accéder à cette fenêtre en cliquant simplement sur le bouton de téléchargement, illustré ici:
+## Télécharger les modifications
+
+Après avoir effectué quelques changements pour améliorer la carte, nous allons
+enregistrer ces modifications dans la base OpenStreetMap. Pour enregistrer les
+modifications, nous devons être connecté à Internet, parce que nous allons
+téléverser les modifications vers la base OpenStreetMap.
+
+-   Cliquez sur «Fichier» dans le menu du haut, puis cliquez sur «Envoyer». Ceci
+    va ouvrir la fenêtre de téléchargement. Vous pouvez accéder à cette fenêtre
+    en cliquant simplement sur le bouton de téléchargement, illustré ici:
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_67f320b3_en.png)
 
-- La fenêtre qui apparaît affiche la liste des objets que vous ajoutez et les objets que vous modifiez ou supprimer. Dans la boîte au bas du panneeau,
-     vous êtes invité à fournir un commentaire sur les modifications que
-     que vous faites. Tapez ici une description de vos modifications. Dans un contexte collaboratif comme OpenStreetMap, il est important de décrire de façon générale l'objet de ces ajouts, modifications et suppressions.
+-   La fenêtre qui apparaît affiche la liste des objets que vous ajoutez et les
+    objets que vous modifiez ou supprimez. Dans la boîte en bas de la fenêtre,
+    vous êtes invité à fournir un commentaire sur les modifications que vous
+    avez apportées. Entrez une description de vos modifications. Dans un
+    contexte collaboratif comme OpenStreetMap, il est important de décrire de
+    façon générale l'objet de ces ajouts, modifications et suppressions.
 
-     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
 
-- Cliquez sur "Télécharger les modifications".
+-   Cliquez sur «Télécharger les modifications».
 
-- Si c'est la première fois que vous apportez des modifications dans OpenStreetMap à partir de JOSM, on vous demandera de fournir votre nom d'utilisateur et votre mot de passe que vous avez créé précédemment.
-     - Saisissez-les dans la fenêtre qui apparaît. Si vous cochez la case dans cette fenêtre, votre nom d'utilisateur et mot de passe seront sauvegardés et vous n'aurez  pas
-     besoin de les entrer à nouveau dans l'avenir. Cliquez sur "Authentification".
+-   Si c'est la première fois que vous apportez des modifications dans
+    OpenStreetMap à partir de JOSM, on vous demandera de fournir votre nom d'utilisateur et votre mot de passe que vous avez créé précédemment.
 
-     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
+-   Saisissez-les dans la fenêtre qui apparaît. Si vous cochez la case dans
+    cette fenêtre, votre nom d'utilisateur et votre mot de passe seront
+    sauvegardés et vous n'aurez pas besoin de les entrer à nouveau à l'avenir.
+    Cliquez sur «Authentification».
 
-- Vous devrez attendre quelques secondes pour que vos modifications soient transférées, 
-     et alors c'est complété! Vous avez fait votre première modifications à
-     OpenStreetMap. Vous pouvez continuer à éditer pour ajouter tous vos points si
-     vous le souhaitez. Assurez-vous toujours de télécharger vos modifications avant de fermer      JOSM.
+    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
 
-Voir vos modifications sur la carte
----------------------------
+-   Vous devrez attendre quelques secondes pour que vos modifications soient 
+    transférées. Et voilà! Vous avez fait votre première modification à
+    OpenStreetMap. Vous pouvez continuer à éditer pour ajouter tous vos points
+    si vous le souhaitez. Assurez-vous toujours de téléverser vos modifications
+    avant de fermer JOSM.
 
-- Ouvrez votre navigateur Internet et allez à [http://openstreetmap.org/](http://openstreetmap.org/)
+## Voir vos modifications sur la carte
 
-- Déplacez la carte vers la zone que vous avez modifiée.
+-   Ouvrez votre navigateur Internet et allez à
+    [http://openstreetmap.org/](http://openstreetmap.org/)
 
-- Vous devriez voir vos modifications apparaitret maintenant sur ​​la carte! Si vous ne les voyez ps,
-     essayez d'appuyer sur CTRL + R pour actualiser la page Web. Parfois, la carte ne se met pas à jour correctement et doit être rechargée.
+-   Déplacez la carte vers la zone que vous avez modifiée.
 
-- Que faire si vous ne voyez pas vos modifications? Ne vous inquiétez pas - Ça peut prendre plusieurs minutes avant que les changements apparaissent sur la carte. En outre, vérifiez vos
-     ajouts dans JOSM pour vous assurer que vous les avez ajoutés correctement. Une bonne
-     règle générale, si un icône est associé à votre point dans JOSM, alors il devrait
-     être vu sur la carte principale sur le site OpenStreetMap.
+-   Vous devriez voir vos modifications apparaitre maintenant sur la carte!
+    Si vous ne les voyez pas, essayez d'appuyer sur «CTRL + R» pour actualiser
+    la page Web. Parfois, la carte ne se met pas à jour correctement et doit
+    être rechargée.
 
-Enregistrement des fichiers OSM
-----------------
+-   Que faire si vous ne voyez pas vos modifications ? Ne vous inquiétez pas. Ça
+    peut prendre plusieurs minutes avant que les changements apparaissent sur la
+    carte. En outre, vérifiez vos ajouts dans JOSM pour vous assurer que vous
+    les avez ajoutés correctement. Une bonne règle générale: si une icône est
+    associé à votre point dans JOSM, alors il devrait être vu sur la carte
+    principale sur le site OpenStreetMap.
 
-- Parfois, après avoir téléchargé des données OSM, vous voulez les l'enregistrer loclaement sur disque de sorte que vous pouvez l'éditer hors connexion internet, puis télécharger les modifications plus tard quand vous accès à Internet à nouveau.
+## Enregistrement des fichiers OSM
 
-- Pour enregistrer un fichier OSM, assurez-vous qu'il est le calque actif dans la
-     le panneau Calques. Cliquez sur "Fichier" dans le menu du haut, puis cliquez sur "Enregistrer".
-     Choisissez un emplacement pour le fichier et lui donner un nom. Vous pouvez également enregistrer
-     en cliquant sur ce bouton:
+Parfois, après avoir téléchargé des données OSM, vous voulez les enregistrer
+localement, par exemple pour pouvoir les éditer sans connexion Internet, puis
+téléverser les modifications plus tard quand vous avez de nouveau accès à
+Internet.
+
+-   Pour enregistrer un fichier OSM, assurez-vous que c'est le calque actif dans
+    le panneau «Calques». Cliquez sur «Fichier» dans le menu du haut, puis
+    cliquez sur «Enregistrer». Choisissez un emplacement pour le fichier et
+    donnez-lui un nom. Vous pouvez également enregistrer en cliquant sur ce
+    bouton :
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png)
 
-- Vous pouvez maintenant fermer JOSM et vos données seront sauvegardées. Lorsque vous voulez accéder au fichier à nouveau, il suffit d'ouvrir JOSM, allez au menu "Fichier", et
-     cliquez sur "Ouvrir"
+-   Vous pouvez maintenant fermer JOSM et vos données seront sauvegardées.
+    Lorsque vous voulez accéder au fichier à nouveau, il suffit d'ouvrir JOSM,
+    aller au menu «Fichier», et cliquer sur «Ouvrir».
 
-Résumé
--------
 
-Maintenant que vous avez vu comment ajouter des donées à la base OpenStreetMap, quelle est la prochaine étape? Rappelez-vous
-que les cartes OSM sont de mieux en mieux au fil du temps. Chaque fois que vous faites
-des améliorations à la carte, ces changements demeurent et les données s'améliorent. Et tout comme vous pouvez améliorer le travail des autres, eux aussi peuvent améliorer votre travail.
+## Résumé
 
-Dans le dernier chapitre nous allons délaisser JOSM, et examiner certains
-projets intéressants qui utilisent les données OpenStreetMap, et découvrez comment vous pouvez
-continuer à apprendre sur OSM.
+Maintenant que vous avez vu comment ajouter des données à la base OpenStreetMap,
+quelle est la prochaine étape ? Rappelez-vous que les cartes OSM s'améliorent en
+permanence. Chacun des changements que vous apportez à la carte participe à
+l'améliorer avec le temps. Et, de même que vous pouvez améliorer le leur, les
+autres contributeurs peuvent améliorer votre travail.
+
+Dans le dernier chapitre, nous allons mettre JOSM de côté pour examiner
+certains projects intéressants bâtis sur les données d'OpenStreetMap, et voir
+comment vous pouvez continuez votre apprentissage.
