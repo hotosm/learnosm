@@ -15,13 +15,13 @@ Wenn du es bis hier hin geschafft hast - Glückwunsch! Du solltest jetzt ein gut
 OpenStreetMap Werkzeuge
 -------------------
 
-In dieser Anleitung haben wir die Grundbausteine von OSM und die Werkzeuge um an der Karte mitzuwirken kennengelernt. Aber OSM dem Open-Data-Prinzip zugrunde liegt, hat es viele Projekte und Programme dazu bewegt, mehr aus der OpenStreetMap-Karte zu machen.
+In dieser Anleitung haben wir die Grundbausteine von OSM und die Werkzeuge, um an der Karte mitzuwirken, kennengelernt. Aber da OSM dem Open-Data-Prinzip zugrunde liegt, hat es viele Projekte und Programme dazu bewegt, mehr aus der OpenStreetMap-Karte zu machen.
 
 
 MapOSMatic
 ----------
 
-Ein solches Projekt heißt MapOSMatic, welches unter [maposmatic.org](http://www.maposmatic.org/) herunter geladen werden kann. Es ist ein einfaches Werkzeug um eine Karte einer frei wählbaren Region auszudrucken. Die Karte wird automatisch erzeugt, zusammen mit einem Gitternetz über der Karte und einer Legende der Orte welche in der gewählten Region zu finden sind.
+Eines solcher Projekte ist MapOSMatic: [maposmatic.org](http://www.maposmatic.org/). Es ist ein einfaches Werkzeug, um eine Karte einer frei wählbaren Region auszudrucken. Die Karte wird automatisch erzeugt, zusammen mit einem Gitternetz über der Karte und einer Legende der Orte welche in der gewählten Region zu finden sind.
 
 
 Learn More
@@ -33,11 +33,11 @@ Es gibt sehr viele Informationen über OpenStreetMap auf [wiki.openstreetmap.org
 Mailing-Liste
 ------------
 
-Der beste Weg um mit der OpenStreetMap-Benutzer-Community verbunden zu bleiben, ist in eine lokalen Mailing-Liste zu abonnieren. Viele Benutzer haben eine solche Liste abonniert und es bietet eine gute Möglichkeit um Fragen zu stellen oder sich über OpenStreetMap zu unterhalten.
+Der beste Weg um mit der OpenStreetMap-Nutzer-Community verbunden zu bleiben, ist in eine lokalen Mailing-Liste zu abonnieren. Viele Benutzer haben eine solche Liste abonniert und es bietet eine gute Möglichkeit um Fragen zu stellen oder sich über OpenStreetMap zu unterhalten.
 
 -   Um eine Mailing-Liste deines Landes zu abonnieren, öffne den Internet-Browser deiner Wahl und gehe zu [lists.openstreetmap.org](http://lists.openstreetmap.org/).
 -   Suche auf der Seite die Liste welche zu deinem Land passt. Die Listen sind nach dem Schema "Talk-lg" benannt, wobei "lg" für das Land steht. "Talk-de" ist die Liste für Deutschland.
--   Klicke auf die Liste in welche du abonnieren möchtest.
+-   Klicke auf die Liste, die du abonnieren möchtest.
 -   Nun musst du die folgenden Informationen eingeben:
     -   Deine E-Mail-Adresse
     -   Deinen Vornamen
@@ -55,5 +55,5 @@ Der beste Weg um mit der OpenStreetMap-Benutzer-Community verbunden zu bleiben, 
 Zusammenfassung
 -------
 
-Das sind nur ein paar Möglichkeiten die du nutzen kannst um mit der OpenStreetMap-Community verbunden bleiben und dein Wissen erweitern kannst. Wir hoffen, dass du weiterhin mehr mit OSM beschäftigst und zu etwas zu dem Projekt beitragen wirst. 
-Fröhliches Kartografieren!
+Das sind nur ein paar Möglichkeiten, die du nutzen kannst um mit der OpenStreetMap-Community verbunden zu bleiben und dein Wissen erweitern kannst. Wir hoffen, dass du dich weiterhin mehr mit OSM beschäftigst und zu dem Projekt beitragen wirst. 
+Fröhliches Kartieren!

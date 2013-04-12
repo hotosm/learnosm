@@ -14,11 +14,11 @@ bloß weitere JOSM Funktionen finden, um meine Editiererfahrungen zu bereichern?
 JOSM bietet dir hierfür die Möglichkeit unzählige Erweiterungen zu installieren.
 Bei Erweiterungen handelt es sich um zusätliche Software, die spezielle Aufgaben übernehmen.
 Wenn du bis hierhin den Anleitungen gefolgt bist, hast du schon mehrere Erweiterungen installiert.
-Im vorherigen Kapitel hast du eine Erweiterung installiert, welche
+Im vorigen Kapitel hast du eine Erweiterung installiert, welche
 es dir ermöglicht SDS (getrennte Datenspeicher) zu nutzen. Davor hast du eine 
 Erweiterung zur Nutzung von Walking Papers installiert. Für JOSM sind viele unterschiedliche
-Erweiterungen verfügbar und wir werden einige sinnvoll Erweiterungen in diesem Kapitel
-bescheiben.
+Erweiterungen verfügbar und wir werden einige sinnvolle Erweiterungen in diesem Kapitel
+beschreiben.
 
 ![plug]({{site.baseurl}}/images/plugins_html_m76fc73bd_en.png)
 
@@ -32,7 +32,7 @@ dazu das JOSM sich automatisch neustartet.
 
 Empfohlene Erweiterung:
 
-- [Restart]({{site.baseurl}}/de/beginner/josm-plugins/#restart) (Fügt JOSM neustarten in das Datei-Menü ein)
+- [Restart]({{site.baseurl}}/de/beginner/josm-plugins/#restart) (fügt JOSM neustarten in das Datei-Menü ein)
 - [Mirrored Download]({{site.baseurl}}/de/beginner/josm-plugins/#mirrored-download) (erlaubt das Herunterladen zusätzlicher OSM Daten)]
 - [Direct Upload]({{site.baseurl}}/de/beginner/josm-plugins/#direct-upload) (erlaubt das Hochladen von eigenen GPS Daten)]
 - [Editgpx]({{site.baseurl}}/de/beginner/josm-plugins/#edit-gpx) (erlaubt das Editieren von GPX Dateien)]
@@ -66,7 +66,7 @@ Mirrored Download
 
 ![]({{site.baseurl}}/images/plugins_html_m2c477766_en.png)
 
-__Mirrored Download__ beschleunigt das Herunterladen - zum Editieren - von OSM Daten.
+__Mirrored Download__ beschleunigt das Herunterladen - zum Editieren - von OSM-Daten.
 Anstatt alle Daten vom zentralen OSM Server herunterzuladen, ermöglicht diese Erweiterung, das
 Herunterladen von einem "Spiegel". Bei einem "Spiegel" handelt es sich um eine exakte Kopie der
 Daten an einem besser und schneller erreichbaren Ort.
@@ -129,7 +129,7 @@ GPX-Spur wird in Gelb hervorgehoben.![]({{site.baseurl}}/images/plugins_html_m3f
 3. Zum Löschen markiere nun die Wegpunkte, indem du auf Sie klickst.
 Weiterhin kannst du auch Bereiche auswählen, indem du ein Rechteck
 um den Bereich erstellst. In diesem Fall werden alle Wegpunkte in dem Bereich
-gelöscht. Die gelbe Hervorhebung sollte verschwinden.![]({{site.baseurl}}/images/plugins_html_m7e01ae1f_en.png)
+gelöscht. Die gelbe Hervorhebung sollte verschwinden![]({{site.baseurl}}/images/plugins_html_m7e01ae1f_en.png)
 
 4. Rechtsklick auf den Ebenenname und wähle \<\<Kovertiere zu GPX Ebene\>\> im Kontextmenü.
 
@@ -155,7 +155,7 @@ Klickst du auf den "Drucken..." Knopf im Dateimenü, siehst du diesen Druckdialo
 
 In dem Dialog kannst du deine Druckereinstellungen ändern. Falls keine Karte
 sichtbar ist, setze einen Haken vor "Kartenvorschau" im Menü auf der rechten Seite.
-Zum verkleinern oder vergrößern des Kartenausschnitts ändere die Zahl im Maßstabsfeld.
+Zum Verkleinern oder Vergrößern des Kartenausschnitts ändere die Zahl im Maßstabsfeld.
 Die Auflösung der Karte kannst du durch verändern der Zahl im Auflösungsfeld erhöhen oder
 verringern. Wenn du alle Einstellungen vorgenommen hast, klicke auf "Drucken".
 

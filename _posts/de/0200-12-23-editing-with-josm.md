@@ -11,11 +11,11 @@ Editieren mit JOSM
 
 In [Kapitel 3]({{site.baseurl}}/en/beginner/start-josm/) hast du JOSM installiert und deine ersten Punkte, Linien und Grundrisse gezeichnet. Du hast Vorlagen für diese Objekte hinzugefügt um sie mit weiteren Informationen zu ergänzen. Am Ende konntest du in JOSM deine eigene Karte zeichnen.
 
-Karten zeichnen in Kapitel 3 war eine Übung um JOSM kennenzulernen und herauszufinden wie man Orte auf der Karte erstellt. Aber unsere Karten waren nicht präzise, denn wir haben keine ortsbezogenen Informationen hinzugefügt. Die vorherigen zwei Kapitel haben sich mit GPS und Walking Papers beschäftigt, zwei Möglichkeiten um die tatsächliche Lage von Orten zu bestimmen (GPS bestimmt die Position mit einer Abweichung von bis zu 10m, ist also nicht komplett genau, vor allem wenn du nur einen Wegpunkt erfasst). Diese Positionsangaben werden durch Koordinaten dargestellt.
+Das Kartenzeichnen in Kapitel 3 war eine Übung, um JOSM kennenzulernen und herauszufinden wie man Orte auf der Karte erstellt. Aber unsere Karten waren nicht präzise, denn wir haben keine ortsbezogenen Informationen hinzugefügt. Die vorherigen zwei Kapitel haben sich mit GPS und Walking Papers beschäftigt, zwei Möglichkeiten um die tatsächliche Lage von Orten zu bestimmen (GPS bestimmt die Position mit einer Abweichung von bis zu 10m, ist also nicht komplett genau, vor allem wenn du nur einen Wegpunkt erfasst). Diese Positionsangaben werden durch Koordinaten dargestellt.
 
-Eine „echte“ Karte zu zeichnen, also eine Karte auf der sämtliche Punkte, Linien und Grundrisse an ihrem rechtmäßigen Platz liegen, ist dasselbe wie die Karten aus Kapitel 3 zu zeichnen. Aber diesmal werden wir unsere GPS-Koordinaten und Spuren und unsere Walking Paper verwenden um ähnliche Karten an ihren richtigen Positionen zu zeichnen.
+Eine „echte“ Karte zu zeichnen, also eine Karte auf der sämtliche Punkte, Linien und Grundrisse an ihrem rechtmäßigen Platz liegen, funktioniert genauso wie in Kapitel 3 beschrieben. Aber diesmal werden wir unsere GPS-Koordinaten und Spuren und unsere Walking Paper verwenden um ähnliche Karten an ihren richtigen Positionen zu zeichnen.
 
-In diesem Kapitel werden wir lernen wie man die OpenStreetMap Karte bearbeiten kann und unsere Verbesserungen hinzufügen. Wir lernen den grundsätzlichen Ablauf des Kartierens bei OSM.
+In diesem Kapitel werden wir lernen wie man die OpenStreetMap Karte bearbeiten kann und unsere Verbesserungen hinzufügen kann. Wir lernen den grundsätzlichen Ablauf des Kartierens bei OSM.
 
 **Lade** die aktuellen Kartendaten von OSM **herunter**
 
@@ -34,26 +34,26 @@ In diesem Kapitel werden wir lernen wie man die OpenStreetMap Karte bearbeiten k
   - [Guck dir deine Änderungen auf der Karte an]({{site.baseurl}}/de/beginner/editing-with-josm/#see-your-changes-on-the-map)
   - [OSM Daten speichern]({{site.baseurl}}/de/beginner/editing-with-josm/#saving-osm-files)
 
-Am Ende dieses Kapitels werden wir unsere Ergänzungen auf der OSM karte sehen können.
+Am Ende dieses Kapitels werden wir unsere Ergänzungen auf der OSM Karte sehen können.
 
 Ein Überblick über JOSM
 --------------
 
 - Um zunächst einmal JOSM zu starten, öffne das Start-Menü in der unteren linken Ecke des Bildschirms und finde das Programm JOSM
-- Als nächstes lädst du deine gpx-Datei und dein Walking Paper in JOSM. Du brauchst nicht beide gleichzeitig zu öffnen, kannst du aber wenn du möchtest. Wenn du nicht mehr weisst wie man Dateien in JOSM öffnet, guck in den vorherigen Kaptieln nach.
+- Als nächstes lädst du deine gpx-Datei und dein Walking Paper in JOSM. Du brauchst nicht beide gleichzeitig zu öffnen, kannst du aber, wenn du möchtest. Wenn du nicht mehr weisst wie man Dateien in JOSM öffnet, guck in den vorherigen Kaptieln nach.
 - Ein kurzer Überblick über die Funktionen von JOSM: Es gibt viele verschiedene Features in JOSM. Mit dem Hauptfenster bist du schon vertraut - es ist die Kartenansicht und der Ort an dem die meiste Arbeit stattfindet.
-- And er rechten Seite der Kartenansicht befindt sich eine Reihe von Menüs welche alle für unterschiedliche Dinge verantwortlich sind. Normalerweise werden nach einer JOSM Installation standardmäßig einige Menüs angezeigt, unter anderem Ebenen, Eigenschaften und Auswahl. Wenn du einen Punkt, eine Linie oder einen Grundriss auswählst, wird dieses in dem Auswahlmenü angezeigt. Zugehörige Informationen über das Object sind in dem Eigenschaftenmenü zu sehen und der Benutzername des Authors des jeweiligen Objekts findet sich im Author-Menü.
+- And er rechten Seite der Kartenansicht befindt sich eine Reihe von Menüs welche alle für unterschiedliche Dinge verantwortlich sind. Normalerweise werden nach einer JOSM Installation standardmäßig einige Menüs angezeigt, unter anderem Ebenen, Eigenschaften und Auswahl. Wenn du einen Punkt, eine Linie oder einen Grundriss auswählst, wird dieses in dem Auswahlmenü angezeigt. Zugehörige Informationen über das Objekt sind in dem Eigenschaftenmenü zu sehen und der Benutzername des Authors des jeweiligen Objekts findet sich im Autor-Menü.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_46acf705_en.png)
 
-- Auf der linken Seite von JOSM befinden sich mehrere Werkzeugleisten, welche aus vielen Buttons bestehen. Über dieser Leiste sind verschiedene Buttons, welche die Funktionsweise des Mauszeigers verändern. Du kennst bereits die ersten beiden, das Auswahl- und das Zeichenwerkzeug. Die anderen Werkzeuge helfen beim Vergrößern der Karte, ein Object zu löschen, eine Form zu zeichnen oder eine Linie zu erstellen, weche parallel zu einer anderen Linie liegt.
-- Unterhalb dieser Werzeuge sind noch weitere Buttons. Diese bestimmen, was du auf der rechten Seite von JOSM siehst. Mit Hilfe dieser Buttons kannst du die Menüs auf der rechten Seite - Eigenschaften, Auswahl, Author - öffnen und schliessen.
+- Auf der linken Seite von JOSM befinden sich mehrere Werkzeugleisten, welche aus vielen Buttons bestehen. Über dieser Leiste sind verschiedene Buttons, welche die Funktionsweise des Mauszeigers verändern. Du kennst bereits die ersten beiden, das Auswahl- und das Zeichenwerkzeug. Die anderen Werkzeuge helfen beim Vergrößern der Karte, ein Objekt zu löschen, eine Form zu zeichnen oder eine Linie zu erstellen, weche parallel zu einer anderen Linie liegt.
+- Unterhalb dieser Werzeuge sind noch weitere Buttons. Diese bestimmen, was du auf der rechten Seite von JOSM siehst. Mit Hilfe dieser Buttons kannst du die Menüs auf der rechten Seite - Eigenschaften, Auswahl, Autor - öffnen und schliessen.
 
 OSM-daten herunterladen
 -----------------
 
 - Erinnerst du dich an den Kreislauf des Editierens von OSM-Daten am Anfang dieses Kapitels? **Herunterladen**, **Editieren**, **Speichern**. Bevor wir die Karte editieren können müssen wir die existierenden OSM-Daten in unseren Bereich herunterladen.
-- Wenn du deine gpx-Datei oder Walking Paper öffnest, wird die Kartenansicht anzeigen was du geladen hast und direkt zu den richtigen Koordinaten springen. Nachdem du die Datein geöffnet hast, schaue in die untere linke Ecke von JOSM. Dort stehen der Längen- und Breitengrad (Koordinaten) des Mauszeigers.
+- Wenn du deine gpx-Datei oder Walking Paper öffnest, wird die Kartenansicht anzeigen was du geladen hast und direkt zu den richtigen Koordinaten springen. Nachdem du die Dateien geöffnet hast, schaue in die untere linke Ecke von JOSM. Dort stehen der Längen- und Breitengrad (Koordinaten) des Mauszeigers.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m58e5f3e7_en.png)
 
@@ -66,7 +66,7 @@ OSM-daten herunterladen
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m1318e890_en.png)
 
 - Der pinke Rahmen zeigt den Bereich der Karte an, welchen wir zum editieren herunterladen möchten. Solange du den Rahmen nicht bewegt hast seitdem du die gpx-datei oder das Walking Ppaer geladen hast, sollte der Rahmen um den richtigen Bereich angezeigt werden. Möchtest du allerdings einen größeren Bereich herunterladen, kannst du auch einen neuen Rahmen zeichen. Das geht, in dem du auf die Karte klickst, die Maustaste festhälst und die Maus ziehst um einen neuen Rahmen zu erstellen. Lasse die Maustaste wieder los um den Rahmen fertigzustellen.
-- Wenn du mit der Größe und Position des Rahmens zufrieden bist, klicke auf „Herunterladen“ am unteren Rand des Fensters. JOSM wird die Daten für diesen Bereich von OSM herunterladen und in der Kartenansicht für dich zum editieren öffnen.
+- Wenn du mit der Größe und Position des Rahmens zufrieden bist, klicke auf „Herunterladen“ am unteren Rand des Fensters. JOSM wird die Daten für diesen Bereich von OSM herunterladen und in der Kartenansicht für dich zum Editieren öffnen.
 
 JOSM Ebenen
 -----------
@@ -127,12 +127,12 @@ Attribute
 Änderungen hochladen
 --------------
 
-- Nachdem du einige Änderungen gemacht hast um die Karte zu verbessern, lass uns nun diese Änderungen bei OpenStreetMap speichern. Um die Änderungen speichern können müssen wir mit dem Internet verbunden sein, da wir die Änderungen zu OpenStreetMap hochladen.
+- Nachdem du einige Änderungen gemacht hast, um die Karte zu verbessern, lass uns nun diese Änderungen bei OpenStreetMap speichern. Um die Änderungen speichern können müssen wir mit dem Internet verbunden sein, da wir die Änderungen zu OpenStreetMap hochladen.
 - Klicke auf „Datei“ im oberen Menü und dann auf „Daten hochladen“, dadurch öffnet sich das Upload-Fenster. Dieses Fenster lässt sich auch durch einen Klick auf den Upload-Button öffnen, so wie in diesem Screenshot:
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_2e194887_en.png)
 
-- Das nun erscheinende Fenster zeigt eine Liste der Objekte die du hinzufügst, modifizierst oder löschst. In dem unteren Textfeld kannst du einen Kommentar über deine Änderungen verfassen.
+- Das nun erscheinende Fenster zeigt eine Liste der Objekte, die du hinzufügst, modifizierst oder löschst. In dem unteren Textfeld kannst du einen Kommentar über deine Änderungen verfassen.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_67f320b3_en.png)
 
@@ -149,14 +149,14 @@ Beobachte deine Änderungen auf der Karte
 
 - Öffne deinen Internetbrowser und gehe zu [http://openstreetmap.org/](http://openstreetmap.org/)
 - Bewege die Karte zu dem Bereich den du editiert hast.
-- Du solltest deine Änderungen nun auf der Karte sehen! falls nicht, versuche CTRL+R zu drücken um die Webseite neu zu laden. Manchmal aktualisiert sich die Karte nicht richtig und muss neu geladen werden.
+- Du solltest deine Änderungen nun auf der Karte sehen! Falls nicht, versuche CTRL+R zu drücken um die Webseite neu zu laden. Manchmal aktualisiert sich die Karte nicht richtig und muss neu geladen werden.
 - Was ist, wenn du deine Änderungen nicht siehst? Keine Sorge - es kann einige Minuten dauern, bis die Änderungen auf der Karte angezeigt werden. Außerdem kannst du noch mal in JOSM nachprüfen, dass du deine Änderungen richtig hinzugefügt hast. Eine gute Daumenregel ist: Wenn dein Punkt ein Icon in JOSM hat, dann sollte es auf der Karte auf der OpenStreetMap Webseite zu sehen sein.
 
 OSM-Dateien speichern
 ----------------
 
 - Manchmal, nachdem du OSM-Daten heruntergeladen hast, kann es sein, dass du die Daten speichern möchtest. So kannst du offline daran arbeiten und später hochladen, wenn du wieder über eine Internetverbindung verfügst.
-- Um eine OSM datei zu speichern, stelle sicher, dass sie als aktive Ebene im Ebenenmenü ausgewählt ist. Klicke auf „Datei“ im oberen Menü und dann auf „Speichern“. Wähle einen Ort zum speichern und gib der Datei einen Namen. Du kannst auch speichern, indem du auf diesen Button drückst: ![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png)
+- Um eine OSM-Datei zu speichern, stelle sicher, dass sie als aktive Ebene im Ebenenmenü ausgewählt ist. Klicke auf „Datei“ im oberen Menü und dann auf „Speichern“. Wähle einen Ort zum speichern und gib der Datei einen Namen. Du kannst auch speichern, indem du auf diesen Button drückst: ![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png)
 - Nun kannst du JOSM schliessen und deine Daten werden gespeichert. Wenn du die Datei wieder öffnen möchtest, starte einfach JOSM, wähle „Datei“ und dann „Öffnen“.
 
 Zusammenfassung
@@ -164,4 +164,4 @@ Zusammenfassung
 
 Nun, da du gelernt hast, wie man Objekte zu OpenStreetMap hinzufügt, was kannst du als nächstes tun? Denk daran, dass OSM mit der Zeit immer besser wird. Jedes mal, wenn du die Karte etwas verbesserst, werden auch die Daten besser und besser. Und so wie du die Arbeit anderer Benutzer verbessern kannst, so können auch andere Benutzer deine Arbeit verbessern.
 
-Im letzten kapitel werden wir von JOSM Abstand nehmen und ein paar interssante Projekte betrachten, welche OpenStreetMap Daten verwenden und du wirst sehen wie du auch weiterhin Sachen über OpenStreetMap lernen kannst.
+Im letzten Kapitel werden wir von JOSM Abstand nehmen und ein paar interessante Projekte betrachten, welche OpenStreetMap Daten verwenden und du wirst sehen wie du auch weiterhin Sachen über OpenStreetMap lernen kannst.
