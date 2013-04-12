@@ -12,20 +12,20 @@ Usando Fotografías Aéreas
 Dibujar sobre fotografías es una forma fácil y potente de contribuir a
 OSM. Especialmente cuando la resolución es alta y el cielo está despejado,
 digitalizar a partir de imágenes satelitales pueden proporcionar el esqueleto
-de los mapas de OSM. Esto es útil ya que hace que la verificación en campo,
-o la toma de datos de las características de un objeto, sea más fácil para
-las personas sobre el terreno.
+de los mapas de OSM. Esto es útil ya que hace que el trabajo de campo,
+o la toma de datos de las características de un objeto sobre el terreno, 
+sea más fácil para las personas desplazadas a la zona.
 
 Sin embargo, trazar sobre imágenes requiere tomar algunas precauciones 
-para que los objetos no se coloquen en una localización errónea. Hay dos
+para no dibujar los  objetos en una posición equivocada. Hay dos
 importantes aspectos que deben ser tenidos en consideración a la hora de 
 trazar sobre imágenes y fotografías:
 
 1.  Resolución: La resolución se refiere al nivel de detalle de la imagen 
-    o el número de píxeles que forman la imagen. Un píxel es la unidad más
+    o el número de píxeles que la componen. Un píxel es la unidad más
     pequeña de una imagen. A menor área por píxel mejor es la resolución.
     Con píxeles más pequeños podrás distinguir los objetos mejor, como se
-    demuestra en la imagen a continuación. A la izquierda hay una imagen
+    demuestra en la siguiente imagen. A la izquierda hay una imagen
     con baja resolución y menos píxeles por imagen. Es difícil distinguir 
     la pieza de puzle. Por otro lado, la imagen de la derecha, con alta
     resolución, tiene píxeles más pequeños, lo que permite que la pieza
@@ -36,13 +36,13 @@ trazar sobre imágenes y fotografías:
 
     ![puzzle][]
 
-2.  Georreferencia: georreferencia es un término de cómo se han establecido
+2.  Georreferenciación: georreferenciación es un término de cómo se han establecido
     las coordenadas de la imagen, o esencialmente, cómo de cerca están los 
     píxeles de la imagen respecto a su localización en la realidad. Es
     un proceso relativamente complejo; a mayor  relieve y variación del 
-    terreno, más dificil es la georreferenciación. Los satélites se 
+    terreno, más difícil es la georreferenciación. Los satélites se 
     encuentran a cientos de kilómetros de la superficie de la tierra y
-    cuando toman fotografías planas para representar la tierra curva se
+    cuando toman fotografías planas para representar la tierra, que es curva, se
     producen ciertas distorsiones y desplazamientos. La existencia de 
     desplazamientos se muestra ligeramente cuando te desplazas entre dos
     imágenes que cubren la misma zona, por ejemplo, cuando acercas el mapa
@@ -56,8 +56,8 @@ georreferencia una imagen.
 
 Afortunadamente, progresivamente se van construyendo satélites con mayor
 precisión de imagen y resoluciones extremadamente precisas (a menudo la unidad 
-está en centímetros). Por otro lado, todavía los satélites no georreferencian,
-por lo que la unidad sigue estando en torno a un metro. Una georeferenciación
+está en centímetros). Sin embargo, todavía los satélites no georreferencian,
+por lo que la unidad sigue estando en torno a un metro. Una georreferenciación
 en torno a 5-10 m se considera buena.
 
 Cuando se quiere levantar con precisión una zona basándose en imágenes 
@@ -88,26 +88,25 @@ exactamente con los objetos de la fotografía.
 
 Muchos principiantes en OSM creen que las carreteras han sido trazadas
 de forma incorrecta y mueven las mismas a lo que parece ser la mejor 
-posición. ¡Mover la carretera podría estar completemente __MAL__! Es
-posible que la imagen esté mal alíneada en comparación con la realidad
+posición. ¡Mover la carretera podría estar completamente __MAL__! Es
+posible que la imagen esté mal alineada en comparación con la realidad
 en campo.
 
 Una forma de comprobar que una imagen está desplazada es mediante el uso
 de trazas GPS. Para hacer esto, añade __trazas GPS existentes__ (tuyas o
-de otras personas-- puedes encontrar más información en [Añadir Datos GPS al servidor GPS]
-(https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)
+de otras personas-- puedes encontrar más información en [Subir datos GPS al servidor](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)
 al área que estás trazando. Haz clic en descargar ![download][] y después
 marca «Datos GPS en bruto» en la parte superior de la ventana «Descargar».
-Después de la descarga aparecerá una capa adicional denomidada «Datos GPX descargados».
+Después de la descarga aparecerá una capa adicional denominada «Datos GPX descargados».
 
 ![downloaded GPX][]
 
-En este ejemplo, con los datos GPS (en rojo) añadiso puedes ver que los
+En este ejemplo, con los datos GPS (en rojo) añadidos puedes ver que los
 datos existentes (las carreteras) están colocados correctamente. La fotografía
 no está correctamente georreferenciada y tiene un desplazamiento en comparación
 con la realidad. Debe ser ajustada.
 
-> Que no te confunda que las trazas aparezcan como una conjunto de líneas
+> Que no te confunda si las trazas aparecen como una conjunto de líneas
 > y no como una única línea sólida. La mayoría de dispositivos GPS tienen una
 > precisión de 2-5 m, que es suficiente para las carreteras ya que no se conduce 
 > o camina por el centro de la carretera. Intenta imaginar una media de las 
@@ -144,9 +143,9 @@ imagen está desplazada de nuevo, repite el proceso completo.
 Desplazamiento sin datos en OSM
 -------------------------------
 
-Pordría ser que fueras el primero en levantar una zona en OSM, por
+Podría ser que fueras el primero en levantar una zona en OSM, por
 ejemplo en una remota zona rural o en países en desarrollo. Por tanto,
-no puedes descargar ni datos de OSM existentes ni trazas GPS.
+no puedes descargar datos de OSM existentes ni trazas GPS.
 
 ![no data][]
 
@@ -160,42 +159,42 @@ el desplazamiento de la imagen? Hay dos formas de sortear el problema:
 
 2. Usar datos existentes: si no puedes ir a tomar datos en campo, otra
     opción es tomar datos de otras __Bases de Datos de Licencia Abierta (ODbl)__.
-    Si pueses, es mejor comprobar las imágenes con otras fotografías que
+    Si puedes, es mejor comprobar las imágenes con otras fotografías que
     estén correctamente alineadas. Si estás corrigiendo el desplazamiento
     de una imagen en base a otra, la forma más fácil de hacerlo es
     utilizar transparencia. Para hacer esto, simplemente haz clic
-    en la línea de gradiente y camibia la opacidad de la capa.
+    en la línea de gradiente y cambia la opacidad de la capa.
 
     ![change opacity][]
 
-Normalmente las fotografía de las administraciones tienen una resolución
-pobre (más de 10 metros de resolución) por los que podría ser peor que
+Normalmente las fotografía de las administraciones públicas tienen una resolución
+pobre (más de 10 metros de resolución) por lo que podría ser peor que
 la imagen anterior.
 
 Si tienes acceso a datos vectoriales, las carreteras, lagos, ríos y edificios
 son tu mejor opción para determinar el desplazamiento de la fotografía.
-Intenta alejarte de los bordes ya que estos noo son fiables para descubrir
+Intenta alejarte de los bordes ya que estos no son fiables para descubrir
 si una fotografía está desalineada.
 
 Resumen
 -------
 
 Trazar sobre fotografías es una técnica que hace que el levantamiento de 
-datos en OSM sea más rápido y eficiente. Sin embargo, debe ser con precisión
-y cuidado. Hay veces en los que está levantando una zona y la imagen de 
-esa zona está desplazada. Ya sea porque la imagen tiene poca resolución o
-porque está mál georreferenciada, hay formas de lidiar con fotografías 
-inexactas. Estas formas implican principalmente georreferenciar la imagen con
+datos en OSM sea más rápido y eficiente. Sin embargo, debe hacerse con precisión
+y cuidado. Hay veces en los que se está levantando una zona y la imagen de 
+esa zona está desplazada. Hay formas de lidiar con fotografías 
+inexactas, ya sea porque la imagen tiene poca resolución o
+porque está mal georreferenciada.. Estas formas implican principalmente georreferenciar la imagen con
 trazas GPS.
 
 
 
-[puzzle]: {{site.baseurl}}/images/offset_puzzle_en.png
+[puzzle]: {{site.baseurl}}/images/offset_puzzle_es.png
 [existing data]: {{site.baseurl}}/images/offset_existing_data_en.png
 [download]: {{site.baseurl}}/images/offset_tool_download_en.png
 [downloaded GPX]: {{site.baseurl}}/images/offset_downloaded_gpx_en.png
 [adjust button]: {{site.baseurl}}/images/offset_tool_adjust_en.png
-[adjust window]: {{site.baseurl}}/images/offset_adjust_window_en.png
+[adjust window]: {{site.baseurl}}/images/offset_adjust_window_es.png
 [adding to existing data]: {{site.baseurl}}/images/offset_add_to_data_en.png
 [no data]: {{site.baseurl}}/images/offset_no_data_en.png
-[change opacity]: {{site.baseurl}}/images/offset_change_opacity_en.png
+[change opacity]: {{site.baseurl}}/images/offset_change_opacity_es.png
