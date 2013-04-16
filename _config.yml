@@ -62,3 +62,11 @@ translations:
     feedbackspan: "Questa capitolo è stata utile?"
     feedback: "Fateci sapere e ci aiutano a migliorare le guide!"
     getstarted: "procedere al capitolo successivo"
+  de:
+    tagline: "Lerne OpenStreetMap Schritt für Schritt kennen"
+    contribute: "Hilf mit, unsere Anleitungen zu verbessern"
+    trainingspan: "Veranstaltest du Workshops?"
+    training: "Siehr dir unsere Unterlagen für diesen Kurs an (in Englisch)"
+    feedbackspan: "War dieses Kapitel hilfreich?"
+    feedback: "Sende uns Feedback und verbessere die Anleitungen!"
+    getstarted: "weiter zum nächsten Kapitel"

@@ -12,6 +12,21 @@ It's handy to run the site locally when editing content or code - Jekyll documen
 
 For fresh translations always start with a copy of the English guide.
 
+### Quick install guide for Windows
+
+- Download and install [Ruby 1.9](http://rubyinstaller.org/downloads/), enable the PATH setting during installation
+- Open a command prompt (cmd.exe) and install jekyll by typing `gem install jekyll`
+- Install rdiscount by typing `gem install rdiscount --platform=ruby -v 1.6.8`
+- Navigate to your local learnosm repository `cd C:\learnosm`
+- Start the local webserver by executing the following 2 commands, or save them to a .bat file and start:
+
+	```
+    chcp 65001
+    jekyll --rdiscount > jekyll_log.txt 2> jekyll_errorlog.txt
+    ```
+
+- Open a browser and go to localhost:4000
+
 ### Front matter for guide documents
 
 Each chapter in a guide constitutes a markdown document. In order to handle languages and translations and to relate the document with a specific guide and a couple of [YAML Frontmatter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter) rules need to be in place.
