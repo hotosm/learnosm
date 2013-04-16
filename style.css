@@ -635,7 +635,6 @@ body {
 
 /* Mobile and tablet Layout
 ------------------------------------------------------- */
-
 @media only screen and (max-width: 770px) {
   .cell1,
   .cell2,
