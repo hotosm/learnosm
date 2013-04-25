@@ -5,8 +5,10 @@ permalink: /es/beginner/editing-with-josm/
 lang: es
 category: beginner
 ---
+
 Editar con JOSM
 =================
+
 En [capitulo 3]({{site.baseurl}}/es/beginner/start-josm/) has instalado el programa JOSM y empezado a dibujar tus primeros puntos,
 líneas y figuras. Agregaste *predefinidos* a estos objetos para
 añadir información sobre ellos. Al final pudiste dibujar de esta
@@ -42,8 +44,10 @@ ciclo básico de mapeo en OSM:
   - [Guardar archivos de OSM]({{site.baseurl}}/es/beginner/editing-with-josm/#saving-osm-files)
 Al final de este capítulo, vas a poder ver tus incorporaciones en el mapa
 de OSM.
+
 Recorrido de JOSM
 -----------------
+
 -  Primero, para empezar JOSM, dirígete a al menú «Inicio» abajo y a la
     izquierda y busca hasta que encuentres el programa JOSM.
 -  Después carga tu archivo gpx y tu Walking Paper en JOSM. No se necesita
@@ -73,8 +77,10 @@ Recorrido de JOSM
     lo que se ve en la parte derecha de JOSM. Por medio de estos botones
     puedes abrir o cerrar las cajas de la derecha, como Capas,
     Propiedades / Miembros, Selección y Autores.
+
 Descargar datos desde OSM
 -------------------------
+
 -  ¿Recuerdas el ciclo de editar en OpenStreetMap explicado en la
     introducción de este capitulo?
     **Descargar**,**editar**,**guardar**. Antes de que podamos editar el mapa
@@ -108,8 +114,10 @@ Descargar datos desde OSM
     click en «Descargar» en la parte baja de la ventana. JOSM va a obtener
     los datos de esta área desde OpenStreetMap y abrirlo en tu ventana
     principal, listo para editar.
+
 Capas en JOSM
 -------------
+
 -  Abrí tu archivo de GPS y los datos descargados desde OpenStreeMap, si no
     lo has hecho todavía. Tal vez has notado de que cuando abriste un
     archivo, agregaste un Walking Paper o descargaste desde OpenStreetMap
@@ -145,6 +153,7 @@ Capas en JOSM
 -  Para marcar una capa como *activa*, seleccionarla en el panel de Capas y
    haz click en el botón de activación:
    ![]({{site.baseurl}}/images/EditingWithJOSM_html_de83a77_en.png)
+
 Editar
 ------
 -  El próximo paso es editar el mapa y agregar nuevos elementos. Todo eso
@@ -172,8 +181,10 @@ Editar
     del la escuela y haces clic en «Aplicar Predeterminados». Lo
     mismo se hace agregando líneas y figuras.
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_1cb5aeb4_en.png)
+
 Etiquetas
 ---------
+
 -  Cuando dibujas un punto, línea o figura primero tiene una ubicación
     pero no tiene información sobre lo que es. En otras palabras:
     sabemos **donde** se encuentra, pero no sabemos **qué** es.
@@ -223,8 +234,10 @@ Etiquetas
 -  Más información sobre etiquetas y predeterminados puedes encontrar
    en la guía de nivel intermediario en capítulo 4: XML y JOSM Presets
    lo cual se encuentra disponible en idioma inglés únicamente.
+
 Subir cambios
 -------------
+
 -  Después de que has hecho algunos cuantos cambios para mejorar el mapa,
     es tiempo de guardar estos cambios y mandarlos a OpenStreetMap.
     Para guardar los cambios necesitamos conexión al internet, porque
@@ -254,8 +267,10 @@ Subir cambios
     modificaciones y mejoras a OpenStreetMap. Quizás vas a seguir
     editando para agregar todos tus puntos, si quieres. Solo asegúrate
     de subir tus modificaciones antes de cerrar el programa JOSM.
+
 Revisar las modificaciones en el mapa
------------------------------------
+------------------------------------
+
 -  Abre tu navegador de internet y visita la página [http://openstreetmap.org/](http://openstreetmap.org/)
 -  Desplaza el mapa a la región que habías editado.
 -  ¡Ahora debes poder ver tus modificaciones en el mapa! En caso
@@ -268,8 +283,10 @@ Revisar las modificaciones en el mapa
     correctamente. Una buena regla general es: si el punto tiene un
     icono en JOSM va a ser visible en el mapa principal en el sitio
     web de OpenStreetMap.
+
 Guardar archivos OSM
 --------------------
+
 -  A veces después de haber descargado datos de OSM, quizás desees
     guardarlos para poder modificarlos sin conexión al internet y
     luego subirlos cuando uno se pudo conectar a internet en
@@ -283,8 +300,10 @@ Guardar archivos OSM
 -  Ahora puedes cerrar JOSM y tus datos quedan guardados. Cuando
     quieras abrir el archivo de nuevo, simplemente abre JOSM y
     en el menú de «Archivo» haz clic en «Abrir...»
+
 Resumen
 -------
+
 Ahora que has visto como contribuir con el mapa de OpenStreetMap, ¿qué sigue?
 Recuerda que los mapas de OSM siempre se van mejorando en el tiempo.
 Cada vez que haces mejoras en el sistema estos cambios se mantienen y
