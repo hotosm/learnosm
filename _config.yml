@@ -25,7 +25,7 @@ translations:
     training: "Check out training material for this guide (in English)"
     feedbackspan: "Was this chapter helpful?"
     feedback: "Let us know and help us improve the guides!"
-    proceed: "proceed to next chapter"
+    getstarted: "proceed to next chapter"
   fr:
     tagline: "Apprendre OpenStreetMap pas à pas"
     contribute: "Contribuer à ces guides"
