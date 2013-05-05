@@ -1,85 +1,65 @@
 ---
 layout: doc
-title: Further Reading
-permalink: /fr/beginner/moving-forward
+title: Pour aller plus loin
+permalink: /fr/beginner/moving-forward/
 lang: fr
 category: beginner
 ---
 
-Further Reading
-===============
+Pour aller plus loin
+====================
 
-If you have made it this far, congratulations! You should have a good
-understanding now of how to make maps with OpenStreetMap. What else can
-you do with OSM? How can you learn more? How can you stay connected to
-the community of mappers?
+Si vous avez tout lu jusqu'ici, bravo! Vous devriez maintenant savoir comment faire des cartes avec OpenStreetMap. Que peut-on faire de plus avec OSM ? Comment en savoir plus ? Comment rester connecté avec la communauté de mappeurs?
 
-OpenStreetMap Tools
--------------------
+Les outils d'OpenStreetMap
+--------------------------
 
-In this guide we have learned the building blocks of OSM, and the tools
-you need to contribute to the map. But because the data on OSM is open,
-it has encouraged many more projects and tools that allow you to do more
-with the OpenStreetMap map.
+Dans ce guide, nous avons vu les fondements d'OSM, et les outils nécessaires pour contribuer au projet. Mais, les données d'OSM étant ouvertes, de nombreux projets et outils ont été créés pour vous permettre de faire beaucoup plus avec OpenStreetMap.
 
 MapOSMatic
 ----------
 
-One such project is called MapOSMatic, which you can access through your
-internet browser at [maposmatic.org](http://www.maposmatic.org/). This
-is a simple tool for printing a map of any area you choose. It will
-automatically create the map, along with a grid over the map, and an
-index of locations that are included in the area.
+Parmi ces projets, il y a MapOSMatic, accessible depuis votre navigateur à [maposmatic.org](http://www.maposmatic.org/). Cet outil très simple permet d'imprimer une carte de n'importe quelle région de votre choix. Une carte est créée automatiquement, avec une grille de coordonnées et un index des lieux inclus dans la zone couverte.
 
-Learn More
-----------
+Pour en savoir plus
+-------------------
 
-There is a lot of information about OpenStreetMap available at
-[wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Here you can
-find information about other projects that are related to OpenStreetMap,
-and documents and tutorials that can help you learn more about OSM.
+Le wiki d'OpenStreetMap est une mine d'informations: [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Vous y trouverez notamment des informations sur d'autres projets utilisant OpenStreetMap, ainsi que de la documentation et des tutoriaux pour en savoir plus sur OSM.
 
-Mailing List
-------------
+Liste de diffusion
+------------------
 
-The best way to get connected to the OpenStreetMap user community is to
-join your local mailing list. Many people sign up, using their email
-accounts to the OSM mailing list. Once you are on the list, you can send
-an email to the group if you have a question or want to talk about
-OpenStreetMap.
+La meilleure façon de rester connecté avec la communtauté d'OpenStreetMap est de rejoindre la liste de diffusion locale. Beaucoup d'utilisateurs s'inscrivent avec leur propre adresse mail. Une fois que vous avez rejoint la liste, vous pouvez y envoyer des messages pour poser vos questions ou tout simplement parler d'OpenStreetMap.
 
--   To sign up for your country's mailing list, open your internet
-    browser and go to
-    [lists.openstreetmap.org](http://lists.openstreetmap.org/).
+-   Pour rejoindre la liste de diffusion de votre pays, allez sur 
+    [lists.openstreetmap.org](http://lists.openstreetmap.org/) avec votre 
+    navigateur Internet.
+-   Naviguez dans la page pour trouver la liste de votre pays. Les listes
+    sont nommées "Talk-xx", où xx est le code du pays. Par exemple, "Talk-id" est la liste pour l'Indonésie.
+-   Cliquez sur la liste que vous voulez rejoindre
+-   Dans le formulaire, entrez les informations suivantes:
 
--   Scroll down the page to find the list associated with your country.
-    The country lists are named "Talk-lg", where lg represents the
-    country of that list. For example, "Talk-id" is the list for
-    Indonesia.
--   Click on the list you want to join.
--   Enter the following information in the boxes on this page:
+    -   votre adresse email
+    -   votre prénom
+    -   un mot de passe
+    -   la confirmation de votre mot de passe
 
-    -   your email address
-    -   your first name
-    -   a new password
-    -   repeat the password
+-   Quand vous avez fini, cliquez sur "Abonner"
+-   Maintenant, allez consulter vos mails, comme  vous l'avez fait pour
+    l'inscription à OpenStreetMap, dans le chapitre 2. Vous devez avoir reçu
+    un mail de confirmation pour la liste de diffusion.
+-   Cliquez sur le lien de confirmation, qui doit ressembler à:
 
--   When you are finished, click Subscribe.
--   Now you need to open your email, just as you did when you signed up
-    for OpenStreetMap in chapter 2. There will be a confirmation email
-    in your inbox from the mailing list.
--   Click on the confirmation link, which looks like this:
+    ![]({{site.baseurl}}/images/fr_beg_ch8_image01.png)
 
--   You should now be a member of the mailing list.
--   Now when you want to send a message to the list, you can send it to
-    [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org),
-    replacing "id" with the country for your list. You will also receive
-    emails when other members send a message to the list.
+-   Vous êtes maintenant membre de la liste de diffusion.
+-   Vous pouvez maintenant envoyer un message à la liste, en écrivant à
+    [talk-fr@openstreetmap.org](mailto:talk-fr@openstreetmap.org), en
+    remplaçant "fr" si besoin par le code pays de votre liste. Vous allez
+    aussi recevoir les mails que les autres membres envoient à la liste.
 
-Summary
--------
 
-These are some of the ways that you can use and stay connected with the
-OpenStreetMap community and learn more. We hope you'll continue
-exploring and learning more about OSM, and contribute to the project.
+En résumé
+---------
+Ceux-ci sont quelques-uns parmi les nombreux moyens d'aller plus loin avec OpenStreetMap. Nous espérons que vous allez continuer votre exploration d'OSM, et contribuer au projet.
 Happy Mapping!

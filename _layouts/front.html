@@ -4,22 +4,21 @@ layout: default
 <div id='ads' class='marginL cell9 padAll'>
   <div class='ad1 cell8'>
     <a href='{{site.baseurl}}/{{page.lang}}/beginner'>
-      <span>{{ page.begspan }}</span>
-      <span class='hide-tablet show-mobile'>{{ page.beg }}</span>
+      <span class='ad-title'>{{ page.begspan }}</span>
+      <span class='ad-txt'>{{ page.beg }}</span>
       <span class='door'></span>
     </a>
   </div>
   <div class='ad2 cell4'>
     <a href='https://github.com/hotosm/learnosm/wiki/English-Learning-Guides'>
-      <!-- needs translation -->
-      <span>{{page.interspan}}</span>
-      <span class='hide-tablet show-mobile'>{{ page.inter }}<span>
+      <span class='ad-title'>{{page.interspan}}</span>
+      <span class='ad-txt'>{{ page.inter }}<span>
     </a>
   </div>
   <div class='ad3 cell4'>
     <a href='https://github.com/hotosm/learnosm/wiki/English-Teaching-Guides'>
-      <span>{{page.advspan}}</span>
-      <span class='hide-tablet show-mobile'>{{ page.adv }}<span>
+      <span class='ad-title'>{{page.advspan}}</span>
+      <span class='ad-txt'>{{page.adv}}<span>
     </a>
   </div>
 </div>
@@ -44,20 +43,32 @@ layout: default
   </div>
 </div>
 <script>
+// detect if ad is overflowing
+var spanTitle = $('span.ad-title','#ads');
+  $.each(spanTitle, function(i,el){
+  var titleParent = el.parentElement,
+      titleSister = el.nextElementSibling;
+  var titleHeight = el.offsetHeight,
+      txtHeight = titleSister.offsetHeight,
+      adHeight = titleParent.offsetHeight;
+  if (titleHeight + txtHeight > adHeight) {
+    titleSister.style.display = 'none'
+  } 
+});
 // format the search bar on the front
-  var input = $(".searchbox input[type=text]"),
-    inputTitle = "{{page.searchtext}}"; //needs tranlation
-    input.val(inputTitle);
+var input = $(".searchbox input[type=text]"),
+  inputTitle = "{{page.searchtext}}"; //needs tranlation
+  input.val(inputTitle);
 
-  input.blur(function() {
-  if (input.val() === "") {
-      input.val(inputTitle); // restore default text
-      input.addClass("default-value");
+input.blur(function() {
+if (input.val() === "") {
+    input.val(inputTitle); // restore default text
+    input.addClass("default-value");
+}
+}).focus(function() {
+  if (input.val() === inputTitle) {
+      input.val("");
+      input.removeClass("default-value");
   }
-  }).focus(function() {
-    if (input.val() === inputTitle) {
-        input.val("");
-        input.removeClass("default-value");
-    }
-  });
+});
 </script>

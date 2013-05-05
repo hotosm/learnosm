@@ -115,6 +115,7 @@ blockquote: footnotes, anything with NOTE tag that's secondary
 
 body {
   font: normal 15px/1.57 'Source Sans Pro','OpenSansRegular','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
+  background:#fff;
   color: #404040;
   padding: 0;
   font-size: 15px;
@@ -245,6 +246,7 @@ body {
 }
 #content {
   padding-bottom:180px;
+  clear: both;
 }
 #footer {
   width:100%;
@@ -519,14 +521,14 @@ body {
     }
 
 /* training and feedback boxes*/
-.proceed, .feedback {
+.getstarted, .feedback {
   padding-top:40px;
   display:block;
 }
 .feedback {
   background: #fff url(./img/dot.png) repeat-x top;
 }
-  .proceed span a {
+  .getstarted span a {
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -536,10 +538,10 @@ body {
     text-transform:uppercase;
     background:#79bc5f;
     }
-    .proceed span a:hover {color:#fff;}
+    .getstarted span a:hover {color:#fff;}
   .feedback span {display:block;font-weight:700;}
   .feedback a {color: #79bc5f;}
-    .proceed span:before, .proceed span:after, .feedback span:before {
+    .getstarted span:before, .getstarted span:after, .feedback span:before {
       content:'';
       display:block;
       height: 65px;
@@ -547,8 +549,8 @@ body {
       float:left;
       background: url(./img/sprite.png);
     }
-    .proceed span:before {background-position: -350px -95px;margin-top:-10px;}
-    .proceed span:after {background-position: -412px -95px; float:right;margin-top:-52px;}
+    .getstarted span:before {background-position: -350px -95px;margin-top:-10px;}
+    .getstarted span:after {background-position: -412px -95px; float:right;margin-top:-52px;}
     .feedback span:before {background-position:-508px -100px; margin-right: 32px;}
 /* doc content */
 .doc h2,
@@ -633,7 +635,6 @@ body {
 
 /* Mobile and tablet Layout
 ------------------------------------------------------- */
-
 @media only screen and (max-width: 770px) {
   .cell1,
   .cell2,

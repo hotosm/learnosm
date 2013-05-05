@@ -2,7 +2,7 @@
 
 ## Text modifications and translations
 
-To contribute, [fork this repository](https://help.github.com/articles/fork-a-repo), improve content or site, then issue a [pull request](https://help.github.com/articles/using-pull-requests).
+To contribute, [fork the LearnOSM repository](https://help.github.com/articles/fork-a-repo), improve content or site, then issue a [pull request](https://help.github.com/articles/using-pull-requests).
 
 Other guides than the beginner guide are managed in Google documents. Refer to a listing of these documents [in the wiki](https://github.com/hotosm/learnosm/wiki/_pages).
 
@@ -11,6 +11,21 @@ LearnOSM is built with [Jekyll](http://jekyllrb.com/). All content can be found 
 It's handy to run the site locally when editing content or code - Jekyll documentation contains a good section on [installation](https://github.com/mojombo/jekyll/wiki/Install).
 
 For fresh translations always start with a copy of the English guide.
+
+### Quick install guide for Windows
+
+- Download and install [Ruby 1.9](http://rubyinstaller.org/downloads/), enable the PATH setting during installation
+- Open a command prompt (cmd.exe) and install jekyll by typing `gem install jekyll`
+- Install rdiscount by typing `gem install rdiscount --platform=ruby -v 1.6.8`
+- Navigate to your local learnosm repository `cd C:\learnosm`
+- Start the local webserver by executing the following 2 commands, or save them to a .bat file and start:
+
+	```
+    chcp 65001
+    jekyll --rdiscount > jekyll_log.txt 2> jekyll_errorlog.txt
+    ```
+
+- Open a browser and go to localhost:4000
 
 ### Front matter for guide documents
 

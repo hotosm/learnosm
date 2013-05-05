@@ -4,4 +4,6 @@ Repository for http://learnosm.org
 
 Any updates in the gh-pages branch automatically update the site within minutes.
 
-Refer to CONTRIBUTING.md for more information on content and site architecture.
+## Contributing
+
+Refer to CONTRIBUTING.md to learn how to contribute directly to LearnOSM.

@@ -22,12 +22,12 @@ Download JOSM
 -------------
 
 - If you have a copy of JOSM on a CD or usb flash drive, you can skip
-to section 2, Install JOSM.
+  to section 2, Install JOSM.
 - If you don’t have JOSM already, or want the newest version, open
-your web browser - this may be Firefox, Chrome, Opera, or Internet
-Explorer.
+  your web browser - this may be Firefox, Chrome, Opera, or Internet
+  Explorer.
 - In the address bar at the top of the window, enter the following
-text and press Enter:[josm.openstreetmap.de](http://josm.openstreetmap.de)
+  text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
 - You can also find this website by searching for “JOSM”
 - The website should look something like this:
 
@@ -91,10 +91,10 @@ click “Edit” on the top menu, and then click “Preferences.”
 ### Add Presets
 
 - If you have been given a file that should be added to the presets
-    menu, you can add it now. For example, a presets file might be named
-    something like buildings.xml.
+  menu, you can add it now. For example, a presets file might be named
+  something like buildings.xml.
 - You should still have the Preferences window open. If you don’t,
-    click Edit -\> Preferences to open the window.
+  click Edit -\> Preferences to open the window.
 - On the left side, click the icon that looks like a grid.
 
   ![]({{site.baseurl}}/images/start_josm_image09_en.png)
@@ -102,8 +102,8 @@ click “Edit” on the top menu, and then click “Preferences.”
 - Click the tab at the top that reads “Tagging Presets”.
 - In the upper right, press the + button.
 - Next to the second box on the right, click the button that looks
-    like a folder. Navigate to the presets file you want to add, for
-    example, buildings.xml.
+  like a folder. Navigate to the presets file you want to add, for
+  example, buildings.xml.
 - Click OK
 
 ### Add Walking Papers Plugin
@@ -114,20 +114,20 @@ click “Edit” on the top menu, and then click “Preferences.”
   Then we can add our drawings and our notes into OpenStreetMap. Now
   we will add the Walking Papers plugin to JOSM.
 - You should still have the Preferences window open. If you don’t,
-   click Edit -\> Preferences to open the window.
+  click Edit -\> Preferences to open the window.
 - On the left side, click the icon that looks like a plug.
 
   ![]({{site.baseurl}}/images/start_josm_image04_en.png)
 
 - Click the button that says “Download list”. The list will download
-   from the internet, and when it is finished you will see a list of
-   optional plugins appear in the window.
+  from the internet, and when it is finished you will see a list of
+ ´optional plugins appear in the window.
 - In the search box at the top, type “walking”. This will show only
-   items in the list that have “walking” in the title.
+  items in the list that have “walking” in the title.
 - Click the checkbox next to the walkingpapers plugin, and press OK at
-   the bottom of the window.
+  the bottom of the window.
 - Walking Papers will now be downloaded and installed. Do not click
-    “Cancel”.
+  “Cancel”.
 
 ### Change Language
 
@@ -163,7 +163,7 @@ Learn Basic Drawing with JOSM
   address bar at the top of the window, enter the following text:
   [http://www.learnosm.org/files/](http://www.learnosm.org/files/)
 - With your mouse, right click on the file called sample.osm, and click
-“Save Link As...” Choose a location on your computer to save the file.
+  “Save Link As...” Choose a location on your computer to save the file.
 - Now let’s open the sample map file in JOSM. Open JOSM. Click the
   “Open” button in the upper left.
 
@@ -187,10 +187,10 @@ Learn Basic Drawing with JOSM
 
   ![]({{site.baseurl}}/images/start_josm_image14_en.png)
 
--  Look at the sample map. There a few different types of objects here.
-   There is a river, a forest, some buildings, several roads, and a
-   couple of shops. To select an object, click on it with your left
-   mouse button.
+- Look at the sample map. There a few different types of objects here.
+  There is a river, a forest, some buildings, several roads, and a
+  couple of shops. To select an object, click on it with your left
+  mouse button.
 
 ### Points, Lines, and Shapes
 
