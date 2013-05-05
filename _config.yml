@@ -21,11 +21,11 @@ translations:
   es:
     tagline: "Aprende OpenStreetMap Paso a Paso"
     contribute: "Ayuda a mejorar las guías"
-    trainingspan: "Are you a workshop organizer?"
-    training: "Check out training material for this guide (in English)"
-    feedbackspan: "Was this chapter helpful?"
-    feedback: "Let us know and help us improve the guides!"
-    getstarted: "proceed to next chapter"
+    trainingspan: "¿Eres el organizador de un taller?"
+    training: "Revisa nuestros materiales de aprendizaje para esta guía (en inglés)"
+    feedbackspan: "¿Este capítulo te resultó útil?"
+    feedback: "¡Contacta con nosotros y ayúdanos a mejorar estas guías!"
+    getstarted: "Comencemos"
   fr:
     tagline: "Apprendre OpenStreetMap pas à pas"
     contribute: "Contribuer à ces guides"
