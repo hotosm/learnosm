@@ -159,11 +159,7 @@ Learn Basic Drawing with JOSM
 - If you were given a set of files by your instructor, you should
   already have the file we will open, named sample.osm.
 - If you don’t have the file sample.osm on your computer, you can
-  download it from the internet. Open your internet browser. In the
-  address bar at the top of the window, enter the following text:
-  [http://www.learnosm.org/files/](http://www.learnosm.org/files/)
-- With your mouse, right click on the file called sample.osm, and click
-  “Save Link As...” Choose a location on your computer to save the file.
+  download it here: [sample.osm](/files/sample.osm)
 - Now let’s open the sample map file in JOSM. Open JOSM. Click the
   “Open” button in the upper left.
 

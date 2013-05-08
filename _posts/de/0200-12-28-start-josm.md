@@ -173,9 +173,7 @@ Einführung in das Zeichnen mit JOSM
 - Wenn dir dein Lehrer die Dateien bereits gegeben hat, dann solltest
   du die Datei sample.osm bereits haben.
 - Wenn du die sample.osm Datei noch nicht auf deinem Computer hast 
-  kannst du sie kostenlos aus dem Internet herunterladen. Öffne dazu
-  deinen Browser und gib in die Adressleiste im oberen Teil des 
-  Bildschirms foldenden Text ein: [http://www.learnosm.org/files/](http://www.learnosm.org/files/)
+  kannst du sie hier herunterladen: [sample.osm](/files/sample.osm).
 - Klicke mit der rechten Maustaste auf die Datei namens "sample.osm"
   und klicke auf "Link speichern unter...". Wähle einen Ordner auf 
   deinem Computer aus, wo die Datei gespeichert werden soll.

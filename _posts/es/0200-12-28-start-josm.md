@@ -159,9 +159,7 @@ Aprende las bases del dibujo con JOSM
 - Si tu instructor te ha dado un conjunto de archivos, ya deberías tener
   el archivo que abriremos, llamado sample.osm.
 - Si no tienes el archivo sample.osm en tu computadora puedes descargarlo 
-  de Internet. Abre tu navegador. En la barra de direcciones de la parte
-  superior de la ventana escribe el siguiente texto:
-  [http://www.learnosm.org/files/](http://www.learnosm.org/files/)
+  aquí: [sample.osm](/files/sample.osm).
 - Con el ratón haz clic con el botón derecho en el archivo llamado 
   sample.osm y selecciona «Guardar enlace como...». Selecciona una 
   ubicación en tu computadora para guardar el archivo.
