@@ -15,9 +15,8 @@ mapping skills. JOSM allows you to install numerous plugins, which are
 extra tools that allow you to complete specific tasks in the software.
 You have already installed several plugins if you have been following
 these tutorials. In the preceding chapter, you installed a plugin that
-allows you to use the SDS (Separate Data Store). Prior to that, you
-installed a plugin to use Walking Papers. There are many different
-plugins available in JOSM and we will cover some of the most useful ones
+allows you to use Walking Papers. There are many different plugins 
+available in JOSM and we will cover some of the most useful ones
 in this chapter.
 
 ![plug]({{site.baseurl}}/images/plugins_html_m76fc73bd_en.png)
