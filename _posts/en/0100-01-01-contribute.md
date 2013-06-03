@@ -1,14 +1,14 @@
 ---
 layout: contribute
-permalink: /en/contribute/
-lang: en
-title: Contribute
-contributetitle: "Help improve our guides"
-startwith: "Ready to get started?"
-startA: "Send us feedback"
-startB: "Create a translation"
-startC: "Improve Language"
-startD: "Fork and improve site"
+permalink: /bi/contribute/
+lang: bi
+title: Berkontribusi
+contributetitle: "Bantu kami untuk meningkatkan panduan kami!"
+startwith: "Siap untuk memulai?"
+startA: "Kirim masukan/umpan balik"
+startB: "Buat terjemahan"
+startC: "Meningkatkan Bahasa"
+startD: "Menyalin dan meningkatkan situs"
 nosearch: true
 ---
-This guide is created and maintained by the [OpenStreetMap](http://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](http://hotosm.org/) community. You can help us improve this guide by simply sending your feedback or by contributing directly to it via [Github](http://github.com/hotosm/learnosm).
+Panduan ini dibuat dan dikelola oleh [OpenStreetMap](http://www.openstreetmap.org/) dan komunitas [Humanitarian OpenStreetMap Team](http://hotosm.org/). Anda dapat membantu kami meningkatkan panduan ini hanya dengan mengirimkan masukan/umpan balik atau dengan memberikan kontribusi langsung melalui [Github](http://github.com/hotosm/learnosm).
