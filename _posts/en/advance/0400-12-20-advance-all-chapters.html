@@ -1,0 +1,13 @@
+---
+layout: doc
+title: All Chapters
+permalink: /en/advance/all-chapters
+lang: en
+category: advance
+nosearch: true
+---
+{% for post in site.categories.[page.category]%}
+  {% if post.lang == page.lang %}{% unless post.hidden %}
+    {{post.content | markdownify}}
+  {% endunless %}{% endif %}
+{% endfor %}
