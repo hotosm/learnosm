@@ -63,12 +63,12 @@ translations:
     getstarted: "prosseguir para o próximo capítulo"
   it:
     overview: "Riassunto"
-    tagline: "Per saperne di OpenStreetMap Step-by-Step"
+    tagline: "Impara a conoscere OpenStreetMap passo dopo passo"
     contribute: "Aiutaci a migliorare le nostre guide!"
-    trainingspan: "Sei un organizzatore del workshop?"
-    training: "Scopri materiale di formazione per la guida principianti (in inglese)"
-    feedbackspan: "Questa capitolo è stata utile?"
-    feedback: "Fateci sapere e ci aiutano a migliorare le guide!"
+    trainingspan: "Sei un organizzatore di workshop?"
+    training: "Scopri materiale formativo per la guida principianti (in inglese)"
+    feedbackspan: "Questa capitolo ti è stato utile?"
+    feedback: "Contattaci ed aiutaci a migliorare le guide!"
     getstarted: "procedere al capitolo successivo"
   de:
     tagline: "Lerne OpenStreetMap Schritt für Schritt kennen"
