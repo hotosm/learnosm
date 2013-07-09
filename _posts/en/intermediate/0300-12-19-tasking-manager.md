@@ -50,8 +50,8 @@ To see how the tasking manager works, let’s take a closer look.
 ![]({{site.baseurl}}/images/intermediate/en_int_ch5_image03.png)
 
 -   This page shows you everything you need to know about the project.
-     On the left side of the page is a description of the mapping
-    project and how it is being organized.  You can click on the
+     On the left side of the page is the description of mapping
+    project and how to make it organized.  You can click on the
     different tabs to get more information.  On the right side is a grid
     showing the area to be mapped.  Red grid squares have been
     completed, green squares have been completed and checked by another
@@ -62,10 +62,10 @@ To see how the tasking manager works, let’s take a closer look.
 
 ![]({{site.baseurl}}/images/intermediate/en_int_ch5_image07.png)
     
--   Here you see a view of the square that you have offered to map.  You
+-   Here, you see a view of square that you have offered to map.  You
     can automatically open the area up for editing with JOSM, Potlatch
     2, or create a Walking Paper.
--   If you plan to edit with JOSM, you need to enable a JOSM plugin
+-   If you're going to edit on JOSM, you need to enable JOSM plugin
     before you will be able to launch the application from the Tasking
     Manager.  To do this, open JOSM and go the Preferences menu.  Click
     on the “Remote Settings” tab and check the box next to “Enable
