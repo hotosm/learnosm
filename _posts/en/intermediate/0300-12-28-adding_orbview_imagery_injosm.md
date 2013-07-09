@@ -57,7 +57,7 @@ of memory.  It is a bit complicated, but we will expand JOSM´s memory:
 	If you cannot find it using the methods above, then you can go to **C: \\
 	Windows \\ System32** to find the java.exe file:
 
-	![]({{site.baseurl}}/images/en_int_ch3_image21.png)
+	![]({{site.baseurl}}/images/intermediate/en_int_ch3_image21.png)
 
 4. Right click on the shortcut "josm-tested" on your desktop\> click
 	Properties.
@@ -90,21 +90,21 @@ altitude of 470 km.  Though Orbview 3 imagery is outdated (2003 to
 for tracing roads and gaining a basic idea of the infrastructure in an
 area.
 
-### A. Set up an account
+### Set up an account
 
-​Visit [http://earthexplorer.usgs.gov/](http://earthexplorer.usgs.gov/) and
+​1. Visit [http://earthexplorer.usgs.gov/](http://earthexplorer.usgs.gov/) and
 create an account.  Click the ¨Register¨ button on the top right.
 
 ![]({{site.baseurl}}/images/intermediate/en_int_ch3_image19.png)
 
-​You will be prompted to fill in information regarding your User
+​2. You will be prompted to fill in information regarding your User
 account.  Fill in the required information: **User Affiliation,
-Address, and Confirmation**. In the first login window, you must enter a
+Address,** and **Confirmation**. In the first login window, you must enter a
 username and password that will be used to log in when using the USGS:
 
 ![]({{site.baseurl}}/images/intermediate/en_int_ch3_image08.png)
 
-​Fill out information, such as the purpose that you are using images
+​3. Fill out information, such as the purpose that you are using images
 from the USGS.  The USGS is mainly interested getting information on
 what type of users are using their imagery and for what purposes.  You
 can fill out the answers like below if you get confused:
@@ -113,13 +113,13 @@ can fill out the answers like below if you get confused:
 
 ![]({{site.baseurl}}/images/intermediate/en_int_ch3_image04.png)
 
-​Next, fill out your personal details.  Name, address, e-mail and
+​4. Next, fill out your personal details.  Name, address, e-mail and
 telephone number are all required. After you complete this step you will
 be successfully registered!
 
 ![]({{site.baseurl}}/images/intermediate/en_int_ch3_image14.png)
 
-### B.  Downloading the Imagery 
+### Downloading the Imagery 
 
 1. Once you have logged into your account you
 	may begin the process of downloading imagery in your desired region.
@@ -138,14 +138,14 @@ be successfully registered!
 
 	![]({{site.baseurl}}/images/intermediate/en_int_ch3_image02.png)
 
- 	> This database exports imagery tiles and so all of the tiles that
+ 	>*Note:  This database exports imagery tiles and so all of the tiles that
  	are included in your selection will be downloaded.  Each tile is about
  	10 to 11 MB.  Make sure that you are concise with your selection because
- 	it may take awhile to download.
+ 	it may take awhile to download.*
 
  	![]({{site.baseurl}}/images/intermediate/en_int_ch3_image06.png)
 
- 	> A list of several image providers will pop up.  We will chose
+ 	> A list of several image providers will pop up.  We will choose
  	imagery in the Public Domain, which is a license that corresponds with
  	OpenstreetMap.  Select OrbView 3 and click Results
 
@@ -180,7 +180,7 @@ be successfully registered!
 
 ## Using the "Import Image" plug-in in JOSM
 
-### A.  Download the Plug-in.
+### Download the Plug-in.
 
 To open the imagery in JOSM you need to download the plugin
 "ImportImagePlugin". Open JOSM, click Edit → Preferences  → Plugin →
@@ -188,7 +188,9 @@ ImportImagePlugin.  Then click OK and restart JOSM.
 
 ![]({{site.baseurl}}/images/intermediate/en_int_ch3_image03.png)
 
-### B. Change the settings. Once JOSM restarts you will need to set the
+### Change the settings.
+
+Once JOSM restarts you will need to set the
 coordinates in UTM to match the downloaded image.  Go back into the
 Preferences Menu and Select the Presets box (below image globe) →  Map
 projection → OK.  You do not need to restart JOSM.
@@ -203,7 +205,7 @@ you should be able to decipher the coordinate system.
  Once the image is properly projected, you can now open the image in
 JOSM.  Click File → Import Image and open the file you recently
 downloaded.  You should find three files in the extracted folder (.rar).
- You want to chose the .jpg.
+ You want to choose the .jpg.
 
 ![]({{site.baseurl}}/images/intermediate/en_int_ch3_image07.png)
 
@@ -228,7 +230,7 @@ Congratulations! You should now be able to add satellite imagery using
 the ¨ImportImage¨ plugin.  In this guide we used free images from
 Orbview 3, but  the plugin can allow any other  public domain imagery.
 
-Final Reminders:
+## Final Reminders:
 
 ​1. You cannot import commercial satellite imagery, such as Google Earth
 Imagery, to OpenstreetMap.  If you work with satellite imagery please
