@@ -77,13 +77,13 @@ back into JOSM and resolve the conflict before uploading the data.*
 
 ## Conflict Resolution
 
-Resolving Conflicts are important because none of the edits will save if
-you do not select one version or merge the edits.  Toresolve a
+**Resolving Conflicts** are important because none of the edits will save if
+you do not select one version or merge the edits.  To resolve a
 conflict you must choose the best option for each specific edit.  When
 you are given this Conflict Detected pop-up it is always best to choose
-«Synchronize ---- only». This option saves you time and headache
+*«Synchronize ---- only»*. This option saves you time and headache
 because it only looks at the conflict at hand. If you chose to
-«Synchronize entire dataset», then your server must talk with the
+*«Synchronize entire dataset»*, then your server must talk with the
 main server about all of the edits and objects. This option is only
 really necessary if you have a mess of conflicts and edits. It is quite
 cumbersome and at times confusing. 
@@ -97,13 +97,13 @@ will know what type of conflict you have by the symbol
 properties, such as the location and existence of the object, of the
 object. This is why the coordinates and deleted state are listed. 
 
-Properties: Moved (coordinates) or deleted
+**Properties:** Moved (coordinates) or deleted
 
-Tags: tags do not match
+**Tags:** tags do not match
 
-Nodes: there is a differences in the list of nodes in two ways 
+**Nodes:** there is a differences in the list of nodes in two ways 
 
-Members: there is a difference in the list of members in a relation
+**Members:** there is a difference in the list of members in a relation
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image09.png)
 
@@ -127,8 +127,8 @@ says:
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image28.png)
 
-On your Windows menu you have a Conflict List
-Dialog![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image26.png). This window displays a list of
+On your Windows menu you have a **Conflict List
+Dialog** ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image26.png). This window displays a list of
 conflicts. The total number of unresolved conflicts is shown in the
 header. You can select or resolve a conflict by clicking on it. This is
 useful when you have many conflicts to deal with.
@@ -177,13 +177,13 @@ conflicts.
 
 There are three tables displayed in this dialog, from left to right:
 
-1.  My version: shows the tags of the first object version participating
+-  **My version:** shows the tags of the first object version participating
     in this conflict. These are usually the tags of the object version
     in your local data set.
-2.  Merged version: shows the merged tags. This table is initially
+-  **Merged version:** shows the merged tags. This table is initially
     empty. The more tag conflicts you resolve, the more tag values will
     we be displayed in this table.
-3.  Their version: shows the tags of the second object version
+-  **Their version:** shows the tags of the second object version
     participating in this conflict. These are usually the tags of the
     object version currently stored on the server.
 
@@ -204,24 +204,24 @@ and the background color turns to green.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image10.png)
 
-When the button Apply Resolutionis enabled you can apply your decision.
+When the button **Apply Resolution** is enabled you can apply your decision.
 The values you've chosen will be applied and the dialog will be closed.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image03.png)
 
 ## Resolving differences in the node list of two versions of a way
 
-If you see the symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in the tab Nodesthen you
+If you see the symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in the tab **Nodes** then you
 have to resolve differences in the list of
 [nodes](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)of two
 [ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). There
 are three columns in the respective panel (see screen shot below):
 
-1.  the leftmost table displays the list of nodes of the the local
+-  the leftmost table displays the list of nodes of the the local
     object version
-2.  the rightmost table displays the list of nodes of the the server
+-  the rightmost table displays the list of nodes of the the server
     object version
-3.  the table in the middle shows the list of nodes of the merged ways
+-  the table in the middle shows the list of nodes of the merged ways
 
 Initially, the middle table is empty. You should now decide which nodes
 to keep from the local dataset (the leftmost table) and which from the
@@ -229,7 +229,7 @@ server dataset (the rightmost table).
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image24.png)
 
-### The standard workflow
+## The standard workflow
 
 The standard workflow to resolve conflicts in the node lists of two
 [object
@@ -238,37 +238,36 @@ of three steps:
 
 1.  Pick nodes from either object version and reorder the resulting node
     list if necessary
-2.  Freezethe resulting merged node list by clicking on the button
+2.  **Freeze** the resulting merged node list by clicking on the button
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). When you freeze the merged node list you
     tell JOSM that all conflicts in the node list are resolved.
 3.  Apply the resolution
 
-### A simple workflow: Keep the node list from your local object version
+## A simple workflow: Keep the node list from your local object version
 
 The following example shows the workflow when you decide to keep all nodes in the same order from your local object version.
 
--   First, select all elements in the leftmost table (either using the mouse or by 
-    pressing Ctrl-A in the table) (see next screen shot):
+First, select all elements in the leftmost table (either using the mouse or by 
+pressing Ctrl-A in the table) (see next screen shot):
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image04.png)
 
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image04.png)
+Then, click 
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image19.png)
+to copy the selected nodes to the middle table with the merged nodes:
 
--   Then, click 
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image19.png)
-    to copy the selected nodes to the middle table with the merged nodes:
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image01.png)
 
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image01.png)
+Finally, click
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png)
+to freeze the resulting merged node list:
 
--   Finally, click
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png)
-    to freeze the resulting merged node list:
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image20.png)
 
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image20.png)
+The symbol in the nodes tab now switched to 
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image00.png)
+and you can apply the merge decisions.
 
-    The symbol in the nodes tab now switched to 
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image00.png)
-    and you can apply the merge decisions.
-
-### Support for comparing node lists
+## Support for comparing node lists
 
 It can be difficult to find the differences between the node list of of two object versions, in particular for ways with many nodes.
 
@@ -278,23 +277,22 @@ From the following combo box you can select which pair of node lists to compare:
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image15.png)
 
-1.  My with Their: compares the leftmost table with the rightmost table
+-  **My with Their:** compares the leftmost table with the rightmost table
     in the Conflict Dialog
-2.  My with Merged: compares the leftmost table with the middle table in
+-  **My with Merged:** compares the leftmost table with the middle table in
     the Conflict Dialog
-3.  Their with Merge: compares the middle table with the rightmost table
+-  **Their with Merge:** compares the middle table with the rightmost table
     in the Conflict Dialog
 
 Depending on the position of a node in the list different background
 colors are used:
 
-1.  The node is in this list only. It isn't present in the opposite list:
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image13.png)
-2.  The node is in both lists, but it is on different positions:
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image02.png)
-3.  White background means that a node is in both lists at the same
-    position.
-
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image17.png)
+-  The node is in this list only. It isn't present in the opposite list:
+   ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image13.png)
+-  The node is in both lists, but it is on different positions:
+   ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image02.png)
+-  White background means that a node is in both lists at the same
+   position.
+   ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image17.png)
 
 
