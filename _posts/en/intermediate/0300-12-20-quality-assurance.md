@@ -23,7 +23,7 @@ of checking for errors. Lastly, we will cover the HOT Tasking Manager,
 which is a tool that mappers can use to sort an area into a grid, and
 work together to map an area in an organized way.
 
-Drawing your maps correctly the first time will save you a lot of time
+Drawing your maps correctly for the first time will save you a lot of time
 later on!
 
 ![]({{site.baseurl}}/images/intermediate/en_quality_assurance_image10.png)
@@ -46,7 +46,7 @@ of problems:
 -   **Warnings** These are problems that are important to fix, but in some
     cases, they are tolerable.
 
-One thing to note is that if you download a large area of the map and
+One thing to note is if you download large area of the map and
 run the validation tool, you may get a very long list of errors and
 warnings. This is because the validation tool works on the whole map--
 not only the changes that you have made. So you may see mistakes that
@@ -57,42 +57,42 @@ one.
 Let’s see how to use the validation tool:
 
 1.  In JOSM, download a section of the map.
-1.  If you don’t see the “Validation Results” window in the right panel,
+2.  If you don’t see the “Validation Results” window in the right panel,
     click on the blue checkmark on the left to show it.
 
     ![]({{site.baseurl}}/images/intermediate/en_quality_assurance_image15.png)
 
-1.  Ensure that nothing on the map is selected. If you run the
+3.  Ensure that nothing on the map is selected. If you run the
     validation tool with anything selected, it will only validate what
     you have selected, and not the whole map.
-1.  Hover your mouse in the validation window and click “Validation.”
+4.  Hover your mouse in the validation window and click “Validation.”
 
     ![]({{site.baseurl}}/images/intermediate/en_quality_assurance_image16.png)
 
-1.  The map will change and any warnings will be circled in yellow,
+5.  The map will change and any warnings will be circled in yellow,
     errors in red. In the “Validation Results” window you will see a
     list of warnings and errors, if there are any.
 
 
     ![]({{site.baseurl}}/images/intermediate/en_quality_assurance_image12.png)
 
-1.  Errors should almost always be fixed. You can zoom to an error, by
+6.  Errors should be fixed always. You can zoom to an error, by
     right clicking on it in the window and selecting “Zoom to Problem.”
     Then you can fix the mistake manually.
-1.  Some errors can be automatically fixed, such as “Duplicated nodes”
+7.  Some errors can be automatically fixed, such as “Duplicated nodes”
     errors. You can click on the folder for these types of errors and
     click the “Fix” button in the window. Many errors, however, need to
     be corrected manually.
 
     ![]({{site.baseurl}}/images/intermediate/en_quality_assurance_image07.png)
 
-1.  Usually there are many more warnings than errors. By giving you a
+8.  Usually there are many more warnings than errors. By giving you a
     warning, JOSM is telling you that it is probably a mistake, but not
     always. So you will need to use your judgement to see if it is an
     error or not.
-1.  If you select a warning from the list and decide that it is not a
+9.  If you select a warning from the list and decide that it is not a
     problem, click “Ignore” and it will be removed from the list.
-1.  You can re-run the validation tool at any time by clicking
+10.  You can re-run the validation tool at any time by clicking
     “Validation.”
 
 ### Common Warnings
@@ -167,22 +167,22 @@ To see how the tasking manager works, let’s take a closer look.
 
     ![]({{site.baseurl}}/images/intermediate/en_quality_assurance_image02.png)
 
-1.  Click “Log in using your OpenStreetMap account \>\>”
-1.  Here you are agreeing to allow this application some access to your
+2.  Click “Log in using your OpenStreetMap account \>\>”
+3.  Here, you are agreeing to allow this application some access to your
     OpenStreetMap account. Click “Save Changes.”
 
     ![]({{site.baseurl}}/images/intermediate/en_quality_assurance_image08.png)
 
-1.  Now you will see the current list of projects. These are different
+4.  Now you will see the current list of projects. These are different
     places that people are coordinating to map.
 
     ![]({{site.baseurl}}/images/intermediate/en_quality_assurance_image11.png)
 
-1.  Click on one of the projects to see more information about it.
+5.  Click on one of the projects to see more information about it.
 
     ![]({{site.baseurl}}/images/intermediate/en_quality_assurance_image06.png)
 
-1.  This page shows you everything you need to know about the project.
+6.  This page shows you everything you need to know about the project.
     On the left side of the page is a description of the mapping
     project and how it is being organized. You can click on the
     different tabs to get more information. On the right side is a grid
@@ -195,11 +195,11 @@ To see how the tasking manager works, let’s take a closer look.
 
     ![]({{site.baseurl}}/images/intermediate/en_quality_assurance_image13.png)
 
-1.  Here you see a view of the square that you have offered to map. You
+7.  Here, you see a view of the square that you have offered to map. You
     can automatically open the area up for editing with JOSM, Potlatch
     2, or create a Walking Paper.
 
-1.  If you plan to edit with JOSM, you need to enable a JOSM plugin
+8.  If you plan to edit with JOSM, you need to enable a JOSM plugin
     before you will be able to launch the application from the Tasking
     Manager. To do this, open JOSM and go the Preferences menu. Click
     on the “Remote Settings” tab and check the box next to “Enable
@@ -207,11 +207,11 @@ To see how the tasking manager works, let’s take a closer look.
 
      ![]({{site.baseurl}}/images/intermediate/en_quality_assurance_image09.png)
 
-1.  Go back to the Tasking Manager and choose JOSM. If you have JOSM
+9.  Go back to the Tasking Manager and choose JOSM. If you have JOSM
     open and you correctly enabled the remote control, the grid area of
     the map you selected will automatically be loaded into JOSM.
 
-1.  You may now edit the area using the instructions provided in the
+10.  You may now edit the area using the instructions provided in the
     project information. When you are finished, you can return to the
     tasking manager website and add comments about your changes. Click
     “Mark task as done” to let other collaborators know that you have
@@ -220,7 +220,7 @@ To see how the tasking manager works, let’s take a closer look.
 
     ![]({{site.baseurl}}/images/intermediate/en_quality_assurance_image00.png)
 
-1.  If you are wondering what happens when you finish an area, the grid
+11.  If you are wondering what happens when you finish an area, the grid
     square will turn red on the map to indicate that is done. Someone
     else will then look at your work to make sure it is good, and if
     they agree that you’ve completed the square well, the grid square

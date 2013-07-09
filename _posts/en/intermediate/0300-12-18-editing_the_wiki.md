@@ -14,7 +14,7 @@ Introduction
 
 OpenStreetMap is based around a community of mappers working together.
 Because of this it is necessary to have a way to communicate with each
-other-- whether it be to organize social mapping events, to discuss
+other-- whether to organize social mapping events, to discuss
 different projects related to OSM and/or to create standards for mapping
 processes.  The key avenue for mappers to do this is through the
 OpenStreetMap wiki, a website where users can create different web pages
@@ -42,9 +42,9 @@ Map Features page:
 
 [http://wiki.openstreetmap.org/wiki/Map\_Features](http://wiki.openstreetmap.org/wiki/Map_Features)
 
-In this chapter we will learn how to add and edit pages on the OSM wiki.
- We will learn the guidlines for contributing, the special markup
-language for creating a wiki page, and helpful ways for improving the
+In this chapter we will learn how to add and edit pages on the OSM wiki. 
+We will learn the guidelines for contributing, the special markup
+language for creating a wiki page, and helpful ways to improve
 wiki, such as translating important pages.
 
 ​1.  The Wiki and Signing Up
@@ -54,14 +54,14 @@ wiki, such as translating important pages.
 
 Go to [http://wiki.openstreetmap.org](http://wiki.openstreetmap.org) to
 see the main wiki page.  You’ll see a lot of things here, and many links
-to other pages on the wiki.  In the left column are links to some of the
-main pages.  At the top of the page are a list of all the languages in
-which you can view this page.  If it’s available, you can switch the
-page to your language.  Try exploring some of the links on the page and
-see the kind of information available on the wiki.
+to other pages on the wiki.  On the left column are links for some
+main pages.  At the top of the page are the list of languages that can be
+view on this page.  If your language is available, you can switch it to 
+your language.  Try to explore some links on the page and see the kind
+of information available on the wiki.
 
-You don’t need to have an account in order to view the OSM wiki, but you
-will need to create an account if you want to edit or add pages.  Note
+You don’t need to have an account in order to view the OSM wiki, you 
+will only need to create an account if you want to edit or add pages.  Note
 that this is not the same as your OpenStreetMap account.  You need to
 create a new account, although you can use the same name on the wiki as
 you did when signing up for OpenStreetMap.
@@ -77,11 +77,11 @@ you did when signing up for OpenStreetMap.
 ![]({{site.baseurl}}/images/intermediate/en_int_ch6_image11.png)
 
 -  Fill in the form with the username you want to create, your password
-    twice, your email address, and your real name.  In the CAPTCHA box
+    twice, email address, and your real name.  In the CAPTCHA box
     at the top you need to type the two words that are shown in the box.
      This is a security prevention to ensure that you are human, and not
     a computer.
--  When you have filled in all the fields click “Create account.”
+-  After you filled in all the fields click “Create account.”
 -  Now you will be automatically logged in, and you will see your
     username and other links available in the upper right corner of the
     website.
@@ -181,21 +181,21 @@ page to try things out.
 
 ### Basic Formatting
 
-| Description                               | Example          | Result           |
-|-------------------------------------------|------------------|------------------|
-| Surrounding text with two apostrophes (') will display this text in italic.   | ''italic text''  | *italic text*     
-| Surrounding text with three apostrophes (') will display this text in bold.   | '''bold text'''  | **bold text**
-| Surrounding text with five apostrophes (') will display this text in bold italic   | '''''bold and italic text'''''  | ***bold and italic text***
-| Four dashes in a row will create a horizontal line.  This should be used sparingly.   | - - - -  | ____________
+| Description                                                                           | Example                     | Result                     |
+|---------------------------------------------------------------------------------------|-----------------------------|----------------------------|
+| Surrounding text with two apostrophes (') will display this text in italic.           |      "italic text"          | *italic text*              |
+| Surrounding text with three apostrophes (') will display this text in bold.           |       '"bold text"'         | **bold text**              |
+| Surrounding text with five apostrophes (') will display this text in bold italic      | '""bold and italic text""'  | ***bold and italic text*** |
+| Four dashes in a row will create a horizontal line.  This should be used sparingly.   |       - - - - - - - -       |        ____________        |
 
 ### Special Formatting
 
 
-| Description  | Example wiki source  |  Result   |
-|--------------|----------------------|-----------|
-| A pair of '< nowiki>' and '< /nowiki>' disables the wiki-syntax in the enclosed text.  | '''bold text''' | **bold text** 
-|     |  < nowiki>'''bold text'''< /nowiki> | '''bold text'''
-|Surround your text with '<!-- ', ' -->' and the enclosed text will not display on the wiki-page (a comment). | Comment! <!-- this is a comment which will not be shown -->  |  Comment!
+| Description                                                                                                 | Example wiki source                                          |  Result         |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|-----------------|
+| A pair of '< nowiki>' and '< /nowiki>' disables the wiki-syntax in the enclosed text.                       | '''bold text'''                                              | **bold text**   |
+|                                                                                                             |  < nowiki>'''bold text'''< /nowiki>                          | '''bold text''' |
+|Surround your text with '<!-- ', ' -->' and the enclosed text will not display on the wiki-page (a comment). | Comment! <!-- this is a comment which will not be shown -->  |  Comment!       |
 
 ### Headings and Subheadings
 
