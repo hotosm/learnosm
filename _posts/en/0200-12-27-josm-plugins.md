@@ -31,7 +31,6 @@ plugin is made to restart JOSM for you!
 
 Recommended Plug-ins:
 
-- [Restart]({{site.baseurl}}/en/beginner/josm-plugins/#restart) (inserts ´restart´ button)
 - [Mirrored Download]({{site.baseurl}}/en/beginner/josm-plugins/#mirrored-download) (allows you to download more OSM data)]
 - [Direct Upload]({{site.baseurl}}/en/beginner/josm-plugins/#direct-upload) (allow you to upload GPS tracks)]
 - [Editgpx]({{site.baseurl}}/en/beginner/josm-plugins/#edit-gpx) (allows you to edit GPX files)]
@@ -43,18 +42,6 @@ chapters:
 - Walking Papers
 - Buildings\_tool
 - Utilsplugin2
-
-Restart
--------
-
-![restart]({{site.baseurl}}/images/plugins_html_57cb1b84_en.png)
-
-__Restart__ does just what it says. It adds an item in
-the File menu that tells JOSM to restart. This can save you time when
-you are changing settings and need to restart the software often. But
-guess what! The plugin won’t be activated until you restart, so first
-you will need to restart JOSM manually. Once you have done this, you
-will see the new item on the File menu.
 
 ![]({{site.baseurl}}/images/plugins_html_m6d2d20a9_en.png)
 
@@ -109,7 +96,7 @@ Once successfully uploaded, the Text area will display an "OK" status
 and the “Upload Trace” button will not be clickable. More information
 about this plug-in and GPS uploads is available in the [Appendix]({{site.baseurl}}/learnosm/en/).
 
-edit gpx
+Edit gpx
 --------
 
 ![]({{site.baseurl}}/images/plugins_html_m1d1170b2_en.png)
