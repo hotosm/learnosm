@@ -17,6 +17,7 @@ information allows these NGOs, governments and citizens to make better
 decisions, and hopefully make our lives better. Maps can be a good way
 to convey information. 
 
+![A village in Indonesia][]
 Maps are visual symbols of our world. They can
 often demonstrate an idea better than words. This in turn can also help
 answer important questions. Where is the closest school or hospital? Who
@@ -24,14 +25,11 @@ has the least access to these facilities? Where is poverty the most
 problematic? Questions like these can often best be expressed with maps,
 and maps can help find solutions to these questions. 
 
-As an exercise, get
-a pen and paper and draw a map of your town or village. What are the
+As an exercise, get a pen and paper and draw a map of your town or village. What are the
 most important things to include on the map? What is the most important
 information? Spend a few minutes making your map, and when you’re
 finished, think about why the information you included is important, and
 who it might be important to.
-
-![A village in Indonesia][]
 
 ![Example of a hand-drawn map][]
 
@@ -54,6 +52,8 @@ is merely on paper, it is difficult to get that information to others.
 This is why making your map on a computer, in such a way that anyone can
 access it, can be much more valuable. 
 
+![Examples of symbols2][]
+
 OpenStreetMap is a tool for creating and sharing map information. 
 Anyone can contribute to OSM, and thousands of people add to the project 
 every day. Users draw maps on computers, rather than paper, but as we 
@@ -72,4 +72,5 @@ making digital maps and adding to OSM.
 [A village in Indonesia]: {{site.baseurl}}/images/en_beg_ch1_image00.png
 [Example of a hand-drawn map]: {{site.baseurl}}/images/en_beg_ch1_image01.png
 [Examples of symbols]: {{site.baseurl}}/images/en_beg_ch1_image02.png
-[Digital maps with OpenStreetMap]: {{site.baseurl}}/images/intro_osm1_en.png
+[Examples of symbols2]: {{site.baseurl}}/images/en_beg_ch1_image03.png
+[Digital maps with OpenStreetMap]: {{site.baseurl}}/images/en_beg_ch1_image04.png
