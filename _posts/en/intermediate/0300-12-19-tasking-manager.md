@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Tasking Manager
-permalink: /en/intermediate/private-data-store/
+permalink: /en/intermediate/tasking-manager/
 lang: en
 category: intermediate
 ---

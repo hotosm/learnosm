@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Editing the Wiki
-permalink: /en/intermediate/editing_the_wiki/
-lang: en
+permalink: /fr/intermediate/editing-wiki/
+lang: fr
 category: intermediate
 ---
 
