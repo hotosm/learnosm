@@ -1,563 +1,460 @@
 ---
 layout: doc
-title: Editing in detail
+title: Editer en détail
 permalink: /fr/intermediate/editing-in-detail/
 lang: fr
 category: intermediate
 ---
 
-# Editing in Detail
+# Editer en détail
 
 ## Introduction
 
-In this chapter, we will describe relations, JOSM editing tools, and editing
-techniques in greater detail.  
+Dans ce chapitre, nous allons décrire les relations, les outils d'édition JOSM, et les techniques d'édition plus en détail.
 
-> While this chapter is not extremely advanced, it is more difficult
-> than the previous chapters. If you don’t feel like you fully understand
-> the lessons leading up to this, you may wish to practice a little bit
-> more before continuing.
+> Bien que ce chapitre ne soit pas très avancé, il est plus difficile
+> que les chapitres précédents. Si vous sentez que vous n'avez pas bien compris 
+> les leçons précédentes, vous pouvez vous pratiquer un peu plus 
+> avant de continuer.
 
-Topics covered in this chapter:
+Les sujets abordés dans ce chapitre:
 
--  Editing Tools:  Tools, The Building Plugin, & shortcuts
+- Outils d'édition: Outils, le greffon Immeubles, et les raccourcis
 
--  Relations: Description & how to edit and tag them
+- Relations: Description et comment modifier et ajouter des attributs
 
--  Editing Techniques:  The Dos and Do Nots
+- Techniques d'édition: Les **Fait** et **Ne fait pas**
 
-## JOSM Editing Tools
+## Outils d'édition JOSM
 
-There are a few ways you can access more editing tools in JOSM. We will
-look more at the default tools, some plugins and then keyboard editing
-shortcuts.
+Il y a quelques façons d'accéder à des outils d'édition supplémentaires dans JOSM. Nous allons
+examiner de plus près les outils par défaut, certains greffons, puis les raccourcis clavier d'édition.
 
-### Drawing tools
+### Outils de dessin
 
-JOSM has some additional tools to make it easier to
-draw lines and shapes. These tools are found in the “Tools” menu at the
-top of JOSM.
+JOSM a des outils supplémentaires pour faciliter le tracage des lignes et des formes. Ces outils se trouvent dans le menu "Outils" au haut de JOSM.
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image12.png)
+![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image12.png)
 
-In order to apply the functions in this menu, you must first select a
-point, line or shape in the map window. Some of the most useful
-functions are described here:
+Afin d'appliquer les outils de ce menu, vous devez d'abord sélectionner un
+point, une ligne ou une forme dans la fenêtre Carte. Quelques unes des outils les plus utiles sont décrites ci-dessous:
 
-1.  Split Way: This allows you to divide a line into two separate lines.
-    This is useful if you want to add different attributes to different
-    parts of a road, such as a bridge. To use this function, select a
-    point in the middle of the line that you want to split, Select Split
-    Way from the Tools menu, and your line should be split in two.
+1. Couper un chemin: Cela vous permet de diviser une ligne en deux lignes distinctes.
+     Ceci est utile si vous souhaitez ajouter des attributs différents pour différents sections d'une route, comme un pont. Pour utiliser cet outil, sélectionnez un
+     point au milieu de la ligne que vous voulez partager, Sélectionnez **Couper le chemin** dans le menu Outils, et votre ligne sera scindée en deux.
 
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image38.png)
 
-2.  Combine Way: This does the opposite of Split Way. To combine two
-    lines into a single line, they must share a single point. To use
-    this function, select both lines that you want to combine. You can
-    select more than one object by holding the SHIFT key on your
-    keyboard and clicking on each line. When you have selected both
-    lines, select Combine Way from the Tools menu.
-
+2. Fusionner les chemins: Ceci fait le contraire de l'outil Couper un chemin. Pour combiner deux 
+     lignes en une seule, elles doivent partager un seul point. Pour utiliser
+     cet outil, sélectionnez les deux lignes que vous souhaitez combiner. Vous pouvez
+     sélectionner plus d'un objet en maintenant la touche MAJ de votre
+     clavier et en cliquant sur chaque ligne. Lorsque vous avez sélectionné les deux
+     lignes, sélectionnez **Fusionner les chemins** dans le menu Outils.
+     
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image28.png)
 
-    > If you are combining roads that have different directions, you
-    > might get this warning:
+    > Si vous tentez de fusionner des routes qui ont des directions différentes,
+    > le message d'avertissement suivant s'affichera:
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image15.png)
+    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image15.png)
 
-    If the roads are connected and go in the same direction, then choose
+    Si les routes sont connectées et ne vont pas dans la même direction, choisissez alors
     \<\<Reverse and Continue\>\>.
 
-3.  Reverse Way: This will change the direction of the line. If the line
-    incorrectly represents a river or a road that is one way, you may want
-    to change its direction.  Unless someone has intentionally created a
-    way to be one way you do not usually have to worry about altering
-    the direction because ways in OSM default to both ways.
+3.  Inverser le chemin: Cela va changer la direction de la ligne. Si la direction de cette ligne ne représente pas correctement le sens d'une rivière ou une route à sens unique, vous voudrez sans doute changer sa direction. A moins que quelqu'un aie délibérément créé un chemin avec attribut sens unique, vous n'avez généralement pas à vous soucier de modifier
+     l'instruction parce que les chemins dans OSM peuvent par défaut aller dans dans les deux sens.
      ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image26.png)
 
-4.  Simplify Way: If your line has too many points in it and you’d like
-    to make it simpler, this will remove some of the points from a line.
+4.  Simplifiez le chemin: Si votre ligne a trop de points et que vous souhaitez la simplifier, cela va enlever quelques-uns des points de la ligne.
 
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image41.png)
 
-5.  Create Circle OR Align Nodes in Circle: If you are trying to make a
-    circular shape, draw the circle as best you can and then select
-    three nodes and the function. It will help arrange your points in a
-    circle.
+5.  Créer un cercle OU aligner les nœuds en cercle: Si vous essayez de faire une forme circulaire, dessinez le cercle du mieux que vous pouvez, puis sélectionnez
+     trois noeuds et la fonction. Elle aidera à organiser vos points dans un cercle.
 
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image04.png)
 
-6.  Align Nodes in Line: This function will align a series of points
-    into a straight line.  With long lines it is best to select sections
-    of the line to straighten.  Be careful as this does have the
-    tendency to shift the line a little. ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image17.png)
+6.  Aligner les nœuds sur une ligne: Cet outil permettra d'aligner une série de points
+     sur une ligne droite. Avec de longues lignes, il est préférable de sélectionner les sections
+     de la ligne à redresser. Soyez prudent car cela a tendance à déplacer la ligne un peu.
+     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image17.png)
 
-7.  Orthogonalize Shape: This function is very useful for drawing
-    regular shapes such as buildings. After you draw an area, this
-    function will reshape it to have square corners. This feature is
-    most useful for other regularly shaped features, such as tennis
-    courts, or landuse areas. (Using the Building Plugin, which will be
-    explained below, might be easier).
+7.  Rendre une forme Orthogonale: Cette fonction est très utile pour dessiner des
+     formes régulières comme les bâtiments. Après avoir dessiné une zone, cet outil permet de la remodeler pour avoir des coins carrés. Cette outil est aussi très
+     utile pour divers objets de forme régulière, comme les tennis,
+     cours ou les zones d'utilisation du sol. (L'utilisation du greffon bâtiment, qui sera
+     expliqué ci-dessous, peut être plus facile d'utilisation).
 
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image45.png)
 
-8.  Unglue way: This tool allows you to detach nodes that are
-    connected.  
-
+8.  Décoller un chemin: Lorsque deux chemins adjacents sont connectés, cet outil vous permet de détacher les nœuds  qui sont connectés.
+     
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image59.png)
 
-    > The line and node will not actually appear separate as the last
-    > screen shot implies.
+    > La ligne et le noeud n'apparaîtront pas effectivement séparés comme la dernière  Capture d'écran l'implique.
 
-### Plugins
+### Greffons
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image25.png)
 
-A.  Building Plug-in:  This plug-in is by far one of the most useful
-tools for editing (digitizing).  This tool allows you to create shapes
-with 90 degree corners with just three clicks.  First, you trace the
-edge of your building and then you drag out the line to make it a
-polygon.  
+A.  Greffon Immeubles: Ce greffon est de loin l'un des plus utiles parmi les outils d'édition (numérisation). Cet outil vous permet de créer des formes
+avec des angles à 90 degrés avec seulement trois clics. Tout d'abord, vous tracez le
+bord de votre bâtiment, puis vous faites glisser sur la ligne pour créer un polygone.
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image58.png)![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image19.png)
 
-You can also create more complicated buildings by using the merge
-option.  Create your building outline, select all of the polygons (press
-SHIFT to highlight them all) and then hit SHIFT + J to merge the
-objects.
+Vous pouvez également créer des bâtiments plus complexes à l'aide de l'option de fusion.
+ Créez votre plan de construction, sélectionnez tous les polygones (appuyez sur MAJ pour tous les mettre en évidence) et ensuite MAJ + J pour fusionner les objets (Magique!).
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image03.png)
 
-Furthermore, you can alter the default settings (size and tagging) under
-\<\<Edit\>\> and then at the bottom “Set building size”.  
+En outre, vous pouvez modifier les paramètres par défaut (taille et attributs) à partir du menu
+\<\<Edit\>\>. Vous sélectionnez ensuite au bas du panneau “Définir la dimension de l'immeuble”.  
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image07.png)
+![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image07.png)
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image11.png)
 
-If you are dealing with similar sized buildings, you can change the
-building to a certain dimension, such as 5 x 6 meters (the unit is
-meters).  Even more, if you are mapping similar infrastructure, such as
-townhouses in the same area, then you can edit the tags to be all the
-same under the \<\<Advanced\>\> tab.
+Si vous traitez une série d'immeubles de dimension similaire, vous pouvez modifier la taille des immeubles pour une certaine dimension, soit par exemple 5 x 6 mètres (l'unité est en mètres).  Encore plus, si vous numérisez des infrastructures similaires, telles que des bungalows dans une même zone, vous pouver éditer les attributs pour être tous identiques à partir de l'onglet  \<\<Advanced\>\>.
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image13.png)![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image64.png)
+![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image13.png)![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image64.png)
 
-B. Utilsplugin2 (More Tools):  This add-on has a few features that may
-be useful for editing.  
+B. Utilsplugin2 (Plus d'outils):  Ce greffon a quelques fonctionnalités qui peuvent être utiles pour éditer.  
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image47.png)
+![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image47.png)
 
-Once you have restarted JOSM you will get a tab called \<\<More
-Tools\>\>:
+Après l'installation du greffon et le redémarrage de JOSM, l'onglet suivant sera ajouté :  \<\<More Tools\>\>:
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image24.png)
+![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image24.png)
 
-These tools have proved to be the most useful:
+Ces outils se sont révélés être les plus utiles:
 
-1.  Add Nodes at Intersections:  This tool is very helpful for adding
-    missing nodes in intersections of selected ways.  It is good
-    practice that roads and rivers should always have common nodes where
-    they intersect.
+1. Ajout de nœuds aux intersections: Cet outil est très utile pour ajouter
+     des nœuds manquants aux intersections de voies sélectionnées. Il est une bonne
+     pratique que les routes et les rivières aient toujours des nœuds communs à leur intersection.
 
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image43.png)
 
-2.  Copy Tags from Previous Selection:  This function makes copying tags
-    easier.  If you want to create many objects with the same tags,
-    first draw the objects.  Then add the tags to one object.  Click on
-    another object and press Shift + R to copy the tags from the
-    previously selected object.  You can do this for all objects that
-    you want to tag.  Remember that the tags will be copied from the
-    previously selected object, so if you click on an untagged object
-    and then another untagged object, you will not be able to copy any
-    tags.
+2. Copiez les attributs de la sélection précédente: Cette fonction facilite la copie des attributs. Si vous voulez créer plusieurs objets avec les mêmes attributs,
+     dessinez d'abord les objets. Puis ajoutez les attributs à un de ces objet. Cliquez ensuite sur un autre objet et appuyez sur Maj + R pour copier les attributs de l'objet précédemment sélectionné. Vous pouvez répéter cette opération pour tous les objets auxquels vous souhaitez ajouter les attributs. Rappelez-vous que les attributs seront copiés à partir de l'objet sélectionné précédemment. Donc, si vous cliquez sur un objet sans attribut
+     puis à nouveau sur un autre objet sans attribut, vous ne serez pas en mesure de copier des attributs!
 
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image05.png)
 
-3.  Add Source Tag: This tool simplifies adding a source tag.  It
-    remembers the source that was specified last and adds it as
-    remembered source tag to your objects.   You can insert the source
-    with just one click.  
+3. Ajouter un Attribut Source: Cet outil simplifie l'ajout d'un Attribut Source. Il
+     se souvient de la source qui a été spécifiée en dernier et il ajoute cet attribut source à vos objets. Vous pouvez insérer la source avec un seul clic.
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image63.png)
+    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image63.png)
 
-4.  Replace Geometry: This tool is great if you want to redraw a poorly
-    shaped object, but want to keep the history, attributes and ID
-    number of that object.  For example, if you come across a building
-    that is complicated and drawn in a poor fashion, then instead of
-    painfully changing each node, you can (2) just draw the object again
-    (3) select the old and new object (4) press ¨Replace Geometry¨ to
-    transfer all the information over.
+4. Remplacer la Géométrie: Cet outil est idéal si vous voulez redessiner un objet mal dessiné tout en conservant l'historique, les attributs et le ID de l'objet. Par exemple, si vous voulez redessiner un immeuble
+     qui est compliqué et mal dessiné, alors au lieu de l'opération pénible de déplacer chaque nœud, vous pouvez (2) juste dessiner à nouveau l'objet
+     (3) Sélectionnez à la fois l'objet ancien et le nouveau (4) appuyez sur ¨Remplacer la géométrie¨ pour remplacer la géométrie avec le nouvel objet et transférer tous les attributs sur ce nouvel objet.
 
-C. Utilsplugin2 (Selection):
+C. Utilsplugin2 (Sélection):
 
-And you also have access to more \<\<Selection\>\>
-tool:![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image55.png)
+Et vous avez accès à davantage de \<\<Selection\>\>
+tool:![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image55.png)
 
-These tools have proved to be the most useful:
+Ces outils se sont révélés être les plus utiles:
 
-1.  Unselect Nodes:  This tool lets you deselect nodes, which makes it
-    useful for tagging the objects selected.  This tool is necessary if
-    you have mapped several polygon objects with similar attributes and
-    would like to tag the objects without tagging the nodes.  To do so,
-    select all of the objects-- polygons, ways and relations-- unselect
-    the nodes and tag appropriately.  ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image50.png)
+1. Désélectionner les nœuds: Cet outil vous permet de désélectionner les nœuds, ce qui rend
+     utile pour ajouter des attributs des objets sélectionnés. Cet outil est nécessaire si
+     vous avez numérisé plusieurs objets polygonaux avec des attributs similaires et
+     tenez à modifier les attributs des objets sans ajouter ces attributs aux nœuds. Pour ce faire,
+     sélectionnez tous les objets - des polygones, des chemins et des relations - dé-sélectionnez
+     les nœuds et ajoutez ensuite les attributs de manière appropriée.
+     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image50.png)
 
-2.  Select Last Modified Nodes:  This tool permits you to go back to the
-    nodes that you most recently changed.  It is like undo: node style.
+2. Sélectionnez les derniers nœuds modifiés: Cet outil vous permet de revenir aux
+     nœuds qui vous avez récemment modifié. C'est comme une opération Annuler: style de nœud.
      
 
-Have fun using them!
+Amusez-vous à les utiliser!
 
 ## Relations
 
-In the Beginner’s Guide we learned that there are three types of objects
-that can be drawn in OpenStreetMap - points (nodes), lines (ways), and
-polygons.  Lines contain numerous points, and the line itself carries
-the attributes that define what it represents.  Polygons are the same as
-lines, except that the the line must finish where it begins in order to
-form a shape.
+Dans le Guide du débutant, nous avons appris qu'il y a trois types d'objets
+qui peuvent être dessinés dans OpenStreetMap - des points (nœuds), des lignes (voies), et
+des polygones. Les Lignes contiennent de nombreux points, et la ligne elle-même porte
+les attributs qui définissent ce que cet ensemble de noeuds représente. Les Polygones sont similaires aux
+lignes, à l'exception que la ligne est tracée de façon à ce qu'elle se termine là ou elle a commencé, afin de former une forme.
 
-In fact, there is one other type of object in OpenStreetMap, and these
-are called relations.  In the same way that a line consists of other
-points, a relation contains a group of other objects, be they points,
-lines, or polygons.  If you are looking to obtain advanced editing
-skills, then understanding and knowing how to properly edit relations is
-important.
+En fait, il y a un autre type d'objet dans OpenStreetMap, et celui-ci est appelé Relation. De la même manière qu'une ligne comprend une série de points, une relation contient un groupe d'autres objets, qu'il s'agisse de points,
+lignes ou des polygones. Si vous voulez développer des compétences d'édition avancée, il est important de comprendre les relations et de savoir les éditer.
 
-For example, imagine that you want to map a building that has courtyards
-in the center.  You would need to draw a polygon around the outside of
-the building, and you would want other polygons around the courtyards
-to indicate that they are not part of the building.  This is an example
-of a relation.  The relation would contain several polygons - and the
-attributes of the building would be attached to the relation, not the
-polygons.
+Par exemple, imaginez que vous souhaitez numériser un bâtiment qui a des cours, jardins dans le centre. Vous auriez besoin de dessiner un polygone à l'extérieur du
+l'immeuble, et indiquer que les polygones autour des cours ne font pas partie de l'édifice. Ceci est un exemple où s'applique une relation. La relation devrait contenir plusieurs polygones. Étant donné que c'est la relation qui définit cet immeuble, les attributs de l'immeuble devrait êtres fixés à la relation et non à chaque polygone.
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image42.png)
 
-Relations are used to represent anything that requires a collection of
-objects to define.  Other examples are bus routes (a collections of
-lines), long and complex objects (rivers or roads), or multiple polygons
-that are all part of one location (like buildings in a university).
+Les relations sont utilisées pour représenter quoi que ce soit qui nécessite de définir une collection d'objets. Différentes collections d'objets peuvent être définies avec une relation, par exemple pour des lignes de bus (une collections de lignes), des objets longs et complexes (rivières ou routes), ou des polygones multiples qui font tous partie du même endroit (comme les bâtiments d'une université).
 
-There are mainly four types of relations you will encounter in OSM:
-Multipolygons, Routes, Boundaries, and Restrictions (such as, no left
-turns).  In this section we will go over Multipolygons and Routes.
+Il existe principalement quatre types de relations que vous rencontrerez dans OSM:
+Multipolygones, Routes, Frontières, et restrictions (telles que, pas de virage à gauche). Dans cette section, nous allons passer en revue les multipolygones et Routes.
 
-A. Editing Relations: The multipolygon above contains a polygon for the
-outer limits of the building and two more to mark the inner courtyards.
-To create a relation from these three polygons you need to:
+A. Éditer les Relations: Le multipolygone ci-dessus contient un polygone pour les
+limites extérieures du bâtiment et deux autres pour marquer les cours intérieures.
+Pour créer une relation avec ces trois polygones, vous devez:
 
-1. Select all of the polygons.
+1. Sélectionnez tous les polygones.
 
-2.  Go to ¨Tools¨ and near the bottom ¨Multi-polygon¨
-
+2. Aller à ¨Outils¨ et près du bas ¨multi-polygone¨
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image49.png)
 
-3. The polygons should automatically be created as a multi-polygon.  
+3. Les polygones doivent automatiquement être créé en tant que multi-polygone.
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image14.png)
+     ! [] ({{}} site.baseurl / images/intermediate/fr_edit_in_detail_image14.png)
 
-You will then see your building as a a solid shape with the inner
-polygons represented with gaps. The data behind the relation in this
-example is visible on OpenStreetMap:
-[http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
- The building is rendered by Mapnik as in this image:
+Vous verrez alors votre bâtiment représenté avec une surface solide et les polygones intérieurs représentés avec des vides. Les données sous-jacentes de la relation dans cet
+exemple sont visibles sur OpenStreetMap:[http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
+Le bâtiment est rendu par Mapnik comme sur cette image:
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image00.png)
 
 [OSM Wiki: Relation:
-MultiPolygon](http://wiki.openstreetmap.org/wiki/Relation:multipolygon#One_outer_and_one_inner_ring)
+MultiPolygon](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_anneau_externe_et_un_anneau_interne)
 
-B.  Another MultiPolygon
+B. Une autre MultiPolygon
 
-This river is another example of a multiploygon. Effectively it is the
-same as the building example, but with a greater number of members and
-covering a much larger area. It can be viewed on the OpenStreetMap site
-here:
+Cette rivière est un autre exemple de multipolygone. En effet, il est similaire à l'exemple d'immeuble, mais avec un plus grand nombre de membres et
+couvrant une superficie beaucoup plus grande. Il peut être consulté sur le site OpenStreetMap
+ici:
 [http://www.openstreetmap.org/browse/relation/1046961](http://www.openstreetmap.org/browse/relation/1046961.).
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image61.png)![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image23.png)
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image61.png)![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image23.png)
 
-This river contains ten ways that are connected like a long polygon.  
+Cette rivière contient dix lignes qui sont connectées comme un long polygone.
 
-C.  Linestring Relations
+C. Relations de Lignes
 
-Relations are also very useful for creating, labeling and editing large
-linestrings; for example, bus routes, hiking trails, bicycle paths, etc.
- These differ from multipolygons because they are relations with
-members, as supposed to complex areas.  A linestring could simply be one
-line with multiple members, these can be tagged as such. Additional
-features, such as bus stops represented by separate nodes can also be
-tagged as relation members.
-
+Les relations sont également très utiles pour la création, l'étiquetage et l'édition de longues lignes, par exemple, des lignes de bus, des sentiers pédestres, des pistes cyclables, etc.
+  Elles se distinguent des multipolygones parce qu'elles sont les relations avec des
+membres, contrairement aux multipolygones complexes. Une relation de lignes pourrait simplement être une
+ligne avec plusieurs membres, ceux-ci étant intégrés dans la relation comme tels. Des
+caractéristiques supplémentaires, comme les arrêts de bus représentés par des nœuds distincts peuvent également être intégrés en tant que membres de la relation.
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image27.png)![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image37.png)
 
-1.  Make sure that all of the ways in which the route runs along are
-    appropriately tagged.  For example, highway= footway.
+1. Assurez-vous que tous les chemins par lesquels la route passe ont les bons attributs. Par exemple, highway= footway.
 
-2.  Select all of the highways or ways that the bus takes.    If you
-    would only like to select certain parts of the way, then, sadly, you
-    must divide the way into the section you would like to select.  This
-    creates more work, but you can easily do it with the  ¨Split Way¨
-    tool.  Once some or all of the ways are selected, click Edit in the
-    relation panel.  The relation editing dialog will pop up.  
+2. Sélectionnez toutes les routes ou chemins que prend le bus. Si vous
+     voulez seulement sélectionner certaines parties du chemin, là, malheureusement, vous
+     devrez diviser le chemin dans la section que vous souhaitez sélectionner. Cela
+     crée plus de travail, mais vous pouvez facilement le faire avec l'outil ¨Couper le chemin¨. Une fois que tous ou une partie des chemins sont sélectionnés, cliquez sur *Modifier* dans le panneau d'édition de Relation. La boîte de dialogue d'Édition de Relation apparaîtra.
 
-3.  Go to the Presets Menu and down at the bottom click ¨Public
-    Transport¨ and then ¨Route¨ or ¨Route Master¨.   Route master is the
-    main route that a bus takes, while route is a variant path of the
-    bus.  
-
+3. Allez dans le menu *Attributs* et
+    sélectionnez successivement dans le menu déroulant : *Transport*, puis *Transport Public*, puis *Public transport route* ou *Itinéraire maitre*. L'Itinéraire maitre est l'itinéraire principal, tandis que la route est une variante de l'itinéraire du bus.
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image54.png)
 
-4.  Fill in the corresponding information about the bus route.  
+4. Remplissez les informations correspondantes relativement à la ligne de bus.
 
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image60.png)
 
-Relations are difficult to understand and do not have to be used often,
-but they are necessary to know about.  As you get more developed with
-your OSM skills and want to create more complex building, river and
-routes, relations will be useful.
+Les relations sont parfois difficiles à comprendre et n'ont pas nécessairement à être utilisées souvent. Il est cependant important de les connaitre.  À mesure que vous développez vos compétences avec OSM et voulez créer des objets plus complexes, soit par exemple les immeubles, rivières et routes, les relations seront utiles.
 
-## Editing Techniques: The Dos and Do Nots
+## Techniques d'édition : Les **Fait** et **Ne fait pas**
 
-In this section we will go over some common mistakes in JOSM and provide
-some editing tips to make your work more efficient  in JOSM ! 
+Dans cette section, nous couvrirons quelques erreurs communes dans JOSM et fournirons quelques trucs d'édition pour rendre votre travail dans JOSM plus efficient !
 
-A. Some Objects Should Not Connect
+A. Certains objets ne doivent pas être connectés
 
-When you are creating polygons and lines that are not supposed to be
-connected, make sure that they are not merged together by sharing a
-node.  For example, highway nodes should not be snapped to buildings,
-because no one likes a road that leads directly into a wall!  If you
-want to disentangle two or more objects that share the same node, select
-the node and press \<\<G\>\>.  
+Lorsque vous créez des polygones et des lignes qui ne sont pas censés être
+connectés, assurez-vous qu'ils ne sont pas fusionnés ensemble en partageant un
+nœud. Par exemple, les nœuds routiers ne doivent pas être accrochés aux bâtiments,
+parce que personne n'aime une route qui mène directement dans un mur! Si vous
+voulez démêler deux ou plusieurs objets qui partagent le même nœud, sélectionnez
+le nœud, puis appuyez sur \<\<G\>\>.  
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image32.png)  ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image62.png)
 
-But, Some Objects Should Connect
+Mais, certains objets doivent se connecter
 
-However, some objects SHOULD connect!  Road intersections should
-always be snapped together.  If two roads do not share a common node,
-then the computer has no way of knowing that the roads actually connect
-to each other.
+Toutefois, certains objets doivent toujours se connecter! Les Intersections de routes devraient
+toujours être connectées. Si deux routes ne partagent pas un noeud commun, alors les outils de navigation n'ont aucun moyen de savoir que les routes se connectent une à l'autre.
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image20.png)
 
-B. Overlapping Objects
+B. Chevauchement des objets
 
-A common error is to have overlapping polygons when the objects they
-represent do not overlap in real life.  A building cannot overlap
-another building.  This mistake is commonly made with buildings and
-landuse polygons.  For example, a polygon drawn to represent a park
-outside a building should not overlap with the building.  Instead it
-should be drawn next to the building.
+Une erreur courante est de faire chevaucher des polygones lorsque les objets qu'ils
+représentent ne se chevauchent pas dans la vraie vie. Un bâtiment ne peut pas chevaucher
+un autre bâtiment. Cette erreur est souvent faite avec des bâtiments et les polygones
+LANDUSE. Par exemple, un polygone dessiné pour représenter un parc
+à l'extérieur d'un bâtiment ne doit pas se chevaucher avec le bâtiment. Au contraire, il
+doit être aligné à côté du bâtiment.
 
-There are some exceptions to this rule, such as schools.  Within a
-school yard you might identify individual buildings using polygons, yet
-you also might want to create a polygon around the entire school yard.
- In this case it is fine for the polygons to overlap, but the rule to
-follow here is to make sure that the buildings are completely inside the
-landuse polygon.
+Il y a quelques exceptions à cette règle, comme les écoles. Dans une
+cour d'école, vous pourriez identifier les bâtiments individuels en utilisant des polygones.
+Vous pourriez également vouloir créer un polygone autour de la cour de l'école tout entière.
+  Dans ce cas, il est acceptable que les polygones se chevauchent, mais la règle à
+suivre ici est de s'assurer que les bâtiments sont complètement à l'intérieur du
+polygone LANDUSE.
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image46.png)  ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image18.png)
 
-We all make mistakes, and as you map more you will make less mistakes!
- Just remember that even if you upload data that contains mistakes, it
-is simple to fix your mistakes and upload the change again.  This is
-what is great about OSM: you can always make it better!
+Nous faisons tous des erreurs, et plus vous tracerez des objets, moins vous ferez d'erreurs!
+  N'oubliez pas que même si vous téléchargez des données qui contiennent des erreurs, il
+est simple à corriger vos erreurs et de télécharger les modifications. C'est
+ce qui est formidable à propos OSM: vous pouvez toujours faire mieux!
 
-C.  Tracing Correctly
+C. Tracer correctement
 
-OSM can do amazing things with identifying where objects end and
-what labels these objects should have; however, it needs your help in
-doing so.  For example, if you create a road that turns into another
-road without a distinct node, then JOSM will continue labeling the road
-as the previous one.  Therefore, it is necessary that you make all of
-your roads and objects as clearly and rigid as possible.  
+OSM peut faire des choses étonnantes en déterminant où les objets se terminent et quels attributs ils devraient avoir, mais il a besoin de votre aide pour le
+faire. Par exemple, si vous créez une route qui se transforme en une autre
+route sans un nœud distinct, puis JOSM conservera les attributs précédents pour cette route. Par conséquent, il est nécessaire que vous fassiez en autant que possible tous vos objets et routes de façon claire et rigide.
 
 ^[[a]](#cmnt1)^
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image57.png)
 
-We will end this chapter with this gift:
+Nous terminerons ce chapitre avec ce cadeau:
 
--  ROTATE OBJECT: If you hold the SHIFT + CTRL and drag your mouse
-    click, you can rotate the selected objects.  
+- PIVOTERE UN OBJET: Si vous maintenez la touche MAJ + CTRL enfoncée et faites glisser votre souris, bouton enfoncé, vous pouvez faire pivoter les objets sélectionnés.  
 
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image31.png)
 
 
-## Summary
+## Résumé
 
-As you can see there are many additional features that make JOSM a
-powerful tool for making maps. Remember that the more you practice with
-these tools, the better you will become at adding information to
-OpenStreetMap.
+Comme vous pouvez le voir, il y a de nombreuses fonctionnalités supplémentaires qui rendent JOSM un outil puissant pour faire des cartes. Rappelez-vous que plus vous pratiquez avec
+ces outils, le meilleur vous réussirez à ajouter des informations à OpenStreetMap.
 
-## Appendix
+## Annexe 
 
-### Keyboard Shortcuts
+### Raccourcis clavier
 
-Sometimes it can be annoying to click over and over to select different
-options and menus in JOSM. Luckily there are shortcut keys on the
-keyboard that allow you to do many common tasks (I highly recommend the
-DEL shortcut).  Here is a list of some of the most commonly used
-shortcut keys, along with what they do:
-
+Parfois, il peut être gênant de cliquer à plusieurs reprises pour sélectionner différents
+options et menus successifs dans JOSM. Heureusement, il y a des touches de raccourci sur le clavier qui simplifient votre travail et vous permettent de faire de nombreuses tâches courantes (nous recommandons fortement le
+raccourci DEL). Voici une liste de quelques-unes des touches raccourcis les plus couramment utilisées, ainsi que ce qu'elles font:
         
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image10.png)Chooses the Select tool
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image10.png)Choisir un outil de sélection
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image08.png)Deletes Selected Object
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image08.png)Effacer les objets sélectionnés
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image30.png)Chooses the Draw Tool
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image30.png)Choisir un outil de dessin
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image36.png)Chooses the Zoom tool
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image36.png)Choisir l'outil de zoom
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image21.png)Zoom In
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image21.png)Zoom +
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image09.png)Zoom Out
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image09.png)Zoom -
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image01.png)Split Way
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image01.png)Couper un chemin
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image34.png)Combine Ways
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image34.png)Fusionner des chemins
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image29.png)Align in Circle
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image29.png)Aligner en cercle
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image53.png)Align in line
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image53.png)Aligner sur une ligne
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image40.png)Orthogonalize (make a shape square)
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image40.png)Orthogonaliser (créer une forme carrée)
 
-### More information on the \<\<Selection\>\> Tools.  All of this
-information was taken from
+### Plus d'information sur les outils de \<\<Selection\>\>.  Cette information provient de : 
 [http://wiki.openstreetmap.org/wiki/JOSM/Plugins/utilsplugin2](http://wiki.openstreetmap.org/wiki/JOSM/Plugins/utilsplugin2).
  
 
-A. Select adjacent nodes (E):  Selects neighbours of already selected
-nodes. Remembers active ways when used first and fills them before
-advancing to other ways.  If some ways are already selected, we only use
-them to advance selection.  If only ways are selected, its nodes are
-selected instead.
+A. Sélection des noeuds adjacents (e): Sélectionne les nœuds voisins de nœuds ou de chemins déjà sélectionnés. La sélection s'étend chaque fois que l'outil est relancé
+Cas 1 : un ou plusieurs nœuds sont sélectionnés.
+L'outil sélectionne les nœuds adjacents en prenant d'abord en compte les nœuds appartenant au(x) même(s) chemins, avant de continuer sur les nœuds d'autres chemins.
+
+Cas 2 : un ou des nœuds et un ou plusieurs chemins sont sélectionnés.
+La sélection et sa progression à chaque relance de l'outil se restreint aux chemins sélectionnés au départ.
+
+Cas 3 : seulement un ou des chemins sont sélectionnés (pas de nœuds)
+L'outil va sélectionner uniquement les noeuds et désélectionner les chemins.
+
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image52.png)
 
-Example of usage: select one node (and possibly its way), press E (3
-nodes are selected now), press L to put the node on straight line.
 
-B. Select adjacent ways (Shift-E):  If some ways or nodes are selected,
-selects adjacent ways (non-recursively).
+B. Chemins adjacents (Maj + E): Si certains chemins ou nœuds sont sélectionnés, l'outil 
+sélectionne les chemins adjacents. Chaque relance de l'outil sélectionne des chemins supplémentaires.
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image33.png)
 
-C. Select all connected ways (Crtl-Shift-E): If some ways or nodes are
-selected, selects adjacent ways recursively (as a result, all connected
-ways are selected).
+C. Tous les chemins connectés (Ctrl-Shift-E): Si certains chemins ou nœuds sont
+sélectionnés, l'outil sélectionne tous les chemins connectés.
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image51.png)
 
-D. Select intersecting ways (I): If some ways are selected, adds
-intersecting ways to selection. Iseful with function Add nodes at
-intersections.
+D. Chemins s'entrecoupant (I): Si certains chemins sont sélectionnés, l'outil ajoute les chemins qui les intersectent à la sélection.
+Est utile avec l'outil Ajouter des nœuds aux intersections.
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image39.png)
 
-E. Select all intersecting ways (Crtl-Shift-I): If some ways are
-selected, selects all adjacent and intersecting ways recursively. Useful
-for selecting parts of the building to join.
+E. Tous les chemins s'entrecoupant (Ctrl + pavé numérique *): Si certains chemins sont sélectionnés, l'outil sélectionne de manière récursive tous les chemins s'interconnectant à partir de la sélection de départ. 
+Utile pour sélectionner les différentes parties d'un bâtiment à fusionner. 
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image16.png)
 
-### Relation Details
+### Précisions à propos des relations
 
-Every object within a relation is tagged as having a role and these
-roles define what each object does within a relation.  So in this
-example, the polygon around the outside of the building would be given
-the role outer to indicate that is on the outside, and the interior
-polygon(s) are given the role inner to indicate that they are holes
-inside the polygon.
+Chaque objet dans une relation est étiqueté comme ayant un **rôle** et ces
+rôles définissent ce que chaque objet fait au sein d'une relation. Ainsi, par exemple, le polygone autour de l'extérieur du bâtiment se voit attribuer
+le rôle **outer** (externe) pour indiquer qu'il est à l'extérieur, et le(s) polygone(s) intérieur(s) se voit attribuer
+le rôle **inner** qui indique qu'ils sont des trous à l'intérieur du bâtiment.
 
-A. A more Complex way of Multi-Polygon Relations: The multipolygon above
-contains a polygon for the outer limits of the building and two more to
-mark the inner courtyards. To create a relation from these three
-polygons you need to:
+A. La relation multi-polygone : 
+Exemple d'un bâtiment avec deux cours intérieures. Pour créer une relation entre le polygone des limites extérieures et les deux polygones délimitant les cours intérieures, il faut :
 
-1. Use the select tool to drag a box around all three polygons to
-    select them all at once.
+1. Utilisez l'outil de sélection pour dessiner un cadre autour de ces trois polygones et les sélectionner tous à la fois.
+     
+2.  Cliquez sur le menu Attributs, Relations, Multipolygone.
 
-2.  Click \<\<Presets\>\> \<\<Relations\>\> \<\<Multipolygon\>\>.
+    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_new_relation_button.png)
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image56.png)
+3.  Cliquez sur le bouton “Nouvelle relation”
 
-3.  Click “New relation”
+    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_relation_properties.png)
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image35.png)
+4.  S'ouvre alors la fenêtre des propriétés de la relation :
 
-4.  You will then be presented with the relation properties window:
+    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_relation_properties.png)
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image02.png)
+La partie la plus importante se trouve en haut de la fenêtre avec un tableau de lignes d'attributs.
 
-    There is a large amount of data presented here, but most of it can be
-    ignored for now. The important aspects in this window are the tag lines
-    on top.  
+    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_relation_properties_tag_lines.png)
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image22.png)
+     quelque chose d'unique à leur sujet, telles que les sources de données différentes.
+5. C'est dans ce tableau qu'il faut ajouter les attibuts (tags) pour la relation. Les chemins n'ont pas besoin d'être étiquetés individuellement, à moins qu'il n'y ait quelque chose de spécifique, comme différentes sources de données.
 
-5.  In these tag lines on top, in the Key/Value table, add the tags for
-    the relation. The actual ways do not need to be tagged unless there is
-    something unique about them, such as different data sources.
-
-6.  Next, you need to define the roles within your relation; for a
-    multipolygon you need to define the outer and the inner ways.
-    Essentially, JOSM needs to know which polygons are the outer layer and
-    which ones are the inner layers so that it can determine which area is
-    the multipolygon.  Select the ways that are the courtyards and mark them
-    as the two inners and the building line with the outer role:
-
+6. Ensuite, vous devez définir les rôles au sein de votre relation; pour un
+     multipolygone vous devez définir les chemins extérieurs et intérieurs.
+     En fait, JOSM a besoin de savoir quels sont les polygones qui délimitent la partie externe et
+     ceux qui délimitent la partie interne de manière à pouvoir déterminer quelle surface consitue le multipolygone. Sélectionnez les chemins qui délimitent les cours intérieures et inscrivez "inner" dans la case de leur rôle, puis sélectionnez la partie externe et marquez "outer" dans la case de son rôle.
+     
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image44.png)
 
-7.  Click “OK” and the box will close. You will then see your building
-    as a a solid shape with the inner polygons represented with gaps. The
-    data behind the relation in this example is visible on OpenStreetMap:
+7. Cliquez sur "OK" et la fenêtre se ferme. Vous verrez alors votre bâtiment comme une forme solide avec les polygones intérieurs formant des trous. La
+     donnée illustrant la relation dans cet exemple est visible sur OpenStreetMap:
     [http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
-    The building is rendered by Mapnik as in this image:
+Le bâtiment est rendu dans Mapnik comme sur cette image:
 
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image00.png)
 
 [OSM Wiki: Relation:
-MultiPolygon](http://wiki.openstreetmap.org/wiki/Relation:multipolygon#One_outer_and_one_inner_ring)
+MultiPolygone](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_anneau_externe_et_un_anneau_interne)
 
-B. River Relation:  This example of a river requires you to create the outer
-and inner banks, as well as the area covering inside.  The inner and
-outer banks were drawn and then connected and labeled as a relation.  As
-you can see below there is only one way that is an OUTER member because
-it is the only outer polygon drawn.  All other polygons represent inner
-members-- either branches of the river or holes in the polygon.
-
-Bus Station Relation: Unlike inner and outer, the roles that these
-members play in a relation will be forward, backward or stop.  Stop
-corresponds to where there is a bus stop and forward/backward correspond
-to the direction the bus goes along the road.  
+B. Relation cours d'eau : l'exemple d'un cours d'eau nécessite que vous créiez les berges internes et externes, de même que la surface d'eau à l'intérieur. Les berges internes et externes ont été dessinées, puis connectées et étiquetées comme relation. Comme vous pouvez le voir ci-dessous, il n'y a qu'un seul chemin qui possède un rôle "outer" car c'est le seul polygone externe dessiné. 
+Tous les autres polygones représentent des parties internes, soit des embranchements de la rivière, soit des trous dans le multi-polygone.
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image48.png)
 
-1.  Make sure that all of the ways in which the route runs along are
-    appropriately tagged.  For example, highway=footway.
+Relation arrêt d'un itinéraire : ici les rôles que les membres jouent dans la relation ne sont pas inner/outer, mais "forward" (en avant), "backward" (en arrière) ou "stop" (arrêter). Stop
+correspond à l'endroit où il y a un arrêt et forward/backward correspondent à la direction que prend le moyen de transport le long de l'itinéraire.
 
-2.  Open the relation panel (Alt + R) and select New in the relation
-    panel to create a new relation.  
+![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_relation_river_properties.png)
 
-3.  Enter in the proper tags in the new dialog box.  For this bus route,
-    it is type=route and name=Route 5.
+1.  Assurez-vous que tous les chemins que suit l'itinéraire sont étiquetés de manière appropriée. Par exemple, highway=footway.
 
-4.  Click OK.
+2.  Ouvrez le panneau des relations (Alt + Maj + R) et cliquez sur le bouton "+" dans le panneau pour céer une nouvelle relation.  
 
-5.  Select all of the highways or ways that the bus takes.    If you
-    would only like to select certain parts of the way, then, sadly, you
-    must divide the way into the section you would like to select.  This
-    creates more work, but you can easily do it with the  \<\<Split Way\>\>
-    tool.  Once some or all of the ways are selected, click \<\<Edit\>\> in
-    the relation panel.  The relation editing dialog will pop up.  
+3.  Saisissez les bons attributs dans la fenêtre.  Pour un itinéaire routier (exemple : ligne de bus appelée Route 5), il s'agit de type=route et name=Route 5.
 
-6. Click Add selection in that dialog box to add those selected ways.  
+4.  Cliquez sur "OK".
+
+5.  Sélectionnez tous les voies et chemins pris par le moyen de transport (exemple : le bus). Si vous voulez sélectionner seulement certaines parties d'un chemin, vous devez malheureusement le diviser pour obtenir la section voulue. Cela ajoute une tâche supplémentaire, mais cela peut être fait facilement avec l'outil "Couper le chemin".
+    Une fois que tous les chemins ou certains d'entre eux sont sélectionnés, cliquez sur le bouton "Modifiez la relation dans l'éditeur de relation" dans le panneau des relations. La fenêtre des propriétés de la relation s'ouvre alors.  
+
+6. Cliquez sur l'un des boutons "Ajouter les objets avant le premier membre" ou "Ajouter les objets après le dernier membre" pour ajouter les chemins sélectionnés à la relation existante.  
