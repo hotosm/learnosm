@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Editer en détail
+title: Edition avancée
 permalink: /fr/intermediate/editing-in-detail/
 lang: fr
 category: intermediate
 ---
 
-# Editer en détail
+# Edition avancée
 
 ## Introduction
 
@@ -51,7 +51,7 @@ point, une ligne ou une forme dans la fenêtre Carte. Quelques unes des outils l
      sélectionner plus d'un objet en maintenant la touche MAJ de votre
      clavier et en cliquant sur chaque ligne. Lorsque vous avez sélectionné les deux
      lignes, sélectionnez **Fusionner les chemins** dans le menu Outils.
-     
+      
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image28.png)
 
     > Si vous tentez de fusionner des routes qui ont des directions différentes,
@@ -78,7 +78,7 @@ point, une ligne ou une forme dans la fenêtre Carte. Quelques unes des outils l
 6.  Aligner les nœuds sur une ligne: Cet outil permettra d'aligner une série de points
      sur une ligne droite. Avec de longues lignes, il est préférable de sélectionner les sections
      de la ligne à redresser. Soyez prudent car cela a tendance à déplacer la ligne un peu.
-     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image17.png)
+	 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image17.png)
 
 7.  Rendre une forme Orthogonale: Cette fonction est très utile pour dessiner des
      formes régulières comme les bâtiments. Après avoir dessiné une zone, cet outil permet de la remodeler pour avoir des coins carrés. Cette outil est aussi très
@@ -89,7 +89,7 @@ point, une ligne ou une forme dans la fenêtre Carte. Quelques unes des outils l
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image45.png)
 
 8.  Décoller un chemin: Lorsque deux chemins adjacents sont connectés, cet outil vous permet de détacher les nœuds  qui sont connectés.
-     
+	 
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image59.png)
 
     > La ligne et le noeud n'apparaîtront pas effectivement séparés comme la dernière  Capture d'écran l'implique.
@@ -164,7 +164,7 @@ Ces outils se sont révélés être les plus utiles:
      tenez à modifier les attributs des objets sans ajouter ces attributs aux nœuds. Pour ce faire,
      sélectionnez tous les objets - des polygones, des chemins et des relations - dé-sélectionnez
      les nœuds et ajoutez ensuite les attributs de manière appropriée.
-     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image50.png)
+	 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image50.png)
 
 2. Sélectionnez les derniers nœuds modifiés: Cet outil vous permet de revenir aux
      nœuds qui vous avez récemment modifié. C'est comme une opération Annuler: style de nœud.
@@ -243,7 +243,7 @@ caractéristiques supplémentaires, comme les arrêts de bus représentés par d
      crée plus de travail, mais vous pouvez facilement le faire avec l'outil ¨Couper le chemin¨. Une fois que tous ou une partie des chemins sont sélectionnés, cliquez sur *Modifier* dans le panneau d'édition de Relation. La boîte de dialogue d'Édition de Relation apparaîtra.
 
 3. Allez dans le menu *Attributs* et
-    sélectionnez successivement dans le menu déroulant : *Transport*, puis *Transport Public*, puis *Public transport route* ou *Itinéraire maitre*. L'Itinéraire maitre est l'itinéraire principal, tandis que la route est une variante de l'itinéraire du bus.
+	sélectionnez successivement dans le menu déroulant : *Transport*, puis *Transport Public*, puis *Public transport route* ou *Itinéraire maitre*. L'Itinéraire maitre est l'itinéraire principal, tandis que la route est une variante de l'itinéraire du bus.
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image54.png)
 
 4. Remplissez les informations correspondantes relativement à la ligne de bus.
@@ -399,32 +399,34 @@ A. La relation multi-polygone :
 Exemple d'un bâtiment avec deux cours intérieures. Pour créer une relation entre le polygone des limites extérieures et les deux polygones délimitant les cours intérieures, il faut :
 
 1. Utilisez l'outil de sélection pour dessiner un cadre autour de ces trois polygones et les sélectionner tous à la fois.
-     
-2.  Cliquez sur le menu Attributs, Relations, Multipolygone.
+	 
+2.  Cliquez sur l\<\<Attributs\>\> \<\<Relations\>\> \<\<Multipolygone\>\>.
 
-    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_new_relation_button.png)
+    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image56.png)
+
 
 3.  Cliquez sur le bouton “Nouvelle relation”
 
-    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_relation_properties.png)
+    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image35.png)
+
 
 4.  S'ouvre alors la fenêtre des propriétés de la relation :
 
-    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_relation_properties.png)
+    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image02.png)
 
-La partie la plus importante se trouve en haut de la fenêtre avec un tableau de lignes d'attributs.
 
-    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_relation_properties_tag_lines.png)
+La partie la plus importante se trouve en haut de la fenêtre avec un tableau de lignes d'attributs. Le reste peut être ignoré.
 
-     quelque chose d'unique à leur sujet, telles que les sources de données différentes.
+    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image22.png)
+
 5. C'est dans ce tableau qu'il faut ajouter les attibuts (tags) pour la relation. Les chemins n'ont pas besoin d'être étiquetés individuellement, à moins qu'il n'y ait quelque chose de spécifique, comme différentes sources de données.
 
 6. Ensuite, vous devez définir les rôles au sein de votre relation; pour un
      multipolygone vous devez définir les chemins extérieurs et intérieurs.
      En fait, JOSM a besoin de savoir quels sont les polygones qui délimitent la partie externe et
      ceux qui délimitent la partie interne de manière à pouvoir déterminer quelle surface consitue le multipolygone. Sélectionnez les chemins qui délimitent les cours intérieures et inscrivez "inner" dans la case de leur rôle, puis sélectionnez la partie externe et marquez "outer" dans la case de son rôle.
-     
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image44.png)
+	 
+    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image44.png)
 
 7. Cliquez sur "OK" et la fenêtre se ferme. Vous verrez alors votre bâtiment comme une forme solide avec les polygones intérieurs formant des trous. La
      donnée illustrant la relation dans cet exemple est visible sur OpenStreetMap:
@@ -443,8 +445,6 @@ Tous les autres polygones représentent des parties internes, soit des embranche
 
 Relation arrêt d'un itinéraire : ici les rôles que les membres jouent dans la relation ne sont pas inner/outer, mais "forward" (en avant), "backward" (en arrière) ou "stop" (arrêter). Stop
 correspond à l'endroit où il y a un arrêt et forward/backward correspondent à la direction que prend le moyen de transport le long de l'itinéraire.
-
-![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_relation_river_properties.png)
 
 1.  Assurez-vous que tous les chemins que suit l'itinéraire sont étiquetés de manière appropriée. Par exemple, highway=footway.
 
