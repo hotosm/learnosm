@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Edition avancée
+title: Edition avancée (JOSM)
 permalink: /fr/intermediate/editing-in-detail/
 lang: fr
 category: intermediate
