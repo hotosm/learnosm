@@ -19,15 +19,15 @@ Dans ce chapitre, nous allons décrire les relations, les outils d'édition JOSM
 
 Les sujets abordés dans ce chapitre :
 
-- Outils d'édition: Outils, le greffon Immeubles, et les raccourcis
+- Outils d'édition : Outils, le greffon Immeubles, et les raccourcis
 
-- Relations: Description et comment modifier et ajouter des attributs
+- Relations : Description et comment modifier et ajouter des attributs
 
-- Techniques d'édition: Les **A faire** et **Ne pas faire**
+- Techniques d'édition : Les **A faire** et **Ne pas faire**
 
 ## Outils d'édition JOSM
 
-Il y a quelques façons d'accéder à des outils d'édition supplémentaires dans JOSM. Nous allons
+Il y a plusieurs manières d'accéder à des outils d'édition supplémentaires dans JOSM. Nous allons
 examiner de plus près les outils par défaut, certains greffons, puis les raccourcis clavier d'édition.
 
 ### Outils de dessin
