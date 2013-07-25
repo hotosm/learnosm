@@ -60,7 +60,7 @@ point, une ligne ou une forme dans la fenêtre Carte. Quelques unes des outils l
     ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image15.png)
 
     Si les routes sont connectées et ne vont pas dans la même direction, choisissez alors
-    \<\<Reverse and Continue\>\>.
+    «Reverse and Continue».
 
 3.  Inverser le chemin: Cela va changer la direction de la ligne. Si la direction de cette ligne ne représente pas correctement le sens d'une rivière ou une route à sens unique, vous voudrez sans doute changer sa direction. A moins que quelqu'un aie délibérément créé un chemin avec attribut sens unique, vous n'avez généralement pas à vous soucier de modifier
      l'instruction parce que les chemins dans OSM peuvent par défaut aller dans dans les deux sens.
@@ -110,13 +110,13 @@ Vous pouvez également créer des bâtiments plus complexes à l'aide de l'optio
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image03.png)
 
 En outre, vous pouvez modifier les paramètres par défaut (taille et attributs) à partir du menu
-\<\<Edit\>\>. Vous sélectionnez ensuite au bas du panneau “Définir la dimension de l'immeuble”.  
+«Edit». Vous sélectionnez ensuite au bas du panneau “Définir la dimension de l'immeuble”.  
 
 ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image07.png)
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image11.png)
 
-Si vous traitez une série d'immeubles de dimension similaire, vous pouvez modifier la taille des immeubles pour une certaine dimension, soit par exemple 5 x 6 mètres (l'unité est en mètres).  Encore plus, si vous numérisez des infrastructures similaires, telles que des bungalows dans une même zone, vous pouver éditer les attributs pour être tous identiques à partir de l'onglet  \<\<Advanced\>\>.
+Si vous traitez une série d'immeubles de dimension similaire, vous pouvez modifier la taille des immeubles pour une certaine dimension, soit par exemple 5 x 6 mètres (l'unité est en mètres).  Encore plus, si vous numérisez des infrastructures similaires, telles que des bungalows dans une même zone, vous pouver éditer les attributs pour être tous identiques à partir de l'onglet  «Advanced».
 
 ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image13.png)![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image64.png)
 
@@ -124,7 +124,7 @@ B. Utilsplugin2 (Plus d'outils):  Ce greffon a quelques fonctionnalités qui peu
 
 ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image47.png)
 
-Après l'installation du greffon et le redémarrage de JOSM, l'onglet suivant sera ajouté :  \<\<More Tools\>\>:
+Après l'installation du greffon et le redémarrage de JOSM, l'onglet suivant sera ajouté :  «More Tools»:
 
 ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image24.png)
 
@@ -153,7 +153,7 @@ Ces outils se sont révélés être les plus utiles:
 
 C. Utilsplugin2 (Sélection):
 
-Et vous avez accès à davantage de \<\<Selection\>\>
+Et vous avez accès à davantage de «Selection»
 tool:![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image55.png)
 
 Ces outils se sont révélés être les plus utiles:
@@ -263,7 +263,7 @@ connectés, assurez-vous qu'ils ne sont pas fusionnés ensemble en partageant un
 nœud. Par exemple, les nœuds routiers ne doivent pas être accrochés aux bâtiments,
 parce que personne n'aime une route qui mène directement dans un mur! Si vous
 voulez démêler deux ou plusieurs objets qui partagent le même nœud, sélectionnez
-le nœud, puis appuyez sur \<\<G\>\>.  
+le nœud, puis appuyez sur «G».  
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image32.png)  ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image62.png)
 
@@ -350,7 +350,7 @@ raccourci DEL). Voici une liste de quelques-unes des touches raccourcis les plus
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image40.png)Orthogonaliser (créer une forme carrée)
 
-### Plus d'information sur les outils de \<\<Selection\>\>.  Cette information provient de : 
+### Plus d'information sur les outils de «Selection».  Cette information provient de : 
 [http://wiki.openstreetmap.org/wiki/JOSM/Plugins/utilsplugin2](http://wiki.openstreetmap.org/wiki/JOSM/Plugins/utilsplugin2).
  
 
@@ -400,7 +400,7 @@ Exemple d'un bâtiment avec deux cours intérieures. Pour créer une relation en
 
 1. Utilisez l'outil de sélection pour dessiner un cadre autour de ces trois polygones et les sélectionner tous à la fois.
 	 
-2.  Cliquez sur l\<\<Attributs\>\> \<\<Relations\>\> \<\<Multipolygone\>\>.
+2.  Cliquez sur l«Attributs» «Relations» «Multipolygone».
 
     ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image56.png)
 
