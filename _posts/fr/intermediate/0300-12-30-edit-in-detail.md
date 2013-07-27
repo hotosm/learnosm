@@ -102,7 +102,7 @@ A.  **Greffon Immeubles** : Ce greffon est de loin l'un des plus utiles parmi le
 avec des angles à 90 degrés avec seulement trois clics. Tout d'abord, vous tracez le
 bord de votre bâtiment, puis vous faites glisser la ligne à l'aide du curseur de la souris pour dimensionner et simplement créer un polygone.
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image58.png)![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image19.png)
+	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image19.png)
 
 Vous pouvez également créer des bâtiments plus complexes à l'aide de l'option de fusion.
  Créez votre plan de construction, sélectionnez tous les polygones (appuyez sur MAJ pour tous les mettre en évidence) et ensuite MAJ + J pour fusionner les objets (Magique!).
@@ -204,7 +204,7 @@ Pour créer une relation avec ces trois polygones, vous devez :
 
 3. Les polygones doivent automatiquement être créés en tant que multipolygones.
 
-	![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image14.png)
+	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image14.png)
 
 Vous verrez alors votre bâtiment représenté avec une surface solide et les polygones intérieurs représentés avec des vides. Les données sous-jacentes de la relation dans cet
 exemple sont visibles sur OpenStreetMap:[http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
