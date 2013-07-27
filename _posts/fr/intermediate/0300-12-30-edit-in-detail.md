@@ -51,7 +51,7 @@ point, une ligne ou un polygon dans la ***Fenêtre Carte***. Quelques-uns des ou
      sélectionner plus d'un objet en maintenant enfoncée la touche MAJ de votre
      clavier et en cliquant sur chaque ligne. Après que vous avez sélectionné deux
      ou plusieurs lignes, sélectionnez `Fusionner les chemins` dans le menu `Outils`.
-     
+	 
     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image28.png)
 
     > Si vous tentez de fusionner des routes qui ont des directions différentes,
@@ -110,11 +110,11 @@ Vous pouvez également créer des bâtiments plus complexes à l'aide de l'optio
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image03.png)
 
 En outre, vous pouvez modifier les paramètres par défaut (taille et attributs) à partir du menu
-`Modifier` et au bas de la liste l'item `Définir la grandeur des batiments`. Vous sélectionnez ensuite au bas du panneau “Définir la dimension de l'immeuble”.  
+`Modifier` et au bas de la liste l'item `Définir la grandeur des batiments`. Vous sélectionnez ensuite au bas du panneau `Définir la dimension de l'immeuble`.  
 
 ![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image11.png)
 
-Si vous traitez une série d'immeubles de dimension similaire, vous pouvez modifier la taille des immeubles pour une certaine dimension, soit par exemple 5 x 6 mètres (l'unité est en mètres).  Encore plus, si vous numérisez des infrastructures similaires, telles que des bungalows dans une même zone, vous pouvez éditer les attributs pour être tous identiques à partir de l'onglet «Avancé».
+Si vous traitez une série d'immeubles de dimension similaire, vous pouvez modifier la taille des immeubles pour une certaine dimension, soit par exemple 5 x 6 mètres (l'unité est en mètres).  Encore plus, si vous numérisez des infrastructures similaires, telles que des bungalows dans une même zone, vous pouvez éditer les attributs pour être tous identiques à partir de l'onglet `Avancé`.
 
 ![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image13.png)
 ![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image64.png)
@@ -153,7 +153,7 @@ C. Utilsplugin2 (Sélection) :
 
 Après l'installation du greffon et le redémarrage de JOSM, le menu suivant sera égalelemt ajouté :  `Sélection`
 
-	![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image55.png)
+	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image55.png)
 
 
 Les outils suivants se sont révélés être les plus utiles :
@@ -198,7 +198,7 @@ limites extérieures du bâtiment et deux autres pour marquer les cours intérie
 Pour créer une relation avec ces trois polygones, vous devez :
 
 1. Sélectionnez tous les polygones.
-2. Aller à ¨Outils¨ et près du bas ¨multi-polygone¨
+2. Aller à `Outils` et près du bas `multi-polygone`
 
 	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image49.png)
 
@@ -265,7 +265,7 @@ connectés, assurez-vous qu'ils ne sont pas fusionnés ensemble en partageant un
 nœud. Par exemple, les nœuds routiers ne doivent pas être accrochés aux bâtiments,
 parce que personne n'aime une route qui mène directement dans un mur! Si vous
 voulez démêler deux ou plusieurs objets qui partagent le même nœud, sélectionnez
-le nœud, puis appuyez sur «G».  
+le nœud, puis sélectionner dans le menu `Outils`, sélectionnez l'item `Séparer les chemins`.  
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image32.png)  ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image62.png)
 
@@ -419,7 +419,7 @@ Exemple d'un bâtiment avec deux cours intérieures. Pour créer une relation en
 
 La partie la plus importante se trouve en haut de la fenêtre avec un tableau de lignes d'attributs. Le reste peut être ignoré.
 
-	![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image22.png)
+	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image22.png)
 
 
 5. C'est dans ce tableau qu'il faut ajouter les attibuts (tags) pour la relation. Les chemins n'ont pas besoin d'être étiquetés individuellement, à moins qu'il n'y ait quelque chose de spécifique, comme différentes sources de données.
