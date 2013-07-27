@@ -32,7 +32,7 @@ examiner de plus près les outils par défaut, certains greffons, puis les racco
 
 ### Outils de dessin
 
-JOSM a des outils supplémentaires pour faciliter le traçage des lignes et des polygones. Ces outils se trouvent dans le menu `Outils` en haut de JOSM.
+JOSM a des outils supplémentaires pour faciliter le traçage des lignes et des polygones. Ces outils se trouvent dans le menu `Outils` en haut de JOSM. Nous mettons en évidence les `menus et items` et nous indiquons entre parenthèses les raccourcis claviers correspondants. Les raccourcis seront présentés plus en détail en annexe.
 
 ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image12.png)
 
