@@ -102,8 +102,10 @@ A.  **Greffon Immeubles** : Ce greffon est de loin l'un des plus utiles parmi le
 avec des angles à 90 degrés avec seulement trois clics. Tout d'abord, vous tracez le
 bord de votre bâtiment, puis vous faites glisser la ligne à l'aide du curseur de la souris pour dimensionner et simplement créer un polygone.
 
-	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image19.png)
 
+![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image19.png)
+
+	
 Vous pouvez également créer des bâtiments plus complexes à l'aide de l'option de fusion.
  Créez votre plan de construction, sélectionnez tous les polygones (appuyez sur MAJ pour tous les mettre en évidence) et ensuite MAJ + J pour fusionner les objets (Magique!).
 
@@ -153,7 +155,8 @@ C. Utilsplugin2 (Sélection) :
 
 Après l'installation du greffon et le redémarrage de JOSM, le menu suivant sera égalelemt ajouté :  `Sélection`
 
-	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image55.png)
+
+![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image55.png)
 
 
 Les outils suivants se sont révélés être les plus utiles :
@@ -419,7 +422,10 @@ Exemple d'un bâtiment avec deux cours intérieures. Pour créer une relation en
 
 La partie la plus importante se trouve en haut de la fenêtre avec un tableau de lignes d'attributs. Le reste peut être ignoré.
 
-	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image22.png)
+
+
+![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image22.png)
+
 
 
 5. C'est dans ce tableau qu'il faut ajouter les attibuts (tags) pour la relation. Les chemins n'ont pas besoin d'être étiquetés individuellement, à moins qu'il n'y ait quelque chose de spécifique, comme différentes sources de données.
