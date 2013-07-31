@@ -42,7 +42,7 @@ options et menus successifs dans JOSM. Heureusement, il y a des touches de racco
 Notez que dans le menu `Outils`, on retrouve à droite du nom de chaque outil, le raccourci clavier correspondant.
 
 
-![](images-intermediate/fr_edit_in_detail_image12.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/fr_edit_in_detail_image12.png)
 
 
 Afin d'appliquer les outils de ce menu, vous devez d'abord sélectionner un
@@ -53,7 +53,7 @@ Pour chacun de ces outils, nous mettons en évidence les `menus et items` et nou
      Ceci est utile si vous souhaitez ajouter des attributs différents pour différentes sections d'une route, comme un pont. Pour utiliser cet outil, sélectionnez un
      point au milieu de la ligne que vous voulez partager, Sélectionnez  `Couper le chemin` dans le menu `Outils`, et votre ligne sera scindée en deux.
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image38.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image38.png)
 
 2. `Fusionner les chemins` (C) : Cet outil fait le contraire de l'outil `Couper le chemin`. Pour combiner deux 
      lignes en une seule, elles doivent partager un seul point. Pour utiliser
@@ -62,12 +62,12 @@ Pour chacun de ces outils, nous mettons en évidence les `menus et items` et nou
      clavier et en cliquant sur chaque ligne. Après que vous avez sélectionné deux
      ou plusieurs lignes, sélectionnez `Fusionner les chemins` dans le menu `Outils`.
 	 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image28.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image28.png)
 
     > Si vous tentez de fusionner des routes qui ont des directions différentes,
     > le message d'avertissement suivant s'affichera :
 
-    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image15.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/fr_edit_in_detail_image15.png)
 
     Si les routes sont connectées et ne vont pas dans la même direction, choisissez alors
     `Inverser et fusionner`.
@@ -75,20 +75,20 @@ Pour chacun de ces outils, nous mettons en évidence les `menus et items` et nou
 3.  `Inverser le chemin` (R) : Cela va changer la direction de la ligne. Si la direction de cette ligne ne représente pas correctement le sens d'une rivière ou une route à sens unique, vous voudrez sans doute changer sa direction. A moins que quelqu'un ait délibérément créé un chemin avec l'attribut *sens unique (oneway=yes)*, vous n'avez généralement pas à vous soucier de modifier
      l'instruction parce que les chemins dans OSM peuvent par défaut aller dans les deux sens.
 
-     ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image26.png)
+     ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image26.png)
 
 4.  `Simplifier le chemin` (MAJ+Y) : Si votre ligne a trop de points et que vous souhaitez la simplifier, cela va enlever quelques-uns des points de la ligne.
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image41.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image41.png)
 
 5.  `Créer un cercle` (MAJ-O) OU `Placer les nœuds en cercle` (O) : Si vous essayez de faire une forme circulaire, vous pouvez dessinez le cercle du mieux que vous pouvez, puis sélectionnez
      trois noeuds. Sélectionnez ensuite dans le menu `Outils`, la fonction `Placer les nœuds en cercle`. Elle aidera à organiser vos points dans un cercle. Le résultat est cependant moins régulier que si vous utilisez la fonction `Créer un cercle` après avoir seulement tracé son diamètre avec une ligne à deux points.
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image04.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image04.png)
 
 6.  `Aligner les nœuds` (L) sur une ligne : Cet outil permet d'aligner une série de points
      sur une ligne droite. Avec de longues lignes, il est préférable de sélectionner les sections de la ligne à redresser. Soyez prudent car cela a tendance à déplacer la ligne un peu. Si besoin, découpez auparavant la ligne pour ne sélectionner que la section qui doit être alignée. Vous pouvez ensuite fusionner à nouveau les différentes sections. 
 
-	 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image17.png)
+	 ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image17.png)
 
 7.  `Rendre une forme Orthogonale` (Q) : Cette fonction est très utile pour dessiner des
      formes régulières comme les bâtiments. Après avoir dessiné un polygone qui doit avoir une forme avec des angles droits, cet outil permet de la remodeler pour avoir des coins carrés. Cet outil est aussi très
@@ -96,17 +96,17 @@ Pour chacun de ces outils, nous mettons en évidence les `menus et items` et nou
      cours d'habitation, etc. ou les zones d'utilisation du sol. *( À noter que l'utilisation du greffon bâtiment, qui sera
      expliquée ci-dessous, est souvent plus facile d'utilisation )*.
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image45.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image45.png)
 
 8.  `Séparer un chemin` (G) : Lorsque deux chemins adjacents sont connectés, cet outil vous permet de détacher les nœuds qui sont connectés.
 	 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image59.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image59.png)
 
     > La ligne et le noeud n'apparaîtront pas effectivement séparés comme la dernière capture d'écran l'implique.
 
 ### Greffons
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image25.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image25.png)
 
 A.  **Greffon Immeubles** : Ce greffon est de loin l'un des plus utiles parmi les outils d'édition (numérisation). Cet outil vous permet de créer des formes
 avec des angles à 90 degrés avec seulement trois clics. Tout d'abord, vous tracez le
@@ -119,7 +119,7 @@ bord de votre bâtiment, puis vous faites glisser la ligne à l'aide du curseur 
 Vous pouvez également créer des bâtiments plus complexes à l'aide de l'option de fusion.
  Créez votre plan de construction, sélectionnez tous les polygones (appuyez sur MAJ pour tous les mettre en évidence) et ensuite MAJ + J pour fusionner les objets (Magique!).
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image03.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image03.png)
 
 En outre, vous pouvez modifier les paramètres par défaut (taille et attributs) à partir du menu
 `Modifier` et au bas de la liste l'item `Définir la grandeur des batiments`. Vous sélectionnez ensuite au bas du panneau `Définir la dimension de l'immeuble`.  
@@ -133,29 +133,29 @@ Si vous traitez une série d'immeubles de dimension similaire, vous pouvez modif
 
 B. Utilsplugin2 (Plus d'outils) : Ce greffon a quelques fonctionnalités qui peuvent être utiles pour éditer.  
 
-![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image47.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/fr_edit_in_detail_image47.png)
 
 Après l'installation du greffon et le redémarrage de JOSM, le menu suivant sera ajouté :  `Plus d'outils`:
 
-![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image24.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/fr_edit_in_detail_image24.png)
 
 Les outils suivants se sont révélés être les plus utiles :
 
 1. Ajout de nœuds aux intersections : Cet outil est très utile pour ajouter
      des nœuds manquants aux intersections de voies sélectionnées. Il est nécessaire que les routes et les rivières aient toujours des nœuds communs à leur intersection.
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image43.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image43.png)
 
 2. Copiez les attributs de la sélection précédente : Cette fonction facilite la copie des attributs. Si vous voulez créer plusieurs objets avec les mêmes attributs,
      dessinez d'abord les objets. Puis ajoutez les attributs à l'un de ces objet. Cliquez ensuite sur un autre objet et appuyez sur Maj + R pour copier les attributs de l'objet précédemment sélectionné. Vous pouvez répéter cette opération pour tous les objets auxquels vous souhaitez ajouter les attributs. Rappelez-vous que les attributs seront copiés à partir de l'objet sélectionné précédemment. Donc, si vous cliquez sur un objet sans attribut
      puis à nouveau sur un autre objet sans attribut, vous ne serez pas en mesure de copier des attributs !
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image05.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image05.png)
 
 3. Ajouter un Attribut Source : Cet outil simplifie l'ajout d'un Attribut Source. Il
      se souvient de la source qui a été spécifiée en dernier et il ajoute cet attribut source à vos objets. Vous pouvez insérer la source avec un seul clic.
 
-    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image63.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/fr_edit_in_detail_image63.png)
 
 4. Remplacer la Géométrie : Cet outil est idéal si vous voulez redessiner un objet mal dessiné tout en conservant l'historique, les attributs et l'ID de l'objet. Par exemple, si vous voulez redessiner un immeuble
      qui est compliqué et mal dessiné, alors au lieu de l'opération pénible consistant à déplacer chaque nœud, vous pouvez (2) juste dessiner à nouveau l'objet,
@@ -177,7 +177,7 @@ Les outils suivants se sont révélés être les plus utiles :
      tenez à modifier les attributs des objets sans ajouter ces attributs aux nœuds. Pour ce faire,
      sélectionnez tous les objets - des polygones, des chemins et des relations, dé-sélectionnez
      les nœuds et ajoutez ensuite les attributs de manière appropriée.
-	 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image50.png)
+	 ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image50.png)
 
 2. Sélectionnez les derniers nœuds modifiés : Cet outil vous permet de revenir aux
      nœuds que vous avez récemment modifiés. C'est comme une opération Annuler: style de nœud.
@@ -199,7 +199,7 @@ de lignes ou de polygones. Si vous voulez développer des compétences d'éditio
 Par exemple, imaginez que vous souhaitez numériser un bâtiment qui a des cours ou jardins en son centre. Vous avez besoin de dessiner un polygone à l'extérieur de
 l'immeuble, et indiquer que les polygones autour des cours ne font pas partie de l'édifice. Ceci est un exemple où s'applique une relation. Cette relation va contenir plusieurs polygones. Étant donné que c'est la relation qui définit cet immeuble, les attributs de l'immeuble doivent êtres fixés à la relation et non à chaque polygone.
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image42.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image42.png)
 
 Les relations sont utilisées pour représenter tout ce qui nécessite de définir une collection d'objets. Différentes collections d'objets peuvent être définies avec une relation, par exemple pour des lignes de bus (une collections de lignes), des objets longs et complexes (rivières ou routes), ou des polygones multiples qui font tous partie du même endroit (comme les bâtiments d'une université).
 
@@ -223,7 +223,7 @@ Vous verrez alors votre bâtiment représenté avec une surface solide et les po
 exemple sont visibles sur OpenStreetMap:[http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
 Le bâtiment est rendu par Mapnik comme sur cette image:
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image00.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image00.png)
 
 [OSM Wiki: Relation:
 MultiPolygon](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_anneau_externe_et_un_anneau_interne)
@@ -235,7 +235,7 @@ couvrant une superficie beaucoup plus grande. Elle peut être consultée sur le 
 ici :
 [http://www.openstreetmap.org/browse/relation/1046961](http://www.openstreetmap.org/browse/relation/1046961.).
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image61.png)![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image23.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image61.png)![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/fr_edit_in_detail_image23.png)
 
 Cette rivière contient dix lignes qui sont connectées comme un long polygone.
 
@@ -247,7 +247,7 @@ membres, contrairement aux multipolygones qui sont des surfaces complexes. Une r
 ligne avec plusieurs membres, ceux-ci étant intégrés dans la relation comme tels. Des
 caractéristiques supplémentaires, comme les arrêts de bus représentés par des nœuds distincts peuvent également être intégrés en tant que membres de la relation.
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image27.png)![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image37.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image27.png)![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image37.png)
 
 1. Assurez-vous que tous les chemins par lesquels la route passe possèdent les bons attributs. Par exemple, highway= footway.
 
@@ -280,14 +280,14 @@ parce que personne n'aime une route qui mène directement dans un mur! Si vous
 voulez démêler deux ou plusieurs objets qui partagent le même nœud, sélectionnez
 le nœud, puis sélectionner dans le menu `Outils`, sélectionnez l'item `Séparer les chemins`.  
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image32.png)  ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image62.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image32.png)  ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image62.png)
 
 *Mais par contre, certains objets doivent se connecter.*
 
 Toutefois, certains objets doivent toujours se connecter ! Les Intersections de routes devraient
 toujours être connectées. Si deux routes ne partagent pas un noeud commun, alors les outils de navigation n'ont aucun moyen de savoir que les routes se connectent une à l'autre.
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image20.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image20.png)
 
 B. Chevauchement des objets
 
@@ -305,7 +305,7 @@ Vous pourriez également vouloir créer un polygone autour de la cour de l'écol
 suivre ici est de s'assurer que les bâtiments sont complètement à l'intérieur du
 polygone LANDUSE.
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image46.png)  ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image18.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image46.png)  ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image18.png)
 
 Nous faisons tous des erreurs, et plus vous tracerez des objets, moins vous en ferez !
   N'oubliez pas que même si vous téléchargez des données qui contiennent des erreurs, il
@@ -322,7 +322,7 @@ route sans un nœud distinct, alors JOSM conservera les attributs précédents p
  ^[[a]](#cmnt1)^
 -->
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image57.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image57.png)
 
 Nous terminerons ce chapitre avec ce bonus :
 
@@ -345,27 +345,27 @@ options et menus successifs dans JOSM. Heureusement, il y a des touches de racco
 raccourci DEL). Voici une liste de quelques-unes des touches de raccourcis les plus couramment utilisées, avec une courte description de ce qu'elles font :
         
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image10.png)Choisir un outil de sélection
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image10.png)Choisir un outil de sélection
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image08.png)Effacer les objets sélectionnés
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image08.png)Effacer les objets sélectionnés
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image30.png)Choisir un outil de dessin
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image30.png)Choisir un outil de dessin
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image36.png)Choisir l'outil de zoom
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image36.png)Choisir l'outil de zoom
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image21.png)Zoom +
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image21.png)Zoom +
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image09.png)Zoom -
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image09.png)Zoom -
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image01.png)Couper un chemin
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image01.png)Couper un chemin
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image34.png)Fusionner des chemins
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image34.png)Fusionner des chemins
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image29.png)Aligner en cercle
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image29.png)Aligner en cercle
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image53.png)Aligner sur une ligne
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image53.png)Aligner sur une ligne
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image40.png)Orthogonaliser (créer une forme rectangulaire)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image40.png)Orthogonaliser (créer une forme rectangulaire)
 
 ### Plus d'information sur les outils de Sélection
 
@@ -383,28 +383,28 @@ Cas 3 : seulement un ou des chemins sont sélectionnés (pas de nœuds)
 L'outil va sélectionner uniquement les noeuds et désélectionner les chemins.
 
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image52.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image52.png)
 
 
 B. Chemins adjacents (Maj + E) : Si certains chemins ou nœuds sont sélectionnés, l'outil 
 sélectionne les chemins adjacents. Chaque relance de l'outil sélectionne des chemins supplémentaires.
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image33.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image33.png)
 
 C. Tous les chemins connectés (Ctrl-Shift-E) : Si certains chemins ou nœuds sont
 sélectionnés, l'outil sélectionne tous les chemins connectés.
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image51.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image51.png)
 
 D. Chemins s'entrecoupant (I) : Si certains chemins sont sélectionnés, l'outil ajoute les chemins qui les intersectent à la sélection.
 Est utile avec l'outil Ajouter des nœuds aux intersections.
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image39.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image39.png)
 
 E. Tous les chemins s'entrecoupant (Ctrl + pavé numérique *) : Si certains chemins sont sélectionnés, l'outil sélectionne de manière récursive tous les chemins s'interconnectant à partir de la sélection de départ. 
 Utile pour sélectionner les différentes parties d'un bâtiment à fusionner. 
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image16.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image16.png)
 
 ### Précisions à propos des relations
 
@@ -420,17 +420,17 @@ Exemple d'un bâtiment avec deux cours intérieures. Pour créer une relation en
 	 
 2.  Cliquez sur le menu `Attributs` et sélectionnez successivement «Relations» et «Multipolygone».
 
-    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image56.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/fr_edit_in_detail_image56.png)
 
 
 3.  Cliquez sur le bouton `Nouvelle relation`
 
-    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image35.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/fr_edit_in_detail_image35.png)
 
 
 4.  S'ouvre alors la fenêtre des propriétés de la relation :
 
-    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image02.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/fr_edit_in_detail_image02.png)
 
 
 La partie la plus importante se trouve en haut de la fenêtre avec un tableau de lignes d'attributs. Le reste peut être ignoré.
@@ -448,14 +448,14 @@ La partie la plus importante se trouve en haut de la fenêtre avec un tableau de
      En fait, JOSM a besoin de savoir quels sont les polygones qui délimitent la partie externe et
      ceux qui délimitent la partie interne de manière à pouvoir déterminer quelle surface constitue le multipolygone. Sélectionnez les chemins qui délimitent les cours intérieures et inscrivez `inner` dans la case de leur rôle, puis sélectionnez la partie externe et marquez `outer` dans la case de son rôle.
 	 
-    ![]({{site.baseurl}}/images/intermediate/fr_edit_in_detail_image44.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/fr_edit_in_detail_image44.png)
 
 7. Cliquez sur `OK` et la fenêtre se ferme. Vous verrez alors votre bâtiment comme une forme solide avec les polygones intérieurs formant des trous. La
      donnée illustrant la relation dans cet exemple est visible sur OpenStreetMap :
     [http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
 Le bâtiment est rendu dans Mapnik comme sur cette image:
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image00.png)
+    ![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image00.png)
 
 [OSM Wiki: Relation:
 MultiPolygone](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_anneau_externe_et_un_anneau_interne)
@@ -463,7 +463,7 @@ MultiPolygone](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_an
 B. Relation cours d'eau : l'exemple d'un cours d'eau nécessite que vous créiez les berges internes et externes, de même que la surface d'eau à l'intérieur. Les berges internes et externes ont été dessinées, puis connectées et étiquetées comme relation. Comme vous pouvez le voir ci-dessous, il n'y a qu'un seul chemin qui possède un rôle "outer" car c'est le seul polygone externe dessiné. 
 Tous les autres polygones représentent des parties internes, soit des embranchements de la rivière, soit des trous dans le multi-polygone.
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image48.png)
+![](https://raw.github.com/hotosm/learnosm/gh-pages/images/intermediate/en_edit_in_detail_image48.png)
 
 Relation arrêt d'un itinéraire : ici les rôles que les membres jouent dans la relation ne sont pas inner/outer, mais "forward" (en avant), "backward" (en arrière) ou "stop" (arrêter). Stop
 correspond à l'endroit où il y a un arrêt et forward/backward correspondent à la direction que prend le moyen de transport le long de l'itinéraire.
