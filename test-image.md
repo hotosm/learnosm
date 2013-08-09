@@ -1,3 +1,3 @@
 ## upload image
 
-![](/fr_edit_in_detail_image12.png)
+![13](/fr_edit_in_detail_image13.png)
