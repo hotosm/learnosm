@@ -11,4 +11,17 @@ $(function() {
         );
     });
     $('.language-switcher a[lang=' + app.lang + ']').addClass('active');
+      // contribute banner pops out when hovered over
+    $('.banner').hover(
+        function() {
+          $(this).addClass('active').attr('href','{{site.baseurl}}/{{page.lang}}/contribute/');
+          setTimeout(function(){
+            $('.banner span').addClass('active')
+            },300)
+        },
+        function() {
+          $(this).removeClass('active').attr('href','');
+          $('.banner span').removeClass('active')
+        }
+    );
 });
