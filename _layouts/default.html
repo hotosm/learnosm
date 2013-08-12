@@ -82,18 +82,24 @@
   </div>
   </body>
   <script>
-  // autocomplete search with lang.json
-  $.getJSON("{{site.baseurl}}/search_translation/{{page.lang}}.json",function(data){
-    var destination;
-    $( "#search-field" ).autocomplete({
-     autoFocus: true, // highlight the first search result in dropdown
-     delay: 0,
-     source: data,
-     select: function(event, ui) {
-       destination = '{{site.baseurl}}' + ui.item.url;
-       window.location = destination;
-     }
-    });
+  // autocomplete search with all-translation json
+    $.getJSON("{{site.baseurl}}/all-translation.json",function(data){
+      console.log(data);
+      var lang = "{{page.lang}}";
+      data.forEach(function(o){
+        if (o.lang === lang){
+          var destination;
+          $( "#search-field" ).autocomplete({
+           autoFocus: true, // highlight the first search result in dropdown
+           delay: 0,
+           source: o.chapters,
+           select: function(event, ui) {
+             destination = '{{site.baseurl}}' + ui.item.url;
+             window.location = destination;
+           }
+          });
+        }
+      })
   });
   </script>
 </html>
