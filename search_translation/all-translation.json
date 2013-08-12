@@ -1,0 +1,73 @@
+---
+---
+[{
+	"lang":"bi",
+	"chapters":[
+		{% for post in site.posts %}
+		{% if {{post.lang}} == 'bi' %}
+		{% unless post.nosearch %}
+		  {% include post.json %},
+		{% endunless %}
+		{% endif %}
+		{% endfor %}
+		{"label":"",
+   		"url":""}
+   	]
+},
+{
+	"lang":"en",
+	"chapters":[
+	  {% for post in site.posts %}
+	  {% if {{post.lang}} == 'en' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},
+{
+	"lang":"de",
+	"chapters":[
+  {% for post in site.posts %}
+  {% if {{post.lang}} == 'de' %}
+  {% unless post.nosearch %}
+      {% include post.json %},
+  {% endunless %}
+  {% endif %}
+  {% endfor %}
+  {"label":"",
+   "url":""}
+]
+},
+{
+	"lang":"es",
+	"chapter":[
+	  {% for post in site.posts %}
+	  {% if {{post.lang}} == 'de' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},
+{
+	"lang":"fr",
+	"chapters":[
+	  {% for post in site.posts %}
+	  {% if {{post.lang}} == 'fr' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+}
+]
