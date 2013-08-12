@@ -2,7 +2,7 @@
 ---
 [
   {% for post in site.posts %}
-  {% if {{post.lang}} == 'en' %}
+  {% if {{post.lang}} == 'de' %}
   {% unless post.nosearch %}
       {% include post.json %},
   {% endunless %}

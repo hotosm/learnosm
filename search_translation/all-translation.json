@@ -13,8 +13,7 @@
 		{"label":"",
    		"url":""}
    	]
-},
-{
+},{
 	"lang":"en",
 	"chapters":[
 	  {% for post in site.posts %}
@@ -27,22 +26,20 @@
 	  {"label":"",
 	   "url":""}
 	]
-},
-{
+},{
 	"lang":"de",
 	"chapters":[
-  {% for post in site.posts %}
-  {% if {{post.lang}} == 'de' %}
-  {% unless post.nosearch %}
-      {% include post.json %},
-  {% endunless %}
-  {% endif %}
-  {% endfor %}
-  {"label":"",
-   "url":""}
-]
-},
-{
+	  {% for post in site.posts %}
+	  {% if {{post.lang}} == 'de' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},{
 	"lang":"es",
 	"chapter":[
 	  {% for post in site.posts %}
@@ -61,6 +58,46 @@
 	"chapters":[
 	  {% for post in site.posts %}
 	  {% if {{post.lang}} == 'fr' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},
+{
+	"lang":"it",
+	"chapters":[
+	  {% for post in site.posts %}
+	  {% if {{post.lang}} == 'it' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},{
+	"lang":"jp",
+	"chapters":[
+	  {% for post in site.posts %}
+	  {% if {{post.lang}} == 'jp' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},{
+	"lang":"pt",
+		"chapters":[
+	  {% for post in site.posts %}
+	  {% if {{post.lang}} == 'pt' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
