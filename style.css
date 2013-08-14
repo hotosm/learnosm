@@ -353,6 +353,9 @@ body {
     }
 
 /* footer */
+.license img {
+  padding:0;
+  }
 .contact li {margin-bottom:20px;}
   .email:before,.twitter:before,.github:before,
   .email:hover:before,.twitter:hover:before,.github:hover:before {
@@ -372,7 +375,11 @@ body {
     .github:hover:before {background-position:-80px -178px;}
 .sponsors span {display:block;}
   .sponsors span a {color:#fc3f51;}
-.sponsors a {margin-top:30px;}
+.sponsors a.license {
+  position:absolute;
+  margin:-37px 0 0 190px;
+  }
+.sponsors a.logo {margin-top:30px;}
   .sponsors a.logo-hot {background-position:0 0;}
   .sponsors a.logo-ausaid {width:70px;background-position:-76px 8px;}
   .sponsors a.logo-bnpb {background-position:-142px 0;margin-top:30px;}
