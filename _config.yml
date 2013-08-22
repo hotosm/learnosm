@@ -9,6 +9,8 @@ columnist:
 baseurl: ''
 rdiscount:
   extensions: [smart]
+prose:
+  rooturl: '_posts'
 translations:
   en:
     tagline: "Learn OpenStreetMap Step by Step"
