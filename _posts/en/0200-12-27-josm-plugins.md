@@ -39,7 +39,7 @@ Recommended Plug-ins:
 We also recommend downloading these plug-ins, which are covered in other
 chapters:
 
-- Walking Papers
+- FieldPapers
 - Buildings\_tool
 - Utilsplugin2
 
@@ -82,8 +82,8 @@ When you click on the “Upload Traces” button this window will pop up:
 ![]({{site.baseurl}}/images/plugins_html_2e01a9a7_en.png)
 
 Put keywords (seperated by commas without spaces) that relate to your
-GPS trace in the \<\<Tags (comma delimited)\>\> box. For example,
-\<\<Country,region,city,neighborhood,road name\>\>. Next, provide a
+GPS trace in the "Tags (comma delimited)" box. For example,
+"Country,region,city,neighborhood,road name". Next, provide a
 description of your tags. A drop-down list will allow you to reuse
 former tags and descriptions. Lastly, choose what type of visibility you
 would like your track to have. There are four levels from private to
@@ -194,7 +194,7 @@ traces: 1) JOSM Plugin or 2) on the main OSM website.
 > for example, so they can be displayed as background objects in Potlatch.
 
 After you have opened your GPX file in JOSM and clicked Go to
-\<\<Tools\>\> and click \<\<Upload traces\>\>. Describe the GPX file,
+"Tools" and click "Upload traces". Describe the GPX file,
 write some tags, and visibility. For visibility, you can choose whether
 private, trackable, public or identifable.
 
@@ -229,13 +229,13 @@ Uploading GPS Traces Online
 1. Go
 to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
 
-2. Select \<\<GPS Traces\>\> found on the left banner.![]({{site.baseurl}}/images/plugins_html_32e7d3be_en.png)
+2. Select "GPS Traces" found on the left banner.![]({{site.baseurl}}/images/plugins_html_32e7d3be_en.png)
 
 3. Select
 [upload a trace](http://www.openstreetmap.org/trace/create).
 Here, you can also  **See just your traces** to review previous GPS tracks.  
 
-4. Find your file in \<\<Choose File\>\>. Label it in the Description
+4. Find your file in "Choose File". Label it in the Description
 box, give it some Tags, and chose what type of Visibility it will have.
 If you have many .gpx files you can compress them into a zip archive and
 upload it. It will be treated as one large gpx file and only one entry
