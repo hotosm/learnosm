@@ -14,14 +14,14 @@ $(function() {
       // contribute banner pops out when hovered over
     $('.banner').hover(
         function() {
-          $(this).addClass('active').attr('href','{{site.baseurl}}/{{page.lang}}/contribute/');
+          $(this).addClass('active').attr('href',window.app.baseurl + '/' + window.app.lang +'/contribute/');
           setTimeout(function(){
-            $('.banner span').addClass('active')
-            },300)
+            $('.banner span').addClass('active');
+            },300);
         },
         function() {
           $(this).removeClass('active').attr('href','');
-          $('.banner span').removeClass('active')
+          $('.banner span').removeClass('active');
         }
     );
 });
