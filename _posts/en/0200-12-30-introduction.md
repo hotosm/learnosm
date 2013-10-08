@@ -14,12 +14,13 @@ understanding, individuals and communities are better able to improve
 their lives and make good decisions about the future. There are many
 people and organizations who make decisions that affect our lives. Good
 information allows these NGOs, governments and citizens to make better
-decisions, and hopefully make our lives better. Maps can be a good way
+decisions, and hopefully make our lives better. Maps are a good way
 to convey information. 
 
 ![A village in Indonesia][]
-Maps are visual symbols of our world. They can
-often demonstrate an idea better than words. This in turn can also help
+
+Maps are visual symbols of our world. They can often 
+demonstrate an idea better than words. This in turn can help us
 answer important questions. Where is the closest school or hospital? Who
 has the least access to these facilities? Where is poverty the most
 problematic? Questions like these can often best be expressed with maps,
@@ -52,7 +53,8 @@ is merely on paper, it is difficult to get that information to others.
 This is why making your map on a computer, in such a way that anyone can
 access it, can be much more valuable. 
 
-![Examples of symbols2][]
+<!--![Examples of symbols2][]-->
+![Mapping on Computer][]
 
 OpenStreetMap is a tool for creating and sharing map information. 
 Anyone can contribute to OSM, and thousands of people add to the project 
@@ -67,10 +69,11 @@ internet, and anyone can access them at any time, totally free.
 
 We hope that you will find OpenStreetMap useful and interesting in your
 work. By following this guide, you should be able to quickly start
-making digital maps and adding to OSM.
+making digital maps with OpenStreetMap.
 
 [A village in Indonesia]: {{site.baseurl}}/images/en_beg_ch1_image00.png
 [Example of a hand-drawn map]: {{site.baseurl}}/images/en_beg_ch1_image01.png
 [Examples of symbols]: {{site.baseurl}}/images/en_beg_ch1_image02.png
 [Examples of symbols2]: {{site.baseurl}}/images/en_beg_ch1_image03.png
-[Digital maps with OpenStreetMap]: {{site.baseurl}}/images/en_beg_ch1_image04.png
+[Mapping on Computer]: {{site.baseurl}}/images/en_beg_ch1_image04.jpg
+[Digital maps with OpenStreetMap]: {{site.baseurl}}/images/en_beg_ch1_image05.png
