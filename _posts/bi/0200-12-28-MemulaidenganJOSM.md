@@ -188,7 +188,7 @@ Belajar Teknik Menggambar Dasar Menggunakan JOSM
     dapat mendownload nya dari internet. Buka browser internet Anda.
     Pada kolom alamat website pada bagian atas jendela, masukkan alamat
     berikut:
-    [http://www.learnosm.org/files/](http://www.learnosm.org/files/)
+    [sample.osm](/files/sample.osm)
 1.  Menggunakan mouse Anda, klik kanan pada file bernama sample.osm kemudian
     klik “Save Link As...” Pilih lokasi pada komputer Anda dimana Anda akan
     menyimpan file tersebut.
