@@ -202,13 +202,13 @@ In the next sections we will learn about two methods - GPS and Field Papers,
 which are used to collect geographic data. The information from both of these
 can then be imported into JOSM, and used to edit the map.
 
-[JOSM Download Button]: {{sitebaseurl}}/images/beginner/ch3.5-more-about-josm/josm-download-button.png
-[JOSM Download Dialog]: {{sitebaseurl}}/images/beginner/ch3.5-more-about-josm/josm-download-dialog.png
-[JOSM Preferences up down]: {{sitebaseurl}}/images/beginner/ch3.5-more-about-josm/josm-preferences-up-down.png
-[JOSM Preferences WMS TMS]: {{sitebaseurl}}/images/beginner/ch3.5-more-about-josm/josm-preferences-wms-tms.png
-[JOSM layout]: {{sitebaseurl}}/images/beginner/ch3.5-more-about-josm/josm-layout.png
-[JOSM select tool]: {{sitebaseurl}}/images/beginner/ch3.5-more-about-josm/josm-select-tool.png
-[JOSM area downloaded]: {{sitebaseurl}}/images/beginner/ch3.5-more-about-josm/josm-area-downloaded.png
-[JOSM Upload Button]: {{sitebaseurl}}/images/beginner/ch3.5-more-about-josm/josm-upload-button.png
-[JOSM Upload Dialog]: {{sitebaseurl}}/images/beginner/ch3.5-more-about-josm/josm-upload-dialog.png
-[JOSM Authenticate]: {{sitebaseurl}}/images/beginner/ch3.5-more-about-josm/josm-authenticate.png
+[JOSM Download Button]: {{sitebaseurl}}/images/beginner/ch4-more-about-josm/josm-download-button.png
+[JOSM Download Dialog]: {{sitebaseurl}}/images/beginner/ch4-more-about-josm/josm-download-dialog.png
+[JOSM Preferences up down]: {{sitebaseurl}}/images/beginner/ch4-more-about-josm/josm-preferences-up-down.png
+[JOSM Preferences WMS TMS]: {{sitebaseurl}}/images/beginner/ch4-more-about-josm/josm-preferences-wms-tms.png
+[JOSM layout]: {{sitebaseurl}}/images/beginner/ch4-more-about-josm/josm-layout.png
+[JOSM select tool]: {{sitebaseurl}}/images/beginner/ch4-more-about-josm/josm-select-tool.png
+[JOSM area downloaded]: {{sitebaseurl}}/images/beginner/ch4-more-about-josm/josm-area-downloaded.png
+[JOSM Upload Button]: {{sitebaseurl}}/images/beginner/ch4-more-about-josm/josm-upload-button.png
+[JOSM Upload Dialog]: {{sitebaseurl}}/images/beginner/ch4-more-about-josm/josm-upload-dialog.png
+[JOSM Authenticate]: {{sitebaseurl}}/images/beginner/ch4-more-about-josm/josm-authenticate.png

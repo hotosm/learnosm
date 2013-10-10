@@ -189,14 +189,14 @@ as you move forward. As you practice what you've learned here and explore furthe
 you will get better and better at making maps with OSM.
 
 
-[Layers panel]: {{sitebaseurl}}/images/beginner/ch6-editing-with-josm/en_beg_ch6_image00.png
-[Layers up down]: {{sitebaseurl}}/images/beginner/ch6-editing-with-josm/josm-layers-panel-up-down.png
-[Layers show hide]: {{sitebaseurl}}/images/beginner/ch6-editing-with-josm/josm-layers-panel-show-hide.png
-[Layers delete]: {{sitebaseurl}}/images/beginner/ch6-editing-with-josm/josm-layers-panel-delete.png
-[Layers activate]: {{sitebaseurl}}/images/beginner/ch6-editing-with-josm/josm-layers-panel-activate.png
-[GPS in JOSM]: {{sitebaseurl}}/images/beginner/ch6-editing-with-josm/josm-gps-layer.png
-[Properties panel]: {{sitebaseurl}}/images/beginner/ch6-editing-with-josm/josm-properties-panel.png
-[Nodes mistake]: {{sitebaseurl}}/images/beginner/ch6-editing-with-josm/josm-nodes-selected-mistake.png
-[JOSM save button]: {{sitebaseurl}}/images/beginner/ch6-editing-with-josm/josm-save-button.png
+[Layers panel]: {{sitebaseurl}}/images/beginner/ch7-editing-with-josm/en_beg_ch6_image00.png
+[Layers up down]: {{sitebaseurl}}/images/beginner/ch7-editing-with-josm/josm-layers-panel-up-down.png
+[Layers show hide]: {{sitebaseurl}}/images/beginner/ch7-editing-with-josm/josm-layers-panel-show-hide.png
+[Layers delete]: {{sitebaseurl}}/images/beginner/ch7-editing-with-josm/josm-layers-panel-delete.png
+[Layers activate]: {{sitebaseurl}}/images/beginner/ch7-editing-with-josm/josm-layers-panel-activate.png
+[GPS in JOSM]: {{sitebaseurl}}/images/beginner/ch7-editing-with-josm/josm-gps-layer.png
+[Properties panel]: {{sitebaseurl}}/images/beginner/ch7-editing-with-josm/josm-properties-panel.png
+[Nodes mistake]: {{sitebaseurl}}/images/beginner/ch7-editing-with-josm/josm-nodes-selected-mistake.png
+[JOSM save button]: {{sitebaseurl}}/images/beginner/ch7-editing-with-josm/josm-save-button.png
 
 

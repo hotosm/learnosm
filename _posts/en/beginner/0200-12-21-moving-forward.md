@@ -22,6 +22,8 @@ There is a lot of information about OpenStreetMap available at
 find information about other projects that are related to OpenStreetMap,
 and documents and tutorials that can help you learn more about OSM.
 
+![Wiki][]
+
 <!-- also more info on this site once it is prepared -->
 
 Mailing List
@@ -36,6 +38,8 @@ OpenStreetMap.
 -   To sign up for your country's mailing list, open your internet
     browser and go to
     [lists.openstreetmap.org](http://lists.openstreetmap.org/).
+
+![Mailing list][]
 
 -   Scroll down the page to find the list associated with your country.
     The country lists are named "Talk-lg", where lg represents the
@@ -69,6 +73,8 @@ internet browser at [maposmatic.org](http://www.maposmatic.org/). This
 is a simple tool for printing a map of any area you choose. It will
 automatically create the map, along with a grid over the map, and an
 index of locations that are included in the area.
+
+![MapOSMatic][]
 -->
 
 
@@ -79,3 +85,9 @@ These are some of the ways that you can use and stay connected with the
 OpenStreetMap community and learn more. We hope you'll continue
 exploring and learning more about OSM, and contribute to the project.
 Happy Mapping!
+
+
+[MapOSMatic]: {{sitebaseurl}}/images/beginner/ch8-moving-forward/maposmatic-homepage.png
+[Wiki]: {{sitebaseurl}}/images/beginner/ch8-moving-forward/osm-wiki.png
+[Mailing list]: {{sitebaseurl}}/images/beginner/ch8-moving-forward/osm-mailing-lists.png
+
