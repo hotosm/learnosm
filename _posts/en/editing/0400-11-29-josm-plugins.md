@@ -9,27 +9,66 @@ category: editing
 JOSM Plugins
 ============
 
-As you become more advanced in your editing techniques, you may start
-wondering how you can find additional JOSM features to improve your
-mapping skills. JOSM allows you to install numerous plugins, which are
-extra tools that allow you to complete specific tasks in the software.
-You have already installed several plugins if you have been following
-these tutorials. In the preceding chapter, you installed a plugin that
-allows you to use Walking Papers. There are many different plugins 
-available in JOSM and we will cover some of the most useful ones
-in this chapter.
+As you become more advanced in your editing techniques, you may want to
+use additional JOSM features to improve your
+mapping skills. JOSM allows you to install numerous plugins, which add
+extra functionality to the software.
 
-![plug]({{site.baseurl}}/images/plugins_html_m76fc73bd_en.png)
+If you worked through the learnOSM Beginner's Guide, you have already installed
+the Field Papers plugin.
 
-Any time you want to install a new plugin, go to Edit --\> Preferences
-and click on the “Plugins” tab. If you don’t see a list of available
-plugins, click “Download List.” You can install any plugin by checking
-the box next to it and clicking OK down at the bottom. When you install
-a new plugin, you will need to restart JOSM. By now you must be tired of
-restarting JOSM every time you change the settings. Luckily, our first
-plugin is made to restart JOSM for you!
+In this section we will take a detailed look at how to install plugins,
+and some of the most useful plugins that are available.
 
-Recommended Plug-ins:
+Installing Plugins
+-------------------
+-   Any time you want to install a new plugin, go to Edit --\> Preferences
+    and click on the “Plugins” tab.
+
+![Plug][]
+
+-   If you don’t see a list of available plugins, click “Download List.”
+-   To install a plugin you simply must check the box next to it
+    and click OK at the bottom.
+-   Lastly, you must restart JOSM anytime you install new plugins.
+
+Some of our favorite plugins are:
+
+1.  **buildings_tools:** If you draw a lot of buildings, this will make the process faster and easier
+
+2.  **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM
+    database, this plugin makes it easy.
+
+3.  **editgpx:**
+    If you want to upload GPS tracks from a Garmin device, you might need this
+    plugin. OSM won't accept GPS tracks that have been saved on an external memory
+    card in a Garmin, but this plugin can correct the files so they can be uploaded.
+
+4.  **fieldpapers:**
+    This plugin let's you load scanned Field Papers into JOSM.
+
+5.  **imagery_offset_db:**
+    This plugin let's you cooperate with other mappers who find that the Bing
+    satellite imagery is a little bit misaligned. This issue is covered in more
+    detail in a later chapter.
+
+6.  **mirrored_download:**
+    With this plugin you can download a larger area of OSM data for editing.
+
+7.  **print:**
+    Adds a Print function, in case you would like to make quick printouts
+    of an area, that don't need to look very good.
+
+8.  **utilsplugin2:**
+    Adds many additional tools and menus to JOSM for advanced users. This is covered
+    in more detail in the [next chapter](/en/editing/josm-more-tools)
+
+
+
+<!-- The remainder of this section needs to be edited, and/or moved to other sections,
+    commenting it out for now
+
+
 
 - [Mirrored Download]({{site.baseurl}}/en/beginner/josm-plugins/#mirrored-download) (allows you to download more OSM data)]
 - [Direct Upload]({{site.baseurl}}/en/beginner/josm-plugins/#direct-upload) (allow you to upload GPS tracks)]
@@ -245,3 +284,10 @@ on the trace list will be created. ![]({{site.baseurl}}/images/plugins_html_m63d
 
   The file will be uploaded to the OSM server, where it will join the
 queue of files waiting to be inserted into the database.
+-->
+
+
+[Plug]: {{sitebaseurl}}/images/editing/josm-plugins/plugins-tab.png
+
+
+

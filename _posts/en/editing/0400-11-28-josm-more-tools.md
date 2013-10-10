@@ -8,16 +8,26 @@ category: editing
 
 More Tools
 ============
+The **buildings_tools** and **utilsplugin2** plugins add great additional
+functionality into JOSM. In this section we'll take a closer look
+at the functions they provide.
 
-### Plugins
+The Buildings Tools Plugin
+--------------------------
+-   If you haven't already, install this plugin following the instructions
+    in [JOSM Plugins](/en/editing/josm-plugins).
 
-![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image25.png)
+![buildings_tools plugin][]
 
-A.  Building Plug-in:  This plug-in is by far one of the most useful
+This plug-in is by far one of the most useful
 tools for editing (digitizing).  This tool allows you to create shapes
 with 90 degree corners with just three clicks.  First, you trace the
 edge of your building and then you drag out the line to make it a
 polygon.  
+
+
+![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image25.png)
+
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image58.png)![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image19.png)
 
@@ -182,3 +192,7 @@ selected, selects all adjacent and intersecting ways recursively. Useful
 for selecting parts of the building to join.
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image16.png)
+
+[buildings_tools plugin]: {{sitebaseurl}}/images/editing/josm-more-tools/buildings_tools-plugin.png
+
+
