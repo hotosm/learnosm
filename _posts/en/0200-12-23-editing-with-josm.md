@@ -9,7 +9,7 @@ category: beginner
 Editing with JOSM
 =================
 
-In [Chapter 3]({{site.baseurl}}/en/beginner/start-josm/) you installed JOSM and began drawing your first points,
+[Previously]({{site.baseurl}}/en/beginner/start-josm/) you installed JOSM and began drawing your first points,
 lines, and shapes. You added presets to these objects in order to attach
 information about them. By the end, you were able to draw your own map
 in JOSM.
