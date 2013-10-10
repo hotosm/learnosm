@@ -130,9 +130,8 @@ is often easier to use the Presets menu. When you add or change tags, the attrib
 of the object are changed.
 
 -   To edit an object's tags, first select it.
--   Then you can edit the tags in one of two ways: (1) You can use the
-    Presets menu, or (2) you can
-    edit the tags directly in the Properties window on the right. 
+-   Then edit the tags in one of two ways: (1) Use the Presets menu,
+    or (2) edit the tags directly in the Properties window on the right. 
 
 ### Common Mistake: Tagging nodes when you want to tag lines or polygons
 When you are editing the attributes of a point, you will first select

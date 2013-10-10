@@ -71,6 +71,8 @@ We hope that you will find OpenStreetMap useful and interesting in your
 work. By following this guide, you should be able to quickly start
 making digital maps with OpenStreetMap.
 
+
+
 [A village in Indonesia]: {{site.baseurl}}/images/beginner/ch1-introduction/en_beg_ch1_image00.png
 [Example of a hand-drawn map]: {{site.baseurl}}/images/beginner/ch1-introduction/en_beg_ch1_image01.png
 [Examples of symbols]: {{site.baseurl}}/images/beginner/ch1-introduction/en_beg_ch1_image02.png
