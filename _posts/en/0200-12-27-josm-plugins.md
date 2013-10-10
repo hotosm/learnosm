@@ -241,7 +241,7 @@ to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
 
 2. Select "GPS Traces" found on the left banner.
 
-![Online Upload Traces Options][]
+![Left Banner][]
 
 3. Select
 [upload a trace](http://www.openstreetmap.org/trace/create).
@@ -251,7 +251,9 @@ Here, you can also  **See just your traces** to review previous GPS tracks.
 box, give it some Tags, and chose what type of Visibility it will have.
 If you have many .gpx files you can compress them into a zip archive and
 upload it. It will be treated as one large gpx file and only one entry
-on the trace list will be created. ![]({{site.baseurl}}/images/plugins_html_m63dc490_en.png)
+on the trace list will be created. 
+
+![Online Upload Traces Options][]
 
 5. Click *Upload*.
 

@@ -367,8 +367,8 @@ continue learning about OSM.
 [Apply Preset Example]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image09_apply-preset-example.png  
 [Properties Panel]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image10_properties-panel.png  
 [Edit Tags]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image11_edit-tags.png 
-[Common Mistake]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image13_upload-button.png  
-[Upload Button]: {{site.baseurl}}/images/en/.en_beg_07_editing-w-josm_image12_common-mistakepng  
+[Common Mistake]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image12_common-mistake.png  
+[Upload Button]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image13_upload-button.png  
 [Upload Window]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image14_upload-window.png
 [Authenticate]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image15_authenticate.png  
 [Save Button]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image15_save-button.png  
