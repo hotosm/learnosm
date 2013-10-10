@@ -93,9 +93,12 @@ imagery is poorly aligned in comparison to the reality in the field.
 A way to check or prove that the imagery is offset is through using GPS
 tracks. To do so, add __existing GPS tracks__ (yours or
 other people's-- more information on how to do this can be found in
-[Adding](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[GPS](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[Data](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[to](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[OSM](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[server](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit))
-to the area you are tracing. Click on
-![download][] then tick «Raw GPS
+[Adding GPS Data to OSM server](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit))
+to the area you are tracing. Click on the download icon.
+
+![download][] 
+
+Then tick «Raw GPS
 data» near the top in the «Download» window. After downloading, an
 additional layer «Downloaded GPX data» will appear.
 
@@ -113,9 +116,11 @@ with the reality. It has to be adjusted.
 > middle of the existing lines.
 
 To offset imagery, right-click the imagery layer or menu «Imagery», open
-«New offset», or use the imagery adjust button
-![adjust button][] in left toolbar. Then
-drag the imagery so that it is correctly overlaid by the tracks. Click
+«New offset», or use the imagery adjust button in the left toolbar.
+
+![adjust button][] 
+
+Then drag the imagery so that it is correctly overlaid by the tracks. Click
 on another tool when it is over. Note that for some projects people will
 save offset information to the wiki or other sources so that people
 working together on areas can share common values. You can also give the
@@ -182,12 +187,12 @@ Whether it be through poor resolution or poorly georeferenced imagery,
 there are ways you can deal with inaccurate imagery. They mainly involve
 referencing imagery with GPS traces and tracks.
 
-[puzzle]: {{site.baseurl}}/images/offset_puzzle_en.png
-[existing data]: {{site.baseurl}}/images/offset_existing_data_en.png
-[download]: {{site.baseurl}}/images/offset_tool_download_en.png
-[downloaded GPX]: {{site.baseurl}}/images/offset_downloaded_gpx_en.png
-[adjust button]: {{site.baseurl}}/images/offset_tool_adjust_en.png
-[adjust window]: {{site.baseurl}}/images/offset_adjust_window_en.png
-[adding to existing data]: {{site.baseurl}}/images/offset_add_to_data_en.png
-[no data]: {{site.baseurl}}/images/offset_no_data_en.png
-[change opacity]: {{site.baseurl}}/images/offset_change_opacity_en.png
+[puzzle]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image00_puzzle.png
+[existing data]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image01_existing-data.png
+[download]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image02_tool-download.png
+[downloaded GPX]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image03_downloaded-gpx.png
+[adjust button]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image04_adjust-button.png
+[adjust window]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image05_adjust-window.png
+[adding to existing data]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image06_add-to-data.png
+[no data]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image07_no-data.png
+[change opacity]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image08_change-opacity.png

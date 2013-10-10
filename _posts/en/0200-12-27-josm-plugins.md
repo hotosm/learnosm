@@ -19,7 +19,7 @@ allows you to use Walking Papers. There are many different plugins
 available in JOSM and we will cover some of the most useful ones
 in this chapter.
 
-![plug]({{site.baseurl}}/images/plugins_html_m76fc73bd_en.png)
+![Plug Icon][]
 
 Any time you want to install a new plugin, go to Edit --\> Preferences
 and click on the “Plugins” tab. If you don’t see a list of available
@@ -31,9 +31,9 @@ plugin is made to restart JOSM for you!
 
 Recommended Plug-ins:
 
-- [Mirrored Download]({{site.baseurl}}/en/beginner/josm-plugins/#mirrored-download) (allows you to download more OSM data)]
-- [Direct Upload]({{site.baseurl}}/en/beginner/josm-plugins/#direct-upload) (allow you to upload GPS tracks)]
-- [Editgpx]({{site.baseurl}}/en/beginner/josm-plugins/#edit-gpx) (allows you to edit GPX files)]
+- [Mirrored Download]({{site.baseurl}}/en/beginner/josm-plugins/#mirrored-download) (allows you to download more OSM data)
+- [Direct Upload]({{site.baseurl}}/en/beginner/josm-plugins/#direct-upload) (allow you to upload GPS tracks)
+- [Editgpx]({{site.baseurl}}/en/beginner/josm-plugins/#edit-gpx) (allows you to edit GPX files)
 - [Print]({{site.baseurl}}/en/beginner/josm-plugins/#print)
 
 We also recommend downloading these plug-ins, which are covered in other
@@ -43,14 +43,14 @@ chapters:
 - Buildings\_tool
 - Utilsplugin2
 
-![]({{site.baseurl}}/images/plugins_html_m6d2d20a9_en.png)
+![Restart JOSM][]
 
 Try clicking “Restart JOSM” and watch the software reload on its own.
 
 Mirrored Download
 -----------------
 
-![]({{site.baseurl}}/images/plugins_html_m2c477766_en.png)
+![Mirrored Download][]
 
 __Mirrored Download__ will make downloading OSM
 data for editing faster. Instead of getting the data from the central
@@ -60,7 +60,7 @@ replica of the data but in a location that is faster to access it.
 Once the plugin is installed (and you have restarted JOSM), you will see
 another new entry on the File Menu, “Download from OSM mirror...”
 
-![]({{site.baseurl}}/images/plugins_html_1f3d8d84_en.png)
+![Download from OSM Mirror][]
 
 Downloading data is exactly the same process you learned before, but it
 can be much faster!
@@ -68,18 +68,18 @@ can be much faster!
 Direct Upload
 -------------
 
-![]({{site.baseurl}}/images/plugins_html_m37f530e4_en.png)
+![Direct Upload][]
 
 __DirectUpload__ uploads GPX tracks directly to OSM
 through JOSM (more information is available in the **Appendix**). Once
 the plug-in is installed (and you have restarted JOSM), you will see
 anew “Upload traces” item under the “Tools” Menu.
 
-![]({{site.baseurl}}/images/plugins_html_m53ca88fd_en.png)
+![Upload Traces Item][]
 
 When you click on the “Upload Traces” button this window will pop up:
 
-![]({{site.baseurl}}/images/plugins_html_2e01a9a7_en.png)
+![Upload Traces Window][]
 
 Put keywords (seperated by commas without spaces) that relate to your
 GPS trace in the "Tags (comma delimited)" box. For example,
@@ -99,7 +99,7 @@ about this plug-in and GPS uploads is available in the [Appendix]({{site.baseurl
 Edit gpx
 --------
 
-![]({{site.baseurl}}/images/plugins_html_m1d1170b2_en.png)
+![Edit Gpx][]
 
 **EditGpx** allows you to prepare recorded GPX tracks
 before uploading them to OSM. Often tracks have parts that you would
@@ -107,18 +107,28 @@ like to remove. Therefore, this plug-in delete points of tracks in a
 speedy manner and creates anonymity for timestamps of a track.
 
 Once the plug-in is installed (and you have restarted JOSM), you will
-see this new tool ![]({{site.baseurl}}/images/plugins_html_42e55708_en.png) in the tool bar on
-the left.
+see this new tool in the tool bar on the left.
 
-1. Open a GPX file in JOSM![]({{site.baseurl}}/images/plugins_html_3fabdc1a_en.png)
+![Edit Gpx Tool Icon][]
 
-2. Press the new button ![]({{site.baseurl}}/images/plugins_html_42e55708_en.png) in the left
-menu bar and the GPX data will be imported to a new EditGpx layer. Every
-node of the track will be highlighted in yellow.![]({{site.baseurl}}/images/plugins_html_m3f86e83d_en.png)
+1. Open a GPX file in JOSM!
+
+![Open GPX File][]
+
+2. Press the new button in the left menu bar 
+
+![Edit Gpx Tool Icon][]
+
+and the GPX data will be imported to a new EditGpx layer. Every
+node of the track will be highlighted in yellow.
+
+![GPX Nodes All][]
 
 3. Now mark the points (by clicking) or areas (by drawing a rectangle on
 their extent) that you would like to delete. The yellow highlighting
-should disappear.![]({{site.baseurl}}/images/plugins_html_m7e01ae1f_en.png)
+should disappear.
+
+![GPX Nodes Selected][]
 
 4. Right click on the layer name and choose \<\<Convert to GPX layer\>\> in
 the \<\<Context\>\> menu.
@@ -130,7 +140,7 @@ plugin [DirectUpload](http://josm.openstreetmap.de/wiki/Plugins)).
 Print
 -----
 
-![]({{site.baseurl}}/images/plugins_html_m66e7a0a9_en.png)
+![Print Plugin][]
 
 If you want a quick an easy way to print a map while you are editing in
 JOSM, install the __print plugin__. Although you won’t be able to
@@ -138,11 +148,11 @@ do anything stylistic with your printout, this is a good way for a quick
 and easy print. Once the plugin is installed, a new item will be
 available on the File menu called “Print...”
 
-![]({{site.baseurl}}/images/plugins_html_mbd3c18f_en.png)
+![Print Menu Item][]
 
 Clicking this will open the Print Dialog, which looks like this:
 
-![]({{site.baseurl}}/images/plugins_html_49f16afc_en.png)
+![Print Dialog][]
 
 Here you can change your printer settings. If you don’t see anything on
 the page, check the box next to “Map Preview” on the right. Zoom in or
@@ -159,7 +169,7 @@ Preferences menu has a short description of each plugin, and you can
 open a web page with more information by clicking on the “More info...”
 link next to each.
 
-![]({{site.baseurl}}/images/plugins_html_17ea8a4b_en.png)
+![More Info Link][]
 
 Good luck!
 
@@ -169,14 +179,14 @@ Appendix
 DirectUpload Details
 --------------------
 
-![]({{site.baseurl}}/images/plugins_html_m7e14a056_en.png)
+![Direct Upload Plugin][]
 
 Adding your GPS tracks and waypoints to the OSM Server is useful for
 many reasons.
 __(If you do not want your GPX points to be seen by anyone else you do not have to read this section.  You can simply display your GPX files from JOSM, and therefore store them locally)._
 First of all, GPS tracks are the most useful way of collecting and
 georeferencing objects in OSM.
-(See[](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[Chapter](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[6.5:](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[Aerial](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[Imagery](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit)[Considerations](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit))
+(See [Chapter 6.5: Aerial Imagery Considerations](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit))
 GPS units have greater accuracy than satellite imagery and therefore are
 a useful tool for checking how offset imagery may be. Using many GPS
 tracks (the greater the number of tracks the greater the ability to
@@ -221,7 +231,7 @@ private, trackable, public or identifable.
     listings. Trackpoints will be available in timeline order through
     the public GPS API **without timestamps**.
 
-![]({{site.baseurl}}/images/plugins_html_2009cd0_en.png)
+![DirectUpload Traces Options][]
 
 Uploading GPS Traces Online
 ---------------------------
@@ -229,7 +239,9 @@ Uploading GPS Traces Online
 1. Go
 to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
 
-2. Select "GPS Traces" found on the left banner.![]({{site.baseurl}}/images/plugins_html_32e7d3be_en.png)
+2. Select "GPS Traces" found on the left banner.
+
+![Online Upload Traces Options][]
 
 3. Select
 [upload a trace](http://www.openstreetmap.org/trace/create).
@@ -245,3 +257,24 @@ on the trace list will be created. ![]({{site.baseurl}}/images/plugins_html_m63d
 
   The file will be uploaded to the OSM server, where it will join the
 queue of files waiting to be inserted into the database.
+
+[Plug Icon]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image00_plug-icon.png
+[Restart JOSM]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image01_restart-josm.png
+[Mirrored Download]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image02_mirrored_download.png
+[Download from OSM Mirror]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image03_download-from-osm-mirror.png
+[Direct Upload]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image04_direct-upload.png
+[Upload Traces Item]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image05_upload-traces-item.png
+[Upload Traces Window]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image06_upload-traces-window.png
+[Edit Gpx]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image07_edit-gpx.png
+[Edit Gpx Tool Icon]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image08_edit-gpx-tool-icon.png 
+[Open GPX File]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image09_open-gpx-file.png
+[GPX Nodes All]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image10_gpx-nodes-all.png
+[GPX Nodes Selected]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image11_gpx-nodes-selected.png
+[Print Plugin]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image12_print-plugin.png
+[Print Menu Item]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image13_print-menu.png
+[Print Dialog]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image14_print-dialog.png
+[More Info Link]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image15_more-info-link.png
+[Direct Upload Plugin]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image16_direct-upload-plugin.png
+[DirectUpload Traces Options]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image17_directupload-traces.png
+[Left Banner]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image18_left-banner.png
+[Online Upload Traces Options]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image19_online-upload-traces.png

@@ -249,14 +249,13 @@ chapters, you will learn how to two methods for mapping your town or village,
 GPS and Field Papers. Then, we will return to JOSM and using the
 information we collected, we will add information to OpenStreetMap.
 
-[JOSM website]: {{site.baseurl}}/images/en_beg_ch3_image00.png
-[Windows installer]: {{site.baseurl}}/images/en_beg_ch3_image01.png
-[JOSM splash page]: {{site.baseurl}}/images/en_beg_ch3_image02.png
-[Preferences window]: {{site.baseurl}}/images/en_beg_ch3_image03.png
-[Look and feel]: {{site.baseurl}}/images/en_beg_ch3_image04.png
-[Open file]: {{site.baseurl}}/images/en_beg_ch3_image05.png
-[Sample file]: {{site.baseurl}}/images/en_beg_ch3_image06.png
-[Scale bar]: {{site.baseurl}}/images/en_beg_ch3_image07.png
-[Select tool]: {{site.baseurl}}/images/en_beg_ch3_image08.png
-[Draw tool]: {{site.baseurl}}/images/en_beg_ch3_image09.png
-
+[JOSM website]: {{site.baseurl}}/images/en/en_beg_03_start-josm_image00_josm-website.png
+[Windows installer]: {{site.baseurl}}/images/en/en_beg_03_start-josm_image01_windows-installer.png
+[JOSM splash page]: {{site.baseurl}}/images/en/en_beg_03_start-josm_image02_josm-splash-page.png
+[Preferences window]: {{site.baseurl}}/images/en/en_beg_03_start-josm_image03_preferences-window.png
+[Look and feel]: {{site.baseurl}}/images/en/en_beg_03_start-josm_image04_look-and-feel.png
+[Open file]: {{site.baseurl}}/images/en/en_beg_03_start-josm_image05_open-file.png
+[Sample file]: {{site.baseurl}}/images/en/en_beg_03_start-josm_image06_sample-file.png
+[Scale bar]: {{site.baseurl}}/images/en/en_beg_03_start-josm_image07_scale-bar.png
+[Select tool]: {{site.baseurl}}/images/en/en_beg_03_start-josm_image08_select-tool.png
+[Draw tool]: {{site.baseurl}}/images/en/en_beg_03_start-josm_image09_draw-tool.png

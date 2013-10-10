@@ -53,7 +53,6 @@ is merely on paper, it is difficult to get that information to others.
 This is why making your map on a computer, in such a way that anyone can
 access it, can be much more valuable. 
 
-<!--![Examples of symbols2][]-->
 ![Mapping on Computer][]
 
 OpenStreetMap is a tool for creating and sharing map information. 
@@ -71,9 +70,8 @@ We hope that you will find OpenStreetMap useful and interesting in your
 work. By following this guide, you should be able to quickly start
 making digital maps with OpenStreetMap.
 
-[A village in Indonesia]: {{site.baseurl}}/images/en_beg_ch1_image00.png
-[Example of a hand-drawn map]: {{site.baseurl}}/images/en_beg_ch1_image01.png
-[Examples of symbols]: {{site.baseurl}}/images/en_beg_ch1_image02.png
-[Examples of symbols2]: {{site.baseurl}}/images/en_beg_ch1_image03.png
-[Mapping on Computer]: {{site.baseurl}}/images/en_beg_ch1_image04.jpg
-[Digital maps with OpenStreetMap]: {{site.baseurl}}/images/en_beg_ch1_image05.png
+[A village in Indonesia]: {{site.baseurl}}/images/en/en_beg_01_introduction_image00_village-in-indonesia.png
+[Example of a hand-drawn map]: {{site.baseurl}}/images/en/en_beg_01_introduction_image01_hand-drawn-map.png
+[Examples of symbols]: {{site.baseurl}}/images/en/en_beg_01_introduction_image02_examples-of-symbols.png
+[Mapping on Computer]: {{site.baseurl}}/images/en/en_beg_01_introduction_image03_mapping-on-computer.png
+[Digital maps with OpenStreetMap]: {{site.baseurl}}/images/en/en_beg_01_introduction_image04_digital-maps-with-osm.png
