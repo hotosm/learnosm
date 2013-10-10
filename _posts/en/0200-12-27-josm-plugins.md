@@ -260,23 +260,23 @@ on the trace list will be created.
   The file will be uploaded to the OSM server, where it will join the
 queue of files waiting to be inserted into the database.
 
-[Plug Icon]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image00_plug-icon.png
-[Restart JOSM]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image01_restart-josm.png
-[Mirrored Download]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image02_mirrored_download.png
-[Download from OSM Mirror]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image03_download-from-osm-mirror.png
-[Direct Upload]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image04_direct-upload.png
-[Upload Traces Item]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image05_upload-traces-item.png
-[Upload Traces Window]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image06_upload-traces-window.png
-[Edit Gpx]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image07_edit-gpx.png
-[Edit Gpx Tool Icon]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image08_edit-gpx-tool-icon.png 
-[Open GPX File]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image09_open-gpx-file.png
-[GPX Nodes All]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image10_gpx-nodes-all.png
-[GPX Nodes Selected]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image11_gpx-nodes-selected.png
-[Print Plugin]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image12_print-plugin.png
-[Print Menu Item]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image13_print-menu.png
-[Print Dialog]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image14_print-dialog.png
-[More Info Link]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image15_more-info-link.png
-[Direct Upload Plugin]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image16_direct-upload-plugin.png
-[DirectUpload Traces Options]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image17_directupload-traces.png
-[Left Banner]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image18_left-banner.png
-[Online Upload Traces Options]: {{site.baseurl}}/images/en/en_beg_04_josm-plugins_image19_online-upload-traces.png
+[Plug Icon]: /images/en/en_beg_04_josm-plugins_image00_plug-icon.png
+[Restart JOSM]: /images/en/en_beg_04_josm-plugins_image01_restart-josm.png
+[Mirrored Download]: /images/en/en_beg_04_josm-plugins_image02_mirrored_download.png
+[Download from OSM Mirror]: /images/en/en_beg_04_josm-plugins_image03_download-from-osm-mirror.png
+[Direct Upload]: /images/en/en_beg_04_josm-plugins_image04_direct-upload.png
+[Upload Traces Item]: /images/en/en_beg_04_josm-plugins_image05_upload-traces-item.png
+[Upload Traces Window]: /images/en/en_beg_04_josm-plugins_image06_upload-traces-window.png
+[Edit Gpx]: /images/en/en_beg_04_josm-plugins_image07_edit-gpx.png
+[Edit Gpx Tool Icon]: /images/en/en_beg_04_josm-plugins_image08_edit-gpx-tool-icon.png 
+[Open GPX File]: /images/en/en_beg_04_josm-plugins_image09_open-gpx-file.png
+[GPX Nodes All]: /images/en/en_beg_04_josm-plugins_image10_gpx-nodes-all.png
+[GPX Nodes Selected]: /images/en/en_beg_04_josm-plugins_image11_gpx-nodes-selected.png
+[Print Plugin]: /images/en/en_beg_04_josm-plugins_image12_print-plugin.png
+[Print Menu Item]: /images/en/en_beg_04_josm-plugins_image13_print-menu.png
+[Print Dialog]: /images/en/en_beg_04_josm-plugins_image14_print-dialog.png
+[More Info Link]: /images/en/en_beg_04_josm-plugins_image15_more-info-link.png
+[Direct Upload Plugin]: /images/en/en_beg_04_josm-plugins_image16_direct-upload-plugin.png
+[DirectUpload Traces Options]: /images/en/en_beg_04_josm-plugins_image17_directupload-traces.png
+[Left Banner]: /images/en/en_beg_04_josm-plugins_image18_left-banner.png
+[Online Upload Traces Options]: /images/en/en_beg_04_josm-plugins_image19_online-upload-traces.png

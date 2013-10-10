@@ -68,8 +68,7 @@ OpenStreetMap.
 -   Now you need to open your email, just as you did when you signed up
     for OpenStreetMap in chapter 2. There will be a confirmation email
     in your inbox from the mailing list.
--   Click on the confirmation link, which looks like this:
-
+-   Click on the confirmation link.
 -   You should now be a member of the mailing list.
 -   Now when you want to send a message to the list, you can send it to
     [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org),

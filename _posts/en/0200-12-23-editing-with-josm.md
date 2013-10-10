@@ -355,20 +355,20 @@ In the final chapter we will step away from JOSM, and look at some
 interesting projects that use OpenStreetMap data, and learn how you can
 continue learning about OSM.
 
-[JOSM Panels]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image00_josm-panels.png
-[Mouse Coordinates]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image01_mouse-coordinates.png  
-[Download Button]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image02_download-button.png  
-[Slippy Map]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image03_slippy-map.png  
-[Layers Panel]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image04_layers-panel.png  
-[Show Hide Button]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image05_show-hide-button.png 
-[Delete Button]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image06_delete-button.png  
-[Activate Button]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image07_activate-button.png  
-[Select Tool]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image08_select-tool.png  
-[Apply Preset Example]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image09_apply-preset-example.png  
-[Properties Panel]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image10_properties-panel.png  
-[Edit Tags]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image11_edit-tags.png 
-[Common Mistake]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image12_common-mistake.png  
-[Upload Button]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image13_upload-button.png  
-[Upload Window]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image14_upload-window.png
-[Authenticate]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image15_authenticate.png  
-[Save Button]: {{site.baseurl}}/images/en/en_beg_07_editing-w-josm_image15_save-button.png  
+[JOSM Panels]: /images/en/en_beg_07_editing-w-josm_image00_josm-panels.png
+[Mouse Coordinates]: /images/en/en_beg_07_editing-w-josm_image01_mouse-coordinates.png  
+[Download Button]: /images/en/en_beg_07_editing-w-josm_image02_download-button.png  
+[Slippy Map]: /images/en/en_beg_07_editing-w-josm_image03_slippy-map.png  
+[Layers Panel]: /images/en/en_beg_07_editing-w-josm_image04_layers-panel.png  
+[Show Hide Button]: /images/en/en_beg_07_editing-w-josm_image05_show-hide-button.png 
+[Delete Button]: /images/en/en_beg_07_editing-w-josm_image06_delete-button.png  
+[Activate Button]: /images/en/en_beg_07_editing-w-josm_image07_activate-button.png  
+[Select Tool]: /images/en/en_beg_07_editing-w-josm_image08_select-tool.png  
+[Apply Preset Example]: /images/en/en_beg_07_editing-w-josm_image09_apply-preset-example.png  
+[Properties Panel]: /images/en/en_beg_07_editing-w-josm_image10_properties-panel.png  
+[Edit Tags]: /images/en/en_beg_07_editing-w-josm_image11_edit-tags.png 
+[Common Mistake]: /images/en/en_beg_07_editing-w-josm_image12_common-mistake.png  
+[Upload Button]: /images/en/en_beg_07_editing-w-josm_image13_upload-button.png  
+[Upload Window]: /images/en/en_beg_07_editing-w-josm_image14_upload-window.png
+[Authenticate]: /images/en/en_beg_07_editing-w-josm_image15_authenticate.png  
+[Save Button]: /images/en/en_beg_07_editing-w-josm_image15_save-button.png  

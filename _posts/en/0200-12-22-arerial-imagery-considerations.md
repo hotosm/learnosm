@@ -187,12 +187,12 @@ Whether it be through poor resolution or poorly georeferenced imagery,
 there are ways you can deal with inaccurate imagery. They mainly involve
 referencing imagery with GPS traces and tracks.
 
-[puzzle]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image00_puzzle.png
-[existing data]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image01_existing-data.png
-[download]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image02_tool-download.png
-[downloaded GPX]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image03_downloaded-gpx.png
-[adjust button]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image04_adjust-button.png
-[adjust window]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image05_adjust-window.png
-[adding to existing data]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image06_add-to-data.png
-[no data]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image07_no-data.png
-[change opacity]: {{site.baseurl}}/images/en/en_beg_08_aerial-imagery_image08_change-opacity.png
+[puzzle]: /images/en/en_beg_08_aerial-imagery_image00_puzzle.png
+[existing data]: /images/en/en_beg_08_aerial-imagery_image01_existing-data.png
+[download]: /images/en/en_beg_08_aerial-imagery_image02_tool-download.png
+[downloaded GPX]: /images/en/en_beg_08_aerial-imagery_image03_downloaded-gpx.png
+[adjust button]: /images/en/en_beg_08_aerial-imagery_image04_adjust-button.png
+[adjust window]: /images/en/en_beg_08_aerial-imagery_image05_adjust-window.png
+[adding to existing data]: /images/en/en_beg_08_aerial-imagery_image06_add-to-data.png
+[no data]: /images/en/en_beg_08_aerial-imagery_image07_no-data.png
+[change opacity]: /images/en/en_beg_08_aerial-imagery_image08_change-opacity.png
