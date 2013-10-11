@@ -7,19 +7,18 @@ category: editing
 ---
 
 Relations
-=========
-
-In the Beginner’s Guide we learned that there are three types of objects
-that can be drawn in OpenStreetMap - points (nodes), lines (ways), and
-polygons.  Lines contain numerous points, and the line itself carries
+==========
+In the [Beginner’s Guide](/en/beginner) we explained that there are three
+types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and
+polygons (closed ways). Lines contain numerous points, and the line itself carries
 the attributes that define what it represents.  Polygons are the same as
 lines, except that the the line must finish where it begins in order to
 form a shape.
 
-In fact, there is one other type of object in OpenStreetMap, and these
-are called relations.  In the same way that a line consists of other
+In fact, we lied to you, because there is one other type of object in OpenStreetMap,
+called relations.  In the same way that a line consists of other
 points, a relation contains a group of other objects, be they points,
-lines, or polygons.  If you are looking to obtain advanced editing
+lines, or polygons.  If you are looking to advance your editing
 skills, then understanding and knowing how to properly edit relations is
 important.
 
@@ -40,29 +39,68 @@ that are all part of one location (like buildings in a university).
 
 There are mainly four types of relations you will encounter in OSM:
 Multipolygons, Routes, Boundaries, and Restrictions (such as, no left
-turns).  In this section we will go over Multipolygons and Routes.
+turns).  In this section we will cover Multipolygons and Routes.
 
-A. Editing Relations: The multipolygon above contains a polygon for the
-outer limits of the building and two more to mark the inner courtyards.
-To create a relation from these three polygons you need to:
+Creating Relations
+-------------------
+Let's see how to create a multipolygon relation like the one shown above.
 
-1. Select all of the polygons.
+-   First, draw your shapes. In this case we will draw three polygons, an
+    outer rectangle, and two smaller rectangles.
 
-2.  Go to ¨Tools¨ and near the bottom ¨Multi-polygon¨
+![multipolygon ways][]
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image49.png)
+-   Select all of the polygons. Remember you can select multiple objects
+    by holding SHIFT and clicking on each.
+-   Go to Presets->Man Made->Man Made->Building.
 
-3. The polygons should automatically be created as a multi-polygon.  
+![building preset][]
 
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image14.png)
+-   Click on "New Relation."
 
-You will then see your building as a a solid shape with the inner
-polygons represented with gaps. The data behind the relation in this
-example is visible on OpenStreetMap:
-[http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
- The building is rendered by Mapnik as in this image:
+![new relation][]
+
+-   You should now see the relations window. This is a little bit complex
+    because now you are adding tags to a collection of ways.
+
+![building relation][]
+
+-   Observe that the panel at the top has the tags for the relation. These tags
+    work the same way as tags always work.
+-   At the bottom is a list of the members of the relation. This relation has
+    three members - that is, the three ways that are part of our relation.
+-   We need to do a couple things to finish defining our multipolygon. First,
+    notice that because we used the building preset we already have one tag
+    defined for us, *building=yes*. We need to add one more tag that defines
+    the **type** of the relation. We must add a tag that says *type=multipolygon*.
+-   Click in the tag box and add this tag.
+
+![type multipolygon][]
+
+-   Next we need to define what are called **roles**. Each member of a relation
+    has a role, which indicates what that member's purpose is. In this case, the
+    role of the outside polygon must be defined as **outer** and the role of the
+    two inner polygons must be defined as **inner**. These are the roles that are
+    available for members of a multipolygon.
+-   In the lower left panel select each member in the list. You can see the member
+    that is selected will be highlighted in the map window. Enter **outer** and
+    **inner** for the correct polygons.
+
+![outer inner][]
+
+-   Click OK and your multipolygon relation is complete!
+
+![new multipolygon][]
+
+...
+
+When you create a multipolygon like this it will be rendered on the map like so:
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image00.png)
+
+
+
+For more information:
 
 [OSM Wiki: Relation:
 MultiPolygon](http://wiki.openstreetmap.org/wiki/Relation:multipolygon#One_outer_and_one_inner_ring)
@@ -211,3 +249,15 @@ to the direction the bus goes along the road.
     the relation panel.  The relation editing dialog will pop up.  
 
 6. Click Add selection in that dialog box to add those selected ways.  
+
+[multipolygon ways]: {{sitebaseurl}}/images/editing/josm-relations/multipolygon-ways.png
+[building preset]: {{sitebaseurl}}/images/editing/josm-relations/building-preset.png
+[new relation]: {{sitebaseurl}}/images/editing/josm-relations/new-relation.png
+[building relation]: {{sitebaseurl}}/images/editing/josm-relations/building-relation.png
+[new relation]: {{sitebaseurl}}/images/editing/josm-relations/new-relation.png
+[type multipolygon]: {{sitebaseurl}}/images/editing/josm-relations/type-multipolygon.png
+[outer inner]: {{sitebaseurl}}/images/editing/josm-relations/outer-inner.png
+[new multipolygon]: {{sitebaseurl}}/images/editing/josm-relations/new-multipolygon.png
+
+
+[create multipolygon]: {{sitebaseurl}}/images/editing/josm-relations/create-multipolygon.png
