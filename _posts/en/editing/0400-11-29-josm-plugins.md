@@ -17,7 +17,7 @@ extra functionality to the software.
 If you worked through the learnOSM Beginner's Guide, you have already installed
 the Field Papers plugin.
 
-In this section we will take a detailed look at how to install plugins,
+In this section we will take a look at how to install plugins,
 and some of the most useful plugins that are available.
 
 Installing Plugins
