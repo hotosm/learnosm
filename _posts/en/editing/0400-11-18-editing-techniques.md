@@ -1,7 +1,7 @@
 ---
 layout: doc
-title: JOSM Do's & Don'ts
-permalink: /en/editing/josm-dos-and-donts/
+title: Editing Techniques
+permalink: /en/editing/josm-editing-techniques/
 lang: en
 category: editing
 ---
@@ -68,11 +68,6 @@ your roads and objects as clearly and rigid as possible.
 
 ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image57.png)
 
-We will end this chapter with this gift:
 
--  ROTATE OBJECT: If you hold the SHIFT + CTRL and drag your mouse
-    click, you can rotate the selected objects.  
-
-    ![]({{site.baseurl}}/images/intermediate/en_edit_in_detail_image31.png)
 
 

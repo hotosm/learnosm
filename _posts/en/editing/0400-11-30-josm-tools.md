@@ -162,6 +162,8 @@ been drawn.
 -   Hold SHIFT+CTRL on your keyboard.
 -   Click and drag the mouse to rotate.
 
+![Rotate demo][]
+
 To scale an object (make it bigger or smaller), follow the same
 process, but hold ALT+CTRL instead.
 
@@ -189,6 +191,7 @@ These instructions are displayed on the information bar at the bottom of JOSM:
 [Keyboard Del]: {{sitebaseurl}}/images/editing/josm-tools/keyboard-del.png
 [Keyboard plus]: {{sitebaseurl}}/images/editing/josm-tools/keyboard-plus.png
 [Keyboard minus]: {{sitebaseurl}}/images/editing/josm-tools/keyboard-minus.png
+[Rotate demo]: {{sitebaseurl}}/images/editing/josm-tools/rotate-demo.png
 [Rotate instructions]: {{sitebaseurl}}/images/editing/josm-tools/rotate-instructions.png
 
 
