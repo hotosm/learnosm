@@ -52,7 +52,7 @@ Let's see how to create a multipolygon relation like the one shown above.
 
 -   Select all of the polygons. Remember you can select multiple objects
     by holding SHIFT and clicking on each.
--   Go to Presets->Man Made->Man Made->Building.
+-   Go to *Presets->Man Made->Man Made->Building*.
 
 ![building preset][]
 
@@ -114,8 +114,8 @@ Let's see how to create a relation for a bus route in JOSM:
 -   First, select all of the ways which the route runs along. You may need to
     split some streets into separate segments if only part of them belong to
     the relation. You can do this using the "Split Way" tool.
--   When all the segments are selected, go to Presets->Transport->Public Transport->
-    Public transport route.
+-   When all the segments are selected, go to *Presets->Transport->Public Transport->
+    Public transport route*.
 
 ![public transport preset][]
 

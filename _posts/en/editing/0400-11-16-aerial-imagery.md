@@ -1,193 +1,87 @@
 ---
 layout: doc
-title: Using Aerial Imagery
+title: Aerial Imagery
 permalink: /en/editing/aerial-imagery/
 lang: en
 category: editing
 ---
 
-Using Aerial Imagery
-====================
+Aerial Imagery
+================
+Tracing imagery is an easy and powerful way to contribute to
+OSM. Using imagery to draw points, lines and shapes on the ground is called
+**digitizing**. It can often be separated from the act of collecting attribute
+data on the ground, which is often called **ground-truthing**.
 
-Tracing over imagery is both an easy and powerful way to contribute to
-OSM. Especially when resolution is high and skies are clear, digitizing
-from satellite imagery can provide the skeleton of OSM maps. This is
-useful because it makes ground-truthing, or gathering attribute data,
-easier for people in the field.
+Digtizing imagery can provide the skeleton of OSM maps, which
+makes ground-truthing easier for people in the field.
 
-Nonetheless, tracing from imagery requires some precautions so that
-objects are not placed in the wrong location. There are two important
-aspects that must be considered when tracing from imagery:
+In this chapter we'll learn a little bit more about how aerial imagery works.
 
-1.  Resolution: The resolution refers to the detail of imagery or the
-    number of pixels from which the image is comprised. A pixel is the
-    smallest unit of an image. The smaller the area of the pixel the
-    better the resolution. With smaller pixels you are able to
-    distinguish between objects on earth better, as evidenced by
-    the figure below. On the left is an image with low resolution, and
-    fewer pixels per image. It is hard to distinguish the puzzle piece
-    because a majority of the image is considered part of the puzzle
-    piece. On the other hand, the image on the right with high
-    resolution has smaller pixel units and therefore enables the puzzle
-    piece to be much
-    more distinguishable. In OSM, you are most likely to be able to use
-     high resolution imagery. Satellite civil imagery offers
-    resolution under “1 meter”, which means each pixel of the imagery
-    represents a one meter squared. That is pretty good!
+About Imagery
+-------------
+Aerial imagery is the term that we use to describe photographs that are taken from the sky.
+These can be taken from airplanes, helicopters, or even kites and balloons, but the most
+common source of imagery comes from satellites orbiting the Earth.
 
-    ![puzzle][]
+[In the chapter on GPS](/en/beginner/using-gps) we learned about the dozens of satellites
+orbiting Earth which allow our GPS receivers to identify our latitude and longitude. In
+addition to these GPS satellites, there are also satellites which take photos of the earth.
+These photos are then manipulated so that they can be used in GIS (mapping) software. 
+Bing Aerial Imagery is made up of satellite photos.
 
-2.  Georeference: Georeference is a term for how closely the imagery’s pixels match the
-    actual locations on the ground. This matching is a relatively complex process,
-    and the greater the terrain variation and relief, the harder it is to achieve a good
-    georeference. Satellites are hundreds of kilometers from the
-    surface of the earth and when they take flat pictures to represent
-    the curved earth there is bound to be some distortion and offset. The 
-    fact that some of the images are taken at an angle to the surface of the earth
-    complicates this process, especially when looking at buildings.
-    The existence of offsets is shown slightly when you move between two
-    images covering the same area, e.g. when you zoom in and the former
-    displayed layer replaces another one with better resolution. Can you
-    see shifts in the objects displayed in the imagery?
+Resolution
+----------
+All digital photographs are made up of pixels.  If you zoom in very close on a photograph, you will notice the the image starts to get blurry, and eventually you’ll see that an image is made up of thousands of little squares that are each a different color.  This is true whether the photograph is taken with a handheld camera, a mobile phone, or a satellite orbiting Earth.
 
-To get an idea of why the offset occurs imagine taking a picture of a
-statue with a wide-angle lens and printing it. Now try to deform and stretch it so that it
-matches the actual shape of the statue. This is what occurs when georeferencing
-imagery.
+![orange resolution][]
 
-Satellites are being built with progressively greater
-imagery precision and therefore extremely accurate resolution (the unit
-is often in centimeters). On the other hand, the georeference provided by
-satellites is still off. The amount of mismatch is still described in 
-units of meters. A 5-10 m georeference mismatch is considered good.
+Resolution refers to the number of pixels wide by the number of pixels high that an image is.  More pixels means higher resolution, which means that you are able to see greater detail in the photograph.  Resolution in handheld cameras is often measured in megapixels.  The more megapixels your camera is able to record, the higher the resolution of your photos.
 
-In summary, when you are trying to map an area accurately based on satellite
-imagery, keep in mind that high resolution is not the only
-aspect that permits good location. Almost all objects in the image are
-offset from the ground location.
+Aerial imagery is the same, except that we usually talk about resolution differently.  Measurement is important with aerial photographs - hence, a pixel represents a certain distance on the ground.  We usually describe imagery as something like “two meter resolution imagery,” which means that one pixel is equivalent to two meters on the ground.  One meter resolution imagery would have a higher resolution than this, and 50cm resolution would be higher still.  This is generally the range of imagery that is provided by Bing, though it varies between locations, and in many places it is worse than two meters, at which point it becomes difficult to identify objects in the image.
 
-There are ways that you can minimize the imprecision of the imagery
-offset. You will be exposed to two main scenarios and methods for
-overcoming imagery offset:
+![low res high res][]
 
-1. you want to trace over imagery in an area that has already been
-mapped in OSM
+The higher the resolution of an aerial image, the easier it is to use in making maps.
 
-2. you want to trace over an imagery in an area where there is no
-existing data in OSM
+Georeferencing
+---------------
+Each pixel of an aerial photograph has a size, and each pixel also has a
+location. As we mentioned above, this is because aerial photographs are georeferenced.
 
-Offsets with existing data in OSM
----------------------------------
+Just like a GPS point has a latitude and longitude, so will the pixels in an aerial image.
+However, just as poor resolution can bring challenges to mapping, so can poorly
+georeferenced images.
 
-Sometimes after downloading OSM data, adding the imagery, and zooming
-into the best resolution, you realize that the existing OSM data,
-especially roads, does not correctly overlay the imagery objects.
+Let's think for a moment about how georeferencing works, and why it is challenging 
+to do. When somebody georeferences an image, they first identify a handful of pixels
+in the image that are known locations. If we have a square photograph, we might identify
+the coordinates of all four corners, and that way the whole image can be correctly placed.
 
-![existing data][]
+This all seems quite simple, but consider this: Earth is round; camera lenses are round;
+yet photographs are flat and 2-dimensional. This means that when a flat image is
+being mapped onto the round Earth, there is always going to be some stretching of the image
+and distortion. Imagine trying to flatten an orange-peel. It won't end up rectangular.
 
-Many OSM beginners believe that the roads have been traced incorrectly
-and thus move the roads to what appear to be the better location. Moving
-the road may be completely __WRONG__! There is a possibility instead that the
-imagery is poorly aligned in comparison to the reality in the field.
+Because of this proble, all of the pixels in an aerial image might not be perfectly
+placed.
 
-A way to check or prove that the imagery is offset is through using GPS
-tracks. To do so, add __existing GPS tracks__ (yours or
-other people's-- more information on how to do this can be found in
-[Adding](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[GPS](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[Data](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[to](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[OSM](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit)[server](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit))
-to the area you are tracing. Click on
-![download][] then tick «Raw GPS
-data» near the top in the «Download» window. After downloading, an
-additional layer «Downloaded GPX data» will appear.
+Luckily, some really smart people have devised clever algorithms for solving
+this problem, and so the imagery that you see on Bing is pretty close to being accurate.
+In most places it won't be noticeably wrong at all - and it's certainly fine for making
+maps. The most common areas for imagery to be inaccurately located are in hilly,
+mountainous areas. In the [next chapter](/en/editing/correcting-imagery-offset) we will see how
+to correct for this problem.
 
-![downloaded GPX][]
+[orange resolution]: {{sitebaseurl}}/images/editing/aerial-imagery/orange-resolution.png
+[low res high res]: {{sitebaseurl}}/images/editing/aerial-imagery/low-res-high-res.png
 
-In this example, with the GPS tracks (in red) added you can see that the
-existing objects (here: the roads) are positioned correctly. The imagery is
-actually not correctly georeferenced, and has an offset in comparison
-with the reality. It has to be adjusted.
 
-> Do not be confused that the tracks appear like a sequence of
-> lines and not one solid line. Most GPS devices have a 2-5 m accuracy,
-> which is sufficient for roads because you do not drive or walk in the
-> middle of the road. Try to imagine an average GPS trace somewhere in the
-> middle of the existing lines.
 
-To offset imagery, right-click the imagery layer or menu «Imagery», open
-«New offset», or use the imagery adjust button
-![adjust button][] in left toolbar. Then
-drag the imagery so that it is correctly overlaid by the tracks. Click
-on another tool when it is over. Note that for some projects people will
-save offset information to the wiki or other sources so that people
-working together on areas can share common values. You can also give the
-offset a “Bookmark name” if you need to use it again in the future. This
-offset is saved in a new “Imagery offset” menu available from the
-imagery drop-down.
 
-![adjust window][]
 
-![downloaded GPX][]
 
-Now that the imagery is adjusted you can trace over it. While mapping
-you can hide the layer «Downloaded GPX data» if it interferes with your
-work.
 
-![adding to existing data][]
 
-One last thing to remember: the offset might not be the same over the full
-extent of the imagery! This is especially true in regions with a marked
-relief. So when the imagery seems to be offset again, repeat the whole
-process.
 
-Offsets with no existing data in OSM
-------------------------------------
 
-It may happen that you are the first one to OSM map an area, e.g. in
-remote rural areas or in developing countries. Therefore, neither
-existing OSM data nor GPS tracks can be downloaded.
-
-![no data][]
-
-How can you deal with this since you do not have any reference to
-control the offset of the imagery? There are two ways around this:
-
-1.  Go into the field: If you or others have the possibility to use a GPS in the
-    area, take waypoints on significant infrastructure or objects that
-    are visible on the imagery and/or make tracks of the roads,
-    then add them in JOSM.
-
-2.  Use existing data: If you cannot go into the field then another
-    option is to gather other __Open Database License data (ODbl)__
-    If you can it is best to check the imagery with another image that
-    is correctly aligned. If you are offsetting an image based on
-    another one, using transparency is the easiest way. To do this,
-    simply click the gradient line and change the opacity of the layer.
-
-    ![change opacity][]
-
-Usually administration imagery has poor resolution, over ten meters of
-resolution, and so might be worse than the previous image.
-
-If you have access to vector data, roads, lakes, rivers and buildings
-are your best options for determining how offset your imagery is. Try to
-stay away from boundary lines because those are not reliable for
-figuring out if imagery is misaligned.
-
-Summary
--------
-
-Tracing imagery is a technique that makes mapping in OSM faster and more
-efficient. However, it must be done with precision and care. There are
-times when you are digitizing an area and the imagery itself may be off.
-Whether it be through poor resolution or poorly georeferenced imagery,
-there are ways you can deal with inaccurate imagery. They mainly involve
-referencing imagery with GPS traces and tracks.
-
-[puzzle]: {{site.baseurl}}/images/offset_puzzle_en.png
-[existing data]: {{site.baseurl}}/images/offset_existing_data_en.png
-[download]: {{site.baseurl}}/images/offset_tool_download_en.png
-[downloaded GPX]: {{site.baseurl}}/images/offset_downloaded_gpx_en.png
-[adjust button]: {{site.baseurl}}/images/offset_tool_adjust_en.png
-[adjust window]: {{site.baseurl}}/images/offset_adjust_window_en.png
-[adding to existing data]: {{site.baseurl}}/images/offset_add_to_data_en.png
-[no data]: {{site.baseurl}}/images/offset_no_data_en.png
-[change opacity]: {{site.baseurl}}/images/offset_change_opacity_en.png
