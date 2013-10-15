@@ -6,6 +6,10 @@ lang: en
 category: map-design
 ---
 
+<!--
+this chapter is a draft because it's not a priority
+-->
+
 Using Github
 ================
 
