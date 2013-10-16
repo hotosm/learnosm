@@ -532,6 +532,18 @@ a.license {
       content:'';
     }
 
+/* Ideas for "other guide" navigation menu */
+  .doc .title.other {
+    background: #efe;
+  }
+
+  .doc .title.cover.other,
+  .doc .title.cover.other:hover,
+  .doc .title.cover.other.active {
+    background: #dfd;
+}
+
+
 /* training and feedback boxes*/
 .getstarted, .feedback {
   padding-top:40px;
