@@ -80,19 +80,36 @@ layout: default
 
   //select the image containers so the images can be centered, styles in css
   $('img').parent().addClass('has-image');
-
+  
   // make title nav sticky
   {% unless {{page.cover}} %} // excluding cover pages
-  var nav = $('.doc-nav'),
-      navTop = nav.offset().top;
+  $(document).ready(function(){
+  	var nav = $('.doc-nav'),
+      	navTop = nav.offset().top,
+      	navHeight = nav.outerHeight(true),
+      	footerHeight = $('#footer').outerHeight(true);
 
-  $(window).scroll(function(e){
-    var windowTop = $(this).scrollTop();
-    if (windowTop >= navTop) {
-      nav.addClass('fixed');
-    } else {
-      nav.removeClass('fixed');
-    }
+  	$(window).scroll(function(e){
+    	var scrolled = $(this).scrollTop();
+    	var leftToScroll = $(document).height() - scrolled;
+    	
+    	if (scrolled >= navTop && leftToScroll > (footerHeight + navHeight + 20)) {
+    	// if in the middle - nav box is positioned fixed
+      		nav.addClass('fixed');
+      		nav.removeClass('bottom');
+    	} else if (scrolled < navTop) {
+    	// if at the beginning - nav box is positioned at top
+      		nav.removeClass('fixed');
+      		nav.removeClass('bottom');
+    	} else if (leftToScroll <= (footerHeight + navHeight + 20)) {
+    	// if at the end - nav box is positioned at bottom
+    	// only if height of viewport is not sufficient to have nav box and footer in it
+    		if ((footerHeight + navHeight + 20) > $(window).height()) {
+	      		nav.removeClass('fixed');
+    	  		nav.addClass('bottom');
+    	  	}
+    	}
+  	});
   });
   {% endunless %}
 
