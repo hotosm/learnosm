@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class='doc-nav marginL cell3 padAll cf'>
+<div class='doc-nav marginL cell3 padAll cf' id='doc-nav-left'>
       <ul>
 
     {% for post in site.categories.[page.category] %}
@@ -15,31 +15,25 @@ layout: default
     {% endfor %}
   </ul>
 
-
-<!-- temporary addition for memory while i edit,need a more elegant solution to linking to other sections -->
-  <ul style="margin-top:30px;">
+  <ul style="margin-top:40px;">
       <li class='doc rounded'>
-        <a class='title' href="/en/editing">
-          <span>Editing</span>
+        <a class='title cover'>
+          <span>Other Guides</span>
         </a>
       </li>
-      <li class='doc rounded'>
-        <a class='title' href="/en/coordination">
-          <span>Coordination</span>
-        </a>
-      </li>
-      <li class='doc rounded'>
-        <a class='title' href="/en/map-design">
-          <span>Map Design</span>
-        </a>
-      </li>
-      <li class='doc rounded'>
-        <a class='title' href="/en/sys-admin">
-          <span>System Administration</span>
-        </a>
-      </li>
+      
+      {% for post in site.posts %}
+        {% if {{post.lang}} == {{page.lang}} %}{% unless post.hidden %}
+        {% if post.cover %}{% unless post.category == page.category %}
+          <li class='doc rounded'>
+            <a class='title' href="{{site.baseurl}}{{ post.url }}">
+              <span>{{ post.title }}</span>
+            </a>
+          </li>
+        {% endunless %}{% endif %}
+        {% endunless %}{% endif %}
+      {% endfor %}
   </ul>
- <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 </div>
 <div class='doc-main doc cell5 padAll'>
@@ -116,4 +110,10 @@ layout: default
   // get the second url of doc nav and make it the url of the 'proceed' link
   var proceedTo = $('.doc-nav li:nth-child(2) a').attr('href');
   $('a.start').attr('href',proceedTo);
+
+  // Set the min-height of the page dynamically based on height of navigation div
+  $('.doc-main').css("min-height", function() {
+    return $('#doc-nav-left').height() + 25;
+  });
+  
 </script>
