@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+	author="Jeff Haack"
+	version="0.6"
+	shortdescription="Open Cities Dhaka"
+	description="For mapping in old Dhaka as part of the Open Cities Dhaka project. http://opencitiesproject.com/cities/dhaka">
+
+<group name="Open Cities Dhaka">
+	<item name="Street" type="way">
+		<key key="source" value="Open Cities Dhaka Survey" />
+		<label text="Dhaka City Street" />
+		<label text="---------------------------" />				
+		<combo key="highway" text="Street Type" values="primary, secondary, tertiary, residential, living_street" 
+				display_values="Primary, Secondary, Connector (tertiary), Local (residential), Narrow (living_street)"/>
+		<text key="name" text="Street Name" default="" delete_if_empty="true"/>
+		<combo key="surface" text="Surface" values="asphalt, concrete, brick, unpaved" 
+				display_values="Asphalt, Concrete, Brick, Unpaved" default="" delete_if_empty="true"/>
+		<text key="width" text="Width (meters)" default="" delete_if_empty="true"/>
+		<check key="oneway" text="One way?" default="off" delete_if_empty="true"/>
+	</item>
+
+	
+	<item name="Building" type="node,closedway">
+		<label text="Dhaka Building" />
+		<label text="---------------------------" />
+		<label text="1. General Information" />
+		<label text="---------------------------" />
+		<key key="source" value="Open Cities Dhaka Survey" />
+		<key key="building" value="yes" />
+		<check key="building" text="Under construction?" default="off" value_on="construction" value_off="yes"/>
+		<text key="addr:housenumber" text="1.1 Address Number" delete_if_empty="true" />
+		<text key="name" text="Name of Building" default="" delete_if_empty="true" />	
+		<text key="addr:street" text="Street Name" delete_if_empty="true" />	
+		<combo key="building:use" text="1.2 Building Use" values="residential, commercial, industrial, utility, multipurpose, hospital, place_of_worship, government, school, college, university, community_centre" display_values="Residential, Commercial, Industrial, Utility, Mixed, Hospital, Religious, Government, School, College, University, Community Centre"/>
+		<label text="---------------------------" />
+		<label text="2. Building Characteristics" />
+		<label text="---------------------------" />
+		<text key="building:levels" text="2.1 Number of stories" default="1" />
+		<key key="vertical_irregularity" value="no" />
+		<key key="soft_storey" value="no" />
+		<check key="vertical_irregularity" text="2.2 Vertical Irregularity?" default="off" delete_if_empty="true"/>
+		<check key="soft_storey" text="2.3 Soft Storey?" default="off" delete_if_empty="true"/>
+		<combo key="soft_storey:direction" text="--- If yes, which direction?" values="long, short" display_values="Long, Short"/>
+		<combo key="building:material" text="2.4 Material" values="plaster, brick, tin, cement_block, glass, bamboo_sheet, wood" display_values="Plastered, Exposed Brick, Tin Sheet, Exposed Cement Block, Glass, Bamboo Sheet, Plywood/wooden" />
+		<combo key="building:structure" text="2.5 Structure" values="RCC_with_beam, RCC_without_beam, brick, steel, timber, bamboo" display_values="RCC with beam, RCC without Beam, Brick Masonry (load bearing), Steel, Timber, Bamboo" />
+		<combo key="start_date" text="2.6 Building Age" values="2003..2013, 1993..2003, 1963..1993, 1913..1963, before 1913, " display_values="0-10 years, 10-20 years, 20-50 years, 50-100 years, More than 100 years, Cannot be Determined" delete_if_empty="true"/>
+		<text key="start_date" text="--- Or, Exact Year of Construction (if known)" default="" />
+		<combo key="building:condition" text="2.7 Building Condition" values="poor, average, good" display_values="Poor, Average, Good" />
+		<label text="---------------------------" />
+	</item>
+
+	<group name="Drainage">
+		<item name="Drainage (way)" type="way">
+			<key key="source" value="Open Cities Dhaka Survey" />
+			<key key="waterway" value="drain" />
+			<check key="drain:covered" text="Covered (closed)?" default="off" delete_if_empty="true"/>
+		</item>
+		<group name="Manhole (node)">
+			<item name="Drain" type="node">
+				<key key="source" value="Open Cities Dhaka Survey" />
+				<key key="manhole" value="drain" />
+			</item>
+			<item name="Sewer" type="node">
+				<key key="source" value="Open Cities Dhaka Survey" />
+				<key key="manhole" value="sewer" />
+			</item>
+		</group>
+	</group>
+
+	<group name="Water Source">
+		<item name="Stand Point" type="node">
+			<key key="source" value="Open Cities Dhaka Survey" />
+			<key key="amenity" value="drinking_water" />
+			<check key="pump:active" text="Is it active?" default="off" delete_if_empty="true"/>			
+		</item>
+		<item name="Hand Pump" type="node">
+			<key key="source" value="Open Cities Dhaka Survey" />
+			<key key="man_made" value="water_well" />
+			<key key="pump" value="manual" />
+			<check key="pump:active" text="Is it active?" default="off" delete_if_empty="true"/>			
+		</item>
+		<item name="Overhead Tank" type="node,closedway">
+			<key key="source" value="Open Cities Dhaka Survey" />
+			<key key="man_made" value="water_tower" />
+		</item>
+		<item name="Reserve Tank" type="node,closedway">
+			<key key="source" value="Open Cities Dhaka Survey" />
+			<key key="man_made" value="water_tank" />
+		</item>
+	</group>
+
+	<item name="Public Toilets" type="node,closedway">
+		<key key="source" value="Open Cities Dhaka Survey" />
+		<key key="amenity" value="toilets" />
+		<text key="toilets:num_chambers" text="Number of Chambers" default="" delete_if_empty="true"/>
+	</item>
+	
+	<group name="Open Areas">
+		<item name="Brownfield" type="node,closedway">
+			<key key="source" value="Open Cities Dhaka Survey" />
+			<key key="landuse" value="brownfield" />
+		</item>
+		<item name="Cemetery" type="node,closedway">
+			<key key="source" value="Open Cities Dhaka Survey" />
+			<key key="landuse" value="cemetery" />
+		</item>
+		<item name="Grass" type="node,closedway">
+			<key key="source" value="Open Cities Dhaka Survey" />
+			<key key="landuse" value="grass" />
+		</item>
+		<item name="Park" type="node,closedway">
+			<key key="source" value="Open Cities Dhaka Survey" />
+			<key key="leisure" value="park" />
+		</item>
+		<item name="Playground" type="node,closedway">
+			<key key="source" value="Open Cities Dhaka Survey" />
+			<key key="leisure" value="playground" />
+		</item>
+		<item name="Sports Pitch" type="node,closedway">
+			<key key="source" value="Open Cities Dhaka Survey" />
+			<key key="leisure" value="pitch" />
+		</item>
+		<item name="Water Ponds" type="node,closedway">
+			<key key="source" value="Open Cities Dhaka Survey" />
+			<key key="natural" value="water" />
+		</item>
+	</group>
+	
+	<item name="Solid Waste" type="node,closedway">
+		<key key="source" value="Open Cities Dhaka Survey" />
+		<key key="landuse" value="dump" />
+		<key key="dump:official" value="no" />
+		<check key="dump:official" text="Is it an official dump site?" default="off" delete_if_empty="false" value_on="yes" value_off="no"/>
+		<label text="An unofficial dump site is a primary dump site, where the neighborhood dumps their trash before it goes to the official dump site." />
+	</item>
+	
+	<item name="Ward Boundary" type="closedway,relation">
+		<key key="source" value="Open Cities Dhaka Survey" />
+		<key key="boundary" value="administrative" />
+		<key key="admin_level" value="8" />
+		<text key="name" text="Name" default="" delete_if_empty="true"/>
+	</item>
+</group>
+</presets>
