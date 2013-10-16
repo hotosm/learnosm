@@ -375,9 +375,9 @@ body {
     .github:hover:before {background-position:-80px -178px;}
 .sponsors span {display:block;}
   .sponsors span a {color:#fc3f51;}
-.sponsors a.license {
+a.license {
   position:absolute;
-  margin:-37px 0 0 190px;
+  left:360px;
   }
 .sponsors a.logo {margin-top:30px;}
   .sponsors a.logo-hot {background-position:0 0;}
@@ -463,10 +463,15 @@ body {
 /* doc nav */
 .doc-nav {
   position:absolute;
+  padding-top: 30px;
 }
 .doc-nav.fixed {
   position:fixed;
-  top:10px;
+  top: 0;
+}
+.doc-nav.bottom {
+  positon:absolute;
+  bottom: 200px;
 }
 .doc-nav ul li a {
   white-space: nowrap;
@@ -667,14 +672,19 @@ body {
   #ads a {border-radius:0;}
   #ads .ad1, #ads .ad2, #ads .ad3 {height:auto;}
   #ads .ad1 a, #ads .ad2 a, #ads .ad3 a {margin:0;}
-  #ads .ad1 span.door {margin-top:-60px;}
+  /*#ads .ad1 span.door {margin-top:-60px;}*/
   #footer {position:relative;}
   .searchbox-default {padding-left:10px;float:left;}
   .searchbox {border-radius:0px; border:8px solid #f0f0f0;}
   .searchbox input {width:200px;}
   .doc-nav,.doc-nav.fixed {position:relative;margin-bottom:20px;}
-  .doc-main {margin-left:0%;}
-  .feedback {padding-top:20px;}
+  .doc-main {margin-left:0%}
+  .feedback {padding-top:20px;padding-left:15px;}
   .notfound {width:300px;}
   img {max-width:300px;}
+  .doc h1, .doc p, .doc ul, .doc ol {margin-left:15px;width:95%;}
+  .doc h2, .doc h3 {margin-left:30px;width:95%;}
+  #content {padding-bottom:50px;}
+  #footer {padding-left:15px;}
+  a.license {left:250px;top:10px;}
   }
