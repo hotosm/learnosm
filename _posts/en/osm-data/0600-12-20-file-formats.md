@@ -16,9 +16,7 @@ be stored in traditional computer files, though there are many different
 file formats for geographic data.
 
 In this section we'll go through a few ways of storing geographic data,
-explain how they work and how they're typically used. This should help
-you understand the basics of geographic file formats and the ways in which
-you may choose to store your data.
+explain how they work and how they're typically used.
 
 .OSM Files
 -----------
@@ -57,10 +55,10 @@ that contains building data might have files with the following extensions:
 
 Shapefiles will often have additional files too which contain other information.
 
-A shapefile must be designated to hold only one type of feature (object)
+A shapefile must be designated to hold only one type of feature
 (points, lines, or polygons), and each feature has it's attributes contained in a table.
 Unlike the OpenStreetMap system in which every object can have an unlimited number of tags,
-the attributes of features in a shapefile must fit into the shapefiles defined table
+the attributes of features in a shapefile must fit into the shapefile's defined table
 structure, which might look something like this:
 
 ![shapefile attributes][]
@@ -72,16 +70,16 @@ Databases
 ---------
 Many types of information are stored in database systems, which provide a logical
 way of organizing and accessing data. Geographic data is no different, although
-databases designed for geodata are specialized to handle the complex longitudes
-and latitudes.
+databases designed for geodata are specialized to handle the complex functions that
+querying geographic data requires.
 
-OpenStreetMap data is often stored in a Postgresql database with PostGIS extensions.
+OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensions.
 This type of database provides fast access to the data and can be used easily with
 Mapnik, a piece of software that creates the map tiles used in web slippy maps. There
-are several tools available for importing raw OSM data into a Postgresql database.
+are several tools available for importing raw OSM data into a PostgreSQL database.
 
 Another type of database is known as SQLite, which provides similar functionality as
-a Postgresql database, but is all stored in a single file and doesn't require
+a PostgreSQL database, but is all stored in a single file and doesn't require
 database software to be running. These are a little more difficult to create yourself,
 but can be easier to work with for small sets of data.
 

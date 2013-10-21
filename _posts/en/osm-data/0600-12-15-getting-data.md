@@ -9,22 +9,11 @@ category: osm-data
 Getting OSM Data
 =================
 When you want to get the most recent OpenStreetMap data, the easiest way is
-to download the data that you want from a website. There are various web services
+to download an extract from a website. There are various web services
 that provide data extracts for an area of your choosing.
-
-First, we'll go over several sites where you can download OSM data for various
-regions. These sites usually update the data at regular intervals and include
-a default set of tags in the output shapefiles.
-
-Then we'll look at a couple other sites that offer a little more customization
-of data extracts.
 
 Downloading Data Extracts
 --------------------------
-Most consumers of OSM data simply want to download the data they want in a format
-compatible with their GIS software. In this case, there are several websites which
-make it easy to access OpenStreetMap data.
-
 ### GeoFabrik
 [GeoFabrik](http://geofabrik.de) is a company which specializes in working
 with OpenStreetMap. They provide a variety of free extracts in shapefile and raw OSM format
@@ -40,10 +29,10 @@ The disadvantage to this site is that it is not updated regularly.
 >	Remember that features in OpenStreetMap have an unlimited number of "free" tags,
 >	but shapefiles have attributes stored in a limited number of columns. This means
 >	that when OSM data is converted into shapefiles, only the specified tags will be
->	included in the shapefile table. The websites listed here provide shapefiles
+>	included in the shapefile table. The websites listed above provide shapefiles
 >	with a default set of common tags, but if you want to extract specific tags
 >	you will need to use one of the more specialized services in the next section
->	or learn how to extract the data yourself.
+>	or learn how to export the data yourself.
 
 Customized Extracts
 -------------------
@@ -51,12 +40,19 @@ Customized Extracts
 The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users
 to select the area that they want to extract, and also use [JOSM Presets](/en/editing/josm-presets)
 to select custom tags to be included in the extract. The service is available to all countries where
-HOT works. [export.hotosm.org](http://export.hotosm.org)
+HOT works, at [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 
 ### BBBike
 You can select your own area from any part of the world using the service at [http://extract.bbbike.org/](http://extract.bbbike.org/). The only disadvantage is that you aren't able to select customizable tags.
+
+Summary
+-------
+The services mentioned in this chapter are all that the average user needs to get the OSM
+data they want and be able to work with it in GIS software. However, you may want to learn
+more powerful ways of working with the data yourself. The remaining chapters in this section are
+quite technical, but show more advanced methods of manipulating and accessing OSM data.
 
 
 [hot exports]: /images/en/osm-data/getting-data/hot-exports.png

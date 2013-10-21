@@ -34,7 +34,8 @@ Because of this limitation, there are various methods of **exporting** and
 OpenStreetMap data from its native format into a format that is convenient for you.
 This is slightly different from **extracting** data, which means to cut the data
 from the area of your choosing.  It may also mean to pull out the specific features
-that you want from an area. We'll learn more about this throughout this section.
+that you want from an area. These terms are often used interchangeably. We'll learn
+more about this throughout the OSM Data section.
 
 Using Geodata
 --------------
@@ -46,7 +47,7 @@ for users to edit OpenStreetMap. But they are not software meant for analyzing o
 this function is best left to other applications. GIS software, such as the free and open
 source [Quantum GIS (QGIS)](http://www.qgis.org), allows users to design good-looking maps,
 to query and analyze data, and much more. GIS software can also be used for editing geodata,
-but it much easier to edit OpenStreetMap with the dedicated OSM editors.
+but it is much easier to edit OpenStreetMap with the dedicated OSM editors.
 
 In the next chapter we will take a closer look at file formats which are associated with
 OpenStreetMap and geographic data in general. Then we'll look at various ways to access and
