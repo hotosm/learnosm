@@ -128,6 +128,6 @@ Additionally, a detailed explanation of all possible elements can be found [here
 Good luck!
 
 
-[sample building menu]: {{sitebaseurl}}/images/en/editing/creating-custom-presets/sample-building-menu.png
-[sample presets form]: {{sitebaseurl}}/images/en/editing/creating-custom-presets/sample-presets-form.png
-[sample presets file]: {{sitebaseurl}}/images/en/editing/creating-custom-presets/sample-presets-file.png
+[sample building menu]: /images/en/editing/creating-custom-presets/sample-building-menu.png
+[sample presets form]: /images/en/editing/creating-custom-presets/sample-presets-form.png
+[sample presets file]: /images/en/editing/creating-custom-presets/sample-presets-file.png

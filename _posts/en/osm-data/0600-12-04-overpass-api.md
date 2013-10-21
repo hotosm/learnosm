@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Exporting Data
-permalink: /en/map-design/exporting-data/
+title: OverPass API
+permalink: /en/osm-data/overpass-api/
 lang: en
-category: map-design
+category: osm-data
 ---
 
-Exporting OSM Data
-===================
+OverPass API
+==============
 OpenStreetMap is a massive database of geographic data, and it's all open and free. That's
 great, but how do you get out the data that you want?
 
@@ -19,7 +19,7 @@ Before we begin, let's go over some terminology. First, **exporting** means to c
 
 Data Types
 -----------
-There are many different ways in which geographic can be stored. We usually think about OSM
+There are various ways in which geographic data can be stored. We usually think about OSM
 data being stored in one of three formats:
 
 -	**.osm** – This is the standard form of OpenStreetMap data, which is an XML format.  It is very useful for transmitting over the internet and processing on the web, but is not traditionally used in GIS applications. Getting data

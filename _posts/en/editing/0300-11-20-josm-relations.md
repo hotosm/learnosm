@@ -148,20 +148,20 @@ more information on the OSM Wiki, to help you map relations correctly.
 
 
 
-[multipolygon ways]: {{sitebaseurl}}/images/en/editing/josm-relations/multipolygon-ways.png
-[building preset]: {{sitebaseurl}}/images/en/editing/josm-relations/building-preset.png
-[new relation]: {{sitebaseurl}}/images/en/editing/josm-relations/new-relation.png
-[building relation]: {{sitebaseurl}}/images/en/editing/josm-relations/building-relation.png
-[new relation]: {{sitebaseurl}}/images/en/editing/josm-relations/new-relation.png
-[type multipolygon]: {{sitebaseurl}}/images/en/editing/josm-relations/type-multipolygon.png
-[outer inner]: {{sitebaseurl}}/images/en/editing/josm-relations/outer-inner.png
-[new multipolygon]: {{sitebaseurl}}/images/en/editing/josm-relations/new-multipolygon.png
-[multipolygon mapnik]: {{sitebaseurl}}/images/en/editing/josm-relations/multipolygon-mapnik.png
-[multipolygon demo]: {{sitebaseurl}}/images/en/editing/josm-relations/multipolygon-demo.png
-[route relation]: {{sitebaseurl}}/images/en/editing/josm-relations/route-relation.png
-[public transport preset]: {{sitebaseurl}}/images/en/editing/josm-relations/public-transport-preset.png
-[bus route relation]: {{sitebaseurl}}/images/en/editing/josm-relations/bus-route-relation.png
-[relation panel button]: {{sitebaseurl}}/images/en/editing/josm-relations/relation-panel-button.png
+[multipolygon ways]: /images/en/editing/josm-relations/multipolygon-ways.png
+[building preset]: /images/en/editing/josm-relations/building-preset.png
+[new relation]: /images/en/editing/josm-relations/new-relation.png
+[building relation]: /images/en/editing/josm-relations/building-relation.png
+[new relation]: /images/en/editing/josm-relations/new-relation.png
+[type multipolygon]: /images/en/editing/josm-relations/type-multipolygon.png
+[outer inner]: /images/en/editing/josm-relations/outer-inner.png
+[new multipolygon]: /images/en/editing/josm-relations/new-multipolygon.png
+[multipolygon mapnik]: /images/en/editing/josm-relations/multipolygon-mapnik.png
+[multipolygon demo]: /images/en/editing/josm-relations/multipolygon-demo.png
+[route relation]: /images/en/editing/josm-relations/route-relation.png
+[public transport preset]: /images/en/editing/josm-relations/public-transport-preset.png
+[bus route relation]: /images/en/editing/josm-relations/bus-route-relation.png
+[relation panel button]: /images/en/editing/josm-relations/relation-panel-button.png
 
 
 

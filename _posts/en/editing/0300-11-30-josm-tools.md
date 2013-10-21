@@ -174,22 +174,22 @@ These instructions are displayed on the information bar at the bottom of JOSM:
 
 
 
-[tools_menu_sample.osm]: {{sitebaseurl}}/images/en/editing/josm-tools/tools-menu-sample-file.png
-[Tools menu]: {{sitebaseurl}}/images/en/editing/josm-tools/tools-menu.png
-[Align nodes in circle]: {{sitebaseurl}}/images/en/editing/josm-tools/align-nodes-in-circle.png
-[Combine way]: {{sitebaseurl}}/images/en/editing/josm-tools/combine-way.png
-[Reverse and combine]: {{sitebaseurl}}/images/en/editing/josm-tools/reverse-and-combine.png
-[Way direction]: {{sitebaseurl}}/images/en/editing/josm-tools/way-direction.png
-[Simplify way]: {{sitebaseurl}}/images/en/editing/josm-tools/simplify-way.png
-[Create circle]: {{sitebaseurl}}/images/en/editing/josm-tools/create-circle.png
-[Align nodes in line]: {{sitebaseurl}}/images/en/editing/josm-tools/align-nodes-in-line.png
-[Orthagonalize]: {{sitebaseurl}}/images/en/editing/josm-tools/orthagonalize.png
-[Unglue way]: {{sitebaseurl}}/images/en/editing/josm-tools/unglue-way.png
-[Keyboard S]: {{sitebaseurl}}/images/en/editing/josm-tools/keyboard-s.png
-[Keyboard A]: {{sitebaseurl}}/images/en/editing/josm-tools/keyboard-a.png
-[Keyboard Z]: {{sitebaseurl}}/images/en/editing/josm-tools/keyboard-z.png
-[Keyboard Del]: {{sitebaseurl}}/images/en/editing/josm-tools/keyboard-del.png
-[Keyboard plus]: {{sitebaseurl}}/images/en/editing/josm-tools/keyboard-plus.png
-[Keyboard minus]: {{sitebaseurl}}/images/en/editing/josm-tools/keyboard-minus.png
-[Rotate demo]: {{sitebaseurl}}/images/en/editing/josm-tools/rotate-demo.png
-[Rotate instructions]: {{sitebaseurl}}/images/en/editing/josm-tools/rotate-instructions.png
+[tools_menu_sample.osm]: /images/en/editing/josm-tools/tools-menu-sample-file.png
+[Tools menu]: /images/en/editing/josm-tools/tools-menu.png
+[Align nodes in circle]: /images/en/editing/josm-tools/align-nodes-in-circle.png
+[Combine way]: /images/en/editing/josm-tools/combine-way.png
+[Reverse and combine]: /images/en/editing/josm-tools/reverse-and-combine.png
+[Way direction]: /images/en/editing/josm-tools/way-direction.png
+[Simplify way]: /images/en/editing/josm-tools/simplify-way.png
+[Create circle]: /images/en/editing/josm-tools/create-circle.png
+[Align nodes in line]: /images/en/editing/josm-tools/align-nodes-in-line.png
+[Orthagonalize]: /images/en/editing/josm-tools/orthagonalize.png
+[Unglue way]: /images/en/editing/josm-tools/unglue-way.png
+[Keyboard S]: /images/en/editing/josm-tools/keyboard-s.png
+[Keyboard A]: /images/en/editing/josm-tools/keyboard-a.png
+[Keyboard Z]: /images/en/editing/josm-tools/keyboard-z.png
+[Keyboard Del]: /images/en/editing/josm-tools/keyboard-del.png
+[Keyboard plus]: /images/en/editing/josm-tools/keyboard-plus.png
+[Keyboard minus]: /images/en/editing/josm-tools/keyboard-minus.png
+[Rotate demo]: /images/en/editing/josm-tools/rotate-demo.png
+[Rotate instructions]: /images/en/editing/josm-tools/rotate-instructions.png

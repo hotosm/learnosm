@@ -64,8 +64,8 @@ fix your mistakes and upload the changes again.  This is
 what is great about OSM: you can always make it better!
 
 
-[road building no]: {{sitebaseurl}}/images/en/editing/josm-editing-techniques/road-building-no.png
-[road building yes]: {{sitebaseurl}}/images/en/editing/josm-editing-techniques/road-building-yes.png
-[road connecting nodes]: {{sitebaseurl}}/images/en/editing/josm-editing-techniques/road-connecting-nodes.png
-[building overlap]: {{sitebaseurl}}/images/en/editing/josm-editing-techniques/building-overlap.png
-[building landuse]: {{sitebaseurl}}/images/en/editing/josm-editing-techniques/building-landuse.png
+[road building no]: /images/en/editing/josm-editing-techniques/road-building-no.png
+[road building yes]: /images/en/editing/josm-editing-techniques/road-building-yes.png
+[road connecting nodes]: /images/en/editing/josm-editing-techniques/road-connecting-nodes.png
+[building overlap]: /images/en/editing/josm-editing-techniques/building-overlap.png
+[building landuse]: /images/en/editing/josm-editing-techniques/building-landuse.png

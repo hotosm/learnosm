@@ -239,28 +239,28 @@ When you are just beginning OpenStreetMap, you don’t need to worry too much ab
 
 
 
-[misaligned images]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/misaligned-images.png
-[aerial vs gps]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/aerial-vs-gps.png
-[josm download button]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/josm-download-button.png
-[raw gps data]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/raw-gps-data.png
-[osm gps tracks few]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/osm-gps-tracks-few.jpg
-[osm gps tracks many]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/osm-gps-tracks-many.jpg
-[adjust imagery offset button]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/adjust-imagery-offset-button.png
-[adjust imagery offset]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/adjust-imagery-offset.png
-[josm lat lon]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/josm-lat-lon.png
-[josm lat lon dialogue]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/josm-lat-lon-dialogue.png
-[josm plugins tab]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/josm-plugins-tab.png
-[imagery_offset_db plugin]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/imagery-offset-db-plugin.png
-[offset exclamation]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/offset-exclamation.png
-[offset kuta bali]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/offset-kuta-bali.png
-[compare gps]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/offset-compare-gps.png
-[offsets button]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/offsets-button.png
-[deprecate offset]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/deprecate-offset.png
-[deprecate reason]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/deprecate-reason.png
-[store imagery offset]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/store-imagery-offset.png
-[offset description]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/offset-description.png
-[correctly placed]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/correctly-placed.png
-[offset website]: {{sitebaseurl}}/images/en/editing/correcting-imagery-offset/offset-website.png
+[misaligned images]: /images/en/editing/correcting-imagery-offset/misaligned-images.png
+[aerial vs gps]: /images/en/editing/correcting-imagery-offset/aerial-vs-gps.png
+[josm download button]: /images/en/editing/correcting-imagery-offset/josm-download-button.png
+[raw gps data]: /images/en/editing/correcting-imagery-offset/raw-gps-data.png
+[osm gps tracks few]: /images/en/editing/correcting-imagery-offset/osm-gps-tracks-few.jpg
+[osm gps tracks many]: /images/en/editing/correcting-imagery-offset/osm-gps-tracks-many.jpg
+[adjust imagery offset button]: /images/en/editing/correcting-imagery-offset/adjust-imagery-offset-button.png
+[adjust imagery offset]: /images/en/editing/correcting-imagery-offset/adjust-imagery-offset.png
+[josm lat lon]: /images/en/editing/correcting-imagery-offset/josm-lat-lon.png
+[josm lat lon dialogue]: /images/en/editing/correcting-imagery-offset/josm-lat-lon-dialogue.png
+[josm plugins tab]: /images/en/editing/correcting-imagery-offset/josm-plugins-tab.png
+[imagery_offset_db plugin]: /images/en/editing/correcting-imagery-offset/imagery-offset-db-plugin.png
+[offset exclamation]: /images/en/editing/correcting-imagery-offset/offset-exclamation.png
+[offset kuta bali]: /images/en/editing/correcting-imagery-offset/offset-kuta-bali.png
+[compare gps]: /images/en/editing/correcting-imagery-offset/offset-compare-gps.png
+[offsets button]: /images/en/editing/correcting-imagery-offset/offsets-button.png
+[deprecate offset]: /images/en/editing/correcting-imagery-offset/deprecate-offset.png
+[deprecate reason]: /images/en/editing/correcting-imagery-offset/deprecate-reason.png
+[store imagery offset]: /images/en/editing/correcting-imagery-offset/store-imagery-offset.png
+[offset description]: /images/en/editing/correcting-imagery-offset/offset-description.png
+[correctly placed]: /images/en/editing/correcting-imagery-offset/correctly-placed.png
+[offset website]: /images/en/editing/correcting-imagery-offset/offset-website.png
 
 
 

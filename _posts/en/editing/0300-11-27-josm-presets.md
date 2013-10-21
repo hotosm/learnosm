@@ -71,10 +71,10 @@ computer locally and added into JOSM.
 -	Click OK.
 
 
-[tagging presets tab]: {{sitebaseurl}}/images/en/editing/josm-presets/tagging-presets-tab.png
-[tagging presets menu]: {{sitebaseurl}}/images/en/editing/josm-presets/tagging-presets-menu.png
-[example presets]: {{sitebaseurl}}/images/en/editing/josm-presets/example-presets.png
-[indonesia building form]: {{sitebaseurl}}/images/en/editing/josm-presets/indonesia-building-form.png
-[plus button]: {{sitebaseurl}}/images/en/editing/josm-presets/plus-button.png
+[tagging presets tab]: /images/en/editing/josm-presets/tagging-presets-tab.png
+[tagging presets menu]: /images/en/editing/josm-presets/tagging-presets-menu.png
+[example presets]: /images/en/editing/josm-presets/example-presets.png
+[indonesia building form]: /images/en/editing/josm-presets/indonesia-building-form.png
+[plus button]: /images/en/editing/josm-presets/plus-button.png
 
 

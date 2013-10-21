@@ -73,5 +73,5 @@ maps. The most common areas for imagery to be inaccurately located are in hilly,
 mountainous areas. In the [next chapter](/en/editing/correcting-imagery-offset) we will see how
 to correct for this problem.
 
-[orange resolution]: {{sitebaseurl}}/images/en/editing/aerial-imagery/orange-resolution.png
-[low res high res]: {{sitebaseurl}}/images/en/editing/aerial-imagery/low-res-high-res.png
+[orange resolution]: /images/en/editing/aerial-imagery/orange-resolution.png
+[low res high res]: /images/en/editing/aerial-imagery/low-res-high-res.png

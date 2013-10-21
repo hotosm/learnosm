@@ -87,18 +87,18 @@ Summary
 When you edit in JOSM, you run the risk of running into conflicts.  Conflicts occur when an object has been edited by two people at a similar time.  By understanding what a conflict is and how to deal with it, you will be able to ensure that the best possible edits are saved to OpenStreetMap.
 
 
-[conflict detected]: {{sitebaseurl}}/images/en/editing/conflict-resolution/conflict-detected.png
-[resolved automatically]: {{sitebaseurl}}/images/en/editing/conflict-resolution/resolved-automatically.png
-[warning unresolved]: {{sitebaseurl}}/images/en/editing/conflict-resolution/warning-unresolved.png
-[check on server]: {{sitebaseurl}}/images/en/editing/conflict-resolution/check-on-server.png
-[still in use]: {{sitebaseurl}}/images/en/editing/conflict-resolution/still-in-use.png
-[synchronize node]: {{sitebaseurl}}/images/en/editing/conflict-resolution/synchronize-node.png
-[properties with conflicts]: {{sitebaseurl}}/images/en/editing/conflict-resolution/properties-with-conflicts.png
-[conflicts resolved]: {{sitebaseurl}}/images/en/editing/conflict-resolution/conflicts-resolved.png
-[synchronize node]: {{sitebaseurl}}/images/en/editing/conflict-resolution/synchronize-node.png
-[command stack]: {{sitebaseurl}}/images/en/editing/conflict-resolution/command-stack.png
-[one unresolved]: {{sitebaseurl}}/images/en/editing/conflict-resolution/one-unresolved.png
-[edit outside area]: {{sitebaseurl}}/images/en/editing/conflict-resolution/edit-outside-area.png
+[conflict detected]: /images/en/editing/conflict-resolution/conflict-detected.png
+[resolved automatically]: /images/en/editing/conflict-resolution/resolved-automatically.png
+[warning unresolved]: /images/en/editing/conflict-resolution/warning-unresolved.png
+[check on server]: /images/en/editing/conflict-resolution/check-on-server.png
+[still in use]: /images/en/editing/conflict-resolution/still-in-use.png
+[synchronize node]: /images/en/editing/conflict-resolution/synchronize-node.png
+[properties with conflicts]: /images/en/editing/conflict-resolution/properties-with-conflicts.png
+[conflicts resolved]: /images/en/editing/conflict-resolution/conflicts-resolved.png
+[synchronize node]: /images/en/editing/conflict-resolution/synchronize-node.png
+[command stack]: /images/en/editing/conflict-resolution/command-stack.png
+[one unresolved]: /images/en/editing/conflict-resolution/one-unresolved.png
+[edit outside area]: /images/en/editing/conflict-resolution/edit-outside-area.png
 
 
 <!-- More stuff, could go into an additional chapter -

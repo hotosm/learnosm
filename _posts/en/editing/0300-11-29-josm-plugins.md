@@ -322,5 +322,5 @@ queue of files waiting to be inserted into the database.
 -->
 
 
-[Plug]: {{sitebaseurl}}/images/en/editing/josm-plugins/plugins-tab.png
+[Plug]: /images/en/editing/josm-plugins/plugins-tab.png
 

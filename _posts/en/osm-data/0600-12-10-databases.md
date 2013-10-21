@@ -1,0 +1,34 @@
+---
+layout: doc
+title: OSM Databases
+permalink: /en/osm-data/databases/
+lang: en
+category: osm-data
+---
+
+OSM Databases
+==============
+
+
+Importing Data
+---------------
+All of the extract sites mentioned above also allow you to download raw OSM data, because the
+services themselves begin with OSM files and run specific applications to convert them into
+Shapefiles and other formats. You will find OSM data for download in several formats. The basic
+file type is *.osm*, but these files can be very large, so usually they are compressed into either
+*.osm.bz2* or *.osm.pbf* format. The advantage of raw OSM data is that it is complete, and you
+know that all attributes are contained in the data. Learning how to work with OSM files, however,
+can take some time.
+
+If you are comfortable with geographic database systems, you can import raw OSM data into a
+local geodatabase. This is most commonly done when you want to render your own web maps, or host
+a database service for another reason. There are several tools for importing OSM data into Postgresql/PostGIS:
+
+### osm2pgsql
+Useful for loading OSM data into a PostGIS database, particularly for rendering with the map renderer Mapnik.  No need for configuration, and its available for Windows, although the Windows version often contains bugs.  osm2pgsql can easily keep your database up-to-date with the most recent data.
+http://wiki.openstreetmap.org/wiki/Osm2pgsql
+
+### imposm
+Another importer for PostGIS, imposm is newer, faster, and smaller.  The drawbacks are that you can’t keep your database up-to-date without reloading the entire dataset, which can take some time.  imposm requires more configuration than osm2pgsql, which is helpful once you know exactly what you’re doing, but can take longer to get started.
+http://imposm.org
+
