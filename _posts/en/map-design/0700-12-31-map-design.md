@@ -2,7 +2,7 @@
 layout: doc
 permalink: /en/map-design/
 lang: en
-title: Map Design & Sharing Data
+title: Map Design
 category: map-design
 cover: yes
 nosearch: true
