@@ -179,7 +179,7 @@ and loads them into the database.
 ![qgis add postgis button][]
 
 -	Under “Connections” at the top, click “New.”
--	Give the new connection a name.  Under database type gisdb (or whatever you named your database).
+-	Give the new connection a name.  Under database type **gisdb** (or whatever you named your database).
 	Enter the username postgres and your password below.
 
 ![connection settings][]
