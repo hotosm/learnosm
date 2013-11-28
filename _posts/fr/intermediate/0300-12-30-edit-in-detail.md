@@ -108,7 +108,7 @@ avec des angles à 90 degrés avec seulement trois clics. Tout d'abord, vous tra
 bord de votre bâtiment, puis vous faites glisser la ligne à l'aide du curseur de la souris pour dimensionner et simplement créer un polygone.
 
 
-![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image19.png)
+![](/images/intermediate/fr_edit_in_detail_image19.png)
 
 	
 Vous pouvez également créer des bâtiments plus complexes à l'aide de l'option de fusion.
@@ -119,12 +119,12 @@ Vous pouvez également créer des bâtiments plus complexes à l'aide de l'optio
 En outre, vous pouvez modifier les paramètres par défaut (taille et attributs) à partir du menu
 <code class="menu">Modifier</code> et au bas de la liste l'item <code class="menu">Définir la grandeur des batiments</code>. Vous sélectionnez ensuite au bas du panneau <code class="menu">Définir la dimension de l'immeuble</code>.  
 
-![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image11.png)
+![](/images/intermediate/fr_edit_in_detail_image11.png)
 
 Si vous traitez une série d'immeubles de dimension similaire, vous pouvez modifier la taille des immeubles pour une certaine dimension, soit par exemple 5 x 6 mètres (l'unité est en mètres).  Encore plus, si vous numérisez des infrastructures similaires, telles que des bungalows dans une même zone, vous pouvez éditer les attributs pour être tous identiques à partir de l'onglet <code class="menu">Avancé</code>.
 
-![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image13.png)
-![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image64.png)
+![](/images/intermediate/fr_edit_in_detail_image13.png)
+![](/images/intermediate/fr_edit_in_detail_image64.png)
 
 B. Utilsplugin2 (Plus d'outils) : Ce greffon a quelques fonctionnalités qui peuvent être utiles pour éditer.  
 
@@ -161,7 +161,7 @@ C. Utilsplugin2 (Sélection) :
 Après l'installation du greffon et le redémarrage de JOSM, le menu suivant sera égalelemt ajouté :  <code class="menu">Sélection</code>
 
 
-![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image55.png)
+![](/images/intermediate/fr_edit_in_detail_image55.png)
 
 
 Les outils suivants se sont révélés être les plus utiles :
@@ -208,11 +208,11 @@ Pour créer une relation avec ces trois polygones, vous devez :
 1. Sélectionnez tous les polygones.
 2. Aller à <code class="menu">Outils</code> et près du bas <code class="menu">multi-polygone</code>
 
-	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image49.png)
+	![](/images/intermediate/fr_edit_in_detail_image49.png)
 
 3. Les polygones doivent automatiquement être créés en tant que multipolygones.
 
-	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image14.png)
+	![](/images/intermediate/fr_edit_in_detail_image14.png)
 
 Vous verrez alors votre bâtiment représenté avec une surface solide et les polygones intérieurs représentés avec des vides. Les données sous-jacentes de la relation dans cet
 exemple sont visibles sur OpenStreetMap:[http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
@@ -254,11 +254,11 @@ caractéristiques supplémentaires, comme les arrêts de bus représentés par d
 3. Allez dans le menu <code class="menu">Attributs</code> et
 	sélectionnez successivement dans le menu déroulant : <code class="menu">Transport</code>, puis <code class="menu">Transport Public</code>, puis <code class="menu">Public transport route</code> ou <code class="menu">Itinéraire maitre</code>. L'Itinéraire maitre est l'itinéraire principal, tandis que la route est une variante de l'itinéraire du bus.
 	
-	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image54.png)
+	![](/images/intermediate/fr_edit_in_detail_image54.png)
 
 4. Remplissez les informations correspondantes relativement à la ligne de bus.
 
-	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image60.png)
+	![](/images/intermediate/fr_edit_in_detail_image60.png)
 
 Les relations sont parfois difficiles à comprendre et n'ont pas nécessairement à être utilisées souvent. Il est cependant important de les connaitre. À mesure que vous développez vos compétences avec OSM et voulez créer des objets plus complexes, soit par exemple les immeubles, rivières et routes, les relations seront utiles.
 
@@ -323,7 +323,7 @@ Nous terminerons ce chapitre avec ce bonus :
 
 - Pivoter un objet : Si vous maintenez les touches MAJ + CTRL enfoncées et faites glisser votre souris, bouton gauche enfoncé, vous pouvez faire pivoter les objets sélectionnés.  
 
-	![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image31.png)
+	![](/images/intermediate/fr_edit_in_detail_image31.png)
 
 
 ## Résumé
@@ -432,7 +432,7 @@ La partie la plus importante se trouve en haut de la fenêtre avec un tableau de
 
 
 
-![](http://wiki.openstreetmap.org/wiki/File:Learnosm_intermediate_fr_edit_in_detail_image22.png)
+![](/images/intermediate/fr_edit_in_detail_image22.png)
 
 
 
