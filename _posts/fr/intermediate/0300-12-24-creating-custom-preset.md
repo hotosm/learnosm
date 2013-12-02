@@ -2,7 +2,7 @@ layout: doc
 title: Utiliser le Stockage de Données Séparé
 permalink: /fr/intermedaire/private-data-storage/
 lang: fr
-category: intermedaire
+category: intermediate
 ---
 
 XML et les modèles d’attributs JOSM

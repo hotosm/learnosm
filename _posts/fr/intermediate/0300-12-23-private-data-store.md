@@ -3,7 +3,7 @@ layout: doc
 title: Utiliser le Stockage de Données Séparé
 permalink: /fr/intermedaire/private-data-storage/
 lang: fr
-category: intermedaire
+category: intermediate
 ---
 
 Utiliser le Stockage de Données Séparé

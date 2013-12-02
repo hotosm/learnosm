@@ -4,7 +4,7 @@ layout: doc
 title: Edition avancée
 permalink: /fr/intermedaire/editing-in-detail/
 lang: fr
-category: intermedaire
+category: intermediate
 ---
 
 Edition avancée

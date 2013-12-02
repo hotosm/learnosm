@@ -3,7 +3,7 @@ layout: doc
 title: Gestionnaire des Tâches
 permalink: /fr/intermedaire/tasking-manager/
 lang: fr
-category: intermedaire
+category: intermediate
 ---
 
 Gestionnaire des Tâches

@@ -3,7 +3,7 @@ layout: doc
 title: Utiliser le Stockage de Données Séparé
 permalink: /fr/intermedaire/editing-the-wiki/
 lang: fr
-category: intermedaire
+category: intermediate
 ---
 
 

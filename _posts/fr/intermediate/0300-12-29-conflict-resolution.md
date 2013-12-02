@@ -3,7 +3,7 @@ layout: doc
 title: Résoudre les conflits
 permalink: /fr/intermedaire/conflict-resolution/
 lang: fr
-category: intermedaire
+category: intermediate
 ---
 
 
