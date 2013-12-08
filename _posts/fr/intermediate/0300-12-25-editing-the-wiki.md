@@ -1,17 +1,17 @@
 ---
 layout: doc
-title: Utiliser le Stockage de Données Séparé
-permalink: /fr/intermedaire/editing-the-wiki/
+title: Editer le Wiki
+permalink: /fr/intermediate/editing-the-wiki/
 lang: fr
 category: intermediate
 ---
-
 
 
 Editer le Wiki
 ===============
 
 Introduction
+--------------
 
 OpenStreetMap est avant toute chose une communauté de cartographes qui
 travaillent ensemble.
@@ -60,6 +60,7 @@ utiles de contribution au wiki, comme par exemple la traduction de pages
 importantes.
 
 1. Création d’un compte sur le wiki OSM
+-----------------------------------------
 
 ![image](/images/fr/0300-12-25-editing-the-wiki/image21.png)
 
@@ -127,6 +128,7 @@ votre nom d'utilisateur ainsi que d'autres liens disponibles doivent
 ![image](/images/fr/0300-12-25-editing-the-wiki/image05.png)
 
 2. Premiers pas
+-----------------
 
 Commençons par éditer votre page d'utilisateur. Chaque utilisateur
 dispose d’une page personnelle sur le wiki. Ces pages sont le plus
@@ -234,6 +236,7 @@ d’utilisateur.
 [http://wiki.openstreetmap.org/wiki/User:Awalayes](http://wiki.openstreetmap.org/wiki/User:Awalayes)
 
 3. Plus d’options de mise en page
+------------------------------------
 
 Dans cette section, nous présenterons différentes techniques de mise en
 page de votre information sur une page wiki ainsi que certaines des

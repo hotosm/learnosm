@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Utiliser le Stockage de Données Séparé
-permalink: /fr/intermedaire/private-data-storage/
+permalink: /fr/intermediate/private-data-storage/
 lang: fr
 category: intermediate
 ---

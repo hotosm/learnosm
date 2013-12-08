@@ -2,7 +2,7 @@
 ---
 layout: doc
 title: Edition avancée
-permalink: /fr/intermedaire/editing-in-detail/
+permalink: /fr/intermediate/editing-in-detail/
 lang: fr
 category: intermediate
 ---

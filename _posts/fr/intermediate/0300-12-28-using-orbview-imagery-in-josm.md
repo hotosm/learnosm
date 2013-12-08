@@ -1,13 +1,10 @@
 ---
 layout: doc
 title: Orbview-3 Importer de l’imagerie satellite sous JOSM
-permalink: /fr/intermedaire/using-orbview-imagery/
+permalink: /fr/intermediate/using-orbview-imagery/
 lang: fr
 category: intermediate
 ---
-
-
-
 
 
 Orbview-3 : Importer de l’imagerie satellite sous JOSM
@@ -31,11 +28,11 @@ Java.
 Dans ce chapitre, nous allons apprendre à télécharger gratuitement des
 images Orbview-3 et les utiliser dans JOSM.
 
-\1. Ajouter de la mémoire de JOSM
+1. Ajouter de la mémoire de JOSM
 
-\2. Télécharger des images Orbview-3
+2. Télécharger des images Orbview-3
 
-\3. Ajouter de l’imagerie aérienne en utilisant le greffon ¨ImportImage¨
+3. Ajouter de l’imagerie aérienne en utilisant le greffon ¨ImportImage¨
 
 1. Ajouter de la mémoire à JOSM
 -------------------------------
@@ -44,14 +41,14 @@ Avant d'utiliser l’imagerie Orbview-3 dans JOSM, il est nécessaire
 d’augmenter la mémoire allouée à Java. Si ce n’est pas fait, vous pouvez
 voir s’afficher le message d’erreur suivant, possiblement en anglais :
 
-![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image09.png)^[[a]](#cmnt1)^
+![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image09.png)
 
 Cela se produit parce que la mémoire allouée à JOSM est limitée à 494
 MB. Pour ajouter des images satellites, davantage de ressources mémoire
 sont requises. Nous allons apprendre à augmenter la mémoire allouée à
 JOSM:
 
-\1. Vous devez chercher le fichier nommé "josm-tested.jar" dans le
+1. Vous devez chercher le fichier nommé "josm-tested.jar" dans le
 répertoire de JOSM "josm-tested.jar" ou "josm-latest.jar" (pour les
 éditions les plus récentes de JOSM).
 
@@ -60,11 +57,11 @@ répertoire de JOSM "josm-tested.jar" ou "josm-latest.jar" (pour les
 Recherchez le fichier jar executable apelé josm-tested.jar ou
 josm-lasted.jar
 
-\2. Créez un raccourci vers le fichier "josm-tested.jar" par un clic
+2. Créez un raccourci vers le fichier "josm-tested.jar" par un clic
 droit de votre souris puis en sélectionnant "créer un raccourci", faites
 ensuite glisser le raccourci sur le bureau.
 
-\3. Cherchez l’emplacement du fichier "java.exe" en tapant "java.exe" ou
+3. Cherchez l’emplacement du fichier "java.exe" en tapant "java.exe" ou
 "java" dans la boîte de recherche du menu Démarrer, faites un clic droit
 et sélectionnez Ouvrir l’emplacement du fichier.
 
@@ -76,10 +73,10 @@ bits.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image03.png)
 
-\3. Clic droit sur l’icône "josm-tested" sur le bureau et cliquez sur
+4. Clic droit sur l’icône "josm-tested" sur le bureau et cliquez sur
 Propriétés
 
-\4. Dans l’option de type "cible" tapez C:\\WINDOWS\\system32\\javaw.exe
+5. Dans l’option de type "cible" tapez C:\\WINDOWS\\system32\\javaw.exe
 -jar -Xmx512M "C: \\ Program Files \\ JOSM \\ josm-tested.jar"
 
 (Remarque : vous devrez peut être saisir "josm-latest.jar" plutot que
@@ -110,13 +107,13 @@ routes et/ou l’emprise des infrastructures de base.
 
 A. Créer un compte d’utilisateur
 
-\1. Allez à
+1. Allez à
 [http://earthexplorer.usgs.gov/](http://earthexplorer.usgs.gov/) et
 créez un compte. Cliquez sur le bouton Register en haut à droite.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image06.png)
 
-\2. Vous serez invité à remplir les informations relatives à votre
+2. Vous serez invité à remplir les informations relatives à votre
 compte d’utilisateur : affiliation de l'utilisateur, adresse et
 confirmation. Dans la première fenêtre de connexion, vous devez entrer
 votre nom d’utilisateur et le mot de passe qui sera utilisé pour vous
@@ -124,13 +121,13 @@ connecter à ce service de l’USGS.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image18.png)
 
-\3. Remplissez les informations relatives au but pour lequel vous
+3. Remplissez les informations relatives au but pour lequel vous
 utilisez ces images de l’USGS qui intéressent l’USGS. Vous pouvez
 réutiliser les éléments de réponse ci-dessous si nécesssaire.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image22.png) ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image07.png)
 
-\4. Remplissez enfin vos coordonnées personnelles : nom, adresse,
+4. Remplissez enfin vos coordonnées personnelles : nom, adresse,
 courriel et numéro de téléphone. Cette étape terminée, vous devriez être
 inscrit à ce service de l’USGS.
 
@@ -164,7 +161,7 @@ téléchargement au mieux des ressources de votre connexion internet.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image20.png)
 
-\7. Une liste de plusieurs fournisseurs d’images s’affiche, il convient
+7. Une liste de plusieurs fournisseurs d’images s’affiche, il convient
 de ne retenir que l’imagerie du domaine public, car c’est une licence
 compatible avec la license Creative Commons Open Database License (ODbL)
 d’OpenstreetMap. Sélectionner dans la colonne de gauche les images de
@@ -182,7 +179,7 @@ l’imagerie Orbview-3.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image04.png)
 
-\9. Lorsque vous avez sélectionné une ou plusieurs images à télécharger,
+9. Lorsque vous avez sélectionné une ou plusieurs images à télécharger,
 vous devez choisir un format de téléchargement. Le format GIS Ready
 Bundle est ici le plus adapté à nos besoins. Les autres sont soit très
 lourds ou sont dépourvus de géoréférencement. Sélectionnez votre option
@@ -190,16 +187,16 @@ de téléchargement en cliquant sur : ¨Select Download Option¨.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image05.jpg)
 
-\10. Une fois l’image téléchargée, il vous faut extraire les fichiers
+10. Une fois l’image téléchargée, il vous faut extraire les fichiers
 dans un dossier. Vous devriez obtenir (3) trois fichiers comme ceci :
 
-![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image01.png)^[[b]](#cmnt2)^
+![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image01.png)
 
 Vous avez téléchargé les images et nous allons maintenant les ajouter
 dans JOSM.
 
-\3. Ajouter l’imagerie Orbview-3 dans JOSM avec le greffon
-¨ImportImagePlugin¨
+3. Ajouter l’imagerie Orbview-3 dans JOSM avec le greffon ¨ImportImagePlugin¨
+-------------------------------------------------------------------------------
 
 A. Télécharger le greffon
 
@@ -250,6 +247,7 @@ source d’imagerie.
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image24.png)
 
 Résumé
+--------
 
 Au terme de ce chapitre, vous devriez être maintenant en mesure
 d’ajouter des images satellites Orbview-3 à l’aide du greffon
@@ -257,17 +255,18 @@ d’ajouter des images satellites Orbview-3 à l’aide du greffon
 d’imagerie aériennes du domaine public.
 
 Derniers Rappels
+-----------------
 
-\1. Comme toujours dans OSM, vous ne devez travailler qu’avec de
+1. Comme toujours dans OSM, vous ne devez travailler qu’avec de
 l’imagerie aérienne dont les licences ou les droits dont vous bénéficiez
 sont compatibles avec la licence Creative Commons ODbL utilisée par le
 projet OSM.
 
-\2. Les images satellites doivent comporter un fichier de
+2. Les images satellites doivent comporter un fichier de
 géoréférencement. Assurez-vous de connaître le système de référence
 spatial de l’imagerie satellite et assurez-vous des options de
 paramétrages de votre carte dans JOSM.
 
-\3. Quand vous réutiliserez l’imagerie Bing, assurez-vous que les
+3. Quand vous réutiliserez l’imagerie Bing, assurez-vous que les
 paramètres de projection de votre carte dans JOSM sont de nouveau
 Mercator WGS 84.
