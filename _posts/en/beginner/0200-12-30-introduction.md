@@ -45,7 +45,7 @@ on the ground.
 
 Your map is informative. You might use a map like this to explain to
 someone where different places are, where problems are in your
-community, or merely to help someone find their way around. The uses of
+community, or merely to help someone find their way around. The use of
 your map is limited though. There is only one copy of the map and the
 way you drew it may make sense to you, but perhaps not to someone else
 who would have drawn their own map in a different way. Because your map
