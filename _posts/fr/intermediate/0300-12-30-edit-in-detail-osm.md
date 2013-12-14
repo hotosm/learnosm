@@ -1,4 +1,3 @@
-
 ---
 layout: doc
 title: Edition avancée
@@ -129,9 +128,7 @@ choisissez alors Inverser et fusionner.
     outil est aussi très utile pour divers objets de forme régulière,
     comme les cours de tennis, cours d'habitation, etc. ou les zones
     d'utilisation du sol. (À noter que l'utilisation du greffon
-    bâtiment, qui sera expliquée ci-dessous, est souvent plus facile
-
-d'utilisation).
+    bâtiment, qui sera expliquée ci-dessous, est souvent plus facile d'utilisation).
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image38.png)
 

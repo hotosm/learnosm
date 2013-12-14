@@ -6,7 +6,6 @@ lang: fr
 category: intermediate
 ---
 
-
 Editer le Wiki
 ===============
 
@@ -65,8 +64,7 @@ importantes.
 ![image](/images/fr/0300-12-25-editing-the-wiki/image21.png)
 
 Allez à
-[http://wiki.openstreetmap.org/wiki/FR:Main\_Page](http://wiki.openstreetmap.org/wiki/FR:Main_Page)[](http://www.google.com/url?q=http%3A%2F%2Fwiki.openstreetmap.org%2Fwiki%2FFR%3AMain_Page&sa=D&sntz=1&usg=AFQjCNHULEYXRcdQdGmYWoHgAoaY1E-DwQ)pour
-afficher la page principale du wiki OSM. Vous y consulterez beaucoup de
+[http://wiki.openstreetmap.org/wiki/FR:Main\_Page](http://wiki.openstreetmap.org/wiki/FR:Main_Page)[](http://www.google.com/url?q=http%3A%2F%2Fwiki.openstreetmap.org%2Fwiki%2FFR%3AMain_Page&sa=D&sntz=1&usg=AFQjCNHULEYXRcdQdGmYWoHgAoaY1E-DwQ) pour afficher la page principale du wiki OSM. Vous y consulterez beaucoup de
 contenus et de nombreux liens vers d'autres pages du wiki. Dans la
 colonne de gauche figurent les liens des pages principales du wiki. Le
 haut de page liste toutes les langues dans lesquelles cette page a été
@@ -263,47 +261,12 @@ N’hésitez pas à utiliser votre page de test pour vous exercer.
 
 ### Techniques simples de mise en page wiki
 
-| Description                               | Exemple          | Résultat           |
-|-------------------------------------------|------------------|------------------|
-| Un texte placé entre deux apostrophes (') sera affiché en italique.   | ''italique''  | *italique*     
-| Un texte placé entre trois apostrophes (') sera affiché en gras.   | '''gras''' | **gras**
-| Un texte placé entre cinq apostrophes (') sera affiché en italique gras.   | '''''italique gras'''''  | ***italique gras***
-| Quatre tirets à la suite permettent de créer une ligne horizontale. A utiliser de façon mesurée.   | - - - -  | ____________
-
+![image](/images/fr/0300-12-25-editing-the-wiki/wiki-formatting2.png)
 
 
 ### Mise en page spécifique
 
-| Description  | Example wiki source  |  Result   |
-|--------------|----------------------|-----------|
-| A pair of '< nowiki>' and '< /nowiki>' disables the wiki-syntax in the enclosed text.  | '''bold text''' | **bold text** 
-|     |  < nowiki>'''bold text'''< /nowiki> | '''bold text'''
-|Surround your text with '<!-- ', ' -->' and the enclosed text will not display on the wiki-page (a comment). | Comment! <!-- this is a comment which will not be shown -->  |  Comment!
-
-Description
-
-Exemple
-
-Résultats
-
-Les deux balises '<nowiki\>' et '</nowiki\>' encadrant du texte ont pour
-effet de suspendre la syntaxe wiki associée au texte enchâssé.
-
-'''gras'''
-
-<nowiki\>'''gras'''</nowiki\>
-
-gras
-
-'''gras'''
-
-Les expressions '<!-- ', ' --\>' placées autour du texte ont pour effet
-de cacher le texte anchâssé. A utiliser notamment à des fins de
-commentaire.
-
-Commentaire <!-- ceci est un commentaire et ne sera pas affiché--\>
-
-Commentaire
+![image](/images/fr/0300-12-25-editing-the-wiki/wiki-formatting.png)
 
 ### Titres et sous-titres
 
@@ -316,23 +279,9 @@ une table de matières sera automatiquement créée au sommet de la page.
 
 [](#)[](#)
 
-Exemple wiki
+![image](/images/fr/0300-12-25-editing-the-wiki/wiki-heading.png)
 
-Result
-
-= = = Titre 2 = = =
-
-Titre 2
-
-= = = = Titre 3 = = = =
-
-Titre 3
-
-= = = = = Titre 4 = = = = =
-
-Titre 4
-
-Listes
+### Listes
 
 On peut facilement créer une liste à puces. Pour créer un élément dans
 une liste à puce, il suffit d’utiliser une étoile (\*) comme le premier
@@ -348,40 +297,9 @@ mêler listes à puce et listes ordonnées à chaque niveau d’indentation.
 
 [](#)[](#)
 
-Exemple wiki
+![image](/images/fr/0300-12-25-editing-the-wiki/wiki-list.png)
 
-Résultat
-
-\* Elément d’une liste à puce
-
-\* Autre élément
-
--   Elément d’une liste à puce
--   Autre élément
-
-\# Elément d’une liste ordonnée
-
-\# Autre élément
-
-1.  Elément d’une liste ordonnée
-2.  Autre élément
-
-\* Cette liste présente
-
-\*\# Deux niveaux.
-
-\*\# Ordonnanceement au second niveau d’indentation , et
-
-\* puces au premier niveau
-
--   Cette liste présente
-
-1.  Deux niveaux.
-2.  Ordonnancement au second niveau d’indetation , et
-
--   puces au premier niveau
-
-Liens
+### Liens
 
 Les liens dans le wiki OpenStreetMap sont simples d’utilisation. Il
 suffit de placer deux double crochets [[page-wiki]] autour du nom de la
@@ -410,40 +328,9 @@ OSM].
 
 [](#)[](#)
 
-Exemple wiki
+![image](/images/fr/0300-12-25-editing-the-wiki/wiki-links.png)
 
-Résultat
-
-http://wiki.openstreetmap.org/wiki/Map\_Features
-
-[[Map Features]]
-
-[[Map Features | le texte est différent mais pointe vers le même lien]]
-
-[Map Features](https://wiki.openstreetmap.org/wiki/Map_Features)
-
-[le texte est différent mais pointe vers le même
-lien](https://wiki.openstreetmap.org/wiki/Map_Features)
-
-http://wikipedia.org/wiki/OpenStreetMap
-
-[[wikipedia:OpenStreetMap]]
-
-[[wikipedia:OpenStreetMap | texte différent]]
-
-[wikipedia:OpenStreetMap](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOpenStreetMap&sa=D&sntz=1&usg=AFQjCNF4C3qJuoJfz7xacQhtvhMDVhwzFA)
-
-[texte différent](http://en.wikipedia.org/wiki/OpenStreetMap)
-
-http://www.walking-papers.org
-
-[http://www.walking-papers.org texte différent]
-
-[http://www.walking-papers.org](http://www.walking-papers.org)
-
-[texte différent](http://www.walking-papers.org)
-
-Tableaux
+### Tableaux
 
 La création de tableaux dans un wiki présente des difficultés qui
 toutefois sont résolues aisément une fois maîtrisée la logique de ces
@@ -472,47 +359,7 @@ toute ambiguïté.
 
 [](#)[](#)
 
-Exemple wiki
-
-Résultat
-
-{| align="center"
-
-|+ Titre de table
-
-|- align="center"
-
-| This
-
-| is a
-
-|- align="center"
-
-| 2 x 2
-
-| table
-
-|}
-
-![image](/images/fr/0300-12-25-editing-the-wiki/image17.png)
-
-{| border="1"
-
-|- align="center"
-
-| This is a table
-
-{| align="center"
-
-|- align="center"
-
-| within
-
-|} another table
-
-|}
-
-![image](/images/fr/0300-12-25-editing-the-wiki/image08.png)
+![image](/images/fr/0300-12-25-editing-the-wiki/wiki-tables.png)
 
 Entraînez-vous à utiliser ces différentes techniques de mise en page de
 vos contenus dans le wiki OSM. Vous pouvez pour cela vous appuyer sur la
@@ -540,7 +387,8 @@ Vous trouverez également plus d’information sur l’édition des pages wiki
 dans la rubrique d’aide dédiée du wiki OSM :
 [http://wiki.openstreetmap.org/wiki/Help:Wiki-Editing](http://wiki.openstreetmap.org/wiki/Help:Wiki-Editing).
 
-\4. Conventions et Directives
+4. Conventions et Directives
+-------------------------------
 
 Vous êtes maintenant à même d’éditer ou de créer des pages dans le wiki
 OSM de la même facon que vous avez pu le faire sur votre page de test.
@@ -580,7 +428,8 @@ Structurer des pages wiki
     chaque page. Vous pouvez ainsi voir comment d’autres contributeurs
     formatent leur texte.
 
-\5. Traduire des pages wiki
+5. Traduire des pages wiki
+--------------------------
 
 La traduction de pages wiki importantes dans votre langue est toujours
 une contribution très utile. Comme vous avez pu le voir, de nombreuses
@@ -637,7 +486,8 @@ onglets, et un lien “Renommer” va apparaitre.
 Un formulaire pour renommer la page et expliquer la raison va
 s’afficher.
 
-\6. Listes de suivi de certaines pages wiki
+6. Listes de suivi de certaines pages wiki
+--------------------------------------------
 
 Il se peut que vous souhaitiez garder un oeil sur des pages que vous
 avez créées ou modifiées directement, ou sur des pages qui vous
@@ -681,10 +531,9 @@ suivi est modifiée”
 ![image](/images/fr/0300-12-25-editing-the-wiki/image16.jpg)
 
 Résumé
+------
 
 Dans ce chapitre, nous avons appris à modifier et ajouter des pages sur
 le Wiki OpenStreetMap. Vous devez maintenant avoir une bonne maîtrise
 des façons de créer une nouvelle page wiki, de mettre en forme des
 contenus ainsi que de traduire des pages existantes.
-
-

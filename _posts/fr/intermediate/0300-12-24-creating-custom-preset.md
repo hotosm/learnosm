@@ -1,13 +1,16 @@
+---
 layout: doc
-title: Utiliser le Stockage de Données Séparé
-permalink: /fr/intermediate/private-data-storage/
+title: XML et les modèles d’attributs JOSM
+permalink: /fr/intermediate/creating-custom-preset/
 lang: fr
 category: intermediate
 ---
 
 XML et les modèles d’attributs JOSM
+=====================================
 
 Introduction
+--------------
 
 A présent, vous avez probablement une bonne compréhension de la façon
 dont les objets sont dessinés dans JOSM et comment ajouter des
@@ -19,7 +22,8 @@ remplissez les informations appropriées. Dans ce chapitre, nous allons
 une fois de plus voir les attributs et les modèles d’attributs puis
 apprendre comment nous pouvons créer nos propres menus dans JOSM.
 
-\1. Attributs et modèles d’attributs
+1. Attributs et modèles d’attributs
+--------------------------------------
 
 Rappelez-vous que lorsque vous dessinez un objet sur la carte dans JOSM,
 vous devez lui associer des attributs pour décrire ce qu’est l’objet,
@@ -30,7 +34,7 @@ point qu’est le magasin et l’autre pour contenir le nom. Dans JOSM, les
 attributs sont affichés dans la fenêtre latérale Attributs
 /Appartenances lorsqu’un objet est sélectionné.
 
-![image](images/image20.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image20.png)
 
 Les attributs sont constitués de deux parties, la clé et la valeur. La
 clé définit généralement la catégorie d’information que vous associez et
@@ -46,12 +50,12 @@ shop = clothes
 Lorsqu’on crée un point avec ces attributs, JOSM va afficher l’objet
 comme ceci :
 
-![image](images/image06.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image06.png)
 
 Sur le site de OpenStreetMap, on observe que l’objet est représenté
 ainsi :
 
-![image](images/image00.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image00.png)
 
 Cela fonctionne parce que nous avons appliqué les attributs appropriés.
 
@@ -87,14 +91,15 @@ lorsque vous utilisez le menu de modèle d’attributs, les attributs
 corrects sont automatiquement ajoutés dans la fenêtre latérale
 "Attributs et appartenance" à droite.
 
-![image](images/image05.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image05.png)
 
 JOSM est livré avec la plupart des attributs les plus courants, mais
 parfois, vous voudrez ajouter vos propres attributs pour des données
 spécifiques. Le reste de ce chapitre expliquera comment créer un menu
 d’attributs personnalisé.
 
-\2. Introduction à XML
+2. Introduction à XML
+-------------------------
 
 Afin de créer notre propre menu d’attributs, nous devons d’abord
 comprendre un langage appelé XML. XML, qui signifie "Extensible Mark-up
@@ -108,12 +113,12 @@ de restaurant. Nous devons créer un élément racine pour contenir toutes
 les données se rapportant à notre menu. Notre élément racine aura une
 balise ouvrante et une balise fermante, comme ceci :
 
-![image](images/image19.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image19.png)
 
 L’information est contenue dans des balises <item\> (élément), et au
 sein de chacun d’elles, on peut trouver plusieurs descripteurs.
 
-![image](images/image29.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image29.png)
 
 Dans cet exemple, nous avons placé deux éléments <item\> dans notre
 élément <menu\> pour décrire deux éléments differents qui sont dans le
@@ -124,7 +129,7 @@ cela ajoute des informations sur l’élément.
 
 * * * * *
 
-Terminologie XML
+#Terminologie XML
 
 élément racine : l’élément le plus élevé dans un document XML, qui
 décrit son contenu, <menu\> dans notre exemple
@@ -149,7 +154,7 @@ est facile pour les ordinateurs de le comprendre. Pour donner un exemple
 supplémentaire, la structure XML du point que nous avons créé auparavant
 dans JOSM est affichée ci-dessous :
 
-![image](images/image02.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image02.png)
 
 Cette structure XML contient un élément racine <osm\> qui indique que
 les données OpenStreetMap sont contenues à l’intérieur. Ensuite, il
@@ -166,7 +171,8 @@ JOSM. Notez que les éléments <tag\> n’ont pas de balise de fermeture
 une barre oblique inverse (anti-slash) indique la fermeture de l’élément
 <tag ...attributs /\>.
 
-\3. Fichiers de modèles d’attributs (presets) JOSM
+3. Fichiers de modèles d’attributs (presets) JOSM
+---------------------------------------------------
 
 Comme vous l’avez déjà découvert, JOSM est préchargé avec un menu
 prédéfini qui contient les attributs les plus courants. Mais parfois,
@@ -180,13 +186,13 @@ des modèles d’attributs supplémentaires déjà existant dans JOSM.
 -   Lancez JOSM et ouvrir le menu Préférences en allant dans Edition
     --\> Préférences.
 -   Cliquez sur la troisième icône à partir du haut qui ressemble à
-    ceci:![image](images/image01.png)
+    ceci:![image](/images/fr/0300-12-24-creating-custom-preset/image01.png)
 
 -   Cliquez sur le troisième onglet intitulé modèles d’attributs.
 -   Sélectionnez "Buildings Indonesia by Kate Chapman" et cliquez sur le
     bouton flèche droite pour l'ajouter aux modèles actifs.
 
-![image](images/image23.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image23.png)
 
 -   Cliquez sur OK.
 -   Redémarrez JOSM.
@@ -196,9 +202,9 @@ des modèles d’attributs supplémentaires déjà existant dans JOSM.
     d’attributs que vous avez ajoutés en bas. Cliquez sur "Bâtiment"
     pour voir s’afficher son formulaire d’attributs.
 
-![image](images/image24.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image24.png)
 
-![image](images/image08.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image08.png)
 
 Lorsque nous avons ajouté ces nouveaux modèles d’attributs dans le menu
 Préférences, nous avons en fait ajouté un fichier XML qui décrit le
@@ -206,7 +212,8 @@ nouveau menu. Dans les sections suivantes, nous allons apprendre à créer
 notre propre fichier XML de modèle d’attributs que nous pouvons
 télécharger dans JOSM.
 
-\4. Un exemple de fichier de modèle d’attributs
+4. Un exemple de fichier de modèle d’attributs
+-----------------------------------------------
 
 Pour comprendre comment un fichier de modèle d’attributs doit être
 écrit, nous allons d’abord regarder le fichier XML de l’un des modèles
@@ -214,67 +221,21 @@ d’attributs pré-chargé dans JOSM. Lorsque vous allez dans le menu
 attributs et sélectionnez Equipements --\> Culture --\> Lieu de culte,
 vous allez voir s’afficher ce formulaire :
 
-![image](images/image11.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image11.png)
 
 Le XML de ce formulaire ressemble à ceci :
 
-<item name="Place of Worship" icon="presets/church.png"
-type="node,closedway,relation"\>
-
-<link
-href="http://wiki.openstreetmap.org/wiki/Tag:amenity=place\_of\_worship"
-/\>
-
-<label text="Edit Place of Worship" /\>
-
-<key key="amenity" value="place\_of\_worship" /\>
-
-<text key="name" text="Name" default="" delete\_if\_empty="true" /\>
-
-<combo key="religion" text="Religion"
-values="bahai,buddhist,christian,hindu,jain,jewish,muslim,sikh,spiritualist,taoist,unitarian,zoroastrian"
-default="" delete\_if\_empty="true" /\>
-
-<combo key="denomination" text="Denomination"
-values="anglican,baptist,catholic,evangelical,jehovahs\_witness,lutheran,methodist,mormon,orthodox,pentecostal,presbyterian,protestant,quaker,shia,sunni"
-default="" delete\_if\_empty="true" /\>
-
-<combo key="service\_times" text="Service Times" values="Su 10:00,Su
-10:30,Su 11:00" default="" delete\_if\_empty="true" /\>
-
-<combo key="opening\_hours" text="Opening Hours for visiting"
-values="24/7,Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00;Sa 08:00-12:00"
-default="" delete\_if\_empty="true" /\>
-
-</item\>
+![image](/images/fr/0300-12-24-creating-custom-preset/xml-bloc.png)
 
 Cela n’est pas aussi compliqué qu’il peut paraître. Passons en revue le
 script XML ligne par ligne.
 
 La première ligne est la balise d'ouverture de notre élément racine
-<item\>. Il existe plusieurs attributs décrivant l'élément.
+<item\\>. Il existe plusieurs attributs décrivant l'élément.
 
 [](#)[](#)
 
-name=" Place of Worship’s name"
-
-Le nom de l’item que vous créez
-
-icon="presets/church.png"
-
-L'icône de l'objet. Les fichiers PNG sont les plus efficaces dans OSM
-car ils sont compressés avec un fond transparent.
-
-type="node,closedway,relation"
-
-Le type d’objet sur lequel ce modèle d’attributs peut être appliqué.
-
-node signifie qu’il peut être appliqué sur un noeud, way signifie qu’il
-peut être appliqué sur une ligne, closedway (ligne fermée) qu’il peut
-être appliqué sur un polygone et relation signifie qu’il peut être
-appliqué sur une relation (type d’objet OSM dont nous n’avons pas encore
-discuté). Notez que way n’est pas une option ici car un lieu de culte ne
-peut être une ligne - il doit être un point ou un polygone.
+![image](/images/fr/0300-12-24-creating-custom-preset/items-description.png)
 
 La deuxième ligne fournit un lien vers la page wiki d'OpenStreetMap pour
 ce type d’objet.
@@ -313,7 +274,8 @@ choisir parmi différentes options. La balise utilisée pour cela est
 
 La dernière ligne du XML est la balise de fermeture </item\>.
 
-\5. Création de son propre modèle d’attributs
+5. Création de son propre modèle d’attributs
+-----------------------------------------------
 
 Nous allons aborder maintenant la création de notre propre modèle
 d’attributs. Nous allons créer un exemple de menu de modèle d’attributs
@@ -380,13 +342,13 @@ formulaire est avec un checkbox (case à cocher), bien que nous pourrions
 aussi utiliser une liste déroulante. Une fois terminé, notre formulaire
 devrait ressembler à ceci :
 
-![image](images/image07.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image07.png)
 
 -   Ouvrez un éditeur de texte et suivez pendant que nous créons le XML
     pour ce modèle d’attributs. Un éditeur simple et commun à utiliser
     sur Windows est Notepad.
 
-![image](images/image16.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image16.png)
 
 Il est cependant préférable d’utiliser un éditeur comme
 [Notepad++](http://notepad-plus-plus.org/). NE PAS utiliser des
@@ -396,7 +358,7 @@ Word.
 -   Tout d'abord, nous devons créer un élément racine dans notre XML
     afin que JOSM sache qu’il s’agit d’un fichier de modèle d’attributs.
 
-![image](images/image27.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image27.png)
 
 -   Ensuite, nous allons créer un élément appelé <group\>. Ce n’est pas
     vraiment nécessaire pour notre exemple, car nous ne faisons que
@@ -406,7 +368,7 @@ Word.
     N’oubliez pas d'ajouter les balises de fermeture respectives
     </group\> et </ presets\> à vos éléments.
 
-![image](images/image09.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image09.png)
 
 -   Maintenant, nous pouvons ajouter un élément <item\> dans notre menu.
     Celui-ci sera placé à l'intérieur de l'élément <group\>. Et à
@@ -415,7 +377,7 @@ Word.
     voulons avoir dans notre formulaire. Lorsque vous aurez terminé, le
     fichier ressemblera à ceci :
 
-![image](images/image17.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image17.png)
 
 Beaucoup d’éléments sont similaires à ce que vous avez vu auparavant.
 Nous allons les analyser. Dans l'élément <item\> nous avons créé six
@@ -476,7 +438,7 @@ ressemble.
 -   Ouvrez les préférences dans JOSM et cliquez sur le menu "Modèles
     d’attributs", comme vous l’avez fait auparavant.
 -   Sur le côté droit, à côté de "Modèles actifs", cliquez sur le bouton
-    ![image](images/image13.png)
+    ![image](/images/fr/0300-12-24-creating-custom-preset/image13.png)
 
 -   Tapez "Accès Ménages" dans le champ "Nom".
 -   À côté de "Adresse web / fichier", ouvrez le fichier XML que vous
@@ -488,9 +450,10 @@ ressemble.
 -   Allez dans le menu Attributs. Vous devriez voir le menu que vous
     venez de créer.
 
-![image](images/image10.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image10.png)
 
 Résumé
+---------
 
 Ce chapitre fournit des explications sur les attributs, les modèles
 d’attributs, et la manière de créer son propre modèle d’attributs XML,
@@ -506,17 +469,19 @@ que vous pouvez mettre dans votre modèle d’attributs XML.
 * * * * *
 
 Appendice A - Liste des éléments XML des modèles d’attributs
+==============================================================
 
 Voici une liste de tous les éléments dont vous avez besoin dans votre
 modèles d’attributs en XML. Il existe également une description
 condensée sur le wiki de JOSM à la page suivante :
 [http://josm.openstreetmap.de/wiki/TaggingPresets](http://josm.openstreetmap.de/wiki/TaggingPresets).
 
-\1. Éléments du menu
+1. Éléments du menu
+---------------------
 
 Voici les éléments (items) qui forment le squelette du menu Attributs.
 
-![image](images/image04.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image04.png)
 
 <group\> Utilisé pour regrouper des éléments (items) dans les
 sous-menus.
@@ -531,7 +496,8 @@ name est nécessaire, icon est facultatif.
 <separator/\> Insère une ligne de séparation dans le menu (ici après
 Transformateur).
 
-\2. Format des éléments d’un modèle d’attributs
+2. Format des éléments d’un modèle d’attributs
+------------------------------------------------
 
 Dans cette section sont présentés les différents types de balises XML
 permettant d’ajouter des attributs et la manière dont ces balises
@@ -543,7 +509,7 @@ Le paramètre text est requis.
 
 <label text="Sélectionnez un sport:"/\>
 
-![image](images/image15.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image15.png)
 
 <optional\> Utilisé pour regrouper les éléments optionnels d’un item.
 
@@ -557,7 +523,7 @@ delete\_if\_empty="true"/\>
 values="1,2,3,4,5,6,7,8,9,10" default=""
 delete\_if\_empty="true"/\></optional\>
 
-![image](images/image26.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image26.png)
 
 <space/\> Ajoute une ligne vide dans le formulaire.
 
@@ -567,7 +533,7 @@ Equivalent à <label text=" "/\>
 key="addr:interpolation" text="Numéro" values="odd,even,all,alphabetic"
 default="odd"/\>
 
-![image](images/image12.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image12.png)
 
 <link\> Ajoute un lien web pour ce type d’objet.
 
@@ -576,7 +542,7 @@ href est requis.
 <link
 href="[http://wiki.openstreetmap.org/wiki/Proposed\_features/House\_numbers/Karlsruhe\_Schema"/]()\>
 
-![image](images/image03.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image03.png)
 
 <text\> Une balise pour ajouter n’importe quel texte par l’utilisateur.
 
@@ -585,7 +551,7 @@ facultatifs.
 
 <text key="name" text="Name" default="" delete\_if\_empty="true" /\>
 
-![image](images/image21.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image21.png)
 
 <combo\> Affiche une liste déroulante à choix unique. Si modifiable est
 vrai (choix par défaut), les listes déroulantes peuvent être éditées
@@ -602,7 +568,7 @@ values="bahai,buddhist,christian,hindu,jain,jewish,muslim,sikh,spiritualist,taoi
 display\_values="bahaïsme,bouddhiste,christianisme,hindouisme,jaïnisme,judaïsme,islam,sikhisme,spiritualisme,taoïsme,unitarisme,zoroastrisme"
 default="" delete\_if\_empty="true" /\>
 
-![image](images/image14.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image14.png)
 
 <multiselect\> Affiche une liste à partir de laquelle zéro ou plusieurs
 valeurs peuvent être sélectionnées par l’utilisateur en maintenant la
@@ -628,7 +594,7 @@ required sont facultatifs.
 <multiselect="license\_classes" text="Modifier une auto-école"
 values="A1;A;B;BE;C" default="" delete\_if\_empty="true" /\>
 
-![image](images/image25.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image25.png)
 
 <check\> Une case à cocher que l'utilisateur peut sélectionner ou
 désélectionner.
@@ -649,7 +615,7 @@ key="fuel:octane\_98" text="Indice d’octane 98" default="off"
 delete\_if\_empty="true"/\><check key="fuel:octane\_100" text="Indice
 d’octane 100" default="off" delete\_if\_empty="true"/\>
 
-![image](images/image18.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image18.png)
 
 <key\> key est un paramètre toujours requis dans les balises, que ce
 soit <text\>, <combo\> ou <multiselect\>. C’est aussi une balise pour
@@ -660,7 +626,7 @@ l’élément Bâtiment du modèle d’attributs, l’attribut "building=yes" se
 appliqué automatiquement à l’objet. Cette balise définit donc une valeur
 spécifique à une clé.
 
-![image](images/image28.png)
+![image](/images/fr/0300-12-24-creating-custom-preset/image28.png)
 
 \3. Attributs
 

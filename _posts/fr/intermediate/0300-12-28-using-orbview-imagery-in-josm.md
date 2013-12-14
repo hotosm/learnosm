@@ -54,8 +54,7 @@ répertoire de JOSM "josm-tested.jar" ou "josm-latest.jar" (pour les
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image23.jpg)
 
-Recherchez le fichier jar executable apelé josm-tested.jar ou
-josm-lasted.jar
+Recherchez le fichier jar executable apelé josm-tested.jar ou josm-lasted.jar.
 
 2. Créez un raccourci vers le fichier "josm-tested.jar" par un clic
 droit de votre souris puis en sélectionnant "créer un raccourci", faites

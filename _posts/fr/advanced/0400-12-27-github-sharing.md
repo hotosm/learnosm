@@ -6,12 +6,6 @@ lang: fr
 category: advandced
 ---
 
-
-
-
-
-
-
 # Partage de projets en ligne avec Github
 
 ## Introduction {.c8}
