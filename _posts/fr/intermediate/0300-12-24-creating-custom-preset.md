@@ -285,42 +285,7 @@ inventer de nouveaux attributs :
 
 [](#)[](#)
 
-Key
-
-Possible Values
-
-utility:water
-
-well, municipal, yes, no
-
-Est-ce que le foyer a accès à l'eau?
-
-well indique qu’il a accès à un puit d’eau, municipal indique qu’il a
-accès à une conduite d’eau. Si nous voulons être moins descriptif, nous
-pouvons choisir oui ou non pour indiquer si le bâtiment a accès à l'eau,
-sans préciser le type
-
-utility:electrical
-
-yes, no
-
-Est-ce que le foyer a accès à l’électricité?
-
-utility:phone
-
-landline, mobile, yes, no
-
-Est-ce que le ménage a accès au téléphone? landline indique qu’il y a
-une ligne téléphonique fixe dans la maison, mobile indique qu’il y a un
-téléphone mobile. Si nous voulons être moins descriptif, nous pouvons
-choisir oui ou non.
-
-utility:internet
-
-landline, mobile, yes, no
-
-Mêmes valeurs que pour l’accès au téléphone, cela indique si le foyer a
-accès à internet.
+![image](/images/fr/0300-12-24-creating-custom-preset/--)
 
 Lorsque le modèle d’attributs que nous avons créé est sélectionné, nous
 voulons également que l’attribut building=yes soit ajouté
