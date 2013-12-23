@@ -224,7 +224,23 @@ vous allez voir s’afficher ce formulaire :
 
 Le XML de ce formulaire ressemble à ceci :
 
-![image](/images/fr/0300-12-24-creating-custom-preset/xml-bloc.png)
+** *```<item name="Place of Worship" icon="presets/church.png" type="node,closedway,relation">```* **
+**  *```<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=place_of_worship" />```* **
+** *```<label text="Edit Place of Worship" />```* **
+** *```<key key="amenity" value="place_of_worship" />```* **
+** *```<text key="name" text="Name" default="" delete_if_empty="true" />```* **
+
+** *```<combo key="religion" text="Religion"```* **
+** *```values="bahai,buddhist,christian,hindu,jain,jewish,muslim,sikh,spiritualist,taoist,unitarian,zoroastrian" default="" delete if _empty="true" />```* **
+
+** *```<combo key="denomination" text="Denomination"```* **
+** *```values=" anglican,baptist,catholic,evangelical,jehovahs_witness,lutheran,methodist,mormon,orthodox,pentecostal,presbyterian,protestant,quaker,shia,sunni" default="" delete_if_empty="true" />```* **
+
+** *```<combo key="service_times" text="Service Times" values="Su 10:00,Su 10:30,Su 11:00" default="" delete_if_empty="true" />```* **
+
+** *```<combo key="opening_hours" text="Opening Hours for visiting" values="24/7,Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00;Sa 08:00-12:00" default="" delete_if_empty="true" />```* **
+
+** *```</item>```* **
 
 Cela n’est pas aussi compliqué qu’il peut paraître. Passons en revue le
 script XML ligne par ligne.
