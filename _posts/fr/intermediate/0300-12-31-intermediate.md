@@ -2,17 +2,14 @@
 layout: doc
 permalink: /fr/intermediate/
 lang: fr
-title: Guide niveau intermediaire
+title: Guide niveau intermédiaire
 category: intermediate
 cover: true
 nosearch: true
+otherguides: "Les autres niveaux"
 ---
 
-Guide niveau intermediaire
+Guide niveau intermédiaire
 ===========================
 
-Binevenue sur le guide niveau intermediaire de l'utilsation d'OSM. 
-Cette section donne plus de details sur l'édition et la validation de données.
-Nous verrons des raccourcis et des façons de participer au projet OSM.
-Comprendre ces éléments sont utiles pour perfectionner davantage nos contributions à OSM.
-L'objectif de cette section est de vous permettre de développer les compétences sur les outils nécessaires pour corriger et renforcer la qualité de données dans OSM.
+Bienvenue sur le guide niveau intermédiaire de l'utilisation d'OSM.  Cette section donne davantage de détails sur l'édition et la validation de données. Nous verrons également des méthodes et des outils pour participer au projet OSM et perfectionner davantage nos contributions. L'objectif de cette section est de vous permettre de développer vos compétences sur les outils nécessaires pour corriger et renforcer la qualité des données dans OSM.

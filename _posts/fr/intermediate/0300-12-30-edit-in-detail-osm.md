@@ -1,10 +1,10 @@
-
 ---
 layout: doc
 title: Edition avancée
-permalink: /fr/intermedaire/editing-in-detail/
+permalink: /fr/intermediate/editing-in-detail/
 lang: fr
 category: intermediate
+otherguides: "Les autres niveaux"
 ---
 
 Edition avancée
@@ -129,9 +129,7 @@ choisissez alors Inverser et fusionner.
     outil est aussi très utile pour divers objets de forme régulière,
     comme les cours de tennis, cours d'habitation, etc. ou les zones
     d'utilisation du sol. (À noter que l'utilisation du greffon
-    bâtiment, qui sera expliquée ci-dessous, est souvent plus facile
-
-d'utilisation).
+    bâtiment, qui sera expliquée ci-dessous, est souvent plus facile d'utilisation).
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image38.png)
 
@@ -334,12 +332,12 @@ extérieures du bâtiment et deux autres pour marquer les cours
 intérieures. Pour créer une relation avec ces trois polygones, vous
 devez :
 
-1.  Sélectionnez tous les polygones.
-2.  Aller à Outils et près du bas Créer un multipolygone Ctrl + Alt + A
+- Sélectionnez tous les polygones.
+- Aller à Outils et près du bas Créer un multipolygone Ctrl + Alt + A
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image01.png)
 
-3.  Ces membres sont alors automatiquement ajoutés dans la relation
+- Ces membres sont alors automatiquement ajoutés dans la relation
     Multipolygone, et l'ensemble de ces objets est maintenant reconnu en
     tant que multipolygone.
 
@@ -349,7 +347,7 @@ Vous verrez alors votre bâtiment représenté avec une surface solide et
 les polygones intérieurs représentés avec des vides. Les données
 sous-jacentes de la relation dans cet exemple sont visibles sur
 OpenStreetMap
-:[http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
+: [http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
 Le bâtiment est rendu par Mapnik comme sur cette image :
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image06.png)
@@ -369,7 +367,7 @@ les contours de la rivière et les éléments à exclure (les îles). Ce
 multipolygone comprend dix lignes avec les rôles inner et outer.
 
 La relation peut être consultée sur le site OpenStreetMap ici
-:[](http://www.openstreetmap.org/browse/relation/1046961.)[http://www.openstreetmap.org/browse/relation/1046961](http://www.openstreetmap.org/browse/relation/1046961).
+: [](http://www.openstreetmap.org/browse/relation/1046961.)[http://www.openstreetmap.org/browse/relation/1046961](http://www.openstreetmap.org/browse/relation/1046961).
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image12.png)![image](/images/fr/0300-12-30-edit-in-detail-osm/image42.png)
 
@@ -389,9 +387,9 @@ particulier dans la relation.
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image40.png)![image](/images/fr/0300-12-30-edit-in-detail-osm/image46.png)
 
-1.  Assurez-vous que tous les chemins par lesquels la route passe
+- Assurez-vous que tous les chemins par lesquels la route passe
     possèdent les bons attributs. Par exemple, highway= street.
-2.  Sélectionnez toutes les routes ou chemins que prend le bus. Si vous
+- Sélectionnez toutes les routes ou chemins que prend le bus. Si vous
     voulez seulement sélectionner certaines parties du chemin, là,
     malheureusement, vous devrez diviser le chemin dans la section que
     vous souhaitez sélectionner. Cette opération nécessite plus de
@@ -399,7 +397,7 @@ particulier dans la relation.
     chemin P . Une fois que tous ou une partie des chemins sont
     sélectionnés, cliquez sur Modifier dans le panneau d'édition de
     Relation. La boîte de dialogue d'Édition de Relation apparaîtra.
-3.  Allez dans le menu Attributs et sélectionnez successivement dans le
+- Allez dans le menu Attributs et sélectionnez successivement dans le
     menu déroulant : Transport, puis Transport Public, puis Public
     transport route ou Itinéraire maitre. L'Itinéraire maitre est
     l'itinéraire principal, tandis que la route est une variante de
@@ -407,7 +405,7 @@ particulier dans la relation.
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image52.png)![image](/images/fr/0300-12-30-edit-in-detail-osm/image10.png)
 
-4.  Remplissez les informations correspondantes relativement à la ligne
+- Remplissez les informations correspondantes relativement à la ligne
     de bus.
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image10.png)
@@ -603,9 +601,9 @@ indique qu'ils sont des trous à l'intérieur du bâtiment.
 Pour créer une relation entre le polygone des limites extérieures et les
 deux polygones délimitant les cours intérieures, il faut :
 
-1.  Utilisez l'outil de sélection pour dessiner un cadre autour de ces
+- Utilisez l'outil de sélection pour dessiner un cadre autour de ces
     trois polygones et les sélectionner tous à la fois.
-2.  Cliquez sur le menu Attributs et sélectionnez successivement
+- Cliquez sur le menu Attributs et sélectionnez successivement
     Relations et Multipolygone. Dans le panneau de dialogue Modifier le
     polygone, cliquez ensuite sur le bouton + Nouvelle relation.
 
@@ -613,7 +611,7 @@ deux polygones délimitant les cours intérieures, il faut :
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image23.png)
 
-3.  S'ouvre alors la fenêtre des propriétés de la relation :
+- S'ouvre alors la fenêtre des propriétés de la relation :
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image18.png)
 
@@ -622,11 +620,11 @@ tableau de lignes d'attributs. Le reste peut être ignoré.
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image00.png)
 
-1.  C'est dans ce tableau qu'il faut ajouter les attributs pour la
+- C'est dans ce tableau qu'il faut ajouter les attributs pour la
     relation. Les chemins n'ont pas besoin d'être étiquetés
     individuellement, à moins qu'il n'y ait quelque chose de spécifique,
     comme différentes sources de données.
-2.  Ensuite, vous devez définir les rôles au sein de votre relation.
+- Ensuite, vous devez définir les rôles au sein de votre relation.
     Pour un multipolygone vous devez définir les chemins extérieurs et
     intérieurs. En fait, JOSM a besoin de savoir quels sont les
     polygones qui délimitent la partie externe et ceux qui délimitent la
@@ -638,11 +636,11 @@ tableau de lignes d'attributs. Le reste peut être ignoré.
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image43.png)
 
-3.  Cliquez sur OK et la fenêtre se ferme. Vous verrez alors votre
+- Cliquez sur OK et la fenêtre se ferme. Vous verrez alors votre
     bâtiment comme une forme solide avec les polygones intérieurs
     formant des trous. La donnée illustrant la relation dans cet exemple
     est visible sur OpenStreetMap
-    :[](http://www.openstreetmap.org/browse/relation/2435797)[http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
+    : [](http://www.openstreetmap.org/browse/relation/2435797)[http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
     Le bâtiment est rendu dans Mapnik comme sur cette image:
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image06.png)
@@ -652,7 +650,7 @@ MultiPolygone](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_an
 
 [](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_anneau_externe_et_un_anneau_interne)
 
-B. Relation cours d'eau.
+**Relation cours d'eau.**
 
 L'exemple d'un cours d'eau nécessite que vous créiez les berges internes
 et externes, de même que les surfaces exclues à l'intérieur. De même
@@ -660,7 +658,7 @@ façon que nous avons procédé avec l'exemple immeubles, il faudra ajouter
 chacun de ces éléments dans la relation et définir leurs rôles
 respectifs.
 
-C. Relation arrêt d'un itinéraire
+**Relation arrêt d'un itinéraire**
 
 Ici les rôles que les membres jouent dans la relation ne sont pas
 inner/outer, mais "forward" (en avant), "backward" (en arrière) ou
@@ -670,16 +668,16 @@ transport le long de l'itinéraire.
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image03.png)
 
-1.  Assurez-vous que tous les chemins que suit l'itinéraire sont
+- Assurez-vous que tous les chemins que suit l'itinéraire sont
     étiquetés de manière appropriée. Par exemple, highway=street.
-2.  Ouvrez le panneau pour Afficher la liste des relations Alt + Maj + R
+- Ouvrez le panneau pour Afficher la liste des relations Alt + Maj + R
     et cliquez sur le bouton + dans le panneau pour créer une nouvelle
     relation.
-3.  Saisissez les bons attributs dans la fenêtre. Pour un itinéraire
+- Saisissez les bons attributs dans la fenêtre. Pour un itinéraire
     routier (exemple : ligne de bus appelée Route 5), il s'agit de
     type=route et name=Route 5.
-4.  Cliquez sur OK.
-5.  Sélectionnez tous les voies et chemins pris par le moyen de
+- Cliquez sur OK.
+- Sélectionnez tous les voies et chemins pris par le moyen de
     transport (exemple : le bus). Si vous voulez sélectionner seulement
     certaines parties d'un chemin, vous devez malheureusement le diviser
     pour obtenir la section voulue. Cela ajoute une tâche
@@ -688,7 +686,7 @@ transport le long de l'itinéraire.
     d'entre eux sont sélectionnés, cliquez sur le bouton "Modifiez la
     relation dans l'éditeur de relation" dans le panneau des relations.
     La fenêtre des propriétés de la relation s'ouvre alors.
-6.  Cliquez sur l'un des boutons Ajouter les objets avant le premier
+- Cliquez sur l'un des boutons Ajouter les objets avant le premier
     membre ou Ajouter les objets après le dernier membre pour ajouter
     les chemins sélectionnés à la relation existante.
 

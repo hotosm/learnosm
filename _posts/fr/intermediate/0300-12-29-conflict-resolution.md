@@ -1,9 +1,10 @@
 ---
 layout: doc
 title: Résoudre les conflits
-permalink: /fr/intermedaire/conflict-resolution/
+permalink: /fr/intermediate/conflict-resolution/
 lang: fr
 category: intermediate
+otherguides: "Les autres niveaux"
 ---
 
 

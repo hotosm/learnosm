@@ -1,16 +1,17 @@
 ---
 layout: doc
 title: Gestionnaire des Tâches
-permalink: /fr/intermedaire/tasking-manager/
+permalink: /fr/intermediate/tasking-manager/
 lang: fr
 category: intermediate
+otherguides: "Les autres niveaux"
 ---
 
-Gestionnaire des Tâches
-
-(Tasking Manager)
+Gestionnaire des Tâches (Tasking Manager)
+==========================================
 
 Introduction
+---------------
 
 Dans le chapitre précédent, nous avons exposé différentes approches de
 contrôle de qualité au service de la contribution à OpenStreetMap. Dans
@@ -36,7 +37,7 @@ couvrant toute la zone d’intérêt et constituée de plusieurs carrés
 appelés dalles. Les contributeurs pourraient alors sélectionner et
 réserver la dalle de la grille sur laquelle ils désireraient travailler.
 Une fois leurs tâches accomplies, ils pourraient alors indiquer le
-statut de leur dalle comme accomplie^[[a]](#cmnt1)^. Une équipe de
+statut de leur dalle comme accomplie. Une équipe de
 plusieurs personnes peut ainsi travailler ensemble pour cartographier
 l'ensemble de la grille. Lors de l’activation humanitaire pour le typhon
 Haiyan aux Philippines en novembre 2013, des contributeurs de 82 pays
@@ -47,7 +48,7 @@ en évitant de créer des conflits d’édition lorsque plus d’une personne
 Nous allons voir comment utiliser le Gestionnaire des Tâches (GT).
 
 Ouvrez votre navigateur et allez à
-l’adresse[](http://tasks.hotosm.org)[tasks.hotosm.org](http://tasks.hotosm.org).
+l’adresse [](http://tasks.hotosm.org)[tasks.hotosm.org](http://tasks.hotosm.org).
 Vous verrez une page comme celle-ci :![image](/images/fr/0300-12-26-tasking-manager/image03.png)
 
 Cliquez sur "Connectez-vous en utilisant votre compte OpenStreetMap"
@@ -158,6 +159,7 @@ y consacrer, il est possible de la diviser par quatre en cliquant sur
     par le projet a bien été réalisé pour cette dalle.
 
 Résumé :
+--------
 
 Le gestionnaire des tâches est très utile pour cartographier rapidement,
 à plusieurs et de façon coordonnée une zone d’intérêt tout en assurant

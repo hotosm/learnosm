@@ -1,14 +1,15 @@
 ---
 layout: doc
 title: Utiliser le Stockage de Données Séparé
-permalink: /fr/intermedaire/private-data-storage/
+permalink: /fr/intermediate/private-data-storage/
 lang: fr
 category: intermediate
+otherguides: "Les autres niveaux"
 ---
 
-Utiliser le Stockage de Données Séparé
-======================================
-(Separate Data Store)
+Utiliser le Stockage de Données Séparé (Separate Data Store)
+============================================================
+
 
 Introduction
 --------------
@@ -185,7 +186,7 @@ téléchargée, cette donnée peut être jointe à la donnée OSM publique dans
 un logiciel SIG (QGIS par exemple) en utilisant le champ OSM\_ID dans
 les deux sources de données.
 
-B. Créer un nouveau projet
+### Créer un nouveau projet
 
 A partir de la page des projets, cliquez sur le lien
 ![image](/images/fr/0300-12-23-private-data-store/image02.png)en haut.
@@ -206,7 +207,7 @@ utilisé dans JOSM pour éditer les objets concernés par ce projet SDS.
 6. Recherche sur les données du stockage séparé
 ------------------------------------------------
 
-A. Recherche sur les attributs et édition
+### A. Recherche sur les attributs et édition
 
 Cliquez sur le lien "Tag search" pour rechercher un objet spécifique via
 ses attributs, au sein des projets auxquels vous avez accès. Saisissez
@@ -228,7 +229,7 @@ Le tableau sur fond gris montre les tags de l’objet qui sont sauvegardés
 dans le SDS, qui est possible de modifier en cliquant sur "Edit". En bas
 à droite sont listées les propriétés OSM de l’objet.
 
-B. Recherche sur une carte et édition
+### B. Recherche sur une carte et édition
 
 A partir de la page d’accueil, cliquez sur le lien "Map search" pour
 rechercher un objet spécifique.
@@ -261,14 +262,14 @@ supprimer des attributs.
 5. Questions fréquentes
 -------------------------
 
-Comment mettez-vous plus d'informations avec des relations complexes
-dans le serveur ?
+**Comment mettez-vous plus d'informations avec des relations complexes
+dans le serveur ?**
 
 Nous espérons que le serveur sera bientôt amélioré afin de permettre
 d’ajouter de multiples relations. Actuellement, la base de données est
 seulement unidimensionnelle (fichier plat).
 
-Comment puis-je sauvegarder ?
+**Comment puis-je sauvegarder ?**
 
 La procédure de sauvegarde des données dans l’espace de stockage séparé
 est le même que l’envoi vers le serveur de vos modifications vers OSM.
@@ -277,18 +278,18 @@ les attributs destinés au stockage de données séparé, afin de s'assurer
 qu'ils vont bien y être envoyé et non vers la base de données OSM
 publique.
 
-Combien d'utilisateurs peuvent utiliser le même compte? Que faire si je
-veux ajouter un utilisateur?
+**Combien d'utilisateurs peuvent utiliser le même compte? Que faire si je
+veux ajouter un utilisateur?**
 
 Il n’y aucune limite aux comptes d'utilisateurs. Actuellement, l’accès
 utilisateurs est géré par HOT. Tout nouvel utilisateur doit faire une
 demande à [accounts@hotosm.org](mailto:accounts@hotosm.org).
 
-Combien de données puis-je conserver sur le serveur privé ?
+**Combien de données puis-je conserver sur le serveur privé ?**
 
 Beaucoup.
 
-Quelle ont les manières de rechercher des données séparées spécifiques ?
+**Quelle ont les manières de rechercher des données séparées spécifiques ?**
 
 Lorsque vous vous connectez à
 [datastore.hotosm.org](http://datastore.hotosm.org), vous avez la
@@ -312,8 +313,10 @@ OpenStreetMap, contactez
 types de données que vous souhaitez enregistrer dans un SDS.
 
 Annexe
+-------
 
-I. Installation du greffon SDS depuis la Source
+
+### I. Installation du greffon SDS depuis la Source
 
 Si vous ne parvenez pas à trouver le "sds" greffon dans le menu
 Préférences, vous devrez l'installer manuellement comme décrit ici:
@@ -334,7 +337,7 @@ Préférences, vous devrez l'installer manuellement comme décrit ici:
 -   Double-cliquez sur le dossier "greffon" pour l'ouvrir.
 -   Déplacez le fichier de sds.jar dans ce dossier.
 
-\II. Architecture du SDS
+### II. Architecture du SDS
 
 Les données séparées sont stockées dans une base de données PostgreSQL
 et sont reliées aux objets OSM par les types d'objet et les ID. Le SDS
@@ -344,7 +347,7 @@ OSM le fait, le SDS utilise des bases OSM\_shadows. Les OSM\_shadows
 sont liées à des groupes de modifications horodatés. Ces objets "groupe
 de modifications" sont liés aux objets "utilisateur". Le serveur SDS
 montrera un groupe de modifications, unique sur le serveur principal
-OSM, quand il est visible en ligne ou dans JOSM.^[[c]](#cmnt3)^
+OSM, quand il est visible en ligne ou dans JOSM.
 
 ![image](/images/fr/0300-12-23-private-data-store/image15.png)
 
