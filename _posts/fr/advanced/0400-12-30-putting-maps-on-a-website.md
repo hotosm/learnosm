@@ -4,6 +4,7 @@ title: Intégrer des cartes dans un site web
 permalink: /fr/advanced/putting-maps-on-a-website/
 lang: fr
 category: advanced
+otherguides: "Les autres niveaux"
 ---
 
 Intégrer des cartes dans un site web

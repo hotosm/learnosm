@@ -6,6 +6,7 @@ title: Guide niveau intermediaire
 category: intermediate
 cover: true
 nosearch: true
+otherguides: "Les autres niveaux"
 ---
 
 Guide niveau intermediaire

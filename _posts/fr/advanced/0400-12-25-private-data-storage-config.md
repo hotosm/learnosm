@@ -4,6 +4,7 @@ title: Configuration du Stockage de Données Séparé
 permalink: /fr/advanced/private-data-storage/
 lang: fr
 category: advanced
+otherguides: "Les autres niveaux"
 ---
 
 Configuration du Stockage de Données Séparé (Private Data Store)

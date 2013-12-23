@@ -4,6 +4,7 @@ title: Systèmes de référence et formats des fichiers OSM
 permalink: /fr/advanced/projections-and-files-format/
 lang: fr
 category: advanced
+otherguides: "Les autres niveaux"
 ---
 
 Systèmes de référence spatiale et formats des fichiers de données OSM

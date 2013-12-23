@@ -4,6 +4,7 @@ title: Utiliser l'imagerie aérienne
 permalink: /fr/beginner/aerial-imagery/
 lang: fr
 category: beginner
+otherguides: "Les autres niveaux"
 ---
 
 Utiliser l'imagerie aérienne

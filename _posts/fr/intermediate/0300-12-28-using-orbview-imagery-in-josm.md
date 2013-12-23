@@ -4,6 +4,7 @@ title: Orbview-3 Importer de l’imagerie satellite sous JOSM
 permalink: /fr/intermediate/using-orbview-imagery/
 lang: fr
 category: intermediate
+otherguides: "Les autres niveaux"
 ---
 
 

@@ -4,6 +4,7 @@ title: Editer le Wiki
 permalink: /fr/intermediate/editing-the-wiki/
 lang: fr
 category: intermediate
+otherguides: "Les autres niveaux"
 ---
 
 Editer le Wiki

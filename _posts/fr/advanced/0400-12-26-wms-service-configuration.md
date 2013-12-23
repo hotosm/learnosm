@@ -4,6 +4,7 @@ title: Configuration du serveur WMS
 permalink: /fr/advanced/wms-service-configuration/
 lang: fr
 category: advanced
+otherguides: "Les autres niveaux"
 ---
 
 Configuration du serveur WMS

@@ -4,6 +4,7 @@ title: Éditer avec JOSM
 permalink: /fr/beginner/editing-with-josm/
 lang: fr
 category: beginner
+otherguides: "Les autres niveaux"
 ---
 
 # Éditer avec JOSM

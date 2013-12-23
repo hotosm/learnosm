@@ -4,6 +4,7 @@ title: Gestionnaire des Tâches
 permalink: /fr/intermediate/tasking-manager/
 lang: fr
 category: intermediate
+otherguides: "Les autres niveaux"
 ---
 
 Gestionnaire des Tâches (Tasking Manager)

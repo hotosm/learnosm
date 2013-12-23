@@ -4,6 +4,7 @@ title: Edition avancée
 permalink: /fr/intermediate/editing-in-detail/
 lang: fr
 category: intermediate
+otherguides: "Les autres niveaux"
 ---
 
 Edition avancée

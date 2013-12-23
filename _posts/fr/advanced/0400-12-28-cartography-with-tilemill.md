@@ -4,6 +4,7 @@ title: Cartographie avec TileMill
 permalink: /fr/advanced/cartography-with-tilemill/
 lang: fr
 category: advanced
+otherguides: "Les autres niveaux"
 ---
 
 Cartographie avec TileMill

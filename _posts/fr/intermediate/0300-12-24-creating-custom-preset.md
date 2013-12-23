@@ -4,6 +4,7 @@ title: XML et les modèles d’attributs JOSM
 permalink: /fr/intermediate/creating-custom-preset/
 lang: fr
 category: intermediate
+otherguides: "Les autres niveaux"
 ---
 
 XML et les modèles d’attributs JOSM

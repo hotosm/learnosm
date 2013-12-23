@@ -4,6 +4,7 @@ title: Premiers pas avec JOSM
 permalink: /fr/beginner/start-josm/
 lang: fr
 category: beginner
+otherguides: "Les autres niveaux"
 ---
 
 Premiers pas avec JOSM

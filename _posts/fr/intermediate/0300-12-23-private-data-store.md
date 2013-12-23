@@ -4,6 +4,7 @@ title: Utiliser le Stockage de Données Séparé
 permalink: /fr/intermediate/private-data-storage/
 lang: fr
 category: intermediate
+otherguides: "Les autres niveaux"
 ---
 
 Utiliser le Stockage de Données Séparé (Separate Data Store)

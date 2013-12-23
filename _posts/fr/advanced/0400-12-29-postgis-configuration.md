@@ -4,6 +4,7 @@ title: Configuration de PostGIS
 permalink: /fr/advanced/postgis-configuration/
 lang: fr
 category: advanced
+otherguides: "Les autres niveaux"
 ---
 
 Configuration de PostGIS

@@ -4,6 +4,7 @@ title: Résoudre les conflits
 permalink: /fr/intermediate/conflict-resolution/
 lang: fr
 category: intermediate
+otherguides: "Les autres niveaux"
 ---
 
 

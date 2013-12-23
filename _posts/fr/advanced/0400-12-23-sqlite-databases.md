@@ -4,6 +4,7 @@ title: Bases de Données SQLite
 permalink: /fr/advanced/sqlite-databases/
 lang: fr
 category: advanced
+otherguides: "Les autres niveaux"
 ---
 
 Bases de Données SQLite

@@ -4,6 +4,7 @@ title: Assurance qualité
 permalink: /fr/intermediate/quality-assurance/
 lang: fr
 category: intermediate
+otherguides: "Les autres niveaux"
 ---
 
 

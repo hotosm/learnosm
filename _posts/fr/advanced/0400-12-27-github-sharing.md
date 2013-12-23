@@ -4,6 +4,7 @@ title: Partage de projets en ligne avec Github
 permalink: /fr/advanced/github-sharing/
 lang: fr
 category: advanced
+otherguides: "Les autres niveaux"
 ---
 
 Partage de projets en ligne avec Github

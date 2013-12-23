@@ -4,6 +4,7 @@ title: Greffons JOSM
 permalink: /fr/beginner/josm-plugins/
 lang: fr
 category: beginner
+otherguides: "Les autres niveaux"
 ---
 
 Préférences et greffons JOSM

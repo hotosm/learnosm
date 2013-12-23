@@ -4,6 +4,7 @@ title: Introduction
 permalink: /fr/beginner/introduction/
 lang: fr
 category: beginner
+otherguides: "Les autres niveaux"
 ---
 
 Introduction

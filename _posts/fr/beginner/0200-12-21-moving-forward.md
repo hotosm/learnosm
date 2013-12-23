@@ -4,6 +4,7 @@ title: Pour aller plus loin
 permalink: /fr/beginner/moving-forward/
 lang: fr
 category: beginner
+otherguides: "Les autres niveaux"
 ---
 
 Pour aller plus loin
