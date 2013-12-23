@@ -1,14 +1,14 @@
 ---
 layout: doc
-title: Editer le Wiki
+title: Editer le Wiki OSM
 permalink: /fr/intermediate/editing-the-wiki/
 lang: fr
 category: intermediate
 otherguides: "Les autres niveaux"
 ---
 
-Editer le Wiki
-===============
+Editer le Wiki OSM
+===================
 
 Introduction
 --------------
