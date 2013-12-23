@@ -47,7 +47,7 @@ en évitant de créer des conflits d’édition lorsque plus d’une personne
 Nous allons voir comment utiliser le Gestionnaire des Tâches (GT).
 
 Ouvrez votre navigateur et allez à
-l’adresse[](http://tasks.hotosm.org)[tasks.hotosm.org](http://tasks.hotosm.org).
+l’adresse [](http://tasks.hotosm.org)[tasks.hotosm.org](http://tasks.hotosm.org).
 Vous verrez une page comme celle-ci :![image](/images/fr/0300-12-26-tasking-manager/image03.png)
 
 Cliquez sur "Connectez-vous en utilisant votre compte OpenStreetMap"

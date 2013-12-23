@@ -48,7 +48,7 @@ MB. Pour ajouter des images satellites, davantage de ressources mémoire
 sont requises. Nous allons apprendre à augmenter la mémoire allouée à
 JOSM:
 
-1. Vous devez chercher le fichier nommé "josm-tested.jar" dans le
+- Vous devez chercher le fichier nommé "josm-tested.jar" dans le
 répertoire de JOSM "josm-tested.jar" ou "josm-latest.jar" (pour les
 éditions les plus récentes de JOSM).
 
@@ -56,11 +56,11 @@ répertoire de JOSM "josm-tested.jar" ou "josm-latest.jar" (pour les
 
 Recherchez le fichier jar executable apelé josm-tested.jar ou josm-lasted.jar.
 
-2. Créez un raccourci vers le fichier "josm-tested.jar" par un clic
+- Créez un raccourci vers le fichier "josm-tested.jar" par un clic
 droit de votre souris puis en sélectionnant "créer un raccourci", faites
 ensuite glisser le raccourci sur le bureau.
 
-3. Cherchez l’emplacement du fichier "java.exe" en tapant "java.exe" ou
+- Cherchez l’emplacement du fichier "java.exe" en tapant "java.exe" ou
 "java" dans la boîte de recherche du menu Démarrer, faites un clic droit
 et sélectionnez Ouvrir l’emplacement du fichier.
 
@@ -72,10 +72,10 @@ bits.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image03.png)
 
-4. Clic droit sur l’icône "josm-tested" sur le bureau et cliquez sur
+- Clic droit sur l’icône "josm-tested" sur le bureau et cliquez sur
 Propriétés
 
-5. Dans l’option de type "cible" tapez C:\\WINDOWS\\system32\\javaw.exe
+- Dans l’option de type "cible" tapez C:\\WINDOWS\\system32\\javaw.exe
 -jar -Xmx512M "C: \\ Program Files \\ JOSM \\ josm-tested.jar"
 
 (Remarque : vous devrez peut être saisir "josm-latest.jar" plutot que
@@ -104,15 +104,15 @@ l’imagerie du programme Orbview-3 est ancienne (2003 à 2007), la
 résolution est suffisamment bonne et toujours utile pour tracer des
 routes et/ou l’emprise des infrastructures de base.
 
-A. Créer un compte d’utilisateur
+### A. Créer un compte d’utilisateur
 
-1. Allez à
+- Allez à
 [http://earthexplorer.usgs.gov/](http://earthexplorer.usgs.gov/) et
 créez un compte. Cliquez sur le bouton Register en haut à droite.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image06.png)
 
-2. Vous serez invité à remplir les informations relatives à votre
+- Vous serez invité à remplir les informations relatives à votre
 compte d’utilisateur : affiliation de l'utilisateur, adresse et
 confirmation. Dans la première fenêtre de connexion, vous devez entrer
 votre nom d’utilisateur et le mot de passe qui sera utilisé pour vous
@@ -120,21 +120,21 @@ connecter à ce service de l’USGS.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image18.png)
 
-3. Remplissez les informations relatives au but pour lequel vous
+- Remplissez les informations relatives au but pour lequel vous
 utilisez ces images de l’USGS qui intéressent l’USGS. Vous pouvez
 réutiliser les éléments de réponse ci-dessous si nécesssaire.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image22.png) ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image07.png)
 
-4. Remplissez enfin vos coordonnées personnelles : nom, adresse,
+- Remplissez enfin vos coordonnées personnelles : nom, adresse,
 courriel et numéro de téléphone. Cette étape terminée, vous devriez être
 inscrit à ce service de l’USGS.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image12.png)
 
-B. Téléchargement de l’imagerie
+### B. Téléchargement de l’imagerie
 
-Une fois connecté à votre compte, vous avez la possiblité de télécharger
+- Une fois connecté à votre compte, vous avez la possiblité de télécharger
 des images situées dans votre aire d’intérêt. Utilisez la boîte de
 recherche sur la gauche de la page web ou votre souris sur la carte pour
 faire une recherche de localisation. Si une erreur se produit, il vous
@@ -144,7 +144,7 @@ pourrez ainsi sélectionner de nouveau votre zone d’intérêt.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image11.png)
 
-Une fois localisée votre zone d’intérêt et défini le niveau de zoom
+- Une fois localisée votre zone d’intérêt et défini le niveau de zoom
 pertinent pour votre recherche, vous pouvez définir à la souris votre
 masque d’extraction ; ce faisant, en cas de besoin, vous pouvez
 supprimer un point en cliquant sur la croix rouge dans la colonne de
@@ -160,7 +160,7 @@ téléchargement au mieux des ressources de votre connexion internet.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image20.png)
 
-7. Une liste de plusieurs fournisseurs d’images s’affiche, il convient
+- Une liste de plusieurs fournisseurs d’images s’affiche, il convient
 de ne retenir que l’imagerie du domaine public, car c’est une licence
 compatible avec la license Creative Commons Open Database License (ODbL)
 d’OpenstreetMap. Sélectionner dans la colonne de gauche les images de
@@ -178,7 +178,7 @@ l’imagerie Orbview-3.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image04.png)
 
-9. Lorsque vous avez sélectionné une ou plusieurs images à télécharger,
+- Lorsque vous avez sélectionné une ou plusieurs images à télécharger,
 vous devez choisir un format de téléchargement. Le format GIS Ready
 Bundle est ici le plus adapté à nos besoins. Les autres sont soit très
 lourds ou sont dépourvus de géoréférencement. Sélectionnez votre option
@@ -186,7 +186,7 @@ de téléchargement en cliquant sur : ¨Select Download Option¨.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image05.jpg)
 
-10. Une fois l’image téléchargée, il vous faut extraire les fichiers
+- Une fois l’image téléchargée, il vous faut extraire les fichiers
 dans un dossier. Vous devriez obtenir (3) trois fichiers comme ceci :
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image01.png)
@@ -197,7 +197,7 @@ dans JOSM.
 3. Ajouter l’imagerie Orbview-3 dans JOSM avec le greffon ¨ImportImagePlugin¨
 -------------------------------------------------------------------------------
 
-A. Télécharger le greffon
+### A. Télécharger le greffon
 
 Pour ouvrir les images dans JOSM, vous devez télécharger le greffon
 "ImportImagePlugin".
@@ -209,7 +209,7 @@ Cliquez sur Ok et redémarrez JOSM.
 
 ![image](/images/fr/0300-12-28-using-orbview-imagery-in-josm/image14.png)
 
-B. Modifiez les paramétres
+### B. Modifiez les paramétres
 
 Une fois JOSM redémarré, vous devez configurer dans JOSM votre
 environnement de travail dans le système de référence spatial UTM

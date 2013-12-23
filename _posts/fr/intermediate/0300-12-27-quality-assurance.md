@@ -35,22 +35,22 @@ temps.
 
 ![image](/images/fr/0300-12-27-quality-assurance/image07.png)
 
-Cette fenêtre d’avertissement vous informe qu’il y a des données
+*Cette fenêtre d’avertissement vous informe qu’il y a des données
 suspectes dans le groupe de modifications que vous essayez d’envoyer et
 que vous devriez revoir les erreurs listées. Il s’agit là d’un exemple
 de l’approche de contrôle de qualité OSM permettant de créer des données
 de qualité, d’identifier les objets sans attribut, superposés ou
-incomplets afin de les corriger.
+incomplets afin de les corriger.*
 
 JOSM comprend un outil de validation, le Validateur de données, qui
 permet la détection automatique de certains problèmes. Cet outil est
 très utile pour identifier les erreurs qui vous ont échappé lors de vos
 éditions. Le Validateur de JOSM identifie deux catégories de problèmes :
 
--   Erreurs : Il est important de corriger ces types de problèmes, vous
+-   **Erreurs :** Il est important de corriger ces types de problèmes, vous
     ne devez jamais les ignorer. Il peut s’agir par exemple d’objets
     dupliqués, de lignes ou de polygones superposés.
--   Avertissements : Il s’agit de problèmes également à résoudre, mais
+-   **Avertissements :** Il s’agit de problèmes également à résoudre, mais
     qui dans certains cas ne sont pas des erreurs (exemple typique :
     l’absence de nom pour une rue résidentielle) et peuvent donc être
     tolérés.
@@ -131,7 +131,7 @@ les étapes qui suivent :
 
 Un polygone non fermé. Un exemple typique est fourni par les objets
 bâtiments dont le dernier nœud n’est pas identique au
-premier^[[b]](#cmnt2)^.
+premier.
 
 ![image](/images/fr/0300-12-27-quality-assurance/image08.png)
 

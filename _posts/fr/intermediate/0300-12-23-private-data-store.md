@@ -261,14 +261,14 @@ supprimer des attributs.
 5. Questions fréquentes
 -------------------------
 
-Comment mettez-vous plus d'informations avec des relations complexes
-dans le serveur ?
+**Comment mettez-vous plus d'informations avec des relations complexes
+dans le serveur ?**
 
 Nous espérons que le serveur sera bientôt amélioré afin de permettre
 d’ajouter de multiples relations. Actuellement, la base de données est
 seulement unidimensionnelle (fichier plat).
 
-Comment puis-je sauvegarder ?
+**Comment puis-je sauvegarder ?**
 
 La procédure de sauvegarde des données dans l’espace de stockage séparé
 est le même que l’envoi vers le serveur de vos modifications vers OSM.
@@ -277,18 +277,18 @@ les attributs destinés au stockage de données séparé, afin de s'assurer
 qu'ils vont bien y être envoyé et non vers la base de données OSM
 publique.
 
-Combien d'utilisateurs peuvent utiliser le même compte? Que faire si je
-veux ajouter un utilisateur?
+**Combien d'utilisateurs peuvent utiliser le même compte? Que faire si je
+veux ajouter un utilisateur?**
 
 Il n’y aucune limite aux comptes d'utilisateurs. Actuellement, l’accès
 utilisateurs est géré par HOT. Tout nouvel utilisateur doit faire une
 demande à [accounts@hotosm.org](mailto:accounts@hotosm.org).
 
-Combien de données puis-je conserver sur le serveur privé ?
+**Combien de données puis-je conserver sur le serveur privé ?**
 
 Beaucoup.
 
-Quelle ont les manières de rechercher des données séparées spécifiques ?
+**Quelle ont les manières de rechercher des données séparées spécifiques ?**
 
 Lorsque vous vous connectez à
 [datastore.hotosm.org](http://datastore.hotosm.org), vous avez la
@@ -346,7 +346,7 @@ OSM le fait, le SDS utilise des bases OSM\_shadows. Les OSM\_shadows
 sont liées à des groupes de modifications horodatés. Ces objets "groupe
 de modifications" sont liés aux objets "utilisateur". Le serveur SDS
 montrera un groupe de modifications, unique sur le serveur principal
-OSM, quand il est visible en ligne ou dans JOSM.^[[c]](#cmnt3)^
+OSM, quand il est visible en ligne ou dans JOSM.
 
 ![image](/images/fr/0300-12-23-private-data-store/image15.png)
 
