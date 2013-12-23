@@ -18,7 +18,11 @@ layout: default
   <ul style="margin-top:40px;">
       <li class='doc rounded'>
         <a class='title cover'>
-          <span>Other Guides</span>
+          {% if {{page.otherguides}} %}
+            <span>{{ page.otherguides }}</span>
+          {% else %}
+            <span>Others guides</span>
+          {% endif %}
         </a>
       </li>
       
