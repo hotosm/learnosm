@@ -41,11 +41,11 @@ clé définit généralement la catégorie d’information que vous associez et
 la valeur définit le type spécifique dans cette catégorie d’information.
 Ici nous avons deux attributs, donc deux paires de clés et de valeurs.
 
-CLE = VALEUR
+**CLE = VALEUR**
 
-name = Mami Diarra Couture
+**name = Mami Diarra Couture**
 
-shop = clothes
+**shop = clothes**
 
 Lorsqu’on crée un point avec ces attributs, JOSM va afficher l’objet
 comme ceci :
@@ -127,7 +127,6 @@ menu. Chaque élément <item\> contient deux autres éléments, <cost\> et
 à l'intérieur de la balise ouvrante <item\>. Il s’agit d’un attribut, et
 cela ajoute des informations sur l’élément.
 
-* * * * *
 
 #Terminologie XML
 
@@ -137,7 +136,7 @@ décrit son contenu, <menu\> dans notre exemple
 élément : tout objet XML contenu dans les balises ouvrante et fermante
 comme
 
-<item\> … données … </item\>
+**<item\> … données … </item\>**
 
 attribut : elle va ajouter une information à l’élément dans lequel elle
 est incluse. Dans notre exemple, les balises <cost\> et <description\>
@@ -285,7 +284,7 @@ inventer de nouveaux attributs :
 
 [](#)[](#)
 
-![image](/images/fr/0300-12-24-creating-custom-preset/--)
+![image](/images/fr/0300-12-24-creating-custom-preset/own-preset.png)
 
 Lorsque le modèle d’attributs que nous avons créé est sélectionné, nous
 voulons également que l’attribut building=yes soit ajouté
@@ -348,12 +347,12 @@ Beaucoup d’éléments sont similaires à ce que vous avez vu auparavant.
 Nous allons les analyser. Dans l'élément <item\> nous avons créé six
 autres balises :
 
-1.  <key\>
-2.  <text\>
-3.  <combo\>
-4.  <check\>
-5.  <combo\>
-6.  <combo\>
+- **<key\>**
+- **<text\>**
+- **<combo\>**
+- **<check\>**
+- **<combo\>**
+- **<combo\>**
 
 Pouvez-vous deviner ce que fait chacune de ces balises ? Elles créent
 des attributs dans notre formulaire de modèle d’attributs pour JOSM. La
@@ -395,7 +394,8 @@ attribut utility:electrical=yes.
     tant que document texte, mais plutôt comme un document XML.
 -   Cliquez sur Enregistrer
 
-\6. Test du modèle d’attributs
+6. Test du modèle d’attributs
+--------------------------------
 
 Nous allons maintenant ouvrir notre fichier dans JOSM et voir à quoi il
 ressemble.
@@ -448,17 +448,17 @@ Voici les éléments (items) qui forment le squelette du menu Attributs.
 
 ![image](/images/fr/0300-12-24-creating-custom-preset/image04.png)
 
-<group\> Utilisé pour regrouper des éléments (items) dans les
+**<group\>** Utilisé pour regrouper des éléments (items) dans les
 sous-menus.
 
 name est requis, icon est facultatif.
 
-<item\> Chaque item est un modèle d’attributs qu’il est possible de
+**<item\>** Chaque item est un modèle d’attributs qu’il est possible de
 sélectionner.
 
 name est nécessaire, icon est facultatif.
 
-<separator/\> Insère une ligne de séparation dans le menu (ici après
+**<separator/\>** Insère une ligne de séparation dans le menu (ici après
 Transformateur).
 
 2. Format des éléments d’un modèle d’attributs
@@ -468,57 +468,40 @@ Dans cette section sont présentés les différents types de balises XML
 permettant d’ajouter des attributs et la manière dont ces balises
 apparaissent dans le menu des modèles d’attributs.
 
-<label\> Ajoute un texte statique à afficher dans le formulaire.
+**<label\>** Ajoute un texte statique à afficher dans le formulaire.
 
 Le paramètre text est requis.
 
-<label text="Sélectionnez un sport:"/\>
-
+![image](/images/fr/0300-12-24-creating-custom-preset/label-text.png)
 ![image](/images/fr/0300-12-24-creating-custom-preset/image15.png)
 
-<optional\> Utilisé pour regrouper les éléments optionnels d’un item.
+**<optional\>** Utilisé pour regrouper les éléments optionnels d’un item.
 
-Equivalent à <label text="Optional Attributes:"/\>
 
-<optional\><combo key="boundary" text="Type de frontière"
-values="administrative,nationale,civile,politique" default=""
-delete\_if\_empty="true"/\>
-
-<combo key="admin\_level" text="Niveau administratif"
-values="1,2,3,4,5,6,7,8,9,10" default=""
-delete\_if\_empty="true"/\></optional\>
-
+![image](/images/fr/0300-12-24-creating-custom-preset/optional-usage.png)
 ![image](/images/fr/0300-12-24-creating-custom-preset/image26.png)
 
-<space/\> Ajoute une ligne vide dans le formulaire.
+**<space/\>** Ajoute une ligne vide dans le formulaire.
 
-Equivalent à <label text=" "/\>
-
-<label text="Edit Address Interpolation"/\><space/\><combo
-key="addr:interpolation" text="Numéro" values="odd,even,all,alphabetic"
-default="odd"/\>
-
+![image](/images/fr/0300-12-24-creating-custom-preset/space-item-usage.png)
 ![image](/images/fr/0300-12-24-creating-custom-preset/image12.png)
 
-<link\> Ajoute un lien web pour ce type d’objet.
+**<link\>** Ajoute un lien web pour ce type d’objet.
 
 href est requis.
 
-<link
-href="[http://wiki.openstreetmap.org/wiki/Proposed\_features/House\_numbers/Karlsruhe\_Schema"/]()\>
-
+![image](/images/fr/0300-12-24-creating-custom-preset/link-item-usage.png)
 ![image](/images/fr/0300-12-24-creating-custom-preset/image03.png)
 
-<text\> Une balise pour ajouter n’importe quel texte par l’utilisateur.
+**<text\>** Une balise pour ajouter n’importe quel texte par l’utilisateur.
 
 Le paramètre key est requis ; text, default et required sont
 facultatifs.
 
-<text key="name" text="Name" default="" delete\_if\_empty="true" /\>
-
+![image](/images/fr/0300-12-24-creating-custom-preset/text-item-usage.png)
 ![image](/images/fr/0300-12-24-creating-custom-preset/image21.png)
 
-<combo\> Affiche une liste déroulante à choix unique. Si modifiable est
+**<combo\>** Affiche une liste déroulante à choix unique. Si modifiable est
 vrai (choix par défaut), les listes déroulantes peuvent être éditées
 comme si elles étaient des champs de texte (en plus de la fonction de
 liste déroulante). Les listes déroulantes non modifiables ne peuvent
@@ -527,15 +510,10 @@ contenir qu'une des valeurs spécifiées.
 Les paramètres key et values sont requis ; text, default, editable et
 required sont facultatifs.
 
-<combo key="religion" text="Religion"
-values="bahai,buddhist,christian,hindu,jain,jewish,muslim,sikh,spiritualist,taoist,unitarian,zoroastrian"
-
-display\_values="bahaïsme,bouddhiste,christianisme,hindouisme,jaïnisme,judaïsme,islam,sikhisme,spiritualisme,taoïsme,unitarisme,zoroastrisme"
-default="" delete\_if\_empty="true" /\>
-
+![image](/images/fr/0300-12-24-creating-custom-preset/combo-item-usage.png)
 ![image](/images/fr/0300-12-24-creating-custom-preset/image14.png)
 
-<multiselect\> Affiche une liste à partir de laquelle zéro ou plusieurs
+**<multiselect\>** Affiche une liste à partir de laquelle zéro ou plusieurs
 valeurs peuvent être sélectionnées par l’utilisateur en maintenant la
 touche Ctrl enfoncée. Les valeurs sélectionnées seront concaténées avec
 le séparateur spécifié (par défaut le point-virgule) en un seul
@@ -556,30 +534,16 @@ ci-dessous).
 Les paramètres key et values sont requis ; text, default, delimiter et
 required sont facultatifs.
 
-<multiselect="license\_classes" text="Modifier une auto-école"
-values="A1;A;B;BE;C" default="" delete\_if\_empty="true" /\>
-
+![image](/images/fr/0300-12-24-creating-custom-preset/multiselect-item-usage.png)
 ![image](/images/fr/0300-12-24-creating-custom-preset/image25.png)
 
-<check\> Une case à cocher que l'utilisateur peut sélectionner ou
+**<check\>** Une case à cocher que l'utilisateur peut sélectionner ou
 désélectionner.
 
 Le paramètre key est requis ; text, default et required sont
 facultatifs.
 
-<check key="fuel:diesel" text="Gazole" default="off"
-delete\_if\_empty="true"/\><check key="fuel:biodiesel" text="Biogazole"
-default="off" delete\_if\_empty="true"/\><check key="fuel:GTL\_diesel"
-text="Gazole de type GTL" default="off"
-delete\_if\_empty="true"/\><check key="fuel:HGV\_diesel" text="Gazole
-pour poids lourds" default="off" delete\_if\_empty="true"/\><check
-key="fuel:octane\_91" text="Indice d’octane 91" default="off"
-delete\_if\_empty="true"/\><check key="fuel:octane\_95" text="Indice
-d’octane 95" default="off" delete\_if\_empty="true"/\><check
-key="fuel:octane\_98" text="Indice d’octane 98" default="off"
-delete\_if\_empty="true"/\><check key="fuel:octane\_100" text="Indice
-d’octane 100" default="off" delete\_if\_empty="true"/\>
-
+![image](/images/fr/0300-12-24-creating-custom-preset/check-item-usage.png)
 ![image](/images/fr/0300-12-24-creating-custom-preset/image18.png)
 
 <key\> key est un paramètre toujours requis dans les balises, que ce
@@ -593,19 +557,20 @@ spécifique à une clé.
 
 ![image](/images/fr/0300-12-24-creating-custom-preset/image28.png)
 
-\3. Attributs
+3. Attributs
+--------------
 
 Les couples clé, valeurs des attributs ci-dessous ont la signification
 suivante :
 
-name="a\_name"
+**name="a\_name"**
 
 Permet d’indiquer un nom d'affichage pour un élément. Ce nom sera
 affiché dans la fenêtre qui s’ouvre pour modifier l’objet.
 
-Ex. <item name="bridge"\>
+Ex. *```<item name="bridge"\>```*
 
-fr.name="un\_nom"
+**fr.name="un\_nom"**
 
 Il est possible d’inclure une traduction de l’affichage des noms. Elle
 sera prise en compte automatiquement par JOSM dans les formulaires de
@@ -614,22 +579,21 @@ JOSM comme celle de l’interface du logiciel. Conservez le paramètre name
 en anglais et ajoutez à la suite la ou les traductions. Il est possible
 de mettre plusieurs traductions dans un même modèle d’attributs.
 
-Ex. <item name="bridge" fr.name="pont" pt.name="ponte"
-es.name="puente"\>
+Ex. *```<item name="bridge" fr.name="pont" pt.name="ponte" es.name="puente"\>```*
 
-name\_context="context"
+**name\_context="context"**
 
 Fournit des éléments de contexte relatifs au nom d'un objet et permet
 ainsi une plus grande clarté quand plusieurs objets partagent le même
 nom. C’est le cas par exemple des stations-services pour motos qui sont
 ainsi différenciées des stations-services pour voitures.
 
-Ex. <item name="Gas\_Station" fr.name="Station service"
-name\_context="Motorcycle" fr.name\_context="Motos"\> OR <item
-name="Gas\_Station" fr.name="Station-service" name\_context="Car"
-fr.name\_context="Autos"\>
+Ex. *```<item name="Gas\_Station" fr.name="Station service"```*
+*```name\_context="Motorcycle" fr.name\_context="Motos"\> OR <item```*
+*```name="Gas\_Station" fr.name="Station-service" name\_context="Car"```*
+*```fr.name\_context="Autos"\>```*
 
-type="data\_type"
+**type="data\_type"**
 
 Utilisé pour que dans le modèle d’attributs ne puissent être
 sélectionnés que les objets d’un type donné. Les filtres de sélection
@@ -637,9 +601,9 @@ peuvent être "nodes" (noeuds), "relations", "way" (chemin), et
 "closed\_way" (chemins fermé, c’est-à-dire polygone) ainsi que toute
 combinaison de ces éléments séparés par une virgule.
 
-Ex. <item name="Highway" type="way"\>
+Ex.*``` <item name="Highway" type="way"\>```*
 
-icon="iconname"
+**icon="iconname"**
 
 Permet de spécifier l'icône qui sera utilisée dans la fenêtre du modèle
 d’attributs. Le nom de l'icône doit être dans un chemin de classe dans
@@ -648,22 +612,19 @@ greffons qui fournissent des images. L'image sera utilisée comme icône
 affichée dans le menu des modèles d’attributs. L'icône doit être de
 forme carrée.
 
-Ex. <item name="Construction" icon="presets/construction.png"
-type="way"\>
+Ex.*``` <item name="Construction" icon="presets/construction.png" type="way"\>```*
 
-Consultez[](http://mapbox.com/maki/)[http://mapbox.com/maki/](http://mapbox.com/maki/)
+Consultez [](http://mapbox.com/maki/)[http://mapbox.com/maki/](http://mapbox.com/maki/)
 pour des icônes.
 
-key="some\_key"
+**key="some\_key"**
 
 Spécifie la clé de l’attribut.
 
-Ex. <key key="junction" value="roundabout" /\> OR <check key="tunnel"
-text="Tunnel" default="off" /\>
+Ex. *```<key key="junction" value="roundabout" /\> OR <check key="tunnel" text="Tunnel" default="off" /\>```*
+*```<key key=\>, <text key= \>, <check key= \>, <combo key= \>,```*
 
-<key key=\>, <text key= \>, <check key= \>, <combo key= \>,
-
-text="Any text"
+**text="Any text"***
 
 Ce texte est la description qui va être affichée avant ou après
 l'élément (cas des cases à cocher, sélections multiples, etc.). Vous
@@ -671,15 +632,13 @@ pouvez saisir ce que vous voulez, mais il est préférable de rester
 concis et d’utiliser l’anglais. Pour afficher le texte dans d’autres
 langues (exemple : le français), voir le paramètre suivant.
 
-Ex. <check key="lit" text="Lit" default="off" delete\_if\_empty="true"
-/\>
+Ex. *```<check key="lit" text="Lit" default="off" delete\_if\_empty="true"/\>```*
 
-<check key="oneway" text="Oneway" default="off" delete\_if\_empty="true"
-/\>
+*```<check key="oneway" text="Oneway" default="off" delete\_if\_empty="true"/\>```*
+*```<combo key="foot" text="Foot" values="yes,designated,official,no"\>```*
 
-<combo key="foot" text="Foot" values="yes,designated,official,no"\>
 
-fr. text="n’importe quel texte"
+**fr. text="n’importe quel texte"**
 
 Il est possible d’inclure une traduction de l’affichage des textes. Elle
 sera prise en compte automatiquement par JOSM dans les formulaires de
@@ -688,41 +647,41 @@ JOSM comme celle de l’interface du logiciel. Conservez le paramètre text
 en anglais et ajoutez à la suite la ou les traductions. Il est possible
 de mettre plusieurs traductions dans un même modèle d’attributs.
 
-Ex. <check key="oneway" text="Oneway" fr.text="Sens unique"
-default="off" delete\_if\_empty="true" /\>
+Ex. *```<check key="oneway" text="Oneway" fr.text="Sens unique" default="off" delete\_if\_empty="true" /\>```*
 
-text\_context="context"
+**text\_context="context"**
 
 Comme name\_context, cet attribut fournit un contexte explicatif à des
 contenus textuels. Il permet de différencier les attributs de texte qui
 utilisent les mêmes mots, mais ont des significations différentes.
 
-Ex. <combo key="fuel" text="Fuel" text\_context="grill"\>
-values="charcoal,electric,wood" OR <label text="Edit Goods"
-text\_context="aerialway" /\>
+Ex. *```<combo key="fuel" text="Fuel" text\_context="grill"\>```*
+*```values="charcoal,electric,wood" OR <label text="Edit Goods"```*
+*```text\_context="aerialway" /\>```
 
-default="default\_value"
+
+**default="default\_value"**
 
 La valeur par défaut pour un élément. Si elle n'est pas spécifiée, la
 valeur actuelle de la clé est choisie par défaut (le cas échéant). Le
 plus souvent, ce paramètre est spécifié comme <default=""\>.
 
-Ex. <combo key="parking" text="Type"
-values="multi-storey,surface,underground" default="surface"
-delete\_if\_empty="true" /\> OR <combo key="park\_ride" text="Park and
-Ride" values="yes,no" default="" delete\_if\_empty="true" /\>
+Ex. *```<combo key="parking" text="Type"```*
+*```values="multi-storey,surface,underground" default="surface"```*
+*```delete\_if\_empty="true" /\> OR <combo key="park\_ride" text="Park and```*
+*```Ride" values="yes,no" default="" delete\_if\_empty="true" /\>```*
 
-delete\_if\_empty="true"
+**delete\_if\_empty="true"**
 
 Si la boîte de texte (ou combo) est laissée vide, la clé n’apparait pas
 dans les attributs car elle ne peut avoir une valeur vide. Par défaut,
 la valeur associée à cette clé est "false".
 
-Ex. <combo key="fee" text="Fee" values="yes,no" default=""
-delete\_if\_empty="true" /\> OR <check key="motorroad" text="Motorroad"
-default="off" delete\_if\_empty="true" /\>
+Ex. *```<combo key="fee" text="Fee" values="yes,no" default=""```*
+*```delete\_if\_empty="true" /\> OR <check key="motorroad" text="Motorroad"```*
+*```default="off" delete\_if\_empty="true" /\>```*
 
-values="entry1,entry2,entry3"
+**values="entry1,entry2,entry3"**
 
 Une liste d'entrées pour des menus de liste déroulante <combo\> et des
 sélections multiples <multiselect\>. La liste de choix doit être séparée
@@ -731,20 +690,20 @@ par des virgules dans <combo\> ou par le séparateur spécifié dans
 être une barre oblique inverse. Si une valeur contient une barre oblique
 inverse, il faut aussi terminer avec une barre oblique inverse.
 
-Ex. <combo key="surface" text="Surface"
-values="paved,unpaved,asphalt,concrete,metal,
-wood,paving\_stones,cobblestone,gravel,pebblestone,compacted,grass\_paver,grass,sand,ground"\>
+Ex. *```<combo key="surface" text="Surface"```*
+*```values="paved,unpaved,asphalt,concrete,metal,```*
+*```wood,paving\_stones,cobblestone,gravel,pebblestone,compacted,grass\_paver,grass,sand,ground"\>```*
 
-values\_context="context"
+**values\_context="context"**
 
 Contexte explicatif pour le nom d’attribut, pour séparer les mêmes mots
 avec des significations différentes.
 
-Ex. <combo key="location" text="Location"
-values="underground,underwater,overground" values\_context="pipeline"
-default="" delete\_if\_empty="true" /\>
+Ex. *```<combo key="location" text="Location"```*
+*```values="underground,underwater,overground" values\_context="pipeline"```*
+*```default="" delete\_if\_empty="true" /\>```*
 
-display\_values="Entry1,Entry2,Entry3"
+**display\_values="Entry1,Entry2,Entry3"**
 
 Une liste d'entrées qui est affichée à l'utilisateur. Doit comporter le
 même nombre d'entrées, dans le même ordre, que les valeurs listées dans
@@ -755,17 +714,14 @@ le séparateur, le séparateur peut être une barre oblique inverse. Si une
 valeur contient une barre oblique inverse, il faut aussi terminer avec
 une barre oblique inverse.
 
-Ex. <check key="lit" text="Lit" default="off" delete\_if\_empty="true"
-/\>
+Ex. *```<check key="lit" text="Lit" default="off" delete\_if\_empty="true"/\>```*
+*```<check key="oneway" text="Oneway" default="off" delete\_if\_empty="true"/\>```*
 
-<check key="oneway" text="Oneway" default="off" delete\_if\_empty="true"
-/\>
+*```<combo key="foot" text="Foot" fr.txt="Piéton"```*
+*```values="yes,designated,official,no,not\_specified"```*
+*```display\_values="yes,designated,official,no, not specified" \>```*
 
-<combo key="foot" text="Foot" fr.txt="Piéton"
-values="yes,designated,official,no,not\_specified"
-display\_values="yes,designated,official,no, not specified" \>
-
-fr.display\_values="Entrée1,Entrée2,Entrée3"
+**fr.display\_values="Entrée1,Entrée2,Entrée3"**
 
 Il est possible d’inclure une traduction de l’affichage des valeurs
 d’une liste. Elle sera prise en compte automatiquement par JOSM dans les
@@ -775,69 +731,65 @@ paramètre display\_values en anglais et ajoutez à la suite la ou les
 traductions. Il est possible de mettre plusieurs traductions dans un
 même modèle d’attributs.
 
-Ex. <check key="lit" text="Lit" default="off" delete\_if\_empty="true"
-/\>
+Ex. *```<check key="lit" text="Lit" default="off" delete\_if\_empty="true"/\>```*
+*```<check key="oneway" text="Oneway" default="off" delete\_if\_empty="true"/\>```*
 
-<check key="oneway" text="Oneway" default="off" delete\_if\_empty="true"
-/\>
+*```<combo key="foot" text="Foot" fr.txt="Piéton"```*
+*```values="yes,designated,official,no,not\_specified"```*
+*```display\_values="yes,designated,official,no, not specified"```*
+*```fr.display\_values="oui,désigné, officiel,non, non spécifié" \>```*
 
-<combo key="foot" text="Foot" fr.txt="Piéton"
-values="yes,designated,official,no,not\_specified"
-display\_values="yes,designated,official,no, not specified"
-fr.display\_values="oui,désigné, officiel,non, non spécifié" \>
-
-value="value"
+**value="value"**
 
 Spécifie une valeur d’une clé pour un attribut.
 
-Ex. <key key="man\_made" value="crane" /\>
+Ex. *```<key key="man\_made" value="crane" /\>```*
 
-value\_on="true\_value"
+**value\_on="true\_value"**
 
 Spécifie la valeur "true" appliquée pour la clé de cet attribut ("yes"
 par défaut).
 
-value\_off="false\_value"
+**value\_off="false\_value"**
 
 Spécifie la valeur "false" appliquée pour la clé de cet attribut ("no"
 par défaut).
 
-editable="false"
+**editable="false"**
 
 Affiche la liste déroulante en lecture seule, l'utilisateur peut
 seulement sélectionner un élément de la liste et ne peut saisir de
 texte.
 
-use\_last\_as\_default="true"
+**use\_last\_as\_default="true"**
 
 Spécifie pour une liste déroulante et les champs de texte que la
 dernière valeur choisie sera utilisée par défaut. Utiliser "force" pour
 également appliquer ce comportement à des objets possédant déjà des
 attributs avec cette clé.
 
-Ex. <text key="addr:street" text="Street name"
-use\_last\_as\_default="true" delete\_if\_empty="true" /\> OR
+Ex. *```<text key="addr:street" text="Street name"```*
+*```use\_last\_as\_default="true" delete\_if\_empty="true" /\> OR```*
 
-<text key="addr:city" text="City name" use\_last\_as\_default="true"
-delete\_if\_empty="true" /\> OR <text key="addr:postcode" text="Post
-code" use\_last\_as\_default="true" delete\_if\_empty="true" /\> OR
+*```<text key="addr:city" text="City name" use\_last\_as\_default="true"```*
+*```delete\_if\_empty="true" /\> OR <text key="addr:postcode" text="Post```*
+*```code" use\_last\_as\_default="true" delete\_if\_empty="true" /\> OR```*
 
-<combo key="addr:country" text="Country code"
-values="AT,CH,DE,FR,GB,IT,US" use\_last\_as\_default="true"
-delete\_if\_empty="true" /\>
+*```<combo key="addr:country" text="Country code"```*
+*```values="AT,CH,DE,FR,GB,IT,US" use\_last\_as\_default="true"```*
+*```delete\_if\_empty="true" /\>```*
 
-required="true"
+**required="true"**
 
 Le formulaire du modèle d’attributs ne peut être validé si une valeur
 n’est pas saisie ou choisie pour cette clé.
 
-Ex. <combo key="bridge" text="Bridge"
-values="yes,viaduct,swing,aqueduct" required="true" default="yes" /\>
+Ex. *```<combo key="bridge" text="Bridge" values="yes,viaduct,swing,aqueduct" required="true" default="yes" /\>```*
 
-rows="count"
+**rows="count"**
 
 Spécifie le nombre de lignes dans un <multiselect\>.
 
-Ex. <multiselect key="building:material" text="Building materials"
-values="straw;wood;concrete" default="" delete\_if\_empty="true"
-rows="3" /\>
+Ex. *```<multiselect key="building:material" text="Building materials"```*
+*```values="straw;wood;concrete" default="" delete\_if\_empty="true"```*
+*```rows="3" /\>```*
