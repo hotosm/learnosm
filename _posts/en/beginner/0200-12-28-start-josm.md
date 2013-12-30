@@ -1,12 +1,13 @@
 ---
 layout: doc
 title: Getting Started with JOSM
-permalink: /en/beginner/start-josm/
+permalink: "/en/beginner/start-josm/"
 lang: en
 category: beginner
+published: true
 ---
 
-Getting Started Editing: JOSM
+Getting Started with JOSM
 =============================
 
 In this chapter we will learn step by step how to download and install
