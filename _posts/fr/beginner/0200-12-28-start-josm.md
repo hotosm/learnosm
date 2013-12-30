@@ -1,10 +1,11 @@
 ---
 layout: doc
 title: Premiers pas avec JOSM
-permalink: /fr/beginner/start-josm/
+permalink: "/fr/beginner/start-josm/"
 lang: fr
 category: beginner
-otherguides: "Les autres niveaux"
+otherguides: Les autres niveaux
+published: true
 ---
 
 Premiers pas avec JOSM
