@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Introduction
-permalink: /en/beginner/introduction/
-lang: en
+permalink: /hr/beginner/introduction/
+lang: hr
 category: beginner
 ---
 

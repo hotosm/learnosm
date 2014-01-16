@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Editing with JOSM
-permalink: /en/beginner/editing-with-josm/
-lang: en
+permalink: /hr/beginner/editing-with-josm/
+lang: hr
 category: beginner
 ---
 

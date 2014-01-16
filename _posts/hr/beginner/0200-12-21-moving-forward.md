@@ -1,32 +1,27 @@
 ---
 layout: doc
-title: Further Reading
-permalink: /en/beginner/moving-forward/
-lang: en
+title: Daljnje čitanje
+permalink: /hr/beginner/moving-forward/
+lang: hr
 category: beginner
 ---
 
-Further Reading
+Daljnje čitanje
 ===============
 
-If you have made it this far, congratulations! You should have a good
-understanding now of how to make maps with OpenStreetMap. What else can
-you do with OSM? How can you learn more? How can you stay connected to
-the community of mappers?
+Ako si došao do ovdje, čestitamo! Sad bi trebao shvaćati kako kreirati OpenStreetMap karte. Što još možeš sa OSM? Kako možeš naučiti više? Kako ostati u kontaktu sa lokalnom zajednicom?
 
-Learn More
+Nauči više
 ----------
 
-There is a lot of information about OpenStreetMap available at
-[wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Here you can
-find information about other projects that are related to OpenStreetMap,
-and documents and tutorials that can help you learn more about OSM.
+Postoji puno informacija o OpenStreetMap na
+[wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Tamo možeš naći informacije o drugim projektima koji su povezani sa OpenStreetMap, te dokumente i uputstva koja ti mogu pomoći da naučiš više o OSM.
 
 ![Wiki][]
 
 <!-- also more info on this site once it is prepared -->
 
-Mailing List
+Mailing Liste
 ------------
 
 The best way to get connected to the OpenStreetMap user community is to

@@ -2,13 +2,13 @@
 layout: contribute
 permalink: /hr/contribute/
 lang: hr
-title: Contribute
-contributetitle: "Help improve our guides"
-startwith: "Ready to get started?"
-startA: "Send us feedback"
-startB: "Create a translation"
-startC: "Improve Language"
-startD: "Fork and improve site"
+title: Pridonesi
+contributetitle: "Pomozi popraviti naša uputstva"
+startwith: "Spremni početi?"
+startA: "Javi nam svoje primjedbee"
+startB: "Kreiraj prijevod"
+startC: "Poboljšaj prijevod"
+startD: "Forkaj i poboljšaj stranicu"
 nosearch: true
 ---
-This guide is created and maintained by the [OpenStreetMap](http://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](http://hotosm.org/) community. You can help us improve this guide by simply sending your feedback or by contributing directly to it via [Github](http://github.com/hotosm/learnosm).
+Ova uputstva su održavana od strane [OpenStreetMap](http://www.openstreetmap.org/) i [Humanitarian OpenStreetMap](http://hotosm.org/) zajednice. Možeš nam pomoći jednostavin slanjem svojih primjedbi ili direktno pomoći preko [Github](http://github.com/hotosm/learnosm).
