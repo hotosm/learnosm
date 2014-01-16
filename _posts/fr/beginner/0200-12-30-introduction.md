@@ -33,7 +33,7 @@ OpenStreetMap est un outil pour créer et partager des informations cartographiq
 
 Nous espérons que vous trouverez OpenStreetMap utile et intéressant pour votre travail. En suivant ce guide, vous devriez rapidement être capables de créer vos cartes numériques et de les ajouter au projet.
 
-[A village in Indonesia]: {{site.baseurl}}/images/intro_village_en.png
-[Example of a hand-drawn map]: {{site.baseurl}}/images/intro_drawing_en.png
+[A village in Indonesia]: {{site.baseurl}}/images/en_beg_ch1_image00.png
+[Example of a hand-drawn map]: {{site.baseurl}}/images/en_beg_ch1_image01.png
 [Examples of symbols]: {{site.baseurl}}/images/intro_symbol_en.png
 [Digital maps with OpenStreetMap]: {{site.baseurl}}/images/intro_osm1_en.png
