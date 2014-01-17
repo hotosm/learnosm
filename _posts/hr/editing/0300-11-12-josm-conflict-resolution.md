@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Conflict Resolution
-permalink: /en/editing/conflict-resolution/
-lang: en
+permalink: /hr/editing/conflict-resolution/
+lang: hr
 category: editing
 ---
 

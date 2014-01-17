@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: JOSM Plugins
-permalink: /en/editing/josm-plugins/
-lang: en
+permalink: /hr/editing/josm-plugins/
+lang: hr
 category: editing
 ---
 

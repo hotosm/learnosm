@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/map-design/
-lang: en
+permalink: /hr/map-design/
+lang: hr
 title: Map Design
 category: map-design
 cover: yes

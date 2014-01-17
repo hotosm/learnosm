@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Creating Custom Presets
-permalink: /en/editing/creating-presets/
-lang: en
+permalink: /hr/editing/creating-presets/
+lang: hr
 category: editing
 ---
 
