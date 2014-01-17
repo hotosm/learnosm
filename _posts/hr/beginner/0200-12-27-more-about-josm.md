@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: More about JOSM
-permalink: /en/beginner/more-about-josm/
-lang: en
+permalink: /hr/beginner/more-about-josm/
+lang: hr
 category: beginner
 ---
 
