@@ -24,11 +24,7 @@ Postoji puno informacija o OpenStreetMap na
 Mailing Liste
 ------------
 
-The best way to get connected to the OpenStreetMap user community is to
-join your local mailing list. Many people sign up, using their email
-accounts to the OSM mailing list. Once you are on the list, you can send
-an email to the group if you have a question or want to talk about
-OpenStreetMap.
+Najbolji način za spojiti se sa lokalnom OpenStreetMap zajednicom je preko lokalne mailing liste. Mnogi ljudi se prijave na mailing listu koristeći svoj mail. Kad se priključip listi možeš slati mailove grupi ako imaš pitanja ili ako želiš razgovarati o OpenStreetMap.
 
 -   To sign up for your country's mailing list, open your internet
     browser and go to
@@ -73,14 +69,11 @@ index of locations that are included in the area.
 -->
 
 
-Summary
+Zaključak
 -------
 
-These are some of the ways that you can use and stay connected with the
-OpenStreetMap community and learn more. We hope you'll continue
-exploring and learning more about OSM, and contribute to the project.
-Happy Mapping!
-
+Ovo su samo neki od načina kako možeš kontaktirati OpenStreetMap zajednicu inaučiti više. Nadamo se da ćeš nastaviti istraživati i učiti o OSM, i pomoći u projektu.
+Sretno mapiranje!
 
 [MapOSMatic]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image00_maposmatic-homepage.png
 [Wiki]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image01_osm-wiki.png
