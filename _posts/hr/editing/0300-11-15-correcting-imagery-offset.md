@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Correcting Imagery Offset
-permalink: /en/editing/correcting-imagery-offset/
-lang: en
+permalink: /hr/editing/correcting-imagery-offset/
+lang: hr
 category: editing
 ---
 

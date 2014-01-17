@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: OSM Data in QGIS
-permalink: /en/osm-data/osm-in-qgis/
-lang: en
+permalink: /hr/osm-data/osm-in-qgis/
+lang: hr
 category: osm-data
 ---
 
