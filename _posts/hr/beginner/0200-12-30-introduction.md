@@ -1,18 +1,16 @@
 ---
 layout: doc
-title: Introduction
+title: Uvod
 permalink: /hr/beginner/introduction/
 lang: hr
 category: beginner
 ---
 
-Introduction
+Uvod
 ============
 
-Information is powerful. With good information and the right
-understanding, individuals and communities are better able to improve
-their lives and make good decisions about the future. There are many
-people and organizations who make decisions that affect our lives. Good
+Informacija je moć. Sa dobrim informacijama i pravim razumjevanjem, pojedinci i zajednice mogu lakše poboljšati svoj život i donijeti bolje odluke o budućnosti.
+There are many people and organizations who make decisions that affect our lives. Good
 information allows these NGOs, governments and citizens to make better
 decisions, and hopefully make our lives better. Maps are a good way
 to convey information. 
