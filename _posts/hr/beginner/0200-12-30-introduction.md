@@ -17,7 +17,7 @@ to convey information.
 
 ![A village in Indonesia][]
 
-Maps are visual symbols of our world. They can often 
+Karte su vizualni simboli svijeta. They can often 
 demonstrate an idea better than words. This in turn can help us
 answer important questions. Where is the closest school or hospital? Who
 has the least access to these facilities? Where is poverty the most
