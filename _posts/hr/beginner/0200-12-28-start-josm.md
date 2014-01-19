@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Getting Started with JOSM
+title: Upoznavanje sa JOSM
 permalink: "/hr/beginner/start-josm/"
 lang: hr
 category: beginner
@@ -29,7 +29,7 @@ to draw maps in JOSM.
 Preuzimanje JOSM softvera
 -------------
 
-- Ako imate primjrak JOSM-a na CD-u ili USB sticku, možete preskočiti na sljedeći dio, instaliranje JOSM-a.
+- Ako imate primjerak JOSM-a na CD-u ili USB sticku, možete preskočiti na sljedeći dio, instaliranje JOSM-a.
 - Ako nemate JOSM ili ako želite najnoviju verziju, pokrenite svoj web preglednik (Firefox, Chrome, Opera ili Internet Explorer).
 - Na vrhu prozora u prostor za upisivanje web lokacija upišite sljedeće:  [josm.openstreetmap.de](http://josm.openstreetmap.de)
 - JOSM stranice također možete naći i ako na webu potražite pojam "JOSM".
@@ -52,7 +52,7 @@ Instaliranje JOSM-a
 >  pokušajte preuzeti i instalirati Javu. Možete je preuzeti ovdje:
 >  [http://www.java.com/en/download/](http://www.java.com/en/download/)
 
-- Nađte preuzetu JOSM datoteku na računalu. Dva puta kliknice na datoteku da započnete instalaciju.
+- Nađite preuzetu JOSM datoteku na računalu. Dva puta kliknite na datoteku da započnete instalaciju.
 - Kliknite ‘OK’, ‘Next’, ‘I Agree’, i ‘Install’. Kada je instalacija
   gotova, kliknite 'Finish' kako biste pokrenuli JOSM prvi put.
   Kasnije, kada želite pokrenuti JOSM, kliknite na Start Menu u donjem 
@@ -68,7 +68,7 @@ JOSM Postavke
 --------------------
 
 Postoje mnoge postavke koje možete podesiti u JOSM-u.
-Jenda od postavki koju možda želite postaviti je jezik.
+Jedna od postavki koju možda želite postaviti je jezik.
 JOSM je preveden u brojne jezike, a vama možda bolje odgovara neki
 drugi.
 
@@ -101,7 +101,7 @@ Naučite osnove crtanja u JOSM-u
 
   ![Open file][]
 
-- Pronašite datoteku **sample.osm**. Vjerojatnio se nalazi u vašoj mapi Downloads, 
+- Pronađite datoteku **sample.osm**. Vjerojatno se nalazi u vašoj mapi Downloads, 
   osim ako ste ga preuzeli negdje drugdje. Kliknite na datoteku pa zatim “Open”.
 - Trebali biste vidjeti kartu za primjer koja izgleda kao:
 
@@ -118,7 +118,7 @@ Naučite osnove crtanja u JOSM-u
   ![Scale bar][]
 
 - Pogledajte primjer karte. Uočite nekoliko različitih objekata na njoj.
-  Imamo rijeku, šumum neke zgrade, nekoliko prometnica
+  Imamo rijeku, šumu neke zgrade, nekoliko prometnica
   i nekoliko trgovina. Da odaberete objekt, kliknite na njega lijevom tipkom miša.
 
 ### Točke, Linije i oblici
