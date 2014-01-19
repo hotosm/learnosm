@@ -135,96 +135,83 @@ Naučite osnove crtanja u JOSM-u
   šumu, rijeku, park i zgrade. Oblici predstavljaju površine kao polja ili zgrade.
   Oblik je poput linije, jedina razlika je da završava u početnoj točci.
 
-> It's easy to think of a map as containing these three basic types of objects - 
-> points, lines, and shapes. In OpenStreetMap there is special terminology
-> which you will come to learn as you progress. In OSM, points are actually called
-> **nodes**, and lines are called **ways**. A shape is called a **closed way**
-> because it is just a line that ends at the same point where it begins.
+> Lako je razmišljati o karti koja sadrži tri osnovna tipa objekata
+> točke, linije i oblici. OpenStreetMap koristi posebnu terminologiju
+> koju ćete usvojiti kako napredujete. U OSM-u točke se zovu
+> **nodes**, linije se zovu **ways**. Oblik se zove **closed way**
+> jer se jednostavno radi o liniji koja završava u svome početku.
 
-- You may notice that when you select an object, a list appears to the
-  right of the map in a window called “Properties”. These are known as
-  tags. Tags are information that is tied to a point, line or shape
-  that describes what it is. We’ll learn more about tags in a later
-  chapter. For now all you need to know is that this
-  information helps describe whether our object is a forest, a river,
-  a building, or something else.
-- Think about drawing a map by hand, and how you are also drawing
-  points, lines, and shapes. What other places are best represented by
-  points? Lines? Shapes?
+- Možda ste primjetili da kada odaberete objekt, pojavi se popis 
+  desno od karte u prozoru naslova "Properties". Elemente liste nazivamo
+  tagovi. Tagovi predstavljaju informacije koje se vežu uz točku, liniju ili oblik
+  i koje objašnjavaju o čemu se radi. Više o tagovima ćemo naučiti u kasnijim poglavljima.
+  Za sada sve što trebate znati je da ove informacije pomažu da znamo je li naš objekat šuma, rijeka
+  građevina ili nešto drugo. 
+- Razmislite kako ručno nacrtati kartu i kako i tamo koristite 
+  točke, linije i oblike. Koja druga mjesta je najbolje predstaviti s ova tri oblika? 
 
-### Changing Objects
+### Izmjene na objektima
 
-- Select the forest on the left side of the map. Be sure to click on
-  the line around the forest, not one of the points on the line. Now
-  hold your left mouse button down and drag your mouse. You should be
-  able to move the forest to a new location on the map.
-- Click on one of the points on the line around the forest. Hold your
-  left mouse button down and drag your mouse. You should be able to
-  move the point. This is how you can change the shape of an object,
-  or move a point.
+- Odaberite šumu na lijevoj strani karte. Kliknite na 
+  liniju koja označava šumu a NE jednu od točaka na liniji. Sad 
+  držite lijevu tipku miša stisnutom i pomičite miš. Trebali biste 
+  ovime moći pomaknuti šumu na drugu lokaciju.
+- Kliknite na jednu od točaka na liniji koja uznačava šumu. Držite stisnutu lijevu tipku
+  i pomičite miša. Sada mičete točku. Ovako možete promjeniti oblik objekta 
+  ili pomaknuti pojedine njegove točke.
 
-### Drawing
+### Crtanje
 
-- On the left side of JOSM is a column of buttons. Many of these
-  buttons open new windows on the right side that provide more
-  information about the map. The most important buttons, however, are
-  at the top of these column. These buttons change what you can do
-  with your mouse.
-- The top buttons in this column are the ones you will use the most.
-  They are used for selecting objects and for drawing new ones.
-- Until now, you have been using the Select tool, which looks like
-  this:
+- Na lijevoj strani JOSM prozora nalazi se kolumna tipki. Mnoge tipke 
+  otvaraju prozore na desnoj strani programa koji daju više informacija
+  o karti. Najvašnije tipke su na samom vrhu kolumne. Ove tipke definiraju
+  što možete raditi s mišem. 
+- Najviše ćemo se služiti gornjim tipkama. Njih ćemo koristiti za odabir objekata
+  i crtanje novih. 
+- Do sada ste koristili Select (Odaberi) alat koji izgleda ovako:
 
   ![Select tool][]
 
-- Before you draw, you need to make sure that nothing is selected.
-  Click in the black space on the map, where it is empty, to make sure
-  nothing is selected.
-- Click on the second button, the Draw tool.
+- Prije crtanja, provjerite da nemate ništa selektirano. Kliknite na crni prostor na karti, 
+  tamo gdje je prazno, kako biste bili sigurni da ništa nije ostalo odabrano.
+- Kliknite na drugi tipku, alat za crtanje (Draw tool).
 
   ![Draw tool][]
 
-- Find an empty area on the map, and double-click with your mouse.
-  This will draw a single point.
-- To draw a line, single-click with your mouse. Move your mouse and
-  click again. Continue until you are happy with your line. To end the
-  line, double-click your mouse.
-- Draw a shape the same way that you draw a line, but finish the shape
-  by double-clicking on the point where you started the line.
+- Nađite prazno područje na karti i duplo klikite. Ovo će stvoriti jednu točku.
+- Ako želite nacrtati liniju, kliknite mišem jednom. Pomaknite miša i klikinite ponovo.
+  Nastavite dok ne završite željenu liniju. Za završiti liniju, duplo kliknite.
+- Oblike crtate isto ako i linije, jedino oblik završavate da duplo kliknete na početnu
+  točku linije.
 
-### Add Presets
+### Dodajte unaprijed definirana objašnjenja
 
-- Now we know how to draw points, lines and shapes, but we still
-  haven’t defined what they represent. We want to be able to say that
-  our points are shops, schools, or something else, and whether our
-  shapes are fields, buildings, or something else.
-- Click on the Select tool, in the column of buttons on the left.
+- Sada uznamo kako crtati točke, linije i oblike, ali još nismo definirali
+  što oni predstavljaju. Želimo moći definirati da su naše točke trgovine, škole ili nešto
+  drugo, te jesu li naši oblici polja, građevine ili nešto treće. 
+- Kliknite na alat za odabir u kolumni tipki na lijevoj strani.
 
   ![Select tool][]
 
-- Select one of the objects that you drew with the Draw tool. On the
-  top menu, click “Presets”. Move your mouse through the sub-menu to
-  the type of location you would like to define.
-- When you click on a preset, a form will pop up asking you for more
-  information. You do not have to fill in every field, but you may
-  wish to add some of the important fields, such as the name of the
-  object.
-- When you are finished entering the information, click “Apply
-  Preset”. If everything went well, your point, line, or shape should
-  change colors or show a symbol. This is because you have defined
-  what it is.
+- Odaberite jedan od objekata koji ste nacrtali alatom za crtanje. Iz menija s vrha ekrana 
+  odaberite “Presets”. Pomičite miša kroz podmenije dok ne nađete tip lokacije koju želite definirati.
+- Kada kliknete na tip objekta, pojaviti će se formular koji će tražiti dodatne informacije.
+  Ne trebate popuniti sva polja, ali možda ćete htjeti popuniti neka važna, kao ime objekta.
+- Kada ste završili unos podataka, odaberite “Apply
+  Preset”. Ako je sve drugo dobro, vaša točka, linija ili oblik će promijeniti boju
+  ili pokazati simbol. To se dešava zato što ste definirali o kakvom objektu se radi.
 
-Draw Your Own Map
+Nacrtajte vlastitu kartu
 -----------------
 
-- Now let’s draw a map in order to practice the techniques you have
-  learned. You may wish to redraw the map that you drew on paper previously.
-- Drag the map away from the sample map. Hold the right mouse button
-  and drag your mouse, until you have a nice empty area to draw on.
-- Use the Draw tool to create points, lines, and shapes. Describe what
-  your objects are by selecting from the Presets menu.
-- When you are finished, you should have your own map, similar to the
-  sample map that we opened in sample.osm.
+- Sada nacrtajmo kartu kako bismo izvježbali tehnike koje ste naučili.
+  Bilo bi dobro da nacrtate kartu koju ste prije nacrtali ručno.
+- Pomaknite područje za kartu dalje od našeg primjera. Držite desnu tipku miša 
+  i pomičite miša dok ne dođete do praznog prostora na kojemu nesmetano možete crtati. 
+- Koristite alat za crtanje (Draw), za crtanje točaka, linija i oblika. 
+  Opišite o kojim se objektima radi koristeći se menijem unaprijed definiranih definicija
+  (Presets menu)
+- Kad ste završili, imate vlastitu kartu, sličnu karti sample.osm koju smo koristili kao primjer.
 
 Zaključak
 -------
