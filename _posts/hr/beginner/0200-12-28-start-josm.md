@@ -1,15 +1,22 @@
 ---
 layout: doc
-title: Getting Started with JOSM
+title: Upoznavanje sa JOSM
 permalink: "/hr/beginner/start-josm/"
 lang: hr
 category: beginner
 published: true
 ---
 
-Getting Started with JOSM
+Naučite se radu u JOSM-u
 =============================
 
+U ovom poglavlju ćemo naučiti korak po korak kako preuzeti i instalirati
+JOSM, Java OpenStreetMap editor. Promijeniti ćemo neke postavke
+u programu i učiniti ga lakšim za korištenje. Zatim ćemo otvoriti kartu za primjer
+naučiti neke osnovne operacije programa. Sjetite se da smo vas u uvodnom poglavlju
+tražili da nacrtate kartu vlastitog grada ili mjesta? Ovo poglavlje ćemo završiti
+ponovo kreirajući tu kartu, ovaj puta digitalno. Nakon ovoga ćete dobro razumjeti
+kako crtati karte u JOSM-u
 In this chapter we will learn step by step how to download and install
 JOSM, the Java OpenStreetMap editor. We will change some of the settings
 in JOSM to make it easier to use. Then we will open a sample map and
@@ -19,236 +26,201 @@ village? We will conclude this chapter by drawing your map again, this
 time digitally. After this you should have a good understanding of how
 to draw maps in JOSM.
 
-Download JOSM
+Preuzimanje JOSM softvera
 -------------
 
-- If you have a copy of JOSM on a CD or usb flash drive, you can skip
-  to the next section, Install JOSM.
-- If you don’t have JOSM already, or want the newest version, open
-  your web browser - this may be Firefox, Chrome, Opera, or Internet
-  Explorer.
-- In the address bar at the top of the window, enter the following
-  text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
-- You can also find the JOSM website by searching the internet for “JOSM”.
-- The website should look something like this:
+- Ako imate primjerak JOSM-a na CD-u ili USB sticku, možete preskočiti na sljedeći dio, instaliranje JOSM-a.
+- Ako nemate JOSM ili ako želite najnoviju verziju, pokrenite svoj web preglednik (Firefox, Chrome, Opera ili Internet Explorer).
+- Na vrhu prozora u prostor za upisivanje web lokacija upišite sljedeće:  [josm.openstreetmap.de](http://josm.openstreetmap.de)
+- JOSM stranice također možete naći i ako na webu potražite pojam "JOSM".
+- Web stranica bi trebala izgledati slično ovome:
 
   ![JOSM website][]
 
-- If you have Windows installed on your computer, click “Windows JOSM
-  Installer” to download JOSM.
+- Ako radite u Windows OS-u, odaberite “Windows JOSM
+  Installer” da preuzmete JOSM.
 
   ![Windows installer][]
 
-- If you have a different operating
-  system, click on the link for your system. Your download should
-  begin. In this chapter we will assume that you are using Windows,
-  but the instructions are similar for other operating systems.
+- Ako koristite drug operativni sustav, kliknite na link za njega. Preuzimanje bi trebalo započeti. U ovom poglavlju ćemo pretpostaviti da koristite Windows OS, ali upute su slične i za druge operativne sustave.
 
-Install JOSM
+Instaliranje JOSM-a
 ------------
 
->  You may have problems installing JOSM if Java is not already
->  installed on your computer. If you have problems in this section,
->  try downloading and installing Java. You can download it here:
+>  Možda ćete imati problema instalirati JOSM ako Java već nije
+>  instalirana na vašem računalu. Ako imate problema u ovom dijelu, 
+>  pokušajte preuzeti i instalirati Javu. Možete je preuzeti ovdje:
 >  [http://www.java.com/en/download/](http://www.java.com/en/download/)
 
-- Find the JOSM install file on your computer. Double-click it to
-  begin setup.
-- Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation
-  is complete, click ‘Finish’ to launch JOSM for the first time.
-  Later, when you want to start JOSM, you can do so by clicking on the
-  Start Menu in the lower left corner of your computer, and clicking
-  the program JOSM.
-- You may see a window pop up that asks if you want to update the
-  software.  You don’t need to update it since it is new.  Press the
-  button that says “Cancel.”  If you don’t ever want to see this
-  message again, check the box at the bottom before pressing “Cancel.”
-- When JOSM starts, it will look something like this:
+- Nađite preuzetu JOSM datoteku na računalu. Dva puta kliknite na datoteku da započnete instalaciju.
+- Kliknite ‘OK’, ‘Next’, ‘I Agree’, i ‘Install’. Kada je instalacija
+  gotova, kliknite 'Finish' kako biste pokrenuli JOSM prvi put.
+  Kasnije, kada želite pokrenuti JOSM, kliknite na Start Menu u donjem 
+  lijevom djelu ekrana i odaberite program JOSM.
+- Možda ćete vidjeti prozor koji će tražiti da postavite noviju verziju softvera.
+  Ne vi već imate najnoviju verziju. Kliknite tipku “Cancel.”
+  Ako ne želite ponovo vidjeti ovu poruku, označite kućicu na dnu prije nego kliknete "Cancel".
+- Kad se JOSM pokrene, izgledati će slično ovome:
 
   ![JOSM splash page][]
 
-JOSM Preferences
+JOSM Postavke
 --------------------
 
-There are many different settings that you can customize in JOSM. 
-One setting that you may want to adjust is the language. JOSM has
-been translated into numerous languages, and you may prefer to
-work in a different one.
+Postoje mnoge postavke koje možete podesiti u JOSM-u.
+Jedna od postavki koju možda želite postaviti je jezik.
+JOSM je preveden u brojne jezike, a vama možda bolje odgovara neki
+drugi.
 
-- To access the Preferences window, click Edit -\> Preferences.
+- Kako biste otvorili prozor s postavkama kliknite Edit -\> Preferences.
 
   ![Preferences window][]
 
-- On the left side, click the icon that looks like a paint can and
-  paint brush.
-- At the top of the window, click the tab that says “Look and Feel”.
-- Choose your language in the dropdown box next to the word
+- Na lijevoj strani, kliknite ikonu koja izgleda kao kantica s bojom i kist.
+- Na vrhu prozora, kliknite karticu na naziva “Look and Feel”.
+- Odaberite svoj jezik u padajućem meniju pokraj riječi
   “Language”.
   
   ![Look and feel][]
 
-- Click OK.
-- You need to restart JOSM to save your settings. Click “File” in the
-  upper left corner, and Click “Exit” at the bottom of the menu.
-- Start JOSM again by going to the Windows Start Menu in the bottom
-  left corner. Find JOSM and click on it to start.
+- Kliknite OK.
+- Morate ponovo pokrenuti JOSM kako biste spremili postavke. Kliknite “File” u
+  gornjem lijevom kutu, i kliknite “Exit” na dnu menija.
+- Ponovo pokrenite JOSM odabravši Windows Start Meni u donjem
+  lijevom kutu. Pronađite JOSM i kliknite na njega da ga pokrenete.
 
-Learn Basic Drawing with JOSM
+Naučite osnove crtanja u JOSM-u
 -----------------------------
 
-- Now let’s open up a sample OSM file which we will use to learn the
-  basic ways to draw maps with JOSM. Note that this map is not real,
-  in that it is not a real map of a real place, so we will not save it
-  on OpenStreetMap.
-- Download the file here: [sample.osm](/files/sample.osm)
-- Now let’s open the sample map file in JOSM. Click the
-  “Open” button in the upper left.
+- Otvorimo primjer OSM datoteke koji ćemo koristiti na da naučimo
+  osnovne načine crtanja karata JOSM softverom. Uočite da se ne radi o pravoj karti 
+  koja prikazuje stvarno mjesto, pa je stoga nećemo pohraniti u OpenStreetMap
+- Ovdje preuzmite datoteku: [sample.osm](/files/sample.osm)
+- Sada otvorimo primjer karte u JOSM-u. Kliknite na tipku 
+  “Open” u gornjem lijevom kutu.
 
   ![Open file][]
 
-- Find the file **sample.osm**. It is probably in your Downloads folder,
-  unless you saved it somewhere else. Click on it, and then click “Open”.
-- You should now see a sample map that looks like this:
+- Pronađite datoteku **sample.osm**. Vjerojatno se nalazi u vašoj mapi Downloads, 
+  osim ako ste ga preuzeli negdje drugdje. Kliknite na datoteku pa zatim “Open”.
+- Trebali biste vidjeti kartu za primjer koja izgleda kao:
 
   ![Sample file][]
 
-### Basic Operations
+### Osnovne funkcije
 
-- To move the map left or right, up or down, hold your right mouse
-  button down, and move your mouse.
-- There are several ways to zoom in and out of the map. If you have a
-  mouse, you can use your scroll wheel to zoom in and out. If you are
-  using a laptop and don’t have a mouse, you can zoom in and out using
-  the scale bar in the upper left of the map window. Drag the bar left
-  and right by holding your left mouse down and moving the bar left or
-  right with your mouse.
+- Za pomicanje karte gore, dolje, lijevo i desno držite desnu tipku miša i pomičite ga.
+- Postoji nekoliko načina za približiti ili udaljiti kartu. Ako imate miša,
+  možete koristiti kotačić za uvećavanje i umanjivanje. Ako koristite laptop i nemate miša
+  možete kartu uvećati ili umanjiti koristeći mjerilo karte u gornjem lijevom kutu prozora s kartom.
+  Pomičite pokazivač mjerila lijevo ili desno držeći pritisnutim lijevu tipku miša i pomicanjem lijevo, desno.
 
   ![Scale bar][]
 
-- Look at the sample map. There a few different types of objects here.
-  There is a river, a forest, some buildings, several roads, and a
-  couple of shops. To select an object, click on it with your left
-  mouse button.
+- Pogledajte primjer karte. Uočite nekoliko različitih objekata na njoj.
+  Imamo rijeku, šumu neke zgrade, nekoliko prometnica
+  i nekoliko trgovina. Da odaberete objekt, kliknite na njega lijevom tipkom miša.
 
-### Points, Lines, and Shapes
+### Točke, Linije i oblici
 
-- As you click different objects on the sample map, notice that there
-  are three different types of objects on the map. There are points,
-  lines, and shapes.
-- Points are a single location, represented by symbols. On this sample
-  map, there are two points, a shoe shop and a supermarket. The
-  shoe shop is represented by a shoe symbol, and the market is
-  represented by a shopping cart.
-- There are several lines on the map as well, which represent roads.
-  If you look closely you will see that within the lines, there are
-  points as well. These points don’t have any symbols or other
-  information associated with them, but they help to define where the
-  line is located.
-- Lastly, there are numerous shapes on the sample map, representing
-  different places - a forest, a river, a park, and buildings. A shape
-  is used to represent an area, like a field or a building. A shape is
-  exactly like a line - the only difference is that the line begins at
-  the same point where it ends.
+- Kako odabirete razne objekte na našoj karti za testiranje, primjetite da ona ima 
+  razne tipove objekata. Postoje točke, linije i oblici.
+- Točke predstavljaju pojedinačnu lokaciju, predstavljenu simbolima. Na karti imamo dvije točke,
+  trgovina cipelama i supermarket. Trgovinu cipelama predstavlja simbol cipele, a supermarket predstavljaju
+  kolica za kupovinu.
+- Postoji nekoliko linija na karti, koje predstavljaju ceste. 
+  Ako pažljivo pogledate, vidjeti ćete da linije sadrže točke.  
+  Ove točke nemaju simbola ili drugih pridruženih informacija, već samo definiraju položaj linija.
+- Konačno, postoje brojni oblici na karti koji predstavljaju razna mjesta, 
+  šumu, rijeku, park i zgrade. Oblici predstavljaju površine kao polja ili zgrade.
+  Oblik je poput linije, jedina razlika je da završava u početnoj točci.
 
-> It's easy to think of a map as containing these three basic types of objects - 
-> points, lines, and shapes. In OpenStreetMap there is special terminology
-> which you will come to learn as you progress. In OSM, points are actually called
-> **nodes**, and lines are called **ways**. A shape is called a **closed way**
-> because it is just a line that ends at the same point where it begins.
+> Lako je razmišljati o karti koja sadrži tri osnovna tipa objekata
+> točke, linije i oblici. OpenStreetMap koristi posebnu terminologiju
+> koju ćete usvojiti kako napredujete. U OSM-u točke se zovu
+> **nodes**, linije se zovu **ways**. Oblik se zove **closed way**
+> jer se jednostavno radi o liniji koja završava u svome početku.
 
-- You may notice that when you select an object, a list appears to the
-  right of the map in a window called “Properties”. These are known as
-  tags. Tags are information that is tied to a point, line or shape
-  that describes what it is. We’ll learn more about tags in a later
-  chapter. For now all you need to know is that this
-  information helps describe whether our object is a forest, a river,
-  a building, or something else.
-- Think about drawing a map by hand, and how you are also drawing
-  points, lines, and shapes. What other places are best represented by
-  points? Lines? Shapes?
+- Možda ste primjetili da kada odaberete objekt, pojavi se popis 
+  desno od karte u prozoru naslova "Properties". Elemente liste nazivamo
+  tagovi. Tagovi predstavljaju informacije koje se vežu uz točku, liniju ili oblik
+  i koje objašnjavaju o čemu se radi. Više o tagovima ćemo naučiti u kasnijim poglavljima.
+  Za sada sve što trebate znati je da ove informacije pomažu da znamo je li naš objekat šuma, rijeka
+  građevina ili nešto drugo. 
+- Razmislite kako ručno nacrtati kartu i kako i tamo koristite 
+  točke, linije i oblike. Koja druga mjesta je najbolje predstaviti s ova tri oblika? 
 
-### Changing Objects
+### Izmjene na objektima
 
-- Select the forest on the left side of the map. Be sure to click on
-  the line around the forest, not one of the points on the line. Now
-  hold your left mouse button down and drag your mouse. You should be
-  able to move the forest to a new location on the map.
-- Click on one of the points on the line around the forest. Hold your
-  left mouse button down and drag your mouse. You should be able to
-  move the point. This is how you can change the shape of an object,
-  or move a point.
+- Odaberite šumu na lijevoj strani karte. Kliknite na 
+  liniju koja označava šumu a NE jednu od točaka na liniji. Sad 
+  držite lijevu tipku miša stisnutom i pomičite miš. Trebali biste 
+  ovime moći pomaknuti šumu na drugu lokaciju.
+- Kliknite na jednu od točaka na liniji koja uznačava šumu. Držite stisnutu lijevu tipku
+  i pomičite miša. Sada mičete točku. Ovako možete promjeniti oblik objekta 
+  ili pomaknuti pojedine njegove točke.
 
-### Drawing
+### Crtanje
 
-- On the left side of JOSM is a column of buttons. Many of these
-  buttons open new windows on the right side that provide more
-  information about the map. The most important buttons, however, are
-  at the top of these column. These buttons change what you can do
-  with your mouse.
-- The top buttons in this column are the ones you will use the most.
-  They are used for selecting objects and for drawing new ones.
-- Until now, you have been using the Select tool, which looks like
-  this:
+- Na lijevoj strani JOSM prozora nalazi se kolumna tipki. Mnoge tipke 
+  otvaraju prozore na desnoj strani programa koji daju više informacija
+  o karti. Najvašnije tipke su na samom vrhu kolumne. Ove tipke definiraju
+  što možete raditi s mišem. 
+- Najviše ćemo se služiti gornjim tipkama. Njih ćemo koristiti za odabir objekata
+  i crtanje novih. 
+- Do sada ste koristili Select (Odaberi) alat koji izgleda ovako:
 
   ![Select tool][]
 
-- Before you draw, you need to make sure that nothing is selected.
-  Click in the black space on the map, where it is empty, to make sure
-  nothing is selected.
-- Click on the second button, the Draw tool.
+- Prije crtanja, provjerite da nemate ništa selektirano. Kliknite na crni prostor na karti, 
+  tamo gdje je prazno, kako biste bili sigurni da ništa nije ostalo odabrano.
+- Kliknite na drugi tipku, alat za crtanje (Draw tool).
 
   ![Draw tool][]
 
-- Find an empty area on the map, and double-click with your mouse.
-  This will draw a single point.
-- To draw a line, single-click with your mouse. Move your mouse and
-  click again. Continue until you are happy with your line. To end the
-  line, double-click your mouse.
-- Draw a shape the same way that you draw a line, but finish the shape
-  by double-clicking on the point where you started the line.
+- Nađite prazno područje na karti i duplo klikite. Ovo će stvoriti jednu točku.
+- Ako želite nacrtati liniju, kliknite mišem jednom. Pomaknite miša i klikinite ponovo.
+  Nastavite dok ne završite željenu liniju. Za završiti liniju, duplo kliknite.
+- Oblike crtate isto ako i linije, jedino oblik završavate da duplo kliknete na početnu
+  točku linije.
 
-### Add Presets
+### Dodajte unaprijed definirana objašnjenja
 
-- Now we know how to draw points, lines and shapes, but we still
-  haven’t defined what they represent. We want to be able to say that
-  our points are shops, schools, or something else, and whether our
-  shapes are fields, buildings, or something else.
-- Click on the Select tool, in the column of buttons on the left.
+- Sada uznamo kako crtati točke, linije i oblike, ali još nismo definirali
+  što oni predstavljaju. Želimo moći definirati da su naše točke trgovine, škole ili nešto
+  drugo, te jesu li naši oblici polja, građevine ili nešto treće. 
+- Kliknite na alat za odabir u kolumni tipki na lijevoj strani.
 
   ![Select tool][]
 
-- Select one of the objects that you drew with the Draw tool. On the
-  top menu, click “Presets”. Move your mouse through the sub-menu to
-  the type of location you would like to define.
-- When you click on a preset, a form will pop up asking you for more
-  information. You do not have to fill in every field, but you may
-  wish to add some of the important fields, such as the name of the
-  object.
-- When you are finished entering the information, click “Apply
-  Preset”. If everything went well, your point, line, or shape should
-  change colors or show a symbol. This is because you have defined
-  what it is.
+- Odaberite jedan od objekata koji ste nacrtali alatom za crtanje. Iz menija s vrha ekrana 
+  odaberite “Presets”. Pomičite miša kroz podmenije dok ne nađete tip lokacije koju želite definirati.
+- Kada kliknete na tip objekta, pojaviti će se formular koji će tražiti dodatne informacije.
+  Ne trebate popuniti sva polja, ali možda ćete htjeti popuniti neka važna, kao ime objekta.
+- Kada ste završili unos podataka, odaberite “Apply
+  Preset”. Ako je sve drugo dobro, vaša točka, linija ili oblik će promijeniti boju
+  ili pokazati simbol. To se dešava zato što ste definirali o kakvom objektu se radi.
 
-Draw Your Own Map
+Nacrtajte vlastitu kartu
 -----------------
 
-- Now let’s draw a map in order to practice the techniques you have
-  learned. You may wish to redraw the map that you drew on paper previously.
-- Drag the map away from the sample map. Hold the right mouse button
-  and drag your mouse, until you have a nice empty area to draw on.
-- Use the Draw tool to create points, lines, and shapes. Describe what
-  your objects are by selecting from the Presets menu.
-- When you are finished, you should have your own map, similar to the
-  sample map that we opened in sample.osm.
+- Sada nacrtajmo kartu kako bismo izvježbali tehnike koje ste naučili.
+  Bilo bi dobro da nacrtate kartu koju ste prije nacrtali ručno.
+- Pomaknite područje za kartu dalje od našeg primjera. Držite desnu tipku miša 
+  i pomičite miša dok ne dođete do praznog prostora na kojemu nesmetano možete crtati. 
+- Koristite alat za crtanje (Draw), za crtanje točaka, linija i oblika. 
+  Opišite o kojim se objektima radi koristeći se menijem unaprijed definiranih definicija
+  (Presets menu)
+- Kad ste završili, imate vlastitu kartu, sličnu karti sample.osm koju smo koristili kao primjer.
 
-Summary
+Zaključak
 -------
 
-Excellent! If all went well you have learned how to setup JOSM on your
-computer, and the basic tools for drawing maps. In the next two
-chapters, you will learn how to two methods for mapping your town or village,
-GPS and Field Papers. Then, we will return to JOSM and using the
-information we collected, we will add information to OpenStreetMap.
+Odlično! Ako je sve dobro prošlo, naučili ste kako postaviti JOSM 
+na vašem računalu, kao i osnovne alate za crtanje karata. U sljedeća dva poglavlja
+naučiti ćete dvije metode za stvaranje karte vašeg mjesta, korištenjem GPS uređaja
+i korištenjem Feld Papers-a. Nakon toga ćemo se vratiti u JOSM i iskoristiti prikupljene podatke
+te dodati sakupljene informacije u OpenStreetMap.
 
 
 [JOSM website]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image00_josm-website.png

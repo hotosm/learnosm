@@ -1,21 +1,19 @@
 ---
 layout: doc
-title: Editing with JOSM
+title: Uređivanje sa JOSM
 permalink: /hr/beginner/editing-with-josm/
 lang: hr
 category: beginner
 ---
 
-Editing with JOSM
+Uređivanje sa JOSM
 =================
-We've now covered all the building blocks of mapping with OpenStreetMap.
-We've learned how to use GPS and Field Papers to survey an area, and how 
-we can use JOSM to edit the points, lines, and shapes that make up our map.
+Sad smo obradili osnove OpenStreetMap mapiranja. 
+Naučili smo kako koristiti GPS i Field Papers za terensku izmjeru, i kako koristiti JOSM za uređivanje točaka, linija i oblika koji čine našu kartu.
 
-In this chapter we'll return once again to JOSM and look at a couple of new
-concepts which we have not covered thus far.
+U ovom poglavlju vratiti ćemo se JOSM-u i pogledati nekoliko novih koncepata oje do sad nismo obradili. 
 
-JOSM Layers
+JOSM Slojevi
 -----------
 If you've followed along so far, you may have noticed that we can add all sorts
 of different things into JOSM. We can download OSM data, add Bing satellite imagery,
