@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: JOSM Relations
-permalink: /en/editing/josm-relations/
-lang: en
+permalink: /hr/editing/josm-relations/
+lang: hr
 category: editing
 ---
 

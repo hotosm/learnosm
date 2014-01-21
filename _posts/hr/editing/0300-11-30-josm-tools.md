@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: JOSM Tools
-permalink: /en/editing/josm-tools/
-lang: en
+permalink: /hr/editing/josm-tools/
+lang: hr
 category: editing
 ---
 
