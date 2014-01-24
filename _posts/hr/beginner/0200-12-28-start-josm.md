@@ -16,15 +16,7 @@ u programu i učiniti ga lakšim za korištenje. Zatim ćemo otvoriti kartu za p
 naučiti neke osnovne operacije programa. Sjetite se da smo vas u uvodnom poglavlju
 tražili da nacrtate kartu vlastitog grada ili mjesta? Ovo poglavlje ćemo završiti
 ponovo kreirajući tu kartu, ovaj puta digitalno. Nakon ovoga ćete dobro razumjeti
-kako crtati karte u JOSM-u
-In this chapter we will learn step by step how to download and install
-JOSM, the Java OpenStreetMap editor. We will change some of the settings
-in JOSM to make it easier to use. Then we will open a sample map and
-learn some of the basic operations of the software. Remember in the
-introduction chapter when we asked you to draw a map of your town or
-village? We will conclude this chapter by drawing your map again, this
-time digitally. After this you should have a good understanding of how
-to draw maps in JOSM.
+kako crtati karte u JOSM-u.
 
 Preuzimanje JOSM softvera
 -------------
