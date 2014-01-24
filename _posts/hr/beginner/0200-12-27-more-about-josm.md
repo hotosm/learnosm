@@ -150,7 +150,7 @@ Provjeriti izmjene na karti
 
 Sažetak
 -------
-Sad kada ste vidjerli kako dodavati sadržaj u OpenStreetMap, što je sljedeće? Mjenjati kartu je odlično, ali to nije jedini aspekt izrade karata. Trebati ćete naučiti kako izaći na teren i skupiti informacije o konkretnim područjima.
+Sad kada ste vidjeli kako dodavati sadržaj u OpenStreetMap, što je sljedeće? Mjenjati kartu je odlično, ali to nije jedini aspekt izrade karata. Trebati ćete naučiti kako izaći na teren i skupiti informacije o konkretnim područjima.
 
 U sljedećim lekcijama ćete naučiti dvije metode, GPS i Field Papers, koje koristimo za prikupljanje geografskih podataka. Informacije skupljene s obje ove metode možete uvesti u JOSM i koristiti ih za editiranje karte.
 
