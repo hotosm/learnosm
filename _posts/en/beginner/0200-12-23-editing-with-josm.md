@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Editing with JOSM
+title: Editing Field Data
 permalink: /en/beginner/editing-with-josm/
 lang: en
 category: beginner
 ---
 
-Editing with JOSM
-=================
+Editing Field Data
+==================
 We've now covered all the building blocks of mapping with OpenStreetMap.
 We've learned how to use GPS and Field Papers to survey an area, and how 
 we can use JOSM to edit the points, lines, and shapes that make up our map.

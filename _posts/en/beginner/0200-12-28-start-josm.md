@@ -88,10 +88,8 @@ work in a different one.
   ![Look and feel][]
 
 - Click OK.
-- You need to restart JOSM to save your settings. Click “File” in the
-  upper left corner, and Click “Exit” at the bottom of the menu.
-- Start JOSM again by going to the Windows Start Menu in the bottom
-  left corner. Find JOSM and click on it to start.
+- You need to restart JOSM to save your settings. Click “File” in the upper
+  left corner, and Click “Restart” near the bottom of the menu.
 
 Learn Basic Drawing with JOSM
 -----------------------------
@@ -245,10 +243,8 @@ Summary
 -------
 
 Excellent! If all went well you have learned how to setup JOSM on your
-computer, and the basic tools for drawing maps. In the next two
-chapters, you will learn how to two methods for mapping your town or village,
-GPS and Field Papers. Then, we will return to JOSM and using the
-information we collected, we will add information to OpenStreetMap.
+computer, and the basic tools for drawing maps. In the next chapter we will
+take a closer look at the process of editing the OSM map with JOSM.
 
 
 [JOSM website]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image00_josm-website.png
