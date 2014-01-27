@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: More about JOSM
+title: The JOSM Editing Process
 permalink: /en/beginner/more-about-josm/
 lang: en
 category: beginner
 ---
 
-More about JOSM
-===============
+The JOSM Editing Process
+========================
 In the previous section you
 installed JOSM and began drawing your first points, lines, and shapes.
 You added presets to these objects in order to attach information about
