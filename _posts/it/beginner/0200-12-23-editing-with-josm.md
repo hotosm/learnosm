@@ -1,39 +1,39 @@
----
+﻿---
 layout: doc
-title: Editing with JOSM
-permalink: /en/beginner/editing-with-josm/
-lang: en
+title: Editing con JOSM
+permalink: /it/beginner/editing-with-josm/
+lang: it
 category: beginner
 ---
 
-Editing with JOSM
-=================
+Editing con JOSM
+================
 We've now covered all the building blocks of mapping with OpenStreetMap.
 We've learned how to use GPS and Field Papers to survey an area, and how 
 we can use JOSM to edit the points, lines, and shapes that make up our map.
 
-In this chapter we'll return once again to JOSM and look at a couple of new
-concepts which we have not covered thus far.
+In questo capitolo torneremo ancora una volta su JOSM e impareremo alcune cose non ancora illustrate.
 
-JOSM Layers
------------
+
+I livelli in JOSM
+-----------------
 If you've followed along so far, you may have noticed that we can add all sorts
 of different things into JOSM. We can download OSM data, add Bing satellite imagery,
 load GPS tracks and waypoints, and add Field Papers - all of which are displayed
 in the map window of JOSM.
 
-You may have also noticed that every time you add something new to JOSM, an additional
-item is added to the Layers panel on the right side of JOSM. Depending on what you have
-opened, your Layers panel may look something like this:
+Avrai notato che quando apri un file, scarichi dati o aggiungi un'immagine
+di Bing, un oggetto viene aggiunto nel pannello “Livelli” sul
+ato destro di JOSM. Il tuo pannello dovrebbe esere simile a questo:
 
 ![Layers panel][]
 
-Each item in this list represents a different source of data that
-you have open in your map window. In this example, “Data Layer
-1” is the OpenStreetMap data that we are editng. "Field Papers” is
-the layer created when we added our Field Paper into JOSM.
+Ogni oggetto rappresenta una differente origine dei dati che vedi
+nella finestra della mappa. In questo esempio, “Data Layer
+1” sono di dati di OpenStreetMap che stiamo editando. "Field Papers” è il livello creato 
+quando abbiamo caricato i Field Paper in Josm.
 
-If you add the Bing satellite imagery, a new layer will appear in the Layers panel named "Bing Sat."
+Se aggiungi l'immagine satellitare di Bing, apparirà un nuovo livello chiamato "Bing Sat".
 
 The idea of layers can often be hard to understand. A good way to imagine it is that each
 layer is like a semi-transparent piece of paper, and they are all stacked on top of one
@@ -41,7 +41,7 @@ another. Each piece of paper has a certain type of information on it, and they c
 any way you like.
 
 Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers
-are often called "base layers." The OSM data layer is the layer that you actually work with.
+are often called "base layers". The OSM data layer is the layer that you actually work with.
 
 -   To move a layer, click on it in the Layers panel and click on the up
     or down arrow to move it.
@@ -97,37 +97,45 @@ notes, or a combination of them all.
 
 ![GPS in JOSM][]
 
-Tags
-----
-When you draw a point, line, or shape, it has a location, but no
-information about what it is. In other words, we know **where** it
-is, but not **what** it is. Before now, we have been using items
-from the Presets menu to define **what** it is. The way
-OpenStreetMap knows **what** an object is is by using **tags**.
 
-A tag is like a label that you can put on something. For example, if
-we draw a square, it’s only a square. But then we add attributes to
-it that describe what it is: this square is a building; the name of
-the building is “Menara Thamrin”; the building is 16 levels high.
+Tag
+---
 
-You can add as many tags as you want to an object. Tags are saved as
-pairs of text, called **keys** and the **values**. In
-OpenStreetMap, the tags written above would in fact be:
+Quando disegni un punto, una linea o un’area, la crei in un
+determinato luogo, ma non fornisci altre informazioni. In altre
+parole, sappiamo **dove** è, ma non **cosa** è. Prima utilizzavamo gli
+oggetti del menù “Preimpostazioni” per definire **cosa** è.
+Il modo grazie al quale OpenStreetMap conosce **cosa** rappresenta un
+oggetto è detto **tag**. 
 
--   building = yes
--   name = Menara Thamrin
--   building:levels = 16
+Un tag è come un’etichetta che puoi mettere su
+un oggetto. Per esempio, se disegni un quadrato, è solo un quadrato.
+Ma se aggiungo differenti tag posso descrivere cosa rappresenta
+l’oggetto:
 
-If you select an object in JOSM, you can see all the tags that are
-attached to it in the Properties panel on the right.
+-  questo quadrato è un palazzo
+-  il nome del palazzo è “Menara Thamrin”
+-  il palazzo ha 16 piani
+
+
+Puoi aggiungere al tuo oggetto quanti tag vuoi. I tag sono salvati
+come una coppia di testo, chiamate chiavi e valori. In
+OpenStreetMap, i tags elencati sopra sono tradotti in:
+
+-  building = yes
+-  name = Menara Thamrin
+-  building:levels = 16
+
+-  Se selezioni un oggetto in JOSM, potrai vedere tutte i tag
+    associati ad esso, visibili nel riquadro “Proprietà” sulla destra:
 
 ![Properties panel][]
 
-### Editing Tags
-You can add, edit, and delete tags from the Properties panel. However, the tags
-are traditionally in English and can sometimes be confusing, so it
-is often easier to use the Presets menu. When you add or change tags, the attributes
-of the object are changed.
+### Modificare i tag
+Puoi aggiungere, modificare o cancellare questi tag da questo
+riquadro. I tag sono tradizionalmente in lingua inglese. E’ meglio
+quindi utilizzare gli oggetti del menù “Preimpostazioni”.
+Se aggiungi o cambi dei tag, gli attributi dell'oggetto cambiano.
 
 -   To edit an object's tags, first select it.
 -   Then edit the tags in one of two ways: (1) Use the Presets menu,
@@ -178,8 +186,10 @@ changes later on.
     open the file again, simply open JOSM, go to the “File” menu, and
     click “Open...”
 
-Summary
--------
+
+Conclusioni
+-----------
+
 In this chapter we looked a little bit closer at the JOSM interface and learned
 about layers and tags. You should now have a solid footing in how to map and how
 to edit OpenStreetMap.
