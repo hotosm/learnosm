@@ -34,8 +34,7 @@ Download JOSM
 
   ![JOSM website][]
 
-- If you have Windows installed on your computer, click “Windows JOSM
-  Installer” to download JOSM.
+- If you have Windows installed on your computer, click “Windows Installer” to download JOSM.
 
   ![Windows installer][]
 
