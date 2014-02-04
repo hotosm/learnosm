@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Conflict Resolution
-permalink: /en/editing/conflict-resolution/
-lang: en
+permalink: /jp/editing/conflict-resolution/
+lang: jp
 category: editing
 ---
 

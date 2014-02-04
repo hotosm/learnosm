@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Editing the Wiki
-permalink: /en/coordination/editing_the_wiki/
-lang: en
+permalink: /jp/coordination/editing_the_wiki/
+lang: jp
 category: coordination
 ---
 

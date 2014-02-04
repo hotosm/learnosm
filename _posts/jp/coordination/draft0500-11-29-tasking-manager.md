@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Tasking Manager
-permalink: /en/coordination/tasking-manager/
-lang: en
+permalink: /jp/coordination/tasking-manager/
+lang: jp
 category: coordination
 ---
 

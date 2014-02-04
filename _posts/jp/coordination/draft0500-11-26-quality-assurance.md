@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Quality Assurance
-permalink: /en/coordination/quality-assurance/
-lang: en
+permalink: /jp/coordination/quality-assurance/
+lang: jp
 category: coordination
 ---
 

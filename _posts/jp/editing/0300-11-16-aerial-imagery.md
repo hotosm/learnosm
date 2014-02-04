@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Aerial Imagery
-permalink: /en/editing/aerial-imagery/
-lang: en
+permalink: /jp/editing/aerial-imagery/
+lang: jp
 category: editing
 ---
 

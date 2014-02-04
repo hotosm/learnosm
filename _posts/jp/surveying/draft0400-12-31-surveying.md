@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/surveying/
-lang: en
+permalink: /jp/surveying/
+lang: jp
 title: Surveying
 category: surveying
 cover: yes

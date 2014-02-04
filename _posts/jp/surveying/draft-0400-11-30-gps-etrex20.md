@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/surveying/gps-etrex20
-lang: en
+permalink: /jp/surveying/gps-etrex20
+lang: jp
 title: Surveying
 category: surveying
 cover: yes

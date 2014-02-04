@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/sys-admin/
-lang: en
+permalink: /jp/sys-admin/
+lang: jp
 title: System Administration
 category: sys-admin
 cover: yes

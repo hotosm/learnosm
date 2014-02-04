@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: OverPass API
-permalink: /en/osm-data/overpass-api/
-lang: en
+permalink: /jp/osm-data/overpass-api/
+lang: jp
 category: osm-data
 ---
 

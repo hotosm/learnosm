@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/coordination/
-lang: en
+permalink: /jp/coordination/
+lang: jp
 title: Coordination
 category: coordination
 cover: yes

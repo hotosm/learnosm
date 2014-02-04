@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: JOSM Presets
-permalink: /en/editing/josm-presets/
-lang: en
+permalink: /jp/editing/josm-presets/
+lang: jp
 category: editing
 ---
 

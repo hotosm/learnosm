@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Using GitHub
-permalink: /en/map-design/github/
-lang: en
+permalink: /jp/map-design/github/
+lang: jp
 category: map-design
 ---
 

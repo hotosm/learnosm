@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: PostGIS Configuration
-permalink: /en/advanced/postgis-cofiguration/
-lang: en
+permalink: /jp/advanced/postgis-cofiguration/
+lang: jp
 category: sys-admin
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Setting up PostgreSQL
-permalink: /en/osm-data/setting-up-postgresql/
-lang: en
+permalink: /jp/osm-data/setting-up-postgresql/
+lang: jp
 category: osm-data
 ---
 

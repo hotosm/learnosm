@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: File Formats
-permalink: /en/osm-data/file-formats/
-lang: en
+permalink: /jp/osm-data/file-formats/
+lang: jp
 category: osm-data
 ---
 
