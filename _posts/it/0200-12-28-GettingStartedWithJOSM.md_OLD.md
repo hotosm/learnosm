@@ -22,7 +22,7 @@ Scaricare JOSM
 --------------
 
 -  Se hai una copia di JOSM su un CD o su una chiavetta USB, puoi
-    passare direttamente alla sezione 2. Installare JOSM.
+    passare direttamente alla sezione 2. Installare JOSM.
 -  Se non hai già JOSM o vuoi una versione aggiornata, apri il tuo
     browser - questo può essere Firefox, Chrome, Opera, or Internet
     Explorer.
@@ -110,7 +110,7 @@ Cambiare le impostazioni di JOSM
     “WMS TMS”. Potresti dover utilizzare il tasto “Freccia Giù” per
     trovarlo:
 
- ![]({{site.baseurl}}/images/it_beg_ch3_image06.png)      ![]({{site.baseurl}}/images/it_beg_ch3_image01.png)
+ ![]({{site.baseurl}}/images/it_beg_ch3_image06.png)      ![]({{site.baseurl}}/images/it_beg_ch3_image01.png)
 
 -  Clicca su “Bing Sat”. Quindi clicca su “Attiva”.
 
@@ -164,7 +164,7 @@ Cambiare le impostazioni di JOSM
     mostrate solo le estensioni che hanno la parola “walking” nel
     titolo.
 -  Fai clic nella casella di selezione a sinistra dell’estensione
-    chiamata walkingpapers e premi OK in fondo alla pagina.
+    chiamata walkingpapers e premi OK in fondo alla pagina.
 -  L’estensione Walking Papers verrà scaricata e installata. Non fare
     clic su “Annulla”.
 
@@ -174,14 +174,14 @@ Impara il disegno di base con JOSM
 -  Adesso apriamo un file OSM d’esempio, con il quale impareremo le
     basi di come tracciare le mappe con JOSM. Nota che questa mappa non
     è reale, cioè non è una mappa di un posto vero, quindi
-    non caricheremo questi dati su OpenStreetMap.
+    non caricheremo questi dati su OpenStreetMap.
 -  Se ti sono stati dati dei file dal tuo istruttore, dovresti avere
     già il file che apriremo, chiamato sample.osm.
 -  Se non hai il file sample.osm sul tuo computer, puoi scaricarlo da
     internet. Apri il browser e nella barra degli indirizzi scrivi
     [http://www.learnosm.org/files/](http://www.learnosm.org/files/)
 
-Salva il file chiamato sample.osm cliccando sul link col tasto destro e
+Salva il file chiamato sample.osm cliccando sul link col tasto destro e
 scegliendo “Salva come...” scegliendo una posizione adatta.
 
 -  Adesso apriamo la mappa d’esempio in JOSM. Apri JOSM e clicca il

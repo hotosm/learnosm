@@ -1,6 +1,6 @@
 ﻿---
 layout: doc
-title: Editing con JOSM
+title: Editing con JOSM
 permalink: /it/beginner/editing-with-josm/
 lang: it
 category: beginner

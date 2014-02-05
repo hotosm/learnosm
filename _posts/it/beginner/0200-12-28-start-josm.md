@@ -23,7 +23,7 @@ Scaricare JOSM
 --------------
 
 -  Se hai una copia di JOSM su un CD o su una chiavetta USB, puoi
-    passare direttamente alla sezione successiva. 
+    passare direttamente alla sezione successiva.
 -  Se non hai già JOSM o vuoi una versione aggiornata, apri il tuo
     browser - questo può essere Firefox, Chrome, Opera, or Internet
     Explorer.
@@ -100,7 +100,7 @@ Impara il disegno di base con JOSM
 -  Adesso apriamo un file OSM d’esempio, con il quale impareremo le
     basi di come tracciare le mappe con JOSM. Nota che questa mappa non
     è reale, cioè non è una mappa di un posto vero, quindi
-    non caricheremo questi dati su OpenStreetMap.
+    non caricheremo questi dati su OpenStreetMap.
 - Scarica qui il file: [sample.osm](/files/sample.osm)
 -  Adesso apriamo la mappa d’esempio in JOSM. Apri JOSM e clicca il
     bottone “Apri” in alto a sinistra.

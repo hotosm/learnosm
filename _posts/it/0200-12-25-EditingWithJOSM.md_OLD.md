@@ -111,7 +111,7 @@ Modifica
 
     ![]({{site.baseurl}}/images/it_beg_ch6_image08.png)
 
--  Usa lo strumento Disegna per disegnare nuovi punti, linee o forme.
+-  Usa lo strumento Disegna per disegnare nuovi punti, linee o forme.
     Descrivi questi oggetti selezionandoli dal menù Preimpostazioni,
     come hai fatto già nel Capitolo 3.
 -  Ricorda che i tuoi punti GPS e le tue Walking Paper non vengono

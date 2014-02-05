@@ -148,7 +148,7 @@ Il terzo ed ultimo passo per completare le modifiche è quello di salvarle
 e caricarle su OpenStreetMap. Per caricarle devi essere connesso ad internet.
 
 -  Clicca “File” nel menù in alto e premi “Carica dati”. Questo aprirà
-    la finestra di upload. Puoi accedere alla finestra più
+    la finestra di upload. Puoi accedere alla finestra più
     semplicemente premendo il bottone di upload, mostrato di seguito:
 
 ![JOSM Upload Button][]
