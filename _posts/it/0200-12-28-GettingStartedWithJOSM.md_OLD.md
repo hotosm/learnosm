@@ -57,7 +57,7 @@ Installare JOSM
 -  Fai clic su “OK”, “Next”, “I Agree”, e “Install”. A installazione
     completata, fai clic su “Finish” per lanciare la prima volta JOSM.
     In seguito, quando vorrai lanciare JOSM, potrai farlo facendo clic
-    sul menù di Start nella parte bassa a sinista del tuo schermo e
+    sul menù di Start nella parte bassa a sinistra del tuo schermo e
     facendo clic sul programma JOSM.
 -  Potrebbe uscire una finestra pop-up che ti richiede se vuoi
     aggiornare il software. Non dovrebbe essere necessario aggiornarlo
@@ -123,7 +123,7 @@ Cambiare le impostazioni di JOSM
 
 ### Aggiunta di preconfigurazioni
 
--  Se ti è stato fornito un file che dovrebe essere aggiunto ai menù di
+-  Se ti è stato fornito un file che dovrebbe essere aggiunto ai menù di
     preconfigurazione, puoi aggiungerlo ora. Ad esempio, un file di
     preconfigurazione potrebbe essere qualcosa del tipo  buildings.xml.
 -  Dovrebbe essere ancora aperta la finestra delle preferenze. Se non

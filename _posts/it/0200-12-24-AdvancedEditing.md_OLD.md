@@ -43,8 +43,8 @@ Una panoramica su JOSM
     due pulsanti, gli strumenti “Seleziona” e “Disegna”. Gli altri
     strumenti ti permettono di ingrandire, cancellare un oggetto,
     disegnare una forma o creare una linea parallela ad un’altra
-    linea.Sotto questi  ci sono ulteriori pulsanti. Questi controllano
-    cosa viene mostrato nella parte destradi JOSM. Usando questi
+    linea. Sotto questi ci sono ulteriori pulsanti. Questi controllano
+    cosa viene mostrato nella parte destra di JOSM. Usando questi
     pulsanti puoi aprire o chiudere pannelli a destra, come “Proprietà”,
     “Selezione” o “Autore”.
 
@@ -55,7 +55,7 @@ i Livelli in JOSM
     OpenStreetMap.
 -  Avrai notato che quando apri un file, scarichi dati o aggiungi un
     Walking Paper, un oggetto viene aggiunto nel pannello “Livelli” sul
-    lato destro di JOSM. Il tuo pannello dovrebbe esere simile a questo:
+    lato destro di JOSM. Il tuo pannello dovrebbe essere simile a questo:
 
     ![]({{site.baseurl}}/images/it_beg_ch7_image04.png)
 
@@ -75,7 +75,7 @@ i Livelli in JOSM
 -  Dovresti veder scomparire il livello selezionato dalla finestra
     della mappa. Fai clic nuovamente sul pulsante per far riapparire il
     livello.
--  Puoi eliminare un livello selezionandolo e utilizzado il bottone di
+-  Puoi eliminare un livello selezionandolo e utilizzando il bottone di
     cancellazione:
 
     ![]({{site.baseurl}}/images/it_beg_ch7_image01.png)
@@ -85,7 +85,7 @@ i Livelli in JOSM
     finestra, è probabile che non hai il giusto livello attivato. Molti
     livelli, come i punti GPS, i Walking Paper o le immagini satellitari
     non possono essere modificati. I soli livelli modificabili sono
-    quelli conteneti i dati scaricati da OpenStreetMap, che di solito
+    quelli contenenti i dati scaricati da OpenStreetMap, che di solito
     appaiono col nome di “Data Layer 1”.
 -  Per attivare un livello, selezionalo nel riquadro dei livelli, poi
     fai clic sul bottone di attivazione:

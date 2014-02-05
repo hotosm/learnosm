@@ -24,7 +24,7 @@ in the map window of JOSM.
 
 Avrai notato che quando apri un file, scarichi dati o aggiungi un'immagine
 di Bing, un oggetto viene aggiunto nel pannello “Livelli” sul
-ato destro di JOSM. Il tuo pannello dovrebbe esere simile a questo:
+lato destro di JOSM. Il tuo pannello dovrebbe essere simile a questo:
 
 ![Layers panel][]
 

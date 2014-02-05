@@ -64,8 +64,8 @@ posizioni, o molto vicino, il che per noi è abbastanza.
 
 Adesso impariamo come creare e usare i Walking Paper.
 
-Crare e stampare
-----------------
+Creare e stampare
+-----------------
 
 -  Apri il tuo browser web - può essere Firefox, Chrome, Opera, o
     Internet Explorer.
@@ -122,7 +122,7 @@ Crare e stampare
     15 e 17.
 -  Ora passiamo alla stampa. Una volta individuata l’area di interesse
     e selezionate le opzioni, sei pronto per la stampa. Fai clic sul
-    bottone “Make”, appena sotto la mappa.Verrai indirizzato ad una
+    bottone “Make”, appena sotto la mappa. Verrai indirizzato ad una
     nuova pagina dove un messaggio ti informerà che la tua richiesta è
     in lavorazione. Quando sarà pronta, vedrai la tua stampa disponibile
     in questa pagina. Solitamente il processo di generazione della

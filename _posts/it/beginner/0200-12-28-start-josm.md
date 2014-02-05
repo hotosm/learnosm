@@ -59,7 +59,7 @@ Install JOSM
 -  Fai clic su “OK”, “Next”, “I Agree”, e “Install”. A installazione
     completata, fai clic su “Finish” per lanciare la prima volta JOSM.
     In seguito, quando vorrai lanciare JOSM, potrai farlo facendo clic
-    sul menù di Start nella parte bassa a sinista del tuo schermo e
+    sul menù di Start nella parte bassa a sinistra del tuo schermo e
     facendo clic sul programma JOSM.
 -  Potrebbe uscire una finestra pop-up che ti richiede se vuoi
     aggiornare il software. Non dovrebbe essere necessario aggiornarlo
