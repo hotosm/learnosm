@@ -160,7 +160,7 @@ Upload delle modifiche
     ![]({{site.baseurl}}/images/it_beg_ch6_image02.png)
 
 -  Devi aspettare finché non termina l’upload dei cambiamenti e hai
-    finito! Hai fatto le tue prime modifiche a OpenStreetmap. Puoi
+    finito! Hai fatto le tue prime modifiche a OpenStreetMap. Puoi
     continuare a inserire tutti i punti che vuoi. Sii sempre sicuro di
     caricare le modifiche prima di chiudere JOSM.
 
