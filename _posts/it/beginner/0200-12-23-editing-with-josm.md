@@ -119,7 +119,7 @@ l’oggetto:
 
 
 Puoi aggiungere al tuo oggetto quanti tag vuoi. I tag sono salvati
-come una coppia di testo, chiamate chiavi e valori. In
+come una coppia di testo, chiamate chiavi e valori. In
 OpenStreetMap, i tags elencati sopra sono tradotti in:
 
 -  building = yes
@@ -133,7 +133,7 @@ OpenStreetMap, i tags elencati sopra sono tradotti in:
 
 ### Modificare i tag
 Puoi aggiungere, modificare o cancellare questi tag da questo
-riquadro. I tag sono tradizionalmente in lingua inglese. E’ meglio
+riquadro. I tag sono tradizionalmente in lingua inglese. È meglio
 quindi utilizzare gli oggetti del menù “Preimpostazioni”.
 Se aggiungi o cambi dei tag, gli attributi dell'oggetto cambiano.
 

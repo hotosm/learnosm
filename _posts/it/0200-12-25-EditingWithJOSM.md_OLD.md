@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Editing di OpenStreetMap con JOSM
+title: Editing di OpenStreetMap con JOSM
 permalink: /it/beginner/editing-with-josm/
 lang: it
 category: beginner
 ---
 
-Editing di OpenStreetMap con JOSM
+Editing di OpenStreetMap con JOSM
 =================================
 
 Nel terzo capitolo hai installato JOSM e hai iniziato a disegnare i tuoi
@@ -88,7 +88,7 @@ Scaricare i dati OSM
 -  Il riquadro rosa rappresenta l’area della mappa che vorremmo
     scaricare per modificarla. A meno che tu abbia spostato la finestra
     della mappa da quando hai aperto il file GPS o il Walking Paper, il
-    riquadro dovrebbe essere posizionato sull’area corretta. Pero’ se
+    riquadro dovrebbe essere posizionato sull’area corretta. Però se
     vuoi scaricare un’area più grande, puoi disegnare un nuovo riquadro.
     Per disegnare un nuovo riquadro, clicca sulla mappa, tieni premuto
     il tasto sinistro del mouse, e trascina il mouse per creare un

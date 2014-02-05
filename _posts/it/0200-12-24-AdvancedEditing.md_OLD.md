@@ -81,7 +81,7 @@ i Livelli in JOSM
     ![]({{site.baseurl}}/images/it_beg_ch7_image01.png)
 
 -  Infine, sappi che puoi editare i dati in un livello che è
-    considerato attivo da JOSM. Se non puoi editare la mappa nella
+    considerato attivo da JOSM. Se non puoi editare la mappa nella
     finestra, è probabile che non hai il giusto livello attivato. Molti
     livelli, come i punti GPS, i Walking Paper o le immagini satellitari
     non possono essere modificati. I soli livelli modificabili sono
@@ -161,7 +161,7 @@ Tag
 -  il palazzo ha 16 piani
 
 -  Puoi aggiungere al tuo oggetto quante tag vuoi. Le tag sono salvate
-    come una coppie di testo, chiamate chiavi e valori. In
+    come una coppie di testo, chiamate chiavi e valori. In
     OpenStreetMap, le tags elencate sopra sono tradotte in::
 
 -  building = yes
@@ -174,7 +174,7 @@ Tag
     ![]({{site.baseurl}}/images/it_beg_ch7_image03.png)
 
 -  Puoi aggiungere, modificare o cancellare queste tag da questo
-    riquadro. Le tag sono tradizionalmente in lingua inglese. E’ meglio
+    riquadro. Le tag sono tradizionalmente in lingua inglese. È meglio
     quindi utilizzare gli oggetti del menù “Preimpostazioni”.
 
 Combinazioni di tasti

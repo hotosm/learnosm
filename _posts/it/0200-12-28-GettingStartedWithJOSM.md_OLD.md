@@ -96,7 +96,7 @@ Cambiare le impostazioni di JOSM
 
 ![]({{site.baseurl}}/images/it_beg_ch3_image09.png)
 
--  E’ necessario far ripartire JOSM per confermare la tua scelta. Fai
+-  È necessario far ripartire JOSM per confermare la tua scelta. Fai
     clic in alto a sinistra su “File” e poi su “Exit” in fondo al menù.
 -  Fai ripartire JOSM andando nel menù Start di Windows, in basso a
     sinistra nello schermo. Cerca JOSM ed esegui il programma.

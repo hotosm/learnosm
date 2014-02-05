@@ -60,7 +60,7 @@ OpenStreetMap.
 -  Adesso sei un membro della lista.
 -  Adesso quando vuoi spedire un messaggio alla lista, inserisci nel
     destinatario  talk-it@openstreetmap.org, dove it è il codice per
-    l’italia.  Riceverai anche le email quando qualcuno manda un
+    l’Italia. Riceverai anche le email quando qualcuno manda un
     messaggio alla lista, ma dalla schermata delle impostazioni potrai
     scegliere di ricevere solo un compendio delle email.
 
