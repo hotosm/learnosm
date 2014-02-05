@@ -174,7 +174,7 @@ Guarda sulla Mappa le tue modifiche
     succede, prova a premere CTRL+R per aggiornare la pagina. A volte la
     mappa non si aggiorna e necessita di essere ricaricata.
 -  E se non vedi le tue modifiche? Non ti preoccupare - ci vorrà
-    qualche minuto affinchè le modifiche vengano mostrate sulla mappa.
+    qualche minuto affinché le modifiche vengano mostrate sulla mappa.
     Controlla poi le tue aggiunte in JOSM per essere sicuro che le hai
     inserite correttamente. Una buona regola generale è che se il tuo
     punto ha una icona in JOSM, allora dovrebbe essere visualizzato

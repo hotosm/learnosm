@@ -181,7 +181,7 @@ Fare una scansione e caricarla
 -  Fai clic su “Browse...” e cerca il file in cui hai salvato il tuo
     Walking Paper.
 -  Fai clic su “Send.”
--  Ci vorranno pochi minuti affinchè il tuo Walking Paper venga
+-  Ci vorranno pochi minuti affinché il tuo Walking Paper venga
     caricato, in base alla velocità di connessione a internet. A
     caricamento terminato, verrai reindirizzato ad una nuova pagina con
     una serie di domande sul tuo file.
@@ -248,5 +248,5 @@ Conclusioni
 Congratulazioni! In questo capitolo hai imparato come usare i Walking
 Papers. Dovresti aver imparato come stampare, mappare e fare scansioni
 di un Walking Paper.  Nel prossimo capitolo impareremo come aggiungere i
-luoghi mappati in OpenStreetMap cosicchè avrai imparato il processo
+luoghi mappati in OpenStreetMap cosicché avrai imparato il processo
 completo di editing di una mappa.

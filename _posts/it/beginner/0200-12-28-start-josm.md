@@ -152,11 +152,11 @@ Impara il disegno di base con JOSM
     differenza è che questa linea è chiusa, inizia nello stesso punto
     dove finisce.
 
-> E' facile pensare che una mappa possa contenere questi tre tipi fondamentali - 
+> È facile pensare che una mappa possa contenere questi tre tipi fondamentali -
 > punti, linee e aree. In OpenStreetMap c'è una terminologia speciale che 
 > imparerai andando avanti. In OSM, i punti nsono detti 
 > **nodi** e le linee **way**. Un'area è chiamata **way chiusa**
-> perchè non è nient'altro che una linea che termina nello stesso punto in cui è iniziata.
+> perché non è nient'altro che una linea che termina nello stesso punto in cui è iniziata.
 
 -  Avrai notato che quando selezioni un oggetto, una lista appare alla
     destra della mappa, in una finestra chiamata “Proprietà”. Queste

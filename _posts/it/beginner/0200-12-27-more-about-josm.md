@@ -13,7 +13,7 @@ primi nodi, linee e forme. Hai aggiunto impostazioni a questi oggetti in
 modo da inserire informazioni a loro riguardo. Alla fine, sei stato in
 grado di disegnare la tua mappa con JOSM.
 
-E' stato un buon esercizio, adesso siamo pronti per editare su OpenStreetMap.
+È stato un buon esercizio, adesso siamo pronti per editare su OpenStreetMap.
 
 In this section we will take a closer look at the interface of JOSM, and see
 how we can use it to edit the map on OpenStreetMap.
@@ -189,7 +189,7 @@ Guarda sulla Mappa le tue modifiche
     succede, prova a premere CTRL+R per aggiornare la pagina. A volte la
     mappa non si aggiorna e necessita di essere ricaricata.
 -  E se non vedi le tue modifiche? Non ti preoccupare - ci vorrà
-    qualche minuto affinchè le modifiche vengano mostrate sulla mappa.
+    qualche minuto affinché le modifiche vengano mostrate sulla mappa.
     Controlla poi le tue aggiunte in JOSM per essere sicuro che le hai
     inserite correttamente. Una buona regola generale è che se il tuo
     punto ha una icona in JOSM, allora dovrebbe essere visualizzato

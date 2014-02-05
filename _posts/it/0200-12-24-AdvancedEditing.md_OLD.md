@@ -13,7 +13,7 @@ Nei capitoli precedenti hai imparato come disegnare punti, linee e forme
 in JOSM, come aprire i tuoi waypoint e le tue tracce GPS in JOSM, e come
 scaricare, editare e caricare le modifiche su OpenStreetMap. In questo
 capitolo descriveremo in maggior dettaglio alcune delle feature di JOSM,
-cosicchè potrai andar oltre i semplici strumenti di editing e avere una
+cosicché potrai andar oltre i semplici strumenti di editing e avere una
 comprensione migliore del programma. Nota che mentre questo capitolo non
 è estremamente avanzato, è un gradino più alto rispetto agli altri. Se
 non hai compreso appieno le lezioni che ti hanno portato fino a qui,
