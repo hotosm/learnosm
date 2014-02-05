@@ -12,11 +12,11 @@ Iniziare con JOSM
 
 In questo capitolo impareremo passo dopo passo a scaricare e installare
 JOSM, l’editor Java di OpenStreetMap. Cambieremo alcune impostazioni in
-JOSM per rendere il suo utilizzo più facile.  Poi apriremo una mappa di
+JOSM per rendere il suo utilizzo più facile. Poi apriremo una mappa di
 esempio e impareremo alcune semplici operazioni. Ti ricordi quando nel
 capitolo 1 ti abbiamo chiesto di disegnare una mappa del tuo paese o
-della tua città?  Concluderemo questo capitolo disegnando nuovamente
-quella mappa, questa volta in maniera digitale.  Dopo questo avrai una
+della tua città? Concluderemo questo capitolo disegnando nuovamente
+quella mappa, questa volta in maniera digitale. Dopo questo avrai una
 buona conoscenza di come disegnare mappe con JOSM.
 
 Scaricare JOSM
@@ -41,7 +41,7 @@ Scaricare JOSM
   ![Windows installer][]
 
 -   Se hai un diverso sistema operativo,
-    clicca sul link del tuo sistema.  Dovrebbe iniziare il tuo download.
+    clicca sul link del tuo sistema. Dovrebbe iniziare il tuo download.
     In questo capitolo partiremo dal presupposto che tu stia usando
     Windows, ma le istruzioni fornite sono simili anche per gli altri
     sistemi operativi.
@@ -63,7 +63,7 @@ Install JOSM
     facendo clic sul programma JOSM.
 -  Potrebbe uscire una finestra pop-up che ti richiede se vuoi
     aggiornare il software. Non dovrebbe essere necessario aggiornarlo
-    dal momento che è nuovo.  Premi il bottone “Cancel”. Se non vuoi più
+    dal momento che è nuovo. Premi il bottone “Cancel”. Se non vuoi più
     vedere questo messaggio, seleziona la casella in fondo alla finestra
     prima di premere “Cancel”.
 -  Alla partenza di JOSM, dovresti vedere una finestra simile:
@@ -75,7 +75,7 @@ Cambiare le impostazioni di JOSM
 
 -  Prima di poter utilizzare JOSM, sarebbe meglio cambiare qualche
     impostazione per rendere più semplice l’utilizzo del programma. Per
-    cambiare le impostazioni, fai clic su “Edit” nel menù in alto e  poi
+    cambiare le impostazioni, fai clic su “Edit” nel menù in alto e poi
     su “Preferences.”
 
   ![Preferences window][]
@@ -166,7 +166,7 @@ Impara il disegno di base con JOSM
     Avanzato. Per ora, tutto ciò che devi sapere è che queste
     informazioni aiutano a descrivere quello che è il tuo oggetto: un
     fiume, una foresta, un negozio o qualcosa d’altro.
--  Pensa a quando disegni una mappa a mano;  anche tu utilizzi punti,
+-  Pensa a quando disegni una mappa a mano; anche tu utilizzi punti,
     linee o aree. Quali altri luoghi possono essere rappresentati con
     punti, linee o aree?
 

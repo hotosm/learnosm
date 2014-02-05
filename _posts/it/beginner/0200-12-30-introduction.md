@@ -48,9 +48,9 @@ esista sul territorio.
 La tua mappa è una fonte di informazioni. Potresti usare questa mappa
 per spiegare a qualcuno dove sono i differenti luoghi, dove esistono
 problemi nella tua comunità o semplicemente aiutare qualcuno a trovare
-una via.  L’uso della tua mappa è però limitato. C’è ne è solo una copia
+una via. L’uso della tua mappa è però limitato. C’è ne è solo una copia
 e il modo in cui è disegnata è noto solo a te, magari qualcuno potrebbe
-aver disegnato la propria mappa in un altro modo.  Poiché la tua mappa è
+aver disegnato la propria mappa in un altro modo. Poiché la tua mappa è
 su carta, è difficile passare queste informazioni ad altri. Se crei le
 tue mappe su un computer e in un modo da renderle accessibili a
 chiunque, saranno ancor più utili.
@@ -63,7 +63,7 @@ giorno. Gli utenti disegnano mappe sui computer ma, come vedremo in
 questa guida, non è molto differente dal disegnarle su carta.
 Continueremo a disegnare linee per rappresentare le strade, campi e
 qualsiasi altra cosa, e continueremo a rappresentare scuole e ospedali
-con dei simboli.  La cosa importante è che le mappe di OSM sono
+con dei simboli. La cosa importante è che le mappe di OSM sono
 conservate in internet e chiunque può accedervi sempre e liberamente.
 
 ![Mappe digitali con OpenStreetMap][]

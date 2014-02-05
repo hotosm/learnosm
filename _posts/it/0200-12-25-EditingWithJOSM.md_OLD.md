@@ -56,7 +56,7 @@ Preparare JOSM
 Scaricare i dati OSM
 --------------------
 
--  Ricordi  il ciclo di editing di OpenStreetMap descritto
+-  Ricordi il ciclo di editing di OpenStreetMap descritto
     nell’introduzione del capitolo? Scarica, modifica, salva. Prima di
     poter modificare la mappa, dobbiamo scaricare i dati esistenti
     nell’area scelta.
@@ -138,7 +138,7 @@ Upload delle modifiche
     salva queste modifiche e caricale su OpenStreetMap. Per caricarle
     devi essere connesso ad internet.
 -  Clicca “File” nel menù in alto e premi “Carica dati”. Questo aprirà
-    la finestra di upload. Puoi  accedere alla finestra più
+    la finestra di upload. Puoi accedere alla finestra più
     semplicemente premendo il bottone di upload, mostrato di seguito:
 
     ![]({{site.baseurl}}/images/it_beg_ch6_image05.png)

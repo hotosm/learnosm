@@ -182,7 +182,7 @@ Combinazioni di tasti
 
 -  Talvolta può essere fastidioso dover fare clic continuamente per
     selezionare differenti opzioni o menù in JOSM. Per fortuna esistono
-    delle combinazioni di tasti  che ti permettono di effettuare le
+    delle combinazioni di tasti che ti permettono di effettuare le
     operazioni più comuni. Eccoti un elenco delle principali:
 
 -  s - strumento di selezione
