@@ -247,7 +247,7 @@ Excellent! If all went well you have learned how to setup JOSM on your
 computer, and the basic tools for drawing maps. In the next two
 chapters, you will learn two methods for mapping your town or village:
 GPS and Field Papers. Then, we will return to JOSM and using the
-information we collected, we will add information to OpenStreetMap.
+data we collected, we will add information to OpenStreetMap.
 
 
 [JOSM website]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image00_josm-website.png
