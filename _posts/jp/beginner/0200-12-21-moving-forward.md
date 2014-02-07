@@ -1,12 +1,12 @@
 ---
 layout: doc
-title:  次の一歩
+title:  これからの進め方
 permalink: /jp/beginner/moving-forward/
 lang: jp
 category: beginner
 ---
 
-次の一歩
+これからの進め方
 ========
 
 長い道のり、おつかれさまでした！

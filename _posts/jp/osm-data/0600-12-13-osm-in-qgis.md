@@ -1,148 +1,115 @@
 ---
 layout: doc
-title: OSM Data in QGIS
+title: QGISでのOSMデータ利用
 permalink: /jp/osm-data/osm-in-qgis/
 lang: jp
 category: osm-data
 ---
 
-OSM Data in QGIS
+QGISを使ったOSMデータ利用
 =================
-With the 2013 release of Quantum GIS, it became easier to load and work with
-raw OpenStreetMap Data. This means that you can now access up-to-date OSM
-data whenever you want, select the tags you want to include, and easily export
-it into an easy-to-use SQLite database or Shapefile.
+2013年に新しいバージョンのQGISがリリースされ、OpenStreetMap生データの読み込みや処理がたいへん簡単になりました。すなわち、最新のOSMデータへその場でアクセスし、必要となるタグ情報を選択し、SQLiteやShapefileなどの取り回しやすい形式でエクスポートすることが簡単になったのです。
 
-In this chapter we'll walk through the steps necessary to do this. We assume
-that you've already downloaded and installed QGIS 2.x. If you haven't already done
-this, you can download it [here](http://www.qgis.org/en/site/forusers/download.html).
+この章ではその作業のための具体的な方法について、順を追って紹介します。QGIS 2.xは既にダウンロードし、インストール済みであると仮定して進めます。もしまだインストールしていない場合は[こちら](http://www.qgis.org/en/site/forusers/download.html)からダウンロードとインストールを行ってください。
 
-In this chapter we will go through several steps in order to get our customized, up-to-date
-OSM layers loaded into QGIS. First, we will get the most recent OSM data in raw **.osm**
-format. Then, we will convert this data into a SQLite database, which is a lightweight
-database system stored in one file on your system. Lastly, we will create a layer (or
-multiple layers) that include only the feature types and tags we want to access. These
-layers can be used as they are or saved in another format, such as a shapefile.
+この章では、QGISを使って、最新データからカスタマイズしたOSMレイヤを表示するための方法を紹介します。まずは現在のOSM生データを **.osm** の形式で取得します。次に、取得したデータをSQLiteデータベースへ格納します。SQLiteは継承のデータベースシステムで、ひとつのファイルにデータを格納することができます。最後に、必要となる地物やタグ情報だけが含まれたレイヤを作成し、表示します。こうして作成したレイヤは、shapefileなど、さらに別の形式へ変換することが可能です。
 
-Loading OpenStreetMap Data
+OpenStreetMapデータの取得と表示
 ---------------------------
-The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways.
-Of course, requesting data from the OSM server, as we do in JOSM, means that we can not pull
-out a large amount of raw data at once - however, there are other ways to access data, as
-described in the [previous chapter](/en/osm-data/getting-data).
+まず最初に、最新のOSMデータを取得しましょう。データを取得するにはいくつかの方法があります。もちろんJOSMなどを使ってOSMサーバから直接取得してもかまいませんが、広い範囲の生データをいちどに取得するのはとてもたいへんです。その場合、[前章](/en/osm-data/getting-data)で紹介している別の方法を試してみてください。
 
-Let's use the built in download function in QGIS, since we will be working with QGIS in
-the rest of this chapter. The download function is not terribly convenient as of this
-writing, but for our purposes it is more than satisfactory.
+また、QGIS本来の機能を使ってダウンロードを行うことができます。この章ではそのままQGISの上で作業を行うことになりますので、この方法を使ってダウンロードを行いましょう。ダウンロード機能を使うのは少し難易度が高いですが、今回の目的を考えると、より扱いやすい形式で処理を行うことができるようになります。
 
--	Open QGIS and go to Vector -> OpenStreetMap -> Download data.
+-   QGISを起動し、ベクタ -> OpenStreetMap -> データのダウンロード へ進んでください。
 
 ![download data][]
 
--	You can choose from several options here - if your window is already displaying the extent
-	you want, check the box next to "From Map Canvas." If you have a layer with the correct
-	extent, choose "From layer" and select the layer you want to use. Here we will choose "Manual"
-	and enter the latitudes and longitudes which form a **bounding box** around the area we
-	want to access. You can fill in lats and lons that are of interest to you, but remember
-	that the area cannot be too large, or you won't be able to download all the data.
+-   いくつかの選択肢が表示されます。もし対象となる地域が既にウィンドウに表示されている場合、"From the Map Canvas"の横にあるボックスにチェックを入れてください。既存で表示しているレイヤのデータ範囲からダウンロードする場合は、"From Layer"にチェックを入れ、対象となるレイヤを選択します。今回は"Manual"を選択し、対象となる範囲を **bounding box** から緯度経度で指定してみましょう。作業対象となる範囲を緯度経度の値で指定してください。この時、対象となる範囲をあまり大きくしすぎないように注意しましょう。範囲が大きすぎた場合、エラーが発生する可能性があります。
 
 ![bounding box][]
 
--	Select a name and location for the output file and click OK.
--	You will be notified when the download is complete. Click "Close" to exit the download
-	dialog.
+-   出力するファイルの名称と保存場所を選択し、OKをクリックします。
+-   ダウンロードが完了すると通知が表示されます。"Close"をクリックして、ダウンロード表示を閉じてください。
 
 ![download complete][]
 
--	The OSM data will now be saved in the location you specified.
+-   指定した場所にOSMデータが保存されています。
 
->	This method of accessing OSM data is the same as if you downloaded it in JOSM or on
->	[openstreetmap.org](http://www.openstreetmap.org). For larger extracts that are up-to-date,
->	you may try downloading from the [HOT export site](http://export.hotosm.org) or
->	[bbbike.org](http://extract.bbbike.org/). Remember that if you download a compressed OSM file,
->	you will need to first decompress it into **.osm** format for the next steps.
+>   この方法は、JOSMや[openstreetmap.org](http://www.openstreetmap.org)を使ってダウンロードを行う方法と同じです。
+>   広範囲の最新データをダウンロードする場合、[HOT export site](http://export.hotosm.org)や[bbbike.org](http://extract.bbbike.org/)を使用してください。
+>   また、こうしたサイトからデータをダウンロードした場合、QGISで読み込む前にそのデータを解凍しておく必要があります。
 
-Importing Data into SQLite
+SQLiteへのデータインポート
 ---------------------------
-Next we will need to import our raw **.osm** file into a SQLite Database.
+次に、**.osm** 生ファイルをSQLiteデータベースへインポートしましょう。
 
 -	Go to Vector -> OpenStreetMap -> Import topology from XML
+-   ベクタ -> OpenStreetMap -> XMLからトポロジをインポート を選択します。
 
 ![import from xml][]
 
--	In the first field, select your **.osm** file.
--	You can change the name of the output database file if you like.
--	Keep the box checked next to "Create Connection..."
+-   最初のフィールドで、 **.osm**ファイルを選択します。
+-   出力するデータベースファイルの名称は変更することができます。
+-   "Create Connection..."の横のボックスにチェックを入れたままにしておいてください。
 
 ![import dialog][]
 
--	Click OK.
--	When it is finished, click "Close."
+-   OKをクリックします。
+-   処理が完了したら、"Close."をクリックします。
 
-Create Layers
+レイヤの作成
 --------------
-Lastly, we will define layers that can be used in QGIS, customized according to our needs.
+最後に、データをQGISで利用するため、レイヤを目的に応じてカスタマイズて、定義を行います。
 
--	Go to Vector -> OpenStreetMap -> Export topology to Spatialite
+-   ベクタ -> OpenStreetMap ->Spatioaliteへトポロジをエクスポート を選択します
 
 ![export topo][]
 
--	In the first field, select the database you created in the previous step.
+-   最初のフィールドに、先ほど作成したデータベースを選択します。
 
 ![input db file][]
 
--	Under "Export type," select the type of features you want to create a layer for. Here
-	we will create a layer using polygons.
+-   "Export type" の配下から、新しくレイヤとして抽出したい地物のタイプを選択します。今回はポリゴン(エリア)を対象とします。
 
 ![export type][]
 
--	Edit the layer name if you like.
+-   レイヤに名前をつけましょう。
 
-Under "Exported tags" is where the magic happens. Here we can select which tags will be
-included in our output layer. This gives us flexibility over exactly which data we want to
-access.
+"Export tags" がこの作業の肝となります。ここで選択したタグ情報を含むオブジェクトだけが、出力レイヤに含まれるようになります。これにより、対象とするデータへのアクセスが柔軟に、そして厳密に行えるようになります。
 
--	Click "Load from DB" to see a list of all the available tags in the database. You can see
-	all the tags contained in this data, and also the number of features that have each tag.
--	Check the boxes next to the tags that you want to include. Here we will select a few features
-	that will be useful for building polygons.
+-   "Load from DB"をクリックすると、現在データベースに含まれているタグの一覧が表示されます。このとき同時に、それぞれのタグがデータ内で利用されている量も表示されます。
+-   レイヤに含めたいタグの横にあるボックスにチェックを入れてください。ここでは、建物ポリゴンを扱う際に有用なタグをいくつか選択しています。
 
 ![export full][]
 
--	When you are finished, click OK.
--	Close the box. Your layer should be automatically added.
+-   選択が終わったら、OKを押してください。
+-   ボックスを閉じます。レイヤは自動的に追加されます。
 
 ![cairo polygons][]
 
--	Right-click on the layer and click "Open Attribute Table."
+-   レイヤを右クリックし、"Open Attribute Table"をクリックします。
 
 ![open attribute table][]
 
--	You can see here that we have a table which includes only the attributes we selected.
+-   先ほど選択した属性だけがテーブル内に含まれていることが確認できます。
 
 ![attribute table][]
 
-Note that we have not created a layer of **only** buildings. Instead, we have created a layer
-that includes all of the polygons from our original data, but only includes the tags which we
-selected. In order to filter this layer to show only buildings, we would need to execute a query
-next which filters only polygons where building=yes.
+この時、レイヤに含まれる情報が建物 **だけ** ではないことに注意してください。この場合、レイヤには元々のデータベース内のすべてのポリゴンデータがジオメトリ情報として含まれており、ただし、選択したタグ情報だけが抽出されている、という状態になります。この状態から建物データだけを表示させるには別途クエリを発行し、 building=yes を含むポリゴンだけをフィルタする必要があります。
 
-Summary
+まとめ
 -------
-This process makes it easy to get up-to-date OSM data and pull it into your GIS. Once you have
-layers like this in QGIS, it is possible to save them as shapefiles, execute filters and queries,
-and so forth.
+上記の処理により、最新のOSMデータの取得と、そのデータのGISでの表示を簡単に行うことができます。いちどQGISでこうしたレイヤを作成することで、そのデータをshapefileとして保存したり、フィルタやクエリを使ってデータを処理することができるようになるでしょう。
 
-
-[download data]: /images/en/osm-data/osm-in-qgis/download_data.png
-[bounding box]: /images/en/osm-data/osm-in-qgis/bounding_box.png
-[download complete]: /images/en/osm-data/osm-in-qgis/download_complete.png
-[import from xml]: /images/en/osm-data/osm-in-qgis/import_topo_from_xml.png
-[import dialog]: /images/en/osm-data/osm-in-qgis/import_dialog.png
-[export topo]: /images/en/osm-data/osm-in-qgis/export_topo.png
-[input db file]: /images/en/osm-data/osm-in-qgis/input_db_file.png
-[export type]: /images/en/osm-data/osm-in-qgis/export_type.png
-[export full]: /images/en/osm-data/osm-in-qgis/export_full.png
-[cairo polygons]: /images/en/osm-data/osm-in-qgis/cairo_polygons.png
-[open attribute table]: /images/en/osm-data/osm-in-qgis/open_attribute_table.png
-[attribute table]: /images/en/osm-data/osm-in-qgis/attribute_table.png
+[download data]: /images/jp/osm-data/osm-in-qgis/download_data.png
+[bounding box]: /images/jp/osm-data/osm-in-qgis/bounding_box.png
+[download complete]: /images/jp/osm-data/osm-in-qgis/download_complete.png
+[import from xml]: /images/jp/osm-data/osm-in-qgis/import_topo_from_xml.png
+[import dialog]: /images/jp/osm-data/osm-in-qgis/import_dialog.png
+[export topo]: /images/jp/osm-data/osm-in-qgis/export_topo.png
+[input db file]: /images/jp/osm-data/osm-in-qgis/input_db_file.png
+[export type]: /images/jp/osm-data/osm-in-qgis/export_type.png
+[export full]: /images/jp/osm-data/osm-in-qgis/export_full.png
+[cairo polygons]: /images/jp/osm-data/osm-in-qgis/cairo_polygons.png
+[open attribute table]: /images/jp/osm-data/osm-in-qgis/open_attribute_table.png
+[attribute table]: /images/jp/osm-data/osm-in-qgis/attribute_table.png

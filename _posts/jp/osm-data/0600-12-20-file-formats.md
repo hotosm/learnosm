@@ -6,93 +6,56 @@ lang: jp
 category: osm-data
 ---
 
-File Formats
+ファイル形式
 =============
-Like any type of data, there are various ways of storing geographic
-data on a computer. It can be saved in a database, which is a specialized
-system for storing and retrieving data, and in fact there are database
-systems specifically designed for storing geographic data. It can also
-be stored in traditional computer files, though there are many different
-file formats for geographic data.
+データにもいろいろな種類があるように、地理データもコンピュータへ保存する際の方法としていくつか選択肢があります。例えば、地理情報を格納したり取り出したりするためのデータベースへ格納することもできますし、そのための専用システムも存在します。また、一般的なファイルとしても保存することができ、そのための形式も多種多様なものがあります。
 
-In this section we'll go through a few ways of storing geographic data,
-explain how they work and how they're typically used.
+この項目では、地理データを格納するための方法について、その動作原理と、一般的な使い方について解説します。
 
-.OSM Files
+.OSMファイル
 -----------
-The **.osm** file format is specific to OpenStreetMap. You won't come across
-it elsewhere. If you have ever downloaded data using JOSM and saved it as a file,
-you may have noticed that the file is saved with the extension **.osm**. If you
-are a GIS user, you may also have noticed that it is not easy to open these
-files using software such as QGIS.
+**.osm** は、OpenStreetMap専用のファイル形式です。OpenStreetMap以外ではこの形式を利用していません。JOSMを使ってOSMデータをダウンロードし、データをファイルとして保存すると、そのファイルに拡張子として **.osm** が付与されます。GISを使ったことがあれば、このファイルをQGISなどで開くことが簡単ではないことに気がつくと思います。
 
-So why is OSM data stored in a file format that nobody else uses? The answer is that
-many geographic data formats predate the modern internet era, and are designed for
-quick access and querying like one would query a database. OSM data, on the other
-hand is designed to be easily sent and received across the internet in a standard
-format. Hence, **.osm** files are coded in XML, and contain geographic data in
-a structured, ordered format. A simple **.osm** file would look like this if viewed
-in a text editor:
+では、なぜOSMデータは他の誰も使わないような形式で格納されているのでしょうか。答えは、かつて地理データを保存していた様々な形式が、高速なアクセスと、データベースのようにクエリをかけられるようにデザインされていたためです。OSMデータはその流れとは異なり、一定のフォーマットを使ってインターネット越しにデータの送受信が簡単にできることを目的としてデザインされています。そのため、 **.osm** ファイルはXMLでコーディングされ、構造的で順列に厳格な形式によって地理データを格納しています。単純な **.osm** ファイルをテキストエディタで開くと、以下のように表示されます。
 
 ![example osm][]
 
-Acquiring data in **.osm** format is easy - in fact you do it every time that you
-download data in JOSM, but using these files for analysis and map design is
-not easy. Hence you are better off converting the data into another format, or
-getting it from a service that converts the data for you.
+**.osm** 形式のデータを入手するのは簡単です。例えば、JOSMで編集のためにデータをダウンロードする際には、毎回この形式でファイルをダウンロードしています。ですが、これらのファイルを地図デザインや分析に利用するのは一筋縄ではゆかない作業です。そのため、こうしたデータを自分自身で変換するか、あるいは変換をおこなってくれるサービスを使って変換するなどしてから処理を行うのがよいでしょう。
 
->	Raw OSM data is stored in **.osm** files usually, but you may also see files
->	ending in **.bz2** and **.pbf**. These are essentially **.osm** files that have
->	been compressed to save space, which can be extremely helpful when working
->	with large data files.
+>   OSMの生データは多くの場合 **.osm** ファイルに格納されます。
+>   ですが、サイトで配布される際には **.bz2** や **.pbf** という拡張子がついていることもよくあります。
+>   これらのファイルも根本的には **.osm** 形式で、 .osm のファイルを圧縮して容量を削減したものになります。こうした形式は、特に大きなファイルを扱う際にとても有用です。
+
 
 Shapefiles
 ----------
-The **shapefile** is a widely used format for storing vector geographic data. It was
-developed by ESRI, the company that makes ArcGIS, a popular suite of GIS applications.
+**shapefile** は、ベクタ地理データを格納するために広く利用されている形式です。GISアプリケーションとして一般的なソフトであるArcGISを制作しているESRI社によって開発されました。
 
-Shapefiles are actually a collection of several different files. For example, a shapefile
-that contains building data might have files with the following extensions:
+shaefileは複数のファイルの集合体です。例えば建物データを格納しているshapefileでは以下のファイルを利用しています: 
 
 -	buildings.**shp**
 -	buildings.**shx**
 -	buildings.**dbf**
 
-Shapefiles will often have additional files too which contain other information.
+shapefileにはさらに、他の情報を格納するための追加ファイルが加えられることがあります。
 
-A shapefile must be designated to hold only one type of feature
-(points, lines, or polygons), and each feature has it's attributes contained in a table.
-Unlike the OpenStreetMap system in which every object can have an unlimited number of tags,
-the attributes of features in a shapefile must fit into the shapefile's defined table
-structure, which might look something like this:
+shapafileでは、1つの地物タイプ(ポイント、ライン、ポリゴン)のいづれかだけを保持するようにできています。また、それぞれの地物は、その属性情報を表形式で保持します。OpenStreetMapではオブジェクトが保持するタグの量に制限はありませんが、shapefileで地物が保持できる属性情報はshapefileごとに定義された表におさまる形でしか記載できません。具体的には、以下のようになります: 
 
 ![shapefile attributes][]
 
-OpenStreetMap data can be converted into shapefiles. Various websites provide shapefiles
-converted from OSM data. These are discussed in the [next chapter](/en/osm-data/getting-data).
+OpenStreetMapのデータを shapefile に変換することも可能です。多くのウェブサイトが、OSMデータから変換したshapefileを配布しています。詳しくは[次の章](/en/osm-data/getting-data)で紹介します。
 
-Databases
+データベース
 ---------
-Many types of information are stored in database systems, which provide a logical
-way of organizing and accessing data. Geographic data is no different, although
-databases designed for geodata are specialized to handle the complex functions that
-querying geographic data requires.
+データベースとはデータの構造とアクセスを論理的に処理する仕組みであり、そこにはさまざまな情報を登録することができます。データベースには地理データも格納することができます。ただし、地理データを扱う際に必要となる複雑な処理をこなすため、特殊な変更を加える必要がある場合があります。
 
-OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensions.
-This type of database provides fast access to the data and can be used easily with
-Mapnik, a piece of software that creates the map tiles used in web slippy maps. There
-are several tools available for importing raw OSM data into a PostgreSQL database.
+OpenStreetMapのデータはPostGIS拡張を加えたPostgreSQLへ格納することがほとんどです。この仕組みは対象となるデータへの高速なアクセスが可能であり、スリッピーマップで利用する地図タイルを作成するためのソフトウェアのひとつ Mapnikなどからの利用も容易です。PostgreSQLデータベースへOSM生データをインポートするには、いくつかのツールが既に用意されています。
 
-Another type of database is known as SQLite, which provides similar functionality as
-a PostgreSQL database, but is all stored in a single file and doesn't require
-database software to be running. These are a little more difficult to create yourself,
-but can be easier to work with for small sets of data.
+もうひとつよく利用されるデータベースは、SQLiteと呼ばれます。SQLiteは基本的にPostgreSQLと同様に動作しますが、すべてがひとつのファイルとして格納され、処理を実行する際にデータベースソフトウェアを必要としない、という特徴があります。データベースの作成作業が少々難しくはなりますが、小さなデータセットを扱うにはこちらのほうが処理が簡単になります。
 
-Summary
+まとめ
 -------
-In the following chapters we will see how you can download data in various formats from
-the internet, and how you can use various tools to manipulate the raw data on your own.
+次の章では、インターネットを介してさまざまな形式のデータをダウンロードし、取得したOSM生データを操作するためのツールをどのように使えばよいかを紹介します。
 
-
-[example osm]: /images/en/osm-data/file-formats/example_osm.png
-[shapefile attributes]: /images/en/osm-data/file-formats/shapefile_attributes.png
+[example osm]: /images/jp/osm-data/file-formats/example_osm.png
+[shapefile attributes]: /images/jp/osm-data/file-formats/shapefile_attributes.png
