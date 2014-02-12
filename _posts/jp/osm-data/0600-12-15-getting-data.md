@@ -1,30 +1,22 @@
 ---
 layout: doc
-title: Getting OSM Data
+title: OSMデータの取得
 permalink: /jp/osm-data/getting-data/
 lang: jp
 category: osm-data
 ---
 
-Getting OSM Data
+OSMデータの取得
 =================
-When you want to get the most recent OpenStreetMap data, the easiest way is
-to download an extract from a website. There are various web services
-that provide data extracts for an area of your choosing.
+最新のOpenStreetMapデータを入手するには、データの配布を行っているウェブサイトを利用してダウンロードを行うのが簡単です。様々なサイトで配布されているデータを比較して、あなたが必要とする地域だけを切り出したデータをダウンロードしてください。
 
-Downloading Data Extracts
+抽出データのダウンロード
 --------------------------
 ### GeoFabrik
-[GeoFabrik](http://geofabrik.de) is a company which specializes in working
-with OpenStreetMap. They provide a variety of free extracts in shapefile and raw OSM format
-on their [download website](http://download.geofabrik.de). The advantage of downloading
-GeoFabrik data is that it is updated every day, and it's easy and reliable. One disadvantage is
-that the data is extracted by country, and not all countries are available.
+[GeoFabrik](http://geofabrik.de) はOpenStreetMapを専門とする企業です。彼らは[ダウンロードウェブサイト](http://download.geofabrik.de)から、無償でshapefile形式や生のOSMフォーマットのデータ配布を行っています。GeoFabrikからのダウンロードは、日次でデータが更新されること、そして、なによりダウンロードが簡単で信頼性が高い、という点で大きな利点があります。逆に、抽出が国ごとであり、すべての国が対象になっていない、ということが、欠点といえば欠点といえます。
 
 ### Metro Extracts
-[Another website created by Michal Migurksi](http://metro.teczno.com/) provides shapefiles for
-cities around the world. This is useful if you are looking for data extracts for a single city.
-The disadvantage to this site is that it is not updated regularly.
+[Michal Migurksiさん作のサイト](http://metro.teczno.com/)では、世界各地の都市のshapefileが配布されています。特定の都市のデータだけが必要な場合は、このデータが有用でしょう。ただし、このサイトは不定期更新なのが欠点といえます。
 
 >	Remember that features in OpenStreetMap have an unlimited number of "free" tags,
 >	but shapefiles have attributes stored in a limited number of columns. This means
@@ -34,25 +26,18 @@ The disadvantage to this site is that it is not updated regularly.
 >	you will need to use one of the more specialized services in the next section
 >	or learn how to export the data yourself.
 
-Customized Extracts
+カスタマイズ可能なデータ抽出
 -------------------
 ### HOT Exports
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users
-to select the area that they want to extract, and also use [JOSM Presets](/en/editing/josm-presets)
-to select custom tags to be included in the extract. The service is available to all countries where
-HOT works, at [export.hotosm.org](http://export.hotosm.org).
+[OpenStreetMap人道支援チーム (HOT)](http://hotosm.org)は、ユーザごとに対象地域の変更が可能なデータ抽出サイトと、抽出時に含める指定タグを選択した[JOSMプリセット](/en/editing/josm-presets)を提供しています。[export.hotosm.org](http://export.hotosm.org)は、HOTが活動しているすべての地域で利用可能です。
 
 ![hot exports][]
 
 ### BBBike
-You can select your own area from any part of the world using the service at [http://extract.bbbike.org/](http://extract.bbbike.org/). The only disadvantage is that you aren't able to select customizable tags.
+[BBBike.org](http://extract.bbbike.org/)でも、世界各地のデータを抽出することが可能です。抽出時のタグを指定できるのが、このサイトの強みです。唯一の欠点は、抽出対象となるタグが必ず決まっている、ということでしょうか。
 
-Summary
+まとめ
 -------
-The services mentioned in this chapter are all that the average user needs to get the OSM
-data they want and be able to work with it in GIS software. However, you may want to learn
-more powerful ways of working with the data yourself. The remaining chapters in this section are
-quite technical, but show more advanced methods of manipulating and accessing OSM data.
+この章で紹介したサービスは、一般的なOSMユーザがGISソフトウェアなどで作業する際に必要となる項目が揃っています。しかし、より詳細なデータを使いこなしたいという要望もあるかもしれません。これからの章ではかなり技術的な内容を含みますが、OSMデータへ本格的にアクセスして使い倒すために必要となるより詳しい方法について紹介したいと思います。
 
-
-[hot exports]: /images/en/osm-data/getting-data/hot-exports.png
+[hot exports]: /images/jp/osm-data/getting-data/hot-exports.png

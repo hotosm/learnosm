@@ -1,137 +1,100 @@
 ---
 layout: doc
-title: Setting up PostgreSQL
+title: PostgreSQLのセットアップ
 permalink: /jp/osm-data/setting-up-postgresql/
 lang: jp
 category: osm-data
 ---
 
-PostgreSQL & PostGIS
+PostgreSQLとPostGIS
 ====================
-In this chapter we will see how to set up PostgreSQL on Windows and how to
-create a database in which you can store geographic data. We'll be using the
-open source GIS software QGIS in this chapter, so it will be helpful if
-you are already famliiar with it.
+この章では、WondowsでのPostgreSQLセットアップ方法、およびデータベースを作成し、そこへ地理データを格納する方法を紹介します。このガイドでは、オープンソースのGISソフトウェアであるQGISの操作方法についても取り扱います。すでに操作に親しんでいれば、たいへん役に立つことでしょう。
 
-In the following chapter, we will see how to import OpenStreetMap data into
-a PostgreSQL database.
+それでは、PostgreSQLデータベースへOpenStreetMapデータをインポートする方法を見てみましょう。
 
-Installing PostgreSQL and PostGIS
+PostgreSQLとPostGISのインストール
 ----------------------------------
-In this section we will install PostgreSQL and then add the PostGIS spatial
-extensions.  This is fairly easy to setup using the One-Click Installer.
+この項目では、PostgreSQLをインストールし、そこへPostGIS地理空間拡張を追加します。ワンクリックインストーラがありますので、セットアップ自体はとても簡単です。
 
--	Navigate your web browser to the PostgreSQL website and find the download page here:
-	[http://www.postgresql.org/download/](http://www.postgresql.org/download/)
+-   PostgreSQLウェブサイトから、ダウンロードページを表示します: [http://www.postgresql.org/download/](http://www.postgresql.org/download/)
 
 ![postgresql website][]
 
--	From here you can find installation instructions for different operating systems.  Click
-	on the “Windows” link.
--	This page explains what the One-Click Installer will do.  It will install three different components:
-	-	PostgreSQL server:  The database software, the core component
-	-	pgAdmin III: The graphical interface for managing your databases
-	-	StackBuilder: A tool for adding additional applications; we will use this for adding the PostGIS extensions
--	Click on Download.
+-   利用しているOSごとに異なるインストール方法が表示されます。"Windows"のリンクをクリックしてください。
+-   このページでは、ワンクリックインストーラが実行する動作が説明されています。この作業により、3つのコンポーネントがインストールされます: 
+    -   PostgreSQLサーバ: データベースソフトウェア、中心となるコンポーネント
+    -   pgAdmin III: データベース操作を行うためのグラフィカルインターフェース
+    -   StackBuilder: 追加アプリケーションを取り扱うためのツール; PostGIS拡張を追加するために利用します
+-   ダウンロードをクリックしてください。
 
 ![postgresql download][]
 
--	You will see several different Installer options for different versions of the PostgreSQL software.
-	Download the most recent version. As of this writing it is version 9.3.1. Click on the button that
-	says Win x86-32.  This is the installer for the 32-bit version of Windows.
+-   PostgreSQLのどのバージョンをインストールするか、オプションがいくつか表示されます。
+    最新のバージョンをダウンロードしてください。この記事を執筆している段階では、9.3.1が最新です。Win x86-32の項目をクリックします。これは、Windows 32ビット版で利用可能なインストーラとなります。
 
 ![postgresql version][]
 
--	When it has finished downloading, run the One-Click Installer.
+-   ダウンロードが完了したら、ワンクリックインストーラを起動します。
 
 ![install 1][]
 
--	Click “Next” to navigate through the installation wizard.  The default options should be fine.
-	You will need to provide a password for the first database user (the user is postgres).  This
-	user has superuser privileges, meaning that they can do whatever they want, so don’t forget
-	the password that you use!
+-   インストールウィザードが表示されますので、"Next"を押してください。オプションはすべてデフォルトでかまいません。
+    最初のデータベースユーザ(postgresユーザ)に対して、パスワードを設定してください。このユーザはスーパーユーザ、つまりどんな操作でも実行可能な権限を持っています。設定したパスワードを忘れないようにしてください！
 
->	You can create as many databases as you want using Postgresql.  You might want a database for
->	your geographic data, and separate databases for other projects that you are working on.  And
->	you may want different people to have different types of access to these databases.  For this
->	purpose, every database that you create uses the concept of **users** and **roles**.  A database must
->	always be owned by a user, and usually that user will need a password in order to make changes
->	to the database.  Additional users can be given permission to access a database, and they can
->	be given certain roles.  For example, you may want a database user that can only read information
->	from the database, but cannot change it.  Or you may want a user that can add data, but does not
->	have permission to delete it.  With users and roles, this is possible.  For now we won’t worry too
->	much about this, just remember that your database is owned by a **user**, and to access the database
->	you will need the user’s name and password.  The first user we create (named postgres) is a **superuser**,
->	meaning they have permission to do everything with the databases.
+>   PostgreSQLでは、いくつでもデータベースを作成することができます。あるデータベースを地理情報用にして、別のデータベースを通常のデータベースの用途で使用することもできます。
+>   また、複数の人間に対して、それぞれ異なるタイプのアクセス権限を付与する必要があるかもしれません。そのためには、それぞれのデータベースに対して **ユーザ** と **ロール** を設定しなくてはいけません。データベースは特定のユーザによって所有される必要があり、通常、データベースに対して変更を行うためにはパスワードが要求されます。
+>   データベースに対するアクセス権限をもったユーザを追加することもでき、その場合はそのユーザに対して特定のロールが割り当てられます。例えば、データベースの読み取りだけが可能で、データの変更が許可されていないユーザを設定したいとします。ユーザとロールを使うことで、この設定が可能となります。
+>   今回は、権限設定について細かく考えなくても大丈夫です。ただ、データベースが **ユーザ** によって所有され、データベースにアクセスするにはユーザの名称とパスワードが必要であることは忘れないでください。最初に作成したユーザ(postgres)は **スーパーユーザ** であり、データベースに対してすべての操作が可能なユーザです。
 
--	After you have clicked through the wizard and accepted the default configuration options, the
-	wizard will install everything for you.  It may take a few minutes.
--	When the installation is complete, the wizard will ask you if you want to launch StackBuilder,
-	which is the utility that will allow us to install PostGIS.  Make sure the box is checked
-	before you click “Finish.”
+-   ウィザード上でクリックを行い、デフォルトの設定オプションを許可するとインストール作業が開始されます。作業は数分で終わります。
+-   インストールが完了すると、StackBuilderを起動するかどうかのウィザードが表示されます。PostGISのインストールはStackBuilderを使って行います。ボックスへ忘れずにチェックを入れて、"Finish"をクリックしてください。
 
 ![install 2][]
 
--	Now we’ve successfully installed PostgreSQL and we need to add the PostGIS extensions.  When
-	the StackBuilder wizard opens, select your PostgresSQL installation from the dropdown menu
-	and click Next.  It will look something like this:
+-   PostgreSQLのインストールが成功したら、次はPostGIS拡張を追加する必要があります。StackBuilderウィザードが開いている場合、ドロップダウンメニューからインストールしたPotgreSQLを選び、Nextを押します。以下の画面を参考にしてください: 
 
 ![install 3][]
 
--	Open the “Spatial Extensions” tab and check the box next to PostGIS. As of this writing the most
-	recent version of PostGIS is 2.1.
+-   "Spatial Extensions"タブを開き、PostGISの隣のボックスにチェックを入れます。現時点で最新のPostGISはバージョン 2.1です。
 
 ![install 4][]
 
--	Click Next to download the extensions and install.  When prompted, click “I Agree” to accept
-	the terms and conditions.
--	The PostGIS installer will ask more questions, but generally the default options are fine. 
-	You can tell it to create the first database automatically, but we will learn how to do that
-	ourselves next.
--	To begin the PostGIS installation you will need to supply the postgres password that you
-	created when you installed PostgreSQL.
+-   Nextを押すと、拡張ファイルのダウンロードとインストールがはじまります。利用条項の確認が表示されますので、一読の上 "I Agree"を押してください。
+-   PostGISインストーラはいくつかの確認項目を表示させます。ほとんどの場合、デフォルトの内容で問題ありません。最初のデータベースを自動で作成するかどうか、という質問が表示されますが、次の手順ではデータベースを自作する方法を紹介します。
+-   PostGISのインストールを行うにあたって、PostgreSQLのインストールを行った際に設定したpostgresユーザのパスワードを入力する必要があります。
 
 ![install 5][]
 
--	If you are asked to register the GDAL_DATA environment variable, click "Yes."
+-   GDAL_DATA環境変数を登録するか、という質問には "Yes"を選択します。
 
 ![install 6][]
 
--	When the installation is completed, click “Close” and then “Finish.”
+-   インストールが完了したら、"Close"と"Finish"をクリックしてください。
 
-Creating a Database
+データベースの作成
 --------------------
-Now that we have installed all of the necessary software, we will create a database. We will
-use pgAdmin III, which is a graphical database client that is useful for querying and modifying
-databases.
+作業に必要なソフトウェアのインストールがすべて完了したので、ここからは実際にデータベースを作ってみましょう。データベースの操作やクエリの発行に便利なデータベースクライアント、pgAdmin IIIを使います。
 
 ![pgadmin3][]
 
--	PgAdmin III is the official client for PostgreSQL and lets you use the SQL language to manipulate
-	your data tables.  It is also possible to create and manipulate databases from the command-line,
-	but for now, pgAdmin III is an easy way to get started.
--	Open pgAdmin III.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin III.
+-   pgAdmin IIIはPostgreSQLの公式クライアントで、SQL言語を使ってデータベースのテーブル操作を行うことが可能です。データベースの作成や操作はコマンドラインから行うこともできますが、今回は簡単さを重視し、pgAdmin IIIを使います。
+-   pgAdmin IIIを起動します。スタートメニューから "全てのプログラム" -> "PostgreSQL 9.3" -> pgAdmin IIIを選択してください。
 
 ![pgadmin3 start][]
 
--	In the panel on the left under Servers, right-click where it says PostgreSQL and click “Connect.”
+-   画面左側のサーバ一覧部分で右クリックし、PostgreSQLの場所を入力して"Connect"を選択します。
 
 ![postgresql connect][]
 
--	Enter the postgres user password that you created when you installed the software. Remember that
-	the username and password are required so that you can create and access a database.
+-   インストール時に設定した postgres ユーザのパスワードを入力してください。データベースを作成したりアクセスしたりするにはユーザ名とパスワードが必要となります。
 
 ![enter password][]
 
--	Right-click on Databases and select New Database...
+-   データベースを右クリックし、New Database、を選択します。
 
 ![new database][]
 
--	You need to enter a few pieces of information to create the new database: name and owner.  In the
-	Properties tab, give the new database a name.  In this example, we name our database gisdb.  We
-	should also give our database an owner.  Since we only have one user right now, let’s give our
-	database the owner postgres.  (Note: for security reasons it is usually a good idea to create users
-	without superuser permission, but for now we won’t worry about this.)
+-   データベースを作成するために、データベースの名前と所有者など、いくつかの情報を決める必要があります。プロパティタブから新しいデータベースに名前をつけてください。この例では、データベースに gisdb という名前をつけています。また、データベースには所有者を指定する必要があります。現在作成済みのユーザは postgres ユーザだけなので、このユーザをデータベースの所有者として設定します。(注: セキュリティの観点から、本来はスーパーユーザ以外にユーザを作成するのがお勧めです。今回はあまり気にしなくてかまいません)
 
 ![new database form][]
 
@@ -140,98 +103,75 @@ databases.
 	will create our database with the proper spatial columns.
 -->
 
--	Click OK to create the database.  You will now see your database listed under “Databases.”
--	We need to run a command now to enable the database with PostGIS extensions. Click on the SQL
-	button at the top of PgAdmin III.
+-   OKをクリックするとデータベースが作成されます。作成したデータベースは、"データベース"の下に表示されます。
+-   データベースに対して、PostGIS拡張を適用するコマンドを実行しましょう。pgAdmin IIIの上部から、SQLボタンをクリックしてください。
 
 ![sql button][]
 
--	In the query window, type:
+-	クエリウィンドウに以下を入力します:
 
 	CREATE EXTENSION postgis;
 
--	Then click the "Execute query" button.
+-   "Execute query"ボタンをクリックします。
 
 ![postgis command][]
 
-Load Sample Data (optional)
+サンプルデータの読み込み (オプション)
 ---------------------------
-If you are comfortable so far and are familiar with QGIS, follow along as we load some
-data into our new database. To do this, we will use a utility that converts shapefiles
-and loads them into the database.
+ここまでの作業に問題がなく、さらにQGISを操作したことがある場合は、以下の手順を実行し、新しいデータベースへデータを読み込ませてみましょう。具体的には、Shapefileを変換してデータベースへ読み込むユーティリティを利用します。
 
--	Make sure that your new database is selected in the panel on the left and go to **Plugins
-	-> PostGIS Shapefile and DBF loader 2.1**.
+-   左側のパネルで新しいデータベースが選択されていることを確認し、 **Plugins -> PostGIS Shapefile and DBF loader 2.1** へ進みます。
 
 ![shapefile loader][]
 
--	Click “Add File” and find a shapefile on your filesystem.
--	If you don't have any shapefiles, you can download a sample [here](/files/buildings_sample.zip).
--	Once you have selected a file, click “Import.”  If everything goes smoothly, the output will
-	read “Shapefile import completed.”
+-   "Add File"を選択し、ファイルシステムからshapefileを選んでください。
+-   手持ちのshapefileが無い場合、[こちら](/files/buildings_sample.zip) からサンプルがダウンロードできます。
+-   ファイルをクリックしたら、"Import"をクリックします。処理に問題がなければ、"Shapefile import completed"と表示されます。
 
 ![add shapefile][]
 
--	Now let's load the data from our database into the QGIS application. If you don't have QGIS
-	you can download it on the [QGIS website](http://www.qgis.org/en/site/forusers/download.html).
--	Open QGIS and click on the “Add PostGIS Layers” button.
+-   データをインポートしたデータベースからQGISへデータを読み込ませてみましょう。QGISをインストールしていない場合、[QGISウェブサイト](http://www.qgis.org/en/site/forusers/download.html)からソフトウェアをダウンロードしてください。
+-   QGISを起動し、"Add PostGIS Layer" ボタンをクリックします。
 
 ![qgis add postgis button][]
 
--	Under “Connections” at the top, click “New.”
--	Give the new connection a name.  Under database type **gisdb** (or whatever you named your database).
-	Enter the username postgres and your password below.
+-   上部に表示されている "Connections"から、 "New"をクリックします。
+-   この接続に対して名前をつけてください。データベースの下には **gisdb** (あるいはその他、データベースに付与した名前)を入力します。
+    ユーザ名には postgres と入力し、パスワードを入力します。
 
 ![connection settings][]
 
--	Click OK to save the connection settings.  Then click “Connect” to connect to your PostgreSQL
-	server.  You may need to enter your username and password again.
--	If everything is successful, you will see the shapefile layer  (or multiple layers with different
-	features types) that you loaded into the database
-	available here.  Select a layer and click “Add” to add it to your map.
+-   OKをクリックすると、接続設定が保存されます。 "Connect"をクリックして、PostgreSQLサーバへ接続してみましょう。データベースのユーザ名とパスワードをもう一度入力する必要があるかもしれません。
+-   接続に成功すると、データベースに読み込ませたデータが読み込まれ、shapefileレイヤ (あるいは地物タイプごとに分割された複数のレイヤ) が表示されます。レイヤを選択し、"Add"を選択すると、そのデータを地図表示画面へ追加することができます。
 
 ![your data layer][]
 
--	When you add the layer you will need to select a coordinate system to display the data in.  You
-	will most likely want to select WGS 84, which is the coordinate system OpenStreetMap uses.
--	Note that the layer behaves the same as if you had loaded a shapefile directly into QGIS.  The
-	only difference is that if you edit the layer, the changes will be saved in your database.
+-   レイヤを追加する際には、表示するデータの座標系を選択する必要があります。ほとんどの場合、OpenStreetMapが使用している座標系である WGS 84 を選択すれば問題ありません。
+-   こうして読み込んだレイヤは、shapefileを直接QGISで読み込んだ時とほとんど同じ動作となります。唯一違う点は、データに対して何か変更を行った場合、その変更がデータベースに対して保存される、ということです。
 
-Summary
+まとめ
 -------
-Now that you have seen how to set up PostgreSQL and PostGIS, as well as how to create a new
-database, you're ready to try the utilities which allow us to import raw OSM data into a
-database. We'll take a look at this in the [next chapter](/en/osm-data/osm2pgsql).
+以上で、PostgreSQLとPostGISのセットアップ方法、そしてデータベースの新規作成方法は終わりです。これで、OSMの生データをデータベースに格納するユーテリティを使う準備が整いました。[次の章](/en/osm-data/osm2pgsql)では、その具体的な方法について説明します。
 
-
-
-[postgresql website]: /images/en/osm-data/setting-up-postgresql/postgresql-website.png
-[postgresql download]: /images/en/osm-data/setting-up-postgresql/postgresql-download.png
-[postgresql version]: /images/en/osm-data/setting-up-postgresql/postgresql-version.png
-[install 1]: /images/en/osm-data/setting-up-postgresql/postgresql-install-1.png
-[install 2]: /images/en/osm-data/setting-up-postgresql/postgresql-install-2.png
-[install 3]: /images/en/osm-data/setting-up-postgresql/postgresql-install-3.png
-[install 4]: /images/en/osm-data/setting-up-postgresql/postgresql-install-4.png
-[install 5]: /images/en/osm-data/setting-up-postgresql/postgresql-install-5.png
-[install 6]: /images/en/osm-data/setting-up-postgresql/postgresql-install-6.png
-[pgadmin3]: /images/en/osm-data/setting-up-postgresql/pgadmin3.png
-[pgadmin3 start]: /images/en/osm-data/setting-up-postgresql/pgadmin3-start.png
-[postgresql connect]: /images/en/osm-data/setting-up-postgresql/postgresql-connect.png
-[enter password]: /images/en/osm-data/setting-up-postgresql/enter-password.png
-[new database]: /images/en/osm-data/setting-up-postgresql/new-database.png
-[new database form]: /images/en/osm-data/setting-up-postgresql/new-database-form.png
-[sql button]: /images/en/osm-data/setting-up-postgresql/sql-button.png
-[postgis command]: /images/en/osm-data/setting-up-postgresql/postgis-command.png
-[shapefile loader]: /images/en/osm-data/setting-up-postgresql/shapefile-loader.png
-[add shapefile]: /images/en/osm-data/setting-up-postgresql/add-shapefile.png
-[qgis add postgis button]: /images/en/osm-data/setting-up-postgresql/add-postgis-button.png
-[connection settings]: /images/en/osm-data/setting-up-postgresql/connection-settings.png
-[your data layer]: /images/en/osm-data/setting-up-postgresql/your-data-layer.png
-
-
-
-
-
-
-
-
+[postgresql website]: /images/jp/osm-data/setting-up-postgresql/postgresql-website.png
+[postgresql download]: /images/jp/osm-data/setting-up-postgresql/postgresql-download.png
+[postgresql version]: /images/jp/osm-data/setting-up-postgresql/postgresql-version.png
+[install 1]: /images/jp/osm-data/setting-up-postgresql/postgresql-install-1.png
+[install 2]: /images/jp/osm-data/setting-up-postgresql/postgresql-install-2.png
+[install 3]: /images/jp/osm-data/setting-up-postgresql/postgresql-install-3.png
+[install 4]: /images/jp/osm-data/setting-up-postgresql/postgresql-install-4.png
+[install 5]: /images/jp/osm-data/setting-up-postgresql/postgresql-install-5.png
+[install 6]: /images/jp/osm-data/setting-up-postgresql/postgresql-install-6.png
+[pgadmin3]: /images/jp/osm-data/setting-up-postgresql/pgadmin3.png
+[pgadmin3 start]: /images/jp/osm-data/setting-up-postgresql/pgadmin3-start.png
+[postgresql connect]: /images/jp/osm-data/setting-up-postgresql/postgresql-connect.png
+[enter password]: /images/jp/osm-data/setting-up-postgresql/enter-password.png
+[new database]: /images/jp/osm-data/setting-up-postgresql/new-database.png
+[new database form]: /images/jp/osm-data/setting-up-postgresql/new-database-form.png
+[sql button]: /images/jp/osm-data/setting-up-postgresql/sql-button.png
+[postgis command]: /images/jp/osm-data/setting-up-postgresql/postgis-command.png
+[shapefile loader]: /images/jp/osm-data/setting-up-postgresql/shapefile-loader.png
+[add shapefile]: /images/jp/osm-data/setting-up-postgresql/add-shapefile.png
+[qgis add postgis button]: /images/jp/osm-data/setting-up-postgresql/add-postgis-button.png
+[connection settings]: /images/jp/osm-data/setting-up-postgresql/connection-settings.png
+[your data layer]: /images/jp/osm-data/setting-up-postgresql/your-data-layer.png

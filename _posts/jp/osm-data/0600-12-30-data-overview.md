@@ -1,57 +1,35 @@
 ---
 layout: doc
-title: OSM Data Overview
+title: OSMデータの概要
 permalink: /jp/osm-data/data-overview/
 lang: jp
 category: osm-data
 ---
 
-OSM Data Overview
+OSMデータの概要
 ===================
 <!--In this section we'll consider how OpenStreetMap functions, which
 will help us to understand better how the data is structured, and how
 we can best utilize it.-->
 
-How OSM Works
+OSMの動作原理
 --------------
-Let's consider how OpenStreetMap works. Thousands of users
-around the world continually add to and edit the map, but what
-goes on behind the scenes?
+OpenStreetMapがどのようにして動いているか、考えてみましょう。世界中に散らばる数千のマッパーたちが、常に地図のどこかを編集し、データを追加しています。しかし、その舞台裏はどうなっているのでしょうか。
 
-When you or any other user makes changes using editing software such as JOSM
-or iD, the software communicates with a central OpenStreetMap server and notifies
-it of your changes. On that server is a massive database, which contains all the
-location information and attributes about every single geographic feature in
-all of OpenStreetMap.
+誰かがJOSMやiDなどの編集ツールを使ってデータの変更を行うとき、ツールはOpenStreetMapの中央サーバと通信し、データに変更があることを伝えます。中央サーバは巨大なデータベースであり、OpenStreetMapに登録されているあらゆる地理データの位置情報、そしてそこに付与された属性が格納されています。
 
-Because OSM is free and open, it is possible for anybody to download all
-the data in this database. However, because it is so massive (*the data is more than
-30 GB even when it's compressed*) , it's nearly impossible to work with all 
-the data at once.
+OSMは自由でオープンです。そのため、このデータベースに格納されているデータはだれでもすべてダウンロードすることが可能です。ただし、データのサイズはあまりに大きいです(*圧縮状態ですら30GB以上あります*)。そのため、データをすべていっぺんに扱うことはほぼ不可能となっています。
 
-Because of this limitation, there are various methods of **exporting** and
-**extracting** data which are covered in this section. Exporting means to convert
-OpenStreetMap data from its native format into a format that is convenient for you.
-This is slightly different from **extracting** data, which means to cut the data
-from the area of your choosing.  It may also mean to pull out the specific features
-that you want from an area. These terms are often used interchangeably. We'll learn
-more about this throughout the OSM Data section.
+この制限を克服するため、OSMではさまざまな **エクスポート** や **データ抽出** の仕組みがあります。エクスポートとは、OpenStreetMap本来のデータ形式から、あなたが扱いやすい形式に変換することを指します。 **データ抽出** はその工程とは異なり、あなたが対象とする地域のデータだけを切り出す作業のことを指します。こちらの工程は、対象の地域内にある特定の情報を持ったデータだけを抜き出すことも意味します。2つの用語はしばしば交互に使われます。OSMデータの各項目で、それぞれの作業についてより詳しい内容が紹介がされています。
 
-Using Geodata
+地理データの使い方
 --------------
-If you are not an experienced GIS user, it's important to understand the difference
-between OSM editing software like JOSM and GIS software such as Quantum GIS and ArcGIS.
+GISの経験があれば別ですが、そうでない場合、まずJOSMなどのOSM編集ソフトと、QGISやArcGISといったGISソフトの違いを認識することがとても大切です。
 
-Editors such as iD or JOSM have one core function that they are very good at - making it easy
-for users to edit OpenStreetMap. But they are not software meant for analyzing or querying data -
-this function is best left to other applications. GIS software, such as the free and open
-source [Quantum GIS (QGIS)](http://www.qgis.org), allows users to design good-looking maps,
-to query and analyze data, and much more. GIS software can also be used for editing geodata,
-but it is much easier to edit OpenStreetMap with the dedicated OSM editors.
+iDやJOSMといった編集ソフトの最も中心となる部分は、OpenStreetMapのデータ編集を簡単に行えるようにする、という機能です。しかし逆に、これらのソフトはデータの分析や検索のためのものではなく、それらの機能は別のアプリケーションの領域となります。GISソフトウェアは見やすい地図を作るためのデザインや、データの分析と検索など、多くの機能を有しています。自由なオープンソースソフトウェアである[QGIS](http://www.qgis.org)もそのひとつです。GISソフトウェアでも地理データの編集は可能です。しかし、OpenStreetMapの編集についていえば、専用のOSMエディタを使ったほうが簡単に作業を行えます。
 
-In the next chapter we will take a closer look at file formats which are associated with
-OpenStreetMap and geographic data in general. Then we'll look at various ways to access and
-manipulate OSM data and convert it between different file types.
+次の章では、OpenStreetMapやその他一般的な地理データのファイル形式について詳しく紹介します。その後で、OSMデータの取り扱い方や、いろいろなファイル形式への変換方法についても目を向けることにします。
+
 
 <!--
 
