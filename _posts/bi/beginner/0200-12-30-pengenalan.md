@@ -6,70 +6,67 @@ lang: bi
 category: beginner
 ---
 
-Pengenalan untuk OpenStreetMap
-==============================
+Pengenalan OpenStreetMap
+========================
 
-Informasi sangat kuat. Dengan infromasi yang baik dan pemahaman yang
-tepat, individu dan komunitas mampu untuk mengembangkan kehidupannya kea
+Informasi adalah salah satu bagian terpenting. Dengan infromasi yang baik dan pemahaman yang
+tepat, individu dan komunitas mampu mengembangkan kehidupannya ke a
 rah yang lebih baik dan membuat keputusan yang baik di masa depan.
 Banyak orang dan organisasi yang membuat keputusan dimana keputusan
 tersebut mempengaruhi kehidupan kita. Informasi yang baik dapat
-mempengaruhi NGO, pemerintah dan masyarakat untuk membuat keputusan yang
+mempengaruhi LSM, pemerintah dan masyarakat untuk membuat keputusan yang
 lebih baik, dan serta membuat kehidupan kita lebih baik.
 
-Peta dapat digunakan dengan baik untuk menyampaikan informasi. Peta
-merupakan symbol visual dari dunia kita. Mereka sering dapat
-mendemonstrasikan sebuah ide lebih baik daripada kata-kata. Ini juga
-dapat membantu untuk menjawab pertanyaan penting. Dimana sekolah atau
-rumah sakit terdekat? Siapa yang memiliki sedikit akses untuk fasilitas
-tersebut? Dimanakah lokasi kemiskinan yang paling bermasalah? Pertanyaan
-seperti ini paling baik diekspresikan dengan peta, dan peta dapat
-membantu untuk mencari solusi dari pertanyaan-pertanyaan tersebut.
-
-Sebagai sebuah latihan, ambil sebuah alat tulis dan secarik kertas dan
-gambarlah sebuah peta dari kota  atau desa tempat tinggal anda. Hal
-apakah yang paling penting untuk dimasukan pada peta? Informasi apakah
-yang paling penting? Berikan waktu selama beberapa menit untuk membuat
-peta anda, dan ketika anda telah selesai, pikirkan tentang kenapa
-informasi yang anda masukan ke dalam peta sangat penting, dan siapa saja
-yang berkepentingan untuk informasi tersebut.
-
 ![A village in Indonesia][]
+
+Peta adalah simbol yang menggambarkan dunia kita. Dengan peta kita dapat menunjukkan 
+sebuah idea yang lebih baik dibandingkan menggunakan kata-kata. Hal ini dapat membantu 
+kita dalam menjawab pertanyaan-pertanyaan penting. Seperti dimana lokasi sekolah atau 
+rumah sakit terdekat? Siapa yang memiliki akses terjauh dengan fasilitas ini? Dimana lokasi 
+yang memiliki masalah kemiskinan? Pertanyaan-pertanyaan seperti ini dapat digambarkan melalui 
+peta, dan peta dapat membantu kita menemukan solusi dari pertanyaan tersebut. 
+
+Untuk latihan, kita ambil pulpen atau pensil dan secarik kertas, kemudian gambarlah 
+sebuah peta yang menggambarkan kota atau desa tempat tinggal Anda. Hal apakah yang paling 
+penting untuk dimasukkan ke dalam peta? Informasi apakah yang paling penting? Luangkan waktu
+bberapa menit untuk membuat peta Anda, dan apabila peta Anda telah selesai, pikirkanlah 
+tentang mengapa informasi yang Anda masukan ke dalam peta Anda sangat penting, dan siapa saja
+yang memiliki kepentingan untuk informasi tersebut. 
+
 ![Example of a hand-drawn map][]
 
-Sebuah desa di Indonesia (kiri), dan sebuah contoh dari peta yang
-digambar dengan tangan (kanan)
-
-Jika anda lebih banyak menggambarkan tentang kota anda, mungkin anda
+Jika Anda lebih banyak menggambarkan tentang kota Anda, mungkin Anda
 menggambarkan beberapa garis untuk merepresentasikan jalanan, atau
-mungkin juga sebuah aliran sungai. Mungkin anda juga telah menambahkan
+sebuah aliran sungai. Mungkin Anda juga telah menambahkan
 bangunan-bangunan penting seperti sekolah dan kantor, lapangan, atau
-batas wilayah. Apapun yang anda gambarkan, anda kemungkinan menggunakan
-symbol, - sebuah garis untuk menyimbolkan jalan, sebuah persegi untuk
-menyimbolkan bangunan, dan seterusnya. Peta anda merupakan sebuah
+batas wilayah. Apapun yang Anda gambarkan, kemungkinan menggunakan
+simbol, sebuah garis untuk menyimbolkan jalan, sebuah persegi untuk
+menyimbolkan bangunan, dan seterusnya. Peta Anda merupakan sebuah
 representasi dari apa yang ada di permukaan bumi.
 
 ![Examples of symbols][]
 
-Peta anda adalah informatif. Anda mungkin akan menggunakan peta seperti
+Peta Anda bersifat informatif. Anda mungkin akan menggunakan peta seperti
 ini untuk menjelaskan kepada seseorang dimana tempat-tempat berbeda
-berada, dimana permasalahan yang terdapat dalam komunitas anda, atau
+berada, dimana permasalahan yang terdapat dalam komunitas Anda, atau
 lebih tepatnya untuk membantu seseorang menemukan tempat tujuannya.
-Namun, kegunaan peta anda ini terbatas . Dimana hanya terdapat satu buah
-salinan dari peta dan dari cara anda menggambarkannya mungkin masuk akal
-bagi anda, tetapi mungkin tidak bagi orang lain yang menggambarkan peta
-tersebut dengan cara yang berbeda. Karena peta anda ini digambarkan
+Namun, kegunaan peta Anda ini terbatas. Dimana hanya terdapat satu buah 
+salinan dari peta dan dari cara Anda menggambarkannya mungkin Anda memahami 
+isinya, tetapi tidak bagi orang lain yang menggambarkan peta tersebut dengan
+cara yang berbeda. Karena peta Anda ini digambarkan
 hanya pada secarik kertas, sangat sulit untuk menyampaikan informasi ini
-ke orang lain. Inilah mengapa anda membuat peta pada sebuah komputer,
+ke orang lain. Inilah mengapa Anda membuat peta pada sebuah komputer,
 dengan cara seperti itu semua orang dapat mengakses peta tersebut dan
 membuatnya lebih berharga.
+
+![Mapping on Computer][]
 
 OpenStreetMap adalah sebuah alat untuk membuat dan berbagi informasi
 dalam bentuk peta. Siapapun dapat berkontribusi untuk OSM, dan ribuan
 orang menambahkan proyek setiap harinya. Para pengguna menggambarkan
 peta pada komputer, dibandingkan dengan kertas, tetapi kita akan melihat
-pada panduan ini, menggambar sebuah peta pada sebuah komputer tidaj kauh
-berbeda dengan menggambar peta pata secarik kertas. Kita masih
+pada panduan ini, menggambar sebuah peta pada sebuah komputer tidak jauh
+berbeda dengan menggambar peta pada secarik kertas. Kita masih
 menggambarkan garis untuk merepresentasikan jalan, lapangan, dan
 lain-lain, dan kita masih merepresentasikan sekolah dan rumah sakit
 dengan ssimbol. Hal yang paling penting adalah peta OSM disimpan di
@@ -78,10 +75,9 @@ gratis.  
 
 ![Digital maps with OpenStreetMap][]
 
-Kami harap anda dapat mengetahui bahwa OpenStreetMap menarik anda dan
-berguna untuk pekerjaan anda. Dengan mengikuti panduan ini, anda
-seharusnya dapat memulai dengan cepat membuat peta digital dan
-menambahkannya pada OSM.
+Kami harap Anda tertarik menggunakan OpenStreetMap dan OpenStreetMap dapat
+berguna untuk pekerjaan Anda. Dengan mengikuti panduan ini, Anda dapat memulai 
+dengan cepat cara membuat peta digital dan menambahkannya pada OSM.
 
 [A village in Indonesia]: /images/bi/beginner/01_introduction/bi_beg_01_introduction_image00_village-in-indonesia.png
 [Example of a hand-drawn map]: /images/bi/beginner/01_introduction/bi_beg_01_introduction_image01_hand-drawn-map.png
