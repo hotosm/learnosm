@@ -1,55 +1,48 @@
 ---
 layout: doc
-title: Mulai Menggunakan JOSM
+title: Pengoperasian JOSM
 permalink: /bi/beginner/start-josm/
 lang: bi
 category: beginner
 ---
 
-Mulai Menggunakan JOSM
-======================
+Pengoperasian JOSM
+===================
 
-Pada chapter ini kita akan mempelajari langkah-langkah bagaimana caranya
-mendownload dan instalasi JOSM, software editor utama dari
-OpenStreetMap. Kita akan mengubah beberapa setting atau pengaturan yang
-ada pada JOSM agar nantinya lebihmudah untuk digunakan. Kemudian kita
-akan membuka sebuah contoh peta dan mempelajari beberapa operasi dasar
-dari software ini. Ingat pada chapter 1 ketika kami meminta Anda untuk
-menggambar sebuah peta mengenai kota atau desa tempat Anda tinggal?
- Kemudian kita akan mengakhiri chapter ini dengan menggambar ulang peta
-Anda, kali ini secara digital. Setelah itu Anda akan memiliki pemahaman
-yang baik mengenai bagaimana menggambar peta dengan menggunakan JOSM.
+Pada bab ini kita akan mempelajari langkah-langkah bagaimana cara
+mendownload dan instalasi JOSM, editor Java OpenStreetMap. Kita akan 
+mengubah beberapa pengaturan pada JOSM agar nantinya lebih mudah untuk 
+digunakan. Kemudian kita akan membuka sebuah peta contoh dan mempelajari
+beberapa pengoperasian dasar dari perangkat lunak ini. Ingatkah pada bab 
+pengenalan ketika kita diminta untuk menggambar sebuah peta mengenai kota
+atau lingkungan sekitar kita? Kita akan memasukannya kembali di dalam bab
+ini dengan menggambarkan peta Anda kembali tetapi dengan cara digital. 
+Setelah mempelajari bab ini Anda akan mendapatkan pemahaman yang baik
+bagaimana cara menggambar peta di JOSM.
 
 Download JOSM
 -------------
 
-1.  Jika Anda memiliki salinan dari JOSM pada sebuah CD atau usb flash
-    drive, Anda dapat langsung menuju section 2, Install JOSM.
-2.  Jika Anda tidak memiliki JOSM, atau menginginkan untuk mendapatkan
-    versi terbarunya, buka web browser – bisa menggunakan Firefox,
-    Chrome, Opera, atau Internet Explorer.
+*	Jika Anda memiliki salinan JOSM pada sebuah CD atau flash disk, Anda
+	dapat langsung ke sesi selanjutnya yaitu instalasi JOSM.
+*	Jika Anda tidak memiliki JOSM, atau ingin versi terbarunya, buka web browser
+	Anda - bisa menggunakan Firefox, Chrome, Opera atau Internet Explorer.
+*	Pada kolom alamat di bagian atas jendela, masukan teks berikut dan tekan enter: 
+	[josm.openstreetmap.de](http://josm.openstreetmap.de)
+*	Anda juga dapat menemukan situs JOSM dengan mencari "JOSM" pada mesin pencarian.
+*	Situs ini akan tampak seperti ini:
 
-1.  Pada kolom alamat (address bar) pada bagian atas jendela browser
-    Anda, masukkan alamat berikut:
+	![JOSM website][]
 
-    [josm.openstreetmap.de](http://josm.openstreetmap.de)
+*	Jika Anda menggunakan komputer dengan OS Windows, klik “Windows JOSM
+	Installer” untuk mendownload JOSM.
 
-1.  Anda juga dapat menemukan website ini dengan mencari “JOSM” pada
-    mesin pencari.
-2.  Website akan tampak seperti ini:
+	![Windows installer][]
 
-![JOSM website][]
-
-Jika Anda menggunakan komputer dengan OS Windows, klik “Windows JOSM
-Installer” untuk mendownload JOSM.
-
-![Windows installer][]
-
-Jika Anda memiliki OS atau operating
-system lainnya, klik pada link yang sesuai dengan sistem operasi
-komputer Anda. Download Anda seharusnya telah dimulai. Pada chapter ini
-kami akan mengasumsikan Anda menggunakan Windows, tapi petunjuknya cukup
-mirip dengan sistem operasilainnya.
+*	Jika Anda memiliki OS atau sistem operasi lainnya, klik pada link yang sesuai
+	dengan sistem operasi komputer Anda. Kemudian Anda dapat mendownloadnya. 
+	Pada bab ini kami akan mengasumsikan Anda menggunakan Windows, tetapi petunjuknya 
+	hampir sama dengan sistem operasi lainnya.
 
 Install JOSM
 ------------
