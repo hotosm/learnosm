@@ -34,347 +34,241 @@ Download JOSM
 
 	![JOSM website][]
 
-*	Jika Anda menggunakan komputer dengan OS Windows, klik “Windows JOSM
+*	Jika Anda menggunakan komputer dengan Sistem Operasi Windows, klik “Windows JOSM
 	Installer” untuk mendownload JOSM.
 
 	![Windows installer][]
 
-*	Jika Anda memiliki OS atau sistem operasi lainnya, klik pada link yang sesuai
+*	Jika Anda memiliki sistem operasi lainnya, klik pada link yang sesuai
 	dengan sistem operasi komputer Anda. Kemudian Anda dapat mendownloadnya. 
 	Pada bab ini kami akan mengasumsikan Anda menggunakan Windows, tetapi petunjuknya 
 	hampir sama dengan sistem operasi lainnya.
 
-Install JOSM
-------------
+Instalasi JOSM
+--------------
 
-1.  Anda mungkin memiliki masalah ketika melakukan instalasi JOSM
-    apabila Java belum terinstall di komputer Anda. Jika Anda memiliki
-    masalah ketika mlakukan instalasi pada bagian ini, cobalah download
-    dan lakukan instalasi Java. Anda dapat mendownloadnya disini:
-    [http://www.java.com/en/download/](http://www.java.com/en/download/)
+>	Anda mungkin memiliki masalah ketika melakukan instalasi JOSM apabila Java belum terinstal
+>	di komputer Anda. Jika Anda memiliki masalah ketika melakukan instalasi pada bagian ini,
+>	cobalah mendownload dan menginstal Java. Anda dapat mendowloadnya disini:
+>	[http://www.java.com/en/download/](http://www.java.com/en/download/)
 
-1.  Temukan file instalasi JOSM di komputer Anda. Klik dua kali untuk
-    memulai pengaturan.
-2.  Klik ‘OK’, ‘Next’, ‘I Agree’, dan ‘Install’. Ketika instalasi telah
-    selesai, klik ‘Finish’ untuk membuka JOSM untuk pertama kalinya.
-    Setelah itu, jika Anda ingin membuka JOSM lagi, Anda dapat klik pada
-    Start menu pada pojok kiribawah layar komputer Anda, dan klik pada
-    program JOSM.
+*	Temukan file instalasi JOSM di dalam komputer Anda. Klik dua kali pada
+	file tersebut untuk
+	memulai pengaturan.
+*	Klik 'OK', 'Next', 'I Agree', dan 'Install'. Ketika instalasi selesai,
+	klik 'Finish' untuk membuka JOSM pertama kalinya. Kemudian, ketika Anda
+	ingin memulai JOSM, Anda dapat melakukannya dengan mengklik pada Start 
+	Menu di pojok kiri bawah pada komputer Anda, dan klik program JOSM.
+*	Anda dapat melihat sebuah jendela muncul yang menanyakan untuk memperbarui
+	perangkat lunak tersebut. Anda tidak perlu memperbaruinya karena yang
+	baru saja Anda download perangkat lunak baru. Tekan tombol "Cancel". 
+	Jika Anda tidak ingin melihat pesan ini lagi, centang kotak di bawah sebelum 
+	menekan "Cancel".
+*	Ketika JOSM terbuka, maka akan terlihat tampilan seperti ini:
+	
+	![JOSM splash page][]
 
-1.  Anda dapat melihat sebuah jendela muncul dan bertanya apakah Anda
-    mau melakukan update atau pembaharuan terhadap software tersebut.
-    Jawabannya, Anda tidak perlu melakukan update tersebut karena yang
-    baru saja Anda download masih baru. Tekan tombol yang bertuliskan
-    “Cancel”. Jika Anda tidak mau melihat pesan ini muncul lagi, berikan
-    tanda centang pada kotak kecil yang ada di bagian bawah halaman
-    tersebut sebelum menekan “Cancel.”
-
-3.  Ketika JOSM telah terbuka, akan tampak tampilan seperti ini:
-
-![JOSM splash page][]
-
-Mengubah Pengaturan pada JOSM
+Cara Mengubah Pengaturan JOSM
 -----------------------------
 
-1.  Sebelum kita memulai menggunakan JOSM, sebaiknya kita mengubah
-    beberapa pengaturan terlebih dahulu sehingga akan mudah
-    dioperasikan. Untuk mengupah beberapa pengaturan ini, klik “Edit”
-    pada menu bagian atas, kemudian klik “Preferences” atau
-    “Preferensi”.
+Terdapat banyak pengaturan yang dapat Anda sesuaikan di dalam JOSM.
+Salah satu pengaturan yang Anda mungkin ingin sesuaikan adalah bahasa
+JOSM telah diterjemahkan ke dalam berbagai macam bahasa, dan Anda dapat
+memilih bahasa yang Anda inginkan.
 
-![Preferences window][]
+*	Untuk mengakses jendela Preferences, klik Edit -\> Preferences.
 
-### Menambahkan Citra Satelit Bing
+	![Preferences window][]
+	
+*	Pada sisi sebelah kiri, klik ikon yang terlihat seperti kaleng cat
+	dan kuas cat.
+*	Di atas jendela, klik tab yang bertuliskan "Look and Feel".
+*	Pilihlah bahasa Anda pada kotak daftar pilihan yang bertuliskan
+	"Language".
+	
+	![Look and feel][]
 
-1.  Kita ingin menggunakan gambar citra satelit ketika kita membuat
-    peta, jadi mari tambahkan citra ke jendela Preferences. Pada sebelah
-    kiri dari jendela Preferences terdapat beberapa ikon yang berbeda
-    untuk berbagai pengaturan yang berbeda pula. Klik pada ikon yang
-    berwarna hijau dan memiliki tulisan “WMS TMS”. Anda mungkin harus
-    klik pada tombol panah ke bawah untuk menemukan ikon tersebut:
+*	Klik OK.
+*	Sekarang Anda perlu me-restart JOSM untuk menyimpan pengaturan Anda.
+	Klik "File" di pojok kiri atas, dan klik "Restart" di bagian bawah menu.
 
-![wms tms][]
+Latihan Dasar Menggambar dengan JOSM
+------------------------------------
+  
+*	Sekarang silahkan buka file contoh OSM yang kita akan gunakan untuk
+	mempelajari cara dasar menggambar peta dengan JOSM. Perhatikan bahwa peta
+	ini tidak nyata hanya sebuah contoh dengan tempat yang tidak nyata, jadi
+	kita tidak akan menyimpannya ke dalam OpenStreetMap.
+*	Download file disini: [sample.osm](/files/sample.osm)
+*	Sekarang buka file contoh peta OSM di dalam JOSM. Klik tombol "Open" di 
+	bagian atas sebelah kiri. 
+	
+	![Open file][]
 
-![up down][]
+*	Temukan file **sample.osm**. File ini mungkin terletak di dalam folder
+	Downloads Anda, kecuali Anda menyimpannya di folder lainnya. Klik di atasnya
+	dan kemudian klik "Open".
+*	Anda akan melihat tampilan contoh peta seperti ini: 
 
-2.  Klik pada “Bing Sat”. Kemudian klik “Activate”.
-
-![activate][]
-
-1.  Setelah itu Anda sudah dapat melihat “Bing Sat” pada daftar yang
-    berada di bawah tombol “Activate”.
-2.  Jangan tutup jendela Preferences, lanjutkan langkah berikutnya.
-
-### Menambahkan Presets
-
-1.  Jika Anda telah mendapat file yang seharusnya ditambahkan pada menu
-    presets, Anda dapat menambahkannya sekarang. Contohnya, sebuah file
-    presets bisa jadi memiliki nama sepert  building.xml
-2.  Anda seharusnya masih memiliki jendela Preferences yang terbuka.
-    Jika tidak, klik Edit -\> Preferences.
-3.  Pada sebelah kiri, klik pada ikon yang tampak seperti grid atau
-    jaring-jaring.
-
-![grid globe][]
-
-1.  Klik pada tab di bagian atas yang bertuliskan “Tagging Presets”.
-2.  Pada bagian kanan, tekan tombol +
-3.  Di sebelah box kedua di sebelah kanan, klik pada tombol yang tampak
-    seperti sebuah folder. Pilih file presets yang ingin Anda tambahkan,
-    misalnya, buildings.xml.
-4.  Klik OK
-
-### Menambahkan Plugin Walking Papers
-
-1.  Pada panduan ini Anda akan mempelajari mengenai sebuah alat yang
-    bernama Walking Papers, yang dapat mencetak peta suatu area,
-    menggambar atau menandai di atasnya dan membuat catatan pula,
-    kemudian dapat memuatnya di JOSM sebagai latar belakang. Kita dapat
-    menambahkan gambar dan catatan kita ke dalam OpenStreetMap. Sekarang
-    kita akan menambahkan plugin Walking Papers ke dalam JOSM.
-2.  Seharusnya Anda masih memiliki jendela Preferences di layar komputer
-    Anda.Jika tidak, klik Edit -\>  Preferences untuk membuka jendela
-    tersebut.
-3.  Pada sebelah kiri, klik pada ikon yang terlihat seperti stop kontak.
-
-![plugins][]
-
-1.  Klik pada tombol yang bertuliskan “Download List” atau “Download
-    Daftar”. Daftar plugin akan terdownload dari internet, dan ketika
-    selesai Anda akan melihat banyak daftar plugins yang muncul pada
-    jendela.
-2.  Pada search box di bagian atas, ketik “walking”. Kemudian akan
-    muncul daftar yang berisi kata “walking” di dalamnya.
-3.  Ceklis pada kotak kecil yang berada di sebelah plugin bertuliskan
-    walkingpapers lalu klik OK pada bagian bawah jendela.
-4.  Walking Papers akan terdownload dan diinstall. Jangan klik
-    “Cancel”. 
-
-### Memilih Bahasa
-
-1.  JOSM telah banyak diterjemahkan ke dalam berbagai bahasa. Apabila
-    JOSM telah diterjemahkan ke dalam bahasa yang Anda gunakan, Anda
-    dapat mengubahnya melalui Preferences.
-2.  Buka jendela Preferences dengan cara klik Edit -\> Preferences.
-3.  Di sebelah kiri, klik pada ikon yang tampak seperti kaleng cat dan
-    kuas cat.
-4.  Di bagian atas jendela, klik pada tab yang berisi tulisan “Look and
-    Feel”.
-5.  Pilih bahasa yang Andainginkan pada box yang berada disebelah
-    tulisan “Language”.
-6.  Klik OK.
-
-![Look and feel][]
-
-1.  Anda harus restart atau menutup dan membuka kembali JOSM untuk
-    menyimpan pengaturan yang telah Anda lakukan. Klik “File” pada ujung
-    kiri atas jendela, kemudian klik “Exit” pada bagian bawah menu.
-2.  Buka kembali JOSM dengan membuka Start Menu Windows yang berada di
-    pojok kiri bawah jendela komputer Anda. Cari JOSM dan klik pada
-    logonya untuk memulai.  Atau klik langsung pada ikon JOSM di
-    Desktop.
-
-Belajar Teknik Menggambar Dasar Menggunakan JOSM
-------------------------------------------------
-
-1.  Sekarang mari kita buka file contoh dari OSM yang akan kita gunakan
-    untuk berlatih menggambar peta menggunakan JOSM. Mohon dicatat
-     bahwa peta ini tidak nyata, hanya untuk berlatih, jadi peta ini
-    tidak akan disimpan ke dalam OpenStreetMap.
-2.  Jika Anda telah mendapatkan file dari instruktur Anda, tentunya Anda
-    telah mendapatkan file yang akan kita gunakan, namanya sample.osm
-3.  Jika Anda tidak memiliki file sample.osm pada komputer Anda, Anda
-    dapat mendownload nya dari internet. Buka browser internet Anda.
-    Pada kolom alamat website pada bagian atas jendela, masukkan alamat
-    berikut:
-    [sample.osm](/files/sample.osm)
-1.  Menggunakan mouse Anda, klik kanan pada file bernama sample.osm kemudian
-    klik “Save Link As...” Pilih lokasi pada komputer Anda dimana Anda akan
-    menyimpan file tersebut.
-1.  Sekarang silahkan buka contoh file peta pada JOSM. Buka JOSM. Klik
-    pada tombol “Open” yang berada di kiri atas.
-
-![Open file][]
-
-1.  Temukan file sample.osm . Klik pada file tersebut kemudian klik
-    “Open” atau “Buka.
-2.  Anda akan melihat tampilan peta seperti berikut ini:
-
-![Sample file][]
+	![Sample file][]
 
 ### Operasi Dasar
 
-1.  Untuk memindahkan peta ke kanan atau ke kiri, ke atas atau ke bawah,
-    klik kanan dan tahan mouse Anda, kemudian gerakkan mouse Anda sesuai
-    posisi yang Anda inginkan.
-2.  Terdapat beberapa cara untuk memperbesar dan memperkecil tampilan
-    peta tersebut. Jika Anda menggunakan mouse, Anda dapat menggunakan
-    scroll wheel atau roda gulir untuk memperbesar dan memperkecil
-    tampilan peta. Jika Anda menggunakan laptop dan tidak memiliki
-    mouse, Anda dapat memperbesar dan memperkecil peta menggunakan scale
-    bar atau garis skala yang berada di sebelah kiri atas jendela yang
-    berisi peta. Pindahkan bar yang ada kekanan dan ke kiri dengan cara
-    klik kiri dan tahan mouse Anda dan pindahkan bar ke kanan dan ke
-    kiri dengan mouse Anda.
+*	Untuk menggerakkan peta ke kanan atau ke kiri, naik atau turun, klik
+	kanan lalu tahan Anda gerakkan mouse Anda.  
+*	Ada beberapa cara untuk memperbesar dan memperkecil peta Anda. Jika Anda 
+	memiliki mouse, Anda dapat Anda dapat meng-scroll roda yang ada pada mouse 
+	Anda untuk memperbesar atau memperkecil peta. Jika Anda menggunakan laptop 
+	dan tidak memiliki mouse Anda dapat memperbesar dan memperkecilnya menggunakan
+	skala baris di sebelah kiri di jendela peta Anda. Tahan dan geser ke kiri dan 
+	ke kanan dengan mouse Anda
 
-![Scale bar][]
+	![Scale bar][]	
 
-1.  Lihat pada peta contoh. Terdapat beberapa objek berbeda di dalamnya.
-    Ada sungai, hutan, beberapa bangunan, beberapa jalan, dan beberapa
-    toko. Untuk memilih objek, klik dengan menggunakan tombol kiri pada
-    mouse.
+*	Lihat peta contoh. Terdapat beberapa perbedaan jenis objek di sana. Ada sungai,
+	hutan, beberapa bangunan, jalan dan sepasang tempat berbelanja. Untuk memilih 
+	objek, klik kiri pada objek tersebut.	
 
-### Titik, Garis, dan Bentuk
+### Titik, Garis, dan Poligon
 
-1.  Jika Anda klik pada objek-objek yang berbeda pada peta contoh, akan
-    tampak bahwa terdapat tiga tipe objek yang berbeda pada peta. Yaitu
-    points atau titik, lines atau garis, dan shapes atau bentukan.
-2.  Points atau titik menunjukkan lokasi tunggal, direpresentasikan
-    dengan simbol. Pada contoh peta ini, terdapat dua titik, sebuah toko
-    pakaian dan sebuah pasar. Toko pakaian disimbolkan dengan gambar
-    baju, dan pasar atau market disimbolkan dengan sebuah kereta belanja
-    atau shopping cart.
-3.  Terdapat beberapa garis pula pada peta ini yang merepresentasikan
-    jalan. Jika Anda lihat dengan lebih seksama pada garis-garis
-    tersebut, terdapat titik-titik pula. Titik-titik ini tidak memiliki
-    simbol atau informasi lainnya yang berhubungan dengannya, tapi
-    titik-titik tersebut menentukan bentuk dan posisi garis tersebut
-    berada.
-4.  Yang terakhir, terdapat banyak shapes atau bentuk pada peta contoh
-    yang merepresentasikan sebuah hutan, sungai, dan bangunan. Sebuah
-    shapeatau bentuakan biasanya mewakili sebuah area, seperti sebuah
-    lapangan atau sebuah bangunan. Sebuah bentuk persis seperti sebuah
-    garis, perbedaannya hanyalah, garis dari sebuah bentuk selalu
-    berujung di tempat yang sama dengan posisi titik awal garis tersebut
-    dimulai.
-5.  Di sebelah kanan halaman terdapat box yang berisi daftar atribut
-    objek, box tersebut bernama “Properties”. Jika Anda memilih suatu
-    objek, akan muncul atribut objek tersebut pada kolom “Properties”,
-    atribut-atribut tersebut dikenal sebagai “tags” atau “label”. Tags
-    atau label merupakan informasi yang terikat dengan sebuah titik,
-    garis ataupun bentuk yang akan memberi deskripsi mengenai objek
-    tersebut. Kita akan mempelajarinya pada Chapter 7, Pengeditan
-    Lanjutan. Untuk saat ini Anda cukup memahami bahwa informasi yang
-    diwakilkan oleh tag atau label dapat membantu mendeskripsikan apakah
-    objek tersebut merupakan hutan, sungai, bangunan, atau hal lainnya.
-     
-6.  Berpikirlah seolah-olah Anda menggambar sebuah peta menggunakan
-    tangan Anda, dan bagaimana Anda juga menggambar titik, garis, dan
-    berbagai bentuk. Tempat-tempat seperti apa saja yang dapat
-    diwakilkan oleh titik? Garis? Bentuk?
+*	Ketika Anda mengklik objek yang berbeda pada peta, perhatikan bahwa terdapat
+	3 jenis objek berbeda pada peta tersebut. Ketiga jenis objek tersebut adalah 
+	titik, garis dan poligon.
+*	Titik adalah suatu lokasi yang digambarkan dengan simbol. Dalam peta ini 
+	terdapat 2 titik, yaitu toko baju dan pasar. Toko baju digambarkan dengan 
+	simbol kaos dan pasar digambarkan dengan simbol keranjang belanja.
+*	Terdapat beberapa garis yang terdapat dalam peta, yang dimana menggambarkan jalan.
+	Jika Anda melihat dengan lebih teliti Anda akan melihat dalam garis akan terdapat
+	titik-titik. Titik-titik tersebut tidak memiliki simbol atau informasi apapun tetapi 
+	akan membentuk garis tersebut.
+*	Terakhir, ada beberapa poligon dalam peta contoh ini yang menunjukkan tempat-tempat
+	yang berbeda seperti hutan, sungai dan bangunan. Suatu poligon secara umum mewakilkan
+	suatu area seperti lapangan ataupun bangunan. Poligon sama seperti garis - akan tetapi 
+	perbedaannya poligon terdiri dari beberapa garis yang membentuk dimana titik akhir 
+	berada sama dengan titik awal garis tersebut.
 
-### Mengubah Objek
+>	Sangat mudah berpikir tentang peta yang berisi tiga jenis onjek dasar -
+> 	titik, garis, dan poligon. Di OpenStreetMap terdapat istilah khusus 
+>	yang akan Anda pelajari sebagai kemajuan Anda, Di OSM, titik disebut 
+>	**nodes**, dan garis disebut **ways**. Poligon disebut **closed way**
+> 	karena ini hanya sebuah garis yang berakhir pada titik awalan yang sama. 
+  
+*	Anda akan menyadari ketika objek yang Anda pilih, akan muncul beberapa 
+	daftar di sebelah kanan jendela yang disebut “Properties”. Hal ini 
+	disebut sebagai tags. Tags adalah informasi yang dimana merupakan bagian
+	dari suatu titik, garis ataupun poligon yang memberitahukan informasi objek 
+	tersebut. Untuk sekarang yang Anda butuhkan adalah mengetahui informasi ini
+	untuk menjelaskan apakah objek Anda itu hutan, sungai atau bangunan atau 
+	bentuk lain.
+*	Pikirkan tentang menggambarkan peta dengan tangan. Objek apa yang paling 
+	tepat untuk mewakilkan titik? Garis? Poligon?
+	
+### Cara Mengubah Objek
 
-1.  Pilih objek hutan pada sebelah kiri peta. Pastikan Anda klik pada
-    garis yang menandai batas hutan, bukan titik yang berada pada garis.
-    Sekarang  tahan tombol sebelah kiri dari mouse Anda kemudian tahan.
-    Anda pun dapat memindah-mindahkan objek hutan ke lokasi lain yang
-    berada di peta.
-2.  Sekarag coba klik pada titik yang berada pada garis yang melingkari
-    hutan. Klik dan tahan tombol kiri mouse Anda, maka Anda akan dapat
-    memindah-mindahkan titik tersebut. Begitu lah caranya Anda dapat
-    mengubah bentuk dari sebuah objek, atau memindahkan sebuah titik.
+*	Pilih hutan yang berada di sebelah kiri peta. Pastikan Anda mengklik 
+	garis pada hutan tersebut bukan pada titiknya. Sekarang tahan tombol 
+	kiri mouse Anda dan geser. Anda akan dapat untuk menggerakkan hutan 
+	ke lokasi yang baru pada peta.
+*	Klik salah satu titik pada garis sekitar hutan. Tahan tombol kiri mouse
+	Anda dan geser. Anda dapat menggerakan titik. Dengan menggerakkan titik 
+	ini Anda dapat mengubah bentuk dari sebuah objek.
 
-### Drawing (Menggambar)
+### Menggambar
 
-1.  Pada sebelah kiri dari jendela JOSM terdapat sebuah kolom berisi
-    banyak tombol dengan fungsi-fungsi yang berbeda pula. Beberapa dari
-    tombol tersebut akan memunculkan box kecil baru pada sebelah kanan
-    halaman bila Anda klik. Tombol-tombol paling penting berada pada
-    posisi paling atas pada kolom tersebut.
-2.  4 tombol paling atas yang berada pada kolom ini merupakan yang
-    paling penting. Tombol-tombol tersebut memungkinkan Anda untuk:
+*	Pada bagian sisi sebelah kiri JOSM terdapat kolom tombol. Terdapat banyak
+	tombol membuka jendela pada sisi kanan yang menyediakan lebih banyak 
+	informasi mengenai peta. Tombol yang paling penting, terdapat di atas kolom
+	tersebut. Tombol-tombol ini mengubah apa yang Anda lakukan dengan mouse Anda.
+*	Tombol atas pada kolom ini adalah salah satu tombol yang akan sering Anda 
+	gunakan. Tombol ini berguna untuk memilih objek dan untuk menggambar objek baru.
+*	Sekarang, Anda telah menggunakan tombol Select, yang akan terlihat tampilannya
+	seperti ini:
+	
+	![Select tool][]
 
-1.  Memilih
-2.  Menggambar
-3.  Memperbesar
-4.  Menghapus
+*	Sebelum Anda menggambar, Anda perlu memastikan bahwa tidak ada objek yang terpilih.
+	Klik diluar objek peta, dimana tidak terdapat objek, untuk memastikan tidak
+	ada yang terpilih.
+*	Klik pada tombol kedua, tombol Draw.
+	
+	![Draw tool][]
 
-3.  Hingga saat ini, Anda telah menggunakan Select Tool, yng ikonnya
-    tampak seperti ini:
+*	Temukan area kosong pada peta, dan klik dua kali dengan mouse Anda kemudian akan
+	tergambar sebuah titik tunggal.
+*	Untuk menggambar sebuah garis, klik sekali dengan mouse Anda. Gerakan mouse Anda dan
+	klik kembali. Lanjutkan hingga membentuk sebuah garis. Untuk mengakhiri garis, klik
+	dua kali pada mouse Anda.
+*	Gambarlah sebuah poligon dengan cara yang sama seperti menggambar garis, tetapi 
+	untuk mengakhiti poligon dengan mengklik dua kali di atas titik yang pertama kali 
+	kita buat.
 
-![Select tool][]
+### Add Presets
 
-4.  Sebelum Anda menggambar, Anda perlu memastikan bahwa tidak ada objek
-    yang aktif. Klik pada halaman berwarna hitam yang kosong (tidak ada
-    objek) pada peta, pastikan tidak ada objek yang terpilih atau aktif.
-5.  Klik pada tombol kedua, yang disebut Draw Tool.
+- Now we know how to draw points, lines and shapes, but we still
+  haven’t defined what they represent. We want to be able to say that
+  our points are shops, schools, or something else, and whether our
+  shapes are fields, buildings, or something else.
+- Click on the Select tool, in the column of buttons on the left.
 
-![Draw tool][]
+  ![Select tool][]
 
-1.  Cari area kosong pada peta, dan klik dua kali dengan menggunakan
-    mouse Anda. Andaakan lihat telah muncul sebuah titik pada peta.
-2.  Untuk menggambar garis, klik satu kali dengan menggunakan mouse
-    Anda. Pindahkan mouse dan klik lagi. Lanjutkan pindahkan mouse dan
-    klik lagi hingga Anda menggambar garis yang Anda inginkan. Untuk
-    mengakhiri garis, klik dua kali menggunakan mouse Anda.
-3.  Gambar sebuah bentuk dengan cara yang sama seperti ketika Anda
-    membuat garis, tetapi akhiri garis dengan klik dua kali pada titik
-    yang sama dimana Anda memulai garis tersebut.
+- Select one of the objects that you drew with the Draw tool. On the
+  top menu, click “Presets”. Move your mouse through the sub-menu to
+  the type of location you would like to define.
+- When you click on a preset, a form will pop up asking you for more
+  information. You do not have to fill in every field, but you may
+  wish to add some of the important fields, such as the name of the
+  object.
+- When you are finished entering the information, click “Apply
+  Preset”. If everything went well, your point, line, or shape should
+  change colors or show a symbol. This is because you have defined
+  what it is.
 
-### Menambahkan Presets
+### Cara Menambahkan Preset
 
-1.  Sekarang kita telah mengetahui bagaimana menggambar titik, garis dan
-    bentuk, tetapi kita belum memberikan informasi mengenai objek-objek
-    tersebut. Kita ingin memberikan label bahwa suatu bangunan merupakan
-    sekolah, toko, atau lainnya, dan apakah bentuk yang ada merupakan
-    lapangan, atau bangunan, atau hal lainnya.
-2.  Klik pada Select Tool, pada kolom yang berisi tombol-tombol di
-    sebelah kiri jendela.
+*	Sekarang kita memahami bagaimana menggambar titik, garis dan poligon, akan tetapi
+	kita masih belum menentukan objek tersebut adalah apa. Kita ingin supaya objek yang
+	kita gambar seperti titik itu adalah sekolah, toko, dll dan apakah bentuk yang kita
+	buat itu bangunan atau sesuatu yang lain.
+*	Klik pada tombol Select, pada kolom tombol di sebelah kiri. 
+	
+	![Select tool][]
 
-![Select tool][]
+*	Pilih salah satu objek yang akan Anda gambar dengan tombol Draw. Pada menu di atas klik 
+	“Presets”. Gerakkan mouse Anda ke sub-menu ke lokasi yang Anda ingin tentukan.
+*	Ketika Anda klik pada preset, akan muncul kolom-kolom dan menanyakan anda tentang informasi 
+	lebih lanjut tentang objek tersebut. Anda tidak harus mengisi semua kolom tetapi Anda harus
+	mengisi kolom penting seperti nama dari objek yang Anda buat.
+*	Ketika Anda sudah selesai memasukkan informasi, klik “Apply Preset”. Jika semuanya berjalan
+	dengan lancar, titik, garis, atau poligon yang Anda buat akan berubah warna atau memiliki
+	suatu simbol. Ini tergantung dari informasi yang Anda masukkan ke dalam objek tersebut.
 
-1.  Pilih salah satu objek yang telah Anda gambar menggunakan Draw Tool.
-    Pada menu yang berada di atas, klik pada “Presets”. Pindahkan mouse
-    Anda ke berbagai sub-menu tergantung tipe lokasi yang ingin Anda
-    tambahkan.
-2.  Ketika Anda klik pada sebuah preset, sebuah jendela kecil baru akan
-    muncul yang berisi berbagai jenis informasi yang dapat diisi. Anda
-    tidak diharuskan untuk mengisi seluruh informasi, tapi sebaiknya
-    Anda menambahkan informasi-informasi penting seperti nama dari objek
-    tersebut.
-3.  Jika Anda sudah selesai mengisi informasi, klik “Apply Presets” atau
-    “Terapkan Presets”. Jika semua berjalan sebagaimana mestinya, titik,
-    garis dan berbagai bentuk yang Andabuat akan berubah warna atau
-    memunculkan simbol. Ini karena Anda telah memberikan informasi
-    mengenai apa objek tersebut.
+Menggambar Peta Anda Sendiri
+----------------------------
 
-### Gambar Peta Anda Sendiri
-
-1.  Sekarang mari gambar sebuah peta untuk berlatih teknik-teknik yang
-    telah Anda pelajari. Anda dapat menggambar ulang peta yang telah
-    Anda buat ketika berada di awal Chapter 1.
-2.  Pindahkan tampilan peta menjauh dari peta contoh pada layar dengan
-    menggunakan klik kanan dan tahan pada mouse Anda, gerakkan mouse
-    Anda, dan temukan area kosong untuk menggambar peta.
-3.  Gunakan Draw Tool untuk menggambar titik, garis dan berbagai bentuk.
-    Deskripsikan apa saja objek-objek tersebut dengan memilihnya melalui
-    menu Presets.
-4.  Ketika selesai, Anda pun telah memiliki petaAnda sendiri, mirip
-    dengan contoh peta yang kita buka pada sample.osm
+*	Sekarang Anda akan membuat peta Anda sendiri untuk meningkatkan teknik-teknik yang telah 
+	kita pelajari. Anda bisa saja menggambar peta yang telah Anda buat di kertas ketika 
+	mempelajari bab sebelumnya.
+*	Tahan dan geser jendela dari peta contoh. Tahan tombol kanan dan geser mouse Anda hingga
+	Anda mendapatkan area kosong untuk Anda menggambar.
+*	Gunakan alat menggambar untuk membuat titik, garis dan poligon. Jelaskan objek apa yang 
+	Anda buat dengan memilih dari menu Preset.
+*	Ketika Anda sudah selesai, Anda akan memiliki peta Anda sendiri, yang sama dengan contoh
+	yang ada pada file sample.osm.
 
 Rangkuman
 ---------
 
 Excellent! Jika semua berjalan dengan baik, Anda telah mempelajari
-bagaiman melakukan setup atau pengaturan pada JOSM pada komputer Anda
+bagaiman melakukan pengaturan pada JOSM pada komputer Anda
 dan juga mengenai bagaimana menggunakan tools atau alat dasar dalam
-menggambar peta. Pada dua chapter berikutnya, Anda akan mempelajari
-bagaimana menggunakan GPS dan Walking Papers untuk memetakan daerah Anda
-sendiri. Pada Chapter 6, kitaakan kembali menggunakan JOSM dan
-memanfaatkan informasi yang telah kita kumpulkan, kita pun akan
-menambahkan berbagai objek pada OpenStreetMap.
-
+menggambar peta. Pada bab selanjutnya, Anda akan melihat lebih dekat 
+bagaimana proses mengedit peta OSM di JOSM.
 
 [JOSM website]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image00_josm-website.png
 [Windows installer]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image01_windows-installer.png
 [JOSM splash page]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image02_josm-splash-page.png
 [Preferences window]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image03_preferences-window.png
-[wms tms]: /images/bi/beginner/03_start-josm/bi_beg_ch3_image09.png
-[up down]: /images/bi/beginner/03_start-josm/bi_beg_ch3_image01.png
-[activate]: /images/bi/beginner/03_start-josm/bi_beg_ch3_image00.png
-[grid globe]: /images/bi/beginner/03_start-josm/bi_beg_ch3_image03.png
-[plugins]: /images/bi/beginner/03_start-josm/bi_beg_ch3_image02.png
 [Look and feel]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image04_look-and-feel.png
 [Open file]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image05_open-file.png
 [Sample file]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image06_sample-file.png
