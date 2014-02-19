@@ -202,28 +202,6 @@ Latihan Dasar Menggambar dengan JOSM
 	untuk mengakhiti poligon dengan mengklik dua kali di atas titik yang pertama kali 
 	kita buat.
 
-### Add Presets
-
-- Now we know how to draw points, lines and shapes, but we still
-  haven’t defined what they represent. We want to be able to say that
-  our points are shops, schools, or something else, and whether our
-  shapes are fields, buildings, or something else.
-- Click on the Select tool, in the column of buttons on the left.
-
-  ![Select tool][]
-
-- Select one of the objects that you drew with the Draw tool. On the
-  top menu, click “Presets”. Move your mouse through the sub-menu to
-  the type of location you would like to define.
-- When you click on a preset, a form will pop up asking you for more
-  information. You do not have to fill in every field, but you may
-  wish to add some of the important fields, such as the name of the
-  object.
-- When you are finished entering the information, click “Apply
-  Preset”. If everything went well, your point, line, or shape should
-  change colors or show a symbol. This is because you have defined
-  what it is.
-
 ### Cara Menambahkan Preset
 
 *	Sekarang kita memahami bagaimana menggambar titik, garis dan poligon, akan tetapi
