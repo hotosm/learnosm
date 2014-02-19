@@ -96,7 +96,11 @@ mari kita lihat antarmuka JOSM.
 
 ![JOSM layout][]
 
-Jendela utama Anda sudah akrab dengan 
+Jendela utama Anda sudah akrab dengan - jendela peta ini, dan dimana sebagian besar 
+aksi berlangsung. Disini Anda akan melihat, mengedit, dan menambahkan ke data 
+OpenStreetMap.
+
+Pada bagian kanan pada jendela peta 
 
 ### Tour of JOSM
 Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery,
