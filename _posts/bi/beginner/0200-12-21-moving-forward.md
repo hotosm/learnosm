@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Further Reading
-permalink: /en/beginner/moving-forward/
-lang: en
+permalink: /bi/beginner/moving-forward/
+lang: bi
 category: beginner
 ---
 

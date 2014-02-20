@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Field Papers
-permalink: /en/beginner/field-papers/
-lang: en
+permalink: /bi/beginner/field-papers/
+lang: bi
 category: beginner
 ---
 
