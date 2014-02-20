@@ -4,7 +4,6 @@ title: Editing OpenStreetMap dengan JOSM
 permalink: /bi/beginner/editing-with-josm/
 lang: bi
 category: beginner
-hidden: yes
 ---
 
 Editing OpenStreetMap dengan JOSM
