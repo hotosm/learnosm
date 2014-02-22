@@ -8,7 +8,7 @@ published: true
 ---
 
 Naučite se radu u JOSM-u
-=============================
+========================
 
 U ovom poglavlju ćemo naučiti korak po korak kako preuzeti i instalirati
 JOSM, Java OpenStreetMap editor. Promijeniti ćemo neke postavke
@@ -19,7 +19,7 @@ ponovo kreirajući tu kartu, ovaj puta digitalno. Nakon ovoga ćete dobro razumj
 kako crtati karte u JOSM-u.
 
 Preuzimanje JOSM softvera
--------------
+-------------------------
 
 - Ako imate primjerak JOSM-a na CD-u ili USB sticku, možete preskočiti na sljedeći dio, instaliranje JOSM-a.
 - Ako nemate JOSM ili ako želite najnoviju verziju, pokrenite svoj web preglednik (Firefox, Chrome, Opera ili Internet Explorer).
@@ -37,7 +37,7 @@ Preuzimanje JOSM softvera
 - Ako koristite drug operativni sustav, kliknite na link za njega. Preuzimanje bi trebalo započeti. U ovom poglavlju ćemo pretpostaviti da koristite Windows OS, ali upute su slične i za druge operativne sustave.
 
 Instaliranje JOSM-a
-------------
+-------------------
 
 >  Možda ćete imati problema instalirati JOSM ako Java već nije
 >  instalirana na vašem računalu. Ako imate problema u ovom dijelu, 
@@ -57,7 +57,7 @@ Instaliranje JOSM-a
   ![JOSM splash page][]
 
 JOSM Postavke
---------------------
+-------------
 
 Postoje mnoge postavke koje možete podesiti u JOSM-u.
 Jedna od postavki koju možda želite postaviti je jezik.
@@ -82,7 +82,7 @@ drugi.
   lijevom kutu. Pronađite JOSM i kliknite na njega da ga pokrenete.
 
 Naučite osnove crtanja u JOSM-u
------------------------------
+-------------------------------
 
 - Otvorimo primjer OSM datoteke koji ćemo koristiti na da naučimo
   osnovne načine crtanja karata JOSM softverom. Uočite da se ne radi o pravoj karti 
@@ -101,7 +101,7 @@ Naučite osnove crtanja u JOSM-u
 
 ### Osnovne funkcije
 
-- Za pomicanje karte gore, dolje, lijevo i desno držite desnu tipku miša i pomičite ga.
+- Za pomicanje karte gore, dolje, lijevo i desno držite desnu tipku miša i mičite ga.
 - Postoji nekoliko načina za približiti ili udaljiti kartu. Ako imate miša,
   možete koristiti kotačić za uvećavanje i umanjivanje. Ako koristite laptop i nemate miša
   možete kartu uvećati ili umanjiti koristeći mjerilo karte u gornjem lijevom kutu prozora s kartom.
@@ -115,7 +115,7 @@ Naučite osnove crtanja u JOSM-u
 
 ### Točke, Linije i oblici
 
-- Kako odabirete razne objekte na našoj karti za testiranje, primjetite da ona ima 
+- Kako odabirete razne objekte na našoj karti za testiranje, primijetite da ona ima 
   razne tipove objekata. Postoje točke, linije i oblici.
 - Točke predstavljaju pojedinačnu lokaciju, predstavljenu simbolima. Na karti imamo dvije točke,
   trgovina cipelama i supermarket. Trgovinu cipelama predstavlja simbol cipele, a supermarket predstavljaju
@@ -133,11 +133,11 @@ Naučite osnove crtanja u JOSM-u
 > **nodes**, linije se zovu **ways**. Oblik se zove **closed way**
 > jer se jednostavno radi o liniji koja završava u svome početku.
 
-- Možda ste primjetili da kada odaberete objekt, pojavi se popis 
+- Možda ste primijetili da kada odaberete objekt, pojavi se popis 
   desno od karte u prozoru naslova "Properties". Elemente liste nazivamo
   tagovi. Tagovi predstavljaju informacije koje se vežu uz točku, liniju ili oblik
   i koje objašnjavaju o čemu se radi. Više o tagovima ćemo naučiti u kasnijim poglavljima.
-  Za sada sve što trebate znati je da ove informacije pomažu da znamo je li naš objekat šuma, rijeka
+  Za sada sve što trebate znati je da ove informacije pomažu da znamo je li naš objekt šuma, rijeka
   građevina ili nešto drugo. 
 - Razmislite kako ručno nacrtati kartu i kako i tamo koristite 
   točke, linije i oblike. Koja druga mjesta je najbolje predstaviti s ova tri oblika? 
@@ -146,17 +146,17 @@ Naučite osnove crtanja u JOSM-u
 
 - Odaberite šumu na lijevoj strani karte. Kliknite na 
   liniju koja označava šumu a NE jednu od točaka na liniji. Sad 
-  držite lijevu tipku miša stisnutom i pomičite miš. Trebali biste 
+  držite lijevu tipku miša stisnutom i mičite miš. Trebali biste 
   ovime moći pomaknuti šumu na drugu lokaciju.
-- Kliknite na jednu od točaka na liniji koja uznačava šumu. Držite stisnutu lijevu tipku
-  i pomičite miša. Sada mičete točku. Ovako možete promjeniti oblik objekta 
+- Kliknite na jednu od točaka na liniji koja označava šumu. Držite stisnutu lijevu tipku
+  i mičite miša. Sada mičete točku. Ovako možete promijeniti oblik objekta 
   ili pomaknuti pojedine njegove točke.
 
 ### Crtanje
 
 - Na lijevoj strani JOSM prozora nalazi se kolumna tipki. Mnoge tipke 
   otvaraju prozore na desnoj strani programa koji daju više informacija
-  o karti. Najvašnije tipke su na samom vrhu kolumne. Ove tipke definiraju
+  o karti. Najvažnije tipke su na samom vrhu kolumne. Ove tipke definiraju
   što možete raditi s mišem. 
 - Najviše ćemo se služiti gornjim tipkama. Njih ćemo koristiti za odabir objekata
   i crtanje novih. 
@@ -170,15 +170,15 @@ Naučite osnove crtanja u JOSM-u
 
   ![Draw tool][]
 
-- Nađite prazno područje na karti i duplo klikite. Ovo će stvoriti jednu točku.
-- Ako želite nacrtati liniju, kliknite mišem jednom. Pomaknite miša i klikinite ponovo.
+- Nađite prazno područje na karti i duplo kliknite. Ovo će stvoriti jednu točku.
+- Ako želite nacrtati liniju, kliknite mišem jednom. Pomaknite miša i kliknite ponovo.
   Nastavite dok ne završite željenu liniju. Za završiti liniju, duplo kliknite.
 - Oblike crtate isto ako i linije, jedino oblik završavate da duplo kliknete na početnu
   točku linije.
 
 ### Dodajte unaprijed definirana objašnjenja
 
-- Sada uznamo kako crtati točke, linije i oblike, ali još nismo definirali
+- Sada znamo kako crtati točke, linije i oblike, ali još nismo definirali
   što oni predstavljaju. Želimo moći definirati da su naše točke trgovine, škole ili nešto
   drugo, te jesu li naši oblici polja, građevine ili nešto treće. 
 - Kliknite na alat za odabir u kolumni tipki na lijevoj strani.
@@ -186,27 +186,27 @@ Naučite osnove crtanja u JOSM-u
   ![Select tool][]
 
 - Odaberite jedan od objekata koji ste nacrtali alatom za crtanje. Iz menija s vrha ekrana 
-  odaberite “Presets”. Pomičite miša kroz podmenije dok ne nađete tip lokacije koju želite definirati.
+  odaberite “Presets”. Mičite miša kroz podmenije dok ne nađete tip lokacije koju želite definirati.
 - Kada kliknete na tip objekta, pojaviti će se formular koji će tražiti dodatne informacije.
   Ne trebate popuniti sva polja, ali možda ćete htjeti popuniti neka važna, kao ime objekta.
 - Kada ste završili unos podataka, odaberite “Apply
   Preset”. Ako je sve drugo dobro, vaša točka, linija ili oblik će promijeniti boju
-  ili pokazati simbol. To se dešava zato što ste definirali o kakvom objektu se radi.
+  ili pokazati simbol. To se događa zato što ste definirali o kakvom objektu se radi.
 
 Nacrtajte vlastitu kartu
------------------
+------------------------
 
 - Sada nacrtajmo kartu kako bismo izvježbali tehnike koje ste naučili.
   Bilo bi dobro da nacrtate kartu koju ste prije nacrtali ručno.
 - Pomaknite područje za kartu dalje od našeg primjera. Držite desnu tipku miša 
-  i pomičite miša dok ne dođete do praznog prostora na kojemu nesmetano možete crtati. 
+  i mičite miša dok ne dođete do praznog prostora na kojemu ne smetano možete crtati. 
 - Koristite alat za crtanje (Draw), za crtanje točaka, linija i oblika. 
   Opišite o kojim se objektima radi koristeći se menijem unaprijed definiranih definicija
   (Presets menu)
 - Kad ste završili, imate vlastitu kartu, sličnu karti sample.osm koju smo koristili kao primjer.
 
 Zaključak
--------
+---------
 
 Odlično! Ako je sve dobro prošlo, naučili ste kako postaviti JOSM 
 na vašem računalu, kao i osnovne alate za crtanje karata. U sljedeća dva poglavlja

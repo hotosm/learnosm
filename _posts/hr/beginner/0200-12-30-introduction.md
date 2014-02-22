@@ -7,67 +7,63 @@ category: beginner
 ---
 
 Uvod
-============
+====
 
-Informacija je moć. Sa dobrim informacijama i pravim razumjevanjem, pojedinci i zajednice mogu lakše poboljšati svoj život i donijeti bolje odluke o budućnosti.
-There are many people and organizations who make decisions that affect our lives. Good
-information allows these NGOs, governments and citizens to make better
-decisions, and hopefully make our lives better. Maps are a good way
-to convey information. 
+Informacija je moć. Sa dobrim informacijama i pravim razumijevanjem, pojedinci 
+i zajednice mogu lakše poboljšati svoj život i donijeti bolje odluke o budućnosti.
+Postoje mnogi ljudi i organizacije koje donose odluke i utječu na naš život.
+Dobre informacije dopuštaju tim organizacijama, vladama i građanima da donose bolje odluke, 
+i na taj način poboljšavaju naš život. Karte su dobar način za prijenos informacija.
 
 ![A village in Indonesia][]
 
-Karte su vizualni simboli svijeta. They can often 
-demonstrate an idea better than words. This in turn can help us
-answer important questions. Where is the closest school or hospital? Who
-has the least access to these facilities? Where is poverty the most
-problematic? Questions like these can often best be expressed with maps,
-and maps can help find solutions to these questions. 
+Karte su vizualni simboli svijeta. One često dati bolju sliku svijeta 
+nego riječi. To nam zauzvrat pomaže odgovoriti na bitna pitanja. 
+Gdje je najbliža škola ili bolnica? Tko ima najmanje pristupa tim institucijama?
+Gdje je siromaštvo najveći problem? Takva pitanja često mogu biti najbolje 
+odgovorena kartama, i karte mogu pomoći naći riješenje na ta pitanja.
 
-As an exercise, get a pen and paper and draw a map of your town or village. What are the
-most important things to include on the map? What is the most important
-information? Spend a few minutes making your map, and when you’re
-finished, think about why the information you included is important, and
-who it might be important to.
+Kao vježbu, uzmite papir i olovku i nacrtajte kartu svog grada ili sela.
+Koje su najvažnije stvari koje uključiti na karti?
+Koja je najvažnija informacija? Provedite nekoliko minuta crtajući svoju kartu, 
+kad završite razmislite zašto su informacije koje ste uključili važne, 
+te za kog bi mogle biti važne.
 
 ![Example of a hand-drawn map][]
 
-If your town is like most, you may have drawn some lines to represent
-roads, possibly a river or stream. Perhaps you added important buildings
-such as schools and offices, fields, or boundaries. Whatever you drew,
-you probably used symbols – a line to symbolize a road, a square to
-symbolize a building, and so on. Your map is a representation of what is
-on the ground.
+Ako je vaš grad kao većina, nacrtali ste nekoliko linija koje predstavljaju 
+ceste, moguće rijeku ili potok. Možda ste dodali važne zgrade kao škola 
+i uredi, polja ili granice. Što god nacrtali vjerojatno ste koristili 
+simbole - linije za ceste, kvadrati za građevine, i tako dalje.
+Vaša karta je reprezentacija onog što se nalazi na terenu.
 
 ![Examples of symbols][]
 
-Your map is informative. You might use a map like this to explain to
-someone where different places are, where problems are in your
-community, or merely to help someone find their way around. The use of
-your map is limited though. There is only one copy of the map and the
-way you drew it may make sense to you, but perhaps not to someone else
-who would have drawn their own map in a different way. Because your map
-is merely on paper, it is difficult to get that information to others.
-This is why making your map on a computer, in such a way that anyone can
-access it, can be much more valuable. 
+Vaša karta je informativna. Možete koristiti ovakvu kartu da bi nekom 
+objasnili gdje su razna mjesta, gdje su problemi u vašoj zajednici, 
+ili jednostavno da pomognete nekom da se snađe. Korištenje vaše karte 
+ima svoja ograničenja. Postoji samo jedna kopija i način kako ste ju 
+nacrtali možda ima smisla samo vama, ali ne i nekom drugom tko bi 
+kartu nacrtao na svoj način. Budući da je vaša karta na papiru, 
+teško je prenijeti te informacije drugima. Zato izrada vaše karte 
+na računalu, na način da joj svatko može pristupiti, može biti vrednija.
 
 ![Mapping on Computer][]
 
-OpenStreetMap is a tool for creating and sharing map information. 
-Anyone can contribute to OSM, and thousands of people add to the project 
-every day. Users draw maps on computers, rather than paper, but as we 
-will see in this guide, drawing a map on a computer is not all that 
-different from drawing on paper. We still draw lines to represent roads,
-fields, and anything else, and we still represent schools and hospitals 
-with symbols. The important thing is that OSM maps are saved on the 
-internet, and anyone can access them at any time, totally free.
+OpenStreetMap je alat za stvaranje i dijeljenje kartografskih informacija.
+Svatko može pridonijeti OSM sustavu, i tisuće ljudi pridonose projektu svaki dan.
+Korisnici crtaju karte na računalima, umjesto na papiru, ali kao što ćemo vidjeti 
+u ovim uputstvima, crtane karte na računalu nije toliko drugačije od crtanja na papiru.
+I dalje crtamo linije koje predstavljaju ceste, polja, i sve ostale stvari, 
+i dalje prikazujemo škole i bolnice simbolima. Važno je to da su OSM karte 
+spremljene na internetu, i svatko im može pristupiti u bilo koje vrijeme, 
+sasvim besplatno.
 
 ![Digital maps with OpenStreetMap][]
 
-We hope that you will find OpenStreetMap useful and interesting in your
-work. By following this guide, you should be able to quickly start
-making digital maps with OpenStreetMap.
-
+Nadamo se da će vam OpenStreetMap biti koristan i interesantan u vašem poslu.
+Sljedeći ova uputstva trebali bi biti u mogućnosti brzo početi stvarati 
+digitalne karte uz pomoć OpenStreetMap sustava.
 
 [A village in Indonesia]: /images/en/beginner/01_introduction/en_beg_01_introduction_image00_village-in-indonesia.png
 [Example of a hand-drawn map]: /images/en/beginner/01_introduction/en_beg_01_introduction_image01_hand-drawn-map.png
