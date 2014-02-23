@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: More about JOSM
+title: Više o JOSM
 permalink: /hr/beginner/more-about-josm/
 lang: hr
 category: beginner

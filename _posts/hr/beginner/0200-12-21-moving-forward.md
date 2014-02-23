@@ -22,38 +22,37 @@ Postoji puno informacija o OpenStreetMap na
 <!-- also more info on this site once it is prepared -->
 
 Mailing Liste
-------------
+-------------
 
 Najbolji način za spojiti se sa lokalnom OpenStreetMap zajednicom je preko lokalne mailing liste. Mnogi ljudi se prijave na mailing listu koristeći svoj mail. Kad se priključip listi možeš slati mailove grupi ako imaš pitanja ili ako želiš razgovarati o OpenStreetMap.
 
--   To sign up for your country's mailing list, open your internet
-    browser and go to
-    [lists.openstreetmap.org](http://lists.openstreetmap.org/).
+-   Za prijaviti se na mailing listu, otvori internet preglednik
+    i posjeti stranicu
+    [lists.openstreetmap.org](http://lists.openstreetmap.org/).    
+
 
 ![Mailing list][]
 
--   Scroll down the page to find the list associated with your country.
-    The country lists are named "Talk-lg", where lg represents the
-    country of that list. For example, "Talk-id" is the list for
-    Indonesia.
--   Click on the list you want to join.
--   Enter the following information in the boxes on this page:
+-   Skrolaj do dna stranice gdje ćeš naći listu za svoju državu.
+    Lista država je imenovana "Talk-lg", gdje lg predstavlja državu.
+    Na primjer "Talk-hr" je lista za Hrvatsku.
+-   Klikni na listu kojoj se želiš priključiti.
+-   Unesi sljedeće informacije u polja na toj stranici:
+    
+    -   svoju email adresu
+    -   svoje ime
+    -   novu lozinku
+    -   ponovi lozinku
 
-    -   your email address
-    -   your first name
-    -   a new password
-    -   repeat the password
-
--   When you are finished, click Subscribe.
--   Now you need to open your email, just as you did when you signed up
-    for OpenStreetMap. There will be a confirmation email
-    in your inbox from the mailing list.
--   Click on the confirmation link.
--   You should now be a member of the mailing list.
--   Now when you want to send a message to the list, you can send it to
-    [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org),
-    replacing "id" with the country for your list. You will also receive
-    emails when other members send a message to the list.
+-   Kad završiš, klikni Subscribe.
+-   Sad otvori svoj mail, kao što si napravio kad si se prijavio za 
+    OpenStreetMap. Imat ćeš mail potvrde sa liste u svom sandučiću.
+-   Klikni na link za potvrdu.
+-   Sad bi trebao biti član mailing liste.
+-   Sad kad želiš poslati poruku na listu možeš ju poslati na 
+    [talk-hr@openstreetmap.org](mailto:talk-hr@openstreetmap.org),
+    mjenjajući "hr" sa državom za tvoju listu. Također ćeš dobiti poruke 
+    ostalih članova koji pošalju poruku na listu.
 
 <!-- maybe expand and put this back later
 MapOSMatic

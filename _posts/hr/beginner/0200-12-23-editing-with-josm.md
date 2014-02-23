@@ -14,15 +14,14 @@ Naučili smo kako koristiti GPS i Field Papers za terensku izmjeru, i kako koris
 U ovom poglavlju vratiti ćemo se JOSM-u i pogledati nekoliko novih koncepata oje do sad nismo obradili. 
 
 JOSM Slojevi
------------
-If you've followed along so far, you may have noticed that we can add all sorts
-of different things into JOSM. We can download OSM data, add Bing satellite imagery,
-load GPS tracks and waypoints, and add Field Papers - all of which are displayed
-in the map window of JOSM.
+------------
+Ako si pratio do sad, primijetio si da možemo dodavati različite stvari u JOSM.
+Možemo preuzeti OSM podatke, dodati Bing satelitske snimke, učitati GPX tragove 
+i točke, te dodavati Field Papers - što je sve prikazano u glavnom JOSM prozoru.
 
-You may have also noticed that every time you add something new to JOSM, an additional
-item is added to the Layers panel on the right side of JOSM. Depending on what you have
-opened, your Layers panel may look something like this:
+Možda si također primijetio da svaki put kad dodaš nešto novo u JOSM, pojavi se dodatna 
+kategorija u prozoru sa slojevima s desne strane. Ovisno o tome što si otvorio, 
+tvoj prozor sa slojevima može izgledati ovako:
 
 ![Layers panel][]
 
@@ -176,15 +175,14 @@ changes later on.
     open the file again, simply open JOSM, go to the “File” menu, and
     click “Open...”
 
-Summary
+Sažetak
 -------
-In this chapter we looked a little bit closer at the JOSM interface and learned
-about layers and tags. You should now have a solid footing in how to map and how
-to edit OpenStreetMap.
+U ovom poglavlju detaljnije smo obradili JOSM i naučili o slojevima i oznakama.
+Sad bi trebao imati solidnu osnovu kako mapirati i kako uređivati OpenStreetMap.
 
-In the final section of this guide we will look at other resources you can learn from
-as you move forward. As you practice what you've learned here and explore further,
-you will get better and better at making maps with OSM.
+U završnom poglavlju ovog vodiča pogledati ćemo ostale izvore iz kojih možeš 
+učiti i napredovati. Kako prakticiraš što si naučio ovdje i istražuješ dalje,
+bit ćeš sve bolji u kreiranju karata sa OSM-om.
 
 
 [Layers panel]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image00_layers-panel.png
