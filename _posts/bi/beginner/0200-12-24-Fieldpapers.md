@@ -6,265 +6,267 @@ lang: bi
 category: beginner
 ---
 
-Surveying with Field Papers
-=============================
+Penggunaan Field Papers
+=======================
 
-In this chapter we will see how we can record the coordinates of places
-without a GPS. We will use a tool called [Field Papers](http://fieldpapers.org/), 
-which allows you to print a map of an area, draw on it and add notes, and load 
-the paper back into JOSM, where you can add your locations to OpenStreetMap.
+Pada bab ini kita akan melihat bagaimana kita dapat merekam koordinat suatu
+tempat tanpa menggunakan GPS. Kita akan menggunakan sebuah alat bernama
+[Field Papers](http://fieldpapers.org/), yang mana memungkinkan Anda untuk
+mencetak peta suatu wilayah, menggambar di dalamnya dan menambahkan catatan,
+dan membuka kertas tersebut di dalam JOSM, dimana Anda dapat menambahkan
+lokasi Anda ke OpenStreetMap.
 
-Overview of Field Papers
---------------------------
+Gambaran tentang Field Papers
+-----------------------------
 
-Before we go into detail about Field Papers, let's look at an
-overview of how the process works:
+Sebelum kita mempelajari lebih jauh tentang Field Papers, mari kita lihat
+gambaran bagaimana Filed Papers bekerja:
 
-1. Locate the area you want to map on the Field Papers
-website. Print out a map of this area. You can choose to print the
-current map of the area on OpenStreetMap, or you can choose to print
-aerial imagery, if it is available in your area.
+1. Carilah wilayah yang Anda ingin petakan di dalam situs OpenStreetMap. 
+Buatlah peta untuk wilayah itu. Anda dapat memilih untuk mencetak peta tersebut
+dengan latar belakang OpenStreetMap atau Anda dapat mencetak dengan latar 
+belakang citra satelit, jika citra tersebut tersedia di wilayah Anda.
 
 ![field papers homepage][]
 
-2. Use your printed map to survey the area. Add more places by
-drawing them on the map. Draw lines for roads, shapes for buildings, and
-so forth. Write notes about each location directly on the map, or write
-numbers on the map that relate to numbers in your notebook, where you
-can write more detailed information about each object.
+2. Gunakan Field Papers yang telah dicetak untuk melakukan survey pada wilayah
+Anda. Tambahkan lebih banyak tempat dengan menggambarnya di atas peta. 
+Gambarlah garis untuk jalan, poligon untuk bangunan, dan seterusnya. Menulis
+catatan setiap lokasi secara langsung pada peta, atau menulis angka pada peta 
+untuk menghubungkan gambar dengan kode pada catatan, dimana Anda dapat menulis
+informasinya lebih rinci pada setiap objeknya.
 
 ![paper example][]
 
-3. Scan your paper into the computer. If you don't have a
-scanner, you can take a photograph of the paper, if your camera is able
-to take high quality pictures. Upload the image to the Field Papers
-website.
+3. Scan Field Papers Anda ke dalam komputer. Jika Anda tidak memiliki sebuah
+scanner, Anda dapat mengambil foto Field Papers tersebut, jika kamera Anda 
+dapat mengambil gambar dengan resolusi tinggi. Upload gambar ke situs Field Papers.
 
-4. In JOSM, load the Field Papers.  Use the objects you draw as
-a reference to add them digitally into OpenStreetMap.
+4. Pada JOSM, tambahkan Field Papers. Gunakan objek yang telah Anda gambar sebagai
+acuan untuk menambahkan objek-objek tersebut menjadi peta digital ke dalam OpenStreetMap. 
 
 ![fieldpaperjosm][]
 
-How does Field Papers work?
------------------------------
+Bagaimana Field Papers Bekerja?
+-------------------------------
 
-If you follow the Field Papers process described above, you will be
-collecting accurate geographic coordinates of places with nothing more
-than paper. How is this possible?
+Jika Anda mengikuti bagaimana cara kerja Field Papers, sebagaimana dijelaskan di atas,
+Anda akan mengumpulkan koordinat geografis dari suatu tempat dengan akurat hanya dengan 
+menggunakan kertas. Bagaimana mungkin?
 
 ![paper QR code][]
 
-When you print a Field Paper, the paper comes with a square barcode on
-the bottom of the page. This bar code allows Field Papers to determine
-the exact location of the map that you are using to survey. Later, when
-you load the paper back into JOSM, all the objects that you drew will be
-shown in their actual locations. It's like using a GPS to collect precise
-coordinates, except all you need is paper!
+Ketika Anda mencetak sebuah Field Paper, kertas tersebut dengan sebuah barcode di bagian
+bawah halaman. Barcode ini memungkinkan Field Papers menentukan lokasi yang akurat dari
+peta yang Anda gunakan untuk melakukan survey. Selanjutnya, ketika Anda menambahkan Field
+Papers ke dalam JOSM, semua objek yang Anda gambar akan ditampilkan pada lokasi sebenarnya.
+Hal ini seperti menggunakan GPS untuk mengumpulkan koordinat yang tepat, kecuali semua
+yang Anda butuhkan adalah kertas!
 
-Now let's learn how to create and use Field Papers.
+Sekarang mari belajar bagaimana membuat dan menggunakan Field Papers.
 
-Create and Print
-----------------
+Membuat dan Mencetak Field Papers
+---------------------------------
 
--   Open your web browser. In the address bar at the top of the window,
-    enter the following text and press Enter:
-    [fieldpapers.org](http://fieldpapers.org)
--   The website should look something like this:
+*	Buka browser internet Anda. Pada kolom alamat situs di bagian atas jendela,
+	masukan teks berikut dan tekan Enter:
+	[fieldpapers.org](http://fieldpapers.org)
+*	Situs seharusnya terlihat seperti ini:
 
-![field papers homepage][]
+	![field papers homepage][]
 
--   Click **Make yourself an Atlas** to select the area you want to print out.
+*	Klik **Make yourself an Atlas** untuk memilih wilayah yang ingin Anda cetak.
 
-![makeatlas][]
+	![makeatlas][]
 	
--   You will be directed to this page:
+*	Anda akan diarahkan ke halaman ini:
+
+	![atlas][]
 	
-![atlas][]
+*	Ketikan nama wilayah yang ingin Anda petakan pada kolom yang tersedia. 
+	Kemudian klik "Start there". 
+*	Peta yang Anda lihat menunjukkan wilayah yang akan Anda cetak petanya.
+	Anda dapat menggeser peta dengan cara yang sama ketika Anda menggeser 
+	peta pada situs OpenStreetMap, menggunakan tombol kiri mouse Anda untuk
+	menggeser peta, dan roda gulir Anda untuk memperbesar dan memperkecil.
+	Klik kiri pada tombol (+) dan (-) di pojok kiri atas juga berfungsi untuk 
+	memperbesar dan memperkecil peta.
+
+	![zoominout][]
+
+*	Tepat di atas peta Anda terdapat beberapa pilihan tambahan. Pilihan pertama adalah
+	untuk memilih orientasi kertas yang Anda ingin gunakan untuk mencetak Field Paper.
+	Anda boleh memilih salah satu yaitu portrait atau landscape. 
 	
--	Type the name of your area of interest in the space provided. Then
-    click "Start there".
-
--   The map that you see shows the area that you would like to print on
-    paper. You can move the map the same way you move the map on the
-    OpenStreetMap website, using your left mouse button to drag the map,
-    and your scroll wheel to zoom in and out.
-    Left-clicking on the (+) and (–) buttons in the upper left corner will
-    also zoom in and out.
+	![choosetile][]
 	
-![zoominout][]
+*	Pilihan selanjutnya yaitu Anda memilih jenis data yang ingin Anda gunakan untuk
+	Field Paper Anda. Disini Anda dapat memilih dari pilihan yang berbeda yang akan
+	mengubah tampilan peta. Untuk sekarang, kita akan memilih **Black and White**.
 	
--   Just above the map are some additional options. The first option is
-    to select the orientation of the paper you want to use for printing the
-	Field Paper. You may choose either portrait or landscape.
+	![blackandwhite][]
 	
-![choosetile][]
+*	Anda ingin memastikan bahwa jendela menampilkan wilayah yang Anda ingin dipetakan.
+	Anda dapat menggunakan pengontrol di jendela peta untuk mengubah ukuran halaman
+	Field Paper Anda, atau lebih banyak atau lebih sedikit halaman. Pastikan bahwa
+	kertas Anda menjangkau wilayah yang cukup kecil, atau mereka tidak terlalu 
+	luas berguna untuk Anda berjalan. Jika Anda membuat kesalahan pertama kali, jangan
+	khawatir, Anda dapat membuat sebanyak kertas yang Anda butuhkan.
+*	Mari mencetak sekarang! Jika Anda telah menemukan wilayah yang Anda ingin petakan dan 
+	telah memilih pilihan yang membuat kertas Anda terlihat baik. Klik tombol berlabel
+	"Next", disebelah kotak daftar pilihan.
 	
--   The next option lets you select the kind of data you want to use
-    for your Field Paper. Here you can select from different options
-	that will change how the map looks. For now, we will select
-	**Black and White**.
-
-![blackandwhite][]
+	![labelnext][]
 	
--   You want to make sure that the window shows the area that you want to
-    map. You can use the controls in the map window to resize the pages of
-    your Field Paper, or to more or fewer pages. Be sure that you papers cover
-    a reasonably small area, or they won't be of much use when you are walking
-    around. If you make mistakes the first time, don't worry, you can create
-    as many papers as you need.
--   Let's make the print now! If you have found the area you are
-    interested in mapping and have selected the options that make your
-    paper look good, you are ready. Click the button labelled "Next",
-    next to the dropdown box.
+*	Beri sebuah nama untuk Field Paper Anda. Jika Anda suka, Anda dapat menambahkan teks yang
+	akan muncul pada setiap Field Paper yang akan dicetak.
 	
-![labelnext][]
+	![name][]
 	
--	Provide a name for the paper. If you like, you can add text which will appear
-    on each paper that is printed.
-
-![name][]
+*	Pilihan selanjutnya yaitu memilih layout. Terdapat tiga piliha layout. Anda boleh 
+	menambahkan sebuah grid UTM untuk setiap peta jika Anda ingin. Dalam kebanyakan kasus,
+	Anda dapat memilih "Maps Only", yang sudah dipilih secara standar.
 	
--	The next option lets you select a layout. It comes with three options.
-	You may add a UTM grid overlay to each map if you want to. In most cases,
-    you can select "Maps Only," which is already selected by default.
+	![layout][]
 	
-![layout][]
+*	Klik "Finished!"
+*	Anda akan melihat bahwa Field Paper Anda dalam proses mencetak. Ketika telah selesai,
+	Anda akan melihat Field Paper Anda pada halaman ini. Biasanya hanya menunggu beberapa
+	menit untuk mencetak, tergantung berapa banyak halaman yang Anda buat.
 	
--   Click "Finished!"
--   You will see that your new print is being
-    processed. When it is finished, you will see your Field Paper on this
-    page. It usually only take a few minutes for a print to be ready, depending
-    on how many pages you are creating.
+	![preparing your atlas][]
 
-![preparing your atlas][]
-
--   When your print is ready, click "Download map PDF for print". The
-    Field Paper should begin downloading.
+*	Ketika Fied Paper Anda tercetak, klik "Download map PDF for print". Field Paper mulai
+	mendownload.
 	
-![downloadpdf][]
+	![downloadpdf][]
 	
--   When the download is finished, open the PDF file. Connect your
-    computer to a printer and print the page. If everything goes well,
-    you should now have your map printed on paper.
-
-Map with Field Papers
------------------------
-
--   Take your Field Paper outside, and use it as a guide to walk and
-    identify new places that are not on the map.
--   Draw lines for roads, shapes for buildings, and so forth. Write
-    notes about each location directly on the map, or write numbers on
-    the map that relate to numbers in your notebook, where you can write
-    more detailed information about each object.
--   When you are satisfied with your additions on the paper map, then
-    you can add them digitally into OpenStreetMap.
-
-Scan and Upload
----------------
-
--   Field Papers are very useful for mapping with nothing more than
-    paper, but they are not 100% magic. We will still need to add our
-    paper into JOSM, add our information digitally, and save our changes
-    on OpenStreetMap.
--   The first step is to scan your Field Papers into your computer. You
-    can do this by attaching a scanner to your computer, scanning the
-    paper, and saving it as an image file. If you don't have a scanner,
-    you can take a photograph of the paper, but you should be careful
-    to take a very good photo. Make sure that the paper is flat and your
-    camera is directly in front of it. Be sure to include the barcode in
-    the image, as Field Papers will not work without it. Here is an
-    example of a scanned/photographed image:
-
-
-![scrnsht][]
-
-
--   Once you have your Field Paper scanned and saved on the computer,
-    open your web browser and return to fieldpapers.org, just as
-    before.
--   Click on the "Upload" tab.
-
-![upload][]
+*	Ketika Field Paper Anda selesai mendownload, buka file PDF. Koneksikan komputer Anda
+	ke printer dan cetak halaman. Jika semuanya berjalan dengan baik, Anda sekarang telah
+	memiliki peta Anda yang tercetak di dalam Field Paper.
 	
--   Click "Choose File" and navigate to the file where you
-    scanned/photographed your Field Papers.
+Peta dengan Field Papers
+------------------------
+
+*	Bawalah Field Paper Anda keluar, dan gunakan sebagai panduan untuk berjalan dan 
+	identifikasi tempat baru yang tidak ada dalam peta.
+*	Gambarlah garis untuk jalan, poligon untuk bangunan, dan seterusnya. Menulis catatan
+	mengenai setiap lokasi secara langsung pada peta, atau menulis angka-angka pada peta
+	yang dihubungkan ke angka pada buku catatan Anda, dimana Anda dapat menulis informasi
+	lebih rinci di setiap objeknya.
+*	Apabila Anda puas dengan penambahan Anda pada peta kertas, kemudian Anda dapat 
+	menambahkan mereka secara digital ke dalam OpenStreetMap.
 	
-
-![uploadfp][]
-
-	
--   Click "Upload"
--   It may take a few minutes for your paper to upload, depending on the
-    speed of your internet connection. When the upload finishes, you will
-	see something like this:
-
-![paper upload 2][]
-
-Add the Field Papers Plugin
+Scan dan Upload Field Paper
 ---------------------------
--   Before we can open the Field Paper in JOSM, we need to install the
-    JOSM Field Papers plugin.
 
->   Plugins add additional functionality to JOSM. The Field Papers plugin
->   allows us to load our scanned paper as a background, the same way we
->   can see satellite imagery as a background.
-
-<!-- link to josm plugins section here -->
-
--   Open JOSM and go to Edit -> Preferences.
--   Click on the Plugins tab.
--   Find the Field Papers plugin and check the box next to it. Click OK.
-
-![field papers plugin][]
-
--   Restart JOSM.
-
-Open in JOSM
-------------
-
--   Now can load your Field Paper into JOSM and use it to add the
-    information you collected to OpenStreetMap. Return to the
-    Field Papers website, by typing
-    [fieldpapers.org](http://fieldpapers.org/) in your web
-    browser, just as before.
--   Click the "Watch" tab and then click "Snapshots."
--   Find your paper from the list, and click on it. You should see
-    something like this:
-
-![paper scanned][]
-
--   To load the paper into JOSM, we need to copy the snapshot ID of the Field
-    Papers you have scanned. In the URL bar at the top of your internet
-    browser, select the text and press CTRL+C on your keyboard to copy.
-    The text should look similar to this:
-    [http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098](http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098)
+*	Field Paper sangat berguna untuk pemetaan dengan tidak lebih dari kertas, tetapi 
+	mereka bukan 100% sihir. Kita akan tetap perlu menambahkan Field Paper kita ke dalam
+	JOSM, menambahkan informasi kita secara digital, dan menyimpan perubahan kita di
+	OpenStreetMap.
+*	Langkah pertama adalah men-scan Field Papers Anda ke dalam komputer Anda. Anda dapat
+	melakukan ini dengan memasang scanner ke komputer Anda, men-scan kertas, dan menyimpannya
+	sebagai sebuah file gambar. Jika Anda tidak memiliki scanner, Anda dapat mengambil 
+	foto Field Paper, tetapi Anda harus berhati-hati agar foto yang diambil sangat baik.
+	Pastikan bahwa Field Paper rata dan kamera Anda secara langsung di depannya. Pastikan
+	untuk menyertakan barcode pada foto, Field Paper tidak akan bekerja tanpa barcode.
+	Di bawah ini terdapat contoh gambar yang telah di-scan/difoto:
 	
-![fieldpaperid][]
+	![scrnsht][]
 	
--   On the top menu of JOSM, Click "Field Papers". Then click "Scanned
-    Map..."
-	
-![scannedmap][]
-	
--   Press CTRL+V on your keyboard to paste the text that you copied from
-    the Field Papers website.
-	
-![fsnapshot][]
-	
--   Click OK.
--   If all went well, you should see your Field Paper load into JOSM.
-    In the next chapter, we will see how to add the places that you
-    mapped into OpenStreetMap.
+*	Setelah Anda memiliki Field Paper Anda yang telah discan dan disimpan di komputer,
+	bukalah browser internet Anda dan kembali ke situs fieldpapers.org, seperti sebelumnya.
+*	Klik pada tab "Upload".
 
-![fieldpaperjosm][]
+	![upload][]
+	
+*	Klik "Choose File" dan navigasikan ke file dimana Anda telah men-scan/mmefoto Field 
+	Papers Anda.
 
-You can also use your scanned Field Papers in other OSM online editors 
-such as iD or Potlatch2 by clicking the "Edit in iD" or "Edit in Potlatch"
-links in the scanned Field Papers page. 
+	![uploadfp][]
+	
+*	Klik "Upload"
+*	Ini akan menunggu beberapa menit untuk mengupload Field Paper Anda, tergantung pada
+	kecepatan koneksi internet Anda. Ketika upload telah selesai, Anda akan melihat
+	tampilan Anda seperti ini:
+	
+	![paper upload 2][]
+
+Menambahkan Plugin Field Papers
+-------------------------------
+
+*	Sebelum kita membuka Field Paper di JOSM, kita perlu menginstal plugin Field Paper
+	JOSM.
+	
+>	Plugin menambahkan tambahan secara fungsionalitas ke JOSM. Plugin Field Papers 
+>	memungkinkan kita untuk membuka Field Paper kita yang telah discan sebagai 
+>	latar belakang, cara yang sama untuk melihat citra satelit sebagai latar belakang.
+
+*	Buka JOSM dan pergilah ke Edit -> Preferences.
+*	Klik pada tab Plugin.
+*	Cari plugin Field Papers dan centang kotak di sebelahnya. Klik OK.
+
+	![field papers plugin][]
+
+*	Restart JOSM.
+
+Membuka Field Papers di JOSM
+----------------------------
+
+*	Sekarang Anda dapat membuka Field Paper Anda di dalam JOSM dan digunakan untuk
+	menambah informasi yang telah Anda kumpulkan ke OpenStreetMap. Kembali ke situs
+	Field Papers, dengan mengetikkan [fieldpapers.org](http://fieldpapers.org/) 
+	pada browser internet, seperti sebelumnya. 
+*	Klik tab "Watch" dan kemudian klik "Snapshots".
+*	Carilah Field Paper Anda dari daftar, dan klik. Anda akan melihat tampilan seperti ini:
+
+	![paper scanned][]
+
+*	Untuk membuka Field Paper di dalam JOSM, kita perlu menyalin foto ID dari Field Papers 
+	telah Anda scan. Pada kolom URL di bagian atas browser internet Anda, pilih teks dan
+	tekan CTRL+C pada keyboard Anda untuk menyalin. Teks harus terlihat sama seperti ini:
+	[http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098](http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098)
+
+	![fieldpaperid][]
+	
+*	Pada bagian menu atas JOSM, klik "Field Papers". Kemudian klik "Scanned Map..."
+
+	![scannedmap][]
+	
+*	Tekan CTRL+V pada keyboard Anda untuk paste teks yang Anda telah di-copy dari situs
+	Field Papers. 
+	
+	![fsnapshot][]
+	
+*	Klik OK.
+*	Jika semuanya berjalan dengan baik, Anda seharusnya melihat Field Paper Anda terbuka
+	di dalam JOSM. Pada bab selanjutnya, kita akan melihat bagaimana cara menambah tempat
+	yang Anda petakan di OpenStreetMap.
+	
+	![fieldpaperjosm][]
+
+Anda juga dapat menggunakan Field Paper yang telah Anda scan pada editor online OSM yang lain
+seperti iD atau Potlatch2 dengan mengklik tautan "Edit in iD" atau "Edit in Potlatch" di
+halaman Field Papers yang telah discan.
 
 ![editinidorpot][]
 
 ![paper in id][]
+	
+Ulangi!
+-------
+
+*	Setelah Anda menambah perubahan Anda ke OSM, mereka akan tersimpan ke dalam peta. Kemudian
+	pada saat Anda ingin meningkatkan informasi peta, Anda dapat mencetak sebuah Field Paper
+	yang mencakup perubahan yang Anda buat. Proses ini diulang, peta akan menjadi lebih baik
+	dan lebih baik lagi, semakin banyak Anda memetakan!
+	
+Ringkasan
+---------
+
+Selamat ! Pada bab ini Anda telah mempelajari proses menggunakan Field Papers dan bagaimana
+mereka bekerja. Anda telah mempelajari bagaimana mencetak, memetakan, dan men-scan sebuah
+Field Paper, dan bagaimana Anda dapat menggunakan mereka untuk meningkatkan OpenStreetMap.
 	
 Repeat!
 -------

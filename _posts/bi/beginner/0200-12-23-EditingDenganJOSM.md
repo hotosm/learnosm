@@ -9,33 +9,90 @@ category: beginner
 Editing OpenStreetMap dengan JOSM
 =================================
 
-Pada bab 3 Anda menginstal JOSM dan mulai menggambar objek point, garis,
-dan area/polygon Anda. Anda menambahkan preset pada objek-objek yang
-Anda gambara tersebut untuk memberikan informasi tentang objek itu
-sendiri. Dan akhirnya, Anda dapat menggambar peta nda pada JOSM.
+Sekarang kita telah memetakan blok bangunan dengan OpenStreetMap. Kita telah
+mempelajari bagaimana menggunakan GPS dan Field Papers untuk survey suatu 
+wilayah, dan bagaimana kita dapat menggunakan JOSM untuk mengedit titik, garis,
+dan poligon yang membentuk peta kita.
 
-Menggambar peta pada bab 3 ini merupakan latihan untuk mempelajari JOSM
-dan bagaimana menggambarkan suatu objek pada peta. Namun, peta kita
-belumlah akurat karena kita tidak memberikan lokasi yang benar. Pada dua
-bab sebelumnya, kita telah mempelajari dua tool, yaitu GPS dan  Walking
-Papers, yang mana memmungkinkan Anda untuk mengumpulkan data  lokasi
-secara aktual dari suatu tempat (Secara umum, GPS mendefinisikan lokasi
-Anda dalam rentang +/- 10 meter,  jadi lokasi yang didapat dengan GPS
-pun sebenarnya tidak terlalu akurat pula, apalagi jika Anda hanya
-mengambil satu waypoint).  Lokasi ini direpresentasikan (diwujudkan)
-dalam bentuk koordinat.
+Pada bab ini kita akan kembali sekali lagi ke JOSM dan melihat beberapa konsep
+baru yang belum kita bahas sejauh ini.
 
-Membuat peta sesungguhnya (yaitu peta dimana setiap titik, garis, dan
-area/polygon nya berada pada lokasi yang sesungguhnya) tidaklah berbeda
-dengan menggambar peta yang kita gambar pada bab 3. Tapi sekarang, kita
-akan menggunakan titik-titik dan track GPS serta Walking Papers kita
-untuk menggambar peta yang serupa pada lokasi-lokasi mereka yang
-sebenarnya di atas bumi ini.
+Layer JOSM
+----------
+Jika Anda telah mengikuti sejauh ini, Anda telah memperhatikan bahwa kita dapat 
+menambahkan berbagai jenis hal-hal yang berbeda di dalam JOSM. Kita dapat mendownload
+data OSM, menambahkan citra satelit Bing, membuka trek dan waypoint GPS, dan menambah
+Field Papers - semua yang telah ditampilkan di dalam jendela peta JOSM.
 
-Pada bab ini kta akan mempelajari bagaimana mengedit peta OpenStreetMap
-dan menambahkan update, perbaikan, serta koreksi dari kita. Kita akan
-mempelajari langkah-langkah dasar pemetaan dalam OSM:
+Anda mungkin telah memperhatikan bahwa setiap waktu Anda dapat menambahkan sesuatu yang 
+baru ke JOSM, tambahan item telah ditambahkan ke panel Layers pada sisi kanan JOSM.
+Tergantung pada apa yang telah Anda buka, panel Layers Anda mungkin terlihat seperti ini:
 
+![Layers panel][]
+
+Setiap item dalam daftar ini merupakan sumber data yang berbeda yang Anda telah buka pada
+jendela peta Anda. Pada contoh ini, "Data Layer 1" adalah data OpenStreetMap yang kita
+edit. "Field Papers" adalah layer yang telah dibuat ketika kita menambahkan Field Paper
+kita ke dalam JOSM.
+
+Jika Anda menambahkan citra satelit Bing, sebuah layer baru akan muncul di panel Layers 
+bernama "Bing Sat".
+
+Gagasan layer sering kali sulit dipahami. Cara yang terbaik untuk membayangkan ini adalah
+bahwa setiap layer seperti sepotong semi-transparan kertas, dan mereka semua ditumpuk 
+di bagian atas satu sama lain. Setiap potongan kertas memiliki jenis tertentu dari informasi
+mengenai itu, dan mereka dapat disusun kembali dengan cara apapun yang Anda suka.
+
+Layer-layer yang telah digunakan sebagai referensi, seperti citra satelit, trek GPS, dan
+Field Papers sering kali disebut "base layers". Layer data OSM adalah layer yang benar-benar
+Anda bekerja dengannya.
+	
+*	Untuk memindahkan sebuah layer, klik pada layer tersebut di panel Layer dan klik ke arah
+	atas atau bawah untuk memindahkannya.
+			
+	![Layers up down][]
+	
+*	Untuk menghilangkan sebuah layer, pilih layer dengan mouse Anda dan klik tombol Show/Hide:
+
+	![Layers show hide][]
+	
+*	Anda seharusnya melihat layer yang Anda telah pilih menghilang pada jendela peta.
+	Klik Show/Hide kembali, dan ini akan muncul kembali.
+*	Anda dapat menghapus sebuah layer dengan memilihnya dan menggunakan tombol *delete*:
+
+	![Layers delete][]
+
+*	Terakhir, ini penting untuk mengetahui bahwa Anda hanya dapat mengedit layer yang dianggap
+	*aktif* oleh JOSM. Jika Anda tidak dapat mengedit peta di dalam jendela peta Anda, ini 
+	mungkin karena Anda tidak memiliki layer yang aktif. Kebanyakan layer, seperti titik GPS,
+	Field Papers, dan citra satelit, tidak dapat diedit. Satu-satunya layer yang dapat diedit
+	adalah data dari OpenStreetMap, yang biasanya bernama "Data Layer 1".
+*	Untuk membuat layer aktif, pilihlah pada panel Layer, dan klik pada tombol Activate:
+
+	![Layers activate][]
+
+Menggunakan Data GPS dan Field Papers
+-------------------------------------
+Pada bab sebelumnya kita melihat bagaimana cara mengumpulkan data dengan sebuah GPS dan Field 
+Papers, dan bagaimana membukanya di dalam JOSM sebagai sebuah layer.
+
+Setelah Anda mensurvey dengan salah satu tool ini, Anda tetap perlu menambahkan informasi ke dalam
+OpenStreetMap secara digital. 
+
+Anda melakukan ini dengan proses yang sama yang telah Anda pelajari sebelumnya - **download, edit, simpan**.
+Perbedaannya adalah alih-alih hanya menggunakan citra satelit sebagai layer dasar, Anda juga dapat
+menggunakan data GPS Anda, Field Papers, catatan, atau kombinasi dari mereka semua.
+	
+*	Sebagai contoh, mari asumsikan Anda memiliki waypoint GPS Anda sebagai layer latar belakang di 
+	JOSM, Anda telah menyimpan sebuah waypoint pada GPS Anda dengan nama 030, dan Anda telah menulisnya
+	di dalam buku catatan Anda bahwa 030 adalah sebuah sekolah. Untuk menambahkan titik ini ke dalam
+	OpenStreetMap, Anda akan memilih alat menggambar, dan klik dua kali di bagian atas titik 030 pada
+	jendela peta Anda. Hal ini akan membuat sebuah titik. Kemudian pergi ke menu Preset, dan cari 
+	preset untuk sekolah. Masukan nama sekolah dan klik "Apply Preset". Lakukan hal yang sama untuk
+	menambahkan garis dan poligon. 
+
+	![GPS in JOSM][]
+	
 **Download** data peta terkini dari OSM
 
   Tour JOSM
