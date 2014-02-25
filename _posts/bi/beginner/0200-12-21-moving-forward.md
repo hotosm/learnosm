@@ -1,90 +1,90 @@
 ---
 layout: doc
-title: Further Reading
+title: Bacaan Lebih Lanjut
 permalink: /bi/beginner/moving-forward/
 lang: bi
 category: beginner
 ---
 
-Further Reading
-===============
+Bacaan Lebih Lanjut
+===================
 
-If you have made it this far, congratulations! You should have a good
-understanding now of how to make maps with OpenStreetMap. What else can
-you do with OSM? How can you learn more? How can you stay connected to
-the community of mappers?
+Jika Anda telah berhasil sejauh ini, selamat! Anda seharusnya telah memahami 
+dengan baik sekarang mengenai bagaimana membuat peta dengan OpenStreetMap.
+Apa yang dapat Anda lakukan dengan OSM? Bagaimana Anda mempelajarinya lebih
+lanjut? Bagaimana Anda dapat tetap terhubung dengan komunitas pembuat peta?
 
-Learn More
-----------
+Pelajari Lebih Lanjut
+---------------------
 
-There is a lot of information about OpenStreetMap available at
-[wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Here you can
-find information about other projects that are related to OpenStreetMap,
-and documents and tutorials that can help you learn more about OSM.
+Ada banyak informasi tentang OpenStreetMap tersedia di [wiki.openstreetmap.org](http://wiki.openstreetmap.org/).
+Disini Anda dapat menemukan informasi tentang proyek lain yang berhubungan
+dengan OpenStreetMap, serta dokumentasi dan tutorial yang dapat membantu
+Anda mempelajari lebih lanjut mengenai OSM.
 
 ![Wiki][]
 
-<!-- also more info on this site once it is prepared -->
+<!-- info lebih lanjut juga telah disediakan di situs ini -->
 
 Mailing List
 ------------
 
-The best way to get connected to the OpenStreetMap user community is to
-join your local mailing list. Many people sign up, using their email
-accounts to the OSM mailing list. Once you are on the list, you can send
-an email to the group if you have a question or want to talk about
-OpenStreetMap.
+Cara terbaik untuk terhubung ke komunitas pengguna OpenStreetMap 
+adalah bergabung dengan mailing list lokal Anda. Banyak orang mendaftar,
+menggunakan akun email mereka ke mailing list OSM. Setelah Anda berada 
+dalam daftar, Anda dapat mengirim email ke kelompok jika Anda memiliki
+pertanyaan atau ingin berbicara tentang OpenStreetMap.
 
--   To sign up for your country's mailing list, open your internet
-    browser and go to
-    [lists.openstreetmap.org](http://lists.openstreetmap.org/).
+*	Untuk mendaftar ke mailing list negara Anda, buka browser internet
+	Anda dan pergi ke 
+	[lists.openstreetmap.org](http://lists.openstreetmap.org/).
 
 ![Mailing list][]
+	
+*	Gulir ke bawah halaman untuk mencari daftar yang terkait dengan negara
+	Anda. Daftar negara yang dinamakan "Talk-lg", dimana lg mewakili
+	negara yang terdaftar. Sebagai contoh, "Talk-id" adalah daftar untuk
+	Indonesia.
+*	Klik pada daftar yang Anda ingin bergabung
+*	Masukkan informasi berikut pada kotak di halaman ini:
+	
+	-	Alamat email Anda
+	-	Nama depan Anda
+	-	Kata sandi baru
+	-	Ulangi kata sandi
 
--   Scroll down the page to find the list associated with your country.
-    The country lists are named "Talk-lg", where lg represents the
-    country of that list. For example, "Talk-id" is the list for
-    Indonesia.
--   Click on the list you want to join.
--   Enter the following information in the boxes on this page:
-
-    -   your email address
-    -   your first name
-    -   a new password
-    -   repeat the password
-
--   When you are finished, click Subscribe.
--   Now you need to open your email, just as you did when you signed up
-    for OpenStreetMap. There will be a confirmation email
-    in your inbox from the mailing list.
--   Click on the confirmation link.
--   You should now be a member of the mailing list.
--   Now when you want to send a message to the list, you can send it to
-    [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org),
-    replacing "id" with the country for your list. You will also receive
-    emails when other members send a message to the list.
-
+*	Ketika Anda telah selesai, klik Subscribe.
+*	Sekarang Anda perlu membuka email Anda, seperti yang Anda lakukan ketika
+	Anda mendaftarkan ke OpenStreetMap. Akan ada email konfirmasi di inbox
+	Anda dari mailing list.
+*	Klik pada tautan konfirmasi.
+*	Anda sekarang seharusnya menjadi anggota mailing list.
+*	Sekarang ketika Anda ingin mengirim sebuah pesan ke mailing list, Anda
+	dapat mengirimnya ke [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org),
+	menggantikan "id" dengan negara untuk daftar Anda. Anda akan juga menerima
+	email ketika anggota lain mengirim sebuah pesan ke mailing list.
+	
 <!-- maybe expand and put this back later
+
 MapOSMatic
 ----------
 
-One such project is called MapOSMatic, which you can access through your
-internet browser at [maposmatic.org](http://www.maposmatic.org/). This
-is a simple tool for printing a map of any area you choose. It will
-automatically create the map, along with a grid over the map, and an
-index of locations that are included in the area.
+Salah satu proyek yang dinamakan MapOSMatic, yang Anda dapat akses melalui browser
+inter di [maposmatic.org](http://www.maposmatic.org/). Ini merupakan sebuah tool
+sederhana untuk mencetak peta suatu wilayah yang Anda pilih. Ini akan secara 
+otomatis membuat peta, dengan sebuah grid di atas peta, dan sebuah indeks lokasi
+yang termasuk dalam wilayah.
 
 ![MapOSMatic][]
 -->
 
+Ringkasan
+---------
 
-Summary
--------
-
-These are some of the ways that you can use and stay connected with the
-OpenStreetMap community and learn more. We hope you'll continue
-exploring and learning more about OSM, and contribute to the project.
-Happy Mapping!
+Ini adalah beberapa cara yang Anda dapat gunakan dan tetap terhubung dengan
+komunitas OpenStreetMap dan pelajari lebih lanjut. Kita berharap Anda akan 
+terus mengeksplorasi dan mempelajari lebih lanjut tentang OSM, dan berkontribusi
+pada proyek. Happy Mapping!
 
 
 [MapOSMatic]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image00_maposmatic-homepage.png
