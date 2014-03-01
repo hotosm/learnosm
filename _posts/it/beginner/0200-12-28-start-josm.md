@@ -250,8 +250,8 @@ Disegna la tua mappa
 -  Quando avrai finito, dovresti avere la tua mappa, simile alla mappa
     di esempio aperta con sample.osm.
 
-Summary
--------
+Conclusioni
+-----------
 
 Eccellente! Se tutto è andato bene dovresti aver imparato come impostare
 JOSM sul tuo computer e ad usare gli strumenti di base per tracciare le

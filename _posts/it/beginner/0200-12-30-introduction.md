@@ -19,8 +19,7 @@ le nostre vite. Le mappe possono essere un buon modo per comunicare un’informa
 
 ![Un villaggio in Indonesia][]
 
- Le
-mappe sono simboli visuali del nostro mondo. Possono dimostrare un’idea
+Le mappe sono simboli visuali del nostro mondo. Possono dimostrare un’idea
 meglio delle parole. Questo può anche aiutare a rispondere a domande
 importanti. Dove sono la scuola o l’ospedale più vicini? Chi ha accesso
 minimo a questa infrastruttura? Dove la povertà rappresenta un problema?
