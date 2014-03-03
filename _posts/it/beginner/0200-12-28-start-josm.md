@@ -1,4 +1,4 @@
-﻿---
+---
 layout: doc
 title: Iniziare con JOSM
 permalink: /it/beginner/start-josm/
@@ -22,8 +22,7 @@ buona conoscenza di come disegnare mappe con JOSM.
 Scaricare JOSM
 --------------
 
--  Se hai una copia di JOSM su un CD o su una chiavetta USB, puoi
-    passare direttamente alla sezione successiva. 
+-  Se hai una copia di JOSM su un CD o su una chiavetta USB, puoi     passare direttamente alla sezione successiva. 
 -  Se non hai già JOSM o vuoi una versione aggiornata, apri il tuo
     browser - questo può essere Firefox, Chrome, Opera, or Internet
     Explorer.

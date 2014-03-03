@@ -1,4 +1,4 @@
-﻿---
+---
 layout: doc
 title: Ancora su JOSM
 permalink: /it/beginner/more-about-josm/
@@ -101,45 +101,24 @@ mostrato nella finestra "Selezione". Le informazioni sull'oggetto selezionato ap
 nella finestra "Etichette/Appartenenze", mentre il nome utente dell'autore sarà mostrato
 nella finestra "Autore". 
 
-
-  
-These panels can be opened or closed by clicking on the various buttons on
-lower left side of JOSM. Above these buttons in the upper right are tools which
-change what you can do with your mouse. You are already familiar with some of them,
-the Select tool and the Draw tool. Below them are tools which make it easier to
-zoom in, delete an object, draw a shape, or create a line that is parallel
-to another line.
+Questi pannelli possono essere aperti o chiusi cliccando sui vari bottoni presenti sul lato in basso a sinistra di JOSM.  Sopra questi bottoni, in alto a destra, ci sono degli strumenti che possono cambiare quello che puoi fare col mouse.  Avrai già familiarizzato con alcuni di essi: la selezione e il disegno.  Sotto di essi trovi strumenti per fare lo zoom, cancellare un oggetto, disegnare una forma o creare una linea parallela ad un'altra linea.
 
 
 Edit
 ----
-So we have completed step one of the editing process - Downloading. We have
-prepared JOSM with satellite imagery as a reference. The next step is to edit
-the map and add new items.
+Abbiamo così completato il primo passo del processo di editing: lo scarico dei dati.  Abbiamo anche aggiunto in JOSM le immagini satellitari come riferimento. Il passo successivo consiste nel modificare la mappa e aggiungere nuovi oggetti.
 
-Depending on the area that you chose to download, there may be a lot or very
-little existing map data. But notice that it is the same sort of data that we
-have seen previously - points, lines, and shapes that represent real-life locations.
+A seconda dell'area scaricata, possono esserci molti oggetti oppure molto pochi. Comunque sia, questi sono gli stessi tre tipi di dati visti in precedenza: punti, linee e aree che rappresentano i luoghi reali.
 
--	Use the techniques you have already learned to add a couple points to the map
-	of places that you know. If you see any mistakes, try to fix them.
--	You don't need to be too aggressive while you are learning. If you are unsure
-	about something it's better to leave it as it is.
--	If you want to move a point, line, or shape, use the
-    **select tool**. Click on an object and drag it where it
-    should be. This can be used to correct the location of items that
-    have been put in the wrong place.
+- usa le tecniche imparate in precedenza per aggiungere alcuni punti alla mappa in posti che conosci. Se vedi degli errori, prova a correggerli.
+- Non è necessario essere aggressivi in queste fasi: se non sei sicuro delle modifiche, lascia le cose come le trovi.
+- Se vuoi muovere un punto, una linea o un'area usa lo **strumento di selezione**.  Fai click su un oggetto e trascinalo nella sua nuova posizione. Questo sistema puo' essere usato per correggere la posizione di oggetti posizionati in maniera imprecisa.
 
 ![JOSM select tool][]
 
--  Use the **draw tool** to draw new points, lines, and shapes.
-    Describe these objects by selecting from the Presets menu, as you
-    did in the previous section. 
-
->	Never edit the map outside of the area you have downloaded. You
->	can see the rectangular area you have downloaded has a solid background,
->	while the area you have not downloaded has diagonal pinstriped lines.
->
+-  Usa lo **strumento di disegno** per disegnare nuovi punti, linee o forme. Aggiungi informazioni a questi oggetti utilizzando il menù "Preimpostazioni", come hai già fatto in precedenza.
+> Non editare mai la mappa al di fuori della zona scaricata.
+> Puoi vedere la zona scaricata come l'area rettangolare dallo sfondo uniforme, mentre l'area n on scaricata è evidenziata con linee oblique.
 >	![JOSM area downloaded][]
 
 Salva le modifiche
