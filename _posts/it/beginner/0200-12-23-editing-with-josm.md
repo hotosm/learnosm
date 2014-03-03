@@ -21,8 +21,15 @@ di Bing, un oggetto viene aggiunto nel pannello “Livelli” sul lato destro di
 
 ![Layers panel][]
 
+<<<<<<< HEAD
 Ogni oggetto rappresenta una differente origine dei dati che vedi nella finestra della mappa. In questo esempio, “Livello Dati 1” sono i dati di OpenStreetMap che stiamo editando. "Field Papers” è il livello creato quando abbiamo caricato i Field Paper in Josm.
 
+=======
+Ogni oggetto rappresenta una differente origine dei dati che vedi
+nella finestra della mappa. In questo esempio, “Livello Dati 
+1” sono i dati di OpenStreetMap che stiamo editando. “Field Papers” è il livello creato
+quando abbiamo caricato i Field Paper in Josm.
+>>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
 Se aggiungi l'immagine satellitare di Bing, apparirà un nuovo livello chiamato "Bing Sat".
 
 L'idea degli strati di informazione può sembrare di difficile comprensione. Un buon modo per immaginarlo è che ogni strato è come un foglio di carta semitrasparente, e tutti i fogli sono sovrapposti uno all'altro. Ogni foglio contiene un certo tipo di informazioni, che possono essere riorganizzate come preferisci.
@@ -33,7 +40,7 @@ I livelli utilizzati come riferimenti, come ad esempio le immagini satellitari, 
 - Per nascondere un livello, selezionarlo con il mouse e  cliccare sul pulsante Nascondi / Mostra:
 ![Layers show hide][]
 - Il livello che hai selezionato dovrebbe scomparire dalla finestra della mappa. Riclicca su Mosta/nascondi e riapparirà. 
-- È possibile rimuovere il livello selezionandolo e usando il testo elimina.
+- È possibile rimuovere il livello selezionandolo e usando il pulsante Elimina.
 ![Layers delete][]
 - Infine, bisogna sapere che è possibile modificare solo lo strato che JOSM considera attivo. Se non riesci a modificare la mappa nella tua finestra, probabilmente non è attivo il livello giusto. Non si possono modificare la maggior parte dei livelli, come i punti GPS, Field Paper e le immagini satellitari. Gli unici livelli modificabili sono i dati di OpenStreetMap, chiamati di solito "Livello Dati 1".  
 - Per rendere attivo un livello, selezionatelo nel pannello Livelli, quindi cliccate il pulsante Attiva. 
@@ -77,8 +84,14 @@ Se aggiungi o cambi dei tag, gli attributi dell'oggetto cambiano.
   (2) modifichi direttamente i tag  nella finestra Proprietà posta a destra.
 
 ### Errori frequenti: contrassegnare i nodi quando si desidera contrassegnare linee o poligoni 
+<<<<<<< HEAD
 Quando si modificano gli attributi di un punto, dovrai prima selezionare il punto e poi aggiungere i tag attraverso le Impostazioni predefinite del menu, oppure direttamente nel pannello Proprietà. Un errore comune si verifica quando si aggiungono attributi a una linea o una forma. Quando si seleziona l'oggetto, è importante che si selezionare la linea, e NON i punti che compongono la linea.
 Questo errore si verifica frequentemente perché si utilizza lo strumento di selezione JOSM per disegnare un riquadro  attorno a un oggetto, e in quesot modo si seleziona tutto, sia la linea **sia** i nodi, e i tag aggiunti si applicano anche ai nodi. Quando vuoi aggiungere i tag verifica di aver selezionato **solo** le righe.
+=======
+Quando si modificano gli attributi di un punto, dovrai prima selezionare il punto e poi aggiungere i tag attraverso le Impostazioni predefinite del menu, oppure direttamente 
+nel pannello Proprietà. Un errore comune si verifica quando si aggiungono attributi a una linea o una forma. Quando si seleziona l'oggetto, è importante selezionare la linea e NON i punti che compongono la linea.
+Questo errore si verifica frequentemente perché si utilizza lo strumento di selezione JOSM per disegnare un riquadro attorno a un oggetto, e in questo modo si seleziona tutto, sia la linea ** sia ** i nodi, e i tag aggiunti si applicano anche ai nodi. Quando vuoi aggiungere i tag verifica di aver selezionato ** solo ** le righe.
+>>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
 ![Nodes mistake][]
 
 
@@ -90,7 +103,11 @@ Se lavori in una sola area, ogni volta che la vuoi modificare è buona norma che
 Anche se devi sempre scaricare i dati OSM quando li devi modificare, e caricare spesso le modifiche, potrebbe verificarsi il caso in cui si desidera salvare i dati OSM sul proprio computer. Ad esempio, se la connessione a internet è intermittente puoi preferire scaricare i dati, salvarli modificarli e poi caricare i cambiamenti fatti in un secondo tempo. 
 
 - Per salvare un file OSM, accertati che sia il livello attivo del pannello Livelli. Clicca su "File" nel menu in alto, e puoi salvare cliccando su "Salva". 
+<<<<<<< HEAD
 - Scegliere una posizione per il file e dargli un nome. Puoi anche salvare cliccando il pulsante:
+=======
+     Scegli una posizione per il file e dagli un nome. Puoi anche salvare cliccando il pulsante:
+>>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
      
 ![JOSM save button][]
 
@@ -99,7 +116,7 @@ Anche se devi sempre scaricare i dati OSM quando li devi modificare, e caricare 
 
 Conclusioni
 -----------
-In questo capitolo abbiamo guardato un po' più da vicino interfaccia JOSM e abbiamo imparato livelli e tag. Ora dovresti avere una base solida per mappare e modificare OpenStreetMap.
+In questo capitolo abbiamo guardato un po' più da vicino l'interfaccia di JOSM e abbiamo imparato livelli e tag. Ora dovresti avere una base solida per mappare e modificare OpenStreetMap.
 Nella parte finale di questa guida vedremo di analizzare altre risorse per fare un ulteriore passo avanti. Mentre metti in pratica quello che hai imparato fin qui ed esplori ulteriormente, costruirai con OSM mappe sempre migliori.
 
 [Layers panel]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image00_layers-panel.png

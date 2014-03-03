@@ -117,13 +117,13 @@ Altri strumenti di disegno
     e linee. Puoi trovarli nel menù “Strumenti”, in alto nella finestra.
 -  Devi innanzitutto selezionare un oggetto nella finestra della mappa
     per poi applicarci una delle funzioni. Le più utili sono:
--  Dividi percorso - Ti permette di dividere un linea in due segmenti
+-  Dividi percorso - Ti permette di dividere un linea in due segmenti
     separati. Ti sarà utile quando vorrai aggiungere differenti
     attributi a diverse parti di una strada. Per usare questa funzione,
     seleziona un punto al centro della linea che vuoi spezzare, poi
-    seleziona Dividi percorso dal menù strumenti e la linea si dividerà
+    seleziona Dividi percorso dal menù strumenti e la linea si dividerà
     in due segmenti.
--  Unisci percorso - Questo comando è l’opposto di Dividi percorso. Per
+-  Unisci percorso - Questo comando è l’opposto di Dividi percorso. Per
     unire due linee in una singola linea, queste devono condividere un
     solo punto. Per usare questa funzione, seleziona entrambe le linee
     tenendo premuto il tasto SHIFT e facendo clic su ogni linea. Fatto
@@ -132,14 +132,14 @@ Altri strumenti di disegno
     direzione di una linea. Se la tua linea rappresenta una strada a
     senso unico, potresti dover invertire la direzione. Negli altri casi
     la direzione non è influente.
--  Semplifica percorso - Se la linea ha troppi punti e desideri
+-  Semplifica percorso - Se la linea ha troppi punti e desideri
     semplificarla, questo comando rimuove alcuni punti dalla linea.
 -  Disponi i nodi in cerchio - Se stai cercando di disegnare un
     cerchio, fallo come meglio puoi e poi seleziona questa funzione. Ti
     aiuterà a sistemare i punti in cerchio.
 -  Disponi i nodi in linea - Questa funzione allinea una serie di
     punti.
--  Disponi ortogonalmente - Questa funzione è molto utile per disegnare
+-  Disponi ortogonalmente - Questa funzione è molto utile per disegnare
     costruzioni. Dopo che avrai disegnato una costruzione, questa
     funziona allinea i lati per ottenere angoli retti.
 
@@ -148,9 +148,9 @@ Tag
 
 -  Quando disegni un punto, una linea o un’area, la crei in un
     determinato luogo, ma non fornisci altre informazioni. In altre
-    parole, sappiamo dove è, ma non cosa è. Prima utilizzavamo gli
-    oggetti del menù “Preimpostazioni” per definire cosa è.
--  Il modo grazie al quale OpenStreetMap conosce cosa rappresenta un
+    parole, sappiamo dove è, ma non cosa è. Prima utilizzavamo gli
+    oggetti del menù “Preimpostazioni” per definire cosa è.
+-  Il modo grazie al quale OpenStreetMap conosce cosa rappresenta un
     oggetto è detto tag. Un tag è come un’etichetta che puoi mettere su
     un oggetto. Per esempio, se disegni un quadrato, è solo un quadrato.
     Ma se aggiungo differenti tag posso descrivere cosa rappresenta
@@ -189,7 +189,7 @@ Combinazioni di tasti
 -  a - strumento di disegno
 -  z - strumento di zoom
 -  + (segno più) - ingrandisci la visuale
--  - (segno meno) - riduci la visuale
+-  - (segno meno) - riduci la visuale
 -  p - spezza una linea
 -  c - unisci una linea
 -  o - allinea i punti in cerchio

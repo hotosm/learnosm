@@ -172,7 +172,7 @@ Fare una scansione e caricarla
 
 -  Una volta che il tuo Walking Paper è memorizzato nel tuo computer,
     apri il browser web e naviga nel sito
-    [walking-papers.org](http://walking-papers.org) come già fatto
+    [walking-papers.org](http://walking-papers.org) come già fatto
     prima..
 -  Fai clic su “Upload”.
 
@@ -206,7 +206,7 @@ Aprirlo in JOSM
 -  Quando il tuo file sarà stato analizzato, potrai caricarlo in JOSM
     ed utilizzarlo per aggiungere le informazioni contenute in
     OpenStreetMap. Ritorna al sito di Walking Papers scrivendo
-    [walking-papers.org](http://walking-papers.org) nel tuo browser,
+    [walking-papers.org](http://walking-papers.org) nel tuo browser,
     come già fatto in precedenza..
 -  Fai clic su “Scans”.
 -  Trova nella lista il tuo foglio e fai clic sopra di esso. Dovresti
@@ -223,7 +223,7 @@ Aprirlo in JOSM
 
 -  Ora avvia JOSM. Nel Capitolo 3 è spiegato come installare il plugin
     per i Walking Papers, necessario per visualizzare il tuo foglio. Se
-    non hai questo plugin installato, torna al Capitolo 3.4 per leggere
+    non hai questo plugin installato, torna al Capitolo 3.4 per leggere
     come fare.
 -  Nel menù principale di JOSM, seleziona “Walking Papers” e poi “Mappa
     scannerizzata...”

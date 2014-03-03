@@ -33,9 +33,9 @@ Scaricare i dati di OSM
 -----------------------
 Il primo passo è quello di scaricare i dati per quella porzione di mondo che vogliamo 
 migliorare.   Ricordati che dovrai fare questo ogni volta che intendi fare delle modifiche,
-perchè la mappa è aggiornata spesso anche da altri utenti. 
+perché la mappa è aggiornata spesso anche da altri utenti.
 
--	Fai click su “File” nel menù in alto a sinistra di JOSM e seleziona“Scarica da
+-	Fai click su “File” nel menù in alto a sinistra di JOSM e seleziona “Scarica da
     OSM”. Si aprirà la finestra di selezione. Puoi accedere a questa finestra più rapidamente
     premendo il bottone mostrato qui sotto:
 
@@ -127,7 +127,7 @@ Il terzo ed ultimo passo per completare le modifiche è quello di salvarle
 e caricarle su OpenStreetMap. Per caricarle devi essere connesso ad internet.
 
 -  Clicca “File” nel menù in alto e premi “Carica dati”. Questo aprirà
-    la finestra di upload. Puoi accedere alla finestra più
+    la finestra di upload. Puoi accedere alla finestra più
     semplicemente premendo il bottone di upload, mostrato di seguito:
 
 ![JOSM Upload Button][]
