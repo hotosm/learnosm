@@ -22,18 +22,9 @@ buona conoscenza di come disegnare mappe con JOSM.
 Scaricare JOSM
 --------------
 
-<<<<<<< HEAD
--  Se hai una copia di JOSM su un CD o su una chiavetta USB, puoi     passare direttamente alla sezione successiva. 
-=======
--  Se hai una copia di JOSM su un CD o su una chiavetta USB, puoi
-    passare direttamente alla sezione successiva.
-<<<<<<< HEAD
->>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
-=======
->>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
--  Se non hai già JOSM o vuoi una versione aggiornata, apri il tuo
-    browser - questo può essere Firefox, Chrome, Opera, or Internet
-    Explorer.
+- Se hai una copia di JOSM su un CD o su una chiavetta USB, puoi passare direttamente alla sezione successiva.
+
+- Se non hai già JOSM o vuoi una versione aggiornata, apri il tuo browser - questo può essere Firefox, Chrome, Opera, or Internet Explorer.
 -  Nel campo dell’indirizzo in alto nella finestra, inserisci il testo
     seguente e premi “Invio”:[josm.openstreetmap.de](http://josm.openstreetmap.de)
 -  Puoi trovare questo sito web cercando “JOSM” con un motore di
@@ -53,7 +44,7 @@ Scaricare JOSM
     Windows, ma le istruzioni fornite sono simili anche per gli altri
     sistemi operativi.
 
-Install JOSM
+Installare JOSM
 ------------
 
 >  Potresti avere problemi a installare JOSM se Java non è già

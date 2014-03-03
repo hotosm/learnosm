@@ -1,4 +1,4 @@
-﻿---
+---
 layout: doc
 title: Editing con JOSM
 permalink: /it/beginner/editing-with-josm/
@@ -21,15 +21,8 @@ di Bing, un oggetto viene aggiunto nel pannello “Livelli” sul lato destro di
 
 ![Layers panel][]
 
-<<<<<<< HEAD
 Ogni oggetto rappresenta una differente origine dei dati che vedi nella finestra della mappa. In questo esempio, “Livello Dati 1” sono i dati di OpenStreetMap che stiamo editando. "Field Papers” è il livello creato quando abbiamo caricato i Field Paper in Josm.
 
-=======
-Ogni oggetto rappresenta una differente origine dei dati che vedi
-nella finestra della mappa. In questo esempio, “Livello Dati 
-1” sono i dati di OpenStreetMap che stiamo editando. “Field Papers” è il livello creato
-quando abbiamo caricato i Field Paper in Josm.
->>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
 Se aggiungi l'immagine satellitare di Bing, apparirà un nuovo livello chiamato "Bing Sat".
 
 L'idea degli strati di informazione può sembrare di difficile comprensione. Un buon modo per immaginarlo è che ogni strato è come un foglio di carta semitrasparente, e tutti i fogli sono sovrapposti uno all'altro. Ogni foglio contiene un certo tipo di informazioni, che possono essere riorganizzate come preferisci.
@@ -84,17 +77,10 @@ Se aggiungi o cambi dei tag, gli attributi dell'oggetto cambiano.
   (2) modifichi direttamente i tag  nella finestra Proprietà posta a destra.
 
 ### Errori frequenti: contrassegnare i nodi quando si desidera contrassegnare linee o poligoni 
-<<<<<<< HEAD
+
 Quando si modificano gli attributi di un punto, dovrai prima selezionare il punto e poi aggiungere i tag attraverso le Impostazioni predefinite del menu, oppure direttamente nel pannello Proprietà. Un errore comune si verifica quando si aggiungono attributi a una linea o una forma. Quando si seleziona l'oggetto, è importante che si selezionare la linea, e NON i punti che compongono la linea.
 Questo errore si verifica frequentemente perché si utilizza lo strumento di selezione JOSM per disegnare un riquadro  attorno a un oggetto, e in quesot modo si seleziona tutto, sia la linea **sia** i nodi, e i tag aggiunti si applicano anche ai nodi. Quando vuoi aggiungere i tag verifica di aver selezionato **solo** le righe.
-=======
-Quando si modificano gli attributi di un punto, dovrai prima selezionare il punto e poi aggiungere i tag attraverso le Impostazioni predefinite del menu, oppure direttamente 
-nel pannello Proprietà. Un errore comune si verifica quando si aggiungono attributi a una linea o una forma. Quando si seleziona l'oggetto, è importante selezionare la linea e NON i punti che compongono la linea.
-Questo errore si verifica frequentemente perché si utilizza lo strumento di selezione JOSM per disegnare un riquadro attorno a un oggetto, e in questo modo si seleziona tutto, sia la linea ** sia ** i nodi, e i tag aggiunti si applicano anche ai nodi. Quando vuoi aggiungere i tag verifica di aver selezionato ** solo ** le righe.
-<<<<<<< HEAD
->>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
-=======
->>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
+
 ![Nodes mistake][]
 
 
@@ -106,15 +92,7 @@ Se lavori in una sola area, ogni volta che la vuoi modificare è buona norma che
 Anche se devi sempre scaricare i dati OSM quando li devi modificare, e caricare spesso le modifiche, potrebbe verificarsi il caso in cui si desidera salvare i dati OSM sul proprio computer. Ad esempio, se la connessione a internet è intermittente puoi preferire scaricare i dati, salvarli modificarli e poi caricare i cambiamenti fatti in un secondo tempo. 
 
 - Per salvare un file OSM, accertati che sia il livello attivo del pannello Livelli. Clicca su "File" nel menu in alto, e puoi salvare cliccando su "Salva". 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Scegliere una posizione per il file e dargli un nome. Puoi anche salvare cliccando il pulsante:
-=======
-     Scegli una posizione per il file e dagli un nome. Puoi anche salvare cliccando il pulsante:
->>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
-=======
-     Scegli una posizione per il file e dagli un nome. Puoi anche salvare cliccando il pulsante:
->>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
      
 ![JOSM save button][]
 
