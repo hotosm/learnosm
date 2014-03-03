@@ -40,7 +40,7 @@ aver disegnato strutture importanti come scuole o uffici, campi o
 confini. Qualsiasi cosa hai disegnato, probabilmente hai usato dei
 simboli: una linea per simboleggiare la strada, un rettangolo per una
 costruzione e così via. La tua mappa è la rappresentazione di ciò che
-esista sul territorio.
+esiste sul territorio.
 
 ![Esempi di simboli][]
 

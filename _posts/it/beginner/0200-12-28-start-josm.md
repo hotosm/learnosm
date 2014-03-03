@@ -24,7 +24,7 @@ Scaricare JOSM
 
 - Se hai una copia di JOSM su un CD o su una chiavetta USB, puoi passare direttamente alla sezione successiva.
 
-- Se non hai già JOSM o vuoi una versione aggiornata, apri il tuo browser - questo può essere Firefox, Chrome, Opera, or Internet Explorer.
+- Se non hai già JOSM o vuoi una versione aggiornata, apri il tuo browser - questo può essere Firefox, Chrome, Opera, o Internet Explorer.
 -  Nel campo dell’indirizzo in alto nella finestra, inserisci il testo
     seguente e premi “Invio”:[josm.openstreetmap.de](http://josm.openstreetmap.de)
 -  Puoi trovare questo sito web cercando “JOSM” con un motore di
@@ -45,7 +45,7 @@ Scaricare JOSM
     sistemi operativi.
 
 Installare JOSM
-------------
+---------------
 
 >  Potresti avere problemi a installare JOSM se Java non è già
 >  installato sul tuo computer. Se hai problemi, prova a scaricare e
@@ -152,7 +152,7 @@ Impara il disegno di base con JOSM
 
 > È facile pensare che una mappa possa contenere questi tre tipi fondamentali -
 > punti, linee e aree. In OpenStreetMap c'è una terminologia speciale che 
-> imparerai andando avanti. In OSM, i punti nsono detti 
+> imparerai andando avanti. In OSM, i punti sono detti
 > **nodi** e le linee **way**. Un'area è chiamata **way chiusa**
 > perché non è nient’altro che una linea che termina nello stesso punto in cui è iniziata.
 
@@ -194,7 +194,7 @@ Impara il disegno di base con JOSM
 
   ![Select tool][]
 
--  Prima di disegnare, assicurati che nulla sia selezionato. Fai click
+-  Prima di disegnare, assicurati che nulla sia selezionato. Fai clic
     su un punto nero della mappa, dove è vuota, per essere sicuro di non
     aver selezionato nulla.
 -  Fai clic sul secondo bottone, “Disegna”.
@@ -229,7 +229,7 @@ Impara il disegno di base con JOSM
     dovrai inserire alcune informazioni. Non è necessario compilare
     tutti i campi richiesti, ma almeno dovrai inserire alcune
     informazioni importanti, come il nome dell’oggetto.
--  quando avrai finito con l’inserimento delle informazioni, premi
+-  Quando avrai finito con l’inserimento delle informazioni, premi
     “Applica Preimpostazione”. Se tutto ha funzionato, il tuo punto,
     linea o area dovrebbe cambiare colore o mostrare un simbolo. Questo
     succede perché hai definito ciò che rappresenta.

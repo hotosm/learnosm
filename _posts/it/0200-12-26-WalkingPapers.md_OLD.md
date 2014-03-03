@@ -91,16 +91,16 @@ Creare e stampare
     trascinare la mappa e la rotellina del mouse per ingrandire o
     ridurre. Se fai clic sui pulsanti + o - in alto a sinistra, potrai
     ugualmente ingrandire o ridurre la mappa. Appena sopra la mappa c’è
-    un campo con vicino un bottone “Find”. Puoi utilizzarlo per cercare
+    un campo con vicino un bottone “Cerca”. Puoi utilizzarlo per cercare
     un luogo e far sì che la mappa si sposti in automatico sul luogo
     cercato. Prova a scrivere il nome del tuo paese o città in questo
-    campo e premi “Find”. Se Walking Papers troverà il posto, la mappa
+    campo e premi “Cerca”. Se Walking Papers troverà il posto, la mappa
     lo visualizzerà automaticamente.
 -  Appena sotto la mappa sono presenti alcune opzioni. La prima opzione
-    è “Orientation”. Questa opzione permette di cambiare la dimensione e
+    è “Orientamento”. Questa opzione permette di cambiare la dimensione e
     l’orientamento del foglio di carta su cui sarà stampata la mappa.
     Cambia l’impostazione scegliendo nel riquadro accanto a
-    “Orientation” il valore “Landscape (A4)”. Vedrai cambiare la forma
+    “Orientamento” il valore “Orizzontale (A4)”. Vedrai cambiare la forma
     e la dimensione della mappa, adatta per la stampa su foglio A4
     orizzontale.
 -  Fai clic sul menù a discesa vicino alla parola “Provider”. Potrai
@@ -118,11 +118,11 @@ Creare e stampare
     visualizzazione dell’intera Terra corrisponde a uno zoom level di 0.
     Il massimo ingrandimento possibile corrisponde ad un livello di zoom
     pari a 18. Il livello di zoom attuale è mostrato appena sopra la
-    mappa. Solitamente si usano livelli di zoom compresi tra il valori
+    mappa. Solitamente si usano livelli di zoom compresi tra i valori
     15 e 17.
 -  Ora passiamo alla stampa. Una volta individuata l’area di interesse
     e selezionate le opzioni, sei pronto per la stampa. Fai clic sul
-    bottone “Make”, appena sotto la mappa. Verrai indirizzato ad una
+    bottone “Crea”, appena sotto la mappa. Verrai indirizzato ad una
     nuova pagina dove un messaggio ti informerà che la tua richiesta è
     in lavorazione. Quando sarà pronta, vedrai la tua stampa disponibile
     in questa pagina. Solitamente il processo di generazione della
@@ -173,14 +173,14 @@ Fare una scansione e caricarla
 -  Una volta che il tuo Walking Paper è memorizzato nel tuo computer,
     apri il browser web e naviga nel sito
     [walking-papers.org](http://walking-papers.org) come già fatto
-    prima..
--  Fai clic su “Upload”.
+    prima.
+-  Fai clic su “Invio”.
 
   ![]({{site.baseurl}}/images/it_beg_ch5_image09.png)
 
--  Fai clic su “Browse...” e cerca il file in cui hai salvato il tuo
+-  Fai clic su “Scegli file...” e cerca il file in cui hai salvato il tuo
     Walking Paper.
--  Fai clic su “Send.”
+-  Fai clic su “Invia”.
 -  Ci vorranno pochi minuti affinché il tuo Walking Paper venga
     caricato, in base alla velocità di connessione a internet. A
     caricamento terminato, verrai reindirizzato ad una nuova pagina con
@@ -208,7 +208,7 @@ Aprirlo in JOSM
     OpenStreetMap. Ritorna al sito di Walking Papers scrivendo
     [walking-papers.org](http://walking-papers.org) nel tuo browser,
     come già fatto in precedenza..
--  Fai clic su “Scans”.
+-  Fai clic su “Scansioni”.
 -  Trova nella lista il tuo foglio e fai clic sopra di esso. Dovresti
     vedere una schermata simile a questa:
 
@@ -239,7 +239,7 @@ Ripetere!
 -  Dopo che avrai fatto le modifiche in JOSM, queste verranno salvate
     nella mappa. La prossima volta che vorrai arricchire la mappa non
     dovrai fare altro che stampare un nuovo Walking Paper che
-    raccoglierà altre informazioni. Finché il processo si ripeterà , la
+    raccoglierà altre informazioni. Finché il processo si ripeterà, la
     mappa migliorerà sempre più!
 
 Conclusioni

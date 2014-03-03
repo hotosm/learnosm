@@ -46,9 +46,9 @@ Una panoramica su JOSM
     linea. Sotto questi ci sono ulteriori pulsanti. Questi controllano
     cosa viene mostrato nella parte destra di JOSM. Usando questi
     pulsanti puoi aprire o chiudere pannelli a destra, come “Proprietà”,
-    “Selezione” o “Autore”.
+    “Selezioni” o “Autore”.
 
-i Livelli in JOSM
+I Livelli in JOSM
 -----------------
 
 -  Se non lo hai già fatto, apri il tuo file GPS o scarica dati da
@@ -66,7 +66,7 @@ i Livelli in JOSM
     Infine “Walking Papers” è il livello creato quando hai aggiunto i
     Walking Paper in JOSM. Puoi aggiungere il livello di immagini di
     Bing, che mostra foto satellitari, cliccando “Immagini aeree” nel
-    menù principale di JOSM e selezionando “Bing Sat.”
+    menù principale di JOSM e selezionando “Bing Sat”.
 -  Per nascondere uno di questi livelli, selezionalo col mouse e fai
     clic sul bottone Mostra/Nascondi simile a questo:
 
@@ -86,7 +86,7 @@ i Livelli in JOSM
     livelli, come i punti GPS, i Walking Paper o le immagini satellitari
     non possono essere modificati. I soli livelli modificabili sono
     quelli contenenti i dati scaricati da OpenStreetMap, che di solito
-    appaiono col nome di “Data Layer 1”.
+    appaiono col nome di “Livello dati 1”.
 -  Per attivare un livello, selezionalo nel riquadro dei livelli, poi
     fai clic sul bottone di attivazione:
 
@@ -141,7 +141,7 @@ Altri strumenti di disegno
     punti.
 -  Disponi ortogonalmente - Questa funzione è molto utile per disegnare
     costruzioni. Dopo che avrai disegnato una costruzione, questa
-    funziona allinea i lati per ottenere angoli retti.
+    funzione allinea i lati per ottenere angoli retti.
 
 Tag
 ---
@@ -194,7 +194,7 @@ Combinazioni di tasti
 -  c - unisci una linea
 -  o - allinea i punti in cerchio
 -  l - allinea i punti
--  q - Ortogonalizza (la forma assume tutti angoli di 90°)
+-  q - ortogonalizza (la forma assume tutti angoli di 90°)
 
 Conclusioni
 -----------

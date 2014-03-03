@@ -44,7 +44,7 @@ L'uso di dati Gps e Field Papers
 -------------------------------
 Nei capitoli precedenti abbiamo visto come raccogliere i dati con un GPS e con Field Papers, e come caricarli sotto forma di strato in JOSM. 
 Analizzati i dati con uno di questi strumenti, devi ancora aggiungere l'informazione digitale a OpenStreetMap. 
-A tale scopo, con lo stesso processo appreso in precedenza - **download, modificare, salvare**. La differenza è che invece di utilizzare come strato base solo immagini da satellite, puoi utilizzare anche i dati GPS, Field Papers, appunti, o una combinazione di tutti.
+A tale scopo, con lo stesso processo appreso in precedenza - **scarica, modifica, salva**. La differenza è che invece di utilizzare come strato base solo immagini da satellite, puoi utilizzare anche i dati GPS, Field Papers, appunti, o una combinazione di tutti.
 
 - Per esempio, supponiamo che tu abbia come sfondo in JOSM i  waypoint GPS, hai salvato un waypoint sul tuo GPS con il nome di 030, e nel tuo notes hai scritto che 030 è una scuola. A questo punto per aggiungere questo waypoint a OpenStreetMap, dovrai selezionare lo strumento di disegno, e nella finestra della mappa fare doppio clic sul punto 030. Questo procedimento creerà un punto. Poi vai al menu Impostazioni predefinite, e trova la preimpostazione per scuola. Immettere il nome della scuola e fare clic su "Applica Preimpostazione" e ripeti per aggiungere linee e forme.
 ![GPS in JOSM][]

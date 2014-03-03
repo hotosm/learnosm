@@ -35,14 +35,14 @@ Il primo passo è quello di scaricare i dati per quella porzione di mondo che vo
 migliorare.   Ricordati che dovrai fare questo ogni volta che intendi fare delle modifiche,
 perché la mappa è aggiornata spesso anche da altri utenti.
 
--	Fai click su “File” nel menù in alto a sinistra di JOSM e seleziona “Scarica da
+-	Fai clic su “File” nel menù in alto a sinistra di JOSM e seleziona “Scarica da
     OSM”. Si aprirà la finestra di selezione. Puoi accedere a questa finestra più rapidamente
     premendo il bottone mostrato qui sotto:
 
 ![JOSM Download Button][]
 
 -  Quando si apre la finestra di selezione, vedrai una mappa con un rettangolo rosa.
-   Se non vedi la mappa, fai click sul tab "Slippy map".
+   Se non vedi la mappa, fai clic sul tab "Slippy map".
 
 ![JOSM Download Dialog][]
 
@@ -75,13 +75,13 @@ mette a disposizione le proprie immagini per aiutare gli utenti di OSM a contrib
 "Immagini aeree" e poi scegli “Bing Sat”.
 
 >   Se non trovi "Bing Sat" nel menù, attivalo nelle preferenze di JOSM. 
->   Vai nel menù "Modifica" -> "Preferenze" e fai click sull'icona
+>   Vai nel menù "Modifica" -> "Preferenze" e fai clic sull'icona
 >   “WMS TMS”. Se non lo trovi prova a cliccare la freccia verso il basso.
 >
 >	![JOSM Preferences up down][]
 >	![JOSM Preferences WMS TMS][]
 >
->   Fai click su “Bing Sat” poi su “Attiva”.
+>   Fai clic su “Bing Sat” poi su “Attiva”.
 
 
 ### Tour di JOSM
@@ -112,13 +112,13 @@ A seconda dell'area scaricata, possono esserci molti oggetti oppure molto pochi.
 
 - usa le tecniche imparate in precedenza per aggiungere alcuni punti alla mappa in posti che conosci. Se vedi degli errori, prova a correggerli.
 - Non è necessario essere aggressivi in queste fasi: se non sei sicuro delle modifiche, lascia le cose come le trovi.
-- Se vuoi muovere un punto, una linea o un'area usa lo **strumento di selezione**.  Fai click su un oggetto e trascinalo nella sua nuova posizione. Questo sistema puo' essere usato per correggere la posizione di oggetti posizionati in maniera imprecisa.
+- Se vuoi muovere un punto, una linea o un'area usa lo **strumento di selezione**.  Fai clic su un oggetto e trascinalo nella sua nuova posizione. Questo sistema può essere usato per correggere la posizione di oggetti posizionati in maniera imprecisa.
 
 ![JOSM select tool][]
 
 -  Usa lo **strumento di disegno** per disegnare nuovi punti, linee o forme. Aggiungi informazioni a questi oggetti utilizzando il menù "Preimpostazioni", come hai già fatto in precedenza.
 > Non editare mai la mappa al di fuori della zona scaricata.
-> Puoi vedere la zona scaricata come l'area rettangolare dallo sfondo uniforme, mentre l'area n on scaricata è evidenziata con linee oblique.
+> Puoi vedere la zona scaricata come l'area rettangolare dallo sfondo uniforme, mentre l'area non scaricata è evidenziata con linee oblique.
 >	![JOSM area downloaded][]
 
 Salva le modifiche

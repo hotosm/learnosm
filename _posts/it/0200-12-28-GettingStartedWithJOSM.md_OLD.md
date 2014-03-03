@@ -24,7 +24,7 @@ Scaricare JOSM
 -  Se hai una copia di JOSM su un CD o su una chiavetta USB, puoi
     passare direttamente alla sezione 2. Installare JOSM.
 -  Se non hai già JOSM o vuoi una versione aggiornata, apri il tuo
-    browser - questo può essere Firefox, Chrome, Opera, or Internet
+    browser - questo può essere Firefox, Chrome, Opera, o Internet
     Explorer.
 
 -  Nel campo dell’indirizzo in alto nella finestra, inserisci il testo
@@ -116,7 +116,7 @@ Cambiare le impostazioni di JOSM
 
   ![]({{site.baseurl}}/images/it_beg_ch3_image11.png)
 
--  Dovresti vedere “Bing Sat” nell’elenco al di sotto del pulsate di
+-  Dovresti vedere “Bing Sat” nell’elenco al di sotto del pulsante di
     attivazione.
 -  Nel caso del territorio italiano, potrai effettuare lo stesso
     procedimento con le ortofoto del PCN.
@@ -157,8 +157,8 @@ Cambiare le impostazioni di JOSM
 
 ![]({{site.baseurl}}/images/it_beg_ch3_image03.png)
 
--  Fai clic sul bottone in basso chiamato “Scarica lista”. La lista su
-    scaricherà da internet e, quando sarà completa, ,vedrai apparire
+-  Fai clic sul bottone in basso chiamato “Scarica lista”. La lista si
+    scaricherà da internet e, quando sarà completa, vedrai apparire
     nella finestra un elenco di estensioni.
 -  Nel campo accanto alla parola “Cerca:”, scrivi “walking”. Verranno
     mostrate solo le estensioni che hanno la parola “walking” nel
@@ -276,7 +276,7 @@ scegliendo “Salva come...” scegliendo una posizione adatta.
 
     ![]({{site.baseurl}}/images/it_beg_ch3_image00.png)
 
--  Prima di disegnare, assicurati che nulla sia selezionato. Fai click
+-  Prima di disegnare, assicurati che nulla sia selezionato. Fai clic
     su un punto nero della mappa, dove è vuota, per essere sicuro di non
     aver selezionato nulla.
 -  Fai clic sul secondo bottone, “Disegna”.
@@ -310,7 +310,7 @@ scegliendo “Salva come...” scegliendo una posizione adatta.
     dovrai inserire alcune informazioni. Non è necessario compilare
     tutti i campi richiesti, ma almeno dovrai inserire alcune
     informazioni importanti, come il nome dell’oggetto.
--  quando avrai finito con l’inserimento delle informazioni, premi
+-  Quando avrai finito con l’inserimento delle informazioni, premi
     “Applica Preimpostazione”. Se tutto ha funzionato, il tuo punto,
     linea o area dovrebbe cambiare colore o mostrare un simbolo. Questo
     succede perché hai definito ciò che rappresenta.
