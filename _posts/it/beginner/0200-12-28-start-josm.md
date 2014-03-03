@@ -27,6 +27,9 @@ Scaricare JOSM
 =======
 -  Se hai una copia di JOSM su un CD o su una chiavetta USB, puoi
     passare direttamente alla sezione successiva.
+<<<<<<< HEAD
+>>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
+=======
 >>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
 -  Se non hai già JOSM o vuoi una versione aggiornata, apri il tuo
     browser - questo può essere Firefox, Chrome, Opera, or Internet

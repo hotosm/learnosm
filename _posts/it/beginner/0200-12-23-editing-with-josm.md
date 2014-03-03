@@ -91,6 +91,9 @@ Questo errore si verifica frequentemente perché si utilizza lo strumento di sel
 Quando si modificano gli attributi di un punto, dovrai prima selezionare il punto e poi aggiungere i tag attraverso le Impostazioni predefinite del menu, oppure direttamente 
 nel pannello Proprietà. Un errore comune si verifica quando si aggiungono attributi a una linea o una forma. Quando si seleziona l'oggetto, è importante selezionare la linea e NON i punti che compongono la linea.
 Questo errore si verifica frequentemente perché si utilizza lo strumento di selezione JOSM per disegnare un riquadro attorno a un oggetto, e in questo modo si seleziona tutto, sia la linea ** sia ** i nodi, e i tag aggiunti si applicano anche ai nodi. Quando vuoi aggiungere i tag verifica di aver selezionato ** solo ** le righe.
+<<<<<<< HEAD
+>>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
+=======
 >>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
 ![Nodes mistake][]
 
@@ -104,7 +107,11 @@ Anche se devi sempre scaricare i dati OSM quando li devi modificare, e caricare 
 
 - Per salvare un file OSM, accertati che sia il livello attivo del pannello Livelli. Clicca su "File" nel menu in alto, e puoi salvare cliccando su "Salva". 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Scegliere una posizione per il file e dargli un nome. Puoi anche salvare cliccando il pulsante:
+=======
+     Scegli una posizione per il file e dagli un nome. Puoi anche salvare cliccando il pulsante:
+>>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
 =======
      Scegli una posizione per il file e dagli un nome. Puoi anche salvare cliccando il pulsante:
 >>>>>>> 518bc28c3d5ab5874323482ce58ef4a94a90160e
