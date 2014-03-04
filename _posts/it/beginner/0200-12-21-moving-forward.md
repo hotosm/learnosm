@@ -66,4 +66,4 @@ imparare di piu' su OSM e contribuirai al progetto. Buona fortuna!
 
 
 [Wiki]: /images/it/beginner/08_moving-forward/it_beg_08_moving-forward_image01_osm-wiki.png
-[Mailing list]: /images/it/beginner/it_beg_08_image03.png
+[Mailing list]: /images/it/beginner/08_moving-forward/it_beg_08_image03.png
