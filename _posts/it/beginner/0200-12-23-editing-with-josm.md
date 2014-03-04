@@ -56,11 +56,13 @@ Quando disegni un punto, una linea o un’area, la crei in un determinato luogo,
 Il modo grazie al quale OpenStreetMap conosce **cosa** rappresenta un oggetto è detto **tag**. 
 Un tag è come un’etichetta che puoi mettere su un oggetto. Per esempio, se disegni un quadrato, è solo un quadrato.
 Ma se aggiungo differenti tag posso descrivere cosa rappresenta l’oggetto:
--  questo quadrato è un palazzo
--  il nome del palazzo è “Menara Thamrin”
--  il palazzo ha 16 piani
+
+ -  questo quadrato è un palazzo
+ -  il nome del palazzo è “Menara Thamrin”
+ -  il palazzo ha 16 piani
 
 Puoi aggiungere al tuo oggetto quanti tag vuoi. I tag sono salvati come una coppia di testo, chiamate chiavi e valori. In OpenStreetMap, i tags elencati sopra sono tradotti in:
+
 -  building = yes
 -  name = Menara Thamrin
 -  building:levels = 16
@@ -71,6 +73,7 @@ Se selezioni un oggetto in JOSM, potrai vedere tutte i tag associati ad esso, vi
 ### Modificare i tag
 Puoi aggiungere, modificare o cancellare questi tag da questo riquadro. I tag sono tradizionalmente in lingua inglese. È meglio quindi utilizzare gli oggetti del menù “Preimpostazioni”.
 Se aggiungi o cambi dei tag, gli attributi dell'oggetto cambiano.
+
 - Per modificare le etichette di un oggetto, in primo luogo selezionalo. 
 - Poi hai due modi per modificare i tag: 
   (1) Utilizzi il menu Impostazioni predefinite, o
