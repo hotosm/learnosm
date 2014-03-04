@@ -104,12 +104,12 @@ Conclusioni
 In questo capitolo abbiamo guardato un po' più da vicino l'interfaccia di JOSM e abbiamo imparato livelli e tag. Ora dovresti avere una base solida per mappare e modificare OpenStreetMap.
 Nella parte finale di questa guida vedremo di analizzare altre risorse per fare un ulteriore passo avanti. Mentre metti in pratica quello che hai imparato fin qui ed esplori ulteriormente, costruirai con OSM mappe sempre migliori.
 
-[Layers panel]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image00_layers-panel.png
-[Layers up down]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image01_layers-panel-up-down.png
-[Layers show hide]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image02_layers-panel-show-hide.png
-[Layers delete]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image03_layers-panel-delete.png
-[Layers activate]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image04_layers-panel-activate.png
-[GPS in JOSM]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image05_gps-layer.png
-[Properties panel]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image06_properties-panel.png
-[Nodes mistake]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image07_nodes-selected-mistake.png
-[JOSM save button]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image08_save-button.png
+[Layers panel]: /images/it/beginner/07_editing-with-josm/it_beg_07_editing-with-josm_image00_layers-panel.png
+[Layers up down]: /images/it/beginner/07_editing-with-josm/it_beg_07_editing-with-josm_image01_layers-panel-up-down.png
+[Layers show hide]: /images/it/beginner/07_editing-with-josm/it_beg_07_editing-with-josm_image02_layers-panel-show-hide.png
+[Layers delete]: /images/it/beginner/07_editing-with-josm/it_beg_07_editing-with-josm_image03_layers-panel-delete.png
+[Layers activate]: /images/it/beginner/07_editing-with-josm/it_beg_07_editing-with-josm_image04_layers-panel-activate.png
+[GPS in JOSM]: /images/it/beginner/07_editing-with-josm/it_beg_07_editing-with-josm_image05_gps-layer.png
+[Properties panel]: /images/it/beginner/07_editing-with-josm/it_beg_07_editing-with-josm_image06_properties-panel.png
+[Nodes mistake]: /images/it/beginner/07_editing-with-josm/it_beg_07_editing-with-josm_image07_nodes-selected-mistake.png
+[JOSM save button]: /images/it/beginner/07_editing-with-josm/it_beg_07_editing-with-josm_image08_save-button.png

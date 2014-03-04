@@ -1,4 +1,4 @@
----
+﻿---
 layout: doc
 title: Iniziare con JOSM
 permalink: /it/beginner/start-josm/
@@ -260,13 +260,13 @@ inserendo gli oggetti in OpenStreetMap.
 
 
 
-[JOSM website]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image00_josm-website.png
-[Windows installer]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image01_windows-installer.png
-[JOSM splash page]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image02_josm-splash-page.png
-[Preferences window]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image03_preferences-window.png
-[Look and feel]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image04_look-and-feel.png
-[Open file]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image05_open-file.png
-[Sample file]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image06_sample-file.png
-[Scale bar]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image07_scale-bar.png
-[Select tool]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image08_select-tool.png
-[Draw tool]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image09_draw-tool.png
+[JOSM website]: /images/it/beginner/03_start-josm/it_beg_03_start-josm_image00_josm-website.png
+[Windows installer]: /images/it/beginner/03_start-josm/it_beg_03_start-josm_image01_windows-installer.png
+[JOSM splash page]: /images/it/beginner/03_start-josm/it_beg_03_start-josm_image02_josm-splash-page.png
+[Preferences window]: /images/it/beginner/03_start-josm/it_beg_03_start-josm_image03_preferences-window.png
+[Look and feel]: /images/it/beginner/03_start-josm/it_beg_03_start-josm_image04_look-and-feel.png
+[Open file]: /images/it/beginner/03_start-josm/it_beg_03_start-josm_image05_open-file.png
+[Sample file]: /images/it/beginner/03_start-josm/it_beg_03_start-josm_image06_sample-file.png
+[Scale bar]: /images/it/beginner/03_start-josm/it_beg_03_start-josm_image07_scale-bar.png
+[Select tool]: /images/it/beginner/03_start-josm/it_beg_03_start-josm_image08_select-tool.png
+[Draw tool]: /images/it/beginner/03_start-josm/it_beg_03_start-josm_image09_draw-tool.png

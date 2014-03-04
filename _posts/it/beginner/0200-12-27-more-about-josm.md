@@ -1,4 +1,4 @@
----
+﻿---
 layout: doc
 title: Ancora su JOSM
 permalink: /it/beginner/more-about-josm/
@@ -182,13 +182,13 @@ Devi anche imparare a uscire e prendere informazioni sul campo.
 Nelle prossime sezioni impareremo due metodi - GPS and Field Papers - usati 
 per raccogliere dati geografici. Le informazioni raccolte potranno essere utilizzate per migliorare la mappa.
 
-[JOSM Download Button]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image00_download-button.png
-[JOSM Download Dialog]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image01_download-dialog.png
-[JOSM Preferences up down]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image02_preferences-up-down.png
-[JOSM Preferences WMS TMS]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image03_preferences-wms-tms.png
-[JOSM layout]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image04_layout.png
-[JOSM select tool]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image05_select-tool.png
-[JOSM area downloaded]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image06_area-downloaded.png
-[JOSM Upload Button]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image07_upload-button.png
-[JOSM Upload Dialog]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image08_upload-dialog.png
-[JOSM Authenticate]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image09_authenticate.png
+[JOSM Download Button]: /images/it/beginner/04_more-about-josm/it_beg_04_more-about-josm_image00_download-button.png
+[JOSM Download Dialog]: /images/it/beginner/04_more-about-josm/it_beg_04_more-about-josm_image01_download-dialog.png
+[JOSM Preferences up down]: /images/it/beginner/04_more-about-josm/it_beg_04_more-about-josm_image02_preferences-up-down.png
+[JOSM Preferences WMS TMS]: /images/it/beginner/04_more-about-josm/it_beg_04_more-about-josm_image03_preferences-wms-tms.png
+[JOSM layout]: /images/it/beginner/04_more-about-josm/it_beg_04_more-about-josm_image04_layout.png
+[JOSM select tool]: /images/it/beginner/04_more-about-josm/it_beg_04_more-about-josm_image05_select-tool.png
+[JOSM area downloaded]: /images/it/beginner/04_more-about-josm/it_beg_04_more-about-josm_image06_area-downloaded.png
+[JOSM Upload Button]: /images/it/beginner/04_more-about-josm/it_beg_04_more-about-josm_image07_upload-button.png
+[JOSM Upload Dialog]: /images/it/beginner/04_more-about-josm/it_beg_04_more-about-josm_image08_upload-dialog.png
+[JOSM Authenticate]: /images/it/beginner/04_more-about-josm/it_beg_04_more-about-josm_image09_authenticate.png

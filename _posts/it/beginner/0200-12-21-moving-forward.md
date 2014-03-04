@@ -39,8 +39,8 @@ vuoi semplicemente parlare di OpenStreetMap.
 
 ![Mailing list][]
 
--  Cerca la lista associata con il tuo paese. Esse hanno il nome del tipo “Talk-lg”, 
-dove lg e' il codice del paese a cui fa riferimento la lista. Per esempio “Talk-it” e' la lista italiana.
+-  Cerca la lista associata con il tuo paese. Esse hanno il nome del tipo â€œTalk-lgâ€, 
+dove lg e' il codice del paese a cui fa riferimento la lista. Per esempio â€œTalk-itâ€ e' la lista italiana.
 -  Clicca sulla lista in cui vuoi entrare.
 -  Inserisci le seguenti informazioni nei vari box della pagina:
 
@@ -49,12 +49,12 @@ dove lg e' il codice del paese a cui fa riferimento la lista. Per esempio “Talk-
 	-  password
 	-  password (conferma)
 
--  Quando hai finito, premi “Subscribe”.
--  Adesso apri l’email con la quale ti sei iscritto (come hai fatto nel capitolo 2). Ci sara' una mail di conferma ricevuta dalla mailing     list.
+-  Quando hai finito, premi â€œSubscribeâ€.
+-  Adesso apri lâ€™email con la quale ti sei iscritto (come hai fatto nel capitolo 2). Ci sara' una mail di conferma ricevuta dalla mailing     list.
 -  Fai clic sul link di conferma.
 -  Adesso sei un membro della lista.
 -  Quando vuoi spedire un messaggio alla lista, inserisci nel destinatario  talk-it@openstreetmap.org, 
-dove it e' il codice per l’Italia.   Riceverai anche le email quando qualcuno manda un messaggio alla lista, 
+dove it e' il codice per lâ€™Italia.   Riceverai anche le email quando qualcuno manda un messaggio alla lista, 
 ma dalla schermata delle impostazioni potrai scegliere di ricevere solo un compendio delle email.
 
 
@@ -65,6 +65,5 @@ Questi sono solo alcuni dei modi con cui puoi interagire con la comunita'. Speri
 imparare di piu' su OSM e contribuirai al progetto. Buona fortuna!
 
 
-[MapOSMatic]: /images/it_beg_ch8_image00.png
-[Wiki]: /images/it/beginner/08_moving-forward/en_beg_08_moving-forward_image01_osm-wiki.png
-[Mailing list]: /images/it_beg_ch8_image03.png
+[Wiki]: /images/it/beginner/08_moving-forward/it_beg_08_moving-forward_image01_osm-wiki.png
+[Mailing list]: /images/it/beginner/it_beg_08_image03.png
