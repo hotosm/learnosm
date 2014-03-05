@@ -15,7 +15,7 @@ In questo capitolo torneremo ancora una volta su JOSM e impareremo alcune cose n
 
 I livelli in JOSM
 -----------------
-Se ci hai seguito finora, avrai notato che in JOSM si possono aggiungere vari tipi di informazioni. Si possono scaricare i dati OSM, aggiungere immagini satellitari Bing, caricare tracce e waypoints di GPS, e aggiungere Field Papers, - e tutte le informazioni vengono visualizzate nella finestra della mappa di JOSM.
+Se ci hai seguito finora, avrai notato che in JOSM si possono aggiungere vari tipi di informazioni. Si possono scaricare i dati OSM, aggiungere immagini satellitari Bing, caricare tracce e waypoints di GPS, e aggiungere Field Papers, e tutte le informazioni vengono visualizzate nella finestra della mappa di JOSM.
 Avrai notato che quando apri un file, scarichi dati o aggiungi un'immagine
 di Bing, un oggetto viene aggiunto nel pannello “Livelli” sul lato destro di JOSM. Il tuo pannello dovrebbe essere simile a questo:
 
@@ -40,11 +40,11 @@ I livelli utilizzati come riferimenti, come ad esempio le immagini satellitari, 
 ![Layers activate][]
 
 
-L'uso di dati Gps e Field Papers 
+L'uso di dati Gps e Field Paper 
 -------------------------------
-Nei capitoli precedenti abbiamo visto come raccogliere i dati con un GPS e con Field Papers, e come caricarli sotto forma di strato in JOSM. 
+Nei capitoli precedenti abbiamo visto come raccogliere i dati con un GPS e con Field Paper, e come caricarli sotto forma di strato in JOSM. 
 Analizzati i dati con uno di questi strumenti, devi ancora aggiungere l'informazione digitale a OpenStreetMap. 
-A tale scopo, con lo stesso processo appreso in precedenza - **scarica, modifica, salva**. La differenza è che invece di utilizzare come strato base solo immagini da satellite, puoi utilizzare anche i dati GPS, Field Papers, appunti, o una combinazione di tutti.
+A tale scopo, con lo stesso processo appreso in precedenza - **scarica, modifica, salva**. La differenza è che invece di utilizzare come strato base solo immagini da satellite, puoi utilizzare anche i dati GPS, Field Paper, appunti, o una combinazione di tutti.
 
 - Per esempio, supponiamo che tu abbia come sfondo in JOSM i  waypoint GPS, hai salvato un waypoint sul tuo GPS con il nome di 030, e nel tuo notes hai scritto che 030 è una scuola. A questo punto per aggiungere questo waypoint a OpenStreetMap, dovrai selezionare lo strumento di disegno, e nella finestra della mappa fare doppio clic sul punto 030. Questo procedimento creerà un punto. Poi vai al menu Impostazioni predefinite, e trova la preimpostazione per scuola. Immettere il nome della scuola e fare clic su "Applica Preimpostazione" e ripeti per aggiungere linee e forme.
 ![GPS in JOSM][]
@@ -61,7 +61,7 @@ Ma se aggiungo differenti tag posso descrivere cosa rappresenta l’oggetto:
  -  il nome del palazzo è “Menara Thamrin”
  -  il palazzo ha 16 piani
 
-Puoi aggiungere al tuo oggetto quanti tag vuoi. I tag sono salvati come una coppia di testo, chiamate chiavi e valori. In OpenStreetMap, i tags elencati sopra sono tradotti in:
+Puoi aggiungere al tuo oggetto quanti tag vuoi. I tag sono salvati come una coppia di testo, chiamate chiavi e valori. In OpenStreetMap, i tag elencati sopra sono tradotti in:
 
 -  building = yes
 -  name = Menara Thamrin
@@ -89,7 +89,7 @@ Questo errore si verifica frequentemente perché si utilizza lo strumento di sel
 
 Salvare file OSM
 ----------------
-Quando stai modificando in JOSM, è meglio scaricare, modificare e caricare le modifiche in un lasso di tempo ragionevolmente breve. Meglio non scaricare i dati e poi attendere un paio di giorni per caricare le modifiche: che cosa succede se nel frattempo qualcun altro modifica la stessa zona? Altrimenti si creano errori e conflitti. 
+Quando stai modificando in JOSM, è meglio scaricare, modificare e caricare le modifiche in un lasso di tempo ragionevolmente breve. Meglio non scaricare i dati e poi attendere un paio di giorni per caricare le modifiche: che cosa succede se nel frattempo qualcun altro modifica la stessa zona? Possono verificarsi errori e conflitti. 
 Non aver paura a caricare frequentemente le modifiche. Questo garantisce che le modifiche saranno salvate nel database e non perderai il faticoso lavoro fatto. 
 Se lavori in una sola area, ogni volta che la vuoi modificare è buona norma che tu scarichi i dati della mappa, onde evitare che un altro utente vi apporti modifiche.
 Anche se devi sempre scaricare i dati OSM quando li devi modificare, e caricare spesso le modifiche, potrebbe verificarsi il caso in cui si desidera salvare i dati OSM sul proprio computer. Ad esempio, se la connessione a internet è intermittente puoi preferire scaricare i dati, salvarli modificarli e poi caricare i cambiamenti fatti in un secondo tempo. 
