@@ -1,98 +1,96 @@
 ---
 layout: doc
-title: File Formats
+title: Format File
 permalink: /bi/osm-data/file-formats/
 lang: bi
 category: osm-data
 ---
 
-File Formats
-=============
-Like any type of data, there are various ways of storing geographic
-data on a computer. It can be saved in a database, which is a specialized
-system for storing and retrieving data, and in fact there are database
-systems specifically designed for storing geographic data. It can also
-be stored in traditional computer files, though there are many different
-file formats for geographic data.
+Format File
+============
+Seperti beberapa jenis data, ada berbagai macam cara menyimpan data geografis
+di dalam sebuah komputer. Hal ini dapat disimpan di dalam database, yang merupakan
+sistem khusus untuk menyimpan dan mengambil data, dan faktanya terdapat sistem
+database khusus didesain untuk menyimpan data geografis. Ini dapat disimpan di 
+file komputer, meskipun ada banyak perbedaan format file untuk data geografis.
 
-In this section we'll go through a few ways of storing geographic data,
-explain how they work and how they're typically used.
+Pada sesi ini kita akan melihat melalui beberapa cara untuk menyimpan data 
+geografis, menjelaskan bagaimana mereka bekerja dan bagaimana mereka biasanya
+digunakan.
 
 .OSM Files
 -----------
-The **.osm** file format is specific to OpenStreetMap. You won't come across
-it elsewhere. If you have ever downloaded data using JOSM and saved it as a file,
-you may have noticed that the file is saved with the extension **.osm**. If you
-are a GIS user, you may also have noticed that it is not easy to open these
-files using software such as QGIS.
+Format file **.osm** adalah format khusus untuk OpenStreetMap. Anda tidak akan
+menemukan tempat lain. Jika Anda pernah mendownload data menggunakan JOSM dan 
+disimpan sebagai file, Anda mungkin memperhatikan bahwa file yang disimpan dengan
+ekstensi **.osm**. Jika Anda adalah pengguna SIG, Anda mungkin juga memperhatikan
+bahwa hal ini tidak mudah untuk membuka file ini menggunakan perangkat lunak 
+seperti QGIS.
 
-So why is OSM data stored in a file format that nobody else uses? The answer is that
-many geographic data formats predate the modern internet era, and are designed for
-quick access and querying like one would query a database. OSM data, on the other
-hand is designed to be easily sent and received across the internet in a standard
-format. Hence, **.osm** files are coded in XML, and contain geographic data in
-a structured, ordered format. A simple **.osm** file would look like this if viewed
-in a text editor:
+Jadi mengapa data OSM disimpan dalam format file yang tidak ada orang lain menggunakannya?
+Jawabannya adalah banyak format geografis mendahului era internet modern, dan 
+dirancang untuk akses cepat dan query seperti seseorang yang ingin meng-query database.
+Data OSM, di sisi lain dirancang dengan lebih mudah untuk dikirim dan diterima melalui
+internet dalam format standar. Oleh karena itu, file **.osm** dikode dalam XML, dan 
+berisi data geografis terstruktur. File **.osm** yang sederhana akan terliha seperti ini
+jika dilihat di editor teks:
 
 ![example osm][]
 
-Acquiring data in **.osm** format is easy - in fact you do it every time that you
-download data in JOSM, but using these files for analysis and map design is
-not easy. Hence you are better off converting the data into another format, or
-getting it from a service that converts the data for you.
+Untuk mendapatkan data dengan format **.osm** sangatlah mudah - faktanya Anda melakukannya
+setiap waktu ketika Anda mendownload data di JOSM, tetapi menggunakan file ini untuk 
+analisis dan mendesain peta tidaklah mudah. Namun, Anda lebih baik mengkonversi data tersebut
+ke format lain, atau mendapatkannya dari layanan yang mengkonversi data Anda. 
 
->	Raw OSM data is stored in **.osm** files usually, but you may also see files
->	ending in **.bz2** and **.pbf**. These are essentially **.osm** files that have
->	been compressed to save space, which can be extremely helpful when working
->	with large data files.
+>	Data mentah OSM disimpan di dalam file **.osm**, tetapi mungkin Anda melihat juga file
+>	berakhiran **.bz2** dan **.pbf**. Ini dasarnya file **.osm** yang telah dikompres
+>	untuk menghemat ruang, yang dapat sangat membantu ketika bekerja dengan file data yang besar
 
-Shapefiles
-----------
-The **shapefile** is a widely used format for storing vector geographic data. It was
-developed by ESRI, the company that makes ArcGIS, a popular suite of GIS applications.
+Shapefile
+---------
+**Shapefile** adalah format yang banyak digunakan untuk menyimpan data geografis vektor. Ini
+dikembangkan oleh ESRI, perusahaan yang membuat ArcGIS, seperangkat aplikasi SIG.
 
-Shapefiles are actually a collection of several different files. For example, a shapefile
-that contains building data might have files with the following extensions:
+Shapefile sebenarnya kumpulan beberapa file yang berbeda. Contohnya, shapefile yang berisi
+data bangunan mungkin memiliki file dengan ekstensi berikut ini:
 
--	buildings.**shp**
--	buildings.**shx**
--	buildings.**dbf**
+*	buildings.**shp**
+*	buildings.**shx**
+*	buildings.**dbf**
 
-Shapefiles will often have additional files too which contain other information.
+Shapefile sering memiliki file-file tambahan yang berisi informasi lainnya.
 
-A shapefile must be designated to hold only one type of feature
-(points, lines, or polygons), and each feature has it's attributes contained in a table.
-Unlike the OpenStreetMap system in which every object can have an unlimited number of tags,
-the attributes of features in a shapefile must fit into the shapefile's defined table
-structure, which might look something like this:
+Shapefile harus ditunjukan untuk mengadakan satu jenis fitur (titik, garis, atau poligon), dan 
+setiap fitur memiliki atribut di dalam tabel. Tidak seperti sistem OpenStreetMap yang setiap objeknya
+dapat memiliki jumlah tag yang tidak terbatas, atribut fitur pada sebuah shapefile harus sesuai
+dengan shapefile yang didefinisikan melalui struktur tabel, yang mungkin terlihat seperti ini:
 
 ![shapefile attributes][]
 
-OpenStreetMap data can be converted into shapefiles. Various websites provide shapefiles
-converted from OSM data. These are discussed in the [next chapter](/en/osm-data/getting-data).
+Data OpenStreetMap dapat dikonversi ke dalam shapefile. Berbagai macam situs menyediakan shapefile
+yang dikonversi daari data OSM. Hal ini akan dibahas di [bab selanjutnya](/en/osm-data/getting-data).
 
-Databases
+Database
 ---------
-Many types of information are stored in database systems, which provide a logical
-way of organizing and accessing data. Geographic data is no different, although
-databases designed for geodata are specialized to handle the complex functions that
-querying geographic data requires.
+Banyak jenis informasi yang disimpan dalam sistem database, yang menyediakan cara logis
+dalam mengatur dan mengakses data. Data geografis tidak berbeda, walaupun database dirancang 
+untuk geodata khusus dalam menangani fungsi tertentu yang mng-query kebutuhan data geografis.
 
-OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensions.
-This type of database provides fast access to the data and can be used easily with
-Mapnik, a piece of software that creates the map tiles used in web slippy maps. There
-are several tools available for importing raw OSM data into a PostgreSQL database.
+Data OpenStreetMap sering disimpan dalam database PostgreSQL dengan ekstensi PostGIS. Tipe 
+database ini menyediakan akses cepat ke daata dan dapat digunakan dengan mudah menggunakan
+Mapnik, sebuah perangkat lunak yang membuat tiles peta yang digunakan dalam situs peta slippy.
+Ada beberapa tool yang tersedia untuk mengimport data menatah OSM ke dalam database PostgreSQL.
 
-Another type of database is known as SQLite, which provides similar functionality as
-a PostgreSQL database, but is all stored in a single file and doesn't require
-database software to be running. These are a little more difficult to create yourself,
-but can be easier to work with for small sets of data.
+Tipe database yang lain dikenal sebagai SQLite, yang menyediakan fungsi yang sama seperti
+database PostgreSQL, tetapi ini semua disimpan dalam file tunggal dan tidak membutuhkan
+perangkat lunak database untuk menjalankannya. Hal ini adalah sedikit lebih sulit untuk
+membuatnya, tetapi dapat dengan mudah bekerja dengan perangkat kecil data. 
 
-Summary
--------
-In the following chapters we will see how you can download data in various formats from
-the internet, and how you can use various tools to manipulate the raw data on your own.
-
+Ringkasan
+----------
+Pada bab berikut kita akan melihat bagaimana Anda dapat mendownload data dalam berbagai
+format dari internet, dan bagaimana Anda dapat menggunakan berbagai macam tool untuk
+memanipulasi data mentah yang Anda miliki.
 
 [example osm]: /images/en/osm-data/file-formats/example_osm.png
 [shapefile attributes]: /images/en/osm-data/file-formats/shapefile_attributes.png

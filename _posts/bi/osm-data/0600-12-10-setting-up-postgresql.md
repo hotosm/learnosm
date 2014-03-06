@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Setting up PostgreSQL
+title: Pengaturan PostgreSQL
 permalink: /bi/osm-data/setting-up-postgresql/
 lang: bi
 category: osm-data
