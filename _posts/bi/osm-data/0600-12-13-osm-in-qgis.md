@@ -6,61 +6,65 @@ lang: bi
 category: osm-data
 ---
 
-OSM Data in QGIS
-=================
-With the 2013 release of Quantum GIS, it became easier to load and work with
-raw OpenStreetMap Data. This means that you can now access up-to-date OSM
-data whenever you want, select the tags you want to include, and easily export
-it into an easy-to-use SQLite database or Shapefile.
+Data OSM di QGIS
+================
+Dengan peluncuran QGIS pada tahun 2013, ini menjadi mudah untuk memuat dan bekerja
+dengan Data OpenStreetMap. Hal ini dimaksudkan bahwa Anda sekarang dapat mengakses data 
+OSM terbaru kapan pun yang Anda inginkan, pilih tag yang Anda ingin masukkan, dan 
+mengeksportnya dengan mudah ke dalam database SQLite atau Shapefile agar lebih mudah
+digunakan.
 
-In this chapter we'll walk through the steps necessary to do this. We assume
-that you've already downloaded and installed QGIS 2.x. If you haven't already done
-this, you can download it [here](http://www.qgis.org/en/site/forusers/download.html).
+Pada bab ini kita akan melalui langkah-langkah yang diperlukan untuk melakukan ini. 
+Kita asumsikan bahwa Anda sudah mendownload dan menginstal QGIS 2.x. Jika Anda belum
+menginstalnya, Anda dapat mendownloadnya [disini]http://www.qgis.org/en/site/forusers/download.html).
 
-In this chapter we will go through several steps in order to get our customized, up-to-date
-OSM layers loaded into QGIS. First, we will get the most recent OSM data in raw **.osm**
-format. Then, we will convert this data into a SQLite database, which is a lightweight
-database system stored in one file on your system. Lastly, we will create a layer (or
-multiple layers) that include only the feature types and tags we want to access. These
-layers can be used as they are or saved in another format, such as a shapefile.
+Pada bab ini kita akan melakukan beberapa langkah untuk mendapatkan penyesuaian kita,
+perbaruan layer OSMdimuat di dalam QGIS. Pertama, kita akan mendapatkan data OSM terbaru
+dalam format **.osm**. Kemudian, kita akan mengkonversi data ini ke dalam database SQLite, 
+yang merupakan sistem database yang tersimpan dalam satu file di sistem Anda. Terakhir,
+kita akan membuat sebuah layer (atau beberapa layer) yang mencakup hanya jenis fitur 
+dan tag yang ingin kita akses. Layer-layer ini dapat digunakan atau disimpan dalam 
+format lain, seperti shapefile.
 
-Loading OpenStreetMap Data
----------------------------
-The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways.
-Of course, requesting data from the OSM server, as we do in JOSM, means that we can not pull
-out a large amount of raw data at once - however, there are other ways to access data, as
-described in the [previous chapter](/en/osm-data/getting-data).
+Memuat Data OpenStreetMap
+-------------------------
+Hal pertama yang kita akan lakukan adalah mendapatkan beberapa data OSM terbaru. Kita dapat
+melakukan ini dengan berbagai cara. Tentu saja, meminta data dari server OSM, seperti 
+yang kita lakukan di JOSM, dimaksudkan bahwa kita tidak dapat menarik data dengan jumlah
+besar - namun, terdapat cara lain untuk mengakses data, seperti yang dideskripsikan pada
+[bab sebelumnya](/en/osm-data/getting-data).
 
-Let's use the built in download function in QGIS, since we will be working with QGIS in
-the rest of this chapter. The download function is not terribly convenient as of this
-writing, but for our purposes it is more than satisfactory.
+Mari kita mendownload fungsi yang dibangun di QGIS, karena kita akan bekerja dengan QGIS 
+di sisa bab ini. Fungsi download tidak terlalu nyaman untuk menulis ini, tetapi tujuan
+kita lebih baik. 
 
--	Open QGIS and go to Vector -> OpenStreetMap -> Download data.
+*	Buka QGIS dan pergilah ke Vector -> OpenStreetMap -> Download data.
 
 ![download data][]
 
--	You can choose from several options here - if your window is already displaying the extent
-	you want, check the box next to "From Map Canvas." If you have a layer with the correct
-	extent, choose "From layer" and select the layer you want to use. Here we will choose "Manual"
-	and enter the latitudes and longitudes which form a **bounding box** around the area we
-	want to access. You can fill in lats and lons that are of interest to you, but remember
-	that the area cannot be too large, or you won't be able to download all the data.
+*	Anda dapat memilih dari beberapa pilihan disini - jika jendela Anda sudah menampilkan
+	sesuai dengan keinginan Anda, centang kotak di sebelah "From Map Canvas". Jika Anda
+	memiliki sebuah layer yang sesuai, pilih "From Layer" dan pilih layer yang Anda ingin
+	gunakan. Disini kita akan memilih "Manual" dan masukan titik koordinat yang membentuk 
+	**kotak pembatas** di sekitar daerah yang ingin kita akses. Anda dapat mengisi titik
+	koordinat yang menarik, tetapi ingatlah bahwa daerah tidak terlalu besar, atau Anda
+	tidak dapat mendownload semua data.
 
 ![bounding box][]
 
--	Select a name and location for the output file and click OK.
--	You will be notified when the download is complete. Click "Close" to exit the download
-	dialog.
+*	Pilih nama dan lokasi untuk file output dan klik OK.
+*	Anda akan diberi informasi ketika download sudah lengkap. Klik "Close" untuk keluar dari
+	kotak dialog download.
 
 ![download complete][]
 
--	The OSM data will now be saved in the location you specified.
+*	Data OSM akan disimpan di lokasi Anda.
 
->	This method of accessing OSM data is the same as if you downloaded it in JOSM or on
->	[openstreetmap.org](http://www.openstreetmap.org). For larger extracts that are up-to-date,
->	you may try downloading from the [HOT export site](http://export.hotosm.org) or
->	[bbbike.org](http://extract.bbbike.org/). Remember that if you download a compressed OSM file,
->	you will need to first decompress it into **.osm** format for the next steps.
+>	Metode mengakses data OSM ini adalah sama seperti jika Anda mendownload data di JOSM atau
+>	di [openstreetmap.org](http://www.openstreetmap.org). Untuk ekstrak lebih besar yang
+>	terbaru, Anda mungkin mencoba mendownload dari [HOT export site](http://export.hotosm.org)
+>	atau [bbbike.org](http://extract.bbbike.org/). Ingatlah bahwa jika Anda mendownload file
+>	OSM yang dikompres, Anda terlebih dahulu dekompres ke dalam format **.osm** untuk langkah selanjutnya.
 
 Importing Data into SQLite
 ---------------------------
