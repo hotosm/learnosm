@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: More Tools
-permalink: /en/editing/more-tools/
-lang: en
+permalink: /it/editing/more-tools/
+lang: it
 category: editing
 ---
 

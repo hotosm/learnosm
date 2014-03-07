@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: osm2pgsql
-permalink: /en/osm-data/osm2pgsql/
-lang: en
+permalink: /it/osm-data/osm2pgsql/
+lang: it
 category: osm-data
 ---
 
