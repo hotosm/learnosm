@@ -1,4 +1,4 @@
-﻿---
+---
 layout: doc
 title: Ancora su JOSM
 permalink: /it/beginner/more-about-josm/
