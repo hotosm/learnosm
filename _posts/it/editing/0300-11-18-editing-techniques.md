@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Editing Techniques
-permalink: /en/editing/josm-editing-techniques/
-lang: en
+permalink: /it/editing/josm-editing-techniques/
+lang: it
 category: editing
 ---
 
