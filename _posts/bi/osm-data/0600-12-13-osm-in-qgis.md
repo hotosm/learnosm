@@ -66,76 +66,79 @@ kita lebih baik.
 >	atau [bbbike.org](http://extract.bbbike.org/). Ingatlah bahwa jika Anda mendownload file
 >	OSM yang dikompres, Anda terlebih dahulu dekompres ke dalam format **.osm** untuk langkah selanjutnya.
 
-Importing Data into SQLite
+Mengimport Data ke SQLite
 ---------------------------
-Next we will need to import our raw **.osm** file into a SQLite Database.
+Selanjutnya kita perlu mengmport file **.osm** kita ke dalam database SQLite.
 
--	Go to Vector -> OpenStreetMap -> Import topology from XML
+*	Pergilah ke Vector -> OpenStreetMap -> Import topology from XML
 
 ![import from xml][]
 
--	In the first field, select your **.osm** file.
--	You can change the name of the output database file if you like.
--	Keep the box checked next to "Create Connection..."
+*	Di dalam field pertama, pilih file **.osm** Anda.
+*	Anda dapat mengubah nama file database output jika Anda suka.
+*	Biarkan kotak tercentang di sebelah "Create Connection..."
 
 ![import dialog][]
 
--	Click OK.
--	When it is finished, click "Close."
+*	Klik OK.
+*	Ketika sudah selesai, klik "Close".
 
-Create Layers
---------------
-Lastly, we will define layers that can be used in QGIS, customized according to our needs.
+Membuat Layer
+---------------
+Terakhir, kita akan mendefinisikan layer yang dapat digunakan di QGIS, dikostumisasi sesuai dengan
+kebutuhan kita.
 
--	Go to Vector -> OpenStreetMap -> Export topology to Spatialite
+*	Pergilah ke Vector -> OpenStreetMap -> Export topology to Spatialite
 
 ![export topo][]
 
--	In the first field, select the database you created in the previous step.
+*	Pada field pertama, pilih database yang Anda sudah buat pada tahap sebelumnya.
 
 ![input db file][]
 
--	Under "Export type," select the type of features you want to create a layer for. Here
-	we will create a layer using polygons.
+*	Di bawah "Export type", pilih jenis fitur yang ingin Anda buat layernya. Disini kita
+	akan membuat sebuah layer menggunakan poligon.
 
-![export type][]
+![export type][]	
 
--	Edit the layer name if you like.
+*	Edit nama layer jika Anda mau.
 
-Under "Exported tags" is where the magic happens. Here we can select which tags will be
-included in our output layer. This gives us flexibility over exactly which data we want to
-access.
+Di bawah "Exported tags" dimana keajaiban akan terjadi. Disini kita dapat memilih tag yang akan
+dimasukkan di dalam layer output kita. Ini memberikan kita kemudahan untuk data yang kita ingin
+akses.
 
--	Click "Load from DB" to see a list of all the available tags in the database. You can see
-	all the tags contained in this data, and also the number of features that have each tag.
--	Check the boxes next to the tags that you want to include. Here we will select a few features
-	that will be useful for building polygons.
+*	Klik "Load from DB" untuk melihat daftar semua tag yang ada di dalam database. Anda dapat
+	melihat semua tag yang terkandung dalam data ini, dan juga sejumlah fitur yang masing-masing
+	memiliki tag. 
+*	Centang kotak di sebelah tag yang Anda ingin masukkan. Disini kita akan memilih sedikit fitur
+	yang berguna untuk membuat poligon.
 
 ![export full][]
 
--	When you are finished, click OK.
--	Close the box. Your layer should be automatically added.
+*	Ketika Anda sudah meyelesaikannya, klik OK.
+*	 Tutup kotak. Layer Anda seharusnya akan ditambahkan secara otomatis.
 
 ![cairo polygons][]
 
--	Right-click on the layer and click "Open Attribute Table."
+*	Klik kanan pada layer dan klik "Open Attribute Table."
 
 ![open attribute table][]
 
--	You can see here that we have a table which includes only the attributes we selected.
+*	Anda dapat melihatnya disini bahwa kita memiliki sebuah tabel yang mencakup atribut yang kita
+	pilih.
 
 ![attribute table][]
 
-Note that we have not created a layer of **only** buildings. Instead, we have created a layer
-that includes all of the polygons from our original data, but only includes the tags which we
-selected. In order to filter this layer to show only buildings, we would need to execute a query
-next which filters only polygons where building=yes.
+Perhatikan bahwa kita belum membuat layer bangunan saja. Namun, kita akan membuat layer yang mencakup 
+semua poligon dari data asli kita, tetapi hanya mencakup tag yang kita pilih. Untuk menyaring 
+layer ini agar yang terlihat hanya bangunannya saja, kita perlu mengeksekusi sebuah query selanjutnya
+yang disaring hanya poligon building=yes.
 
-Summary
--------
-This process makes it easy to get up-to-date OSM data and pull it into your GIS. Once you have
-layers like this in QGIS, it is possible to save them as shapefiles, execute filters and queries,
-and so forth.
+Ringkasan
+---------
+Proses ini memudahkan kita mendapatkan data OSM yang terbaru dan menariknya ke dalam SIG Anda. Setelah
+Anda memiliki layer seperti ini di QGIS, ini mungkin untuk menyimpan mereka sebagai shapefile,
+mengseksekusi filter dan query, dan sebagainya. 
 
 
 [download data]: /images/en/osm-data/osm-in-qgis/download_data.png

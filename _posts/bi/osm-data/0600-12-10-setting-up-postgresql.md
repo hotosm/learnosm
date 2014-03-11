@@ -8,61 +8,67 @@ category: osm-data
 
 PostgreSQL & PostGIS
 ====================
-In this chapter we will see how to set up PostgreSQL on Windows and how to
-create a database in which you can store geographic data. We'll be using the
-open source GIS software QGIS in this chapter, so it will be helpful if
-you are already famliiar with it.
+Pada bab ini kita akan melihat bagaimana melakukan pengaturan PostgreSQL pada Windows
+dan bagaimana membuat sebuah database dimana Anda dapat menyimpan data geografis.
+Kita akan menggunakan perangkat lunak open source SIG yaitu QGIS dalam bab ini, sehingga
+ini akan sangat membantu jika Anda sudah mengetahui perangkat lunak tersebut. 
 
-In the following chapter, we will see how to import OpenStreetMap data into
-a PostgreSQL database.
+Pada bab berikut ini, kita akan melihat bagaimana cara mengimport data OpenStreetMap 
+ke dalam database PostgreSQL.
 
-Installing PostgreSQL and PostGIS
-----------------------------------
-In this section we will install PostgreSQL and then add the PostGIS spatial
-extensions.  This is fairly easy to setup using the One-Click Installer.
+Menginstal PostgreSQL dan PostGIS
+---------------------------------
+Pada bab ini kita akan menginstal PostgreSQL dan kemudian menambahka ekstensi spasial
+PostGIS. Hal ini cukup mudah dilakukan pengaturan menggunakan One-Click Installer.
 
--	Navigate your web browser to the PostgreSQL website and find the download page here:
+*	Arahkan browser web Anda ke situs PostgreSQL dan temukan halaman download disini:
+
 	[http://www.postgresql.org/download/](http://www.postgresql.org/download/)
 
 ![postgresql website][]
 
--	From here you can find installation instructions for different operating systems.  Click
-	on the “Windows” link.
--	This page explains what the One-Click Installer will do.  It will install three different components:
-	-	PostgreSQL server:  The database software, the core component
-	-	pgAdmin III: The graphical interface for managing your databases
-	-	StackBuilder: A tool for adding additional applications; we will use this for adding the PostGIS extensions
--	Click on Download.
+*	Dari sini Anda dapat menemukan instruksi instalasi untuk sistem operasi yang berbeda. 
+	Klik pada tautan "Windows".
+*	Halaman ini menjelaskan apa yang dilakukan One-Click Installer. Ini akan menginstal 
+	tiga komponen yang berbeda:
+	-	Server PostgreSQL: perangkat lunak database, komponen utama
+	-	pgAdmin III: Antarmuka grafis untuk mengelola database Anda
+	-	StackBuilder: Sebuah tool untuk menambahkan penambahan aplikasi; kita akan menggunakan
+		ini untuk menambahkan ekstensi PostGIS
+*	Klik pada Download.
 
 ![postgresql download][]
 
--	You will see several different Installer options for different versions of the PostgreSQL software.
-	Download the most recent version. As of this writing it is version 9.3.1. Click on the button that
-	says Win x86-32.  This is the installer for the 32-bit version of Windows.
+*	Anda akan melihat beberapa pilihan Installer yang berbeda untuk versi perangkat lunak PostgreSQL
+	yang berbeda. Download versi terbaru. Pada tulisan ini menggunakan versi 9.3.1. Klik pada tombol
+	Win x86-32. Ini adalah installer untuk versi 32-bit pada Windows.
 
 ![postgresql version][]
 
--	When it has finished downloading, run the One-Click Installer.
+*	Setelah selesai mendownload, jalankan One-Click Installer.
 
 ![install 1][]
 
--	Click “Next” to navigate through the installation wizard.  The default options should be fine.
-	You will need to provide a password for the first database user (the user is postgres).  This
-	user has superuser privileges, meaning that they can do whatever they want, so don’t forget
-	the password that you use!
+*	Klik "Next" untuk menavigasi melalui wizard instalasi. Pilihan standar harus cukup baik. Anda
+	perlu menyediakan kata sandi untuk pengguna database pertama (pengguna adalah postgres). Pengguna
+	ini memiliki hak superuser, yang berarti bahwa mereka dapat melakukan apapun sesuai dengan keinginan
+	mereka, jadi jangan lupa dengan kata sandi yang Anda gunakan!
 
->	You can create as many databases as you want using Postgresql.  You might want a database for
->	your geographic data, and separate databases for other projects that you are working on.  And
->	you may want different people to have different types of access to these databases.  For this
->	purpose, every database that you create uses the concept of **users** and **roles**.  A database must
->	always be owned by a user, and usually that user will need a password in order to make changes
->	to the database.  Additional users can be given permission to access a database, and they can
->	be given certain roles.  For example, you may want a database user that can only read information
->	from the database, but cannot change it.  Or you may want a user that can add data, but does not
->	have permission to delete it.  With users and roles, this is possible.  For now we won’t worry too
->	much about this, just remember that your database is owned by a **user**, and to access the database
->	you will need the user’s name and password.  The first user we create (named postgres) is a **superuser**,
->	meaning they have permission to do everything with the databases.
+>	Anda dapat membuat banyak database sesuai dengan keinginan Anda menggunakan Postgresql. Anda 
+>	mungkin ingin membuat database untuk data geografis Anda, dan memisahkan database untuk proyek
+>	lain yang sedang Anda kerjakan. Dan Anda ingin orang yang berbeda memiliki jenis akses ke database
+>	ini. Untuk tujuan ini, setiap database yang Anda buat menggunakan konsep **pengguna** dan **peran**.
+>	Database harus selalu dimiliki oleh pengguna, dan biasanya pengguna perlu kata sandi untuk membuat
+>	perubahan ke database. Pengguna tambahan dapat diberikan izin untuk mengakses database, dan 
+>	mereka dapat memberikan peran tertentu. Misalnya, Anda mungkin ingin pengguna database hanya dapat 
+>	membaca informasi dari database, tetapi tidak dapat mengubahnya. Atau Anda ingin pengguna dapat 
+>	menambahkan data, tetapi tidak diberikan izin untuk menghapusnya. Dengan pengguna dan peran, ini
+>	mungkin terjadi. Untuk sekarang kita tidak perlu khawatir terlalu banyak tentang ini, ingat bahwa
+>	database Anda dimiliki oleh **pengguna**, dan untuk mengakses database Anda perlu nama pengguna dan
+>	kata sandi. Pengguna pertama yang kita buat (bernama postgres) adalah **superuser**, berarti mereka
+>	memiliki izin untuk melakukan segalanya dengan database tersebut.
+
+
 
 -	After you have clicked through the wizard and accepted the default configuration options, the
 	wizard will install everything for you.  It may take a few minutes.
