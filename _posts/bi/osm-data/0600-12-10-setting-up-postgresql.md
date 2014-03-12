@@ -69,75 +69,75 @@ PostGIS. Hal ini cukup mudah dilakukan pengaturan menggunakan One-Click Installe
 >	memiliki izin untuk melakukan segalanya dengan database tersebut.
 
 
-
--	After you have clicked through the wizard and accepted the default configuration options, the
-	wizard will install everything for you.  It may take a few minutes.
--	When the installation is complete, the wizard will ask you if you want to launch StackBuilder,
-	which is the utility that will allow us to install PostGIS.  Make sure the box is checked
-	before you click “Finish.”
+*	Setelah Anda mengklik melalui wizard dan menerima pilihan konfigurasi standar, wizard akan menginstal
+	semuanya untuk Anda. Ini mungkin membutuhkan waktu beberapa menit.
+*	Ketika instalasi lengkap, wizard akan menanyakan kepada Anda jika Anda ingin menjalankan StackBuilder,
+	dimana utilitas yang akan memungkinkan kita untuk menginstal PostGIS. Pastikan kotak tercentang
+	sebelum Anda mengklik "Finish".
 
 ![install 2][]
 
--	Now we’ve successfully installed PostgreSQL and we need to add the PostGIS extensions.  When
-	the StackBuilder wizard opens, select your PostgresSQL installation from the dropdown menu
-	and click Next.  It will look something like this:
-
+*	Sekarang kita telah sukses menginstal PostgreSQL dan kita perlu menambahkan ekstensi PostGIS. 
+	Ketika wizard StackBuilder terbuka, pilih instalasi PostgreSQL Anda dari menu daftar pilihan dan 
+	klik Next. Ini akan terlihat seperti ini: 
+	
 ![install 3][]
 
--	Open the “Spatial Extensions” tab and check the box next to PostGIS. As of this writing the most
-	recent version of PostGIS is 2.1.
+*	Buka tab "Spatial Extensions" dan centang kotak di sebelah PostGIS. Versi saat ini merupakan versi 
+	terbaru PostGIS yaitu 2.1.
 
 ![install 4][]
 
--	Click Next to download the extensions and install.  When prompted, click “I Agree” to accept
-	the terms and conditions.
--	The PostGIS installer will ask more questions, but generally the default options are fine. 
-	You can tell it to create the first database automatically, but we will learn how to do that
-	ourselves next.
--	To begin the PostGIS installation you will need to supply the postgres password that you
-	created when you installed PostgreSQL.
+*	Klik Next untuk mendownload ekstensi dan menginstalnya. Apabila diminta, klik "I Agree" untuk
+	menerima syarat dan ketentuan.
+*	Installer PostGIS akan menanyakan beberapa pertanyaan, tetapi umumnya pilihan standar cukup baik.
+	Anda dapat memberitahunya untuk membuat database pertama secara otomatis, namun selanjutnya kita akan 
+	mempelajari bagaimana melakukan itu sendiri.
+*	Untuk memulai instalasi PostGIS Anda perlu menyediakan kata sandi postgres yang Anda buat ketika
+	menginstal PostgreSQL.
 
 ![install 5][]
 
--	If you are asked to register the GDAL_DATA environment variable, click "Yes."
+*	Jika Anda ditanya untuk mendaftar variabel lingkungan GDAL_DATA, klik "Yes".
 
 ![install 6][]
 
--	When the installation is completed, click “Close” and then “Finish.”
+*	Setelah instalasi selesai, klik "Close" dan kemudian "Finish".
 
-Creating a Database
---------------------
-Now that we have installed all of the necessary software, we will create a database. We will
-use pgAdmin III, which is a graphical database client that is useful for querying and modifying
-databases.
+Membuat Database
+-----------------
+Sekarang kita sudah menginstal semua perangkat lunak yang dibutuhkan, ketika kita akan membuat sebuah 
+database. Kita akan menggunakan pgAdmin III, yang merupakan klien database grafis berguna untuk
+mengquery dan memodifikasi database.
 
 ![pgadmin3][]
 
--	PgAdmin III is the official client for PostgreSQL and lets you use the SQL language to manipulate
-	your data tables.  It is also possible to create and manipulate databases from the command-line,
-	but for now, pgAdmin III is an easy way to get started.
--	Open pgAdmin III.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin III.
+*	PgAdmin III adalah klien resmi untuk PostgreSQL dan Anda menggunakan bahasa SQL untuk memanipulasi
+	data tabel Anda. Ini juga memungkinkan untuk membuat dan memanipulasi database dari command-line,
+	tetapi untuk saat ini, pgAdmin III merupakan cara yang mudah untuk memulainya.
+*	Buka pgAdmin III. Ini seharusnya terdapat di Menu Start dibawah All Programs -> PostgreSQL 9.3 > pgAdmin III.
 
 ![pgadmin3 start][]
 
--	In the panel on the left under Servers, right-click where it says PostgreSQL and click “Connect.”
+*	Pada panel di kiri bawah Servers, klik kanan pada tulisan PostgreSQL dan klik "Connect".
 
 ![postgresql connect][]
 
--	Enter the postgres user password that you created when you installed the software. Remember that
-	the username and password are required so that you can create and access a database.
-
+*	Masukan kata sandi pengguna postgres yang dibuat ketika Anda menginstal perangkat lunak. Perhatikan
+	bahwa nama pengguna dan kata sandi yang diperlukan sehingga Anda dapat membuat dan mengakses databse. 
+	
 ![enter password][]
 
--	Right-click on Databases and select New Database...
+*	Klik kanan pada Databases dan pilih New Database...
 
 ![new database][]
 
--	You need to enter a few pieces of information to create the new database: name and owner.  In the
-	Properties tab, give the new database a name.  In this example, we name our database gisdb.  We
-	should also give our database an owner.  Since we only have one user right now, let’s give our
-	database the owner postgres.  (Note: for security reasons it is usually a good idea to create users
-	without superuser permission, but for now we won’t worry about this.)
+*	Anda harus memasukkan beberapa informasi untuk membuat database baru: nama dan pemilik. Pada tab
+	Properties, berikan nama untuk database baru. Seperti contoh ini, kita memberikan nama databasenya
+	adalah gisdb. Kita juga harus memberi database kita seorang pemilik. Setelah kita hanya memiliki
+	satu pengguna saat ini, mari beri database postgres kita  seorang pemilik. (Catatan: Untuk alasan 
+	keamanan biasanya ini adalah ide yang baik untuk membuat pengguna tanpa meminta izin ke superuser, 
+	tetapi untuk saat ini tidak perlu khawatir mengenai hal ini.)
 
 ![new database form][]
 
@@ -146,69 +146,71 @@ databases.
 	will create our database with the proper spatial columns.
 -->
 
--	Click OK to create the database.  You will now see your database listed under “Databases.”
--	We need to run a command now to enable the database with PostGIS extensions. Click on the SQL
-	button at the top of PgAdmin III.
+*	Klik OK untuk membuat database. Anda saat ini akan melihat database Anda terdaftar di bawah 
+	"Databases".
+*	Kita perlu menjalankan perintah sekarang untuk mengaktifkan database dengan ekstensi PostGIS. 
+	Klik pada tombol SQL di atas PgAdmin III.
 
 ![sql button][]
 
--	In the query window, type:
+*	Pada jendela query, ketikan:
 
 	CREATE EXTENSION postgis;
 
--	Then click the "Execute query" button.
+*	Kemudian klik tombol "Execute query".
 
 ![postgis command][]
 
-Load Sample Data (optional)
----------------------------
-If you are comfortable so far and are familiar with QGIS, follow along as we load some
-data into our new database. To do this, we will use a utility that converts shapefiles
-and loads them into the database.
+Memuat Data Contoh (pilihan)
+----------------------------
+Jika sejauh ini Anda sudah merasa nyaman dan akrab dengan QGIS, ikuti bersama sesi ini 
+mengenai bagaimana kita memuat sebuah data ke dalam database baru kita. Untuk melakukan
+ini, kita akan menggunakan sebuah utilitas yang mengkonversi shapefile dan memuat mereka
+ke dalam database.
 
--	Make sure that your new database is selected in the panel on the left and go to **Plugins
-	-> PostGIS Shapefile and DBF loader 2.1**.
+*	Pastikan bahwa database baru Anda terpilih pada panel di sebelah kiri dan pergilah ke
+	**Plugins -> PostGIS Shapefile and DBF loader 2.1**.
 
 ![shapefile loader][]
 
--	Click “Add File” and find a shapefile on your filesystem.
--	If you don't have any shapefiles, you can download a sample [here](/files/buildings_sample.zip).
--	Once you have selected a file, click “Import.”  If everything goes smoothly, the output will
-	read “Shapefile import completed.”
+*	Klik "Add File" dan cari sebuah shapefile di dalam sistem file Anda.
+*	Jika Anda tidak memiliki shapefile, Anda dapat mendownload contohnya [disini](/files/buildings_sample.zip).
+*	Setelah Anda memiliki file tersebut, klik "Import". Jika semuanya berjalan lancar, output 
+	akan membaca “Shapefile import completed.”
 
 ![add shapefile][]
 
--	Now let's load the data from our database into the QGIS application. If you don't have QGIS
-	you can download it on the [QGIS website](http://www.qgis.org/en/site/forusers/download.html).
--	Open QGIS and click on the “Add PostGIS Layers” button.
+*	Sekarang mari kita masukkan data dari database kita ke dalam aplikasi QGIS. Jika Anda tidak
+	memiliki QGIS Anda dapat mendownloadnya di [situs QGIS](http://www.qgis.org/en/site/forusers/download.html).
+*	Buka QGIS dan klik pada tombol “Add PostGIS Layers”.
 
 ![qgis add postgis button][]
 
--	Under “Connections” at the top, click “New.”
--	Give the new connection a name.  Under database type **gisdb** (or whatever you named your database).
-	Enter the username postgres and your password below.
-
+*	Di bawah "Connections di bagian atas, klik "New".
+*	Berikan koneksi baru sebuah nama. Di bawah database ketikan **gisdb** (atau nama apa pun untuk 
+	database Anda). Masukkan nama pengguna postgres dan kata sandi Anda di bawah.
+	
 ![connection settings][]
 
--	Click OK to save the connection settings.  Then click “Connect” to connect to your PostgreSQL
-	server.  You may need to enter your username and password again.
--	If everything is successful, you will see the shapefile layer  (or multiple layers with different
-	features types) that you loaded into the database
-	available here.  Select a layer and click “Add” to add it to your map.
+*	Klik OK untuk menyimpan pengaturan koneksi. Kemudian klik "Connect" untuk menghubungkan ke 
+	server PostgreSQL Anda. Anda mungkin harus memasukkan nama pengguna Anda dan kata sandi lagi.
+*	Jika semuanya sukses, Anda akan melihat layer shapefile (atau beberapa layer dengan jenis
+	fitur yang berbeda) yang Anda masukkan di dalam database yang ada disini. Pilih layer dan klik
+	"Add" untuk menambahkannya ke peta Anda. 
 
 ![your data layer][]
 
--	When you add the layer you will need to select a coordinate system to display the data in.  You
-	will most likely want to select WGS 84, which is the coordinate system OpenStreetMap uses.
--	Note that the layer behaves the same as if you had loaded a shapefile directly into QGIS.  The
-	only difference is that if you edit the layer, the changes will be saved in your database.
-
-Summary
--------
-Now that you have seen how to set up PostgreSQL and PostGIS, as well as how to create a new
-database, you're ready to try the utilities which allow us to import raw OSM data into a
-database. We'll take a look at this in the [next chapter](/en/osm-data/osm2pgsql).
-
+*	Ketika Anda akan menambahkan layer, Anda perlu memilih sistem koordinat untuk menampilkan data
+	tersebut. Anda kemungkinan besar akan memilih WGS 84, yang merupakan sistem koordinat yang 
+	digunakan OpenStreetMap.
+*	Catatan bahwa layer memiliki kesamaan jika Anda memuat shapefile secara langsung ke dalam
+	QGIS. Perbedaannya hanya jika Anda mengedit layer, perubahan akan disimpan di database Anda.
+	
+Ringkasan
+---------
+Sekarang Anda teah melihat bagaimana melakukan pengaturan PsogreSQL dan PostGIS, serta bagaimana
+membuat database baru, Anda siap untuk mencoba utilitas yang memungkinkan kita mengimport data
+OSM ke dalam database. Kita akan melihat ini pada [bab selanjutnya](/en/osm-data/osm2pgsql).
 
 
 [postgresql website]: /images/en/osm-data/setting-up-postgresql/postgresql-website.png
