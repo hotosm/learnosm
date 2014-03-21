@@ -1,16 +1,17 @@
 ---
 layout: doc
-title: More Tools
+title: Tool Lainnya
 permalink: /bi/editing/more-tools/
 lang: bi
 category: editing
 ---
 
-More Tools
+Tool Lainnya
 ============
-The **buildings_tools** and **utilsplugin2** plugins add great additional
-functionality into JOSM. In this section we'll take a closer look
-at the functions they provide.
+Plugin **buildings_tools** dan **utilsplugin2** menambah besar tambahan fungsionalitas
+ke dalam JOSm. Pada sesi ini kita akan melihat lebih dekat pada fungsi yang
+mereka sediakan.
+
 
 The Buildings Tools Plugin
 --------------------------

@@ -1,67 +1,69 @@
 ---
 layout: doc
-title: JOSM Plugins
+title: Plugin JOSM
 permalink: /bi/editing/josm-plugins/
 lang: bi
 category: editing
 ---
 
-JOSM Plugins
+Plugin JOSM 
 ============
 
-As you become more advanced in your editing techniques, you may want to
-use additional JOSM features to improve your
-mapping skills. JOSM allows you to install numerous plugins, which add
-extra functionality to the software.
+Ketika Anda menjadi lebih handal dalam teknik mengedit Anda, Anda mungkin 
+ingin menggunakan fitur JOSM tambahan untuk meningkatkan keterampilan 
+pemetaan Anda. JOSM memungkinkan Anda untuk menginstal berbagai plugin, 
+kemudian menambahan fungsi ekstra ke perangkat lunak.
 
-If you worked through the learnOSM Beginner's Guide, you have already installed
-the Field Papers plugin.
+Jika Anda bekerja melalui Panduan Tingkat Dasar di learnOSM, Anda telah
+menginstal plugin Field Papers.
 
-In this section we will take a look at how to install plugins,
-and some of the most useful plugins that are available.
+Pada sesi ini kita akan melihat bagaimana cara menginstal plugin, dan beberapa
+plugin yang sangat berguna yang sudah tersedia.
 
-Installing Plugins
+
+Menginstal Plugin
 -------------------
--   Any time you want to install a new plugin, go to Edit --\> Preferences
-    and click on the “Plugins” tab.
+*	Setiap kali Anda ingin menginstal sebuah plugin baru, pergilah ke Edit --\> Preferences
+	dan klik pada tab "Plugins".
 
 ![Plug][]
 
--   If you don’t see a list of available plugins, click “Download List.”
--   To install a plugin you simply must check the box next to it
-    and click OK at the bottom.
--   Lastly, you must restart JOSM anytime you install new plugins.
+*	Jika Anda tidak melihat daftar plugin yang tersedia, klik "Download List".
+*	Untuk menginstal sebuah plugin Anda harus mencentang kotak di sebelahnya dan
+	klik OK di bagian bawah.
+*	Terakhir, Anda harus me-restart JOSM Anda setelah Anda menginstal plugin baru.
 
-Some of our favorite plugins are:
+Beberapa plugin yang sering kita gunakan adalah:
 
-1.  **buildings_tools:** If you draw a lot of buildings, this will make the process faster and easier
+1.	**buildings_tools:** Jika Anda menggambar banyak bangunan, ini akan membuat proses menggambar
+	lebih cepat dan mudah.
 
-2.  **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM
-    database, this plugin makes it easy.
+2.	**DirectUpload:** Jika Anda mengumpulkan banyak trek GPS dan Anda ingin menyimpannya di 
+	database OSM, plugin ini akan mempermudah Anda.
+	
+3.	**editgpx:**
+	Jika Anda ingin mengupload trek GPS dari perangkat Garmin, Anda mungkin perlu menggunakan
+	plugin ini. OSM tidak akan menerima trek GPS yang telah disimpan pada kartu memori eksternal 
+	di Garmin, tetapi plugin ini dapat memperbaiki file sehingga mereka dapat diupload.
+	
+4.	**fieldpapers:**
+	Plugin ini memuat Field Papers yang telah discan di dalam JOSM.
+	
+5.	**imagery_offset_db:**
+	Plugin ini bekerja sama dengan pembuat peta yang menemukan citra satelit Bing yang tidak
+	sejajar. Masalah ini dibahas lenih detail dalam bab selanjutnya.
+	
+6.	**mirrored_download:**
+	Dengan plugin ini Anda dapat mendownload data OSM dengan area yang lebih luas untuk 
+	mengedit.
 
-3.  **editgpx:**
-    If you want to upload GPS tracks from a Garmin device, you might need this
-    plugin. OSM won't accept GPS tracks that have been saved on an external memory
-    card in a Garmin, but this plugin can correct the files so they can be uploaded.
-
-4.  **fieldpapers:**
-    This plugin let's you load scanned Field Papers into JOSM.
-
-5.  **imagery_offset_db:**
-    This plugin let's you cooperate with other mappers who find that the Bing
-    satellite imagery is a little bit misaligned. This issue is covered in more
-    detail in a later chapter.
-
-6.  **mirrored_download:**
-    With this plugin you can download a larger area of OSM data for editing.
-
-7.  **print:**
-    Adds a Print function, in case you would like to make quick printouts
-    of an area, that don't need to look very good.
-
-8.  **utilsplugin2:**
-    Adds many additional tools and menus to JOSM for advanced users. This is covered
-    in more detail in the [next chapter](/en/editing/josm-more-tools)
+7.	**print:**
+	Menambahkan fungsi Print, jika Anda ingin mencetak sebuah area dengan cepat, yang
+	tidak perlu terlihat sangat baik.
+	
+8.	**utilsplugin2:**
+	Menambahkan banyak tool tambahan dan menu pada JOSM untuk pengguna tingkat lanjut. Ini
+	akan dibahas lebih rinci pada [bab selanjutnya](/bi/editing/josm-more-tools)
 
 
 
