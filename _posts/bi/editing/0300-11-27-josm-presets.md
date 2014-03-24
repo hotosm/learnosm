@@ -1,27 +1,27 @@
 ---
 layout: doc
-title: JOSM Presets
+title: Preset JOSM 
 permalink: /bi/editing/josm-presets/
 lang: bi
 category: editing
 ---
 
-JOSM Presets
+Preset JOSM 
 ============
-If you've been using JOSM for long, by now you understand a bit
-about tags and presets. Every object is defined by two things - first,
-it's geometry (whether it's a point, line, or shape and its location),
-and second, its attributes which come in the form of tags.
+Jika Anda telah menggunakan JOSM dalam waktu yang lama, sekarang Anda mengerti
+sedikit mengenai tag dan preset. Setiap ojek didefinisikan dengan dua hal -
+pertama, geometri (apakah itu titik, garis, atau poligon dan lokasi), dan
+kedua, atribut yang ada dalam bentuk tag.
 
-When you draw an object and select from the Presets menu, the correct tags
-are automatically applied to the object.
+Ketika Anda menggambar sebuah objek dan memilih dari menu Presets, tag yang
+benar secara otomatis diterapkan ke objek.
 
-If you like using presets, what happens when you want to add tags that
-are not contained in the menu, or when you want to customize your own tags?
+Jika Anda ingin menggunakan preset, apa yang terjadi ketika Anda ingin menambahkan 
+tag yang tidak ada di dalam menu, atau ketika Anda ingin mengkostumisasi tag Anda sendiri?
 
-In this case, you can add custom menu items to the Presets. In this section
-we will see how to do this. In the [following chapter](/en/editing/creating-custom-presets),
-we will cover how to create custom presets files of your own.
+Pada kasus ini, Anda dapat menambahkan kustom item menu ke Preset. Pada sesi ini kita 
+akan melihat bagaimana melakukan ini. Pada [bab berikut](/bi/editing/creating-custom-presets),
+kita akan membahas bagaimana membuat file preset yang dikustom Anda sendiri.
 
 
 Add Presets

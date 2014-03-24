@@ -9,132 +9,128 @@ category: editing
 Tool Lainnya
 ============
 Plugin **buildings_tools** dan **utilsplugin2** menambah besar tambahan fungsionalitas
-ke dalam JOSm. Pada sesi ini kita akan melihat lebih dekat pada fungsi yang
+ke dalam JOSM. Pada sesi ini kita akan melihat lebih dekat pada fungsi yang
 mereka sediakan.
 
-
-The Buildings Tools Plugin
---------------------------
--   If you haven't already, install this plugin following the instructions
-    in [JOSM Plugins](/en/editing/josm-plugins).
+Plugin Building Tools
+---------------------
+*	Jika Anda belum menginstal, berikut instruksi menginstal plugin ini di 
+	[JOSM Plugins](/bi/editing/josm-plugins).
 
 ![buildings_tools plugin][]
 
-The Buildings Tools plugin is very helpful for digitizing buildings.
-It allows you to trace one side of a rectangular building, and easily
-extend the shape. If you are digitizing many buildings, this plugin
-will save you clicks, and thereby save you time.
+Plugin Building Tools sangat membantu untuk digitalisasi bangunan. Ini memungkinkan Anda 
+untuk mendijitasi satu sisi bangunan persegi, dan dengan mudah memperpanjang bentuk.
+Jika Anda mendijitasi banyak bangunan, plugin ini akan menghemat klik, dan menghemat
+waktu Anda. 
 
-Once the plugin has been installed you will see a new button on the left
-side of JOSM, which looks like this:
+Setelah plugin terinstal Anda akan melihat tombol baru di bagian sisi kiri JOSM, yang
+terlihat seperti ini:
 
 ![buildings_tools button][]
 
--   Start JOSM and create a new empty layer.
--   Select the building tool and click twice to draw a line on the map.
+*	Mulai JOSM dan membuat layer kosong baru.
+*	Pilih building tool dan klik ganda untuk menggambar sebuah garis pada peta.
 
 ![Draw edge][]
 
--   Then extend the mouse and click again to draw a rectangle.
+*	Kemudian geser mouse dan klik kembali untuk menggambar sebuah persegi.
 
 ![Extend building][]
 
--   This will not only create a rectangle with only three clicks, but
-    it will also automatically apply the building=yes tag to the shape.
+*	Ini tidak hanya membuat sebuah persegi panjang hanya tiga kali mengklik, 
+	tetapi ini juga akan secara otomatis menerapkan tag building=yes  ke poligon.
 
-### Complex Buildings
-You can also create more complicated buildings by first drawing several
-overlapping buildings and then merging them together.
 
--   Draw two buildings which over lap, so that they form an L shape.
--   Select both buildings (hold SHIFT to select more than one object).
--   Go to Tools->Join overlapping Areas or press SHIFT+J on your keyboard.
+### Bangunan Kompleks
+Anda juga dapat membuat bangunan yang lebih rumit dengan terlebih dahulu menggambar 
+beberapa bangunan overlap dan kemudian menggabungkan mereka bersama-sama. 
+
+*	Menggambar dua bangunan yang overlap, sehingga mereka berbentuk L.
+*	Pilih kedua bangunan (tahan SHIFT untuk memilih lebih dari satu objek).
+*	Pergilah ke Tools->Join overlapping Areas atau tekan SHIFT+J pada keyboard Anda.
 
 ![Merge buildings][]
 
-### Edit Settings
-Furthermore, you can alter the default settings of the plugin.
+### Edit Pengaturan 
+Selanjutnya, Anda dapat mengubah pengaturan standar dari plugin.
 
--   Go to Data->Set buildings size.
+*	Pergilah ke Data->Set buildings size.
 
 ![Set buildings size][]
 
--   If you are creating many similarly sized buildings, you can set specific
-    width and height dimensions of the buildings, such as 6 x 10 meters (the unit
-    is in meters).
+*	Jika Anda membuat banyak bangunan dengan ukuran yang sama, Anda dapat mengatur
+	lebar dan tinggi dimensi dari bangunan, seperti 6 x 10 meter (unit dalam meter).
 
 ![Set buildings size dialog][]
 
--   By setting the dimensions you will only need two clicks to create precisely
-    sized buildings.
+*	Dengan mengatur dimensi bangunan Anda hanya perlu mengklik ganda untuk membuat 
+	bangunan yang sudah diatur dimensinya.
 
-Lastly, you can click on the Advanced button if you would like to add additional
-tags that will automatically be applied to every building. For example,
-if every building you draw is on the same street, you might add a tag
-which identifies the street that will be automatically applied.
+Terakhir, Anda dapat mengklik pada tombol Advanced jika Anda ingin menambahkan
+tambahan tag yang otomatis akan diterapkan disetiap bangunan. Sebagai contoh, 
+jika semua bangunan yang Anda gambar pada jalan yang sama, Anda dapat menambahkan 
+sebuah tag yang mengidentifikasi jalan yang akan secara otomatis diterapkan.
 
 ![Buildings advanced][]
 
 
 Utilsplugin2
 -------------
--   If you haven't already, install this plugin following the instructions
-    in [JOSM Plugins](/en/editing/josm-plugins).
+*	Jika Anda belum menginstal, berikut instruksi cara menginstal plugin ini di 
+	[JOSM Plugins](/bi/editing/josm-plugins).
 
 ![utilsplugin2 plugin][]
 
-After you have installed the plugin and restarted JOSM, you will have
-a new menu at the top named "More Tools."
+Setelah Anda menginstal plugin ini dan restart JOSM, Anda akan memiliki menu baru
+di bagian atas bernama "More Tools."
 
 ![more tools menu][]
 
-Create a new layer and experiment with some of the new tools. Here we
-describe some of the most useful new tools:
+Buat layer baru dan bereksperimen dengan beberapa tool baru. Disini kita akan menjelaskan
+beberapa tools baru yang sangat berguna: 
 
-1.  **Add Nodes at Intersections:**  This tool is very helpful for adding
-    missing nodes in intersections of selected ways.  It is good
-    practice that roads should always have common nodes where
-    they intersect.
+1.  **Add Nodes at Intersections:**  Tool ini sangat berguna untuk menambahkan titik yang
+	hilang di persimpangan garis yang terpilih. Ini baik untuk dipraktekkan bahwa jalan 
+	seharusnya selalu memiliki titik dimana mereka berpotongan.
 
     ![nodes interesection][]
 
-2.  **Copy Tags from Previous Selection:**  This function makes copying tags
-    easier.  If you want to create many objects with the same tags,
-    first draw the objects.  Then add the tags to one object.  Click on
-    another object and press Shift + R to copy the tags from the
-    previously selected object.  You can do this for all objects that
-    you want to tag.  Remember that the tags will be copied from the
-    previously selected object, so if you click on an untagged object
-    and then another untagged object, you will not be able to copy any
-    tags.
+2.  **Copy Tags from Previous Selection:**  Fungsi ini untuk mengcopy tag dengan
+	mudah. Jika Anda ingin membuat banyak objek dengan tag yang sama, pertama menggambar
+	objek. Kemudian tambahkan tag ke satu objek. Klik pada objek yang lain dan tekan
+	Shift + R untuk mengcopy tag dari objek yang terpilih sebelumnya. Anda dapat 
+	melakukan ini untuk semua objek yang ingin Anda beri tag. Ingatlah bahwa tag
+	akan dicopy dari objek yang terpilih sebelumnya, jika Anda mengklik pada objek
+	yang belum diberi tag dan kemudian objek yang belum diberi tag yang lain, Anda
+	tidak akan dapat mengcopy setiap tag.
 
     ![copy tags][]
 
-3.  **Add Source Tag:** This tool simplifies adding a source tag.  It
-    remembers the source that was specified last and adds it as
-    remembered source tag to your objects.   You can insert the source
-    with just one click.  
-
-4.  **Replace Geometry:** This tool is great if you want to redraw a poorly
-    shaped object, but want to keep the history, attributes and ID
-    number of that object.  For example, if you come across a building
-    that is complicated and drawn in a poor fashion, then instead of
-    painfully changing each node, you can draw the object again,
-    select the old and new objects, and select ¨Replace Geometry¨ to
-    transfer all the information over.
+3.  **Add Source Tag:** Tool ini untuk menyederhanakan dalam menambahkan sumber tag.
+	Ini mengingat bahwa sumber yang ditentukan terakhir dan menambahkannya sebagai
+	tag sumber ke objek Anda. Anda dapat memasukkan sumber dengan hanya mengklik satu kali.
+	
+4.  **Replace Geometry:** Tool ini sangat baik jika Anda ingin menggambar kembali
+	objek yang berbentuk kurang bagus, tetapi riwayat, atribut dan ID jumlah objek
+	tersebut tetap tidak ingin diubah. Contohnya, jika Anda menemukan sebuah bangunan
+	yang rumit dan digambar dengan cara yang tidak sesuai, maka untuk mengubah setiap 
+	titiknya, Anda dapat menggambar objeknya kembali, memilih objek lama dan baru,
+	dan memilih ¨Replace Geometry¨ untuk mentransfer semua informasi di atas.
 
     ![replace geometry][]
 
 
-### More Selection Tools
-Utilsplugin2 also provides more tools on the "Selection" menu.
-Try experimenting with them.
+### Tool Selection Lebih Lanjut
+Utilsplugin2 juga menyediakan lebih banyak tool pada menu "Selection".
+cobalah bereksperimen dengan tool tersebut. 
 
 ![selection menu][]
 
-One of our favorite selection tools is **Unselect Nodes:** This tool deselects
-all nodes. This can be useful if you draw a box to select many objects, but you do not
-want to select the nodes contained within all the lines and shapes.
+Salah satu tool selection yang sering kita gunakan adalah **Unselect Nodes:** Tool ini 
+membatalkan pilihan semua titik. Ini dapat berguna jika Anda menggambar kotak untuk 
+memilih banyak objek, tetapi Anda tidak ingin memilih titik yang berisi semua garis dan
+poligon.
 
 ![unselect nodes][]
 
