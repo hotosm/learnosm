@@ -1,29 +1,30 @@
 ---
 layout: doc
-title: Creating Custom Presets
+title: Membuat Kustom Presets
 permalink: /bi/editing/creating-presets/
 lang: bi
 category: editing
 ---
 
-Creating Custom Presets
+Membuat Kustom Presets
 =======================
-In the [previous chapter](/en/editing/josm-presets) we looked at how custom
-presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.
+Pada [bab sebelumnya](/bi/editing/josm-presets) kita telah melihat bagaimana mengkostumisasi menu preset 
+yang dapat ditambahkan ke dalam JOSM. Pada bab ini kita akan membahas bagaimana membuat file preset kustom 
+Anda sendiri.
 
-WARNING! This is an advanced topic... consider yourself warned!
+PERINGATAN ! Ini adalah topik tingkat lanjut... pertimbangkanlah !
 
-Introduction to XML
--------------------
-In order to create our own Presets menu, we first need to understand a language called XML. If you're already familiar with XML feel free to jump the next section.
+Pengenalan XML
+---------------
+Untuk membuat menu Presets sendiri, pertama kita perlu memahami sebuah bahasa yang bernama XML. Jika Anda sudah mengenal dengan XML silakan melanjutkan ke sesi berikutnya. 
 
-XML, which stands for “Extensible Mark-up Language”, is a computer language similar to HTML.  The key difference is that XML is designed to carry data, not display it.  Many applications on the internet use XML to transmit data, including OpenStreetMap.  XML uses elements, and each element can contain child elements inside it.  For example, let’s imagine that we want to create an XML file that contains data about a restaurant menu.  We must create a root element to contain all the data about our menu.  Our root element will have an opening and a closing tag, like this:
+XML, singkatan dari “Extensible Mark-up Language”, adalah bahasa komputer hampir sama dengan HTML. Perbedaan utama adalah bahwa XML yang didesain untuk membawa data, tidak menampilkannya. Banyak aplikasi di internet menggunakan XML untuk mengirimkan data, termasuk OpenStreetMap. XML menggunakan elemen, dan setiap elemen dapat berisi elemen anak di dalamnya. Contohnya, mari bayangkan kita ingin membuat sebuah file XML yang berisi data mengenai menu restoran. Kita harus membuat elemen root untuk mengisi semua data mengenai menu kita. Elemen root kita akan memiliki tag pembukaan dan penutupan, seperti ini:
 
 	<menu>
-      ... whatever data we want to include in our menu ...
+      ... data apa pun yang ingin kita masukan ke dalam menu kita ...
 	</menu>
 
-Information is contained inside an element, and within each element there can be more elements.
+Informasi yang berisi di dalam sebuah elemen, dan dalam setiap elemen dapat lebih banyak elemen.
 
   	<menu>
 	  <item name=“Hamburger”>
@@ -36,28 +37,27 @@ Information is contained inside an element, and within each element there can be
 	  </item>
   	</menu>
 
-In this example we have placed two &lt;item&gt; elements within our &lt;menu&gt; element to describe two different items that are contained in the menu.  Each item contains two more elements in them, &lt;cost&gt; and &lt;description&gt;.  Notice also how we have written name=”Hamburger” inside the opening &lt;item&gt; tag.  This is called an attribute, and adds information about the element.
+Pada contoh ini kita telah menempatkan dua &lt;item&gt; elemen di dalam elemen &lt;menu&gt; kita untuk mendeskripsikan dua item yang berbeda yang terkandung dalam menu. Setiap item
+berisi dua elemen lebih di dalamnya, &lt;cost&gt; dan &lt;description&gt;. Perhatikan juga bagaimana kita menulis name=”Hamburger” di dalam pembukaan &lt;item&gt; tag. Ini bernama sebuah atribut, dan menambahkan informasi mengenai elemen.
 
+### Istilah XML
+*	**elemen root:** elemen terluar dari sebuah dokumen XML, yang menjelaskan apa yang terkandung di dalamnya
+*	**elemen:** objek XML, yang diisi dengan tag pembukaan dan penutupan, seperti &lt;item&gt; ... data ... &lt;/item&gt;
+*	**tag:** sesuatu yang berisi di dalam tanda kurung, seperti &lt;item&gt;.  &lt;item&gt; adalah tag pembukaan
+	dari elemen, dan &lt;/item&gt; adalah tag penutup. Jangan mempermasalahkan ini dengan tag OSM, yang memiliki
+	perbedaan arti.
+*	**atribut:** sepotong informasi yang terkandung di dalamnya sebuah tag, seperti name=“Hamburger”
 
-### XML Terminology
--	**root element:** the outermost element of an XML document, which describes what is contained
--	**element:** any XML object, contained by opening and closing tags, such as &lt;item&gt; ... data ... &lt;/item&gt;
--	**tag:** something contained in brackets, such as &lt;item&gt;.  &lt;item&gt; is the
-	opening tag of an element, and &lt;/item&gt; is the closing tag. Don't confuse this
-	with OSM tags, which have a different meaning.
--	**attribute:** a piece of information contained inside a tag, such as name=“Hamburger”
+Penggunaan XML untuk menahan dan mengirim data yang besar karena ini mudah untuk dipahami oleh komputer.
 
-Using XML to hold and transmit data is great because it is easy to understand for computers.
+File Preset JOSM
+-----------------
+Mari menambahkan contoh file preset ke dalam JOSM dan menganalis cara kerjanya.
 
-
-JOSM Presets Files
--------------------
-Let's add a sample presets file into JOSM and analyze how it works.
-
--	Download the file [sample_presets.xml](/files/sample_presets.xml).
--	Then load it into JOSM as described in the [previous chapter](/en/editing/josm-presets).
--	Create a new layer and a new object.
--	Go the the Presets menu. There will be a new item named "Sample Building." Click on it.
+*	Download file [sample_presets.xml](/files/sample_presets.xml).
+*	Kemudian memuatnya ke dalam JOSM seperti yang dijelaskan pada [bab sebelumnya](/bi/editing/josm-presets).
+*	Membuat sebuah layer baru dan objek baru.
+*	Pergilah ke menu Presets. Akan ada item baru yang bernama "Sample Building". Klik di atasnya.
 
 ![sample building menu][]
 

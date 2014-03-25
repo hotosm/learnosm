@@ -23,52 +23,51 @@ Pada kasus ini, Anda dapat menambahkan kustom item menu ke Preset. Pada sesi ini
 akan melihat bagaimana melakukan ini. Pada [bab berikut](/bi/editing/creating-custom-presets),
 kita akan membahas bagaimana membuat file preset yang dikustom Anda sendiri.
 
+Menambahkan Preset
+------------------
+Menu dan submenu membentuk menu Presets yang disimpan pada file yang menjelaskan 
+bagaimana membuat menu dan form isian yang muncul ketika Anda klik pada sebuah preset,
+dan bagaimana mendefinisikan tag apa yang ditambahkan ke sebuah objek berdasarkan
+bagaimana form isian tersebut diisi.
 
-Add Presets
------------
-The menus and submenus that make up the Presets menu are stored in files
-which describe how to create the menus and forms that come up when you
-click on a preset, and how to define what tags are added to an object
-based on how the form is filled out.
+File preset dapat ditambahkan dari arsip online, atau disimpan dalam komputer Anda dan
+ditambahkan ke dalam JOSM.
 
-Presets files can either be added from an online archive, or saved on your
-computer locally and added into JOSM.
-
--	To add a new entry to the Presets menu, open JOSM and go to Edit->Preferences.
--	Click on the third tab down, which looks like a grid covering the planet.
+*	Untuk menambahkan sebuah catatan baru ke menu Preset, buka JOSM dan pergilah ke Edit->Preferences.
+*	Klik pada tab ketiga di bagian bawah, yang terlihat seperti grid yang menutupi planet.
 
 ![tagging presets tab][]
 
--	At the top, click on "Tagging Presets."
+*	Di bagian atas, klik pada "Tagging Presets."
 
 ![tagging presets menu][]
 
--	Add a presets file from the internet by selecting one in the list on
-	the left, and clicking on the blue arrow. In this example, we will
-	add the presets named "Buildings Indonesia by Kate Chapman."
-
+*	Menambahkan file preset dari internet dengan memilih salah satu pada daftar di sbelah kiri,
+	dan mengklik tanda panah berwarna biru. Pada contoh ini, kita akan menambahkan preset bernama
+	"Buildings Indonesia by Kate Chapman."
+	
 ![example presets][]
 
--	You will see a new item appear in the list on the right.
--	Click OK.
--	You will need to restart JOSM.
--	Create a new layer and add a point or shape.
--	Go to the Presets menu. Click on the item named "Building," which
-	has now been added at the bottom of the menu.
+*	Anda akan melihat item baru yang muncul di daftar sebelah kanan.
+*	Klik OK.
+*	Anda perlu merestart JOSM.
+*	Membuat layer baru dan menambahkan sebuah titik atau poligon.
+*	Pergilah ke menu Preset. Klik pada item yang bernama "Building", 
+	yang saat ini telah ditambahkan di bagian bawah menu.
 
 ![indonesia building form][]
 
--	If you don't speak Indonesian, this might be hard to read, but
-	nonetheless you have been successful and added a custom preset menu.
-
--	If you have been given a custom presets file, you can add it to the menu
-	in a similar way. Simply return to the Preferences menu, and instead
-	of selecting from the list, click on the (+) button in the upper right.
+*	Jika Anda tidak berbicara Indonesia, ini mungkin sulit dibaca, namun Anda 
+	telah berhasil dan menambahkan menu preset yang dikustom.
+	
+*	Jika Anda telah diberi file preset yang dikustom, Anda dapat menambahkannya
+	ke menu dengan cara yang hampir sama. Cukup kembali ke menu Preferences, dan
+	sebagai gantinya memilih dari daftar, klik pada tombol (+) di sebelah kanan atas.
 
 ![plus button][]
 
--	Locate your file and give it a name if you like.
--	Click OK.
+*	Letakan file Anda dan memberinya sebuah nama jika Anda suka.
+*	Klik OK.
 
 
 [tagging presets tab]: /images/en/editing/josm-presets/tagging-presets-tab.png
