@@ -61,22 +61,26 @@ Mari menambahkan contoh file preset ke dalam JOSM dan menganalis cara kerjanya.
 
 ![sample building menu][]
 
-Notice that the form which appears has three fields in it, and each accepts a different type of input. The first field, building name, accepts a text string as input. The second, building use, has a dropdown box. The final field is a check box, meaning that it can only have one of two values, on or off.
+Perhatikan bahwa form yang muncul memiliki tiga field di dalamnya, dan masing-masing menerima jenis input yang berbeda. Fiels pertama, nama bangunan, menerima sebuah string teks sebagai input. Kedua, penggunaan bangunan, memiliki kotak daftar pilihan. Field terakhir adalah kotak centang, berarti ini hanya dapat memiliki satu dari dua value, on atau off.
+
 
 ![sample presets form][]
 
-Now let's look at the XML file which defines this Preset form.
+Sekarang mari lihat di file XML yang mendefinisikan form Preset ini. 
 
--	Find the XML file on your computer and open it with a text editor. If you are using Windows you can use the Notepad 	program. If you want a more easy-to-use editor, you might download the free Notepad++ application.
--	The **sample_presets.xml** file looks like this:
+*	Carilah file XML pada komputer Anda dan bukelah dengan text editor. Jika Anda menggunakan Windows Anda dapat menggunakan program Notepad. Jika Anda ingin lebih mudah dalam
+	penggunaan editor, Anda mungkin mendownload aplikasi Notepad++ gratis.
+*	File **sample_presets.xml**  terlihat seperti ini:
 
 ![sample presets file][]
 
-For now, let's ignore the first six lines and the final line, and focus on everything between the &lt;item&gt; tags.
+Untuk saat ini, mari kita abaikan garis enam pertaman dan garis terakhir, fokus pada segala sesuatu diantara tag &lt;item&gt;.
 
-The first line looks like this:
+Garis pertama terlihat seperti ini: 
 
 	<item name="Sample Building" type="node,closedway">
+
+Ini adalah tag pembukaan dari sebuah item yang ditambahkan ke menu. Ini memiliki dua atribut, nama dan tipe. Nama mendefinisikan bagaimana ini akan muncul pada menu Preset. Tipe 
 
 This is the opening tag of an item which is added to the menu. It has two attributes, name and type. The name defines how this will appear on the Presets menu. The type limits this preset to specific types of objects. In this case, the preset can only be applied to points and shapes - in other words, nodes and closed ways. If you try to apply this preset to a line, it won't work.
 

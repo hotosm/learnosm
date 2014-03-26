@@ -1,150 +1,147 @@
 ---
 layout: doc
-title: JOSM Relations
+title: Relasi JOSM
 permalink: /bi/editing/josm-relations/
 lang: bi
 category: editing
 ---
 
-Relations
+Relasi
 ==========
-In the [Beginner’s Guide](/en/beginner) we explained that there are three
-types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and
-polygons (closed ways). Lines contain numerous points, and the line itself carries
-the attributes that define what it represents.  Polygons are the same as
-lines, except that the the line must finish where it begins in order to
-form a shape.
+Dalam [Panduan Beginner](/bi/beginner) kita telah menjelaskan bahwa terdapat tiga jenis
+objek yang dapat digambar di OpenStreetMap - titik (node), garis (way), dan poligon 
+(closed way). Garis berisi banyak titik, dan garis itu sendiri membawa atribut yang 
+mendefinisikan apa yang diwakilinya. Poligon adalah sama seperti garis, kecuali garis
+yang harus menyelesaikan dimana ini dimulai untuk membentuk poligon.
 
-In fact, we lied to you, because there is one other type of object in OpenStreetMap,
-called relations.  In the same way that a line consists of other
-points, a relation contains a group of other objects, be they points,
-lines, or polygons.  If you are looking to advance your editing
-skills, then understanding and knowing how to properly edit relations is
-important.
+Pada faktanya, kita berbohong pada Anda, karena terdapat satu jenis objek lain di
+OpenStreetMap, bernama relasi. Dengan cara yang sama bahwa garis terdiri dari 
+titik lainnya, relasi berisi kelompok objek lainnya, seperti titik, garis, atau
+poligon. Jika Anda mencari untuk meningkatkan keterampilan mengedit Anda, kemudian
+memahami dan mengetahui bagaimana mengedit relasi yang penting.
 
-For example, imagine that you want to map a building that has courtyards
-in the center.  You would need to draw a polygon around the outside of
-the building, and you would want other polygons around the courtyards
-to indicate that they are not part of the building.  This is an example
-of a relation.  The relation would contain several polygons - and the
-attributes of the building would be attached to the relation, not the
-polygons.
+Contohnya, bayangkan bahwa Anda ingin memetakan sebuah bangunan yang memiliki 
+halaman di tengahnya. Anda perlu untuk menggambar sebuah poligon disekitar 
+luar bangunan, dan Anda ingin poligon lain di sekitar halaman untuk mengindikasi
+mereka bukan bagian dari bangunan. Ini adalah sebuah contoh relasi. Relasi
+berisi beberapa poligon - dan atribut bangunan yang akan dilampirkan ke relasi, 
+bukan poligon.
 
 ![multipolygon demo][]
 
-Relations are used to represent anything that requires a collection of
-objects to define.  Other examples are bus routes (a collections of
-lines), long and complex objects (rivers or roads), or multiple polygons
-that are all part of one location (like buildings in a university).
+Relasi digunakan untuk mewakili apapun yang memerlukan kumpulan objek untuk
+didefinisikan. Contoh lain adalah rute bus (kumpulan garis), objek panjang
+dan kompleks (sungai atau jalan), atau beberapa poligon yang semuanya bagian
+dari satu lokasi (seperti bangunan di dalam universitas).
 
-There are mainly four types of relations you will encounter in OSM:
-Multipolygons, Routes, Boundaries, and Restrictions (such as, no left
-turns).  In this section we will cover Multipolygons and Routes.
+Terdapat empat jenis relasi utama Anda akan hadapi di OSM:
+Multipoligon, Rute (Routes), Batas (Boundaries), dan Larangan (seperti tidak boleh 
+berbelok ke kiri). Pada sesi ini kita akan membahas Multipoligon dan Rute.
 
-Creating Multipolygon Relations
--------------------------------
-Let's see how to create a multipolygon relation like the one shown above.
+Membuat Relasi Multipoligon
+------------------------------
+Mari kita lihat bagaimana membuat relasi multipoligon seperti yang ditunjukkan di atas.
 
--   First, draw your shapes. In this case we will draw three polygons, an
-    outer rectangle, and two smaller rectangles.
+*	Pertama, menggambar poligon Anda. Dalam kasus ini kta akan menggambar tiga poligon, 
+	sebuah persegi panjang terluar, dan dua persegi panjang terkecil.
 
 ![multipolygon ways][]
 
--   Select all of the polygons. Remember you can select multiple objects
-    by holding SHIFT and clicking on each.
--   Go to *Presets->Man Made->Man Made->Building*.
+*	Pilih semua poligon. Ingatlah Anda dapat memilih beberapa objek dengan menahan 
+	SHIFT dan mengklik pada masing-masing objek.
+*	Pergilah ke *Presets->Man Made->Man Made->Building*.
 
 ![building preset][]
 
--   Click on "New Relation."
+*	Klik pada "New Relation".
 
 ![new relation][]
 
--   You should now see the relations window. This is a little bit complex
-    because now you are adding tags to a collection of ways.
+*	Anda seharusnya saat ini melihat jendela relasi. Ini sedikit kompleks
+	karena saat ini Anda menambahkan tag ke kumpulan garis.
 
 ![building relation][]
 
--   Observe that at the top of the panel are the tags for the relation. These tags
-    work the same way as tags always work.
--   At the bottom is a list of the members of the relation. This relation has
-    three members - that is, the three ways that are part of our relation.
--   We need to do a couple things to finish defining our multipolygon. First,
-    notice that because we used the building preset we already have one tag
-    defined for us, *building=yes*. We need to add one more tag that defines
-    the **type** of the relation. We must add a tag that says *type=multipolygon*.
--   Click in the tag box and add this tag.
+*	Perhatikan bahwa pada bagian atas panel adalah tag untuk relasi. Tag ini bekerja
+	dengan cara yang sama seperti tag selalu bekerja.
+*	Di bagian bawah adalah daftar anggota relasi. Relasi ini memiliki tiga anggota -
+	yaitu tiga cara yang merupakan bagian dari relasi kita.
+*	Kita perlu melakukan beberapa hal untuk menyelesaikan penjelasan multipoligon kita. 
+	Pertama, perhatikan bahwa karena kita meggunakan preset bangunan maka kita sudah
+	memiliki satu tag yang terdefinisi, *building=yes*. Kita perlu menambahkan lebih dari
+	satu tag yang mendefinisikan **jenis** relasi. Kita harus menambahkan tag yang
+	bernama *type=multipolygon*. 
+*	Klik pada kotak tag dan menambahkan tag ini.
 
 ![type multipolygon][]
 
--   Next we need to define what are called **roles**. Each member of a relation
-    has a role, which indicates what that member's purpose is. In this case, the
-    role of the outside polygon must be defined as **outer** and the role of the
-    two inner polygons must be defined as **inner**. These are the roles that are
-    available for members of a multipolygon.
--   In the lower left panel select each member in the list. You can see the member
-    that is selected will be highlighted in the map window. Enter **outer** and
-    **inner** for the correct polygons.
+*	Selanjutnya kita perlu mendefinisikan apa yang disebut dengan **peran**. Setiap anggota 
+	relasi memiliki peran, yang menunjukan tujuan dari anggotanya. Dalam kasus ini, peran
+	poligon luar harus didefinisikan sebagai **outer** dan peran dua poligon terdalam harus
+	didefinisikan sebagai **inner**. Ini adalah peran yang ada untuk anggota multipoligon.
+*	Pada panel kiri bawah pilih masing-masing anggota di daftar. Anda dapat melihat anggota
+	yang terpilih akan disorot pada jendela peta. Masukkan **outer** dan **inner** untuk poligon
+	yang benar.
 
 ![outer inner][]
 
--   Click OK and your multipolygon relation is complete!
+*	Klik OK dan relasi multipoligon Anda telah selesai!
 
 ![new multipolygon][]
 
-When you create a multipolygon like this it will be rendered on the map like so:
+Ketika Anda membuat sebuah multipoligon seperti ini akan dirender pada peta seperti:
 
 ![multipolygon mapnik][]
 
-Multipolygons can be used for any complex object that requires inner and outer polygons, like
-a building or a river with patches of land inside it. Detailed multipolygon information can be
-found on the [OSM Wiki](http://wiki.openstreetmap.org/wiki/Relation:multipolygon).
+Multipoligon dapat digunakan untuk objek yang kompleks yang membutuhkan poligon inner dan outer,
+seperti bangunan atau sungai dengan tambalan tanah di dalamnya. Informasi mengenai multipoligon
+lebih detai dapat ditemukan di [OSM Wiki](http://wiki.openstreetmap.org/wiki/Re:multipolygon).
 
-Route Relations
-----------------
-Relations are also very useful for representing long routes. For example, a bus
-or bicycle route follows various road segments. To define such a route, we can
-create a relation which contains all of the road segments that are part of the route.
-Additional features, such as bus stops can also be members of a route relation.
+Relasi Rute
+---------------
+Relasi juga sangat berguna untuk mewakili rute panjang. Contohnya, rute bus atau sepeda mengikuti 
+berbagai segmen jalan. Untuk menentukan rute seperti itu, kita dapat membuat relasi yang berisi
+semua segmen jalan yang merupakan bagian dari rute. Fitur tambahan, seperti pemberhentian bus 
+juga dapat menjadi anggota relasi rute.
 
 ![route relation][]
 
-Let's see how to create a relation for a bus route in JOSM:
+Mari kita lihat bagaimana membuat relasi untuk rute bus di JOSM:
 
--   First, select all of the ways which the route runs along. You may need to
-    split some streets into separate segments if only part of them belong to
-    the relation. You can do this using the "Split Way" tool.
--   When all the segments are selected, go to *Presets->Transport->Public Transport->
+*	Pertama, pilih semua jalan yang membentang di sepanjang rute. Anda perlu memotong beberapa
+	jalan menjadi segmen terpisah jika hanya sebagian dari mereka memiliki relasi. Anda dapat
+	melakukan ini menggunakan tool "Split Way".
+*	Kemudian semua segmen terpilih, pergilah ke *Presets->Transport->Public Transport->
     Public transport route*.
 
 ![public transport preset][]
 
--   Next to Route type, select "bus."
--   Click "New Relation." You will see the relation window pop up, just as when
-    you create a multipolygon.
+*	Selanjutnya untuk jenis Rute, pilih "bus".
+*	Klik "New Relation." Anda akan melihat jendela relasi muncul, hanya seperti ketika Anda
+	membuat multipoligon.
 
 ![bus route relation][]
 
--   Notice that there are already tags which define the relation as a route. Instead
-    of *type=multipolygon*, we have *type=route*. We also have a tag defining it as
-    a bus route, as opposed to another type of route.
--   You may now think, what should the **role** of the members be? Well, in the case
-    of a route, we don't need to define the role of the members. By leaving the role blank
-    the software knows that they are simply part of the route. We could also define the role
-    of each segment as **route**, but it is not necessary.
--   Click OK and your route relation will be complete!
+*	Perhatikan bahwa terdapat tag yang mendefinisikan relasi sebagai rute. Bahkan dari 
+	*type=multipolygon*, kita memiliki *type=route*. Kita juga memiliki sebuah tag yang
+	mendefinisikan sebagai rute bus, sebagai lawan jenis rute lain.
+*	Anda saat ini berpikir, apa **peran** dari anggota? Dalam kasus ini, rute kita tidak 
+	perlu mendefinisikan peran anggota. Dengan meninggalkan peran kosong perangkat lunak
+	mengetahui bahwa mereka hanyalah bagian dari rute. Kita juga dapat mendefinisikan peran
+	setiap segmen sebagai **rute**, tetapi itu tidak perlu.
+*	Klik OK dan relasi rute Anda akan selesai!
 
->   If you want a list of all the relations on the map, you can open the relations panel
->   by clicking on this button on the left:
+>	Jika Anda ingin daftar semua relasi di dalam peta, Anda dapat membuka panel relasi
+>	dengan mengklik pada tombol ini di bagian kiri:
 >   ![relation panel button][]
->   This will open a panel where you can select, edit, and create new relations.
+>   Ini akan membuka sebuah panel dimana Anda dapat memilih, mengedit, dan membuat relasi baru.
 
-Summary
--------
-Relations can be difficult to understand and do not need to be used often,
-but they are necessary to know about. Every so often you may realize that you
-need a relation to map something correctly, and you can use this knowledge, and find
-more information on the OSM Wiki, to help you map relations correctly.
+Ringkasan
+---------
+Relasi dapat sulit dipahami dan tidak perlu digunakan terlalu sering, tetapi mereka perlu
+tahu tentang ini. Begitu sering Anda gunakan mungkin menyadari bahwa Anda perlu sebuah 
+relasi untuk memetakan sesuatu dengan benar, dan Anda dapat menggunakan pengetahuan ini, dan
+menemukan informasi lebih lanjut pada Wiki OSM, untuk membantu Anda memetakan relasi dengan tepat.
 
 
 
