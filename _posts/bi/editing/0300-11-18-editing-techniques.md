@@ -1,67 +1,67 @@
 ---
 layout: doc
-title: Editing Techniques
+title: Tips Editing
 permalink: /bi/editing/josm-editing-techniques/
 lang: bi
 category: editing
 ---
 
-Editing Techniques: Common Mistakes
+Tips Editing: Kesalahan Umum
 ====================================
-There are a number of common mistakes that mappers make when they start
-using OpenStreetMap. In this chapter we'll identify a few of the most
-frequent errors and offer some tips for mapping better.
+Ada beberapa kesalahan umum pembuat peta ketika mereka memulai menggunakan
+OpenStreetMap. Pada bab ini kita akan mengidentifikasi beberapa kesalahan
+yang sering dilakukan dan menawarkan beberapa tips untuk memetakan lebih baik.
 
-Connecting Objects
--------------------
+Objek yang Saling Terhubung
+----------------------------
 
-### Some Objects Should Not Connect
-When you are creating polygons and lines that are not supposed to be
-connected, make sure that they are not merged together by sharing a
-node.  For example, highway nodes should not be snapped to buildings,
-because no one likes a road that leads directly into a wall!  If you
-want to disconnect two or more objects that share the same node, select
-the node and go to *Tools->UnGlue Ways* or press \<\<G\>\>.
+### Beberapa Objek Sebaiknya Tidak Terhubung
+Ketika Anda membuat poligon dan garis yang tidak seharusnya terhubung, pastikan
+bahwa mereka tidak terhubung oleh satu titik. Contohnya, titik jalan raya 
+sebaiknya tidak menempel ke bangunan, karena tidak ada jalan yang langsung
+menempel ke dinding! Jika Anda ingin memutuskan hubungan dua atau lebih objek
+yang menempel di titik yang sama, pilih titik dan pergilah ke *Tools->UnGlue Ways*
+atau tekan \<\<G\>\>.
 
 ![road building no][]
 ![road building yes][]
 
-### But, Some Objects Should Connect!
-Roads that intersect should always share a node. If they do not share a common node,
-then the computer has no way of knowing that the roads actually connect
-to each other.
+### Tetapi, Beberapa Objek Harus Terhubung
+Jalan yang bersinggungan seharusnya selalu terhubung pada titik. Jika mereka 
+tidak terhubung pada satu titik, maka komputer tidak mengetahui bahwa jalan
+tersebut sebenarnya saling terhubung satu sama lain.
 
 ![road connecting nodes][]
 
-The only time that you would NOT have intersecting roads share a node is
-if one of the roads goes over the other road, and they do not, in fact, connect.
+Pada saat itu Anda tidak memiliki jalan yang saling berpotongan pada satu titik
+adalah jika salah satu jalan berjalan di atas jalan lain, dan mereka tidak 
+melakukannya, faktanya, terhubung.
 
-Overlapping Objects
---------------------
-A common error is to have overlapping polygons when the objects they
-represent do not overlap in real life.  A building cannot overlap
-another building.  This mistake is commonly made with buildings and
-landuse polygons.  For example, a polygon drawn to represent a park
-outside a building should not overlap with the building.  Instead it
-should be drawn next to the building.
+Objek yang Saling Overlap
+-------------------------
+Salah satu kesalahan umum adalah poligon saling overlap ketika objek yang
+digambarkan sebenarnya tidak saling overlap. Sebuah bangunan tidak bisa 
+overlap dengan bangunan yang lain. Sebagai contoh, poligon yang dibangun
+untuk menggambarkan taman diluar bangunan sebaiknya tidak saling overlap
+dengan bangunannya. Seharusnya digambar di sebelah bangunannya. 
 
 ![building overlap][]
 
-There are some exceptions to this rule, such as schools.  Within a
-school yard you might identify individual buildings using polygons, yet
-you also might want to create a polygon around the entire school yard.
-In this case it is fine for the polygons to overlap, but the rule to
-follow here is to make sure that the buildings are completely inside the
-landuse polygon.
+Ada beberapa pengecualian pada aturan ini, seperti sekolah. Di dalam 
+halaman sekolah mungkin Anda ingin mengidentifikasi bangunan menggunakan
+poligon, tapi mungkin Anda juga ingin membuat sebuah poligon yang meliputi 
+seluruh halaman sekolah. Dalam kasus seperti ini, poligon diperbolehkan untuk
+saling overlap, tetapi aturannya adalah pastikan bahwa bangunan-bangunan 
+secara menyeluruh berada dalam poligon penggunaan lahan. 
 
 ![building landuse][]
 
-Summary
---------
-We all make mistakes, but the more you map the less you will make less mistakes!
-Just remember that even if you upload data that contains mistakes, you can always
-fix your mistakes and upload the changes again.  This is
-what is great about OSM: you can always make it better!
+Ringkasan
+---------
+Kita semua membuat kesalahan, tetapi semakin sering Anda memetakan semakin 
+sedikit Anda melakukan kesalahan! Ingatlah bahwa jika Anda mengupload data yang 
+berisi kesalahan, Anda dapat memperbaiki kesalahan Anda dan mengupload perubahan
+kembali. Inilah hebatnya OSM: Anda dapat membuatnya selalu lebih baik!
 
 
 [road building no]: /images/en/editing/josm-editing-techniques/road-building-no.png

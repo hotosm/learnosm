@@ -1,49 +1,52 @@
 ---
 layout: doc
-title: Correcting Imagery Offset
+title: Pergeseran Citra Satelit 
 permalink: /bi/editing/correcting-imagery-offset/
 lang: bi
 category: editing
 ---
 
-Imagery Offset
-===============
-Imagery providers usually do a pretty good job of georeferencing their imagery,
-but occasionally the images can be out of position.  This is particularly true
-in hilly or mountainous areas, where it can be difficult to stretch a flat image
-over an area of the Earth with many contours.  When you load imagery in JOSM,
-it can sometimes be ten meters or more from its true position.  This is called
-**imagery offset**.
+Pergeseran Citra Satelit
+========================
+Penyedia citra satelit tidak dapat memeriksa akurasi dari setiap foto, 
+sehingga koordinat dapat bergeser dari posisi yang sebenarnya. Hal ini berlaku
+terutama pada daerah perbukitan atau pegunungan, dimana ini
+akan sulit untuk diregangkan menjadi gambar datar di permukaan Bumi dengan
+banyak kontur. Ketika Anda memasukkan citra satelit di JOSM, ini biasanya 
+dapat mencapai sepuluh meter atau lebih dari posisi sebenarnya. Ini yang
+dinamakan **pergeseran citra satelit**.
 
-Notice in the following image that two separate aerial photographs have been
-georeferenced and merged together.  Because georeferencing is not a perfect
-process, the images do not line up perfectly with each other.  Hence one, or
-both, must be inaccurate.
+Perhatikan pada gambar berikut bahwa dua foto udara yang terpisah telah
+digeoreferensi dan digabungkan bersama. Karena georeferensi tidak sempurna
+prosesnya, gambar tidak bertampalan dengan sempurna satu sama lain. Oleh
+karena itu salah satu atau keduanya harus akurat.
 
 ![misaligned images][]
 
-We’ve learned about two major ways of making maps - one is by utilizing aerial
-imagery to identify features on the ground, and another is by using GPS to record
-tracks and waypoints and then add them to OpenStreetMap.  The advantage of aerial
-imagery is obvious.  It enables you, the mapper, to see the whole picture, to
-observe various details from the image, consider your knowledge of the area, and
-easily trace roads, buildings, and areas.  One key advantage of GPS however, is
-that it doesn’t suffer from offset like imagery.  A GPS will always provide you
-with a correct latitude and longitude.  The only exception is when the satellite
-signals are interrupted by tall buildings or mountains, but in this case it is
-easy to recognize the error.  Observe the GPS trace in this image, compared with
-the Bing aerial imagery layer beneath it:
+Kita telah mempelajari mengenai dua cara utama dalam pembuatan peta - pertama 
+yaitu memanfaatkan citra udara untuk mengidentifikasi objek-objek pada permukaan,
+dan kedua adalah menggunakan GPS untuk merekam trek dan waypoint kemudian menambahkan
+mereka ke OpenStreetMap. Keuntungan melalui citra yaitu lebih jelas. Hal ini memungkinkan
+Anda, pembuat peta, melihat keseluruhan gambar, untuk mengamati berbagai detail dari
+gambar, mendapatkan pengetahuan mengenai daerah tersebut, dan dengan mudah 
+menggambar jalan, bangunan, dan daerah. Salah satu keuntungan dari GPS adalah 
+tidak mengalami pergeseran seperti citra satelit. Sebuah GPS akan selalu memberikan 
+posisi lintang dan bujur yang tepat. Salah satu kerugiannya adalah sinyal satelit 
+tersebut dapat diganggu oleh bangunan tinggi dan pegunungan, tetapi dalam kasus ini
+sangatlah mudah untuk mengetahui kesalahan. Tampilkan trek GPS pada gambar citra 
+satelit ini dan bandingkan dengan citra Bing dibawahnya:
 
 ![aerial vs gps][]
 
-Because of what we now know, it is clear that the GPS trace is likely to be accurate,
-and the image beneath it is out of place.
+Dengan begitu kita akan tahu bahwa trek GPS akurat dan citra satelit dibawahnya 
+mengalami pergeseran.
 
-So now we must ask, “if the imagery may be out of place, how can we still use it and
-make accurate maps?”
+Sekarang kita pasti akan bertanya, “jika citra satelit mengalami pergeseran, 
+bagaimana kita dapat menggunakan dan membuat peta yang akurat?”
 
-Correcting Imagery Offset
--------------------------
+Memperbaiki Pergeseran Citra Satelit
+-------------------------------------
+
 The answer to the preceding question is that we can move the imagery so that it aligns
 with things that we know are in the correct location, such as GPS tracks.  It is easy
 to correct imagery offset in JOSM.
