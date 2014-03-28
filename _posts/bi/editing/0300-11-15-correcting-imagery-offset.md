@@ -46,199 +46,208 @@ bagaimana kita dapat menggunakan dan membuat peta yang akurat?”
 
 Memperbaiki Pergeseran Citra Satelit
 -------------------------------------
+Jawaban untuk pertanyaan sebelumnya adalah kita dapat menggeser citra satelit agar sesuai 
+dengan posisi yang kita ketahui adalah posisi yang tepat, seperti trek GPS. Hal ini sangat
+mudah untuk memperbaiki pergeseran citra satelit di JOSM.
 
-The answer to the preceding question is that we can move the imagery so that it aligns
-with things that we know are in the correct location, such as GPS tracks.  It is easy
-to correct imagery offset in JOSM.
+Salah satu referensi terbaik untuk mengatur citra satelit adalah menggunakan trek GPS yang 
+mengikuti jalan. Semakin banyak trek GPS yang Anda miliki, semakin akurat Anda untuk memperbaiki
+pergeseran citra satelit. Saat ini pengguna OpenStreetMap seringkali mengupload trek GPS
+mereka kedalam database OSM, kita dapat mengunduhnya dan menggunakannya untuk memperbaiki 
+posisi citra satelit kita.
 
-The best references for adjusting imagery are GPS tracks that follow roads.  And the
-more GPS tracks that you have to reference, the more accurate you will be able to align
-your imagery.  Since OpenStreetMap users often upload their GPS tracks to the OSM database,
-we can download them and use them to align our imagery.
-
--	Click on the download button.
+*	Klik pada tombol download.
 
 ![josm download button][]
 
--	Check the box next to “Raw GPS Data” near the top of the Download window.
-	Select your area and click “Download.”
-
+*	Centang kotak di samping tulisan "Raw GPS Data" di bagian atas jendela Download.
+	Pilih area Anda dan klik "Download".
+	
 ![raw gps data][]
 
--	This will download an additional layer to JOSM containing GPS tracks.
-	Depending on how many tracks have been uploaded by OSM users, you may
-	see few tracks (or even no tracks):
+*	Ini akan mendownload layer tambahan pada JOSM yang berisi trek GPS. Tergantung
+	pada berapa banyak trek yang telah diupload oleh pengguna OSM, Anda mungkin
+	melihat beberapa trek (atau bahkan tidak ada trek sama sekali):
 
 ![osm gps tracks few][]
 
--	Or, you may see many tracks:
+*	Atau, Anda mungkin melihat banyak trek:
 
 ![osm gps tracks many][]
 
--	To adjust an imagery layer, click on the “Adjust imagery offset” button at
-	the top of JOSM.
+*	Untuk mengatur layer citra satelit, klik pada tombol “Adjust imagery offset” 
+	di bagian atas JOSM.
 
 ![adjust imagery offset button][]
 
--	Ignoring the box that pops up, use your mouse to drag the imagery layer so
-	that it aligns correctly with the GPS tracks.  The GPS tracks should line
-	up with the roads on the imagery as closely as possible.  You will see the
-	offset numbers in the box change.
-
+*	Abaikan kotak yang muncul, gunakan mouse Anda untuk menggeser citra satelit
+	sehingga posisi sejajar dengan trek GPS. Trek GPS seharusnya terposisikan
+	sama dengan jalan pada citra satelit sedekat mungkin. Anda akan melihat angka
+	pergeseran akan berubah di dalam kotak tersebut.
+	
 ![adjust imagery offset][]
 
--	If you like, you can save these offset settings by entering a bookmark name
-	and then clicking OK.  You can then automatically apply the same settings
-	later by going to Imagery ‣ Imagery offset and clicking on your bookmark.
--	If you do not want to save the offset, simply click OK without entering a bookmark name.
+*	Jika Anda suka, Anda dapat menyimpan pengaturan pergeseran dengan memasukkan 
+	nama penanda dan klik OK. Kemudian Anda dapat secara otomatis mengaplikasikan
+	pengaturan yang sama dengan menuju Imagery ‣ Imagery offset dan klik pada 
+	penanda yang Anda simpan.
+*	Jika Anda tidak ingin menyimpan pergeseran, klik OK tanpa memasukkan nama penanda.
 
-What if there are no GPS tracks on OpenStreetMap, and you don’t have a GPS?
-Without GPS tracks, it is difficult to align imagery.  If it is a relatively
-empty area (not much mapping done), you might choose to simply use the imagery
-as it is and correct the data later.  It’s better to have map an area 20 or
-30 meters offset than to not map at all.
+Bagaimana jika tidak ada trek GPS di OpenStreetMap, dan Anda tidak mempunyai GPS? 
+Tanpa trek GPS, akan sulit sekali mengatur citra. Jika itu merupakan area yang 
+relatif kosong (tidak banyak yang dipetakan), Anda mungkin bisa memetakan terlebih
+dahulu dan memperbaiki belakangan. Akan lebih baik untuk memetakan sebuah area dengan
+pergeseran 20 atau 30 meter daripada tidak memetakan sama sekali.
 
-If you can positively identify the latitude and longitude of one object on the
-ground, you can ensure the imagery is correctly placed by following these steps:
+Jika Anda dapat mengidentifikasi garis lintang dan bujur pada sebuah objek di atas
+permukaan tanah, Anda dapat memastikan citra satelit ditempatkan pada posisi yang benar
+dengan mengikuti langkah-langkah berikut ini:
 
--	First, identify the object whose position you know on the imagery.
--	Click on the latitude and longitude in the bottom left corner of JOSM.
+*	Pertama, identifikasi posisi objek yang Anda ketahui pada citra satelit.
+*	Klik pada garis lintang dan bujur pada tombol pojok kiri bawah JOSM.
 
 ![josm lat lon][]
 
--	In the dialog that opens, enter the latitude and longitude of the place
-	that you know, and enter a small number for Zoom, about five or ten.
+*	Akan muncul dalog, masukan lintang dan bujur tempat yang Anda tahu, dan masukkan
+	angka perbesaran, sekitar lima atau sepuluh.
 
 ![josm lat lon dialogue][]
 
--	This will zoom and center the map to your longitude and latitude.  Now you
-	can move the imagery as you did previously so that the feature you know is
-	centered at the correct position.
+*	Ini akan memperbesar dan menuju pusat peta sesuai dengan lintang dan bujur yang 
+	Anda masukkan. Sekarag Anda dapat memindahkan citra satelit seperti yang Anda 
+	lakukan sebelumnya sehingga fitur yang Anda ketahui terpusat diposisi yang tepat.
 
-If, on the other hand, the area has already been extensively mapped, then hopefully
-the previous mappers have drawn objects in their correct locations.  In this case,
-you can align the imagery to the OSM map, but beware!  Other mappers may not be aware
-of imagery offset, and they may have made mistakes when they mapped.
+Jika, pada salah satu kasus, area yang sudah dipetakan secara ekstensif, kemudian
+pembuat peta telah menggambarkan objek pada lokasi mereka yang benar. Pada kasus ini,
+Anda dapat mengatur citra satelit sesuai dengan peta OSM, tetapi ingatlah! Pengguna OSM 
+lain mungkin tidak menyadari pergeseran citra satelit dan mereka mungkin telah membuat
+kesalahan ketika mereka memetakannya
 
+Database Pergeseran Citra Satelit
+---------------------------------
+Sekarang Anda mengetahui bagaimana cara untuk melihat dan memperbaiki citra satelit,
+tetapi disini ada sedikit masalah dengan pendekatan yang telah kita tahu sampai saat ini. 
+Jika setiap pengguna OSM mengatur citra satelit berbeda, setiap orang akan memetakan dengan 
+latar belakang yang berbeda.
 
-The Imagery Offset Database
----------------------------
-Now you know how to watch out for and correct imagery offset, but there is one major
-problem with this approach that we have overlooked thus far.  If every OpenStreetMap
-user adjusts the imagery differently, everybody will be mapping with slightly different backgrounds.
+Bayangkan jika Anda memetakan kota kecil dan Anda menyadari bahwa terjadi pergeseran 
+satelit 15 meter ke Utara. Anda tentunya akan memperbaiki dan memetakan kota tersebut 
+dengan akurat. Tetapi ketika seseorang ingin memetakan sesuatu dan mereka mendownload
+data OSM dan memunculkan citra satelit Bing, dan mereka tidak mengetahui pergeseran citra 
+satelit yang Anda ketahui! Mereka akan mengira bahwa terjadi hal yang aneh dan semua objek
+bergeser 15 meter ke utara dan akhirnya mereka akan memulai memindahkan kembali, dimana 
+yang hal demikian itu adalah salah! Ini akan merusak semua data yang ada.
 
-Imagine that you are mapping a small town, and you realize that Bing imagery is
-offset by 15 meters to the north. So you adjust the imagery and then use it to map
-the whole town accurately. But then somebody else wants to add something to the map,
-so they download the data and load Bing imagery, but they don’t know about the imagery
-offset you discovered!  They will think that something is wrong and all of the objects
-in town are misplaced by 15 meters, and they will start to move them, which is not
-correct!  This can be disastrous for the town’s map data.
+Untuk masalah ini, sangat penting agar semua pengguna sadar akan pergeseran citra satelit 
+dan selalu mengecek terkait hal itu sebelum memetakan area. Untuk membantu mengatasi masalah
+ini, beberapa orang telah membuat plugin yang membantu pengguna untuk menyimpan informasi 
+pergeseran satelit di database dan menyimpannya dengan yang lain. Mari lihat bagaimana kerjanya: 
 
-For this reason it is important that all users are aware of imagery offset, and should
-always check for it before mapping an area.  To help with this problem, some smart
-people created a plugin that allows users to save offset information in a database
-and share it with others.  Let’s see how this works:
-
--	Open the Preferences menu in JOSM, and click on the Plugins tab.
+*	Buka menu Preferences di JOSM, dan klik pada tab Plugin.
 
 ![josm plugins tab][]
 
--	Find the plugin named “imagery_offset_db” and check the box next to it.
+*	Cari plugin bernama “imagery_offset_db” dan centang kotak disamping plugin tersebut.
 
 ![imagery_offset_db plugin][]
 
--	Click OK.  You will need to restart JOSM to finish the plugin installation.
+*	Klik OK.  Anda harus merestart JOSM agar bisa menggunakan plugin ini.
 
-In the same way that you are able to save offsets as bookmarks, this plugin allows
-you to save offsets to a central database, and to access the offsets that other
-users have created.  Hence, if one mapper creates an imagery offset in an area,
-other users can use the exact same offset to map with.
+Sama seperti Anda menyimpan bookmark pergeseran citra satelit ini, plugin ini
+mengizinkan Anda untuk menyimpan pergeseran citra satelit di database pusat, dan
+untuk nilai mengakses pergeseran citra satelit yang dibuat pengguna lain. Jadi, 
+jika terdapat pengguna yang membuat pergeseran citra satelit di suatu area, 
+pengguna lain juga dapat menggunakan pergeseran tersebut.
 
-When using aerial imagery layers, you should ALWAYS check for existing offsets,
-and when you create your own offset, you should ALWAYS save it to this database.
+Ketika Anda menggunakan citra satelit, Anda HARUS SELALU mengecek pergeseran yang ada,
+dan ketika anda sudah membuat nilai pergeseran citra satelit, Anda HARUS SELALU 
+menyimpannya di database ini. 
 
-
-Add Imagery Offset from the Database
-------------------------------------
--	When you add an imagery layer, the new plugin will alert you that you should
-	check the imagery database for an existing offset.  You will see an icon with
-	a red exclamation point on it at the top of JOSM, like this:
+Memasukkan Nilai Pergeseran Citra Satelit dari Database
+-------------------------------------------------------
+*	Ketika Anda memasukkan layer citra satelit, plugin baru akan memberi tahu Anda 
+	bahwa Anda harus mengecek database untuk melihat pergeseran citra satelit yang ada.
+	Anda akan melihat ikon dengan tanda seru merah pada bagian atas JOSM seperti ini:
 
 ![offset exclamation][]
 
--	Click on the button and the plugin will communicate with the database to see
-	if there are existing offsets in this area.
--	Here we have downloaded OSM data and GPS tracks in Kuta, Bali, Indonesia.
-	In this case, we have found one existing offset. Click on it to apply to the map.
+*	Klik pada tombol tersebut dan plugin akan berkomunikasi dengan database untuk melihat 
+	apakah ada yang menyimpan nilai pergeseran citra satelit pada area tersebut.
+*	Disini kita sudah mendownload data OSM dan trek GPS di Kuta, Bali, Indonesia. 
+	Pada kasus ini kita menemukan salah satu nilai pergeseran citra satelit. Klik pada
+	nilai tersebut untuk memakainya.
 
 ![offset kuta bali][]
 
--	This causes the imagery layer to shift.  However, when we add someone else’s
-	offset like this, we should check that it is valid by comparing to GPS tracks.
+*	Ini akan membuat citra bergeser. Akan tetapi, ketika kita menambahkan nilai pergeseran
+	dari pengguna lain, kita harus mengecek melalui trek GPS.
 
 ![compare gps][]
 
--	We can see that the imagery layer is in fact misaligned.  We don’t want other
-	users to use this offset, so we should mark it as incorrect in the database.
-	Click on the “Offsets” button again (it won’t have a red exclamation mark anymore).
+*	Kita bisa melihat bahwa citra satelit masih belum bergeser dengan benar. Kita tidak
+	menginginkan untuk menggunakan data ini, sehingga kita harus menandai sebagai salah 
+	di database. Klik tombol "Offset" sekali lagi (sekarang tidak ada tanda seru di tombolnya)
 
 ![offsets button][]
 
--	This time when the dialog opens, right-click on the offset and click “Deprecate Offset.”
+*	Kali ini ketika muncul jendela dialog, klik kanan dan klik “Deprecate Offset”
 
 ![deprecate offset][]
 
--	Click “Yes” to confirm.
--	You will need to enter a reason for deprecating this offset.
+*	Klik “Yes” untuk konfirmasi.
+*	Anda akan membutuhkan alasan untuk menandakan bahwa nilai pergeseran ini sudah tidak bisa digunakan lagi.
 
 ![deprecate reason][]
 
+Menambahkan Data Pergeseran Citra Satelit ke Database
+-----------------------------------------------------
+Sekarang Anda sudah memberi tanda data pergeseran citra satelit pengguna lain 
+sebagai "data yang lama", kita harus menambahkan data offset ke dalam database.
 
-Add Imagery Offset to the Database
-------------------------------------
-Now that we have marked this user’s offset as “deprecated,” we should add an improved offset
-to the database.
-
--	Click on the “Adjust imagery offset” button.
+*	Klik pada tombol “Adjust imagery offset”.
 
 ![adjust imagery offset button][]
 
--	Adjust the imagery to match the GPS tracks.  Click OK in the box.
--	Now go to Offset ‣ Store Imagery Offset...
+*	Atur citra satelit agar sesuai dengan trek GPS. Klik OK di kotak.
+*	Pergi ke Citra Satelit ‣ Menyimpan Pergeseran Citra Satelit...
 
 ![store imagery offset][]
 
--	Enter a description of the offset in the box that opens.
+*	Beri deskripsi dari data pergeseran citra satelit yang akan Anda masukkan.
 
 ![offset description][]
 
--	Click OK.  Your offset will be saved to the database.
--	Now let’s hide the GPS layer and look at the OSM data against the correctly placed imagery.
+*	Klik OK. Data pergeseran citra satelit Anda akan tersimpan di database.
+*	Sekarang hilangkan layer GPS dan lihat data OSM yang posisinya menjadi tepat dengan citra satelit.
 
 ![correctly placed][]
 
-Oh No!  Somebody mapped this area with misaligned imagery, so the area is not
-correctly mapped.  This will take some time to fix.
+Tidak! Seseorang telah memetakan area ini dengan data yang salah. Ini akan membutuhkan waktu untuk memperbaikinya.
 
-
-Imagery Offset Database Website
---------------------------------
-Lastly, for more information on the offset database, you can visit the website
-at [http://offsets.textual.ru/](http://offsets.textual.ru/).  This lists all the
-offsets that have been uploaded to the database, and it also has a cool map feature
-that visualizes where the offsets are located, as you can see here:
+Situs Database Pergeseran Citra Satelit
+----------------------------------------
+Terakhir, untuk informasi di database pergeseran satelit, Anda bisa pergi ke situs[http://offsets.textual.ru/](http://offsets.textual.ru/). 
+Ini akan menunjukkan daftar pergeseran satelit yang telah diunduh oleh pengguna dan juga tampilan yang bagus yang 
+menunjukkan dimana pergeseran satelit ada, seperti yang Anda lihat disini:
 
 ![offset website][]
 
->	One last thing to remember is that the imagery may not be offset the same
->	distance everywhere!  This is especially true in regions where there are
->	lots of hills and mountains.  So if the imagery seems to be offset differently
->	in different areas, you’ll need to move it again.
+Satu hal yang perlu diingat adalah jarak pergeseran satelit tidak sama dengan daerah lain! Hal ini terutama di daerah 
+yang memiliki banyak gunung dan bukit. Jadi, jika citra satelit bergeser berbeda di area yang lain, Anda harus menggesernya kembali.
 
-Summary
---------
-When you are just beginning OpenStreetMap, you don’t need to worry too much about imagery offset.  But if you see another mapper’s edits that seem misaligned from the imagery, you should always consider that there may be an offset before you start changing their objects.  And if you aren’t quite ready to deal with offsets yet, just remember that it’s better to map an area 20 or 30 meters offset than to not map it at all.  But when possible, do remember that imagery offset may occur, and use the steps in this chapter to correct it when needed.
+>	Satu hal yang perlu diingat adalah jarak pergeseran satelit tidak sama dengan daerah lain!
+>	Hal ini terutama di daerah yang memiliki banyak gunung dan bukit.
+>	Jadi, jika citra satelit bergeser berbeda di area yang lain, Anda harus menggesernya kembali.
+
+Ringkasan
+----------
+Apabila Anda baru memulai OpenStreetMap, Anda tidak perlu khawatir mengenai pergeseran citra satelit ini.
+Tetapi jika Anda melihat editan pembuat peta yang lain yang tampak sejajar dengan citra satelit, Anda
+harus selalu mempertimbangkan bahwa mungkin terdapat pergeseran sebelum Anda memulai melakukan perubahan
+pada objek mereka. Dan jika Anda belum siap untuk berurusan dengan pergeseran citra satelit lagi, ingat
+bahwa lebih baik memetakan pergeseran area 20 atau 30 meter dibandingkan tidak memetakan sama sekali.
+Apabila mungkin terjadi, ingat bahwa pergeseran citra satelit mungkin terjadi, dan gunakan langkah-langkah
+pada bab ini untuk memperbaikinya.
 
 
 
