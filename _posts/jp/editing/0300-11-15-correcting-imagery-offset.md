@@ -1,266 +1,190 @@
 ---
 layout: doc
-title: Correcting Imagery Offset
+title: 画像オフセット調整
 permalink: /jp/editing/correcting-imagery-offset/
 lang: jp
 category: editing
 ---
 
-Imagery Offset
+画像オフセット
 ===============
-Imagery providers usually do a pretty good job of georeferencing their imagery,
-but occasionally the images can be out of position.  This is particularly true
-in hilly or mountainous areas, where it can be difficult to stretch a flat image
-over an area of the Earth with many contours.  When you load imagery in JOSM,
-it can sometimes be ten meters or more from its true position.  This is called
-**imagery offset**.
+衛星画像は通常、正確な形でジオリファレンスされた形式で提供されることがほとんどです。しかし時折、そうした衛星写真のジオリファレンスの位置がずれることがあります。この事象は丘陵や山脈など、地表において高低差のある地域を正確に二次元へ引き伸ばすことが難しい場所で特に顕著にあらわれます。JOSMで衛星画像を読み込む際、場所によっては、正確な位置から10メートルほど離れた位置に画像が置かれることがあります。これは **画像オフセット** と呼ばれます。
 
-Notice in the following image that two separate aerial photographs have been
-georeferenced and merged together.  Because georeferencing is not a perfect
-process, the images do not line up perfectly with each other.  Hence one, or
-both, must be inaccurate.
+以下の例は、別々の2枚の航空写真がジオリファレンスされ、結合された結果です。ジオリファレンスで完璧な結果が得られず、結果として双方のラインを完全に重ね合わさっていません。これはすなわち、どちらか片方、あるいは両方の画像に間違いがある、ということを意味しています。
 
 ![misaligned images][]
 
-We’ve learned about two major ways of making maps - one is by utilizing aerial
-imagery to identify features on the ground, and another is by using GPS to record
-tracks and waypoints and then add them to OpenStreetMap.  The advantage of aerial
-imagery is obvious.  It enables you, the mapper, to see the whole picture, to
-observe various details from the image, consider your knowledge of the area, and
-easily trace roads, buildings, and areas.  One key advantage of GPS however, is
-that it doesn’t suffer from offset like imagery.  A GPS will always provide you
-with a correct latitude and longitude.  The only exception is when the satellite
-signals are interrupted by tall buildings or mountains, but in this case it is
-easy to recognize the error.  Observe the GPS trace in this image, compared with
-the Bing aerial imagery layer beneath it:
+私たちはこれまでに、地図作りには主に2つの方法があることを学びました。ひとつは、衛星画像を使って地表に存在する地物を識別し、描く方法。もうひとつは、GPS機器を使い、自身が移動した軌跡とウェイポイントをOpenStreetMapに追加する方法です。もちろん、衛星画像のほうが、圧倒的に優位ではあります。衛星画像を使うことでマッパーは画像から多くの情報を読み取り、その地域について自分が知っている事柄と組み合わせることで、道路や建物など、その場所にある地物を簡単に地図に描くことができます。ただしGPSには、画像オフセットのような要因で位置ずれが発生しない、という利点があります。GPS機器は常に、あなたが居る緯度と経度を記録しています。高い建物や丘の影ではGPS衛星からの信号に障害が発生することはありますが、その場合でもそうしたデータは簡単に、異常なものだと認識することができます。Bingの衛星画像と一緒にGPSの軌跡を読み込み、注意深く観察し、比較してみましょう:
 
 ![aerial vs gps][]
 
-Because of what we now know, it is clear that the GPS trace is likely to be accurate,
-and the image beneath it is out of place.
+画像から読み取れる情報によれば、どうやらGPSトラックのほうが明らかに正確で、背景画像の位置のほうに誤りがあるようです。
 
-So now we must ask, “if the imagery may be out of place, how can we still use it and
-make accurate maps?”
+では、ここでひとつ質問です。 "もし画像の位置がずれているとすれば、そういう画像を参考にし続けながら正確な地図を作るには、どうしたらよいのでしょうか？"
 
-Correcting Imagery Offset
+画像オフセットの修正
 -------------------------
-The answer to the preceding question is that we can move the imagery so that it aligns
-with things that we know are in the correct location, such as GPS tracks.  It is easy
-to correct imagery offset in JOSM.
+先ほどの質問への回答として、背景画像そのものの位置を調整し、GPSトラックなどが示している正確な位置へ修正するという方法があります。JOSMで背景画像の位置調整を行うのはとても簡単です。
 
-The best references for adjusting imagery are GPS tracks that follow roads.  And the
-more GPS tracks that you have to reference, the more accurate you will be able to align
-your imagery.  Since OpenStreetMap users often upload their GPS tracks to the OSM database,
-we can download them and use them to align our imagery.
-
--	Click on the download button.
+画像オフセットを調整する際にもっとも参考になるGPSトラックは、道路を走っているトラックです。また、参考となるGPSトラックの数が多ければ多いほど、衛星画像の位置をより正確な位置に調整することが可能になります。OpenStreetMapのユーザは、自分の持っているGPSトラックをOSMデータベースへアップロードしており、そうしたGPSトラックをダウンロードすることで画像のオフセット調整の参考にすることができます。
+-	ダウンロードボタンをクリックしてください。
 
 ![josm download button][]
 
--	Check the box next to “Raw GPS Data” near the top of the Download window.
-	Select your area and click “Download.”
+-	ダウンロードウィンドウの上部に表示されている、"GPS生データ"の隣にあるボックスへチェックを入れてください。
+    対象となるエリアを選択し、"ダウンロード"をクリックしてください。
 
 ![raw gps data][]
 
--	This will download an additional layer to JOSM containing GPS tracks.
-	Depending on how many tracks have been uploaded by OSM users, you may
-	see few tracks (or even no tracks):
+-	こうすることで、データのダウンロードを行う際に追加で、GPSトラックのレイヤーをJOSMへダウンロードすることができます。どのくらいの量のトラックがダウンロードされるかは、その地域にアップロードされているGPSトラックの量によります。(トラックが無い地域もあります):
 
 ![osm gps tracks few][]
 
--	Or, you may see many tracks:
+-	その地域にトラックがあれば、このように表示がされます:
 
 ![osm gps tracks many][]
 
--	To adjust an imagery layer, click on the “Adjust imagery offset” button at
-	the top of JOSM.
+-	画像レイヤーを調整するには、JOSMの上部に表示されてる "画像オフセット調整" ボタンを押してください。
 
 ![adjust imagery offset button][]
 
--	Ignoring the box that pops up, use your mouse to drag the imagery layer so
-	that it aligns correctly with the GPS tracks.  The GPS tracks should line
-	up with the roads on the imagery as closely as possible.  You will see the
-	offset numbers in the box change.
+-	ウィンドウがポップアップしますが、その表示はいまのところ無視してください。マウスを左クリックしながら動かすことで、背景画像を動かすことができますので、GPSトラックで示されている正しい位置と比較し、重ねあわせるようにしてください。表示されているGPSトラックが移動していたはずの位置と、該当する画像の位置をできるかぎり正確にあわせてください。先ほどポップアップしたメッセージには、オフセットの設定値が表示されます。
 
 ![adjust imagery offset][]
 
--	If you like, you can save these offset settings by entering a bookmark name
-	and then clicking OK.  You can then automatically apply the same settings
-	later by going to Imagery ‣ Imagery offset and clicking on your bookmark.
--	If you do not want to save the offset, simply click OK without entering a bookmark name.
+-	もし必要な場合は、設定したオフセットの値に対して名前をつけて、ブックマークとして保存することができます。保存したブックマークは、画像 -> 画像オフセットから呼び出すことが可能です。
+-   オフセットを保存する必要がない場合、ブックマーク名を入力せずにOKを押してください。
 
-What if there are no GPS tracks on OpenStreetMap, and you don’t have a GPS?
-Without GPS tracks, it is difficult to align imagery.  If it is a relatively
-empty area (not much mapping done), you might choose to simply use the imagery
-as it is and correct the data later.  It’s better to have map an area 20 or
-30 meters offset than to not map at all.
+OpenStreetMapにアップロードされているGPSトラックが無く、自分でGPSログを収集することも難しい場合、画像の位置調整はたいへん困難です。もしまだ対象の地域がほとんどマッピングされていない場合、いま表示されている画像を正しい内容として、そのまま使うのも選択肢のひとつです。もし、画像の位置が20から30メートル以上ずれていることが明確な場合、その地域に手を付けないという選択肢もあります。
 
-If you can positively identify the latitude and longitude of one object on the
-ground, you can ensure the imagery is correctly placed by following these steps:
+もし画像に表示されている地物の正確な緯度経度を知っている場合、以下のステップで作業をすることで画像の位置を調整することが可能です:
 
--	First, identify the object whose position you know on the imagery.
--	Click on the latitude and longitude in the bottom left corner of JOSM.
+-	最初に、あなたが位置を知っている地物を画像表示から特定します
+-	JOSMの左下に表示されている緯度と経度をクリックします
 
 ![josm lat lon][]
 
--	In the dialog that opens, enter the latitude and longitude of the place
-	that you know, and enter a small number for Zoom, about five or ten.
+-	ダイアログが表示されますので、あなたが知っている地物の緯度と経度を入力します。ズームには、5から10程度の小さめの値を入力してください
 
 ![josm lat lon dialogue][]
 
--	This will zoom and center the map to your longitude and latitude.  Now you
-	can move the imagery as you did previously so that the feature you know is
-	centered at the correct position.
+-	JOSMの表示が切り替わり、入力した緯度と経度を中心とした位置へ移動します。通常と同様の操作を行い、あなたが知っている地物の位置と衛星画像の位置を調整してください。
 
-If, on the other hand, the area has already been extensively mapped, then hopefully
-the previous mappers have drawn objects in their correct locations.  In this case,
-you can align the imagery to the OSM map, but beware!  Other mappers may not be aware
-of imagery offset, and they may have made mistakes when they mapped.
+もし対象の地域が既に非常に細かくマッピングされている場合、これまでその地域を描いていたマッパーが、その地域のオフセットを正しい位置に修正してから作業していた可能性があります。この場合、そのマッパーが調整していたのと同じ位置まで地図表示を修正することも可能です。ただしその場合、そのマッパーやあなた以外のマッパーがその地域をマッピングする際にオフセットを調整しているということに気づかない可能性があります。注意してください。
 
-
-The Imagery Offset Database
+画像オフセットデータベース
 ---------------------------
-Now you know how to watch out for and correct imagery offset, but there is one major
-problem with this approach that we have overlooked thus far.  If every OpenStreetMap
-user adjusts the imagery differently, everybody will be mapping with slightly different backgrounds.
+オフセットのズレを把握し、調整するにあたって、別の問題が発生します。もしOpenStreetMapの全ユーザがそれぞれ異なるオフセットで編集を行ったとしたら、出来上がる地図はすべて少しずつずれたものになってしまいます。
 
-Imagine that you are mapping a small town, and you realize that Bing imagery is
-offset by 15 meters to the north. So you adjust the imagery and then use it to map
-the whole town accurately. But then somebody else wants to add something to the map,
-so they download the data and load Bing imagery, but they don’t know about the imagery
-offset you discovered!  They will think that something is wrong and all of the objects
-in town are misplaced by 15 meters, and they will start to move them, which is not
-correct!  This can be disastrous for the town’s map data.
+例えば小さな街をマッピングするにあたって、Bingの画像が北に15メートルほどずれている、という状況をイメージしてみてください。あなたは編集を行う際、オフセットを正確に修正して編集を行いました。しかし、別の機会に他の誰かがその地域をダウンロードし、Bing衛星画像を使ってデータを追加しようとしました。そしてその誰かは、あなたが発見した正しいオフセット情報を知らないとしたら。彼らはその場所の既存の情報が、15メートルほど全体的に間違っていると考え、彼らが考える正しい位置、つまり、間違った位置に移動させようとするでしょう。結果として、その街の地図データは無茶苦茶になってしまいます。
 
-For this reason it is important that all users are aware of imagery offset, and should
-always check for it before mapping an area.  To help with this problem, some smart
-people created a plugin that allows users to save offset information in a database
-and share it with others.  Let’s see how this works:
+そのため、画像のオフセット情報についてすべてのユーザが知っておくことはとても重要な事ですし、編集を開始する際にはその地域でオフセットが行われているかどうかを確認するべきです。この問題を解決するために専用のプラグインが開発されており、その地域の編集で利用したオフセット情報をデータベースへ保存し、他のマッパーと共有する機能があります。それでは、その機能がどのようなものか見てみましょう:
 
--	Open the Preferences menu in JOSM, and click on the Plugins tab.
+-	JOSMの設定メニューを開き、プラグインタブをクリックします。
 
 ![josm plugins tab][]
 
--	Find the plugin named “imagery_offset_db” and check the box next to it.
+-	"imagery_offset_db"という名前のプラグインを探し、その隣にあるボックスにチェックを入れます。
 
 ![imagery_offset_db plugin][]
 
--	Click OK.  You will need to restart JOSM to finish the plugin installation.
+-	OKをクリックします。JOSMを再起動して、プラグインのインストールを行ってください。
 
-In the same way that you are able to save offsets as bookmarks, this plugin allows
-you to save offsets to a central database, and to access the offsets that other
-users have created.  Hence, if one mapper creates an imagery offset in an area,
-other users can use the exact same offset to map with.
+オフセット情報をブックマークとして保存するのと同様に、このプラグインを使うことにより、あなたが設定したオフセットの値をセンターのデータベースへ保存することが可能です。保存したオフセット情報は誰でも読み込むことが可能です。もちろんあなたも、他の誰かが設定したオフセットの値を利用することができるようになります。
 
-When using aerial imagery layers, you should ALWAYS check for existing offsets,
-and when you create your own offset, you should ALWAYS save it to this database.
+衛星画像レイヤーを利用する場合、誰かがオフセットを利用していないか、常に確認してから編集したほうがよいでしょう。逆に、あなたがオフセットを設定して編集した場合、必ず、このデータベースへその値を保存しておくことが大切です。
 
 
-Add Imagery Offset from the Database
+データベースからの画像オフセット読み込み
 ------------------------------------
--	When you add an imagery layer, the new plugin will alert you that you should
-	check the imagery database for an existing offset.  You will see an icon with
-	a red exclamation point on it at the top of JOSM, like this:
+-	画像レイヤを追加する場合、このプラグインは既存のオフセット情報があるかどうか、確認を行うよう注意を促します。JOSMの上部に、赤いエクスクラメーションアイコンが表示されます:
 
 ![offset exclamation][]
 
--	Click on the button and the plugin will communicate with the database to see
-	if there are existing offsets in this area.
--	Here we have downloaded OSM data and GPS tracks in Kuta, Bali, Indonesia.
-	In this case, we have found one existing offset. Click on it to apply to the map.
+-	アイコンをクリックすると、プラグインはデータベースと通信し、その地域にオフセット情報があるかどうかを確認しにゆきます。
+-	これは、インドネシアのバリ クタ地域のOSMデータとGPSトラックをダウンロードしたところです。このケースでは、既存のオフセット情報が1つ見つかりました。表示されている情報をクリックすることで、その情報が地図表示に反映されます。
 
 ![offset kuta bali][]
 
--	This causes the imagery layer to shift.  However, when we add someone else’s
-	offset like this, we should check that it is valid by comparing to GPS tracks.
+-	画像レイヤが移動しました。しかしながら、今回のように誰かのオフセット情報を利用する場合は、その情報が本当に正しいかどうか、GPSトラックと比較してから利用するほうがよいでしょう。
 
 ![compare gps][]
 
--	We can see that the imagery layer is in fact misaligned.  We don’t want other
-	users to use this offset, so we should mark it as incorrect in the database.
-	Click on the “Offsets” button again (it won’t have a red exclamation mark anymore).
+-	どうやら、画像レイヤの位置が間違った位置になってしまったようです。このオフセット情報は、他のユーザも使わないほうがよいでしょう。その場合、データベースでこの項目を、正確ではない、とマークするべきです。"Offsets"のボタンをもう一度クリックしてください。(赤いエクスクラメーションマークはもう外れています)
 
 ![offsets button][]
 
--	This time when the dialog opens, right-click on the offset and click “Deprecate Offset.”
+-	ダイアログが表示されたら、今回はそのオフセットを右クリックし、 "Deprecate Offset" をクリックしてください。
 
 ![deprecate offset][]
 
--	Click “Yes” to confirm.
--	You will need to enter a reason for deprecating this offset.
+-	確認して、"Yes"をクリックます。
+-	このオフセットが間違っている理由を入力します。
 
 ![deprecate reason][]
 
 
-Add Imagery Offset to the Database
+画像オフセットをデータベースに保存
 ------------------------------------
-Now that we have marked this user’s offset as “deprecated,” we should add an improved offset
-to the database.
+他のユーザが設定したオフセット値が "deprecated"(古い・間違い) であるとマークをつけたら、その地域のより正確なオフセット情報をデータベースに登録しましょう。
 
--	Click on the “Adjust imagery offset” button.
+-	"Adjust imagery offset"ボタンをクリックします。
 
 ![adjust imagery offset button][]
 
--	Adjust the imagery to match the GPS tracks.  Click OK in the box.
--	Now go to Offset ‣ Store Imagery Offset...
+-	画像の位置を調整し、GPSトラックの位置にあわせます。ボックスのOKをクリックしてください。
+-	Offset -> Store Imagery Offsetへ進みます。
 
 ![store imagery offset][]
 
--	Enter a description of the offset in the box that opens.
+-	ボックスが表示されますので、オフセットについての説明を記入してください。
 
 ![offset description][]
 
--	Click OK.  Your offset will be saved to the database.
--	Now let’s hide the GPS layer and look at the OSM data against the correctly placed imagery.
+-	OKをクリックすると、作成したオフセットがデータベースへ保存されます。
+-	GPSレイヤを非表示にし、OSMデータが衛星画像と正しく重なっているかを確認してください。
 
 ![correctly placed][]
 
-Oh No!  Somebody mapped this area with misaligned imagery, so the area is not
-correctly mapped.  This will take some time to fix.
+なんということでしょう！ この地域は間違ったオフセットで編集されているようです。修正にとりかかりましょう。
 
-
-Imagery Offset Database Website
+画像オフセットデータベースウェブサイト
 --------------------------------
-Lastly, for more information on the offset database, you can visit the website
-at [http://offsets.textual.ru/](http://offsets.textual.ru/).  This lists all the
-offsets that have been uploaded to the database, and it also has a cool map feature
-that visualizes where the offsets are located, as you can see here:
+最後に、オフセットデータベースについての補足です。このデータベースは、以下のウェブサイトでも確認することができます。 [http://offsets.textual.ru/](http://offsets.textual.ru/) このサイトには、データベースにアップロードされたすべてのオフセットが一覧になっています。また、そのオフセットが世界のどの場所のものなのかが地図上に可視化されています:
 
 ![offset website][]
 
->	One last thing to remember is that the imagery may not be offset the same
->	distance everywhere!  This is especially true in regions where there are
->	lots of hills and mountains.  So if the imagery seems to be offset differently
->	in different areas, you’ll need to move it again.
+> 画像のオフセットは、どの場所でも常に同じ値には決してならないことを常に念頭に置いておきましょう！
+> 特に丘陵地帯などの高低差が大きい場所では非常に顕著です。
+> 場所によって画像のオフセットが違うように見受けられる場合、それぞれの場所に応じてオフセットの値を変更する必要があります。
 
-Summary
+まとめ
 --------
-When you are just beginning OpenStreetMap, you don’t need to worry too much about imagery offset.  But if you see another mapper’s edits that seem misaligned from the imagery, you should always consider that there may be an offset before you start changing their objects.  And if you aren’t quite ready to deal with offsets yet, just remember that it’s better to map an area 20 or 30 meters offset than to not map it at all.  But when possible, do remember that imagery offset may occur, and use the steps in this chapter to correct it when needed.
+OpenStreetMapの編集に慣れないうちは、オフセットについてあまり細かく心配しないようにしてください。しかし、他のマッパーが編集した内容が、画像から明らかに一方向にずれている場合、それらのオブジェクトの位置を修正し始める前に、オフセットが修正されている可能性を考えてみてください。また、もしオフセットの挙動について不慣れで、なおかつ画像の位置が20メートルや30メートルもずれてしまっている場合、あまりその場所は編集しないほうがよいかもしれません。ですが、もし時間があれば、この章で説明したオフセット、という存在を思い出し、必要に応じて画像の位置を調整してみてください。
 
 
-
-[misaligned images]: /images/en/editing/correcting-imagery-offset/misaligned-images.png
-[aerial vs gps]: /images/en/editing/correcting-imagery-offset/aerial-vs-gps.png
-[josm download button]: /images/en/editing/correcting-imagery-offset/josm-download-button.png
-[raw gps data]: /images/en/editing/correcting-imagery-offset/raw-gps-data.png
-[osm gps tracks few]: /images/en/editing/correcting-imagery-offset/osm-gps-tracks-few.jpg
-[osm gps tracks many]: /images/en/editing/correcting-imagery-offset/osm-gps-tracks-many.jpg
-[adjust imagery offset button]: /images/en/editing/correcting-imagery-offset/adjust-imagery-offset-button.png
-[adjust imagery offset]: /images/en/editing/correcting-imagery-offset/adjust-imagery-offset.png
-[josm lat lon]: /images/en/editing/correcting-imagery-offset/josm-lat-lon.png
-[josm lat lon dialogue]: /images/en/editing/correcting-imagery-offset/josm-lat-lon-dialogue.png
-[josm plugins tab]: /images/en/editing/correcting-imagery-offset/josm-plugins-tab.png
-[imagery_offset_db plugin]: /images/en/editing/correcting-imagery-offset/imagery-offset-db-plugin.png
-[offset exclamation]: /images/en/editing/correcting-imagery-offset/offset-exclamation.png
-[offset kuta bali]: /images/en/editing/correcting-imagery-offset/offset-kuta-bali.png
-[compare gps]: /images/en/editing/correcting-imagery-offset/offset-compare-gps.png
-[offsets button]: /images/en/editing/correcting-imagery-offset/offsets-button.png
-[deprecate offset]: /images/en/editing/correcting-imagery-offset/deprecate-offset.png
-[deprecate reason]: /images/en/editing/correcting-imagery-offset/deprecate-reason.png
-[store imagery offset]: /images/en/editing/correcting-imagery-offset/store-imagery-offset.png
-[offset description]: /images/en/editing/correcting-imagery-offset/offset-description.png
-[correctly placed]: /images/en/editing/correcting-imagery-offset/correctly-placed.png
-[offset website]: /images/en/editing/correcting-imagery-offset/offset-website.png
+[misaligned images]: /images/jp/editing/correcting-imagery-offset/misaligned-images.png
+[aerial vs gps]: /images/jp/editing/correcting-imagery-offset/aerial-vs-gps.png
+[josm download button]: /images/jp/editing/correcting-imagery-offset/josm-download-button.png
+[raw gps data]: /images/jp/editing/correcting-imagery-offset/raw-gps-data.png
+[osm gps tracks few]: /images/jp/editing/correcting-imagery-offset/osm-gps-tracks-few.jpg
+[osm gps tracks many]: /images/jp/editing/correcting-imagery-offset/osm-gps-tracks-many.jpg
+[adjust imagery offset button]: /images/jp/editing/correcting-imagery-offset/adjust-imagery-offset-button.png
+[adjust imagery offset]: /images/jp/editing/correcting-imagery-offset/adjust-imagery-offset.png
+[josm lat lon]: /images/jp/editing/correcting-imagery-offset/josm-lat-lon.png
+[josm lat lon dialogue]: /images/jp/editing/correcting-imagery-offset/josm-lat-lon-dialogue.png
+[josm plugins tab]: /images/jp/editing/correcting-imagery-offset/josm-plugins-tab.png
+[imagery_offset_db plugin]: /images/jp/editing/correcting-imagery-offset/imagery-offset-db-plugin.png
+[offset exclamation]: /images/jp/editing/correcting-imagery-offset/offset-exclamation.png
+[offset kuta bali]: /images/jp/editing/correcting-imagery-offset/offset-kuta-bali.png
+[compare gps]: /images/jp/editing/correcting-imagery-offset/offset-compare-gps.png
+[offsets button]: /images/jp/editing/correcting-imagery-offset/offsets-button.png
+[deprecate offset]: /images/jp/editing/correcting-imagery-offset/deprecate-offset.png
+[deprecate reason]: /images/jp/editing/correcting-imagery-offset/deprecate-reason.png
+[store imagery offset]: /images/jp/editing/correcting-imagery-offset/store-imagery-offset.png
+[offset description]: /images/jp/editing/correcting-imagery-offset/offset-description.png
+[correctly placed]: /images/jp/editing/correcting-imagery-offset/correctly-placed.png
+[offset website]: /images/jp/editing/correcting-imagery-offset/offset-website.png
 
 
 

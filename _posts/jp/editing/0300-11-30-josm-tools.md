@@ -1,195 +1,139 @@
 ---
 layout: doc
-title: JOSM Tools
+title: JOSMツール
 permalink: /jp/editing/josm-tools/
 lang: jp
 category: editing
 ---
 
-JOSM Editing Tools
+JOSM編集ツール
 ==================
-In the [beginner guide](/en/beginner) we cover the basics of drawing in
-JOSM, but there are many tools and techniques which are not demonstrated.
+[ビギナーズガイド](/jp/beginner)では、JOSMでオブジェクトを描画する際の基礎について解説しました。しかし、そこでは紹介しきれなかったツールが数多く存在します。
 
-Here we will look at some of the basic tools and techniques available
-for drawing map features in JOSM, and in the following chapters we will
-look in more depth at advanced drawing tools.
+ここでは、JOSMを使って地物を描く際に利用可能なツールやテクニックを紹介します。また、さらに別の章で、より高度な編集ツールについても紹介します。
 
-Get the Sample File
+サンプルファイルの入手
 -------------------
--   If you'd like to follow along and practice using JOSM tools, download
-    [tools_menu_sample.osm](/files/tools_menu_sample.osm).
--   Start JOSM and open the file. It should look like this:
+-   JOSMツールの練習用にサンプルファイルが必要な場合、以下からダウンロードしてください。 [tools_menu_sample.osm](/files/tools_menu_sample.osm)
+-   JOSMを起動し、ファイルを読み込んでください。以下のようなオブジェクトが表示されます:
 
 ![tools_menu_sample.osm][]
 
-Drawing tools
+描画ツール
 -------------
-If you click on the "Tools" menu at the top of JOSM, you will see that there
-are numerous functions which can aid you in drawing lines and shapes, and
-editing the objects on the map.
-
-JOSM has some additional tools to make it easier to
-draw lines and shapes. These tools are found in the “Tools” menu at the
-top of JOSM.
+JOSMの上部メニューにある "ツール" をクリックすると、地図上のオブジェクトを編集したり、ラインやシェイプを新しく描く際に便利なツールが大量に表示されます。
 
 ![Tools menu][]
 
-In order to apply the functions in this menu, you must first select a
-point, line or shape in the map window. The sample file contains various
-elements that are labelled with the names of different tools on the menu.
+メニューに表示されている機能を利用するには、まず先に、地図ウィンドウに表示されているポイントやライン、シェイプを選択する必要があります。サンプルファイルに含まれている様々な種類のオブジェクトには、対応するそれぞれのツールの名前がつけられています。
 
--   Try selecting one of the elements in the file. Then go to the Tools menu
-    and click on the function which is identified next to the feature you have
-    selected.
--   For example, click on the badly drawn circle to select it.
+-   ファイル内の要素をひとつ選択してから、ツールメニューを開き、選択した地物のとなりに表示されている項目と同じツールを選んでみましょう。
+-   例えばこの機能を使うために、雑に描かれた円形のオブジェクトをクリックします。
 
 ![Align nodes in circle][]
 
--   Next, go to Tools->Align Nodes in Circle.
--   The badly drawn circle will become more circular.
+-   次に、 ツール -> 円形を作成 を選択します。
+-   雑に描かれた円の形が、より円形らしく並び替えられます。
 
-Experiment with each of the tools using this sample file. A description of
-some of the tools is provided below.
+サンプルファイルのオブジェクトを使って、それぞれのツールを試してみてください。ツールについての解説を、いくつか列挙します。
 
-1.  **Split Way:** This allows you to divide a line into two separate lines.
-    This is useful if you want to add different attributes to different
-    parts of a road, such as a bridge. To use this function, select a
-    point in the middle of the line that you want to split, select Split
-    Way from the Tools menu, and your line should be split in two.
+1.  **Split Way/ウェイを分割:** 1本のラインを、2本のラインに分割します。これにより、例えば橋部分など、道路の一部にだけ異なるタグ属性を追加することができるようになります。この機能を使うには、分割対象となるラインと、分割点となるポイントを両方選択し、ツールメニューから "ウェイの分割" を選んでください。
 
-2.  **Combine Way:** This does the opposite of Split Way. To combine two
-    lines into a single line, they must share a single point. To use
-    this function, select both lines that you want to combine. You can
-    select more than one object by holding the SHIFT key on your
-    keyboard and clicking on each line. When you have selected both
-    lines, select Combine Way from the Tools menu.
+2.  **Combine Way/ウェイの結合:** "ウェイの分割"と逆の機能です。2本以上のラインを選択し、1本のラインとして結合します。キーボードの Shift キーを押しながら選択することで、複数のラインを同時に選択することが可能です。対象となるラインを選択したら、ツールメニューから "ウェイの結合" を選択してください。
 
     ![Combine way][]
 
-    If you are combining roads that have different directions, you
-    might get this warning:
+    方向が異なるウェイを結合しようとすると、以下の警告が表示されます:
 
     ![Reverse and combine][]
 
-    If the roads are connected and go in the same direction, then choose
-    "Reverse and Continue."
+    もし本当に道路の向きが同じ方向で結合している場合 (一方通行の場合などが該当) は、 "reverse and Continue" を選びます。
 
-3.  **Reverse Way:** This will change the direction of the line. All lines in
-    OSM have a direction, which is shown in JOSM by the arrows on the line.
-    Direction doesn't usually matter, except in the case of one way roads and
-    rivers that flow in a certain direction. In these cases you may need to
-    reverse the way so that it goes in the correct direction.
+3.  **Reverse Way/ウェイ方向転換:** ラインの向いている方向を逆転させます。OSMに存在しているウェイにはそれぞれウェイの方向が指定されており、JOSMではその向きが矢印の形で表示されています。ウェイの方向は多くの場合あまり意味をもちませんが、一方通行の道路や、下流に向かって流れる河川など、例外的に特定の方向が重要になることがあります。そうした場合、ウェイの方向を正しく設定するために、そのウェイの方向転換を行っておく必要があります。
 
     ![Way direction][]
 
-4.  **Simplify Way:** If your line has too many points in it and you’d like
-    to make it simpler, this will remove some of the points from a line.
+4.  **Simplify Way/ウェイの単純化:** ラインが非常に多くのポイントから形成されている場合に、それらのポイントの数を間引くことで数を少なくしたい場合に使います。ラインから、いくつかのポイントデータが削除されます。
 
     ![Simplify way][]
 
-5.  **Align Nodes in Circle:** If you are trying to make a
-    circular shape, draw the circle as best you can and then select it.
-    This function will help arrange your points in a circle.
+5.  **Align Nodes in Circle/ノードを円形に配列:** 丸い円を描く場合に、まずは自分でできるだけ円形に近い形のオブジェクトを描き、そのオブジェクトを選択します。この機能は、それらのポイント情報をなるべく円形になるように配置します。
 
-6.  **Create Circle:** Alternatively, use can use this tool, which
-    will create a more perfect circle. Draw a line which represents the
-    diameter of your circle, and then apply this tool.
+6.  **Create Circle/円形を作成:** もうひとつの方法として、この機能を使うと完全な円形を作成することが可能です。円の直径となるラインを描き、そのラインを選択した状態でこの機能を使用してください。
 
     ![Create circle][]
 
-7.  **Align Nodes in Line:** This function will align a series of points
-    into a straight line.  With long lines it is best to select sections
-    of the line to straighten.  Be careful as this does have the
-    tendency to shift the line a little bit.
+7.  **Align Nodes in Line/ノードを一直線に配列:** この機能は、複数のポイントデータを一直線に並び替えます。大きなラインを直線化する場合は、そのラインを構成するポイントをいくつか選択してからこの機能を使うのがよいでしょう。この機能を使うことで、ラインの位置が少し移動することがありますので、注意してください。
 
     ![Align nodes in line][]
 
-8.  Orthogonalize Shape: This function is very useful for drawing
-    regular shapes such as buildings. After you draw an area, this
-    function will reshape it to have square corners.
+8.  Orthogonalize Shape/図形の直交化: この機能は、建物など、直線と直角で構成されたシェイプを描く際に有用です。この機能を使うことで、対象のオブジェクトの角を直角にすることが可能です。
 
     ![Orthagonalize][]
 
-9.  Unglue way: This tool allows you to detach nodes that are
-    connected. It is useful when two object share a node when they should
-    not. For example, a common mistake is for a road to share a node
-    with the corner of a building. Of course roads don't run into buildings
-    usually, so this is a mistake, and you can unglue the objects from one
-    another.
+9.  Unglue way/ウェイを引き離す: このツールでは、接続されているノードの接合を解除することが可能です。本来接合されるべきではない種類のオブジェクトがノードを共有してしまっている場合に便利です。例えばよくある間違いとして、道路を構成するノードが建物の角のノードと接合してしまっている場合には、このツールを使ってそれぞれのノードの接合を解除し、別のノードとして表現することが必要です。
 
     ![Unglue way][]
 
-    > The line and node will not actually appear separate until you move them.
+    > ラインとノードは、実際にそのオブジェクトを動かしてみるまでは完全に重なった状態で表示されます。
 
-Keyboard Shortcuts
+キーボードショートカット
 ------------------
-Once you start editing a lot you will realize that you waste a lot of time
-clicking on menus and submenus. To overcome this, JOSM has keyboard shortcuts
-for just about everything.
+編集に慣れ、ツールの挙動がわかってくると、機能を使うためにいちいちメニューから項目を選択するのが時間の無駄になってきます。そのため、JOSMではすべての機能にキーボードショートカットが割り当てられています。
 
-This means that instead of clicking an object and then going through a lengthy
-menu process, you can simply select the object and press a key on your keyboard.
+オブジェクトをクリックしてそこからメニューを呼び出して、という長い手順を行うのではなく、対象となるオブジェクトを選択した後、キーボードの特定のキーを押すだけで、それぞれの機能が適用されます。
 
-All of the tools mentioned in the previous section have shortcut keys, which are
-listed on the Tools menu to the right of each tool name. For example, "O" is the
-shortcut key to align nodes in a circle. "L" is the shortcut to align them in a line.
-It can take some time to learn the shortcut keys, but you will find that it saves
-a lot of time in the long run.
+先ほどのセクションで紹介したツールには、それぞれ以下のショートカットが割り振られています。割り振られているキーは、メニューから対象の項目を表示させた時に、その項目の右側にも表示されます。例えば "O" には、ノードを円形に配置する機能が割り当てられています。 "L" はノードを一直線に並べるショートカットです。ショートカットキーに慣れるには時間がかかりますが、長い目で見れば、ショートカットに慣れておいたほうが多くの時間を節約することが可能です。
 
-Here are other shortcut keys which are some of the most important.
+他にもよく使われる機能のショートカットを紹介しておきます。
 
-1.  Activate the Select Tool
+
+1.  選択ツールを有効化 ("S"elect)
 ![Keyboard S][]
-2.  Activate the Draw Tool
+2.  描画ツールを有効化 ("A"dd)
 ![Keyboard A][]
-3.  Activate the Zoom Tool
+3.  ズームツールを有効化 ("Z"oom)
 ![Keyboard Z][]
-4.  Delete the selected object(s)
+4.  選択したオブジェクトを削除 ("Del"ete)
 ![Keyboard Del][]
-5.  Zoom In
+5.  ズームイン
 ![Keyboard plus][]
-6.  Zoom Out
+6.  ズームアウト
 ![Keyboard minus][]
 
 
-Scale and Rotate
+オブジェクトの拡大縮小、回転
 ----------------
-A common question is how to rotate a line or shape after it has
-been drawn.
+すでに描かれてるラインやシェイプを回転させるには、以下の操作を行います。
 
--   To rotate an object, first select it.
--   Hold SHIFT+CTRL on your keyboard.
--   Click and drag the mouse to rotate.
+-   回転させる対象のオブジェクトを選択します。
+-   キーボードの Shift + Ctrlキーを押します。
+-   マウスをクリックして動かすことで、そのオブジェクトを回転させることができます。
 
 ![Rotate demo][]
 
-To scale an object (make it bigger or smaller), follow the same
-process, but hold ALT+CTRL instead.
+オブジェクトの拡大縮小を行う(縮尺を変える)には、同じような操作を、こちらは Alt + Ctrlキーで行います。
 
-These instructions are displayed on the information bar at the bottom of JOSM:
+こうしたインストラクションは、JOSM下部のインフォメーションバーに表示されます:
 
 ![Rotate instructions][]
 
-
-
-
-[tools_menu_sample.osm]: /images/en/editing/josm-tools/tools-menu-sample-file.png
-[Tools menu]: /images/en/editing/josm-tools/tools-menu.png
-[Align nodes in circle]: /images/en/editing/josm-tools/align-nodes-in-circle.png
-[Combine way]: /images/en/editing/josm-tools/combine-way.png
-[Reverse and combine]: /images/en/editing/josm-tools/reverse-and-combine.png
-[Way direction]: /images/en/editing/josm-tools/way-direction.png
-[Simplify way]: /images/en/editing/josm-tools/simplify-way.png
-[Create circle]: /images/en/editing/josm-tools/create-circle.png
-[Align nodes in line]: /images/en/editing/josm-tools/align-nodes-in-line.png
-[Orthagonalize]: /images/en/editing/josm-tools/orthagonalize.png
-[Unglue way]: /images/en/editing/josm-tools/unglue-way.png
-[Keyboard S]: /images/en/editing/josm-tools/keyboard-s.png
-[Keyboard A]: /images/en/editing/josm-tools/keyboard-a.png
-[Keyboard Z]: /images/en/editing/josm-tools/keyboard-z.png
-[Keyboard Del]: /images/en/editing/josm-tools/keyboard-del.png
-[Keyboard plus]: /images/en/editing/josm-tools/keyboard-plus.png
-[Keyboard minus]: /images/en/editing/josm-tools/keyboard-minus.png
-[Rotate demo]: /images/en/editing/josm-tools/rotate-demo.png
-[Rotate instructions]: /images/en/editing/josm-tools/rotate-instructions.png
+[tools_menu_sample.osm]: /images/jp/editing/josm-tools/tools-menu-sample-file.png
+[Tools menu]: /images/jp/editing/josm-tools/tools-menu.png
+[Align nodes in circle]: /images/jp/editing/josm-tools/align-nodes-in-circle.png
+[Combine way]: /images/jp/editing/josm-tools/combine-way.png
+[Reverse and combine]: /images/jp/editing/josm-tools/reverse-and-combine.png
+[Way direction]: /images/jp/editing/josm-tools/way-direction.png
+[Simplify way]: /images/jp/editing/josm-tools/simplify-way.png
+[Create circle]: /images/jp/editing/josm-tools/create-circle.png
+[Align nodes in line]: /images/jp/editing/josm-tools/align-nodes-in-line.png
+[Orthagonalize]: /images/jp/editing/josm-tools/orthagonalize.png
+[Unglue way]: /images/jp/editing/josm-tools/unglue-way.png
+[Keyboard S]: /images/jp/editing/josm-tools/keyboard-s.png
+[Keyboard A]: /images/jp/editing/josm-tools/keyboard-a.png
+[Keyboard Z]: /images/jp/editing/josm-tools/keyboard-z.png
+[Keyboard Del]: /images/jp/editing/josm-tools/keyboard-del.png
+[Keyboard plus]: /images/jp/editing/josm-tools/keyboard-plus.png
+[Keyboard minus]: /images/jp/editing/josm-tools/keyboard-minus.png
+[Rotate demo]: /images/jp/editing/josm-tools/rotate-demo.png
+[Rotate instructions]: /images/jp/editing/josm-tools/rotate-instructions.png

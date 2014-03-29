@@ -1,104 +1,105 @@
 ---
 layout: doc
-title: Conflict Resolution
+title: 競合の解決
 permalink: /jp/editing/conflict-resolution/
 lang: jp
 category: editing
 ---
 
-Conflict Resolution
+競合の解決
 ====================
-Sometimes you are working in JOSM and when you upload all of your beautiful edits
-you get a nasty message complaining about a conflict.
+JOSMを使ってステキなデータを作成し、データをアップロードするときに、以下のようなメッセージが表示されることがあります。
 
 ![conflict detected][]
 
-What happened is that you downloaded a bunch of data, which included a point which we will call Node A.  Then while you were editing, somebody else also downloaded Node A, changed it, and saved the changes back on OpenStreetMap.  Now when you try to upload your version of Node A, it is different from the one saved on OSM.  Therefore JOSM doesn’t know which version of Node A should be saved.
+あなたが編集を行う場合に、その地域のデータをダウンロードし、その中に例えば、ノードAというポイントデータがあったとします。あなたが編集作業を行っている間に、誰かが同様にノードAをダウンロードし、変更を加え、なおかつその内容をOpenStreetMapへ保存しました。その状態で、あなたもノードAを変更してアップロードしようとすると、OSM上にあるデータは2つの変更者によって異なる内容が編集されたことになります。そのため、JOSMはノードAについてどちらの情報が正しく保存されるべきか、判断がつかなくなります。
 
-Conflicts
+
+競合とは
 ----------
-Sometimes, JOSM is able to figure out what to do with conflicts on its own, and it will give you a message like this:
+状況によっては、JOSMは競合を内部で自動的に判定して処理し、以下のようなメッセージを表示させます:
 
 ![resolved automatically][]
 
-This means that JOSM has automatically decided that items in your local dataset will not be uploaded to main server because they have already been deleted by another user.  
+このメッセージは競合が発生した際にJOSMが自動的に処理を行った際に表示され、既に他のユーザによって対象のオブジェクトが削除されたために、あなたのローカルPC上に存在したデータがメインサーバへアップロードされなかった、ということを意味します。
 
-In some conflicts, however, there is no easy action for JOSM to take and so it leaves the decision up to the user to determine what the best course of action is.  This means it is up to you to resolve the conflicts.
+ただしそうした自動的な処理が行えないようなデータの競合が発生した場合は、JOSM上で少々複雑な処理を行い、どちらの編集がよりよく現状をあらわしているか、ユーザが判断を行う必要があります。これはつまり、その競合についてどのように処理を行うかを、あなたが決める必要がある、ということを意味しています。
 
--   This tells you to look at all of your conflicts in Layer 1 in the **Dialog List** box:
+-   競合が発生した場合、以下のような **ダイアログリスト** が表示されます:
 ![warning unresolved][]
 
--   This window provides you with a warning as to whether you are likely to experience a conflict with your edits.  If you check on the server you will be able to fix the editing issues that would arise:
+-   このウィンドウは、あなたの行った編集になんらかの競合が含まれることを示唆しています。サーバ側の情報とあなたの編集内容を比較することで、そこで示唆されている編集の内容を修正することが可能となります:
+
 ![check on server][]
 
--   This warning tells you that JOSM failed to delete a node due to it still being referenced in a way.  In order to remedy this, the user has to go back into JOSM and resolve the conflict before uploading the data:
+-   このメッセージでは、あなたが削除したノードがまだ他のウェイによって使用されている(参照されている)ため、ほんとうに削除してしまってよいノードなのか、という確認を表示させています。この状況を解決するには、JOSMの操作をもう一度行うことで、データをアップロードする前に競合を解決させる必要があります:
+
 ![still in use][]
 
-Conflict Resolution
+競合の解決
 --------------------
-The process of resolving a conflict is quite simple, although it can appear confusing at first in JOSM.  Basically, for every conflict JOSM will present you with two choices - your version of an object and the one that is on the server.  You need to choose whether to keep your version, or whether the new version on the server should remain.
+競合を解決する方法は非常に簡単ですが、その表示をJOSMではじめて見る場合、とても理解しづらい内容であることは事実です。ただし、基本的にJOSMで表示されるひとつひとつの競合は、あなたの編集内容と、サーバ上の編集内容のどちらを2つの選択肢のどちらかを編集結果として残すかを選ぶことで解決することができます。
 
-You might think, “of course my version is going to be better!”  And maybe you’re right.  But think back to our example at the start of this chapter.  Perhaps while you were busy editing, another mapper added a lot of information to one of the nodes in your data set.  If you choose your version over their version, you will lose all of that valuable information that they added.  Hence you should consider keeping their version, or merging it with your own.
+"僕の編集の方がよいに決まってる！"と意見ももっともですし、たぶん実際にそうかもしれないのですが、そのときはこの章の最初で説明した内容をもう一度思い出してみてください。あなたが多くの編集を行っている間、そこに含まれるデータの一部を、別のマッパーが詳細に編集している、ということもありえます。あなたの編集を彼らの編集よりも優先させる、ということは、彼らが追加したさまざまな情報を廃棄する、という意味でもあります。そのため、いったん彼らの編集を優先させる、あるいはあなたの編集内容と彼らの編集内容をマージさせる、ということはとても意味のあることです。
 
--   When you get a conflict window pop-up, it is best to choose the button “Synchronize ... only.”  You may need to do this for more than one object, but it is best to resolve conflicts one at a time.
+-   競合ウィンドウが表示された場合、“ ... のみを同期” を選択するのが最善です。競合の解決を複数のオブジェクトに対して行わなくてはいけない場合があるかもしれませんが、その場合もひとつずつ行ってゆくほうがよいです。
 
 ![synchronize node][]
 
-Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in this example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.
+このボタンをクリックすると、競合に関する詳しい情報がポップアップ表示されます。エラーメッセージはパッと見た限りではとても難解に見えますが、実際の内容はたいへんシンプルです。実際にデータの競合が発生している部分は、赤い四角形のシンボルが上部のタブに表示されます。以下にあげている競合の例では、データが持っているプロパティについて、オブジェクトの位置情報や削除状態についてが競合しています。それぞれの競合状態が発生する理由は以下のとおりです。
 
-**Types of Conflict:**
+**競合の種類:**
 
--   **Properties:**  Object has been moved (coordinates) or deleted
--   **Tags:**  Tags do not match
--   **Nodes:**  There is a differences in the list of nodes in two ways  
--   **Members:**  There is a difference in the list of members in a relation
+-   **プロパティ:**  オブジェクトの緯度経度が変更された、あるいは削除された
+-   **タグ:**  付与されているタグに整合性がない
+-   **ノード:**  お互いのウェイで、含まれるノードが異なっている
+-   **メンバー:**  お互いのリレーションで、含まれるメンバーが異なっている
 
 ![properties with conflicts][]
 
-Conflicts only appear with two different edits at a time.  If there are three or more conflicts, then a chain of conflicts will pop-up.  Therefore you have to choose or merge with only two conflicts at a time.  You can choose your version, the other version or, at times, merge the two.  
+競合が検知されるのは、内容が異なる2つの編集が検知された時だけです。3つ以上の競合が同時に検知された場合は、1つの競合を解決してアップロードしようとするその都度、競合の通知が行われます。そのため、競合の解決を1回行う毎に解決できるのは、3つ以上のオブジェクトの間で競合があった場合にも、そのうちの2つの間だけです。解決の際には、あなたの編集を適用してもかまいませんし、他のマッパーが編集した内容を適用したり、その2つをマージしてもかまいません。
 
--   In this example you do not have the option of merging.    Click on the first column, or My version if you believe that your edits are correct.  Click on Their version if you think that the other edits are better.  
+-   以下の例では、データのマージという選択肢はありません。あなたの行った編集のほうが正しいと思う場合はあなたのバージョン、あるいは最初のカラムをクリックします。別のマッパーが編集した内容のほうがより正しいと思う場合は、別マッパーのバージョンをクリックしてください。
 
 ![conflicts resolved][]
 
--   Once you have selected which version you think is best, then click “Apply Resolution.”  A few more windows will pop up and you will be on your way toward being able to upload your edits.  
--   Do some more editing.  Then click ‘Upload’.  You will get a pop-up that says:
+-   より正しいと思われるデータを選択し終わったら、 "競合の解決"をクリックします。いくつかのポップアップメッセージが表示され、あなたの編集全体をアップロードすることが可能な状態になります。
+-   さらにいくつかの編集を行ったら、 'アップロード' をクリックしてください。以下のポップアップが表示されます:
 
 ![command stack][]
 
--   On your Windows menu you have a Conflict List Dialog .  This window displays a list of conflicts.  The total number of unresolved conflicts is shown in the header. You can select or resolve a conflict by clicking on it.  This is useful when you have many conflicts to deal with.
+-   競合リストダイアログがウィンドウに表示されます。ウィンドウに表示されているのが、現在の競合の一覧です。まだ未解決状態の競合が、ウィンドウのヘッダ部分に表示されます。クリックを行うことで、それら競合を選択肢たり、解決したりすることができます。いちどに複数の競合が発生している場合に便利です。
 
 ![one unresolved][]
 
--   You cannot upload your changes until this list is empty.
+-   すべての競合を解決するまで、アップロードを行うことはできません。
 
-Ways to Avoid Conflicts
+競合を回避するための方法
 ------------------------
-### Upload Frequently
-To minimize the chance and number of conflicts it is important to upload your edits regularly.  Conflicts appear more frequently for those who tend to save the area they are working on in their local server and wait a while to upload it.  It is best to download the area you are working on, edit it and then immediately upload it.  The longer the time between downloading data and uploading changes to that data, the more likely it is that someone has edited something in the meantime.
+### こまめなアップロード
+競合の発生数や頻度を抑えるには、編集した内容をこまめにアップロードすることが大切です。競合は、ローカルサーバでなんらかの作業が行われ、その内容をアップロードしている最中にそのエリアを誰かが編集するときに発生しがちです。あなたが編集する地域をまずダウンロードし、編集を行い、すぐにアップロードするのが最善の方法です。ダウンロードしてからアップロードするまでに長い時間がかかってしまうと、その間にその地域を他のマッパーが編集してしまう可能性が高くなります。
 
-### Edit in the Area You Download
-Editing in the specific area you have downloaded minimizes conflict risk.  Make sure you do not edit outside of the area that you have downloaded.  You can easily see which areas outside your download area in JOSM, because the background is made up of diagonal lines instead of being solid black.
+### データをダウンロードした地域だけを編集する
+データの編集を、ダウンロードした地域だけを対象に行うことで競合のリスクを抑えることが可能です。なるべく、ダウンロードした領域から外にあるデータを編集しないようにしてください。JOSMを使っている場合、ダウンロードしていない領域は背景画像が暗い色の射線で色分けされるので、とても簡単に見分けることが可能です。
 
 ![edit outside area][]
 
-Summary
+まとめ
 --------
-When you edit in JOSM, you run the risk of running into conflicts.  Conflicts occur when an object has been edited by two people at a similar time.  By understanding what a conflict is and how to deal with it, you will be able to ensure that the best possible edits are saved to OpenStreetMap.
+JOSMで編集を行う場合、競合が発生する可能性は常にあります。競合が発生するのは、1つのオブジェクトを同時に2人以上のマッパーが編集した場合です。競合が発生する理由を理解することにより、発生した事象をどのように扱ったらよいかがわかるようになり、OpenStreetMapに対してよりよい編集内容を、きちんと理解しながら保存することができるようになります。
 
-
-[conflict detected]: /images/en/editing/conflict-resolution/conflict-detected.png
-[resolved automatically]: /images/en/editing/conflict-resolution/resolved-automatically.png
-[warning unresolved]: /images/en/editing/conflict-resolution/warning-unresolved.png
-[check on server]: /images/en/editing/conflict-resolution/check-on-server.png
-[still in use]: /images/en/editing/conflict-resolution/still-in-use.png
-[synchronize node]: /images/en/editing/conflict-resolution/synchronize-node.png
-[properties with conflicts]: /images/en/editing/conflict-resolution/properties-with-conflicts.png
-[conflicts resolved]: /images/en/editing/conflict-resolution/conflicts-resolved.png
-[synchronize node]: /images/en/editing/conflict-resolution/synchronize-node.png
-[command stack]: /images/en/editing/conflict-resolution/command-stack.png
-[one unresolved]: /images/en/editing/conflict-resolution/one-unresolved.png
-[edit outside area]: /images/en/editing/conflict-resolution/edit-outside-area.png
+[conflict detected]: /images/jp/editing/conflict-resolution/conflict-detected.png
+[resolved automatically]: /images/jp/editing/conflict-resolution/resolved-automatically.png
+[warning unresolved]: /images/jp/editing/conflict-resolution/warning-unresolved.png
+[check on server]: /images/jp/editing/conflict-resolution/check-on-server.png
+[still in use]: /images/jp/editing/conflict-resolution/still-in-use.png
+[synchronize node]: /images/jp/editing/conflict-resolution/synchronize-node.png
+[properties with conflicts]: /images/jp/editing/conflict-resolution/properties-with-conflicts.png
+[conflicts resolved]: /images/jp/editing/conflict-resolution/conflicts-resolved.png
+[synchronize node]: /images/jp/editing/conflict-resolution/synchronize-node.png
+[command stack]: /images/jp/editing/conflict-resolution/command-stack.png
+[one unresolved]: /images/jp/editing/conflict-resolution/one-unresolved.png
+[edit outside area]: /images/jp/editing/conflict-resolution/edit-outside-area.png
 
 
 <!-- More stuff, could go into an additional chapter -

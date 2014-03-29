@@ -1,159 +1,119 @@
 ---
 layout: doc
-title: More Tools
+title: その他のツール
 permalink: /jp/editing/more-tools/
 lang: jp
 category: editing
 ---
 
-More Tools
+その他のツール
 ============
-The **buildings_tools** and **utilsplugin2** plugins add great additional
-functionality into JOSM. In this section we'll take a closer look
-at the functions they provide.
+JOSMでよく利用されるツールとして、 **building tools** と **utilplugin2** という2つのプラグインがあります。このセクションでは、この2つのプラグインの機能を詳しく見てみましょう。
 
-The Buildings Tools Plugin
+Building Toolsプラグイン
 --------------------------
--   If you haven't already, install this plugin following the instructions
-    in [JOSM Plugins](/en/editing/josm-plugins).
+-   もしプラグインのインストールがまだの場合、[JOSMプラグイン](/jp/editing/josm-plugins)の記述を参考にして、プラグインのインストールを行ってください。
 
 ![buildings_tools plugin][]
 
-The Buildings Tools plugin is very helpful for digitizing buildings.
-It allows you to trace one side of a rectangular building, and easily
-extend the shape. If you are digitizing many buildings, this plugin
-will save you clicks, and thereby save you time.
+Building Toolsプラグインは、建物のデジタライズを行う際に非常に有効です。この機能を使うと、建物のどこかの辺をトレースした後、簡単にその形状を作成することが可能になります。複数の建物をトレースする場合、このプラグインを使うことでクリックの回数を減らして時間を節約し、さらに、綺麗なポリゴンを描くことができるようになります。
 
-Once the plugin has been installed you will see a new button on the left
-side of JOSM, which looks like this:
+プラグインをインストールすると、JOSMの左側に以下のような新しいボタンが追加されます:
 
 ![buildings_tools button][]
 
--   Start JOSM and create a new empty layer.
--   Select the building tool and click twice to draw a line on the map.
+-   JOSMを起動し、空のレイヤーをひとつ作成してください。
+-   building toolを選択し、地図上でクリックを2回行ってラインを描いてください。
 
 ![Draw edge][]
 
--   Then extend the mouse and click again to draw a rectangle.
+-   マウスを動かして範囲を拡張します。もう一度クリックすると、四角形が形成されます。
 
 ![Extend building][]
 
--   This will not only create a rectangle with only three clicks, but
-    it will also automatically apply the building=yes tag to the shape.
+-   これは四角形を3回のクリックで作る、というだけのプラグインではなく、さらにそのシェイプに対して building=yes のタグを付与してくれます。
 
-### Complex Buildings
-You can also create more complicated buildings by first drawing several
-overlapping buildings and then merging them together.
+### 複雑な形の建物を描く
+複雑な形状の建物を作成する場合、いくつかの四角形を重ねて描いた後、それら重複する建物をひとつにマージするという方法があります。
 
--   Draw two buildings which over lap, so that they form an L shape.
--   Select both buildings (hold SHIFT to select more than one object).
--   Go to Tools->Join overlapping Areas or press SHIFT+J on your keyboard.
+-   2つの建物シェイプを重ねあわせて描き、Lの形を作ってください。
+-   両方の建物シェイプを選択します。 (2つ以上のオブジェクトを選択するには、Shiftキーを押しながらクリックしてください)
+-   ツール -> 重複するエリアを結合 を選択するか、キーボードの Shift + Jキーを押してください。
 
 ![Merge buildings][]
 
-### Edit Settings
-Furthermore, you can alter the default settings of the plugin.
+### 編集設定
+プラグインの設定をデフォルトから変更するには以下のようにしてください。
 
--   Go to Data->Set buildings size.
+-   データ -> 建物のサイズを設定、を選択します。
 
 ![Set buildings size][]
 
--   If you are creating many similarly sized buildings, you can set specific
-    width and height dimensions of the buildings, such as 6 x 10 meters (the unit
-    is in meters).
+-   同じような大きさの建物を複数描く場合、例えば 6 x 10メートルなどの形式で、建物の縦横幅を指定することが可能です。(単位はメートルです)
 
 ![Set buildings size dialog][]
 
--   By setting the dimensions you will only need two clicks to create precisely
-    sized buildings.
+-   縦横幅を予め設定しておくことで、単にクリックするだけで特定の大きさの建物を作成することができるようになります。
 
-Lastly, you can click on the Advanced button if you would like to add additional
-tags that will automatically be applied to every building. For example,
-if every building you draw is on the same street, you might add a tag
-which identifies the street that will be automatically applied.
+最後に、"高度な設定"ボタンをクリックすることで、建物オブジェクトを描いた際の追加のタグ情報を設定することが可能です。例えば、描く対象の建物がすべて同じストリートに所属している場合、そのストリートを自動的に識別するタグを追加することができます。(訳注: 海外では住所がストリート単位のため、住所をあらわす addr:streetタグを入れます。sourceタグを追加する、などの使い方も一般的でしょう)
 
 ![Buildings advanced][]
 
-
 Utilsplugin2
 -------------
--   If you haven't already, install this plugin following the instructions
-    in [JOSM Plugins](/en/editing/josm-plugins).
+-   もしプラグインのインストールがまだの場合、[JOSMプラグイン](/jp/editing/josm-plugins)の記述を参考にして、プラグインのインストールを行ってください。
 
 ![utilsplugin2 plugin][]
 
-After you have installed the plugin and restarted JOSM, you will have
-a new menu at the top named "More Tools."
+プラグインのインストールとJOSMの再起動が完了すると、JOSM上部のメニューに "その他のツール" という項目が表示されるようになります。
 
 ![more tools menu][]
 
-Create a new layer and experiment with some of the new tools. Here we
-describe some of the most useful new tools:
+新しい空のレイヤを作成して、新しい機能を試してみましょう。ここでは、追加された機能のなかでも特に有用な機能を紹介します:
 
-1.  **Add Nodes at Intersections:**  This tool is very helpful for adding
-    missing nodes in intersections of selected ways.  It is good
-    practice that roads should always have common nodes where
-    they intersect.
+1.  **Add Nodes at Intersections/交差点にノードを追加:**  この機能を使うことで、選択したウェイ同士が交差する位置に、簡単に交点ノードを追加することができます。道路をあらわすウェイは、交点ノードで交差しているべきでしょう。
 
     ![nodes interesection][]
 
-2.  **Copy Tags from Previous Selection:**  This function makes copying tags
-    easier.  If you want to create many objects with the same tags,
-    first draw the objects.  Then add the tags to one object.  Click on
-    another object and press Shift + R to copy the tags from the
-    previously selected object.  You can do this for all objects that
-    you want to tag.  Remember that the tags will be copied from the
-    previously selected object, so if you click on an untagged object
-    and then another untagged object, you will not be able to copy any
-    tags.
+2.  **Copy Tags from Previous Selection/前回の選択からタグをコピー:**  この機能を使うことで、タグのコピーを簡単に行うことができます。同じタグをもつオブジェクトを複数作成する場合、そのうちのひとつのオブジェクトにタグを付与します。その後、他のオブジェクトを選択して Shift + Rキーを押すことで、一つ前に選択したオブジェクトからタグ情報をコピーすることができます。こうして、複数のオブジェクトに対して同じタグをコピーすることが可能です。この際、コピーされるタグは一つ前に選択されたオブジェクトから引き継がれることに気をつけてください。もし、タグがついていないオブジェクトや、別のオブジェクトを選択してしまった場合、誤ったタグ情報がコピーされてしまう可能性があります。
 
     ![copy tags][]
 
-3.  **Add Source Tag:** This tool simplifies adding a source tag.  It
-    remembers the source that was specified last and adds it as
-    remembered source tag to your objects.   You can insert the source
-    with just one click.  
+3.  **Add Source Tag/ソースタグを追加:** 単純に、sourceタグを追加するプラグインです。最後に付与したsourceタグの情報を記録して、選択したオブジェクトに対してそのsourceタグを追加してくれます。ワンクリックでsourceタグの追加が完了するプラグインです。
 
-4.  **Replace Geometry:** This tool is great if you want to redraw a poorly
-    shaped object, but want to keep the history, attributes and ID
-    number of that object.  For example, if you come across a building
-    that is complicated and drawn in a poor fashion, then instead of
-    painfully changing each node, you can draw the object again,
-    select the old and new objects, and select ¨Replace Geometry¨ to
-    transfer all the information over.
+4.  **Replace Geometry/位置を置き換え:** 位置の精度が悪いオブジェクトを書き換えたいけれども、その編集履歴やタグ情報、オブジェクトIDを引き継ぎたいという場合に便利なプラグインです。例えば、複雑な形の建物を描き直す場合、新旧両方のオブジェクトを選択して、"位置を置き換え"を起動することで、すべての情報を引き継がせることが可能です。
 
     ![replace geometry][]
 
 
-### More Selection Tools
-Utilsplugin2 also provides more tools on the "Selection" menu.
-Try experimenting with them.
+### その他の選択ツール
+Utilsplugin2をインストールすることで、"選択"メニューにも多くの項目が追加されます。
+是非試してみてください。
 
 ![selection menu][]
 
-One of our favorite selection tools is **Unselect Nodes:** This tool deselects
-all nodes. This can be useful if you draw a box to select many objects, but you do not
-want to select the nodes contained within all the lines and shapes.
+追加選択ツールでよく使われる機能は **ノードの選択を解除** です。これはその名のとおり、選択したオブジェクトからすべてのノードの選択を解除します。範囲選択を行って、多くのオブジェクトをいっぺんに選択する場合に、この機能を使うことで、ラインやシェイプを構成するノードを選択から除外することができます。
 
 ![unselect nodes][]
 
-Good luck!
+がんばって！
 
 
-[buildings_tools plugin]: /images/en/editing/josm-more-tools/buildings_tools-plugin.png
-[buildings_tools button]: /images/en/editing/josm-more-tools/buildings_tools-button.png
-[Draw edge]: /images/en/editing/josm-more-tools/draw-edge.png
-[Extend building]: /images/en/editing/josm-more-tools/extend-building.png
-[Merge buildings]: /images/en/editing/josm-more-tools/merge-buildings.png
-[Set buildings size]: /images/en/editing/josm-more-tools/set-buildings-size.png
-[Set buildings size dialog]: /images/en/editing/josm-more-tools/set-buildings-size-dialog.png
-[Buildings advanced]: /images/en/editing/josm-more-tools/buildings-advanced.png
-[utilsplugin2 plugin]: /images/en/editing/josm-more-tools/utilsplugin2-plugin.png
-[more tools menu]: /images/en/editing/josm-more-tools/more-tools-menu.png
-[nodes interesection]: /images/en/editing/josm-more-tools/utilsplugin2-nodes-intersection.png
-[copy tags]: /images/en/editing/josm-more-tools/utilsplugin2-copy-tags.png
-[replace geometry]: /images/en/editing/josm-more-tools/utilsplugin2-replace-geometry.png
-[selection menu]: /images/en/editing/josm-more-tools/selection-menu.png
-[unselect nodes]: /images/en/editing/josm-more-tools/utilsplugin2-unselect-nodes.png
+
+[buildings_tools plugin]: /images/jp/editing/josm-more-tools/buildings_tools-plugin.png
+[buildings_tools button]: /images/jp/editing/josm-more-tools/buildings_tools-button.png
+[Draw edge]: /images/jp/editing/josm-more-tools/draw-edge.png
+[Extend building]: /images/jp/editing/josm-more-tools/extend-building.png
+[Merge buildings]: /images/jp/editing/josm-more-tools/merge-buildings.png
+[Set buildings size]: /images/jp/editing/josm-more-tools/set-buildings-size.png
+[Set buildings size dialog]: /images/jp/editing/josm-more-tools/set-buildings-size-dialog.png
+[Buildings advanced]: /images/jp/editing/josm-more-tools/buildings-advanced.png
+[utilsplugin2 plugin]: /images/jp/editing/josm-more-tools/utilsplugin2-plugin.png
+[more tools menu]: /images/jp/editing/josm-more-tools/more-tools-menu.png
+[nodes interesection]: /images/jp/editing/josm-more-tools/utilsplugin2-nodes-intersection.png
+[copy tags]: /images/jp/editing/josm-more-tools/utilsplugin2-copy-tags.png
+[replace geometry]: /images/jp/editing/josm-more-tools/utilsplugin2-replace-geometry.png
+[selection menu]: /images/jp/editing/josm-more-tools/selection-menu.png
+[unselect nodes]: /images/jp/editing/josm-more-tools/utilsplugin2-unselect-nodes.png
 
 
