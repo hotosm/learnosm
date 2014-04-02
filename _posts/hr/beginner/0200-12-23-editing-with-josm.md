@@ -25,160 +25,152 @@ tvoj prozor sa slojevima može izgledati ovako:
 
 ![Layers panel][]
 
-Each item in this list represents a different source of data that
-you have open in your map window. In this example, “Data Layer
-1” is the OpenStreetMap data that we are editng. "Field Papers” is
-the layer created when we added our Field Paper into JOSM.
+Svaki element na ovoj listi predstavlja drugi izvor podataka koji si
+otvorio u glavnom prozoru. U ovom primjeru, “Data Layer 1” su OpenStreetMap
+podatci koje uređuješ. "Field Papers” je sloj kojim smo dodali svoju
+Field Paper kartu JOSM.
 
-If you add the Bing satellite imagery, a new layer will appear in the Layers panel named "Bing Sat."
+Ako dodaš Bing satelitske podloge, pojavit će se novi sloj naziva "Bing Sat."
 
-The idea of layers can often be hard to understand. A good way to imagine it is that each
-layer is like a semi-transparent piece of paper, and they are all stacked on top of one
-another. Each piece of paper has a certain type of information on it, and they can be rearranged
-any way you like.
+Ideju o slojevima ponekad nije je jednostavno za shvatiti. Dobar način je da zamisliš
+svaki sloj kao proziran papir, i svi su postavljeni jedan iznad drugog. Svaki papir
+sadrži određeni tip informacije, te svi mogu biti složeni a način kako želiš.
 
-Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers
-are often called "base layers." The OSM data layer is the layer that you actually work with.
+Slojevi koji se koriste kao reference, naprimjer, satelitske podloge, GPS tragovi, Field Papers
+karte i slični se inače zovu "base layers" ili osnovni slojevi. OSM data sloj je onaj na
+kojem zapravo radiš. 
 
--   To move a layer, click on it in the Layers panel and click on the up
-    or down arrow to move it.
+-   Za pomaknuti sloj, klikni na njega u Layers prozoru te klikni na strelice
+    gore ili dolje da bi ga pomaknuo
 
 ![Layers up down][]
 
--  To hide a layer, select it with your mouse and
-    click the Show/Hide button:
+-   DA bi sakrio sloj, odaberi ga uz pomoć miša i klikni na Show/Hide gumb:
 
 ![Layers show hide][]
 
--  You should see the layer that you selected disappear in the map
-    window. Click Show/Hide again, and it will reappear.
--  You can remove a layer by selecting it and using the delete
-    button:
+-   Izabrani sloj se više nebi trebao vidjeti u glavnom prozoru. Ponovno klikni
+    Show/Hide i on će se pojaviti nazad.
+-   Možeš ukloniti sloj odabirući ga i kosisteći gumb za brisanje:
 
 ![Layers delete][]
 
--  Lastly, it’s important to know that you can only edit the layer that
-    is considered *active* by JOSM. If you are unable to edit the map in
-    your map window, it’s probably because you don’t have the correct
-    layer set as active. Most layers, such as GPS points, Field
-    Papers, and satellite imagery, can’t be edited. The only layers that
-    can be edited are data from OpenStreetMap, which are usually called
-    “Data Layer 1”.
--  To make a layer active, select it in the Layers panel, and click on
-    the Activate button:
+-   Na kraju važno ej znati da možeš uređivati samo sloj koji je označen kao
+    *aktivan* u JOSM-u. Ako nemožeš uređivati kartu u glavnom prozoru, vjerojatno
+    nemaš pravi sloj označen kao aktivan. Većinu slojeva kao GPS točke, Field
+    Papers, satelitske podloge i slične ne možeš uređivati. Jedini slojevi koje
+    možeš uređivati su OpenStreetMap podatci, koji obično imaju naziv “Data Layer 1”.
+-   Da bi sloj postao aktivan, odaberi sloj u Layers prozoru, te klikni
+    na Activate gumb:
 
 ![Layers activate][]
 
+Korištenje GPS podataka i Field Papers karti
+--------------------------------------------
 
-Using GPS Data and Field Papers
--------------------------------
-In the previous chapters we saw how to collect data with a GPS
-and Field Papers, and how to load it into JOSM as a layer.
+U prethodnim poglavljima vidjeli smo kako skupiti podatke sa
+GPS uređajima i Field Papers kartama, te kako ih učitati u JOSM.
 
-Once you have surveyed with one of these tools, you still need
-to add the information into OpenStreetMap digitally.
+Jednom kad si odradio terenski dio posla, trebaš sve te informacije
+unijeti u OpenStreetMap.
 
-You do this with the same process you learned previously - **download,
-edit, save**. The difference is that instead of using only satellite
-imagery as a base layer, you can also use your GPS data, Field Papers,
-notes, or a combination of them all.
+To radiš na isti način kao što si do sad naučio, - **preuzmi, uredi, spremi**.
+Razlika je što sad osim korištenja satelitskih podloga možeš koristiti GPS tragove,
+Field Papers karte, bilješke, ili kombinaciju svih.
 
--   For example, let's assume you have your GPS waypoints as a background
-    layer in JOSM, you saved a waypoint on your GPS with the name 030, and
-    you wrote in your notebook that 030 is a school. To add this point
-    into OpenStreetMap, you will select the draw tool, and
-    double-click on top of point 030 in your map window. This will
-    create a point. Then go to the Presets menu, and find the preset for
-    school. Enter the name of the school and click “Apply Preset”. Do
-    the same to add lines and shapes.
+-   Na primjer, recimo da imaš svoje GPS točke kao pozadinski sloj u JOSM-u,
+    na GPS uređaju si snimio točku pod nazivom 030, a u bilješkama si zapisao
+    da je 030 škola. Da bi dodao tu točku u OpenStreetMap, odaberi alat za
+    crtanje, te dvaput klikni na točku 030 u glavnom prozoru. To će kreirati točku.
+    Idi na Presets izbornik, i nađi oznaku za školu. Unesi naziv škole i klikni
+    “Apply Preset”. Isto učini za sve ostale točke, linije i oblike.
 
 ![GPS in JOSM][]
 
-Tags
-----
-When you draw a point, line, or shape, it has a location, but no
-information about what it is. In other words, we know **where** it
-is, but not **what** it is. Before now, we have been using items
-from the Presets menu to define **what** it is. The way
-OpenStreetMap knows **what** an object is is by using **tags**.
+Oznake
+------
 
-A tag is like a label that you can put on something. For example, if
-we draw a square, it’s only a square. But then we add attributes to
-it that describe what it is: this square is a building; the name of
-the building is “Menara Thamrin”; the building is 16 levels high.
+Kad crtaš točku, liniju ili oblik, oni imaju svoj položaj, ali nemaju
+informacije o tome što su. Drugim riječima, znamo **gdje** su, ali
+ne znamo **što** su. Do sad smo koristili Presets izbornik za određivanje
+**što** su. Način na koji OpenStreetMap zna **što** je pojedini objekt
+je korištenjem **oznaka**.
 
-You can add as many tags as you want to an object. Tags are saved as
-pairs of text, called **keys** and the **values**. In
-OpenStreetMap, the tags written above would in fact be:
+Oznake su kao naljepnice koje možeš staviti na nešto. Na primjer, ako
+nacrtaš pravokutnik, to je samo pravokutnik. Zatim na njega dodamo oznake
+koje opisuju što je: ovaj pravokutnik je građevina;naziv građevine je
+“Cibona”; građevina ima 16 razina(katova).
+
+Možeš dodati koliko god želiš oznaka na objekt. Oznake se spremaju
+kao tekstualni par, **ključ** i **vrijednost**. U OpenStreetMap-u
+maloprije navedene oznake bi u stvari izgledale ovako:
 
 -   building = yes
--   name = Menara Thamrin
+-   name = Cibona
 -   building:levels = 16
 
-If you select an object in JOSM, you can see all the tags that are
-attached to it in the Properties panel on the right.
+Ako odabereš objekt u JOSM-u, možeš vidjeti njegove oznake u Properties
+prozoru s desne strane. 
 
 ![Properties panel][]
 
-### Editing Tags
-You can add, edit, and delete tags from the Properties panel. However, the tags
-are traditionally in English and can sometimes be confusing, so it
-is often easier to use the Presets menu. When you add or change tags, the attributes
-of the object are changed.
+### Uređivanje oznaka
+Možeš dodavati, uređivati i brisati oznake u Properties prozoru. Međutim oznake
+su tradicionalno na Engleskom jeziku te ponekad ogu biti zbunjujuće, pa ih je često
+jednostavnije koristiti iz Presets izbornika. Kad dodaješ ili mijenjaš oznake,
+svojstva objekta se mijenjaju.
 
--   To edit an object's tags, first select it.
--   Then edit the tags in one of two ways: (1) Use the Presets menu,
-    or (2) edit the tags directly in the Properties window on the right. 
+-   Za uređivanje oznake objekta, prvo ju odaberi
+-   Zatim uredi oznaku na jedan od dva načina: (1) Koristeći Presets izbornik,
+    ili (2) uredi oznake direktno u Properties prozoru s desne strane.
 
-### Common Mistake: Tagging nodes when you want to tag lines or polygons
-When you are editing the attributes of a point, you will first select
-the point and then add tags either through the Presets menu or directly
-in the Properties panel. A common mistake is when adding attributes to a
-line or a shape. When selecting the object, it is important that you
-select the line, and NOT the points that make up the line.
+###Česta greška: Označavanje točaka kad želiš označiti linije i poligone
+Kad uređuješ svojstva točke, prvo odabereš točku i onda joj dodaš oznake
+putem Presets izbornika ili direktno u Properties prozoru. Česta greška
+je kod određivanja svojstva linije i oblika. Kod odabira objekta važno
+je odabrati SAMO liniju a NE i točke koje čine tu liniju.
 
-This frequently occurs because editors use the JOSM select tool to draw a
-box around an object, which causes everything, both the line **and** the nodes
-to be selected, and when you add tags they are applied to the nodes
-as well. Be sure to **only** select lines when you want to add tags
-to them.
+Ovo se često događa kad se koristi JOSM alat za odabir(select tool) za
+odabir područja oko objekta, koji odabire sve što se nalazi unutar njega,
+i linije i točke, te će oznake biti primijenjene na sve uključujući točke.
+Budi siguran da si odabrao **samo** linije kad ih želiš označiti.
 
 ![Nodes mistake][]
 
-Saving OSM files
-----------------
-When you are editing in JOSM, it is always a good idea to download, edit, and
-upload changes in a reasonably short period of time. You do not want to download
-data one day, and then wait until a few days later to upload your edits. What if
-someone else edits the same area during that time? This will cause errors and conflicts.
+Spremanje OSM datoteke
+----------------------
 
-Don't be afraid to upload your edits frequently. This ensures that your changes will
-be saved to the database and you will not lose your hard work.
+Kad uređuješ sa JOSM, uvijek je dobra ideja preuzeti, urediti i poslati promjene
+u razumno kratkom vremenskom roku. Ne želiš preuzeti podatke jedan dan, te čekati
+nekoliko dana da pošalješ svoje promjene. Što ako netko drugi uređuje to područje
+u tom periodu. To će uzrokovati greške i konflikte.
 
-If you are working in a single area, it's a good idea to download the map data
-every time you want to edit, in case another user has made changes.
+Nemoj se bojati često slati svoje promjene. To osigurava da će tvoje promjene
+biti spremljene te nećeš izgubiti svoj trud.
 
-Although you should always try to download OSM data when you are ready to edit,
-and upload your changes frequently, there may be cases in which you want to save
-the OSM data on your computer. For example, if you have intermittent connectivity
-to the internet, you may wish to download data, save it, edit, and then upload your
-changes later on.
+Ako radiš na jednom području, dobra je ideja preuzeti podatke svaki put kad želiš
+uređivati jer možda još netko uređuje u tom području.
 
--  To save an OSM file, make sure that it is the active layer in the
-    the Layers panel. Click “File” on the top menu, and click “Save”.
-    Choose a location for the file and give it a name. You can also save
-    by clicking this button:
+Iako bi svaki put trebao pokušati preuzeti OSM podatke kad želiš uređivati,
+te redovito slati promjene, postoje trenutci kad ćeš htjeti snimiti OSM podatke
+na računalo. Na primjer, ako imaš problematičnu veze na internet, htjet ćeš
+preuzeti podatke, spremiti ih, urediti, te kasnije poslati promjene.
+
+-   Za snimiti OSm datoteku, provjeri da li je to aktivni sloj u Layers
+    prozoru. Klikni "File" na gornjem izborniku, te klikni "Save".
+    Odaberi lokaciju gdje želiš snimiti dokument i daj mu ime. Također možeš
+    snimiti klikom na ovaj gumb:
 
 ![JOSM save button][]
 
--  You can now close JOSM and your data will be saved. When you want to
-    open the file again, simply open JOSM, go to the “File” menu, and
-    click “Open...”
+-   Sad možeš zatvoriti JOSM i tvoji podatci će biti spremljeni. Kad ponovno
+    želiš otvoriti datoteku jednostavno otvori JOSM, idi na “File” izbornik,
+    te klikni “Open...”
 
 Sažetak
 -------
 U ovom poglavlju detaljnije smo obradili JOSM i naučili o slojevima i oznakama.
-Sad bi trebao imati solidnu osnovu kako mapirati i kako uređivati OpenStreetMap.
+Sad bi trebao imati solidnu osnovu kako kartirati i kako uređivati OpenStreetMap.
 
 U završnom poglavlju ovog vodiča pogledati ćemo ostale izvore iz kojih možeš 
 učiti i napredovati. Kako prakticiraš što si naučio ovdje i istražuješ dalje,
