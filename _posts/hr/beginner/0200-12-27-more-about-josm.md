@@ -13,11 +13,11 @@ U prošloj lekciji ste instalirali JOSM i počeli crtati vaše prve točke, lini
 
 To je bilo odlično za vježbu, a sada smo spremni raditi izmjene u OSM sustavu. 
 
-U ovoj lekciji ćemo pobliže pogledati korisničko sučelje JOSM-a i naučiti kako ga iskoristiti za editiranje OSM karata.
+U ovoj lekciji ćemo pobliže pogledati korisničko sučelje JOSM-a i naučiti kako ga iskoristiti za uređivanje OSM karata.
 
-Ciklus editiranja
+Ciklus uređivanja
 -----------------
-Editiranje OpenStreetMap-a JOSM aplikacijom je slični editiranju iD editorom koje smo vidjeli ranije. No zbog toga što je JOSM desktop aplikacija, radi malo drugačije. Proces editiranja i dodavanja podataka u OSM sustav pomoću JOSM aplikacije će uvijek biti sljedeći:
+Uređivanje OpenStreetMap-a JOSM aplikacijom je slični editiranju iD editorom koje smo vidjeli ranije. No zbog toga što je JOSM desktop aplikacija, radi malo drugačije. Proces editiranja i dodavanja podataka u OSM sustav pomoću JOSM aplikacije će uvijek biti sljedeći:
 
 1. **Preuzmite** trenutačne podatke o karti iz OSM-a
 2. **Editirajte** preuzete podatke koristeći satelitske slike, GPS, Field Papire i bilješke
@@ -79,7 +79,7 @@ S desne strane prozora s kartom se nalazi niz prozorčića koji imaju svoje funk
 
 Ove prozorčiće možete otvoriti ili zatvoriti ako kliknete na razne tipke s donje lijeve strane JOSM-a. Iznad ovih tipki, gore desno se nalaze alati kojima određujete što radite s mišem. Neke od njih već znate, alat za odabir objekata i alat za crtanje. Ispod njih se nalaze alati pomoću kojih je lakše povećati (približiti) kartu, brisati objekte, crtati oblike ili stvoriti liniju koja je paralelna s drugom linijom.
 
-Editiranje (izmjena podataka)
+Uređivanje (izmjena podataka)
 -----------------------------
 Završili smo prvi korak editiranja, Preuzimanje podataka. Pripremili smo JOSM tako da vidimo satelitske snimke kao referentnu podlogu. Sljedeći korak je da editiramo kartu i dodamo nove stvari. 
 
@@ -151,7 +151,7 @@ Sažetak
 -------
 Sad kada ste vidjeli kako dodavati sadržaj u OpenStreetMap, što je sljedeće? Mijenjati kartu je odlično, ali to nije jedini aspekt izrade karata. Trebati ćete naučiti kako izaći na teren i skupiti informacije o konkretnim područjima.
 
-U sljedećim lekcijama ćete naučiti dvije metode, GPS i Field Papers, koje koristimo za prikupljanje geografskih podataka. Informacije skupljene s obje ove metode možete uvesti u JOSM i koristiti ih za editiranje karte.
+U sljedećim lekcijama ćete naučiti dvije metode, GPS i Field Papers, koje koristimo za prikupljanje geografskih podataka. Informacije skupljene s obje ove metode možete uvesti u JOSM i koristiti ih za uređivanje karte.
 
 [JOSM Download Button]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image00_download-button.png
 [JOSM Download Dialog]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image01_download-dialog.png
