@@ -1,133 +1,127 @@
 ---
 layout: doc
-title: Creating Custom Presets
+title: 独自プリセットの作成
 permalink: /jp/editing/creating-presets/
 lang: jp
 category: editing
 ---
 
-Creating Custom Presets
+独自プリセットの作成
 =======================
-In the [previous chapter](/en/editing/josm-presets) we looked at how custom
-presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.
+[前回の章](/jp/editing/josm-presets)では、JOSMにカスタムプリセットを追加する方法を紹介しました。この章では、自分自身で独自のプリセットを作成する方法を紹介します。
 
-WARNING! This is an advanced topic... consider yourself warned!
+注意！ これは高度なトピックです。十分に注意してください！
 
-Introduction to XML
+XMLとは
 -------------------
-In order to create our own Presets menu, we first need to understand a language called XML. If you're already familiar with XML feel free to jump the next section.
+プリセットメニューを作成するにあたって、XMLという言語について知っておく必要があります。既にXMLについて十分知っている、という場合は、次のセクションへ進んでください。
 
-XML, which stands for “Extensible Mark-up Language”, is a computer language similar to HTML.  The key difference is that XML is designed to carry data, not display it.  Many applications on the internet use XML to transmit data, including OpenStreetMap.  XML uses elements, and each element can contain child elements inside it.  For example, let’s imagine that we want to create an XML file that contains data about a restaurant menu.  We must create a root element to contain all the data about our menu.  Our root element will have an opening and a closing tag, like this:
+XMLとは、“Extensible Mark-up Language/拡張可能なマークアップ言語”の略であり、HTMLに似たコンピュータ言語の一種です。HTMLとXMLの主な違いは、XMLはデータの表示ではなく、保持を目的とした言語である、ということにあります。XMLを使ってデータの転送を行っているアプリケーションはインターネット上に数多く存在し、OpenStreetMapもそのひとつです。XMLは要素 (element) を使用します。それぞれの要素は、そのなかに別の要素を子要素として保持することができます。例えば、レストランのメニューについてのデータを含むXMLファイルを作成することを考えてみてください。その場合、まず最初に、すべてのメニューのデータを含む幹要素 (root element)を作成する必要があります。幹要素はそれ自体が、以下のような開始と終了のタグを保持します:
 
 	<menu>
       ... whatever data we want to include in our menu ...
 	</menu>
 
-Information is contained inside an element, and within each element there can be more elements.
+情報は、要素の中に格納されます。また、それぞれの要素の中には、別の要素を含めることも可能です。
 
   	<menu>
 	  <item name=“Hamburger”>
 		<cost>400</cost>
-		<description>Delicious beef patty</description>
+		<description>ビーフパテが美味</description>
 	  </item>
 	  <item name=“Nasi Goreng”>
 		<cost>200</cost>
-		<description>Indonesian Fried Rice</description>
+		<description>インドネシアの米料理</description>
 	  </item>
   	</menu>
 
-In this example we have placed two &lt;item&gt; elements within our &lt;menu&gt; element to describe two different items that are contained in the menu.  Each item contains two more elements in them, &lt;cost&gt; and &lt;description&gt;.  Notice also how we have written name=”Hamburger” inside the opening &lt;item&gt; tag.  This is called an attribute, and adds information about the element.
+この例では、2つの &lt;item&gt; 要素が &lt;menu&gt; 要素のなかに格納され、メニューにあるそれぞれの項目についての情報を保持しています。それぞれの item 要素は &lt;cost&gt; と &lt;description&gt; という2つの子要素を格納しています。 &lt;item&gt; 要素を定義するタグのなかに name=”Hamburger” という記載が行われていることに注目してください。これは属性 (attribute) と呼ばれ、その要素に対する追加情報を定義します。
 
+### XML用語について
+-	**幹要素/root element:** XMLドキュメントのもっとも外郭を形成する要素。内部に格納するものがなんであるかをあらわす
+-	**要素/element:** あらゆるXMLオブジェクト。開始タグと終了タグで囲われる。形式は &lt;item&gt; ... データ ... &lt;/item&gt; のようになる
+-	**タグ/tag:** ブラケットで囲われている内容。例えば &lt;item&gt; など。 &lt;item&gt; は要素の開始をあらわし、要素の終了は &lt;/item&gt; であらわされる。OSMのタグとは異なる意味合いを持つので、混同しないこと
+-	**属性/attribute:** タグで囲われたそれぞれの情報を示す。例えば name=“Hamburger” など
 
-### XML Terminology
--	**root element:** the outermost element of an XML document, which describes what is contained
--	**element:** any XML object, contained by opening and closing tags, such as &lt;item&gt; ... data ... &lt;/item&gt;
--	**tag:** something contained in brackets, such as &lt;item&gt;.  &lt;item&gt; is the
-	opening tag of an element, and &lt;/item&gt; is the closing tag. Don't confuse this
-	with OSM tags, which have a different meaning.
--	**attribute:** a piece of information contained inside a tag, such as name=“Hamburger”
+XML形式を使ってデータの保持と送信を行うことで、コンピュータがその内容を簡単に把握できるようになります。
 
-Using XML to hold and transmit data is great because it is easy to understand for computers.
-
-
-JOSM Presets Files
+JOSMプリセットファイル
 -------------------
-Let's add a sample presets file into JOSM and analyze how it works.
+それではサンプルのプリセットファイルをJOSMに読み込み、それがどのように動作するのかをみてみましょう。
 
--	Download the file [sample_presets.xml](/files/sample_presets.xml).
--	Then load it into JOSM as described in the [previous chapter](/en/editing/josm-presets).
--	Create a new layer and a new object.
--	Go the the Presets menu. There will be a new item named "Sample Building." Click on it.
+-	[sample_presets.xml](/files/sample_presets.xml) をダウンロードしてください
+-	[前章](/jp/editing/josm-presets)の内容を参考にして、そのファイルをJOSMに読み込みます
+-	新規レイヤを作成し、そこになにかひとつオブジェクトを作成します
+-	プリセットメニューを開きます。"Sample Building" という項目ができていますので、それをクリックします。
 
 ![sample building menu][]
 
-Notice that the form which appears has three fields in it, and each accepts a different type of input. The first field, building name, accepts a text string as input. The second, building use, has a dropdown box. The final field is a check box, meaning that it can only have one of two values, on or off.
+3つの入力欄が配置されたウィンドウが表示されます。1つめの入力欄 "building name" は、テキスト形式の入力が可能です。2つめ "building use" はドロップダウンメニューになっています。3つめの入力欄はチェックボックスで、オンとオフ、どちらかの値しか入力することができないようになっています。
 
 ![sample presets form][]
 
-Now let's look at the XML file which defines this Preset form.
+このプリセットの入力欄を定義しているXMLファイルの内容を見てみましょう。
 
--	Find the XML file on your computer and open it with a text editor. If you are using Windows you can use the Notepad 	program. If you want a more easy-to-use editor, you might download the free Notepad++ application.
--	The **sample_presets.xml** file looks like this:
+-	対象のXMLファイルの位置を確認し、テキストエディタで開いてください。Windowsを使っている場合、"メモ帳/notepad"でも開くことができます。もっと使いやすいエディタということであれば、 Notepad++ ソフトウェアをダウンロードしてください。
+-	**sample_preset.xml** ファイルの内容は以下のとおりです:
 
 ![sample presets file][]
 
-For now, let's ignore the first six lines and the final line, and focus on everything between the &lt;item&gt; tags.
+いまのところ、最初の6行と最後の6行は無視して、 &lt;item&gt; タグの内容に注目してみましょう。
 
-The first line looks like this:
+最初の行は、このように成っています:
 
 	<item name="Sample Building" type="node,closedway">
 
-This is the opening tag of an item which is added to the menu. It has two attributes, name and type. The name defines how this will appear on the Presets menu. The type limits this preset to specific types of objects. In this case, the preset can only be applied to points and shapes - in other words, nodes and closed ways. If you try to apply this preset to a line, it won't work.
+これはメニューに追加する item の開始タグとなっています。ここでは、name と type という2つの属性が付与されています。nameは、プリセットのメニュー内で表示する名称を定義しています。typeは、このプリセットで利用するオブジェクトの形式を定義します。今回の場合、プリセットではポイントとシェイプ、つまり、ノードと閉じたウェイの形式のデータに対して適用されます。ラインに対してこのプリセットを適用することはできません。
 
-Let's look at the next line:
+次の行をみてみましょう:
 
 	<label text="Building Form" />
 
-When you click on the menu and open the sample form, at the top you see the text "Building Form." This is the text defined in this line. This defines a &lt;label&gt; element, which simply displays text in the form. The text is defined by the attribute *text="some text"*.
+プリセットメニューでの表示、サンプルの入力欄での表示の際に、"Building Form"という文字列が表示されますが、それはこの行で定義されています。この行では &lt;label&gt; 要素が指定されており、入力欄で表示される内容を表示しています。表示される文字列は *text="some text"* という表記法で定義します。
 
-Go down a few lines and find this:
+次の行はこのようになっています:
 
 	<key key="building" value="yes" />
 
-This is one of the tags that will be applied to the object we have selected. Because it uses the element &lt;key&gt;, the OSM tag given here will be automatically applied when the preset is chosen. Hence this object will automatically obtain the tag *building=yes*.
+選択したオブジェクトに対して適用されるタグ情報が定義されています。この行では &lt;key&gt; という要素が定義されており、この指定内容はOSMタグとして、選択されたオブジェクトに対して自動的にプリセットとして付与されます。そのため、今回は選択対象となるオブジェクトには *building=yes* というタグが自動的に追加されることとなります。
 
-The next line is a bit different, using the &lt;text&gt; element.
+次の行は少し違っていて、 &lt;text&gt; 要素を利用しています。
 
 	<text key="name" text="Name of Building" default=""
 		delete_if_empty="true" />
 
-The &lt;text&gt; element creates a blank field. When the form is created in JOSM, the user will be able to fill in the empty field. Because the attribute *delete_if_empty="true"* is set, no tag will be added if the user leaves this field empty.
+&lt;text&gt; 要素は、空白の入力欄を作成します。JOSMで入力欄が表示された際に、ユーザはその欄に内容を入力することができます。 *delete_if_empty="true"* が指定されているので、入力欄が空白のままで処理が進んだ場合、タグがなにも追加されません。
 
-The dropdown box on the form is defined in the following line:
+ドロップダウンボックスの入力欄で表示される内容は次の行で指定されています:
 
 	<combo key="building:use" text="Building Use"
 		values="residential, commercial, industrial"
 		display_values="Residential, Commercial,
 		Industrial"/>
 
-A dropdown box is defined by the &lt;combo&gt; element. As with the &lt;text&gt; element, the attribute *key* defines the tag key. The value is then chosen from a list of possible *values*. The *display_values* attribute allows you to choose different names to be displayed in the dropdown box, which may be easier to understand than the OSM tag values.
+ドロップダウンボックスで表示される内容は &lt;combo&gt; 要素で定義されています。 &lt;text&gt; 要素と同じように、 *key* 属性ではタグのキーを定義しています。ここで定義されている値は、リストで指定できる *value* の内容を示しています。 *display_values* 属性では、ドロップダウンボックスで対象の value を異なる名称で表示する際に利用します。表示名を変更することで、OSMのタグと値をそのまま表示するよりも理解しやすくすることができます。
 
-Lastly, let's look at the line which defines the checkbox.
+最後に、チェックボックス部分を定義している行をみてみましょう。
 
 	<check key="building:vacant" text="Is the building
 		vacant?" default="off" delete_if_empty="true" />
 
-The &lt;check&gt; element defines - you guessed it! - the checkbox. The attribute *default="off"* states that the box will be unchecked by default. The remaining attributes you have already seen.
+&lt;check&gt; という要素が定義されています。これはその名前の通り、チェックボックスを意味しています！ 属性 *default="off"* では、デフォルトでその項目がチェックされていない状態であることを示しています。その他の属性は、すでにこれまで説明したとおりです。
 
-Creating Your Own Presets File
+自分独自のプリセットファイル作成
 ------------------------------
-The best way to create your own presets file is to take one that already exists, and manipulate it fulfill your objectives.  Feel free to edit this sample file and experiment with it to learn the basics. Just remember that each time you save it, you will need to restart JOSM to load the changes.
+自分自身で独自のプリセットファイルを作成しようとする場合、一番良いのは、これまでに存在しているプリセットファイルを真似して、その一部を改変したり、追加したりすることです。このサンプルファイルを好きなように改変して、基本的な動作を把握してみてください。変更したプリセットを適用するにはJOSMの再起動が必要ですので注意しましょう。
 
-Before you start creating your own presets, you need to think carefully about the tags that you will use. Inventing new tags is another topic altogether. Generally, you should utilize existing OSM tags when they exist. Most existing tags are listed on the [Map Features page on the OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).
+プリセットを最初からつくり上げる場合、そこで利用するタグはよく考慮してください。まったく新しいタグを作る、というのは、それはまた違う作業と工程が必要になります。一般的に、プリセットで利用するタグはすでに定義が確定しているものを選ぶべきです。既に定義済みのタグはほとんどが [OSM Wiki の Map Featuresページ](http://wiki.openstreetmap.org/wiki/Map_Features) に記載されています。
 
-This sample file contains most of the elements that you will find in a JOSM presets file - there aren't very many form elements. If you'd like to experiment with a more complex presets file, download the [dhaka_presets.xml](/files/dhaka_presets.xml) file here.
+このサンプルファイルではJOSMプリセットファイルでよく利用される要素のほとんどが含まれていますし、実際、利用できる要素はそれほど多くありません。より複雑な定義のプリセットを見てみたい場合、こちらの [dhaka_presets.xml](/files/dhaka_presets.xml) の内容を参考にするのがよいでしょう。
 
-Additionally, a detailed explanation of all possible elements can be found [here](http://josm.openstreetmap.de/wiki/TaggingPresets).
+また、プリセットファイルで指定することができる定義は、すべて [こちら](http://josm.openstreetmap.de/wiki/TaggingPresets) に記載がされています。
 
-Good luck!
+がんばって！
 
-
-[sample building menu]: /images/en/editing/creating-custom-presets/sample-building-menu.png
-[sample presets form]: /images/en/editing/creating-custom-presets/sample-presets-form.png
-[sample presets file]: /images/en/editing/creating-custom-presets/sample-presets-file.png
+[sample building menu]: /images/jp/editing/creating-custom-presets/sample-building-menu.png
+[sample presets form]: /images/jp/editing/creating-custom-presets/sample-presets-form.png
+[sample presets file]: /images/jp/editing/creating-custom-presets/sample-presets-file.png

@@ -1,71 +1,48 @@
 ---
 layout: doc
-title: Editing Techniques
+title: 編集テクニック
 permalink: /jp/editing/josm-editing-techniques/
 lang: jp
 category: editing
 ---
 
-Editing Techniques: Common Mistakes
+編集テクニック: よくある間違い
 ====================================
-There are a number of common mistakes that mappers make when they start
-using OpenStreetMap. In this chapter we'll identify a few of the most
-frequent errors and offer some tips for mapping better.
+OpenStreetMapを編集するにあたって、やってしまいがちな間違いがいくつかあります。この章では、そうした間違いの中でもより頻度の高いエラーや、より品質の高いデータを作り出すためのヒントを紹介します。
 
-Connecting Objects
+オブジェクトの接続
 -------------------
 
-### Some Objects Should Not Connect
-When you are creating polygons and lines that are not supposed to be
-connected, make sure that they are not merged together by sharing a
-node.  For example, highway nodes should not be snapped to buildings,
-because no one likes a road that leads directly into a wall!  If you
-want to disconnect two or more objects that share the same node, select
-the node and go to *Tools->UnGlue Ways* or press \<\<G\>\>.
+### 接続してはいけないオブジェクト
+ポリゴンやラインを描く際に、それらを接続する共有ノードを作成してはいけない場合があります。例えば、道路を構成するノードは建物と接続してはいけません。もし現実世界で、建物の壁に直接ぶつかっている道路があれば話は別ですが、そうしたケースはほぼありえないでしょう。複数のオブジェクトに共有ノードで接続されてしまっている状態を解除するには、対象のノードを選択し、キーボードの \<\<G\>\> を押すか、メニューから *ツール->ウェイの分割* を選択してください。
 
 ![road building no][]
 ![road building yes][]
 
-### But, Some Objects Should Connect!
-Roads that intersect should always share a node. If they do not share a common node,
-then the computer has no way of knowing that the roads actually connect
-to each other.
+### 必ず接続されているべきオブジェクトもあります！
+多くの場合、道路のウェイは共有ノードによって接続されているべきです。交差する2つのウェイに共有するノードが無い場合、その2つのウェイが実際には交差しているという情報を、コンピュータは正しく判別できません。
 
 ![road connecting nodes][]
 
-The only time that you would NOT have intersecting roads share a node is
-if one of the roads goes over the other road, and they do not, in fact, connect.
+ただしそれらの道路が、橋やトンネルなどの高低差によって実際には交差していない場合、そうしたウェイ同士を接続してはいけません。
 
-Overlapping Objects
+オブジェクトの重複
 --------------------
-A common error is to have overlapping polygons when the objects they
-represent do not overlap in real life.  A building cannot overlap
-another building.  This mistake is commonly made with buildings and
-landuse polygons.  For example, a polygon drawn to represent a park
-outside a building should not overlap with the building.  Instead it
-should be drawn next to the building.
+もうひとつよくある間違いは、現実世界では重複してないオブジェクト同士がOSM上のポリゴンでは重なり合ってしまっている場合です。現実世界での建物は、他の建物と重複することはありません。こうした間違いは、建物と土地利用のポリゴンの組み合わせで散見されます。例えば、公園をあらわすポリゴンがあり、その敷地の外に建物が建っている場合、公園と建物のポリゴンが重なることはありません。この場合、建物の横に公園がある、という風に、2つのポリゴンは分けて描かれるべきです。
 
 ![building overlap][]
 
-There are some exceptions to this rule, such as schools.  Within a
-school yard you might identify individual buildings using polygons, yet
-you also might want to create a polygon around the entire school yard.
-In this case it is fine for the polygons to overlap, but the rule to
-follow here is to make sure that the buildings are completely inside the
-landuse polygon.
+もちろん、学校を描く場合など、この規則には例外があります。学校の敷地内には通常、複数の建物がポリゴンを使って描かれます。この場合、学校の敷地ポリゴンのなかに建物のポリゴンを描くことはまったく問題ありません。ただしこの場合でも、学校の敷地と建物の2つのポリゴンが交差することはほとんど無く、敷地のポリゴンのなかに建物のポリゴンが完全に包括されているはずです。
 
 ![building landuse][]
 
-Summary
+まとめ
 --------
-We all make mistakes, but the more you map the less you will make less mistakes!
-Just remember that even if you upload data that contains mistakes, you can always
-fix your mistakes and upload the changes again.  This is
-what is great about OSM: you can always make it better!
+ひとは誰しも間違うものです。何度か地図を描いてみて、自分の編集した結果を見直してみましょう。何度も同じ間違いをしないように心がけていれば大丈夫です。さらに、もしあなたがアップロードしたデータに間違いが含まれていたとしても、アップロードしたデータは何度でも修正することができます。これが、OSMの素晴らしいところです。OpenStreetMapでは、編集をすればするほど、データを改善してゆくことができるのです！
 
 
-[road building no]: /images/en/editing/josm-editing-techniques/road-building-no.png
-[road building yes]: /images/en/editing/josm-editing-techniques/road-building-yes.png
-[road connecting nodes]: /images/en/editing/josm-editing-techniques/road-connecting-nodes.png
-[building overlap]: /images/en/editing/josm-editing-techniques/building-overlap.png
-[building landuse]: /images/en/editing/josm-editing-techniques/building-landuse.png
+[road building no]: /images/jp/editing/josm-editing-techniques/road-building-no.png
+[road building yes]: /images/jp/editing/josm-editing-techniques/road-building-yes.png
+[road connecting nodes]: /images/jp/editing/josm-editing-techniques/road-connecting-nodes.png
+[building overlap]: /images/jp/editing/josm-editing-techniques/building-overlap.png
+[building landuse]: /images/jp/editing/josm-editing-techniques/building-landuse.png

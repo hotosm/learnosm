@@ -1,67 +1,52 @@
 ---
 layout: doc
-title: JOSM Plugins
+title: JOSMプラグイン
 permalink: /jp/editing/josm-plugins/
 lang: jp
 category: editing
 ---
 
-JOSM Plugins
+JOSMプラグイン
 ============
+編集作業に慣れてくると、JOSMの機能をさらに使いこなすことで編集作業の質とスピードを向上させたくなってきます。JOSMには、ソフトウェアをさらに多機能にするプラグインが数多く用意されています。
 
-As you become more advanced in your editing techniques, you may want to
-use additional JOSM features to improve your
-mapping skills. JOSM allows you to install numerous plugins, which add
-extra functionality to the software.
+learnOSMビギナーズガイドに沿って学習してきた場合、すでにField Papesプラグインがインストールされているはずです。
 
-If you worked through the learnOSM Beginner's Guide, you have already installed
-the Field Papers plugin.
+このセクションでは、プラグインのインストール方法、そしてプラグインの中でもよく利用されることが多いものを紹介します。
 
-In this section we will take a look at how to install plugins,
-and some of the most useful plugins that are available.
-
-Installing Plugins
+プラグインのインストール
 -------------------
--   Any time you want to install a new plugin, go to Edit --\> Preferences
-    and click on the “Plugins” tab.
+-   プラグインをインストールする際は、 画面上部のアイコンから設定アイコンを選択し、 "プラグイン"タブを開いてください。
 
 ![Plug][]
 
--   If you don’t see a list of available plugins, click “Download List.”
--   To install a plugin you simply must check the box next to it
-    and click OK at the bottom.
--   Lastly, you must restart JOSM anytime you install new plugins.
+-   プラグインのリストが表示されない場合、 "リストのダウンロード"を選択してください。
+-   インストールしたいプラグインの横にあるボックスにチェックを入れ、OKボタンを押すことでインストールが可能です。
+-   インストールが完了したら、適度なタイミングでJOSMを再起動してプラグインを読み込ませてください。
 
-Some of our favorite plugins are:
+よく使われるプラグインには、以下のようなものがあります:
 
-1.  **buildings_tools:** If you draw a lot of buildings, this will make the process faster and easier
+1.  **buildings_tools:** 建物ポリゴンを素早く、数多く描くためのプラグインです。
 
-2.  **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM
-    database, this plugin makes it easy.
+2.  **DirectUpload:** 複数のGPSトラックを収集していて、それらのトラックをそのままOSMデータベースに格納したいとき、このプラグインが便利です。
 
 3.  **editgpx:**
-    If you want to upload GPS tracks from a Garmin device, you might need this
-    plugin. OSM won't accept GPS tracks that have been saved on an external memory
-    card in a Garmin, but this plugin can correct the files so they can be uploaded.
+    Garmin機器からGPSトラックをアップロードする場合、このプラグインが必要な場合があります。Garminに挿入されている外部メモリカードにトラックを保存している場合、そこからOSMデータベースへトラックを直接アップロードすることができません。このプラグインを利用することで、それらのトラックファイルをいちど収集し、OSMデータベースへアップロードすることができるようになります。
 
 4.  **fieldpapers:**
-    This plugin let's you load scanned Field Papers into JOSM.
+    スキャンされた Field PapersをJOSMで読み込むためのプラグインです。
 
 5.  **imagery_offset_db:**
-    This plugin let's you cooperate with other mappers who find that the Bing
-    satellite imagery is a little bit misaligned. This issue is covered in more
-    detail in a later chapter.
+    このプラグインは、Bing衛星画像のオフセット値を他のマッパーたちと共有することができるようになります。オフセットの問題については、別の章で詳しく扱います。
 
 6.  **mirrored_download:**
-    With this plugin you can download a larger area of OSM data for editing.
+    このプラグインを使うことで、より広いエリアをいちどにダウンロードして編集することができます。
 
 7.  **print:**
-    Adds a Print function, in case you would like to make quick printouts
-    of an area, that don't need to look very good.
+    印刷機能を追加します。出力の見た目はあまりよくありませんが、ちょっとした印刷を手早く行う際に便利です。
 
 8.  **utilsplugin2:**
-    Adds many additional tools and menus to JOSM for advanced users. This is covered
-    in more detail in the [next chapter](/en/editing/josm-more-tools)
+    熟練した編集者のための編集ツールや操作メニューをJOSMへ追加します。この機能については[次の章](/jp/editing/josm-more-tools)で詳しく扱います。
 
 
 
@@ -322,5 +307,5 @@ queue of files waiting to be inserted into the database.
 -->
 
 
-[Plug]: /images/en/editing/josm-plugins/plugins-tab.png
+[Plug]: /images/jp/editing/josm-plugins/plugins-tab.png
 

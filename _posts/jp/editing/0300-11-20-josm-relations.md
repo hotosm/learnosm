@@ -1,167 +1,113 @@
 ---
 layout: doc
-title: JOSM Relations
+title: JOSMでのリレーション操作
 permalink: /jp/editing/josm-relations/
 lang: jp
 category: editing
 ---
 
-Relations
+リレーション
 ==========
-In the [Beginner’s Guide](/en/beginner) we explained that there are three
-types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and
-polygons (closed ways). Lines contain numerous points, and the line itself carries
-the attributes that define what it represents.  Polygons are the same as
-lines, except that the the line must finish where it begins in order to
-form a shape.
+[ビギナーズガイド](/jp/beginner)の章で、OpenStreetMapのオブジェクトには3つの種類があると説明しました。ポイント(ノード)、ライン(ウェイ)、そしてポリゴン(閉じたウェイ)の3つです。ラインには複数のポイントデータが含まれていますが、そのラインが何をあらわしているかという情報はそれらのポイントオブジェクトではなく、ラインオブジェクトに対して与えられます。ポリゴンはラインと同じ形式ですが、ラインの始点と終点が同じポイントで閉じられています。
 
-In fact, we lied to you, because there is one other type of object in OpenStreetMap,
-called relations.  In the same way that a line consists of other
-points, a relation contains a group of other objects, be they points,
-lines, or polygons.  If you are looking to advance your editing
-skills, then understanding and knowing how to properly edit relations is
-important.
+実際のところ、その説明は完璧ではありません。なぜならば、OpenStreetMapには "リレーション" と呼ばれるもうひとつの種類のオブジェクトがあるからです。ラインが複数のポイントオブジェクトを含んでいるように、リレーションにはポイントやライン、ポリゴンなどその他の種類のオブジェクトが含まれ、それらがグループ化されています。高度な編集スキルを身につけたいと考えるならば、リレーションの編集方法について知っておくことはたいへん重要です。
 
-For example, imagine that you want to map a building that has courtyards
-in the center.  You would need to draw a polygon around the outside of
-the building, and you would want other polygons around the courtyards
-to indicate that they are not part of the building.  This is an example
-of a relation.  The relation would contain several polygons - and the
-attributes of the building would be attached to the relation, not the
-polygons.
+例えば、内部に中庭がある建物を描く時を考えてみてください。この場合、まずは建物の外周を描き、次に、その中にある中庭部分を別のポリゴンとして描く必要があります。これが、リレーションの使い方の一例です。リレーションには複数のポリゴンを含めることができ、建物としてのタグ属性情報はポリゴンではなくリレーションの側に付与されます。
 
 ![multipolygon demo][]
 
-Relations are used to represent anything that requires a collection of
-objects to define.  Other examples are bus routes (a collections of
-lines), long and complex objects (rivers or roads), or multiple polygons
-that are all part of one location (like buildings in a university).
+リレーションでは、複数のオブジェクトから形成される対象を定義し、表現するために使われます。他にも、バスの運行経路 (ラインの集合) や、長く複雑な形状のオブジェクト (河川や道路など)、あるいはひとつの敷地内に存在する複数の建物 (1つの大学敷地内に複数の校舎がある場合など) をグループ化するために使われます。
 
-There are mainly four types of relations you will encounter in OSM:
-Multipolygons, Routes, Boundaries, and Restrictions (such as, no left
-turns).  In this section we will cover Multipolygons and Routes.
+OSMで主に使われるリレーションには、4つの種類があります。マルチポリゴン、ルート/経路、バウンダリ/境界線、レストラクション/制限(例えば左方向転回制限など)です。このセクションではその中でも、マルチポリゴンとルートのリレーションについて紹介します。
 
-Creating Multipolygon Relations
+マルチポリゴンリレーションの作成
 -------------------------------
-Let's see how to create a multipolygon relation like the one shown above.
+それでは、先ほど作成したようなマルチポリゴンリレーションを作成するための方法をみてみましょう。
 
--   First, draw your shapes. In this case we will draw three polygons, an
-    outer rectangle, and two smaller rectangles.
+-   まずは対象となるシェイプを作成します。この場合では、3つのポリゴンを描きます。外周となる外側のポリゴンが1つ、内側の小さなポリゴンが2つです。
 
 ![multipolygon ways][]
 
--   Select all of the polygons. Remember you can select multiple objects
-    by holding SHIFT and clicking on each.
--   Go to *Presets->Man Made->Man Made->Building*.
+-   それらのポリゴンをすべて選択します。複数のオブジェクトを同時に選択するには、キーボードのShiftキーを押しながら対象をクリックしてください。
+-   *プリセット -> 人工物 -> 人工物 -> 建物 * へ進みます
 
 ![building preset][]
 
--   Click on "New Relation."
+-   "新規リレーション"を選択します
 
 ![new relation][]
 
--   You should now see the relations window. This is a little bit complex
-    because now you are adding tags to a collection of ways.
+-   リレーション編集ウィンドウが表示されます。グループ化されたウェイに対してタグを追加する作業を行う関係上、表示は少々複雑です。
 
 ![building relation][]
 
--   Observe that at the top of the panel are the tags for the relation. These tags
-    work the same way as tags always work.
--   At the bottom is a list of the members of the relation. This relation has
-    three members - that is, the three ways that are part of our relation.
--   We need to do a couple things to finish defining our multipolygon. First,
-    notice that because we used the building preset we already have one tag
-    defined for us, *building=yes*. We need to add one more tag that defines
-    the **type** of the relation. We must add a tag that says *type=multipolygon*.
--   Click in the tag box and add this tag.
+-   ウィンドウの上のほうに表示されているパネルは、リレーションに対して付与されているタグです。これらのタグは、通常の操作でオブジェクトに対して与えるタグと同等の意味を持ちます。
+-   リストの一番下は、リレーションに所属しているメンバーをあらわします。このリレーションには3つのオブジェクトがメンバーとして所属しています。つまり、この3つのウェイが今回のリレーションを構成している、ということになります。
+-   マルチポリゴンの作成を完了させるには、いくつかの操作を行う必要があります。まずは、建物プリセットを使用したために、対象のオブジェクトにはタグがひとつ "building=yes" しか付与されていないことに対応しましょう。リレーションを作成する場合、そのリレーションの "type" を指定する必要があります。リレーションに対するタグに *type=multipolygon* を追加しましょう。
+-   タグ入力ボックスをクリックし、このタグを入力します。
 
 ![type multipolygon][]
 
--   Next we need to define what are called **roles**. Each member of a relation
-    has a role, which indicates what that member's purpose is. In this case, the
-    role of the outside polygon must be defined as **outer** and the role of the
-    two inner polygons must be defined as **inner**. These are the roles that are
-    available for members of a multipolygon.
--   In the lower left panel select each member in the list. You can see the member
-    that is selected will be highlighted in the map window. Enter **outer** and
-    **inner** for the correct polygons.
+-   次に、 **role/ロール/役割** と呼ばれる項目を設定します。リレーションに所属するメンバーオブジェクトにはそれぞれにロールが割り当てられ、そのリレーションにおいてどのような意味を持っているかが指定されます。今回のマルチポリゴンの場合、外周側のポリゴンには **outer** というロールが割り当てられ、内側2つのポリゴンには **inner** というロールを割り当てます。マルチポリゴンにおけるメンバーに対するロールとして利用可能なのは、この2つだけです。
+
+-   ロールの割り当ては左下のパネルで行います。パネル内でオブジェクトメンバーを選択すると、マップウィンドウでそのオブジェクトが強調表示されます。それぞれのポリゴンに **outer** と **inner** のロールを割り当ててください。
 
 ![outer inner][]
 
--   Click OK and your multipolygon relation is complete!
+-   マルチポリゴンリレーションの作成はこれで完了です。OKを押してください！
 
 ![new multipolygon][]
 
-When you create a multipolygon like this it will be rendered on the map like so:
+今回のように作成したマルチポリゴンが地図上でレンダリングされると、以下のように表示されます:
 
 ![multipolygon mapnik][]
 
-Multipolygons can be used for any complex object that requires inner and outer polygons, like
-a building or a river with patches of land inside it. Detailed multipolygon information can be
-found on the [OSM Wiki](http://wiki.openstreetmap.org/wiki/Relation:multipolygon).
+マルチポリゴンは、外側と内側を組み合わせることで、中庭のある建物や、中洲のある河川をはじめ、非常に複雑な形状のオブジェクトを表現することが可能です。マルチポリゴンについてのより詳しい情報は、[OSM Wiki](http://wiki.openstreetmap.org/wiki/Relation:multipolygon)に記載されています。
 
-Route Relations
+ルート/経路 リレーション
 ----------------
-Relations are also very useful for representing long routes. For example, a bus
-or bicycle route follows various road segments. To define such a route, we can
-create a relation which contains all of the road segments that are part of the route.
-Additional features, such as bus stops can also be members of a route relation.
+リレーションを使うことで、長距離にわたる経路情報を表現することも可能です。例えば、バスや自転車の経路は複数の道路オブジェクトを組み合わせる形で指定されています。こうした経路情報を表現するにあたり、リレーションを使うことで、それら複数の道路をまとめて1つの経路として表現することが可能です。また、経路以外の情報、例えばバス停などについても、リレーションのメンバーとして指定することができます。
 
 ![route relation][]
 
-Let's see how to create a relation for a bus route in JOSM:
+それでは、JOSMでバス経路リレーションを作成する方法を見てみましょう:
 
--   First, select all of the ways which the route runs along. You may need to
-    split some streets into separate segments if only part of them belong to
-    the relation. You can do this using the "Split Way" tool.
--   When all the segments are selected, go to *Presets->Transport->Public Transport->
-    Public transport route*.
+-   最初に、その経路を構成するウェイをすべて選択します。経路が曲がるべき箇所でウェイが結合してしまっている場合は、その箇所でウェイの分割を行ってください。JOSMでは、 "ウェイの分割" ツールを使って分割を行うことができます。
 
 ![public transport preset][]
 
--   Next to Route type, select "bus."
--   Click "New Relation." You will see the relation window pop up, just as when
-    you create a multipolygon.
+-   ルート種類は、"バス"を選択します。
+-   "新しいリレーション"を選択すると、マルチポリゴンを作成した時と同様にリレーションウィンドウが表示されます。
 
 ![bus route relation][]
 
--   Notice that there are already tags which define the relation as a route. Instead
-    of *type=multipolygon*, we have *type=route*. We also have a tag defining it as
-    a bus route, as opposed to another type of route.
--   You may now think, what should the **role** of the members be? Well, in the case
-    of a route, we don't need to define the role of the members. By leaving the role blank
-    the software knows that they are simply part of the route. We could also define the role
-    of each segment as **route**, but it is not necessary.
--   Click OK and your route relation will be complete!
+-   経路リレーションを定義するためのタグも既に用意されています。 *type=multipolygon* と入力する代わりに、 *type=route* と入力してください。また、その経路が電車やフェリーなどの経路ではなく、バスの経路であることを示すために、もうひとつ別のタグも付与します。
+-   **ロール** に設定するべき情報ですが、経路リレーションの場合はメンバーのロールを設定する必要はありません。ロールの部分を空白にしておくことで、ソフトウェアが自動的に、そのメンバーが経路の一部である、と認識してくれます。もちろん、各メンバーオブジェクトへ明示的に **route** というロールを割り当てることも可能ですが、指定の上で必須というわけではありません。
+-   メンバーの登録が終わったら、OKを押せば設定完了です！
 
->   If you want a list of all the relations on the map, you can open the relations panel
->   by clicking on this button on the left:
+>   マップに含まれているリレーションは、JOSMの左側のアイコンからリレーションパネルをオープンすることでリスト表示することができます:
 >   ![relation panel button][]
->   This will open a panel where you can select, edit, and create new relations.
+>   このパネルでは、リレーションの選択や編集、新規作成が可能です。
 
-Summary
+まとめ
 -------
-Relations can be difficult to understand and do not need to be used often,
-but they are necessary to know about. Every so often you may realize that you
-need a relation to map something correctly, and you can use this knowledge, and find
-more information on the OSM Wiki, to help you map relations correctly.
+リレーションはとても難解な概念で、しかもあまり頻繁に使う機能ではありませんが、OSMを詳細に編集する際には必ず知っておく必要があるものです。編集を行うにあたって、リレーションが必要になることはあります。そのときには、ここでの知識を活かし、OSM wikiにあるより詳しい記述を参考にリレーションを正しく編集できるよう試してみてください。
 
 
-
-[multipolygon ways]: /images/en/editing/josm-relations/multipolygon-ways.png
-[building preset]: /images/en/editing/josm-relations/building-preset.png
-[new relation]: /images/en/editing/josm-relations/new-relation.png
-[building relation]: /images/en/editing/josm-relations/building-relation.png
-[new relation]: /images/en/editing/josm-relations/new-relation.png
-[type multipolygon]: /images/en/editing/josm-relations/type-multipolygon.png
-[outer inner]: /images/en/editing/josm-relations/outer-inner.png
-[new multipolygon]: /images/en/editing/josm-relations/new-multipolygon.png
-[multipolygon mapnik]: /images/en/editing/josm-relations/multipolygon-mapnik.png
-[multipolygon demo]: /images/en/editing/josm-relations/multipolygon-demo.png
-[route relation]: /images/en/editing/josm-relations/route-relation.png
-[public transport preset]: /images/en/editing/josm-relations/public-transport-preset.png
-[bus route relation]: /images/en/editing/josm-relations/bus-route-relation.png
-[relation panel button]: /images/en/editing/josm-relations/relation-panel-button.png
+[multipolygon ways]: /images/jp/editing/josm-relations/multipolygon-ways.png
+[building preset]: /images/jp/editing/josm-relations/building-preset.png
+[new relation]: /images/jp/editing/josm-relations/new-relation.png
+[building relation]: /images/jp/editing/josm-relations/building-relation.png
+[new relation]: /images/jp/editing/josm-relations/new-relation.png
+[type multipolygon]: /images/jp/editing/josm-relations/type-multipolygon.png
+[outer inner]: /images/jp/editing/josm-relations/outer-inner.png
+[new multipolygon]: /images/jp/editing/josm-relations/new-multipolygon.png
+[multipolygon mapnik]: /images/jp/editing/josm-relations/multipolygon-mapnik.png
+[multipolygon demo]: /images/jp/editing/josm-relations/multipolygon-demo.png
+[route relation]: /images/jp/editing/josm-relations/route-relation.png
+[public transport preset]: /images/jp/editing/josm-relations/public-transport-preset.png
+[bus route relation]: /images/jp/editing/josm-relations/bus-route-relation.png
+[relation panel button]: /images/jp/editing/josm-relations/relation-panel-button.png
 
 
 
