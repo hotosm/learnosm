@@ -11,7 +11,7 @@ Uređivanje sa JOSM
 Sad smo obradili osnove OpenStreetMap mapiranja. 
 Naučili smo kako koristiti GPS i Field Papers za terensku izmjeru, i kako koristiti JOSM za uređivanje točaka, linija i oblika koji čine našu kartu.
 
-U ovom poglavlju vratiti ćemo se JOSM-u i pogledati nekoliko novih koncepata oje do sad nismo obradili. 
+U ovom poglavlju vratiti ćemo se JOSM-u i pogledati nekoliko novih koncepata koje do sad nismo obradili. 
 
 JOSM Slojevi
 ------------
@@ -32,7 +32,7 @@ Field Paper kartu JOSM.
 
 Ako dodaš Bing satelitske podloge, pojavit će se novi sloj naziva "Bing Sat."
 
-Ideju o slojevima ponekad nije je jednostavno za shvatiti. Dobar način je da zamisliš
+Ideju o slojevima ponekad nije jednostavno za shvatiti. Dobar način je da zamisliš
 svaki sloj kao proziran papir, i svi su postavljeni jedan iznad drugog. Svaki papir
 sadrži određeni tip informacije, te svi mogu biti složeni a način kako želiš.
 
@@ -51,12 +51,12 @@ kojem zapravo radiš.
 
 -   Izabrani sloj se više nebi trebao vidjeti u glavnom prozoru. Ponovno klikni
     Show/Hide i on će se pojaviti nazad.
--   Možeš ukloniti sloj odabirući ga i kosisteći gumb za brisanje:
+-   Možeš ukloniti sloj odabirući ga i koristeći gumb za brisanje:
 
 ![Layers delete][]
 
--   Na kraju važno ej znati da možeš uređivati samo sloj koji je označen kao
-    *aktivan* u JOSM-u. Ako nemožeš uređivati kartu u glavnom prozoru, vjerojatno
+-   Na kraju važno je znati da možeš uređivati samo sloj koji je označen kao
+    *aktivan* u JOSM-u. Ako ne možeš uređivati kartu u glavnom prozoru, vjerojatno
     nemaš pravi sloj označen kao aktivan. Većinu slojeva kao GPS točke, Field
     Papers, satelitske podloge i slične ne možeš uređivati. Jedini slojevi koje
     možeš uređivati su OpenStreetMap podatci, koji obično imaju naziv “Data Layer 1”.
@@ -90,7 +90,7 @@ Field Papers karte, bilješke, ili kombinaciju svih.
 Oznake
 ------
 
-Kad crtaš točku, liniju ili oblik, oni imaju svoj položaj, ali nemaju
+Kada crtaš točku, liniju ili oblik, oni imaju svoj položaj, ali nemaju
 informacije o tome što su. Drugim riječima, znamo **gdje** su, ali
 ne znamo **što** su. Do sad smo koristili Presets izbornik za određivanje
 **što** su. Način na koji OpenStreetMap zna **što** je pojedini objekt
@@ -98,8 +98,8 @@ je korištenjem **oznaka**.
 
 Oznake su kao naljepnice koje možeš staviti na nešto. Na primjer, ako
 nacrtaš pravokutnik, to je samo pravokutnik. Zatim na njega dodamo oznake
-koje opisuju što je: ovaj pravokutnik je građevina;naziv građevine je
-“Cibona”; građevina ima 16 razina(katova).
+koje opisuju što je: ovaj pravokutnik je građevina; naziv građevine je
+“Cibona”; građevina ima 16 razina (katova).
 
 Možeš dodati koliko god želiš oznaka na objekt. Oznake se spremaju
 kao tekstualni par, **ključ** i **vrijednost**. U OpenStreetMap-u
@@ -116,7 +116,7 @@ prozoru s desne strane.
 
 ### Uređivanje oznaka
 Možeš dodavati, uređivati i brisati oznake u Properties prozoru. Međutim oznake
-su tradicionalno na Engleskom jeziku te ponekad ogu biti zbunjujuće, pa ih je često
+su tradicionalno na engleskom jeziku te ponekad mogu biti zbunjujuće, pa ih je često
 jednostavnije koristiti iz Presets izbornika. Kad dodaješ ili mijenjaš oznake,
 svojstva objekta se mijenjaju.
 
@@ -128,9 +128,9 @@ svojstva objekta se mijenjaju.
 Kad uređuješ svojstva točke, prvo odabereš točku i onda joj dodaš oznake
 putem Presets izbornika ili direktno u Properties prozoru. Česta greška
 je kod određivanja svojstva linije i oblika. Kod odabira objekta važno
-je odabrati SAMO liniju a NE i točke koje čine tu liniju.
+je odabrati SAMO liniju, a NE i točke koje čine tu liniju.
 
-Ovo se često događa kad se koristi JOSM alat za odabir(select tool) za
+Ovo se često događa kad se koristi JOSM alat za odabir (select tool) za
 odabir područja oko objekta, koji odabire sve što se nalazi unutar njega,
 i linije i točke, te će oznake biti primijenjene na sve uključujući točke.
 Budi siguran da si odabrao **samo** linije kad ih želiš označiti.
@@ -140,7 +140,7 @@ Budi siguran da si odabrao **samo** linije kad ih želiš označiti.
 Spremanje OSM datoteke
 ----------------------
 
-Kad uređuješ sa JOSM, uvijek je dobra ideja preuzeti, urediti i poslati promjene
+Kad uređuješ s JOSM, uvijek je dobra ideja preuzeti, urediti i poslati promjene
 u razumno kratkom vremenskom roku. Ne želiš preuzeti podatke jedan dan, te čekati
 nekoliko dana da pošalješ svoje promjene. Što ako netko drugi uređuje to područje
 u tom periodu. To će uzrokovati greške i konflikte.
@@ -156,7 +156,7 @@ te redovito slati promjene, postoje trenutci kad ćeš htjeti snimiti OSM podatk
 na računalo. Na primjer, ako imaš problematičnu veze na internet, htjet ćeš
 preuzeti podatke, spremiti ih, urediti, te kasnije poslati promjene.
 
--   Za snimiti OSm datoteku, provjeri da li je to aktivni sloj u Layers
+-   Za snimiti OSM datoteku, provjeri je li to aktivni sloj u Layers
     prozoru. Klikni "File" na gornjem izborniku, te klikni "Save".
     Odaberi lokaciju gdje želiš snimiti dokument i daj mu ime. Također možeš
     snimiti klikom na ovaj gumb:
@@ -173,7 +173,7 @@ U ovom poglavlju detaljnije smo obradili JOSM i naučili o slojevima i oznakama.
 Sad bi trebao imati solidnu osnovu kako kartirati i kako uređivati OpenStreetMap.
 
 U završnom poglavlju ovog vodiča pogledati ćemo ostale izvore iz kojih možeš 
-učiti i napredovati. Kako prakticiraš što si naučio ovdje i istražuješ dalje,
+učiti i napredovati. Kako uvježbavaš što si naučio ovdje i istražuješ dalje,
 bit ćeš sve bolji u kreiranju karata sa OSM-om.
 
 
