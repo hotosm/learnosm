@@ -17,17 +17,17 @@ U ovoj lekciji ćemo pobliže pogledati korisničko sučelje JOSM-a i naučiti k
 
 Ciklus uređivanja
 -----------------
-Uređivanje OpenStreetMap-a JOSM aplikacijom je slični editiranju iD editorom koje smo vidjeli ranije. No zbog toga što je JOSM desktop aplikacija, radi malo drugačije. Proces editiranja i dodavanja podataka u OSM sustav pomoću JOSM aplikacije će uvijek biti sljedeći:
+Uređivanje OpenStreetMap-a JOSM aplikacijom je sličan uređivanju iD editorom koje smo vidjeli ranije. No zbog toga što je JOSM desktop aplikacija, radi malo drugačije. Proces uređivanja i dodavanja podataka u OSM sustav pomoću JOSM aplikacije će uvijek biti sljedeći:
 
 1. **Preuzmite** trenutačne podatke o karti iz OSM-a
-2. **Editirajte** preuzete podatke koristeći satelitske slike, GPS, Field Papire i bilješke
+2. **Uredite** preuzete podatke koristeći satelitske slike, GPS, Field Papire i bilješke
 3. **Snimite** izmjene natrag u OpenStreetMap
 
 Preuzimanje OSM podataka
 ------------------------
-Prvi korak editiranja je preuzimanje podataka za područje u svijetu koje želite poboljšati. Zapamtite da to morate učiniti svaki put kada radite izmjene na karti, jer kartu često mijenjaju i drugi korisnici.
+Prvi korak uređivanja je preuzimanje podataka za područje u svijetu koje želite poboljšati. Zapamtite da to morate učiniti svaki put kada radite izmjene na karti, jer kartu često mijenjaju i drugi korisnici.
 
--	Kliknite na “File” U gornjem lijevom kutu JOSM-a i odaberite “Download
+-	Kliknite na “File” u gornjem lijevom kutu JOSM-a i odaberite “Download
     from OSM”. Ovo će otvoriti prozor za preuzimanje podataka. Ovaj prozor još lakše možete otvoriti ako kliknete tipku za preuzimanje (download) kao na ilustraciji:
 
 ![JOSM Download Button][]
@@ -37,7 +37,7 @@ Prvi korak editiranja je preuzimanje podataka za područje u svijetu koje želit
 
 ![JOSM Download Dialog][]
 
--   Rozi pravokutnik pokazuje područje karte koje želite preuzeti za editiranja.
+-   Rozi pravokutnik pokazuje područje karte koje želite preuzeti za uređivanje.
     Koristite miša kako biste se pomakli i približili si područje koje dobro poznajete
     kao vaš rodni grad ili susjedstvo. Kartom upravljate kao i glavnom kartom u 
     JOSM-u. Desnom tipkom miša pomičete kartu, a kotačićem kartu približavate i udaljavate. 
@@ -49,7 +49,7 @@ Prvi korak editiranja je preuzimanje podataka za područje u svijetu koje želit
 -	Nacrtajte pravokutnk oko područja koje želite preuzeti. Da nacrtate novi pravokutnik
     kliknite na kartu, držite lijevu tipku miša stisnutu i pomaknite miša da stvorite
     pravokutnik. Da završite crtanje, otpustite tipku.
--   Kad ste zadovoljni sa veličinom i položajem pravokutnika, kliknite “Download” na dnu
+-   Kada ste zadovoljni s veličinom i položajem pravokutnika, kliknite “Download” na dnu
     prozora. JOSM će preuzeti podatke za ovo područje iz OpenStreetMap baze podataka i otvoriti je u prozoru za prikaz karte, kako biste mogli raditi izmjene.
 
 ### Dodajte pozadinske snimke
@@ -75,13 +75,13 @@ Sad kada smo preuzeli OSM podatke i dodali Bing satelitske snimke, pogledamo jo�
 
 Već ste upoznati s glavnim prozorom - radi se o prostoru za prikaz karte i tu se događa najviše toga. Ovdje ćete pregledavati, mijenjati i dodavati OpenStreetMap podatke. 
 
-S desne strane prozora s kartom se nalazi niz prozorčića koji imaju svoje funkcije. Obično kada instalirate JOSM, nekoliko prozorčića se automatski pojavi, kao Layers (slojevi), Properties (Svojstva) i Selection (Odabrano). Kada odaberete točku, liniju ili oblik u prozoru s kartom, objekt će biti prikazan u Selection prozorčiću. Informacije o objektu će biti prikazane u Properties prozorčiću, a korisničko ime autora objekta će biti prikazano u Authors (Autor) prozorčiću. 
+S desne strane prozora s kartom se nalazi niz prozorčića koji imaju svoje funkcije. Obično kada instalirate JOSM, nekoliko prozorčića se automatski pojavi, kao Layers (Slojevi), Properties (Svojstva) i Selection (Odabrano). Kada odaberete točku, liniju ili oblik u prozoru s kartom, objekt će biti prikazan u Selection prozorčiću. Informacije o objektu će biti prikazane u Properties prozorčiću, a korisničko ime autora objekta će biti prikazano u Authors (Autor) prozorčiću. 
 
 Ove prozorčiće možete otvoriti ili zatvoriti ako kliknete na razne tipke s donje lijeve strane JOSM-a. Iznad ovih tipki, gore desno se nalaze alati kojima određujete što radite s mišem. Neke od njih već znate, alat za odabir objekata i alat za crtanje. Ispod njih se nalaze alati pomoću kojih je lakše povećati (približiti) kartu, brisati objekte, crtati oblike ili stvoriti liniju koja je paralelna s drugom linijom.
 
 Uređivanje (izmjena podataka)
 -----------------------------
-Završili smo prvi korak editiranja, Preuzimanje podataka. Pripremili smo JOSM tako da vidimo satelitske snimke kao referentnu podlogu. Sljedeći korak je da editiramo kartu i dodamo nove stvari. 
+Završili smo prvi korak uređivanja, preuzimanje podataka. Pripremili smo JOSM tako da vidimo satelitske snimke kao referentnu podlogu. Sljedeći korak je da uredimo kartu i dodamo nove stvari. 
 
 Ovisno o području koje ste preuzeli, možda ćete imati kako puno ili vrlo malo postojećih podataka. No uočite da se radi o istoj vrsti podataka kakvu smo vidjeli ranije, točke, linije i oblici koji predstavljaju prave lokacije. 
 
@@ -149,7 +149,7 @@ Provjeriti izmjene na karti
 
 Sažetak
 -------
-Sad kada ste vidjeli kako dodavati sadržaj u OpenStreetMap, što je sljedeće? Mijenjati kartu je odlično, ali to nije jedini aspekt izrade karata. Trebati ćete naučiti kako izaći na teren i skupiti informacije o konkretnim područjima.
+Sad kada ste vidjeli kako dodati sadržaj u OpenStreetMap, što je sljedeće? Mijenjati kartu je odlično, ali to nije jedini aspekt izrade karata. Trebati ćete naučiti kako izaći na teren i skupiti informacije o konkretnim područjima.
 
 U sljedećim lekcijama ćete naučiti dvije metode, GPS i Field Papers, koje koristimo za prikupljanje geografskih podataka. Informacije skupljene s obje ove metode možete uvesti u JOSM i koristiti ih za uređivanje karte.
 
