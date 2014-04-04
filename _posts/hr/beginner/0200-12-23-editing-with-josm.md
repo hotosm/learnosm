@@ -45,7 +45,7 @@ kojem zapravo radiš.
 
 ![Layers up down][]
 
--   DA bi sakrio sloj, odaberi ga uz pomoć miša i klikni na Show/Hide gumb:
+-   Da bi sakrio sloj, odaberi ga uz pomoć miša i klikni na Show/Hide gumb:
 
 ![Layers show hide][]
 
