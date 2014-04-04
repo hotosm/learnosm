@@ -9,7 +9,7 @@ category: beginner
 Daljnje čitanje
 ===============
 
-Ako si došao do ovdje, čestitamo! Sad bi trebao shvaćati kako kreirati OpenStreetMap karte. Što još možeš sa OSM? Kako možeš naučiti više? Kako ostati u kontaktu sa lokalnom zajednicom?
+Ako si došao do ovdje, čestitamo! Sad bi trebao shvaćati kako kreirati OpenStreetMap karte. Što još možeš s OSM? Kako možeš naučiti više? Kako ostati u kontaktu sa lokalnom zajednicom?
 
 Nauči više
 ----------
@@ -24,7 +24,7 @@ Postoji puno informacija o OpenStreetMap na
 Mailing Liste
 -------------
 
-Najbolji način za spojiti se sa lokalnom OpenStreetMap zajednicom je preko lokalne mailing liste. Mnogi ljudi se prijave na mailing listu koristeći svoj mail. Kad se priključip listi možeš slati mailove grupi ako imaš pitanja ili ako želiš razgovarati o OpenStreetMap.
+Najbolji način za spojiti se sa lokalnom OpenStreetMap zajednicom je preko lokalne mailing liste. Mnogi ljudi se prijave na mailing listu koristeći svoj mail. Kad se priključiš listi možeš slati mailove grupi ako imaš pitanja ili ako želiš razgovarati o OpenStreetMap.
 
 -   Za prijaviti se na mailing listu, otvori internet preglednik
     i posjeti stranicu
@@ -46,7 +46,7 @@ Najbolji način za spojiti se sa lokalnom OpenStreetMap zajednicom je preko loka
 
 -   Kad završiš, klikni Subscribe.
 -   Sad otvori svoj mail, kao što si napravio kad si se prijavio za 
-    OpenStreetMap. Imat ćeš mail potvrde sa liste u svom sandučiću.
+    OpenStreetMap. Imat ćeš mail potvrde s liste u svom sandučiću.
 -   Klikni na link za potvrdu.
 -   Sad bi trebao biti član mailing liste.
 -   Sad kad želiš poslati poruku na listu možeš ju poslati na 
