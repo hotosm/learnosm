@@ -12,10 +12,10 @@ Naučite se radu u JOSM-u
 
 U ovom poglavlju ćemo naučiti korak po korak kako preuzeti i instalirati
 JOSM, Java OpenStreetMap editor. Promijeniti ćemo neke postavke
-u programu i učiniti ga lakšim za korištenje. Zatim ćemo otvoriti kartu za primjer
+u programu i učiniti ga lakšim za korištenje. Zatim ćemo otvoriti kartu za primjer te
 naučiti neke osnovne operacije programa. Sjetite se da smo vas u uvodnom poglavlju
 tražili da nacrtate kartu vlastitog grada ili mjesta? Ovo poglavlje ćemo završiti
-ponovo kreirajući tu kartu, ovaj puta digitalno. Nakon ovoga ćete dobro razumjeti
+ponovo kreirajući tu kartu, ovaj put digitalno. Nakon ovoga ćete dobro razumjeti
 kako crtati karte u JOSM-u.
 
 Preuzimanje JOSM softvera
@@ -29,12 +29,12 @@ Preuzimanje JOSM softvera
 
   ![JOSM website][]
 
-- Ako radite u Windows OS-u, odaberite “Windows JOSM
+- Ako koristite Windows OS, odaberite “Windows JOSM
   Installer” da preuzmete JOSM.
 
   ![Windows installer][]
 
-- Ako koristite drug operativni sustav, kliknite na link za njega. Preuzimanje bi trebalo započeti. U ovom poglavlju ćemo pretpostaviti da koristite Windows OS, ali upute su slične i za druge operativne sustave.
+- Ako koristite drugi operativni sustav, kliknite na link za njega. Preuzimanje bi trebalo započeti. U ovom poglavlju ćemo pretpostaviti da koristite Windows OS, ali upute su slične i za druge operativne sustave.
 
 Instaliranje JOSM-a
 -------------------
@@ -50,7 +50,7 @@ Instaliranje JOSM-a
   Kasnije, kada želite pokrenuti JOSM, kliknite na Start Menu u donjem 
   lijevom djelu ekrana i odaberite program JOSM.
 - Možda ćete vidjeti prozor koji će tražiti da postavite noviju verziju softvera.
-  Ne vi već imate najnoviju verziju. Kliknite tipku “Cancel.”
+  No vi već imate najnoviju verziju. Kliknite tipku “Cancel.”
   Ako ne želite ponovo vidjeti ovu poruku, označite kućicu na dnu prije nego kliknete "Cancel".
 - Kad se JOSM pokrene, izgledati će slično ovome:
 
@@ -61,7 +61,7 @@ JOSM Postavke
 
 Postoje mnoge postavke koje možete podesiti u JOSM-u.
 Jedna od postavki koju možda želite postaviti je jezik.
-JOSM je preveden u brojne jezike, a vama možda bolje odgovara neki
+JOSM je preveden na brojne jezike, a vama možda bolje odgovara neki
 drugi.
 
 - Kako biste otvorili prozor s postavkama kliknite Edit -\> Preferences.
@@ -70,21 +70,21 @@ drugi.
 
 - Na lijevoj strani, kliknite ikonu koja izgleda kao kantica s bojom i kist.
 - Na vrhu prozora, kliknite karticu na naziva “Look and Feel”.
-- Odaberite svoj jezik u padajućem meniju pokraj riječi
+- Odaberite svoj jezik u padajućem izborniku pokraj riječi
   “Language”.
   
   ![Look and feel][]
 
 - Kliknite OK.
 - Morate ponovo pokrenuti JOSM kako biste spremili postavke. Kliknite “File” u
-  gornjem lijevom kutu, i kliknite “Exit” na dnu menija.
+  gornjem lijevom kutu, i zatim “Exit” na dnu menija.
 - Ponovo pokrenite JOSM odabravši Windows Start Meni u donjem
   lijevom kutu. Pronađite JOSM i kliknite na njega da ga pokrenete.
 
 Naučite osnove crtanja u JOSM-u
 -------------------------------
 
-- Otvorimo primjer OSM datoteke koji ćemo koristiti na da naučimo
+- Otvorimo primjer OSM datoteke koju ćemo koristiti da naučimo
   osnovne načine crtanja karata JOSM softverom. Uočite da se ne radi o pravoj karti 
   koja prikazuje stvarno mjesto, pa je stoga nećemo pohraniti u OpenStreetMap
 - Ovdje preuzmite datoteku: [sample.osm](/files/sample.osm)
@@ -95,7 +95,7 @@ Naučite osnove crtanja u JOSM-u
 
 - Pronađite datoteku **sample.osm**. Vjerojatno se nalazi u vašoj mapi Downloads, 
   osim ako ste ga preuzeli negdje drugdje. Kliknite na datoteku pa zatim “Open”.
-- Trebali biste vidjeti kartu za primjer koja izgleda kao:
+- Trebali biste vidjeti kartu za primjer koja izgleda ovako:
 
   ![Sample file][]
 
@@ -103,14 +103,14 @@ Naučite osnove crtanja u JOSM-u
 
 - Za pomicanje karte gore, dolje, lijevo i desno držite desnu tipku miša i mičite ga.
 - Postoji nekoliko načina za približiti ili udaljiti kartu. Ako imate miša,
-  možete koristiti kotačić za uvećavanje i umanjivanje. Ako koristite laptop i nemate miša
-  možete kartu uvećati ili umanjiti koristeći mjerilo karte u gornjem lijevom kutu prozora s kartom.
-  Pomičite pokazivač mjerila lijevo ili desno držeći pritisnutim lijevu tipku miša i pomicanjem lijevo, desno.
+  možete koristiti kotačić za uvećavanje i umanjivanje. Ako koristite prijenosno računalo i nemate miša
+  kartu možete uvećati ili umanjiti koristeći mjerilo karte u gornjem lijevom kutu prozora s kartom.
+  Pomičite pokazivač mjerila lijevo ili desno držeći pritisnu lijevu tipku miša pomičući ju lijevo, desno.
 
   ![Scale bar][]
 
 - Pogledajte primjer karte. Uočite nekoliko različitih objekata na njoj.
-  Imamo rijeku, šumu neke zgrade, nekoliko prometnica
+  Imamo rijeku, šumu, neke zgrade, nekoliko prometnica
   i nekoliko trgovina. Da odaberete objekt, kliknite na njega lijevom tipkom miša.
 
 ### Točke, Linije i oblici
@@ -164,16 +164,16 @@ Naučite osnove crtanja u JOSM-u
 
   ![Select tool][]
 
-- Prije crtanja, provjerite da nemate ništa selektirano. Kliknite na crni prostor na karti, 
+- Prije crtanja, provjerite da nemate ništa odabrano. Kliknite na crni prostor na karti, 
   tamo gdje je prazno, kako biste bili sigurni da ništa nije ostalo odabrano.
-- Kliknite na drugi tipku, alat za crtanje (Draw tool).
+- Kliknite na drugu tipku, alat za crtanje (Draw tool).
 
   ![Draw tool][]
 
 - Nađite prazno područje na karti i duplo kliknite. Ovo će stvoriti jednu točku.
 - Ako želite nacrtati liniju, kliknite mišem jednom. Pomaknite miša i kliknite ponovo.
   Nastavite dok ne završite željenu liniju. Za završiti liniju, duplo kliknite.
-- Oblike crtate isto ako i linije, jedino oblik završavate da duplo kliknete na početnu
+- Oblike crtate isto kako i linije, jedino oblik završavate da duplo kliknete na početnu
   točku linije.
 
 ### Dodajte unaprijed definirana objašnjenja
@@ -185,8 +185,8 @@ Naučite osnove crtanja u JOSM-u
 
   ![Select tool][]
 
-- Odaberite jedan od objekata koji ste nacrtali alatom za crtanje. Iz menija s vrha ekrana 
-  odaberite “Presets”. Mičite miša kroz podmenije dok ne nađete tip lokacije koju želite definirati.
+- Odaberite jedan od objekata koji ste nacrtali alatom za crtanje. Iz izbornika s vrha ekrana 
+  odaberite “Presets”. Mičite miša kroz podizbornike dok ne nađete tip lokacije koju želite definirati.
 - Kada kliknete na tip objekta, pojaviti će se formular koji će tražiti dodatne informacije.
   Ne trebate popuniti sva polja, ali možda ćete htjeti popuniti neka važna, kao ime objekta.
 - Kada ste završili unos podataka, odaberite “Apply
@@ -211,7 +211,7 @@ Zaključak
 Odlično! Ako je sve dobro prošlo, naučili ste kako postaviti JOSM 
 na vašem računalu, kao i osnovne alate za crtanje karata. U sljedeća dva poglavlja
 naučiti ćete dvije metode za stvaranje karte vašeg mjesta, korištenjem GPS uređaja
-i korištenjem Feld Papers-a. Nakon toga ćemo se vratiti u JOSM i iskoristiti prikupljene podatke
+i korištenjem Field Papers-a. Nakon toga ćemo se vratiti u JOSM, iskoristiti prikupljene podatke
 te dodati sakupljene informacije u OpenStreetMap.
 
 
