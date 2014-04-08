@@ -68,7 +68,7 @@ Perhatikan bahwa form yang muncul memiliki tiga field di dalamnya, dan masing-ma
 
 Sekarang mari lihat di file XML yang mendefinisikan form Preset ini. 
 
-*	Carilah file XML pada komputer Anda dan bukelah dengan text editor. Jika Anda menggunakan Windows Anda dapat menggunakan program Notepad. Jika Anda ingin lebih mudah dalam
+*	Carilah file XML pada komputer Anda dan bukalah dengan text editor. Jika Anda menggunakan Windows Anda dapat menggunakan program Notepad. Jika Anda ingin lebih mudah dalam
 	penggunaan editor, Anda mungkin mendownload aplikasi Notepad++ gratis.
 *	File **sample_presets.xml**  terlihat seperti ini:
 
@@ -80,54 +80,60 @@ Garis pertama terlihat seperti ini:
 
 	<item name="Sample Building" type="node,closedway">
 
-Ini adalah tag pembukaan dari sebuah item yang ditambahkan ke menu. Ini memiliki dua atribut, nama dan tipe. Nama mendefinisikan bagaimana ini akan muncul pada menu Preset. Tipe 
+Ini adalah tag pembukaan dari sebuah item yang ditambahkan ke menu. Ini memiliki dua atribut, nama dan tipe. Nama mendefinisikan bagaimana ini akan muncul pada menu Preset. Tipe yang
+membatasi preset ini untuk tipe objek tertentu. Dalam kasus ini, preset hanya dapat diterapkan untuk titik-titik dan poligon - dengan kata lain, node dan poligon. Jika Anda mencoba
+mengaplikasikan preset ini untuk sebuah garis, ini tidak akan bekerja.
 
-This is the opening tag of an item which is added to the menu. It has two attributes, name and type. The name defines how this will appear on the Presets menu. The type limits this preset to specific types of objects. In this case, the preset can only be applied to points and shapes - in other words, nodes and closed ways. If you try to apply this preset to a line, it won't work.
-
-Let's look at the next line:
+Mari kita lihat pada garis selanjutnya:
 
 	<label text="Building Form" />
 
-When you click on the menu and open the sample form, at the top you see the text "Building Form." This is the text defined in this line. This defines a &lt;label&gt; element, which simply displays text in the form. The text is defined by the attribute *text="some text"*.
+Ketika Anda mengklik pada menu dan membuka form contoh, pada bagian atas Anda melihat teks "Building Form." Ini adalah teks yang didefinisikan dalam garis ini. Ini mendefinisikan
+sebuah elemen &lt;label&gt;, yang hanya menampilkan teks dalam form. Teks didefinisikan oleh atribut *text="some text"*.
 
-Go down a few lines and find this:
+Turun beberapa garis dan temukan ini:
 
 	<key key="building" value="yes" />
 
-This is one of the tags that will be applied to the object we have selected. Because it uses the element &lt;key&gt;, the OSM tag given here will be automatically applied when the preset is chosen. Hence this object will automatically obtain the tag *building=yes*.
+Ini adalah salah satu tag yang akan diterapkan pada objek yang kita telah pilih. Karena ini menggunakan elemen &lt;key&gt;, tag OSM diberikan disini akan secara otomatis diterapkan
+ketika preset telah dipilih. Oleh karena itu objek ini secara otomatis akan mendapatkan tag *building=yes*.
 
-The next line is a bit different, using the &lt;text&gt; element.
+Garis selanjutnya sedikit berbeda, menggunakan elemen &lt;text&gt;.
 
 	<text key="name" text="Name of Building" default=""
 		delete_if_empty="true" />
 
-The &lt;text&gt; element creates a blank field. When the form is created in JOSM, the user will be able to fill in the empty field. Because the attribute *delete_if_empty="true"* is set, no tag will be added if the user leaves this field empty.
+Elemen &lt;teks&gt; membuat sebuah field kosong. Ketika form dibuat dalam JOSM, pengguna akan dapat mengisi pada field kosong tersebut. Karena atribut *delete_if_empty="true"* diatur, tidak ada tag yang akan ditambahkan jika pengguna meninggalkan field kosong ini.
 
-The dropdown box on the form is defined in the following line:
+Kotak daftar pilihan pada form yang didefinisikan dalam garis berikut:
 
 	<combo key="building:use" text="Building Use"
 		values="residential, commercial, industrial"
 		display_values="Residential, Commercial,
 		Industrial"/>
 
-A dropdown box is defined by the &lt;combo&gt; element. As with the &lt;text&gt; element, the attribute *key* defines the tag key. The value is then chosen from a list of possible *values*. The *display_values* attribute allows you to choose different names to be displayed in the dropdown box, which may be easier to understand than the OSM tag values.
+Kotak daftar pilihan didefinisikan oleh elemen &lt;combo&gt;. Seperti pada elemen &lt;text&gt;, atribut *key* mendefinisikan tag key. Value tersebut kemudian dipilih dari daftar *values* yang mungkin. Atribut *display_values* mengizinkan Anda memilih nama yang berbeda untuk ditampilkan dalam kotak daftar pilihan, yang mungkin lebih mudah untuk memahami
+dari value tag OSM.
 
-Lastly, let's look at the line which defines the checkbox.
+Terakhir, mari kita lihat pada garis yang mendefinisikan kotak centang.
 
 	<check key="building:vacant" text="Is the building
 		vacant?" default="off" delete_if_empty="true" />
 
-The &lt;check&gt; element defines - you guessed it! - the checkbox. The attribute *default="off"* states that the box will be unchecked by default. The remaining attributes you have already seen.
+Elemen &lt;check&gt; mendefinisikan - Anda dapat menebaknya! - kotak centang. Atribut *default="off"* menyatakan bahwa kotak akan dihilangkan centangnya secara standar. Atribut yang
+tersisa dapat Anda lihat.
 
-Creating Your Own Presets File
-------------------------------
-The best way to create your own presets file is to take one that already exists, and manipulate it fulfill your objectives.  Feel free to edit this sample file and experiment with it to learn the basics. Just remember that each time you save it, you will need to restart JOSM to load the changes.
+Membuat File Preset Anda Sendiri
+---------------------------------
+Cara yang terbaik untuk membuat file preset Anda sendiri adalah mengambil salah satu yang sudah ada, dan memanipulasinya memenuhi tujuan Anda. Jangan ragu untuk mengedit file contoh ini dan bereksperimenlah untuk mempelajari tahapan dasarnya. Ingatlah bahwa setiap saat Anda menyimpannya, Anda perlu merestart JOSM untuk memuat perubahan.
 
-Before you start creating your own presets, you need to think carefully about the tags that you will use. Inventing new tags is another topic altogether. Generally, you should utilize existing OSM tags when they exist. Most existing tags are listed on the [Map Features page on the OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).
+Sebelum Anda memulai membuat preset Anda sendiri, Anda perlu berpikir baik-baik mengenai tag yang Anda akan gunakan. Menemukan tag baru adalah topik yang lain sama sekali. Secara
+umum, Anda harus menggunakan tag OSM yang sudah ada. Tag-tag yang sudah ada terdaftar di [halaman Map Features pada Wiki OSM](http://wiki.openstreetmap.org/wiki/Map_Features).
 
-This sample file contains most of the elements that you will find in a JOSM presets file - there aren't very many form elements. If you'd like to experiment with a more complex presets file, download the [dhaka_presets.xml](/files/dhaka_presets.xml) file here.
+File contoh ini berisi elemen-elemen yang Anda akan temukan di file preset JOSM - tidak ada banyak form elemen. Jika Anda senang bereksperimen dengan file preset yang lebih kompleks,
+download file [dhaka_presets.xml](/files/dhaka_presets.xml) disini.
 
-Additionally, a detailed explanation of all possible elements can be found [here](http://josm.openstreetmap.de/wiki/TaggingPresets).
+Tambahan, penjelasan rinci dari semua elemen-elemen dapat ditemukan [disini](http://josm.openstreetmap.de/wiki/TaggingPresets).
 
 Good luck!
 

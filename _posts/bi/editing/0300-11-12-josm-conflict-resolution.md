@@ -115,46 +115,43 @@ Ketika anda mengedit di JOSM, dimana anda mendownload salinan dari peta OSM, and
 
 
 <!-- More stuff, could go into an additional chapter -
-## Appendix. More Specific Conflicts
+## Lampiran. Konflik Lebih Spesifik
 
-### Tag Conflicts
+### Tag Konflik
 
-If the tags of one version of an objects are different from the tags of
-another version, the Conflict dialog shows a ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in
-the tab Tags. Click on the tab to display a dialog for resolving tag
-conflicts.
+Jika tag dari satu versi sebuah objek yang berbeda dari tag versi lain, dialog
+Konflik menampilkan ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)
+pada tab Tags. Klil pada tab untuk menampilkan dialog dalam menyelesaikan tag konflik.
 
-There are three tables displayed in this dialog, from left to right:
+Terdapat tiga tabel yang ditampilkan pada dialog ini, dari kiri ke kanan:
 
-1.  My version: shows the tags of the first object version participating
-    in this conflict. These are usually the tags of the object version
-    in your local data set.
-2.  Merged version: shows the merged tags. This table is initially
-    empty. The more tag conflicts you resolve, the more tag values will
-    we be displayed in this table.
-3.  Their version: shows the tags of the second object version
-    participating in this conflict. These are usually the tags of the
-    object version currently stored on the server.
-
-In the example below both versions have a tag "name". The values in the
-two object versions are different, though, and JOSM therefore displays
-the row with a red background. The value of the first version is
-"Secondary School", the opposite version has a value "Elementary
-School". You now have to decide which of these values you want to keep
-and which you want to discard.
+1.	My version: menunjukkan tag-tag dari versi objek pertama yang berpartisipasi
+	dalam konflik ini. Ini biasanya tag dari versi objek dalam set data lokal Anda.
+2.	Merged version: menunjukkan tag-tag yang bergabung. Tabel ini awalnya kosong.
+	Semakin banyak konflik tag yang diselesaikan, semakin banyak value tag yang
+	akan ditampilkan dalam tabel ini.
+3.	Their version: menunjukkan tag-tag versi objek kedua yang berpartisipasi 
+	dalam konflik ini. Ini biasanya tag-tag dari versi objek saat ini yang
+	disimpan dalam server.
+	
+Pada contoh dibawah kedua versi memiliki sebuah tag "name". Value dalam 
+versi objek kedua berbeda, meskipun, JOSM menunjukkan baris dengan latar
+belakang merah. Value versi pertama adalah "Secondary School", versi 
+yang berlawanan memiliki value "Elementary School". Anda saat ini harus
+memutuskan value ini yang ingin Anda simpan dan yang ingin Anda buang.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image07.png)
 
-Click on the value you want to keep, in the example for instance on the
-value on the left. If you either double-click on the value or click on
-![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), you decide to keep the value and to discard the
-opposite value. The table in the middle now displays the value to keep
-and the background color turns to green.
+Klik pada value yang Anda ingin simpan, misalnya untuk value di sebelah 
+kiri. Jika Anda mengklik dua kali pada value atau klik pada ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png)
+, Anda memutuskan untuk menyimpan value tersebut dan membuang value yang 
+berlawanan. Tabel di tengah saat ini menampilkan value yang disimpan dan
+warna latar belakang berubah menjadi hijau.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image10.png)
 
-When the button Apply Resolutionis enabled you can apply your decision.
-The values you've chosen will be applied and the dialog will be closed.
+Ketika tombol Apply Resolution diaktifkan Anda dapat menerapkan pilihan Anda.
+Value yang Anda pilih akan diterapkan dan dialog akan ditutup.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image03.png)
 

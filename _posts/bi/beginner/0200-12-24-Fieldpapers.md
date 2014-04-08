@@ -267,22 +267,6 @@ Ringkasan
 Selamat ! Pada bab ini Anda telah mempelajari proses menggunakan Field Papers dan bagaimana
 mereka bekerja. Anda telah mempelajari bagaimana mencetak, memetakan, dan men-scan sebuah
 Field Paper, dan bagaimana Anda dapat menggunakan mereka untuk meningkatkan OpenStreetMap.
-	
-Repeat!
--------
-
--   After you add your changes to OSM, they will be saved on the
-    map. Then the next time you want to improve the map, you can print
-    out a new Field Papers which will include the changes that you
-    made. As this process is repeated, the map will get better and
-    better, the more you map!
-
-Summary
--------
-
-Congratulations! In this chapter you learned the process of using
-Field Papers and how they work. You learned how to print, map, and
-scan a Field Paper, and how you can use them to improve OpenStreetMap.
 
 
 [field papers homepage]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image00_homepage.png
