@@ -1,44 +1,44 @@
 ---
 layout: doc
-title: Editing the Wiki
+title: Mengedit Wiki
 permalink: /bi/coordination/editing_the_wiki/
 lang: bi
 category: coordination
 ---
 
-Editing the Wiki
-================
+Mengedit Wiki
+==============
 
-Introduction
-------------
+Pengantar
+----------
 
-OpenStreetMap is based around a community of mappers working together.
-Because of this it is necessary to have a way to communicate with each
-other-- whether it be to organize social mapping events, to discuss
-different projects related to OSM and/or to create standards for mapping
-processes.  The key avenue for mappers to do this is through the
-OpenStreetMap wiki, a website where users can create different web pages
-about different topics and in different languages.  To see the OSM wiki,
-visit
+OpenStreetMap berbasis pada komunitas pembuat peta yang bekerja secara
+bersama-sama. Karena hal ini dapat saling berkomunikasi satu sama lain--
+apakah itu mengatur kegiatan pemetaan sosial, untuk membahas proyek yang
+berbeda terkait pada OSM dan/atau membuat standar untuk proses pemetaan.
+Kunci utama bagi pembuat peta untuk melakukan ini adalah dengan wiki 
+OpenStreetMap, sebuah situs dimana pengguna dapat membuat halaman web yang
+berbeda tentang topik yang berbeda dan dalam bahasa yang berbeda. Untuk
+melihat wiki OSM, kunjungi:
 
 [http://wiki.openstreetmap.org](http://wiki.openstreetmap.org)
 
-A wiki is a website where any user can add pages and edit existing
-pages.  It is based on the same principle as OpenStreetMap- the only
-difference is that with OSM users are editing maps, while wiki users are
-editing text.  The most famous wiki is Wikipedia
-([http://www.wikipedia.org),]() an online encyclopedia that covers
-almost every topic imaginable.
+Wiki adalah situs dimana setiap pengguna dapat menambahkan halaman dan 
+mengedit halaman yang sudah ada. Prinsipnya sama seperti OpenStreetMap-
+hanya yang berbeda adalah penggunaan OSM mengedit peta, sedangkan 
+pengguna wiki mengedit teks. Wiki yang paling terkenal adalah Wikipedia
+([http://www.wikipedia.org),]() sebuah ensiklopedia online yang membahas
+hampir seluruh topik yang diinginkan.
 
-The OpenStreetMap wiki contains information about everything related to
-OSM.  When someone is working on a project that uses OSM, they create a
-wiki page so that other people can read about their project.  The wiki
-contains help for users wanting to learn more about OSM, for common
-standards on how to make maps and on how to tag objects on the map, as
-well as many other OSM things.  You have already seen at least one of
-the OSM wiki pages, which describes all of the most common features that
-you can add to the map, and how they are commonly tagged.  This is the
-Map Features page:
+Wiki OpenStreetMap berisi informasi mengenai semua yang berhubungan dengan 
+OSM. Ketika seseorang bekerja dalam suatu proyek yang menggunakan OSM, mereka
+membuat sebuah halaman wiki sehingga orang lain dapat membaca tentang proyek
+mereka. Wiki juga dapat membantu para pengguna untuk mempelajari tentang OSM,
+untuk petunjuk-petunjuk umum dalam bagaimana membuat peta dan bagaimana 
+memberikan tag ke objek pada peta, dan masih banyak hal lainnya. Anda telah
+melihat setidaknya satu dari halaman wiki OSM, yang mendeskripsikan semua 
+fitur-fitur umum yang dapat Anda tambahkan ke peta, dan bagaimana suatu
+objek diberikan tag. Ini adalah halaman Map Features:
 
 [http://wiki.openstreetmap.org/wiki/Map\_Features](http://wiki.openstreetmap.org/wiki/Map_Features)
 

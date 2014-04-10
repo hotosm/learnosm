@@ -155,91 +155,94 @@ Value yang Anda pilih akan diterapkan dan dialog akan ditutup.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image03.png)
 
-## Resolving differences in the node list of two versions of a way
+## Menyelesaikan perbedaan dalam daftar node dengan dua versi cara
 
-If you see the symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in the tab Nodesthen you
-have to resolve differences in the list of
-[nodes](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)of two
-[ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). There
-are three columns in the respective panel (see screen shot below):
+Jika Anda melihat simbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)
+pada tab Nodes kemudian Anda harus menyelesaikan perbedaan dalam daftar 
+[nodes](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)dari dua
+[ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object).
+Terdapat tiga kolom dalam panel masing-masing (lihat gambar di bawah):
 
-1.  the leftmost table displays the list of nodes of the the local
-    object version
-2.  the rightmost table displays the list of nodes of the the server
-    object version
-3.  the table in the middle shows the list of nodes of the merged ways
+1.	Tabel paling kiri menampilkan daftar node dari versi objek lokal
+2.	Tabel paling kanan menampilkan daftar node dari versi objek server
+3.	Tabel di tengah menunjukkan daftar node dari gabungan cara
 
-Initially, the middle table is empty. You should now decide which nodes
-to keep from the local dataset (the leftmost table) and which from the
-server dataset (the rightmost table).
+Awalnya, tabel tengah adalah kosong. Anda seharusnya memutuskan node yang
+disimpan dari dataset lokal (tabel paling kiri) dan dari dataset server 
+(tabel paling kanan).
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image24.png)
 
-### The standard workflow
+### Alur kerja standar
 
-The standard workflow to resolve conflicts in the node lists of two
-[object
-versions](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)consists
-of three steps:
+Alur kerja standar untuk menyelesaikan konflik-konflik dalam daftar node dari
+dua [versi objek](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)
+terdiri dari tiga langkah:
 
-1.  Pick nodes from either object version and reorder the resulting node
-    list if necessary
-2.  Freezethe resulting merged node list by clicking on the button
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). When you freeze the merged node list you
-    tell JOSM that all conflicts in the node list are resolved.
-3.  Apply the resolution
+1.	Pilih node dari versi objek dan menyusun ulang node yang dihasilkan daftar
+	jika perlu
+2.	Freeze daftar node gabungan yang dihasilkan dengan mengklik pada tombol
+	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png).
+	Ketika Anda freeze daftar node gabungan Anda memberitahu JOSM bahwa semua
+	konflik pada daftar node sudah diselesaikan.
+3.	Aplikasikan resolusi
 
-### A simple workflow: Keep the node list from your local object version
+### Alur kerja sederhana: Simpan daftar node dari versi objek lokal Anda
 
-The following example shows the workflow when you decide to keep all nodes in the same order from your local object version.
+Contoh berikut menunjukkan alur kerja ketika Anda memutuskan menyimpan semua
+node dalam urutan yang sama dari versi objek lokal Anda.
 
--   First, select all elements in the leftmost table (either using the mouse or by 
-    pressing Ctrl-A in the table) (see next screen shot):
+*	Pertama, pilih semua elemen dalam tabel paling kiri (baik menggunakan mouse atau
+	dengan menekan Ctrl-A dalam tabel) (lihat gambar selanjutnya):
+	
+	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image04.png)
+	
+*	Kemudian, klik
+	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image19.png)
+	untuk meng-copy node yang dipilih ke tabel tengah dengan node gabungan:
+	
+	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image01.png)
+	
+*	Terakhir, klik
+	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png)
+	untuk mem-freeze daftar node gabungan yang dihasilkan:
+	 
+	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image20.png)
+	
+	Simbol pada tab node sekarang diganti ke 
+	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image00.png)
+	dan Anda dapat menerapkan keputusan gabungan.
 
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image04.png)
+### Dukungan untuk membandingkan daftar node
 
--   Then, click 
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image19.png)
-    to copy the selected nodes to the middle table with the merged nodes:
+Ini akan sulit untuk menemukan perbedaan antara daftar node dari dua versi objek, khususnya
+untuk cara dengan  banyak node.
 
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image01.png)
+Dialog Konflik mendukung Anda dalam menemukan perbedaan. Ini dapat membandingkan dua daftar
+node yang ditampilkan ("my" daftar node, daftar node gabungan, dan "their" daftar node) dan
+ini dapat me-render perbedaan antara mereka dengan warna latar belakang tertentu.
 
--   Finally, click
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png)
-    to freeze the resulting merged node list:
-
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image20.png)
-
-    The symbol in the nodes tab now switched to 
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image00.png)
-    and you can apply the merge decisions.
-
-### Support for comparing node lists
-
-It can be difficult to find the differences between the node list of of two object versions, in particular for ways with many nodes.
-
-The Conflict Dialog supports you in finding the differences. It can compare two of the node lists displayed ("my" node list, the merged node list, and "their" node list) and it can render the differences between them with specific background colors.
-
-From the following combo box you can select which pair of node lists to compare:
+Dari combo box berikut Anda dapat memilih sepasang daftar node untuk membandingkan:
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image15.png)
 
-1.  My with Their: compares the leftmost table with the rightmost table
-    in the Conflict Dialog
-2.  My with Merged: compares the leftmost table with the middle table in
-    the Conflict Dialog
-3.  Their with Merge: compares the middle table with the rightmost table
-    in the Conflict Dialog
+1.	My dengan Their: membandingkan tabel paling kiri dengan tabel paling kanan
+	pada Dialog Konflik
+2.	My dengan Merged: membandingkan tabel paling kiri dengan tabel tengah pada 
+	Dialog Konflik
+3.	Their dengan Merge: membandingkan tabel tengah dengan tabel paling kanan
+	pada Dialog Konflik
+	
+Tergantung pada posisi sebuah node dalam daftar latar belakang yang berbeda warna
+yang digunakan:
 
-Depending on the position of a node in the list different background
-colors are used:
-
-1.  The node is in this list only. It isn't present in the opposite list:
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image13.png)
-2.  The node is in both lists, but it is on different positions:
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image02.png)
-3.  White background means that a node is in both lists at the same
-    position.
+1.	Node hanya dalam daftar ini. Hal ini tidak ada dalam daftar yang berlawanan:
+	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image13.png)
+2.	Node di kedua daftar, tetapi pada posisi yang berbeda:
+	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image02.png)
+3.	Latar belakang putih artinya sebuah node dalam kedua daftar pada posisi yang
+	sama.
+	
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image17.png)
 

@@ -9,91 +9,96 @@ category: coordination
 Tasking Manager
 ===============
 
-In the previous chapter, we looked at various ways to ensure quality
-when contributing to OpenStreetMap.  In this section, we will take a
-look at the HOT Tasking Manager, a tool that mappers can use to sort an
-area into a grid, and work together to map an area in an organized way.
+Pada bab sebelumnya, kita melihat berbagai cara untuk memastikan kualitas
+apabila berkontribusi pada OpenStreetMap. Pada sesi ini, kita akan melihat
+pada Tasking Manager HOT, sebuah tool yang pembuat peta dapat menggunakan
+untuk mengurutkan area ke dalam grid, dan bekerja sama memetakan sebuah 
+area dengan cara yang terorganisir.
 
-One consistent challenge is coordinating field and/or remote workers to
-map an area together.  To help address this, HOT has developed an
-OpenStreetMap Tasking Tool to make it easier for administrators to
-define the areas of mapping interest and to delegate workers.  The idea
-behind this tool is that if there is an area, let’s say a city, that we
-want to map, and we have some people mapping on the ground, and some
-people mapping remotely using satellite imagery, this tool will allow us
-to create a grid of the entire area.  Collaborators can select blocks in
-the grid that they plan to map, and when they finish, they can mark that
-area as complete.  In this way a team of many people can coordinate to
-map the entire grid
+Salah satu tantangan yang konsisten adalah koordinasi lapangan dan/atau 
+pekerja jarak jauh memetakan area bersama-sama. Untuk membantu mengatasi
+hal ini, HOT telah membangun sebuah OpenStreetMap Tasking Tool membuatnya
+lebih mudah bagi administrator dalam menentukan area yang akan dipetakan 
+dan mendelegasikan pekerja. Ide di belakang tool ini adalah jika terdapat
+sebuah area, kita sebut kota, yang ingin kita petakan, dan kita memiliki
+beberapa orang memetakan di permukaan, dan beberapa orang memetakan secara
+jarak jauh menggunakan citra satelit, tool ini akan mengizinkan kita
+membuat grid dari seluruh area. Kolaborator dapat memilih blok di grid yang 
+mereka rencanakan untuk dipetakan, dan apabila mereka selesai, mereka 
+dapat menandai bahwa area telah dilengkapi. Dengan cara ini sebuah tim
+dari banyak orang dapat terkoordinasi memetakan grid secara keseluruhan.
 
-To see how the tasking manager works, let’s take a closer look.
+Untuk melihat bagaimana tasking manager bekerja, mari kita lihat lebih dekat.
 
--   Open your Internet browser and go to
-    [tasks.hotosm.org](http://tasks.hotosm.org). You will see a page
-    like this:
-
+*	Buka browser Internet Anda dan pergilah ke [tasks.hotosm.org](http://tasks.hotosm.org).
+	Anda akan melihat sebuah halaman seperti ini:
+	
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image01.png)
 
--   Click “Log in using your OpenStreetMap account \>\>”
--   Here you are agreeing to allow this application some access to your
-    OpenStreetMap account.  Click “Save Changes.”
+*	Klik “Log in using your OpenStreetMap account \>\>”
+*	Disini Anda setuju untuk memungkinkan aplikasi ini beberapa akses
+	pada akun OpenStreetMap Anda. Klik “Save Changes.”
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image04.png)
 
--   Now you will see the current list of projects.  These are different
-    places that people are coordinating to map.
+*	Saat ini Anda akan melihat daftar proyek. Ini adalah tempat yang
+	berbeda bahwa orang berkoordinasi memetakan.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image06.png)
 
--   Click on one of the projects to see more information about it.
+*	Klik pada salah satu proyek untuk melihat informasi lebih lanjut 
+	mengenai proyek tersebut.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image03.png)
 
--   This page shows you everything you need to know about the project.
-     On the left side of the page is a description of the mapping
-    project and how it is being organized.  You can click on the
-    different tabs to get more information.  On the right side is a grid
-    showing the area to be mapped.  Red grid squares have been
-    completed, green squares have been completed and checked by another
-    person, and the remaining squares still need to be mapped or are
-    being worked on.  By clicking on the “Workflow” tab, you can get
-    information about how collaborators are meant to help map.  By
-    clicking on “Task,” you can take a grid square to work on yourself.
+*	Halaman ini menunjukkan semua kebutuhan Anda untuk mengetahui 
+	mengenai proyek. Di sisi kiri halaman adalah deskripsi memetakan
+	proyek dan bagaimana hal itu diatur. Anda dapat mengklik pada tab
+	yang berbeda untuk mendapatkan informasi yang lebih lanjut. Di
+	sisi kanan adalah sebuah grid menunjukkan area yang telah dipetakan.
+	Kotak grid merah telah dilengkapi, kotak hijau telah dilengkapi dan
+	diperiksa oleh orang lain, dan kotak yang tersisa tetap perlu dipetakan
+	atau sedang dikerjakan. Dengan mengklik pada tab “Workflow”, Anda
+	mendapatkan informasi mengenai bagaimana kolaborator dimaksudkan
+	membantu memetakan. Dengan mengklik pada “Task,” Anda dapat mengambil
+	kotak grid untuk bekerja pada diri sendiri.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image07.png)
-    
--   Here you see a view of the square that you have offered to map.  You
-    can automatically open the area up for editing with JOSM, Potlatch
-    2, or create a Walking Paper.
--   If you plan to edit with JOSM, you need to enable a JOSM plugin
-    before you will be able to launch the application from the Tasking
-    Manager.  To do this, open JOSM and go the Preferences menu.  Click
-    on the “Remote Settings” tab and check the box next to “Enable
+
+*	Disini Anda melihat tampilan kotak yang menawarkan untuk dipetakan.
+	Anda dapat secara otomatis membuka area yang muncul untuk mengedit 
+	dengan JOSM, Potlatch 2, atau membuat Walking Paper.
+*	Jika Anda merencanakan untuk mengedit dengan JOSM, Anda perlu mengaktifkan
+	plugin JOSM sebelum Anda akan dapat meluncurkan aplikasi dari Tasking
+	Manager. Untuk melakukan ini, buka JOSM dan pergilah ke menu Preferences.
+	Klik pada tab “Remote Settings” dan centang kotak di samping “Enable
     remote control.”  Restart JOSM.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image05.png)
 
--   Go back to the Tasking Manager and choose JOSM.  If you have JOSM
-    open and you correctly enabled the remote control, the grid area of
-    the map you selected will automatically be loaded into JOSM.
--   You may now edit the area using the instructions provided in the
-    project information.  When you are finished, you can return to the
-    tasking manager website and add comments about your changes.  Click
-    “Mark task as done” to let other collaborators know that you have
-    finished this grid square.  If you were unable to complete the task,
-    click “Unlock it” to make it available again for other mappers.
+*	Pergi kembali ke Tasking Manager dan pilih JOSM. Jika JOSM Anda terbuka
+	dan Anda telah mengaktifkan remote control, area grid peta yang telah
+	Anda pilih akan secara otomatis dimuat ke dalam JOSM.
+*	Anda sekarang mengedit area tersebut menggunakan instruksi yang disediakan
+	pada informasi proyek. Ketika Anda telah selesai, Anda dapat kembali ke
+	situs tasking manager dan menambahkan komentar mengenai perubahan Anda.
+	Klik “Mark task as done” untuk membiarkan kolaborator yang lain mengetahui
+	bahwa Anda telah menyelesaikan kotak grid ini. Jika Anda tidak dapat
+	melengkapi task tersebut, klik “Unlock it” untuk membuatnya tersedia
+	kembali untuk pembuat peta lain.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image00.png)
 
--   If you are wondering what happens when you finish an area, the grid
-    square will turn red on the map to indicate that is done.  Someone
-    else will then look at your work to make sure it is good, and if
-    they agree that you’ve completed the square well, the grid square
-    will turn green, meaning it is complete!
+*	Jika Anda bertanya-tanya apa yang terjadi ketika Anda menyelesaikan 
+	sebuah area, kotak grid akan berwarna merah pada peta untuk menunjukkan
+	bahwa area tersebut sudah dipetakan. Orang lain akan melihat pekerjaan
+	Anda untuk memastikan bahwa pemetaan sudah baik dilakukan, dan jika
+	mereka setuju bahwa Anda telah melengkapi kotak grid dengan baik, 
+	kotak grid akan berwarna hijau, jika area dalam kotak grid telah dilengkapi!
+	
+Ringkasan
+---------
+Tasking Manager dapat sangat bermanfaat untuk memetakan area dengan cepat 
+dan memastikan kelengkapan dan kualitas data. Ini dapat sangat bermanfaat
+dalam mengelola banyak pembuat peta baik dalam satu lokasi maupun seluruh dunia.
 
-Summary
--------
-
-The Tasking Manager can be quite useful for mapping an area rapidly and
-ensuring completeness and data quality.  It can be quite helpful in
-managing many various mappers both in one location and around the world.
