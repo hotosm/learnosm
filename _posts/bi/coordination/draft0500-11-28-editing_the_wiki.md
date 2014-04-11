@@ -42,357 +42,350 @@ objek diberikan tag. Ini adalah halaman Map Features:
 
 [http://wiki.openstreetmap.org/wiki/Map\_Features](http://wiki.openstreetmap.org/wiki/Map_Features)
 
-In this chapter we will learn how to add and edit pages on the OSM wiki.
- We will learn the guidlines for contributing, the special markup
-language for creating a wiki page, and helpful ways for improving the
-wiki, such as translating important pages.
+Pada bab ini kita akan mempelajari bagaimana menambah dan mengedit halaman
+di wiki OSM. Kita akan belajar petunjuk untuk berkontribusi, bahasa markup
+khusus untuk membuat sebuah halaman wiki, dan cara untuk membantu meningkatkan
+wiki, seperti menterjemahkan halaman-halaman penting.
 
-​1.  The Wiki and Signing Up
----------------------------
+1.	Wiki dan Mendaftar
+-----------------------
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image09.png)
 
-Go to [http://wiki.openstreetmap.org](http://wiki.openstreetmap.org) to
-see the main wiki page.  You’ll see a lot of things here, and many links
-to other pages on the wiki.  In the left column are links to some of the
-main pages.  At the top of the page are a list of all the languages in
-which you can view this page.  If it’s available, you can switch the
-page to your language.  Try exploring some of the links on the page and
-see the kind of information available on the wiki.
+Kunjungi [http://wiki.openstreetmap.org](http://wiki.openstreetmap.org)
+untuk melihat halaman utama wiki. Anda akan melihat banyak hal disini, 
+dan banyak link ke halaman-halaman lain di dalam wiki. Pada kolom kiri
+adalah link ke beberapa halaman utama. Pada bagian atas halaman adalah
+daftar semua bahasa dimana Anda dapat melihat halaman ini. Jika tersedia,
+Anda dapat mengganti halaman ke bahasa Anda. Cobalah mengeksplor beberapa
+link pada halaman dan melihat berbagai informasi yang tersedia dalam wiki.
 
-You don’t need to have an account in order to view the OSM wiki, but you
-will need to create an account if you want to edit or add pages.  Note
-that this is not the same as your OpenStreetMap account.  You need to
-create a new account, although you can use the same name on the wiki as
-you did when signing up for OpenStreetMap.
+Anda tidak harus memiliki akun untuk melihat wiki OSM, tetapi jika Anda 
+ingin mengedit atau menambahkan halaman Anda harus membuat akun. Catatan
+bahwa akun ini tidak sama dengan akun OpenStreetMap Anda. Anda harus 
+membuat akun baru, walaupun Anda dapat menggunakan nama yang sama pada 
+wiki seperi ketika Anda mendaftar untuk OpenStreetMap.
 
-- To create a new account, click on “Log in / create account” in the
-    upper right corner of the website.
+*	Untuk membuat akun baru, klik pada “Log in / create account” di pojok
+	kanan atas situs.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image14.png)
 
-- If you already have an account you can login on this page.
-     Otherwise click on “Create an account.”
+*	Jika Anda sudah memiliki akun Anda dapat login pada halaman ini.
+	Akan tetapi jika belum membuat klik pada “Create an account.”
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image11.png)
 
--  Fill in the form with the username you want to create, your password
-    twice, your email address, and your real name.  In the CAPTCHA box
-    at the top you need to type the two words that are shown in the box.
-     This is a security prevention to ensure that you are human, and not
-    a computer.
--  When you have filled in all the fields click “Create account.”
--  Now you will be automatically logged in, and you will see your
-    username and other links available in the upper right corner of the
-    website.
-
+*	Isi form dengan nama pengguna yang Anda ingin gunakan, ketik kata sandi 
+	Anda dua kali, alamat email Anda, dan nama asli Anda. Dalam kotak
+	CAPTCHA di bagian atas Anda harus mengetik dua kata yang ditampilkan
+	pada kotak. Hal ini sebagai pengamanan untuk memastikan bahwa Anda adalah 
+	manusia, bukan komputer.
+*	Ketika Anda telah mengisi semua field klik “Create account.”
+*	Sekarang Anda akan dengan otomatis masuk dan Anda akan melihat
+	nama pengguna dan link lain yang ada di pojok kanan atas situs.
+	
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image02.png)
 
-​2.  Getting Started
--------------------
+2.	Memulai Wiki
+-----------------
 
-Let’s start out by editing our user page.  Every user has a page on the
-wiki.  These pages are commonly used to provide information about
-yourself, your location, for interpersonal communication, and for
-creating test pages and drafts.  This is a great place for us to start,
-and learn the basics of editing a wiki page.
+Kita akan memulai dengan mengedit halaman pengguna kita. Setiap pengguna
+memiliki sebuah halaman pada wiki. Halaman ini secara umum digunakan untuk
+menyediakan informasi mengenai diri Anda, lokasi Anda, untuk komunikasi 
+interpersonal, dan untuk membuat halaman ujicoba dan konsep. Ini adalah
+tempat yang baik untuk kita memulai, dan belajar dasar-dasar mengedit halaman
+wiki.
 
--  Go to your user page by clicking on your username in the upper right
-    corner.  My username is “MapJeff”, so I will click on this.
+*	Pergilah ke halaman pengguna Anda dengan mengklik pada nama pengguna Anda
+	di pojok kanan atas. Nama pengguna saya adalah “MapJeff”, jadi saya akan
+	klik disini.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image10.png)
 
--  Right now the page is empty.  Click on “edit this page” to add
-    something to it.
--  We can type anything into the editor to add information to the page.
-     For example, let’s add some basic information and a description.
-     You can add your own information, but here is an example.
+*	Saat ini halaman masih kosong. Klik pada “edit this page” untuk 
+	menambahkan sesuatu di dalamnya.
+*	Kita akan mengetik segaa sesuatu di dalam editor untuk menambahkan
+	informasi ke halaman. Misalnya, mari menambahkan beberapa informasi
+	dasar dan deskripsi. Anda dapat menambahkan informasi mengenai diri
+	sendiri, tetapi disini adalah sebuah contoh.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image13.png)
 
-- When you have added some text, enter a summary of your changes in
-    the box next to “Summary” and click “Save Page.”  The page will look
-    something like this:
+*	Ketika Anda menambahkan beberapa teks, masukkan ringkasan perubahan
+	Anda di kotak samping “Summary” dan klik “Save Page.” Halaman tersebut
+	akan terlihat speerti ini:
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image03.png)
 
-- This is great because I have successfully saved my text to the page,
-    but it is no good because it not formatted in a good way.  In order
-    to make it look nice, we need to learn some of the basic wiki
-    formatting techniques.  Click “Edit” at the top of the page, and
-    let’s make some more changes to our page.
+*	Ini sangat baik karena saya telah sukses menyimpan teks saya ke halaman,
+	tetapi ini tidak terlalu bagus karena ini belum terformat dengan baik.
+	Untuk membuatnya terlihat baik, kita harus mempelajari beberapa teknik
+	dasar dalam format wiki. Klik “Edit” di bagian atas halaman, dan 
+	mari membuat beberapa perubahan ke halaman kita.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image04.png)
 
--  If you understood the previous chapter on XML, you will remember
-    that we used elements which have opening tags and closing tags.  We
-    will do something similar on the wiki, using special characters to
-    surround the text we want to appear a certain way.
--  The wiki doesn’t automatically put new lines in unless we ask it to,
-    so we need to put the tag <br> at the end of each of our lines in
-    the first section.  This will cause a line break to occur.
--  Then, we want the words “About Me” to appear highlighted since it is
-    the heading of a section.  To do this we can surround it like this:
+*	Jika Anda memahami bab sebelumnya dalam XML, Anda akan mengingat 
+	bahwa kita telah menggunakan elemen yang memiliki tag-tag pembuka dan
+	tag penutup. Kita akan melakukan sesuatu yang hampir sama di wiki, 
+	menggunakan karakter khusus disekitar teks yang ingin kita tampilkan.
+*	Wiki tidak dengan otomatis menuju paragraf baru kecuali kita bertanya
+	mengenai hal tersebut, jadi kita harus  memasukkan tag <br> di akhir 
+	setiap paragraf di sesi pertama. Ini akan membuat pemisah antar paragraf.
+*	Kemudian, kita ingin tulisan “About Me” muncul dengan disorot sebagai
+	judul dari bagian ini. Untuk melakukan ini kita dapat mengetik seperti ini:
 
         = = About Me = =
 
-- Now our code looks like this:
+*	Sekarang kode kita terlihat seperti ini:
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image01.png)
 
-- And after we save it the page will look nicely formatted:
+*	Dan setelah kita menyimpan halaman ini akan terlihat bagus seperti ini:
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image15.png)
 
-- Practice formatting your text in different ways.  A small hint:  the
-    buttons above the text box will automatically insert different types
-    of formatting code into your text!
+*	Praktek memformat teks Anda dengan cara yang berbeda. Petunjuk kecil:
+	tombol di atas kotak teks akan secara otomatis memasukkan jenis format
+	kode yang berbeda ke dalam teks Anda!
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image12.png)
 
-- Once you have saved your page, it will be viewable by anyone on the
-    internet.  The following link goes to my page, but if you replace my
-    username with yours, it will go to your user page.
+*	Setelah menyimpan halaman Anda, ini akan terlihat oleh siapapun
+	di dalam internet. Link berikut ini akan menuju ke halaman saya,
+	tetapi jika Anda mengganti nama pengguna saya dengan milik Anda,
+	ini akan menuju ke halaman pengguna Anda. 
 
 [https://wiki.openstreetmap.org/wiki/User:MapJeff](https://wiki.openstreetmap.org/wiki/User:MapJeff)
 
-​3.  More Formatting
+3.	Format Lainnya
 -------------------
 
-In this section we will discuss many of the different ways you can
-format your information on a wiki page and the appropriate codes to use
-to create different elements.  It’s a good idea to practice before
-trying to create an official wiki page that you want others to see, so
-first let’s create a sub-page under your user page where you can play
-around and practice editing.
+Dalam sesi ini kita akan mendiskusikan berbagai macam cara yang berbeda-beda
+sehingga Anda dapat mengetahui format informasi Anda di halaman wiki dan 
+kode yang sesuai digunakan untuk membuat elemen-elemen yang berbeda. 
+Ini ide yang baik untuk mempraktekan sebelum mencoba memuat halaman wiki yang
+resmi bahwa Absa ingin melihat satu sama lain, jadi yang pertama adalah membuat 
+sub halaman di bawah nama pengguna Anda dimana Anda dapat memainkan di sekitar
+dan praktek mengedit.
 
-- You can create any new wiki page by typing in the link to the page
-    that you want and then creating a new page.  For now, let’s create a
-    new subpage that we can use to practice our wiki editing.  Open your
-    web browser to the following address, replacing “MapJeff” with your
-    own username.
+*	Anda dapat membuat beberapa halaman wiki denan mengetikkan pada link ke halaman
+	yang Anda inginkan dan kemudia membuat halaman baru. Untuk sekarang,mari 
+	membuat halaman sub baru yang dapat menggunakan untuk berpraktek mengedit
+	wiki kita. Buka web browser Anda ke alamat berikut, mengganti  “MapJeff”
+	dengan pengguna nama Anda sendiri.
 
 [https://wiki.openstreetmap.org/wiki/User:MapJeff/testpage](https://wiki.openstreetmap.org/wiki/User:MapJeff/testpage)
 
-- This will take us to an empty page that we can edit.
+*	Ini akan membawa Anda ke sebuah halaman kosong yang kita dapat edit.
 
-Now let’s look at how to format our text.  Feel free to use your test
-page to try things out.
+Sekarang mari kita lihat bagaimana untuk memformat teks. Silahkan untuk 
+menggunakan halaman tes Anda untuk mencoba beberapa hal dibawah ini.
 
-### Basic Formatting
+### Format Dasar
 
-| Description                               | Example          | Result           |
+| Deskripsi                                 | Contoh           | Hasil            |
 |-------------------------------------------|------------------|------------------|
-| Surrounding text with two apostrophes (') will display this text in italic.   | ''italic text''  | *italic text*     
-| Surrounding text with three apostrophes (') will display this text in bold.   | '''bold text'''  | **bold text**
-| Surrounding text with five apostrophes (') will display this text in bold italic   | '''''bold and italic text'''''  | ***bold and italic text***
-| Four dashes in a row will create a horizontal line.  This should be used sparingly.   | - - - -  | ____________
+| Disekitar teks berikan dua kutip (') yang akan menampilkan teks dalam bentuk italic. | ''italic text''  | *italic text*     
+| Disekitar teks berikan tiga kutip (') yang akan menampilkan teks dalam bentuk bold. | '''bold text'''  | **bold text**
+| Disekitar teks berikan lima kutip (') yang akan menampilkan teks dalam bentuk bold italic. | '''''bold and italic text'''''  | ***bold and italic text***
+| Empat garis lurus berturut turut akan menghasilkan garis horizontal. Ini jarang digunakan. | - - - -  | ____________
 
-### Special Formatting
+### Format Khusus
 
-
-| Description  | Example wiki source  |  Result   |
+| Deskripsi    | Contoh wiki          |  Hasil    |
 |--------------|----------------------|-----------|
-| A pair of '< nowiki>' and '< /nowiki>' disables the wiki-syntax in the enclosed text.  | '''bold text''' | **bold text** 
+| Pasangan kata '< nowiki>' dan '< /nowiki>' menonaktifkan wiki-syntax dalam teks tertutup.  | '''bold text''' | **bold text** 
 |     |  < nowiki>'''bold text'''< /nowiki> | '''bold text'''
-|Surround your text with '<!-- ', ' -->' and the enclosed text will not display on the wiki-page (a comment). | Comment! <!-- this is a comment which will not be shown -->  |  Comment!
+|Disekitar teks Anda menaruh '<!-- ', ' -->' dan teks tertutup tidak akan ditampilkan pada halaman wiki (komentar). | Komentar! <!-- komentar ini tidak akan muncul -->  | Komentar!
 
-### Headings and Subheadings
+### Judul dan Sub Judul
 
-A section starts with a header consisting of a line beginning and ending
-with two or more consecutive equal signs (=). The number of equal signs
-indicates the nesting level of sections.
+Suatu sesi dimulai dengan judul yang dibuat dengan kalimat dimulai dan diakhiri 
+dengan dua atau lebih tanda sama dengan (=). Jumlah dari tanda menunjukkan 
+tingkat besar dari judul.
 
-When you create sections and subsection headings in your wiki page, the
-page will automatically have a table of contents section created at the
-top of the page.
+Ketika Anda membuat suatu sesi dan sub sesi judul di halaman wiki Anda, 
+maka halaman wiki Anda akan otomatis memiliki tabel konten sesi yang
+dibuat di atas halaman Anda.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image19.png)
 
-### Lists
+### Daftar
 
-It’s easy to create a bullet list.  In order to make an item in a list,
-you simply need to use a star (\*) as the first character on one or more
-consecutive lines.
+Sangat mudah untuk membuat sebuah urutan. Dalam membuat sebuah item dari urutan
+Anda hanya perlu untuk menaruh tanda bintang (\*) di awal karakter pada satu atau
+lebih kalimat Anda.
 
-To create an ordered list, you simply use number signs (\#) instead of
-stars (\*).
+Untuk membuat daftar urutan, Anda menggunakan tanda angka (\#) bukan tanda bintang (\*).
 
-You can create nested lists by using a combination of stars and number
-signs.  Nested lists display as lists with different levels of
-indentation. When nesting lists you may mix bullet lists and numbered
-lists on each level.
-
+Anda dapat membuat urutan berdasarkan tingkatan dengan menggunakan kombinasi
+tanda bintang dan angka. Daftar urutan menampilkan seperti daftar dengan
+tingkatan yang berbeda. Ketika daftar urutan Anda dapat mencampur daftar poin 
+dengan daftar angka di setiap tingkat.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image18.png)
 
-### Links
+### Link
 
-Links within the OpenStreetMap wiki are quite simple.  Simply surround
-the name of the wiki page you want to link to with double brackets
-[[wiki-link]].  You could add different text for the link by adding a
-pipe symbol (|) and the text will appear as the link text.  If you want
-a special language version of a wiki page, you should prefix the page
-name with the two-letter language code and a colon (:).  For example, to
-link to the German version of a page, you would use [[de:wiki-link]].
+Link dalam OpenStreetMap wiki cukup sederhana. Cukup tulis disekitar 
+halaman wiki yang Anda ingin berikan link dengan dua tanda kurung [[wiki-link]]. 
+Anda dapat menambahkan teks yang berbeda untuk link tersebut dengan menambahkan
+simbol pipa (|) dan teks akan tampil dengan link yang sama. Jika Anda ingin 
+bahasa khusus untuk halaman wiki Anda harus menambahkan nama halaman dengan 
+kode bahasa dan titik dua (:) Sebagai contoh, link untuk versi Jerman,
+Anda bisa menggunakan [[de:wiki-link]].
 
-If you want to link to an article on Wikipedia, prefix the name of the
-article with “wikipedia:”  For example, [[wikipedia:article-name]].  If
-you want to link to a wikipedia article in another langauge, you can add
-the language code like this:  [[wikipedia:de:article-name]].
+Jika Anda ingin link yang ada di Wikipedia, tambahkan nama artikel dengan
+“wikipedia” sebagai contoh [[wikipedia:article-name]]. Jika Anda ingin link
+wikipedia di dalam bahasa yang berbeda Anda dapat menambahkan kode bahasa 
+seperti ini : [[wikipedia:de:article-name]].
 
-Finally, if you want to create an external link, simply type the URL and
-it will display as a link.  If you want to change the link text, you can
-use one set of brackets to change the text which links to your URL
-[external-link link-text].
+Terakhir, jika Anda ingin membuat link eksternal cukup dengan mengetik
+URL dan akan tampil sebagai link. Jika Anda ingin mengubah teks dengan 
+kalimat yang lain Anda dapat menambahkan pemisah untuk mengubah teks dari
+link Anda URL [external-link link-text].
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image17.png)
 
-### Tables
+### Tabel
 
-Tables are probably the trickiest thing to create in a wiki, but easy
-once you understand how it works.  First, you need to understand that a
-table is really a grid that has some number of rows and some number of
-columns, and one type of information is contained horizontally in rows
-and another type vertically in columns.
+Tabel biasanya suatu yang agak sulit dibuat di wiki akan tetapi akan mudah 
+jika Anda sudah  mengerti dan memahami caranya. Pertama Anda harus mengerti
+bahwa tabel terdiri dari sejumlah kolom dan baris dan informasi yang disampaikan
+horizontal di dalam baris dan kolom.
 
-A basic table needs the following parts:
+Dalam membuat tabel dasar-dasar yang dibutuhkan yaitu :
 
-- A line with the first two characters '{|' indicating the begin of a
-    table.
-- An optional line with the first two characters '|+' for the
-    caption of the table.
-- One or more table rows, beginning with '|-' and usually no other
-    content
-- After each table row one or more lines with table cells and their
-    text/content. A table cell has as first character a pipe symbol (|)
-    and the second character cannot be either plus (+) or minus (-)
-    because these two are reserved for caption and table row
-    respectively.
-- A line with the first two characters '|}' indicating the end of a
-    table.
+*	Sebuah baris dengan dua karakter pertama yaitu '{|' yang berarti akan memulai tabel.
+*	Baris pilihan dengan 2 karakter pertama yaitu '|+' untuk judul dari tabel.
+*	Satu atau lebih baris tabel dimulai dengan '|-' dan tidak memiliki konten.
+*	Setelah setiap baris terisi dari sel dan kontennya. Sel tabel tersusun dari 
+	karakter pertama yaitu simbol pipa (|) dan karakter kedua tidak dapat ditambahkan 
+	(+) atau (-) karena diganti dengan keterangan dan baris dari masing-masing kolom.
+*	Baris dengan dua karakter pertama '|}' menunjukkan akhir dari tabel.
 
-It is good practise and increases readability to use a space as
-second/third character, thus avoiding any ambiguity.
+Hal yang bagus untuk dipraktekan dan meningkatkan kemampuan untuk menggunakan 
+sebuah jarak untuk karakter kedua/ketiga sehingga akan menghindari kebingungan.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image16.png)
 
-Play around with all these different techniques for formatting your
-wiki.  If you want an example of all of these things, try viewing the
-test page I created here:
+Mempelajari berbagai teknik yang berbeda untuk memformat wiki Anda. Jika Anda
+ingin sebuah contoh dari semua contoh yang ada di atas Anda dapat melihat
+halaman tes yang saya buat disini :
 
 [https://wiki.openstreetmap.org/wiki/User:MapJeff/testpage](https://wiki.openstreetmap.org/wiki/User:MapJeff/testpage.)
 
-Compare the wiki text to the way it is formatted when you are viewing
-it.
+Bandingkan teks  wiki format Anda dengan teks yang ada di halaman saya.
 
-You can find more information on editing at
+Anda dapat mencari informasi lainnya dalam mengedit di 
+
 [http://wiki.openstreetmap.org/wiki/Help:Wiki-Editing](http://wiki.openstreetmap.org/wiki/Help:Wiki-Editing).
 
-​4.  Conventions and Guidelines
-------------------------------
+4. 	Konvensi dan Pedoman
+------------------------
 
-You can create any wiki page the same way that you have created your
-user page.  However, before you run off creating pages to your heart’s
-content, it is important to understand some guidelines for how to best
-contribute.  Some key things to keep in mind are:
+Anda dapat membuat halaman wiki apapun seperti yang telah Anda lakukan di halaman
+pengguna Anda. Akan tetapi sebelum Anda mencoba membuat halaman Anda penting buat
+Anda untuk mengetahui dan memahami beberapa pedoman untuk berkontribusi di wiki ini.
+Hal-hal yang perlu diingat yaitu :
 
-### Before Creating a Page
+### Sebelum Membuat Halaman
 
-- Don’t Duplicate.  When you want to create a new wiki page, do a
-    comprehensive search of the wiki to ensure that someone else hasn’t
-    already created a page about the same topic.  You can search for
-    existing pages using the search box in the upper right.
-- If a page that you want to create already exists, but you think it
-    could be better, you should improve it, instead of creating an
-    entirely new page.
-- Choose a descriptive name, capitalize new words, and don’t use
-    spaces or dashes.  The Map Features page for example, is named
-    Map\_Features, making the link:
+*	Jangan meniru. Ketika Anda ingin membuat sebuah halaman lakukan peninjauan dan 
+	pencarian di wiki untuk memastikan bahwa topik yang Anda ingin tulis belum dibuat 
+	oleh siapapun. Anda dapat mencari halaman yang sudah ada di kotak pencarian 
+	di sebelah kanan atas.
+*	Jika halaman yang Anda ingin buat telah ada, tapi Anda ingin memperbaikinya Anda
+	lebih baik mengedit halaman tersebut daripada membuat halaman yang baru.
+*	Pilihlah nama yang dapat mendeskripsikan, gunakan huruf besar di setiap kata.
+	Fitur peta sebgai contoh diberi nama Map\_Features, buat link :
 
 [http://wiki.openstreetmap.org/wiki/Map\_Features](http://wiki.openstreetmap.org/wiki/Map_Features)
 
-### When Structuring a Page
+### Ketika Menyusun Halaman*
 
-- Divide your page into sections and subsections.
-- Create an “Introduction” section at the top of the page to give a
-    brief explanation of the page.
-- Format different parts of your pages as tables or lists, when
-    appropriate.  (We will discuss formatting more in the next section)
-- When in doubt, look at other pages on the wiki for inspiration about
-    how to format things.  Remember that you can look at the code for
-    any page by clicking on the edit tab and seeing how other users
-    format their text.
+*	Bagi halaman anda ke dalam sesi dan sub sesi.
+*	Buat sesi "Pendahuluan" di tiap bagian atas halaman untuk memberikan penjelasan dari halaman tersebut.
+*	Buat bagian-bagian berbeda dari halaman Anda seperti tabel atau daftar jika dibutuhkan.
+	(Kita akan berdiskusi format lain pada sesi selanjutnya)
+*	Jika Anda ragu, lihat ke halaman wiki yang lain untuk mendapatkan inspirasi bagaimana untuk membuat
+	format sebuah halaman. Ingat, Anda dapat melihat kode dari halaman manapun dengan meng-klik pada
+	tab edit dan liat bagaimana penulis memberikan format pada tulisan mereka.
 
-​5.  Translating Pages
----------------------
+5.	Menerjemahkan Halaman
+-------------------------
 
-One very useful thing that can be done on the wiki is to translate
-important pages into your language.  As you’ve already seen, many wiki
-pages have links at the top where you can switch languages.  However,
-this is only available for pages that have been translated, and that
-include a special tag at the top - {{Languages|page\_name}}
+Salah satu hal yang paling berguna yang bisa dilakukan dalam wiki ini adalah
+kita dapat menterjemahkan halaman-halaman yang kita anggap penting ke dalam 
+bahasa kita. Seperti yang telah anda lihat, banyak halaman yang ada di wiki
+memiliki link yang berada pada atas halaman yang dapat diubah ke dalam berbagai
+bahasa. Akan tetapi hal ini hanya dapat dilakukan pada halaman yang sudah 
+diterjemahkan sebelumnya dan juga termasuk tag khusus yang ada di atas halaman. 
+{{Languages|page\_name}}
 
-When developing the OpenStreetMap community in your country, it is very
-useful for key wiki pages to be translated into your language.  Adding
-translated pages is easy, as we will see here.
+Ketika mengembangkan komunitas OpenStreetMap di negara Anda, akan sangat
+bermanfaat bagi halaman-halaman yang ada di wiki untuk diterjemahkan ke 
+dalam bahasa Anda. Menerjemahkan halaman yang ada di wiki sangatlah mudah,
+seperti yang akan kita lihat ini.
 
-The names of pages are always created in English, but different versions
-of the same page can be created by adding a language code into the URL.
- For example, the Map Features page is at
+Nama-nama dari halaman yang ada biasanya dibuat dalam bahasa Inggris tapi 
+versi yang berbeda pada halaman yang sama dapat dibuat dengan menambahkan
+kode bahasa ke dalam URL. Contohnya halaman Map Features ada di
 
 [http://wiki.openstreetmap.org/wiki/Map\_Features](http://wiki.openstreetmap.org/wiki/Map_Features)
 
-If you want the Spanish version of this page, it is available at
+Jika Anda menginginkan versi dalam bahasa Spanyol, tersedia di
 
 [http://wiki.openstreetmap.org/wiki/ES:Map\_Features](http://wiki.openstreetmap.org/wiki/ES:Map_Features)
 
-If a page exists that you want to translate, you simply visit the URL
-with your language code and a colon (:) preceding the page name.  For
-example, if we wanted to translate this page into Indonesian, we would
-visit
+Jika Anda ingin menerjemahkan sebuah halaman, Anda tinggal mengunjungi ke
+URL dengan menggunakan kode bahasa Anda dan menggunakan tanda titik dua (:)
+pada awal nama halaman. Contoh jika Anda ingin menerjemahkan halaman Map
+Feature ke dalam bahasa Indonesia Anda dapat mengunjungi.
 
 [http://wiki.openstreetmap.org/wiki/ID:Map\_Features](http://wiki.openstreetmap.org/wiki/ID:Map_Features)
 
-Then we click “Edit” to create this page.
 
-The easiest way to add a translation is to go to a page in English,
-click “Edit”, and copy all of the wiki text to your Clipboard.  Then
-edit the page in your own language, pasting in the original English text
-and translating it into your language.  This will allow you to keep all
-of the original formatting and links correctly, but translate the
-English text into your own language.
+Lalu kita klik “Edit” untuk menerjemahkan halaman ini.
 
-​6.  Watching Pages
-------------------
+Cara paling mudah untuk menambahkan terjemahan adalah lihat halaman
+di dalam bahasa Inggris, klik “Edit” dan copy semua wiki teks yang ada
+ke dalam Clipboard Anda lalu edit halaman ini ke dalam bahasa Anda, paste
+teks asli yang dalam bahasa Inggris dan terjemahkan ke dalam bahasa Anda. 
+Ini akan membuat Anda akan tetap menyimpan format asli dan link halaman 
+tersebut tapi teks dalam bahasa Inggris telah diterjemahkan ke dalam bahasa Anda.
 
-You may want keep an eye on pages that you have edited yourself, or that
-you have an interest in.  To do this, you can add specific pages to your
-“Watchlist,” which keeps a record of recent changes to pages, so that
-you will know when others have edited them.
+6.	Melihat Halaman
+-------------------
 
-To add a page to your watchlist, click on the star at the top of the
-page section:
+Anda dapat menyimpan halaman yang telah Anda edit ataupun halaman yang menurut
+Anda menarik. Untuk melakukan ini Anda dapat menambahkan halaman tertentu ke 
+dalam “WatchList” Anda. Ini akan menyimpan perubahan yang Anda lakukan pada 
+halaman tersebut jadi Anda akan mengetahui ketika ada orang lain yang mengeditnya 
+kemudian.
+
+Untuk menambahkan halaman ke dalam WatchList Anda, klik tanda bintang di bagian atas halaman:
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image08.png)
 
-Then, you can view your watchlist by clicking on “My Watchlist” at the
-top of the page:
+Lalu Anda dapat melihat WatchList Anda dengan klik pada “My Watchlist” 
+yang ada pada bagian atas halaman. 
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image07.png)
 
-On the “My Watchlist” page you choose to show changes to your watched
-pages within the past hours, or days, or since you started watching the
-page.
+Pada “My Watchlist” akan menunjukkan perubahan yang Anda lakukan dalam beberapa 
+jam yang lalu, hari atau dari sejak Anda melihat halaman tersebut.
 
-Summary
--------
+Ringkasan
+---------
 
-In this chapter we have learned how we can edit and add pages to the
-OpenStreetMap wiki.  You should now have a decent understanding of how
-to create a new wiki page, how to add different formatting, and how to
-create translations of existing pages.
+Dalam chapter ini kita telah mempelajari bagaimana kita bisa mengedit dan menambahkan
+halaman di OpenStreetMap wiki. Anda seharusnya sudah memiliki pemahaman yang baik tentang 
+bagaimana untuk membuat sebuah halaman wiki, bagaimana membuat halaman dalam format yang 
+berbeda dan bagaimana untuk menerjemahkan halaman yang ada di wiki ke dalam berbagai bahasa.
 
-Furthermore, It would be very helpful to discuss a bit the concept of
-templates as the OSM Wiki uses them a lot and those templates can be
- quite confusing for beginners
+Selanjutnya, ini akan sangat membantu untuk membahas sedikit konsep template 
+sebagai Wiki OSM menggunakan mereka banyak dan template mereka dapat sangat
+membingungkan untuk pemula.
