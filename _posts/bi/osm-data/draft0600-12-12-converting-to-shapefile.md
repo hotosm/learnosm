@@ -1,25 +1,30 @@
 ---
 layout: doc
-title: Converting to Shapefile
+title: Konversi ke Shapefile
 permalink: /en/osm-data/converting-to-shapefile/
 lang: en
 category: osm-data
 ---
 
-Converting to Shapefile
+Konversi ke Shapefile
 =======================
 
 
 
-5)  Converting to Shapefile
-There are various tools that convert OSM data into shapefiles, each with its own pros and cons.  They all work via the command-line, so are best suited for those with a technical background.  Some of the tools are:
+5)  Konversi ke Shapefile
+Ada berbagai macam tool yang mengkonversi data OSM ke dalam shapefile, masing-masing dengan pro dan kontra sendiri. 
+Mereka semua bekerja melalui command-line, jadi yang paling cocok untuk orang-orang dengan latar belakang 
+teknis. Beberapa tool antara lain:
+
 osm2shp
-C++ application for converting OSM to shapefile.
+aplikasi C++ untuk mengkonversi OSM ke shapefile.
 http://trac.openstreetmap.org/browser/applications/utils/export/osm2shp
 osmlib
-Ruby library for converting to OSM.  Hasn’t been maintained in a long time but still is functional.  Not good with very large datasets.  Easy to configure.
+Ruby library untuk mengkonversi ke OSM. Tidak dipertahankan dalam waktu yang lama tetapi masih fungsional.
+Tidak baik dengan dataset yang sangat besar. Mudah untuk dikonfigurasi. 
 http://wiki.openstreetmap.org/wiki/OSMLib
 ogr2ogr
-This library has recently added support for OSM, and can convert to all common geographic data formats.
+Library baru-baru ini menambahkan dukungan untuk OSM, dan dapat mengkonversi untuk semua format data geografis
+secara umum.
 http://www.gdal.org/ogr/drv_osm.html
 

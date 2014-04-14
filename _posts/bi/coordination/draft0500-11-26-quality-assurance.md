@@ -1,237 +1,246 @@
 ---
 layout: doc
-title: Quality Assurance
+title: Penjaminan Kualitas
 permalink: /bi/coordination/quality-assurance/
 lang: bi
 category: coordination
 ---
 
-# Quality Assurance
+# Penjaminan Kualitas
 
-## Introduction
+## Pengantar
 
-Contributing to OpenStreetMap is easy to learn, but difficult to master.
-Everybody makes mistakes, but the system works because even when one
-person does something the “wrong” way, there are always other mappers
-ready to help and fix errors. As you map more and more, it will
-continue to get easier, and you will learn the “proper” way to do
-things. This chapter is devoted to helping you contribute well. We
-will begin by discussing various editing techniques in JOSM that will
-make your work better, and common mistakes that beginning mappers make.
-We will then discuss the JOSM validator tool, which is an automated way
-of checking for errors. Lastly, we will cover the HOT Tasking Manager,
-which is a tool that mappers can use to sort an area into a grid, and
-work together to map an area in an organized way.
+Berkontribusi di OpenStreetMap merupakan hal yang mudah untuk dipelajari,
+namun sulit untuk dikuasai. Setiap orang melakukan kesalahan, tetapi 
+sebuah sistem bekerja karena ketika seseorang melakukan suatu "kesalahan",
+selalu ada pembuat peta lain yang siap membantu dan memperbaiki kesalahan.
+Seiring Anda melakukan pemetaan secara terus menerus, ini hal tersebut akan
+menjadi lebih mudah, dan Anda akan mengerti cara yang "tepat" untuk melakukan
+pemetaan. Bab ini ditujukan untuk membantu Anda memberikan kontribusi yang 
+lebih baik. Kita akan memulai dari mendiskusikan berbagai macam teknik mengedit
+di JOSM yang akan membuat Anda bekerja lebih baik, dan mengerti kesalahan umum 
+yang sering dibuat pada awal pemetaan. Kita akan mendiskusikan alat validasi 
+JOSM dimana merupakan cara otomatis untuk mengecek kesalahan pada data OpenStreetMap.
+Terakhir, kita akan membahas Tasking Manager HOT, merupakan sebuah tool dimana
+pembuat peta dapat menggunakan untuk mengurutkan sebuah area di dalam grid,
+dan bekerja bersama-sama untuk memetakan sebuah area dengan cara yang 
+terorganisir.
 
-Drawing your maps correctly the first time will save you a lot of time
-later on!
+Menggambar peta Anda dengan tepat pertama kali akan menghemat banyak waktu
+nantinya!
 
 ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image10.png)
 
-*This warning claims that there is suspicious data in your edits and that
-you should review the specific errors, warnings and possible false
-entries. This window is an OSM method of creating better quality data
-and getting rid of untagged, overlapping and incomplete objects.*
+*Peringatan ini menyatakan bahwa terdapat data yang mencurigakan dalam
+editan Anda dan Anda harus meninjau kesalahan tertentu, peringatan dan 
+kemungkinan salah entri. Jendela ini adalah metode OSM yang membuat kualitas
+data menjadi lebih baik dan menyingkirkan objek yang tidak diberi tag, overlap,
+dan tidak lenkap.*
 
-## The Validation Tool
+## Tool Validasi
 
-JOSM comes with a tool that does an automated analysis of possible
-mistakes. This is useful for finding errors that you may have
-overlooked. When you run the validation tool, it will return two lists
-of problems:
+JOSM hadir dengan alat yang berfungsi untuk menganalisis secara otomatis kesalahan
+yang ada. Hal ini sangat membantu untuk menemukan kesalahan yang tidak terlihat
+oleh Anda. Ketika Anda menjalankan alat validasi ini, alat ini akan menghasilkan
+2 jenis masalah:
 
--   **Errors** These are important to fix, and therefore usually you
-    should not ignore these. Examples of errors include duplicated
-    objects or overlapping lines and polygons.
--   **Warnings** These are problems that are important to fix, but in some
-    cases, they are tolerable.
+*	**Kesalahan (Error)**: Kesalahan jenis ini merupakan kesalahan yang penting
+	untuk diperbaiki dan oleh karena itu Anda seharusnya tidak mengabaikan. Salah 
+	satu contoh dari error ini adalah objek yang terduplikasi atau garis dan poligon
+	yang saling bertumpang tindih.
+*	**Peringatan (Warning)**: kesalahan jenis ini merupakan kesalahan yang penting
+	untuk diperbaiki namun pada beberapa kasus hal tersebut bisa ditoleransi.
 
-One thing to note is that if you download a large area of the map and
-run the validation tool, you may get a very long list of errors and
-warnings. This is because the validation tool works on the whole map--
-not only the changes that you have made. So you may see mistakes that
-other mappers have made, and you can fix them, or ignore them. But the
-validation tool gives you the opportunity to look at the mistakes one by
-one.
+ 
+Satu hal yang perlu diperhatikan jika Anda mendownload area yang besar dan menjalankan
+alat validasi, Anda mungkin akan mendapatkan daftar kesalahan dan peringatan yang sangat
+panjang. Hal ini dikarenakan alat validasi ini bekerja pada seluruh peta, tidak hanya 
+perubahan yang telah anda buat. Sehingga Anda mungkin akan melihat kesalahan yang dibuat
+oleh orang lain dan Anda bisa memperbaikinya atau menghiraukannya. Akan tetapi alat 
+validasi memberikan Anda kesempatan untuk melihat kesalahan satu persatu.
 
-Let’s see how to use the validation tool:
+Mari kita lihat bagaimana cara menggunakan alat validasi:
 
-1.  In JOSM, download a section of the map.
-1.  If you don’t see the “Validation Results” window in the right panel,
-    click on the blue checkmark on the left to show it.
+1.	Pada JOSM, download satu daerah pada peta.
+2.	Jika Anda tidak melihat jendela “Validation Results” pada penel bagian kanan, klik 
+	pada tanda centang warna biru di bagian kiri untuk memunculkannya.
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image15.png)
 
-1.  Ensure that nothing on the map is selected. If you run the
-    validation tool with anything selected, it will only validate what
-    you have selected, and not the whole map.
-1.  Hover your mouse in the validation window and click “Validation.”
+3.	Pastikan bahwa tidak ada bagian pada peta yang dipilih. Jika Anda menjalankan 
+	alat validasi dengan sesuatu yang dipilih, hal tersebut hanya akan memvalidasi 
+	daerah yang Anda pilih, dan tidak seluruh peta.
+4.	Arahkan mouse Anda pada jendela validasi dan klik “Validation.”
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image16.png)
 
-1.  The map will change and any warnings will be circled in yellow,
-    errors in red. In the “Validation Results” window you will see a
-    list of warnings and errors, if there are any.
-
+5.	Peta tersebut akan berubah dan segala macam peringatan akan terlihat berwarna 
+	kuning dan untuk kesalahan berwarna merah. Pada jendela “Validation Results” Anda
+	akan melihat daftar peringatan dan kesalahan, jika ada.
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image12.png)
 
-1.  Errors should almost always be fixed. You can zoom to an error, by
-    right clicking on it in the window and selecting “Zoom to Problem.”
-    Then you can fix the mistake manually.
-1.  Some errors can be automatically fixed, such as “Duplicated nodes”
-    errors. You can click on the folder for these types of errors and
-    click the “Fix” button in the window. Many errors, however, need to
-    be corrected manually.
+6.	Kesalahan harus seluruhnya diperbaiki. Anda dapat memperbesar di daerah
+	yang terdapat kesalahan dengan cara klik kanan pada kesalahn pada jendela
+	tersebut dan kemudian pilihlah “Zoom to Problem”. Setelah itu Anda bisa 
+	memperbaiki kesalahan tersebut secara manual.
+7.	Beberapa kesalahan dapat diperbaiki secara otomatis, seperti kesalahan “Duplicated nodes”.
+	Anda dapat melihat pada folder untuk beberapa tipe error dan memilih tombol “Fix” 
+	pada jendela tersebut. Beberapa error membutuhkan untuk diperiksa secara manual.
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image07.png)
 
-1.  Usually there are many more warnings than errors. By giving you a
-    warning, JOSM is telling you that it is probably a mistake, but not
-    always. So you will need to use your judgement to see if it is an
-    error or not.
-1.  If you select a warning from the list and decide that it is not a
-    problem, click “Ignore” and it will be removed from the list.
-1.  You can re-run the validation tool at any time by clicking
-    “Validation.”
+8.	Biasanya terdapat lebih banyak Peringatan daripada Kesalahan. Dengan memberikan 
+	peringatan, JOSM memberitahukan Anda bahwa hal tersebut kemungkinan kesalahan, 
+	tapi tidak selalu. Sehingga Anda akan menggunakan keputusan anda untuk melihat 
+	apakah hal tersebut merupakan kesalahan atau bukan.
+9.	Jika Anda memilih salah satu peringatan dari daftar dan memutuskan bahwa hal tersebut
+	bukanlah masalah, klik “Ignore” dan peringatan tersebut akan di hapus dari daftar.
+10.	Anda dapat menjalankan ulang alat validasi sewaktu-waktu dengan mengklik “Validation”
 
-### Common Warnings
 
--   **Ways that are not closed** — usually a line that does not form a
-    polygon. Common examples are buildings where the first node does
-    not meet the last node.
+### Peringatan Umum
+
+*	**Jalan yang tidak tertutup**– Merupakan garis yang tidak membentuk sebuah poligon.
+	Contoh umumnya adalah gedung dimana titik pertama tidak bertemu dengan titik akhir
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image04.png)
 
-    To fix this, select both nodes and go to Tools -\> Merge Nodes
-    to connect them.
+	Untuk menyelesaikan masalah ini, pilih kedua titik dan pilih "Tools" -\> “Merge Node” 
+	untuk menyambung kedua titik tersebut.
 
--   **Crossing Buildings** (Overlapping Buildings) — buildings that overlap
-    each other.
+*	**Bangunan yang bertampalan** (Overlapping Buildings) – merupakan gedung yang saling 
+	bertumpang tindih satu sama lain.
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image17.png)
 
-    To fix this, move the nodes of one of the buildings outside of
-    the other building.
+	Untuk menyelesaikan masalah ini, gerakkan titik dari salah satu gedung ke arah luar 
+	dari gedung lain.
 
--   *Untagged Nodes or Ways* — If someone draws a point or a line but
-    forgets to give it any tags, then it is useless, because it doesn’t
-    mean anything.
+*	**Node atau jalan yang belum memiliki tag** - Jika seseorang menggambar titik atau
+	garis tetapi lupa untuk memberikan beberapa tag, kemudian titik atau garis yang 
+	digambar menjadi tidak berguna, karena itu tidak memiliki arti. 
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image05.png)
+	
+	Untuk menyelesaikan ini, pilih objek yang tidak mempunyai tag dan masukkan presets
+	yang sesuai, atau hapus itu jika merupakan kesalahan.
 
-    To fix this, apply tags to the object to identify it, or delete
-    it if it is a mistake.
-
--   End node near another way- If a line ends very close to another
-    line but does not connect, this raises a warning. Many times this
-    warning is not important, but it helps to find road intersections
-    that are supposed to connect but do not.
+*	**Titik garis akhir berdekatan dengan garis lain** – Jika sebuah garis terletak 
+	sangat dekat dengan garis lain namun tidak terhubung, akan menimbulkan peringatan. 
+	Hal ini bisa saja tidak penting akan tetapi membantu untuk mencari percabangan
+	jalan yang seharusnya tersambung tetapi pada kenyataannya tidak.
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image01.png)
 
--   Crossing ways- Lines that cross other lines without being connected
-    will raise warnings. Many times this is not a problem, because the
-    crossing ways are intentional - such as in the case of bridges, or
-    streets and rivers that cross landuse polygons. It is sometimes
-    helpful, however to find errors.
+*	**Garis yang saling berpotongan** – Merupakan peringatan yang muncul akibat jalur
+	berpotongan. Sebuah garis yang berpotongan dengan garis lain tanpa tersambung dapat
+	memunculkan peringatan. Hal ini juga bisa saja tidak menjadi masalah, karena jalur
+	yang berpotongan bisa saja disengaja, seperti pada kasus jembatan, atau jalan dan 
+	sungai yang berpotongan dengan poligon landuse. Hal ini terkadang membantu, u
+	ntuk menemukan kesalahan.
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image14.png)
 
-OpenStreetMap depends on people correcting and editing mistakes.
-Editing and validating data is important for improving maps. If you do
-not have time to get in the field with a GPS or trace imagery,
-validating objects and attribute data is a good way to contribute.
+OpenStreetMap bergantung pada orang yang memperbaiki dan mengedit kesalahan. Editing
+dan validasi data penting untuk meningkatkan peta. Jika anda tidak mendapatkan cukup
+waktu untuk survei ke lapangan dengan GPS atau mendigitasi citra, validasi objek dan
+atribut data merupakan cara terbaik untuk berkontribusi.
 
 ## Tasking Manager
 
-Sometimes quality assurance is about more than uploading good, clean
-data. One consistent challenge is coordinating field and/or remote
-workers to map an area together. n terms of data quality and in terms
-of completeness. To help address this, HOT has developed an
-OpenStreetMap Tasking Tool to make it easier for administrators to
-define the areas of mapping interest and to delegate workers. The idea
-behind this tool is that if there is an area, let’s say a city, that we
-want to map, and we have some people mapping on the ground, and some
-people mapping remotely using satellite imagery, this tool will allow us
-to create a grid of the entire area. Collaborators can select blocks in
-the grid that they plan to map, and when they finish, they can mark that
-area as complete. In this way a team of many people can coordinate to
-map the entire grid
+Terkadang penjaminan kualitas lebih berbicara mengenai mengupload dengan baik, 
+dan data bersih. Salah satu tantangannya adalah mengkoordinasikan field dan/atau
+pekerja bekerja jarak jauh untuk memetakan sebuah area secara bersama-sama.
+Dalam hal kualitas data dan dalam hal kelengkapan. Untuk membantu mengatasi
+hal ini, HOT telah mengembangkan Tasking Tool OpenStreetMap membuatnya lebih
+mudah bagi administrator untuk mendefinisikan area pemetaan yang diinginkan
+dan mendelegasikan pekerja. Ide dibalik tool ini adalah jika terdapat area,
+kita sebut saja kota, yang ingin kita petakan, dan kita memiliki beberapa
+orang untuk memetakan pada permukaan, dan beberapa orang memetakan dengan
+jarak jauh menggunakan citra satelit, tool ini akan memungkinkan kita
+membuat sebuah grid dari keseluruhan area. Kolaborator dapat memilih blok 
+dalam grid yang mereka petakan, dan ketika mereka telah menyelesaikannya,
+mereka dapat menandai area tersebut dengan lengkap. Dengan cara ini sebuah
+tim terdiri dari banyak orang dapat berkoordinasi memetakan seluruh grid.
 
-To see how the tasking manager works, let’s take a closer look.
+Untuk melihat bagaimana tasking manager bekerja, marilah kita lihat lebih dekat
 
-1.  Open your Internet browser and go to
-    [tasks.hotosm.org](http://tasks.hotosm.org). You will see a page
-    like this:
+1.	Buka lah browser internet Anda dan buka situs [tasks.hotosm.org](http://tasks.hotosm.org).
+	Anda akan melihat sebuah halaman seperti ini: 
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image02.png)
 
-1.  Click “Log in using your OpenStreetMap account \>\>”
-1.  Here you are agreeing to allow this application some access to your
-    OpenStreetMap account. Click “Save Changes.”
+2.	Klik “Log in using your OpenStreetMap account \>\>”
+3.	Disini Anda menyetujui untuk mengizinkan aplikasi ini mengakses akun OpenStreetMap.
+	Klik “Save Changes.”
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image08.png)
 
-1.  Now you will see the current list of projects. These are different
-    places that people are coordinating to map.
+4.	Sekarang Anda akan melihat sebuah daftar berisi proyek-proyek yang sedang ada saat ini.
+	Pada daftar tersebut berisi proyek-proyek dari negara-negara berbeda dimana mereka
+	melakukan koordinasi untuk melakukan pemetaan.
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image11.png)
 
-1.  Click on one of the projects to see more information about it.
+5.	Klik pada salah satu proyek untuk melihat informasi lebih lanjut mengenai ini.
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image06.png)
 
-1.  This page shows you everything you need to know about the project.
-    On the left side of the page is a description of the mapping
-    project and how it is being organized. You can click on the
-    different tabs to get more information. On the right side is a grid
-    showing the area to be mapped. Red grid squares have been
-    completed, green squares have been completed and checked by another
-    person, and the remaining squares still need to be mapped or are
-    being worked on. By clicking on the “Workflow” tab, you can get
-    information about how collaborators are meant to help map. By
-    clicking on “Task,” you can take a grid square to work on yourself.
+6.	Halaman ini menunjukkan semua hal yang Anda perlu ketahui mengenai proyek tersebut.
+	Pada sebelah sisi kiri halaman adalah sebuah deskripsi dari proyek pemetaan tersebut
+	dan bagaimana mengaturnya. Anda dapat klik pada tab-tab yang ada untuk melihat 
+	informasi tebih lanjut. Pada sisi kanan terdapat sebuah grid yang menunjukkan 
+	area yang sedang dipetakan. Kotak grid yang berwarna merah telah selesai dipetakan,
+	kotak berwarna hijau telah selesai dipetakan dan telah dilakukan pengecekan oleh
+	orang lain dan divalidasi datanya, kotak dengan pinggiran berwarna kuning berarti 
+	sedang ada orang lain yang mengerjakan peta pada area tersebut, sedangkan kotak
+	kosong lainnya belum ada atau belum selesai dipetakan. Anda dapat klik pada tab 
+	“Workflow”, disitu Anda akan mendapat informasi atau instruksi  mengenai bagaimana 
+	Anda dapat membantu melakukan pemetaan pada area tersebut. Dengan melakukan klik pada
+	“Task,” Anda dapat mengambil sebuah kotak grid untuk Anda kerjakan. 
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image13.png)
 
-1.  Here you see a view of the square that you have offered to map. You
-    can automatically open the area up for editing with JOSM, Potlatch
-    2, or create a Walking Paper.
-
-1.  If you plan to edit with JOSM, you need to enable a JOSM plugin
-    before you will be able to launch the application from the Tasking
-    Manager. To do this, open JOSM and go the Preferences menu. Click
-    on the “Remote Settings” tab and check the box next to “Enable
-    remote control.” Restart JOSM.
+7.	Disini Anda dapat melihat sebuah kotak yang Anda inginkan untuk dipetakan. Anda dapat
+	membuka area tersebut secara otomatis untuk diedit menggunakan JOSM, Potlatch 2,
+	atau membuat Walking Paper. 
+	
+8.	Jika Anda berencana untuk mengedit menggunakan JOSM, Anda perlu mengaktifkan 
+	sebuah plugin pada JOSM sehingga nantinya Anda dapat langsung membuka area 
+	dari Tasking Manager ke JOSM. Untuk melakukan ini, buka lah JOSM dan buka 
+	menu Preferences. Klik pada tab “Remote Settings” dan ceklis pada kotak di
+	samping “Enable remote control.” Restart JOSM.  
 
      ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image09.png)
 
-1.  Go back to the Tasking Manager and choose JOSM. If you have JOSM
-    open and you correctly enabled the remote control, the grid area of
-    the map you selected will automatically be loaded into JOSM.
-
-1.  You may now edit the area using the instructions provided in the
-    project information. When you are finished, you can return to the
-    tasking manager website and add comments about your changes. Click
-    “Mark task as done” to let other collaborators know that you have
-    finished this grid square. If you were unable to complete the task,
-    click “Unlock it” to make it available again for other mappers.
+9.	Kembali ke Tasking Manager dan pilih JOSM. Jika Anda telah membuka JOSM dan 
+	Anda telah mengaktifkan remote control dengan benar, area pada grid yang
+	Anda ingin edit akan muncul dengan otomatis pada JOSM. 
+	
+10.	Sekarang Anda dapat mengedit area tersebut menggunakan instruksi yang tersedia
+	pada informasi proyek. Ketika Anda selesai melakukan editing dan menguploadnya, 
+	Anda dapat kembali ke tasking manager dan menambahkan komentar mengenai perubahan
+	yang Anda buat. Klik “Mark task as done” agar pembuat peta lainnya tahu bahwa Anda
+	telah menyelesaikan kotak grid tersebut. Jika Anda tidak dapat menyelesaikan kotak
+	tersebut, klik “Unlock it” sehingga kotak tersebut dapat dikerjakan oleh pembuat 
+	peta lainnya. 
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image00.png)
 
-1.  If you are wondering what happens when you finish an area, the grid
-    square will turn red on the map to indicate that is done. Someone
-    else will then look at your work to make sure it is good, and if
-    they agree that you’ve completed the square well, the grid square
-    will turn green, meaning it is complete!
+11.	Jika Anda bertanya-tanya apa yang terjadi bila Anda telah menyelesaikan suatu 
+	area, grid tersebut akan berubah menjadi warna merah yang menandakan area 
+	pada grid tersebut telah selesai dipetakan. Orang lain akan meninjau ulang
+	hasil pekerjaan Anda dan memastikan hasilnya baik dan sesuai harapan, apabila
+	sesuai, grid tersebut akan berubah menjadi warna hijau, artinya telah benar-benar
+	selesai! 
 
-## Summary
+## Ringkasan
 
-In this chapter we have covered several ways of improving our
-contributions to OpenStreetMap. We have discussed some common problems
-mappers have when editing with JOSM, and how to avoid such mistakes. We
-have looked at the JOSM validation tool, which helps keep OpenStreetMap
-free from errors, and helps us keep the data clean and good. Finally,
-we looked at HOT’s Tasking Manager tool, which is a great way for
-mappers around the world to coordinate on a project.
+Pada bab ini kita telah membahas beberapa cara meningkatkan kontribusi kita di
+OpenStreetMap. Kita telah membahas beberapa masalah umum pembuat peta ketika
+mengedit dengan JOSM, dan bagaimana menghindari kesalahan tersebut. Kita telah
+melihat pada tool validasi JOSM, membantu menjaga OpenStreetMap terbebas dari
+kesalahan, dan membantu kita menjaga data tetap bersih dan baik. Terakhir, kita
+melihat pada tool Tasking Manager HOT, yang merupakan cara terbaik untuk pembuat
+peta seluruh dunia untuk mengkoordinasikan pada sebuah proyek.

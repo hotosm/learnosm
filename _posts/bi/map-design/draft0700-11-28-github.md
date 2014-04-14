@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Using GitHub
+title: Menggunakan GitHub
 permalink: /bi/map-design/github/
 lang: bu
 category: map-design
@@ -10,39 +10,41 @@ category: map-design
 this chapter is a draft because it's not a priority
 -->
 
-Using Github
-================
+Menggunakan Github
+==================
 
-GitHub is a website for storing and collaborating on projects, based on
-a program called Git. At it’s simplest, it is a place where you can get
-project files that someone else has created, and a place where you can
-upload projects of your own for others to use. You can also return to
-previous version of projects as well as open them up for other users to
-collaborate. There is much more that can be done with GitHub, but just
-knowing the basics will take us a long way.
+GitHub adalah sebuah situs untuk menyimpan dan berkolaborasi dalam proyek,
+berdasarkan pada suatu program yang bernama Git. Sederhananya, itu adalah
+tempat dimana Anda dapat mendapatkan file proyek yang orang lain telah
+buat, dan tempat dimana Anda dapat mengupload proyek dari Anda sendiri
+bagi orang lain untuk digunakan. Anda juga dapat kembali ke versi proyek
+sebelumnya serta membukanya bagi pengguna lain untuk berkolaborasi. 
+Ada banyak yang dapat dilakukan dengan GitHub, tetapi hanya mengetahui
+dasar-dasar yang akan membawa kita lebih jauh.
 
-GitHub and Repositories
-----------------------------
+GitHub dan Repositori
+----------------------
 
-1. Navigate your web browser to
-   [http://www.github.com](http://www.github.com) and you will see the
-   home page of GitHub, the main online repository for storing
-   git projects. Note the difference between github and git. Git is a
-   control system that can make any folder on your computer a
-   repository, and it can track any changes that you make over time to
-   that repository. GitHub is an online service that allows users to
-   share their git repositories and easily collaborate with others. If
-   this doesn't make sense right now, don’t worry. The main thing to
-   remember is that GitHub allows users to save repositories, which can
-   contain many files and folders within.
+1.	Navigasikan browser web Anda untuk [http://www.github.com](http://www.github.com)
+	dan Anda akan melihat halaman depan GitHub, repositori online utama
+	untuk menyimpan proyek git. Perhatikan perbedaan antara github dan git.
+	Git adalah sistem kontrol yang dapat membuat beberapa folder pada
+	repositori komputer Anda, dan hal ini dapat melacak setiap perubahan
+	yang Anda buat dari waktu ke waktu ke repositori. GitHub adalah layanan
+	online yang memungkinkan pengguna untuk berbagi repositori git dan
+	berkolaborasi dengan yang lain secara mudah. Jika ini tidak masuk akal
+	sekarang, jangan khawatir. Hal utama yang harus diingat bahwa GitHub 
+	memungkinkan penguna untuk menyimpan repositori, dimana dapat berisi
+	banyak file dan folder di dalamnya.
+	
 
-2. Visit [https://github.com/hotosm](https://github.com/hotosm) to see
-   all the repositories of the Humanitarian OpenStreetMap Team. You'll
-   notice on the left side the number of total repositories (18 as of
-   this writing) and the number of members participating in the group.
-   On the main part of the page is a list of the repositories and a
-   description. You can click on any of them to see the files they
-   contain.
+2.	Kunjungi [https://github.com/hotosm](https://github.com/hotosm) untuk
+	melihat semua repositori dari Humanitarian OpenStreetMap Team. Anda
+	akan melihat pada bagian kiri jumlah total repositori (18 dari tulisan ini)
+	dan jumlah anggota yang berpartisipasi dalam kelompok tersebut. Pada
+	bagian utama halaman adalah daftar dari repositori dan deskripsi. Anda
+	dapat mengklik salah satu dari mereka untuk melihat file yang mereka
+	isi.
 
 A repository is the equivalent of a project folder. When you view
 a repository on github, you are viewing the most recent state of the
