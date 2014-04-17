@@ -1,140 +1,142 @@
 ---
 layout: doc
-title: Getting Satellite Images into JOSM
-permalink: /en/editing/adding-orbview-imagery-in-josm/
-lang: en
+title: Menambahkan Citra Satelit ke JOSM
+permalink: /bi/editing/adding-orbview-imagery-in-josm/
+lang: bi
 category: editing
 ---
 
-# ORBVIEW 3: Getting Satellite Images to JOSM
+# ORBVIEW 3: Menambahkan Citra Satelit ke JOSM
 
-## Introduction
+## Pengantar
 
-        Sometimes it can be difficult to digitize or trace buildings and
-roads in JOSM because the BING imagery is unclear-- either from poor
-resolution or cloud coverage.  This problem can be overcome by using
-Public Domain imagery.   In order for Windows users to import imagery
-into JOSM we need to add more memory. In this chapter, we will be learn
-how to download free Orbview imagery and use it in JOSM:
+Terkadang hal ini sulit untuk mendigitasi atau menggambar bangunan dan
+jalan di JOSM karena citra BING tidak jelas-- baik dari resolusi rendah
+atau tertutup awan. Masalah ini dapat diatasi dengan menggunakan citra
+Public Domain. Agar pengguna Windows dapat mengimport citra di JOSM kita 
+perlu menambahkan memori yang lebih besar. Dalam bab ini, kita akan 
+belajar bagaimana mendownload citra Orbview gratis dan menggunakannya di 
+JOSM:
 
-I. Add JOSM Memory
+I. Menambah Memori JOSM 
 
-​II. Download ORBVIEW Imagery
+​II. Download Citra ORBVIEW 
 
-​III. Add Imagery via ¨ImportImage¨ Plugin
+​III. Menambah Citra melalui Plugin ¨ImportImage¨
 
-## Adding JOSM Memory
+## Menambah Memori JOSM
 
-        Before using Orbview Imagery in JOSM, it is necessary to add
-memory.  If this is not done, then you might end up with an error
-message like this:
+Sebelum menggunakan Citra Orbview di JOSM, maka perlu menambahkan memori.
+Jika hal ini tidak dilakukan, kemudian Anda mungkin berakhir dengan
+pesan kesalahan seperti ini:
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image13.png)
 
-The display screen that arises from insufficient memory in JOSM
+Tampilan layar yang muncul karena memori tidak cukup di JOSM
 
-This occurs because the memory allocated for JOSM is limited to 494 MB.
- In order to add satellite imagery you will need more than this amount
-of memory.  It is a bit complicated, but we will expand JOSM´s memory:
+Hal ini terjadi karena memori yang dialokasikan untuk JOSM terbatas 
+hanya 494 MB. Untuk menambahkan citra Anda perlu lebih banyak memori
+dari jumlah memori sebelumnya. Ini cukup sulit, namun kita akan menambah
+memori di JOSM:
 
-1. Look for a file named "josm-tested.jar" in program files\> JOSM\>
-	"josm-tested.jar"OR "josm-latest.jar"(On some computers it may be named
-	"josm-latest.jar" because you installed a more recent edition of JOSM).
+1.	Carilah file bernama "josm-tested.jar" di program file \> JOSM\>
+	"josm-tested.jar" atau "josm-latest.jar" (Pada beberapa komputer mungkin
+	bernama "josm-latest.jar" karena Anda telah menginstal edisi terbaru JOSM).
 
 	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image18.png)
 
-	Look for the Executable Jar File called Josm-tested.jar or
-	Josm-latest.jar
-
-2. Create a shortcut to the "josm-tested.jar" file by right clicking
-	and then selecting ¨create shortcut¨. Drag the shortcut to the desktop.
-
-3. Next, look for the location of the "java.exe" by typing "Java" in
-	the Start Menu, right click\> Open File Location
+	Carilah Executable Jar File bernama Josm-tested.jar atau Josm-latest.jar
+	
+2.	Membuat shortcut untuk file "josm-tested.jar" dengan klik kanan kemudian
+	pilih ¨create shortcut¨. Geser shortcut ke desktop.
+	
+3.	Selanjutnya, cari lokasi "java.exe" dengan mengetik "Java" di Menu Start,
+	klik kanan \> Open File Location
 
 	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image12.png)
 
-	If you cannot find it using the methods above, then you can go to **C: \\
-	Windows \\ System32** to find the java.exe file:
+	Jika Anda tidak dapat menemukannya menggunakan metode di atas, kemudian 
+	Anda dapat pergi ke **C: \\ Windows \\ System32**  untuk menemukan file 
+	java.exe:
 
 	![]({{site.baseurl}}/images/en/en_int_ch3_image21.png)
 
-4. Right click on the shortcut "josm-tested" on your desktop\> click
+4.	Klik kanan pada shortcut "josm-tested" di desktop Anda \> klik
 	Properties.
 
-5. In the option "target" type **C: \\ WINDOWS \\ system32 \\ java.exe
-	[space]-jar [space]-Xmx1g [space]"C: \\ Program Files \\ JOSM \\
-	josm-tested.jar"** (Note: The [space] is intended spacebars.  Also, you
-	may need to type "josm-latest.jar" instead of "josm-tested.jar".)
+5.	Pada pilihan "target" ketik **C: \\ WINDOWS \\ system32 \\ java.exe
+	[spasi]-jar [spasi]-Xmx1g [spasi]"C: \\ Program Files \\ JOSM \\
+	josm-tested.jar"** (Catatan: [spasi] dimaksudkan spasi. Selain itu,
+	Anda perlu mengetikan "josm-latest.jar" bukan "josm-tested.jar".)
 
 	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image16.png)
 
-6. If you succeed, the JOSM application will appear on your screen with the
-	Command line in the background: ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image23.png)
+6.	Jika Anda berhasil, aplikasiJOSM akan muncul pada layar Anda dengan
+	Command line di latar belakang: 
+	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image23.png)
+	
+	Ini adalah tampilan yang Anda harus dapatkan untuk mengindikasikan
+	bahwa Anda telah berhasil menambahkan lebih banyak memori ke JOSM.
+	
+Anda telah berhasil menambahkan lebih banyak memori ke JOSM.
+	
+## Download Citra OrbView-3 
 
-	This is the display that you should get to indicate that you have
-	successfully added more memory to JOSM.
+OrbView 3, diluncurkan pada tahun 2003 oleh ORIMAGE, diperoleh hingga
+210,000 km2 citra per hari sampai April 23, 2007. Saat ini, database
+citra yang ditemukan di situs USGS earth explorer. Gambar pankromatik
+(hitam dan putih) memiliki resolusi spasial 1 meter, sedangkan gambar 
+multi-spektral memiliki resolusi 4 meter (sebagian besar waktu ini 
+tidak ditawarkan). Gambar-gambar yang diambil pada ketinggian 470 km.
+Meskipun citra Orbview 3 sudah lama (2003 -2007), gambar tersebut memiliki
+resolusi yang baik, oleh karena itu masih bermanfaat untuk melacak jalan dan
+mendapatkan ide dasar dari infrastruktur di suatu area.
 
-You have successfully added more memory to JOSM.
+### A. Pengaturan Akun
 
-## Downloading OrbView-3 Imagery
-
-OrbView 3, which was launched in 2003 by ORIMAGE, acquired up to
-210,000 km2 of imagery per day until April 23, 2007.  Currently, a
-database of its imagery is found on the USGS earth explorer site.  The
-panchromatic (black and white) images have a spatial resolution of 1
-meter, while the multi-spectral images have a four meter resolution
-(most of the time this is not offered).   The images were taken at an
-altitude of 470 km.  Though Orbview 3 imagery is outdated (2003 to
-2007),  its images are of good resolution and therefore are still useful
-for tracing roads and gaining a basic idea of the infrastructure in an
-area.
-
-### A. Set up an account
-
-​Visit [http://earthexplorer.usgs.gov/](http://earthexplorer.usgs.gov/) and
-create an account.  Click the ¨Register¨ button on the top right.
+Kunjungi [http://earthexplorer.usgs.gov/](http://earthexplorer.usgs.gov/) dan 
+membuat akun. Klik tombol ¨Register¨ di bagian atas kanan.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image19.png)
 
-​You will be prompted to fill in information regarding your User
-account.  Fill in the required information: **User Affiliation,
-Address, and Confirmation**. In the first login window, you must enter a
-username and password that will be used to log in when using the USGS:
+Anda akan diminta untuk mengisi informasi mengenai akun pengguna Anda. 
+Isi informasi yang diperlukan: **User Affiliation, Address, and Confirmation**.
+Pada jendela login pertama, Anda harus memasukkan nama pengguna dan
+kata sandi yang akan digunakan untuk login ketika menggunakan USGS:
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image08.png)
 
-​Fill out information, such as the purpose that you are using images
-from the USGS.  The USGS is mainly interested getting information on
-what type of users are using their imagery and for what purposes.  You
-can fill out the answers like below if you get confused:
+Isi informasi, seperti tujuan menggunakan citra dari USGS. USGS tertarik
+mendapatkan informasi mengenai jenis pengguna yang menggunakan citra
+mereka dan tujuannya untuk apa. Anda dapat mengisi jawaban seperti
+di bawah jika Anda bingung:
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image00.png)
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image04.png)
 
-​Next, fill out your personal details.  Name, address, e-mail and
-telephone number are all required. After you complete this step you will
-be successfully registered!
+Selanjutnya, isi data pribadi Anda seperti nama, alamat, email dan nomor 
+telepon. Setelah Anda menglengkapi langkah ini Anda akan berhasil
+terdaftar!
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image14.png)
 
-### B.  Downloading the Imagery 
+### B.	Download Citra
 
-1. Once you have logged into your account you
-	may begin the process of downloading imagery in your desired region.
-	You can search for the location via the **Search box** on the left or with
-	your mouse on the map.  If an error occurs, simply click ¨clear
-	criteria¨ on the right panel.  Clear criteria will remove the area that
-	you have chosen so that you can reselect the desired area.
+1.	Setelah Anda log in menggunakan akun Anda, Anda boleh memulai proses
+	mendownload citra di wilayah yang Anda inginkan. Anda dapat mencari
+	lokasi melalui **Search box** di bagian kiri atau dengan mouse Anda
+	di dalam peta. Jika terjadi suatu kesalahan, klik ¨clear criteria¨
+	di panel kanan. Clear criteria akan menghapus area yang Anda pilih
+	sehingga Anda dapat memilih kembali area yang diinginkan.
 
 	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image17.png)
 
-2. Once you have found the desired area and have zoomed in, you can select
-	the area to export with four or more mouse clicks.   You can delete a
-	selected point by clicking on the red ¨X¨ by the point on the left
-	column.  When the area is selected, click on ¨Data Sets¨ located on the
-	bottom left box.
+2.	Setelah Anda menemukan area yang Anda inginkan dan telah diperbesar,
+	Anda dapat memilih area untuk mengeksport dengan empat atau lebih klik
+	mouse. Anda dapat menghapus titik yang terpilih dengan mengklik pada ¨X¨
+	berwarna merah oleh titik pada kolom bagian kiri. Ketika area terpilih,
+	klik pada ¨Data Sets¨ yang terletak di kotak kiri bawah.
 
 	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image02.png)
 
