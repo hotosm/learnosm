@@ -140,106 +140,108 @@ terdaftar!
 
 	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image02.png)
 
- 	> This database exports imagery tiles and so all of the tiles that
- 	are included in your selection will be downloaded.  Each tile is about
- 	10 to 11 MB.  Make sure that you are concise with your selection because
- 	it may take awhile to download.
+ 	> Database ini mengeksport tile citra dan semua tile yang termasuk dalam
+	pilihan Anda akan didownload. Setiap tile sekitar 10 - 11 MB. Pastikan 
+	bahwa Anda ringkas dengan pilihan Anda karena ini memerlukan beberapa
+	saat untuk mendownload.
 
  	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image06.png)
 
- 	> A list of several image providers will pop up.  We will chose
- 	imagery in the Public Domain, which is a license that corresponds with
- 	OpenstreetMap.  Select OrbView 3 and click Results
+ 	> Daftar beberapa penyedia gambar akan muncul. Kita akan memilih citra
+	pada Public Domain, ini merupakan lisensi yang sesuai dengan OpenStreetMap.
+	Pilih OrbView 3 dan klik Results.
+	
 
-3. As a result, a few OrbView 3 images will appear in the left column.
- 	Choose the image that best fits the area you are editing.
+3. 	Hasilnya, beberapa citra OrbView 3 akan muncul di kolom sebelah kiri. 
+	Pilih citra yang paling sesuai dengan area yang akan Anda edit.
 
  	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image09.png)
 
  	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image22.png)
 
- 	In the left column there are several menus to view OrbView 3 images,
- 	namely:
+ 	Di kolom kiri terdapat beberapa menu untuk melihat citra OrbView 3, yaitu:
 
  	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image15.png)
 
  	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image11.png)
 
-4. When you have selected one or more images to download, you must
- 	choose a download format.  The **GIS Ready Bundle** is the most useful for
- 	our purpose.   (The others are too large or are not georeferenced).
-	Click ¨Select Download Option¨.
-
+4.	Ketika Anda telah memilih satu atau lebih citra untuk didownload, Anda 
+	harus memilih format download. **GIS Ready Bundle** adalah paling bermanfaat
+	untuk tujuan kita. (Yang lain terlalu besar atau belum digeoreferensi).
+	Klik ¨Select Download Option¨.
+ 
  	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image05.png)
 
-5. Once the image(s) have downloaded, extract the files to a folder.
- 	You should get three files like this:
+5.	Setelah citra didownload, ekstrak file-file ke folder. Anda akan
+	mendapatkan tiga file seperti ini:
 
  	![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image07.png)
+	
+	Anda telah berhasil mendownload citra dan sekarang kita akan menambahkan
+	citra ke JOSM.S
 
- 	You have successfully downloaded the imagery and now we will go through
- 	adding that imagery to JOSM.
+## Menggunakan plug-in "Import Image" di JOSM
 
-## Using the "Import Image" plug-in in JOSM
+### A.  Download Plug-in.
 
-### A.  Download the Plug-in.
-
-To open the imagery in JOSM you need to download the plugin
-"ImportImagePlugin". Open JOSM, click Edit → Preferences  → Plugin →
-ImportImagePlugin.  Then click OK and restart JOSM.
+Untuk membuka citra di JOSM Anda perlu mendownload plugin "Import Image". Buka
+JOSM, klik Edit → Preferences  → Plugin → ImportImagePlugin. Kemudian klik OK
+dan restart JOSM.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image03.png)
 
-### B. Change the settings. Once JOSM restarts you will need to set the
-coordinates in UTM to match the downloaded image.  Go back into the
-Preferences Menu and Select the Presets box (below image globe) →  Map
-projection → OK.  You do not need to restart JOSM.
+### B. Mengubah pengaturan. Setelah JOSM di-restart Anda perlu mengatur 
+koordinat dalam UTM untuk mencocokan citra yang didownload. Kembali ke
+Menu Preferences dan pilih kotak Presets (di bawah gambar globe) →  Map
+projection → OK. Anda tidak perlu merestart JOSM.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image20.png)
 
-> If you are unsure of the coordinate system, you can determine the
-coordinates of the image you downloaded in QGIS.  In QGIS, right click
-on the layer to get to the Properties menu.  Once in the Property menu
-you should be able to decipher the coordinate system.
+> Jika Anda tidak yakin pada sistem koordinat, Anda dapat menentukan koordinat
+citra yang Anda download di QGIS. Di QGIS, klik kanan pada layer untuk 
+mendapatkan menu Properties. Setelah di menu Properties Anda seharusnya 
+dapat menentukan sistem koordinat.
 
- Once the image is properly projected, you can now open the image in
-JOSM.  Click File → Import Image and open the file you recently
-downloaded.  You should find three files in the extracted folder (.rar).
- You want to chose the .jpg.
+Setelah citra diproyeksi dengan benar, Anda sekarang dapat membuka citra
+di JOSM. Klik File → Import Image dan buka file yang didownload. Anda 
+seharusnya menemukan tiga file dalam folder yang diekstrak (.rar). Anda
+ingin memilih .jpg.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image07.png)
 
-Wait until the image opens in JOSM. OrbView imagery is panchromatic, so
-it is black and white.  Roads, rivers, vegetation and buildings can
-still be seen.
+Tunggu hingga citra terbuka di JOSM. Citra OrbView adalah pankromatik, 
+sehingga berwana hitam dan putih. Jalan, sungai, vegetasi dan bangunan
+tetap dapat terlihat.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image01.png)
 
-Once the imagery is up, then you simply click "Download From OSM" and
-you can begin editing the data.  Hopefully, with the new imagery you
-will be able to digitize uncharted territory or improve existing data.
+Setelah citra mucul, kemudian klik "Download From OSM" dan Anda dapat 
+memulai untuk mengedit datanya. Diharapkan, dengan citra baru Anda 
+dapat mendijitasi wilayah yang belum dipetakan atau memperbaiki data
+yang ada.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image10.png)
 
-Like anytime you edit in JOSM, after you have edited, upload your
-changes by clicking File → Upload Data.
+Kapan saja Anda dapat mengedit di JOSM, setelah Anda mengedit, upload
+perubahan Anda dengan mengklik File → Upload Data.
 
-## Summary
+## Ringkasan
 
-Congratulations! You should now be able to add satellite imagery using
-the ¨ImportImage¨ plugin.  In this guide we used free images from
-Orbview 3, but  the plugin can allow any other  public domain imagery.
+Selamat! Anda sekarang seharusnya dapat menambahka citra satelit menggunakan
+plugin ¨ImportImage¨. Pada panduan ini kita menggunakan citra gratis dari
+OrbView 3, tetapi plugin dapat mengizinkan kita menggunakan citra public
+domain yang lain.
 
-Final Reminders:
+Pengingat Terakhir:
 
-​1. You cannot import commercial satellite imagery, such as Google Earth
-Imagery, to OpenstreetMap.  If you work with satellite imagery please
-read the terms and conditions beforehand. It is not legal to copy
-commercial or other maps onto OpenstreetMap.
+1.	Anda tidak dapat mengimport citra satelit komersial, seperti citra Google
+Earth, ke OpenStreetMap. Jika Anda bekerja dengan citra satelit silahkan 
+membaca syarat dan ketentuan terlebih dulu. Hal ini tidak legal untuk mengcopy
+peta komersial atau lainnya ke dalam OpenStreetMap.
 
-​2. Satellite images must have coordinate files or coordinate
-information. Be sure to know the coordinates of the satellite imagery
-(map projection) you are using and adjust your settings in JOSM.
+2.	Citra satelit harus memiliki file koordinat atau informasi koordinat. 
+Pastikan untuk mengetahui koordinat citra satelit (proyeksi peta) yang Anda 
+gunakan dan sesuaikan dengan pengaturan Anda di JOSM.
 
-​3. If you wish to return to using Bing Imagery, make sure the map
-projection settings are returned to **Mercator WGS 84**.
+3.	Jika Anda ingin kembali menggunakan Citra Bing, pastika pengaturan proyeksi
+peta dikembalikan ke **Mercator WGS 84**.

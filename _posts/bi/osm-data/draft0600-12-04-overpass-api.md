@@ -1,26 +1,27 @@
 ---
 layout: doc
 title: OverPass API
-permalink: /en/osm-data/overpass-api/
-lang: en
+permalink: /bi/osm-data/overpass-api/
+lang: bi
 category: osm-data
 ---
 
 OverPass API
 ==============
-The Overpass API is a read-only API that provides custom selections from OpenStreetMap data.
-In other words, it is a service that allows users to submit a query over the internet, and
-in return receive the specific data that they requested.
+Overpass API adalah read-only API yang menyediakan pilihan khusus dari data OpenStreetMap.
+Dengan kata lain, hal ini adalah layanan yang mengizinkan pengguna untuk mengirimkan sebuah
+query melalui internet, dan kembali menerima data tertentu yang mereka minta.
 
-Anyone who uses one of the OpenStreetMap editors is using an API behind the scenes - however this
-API is designed for editing and does not provide the power of OverPass. In this chapter we'll
-examine some basic functionality of the OverPass API, and see how it can be used to access data
-for specific queries.
+Siapa saja yang menggunakan salah satu editor OpenStreetMap menggunakan API di belakang layar -
+namun ini dirancang untuk mengedit dan tidak menyediakan kekuatan OverPass. Dalam bab ini kita
+akan memeriksa beberapa fungsi dasar dari OverPass API, dan melihat bagaimana ini dapat digunakan
+untuk mengakses data pada query tertentu.
 
-Note that this functionality is something that can also be achieved by querying a local database,
-or even by filtering raw OSM data with Osmosis. But by providing an internet-based API, OverPass API
-is available for a use as a database backend for different services.
+Catatan bahwa fungsi ini adalah hal yang dapat dicapai dengan mengquery database lokal,
+atau bahkan dengan menyaring data OSM menta dengan Osmosis. Tetapi dengan menyediakan 
+API berbasis internet, OverPass API tersedia untuk digunakan sebagai database cadangan untuk
+layanan yang berbeda.
 
-A Simple Query
---------------
+Query Sederhana
+----------------
 
