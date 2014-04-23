@@ -78,16 +78,14 @@ membantu kita untuk mengidentifikasi objek di permukaan. Citra satelit ini beras
 dari Microsoft Bing, yang dengan murah hati menyediakan citra satelit ini untuk para 
 pengguna OpenStreetMap sebagai referensi sementara dalam berkontribusi untuk pemetaan.
 
-*	Untuk menambahkan citra satelit Bing di JOSM, klik "Imagery" di bagianmenu atas JOSM
+*	Untuk menambahkan citra satelit Bing di JOSM, klik "Imagery" di bagian menu atas JOSM
 	dan pilihlah "Bing Sat".
 
 >	Jika pada menu Imagery Anda tidak muncul Bing Sat, Anda perlu mengaktivasinya
 >	di dalam pengaturan JOSM. Pergilah ke Edit -> Preferences dan klik pada ikon "WMS TMS".
 >	Anda perlu mengklik pada panah bawah untuk menemukannya.
->
 >	![JOSM Preferences up down][]
 >	![JOSM Preferences WMS TMS][]
->
 >	Klik pada "Bing Sat". Kemudian klik "Activate".
 
 ### Mengenal JOSM lebih jauh
@@ -118,7 +116,7 @@ garis yang sejajar dengan garis lainnya.
 Edit 
 ----
 
-Jadi kita telah melengkapi satu langkah proses mengedit - Downloading. Kita telah 
+Jadi kita telah melengkapi satu langkah proses mengedit - Mendownload. Kita telah 
 mempersiapkan JOSM dengan citra satelit sebagai referensinya. Langkah selanjutnya adalah 
 mengedit peta dan menambahkan objek baru. 
 
@@ -145,7 +143,6 @@ yang kita lihat sebelumnya - titik, garis, dan poligon yang mewakili lokasi kehi
 >	Jangan mengedit peta di luar area yang telah Anda download. Anda dapat 
 >	melihat area persegi yang telah Anda download dengan memiliki latar belakang
 >	yang gelap, sementara area Anda yang belum terdownload memiliki garis diagonal.
->
 >	![JOSM area downloaded][]
 
 Menyimpan Perubahan
@@ -188,7 +185,7 @@ perubahan, kita harus terkoneksi dengan internet.
 
 Melihat Perubahan Anda Di Peta
 ------------------------------
-*	Buka browser internet Andan dan pergilah ke [http://openstreetmap.org/](http://openstreetmap.org/)
+*	Buka browser internet Anda dan pergilah ke [http://openstreetmap.org/](http://openstreetmap.org/)
 *	Pindahkan peta ke area yang Anda telah edit.
 *	Anda seharusnya dapat melihat perubahan Anda yang akan muncul di peta! Jika
 	tidak, coba menekan CTRL+R untuk merefresh halaman situs. Biasanya peta tidak

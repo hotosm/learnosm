@@ -147,7 +147,7 @@ Latihan Dasar Menggambar dengan JOSM
 	perbedaannya poligon terdiri dari beberapa garis yang membentuk dimana titik akhir 
 	berada sama dengan titik awal garis tersebut.
 
->	Sangat mudah berpikir tentang peta yang berisi tiga jenis onjek dasar -
+>	Sangat mudah berpikir tentang peta yang berisi tiga jenis objek dasar -
 > 	titik, garis, dan poligon. Di OpenStreetMap terdapat istilah khusus 
 >	yang akan Anda pelajari sebagai kemajuan Anda, Di OSM, titik disebut 
 >	**nodes**, dan garis disebut **ways**. Poligon disebut **closed way**

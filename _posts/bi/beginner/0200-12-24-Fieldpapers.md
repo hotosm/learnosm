@@ -22,30 +22,27 @@ Gambaran tentang Field Papers
 Sebelum kita mempelajari lebih jauh tentang Field Papers, mari kita lihat
 gambaran bagaimana Filed Papers bekerja:
 
-1. Carilah wilayah yang Anda ingin petakan di dalam situs OpenStreetMap. 
-Buatlah peta untuk wilayah itu. Anda dapat memilih untuk mencetak peta tersebut
-dengan latar belakang OpenStreetMap atau Anda dapat mencetak dengan latar 
-belakang citra satelit, jika citra tersebut tersedia di wilayah Anda.
+*	Carilah wilayah yang Anda ingin petakan di dalam situs OpenStreetMap. 
+	Buatlah peta untuk wilayah itu. Anda dapat memilih untuk mencetak peta tersebut
+	dengan latar belakang OpenStreetMap atau Anda dapat mencetak dengan latar 
+	belakang citra satelit, jika citra tersebut tersedia di wilayah Anda.
+	![field papers homepage][]
 
-![field papers homepage][]
+* 	Gunakan Field Papers yang telah dicetak untuk melakukan survey pada wilayah
+	Anda. Tambahkan lebih banyak tempat dengan menggambarnya di atas peta. 
+	Gambarlah garis untuk jalan, poligon untuk bangunan, dan seterusnya. Menulis
+	catatan setiap lokasi secara langsung pada peta, atau menulis angka pada peta 
+	untuk menghubungkan gambar dengan kode pada catatan, dimana Anda dapat menulis
+	informasinya lebih rinci pada setiap objeknya.
+	![paper example][]
 
-2. Gunakan Field Papers yang telah dicetak untuk melakukan survey pada wilayah
-Anda. Tambahkan lebih banyak tempat dengan menggambarnya di atas peta. 
-Gambarlah garis untuk jalan, poligon untuk bangunan, dan seterusnya. Menulis
-catatan setiap lokasi secara langsung pada peta, atau menulis angka pada peta 
-untuk menghubungkan gambar dengan kode pada catatan, dimana Anda dapat menulis
-informasinya lebih rinci pada setiap objeknya.
+* 	Scan Field Papers Anda ke dalam komputer. Jika Anda tidak memiliki sebuah
+	scanner, Anda dapat mengambil foto Field Papers tersebut, jika kamera Anda 
+	dapat mengambil gambar dengan resolusi tinggi. Upload gambar ke situs Field Papers.
 
-![paper example][]
-
-3. Scan Field Papers Anda ke dalam komputer. Jika Anda tidak memiliki sebuah
-scanner, Anda dapat mengambil foto Field Papers tersebut, jika kamera Anda 
-dapat mengambil gambar dengan resolusi tinggi. Upload gambar ke situs Field Papers.
-
-4. Pada JOSM, tambahkan Field Papers. Gunakan objek yang telah Anda gambar sebagai
-acuan untuk menambahkan objek-objek tersebut menjadi peta digital ke dalam OpenStreetMap. 
-
-![fieldpaperjosm][]
+* 	Pada JOSM, tambahkan Field Papers. Gunakan objek yang telah Anda gambar sebagai
+	acuan untuk menambahkan objek-objek tersebut menjadi peta digital ke dalam OpenStreetMap. 
+	![fieldpaperjosm][]
 
 Bagaimana Field Papers Bekerja?
 -------------------------------

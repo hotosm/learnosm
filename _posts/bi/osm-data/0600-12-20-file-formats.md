@@ -43,7 +43,7 @@ analisis dan mendesain peta tidaklah mudah. Namun, Anda lebih baik mengkonversi 
 ke format lain, atau mendapatkannya dari layanan yang mengkonversi data Anda. 
 
 >	Data mentah OSM disimpan di dalam file **.osm**, tetapi mungkin Anda melihat juga file
->	berakhiran **.bz2** dan **.pbf**. Ini dasarnya file **.osm** yang telah dikompres
+>	berakhiran **.bz2** dan **.pbf**. Ini adalah file dasar **.osm** yang telah dikompres
 >	untuk menghemat ruang, yang dapat sangat membantu ketika bekerja dengan file data yang besar
 
 Shapefile
@@ -68,7 +68,7 @@ dengan shapefile yang didefinisikan melalui struktur tabel, yang mungkin terliha
 ![shapefile attributes][]
 
 Data OpenStreetMap dapat dikonversi ke dalam shapefile. Berbagai macam situs menyediakan shapefile
-yang dikonversi daari data OSM. Hal ini akan dibahas di [bab selanjutnya](/en/osm-data/getting-data).
+yang dikonversi daari data OSM. Hal ini akan dibahas di [bab selanjutnya](/bi/osm-data/getting-data).
 
 Database
 ---------

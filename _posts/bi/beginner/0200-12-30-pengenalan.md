@@ -10,8 +10,8 @@ Pengenalan OpenStreetMap
 ========================
 
 Informasi adalah salah satu bagian terpenting. Dengan infromasi yang baik dan pemahaman yang
-tepat, individu dan komunitas mampu mengembangkan kehidupannya ke a
-rah yang lebih baik dan membuat keputusan yang baik di masa depan.
+tepat, individu dan komunitas mampu mengembangkan kehidupannya ke arah yang lebih baik dan 
+membuat keputusan yang baik di masa depan.
 Banyak orang dan organisasi yang membuat keputusan dimana keputusan
 tersebut mempengaruhi kehidupan kita. Informasi yang baik dapat
 mempengaruhi LSM, pemerintah dan masyarakat untuk membuat keputusan yang

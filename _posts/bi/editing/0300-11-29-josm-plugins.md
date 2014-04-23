@@ -76,8 +76,8 @@ Beberapa plugin yang sering kita gunakan adalah:
 - [Editgpx]({{site.baseurl}}/en/beginner/josm-plugins/#edit-gpx) (allows you to edit GPX files)
 - [Print]({{site.baseurl}}/en/beginner/josm-plugins/#print)
 
-We also recommend downloading these plug-ins, which are covered in other
-chapters:
+Kami juga merekomendasikan kepada Anda untuk mendownload plug-in ini, akan dibahas
+dalam bab lainnya:
 
 - FieldPapers
 - Buildings\_tool
@@ -85,220 +85,218 @@ chapters:
 
 ![Restart JOSM][]
 
-Try clicking “Restart JOSM” and watch the software reload on its own.
+Coba klik “Restart JOSM” dan melihat perangkat lunak memuat ulang sendiri.
 
 Mirrored Download
 -----------------
 
 ![Mirrored Download][]
 
-__Mirrored Download__ will make downloading OSM
-data for editing faster. Instead of getting the data from the central
-OSM server, it allows us to get it from a “mirror,” which is an exact
-replica of the data but in a location that is faster to access it.
+__Mirrored Download__ akan mendownload data OSM untuk menegedit lebih cepat.
+Bukannya mendapatkan data dari server OSM pusat, ini memungkinkan kita 
+mendapatkannya dari “mirror,” ini merupakan replika yang tepat dari data 
+tetapi di lokasi yang lebih cepat untuk mengaksesnya.
 
-Once the plugin is installed (and you have restarted JOSM), you will see
-another new entry on the File Menu, “Download from OSM mirror...”
+Setelah plugin terinstal (dan Anda telah merestart JOSM), Anda akan melihat
+entri baru yang lain pada Menu File, “Download from OSM mirror...”
 
 ![Download from OSM Mirror][]
 
-Downloading data is exactly the same process you learned before, but it
-can be much faster!
+Mendownload data adalah proses yang sama seperti dipelajari sebelumnya, 
+tetapi ini jauh lebih cepat!
 
 Direct Upload
 -------------
 
 ![Direct Upload][]
 
-__DirectUpload__ uploads GPX tracks directly to OSM
-through JOSM (more information is available in the **Appendix**). Once
-the plug-in is installed (and you have restarted JOSM), you will see
-anew “Upload traces” item under the “Tools” Menu.
+__DirectUpload__ mengupload trek GPX secara langsung ke OSM melalui JOSM
+(informasi lebih lanjut tersedia di **Lampiran**). Setelah plug-in terinstal
+(dan Anda telah merestart JOSM), Anda akan melihat item baru “Upload traces”
+di bawah menu “Tools”.
 
 ![Upload Traces Item][]
 
-When you click on the “Upload Traces” button this window will pop up:
+Ketika Anda klik pada tombol “Upload Traces”, jendela ini akan muncul:
 
 ![Upload Traces Window][]
 
-Put keywords (seperated by commas without spaces) that relate to your
-GPS trace in the "Tags (comma delimited)" box. For example,
-"Country,region,city,neighborhood,road name". Next, provide a
-description of your tags. A drop-down list will allow you to reuse
-former tags and descriptions. Lastly, choose what type of visibility you
-would like your track to have. There are four levels from private to
-identifiable (all explained below in the [Appendix]{{site.baseurl}}/learnosm/en/).
+Masukkan kata kunci (terpisah oleh koma tanpa spasi) yang berhubungan
+dengan trek GPS di kotak "Tags (dipisahkan koma). Sebagai contoh, 
+"Country,region,city,neighborhood,road name". Selanjutnya, memberikan
+deskripsi dari tag Anda. Daftar pilihan akan memungkinkan Anda menggunakan
+kembali tag awal dan deskripsi. Terakhir, memilih jenis tampilan yang ingin
+Anda miliki. Terdapat empat tingkatan dari pribadi untuk diidentifikasi 
+(semua dijelakan di bawah pada [Lampiran]{{site.baseurl}}/learnosm/en/).
 
-Click on Upload Trace. If you are not connected to your OSM account, you
-will have to do it now.
+Klik pada Upload Trace, jika Anda tidak terhubung ke akun OSM Anda, Anda
+harus melakukannya sekarang.
 
-Once successfully uploaded, the Text area will display an "OK" status
-and the “Upload Trace” button will not be clickable. More information
-about this plug-in and GPS uploads is available in the [Appendix]({{site.baseurl}}/learnosm/en/).
+Setelah berhasil upload, area teks akan menampilkan status "OK" dan 
+tombol “Upload Trace” tidak akan diklik. Informasi lebih lanjut mengenai
+plug-in ini dan GPS upload tersedia di [Lampiran]({{site.baseurl}}/learnosm/en/).
 
 Edit gpx
 --------
 
 ![Edit Gpx][]
 
-**EditGpx** allows you to prepare recorded GPX tracks
-before uploading them to OSM. Often tracks have parts that you would
-like to remove. Therefore, this plug-in delete points of tracks in a
-speedy manner and creates anonymity for timestamps of a track.
+**EditGpx** memungkinkan Anda untuk mempersiapkan rekaman trek GPX 
+sebelum mengupload mereka ke OSM. Sering kali trek memiliki bagian-bagian
+yang Anda ingin hapus. Oleh karena itu, plug-in ini menghapus titik-titik
+trek dengan cara cepat dan membuat namanya untuk jejak waktu trek.
 
-Once the plug-in is installed (and you have restarted JOSM), you will
-see this new tool in the tool bar on the left.
+Setelah plug-in terinstal (dan Anda telah merestart JOSM), Anda akan
+melihat tool baru ini di tool bar pada bagian kiri.
 
-![Edit Gpx Tool Icon][]
-
-1. Open a GPX file in JOSM!
-
-![Open GPX File][]
-
-2. Press the new button in the left menu bar 
 
 ![Edit Gpx Tool Icon][]
 
-and the GPX data will be imported to a new EditGpx layer. Every
-node of the track will be highlighted in yellow.
+1.	Buka file GPX di JOSM!
 
-![GPX Nodes All][]
+	![Open GPX File][]
 
-3. Now mark the points (by clicking) or areas (by drawing a rectangle on
-their extent) that you would like to delete. The yellow highlighting
-should disappear.
+2.	Tekan tombol baru di menu bar sebelah kiri
 
-![GPX Nodes Selected][]
+	![Edit Gpx Tool Icon][]
 
-4. Right click on the layer name and choose \<\<Convert to GPX layer\>\> in
-the \<\<Context\>\> menu.
+	dan data GPX akan diimport ke layer baru EditGpx. Setiap node 
+	pada trek akan disorot berwarna kuning.
 
-5. Now you can save the normal GPX layer as a file or upload the data to
-OSM (eg by using the
-plugin [DirectUpload](http://josm.openstreetmap.de/wiki/Plugins)).
+	![GPX Nodes All][]
+
+3.	Sekarang tandai titik (dengan mengklik) atau area (dengan menggambar 
+	persegi panjang pada batas mereka) yang ingin Anda hapus. Highlight
+	kuning akan hilang.
+
+	![GPX Nodes Selected][]
+
+4.	Klik kanan pada nama layer dan pilih \<\<Convert to GPX layer\>\> pada menu
+	\<\<Context\>\> 
+
+5.	Sekarang Anda dapat menyimpan layer GPX normal sebagai file atau
+	mengupload data ke OSM (misalnya dengan menggunakan plugin
+	[DirectUpload](http://josm.openstreetmap.de/wiki/Plugins)).
 
 Print
 -----
 
 ![Print Plugin][]
 
-If you want a quick an easy way to print a map while you are editing in
-JOSM, install the __print plugin__. Although you won’t be able to
-do anything stylistic with your printout, this is a good way for a quick
-and easy print. Once the plugin is installed, a new item will be
-available on the File menu called “Print...”
+Jika Anda ingin cara mudah dan cepat untuk mencetak peta ketika Anda
+mengedit di JOSM, instal __print plugin__. Meskipun Anda tidak dapat
+melakukan apapun dengan cetakan Anda, ini adalah cara yang bagus untuk 
+mencetak dengan cepat dan mudah. Setelah plugin terinstal, item baru akan
+tersedia di menu File bernama “Print...”
 
 ![Print Menu Item][]
 
-Clicking this will open the Print Dialog, which looks like this:
+Mengklik ini akan membuka Print Dialog, yang terlihat seperti ini:
 
 ![Print Dialog][]
 
-Here you can change your printer settings. If you don’t see anything on
-the page, check the box next to “Map Preview” on the right. Zoom in or
-out on the map by changing the number in the “Scale” box. Increase the
-resolution by changing the number next to “ppi”. When you have finished
-editing the settings, click “Print.”
+Disini Anda dapat mengubah pengaturan printer Anda. Jika Anda tidak melihat
+apapun di halaman, centang kotak di samping “Map Preview” pada bagian kanan.
+Perbesar atau perkecil peta dengan mengubah angka di kotak “Scale”. Meningkatkan
+resolusi dengan mengubah angka di samping “ppi”. Ketika Abda telah selesai
+mengedit pengaturan, klik “Print.”
 
-Summary
--------
+Ringkasan
+----------
 
-These are some useful plugins that are available for JOSM. Feel free to
-continue exploring the many other plugins. As you have already seen, the
-Preferences menu has a short description of each plugin, and you can
-open a web page with more information by clicking on the “More info...”
-link next to each.
+Ini adalah beberapa plugin yang tersedia dan bermanfaat untuk JOSM. Jangan
+ragu untuk melanjutkan eksplorasi plugin yang lain. Seperti yang Anda lihat,
+menu Preferences memiliki deskripsi singkat dari setiap plugin, dan Anda dapat
+membuaka halaman situs dengan informasi yang lebih dengan mengklik pada link
+“More info...” 
 
 ![More Info Link][]
 
 Good luck!
 
-Appendix
---------
+Lampiran
+---------
 
-DirectUpload Details
+Rincian DirectUpload
 --------------------
 
 ![Direct Upload Plugin][]
 
-Adding your GPS tracks and waypoints to the OSM Server is useful for
-many reasons.
-__(If you do not want your GPX points to be seen by anyone else you do not have to read this section.  You can simply display your GPX files from JOSM, and therefore store them locally)._
-First of all, GPS tracks are the most useful way of collecting and
-georeferencing objects in OSM.
-(See [Chapter 6.5: Aerial Imagery Considerations](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit))
-GPS units have greater accuracy than satellite imagery and therefore are
-a useful tool for checking how offset imagery may be. Using many GPS
-tracks (the greater the number of tracks the greater the ability to
-determine geolocation accuracy) allows you to determine if background
-imagery may be misaligned.
+Menambah trek dan waypoint GPS Anda ke Server OSM berguna untuk banyak
+alasan. 
+__(Jika Anda tidak ingin titik GPX Anda terlihat oleh siapa pun, Anda tidak
+harus membaca sesi ini. Anda dapat menampilkan file GPX Anda dari JOSM, dan 
+menyimpan mereka secara lokal)._
+Pertama-tama, trek GPS adalah cara yang paling bermanfaat dalam mengumpulkan
+dan georeferensi objek di OSM.
+(Lihat [Bab 6.5: Pertimbangan Citra Aerial](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit))
+unit GPS memiliki akurasi yang lebih besar dari citra satelit dan ini merupakan
+tool yang berguna untuk memeriksa citra offset. Menggunakan banyak trek GPS
+(semakin besar jumlah trek maka semakin besar kemampuan untuk menentukan 
+akurasi geolocation) memungkinkan Anda menentukan apakah latar belakang
+citra dapat sejajar.
 
-Uploading tracks to the server permits greater sharing of information.
-It allows people who do not have access to the field, simply because
-they do not live in that area or they do not have access to a GPS
-devices, to help with digitizing. There are two ways to upload your
-traces: 1) JOSM Plugin or 2) on the main OSM website.
+Mengupload trek ke server memungkinkan berbagi informasi yang lebih besar.
+Ini memungkinkan orang-orang yang tidak memiliki akses ke field, hanya
+karena mereka tidak tinggal di area itu atau mereka tidak memiliki akses 
+ke perangkat GPS, membantu dengan mendijitasi. Ada dua cara mengupload:
+1) Plugin JOSM atau 2) situs OSM utama.
 
-> Note: GPS waypoints cannot be uploaded to the OSM database directly.
-> However, they can be converted to tracks and then be uploaded temporarily,
-> for example, so they can be displayed as background objects in Potlatch.
+> Catatan: Waypoint GPS tidak dapat mengupload ke database OSM secara langsung.
+> Bagaimana pun, mereka dapat dikonversi ke trek dan kemudian diupload sementara,
+> contohnya, mereka dapat ditampilkan sebagai latar belakang objek di Potlatch.
 
-After you have opened your GPX file in JOSM and clicked Go to
-"Tools" and click "Upload traces". Describe the GPX file,
-write some tags, and visibility. For visibility, you can choose whether
-private, trackable, public or identifable.
+Setelah Anda membuka file GPX Anda di JOSM dan klik ke "Tools" dan klik "Upload traces".
+Jelaskan file GPX, tuliskan beberapa tag, dan visibilitas. Untuk visibilitas, Anda
+dapat memilih apakah pribadi, dilacak, publik atau diidentifikasi.
 
-1.  **Identifiable**: Your trace will be shown publicly in Your
-    GPS**traces and in the public GPS traces list. Other users can
-    download the raw trace and connect it with your username. Timestamps
-    of the tracks points will also be available through the public GPS
-    API.
+1.  **Diidentifikasi**: Trek Anda akan ditampilkan untuk umum di trek GPS Anda
+	dan di daftar trek GPS umum. Pengguna lain dapat mendownload trek mentah
+	dan menghubungkannya dengan nama pengguna Anda. Jejak waktu dari titik
+	trek juga akan tersedia melalui API GPS umum.
 
-2.  **Public**: Your trace will be shown publicly in Your GPS**traces
-    and in the public GPS traces list. Other users are still able to
-    download the raw trace from the public trace list and any timestamps
-    contained within. However, data shown in the API does not reference
-    your trace page, nor are the timestamps available, though the points
-    are chronically ordered.
+2.  **Publik**: Trek Anda akan ditampilkan ke publik di trek GPS Anda
+	dan di daftar trek GPS umum. Pengguna lain tetap dapat mendownload trek mentah
+	dari daftar trek umum dan setiap jejak waktu terkandung di dalamnya.
+	Namun, data ditampilkan di API tidak bereferensi halaman trek Anda, 
+	tidak pula jejak waktu yang tersedia, meskipun titik secara kronis 
+	memerintahkan.
 
-1.  **Trackable**: The trace will **not** show up in any public
-    listings, but the trackpoints will still be available through the
-    public GPS API **with timestamps**. Other users will be able
-    to download the trackpoints but these will not be associated with
-    you.
+3.  **Trackable**: Trek **tidak** akan muncul di setiap daftar umum, tetapi
+	titik trek akan tetap tersedia melalui API GPS publik **dengan jejak waktu**.
+	Pengguna lain akan dapat mendownload titik trek tetapi ini tidak akan
+	dihubungkan dengan Anda.
 
-2.  **Private**: The trace will **not** show up in any public
-    listings. Trackpoints will be available in timeline order through
-    the public GPS API **without timestamps**.
+4.  **Pribadi**: Trek **tidak** akan muncul di setiap daftar umum. Titik trek akan
+	tersedia di timeline melalui API GPS publik **tanpa jejak waktu**.
+	
+	![DirectUpload Traces Options][]
 
-![DirectUpload Traces Options][]
-
-Uploading GPS Traces Online
+Mengupload Trek GPS Online
 ---------------------------
 
-1. Go
-to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
+1.	Pergilah ke [http://www.openstreetmap.org/](http://www.openstreetmap.org/) dan log in.
 
-2. Select "GPS Traces" found on the left banner.
+2.	Pilih "GPS Traces" ditemukan pada banner sebelah kiri.
 
-![Left Banner][]
+	![Left Banner][]
 
-3. Select
-[upload a trace](http://www.openstreetmap.org/trace/create).
-Here, you can also  **See just your traces** to review previous GPS tracks.  
+3.	Pilih [upload a trace](http://www.openstreetmap.org/trace/create).
+	Disini, Anda juga dapat **melihat trek Anda** untuk meninjau trek GPS sebelumnya.
 
-4. Find your file in "Choose File". Label it in the Description
-box, give it some Tags, and chose what type of Visibility it will have.
-If you have many .gpx files you can compress them into a zip archive and
-upload it. It will be treated as one large gpx file and only one entry
-on the trace list will be created. 
+4.	Carilah file Anda di "Choose File". Label dalam kotak Deskripsi, memberikan
+	beberapa Tag, dan pilih jenis Visibilitas yang akan digunakan. Jika Anda
+	memiliki banyak file .gpx Anda dapat kompres mereka ke dalam arsip zip dan 
+	uploadlah. Ini akan dianggap sebagai satu file gpx besar dan hanya satu
+	entri pada daftar trek yang akan dibuat.
 
-![Online Upload Traces Options][]
+	![Online Upload Traces Options][]
 
-5. Click *Upload*.
+5.	Klik *Upload*.
 
-  The file will be uploaded to the OSM server, where it will join the
-queue of files waiting to be inserted into the database.
+File akan diupload ke server OSM, dimana hal ini akan digabung dengan antrian file-file
+yang menunggu untuk dimasukkan ke dalam database.
+
 
 [Plug Icon]: /images/en/editing/josm-plugins/en_beg_04_josm-plugins_image00_plug-icon.png
 [Restart JOSM]: /images/en/editing/josm-plugins/en_beg_04_josm-plugins_image01_restart-josm.png

@@ -16,7 +16,7 @@ digunakan.
 
 Pada bab ini kita akan melalui langkah-langkah yang diperlukan untuk melakukan ini. 
 Kita asumsikan bahwa Anda sudah mendownload dan menginstal QGIS 2.x. Jika Anda belum
-menginstalnya, Anda dapat mendownloadnya [disini]http://www.qgis.org/en/site/forusers/download.html).
+menginstalnya, Anda dapat mendownloadnya [disini](http://www.qgis.org/en/site/forusers/download.html).
 
 Pada bab ini kita akan melakukan beberapa langkah untuk mendapatkan penyesuaian kita,
 perbaruan layer OSMdimuat di dalam QGIS. Pertama, kita akan mendapatkan data OSM terbaru
@@ -32,7 +32,7 @@ Hal pertama yang kita akan lakukan adalah mendapatkan beberapa data OSM terbaru.
 melakukan ini dengan berbagai cara. Tentu saja, meminta data dari server OSM, seperti 
 yang kita lakukan di JOSM, dimaksudkan bahwa kita tidak dapat menarik data dengan jumlah
 besar - namun, terdapat cara lain untuk mengakses data, seperti yang dideskripsikan pada
-[bab sebelumnya](/en/osm-data/getting-data).
+[bab sebelumnya](/bi/osm-data/getting-data).
 
 Mari kita mendownload fungsi yang dibangun di QGIS, karena kita akan bekerja dengan QGIS 
 di sisa bab ini. Fungsi download tidak terlalu nyaman untuk menulis ini, tetapi tujuan

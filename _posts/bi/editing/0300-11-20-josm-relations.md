@@ -8,7 +8,7 @@ category: editing
 
 Relasi
 ==========
-Dalam [Panduan Beginner](/bi/beginner) kita telah menjelaskan bahwa terdapat tiga jenis
+Dalam [Panduan Tingkat Dasar](/bi/beginner) kita telah menjelaskan bahwa terdapat tiga jenis
 objek yang dapat digambar di OpenStreetMap - titik (node), garis (way), dan poligon 
 (closed way). Garis berisi banyak titik, dan garis itu sendiri membawa atribut yang 
 mendefinisikan apa yang diwakilinya. Poligon adalah sama seperti garis, kecuali garis

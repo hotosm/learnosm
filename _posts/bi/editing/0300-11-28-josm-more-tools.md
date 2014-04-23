@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Tool Lainnya
+title: Tool JOSM Lainnya
 permalink: /bi/editing/more-tools/
 lang: bi
 category: editing

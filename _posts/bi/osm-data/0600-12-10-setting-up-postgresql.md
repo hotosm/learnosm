@@ -208,9 +208,9 @@ ke dalam database.
 	
 Ringkasan
 ---------
-Sekarang Anda teah melihat bagaimana melakukan pengaturan PsogreSQL dan PostGIS, serta bagaimana
+Sekarang Anda teah melihat bagaimana melakukan pengaturan PostgreSQL dan PostGIS, serta bagaimana
 membuat database baru, Anda siap untuk mencoba utilitas yang memungkinkan kita mengimport data
-OSM ke dalam database. Kita akan melihat ini pada [bab selanjutnya](/en/osm-data/osm2pgsql).
+OSM ke dalam database. Kita akan melihat ini pada [bab selanjutnya](/bi/osm-data/osm2pgsql).
 
 
 [postgresql website]: /images/en/osm-data/setting-up-postgresql/postgresql-website.png

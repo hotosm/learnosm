@@ -96,7 +96,7 @@ menggunakan data GPS Anda, Field Papers, catatan, atau kombinasi dari mereka sem
 Tag
 ---
 Ketika Anda menggambar sebuah titik, garis, atau poligon, memiliki lokasi, tetapi tidak ada informasi
-tentangnya. Dengan kata lain, kita tahu **dimana* lokasinya, tetapi tidak tahu **apa** informasinya.
+tentangnya. Dengan kata lain, kita tahu **dimana** lokasinya, tetapi tidak tahu **apa** informasinya.
 Sekarang, kita telah menggunakan item dari menu Preset untuk mendefinisikan **apa** itu. Cara OpenStreetMap
 untuk mengetahui objek **apa** dengan menggunakan **tag**.
 
@@ -118,7 +118,7 @@ panel Properties di sebelah kanan.
 ![Properties panel][]
 	
 ### Mengedit Tag
-Anda dapat menambah, mengedit, dan menghapus tag dari panel Properties. Namun, tag secara tradisional 
+Anda dapat menambah, mengedit, dan menghapus tag dari panel Properties. Namun, tag secara manual 
 dalam bahasa Inggris dan kadang-kadang dapat membingungkan, sehingga sering lebih mudah menggunakan
 menu Preset. Ketika Anda menambah atau mengubah tag, atribut objek berubah.
 
@@ -153,7 +153,7 @@ Anda ingin mengedit, pada kasus lain pengguna telah membuat perubahan pada wilay
 
 Meskipun Anda harus selalu mencoba untuk mendownload data OSM ketika Anda siap untuk mengedit, dan upload
 perubahan Anda sesering mungkin, terdapat kasus dimana Anda ingin menyimpan data OSM pada komputer Anda.
-Misalnya, jika Anda memiliki konektivitas berselangke internet, Anda mungkin berharap untuk mendownload data,
+Misalnya, jika Anda memiliki konektivitas ke internet, Anda mungkin berharap untuk mendownload data,
 menyimpannya, mengedit, dan kemudiam mengupload perubahan Anda nanti.
 
 *	Untuk menyimpan file OSM, pastikan bahwa itu adalah layer aktif di panel Layers. Klik "File" pada menu

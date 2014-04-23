@@ -70,7 +70,7 @@ panjang.
 Karena masalah ini, semua piksel pada foto udara tidak sempurna ditempatkan.
 
 Untungnya, beberapa orang cerdas telah merancang algoritma untuk memecahkan masalah ini,
-sehingga citra yang Anda lihat pada Bng sangat dekat untuk menjadi akurat. Di kebanyakan
+sehingga citra yang Anda lihat pada Bing sangat dekat untuk menjadi akurat. Di kebanyakan
 tempat itu tidak akan salah sama sekali - dan itu pasti sangat baik untuk dilakukan pemetaan.
 Daerah yang paling umum pada citra tidak akurat terletak pada perbukitan, daerah pegunungan.
 Pada [bab selanjutnya](/bi/editing/correcting-imagery-offset) kita akan melihat bagaimana

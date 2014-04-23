@@ -183,9 +183,8 @@ di JOSM.
 
 Salah satu cara untuk menyalin waypoint dan trek adalah Anda dapat
 menggunakan perangkat lunak gratis yang disediakan Garmin, bernama 
-BaseCamp. Perangkat lunak ini dapat didownload [disini] 
-(http://www.garmin.com/en-US/shop/downloads/basecamp). Namun, pada
-bab ini kita akan menggunakan sebuah program bernama GPSBabel, yang
+BaseCamp. Perangkat lunak ini dapat didownload [disini](http://www.garmin.com/en-US/shop/downloads/basecamp). 
+Namun, pada bab ini kita akan menggunakan sebuah program bernama GPSBabel, yang
 menawarkan beberapa fitur tambahan. 
 
 ### Menghubungkan GPS ke Komputer
@@ -200,8 +199,7 @@ menawarkan beberapa fitur tambahan.
 ### Menginstal Driver GPS
 
 *	Anda mungkin perlu untuk melakukan instalasi driver GPS pada komputer
-	Anda. Anda dapat mendownload driver ini di [Situs Garmin] 
-	(http://www8.garmin.com/support/download_details.jsp?id=591).
+	Anda. Anda dapat mendownload driver ini di [Situs Garmin](http://www8.garmin.com/support/download_details.jsp?id=591)
 *	Klik "Download" untuk mendapatkan file instalasi. Letakan file tersebut
 	pada komputer Anda, dan klik dua kali untuk menginstal.
 *	Jika Anda tidak dapat mendownload dari situs Garmin, Anda juga dapat mendownload
@@ -227,7 +225,7 @@ menawarkan beberapa fitur tambahan.
 
 ### Melakukan Instalasi GPSBabel
 
-*	Cari file pengaturan GPSBabel pada komputer Anda. Klik ganda untuk
+*	Cari file pengaturan GPSBabel pada komputer Anda. Klik dua kali untuk
 	menginstall.
 *	Klik "Next".
 *	Klik "I accept" dan "Next".

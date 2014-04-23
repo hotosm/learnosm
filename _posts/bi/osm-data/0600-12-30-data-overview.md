@@ -53,8 +53,6 @@ Pada bab selanjutnya kita akan melihat lebih dekat mengenai format file yang dih
 dengan OpenStreetMap dan data geografis secara umum. Kemudian kita akan melihat berbagi macam
 cara untuk mengakses dan memanipulasi data OSM dan mengkonversinya antar tipe file yang berbeda.
 
-<!--
-
 Mendapatkan Data
 -----------------
 
