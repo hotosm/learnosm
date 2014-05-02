@@ -80,3 +80,11 @@ translations:
     feedbackspan: "War dieses Kapitel hilfreich?"
     feedback: "Sende uns Feedback und verbessere die Anleitungen!"
     getstarted: "weiter zum nächsten Kapitel"
+  hr:
+    tagline: "Naučite OpenStreetMap korak po korak"
+    contribute: "Pomozite poboljšati naša uputstva"
+    trainingspan: "Organizirate li radionicu?"
+    training: "Vidi trening materijale za ovaa uputstva(na engleskom)"
+    feedbackspan: "Jeli ovo poglavlje bilo korisno?"
+    feedback: "Javite nam i pomozite nam poboljšati uputstva!"
+    getstarted: "Počnite"
