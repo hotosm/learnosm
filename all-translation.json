@@ -110,7 +110,7 @@
 	"lang":"hr",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'pt' %}
+	  {% if {{post.lang}} == 'hr' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
