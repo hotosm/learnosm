@@ -4,7 +4,7 @@ permalink: /hr/contribute/
 lang: hr
 title: Pridonesi
 contributetitle: "Pomozi popraviti naša uputstva"
-startwith: "Spremni početi?"
+startwith: "Spremni započeti?"
 startA: "Javi nam svoje primjedbee"
 startB: "Kreiraj prijevod"
 startC: "Poboljšaj prijevod"
