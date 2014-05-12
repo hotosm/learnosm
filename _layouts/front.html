@@ -2,20 +2,20 @@
 layout: default
 ---
 <div id='ads' class='marginL cell9 padAll'>
-  <div class='ad1 cell8'>
+  <div class='ad1 cell8 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
     <a href='{{site.baseurl}}/{{page.lang}}/beginner'>
       <span class='ad-title'>{{ page.begspan }}</span>
       <span class='ad-txt'>{{ page.beg }}</span>
       <span class='door'></span>
     </a>
   </div>
-  <div class='ad2 cell4'>
+  <div class='ad2 cell4 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
     <a href='{{page.interspanlink}}'>
       <span class='ad-title'>{{page.interspan}}</span>
       <span class='ad-txt'>{{ page.inter }}</span>
     </a>
   </div>
-  <div class='ad3 cell4'>
+  <div class='ad3 cell4 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
     <a href='{{page.interspanlink}}'>
       <span class='ad-title'>{{page.advspan}}</span>
       <span class='ad-txt'>{{page.adv}}</span>

@@ -700,3 +700,7 @@ a.license {
   #footer {padding-left:15px;}
   a.license {left:250px;top:10px;}
   }
+
+.no-capitalize a {
+  text-transform: none !important;
+}
