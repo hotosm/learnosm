@@ -32,50 +32,66 @@ To see how the tasking manager works, let’s take a closer look.
     [tasks.hotosm.org](http://tasks.hotosm.org). You will see a page
     like this:
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image01.png)
+![Tasking Manager Login][]
 
 -   Click “Log in using your OpenStreetMap account \>\>”
 -   Here you are agreeing to allow this application some access to your
     OpenStreetMap account.  Click “Save Changes.”
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image04.png)
+![Authorizing access to OSM account by the Tasking Manager][]
 
 -   Now you will see the current list of projects.  These are different
-    places that people are coordinating to map.
+    places that people are coordinating to map.  There are three job
+    categorized that you can access:
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image06.png)
+ 1. All jobs: showing all jobs that available in OSM Tasking Manager.
+ 2. Featured jobs: showing only featured jobs that available in OSM Tasking Manager.
+ 3. My jobs: showing only your jobs that you have created (if you are an
+    admin).
 
--   Click on one of the projects to see more information about it.
+![List of jobs][]
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image03.png)
+-   Click on one of the projects title to see more information about it.
+
+![Job description][]
 
 -   This page shows you everything you need to know about the project.
      On the left side of the page is a description of the mapping
     project and how it is being organized.  You can click on the
     different tabs to get more information.  On the right side is a grid
     showing the area to be mapped.  Red grid squares have been
-    completed, green squares have been completed and checked by another
-    person, and the remaining squares still need to be mapped or are
-    being worked on.  By clicking on the “Workflow” tab, you can get
-    information about how collaborators are meant to help map.  By
-    clicking on “Task,” you can take a grid square to work on yourself.
+    completed, green squares have been completed and “validated” by
+    another person, and the remaining squares still need to be mapped or
+    are being worked on.  By clicking on the “Workflow” tab, you can get
+    information about how collaborators are meant to help map. Clicking
+    on the “Users” tab will shows OSM user that working on the task, and
+    clicking “Stats” tab will show statistic of the task.
+-   To pick a task, you can click a square on the map. Or you can click
+    “Task” tab and pick a task randomly.
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image07.png)
-    
--   Here you see a view of the square that you have offered to map.  You
-    can automatically open the area up for editing with JOSM, Potlatch
-    2, or create a Walking Paper.
--   If you plan to edit with JOSM, you need to enable a JOSM plugin
-    before you will be able to launch the application from the Tasking
-    Manager.  To do this, open JOSM and go the Preferences menu.  Click
-    on the “Remote Settings” tab and check the box next to “Enable
-    remote control.”  Restart JOSM.
+![Picking a task][]
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image05.png)
+![Assigned task square][]
+
+-   After you pick a square, here you see a view of the square that you
+    are assigned to map. Click “Yes, I want to work on this task” to
+    lock the square. You can automatically open the area for editing
+    with JOSM, iD Editor, Potlatch 2, create a Walking Papers, or
+    download the .osm / .gpx file.
+-   If you plan to edit with JOSM, you need to open JOSM first with
+    remote control setting enabled before you will be able to launch the
+    application from the Tasking Manager.  To do this, open JOSM and go
+    the Preferences menu.  Click on the “Remote Settings” tab and check
+    the box next to “Enable remote control.”  Restart JOSM.
+
+![Enabling JOSM Remote Control][]
 
 -   Go back to the Tasking Manager and choose JOSM.  If you have JOSM
     open and you correctly enabled the remote control, the grid area of
     the map you selected will automatically be loaded into JOSM.
+
+![Current data from the asigned task loaded JOSM][]
+
 -   You may now edit the area using the instructions provided in the
     project information.  When you are finished, you can return to the
     tasking manager website and add comments about your changes.  Click
@@ -83,7 +99,9 @@ To see how the tasking manager works, let’s take a closer look.
     finished this grid square.  If you were unable to complete the task,
     click “Unlock it” to make it available again for other mappers.
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch5_image00.png)
+![Marking task as done][]
+
+![Adding comment to a completed task][]
 
 -   If you are wondering what happens when you finish an area, the grid
     square will turn red on the map to indicate that is done.  Someone
@@ -92,8 +110,19 @@ To see how the tasking manager works, let’s take a closer look.
     will turn green, meaning it is complete!
 
 Summary
--------
+------------------
 
 The Tasking Manager can be quite useful for mapping an area rapidly and
 ensuring completeness and data quality.  It can be quite helpful in
 managing many various mappers both in one location and around the world.
+
+[Tasking Manager Login]: /images/en/coordination/tasking_manager/tasking_manager_image01.png
+[Authorizing access to OSM account by the Tasking Manager]: /images/en/coordination/tasking_manager/tasking_manager_image03.png
+[List of jobs]: /images/en/coordination/tasking_manager/tasking_manager_image04.png
+[Job description]: /images/en/coordination/tasking_manager/tasking_manager_image05.png
+[Picking a task]: /images/en/coordination/tasking_manager/tasking_manager_image06.png
+[Assigned task square]: /images/en/coordination/tasking_manager/tasking_manager_image07.png
+[Enabling JOSM Remote Control]: /images/en/coordination/tasking_manager/tasking_manager_image08.png
+[Current data from the asigned task loaded JOSM]: /images/en/coordination/tasking_manager/tasking_manager_image09.png
+[Marking task as done]: /images/en/coordination/tasking_manager/tasking_manager_image10.png
+[Adding comment to a completed task]: /images/en/coordination/tasking_manager/tasking_manager_image03.png
