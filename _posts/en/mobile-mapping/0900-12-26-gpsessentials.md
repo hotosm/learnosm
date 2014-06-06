@@ -4,7 +4,7 @@ title: GPS Essentials
 permalink: /en/mobile-mapping/gpsessentials/
 lang: en
 category: mobile-mapping
----
+--- 
 
 
 
@@ -19,7 +19,7 @@ Installation of GPS Essentials
 3. Use the search bar at the top to search for “GPS Essentials”.
 4. Tap the GPS Essentials icon and select "Install". The icon looks like this:
 
-   ![GPSElogo][]
+   ![GPS Essentials logo][]
 
 If you don't have access to Google Play or if you want to download versions other than the stable release
 such as older versions or the latest beta, you can download GPS Essentials from http://www.images.com.
@@ -29,7 +29,7 @@ Configure GPS Essentials to Work Offline
 
 1. Open GPS Essentials. Go to Settings and select Map Cache. Move the cache limit to maximum.
 
-   ![MapCache][]
+   ![Map Cache][]
 
 2. Find a strong network connection. From main screen, select 'Portable Maps'. Every map you view in portable
 map mode automatically saves to the Android's memory. Save maps you will need offline in as much detail as
@@ -43,7 +43,7 @@ GPS feature on Android phone
 
 Before using the GPS Essentials Application, make sure the GPS in your Android phone is enabled.
 
-![GPSfeature][]
+![Enable GPS in Android][]
 
 Acquiring Satellites
 -------------
@@ -56,7 +56,7 @@ To check the satellites in your area:
 
 1. From the main menu, select Satellites.
 
-   ![Satellites][]
+   ![Satellites page][]
 
 2. If there are at least 4 satellites used in fix, then you may start using the GPS Essentials features.
 
@@ -68,7 +68,7 @@ Creating Tracks
 2. Tap on Start from the toolbar. It will create a new track and start recording. Wait some seconds until GPS fix is
 available.
 
-   ![Tracks1][]
+   ![New Track][]
 
 3. Select Pause button to pause recording. If you want to continue recording, press it again.
 
@@ -147,7 +147,7 @@ Portable Maps and Google Maps page as well.
 Saved Photos
 -------------
 
-All your pictures are in the folder com.mictale. /images/en/mobile-mapping/gpsessentials/images on your SD card. You can
+All your pictures are in the folder com.mictale.images on your SD card. You can
 delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder
 regularly to see what’s new.
 
@@ -162,11 +162,11 @@ a single waypoint, select the desired waypoint, click the Options button and sel
 3. The dropdown box will let you select what type of file you want your data to be exported.
 For now, click KML (Google Earth).
 
-   ![Export1][]
+   ![Export file format][]
 
 4. Select the SD card icon to manually select your desired location of the file.
 
-   ![Export2][]
+   ![Export to SD card][]
 
 5. Click this icon to Save.
 
@@ -198,12 +198,11 @@ Exporting/Saving Tracks
 
    ![Arrow][]
 
-
-[GPSElogo]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-Logo.png
-[MapCache]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-mapcache.png
-[GPSfeature]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-GPSenable.png
-[Satellites]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-satellites.png
-[Tracks1]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-newtrackstart.png
+[GPS Essentials logo]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-Logo.png
+[Map Cache]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-mapcache.png
+[Enable GPS in Android]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-GPSenable.png
+[Satellites page]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-satellites.png
+[New Track]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-newtrackstart.png
 [Waypoints1]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-cursor.png
 [Actions]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-actionsbutton.png
 [Waypoints2]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-addwaypoint.png
@@ -212,8 +211,8 @@ Exporting/Saving Tracks
 [Waypointspage2]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-wp.png
 [Waypointspage3]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-map.png
 [Close]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-save.png
-[Export1]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-export.png
-[Export2]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-exportwaypoints.png
+[Export file format]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-export.png
+[Export to SD card]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-exportwaypoints.png
 [Arrow]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-savebutton.png
 [Footprints]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-tracksicon.png
 [Export3]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-sdcardsave.png
