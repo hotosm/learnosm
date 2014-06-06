@@ -50,6 +50,8 @@ Try several of applications that is compatible with your phone to get
 familiar with its interface and choose the best app based on your
 personal preference and mapping approach.
 
+<!-- Commenting for now since tables doesn't look very nice!
+
 Recommended Applications for Smartphones / PDAs
 -----------------------------------------------------
 
@@ -66,10 +68,12 @@ Recommended Applications for Smartphones / PDAs
 
 O - supported, D - under development, m - mapping, n - navigation, p - POI editor, f - full editor
 
+-->
 
 The next sections will guide you through the installation and use of specific applications
 for you to contribute to OpenStreetMap using your smartphones.
 
-Note. Before proceeding any further, verify that GPS is available and
-active for the device. In Android, go to **Settings \> Location** and enable it.
-Remember, GPS don’t work inside buildings!
+>   **Note:** Before proceeding any further, verify that GPS is available and
+>   active for the device. In Android, go to **Settings \> Location** and enable it.
+>   Remember, GPS don’t work inside buildings!
+
