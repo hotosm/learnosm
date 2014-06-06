@@ -7,6 +7,7 @@ category: mobile-mapping
 ---
 
 
+
 GPS Essentials
 ===================
 
@@ -146,7 +147,7 @@ Portable Maps and Google Maps page as well.
 Saved Photos
 -------------
 
-All your pictures are in the folder com.mictale.images/images on your SD card. You can
+All your pictures are in the folder com.mictale. /images/en/mobile-mapping/gpsessentials/images on your SD card. You can
 delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder
 regularly to see what’s new.
 
@@ -197,21 +198,22 @@ Exporting/Saving Tracks
 
    ![Arrow][]
 
-[GPSElogo]: /images/en/mobile-mapping/gpsessentials/Logo.png
-[MapCache]: /images/en/mobile-mapping/gpsessentials/mapcache.png
-[GPSfeature]: /images/en/mobile-mapping/gpsessentials/GPSenable.png
-[Satellites]: /images/en/mobile-mapping/gpsessentials//satellites.png
-[Tracks1]: /images/en/mobile-mapping/gpsessentials//newtrackstart.png
-[Waypoints1]: /images/en/mobile-mapping/gpsessentials//cursor.png
-[Actions]: /images/en/mobile-mapping/gpsessentials//actionsbutton.png
-[Waypoints2]: /images/en/mobile-mapping/gpsessentials//addwaypoint.png
-[GoogleMaps]: /images/en/mobile-mapping/gpsessentials//addwaypointgooglemaps.png
-[Waypointspage1]: /images/en/mobile-mapping/gpsessentials//add.png
-[Waypointspage2]: /images/en/mobile-mapping/gpsessentials//wp.png
-[Waypointspage3]: /images/en/mobile-mapping/gpsessentials//map.png
-[Close]: /images/en/mobile-mapping/gpsessentials//save.png
-[Export1]: /images/en/mobile-mapping/gpsessentials//export.png
-[Export2]: /images/en/mobile-mapping/gpsessentials//exportwaypoints.png
-[Arrow]: /images/en/mobile-mapping/gpsessentials//savebutton.png
-[Footprints]: /images/en/mobile-mapping/gpsessentials//tracksicon.png
-[Export3]: /images/en/mobile-mapping/gpsessentials//sdcardsave.png
+
+[GPSElogo]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-Logo.png
+[MapCache]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-mapcache.png
+[GPSfeature]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-GPSenable.png
+[Satellites]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-satellites.png
+[Tracks1]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-newtrackstart.png
+[Waypoints1]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-cursor.png
+[Actions]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-actionsbutton.png
+[Waypoints2]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-addwaypoint.png
+[GoogleMaps]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-addwaypointgooglemaps.png
+[Waypointspage1]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-add.png
+[Waypointspage2]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-wp.png
+[Waypointspage3]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-map.png
+[Close]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-save.png
+[Export1]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-export.png
+[Export2]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-exportwaypoints.png
+[Arrow]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-savebutton.png
+[Footprints]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-tracksicon.png
+[Export3]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-sdcardsave.png
