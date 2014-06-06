@@ -8,6 +8,7 @@ category: osm-data
 
 File Formats
 =============
+
 Like any type of data, there are various ways of storing geographic
 data on a computer. It can be saved in a database, which is a specialized
 system for storing and retrieving data, and in fact there are database
@@ -20,6 +21,7 @@ explain how they work and how they're typically used.
 
 .OSM Files
 -----------
+
 The **.osm** file format is specific to OpenStreetMap. You won't come across
 it elsewhere. If you have ever downloaded data using JOSM and saved it as a file,
 you may have noticed that the file is saved with the extension **.osm**. If you
@@ -34,7 +36,7 @@ format. Hence, **.osm** files are coded in XML, and contain geographic data in
 a structured, ordered format. A simple **.osm** file would look like this if viewed
 in a text editor:
 
-![example osm][]
+![Sample OSM XML file][]
 
 Acquiring data in **.osm** format is easy - in fact you do it every time that you
 download data in JOSM, but using these files for analysis and map design is
@@ -48,6 +50,7 @@ getting it from a service that converts the data for you.
 
 Shapefiles
 ----------
+
 The **shapefile** is a widely used format for storing vector geographic data. It was
 developed by ESRI, the company that makes ArcGIS, a popular suite of GIS applications.
 
@@ -66,13 +69,14 @@ Unlike the OpenStreetMap system in which every object can have an unlimited numb
 the attributes of features in a shapefile must fit into the shapefile's defined table
 structure, which might look something like this:
 
-![shapefile attributes][]
+![Shapefile attributes][]
 
 OpenStreetMap data can be converted into shapefiles. Various websites provide shapefiles
 converted from OSM data. These are discussed in the [next chapter](/en/osm-data/getting-data).
 
 Databases
 ---------
+
 Many types of information are stored in database systems, which provide a logical
 way of organizing and accessing data. Geographic data is no different, although
 databases designed for geodata are specialized to handle the complex functions that
@@ -90,9 +94,10 @@ but can be easier to work with for small sets of data.
 
 Summary
 -------
+
 In the following chapters we will see how you can download data in various formats from
 the internet, and how you can use various tools to manipulate the raw data on your own.
 
 
-[example osm]: /images/en/osm-data/file-formats/example_osm.png
-[shapefile attributes]: /images/en/osm-data/file-formats/shapefile_attributes.png
+[Sample OSM XML file]: /images/en/osm-data/file-formats/example_osm.png
+[Shapefile attributes]: /images/en/osm-data/file-formats/shapefile_attributes.png
