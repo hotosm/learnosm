@@ -8,6 +8,7 @@ category: editing
 
 Creating Custom Presets
 =======================
+
 In the [previous chapter](/en/editing/josm-presets) we looked at how custom
 presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.
 
@@ -117,6 +118,7 @@ The &lt;check&gt; element defines - you guessed it! - the checkbox. The attribut
 
 Creating Your Own Presets File
 ------------------------------
+
 The best way to create your own presets file is to take one that already exists, and manipulate it fulfill your objectives.  Feel free to edit this sample file and experiment with it to learn the basics. Just remember that each time you save it, you will need to restart JOSM to load the changes.
 
 Before you start creating your own presets, you need to think carefully about the tags that you will use. Inventing new tags is another topic altogether. Generally, you should utilize existing OSM tags when they exist. Most existing tags are listed on the [Map Features page on the OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).
