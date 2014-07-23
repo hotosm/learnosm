@@ -62,6 +62,6 @@ MapOSMatic
 祝畫圖愉快！
 
 
-[MapOSMatic]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image00_maposmatic-homepage.png
+[MapOSMatic]: /images/zh-tw/beginner/08_moving-forward/zh-tw_beg_08_moving-forward_image00_maposmatic-homepage.png
 [Wiki]: /images/zh-tw/beginner/08_moving-forward/zh-tw_beg_08_moving-forward_image01_osm-wiki.png
 [Mailing list]: /images/zh-tw/beginner/08_moving-forward/zh-tw_beg_08_moving-forward_image02_osm-mailing-lists.png
