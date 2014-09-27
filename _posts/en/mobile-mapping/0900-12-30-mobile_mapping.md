@@ -32,8 +32,8 @@ to have a smartphone with an autonomous GPS chip. Check your device
 specifications to confirm whether your device uses an autonomous chip,
 or is A-GPS only device.
 
-There a lot of mapping applications available (for free or paid) for
-most smartphones in the market. Each apps have its own advantages and
+There are a lot of mapping applications available (for free or paid) for
+most smartphones in the market. Each app has its own advantages and
 disadvantages.
 
 In choosing a mapping application for mapping in OpenStreetMap, you need
@@ -46,8 +46,8 @@ to consider the following features.
 -   Able to geo-tag multimedia files (notes, photos, videos)
 -   In active development
 
-Try several of applications that is compatible with your phone to get
-familiar with its interface and choose the best app based on your
+Try several applications that are compatible with your phone to get
+familiar with the interface and choose the best app based on your
 personal preference and mapping approach.
 
 <!-- Commenting for now since tables doesn't look very nice!
@@ -75,5 +75,5 @@ for you to contribute to OpenStreetMap using your smartphones.
 
 >   **Note:** Before proceeding any further, verify that GPS is available and
 >   active for the device. In Android, go to **Settings \> Location** and enable it.
->   Remember, GPS don’t work inside buildings!
+>   Remember, GPS doesn’t work inside buildings!
 

@@ -48,7 +48,7 @@ Before using the GPS Essentials Application, make sure the GPS in your Android p
 Acquiring Satellites
 -------------
 
-Before a GPS receiver emits a location (also called a GPS fix), it must receive signals from at least 4 satellites.
+Before a GPS receiver emits a location (also called a GPS fix), it must receive signals from at least four satellites.
 The lower the satellite is above the horizon, the longer its signals travel through the atmosphere so satellites
 high above the horizon usually have better signals. 
 
@@ -58,7 +58,7 @@ To check the satellites in your area:
 
    ![Satellites page][]
 
-2. If there are at least 4 satellites used in fix, then you may start using the GPS Essentials features.
+2. If there are at least four satellites used in the fix, then you may start using the GPS Essentials features.
 
 Creating Tracks
 -------------
