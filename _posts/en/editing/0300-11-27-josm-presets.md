@@ -8,6 +8,7 @@ category: editing
 
 JOSM Presets
 ============
+
 If you've been using JOSM for long, by now you understand a bit
 about tags and presets. Every object is defined by two things - first,
 it's geometry (whether it's a point, line, or shape and its location),
@@ -26,6 +27,7 @@ we will cover how to create custom presets files of your own.
 
 Add Presets
 -----------
+
 The menus and submenus that make up the Presets menu are stored in files
 which describe how to create the menus and forms that come up when you
 click on a preset, and how to define what tags are added to an object

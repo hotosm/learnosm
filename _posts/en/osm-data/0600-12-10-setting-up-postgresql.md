@@ -8,16 +8,19 @@ category: osm-data
 
 PostgreSQL & PostGIS
 ====================
+
+
 In this chapter we will see how to set up PostgreSQL on Windows and how to
 create a database in which you can store geographic data. We'll be using the
 open source GIS software QGIS in this chapter, so it will be helpful if
-you are already famliiar with it.
+you are already familiar with it.
 
 In the following chapter, we will see how to import OpenStreetMap data into
 a PostgreSQL database.
 
 Installing PostgreSQL and PostGIS
 ----------------------------------
+
 In this section we will install PostgreSQL and then add the PostGIS spatial
 extensions.  This is fairly easy to setup using the One-Click Installer.
 
@@ -101,6 +104,7 @@ extensions.  This is fairly easy to setup using the One-Click Installer.
 
 Creating a Database
 --------------------
+
 Now that we have installed all of the necessary software, we will create a database. We will
 use pgAdmin III, which is a graphical database client that is useful for querying and modifying
 databases.
@@ -156,6 +160,7 @@ databases.
 
 Load Sample Data (optional)
 ---------------------------
+
 If you are comfortable so far and are familiar with QGIS, follow along as we load some
 data into our new database. To do this, we will use a utility that converts shapefiles
 and loads them into the database.
@@ -199,6 +204,8 @@ and loads them into the database.
 
 Summary
 -------
+
+
 Now that you have seen how to set up PostgreSQL and PostGIS, as well as how to create a new
 database, you're ready to try the utilities which allow us to import raw OSM data into a
 database. We'll take a look at this in the [next chapter](/en/osm-data/osm2pgsql).

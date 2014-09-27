@@ -8,6 +8,7 @@ category: editing
 
 Relations
 ==========
+
 In the [Beginner’s Guide](/en/beginner) we explained that there are three
 types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and
 polygons (closed ways). Lines contain numerous points, and the line itself carries
@@ -30,7 +31,7 @@ of a relation.  The relation would contain several polygons - and the
 attributes of the building would be attached to the relation, not the
 polygons.
 
-![multipolygon demo][]
+![An example of a multipolygon][]
 
 Relations are used to represent anything that requires a collection of
 objects to define.  Other examples are bus routes (a collections of
@@ -43,27 +44,28 @@ turns).  In this section we will cover Multipolygons and Routes.
 
 Creating Multipolygon Relations
 -------------------------------
+
 Let's see how to create a multipolygon relation like the one shown above.
 
 -   First, draw your shapes. In this case we will draw three polygons, an
     outer rectangle, and two smaller rectangles.
 
-![multipolygon ways][]
+![Multipolygon ways][]
 
 -   Select all of the polygons. Remember you can select multiple objects
     by holding SHIFT and clicking on each.
 -   Go to *Presets->Man Made->Man Made->Building*.
 
-![building preset][]
+![Building preset][]
 
 -   Click on "New Relation."
 
-![new relation][]
+![New relation][]
 
 -   You should now see the relations window. This is a little bit complex
     because now you are adding tags to a collection of ways.
 
-![building relation][]
+![Building relation][]
 
 -   Observe that at the top of the panel are the tags for the relation. These tags
     work the same way as tags always work.
@@ -75,7 +77,7 @@ Let's see how to create a multipolygon relation like the one shown above.
     the **type** of the relation. We must add a tag that says *type=multipolygon*.
 -   Click in the tag box and add this tag.
 
-![type multipolygon][]
+![Type multipolygon][]
 
 -   Next we need to define what are called **roles**. Each member of a relation
     has a role, which indicates what that member's purpose is. In this case, the
@@ -86,15 +88,15 @@ Let's see how to create a multipolygon relation like the one shown above.
     that is selected will be highlighted in the map window. Enter **outer** and
     **inner** for the correct polygons.
 
-![outer inner][]
+![Outer or inner role][]
 
 -   Click OK and your multipolygon relation is complete!
 
-![new multipolygon][]
+![New multipolygon][]
 
 When you create a multipolygon like this it will be rendered on the map like so:
 
-![multipolygon mapnik][]
+![Multipolygon in Mapnik][]
 
 Multipolygons can be used for any complex object that requires inner and outer polygons, like
 a building or a river with patches of land inside it. Detailed multipolygon information can be
@@ -102,12 +104,13 @@ found on the [OSM Wiki](http://wiki.openstreetmap.org/wiki/Relation:multipolygon
 
 Route Relations
 ----------------
+
 Relations are also very useful for representing long routes. For example, a bus
 or bicycle route follows various road segments. To define such a route, we can
 create a relation which contains all of the road segments that are part of the route.
 Additional features, such as bus stops can also be members of a route relation.
 
-![route relation][]
+![Route relation][]
 
 Let's see how to create a relation for a bus route in JOSM:
 
@@ -117,13 +120,13 @@ Let's see how to create a relation for a bus route in JOSM:
 -   When all the segments are selected, go to *Presets->Transport->Public Transport->
     Public transport route*.
 
-![public transport preset][]
+![Public transport preset][]
 
 -   Next to Route type, select "bus."
 -   Click "New Relation." You will see the relation window pop up, just as when
     you create a multipolygon.
 
-![bus route relation][]
+![Bus route relation][]
 
 -   Notice that there are already tags which define the relation as a route. Instead
     of *type=multipolygon*, we have *type=route*. We also have a tag defining it as
@@ -141,6 +144,7 @@ Let's see how to create a relation for a bus route in JOSM:
 
 Summary
 -------
+
 Relations can be difficult to understand and do not need to be used often,
 but they are necessary to know about. Every so often you may realize that you
 need a relation to map something correctly, and you can use this knowledge, and find
@@ -148,24 +152,18 @@ more information on the OSM Wiki, to help you map relations correctly.
 
 
 
-[multipolygon ways]: /images/en/editing/josm-relations/multipolygon-ways.png
-[building preset]: /images/en/editing/josm-relations/building-preset.png
-[new relation]: /images/en/editing/josm-relations/new-relation.png
-[building relation]: /images/en/editing/josm-relations/building-relation.png
-[new relation]: /images/en/editing/josm-relations/new-relation.png
-[type multipolygon]: /images/en/editing/josm-relations/type-multipolygon.png
-[outer inner]: /images/en/editing/josm-relations/outer-inner.png
-[new multipolygon]: /images/en/editing/josm-relations/new-multipolygon.png
-[multipolygon mapnik]: /images/en/editing/josm-relations/multipolygon-mapnik.png
-[multipolygon demo]: /images/en/editing/josm-relations/multipolygon-demo.png
-[route relation]: /images/en/editing/josm-relations/route-relation.png
-[public transport preset]: /images/en/editing/josm-relations/public-transport-preset.png
-[bus route relation]: /images/en/editing/josm-relations/bus-route-relation.png
+[Multipolygon ways]: /images/en/editing/josm-relations/multipolygon-ways.png
+[Building preset]: /images/en/editing/josm-relations/building-preset.png
+[New relation]: /images/en/editing/josm-relations/new-relation.png
+[Building relation]: /images/en/editing/josm-relations/building-relation.png
+[New relation]: /images/en/editing/josm-relations/new-relation.png
+[Type multipolygon]: /images/en/editing/josm-relations/type-multipolygon.png
+[Outer or inner role]: /images/en/editing/josm-relations/outer-inner.png
+[New multipolygon]: /images/en/editing/josm-relations/new-multipolygon.png
+[Multipolygon in mapnik]: /images/en/editing/josm-relations/multipolygon-mapnik.png
+[An example of a multipolygon]: /images/en/editing/josm-relations/multipolygon-demo.png
+[Route relation]: /images/en/editing/josm-relations/route-relation.png
+[Public transport preset]: /images/en/editing/josm-relations/public-transport-preset.png
+[Bus route relation]: /images/en/editing/josm-relations/bus-route-relation.png
 [relation panel button]: /images/en/editing/josm-relations/relation-panel-button.png
-
-
-
-
-
-
 

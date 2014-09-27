@@ -8,6 +8,7 @@ category: editing
 
 Aerial Imagery
 ================
+
 Tracing imagery is an easy and powerful way to contribute to
 OSM. Using imagery to draw points, lines and shapes on the ground is called
 **digitizing**. It can often be separated from the act of collecting attribute
@@ -20,6 +21,7 @@ In this chapter we'll learn a little bit more about how aerial imagery works.
 
 About Imagery
 -------------
+
 Aerial imagery is the term that we use to describe photographs that are taken from the sky.
 These can be taken from airplanes, helicopters, or even kites and balloons, but the most
 common source of imagery comes from satellites orbiting the Earth.
@@ -32,20 +34,22 @@ Bing Aerial Imagery is made up of satellite photos.
 
 Resolution
 ----------
+
 All digital photographs are made up of pixels.  If you zoom in very close on a photograph, you will notice the the image starts to get blurry, and eventually you’ll see that an image is made up of thousands of little squares that are each a different color.  This is true whether the photograph is taken with a handheld camera, a mobile phone, or a satellite orbiting Earth.
 
-![orange resolution][]
+![Image resolution][]
 
 Resolution refers to the number of pixels wide by the number of pixels high that an image is.  More pixels means higher resolution, which means that you are able to see greater detail in the photograph.  Resolution in handheld cameras is often measured in megapixels.  The more megapixels your camera is able to record, the higher the resolution of your photos.
 
 Aerial imagery is the same, except that we usually talk about resolution differently.  Measurement is important with aerial photographs - hence, a pixel represents a certain distance on the ground.  We usually describe imagery as something like “two meter resolution imagery,” which means that one pixel is equivalent to two meters on the ground.  One meter resolution imagery would have a higher resolution than this, and 50cm resolution would be higher still.  This is generally the range of imagery that is provided by Bing, though it varies between locations, and in many places it is worse than two meters, at which point it becomes difficult to identify objects in the image.
 
-![low res high res][]
+![Comparison of low and high resolution imagery][]
 
 The higher the resolution of an aerial image, the easier it is to use in making maps.
 
 Georeferencing
 ---------------
+
 Each pixel of an aerial photograph has a size, and each pixel also has a
 location. As we mentioned above, this is because aerial photographs are georeferenced.
 
@@ -63,7 +67,7 @@ yet photographs are flat and 2-dimensional. This means that when a flat image is
 being mapped onto the round Earth, there is always going to be some stretching of the image
 and distortion. Imagine trying to flatten an orange-peel. It won't end up rectangular.
 
-Because of this proble, all of the pixels in an aerial image might not be perfectly
+Because of this problem, all of the pixels in an aerial image might not be perfectly
 placed.
 
 Luckily, some really smart people have devised clever algorithms for solving
@@ -73,5 +77,5 @@ maps. The most common areas for imagery to be inaccurately located are in hilly,
 mountainous areas. In the [next chapter](/en/editing/correcting-imagery-offset) we will see how
 to correct for this problem.
 
-[orange resolution]: /images/en/editing/aerial-imagery/orange-resolution.png
-[low res high res]: /images/en/editing/aerial-imagery/low-res-high-res.png
+[Image resolution]: /images/en/editing/aerial-imagery/orange-resolution.png
+[Comparison of low and high resolution imagery]: /images/en/editing/aerial-imagery/low-res-high-res.png

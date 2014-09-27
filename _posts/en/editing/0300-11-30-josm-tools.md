@@ -8,6 +8,7 @@ category: editing
 
 JOSM Editing Tools
 ==================
+
 In the [beginner guide](/en/beginner) we cover the basics of drawing in
 JOSM, but there are many tools and techniques which are not demonstrated.
 
@@ -17,6 +18,7 @@ look in more depth at advanced drawing tools.
 
 Get the Sample File
 -------------------
+
 -   If you'd like to follow along and practice using JOSM tools, download
     [tools_menu_sample.osm](/files/tools_menu_sample.osm).
 -   Start JOSM and open the file. It should look like this:
@@ -25,6 +27,7 @@ Get the Sample File
 
 Drawing tools
 -------------
+
 If you click on the "Tools" menu at the top of JOSM, you will see that there
 are numerous functions which can aid you in drawing lines and shapes, and
 editing the objects on the map.
@@ -124,6 +127,7 @@ some of the tools is provided below.
 
 Keyboard Shortcuts
 ------------------
+
 Once you start editing a lot you will realize that you waste a lot of time
 clicking on menus and submenus. To overcome this, JOSM has keyboard shortcuts
 for just about everything.
@@ -137,29 +141,24 @@ shortcut key to align nodes in a circle. "L" is the shortcut to align them in a 
 It can take some time to learn the shortcut keys, but you will find that it saves
 a lot of time in the long run.
 
-Here are other shortcut keys which are some of the most important.
+Here are other shortcut keys (in **bold**) which are some of the most important.
 
-1.  Activate the Select Tool
-![Keyboard S][]
-2.  Activate the Draw Tool
-![Keyboard A][]
-3.  Activate the Zoom Tool
-![Keyboard Z][]
-4.  Delete the selected object(s)
-![Keyboard Del][]
-5.  Zoom In
-![Keyboard plus][]
-6.  Zoom Out
-![Keyboard minus][]
+1.  Activate the Select Tool - **S**
+2.  Activate the Draw Tool - **A**
+3.  Activate the Zoom Tool - **Z**
+4.  Delete the selected object(s) - **Delete**
+5.  Zoom In - **+**
+6.  Zoom Out - **-**
 
 
 Scale and Rotate
 ----------------
+
 A common question is how to rotate a line or shape after it has
 been drawn.
 
 -   To rotate an object, first select it.
--   Hold SHIFT+CTRL on your keyboard.
+-   Hold **SHIFT+CTRL** on your keyboard.
 -   Click and drag the mouse to rotate.
 
 ![Rotate demo][]
