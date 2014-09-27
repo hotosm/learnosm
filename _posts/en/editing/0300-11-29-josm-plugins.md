@@ -22,12 +22,12 @@ and some of the most useful plugins that are available.
 
 Installing Plugins
 -------------------
--   Any time you want to install a new plugin, go to Edit --\> Preferences
-    and click on the “Plugins” tab.
+-   Any time you want to install a new plugin, go to **Edit \> Preferences**
+    and click on the **Plugins** tab.
 
-![Plug][]
+![Plugins][]
 
--   If you don’t see a list of available plugins, click “Download List.”
+-   If you don’t see a list of available plugins, click **Download List**.
 -   To install a plugin you simply must check the box next to it
     and click OK at the bottom.
 -   Lastly, you must restart JOSM anytime you install new plugins.
@@ -322,5 +322,5 @@ queue of files waiting to be inserted into the database.
 -->
 
 
-[Plug]: /images/en/editing/josm-plugins/plugins-tab.png
+[Plugins]: /images/en/editing/josm-plugins/plugins-tab.png
 

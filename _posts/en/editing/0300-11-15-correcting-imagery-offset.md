@@ -8,6 +8,7 @@ category: editing
 
 Imagery Offset
 ===============
+
 Imagery providers usually do a pretty good job of georeferencing their imagery,
 but occasionally the images can be out of position.  This is particularly true
 in hilly or mountainous areas, where it can be difficult to stretch a flat image
@@ -20,7 +21,7 @@ georeferenced and merged together.  Because georeferencing is not a perfect
 process, the images do not line up perfectly with each other.  Hence one, or
 both, must be inaccurate.
 
-![misaligned images][]
+![Misaligned imagery][]
 
 We’ve learned about two major ways of making maps - one is by utilizing aerial
 imagery to identify features on the ground, and another is by using GPS to record
@@ -28,13 +29,13 @@ tracks and waypoints and then add them to OpenStreetMap.  The advantage of aeria
 imagery is obvious.  It enables you, the mapper, to see the whole picture, to
 observe various details from the image, consider your knowledge of the area, and
 easily trace roads, buildings, and areas.  One key advantage of GPS however, is
-that it doesn’t suffer from offset like imagery.  A GPS will always provide you
+that it doesn't suffer from offset like imagery.  A GPS will always provide you
 with a correct latitude and longitude.  The only exception is when the satellite
 signals are interrupted by tall buildings or mountains, but in this case it is
 easy to recognize the error.  Observe the GPS trace in this image, compared with
 the Bing aerial imagery layer beneath it:
 
-![aerial vs gps][]
+![Aerial vs GPS][]
 
 Because of what we now know, it is clear that the GPS trace is likely to be accurate,
 and the image beneath it is out of place.
@@ -44,6 +45,7 @@ make accurate maps?”
 
 Correcting Imagery Offset
 -------------------------
+
 The answer to the preceding question is that we can move the imagery so that it aligns
 with things that we know are in the correct location, such as GPS tracks.  It is easy
 to correct imagery offset in JOSM.
@@ -55,34 +57,34 @@ we can download them and use them to align our imagery.
 
 -	Click on the download button.
 
-![josm download button][]
+![JOSM download button][]
 
 -	Check the box next to “Raw GPS Data” near the top of the Download window.
 	Select your area and click “Download.”
 
-![raw gps data][]
+![Download raw GPS data][]
 
 -	This will download an additional layer to JOSM containing GPS tracks.
 	Depending on how many tracks have been uploaded by OSM users, you may
 	see few tracks (or even no tracks):
 
-![osm gps tracks few][]
+![Few GPS tracks from OSM][]
 
 -	Or, you may see many tracks:
 
-![osm gps tracks many][]
+![Many GPS tracks from OSM][]
 
 -	To adjust an imagery layer, click on the “Adjust imagery offset” button at
 	the top of JOSM.
 
-![adjust imagery offset button][]
+![Adjust imagery offset button][]
 
 -	Ignoring the box that pops up, use your mouse to drag the imagery layer so
 	that it aligns correctly with the GPS tracks.  The GPS tracks should line
 	up with the roads on the imagery as closely as possible.  You will see the
 	offset numbers in the box change.
 
-![adjust imagery offset][]
+![Adjust imagery offset][]
 
 -	If you like, you can save these offset settings by entering a bookmark name
 	and then clicking OK.  You can then automatically apply the same settings
@@ -101,12 +103,12 @@ ground, you can ensure the imagery is correctly placed by following these steps:
 -	First, identify the object whose position you know on the imagery.
 -	Click on the latitude and longitude in the bottom left corner of JOSM.
 
-![josm lat lon][]
+![JOSM lat lon][]
 
 -	In the dialog that opens, enter the latitude and longitude of the place
 	that you know, and enter a small number for Zoom, about five or ten.
 
-![josm lat lon dialogue][]
+![JOSM lat lon dialogue][]
 
 -	This will zoom and center the map to your longitude and latitude.  Now you
 	can move the imagery as you did previously so that the feature you know is
@@ -120,9 +122,11 @@ of imagery offset, and they may have made mistakes when they mapped.
 
 The Imagery Offset Database
 ---------------------------
+
 Now you know how to watch out for and correct imagery offset, but there is one major
 problem with this approach that we have overlooked thus far.  If every OpenStreetMap
-user adjusts the imagery differently, everybody will be mapping with slightly different backgrounds.
+user adjusts the imagery differently, everybody will be mapping with slightly different 
+backgrounds.
 
 Imagine that you are mapping a small town, and you realize that Bing imagery is
 offset by 15 meters to the north. So you adjust the imagery and then use it to map
@@ -139,11 +143,11 @@ and share it with others.  Let’s see how this works:
 
 -	Open the Preferences menu in JOSM, and click on the Plugins tab.
 
-![josm plugins tab][]
+![JOSM plugins tab][]
 
 -	Find the plugin named “imagery_offset_db” and check the box next to it.
 
-![imagery_offset_db plugin][]
+![Imagery_offset_db plugin][]
 
 -	Click OK.  You will need to restart JOSM to finish the plugin installation.
 
@@ -158,62 +162,64 @@ and when you create your own offset, you should ALWAYS save it to this database.
 
 Add Imagery Offset from the Database
 ------------------------------------
+
 -	When you add an imagery layer, the new plugin will alert you that you should
 	check the imagery database for an existing offset.  You will see an icon with
 	a red exclamation point on it at the top of JOSM, like this:
 
-![offset exclamation][]
+![Imagery offset notification][]
 
 -	Click on the button and the plugin will communicate with the database to see
 	if there are existing offsets in this area.
 -	Here we have downloaded OSM data and GPS tracks in Kuta, Bali, Indonesia.
 	In this case, we have found one existing offset. Click on it to apply to the map.
 
-![offset kuta bali][]
+![Offset in Kuta bali][]
 
 -	This causes the imagery layer to shift.  However, when we add someone else’s
 	offset like this, we should check that it is valid by comparing to GPS tracks.
 
-![compare gps][]
+![Comparing imagery offset from GPS tracks][]
 
 -	We can see that the imagery layer is in fact misaligned.  We don’t want other
 	users to use this offset, so we should mark it as incorrect in the database.
 	Click on the “Offsets” button again (it won’t have a red exclamation mark anymore).
 
-![offsets button][]
+![Offsets button][]
 
 -	This time when the dialog opens, right-click on the offset and click “Deprecate Offset.”
 
-![deprecate offset][]
+![Deprecate offset][]
 
 -	Click “Yes” to confirm.
 -	You will need to enter a reason for deprecating this offset.
 
-![deprecate reason][]
+![Deprecate reason][]
 
 
 Add Imagery Offset to the Database
 ------------------------------------
+
 Now that we have marked this user’s offset as “deprecated,” we should add an improved offset
 to the database.
 
 -	Click on the “Adjust imagery offset” button.
 
-![adjust imagery offset button][]
+![Adjust imagery offset button][]
 
 -	Adjust the imagery to match the GPS tracks.  Click OK in the box.
 -	Now go to Offset ‣ Store Imagery Offset...
 
-![store imagery offset][]
+![Store imagery offset][]
 
 -	Enter a description of the offset in the box that opens.
 
-![offset description][]
+![Offset description][]
 
 -	Click OK.  Your offset will be saved to the database.
 -	Now let’s hide the GPS layer and look at the OSM data against the correctly placed imagery.
 
-![correctly placed][]
+![Corrected imagery][]
 
 Oh No!  Somebody mapped this area with misaligned imagery, so the area is not
 correctly mapped.  This will take some time to fix.
@@ -221,12 +227,13 @@ correctly mapped.  This will take some time to fix.
 
 Imagery Offset Database Website
 --------------------------------
+
 Lastly, for more information on the offset database, you can visit the website
 at [http://offsets.textual.ru/](http://offsets.textual.ru/).  This lists all the
 offsets that have been uploaded to the database, and it also has a cool map feature
 that visualizes where the offsets are located, as you can see here:
 
-![offset website][]
+![http://offsets.textual.ru/][]
 
 >	One last thing to remember is that the imagery may not be offset the same
 >	distance everywhere!  This is especially true in regions where there are
@@ -235,32 +242,33 @@ that visualizes where the offsets are located, as you can see here:
 
 Summary
 --------
-When you are just beginning OpenStreetMap, you don’t need to worry too much about imagery offset.  But if you see another mapper’s edits that seem misaligned from the imagery, you should always consider that there may be an offset before you start changing their objects.  And if you aren’t quite ready to deal with offsets yet, just remember that it’s better to map an area 20 or 30 meters offset than to not map it at all.  But when possible, do remember that imagery offset may occur, and use the steps in this chapter to correct it when needed.
+
+When you are just beginning OpenStreetMap, you don’t need to worry too much about imagery offset.  But if you see another mapper’s edits that seem misaligned from the imagery, you should always consider that there may be an offset before you start changing their objects.  And if you aren't quite ready to deal with offsets yet, just remember that it’s better to map an area 20 or 30 meters offset than to not map it at all.  But when possible, do remember that imagery offset may occur, and use the steps in this chapter to correct it when needed.
 
 
+[Misaligned imagery]: /images/en/editing/correcting-imagery-offset/misaligned-images.png
+[Aerial vs GPS]: /images/en/editing/correcting-imagery-offset/aerial-vs-gps.png
+[JOSM download button]: /images/en/editing/correcting-imagery-offset/josm-download-button.png
+[Download raw GPS data]: /images/en/editing/correcting-imagery-offset/raw-gps-data.png
+[Few GPS tracks from OSM]: /images/en/editing/correcting-imagery-offset/osm-gps-tracks-few.jpg
+[Many GPS tracks from OSM]: /images/en/editing/correcting-imagery-offset/osm-gps-tracks-many.jpg
+[Adjust imagery offset button]: /images/en/editing/correcting-imagery-offset/adjust-imagery-offset-button.png
+[Adjust imagery offset]: /images/en/editing/correcting-imagery-offset/adjust-imagery-offset.png
+[JOSM lat lon]: /images/en/editing/correcting-imagery-offset/josm-lat-lon.png
+[JOSM lat lon dialogue]: /images/en/editing/correcting-imagery-offset/josm-lat-lon-dialogue.png
+[JOSM plugins tab]: /images/en/editing/correcting-imagery-offset/josm-plugins-tab.png
+[Imagery_offset_db plugin]: /images/en/editing/correcting-imagery-offset/imagery-offset-db-plugin.png
+[Imagery offset notification]: /images/en/editing/correcting-imagery-offset/offset-exclamation.png
+[Offset in Kuta bali]: /images/en/editing/correcting-imagery-offset/offset-kuta-bali.png
+[Comparing imagery offset from GPS tracks]: /images/en/editing/correcting-imagery-offset/offset-compare-gps.png
+[Offsets button]: /images/en/editing/correcting-imagery-offset/offsets-button.png
+[Deprecate offset]: /images/en/editing/correcting-imagery-offset/deprecate-offset.png
+[Deprecate reason]: /images/en/editing/correcting-imagery-offset/deprecate-reason.png
+[Store imagery offset]: /images/en/editing/correcting-imagery-offset/store-imagery-offset.png
+[Offset description]: /images/en/editing/correcting-imagery-offset/offset-description.png
+[Corrected imagery]: /images/en/editing/correcting-imagery-offset/correctly-placed.png
+[http://offsets.textual.ru/]: /images/en/editing/correcting-imagery-offset/offset-website.png
 
-[misaligned images]: /images/en/editing/correcting-imagery-offset/misaligned-images.png
-[aerial vs gps]: /images/en/editing/correcting-imagery-offset/aerial-vs-gps.png
-[josm download button]: /images/en/editing/correcting-imagery-offset/josm-download-button.png
-[raw gps data]: /images/en/editing/correcting-imagery-offset/raw-gps-data.png
-[osm gps tracks few]: /images/en/editing/correcting-imagery-offset/osm-gps-tracks-few.jpg
-[osm gps tracks many]: /images/en/editing/correcting-imagery-offset/osm-gps-tracks-many.jpg
-[adjust imagery offset button]: /images/en/editing/correcting-imagery-offset/adjust-imagery-offset-button.png
-[adjust imagery offset]: /images/en/editing/correcting-imagery-offset/adjust-imagery-offset.png
-[josm lat lon]: /images/en/editing/correcting-imagery-offset/josm-lat-lon.png
-[josm lat lon dialogue]: /images/en/editing/correcting-imagery-offset/josm-lat-lon-dialogue.png
-[josm plugins tab]: /images/en/editing/correcting-imagery-offset/josm-plugins-tab.png
-[imagery_offset_db plugin]: /images/en/editing/correcting-imagery-offset/imagery-offset-db-plugin.png
-[offset exclamation]: /images/en/editing/correcting-imagery-offset/offset-exclamation.png
-[offset kuta bali]: /images/en/editing/correcting-imagery-offset/offset-kuta-bali.png
-[compare gps]: /images/en/editing/correcting-imagery-offset/offset-compare-gps.png
-[offsets button]: /images/en/editing/correcting-imagery-offset/offsets-button.png
-[deprecate offset]: /images/en/editing/correcting-imagery-offset/deprecate-offset.png
-[deprecate reason]: /images/en/editing/correcting-imagery-offset/deprecate-reason.png
-[store imagery offset]: /images/en/editing/correcting-imagery-offset/store-imagery-offset.png
-[offset description]: /images/en/editing/correcting-imagery-offset/offset-description.png
-[correctly placed]: /images/en/editing/correcting-imagery-offset/correctly-placed.png
-[offset website]: /images/en/editing/correcting-imagery-offset/offset-website.png
 
 
 

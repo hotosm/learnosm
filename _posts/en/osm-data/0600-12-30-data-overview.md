@@ -8,6 +8,7 @@ category: osm-data
 
 OSM Data Overview
 ===================
+
 <!--In this section we'll consider how OpenStreetMap functions, which
 will help us to understand better how the data is structured, and how
 we can best utilize it.-->
@@ -53,7 +54,6 @@ In the next chapter we will take a closer look at file formats which are associa
 OpenStreetMap and geographic data in general. Then we'll look at various ways to access and
 manipulate OSM data and convert it between different file types.
 
-<!--
 
 Getting the Data
 -----------------
@@ -84,3 +84,4 @@ In fact, when you download data in JOSM, you are **extracting** the data from a 
 area of the world. The data is then sent to you in **.osm** format, which you can then
 edit in JOSM. If you download data in JOSM and then save it, you will see that the file
 type is **.osm**. We'll talk more about this in the next chapter.
+

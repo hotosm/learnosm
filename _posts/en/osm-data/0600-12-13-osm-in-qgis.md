@@ -8,6 +8,7 @@ category: osm-data
 
 OSM Data in QGIS
 =================
+
 With the 2013 release of Quantum GIS, it became easier to load and work with
 raw OpenStreetMap Data. This means that you can now access up-to-date OSM
 data whenever you want, select the tags you want to include, and easily export
@@ -26,6 +27,7 @@ layers can be used as they are or saved in another format, such as a shapefile.
 
 Loading OpenStreetMap Data
 ---------------------------
+
 The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways.
 Of course, requesting data from the OSM server, as we do in JOSM, means that we can not pull
 out a large amount of raw data at once - however, there are other ways to access data, as
@@ -64,6 +66,7 @@ writing, but for our purposes it is more than satisfactory.
 
 Importing Data into SQLite
 ---------------------------
+
 Next we will need to import our raw **.osm** file into a SQLite Database.
 
 -	Go to Vector -> OpenStreetMap -> Import topology from XML
@@ -81,6 +84,7 @@ Next we will need to import our raw **.osm** file into a SQLite Database.
 
 Create Layers
 --------------
+
 Lastly, we will define layers that can be used in QGIS, customized according to our needs.
 
 -	Go to Vector -> OpenStreetMap -> Export topology to Spatialite
@@ -129,6 +133,7 @@ next which filters only polygons where building=yes.
 
 Summary
 -------
+
 This process makes it easy to get up-to-date OSM data and pull it into your GIS. Once you have
 layers like this in QGIS, it is possible to save them as shapefiles, execute filters and queries,
 and so forth.
