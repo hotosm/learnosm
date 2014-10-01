@@ -55,6 +55,8 @@ mapa es simplemente un trozo de papel, es difícil llevar esa información a otr
 personas. Por esta razón puede tener mucha más utilidad hacer tu mapa en una
 computadora, de tal forma que cualquiera pueda acceder al mismo.
 
+![Mapping on Computer][]
+
 OpenStreetMap es una herramienta para crear y compartir información
 cartográfica. Cualquiera puede contribuir a OSM, y miles de personas se suman al
 proyecto cada día. Los usuarios dibujan mapas en sus computadoras, en lugar de
@@ -71,7 +73,8 @@ Esperamos que encuentres OpenStreetMap útil e interesante en tu trabajo.
 Siguiendo esta guía serás capaz de crear mapas digitales rápidamente y añadirlos
 a OSM.
 
-[Un pueblo en Indonesia]: {{site.baseurl}}/images/intro_village_en.png
-[Ejemplo de mapa dibujado a mano alzada]: {{site.baseurl}}/images/intro_drawing_en.png
-[Ejemplos de símbolos]: {{site.baseurl}}/images/intro_symbol_en.png
-[Mapas digitales con OpenStreetMap]: {{site.baseurl}}/images/intro_osm1_en.png
+[Un pueblo en Indonesia]: {{site.baseurl}}/images/en/beginner/01_introduction/en_beg_01_introduction_image00_village-in-indonesia.png
+[Ejemplo de mapa dibujado a mano alzada]: {{site.baseurl}}/images/en/beginner/01_introduction/en_beg_01_introduction_image01_hand-drawn-map.png
+[Ejemplos de símbolos]: {{site.baseurl}}/images/en/beginner/01_introduction/en_beg_01_introduction_image02_examples-of-symbols.png
+[Mapping on Computer]: {{site.baseurl}}/images/en/beginner/01_introduction/en_beg_01_introduction_image03_mapping-on-computer.png
+[Mapas digitales con OpenStreetMap]: {{site.baseurl}}/images/en/beginner/01_introduction/en_beg_01_introduction_image04_digital-maps-with-osm.png
