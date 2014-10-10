@@ -182,7 +182,7 @@ Ce problème correspond à deux types de situation :
     préciser que les objets ne s’intersectent pas parce qu’ils ne sont
     pas au même niveau, en indiquant sur quelles couches ils se
     trouvent, sachant que, par défaut, tous se trouvent au niveau du sol
-    (attribut layer=0). Un pont aura comme attribut layer=1 et le
+    (attribut layer=0). Un pont aura comme attribut layer=1 ou un tunnel avec layer=-1 et le
     problème sera réglé.
 
 ![image](/images/fr/0300-12-27-quality-assurance/image01.png)

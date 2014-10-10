@@ -8,6 +8,7 @@ category: editing
 
 Conflict Resolution
 ====================
+
 Sometimes you are working in JOSM and when you upload all of your beautiful edits
 you get a nasty message complaining about a conflict.
 
@@ -17,6 +18,7 @@ What happened is that you downloaded a bunch of data, which included a point whi
 
 Conflicts
 ----------
+
 Sometimes, JOSM is able to figure out what to do with conflicts on its own, and it will give you a message like this:
 
 ![resolved automatically][]
@@ -26,16 +28,20 @@ This means that JOSM has automatically decided that items in your local dataset 
 In some conflicts, however, there is no easy action for JOSM to take and so it leaves the decision up to the user to determine what the best course of action is.  This means it is up to you to resolve the conflicts.
 
 -   This tells you to look at all of your conflicts in Layer 1 in the **Dialog List** box:
+
 ![warning unresolved][]
 
 -   This window provides you with a warning as to whether you are likely to experience a conflict with your edits.  If you check on the server you will be able to fix the editing issues that would arise:
+
 ![check on server][]
 
 -   This warning tells you that JOSM failed to delete a node due to it still being referenced in a way.  In order to remedy this, the user has to go back into JOSM and resolve the conflict before uploading the data:
+
 ![still in use][]
 
 Conflict Resolution
 --------------------
+
 The process of resolving a conflict is quite simple, although it can appear confusing at first in JOSM.  Basically, for every conflict JOSM will present you with two choices - your version of an object and the one that is on the server.  You need to choose whether to keep your version, or whether the new version on the server should remain.
 
 You might think, “of course my version is going to be better!”  And maybe you’re right.  But think back to our example at the start of this chapter.  Perhaps while you were busy editing, another mapper added a lot of information to one of the nodes in your data set.  If you choose your version over their version, you will lose all of that valuable information that they added.  Hence you should consider keeping their version, or merging it with your own.
