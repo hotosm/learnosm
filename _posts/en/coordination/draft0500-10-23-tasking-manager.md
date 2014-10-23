@@ -14,7 +14,7 @@ when contributing to OpenStreetMap.  In this section, we will take a
 look at the HOT Tasking Manager, a tool that mappers can use to sort an
 area into a grid, and work together to map an area in an organized way.
 
-The OSM Tasking Manager allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas ( *software editing tools use the term **conflict** when two mappers attempt to save changes to the same object - their work has overlapped* ). They can select an individual square, and complete the required mapping, marking the square as complete when they have done so. A second mapper, possibly more experienced, then checks the mapping within the square, and if they are satisfied marks the square as "Validated". 
+The OSM Tasking Manager allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas ( *software editing tools use the term "conflict" when two mappers attempt to save changes to the same object - their work has overlapped* ). They can select an individual square, and complete the required mapping, marking the square as complete when they have done so. A second mapper, possibly more experienced, then checks the mapping within the square, and if they are satisfied marks the square as "Validated". 
 
 To see how the tasking manager works, let’s take a closer look.
 
