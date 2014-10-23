@@ -57,46 +57,24 @@ This page shows you everything you need to know about the project. On the left s
 * Green squares have been completed and “validated”, and the remaining squares still need to be mapped or are being worked on.  
 By clicking on the “Instructions” tab, you can get information about how collaborators are meant to help map. There will be a section indicating the *Changeset comment* you should copy & paste into your editing programme when uploading your changes, together with the *source* information you may (depending on your editing software) need to copy & paste to the source field on making changes. Clicking on the “Activity” tab will show the activity within the task, and clicking the “Stats” tab will show a graph of progress & other information.  
 
+You may chose your square to work on by selecting it from the map, or by clicking on the *Take a Task at random* option.
 
 ![Picking a task][]
 
+Having selected your square you will be able to see if there is any history for this square, such as a mapper starting to map, but realising they do not have time to complete the square.  
+* If you accidentally select a square, you can release it again by clicking on the blue 'x' - shown level with the **Task#26** text in this screenshot.  
+* If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square, such as *'Almost complete, small village top left in the square to be traced - I've run out of time, hence releasing this square'*  
+* It is very difficult to be completely certain that you have completed a square - however it is acceptable to mark the square as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then. For the process to work, mappers need to mark squares as complete rather than leaving them for several other 'not sure' mappers to spend time also checking them.   
+* When leaving a comment against a square, you can have the comment sent as a message to a named mapper - @ followed by the username, such as **@Tallguy** in the text will send a message to Tallguy containing the comments from this box. This is particularly useful when validating, to send a useful encouraging hint to a new mapper, although there are many occassions when the language barrier prevents this.
+
 ![Assigned task square][]
 
--   After you pick a square, here you see a view of the square that you
-    are assigned to map. Click “Yes, I want to work on this task” to
-    lock the square. You can automatically open the area for editing
-    with JOSM, iD Editor, Potlatch 2, create a Walking Papers, or
-    download the .osm / .gpx file.
--   If you plan to edit with JOSM, you need to open JOSM first with
-    remote control setting enabled before you will be able to launch the
-    application from the Tasking Manager.  To do this, open JOSM and go
-    the Preferences menu.  Click on the “Remote Settings” tab and check
-    the box next to “Enable remote control.”  Restart JOSM.
-
-![Enabling JOSM Remote Control][]
-
--   Go back to the Tasking Manager and choose JOSM.  If you have JOSM
-    open and you correctly enabled the remote control, the grid area of
-    the map you selected will automatically be loaded into JOSM.
-
-![Current data from the asigned task loaded JOSM][]
-
--   You may now edit the area using the instructions provided in the
-    project information.  When you are finished, you can return to the
-    tasking manager website and add comments about your changes.  Click
-    “Mark task as done” to let other collaborators know that you have
-    finished this grid square.  If you were unable to complete the task,
-    click “Unlock it” to make it available again for other mappers.
+You may now edit the area using the instructions provided in the project information.  When you are finished, you can return to the tasking manager website and add comments about your changes.  Click “Mark task as done” to let other collaborators know that you have finished this grid square.  If you were unable to complete the task, click “Unlock it” to make it available again for other mappers, adding a comment explaining what is still outstanding.
 
 ![Marking task as done][]
 
 ![Adding comment to a completed task][]
 
--   If you are wondering what happens when you finish an area, the grid
-    square will turn red on the map to indicate that is done.  Someone
-    else will then look at your work to make sure it is good, and if
-    they agree that you’ve completed the square well, the grid square
-    will turn green, meaning it is complete!
 
 Summary
 ------------------
@@ -109,10 +87,8 @@ managing many various mappers both in one location and around the world.
 [Authorizing access to OSM account by the Tasking Manager]: /images/en/coordination/tasking_manager/tasking_manager_image03.png
 [Tasking Manager About]: /images/en/coordination/tasking_manager/tasking_manager_image011.png
 [Job description]: /images/en/coordination/tasking_manager/tasking_manager_image04.png
-[Picking a task]: /images/en/coordination/tasking_manager/tasking_manager_image06.png
-[Assigned task square]: /images/en/coordination/tasking_manager/tasking_manager_image07.png
-[Enabling JOSM Remote Control]: /images/en/coordination/tasking_manager/tasking_manager_image08.png
-[Current data from the asigned task loaded JOSM]: /images/en/coordination/tasking_manager/tasking_manager_image09.png
+[Picking a task]: /images/en/coordination/tasking_manager/tasking_manager_image05.png
+[Assigned task square]: /images/en/coordination/tasking_manager/tasking_manager_image06.png
 [Marking task as done]: /images/en/coordination/tasking_manager/tasking_manager_image10.png
 [Adding comment to a completed task]: /images/en/coordination/tasking_manager/tasking_manager_image03.png
 [Tasking Manager Languages]: /images/en/coordination/tasking_manager/tasking_manager_image012.png
