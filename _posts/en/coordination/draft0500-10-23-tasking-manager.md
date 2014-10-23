@@ -14,17 +14,7 @@ when contributing to OpenStreetMap.  In this section, we will take a
 look at the HOT Tasking Manager, a tool that mappers can use to sort an
 area into a grid, and work together to map an area in an organized way.
 
-One consistent challenge is coordinating field and/or remote workers to
-map an area together.  To help address this, HOT has developed an
-OpenStreetMap Tasking Tool to make it easier for administrators to
-define the areas of mapping interest and to delegate workers.  The idea
-behind this tool is that if there is an area, let’s say a city, that we
-want to map, and we have some people mapping on the ground, and some
-people mapping remotely using satellite imagery, this tool will allow us
-to create a grid of the entire area.  Collaborators can select blocks in
-the grid that they plan to map, and when they finish, they can mark that
-area as complete.  In this way a team of many people can coordinate to
-map the entire grid
+The OSM Tasking Manager allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas ( *software editing tools use the term **conflict** when two mappers attempt to save changes to the same object - their work has overlapped* ). They can select an individual square, and complete the required mapping, marking the square as complete when they have done so. A second mapper, possibly more experienced, then checks the mapping within the square, and if they are satisfied marks the square as "Validated". 
 
 To see how the tasking manager works, let’s take a closer look.
 
@@ -40,7 +30,7 @@ To see how the tasking manager works, let’s take a closer look.
 
 ![Authorizing access to OSM account by the Tasking Manager][]
 
-For information about the Tasking Manager, HOT sponsors & help links click on "About" in the red header banner.
+For information about the Tasking Manager, HOT sponsors partners & help links click on **About** in the red header banner.
 
 ![Tasking Manager About][]
 
@@ -60,19 +50,13 @@ You can further refine your list by clicking in the **Your Projects** box, to se
 
 ![Job description][]
 
--   This page shows you everything you need to know about the project.
-     On the left side of the page is a description of the mapping
-    project and how it is being organized.  You can click on the
-    different tabs to get more information.  On the right side is a grid
-    showing the area to be mapped.  Red grid squares have been
-    completed, green squares have been completed and “validated” by
-    another person, and the remaining squares still need to be mapped or
-    are being worked on.  By clicking on the “Workflow” tab, you can get
-    information about how collaborators are meant to help map. Clicking
-    on the “Users” tab will shows OSM user that working on the task, and
-    clicking “Stats” tab will show statistic of the task.
--   To pick a task, you can click a square on the map. Or you can click
-    “Task” tab and pick a task randomly.
+This page shows you everything you need to know about the project. On the left side of the page is a description of the mapping project and what is required. On the right side is a grid showing the area to be mapped;  
+* Pink areas of the map indicate higher priority areas,  
+* Yellow grid squares have been completed,  
+* A yellow border indicates the square is being worked on now,  
+* Green squares have been completed and “validated”, and the remaining squares still need to be mapped or are being worked on.  
+By clicking on the “Instructions” tab, you can get information about how collaborators are meant to help map. There will be a section indicating the *Changeset comment* you should copy & paste into your editing programme when uploading your changes, together with the *source* information you may (depending on your editing software) need to copy & paste to the source field on making changes. Clicking on the “Activity” tab will show the activity within the task, and clicking the “Stats” tab will show a graph of progress & other information.  
+
 
 ![Picking a task][]
 
@@ -124,7 +108,7 @@ managing many various mappers both in one location and around the world.
 [Tasking Manager Login]: /images/en/coordination/tasking_manager/tasking_manager_image01.png
 [Authorizing access to OSM account by the Tasking Manager]: /images/en/coordination/tasking_manager/tasking_manager_image03.png
 [Tasking Manager About]: /images/en/coordination/tasking_manager/tasking_manager_image011.png
-[Job description]: /images/en/coordination/tasking_manager/tasking_manager_image05.png
+[Job description]: /images/en/coordination/tasking_manager/tasking_manager_image04.png
 [Picking a task]: /images/en/coordination/tasking_manager/tasking_manager_image06.png
 [Assigned task square]: /images/en/coordination/tasking_manager/tasking_manager_image07.png
 [Enabling JOSM Remote Control]: /images/en/coordination/tasking_manager/tasking_manager_image08.png
