@@ -45,10 +45,10 @@ Some of our favorite plugins are:
     card in a Garmin, but this plugin can correct the files so they can be uploaded.
 
 4.  **fieldpapers:**
-    This plugin let's you load scanned Field Papers into JOSM.
+    This plugin lets you load scanned Field Papers into JOSM.
 
 5.  **imagery_offset_db:**
-    This plugin let's you cooperate with other mappers who find that the Bing
+    This plugin lets you cooperate with other mappers who find that the Bing
     satellite imagery is a little bit misaligned. This issue is covered in more
     detail in a later chapter.
 
@@ -61,7 +61,7 @@ Some of our favorite plugins are:
 
 8.  **utilsplugin2:**
     Adds many additional tools and menus to JOSM for advanced users. This is covered
-    in more detail in the [next chapter](/en/editing/josm-more-tools)
+    in more detail in the [next chapter](/en/editing/more-tools)
 
 
 
