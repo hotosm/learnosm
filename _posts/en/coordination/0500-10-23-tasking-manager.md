@@ -9,55 +9,72 @@ category: coordination
 # Tasking Manager
 
 
-In this section, we look at the HOT Tasking Manager, a tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. The OSM Tasking Manager allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas ( *software editing tools use the term "conflict" when two mappers attempt to save changes to the same object - their work has overlapped* ). 
+In this section, we look at the HOT Tasking Manager, a tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. The OSM Tasking Manager allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas ( *software editing tools use the term "conflict" when two mappers attempt to save changes to the same object - their work has overlapped & the software tools will not allow the data to be uploaded until the conflict is cleared* ). 
 
 ## Overview of the process
 
-1. An administrator selects an area requiring updating in OpenStreetMap. The administrator ensures there is suitable satellite imagery available for remote mappers to trace, and creates a task or project covering the area. The level of detail required and the urgency are specified within the task together with any other information the remote mapper will require. When satisfied, the administrator publishes the task within the Tasking Manager, although they may also make changes later if required.
-2. A remote mapper (also sometimes referred to as armchair mappers) selects a task square, completes the mapping, and marks the square as complete.
+1. An administrator selects an area requiring updating in OpenStreetMap. The administrator ensures there is suitable satellite imagery available for remote mappers to trace, and creates a project covering the area. The level of detail required and the urgency are specified within the project together with any other information the remote mapper will require. When satisfied, the administrator publishes the project within the Tasking Manager, although they may also make changes later if required.
+
+2. A remote mapper (also sometimes referred to as an armchair mapper) selects a task square, completes the mapping, and marks the square as complete.
+
 3. A second remote mapper checks that the square is completed to a satisfactory level and marks the square as 'validated'
 
+4. Progress of the mapping of the project can be monitored from within the "stats" tab of the project, and the project can be downgraded or archived as required by an administrator.
 
-To see how the tasking manager works, let’s take a closer look.
 
--   Open your Internet browser and go to
-    [tasks.hotosm.org](http://tasks.hotosm.org). You will see a page like this:
+## Options & links
 
-![Tasking Manager Login][]
+The Task Manager initially displays in english - to change to another language click on **en** in the red header banner.
 
--   Click “login to OpenStreetMap”
--   Here you are agreeing to allow this application some access to your OpenStreetMap account.  Click “Save Changes.”
+![Tasking Manager Languages][]
 
-![Authorizing access to OSM account by the Tasking Manager][]
 
 For information about the Tasking Manager, HOT sponsors partners & help links click on **About** in the red header banner.
 
 ![Tasking Manager About][]
 
-The Task Manager initially displays in english - to change to another language click on "en" in the red header banner.
 
-![Tasking Manager Languages][]
+## Getting started with the Tasking Manager
+
+You may view projects as a visitor, but to actively participate you must be logged into the Tasking Manager - use your OpenStreetMap account username & password. Open your Internet browser and go to [tasks.hotosm.org](http://tasks.hotosm.org). You will see a page like this:
+
+![Tasking Manager Login][]
+
+-   Click “login to OpenStreetMap”
+-   You are agreeing to allow this application some access to your OpenStreetMap account.  Click “Save Changes.”
+
+![Authorizing access to OSM account by the Tasking Manager][]
+
+
+## Locating a project
 
 -   The current list of projects may be sorted according to;  
 
- 1. High Priority First
- 2. Creation date, or
- 3. Last update.
+* High Priority First
+* Creation date, or
+* Last update.  
 
-You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have marked squares as complete, and/or you may use a free text search to locate tasks that contain particular text strings, such as **Ebola** (search is not case sensitive).
+You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have marked squares as complete, and/or you may use a free text search to locate projects that contain particular text strings, such as **Ebola** (search is not case sensitive).
+
+Projects are frequently referred to by their Project number, e.g., [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711)
+
 
 -   Click on a blue project title to see more information about that project.
 
 ![Job description][]
 
-This page shows you everything you need to know about the project. On the left side of the page is a description of the mapping project and what is required. On the right side is a grid showing the area to be mapped;  
+## Project details
+
+Everything you need to know about the project! On the left is a description of the mapping project and what is required. On the right side is a grid showing the area to be mapped;  
 * Pink areas of the map indicate higher priority areas,  
 * Yellow grid squares have been completed,  
 * A yellow border indicates the square is being worked on now,  
-* Green squares have been completed and “validated”, and the remaining squares still need to be mapped or are being worked on.  
-By clicking on the “Instructions” tab, you can get information about how collaborators are meant to help map. There will be a section indicating the *Changeset comment* you should copy & paste into your editing programme when uploading your changes, together with the *source* information you may (depending on your editing software) need to copy & paste to the source field on making changes. Clicking on the “Activity” tab will show the activity within the task, and clicking the “Stats” tab will show a graph of progress & other information.  
+* Green squares have been completed and “validated”, and the remaining squares still need to be completed.  
 
-You may chose your square to work on by selecting it from the map, or by clicking on the *Take a Task at random* option.
+Click on the **"Instructions” tab**, for instructions on what is required. Some tasks are only suitable for more experienced mappers, and the instructions will explain this. Make sure you read and understand this section - some projects only require the road network, others may require all available information to be added to the map, such as; roads, land use boundaries such as 'residential', rivers and other water features, buildings (their outline should be traced) barriers such as walls and fences, etc.. There will be a section indicating the **Changeset comment** you should copy & paste into your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes. When checking a square marked as complete, validators will expect that the requirements from the instructions tab have all been completed. 
+Clicking on the **“Activity”** tab will show the activity within the task, and  
+clicking the **“Stats” tab** will show a graph of progress & other information. The Stats tab also contains a list of mappers who have completed at least one square within the project - to see which squares they have completed, you can *hover your mouse cursor* over a username, and the squares they have completed will become the only ones visible (**use this to locate the squares you have previously completed**)  
+Click on the **"Contribute"** tab when you are ready to start mapping. You may chose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.
 
 ![Picking a task][]
 
