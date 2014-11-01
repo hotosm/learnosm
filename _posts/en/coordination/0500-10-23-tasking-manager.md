@@ -6,17 +6,16 @@ lang: en
 category: coordination
 ---
 
-Tasking Manager
-===============
+# Tasking Manager
+
 
 In this section, we look at the HOT Tasking Manager, a tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. The OSM Tasking Manager allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas ( *software editing tools use the term "conflict" when two mappers attempt to save changes to the same object - their work has overlapped* ). 
 
 ## Overview of the process
 
-
-1/. An administrator selects an area requiring updating in OpenStreetMap. The administrator ensures there is suitable satellite imagery available for remote mappers to trace, and creates a task or project covering the area. The level of detail required and the urgency are specified within the task together with any other information the remote mapper will require. When satisfied, the administrator publishes the task within the Tasking Manager, although they may also make changes later if required.
-2/. A remote mapper (also sometimes referred to as armchair mappers) selects a task square, completes the mapping, and marks the square as complete.
-3/. A second remote mapper checks that the square is completed to a satisfactory level and marks the square as 'validated'
+1. An administrator selects an area requiring updating in OpenStreetMap. The administrator ensures there is suitable satellite imagery available for remote mappers to trace, and creates a task or project covering the area. The level of detail required and the urgency are specified within the task together with any other information the remote mapper will require. When satisfied, the administrator publishes the task within the Tasking Manager, although they may also make changes later if required.
+2. A remote mapper (also sometimes referred to as armchair mappers) selects a task square, completes the mapping, and marks the square as complete.
+3. A second remote mapper checks that the square is completed to a satisfactory level and marks the square as 'validated'
 
 
 To see how the tasking manager works, let’s take a closer look.
