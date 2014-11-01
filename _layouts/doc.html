@@ -41,13 +41,20 @@ layout: default
 
 </div>
 <div class='doc-main doc cell5 padAll'>
+<<<<<<< HEAD
   {{content}}
   {% if {{page.cover}} %}
     <div class='getstarted'>
       <span><a class='start rounded'>{{site.translations.[page.lang].getstarted}}</a></span>
+=======
+    {{content}}
+  {% if page.cover %}
+    <div class='proceed'>
+      <span><a class='start rounded'>{{site.translations.[page.lang].proceed}}</a></span>
+>>>>>>> upstream/all-chapters
     </div>
   {% endif %}
-  {% unless {{page.cover}} %}
+  {% unless page.cover %}
   <div class='feedback padAll'>
     <span>{{site.translations.[page.lang].feedbackspan}}</span>
     <a href='{{site.baseurl}}/{{page.lang}}/contribute'>{{site.translations.[page.lang].feedback}}</a>
