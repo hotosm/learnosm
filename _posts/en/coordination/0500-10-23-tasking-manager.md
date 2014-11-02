@@ -9,7 +9,7 @@ category: coordination
 # Tasking Manager
 
 
-In this section, we look at the HOT Tasking Manager, a tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. The OSM Tasking Manager allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas ( *software editing tools use the term "conflict" when two mappers attempt to save changes to the same object - their work has overlapped & the software tools will not allow the data to be uploaded until the conflict is cleared* ). 
+In this section, we look at the HOT Tasking Manager, an intuitive tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. The OSM Tasking Manager allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas ( *software editing tools use the term "conflict" when two mappers attempt to save changes to the same object - their work has overlapped & the software tools will not allow the data to be uploaded until the conflict is cleared* ). 
 
 ## Overview of the process
 
@@ -88,7 +88,7 @@ Click on the **"Contribute"** tab when you are ready to start mapping. You may c
 
 Having selected your square you will be able to see if there is any history for this square, such as a mapper starting to map, but realising they do not have time to complete the square.  
 * If you accidentally select a square, you can release it again by clicking on the blue 'x' - shown level with the **Task#26** text in this screenshot.  
-* If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square, such as *'Almost complete, small village top left in the square to be traced - I've run out of time, hence releasing this square'*  
+* As soon as you click on the If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square, such as *'Almost complete, small village top left in the square to be traced - I've run out of time, hence releasing this square'*  
 * It is very difficult to be completely certain that you have completed a square - however it is acceptable to mark the square as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then. For the process to work, mappers need to mark squares as complete rather than leaving them for several other 'not sure' mappers to spend time also checking them.   
 * When leaving a comment against a square, you can have the comment sent as a message to a named mapper - @ followed by the username, such as **@Tallguy** in the text will send a message to Tallguy containing the comments from this box. This is particularly useful when validating, to send a useful encouraging hint to a new mapper, although there are many occassions when the language barrier prevents this.
 
@@ -101,20 +101,14 @@ You may now edit the area using the instructions provided in the project informa
 ![Adding comment to a completed task][]
 
 
-Summary
-------------------
-
-The Tasking Manager can be quite useful for mapping an area rapidly and
-ensuring completeness and data quality.  It can be quite helpful in
-managing many various mappers both in one location and around the world.
 
 [Tasking Manager Login]: /images/en/coordination/tasking_manager/tasking_manager_image01.png
 [Tasking Manager Username_list]: /images/en/coordination/tasking_manager/tasking_manager_image02.png
 [Authorizing access to OSM account by the Tasking Manager]: /images/en/coordination/tasking_manager/tasking_manager_image03.png
-[Tasking Manager About]: /images/en/coordination/tasking_manager/tasking_manager_image011.png
 [Job description]: /images/en/coordination/tasking_manager/tasking_manager_image04.png
 [Picking a task]: /images/en/coordination/tasking_manager/tasking_manager_image05.png
 [Assigned task square]: /images/en/coordination/tasking_manager/tasking_manager_image06.png
+[Editing options]: /images/en/coordination/tasking_manager/tasking_manager_image07.png
 [Marking task as done]: /images/en/coordination/tasking_manager/tasking_manager_image10.png
-[Adding comment to a completed task]: /images/en/coordination/tasking_manager/tasking_manager_image03.png
+[Tasking Manager About]: /images/en/coordination/tasking_manager/tasking_manager_image011.png
 [Tasking Manager Languages]: /images/en/coordination/tasking_manager/tasking_manager_image012.png
