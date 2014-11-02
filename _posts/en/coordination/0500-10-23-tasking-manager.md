@@ -132,7 +132,7 @@ When leaving a comment against a square, you can have the comment sent as a mess
 ### Referring to a particular square when sending an email  
 If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular square within a project (perhaps you need help identifying something from the satellite imagery);  
 1. click on the square concerned  
-2. click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713#task/259' 
+2. click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713#task/259'  
 3. highlight with the mouse all of the text in the address bar, or use the shortcut keys 'Ctrl+a' to select all the text, then use shortcut keys 'Ctrl+c' to copy the text  
 4. in your email, IRC message, or other message,  
 either, mouse right click & paste,  
