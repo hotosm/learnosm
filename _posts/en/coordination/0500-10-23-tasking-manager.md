@@ -74,31 +74,57 @@ Projects are frequently referred to by their Project number, e.g., [**#711 - Ebo
 ## Project details
 
 Everything you need to know about the project! On the left is a description of the mapping project and what is required. On the right side is a grid showing the area to be mapped;  
+* Mauve line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the avaiable imagery, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
 * Pink areas of the map indicate higher priority areas,  
 * Yellow grid squares have been completed,  
 * A yellow border indicates the square is being worked on now,  
 * Green squares have been completed and “validated”, and the remaining squares still need to be completed.  
 
-Click on the **"Instructions” tab**, for instructions on what is required. Some tasks are only suitable for more experienced mappers, and the instructions will explain this. Make sure you read and understand this section - some projects only require the road network, others may require all available information to be added to the map, such as; roads, land use boundaries such as 'residential', rivers and other water features, buildings (their outline should be traced) barriers such as walls and fences, etc.. There will be a section indicating the **Changeset comment** you should copy & paste into your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes. When checking a square marked as complete, validators will expect that the requirements from the instructions tab have all been completed. 
-Clicking on the **“Activity”** tab will show the activity within the task, and  
-clicking the **“Stats” tab** will show a graph of progress & other information. The Stats tab also contains a list of mappers who have completed at least one square within the project - to see which squares they have completed, you can *hover your mouse cursor* over a username, and the squares they have completed will become the only ones visible (**use this to locate the squares you have previously completed**)  
-Click on the **"Contribute"** tab when you are ready to start mapping. You may chose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.
+### Instructions tab
+What is required. Some tasks are only suitable for more experienced mappers, and the instructions will explain this. Make sure you read and understand this section - some projects only require the road network, others may require all available information to be added to the map, such as; roads, land use boundaries such as 'residential', rivers and other water features, buildings (their outline should be traced) barriers such as walls and fences, etc.. There will be a section indicating the **Changeset comment** you should copy & paste into your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes. When checking a square marked as complete, validators will expect that the requirements from the instructions tab have all been completed. 
+
+### Activity tab  
+The activity that has taken place within the task in chronological order.  
+
+### Stats tab  
+Contains a graph of progress & other information. The Stats tab also contains a list of mappers who have completed at least one square within the project - to see which squares they have completed, you can *hover your mouse cursor* over a username, and the squares they have completed will become the only ones visible (**use this to locate the squares you have previously completed**). Once you have located the square by hovering your mouse over the user name, you may click on the square to see the comments that have been left by mappers and validators for the square, which is a useful way of obtaining feedback from validators.  
+
+### Contribute tab  
+Click when you are ready to start mapping. You may chose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.
 
 ![Picking a task][]
 
-Having selected your square you will be able to see if there is any history for this square, such as a mapper starting to map, but realising they do not have time to complete the square.  
-* If you accidentally select a square, you can release it again by clicking on the blue 'x' - shown level with the **Task#26** text in this screenshot.  
-* As soon as you click on the If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square, such as *'Almost complete, small village top left in the square to be traced - I've run out of time, hence releasing this square'*  
-* It is very difficult to be completely certain that you have completed a square - however it is acceptable to mark the square as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then. For the process to work, mappers need to mark squares as complete rather than leaving them for several other 'not sure' mappers to spend time also checking them.   
-* When leaving a comment against a square, you can have the comment sent as a message to a named mapper - @ followed by the username, such as **@Tallguy** in the text will send a message to Tallguy containing the comments from this box. This is particularly useful when validating, to send a useful encouraging hint to a new mapper, although there are many occassions when the language barrier prevents this.
-
+## Selecting a square to map  
 ![Assigned task square][]
+Having selected your square you will be able to see if there is any history for this square, such as a mapper starting to map, but realising they do not have time to complete the square.  
+* If you accidentally select a square, you can release it again by clicking on the blue 'x' - shown level with the **Task#26** text in this screenshot up to the point where you click on the "Start Mapping" button.  
+* Clicking on the **Start Mapping** button locks the square so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the square is automatically released. It is good practice to check on your countdown timer on a regular basis - *it is easy to become engrossed in your mapping and not realise your square has been released, and has now been selected by another mapper, who has now started mapping, which will lead to 'conflicts' & prevent you uploading your data - save frequently & check on the timer.*  
 
-You may now edit the area using the instructions provided in the project information.  When you are finished, you can return to the tasking manager website and add comments about your changes.  Click “Mark task as done” to let other collaborators know that you have finished this grid square.  If you were unable to complete the task, click “Unlock it” to make it available again for other mappers, adding a comment explaining what is still outstanding.
 
-![Marking task as done][]
+### Editing choices
+![Editing options][]
+are presented to you as soon as you lock the square  
+#### Edit with JOSM 
+- when selected (assuming you have set-up JOSM to use remote control *preferences - icon that looks like a tv remote control, click in box allowing remote control* & that you have started JOSM), will automatically load any existing data from OSM into JOSM (*make sure you do not have the "download data automatically" plug-in activated - de-activate under the file menu*), & will also automatically load the imagery for you to trace from,  
+#### iD editor 
+- select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. Some users of the Internet Explorer web browser have experienced problems & Potlatch 2 loads instead. Your original tab or window with the Task Manager will still be present.  
+#### Potlatch 2
+- editor will load in a new window or tab.
+#### Walking Papers / Field Papers
+- For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned & used as a background image for a remote or local mapper to read the information & update the OpenStreeetMap data.  
 
-![Adding comment to a completed task][]
+### Splitting a square  
+Having selected your square and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping, for it to be completed by one person within the 2 hour time limit, in which case it *may* be possible to split the square into 4 smaller squares - there is a limit, which is set by the administrator, on which squares may be split, to prevent the squares becoming unmanageable because they are so small. *Use with caution* If/when squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.
+
+### Releasing a square before it is complete
+If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square, such as *'Almost complete, small village top left in the square to be traced - I've run out of time, hence releasing this square'*  Type the comment in the box, then click the release button.  
+
+### Finishing a square
+It is very difficult to be completely certain that you have completed a square - however it is acceptable to mark the square as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then. For the process to work, mappers need to mark squares as complete rather than leaving them for several other 'not sure' mappers to spend time also checking them. When you have finished editing and think that the square is complete, save any remaining edits with your editing programme, then return to the Tasking Manager, add a comment to the box such as "Complete as far as I can see, but there is cloud covering the top right corner of the square & I cannot see to trace this area", and click on the "Mark Task as Done" button.
+
+### Sending a message from the comment box   
+When leaving a comment against a square, you can have the comment sent as a message to a named mapper - @ followed by the username, such as **@Tallguy** in the text will send a message to Tallguy containing the comments from this box. This is particularly useful when validating, to send a useful encouraging hint to a new mapper, although there are many occassions when the language barrier prevents this.  
+
 
 
 
@@ -109,6 +135,5 @@ You may now edit the area using the instructions provided in the project informa
 [Picking a task]: /images/en/coordination/tasking_manager/tasking_manager_image05.png
 [Assigned task square]: /images/en/coordination/tasking_manager/tasking_manager_image06.png
 [Editing options]: /images/en/coordination/tasking_manager/tasking_manager_image07.png
-[Marking task as done]: /images/en/coordination/tasking_manager/tasking_manager_image10.png
 [Tasking Manager About]: /images/en/coordination/tasking_manager/tasking_manager_image011.png
 [Tasking Manager Languages]: /images/en/coordination/tasking_manager/tasking_manager_image012.png
