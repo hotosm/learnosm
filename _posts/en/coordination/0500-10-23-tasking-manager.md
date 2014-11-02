@@ -56,8 +56,7 @@ You may view projects as a visitor, but to actively participate you must be logg
 
 ## Locating a project
 
--   The current list of projects may be sorted according to;  
-
+The current list of projects may be sorted according to;  
 * High Priority First
 * Creation date, or
 * Last update.  
@@ -95,21 +94,26 @@ Click when you are ready to start mapping. You may chose your square to work on 
 ![Picking a task][]
 
 ## Selecting a square to map  
-![Assigned task square][]
+![Assigned task square][]  
 Having selected your square you will be able to see if there is any history for this square, such as a mapper starting to map, but realising they do not have time to complete the square.  
 * If you accidentally select a square, you can release it again by clicking on the blue 'x' - shown level with the **Task#26** text in this screenshot up to the point where you click on the "Start Mapping" button.  
 * Clicking on the **Start Mapping** button locks the square so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the square is automatically released. It is good practice to check on your countdown timer on a regular basis - *it is easy to become engrossed in your mapping and not realise your square has been released, and has now been selected by another mapper, who has now started mapping, which will lead to 'conflicts' & prevent you uploading your data - save frequently & check on the timer.*  
 
 
 ### Editing choices
-![Editing options][]
+
 are presented to you as soon as you lock the square  
-#### Edit with JOSM 
+![Editing options][]  
+
+#### Edit with JOSM  
 - when selected (assuming you have set-up JOSM to use remote control *preferences - icon that looks like a tv remote control, click in box allowing remote control* & that you have started JOSM), will automatically load any existing data from OSM into JOSM (*make sure you do not have the "download data automatically" plug-in activated - de-activate under the file menu*), & will also automatically load the imagery for you to trace from,  
-#### iD editor 
+
+#### iD editor  
 - select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. Some users of the Internet Explorer web browser have experienced problems & Potlatch 2 loads instead. Your original tab or window with the Task Manager will still be present.  
-#### Potlatch 2
-- editor will load in a new window or tab.
+
+#### Potlatch 2  
+- editor will load in a new window or tab.  
+
 #### Walking Papers / Field Papers
 - For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned & used as a background image for a remote or local mapper to read the information & update the OpenStreeetMap data.  
 
