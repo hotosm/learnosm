@@ -121,7 +121,7 @@ are presented to you as soon as you lock the square
 Having selected your square and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping, for it to be completed by one person within the 2 hour time limit, in which case it *may* be possible to split the square into 4 smaller squares - there is a limit, which is set by the administrator, on which squares may be split, to prevent the squares becoming unmanageable because they are so small. *Use with caution* If/when squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.
 
 ### Releasing a square before it is complete
-If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square, such as *'Almost complete, small village top left in the square to be traced - I've run out of time, hence releasing this square'*  Type the comment in the box, then click the release button.  
+If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square, such as *'Almost complete, small village top left in the square to be traced - I've run out of time, hence releasing this square'*. Type the comment in the box, then click the release button.  
 
 ### Finishing a square
 It is very difficult to be completely certain that you have completed a square - however it is acceptable to mark the square as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then. For the process to work, mappers need to mark squares as complete rather than leaving them for several other 'not sure' mappers to spend time also checking them. When you have finished editing and think that the square is complete, save any remaining edits with your editing programme, then return to the Tasking Manager, add a comment to the box such as "Complete as far as I can see, but there is cloud covering the top right corner of the square & I cannot see to trace this area", and click on the "Mark Task as Done" button.
@@ -133,7 +133,7 @@ When leaving a comment against a square, you can have the comment sent as a mess
 If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular square within a project (perhaps you need help identifying something from the satellite imagery);  
 1. click on the square concerned  
 2. click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713#task/259' 
-3. highlight with the mouse all of the text in the address bar, or use the shortcut keys 'Ctrl+a' to select all the text, then use shortcut keys 'Ctrl+c' to copy the text
+3. highlight with the mouse all of the text in the address bar, or use the shortcut keys 'Ctrl+a' to select all the text, then use shortcut keys 'Ctrl+c' to copy the text  
 4. in your email, IRC message, or other message,  
 either, mouse right click & paste,  
 or shortcut keys 'Ctrl+v', to paste the link into the message. 
