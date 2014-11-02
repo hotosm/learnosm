@@ -34,6 +34,14 @@ For information about the Tasking Manager, HOT sponsors partners & help links cl
 ![Tasking Manager About][]
 
 
+Once you have logged in, you may click on your username in the red banner header to;
+* To access a list of projects for which you have completed squares,
+* Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system), or
+* logout, or
+* see a user list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for, and how many.
+
+![Tasking Manager Username_list][]
+
 ## Getting started with the Tasking Manager
 
 You may view projects as a visitor, but to actively participate you must be logged into the Tasking Manager - use your OpenStreetMap account username & password. Open your Internet browser and go to [tasks.hotosm.org](http://tasks.hotosm.org). You will see a page like this:
@@ -101,6 +109,7 @@ ensuring completeness and data quality.  It can be quite helpful in
 managing many various mappers both in one location and around the world.
 
 [Tasking Manager Login]: /images/en/coordination/tasking_manager/tasking_manager_image01.png
+[Tasking Manager Username_list]: /images/en/coordination/tasking_manager/tasking_manager_image02.png
 [Authorizing access to OSM account by the Tasking Manager]: /images/en/coordination/tasking_manager/tasking_manager_image03.png
 [Tasking Manager About]: /images/en/coordination/tasking_manager/tasking_manager_image011.png
 [Job description]: /images/en/coordination/tasking_manager/tasking_manager_image04.png
