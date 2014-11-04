@@ -29,16 +29,16 @@ The Task Manager initially displays in english - to change to another language c
 ![Tasking Manager Languages][]
 
 
-For information about the Tasking Manager, HOT sponsors partners & help links click on **About** in the red header banner.
+For information about the Tasking Manager, HOT sponsors, partners & help click on **About** at the top of the page.
 
 ![Tasking Manager About][]
 
+Once you have logged in, you may click on your username at the top. Here you can:
 
-Once you have logged in, you may click on your username in the red banner header to;
-* To access a list of projects for which you have completed squares,
-* Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system), or
-* logout, or
-* see a user list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for, and how many.
+- Access a list of projects for which you have completed squares,
+- Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)
+- Logout
+- See a list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for, and how many.
 
 ![Tasking Manager Username_list][]
 
@@ -56,10 +56,11 @@ You may view projects as a visitor, but to actively participate you must be logg
 
 ## Locating a project
 
-The current list of projects may be sorted according to;  
-* High Priority First
-* Creation date, or
-* Last update.  
+The current list of projects may be sorted according to:
+
+- High priority
+- Creation date, or
+- Last update
 
 You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have marked squares as complete, and/or you may use a free text search to locate projects that contain particular text strings, such as **Ebola** (search is not case sensitive).
 
@@ -72,41 +73,47 @@ Projects are frequently referred to by their Project number, e.g., [**#711 - Ebo
 
 ## Project details
 
-Everything you need to know about the project! On the left is a description of the mapping project and what is required. On the right side is a grid showing the area to be mapped;  
-* Mauve line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the avaiable imagery, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
-* Pink areas of the map indicate higher priority areas,  
-* Yellow grid squares have been completed,  
-* A yellow border indicates the square is being worked on now,  
-* Green squares have been completed and “validated”, and the remaining squares still need to be completed.  
+Everything you need to know about the project is here! On the left is a description 
+of the mapping project and what is required. On the right side is a grid showing 
+the area to be mapped;  
+
+- Mauve line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the avaiable imagery, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
+- Pink areas of the map indicate higher priority areas,  
+- Yellow grid squares have been completed,  
+- A yellow border indicates the square is being worked on now,  
+- Green squares have been completed and “validated”, and the remaining squares still need to be completed.  
 
 ### Instructions tab
-What is required. Some tasks are only suitable for more experienced mappers, and the instructions will explain this. Make sure you read and understand this section - some projects only require the road network, others may require all available information to be added to the map, such as; roads, land use boundaries such as 'residential', rivers and other water features, buildings (their outline should be traced) barriers such as walls and fences, etc.. There will be a section indicating the **Changeset comment** you should copy & paste into your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes. When checking a square marked as complete, validators will expect that the requirements from the instructions tab have all been completed. 
+This shows what is required in the mapping task. Some tasks are only suitable for more experienced mappers, and the instructions will explain this. Make sure you read and understand this section - some projects only require the road network, others may require all available information to be added to the map, such as; roads, land use boundaries such as 'residential', rivers and other water features, buildings (their outline should be traced) barriers such as walls and fences, etc.. There will be a section indicating the **Changeset comment** you should copy & paste into your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes. When checking a square marked as complete, validators will expect that the requirements from the instructions tab have all been completed. 
 
 ### Activity tab  
-The activity that has taken place within the task in chronological order.  
+This shows activity that has taken place within the task in chronological order.  
 
 ### Stats tab  
-Contains a graph of progress & other information. The Stats tab also contains a list of mappers who have completed at least one square within the project - to see which squares they have completed, you can *hover your mouse cursor* over a username, and the squares they have completed will become the only ones visible (**use this to locate the squares you have previously completed**). Once you have located the square by hovering your mouse over the user name, you may click on the square to see the comments that have been left by mappers and validators for the square, which is a useful way of obtaining feedback from validators.  
+This contains a graph of progress & other information. The Stats tab also contains a list of mappers who have completed at least one square within the project - to see which squares they have completed, you can *hover your mouse cursor* over a username, and the squares they have completed will become the only ones visible (**use this to locate the squares you have previously completed**). Once you have located the square by hovering your mouse over the user name, you may click on the square to see the comments that have been left by mappers and validators for the square, which is a useful way of obtaining feedback from validators.  
 
 ### Contribute tab  
-Click when you are ready to start mapping. You may chose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.
+Click when you are ready to start mapping. You may choose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.
 
 ![Picking a task][]
 
 ## Selecting a square to map  
 ![Assigned task square][]  
-Having selected your square you will be able to see if there is any history for this square, such as a mapper starting to map, but realising they do not have time to complete the square.  
-* If you accidentally select a square, you can release it again by clicking on the blue 'x' - shown level with the **Task#26** text in this screenshot up to the point where you click on the "Start Mapping" button.  
-* Clicking on the **Start Mapping** button locks the square so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the square is automatically released. It is good practice to check on your countdown timer on a regular basis - *it is easy to become engrossed in your mapping and not realise your square has been released, and has now been selected by another mapper, who has now started mapping, which will lead to 'conflicts' & prevent you uploading your data - save frequently & check on the timer.*  
+Having selected your square you will be able to see if there is any history for this square, such as a mapper starting to map, but realizing they do not have time to complete the square.  
+
+If you accidentally select a square, you can release it again by clicking on the blue 'x' - shown next to the **Task#26** text in the screenshot above.
+
+Clicking on the **Start Mapping** button locks the square so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the square is automatically released. It is good practice to check on your countdown timer on a regular basis - it is easy to become engrossed in your mapping and not realise your square has been released, and has now been selected by another mapper who has started mapping it too. This can lead to conflicts and problems.
 
 
 ### Editing choices
 
-are presented to you as soon as you lock the square  
+Different options for editing are are presented to you as soon as you lock a square.
+
 ![Editing options][]  
 
 #### Edit with JOSM  
-- when selected (assuming you have set-up JOSM to use remote control *preferences - icon that looks like a tv remote control, click in box allowing remote control* & that you have started JOSM), will automatically load any existing data from OSM into JOSM (*make sure you do not have the "download data automatically" plug-in activated - de-activate under the file menu*), & will also automatically load the imagery for you to trace from,  
+- when selected (assuming you have set-up JOSM to use remote control), will automatically load any existing data from OSM into JOSM (*make sure you do not have the "download data automatically" plug-in activated - de-activate under the file menu*), & will also automatically load the imagery for you to trace from  
 
 #### iD editor  
 - select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. Some users of the Internet Explorer web browser have experienced problems & Potlatch 2 loads instead. Your original tab or window with the Task Manager will still be present.  
@@ -131,6 +138,7 @@ When leaving a comment against a square, you can have the comment sent as a mess
 
 ### Referring to a particular square when sending an email  
 If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular square within a project (perhaps you need help identifying something from the satellite imagery);  
+
 1. click on the square concerned  
 2. click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713#task/259'  
 3. highlight with the mouse all of the text in the address bar, or use the shortcut keys 'Ctrl+a' to select all the text, then use shortcut keys 'Ctrl+c' to copy the text  
