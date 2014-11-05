@@ -168,6 +168,19 @@ If you need to send a message, such as an email or an IRC message, and you are q
 either, mouse right click & paste,  
 or shortcut keys 'Ctrl+v', to paste the link into the message. 
 
+### Editing hints and tips
+By now you have a good understanding of what the Tasking Manager is, and some of the various functions it supports. Unlike normal editing, this tool is often used for time critical projects with many participants - this may be a little bit different to what you are used to. 
+
+Some general advice to heed when working in this tool:
+
+ * Avoid mapping far outside of your square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further.
+ * Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off.
+ * If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.
+ * If you make a serious mistake - for example, deleting a major feature or relation - use the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.
+ * Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved.
+ * Avoid validating your own work - a second pair of eyes will always lead to better quality mapping.
+ * Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.
+
 
 [Tasking Manager Login]: /images/en/coordination/tasking_manager/tasking_manager_image01.png
 [Tasking Manager Username_list]: /images/en/coordination/tasking_manager/tasking_manager_image02.png
