@@ -84,7 +84,23 @@ the area to be mapped;
 - Green squares have been completed and “validated”, and the remaining squares still need to be completed.  
 
 ### Instructions tab
-This shows what is required in the mapping task. Some tasks are only suitable for more experienced mappers, and the instructions will explain this. Make sure you read and understand this section - some projects only require the road network, others may require all available information to be added to the map, such as; roads, land use boundaries such as 'residential', rivers and other water features, buildings (their outline should be traced) barriers such as walls and fences, etc.. There will be a section indicating the **Changeset comment** you should copy & paste into your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes. When checking a square marked as complete, validators will expect that the requirements from the instructions tab have all been completed. 
+This shows what is required in the mapping task. Tasks range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. 
+
+Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include
+
+- Road networks: Used by people on the ground to load into hand held navigation tools, and to work out how to access remote areas
+- Mapping villages: Often used to identify places where people live and may be impacted, as well as 
+- Mapping buildings: Used for damage assessments or contact tracing with diseases
+- Mapping rivers, walls and other features
+
+Not all areas of the world are similar to your own, so specific tagging advice may be provided. For example, Africa's road network is very different to typical American or European highway systems.
+
+There will be a section indicating the **Changeset comment** you should copy & paste into your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes.
+
+Sometimes, task specific imagery may be available - you may need to agree to a license in order to access it.
+Instructions usually will indicate the easiest way to load this into editors such as JOSM.
+
+When checking a square marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire tile is quite difficult - guidance below is available around unlocking tiles; as well as providing useful feedback for the next mapper.
 
 ### Activity tab  
 This shows activity that has taken place within the task in chronological order.  
