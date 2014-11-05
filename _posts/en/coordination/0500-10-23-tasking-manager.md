@@ -77,7 +77,7 @@ Everything you need to know about the project is here! On the left is a descript
 of the mapping project and what is required. On the right side is a grid showing 
 the area to be mapped;  
 
-- Mauve line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the avaiable imagery, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
+- Mauve line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
 - Pink areas of the map indicate higher priority areas,  
 - Yellow grid squares have been completed,  
 - A yellow border indicates the square is being worked on now,  
