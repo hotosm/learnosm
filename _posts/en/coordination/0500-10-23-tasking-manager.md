@@ -125,7 +125,13 @@ Different options for editing are are presented to you as soon as you lock a squ
 - For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned & used as a background image for a remote or local mapper to read the information & update the OpenStreeetMap data.  
 
 ### Splitting a square  
-Having selected your square and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping, for it to be completed by one person within the 2 hour time limit, in which case it *may* be possible to split the square into 4 smaller squares - there is a limit, which is set by the administrator, on which squares may be split, to prevent the squares becoming unmanageable because they are so small. *Use with caution* If/when squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.
+Having selected your square and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping. An example of this may be tracing buildings in dense urban areas, or locating small villages in large areas.
+
+As guidance, where it isn't possible for one person to complete within the 2 hour time limit you can often split the task into 4 smaller areas.
+
+*Use with caution* If/when squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.
+
+Be aware that other useful comments about the work previously completed will no longer be available.
 
 ### Releasing a square before it is complete
 If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square, such as *'Almost complete, small village top left in the square to be traced - I've run out of time, hence releasing this square'*. Type the comment in the box, then click the release button.  
