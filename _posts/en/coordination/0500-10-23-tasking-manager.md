@@ -13,7 +13,7 @@ In this section, we look at the HOT Tasking Manager, an intuitive tool that mapp
 
 The OSM Tasking Manager allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas.
 
-This allows people both on the ground and working remotely (also sometimes referred to as an 
+This allows people both on the ground and working remotely (also sometimes referred to as 
 "armchair mappers") to collaborate effectively, rapidly, and avoid accidental rework being required due to conflicts.
 
 
