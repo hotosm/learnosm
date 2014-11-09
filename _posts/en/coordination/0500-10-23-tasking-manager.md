@@ -30,7 +30,7 @@ This allows people both on the ground and working remotely (also sometimes refer
 
 ## Options & links
 
-The Task Manager initially displays in english - to change to another language click on **en** in the red header banner.
+The Task Manager initially displays in English - to change to another language click on **en** in the red header banner.
 
 ![Tasking Manager Languages][]
 
@@ -68,7 +68,7 @@ The current list of projects may be sorted according to:
 - Creation date, or
 - Last update
 
-You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have marked squares as complete, and/or you may use a free text search to locate projects that contain particular text strings, such as **Ebola** (search is not case sensitive).
+You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have participated, and/or you may use a free text search to locate projects that contain particular text strings, such as **Ebola** (search is not case sensitive).  
 
 Projects are frequently referred to by their Project number, e.g., [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711)
 
@@ -87,12 +87,13 @@ the area to be mapped;
 - Pink areas of the map indicate higher priority areas,  
 - Yellow grid squares have been completed,  
 - A yellow border indicates the square is being worked on now,  
-- Green squares have been completed and “validated”, and the remaining squares still need to be completed.  
+- Green squares have been completed and “validated”, and  
+- The remaining squares still need to be completed.  
 
 ### Instructions tab
 This shows what is required in the mapping task. Tasks range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. 
 
-Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include
+Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:
 
 - Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas
 - Mapping villages: Often used to identify places where people live and may be impacted
@@ -135,15 +136,15 @@ It is good practice to check on your countdown timer on a regular basis - it is 
 
 ### Editing choices
 
-Different options for editing are are presented to you as soon as you lock a square.
+Different options for editing are presented to you as soon as you lock a square.
 
 ![Editing options][]  
 
 #### Edit with JOSM  
-- When selected (assuming you have set-up JOSM to use remote control), will automatically load any existing data from OSM into JOSM (*make sure you do not have the "download data automatically" plug-in activated - de-activate under the file menu*), & will also automatically load the imagery for you to trace from  
+- When selected (assuming you have set-up JOSM to use remote control), will automatically load any existing data from OSM into JOSM (*make sure you do not have the "download data automatically" plug-in activated - de-activate under the file menu*), & will also automatically load the imagery for you to trace from.  
 
 #### iD editor  
-- Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. Some users of the Internet Explorer web browser have experienced problems & Potlatch 2 loads instead. Your original tab or window with the Task Manager will still be present.  
+- Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
 
 #### Potlatch 2  
 - Editor will load in a new window or tab.  
@@ -160,14 +161,15 @@ As guidance, where it isn't possible for one person to complete within the 2 hou
 
 Be aware that other useful comments about the work previously completed will no longer be available.
 
-### Releasing a square before it is complete
+### Unlocking a square before it is complete
 If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square.
 
 Simply detail what remains and choose **unlock**. Make sure your comments are relevant and aimed to help out the next mapper.
 
 For example:
 
-    Almost complete, small village top left in the square to be traced though
+    Almost complete, small village top left 
+    in the square to be traced though
 
 ### Finishing a square
 It is very difficult to be completely certain that you have completed a square - however it is acceptable to mark the square as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then. 
@@ -187,7 +189,10 @@ Much like Twitter, simply use an @ followed by the username. This will send a me
 
 For example:
 
-    @Tallguy nice work tracing the building details here. You missed a small group of houses on the upper left of the tile - I added a few in, but some still remain.
+    @Tallguy nice work tracing the building  
+    details here. You missed a small group  
+    of houses on the upper left of the tile,  
+    I added a few in, but some still remain.
 
 This is particularly useful when validating or adding on another's previous work - you can provide feedback, thanks or more.
 
@@ -196,7 +201,7 @@ Be aware that many people from around the world will be participating, so prefer
 
 
 ### Referring to a particular square when sending an email  
-If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular square within a project (perhaps you need help identifying something from the satellite imagery);  
+If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular square within a project (perhaps you need help identifying something from the satellite imagery):  
 
 1. Click on the square concerned  
 2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713#task/259'  
@@ -204,6 +209,22 @@ If you need to send a message, such as an email or an IRC message, and you are q
 4. In your email, IRC message, or other message,  
 either, mouse right click & paste,  
 or shortcut keys **Ctrl+V**, to paste the link into the message. 
+
+### Getting live help 
+![IRC_help][] 
+
+From the tasking manager;  
+1. Click on **OSM HOT IRC Channel #hot**  
+2. Enter a username (your OSM username?), or use the preset characters  
+3. At the bottom of the dropdown list select **hot**  
+
+![IRC using][]  
+
+- To the right of the screen is a list of users that are online now.  
+- Type your message in the box at the bottom left of the screen (this is sometimes temporarily obscured by other text, but this will disappear as you select the box.  
+- To direct a message to a particular individual, include their username from the list on the right within your message. Type, then use the return key.  
+- Alternatively use an IRC client of your choice.
+
 
 ### Editing hints and tips
 By now you have a good understanding of what the Tasking Manager is, and some of the various functions it supports. Unlike normal editing, this tool is often used for time critical projects with many participants - this may be a little bit different to what you are used to. 
@@ -226,5 +247,7 @@ Some general advice to heed when working in this tool:
 [Picking a task]: /images/en/coordination/tasking_manager/tasking_manager_image05.png
 [Assigned task square]: /images/en/coordination/tasking_manager/tasking_manager_image06.png
 [Editing options]: /images/en/coordination/tasking_manager/tasking_manager_image07.png
+[IRC_help]: /images/en/coordination/tasking_manager/tasking_manager_image08.png
+[IRC using]: /images/en/coordination/tasking_manager/tasking_manager_image09.png
 [Tasking Manager About]: /images/en/coordination/tasking_manager/tasking_manager_image011.png
 [Tasking Manager Languages]: /images/en/coordination/tasking_manager/tasking_manager_image012.png
