@@ -35,7 +35,7 @@ Télécharger JOSM
     recherche
 -   Le site doit ressembler à ça:
 
-    ![]({{site.baseurl}}/images/start_josm_image05_en.png)
+    ![]({{site.baseurl}}/images/start_josm_image05_fr.png)
 
 -   Si vous utilisez Windows, cliquez sur le lien «Installeur Windows». Si vous
     avez un autre système d'exploitation, cliquez sur le lien adéquat. Le
