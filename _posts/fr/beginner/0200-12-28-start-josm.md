@@ -74,27 +74,6 @@ barre de menu du haut, puis choisissez «Préférences».
 
 ![]({{site.baseurl}}/images/start_josm_image13_en.png)
 
-### Ajouter l'imagerie Bing
-
-Nous voulons pouvoir utiliser des images aériennes quand nous allons éditer la
-carte. Il faut donc les activer.
-
--   Sur la partie gauche de la fenêtre des
-    préférences, il y a différentes icônes correspondant aux différents types
-    de paramètres. Cliquez sur l'icône indiquant «WMS TMS». Vous devrez
-    peut-être descendre dans la fenêtre pour le trouver:
-  
-    ![]({{site.baseurl}}/images/start_josm_image07_en.png)
-  
-    ![]({{site.baseurl}}/images/start_josm_image02_en.png)
-
--   Cliquez sur «Bing Sat», puis sur «Activer».
-
-    ![]({{site.baseurl}}/images/start_josm_image11_en.png)
-
--   «Bing Sat» doit maintenant apparaître dans la liste sous le bouton
-    «Activer».
-
 ### Ajouter des modèles d'attributs
 
 Si vous avez un fichier qui doit être ajouté aux modèles d'attributs, c'est
