@@ -222,8 +222,10 @@ From the tasking manager;
 
 - To the right of the screen is a list of users that are online now.  
 - Type your message in the box at the bottom left of the screen (this is sometimes temporarily obscured by other text, but this will disappear as you select the box.  
-- To direct a message to a particular individual, include their username from the list on the right within your message. Type, then use the return key.  
-- Alternatively use an IRC client of your choice.
+- To direct a message to a particular individual, include their username from the list on the right within your message. Type, then use the return key to submit your comment. The system is 'live' so wait for an answer - your username will often be used in the reply to show you the comment is directed to you. You will normally receive a reply within a few seconds, so please wait.  
+- An alternative simple system can be found at [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
+- Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
+- Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
 
 
 ### Editing hints and tips
@@ -236,7 +238,7 @@ Some general advice to heed when working in this tool:
  * If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.
  * If you make a serious mistake - for example, deleting a major feature or relation - use the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.
  * Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved.
- * Avoid validating your own work - a second pair of eyes will always lead to better quality mapping.
+ * You must not validate your own work - a second pair of eyes will always lead to better quality mapping.
  * Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.
 
 
