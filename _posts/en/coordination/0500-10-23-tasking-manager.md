@@ -120,7 +120,7 @@ The Stats tab also contains a list of mappers who have completed at least one sq
 Once you have located the square by hovering your mouse over the user name, you may click on the square to see the comments that have been left by mappers and validators for the square, which is a useful way of obtaining feedback from validators.  
 
 ### Contribute tab  
-Click when you are ready to start mapping. You may choose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.
+Click when you are ready to start mapping. You may choose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option. **Caution re "Take a Task at random** - if all of the squares on the project you are working on are either marked complete or already locked by another mapper, this option will allocate a task square to you for validation. For more information about validation see [OSM wiki entry "OSM Tasking Manager/Validating data"](https://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data). If you have any doubts about your mapping ability, do not attempt to validate, and release the square.
 
 ![Picking a task][]
 
