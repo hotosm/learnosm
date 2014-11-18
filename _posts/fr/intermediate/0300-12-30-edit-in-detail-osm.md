@@ -310,7 +310,7 @@ chaque polygone.
 Les relations sont utilisées pour représenter tout ce qui nécessite de
 définir une collection d'objets. Différentes collections d'objets
 peuvent être définies avec une relation, par exemple pour des lignes de
-bus (une collection de lignes), des objets longs et complexes (rivières
+bus (une collection de lignes et de points), des objets longs et complexes (rivières
 ou routes), ou des polygones multiples qui font tous partie du même
 endroit (comme les bâtiments d'une université).
 
