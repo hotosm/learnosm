@@ -87,9 +87,13 @@ Having selected the project you are going to work on, now select a square and th
 
 
 ## Checking on the existing data - JOSM
+I've clicked on one of the existing features in the OSM data, and 
 
 ![JOSM 2][]
+
 # Further Reading
+
+-  [West African HOT Mapping Tips by user Bgirardot](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
 
 
 [JOSM 1]: /images/en/beginner/09_remote/JOSM_1.png
