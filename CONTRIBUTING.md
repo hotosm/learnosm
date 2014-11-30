@@ -15,7 +15,7 @@ This workflow does not require the translator to install or run any software pro
 2.  Ensure the chapter of LearnOSM is up to date (probably from English).  
 3.  Create a copy of the original document in the new language folder, ensure it has the header explaining that it is in the process of being translated.  
 4. Translator gets a github account & is directed to the file for translation.  
-5. Translator replaces the original text in the document with new language pull requests as they go - as per [online github editing tools](https://help.github.com/articles/editing-files-in-another-user-s-repository/). The tranlated text will only appear on LearnOSM when the 'pull request' has been authorised by a site administrator.  
+5. Translator replaces the original text in the document with new language, issuing pull requests as they go - as per [online github editing tools](https://help.github.com/articles/editing-files-in-another-user-s-repository/). The tranlated text will only appear on LearnOSM when the 'pull request' has been authorised by a site administrator.  
 6.  Translator can view the document by clicking on it in the repository - ensure the link is included in the issue, so that it is easy for all parties to find.    
 7. While translator is carrying out steps 4, 5 & 6,  git-hubber obtains screenshots in correct language & puts them in appropriate folder, updating the links in the document that translator is working on.  
 
