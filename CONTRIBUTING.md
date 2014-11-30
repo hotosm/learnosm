@@ -7,6 +7,24 @@ contributions. We can also coordinate work with ['issues' here on github](https:
 
 For minor edits (typos, spelling, etc), you can use the [online github editing tools](https://help.github.com/articles/editing-files-in-another-user-s-repository/) to propose changes.
 
+### Translation workflow - new from November 2014  
+This workflow does not require the translator to install or run any software programmes on their computer & should be easy to administer. It has only become possible due to recent improvements to the eiditing process, explained here [online github editing tools](https://help.github.com/articles/editing-files-in-another-user-s-repository/).  
+
+**Workflow**  
+1.  When a volunteer translator makes contact agree a section/chapter for translation & open an issue on LearnOSM ['issues' here on github](https://github.com/hotosm/learnosm/issues?state=open) listing the translator, github helper and exactly which section of LearnOSM is being translated.  
+2.  Ensure the chapter of LearnOSM is up to date (probably from English).  
+3.  Create a copy of the original document in the new language folder, ensure it has the header explaining that it is in the process of being translated.
+4. Translator gets a github account & is directed to the file for translation.
+5. Translator replaces the original text in the document with new language pull requests as they go - as per [online github editing tools](https://help.github.com/articles/editing-files-in-another-user-s-repository/). The tranlated text will only appear on LearnOSM when the 'pull request' has been authorised by a site administrator.
+6.  Translator can view the document by clicking on it in the repository - for instance this https://github.com/Nick-Tallguy/learnosm/blob/gh-pages/_posts/en/coordination/0500-10-23-tasking-manager.md appears quite well on the site & saves the translator having to install jekyll or using any other software programme.
+7. While translator is carrying out steps 4, 5 & 6,  git-hubber obtains screenshots in correct language & puts them in appropriate folder, updating the links in the document that translator is working on.
+
+#### In translation header
+
+This section of LearnOSM is currently undergoing ongoing translation.  
+
+
+### Previous translation system - may still be used if translator prefers this workflow.
 Daniel Joseph has written a [detailed explanation of the translation workflow](https://github.com/AmericanRedCross/Guides/blob/master/TranslationWorkflow_LearnOSM/translatorWorkflow.md) assuming no technical/github know-how.
 
 The outline procedure for contributing is: [fork the LearnOSM repository](https://help.github.com/articles/fork-a-repo), improve content or site, then issue a [pull request](https://help.github.com/articles/using-pull-requests).
