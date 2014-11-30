@@ -21,7 +21,7 @@ This workflow does not require the translator to install or run any software pro
 
 #### In translation header
 
-This section of LearnOSM is currently undergoing ongoing translation.  
+This section of LearnOSM is currently undergoing ongoing translation. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md)
 
 
 ### Previous translation system - may still be used if translator prefers this workflow.
