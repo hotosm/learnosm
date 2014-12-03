@@ -88,7 +88,7 @@ the area to be mapped;
 - Yellow grid squares have been completed,  
 - A yellow border indicates the square is being worked on now,  
 - Green squares have been completed and “validated”, and  
-- The remaining squares still need to be completed.  
+- The remaining squares still need to be completed, or have previously been invalidated.  
 
 ### Instructions tab
 This shows what is required in the mapping task. Tasks range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. 
