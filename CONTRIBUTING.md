@@ -7,7 +7,7 @@ contributions. We can also coordinate work with ['issues' here on github](https:
 
 For minor edits (typos, spelling, etc), you can use the [online github editing tools](https://help.github.com/articles/editing-files-in-another-user-s-repository/) to propose changes.
 
-### Translation workflow - new from November 2014  
+## Translation workflow - new from November 2014  
 This workflow does not require the translator to install or run any software programmes on their computer & should be easy to administer. It has only become possible due to recent improvements to the eiditing process, explained here [online github editing tools](https://help.github.com/articles/editing-files-in-another-user-s-repository/).  
 
 **Workflow**  
