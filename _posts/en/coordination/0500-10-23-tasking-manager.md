@@ -242,6 +242,15 @@ Some general advice to heed when working in this tool:
  * Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.
 
 
+Moving Forward
+--------------
+
+Click on the link for further reading on:  
+
+*  [To start the beginner series about OpenStreetMap & learning to map](/en/beginner/start-osm/)  
+*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](/en/coordination/remote/)  
+
+
 [Tasking Manager Login]: /images/en/coordination/tasking_manager/tasking_manager_image01.png
 [Tasking Manager Username_list]: /images/en/coordination/tasking_manager/tasking_manager_image02.png
 [Authorizing access to OSM account by the Tasking Manager]: /images/en/coordination/tasking_manager/tasking_manager_image03.png
