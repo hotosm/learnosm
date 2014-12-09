@@ -6,6 +6,8 @@ lang: nl
 category: coordination
 ---
 
+This section of LearnOSM is currently undergoing ongoing translation. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md)
+
 # Tasking Manager
 
 
