@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Tasking Manager
-permalink: /en/coordination/tasking-manager/
-lang: en
+permalink: /nl/coordination/tasking-manager/
+lang: nl
 category: coordination
 ---
 
@@ -247,8 +247,8 @@ Moving Forward
 
 Click on the link for further reading on:  
 
-*  [To start the beginner series about OpenStreetMap & learning to map](/en/beginner/start-osm/)  
-*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](/en/coordination/remote/)  
+*  [To start the beginner series about OpenStreetMap & learning to map](/nl/beginner/start-osm/)  
+*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](/nl/coordination/remote/)  
 
 
 [Tasking Manager Login]: /images/en/coordination/tasking_manager/tasking_manager_image01.png
