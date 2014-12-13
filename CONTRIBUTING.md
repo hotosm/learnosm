@@ -23,7 +23,7 @@ This workflow does not require the translator to install or run any software pro
 
 This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
 
-Also consider addind the header in the translation language.
+Also consider adding the header in the translation language.
 
 ### Previous translation system - may still be used if the translator prefers this workflow.
 Daniel Joseph has written a [detailed explanation of the translation workflow](https://github.com/AmericanRedCross/Guides/blob/master/TranslationWorkflow_LearnOSM/translatorWorkflow.md) assuming no technical/github know-how.
