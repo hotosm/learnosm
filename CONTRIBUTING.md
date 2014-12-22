@@ -7,12 +7,20 @@ contributions. We can also coordinate work with ['issues' here on github](https:
 
 For minor edits (typos, spelling, etc), you can use the [online github editing tools](https://help.github.com/articles/editing-files-in-another-user-s-repository/) to propose changes.
 
-## Translation workflow - new from November 2014  
+# Translation workflow - new from November 2014  
+Choose from one of the three options. The file will need to be created & placed in the correct folder.   
 
-**Option A**  
+#### In translation header
+
+This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
+
+Also consider adding the header in the translation language.
+
+
+## Option A  
 The document for translation is sent as an email attachment to the translator. The files are simple text files and can be edited with any text editor, or a stand alone markdown editor may be installed by the editor if they prefer. At intervals the translator emails the partially translated file back, and the updates are integrated back into the site.   
 
-**Option B**  
+## Option B
 This workflow does not require the translator to install or run any software programmes on their computer & should be easy to administer. It has only become possible due to recent improvements to the editing process, explained here [online github editing tools](https://help.github.com/articles/editing-files-in-another-user-s-repository/).  
 
 **Workflow for Option B**  
@@ -24,14 +32,9 @@ This workflow does not require the translator to install or run any software pro
 6.  The translator can view the document by clicking on it in the repository - ensure the link is included in the issue, so that it is easy for all parties to find.    
 7.  Either the translator or the github helper obtains screenshots in correct language & puts them in appropriate folder, updating the links in the translated document.  
 
-#### In translation header
 
-This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
-
-Also consider adding the header in the translation language.
-
-### Previous translation system - may still be used if the translator prefers this workflow.
-**Option C**  Daniel Joseph has written a [detailed explanation of the translation workflow](https://github.com/AmericanRedCross/Guides/blob/master/TranslationWorkflow_LearnOSM/translatorWorkflow.md) assuming no technical/github know-how.
+## Option C  
+Daniel Joseph has written a [detailed explanation of the translation workflow](https://github.com/AmericanRedCross/Guides/blob/master/TranslationWorkflow_LearnOSM/translatorWorkflow.md) assuming no technical/github know-how.
 
 The outline procedure for contributing is: [fork the LearnOSM repository](https://help.github.com/articles/fork-a-repo), improve content or site, then issue a [pull request](https://help.github.com/articles/using-pull-requests).
 
