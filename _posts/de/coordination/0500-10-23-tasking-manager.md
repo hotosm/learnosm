@@ -12,9 +12,9 @@ This section of LearnOSM is in the process of being translated. If you would lik
 
 ---
 
-In diesem Kapitel werfen wir einen Blick auf den HOT Tasking Manager, ein intuitives Werkzeug, mit dem Bearbeiter ein  Gitternetz über ein Gebiet legen können und danach gemeinsam das Gebiet kartographieren können, ohne Chaos anzurichten. 
+In diesem Kapitel werfen wir einen Blick auf den HOT Tasking Manager. Mit dieser intuitiven Applikation kann man ein  Gitternetz über ein Gebiet legen, damit viele Bearbeiter Objekte daraus erfassen können, ohne sich gegenseitig zu behindern. 
 
-Der OSM Tasking Manager erlaubt es Bearbeitern aus aller Welt, dabei zu helfen, ein bestimmtes Gebiet mit einem Minimum an überlappenden Bereichen zu kartographieren.
+Der OSM Tasking Manager erlaubt es Bearbeitern aus aller Welt, dabei zu helfen, ein bestimmtes Gebiet mit einem Minimum an überlappenden Bereichen kartographisch zu erfassen.
 
 Dadurch können sowohl Leute vor Ort, als auch diejenigen, die aus der Ferne beitragen (die manchmal "armchair mapper", also etwa "Sesselkartographen", genannt werden), effizient und schnell zusammenarbeiten. Außerdem werden Überarbeitungen zur Behebung von Konflikten vermieden.
 
@@ -22,11 +22,11 @@ Dadurch können sowohl Leute vor Ort, als auch diejenigen, die aus der Ferne bei
 
 ## Überblick über den Ablauf
 
-1. Ein Projektmanager wählt ein Gebiet aus, das in OpenStreetMap überarbeitet werden soll. Der Projektmanager stellt sicher, dass passende Satellitenbilder vorhanden sind, damit Bearbeiter Objekte eintragen können und erstellt ein Projekt zu dem Gebiet. Bei dem Projekt werden der erforderliche Detailreichtum und die Dringlichkeit angegeben sowie weitere Informationen die die Bearbeiter benötigen. Wenn er damit fertig ist, veröffentlicht der Projektmanager das Projekt im Tasking Manager. Er kann aber auch später noch Änderungen vornehmen.
+1. Ein Projektmanager wählt ein Gebiet aus, das in OpenStreetMap überarbeitet werden soll. Der Projektmanager stellt sicher, dass passende Satellitenbilder vorhanden sind, damit Bearbeiter Objekte eintragen können und erstellt ein Projekt. Er trägt als Projektdaten den erforderliche Detailreichtum und die Dringlichkeit ein sowie weitere Informationen die die Bearbeiter benötigen. Danach veröffentlicht der Projektmanager das Projekt im Tasking Manager. Er kann aber auch später noch Änderungen vornehmen.
 
 2. Ein Bearbeiter wählt eine Kachel aus, bearbeitet sie vollständig, und markiert sie als erledigt.
 
-3. Ein anderer Bearbeiter überprüft, dass die Kachel zufriedenstellend und vollständig bearbeitet wurde, und markiert sie als geprüft.
+3. Ein anderer Bearbeiter überprüft, dass die Kachel den Anweisungen entsprechend und vollständig bearbeitet wurde, und markiert sie als geprüft.
 
 4. Der Projektfortschritt wird auf dem Reiter "Statistik" veranschaulicht. Ein Projekt kann vom Projektmanager in seiner Dringlichkeit herabgestuft oder auch archiviert werden.
 
@@ -53,7 +53,7 @@ Nachdem Sie eingeloggt sind, können Sie auf Ihren Benutzernamen oben auf der Se
 
 ## Erste Schritte mit dem Tasking Manager
 
-Als Besucher können Sie Projekte ansehen, aber um aktiv mitzuwirken, müssen Sie in den Tasking Manager eingeloggt sein - verwenden Sie bitte Ihren OpenStreetMap Benutzernamen und Passwort. Rufen Sie  [tasks.hotosm.org](http://tasks.hotosm.org) in Ihrem Internet-Browser auf. Sie erhalten eine Seite, die ungefähr so aussieht:
+Als Besucher können Sie Projekte ansehen, aber um aktiv mitzuwirken, müssen Sie in den Tasking Manager eingeloggt sein - verwenden Sie bitte Ihren OpenStreetMap-Benutzernamen und -Passwort. Rufen Sie  [tasks.hotosm.org](http://tasks.hotosm.org) in Ihrem Internet-Browser auf. Sie erhalten eine Seite, die ungefähr so aussieht:
 
 ![Tasking Manager Login][]
 
@@ -82,9 +82,9 @@ Projekte werden meistens über ihre Nummer angesprochen, z.B., [**#711 - Ebola O
 
 ## Informationen über das Projekt
 
-Hier finden Sie alles, was Sie über das Projekt wissen müssen! Links steht eine Beschreibung des Projekts und worauf es bei der Bearbeitung ankommt. Rechts finden Sie das Gitter über dem zu bearbeitenden Gebiet;  
+Hier finden Sie alles, was Sie über das Projekt wissen müssen! Links steht eine Beschreibung des Projekts und worauf es bei der Bearbeitung ankommt. Rechts finden Sie das Gitter über dem zu bearbeitenden Gebiet  
 
-- Eine hellviolette Linie bezeichnet die Grenze des zu bearbeitenden Gebiets. Diese Linie verläuft normalerweise in den am Rand gelegenen Kacheln und kann eine ungewöhnliche Form haben, da sie meistens die Grenze der verfügbaren Satellitenbilder darstellt. Obwohl evtl. Kacheln ausserhalb dieser Grenze liegen und bearbeitet werden können, ist das nicht erforderlich und wird nicht unbedingt beim Validieren berücksichtigt.  
+- Eine hellviolette Linie bezeichnet die Grenze des zu bearbeitenden Gebiets. Diese Linie verläuft normalerweise in den am Rand gelegenen Kacheln und kann eine beliebige Form haben, da sie meistens die Grenze der verfügbaren Satellitenbilder darstellt. Obwohl evtl. Kacheln ausserhalb dieser Grenze liegen und bearbeitet werden können, ist das nicht erforderlich und wird nicht unbedingt bei der Überprüfung berücksichtigt.  
 - Rosa markierte Bereiche auf der Karte bezeichnen Gebiete hoher Priorität,  
 - gelbe Kacheln wurden als "erledigt" markiert,  
 - gelb umrandete Kacheln werden gerade bearbeitet,  
@@ -92,12 +92,12 @@ Hier finden Sie alles, was Sie über das Projekt wissen müssen! Links steht ein
 - die übrigen Kacheln müssen noch vervollständigt werden oder wurden beim Überprüfen zurückgesetzt.  
 
 ### Reiter "Anweisungen"
-Hier steht, worauf es bei dem Projekt ankommt. Projekte haben unterschiedliche Schwierigkeitsgrade - manche sind für Anfänger geeignet, manche erfordern etwas mehr Erfahrung und einige Projekte sollten nur von Bearbeitern mit umfangreicher Erfahrung angegangen werden. In den Anweisungen finden Sie dazu nähere Erläuterungen. 
+Hier steht, was für das Projekt gewünscht ist. Projekte haben unterschiedliche Schwierigkeitsgrade - manche sind für Anfänger geeignet, manche erfordern etwas mehr Erfahrung und einige Projekte sollten nur von Bearbeitern mit umfangreicher Erfahrung angegangen werden. In den Anweisungen finden Sie dazu nähere Erläuterungen. 
 
 Lesen Sie sich die Anweisungen sorgfältig durch und machen Sie sich klar, dass es viele unterschiedliche Herangehensweisen bei Projekten gibt, je nachdem wofür die Daten zunächst verwendet werden sollen. Häufig sollen diese Objekte eingetragen werden:
 
-- Straßen und Pisten: die Daten werden von Helfern vor Ort in GPS-Handgeräte übertragen und helfen ihnen, abgelegene Gebiete zu erreichen
-- Dörfer: dienen dazu, festzustellen, wo Menschen zu finden sind, die Hilfe benötigen
+- Straßen und Pisten: die Daten werden von Leuten vor Ort in GPS-Handgeräte übertragen und helfen ihnen, abgelegene Gebiete zu erreichen
+- Dörfer: dienen dazu, festzustellen, wo Menschen leben und von einer Katastrophe betroffen sein könnten
 - Gebäude: dienen zur Schadensabschätzung oder für Ausbreitungsvorhersagen von Seuchen
 - Flüsse, Mauern, Zäune und weitere Details
 
@@ -131,7 +131,7 @@ Sobald Sie Ihre Kachel markiert haben sehen Sie, ob andere schon daran gearbeite
 Wenn Sie versehentlich eine Kachel ausgewählt haben, können Sie sie durch einen Klick auf das blaue - **x** - das Sie in der Abbildung oben sehen wieder freigeben.
 
 Mit einem Klick auf **Mit dem Mappen beginnen** sperren Sie die Kachel, damit kein anderer Bearbeiter sie auswählen kann, bevor sie wieder freigegeben wird. Gleichzeitig beginnt eine Uhr zu laufen, die nach 2 Stunden (120 Minuten) die Kachel automatisch freigibt. 
-Es ist eine gute Idee, von Zeit zu Zeit auf den Zeitzähler zu schauen - man ist schnell so in die Arbeit vertieft, dass man gar nicht mitbekommt, dass die Kachel bereits wieder freigegeben wurde und danach von einem anderen Bearbeiter ausgewählt wurde, der jetzt ebenfalls Objekte einträgt. Das führt nur zu Konflikten.
+Es ist eine gute Idee, von Zeit zu Zeit auf den Zeitzähler zu schauen - man ist schnell so in die Arbeit vertieft, dass man gar nicht mitbekommt, dass die Kachel bereits wieder freigegeben und danach von einem anderen Bearbeiter ausgewählt wurde, der jetzt ebenfalls Objekte einträgt. Das führt nur zu Konflikten.
 
 
 ### Womit bearbeiten
@@ -150,14 +150,14 @@ Sobald Sie eine Kachel gesperrt haben, stehen Ihnen verschiedene Möglichkeiten 
 - Der Editor startet in einem neuen Fenster bzw. Reiter.  
 
 #### Walking Papers / Field Papers
-- Benutzen Sie diese Option nur, wenn Sie an einem Projekt arbeiten, bei dem Leute vor Ort Daten erfasst und in eine gedruckte Karte eingetragen haben, z.B. Strassennamen. Diese Karte kann wieder eingescannt und als Hintergrundbild für weitere Bearbeitungen in OpenStreetMap verwendet werden.  
+- Benutzen Sie diese Option nur, wenn Sie an einem Projekt arbeiten, bei dem vor Ort Daten erfasst und in eine gedruckte Karte eingetragen wurde, z.B. Strassennamen. Diese Karte kann wieder eingescannt und als Hintergrundbild für weitere Bearbeitungen in OpenStreetMap verwendet werden.  
 
 ### Eine Kachel weiter aufteilen
 Sie haben Ihre Kachel gewählt und einen ersten Blick auf das dahinter liegende Satellitenbild geworfen. Jetzt stellen Sie fest, dass eine große Menge Details eingetragen werden soll, beispielsweise Gebäude in dicht bebauten Gegenden oder kleine Dörfer auf einer großen Fläche.
 
 Eine Faustregel ist, dass Sie die Kachel in 4 kleinere Bereiche unterteilen sollen, wenn ein Bearbeiter die Aufgabe nicht innerhalb der Begrenzung von 2 Stunden erledigen kann.
 
-*Vorsicht* - wenn Kacheln zu kleinen Bereiche darstellen, ist es schwierig, zu Beurteilen in welche Kategorie eine Strasse gehört. Auch flächenmäßig größere Objekte machen schnell Probleme.
+*Vorsicht* - wenn Kacheln zu kleinen Bereiche darstellen, ist es schwierig, zu beurteilen, in welche Kategorie eine Strasse gehört. Auch flächenmäßig größere Objekte machen schnell Probleme.
 
 Beachten Sie außerdem, dass nützliche Kommentare vorhergehender Bearbeiter dann nicht mehr verfügbar sind.
 
@@ -245,7 +245,7 @@ Wie geht es weiter?
 
 Unter diesen Links können Sie weiterlesen:  
 
-*  Hier geht es zu den Leitfäden für Anfänger über OpenStreetMap & Editieren der Karte](/de/beginner/start-osm/)  
+*  [Hier geht es zu den Leitfäden für Anfänger über OpenStreetMap & Editieren der Karte](/de/beginner/start-osm/)  
 *  [fahren Sie fort mit Hinweisen zum typischen Arbeiten mit Satellitenbildern für HOT (derzeit nur auf englisch verfügbar)](/en/coordination/remote/)  
 
 
