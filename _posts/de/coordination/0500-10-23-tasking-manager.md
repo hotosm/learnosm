@@ -12,256 +12,253 @@ This section of LearnOSM is in the process of being translated. If you would lik
 
 ---
 
-In this section, we look at the HOT Tasking Manager, an intuitive tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. 
+In diesem Kapitel werfen wir einen Blick auf den HOT Tasking Manager, ein intuitives Werkzeug, mit dem Bearbeiter ein  Gitternetz über ein Gebiet legen können und danach gemeinsam das Gebiet kartographieren können, ohne Chaos anzurichten. 
 
-The OSM Tasking Manager allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas.
+Der OSM Tasking Manager erlaubt es Bearbeitern aus aller Welt, dabei zu helfen, ein bestimmtes Gebiet mit einem Minimum an überlappenden Bereichen zu kartographieren.
 
-This allows people both on the ground and working remotely (also sometimes referred to as 
-"armchair mappers") to collaborate effectively, rapidly, and avoid accidental rework being required due to conflicts.
-
-
-## Overview of the process
-
-1. An administrator selects an area requiring updating in OpenStreetMap. The administrator ensures there is suitable satellite imagery available for remote mappers to trace, and creates a project covering the area. The level of detail required and the urgency are specified within the project together with any other information the remote mapper will require. When satisfied, the administrator publishes the project within the Tasking Manager, although they may also make changes later if required.
-
-2. A remote mapper selects a task square, completes the mapping, and marks the square as complete.
-
-3. A second remote mapper checks that the square is completed to a satisfactory level and marks the square as 'validated'
-
-4. Progress of the mapping of the project can be monitored from within the "stats" tab of the project, and the project can be downgraded or archived as required by an administrator.
+Dadurch können sowohl Leute vor Ort, als auch diejenigen, die aus der Ferne beitragen (die manchmal "armchair mapper", also etwa "Sesselkartographen", genannt werden), effizient und schnell zusammenarbeiten. Außerdem werden Überarbeitungen zur Behebung von Konflikten vermieden.
 
 
-## Options & links
 
-The Task Manager initially displays in English - to change to another language click on **en** in the red header banner.
+## Überblick über den Ablauf
+
+1. Ein Projektmanager wählt ein Gebiet aus, das in OpenStreetMap überarbeitet werden soll. Der Projektmanager stellt sicher, dass passende Satellitenbilder vorhanden sind, damit Bearbeiter Objekte eintragen können und erstellt ein Projekt zu dem Gebiet. Bei dem Projekt werden der erforderliche Detailreichtum und die Dringlichkeit angegeben sowie weitere Informationen die die Bearbeiter benötigen. Wenn er damit fertig ist, veröffentlicht der Projektmanager das Projekt im Tasking Manager. Er kann aber auch später noch Änderungen vornehmen.
+
+2. Ein Bearbeiter wählt eine Kachel aus, bearbeitet sie vollständig, und markiert sie als erledigt.
+
+3. Ein anderer Bearbeiter überprüft, dass die Kachel zufriedenstellend und vollständig bearbeitet wurde, und markiert sie als geprüft.
+
+4. Der Projektfortschritt wird auf dem Reiter "Statistik" veranschaulicht. Ein Projekt kann vom Projektmanager in seiner Dringlichkeit herabgestuft oder auch archiviert werden.
+
+
+## Optionen & Querverweise
+
+Die Oberfläche des Task Managers erscheint zunächst in englisch - um zu einer anderen Sprache zu wechseln, klicken Sie auf **en** im roten Titelstreifen.
 
 ![Tasking Manager Languages][]
 
 
-For information about the Tasking Manager, HOT sponsors, partners & help click on **About** at the top of the page.
+Um Informationen über den Tasking Manager, die Sponsoren und Partner von HOT oder Hilfe zu bekommen, klicken Sie auf **Über** oben auf der Seite.
 
 ![Tasking Manager About][]
 
-Once you have logged in, you may click on your username at the top. Here you can:
+Nachdem Sie eingeloggt sind, können Sie auf Ihren Benutzernamen oben auf der Seite klicken. Damit können Sie:
 
-- Access a list of projects for which you have completed squares,
-- Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)
-- Logout
-- See a list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for, and how many.
+- eine Liste der Projekte einsehen, bei denen Sie Kacheln als erledigt markiert haben,
+- Ihre **Nachrichten** innerhalb des Tasking Manager lesen (diese Nachrichten sind andere als die Nachrichten in OpenStreetMap)
+- sich ausloggen
+- eine Liste aller Benutzer einsehen, die Kacheln innerhalb des Tasking Manager als erledigt markiert haben. Die Benutzernamen sind Links, hinter denen Sie nähere Informationen über den ausgewählten Benutzer bekommen, z.B. wieviele Kacheln er bei welchen Projekten beigetragen hat.
 
 ![Tasking Manager Username_list][]
 
-## Getting started with the Tasking Manager
+## Erste Schritte mit dem Tasking Manager
 
-You may view projects as a visitor, but to actively participate you must be logged into the Tasking Manager - use your OpenStreetMap account username & password. Open your Internet browser and go to [tasks.hotosm.org](http://tasks.hotosm.org). You will see a page like this:
+Als Besucher können Sie Projekte ansehen, aber um aktiv mitzuwirken, müssen Sie in den Tasking Manager eingeloggt sein - verwenden Sie bitte Ihren OpenStreetMap Benutzernamen und Passwort. Rufen Sie  [tasks.hotosm.org](http://tasks.hotosm.org) in Ihrem Internet-Browser auf. Sie erhalten eine Seite, die ungefähr so aussieht:
 
 ![Tasking Manager Login][]
 
--   Click “login to OpenStreetMap”
--   You are agreeing to allow this application some access to your OpenStreetMap account.  Click “Save Changes.”
+-   Klicken Sie auf “Bei OpenStreetMap einloggen”
+-   Sie müssen dieser Anwendung einige Zugriffsrechte auf Ihr OpenStreetMap-Konto einräumen.  Klicken Sie auf “Save Changes.”
 
 ![Authorizing access to OSM account by the Tasking Manager][]
 
 
-## Locating a project
+## Auswahl eines Projekts
 
-The current list of projects may be sorted according to:
+Die Liste der aktuellen Projekte kann nach verschiedenen Kriterien sortiert werden:
 
-- High priority
-- Creation date, or
-- Last update
+- Priorität
+- Erstellungsdatum
+- Letzte Änderung
 
-You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have participated, and/or you may use a free text search to locate projects that contain particular text strings, such as **Ebola** (search is not case sensitive).  
+Sie können Ihre Auswahl weiter einschränken, indem Sie das Kästchen **Deine Projekte** markieren. Damit sehen Sie nur die Projekte, zu denen Sie bereits etwas beigetragen haben. Sie können auch die Freitext-Suche verwenden, um in  Projekten nach bestimmten Ausdrücken zu suchen, etwa **Ebola** (die Suche beachtet Gross- und Kleinschreibung nicht).  
 
-Projects are frequently referred to by their Project number, e.g., [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711)
+Projekte werden meistens über ihre Nummer angesprochen, z.B., [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711) und Sie können diese Nummer auch im Suchfeld verwenden.
 
 
--   Click on a blue project title to see more information about that project.
+-   Klicken Sie auf den blauen Titel eines Projekts, um nähere Informationen über das Projekt zu erhalten.
 
 ![Job description][]
 
-## Project details
+## Informationen über das Projekt
 
-Everything you need to know about the project is here! On the left is a description 
-of the mapping project and what is required. On the right side is a grid showing 
-the area to be mapped;  
+Hier finden Sie alles, was Sie über das Projekt wissen müssen! Links steht eine Beschreibung des Projekts und worauf es bei der Bearbeitung ankommt. Rechts finden Sie das Gitter über dem zu bearbeitenden Gebiet;  
 
-- Mauve line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
-- Pink areas of the map indicate higher priority areas,  
-- Yellow grid squares have been completed,  
-- A yellow border indicates the square is being worked on now,  
-- Green squares have been completed and “validated”, and  
-- The remaining squares still need to be completed, or have previously been invalidated.  
+- Eine hellviolette Linie bezeichnet die Grenze des zu bearbeitenden Gebiets. Diese Linie verläuft normalerweise in den am Rand gelegenen Kacheln und kann eine ungewöhnliche Form haben, da sie meistens die Grenze der verfügbaren Satellitenbilder darstellt. Obwohl evtl. Kacheln ausserhalb dieser Grenze liegen und bearbeitet werden können, ist das nicht erforderlich und wird nicht unbedingt beim Validieren berücksichtigt.  
+- Rosa markierte Bereiche auf der Karte bezeichnen Gebiete hoher Priorität,  
+- gelbe Kacheln wurden als "erledigt" markiert,  
+- gelb umrandete Kacheln werden gerade bearbeitet,  
+- grüne Kacheln wurden vollständig bearbeitet und geprüft und  
+- die übrigen Kacheln müssen noch vervollständigt werden oder wurden beim Überprüfen zurückgesetzt.  
 
-### Instructions tab
-This shows what is required in the mapping task. Tasks range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. 
+### Reiter "Anweisungen"
+Hier steht, worauf es bei dem Projekt ankommt. Projekte haben unterschiedliche Schwierigkeitsgrade - manche sind für Anfänger geeignet, manche erfordern etwas mehr Erfahrung und einige Projekte sollten nur von Bearbeitern mit umfangreicher Erfahrung angegangen werden. In den Anweisungen finden Sie dazu nähere Erläuterungen. 
 
-Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:
+Lesen Sie sich die Anweisungen sorgfältig durch und machen Sie sich klar, dass es viele unterschiedliche Herangehensweisen bei Projekten gibt, je nachdem wofür die Daten zunächst verwendet werden sollen. Häufig sollen diese Objekte eingetragen werden:
 
-- Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas
-- Mapping villages: Often used to identify places where people live and may be impacted
-- Mapping buildings: Used for damage assessments or contact tracing with diseases
-- Mapping rivers, walls and other features
+- Straßen und Pisten: die Daten werden von Helfern vor Ort in GPS-Handgeräte übertragen und helfen ihnen, abgelegene Gebiete zu erreichen
+- Dörfer: dienen dazu, festzustellen, wo Menschen zu finden sind, die Hilfe benötigen
+- Gebäude: dienen zur Schadensabschätzung oder für Ausbreitungsvorhersagen von Seuchen
+- Flüsse, Mauern, Zäune und weitere Details
 
-Not all areas of the world are similar to your own, so specific tagging advice may be provided. For example, Africa's road network is very different to typical American or European highway systems.
+In vielen Gegenden der Erde gelten andere Standards bezüglich Verkehrsnetzen oder Siedlungsstrukturen als bei Ihnen. Achten Sie deshalb besonders auf Hinweise, mit welchen Tags die Objekte versehen werden sollen. So sehen auch Hauptstraßen in Afrika oft ganz anders aus als in Nordamerika oder Europa.
 
-There will be a section indicating the **Changeset comment** you should copy & paste into your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes.
+In diesem Reiter finden Sie einen Abschnitt **Changeset Kommentar**. Übernehmen Sie bitte den Text in Ihren Editor, sobald Sie Ihre Änderungen hochladen bzw. speichern. Je nach Editor kann es erforderlich sein, das verwendete Hintergrundbild separat anzugeben.
 
-Sometimes, task specific imagery may be available - you may need to agree to a license in order to access it.
-Instructions usually will indicate the easiest way to load this into editors such as JOSM.
+Manchmal werden für ein Projekt eigene Hintergrundbilder zur Verfügung gestellt - es kann auch vorkommen, dass Sie zunächst den Lizenzbedingungen zustimmen müssen, bevor Sie darauf Zugriff bekommen. Die Anweisungen erläutern meistens auch den einfachsten Weg, diese Bilder in einen Editor wie JOSM zu laden.
 
-When checking a square marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire tile is quite difficult - guidance below is available around unlocking tiles; as well as providing useful feedback for the next mapper.
+Sobald Sie eine Kachel als erledigt kennzeichnen, erwartet ein Prüfer, dass alle Anforderungen aus den Anweisungen beachtet wurden. Sie mögen das Gefühl haben, dass es ziemlich schwierig ist, eine Kachel vollständig zu bearbeiten - weiter unten steht, wie Sie eine Kachel teilweise bearbeitet zurückgeben können und wie Sie dem nächsten Bearbeiter Hinweise geben können.
 
-### Activity tab  
-This shows activity that has taken place within the task in chronological order.  
+### Reiter "Aktivitäten"
+Hier werden alle Aktionen zu einem Projekt in chronologischer Reihenfolge aufgeführt.  
 
-### Stats tab  
-This contains a graph of progress & other information. 
+### Reiter "Statistik"
+Hier finden Sie u.a. eine graphische Darstellung des Projektfortschritts. 
 
-The Stats tab also contains a list of mappers who have completed at least one square within the project - to see which squares they have completed, you can *hover your mouse cursor* over a username, and the squares they have completed will become the only ones visible (**use this to locate the squares you have previously completed**).
+Außerdem enthält dieser Reiter eine Liste aller Bearbeiter, die mindestens eine Kachel dieses Projekts als erledigt markiert hatten. Wenn Sie sehen möchten, um welche Kacheln es sich handelt, *Zeigen Sie mit Ihrer Maus* auf einen Benutzernamen und die von diesem Benutzer markierten Kacheln werden als einzige angezeigt (**damit können Sie die Kacheln sehen, die Sie bisher vollständig bearbeitet haben**).
 
-Once you have located the square by hovering your mouse over the user name, you may click on the square to see the comments that have been left by mappers and validators for the square, which is a useful way of obtaining feedback from validators.  
+Dann können Sie auf eine Kachel klicken, um die Kommentare zu sehen, die Bearbeiter und Prüfer für diese Kachel angefügt haben. Das ist gut geeignet, um Rückmeldungen von Prüfern zu erhalten.
 
-### Contribute tab  
-Click when you are ready to start mapping. You may choose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option. **Caution re "Take a Task at random** - if all of the squares on the project you are working on are either marked complete or already locked by another mapper, this option will allocate a task square to you for validation. For more information about validation see [OSM wiki entry "OSM Tasking Manager/Validating data"](https://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data). If you have any doubts about your mapping ability, do not attempt to validate, and release the square.
+### Reiter "Mitmachen"
+Klicken Sie, sobald Sie mit der Bearbeitung beginnen möchten. Sie können entweder eine Kachel in der Karte selbst auswählen oder auf "Eine zufällige Aufgabe wählen" drücken.
 
 ![Picking a task][]
 
-## Selecting a square to map  
+## Eine zu bearbeitende Kachel auswählen
 ![Assigned task square][]  
-Having selected your square you will be able to see if there is any history for this square, such as a mapper starting to map, but realizing they do not have time to complete the square.  
+Sobald Sie Ihre Kachel markiert haben sehen Sie, ob andere schon daran gearbeitet haben. Vielleicht hat ein anderer Bearbeiter bereits Objekte eingetragen, ihm fehlte aber dann die Zeit, die Kachel fertigzustellen.
 
-If you accidentally select a square, you can release it again by clicking on the blue close control - **x** - shown in the screenshot above.
+Wenn Sie versehentlich eine Kachel ausgewählt haben, können Sie sie durch einen Klick auf das blaue - **x** - das Sie in der Abbildung oben sehen wieder freigeben.
 
-Clicking on the **Start Mapping** button locks the square so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the square is automatically released. 
-It is good practice to check on your countdown timer on a regular basis - it is easy to become engrossed in your mapping and not realise your square has been released, and has now been selected by another mapper who has started mapping it too. This can lead to conflicts and problems.
+Mit einem Klick auf **Mit dem Mappen beginnen** sperren Sie die Kachel, damit kein anderer Bearbeiter sie auswählen kann, bevor sie wieder freigegeben wird. Gleichzeitig beginnt eine Uhr zu laufen, die nach 2 Stunden (120 Minuten) die Kachel automatisch freigibt. 
+Es ist eine gute Idee, von Zeit zu Zeit auf den Zeitzähler zu schauen - man ist schnell so in die Arbeit vertieft, dass man gar nicht mitbekommt, dass die Kachel bereits wieder freigegeben wurde und danach von einem anderen Bearbeiter ausgewählt wurde, der jetzt ebenfalls Objekte einträgt. Das führt nur zu Konflikten.
 
 
-### Editing choices
+### Womit bearbeiten
 
-Different options for editing are presented to you as soon as you lock a square.
+Sobald Sie eine Kachel gesperrt haben, stehen Ihnen verschiedene Möglichkeiten zur Bearbeitung zur Verfügung.
 
 ![Editing options][]  
 
-#### Edit with JOSM  
-- When selected (assuming you have set-up JOSM to use remote control), will automatically load any existing data from OSM into JOSM (*make sure you do not have the "download data automatically" plug-in activated - de-activate under the file menu*), & will also automatically load the imagery for you to trace from.  
+#### JOSM  
+- Wenn Sie diese Option wählen (vorausgesetzt, Sie haben JOSM für die Fernsteuerung eingerichtet), werden automatisch vorhandene Daten aus OSM in JOSM geladen (*stellen Sie sicher, dass Sie nicht das "download data automatically" Plugin aktiviert haben - deaktivieren Sie es im Dateimenü*), ebenso wie die Hintergrundbilder, von denen Sie die Objekte abzeichnen können.  
 
-#### iD editor  
-- Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
+#### iD
+- Wenn Sie diese Option wählen wird automatisch ein neuer Reiter bzw. ein neues Fenster Ihres Internet-Browsers geöffnet und die vorhandenen OSM-Daten geladen. Der Internet Explorer unterstützt derzeit iD nicht und startet stattdessen Potlatch 2. Ihr ursprünglicher Reiter bzw. Fenster mit dem Task Manager bleibt erhalten.  
 
 #### Potlatch 2  
-- Editor will load in a new window or tab.  
+- Der Editor startet in einem neuen Fenster bzw. Reiter.  
 
 #### Walking Papers / Field Papers
-- For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned & used as a background image for a remote or local mapper to read the information & update the OpenStreeetMap data.  
+- Benutzen Sie diese Option nur, wenn Sie an einem Projekt arbeiten, bei dem Leute vor Ort Daten erfasst und in eine gedruckte Karte eingetragen haben, z.B. Strassennamen. Diese Karte kann wieder eingescannt und als Hintergrundbild für weitere Bearbeitungen in OpenStreetMap verwendet werden.  
 
-### Splitting a square  
-Having selected your square and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping. An example of this may be tracing buildings in dense urban areas, or locating small villages in large areas.
+### Eine Kachel weiter aufteilen
+Sie haben Ihre Kachel gewählt und einen ersten Blick auf das dahinter liegende Satellitenbild geworfen. Jetzt stellen Sie fest, dass eine große Menge Details eingetragen werden soll, beispielsweise Gebäude in dicht bebauten Gegenden oder kleine Dörfer auf einer großen Fläche.
 
-As guidance, where it isn't possible for one person to complete within the 2 hour time limit you can often split the task into 4 smaller areas.
+Eine Faustregel ist, dass Sie die Kachel in 4 kleinere Bereiche unterteilen sollen, wenn ein Bearbeiter die Aufgabe nicht innerhalb der Begrenzung von 2 Stunden erledigen kann.
 
-*Use with caution* - if/when squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.
+*Vorsicht* - wenn Kacheln zu kleinen Bereiche darstellen, ist es schwierig, zu Beurteilen in welche Kategorie eine Strasse gehört. Auch flächenmäßig größere Objekte machen schnell Probleme.
 
-Be aware that other useful comments about the work previously completed will no longer be available.
+Beachten Sie außerdem, dass nützliche Kommentare vorhergehender Bearbeiter dann nicht mehr verfügbar sind.
 
-### Unlocking a square before it is complete
-If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square.
+### Eine Kachel vor der vollständigen Bearbeitung freigeben
+Wenn Sie mit der Arbeit an einer Kachel beginnen, sie aber aus welchem Grund auch immer nicht fertigstellen können, sollten Sie einen Kommentar hinterlassen.
 
-Simply detail what remains and choose **unlock**. Make sure your comments are relevant and aimed to help out the next mapper.
+Beschreiben Sie einfach, was noch zu erledigen ist und wählen Sie **Entsperren**. Ihre Kommentare sollten wertvolle Hinweise für den nächsten Bearbeiter darstellen. Schreiben Sie bitte wenn möglich auf englisch - die Projekte werden von Leuten aus aller Welt bearbeitet.
 
-For example:
+Ein Beispiel:
 
     Almost complete, small village top left 
     in the square to be traced though
 
-### Finishing a square
-It is very difficult to be completely certain that you have completed a square - however it is acceptable to mark the square as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then. 
+### Eine Kachel erledigen
+Es ist sehr schwierig, sich wirklich sicher zu sein, dass man eine Kachel vollständig bearbeitet hat - es ist aber in Ordnung, sie als erledigt zu markieren, wenn man sich einigermaßen sicher ist - der Inhalt wird von einem anderen Bearbeiter überprüft werden, dabei ist immer noch Gelegenheit, Kleinigkeiten hinzuzufügen. 
 
-For the process to work most effectively, mappers need to mark squares as complete rather than leaving them for several other 'not sure' mappers to spend time also checking them. 
+Um ein Projekt effizient abzuarbeiten, ist es notwendig, dass Bearbeiter Kacheln als erledigt markieren und sie nicht mehreren anderen Bearbeitern überlassen, die sich vielleicht auch nicht sicher sind und viel Zeit darauf verwenden, sie ebenfalls genau anzusehen. 
 
-When you have finished editing and think that the square is complete, save any remaining edits with your editing programme, then return to the Tasking Manager.
+Wenn Sie mit der Bearbeitung fertig und der Meinung sind, es ist alles erledigt, speichern Sie Ihre Arbeit in Ihrem Editor und kehren Sie zum Tasking Manager zurück.
 
-Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the square & I cannot see to trace this area".
+Fügen Sie Kommentare in das vorgesehene Feld ein, was Sie gemacht haben und - wichtiger noch - wobei Sie sich nicht sicher sind. Z.B.: "Complete as far as I can see, but there is cloud covering the top right corner of the square & I cannot see to trace this area".
 
-Click on the "Mark Task as Done" button, and your work is ready for review.
+Klicken Sie auf "Aufgabe als erledigt markieren" und Ihre Arbeit kann überprüft werden.
 
-### Sending a message from the comment box
-When leaving a comment against a square, you can have the comment sent as a message to a named mapper.
+### Mit dem Kommentar eine Nachricht senden
+Wenn Sie einen Kommentar zu einer Kachel schreiben, können Sie eine Nachricht an einen Bearbeiter senden.
 
-Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the square that the comments box relates to. 
+Schreiben Sie in Ihrem Text einfach ein @ gefolgt vom Benutzernamen, so ähnlich wie in Twitter. Dann wird eine Nachricht an den Benutzer gesendet mit Ihren Kommentaren und einem Link zu der Kachel, auf die sich die Kommentare beziehen. 
 
-For example:
+Ein Beispiel:
 
     @Tallguy nice work tracing the building  
     details here. You missed a small group  
     of houses on the upper left of the tile,  
     I added a few in, but some still remain.
 
-This is particularly useful when validating or adding on another's previous work - you can provide feedback, thanks or more.
+Das ist vor allem bei der Überprüfung der Arbeit anderer Bearbeiter nützlich - man kann so Anregungen geben oder sich einfach bedanken.
 
-Be aware that many people from around the world will be participating, so prefer simple, clear language. If you come across comments in other languages, tools such as google translate are reasonable effective.
+Denken Sie daran - viele Leute aus allen Teilen der Welt arbeiten mit. Schreiben Sie also in einfachen klaren Worten. Sollten Sie Kommentare in einer Ihnen unbekannte Sprache lesen, versuchen Sie es mal mit Google Translate.
 
 
 
-### Referring to a particular square when sending an email  
-If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular square within a project (perhaps you need help identifying something from the satellite imagery):  
+### Auf eine bestimmte Kachel in einer E-Mail Bezug nehmen
+Wenn Sie in einer E-Mail oder bei IRC jemand etwas zu einer bestimmten Kachel in einem bestimmten Projekt fragen möchten, z.B. weil Sie Hilfe zur Interpretation von Satellitenbildern benötigen, dann gehen Sie so vor:
 
-1. Click on the square concerned  
-2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713#task/259'  
-3. Highlight with the mouse all of the text in the address bar, or use the shortcut keys **Ctrl+A** to select all the text, then use shortcut keys **Ctrl+C** to copy the text  
-4. In your email, IRC message, or other message,  
-either, mouse right click & paste,  
-or shortcut keys **Ctrl+V**, to paste the link into the message. 
+1. Klicken Sie auf die betreffende Kachel
+2. Klicken Sie in die Adressleiste Ihres Internet-Browsers. Dort sollte etwas ähnliches wie 'http://tasks.hotosm.org/project/713#task/259' stehen
+3. Kopieren Sie diesen Text, meistens geht das mit **Ctrl+A** und **Ctrl+C**
+4. Fügen Sie den Text in Ihre Nachricht ein, normalerweise mit **Ctrl+V**, und Sie erhalten einen Link.
 
-### Getting live help 
+### Direkte Online-Hilfe 
 ![IRC_help][] 
 
-From the tasking manager;  
-1. Click on **OSM HOT IRC Channel #hot**  
-2. Enter a username (your OSM username?), or use the preset characters  
-3. At the bottom of the dropdown list select **hot**  
+Im Task Manager;  
+1. Klicken Sie auf **OSM HOT IRC Channel #hot**  
+2. Geben Sie einen Benutzernamen ein (Ihr OSM Benutzername?), oder übernehmen Sie die Voreinstellung  
+3. Als Channel wählen Sie am Ende der ausklappbaren Liste **hot**  
 
 ![IRC using][]  
 
-- To the right of the screen is a list of users that are online now.  
-- Type your message in the box at the bottom left of the screen (this is sometimes temporarily obscured by other text, but this will disappear as you select the box.  
-- To direct a message to a particular individual, include their username from the list on the right within your message. Type, then use the return key to submit your comment. The system is 'live' so wait for an answer - your username will often be used in the reply to show you the comment is directed to you. You will normally receive a reply within a few seconds, so please wait.  
-- An alternative simple system can be found at [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
-- Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
-- Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
+- Am rechten Rand des Bildschirms sehen Sie eine Liste der Benutzer, die gerade online sind.  
+- In die Zeile am unteren Bildschirmrand können Sie eine Nachricht tippen (manchmal wird sie durch anderen Text vorübergehend verdeckt, aber der verschwindet, wenn Sie die Zeile anklicken). Bitte stellen Sie Ihre Fragen möglichst auf englisch - es ist nicht sicher, dass unter den anwesenden Benutzern jemand ist, der deutsch spricht. 
+- Wenn Sie mit einer Nachricht jemand direkt ansprechen möchten, so erwähnen Sie seinen Benutzernamen in der Nachricht. Sobald Sie die Return-Taste drücken, wird Ihre Nachricht abgeschickt. Nachrichten werden ohne Verzögerung weitergeleitet, Sie können also auf eine Antwort warten - oft wird Ihr Benutzername in der Antwort auftauchen, um Ihnen zu signalisieren, dass das eine Antwort auf Ihre Nachricht ist. Typischerweise erhalten Sie innerhalb von Sekunden eine Antwort, also bleiben Sie dran.  
+- Eine einfach zu bedienende Alternative finden Sie unter [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
+- Weitere Informationen über die Benutzung von IRC im Zusammenhang mit OpenStreetMap finden Sie (nur auf englisch) unter [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
+- Sie können auch jedes andere IRC-Programm benutzen (Server=irc.oftc.net, channel=#hot)  
 
 
-### Editing hints and tips
-By now you have a good understanding of what the Tasking Manager is, and some of the various functions it supports. Unlike normal editing, this tool is often used for time critical projects with many participants - this may be a little bit different to what you are used to. 
+### Tipps und Hinweise zum Editieren
+Soweit haben Sie schon ein gutes Verständnis, um was es sich beim Task Manager handelt. Sie kennen auch bereits einige seiner Funktionen. Im Gegensatz zum normalen Editieren wird dieses Werkzeug häufig für zeitkritische Projekte mit vielen Teilnehmern verwendet - deshalb sind manche Vorgehensweisen etwas anders, als Sie es vielleicht gewohnt sind.
 
-Some general advice to heed when working in this tool:
+Beachten Sie deshalb bitte diese allgemeinen Hinweise:
 
- * Avoid mapping far outside of your square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further.
- * Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off.
- * If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.
- * If you make a serious mistake - for example, deleting a major feature or relation - use the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.
- * Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved.
- * You must not validate your own work - a second pair of eyes will always lead to better quality mapping.
- * Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.
+ * Vermeiden Sie Bearbeitungen außerhalb Ihrer Kachel - jemand anders könnte dort gerade editieren, was zu Duplikaten führt. Sie sollten sich um Objekte kümmern, die auf dem Kachelrand liegen (jemand muß es schließlich tun) aber bearbeiten Sie keine Objekte, die vollständig außerhalb Ihrer Kachel liegen.
+ * Wenn Sie Wege, Wasserläufe oder ähnliche Objekte eintragen, zeichnen Sie sie etwas über den Kachelrand hinaus - dann kann der Bearbeiter der Nachbarkachel "den Faden aufnehmen".
+ * Wenn Sie sich über den Charakter eines Objekts nicht im klaren sind, benutzen Sie die Changeset-Kommentare um Fragen zu stellen oder sehen Sie im Wiki nach.
+ * Wenn Ihnen ein Malheur passiert ist - Sie haben z.B. ein komplexeres Objekt oder eine Relation gelöscht - bitten Sie mit einem Changeset-Kommentar andere Bearbeiter um Hilfe beim Rückgängig machen. Geben Sie die Nummer des Changesets an und eine Beschreibung, was passiert ist. An HOT-Projekten arbeiten viele Leute mit, darunter sind sicher einige, die Ihnen helfen können - jeder macht schließlich einmal einen Fehler. Schneller geht es vermutlich, wenn Sie sich an die Mailing-Liste zu HOT wenden oder im IRC nachfragen. Sollten Sie in so einem Fall Wert auf deutsch sprechende Ansprechpartner legen, es gibt zu OpenStreetMap allgemein auch eine [deutsche Mailing-Liste] (http://lists.openstreetmap.org/listinfo/talk-de).
+ * Zögern Sie nicht, um Rückmeldung durch Überprüfung zu bitten - manche Prüfer mögen ein wenig grob klingen oder Fehler sehr direkt ansprechen. Aber wenn sie merken, dass Sie offen sind für Kommentare, lernen nicht selten beide Seiten dazu.
+ * Überprüfen Sie niemals Ihre eigene Arbeit - ein zweites Paar Augen findet oft Dinge, die Sie übersehen haben. Dadurch steigt die Qualität unserer Arbeit.
+ * Haben Sie keine Angst, wenn andere Bearbeiter etwas unfreundlich klingen, wenn sie Ihre Arbeit prüfen - alle wollen genau wie Sie sicherstellen, dass die Realität bestmöglich in den Daten abgebildet wird. Deren Kommentare helfen auch Ihnen bei der zukünftigen Arbeit und sind nicht als Kritik an Ihren bisherigen Beiträgen zu verstehen.
 
 
-Moving Forward
+Wie geht es weiter?
 --------------
 
-Click on the link for further reading on:  
+Unter diesen Links können Sie weiterlesen:  
 
-*  [To start the beginner series about OpenStreetMap & learning to map](/en/beginner/start-osm/)  
-*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](/en/coordination/remote/)  
+*  Hier geht es zu den Leitfäden für Anfänger über OpenStreetMap & Editieren der Karte](/de/beginner/start-osm/)  
+*  [fahren Sie fort mit Hinweisen zum typischen Arbeiten mit Satellitenbildern für HOT (derzeit nur auf englisch verfügbar)](/en/coordination/remote/)  
 
 
-[Tasking Manager Login]: /images/en/coordination/tasking_manager/tasking_manager_image01.png
-[Tasking Manager Username_list]: /images/en/coordination/tasking_manager/tasking_manager_image02.png
-[Authorizing access to OSM account by the Tasking Manager]: /images/en/coordination/tasking_manager/tasking_manager_image03.png
-[Job description]: /images/en/coordination/tasking_manager/tasking_manager_image04.png
-[Picking a task]: /images/en/coordination/tasking_manager/tasking_manager_image05.png
-[Assigned task square]: /images/en/coordination/tasking_manager/tasking_manager_image06.png
-[Editing options]: /images/en/coordination/tasking_manager/tasking_manager_image07.png
+[Tasking Manager Login]: /images/de/coordination/tasking_manager/tasking_manager_image01.png
+[Tasking Manager Username_list]: /images/de/coordination/tasking_manager/tasking_manager_image02.png
+[Authorizing access to OSM account by the Tasking Manager]: /images/de/coordination/tasking_manager/tasking_manager_image03.png
+[Job description]: /images/de/coordination/tasking_manager/tasking_manager_image04.png
+[Picking a task]: /images/de/coordination/tasking_manager/tasking_manager_image05.png
+[Assigned task square]: /images/de/coordination/tasking_manager/tasking_manager_image06.png
+[Editing options]: /images/de/coordination/tasking_manager/tasking_manager_image07.png
 [IRC_help]: /images/en/coordination/tasking_manager/tasking_manager_image08.png
 [IRC using]: /images/en/coordination/tasking_manager/tasking_manager_image09.png
-[Tasking Manager About]: /images/en/coordination/tasking_manager/tasking_manager_image011.png
+[Tasking Manager About]: /images/de/coordination/tasking_manager/tasking_manager_image011.png
 [Tasking Manager Languages]: /images/en/coordination/tasking_manager/tasking_manager_image012.png
+
+
