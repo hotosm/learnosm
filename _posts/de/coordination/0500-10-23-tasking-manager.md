@@ -12,17 +12,17 @@ This section of LearnOSM is in the process of being translated. If you would lik
 
 ---
 
-In diesem Kapitel werfen wir einen Blick auf den HOT Tasking Manager. Mit dieser intuitiven Applikation kann man ein  Gitternetz über ein Gebiet legen, damit viele Bearbeiter Objekte daraus erfassen können, ohne sich gegenseitig zu behindern, da es nur ein Minimum an überlappenden Bereichen gibt.
+In diesem Kapitel werfen wir einen Blick auf den HOT Tasking Manager. Mit dieser intuitiv zu bedienenden Applikation kann man ein  Gitternetz über ein Gebiet legen, damit viele Bearbeiter Objekte daraus erfassen können, ohne sich gegenseitig zu behindern, da es nur ein Minimum an überlappenden Bereichen gibt.
 
-Dadurch können sowohl Leute vor Ort, als auch diejenigen, die aus der Ferne beitragen (die manchmal "armchair mapper", also etwa "Sesselkartographen", genannt werden), effizient und schnell zusammenarbeiten. Außerdem werden Überarbeitungen zur Behebung von Konflikten vermieden.
+Dadurch können sowohl Leute vor Ort, als auch diejenigen, die von ganz woanders her beitragen (die manchmal "armchair mapper", also etwa "Sesselkartographen", genannt werden), effizient und schnell zusammenarbeiten. Außerdem werden Überarbeitungen zur Behebung von Konflikten vermieden.
 
 
 
 ## Überblick über den Ablauf
 
-1. Ein Projektmanager wählt ein Gebiet aus, das in OpenStreetMap überarbeitet werden soll. Der Projektmanager stellt sicher, dass passende Satellitenbilder vorhanden sind, damit Bearbeiter Objekte eintragen können und erstellt ein Projekt. Er trägt als Projektdaten den erforderlichen Detailreichtum und die Dringlichkeit ein sowie weitere Informationen, die die Bearbeiter benötigen. Danach veröffentlicht der Projektmanager das Projekt im Tasking Manager. Er kann aber auch später noch Änderungen vornehmen.
+1. Ein Projektmanager wählt ein Gebiet aus, das in OpenStreetMap überarbeitet werden soll. Der Projektmanager stellt sicher, dass passende Satellitenbilder vorhanden sind, damit Bearbeiter Objekte eintragen können und erstellt ein Projekt. Er trägt als Projektdaten den erforderlichen Detailreichtum und die Dringlichkeit ein sowie weitere Informationen, die die Bearbeiter benötigen. Danach veröffentlicht der Projektmanager das Projekt im Tasking Manager. Er kann später immer noch Änderungen vornehmen.
 
-2. Ein Bearbeiter wählt eine Kachel aus, bearbeitet sie vollständig, und markiert sie als erledigt.
+2. Ein Bearbeiter wählt aus dem Gitternetz eine Kachel aus, bearbeitet sie vollständig, und markiert sie als erledigt.
 
 3. Ein anderer Bearbeiter überprüft, dass die Kachel den Anweisungen entsprechend und vollständig bearbeitet wurde, und markiert sie als geprüft.
 
@@ -43,7 +43,7 @@ Um Informationen über den Tasking Manager, die Sponsoren und Partner von HOT od
 Nachdem Sie eingeloggt sind, können Sie auf Ihren Benutzernamen oben auf der Seite klicken. Damit können Sie:
 
 - eine Liste der Projekte einsehen, bei denen Sie Kacheln als erledigt markiert haben,
-- Ihre **Nachrichten** innerhalb des Tasking Manager lesen (diese Nachrichten sind andere als die Nachrichten in OpenStreetMap)
+- Ihre **Nachrichten** innerhalb des Tasking Manager lesen (diese Nachrichten unterscheiden sich von den Nachrichten in OpenStreetMap)
 - sich ausloggen
 - eine Liste aller Benutzer einsehen, die Kacheln innerhalb des Tasking Manager als erledigt markiert haben. Die Benutzernamen sind Links, hinter denen Sie nähere Informationen über den ausgewählten Benutzer bekommen, z.B. wieviele Kacheln er bei welchen Projekten beigetragen hat.
 
@@ -94,12 +94,12 @@ Hier steht, was für das Projekt gewünscht ist. Projekte haben unterschiedliche
 
 Lesen Sie sich die Anweisungen sorgfältig durch und machen Sie sich klar, dass es viele unterschiedliche Herangehensweisen bei Projekten gibt, je nachdem wofür die Daten zunächst verwendet werden sollen. Häufig sollen diese Objekte eingetragen werden:
 
-- Straßen und Pisten: die Daten werden von Leuten vor Ort in GPS-Handgeräte übertragen und helfen ihnen, abgelegene Gebiete zu erreichen
+- Straßen und Pisten: die Daten werden vor Ort in GPS-Handgeräte übertragen und helfen dabei, abgelegene Gebiete zu erreichen
 - Dörfer: dienen dazu, festzustellen, wo Menschen leben und von einer Katastrophe betroffen sein könnten
 - Gebäude: dienen zur Schadensabschätzung oder für Ausbreitungsvorhersagen von Seuchen
 - Flüsse, Mauern, Zäune und weitere Details
 
-In vielen Gegenden der Erde gelten andere Standards bezüglich Verkehrsnetzen oder Siedlungsstrukturen als bei Ihnen. Achten Sie deshalb besonders auf Hinweise, mit welchen Tags die Objekte versehen werden sollen. So sehen auch Hauptstraßen in Afrika oft ganz anders aus als in Nordamerika oder Europa.
+In vielen Gegenden der Erde gelten andere Standards bezüglich Verkehrsnetzen oder Siedlungsstrukturen als bei Ihnen. Achten Sie deshalb besonders auf Hinweise, mit welchen Tags die Objekte versehen werden sollen. So sehen Straßen in Afrika oft ganz anders aus als in Nordamerika oder Europa.
 
 In diesem Reiter finden Sie einen Abschnitt **Changeset Kommentar**. Übernehmen Sie bitte den Text in Ihren Editor, sobald Sie Ihre Änderungen hochladen bzw. speichern. Je nach Editor kann es erforderlich sein, das verwendete Hintergrundbild separat anzugeben.
 
@@ -162,7 +162,7 @@ Beachten Sie außerdem, dass nützliche Kommentare vorhergehender Bearbeiter dan
 ### Eine Kachel vor der vollständigen Bearbeitung freigeben
 Wenn Sie mit der Arbeit an einer Kachel beginnen, sie aber aus welchem Grund auch immer nicht fertigstellen können, sollten Sie einen Kommentar hinterlassen.
 
-Beschreiben Sie einfach, was noch zu erledigen ist und wählen Sie **Entsperren**. Ihre Kommentare sollten wertvolle Hinweise für den nächsten Bearbeiter darstellen. Schreiben Sie bitte wenn möglich auf Englisch - die Projekte werden von Leuten aus aller Welt bearbeitet.
+Beschreiben Sie einfach, was noch zu erledigen ist und klicken Sie auf **Entsperren**. Ihre Kommentare sollten wertvolle Hinweise für den nächsten Bearbeiter darstellen. Schreiben Sie bitte wenn möglich auf Englisch - die Projekte werden von Leuten aus aller Welt bearbeitet.
 
 Ein Beispiel:
 
@@ -170,11 +170,11 @@ Ein Beispiel:
     in the square to be traced though
 
 ### Eine Kachel erledigen
-Es ist sehr schwierig, sich wirklich sicher zu sein, dass man eine Kachel vollständig bearbeitet hat - es ist aber in Ordnung, sie als erledigt zu markieren, wenn man sich einigermaßen sicher ist - der Inhalt wird von einem anderen Bearbeiter überprüft werden, dabei ist immer noch Gelegenheit, Kleinigkeiten hinzuzufügen. 
+Es ist sehr schwierig, sich wirklich sicher zu sein, dass man eine Kachel vollständig bearbeitet hat - es ist aber gute Praxis, sie als erledigt zu markieren, wenn man sich einigermaßen sicher ist - der Inhalt wird von einem anderen Bearbeiter überprüft werden, dabei ist immer noch Gelegenheit, Kleinigkeiten hinzuzufügen. 
 
-Um ein Projekt effizient abzuarbeiten, ist es notwendig, dass Bearbeiter Kacheln als erledigt markieren und sie nicht mehreren anderen Bearbeitern überlassen, die sich vielleicht auch nicht sicher sind und viel Zeit darauf verwenden, sie ebenfalls genau anzusehen. 
+Um den Ablauf effizient zu gestalten, müssen Bearbeiter Kacheln als erledigt markieren. Wenn mehrere andere Bearbeiter  jeweils viel Zeit darauf verwenden, sie ebenfalls genau anzusehen, geht auch viel Zeit verloren. 
 
-Wenn Sie mit der Bearbeitung fertig und der Meinung sind, es ist alles erledigt, speichern Sie Ihre Arbeit in Ihrem Editor und kehren Sie zum Tasking Manager zurück.
+Wenn Sie mit der Bearbeitung fertig und der Meinung sind, es ist alles getan, speichern Sie Ihre Arbeit in Ihrem Editor und kehren Sie zum Tasking Manager zurück.
 
 Fügen Sie Kommentare in das vorgesehene Feld ein, was Sie gemacht haben und - wichtiger noch - wobei Sie sich nicht sicher sind. Z.B.: "Complete as far as I can see, but there is cloud covering the top right corner of the square & I cannot see to trace this area".
 
