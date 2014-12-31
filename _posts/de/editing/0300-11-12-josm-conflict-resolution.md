@@ -2,7 +2,7 @@
 layout: doc
 title: Conflict Resolution
 permalink: /de/editing/conflict-resolution/
-lang: en
+lang: de
 category: editing
 ---
 
