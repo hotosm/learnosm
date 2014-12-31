@@ -2,7 +2,7 @@
 layout: doc
 title: Editing Techniques
 permalink: /de/editing/josm-editing-techniques/
-lang: en
+lang: de
 category: editing
 ---
 
