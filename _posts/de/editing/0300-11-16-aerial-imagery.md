@@ -2,7 +2,7 @@
 layout: doc
 title: Aerial Imagery
 permalink: /de/editing/aerial-imagery/
-lang: en
+lang: de
 category: editing
 ---
 
