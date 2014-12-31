@@ -2,7 +2,7 @@
 layout: doc
 title: Getting Satellite Images into JOSM
 permalink: /de/editing/adding-orbview-imagery-in-josm/
-lang: en
+lang: de
 category: editing
 ---
 
