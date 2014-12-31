@@ -2,7 +2,7 @@
 layout: doc
 title: Correcting Imagery Offset
 permalink: /de/editing/correcting-imagery-offset/
-lang: en
+lang: de
 category: editing
 ---
 
