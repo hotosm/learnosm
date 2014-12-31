@@ -188,6 +188,12 @@ In the final section of this guide we will look at other resources you can learn
 as you move forward. As you practice what you've learned here and explore further,
 you will get better and better at making maps with OSM.
 
+Moving Forward
+--------------
+
+Click on the link for further reading on:  
+
+*  [Learning Beyond the Beginner Guide](/en/beginner/moving-forward/)
 
 [Layers panel]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image00_layers-panel.png
 [Layers up down]: /images/en/beginner/07_editing-with-josm/en_beg_07_editing-with-josm_image01_layers-panel-up-down.png
