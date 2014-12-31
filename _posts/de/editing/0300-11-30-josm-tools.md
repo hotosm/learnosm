@@ -2,7 +2,7 @@
 layout: doc
 title: JOSM Tools
 permalink: /de/editing/josm-tools/
-lang: en
+lang: de
 category: editing
 ---
 
