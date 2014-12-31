@@ -169,7 +169,7 @@ Ein Beispiel:
     Almost complete, small village top left 
     in the square to be traced though
 
-### Eine Kachel erledigen
+### Eine Kachel vollständig bearbeiten
 Es ist sehr schwierig, sich wirklich sicher zu sein, dass man eine Kachel vollständig bearbeitet hat - es ist aber gute Praxis, sie als erledigt zu markieren, wenn man sich einigermaßen sicher ist - der Inhalt wird von einem anderen Bearbeiter überprüft werden, dabei ist immer noch Gelegenheit, Kleinigkeiten hinzuzufügen. 
 
 Um den Ablauf effizient zu gestalten, müssen Bearbeiter Kacheln als erledigt markieren. Wenn mehrere andere Bearbeiter  jeweils viel Zeit darauf verwenden, sie ebenfalls genau anzusehen, geht auch viel Zeit verloren. 
