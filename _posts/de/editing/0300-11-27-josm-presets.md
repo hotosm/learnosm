@@ -2,7 +2,7 @@
 layout: doc
 title: JOSM Presets
 permalink: /de/editing/josm-presets/
-lang: en
+lang: de
 category: editing
 ---
 
