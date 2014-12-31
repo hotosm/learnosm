@@ -2,7 +2,7 @@
 layout: doc
 title: JOSM Relations
 permalink: /de/editing/josm-relations/
-lang: en
+lang: de
 category: editing
 ---
 
