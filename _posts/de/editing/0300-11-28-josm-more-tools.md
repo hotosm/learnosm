@@ -2,7 +2,7 @@
 layout: doc
 title: More Tools
 permalink: /de/editing/more-tools/
-lang: en
+lang: de
 category: editing
 ---
 
