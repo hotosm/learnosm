@@ -70,18 +70,16 @@ The current list of projects may be sorted according to:
 
 You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have participated, and/or you may use a free text search to locate projects that contain particular text strings, such as **Ebola** (search is not case sensitive).  
 
-Projects are frequently referred to by their Project number, e.g., [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711)
+Projects are frequently referred to by their Project number, e.g., [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711), and you may also use this in the search box.
 
 
 -   Click on a blue project title to see more information about that project.
 
 ![Job description][]
 
-## Project details
+## Description
 
-Everything you need to know about the project is here! On the left is a description 
-of the mapping project and what is required. On the right side is a grid showing 
-the area to be mapped;  
+Everything you need to know about the project is here! On the left is a description of the mapping project and what is required. On the right side is a grid showing the area to be mapped;  
 
 - Mauve line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
 - Pink areas of the map indicate higher priority areas,  
@@ -120,7 +118,7 @@ The Stats tab also contains a list of mappers who have completed at least one sq
 Once you have located the square by hovering your mouse over the user name, you may click on the square to see the comments that have been left by mappers and validators for the square, which is a useful way of obtaining feedback from validators.  
 
 ### Contribute tab  
-Click when you are ready to start mapping. You may choose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option. **Caution re "Take a Task at random** - if all of the squares on the project you are working on are either marked complete or already locked by another mapper, this option will allocate a task square to you for validation. For more information about validation see [OSM wiki entry "OSM Tasking Manager/Validating data"](https://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data). If you have any doubts about your mapping ability, do not attempt to validate, and release the square.
+Click when you are ready to start mapping. You may choose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option. 
 
 ![Picking a task][]
 
