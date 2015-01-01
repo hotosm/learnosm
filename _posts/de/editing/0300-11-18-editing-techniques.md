@@ -6,69 +6,48 @@ lang: de
 category: editing
 ---
 
-Editing Techniques: Common Mistakes
-====================================
+Die Technik des Editierens: Häufige Fehler
+==========================================
 
 
 This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
 
 ---
 
-There are a number of common mistakes that mappers make when they start
-using OpenStreetMap. In this chapter we'll identify a few of the most
-frequent errors and offer some tips for mapping better.
+Es gibt eine Reihe von Fehlern, die Bearbeiter gerne machen, wenn sie neu bei OpenStreetMap sind. Wir werden uns jetzt mit einigen der häufigsten befassen und einige Hinweise geben, wie man es besser machen kann.
 
-Connecting Objects
+Verbinden von Objekten
 -------------------
 
-### Some Objects Should Not Connect
-When you are creating polygons and lines that are not supposed to be
-connected, make sure that they are not merged together by sharing a
-node.  For example, highway nodes should not be snapped to buildings,
-because no one likes a road that leads directly into a wall!  If you
-want to disconnect two or more objects that share the same node, select
-the node and go to *Tools->UnGlue Ways* or press \<\<G\>\>.
+### Bestimmte Objekte dürfen nicht verbunden werden
+Wenn Sie Polygone und Linien erzeugen, die nicht verbunden werden sollen, dann dürfen sie keinen Knoten gemeinsam haben.  Beispielsweise sollten Straßen nicht mit Gebäuden verbunden sein, denn niemand fährt gerne auf einer Straße, die direkt in eine Wand hinein führt!  Wenn Sie zwei oder mehrere Objekte trennen wollen, die einen Knoten gemeinsam haben, wählen Sie zuerst den Knoten aus und dann den Menüpunkt *Werkzeuge->Linien trennen* oder drücken Sie \<\<G\>\>.
 
 ![Road and building nodes are connected - NO][]
 
 ![Roads Building nodes are disconnected - YES][]
 
-### But, Some Objects Should Connect!
-Roads that intersect should always share a node. If they do not share a common node,
-then the computer has no way of knowing that the roads actually connect
-to each other.
+### Aber manche Objekte müssen verbunden sein!
+Kreuzende Wege müssen immer einen gemeinsamen Knoten haben. Andernfalls kann der Computer (also z.B. ein Routenplaner) nicht wissen, dass die Straßen wirklich miteinander verbunden sind.
 
 ![Intersecting roads should share nodes][]
 
-The only time that you would NOT have intersecting roads share a node is
-if one of the roads goes over the other road, and they do not, in fact, connect.
+Der einzige Fall, in dem sich kreuzende Straßen keinen gemeinsamen Knoten besitzen, ist der, wenn eine Straße über der anderen verläuft, es also in der Tat keine Verbindung gibt.
 
-Overlapping Objects
+Überlappende Objekte
 --------------------
-A common error is to have overlapping polygons when the objects they
-represent do not overlap in real life.  A building cannot overlap
-another building.  This mistake is commonly made with buildings and
-landuse polygons.  For example, a polygon drawn to represent a park
-outside a building should not overlap with the building.  Instead it
-should be drawn next to the building.
+Ein häufiger Fehler sind überlappende Polygone, wobei sich die dadurch beschriebenen Objekte in der Wirklichkeit nicht überlappen.  Ein Gebäude kann kein anderes Gebäude überlappen.  Diesen Fehler findet man häufig bei Gebäuden aber auch bei Polygonen, die Landnutzung beschreiben.  Ein Polygon, dass einen Park außerhalb eines Gebäudes beschreibt, sollte beispielsweise nicht mit dem Gebäude überlappen.  Es sollte stattdessen neben das Gebäude gezeichnet werden.
 
 ![Correcting building overlaps][]
 
-There are some exceptions to this rule, such as schools.  Within a
-school yard you might identify individual buildings using polygons, yet
-you also might want to create a polygon around the entire school yard.
-In this case it is fine for the polygons to overlap, but the rule to
-follow here is to make sure that the buildings are completely inside the
-landuse polygon.
+Es gibt einige Ausnahmen zu dieser Regel, z.B. Schulen.  In einem Schulgelände kann man einzelne Gebäude mit Polygonen beschreiben, aber man kann auch ein Polygon um das gesamte Gelände zeichnen.
+In diesem Fall ist es gerechtfertigt, dass die Polygone überlappen, aber man sollte darauf achten, dass die Gebäude vollständig innerhalb des Polygons liegen, dass die Landnutzung bezeichnet.
 
 ![Correcting building landuse][]
 
-Summary
---------
-We all make mistakes, but the more you map the less you will make less mistakes!
-Just remember that even if you upload data that contains mistakes, you can always
-fix your mistakes and upload the changes again.  This is
-what is great about OSM: you can always make it better!
+Zusammenfassung
+---------------
+Wir alle machen Fehler, aber mit größerer Erfahrung werden Sie weniger Fehler machen!
+Denken Sie daran, selbst wenn Sie fehlerhafte Daten hochladen, können Sie immer Ihre Fehler korrigieren und die geänderten Daten erneut hochladen. Das ist einer der Pluspunkte von OSM: Sie können es immer noch besser machen!
 
 
 [Road and building nodes are connected - NO]: /images/en/editing/josm-editing-techniques/road-building-no.png
