@@ -9,6 +9,11 @@ category: editing
 Aerial Imagery
 ================
 
+
+This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
+
+---
+
 Tracing imagery is an easy and powerful way to contribute to
 OSM. Using imagery to draw points, lines and shapes on the ground is called
 **digitizing**. It can often be separated from the act of collecting attribute

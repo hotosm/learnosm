@@ -9,6 +9,11 @@ category: editing
 Conflict Resolution
 ====================
 
+
+This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
+
+---
+
 Sometimes you are working in JOSM and when you upload all of your beautiful edits
 you get a nasty message complaining about a conflict.
 

@@ -9,6 +9,11 @@ category: editing
 Relations
 ==========
 
+
+This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
+
+---
+
 In the [Beginner’s Guide](/en/beginner) we explained that there are three
 types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and
 polygons (closed ways). Lines contain numerous points, and the line itself carries

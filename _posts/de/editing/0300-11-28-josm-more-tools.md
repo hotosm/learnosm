@@ -9,6 +9,11 @@ category: editing
 More Tools
 ============
 
+
+This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
+
+---
+
 The **buildings_tools** and **utilsplugin2** plugins add great additional
 functionality into JOSM. In this section we'll take a closer look
 at the functions they provide.

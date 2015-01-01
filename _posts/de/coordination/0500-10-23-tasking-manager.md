@@ -8,10 +8,6 @@ category: coordination
 
 # Tasking Manager
 
-This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
-
----
-
 In diesem Kapitel werfen wir einen Blick auf den HOT Tasking Manager. Mit dieser intuitiv zu bedienenden Applikation kann man ein  Gitternetz über ein Gebiet legen, damit viele Bearbeiter Objekte daraus erfassen können, ohne sich gegenseitig zu behindern, da es nur ein Minimum an überlappenden Bereichen gibt.
 
 Dadurch können sowohl Leute vor Ort, als auch diejenigen, die von ganz woanders her beitragen (die manchmal "armchair mapper", also etwa "Sesselkartographen", genannt werden), effizient und schnell zusammenarbeiten. Außerdem werden Überarbeitungen zur Behebung von Konflikten vermieden.
