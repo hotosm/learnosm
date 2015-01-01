@@ -6,65 +6,51 @@ lang: de
 category: editing
 ---
 
-JOSM Editing Tools
-==================
+Werkzeuge zum Editieren in JOSM
+===============================
 
 
 This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
 
 ---
 
-In the [beginner guide](/en/beginner) we cover the basics of drawing in
-JOSM, but there are many tools and techniques which are not demonstrated.
+Im [Leitfaden für Anfänger](/de/beginner) haben wir die Grundlagen des Zeichnens in 
+JOSM behandelt, aber es gibt noch viele Werkzeuge und Techniken, die wir noch nicht gezeigt haben.
 
-Here we will look at some of the basic tools and techniques available
-for drawing map features in JOSM, and in the following chapters we will
-look in more depth at advanced drawing tools.
+Wir werfen jetzt einen Blick auf die grundlegenden Werkzeuge und Techniken, die zum Zeichnen von Objekten in JOSM zur Verfügung stehen und später werden wir vertieft auf weiterführende Zeichenwerkzeuge eingehen.
 
-Get the Sample File
+Besorgen Sie sich die Beispieldaten
 -------------------
 
--   If you'd like to follow along and practice using JOSM tools, download
-    [tools_menu_sample.osm](/files/tools_menu_sample.osm).
--   Start JOSM and open the file. It should look like this:
+-   Wenn Sie die JOSM-Werkzeuge Schritt für Schritt ausprobieren möchten, dann laden Sie bitte
+    [tools_menu_sample.osm](/files/tools_menu_sample.osm) herunter.
+-   Starten Sie JOSM und öffnen Sie die Daten. Das sollte etwa so aussehen:
 
 ![tools_menu_sample.osm][]
 
-Drawing tools
+Zeichenwerkzeuge
 -------------
 
-If you click on the "Tools" menu at the top of JOSM, you will see that there
-are numerous functions which can aid you in drawing lines and shapes, and
-editing the objects on the map.
-
-JOSM has some additional tools to make it easier to
-draw lines and shapes. These tools are found in the “Tools” menu at the
-top of JOSM.
+Wenn Sie das Menü "Werkzeuge" oben in JOSM anwählen, sehen Sie, dass es zahlreiche Funktionen gibt, die Ihnen dabei helfen, Linien und Formen zu zeichnen und die Objekte in der Karte zu bearbeiten.
 
 ![Tools menu][]
 
-In order to apply the functions in this menu, you must first select a
-point, line or shape in the map window. The sample file contains various
-elements that are labelled with the names of different tools on the menu.
+Um die Funktionen aus diesem Menü anzuwenden, müssen Sie zuerst einen Punkt, eine Linie oder eine Form im Kartenfenster auswählen. Die Beispieldatei enthält verschiedene Objekte, die mit den Namen der verschiedenen Werkzeuge im Menü bezeichnet sind.
 
--   Try selecting one of the elements in the file. Then go to the Tools menu
-    and click on the function which is identified next to the feature you have
-    selected.
--   For example, click on the badly drawn circle to select it.
+-   Versuchen Sie bitte, eines der Elemente in der Datei auszuwählen. Dann wählen sie aus dem Werkzeug-Menü die Funktion, die bei dem von Ihnen ausgewählten Element steht.
+-   Klicken Sie z.B. auf den schlecht gezeichneten Kreis, um ihn auszuwählen.
 
 ![Align nodes in circle][]
 
--   Next, go to Tools->Align Nodes in Circle.
--   The badly drawn circle will become more circular.
+-   Dann wählen Sie den Menüpunkt "Werkzeuge->Punkte im Kreis anordnen" aus.
+-   Der schlecht gezeichnete Kreis wird runder.
 
-Experiment with each of the tools using this sample file. A description of
-some of the tools is provided below.
+Probieren Sie bitte jedes der Werkzeuge mit Hilfe der Beispieldatei aus. Im Folgenden finden Sie eine Beschreibung einiger Werkzeuge.
 
-1.  **Split Way:** This allows you to divide a line into two separate lines.
-    This is useful if you want to add different attributes to different
-    parts of a road, such as a bridge. To use this function, select a
-    point in the middle of the line that you want to split, select Split
-    Way from the Tools menu, and your line should be split in two.
+1.  **Linie aufspalten:** Damit können Sie eine Linie in zwei getrennte Linien aufspalten.
+    Das benötigen Sie, wenn Sie verschiedenen Teilen einer Straße verschiedene Attribute zuweisen wollen, etwa einer 
+    Brücke. Um diese Funktion zu benutzen, wählen Sie einen Punkt mitten in der Linie, an dem Sie teilen möchten, 
+    wählen "Linie aufspalten" aus dem Werkzeuge-Menü und Ihre Linie sollte jetzt aus zwei Teilen bestehen.
 
 2.  **Combine Way:** This does the opposite of Split Way. To combine two
     lines into a single line, they must share a single point. To use
