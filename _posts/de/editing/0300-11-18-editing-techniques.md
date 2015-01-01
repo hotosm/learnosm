@@ -9,6 +9,11 @@ category: editing
 Editing Techniques: Common Mistakes
 ====================================
 
+
+This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
+
+---
+
 There are a number of common mistakes that mappers make when they start
 using OpenStreetMap. In this chapter we'll identify a few of the most
 frequent errors and offer some tips for mapping better.

@@ -9,6 +9,11 @@ category: editing
 JOSM Plugins
 ============
 
+
+This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
+
+---
+
 As you become more advanced in your editing techniques, you may want to
 use additional JOSM features to improve your
 mapping skills. JOSM allows you to install numerous plugins, which add
