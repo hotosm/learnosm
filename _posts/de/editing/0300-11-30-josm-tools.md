@@ -35,10 +35,10 @@ Wenn Sie das Menü "Werkzeuge" oben in JOSM anwählen, sehen Sie, dass es zahlre
 
 ![Tools menu][]
 
-Um die Funktionen aus diesem Menü anzuwenden, müssen Sie zuerst einen Punkt, eine Linie oder eine Form im Kartenfenster auswählen. Die Beispieldatei enthält verschiedene Objekte, die mit den Namen der verschiedenen Werkzeuge im Menü bezeichnet sind.
+Um die Funktionen aus diesem Menü anzuwenden, müssen Sie zuerst einen Punkt, eine Linie oder eine Form im Kartenfenster markieren. Die Beispieldatei enthält verschiedene Objekte, die mit den Namen der verschiedenen Werkzeuge im Menü bezeichnet sind.
 
--   Versuchen Sie bitte, eines der Elemente in der Datei auszuwählen. Dann wählen sie aus dem Werkzeug-Menü die Funktion, die bei dem von Ihnen ausgewählten Element steht.
--   Klicken Sie z.B. auf den schlecht gezeichneten Kreis, um ihn auszuwählen.
+-   Versuchen Sie bitte, eines der Elemente in der Datei zu markieren. Dann wählen sie aus dem Werkzeug-Menü die Funktion, die bei dem von Ihnen markierten Element steht.
+-   Klicken Sie z.B. auf den schlecht gezeichneten Kreis, um ihn zu markieren.
 
 ![Align nodes in circle][]
 
@@ -49,53 +49,49 @@ Probieren Sie bitte jedes der Werkzeuge mit Hilfe der Beispieldatei aus. Im Folg
 
 1.  **Linie aufspalten:** Damit können Sie eine Linie in zwei getrennte Linien aufspalten.
     Das benötigen Sie, wenn Sie verschiedenen Teilen einer Straße verschiedene Attribute zuweisen wollen, etwa einer 
-    Brücke. Um diese Funktion zu benutzen, wählen Sie einen Punkt mitten in der Linie, an dem Sie teilen möchten, 
+    Brücke. Um diese Funktion zu benutzen, markieren Sie einen Punkt mitten in der Linie, an dem Sie teilen möchten, 
     wählen "Linie aufspalten" aus dem Werkzeuge-Menü und Ihre Linie sollte jetzt aus zwei Teilen bestehen.
 
-2.  **Combine Way:** This does the opposite of Split Way. To combine two
-    lines into a single line, they must share a single point. To use
-    this function, select both lines that you want to combine. You can
-    select more than one object by holding the SHIFT key on your
-    keyboard and clicking on each line. When you have selected both
-    lines, select Combine Way from the Tools menu.
+2.  **Linien verbinden:** Diese Funktion macht das Gegenteil. Um zwei Linien zu einer zu verbinden müssen sie einen 
+    gemeinsamen Punkt haben. Markieren Sie die beiden zu verbindenden Linien. Dazu halten Sie die Umschalttaste auf 
+    Ihrer Tastatur gedrückt und klicken auf die Linien. Wenn Sie beide Linien markiert haben, wählen Sie "Linien 
+    verbinden" aus dem Werkzeuge-Menü.
 
     ![Combine way][]
 
-    If you are combining roads that have different directions, you
-    might get this warning:
+    Wenn Sie Wege mit unterschiedlichen Richtungen verbinden, erhalten Sie diese Warnung:
 
     ![Reverse and combine][]
 
-    If the roads are connected and go in the same direction, then choose
-    "Reverse and Continue."
+    Wenn die Wege verbunden sind und in dieselbe Richtung verlaufen sollen, wählen Sie
+    "Drehen und Verbinden."
 
-3.  **Reverse Way:** This will change the direction of the line. All lines in
-    OSM have a direction, which is shown in JOSM by the arrows on the line.
-    Direction doesn't usually matter, except in the case of one way roads and
-    rivers that flow in a certain direction. In these cases you may need to
-    reverse the way so that it goes in the correct direction.
+3.  **Linienrichtung umkehren:** Damit ändern Sie die Orientierung einer Linie. Alle Linien in
+    OSM haben eine Richtung, die in JOSM durch Pfeile auf der Linie dargestellt wird.
+    Normalerweise spielt die Richtung keine Rolle, außer bei Einbahnstraßen und
+    Flüssen, die in eine bestimmte Richtung verlaufen. In diesen Fällen müssen Sie möglicherweise
+    die Richtung umdrehen, damit der Weg in die richtige Richtung verläuft.
 
     ![Way direction][]
 
-4.  **Simplify Way:** If your line has too many points in it and you’d like
-    to make it simpler, this will remove some of the points from a line.
+4.  **Linie vereinfachen:** Wenn Ihre Linie aus zu vielen Punkten besteht und Sie sie gerne
+    vereinfachen möchten, entfernt dieses Werkzeug einige Punkte aus der Linie.
 
     ![Simplify way][]
 
-5.  **Align Nodes in Circle:** If you are trying to make a
-    circular shape, draw the circle as best you can and then select it.
-    This function will help arrange your points in a circle.
+5.  **Punkte im Kreis anordnen:** Wenn Sie eine runde Form zeichnen möchten,
+    zeichnen Sie einen Kreis so gut Sie es können und markieren ihn.
+    Diese Funktion ordnet die gezeichneten Punkte auf einem Kreis an.
 
-6.  **Create Circle:** Alternatively, use can use this tool, which
-    will create a more perfect circle. Draw a line which represents the
-    diameter of your circle, and then apply this tool.
+6.  **Kreis erstellen:** Alternativ dazu können Sie dieses Werkzeug verwenden, das
+    einen genaueren Kreis erzeugt. Zeichnen Sie eine Linie, die dem Durchmesser
+    Ihres Kreises entspricht und wenden Sie dann das Werkzeug an.
 
     ![Create circle][]
 
-7.  **Align Nodes in Line:** This function will align a series of points
-    into a straight line.  With long lines it is best to select sections
-    of the line to straighten.  Be careful as this does have the
-    tendency to shift the line a little bit.
+7.  **Punkte in einer Gerade anordnen:** Diese Funktion richtet eine Reihe von Punkten
+    in einer geraden Linie aus.  Bei langen Linien richten Sie am besten einzelne Abschnitte
+    der Linie aus.  Achten Sie darauf, dass das gerne die Linie ein bisschen verschiebt.
 
     ![Align nodes in line][]
 
