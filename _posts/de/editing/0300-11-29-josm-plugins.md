@@ -6,43 +6,36 @@ lang: de
 category: editing
 ---
 
-JOSM Plugins
-============
+JOSM-Erweiterungen
+==================
 
 
 This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
 
 ---
 
-As you become more advanced in your editing techniques, you may want to
-use additional JOSM features to improve your
-mapping skills. JOSM allows you to install numerous plugins, which add
-extra functionality to the software.
+Je weiter Sie mit Ihren Bearbeitungstechniken vorankommen, desto mehr zusätzliche Eigenschaften von JOSM werden Sie anwenden wollen. JOSM erlaubt Ihnen, zahllose Erweiterungen zu installieren, die zusätzliche Funktionen bereitstellen.
 
-If you worked through the learnOSM Beginner's Guide, you have already installed
-the Field Papers plugin.
+Wenn Sie unseren Leitfaden für Anfänger durchgearbeitet haben, dann haben Sie schon die Erweiterung für "Field Papers" installiert.
 
-In this section we will take a look at how to install plugins,
-and some of the most useful plugins that are available.
+In diesem Abschnitt zeigen wir Ihnen, wie man Erweiterungen installiert und weisen Sie auf einige der nützlichsten Erweiterungen hin.
 
-Installing Plugins
--------------------
--   Any time you want to install a new plugin, go to **Edit \> Preferences**
-    and click on the **Plugins** tab.
+Erweiterungen installieren
+--------------------------
+-   Wenn Sie eine neue Erweiterung installieren möchten, wählen Sie den Menüpunkt **Bearbeiten \> Einstellungen**
+    und klicken Sie in der linken Reihe des neuen Dialogs auf das vierte Icon von oben (Verfügbare Plugins bearbeiten).
 
 ![Plugins][]
 
--   If you don’t see a list of available plugins, click **Download List**.
--   To install a plugin you simply must check the box next to it
-    and click OK at the bottom.
--   Lastly, you must restart JOSM anytime you install new plugins.
+-   Wenn dort keine Liste der verfügbaren Erweiterungen angezeigt wird, klicken Sie auf **Liste herunterladen**.
+-   Um eine Erweiterung zu installieren kreuzen Sie einfach das Kästchen neben dem Namen der Erweiterung an und klicken Sie unten auf der Seite auf OK.
+-   Zum Schluss müssen Sie JOSM immer neu starten um neue Erweiterungen zu installieren.
 
-Some of our favorite plugins are:
+Einige der beliebtesten Erweiterungen sind:
 
-1.  **buildings_tools:** If you draw a lot of buildings, this will make the process faster and easier
+1.  **buildings_tools:** Wenn Sie viele Gebäude zeichnen, erleichtert Ihnen das die Arbeit
 
-2.  **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM
-    database, this plugin makes it easy.
+2.  **DirectUpload:** Wenn Sie viele GPS-Spuren aufzeichnen und Sie diese in die OSM-Datenbank hochladen möchten, gehtdas mit dieser Erweiterung einfach.
 
 3.  **editgpx:**
     If you want to upload GPS tracks from a Garmin device, you might need this
