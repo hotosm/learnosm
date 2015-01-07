@@ -35,31 +35,30 @@ Einige der beliebtesten Erweiterungen sind:
 
 1.  **buildings_tools:** Wenn Sie viele Gebäude zeichnen, erleichtert Ihnen das die Arbeit
 
-2.  **DirectUpload:** Wenn Sie viele GPS-Spuren aufzeichnen und Sie diese in die OSM-Datenbank hochladen möchten, gehtdas mit dieser Erweiterung einfach.
+2.  **DirectUpload:** Wenn Sie viele GPS-Spuren aufzeichnen und Sie diese in die OSM-Datenbank hochladen möchten, geht das mit dieser Erweiterung einfach.
 
 3.  **editgpx:**
-    If you want to upload GPS tracks from a Garmin device, you might need this
-    plugin. OSM won't accept GPS tracks that have been saved on an external memory
-    card in a Garmin, but this plugin can correct the files so they can be uploaded.
+    Wenn Sie GPS-Spuren von einem Garmin-Gerät hochladen möchten, könnten Sie diese Erweiterung
+    brauchen. OSM akzeptiert keine GPS-Spuren, die auf einer externen Speicherkarte des Garmin gespeichert
+    wurden. Diese Erweiterung korrigiert die Dateien, so dass sie hochgeladen werden können.
 
 4.  **fieldpapers:**
-    This plugin lets you load scanned Field Papers into JOSM.
+    Diese Erweiterung lädt "Field Papers" in JOSM.
 
 5.  **imagery_offset_db:**
-    This plugin lets you cooperate with other mappers who find that the Bing
-    satellite imagery is a little bit misaligned. This issue is covered in more
-    detail in a later chapter.
+    Mit dieser Erweiterung kooperieren Sie mit anderen Bearbeitern, die herausgefunden haben, dass die
+    Satellitenbilder einen Versatz aufweisen. Auf dieses Problem gehen wir später noch genauer ein.
 
 6.  **mirrored_download:**
-    With this plugin you can download a larger area of OSM data for editing.
+    Mit dieser Erweiterung können Sie OSM-Daten von größeren Bereichen zum Bearbeiten herunterladen.
 
 7.  **print:**
-    Adds a Print function, in case you would like to make quick printouts
-    of an area, that don't need to look very good.
+    Bietet eine Druckfunktion, wenn Sie einmal schnell einen Ausdruck brauchen, der nicht die höchste
+    Qualität haben muss.
 
 8.  **utilsplugin2:**
-    Adds many additional tools and menus to JOSM for advanced users. This is covered
-    in more detail in the [next chapter](/en/editing/more-tools)
+    Dahinter verbergen sich viele zusätzliche Werkzeuge und Menüeinträge für fortgeschrittene Benutzer.
+    Wir werden darauf im [nächsten Kapitel](/de/editing/more-tools) näher eingehen
 
 
 
