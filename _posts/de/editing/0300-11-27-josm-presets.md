@@ -1,13 +1,18 @@
 ---
 layout: doc
 title: JOSM Presets
-permalink: /en/editing/josm-presets/
-lang: en
+permalink: /de/editing/josm-presets/
+lang: de
 category: editing
 ---
 
 JOSM Presets
 ============
+
+
+This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
+
+---
 
 If you've been using JOSM for long, by now you understand a bit
 about tags and presets. Every object is defined by two things - first,
