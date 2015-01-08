@@ -95,65 +95,63 @@ Probieren Sie bitte jedes der Werkzeuge mit Hilfe der Beispieldatei aus. Im Folg
 
     ![Align nodes in line][]
 
-8.  Orthogonalize Shape: This function is very useful for drawing
-    regular shapes such as buildings. After you draw an area, this
-    function will reshape it to have square corners.
+8.  **Form rechtwinklig machen:** Diese Funktion ist sehr nützlich um regelmäßige Formen wie etwa
+    Gebäude zu zeichnen. Wenn Sie die Fläche gezeichnet haben,
+    richtet diese Funktion sie so aus, dass alle Ecken rechtwinklig sind.
 
     ![Orthagonalize][]
 
-9.  Unglue way: This tool allows you to detach nodes that are
-    connected. It is useful when two object share a node when they should
-    not. For example, a common mistake is for a road to share a node
-    with the corner of a building. Of course roads don't run into buildings
-    usually, so this is a mistake, and you can unglue the objects from one
-    another.
+9.  **Linien trennen:** Mit diesem Werkzeug trennen Sie verbundene Punkte.
+    Das ist dann nützlich, wenn zwei Objekte, die nicht verbunden sein sollten, einen Punkt
+    gemeinsam haben. Beispielsweise sieht man öfter, dass eine Straße mit einem 
+    Gebäude einen Punkt gemeinsam hat. Üblicherweise verlaufen Straßen nicht durch Gebäude und sie
+    können mit dieser Funktion die beiden Objekte voneinander trennen.
 
     ![Unglue way][]
 
-    > The line and node will not actually appear separate until you move them.
+    > Die Linie und der Punkt sind erst dann getrennt zu sehen, wenn Sie sie bewegen.
 
-Keyboard Shortcuts
-------------------
+Tastaturkürzel
+--------------
 
-Once you start editing a lot you will realize that you waste a lot of time
-clicking on menus and submenus. To overcome this, JOSM has keyboard shortcuts
-for just about everything.
+Wenn Sie öfter mit JOSM arbeiten, werden Sie schnell das Gefühl haben, beim Klicken durch Menüs und
+Untermenüs eine Menge Zeit zu verlieren. Als Abhilfe verfügt JOSM über Tastaturkürzel für nahezu jede
+Funktion.
 
-This means that instead of clicking an object and then going through a lengthy
-menu process, you can simply select the object and press a key on your keyboard.
+Statt ein Objekt anzuklicken und sich danach durch die Menüs durchzuhangeln, klicken Sie einfach auf
+das Objekt und drücken dann die entsprechende Taste.
 
-All of the tools mentioned in the previous section have shortcut keys, which are
-listed on the Tools menu to the right of each tool name. For example, "O" is the
-shortcut key to align nodes in a circle. "L" is the shortcut to align them in a line.
-It can take some time to learn the shortcut keys, but you will find that it saves
-a lot of time in the long run.
+Alle Werkzeuge, die wir bisher besprochen haben, besitzen Tastaturkürzel, die Sie im Menü rechts neben
+dem entsprechenden Eintrag sehen. Z.B. ist "O" das Kürzel, um Punkte auf einem Kreis anzuordnen. 
+Mit "L" ordnen Sie sie entlang einer Linie an.
+Sie brauchen vielleicht etwas Zeit, bis Sie die Kürzel kennen, aber auf längere Sicht zahlt sich das 
+sicher aus.
 
-Here are other shortcut keys (in **bold**) which are some of the most important.
+Hier stehen (**fettgedruckt**) noch einige der wichtigsten anderen Tastaturkürzel.
 
-1.  Activate the Select Tool - **S**
-2.  Activate the Draw Tool - **A**
-3.  Activate the Zoom Tool - **Z**
-4.  Delete the selected object(s) - **Delete**
-5.  Zoom In - **+**
-6.  Zoom Out - **-**
+1.  Auswahl-Werkzeug aktivieren - **S**
+2.  Zeichenwerkzeug aktivieren - **A**
+3.  Zoom-Werkzeug aktivieren - **Z**
+4.  Ausgewählte(s) Objekt(e) löschen - **Entf**
+5.  Hineinzoomen - **+**
+6.  Herauszoomen - **-**
 
 
-Scale and Rotate
-----------------
+Skalieren und Drehen
+--------------------
 
-A common question is how to rotate a line or shape after it has
-been drawn.
+Eine häufige Frage ist, wie man eine Linie oder Form drehen kann, nachdem sie gezeichnet wurde.
 
--   To rotate an object, first select it.
--   Hold **SHIFT+CTRL** on your keyboard.
--   Click and drag the mouse to rotate.
+-   Um ein Objekt zu drehen, markieren Sie es zuerst.
+-   Halten Sie **Umschalt+Strg** auf Ihrer Tastatur gedrückt.
+-   Klicken und ziehen Sie mit der Maus, um das Objekt zu drehen.
 
 ![Rotate demo][]
 
-To scale an object (make it bigger or smaller), follow the same
-process, but hold ALT+CTRL instead.
+Um ein Objekt zu skalieren (es also größer oder kleiner zu machen), verwenden Sie die gleiche Prozedur, 
+halten aber stattdessen **Alt+Strg** gedrückt.
 
-These instructions are displayed on the information bar at the bottom of JOSM:
+Diese Anleitung sehen Sie auch in der Informationsleiste unten in JOSM:
 
 ![Rotate instructions][]
 
