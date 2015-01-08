@@ -6,110 +6,92 @@ lang: de
 category: editing
 ---
 
-JOSM Editing Tools
-==================
+Werkzeuge zum Editieren in JOSM
+===============================
 
 
 This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
 
 ---
 
-In the [beginner guide](/en/beginner) we cover the basics of drawing in
-JOSM, but there are many tools and techniques which are not demonstrated.
+Im [Leitfaden für Anfänger](/de/beginner) haben wir die Grundlagen des Zeichnens in 
+JOSM behandelt, aber es gibt noch viele Werkzeuge und Techniken, die wir noch nicht gezeigt haben.
 
-Here we will look at some of the basic tools and techniques available
-for drawing map features in JOSM, and in the following chapters we will
-look in more depth at advanced drawing tools.
+Wir werfen jetzt einen Blick auf die grundlegenden Werkzeuge und Techniken, die zum Zeichnen von Objekten in JOSM zur Verfügung stehen und später werden wir vertieft auf weiterführende Zeichenwerkzeuge eingehen.
 
-Get the Sample File
+Besorgen Sie sich die Beispieldaten
 -------------------
 
--   If you'd like to follow along and practice using JOSM tools, download
-    [tools_menu_sample.osm](/files/tools_menu_sample.osm).
--   Start JOSM and open the file. It should look like this:
+-   Wenn Sie die JOSM-Werkzeuge Schritt für Schritt ausprobieren möchten, dann laden Sie bitte
+    [tools_menu_sample.osm](/files/tools_menu_sample.osm) herunter.
+-   Starten Sie JOSM und öffnen Sie die Daten. Das sollte etwa so aussehen:
 
 ![tools_menu_sample.osm][]
 
-Drawing tools
+Zeichenwerkzeuge
 -------------
 
-If you click on the "Tools" menu at the top of JOSM, you will see that there
-are numerous functions which can aid you in drawing lines and shapes, and
-editing the objects on the map.
-
-JOSM has some additional tools to make it easier to
-draw lines and shapes. These tools are found in the “Tools” menu at the
-top of JOSM.
+Wenn Sie das Menü "Werkzeuge" oben in JOSM anwählen, sehen Sie, dass es zahlreiche Funktionen gibt, die Ihnen dabei helfen, Linien und Formen zu zeichnen und die Objekte in der Karte zu bearbeiten.
 
 ![Tools menu][]
 
-In order to apply the functions in this menu, you must first select a
-point, line or shape in the map window. The sample file contains various
-elements that are labelled with the names of different tools on the menu.
+Um die Funktionen aus diesem Menü anzuwenden, müssen Sie zuerst einen Punkt, eine Linie oder eine Form im Kartenfenster markieren. Die Beispieldatei enthält verschiedene Objekte, die mit den Namen der verschiedenen Werkzeuge im Menü bezeichnet sind.
 
--   Try selecting one of the elements in the file. Then go to the Tools menu
-    and click on the function which is identified next to the feature you have
-    selected.
--   For example, click on the badly drawn circle to select it.
+-   Versuchen Sie bitte, eines der Elemente in der Datei zu markieren. Dann wählen sie aus dem Werkzeug-Menü die Funktion, die bei dem von Ihnen markierten Element steht.
+-   Klicken Sie z.B. auf den schlecht gezeichneten Kreis, um ihn zu markieren.
 
 ![Align nodes in circle][]
 
--   Next, go to Tools->Align Nodes in Circle.
--   The badly drawn circle will become more circular.
+-   Dann wählen Sie den Menüpunkt "Werkzeuge->Punkte im Kreis anordnen" aus.
+-   Der schlecht gezeichnete Kreis wird runder.
 
-Experiment with each of the tools using this sample file. A description of
-some of the tools is provided below.
+Probieren Sie bitte jedes der Werkzeuge mit Hilfe der Beispieldatei aus. Im Folgenden finden Sie eine Beschreibung einiger Werkzeuge.
 
-1.  **Split Way:** This allows you to divide a line into two separate lines.
-    This is useful if you want to add different attributes to different
-    parts of a road, such as a bridge. To use this function, select a
-    point in the middle of the line that you want to split, select Split
-    Way from the Tools menu, and your line should be split in two.
+1.  **Linie aufspalten:** Damit können Sie eine Linie in zwei getrennte Linien aufspalten.
+    Das benötigen Sie, wenn Sie verschiedenen Teilen einer Straße verschiedene Attribute zuweisen wollen, etwa einer 
+    Brücke. Um diese Funktion zu benutzen, markieren Sie einen Punkt mitten in der Linie, an dem Sie teilen möchten, 
+    wählen "Linie aufspalten" aus dem Werkzeuge-Menü und Ihre Linie sollte jetzt aus zwei Teilen bestehen.
 
-2.  **Combine Way:** This does the opposite of Split Way. To combine two
-    lines into a single line, they must share a single point. To use
-    this function, select both lines that you want to combine. You can
-    select more than one object by holding the SHIFT key on your
-    keyboard and clicking on each line. When you have selected both
-    lines, select Combine Way from the Tools menu.
+2.  **Linien verbinden:** Diese Funktion macht das Gegenteil. Um zwei Linien zu einer zu verbinden müssen sie einen 
+    gemeinsamen Punkt haben. Markieren Sie die beiden zu verbindenden Linien. Dazu halten Sie die Umschalttaste auf 
+    Ihrer Tastatur gedrückt und klicken auf die Linien. Wenn Sie beide Linien markiert haben, wählen Sie "Linien 
+    verbinden" aus dem Werkzeuge-Menü.
 
     ![Combine way][]
 
-    If you are combining roads that have different directions, you
-    might get this warning:
+    Wenn Sie Wege mit unterschiedlichen Richtungen verbinden, erhalten Sie diese Warnung:
 
     ![Reverse and combine][]
 
-    If the roads are connected and go in the same direction, then choose
-    "Reverse and Continue."
+    Wenn die Wege verbunden sind und in dieselbe Richtung verlaufen sollen, wählen Sie
+    "Drehen und Verbinden."
 
-3.  **Reverse Way:** This will change the direction of the line. All lines in
-    OSM have a direction, which is shown in JOSM by the arrows on the line.
-    Direction doesn't usually matter, except in the case of one way roads and
-    rivers that flow in a certain direction. In these cases you may need to
-    reverse the way so that it goes in the correct direction.
+3.  **Linienrichtung umkehren:** Damit ändern Sie die Orientierung einer Linie. Alle Linien in
+    OSM haben eine Richtung, die in JOSM durch Pfeile auf der Linie dargestellt wird.
+    Normalerweise spielt die Richtung keine Rolle, außer bei Einbahnstraßen und
+    Flüssen, die in eine bestimmte Richtung verlaufen. In diesen Fällen müssen Sie möglicherweise
+    die Richtung umdrehen, damit der Weg in die richtige Richtung verläuft.
 
     ![Way direction][]
 
-4.  **Simplify Way:** If your line has too many points in it and you’d like
-    to make it simpler, this will remove some of the points from a line.
+4.  **Linie vereinfachen:** Wenn Ihre Linie aus zu vielen Punkten besteht und Sie sie gerne
+    vereinfachen möchten, entfernt dieses Werkzeug einige Punkte aus der Linie.
 
     ![Simplify way][]
 
-5.  **Align Nodes in Circle:** If you are trying to make a
-    circular shape, draw the circle as best you can and then select it.
-    This function will help arrange your points in a circle.
+5.  **Punkte im Kreis anordnen:** Wenn Sie eine runde Form zeichnen möchten,
+    zeichnen Sie einen Kreis so gut Sie es können und markieren ihn.
+    Diese Funktion ordnet die gezeichneten Punkte auf einem Kreis an.
 
-6.  **Create Circle:** Alternatively, use can use this tool, which
-    will create a more perfect circle. Draw a line which represents the
-    diameter of your circle, and then apply this tool.
+6.  **Kreis erstellen:** Alternativ dazu können Sie dieses Werkzeug verwenden, das
+    einen genaueren Kreis erzeugt. Zeichnen Sie eine Linie, die dem Durchmesser
+    Ihres Kreises entspricht und wenden Sie dann das Werkzeug an.
 
     ![Create circle][]
 
-7.  **Align Nodes in Line:** This function will align a series of points
-    into a straight line.  With long lines it is best to select sections
-    of the line to straighten.  Be careful as this does have the
-    tendency to shift the line a little bit.
+7.  **Punkte in einer Gerade anordnen:** Diese Funktion richtet eine Reihe von Punkten
+    in einer geraden Linie aus.  Bei langen Linien richten Sie am besten einzelne Abschnitte
+    der Linie aus.  Achten Sie darauf, dass das gerne die Linie ein bisschen verschiebt.
 
     ![Align nodes in line][]
 
@@ -178,14 +160,14 @@ These instructions are displayed on the information bar at the bottom of JOSM:
 
 
 
-[tools_menu_sample.osm]: /images/en/editing/josm-tools/tools-menu-sample-file.png
-[Tools menu]: /images/en/editing/josm-tools/tools-menu.png
-[Align nodes in circle]: /images/en/editing/josm-tools/align-nodes-in-circle.png
+[tools_menu_sample.osm]: /images/de/editing/josm-tools/tools-menu-sample-file.png
+[Tools menu]: /images/de/editing/josm-tools/tools-menu.png
+[Align nodes in circle]: /images/de/editing/josm-tools/align-nodes-in-circle.png
 [Combine way]: /images/en/editing/josm-tools/combine-way.png
-[Reverse and combine]: /images/en/editing/josm-tools/reverse-and-combine.png
+[Reverse and combine]: /images/de/editing/josm-tools/reverse-and-combine.png
 [Way direction]: /images/en/editing/josm-tools/way-direction.png
-[Simplify way]: /images/en/editing/josm-tools/simplify-way.png
-[Create circle]: /images/en/editing/josm-tools/create-circle.png
+[Simplify way]: /images/de/editing/josm-tools/simplify-way.png
+[Create circle]: /images/de/editing/josm-tools/create-circle.png
 [Align nodes in line]: /images/en/editing/josm-tools/align-nodes-in-line.png
 [Orthagonalize]: /images/en/editing/josm-tools/orthagonalize.png
 [Unglue way]: /images/en/editing/josm-tools/unglue-way.png
@@ -195,5 +177,5 @@ These instructions are displayed on the information bar at the bottom of JOSM:
 [Keyboard Del]: /images/en/editing/josm-tools/keyboard-del.png
 [Keyboard plus]: /images/en/editing/josm-tools/keyboard-plus.png
 [Keyboard minus]: /images/en/editing/josm-tools/keyboard-minus.png
-[Rotate demo]: /images/en/editing/josm-tools/rotate-demo.png
-[Rotate instructions]: /images/en/editing/josm-tools/rotate-instructions.png
+[Rotate demo]: /images/de/editing/josm-tools/rotate-demo.png
+[Rotate instructions]: /images/de/editing/josm-tools/rotate-instructions.png
