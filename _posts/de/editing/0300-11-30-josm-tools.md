@@ -23,7 +23,7 @@ Besorgen Sie sich die Beispieldaten
 -------------------
 
 -   Wenn Sie die JOSM-Werkzeuge Schritt für Schritt ausprobieren möchten, dann laden Sie bitte
-    [tools_menu_sample.osm](/files/tools_menu_sample.osm) herunter.
+    [de_tools_menu_sample.osm](/files/de_tools_menu_sample.osm) herunter.
 -   Starten Sie JOSM und öffnen Sie die Daten. Das sollte etwa so aussehen:
 
 ![tools_menu_sample.osm][]
