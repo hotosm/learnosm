@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Editing Techniques
+title: Die Technik des Editierens
 permalink: /de/editing/josm-editing-techniques/
 lang: de
 category: editing
@@ -9,10 +9,6 @@ category: editing
 Die Technik des Editierens: Häufige Fehler
 ==========================================
 
-
-This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
-
----
 
 Es gibt eine Reihe von Fehlern, die Bearbeiter gerne machen, wenn sie neu bei OpenStreetMap sind. Wir werden uns jetzt mit einigen der häufigsten befassen und einige Hinweise geben, wie man es besser machen kann.
 
