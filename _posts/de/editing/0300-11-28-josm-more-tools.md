@@ -1,85 +1,80 @@
 ---
 layout: doc
-title: More Tools
+title: Weitere Werkzeuge
 permalink: /de/editing/more-tools/
 lang: de
 category: editing
 ---
 
-More Tools
-============
+Weitere Werkzeuge
+=================
 
 
 This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
 
 ---
 
-The **buildings_tools** and **utilsplugin2** plugins add great additional
-functionality into JOSM. In this section we'll take a closer look
-at the functions they provide.
+Die Erweiterungen **buildings_tools** und **utilsplugin2** stellen wichtige Zusatzfunktionen 
+für JOSM zur Verfügung. In diesem Abschnitt werfen wir einen genaueren Blick darauf.
 
-The Buildings Tools Plugin
---------------------------
+Die Erweiterung *Buildings Tools*
+---------------------------------
 
--   If you haven't already, install this plugin following the instructions
-    in [JOSM Plugins](/en/editing/josm-plugins).
+-   Sofern noch nicht geschehen installieren Sie diese Erweiterung nach der Anleitung 
+    in [JOSM Erweiterungen](/de/editing/josm-plugins).
 
 ![Buildings tools plugin][]
 
-The Buildings Tools plugin is very helpful for digitizing buildings.
-It allows you to trace one side of a rectangular building, and easily
-extend the shape. If you are digitizing many buildings, this plugin
-will save you clicks, and thereby save you time.
+Die Erweiterung "Buildings Tools" hilft Ihnen beim abzeichnen von Gebäuden.
+Sie zeichnen nur eine Kante eines rechtwinkligen Gebäudes und erweitern sie einfach zur Fläche.
+Wenn Sie viele Gebäude abzeichnen wollen sparen Sie mit dieser Erweiterung viele Klicks und dadurch Zeit.
 
-Once the plugin has been installed you will see a new button on the left
-side of JOSM, which looks like this:
+Sobald Sie die Erweiterung installiert haben, sehen Sie in der linken Seitenleiste von JOSM ein neues Symbol:
 
 ![Buildings tools button][]
 
--   Start JOSM and create a new empty layer.
--   Select the building tool and click twice to draw a line on the map.
+-   Starten Sie JOSM und erstellen Sie eine neue leere Ebene.
+-   Wählen Sie die Erweiterung aus und klicken Sie zweimal um eine Linie auf der Karte zu zeichnen.
 
 ![Draw edge][]
 
--   Then extend the mouse and click again to draw a rectangle.
+-   Dann erweitern Sie die Linie mit der Maus und klicken noch einmal um ein Rechteck zu zeichnen.
 
 ![Extend building][]
 
--   This will not only create a rectangle with only three clicks, but
-    it will also automatically apply the building=yes tag to the shape.
+-   So haben Sie nicht nur mit drei Klicks ein Rechteck gezeichnet, sondern der Form auch noch automatisch das Attribut building=yes angefügt.
 
-### Complex Buildings
+### Komplexe Gebäudeformen
 
-You can also create more complicated buildings by first drawing several
-overlapping buildings and then merging them together.
+Sie können auch kompliziertere Gebäudeformen erzeugen, indem Sie erst mehrere einzelne überlappende
+Gebäude zeichnen und sie danach vereinigen.
 
--   Draw two buildings which over lap, so that they form an L shape.
--   Select both buildings (hold SHIFT to select more than one object).
--   Go to Tools->Join overlapping Areas or press SHIFT+J on your keyboard.
+-   Zeichnen Sie zwei überlappende Gebäude, so dass sich ein L ergibt.
+-   Wählen Sie beide Gebäude aus (halten Sie die Umschalttaste gedrückt, um mehr als ein Objekt auszuwählen).
+-   Gehen Sie zum Menüpunkt Werkzeuge->Überlappende Flächen verbinden oder drücken Sie Umschalt+J auf Ihrer Tastatur.
 
 ![Merge buildings][]
 
-### Edit Settings
+### Einstellungen
 
-Furthermore, you can alter the default settings of the plugin.
+Sie können die Standardeinstellungen der Erweiterung ändern.
 
--   Go to Data->Set buildings size.
+-   Gehen Sie zum Menüpunkt Daten->Größe des Gebäudes festlegen.
 
 ![Set buildings size][]
 
--   If you are creating many similarly sized buildings, you can set specific
-    width and height dimensions of the buildings, such as 6 x 10 meters (the unit
-    is in meters).
+-   Wenn Sie viele Gebäude von ähnlicher Größe erzeugen, können Sie die genaue
+    Breite und Höhe der Gebäude festlegen, beispielsweise 6 x 10 Meter (die 
+    Längeneinheit sind Meter).
 
 ![Set buildings size dialog][]
 
--   By setting the dimensions you will only need two clicks to create precisely
-    sized buildings.
+-   Danach erstellen Sie Gebäude in der richtigen Größe mit nur zwei Klicks.
 
-Lastly, you can click on the Advanced button if you would like to add additional
-tags that will automatically be applied to every building. For example,
-if every building you draw is on the same street, you might add a tag
-which identifies the street that will be automatically applied.
+Durch einen Klick auf "Erweitert" können Sie zusätzliche Attribute angeben,
+die automatisch an jedes Gebäude angefügt werden. Z.B. können Sie,
+wenn alle Ihre Gebäude an der gleichen Straße liegen, ein Attribut dazufügen,
+das die Zuordnung zu dieser Straße festlegt.
 
 ![Buildings advanced][]
 
