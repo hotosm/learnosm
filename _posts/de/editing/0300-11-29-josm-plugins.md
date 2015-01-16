@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: JOSM Plugins
+title: JOSM Erweiterungen
 permalink: /de/editing/josm-plugins/
 lang: de
 category: editing
@@ -9,10 +9,6 @@ category: editing
 JOSM-Erweiterungen
 ==================
 
-
-This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
-
----
 
 Je weiter Sie mit Ihren Bearbeitungstechniken vorankommen, desto mehr zusätzliche Eigenschaften von JOSM werden Sie anwenden wollen. JOSM erlaubt Ihnen, zahllose Erweiterungen zu installieren, die zusätzliche Funktionen bereitstellen.
 
