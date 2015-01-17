@@ -10,15 +10,11 @@ Weitere Werkzeuge
 =================
 
 
-This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
-
----
-
 Die Erweiterungen **buildings_tools** und **utilsplugin2** stellen wichtige Zusatzfunktionen 
 für JOSM zur Verfügung. In diesem Abschnitt werfen wir einen genaueren Blick darauf.
 
-Die Erweiterung *Buildings Tools*
----------------------------------
+Buildings Tools
+---------------
 
 -   Sofern noch nicht geschehen installieren Sie diese Erweiterung nach der Anleitung 
     in [JOSM Erweiterungen](/de/editing/josm-plugins).
@@ -65,7 +61,7 @@ Sie können die Standardeinstellungen der Erweiterung ändern.
 
 -   Wenn Sie viele Gebäude von ähnlicher Größe erzeugen, können Sie die genaue
     Breite und Höhe der Gebäude festlegen, beispielsweise 6 x 10 Meter (die 
-    Längeneinheit sind Meter).
+    Längeneinheit ist Meter).
 
 ![Set buildings size dialog][]
 
@@ -82,68 +78,63 @@ das die Zuordnung zu dieser Straße festlegt.
 Utilsplugin2
 -------------
 
--   If you haven't already, install this plugin following the instructions
-    in [JOSM Plugins](/en/editing/josm-plugins).
+-   Sofern noch nicht geschehen installieren Sie diese Erweiterung nach der Anleitung
+    in [JOSM Erweiterungen](/de/editing/josm-plugins).
 
 ![Utilsplugin2 plugin][]
 
-After you have installed the plugin and restarted JOSM, you will have
-a new menu at the top named "More Tools."
+Nach der Installation der Erweiterung und einem Neustart von JOSM sehen Sie ein
+neues Menü "Werkzeuge 2".
 
 ![More tools menu][]
 
-Create a new layer and experiment with some of the new tools. Here we
-describe some of the most useful new tools:
+Erstellen Sie eine neue Ebene und probieren Sie einige der neuen Werkzeuge aus.
+Wir geben Ihnen noch eine Beschreibung der nützlichsten Werkzeuge:
 
-1.  **Add Nodes at Intersections:**  This tool is very helpful for adding
-    missing nodes in intersections of selected ways.  It is good
-    practice that roads should always have common nodes where
-    they intersect.
+1.  **Punkt an den Schnittpunkten einfügen:**  Damit fügen Sie die fehlenden Punkte überall dort ein,
+    wo sich die ausgewählten Linien schneiden. Sich schneidende Straßen sollten immer gemeinsame
+    Punkte haben.
 
     ![Nodes interesection][]
 
-2.  **Copy Tags from Previous Selection:**  This function makes copying tags
-    easier.  If you want to create many objects with the same tags,
-    first draw the objects.  Then add the tags to one object.  Click on
-    another object and press Shift + R to copy the tags from the
-    previously selected object.  You can do this for all objects that
-    you want to tag.  Remember that the tags will be copied from the
-    previously selected object, so if you click on an untagged object
-    and then another untagged object, you will not be able to copy any
-    tags.
+2.  **Merkmale von vorheriger Auswahl kopieren:**  Das erleichtert Ihnen das Kopieren von
+    Attributen.  Wenn Sie viele Objekte mit den gleichen Attributen erstellen,
+    zeichnen Sie zuerst die Objekte.  Dann fügen Sie die Attribute an ein Objekt an.  Klicken Sie
+    auf ein anderes Objekt und drücken Sie Umschalt + R um die Attribute von dem vorher 
+    ausgewählten Objekt zu kopieren.  So verfahren Sie für alle Objekte, denen Sie die Attribute
+    zuweisen wollen.  Denken Sie daran, dass die Atribute vom vorher ausgewählten Objekt
+    kopiert werden.  Wenn Sie also zuerst ein Objekt ohne Attribute anklicken
+    und danach ein anderes Objekt ohne Attribute, dann können Sie auch keine Attribute kopieren.
 
     ![Copy tags][]
 
-3.  **Add Source Tag:** This tool simplifies adding a source tag.  It
-    remembers the source that was specified last and adds it as
-    remembered source tag to your objects.   You can insert the source
-    with just one click.  
+3.  **Merkmal 'source' einfügen:** Das macht es Ihnen leichter, das Attribut zur verwendeten Quelle anzufügen.  Die
+    Erweiterung merkt sich das zuletzt verwendete 'source'-Attribut und fügt es an alle erzeugten
+    Objekte an. Sie können auch mit einem Doppelklick auf ein Objekt dessen 'source'-Attribut speichern.
+    Damit können Sie dieses Attribut mit nur einem Klick einfügen.  
 
-4.  **Replace Geometry:** This tool is great if you want to redraw a poorly
-    shaped object, but want to keep the history, attributes and ID
-    number of that object.  For example, if you come across a building
-    that is complicated and drawn in a poor fashion, then instead of
-    painfully changing each node, you can draw the object again,
-    select the old and new objects, and select ¨Replace Geometry¨ to
-    transfer all the information over.
+4.  **Geometrie ersetzen:** Ein wertvolles Werkzeug um ein schlecht gezeichnetes Objekt neu zu zeichnen,
+    dabei aber die Historie, Attribute und ID des Objekts zu behalten. Nehmen wir einmal an, Sie sehen
+    ein verschachteltes Gebäude, das schlampig gezeichnet wurde. Statt mühsam jeden Punkt einzeln zu verändern
+    zeichnen Sie das Objekt neu, wählen das alte und das neue Objekt aus und verwenden den Menüeintrag
+    ¨Geometrie ersetzen¨ um alle Informationen an das neue Objekt zu übertragen.
 
     ![Replace geometry][]
 
 
-### More Selection Tools
+### Weitere Auswahlmöglichkeiten
 
-**Utilsplugin2** also provides more tools on the "Selection" menu.
-Try experimenting with them.
+**Utilsplugin2** bietet auch noch mehr Möglichkeiten im  "Auswahl"-Menü.
+
 
 ![Selection menu][]
 
-One of our favorite selection tools is **Unselect Nodes:** This tool deselects
-all nodes. This can be useful if you draw a box to select many objects, but you do not
-want to select the nodes contained within all the lines and shapes.
+Einer unserer Favoriten dabei ist  **Punkte abwählen:** Dieses Werkzeug entfernt alle Punkte
+aus der aktuellen Auswahl. Wenn Sie durch Aufziehen eines Rechtecks viele Objekte ausgewählte haben, aber nur die Objekte selbst (Linien und Formen) benötigen und nicht deren einzelne Punkte, dann ist das genau das, was Sie suchen.
 
 ![Unselect nodes][]
 
-Good luck!
+Viel Erfolg!
 
 
 [Buildings tools plugin]: /images/en/editing/josm-more-tools/buildings_tools-plugin.png
