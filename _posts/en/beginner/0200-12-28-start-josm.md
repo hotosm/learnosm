@@ -246,6 +246,16 @@ computer, and the basic tools for drawing maps. In the next chapter we will
 take a closer look at the process of editing the OSM map with JOSM.
 
 
+Moving Forward
+--------------
+
+Click on the link for further reading on:  
+
+*  [To continue with this beginner series & to learn more about JOSM](/en/beginner/more-about-josm/)  
+*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](/en/coordination/remote/)  
+
+
+
 [JOSM website]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image00_josm-website.png
 [Windows installer]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image01_windows-installer.png
 [JOSM splash page]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image02_josm-splash-page.png

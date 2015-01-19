@@ -146,14 +146,7 @@ Aprender Desenho Básico com o JOSM
 -  Se lhe foi fornecido um conjunto de ficheiros pelo seu instrutor, já
     deverá ter o ficheiro que iremos abrir, chamado sample.osm.
 -  Se não tem o arquivo sample.osm no seu computador, pode
-    descarregá-lo da Internet. Abra o seu navegador e na barra de
-    endereços no topo da janela, escreva o seguinte texto:
-
-    [http://www.learnosm.org/files/](http://www.learnosm.org/files/)
-
-Clique com o botão direito no ficheiro chamado sample.osm, e
-clique “Salvar Link Como...” Escolha um local no seu computador para gravar
-o arquivo.
+    descarregá-lo da Internet: [sample.osm](/files/sample.osm)
 
 -  Agora vamos abrir o arquivo do mapa de exemplo no JOSM. Abra o
     JOSM. Clique no botão “Abrir” no lado superior esquerdo.

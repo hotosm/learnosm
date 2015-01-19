@@ -99,7 +99,7 @@ Impara il disegno di base con JOSM
     basi di come tracciare le mappe con JOSM. Nota che questa mappa non
     è reale, cioè non è una mappa di un posto vero, quindi
     non caricheremo questi dati su OpenStreetMap.
-- Scarica qui il file: [sample.osm](http://learnosm.org/files/sample.osm)
+- Scarica qui il file: [sample.osm](/files/sample.osm)
 -  Adesso apriamo la mappa d’esempio in JOSM. Apri JOSM e clicca il
     bottone “Apri” in alto a sinistra.
 

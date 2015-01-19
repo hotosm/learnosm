@@ -6,8 +6,9 @@ lang: es
 category: beginner
 nosearch: true
 ---
+
 {% for post in site.categories.[page.category]%}
   {% if post.lang == page.lang %}{% unless post.hidden %}
-    {{post.content | markdownify}}
+    {{ post.content | markdownify }}
   {% endunless %}{% endif %}
 {% endfor %}
