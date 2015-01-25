@@ -21,7 +21,7 @@ Buildings Tools
 
 ![Buildings tools plugin][]
 
-Die Erweiterung "Buildings Tools" hilft Ihnen beim abzeichnen von Gebäuden.
+Die Erweiterung "Buildings Tools" hilft Ihnen beim Abzeichnen von Gebäuden.
 Sie zeichnen nur eine Kante eines rechtwinkligen Gebäudes und erweitern sie einfach zur Fläche.
 Wenn Sie viele Gebäude abzeichnen wollen sparen Sie mit dieser Erweiterung viele Klicks und dadurch Zeit.
 
@@ -137,20 +137,20 @@ aus der aktuellen Auswahl. Wenn Sie durch Aufziehen eines Rechtecks viele Objekt
 Viel Erfolg!
 
 
-[Buildings tools plugin]: /images/en/editing/josm-more-tools/buildings_tools-plugin.png
+[Buildings tools plugin]: /images/de/editing/josm-more-tools/buildings_tools-plugin.png
 [Buildings tools button]: /images/en/editing/josm-more-tools/buildings_tools-button.png
 [Draw edge]: /images/en/editing/josm-more-tools/draw-edge.png
 [Extend building]: /images/en/editing/josm-more-tools/extend-building.png
 [Merge buildings]: /images/en/editing/josm-more-tools/merge-buildings.png
-[Set buildings size]: /images/en/editing/josm-more-tools/set-buildings-size.png
-[Set buildings size dialog]: /images/en/editing/josm-more-tools/set-buildings-size-dialog.png
-[Buildings advanced]: /images/en/editing/josm-more-tools/buildings-advanced.png
-[Utilsplugin2 plugin]: /images/en/editing/josm-more-tools/utilsplugin2-plugin.png
-[More tools menu]: /images/en/editing/josm-more-tools/more-tools-menu.png
+[Set buildings size]: /images/de/editing/josm-more-tools/set-buildings-size.png
+[Set buildings size dialog]: /images/de/editing/josm-more-tools/set-buildings-size-dialog.png
+[Buildings advanced]: /images/de/editing/josm-more-tools/buildings-advanced.png
+[Utilsplugin2 plugin]: /images/de/editing/josm-more-tools/utilsplugin2-plugin.png
+[More tools menu]: /images/de/editing/josm-more-tools/more-tools-menu.png
 [Nodes interesection]: /images/en/editing/josm-more-tools/utilsplugin2-nodes-intersection.png
-[Copy tags]: /images/en/editing/josm-more-tools/utilsplugin2-copy-tags.png
-[Replace geometry]: /images/en/editing/josm-more-tools/utilsplugin2-replace-geometry.png
-[Selection menu]: /images/en/editing/josm-more-tools/selection-menu.png
+[Copy tags]: /images/de/editing/josm-more-tools/utilsplugin2-copy-tags.png
+[Replace geometry]: /images/de/editing/josm-more-tools/utilsplugin2-replace-geometry.png
+[Selection menu]: /images/de/editing/josm-more-tools/selection-menu.png
 [Unselect nodes]: /images/en/editing/josm-more-tools/utilsplugin2-unselect-nodes.png
 
 
