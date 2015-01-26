@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: JOSM Tools
+title: Werkzeuge zum Editieren in JOSM
 permalink: /de/editing/josm-tools/
 lang: de
 category: editing
@@ -9,10 +9,6 @@ category: editing
 Werkzeuge zum Editieren in JOSM
 ===============================
 
-
-This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
-
----
 
 Im [Leitfaden für Anfänger](/de/beginner) haben wir die Grundlagen des Zeichnens in 
 JOSM behandelt, aber es gibt noch viele Werkzeuge und Techniken, die wir noch nicht gezeigt haben.
