@@ -81,6 +81,19 @@ Explanation:
 - `lang` is the language prefix of the document and must be the same as in `permalink`. This is redundant with `permalink` for Jekyll specific reasons.
 - `category` contains the guide's shortname (currently there is only one guide in the Jekyll site: `beginner`).
 
+### Structure, folders, file names
+https://github.com/hotosm/learnosm/wiki/File-naming-in-_posts-directory
+
+### Content formatting
+https://github.com/hotosm/learnosm/wiki/Markdown-post-guidelines
+
+### Images
+https://github.com/hotosm/learnosm/wiki/Images-guidelines-beta
+
+### Style guide
+Proposal at https://hackpad.com/Proposed-Style-Guide-for-LearnOSM-1JJxS8NIQSX
+
+
 ## Contributing to site
 
 Same as with content, to contribute, [fork this repository](https://help.github.com/articles/fork-a-repo), modify, then issue a [pull request](https://help.github.com/articles/using-pull-requests).
