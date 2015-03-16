@@ -19,50 +19,28 @@ category: beginner
 
 ![Example of a hand-drawn map][]
 
-If your town is like most, you may have drawn some lines to represent
-roads, possibly a river or stream. Perhaps you added important buildings
-such as schools and offices, fields, or boundaries. Whatever you drew,
-you probably used symbols – a line to symbolize a road, a square to
-symbolize a building, and so on. Your map is a representation of what is
-on the ground.
+Якщо ваше місто таке ж, як і більшість інших, вам доведеться накреслити кілька ліній, що позначають дороги, можливо річку чи струмок. Можливо ви додасте важливі будівлі, такі як школи та установи, поля або гранці. Щоб ви не намалювали, ви, ймовірно, скористаєтесь позначками — лінією для позначення доріг, прямокутниками для будинків і так далі. Ваша мапа є зображенням того, що є на поверхні землі.
 
 ![Examples of symbols][]
 
-Your map is informative. You might use a map like this to explain to
-someone where different places are, where problems are in your
-community, or merely to help someone find their way around. The use of
-your map is limited though. There is only one copy of the map and the
-way you drew it may make sense to you, but perhaps not to someone else
-who would have drawn their own map in a different way. Because your map
-is merely on paper, it is difficult to get that information to others.
-This is why making your map on a computer, in such a way that anyone can
-access it, can be much more valuable. 
+Ваша мапа є інформативною. Ви можете скористатись мапою для того, щоб пояснити комусь де знаходяться різні місця, де є проблеми у вашому районі, або просто допомогти людині знайти шлях. Але можливість використання вашої мапи є обмеженою. Наявна тільки одна копія мапи і спосіб, яким ви її накреслили, має сенс лише для вас, але, можливо, ви не одні хто намалював свою власну мапу, але по-іншому. Тому що ваша мапа є лише на папері, дуже важко отримати інформацію з неї іншим. Ось чому створення мапи на комп’ютері, у такий спосіб, щоб кожний мав до неї доступ, є більш корисним.
 
 ![Mapping on Computer][]
 
-OpenStreetMap is a tool for creating and sharing map information. 
-Anyone can contribute to OSM, and thousands of people add to the project 
-every day. Users draw maps on computers, rather than paper, but as we 
-will see in this guide, drawing a map on a computer is not all that 
-different from drawing on paper. We still draw lines to represent roads,
-fields, and anything else, and we still represent schools and hospitals 
-with symbols. The important thing is that OSM maps are saved on the 
-internet, and anyone can access them at any time, totally free.
+OpenStreetMap — це інструмент для створення та розповсюдження картографічної інформації. Будь-хто може внести свій вклад в OSM і тисячі людей додають інформацію в проект кожного дня. Користувачі креслять мапи на комп’ютері, не на папері, та, як це буде видно далі у цьому керівництві, креслення мапи на комп’ютері не дуже відрізняється від креслення на папері. Ми також малюємо лінії щоб позначити дороги, поля та будь-що ще, і ми також відмічаємо школи та лікарні позначками. Важливо те, що мапа OSM зберігається в Інтернеті і будь-хто може отримати до неї доступ в будь-який час, абсолютно безкоштовно.
 
 ![Digital maps with OpenStreetMap][]
 
-We hope that you will find OpenStreetMap useful and interesting in your
-work. By following this guide, you should be able to quickly start
-making digital maps with OpenStreetMap.
+Ми сподіваємось, що OpenStreetMap стане корисною та важливою у вашій роботі. Дотримуючись цього керівництва, ви зможете швидко почати створювати електрону мапу та додавати дані в OSM.
 
-Moving Forward
---------------
+Просуваючись далі
+-----------------
 
-Click on the link for further reading on:  
+Перейдіть за наступними посиланнями, щоб отримати більш докладну інформацію про те, як:  
 
-*  [Getting started on OpenStreetMap.org](/en/beginner/start-osm/) 
-*  [Getting started with the iD editor](/en/editing/id-editor/)   
-*  [Getting started with the JOSM editor](/en/beginner/start-josm/)  
+*  [Розпочати роботу з OpenStreetMap.org](/uk/beginner/start-osm/) 
+*  [Почати використовувати редактор iD](/uk/editing/id-editor/)   
+*  [Почати використовувати редактор JOSM](/uk/beginner/start-josm/)  
 
 
 [A village in Indonesia]: /images/en/beginner/01_introduction/en_beg_01_introduction_image00_village-in-indonesia.png
