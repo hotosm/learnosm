@@ -6,7 +6,7 @@ permalink: /:categories/:title/
 columnist:
   paths:
   - _posts
-baseurl: ''
+baseurl: '/learnosm'
 rdiscount:
   extensions: [smart]
 prose:
