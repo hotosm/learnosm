@@ -88,3 +88,11 @@ translations:
     feedbackspan: "Je li ovo poglavlje bilo korisno?"
     feedback: "Javite nam i pomozite nam poboljšati uputstva!"
     getstarted: "Započnite"
+  uk:
+    tagline: "Знайомимось з OpenStreetMap крок за кроком"
+    contribute: "Допоможіть покращити наші посібники"
+    trainingspan: "Ви проводите семінар?"
+    training: "Ознайомтесь з навчальними матеріалами для цього посібника (англ.)"
+    feedbackspan: "Чи був цей розділ корисним?"
+    feedback: "Повідомте нам і допоможіть нам покращити посібник!"
+    getstarted: "Розпочати"
