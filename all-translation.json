@@ -132,5 +132,18 @@
 	  {"label":"",
 	   "url":""}
 	]
+},{
+	"lang":"ru",
+		"chapters":[
+	  {% for post in site.posts %}
+	  {% if {{post.lang}} == 'ru' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
 }
 ]
