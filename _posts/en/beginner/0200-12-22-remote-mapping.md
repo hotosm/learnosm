@@ -61,7 +61,7 @@ This guide has been summarized and collected from a variety of existing tutorial
 
 [LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/)- one of the most comprehensive guides  
 
-[MapGive's Learn To Map tutorial](http://learnosm.org/en/coordination/remote/)- includes videos that you can pause to follow along
+[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along
 
 [HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - written by Peter Richardson (@meetar) an experienced HOT Remote Response Volunteer
 
