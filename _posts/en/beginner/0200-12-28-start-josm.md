@@ -51,6 +51,8 @@ Install JOSM
 >  try downloading and installing Java. You can download it here:
 >  [http://www.java.com/en/download/](http://www.java.com/en/download/)
 
+>  Mac users may have old versions of Java. Please see [http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation) for options for OSX 10.6 and 10.7.3+
+
 - Find the JOSM install file on your computer. Double-click it to
   begin setup.
 - Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation
