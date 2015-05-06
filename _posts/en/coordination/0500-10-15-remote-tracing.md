@@ -1,7 +1,7 @@
 ---
 layout: doc
-title: Remote, Armchair or Mapathon editing
-permalink: /en/coordination/remote/
+title: Tracing roads, buildings, water and landuse 
+permalink: /en/coordination/remote-tracing/
 lang: en
 category: coordination
 ---
@@ -9,125 +9,16 @@ category: coordination
 >This guide is also available as a printable desktop guide for use by participants at mapathons. It incorporates part of the sign-up process, and includes the Tasking Manager Section.  
 Click to download the file [Mapathon.odt](/files/Mapathon.odt) or [Mapathon.pdf](/files/Mapathon.pdf)
 
+Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT. 
 
-Remote editing & its place in the HOT team
-==================
+Section Index
+=====
 
-Remote mapping is also referred to as 'Armchair mapping', and this is probably the type of mapping you will be doing if attending a mapathon. It will help you to understand what is needed if you know more about the whole process. Many people throughout the world are involved in making HOT work, and when you start remote mapping you become part of that team, which has many available roles, including (this is not the full list!):
-  
--  Sourcing & preparing satellite imagery,  
--  Making sure there are no legal implications such as copyright,  
--  Co-ordinating with the aid agencies,  
--  Ensuring the data is available in a format the aid agencies can use, such as Garmin maps, Osmand maps, & exports for particular programmes,  
--  Preparing teaching aids,  
--  Presenting the tasks in a format that others can use to create the maps,  
--  Making contact with the local people, and teaching them about HOT,  
--  Teaching local people how to do ground surveys and update the data for their own & others use,  
--  Making sure that local people take over the role of maintaining the map data that has been prepared - that they have 'ownership' of it,  
--  & remote mapping.  
+[Roads and Highways, including paths & Tracks](/en/coordination/remote-tracing/#roads)  
+[The Highway network](/en/coordination/remote-tracing/#the-highway-network)  
+[Residential Landuse boundary](/en/coordination/remote-tracing/#residential-boundaries)  
+[Buildings, walls, fences, compounds and barriers](/en/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
 
-**Remote mapping** is the most labour intensive task. There have been many attempts to create software tools to replace the remote mappers, but all have failed so far. In brief, remote mapping is the process of using a software programme, tracing information from satellite imagery, and uploading the result so that it forms part of the map data. It is a skill that can be acquired with patience. There are no perfect 'mappers' and although you (and everybody else) will do your best to avoid mistakes, mistakes are inevitable. The HOT team works together to keep mistakes to a minimum & to correct them when they are found - you will make mistakes, just as each one of us has - please don't give up, just learn from them & improve.
-
-Overview of Remote, Armchair or Mapathon mapping
-================================================
-
-1. An administrator selects an area requiring updating in OpenStreetMap. The administrator ensures there is suitable satellite imagery available for remote mappers to trace, and creates a project covering the area. The level of detail required and the urgency are specified within the project together with any other information the remote mapper will require. When satisfied, the administrator publishes the project within the Tasking Manager [tasks.hotosm.org](http://tasks.hotosm.org), although they may also make changes later if required.
-
-2. A remote mapper selects a task square, completes the mapping, and marks the square as complete.
-
-3. A second remote mapper checks that the square is completed to a satisfactory level and marks the square as 'validated'
-
-4. Progress of the mapping of the project can be monitored from within the "stats" tab of the project, and the project can be downgraded or archived as required by an administrator.
-
-
-Before you start
-================
-
-Take a few minutes to look at each of these - just a quick read so you know roughly what we are talking about, and where to refer back to when you need to:
- 
--  [OpenStreetMap.org section of LearnOSM](/en/beginner/start-osm/). This covers just the basics about OpenStreetMap, and reading this will help you a lot - it's not a big chapter so it won't take you long to read it all. While you are reading it, use the information to help you create an OpenStreetMap account, and to confirm it with the email link. Make sure you have a record of your username and password.
--  [Tasking Manager Section of LearnOSM](/en/coordination/tasking-manager/). You will need to know how to log into the Tasking Manager, find a particular project, select a square, and what to do with it. You need to read the whole chapter!  
-
-You may also like to view the short video's provided by [MapGive](http://mapgive.state.gov/learn-to-map/) - please be aware the OSM Tasking Manager has been upgraded since the video was made - the principles are the same but the colours have altered.
-
-
-Editing Software
-----------------
-
-Although there are more software programmes available, at this time there are two main choices. Have a quick read of the LearnOSM chapters listed below and decide which editor you would like to start with - you can easily change from one to another at a later stage if you wish:
-
--  The iD Editor [LearnOSM section on iD Editor](/en/editing/id-editor/). This editor is ideal for those new to OpenStreetMap editing and has a gentle learning curve. The last section explains the [differences between iD & JOSM](/en/editing/id-editor/#id-versus-josm), and  
--  JOSM, the Java OpenStreetMap editor [LearnOSM - installing & starting out with JOSM](/en/beginner/start-josm/)
-
-# Remote Mapping - Starting to map
-
-Don't give up on us now - we've thrown a lot of information at you, but it should start to fall into place as you actually start to map. You've achieved a lot:
-
--  You have an OpenStreetMap account with a username & password,  
--  You know what the OSM Tasking Manager does, and have an idea about how you will use it, and  
--  You've decided which editing software you are going to start with, and you have an idea how it is used.
-
-We're now going to select a square from a project and start to map it. If you are at a mapathon, or assisting remotely, the organisers will have provided instructions as to which project you should be working on. If you are working alone, look through the list of projects in the Tasking Manager [tasks.hotosm.org](http://tasks.hotosm.org) and try to find a project which is suitable for beginners, and choose a project. You've probably already had a quick read of the information on the Instructions Tab of the project, but you need to thoroughly understand what is needed - do you need to read it again?
-
-Having selected the project you are going to work on, now select a square and then using the drop down list, load it into your chosen editor. 
-
-## Initial View - JOSM
-
-![JOSM 1][]
-
-1.  The boundary of your square is indicated by the crosshatching. There is a very slight overlap of the squares, so that a feature in your square that stops at the boundary will just appear within the boundary of the adjacent square. You should only map features within your square to avoid 'conflicts', which are explained elsewhere.  
-> If the boundary crosshatching is not visible, you may have installed the plugin '*Download OSM data continuously*'. To correct this you will need to remove the tick for this plugin under the File menu of JOSM, delete the downloaded data, and download again using the Tasking Manager.  
-2.  The scale of your view is indicated here. This is a very small square, with a figure of 40.8 metres - this figure is often several kilometres.  
-3.  Several features already exist within the OpenStreetMap database, and these have been loaded. We will explore them in a moment.
-4.  There is no background imagery loaded on this occasion and we will have to load it manually - the instructions for this particular project show that bing imagery is to be loaded, and this can be quickly loaded by clicking on the word 'imagery' and then selecting 'bing' from the dropdown list. You may find that zooming out (roll the mouse centre wheel towards you) and then zooming in again helps the imagery to load quickly. 
-
-### Alternate initial view - JOSM
-
-![JOSM 3][]
-
-1.  Boundary of square is indicated by the crosshatching. bing imagery has been loaded, but at this scale the imagery is not detailed.  
-2.  The scale line indicates 2.61km - this is a very large area of coverage. 
-
-
-## Initial View - iD
-
-![iD 1][]
-
-1.  The boundary of your square is indicated by the purple line. There is a very slight overlap of the squares, so that a feature in your square that stops at the boundary will just appear within the boundary of the adjacent square. You should only map features within your square to avoid 'conflicts', which are explained elsewhere.  
-2.  The scale of your view is indicated here. This is a very small square, with the 100 metre line extending quite a long way in proportion to the length of the square - this figure is often several kilometres.  
-3.  Several features already exist within the OpenStreetMap database, and these have been loaded. We will explore them in a moment.
-4.  bing imagery has already been loaded as a background.  
-
-### Alternate initial view - iD
-
-![iD 4][]
-
-1.  Boundary of square.  
-2.  For this square the scale indicated is 5km, at which scale the editing buttons at the top of the screen are greyed out and not selectable.
-## Checking on the existing data - JOSM
-
-![JOSM 2][]
-
-1.  I've clicked on one of the existing features in the OSM data, and it is now coloured red in the screenshot.  
-2.  In the **Tags / Memberships** pane to the right you can see that this feature is tagged with the key of highway & a value of residential. For ease of reference this would be referred to as  
-    highway=residential  
-
-The next section of this guide indicates how features should be mapped & tagged.
-
-
-## Checking on the existing data - iD
-
-![iD 2][]
-
-1.  I've clicked on one of the existing features in the OSM data, and it is now highlighted with a red border in the screenshot, and iD is showing the available tools.  
-2.  iD presented me with a number of potential tags I could use on this feature on the left side of the screen, but for our purpose I have used the scroll bar to go down to the heading **All tags** where we can see that the feature has a key of **highway** and a value of **residential**. For ease of reference this would be referred to as  
-    highway=residential  
-3.  The person who has mapped the adjoining square has traced a highway from their square just over the border into my square & then stopped. This is the correct way to 'handover' a highway or feature at the border of your square.
-
-The next section of this guide indicates how features should be mapped & tagged.
-
-
-# Mapping the features
 
 ## Roads
 
@@ -234,7 +125,7 @@ This is a difficult operation - you can see only a small part of the whole town 
 
 ***
 
-## Buildings, compounds & barriers  
+## Buildings walls compounds barriers  
 
 Buildings are added to the map data for a number of reasons;  
 
@@ -255,7 +146,7 @@ Unless the project instructions specify otherwise, buildings should be tagged **
 
 *  There can often be a time delay between the satellite imagery being taken, and the mapping being carried out. There is the possibility that the building you are looking at that appears to have no roof, has now been completed & is now in habitation. It is also possible that you are looking at a building with several storeys, the bottom ones being lived in, and the top floor with no roof currently not being lived in.
 
-> **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes.  
+> **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes. If you're tracing is of a building with square corners, please take the time to square your traced item (highlight it and shortcut 's').  
 
 *  JOSM is far faster for mapping buildings - [JOSM building tools is explained here.](/en/editing/more-tools/#the-buildings-tools-plugin)  
 
@@ -263,7 +154,7 @@ Unless the project instructions specify otherwise, buildings should be tagged **
 
 This screenshot shows part of a square being edited. Note the scale at the bottom of 15 metres - about the figure you should aim at when editing features. When tracing, you are aiming to place the building where it meets the ground:  
 
-1.  **Round buildings.** In this case they are fairly low in height and their shadow is hardly visible. If you were standing amongst them they would appear like domes. I have mapped & tagged only one of these so far **building=yes**. To quickly add the remaining round buildings in JOSM I would select this one (highlight it), keyboard shortcut *Ctrl+c*, move my cursor to the centre of another round building of the same size, keyboard shortcut *Ctrl+v*. When all of the round buildings of this size have been added in my square I paste a building over a different sized round building, use *Alt+Ctrl* & mouse to resize it to the correct size, copy it & then paste over all round buildings of the same size. 
+1.  **Round buildings.** In this case they are fairly low in height and their shadow is hardly visible. If you were standing amongst them they would appear like domes. I have mapped & tagged only one of these so far **building=yes**. To quickly add the remaining round buildings in JOSM or iD I would select this one (highlight it), keyboard shortcut *Ctrl+c*, move my cursor to the centre of another round building of the same size, keyboard shortcut *Ctrl+v*. When all of the round buildings of this size have been added in my square I paste a building over a different sized round building, JOSM - use *Alt+Ctrl* & mouse to resize it to the correct size, copy it & then paste over all round buildings of the same size.  
 2.  **Rectangular buildings.** These particular buildings are casting a noticeable shadow. The shadow can help to identify the shape of a building which is partially obscured by another feature. You will find that many buildings are not so simple, and have a verandah or are 'L' shaped - you must trace the actual shape of the building as this will help to identify it when names & other data is being added as part of the ground survey process.  
 3.  **Barriers - walls (or hedges) of a compound.** Having examined the imagery, zooming in & out until I am satisfied that from the shape of the object (use its shadow as well to identify), I believe this to be a wall, and I have tagged it **barrier=wall**. Alternatives include barrier=fence and barrier=hedge.  
 4.  I have joined the barrier=wall to the building=yes at the corner of the building.  
@@ -292,14 +183,7 @@ More to follow - see the below links for more guidance.
 -  [Highway Tag Africa - the preferred reference for highway tagging in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)  
 -  [Short Tutorial in French for remote mapping](http://blog.cartong.org/2014/07/24/tuto-digitaliser-sous-openstreetmap-avec-le-tasking-manager-et-josm-premiers-pas/)
 
-
-[JOSM 1]: /images/en/coordination/remote/JOSM_1.png
-[iD 1]: /images/en/coordination/remote/iD_1.png
-[JOSM 2]: /images/en/coordination/remote/JOSM_2.png
-[iD 2]: /images/en/coordination/remote/iD_2.png
 [iD 3]: /images/en/coordination/remote/iD_3.png
-[iD 4]: /images/en/coordination/remote/iD_4.png
-[JOSM 3]: /images/en/coordination/remote/JOSM_3.png
 [JOSM 4]: /images/en/coordination/remote/JOSM_4.png
 [iD 5]: /images/en/coordination/remote/iD_5.png
 [iD residential]: /images/en/coordination/remote/iD_residential.png
