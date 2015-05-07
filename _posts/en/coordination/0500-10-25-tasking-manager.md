@@ -146,6 +146,15 @@ Different options for editing are presented to you as soon as you lock a square.
 
 #### Potlatch 2  
 - Editor will load in a new window or tab.  
+- Potlatch will not automatically display the task bounding box, but you can do so by following this procedure:
+  1. In the Tasking Manager, select a square and click Start Mapping to lock it
+  2. In the Tasking Manager, select Edit with JOSM (if a window appears saying "JOSM remote control did not respond..." just click OK).
+  3. Below the Edit with JOSM button, text will say "Tip: Download the following .gpx file...". Download the .gpx file, and note where it is saved.
+  4. In the Tasking Manager, change from Edit with JOSM to Edit with Potlatch 2. Potlatch should open in a new tab.
+  5. In Potlatch, select Background, then Vector File...
+  6. In the Load Vector File window, at the bottom next to File, click Open, and navigate to the .gpx file you just downloaded
+  7. In the Load Vector File window, make sure the box is checked in the Show column for the .gpx file, then close the window
+  8. Potlatch should now display the boundary as a square (probably cyan). Note that Potlatch will still load data outside the boundary.
 
 #### Walking Papers / Field Papers
 - For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned & used as a background image for a remote or local mapper to read the information & update the OpenStreeetMap data.  

@@ -110,7 +110,7 @@ HOT. Ви можете дізнатись про інші довідкові р�
 [LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/) —
 один з найдокладніших довідників  
 
-[MapGive's Learn To Map tutorial](http://learnosm.org/en/coordination/remote/) –
+[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/) –
 містить відеоматеріали. Ви можете призупинити відео, щоб потім продовжити.
 <!-- no video at this link :(-->
 
