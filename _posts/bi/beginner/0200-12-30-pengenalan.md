@@ -79,8 +79,8 @@ Kami harap Anda tertarik menggunakan OpenStreetMap dan OpenStreetMap dapat
 berguna untuk pekerjaan Anda. Dengan mengikuti panduan ini, Anda dapat memulai 
 dengan cepat cara membuat peta digital dan menambahkannya pada OSM.
 
-[A village in Indonesia]: /images/bi/beginner/01_introduction/bi_beg_01_introduction_image00_village-in-indonesia.png
-[Example of a hand-drawn map]: /images/bi/beginner/01_introduction/bi_beg_01_introduction_image01_hand-drawn-map.png
-[Examples of symbols]: /images/bi/beginner/01_introduction/bi_beg_01_introduction_image02_examples-of-symbols.png
-[Mapping on Computer]: /images/bi/beginner/01_introduction/bi_beg_01_introduction_image03_mapping-on-computer.png
-[Digital maps with OpenStreetMap]: /images/bi/beginner/01_introduction/bi_beg_01_introduction_image04_digital-maps-with-osm.png
+[A village in Indonesia]: /images/beginner/village-in-indonesia.png
+[Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
+[Examples of symbols]: /images/beginner/examples-of-symbols.png
+[Mapping on Computer]: /images/beginner/mapping-on-computer.png
+[Digital maps with OpenStreetMap]: /images/beginner/digital-maps-with-osm.png

@@ -6,9 +6,6 @@ lang: en
 category: coordination
 ---
 
->This guide is also available as a printable desktop guide for use by participants at mapathons. It incorporates part of the sign-up process, and includes the Tasking Manager Section.  
-Click to download the file [Mapathon.odt](/files/Mapathon.odt) or [Mapathon.pdf](/files/Mapathon.pdf)
-
 Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT. 
 
 Section Index
