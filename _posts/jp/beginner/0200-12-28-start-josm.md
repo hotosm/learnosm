@@ -107,12 +107,8 @@ JOSMでの描画の基本
 ### 地図の描画
 
 -  JOSM画面の左側には、多くのボタンが配置されています。それらのボタンを押すと右側に新しいボックスが表示され、地図に対する情報がより多く表示されます。しかし、それらのボタンのなかで最も重要なのは、列の一番上に表示されているボタンです。これらのボタンは、マウスで実施できる挙動を変更します。
--  上から4つまでのボタンは非常に重要です。
-- The top buttons in this column are the ones you will use the most.
-  They are used for selecting objects and for drawing new ones.
-- Until now, you have been using the Select tool, which looks like
-  this:
--  “選択”機能は、下のようなボタンで表されています。
+-  最も重要なボタンは、このカラムの一番上のほうに配置されています。これらのボタンをクリックすると、オブジェクトの選択や描画を行うことができます。
+- ここまでの操作では、"選択"ツールを使用してきています。以下のアイコンです。:
 
   ![Select tool][]
 
@@ -153,6 +149,16 @@ JOSMでの描画の基本
 ここから先の2章を使って、あなたの住んでいるところをマッピングするために必要な、GPSの使用法、およびFieldPapersの使用法を紹介します。
 
 その後、再びJOSMの紹介として、収集した情報を使ってOpenStreetMapへオブジェクトを追加する方法について扱います。
+
+一歩先へ
+--------------
+
+この操作についてより詳しく知りたい場合は、以下のリンク先も参照してください:  
+
+*  [初歩的な操作についての続き、JOSMについてさらに詳しい操作方法](/jp/beginner/more-about-josm/)  
+*  [LearnOSMの、遠隔・アームチェア・マッパソン関連項目](/jp/coordination/remote/)  
+
+
 
 [JOSM website]: /images/jp/beginner/03_start-josm/jp_beg_03_start-josm_image00_josm-website.png
 [Windows installer]: /images/jp/beginner/03_start-josm/jp_beg_03_start-josm_image01_windows-installer.png
