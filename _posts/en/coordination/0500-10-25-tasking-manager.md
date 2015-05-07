@@ -7,9 +7,25 @@ category: coordination
 ---
 
 # Tasking Manager
+Section Index
+-------------
+-  [Overview of how HOT uses the Tasking Manager](/en/coordination/tasking-manager/#overview-of-the-process)  
+-  [Languages, Options, help links, and other links. Your user page - list of projects you have assisted in, and messages](/en/coordination/tasking-manager/#options-amp-links)  
+-  [Logging in](/en/coordination/tasking-manager/#getting-started-with-the-tasking-manager)  
+-  [Finding a project](/en/coordination/tasking-manager/#locating-a-project)  
+-  [Description, Map grid, Instructions, Contributing, Activity, Statistics for a project](/en/coordination/tasking-manager/#description)  
+-  [Selecting a square to map, timer, releasing](/en/coordination/tasking-manager/#selecting-a-square-to-map)  
+-  [JOSM, iD, Potlatch 2, Field Papers, Walking Papers](/en/coordination/tasking-manager/#editing-choices)  
+-  [Splitting a square](/en/coordination/tasking-manager/#splitting-a-square)  
+-  [Releasing your square before it is complete](/en/coordination/tasking-manager/#unlocking-a-square-before-it-is-complete)  
+-  [Marking your square as complete](/en/coordination/tasking-manager/#finishing-a-square)  
+-  [Sending messages](/en/coordination/tasking-manager/#sending-a-message-from-the-comment-box)  
+-  [identifying your square in an email or other message](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
+-  [Live Help - IRC, Internet Relay Chat](/en/coordination/tasking-manager/#getting-live-help)  
+-  [Hints and Tips](/en/coordination/tasking-manager/#editing-hints-and-tips)
 
 
-In this section, we look at the HOT Tasking Manager, an intuitive tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. 
+The HOT Tasking Manager, is an intuitive tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. 
 
 The OSM Tasking Manager allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas.
 
