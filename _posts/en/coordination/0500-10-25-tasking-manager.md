@@ -155,7 +155,10 @@ Different options for editing are presented to you as soon as you lock a square.
 ![Editing options][]  
 
 #### Edit with JOSM  
-- When selected (assuming you have set-up JOSM to use remote control), will automatically load any existing data from OSM into JOSM (*make sure you do not have the "download data automatically" plug-in activated - de-activate under the file menu*), & will also automatically load the imagery for you to trace from.  
+- Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
+>  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
+  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM. 
+  3. If JOSM does not load the imagary automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/beginner/more-about-josm/#add-imagery)
 
 #### iD editor  
 - Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
