@@ -1,0 +1,14 @@
+---
+layout: doc
+title: コンテンツを全て表示
+permalink: /jp/beginner/all-chapters/
+lang: jp
+category: beginner
+nosearch: true
+---
+
+{% for post in site.categories.[page.category]%}
+  {% if post.lang == page.lang %}{% unless post.hidden %}
+    {{ post.content | markdownify }}
+  {% endunless %}{% endif %}
+{% endfor %}
