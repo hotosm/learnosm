@@ -15,7 +15,7 @@ Taarifa zina nguvu. Kwa taarifa nzuri na uelewa wa kweli, watu na jamii wanaweza
 
 ![A village in Indonesia][]
 
-Ramani ni picha ya dunia yetu yenye maelezo lukuki. Inaweza elezea wazo flani vizuri kuliko maneno. Hii kwa upande wetu inaweza kusaidia kujibu maswali muhimu. Ni shule au hospitali gani ipo karibu? Nani aliye karibu na huduma hizo? Wapi umasikini ni tatizo zaidi? maswali kama haya yanaweza elezewa vizuri kwa kutumia ramani, vilevile ramani zinaweza tusaidia kutafuta ufumbuzi juu ya matatizo hayo.
+Ramani ni picha ya dunia yetu yenye maelezo lukuki. Inaweza elezea wazo flani vizuri kuliko maneno. Hii kwa upande wetu inaweza kusaidia kujibu maswali muhimu. Ni shule au hospitali gani ipo karibu? Nani aliye karibu na huduma hizo? Wapi umasikini ni tatizo zaidi? Maswali kama haya yanaweza elezewa vizuri kwa kutumia ramani, vilevile ramani zinaweza tusaidia kutafuta ufumbuzi juu ya matatizo hayo.
 
 Kama zoezi, chukua kalamu na karatasi harafu chora ramani ya kijiji au mji wako. Ni vitu gani vya muhimu kuweka katika ramani? Je, tarifa ya muhimu zaidi ni hipi? Tumia dakika chache kutengeneza ramani yako, ukimaliza, fikiria kwanini tarifa ambazo umeweka za muhimu, na nani zinaweza kusaidia.
 
@@ -34,7 +34,7 @@ OpenStreetMap ni kifaa cha kutengenezea na kushirikishana taarifa za ramani. Mtu
 
 ![Digital maps with OpenStreetMap][]
 
-Tunatarajia kwamba utaona Ramani Huria ni muhimu na ya kuvutia katika kazi zako. Kwa kufuata muongozo huu, utaweza kwa haraka kutengeneza ramani za kidigitali kwa kutumia OpenStreetMap.
+Tunatarajia kwamba utaona OpenStreetMap ni muhimu na ya kuvutia katika kazi zako. Kwa kufuata muongozo huu, utaweza kwa haraka kutengeneza ramani za kidigitali kwa kutumia OpenStreetMap.
 
 Kusonga Mbele
 --------------
