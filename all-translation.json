@@ -81,10 +81,10 @@
 	   "url":""}
 	]
 },{
-	"lang":"jp",
+	"lang":"ja",
 	"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'jp' %}
+	  {% if {{post.lang}} == 'ja' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
