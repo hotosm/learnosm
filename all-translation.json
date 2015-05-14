@@ -145,5 +145,31 @@
 	  {"label":"",
 	   "url":""}
 	]
+},{
+	"lang":"no",
+		"chapters":[
+	  {% for post in site.posts %}
+	  {% if {{post.lang}} == 'no' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},{
+	"lang":"sw",
+		"chapters":[
+	  {% for post in site.posts %}
+	  {% if {{post.lang}} == 'sw' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
 }
 ]
