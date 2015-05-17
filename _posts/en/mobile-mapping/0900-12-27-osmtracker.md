@@ -20,9 +20,9 @@ Quick Start
 ![OSMTracker_1][]
 
 1.  Click on the cross to create new track.  
-2.  Screen will change to show the buttons - wait until they are no longer greyed out, which indicates the gps has a fix.  
+2.  Screen will change to show the buttons - wait until they are no longer greyed out, which indicates the GPS has a fix.  
 3.  Travel your route, pressing appropriate buttons when you are exactly at the feature to be mapped. You can also create voice recordings, take photographs and take notes using the buttons.  
-4.  When you've finished, press the diskette icon to save your track & waypoints.
+4.  When you've finished, press the floppy disk icon to save your track & waypoints.
 5.  To convert the track to a gpx file, press & hold it in the list, then select the appropriate option.
 6.  Transfer the track, pictures and recordings to your computer & read from them to update OSM.
 
@@ -30,9 +30,9 @@ Quick Start
 Install OSMTracker
 -------------------------
 
-Install OSMTracker from the Google Playstore.  
+Install OSMTracker from the [Google play Store](https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker).  
 ![OSMTracker Logo][]  
-In areas where Google Playstore will not work due to internet connection issues, if one person can download the most recent file from [here](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list), this file can be passed from device to device, and used to install the application.
+The [most recent application package](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) can be downloaded outside of Google play Store if need be.  
 
 
 OSMTracker Configuration
@@ -47,9 +47,9 @@ Start OSMTracker, and press the menu icon on your Android device, then select **
 -  **Check GPS at startup** When you start OSMTracker, if the GPS has been switched off, the programme will prompt you to turn it back on.
 -  **Ignore GPS clock** If ticked will use the devices internal clock instead of the time provided within the GPS signal.  
 -  **GPS logging interval** Choose the period between the recording of the position - for best accuracy select 0 or 1, each of which results in a recording each second.  
->The frequency affects battery usage, however when using this app. your screen is likely to be on most of the time, the gps working, and you may be taking photographs and recordings as well - all of these will result in a heavy battery drain and it is recommended for extended usage to use the device with the power augmented.  
+  >The frequency affects battery usage, however when using this app. your screen is likely to be on most of the time, the gps working, and you may be taking photographs and recordings as well - all of these will result in a heavy battery drain and it is recommended for extended usage to use the device with the power augmented.  
 -  **External storage (SD) directory** Default is /osmtracker  
->Most recent Android devices will not allow the saving of data in an external microSD or SD card. Although referred to as 'external storage' the tracks etc will actually be recorded in **/storage/emulated/0/osmtracker.**  
+  >Most recent Android devices will not allow the saving of data in an external microSD or SD card. Although referred to as 'external storage' the tracks etc will actually be recorded in **/storage/emulated/0/osmtracker.**  
 -  **One directory per track** Recommended as this will result in all of the related voice recordings, photographs, text notes and the gpx trace all being stored in the same folder, named with the date and time of the gpx file creation.  
 -  **Filename for named tracks** Options for you to choose from if you have a preference for the naming of the files.  
 -  **Accuracy in GPX file** Recommended - will result in the waypoint name including a figure approximating the possible error range in metres. For instance *Footpath (4.0m)*. This information can be extremely useful later when updating OSM, and deciding whether to move an existing feature to align with the new trace & waypoints.  
@@ -59,9 +59,9 @@ Start OSMTracker, and press the menu icon on your Android device, then select **
 -  **Default photo source** Generally you will take photo's with the camera through this app., but you can chose to use photo's already on the phone.  
 -  **Screen always on** Select this if you are constantly clicking on buttons, taking photo's, or making voice recordings - if you're not, then leave it blank so you have to switch the screen on each time, which uses less battery.  
 -  **Main screen graphic theme** Options to change the contrast & screen brightness if you are having problems viewing the buttons.  
--  **Button Presets** You can design & install your own set of buttons & choose to have them displayed using this option. For a full description of this function, [clck here](/en/mobile-mapping/osmtracker/#button-presets).   
+-  **Button Presets** You can design & install your own set of buttons & choose to have them displayed using this option. For a full description of this function, [see below](/en/mobile-mapping/osmtracker/#button-presets).   
 -  **Background map** By pressing and holding on a recorded track, if this feature is selected, you may display the track, and the app will download OpenStreetMap data as a background.  
-> This does require a data connection to download the map. You do not need to use this function unless you wish to.
+  > This does require a data connection to download the map. You do not need to use this function unless you wish to.
 -  **Map Tile Provider** If you've elected to download map data as a background when you display the map, you can chose which version of the map to use as a background.  
 -  **Orientation**  Do you want the screen to rotate, or use it in landscape or portrait?
 
@@ -97,7 +97,7 @@ unsuitable for lorry,
 4wd needed,  
 etc..  
 
-For a full description on creating a button preset, see the [OSMTracker wiki section](https://github.com/nguillaumin/osmtracker-android/wiki/Custom-buttons-layouts). To [download a sample button preset file click here](/files/R_of_Way.xml)
+For a full description on creating a button preset, see the [OSMTracker wiki section](https://github.com/nguillaumin/osmtracker-android/wiki/Custom-buttons-layouts). This is a [sample download file.](/files/R_of_Way.xml)
 
 ![OSMTracker button presets][]
 
@@ -114,15 +114,15 @@ GPS Traces - gpx files
 ----------------------  
 
 ![OSMTracker JOSM][]  
-Gps traces in the form of gpx files are made up of a number of elements, principally a 'trace' and 'waypoints'. The screenshot above shows a folder contents created in OSMTracker which has been loaded into JOSM ready for editing, with satellite imagery loaded to assist. The square icon in the centre of the trace indicates there is a photograph, taken at this location, available - simply click on the square icon to display the photograph. 
+GPS traces in the form of gpx files are made up of a number of elements, principally a 'trace' and 'waypoints'. The screenshot above shows a folder contents created in OSMTracker which has been loaded into JOSM ready for editing, with satellite imagery loaded to assist. The square icon in the centre of the trace indicates there is a photograph, taken at this location, available - simply click on the square icon to display the photograph. 
 
-If you are navigating and using a gps to give you directions, you will notice at some point that it will 'recalculate'. This is normally because it's internal gps location does not correspond to where it expects the road or path to be - there is a margin of error, but it is easy for roads and paths to be created in slightly the wrong place, or for the road to be moved after the map data has been created.  
+If you are navigating and using a GPS to give you directions, you will notice at some point that it will 'recalculate'. This is normally because its internal GPS location does not correspond to where it expects the road or path to be - there is a margin of error, but it is easy for roads and paths to be created in slightly the wrong place, or for the road to be moved after the map data has been created.  
 Volunteers updating OpenStreetMap can download all of the traces that have been uploaded in an area, and use them to:  
 
   1.  Trace roads & paths through areas that could not be seen with satellite imagery because of clouds, trees, shadows, buildings etc..  
   2.  Adjust the satellite imagery so that it aligns correctly - there can be a surprising variation with some imagery.
 
-Although a single gps trace is very useful, it may not be particularly accurate and can be as much as 30 metres out of place. When there are several traces, the correct route of the path or road is now easy to see - for example see the screenshot below showing a download of gpx traces in a town, in which the main roads can be seen by the volume of traces.  
+Although a single gpx trace is very useful, it may not be particularly accurate and can be as much as 30 metres out of place. When there are several traces, the correct route of the path or road is now easy to see - for example see the screenshot below showing a download of gpx traces in a town, in which the main roads can be seen by the volume of traces.  
 
 ![OSMTracker_gpx][] 
 
