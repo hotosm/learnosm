@@ -69,7 +69,7 @@ The Track List
 --------------
 
 ![OSMTracker_2][]  
-Having carried out your initial survey, clicking buttons, creating voice recordings and taking photographs, when you have finished, click on the diskette icon to end your track. Now press and hold the track in the list & options become available:  
+Having carried out your initial survey, clicking buttons, creating voice recordings and taking photographs, when you have finished, click on the floppy disk icon to end your track. Now press and hold the track in the list & options become available:  
 
 -  **Resume Tracking** useful when you realise you've missed a bit!  
 -  **Display** will show the track, possibly with a background map depending on your data connection and the option you selected in **Background Map**.  
