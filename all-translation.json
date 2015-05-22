@@ -149,7 +149,7 @@
 	"lang":"nb",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'nor' %}
+	  {% if {{post.lang}} == 'nb' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
