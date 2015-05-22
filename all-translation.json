@@ -146,10 +146,10 @@
 	   "url":""}
 	]
 },{
-	"lang":"no",
+	"lang":"nb",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'no' %}
+	  {% if {{post.lang}} == 'nb' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
