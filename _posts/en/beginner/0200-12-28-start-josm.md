@@ -10,9 +10,7 @@ published: true
 Getting Started with JOSM
 =============================
 
-In this chapter we will learn step by step how to download and install
-JOSM, the Java OpenStreetMap editor. We will change some of the settings
-in JOSM to make it easier to use. Then we will open a sample map and
+How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and
 learn some of the basic operations of the software. Remember in the
 introduction chapter when we asked you to draw a map of your town or
 village? We will conclude this chapter by drawing your map again, this
@@ -258,13 +256,13 @@ Click on the link for further reading on:
 
 
 
-[JOSM website]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image00_josm-website.png
-[Windows installer]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image01_windows-installer.png
-[JOSM splash page]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image02_josm-splash-page.png
-[Preferences window]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image03_preferences-window.png
-[Look and feel]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image04_look-and-feel.png
-[Open file]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image05_open-file.png
-[Sample file]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image06_sample-file.png
-[Scale bar]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image07_scale-bar.png
-[Select tool]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image08_select-tool.png
-[Draw tool]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image09_draw-tool.png
+[JOSM website]: /images/beginner/josm-website.png
+[Windows installer]: /images/beginner/windows-installer.png
+[JOSM splash page]: /images/beginner/josm-splash-page.png
+[Preferences window]: /images/beginner/josm_preferences.png
+[Look and feel]: /images/beginner/josm_look-and-feel.png
+[Open file]: /images/beginner/josm_open-file.png
+[Sample file]: /images/beginner/josm_sample-file.png
+[Scale bar]: /images/beginner/josm_scale-bar.png
+[Select tool]: /images/beginner/josm_select-tool.png
+[Draw tool]: /images/beginner/josm_draw-tool.png
