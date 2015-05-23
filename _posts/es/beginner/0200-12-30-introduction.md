@@ -73,8 +73,8 @@ Esperamos que encuentres OpenStreetMap útil e interesante en tu trabajo.
 Siguiendo esta guía serás capaz de crear mapas digitales rápidamente y añadirlos
 a OSM.
 
-[Un pueblo en Indonesia]: {{site.baseurl}}/images/en/beginner/01_introduction/en_beg_01_introduction_image00_village-in-indonesia.png
-[Ejemplo de mapa dibujado a mano alzada]: {{site.baseurl}}/images/en/beginner/01_introduction/en_beg_01_introduction_image01_hand-drawn-map.png
-[Ejemplos de símbolos]: {{site.baseurl}}/images/en/beginner/01_introduction/en_beg_01_introduction_image02_examples-of-symbols.png
-[Mapping on Computer]: {{site.baseurl}}/images/en/beginner/01_introduction/en_beg_01_introduction_image03_mapping-on-computer.png
-[Mapas digitales con OpenStreetMap]: {{site.baseurl}}/images/en/beginner/01_introduction/en_beg_01_introduction_image04_digital-maps-with-osm.png
+[Un pueblo en Indonesia]: {{site.baseurl}}/images/beginner/village-in-indonesia.png
+[Ejemplo de mapa dibujado a mano alzada]: {{site.baseurl}}/images/beginner/hand-drawn-map.png
+[Ejemplos de símbolos]: {{site.baseurl}}/images/beginner/examples-of-symbols.png
+[Mapping on Computer]: {{site.baseurl}}/images/beginner/mapping-on-computer.png
+[Mapas digitales con OpenStreetMap]: {{site.baseurl}}/images/beginner/digital-maps-with-osm.png
