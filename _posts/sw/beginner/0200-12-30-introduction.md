@@ -39,9 +39,9 @@ Kusonga Mbele
 
 Click on the link for further reading on:  
 
-*  [Getting started on OpenStreetMap.org](/en/beginner/start-osm/) 
-*  [Getting started with the iD editor](/en/editing/id-editor/)   
-*  [Getting started with the JOSM editor](/en/beginner/start-josm/)  
+*  [Getting started on OpenStreetMap.org](/sw/beginner/start-osm/) 
+*  [Getting started with the iD editor](/sw/editing/id-editor/)   
+*  [Getting started with the JOSM editor](/sw/beginner/start-josm/)  
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
