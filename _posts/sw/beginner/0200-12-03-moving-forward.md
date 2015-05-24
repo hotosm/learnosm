@@ -1,10 +1,13 @@
 ---
 layout: doc
 title: Further Reading
-permalink: /en/beginner/moving-forward/
-lang: en
+permalink: /sw/beginner/moving-forward/
+lang: sw
 category: beginner
 ---
+
+Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
+tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md). 
 
 Further Reading
 ===============
