@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Introduction
+title: Utangulizi
 permalink: /sw/beginner/introduction/
 lang: sw
 category: beginner
