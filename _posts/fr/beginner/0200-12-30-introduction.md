@@ -41,7 +41,7 @@ Cliquez sur ces liens pour en lire plus :
 *  [Introduction à OpenStreetMap.org](/fr/beginner/start-osm/)
 *  [Premiers pas avec JOSM](/fr/beginner/start-josm/)
 
-[Un village en Indonésie]: {{site.baseurl}}/images/en_beg_ch1_image00.png
-[Exemple de carte dessinée à la main]: {{site.baseurl}}/images/en_beg_ch1_image01.png
-[Exemples de symboles]: {{site.baseurl}}/images/intro_symbol_en.png
-[Cartographie numérique avec OpenStreetMap]: {{site.baseurl}}/images/intro_osm1_en.png
+[A village in Indonesia]: /images/beginner/village-in-indonesia.png
+[Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
+[Examples of symbols]: /images/beginner/examples-of-symbols.png
+[Digital maps with OpenStreetMap]: /images/beginner/digital-maps-with-osm.png

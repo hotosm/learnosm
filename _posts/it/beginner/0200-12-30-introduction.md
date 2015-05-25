@@ -72,8 +72,8 @@ lavoro. Seguendo questa guida, inizierai presto a creare mappe digitali
 con OSM.
 
 
-[Un villaggio in Indonesia]: /images/it/beginner/01_introduction/it_beg_01_introduction_image00_village-in-indonesia.png
-[Esempio di mappa disegnata a mano]: /images/it/beginner/01_introduction/it_beg_01_introduction_image01_hand-drawn-map.png
-[Esempi di simboli]: /images/it/beginner/01_introduction/it_beg_01_introduction_image02_examples-of-symbols.png
-[Mappe su computer]: /images/it/beginner/01_introduction/it_beg_01_introduction_image03_mapping-on-computer.png
-[Mappe digitali con OpenStreetMap]: /images/it/beginner/01_introduction/it_beg_01_introduction_image04_digital-maps-with-osm.png
+[Un villaggio in Indonesia]: /images/beginner/village-in-indonesia.png
+[Esempio di mappa disegnata a mano]: /images/beginner/hand-drawn-map.png
+[Esempi di simboli]: /images/beginner/examples-of-symbols.png
+[Mappe su computer]: /images/beginner/mapping-on-computer.png
+[Mappe digitali con OpenStreetMap]: /images/beginner/digital-maps-with-osm.png
