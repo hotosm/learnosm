@@ -65,8 +65,8 @@ Nadamo se da će vam OpenStreetMap biti koristan i zanimljiv u vašem poslu.
 Sljedeći ova uputstva trebali bi biti u mogućnosti brzo početi stvarati 
 digitalne karte uz pomoć OpenStreetMap sustava.
 
-[A village in Indonesia]: /images/en/beginner/01_introduction/en_beg_01_introduction_image00_village-in-indonesia.png
-[Example of a hand-drawn map]: /images/en/beginner/01_introduction/en_beg_01_introduction_image01_hand-drawn-map.png
-[Examples of symbols]: /images/en/beginner/01_introduction/en_beg_01_introduction_image02_examples-of-symbols.png
-[Mapping on Computer]: /images/en/beginner/01_introduction/en_beg_01_introduction_image03_mapping-on-computer.png
-[Digital maps with OpenStreetMap]: /images/en/beginner/01_introduction/en_beg_01_introduction_image04_digital-maps-with-osm.png
+[A village in Indonesia]: /images/beginner/village-in-indonesia.png
+[Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
+[Examples of symbols]: /images/beginner/examples-of-symbols.png
+[Mapping on Computer]: /images/beginner/mapping-on-computer.png
+[Digital maps with OpenStreetMap]: /images/beginner/digital-maps-with-osm.png

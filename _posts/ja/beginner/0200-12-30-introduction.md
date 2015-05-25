@@ -61,8 +61,8 @@ OpenStreetMapとは地図そのものを作成し、さらに地図に描かれ�
 
 OpenStreetMapがあなたの活動にとって興味深く使いやすいものになるように、そしてさらに、このガイドを手引きとして、あなたもまたOSMというデジタル地図を描くようになってもらえることを、私たちは願っています。
 
-[A village in Indonesia]: /images/jp/beginner/01_introduction/jp_beg_01_introduction_image00_village-in-indonesia.png
-[Example of a hand-drawn map]: /images/jp/beginner/01_introduction/jp_beg_01_introduction_image01_hand-drawn-map.png
-[Examples of symbols]: /images/jp/beginner/01_introduction/jp_beg_01_introduction_image02_examples-of-symbols.png
-[Mapping on Computer]: /images/jp/beginner/01_introduction/jp_beg_01_introduction_image03_mapping-on-computer.png
-[Digital maps with OpenStreetMap]: /images/jp/beginner/01_introduction/jp_beg_01_introduction_image04_digital-maps-with-osm.png
+[A village in Indonesia]: /images/beginner/village-in-indonesia.png
+[Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
+[Examples of symbols]: /images/beginner/examples-of-symbols.png
+[Mapping on Computer]: /images/beginner/mapping-on-computer.png
+[Digital maps with OpenStreetMap]: /images/beginner/digital-maps-with-osm.png
