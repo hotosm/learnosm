@@ -198,21 +198,21 @@ Exporting/Saving Tracks
 
    ![Arrow][]
 
-[GPS Essentials logo]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-Logo.png
-[Map Cache]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-mapcache.png
-[Enable GPS in Android]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-GPSenable.png
-[Satellites page]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-satellites.png
-[New Track]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-newtrackstart.png
-[Waypoints1]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-cursor.png
-[Actions]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-actionsbutton.png
-[Waypoints2]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-addwaypoint.png
-[GoogleMaps]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-addwaypointgooglemaps.png
-[Waypointspage1]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-add.png
-[Waypointspage2]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-wp.png
-[Waypointspage3]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-map.png
-[Close]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-save.png
-[Export file format]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-export.png
-[Export to SD card]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-exportwaypoints.png
-[Arrow]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-savebutton.png
-[Footprints]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-tracksicon.png
-[Export3]:  /images/en/mobile-mapping/gpsessentials/gpsessentials-sdcardsave.png
+[GPS Essentials logo]:  /images/mobile-mapping/gpsessentials-Logo.png
+[Map Cache]:  /images/mobile-mapping/gpsessentials-mapcache.png
+[Enable GPS in Android]:  /images/mobile-mapping/gpsessentials-GPSenable.png
+[Satellites page]:  /images/mobile-mapping/gpsessentials-satellites.png
+[New Track]:  /images/mobile-mapping/gpsessentials-newtrackstart.png
+[Waypoints1]:  /images/mobile-mapping/gpsessentials-cursor.png
+[Actions]:  /images/mobile-mapping/gpsessentials-actionsbutton.png
+[Waypoints2]:  /images/mobile-mapping/gpsessentials-addwaypoint.png
+[GoogleMaps]:  /images/mobile-mapping/gpsessentials-addwaypointgooglemaps.png
+[Waypointspage1]:  /images/mobile-mapping/gpsessentials-add.png
+[Waypointspage2]:  /images/mobile-mapping/gpsessentials-wp.png
+[Waypointspage3]:  /images/mobile-mapping/gpsessentials-map.png
+[Close]:  /images/mobile-mapping/gpsessentials-save.png
+[Export file format]:  /images/mobile-mapping/gpsessentials-export.png
+[Export to SD card]:  /images/mobile-mapping/gpsessentials-exportwaypoints.png
+[Arrow]:  /images/mobile-mapping/gpsessentials-savebutton.png
+[Footprints]:  /images/mobile-mapping/gpsessentials-tracksicon.png
+[Export3]:  /images/mobile-mapping/gpsessentials-sdcardsave.png
