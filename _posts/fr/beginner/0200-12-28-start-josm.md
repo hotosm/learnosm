@@ -35,7 +35,7 @@ Télécharger JOSM
     recherche
 -   Le site doit ressembler à ça:
 
-    ![]({{site.baseurl}}/images/start_josm_image05_en.png)
+    ![]({{site.baseurl}}/images/start_josm_image05_fr.png)
 
 -   Si vous utilisez Windows, cliquez sur le lien «Installeur Windows». Si vous
     avez un autre système d'exploitation, cliquez sur le lien adéquat. Le
@@ -73,27 +73,6 @@ rendre son utilisation plus facile. Pour cela, cliquez sur «Modifier» dans la
 barre de menu du haut, puis choisissez «Préférences».
 
 ![]({{site.baseurl}}/images/start_josm_image13_en.png)
-
-### Ajouter l'imagerie Bing
-
-Nous voulons pouvoir utiliser des images aériennes quand nous allons éditer la
-carte. Il faut donc les activer.
-
--   Sur la partie gauche de la fenêtre des
-    préférences, il y a différentes icônes correspondant aux différents types
-    de paramètres. Cliquez sur l'icône indiquant «WMS TMS». Vous devrez
-    peut-être descendre dans la fenêtre pour le trouver:
-  
-    ![]({{site.baseurl}}/images/start_josm_image07_en.png)
-  
-    ![]({{site.baseurl}}/images/start_josm_image02_en.png)
-
--   Cliquez sur «Bing Sat», puis sur «Activer».
-
-    ![]({{site.baseurl}}/images/start_josm_image11_en.png)
-
--   «Bing Sat» doit maintenant apparaître dans la liste sous le bouton
-    «Activer».
 
 ### Ajouter des modèles d'attributs
 
@@ -165,13 +144,9 @@ Les bases du tracé avec JOSM
     OpenStreetMap pour le moment.
 -   Si votre instructeur a mis des fichiers à votre disposition, vous avez
     certainement déjà le fichier dont nous aurons besoin, nommé «sample.osm».
--   Si ce n'est pas le cas, vous pouvez le télécharger sur Internet. Ouvrez
-    votre navigateur. Dans la barre d'adresse, entrez le texte suivant:
-    [http://www.learnosm.org/files/](http://www.learnosm.org/files/) et appuyez
-    sur entrée. Une liste de fichiers doit s'afficher.
--   A l'aide de votre souris, faites un clic droit sur le fichier nommé
-    «sample.osm», puis cliquez sur «Enregistrer sous». Choisissez un emplacement
-    sur votre ordinateur pour enregistrer le fichier.
+-   Si ce n'est pas le cas, vous pouvez le télécharger ici :
+    [sample.osm](/files/sample.osm)
+
 -   Maintenant, ouvrons le fichier dans JOSM. Ouvrez JOSM. Cliquez sur le bouton
     «Ouvrir», dans le coin en haut à gauche.
 
@@ -204,7 +179,7 @@ Les bases du tracé avec JOSM
 ### Points, lignes et polygones
 
 -   En cliquant sur les différents objets de la carte, notez qu'il y a trois
-    types d'objets: il y a des points, des lignes et des polygones.
+    types d'objets: des points, des lignes et des polygones.
 -   Les points sont des lieux simples, représentés par des symboles. Dans notre
     carte d'exemple, nous avons deux points: une boutique de vêtements et un
     marché. La boutique de vêtements est représentée par une image de maillot et
@@ -214,7 +189,7 @@ Les bases du tracé avec JOSM
     points. Aucune information et aucun symbole n'est associé avec ces points:
     leur rôle est de déterminer le tracé de la ligne.
 -   Enfin, il y a différents polygones, qui représentent plusieurs lieux: une
-    forêt, une rivière, et des bâtiments. Un polygone représente générale une
+    forêt, une rivière, et des bâtiments. Un polygone représente généralement une
     aire, par exemple un champ ou un bâtiment. Le polygone est en fait une
     ligne avec une caractéristique notable: dans le cas d'un polygone, la ligne
     commence et finit sur le même point.

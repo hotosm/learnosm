@@ -45,7 +45,7 @@ translations:
     feedbackspan: "Apakah bab ini bermanfaat?"
     feedback: "Beritahu kami dan bantu kami memperbaiki panduan!"
     getstarted: "Lanjutkan ke bab berikutnya"
-  jp:
+  ja:
     overview: "概要"
     tagline: "はじめてからのOpenStreetMapガイド"
     contribute: "ガイドの拡充にご協力ください"
@@ -88,3 +88,27 @@ translations:
     feedbackspan: "Je li ovo poglavlje bilo korisno?"
     feedback: "Javite nam i pomozite nam poboljšati uputstva!"
     getstarted: "Započnite"
+  uk:
+    tagline: "Знайомимось з OpenStreetMap крок за кроком"
+    contribute: "Допоможіть покращити наші посібники"
+    trainingspan: "Ви проводите семінар?"
+    training: "Ознайомтесь з навчальними матеріалами для цього посібника (англ.)"
+    feedbackspan: "Чи був цей розділ корисним?"
+    feedback: "Повідомте нам і допоможіть нам покращити посібник!"
+    getstarted: "Розпочати"
+  ru:
+    tagline: "Знакомьтесь с OpenStreetMap шаг за шагом"
+    contribute: "Помогите улучшить наши материалы"
+    trainingspan: "Вы проводите семинар?"
+    training: "Ознакомьтесь з материалами практики для этого пособия (англ.)"
+    feedbackspan: "Был ли этот раздел полезен для вас?"
+    feedback: "Сообщите нам и помогите улучшить пособие!"
+    getstarted: "Вперёд"
+  nb:
+    tagline: "Lær deg OpenStreetMap steg for steg"
+    contribute: "Hjelpe oss å forbedre våre guider"
+    trainingspan: "Kan du hjelpe til med å organisere workshops?"
+    training: "Se her for øvelser for denne guiden (på norsk)"
+    feedbackspan: "Var dette kapittelet nyttig?"
+    feedback: "Gi oss tilbakemelding og hjelp oss med å forbedre guidene!"
+    getstarted: "Kom i gang"

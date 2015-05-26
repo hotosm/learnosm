@@ -1,0 +1,161 @@
+<layouts>
+
+ <!-- Main layout, the first to be displayed -->
+ <layout name="root">
+  <row>
+   <!-- 3 special action buttons -->
+   <button type="voicerec" label="Voice record" icon="voice.png" />
+   <button type="picture" label="Take picture" icon="camera.png" />
+   <button type="textnote" label="Text note" icon="text.png" />
+  </row>
+   <row>
+   <!-- "link" to 3 sub pages -->
+   <button type="page" label="Rights of Way" icon="button_restriction.svg" targetlayout="prow" />
+   <button type="page" label="Surface" icon="button_restriction.svg" targetlayout="surface" />
+   <button type="page" label="Size" icon="button_restriction.png" targetlayout="size" />
+  </row>
+    <row>
+   <!-- "link" to 3 sub pages -->
+   <button type="page" label="Lit and dog" icon="button_restriction.png" targetlayout="lit and dog" />
+   <button type="page" label="Barrier" icon="button_tourism_view_point.png" targetlayout="barrier" />
+   <button type="page" label="Sidewalk" icon="button_restriction.png" targetlayout="sidewalk" />
+  </row>
+ </layout>
+
+  <!-- PROW layout, will be displayed when clicking on "Rights of Way" previous defined button -->
+	<layout name="prow">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+     <row>
+   <!-- Standard tag buttons -->
+   <button type="tag" label="Footpath" icon="button_track_track.png" />
+   <button type="tag" label="Bridalway" icon="button_track_track.png" />
+   <button type="tag" label="Track" icon="button_tourism_view_point.png" />
+  </row>
+<row>
+   <!-- Standard tag buttons -->
+   <button type="tag" label="Restricted Byway" icon="button_tourism_view_point.png" />
+   <button type="tag" label="Byway" icon="button_track_track.png" />
+   <button type="tag" label="Road" icon="button_track_track.png" />
+  </row>
+ <row>
+ <button type="tag" label="steps" icon="button_restriction.png" />
+ <button type="tag" label="bridge" icon="button_car_speed_camera.png" />
+ <button type="tag" label="ford" icon="button_restriction_one_way.png" />
+ <button type="tag" label="tunnel" icon="button_restriction_one_way.png" />
+ </row>
+  </layout>
+  <!-- Surface layout, will be displayed when clicking on "Surface" previous defined button -->
+	<layout name="surface">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+ <button type="tag" label="asphalt" icon="button_restriction.png" />
+ <button type="tag" label="concrete" icon="button_restriction_one_way.png" />
+ <button type="tag" label="grass" icon="button_restriction.png" />
+ </row>
+ <row>
+ <button type="tag" label="gravel" icon="button_car_speed_camera.png" />
+ <button type="tag" label="ground" icon="button_restriction.png" />
+ <button type="tag" label="mud" icon="button_restriction.png" />
+ </row>
+ <row>
+ <button type="tag" label="ploughed" icon="button_restriction.png" />
+ <button type="tag" label="paved" icon="button_restriction.png" />
+ <button type="tag" label="wood" icon="button_restriction.png" />
+ </row>
+  </layout>
+
+  <!-- Size layout, will be displayed when clicking on "Size" previous defined button -->
+	<layout name="size">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 4 standard tag buttons -->
+ <button type="tag" label="Width 1" icon="button_restriction.png" />
+ <button type="tag" label="Width 2" icon="button_restriction.png" />
+ <button type="tag" label="Width 3" icon="button_restriction.png" />
+ <button type="tag" label="Width 4" icon="button_restriction.png" />
+ </row>
+ <row>
+   <!-- 4 standard tag buttons -->
+ <button type="tag" label="Height 1" icon="button_restriction.png" />
+ <button type="tag" label="Height 2" icon="button_restriction.png" />
+ <button type="tag" label="Height 3" icon="button_restriction.png" />
+ <button type="tag" label="Height 4" icon="button_restriction.png" />
+ </row>
+  </layout>
+
+  <!-- Lit and dog layout, will be displayed when clicking on "Lit and dog" previous defined button -->
+	<layout name="lit and dog">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 2 standard tag buttons -->
+ <button type="tag" label="Lit Yes" icon="button_way_service.png" />
+ <button type="tag" label="Lit No" icon="button_way_residential.png" />
+  </row>
+<row>
+   <!-- 3 standard tag buttons -->
+ <button type="tag" label="Dog Poo" icon="button_way_service.png" />
+ <button type="tag" label="Dog Yes" icon="button_way_residential.png" />
+<button type="tag" label="Dog No" icon="button_way_residential.png" />
+  </row>
+  </layout>
+
+  <!-- Barrier layout, will be displayed when clicking on "Barrier" previous defined button -->
+	<layout name="barrier">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+   <button type="tag" label="stile Stepover" icon="button_way_service.png" />
+   <button type="tag" label="stile Squeeze" icon="button_way_service.png" />
+   <button type="tag" label="Stile ladder" icon="button_restriction.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+   <button type="tag" label="kissing gate" icon="button_way_residential.png" />
+   <button type="tag" label="gate" icon="button_way_residential.png" />
+   <button type="tag" label="6' gate" icon="button_restriction.png" />
+ </row>
+ <row>
+   <!-- 3 standard tag buttons -->
+   <button type="tag" label="cycle" icon="button_restriction.png" />
+   <button type="tag" label="wood" icon="button_car_speed_camera.png" />
+   <button type="tag" label="metal" icon="button_restriction_one_way.png" />
+ </row>
+  </layout>
+
+  <!-- Sidewalk layout, will be displayed when clicking on "Sidewalk" previous defined button -->
+	<layout name="sidewalk">
+ <row>
+ <button type="voicerec" icon="voice_32x32.png" />
+ <button type="picture" icon="camera_32x32.png" />
+ <button type="textnote" icon="text_32x32.png" />
+ </row>
+ <row>
+ <button type="tag" label="Swalk none" icon="button_restriction_one_way.png" />
+ <button type="tag" label="Swalk both" icon="button_car_speed_camera.png" />
+ </row>
+ <row>
+ <button type="tag" label="Swalk Left" icon="button_way_residential.png" />
+ <button type="tag" label="Swalk right" icon="button_way_residential.png" />
+ </row>
+  </layout>
+</layouts>

@@ -70,9 +70,18 @@ We hope that you will find OpenStreetMap useful and interesting in your
 work. By following this guide, you should be able to quickly start
 making digital maps with OpenStreetMap.
 
+Moving Forward
+--------------
 
-[A village in Indonesia]: /images/en/beginner/01_introduction/en_beg_01_introduction_image00_village-in-indonesia.png
-[Example of a hand-drawn map]: /images/en/beginner/01_introduction/en_beg_01_introduction_image01_hand-drawn-map.png
-[Examples of symbols]: /images/en/beginner/01_introduction/en_beg_01_introduction_image02_examples-of-symbols.png
-[Mapping on Computer]: /images/en/beginner/01_introduction/en_beg_01_introduction_image03_mapping-on-computer.png
-[Digital maps with OpenStreetMap]: /images/en/beginner/01_introduction/en_beg_01_introduction_image04_digital-maps-with-osm.png
+Click on the link for further reading on:  
+
+*  [Getting started on OpenStreetMap.org](/en/beginner/start-osm/) 
+*  [Getting started with the iD editor](/en/editing/id-editor/)   
+*  [Getting started with the JOSM editor](/en/beginner/start-josm/)  
+
+
+[A village in Indonesia]: /images/beginner/village-in-indonesia.png
+[Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
+[Examples of symbols]: /images/beginner/examples-of-symbols.png
+[Mapping on Computer]: /images/beginner/mapping-on-computer.png
+[Digital maps with OpenStreetMap]: /images/beginner/digital-maps-with-osm.png

@@ -43,22 +43,6 @@ Nous vous recommandons également ces greffons, qui sont abordés dans d'autres 
 - Buildings\_tool
 - Utilsplugin2
 
-Restart
--------
-
-![restart]({{site.baseurl}}/images/plugins_html_57cb1b84_en.png)
-
-__Restart__ comme son nom l'indique, ajoute une entrée «Redémarrer JOSM»
-dans le menu Fichier, ce qui vous permet de gagner du temps si vous devez
-fréquemment changer les réglages et redémarrer JOSM. Mais, surprise !
-ce greffon n'est pas actif avant que vous redémarriez, donc il vous faut d'abord
-le faire une dernière fois manuellement, après quoi vous verrez la nouvelle
-entrée dans le menu Fichier.
-
-![]({{site.baseurl}}/images/plugins_html_m6d2d20a9_en.png)
-
-Cliquez sur «Redémarrer JOSM» et contemplez le logiciel se relancer tout seul.
-
 Mirrored Download
 -----------------
 

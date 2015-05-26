@@ -310,7 +310,7 @@ chaque polygone.
 Les relations sont utilisées pour représenter tout ce qui nécessite de
 définir une collection d'objets. Différentes collections d'objets
 peuvent être définies avec une relation, par exemple pour des lignes de
-bus (une collection de lignes), des objets longs et complexes (rivières
+bus (une collection de lignes et de points), des objets longs et complexes (rivières
 ou routes), ou des polygones multiples qui font tous partie du même
 endroit (comme les bâtiments d'une université).
 
@@ -388,15 +388,21 @@ particulier dans la relation.
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image40.png)![image](/images/fr/0300-12-30-edit-in-detail-osm/image46.png)
 
 - Assurez-vous que tous les chemins par lesquels la route passe
-    possèdent les bons attributs. Par exemple, highway= street.
+    possèdent les bons attributs. Par exemple, highway=residential.
 - Sélectionnez toutes les routes ou chemins que prend le bus. Si vous
     voulez seulement sélectionner certaines parties du chemin, là,
     malheureusement, vous devrez diviser le chemin dans la section que
     vous souhaitez sélectionner. Cette opération nécessite plus de
     travail, mais vous pouvez facilement le faire avec l'outil Couper le
-    chemin P . Une fois que tous ou une partie des chemins sont
-    sélectionnés, cliquez sur Modifier dans le panneau d'édition de
-    Relation. La boîte de dialogue d'Édition de Relation apparaîtra.
+    chemin P .
+- Une fois que tous ou une partie des chemins sont
+    sélectionnés, vous pouvez créer votre nouvelle relation en cliquant
+    sur Créer dans le panneau d'édition de Relation. La boîte de dialogue
+    d'Édition de Relation apparaîtra. En utilisant une des icônes avec une
+    flèche bleue, faites basculer les éléments présents dans la liste
+    Sélection en bas à droite vers la liste Membres à gauche. Puis cliquez
+    sur Valider. Dans le panneau d'édition de Relation, cliquez sur le
+    dernier icône à droite Sélectionner les membres.
 - Allez dans le menu Attributs et sélectionnez successivement dans le
     menu déroulant : Transport, puis Transport Public, puis Public
     transport route ou Itinéraire maitre. L'Itinéraire maitre est
@@ -406,9 +412,18 @@ particulier dans la relation.
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image52.png)![image](/images/fr/0300-12-30-edit-in-detail-osm/image10.png)
 
 - Remplissez les informations correspondantes relativement à la ligne
-    de bus.
+    de bus, puis cliquez sur le bouton Appliquer les attributs. Si ce
+    bouton est désactivé c'est que vous n'aviez pas sélectionné les
+    membres de la relation au préalable.
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image10.png)
+
+- Une autre possibilité pour créer la relation après avoir sélectionné les
+    chemins est de passer directement par le menu Attributs, Transports,
+    Transports Publics, Itinéraire Maître, remplir les informations puis
+    cliquer sur le bouton Nouvelle Relation. Cela ouvrira la boîte de
+    dialogue d'édition des relations avec les attributs renseignés et les
+    membres déjà ajoutés. Il ne reste plus qu'à cliquer sur Valider.
 
 Les relations sont parfois difficiles à comprendre et n'ont pas
 nécessairement à être utilisées souvent. Il est cependant important de
