@@ -9,6 +9,8 @@ category: mobile-mapping
 OSMTracker
 ==============
 
+This file is now out of date - a newer version is available within the English section, which may be accessed from the list at the top of this page. If you are willing to translate the newer version, please contact the LearnOSM team from one of the links on this site, Thank you.
+
 このセクションでは、データ収集の際に利用可能で、GPS機器の代わりに使うことができるAndroidアプリケーションについて学習します。まずはOSMTrackerを紹介します。このアプリケーションは、移動した軌跡やウェイポイントの記録、ジオタグ情報の付与やビデオの撮影などが可能です。記録した軌跡はGPX形式のファイルとしてエクスポートすることができますので、JOSMでの編集の際に利用したり、OpenStreetMapへアップロードすることも可能です。
 
 
@@ -81,12 +83,12 @@ OSMTrackerの利用
 
 これで、OSMTrackerの使い方の解説は終わりです。Happy Mapping!!
 
-[OSMTracker Logo]: /images/jp/mobile-mapping/osmtracker/osmtracker_image00_en.png
-[OSMTracker configuration]: /images/jp/mobile-mapping/osmtracker/osmtracker_image01_en.png
-[Settings page]: /images/jp/mobile-mapping/osmtracker/osmtracker_image02_en.png
-[Track Logger page]: /images/jp/mobile-mapping/osmtracker/osmtracker_image03_en.png
-[Tracklist]: /images/jp/mobile-mapping/osmtracker/osmtracker_image04_en.png
-[Displaying tracks]: /images/jp/mobile-mapping/osmtracker/osmtracker_image05_en.png
-[Track map display]: /images/jp/mobile-mapping/osmtracker/osmtracker_image06_en.png
-[Convert to GPX]: /images/jp/mobile-mapping/osmtracker/osmtracker_image07_en.png
-[OSM authorization of OSmTracker]: /images/jp/mobile-mapping/osmtracker/osmtracker_image08_en.png
+[OSMTracker Logo]: /images/mobile-mapping/osmtracker_image00_en.png
+[OSMTracker configuration]: /images/mobile-mapping/osmtracker_image01_en.png
+[Settings page]: /images/mobile-mapping/osmtracker_image02_en.png
+[Track Logger page]: /images/mobile-mapping/osmtracker_image03_en.png
+[Tracklist]: /images/mobile-mapping/osmtracker_image04_en.png
+[Displaying tracks]: /images/mobile-mapping/osmtracker_image05_en.png
+[Track map display]: /images/mobile-mapping/osmtracker_image06_en.png
+[Convert to GPX]: /images/mobile-mapping/osmtracker_image07_en.png
+[OSM authorization of OSmTracker]: /images/mobile-mapping/osmtracker_image08_en.png
