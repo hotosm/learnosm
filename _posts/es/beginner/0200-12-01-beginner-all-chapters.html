@@ -1,0 +1,14 @@
+---
+layout: doc
+title: Todos los capítulos
+permalink: /es/beginner/all-chapters/
+lang: es
+category: beginner
+nosearch: true
+---
+
+{% for post in site.categories.[page.category]%}
+  {% if post.lang == page.lang %}{% unless post.hidden %}
+    {{ post.content | markdownify }}
+  {% endunless %}{% endif %}
+{% endfor %}
