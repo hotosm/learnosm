@@ -173,22 +173,22 @@ These instructions are displayed on the information bar at the bottom of JOSM:
 
 
 
-[tools_menu_sample.osm]: /images/en/editing/josm-tools/tools-menu-sample-file.png
-[Tools menu]: /images/en/editing/josm-tools/tools-menu.png
-[Align nodes in circle]: /images/en/editing/josm-tools/align-nodes-in-circle.png
-[Combine way]: /images/en/editing/josm-tools/combine-way.png
-[Reverse and combine]: /images/en/editing/josm-tools/reverse-and-combine.png
-[Way direction]: /images/en/editing/josm-tools/way-direction.png
-[Simplify way]: /images/en/editing/josm-tools/simplify-way.png
-[Create circle]: /images/en/editing/josm-tools/create-circle.png
-[Align nodes in line]: /images/en/editing/josm-tools/align-nodes-in-line.png
-[Orthagonalize]: /images/en/editing/josm-tools/orthagonalize.png
-[Unglue way]: /images/en/editing/josm-tools/unglue-way.png
-[Keyboard S]: /images/en/editing/josm-tools/keyboard-s.png
-[Keyboard A]: /images/en/editing/josm-tools/keyboard-a.png
-[Keyboard Z]: /images/en/editing/josm-tools/keyboard-z.png
-[Keyboard Del]: /images/en/editing/josm-tools/keyboard-del.png
-[Keyboard plus]: /images/en/editing/josm-tools/keyboard-plus.png
-[Keyboard minus]: /images/en/editing/josm-tools/keyboard-minus.png
-[Rotate demo]: /images/en/editing/josm-tools/rotate-demo.png
-[Rotate instructions]: /images/en/editing/josm-tools/rotate-instructions.png
+[tools_menu_sample.osm]: /images/editing/tools-menu-sample-file.png
+[Tools menu]: /images/editing/tools-menu.png
+[Align nodes in circle]: /images/editing/align-nodes-in-circle.png
+[Combine way]: /images/editing/combine-way.png
+[Reverse and combine]: /images/editing/reverse-and-combine.png
+[Way direction]: /images/editing/way-direction.png
+[Simplify way]: /images/editing/simplify-way.png
+[Create circle]: /images/editing/create-circle.png
+[Align nodes in line]: /images/editing/align-nodes-in-line.png
+[Orthagonalize]: /images/editing/orthagonalize.png
+[Unglue way]: /images/editing/unglue-way.png
+[Keyboard S]: /images/editing/keyboard-s.png
+[Keyboard A]: /images/editing/keyboard-a.png
+[Keyboard Z]: /images/editing/keyboard-z.png
+[Keyboard Del]: /images/editing/keyboard-del.png
+[Keyboard plus]: /images/editing/keyboard-plus.png
+[Keyboard minus]: /images/editing/keyboard-minus.png
+[Rotate demo]: /images/editing/rotate-demo.png
+[Rotate instructions]: /images/editing/rotate-instructions.png
