@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'>
+    <title>LearnOSM</title>
+    <link href="{{ site.baseurl }}/reset.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.baseurl }}/style.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.baseurl }}/print.css" rel="stylesheet" type="text/css" media="print">
+    <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
+    <link href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" >
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Quattrocento+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="{{ site.baseurl }}/vendor/jquery-1.8.2.min.js"></script>
+    <script src="{{ site.baseurl }}/vendor/jquery-ui-1.9.2.custom.js"></script>
+    <script>
+      window.app = window.app || {};
+      window.app.permalink = '{{page.permalink}}';
+      window.app.baseurl = '{{site.baseurl}}';
+      window.app.lang = '{{page.lang}}';
+    </script>
+    <script src="{{ site.baseurl }}/site.js"></script>
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["trackPageView"]);
+    _paq.push(["enableLinkTracking"]);
+    (function() {
+      var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.hotosm.org/";
+      _paq.push(["setTrackerUrl", u+"piwik.php"]);
+      _paq.push(["setSiteId", "3"]);
+      var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+      g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Piwik Code -->
+  </head>
+  <body>
+  <div id='wrapper'>
+    <div class="fillG cell12" id="banner-top">
+      <small class='language-switcher marginL cell6 cf'>
+        <a lang='en'>English</a> |
+        <a lang='de'>Deutsch</a> |
+        <a lang='es'>Español</a> |
+        <a lang='fr'>Français</a> |
+        <a lang='hr'>Hrvatski</a> |
+        <a lang='bi'>Bahasa Indonesia</a> |
+        <a lang='it'>Italiano</a> |
+        <a lang='ja'>日本語</a> |
+        <a lang='no'>Norsk</a> |
+        <a lang='pt'>Português</a> |
+        <a lang='ru'>Русский</a> |
+        <a lang='sw'>Kiswahili</a> |
+        <a lang='uk'>Українська</a>
+      </small>
+      <!-- small search bar does not appear on the front page -->
+      {% unless page.fronttitle or page.contributetitle%}
+      <form class='searchbox-default rounded'>
+        <span class='icon logo-search'></span>
+        <input id='search-field' type='text' name='search' class='default-value' />
+      </form>
+      {% endunless%}
+    </div>
+    <div id='header' class='cell12'>
+      <div class='marginL cell9 padAll'>
+        <div class='cell7 marginR'>
+           <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
+           <span class='tagline'>{{site.translations.[page.lang].tagline}}</span>
+        </div>
+        <a class='banner hide-mobile'>
+          <span class='{{page.lang}}'>{{site.translations.[page.lang].contribute}}</span>
+        </a>
+        <a class='banner-mobile hide-desktop show-mobile' href='{{site.baseurl}}/{{page.lang}}/contribute/'>
+        </a>
+      </div>
+    </div>
+    <div id='content' class='cf'>
+        {{ content }}
+    </div>
+    <small id='footer' class='fillG cell12'>
+      <ul class='contact marginL marginR cell5 padAll'>
+        <li><a class='email' href="mailto:learnosm@hotosm.org">learnosm@hotosm.org</a></li>
+        <li><a class='twitter' href="https://twitter.com/learnosm">@learnOSM</a></li>
+        <li><a class='github' href='http://github.com/hotosm/learnosm'> Hosted on Github</a></li>
+      </ul>
+      <a rel="license" class="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
+      	<img src="http://i.creativecommons.org/p/zero/1.0/80x15.png" alt="CC0" />
+      </a>
+      <div class='sponsors cell3 padAll'>
+        <span>Official <a href='http://hot.openstreetmap.org/' target='_blank'>HOT OSM</a> learning materials</span>
+        <a class='logo logo-hot left' href='http://hot.openstreetmap.org/' target='_blank'></a>
+        <a class='logo logo-ausaid left' href='http://www.ausaid.gov.au/' target='_blank'></a>
+        <a class='logo logo-bnpb left' href='http://www.bnpb.go.id/' target='_blank'></a>
+      </div>
+    </small>
+  </div>
+  </body>
+  <script>
+  // autocomplete search with all-translation json
+    $.getJSON("{{site.baseurl}}/all-translation.json",function(data){
+      console.log(data);
+      var lang = "{{page.lang}}";
+      data.forEach(function(o){
+        if (o.lang === lang){
+          var destination;
+          $( "#search-field" ).autocomplete({
+           autoFocus: true, // highlight the first search result in dropdown
+           delay: 0,
+           source: o.chapters,
+           select: function(event, ui) {
+             destination = '{{site.baseurl}}' + ui.item.url;
+             window.location = destination;
+           }
+          });
+        }
+      })
+  });
+  </script>
+</html>

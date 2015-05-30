@@ -1,0 +1,117 @@
+---
+layout: default
+---
+<div class='doc-nav marginL cell3 padAll cf' id='doc-nav-left'>
+      <ul>
+
+    {% for post in site.categories.[page.category] %}
+      {% if {{post.lang}} == {{page.lang}} %}{% unless post.hidden %}
+      <li class='doc rounded'>
+        <a class='title {% if {{post.cover}} %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
+          <span>{{ post.title }}</span>
+        </a>
+      </li>
+      {% endunless %}{% endif %}
+    {% endfor %}
+  </ul>
+
+  <ul style="margin-top:40px;">
+      <li class='doc rounded'>
+        <a class='title cover'>
+          {% if {{page.otherguides}} %}
+            <span>{{ page.otherguides }}</span>
+          {% else %}
+            <span>Other guides</span>
+          {% endif %}
+        </a>
+      </li>
+      
+      {% for post in site.posts %}
+        {% if {{post.lang}} == {{page.lang}} %}{% unless post.hidden %}
+        {% if post.cover %}{% unless post.category == page.category %}
+          <li class='doc rounded'>
+            <a class='title' href="{{site.baseurl}}{{ post.url }}">
+              <span>{{ post.title }}</span>
+            </a>
+          </li>
+        {% endunless %}{% endif %}
+        {% endunless %}{% endif %}
+      {% endfor %}
+  </ul>
+
+</div>
+<div class='doc-main doc cell5 padAll'>
+  {{content}}
+  {% if {{page.cover}} %}
+    <div class='getstarted'>
+      <span><a class='start rounded'>{{site.translations.[page.lang].getstarted}}</a></span>
+    </div>
+  {% endif %}
+  {% unless {{page.cover}} %}
+  <div class='feedback padAll'>
+    <span>{{site.translations.[page.lang].feedbackspan}}</span>
+    <a href='{{site.baseurl}}/{{page.lang}}/contribute'>{{site.translations.[page.lang].feedback}}</a>
+  </div>
+  {% endunless %}
+</div>
+
+<script>
+  // loop through the node list to get the innerHTML from each node
+  // copy that as the id for the node
+  var addId = function(list){
+    for (i = 0; i < list.length; i++) {
+      element = list[i];
+      sectionCopy = element.innerHTML.toLowerCase().replace(/ /g, '-').replace(/([^0-9a-z-])/g,''); //substitute space with dash
+      element.id = sectionCopy;
+    }
+  };
+  var allH2 = document.getElementsByTagName('h2');
+  var allH3 = document.getElementsByTagName('h3');
+  addId(allH2);
+  addId(allH3);
+  // make the titles linkable
+  $('h2[id], h3[id]','.doc').attr('title', 'Link to this section').click(function(e) {
+    window.location.hash = $(e.currentTarget).attr('id');
+  });
+  //select the image containers so the images can be centered, styles in css
+  $('img').parent().addClass('has-image');
+  
+  // make title nav sticky
+  {% unless {{page.cover}} %} // excluding cover pages
+  $(document).ready(function(){
+    var nav = $('.doc-nav'),
+        navTop = nav.offset().top,
+        navHeight = nav.outerHeight(true),
+        footerHeight = $('#footer').outerHeight(true);
+    $(window).scroll(function(e){
+        var scrolled = $(this).scrollTop();
+        var leftToScroll = $(document).height() - scrolled;
+        
+        if (scrolled >= navTop && leftToScroll > (footerHeight + navHeight + 20)) {
+        // if in the middle - nav box is positioned fixed
+            nav.addClass('fixed');
+            nav.removeClass('bottom');
+        } else if (scrolled < navTop) {
+        // if at the beginning - nav box is positioned at top
+            nav.removeClass('fixed');
+            nav.removeClass('bottom');
+        } else if (leftToScroll <= (footerHeight + navHeight + 20)) {
+        // if at the end - nav box is positioned at bottom
+        // only if height of viewport is not sufficient to have nav box and footer in it
+            if ((footerHeight + navHeight + 20) > $(window).height()) {
+                nav.removeClass('fixed');
+                nav.addClass('bottom');
+            }
+        }
+    });
+  });
+  {% endunless %}
+  // get the second url of doc nav and make it the url of the 'proceed' link
+  var proceedTo = $('.doc-nav li:nth-child(2) a').attr('href');
+  $('a.start').attr('href',proceedTo);
+  // Set the min-height of the page dynamically based on height of navigation div
+  $('.doc-main').css("min-height", function() {
+    return $('#doc-nav-left').height() + 25;
+  });
+  
+</script>
