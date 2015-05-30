@@ -17,7 +17,7 @@ A simple, light-weight, and minimalistic app for recording GPS traces on the And
        src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
 </a>
 
-GPSLogger for Android is app that is free to use, and an actively maintained open source project. Donations are welcomed to further enhance the app. If you wish to get involved (e.g. providing translations in another language, bug reporting, or submitting feature requests), visit the [repository](https://github.com/mendhak/gpslogger).
+GPSLogger for Android is an app that is free to use, and an actively maintained open source project. Donations are welcomed to further enhance the app. If you wish to get involved (e.g. providing translations in another language, bug reporting, or submitting feature requests), visit the [repository](https://github.com/mendhak/gpslogger).
 
 >OpenGTS refers to the [Open GPS Tracking System](http://opengts.sourceforge.net/) project 
 
