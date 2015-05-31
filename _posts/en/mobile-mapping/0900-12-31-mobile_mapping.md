@@ -2,7 +2,7 @@
 layout: doc
 permalink: /en/mobile-mapping/
 lang: en
-title: Mapping with SmartPhones or a GPS
+title: Mobile Mapping 'in the Field'
 category: mobile-mapping
 cover: yes
 nosearch: true
