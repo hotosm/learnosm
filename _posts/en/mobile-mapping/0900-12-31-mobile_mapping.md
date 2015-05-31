@@ -2,13 +2,13 @@
 layout: doc
 permalink: /en/mobile-mapping/
 lang: en
-title: Mapping with SmartPhones
+title: Mapping with SmartPhones or a GPS
 category: mobile-mapping
 cover: yes
 nosearch: true
 ---
 
-Mapping with Smartphones
+Mapping with Smartphones or a GPS
 =============================
 
 More and more smartphones today include a radio chip that allows them to
@@ -17,8 +17,7 @@ location. The most common chips receive signals from the U.S. GPS
 frequencies, while higher end models may include chips that can read
 frequencies from the Russian GLONASS satellites at the same time.
 
-The quality of the chips used in smartphones may vary, and data accuracy
-and performance could vary as well.
+The quality of the chips used in smartphones and GPS's may vary, and data accuracy and performance could vary as well.
 
 Devices with GPS chips can work autonomously, off the grid, and without
 an Internet connection, while devices marked with “A-GPS only” (Assisted
@@ -71,7 +70,7 @@ O - supported, D - under development, m - mapping, n - navigation, p - POI edito
 -->
 
 The next sections will guide you through the installation and use of specific applications
-for you to contribute to OpenStreetMap using your smartphones.
+for you to contribute to OpenStreetMap using your GPS or a smartphone.
 
 >   **Note:** Before proceeding any further, verify that GPS is available and
 >   active for the device. In Android, go to **Settings \> Location** and enable it.
