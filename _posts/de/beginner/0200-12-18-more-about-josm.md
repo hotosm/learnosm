@@ -53,7 +53,7 @@ dass Sie das jedesmal tun müssen, wenn Sie die Kartendaten bearbeiten wollen, d
 >	mit einer Maus wesentlich leichter. Auf den meisten modernen Notebooks kann man aber mit dem Touchpad
 >	auch ganz gut scrollen.
 
--	Zeichnen Sie ein Rechteck über dem gewünschten Gebiet. Um ein neues Rechteck zu zeichnen, klicken Sie
+-  Zeichnen Sie ein Rechteck über dem gewünschten Gebiet. Um ein neues Rechteck zu zeichnen, klicken Sie
     in die Karte, halten Sie die linke Maustaste gedrückt und ziehen Sie mit der Maus ein Rechteck auf.
     Lassen Sie die Maustaste wieder los und das Rechteck ist fertig.
 -  Wenn Ihnen Größe und Lage des Rechtecks gefallen, klicken Sie auf "Daten herunterladen" unten 
@@ -66,7 +66,7 @@ vielleicht, dass hinter den Kartendaten ein Satellitenbild zu sehen war, von dem
 konnten. Diese Bilder stammen von Microsoft Bing, die uns freundlicherweise erlaubt haben, ihre Satellitenbilder
 als Grundlage für OpenStreetMap zu verwenden.
 
--	Um die Bing-Satellitenbilder in JOSM anzuzeigen, klicken Sie auf "Hintergrundbild" in der Menüzeile von
+-  Um die Bing-Satellitenbilder in JOSM anzuzeigen, klicken Sie auf "Hintergrundbild" in der Menüzeile von
     JOSM und wählen Sie “Bing Luftbild”.
 
 >   Wenn Sie diesen Eintrag nicht im Hintergrundbild-Menü sehen, müssen Sie ihn erst in den JOSM-Einstellungen
@@ -80,49 +80,45 @@ als Grundlage für OpenStreetMap zu verwenden.
 
 
 ### Ein Überblick über JOSM
-Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery,
-let's take another look at the interface of JOSM.
+Jetzt haben Sie OpenStreetMap-Daten heruntergeladen und Bing-Satellitenbilder angezeigt.
+Werfen wir wieder einen Blick auf die Oberfläche von JOSM.
 
 ![JOSM layout][]
 
-The main window you are already familiar with - this is the map window, and 
-it is where most of the action takes place. Here you will view, edit, and
-add to the OpenStreetMap data.
+Das Hauptfenster sollte Ihnen schon vertraut sein - es ist das Kartenfenster in dem Sie den
+Großteil der Arbeit erledigen werden. Es dient zum Betrachten, Bearbeiten und Hinzufügen von
+OpenStreetMap-Daten.
 
-To the right of the map window are a series of panels, each of which has
-its own function. Typically when you first install JOSM several
-panels are shown by default, such as Layers, Properties, and
-Selection. When you select a point, line, or shape in the map
-window, it will be shown in the Selection panel. Information about
-the object will be shown in the Properties panel, and the username
-of the author of that object will be shown in the Authors panel.
+Rechts vom Kartenfenster sehen Sie eine Reihe von weiteren Fenster für unterschiedliche Funktionen.
+Nach einer Neuinstallation von JOSM erscheinen hier typischerweise Fenster zu Ebenen, 
+Merkmale/Mitgliedschaften und Auswahl. Wenn Sie einen Punkt, eine Linie oder einen Linienzug im
+Kartenfenster anwählen, erscheint er im Auswahlfenster. Im Fenster "Merkmale/Mitgliedschaften" werden
+Ihnen Informationen über das Objekt angezeigt und der Benutzername des letzten Bearbeiters erscheint im 
+Autoren-Fenster.
 
-These panels can be opened or closed by clicking on the various buttons on
-lower left side of JOSM. Above these buttons in the upper right are tools which
-change what you can do with your mouse. You are already familiar with some of them,
-the Select tool and the Draw tool. Below them are tools which make it easier to
-zoom in, delete an object, draw a shape, or create a line that is parallel
-to another line.
+Sie können diese Fenster öffnen und schließen in dem Sie entweder auf die Icons links unten in JOSM klicken 
+oder die entsprechenden Einträge im Fenster-Menü an-/abwählen. Oberhalb dieser Icons befinden sich diejenigen,
+mit denen Sie die Aktionen Ihrer Maus bestimmen. Einige davon kennen Sie schon, das Auswahlwerkzeug und das
+Zeichenwerkzeug. Darunter befinden sich Werkzeuge zum zoomen, Objekt löschen, Formen zeichnen oder Linien 
+parallel zu anderen Linien zeichnen.
 
 
-Edit
+Bearbeiten
 ----
-So we have completed step one of the editing process - Downloading. We have
-prepared JOSM with satellite imagery as a reference. The next step is to edit
-the map and add new items.
+Wir sind erst mit Schritt eins des Zyklus fertig - Herunterladen. Wir lassen uns in JOSM Satellitenbilder
+als Vorlage anzeigen. Als nächstes werden wir die Karte bearbeiten und neue Daten hinzufügen.
 
-Depending on the area that you chose to download, there may be a lot or very
-little existing map data. But notice that it is the same sort of data that we
-have seen previously - points, lines, and shapes that represent real-life locations.
+Je nachdem, welches Gebiet sie ausgewählt haben, können darin sehr viele oder sehr wenige Daten
+enthalten sein. Es handelt sich um die Arten von Daten, die Sie schon kennen (Punkte, Linien, Linienzüge) und
+sie repräsentieren real existierende Objekte.
 
--	Use the techniques you have already learned to add a couple points to the map
-	of places that you know. If you see any mistakes, try to fix them.
--	You don't need to be too aggressive while you are learning. If you are unsure
-	about something it's better to leave it as it is.
--	If you want to move a point, line, or shape, use the
-    **select tool**. Click on an object and drag it where it
-    should be. This can be used to correct the location of items that
-    have been put in the wrong place.
+-	Verwenden Sie die Techniken, die Sie schon gelernt haben, um einige Punkte zur Karte hinzuzufügen, 
+	deren reale Objekte Sie kennen. Wenn Sie Fehler entdecken, versuchen Sie diese zu korrigieren.
+-	Seien Sie am Anfang ruhig etwas vorsichtig. Wenn Sie sich bei einem Objekt nicht sicher sind
+	dann lassen Sie diese Daten besser unverändert.
+-	Wenn Sie ein Objekt verschieben wollen, benützen Sie das 
+    **Auswahlwerkzeug**. Klicken Sie auf das Objekt und ziehen Sie es an den gewünschten Ort. Damit können
+    Sie falsch platzierte Objekte korrigieren.
 
 ![JOSM select tool][]
 
