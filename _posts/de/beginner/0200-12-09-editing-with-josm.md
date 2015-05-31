@@ -165,3 +165,10 @@ Zusammenfassung
 Nun, da du gelernt hast, wie man Objekte zu OpenStreetMap hinzufügt, was kannst du als nächstes tun? Denk daran, dass OSM mit der Zeit immer besser wird. Jedes mal, wenn du die Karte etwas verbesserst, werden auch die Daten besser und besser. Und so wie du die Arbeit anderer Benutzer verbessern kannst, so können auch andere Benutzer deine Arbeit verbessern.
 
 Im letzten Kapitel werden wir von JOSM Abstand nehmen und ein paar interessante Projekte betrachten, welche OpenStreetMap Daten verwenden und du wirst sehen wie du auch weiterhin Sachen über OpenStreetMap lernen kannst.
+
+Nächste Schritte
+----------------
+
+Unter diesem Link gibt es nähere Informationen zu:  
+
+*  [weiteres Vorgehen jenseits des Leitfadens für Anfänger](/de/beginner/moving-forward/)
