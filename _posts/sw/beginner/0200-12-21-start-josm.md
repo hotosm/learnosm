@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Getting Started with JOSM
+title: Kuanza Kutumia JOSM
 permalink: /sw/beginner/start-josm/
 lang: sw
 category: beginner
@@ -10,252 +10,244 @@ published: true
 Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
 tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).  
 
-Getting Started with JOSM
-=============================
+Kuanza Kutumia JOSM
+====================
 
-How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and
-learn some of the basic operations of the software. Remember in the
-introduction chapter when we asked you to draw a map of your town or
-village? We will conclude this chapter by drawing your map again, this
-time digitally. After this you should have a good understanding of how
-to draw maps in JOSM.
+Jinsi yakupakua JOSM, progaramu yakuhariri openstreetmap, kubadilisha baadhi ya settings, kufungua ramani-mfano nakujifunza baadhi ya shughuli za hii programmu. Unakumbuka kwenye 
+utangulizi tulivyo kuuliza kuchora mchora wa mji/mtaa wako? Tutamaliza 
+sura hii kwa kuchora ramani hiyo, lakini sasa kwa mfumo wa digitali 
+kwenye kompyuta. Baada ya hayo unapaswa kuwa na uelewa mzuri wa jinsi
+ya kuchora ramani katika JOSM
 
-Download JOSM
--------------
-
-- If you have a copy of JOSM on a CD or usb flash drive, you can skip
-  to the next section, Install JOSM.
-- If you don’t have JOSM already, or want the newest version, open
-  your web browser - this may be Firefox, Chrome, Opera, or Internet
-  Explorer.
-- In the address bar at the top of the window, enter the following
-  text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
-- You can also find the JOSM website by searching the internet for “JOSM”.
-- The website should look something like this:
+Kupakua JOSM
+------------
+- Kama una JOSM kwenye CD au flashi  diski unaweza ruka kipengele hiki 
+  na kuanza na kipengele, cha Kuweka JOSM
+- Kama hauna JOSM, au unataka toleo jipya fungua ukurasa wako - unaweza 
+  kutumia Firefox, Chrome, Opera or Internet Exprorer. 
+- Katika sehemu ya anwani, ingiza maandishi yafuatayo harafu bonyeza Enter:
+  [josm.openstreetmap.de](http://josm.openstreetmap.de)
+- Unaweza kuipata JOSM kwa kutafuta ukurasa wa JOSM kwenye internet
+- Ukurasa wa JOSM unafanana na picha ifuatayo.
 
   ![JOSM website][]
-
-- If you have Windows installed on your computer, click “Windows Installer” to download JOSM.
+- Kama komputa yako ina operating system ya Windows bonyeza “Windows Installer” kupakua JOSM.
 
   ![Windows installer][]
+- Kama koputa yako ina operating system nyingine, chagua chaguo la 
+  mfumo wa komputa yako. Upakuaji utaanza. Kwenye sura hii tutaeleza 
+  kwa mfumo wa Windows, lakini maelezo yanalandana kwa mifumo mingine pia. 
 
-- If you have a different operating
-  system, click on the link for your system. Your download should
-  begin. In this chapter we will assume that you are using Windows,
-  but the instructions are similar for other operating systems.
+Kuweka JOSM
+-----------
 
-Install JOSM
-------------
+> Unaweza  ukapata matatizo wakati wa kuweka JOSM kama Java bado 
+> haijawekwa kwenye kompyuta yako. Kama una tatizo katika  hiki kifungu, 
+> jaribu kupakua na kuweka Java. Unaweza ukapakua hapa: 
+> [http://www.java.com/en/download/](http://www.java.com/en/download/)
 
->  You may have problems installing JOSM if Java is not already
->  installed on your computer. If you have problems in this section,
->  try downloading and installing Java. You can download it here:
->  [http://www.java.com/en/download/](http://www.java.com/en/download/)
+> Watumiaji wa Mac wanaweza wakawa na matoleo ya zamani 
+> ya Java. Tafadhali angalia 
+[http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation)  kwa kuchagua kwa OSX 10.6 na 10.7.3+
 
->  Mac users may have old versions of Java. Please see [http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation) for options for OSX 10.6 and 10.7.3+
-
-- Find the JOSM install file on your computer. Double-click it to
-  begin setup.
-- Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation
-  is complete, click ‘Finish’ to launch JOSM for the first time.
-  Later, when you want to start JOSM, you can do so by clicking on the
-  Start Menu in the lower left corner of your computer, and clicking
-  the program JOSM.
-- You may see a window pop up that asks if you want to update the
-  software.  You don’t need to update it since it is new.  Press the
-  button that says “Cancel.”  If you don’t ever want to see this
-  message again, check the box at the bottom before pressing “Cancel.”
-- When JOSM starts, it will look something like this:
+- Tafuta JOSM na kuweka faili kwenye kompyuta yako.bofya mara mbili 
+  kuanza kuweka.
+- Bofya 'OK' (Sawa), 'Next' (Inayofuata), 'I Agree' (Nakubali), 
+  na ‘Install’ (Weka). Pale kuweka ikimaliza, bofya ‘Finish' (Maliza)
+  kuzindua JOSM kwa mara ya kwanza. Baadae, kama unataka kufungua JOSM, 
+  unaweza kufanya  kwa kubofya start katika upande wa chini kushoto 
+  kwenye kompyuta yako na kubofya JOSM
+- Unaweza kuona dirisha ambalo linauliza kama unataka kuupdate software. 
+  Haina haja ya kuupdate maana ni mpya bado. Bofya update ya software 
+  inayosema ondoa. Kama hutaki kuona tena huu ujumbe, angalia kisanduku 
+  chini kabla ua kubofya ondoa.
+- Wakati JOSM inaanza, itaonekana kitu kama hiki:
 
   ![JOSM splash page][]
 
-JOSM Preferences
+Mapendekezo ya JOSM
 --------------------
+Kuna aina mbalimbali za setting ambazo unaweza kubadilisha katika 
+JOSM. Moja kati ya hizo settting unazoweza kuzirekebisha ni lugha.
+JOSM imetasfiriwa katika lugha mbalimbali na wewe unaweza ukapendelea 
+ni ipi uifanyie kazi.
 
-There are many different settings that you can customize in JOSM. 
-One setting that you may want to adjust is the language. JOSM has
-been translated into numerous languages, and you may prefer to
-work in a different one.
-
-- To access the Preferences window, click Edit -\> Preferences.
+- Kulipata dirisha la mapendekezo, bofya Edit -\> Preferences.
 
   ![Preferences window][]
 
-- On the left side, click the icon that looks like a paint can and
-  paint brush.
-- At the top of the window, click the tab that says “Look and Feel”.
-- Choose your language in the dropdown box next to the word
-  “Language”.
+- Upande wa kushoto, bofya icon inayoonekana kama rangi na brush 
+  la rangi
+- Juu ya dirisha, bofya the tabo inayosema “Look and Feel” “(Angalia na Hisi)”
+- Chagua lugha ya kutumia kwenye kisanduku cha chini mbele ya neno “Lugha” “(Language)”
   
   ![Look and feel][]
 
-- Click OK.
-- You need to restart JOSM to save your settings. Click “File” in the upper
-  left corner, and Click “Restart” near the bottom of the menu.
+- Bofya OK.
+- Unatakiwa  kuanza upya JOSM ili kuhifadhi  setting zako. Bofya “File” “(Faili)”
+  kona ya upande wa kushoto juu, na bofya “Restart” “(Anzisha Upya)” karib na chini ya orodha.
 
-Learn Basic Drawing with JOSM
------------------------------
+Jifunze Misingi ya Kuchora na JOSM 
+----------------------------------
 
-- Now let’s open up a sample OSM file which we will use to learn the
-  basic ways to draw maps with JOSM. Note that this map is not real,
-  in that it is not a real map of a real place, so we will not save it
-  on OpenStreetMap.
-- Download the file here: [sample.osm](/files/sample.osm)
-- Now let’s open the sample map file in JOSM. Click the
-  “Open” button in the upper left.
+- Sasa hebu tufungue sampuli faili ya OSM ambayo tutatumia kujifunza 
+  njia za msingi zakutengeneza ramani na JOSM. Kumbuka kwamba ramani 
+  hii si ya kweli, na kwamba si ramani halisi ya mahali halisi, hivyo 
+  sisi hatuto iokoa kwenye tovuti OpenStreetMap
+- Pakua faili hapa: [sample.osm](/files/sample.osm)
+   
+- Sasa hebu fungua faili ya ramani ya sampuli faili 
+  ramani katika JOSM. Bofya "Open" "(Fungua)" kifungo katika kushoto juu.
 
   ![Open file][]
 
-- Find the file **sample.osm**. It is probably in your Downloads folder,
-  unless you saved it somewhere else. Click on it, and then click “Open”.
-- You should now see a sample map that looks like this:
+- Tafuta faili **sample.osm**. Pengine ni katika file yako ya Downloads, 
+  isipokuwa lamda wewe uli iokolea mahali pengine. Bonyeza juu yake, 
+  na kisha bonyeza “Open” "(Fungua)”
+- Unapaswa sasa kuona sampuli ramani kwamba inaonekana kama hii:
 
   ![Sample file][]
 
-### Basic Operations
+### Operesheni za msingi
 
-- To move the map left or right, up or down, hold your right mouse
-  button down, and move your mouse.
-- There are several ways to zoom in and out of the map. If you have a
-  mouse, you can use your scroll wheel to zoom in and out. If you are
-  using a laptop and don’t have a mouse, you can zoom in and out using
-  the scale bar in the upper left of the map window. Drag the bar left
-  and right by holding your left mouse down and moving the bar left or
-  right with your mouse.
+- Kuzungusha ramani kuria au kushoto, chini au juu, shikilia kitufe 
+  cha kipanya chini, harafu zungusha.
+- Kuna njia mbali mbali za kukuuza na kupunguuza ramani. Ukiwa na kipanya, 
+  unaweza kutumia kizungushio kukuuza na kupunguuza. Ukiwa na kompyuta 
+  mpakato na huna kipanya, unaweza kukuuza na kupunguza ramani kwakutumia 
+  kifa cha skeli ambacho kipo mkono wa kushoto juu ya fasi ya ramani. Vuta 
+  kile kifaa kushoto na kulia wakati  unashikilia kitufe cha kushoto cha 
+  kipanya.
 
   ![Scale bar][]
 
-- Look at the sample map. There a few different types of objects here.
-  There is a river, a forest, some buildings, several roads, and a
-  couple of shops. To select an object, click on it with your left
-  mouse button.
+- Angalia kwenye ramani ya mfano. Kuna aina kadhaa tofauti ya vitu hapa. 
+  Kuna mto, msitu, majengo baadhi, njia kadhaa, na maduuka machache. Kuchagua 
+  kitu, bonyeza juu yake na kufungo cha kushoto cha kipanya chako.
 
-### Points, Lines, and Shapes
+### Alama, Mstari na Maumbo
 
-- As you click different objects on the sample map, notice that there
-  are three different types of objects on the map. There are points,
-  lines, and shapes.
-- Points are a single location, represented by symbols. On this sample
-  map, there are two points, a shoe shop and a supermarket. The
-  shoe shop is represented by a shoe symbol, and the market is
-  represented by a shopping cart.
-- There are several lines on the map as well, which represent roads.
-  If you look closely you will see that within the lines, there are
-  points as well. These points don’t have any symbols or other
-  information associated with them, but they help to define where the
-  line is located.
-- Lastly, there are numerous shapes on the sample map, representing
-  different places - a forest, a river, a park, and buildings. A shape
-  is used to represent an area, like a field or a building. A shape is
-  exactly like a line - the only difference is that the line begins at
-  the same point where it ends.
+- Pale unapobofya vitu mbalimbali kwenye mfano wa ramani, angalizo ni 
+  kuwa kuna aina tatu za vitu katika ramani. Kuna alama, mistari na maumbo.
+- Pointi ni za sehemu moja, inawakilishwa na alama. Katika hii ramani ya 
+  mfano, kuna pointi mbili, duka la viatu na maduka makubwa. Duka la viatu 
+  linawakilishwa na alama ya ramani, na maduka yanawakilishwa na gari la 
+  ununuzi
+- Kuna mistari mbalimbali kwenye ramani,ambazo huwakilisha barabara. 
+  Kama utaangalia kwa ukaribu utaona katikati ya mistari, kuna pointi 
+  pia. Hizi point hazina alama yoyote  au taarifa yoyote inavyozielezea, 
+  lakini zinasaidia kuelezea wapi mistari inapatikana.
 
-> It's easy to think of a map as containing these three basic types of objects - 
-> points, lines, and shapes. In OpenStreetMap there is special terminology
-> which you will come to learn as you progress. In OSM, points are actually called
-> **nodes**, and lines are called **ways**. A shape is called a **closed way**
-> because it is just a line that ends at the same point where it begins.
+- Mwisho, kuna aina mbalimbali za maumbo kwenye ramani ya mfano, 
+  zinawakilisha maeneo mbalimbali msitu, mto, parks na majengo. Umbo 
+  linatumika kuwakilisha eneo, kama shamba au jengo. Umbo ni kama mstari - 
+  utofauti wake ni mstari unaanza katika pointi sawa na itakayoishia.
 
-- You may notice that when you select an object, a list appears to the
-  right of the map in a window called “Properties”. These are known as
-  tags. Tags are information that is tied to a point, line or shape
-  that describes what it is. We’ll learn more about tags in a later
-  chapter. For now all you need to know is that this
-  information helps describe whether our object is a forest, a river,
-  a building, or something else.
-- Think about drawing a map by hand, and how you are also drawing
-  points, lines, and shapes. What other places are best represented by
-  points? Lines? Shapes?
+> Ni rahisi kuifikiria ramani yenye hivi vitu vitatu vya msingi-pointi, mistari and  
+> maumbo. Katika OpenStreetMap kuna misamiati spesho ambayo utajifunza unavyoendelea. 
+> Katika OSM, pointi zinaitwa nodes, na mistari inaitwa njia. Maumbo yanaitwa njia 
+> zilizofungwa kwasababu ni  mistari inayoishia katika pointi ilipoanzia.
 
-### Changing Objects
+- Unaweza kuona kwamba pale unapochagua kitu, listi inatokea upande wa 
+  kulia wa ramani katika dirisha linaloitwa “sifa”. Hizi zinaitwa tags. 
+  Tags ni taarifa zinazoelezea pointi, mistari au maumbo kuelezea ni vitu 
+  gani. Tutajifunza zaidi kuhusu utambulisho  katika sura inayofuata. Kwa 
+  sasa unahitaji kujuatu kwamba tarifa hizi zinasaidia kueleza kama 
+  kitu ni msitu, mto, jengo, au kitu kingine.
 
-- Select the forest on the left side of the map. Be sure to click on
-  the line around the forest, not one of the points on the line. Now
-  hold your left mouse button down and drag your mouse. You should be
-  able to move the forest to a new location on the map.
-- Click on one of the points on the line around the forest. Hold your
-  left mouse button down and drag your mouse. You should be able to
-  move the point. This is how you can change the shape of an object,
-  or move a point.
+- Fikiria kuhusu kuchora ramani kwa mkono, na jinsi unavyochora pointi, 
+  mistari na maumbo. Je ni maeneo gani ni mazuri kuwakilishwa kwa Pointi? 
+  Mistari? Maumbo?
 
-### Drawing
+### Kubadilisha Vitu
 
-- On the left side of JOSM is a column of buttons. Many of these
-  buttons open new windows on the right side that provide more
-  information about the map. The most important buttons, however, are
-  at the top of these column. These buttons change what you can do
-  with your mouse.
-- The top buttons in this column are the ones you will use the most.
-  They are used for selecting objects and for drawing new ones.
-- Until now, you have been using the Select tool, which looks like
-  this:
+- Kuchagua msitu upande wa kushoto wa ramani. Kuwa na uhakika wa click 
+  kwenye mstari kuzunguka misitu, si moja ya pointi kwenye mstari. Sasa 
+  kushikilia kipanya chako kushoto kifungo chini na vuta kwa kutumia 
+  kipanya chako. Unapaswa kuwa na uwezo wa kuupeleka msitu katika eneo 
+  jipya kwenye ramani.
+
+- Bonyeza moja kati pointi kwenye mstari kuzunguka misitu. Shikilia 
+  kipanya chako kushoto kifungo chini na vuta kipanya chako. Unapaswa 
+  kuwa na uwezo wa kuziivuta pointi. Hii ni jinsi gani unaweza 
+  kubadilisha sura ya kitu, au kusogeza pointi.
+
+### Kuchora
+
+- Upande wa kushoto wa JOSM ni safu ya vifungo. Wengi wa vifungo 
+  hivi hufungukia madirisha mpya upande wa kulia ili kutoa taarifa 
+  zaidi kuhusu ramani. Vifungo muhimu zaidi, hata hivyo, ni juu ya 
+  safu hizi. Vifungo hivi hubadili nini unaweza kufanya na panya yako.
+- Vifungo juu katika safu hii ndio utatumia zaidi.vinatumika kwa 
+  ajili ya kuchagua vitu na kwa ajili ya kuchora vitu vipya.
+- Mpaka sasa, umekuwa ukutumia  chombo Teule, ambayo inaonekana kama hii:
 
   ![Select tool][]
 
-- Before you draw, you need to make sure that nothing is selected.
-  Click in the black space on the map, where it is empty, to make sure
-  nothing is selected.
-- Click on the second button, the Draw tool.
+- Kabla ya kuchora, unahitaji kuhakikisha kuwa hakuna chaguo lolote. 
+  Bofya katika nafasi nyeusi kwenye ramani, ambapo ni tupu, ili 
+  kuhakikisha hakuna chaguo
+- Bonyeza kifungo cha pili, kifaa cha kuchorea.
 
   ![Draw tool][]
 
-- Find an empty area on the map, and double-click with your mouse.
-  This will draw a single point.
-- To draw a line, single-click with your mouse. Move your mouse and
-  click again. Continue until you are happy with your line. To end the
-  line, double-click your mouse.
-- Draw a shape the same way that you draw a line, but finish the shape
-  by double-clicking on the point where you started the line.
+- Kutafuta eneo tupu kwenye ramani, bofya mara mbili na kipanya chako. 
+  Hii itakuchorea  pointi moja
+- Kuchora mstari, bofya mara moja kwenye kipanya chako. Sogeza kipanya  
+  chako na bonyeza tena. Endelea mpaka wewe umeridhika na  mstari wako. 
+  Kumaliza mstari, bofya mara mbili kwa kutumia kipanya chako.
+- Chora mchoro njia sawa kama ulivyo  chora mstari, lakini kumaliza umbo 
+  malizia kwa ku bofya mara mbili mahali ambapo wewe ulianza mstari.
 
-### Add Presets
+### Kuongeza Presets
 
-- Now we know how to draw points, lines and shapes, but we still
-  haven’t defined what they represent. We want to be able to say that
-  our points are shops, schools, or something else, and whether our
-  shapes are fields, buildings, or something else.
-- Click on the Select tool, in the column of buttons on the left.
+- Sasa tunajua jinsi ya kuchora pointi, mistari na maumbo, lakini 
+  sisi bado hatufafanua vinawakilisha nini. Tunataka kuwa na uwezo 
+  wa kusema kwamba pointi zetu ni maduka, shule, au kitu kingine, 
+  na kama maumbo yetu ni mashamba, majengo, au kitu kingine.
+- Bonyeza kwenye chombo Teule, katika safu ya kifungo juu ya kushoto.
 
   ![Select tool][]
 
-- Select one of the objects that you drew with the Draw tool. On the
-  top menu, click “Presets”. Move your mouse through the sub-menu to
-  the type of location you would like to define.
-- When you click on a preset, a form will pop up asking you for more
-  information. You do not have to fill in every field, but you may
-  wish to add some of the important fields, such as the name of the
-  object.
-- When you are finished entering the information, click “Apply
-  Preset”. If everything went well, your point, line, or shape should
-  change colors or show a symbol. This is because you have defined
-  what it is.
+- Chagua moja ya vitu ambavyo wewe ulichora. Kwenye orodha ya juu, 
+  bofya "Presets". Sogeza kipanya kyako kwa njia ndogo ya orodha ya aina 
+  ya eneo ungependa kufafanua.
 
-Draw Your Own Map
+- Ukibonyeza preset, aina ya pop itakuuliza wewe kwa habari zaidi. 
+  Hunahaja yakujaza kila kitu, lakini unaweza  kuongeza baadhi ya 
+  vitu muhimu, kama vile jina la kitu.
+
+- Unapomaliza kuingiza habari, bofya "Apply Preset". Kama kila kitu 
+  kimeenda vizuri, pointi zako, mstari, au umbo unapaswa kubadili 
+  rangi au kuonyesha ishara au alama. Hii ni kwa sababu umefafanua ni nini.
+
+Chora Ramani Yako
 -----------------
 
-- Now let’s draw a map in order to practice the techniques you have
-  learned. You may wish to redraw the map that you drew on paper previously.
-- Drag the map away from the sample map. Hold the right mouse button
-  and drag your mouse, until you have a nice empty area to draw on.
-- Use the Draw tool to create points, lines, and shapes. Describe what
-  your objects are by selecting from the Presets menu.
-- When you are finished, you should have your own map, similar to the
-  sample map that we opened in sample.osm.
+- Sasa hebu tuchore ramani ili kufanya mazoezi ya mbinu ulizojifunza. 
+  Unaweza ukataka kuchora  ramani ambayo ulichora awali .
+- Vuta ramani mbali na ramani ya mfano. Shikilia kipanya upande wa 
+  kulia na vuta kipanya chako, mpaka upate eneo tupu la kuchora juu yake .
+- Tumia kifaa cha Kuchora kutengeneza pointi, mistari, na maumbo. Eleza
+  vitu yako ninini kwa kuchagua kutoka kwenye orodha ya Presets .
+- Ukimaliza, unapaswa kuwa na ramani yako mwenyewe, sawa na ramani 
+  ya mfano tuliofungua katika sample.osm.
 
-Summary
--------
+Ufupisho
+--------
 
-Excellent! If all went well you have learned how to setup JOSM on your
-computer, and the basic tools for drawing maps. In the next chapter we will
-take a closer look at the process of editing the OSM map with JOSM.
+Bora kabisa! Ikiwa kila kitu kimeenda vizuri umejifunza jinsi ya kuanzisha 
+JOSM kwenye komputa yako, na vifa vya msingi kwa ajili ya kuchora ramani. 
+Katika sura inayofuata tutaangalia mchakato wa kuhariri ramani ya OSM na JOSM.
 
-
-Moving Forward
+Kuendelea Mbele
 --------------
 
-Click on the link for further reading on:  
+Bonyeza kiungo kwa ajili ya kusoma zaidi juu ya:
 
-*  [To continue with this beginner series & to learn more about JOSM](/sw/beginner/more-about-josm/)  
-*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](/sw/coordination/remote/)  
+*  [Kuendelea na mfululizo huu kwanaeanza & kujifunza zaidi kuhusu JOSM](/sw/beginner/more-about-josm/)  
+*  [Kuendelea na kifungu cha LearnOSM cha Remote, Armchair au Mapathon](/sw/coordination/remote/)  
+
 
 
 
