@@ -341,3 +341,11 @@ Kapiteln wirst du den Umgang mit GPS-Geräten und "Walking papers" lernen,
 was dir helfen wird, deinen Wohnort zu kartieren. In Kapitel 6 kehren wir 
 zu JOSM zurück und benutzen die gesammelten Informationen, um Objekte
 auf OpenStreetMap einzutragen.
+
+Nächste Schritte
+----------------
+
+Unter diesen Links gibt es nähere Informationen zu:  
+
+*  [Ablauf des Editierens mit JOSM](/de/beginner/more-about-josm/)  
+*  [Arbeiten mit Satellitenbildern (derzeit nur auf Englisch verfügbar)](/en/coordination/remote/)  
