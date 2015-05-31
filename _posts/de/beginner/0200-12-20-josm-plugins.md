@@ -15,8 +15,7 @@ JOSM bietet dir hierfür die Möglichkeit unzählige Erweiterungen zu installier
 Bei Erweiterungen handelt es sich um zusätliche Software, die spezielle Aufgaben übernehmen.
 Wenn du bis hierhin den Anleitungen gefolgt bist, hast du schon mehrere Erweiterungen installiert.
 Im vorigen Kapitel hast du eine Erweiterung installiert, welche
-es dir ermöglicht SDS (getrennte Datenspeicher) zu nutzen. Davor hast du eine 
-Erweiterung zur Nutzung von Walking Papers installiert. Für JOSM sind viele unterschiedliche
+es dir ermöglicht SDS (getrennte Datenspeicher) zu nutzen. Für JOSM sind viele unterschiedliche
 Erweiterungen verfügbar und wir werden einige sinnvolle Erweiterungen in diesem Kapitel
 beschreiben.
 
@@ -41,7 +40,6 @@ Empfohlene Erweiterung:
 Weiterhin empfehlen wir das Herunterladen folgender Erweiterungen, die in anderen Kapiteln
 behandelt werden:
 
-- Walking Papers
 - Buildings\_tool
 - Utilsplugin2
 
