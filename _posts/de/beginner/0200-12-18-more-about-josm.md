@@ -19,7 +19,7 @@ von OpenStreetMap zu bearbeiten.
 
 Der Bearbeitungs-Zyklus
 ---------------------
-Das Bearbeiten von OpenStreetMap mit JOSM geht ganz ähnlich wie mit dem iD-Editor, den
+Das Bearbeiten von OpenStreetMap mit JOSM geht ganz ähnlich wie mit dem iD-Editor den
 wir schon kennengelernt haben. Die Unterschiede rühren daher, dass JOSM ein eigenes Programm ist.
 Wenn wir etwas bei OpenStreetMap bearbeiten oder hinzufügen folgen wir immer diesen Schritten:
 
@@ -33,13 +33,13 @@ Am Anfang steht immer das Herunterladen der Daten für das Gebiet, das wir bearb
 dass Sie das jedesmal tun müssen, wenn Sie die Kartendaten bearbeiten wollen, da ständig andere Benutzer an der Karte 
 Änderungen vornehmen.
 
--	Klicken Sie auf “Datei” links in der Menüzeile von JOSM und dann auf “Vom OSM_Server herunterladen”. 
+-	Klicken Sie auf “Datei” links in der Menüleiste von JOSM und dann auf “Vom OSM-Server herunterladen”. 
     Danach öffnet sich ein Fenster mit dem Titel "Daten herunterladen". Sie können auch einfacher
     auf dieses Icon klicken:
 
 ![JOSM Download Button][]
 
--  In dem Download-Fenster sehen Sie eine Karte mit einem rosafarbenes Rechteck darüber. Sollten Sie keine
+-  In dem Download-Fenster sehen Sie eine Karte mit einem rosafarbenen Rechteck darüber. Sollten Sie keine
     Karte sehen, klicken Sie auf die Registerkarte "Interaktive Karte".
 
 ![JOSM Download Dialog][]
@@ -66,7 +66,7 @@ vielleicht, dass hinter den Kartendaten ein Satellitenbild zu sehen war, von dem
 konnten. Diese Bilder stammen von Microsoft Bing, die uns freundlicherweise erlaubt haben, ihre Satellitenbilder
 als Grundlage für OpenStreetMap zu verwenden.
 
--  Um die Bing-Satellitenbilder in JOSM anzuzeigen, klicken Sie auf "Hintergrundbild" in der Menüzeile von
+-  Um die Bing-Satellitenbilder in JOSM anzuzeigen, klicken Sie auf "Hintergrundbild" in der Menüleiste von
     JOSM und wählen Sie “Bing Luftbild”.
 
 >   Wenn Sie diesen Eintrag nicht im Hintergrundbild-Menü sehen, müssen Sie ihn erst in den JOSM-Einstellungen
@@ -89,7 +89,7 @@ Das Hauptfenster sollte Ihnen schon vertraut sein - es ist das Kartenfenster in 
 Großteil der Arbeit erledigen werden. Es dient zum Betrachten, Bearbeiten und Hinzufügen von
 OpenStreetMap-Daten.
 
-Rechts vom Kartenfenster sehen Sie eine Reihe von weiteren Fenster für unterschiedliche Funktionen.
+Rechts vom Kartenfenster sehen Sie eine Reihe von weiteren Fenstern für unterschiedliche Funktionen.
 Nach einer Neuinstallation von JOSM erscheinen hier typischerweise Fenster zu Ebenen, 
 Merkmale/Mitgliedschaften und Auswahl. Wenn Sie einen Punkt, eine Linie oder einen Linienzug im
 Kartenfenster anwählen, erscheint er im Auswahlfenster. Im Fenster "Merkmale/Mitgliedschaften" werden
@@ -99,7 +99,7 @@ Autoren-Fenster.
 Sie können diese Fenster öffnen und schließen in dem Sie entweder auf die Icons links unten in JOSM klicken 
 oder die entsprechenden Einträge im Fenster-Menü an-/abwählen. Oberhalb dieser Icons befinden sich diejenigen,
 mit denen Sie die Aktionen Ihrer Maus bestimmen. Einige davon kennen Sie schon, das Auswahlwerkzeug und das
-Zeichenwerkzeug. Darunter befinden sich Werkzeuge zum zoomen, Objekt löschen, Formen zeichnen oder Linien 
+Zeichenwerkzeug. Darunter befinden sich Werkzeuge zum zoomen, Objekt löschen, Formen zeichnen oder um Linien 
 parallel zu anderen Linien zeichnen.
 
 
@@ -115,7 +115,7 @@ sie repräsentieren real existierende Objekte.
 -	Verwenden Sie die Techniken, die Sie schon gelernt haben, um einige Punkte zur Karte hinzuzufügen, 
 	deren reale Objekte Sie kennen. Wenn Sie Fehler entdecken, versuchen Sie diese zu korrigieren.
 -	Seien Sie am Anfang ruhig etwas vorsichtig. Wenn Sie sich bei einem Objekt nicht sicher sind
-	dann lassen Sie diese Daten besser unverändert.
+	dann lassen Sie dessen Daten besser unverändert.
 -	Wenn Sie ein Objekt verschieben wollen, benützen Sie das 
     **Auswahlwerkzeug**. Klicken Sie auf das Objekt und ziehen Sie es an den gewünschten Ort. Damit können
     Sie falsch platzierte Objekte korrigieren.
@@ -181,7 +181,7 @@ Betrachten Sie Ihre Änderungen auf der Karte
 Ausblick
 --------
 Sie wissen jetzt, wie Sie Beiträge zu OpenStreetMap leisten können. Wie geht es weiter? Eine Karte zu
-Bearbeiten ist zwar schön, aber zum Erstellen einer Karte gehört natürlich noch mehr. Sie müssen natürlich
+bearbeiten ist zwar schön, aber zum Erstellen einer Karte gehört natürlich noch mehr. Sie müssen natürlich
 noch lernen, wie Sie in der realen Natur Informationen über die verschiedenen Objekte sammeln können.
 
 In den nächsten Abschnitten zeigen wir Ihnen zwei Methoden dazu - GPS und Field Papers,
@@ -205,6 +205,6 @@ Unter diesen Links erfahren Sie mehr über:
 [JOSM select tool]: /images/beginner/josm_select-tool.png
 [JOSM area downloaded]: /images/beginner/josm_area-downloaded.png
 [JOSM Upload Button]: /images/beginner/josm_upload-button.png
-[JOSM Upload Dialog]: /images/beginner/josm_upload-dialog.png
-[JOSM Authenticate]: /images/beginner/josm_authenticate.png
+[JOSM Upload Dialog]: /images/de/beginner/josm_upload-dialog.png
+[JOSM Authenticate]: /images/de/beginner/josm_authenticate.png
 
