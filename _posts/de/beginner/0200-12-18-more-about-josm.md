@@ -143,7 +143,8 @@ durchgeführt haben, hochzuladen. Dazu müssen wir mit dem Internet verbunden se
 
 -  Es erscheint ein Fenster, das eine Liste der Objekte enthält, die Sie hinzugefügt haben, sowie eine
     Liste der Objekte, die Sie geändert oder gelöscht haben. Darunter können Sie einen Kommentar über Ihre
-    Änderungen eintragen. Sie sollten hier eine kurze aber aussagekräftige Beschreibung geben.
+    Änderungen eintragen. Sie sollten hier eine kurze aber aussagekräftige Beschreibung geben - möglichst auf
+    Englisch, da es sich um ein internationales Projekt handelt.
 
 ![JOSM Upload Dialog][]
 
