@@ -2,19 +2,18 @@
 layout: doc
 permalink: /de/coordination/
 lang: de
-title: Coordination
+title: Koordination
 category: coordination
 cover: yes
 nosearch: true
 
 ---
 
-Coordination
+Koordination
 ============
 
-Because OpenStreetMap involves many people mapping together, it's
-useful to know how mappers can coordinate this activity.
+Da bei OpenStreetMap viele Menschen zusammen an der Karte arbeiten,
+ist es wichtig zu wissen, wie wir unsere Aktivitäten koordinieren können.
 
-This section of learnOSM provides information on various tools
-used for coordinating mapping activities, means of communication,
-and quality assurance.
+Dieser Abschnitt von LearnOSM enthält Informationen über die verschiedenen Werkzeuge,
+Kommunikationswege und Techniken zur Qualitätssicherung, die uns dabei unterstützen.
