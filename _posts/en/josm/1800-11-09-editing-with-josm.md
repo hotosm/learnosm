@@ -1,16 +1,15 @@
 ---
 layout: doc
 title: Editing Field Data
-permalink: /en/beginner/editing-with-josm/
+permalink: /en/josm/editing-with-josm/
 lang: en
-category: beginner
+category: josm
 ---
 
 Editing Field Data
 ==================
 We've now covered all the building blocks of mapping with OpenStreetMap.
-We've learned how to use GPS and Field Papers to survey an area, and how 
-we can use JOSM to edit the points, lines, and shapes that make up our map.
+We've learned how to use JOSM to edit the points, lines, and shapes that make up our map.
 
 In this chapter we'll return once again to JOSM and look at a couple of new
 concepts which we have not covered thus far.
@@ -75,8 +74,7 @@ are often called "base layers." The OSM data layer is the layer that you actuall
 
 Using GPS Data and Field Papers
 -------------------------------
-In the previous chapters we saw how to collect data with a GPS
-and Field Papers, and how to load it into JOSM as a layer.
+In the Mobile Mapping chapter you can see how to collect data with a GPS, a mobile phone and Field Papers, and how to load it into JOSM as a layer.
 
 Once you have surveyed with one of these tools, you still need
 to add the information into OpenStreetMap digitally.
@@ -193,7 +191,7 @@ Moving Forward
 
 Click on the link for further reading on:  
 
-*  [Learning Beyond the Beginner Guide](/en/beginner/moving-forward/)
+*  [Learning Beyond the Beginner Guide](/en/josm/josm-plugins)
 
 [Layers panel]: /images/beginner/josm_layers-panel.png
 [Layers up down]: /images/beginner/josm_layers-panel-up-down.png
