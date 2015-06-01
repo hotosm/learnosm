@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: JOSM Tools
-permalink: /en/editing/josm-tools/
+permalink: /en/JOSM/josm-tools/
 lang: en
-category: editing
+category: JOSM
 ---
 
 JOSM Editing Tools
