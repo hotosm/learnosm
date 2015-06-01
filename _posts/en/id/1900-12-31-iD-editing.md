@@ -1,9 +1,9 @@
 ---
 layout: doc
-permalink: /en/iD/
+permalink: /en/id/
 lang: en
 title: Editing with iD
-category: iD
+category: id
 cover: yes
 nosearch: true
 

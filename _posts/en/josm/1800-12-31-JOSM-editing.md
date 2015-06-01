@@ -1,9 +1,9 @@
 ---
 layout: doc
-permalink: /en/JOSM/
+permalink: /en/josm/
 lang: en
 title: Editing with JOSM
-category: JOSM
+category: josm
 cover: yes
 nosearch: true
 
