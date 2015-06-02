@@ -27,7 +27,7 @@ Eines solcher Projekte ist MapOSMatic: [maposmatic.org](http://www.maposmatic.or
 Learn More
 ----------
 
-Es gibt sehr viele Informationen über OpenStreetMap auf [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Hier kann man Informationen über andere Projekte, Dokumente und Anleitungen finden, welche sich ebenfalls mit OpenStreetMap befassen.
+Es gibt sehr viele Informationen über OpenStreetMap auf [wiki.openstreetmap.org](http://wiki.openstreetmap.org/wiki/DE:Hauptseite). Hier kann man Informationen über andere Projekte, Dokumente und Anleitungen finden, welche sich ebenfalls mit OpenStreetMap befassen.
 
 
 Mailing-Liste
@@ -40,7 +40,7 @@ Der beste Weg um mit der OpenStreetMap-Nutzer-Community verbunden zu bleiben, is
 -   Klicke auf die Liste, die du abonnieren möchtest.
 -   Nun musst du die folgenden Informationen eingeben:
     -   Deine E-Mail-Adresse
-    -   Deinen Vornamen
+    -   Einen Namen (optional)
     -   Ein neues Passwort
     -   Wiederholung des Passwortes
     -   Die bevorzugte Sprache (ist auf deutsch voreingestellt)
