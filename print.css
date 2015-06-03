@@ -1,0 +1,20 @@
+html {
+    height: inherit;
+}
+.doc-nav,
+#banner-top,
+#footer,
+.feedback,
+.banner {
+    display: none;
+}
+.doc-main {
+    width: 96%;
+    margin: 1%;
+}
+.logo:before {
+    content: "LearnOSM";
+}
+#header span {
+    display: inline-block;
+}

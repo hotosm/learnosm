@@ -1,0 +1,11 @@
+# Public Domain - CC0
+
+To the extent possible under law, http://learnosm.org has waived all copyright and related or neighboring rights to LearnOSM guides. This work is published from: United States.
+
+Images used within the learnosm guides may be assumed to be public domain too, but with some exceptions:
+
+Map images are using map data from OpenStreetMap which is ODbL licensed: http://opendatacommons.org/licenses/odbl/ Such images are CC-BY-SA2.0 licensed: https://creativecommons.org/licenses/by-sa/2.0/ Thanks to the openstreetmap community!
+
+Where map images e.g. mapping sketches, do *not* feature OpenStreetMap data, these public domain
+
+If screenshots of software interfaces are considered a derivative work of the software itself, then such images are open licensed with the whatever license the software uses (all featured software is open licensed) In particular we have a lot of screenshots of JOSM which is GPL licensed: https://josm.openstreetmap.de/browser/trunk/LICENSE In any case the *design* of software interfaces may not be assumed to be publice domain. Please consult the relevant software license.

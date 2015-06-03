@@ -1,0 +1,9 @@
+*.swp
+.*.swp
+*.*~
+*.mo
+_build/
+_site/
+.DS_Store
+serve/
+jekyll_*log.txt
