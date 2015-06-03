@@ -1,4 +1,0 @@
-{
-  "label"    : "{{ post.title }}",
-  "url"     : "{{ post.url }}"
-}

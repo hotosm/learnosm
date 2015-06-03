@@ -1,1 +1,0 @@
-# Nick-Tallguy.github.io
