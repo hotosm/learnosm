@@ -243,13 +243,13 @@ dan juga mengenai bagaimana menggunakan tools atau alat dasar dalam
 menggambar peta. Pada bab selanjutnya, Anda akan melihat lebih dekat 
 bagaimana proses mengedit peta OSM di JOSM.
 
-[JOSM website]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image00_josm-website.png
-[Windows installer]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image01_windows-installer.png
-[JOSM splash page]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image02_josm-splash-page.png
-[Preferences window]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image03_preferences-window.png
-[Look and feel]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image04_look-and-feel.png
-[Open file]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image05_open-file.png
-[Sample file]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image06_sample-file.png
-[Scale bar]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image07_scale-bar.png
-[Select tool]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image08_select-tool.png
-[Draw tool]: /images/bi/beginner/03_start-josm/bi_beg_03_start-josm_image09_draw-tool.png
+[JOSM website]: /images/beginner/josm-website.png
+[Windows installer]: /images/beginner/windows-installer.png
+[JOSM splash page]: /images/beginner/josm-splash-page.png
+[Preferences window]: /images/beginner/josm_preferences.png
+[Look and feel]: /images/beginner/josm_look-and-feel.png
+[Open file]: /images/beginner/josm_open-file.png
+[Sample file]: /images/beginner/josm_sample-file.png
+[Scale bar]: /images/beginner/josm_scale-bar.png
+[Select tool]: /images/beginner/josm_select-tool.png
+[Draw tool]: /images/beginner/josm_draw-tool.png
