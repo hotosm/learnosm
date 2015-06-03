@@ -32,10 +32,14 @@ JOSM Herunterladen
 - Du kannst die Seite auch finden, indem du einfach nach "JOSM" suchst.
 - Die Webseite sollte dann in etwa so aussehen:
 
-  ![]({{site.baseurl}}/images/start_josm_image05_de.png)
+  ![JOSM website][]
 
 - Falls du Windows auf deinem Computer installiert hast, klicke auf 
-  "Windows Installer", um JOSM herunterzuladen. Wenn du ein anderes 
+  "Windows Installer", um JOSM herunterzuladen. 
+
+  ![Windows installer][]
+
+Wenn du ein anderes 
   Betriebssystem benutzt, klicke auf den entsprechenden Link für dein 
   System. Die Datei sollte dann automatisch heruntergeladen werden. In 
   diesem Kapitel werden wir davon ausgehen, dass du Windows benutzt, 
@@ -62,7 +66,7 @@ JOSM Installieren
   im unteren Teil des Fensters.
 - Wenn JOSM gestartet ist, wird es in etwa so aussehen:
 
-  ![]({{site.baseurl}}/images/start_josm_image08_de.png)
+  ![JOSM splash page][]
 
 JOSM Einstellungen ändern
 -------------------------
@@ -71,7 +75,7 @@ Bevor wir Anfangen, JOSM zu benutzen, ist es sinnvoll ein paar
 Einstellungen zu ändern, damit es einfacher zu benutzen wird. Klicke 
 dafür im oberen Menu auf "Bearbeiten" und anschließend auf "Einstellungen".
 
-![]({{site.baseurl}}/images/start_josm_image13_de.png)
+  ![Preferences window][]
 
 ### Bing Sat hinzufügen
 
@@ -82,13 +86,13 @@ dafür im oberen Menu auf "Bearbeiten" und anschließend auf "Einstellungen".
   beschriftet ist. Möglicherweise musst du auf den Pfeil nach unten 
   klicken, um das Symbol zu finden:
   
-  ![]({{site.baseurl}}/images/start_josm_image07_en.png)
+  ![WMS_TMS][]
   
-  ![]({{site.baseurl}}/images/start_josm_image02_en.png)
+  ![josm down][]
 
 - Klicke nun auf on "Bing Sat". Dann klicke auf "Aktivieren".
 
-  ![]({{site.baseurl}}/images/start_josm_image11_en.png)
+  ![JOSM_TMS][]
 
 - Nun sollte "Bing Sat" in der Liste unter der Aktivieren-Schaltfläche 
   erschienen sein.
@@ -104,7 +108,7 @@ dafür im oberen Menu auf "Bearbeiten" und anschließend auf "Einstellungen".
 - Klicke nun auf der linken Seite auf das Symbol, welches wie ein Raster 
   aussieht:
 
-  ![]({{site.baseurl}}/images/start_josm_image09_en.png)
+  ![josm grid][]
 
 - Klicke in der oberen Leiste nun auf den Reiter "Objektvorlagen".
 - Klicke die "+" Schaltfläche oben rechts.
@@ -113,21 +117,21 @@ dafür im oberen Menu auf "Bearbeiten" und anschließend auf "Einstellungen".
   Beispiel buildings.xml.
 - Klicke OK.
 
-### Walking Papers Erweiterung hinzufügen
+### Field Papers Erweiterung hinzufügen
 
-- Später werden wir in dieser Anleitung etwas über das Walking Papers 
+- Später werden wir in dieser Anleitung etwas über das Field Papers 
   Werkzeug erfahren, welches uns erlaubt, einen Kartenausschnitt 
   auszudrucken, darauf zu zeichnen und Notizen zu machen und es 
   anschließend in JOSM als Hintergrund zu laden. Dann können wir unsere 
   Zeichnungen und Notizen in OpenStreetMap hinzufügen. Nun werden wir 
-  zunächst die Walking Papers Erweiterung zu JOSM hinzufügen.
+  zunächst die Field Papers Erweiterung zu JOSM hinzufügen.
 - Solltest du das Einstellungen-Fenster nicht mehr geöffnet haben, 
   klicke erneut auf "Bearbeiten" und anschließend auf "Einstellungen" 
   um das Fenster erneut zu öffnen.
 - Klicke nun auf der linken Seite auf das Symbol, welches wie ein 
   Stecker aussieht:
 
-  ![]({{site.baseurl}}/images/start_josm_image04_en.png)
+![josm plug][]
 
 - Klicke nun auf die Schaltfläche "Liste herunterladen". Nun wird eine 
   Liste mit optionalen Erweiterungen aus dem Internet geladen, welche 
@@ -154,7 +158,7 @@ dafür im oberen Menu auf "Bearbeiten" und anschließend auf "Einstellungen".
 - Wähle deine Sprache im Auswahlfeld neben dem Wort "Sprache".
 - Klicke OK.
   
-  ![]({{site.baseurl}}/images/start_josm_image01_de.png)
+  ![prefer speech][]
 
 - Du musst den JOSM Editor neu starten, damit diese Einstellung 
   gespeichert wird. Klicke dazu auf das Menü "Datei" in der linken 
@@ -180,13 +184,13 @@ Einführung in das Zeichnen mit JOSM
 - Öffne die Datei jetzt in JOSM. Öffne JOSM, klicke dann auf die 
   "Öffnen" Schaltfläche links oben. Die Schaltfläche sieht so aus:
 
-  ![]({{site.baseurl}}/images/start_josm_image12_en.png)
+![josm-blue-folder][]
 
 - Suche die Datei sample.osm, klicke sie mit der linken Maustaste an
   und dann klicke auf die Schaltfläche "Öffnen".
 - Du solltest jetzt die Beispielkarte sehen, die wie folgt aussieht:
 
-  ![]({{site.baseurl}}/images/start_josm_image03_de.png)
+  ![Sample file][]
 
 ### Grundlegende Steuerung
 
@@ -201,7 +205,7 @@ Einführung in das Zeichnen mit JOSM
   Maustaste gedrückt und bewege deine Maus nach links oder rechts.
   Die Zoomleiste sieht folgendermaßen aus:
 
-  ![]({{site.baseurl}}/images/start_josm_image14_de.png)
+  ![Scale bar][]
 
 - Sieh dir die Beispielkarte an, es gibt dort verschiedene Objekte. Es
   gibt einen Fluss, einen Wald, einige Gebäude, einige Straßen sowie
@@ -214,7 +218,7 @@ Einführung in das Zeichnen mit JOSM
   es dort verschiedene Arten von Objekten gibt: Punkte, Linien und 
   Grundrisse.
 
-  ![]({{site.baseurl}}/images/start_josm_image15_de.png)
+  ![Line point area][]
 
 - Punkte sind ein eizelner Ort dargestellt mit einem Symbol. Auf der 
   Beispielkarte gibt es zwei Punkte, ein Modegeschäft und einen Markt.
@@ -238,7 +242,7 @@ Einführung in das Zeichnen mit JOSM
   diese Eigenschaften die Punkte auf der Beispielkarte nach Wald,
   Fluss und Gebäude kategorisieren.
 
-  ![]({{site.baseurl}}/images/start_josm_image16_de.png)
+  ![josm tags][]
 
 - Stelle dir vor du zeichnest eine Karte von Hand, wie würdest du 
   Punkte, Linien und Grundrisse darstellen? Welche anderen Orte
@@ -275,7 +279,7 @@ Einführung in das Zeichnen mit JOSM
 - Bisher hast du nur das Auswählen-Werkzeug benutzt, welches wie
   folgt aussieht:
 
-  ![]({{site.baseurl}}/images/start_josm_image00_en.png)
+  ![Select tool][]
 
 - Bevor du mit dem Zeichnen anfängst stelle sicher, dass kein Objekt
   auf der Karte markiert ist. Klicke dazu einfach auf die schwarze
@@ -283,7 +287,7 @@ Einführung in das Zeichnen mit JOSM
 - Klicke auf die zweite Schaltfläche, mit der du das 
   Zeichnen-Werkzeug aktivierst:
 
-  ![]({{site.baseurl}}/images/start_josm_image10_en.png)
+  ![Draw tool][]
 
 - Navigiere zu einer leeren Stelle auf der Karte und klicke doppelt
   mit deiner Maus. Damit erstellst du einen einzelnen Punkt.
@@ -302,7 +306,7 @@ Einführung in das Zeichnen mit JOSM
   Gebäuden und anderen Objekten in der echten Welt machen.
 - Aktiviere das Auswählen-Werkzeug in der Spalte auf der linken Seite.
 
-  ![]({{site.baseurl}}/images/start_josm_image00_en.png)
+  ![Select tool][]
 
 - Wähle ein Objekt aus, das du soeben mit dem Zeichnen-Werkzeug 
   erstellt hast. Klicke im Menü oben im Programm auf "Vorlagen",
@@ -337,7 +341,7 @@ Zusammenfassung
 Hervorragend! Wenn alles gut gegangen ist hast du jetzt gelernt, wie 
 du den JOSM Editor auf deinem Computer installierst, und, wie du die 
 Werkzeuge benutzt um Karten zu zeichnen. In den nächsten beiden 
-Kapiteln wirst du den Umgang mit GPS-Geräten und "Walking papers" lernen, 
+Kapiteln wirst du den Umgang mit GPS-Geräten und "Field papers" lernen, 
 was dir helfen wird, deinen Wohnort zu kartieren. In Kapitel 6 kehren wir 
 zu JOSM zurück und benutzen die gesammelten Informationen, um Objekte
 auf OpenStreetMap einzutragen.
@@ -349,3 +353,22 @@ Unter diesen Links gibt es nähere Informationen zu:
 
 *  [Ablauf des Editierens mit JOSM](/de/beginner/more-about-josm/)  
 *  [Arbeiten mit Satellitenbildern (derzeit nur auf Englisch verfügbar)](/en/coordination/remote/)  
+
+[JOSM website]: /images/beginner/josm-website.png
+[Windows installer]: /images/beginner/windows-installer.png
+[JOSM splash page]: /images/beginner/josm-splash-page.de.png
+[Preferences window]: /images/beginner/josm_preferences.de.png
+[josm down]: /images/beginner/josm_down.png
+[WMS_TMS]: /images/beginner/josm_preferences-wms-tms.png
+[JOSM_TMS]: /images/beginner/josm_imagery.png
+[josm grid]: /images/beginner/josm_grid.png
+[josm plug]: /images/beginner/josm-plug-icon.png
+[prefer speech]: /images/beginner/start_josm_image01_de.png
+[josm-blue-folder]: /images/beginner/josm-blue-folder.png
+[Sample file]: /images/beginner/josm_sample-file.de.png
+[Scale bar]: /images/beginner/josm_scale-bar.png
+[Line point area]: /images/beginner/start_josm_image15.de.png
+[josm tags]: /images/beginner/josm_tags.de.png
+[Select tool]: /images/beginner/josm_select-tool.png
+[Draw tool]: /images/beginner/josm_draw-tool.png
+
