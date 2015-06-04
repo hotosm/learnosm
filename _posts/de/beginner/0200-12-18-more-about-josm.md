@@ -194,7 +194,7 @@ Nächste Schritte
 Unter diesen Links erfahren Sie mehr über:  
  
 *  [Kartierung mit GPS](/de/beginner/using-gps/)  
-*  [Field Papers (derzeit nur auf Englisch verfügbar)](/en/beginner/field-papers/)
+*  [Field Papers](/de/beginner/field-papers/)
 *  [Editieren mit JOSM](/de/beginner/editing-with-josm/) 
 
 
