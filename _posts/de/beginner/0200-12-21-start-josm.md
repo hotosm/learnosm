@@ -136,10 +136,10 @@ dafür im oberen Menu auf "Bearbeiten" und anschließend auf "Einstellungen".
 - Klicke nun auf die Schaltfläche "Liste herunterladen". Nun wird eine 
   Liste mit optionalen Erweiterungen aus dem Internet geladen, welche 
   nach kurzer Zeit erscheint.
-- Gebe nun in der Suchleiste im oberen Teil des Fensters "walking" ein. 
+- Gebe nun in der Suchleiste im oberen Teil des Fensters "field" ein. 
   Daraufhin werden nur noch die Elemente der Liste angezeigt, welche 
-  das Wort "walking" im Titel haben.
-- Klicke nun in das Auswahlkästchen neben der walkingpapers Erweiterung 
+  das Wort "field" im Titel haben.
+- Klicke nun in das Auswahlkästchen neben der fieldgpapers-Erweiterung 
   und klicke OK im unteren Teil des Fensters.
 - Die Erweiterung wird nun heruntergeladen und installiert. Klicke 
   nicht auf "Abbrechen".
