@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Utiliser l'imagerie aérienne
-permalink: /fr/beginner/aerial-imagery/
+permalink: /fr/editing/aerial-imagery/
 lang: fr
-category: beginner
+category: editing
 otherguides: "Les autres niveaux"
 ---
 
