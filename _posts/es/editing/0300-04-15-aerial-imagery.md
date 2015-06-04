@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Usando fotografías aéreas.
-permalink: /es/beginner/aerial-imagery/
+permalink: /es/editing/aerial-imagery/
 lang: es
-category: beginner
+category: editing
 ---
 
 Usando Fotografías Aéreas
