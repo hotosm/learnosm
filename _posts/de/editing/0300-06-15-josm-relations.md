@@ -123,10 +123,9 @@ So wird eine Relation für eine Buslinie in JOSM angelegt:
 -   Einige Eigenschaftern sind schon vordefiniert, um die Relation als Route auszuweisen. Statt
     *type=multipolygon* haben wir *type=route*. Es gibt auch eine Eigenschaft, die die Route
     als Buslinie kennzeichnet im Gegensatz zu anderen Arten von Routen.
--   Jetzt fragen Sie sich vielleicht, welche **role** soll ich den Mitgliedern zuweisen? Nun, für eine Route
-    müssen wir keine Rollen der Mitglieder vergeben. Wir lassen das Feld leer und die Software behandelt sie
-    einfach als Teil der Route. Wir könnten auch jedem Segment die Rolle
-    **route** zuweisen, das ist aber nicht erforderlich.
+-   Jetzt fragen Sie sich vielleicht, welche **Rolle** soll ich den Mitgliedern zuweisen? Nun, für die Straßensegmente
+    einer Route müssen wir keine Rollen der Mitglieder vergeben. Wir lassen das Feld leer und die Software 
+    behandelt sie einfach als Teil der Route.
 -   Klicken Sie auf OK und Ihre Routenrelation ist fertig!
 
 >   Wenn Sie eine Aufstellung aller Relationen auf der Karte sehen möchten, öffnen Sie das Relationenfenster
