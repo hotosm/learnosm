@@ -136,7 +136,7 @@ So wird eine Relation für eine Buslinie in JOSM angelegt:
 Zusammenfassung
 ----------------
 
-Relationen sind nicht ganz einfach zu überblicken und man wird sie nicht oft brauchen,
+Relationen sind nicht ganz einfach zu überblicken und man wird sie nicht oft brauchen.
 Es ist aber wichtig, sich mit ihnen vertraut zu machen. Von Zeit zu Zeit werden Sie feststellen, dass Sie
 eine Relation brauchen, um ein Objekt korrekt in der Datenbank abzubilden. Dann brauchen Sie das gerade
 erworbene Wissen und die weiteren Informationen, die Sie im OSM Wiki finden.
