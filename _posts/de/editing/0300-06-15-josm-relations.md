@@ -43,21 +43,21 @@ Wir wollen eine Relation erzeugen ähnlich wie die, die wir oben gesehen haben.
 -   Zeichnen Sie zuerst die Linienzüge. Wir brauchen drei Polygone, ein äußeres Rechteck und zwei kleinere
     Rechtecke.
 
-![Multipolygon ways][]
+    ![Multipolygon ways][]
 
 -   Selektieren Sie alle Polygone. Dazu halten Sie beim Anklicken der Objekte die Umschalttaste gedrückt.
 -   Wählen Sie aus dem Menü *Vorlagen->Zivilisationsbauten->Zivilisationsbauten->Gebäude*.
 
-![Building preset][]
+    ![Building preset][]
 
 -   Klicken Sie auf "Neue Relation."
 
-![New relation][]
+    ![New relation][]
 
 -   Sie sollten jetzt das Relationsfenster sehen. Das ist ein bisschen unübersichtlich
     und sie werden jetzt Eigenschaften an eine Gruppe von Linienzügen zuweisen.
 
-![Building relation][]
+    ![Building relation][]
 
 -   Beachten Sie, dass sich im oberen Teil des Fensters die Eigenschaften für die ganze Relation befinden. 
     Diese Eigenschaften definieren die Relation genauer - ebenso wie die Eigenschaften für Punkte oder Linien.
@@ -69,7 +69,7 @@ Wir wollen eine Relation erzeugen ähnlich wie die, die wir oben gesehen haben.
     Die neue Eigenschaft heißt *type=multipolygon*.
 -   Klicken Sie in das Eigenschafts-Feld und fügen Sie sie hinzu.
 
-![Type multipolygon][]
+    ![Type multipolygon][]
 
 -   Als nächstes müssen wir uns um die sogenannten **Rollen** kümmern. Jedes Mitglied einer Relation
     hat eine Rolle, die angibt, wozu das Mitglied dient. In unserem Fall müssen wir
@@ -80,11 +80,11 @@ Wir wollen eine Relation erzeugen ähnlich wie die, die wir oben gesehen haben.
     wird außerdem im Kartenfenster hervorgehoben. Setzen Sie jeweils **outer** und
     **inner** für die entsprechenden Polygone.
 
-![Outer or inner role][]
+    ![Outer or inner role][]
 
 -   Klicken Sie auf OK und Ihre Multipolygon-Relation ist fertig!
 
-![New multipolygon][]
+    ![New multipolygon][]
 
 Auf einer Karte sieht das dann etwa so aus:
 
@@ -112,13 +112,13 @@ So wird eine Relation für eine Buslinie in JOSM angelegt:
 -   Wenn Sie alle Segmente selektiert haben, wählen Sie in der Menüleiste *Vorlagen->Transport->öffentlicher Verkehr->
     öffentliche Verkehrsroute*.
 
-![Public transport preset][]
+    ![Public transport preset][]
 
 -   Wählen Sie als Routentyp "Bus" aus.
 -   Klicken Sie auf "Neue Relation". Es erscheint wieder das Relationsfenster, genau wie bei der
     Erstellung eines Multipolygons.
 
-![Bus route relation][]
+    ![Bus route relation][]
 
 -   Einige Eigenschaftern sind schon vordefiniert, um die Relation als Route auszuweisen. Statt
     *type=multipolygon* haben wir *type=route*. Es gibt auch eine Eigenschaft, die die Route
