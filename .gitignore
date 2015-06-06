@@ -1,7 +1,12 @@
+CNAME
+.gitignore
 *.swp
 .*.swp
 *.*~
 *.mo
+_posts/en/JOSM/Submitting bugs or ideas
+_posts/en/editing/Submitting bugs or ideas
+_posts/en/josm/Submitting bugs or ideas
 _build/
 _site/
 .DS_Store
