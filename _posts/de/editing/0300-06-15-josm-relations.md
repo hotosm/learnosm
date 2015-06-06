@@ -54,8 +54,8 @@ Wir wollen eine Relation erzeugen ähnlich wie die, die wir oben gesehen haben.
 
     ![New relation][]
 
--   Sie sollten jetzt das Relationsfenster sehen. Das ist ein bisschen unübersichtlich
-    und sie werden jetzt Eigenschaften an eine Gruppe von Linienzügen zuweisen.
+-   Sie sollten jetzt das Relationsfenster sehen. Das ist ein bisschen unübersichtlich weil Sie ja
+    Eigenschaften an eine ganze Gruppe von Linienzügen zuweisen müssen.
 
     ![Building relation][]
 
