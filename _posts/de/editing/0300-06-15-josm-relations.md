@@ -14,9 +14,9 @@ This section of LearnOSM is in the process of being translated. If you would lik
 
 ---
 
-Im [Leitfaden für Anfänger](de/beginner) haben wir Ihnen erläutert, dass OpenStreetMap drei Arten von Objekten kennt: Punkte (Knoten), Linien (und Linienzüge) und Polygone (geschlossene Linienzüge). Linien können viele Punkte enthalten und die ihr zugewiesenen Eigenschaften beschreiben, wofür die Linie steht. Polygone sind Linienzüge, bei denen die letzte Line dort endet, wo die erste beginnt.
+Im [Leitfaden für Anfänger](de/beginner) haben wir Ihnen erläutert, dass OpenStreetMap drei Arten von Objekten kennt: Punkte (Knoten), Linien (und Linienzüge) und Polygone (geschlossene Linienzüge). Linien können viele Punkte enthalten und die ihr zugewiesenen Eigenschaften beschreiben, wofür die Linie steht. Polygone sind Linienzüge, bei denen die letzte Linie dort endet, wo die erste beginnt.
 
-Genau genommen stimmt das nicht ganz denn es gibt noch einen Objekttyp in OpenStreetMap, die Relation. Genauso wie
+Genau genommen stimmt das nicht ganz, denn es gibt noch einen Objekttyp in OpenStreetMap, die Relation. Genauso wie
 eine Linie aus Punkten besteht, enthält eine Relation andere Objekte. Das können Punkte, Linien oder Polygone sein.
 Wenn Sie tiefer in das Editieren der Daten einsteigen wollen, ist ein genaueres Verständnis der Handhabung von
 Relationen unabdingbar.
