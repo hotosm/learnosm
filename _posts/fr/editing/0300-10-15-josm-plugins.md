@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Greffons JOSM
-permalink: /fr/beginner/josm-plugins/
+permalink: /fr/editing/josm-plugins/
 lang: fr
-category: beginner
+category: editing
 otherguides: "Les autres niveaux"
 ---
 
