@@ -40,7 +40,7 @@ Erzeugen von Multipolygon-Relationen
 
 Wir wollen eine Relation erzeugen ähnlich wie die, die wir oben gesehen haben.
 
--   Zeichnen Sie zuerst die Linienzügen. Wir brauchen drei Polygone, ein äußeres Rechteck und zwei kleinere
+-   Zeichnen Sie zuerst die Linienzüge. Wir brauchen drei Polygone, ein äußeres Rechteck und zwei kleinere
     Rechtecke.
 
 ![Multipolygon ways][]
