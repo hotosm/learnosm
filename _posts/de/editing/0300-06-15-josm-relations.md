@@ -104,43 +104,43 @@ Eine Routenrelation kann auch noch mehr enthalten, etwa Bushaltestellen.
 
 ![Route relation][]
 
-Let's see how to create a relation for a bus route in JOSM:
+So wird eine Relation für eine Buslinie in JOSM angelegt:
 
--   First, select all of the ways which the route runs along. You may need to
-    split some streets into separate segments if only part of them belong to
-    the relation. You can do this using the "Split Way" tool.
--   When all the segments are selected, go to *Presets->Transport->Public Transport->
-    Public transport route*.
+-   Selektieren Sie zuerst alle Linien, entlang derer die Route verläuft. Sie müssen dazu vielleicht
+    einige Straßen in getrennte Segmente aufteilen, wenn nur ein Teil der Straße zur Buslinie gehört. 
+    Verwenden Sie dazu das Werkzeug "Linie aufspalten".
+-   Wenn Sie alle Segmente selektiert haben, wählen Sie in der Menüleiste *Vorlagen->Transport->öffentlicher Verkehr->
+    öffentliche Verkehrsroute*.
 
 ![Public transport preset][]
 
--   Next to Route type, select "bus."
--   Click "New Relation." You will see the relation window pop up, just as when
-    you create a multipolygon.
+-   Wählen Sie als Routentyp "Bus" aus.
+-   Klicken Sie auf "Neue Relation". Es erscheint wieder das Relationsfenster, genau wie bei der
+    Erstellung eines Multipolygons.
 
 ![Bus route relation][]
 
--   Notice that there are already tags which define the relation as a route. Instead
-    of *type=multipolygon*, we have *type=route*. We also have a tag defining it as
-    a bus route, as opposed to another type of route.
--   You may now think, what should the **role** of the members be? Well, in the case
-    of a route, we don't need to define the role of the members. By leaving the role blank
-    the software knows that they are simply part of the route. We could also define the role
-    of each segment as **route**, but it is not necessary.
--   Click OK and your route relation will be complete!
+-   Einige Eigenschaftern sind schon vordefiniert, um die Relation als Route auszuweisen. Statt
+    *type=multipolygon* haben wir *type=route*. Es gibt auch eine Eigenschaft, die die Route
+    als Buslinie kennzeichnet im Gegensatz zu anderen Arten von Routen.
+-   Jetzt fragen Sie sich vielleicht, welche **role** soll ich den Mitgliedern zuweisen? Nun, für eine Route
+    müssen wir keine Rollen der Mitglieder vergeben. Wir lassen das Feld leer und die Software behandelt sie
+    einfach als Teil der Route. Wir könnten auch jedem Segment die Rolle
+    **route** zuweisen, das ist aber nicht erforderlich.
+-   Klicken Sie auf OK und Ihre Routenrelation ist fertig!
 
->   If you want a list of all the relations on the map, you can open the relations panel
->   by clicking on this button on the left:
+>   Wenn Sie eine Aufstellung aller Relationen auf der Karte sehen möchten, öffnen Sie das Relationenfenster
+>   indem Sie in der linken Leiste auf dieses Symbol klicken:
 >   ![relation panel button][]
->   This will open a panel where you can select, edit, and create new relations.
+>   Dort können Sie Relationen bearbeiten und neue Relationen anlegen.
 
-Summary
--------
+Zusammenfassung
+----------------
 
-Relations can be difficult to understand and do not need to be used often,
-but they are necessary to know about. Every so often you may realize that you
-need a relation to map something correctly, and you can use this knowledge, and find
-more information on the OSM Wiki, to help you map relations correctly.
+Relationen sind nicht ganz einfach zu überblicken und man wird sie nicht oft brauchen,
+Es ist aber wichtig, sich mit ihnen vertraut zu machen. Von Zeit zu Zeit werden Sie feststellen, dass Sie
+eine Relation brauchen, um ein Objekt korrekt in der Datenbank abzubilden. Dann brauchen Sie das gerade
+erworbene Wissen und die weiteren Informationen, die Sie im OSM Wiki finden.
 
 
 
