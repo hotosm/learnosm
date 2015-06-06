@@ -14,106 +14,93 @@ This section of LearnOSM is in the process of being translated. If you would lik
 
 ---
 
-In the [Beginner’s Guide](/en/beginner) we explained that there are three
-types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and
-polygons (closed ways). Lines contain numerous points, and the line itself carries
-the attributes that define what it represents.  Polygons are the same as
-lines, except that the the line must finish where it begins in order to
-form a shape.
+Im [Leitfaden für Anfänger](de/beginner) haben wir Ihnen erläutert, dass OpenStreetMap drei Arten von Objekten kennt: Punkte (Knoten), Linien (und Linienzüge) und Polygone (geschlossene Linienzüge). Linien können viele Punkte enthalten und die ihr zugewiesenen Eigenschaften beschreiben, wofür die Linie steht. Polygone sind Linienzüge, bei denen die letzte Line dort endet, wo die erste beginnt.
 
-In fact, we lied to you, because there is one other type of object in OpenStreetMap,
-called relations.  In the same way that a line consists of other
-points, a relation contains a group of other objects, be they points,
-lines, or polygons.  If you are looking to advance your editing
-skills, then understanding and knowing how to properly edit relations is
-important.
+Genau genommen stimmt das nicht ganz denn es gibt noch einen Objekttyp in OpenStreetMap, die Relation. Genauso wie
+eine Linie aus Punkten besteht, enthält eine Relation andere Objekte. Das können Punkte, Linien oder Polygone sein.
+Wenn Sie tiefer in das Editieren der Daten einsteigen wollen, ist ein genaueres Verständnis der Handhabung von
+Relationen unabdingbar.
 
-For example, imagine that you want to map a building that has courtyards
-in the center.  You would need to draw a polygon around the outside of
-the building, and you would want other polygons around the courtyards
-to indicate that they are not part of the building.  This is an example
-of a relation.  The relation would contain several polygons - and the
-attributes of the building would be attached to the relation, not the
-polygons.
+Stellen Sie sich beispielsweise vor, Sie wollen ein Gebäude mit Innenhöfen zeichnen. Sie müssen ein Polygon entlang
+der äußeren Kontur des Gebäudes zeichnen, sowie andere Polygone entlang der Innenhöfe, um sie von dem Gebäude
+auszuschließen. Das ist ein Beispiel einer Relation. Eine solche Relation enthält mehrere Polygone und die
+Eigenschaften des Gebäudes werden an die Relation angefügt, nicht an die einzelnen Polygone.
 
 ![An example of a multipolygon][]
 
-Relations are used to represent anything that requires a collection of
-objects to define.  Other examples are bus routes (a collections of
-lines), long and complex objects (rivers or roads), or multiple polygons
-that are all part of one location (like buildings in a university).
+Relationen könne für alles verwendet werden, was durch eine Ansammlung von Objekten dargestellt werden muss.
+Weitere Beispiele dafür sind Buslinien (eine Sammlung von Straßen), lange und komplexe Objekte (Flüsse und Straßen)
+oder mehrere Polygone, die sachlich und räumlich zusammengehören (die Gebäude auf einem Universitätsgelände).
 
-There are mainly four types of relations you will encounter in OSM:
-Multipolygons, Routes, Boundaries, and Restrictions (such as, no left
-turns).  In this section we will cover Multipolygons and Routes.
+Sie werden vorwiegend vier Arten von Relationen in OpenStreetMap sehen: Multipolygone, Routen, Grenzen und
+Beschränkungen (z. B. Abbiegeverbote). Wir werden uns mit Multipolygonen und Routen näher befassen.
 
-Creating Multipolygon Relations
--------------------------------
+Erzeugen von Multipolygon-Relationen
+------------------------------------
 
-Let's see how to create a multipolygon relation like the one shown above.
+Wir wollen eine Relation erzeugen ähnlich wie die, die wir oben gesehen haben.
 
--   First, draw your shapes. In this case we will draw three polygons, an
-    outer rectangle, and two smaller rectangles.
+-   Zeichnen Sie zuerst die Linienzügen. Wir brauchen drei Polygone, ein äußeres Rechteck und zwei kleinere
+    Rechtecke.
 
 ![Multipolygon ways][]
 
--   Select all of the polygons. Remember you can select multiple objects
-    by holding SHIFT and clicking on each.
--   Go to *Presets->Man Made->Man Made->Building*.
+-   Selektieren Sie alle Polygone. Dazu halten Sie beim Anklicken der Objekte die Umschalttaste gedrückt.
+-   Wählen Sie aus dem Menü *Vorlagen->Zivilisationsbauten->Zivilisationsbauten->Gebäude*.
 
 ![Building preset][]
 
--   Click on "New Relation."
+-   Klicken Sie auf "Neue Relation."
 
 ![New relation][]
 
--   You should now see the relations window. This is a little bit complex
-    because now you are adding tags to a collection of ways.
+-   Sie sollten jetzt das Relationsfenster sehen. Das ist ein bisschen unübersichtlich
+    und sie werden jetzt Eigenschaften an eine Gruppe von Linienzügen zuweisen.
 
 ![Building relation][]
 
--   Observe that at the top of the panel are the tags for the relation. These tags
-    work the same way as tags always work.
--   At the bottom is a list of the members of the relation. This relation has
-    three members - that is, the three ways that are part of our relation.
--   We need to do a couple things to finish defining our multipolygon. First,
-    notice that because we used the building preset we already have one tag
-    defined for us, *building=yes*. We need to add one more tag that defines
-    the **type** of the relation. We must add a tag that says *type=multipolygon*.
--   Click in the tag box and add this tag.
+-   Beachten Sie, dass sich im oberen Teil des Fensters die Eigenschaften für die ganze Relation befinden. 
+    Diese Eigenschaften definieren die Relation genauer - ebenso wie die Eigenschaften für Punkte oder Linien.
+-   Darunter sehen Sie eine Liste der Mitglieder der Relation. In unserem Fall sind das drei -
+    eben die drei Linienzüge, mit denen wir die Relation erstellt haben.
+-   Wir müssen jetzt noch ein paar Sachen erledigen, damit unser Multipolygon richtig definiert ist. Da wir
+    die Gebäude-Vorlage verwendet haben, ist bereits eine Eigenschaft vorbelegt, 
+    *building=yes*. Wir brauchen jetzt noch eine weitere, um den **Typ** der Relation festzulegen.
+    Die neue Eigenschaft heißt *type=multipolygon*.
+-   Klicken Sie in das Eigenschafts-Feld und fügen Sie sie hinzu.
 
 ![Type multipolygon][]
 
--   Next we need to define what are called **roles**. Each member of a relation
-    has a role, which indicates what that member's purpose is. In this case, the
-    role of the outside polygon must be defined as **outer** and the role of the
-    two inner polygons must be defined as **inner**. These are the roles that are
-    available for members of a multipolygon.
--   In the lower left panel select each member in the list. You can see the member
-    that is selected will be highlighted in the map window. Enter **outer** and
-    **inner** for the correct polygons.
+-   Als nächstes müssen wir uns um die sogenannten **Rollen** kümmern. Jedes Mitglied einer Relation
+    hat eine Rolle, die angibt, wozu das Mitglied dient. In unserem Fall müssen wir
+    die Rolle des äußeren Polygons als **outer** und die Rollen der zwei inneren Polygone als
+    **inner** festlegen. Dies sind die einzigen Rollen,
+    die für die Mitglieder eines Multipolygons erlaubt sind.
+-   Wählen Sie unten links der Reihe nach alle Mitglieder der Liste aus. Das ausgewählte Mitglied
+    wird außerdem im Kartenfenster hervorgehoben. Setzen Sie jeweils **outer** und
+    **inner** für die entsprechenden Polygone.
 
 ![Outer or inner role][]
 
--   Click OK and your multipolygon relation is complete!
+-   Klicken Sie auf OK und Ihre Multipolygon-Relation ist fertig!
 
 ![New multipolygon][]
 
-When you create a multipolygon like this it will be rendered on the map like so:
+Auf einer Karte sieht das dann etwa so aus:
 
 ![Multipolygon in Mapnik][]
 
-Multipolygons can be used for any complex object that requires inner and outer polygons, like
-a building or a river with patches of land inside it. Detailed multipolygon information can be
-found on the [OSM Wiki](http://wiki.openstreetmap.org/wiki/Relation:multipolygon).
+Multipolygone können für jedes komplexe Objekt verwendet werden, das innere und äußere Polygone benötigt, z.B.
+ein Gebäude oder ein Fluß mit Inseln in der Mitte. Weitere Informationen zu diesem Thema finden Sie
+im [OSM Wiki](http://wiki.openstreetmap.org/wiki/DE:Relation:multipolygon).
 
-Route Relations
-----------------
+Routen-Relationen
+-----------------
 
-Relations are also very useful for representing long routes. For example, a bus
-or bicycle route follows various road segments. To define such a route, we can
-create a relation which contains all of the road segments that are part of the route.
-Additional features, such as bus stops can also be members of a route relation.
+Relationen sind auch nützlich, um lange Routen darzustellen. Z. B. eine Buslinie oder eine
+Fahrradroute, die verschiedenen Straßenabschnitten folgen. Um eine solche Route festzulegen, können wir
+eine Relation erzeugen, die alle diese Straßenabschnitte enthält.
+Eine Routenrelation kann auch noch mehr enthalten, etwa Bushaltestellen.
 
 ![Route relation][]
 
