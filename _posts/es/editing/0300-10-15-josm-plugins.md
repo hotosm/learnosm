@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Complementos de JOSM
-permalink: /es/beginner/josm-plugins/
+permalink: /es/editing/josm-plugins/
 lang: es
-category: beginner
+category: editing
 ---
 
 Complementos de JOSM y Opciones
