@@ -10,10 +10,6 @@ Relations
 ==========
 
 
-This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
-
----
-
 Im [Leitfaden für Anfänger](de/beginner) haben wir Ihnen erläutert, dass OpenStreetMap drei Arten von Objekten kennt: Punkte (Knoten), Linien (und Linienzüge) und Polygone (geschlossene Linienzüge). Linien können viele Punkte enthalten und die ihr zugewiesenen Eigenschaften beschreiben, wofür die Linie steht. Polygone sind Linienzüge, bei denen die letzte Linie dort endet, wo die erste beginnt.
 
 Genau genommen stimmt das nicht ganz, denn es gibt noch einen Objekttyp in OpenStreetMap, die Relation. Genauso wie
