@@ -77,7 +77,7 @@ Jetzt laden wir eine Beispielvorlage in JOSM und sehen uns an, wie das funktioni
 ![sample building menu][]
 
 Sie sehen, dass das Formular, das eingeblendet wird, drei Felder besitzt, jedes für eine andere Art von Eingabe. 
-Das erste Feld, building name, akzeptiert einen Freitext als Eingabe. Das zweite, building use, hat eine Klappliste.
+Das erste Feld, *Name of Building*, akzeptiert einen Freitext als Eingabe. Das zweite, *Building Use*, hat ein Aufklappmenü.
 Das letzte Feld kann angekreuzt werden, es gibt also nur zwei Werte, an und aus.
 
 ![sample presets form][]
@@ -117,16 +117,16 @@ Die nächste Zeile sieht etwas anders aus:
 
 Das &lt;text&gt;-Element erzeugt ein leeres Feld. Wenn das Formular in JOSM erzeugt wird, kann der Benutzer das Feld ausfüllen. Da das Attribute *delete_if_empty="true"* vorhanden ist, wird keine OSM-Eigenschaft zugewiesen, wenn der Benutzer das Feld leer gelassen hat.
 
-Die Klappliste des Formulars wird mit dieser Zeile erzeugt:
+Das Aufklappmenü des Formulars wird mit dieser Zeile erzeugt:
 
 	<combo key="building:use" text="Building Use"
 		values="residential, commercial, industrial"
 		display_values="Residential, Commercial,
 		Industrial"/>
 
-Für die Klappliste ist das &lt;combo&gt;-Element zuständig. Genau wie beim &lt;text&gt;-Element bestimmt das Attribut *key* die OSM-Eigenschaft. Der Wert wird aus einer Liste möglicher Werte ausgewählt, diese sind im Attribut *values* hinterlegt. Das Attribut *display_values* erlaubt Ihnen, andere Einträge für die Klappliste festzulegen, die vielleicht einfacher zu verstehen sind als die Namen von OSM-Eigenschaften.
+Genau wie beim &lt;text&gt;-Element bestimmt das Attribut *key* des &lt;combo&gt;-Elements die OSM-Eigenschaft. Der Wert wird aus einer Liste möglicher Werte ausgewählt, diese sind im Attribut *values* hinterlegt. Das Attribut *display_values* erlaubt Ihnen, andere Einträge für das Aufklappmenü festzulegen, die vielleicht einfacher zu verstehen sind als die Namen von OSM-Eigenschaften.
 
-Schauen wir uns noch die Zeile für die anzukreuzende Eigenschaft an:
+Schauen wir uns noch die Zeile für das Markierungsfeld an:
 
 	<check key="building:vacant" text="Is the building
 		vacant?" default="off" delete_if_empty="true" />
@@ -138,11 +138,11 @@ Eine eigene Vorlagendatei
 
 Am besten fangen Sie mit einer existierenden Vorlagendatei an und ändern sie nach Ihren Wünschen ab. Sie können dafür gerne unsere Beispieldatei verwenden und mit ihr experimentieren. Denken Sie nur daran, dass Sie nach jeder abgespeicherten Änderung JOSM neu starten müssen, damit die Änderungen wirksam werden.
 
-Bevor Sie beginnen, Ihre eigenen Vorlagen zu entwerfen, sollten Sie genau darüber nachdenken, welche OSM-Eigenschaften Sie zuweisen möchten. Hier etwas neues zu erfinden, ist ein Kapitel für sich. Verwenden Sie wenn immer möglich solche Eigenschaften, die bereits in Benutzung sind. Die häufigsten finden Sie unter [Map Features im OSM Wiki](http://wiki.openstreetmap.org/wiki/DE:Map_Features) sowie in [dieser Liste im OSM Wiki](http://wiki.openstreetmap.org/wiki/DE:Howto_Map_A).
+Bevor Sie beginnen, Ihre eigenen Vorlagen zu entwerfen, sollten Sie genau darüber nachdenken, welche OSM-Eigenschaften Sie zuweisen möchten. Hier etwas neues zu erfinden, ist ein Kapitel für sich. Verwenden Sie wenn immer möglich solche Eigenschaften, die bereits benutzt werden. Die häufigsten finden Sie unter [Map Features im OSM Wiki](http://wiki.openstreetmap.org/wiki/DE:Map_Features) sowie in [dieser Liste im OSM Wiki](http://wiki.openstreetmap.org/wiki/DE:Howto_Map_A).
 
 Die Beispieldatei enthält die meisten Elemente, die in einer Vorlagendatei für JOSM vorkommen - es gibt nicht viele Elemente für ein Formular. Wenn Sie ein umfangreicheres Beispiel für Ihre Versuche brauchen, laden Sie sich die Datei [dhaka_presets.xml](/files/dhaka_presets.xml) herunter.
 
-Eine ausführliche Beschreibung aller Elemente finden Sie [in der JOSM-Dokumentation](http://josm.openstreetmap.de/wiki/TaggingPresets). Die deutsche Version dieser Anleitung ist noch unvollständig.
+Eine ausführliche Beschreibung aller Elemente finden Sie [in der JOSM-Dokumentation](http://josm.openstreetmap.de/wiki/TaggingPresets). Die deutsche Version jener Anleitung ist noch unvollständig.
 
 Viel Erfolg!
 
