@@ -1,138 +1,150 @@
 ---
 layout: doc
-title: Creating Custom Presets
+title: Erstellung eigener Vorlagen
 permalink: /de/editing/creating-presets/
 lang: de
 category: editing
 ---
 
-Creating Custom Presets
-=======================
+Erstellung eigener Vorlagen
+===========================
 
 
-This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
+Im [vorhergehenden Kapitel](/de/editing/josm-presets) haben wir gelernt, wie wir zusätzliche Vorlagen
+in das JOSM-Menü aufnehmen können. Jetzt werden wir uns damit beschäftigen, wie wir eigene 
+Vorlagendateien erstellen können.
 
----
+VORSICHT! Das ist ein Thema für Fortgeschrittene... wir haben Sie gewarnt!
 
-In the [previous chapter](/en/editing/josm-presets) we looked at how custom
-presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.
+Einführung in XML
+-----------------
+Um eine Vorlagendatei zu erstellen, müssen wir erst einmal das Dateiformat XML verstehen. Wenn Sie das schon
+kennen, dürfen Sie diesen Abschnitt überspringen.
 
-WARNING! This is an advanced topic... consider yourself warned!
+XML bedeutet “Extensible Mark-up Language”, also etwa "erweiterbare Auszeichnungssprache" und ist ähnlich zu HTML.  
+Der wesentliche Unterschied ist, dass XML dazu entwickelt wurde, Daten zu speichern und nicht, sie anzuzeigen.  
+Viele Anwendungen im Internet, auch OpenStreetMap, benutzen XML zum Datentransfer. XML besteht aus Elementen und
+jedes Element kann Unterelemente enthalten.  
 
-Introduction to XML
--------------------
-In order to create our own Presets menu, we first need to understand a language called XML. If you're already familiar with XML feel free to jump the next section.
-
-XML, which stands for “Extensible Mark-up Language”, is a computer language similar to HTML.  The key difference is that XML is designed to carry data, not display it.  Many applications on the internet use XML to transmit data, including OpenStreetMap.  XML uses elements, and each element can contain child elements inside it.  For example, let’s imagine that we want to create an XML file that contains data about a restaurant menu.  We must create a root element to contain all the data about our menu.  Our root element will have an opening and a closing tag, like this:
+Nehmen wir einmal an, wir wollen eine XML-Datei für eine Speisekarte
+erstellen. Wir brauchen ein Wurzelelement, dass alle Angaben über die Speisekarte enthält. Dieses Element klammert
+den restlichen Text:
 
 	<menu>
-      ... whatever data we want to include in our menu ...
+      ... was auch immer auf unserer Speisekarte steht ...
 	</menu>
 
-Information is contained inside an element, and within each element there can be more elements.
+Jede Information muss in einem Element stehen und jedes Element kann weitere Elemente enthalten.
 
   	<menu>
 	  <item name=“Hamburger”>
 		<cost>400</cost>
-		<description>Delicious beef patty</description>
+		<description>köstliche Rinderbulette</description>
 	  </item>
 	  <item name=“Nasi Goreng”>
 		<cost>200</cost>
-		<description>Indonesian Fried Rice</description>
+		<description>Indonesischer gebratener Reis</description>
 	  </item>
   	</menu>
 
-In this example we have placed two &lt;item&gt; elements within our &lt;menu&gt; element to describe two different items that are contained in the menu.  Each item contains two more elements in them, &lt;cost&gt; and &lt;description&gt;.  Notice also how we have written name=”Hamburger” inside the opening &lt;item&gt; tag.  This is called an attribute, and adds information about the element.
+In unserem Beispiel haben wir zwei &lt;item&gt;-Elemente in unser &lt;menu&gt;-Element eingefügt, um zwei
+verschiedene Einträge in der Speisekarte zu beschreiben. In jedem &lt;item&gt; befinden sich zwei weitere 
+Elemente, &lt;cost&gt; und &lt;description&gt;.  Wir haben name=”Hamburger” innerhalb des öffnenden 
+&lt;item&gt;-Tags aufgeführt. Das wird ein Attribut genannt und fügt Informationen einem Element hinzu.
 
 
-### XML Terminology
--	**root element:** the outermost element of an XML document, which describes what is contained
--	**element:** any XML object, contained by opening and closing tags, such as &lt;item&gt; ... data ... &lt;/item&gt;
--	**tag:** something contained in brackets, such as &lt;item&gt;.  &lt;item&gt; is the
-	opening tag of an element, and &lt;/item&gt; is the closing tag. Don't confuse this
-	with OSM tags, which have a different meaning.
--	**attribute:** a piece of information contained inside a tag, such as name=“Hamburger”
+### XML Terminologie
+-	**Wurzelelement:** das äußerste Element eines XML-Dokuments, das den Inhalt beschreibt
+-	**Element:** ein XML-Objekt, das von Tags eingerahmt wird, wie z.B. &lt;item&gt; ... Daten ... &lt;/item&gt;
+-	**Tag:** etwas in spitzen Klammern, wie z.B. &lt;item&gt;.  &lt;item&gt; ist der
+	Beginn-Auszeichner eines Elements, und &lt;/item&gt; ist der End-Auszeichner. Verwechseln Sie das
+	nicht mit OSM-Tags, die eine andere Bedeutung haben.
+-	**Attribut:** Eine Information innerhalb eines Tags, etwa name=“Hamburger”
 
-Using XML to hold and transmit data is great because it is easy to understand for computers.
+Der Vorteil in der Verwendung von XML zur Speicherung und Übermittlung von Daten liegt darin, dass dieses Format
+einfach automatisiert gelesen werden kann.
 
 
-JOSM Presets Files
--------------------
-Let's add a sample presets file into JOSM and analyze how it works.
+JOSM-Vorlagendateien
+--------------------
+Jetzt laden wir eine Beispielvorlage in JOSM und sehen uns an, wie das funktioniert.
 
--	Download the file [sample_presets.xml](/files/sample_presets.xml).
--	Then load it into JOSM as described in the [previous chapter](/en/editing/josm-presets).
--	Create a new layer and a new object.
--	Go the the Presets menu. There will be a new item named "Sample Building." Click on it.
+-	Laden Sie [sample_presets.xml](/files/sample_presets.xml) herunter.
+-	Installieren Sie die Datei in JOSM so wie es im [vorhergehenden Kapitel](/de/editing/josm-presets) beschrieben wurde.
+-	Erzeugen sie eine neue Ebene und ein neues Objekt.
+-	Wählen Sie den neuen Eintrag "Sample Building" aus dem Vorlagenmenü aus.
 
 ![sample building menu][]
 
-Notice that the form which appears has three fields in it, and each accepts a different type of input. The first field, building name, accepts a text string as input. The second, building use, has a dropdown box. The final field is a check box, meaning that it can only have one of two values, on or off.
+Sie sehen, dass das Formular, das eingeblendet wird, drei Felder besitzt, jedes für eine andere Art von Eingabe. 
+Das erste Feld, *Name of Building*, akzeptiert einen Freitext als Eingabe. Das zweite, *Building Use*, hat ein Aufklappmenü.
+Das letzte Feld kann angekreuzt werden, es gibt also nur zwei Werte, an und aus.
 
 ![sample presets form][]
 
-Now let's look at the XML file which defines this Preset form.
+Jetzt sehen wir uns die XML-Datei, die dieses Formular definiert, näher an.
 
--	Find the XML file on your computer and open it with a text editor. If you are using Windows you can use the Notepad 	program. If you want a more easy-to-use editor, you might download the free Notepad++ application.
--	The **sample_presets.xml** file looks like this:
+-	Öffnen Sie die XML-Datei auf Ihrem Rechner mit einem Texteditor. Unter Windows können Sie dazu Notepad verwenden. Wenn Sie einen einfacher zu benutzenden Editor suchen, können Sie beispielsweise das kostenlose Programm  Notepad++ herunterladen.
+-	Die Datei **sample_presets.xml** sieht so aus:
 
 ![sample presets file][]
 
-For now, let's ignore the first six lines and the final line, and focus on everything between the &lt;item&gt; tags.
+Für's erste ignorieren wir die ersten sechs Zeilen sowie die letzte und konzentrieren uns auf alles zwischen den
+&lt;item&gt;-Tags.
 
-The first line looks like this:
+Das ist die erste Zeile:
 
 	<item name="Sample Building" type="node,closedway">
 
-This is the opening tag of an item which is added to the menu. It has two attributes, name and type. The name defines how this will appear on the Presets menu. The type limits this preset to specific types of objects. In this case, the preset can only be applied to points and shapes - in other words, nodes and closed ways. If you try to apply this preset to a line, it won't work.
+Es handelt sich um den Beginn-Tag eines Eintrags, der zum Vorlagenmenü hinzugefügt wird. Er hat zwei Attribute, *name* und *type*. Der *name* legt fest, wie der Eintrag später im Vorlagenmenü zu sehen sein wird. Der *type* schränkt die Vorlage auf bestimmte Typen von Objekten ein. In unserem Fall kann die Vorlage nur auf Punkte und geschlossene Linienzüge angewendet werden. Der Versuch, die Vorlage auf eine einzelne Linie anzuwenden, schlägt fehl.
 
-Let's look at the next line:
+Die nächste Zeile sieht so aus:
 
 	<label text="Building Form" />
 
-When you click on the menu and open the sample form, at the top you see the text "Building Form." This is the text defined in this line. This defines a &lt;label&gt; element, which simply displays text in the form. The text is defined by the attribute *text="some text"*.
+Wenn Sie die Vorlage im Menü auswählen und damit das Formular öffnen, sehen Sie ganz oben den Text "Building Form". Das ist der Text aus dieser Zeile. Sie definiert ein &lt;label&gt;-Element, das lediglich Text im Formular darstellt. Der Text selbst wird durch das Attribut *text="some text"* festgelegt.
 
-Go down a few lines and find this:
+Einige Zeilen später steht das:
 
 	<key key="building" value="yes" />
 
-This is one of the tags that will be applied to the object we have selected. Because it uses the element &lt;key&gt;, the OSM tag given here will be automatically applied when the preset is chosen. Hence this object will automatically obtain the tag *building=yes*.
+Das ist eine der Eigenschaften, die wir dem ausgewählten Objekt zuweisen werden. Durch das Element &lt;key&gt; wird sichergestellt, dass die angegebene OSM-Eigenschaft automatisch zugewiesen wird, wenn die Vorlage ausgewählt wird. Unser Objekt erhält die Eigenschaft *building=yes*.
 
-The next line is a bit different, using the &lt;text&gt; element.
+Die nächste Zeile sieht etwas anders aus:
 
 	<text key="name" text="Name of Building" default=""
 		delete_if_empty="true" />
 
-The &lt;text&gt; element creates a blank field. When the form is created in JOSM, the user will be able to fill in the empty field. Because the attribute *delete_if_empty="true"* is set, no tag will be added if the user leaves this field empty.
+Das &lt;text&gt;-Element erzeugt ein leeres Feld. Wenn das Formular in JOSM erzeugt wird, kann der Benutzer das Feld ausfüllen. Da das Attribute *delete_if_empty="true"* vorhanden ist, wird keine OSM-Eigenschaft zugewiesen, wenn der Benutzer das Feld leer gelassen hat.
 
-The dropdown box on the form is defined in the following line:
+Das Aufklappmenü des Formulars wird mit dieser Zeile erzeugt:
 
 	<combo key="building:use" text="Building Use"
 		values="residential, commercial, industrial"
 		display_values="Residential, Commercial,
 		Industrial"/>
 
-A dropdown box is defined by the &lt;combo&gt; element. As with the &lt;text&gt; element, the attribute *key* defines the tag key. The value is then chosen from a list of possible *values*. The *display_values* attribute allows you to choose different names to be displayed in the dropdown box, which may be easier to understand than the OSM tag values.
+Genau wie beim &lt;text&gt;-Element bestimmt das Attribut *key* des &lt;combo&gt;-Elements die OSM-Eigenschaft. Der Wert wird aus einer Liste möglicher Werte ausgewählt, diese sind im Attribut *values* hinterlegt. Das Attribut *display_values* erlaubt Ihnen, andere Einträge für das Aufklappmenü festzulegen, die vielleicht einfacher zu verstehen sind als die Namen von OSM-Eigenschaften.
 
-Lastly, let's look at the line which defines the checkbox.
+Schauen wir uns noch die Zeile für das Markierungsfeld an:
 
 	<check key="building:vacant" text="Is the building
 		vacant?" default="off" delete_if_empty="true" />
 
-The &lt;check&gt; element defines - you guessed it! - the checkbox. The attribute *default="off"* states that the box will be unchecked by default. The remaining attributes you have already seen.
+Wir brauchen hier das &lt;check&gt;-Element. Das Attribut *default="off"* legt den Normalzustand fest, nicht angekreuzt. Die anderen Attribute kennen Sie schon.
 
-Creating Your Own Presets File
-------------------------------
+Eine eigene Vorlagendatei
+-------------------------
 
-The best way to create your own presets file is to take one that already exists, and manipulate it fulfill your objectives.  Feel free to edit this sample file and experiment with it to learn the basics. Just remember that each time you save it, you will need to restart JOSM to load the changes.
+Am besten fangen Sie mit einer existierenden Vorlagendatei an und ändern sie nach Ihren Wünschen ab. Sie können dafür gerne unsere Beispieldatei verwenden und mit ihr experimentieren. Denken Sie nur daran, dass Sie nach jeder abgespeicherten Änderung JOSM neu starten müssen, damit die Änderungen wirksam werden.
 
-Before you start creating your own presets, you need to think carefully about the tags that you will use. Inventing new tags is another topic altogether. Generally, you should utilize existing OSM tags when they exist. Most existing tags are listed on the [Map Features page on the OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).
+Bevor Sie beginnen, Ihre eigenen Vorlagen zu entwerfen, sollten Sie genau darüber nachdenken, welche OSM-Eigenschaften Sie zuweisen möchten. Hier etwas neues zu erfinden, ist ein Kapitel für sich. Verwenden Sie wenn immer möglich solche Eigenschaften, die bereits benutzt werden. Die häufigsten finden Sie unter [Map Features im OSM Wiki](http://wiki.openstreetmap.org/wiki/DE:Map_Features) sowie in [dieser Liste im OSM Wiki](http://wiki.openstreetmap.org/wiki/DE:Howto_Map_A).
 
-This sample file contains most of the elements that you will find in a JOSM presets file - there aren't very many form elements. If you'd like to experiment with a more complex presets file, download the [dhaka_presets.xml](/files/dhaka_presets.xml) file here.
+Die Beispieldatei enthält die meisten Elemente, die in einer Vorlagendatei für JOSM vorkommen - es gibt nicht viele Elemente für ein Formular. Wenn Sie ein umfangreicheres Beispiel für Ihre Versuche brauchen, laden Sie sich die Datei [dhaka_presets.xml](/files/dhaka_presets.xml) herunter.
 
-Additionally, a detailed explanation of all possible elements can be found [here](http://josm.openstreetmap.de/wiki/TaggingPresets).
+Eine ausführliche Beschreibung aller Elemente finden Sie [in der JOSM-Dokumentation](http://josm.openstreetmap.de/wiki/TaggingPresets). Die deutsche Version jener Anleitung ist noch unvollständig.
 
-Good luck!
+Viel Erfolg!
 
 
 [sample building menu]: /images/en/editing/creating-custom-presets/sample-building-menu.png
