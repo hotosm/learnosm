@@ -1,44 +1,51 @@
 ---
 layout: doc
-title: Creating Custom Presets
+title: Erstellung eigener Vorlagen
 permalink: /de/editing/creating-presets/
 lang: de
 category: editing
 ---
 
-Creating Custom Presets
-=======================
+Erstellung eigener Vorlagen
+===========================
 
 
 This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
 
 ---
 
-In the [previous chapter](/en/editing/josm-presets) we looked at how custom
-presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.
+Im [vorhergehenden Kapitel](/de/editing/josm-presets) haben wir gelernt, wie wir zusätzliche Vorlagen
+in das JOSM-Menü aufnehmen können. Jetzt werden wir uns damit beschäftigen, wie wir eigene 
+Vorlagendateien erstellen können.
 
-WARNING! This is an advanced topic... consider yourself warned!
+VORSICHT! Das ist ein Thema für Fortgeschrittene... wir haben Sie gewarnt!
 
-Introduction to XML
--------------------
-In order to create our own Presets menu, we first need to understand a language called XML. If you're already familiar with XML feel free to jump the next section.
+Einführung in XML
+-----------------
+Um eine Vorlagendatei zu erstellen, müssen wir erst einmal das Dateiformat XML verstehen. Wenn Sie das schon
+kennen, dürfen Sie diesen Abschnitt überspringen.
 
-XML, which stands for “Extensible Mark-up Language”, is a computer language similar to HTML.  The key difference is that XML is designed to carry data, not display it.  Many applications on the internet use XML to transmit data, including OpenStreetMap.  XML uses elements, and each element can contain child elements inside it.  For example, let’s imagine that we want to create an XML file that contains data about a restaurant menu.  We must create a root element to contain all the data about our menu.  Our root element will have an opening and a closing tag, like this:
+XML bedeutet “Extensible Mark-up Language”, also etwa "erweiterbare Auszeichnungssprache" und ist ähnlich zu HTML.  
+Der wesentliche Unterschied ist, dass XML dazu entwickelt wurde, Daten zu enthalten und nicht, sie anzuzeigen.  
+Viele Anwendungen im Internet benutzen XML zum Datentransfer, auch OpenStreetMap. XML besteht aus Elementen und
+jedes Element kann Unterelemente enthalten.  Nehmen wir einmal an, wir wollen eine XML-Datei für eine Speisekarte
+erstellen. Wir brauchen ein oberstes Element, dass alle Angaben über die Speisekarte enthält. Dieses Element klammert
+den restlichen Text:
 
 	<menu>
-      ... whatever data we want to include in our menu ...
+      ... was auch immer auf unserer Speisekarte steht ...
 	</menu>
 
-Information is contained inside an element, and within each element there can be more elements.
+Jede Information muss in einem Element stehen und jedes Element kann weitere Elemente enthalten.
 
   	<menu>
 	  <item name=“Hamburger”>
 		<cost>400</cost>
-		<description>Delicious beef patty</description>
+		<description>köstliche Rinderbulette</description>
 	  </item>
 	  <item name=“Nasi Goreng”>
 		<cost>200</cost>
-		<description>Indonesian Fried Rice</description>
+		<description>Indonesischer gebratener Reis</description>
 	  </item>
   	</menu>
 
