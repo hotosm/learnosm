@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+    author="learnOSM.org"
+    version="1.0"
+    shortdescription="Sample Presets File"
+    description="Demonstrating how to create custom presets files for JOSM">
+
+    <item name="Sample Building" type="node,closedway">
+        <label text="Building Form" />
+        <label text="---------------------------" />
+        <key key="source" value="My Building Survey" />
+        <key key="building" value="yes" />
+        <text key="name" text="Name of Building" default="" delete_if_empty="true" />
+        <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
+        <check key="building:vacant" text="Is the building vacant?" default="off" delete_if_empty="true" />
+        <label text="---------------------------" />
+    </item>
+
+</presets>
