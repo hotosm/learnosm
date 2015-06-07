@@ -8,9 +8,6 @@ published: true
 ---
 
 
-
-This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md). 
-
 Introduksjon
 ============
 
