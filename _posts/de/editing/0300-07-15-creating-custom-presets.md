@@ -29,7 +29,7 @@ XML bedeutet “Extensible Mark-up Language”, also etwa "erweiterbare Auszeich
 Der wesentliche Unterschied ist, dass XML dazu entwickelt wurde, Daten zu enthalten und nicht, sie anzuzeigen.  
 Viele Anwendungen im Internet benutzen XML zum Datentransfer, auch OpenStreetMap. XML besteht aus Elementen und
 jedes Element kann Unterelemente enthalten.  Nehmen wir einmal an, wir wollen eine XML-Datei für eine Speisekarte
-erstellen. Wir brauchen ein oberstes Element, dass alle Angaben über die Speisekarte enthält. Dieses Element klammert
+erstellen. Wir brauchen ein Wurzelelement, dass alle Angaben über die Speisekarte enthält. Dieses Element klammert
 den restlichen Text:
 
 	<menu>
@@ -49,28 +49,32 @@ Jede Information muss in einem Element stehen und jedes Element kann weitere Ele
 	  </item>
   	</menu>
 
-In this example we have placed two &lt;item&gt; elements within our &lt;menu&gt; element to describe two different items that are contained in the menu.  Each item contains two more elements in them, &lt;cost&gt; and &lt;description&gt;.  Notice also how we have written name=”Hamburger” inside the opening &lt;item&gt; tag.  This is called an attribute, and adds information about the element.
+In unserem Beispiel haben wir zwei &lt;item&gt;-Elemente in unser &lt;menu&gt;-Element eingefügt, um zwei
+verschiedene Einträge in der Speisekarte zu beschreiben. In jedem &lt;item&gt; befinden sich zwei weitere 
+Elemente, &lt;cost&gt; und &lt;description&gt;.  Wir haben name=”Hamburger” innerhalb des öffnenden 
+&lt;item&gt;-Elements aufgeführt. Das wird ein Attribut genannt und fügt Informationen einem Element hinzu.
 
 
-### XML Terminology
--	**root element:** the outermost element of an XML document, which describes what is contained
--	**element:** any XML object, contained by opening and closing tags, such as &lt;item&gt; ... data ... &lt;/item&gt;
--	**tag:** something contained in brackets, such as &lt;item&gt;.  &lt;item&gt; is the
-	opening tag of an element, and &lt;/item&gt; is the closing tag. Don't confuse this
-	with OSM tags, which have a different meaning.
--	**attribute:** a piece of information contained inside a tag, such as name=“Hamburger”
+### XML Terminologie
+-	**Wurzelelement:** das äußerste Element eines XML-Dokuments, das den Inhalt beschreibt
+-	**Element:** ein XML-Objekt, das von Tags eingerahmt wird, wie z.B. &lt;item&gt; ... Daten ... &lt;/item&gt;
+-	**Tag:** etwas in spitzen Klammern, wie z.B. &lt;item&gt;.  &lt;item&gt; ist der
+	Beginn-Auszeichner eines Elements, und &lt;/item&gt; ist der End-Auszeichner. Verwechseln Sie das
+	nicht mit OSM-Tags, die eine andere Bedeutung haben.
+-	**Attribut:** Eine Information innerhalb eines Tags, etwa name=“Hamburger”
 
-Using XML to hold and transmit data is great because it is easy to understand for computers.
+Der Vorteil in der Verwendung von XML um Daten zu speichern und zu übermitteln liegt darin, dass dieses Format
+einfach automatisiert gelesen werden kann.
 
 
-JOSM Presets Files
--------------------
-Let's add a sample presets file into JOSM and analyze how it works.
+JOSM-Vorlagendateien
+--------------------
+Jetzt laden wir eine Beispielvorlage in JOSM und sehen uns an, wie das funktioniert.
 
--	Download the file [sample_presets.xml](/files/sample_presets.xml).
--	Then load it into JOSM as described in the [previous chapter](/en/editing/josm-presets).
--	Create a new layer and a new object.
--	Go the the Presets menu. There will be a new item named "Sample Building." Click on it.
+-	Laden Sie [sample_presets.xml](/files/sample_presets.xml) herunter.
+-	Installieren Sie die Datei in JOSM so wie es im [vorhergehenden Kapitel](/de/editing/josm-presets) beschrieben wurde.
+-	Erzeugen sie eine neue Ebene und ein neues Objekt.
+-	Wählen Sie den neuen Eintrag "Sample Building" aus dem Vorlagenmenü aus.
 
 ![sample building menu][]
 
