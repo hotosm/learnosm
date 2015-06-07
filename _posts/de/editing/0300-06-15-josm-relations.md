@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: JOSM Relations
+title: Relationen in JOSM
 permalink: /de/editing/josm-relations/
 lang: de
 category: editing
 ---
 
-Relations
+Relationen
 ==========
 
 

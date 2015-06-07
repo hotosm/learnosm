@@ -1,87 +1,83 @@
 ---
 layout: doc
-title: JOSM Presets
+title: JOSM Vorlagen
 permalink: /de/editing/josm-presets/
 lang: de
 category: editing
 ---
 
-JOSM Presets
-============
+JOSM Vorlagen
+=============
 
 
-This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
+Wenn Sie schon länger mit JOSM arbeiten, kennen Sie sich sicher schon etwas mit Eigenschaften und Vorlagen aus. 
+Jedes Objekt wird durch zwei Dinge beschrieben: einmal durch seine Geometrie (handelt es sich um einen Punkt,
+eine Linie, einen geschlossenen Linienzug sowie seine Position), zum anderen durch seine Eigenschaften (englisch: tags).
 
----
+Wenn Sie ein Objekt zeichnen und eine Vorlage aus dem Menü auswählen, werden die passenden Eigenschaften automatisch
+an das Objekt angefügt.
 
-If you've been using JOSM for long, by now you understand a bit
-about tags and presets. Every object is defined by two things - first,
-it's geometry (whether it's a point, line, or shape and its location),
-and second, its attributes which come in the form of tags.
+Was aber, wenn Sie gerne mit Vorlagen arbeiten und Eigenschaften hinzufügen möchten, die im Menü nicht vorhanden sind
+oder wenn Sie die vorhandenen Eigenschaften nach Ihren Wünschen verändern möchten?
 
-When you draw an object and select from the Presets menu, the correct tags
-are automatically applied to the object.
-
-If you like using presets, what happens when you want to add tags that
-are not contained in the menu, or when you want to customize your own tags?
-
-In this case, you can add custom menu items to the Presets. In this section
-we will see how to do this. In the [following chapter](/en/editing/creating-presets),
-we will cover how to create custom presets files of your own.
+Für diesen Fall können Sie eigene Menüeinträge zu den Vorlagen hinzufügen. In diesem Kapitel zeigen wir Ihnen, 
+wie das geht. Im [nächsten Kapitel](/de/editing/creating-presets), behandeln wir die Erstellung eigener
+Vorlagendateien.
 
 
-Add Presets
------------
+Vorlagen hinzufügen
+-------------------
 
-The menus and submenus that make up the Presets menu are stored in files
-which describe how to create the menus and forms that come up when you
-click on a preset, and how to define what tags are added to an object
-based on how the form is filled out.
+Die Menüstruktur für die Vorlagen ist in Dateien abgespeichert, die die Anweisungen enthalten, um die Menüs
+und Formulare darzustellen, die Sie sehen, wenn Sie die entsprechende Vorlage auf ein Objekt anwenden. In den
+Dateien ist auch festgelegt, welche Eigenschaften zu dem Objekt hinzugefügt werden, je nachdem, wie das Formular
+ausgefüllt wurde.
 
-Presets files can either be added from an online archive, or saved on your
-computer locally and added into JOSM.
+Sie können Vorlagendateien entweder aus einem Internet-Archiv hinzufügen oder zunächst auf Ihrem Rechner
+abspeichern und dann zu JOSM hinzufügen.
 
--	To add a new entry to the Presets menu, open JOSM and go to Edit->Preferences.
--	Click on the third tab down, which looks like a grid covering the planet.
+-	Um einen neuen Eintrag zum Vorlagenmenü hinzuzufügen wählen Sie in der JOSM-Menüzeile 
+	Bearbeiten->Einstellungen aus.
+-	Klicken Sie auf das dritte Icon von oben, das wie ein Gitternetz über der Weltkugel aussieht.
 
-![tagging presets tab][]
+	![tagging presets tab][]
 
--	At the top, click on "Tagging Presets."
+-	Wählen Sie dann den Reiter "Objektvorlagen".
 
-![tagging presets menu][]
+	![tagging presets menu][]
 
--	Add a presets file from the internet by selecting one in the list on
-	the left, and clicking on the blue arrow. In this example, we will
-	add the presets named "Buildings Indonesia by Kate Chapman."
+-	Aus der linken Liste können Sie Vorlagen aus dem Internet auswählen. Klicken Sie dann auf den blauen Pfeil. 
+	Für dieses Beispiel nehmen wir die Vorlage "Towers von Jens Windbladh".
 
-![example presets][]
+	![example presets][]
 
--	You will see a new item appear in the list on the right.
--	Click OK.
--	You will need to restart JOSM.
--	Create a new layer and add a point or shape.
--	Go to the Presets menu. Click on the item named "Building," which
-	has now been added at the bottom of the menu.
+-	Die Vorlage erscheint in der rechten Liste.
+-	Klicken Sie auf OK.
+-	Jetzt werden Sie gefragt, ob JOSM neu gestartet werden soll. Das ist bei einer Änderung der Menüstruktur
+	erforderlich, bestätigen Sie also die Frage.
+-	Legen Sie eine neue Ebene an und zeichnen Sie einen Punkt.
+-	Wählen Sie im Vorlagen-Menü aus dem Untermenü "Turm" eine der möglichen Varianten.
 
-![indonesia building form][]
+	![tower preset][]
 
--	If you don't speak Indonesian, this might be hard to read, but
-	nonetheless you have been successful and added a custom preset menu.
+-	Es erscheint das entsprechende Formular, in dem Sie weitere Eigenschaften des Turms, etwa den Namen,
+	festlegen können.
 
--	If you have been given a custom presets file, you can add it to the menu
-	in a similar way. Simply return to the Preferences menu, and instead
-	of selecting from the list, click on the (+) button in the upper right.
+-	Wenn Sie eine Vorlagendatei erhalten haben, können Sie sie so zum Menü hinzufügen:
+	Unter den Einstellungen zu den Objektvorlagen wählen Sie in diesem Fall nichts aus der Liste, 
+	sondern klicken auf (+) oben rechts.
 
-![plus button][]
+	![plus button][]
 
--	Locate your file and give it a name if you like.
--	Click OK.
+-	Mit dem Knopf rechts der zweiten Zeile navigieren Sie zu Ihrer Datei, in der ersten Zeile können Sie noch
+	einen Namen für die Vorlage vergeben.
+-	Klicken Sie auf OK.
 
 
 [tagging presets tab]: /images/en/editing/josm-presets/tagging-presets-tab.png
-[tagging presets menu]: /images/en/editing/josm-presets/tagging-presets-menu.png
-[example presets]: /images/en/editing/josm-presets/example-presets.png
-[indonesia building form]: /images/en/editing/josm-presets/indonesia-building-form.png
+[tagging presets menu]: /images/editing/josm-presets_tagging-presets-menu.de.png
+[example presets]: /images/editing/josm-presets_example-presets.de.png
+[tower preset]: /images/editing/josm-presets_tower-preset.de.png
 [plus button]: /images/en/editing/josm-presets/plus-button.png
 
 
