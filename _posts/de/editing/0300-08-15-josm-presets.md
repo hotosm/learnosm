@@ -10,10 +10,6 @@ JOSM Vorlagen
 =============
 
 
-This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
-
----
-
 Wenn Sie schon länger mit JOSM arbeiten, kennen Sie sich sicher schon etwas mit Eigenschaften und Vorlagen aus. 
 Jedes Objekt wird durch zwei Dinge beschrieben: einmal durch seine Geometrie (handelt es sich um einen Punkt,
 eine Linie, einen geschlossenen Linienzug sowie seine Position), zum anderen durch seine Eigenschaften (englisch: tags).
@@ -62,7 +58,7 @@ abspeichern und dann zu JOSM hinzufügen.
 -	Legen Sie eine neue Ebene an und zeichnen Sie einen Punkt.
 -	Wählen Sie im Vorlagen-Menü aus dem Untermenü "Turm" eine der möglichen Varianten.
 
-![indonesia building form][]
+![tower preset][]
 
 -	Es erscheint das entsprechende Formular, in dem Sie weitere Eigenschaften des Turms, etwa den Namen,
 	festlegen können.
@@ -79,9 +75,9 @@ abspeichern und dann zu JOSM hinzufügen.
 
 
 [tagging presets tab]: /images/en/editing/josm-presets/tagging-presets-tab.png
-[tagging presets menu]: /images/en/editing/josm-presets/tagging-presets-menu.png
-[example presets]: /images/en/editing/josm-presets/example-presets.png
-[indonesia building form]: /images/en/editing/josm-presets/indonesia-building-form.png
+[tagging presets menu]: /images/editing/josm-presets_tagging-presets-menu.de.png
+[example presets]: /images/editing/josm-presets_example-presets.de.png
+[tower preset]: /images/editing/josm-presets_tower_preset.de.png
 [plus button]: /images/en/editing/josm-presets/plus-button.png
 
 
