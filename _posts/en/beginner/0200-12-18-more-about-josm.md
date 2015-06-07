@@ -201,19 +201,6 @@ is great, but it's not the only aspect of making maps. Of course you also
 need to learn how to go outside and collect information about places on the
 ground.
 
-In the next sections we will learn about two methods - GPS and Field Papers,
-which are used to collect geographic data. The information from both of these
-can then be imported into JOSM, and used to edit the map.
-
-Moving Forward
---------------
-
-Click on the link for further reading on:  
- 
-*  [Surveying with GPS](/en/beginner/using-gps/)  
-*  [Field Papers](/en/beginner/field-papers/)
-*  [Editing Field Data](/en/beginner/editing-with-josm/) 
-
 
 [JOSM Download Button]: /images/beginner/josm_download-button.png
 [JOSM Download Dialog]: /images/beginner/josm_download-dialog.png
