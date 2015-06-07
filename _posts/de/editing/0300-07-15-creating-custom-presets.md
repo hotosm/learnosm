@@ -102,7 +102,7 @@ Die nächste Zeile sieht so aus:
 
 	<label text="Building Form" />
 
-Wenn Sie die Vorlage im Menü auswählen und damit das Formular öffnen, sehen Sie ganz oben den Text "Building Form". Das ist der Text aus dieser Zeile. Sie definiert ein &lt;label&gt;-Element, das lediglich Text im Formular darstellt. Der Text selbs wird durch das Attribut *text="some text"* festgelegt.
+Wenn Sie die Vorlage im Menü auswählen und damit das Formular öffnen, sehen Sie ganz oben den Text "Building Form". Das ist der Text aus dieser Zeile. Sie definiert ein &lt;label&gt;-Element, das lediglich Text im Formular darstellt. Der Text selbst wird durch das Attribut *text="some text"* festgelegt.
 
 Einige Zeilen später steht das:
 
