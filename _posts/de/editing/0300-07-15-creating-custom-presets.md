@@ -89,7 +89,7 @@ Jetzt sehen wir uns die XML-Datei, die dieses Formular definiert, näher an.
 
 ![sample presets file][]
 
-Für's erste ignorieren wir die ersten sechs und die letzte Zeile und konzentrieren uns auf alles zwischen den
+Für's erste ignorieren wir die ersten sechs Zeilen sowie die letzte und konzentrieren uns auf alles zwischen den
 &lt;item&gt;-Tags.
 
 Das ist die erste Zeile:
