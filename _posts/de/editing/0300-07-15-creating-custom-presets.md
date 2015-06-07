@@ -10,10 +10,6 @@ Erstellung eigener Vorlagen
 ===========================
 
 
-This section of LearnOSM is in the process of being translated. If you would like to assist with translating this site, please see [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
-
----
-
 Im [vorhergehenden Kapitel](/de/editing/josm-presets) haben wir gelernt, wie wir zusätzliche Vorlagen
 in das JOSM-Menü aufnehmen können. Jetzt werden wir uns damit beschäftigen, wie wir eigene 
 Vorlagendateien erstellen können.
