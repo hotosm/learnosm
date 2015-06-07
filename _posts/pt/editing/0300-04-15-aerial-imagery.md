@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Edição Avançada
-permalink: /pt/beginner/aerial-imagery/
+permalink: /pt/editing/aerial-imagery/
 lang: pt
-category: beginner
+category: editing
 ---
 
 Edição Avançada
