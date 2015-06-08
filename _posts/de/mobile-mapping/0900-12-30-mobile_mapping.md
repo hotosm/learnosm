@@ -20,8 +20,8 @@ Es gibt allerdings große Unterschiede in der Genauigkeit und Leistungsfähigkei
 
 Geräte mit GPS-Empfängern können autonom arbeiten, auch außerhalb der Reichweite von Mobilfunk- und 
 Internet-Verbindungen. Geräte mit der Bezeichnung "“A-GPS only” (Assisted GPS) erfordern eine Datenverbindung 
-über ein Mobilfunknetz um richtig arbeiten zu können. A-GPS-Daten können auch eigenständigen GPS-Chips zu einer
-besseren Leistung verhelfen, indem sie Daten vorgehalten werden.
+über ein Mobilfunknetz um richtig arbeiten zu können. A-GPS-Daten können auch eigenständigen GPS-Empfängern zu einer
+besseren Leistung verhelfen, da die ungefähre Position schneller über das Funknetz festgestellt werden kann.
 
 In den meisten Fällen brauchen wir ein Smartphone mit einem eigenen GPS-Empfänger. Überprüfen Sie, ob Ihr Gerät
 diesen Spezifikationen entspricht oder ob es sich lediglich um ein A-GPS-Gerät handelt.
@@ -38,7 +38,7 @@ Im Hinblick auf die Eignung für OpenStreetMap kommt es auf diese Eigenschaften 
 -   Georeferenzierung von Multimedia-Daten (Anmerkungen, Fotos, Videos)
 -   ständige Weiterentwicklung
 
-Probieren Sie mehrere zu Ihrem Gerät kompatible Anwendung aus, um sich mit der Benutzeroberfläche
+Probieren Sie mehrere zu Ihrem Gerät kompatible Anwendungen aus, um sich mit der Benutzeroberfläche
 vertraut zu machen und herausfinden, welche davon Ihren Vorlieben und Vorgehensweisen am besten entspricht.
 
 <!-- Commenting for now since tables doesn't look very nice!
