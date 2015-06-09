@@ -3,12 +3,12 @@ layout: contribute
 permalink: /nb/contribute/
 lang: nb
 title: Contribute
-contributetitle: Help improve our guides
+contributetitle: "Help improve our guides"
 startwith: "Ready to get started?"
-startA: Send us feedback
-startB: Create a translation
-startC: Improve Language
-startD: Report issues and contribute
+startA: "Send us feedback"
+startB: "Create a translation"
+startC: "Improve Language"
+startD: "Report issues and contribute"
 nosearch: true
 published: true
 ---
