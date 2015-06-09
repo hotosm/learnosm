@@ -1,13 +1,10 @@
 ---
 layout: doc
 title: Editing Field Data
-permalink: /sw/beginner/editing-with-josm/
-lang: sw
-category: beginner
+permalink: /en/josm/editing-with-josm/
+lang: en
+category: josm
 ---
-
-Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
-tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md). 
 
 Editing Field Data
 ==================
@@ -196,7 +193,7 @@ Moving Forward
 
 Click on the link for further reading on:  
 
-*  [Learning Beyond the Beginner Guide](/sw/beginner/moving-forward/)
+*  [Learning Beyond the Beginner Guide](/en/beginner/moving-forward/)
 
 [Layers panel]: /images/beginner/josm_layers-panel.png
 [Layers up down]: /images/beginner/josm_layers-panel-up-down.png

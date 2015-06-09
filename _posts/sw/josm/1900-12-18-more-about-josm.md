@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: The JOSM Editing Process
-permalink: /sw/beginner/more-about-josm/
+permalink: /sw/josm/more-about-josm/
 lang: sw
-category: beginner
+category: josm
 ---
 
 Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 

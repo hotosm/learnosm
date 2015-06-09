@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: The JOSM Editing Process
-permalink: /en/beginner/more-about-josm/
+permalink: /en/josm/more-about-josm/
 lang: en
-category: beginner
+category: josm
 ---
 
 The JOSM Editing Process

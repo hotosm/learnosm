@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Kuanza Kutumia JOSM
-permalink: /sw/beginner/start-josm/
+permalink: /sw/josm/start-josm/
 lang: sw
-category: beginner
+category: josm
 published: true
 ---
 
