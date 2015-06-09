@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Field Papers
-permalink: /bi/beginner/field-papers/
+permalink: /bi/mobile-mapping/field-papers/
 lang: bi
-category: beginner
+category: mobile-mapping
 ---
 
 Penggunaan Field Papers

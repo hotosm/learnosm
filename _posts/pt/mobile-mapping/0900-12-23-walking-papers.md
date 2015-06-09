@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Utilizando o “Walking Papers”
-permalink: /pt/beginner/walking-papers/
+permalink: /pt/mobile-mapping/walking-papers/
 lang: pt
-category: beginner
+category: mobile-mapping
 ---
 
 Utilizando o “Walking Papers”
