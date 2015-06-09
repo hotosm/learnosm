@@ -6,6 +6,9 @@ lang: bi
 category: mobile-mapping
 ---
 
+
+Caution - this section is known to be out of date - there is an current section at [English - field papers](/en/mobile-mapping/field-papers/) or [German](/de/mobile-mapping/field-papers/)
+
 Penggunaan Field Papers
 =======================
 
