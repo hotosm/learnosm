@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Utilizando o “Walking Papers”
-permalink: /pt/mobile-mapping/walking-papers/
+permalink: /pt/mobile-mapping/field-papers/
 lang: pt
 category: mobile-mapping
 ---
