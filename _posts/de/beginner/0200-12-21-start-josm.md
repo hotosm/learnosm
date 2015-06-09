@@ -340,11 +340,10 @@ Zusammenfassung
 
 Hervorragend! Wenn alles gut gegangen ist hast du jetzt gelernt, wie 
 du den JOSM Editor auf deinem Computer installierst, und, wie du die 
-Werkzeuge benutzt um Karten zu zeichnen. In den nächsten beiden 
-Kapiteln wirst du den Umgang mit GPS-Geräten und "Field papers" lernen, 
-was dir helfen wird, deinen Wohnort zu kartieren. In Kapitel 6 kehren wir 
-zu JOSM zurück und benutzen die gesammelten Informationen, um Objekte
-auf OpenStreetMap einzutragen.
+Werkzeuge benutzt um Karten zu zeichnen. Später wirst du noch den Umgang 
+mit GPS-Geräten und "Field papers" lernen, 
+was dir helfen wird, deinen Wohnort zu kartieren. Dann benutzen wir
+die gesammelten Informationen, um Objekte auf OpenStreetMap einzutragen.
 
 Nächste Schritte
 ----------------
