@@ -45,8 +45,7 @@ Komme videre
 Klikk på lenken for mer lesing om: 
 
 *  [Getting started on OpenStreetMap.org](/en/beginner/start-osm/) 
-*  [Getting started with the iD editor](/en/editing/id-editor/)   
-*  [Getting started with the JOSM editor](/en/beginner/start-josm/)  
+*  [Getting started with the iD editor](/en/editing/id-editor/) 
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
