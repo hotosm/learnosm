@@ -2,13 +2,13 @@
 layout: doc
 permalink: /de/mobile-mapping/
 lang: de
-title: Kartierung mit Smartphone, GPS oder Notizzettel
+title: Kartierung mit Smartphone, GPS oder Papier
 category: mobile-mapping
 cover: yes
 nosearch: true
 ---
 
-Kartierung mit Smartphone, GPS oder Notizzettel
+Kartierung mit Smartphone, GPS oder Papier
 ===============================================
 
 Mehr und mehr Smartphones verfügen heutzutage über einen Chip, der die Signale von Satelliten-Navigationssystemen
