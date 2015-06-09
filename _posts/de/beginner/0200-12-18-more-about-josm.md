@@ -185,17 +185,6 @@ Sie wissen jetzt, wie Sie Beiträge zu OpenStreetMap leisten können. Wie geht e
 bearbeiten ist zwar schön, aber zum Erstellen einer Karte gehört natürlich noch mehr. Sie müssen natürlich
 noch lernen, wie Sie in der realen Natur Informationen über die verschiedenen Objekte sammeln können.
 
-In den nächsten Abschnitten zeigen wir Ihnen zwei Methoden dazu - GPS und Field Papers,
-Damit kann man geographische Daten sammeln und diese in JOSM importieren, um die Karte zu bearbeiten.
-
-Nächste Schritte
-----------------
-
-Unter diesen Links erfahren Sie mehr über:  
- 
-*  [Kartierung mit GPS](/de/beginner/using-gps/)  
-*  [Field Papers](/de/beginner/field-papers/)
-*  [Editieren mit JOSM](/de/beginner/editing-with-josm/) 
 
 
 [JOSM Download Button]: /images/beginner/josm_download-button.png
