@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Utilizando o GPS
-permalink: /pt/beginner/using-gps/
+permalink: /pt/mobile-mapping/using-gps/
 lang: pt
-category: beginner
+category: mobile-mapping
 ---
 
 Utilizando o GPS
