@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Primeros Pasos en la Edición
-permalink: /es/beginner/start-josm/
+permalink: /es/josm/start-josm/
 lang: es
-category: beginner
+category: josm
 ---
 
 Primeros Pasos en la Edición: JOSM

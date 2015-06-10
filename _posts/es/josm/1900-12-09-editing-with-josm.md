@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Editar con JOSM
-permalink: /es/beginner/editing-with-josm/
+permalink: /es/josm/editing-with-josm/
 lang: es
-category: beginner
+category: josm
 ---
 
 Editar con JOSM
