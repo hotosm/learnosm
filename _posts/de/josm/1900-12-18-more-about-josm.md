@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Der Ablauf beim Editieren mit JOSM
-permalink: /de/beginner/more-about-josm/
+permalink: /de/josm/more-about-josm/
 lang: de
-category: beginner
+category: josm
 ---
 
 Der Ablauf beim Editieren mit JOSM

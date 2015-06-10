@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Erste Schritte beim Editieren
-permalink: /de/beginner/start-josm/
+permalink: /de/josm/start-josm/
 lang: de
-category: beginner
+category: josm
 ---
 
 Erste Schritte beim Editieren mit JOSM
