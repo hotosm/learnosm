@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Обработка собранных данных
-permalink: /ru/beginner/editing-with-josm/
+permalink: /ru/josm/editing-with-josm/
 lang: ru
-category: beginner
+category: josm
 ---
 
 Обработка собранных данных

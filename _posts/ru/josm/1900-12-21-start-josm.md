@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Введение в JOSM
-permalink: /ru/beginner/start-josm/
+permalink: /ru/josm/start-josm/
 lang: ru
-category: beginner
+category: josm
 published: true
 ---
 
