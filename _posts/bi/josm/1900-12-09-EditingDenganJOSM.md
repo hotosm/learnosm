@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Editing OpenStreetMap dengan JOSM
-permalink: /bi/beginner/editing-with-josm/
+permalink: /bi/josm/editing-with-josm/
 lang: bi
-category: beginner
+category: josm
 ---
 
 Editing OpenStreetMap dengan JOSM

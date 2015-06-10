@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Proses Mengedit dengan JOSM
-permalink: /bi/beginner/more-about-josm/
+permalink: /bi/josm/more-about-josm/
 lang: bi
-category: beginner
+category: josm
 ---
 
 Proses Mengedit dengan JOSM
