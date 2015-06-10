@@ -38,16 +38,6 @@ OpenStreetMap er et verktøy for å lage og dele kartinformasjon. Hvem som helst
 Vi håper du syns OpenStreetMap er nyttig og interessant i ditt arbeid. Ved å følge denne veiledningen, vil du raskt kunne komme i gang med å lage digitale kart med OpenStreetMap.
 
 
-
-Komme videre 
---------------
-
-Klikk på lenken for mer lesing om: 
-
-*  [Getting started on OpenStreetMap.org](/en/beginner/start-osm/) 
-*  [Getting started with the iD editor](/en/editing/id-editor/) 
-
-
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
 [Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
 [Examples of symbols]: /images/beginner/examples-of-symbols.png

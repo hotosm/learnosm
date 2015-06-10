@@ -56,15 +56,6 @@ Das Wichtige ist aber, dass die OSM Karten im Internet gespeichert werden, und d
 Wir hoffen, dass du OpenStreetMap nützlich und interessant für deine Arbeit findest. 
 Wenn du dieser Anleitung folgst, wirst du schnell in der Lage sein digitale Karten zu erstellen und diese zu OSM zu übermitteln.
 
-Nächste Schritte
---------------
-
-Unter diesen Links gibt es nähere Informationen über:  
-
-*  [Einführung in OpenStreetMap.org](/de/beginner/start-osm/) 
-*  [Einführung in den iD-Editor](/de/editing/id-editor/)   
-*  [Einführung in den JOSM-Editor](/de/beginner/start-josm/)  
-
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
 [Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
 [Examples of symbols]: /images/beginner/examples-of-symbols.png

@@ -33,15 +33,6 @@ OpenStreetMap — це інструмент для створення та ро
 
 Ми сподіваємось, що OpenStreetMap стане корисною та важливою у вашій роботі. Дотримуючись цього керівництва, ви зможете швидко почати створювати електрону мапу та додавати дані в OSM.
 
-Рухаємось далі
----------------
-
-Перейдіть за наступними посиланнями, щоб отримати більш докладну інформацію про те, як:  
-
-*  [Розпочати роботу з OpenStreetMap.org](/uk/beginner/start-osm/)
-*  [Почати використовувати редактор iD](/uk/editing/id-editor/)
-*  [Почати використовувати редактор JOSM](/uk/beginner/start-josm/)  
-
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
 [Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
