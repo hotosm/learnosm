@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Віддалене редагування HOT  
-permalink: /uk/beginner/HOT-Remote-Response-Guide
+permalink: /uk/coordination/HOT-Remote-Response-Guide
 lang: uk
-category: beginner
+category: coordination
 ---
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 

@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: HOT Remote Mapping  
-permalink: /sw/beginner/HOT-Remote-Response-Guide 
+permalink: /sw/coordination/HOT-Remote-Response-Guide 
 lang: sw
-category: beginner
+category: coordination
 ---
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 

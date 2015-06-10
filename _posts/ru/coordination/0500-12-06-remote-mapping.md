@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Удаленное редактирование HOT  
-permalink: /ru/beginner/HOT-Remote-Response-Guide
+permalink: /ru/coordination/HOT-Remote-Response-Guide
 lang: ru
-category: beginner
+category: coordination
 ---
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 
