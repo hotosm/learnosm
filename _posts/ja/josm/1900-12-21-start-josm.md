@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: JOSMの導入
-permalink: /ja/beginner/start-josm/
+permalink: /ja/josm/start-josm/
 lang: ja
-category: beginner
+category: josm
 published: true
 ---
 

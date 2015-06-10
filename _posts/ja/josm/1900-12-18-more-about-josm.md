@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: JOSMの操作方法
-permalink: /ja/beginner/more-about-josm/
+permalink: /ja/josm/more-about-josm/
 lang: ja
-category: beginner
+category: josm
 ---
 
 JOSMの機能について

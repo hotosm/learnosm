@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: JOSMによるOpenStreetMap編集
-permalink: /ja/beginner/editing-with-josm/
+permalink: /ja/josm/editing-with-josm/
 lang: ja
-category: beginner
+category: josm
 ---
 
 JOSMによるOpenStreetMap編集
