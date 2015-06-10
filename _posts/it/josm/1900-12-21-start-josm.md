@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Iniziare con JOSM
-permalink: /it/beginner/start-josm/
+permalink: /it/josm/start-josm/
 lang: it
-category: beginner
+category: josm
 published: true
 ---
 

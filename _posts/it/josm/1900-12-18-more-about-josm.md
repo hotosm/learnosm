@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Ancora su JOSM
-permalink: /it/beginner/more-about-josm/
+permalink: /it/josm/more-about-josm/
 lang: it
-category: beginner
+category: josm
 ---
 
 Ancora su JOSM
