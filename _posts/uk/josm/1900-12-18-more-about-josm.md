@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Редагування в JOSM
-permalink: /uk/beginner/more-about-josm/
+permalink: /uk/josm/more-about-josm/
 lang: uk
-category: beginner
+category: josm
 ---
 
 Редагування в JOSM

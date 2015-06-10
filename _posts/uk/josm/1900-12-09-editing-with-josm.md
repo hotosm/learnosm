@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Обробка зібраних даних
-permalink: /uk/beginner/editing-with-josm/
+permalink: /uk/josm/editing-with-josm/
 lang: uk
-category: beginner
+category: josm
 ---
 
 Обробка зібраних даних
