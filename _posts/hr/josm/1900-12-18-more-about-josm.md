@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Više o JOSM
-permalink: /hr/beginner/more-about-josm/
+permalink: /hr/josm/more-about-josm/
 lang: hr
-category: beginner
+category: josm
 ---
 
 Više o JOSM

@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Uređivanje sa JOSM
-permalink: /hr/beginner/editing-with-josm/
+permalink: /hr/josm/editing-with-josm/
 lang: hr
-category: beginner
+category: josm
 ---
 
 Uređivanje sa JOSM

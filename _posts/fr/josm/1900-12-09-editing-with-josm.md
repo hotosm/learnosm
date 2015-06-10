@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Éditer avec JOSM
-permalink: /fr/beginner/editing-with-josm/
+permalink: /fr/josm/editing-with-josm/
 lang: fr
-category: beginner
+category: josm
 otherguides: "Les autres niveaux"
 ---
 

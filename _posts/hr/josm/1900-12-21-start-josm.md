@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Upoznavanje sa JOSM
-permalink: "/hr/beginner/start-josm/"
+permalink: "/hr/josm/start-josm/"
 lang: hr
-category: beginner
+category: josm
 published: true
 ---
 
