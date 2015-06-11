@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: More Tools
-permalink: /en/editing/more-tools/
+permalink: /en/josm/more-tools/
 lang: en
-category: editing
+category: josm
 ---
 
 More Tools

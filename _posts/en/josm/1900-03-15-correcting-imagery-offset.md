@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Correcting Imagery Offset
-permalink: /en/editing/correcting-imagery-offset/
+permalink: /en/josm/correcting-imagery-offset/
 lang: en
-category: editing
+category: josm
 ---
 
 Imagery Offset

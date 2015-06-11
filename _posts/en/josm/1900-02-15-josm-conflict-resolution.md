@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Conflict Resolution
-permalink: /en/editing/conflict-resolution/
+permalink: /en/josm/conflict-resolution/
 lang: en
-category: editing
+category: josm
 ---
 
 Conflict Resolution

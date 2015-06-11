@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Editing Techniques
-permalink: /en/editing/josm-editing-techniques/
+permalink: /en/josm/josm-editing-techniques/
 lang: en
-category: editing
+category: josm
 ---
 
 Editing Techniques: Common Mistakes

@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Creating Custom Presets
-permalink: /en/editing/creating-presets/
+permalink: /en/josm/creating-presets/
 lang: en
-category: editing
+category: josm
 ---
 
 Creating Custom Presets
