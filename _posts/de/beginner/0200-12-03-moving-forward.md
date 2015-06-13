@@ -51,4 +51,4 @@ Das sind nur ein paar Möglichkeiten, die Sie nutzen können, um mit der OpenStr
 Fröhliches Kartieren!
 
 [Wiki]: /images/beginner/osm-wiki.de.png
-[Mailing list]: /images/beginner/osm-mailing-lists.de.png
+[Mailing list]: /images/beginner/osm-mailing-lists.png
