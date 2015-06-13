@@ -179,12 +179,6 @@ Betrachten Sie Ihre Änderungen auf der Karte
     Wenn Ihr Punkt in JOSM ein Icon aufweist, dann sollte er auch auf der Hauptkarte der
     OpenStreetMap-Webseite zu sehen sein.
 
-Ausblick
---------
-Sie wissen jetzt, wie Sie Beiträge zu OpenStreetMap leisten können. Wie geht es weiter? Eine Karte zu
-bearbeiten ist zwar schön, aber zum Erstellen einer Karte gehört natürlich noch mehr. Sie müssen natürlich
-noch lernen, wie Sie in der realen Natur Informationen über die verschiedenen Objekte sammeln können.
-
 
 
 [JOSM Download Button]: /images/beginner/josm_download-button.png
