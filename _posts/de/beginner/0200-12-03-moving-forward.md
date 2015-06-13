@@ -17,6 +17,7 @@ Mehr erfahren
 
 Es gibt sehr viele Informationen über OpenStreetMap auf [wiki.openstreetmap.org](http://wiki.openstreetmap.org/wiki/DE:Hauptseite). Hier kann man Informationen über andere Projekte, Dokumente und Anleitungen finden, welche sich ebenfalls mit OpenStreetMap befassen.
 
+![Wiki][]
 
 Mailing-Liste
 ------------
@@ -24,6 +25,9 @@ Mailing-Liste
 Der beste Weg um mit der OpenStreetMap-Nutzer-Community verbunden zu bleiben, ist, eine lokale Mailing-Liste zu abonnieren. Viele Benutzer haben das getan und es bietet eine gute Möglichkeit, um Fragen zu stellen oder sich über OpenStreetMap zu unterhalten.
 
 -   Um eine Mailing-Liste deines Landes zu abonnieren, öffnen Sie  [lists.openstreetmap.org](http://lists.openstreetmap.org/) in Ihrem Browser.
+  
+    ![Mailing list][]
+
 -   Suchen Sie auf der Seite die Liste, welche zu Ihrem Land passt. Die Listen sind nach dem Schema "Talk-lg" benannt, wobei "lg" für das Land steht. "Talk-de" ist die Liste für Deutschland.
 -   Klicken Sie auf die Liste, die Sie abonnieren möchten.
 -   Nun müssen Sie die folgenden Informationen eingeben:
@@ -45,3 +49,6 @@ Zusammenfassung
 
 Das sind nur ein paar Möglichkeiten, die Sie nutzen können, um mit der OpenStreetMap-Community verbunden zu bleiben und Ihr Wissen zu erweitern. Wir hoffen, dass Sie sich weiterhin mehr mit OSM beschäftigen und zu dem Projekt beitragen werden. 
 Fröhliches Kartieren!
+
+[Wiki]: /images/beginner/osm-wiki.de.png
+[Mailing list]: /images/beginner/osm-mailing-lists.de.png
