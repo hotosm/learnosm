@@ -345,13 +345,6 @@ mit GPS-Geräten und "Field papers" lernen,
 was dir helfen wird, deinen Wohnort zu kartieren. Dann benutzen wir
 die gesammelten Informationen, um Objekte auf OpenStreetMap einzutragen.
 
-Nächste Schritte
-----------------
-
-Unter diesen Links gibt es nähere Informationen zu:  
-
-*  [Ablauf des Editierens mit JOSM](/de/beginner/more-about-josm/)  
-*  [Arbeiten mit Satellitenbildern (derzeit nur auf Englisch verfügbar)](/en/coordination/remote/)  
 
 [JOSM website]: /images/beginner/josm-website.png
 [Windows installer]: /images/beginner/windows-installer.png
