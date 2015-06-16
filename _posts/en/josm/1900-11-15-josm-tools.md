@@ -173,22 +173,22 @@ These instructions are displayed on the information bar at the bottom of JOSM:
 
 
 
-[tools_menu_sample.osm]: /images/editing/tools-menu-sample-file.png
-[Tools menu]: /images/editing/tools-menu.png
-[Align nodes in circle]: /images/editing/align-nodes-in-circle.png
-[Combine way]: /images/editing/combine-way.png
-[Reverse and combine]: /images/editing/reverse-and-combine.png
-[Way direction]: /images/editing/way-direction.png
-[Simplify way]: /images/editing/simplify-way.png
-[Create circle]: /images/editing/create-circle.png
-[Align nodes in line]: /images/editing/align-nodes-in-line.png
-[Orthagonalize]: /images/editing/orthagonalize.png
-[Unglue way]: /images/editing/unglue-way.png
-[Keyboard S]: /images/editing/keyboard-s.png
-[Keyboard A]: /images/editing/keyboard-a.png
-[Keyboard Z]: /images/editing/keyboard-z.png
-[Keyboard Del]: /images/editing/keyboard-del.png
-[Keyboard plus]: /images/editing/keyboard-plus.png
-[Keyboard minus]: /images/editing/keyboard-minus.png
-[Rotate demo]: /images/editing/rotate-demo.png
-[Rotate instructions]: /images/editing/rotate-instructions.png
+[tools_menu_sample.osm]: /images/josm/tools-menu-sample-file.png
+[Tools menu]: /images/josm/tools-menu.png
+[Align nodes in circle]: /images/josm/align-nodes-in-circle.png
+[Combine way]: /images/josm/combine-way.png
+[Reverse and combine]: /images/josm/reverse-and-combine.png
+[Way direction]: /images/josm/way-direction.png
+[Simplify way]: /images/josm/simplify-way.png
+[Create circle]: /images/josm/create-circle.png
+[Align nodes in line]: /images/josm/align-nodes-in-line.png
+[Orthagonalize]: /images/josm/orthagonalize.png
+[Unglue way]: /images/josm/unglue-way.png
+[Keyboard S]: /images/josm/keyboard-s.png
+[Keyboard A]: /images/josm/keyboard-a.png
+[Keyboard Z]: /images/josm/keyboard-z.png
+[Keyboard Del]: /images/josm/keyboard-del.png
+[Keyboard plus]: /images/josm/keyboard-plus.png
+[Keyboard minus]: /images/josm/keyboard-minus.png
+[Rotate demo]: /images/josm/rotate-demo.png
+[Rotate instructions]: /images/josm/rotate-instructions.png
