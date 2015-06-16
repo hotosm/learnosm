@@ -31,12 +31,12 @@ Todos os sítios na Terra tem um conjunto de coordenadas únicas.
 Por exemplo:  -8.639298 Latitude, 116.311607 Longitude é a localização
 de Lombok, na Indonésia.
 
-![]({{site.baseurl}}/images/pt_beg_ch4_image11.png)
+![Google Earth software, showing coordinates of Lombok, Indonesia][]
 
 Aplicação “Google Earth”, a mostrar as coordenadas de um lugar em
 Lombok, na Indonésia
 
-![]({{site.baseurl}}/images/pt_beg_ch4_image03.png)
+![Garmin eTrex Vista HCx][]
 
 Garmin eTrex Vista HCx
 
@@ -55,12 +55,13 @@ Ligue o GPS
     tiver apanhado o sinal de 3 ou mais satélites, conseguirá calcular a
     sua posição.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch4_image08.png)
+![GPS determined location][]
 
 -  Uma vez a sua posição calculada, o ecrã de satélites desaparecerá e
     poderá ver o menu principal.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch4_image05.png)
+![GPS main menu][]
+
 
 Navegar no GPS
 --------------
@@ -73,8 +74,7 @@ Navegar no GPS
 -  Pressionando o botão “X”, deverá poder navegar entre vários ecrãs
     que terão o seguinte aspecto:
 
-    ![]({{site.baseurl}}/images/pt_beg_ch4_image05.png) ![]({{site.baseurl}}/images/pt_beg_ch4_image06.png)
-    ![]({{site.baseurl}}/images/pt_beg_ch4_image04.png) ![]({{site.baseurl}}/images/pt_beg_ch4_image07.png)
+![GPS all][]
 
 -  Se voltar à página de satélites, poderá ver que está ligado a 3 ou
     mais satélites (se estiver no exterior). No canto superior esquerdo
@@ -107,7 +107,7 @@ será uma série de pontos que mostram o caminho percorrido.
 Tracks (caminhos) são úteis para mapear objectos que são representados
 por linhas ou formas, tais como uma estrada, ou o formato de um campo.
 
-![]({{site.baseurl}}/images/pt_beg_ch4_image09.png)
+![GPS path][]
 
 Um GPS pode gravar um só ponto bem como um caminho percorrido. Aqui os
 pontos estão numerados na ordem em que foram registados. O percurso, ou
@@ -122,8 +122,7 @@ Grave a Sua Localização
     opção “Mark” (marcar). Carregue para baixo no botão do joystick para
     abrir a página “Save Waypoint” (gravar ponto de rota).
 
-    ![]({{site.baseurl}}/images/pt_beg_ch4_image05.png)
-    ![]({{site.baseurl}}/images/pt_beg_ch4_image02.png)
+![save location 1][]
 
 -  Pode ver alguma informação nesta página, acerca do waypoint (ponto
     de rota) que está a gravar. Primeiro é o nome. Se é o primeiro
@@ -155,7 +154,7 @@ Activar o Track Log (Registo de Caminhos)
 -  Para ligar o track log (registo de caminhos), pressione no botão “X”
     até chegar à página que diz “Track Log” (Registo de Caminhos).
 
-    ![]({{site.baseurl}}/images/pt_beg_ch4_image06.png)
+![turn on track][]
 
 -  Se quiser esvaziar o track log (registo de caminhos) para apagar
     gravações anteriores, utilize o joystick para selecionar “Clear”
@@ -226,7 +225,7 @@ Copie Waypoints (pontos de rota) e Tracks (caminhos) para o Computador
 -  Quando o programa terminar de instalar, clique “Finish” (terminar)
     para iniciar o GPSBabel.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch4_image01.png)
+![GPSBabel Interface][]
 
 ### Copiar Tracks (Caminhos) e Waypoints (Pontos de Rota)
 
@@ -237,7 +236,7 @@ Copie Waypoints (pontos de rota) e Tracks (caminhos) para o Computador
 -  Desça para o meio da janela, abaixo de “Output” (saída). No menu de
     cascata legendado “Format” (formato), selecione “GPX XML”:
 
-    ![]({{site.baseurl}}/images/pt_beg_ch4_image00.png)
+![Choose GPX XML][]
 
 -  Clique “File Name” (nome de ficheiro) e escreva um nome para o seu
     ficheiro a gravar. Deverá ser algo que descreva os dados, tal como a
@@ -261,7 +260,7 @@ Copie Waypoints (pontos de rota) e Tracks (caminhos) para o Computador
 -  Neste momento deverá estar a visualizar os pontos (waypoints) e
     caminhos (tracks) que mapeou, no ecrã do JOSM.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch4_image12.png)
+![GPS Files Open in JOSM][]
 
 Sumário
 -------
@@ -277,3 +276,17 @@ No próximo capítulo, aprenderemos acerca do “Walking Papers”, que é
 outra forma de coligir informação para o OpenStreetMap. Com o “Walking
 Papers”, tudo o que precisa é de uma caneta e de um papel, e pode
 registar coordenadas de lugares, como fez com um GPS.
+
+
+[Google Earth software, showing coordinates of Lombok, Indonesia]: /images/mobile-mapping/google-earth-lombok.png
+[Garmin eTrex Vista HCx]: /images/mobile-mapping/garmin-etrex.png
+[GPS determined location]: /images/mobile-mapping/aquiring-satellites.png
+[GPS main menu]: /images/mobile-mapping/gps_main.png
+[GPS all]: /images/mobile-mapping/gps_all.png
+[GPS path]: /images/mobile-mapping/google-earth.png
+[save location 1]: /images/mobile-mapping/save-location1.png
+[save location 2]: /images/mobile-mapping/save-location2.png
+[turn on track]: /images/mobile-mapping/turn-on-track.png
+[GPSBabel Interface]: /images/mobile-mapping/babel.png
+[Choose GPX XML]: /images/mobile-mapping/xml.png
+[GPS Files Open in JOSM]: /images/mobile-mapping/open-josm.png
