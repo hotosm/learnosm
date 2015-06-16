@@ -11,6 +11,26 @@ Weiteres Vorgehen
 
 Wenn Sie es bis hier hin geschafft haben - Glückwunsch! Sie sollten jetzt ein gutes Verständnis davon haben, wie man Karten mit OpenStreetMap erstellt. Aber was kann man noch alles mit OSM anstellen? Wie können Sie noch mehr lernen? Und wie können Sie mit der Gemeinschaft der "Kartographen" verbunden bleiben?
 
+Weitere Abschnitte in learnOSM
+------------------
+
+Am Ende des Kapitels über den iD-Editor haben Sie etwas über die Unterschiede zwischen iD und JOSM erfahren.
+Es gibt einen [eigenen Abschnitt über JOSM](/de/josm/) in dem Sie alles Notwendige lernen, um die
+Möglichkeiten dieses Editors in vollem Umfang nutzen zu können.
+
+Bisher haben wir alle Änderungen an der Karte auf der Grundlage von Satellitenbildern vorgenommen. Aber wir
+können auch beim Wandern oder Fahren jede Menge Informationen aufsammeln. Der 
+[Abschnitt über GPS-basierte Kartierung](/de/mobile-mapping/) erklärt, wie das sowohl mit GPS-Geräten als auch
+mit speziellen Ausdrucken auf Papier geht. Ausserdem finden Sie dort Beschreibungen verschiedener Applikationen
+mit Bezug zu OpenStreetMap für mobile Geräte.
+
+OpenStreetMap ist eine Gemeinschaftsarbeit und wir hoffen, dass Sie sich in Zukunft daran beteiligen werden. 
+Manchmal arbeiten viele Menschen gleichzeitig an einem begrenzten Gebiet. Häufig passiert das im Zusammenhang
+mit humanitären Hilfseinsätzen, die vom Humanitarian OSM Team koordiniert werden. Diese Arbeitsweise funktionert
+aber nur dann, wenn alle Mitarbeiter sich gegenseitig absprechen. [Ein eigener Abschnitt](/de/coordination/)
+erklärt die Werkzeuge, die sicherstellen, dass wir hinterher noch eine brauchbare Karte erhalten. Ausserdem
+finden Sie dort Hinweise zu den typischen Arbeitsschritten, die bei derartigen Projekten immer wiederkehren.
+
 
 Mehr erfahren
 ----------
