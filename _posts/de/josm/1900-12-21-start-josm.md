@@ -346,21 +346,21 @@ was dir helfen wird, deinen Wohnort zu kartieren. Dann benutzen wir
 die gesammelten Informationen, um Objekte auf OpenStreetMap einzutragen.
 
 
-[JOSM website]: /images/beginner/josm-website.png
-[Windows installer]: /images/beginner/windows-installer.png
-[JOSM splash page]: /images/beginner/josm-splash-page.de.png
-[Preferences window]: /images/beginner/josm_preferences.de.png
-[josm down]: /images/beginner/josm_down.png
-[WMS_TMS]: /images/beginner/josm_preferences-wms-tms.png
-[JOSM_TMS]: /images/beginner/josm_imagery.png
-[josm grid]: /images/beginner/josm_grid.png
-[josm plug]: /images/beginner/josm-plug-icon.png
-[prefer speech]: /images/beginner/start_josm_image01_de.png
-[josm-blue-folder]: /images/beginner/josm-blue-folder.png
-[Sample file]: /images/beginner/josm_sample-file.de.png
-[Scale bar]: /images/beginner/josm_scale-bar.png
-[Line point area]: /images/beginner/start_josm_image15.de.png
-[josm tags]: /images/beginner/josm_tags.de.png
-[Select tool]: /images/beginner/josm_select-tool.png
-[Draw tool]: /images/beginner/josm_draw-tool.png
+[JOSM website]: /images/josm/josm-website.png
+[Windows installer]: /images/josm/windows-installer.png
+[JOSM splash page]: /images/josm/josm-splash-page.de.png
+[Preferences window]: /images/josm/josm_preferences.de.png
+[josm down]: /images/josm/josm_down.png
+[WMS_TMS]: /images/josm/josm_preferences-wms-tms.png
+[JOSM_TMS]: /images/josm/josm_imagery.png
+[josm grid]: /images/josm/josm_grid.png
+[josm plug]: /images/josm/josm-plug-icon.png
+[prefer speech]: /images/josm/start_josm_image01_de.png
+[josm-blue-folder]: /images/josm/josm-blue-folder.png
+[Sample file]: /images/josm/josm_sample-file.de.png
+[Scale bar]: /images/josm/josm_scale-bar.png
+[Line point area]: /images/josm/start_josm_image15.de.png
+[josm tags]: /images/josm/josm_tags.de.png
+[Select tool]: /images/josm/josm_select-tool.png
+[Draw tool]: /images/josm/josm_draw-tool.png
 

@@ -243,13 +243,13 @@ dan juga mengenai bagaimana menggunakan tools atau alat dasar dalam
 menggambar peta. Pada bab selanjutnya, Anda akan melihat lebih dekat 
 bagaimana proses mengedit peta OSM di JOSM.
 
-[JOSM website]: /images/beginner/josm-website.png
-[Windows installer]: /images/beginner/windows-installer.png
-[JOSM splash page]: /images/beginner/josm-splash-page.png
-[Preferences window]: /images/beginner/josm_preferences.png
-[Look and feel]: /images/beginner/josm_look-and-feel.png
-[Open file]: /images/beginner/josm_open-file.png
-[Sample file]: /images/beginner/josm_sample-file.png
-[Scale bar]: /images/beginner/josm_scale-bar.png
-[Select tool]: /images/beginner/josm_select-tool.png
-[Draw tool]: /images/beginner/josm_draw-tool.png
+[JOSM website]: /images/josm/josm-website.png
+[Windows installer]: /images/josm/windows-installer.png
+[JOSM splash page]: /images/josm/josm-splash-page.png
+[Preferences window]: /images/josm/josm_preferences.png
+[Look and feel]: /images/josm/josm_look-and-feel.png
+[Open file]: /images/josm/josm_open-file.png
+[Sample file]: /images/josm/josm_sample-file.png
+[Scale bar]: /images/josm/josm_scale-bar.png
+[Select tool]: /images/josm/josm_select-tool.png
+[Draw tool]: /images/josm/josm_draw-tool.png

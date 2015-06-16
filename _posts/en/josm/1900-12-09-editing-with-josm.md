@@ -195,12 +195,12 @@ Click on the link for further reading on:
 
 *  [Learning Beyond the Beginner Guide](/en/beginner/moving-forward/)
 
-[Layers panel]: /images/beginner/josm_layers-panel.png
-[Layers up down]: /images/beginner/josm_layers-panel-up-down.png
-[Layers show hide]: /images/beginner/josm_layers-panel-show-hide.png
-[Layers delete]: /images/beginner/josm_layers-panel-delete.png
-[Layers activate]: /images/beginner/josm_layers-panel-activate.png
-[GPS in JOSM]: /images/beginner/josm_gps-layer.png
-[Properties panel]: /images/beginner/josm_properties-panel.png
-[Nodes mistake]: /images/beginner/josm_nodes-selected-mistake.png
-[JOSM save button]: /images/beginner/josm_save-button.png
+[Layers panel]: /images/josm/josm_layers-panel.png
+[Layers up down]: /images/josm/josm_layers-panel-up-down.png
+[Layers show hide]: /images/josm/josm_layers-panel-show-hide.png
+[Layers delete]: /images/josm/josm_layers-panel-delete.png
+[Layers activate]: /images/josm/josm_layers-panel-activate.png
+[GPS in JOSM]: /images/josm/josm_gps-layer.png
+[Properties panel]: /images/josm/josm_properties-panel.png
+[Nodes mistake]: /images/josm/josm_nodes-selected-mistake.png
+[JOSM save button]: /images/josm/josm_save-button.png
