@@ -112,3 +112,11 @@ translations:
     feedbackspan: "Var dette kapittelet nyttig?"
     feedback: "Gi oss tilbakemelding og hjelp oss med å forbedre guidene!"
     getstarted: "Kom i gang"
+zh:
+    tagline: "Learn OpenStreetMap Step by Step"
+    contribute: "Help improve our guides"
+    trainingspan: "Are you a workshop organizer?"
+    training: "Check out training material for this guide (in English)"
+    feedbackspan: "Was this chapter helpful?"
+    feedback: "Let us know and help us improve the guides!"
+    getstarted: "Get started"
