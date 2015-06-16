@@ -298,26 +298,26 @@ on the trace list will be created.
   The file will be uploaded to the OSM server, where it will join the
 queue of files waiting to be inserted into the database.
 
-[Plug Icon]: /images/editing/josm-plugins_image00_plug-icon.png
-[Restart JOSM]: /images/editing/josm-plugins_image01_restart-josm.png
-[Mirrored Download]: /images/editing/josm-plugins_image02_mirrored_download.png
-[Download from OSM Mirror]: /images/editing/josm-plugins_image03_download-from-osm-mirror.png
-[Direct Upload]: /images/editing/josm-plugins_image04_direct-upload.png
-[Upload Traces Item]: /images/editing/josm-plugins_image05_upload-traces-item.png
-[Upload Traces Window]: /images/editing/josm-plugins_image06_upload-traces-window.png
-[Edit Gpx]: /images/editing/josm-plugins_image07_edit-gpx.png
-[Edit Gpx Tool Icon]: /images/editing/josm-plugins_image08_edit-gpx-tool-icon.png 
-[Open GPX File]: /images/editing/josm-plugins_image09_open-gpx-file.png
-[GPX Nodes All]: /images/editing/josm-plugins_image10_gpx-nodes-all.png
-[GPX Nodes Selected]: /images/editing/josm-plugins_image11_gpx-nodes-selected.png
-[Print Plugin]: /images/editing/josm-plugins_image12_print-plugin.png
-[Print Menu Item]: /images/editing/josm-plugins_image13_print-menu.png
-[Print Dialog]: /images/editing/josm-plugins_image14_print-dialog.png
-[More Info Link]: /images/editing/josm-plugins_image15_more-info-link.png
-[Direct Upload Plugin]: /images/editing/josm-plugins_image16_direct-upload-plugin.png
-[DirectUpload Traces Options]: /images/editing/josm-plugins_image17_directupload-traces.png
-[Left Banner]: /images/editing/josm-plugins_image18_left-banner.png
-[Online Upload Traces Options]: /images/editing/josm-plugins_image19_online-upload-traces.png
+[Plug Icon]: /images/josm/josm-plugins_image00_plug-icon.png
+[Restart JOSM]: /images/josm/josm-plugins_image01_restart-josm.png
+[Mirrored Download]: /images/josm/josm-plugins_image02_mirrored_download.png
+[Download from OSM Mirror]: /images/josm/josm-plugins_image03_download-from-osm-mirror.png
+[Direct Upload]: /images/josm/josm-plugins_image04_direct-upload.png
+[Upload Traces Item]: /images/josm/josm-plugins_image05_upload-traces-item.png
+[Upload Traces Window]: /images/josm/josm-plugins_image06_upload-traces-window.png
+[Edit Gpx]: /images/josm/josm-plugins_image07_edit-gpx.png
+[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png 
+[Open GPX File]: /images/josm/josm-plugins_image09_open-gpx-file.png
+[GPX Nodes All]: /images/josm/josm-plugins_image10_gpx-nodes-all.png
+[GPX Nodes Selected]: /images/josm/josm-plugins_image11_gpx-nodes-selected.png
+[Print Plugin]: /images/josm/josm-plugins_image12_print-plugin.png
+[Print Menu Item]: /images/josm/josm-plugins_image13_print-menu.png
+[Print Dialog]: /images/josm/josm-plugins_image14_print-dialog.png
+[More Info Link]: /images/josm/josm-plugins_image15_more-info-link.png
+[Direct Upload Plugin]: /images/josm/josm-plugins_image16_direct-upload-plugin.png
+[DirectUpload Traces Options]: /images/josm/josm-plugins_image17_directupload-traces.png
+[Left Banner]: /images/josm/josm-plugins_image18_left-banner.png
+[Online Upload Traces Options]: /images/josm/josm-plugins_image19_online-upload-traces.png
 
 -->
 
