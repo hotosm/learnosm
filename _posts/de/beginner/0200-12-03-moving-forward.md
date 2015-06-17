@@ -24,12 +24,12 @@ können auch beim Wandern oder Fahren jede Menge Informationen aufsammeln. Der
 mit speziellen Ausdrucken auf Papier geht. Ausserdem finden Sie dort Beschreibungen verschiedener Applikationen
 mit Bezug zu OpenStreetMap für mobile Geräte.
 
-OpenStreetMap ist eine Gemeinschaftsarbeit und wir hoffen, dass Sie sich in Zukunft daran beteiligen werden. 
-Manchmal arbeiten viele Menschen gleichzeitig an einem begrenzten Gebiet. Häufig passiert das im Zusammenhang
-mit humanitären Hilfseinsätzen, die vom Humanitarian OSM Team koordiniert werden. Diese Arbeitsweise funktionert
-aber nur dann, wenn alle Mitarbeiter sich gegenseitig absprechen. [Ein eigener Abschnitt](/de/coordination/)
-erklärt die Werkzeuge, die sicherstellen, dass wir hinterher noch eine brauchbare Karte erhalten. Ausserdem
-finden Sie dort Hinweise zu den typischen Arbeitsschritten, die bei derartigen Projekten immer wiederkehren.
+OpenStreetMap ist eine Gemeinschaftsarbeit und wir hoffen, dass Sie sich in Zukunft daran beteiligen werden. Einige
+Arbeiten laufen unter der Koordination des [Humanitarian OSM Team](http://hotosm.org) und unterstützen humanitäre
+Hilfseinsätze. Wenn Sie HOT anläßlich von Naturkatastrophen wie dem Erdbeben in Nepal helfen möchten, lesen Sie bitte 
+den [Abschnitt über Koordination](/de/coordination/). Er behandelt die Werkzeuge, die sicherstellen, dass viele
+Menschen gleichzeitig an einem begrenzten Gebiet zielgerichtet arbeiten können. Ausserdem finden Sie dort Hinweise zu
+den typischen Arbeitsschritten, die bei derartigen Projekten immer wiederkehren.
 
 
 Mehr erfahren
