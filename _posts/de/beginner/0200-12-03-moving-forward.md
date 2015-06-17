@@ -26,7 +26,7 @@ mit Bezug zu OpenStreetMap für mobile Geräte.
 
 OpenStreetMap ist eine Gemeinschaftsarbeit und wir hoffen, dass Sie sich in Zukunft daran beteiligen werden. Einige
 Arbeiten laufen unter der Koordination des [Humanitarian OSM Team](http://hotosm.org) und unterstützen humanitäre
-Hilfseinsätze. Wenn Sie HOT anläßlich von Naturkatastrophen wie dem Erdbeben in Nepal helfen möchten, lesen Sie bitte 
+Hilfseinsätze. Wenn Sie HOT anlässlich von Naturkatastrophen wie dem Erdbeben in Nepal helfen möchten, lesen Sie bitte 
 den [Abschnitt über Koordination](/de/coordination/). Er behandelt die Werkzeuge, die sicherstellen, dass viele
 Menschen gleichzeitig an einem begrenzten Gebiet zielgerichtet arbeiten können. Ausserdem finden Sie dort Hinweise zu
 den typischen Arbeitsschritten, die bei derartigen Projekten immer wiederkehren.
