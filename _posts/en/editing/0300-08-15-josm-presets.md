@@ -11,7 +11,7 @@ JOSM Presets
 
 If you've been using JOSM for long, by now you understand a bit
 about tags and presets. Every object is defined by two things - first,
-it's geometry (whether it's a point, line, or shape and its location),
+its geometry (whether it's a point, line, or shape and its location),
 and second, its attributes which come in the form of tags.
 
 When you draw an object and select from the Presets menu, the correct tags
