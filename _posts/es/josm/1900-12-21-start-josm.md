@@ -30,7 +30,7 @@ Descarga de JOSM
 - También puedes encontrar la web buscando «JOSM» en un buscador.
 - La web debería ser algo como esto:
 
-  ![]({{site.baseurl}}/images/start_josm_image05_en.png)
+ ![JOSM website][]
 
 - Si tienes instalado Windows en tu computadora haz clic en «Windows Installer» 
   o «Instalador de Windows» para descargar JOSM. Si tienes otro sistema 
@@ -58,7 +58,7 @@ Instalación de JOSM
   nunca más, marca la casilla de abajo antes de pulsar «Cancelar».
 - Cuando JOSM se haya iniciado parecerá algo como esto: 
 
-  ![]({{site.baseurl}}/images/start_josm_image08_es.png)
+ ![JOSM splash page][]
 
 Cambia las preferencias de JOSM
 -------------------------------
@@ -68,7 +68,7 @@ de las opciones de configuración de forma que sea más fácil de usar. Para
 cambiar las preferencias haz clic en «Editar» en el menú superior y después
 en «Preferencias...».
 
-![]({{site.baseurl}}/images/start_josm_image13_es.png)
+ ![Preferences window][]
 
 ### Añade imágenes de Bing
 
@@ -78,13 +78,11 @@ en «Preferencias...».
   Haz clic en el icono que dice «WMS TMS». Puede que necesites hacer
   clic en la flecha inferior para encontrarlo:
 
-  ![]({{site.baseurl}}/images/start_josm_image07_en.png)
+ ![JOSM WMS TMS][]
 
-  ![]({{site.baseurl}}/images/start_josm_image02_en.png)
-
+ ![JOSM imagery][]
+ 
 - Haz clic en «Bing Sat». Después pulsa «Activar»
-
-  ![]({{site.baseurl}}/images/start_josm_image11_es.png)
 
 - Ahora deberías poder ver «Bing Sat» en la lista que aparece bajo el 
   botón Activar.
@@ -98,7 +96,7 @@ en «Preferencias...».
   haz clic en Editar -\> Preferencias para abrir la ventana.
 - A la izquierda, haz clic en el icono que parece una cuadrícula.
 
-  ![]({{site.baseurl}}/images/start_josm_image09_en.png)
+ ![JOSM grid][]
 
 - En la parte superior pulsa en la pestaña que dice «Etiquetas preestablecidas».
 - Arriba a la derecha pulsa el botón +.
@@ -118,7 +116,7 @@ en «Preferencias...».
   haz clic en Editar -\> Preferencias para abrir la ventana.
 - En la parte izquierda haz clic en el icono que parece un enchufe.
 
-  ![]({{site.baseurl}}/images/start_josm_image04_en.png)
+ ![Plug Icon][]
 
 - Pulsa el botón que dice «Descargar Lista». La lista se descargará de
   Internet y cuando haya acabado verá aparecer una lista de los complementos
@@ -142,8 +140,8 @@ en «Preferencias...».
 - Elige tu idioma en la lista desplegable junto a la palabra «Idioma».
 - Haz clic en Aceptar.
   
-  ![]({{site.baseurl}}/images/start_josm_image01_es.png)
-  
+ ![Look and feel][]
+
 - Necesitas reiniciar JOSM para guardar tus preferencias. Selecciona «Archivo»
   en la esquina superior izquierda y después «Salir» al final del menú.
 - Inicia JOSM de nuevo yendo al menú de Inicio de Windows en la esquina
@@ -165,13 +163,10 @@ Aprende las bases del dibujo con JOSM
   ubicación en tu computadora para guardar el archivo.
 - Ahora abramos archivo del mapa de ejemplo en JOSM. Abre JOSM. Pulsa
   el botón «Abrir» arriba a la izquierda.
-
-  ![]({{site.baseurl}}/images/start_josm_image12_en.png)
-
 - Busca y selecciona el archivo sample.osm. Haz clic en «Abrir».
 - Ahora deberías poder ver un mapa de ejemplo similar a este:
 
-  ![]({{site.baseurl}}/images/start_josm_image03_en.png)
+ ![Sample file][]
 
 ### Operaciones básicas
 
@@ -185,7 +180,7 @@ Aprende las bases del dibujo con JOSM
   manteniendo pulsado el botón izquierdo del ratón y moviendo la barra
   a la izquierda o la derecha con el ratón.
 
-  ![]({{site.baseurl}}/images/start_josm_image14_en.png)
+ ![Scale bar][]
 
 - Mira el mapa de ejemplo. Hay unos cuantos tipos de objetos distintos en él.
   Hay un río, un bosque, algunos edificios, varias carreteras y un par
@@ -253,14 +248,14 @@ Aprende las bases del dibujo con JOSM
 - Hasta ahora has estado utilizando la herramienta de Selección, que tiene
 este aspecto: 
 
-  ![]({{site.baseurl}}/images/start_josm_image00_en.png)
+ ![Select tool][]
 
 - Andes de dibujar necesitas estar seguro de que no hay nada seleccionado.
   Haz clic en el espacio negro en el mapa, donde esté vacío, para asegurarte
   de que no hay nada seleccionado.
 - Haz clic en el segundo botón, la herramienta de Dibujo.
 
-  ![]({{site.baseurl}}/images/start_josm_image10_en.png)
+ ![Draw tool][]
 
 - Busca una zona vacía en el mapa y haz doble clic con el ratón. Esto
   dibujará un único punto.
@@ -279,7 +274,7 @@ este aspecto:
   polígonos son campos, edificios u otra cosa.
 - Haz clic en la herramienta de Selección, en la columna de la izquierda.
 
-  ![]({{site.baseurl}}/images/start_josm_image00_en.png)
+ ![Select tool][]
 
 - Selecciona uno de los objetos que has dibujado con la herramienta de 
   Dibujo. En el menú superior, haz clic en «Predefinidos». Mueve el ratón
@@ -317,3 +312,18 @@ próximos dos capítulos aprenderás cómo usar el GPS y los *Walking Papers* pa
 crear un mapa de tu pueblo o ciudad. En el Capítulo 6 volveremos a JOSM
 y usando la información que habremos recopilado añadiremos objetos a 
 OpenStretMap.
+
+[JOSM website]: /images/josm/josm-website.png
+[Windows installer]: /images/josm/windows-installer.png
+[JOSM splash page]: /images/josm/josm-splash-page.es.png
+[Preferences window]: /images/josm/josm_preferences.es.png
+[JOSM WMS TMS]: /images/josm/josm_preferences-wms-tms.png
+[JOSM imagery]: /images/josm/josm_imagery.es.png
+[JOSM grid]: /images/josm/josm_grid.png
+[Plug Icon]: /images/josm/josm-plugins_image00_plug-icon.png
+[Look and feel]: /images/josm/josm_look-and-feel.png
+[Open file]: /images/josm/josm_open-file.png
+[Sample file]: /images/josm/josm_sample-file.png
+[Scale bar]: /images/josm/josm_scale-bar.png
+[Select tool]: /images/josm/josm_select-tool.png
+[Draw tool]: /images/josm/josm_draw-tool.png
