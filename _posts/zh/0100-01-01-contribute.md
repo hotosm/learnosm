@@ -3,7 +3,7 @@ layout: contribute
 permalink: /zh/contribute/
 lang: zh
 title: Contribute
-contributetitle: "Help improve our guides"
+contributetitle: "帮助我们改善指南目录"
 startwith: "Ready to get started?"
 startA: "Send us feedback"
 startB: "Create a translation"
