@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: The JOSM Editing Process
+title: Mchakato wa Kuhariri na JOSM
 permalink: /sw/beginner/more-about-josm/
 lang: sw
 category: beginner
@@ -9,213 +9,221 @@ category: beginner
 Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
 tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).  
 
-The JOSM Editing Process
-========================
-In the previous section you
-installed JOSM and began drawing your first points, lines, and shapes.
-You added presets to these objects in order to attach information about
-them. By the end, you were able to draw your own map in JOSM.
+Mchakato wa Kuhariri na JOSM
+============================
 
-This was good practice, and now we are ready to edit OpenStreetMap.
+Kwenye kipengele kilichotangualia tuliiweka JOSM kwenye komputa na kuanza
+kuchora alama, mistari na maumbo mbalimbali. Ukaongezea presets kwenye hii
+michoro ili kuongeza tariifa kuhusu vitu hivyo, mpaka mwisho ukafanikiwa
+kuchora ramani kwa JOSM. 
 
-In this section we will take a closer look at the interface of JOSM, and see
-how we can use it to edit the map on OpenStreetMap.
+Hili lilikuwa zoezi zuri, sasa uko tayari kuhariri ramani ya OpenStreetMap. 
 
-The Cycle of Editing
----------------------
-Editing OpenStreetMap with JOSM is similar to editing with the iD editor we
-saw previously. But because JOSM is a desktop application, it works a little
-bit differently. The process of editing and adding to OpenStreetMap with
-JOSM will always be as follows:
+Kwenye kipengele hiki tutaitazama JOSM kwa kina zaidi nakuona mbinu 
+mbalimbali zakufanya mabadiliko kwenye ramani za OpenStreetMap.
 
-1. **Download** the current map data from OSM
-2. **Edit** it using Satellite Imagery, GPS, Field Papers, and notes as a guide
-3. **Save** changes to OpenStreetMap
+Mzunguko Wa Ubadilishaji Ramani
+-------------------------------
 
-Downloading OSM Data
+Kuhariri ramani ya OpenStreetMap ni sawa na kuhariri kwa kutumia iD editor 
+kama tulivyoona hapo awali. Lakini kwa sababu JOSM ni programu ya komputa, 
+inafanya kazi tofauti. Mchakato wakuhariri na kuongeza kwenye OpenStreetMap 
+kwa kutumia JOSM ni kama ifuatavyo:
+
+1. ***Pakua*** data za ramani unayoitaka kutoka OSM
+2. ***Hariri*** kwa kutumia picha za satellite, GPS, Field Papers  na maelezo mbali mbali kama muongozo
+3. ***Hifadhi*** mabadiliko kwenye OpenStreetMap.
+
 --------------------
-The first editing step is to download the data for the area of the world that
-we want to improve. Remember that you need to do this every time that you want
-to make changes to the map, because the map is often being updated by other users.
+Upakuaji wa data kutoka OSM
+---------------------------
 
--	Click on “File” in the top left corner of JOSM and click “Download
-    from OSM”. This will open up the download window. You can access
-    this window more simply by clicking on the download button, shown
-    here:
+Hatua ya kwanza yakufanya mabadiliko ni kupakua data/taarifa za eneo la dunia 
+unalotaka kuliboresha. Ukumbuke kuwa inabidi ufanye hivi kila unapotaka kufanya 
+mabadiliko kwenye ramani, kwa sababu ramani inaboreshwa mara kwa mara na watumiaji 
+wengine pia kama wewe. 
+
+- Bonyeza kitufe kwenye "File" upande wa kushoto juu wa JOSM harafu bonyeza 
+  "Download from OSM" ("Pakupa kutoka OSM"). Dirisha la upakuaji litafunguka. 
+  Au unaweza kupata dirisha hili kwa urahisi kwa kubonyeza kitufe cha chakupakua, 
+  kilichoonyeshwa hapa:
 
 ![JOSM Download Button][]
 
--  When the download window opens, you should see a map with a pink box
-    drawn on it. If you don’t see the map, click on the tab marked
-    “Slippy map”.
+- Dirisha la upakuaji utakapofunguka utaona ramani yenye kiboksi cha rangi 
+  ya pinki kilichochorwa juu ya ramani. Kama hauioni ramani bonyeza eneo 
+  lililoandikwa “Slippy map”.
 
 ![JOSM Download Dialog][]
 
--  The pink box represents the area of the map that we would like to
-    download for editing. Use your mouse to pan and zoom it to an area
-    that you know very well, such as your hometown or neighborhood. The
-    controls are the same as in the JOSM map window. The right mouse button
-    lets you drag the map, and your scroll wheel allows you to zoom in and
-    out.
+-  Kiboksi cha pinki kinaonyesha eneo ambalo litapakuliwa kwa ajili ya 
+   kuhariri. Unaweza kukuza au kusogeza mpaka kwenye eneo unalolifahamu 
+   vizuri, kama mtaa wako au kijiji. Mbinu za kusogeza nakukuza ni kama 
+   kwenye ramani ya dirisha la JOSM. Kitufe cha kulia cha kipanya 
+   kinakuwezesha kusogeza ramani, na kitairi cha kipanya kinakuwezesha 
+   kukuza au kupeleka mabali ramani.
 
->	Sometimes if you are working on a notebook computer it can be difficult
->	to scroll in and out. Working in JOSM is much easier if you have a mouse,
->	but most modern notebooks allow you to scroll using the touchpad.
+>	Wakati mwingine kama unatumia laptop inaweza kuwa ngumu
+>	kusogeza nakukuza ramani. Ni rahaisi kutumia JOSM na kipanya.
+>	ila laptop nyingi zakisasa zinarahisisha kazi hii kwa kutumia touchpad.
 
--	Draw a box around the area that you want to download. To draw a new box, click on the
-    map, hold your left mouse button down, and drag your mouse to create
-    a box. Release the mouse button to finish drawing the box.
--  When you are satisfied with the size and location of the box, click
-    “Download” at the bottom of the window. JOSM will get the data for
-    this area from OpenStreetMap and open it in your map window for
-    editing.
+-	Chora kiboksi kwenye eneo unalotaka kupakua. Kuchora kiboksi kipya bofya kwenye ramani,
+    shikilia kitufe cha kushoto cha kipanya chako, vuta kwenye uso wa 
+    ramani ili kuchora kiboksi. Achia kitufe ili kumaliza uchoraji.
 
-### Add Imagery
-If you followed along when we added our first points with the iD editor, you
-remember that beneath the map data there was a satellite image that helped
-us identify objects on the ground. This imagery was from Microsoft Bing, which
-generously provides its imagery for OpenStreetMap users to reference while
-contributing to the map.
+-  Ukiridhika na ukubwa na mahali kiboksi kilipo, bonyeza "Download" 
+   "(Pakua)" chini ya dirisha. JOSM itapata data ya eneo hilo nakuliwasilisha 
+   kwenye JOSM kwa ajili ya uboreshaji.
 
--	To add the Bing satellite imagery in JOSM, click "Imagery" on the top menu of
-    JOSM and selecting “Bing Sat.”
+### Kuweka Picha 
+Kama ulifuatilia jinsi tulivyoongeza point za mwanzo na iD editor, ukumbuke 
+kwamba chini ya ramani kuna picha za anga ambazo zitatusaidia kutambua vitu 
+kwenye ardhi. Hii picha imetokea kwa Microsoft Bing, ambao wametoa picha zao 
+kwa ajili ya watumiaji wa OpenStreetMap kuangalia pale wanapochangia kwenye 
+ramani.
 
->   If you don't see Bing Sat on the Imagery menu, you may need to activate
->   it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
->   that says “WMS TMS”. You may need to click on the down arrow to find it.
+-  	Kuweka picha za anga za Bing katika JOSM, bonyeza “Imagery” juu katika orodha 
+    ya JOSM na chagua “Bing Sat.”
+
+>   Kama hujaiona  Bing Sat katika orodha ya picha, unatakiwa kuactivate katika 
+>   JOSM preference. Nenda Edit (badili) -> Preference na bonyeza kwenye alama 
+>   inayosema “WMS TMS”. Unaweza ukatakiwa kubonyeza chini ya mshale kutafuta
 >
 >	![JOSM Preferences up down][]
 >	![JOSM Preferences WMS TMS][]
->
->   Click on “Bing Sat”. Then Click “Activate”.
 
+>   Bonyeza “Bing Sat”. Halafu Bonyeza “Activate” ("Amsha".)
 
-### Tour of JOSM
-Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery,
-let's take another look at the interface of JOSM.
+### Ziara ya JOSM
+Sasa tumeshaipakua taarifa ya OpenStreetMap na kuweka picha za anga za Bing, 
+tuangalie muonekano wa JOSM
 
 ![JOSM layout][]
 
-The main window you are already familiar with - this is the map window, and 
-it is where most of the action takes place. Here you will view, edit, and
-add to the OpenStreetMap data.
+Dirisha kuu tayari umeshalielewa na kulizoea - hii ni dirisha la ramani, na 
+ipo pale ambapo mara nyingi kazi inafanyika. Hapa unaweza kuangalia, kuhariri 
+na kuongeza kwenye data za OpenStreetMap. 
 
-To the right of the map window are a series of panels, each of which has
-its own function. Typically when you first install JOSM several
-panels are shown by default, such as Layers, Properties, and
-Selection. When you select a point, line, or shape in the map
-window, it will be shown in the Selection panel. Information about
-the object will be shown in the Properties panel, and the username
-of the author of that object will be shown in the Authors panel.
+Upande wa kulia wa dirisha la ramani kuna mfululizo wa panels, na kila panel 
+ina kazi yake. Kawaida unapoweka JOSM kwa mara ya kwanza panel mbalimbali 
+zinaonekana kama vile tabaka, sifa na uchaguzi. Pale unapochagua pionti, 
+mstari au umbo katika dirisha la ramani, itaonekana katika panel ya uchaguzi. 
+Taarifa kuhusu vitu zitaonekana katika “Properties Panel” na jina la mchoraji 
+wa hicho kitu litaonekana katika “Authors panel”. 
 
-These panels can be opened or closed by clicking on the various buttons on
-lower left side of JOSM. Above these buttons in the upper right are tools which
-change what you can do with your mouse. You are already familiar with some of them,
-the Select tool and the Draw tool. Below them are tools which make it easier to
-zoom in, delete an object, draw a shape, or create a line that is parallel
-to another line.
+Hizi panel zinaaweza kufunguliwa au kufungwa kwa kubonyeza vifungo mbalimbali katika 
+upande wa chini kushoto wa JOSM. Chini ya hivo vifungo upande wa juu kulia kuna 
+vifaa ambavyo vinabadilisha kitu unachotaka kufanya na kipanya. Tayari ushavijua 
+baadhi yake, Select tool (kifaa cha kuchagulia) na Draw tool (kifaa cha kuchorea). 
+Kwa chini ya hivo vifaa ambapo panafanya iwe rahisi kukuza, kuchora umbo, kufuta 
+kitu au kutengeneza mstari ambao unaelekeana na mstari mwingine.
 
+Hariri
+------
+Hivyo tunakuwa tumekamilisha hatua moja ya mchakato wa kuhariri - Upakuaji. 
+Yumewaandalia JOSM na picha za satelaiti kama rejea. Hatua ya pili ni kuhariri 
+ramani na kuongeza vitu vipya. 
 
-Edit
-----
-So we have completed step one of the editing process - Downloading. We have
-prepared JOSM with satellite imagery as a reference. The next step is to edit
-the map and add new items.
+Kulingana na eneo kwamba wewe uliamua kulipakua, unaweza kuwa na data nyingi 
+au chache zilizopo. Lakini ona kwamba ni aina hiyo ya data tulizoona awali - pointi, 
+mistari, na maumbo yanayo wakilisha maeneo halisi ya maisha.
 
-Depending on the area that you chose to download, there may be a lot or very
-little existing map data. But notice that it is the same sort of data that we
-have seen previously - points, lines, and shapes that represent real-life locations.
+-	Tumia mbinu ambazo tayari ulijifunza kuongeza pointi kwenye ramani ya maeneo 
+        ambazo unajua. Kama unaweza kuona makosa yoyote, jaribu kuyarekebisha.
 
--	Use the techniques you have already learned to add a couple points to the map
-	of places that you know. If you see any mistakes, try to fix them.
--	You don't need to be too aggressive while you are learning. If you are unsure
-	about something it's better to leave it as it is.
--	If you want to move a point, line, or shape, use the
-    **select tool**. Click on an object and drag it where it
-    should be. This can be used to correct the location of items that
-    have been put in the wrong place.
+-	Huna haja ya kuwa na uharaka wakati wewe unajifunza. Kama huna uhakika kuhusu 
+	kitu ni bora ukiache kama ni kilivyo.
+
+-	Kama unataka kusogeza pointi, mstari, au umbo, tumia 
+    **Chombo cha kuchagua**. Bonyeza kwenye pointi 
+    na sogeza mahali husika. Hii inaweza kutumika kurekebisha eneo 
+    la vitu ambayvo vimewekwa sehemu ambayo siyo sahihi.
 
 ![JOSM select tool][]
 
--  Use the **draw tool** to draw new points, lines, and shapes.
-    Describe these objects by selecting from the Presets menu, as you
-    did in the previous section. 
+-  Tumia **chombo cha kuchorea** kuchora pointi mpya, mistari, 
+   na maumbo. Kuelezea vitu hivi nenda kwenye orodha ya Presets, kama
+   ulivyofanya katika sehemu iliyopita.
 
->	Never edit the map outside of the area you have downloaded. You
->	can see the rectangular area you have downloaded has a solid background,
->	while the area you have not downloaded has diagonal pinstriped lines.
+>	Kamwe usihariri ramani nje ya eneo ulilo pakua. Unaweza kuona 
+>       mazingira mstatili uliyo pakuliwa ina msingi imara, wakati eneo hilo 
+>       ambalao huja pakuliwa lina mistari ulalo.
 >
 >	![JOSM area downloaded][]
 
-Save Changes
---------------
-The third and final step to complete our edits is to upload the changes we have
-made to the OpenStreetMap database. To save the changes, we must
-be connected to the internet.
+Hifadhi Mabadiliko
+------------------
+Hatua ya tatu na ya mwisho kukamilisha haririshaji wetu ni kupakia mabadiliko 
+tumefanya kwenye OpenStreetMap. Kuhifadhi mabadiliko ni lazima kuwe kumeunganishwa 
+na mtandao.
 
--  Click “File” on the top menu, and then click “Upload Data”. This
-    will open up the upload window. You can access this window more
-    simply by clicking on the upload button, shown here:
+-  Bonyeza kitufe kwenye "File" kwenye menu ya juu, harafu bonyeza 
+  "Upload Data" ("Pakia kwenye OSM"). Dirisha la upakiaji litafunguka. 
+  Au unaweza kupata dirisha hili kwa urahisi kwa kubonyeza kitufe cha chakupakia, 
+  kilichoonyeshwa hapa:
 
 ![JOSM Upload Button][]
 
--  The window that appears shows a list of the objects that you are
-    adding and the objects you are modifying or deleting. In the box at
-    the bottom you are asked to provide a comment about the changes that
-    you are making. Type in here a description of your edits.
+-  Dirisha ambayo inaonekana chini inaonyesha orodha ya vitu ulivyoongeza,
+   ulivyo badilisha au vitu ulivyofuta. Katika sanduku chini unaombwa kutoa 
+   maoni kuhusu mabadiliko ambayo umefanya. Andika hapa maelezo ya masahihisho 
+   yako.
 
 ![JOSM Upload Dialog][]
 
--  Click “Upload Changes”.
+-  Bonyeza “pakia mabadiliko”.
 
--	If this is your first time saving changes to OpenStreetMap, you will
-    be asked for your OpenStreetMap username and password.
--	Enter them in the window that appears. If you check the box in
-    this window, your username and password will be saved and you won’t
-    need to enter them again in the future. Click “Authenticate”.
+-       Kama hii ni mara yako ya kwanza kutunza mabadiliko kwenye OpenStreetMap, 
+    utaulizwa jina lako unalotumia kwenye OpenStreetMap na neno la siri.
+-       Ingiza jina na neno la siri kwenye dirisha inaoonekana. Kama ukiweka 
+    alama ya tiki kwenye kisanduku katika dirisha hili, jina na neno la siri 
+    lako vitatunzwa hakuna haja ya kuingia tena katika siku zijazo au zingine. 
+    Bonyeza “Authenticate” "Kuthibitisha".
 
 ![JOSM Authenticate][]
 
 -	You will need to wait a few seconds for your changes to be uploaded,
     and then you are done! You have edited the map on OpenStreetMap.
+-       Unahitaji kusubiri sekunde chache kwa ajili ya mabadiliko yako kwa 
+    kupakiwa, kisha tayari! Umetengeneza ramani kwenye  OpenStreetMap.
 
->	When you are editing, always be sure to upload your changes before you
->	close JOSM. Even if you still have more editing to do, upload your changes,
->	and then go through the process again later when you have time to edit. You
->	don't want to lose your work!
+>       Wakati wewe unahariri, daima kuwa na uhakika wa kupakia mabadiliko yako 
+>       kabla hujafunga JOSM. Hata kama bado unahariri, kwanza pakia mabadiliko yako, 
+>       na kisha endelea kwa kupitia mchakato huu tena kwa baadaye wakati una muda 
+>       mwingine kuhariri. Hakuna haja ya kupoteza kazi yako! 
 
-See your changes on the map
----------------------------
--  Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
--  Move the map to the area that you edited.
--  You should see your changes now appearing on the map! If you don’t,
-    try pressing CTRL+R to refresh the web page. Sometimes the map
-    doesn’t update properly and needs to be reloaded.
--  What if you don’t see your changes? Don’t worry - it may take a few
-    minutes for the changes to be shown on the map. Also, check your
-    additions in JOSM to make sure that you added them correctly. A good
-    general rule is, if your point has an icon in JOSM, then it should
-    be seen on the main map at the OpenStreetMap website.
+Kuona mabadiliko yako kwenye ramani
+-----------------------------------
+-  Fungua mtandao wako na kusha nenda tovuti [http://openstreetmap.org/](http://openstreetmap.org/)
+-  Peleka ramani mpaka eneo ambalo uliishia kufanyia uharirishaji.
+-  Yakupaswa kuona mabadiliko yako kwenye ramani inayoonekana! Kama hujaona, 
+   jaribu kubonyeza CTRL+R kuludia tena ukurasa wa mtandao. Wakati mwingine
+   ramani inashindwa kujiupdate vizuri na inahitaji kuludiwa.
+-  Niaje kama huoni mabadiliko yako ? Usijali - inaweza kuchukua dakika chache 
+    kwa ajili ya mabadiliko kuonyeshwa kwenye ramani. Pia, angalia nyongeza yako 
+    katika JOSM kuhakikisha uliongeza mabadiliko kwa usahihi. Nzuri ni kanuni ya 
+    jumla, kama pointi yako ina alama katika JOSM, basi kisha ni ya paswa 
+    kuonekana kwenye ramani kuu katika tovuti OpenStreetMap.
 
-Summary
--------
-Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing
-is great, but it's not the only aspect of making maps. Of course you also
-need to learn how to go outside and collect information about places on the
-ground.
 
-In the next sections we will learn about two methods - GPS and Field Papers,
-which are used to collect geographic data. The information from both of these
-can then be imported into JOSM, and used to edit the map.
+Ufupisho
+--------
+Kwa sasa umeonena jinsi ya kuongeza taarifa kwenye OpenStreetMap, kipi kifuatacho? 
+Naam, kuhariri ni kuzuri, lakini siyo suala tu la kutengeneza ramani. Bila shaka 
+unaitaji pia kujifunza jinsi ya kwenda nje na kukusanya taarifa kuhusu maeneo 
+kwenye ardhi.
 
-Moving Forward
---------------
+Katika sehemu ijayo tutajifunza kuhusu njia mbili ambazo ni - GPS na Field Papers, 
+ambazo hutumiwa kukusanyia taarifa za kijiografia. Taarifa kutoka njia zote mbili 
+zinawekwa kwenye JOSM, na kutumika kwa uhariri wa ramani.
 
-Click on the link for further reading on:  
+Kuendelea Mbele
+---------------
+Bonyeza kiungo kwa ajili ya kusoma zaidi juu ya:
  
-*  [Surveying with GPS](/sw/beginner/using-gps/)  
-*  [Field Papers](/sw/beginner/field-papers/)
-*  [Editing Field Data](/sw/beginner/editing-with-josm/) 
+*  [Upimaji kwa kutumia GPS](/sw/beginner/using-gps/)  
+*  [Tafiti kwa kutumia Field Papers](/sw/beginner/field-papers/)
+*  [Kuhariri Field Data](/sw/beginner/editing-with-josm/) 
 
 
 [JOSM Download Button]: /images/beginner/josm_download-button.png
