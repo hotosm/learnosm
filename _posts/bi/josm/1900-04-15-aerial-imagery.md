@@ -73,7 +73,7 @@ Untungnya, beberapa orang cerdas telah merancang algoritma untuk memecahkan masa
 sehingga citra yang Anda lihat pada Bing sangat dekat untuk menjadi akurat. Di kebanyakan
 tempat itu tidak akan salah sama sekali - dan itu pasti sangat baik untuk dilakukan pemetaan.
 Daerah yang paling umum pada citra tidak akurat terletak pada perbukitan, daerah pegunungan.
-Pada [bab selanjutnya](/bi/editing/correcting-imagery-offset) kita akan melihat bagaimana
+Pada [bab selanjutnya](/bi/josm/correcting-imagery-offset) kita akan melihat bagaimana
 memperbaiki masalah ini.
 
 [orange resolution]: /images/en/editing/aerial-imagery/orange-resolution.png

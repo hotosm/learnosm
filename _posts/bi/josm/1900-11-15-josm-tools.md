@@ -8,7 +8,7 @@ category: josm
 
 Tool Mengedit di JOSM
 ======================
-Pada [panduan tingkat dasar](/bi/beginner) kita membahas dasar-dasar 
+Pada [panduan tingkat dasar](/bi/josm/start-josm/) kita membahas dasar-dasar 
 menggambar di dalam JOSM, tetapi terdapat banyak tool dan teknik yang
 belum ditunjukkan.
 

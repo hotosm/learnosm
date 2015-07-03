@@ -15,7 +15,7 @@ mereka sediakan.
 Plugin Building Tools
 ---------------------
 *	Jika Anda belum menginstal, berikut instruksi menginstal plugin ini di 
-	[JOSM Plugins](/bi/editing/josm-plugins).
+	[JOSM Plugins](/bi/josm/josm-plugins).
 
 ![buildings_tools plugin][]
 
@@ -78,7 +78,7 @@ sebuah tag yang mengidentifikasi jalan yang akan secara otomatis diterapkan.
 Utilsplugin2
 -------------
 *	Jika Anda belum menginstal, berikut instruksi cara menginstal plugin ini di 
-	[JOSM Plugins](/bi/editing/josm-plugins).
+	[JOSM Plugins](/bi/josm/josm-plugins).
 
 ![utilsplugin2 plugin][]
 
