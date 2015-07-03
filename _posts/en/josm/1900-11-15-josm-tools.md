@@ -9,7 +9,7 @@ category: josm
 JOSM Editing Tools
 ==================
 
-In the [beginner guide](/en/beginner) we cover the basics of drawing in
+In the [starting to use JOSM guide](/en/josm/start-josm/) we cover the basics of drawing in
 JOSM, but there are many tools and techniques which are not demonstrated.
 
 Here we will look at some of the basic tools and techniques available

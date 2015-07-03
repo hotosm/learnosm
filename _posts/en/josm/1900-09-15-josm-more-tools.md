@@ -17,7 +17,7 @@ The Buildings Tools Plugin
 --------------------------
 
 -   If you haven't already, install this plugin following the instructions
-    in [JOSM Plugins](/en/editing/josm-plugins).
+    in [JOSM Plugins](/en/josm/josm-plugins).
 
 ![Buildings tools plugin][]
 
@@ -83,7 +83,7 @@ Utilsplugin2
 -------------
 
 -   If you haven't already, install this plugin following the instructions
-    in [JOSM Plugins](/en/editing/josm-plugins).
+    in [JOSM Plugins](/en/josm/josm-plugins).
 
 ![Utilsplugin2 plugin][]
 

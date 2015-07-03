@@ -221,10 +221,9 @@ DirectUpload Details
 
 Adding your GPS tracks and waypoints to the OSM Server is useful for
 many reasons.
-__(If you do not want your GPX points to be seen by anyone else you do not have to read this section.  You can simply display your GPX files from JOSM, and therefore store them locally)._
+__(If you do not want your GPX points to be seen by anyone else you do not have to read this section.  You can simply display your GPX files from JOSM, and therefore store them locally).
 First of all, GPS tracks are the most useful way of collecting and
-georeferencing objects in OSM.
-(See [Chapter 6.5: Aerial Imagery Considerations](https://docs.google.com/a/engelsted.co/document/d/1rdwKkNXLnioyogJFxxspDIha0GI97xbOFxDfeL_ZNPs/edit))
+georeferencing objects in OSM. See [Aerial Imagery](/en/josm/aerial-imagery/)
 GPS units have greater accuracy than satellite imagery and therefore are
 a useful tool for checking how offset imagery may be. Using many GPS
 tracks (the greater the number of tracks the greater the ability to
