@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: JOSM Tools
-permalink: /bi/editing/josm-tools/
+permalink: /bi/josm/josm-tools/
 lang: bi
-category: editing
+category: josm
 ---
 
 Tool Mengedit di JOSM

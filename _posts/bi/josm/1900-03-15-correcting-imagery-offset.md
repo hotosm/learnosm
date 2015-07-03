@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Pergeseran Citra Satelit 
-permalink: /bi/editing/correcting-imagery-offset/
+permalink: /bi/josm/correcting-imagery-offset/
 lang: bi
-category: editing
+category: josm
 ---
 
 Pergeseran Citra Satelit

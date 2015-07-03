@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Menyelesaikan Konflik
-permalink: /bi/editing/conflict-resolution/
+permalink: /bi/josm/conflict-resolution/
 lang: bi
-category: editing
+category: josm
 ---
 
 Pengantar 

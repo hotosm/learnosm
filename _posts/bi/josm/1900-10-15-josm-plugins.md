@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Plugin JOSM
-permalink: /bi/editing/josm-plugins/
+permalink: /bi/josm/josm-plugins/
 lang: bi
-category: editing
+category: josm
 ---
 
 Plugin JOSM 

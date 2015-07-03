@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Tips Editing
-permalink: /bi/editing/josm-editing-techniques/
+permalink: /bi/josm/josm-editing-techniques/
 lang: bi
-category: editing
+category: josm
 ---
 
 Tips Editing: Kesalahan Umum

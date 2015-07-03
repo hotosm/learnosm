@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Preset JOSM 
-permalink: /bi/editing/josm-presets/
+permalink: /bi/josm/josm-presets/
 lang: bi
-category: editing
+category: josm
 ---
 
 Preset JOSM 

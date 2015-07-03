@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Membuat Kustom Presets
-permalink: /bi/editing/creating-presets/
+permalink: /bi/josm/creating-presets/
 lang: bi
-category: editing
+category: josm
 ---
 
 Membuat Kustom Presets

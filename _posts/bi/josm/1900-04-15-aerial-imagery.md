@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Citra Udara
-permalink: /bi/editing/aerial-imagery/
+permalink: /bi/josm/aerial-imagery/
 lang: bi
-category: editing
+category: josm
 ---
 
 Citra Udara

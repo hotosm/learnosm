@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Relasi JOSM
-permalink: /bi/editing/josm-relations/
+permalink: /bi/josm/josm-relations/
 lang: bi
-category: editing
+category: josm
 ---
 
 Relasi
