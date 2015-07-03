@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Aerial Imagery
-permalink: /en/editing/aerial-imagery/
+permalink: /en/josm/aerial-imagery/
 lang: en
-category: editing
+category: josm
 ---
 
 Aerial Imagery
@@ -26,7 +26,7 @@ Aerial imagery is the term that we use to describe photographs that are taken fr
 These can be taken from airplanes, helicopters, or even kites and balloons, but the most
 common source of imagery comes from satellites orbiting the Earth.
 
-[In the chapter on GPS](/en/beginner/using-gps) we learned about the dozens of satellites
+[In the chapter on GPS](/en/mobile-mapping/using-gps) we learned about the dozens of satellites
 orbiting Earth which allow our GPS receivers to identify our latitude and longitude. In
 addition to these GPS satellites, there are also satellites which take photos of the earth.
 These photos are then manipulated so that they can be used in GIS (mapping) software. 
@@ -74,7 +74,7 @@ Luckily, some really smart people have devised clever algorithms for solving
 this problem, and so the imagery that you see on Bing is pretty close to being accurate.
 In most places it won't be noticeably wrong at all - and it's certainly fine for making
 maps. The most common areas for imagery to be inaccurately located are in hilly,
-mountainous areas. In the [next chapter](/en/editing/correcting-imagery-offset) we will see how
+mountainous areas. In the [Correcting Imagery Offset chapter](/en/josm/correcting-imagery-offset) we will see how
 to correct for this problem.
 
 [Image resolution]: /images/en/editing/aerial-imagery/orange-resolution.png
