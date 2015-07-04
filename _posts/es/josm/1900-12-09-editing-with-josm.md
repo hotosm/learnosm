@@ -9,7 +9,7 @@ category: josm
 Editar con JOSM
 =================
 
-En [capítulo 3]({{site.baseurl}}/es/beginner/start-josm/) instalaste el programa JOSM y dibujaste tus primeros puntos, líneas y polígonos. 
+En [capítulo 3]({{site.baseurl}}/es/josm/start-josm/) instalaste el programa JOSM y dibujaste tus primeros puntos, líneas y polígonos. 
 Agregaste *predefinidos* a estos objetos para añadir información acerca de ellos. Al final pudiste dibujar de esta manera tu propio mapa en JOSM. 
 Dibujar los mapas en el capítulo 3 era un ejercicio para aprender a usar JOSM y
 aprender cómo colocar lugares en el mapa. Pero nuestros mapas no estaban bien, 
@@ -32,20 +32,20 @@ ciclo básico de mapeo en OSM:
 
 **Descargar** los datos del mapa desde OSM.
 
-  - [Recorrido por JOSM]({{site.baseurl}}/es/beginner/editing-with-josm/#recorrido-por-josm)
-  - [Descargar datos desde OSM]({{site.baseurl}}/es/beginner/editing-with-josm/#descargar-datos-desde-osm)
-  - [Capas en JOSM]({{site.baseurl}}/es/beginner/editing-with-josm/#capas-en-josm)
+  - [Recorrido por JOSM]({{site.baseurl}}/es/josm/editing-with-josm/#recorrido-por-josm)
+  - [Descargar datos desde OSM]({{site.baseurl}}/es/josm/editing-with-josm/#descargar-datos-desde-osm)
+  - [Capas en JOSM]({{site.baseurl}}/es/josm/editing-with-josm/#capas-en-josm)
 
 **Editar** el mapa con la ayuda de GPS, Walking Papers y anotaciones como guía.
 
-  - [Editar]({{site.baseurl}}/es/beginner/editing-with-josm/#editar)
-  - [Etiquetas]({{site.baseurl}}/es/beginner/editing-with-josm/#etiquetas)
+  - [Editar]({{site.baseurl}}/es/josm/editing-with-josm/#editar)
+  - [Etiquetas]({{site.baseurl}}/es/josm/editing-with-josm/#etiquetas)
 
 **Guardar** los cambios en OpenStreetMap
 
-  - [Subir cambios]({{site.baseurl}}/es/beginner/editing-with-josm/#subir-cambios)
-  - [Revisar las modificaciones en el mapa]({{site.baseurl}}/es/beginner/editing-with-josm/#revisar-las-modificaciones-en-el-mapa)
-  - [Guardar archivos de OSM]({{site.baseurl}}/es/beginner/editing-with-josm/#guardar-archivos-osm)
+  - [Subir cambios]({{site.baseurl}}/es/josm/editing-with-josm/#subir-cambios)
+  - [Revisar las modificaciones en el mapa]({{site.baseurl}}/es/josm/editing-with-josm/#revisar-las-modificaciones-en-el-mapa)
+  - [Guardar archivos de OSM]({{site.baseurl}}/es/josm/editing-with-josm/#guardar-archivos-osm)
 
 Al final de este capítulo, vas a poder ver tus contribuciones en el mapa
 de OSM.

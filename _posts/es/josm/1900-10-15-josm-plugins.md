@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Complementos de JOSM
-permalink: /es/editing/josm-plugins/
+permalink: /es/josm/josm-plugins/
 lang: es
-category: editing
+category: josm
 ---
 
 Complementos de JOSM y Opciones
@@ -31,14 +31,14 @@ reiniciar JOSM. Ya debes de estar cansado de tener que reiniciar JOSM cada vez q
 hecho para reiniciar JOSM en tu lugar!
 
 Complementos recomendados:
-- [Restart]({{site.baseurl}}/es/beginner/josm-plugins/#restart) (añade un
+- [Restart]({{site.baseurl}}/es/josm/josm-plugins/#restart) (añade un
 botón de «reinicio»).
-- [Mirrored Download]({{site.baseurl}}/es/beginner/josm-plugins/#mirrored-download) (te permite descargar más datos de OSM).
-- [Direct Upload]({{site.baseurl}}/es/beginner/josm-plugins/#direct-upload) 
+- [Mirrored Download]({{site.baseurl}}/es/josm/josm-plugins/#mirrored-download) (te permite descargar más datos de OSM).
+- [Direct Upload]({{site.baseurl}}/es/josm/josm-plugins/#direct-upload) 
 (te permite subir rastros GPS).
-- [Editgpx]({{site.baseurl}}/es/beginner/josm-plugins/#editar-gpx) (permite la
+- [Editgpx]({{site.baseurl}}/es/josm/josm-plugins/#editar-gpx) (permite la
 edición de archivos GPX).
-- [Print]({{site.baseurl}}/es/beginner/josm-plugins/#Impresin).
+- [Print]({{site.baseurl}}/es/josm/josm-plugins/#Impresin).
 
 También se recomienda la descarga de estos complementos que se explican
 en otros capítulos.
@@ -110,7 +110,7 @@ proporciona una descripción para tus etiquetas. Una lista desplegable
 permite reutilizar etiquetas y descripciones usados anteriormente.
 Finalmente, elige el tipo de visibilidad que quieres que tengan tus
 trazas. Hay cuatro niveles, desde privado hasta identificable (todos se
-explican en el [Apéndice]({{site.baseurl}}/es/beginner/josm-plugins/#apndice).
+explican en el [Apéndice]({{site.baseurl}}/es/josm/josm-plugins/#apndice).
 
 Selecciona «Subir traza». Si no estás conectado a tu cuenta de OSM tendrás
 que contectarla ahora.
@@ -118,7 +118,7 @@ que contectarla ahora.
 Una vez se ha realizado la subida con éxito, aparecerá el mensaje 
 «GPX subido correctamente» y el botón «Subir traza» no será clicable.
 Puedes encontrar más información sobre este complemento y las subidas GPX en
-el [Apéndice]({{site.baseurl}}/es/beginner/josm-plugins/#apndice).
+el [Apéndice]({{site.baseurl}}/es/josm/josm-plugins/#apndice).
 
 
 Editar gpx

@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Usando fotografías aéreas.
-permalink: /es/editing/aerial-imagery/
+permalink: /es/josm/aerial-imagery/
 lang: es
-category: editing
+category: josm
 ---
 
 Usando Fotografías Aéreas
