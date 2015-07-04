@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Edição Avançada
-permalink: /pt/editing/aerial-imagery/
+permalink: /pt/josm/aerial-imagery/
 lang: pt
-category: editing
+category: josm
 ---
 
 Edição Avançada
