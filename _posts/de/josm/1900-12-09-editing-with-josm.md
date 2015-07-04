@@ -19,9 +19,9 @@ In diesem Kapitel werden wir lernen wie man die OpenStreetMap Karte bearbeiten k
 
 **Lade** die aktuellen Kartendaten von OSM **herunter**
 
-  - [Überblick über JOSM]({{site.baseurl}}/de/beginner/editing-with-josm/#a-tour-of-josm)
-  - [OSM Daten herunterladen]({{site.baseurl}}/de/beginner/editing-with-josm/#download-osm-data)
-  - [JOSM Ebenen]({{site.baseurl}}/de/beginner/editing-with-josm/#josm-layers)
+  - [Überblick über JOSM]({{site.baseurl}}/de/josm/editing-with-josm/#a-tour-of-josm)
+  - [OSM Daten herunterladen]({{site.baseurl}}/de/josm/editing-with-josm/#download-osm-data)
+  - [JOSM Ebenen]({{site.baseurl}}/de/josm/editing-with-josm/#josm-layers)
 
 **Editiere** sie mit Hilfe von GPS, Walking Papers und Notizen
 
