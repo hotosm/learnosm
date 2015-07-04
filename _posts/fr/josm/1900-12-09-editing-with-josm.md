@@ -9,7 +9,7 @@ otherguides: "Les autres niveaux"
 
 # Éditer avec JOSM
 
-Dans le [Chapitre 3]({{site.baseurl}}/fr/beginner/start-josm/), vous avez
+Dans le [Chapitre 3]({{site.baseurl}}/fr/josm/start-josm/), vous avez
 installé JOSM et commencé à tracer vos premiers points, lignes et polygones.
 Vous avez ajouté des attributs pour ces objets afin de leur attribuer des
 informations. À la fin, vous avez été en mesure de dessiner votre propre carte
@@ -35,6 +35,7 @@ Dans ce chapitre, nous allons apprendre à modifier la carte sur OpenStreetMap
 et à les améliorer. Nous allons apprendre le cycle de base de la cartographie
 sur OSM:
 
+<!-- This text is hidden - 
 1. **Télécharger** des données de la carte OSM actuelle
 
     -   [Tour de JOSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#a-tour-of-josm)
@@ -134,6 +135,7 @@ devons télécharger les données existantes dans la base OSM pour la zone à
     cliquez sur «Télécharger» en bas de la fenêtre. JOSM obtiendra ces données à
     partir de la base OpenStreetMap et les transférera automatiquement dans la
     fenêtre de votre carte, prêtes à être éditées.
+end of hidden text-->
 
 ## Couches JOSM
 

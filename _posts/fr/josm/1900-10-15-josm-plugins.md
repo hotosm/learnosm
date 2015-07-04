@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Greffons JOSM
-permalink: /fr/editing/josm-plugins/
+permalink: /fr/josm/josm-plugins/
 lang: fr
-category: editing
+category: josm
 otherguides: "Les autres niveaux"
 ---
 
@@ -31,11 +31,11 @@ Heureusement, nous allons commencer par installer un greffon qui relance JOSM po
 
 Greffons recommandés :
 
-- [Restart]({{site.baseurl}}/en/beginner/josm-plugins/#restart) (ajoute un bouton ´redémarrer´)
-- [Mirrored Download]({{site.baseurl}}/en/beginner/josm-plugins/#mirrored-download) (vous permet de télécharger plus de données OSM)]
-- [Direct Upload]({{site.baseurl}}/en/beginner/josm-plugins/#direct-upload) (vous permet d'envoyer vos traces GPS)]
-- [Editgpx]({{site.baseurl}}/en/beginner/josm-plugins/#edit-gpx) (vous permet de modifier vos traces GPS)]
-- [Print]({{site.baseurl}}/en/beginner/josm-plugins/#print)
+- [Restart]({{site.baseurl}}/en/josm/josm-plugins/#restart) (ajoute un bouton ´redémarrer´)
+- [Mirrored Download]({{site.baseurl}}/en/josm/josm-plugins/#mirrored-download) (vous permet de télécharger plus de données OSM)]
+- [Direct Upload]({{site.baseurl}}/en/josm/josm-plugins/#direct-upload) (vous permet d'envoyer vos traces GPS)]
+- [Editgpx]({{site.baseurl}}/en/josm/josm-plugins/#edit-gpx) (vous permet de modifier vos traces GPS)]
+- [Print]({{site.baseurl}}/en/josm/josm-plugins/#print)
 
 Nous vous recommandons également ces greffons, qui sont abordés dans d'autres chapitres :
 
@@ -176,7 +176,7 @@ géoréférencer des objets dans OSM.
 
 Les récepteurs GPS ont une meilleure précision que l'imagerie satellite et sont
 utiles pour déterminer le décalage des images satellites, surtout si les traces
-GPS sont nombreuses. Voir [Utiliser l'imagerie aérienne]({{site.baseurl}}/fr/beginner/aerial-imagery/)
+GPS sont nombreuses. Voir [Utiliser l'imagerie aérienne]({{site.baseurl}}/fr/josm/aerial-imagery/)
 
 L'envoi de traces au serveur permet un meilleur partage de l'information.
 Il permet la contribution de personnes qui n'ont pas accès au terrain,

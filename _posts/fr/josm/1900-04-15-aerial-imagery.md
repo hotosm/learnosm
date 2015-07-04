@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Utiliser l'imagerie aérienne
-permalink: /fr/editing/aerial-imagery/
+permalink: /fr/josm/aerial-imagery/
 lang: fr
-category: editing
+category: josm
 otherguides: "Les autres niveaux"
 ---
 
