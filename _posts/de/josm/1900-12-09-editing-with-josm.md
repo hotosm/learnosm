@@ -17,6 +17,7 @@ Eine „echte“ Karte zu zeichnen, also eine Karte auf der sämtliche Punkte, L
 
 In diesem Kapitel werden wir lernen wie man die OpenStreetMap Karte bearbeiten kann und unsere Verbesserungen hinzufügen kann. Wir lernen den grundsätzlichen Ablauf des Kartierens bei OSM.
 
+<!-- This text is hidden - 
 **Lade** die aktuellen Kartendaten von OSM **herunter**
 
   - [Überblick über JOSM]({{site.baseurl}}/de/josm/editing-with-josm/#a-tour-of-josm)
@@ -67,6 +68,7 @@ OSM-daten herunterladen
 
 - Der pinke Rahmen zeigt den Bereich der Karte an, welchen wir zum editieren herunterladen möchten. Solange du den Rahmen nicht bewegt hast seitdem du die gpx-datei oder das Walking Ppaer geladen hast, sollte der Rahmen um den richtigen Bereich angezeigt werden. Möchtest du allerdings einen größeren Bereich herunterladen, kannst du auch einen neuen Rahmen zeichen. Das geht, in dem du auf die Karte klickst, die Maustaste festhälst und die Maus ziehst um einen neuen Rahmen zu erstellen. Lasse die Maustaste wieder los um den Rahmen fertigzustellen.
 - Wenn du mit der Größe und Position des Rahmens zufrieden bist, klicke auf „Herunterladen“ am unteren Rand des Fensters. JOSM wird die Daten für diesen Bereich von OSM herunterladen und in der Kartenansicht für dich zum Editieren öffnen.
+end of hidden text-->
 
 JOSM Ebenen
 -----------
