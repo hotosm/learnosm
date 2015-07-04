@@ -1,14 +1,14 @@
 ---
 layout: doc
 title: JOSMツール
-permalink: /ja/editing/josm-tools/
+permalink: /ja/josm/josm-tools/
 lang: ja
-category: editing
+category: josm
 ---
 
 JOSM編集ツール
 ==================
-[ビギナーズガイド](/jp/beginner)では、JOSMでオブジェクトを描画する際の基礎について解説しました。しかし、そこでは紹介しきれなかったツールが数多く存在します。
+[ビギナーズガイド](/ja/beginner)では、JOSMでオブジェクトを描画する際の基礎について解説しました。しかし、そこでは紹介しきれなかったツールが数多く存在します。
 
 ここでは、JOSMを使って地物を描く際に利用可能なツールやテクニックを紹介します。また、さらに別の章で、より高度な編集ツールについても紹介します。
 

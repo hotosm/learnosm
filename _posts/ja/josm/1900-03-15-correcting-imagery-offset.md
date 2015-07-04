@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: 画像オフセット調整
-permalink: /ja/editing/correcting-imagery-offset/
+permalink: /ja/josm/correcting-imagery-offset/
 lang: ja
-category: editing
+category: josm
 ---
 
 画像オフセット

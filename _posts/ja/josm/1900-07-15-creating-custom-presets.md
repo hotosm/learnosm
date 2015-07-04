@@ -1,14 +1,14 @@
 ---
 layout: doc
 title: 独自プリセットの作成
-permalink: /ja/editing/creating-presets/
+permalink: /ja/josm/creating-presets/
 lang: ja
-category: editing
+category: josm
 ---
 
 独自プリセットの作成
 =======================
-[前回の章](/jp/editing/josm-presets)では、JOSMにカスタムプリセットを追加する方法を紹介しました。この章では、自分自身で独自のプリセットを作成する方法を紹介します。
+[前回の章](/ja/josm/josm-presets)では、JOSMにカスタムプリセットを追加する方法を紹介しました。この章では、自分自身で独自のプリセットを作成する方法を紹介します。
 
 注意！ これは高度なトピックです。十分に注意してください！
 
@@ -50,7 +50,7 @@ JOSMプリセットファイル
 それではサンプルのプリセットファイルをJOSMに読み込み、それがどのように動作するのかをみてみましょう。
 
 -	[sample_presets.xml](/files/sample_presets.xml) をダウンロードしてください
--	[前章](/jp/editing/josm-presets)の内容を参考にして、そのファイルをJOSMに読み込みます
+-	[前章](/ja/josm/josm-presets)の内容を参考にして、そのファイルをJOSMに読み込みます
 -	新規レイヤを作成し、そこになにかひとつオブジェクトを作成します
 -	プリセットメニューを開きます。"Sample Building" という項目ができていますので、それをクリックします。
 

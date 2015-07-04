@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: その他のツール
-permalink: /ja/editing/more-tools/
+permalink: /ja/josm/more-tools/
 lang: ja
-category: editing
+category: josm
 ---
 
 その他のツール
@@ -12,7 +12,7 @@ JOSMでよく利用されるツールとして、 **building tools** と **utilp
 
 Building Toolsプラグイン
 --------------------------
--   もしプラグインのインストールがまだの場合、[JOSMプラグイン](/jp/editing/josm-plugins)の記述を参考にして、プラグインのインストールを行ってください。
+-   もしプラグインのインストールがまだの場合、[JOSMプラグイン](/ja/josm/josm-plugins)の記述を参考にして、プラグインのインストールを行ってください。
 
 ![buildings_tools plugin][]
 
@@ -61,7 +61,7 @@ Building Toolsプラグインは、建物のデジタライズを行う際に非
 
 Utilsplugin2
 -------------
--   もしプラグインのインストールがまだの場合、[JOSMプラグイン](/jp/editing/josm-plugins)の記述を参考にして、プラグインのインストールを行ってください。
+-   もしプラグインのインストールがまだの場合、[JOSMプラグイン](/ja/josm/josm-plugins)の記述を参考にして、プラグインのインストールを行ってください。
 
 ![utilsplugin2 plugin][]
 

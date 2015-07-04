@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: 編集テクニック
-permalink: /ja/editing/josm-editing-techniques/
+permalink: /ja/josm/josm-editing-techniques/
 lang: ja
-category: editing
+category: josm
 ---
 
 編集テクニック: よくある間違い

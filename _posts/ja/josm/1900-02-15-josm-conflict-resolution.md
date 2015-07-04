@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: 競合の解決
-permalink: /ja/editing/conflict-resolution/
+permalink: /ja/josm/conflict-resolution/
 lang: ja
-category: editing
+category: josm
 ---
 
 競合の解決

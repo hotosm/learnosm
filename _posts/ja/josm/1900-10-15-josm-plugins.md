@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: JOSMプラグイン
-permalink: /ja/editing/josm-plugins/
+permalink: /ja/josm/josm-plugins/
 lang: ja
-category: editing
+category: josm
 ---
 
 JOSMプラグイン
@@ -46,7 +46,7 @@ learnOSMビギナーズガイドに沿って学習してきた場合、すでに
     印刷機能を追加します。出力の見た目はあまりよくありませんが、ちょっとした印刷を手早く行う際に便利です。
 
 8.  **utilsplugin2:**
-    熟練した編集者のための編集ツールや操作メニューをJOSMへ追加します。この機能については[次の章](/jp/editing/josm-more-tools)で詳しく扱います。
+    熟練した編集者のための編集ツールや操作メニューをJOSMへ追加します。この機能については[次の章](/ja/josm/josm-more-tools)で詳しく扱います。
 
 
 
