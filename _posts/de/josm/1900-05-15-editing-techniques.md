@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Die Technik des Editierens
-permalink: /de/editing/josm-editing-techniques/
+permalink: /de/josm/josm-editing-techniques/
 lang: de
-category: editing
+category: josm
 ---
 
 Die Technik des Editierens: Häufige Fehler

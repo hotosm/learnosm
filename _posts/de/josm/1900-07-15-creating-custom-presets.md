@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Erstellung eigener Vorlagen
-permalink: /de/editing/creating-presets/
+permalink: /de/josm/creating-presets/
 lang: de
-category: editing
+category: josm
 ---
 
 Erstellung eigener Vorlagen

@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Weitere Werkzeuge
-permalink: /de/editing/more-tools/
+permalink: /de/josm/more-tools/
 lang: de
-category: editing
+category: josm
 ---
 
 Weitere Werkzeuge
@@ -17,7 +17,7 @@ Buildings Tools
 ---------------
 
 -   Sofern noch nicht geschehen installieren Sie diese Erweiterung nach der Anleitung 
-    in [JOSM Erweiterungen](/de/editing/josm-plugins).
+    in [JOSM Erweiterungen](/de/josm/josm-plugins).
 
 ![Buildings tools plugin][]
 
@@ -79,7 +79,7 @@ Utilsplugin2
 -------------
 
 -   Sofern noch nicht geschehen installieren Sie diese Erweiterung nach der Anleitung
-    in [JOSM Erweiterungen](/de/editing/josm-plugins).
+    in [JOSM Erweiterungen](/de/josm/josm-plugins).
 
 ![Utilsplugin2 plugin][]
 

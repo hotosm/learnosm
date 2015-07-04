@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Relationen in JOSM
-permalink: /de/editing/josm-relations/
+permalink: /de/josm/josm-relations/
 lang: de
-category: editing
+category: josm
 ---
 
 Relationen

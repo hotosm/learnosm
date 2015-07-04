@@ -1,16 +1,16 @@
 ---
 layout: doc
 title: Werkzeuge zum Editieren in JOSM
-permalink: /de/editing/josm-tools/
+permalink: /de/josm/josm-tools/
 lang: de
-category: editing
+category: josm
 ---
 
 Werkzeuge zum Editieren in JOSM
 ===============================
 
 
-Im [Leitfaden für Anfänger](/de/beginner) haben wir die Grundlagen des Zeichnens in 
+Im [Leitfaden für Anfänger](/de/josm/start-josm/) haben wir die Grundlagen des Zeichnens in 
 JOSM behandelt, aber es gibt noch viele Werkzeuge und Techniken, die wir noch nicht gezeigt haben.
 
 Wir werfen jetzt einen Blick auf die grundlegenden Werkzeuge und Techniken, die zum Zeichnen von Objekten in JOSM zur Verfügung stehen und später werden wir vertieft auf weiterführende Zeichenwerkzeuge eingehen.

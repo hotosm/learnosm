@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: JOSM Vorlagen
-permalink: /de/editing/josm-presets/
+permalink: /de/josm/josm-presets/
 lang: de
-category: editing
+category: josm
 ---
 
 JOSM Vorlagen

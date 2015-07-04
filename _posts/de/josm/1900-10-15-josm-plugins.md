@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: JOSM Erweiterungen
-permalink: /de/editing/josm-plugins/
+permalink: /de/josm/josm-plugins/
 lang: de
-category: editing
+category: josm
 ---
 
 JOSM-Erweiterungen

@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Luft- und Satellitenbilder nutzen
-permalink: /de/editing/aerial-imagery/
+permalink: /de/josm/aerial-imagery/
 lang: de
-category: editing
+category: josm
 ---
 
 Luft- und Satellitenbilder nutzen
