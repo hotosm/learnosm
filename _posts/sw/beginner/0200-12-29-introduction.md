@@ -34,15 +34,6 @@ OpenStreetMap ni kifaa cha kutengenezea na kushirikishana taarifa za ramani. Mtu
 
 Tunatarajia kwamba utaona OpenStreetMap ni muhimu na ya kuvutia katika kazi zako. Kwa kufuata muongozo huu, utaweza kwa haraka kutengeneza ramani za kidigitali kwa kutumia OpenStreetMap.
 
-Kusonga Mbele
---------------
-
-Click on the link for further reading on:  
-
-*  [Getting started on OpenStreetMap.org](/sw/beginner/start-osm/) 
-*  [Getting started with the iD editor](/sw/editing/id-editor/)   
-*  [Getting started with the JOSM editor](/sw/beginner/start-josm/)  
-
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
 [Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png

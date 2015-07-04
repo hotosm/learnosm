@@ -171,5 +171,18 @@
 	  {"label":"",
 	   "url":""}
 	]
+},{
+	"lang":"zh",
+		"chapters":[
+	  {% for post in site.posts %}
+	  {% if {{post.lang}} == 'zh' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
 }
 ]

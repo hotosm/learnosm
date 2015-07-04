@@ -2,13 +2,13 @@
 layout: doc
 permalink: /en/mobile-mapping/
 lang: en
-title: Mapping with SmartPhones
+title: Mapping with a SmartPhone, GPS or Paper
 category: mobile-mapping
 cover: yes
 nosearch: true
 ---
 
-Mapping with Smartphones
+Mapping with a Smartphone, GPS or Paper
 =============================
 
 More and more smartphones today include a radio chip that allows them to
