@@ -9,7 +9,7 @@ category: beginner
 Bacaan Lebih Lanjut
 ===================
 
-> This guide may be downloaded as [bi_beginner_moving-forward.odt](/files/bi_beginner_moving-forward.odt) or [bi_beginner_moving-forward.pdf](/files/bi_beginner_moving-forward.pdf)  
+> This guide may be downloaded as [beginner_moving-forward_bi.odt](/files/beginner_moving-forward_bi.odt) or [beginner_moving-forward_bi.pdf](/files/beginner_moving-forward_bi.pdf)  
 
 Jika Anda telah berhasil sejauh ini, selamat! Anda seharusnya telah memahami 
 dengan baik sekarang mengenai bagaimana membuat peta dengan OpenStreetMap.
