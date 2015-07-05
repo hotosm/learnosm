@@ -9,6 +9,8 @@ category: beginner
 Daljnje čitanje
 ===============
 
+> This guide may be downloaded as [beginner_moving-forward_hr.odt](/files/beginner_moving-forward_hr.odt) or [beginner_moving-forward_hr.pdf](/files/beginner_moving-forward_hr.pdf)  
+
 Ako si došao do ovdje, čestitamo! Sad bi trebao shvaćati kako kreirati OpenStreetMap karte. Što još možeš s OSM? Kako možeš naučiti više? Kako ostati u kontaktu sa lokalnom zajednicom?
 
 Nauči više

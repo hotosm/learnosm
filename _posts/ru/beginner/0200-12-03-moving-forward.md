@@ -9,6 +9,8 @@ category: beginner
 Дополнительная информация
 =========================
 
+> This guide may be downloaded as [beginner_moving-forward_ru.odt](/files/beginner_moving-forward_ru.odt) or [beginner_moving-forward_ru.pdf](/files/beginner_moving-forward_ru.pdf)  
+
 Если вы дошли до этого раздела – примите наши поздравления! Теперь у вас есть
 достаточно чёткое представление о том, как создаётся карта OpenStreetMap. Что
 ещё можно делать с OSM? Как узнать больше? Как поддерживать связь с сообществом

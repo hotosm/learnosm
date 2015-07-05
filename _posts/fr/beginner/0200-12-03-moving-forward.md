@@ -10,6 +10,8 @@ otherguides: "Les autres niveaux"
 Pour aller plus loin
 ====================
 
+> This guide may be downloaded as [beginner_moving-forward_fr.odt](/files/beginner_moving-forward_fr.odt) or [beginner_moving-forward_fr.pdf](/files/beginner_moving-forward_fr.pdf)  
+
 Si vous avez tout lu jusqu'ici, bravo! Vous devriez maintenant savoir comment faire des cartes avec OpenStreetMap. Que peut-on faire de plus avec OSM ? Comment en savoir plus ? Comment rester connecté avec la communauté de mappeurs?
 
 Les outils d'OpenStreetMap
