@@ -12,6 +12,8 @@ tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pa
 Further Reading
 ===============
 
+> This guide may be downloaded as [beginner_moving-forward_sw.odt](/files/beginner_moving-forward_sw.odt) or [beginner_moving-forward_sw.pdf](/files/beginner_moving-forward_sw.pdf)  
+
 If you have made it this far, congratulations! You should have a good
 understanding now of how to make maps with OpenStreetMap. What else can
 you do with OSM? How can you learn more? How can you stay connected to

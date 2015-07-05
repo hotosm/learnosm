@@ -9,6 +9,8 @@ category: beginner
 Introduzione a OpenStreetMap
 ============================
 
+> This guide may be downloaded as [beginner_introduction_it.odt](/files/beginner_introduction_it.odt) or [beginner_introduction_it.pdf](/files/beginner_introduction_it.pdf)  
+
 L’informazione è potere. Con buone informazioni e la giusta
 comprensione, individui e comunità possono migliorare le loro vite e
 prendere migliori decisioni per il futuro. Ci sono molte persone e

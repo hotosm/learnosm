@@ -9,7 +9,7 @@ category: beginner
 Pengenalan OpenStreetMap
 ========================
 
-> This guide may be downloaded as [bi_beginner_introduction.odt](/files/bi_beginner_introduction.odt) or [bi_beginner_introduction.pdf](/files/bi_beginner_introduction.pdf)  
+> This guide may be downloaded as [beginner_introduction_bi.odt](/files/beginner_introduction_bi.odt) or [beginner_introduction_bi.pdf](/files/beginner_introduction_bi.pdf)  
 
 Informasi adalah salah satu bagian terpenting. Dengan infromasi yang baik dan pemahaman yang
 tepat, individu dan komunitas mampu mengembangkan kehidupannya ke arah yang lebih baik dan 

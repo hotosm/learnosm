@@ -9,6 +9,8 @@ category: beginner
 OpenStreetMap イントロダクション
 =======================
 
+> This guide may be downloaded as [beginner_introduction_ja.odt](/files/beginner_introduction_ja.odt) or [beginner_introduction_ja.pdf](/files/beginner_introduction_ja.pdf)  
+
 情報にはチカラがあります。
 
 個人やコミュニティが日々の暮らしを少し便利にするためには、有用な情報を正しく理解することが必要です。また、これから起きるかもしれない事柄に対して準備をするためにも、情報を得ておくことはたいへん重要となります。

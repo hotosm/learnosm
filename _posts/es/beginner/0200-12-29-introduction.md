@@ -9,6 +9,8 @@ category: beginner
 Introducción
 =============
 
+> This guide may be downloaded as [beginner_introduction_es.odt](/files/beginner_introduction_es.odt) or [beginner_introduction_es.pdf](/files/beginner_introduction_es.pdf)  
+
 La información es poder. Con información de calidad y una evaluación correcta, 
 individuos y comunidades se encuentran más capacitadas para mejorar sus vidas
 y tomar mejores decisiones sobre su futuro. Hay muchas personas y organizaciones

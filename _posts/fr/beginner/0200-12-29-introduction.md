@@ -10,6 +10,8 @@ otherguides: "Les autres niveaux"
 Introduction
 ============
 
+> This guide may be downloaded as [beginner_introduction_fr.odt](/files/beginner_introduction_fr.odt) or [beginner_introduction_fr.pdf](/files/beginner_introduction_fr.pdf)  
+
 L'information a de la valeur. Une information de qualité peut aider les individus et les communautés à améliorer leurs vies et prendre les bonnes décisions pour le futur. Il existe de nombreuses personnes et organisations qui prennent des décisions qui affectent nos vies. De bonnes informations permettent à ces ONG, gouvernements et simples citoyens de prendre de meilleures décisions pour peut-être améliorer nos vies. Les cartes peuvent être un excellent support pour diffuser ces informations.
 
 Les cartes sont un symbole visuel de notre monde. Elles sont souvent plus adaptées que des mots pour expliquer une idée. Elles peuvent apporter rapidement des réponses à des questions importantes. Où se trouve l'hôpital ou la mairie la plus proche ? Comment peut-on accéder à ces lieux ? Où la pauvreté pose-t-elle le plus de problème ? Les cartes sont souvent le meilleur moyen de trouver des réponses à ces questions.
