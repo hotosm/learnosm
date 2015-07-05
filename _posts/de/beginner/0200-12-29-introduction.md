@@ -9,6 +9,8 @@ category: beginner
 Einführung
 ==========
 
+> This guide may be downloaded as [beginner_introduction_de.odt](/files/beginner_introduction_de.odt) or [beginner_introduction_de.pdf](/files/beginner_introduction_de.pdf)  
+
 Informationen sind mächtig. Mit qualitativ guter Information und dem richtigen Verständnis kann jeder Einzelne aber auch die Gemeinschaft ihr Leben verbessern und bessere Entscheidungen für ihre Zukunft treffen. Viele Menschen und Organisationen treffen Entscheidungen, die unser Leben beeinflussen.  
 Qualitativ gute Information erlaubt diesen NGOs, Regierungen und Bürgern, bessere Entscheidungen zu treffen und hoffentlich auch unsere Lebensqualität zu verbessern. 
 Karten können ein guter Weg sein, Informationen zu vermitteln. 

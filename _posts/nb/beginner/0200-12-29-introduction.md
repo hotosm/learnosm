@@ -11,6 +11,8 @@ published: true
 Introduksjon
 ============
 
+> This guide may be downloaded as [beginner_introduction_nb.odt](/files/beginner_introduction_nb.odt) or [beginner_introduction_nb.pdf](/files/beginner_introduction_nb.pdf)  
+
 Informasjon er makt. Med god informasjon og riktig forståelse, kan individer og samfunn lettere forbedre livene sine og ta gode avgjørelser om fremtiden. Det er mange mennesker og organisasjoner som tar beslutninger som påvirker livene våre, god informasjon gjør det mulig for dissee ikke-statlige organisasjonene, myndighetene og enkeltpersonene å ta gode avgjørelser, og forhåpentligvis forbedre livene våre. Kart er i så måte en god måte å formidle informasjon.
 
 ![A village in Indonesia][]

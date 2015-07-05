@@ -9,6 +9,8 @@ category: beginner
 Utangulizi
 ============
 
+> This guide may be downloaded as [beginner_introduction_sw.odt](/files/beginner_introduction_sw.odt) or [beginner_introduction_sw.pdf](/files/beginner_introduction_sw.pdf)  
+
 Taarifa zina nguvu. Kwa taarifa nzuri na uelewa wa kweli, watu na jamii wanaweza kuboresha maisha yao na kufanya maamuzi mazuri ya baadae. Kuna watu wengi na mashirika yanayofanya maamuzi yanayoathiri  maisha yetu. Taarifa nzuri zinawezesha mashirika binafsi, serikali na raia kufanya maamuzi mazuri na  matumaini ya kuboresha maisha yetu. Ramani ni njia nzuri ya kusambaza habari.
 
 ![A village in Indonesia][]
