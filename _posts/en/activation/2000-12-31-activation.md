@@ -2,7 +2,7 @@
 layout: doc
 permalink: /en/activation/
 lang: en
-title: Hot Activation Curriculum
+title: Hot Disaster Mapping
 category: activation
 cover: yes
 nosearch: true
