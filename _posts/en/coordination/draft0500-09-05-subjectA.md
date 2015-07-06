@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Subject A 
-permalink: /en/activation/subjectA
+permalink: /en/coordination/subjectA
 lang: en
-category: activation
+category: coordination
 ---
 
 Put your text etc here
