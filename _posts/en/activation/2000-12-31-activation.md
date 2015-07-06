@@ -9,7 +9,7 @@ nosearch: true
 
 ---
 
-Hot Activation Curriculum
+Hot Disaster Mapping
 ============
 
 Put the text in here - replace this
