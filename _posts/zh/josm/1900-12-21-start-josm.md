@@ -10,7 +10,8 @@ published: true
 Getting Started with JOSM
 =========================
 
-This guide is currently not available in Simplified Chinese, but it is available on this site in  
+
+This guide is currently unavailable. It is being translated. Please refer to it in  
 
 [English](/en/josm/start-josm/)  
 
