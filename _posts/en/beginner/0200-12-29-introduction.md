@@ -10,6 +10,7 @@ Introduction
 ============
 
 > This guide may be downloaded as [beginner_introduction_en.odt](/files/beginner_introduction_en.odt) or [beginner_introduction_en.pdf](/files/beginner_introduction_en.pdf)  
+> Reviewed 2015-07-12  
 
 Information is powerful. With good information and the right
 understanding, individuals and communities are better able to improve

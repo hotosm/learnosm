@@ -8,7 +8,10 @@ published: true
 ---
 
 Getting Started with JOSM
-=============================
+=============================  
+
+> This guide may be downloaded as [josm_start-josm_en.odt](/files/josm_start-josm_en.odt) or [josm_start-josm_en.pdf](/files/josm_start-josm_en.pdf)  
+> Reviewed 2015-07-12  
 
 How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and
 learn some of the basic operations of the software. Remember in the
