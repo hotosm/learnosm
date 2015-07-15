@@ -8,6 +8,10 @@ category: josm
 
 The JOSM Editing Process
 ========================
+
+> This guide may be downloaded as [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) or [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf)  
+> Reviewed 2015-07-12  
+
 In the previous section you
 installed JOSM and began drawing your first points, lines, and shapes.
 You added presets to these objects in order to attach information about
@@ -80,10 +84,8 @@ contributing to the map.
 >   If you don't see Bing Sat on the Imagery menu, you may need to activate
 >   it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
 >   that says “WMS TMS”. You may need to click on the down arrow to find it.
->
 >	![JOSM Preferences up down][]
 >	![JOSM Preferences WMS TMS][]
->
 >   Click on “Bing Sat”. Then Click “Activate”.
 
 

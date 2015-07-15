@@ -9,6 +9,9 @@ category: josm
 JOSM Editing Tools
 ==================
 
+> This guide may be downloaded as [josm_josm-tools_en.odt](/files/josm_josm-tools_en.odt) or [josm_josm-tools_en.pdf](/files/josm_josm-tools_en.pdf)  
+> Reviewed 2015-07-14  
+
 In the [starting to use JOSM guide](/en/josm/start-josm/) we cover the basics of drawing in
 JOSM, but there are many tools and techniques which are not demonstrated.
 

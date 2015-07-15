@@ -9,13 +9,13 @@ category: josm
 JOSM Plugins
 ============
 
+> This guide may be downloaded as [josm-plugins_en.odt](/files/josm-plugins_en.odt) or [josm-plugins_en.pdf](/files/josm-plugins_en.pdf)  
+> Reviewed 2015-07-14  
+
 As you become more advanced in your editing techniques, you may want to
 use additional JOSM features to improve your
 mapping skills. JOSM allows you to install numerous plugins, which add
 extra functionality to the software.
-
-If you worked through the learnOSM Beginner's Guide, you have already installed
-the Field Papers plugin.
 
 In this section we will take a look at how to install plugins,
 and some of the most useful plugins that are available.
@@ -30,7 +30,7 @@ Installing Plugins
 -   If you don’t see a list of available plugins, click **Download List**.
 -   To install a plugin you simply must check the box next to it
     and click OK at the bottom.
--   Lastly, you must restart JOSM anytime you install new plugins.
+-   Lastly, with some versions of JOSM you may have to restart JOSM when you install new plugins.
 
 Some of our favorite plugins are:
 
@@ -61,7 +61,7 @@ Some of our favorite plugins are:
 
 8.  **utilsplugin2:**
     Adds many additional tools and menus to JOSM for advanced users. This is covered
-    in more detail in the [next chapter](/en/editing/more-tools)
+    in more detail in the [next chapter](/en/josm/more-tools)
 
 
 
@@ -321,5 +321,5 @@ queue of files waiting to be inserted into the database.
 -->
 
 
-[Plugins]: /images/editing/josm-plugins_image00_plug-icon.png
+[Plugins]: /images/josm/josm-plugins_image00_plug-icon.png
 

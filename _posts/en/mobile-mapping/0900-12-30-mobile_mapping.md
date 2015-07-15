@@ -11,6 +11,15 @@ nosearch: true
 Mapping with a Smartphone, GPS or Paper
 =============================
 
+> This guide may be downloaded as [mobile-mapping_en.odt](/files/mobile-mapping_en.odt) or [mobile-mapping_en.pdf](/files/mobile-mapping_en.pdf)  
+> Reviewed 2015-07-14  
+
+To really create a detailed & accurate map, you need to carry out a survey in the area you are updating. The guides in this section deal with  carrying out a survey using either a;  
+
+-  GPS  which will probably be more accurate than your mobile phone,
+-  Field Papers, a method of taking a printed map you can write on, then upload & trace from, or
+-  Your mobile phone. There are many apps available for navigating using OSM data, and many apps to help you carry out your survey. Just a few are listed here but this list is growing daily, and some Aid Organisations are designing their own apps to gather specific data.  
+
 More and more smartphones today include a radio chip that allows them to
 receive signals from satellite navigation systems and determine their
 location. The most common chips receive signals from the U.S. GPS
