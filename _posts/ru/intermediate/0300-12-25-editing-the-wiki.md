@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Editing the Wiki OSM
-permalink: /en/intermediate/editing-the-wiki/
-lang: en
+permalink: /ru/intermediate/editing-the-wiki/
+lang: ru
 category: intermediate
 ---
 

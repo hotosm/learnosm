@@ -1,13 +1,13 @@
 ---
 layout: doc
 title: Editing the Wiki OSM
-permalink: /en/intermediate/editing-the-wiki/
-lang: en
+permalink: /nb/intermediate/editing-the-wiki/
+lang: nb
 category: intermediate
 ---
 
-Editing the OSM Wiki
-====================
+Editing the Wiki OSM  
+====================  
 
 This guide is available in [English as a Google document](https://docs.google.com/document/d/1G2LrM0ASKh7X175Hi16srnOBtofmsZwlj5x7EJTvi1g/edit)  
 or  

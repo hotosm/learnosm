@@ -11,6 +11,10 @@ nosearch: true
 Kartierung mit Smartphone, GPS oder Papier
 ===============================================
 
+The most recent version of this guide is only available in [English](/en/mobile-mapping/) It is being translated.
+
+To help produce translations for this site, go to [https://www.transifex.com](https://www.transifex.com) and search for **HOT-OSM**.
+
 Mehr und mehr Smartphones verfügen heutzutage über einen Chip, der die Signale von Satelliten-Navigationssystemen
 empfangen und daraus die Position bestimmen kann. Meist handelt es sich dabei um die Satelliten des von den USA
 betriebenen GPS-Systems. Geräte aus dem oberen Preissegment empfangen teilweise zusätzlich
