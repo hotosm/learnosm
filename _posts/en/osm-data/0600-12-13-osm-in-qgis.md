@@ -121,15 +121,13 @@ layers like this in QGIS, it is possible to save them as shapefiles, execute fil
 and so forth. For more detail on these functions see the Help menu in QGIS.
 
 
-[download data]: /images/en/osm-data/osm-in-qgis/download_data.png
 [bounding box]: /images/en/osm-data/osm-in-qgis/bounding_box.png
 [download complete]: /images/en/osm-data/osm-in-qgis/download_complete.png
-[import from xml]: /images/en/osm-data/osm-in-qgis/import_topo_from_xml.png
 [import dialog]: /images/en/osm-data/osm-in-qgis/import_dialog.png
-[export topo]: /images/en/osm-data/osm-in-qgis/export_topo.png
 [input db file]: /images/en/osm-data/osm-in-qgis/input_db_file.png
 [export type]: /images/en/osm-data/osm-in-qgis/export_type.png
 [export full]: /images/en/osm-data/osm-in-qgis/export_full.png
 [cairo polygons]: /images/en/osm-data/osm-in-qgis/cairo_polygons.png
 [open attribute table]: /images/en/osm-data/osm-in-qgis/open_attribute_table.png
 [attribute table]: /images/en/osm-data/osm-in-qgis/attribute_table.png
+
