@@ -1,7 +1,7 @@
 ---
 layout: doc
-title: Subject A 
-permalink: /en/coordination/subjectA
+title: Digital Health & Safety
+permalink: /en/coordination/health
 lang: en
 category: coordination
 ---
