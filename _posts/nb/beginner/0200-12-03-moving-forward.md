@@ -6,8 +6,8 @@ lang: nb
 category: beginner
 ---
 
-# Further Reading
-=============
+Further Reading  
+=============  
 
 This guide is only available in [English](/en/beginner/moving-forward/) or [German](/de/beginner/moving-forward/). It is being translated.
 
