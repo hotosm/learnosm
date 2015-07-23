@@ -10,6 +10,7 @@ category: beginner
 ========
 
 > This guide may be downloaded as [beginner_moving-forward_ja.odt](/files/beginner_moving-forward_ja.odt) or [beginner_moving-forward_ja.pdf](/files/beginner_moving-forward_ja.pdf)  
+> A more recent version of this guide is available in [English](/en/beginner/moving-forward) or [German](/de/beginner/moving-forward). To help produce translations for this site please go to <https://www.transifex.com/> and search for **HOT-OSM**.  
 
 長い道のり、おつかれさまでした！
 

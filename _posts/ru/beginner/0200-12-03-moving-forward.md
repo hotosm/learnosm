@@ -10,6 +10,7 @@ category: beginner
 =========================
 
 > This guide may be downloaded as [beginner_moving-forward_ru.odt](/files/beginner_moving-forward_ru.odt) or [beginner_moving-forward_ru.pdf](/files/beginner_moving-forward_ru.pdf)  
+> A more recent version of this guide is available in [English](/en/beginner/moving-forward) or [German](/de/beginner/moving-forward). To help produce translations for this site please go to <https://www.transifex.com/> and search for **HOT-OSM**.  
 
 Если вы дошли до этого раздела – примите наши поздравления! Теперь у вас есть
 достаточно чёткое представление о том, как создаётся карта OpenStreetMap. Что

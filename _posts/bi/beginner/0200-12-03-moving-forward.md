@@ -10,6 +10,7 @@ Bacaan Lebih Lanjut
 ===================
 
 > This guide may be downloaded as [beginner_moving-forward_bi.odt](/files/beginner_moving-forward_bi.odt) or [beginner_moving-forward_bi.pdf](/files/beginner_moving-forward_bi.pdf)  
+> A more recent version of this guide is available in [English](/en/beginner/moving-forward) or [German](/de/beginner/moving-forward). To help produce translations for this site please go to <https://www.transifex.com/> and search for **HOT-OSM**.  
 
 Jika Anda telah berhasil sejauh ini, selamat! Anda seharusnya telah memahami 
 dengan baik sekarang mengenai bagaimana membuat peta dengan OpenStreetMap.

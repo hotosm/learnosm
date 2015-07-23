@@ -12,6 +12,7 @@ Andando avanti
 =============
 
 > This guide may be downloaded as [beginner_moving-forward_it.odt](/files/beginner_moving-forward_it.odt) or [beginner_moving-forward_it.pdf](/files/beginner_moving-forward_it.pdf)  
+> A more recent version of this guide is available in [English](/en/beginner/moving-forward) or [German](/de/beginner/moving-forward). To help produce translations for this site please go to <https://www.transifex.com/> and search for **HOT-OSM**.  
 
 Se sei arrivato fin qui, complimenti!
 Ora dovresti avere una buona comprensione di come produrre mappe con OpenStreetMap.

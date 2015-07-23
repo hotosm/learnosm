@@ -10,6 +10,7 @@ Daljnje čitanje
 ===============
 
 > This guide may be downloaded as [beginner_moving-forward_hr.odt](/files/beginner_moving-forward_hr.odt) or [beginner_moving-forward_hr.pdf](/files/beginner_moving-forward_hr.pdf)  
+> A more recent version of this guide is available in [English](/en/beginner/moving-forward) or [German](/de/beginner/moving-forward). To help produce translations for this site please go to <https://www.transifex.com/> and search for **HOT-OSM**.  
 
 Ako si došao do ovdje, čestitamo! Sad bi trebao shvaćati kako kreirati OpenStreetMap karte. Što još možeš s OSM? Kako možeš naučiti više? Kako ostati u kontaktu sa lokalnom zajednicom?
 
