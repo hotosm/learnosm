@@ -7,12 +7,8 @@ category: beginner
 ---
 
 # Further Reading
-
 =============
 
-This guide is available in [English](http://learnosm.org/en/beginner/moving-forward/)
+This guide is only available in [English](/beginner/moving-forward/) or [German](/de/beginner/moving-forward/) It is being translated.
 
-or  
-Please refer to it in [German](http://learnosm.org/de/beginner/moving-forward/)
-
-To help produce translations for this site, go to [https://www.transifex.com](https://www.transifex.com) and search for **HOT-OSM**.
+To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.
