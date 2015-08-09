@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Nepal Disaster
-permalink: /en/coordination/nepal-disaster
+title: Humanitarian Mapping
+permalink: /en/coordination/humanitarian
 lang: en
 category: coordination
 ---
 
-#Nepal Disaster  
+#Humanitarian Mapping
 
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 
