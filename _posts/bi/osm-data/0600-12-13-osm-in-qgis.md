@@ -8,6 +8,9 @@ category: osm-data
 
 Data OSM di QGIS
 ================
+
+A slightly more recent version of this guide is available in [English](/bi/osm-data/osm-in-qgis/). To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
+
 Dengan peluncuran QGIS pada tahun 2013, ini menjadi mudah untuk memuat dan bekerja
 dengan Data OpenStreetMap. Hal ini dimaksudkan bahwa Anda sekarang dapat mengakses data 
 OSM terbaru kapan pun yang Anda inginkan, pilih tag yang Anda ingin masukkan, dan 

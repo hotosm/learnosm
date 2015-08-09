@@ -8,6 +8,11 @@ category: osm-data
 
 QGISを使ったOSMデータ利用
 =================
+
+A slightly more recent version of this guide is available in [English](/ja/osm-data/osm-in-qgis/).  
+
+To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
+
 2013年に新しいバージョンのQGISがリリースされ、OpenStreetMap生データの読み込みや処理がたいへん簡単になりました。すなわち、最新のOSMデータへその場でアクセスし、必要となるタグ情報を選択し、SQLiteやShapefileなどの取り回しやすい形式でエクスポートすることが簡単になったのです。
 
 この章ではその作業のための具体的な方法について、順を追って紹介します。QGIS 2.xは既にダウンロードし、インストール済みであると仮定して進めます。もしまだインストールしていない場合は[こちら](http://www.qgis.org/en/site/forusers/download.html)からダウンロードとインストールを行ってください。

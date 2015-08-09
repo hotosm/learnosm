@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: OSM Data in QGIS
-permalink: /it/osm-data/osm-in-qgis/
-lang: it
+title: Using OSM Data in QGIS
+permalink: /uk/osm-data/osm-in-qgis/
+lang: uk
 category: osm-data
 ---
 
-OSM Data in QGIS
+Using OSM Data in QGIS
 =================
 
 This guide is currently not available. It is being translated. Please refer to it in:  
