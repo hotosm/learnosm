@@ -10,6 +10,6 @@ Using OSM Data in QGIS
 =================
 
 Cette page n'est pas disponible en Français et doit être traduite. Vous pouvez aussi consulter les autres versions dans les langues suivantes :  
-[English](/fr/osm-data/osm-in-qgis/)
+[English](/en/osm-data/osm-in-qgis/)
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.
