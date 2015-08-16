@@ -9,7 +9,7 @@ category: osm-data
 QGISを使ったOSMデータ利用
 =================
 
-A slightly more recent version of this guide is available in [English](/ja/osm-data/osm-in-qgis/).  
+A slightly more recent version of this guide is available in [English](/en/osm-data/osm-in-qgis/).  
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 
