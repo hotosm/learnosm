@@ -217,22 +217,14 @@ Katika sehemu ijayo tutajifunza kuhusu njia mbili ambazo ni - GPS na Field Paper
 ambazo hutumiwa kukusanyia taarifa za kijiografia. Taarifa kutoka njia zote mbili 
 zinawekwa kwenye JOSM, na kutumika kwa uhariri wa ramani.
 
-Kuendelea Mbele
----------------
-Bonyeza kiungo kwa ajili ya kusoma zaidi juu ya:
- 
-*  [Upimaji kwa kutumia GPS](/sw/beginner/using-gps/)  
-*  [Tafiti kwa kutumia Field Papers](/sw/beginner/field-papers/)
-*  [Kuhariri Field Data](/sw/beginner/editing-with-josm/) 
 
-
-[JOSM Download Button]: /images/beginner/josm_download-button.png
-[JOSM Download Dialog]: /images/beginner/josm_download-dialog.png
-[JOSM Preferences up down]: /images/beginner/josm_preferences-up-down.png
-[JOSM Preferences WMS TMS]: /images/beginner/josm_preferences-wms-tms.png
-[JOSM layout]: /images/beginner/josm_layout.png
-[JOSM select tool]: /images/beginner/josm_select-tool.png
-[JOSM area downloaded]: /images/beginner/josm_area-downloaded.png
-[JOSM Upload Button]: /images/beginner/josm_upload-button.png
-[JOSM Upload Dialog]: /images/beginner/josm_upload-dialog.png
-[JOSM Authenticate]: /images/beginner/josm_authenticate.png
+[JOSM Download Button]: /images/josm/josm_download-button.png
+[JOSM Download Dialog]: /images/josm/josm_download-dialog.png
+[JOSM Preferences up down]: /images/josm/josm_preferences-up-down.png
+[JOSM Preferences WMS TMS]: /images/josm/josm_preferences-wms-tms.png
+[JOSM layout]: /images/josm/josm_layout.png
+[JOSM select tool]: /images/josm/josm_select-tool.png
+[JOSM area downloaded]: /images/josm/josm_area-downloaded.png
+[JOSM Upload Button]: /images/josm/josm_upload-button.png
+[JOSM Upload Dialog]: /images/josm/josm_upload-dialog.png
+[JOSM Authenticate]: /images/josm/josm_authenticate.png
