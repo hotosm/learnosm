@@ -142,9 +142,9 @@ have seen previously - points, lines, and shapes that represent real-life locati
 
 >	Never edit the map outside of the area you have downloaded. You
 >	can see the rectangular area you have downloaded has a solid background,
->	while the area you have not downloaded has diagonal pinstriped lines.
->
->	![JOSM area downloaded][]
+>	while the area you have not downloaded has diagonal pinstriped lines.  
+
+![JOSM area downloaded][]
 
 Save Changes
 --------------

@@ -147,9 +147,10 @@ mistari, na maumbo yanayo wakilisha maeneo halisi ya maisha.
 
 >	Kamwe usihariri ramani nje ya eneo ulilo pakua. Unaweza kuona 
 >       mazingira mstatili uliyo pakuliwa ina msingi imara, wakati eneo hilo 
->       ambalao huja pakuliwa lina mistari ulalo.
->
->	![JOSM area downloaded][]
+>       ambalao huja pakuliwa lina mistari ulalo. 
+
+
+![JOSM area downloaded][]
 
 Hifadhi Mabadiliko
 ------------------
