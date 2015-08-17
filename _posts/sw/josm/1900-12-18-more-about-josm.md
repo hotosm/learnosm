@@ -188,10 +188,11 @@ na mtandao.
 -  Unahitaji kusubiri sekunde chache kwa ajili ya mabadiliko yako kwa 
     kupakiwa, kisha tayari! Umetengeneza ramani kwenye  OpenStreetMap.
 
->       Wakati wewe unahariri, daima kuwa na uhakika wa kupakia mabadiliko yako 
->       kabla hujafunga JOSM. Hata kama bado unahariri, kwanza pakia mabadiliko yako, 
->       na kisha endelea kwa kupitia mchakato huu tena kwa baadaye wakati una muda 
->       mwingine kuhariri. Hakuna haja ya kupoteza kazi yako! 
+>  Wakati wewe unahariri, daima kuwa na uhakika wa kupakia mabadiliko  
+>  yako kabla hujafunga JOSM. Hata kama bado unahariri, kwanza pakia  
+>  mabadiliko yako, na kisha endelea kwa kupitia mchakato huu tena  
+>  kwa baadaye wakati una muda mwingine kuhariri. Hakuna haja ya  
+>  kupoteza kazi yako! 
 
 Kuona mabadiliko yako kwenye ramani
 -----------------------------------

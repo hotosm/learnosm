@@ -140,9 +140,9 @@ have seen previously - points, lines, and shapes that represent real-life locati
     Describe these objects by selecting from the Presets menu, as you
     did in the previous section. 
 
->	Never edit the map outside of the area you have downloaded. You
->	can see the rectangular area you have downloaded has a solid background,
->	while the area you have not downloaded has diagonal pinstriped lines.  
+>  Never edit the map outside of the area you have downloaded. You  
+>  can see the rectangular area you have downloaded has a solid background,  
+>  while the area you have not downloaded has diagonal pinstriped lines.  
 
 ![JOSM area downloaded][]
 
@@ -178,10 +178,10 @@ be connected to the internet.
 -	You will need to wait a few seconds for your changes to be uploaded,
     and then you are done! You have edited the map on OpenStreetMap.
 
->	When you are editing, always be sure to upload your changes before you
->	close JOSM. Even if you still have more editing to do, upload your changes,
->	and then go through the process again later when you have time to edit. You
->	don't want to lose your work!
+> When you are editing, always be sure to upload your changes before you close  
+> JOSM. Even if you still have more editing to do, upload your changes, and  
+> then go through the process again later when you have time to edit.  
+> You don't want to lose your work!
 
 See your changes on the map
 ---------------------------
