@@ -173,18 +173,18 @@ na mtandao.
 
 -  Bonyeza “pakia mabadiliko”.
 
--       Kama hii ni mara yako ya kwanza kutunza mabadiliko kwenye OpenStreetMap, 
+-  Kama hii ni mara yako ya kwanza kutunza mabadiliko kwenye OpenStreetMap, 
     utaulizwa jina lako unalotumia kwenye OpenStreetMap na neno la siri.
--       Ingiza jina na neno la siri kwenye dirisha inaoonekana. Kama ukiweka 
+-  Ingiza jina na neno la siri kwenye dirisha inaoonekana. Kama ukiweka 
     alama ya tiki kwenye kisanduku katika dirisha hili, jina na neno la siri 
     lako vitatunzwa hakuna haja ya kuingia tena katika siku zijazo au zingine. 
     Bonyeza “Authenticate” "Kuthibitisha".
 
 ![JOSM Authenticate][]
 
--	You will need to wait a few seconds for your changes to be uploaded,
+-  You will need to wait a few seconds for your changes to be uploaded,
     and then you are done! You have edited the map on OpenStreetMap.
--       Unahitaji kusubiri sekunde chache kwa ajili ya mabadiliko yako kwa 
+-  Unahitaji kusubiri sekunde chache kwa ajili ya mabadiliko yako kwa 
     kupakiwa, kisha tayari! Umetengeneza ramani kwenye  OpenStreetMap.
 
 >       Wakati wewe unahariri, daima kuwa na uhakika wa kupakia mabadiliko yako 
