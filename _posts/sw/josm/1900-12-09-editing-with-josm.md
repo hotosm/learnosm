@@ -6,6 +6,8 @@ lang: sw
 category: josm
 ---
 
+> Huu muongozo unaweza kupakuliwa kama  [josm_editing-with-josm_sw.odt](/files/josm_editing-with-josm_sw.odt) au [josm_editing-with-josm_sw.pdf](/files/josm_editing-with-josm_sw.pdf)  
+
 Kuhariri Taarifa za Kazi
 ==================
 Kwa sasa tumegusa maeneo yote ya majengo kwa kutengeneza ramani na OpenStreetMap. Tumejifunza jinsi ya kutumia GPS na karatasi kazi 'field papers' katika kusavei eneo, na jinsi tunavyotumia JOSM kuhariri pointi, mistari na maumbo ambayo yanatengeneza ramani.
