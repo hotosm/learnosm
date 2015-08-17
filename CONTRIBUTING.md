@@ -3,9 +3,12 @@
 Thank you for your interest in contributing to [learnosm.org](http://learnosm.org). This file explains how to make
 contributions. We can also coordinate work with ['issues' here on github](https://github.com/hotosm/learnosm/issues?state=open), and discussion on the [learnosm-coord Mailing list](https://lists.openstreetmap.org/listinfo/learnosm-coord). Be sure to follow these channels if you are interested in ongoing contribution. 
 
-## Text modifications and translations
+## Text modifications
 
 For minor edits (typos, spelling, etc), you can use the [online github editing tools](https://help.github.com/articles/editing-files-in-another-user-s-repository/) to propose changes.
+
+# Translations via Transifex
+We are now using <https://www.transifex.com> to carry out the majority of our translations for LearnOSM. This is much simpler to manage for both the translator & the techie team. Please go to <https://www.transifex.com> and search for HOT-OSM, then LearnOSM if you can assist with any translations. 
 
 # Translation workflow - new from November 2014  
 Choose from one of the three options. The file will need to be created & placed in the correct folder.   
