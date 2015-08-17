@@ -147,9 +147,10 @@ mistari, na maumbo yanayo wakilisha maeneo halisi ya maisha.
 
 >	Kamwe usihariri ramani nje ya eneo ulilo pakua. Unaweza kuona 
 >       mazingira mstatili uliyo pakuliwa ina msingi imara, wakati eneo hilo 
->       ambalao huja pakuliwa lina mistari ulalo.
->
->	![JOSM area downloaded][]
+>       ambalao huja pakuliwa lina mistari ulalo. 
+
+
+![JOSM area downloaded][]
 
 Hifadhi Mabadiliko
 ------------------
@@ -173,24 +174,25 @@ na mtandao.
 
 -  Bonyeza “pakia mabadiliko”.
 
--       Kama hii ni mara yako ya kwanza kutunza mabadiliko kwenye OpenStreetMap, 
+-  Kama hii ni mara yako ya kwanza kutunza mabadiliko kwenye OpenStreetMap, 
     utaulizwa jina lako unalotumia kwenye OpenStreetMap na neno la siri.
--       Ingiza jina na neno la siri kwenye dirisha inaoonekana. Kama ukiweka 
+-  Ingiza jina na neno la siri kwenye dirisha inaoonekana. Kama ukiweka 
     alama ya tiki kwenye kisanduku katika dirisha hili, jina na neno la siri 
     lako vitatunzwa hakuna haja ya kuingia tena katika siku zijazo au zingine. 
     Bonyeza “Authenticate” "Kuthibitisha".
 
 ![JOSM Authenticate][]
 
--	You will need to wait a few seconds for your changes to be uploaded,
+-  You will need to wait a few seconds for your changes to be uploaded,
     and then you are done! You have edited the map on OpenStreetMap.
--       Unahitaji kusubiri sekunde chache kwa ajili ya mabadiliko yako kwa 
+-  Unahitaji kusubiri sekunde chache kwa ajili ya mabadiliko yako kwa 
     kupakiwa, kisha tayari! Umetengeneza ramani kwenye  OpenStreetMap.
 
->       Wakati wewe unahariri, daima kuwa na uhakika wa kupakia mabadiliko yako 
->       kabla hujafunga JOSM. Hata kama bado unahariri, kwanza pakia mabadiliko yako, 
->       na kisha endelea kwa kupitia mchakato huu tena kwa baadaye wakati una muda 
->       mwingine kuhariri. Hakuna haja ya kupoteza kazi yako! 
+>  Wakati wewe unahariri, daima kuwa na uhakika wa kupakia mabadiliko  
+>  yako kabla hujafunga JOSM. Hata kama bado unahariri, kwanza pakia  
+>  mabadiliko yako, na kisha endelea kwa kupitia mchakato huu tena  
+>  kwa baadaye wakati una muda mwingine kuhariri. Hakuna haja ya  
+>  kupoteza kazi yako! 
 
 Kuona mabadiliko yako kwenye ramani
 -----------------------------------
@@ -217,22 +219,14 @@ Katika sehemu ijayo tutajifunza kuhusu njia mbili ambazo ni - GPS na Field Paper
 ambazo hutumiwa kukusanyia taarifa za kijiografia. Taarifa kutoka njia zote mbili 
 zinawekwa kwenye JOSM, na kutumika kwa uhariri wa ramani.
 
-Kuendelea Mbele
----------------
-Bonyeza kiungo kwa ajili ya kusoma zaidi juu ya:
- 
-*  [Upimaji kwa kutumia GPS](/sw/beginner/using-gps/)  
-*  [Tafiti kwa kutumia Field Papers](/sw/beginner/field-papers/)
-*  [Kuhariri Field Data](/sw/beginner/editing-with-josm/) 
 
-
-[JOSM Download Button]: /images/beginner/josm_download-button.png
-[JOSM Download Dialog]: /images/beginner/josm_download-dialog.png
-[JOSM Preferences up down]: /images/beginner/josm_preferences-up-down.png
-[JOSM Preferences WMS TMS]: /images/beginner/josm_preferences-wms-tms.png
-[JOSM layout]: /images/beginner/josm_layout.png
-[JOSM select tool]: /images/beginner/josm_select-tool.png
-[JOSM area downloaded]: /images/beginner/josm_area-downloaded.png
-[JOSM Upload Button]: /images/beginner/josm_upload-button.png
-[JOSM Upload Dialog]: /images/beginner/josm_upload-dialog.png
-[JOSM Authenticate]: /images/beginner/josm_authenticate.png
+[JOSM Download Button]: /images/josm/josm_download-button.png
+[JOSM Download Dialog]: /images/josm/josm_download-dialog.png
+[JOSM Preferences up down]: /images/josm/josm_preferences-up-down.png
+[JOSM Preferences WMS TMS]: /images/josm/josm_preferences-wms-tms.png
+[JOSM layout]: /images/josm/josm_layout.png
+[JOSM select tool]: /images/josm/josm_select-tool.png
+[JOSM area downloaded]: /images/josm/josm_area-downloaded.png
+[JOSM Upload Button]: /images/josm/josm_upload-button.png
+[JOSM Upload Dialog]: /images/josm/josm_upload-dialog.png
+[JOSM Authenticate]: /images/josm/josm_authenticate.png

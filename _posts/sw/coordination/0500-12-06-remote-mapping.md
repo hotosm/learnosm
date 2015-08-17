@@ -7,68 +7,64 @@ category: coordination
 ---
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 
-Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
-tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md). 
+#Muongozo wa HOT Remote Response 
+HOT ni jamii ya kimataifa inayofanya kazi kwa misingi ya vyanzo huria na data huria kwa msaada wa kibinadamu na maendeleo ya kiuchumi.
 
-#HOT Remote Response Guide  
-The Humanitarian OpenStreetMap Team (HOT) is a global community working to apply the principles of open source and open data sharing towards humanitarian response and economic development.
-
-###How Remote Response Works 
+###Jinsi Remote Response Inavyofanya kazi
 
 ![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)
 
-The majority of HOT’s response activities occur remotely. After a disaster strikes, HOT members search for existing data and available satellite imagery. Pertinent partners are contacted to provide ODbL compatible imagery. Once the imagery is obtained the virtual community digitizes, or traces from the imagery (normally, the focus is on recognizable objects that are useful for humanitarian response, like roads, buildings, blocked roads, flood extent, etc) and generates data and maps. During this time, responding organizations are also contacted to determine their needs.
+Wahusika wengi wa shughuli za HOT hutoa msaada wakiwa mbali. Baada ya kutokea maafa, wahusika wa HOT hutafuta data zilizopo na picha za anga zilizopo. Washirika huwasiliana kupata ODbL picha zinayoendana. Mara baaada ya picha kupatikana wanajamii huchora, au hufuata yaliyopo kwenye picha (kwa kawaida, mtazamo huwa kwenye vitu vyenye kutambulika ambavyo hutumika kutoa msaada wa kibinadamu, kama barabara, majengo, barabara zilizofungwa, mafuriko nakadhalika) na kuzalisha data na ramani. Wakati huu, taasisi zinazohusika huwasiliana kutambua mahitaji yao.
 
-Considering the scale of the crisis, HOT allocates the necessary resources and the response is coordinated by a specific team or member who makes sure everyone knows when new resources are available as well as where to focus efforts. HOT fosters the engagement of the OSM community and, if existing, local actors to use tools like the Tasking Manager to coordinate response efforts. Examples include the remote activities done in Ivory Coast, Senegal, Philippines, and the Democratic Republic of the Congo.
+Kuzingatia kiwango cha tatizo, HOT inatoa nyenzo muhimu na uwajibikaji unaunganishwa na timu maalumu au wahusika ambao wanahakikisha kila mtu anafahamu wakati nyenzo mpya zinapopatikana na wapi kutazamisha nguvu. HOT inahamasisha wanajamii wa OSM na kama wapo watendaji wa ndani wakutumia vifaa kama Tasking manager kuunganisha jitihada za uwajibikaji. Mfano, kuhusisha kazi zilizofanywa mbali kama Ivory Coast, Senegal, Philippines, and Democratic Republic of the Congo. 
 
 [Syria Activation Example](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)
 
-###The HOT Tasking Manager 
+###Muhundo wa kufanya kazi wa HOT
 
-The [HOT Tasking Manager](http://tasks.hotosm.org/) is a open source tool designed to divide up a mapping job into smaller tasks that can be completed rapidly. It shows which areas need to be mapped and which areas need the mapping validated by others. It includes mapping tasks for [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), and longer standing [Humanitarian Projects](http://hot.openstreetmap.org/projects). 
+Muhundo wa kazi wa HOT (http://tasks.hotosm.org/) ni wazi chombo imeundwa ili kugawanya kazi za ramani kazi kwenye majukumu madogo madogo ambayo yanaweza kukamilika kabisa kwa uharaka. Inaonyesha maeneo ambayo yanahitaji kuchorewa ramani na maeneo ambayo ya ramani yaliyosahihishwa na wengine. Inahusisha pamoja na majukumu ramani kwa ajili ya kuhamasisha (http://wiki.openstreetmap.org/wiki/HOT_activation) , na kudumu kwa Miradi ya kibinadamu (http://hot.openstreetmap.org/projects). 
 
-In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](http://learnosm.org/en/coordination/tasking-manager/). 
+Ili kutumia Meneja muhundo wa HOT yakupasa kujiunga na OpenStreetMap ( OSM ) ukiwa na jina la mtumiaji na neno la siri. Kwa maelekezo zaidi soma dodoso la muhundo wa kazi wa HOT (/en/coordination/tasking-manager/). 
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)
-###Editing Tools 
 
-[iD](http://learnosm.org/en/editing/id-editor/) - the web-based editor created by [Mapbox](www.mapbox.com) with a very user-friendly interface. Generally considered the best editing tool to start with. You can launch this [interactive iD editor tutorial](http://ideditor.com/) to get acquainted with how to use it.
+###Vifaa vya kuhariri
+
+[ID](/en/beginner/id-editor/) - iliyotokana na Mapbox kwa mtumiaaji (www.mapbox.com) kiujumlau hiki kifaa kinachukua ubora wa kwanza katika kuhariri. Unaweza kuzindua hii mwingiliano iD ya mhariri dodoso ili kujua jinsi ya kuitumia (http://ideditor.com/).
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)
 
+[JOSM](https://josm.openstreetmap.de/)- Ni Java programu inatamkwa kama “Jaws-um”, ambayo inahitaji kupakuliwa na watu wanajifunza zaidi. Ingawa inachukua mda kuiweka na kujifunza,inafanya kazi haraka wakati wa kuhariri. Inasisitizwa kutumia kipanya wakati wa kuhariri.
 
-[JOSM](https://josm.openstreetmap.de/)- a Java app pronounced as "Jaws-um", which requires downloading the app and has a greater learning curve. Although it takes longer to setup and learn, it is super-fast for making more edits. Using a mouse is recommended for using this editor. 
 
 ![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)
 
-###Advice & Words of Encouragement
+###Ushauri & Neno la Kukupamoyo
 
->"To practice it's recommended you start with a local area you know and try some
-editing, such as updating a local building in your neighborhood." 
+>"Inashauriwa kujifunza zaidi kwa kuanza  eneo unalolijua na kuhariri, kama vile kuchora majengo yaliyopo eneo unaloishi."
 
->"Some tasks are easier than others; if you don't feel up to one of them, simply cancel out and try another!" -Peter (@meetar) 
+>"Kazi nyingine ni rahisi kuliko nyingine; kama hujisikii kufanya mojawapo, unaweza ukaiacha na kujaribu nyingine." -Peter (@meetar) 
 
->"It's no problem if you don't finish the task; just upload what you've done and unlock the task so others can work on it." -Peter (@meetar)  
+>"Hamna tatizo kama hutamaliza kazi; unaweza kuupload kile ulichokifanya na kuifungua kazi ili wengine waifanyie kazi." -Peter (@meetar)  
 
->"If you'd like to see examples of the quality of work that passes muster, check out one of the green "validated" tasks. Don't worry, clicking the "Review the work" button doesn't commit you to anything – it just locks the task as though you were editing it. Load it like normal, and simply unlock the task again when you're done." -Peter (@meetar)  
+>"Kama utapenda kuangalia mifano ya ubora wa kazi zilizofanyika, angalia kazi yenye rangi ya kijani "validated". Usiwe na wasiwasi, kwa kubonyeza kitufe cha "Review the work" haitakuruhusu kufanya chochote – inafunga kazi  pale tu wewe unapohariri. Ifungue tu kawaida, na kiurahisi fungua ile kazi tena pale utakapokuwa umemaliza." -Peter (@meetar)
 
-
->"The satellite pictures are sometimes difficult to interpret, but don't worry too much about drawing the perfect line or shape – your work will be reviewed and modified by others, and improved with time. And remember, these are crisis areas, not tax records or voting districts – these maps will be read by people who may be in a hurry, in the dark, or in danger. In West Africa, even a rough line on a map is an expression of hope. In Gaza, many of the buildings to be mapped are already gone; but we mark the fact of their construction. Accuracy is nice, but it isn't the point." -Peter (@meetar) 
-
+>"Picha za anga mara nyingine ni ngumu kuzitafsiri, lakini usiwe na wasiwasi sana kuhusu kuchora mistari halisi au umbo – kazi yako itaonekana na kurekebishwa na wengine, na kuendekea kurekebishwa kwa mda. Na kumbuka, haya ni maeneo ya majanga, sio ya kukusanya kodi au kupigia kura – hizi ramani zitakuwa tayari kwa watu ambao watakuwa na haraka, kwenye giza, au kwenye hatari. Afrika magharibi, hata mstari usio na ubora ni moja ya matumaini kawo. Huko  Gaza, majengo mengi yakuchorwa kwenye ramani yameshaondoka; lakini tunayachukulia kama yanajengwa. Ubora ni mzuri, lakini sio pointi." -Peter (@meetar) 
  
-###Other Resources 
+###Miongozo Mingine
 
-This guide has been summarized and collected from a variety of existing tutorial sources and a working HOT Guide. You can find more learning resources at the links below. 
+Huu muongozo umeandaliwa na kukusanywa kutoka kwenye vitabu mbalimbali vilivyokuwepo na muongozo uliofanyiwa kazi kutoka HOT. Unaweza ukapata miongozo mingine katika tovuti zifuatazo.
 
-####Tutorials
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/)- one of the most comprehensive guides  
+####Mafunzo
 
-[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along
+[LearnOSM's Remote Mapping Guide](/en/coordination/remote/)- Moja kati ya miongozo mizuri. 
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - written by Peter Richardson (@meetar) an experienced HOT Remote Response Volunteer
+[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- Inavideos ambazo unaweza ukazisimamisha ili ufuatilie vizuri zaidi. 
 
-####About HOT 
-[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)-  learn more about how HOT operates and some of their latest news 
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - Imeandikwa na Peter Richardson (@meetar) mtaalamu wa kujitolea wa HOT Remote Response.
 
-[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- describes HOT activities in more detail from their website 
+####Kuhusu HOT 
+[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)- Jifunze zaidi jinsi HOT inavyofanya kazi na habari zake mpya.
+
+[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- Inaelezea kazi za HOT kiundani kutoka kwenye tovuti yao.

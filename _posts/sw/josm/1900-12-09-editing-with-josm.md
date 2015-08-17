@@ -6,204 +6,117 @@ lang: sw
 category: josm
 ---
 
-Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
-tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md). 
-
-Editing Field Data
+Kuhariri Taarifa za Kazi
 ==================
-We've now covered all the building blocks of mapping with OpenStreetMap.
-We've learned how to use GPS and Field Papers to survey an area, and how 
-we can use JOSM to edit the points, lines, and shapes that make up our map.
+Kwa sasa tumegusa maeneo yote ya majengo kwa kutengeneza ramani na OpenStreetMap. Tumejifunza jinsi ya kutumia GPS na karatasi kazi 'field papers' katika kusavei eneo, na jinsi tunavyotumia JOSM kuhariri pointi, mistari na maumbo ambayo yanatengeneza ramani.
 
-In this chapter we'll return once again to JOSM and look at a couple of new
-concepts which we have not covered thus far.
+Katika sura hii tutarudi nyuma tena kwenye JOSM na kuangalia mbinu mpya ambazo hatujazifanyia kazi mpaka sasa.
 
-JOSM Layers
+Tabaka za JOSM 
 -----------
-If you've followed along so far, you may have noticed that we can add all sorts
-of different things into JOSM. We can download OSM data, add Bing satellite imagery,
-load GPS tracks and waypoints, and add Field Papers - all of which are displayed
-in the map window of JOSM.
 
-You may have also noticed that every time you add something new to JOSM, an additional
-item is added to the Layers panel on the right side of JOSM. Depending on what you have
-opened, your Layers panel may look something like this:
+Kama umefuatilia kwa makini, utakuwa umeona kuwa tunaweza kuongeza aina mbalimbali za vitu katika JOSM. Tunaweza kupakua taarifa kutoka OSM, kuongeza picha za anga, kupakua taarifa zilizokusanywa kwa GPS yaani tracks na waypoints pia karatasi kazi- ambavyo vyote huonekana kwenye kioo kinachoonyesha JOSM
+
+Unaweza pia kuwa umeona kuwa kila uongezapo kitu kwenye JOSM, kitu kipya kilichoongezeka huonekana kwenye ukanda wa tabaka kulia mwa JOSM. Kutegemeana na umefungua nini tabaka zako zitaonekana kama ifuatavyo: 
 
 ![Layers panel][]
 
-Each item in this list represents a different source of data that
-you have open in your map window. In this example, “Data Layer
-1” is the OpenStreetMap data that we are editng. "Field Papers” is
-the layer created when we added our Field Paper into JOSM.
+Kila kitu katika mpangilio huu huonyesha vyanzo tofauti vya takwimu ambavyo umefungua katika kioo cha ramani. Katika mfano huu, “Taarifa ya tabaka la 1” ni taarifa ya OpenStreeMap ambayo tuna hariri. “FieldPapers” ni tabaka ambalo limetengenezwa baada ya kuongeza karatasi kazi yetu kwenye JOSM.
 
-If you add the Bing satellite imagery, a new layer will appear in the Layers panel named "Bing Sat."
+Ukiongeza picha ya anga ya Bing, tabaka mpya itatokea kwenye ukanda wa tabaka kwa jina la “BingSat”.
 
-The idea of layers can often be hard to understand. A good way to imagine it is that each
-layer is like a semi-transparent piece of paper, and they are all stacked on top of one
-another. Each piece of paper has a certain type of information on it, and they can be rearranged
-any way you like.
+Wazo la tabaka huwa mara nyingi na ugumu katika kulielewa. Njia nzuri ni kuchukulia kila tabaka ni sehemu angavu au wazi ya karatasi, na zote zimepangwa kwa kurundikwa pamoja. Kila kipande cha karatasi kina taarifa ya kipekee na unaweza kuzipanga upya katika mpangilo wowote ule tofauti wewe unaotaka.
 
-Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers
-are often called "base layers." The OSM data layer is the layer that you actually work with.
+Tabaka zinazoweza kutumika kama marejeo, mfano picha za anga, taarifa za GPS na karatasi kazi huwa zinaitwa taarifa za msingi au za awali. Tabaka za OSM ni zile ambazo unaweza kuzifanyia kazi. 
 
--   To move a layer, click on it in the Layers panel and click on the up
-    or down arrow to move it.
-
+- Kuhamisha tabaka lolote, bofya kwenye tabaka husika kwenye ukanda wa tabaka na ubofye mishale inayoonyesha juu au chini      ili kuhamisha.
 ![Layers up down][]
 
--  To hide a layer, select it with your mouse and
-    click the Show/Hide button:
-
+- Kuficha tabaka, ichague na kipanya na ubofye kitufe cha kuonyesha au kuficha:
 ![Layers show hide][]
 
--  You should see the layer that you selected disappear in the map
-    window. Click Show/Hide again, and it will reappear.
--  You can remove a layer by selecting it and using the delete
-    button:
+- Ukifanya hivyo unatakiwa uone tabaka ulilochagua halitokei kwenye kioo. Bofya tena onyesha/ficha kwa mara nyingine na        litatokea.
 
+- Unaweza ondoa tabaka kwa kuichagua na kutumia kitufe cha kufuta:
 ![Layers delete][]
 
--  Lastly, it’s important to know that you can only edit the layer that
-    is considered *active* by JOSM. If you are unable to edit the map in
-    your map window, it’s probably because you don’t have the correct
-    layer set as active. Most layers, such as GPS points, Field
-    Papers, and satellite imagery, can’t be edited. The only layers that
-    can be edited are data from OpenStreetMap, which are usually called
-    “Data Layer 1”.
--  To make a layer active, select it in the Layers panel, and click on
-    the Activate button:
+- Mwisho, ni muhimu kujua kuwa unaweza kuhariri tabaka ambalo liko hai katika JOSM.Kama huwez kuhariri ramani katika dirisha   la kioo chako, huenda sababu inayosababisha ni wewe kutokuwa na tabaka ambazo ziko hai. Tabaka nyingi kama pointi za GPS,    Field Papers na picha za anga, haziwezi kuhaririwa. Tabaka pekee ambazo unaweza kuhariri ni zile za kutoka OpenStreetMap,    ambazo huitwa “Data Layer 1”.
 
+- Kuifanya tabaka (layer) kuwa hai, ichague katika ukanda wa tabaka, na bofya kwenye kitufe cha kuifanya iwe hai.
 ![Layers activate][]
 
-
-Using GPS Data and Field Papers
+Kutumia Taarifa za GPS na Karatasi  Kazi
 -------------------------------
-In the previous chapters we saw how to collect data with a GPS
-and Field Papers, and how to load it into JOSM as a layer.
+Katika sura zilizopita tumeona jinsi ya kukusanya taarifa kwa GPS na karatasi kazi, na jinsi ya kuziingiza katika JOSM kama tabaka.
 
-Once you have surveyed with one of these tools, you still need
-to add the information into OpenStreetMap digitally.
+Mara ulipotafiti na moja ya vifaa hivi, bado unahitaji kuongeza taarifa katika Ramani Huria kidigitali.
 
-You do this with the same process you learned previously - **download,
-edit, save**. The difference is that instead of using only satellite
-imagery as a base layer, you can also use your GPS data, Field Papers,
-notes, or a combination of them all.
+Unafanya hivi kwa njia sawa na zile ulizojifunza awali - **pakuwa, hariri, hifadhi**. Tofauti ni kwamba badala ya kutumia picha za anga pekee kama tabaka la msingi, unaweza pia kutumia taarifa zako za GPS, karatasi kazi, maelezo, au muunganiko wa hivyo vyote.
 
--   For example, let's assume you have your GPS waypoints as a background
-    layer in JOSM, you saved a waypoint on your GPS with the name 030, and
-    you wrote in your notebook that 030 is a school. To add this point
-    into OpenStreetMap, you will select the draw tool, and
-    double-click on top of point 030 in your map window. This will
-    create a point. Then go to the Presets menu, and find the preset for
-    school. Enter the name of the school and click “Apply Preset”. Do
-    the same to add lines and shapes.
-
+- Kwa mfano, hebu chukulia una GPS waypoints kama tabaka lako la nyuma katika JOSM, umehifadhi waypoint katika GPS yako kwa   jina 030, na umeandika katika daftari yako ya maelezo kwamba 030 ni shule. Kuongeza pointi hii katika Ramani Huria,          utachagua kifaa cha kuchorea, na bofya mara mbili juu ya pointi 030 katika dirisha la ramani. Hii itatengeneza pointi.       Halafu nenda kwenye orodha ya Presets, na tafuta preset ya shule. Ingiza jina la shule na bofya “Apply Preset”. Fanya hivyo  hivyo kuongeza mistari na maumbo. 
 ![GPS in JOSM][]
 
-Tags
+Vitambulisho
 ----
-When you draw a point, line, or shape, it has a location, but no
-information about what it is. In other words, we know **where** it
-is, but not **what** it is. Before now, we have been using items
-from the Presets menu to define **what** it is. The way
-OpenStreetMap knows **what** an object is is by using **tags**.
+Wakati unachora pointi, mstari, au umbo, lina mahali, lakini hakuna taarifa kuhusu hicho ni nini. Kwa maneno mengine, tunajua wapi ilipo, lakini siyo hicho ni nini. Kabla ya sasa, tulikuwa tunatumia vitu kutoka orodha ya Preset kufafanua hicho ni nini. Njia ambayo Ramani Huria inajua hichi kitu ni nini ni kwa kutumia vitambulisho.
 
-A tag is like a label that you can put on something. For example, if
-we draw a square, it’s only a square. But then we add attributes to
-it that describe what it is: this square is a building; the name of
-the building is “Menara Thamrin”; the building is 16 levels high.
+Kitambulisho ni kama maelezo ambayo unaweza kuweka katika kitu. Kwa mfano, kama tunachora mraba, ni mraba pekee. Ila baadae tunaongeza sifa kwenye mraba ambazo zinatambulisha hicho ni nini: huu mraba ni jengo; jina la jengo ni  “Menara Thamrin”; jengo linaurefu wa ngazi 16.
 
-You can add as many tags as you want to an object. Tags are saved as
-pairs of text, called **keys** and the **values**. In
-OpenStreetMap, the tags written above would in fact be:
+Unaweza kuongeza vitambulisho vingi kama unavyoweza katika kitu. Vitambulisho vinahifadhiwa kama jozi nakala, zinazoitwa **key** na **values**. Katika OpenStreetMap, vitambulisho vilivyoandikwa juu ki ukweli vingekuwa: 
 
--   building = yes
--   name = Menara Thamrin
--   building:levels = 16
+building = yes
+name = Menara Thamrin
+building:level = 16
 
-If you select an object in JOSM, you can see all the tags that are
-attached to it in the Properties panel on the right.
-
+Kama ukichagua kitu katika JOSM, utaona vitambulisho (tags) vyote vilivyo ambatanishwa na hicho kitu katika jopo la sifa upande wa kulia.
 ![Properties panel][]
 
-### Editing Tags
-You can add, edit, and delete tags from the Properties panel. However, the tags
-are traditionally in English and can sometimes be confusing, so it
-is often easier to use the Presets menu. When you add or change tags, the attributes
-of the object are changed.
+### Uhariri wa Tags
 
--   To edit an object's tags, first select it.
--   Then edit the tags in one of two ways: (1) Use the Presets menu,
-    or (2) edit the tags directly in the Properties window on the right. 
+Unaweza kuongeza, kuhariri, na kufuta tags kwenye jopo la sifa. Hata hivyo, kijadi tags zipo kwa kingereza na wakati mwingine zinaweza kuchanganya, hivyo mara nyingi ni rahisi kutumia orodha ya Preset. Wakati unaongeza au kubadili tags, sifa za kitu zinabadilika.
 
-### Common Mistake: Tagging nodes when you want to tag lines or polygons
-When you are editing the attributes of a point, you will first select
-the point and then add tags either through the Presets menu or directly
-in the Properties panel. A common mistake is when adding attributes to a
-line or a shape. When selecting the object, it is important that you
-select the line, and NOT the points that make up the line.
+- Kuhariri tags za kitu, kwanza kichague.
+- Halafu hariri tags kwa moja kati ya hizi njia: (1) Tumia orodha ya Presets, au (2) hariri tags moja kwa moja katika dirisha   la sifa upande wa kulia.
 
-This frequently occurs because editors use the JOSM select tool to draw a
-box around an object, which causes everything, both the line **and** the nodes
-to be selected, and when you add tags they are applied to the nodes
-as well. Be sure to **only** select lines when you want to add tags
-to them.
+###Makosa ya kawaida: Kutag point wakati unataka kutambulisha mistari au pembe nyingi ‘polygons’
+
+Wakati unahariri sifa za point, utaanza kwa kuchagua pointi na baada ya hapo  ‘add tags’ ama kwa njia ya  presets orodha ‘presets menu’ au moja kwa moja katika mali jopo ‘properties panel’. Makosa ya kawaida ni pale unapoongeza sifa za mstari au umbo. Wakati umechagua kitu, in muhimu kuchagua mstari wote na si pointi zinazoufanya huo mstari.
+
+Hii hutokea mara kwa mara kwa sababu wahariri wanatumia JOSM kuchagua chombo ‘select tool’ kuchora box karibu na kitu, ambacho ndiyo husababisha  kila kitu, vyote mstari pamoja na  node vinatakiwa vichaguliwa, na unapo ongeza nodes zinatumika kwa nodes kama ilivyotakiwa. Kuwa na uhakika kwa kuchagua mistari tu pale unapotaka kuongeza sifa katika mistari hiyo.
+
 
 ![Nodes mistake][]
 
-Saving OSM files
+Kutunza mafaili ya OSM
 ----------------
-When you are editing in JOSM, it is always a good idea to download, edit, and
-upload changes in a reasonably short period of time. You do not want to download
-data one day, and then wait until a few days later to upload your edits. What if
-someone else edits the same area during that time? This will cause errors and conflicts.
 
-Don't be afraid to upload your edits frequently. This ensures that your changes will
-be saved to the database and you will not lose your hard work.
+Wakati unapohariri katika JOSM, ni wazo zuri daima kupakua, kuhariri, na kuongeza mabadiliko katika muda  mfupi. Hautakiwi kupakua data siku moja, na baadaye usubiri kwa siku chache zijazo utume ‘upload’  sehemu uliyo hariri. Itakuwaje kama mtu mwingine amehariri sehemu ile ile kwa wakati ule ule? Hiki ndo kinachosababisha makosa na migogoro.
 
-If you are working in a single area, it's a good idea to download the map data
-every time you want to edit, in case another user has made changes.
+Usiogope kutuma 'upload' mabadiliko ya uhariri mara kwa mara. Hii inakupa uhakika kwamba mabadikiliko uliyofanya yametunzwa katika database na hauta poteza kazi yako uliyofanya kwa bidii.
 
-Although you should always try to download OSM data when you are ready to edit,
-and upload your changes frequently, there may be cases in which you want to save
-the OSM data on your computer. For example, if you have intermittent connectivity
-to the internet, you may wish to download data, save it, edit, and then upload your
-changes later on.
+Kama unafanya kazi katika eneo moja, itakuwa ni wazo jema kupakua  ramani data kwa kila wakati unaotaka kuhariri, pindi itakapotokea mtu mwingine amefanya mabadiliko.
 
--  To save an OSM file, make sure that it is the active layer in the
-    the Layers panel. Click “File” on the top menu, and click “Save”.
-    Choose a location for the file and give it a name. You can also save
-    by clicking this button:
+Ingawa unatakiwa kupakua taarifa za OSM pindi unapotaka na unapokuwa tayari kuhariri, na kuupload mabadiliko mara kwa mara, kuna wakati mwingine kile unachotaka kuhifadhi taarifa za OSM katika kompyuta. Kwa mfano ukiwa au umeungwanishwa na mtandao wenye uwezo mdogo, na unataka kupakua taarifa, kuhifadhi, uhariri na baadaye kuupload mabadiliko.
 
+- Ili kuhifadhi OSM file, lazima uhakiki kwamba layer yake inafanya kazi. Bofya ‘file’ iliyo katika menu ya juu, na baada      ya hapo bofya ‘save’. Chagua sehemu ambayo utahifadhi na ulipe jina. Unaweza kuhifadhi ‘save’ kwa kubofya alama hii chini.
 ![JOSM save button][]
 
--  You can now close JOSM and your data will be saved. When you want to
-    open the file again, simply open JOSM, go to the “File” menu, and
-    click “Open...”
+- Unaweza sasa kufunga JOSM na data zako zitakuwa zimehifadhiwa. Utakapowa unataka kufungua file tena, kirahisi fungua JOSM,   nenda katika ‘file’ menu na baada ya hapo bofya kufungua ‘open’
 
-Summary
+
+Muhtasari
 -------
-In this chapter we looked a little bit closer at the JOSM interface and learned
-about layers and tags. You should now have a solid footing in how to map and how
-to edit OpenStreetMap.
+Katika hii sura tunaangalia kwa ukaribu JOSM na layers tulizojifunza na tags.Sasa unatakiwa kujua jinsi gani ya kukusanya taarifa na jinsi ya kuzihariri katika OpenStreetMap. 
 
-In the final section of this guide we will look at other resources you can learn from
-as you move forward. As you practice what you've learned here and explore further,
-you will get better and better at making maps with OSM.
+Katika sura ya mwisho ya huu muongozo tutaangalia miongozo mingine unayoweza kujifunza jinsi unavyoendelea.Kama ulivyofanyia kazi ulivyojifunza hapa na kuendelea mbele, utakuwa unaweza kutengeneza ramani kwa kutumia OSM.
 
-Moving Forward
---------------
 
-Click on the link for further reading on:  
-
-*  [Learning Beyond the Beginner Guide](/sw/beginner/moving-forward/)
-
-[Layers panel]: /images/beginner/josm_layers-panel.png
-[Layers up down]: /images/beginner/josm_layers-panel-up-down.png
-[Layers show hide]: /images/beginner/josm_layers-panel-show-hide.png
-[Layers delete]: /images/beginner/josm_layers-panel-delete.png
-[Layers activate]: /images/beginner/josm_layers-panel-activate.png
-[GPS in JOSM]: /images/beginner/josm_gps-layer.png
-[Properties panel]: /images/beginner/josm_properties-panel.png
-[Nodes mistake]: /images/beginner/josm_nodes-selected-mistake.png
-[JOSM save button]: /images/beginner/josm_save-button.png
+[Layers panel]: /images/josm/josm_layers-panel.png
+[Layers up down]: /images/josm/josm_layers-panel-up-down.png
+[Layers show hide]: /images/josm/josm_layers-panel-show-hide.png
+[Layers delete]: /images/josm/josm_layers-panel-delete.png
+[Layers activate]: /images/josm/josm_layers-panel-activate.png
+[GPS in JOSM]: /images/josm/josm_gps-layer.png
+[Properties panel]: /images/josm/josm_properties-panel.png
+[Nodes mistake]: /images/josm/josm_nodes-selected-mistake.png
+[JOSM save button]: /images/josm/josm_save-button.png

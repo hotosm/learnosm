@@ -240,24 +240,14 @@ Bora kabisa! Ikiwa kila kitu kimeenda vizuri umejifunza jinsi ya kuanzisha
 JOSM kwenye komputa yako, na vifa vya msingi kwa ajili ya kuchora ramani. 
 Katika sura inayofuata tutaangalia mchakato wa kuhariri ramani ya OSM na JOSM.
 
-Kuendelea Mbele
---------------
 
-Bonyeza kiungo kwa ajili ya kusoma zaidi juu ya:
-
-*  [Kuendelea na mfululizo huu kwanaeanza & kujifunza zaidi kuhusu JOSM](/sw/beginner/more-about-josm/)  
-*  [Kuendelea na kifungu cha LearnOSM cha Remote, Armchair au Mapathon](/sw/coordination/remote/)  
-
-
-
-
-[JOSM website]: /images/beginner/josm-website.png
-[Windows installer]: /images/beginner/windows-installer.png
-[JOSM splash page]: /images/beginner/josm-splash-page.png
-[Preferences window]: /images/beginner/josm_preferences.png
-[Look and feel]: /images/beginner/josm_look-and-feel.png
-[Open file]: /images/beginner/josm_open-file.png
-[Sample file]: /images/beginner/josm_sample-file.png
-[Scale bar]: /images/beginner/josm_scale-bar.png
-[Select tool]: /images/beginner/josm_select-tool.png
-[Draw tool]: /images/beginner/josm_draw-tool.png
+[JOSM website]: /images/josm/josm-website.png
+[Windows installer]: /images/josm/windows-installer.png
+[JOSM splash page]: /images/josm/josm-splash-page.png
+[Preferences window]: /images/josm/josm_preferences.png
+[Look and feel]: /images/josm/josm_look-and-feel.png
+[Open file]: /images/josm/josm_open-file.png
+[Sample file]: /images/josm/josm_sample-file.png
+[Scale bar]: /images/josm/josm_scale-bar.png
+[Select tool]: /images/josm/josm_select-tool.png
+[Draw tool]: /images/josm/josm_draw-tool.png
