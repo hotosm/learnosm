@@ -24,13 +24,13 @@ Kuzingatia kiwango cha tatizo, HOT inatoa nyenzo muhimu na uwajibikaji unaungani
 
 Muhundo wa kazi wa HOT (http://tasks.hotosm.org/) ni wazi chombo imeundwa ili kugawanya kazi za ramani kazi kwenye majukumu madogo madogo ambayo yanaweza kukamilika kabisa kwa uharaka. Inaonyesha maeneo ambayo yanahitaji kuchorewa ramani na maeneo ambayo ya ramani yaliyosahihishwa na wengine. Inahusisha pamoja na majukumu ramani kwa ajili ya kuhamasisha (http://wiki.openstreetmap.org/wiki/HOT_activation) , na kudumu kwa Miradi ya kibinadamu (http://hot.openstreetmap.org/projects). 
 
-Ili kutumia Meneja muhundo wa HOT yakupasa kujiunga na OpenStreetMap ( OSM ) ukiwa na jina la mtumiaji na neno la siri. Kwa maelekezo zaidi soma dodoso la muhundo wa kazi wa HOT (http://learnosm.org/en/coordination/tasking-manager/). 
+Ili kutumia Meneja muhundo wa HOT yakupasa kujiunga na OpenStreetMap ( OSM ) ukiwa na jina la mtumiaji na neno la siri. Kwa maelekezo zaidi soma dodoso la muhundo wa kazi wa HOT (/en/coordination/tasking-manager/). 
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)
 
 ###Vifaa vya kuhariri
 
-[ID](http://learnosm.org/en/editing/id-editor/) - iliyotokana na Mapbox kwa mtumiaaji (www.mapbox.com) kiujumlau hiki kifaa kinachukua ubora wa kwanza katika kuhariri. Unaweza kuzindua hii mwingiliano iD ya mhariri dodoso ili kujua jinsi ya kuitumia (http://ideditor.com/).
+[ID](/en/beginner/id-editor/) - iliyotokana na Mapbox kwa mtumiaaji (www.mapbox.com) kiujumlau hiki kifaa kinachukua ubora wa kwanza katika kuhariri. Unaweza kuzindua hii mwingiliano iD ya mhariri dodoso ili kujua jinsi ya kuitumia (http://ideditor.com/).
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)
 
@@ -58,7 +58,7 @@ Huu muongozo umeandaliwa na kukusanywa kutoka kwenye vitabu mbalimbali vilivyoku
 
 ####Mafunzo
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/)- Moja kati ya miongozo mizuri. 
+[LearnOSM's Remote Mapping Guide](/en/coordination/remote/)- Moja kati ya miongozo mizuri. 
 
 [MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- Inavideos ambazo unaweza ukazisimamisha ili ufuatilie vizuri zaidi. 
 
