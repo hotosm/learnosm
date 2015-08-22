@@ -16,7 +16,7 @@ Information is powerful. With good information and the right
 understanding, individuals and communities are better able to improve
 their lives and make good decisions about the future. There are many
 people and organizations who make decisions that affect our lives. Good
-information allows these NGOs, governments and citizens to make better
+information allows these NGO's (non-government organisations), governments and citizens to make better
 decisions, and hopefully make our lives better. Maps are a good way
 to convey information. 
 
@@ -24,9 +24,9 @@ to convey information.
 
 Maps are visual symbols of our world. They can often 
 demonstrate an idea better than words. This in turn can help us
-answer important questions. Where is the closest school or hospital? Who
+answer important questions. *Where is the closest school or hospital? Who
 has the least access to these facilities? Where is poverty the most
-problematic? Questions like these can often best be expressed with maps,
+problematic?* Questions like these can often best be expressed with maps,
 and maps can help find solutions to these questions. 
 
 As an exercise, get a pen and paper and draw a map of your town or village. What are the
@@ -49,7 +49,7 @@ on the ground.
 Your map is informative. You might use a map like this to explain to
 someone where different places are, where problems are in your
 community, or merely to help someone find their way around. The use of
-your map is limited though. There is only one copy of the map and the
+your map is limited though - there is only one copy of the map.The
 way you drew it may make sense to you, but perhaps not to someone else
 who would have drawn their own map in a different way. Because your map
 is merely on paper, it is difficult to get that information to others.
