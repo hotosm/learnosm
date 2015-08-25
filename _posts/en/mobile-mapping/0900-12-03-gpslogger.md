@@ -10,7 +10,7 @@ GPSLogger for Android
 ======================================================
 ![GPSLogger][]
 
-A simple, light-weight, and minimalistic app for recording GPS traces on the Android platform. The easy-to-use interface with the sole purpose of GPS logging and staying quite makes for a very battery-efficient application that can save gps tracks in GPX, KML, NEMA or text file formats. Log files can automatically be uploaded to OpenStreetMap, an OpenGTS server, DropBox, FTP server, HTTP server or sent to an email addresss.
+A simple, light-weight, and minimalistic app for recording GPS traces on the Android platform. The easy-to-use interface with the sole purpose of GPS logging and staying quite makes for a very battery-efficient application that can save gps tracks in GPX, KML, NEMA or text file formats. Log files can automatically be uploaded to OpenStreetMap, an OpenGTS server, DropBox, FTP server, HTTP server or sent to an email address.
 
 <a href="https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=en">
   <img alt="OsmAnd for Android"
@@ -49,7 +49,7 @@ The **Views drop-down** lets you to choose how information is display on the scr
 
 The **Help** button provides additional information about how to use the app.
 
-The **Annonate** button lets you to add a description to a point.
+The **Annotate** button lets you to add a description to a point.
 
 **Log one point** button lets you manually log a waypoint.
 
@@ -95,7 +95,7 @@ The **General options** is where to find settings for *Start on bootup*, *unit o
 ![Menus1][]
 
 
-The **Logging details** is where to find settings  *File formats* (multiple formats simultainously supported), *folder* path to store logs, rules on *new file creation* and *custom file name*.
+The **Logging details** is where to find settings  *File formats* (multiple formats simultaneously supported), *folder* path to store logs, rules on *new file creation* and *custom file name*.
 
 ![Menus2][]
 
@@ -112,7 +112,7 @@ Under **Performance** is where the settings for *location providers*, *timings*,
 
 ![Menus6][]
 
-Uploading GPS traces is another way of contributing data to the OpenStreetMap project. A trace is a record of your location at various time or distance intervals, and recorded as geographic coordinates (longitute, lattitude, altitude). They can be used as a background layer when editing maps, and is useful for adding features to the map, similar to aerial imagery.
+Uploading GPS traces is another way of contributing data to the OpenStreetMap project. A trace is a record of your location at various time or distance intervals, and recorded as geographic coordinates (longitude, latitude, altitude). They can be used as a background layer when editing maps, and is useful for adding features to the map, similar to aerial imagery.
 
 ####OpenStreetMap options
 
@@ -140,7 +140,7 @@ Clicking on the **Clear authorization** option will remove the permission to upl
 
 There are several *visibility* options for GPS traces. *Private* traces are shared as anonymous, with unordered points. *Public* traces are shown in the trace listing, and as anonymous, unordered points. *Trackable* traces are shared as anonymous, with timestamps for ordered points. *Identifiable* traces are shown in the trace list, and can be associated with your username, with timestamps for ordered points.
 
-It is recommened that you set the visiblity of the GPS traces you upload to *identifiable*. The data and metadata makes it more useful for other mappers. If you have concerns about privacy and personal security, choose a more appropriate settings, or don't upload the traces at all.
+It is recommended that you set the visibility of the GPS traces you upload to *identifiable*. The data and metadata makes it more useful for other mappers. If you have concerns about privacy and personal security, choose a more appropriate settings, or don't upload the traces at all.
 
 A text *description* help others understand how a trace is recorded. A trace recorded on foot will not be similar to a trace recorded by a drone.
 
@@ -174,7 +174,7 @@ An example config to automatically collect and upload to OpenStreetMap daily you
 ​Manually Recording Traces
 ---------------------
 
-To start collecting logs (in Simple view), simply click on the blue button. A spinner will appear near the upper right corner of the screen to indicate the atttempt to get a fix on satellites. A green circle will show in the upper right hand area to indicate logging is on going.
+To start collecting logs (in Simple view), simply click on the blue button. A spinner will appear near the upper right corner of the screen to indicate the attempt to get a fix on satellites. A green circle will show in the upper right hand area to indicate logging is on going.
 
 To stop recording data any time, just press the green *Stop Logging* button.
 
@@ -223,7 +223,7 @@ Exporting traces to an OpenStreetMap editor
 
 When you are done recording traces, the tracks may be imported to JOSM (or another OpenStreetMap editor, like iD).
 
-Connect your Android device to a computer (also possible using a data cable, Bluetooth, or an Internet connection) and copy the GPX tracks and (and perhaps, multimedia files) you’ve captured.  In your device storage, look for the GPX tracks under the folder /Android/data/com.mendhak.gpslogger/files
+Connect your Android device to a computer (also possible using a data cable, Bluetooth, or an Internet connection) and copy the GPX tracks and (and perhaps, multimedia files) you’ve captured.  In your device storage, look for the GPX tracks under the folder /Android/data/com.mendhak.gpslogger/files
 
 Using the GPX tracks with the JOSM and iD editors are easy as dragging the files and dropping them into the application (or the browser tab, for iD). 
 
@@ -259,7 +259,7 @@ GPSLogger for Android is another tool for collecting field data without a dedica
 
 Take some time to practice and familiarize yourself with the app before working with live data.
 
-This section introduced the concept of using GPSLogger for Android for collecting GPS traces, uploading traces to OpenStreetMap, and transfering these logs to a PC.
+This section introduced the concept of using GPSLogger for Android for collecting GPS traces, uploading traces to OpenStreetMap, and transferring these logs to a PC.
 
 
 Official GPSLogger for Android Documentation
