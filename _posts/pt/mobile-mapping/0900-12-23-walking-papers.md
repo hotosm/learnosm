@@ -6,8 +6,12 @@ lang: pt
 category: mobile-mapping
 ---
 
+Caution - this section is known to be out of date - there is a current section in:  
+[English - field papers](/en/mobile-mapping/field-papers/),  
+[German](/de/mobile-mapping/field-papers/), or  
+[Español](/es/mobile-mapping/field-papers/).  
 
-Caution - this section is known to be out of date - there is an current section at [English - field papers](/en/mobile-mapping/field-papers/) or [German](/de/mobile-mapping/field-papers/)
+To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 
 Utilizando o “Walking Papers”
 =============================
