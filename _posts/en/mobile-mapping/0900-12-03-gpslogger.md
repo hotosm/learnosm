@@ -7,7 +7,11 @@ category: mobile-mapping
 ---
 
 GPSLogger for Android
-======================================================
+=====================
+
+> This guide may be downloaded as [gpslogger_en.odt](/files/gpslogger_en.odt) or [gpslogger_en.pdf](/files/gpslogger_en.pdf)  
+> Reviewed 2015-08-25  
+
 ![GPSLogger][]
 
 A simple, light-weight, and minimalistic app for recording GPS traces on the Android platform. The easy-to-use interface with the sole purpose of GPS logging and staying quite makes for a very battery-efficient application that can save gps tracks in GPX, KML, NEMA or text file formats. Log files can automatically be uploaded to OpenStreetMap, an OpenGTS server, DropBox, FTP server, HTTP server or sent to an email address.
