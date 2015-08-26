@@ -50,13 +50,13 @@ _ Once you have logged in, you may click on your username at the top. Here you c
 - Access a list of projects for which you have completed squares,
 - Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)
 - Logout
-- See a list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for, how many commits their OSM edit history, and the quantity of each they have submitted.  
+- See a list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for and their OSM edit history.
 
 ![Tasking Manager Username_list][]
 
 ## Getting started with the Tasking Manager
 
-You may view projects as a visitor, but to actively participate you must be logged into the Tasking Manager - use your OpenStreetMap account username & password. Open your Internet browser and go to [tasks.hotosm.org](http://tasks.hotosm.org). You will see a page like this:
+You may view projects as a visitor, but to actively participate you must be logged into the Tasking Manager - use your OpenStreetMap account username & password. Open your Internet browser and go to <http://tasks.hotosm.org>. You will see a page like this:
 
 ![Tasking Manager Login][]
 
@@ -74,9 +74,9 @@ The current list of projects may be sorted according to:
 - Creation date, or
 - Last update
 
-You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have participated, whether you have completed a square or not. Validators will also find projects they have validated in by using this checkbox. You may use a free text search to locate projects that contain particular text strings, such as **Ebola** (search is not case sensitive).  
+You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have participated, whether you have completed a square or not. Validators will also find projects they have contributed validated squares in, by using this checkbox. You may use a free text search to locate projects that contain particular text strings, such as **Ebola** (search is not case sensitive).  
 
-Projects are frequently referred to by their Project number, e.g., [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711), and you may also use this in the search box.
+Projects are frequently referred to by their Project number, e.g., [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711), and in this instance you could search on #711 to find this project.
 
 
 -   Click on a blue project title to see more information about that project.
@@ -148,7 +148,7 @@ Different options for editing are presented to you as soon as you lock a square.
 - Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
 >  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
   2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM. 
-  3. If JOSM does not load the imagary automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/beginner/more-about-josm/#add-imagery)
+  3. If JOSM does not load the imagary automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)
 
 #### iD editor  
 - Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
@@ -268,5 +268,5 @@ Some general advice to heed when working in this tool:
 [Editing options]: /images/coordination/tasking_manager_image07.png
 [IRC_help]: /images/coordination/tasking_manager_image08.png
 [IRC using]: /images/coordination/tasking_manager_image09.png
-<!-- [Tasking Manager About]: /images/coordination/tasking_manager_image011.png
+[Tasking Manager About]: /images/coordination/tasking_manager_image011.png
 [Tasking Manager Languages]: /images/coordination/tasking_manager_image012.png
