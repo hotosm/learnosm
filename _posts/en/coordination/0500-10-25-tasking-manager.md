@@ -25,12 +25,7 @@ Section Index
 -  [Hints and Tips](/en/coordination/tasking-manager/#editing-hints-and-tips)
 
 
-The HOT Tasking Manager, is an intuitive tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. 
-
-The OSM Tasking Manager allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas.
-
-This allows people both on the ground and working remotely (also sometimes referred to as 
-"armchair mappers") to collaborate effectively, rapidly, and avoid accidental rework being required due to conflicts.
+The HOT Tasking Manager, <http://tasks.hotosm.org/>, is an intuitive tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. This allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas, and also allows people both on the ground and working remotely (also sometimes referred to as "armchair mappers") to collaborate effectively, rapidly, and avoid accidental rework being required due to conflicts.
 
 
 ## Overview of the process
@@ -46,21 +41,16 @@ This allows people both on the ground and working remotely (also sometimes refer
 
 ## Options & links
 
-The Task Manager initially displays in English - to change to another language click on **en** in the red header banner.
+-  The Task Manager initially displays in English - to change to another language click on **English** in the red header banner.
 
-![Tasking Manager Languages][]
+-  For information about the Tasking Manager, HOT sponsors, partners & help click on **About** at the top of the page.
 
-
-For information about the Tasking Manager, HOT sponsors, partners & help click on **About** at the top of the page.
-
-![Tasking Manager About][]
-
-Once you have logged in, you may click on your username at the top. Here you can:
+_ Once you have logged in, you may click on your username at the top. Here you can:
 
 - Access a list of projects for which you have completed squares,
 - Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)
 - Logout
-- See a list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for, and how many.
+- See a list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for, how many commits their OSM edit history, and the quantity of each they have submitted.  
 
 ![Tasking Manager Username_list][]
 
@@ -84,7 +74,7 @@ The current list of projects may be sorted according to:
 - Creation date, or
 - Last update
 
-You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have participated, and/or you may use a free text search to locate projects that contain particular text strings, such as **Ebola** (search is not case sensitive).  
+You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have participated, whether you have completed a square or not. Validators will also find projects they have validated in by using this checkbox. You may use a free text search to locate projects that contain particular text strings, such as **Ebola** (search is not case sensitive).  
 
 Projects are frequently referred to by their Project number, e.g., [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711), and you may also use this in the search box.
 
@@ -102,7 +92,7 @@ Everything you need to know about the project is here! On the left is a descript
 - Yellow grid squares have been completed,  
 - A yellow border indicates the square is being worked on now,  
 - Green squares have been completed and “validated”, and  
-- The remaining squares still need to be completed, or have previously been invalidated.  
+- The remaining squares still need to be completed, or have previously been invalidated (invalidated squares are a darker colour).  
 
 ### Instructions tab
 This shows what is required in the mapping task. Tasks range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. 
@@ -111,12 +101,12 @@ Make sure you read and understand this section. There are many styles of mapping
 
 - Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas
 - Mapping villages: Often used to identify places where people live and may be impacted
-- Mapping buildings: Used for damage assessments or contact tracing with diseases
+- Mapping buildings: Used for damage assessments or contact tracing with diseases. Also used for population estimates.
 - Mapping rivers, walls and other features
 
 Not all areas of the world are similar to your own, so specific tagging advice may be provided. For example, Africa's road network is very different to typical American or European highway systems.
 
-There will be a section indicating the **Changeset comment** you should copy & paste into your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes.
+There will be a section indicating the **Changeset comment** you should make sure appears in your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes.
 
 Sometimes, task specific imagery may be available - you may need to agree to a license in order to access it.
 Instructions usually will indicate the easiest way to load this into editors such as JOSM.
@@ -222,6 +212,8 @@ For example:
 
 This is particularly useful when validating or adding on another's previous work - you can provide feedback, thanks or more.
 
+You may wish to provide a link to a site which may help the mapper, such as <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>
+
 Be aware that many people from around the world will be participating, so prefer simple, clear language. If you come across comments in other languages, tools such as google translate are reasonable effective.
 
 
@@ -259,32 +251,22 @@ By now you have a good understanding of what the Tasking Manager is, and some of
 
 Some general advice to heed when working in this tool:
 
- * Avoid mapping far outside of your square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further.
- * Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off.
+ * Avoid mapping far outside of your square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediatly after mapping something at the border.
+ * Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off, but upload as soon as you finish editing it.
  * If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.
- * If you make a serious mistake - for example, deleting a major feature or relation - use the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.
- * Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved.
+ * If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.
+ * Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.
  * You must not validate your own work - a second pair of eyes will always lead to better quality mapping.
  * Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.
 
-
-Moving Forward
---------------
-
-Click on the link for further reading on:  
-
-*  [To start the beginner series about OpenStreetMap & learning to map](/en/beginner/start-osm/)  
-*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](/en/coordination/remote/)  
-
-
-[Tasking Manager Login]: /images/en/coordination/tasking_manager/tasking_manager_image01.png
-[Tasking Manager Username_list]: /images/en/coordination/tasking_manager/tasking_manager_image02.png
-[Authorizing access to OSM account by the Tasking Manager]: /images/en/coordination/tasking_manager/tasking_manager_image03.png
-[Job description]: /images/en/coordination/tasking_manager/tasking_manager_image04.png
-[Picking a task]: /images/en/coordination/tasking_manager/tasking_manager_image05.png
-[Assigned task square]: /images/en/coordination/tasking_manager/tasking_manager_image06.png
-[Editing options]: /images/en/coordination/tasking_manager/tasking_manager_image07.png
-[IRC_help]: /images/en/coordination/tasking_manager/tasking_manager_image08.png
-[IRC using]: /images/en/coordination/tasking_manager/tasking_manager_image09.png
-[Tasking Manager About]: /images/en/coordination/tasking_manager/tasking_manager_image011.png
-[Tasking Manager Languages]: /images/en/coordination/tasking_manager/tasking_manager_image012.png
+[Tasking Manager Login]: /images/coordination/tasking_manager_image01.png
+[Tasking Manager Username_list]: /images/coordination/tasking_manager_image02.png
+[Authorizing access to OSM account by the Tasking Manager]: /images/coordination/tasking_manager_image03.png
+[Job description]: /images/coordination/tasking_manager_image04.png
+[Picking a task]: /images/coordination/tasking_manager_image05.png
+[Assigned task square]: /images/coordination/tasking_manager_image06.png
+[Editing options]: /images/coordination/tasking_manager_image07.png
+[IRC_help]: /images/coordination/tasking_manager_image08.png
+[IRC using]: /images/coordination/tasking_manager_image09.png
+<!-- [Tasking Manager About]: /images/coordination/tasking_manager_image011.png
+[Tasking Manager Languages]: /images/coordination/tasking_manager_image012.png
