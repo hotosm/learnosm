@@ -16,7 +16,7 @@ QGIS (früher als Quantum GIS bekannt) ist ein voll ausgestattetes plattformunab
 
 Dieses Kapitel behandelt alles, was dafür nötig ist. Wir gehen davon aus, dass Sie QGIS 2.x schon heruntergeladen und installiert haben. Wenn Sie das noch nicht haben, können Sie das auf <http://qgis.org/de/site/forusers/download.html> tun.
 
-Um Ihre benutzerdefinierten aktuellen OSM-Layer in QGIS zu laden, werden wir uns zunächst die aktuellsten OSM-Daten im **.osm** Rohformat holen. Dann werden wir diese Daten in eine SQLIite-Datenbank umwandeln, was ein leichtgewichtiges Datenbanksystem ist, dass in einer Datei auf Ihrem System abgespeichert wird. Zuletzt werden wir einen (oder mehrere) Layer erstellen, die lediglich die Attribute enthalten, auf die wir zugreifen wollen. Diese Layer können in QGIS genutzt werden oder in ein anderes Format umgewandelt werden, wie z. B. ein Shapefile.
+Um Ihre benutzerdefinierten aktuellen OSM-Layer in QGIS zu laden, werden wir uns zunächst die aktuellsten OSM-Daten im **.osm** Rohformat holen. Dann werden wir diese Daten in eine SQLite-Datenbank umwandeln, was ein leichtgewichtiges Datenbanksystem ist, das in einer Datei auf Ihrem System abgespeichert wird. Zuletzt werden wir einen (oder mehrere) Layer erstellen, die lediglich die Attribute enthalten, auf die wir zugreifen wollen. Diese Layer können in QGIS genutzt werden oder in ein anderes Format umgewandelt werden, wie z. B. ein Shapefile.
 
 Auf OpenStreetMap-Daten zugreifen
 ---------------------------
@@ -121,12 +121,12 @@ Layer wie diese in QGIS haben, ist es möglich, sie als Shapefiles abzuspeichern
 und so weiter. Für weitere Details zu diesen Funktionen benutzen Sie das Hilfe-Menü in QGIS.
 
 
-[bounding box]: /images/osm-data/bounding_box.png
-[download complete]: /images/osm-data/download_complete.png
-[import dialog]: /images/osm-data/import_dialog.png
-[input db file]: /images/osm-data/input_db_file.png
-[export type]: /images/osm-data/export_type.png
-[export full]: /images/osm-data/export_full.png
-[cairo polygons]: /images/osm-data/cairo_polygons.png
-[open attribute table]: /images/osm-data/open_attribute_table.png
-[attribute table]: /images/osm-data/attribute_table.png
+[bounding box]: /images/osm-data/bounding_box.de.png
+[download complete]: /images/osm-data/download_complete.de.png
+[import dialog]: /images/osm-data/import_dialog.de.png
+[input db file]: /images/osm-data/input_db_file.de.png
+[export type]: /images/osm-data/export_type.de.png
+[export full]: /images/osm-data/export_full.de.png
+[cairo polygons]: /images/osm-data/cairo_polygons.de.png
+[open attribute table]: /images/osm-data/open_attribute_table.de.png
+[attribute table]: /images/osm-data/attribute_table.de.png
