@@ -29,7 +29,7 @@ In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)
 ###Editing Tools 
 
-[iD](http://learnosm.org/en/editing/id-editor/) - the web-based editor created by [Mapbox](www.mapbox.com) with a very user-friendly interface. Generally considered the best editing tool to start with. You can launch this [interactive iD editor tutorial](http://ideditor.com/) to get acquainted with how to use it.
+[iD](http://learnosm.org/en/beginner/id-editor/) - the web-based editor created by [Mapbox](www.mapbox.com) with a very user-friendly interface. Generally considered the best editing tool to start with. You can launch this [interactive iD editor tutorial](http://ideditor.com/) to get acquainted with how to use it.
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)
 
