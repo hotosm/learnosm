@@ -1,92 +1,115 @@
 ---
 layout: doc
-title: Lecturas adicionales
+title: Otras lecturas
 permalink: /es/beginner/moving-forward/
 lang: es
 category: beginner
 ---
 
-Lecturas adicionales
-======================
+Otras lecturas
+===============
 
-> This guide may be downloaded as [beginner_moving-forward_es.odt](/files/beginner_moving-forward_es.odt) or [beginner_moving-forward_es.pdf](/files/beginner_moving-forward_es.pdf)  
-> A more recent version of this guide is available in [English](/en/beginner/moving-forward) or [German](/de/beginner/moving-forward). To help produce translations for this site please go to <https://www.transifex.com/> and search for **HOT-OSM**.  
+> Esta guía se puede descargar como [beginner_moving-forward_es.odt](/files/beginner_moving-forward_es.odt) o [beginner_moving-forward_es.pdf](/files/beginner_moving-forward_es.pdf)  
+> Revisado 2015-07-12  
 
-Si ha llegado hasta aquí, ¡felicidades! Ahora debería tener buenos
-conocimientos en cómo hacer mapas con OpenStreetMap. ¿Qué más puede
-hacer con OSM? ¿Cómo puede aprender más? ¿Cómo puede seguir conectado
-con la comunidad de mapeadores?
+Si has llegado hasta aquí, ¡Felicitaciones! Debería tener un buen
+entendimiento ahora de cómo hacer mapas con OpenStreetMap. ¿Qué más puedes
+hacer con OSM? ¿Cómo se puede obtener más información? ¿Cómo puede mantenerte conectado a
+la comunidad de editores de mapas?
 
-Herramientas OpenStreetMap
------------------------------
+Otras secciones de learnOSM
+---------------------------
 
-En esta guía hemos aprendido los bloques de construcción de OSM, y las
-herramientas que necesita para contribuir en el mapa. Pero como los
-datos de OSM son abiertos, ello ha alentado muchos mas proyectos y
-herramientas que le permiten hacer mucho más con el mapa OpenStreetMap.
+Al final del capítulo sobre el editor de iD escuchó sobre las diferencias entre iD y JOSM. 
+Hay una [sección entera dedicada a JOSM](/es/josm/) donde aprenderá todos los detalles necesarios 
+para beneficiarse plenamente de las capacidades que este editor tiene para ofrecer.
 
+Hasta el momento, todos las ediciones que hemos añadido al mapa se basaron en imágenes de fondo. Pero puede obtener una gran cantidad
+de información al caminar o conducir por ahí. La [sección de cartografía móvil](/es/mobile-mapping/) 
+explica cómo recopilar información con diferentes dispositivos basados ​​en GPS o usar impresiones especialmente diseñadas.
+También se repasan una serie de aplicaciones relacionadas con OpenStreetMap para dispositivos móviles.
+
+OpenStreetMap es un esfuerzo de colaboración y esperamos que sea parte de ello. Algunos de estos esfuerzos están dedicados a 
+ayuda humanitaria bajo los auspicios del [Equipo Humanitario OSM] (http://hotosm.org). 
+Si desea ayudar a HOT en la ocasión de un desastre como el terremoto en Nepal, mire la 
+[sección sobre coordinación](/es/coordination/). Se trata de las herramientas que aseguran que muchas 
+personas puedan trabajar juntas en un área relativamente pequeña de una manera consistente. También contiene orientación sobre algunas tareas típicas
+que encontrará con frecuencia al unirse a estos esfuerzos.
+
+
+Aprende más
+----------
+
+Hay una gran cantidad de información sobre OpenStreetMap disponible en
+[wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Aquí se puede
+encontrar información sobre otros proyectos que están relacionados con OpenStreetMap,
+y documentos y tutoriales que pueden ayudarle a aprender más acerca de OSM.
+
+![Wiki][]
+
+<!-- also more info on this site once it is prepared -->
+
+Lista de correo
+------------
+
+La mejor manera de conectarse con la comunidad de usuarios de OpenStreetMap es
+unirse a su lista de correo local. Muchas personas se inscriben, utilizando su cuenta de correo electrónico
+a la lista de correo de OSM. Una vez que esté en la lista, puede enviar
+un correo electrónico al grupo si tiene una pregunta o quiere hablar acerca de
+OpenStreetMap.
+
+- Para inscribirse en la lista de correo de su país, abra su
+    navegador y ve a
+    [lists.openstreetmap.org](http://lists.openstreetmap.org/).
+
+![Mailing list][]
+
+- Desplácese por la página para encontrar la lista asociada a su país.
+    Las listas de los países se denominan "Talk-lg", donde lg representa el
+    país de la lista. Por ejemplo, "Talk-id" es la lista correspondiente a
+    Indonesia.
+- Haga clic en la lista que desee unirse.
+- Introduce la siguiente información en los cuadros de esta página:
+
+    - Su dirección de correo electrónico
+    - su nombre
+    - una nueva contraseña
+    - repite la contraseña
+
+- Cuando haya terminado, haga clic en Suscribir.
+- Ahora tiene que abrir su correo electrónico, tal como lo hizo cuando se registró
+    en OpenStreetMap. Habrá un correo electrónico de confirmación
+    en su bandeja de entrada de la lista de correo.
+- Haz clic en el enlace de confirmación.
+- Ahora debe ser un miembro de la lista de correo.
+- Ahora, cuando desee enviar un mensaje a la lista, puede enviarlo a
+    [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org),
+    reemplazando "id" con el país de su lista. También recibirá
+    mensajes de correo electrónico cuando otros miembros envien un mensaje a la lista.
+
+<!-- maybe expand and put this back later
 MapOSMatic
 ----------
 
-Uno de estos proyectos se llama MapOSMatic, al cual puede acceder a
-través de su navegador en [maposmatic.org](http://www.maposmatic.org/).
-Es una simple herramienta para imprimir un mapa del área que escoja.
-Creará automáticamente el mapa, con una cuadrícula sobre el mapa, y un
-índice de las localizaciones que estén incluidas en el área.
+Uno de estos proyectos se llama MapOSMatic, que se puede acceder a través de su
+navegador en [maposmatic.org](http://www.maposmatic.org/). Esta
+es una herramienta sencilla para imprimir un mapa de cualquier área que elija. Se
+creará automáticamente el mapa, junto con una rejilla sobre el mapa, y un
+índice de ubicaciones que se incluyen en la zona.
 
-![]({{site.baseurl}}/images/es_beg_ch8_image00.png)
+![MapOSMatic][]
+-->
 
-Aprender más
---------------
-
-Hay mucha información disponible sobre OpenStreetMap en
-[wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Aquí puedes
-encontrar información sobre otros proyectos que están relacionados con
-OpenStreetMap, y documentos y tutoriales que pueden ayudarte a aprender
-más sobre OSM.
-
-Lista de correo
-------------------
-
-La mejor forma de estar conectado con la comunidad de usuarios de OSM es
-unirse a tu lista de correo local. Mucha gente se registra, usando sus
-cuentas de correo a la lista de correo de OSM. Una vez estés en la lista,
-puedes mandar un correo electrónico al grupo si tienes una pregunta o
-quieres hablar sobre OpenStreetMap.
-
--   Para registrarse en la lista de correo de tu país, abre el navegador de
-    internet y vete a [lists.openstreetmap.org](http://lists.openstreetmap.org/).
-
-    ![]({{site.baseurl}}/images/it_beg_ch8_image03.png)
--   Desplácese hacia abajo para encontrar la lista asociada con su país.
-    La lista de paises es nombrada «­Talk-xx», donde es representa el país
-    de esa lista. Por ejemplo, «Talk-es» es la lista en español.
--   Haga clic en la lista que quiera suscribirse.
--   Introduzca la siguiente información en las casillas de esta página:
-
-    -   su dirección de correo electrónico.
-    -   su primer nombre
-    -   una nueva contraseña
-    -   repita la contraseña
-
-    ![]({{site.baseurl}}/images/it_beg_ch8_image02.png)
--   Cuando termine, haga clic en Subscribe.
--   Ahora necesita abrir su correo, al igual que cuando se registró en
-    OpenStreetMap en el capítulo 2. Habrá un email de confirmación en
-    su bandeja de entrada procedente de la lista de correo.
--   Haga clic en el enlace de confirmación, el cual se parece a este:
-
-    ![]({{site.baseurl}}/images/it_beg_ch8_image04.png)
--   Ahora debería ser un miembro de la lista de correo.
--   Ahora cuando envie un mensaje a la lista, usted puede enviarlo a
-    [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), reemplazando
-    «­id» con el país de su lista. Usted recibirá también correos electrónicos
-    cuando otros miembros envíen mensajes a la lista.
 
 Resumen
 -------
 
-Estas son algunos de los medios que puede usar para seguir conectado con
-la comunidad OpenStreetMap y aprender más. Esperamos que continúe explorando
-y aprendiendo más sobre OSM, y obviamente contribuyendo al proyecto.
+Estas son algunas de las maneras que puede utilizar para mantenerse en contacto con la
+comunidad OpenStreetMap y aprender más. Esperamos que continúes
+explorarndo y aprendiendo más acerca de OSM, y contribuyas al proyecto.
 ¡Feliz Mapeo!
+
+
+[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[Wiki]: /images/beginner/osm-wiki.png
+[Mailing list]: /images/beginner/osm-mailing-lists.png
