@@ -11,7 +11,7 @@ nosearch: true
 Kartierung mit Smartphone, GPS oder Papier
 ===============================================
 
-The most recent version of this guide is only available in [English](/en/mobile-mapping/) It is being translated.
+The most recent version of this guide is only available in [English](/en/mobile-mapping/) or [Español](/es/mobile-mapping/). It is being translated.
 
 To help produce translations for this site, go to [https://www.transifex.com](https://www.transifex.com) and search for **HOT-OSM**.
 

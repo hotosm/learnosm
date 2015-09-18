@@ -11,6 +11,6 @@ nosearch: true
 スマートフォンを使ったマッピング
 =============================
 
-This guide is only available in [English](/en/mobile-mapping/) It is being translated.
+This guide is only available in [English](/en/mobile-mapping/) or [Español](/es/mobile-mapping/). It is being translated.
 
 To help produce translations for this site, go to [https://www.transifex.com](https://www.transifex.com) and search for **HOT-OSM**.
