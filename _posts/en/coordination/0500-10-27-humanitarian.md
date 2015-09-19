@@ -10,6 +10,9 @@ category: coordination
 
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 
+> This guide may be downloaded as [humanitarian_en.odt](/files/humanitarian_en.odt) or [humanitarian_en.pdf](/files/humanitarian_en.pdf)  
+> Reviewed 2015-09-18
+
 Thank you for volunteering to help the local communities and the Aid Organisations responding to this crisis by providing updated map data for them. 
 
 Like you, we want to help as quickly as possible, and there is a real sense of urgency in what we do. But, the reason the Aid Organisations depend on us for map data is because we take time to make sure that what we produce is useful and meets their needs. We need you to take care too. Although it will delay you starting to update the map we need you to understand how and what to map fully before you start. Please do not rush in and start mapping without watching or reading some of the tutorials available first. It takes us much longer to clean up mistakes in mapping than it does to create them, and they may cause a care worker to have doubts about the dependability of the maps we produce. 
