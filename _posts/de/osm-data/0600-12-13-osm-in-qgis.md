@@ -28,8 +28,8 @@ in früheren Kapiteln wie [Getting OSM Data](/en/osm-data/getting-data) oder [Us
 
 Für diese Anleitung nutzen wir die in QGIS integrierte Download-Funktion.
 
--⇥Öffnen Sie QGIS und navigieren Sie zu Vektor -> OpenStreetMap -> OpenStreetMap -> Daten herunterladen...
--⇥ Sie können hier mehrere Optionen auswählen - wenn Ihr Fenster schon die Ausmaße anzeigt,
+-      Öffnen Sie QGIS und navigieren Sie zu Vektor -> OpenStreetMap -> OpenStreetMap -> Daten herunterladen...
+-       Sie können hier mehrere Optionen auswählen - wenn Ihr Fenster schon die Ausmaße anzeigt,
 	die Sie haben wollen, klicken Sie auf "Ausmaße der Kartenanzeige". Wenn Sie einen Layer in QGIS geladen haben, der die richtigen Ausmaße hat,
 	wählen Sie "des Layers" aus und selektieren Sie den Layer, den Sie benutzen wollen. Hier benutzen wir "Manuell"
 	und geben die Breiten- und Längengrade ein, die eine **Zeichen-Box** um den Bereich bilden, auf den wir
@@ -38,73 +38,73 @@ Für diese Anleitung nutzen wir die in QGIS integrierte Download-Funktion.
 
 ![bounding box][]
 
--⇥ Wählen Sie einen Namen und einen Speicherort für die Dateiausgabe mit **.osm** als Dateiendung und klicken Sie auf OK.
--⇥ Sie werden benachrichtigt, wenn das Herunterladen abgeschlossen ist. Klicken Sie auf "Schließen", um den Download-Dialog
+-       Wählen Sie einen Namen und einen Speicherort für die Dateiausgabe mit **.osm** als Dateiendung und klicken Sie auf OK.
+-       Sie werden benachrichtigt, wenn das Herunterladen abgeschlossen ist. Klicken Sie auf "Schließen", um den Download-Dialog
 	abzuschließen.
 
 ![download complete][]
 
--⇥ Die OSM-Daten befinden sich nun am gewählten Speicherort.
+-       Die OSM-Daten befinden sich nun am gewählten Speicherort.
 
->⇥Diese Methode, um auf OSM-Daten zuzugreifen ist die gleiche wie in JOSM oder auf
->⇥[openstreetmap.org](http://www.openstreetmap.org). Größere aktuelle Daten
+>      Diese Methode, um auf OSM-Daten zuzugreifen ist die gleiche wie in JOSM oder auf
+>      [openstreetmap.org](http://www.openstreetmap.org). Größere aktuelle Daten
 wollen Sie vielleicht von [HOT export site](http://export.hotosm.org) oder
->⇥[bbbike.org](http://extract.bbbike.org/) herunterladen. Bedenken Sie beim Download einer extrahierten OSM-Datei,
->⇥ dass Sie diese für die weiteren Schritte zunächst als **.osm**-Datei extrahieren müssen.
+>      [bbbike.org](http://extract.bbbike.org/) herunterladen. Bedenken Sie beim Download einer extrahierten OSM-Datei,
+>       dass Sie diese für die weiteren Schritte zunächst als **.osm**-Datei extrahieren müssen.
 
 Import von Daten nach SQLite
 ---------------------------
 
 Als nächstes müssen wir unsere rohen **.osm**-Dateien in eine SQLite-Datenbank importieren.
 
--⇥ Navigieren Sie zu Vektor -> OpenStreetMap -> Topologie aus XML importieren...
--⇥Wählen Sie im ersten Feld Ihre **.osm**-Datei aus.
--⇥Sie können den Namen der Ausgabe-Datenbank ändern, wenn Sie möchten.
--⇥Lassen Sie den Haken bei "(Spatialite)-Verbindung nach Import erzeugen"
+-       Navigieren Sie zu Vektor -> OpenStreetMap -> Topologie aus XML importieren...
+-      Wählen Sie im ersten Feld Ihre **.osm**-Datei aus.
+-      Sie können den Namen der Ausgabe-Datenbank ändern, wenn Sie möchten.
+-      Lassen Sie den Haken bei "(Spatialite)-Verbindung nach Import erzeugen"
 
 ![import dialog][]
 
--⇥Klicken Sie auf OK.
--⇥Nach dem Abschluss klicken Sie auf "Schließen".
+-      Klicken Sie auf OK.
+-      Nach dem Abschluss klicken Sie auf "Schließen".
 
 Erstellen von Layern
 --------------
 
 Zuletzt werden wir Layer für QGIS definieren, die unseren Wünschen entsprechen.
 
--⇥Navigieren Sie zu Vektor -> OpenStreetMap -> Topologie nach SpatiaLite importieren...
--⇥Wählen Sie im ersten Feld die eben erstellte Datenbank aus.
+-      Navigieren Sie zu Vektor -> OpenStreetMap -> Topologie nach SpatiaLite importieren...
+-      Wählen Sie im ersten Feld die eben erstellte Datenbank aus.
 
 ![input db file][]
 
--⇥Wählen Sie bei "Exporttyp" die Attribute aus, für die Sie einen Layer erstellen wollen. In diesem Beispiel
+-      Wählen Sie bei "Exporttyp" die Attribute aus, für die Sie einen Layer erstellen wollen. In diesem Beispiel
 	werden wir einen Polygon-Layer erstellen.
 
 ![export type][]
 
--⇥Bearbeiten Sie den Layernamen, wenn Sie möchten.
+-      Bearbeiten Sie den Layernamen, wenn Sie möchten.
 
 Bei "Exportierte Tags" passiert die Magie. Hier können wir auswählen, welche Attribute
 unser Ausgabelayer beinhalten wird. Dies ermöglicht uns, genau auf die Daten zuzugreifen, die wir
 haben wollen.
 
--⇥Klicken Sie auf "Aus Datenbank laden", um alle verfügbaren Attribute der Datenbank zu sehen. Vergrößern Sie die Fenstergröße, indem Sie die Ecke ziehen, wenn das hilft. Sie können
+-      Klicken Sie auf "Aus Datenbank laden", um alle verfügbaren Attribute der Datenbank zu sehen. Vergrößern Sie die Fenstergröße, indem Sie die Ecke ziehen, wenn das hilft. Sie können
 	sowohl alle Attribute dieser Daten als auch deren Anzahl  sehen.
--⇥Überprüfen Sie die Boxen neben den Attributen, die Sie aufnehmen wollen. Dort werden wir einige Attribute auswählen,
+-      Überprüfen Sie die Boxen neben den Attributen, die Sie aufnehmen wollen. Dort werden wir einige Attribute auswählen,
 	die nützlich für die Repräsentation von Gebäudepolygonen sind.
 
 ![export full][]
 
--⇥Wenn Sie fertig sind, klicken Sie auf OK.
--⇥ Schließen Sie die Box. Ihr Layer sollte nun automatisch hinzugefügt werden.
+-      Wenn Sie fertig sind, klicken Sie auf OK.
+-       Schließen Sie die Box. Ihr Layer sollte nun automatisch hinzugefügt werden.
 
 ![cairo polygons][]
 
--⇥Rechtsklicken Sie auf den Layer und klicken Sie auf "Attributtabelle öffnen".
+-      Rechtsklicken Sie auf den Layer und klicken Sie auf "Attributtabelle öffnen".
 
 ![open attribute table][]
 
--⇥Sie sehen eine Tabelle mit den lediglich vorher ausgewählten Attributen.
+-      Sie sehen eine Tabelle mit den lediglich vorher ausgewählten Attributen.
 
 ![attribute table][]
 
