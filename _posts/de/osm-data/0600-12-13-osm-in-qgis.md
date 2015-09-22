@@ -29,7 +29,7 @@ in früheren Kapiteln wie [Getting OSM Data](/en/osm-data/getting-data) oder [Us
 Für diese Anleitung nutzen wir die in QGIS integrierte Download-Funktion.
 
 -      Öffnen Sie QGIS und navigieren Sie zu Vektor -> OpenStreetMap -> OpenStreetMap -> Daten herunterladen...
--       Sie können hier mehrere Optionen auswählen - wenn Ihr Fenster schon die Ausmaße anzeigt,
+-      Sie können hier mehrere Optionen auswählen - wenn Ihr Fenster schon die Ausmaße anzeigt,
 	die Sie haben wollen, klicken Sie auf "Ausmaße der Kartenanzeige". Wenn Sie einen Layer in QGIS geladen haben, der die richtigen Ausmaße hat,
 	wählen Sie "des Layers" aus und selektieren Sie den Layer, den Sie benutzen wollen. Hier benutzen wir "Manuell"
 	und geben die Breiten- und Längengrade ein, die eine **Zeichen-Box** um den Bereich bilden, auf den wir
@@ -38,13 +38,13 @@ Für diese Anleitung nutzen wir die in QGIS integrierte Download-Funktion.
 
 ![bounding box][]
 
--       Wählen Sie einen Namen und einen Speicherort für die Dateiausgabe mit **.osm** als Dateiendung und klicken Sie auf OK.
--       Sie werden benachrichtigt, wenn das Herunterladen abgeschlossen ist. Klicken Sie auf "Schließen", um den Download-Dialog
+-      Wählen Sie einen Namen und einen Speicherort für die Dateiausgabe mit **.osm** als Dateiendung und klicken Sie auf OK.
+-      Sie werden benachrichtigt, wenn das Herunterladen abgeschlossen ist. Klicken Sie auf "Schließen", um den Download-Dialog
 	abzuschließen.
 
 ![download complete][]
 
--       Die OSM-Daten befinden sich nun am gewählten Speicherort.
+-      Die OSM-Daten befinden sich nun am gewählten Speicherort.
 
 >      Diese Methode, um auf OSM-Daten zuzugreifen ist die gleiche wie in JOSM oder auf
 >      [openstreetmap.org](http://www.openstreetmap.org). Größere aktuelle Daten
@@ -57,7 +57,7 @@ Import von Daten nach SQLite
 
 Als nächstes müssen wir unsere rohen **.osm**-Dateien in eine SQLite-Datenbank importieren.
 
--       Navigieren Sie zu Vektor -> OpenStreetMap -> Topologie aus XML importieren...
+-      Navigieren Sie zu Vektor -> OpenStreetMap -> Topologie aus XML importieren...
 -      Wählen Sie im ersten Feld Ihre **.osm**-Datei aus.
 -      Sie können den Namen der Ausgabe-Datenbank ändern, wenn Sie möchten.
 -      Lassen Sie den Haken bei "(Spatialite)-Verbindung nach Import erzeugen"
@@ -96,7 +96,7 @@ haben wollen.
 ![export full][]
 
 -      Wenn Sie fertig sind, klicken Sie auf OK.
--       Schließen Sie die Box. Ihr Layer sollte nun automatisch hinzugefügt werden.
+-      Schließen Sie die Box. Ihr Layer sollte nun automatisch hinzugefügt werden.
 
 ![cairo polygons][]
 
