@@ -55,6 +55,8 @@ Die Benutzeroberfläche des iD-Editors
  	![image11][]  
  	- Hintergrundeinstellungen, *Tastenkürzel* **b**   
  	![image12][]
+    - Kartendaten, *Tastenkürzel* **f**
+    ![Map Data][]
     - Hilfe, *Tastenkürzel* **h**
     ![image13][]
 4. **Informationsbedienfeld:** Dieses Bedienfeld zeigt mehrere Informationen, wie Maßstab, oder welche Nutzer zu diesem Bereich beigetragen haben. 
@@ -148,7 +150,7 @@ Ein „Punkt“, der in iD erstellt wurde, ist eigentlich ein alleinstehender �
 	- Die Linie am ausgewählten Punkt in zwei Teile teilen
 	![image27][]
 
--⇥ Wenn Sie mit der linken Maustaste auf eine Linie klicken (und nicht auf einen Punkt), dann sehen Sie folgende Werkzeuge
+-    Wenn Sie mit der linken Maustaste auf eine Linie klicken (und nicht auf einen Punkt), dann sehen Sie folgende Werkzeuge
 
 	- Linie entfernen
 	![image23][]
@@ -163,7 +165,7 @@ Ein „Punkt“, der in iD erstellt wurde, ist eigentlich ein alleinstehender �
 
 Eine „Linie“, die im iD-Editor erstellt wurde, ist eigentlich ein „Weg“ mit zugewiesenen „Tags“.
 
-> Ein Extrahinweis wegen **Löschen**: Normalerweise sollten Sie das Löschen der Kartenbeiträge anderer vermeiden, wenn sie lediglich verbessert werden müssen. Sie können Ihre eigenen Fehler löschen, aber Sie sollten versuchen, die kartierten Objekte anderer *anzupassen*, wenn das nötig ist. Dies erhält die Geschichte von Objekten in der OSM-Datenbank und respektiert andere Bearbeiter. Wenn Sie wirklich der Auffassung sind, dass etwas gelöscht werden sollte, erwägen Sie, zuerst die Person zu kontaktieren oder auf einer der OSM Mailinglisten nachzufragen.
+> Ein Extrahinweis zum **Löschen**: Normalerweise sollten Sie das Löschen der Kartenbeiträge anderer vermeiden, wenn sie lediglich verbessert werden müssen. Sie können Ihre eigenen Fehler löschen, aber Sie sollten versuchen, die kartierten Objekte anderer *anzupassen*, wenn das nötig ist. Dies erhält die Geschichte von Objekten in der OSM-Datenbank und respektiert andere Bearbeiter. Wenn Sie wirklich der Auffassung sind, dass etwas gelöscht werden sollte, erwägen Sie, zuerst die Person zu kontaktieren oder auf einer der OSM Mailinglisten nachzufragen.
 
 ### Zeichnen von Flächen (Polygonen)
 -    Um eine Fläche zu zeichnen, klicken Sie auf **Fläche**.
@@ -191,7 +193,7 @@ Ein „Polygon“, das im iD-Editor erstellt wurde, ist eigentlich ein „geschl
 
 Zusätzliche Informationen und benutzerdefinierte Tags
 ---------------------------------------
--⇥ Wenn Sie ein Objekt bearbeiten, werden Sie eine Reihe von Zeichen sehen, wenn Sie neben "Feld hinzufügen" klicken. Sie können zusätzliche Informationen hinzufügen, indem Sie darauf klicken:
+-    Wenn Sie ein Objekt bearbeiten, werden Sie eine Reihe von Zeichen sehen, wenn Sie neben "Feld hinzufügen" klicken. Sie können zusätzliche Informationen hinzufügen, indem Sie darauf klicken:
 
 	- Höhe über dem Meeresspiegel
  	![image37][]
@@ -208,15 +210,15 @@ Zusätzliche Informationen und benutzerdefinierte Tags
  	- Wikipedia-Link
  	![image43][]
 
--⇥ Oder Sie können benutzerdefinierte Attribute hinzufügen, indem Sie auf **Alle Eigenschaften** klicken.
+-    Oder Sie können benutzerdefinierte Attribute hinzufügen, indem Sie auf **Alle Eigenschaften** klicken.
 
 ![image44][]
 
--⇥ Dies wird alle Attribute, die dem Objekt zugeordnet sind, anzeigen.
+-    Dies wird alle Attribute, die dem Objekt zugeordnet sind, anzeigen.
 
 ![image45][]
 
--⇥ Klicken Sie auf Plus (+), um Attribute und Werte hinzuzufügen oder zu entfernen.
+-    Klicken Sie auf Plus (+), um Attribute und Werte hinzuzufügen oder zu entfernen.
 
 iD versus JOSM
 ---------------
@@ -241,7 +243,7 @@ JOSM ist besser geeignet, …
 [image5]: /images/beginner/id-editor_image5.de.png
 [image6]: /images/beginner/id-editor_image6.png
 [image7]: /images/beginner/id-editor_image7.png
-[image8]: /images/beginner/id-editor-image8.de.png
+[image8]: /images/beginner/id-editor_image8.de.png
 [image9]: /images/beginner/id-editor_image9.png
 [image10]: /images/beginner/id-editor_image10.png
 [image11]: /images/beginner/id-editor_image11.png
