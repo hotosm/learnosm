@@ -12,6 +12,12 @@ nosearch: true
 Coordinación
 ============
 
-Como OpenStreetMap involucra a mucha gente al mismo tiempo, es útil saber cómo se coordinan los contribuidores a esta actividad.
+> Esta guía puede ser descargarda como [coordination_es.odt](/files/coordination_es.odt) o [coordination_es.pdf](/files/coordination_es.pdf)  
+> Revisado 2015-09-18
 
-Esta sección de LearnOSM proporciona información sobre varias herramientas utilizadas para coordinar a las comunidades de edición cartográfica, qué medios de comunicación utilizan y diversos sistemas de gestión de la calidad de los datos.
+Ya que OpenStreetMap involucra a muchas personas mapeando juntas, es 
+útil saber cómo coordinan los mapeadores esta actividad.
+
+Esta sección de learnOSM provee información de varias herramientas
+usadas para coordinar actividades de mapeo, medios de comunicación,
+y control de calidad.
