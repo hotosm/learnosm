@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /uk/coordination/
-lang: uk
+permalink: /nb/coordination/
+lang: nb
 title: Coordination
 category: coordination
 cover: yes
