@@ -28,12 +28,12 @@ Teniendo en cuenta la magnitud de la crisis, HOT asigna los recursos necesarios 
 
 El [Administrador de Tareas HOT] (http://tasks.hotosm.org/) es una herramienta de código abierto diseñado para dividir un trabajo de mapeo en tareas más pequeñas que se pueden completar rápidamente. Muestra qué áreas necesitan ser asignada y qué áreas necesitan el mapeo validado por otros. Incluye tareas de mapeo para [Activaciones] (http://wiki.openstreetmap.org/wiki/HOT_activation), y ya de pie [Proyectos Humanitarios] (http://hot.openstreetmap.org/projects). 
 
-Para utilizar el Administrador de Tareas HOT necesita registrarse con OpenStreetMap (OSM) con un nombre de usuario y contraseña. Para más instrucciones lee el [Tutorial del Administrador de Tareas] (http://learnosm.org/en/coordination/tasking-manager/). 
+Para utilizar el Administrador de Tareas HOT necesita registrarse con OpenStreetMap (OSM) con un nombre de usuario y contraseña. Para más instrucciones lee el [Tutorial del Administrador de Tareas] (http://learnosm.org/es/coordination/tasking-manager/). 
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)
 ###Herramientas de Edición 
 
-[ID] (http://learnosm.org/en/beginner/id-editor/) - el editor basado en web creado por [Mapbox] (www.mapbox.com) con una interfaz muy fácil de usar. Generalmente considerado la mejor herramienta de edición para empezar. Puedes lanzar este [tutorial interactivo del editor iD] (http://ideditor.com/) para conocer cómo usarlo.
+[ID] (http://learnosm.org/es/beginner/id-editor/) - el editor basado en web creado por [Mapbox] (www.mapbox.com) con una interfaz muy fácil de usar. Generalmente considerado la mejor herramienta de edición para empezar. Puedes lanzar este [tutorial interactivo del editor iD] (http://ideditor.com/) para conocer cómo usarlo.
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)
 
@@ -63,7 +63,7 @@ Esta guía ha sido resumida y recolectada de una variedad de fuentes de tutoría
 
 ####Tutoriales
 
-[Guía de Mapeo Remoto de LearnOSM](http://learnosm.org/en/coordination/remote/)- una de las guías más completas  
+[Guía de Mapeo Remoto de LearnOSM](http://learnosm.org/es/coordination/remote/)- una de las guías más completas  
 
 [Tutorial Aprende a Mapear MapGive](http://mapgive.state.gov/learn-to-map/)- incluye videos que usted puede pausar para seguir a lo largo
 
