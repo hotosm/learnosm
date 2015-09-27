@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /uk/coordination/
-lang: uk
+permalink: /hr/coordination/
+lang: hr
 title: Coordination
 category: coordination
 cover: yes
