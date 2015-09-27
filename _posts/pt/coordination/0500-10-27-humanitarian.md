@@ -1,23 +1,16 @@
 ---
 layout: doc
-permalink: /uk/coordination/
-lang: uk
-title: Coordination
+title: Humanitarian Mapping
+permalink: /pt/coordination/humanitarian
+lang: pt
 category: coordination
-cover: yes
-nosearch: true
-
 ---
 
-Coordination
-============
+#Humanitarian Mapping
 
 This guide is currently not available. It is being translated. Please refer to it in:  
 
-[English](/en/coordination/),  
-[Deutsch](/de/coordination/), or  
-[Español](/es/coordination/).  
+[English](/en/coordination/humanitarian), or  
+[Español](/es/coordination/humanitarian).  
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
-
-

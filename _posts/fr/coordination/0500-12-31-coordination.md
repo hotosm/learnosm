@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /uk/coordination/
-lang: uk
+permalink: /fr/coordination/
+lang: fr
 title: Coordination
 category: coordination
 cover: yes
@@ -12,7 +12,7 @@ nosearch: true
 Coordination
 ============
 
-This guide is currently not available. It is being translated. Please refer to it in:  
+Cette page n'est pas disponible en Français et doit être traduite. Vous pouvez aussi consulter les autres versions dans les langues suivantes:  
 
 [English](/en/coordination/),  
 [Deutsch](/de/coordination/), or  
