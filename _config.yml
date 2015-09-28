@@ -121,12 +121,12 @@ translations:
     feedback: "Laat ons weten hoe we de handleidingen kunnen verbeteren!"
     getstarted: "Beginnen"
   sw:
-    tagline: "Learn OpenStreetMap Step by Step"
-    contribute: "Help improve our guides"
-    trainingspan: "Are you a workshop organizer?"
-    training: "Check out training material for this guide (in English)"
-    feedbackspan: "Was this chapter helpful?"
-    feedback: "Let us know and help us improve the guides!"
+    tagline: "Jifunze OpenStreetMap hatua kwa hatua"
+    contribute: "Saidia kuboresha miongozo yetu"
+    trainingspan: "Je wewe ni muaandaaji wa mkutano?"
+    training: "Angalia mafundisho ya huu muongozo(kwa kiingereza)"
+    feedbackspan: "Je hii sura ilikuwa na manufaa?"
+    feedback: "Tujulishe na utusaidie kuboresha miongozo!"
     getstarted: "Anza"
   zh:
     tagline: "步骤学习OpenStreetMap"
