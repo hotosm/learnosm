@@ -1,5 +1,4 @@
 ---
----
 layout: doc
 title: JOSM Tools
 permalink: /sw/josm/josm-tools/
@@ -16,7 +15,7 @@ tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pa
 > Huu muongozo unaweza kupakuliwa kama [josm_josm-tools_sw.odt](/files/josm_josm-tools_sw.odt) or [josm_josm-tools_sw.pdf](/files/josm_josm-tools_sw.pdf)  
 > Imeangaliwa 2015-07-14  
 
-Katika [kuanza kutumia muongozo wa JOSM](/en/josm/start-josm/) tumekamilisha vitu muhimu katika kuchora na 
+Katika [kuanza kutumia muongozo wa JOSM](/sw/josm/start-josm/) tumekamilisha vitu muhimu katika kuchora na 
 JOSM, lakini kuna vifaa na mbinu mbalimbali ambazo hatukuzielezea.
 
 Hapa tunaangalia vifaa na mbinu za muhimu zilizopo kwa ajili ya kuchora vitu vinavyopatikana kwenye ramani kwa JOSM, na sura inayofuata tutaangalia kiundani zaidi vifaa vya kuchorea.
