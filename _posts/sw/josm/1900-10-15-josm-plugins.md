@@ -6,7 +6,7 @@ lang: sw
 category: josm
 ---
 
-JOSM Plugins
+ Plugins za JOSM
 ============
 
 Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
@@ -15,56 +15,48 @@ tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pa
 > Huu muongozo unaweza kupakuliwa kama [josm-plugins_sw.odt](/files/josm-plugins_sw.odt) au [josm-plugins_sw.pdf](/files/josm-plugins_sw.pdf)  
 > Reviewed 2015-07-14  
 
-As you become more advanced in your editing techniques, you may want to
-use additional JOSM features to improve your
-mapping skills. JOSM allows you to install numerous plugins, which add
-extra functionality to the software.
+Jinsi ulivyokuwa mtaalamu katika kutumia mbinu mbalimbali kuhariri, unaweza ukataka kutumia vifaa vingine vya JOSM kuongeza ujuzi wako wa kutengeneza ramani. JOSM inakuwezesha kuweka plugins mbalimbali , ambazo zinaonyesha kazi za zaidi kwa software.
 
-In this section we will take a look at how to install plugins,
-and some of the most useful plugins that are available.
+Katika hii sehemu tutajifaunza jinsi ya kuweka plugins, na baadhi ya plugins za muhimu zinazopatikana.
 
-Installing Plugins
+
+Kuweka Plugins
+Kuweka Plugins
 -------------------
--   Any time you want to install a new plugin, go to **Edit \> Preferences**
-    and click on the **Plugins** tab.
+-   Muda wowote unaotaka kuweka plugin mpya , nenda **Edit \> Preferences**
+    na bonyeza katika **Plugins** tab.
 
 ![Plugins][]
 
--   If you don’t see a list of available plugins, click **Download List**.
--   To install a plugin you simply must check the box next to it
-    and click OK at the bottom.
--   Lastly, with some versions of JOSM you may have to restart JOSM when you install new plugins.
+-   Kama hutaona listi ya plugin zilizopo, bonyeza **Download List**.
+-   Kuweka plugin kiurahisi unaweza kuangalia kisanduku mbele yake na bonyeza OK chini .
+-   Mwisho, baadhi ya matoleo ya JOSM inatakiwa urestart JOSM pale unapoweka plugins mpya.
 
-Some of our favorite plugins are:
+Baadhi ya plugins zinazotumika:
 
-1.  **buildings_tools:** If you draw a lot of buildings, this will make the process faster and easier
+1.  **buildings_tools:** Kama umechora majengo mengi, hii itafanya kazi iwe rahisi na haraka.
 
-2.  **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM
-    database, this plugin makes it easy.
+2.  **DirectUpload:** Kama umekusanya GPS tracks nyingi na ungependa kuzihifadhi katika database ya OSM, hii plugin inafanya iwe rahisi.
 
 3.  **editgpx:**
-    If you want to upload GPS tracks from a Garmin device, you might need this
-    plugin. OSM won't accept GPS tracks that have been saved on an external memory
-    card in a Garmin, but this plugin can correct the files so they can be uploaded.
+    Kama unataka kuupload GPS tracks kutoka kwenye kifaa cha  Garmin, unahitaji hii plugin. OSM haitakubali GPS tracks amabzo zimehifadhiwa katika kifaa cha nje cha kuhifadhi taarifa cha Garmin, lakini hii plugin inaweza kurekebisha mafaili wa ajili ya kuupload.
 
 4.  **fieldpapers:**
-    This plugin lets you load scanned Field Papers into JOSM.
+    Hii plugin inakusaidia kuona scanned Field Papers katika JOSM. 
 
 5.  **imagery_offset_db:**
-    This plugin lets you cooperate with other mappers who find that the Bing
-    satellite imagery is a little bit misaligned. This issue is covered in more
-    detail in a later chapter.
+    Hii plugin inakusaidia kushirikiana na watengeneza ramani wengine ambao wamekuta picha ya anga imehama kidogo. Hili swala limeelezewa zaidi katika sura inayofuata.
 
 6.  **mirrored_download:**
-    With this plugin you can download a larger area of OSM data for editing.
+    Kwa hii plugin unaweza kupakua eneo kubwa la taarifa katika OSM kwa ajili ya kuhariri.
 
 7.  **print:**
-    Adds a Print function, in case you would like to make quick printouts
-    of an area, that don't need to look very good.
+    Weka kifaa cha printi , kama ikitokea unataka kutengeneza eneo kwa haraka, amabalo halihitaji kuonekana zuri sana.
 
 8.  **utilsplugin2:**
-    Adds many additional tools and menus to JOSM for advanced users. This is covered
-    in more detail in the [next chapter](/en/josm/more-tools)
+    Ongeza vifaa vingine na menus ya JOSM kwa watumiaji wazoefu. Hii itaelezewa kiundani katika [sura inayofuata](/en/josm/more-tools)
+
+
 
 
 
