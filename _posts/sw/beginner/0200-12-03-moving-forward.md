@@ -1,4 +1,11 @@
 ---
+layout: doc
+title: Further Reading
+permalink: /sw/beginner/moving-forward/
+lang: sw
+category: beginner
+---
+
 Kujifunza Zaidi
 ===============
 Kifungu hiki cha LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
