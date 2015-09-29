@@ -8,8 +8,6 @@ category: beginner
 
 Kujifunza Zaidi
 ===============
-Kifungu hiki cha LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
-tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md). 
 
 > Huu muongozo unaweza kupakuliwa kama [beginner_moving-forward_sw.odt](/files/beginner_moving-forward_sw.odt) au [beginner_moving-forward_sw.pdf](/files/beginner_moving-forward_sw.pdf)  
 > Reviewed 2015-07-12  
