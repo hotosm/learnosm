@@ -145,7 +145,7 @@ Unless the project instructions specify otherwise, buildings should be tagged **
 
 > **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes. If you're tracing is of a building with square corners, please take the time to square your traced item (highlight it and shortcut 's').  
 
-*  JOSM is far faster for mapping buildings - [JOSM building tools is explained here.](/en/editing/more-tools/#the-buildings-tools-plugin)  
+*  JOSM is far faster for mapping buildings - [JOSM building tools is explained here.](/en/josm/more-tools/#the-buildings-tools-plugin)  
 
 ![Buildings iD][]
 
@@ -180,11 +180,11 @@ More to follow - see the below links for more guidance.
 -  [Highway Tag Africa - the preferred reference for highway tagging in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)  
 -  [Short Tutorial in French for remote mapping](http://blog.cartong.org/2014/07/24/tuto-digitaliser-sous-openstreetmap-avec-le-tasking-manager-et-josm-premiers-pas/)
 
-[iD 3]: /images/en/coordination/remote/iD_3.png
-[JOSM 4]: /images/en/coordination/remote/JOSM_4.png
-[iD 5]: /images/en/coordination/remote/iD_5.png
-[iD residential]: /images/en/coordination/remote/iD_residential.png
-[JOSM residential]: /images/en/coordination/remote/JOSM_residential.png
-[JOSM residential 1]: /images/en/coordination/remote/JOSM_residential_1.png
-[Buildings iD]: /images/en/coordination/remote/Buildings_iD.png
-[Buildings_2]: /images/en/coordination/remote/Buildings_2.png
+[iD 3]: /images/coordination/iD_3.png
+[JOSM 4]: /images/coordination/JOSM_4.png
+[iD 5]: /images/coordination/iD_5.png
+[iD residential]: /images/coordination/iD_residential.png
+[JOSM residential]: /images/coordination/JOSM_residential.png
+[JOSM residential 1]: /images/coordination/JOSM_residential_1.png
+[Buildings iD]: /images/coordination/Buildings_iD.png
+[Buildings_2]: /images/coordination/Buildings_2.png
