@@ -1,4 +1,5 @@
 ---
+---
 layout: doc
 title: JOSM Tools
 permalink: /sw/josm/josm-tools/
@@ -9,145 +10,99 @@ category: josm
 JOSM Editing Tools
 ==================
 
-Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
+Kifungu hiki cha LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
 tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md). 
 
 > Huu muongozo unaweza kupakuliwa kama [josm_josm-tools_sw.odt](/files/josm_josm-tools_sw.odt) or [josm_josm-tools_sw.pdf](/files/josm_josm-tools_sw.pdf)  
-> Reviewed 2015-07-14  
+> Imeangaliwa 2015-07-14  
 
-In the [starting to use JOSM guide](/en/josm/start-josm/) we cover the basics of drawing in
-JOSM, but there are many tools and techniques which are not demonstrated.
+Katika [kuanza kutumia muongozo wa JOSM](/en/josm/start-josm/) tumekamilisha vitu muhimu katika kuchora na 
+JOSM, lakini kuna vifaa na mbinu mbalimbali ambazo hatukuzielezea.
 
-Here we will look at some of the basic tools and techniques available
-for drawing map features in JOSM, and in the following chapters we will
-look in more depth at advanced drawing tools.
+Hapa tunaangalia vifaa na mbinu za muhimu zilizopo kwa ajili ya kuchora vitu vinavyopatikana kwenye ramani kwa JOSM, na sura inayofuata tutaangalia kiundani zaidi vifaa vya kuchorea.
 
-Get the Sample File
+Pata mfano wa faili
 -------------------
 
--   If you'd like to follow along and practice using JOSM tools, download
+-   Kama unataka kufuatilia zaidi na kujifunza kutumia JOSM, pakua
     [tools_menu_sample.osm](/files/tools_menu_sample.osm).
--   Start JOSM and open the file. It should look like this:
+-   Washa JOSM na fungua faili. Itaonekana kama hivi:
 
 ![tools_menu_sample.osm][]
 
-Drawing tools
+Vifaa vya kuchorea
 -------------
 
-If you click on the "Tools" menu at the top of JOSM, you will see that there
-are numerous functions which can aid you in drawing lines and shapes, and
-editing the objects on the map.
+Kama ukibonyeza  "Tools" juu ya menu ya JOSM, utaona kuna vifaa mbalimbali ambavyo zinasaidia kuchora mistari na maumbo, na kuhariri vitu katika ramani.
 
-JOSM has some additional tools to make it easier to
-draw lines and shapes. These tools are found in the “Tools” menu at the
-top of JOSM.
+JOSM ina vifaa vya ziada vya kurahisisha kuchora mistari na maumbo. Hivi vifaa vinapatikana katika “Tools” menu juu ya JOSM.
 
 ![Tools menu][]
 
-In order to apply the functions in this menu, you must first select a
-point, line or shape in the map window. The sample file contains various
-elements that are labelled with the names of different tools on the menu.
+Ili kutumia vifaa katika hii menu, inatakiwa kwanza uchague pointi,mstari au umbo katika window ya ramani. Faili la mfano lina vitu mbalimbali ambavyo vimepewa majina ya vifaa mbalimbali kwenye menu. 
 
--   Try selecting one of the elements in the file. Then go to the Tools menu
-    and click on the function which is identified next to the feature you have
-    selected.
--   For example, click on the badly drawn circle to select it.
+-   Jaribu kuchagua moja kati ya vitu katika faili. Halafu nenda kwenye menu ya Tools na bonyeza kwenye kifaa ambacho kipo mbele ya kitu uichokichagua
+-   Kwa mfano, bonyeza katika duara lililochorwa vibaya ili ulichague.
 
 ![Align nodes in circle][]
 
--   Next, go to Tools->Align Nodes in Circle.
--   The badly drawn circle will become more circular.
+-   Kisha, nenda Tools->Align Nodes in Circle.
+-   Lile duara lililochorwa vibaya litakuwa duara zuri.
 
-Experiment with each of the tools using this sample file. A description of
-some of the tools is provided below.
+Majaribio ya kila tool kutumia hili faili la mfano. Maelezo ya baadhi ya hizi taarifa yameelezwa hapa chini.
 
-1.  **Split Way:** This allows you to divide a line into two separate lines.
-    This is useful if you want to add different attributes to different
-    parts of a road, such as a bridge. To use this function, select a
-    point in the middle of the line that you want to split, select Split
-    Way from the Tools menu, and your line should be split in two.
+1.  **Split Way:** Hii inakuruhusu kugawanya mstari katika mistari miwili tofauti.
+    Hii ni muhimu kama unataka kkuongeza sifa kwenye sehemu mbalimbali za barabara, kama vile daraja. Kuumia hiki kifaa, chagua pointi katikati ya mstari unaotaka kuutenganisha, chagua Split Way kutoka kwenye Tools menu, na mstari wako utakuwa umetenganishwa na kuwa miwili.
 
-2.  **Combine Way:** This does the opposite of Split Way. To combine two
-    lines into a single line, they must share a single point. To use
-    this function, select both lines that you want to combine. You can
-    select more than one object by holding the SHIFT key on your
-    keyboard and clicking on each line. When you have selected both
-    lines, select Combine Way from the Tools menu.
+2.  **Combine Way:** Hii inafanya kinyume cha Split Way. Kuunganisha mistari miwili kuwa mmoja, inatakiwa iwe kwenye pointi moja. Kutumia hiki kifaa, chagua mistari yote miwili unayotaka kuiunganisha. Unaweza kuchagua kitu zaidi ya kimoja  kwa kushikilia SHIFT katika keyboard yako na kubonyeza kila mstari. Ukiwa tayari umeshachagua mistari yote, chagua Combine Way kutoka kwenye menu ya tools.
 
     ![Combine way][]
 
-    If you are combining roads that have different directions, you
-    might get this warning:
+    Kama unaunganisha barabara zenye uelekeo tofauti, utapata angalizo:
 
     ![Reverse and combine][]
 
-    If the roads are connected and go in the same direction, then choose
+    Kama barabara zimeungana na zinaelekea uelekeo unaofanana, kwahiyo chagua
     "Reverse and Continue."
 
-3.  **Reverse Way:** This will change the direction of the line. All lines in
-    OSM have a direction, which is shown in JOSM by the arrows on the line.
-    Direction doesn't usually matter, except in the case of one way roads and
-    rivers that flow in a certain direction. In these cases you may need to
-    reverse the way so that it goes in the correct direction.
+3.  **Reverse Way:** Hii inabadilisha uelekeo wa mstari. Mistari yote katika OSM ina uelekeo, ambayo inayoonyeshwa kwenye JOSM kwa mishale  katika mstari. Uelekeo mara nyingi haujalishi, lakini kwa kesi ya barabara inayoenda njia moja na mto unaotiririka  uelekeo tofauti. Kwa hii kesi unatakiwa kubadili uelekeo wa barabara ili iende uelekeo uliosahihi.
 
     ![Way direction][]
 
-4.  **Simplify Way:** If your line has too many points in it and you’d like
-    to make it simpler, this will remove some of the points from a line.
+4.  **Simplify Way:** Kama mstari wako una pointi nyingi na ungependa kuufanya rahisi, hii itaondoa baadhi ya pointi kutoka kwenye mstari.
 
     ![Simplify way][]
 
-5.  **Align Nodes in Circle:** If you are trying to make a
-    circular shape, draw the circle as best you can and then select it.
-    This function will help arrange your points in a circle.
+5.  **Align Nodes in Circle:** Kama unajaribu kutengeneza umbo la duara, chora duara kwa kadri uwezavyo halafu ulichague. Hiki kifaa kitakusaidia kuzipanga pointi zako katika duara.
 
-6.  **Create Circle:** Alternatively, use can use this tool, which
-    will create a more perfect circle. Draw a line which represents the
-    diameter of your circle, and then apply this tool.
+6.  **Create Circle:** Njia nyingine, mtumiaji anaweza kutumia hiki kifaa, ambapo kitatengeneza duara zuri zaidi. Chora mstari utakaowakilisha kipenyo cha duara lako, na baada ya hapo tumia hicho kifaa
 
     ![Create circle][]
 
-7.  **Align Nodes in Line:** This function will align a series of points
-    into a straight line.  With long lines it is best to select sections
-    of the line to straighten.  Be careful as this does have the
-    tendency to shift the line a little bit.
+7.  **Align Nodes in Line:** Hii inanyoosha pointi zilizoongozana kwenye mstari mnyoofu. Kama mstari ni mrefu sana  ni vizuri kuchagua vipande vya mstari kuunyoosha. Kuwa makini kwani hiki kitendo kina tabia ya kuhama kidogo. 
 
     ![Align nodes in line][]
 
-8.  Orthogonalize Shape: This function is very useful for drawing
-    regular shapes such as buildings. After you draw an area, this
-    function will reshape it to have square corners.
+8.  Orthogonalize Shape: Hiki kifaa ni muhimu kwa kuchora maumbo yanayoeleweka kama vile majengo. Baada yakuchora eneo, hiki kifaa kitatengeneza umbo na kuwa na kona mraba.
 
     ![Orthagonalize][]
 
-9.  Unglue way: This tool allows you to detach nodes that are
-    connected. It is useful when two object share a node when they should
-    not. For example, a common mistake is for a road to share a node
-    with the corner of a building. Of course roads don't run into buildings
-    usually, so this is a mistake, and you can unglue the objects from one
-    another.
+9.  Unglue way: Hiki kifaa kinakuruhusu kuachanisha pointi ambazo zimeungana. Ni ya muhimu pale vifaa viwili vinapounganishwa na pointi wakati haitakiwi kuwa hivyo. Kwa mfano, makosa mengi ni pale barabara inapokuwa imeungana pointi na kona ya nyumba. Kiukweli barabara haipiti juu ya jengo mara zote, kwahiyo hilo ni kosa, na unaweza kutenganisha kitu kutoka kwa kingine. 
 
     ![Unglue way][]
 
     > The line and node will not actually appear separate until you move them.
 
-Keyboard Shortcuts
+Njia za mkato katika keyboard.
 ------------------
 
-Once you start editing a lot you will realize that you waste a lot of time
-clicking on menus and submenus. To overcome this, JOSM has keyboard shortcuts
-for just about everything.
+Pale unapoanza kuhariri mara kwa mara utagundua kuwa unapoteza muda kubonyeza menu na submenu. Kupamabana na hili, JOSM ina njia za mkato  karibu ya kila kitu katika keyboard yako.
 
-This means that instead of clicking an object and then going through a lengthy
-menu process, you can simply select the object and press a key on your keyboard.
+Hii inamanisha badala ya kubonyeza kitu na kufuata njia ndefu ya menu, unaweza kuchagua kitu na kubonyeza njia ya mkato katika keyboard.
 
-All of the tools mentioned in the previous section have shortcut keys, which are
-listed on the Tools menu to the right of each tool name. For example, "O" is the
-shortcut key to align nodes in a circle. "L" is the shortcut to align them in a line.
-It can take some time to learn the shortcut keys, but you will find that it saves
-a lot of time in the long run.
+Vifaa vyote vilivyotajwa katika sehemu iliyopita vina njia ya mkato, ambazo zimeorodheshwa katika menu ya Tools upande wa kulia wa kila jina la kifaa. Kwa mfano, "O" hii ni njia ya mkato kwa ajili ya kunyoosha pointi katika  duara. "L" hii ni njia ya mkato kunyoosha pointi katika mstari. Inaweza kuchukua muda kujifunza hizi njia za mkato, lakini utagundua kwa kipindi kirefu inaokoa muda. 
 
-Here are other shortcut keys (in **bold**) which are some of the most important.
+ Hapa ni baadhi ya njia za mkato(in **bold**) which are some of the most important.
 
 1.  Activate the Select Tool - **S**
 2.  Activate the Draw Tool - **A**
@@ -157,22 +112,20 @@ Here are other shortcut keys (in **bold**) which are some of the most important.
 6.  Zoom Out - **-**
 
 
-Scale and Rotate
+Scale na kuzungusha
 ----------------
 
-A common question is how to rotate a line or shape after it has
-been drawn.
+ Swali la mara kwa mara ni jinsi gani ya kuzungusha mstari baada ya kuwa umeshachorwa.
 
--   To rotate an object, first select it.
--   Hold **SHIFT+CTRL** on your keyboard.
--   Click and drag the mouse to rotate.
+-   Kukizungusha kitu, kwanza kichague.
+-   Shikilia **SHIFT+CTRL** katika keyboard.
+-   Bonyeza na vuta kipanya kuzungusha.
 
 ![Rotate demo][]
 
-To scale an object (make it bigger or smaller), follow the same
-process, but hold ALT+CTRL instead.
+Kukiscale kitu (kukifanya kikubwa au kidogo), fuata njia zilezile, lakini badala yake shikilia  ALT+CTRL.
 
-These instructions are displayed on the information bar at the bottom of JOSM:
+Huu utaratibu umewekwa kwenye sehemu ya taarifa chini ya JOSM:
 
 ![Rotate instructions][]
 
@@ -197,4 +150,5 @@ These instructions are displayed on the information bar at the bottom of JOSM:
 [Keyboard plus]: /images/josm/keyboard-plus.png
 [Keyboard minus]: /images/josm/keyboard-minus.png
 [Rotate demo]: /images/josm/rotate-demo.png
-[Rotate instructions]: /images/josm/rotate-instructions.png
+[Rotate instructions]: /images/jposm/rotate-instructions.png
+
