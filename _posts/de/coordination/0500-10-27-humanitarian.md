@@ -10,7 +10,7 @@ category: coordination
 
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 
-> This guide may be downloaded as [humanitarian_en.odt](/files/humanitarian_en.odt) or [humanitarian_en.pdf](/files/humanitarian_en.pdf)  
+> This guide may be downloaded as [humanitarian_de.odt](/files/humanitarian_de.odt) or [humanitarian_de.pdf](/files/humanitarian_de.pdf)  
 > Reviewed 2015-09-18
 
 Vielen Dank, dass Sie sich für die Leute vor Ort und für Hilfsorganisationen einsetzen und ihnen aktualisierte Kartendaten für die Bewältigung einer Krisensituation liefern. 
