@@ -1,6 +1,6 @@
 ---
 layout: doc
-Kartierung für humanitäre Zwecke
+title: Kartierung für humanitäre Zwecke
 permalink: /de/coordination/humanitarian
 lang: de
 category: coordination
