@@ -1,6 +1,6 @@
 --
 layout: doc
-titel: Meer informatie
+title: Meer informatie
 permalink: /nl/beginner/moving-forward/
 lang: nl
 category :beginner

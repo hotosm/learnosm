@@ -1,6 +1,6 @@
 --
 layout: doc
-titel: Introductie
+title: Introductie
 permalink: /nl/beginner/introduction/
 lang: nl
 category :beginner
