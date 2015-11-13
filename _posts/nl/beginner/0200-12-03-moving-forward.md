@@ -3,7 +3,7 @@ layout: doc
 title: Meer informatie
 permalink: /nl/beginner/moving-forward/
 lang: nl
-category :beginner
+category: beginner
 --
 
 Meer informatie
