@@ -9,7 +9,7 @@ category: beginner
 Meer informatie
 ===============
 
-> Deze handleiding kan worden gedownload als [josm_start-josm_nl.odt](/files/josm_start-josm_nl.odt) of [josm_start-josm_nl.pdf](/files/josm_start-josm_nl.pdf)  
+> Deze handleiding kan worden gedownload als [beginner_moving-forward_nl.odt](/files/beginner_moving-forward_nl.odt) of [beginner_moving-forward_nl.pdf](/files/beginner_moving-forward_nl.pdf)  
 > Bijgewerkt op 12-07-2015  
 
 Gefeliciteerd dat je zover bent gekomen! Je zou nu een goed
@@ -32,7 +32,7 @@ papierpen formulieren. Het behandelt ook een aantal OpenStreetMap gerelateerde a
 OpenStreetMap is een gezamenlijke inspanning en we hopen dat je er deel van gaat uitmaken. Een aantal van deze inspanningen zijn toegewijd aan 
 humanitaire hulp onder toezicht van het [Humanitaire OSM Team](http://hotosm.org). 
 Als je HOT wilt helpen tijdens een ramp, zoals de aardbeving in Nepal bekijk dan 
-[het gedeelte over coördinatie](nl/coordination/) 
+[het gedeelte over coördinatie](/nl/coordination/) 
 men kan samenwerken aan een relatief klein gebied op een stelselmatige manier. Het bevat ook richtlijnen over veel voorkomende
 taken die je zult tegenkomen als je meewerkt aan deze gezamenlijke inspanningen.
 

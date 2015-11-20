@@ -10,7 +10,7 @@ Introductie
 ============
 
 > Deze handleiding kan gedownload worden als [beginner_introduction_nl.odt](/files/beginner_introduction_nl.odt) of [beginner_introduction_nl.pdf](/files/beginner_introduction_nl.pdf)  
-> Bijgewerkt op 25-07-2015  
+> Bijgewerkt op 2015-07-12  
 
 Informatie is krachtig. Met goede informatie en het juiste
 begrip, zijn individuen en gemeenschappen beter in staat tot het verbeteren
