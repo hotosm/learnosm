@@ -1,10 +1,10 @@
---
+---
 layout: doc
 title: HOT Remote Mapping  
 permalink: /nl/coordination/HOT-Remote-Response-Guide 
 lang: nl
 category: coordination
---
+---
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 
 #HOT Remote Response Guide  
