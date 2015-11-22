@@ -6,7 +6,7 @@ lang: nl
 category: coordination
 ---
 
-# Tasking Manager
+#Tasking Manager
 
 > Deze handleiding kan gedownload worden als [tasking-manager_nl.odt](/files/tasking-manager_nl.odt) of [tasking-manager_nl.pdf](/files/tasking-manager_nl.pdf)  
 > Bijgewerkt op 26-08-2015  
