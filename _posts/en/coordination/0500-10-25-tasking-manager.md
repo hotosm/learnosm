@@ -6,7 +6,7 @@ lang: en
 category: coordination
 ---
 
-# Tasking Manager
+#Tasking Manager
 
 > This guide may be downloaded as [tasking-manager_en.odt](/files/tasking-manager_en.odt) or [tasking-manager_en.pdf](/files/tasking-manager_en.pdf)  
 > Reviewed 2015-08-26  
