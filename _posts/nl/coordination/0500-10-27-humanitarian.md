@@ -1,12 +1,12 @@
---
+---
 layout: doc
-Mapping voor Humanitaire Organisaties
+title: Mapping voor Humanitaire Organisaties
 permalink: /nl/coordination/humanitarian
 lang: nl
 category: coordination
---
+---
 
-Mapping voor Humanitaire Organisaties
+#Mapping voor Humanitaire Organisaties
 
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 
