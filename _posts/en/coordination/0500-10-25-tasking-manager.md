@@ -49,7 +49,7 @@ The HOT Tasking Manager, <http://tasks.hotosm.org/>, is an intuitive tool that m
 
 -  For information about the Tasking Manager, HOT sponsors, partners & help click on **About** at the top of the page.
 
-_ Once you have logged in, you may click on your username at the top. Here you can:
+-  Once you have logged in, you may click on your username at the top. Here you can:  
 
 - Access a list of projects for which you have completed squares,
 - Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)
