@@ -26,7 +26,7 @@ All access to TM2 is authorised through <https://www.openstreetmap.org>. You wil
 
 ##Creating a new Project within TM2 
 
-<!--Hidden Text - Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ - end of hidden text-->
+<!--Hidden Text - Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ 
 
 Before Creating a Task
 Should this task be a Missing Maps Task? 
@@ -106,7 +106,7 @@ Proofread the various tabs to ensure wording and formatting are correct.
 If further editing is needed, click the ‘Edit’ link in the upper right hand corner of the page.  If the project is ready for mapping, click the ‘Publish’ link.
 Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
 
-
+- end of hidden text-->
 
 ![Tasking Manager Username_list][]
 [Tasking Manager Languages]: /images/coordination/tasking_manager_image012.png
