@@ -13,26 +13,26 @@ category: coordination
 
 Index
 -------------
--  [Inleiding over het gebruik van de Tasking Manager door HOT](/nl/coordination/tasking-manager/#overview-of-the-process)  
--  [Talen, Opties, help links, en andere links. Je profiel - lijst van projecten waar je aan hebt bijgedragen en berichten](/nl/coordination/tasking-manager/#options-amp-links)  
--  [Inloggen](/nl/coordination/tasking-manager/#getting-started-with-the-tasking-manager)  
--  [Het vinden van een project](/nl/coordination/tasking-manager/#locating-a-project)  
--  [Omschrijving, Map grid, Instructies, Bijdragen, Activiteit, Statistieken van een project](/nl/coordination/tasking-manager/#description)  
--  [Selecteer een gebied om in kaart te brengen, timer, vrijgeven](/nl/coordination/tasking-manager/#selecting-a-square-to-map)  
--  [JOSM, iD, Potlatch 2, Field Papers, Walking Papers](/nl/coordination/tasking-manager/#editing-choices)  
--  [Een taak opsplitsen](/nl/coordination/tasking-manager/#splitting-a-square)  
--  [Een gebied vrijgeven voordat deze gereed is](/nl/coordination/tasking-manager/#unlocking-a-square-before-it-is-complete)  
--  [Markeer je gebied als gereed](/nl/coordination/tasking-manager/#finishing-a-square)  
--  [Berichten Versturen](/nl/coordination/tasking-manager/#sending-a-message-from-the-comment-box)  
--  [Je gebied herkennin een een email of ander bericht](/nl/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
--  [Live Help - IRC, Internet Relay Chat](/nl/coordination/tasking-manager/#getting-live-help)  
--  [Hints en Tips](/nl/coordination/tasking-manager/#editing-hints-and-tips)
+-  [Inleiding over het gebruik van de Tasking Manager door HOT](/nl/coordination/tasking-manager/#overzicht-van-het-proces)  
+-  [Talen, Opties, help links, en andere links. Je profiel - lijst van projecten waar je aan hebt bijgedragen en berichten](/nl/coordination/tasking-manager/#opties-amp-links)   
+-  [Inloggen](/nl/coordination/tasking-manager/#starten-met-de-tasking-manager)  
+-  [Het vinden van een project](/nl/coordination/tasking-manager/#een-project-zoeken)  
+-  [Omschrijving, Map grid, Instructies, Bijdragen, Activiteit, Statistieken van een project](/nl/coordination/tasking-manager/#beshrijving)  
+-  [Selecteer een gebied om in kaart te brengen, timer, vrijgeven](/nl/coordination/tasking-manager/#selecteer-een-tile-om-aan-te-werken)  
+-  [JOSM, iD, Potlatch 2, Field Papers, Walking Papers](/nl/coordination/tasking-manager/#editing-tools)  
+-  [Een taak opsplitsen](/nl/coordination/tasking-manager/#een-taak-opsplitsen)  
+-  [Een gebied vrijgeven voordat deze gereed is](/nl/coordination/tasking-manager/#een-taak-ontgrendelen-voordat-deze-gereed-is)  
+-  [Markeer je gebied als gereed](/nl/coordination/tasking-manager/#een-tile-afronden)  
+-  [Berichten Versturen](/nl/coordination/tasking-manager/#een-bericht-sturen-vanuit-de-comment-box)  
+-  [Je gebied herkennin een een email of ander bericht](/nl/coordination/tasking-manager/#verwijzen-naar-een-specifieke-tile-in-een-email)  
+-  [Live Help - IRC, Internet Relay Chat](/nl/coordination/tasking-manager/#vraag-om-live-hulp)  
+-  [Hints en Tips](/nl/coordination/tasking-manager/#editing-hints-en-tips)
 
 
 De HOT Tasking Manager <http://tasks.hotosm.org/>, is een intuïtieve tool die mappers kunnen gebruiken om een gebied op te delen in een grid en zo op een georganiseerde manier kunnen samenwerken. Mappers van over de hele wereld kunnen zo helpen bij het in kaart brengen van een specifiek gebied met een minimaal risico op dubbel werk. Mensen in het veld en op afstand kunnen zo effectief en snel werken en voorkomen dat zaken opnieuw gedaan moeten worden ivm conflicten.
 
 
-## Overzicht van het proces
+##Overzicht van het proces
 
 1. Een administrator selecteert een gebied dat bijgewerkt moet worden in OpenStreetMap. Hij zorgt ervoor dat er geschikte satellietbeelden beschikbaar zijn voor de mappers op afstand en maakt een project aan voor het gebied. Het benodigde detailniveau en de urgentie worden aangegeven binnen het project, samen met andere benodigde informatie. Als de administrator tevreden is upload hij het project in de Tasking Manager [tasks.hotosm.org](http://tasks.hotosm.org) Soms maakt hij nog wijzigingen achteraf als dat nodig is.
 
@@ -43,7 +43,7 @@ De HOT Tasking Manager <http://tasks.hotosm.org/>, is een intuïtieve tool die m
 4. De progressie van het project is te volgen middels de statistieken in het "stats" tabblad van het project. Het project kan worden teruggeschaald of gearchiveerd als dat nodig is door de beheerder.
 
 
-## Opties & links
+##Opties & links
 
 - De Task Manager opent automatisch in het Engels, om naar een andere taal over te schakelen kun je op **English** klikken in de rode banner, bovenin het scherm.
 
@@ -70,7 +70,7 @@ Je kunt de projecten bekijken als bezoeker, maar om actief deel te nemen moet je
 ![Authorizing access to OSM account by the Tasking Manager][]
 
 
-## Een project zoeken
+##Een project zoeken
 
 De huidige lijst met projecten kun je sorteren op:
 
@@ -87,7 +87,7 @@ Referenties naar projecten gaan vaak via hun projectnummer, bijv [**#711 - Ebola
 
 ![Job description][]
 
-## Beshrijving
+##Beshrijving
 
 Alles wat je van dit project moet weten staat hier!. Aan de linkerkant is een beschrijving van het project en wat er nodig is. Aan de rechterkant zie je het gebied dat in kaart gebracht moet worden;  
 
@@ -117,22 +117,22 @@ Instructies over het inladen van deze beelden zijn vaak bijgeleverd.
 
 Wanneer je een vierkant als gereed markeert, zullen controleurs(validators) verwachten dat de vereisten uit de instructies aanwezig zijn. Je zult wellicht merken dat het volbrengen van een volledige task(square) moeilijk kan zijn, verderop zul je uitleg krijgen over het unlocken van tiles en over het feedback geven aan de volgende mapper.
 
-### Activiteit tabblad  
+###Activiteit tabblad  
 Dit tabblad laat de activiteit zien binnen het project, op chronologische volgorde.  
 
-### Statistieken tabblad  
+###Statistieken tabblad  
 Dit tabblad bevat een grafiek van de progressie en andere informatie. 
 
 Ook bevat het tabblad een lijst van mappers die op zijn minst één tile als gereed hebben gemarkeerd. Je kunt je muis over een gebruiker halen en in de kaart zullen de betreffende tiles oplichten(**hiermee kun je bijvoorbeeld bekijken welke tiles jij hebt voldaan**).
 
 Wanneer je eenmaal de tiles hebt gevonden voor een gebruiker, kun je op het vierkant klikken om de opmerkingen te bekijken. Hiermee kun je snel nuttige feedback bekijken van controleurs(validators).  
 
-### Bijdragen Tabblad  
+###Bijdragen Tabblad  
 Klik hierop wanneer je klaar bent om te gaan mappen. Je kunt een vierkant kiezen om aan te werken door op de kaart te klikken of door voor een willekeurige taak te kiezen middels de knop. 
 
 ![Picking a task][]
 
-## Selecteer een tile om aan te werken  
+##Selecteer een tile om aan te werken  
 ![Assigned task square][]  
 Als je een tile hebt geselecteerd kun je zien of er al iets aan gedaan is, bijvoorbeeld of iemand is begonnen met mappen.  
 
@@ -148,16 +148,16 @@ Verschillende edit opties worden beschikbaar zodra je een tile vergrendeld hebt.
 
 ![Editing options][]  
 
-#### Edit met JOSM  
+####Edit met JOSM  
 - Start JOSM voordat je deze link gebruikt en de bestaande OSM data zal automatisch worden ingeladen in JOSM.  
 >1. 'Enable remote control' moet aan staan, dit kun je vinden onder **Edit/Preferences/RemoteControl**
   2. Als je de plugin 'continuousDownload' hebt geïnstalleerd, kun je die het beste uitschakelen (zet het vinkje uit bij 'Download OSM data continuously' onder het **File** menu in JOSM. 
   3. Als JOSM niet automatisch de satellietbeelden inlaadt, kun je die vinden onder het **Imagery** menu. [Meer informatie over imagery](en/josm/more-about-josm/#add-imagery) 
 
-#### iD editor  
+####iD editor  
 -Selecteer dit om automatisch een nieuw tabblad of venster te openen in je webbrowser, met bestaande OSM data. Internet Explorer ondersteunt op dit moment niet het gebruik van iD, daarom wordt Potlatch 2 standaard geladen. Wil je iD gebruiken, installeer dan firefox of chrome. Je originele venster of tabblad met de task manager zal zichtbaar blijven.  
 
-#### Potlatch 2  
+####Potlatch 2  
 - De editor zal in een nieuw venster of tabblad worden geopend.  
 - Potlach zal niet automatisch de begrenzing van de taak laten zien, maar dit kun je als volgt doen:
   1. In de Tasking Manager, selecteer een vierkant en klik Start Mapping op deze te vergrendelen
@@ -169,10 +169,10 @@ Verschillende edit opties worden beschikbaar zodra je een tile vergrendeld hebt.
   7. Zorg ervoor dat Show column is aangevinkt en sluit het venster.
   8. Potlatch zou nu de grenzen van het gebied moeten weergeven(waarschijnlijk lichtblauw). Potlach zal nog steeds data inladen buiten het gebied.
 
-#### Walking Papers / Field Papers
+####Walking Papers / Field Papers
 - Gebruik deze optie alleen als je betrokken bent bij een project waar een lokale mapper veldwerk heeft gedaan en papieren kaarten heeft ingevuld, met bijvoorbeeld straatnamen. Deze kaarten kunnen worden ingescand en als achtergrond worden gebruikt om OSM te updaten.  
 
-### Een taak opsplitsen  
+###Een taak opsplitsen  
 Sommige taken zijn te groot om in 1 keer af te kunnen ronden, als er te veel objecten zijn om in kaart te brengen. Bijvoorbeeld als het grootste gedeelte bestaat uit gebouwen in dichtbebouwde urbane gebieden.
 
 Als richtlijn kun je vasthouden dat wanneer het voor 1 persoon niet haalbaar is om binnen 2uur het gebied af te ronden, kun je de taak in 4 delen opsplitsen.
@@ -181,7 +181,7 @@ Als richtlijn kun je vasthouden dat wanneer het voor 1 persoon niet haalbaar is 
 
 Wees ervan bewust dat bestaande opmerkingen niet meer beschikbaar zullen zijn na het opsplitsen.
 
-### Een taak ontgrendelen voordat deze gereed is
+###Een taak ontgrendelen voordat deze gereed is
 Als je begint aan een taak, maar deze niet af kunt ronden, kun je de taak ontgrendelen en een opmerking achterlaten.
 
 Geef aan wat je hebt gedaan en wat er nog moet gebeuren en kies **ontgrendel** of **unlock**. Zorg ervoor dat je opmerkingen relevant zijn en de volgende mapper kunnen helpen. Doe dit bij voorkeur in het Engels.
@@ -191,7 +191,7 @@ Bijvoorbeeld:
     Wanneer je bijna klaar bent, maar nog 1 dorp niet hebt kunnen mappen: "Almost complete, small village top left" 
     in the square to be traced though
 
-### Een tile afronden
+###Een tile afronden
 Het is lastig om absoluut zeker te zijn dat je een tile hebt afgerond, het is acceptabel als je redelijk zeker weet dat je klaar bent, omdat een andere mapper zal controleren of dit het geval is en kleine wijzigingen zal toevoegen. 
 
 Om het proces efficient te laten verlopen, is het handig dat mappers tiles als gereed markeren als ze compleet zijn in plaats van het open laten voor andere mappers als ze niet zeker zijn. Dit kost andere mappers namelijk veel tijd. 
@@ -202,7 +202,7 @@ Voeg een opmerking toe en vermeld wat je hebt gedaan en nog belangrijker: waar j
 
 Klik op de "Markeer als gereed" of "Mark Task as Done" knop. Nu is je werk klaar om gecontroleerd te worden.
 
-### Een bericht sturen vanuit de comment box.
+###Een bericht sturen vanuit de comment box
 Wanneer je een opmerking bij een gebied plaatst, kun je de opmerking doorsturen naar een gebruiker.
 
 Net zoals bij twitter, gebruik je hiervoor @ gevolgd door de gebruikersnaam. De gebruiker ontvangt vervolgens de opmerking en een link naar de tile waarbij de opmerking is geplaatst. 
@@ -232,7 +232,7 @@ Als je een bericht moet sturen, zoals een email of een IRC bericht, en je wilt i
 rechtsklik je muis en klik op paste,  
 op gebruik sneltoets **Ctrl+V** om de link te plakken. 
 
-### Vraag om live hulp 
+###Vraag om live hulp 
 ![IRC_help][] 
 
 In de tasking manger;  
@@ -250,7 +250,7 @@ In de tasking manger;
 - Je kunt ook een IRC client naar keuze gebruiken (Server=irc.oftc.net, kanaal=#hot)  
 
 
-### Editing hints en tips
+###Editing hints en tips
 Je hebt nu een goed beeld gekregen van de Tasking Manager en van enkele functies. In tegenstelling tot normale edits, wordt deze tool veel gebruikt voor kritische projecten met veel deelnemers, dit kan afwijken van wat je normaal gesproken gewend bent. 
 
 Een aantal algemene adviezen om in acht te nemen wanneer je met deze tool werkt:
