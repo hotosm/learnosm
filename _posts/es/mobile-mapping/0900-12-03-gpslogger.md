@@ -7,15 +7,16 @@ category: mobile-mapping
 ---
 
 GPSLogger para Android
-======================================================
+=====================
+
+> Esta guía puede ser descargada como  [gpslogger_es.odt](/files/gpslogger_es.odt) or [gpslogger_es.pdf](/files/gpslogger_es.pdf)  
+> Revisado 2015-12-06  
+
 ![GPSLogger][]
 
 Una aplicación sencilla y ligera para grabar trazas GPS en la plataforma Android. La interfaz es sencilla y tiene el único propósito de loggear la posición GPS y mantener una baja actividad la hace muy eficiente respecto al uso de batería que puede grabar trazas en formatos de archivo GPX, KML, NEMA o en formato de texto. Los archivos de los logs pueden ser subidos automáticamente a OpenStreetMap, a un servidor OpenGTS, DropBox, a un servidor FTP, a un servidor HTTP o enviados por correo electrónico.
 
-<a href="https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=es">
-  <img alt="OsmAnd para Android"
-       src="https://developer.android.com/images/brand/es_app_rgb_wo_45.png" />
-</a>
+<https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=en>
 
 GPSLogger para Android es una aplicación gratuita, así como un proyecto de código abierto mantenido activamente. Las donaciones son bienvenidas para mejorar la aplicación. Si deseas involucrarte (por ejemplo, proporcionando traducciones en otra lengua, reportando bugs, o enviando solicitudes de nuevas funciones), visita el repositorio (https://github.com/mendhak/gpslogger).
 
@@ -148,7 +149,7 @@ Una *etiqueta* es la palabra clave corta que se puede utilizar para asociar una 
 
 
 Colección de Datos
-===============
+---------------
 
 Recogida y carga de rutas GPS automatizada
 -------------------------------------------------
@@ -227,9 +228,9 @@ Conecte su dispositivo Android a un ordenador (también es posible utilizar un c
 
 Utilizando las pistas GPX con el JOSM y editores iD es fácil como arrastrar los archivos y soltándolos en la aplicación (o la pestaña del navegador, por iD). 
 
-Para obtener detalles adicionales para los usuarios iD, consulte la sección [Configuración de la Capa de Fondo] (http://learnosm.org/en/editing/id-editor/#configuring-the-background-layer).
+Para obtener detalles adicionales para los usuarios iD, consulte la sección [Configuración de la Capa de Fondo] (http://learnosm.org/es/editing/id-editor/#configuring-the-background-layer).
 
-Si se utiliza el editor JOSM, puede encontrar instrucciones sobre cómo utilizar la pista GPX, junto con los archivos multimedia en JOSM consulte la sección [Abrir en JOSM](http://learnosm.org/en/beginner/using-gps/#open-in-josm).
+Si se utiliza el editor JOSM, puede encontrar instrucciones sobre cómo utilizar la pista GPX, junto con los archivos multimedia en JOSM consulte la sección [Abrir en JOSM](http://learnosm.org/es/beginner/using-gps/#open-in-josm).
 
 Para otros editores de OpenStreetMap, consulte la documentación de su software.
 
@@ -252,7 +253,7 @@ La aplicación se puede visualizar de 3 maneras diferentes, lo que le resulte m�
 
 
 Resumen
-=======
+-------
 Excelente! Ha sido introducido a un peso ligero, aplicación de la batería eficiente que pueda mantenerse en su dispositivo Android para grabar pistas, que se puede subir a OSM, o utilizar con su editor favorito OpenStreetMap.
 
 GPSLogger para Android es una herramienta más para la recogida de datos de campo sin un receptor GPS dedicado. Recogida de datos de campo casual es posible sin una conexión a Internet activa.
@@ -263,7 +264,7 @@ En esta sección se introduce el concepto de usar GPSLogger para Android para re
 
 
 Documentación Oficial de GPSLogger para Android
-============================================
+--------------------------------------------
 
 El proyecto mantiene una [FAQ] (http://code.mendhak.com/gpslogger/#faq) para las preguntas más frecuentes.
 

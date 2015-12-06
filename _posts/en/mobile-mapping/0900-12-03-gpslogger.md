@@ -10,16 +10,13 @@ GPSLogger for Android
 =====================
 
 > This guide may be downloaded as [gpslogger_en.odt](/files/gpslogger_en.odt) or [gpslogger_en.pdf](/files/gpslogger_en.pdf)  
-> Reviewed 2015-08-25  
+> Reviewed 2015-12-06  
 
 ![GPSLogger][]
 
 A simple, light-weight, and minimalistic app for recording GPS traces on the Android platform. The easy-to-use interface with the sole purpose of GPS logging and staying quite makes for a very battery-efficient application that can save gps tracks in GPX, KML, NEMA or text file formats. Log files can automatically be uploaded to OpenStreetMap, an OpenGTS server, DropBox, FTP server, HTTP server or sent to an email address.
 
-<a href="https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=en">
-  <img alt="OsmAnd for Android"
-       src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
-</a>
+<https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=en>
 
 GPSLogger for Android is an app that is free to use, and an actively maintained open source project. Donations are welcomed to further enhance the app. If you wish to get involved (e.g. providing translations in another language, bug reporting, or submitting feature requests), visit the [repository](https://github.com/mendhak/gpslogger).
 
@@ -152,7 +149,7 @@ A *tag* is short keyword that can be used to associate a trace with projects, pl
 
 
 Data Collection
-===============
+---------------
 
 Automated collection and uploading of gps tracks
 -------------------------------------------------
@@ -256,7 +253,7 @@ The application can be displayed 3 different ways, whichever you find most appro
 
 
 Summary
-=======
+-------
 Excellent! You've been introduced to a light-weight, battery-efficient app you can keep in your Android device to record tracks, which you can upload to OSM, or use with your favorite OpenStreetMap editor.
 
 GPSLogger for Android is another tool for collecting field data without a dedicated GPS receiver. Casual field data collection is possible without an active Internet connection.
@@ -267,7 +264,7 @@ This section introduced the concept of using GPSLogger for Android for collectin
 
 
 Official GPSLogger for Android Documentation
-============================================
+--------------------------------------------
 
 The project maintains an [FAQ](http://code.mendhak.com/gpslogger/#faq) for commonly asked questions.
 

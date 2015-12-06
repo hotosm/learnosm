@@ -1,13 +1,14 @@
 ---
 layout: doc
-título: Mapeo Remoto HOT  
+title: Mapeo Remoto HOT  
 permalink: /es/coordination/HOT-Remote-Response-Guide 
 lang: es
 category: coordination
 ---
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 
-Guía de Respuesta Remota #HOT  
+#Guía de Respuesta Remota HOT  
+
+![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 
 > Esta guía puede ser descargarda como [remote-mapping_es.odt](/files/remote-mapping_es.odt) o [remote-mapping_es.pdf](/files/remote-mapping_es.pdf)  
 > Revisado 2015-09-18
@@ -26,14 +27,14 @@ Teniendo en cuenta la magnitud de la crisis, HOT asigna los recursos necesarios 
 
 ###El Administrador de Tareas HOT 
 
-El [Administrador de Tareas HOT] (http://tasks.hotosm.org/) es una herramienta de código abierto diseñado para dividir un trabajo de mapeo en tareas más pequeñas que se pueden completar rápidamente. Muestra qué áreas necesitan ser asignada y qué áreas necesitan el mapeo validado por otros. Incluye tareas de mapeo para [Activaciones] (http://wiki.openstreetmap.org/wiki/HOT_activation), y ya de pie [Proyectos Humanitarios] (http://hot.openstreetmap.org/projects). 
+El [Administrador de Tareas HOT](http://tasks.hotosm.org/) es una herramienta de código abierto diseñado para dividir un trabajo de mapeo en tareas más pequeñas que se pueden completar rápidamente. Muestra qué áreas necesitan ser asignada y qué áreas necesitan el mapeo validado por otros. Incluye tareas de mapeo para [Activaciones](http://wiki.openstreetmap.org/wiki/HOT_activation), y ya de pie [Proyectos Humanitarios](http://hot.openstreetmap.org/projects). 
 
-Para utilizar el Administrador de Tareas HOT necesita registrarse con OpenStreetMap (OSM) con un nombre de usuario y contraseña. Para más instrucciones lee el [Tutorial del Administrador de Tareas] (http://learnosm.org/es/coordination/tasking-manager/). 
+Para utilizar el Administrador de Tareas HOT necesita registrarse con OpenStreetMap (OSM) con un nombre de usuario y contraseña. Para más instrucciones lee el [Tutorial del Administrador de Tareas](http://learnosm.org/es/coordination/tasking-manager/). 
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)
 ###Herramientas de Edición 
 
-[ID] (http://learnosm.org/es/beginner/id-editor/) - el editor basado en web creado por [Mapbox] (www.mapbox.com) con una interfaz muy fácil de usar. Generalmente considerado la mejor herramienta de edición para empezar. Puedes lanzar este [tutorial interactivo del editor iD] (http://ideditor.com/) para conocer cómo usarlo.
+[ID](http://learnosm.org/es/beginner/id-editor/) - el editor basado en web creado por [Mapbox](www.mapbox.com) con una interfaz muy fácil de usar. Generalmente considerado la mejor herramienta de edición para empezar. Puedes lanzar este [tutorial interactivo del editor iD](http://ideditor.com/) para conocer cómo usarlo.
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)
 
@@ -47,7 +48,7 @@ Para utilizar el Administrador de Tareas HOT necesita registrarse con OpenStreet
 >"Para practicarlo es recomendable que comience con un área local que conoce y pruebe algunas
 ediciones, como la actualización de un edificio local de su barrio." 
 
->"Algunas tareas son más fáciles que otras; si usted no se siente a uno de ellos, simplemente cancele y pruebe con otro!" -Peter (@meetar) 
+>"Algunas tareas son más fáciles que otras; si no se siente a uno de ellos, simplemente cancele y pruebe con otro!" -Peter (@meetar) 
 
 >"No es ningún problema si no terminas la tarea; acaba de subir lo que has hecho y desbloquea la tarea para que otros puedan trabajar en ella." -Peter (@meetar)  
 
@@ -65,7 +66,7 @@ Esta guía ha sido resumida y recolectada de una variedad de fuentes de tutoría
 
 [Guía de Mapeo Remoto de LearnOSM](http://learnosm.org/es/coordination/remote/)- una de las guías más completas  
 
-[Tutorial Aprende a Mapear MapGive](http://mapgive.state.gov/learn-to-map/)- incluye videos que usted puede pausar para seguir a lo largo
+[Tutorial Aprende a Mapear MapGive](http://mapgive.state.gov/learn-to-map/)- incluye videos que puede pausar para seguirlo
 
 [HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - escrito por Peter Richardson (@meetar) un experimentado Voluntario HOT de Respuesta Remota
 
