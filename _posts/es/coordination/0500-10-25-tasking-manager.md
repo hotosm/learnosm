@@ -1,251 +1,276 @@
 ---
 layout: doc
-title: Gestor de Tareas
+title: Administrador de tareas
 permalink: /es/coordination/tasking-manager/
 lang: es
 category: coordination
 ---
 
-# Gestor de Tareas
+#Administrador de tareas
 
-En esta sección vamos a ver el Gestor de Tareas (en inglés *Tasking Manager*), una herramienta intuitiva que los colaboradores pueden utilizar para ordenar un área mediante una cuadrícula, y poder trabajar de forma conjunta cartografiando el área de forma organizada.
+> Esta guía puede ser descargada como [tasking-manager_es.odt](/files/tasking-manager_es.odt) o [tasking-manager_es.pdf](/files/tasking-manager_es.pdf)  
+> Revisado 2015-08-26  
 
-El Gestor de Tareas de OSM permite a colaboradores de todo el mundo ayudar cartografiando una región con un mínimo riesgo de que se solapen las zonas de trabajo.
+Índice de secciones
+-------------
+-  [Descripción general de cómo HOT utiliza el Administrador de Tareas](/es/coordination/tasking-manager/#resumen-del-proceso)  
+-  [Idiomas, Opciones, enlaces de ayuda y otros enlaces. Su página de usuario - lista de los proyectos en los que ha ayudado y mensajes](/es/coordination/tasking-manager/#opciones-y-enlaces)  
+-  [Iniciar sesión](/es/coordination/tasking-manager/#familiarizndose-con-el-tasking-manager)  
+-  [Encontrar un proyecto](/es/coordination/tasking-manager/#localizando-un-proyecto)  
+-  [Description, Map grid, Instructions, Contributing, Activity, Statistics for a project](/es/coordination/tasking-manager/#descripcin)  
+-  [Selecting a square to map, timer, releasing](/es/coordination/tasking-manager/#seleccionar-un-cuadrado-a-mapear)  
+-  [JOSM, iD, Potlatch 2, Field Papers, Walking Papers](/es/coordination/tasking-manager/#opciones-de-edicin)  
+-  [Dividir un cuadrado](/es/coordination/tasking-manager/#dividir-un-cuadrado)  
+-  [Liberar un cuadrado antes de que se haya completado](/es/coordination/tasking-manager/#liberar-un-cuadrado-antes-de-que-se-haya-completado)  
+-  [Marking your square as complete](/es/coordination/tasking-manager/#terminando-un-cuadrado)  
+-  [Envío de un mensaje de la caja de comentarios](/es/coordination/tasking-manager/#envo-de-un-mensaje-de-la-caja-de-comentarios)  
+-  [Refiriéndose a un cuadrado en particular cuando se envía un correo electrónico](/es/coordination/tasking-manager/#refirindose-a-un-cuadrado-en-particular-cuando-se-enva-un-correo-electrnico)  
+-  [Cómo obtener ayuda en vivo - IRC, Internet Relay Chat](/es/coordination/tasking-manager/#cmo-obtener-ayuda-en-vivo)  
+-  [Consejos de edición y sugerencias](/es/coordination/tasking-manager/#consejos-de-edicin-y-sugerencias)
 
-Esto permite que la gente sobre el terreno y la gente trabajando remotamente (llamados a veces *cartógrafos de sillón*) colaboren de manera efectiva, rápida y evitando que sea necesario rehacer el trabajo debido a conflictos.
+
+El HOT Tasking Manager, <http://tasks.hotosm.org/>, es una herramienta intuitiva que los mapeadores pueden usar para asignar un área dentro de una cuadrícula para trabajar junto con otros mapeadores para mapear un área de manera organizada. Esto le permite a los mapeadores alrededor del mundo ayudar a mapear una región definida con un riesgo mínimo de que las áreas en las que se trabaja se sobrepongan y también permite a las personas tanto en campo como vía remota (también conocidos como mapeadores de escritorio) colaborar efectiva y rápidamente, evitando así posible re-trabajo accidental debido a conflictos.
 
 
-## Vista general del proceso
-1. Un Administrador elige un área  en OpenStreetMap que necesita ser actualizada. El administrador se asegura de que haya imágenes satélite de fondo sobre las que los colaboradores puedan calcar, y crea un proyecto que cubra ese área. Hay que especificar el nivel de detalle que se necesita, así como la urgencia y otras informaciones que necesitarán los colaboradores. Una vez completado, el Administrador publica el proyecto en el Gestor de Tareas, si bien es posible editar y hacer cambios con posterioridad, si fuera necesario.
+## Resumen del proceso
 
-2. Un colaborador remoto selecciona la tarea de un cuadrado, completa el trazado, y lo marca como completo.
+Un administrador selecciona un área que requiera de actualización en OpenStreetMap. El administrador asegura que están disponibles imágenes de satélite adecuadas para que mapeadores remotos creen trazas y crea un proyecto que abarca la zona de interés. El nivel de detalle exigido y la urgencia se especifica en el proyecto junto con cualquier otra información que el mapeador remoto requiera. Cuando esté satisfecho, el administrador publicará el proyecto en el Administrador de Tareas, aunque también pueden hacer cambios más adelante si fuera necesario.
 
-3. Un segundo colaborador remoto comprueba que el cuadrado está completo a un nivel satisfactorio y lo marca en consecuencia como validado.
+2. Un mapeador remoto selecciona la tarea dentro de un cuadrado, completa el mapeo en dicha área y marca el cuadrado como completo.
 
-4. El progreso del proyecto se puede monitorizar desde la pestaña "*stats*" del proyecto, y pudiendo bajarlo de nivel o archivarlo si así lo considerara el Administrador.
+2. Un segundo mapeador remoto verifica que el cuadrado esté completo hasta un nivel satisfactorio y marca el cuadrado como 'validado'.
+
+4. El progreso del mapeo del proyecto puede ser monitoreado desde la sección "stats" del proyecto y el proyecto puede ser degradado o archivado de acuerdo a lo que requiera el administrador.
+
 
 ## Opciones y enlaces
 
-El Gestor de Tareas inicialmente se muestra en inglés. Si quiere seleccionar otro idioma pulse en **en** en la franja roja de la cabecera.
+- El Task Manager se despliega inicialmente en Inglés - para cambiar a otro idioma de clic en **English** en el banner superior de color rojo. 
 
-![Gestor de Tareas Languages][]
+- Para información acerca del Tasking Manager, patrocinadores de HOT, socios y ayuda, de clic en **About** en la parte superior de la página.
 
-Para obtener información acerca del Gestor de Tareas, los patrocinadores de HOT, colaboradores y ayuda se ha de hacer clic en la sección **About** en la parte superior de la pantalla.
+- Una vez que haya iniciado sesión, puede hacer clic en su nombre de usuario en la parte superior. Aquí puede:  
 
-![Gestor de Tareas About][]
+- Acceder a la lista de proyectos para los cuales has completado cuadros.
+- Ir a la pantalla de **Mensajes** dentro del Tasking Manager (esto no es lo mismo que el sistema de mensajes de OpenStreetMap)
+-Cerrar sesión
+-Ver una lista de todos los usuarios que han contribuido a completar los cuadros dentro del Tasking Manager. Puede acceder a los enlaces para ver más información acerca del usuario que seleccionó, como en qué tareas ha completado cuadros y su historial de ediciones de OSM.
 
-Una vez conectado con su usuario, puede pulsar sobre el nombre de usuario que aparece en la parte superior. Desde ahí podrá:
+![Tasking Manager Username_list][]
 
-- Acceder a la lista de proyectos en los que ha completado tareas.
-- Ir a la pantalla de sus mensajes (**Messages**) dentro del Gestor de Tareas (no es la misma que la del sistema de mensajes de OSM)
-- Desconectar
-- Ver la lista de usuarios que han contribuido completando cuadrados en el Gestor de Tareas. Se pueden utilizar los enlaces para ver más información del usuario seleccionado, como cuáles y cuantas tareas de cuadrados tiene completadas.
+##Familiarizándose con el Tasking Manager
 
-![Gestor de Tareas Username_list][]
+Puede ver el proyecto como visitante pero si quiere participar debes iniciar sesión dentro del Tasking Manager - use su nombre de usuario y password de OpenStreetMap. Abra su navegador web y vaya a <http://tasks.hotosm.org>. Verá una página como esta:
 
-## Primeros pasos con el Gestor de Tareas
-Se puede echar un vistazo a los proyectos en calidad de visitante, pero para participar activamente hay que conectarse al Gestor de Tareas (utilice su nombre de usuario de OpenStreetMap), abriendo en el navegador la página [tasks.hotosm.org](http://tasks.hotosm.org). Podrá ver algo similar a esto:
+![Tasking Manager Login][]
 
-![Gestor de Tareas Login][]
+- Haga clic en "Iniciar sesión en OpenStreetMap"
+- Está de acuerdo en permitir a esta aplicación cierto acceso a su cuenta de OpenStreetMap. De clic en "Guardar Cambios."
 
-- Pulse “*login to OpenStreetMap*”
-- Está usted permitiendo al Gestor de Tareas tener cierto acceso a su cuenta de OpenStreetMap. Pulse “*Save Changes*”.
+![Authorizing access to OSM account by the Tasking Manager][]
 
-![Authorizing access to OSM account by the Gestor de Tareas][]
 
-## Encontrar un proyecto
-La lista de proyectos en curso se puede ordenar por:
+##Localizando un proyecto
 
-- Mayor prioridad
-- Fecha de creación
-- Ultima actualización
+La lista actual de proyectos puede ser ordenada por:
 
-Se puede refinar aun más la lista pulsando en la caja de **Your Projects**, para ver solo los proyectos en los que se está participando. También se puede utilizar una búsqueda por texto para localizar proyectos que contengan determinadas palabras, por ejemplo **Ebola** (esta búsqueda no distingue mayúsculas de minusculas).
+- Alta prioridad
+- Fecha de creación, o
+- Última actualización
 
-Es habitual referirse a los proyectos por su número, por ejemplo, [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711). De hecho también se puede utilizar el número en el campo de búsquedas.
+Puede refinar más su lista dando clic en **Sus Proyectos**, para ver sólo los proyectos en los que ha participado, ya sea que haya completado un cuadrado o no. Los validadores también encontrarán proyectos en los que han contribuido cuadros validados, mediante el uso de esta opción. Puede utilizar una búsqueda de texto para localizar proyectos que contienen determinadas cadenas de texto, como **Ébola** (la búsqueda no distingue entre mayúsculas y minúsculas).  
 
-- Pulse sobre el título en azul de alguno de los proyectos para ver más información acerca del mismo.
+Los proyectos son usualmente referidos por su número de proyecto, por ejemplo, [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711), y en este caso puede buscar #711 para encontrar este proyecto.
+
+
+- De clic en un título azul de proyecto para ver más información acerca de dicho proyecto.
 
 ![Job description][]
 
 ## Descripción
 
-Todo lo que se necesita conocer acerca del proyecto se encuantra aquí. A la izquierda hay una descripción del proyecto de cartografiado y qué es lo que se necesita trazar. A la derecha está la cuadrícula con el área de trabajo.
+¡Todo lo que necesitas saber sobre el proyecto está aquí! A la izquierda está una descripción del proyecto de mapeo y lo que se requiere. En el lado derecho hay una cuadrícula que muestra el área a ser mapeada;  
 
-- La línea malva en los cuadrados del perímetro de un proyecto indica el límite del proyecto. Esta línea suele seguir las imágenes de fondo, por lo que puede tener una forma poco convencional. A pesar de que es posible trazar fuera de ese perímetro, no es necesario y los validadores no tendrán en cuenta ese trabajo.
-- Las zonas rosas del mapa indican las zonas prioritarias a cartografiar.
-- Los cuadrados amarillos zonas que ya están completadas.
-- El borde amarillo indica que se está trabajando sobre ese cuadrado en ese momento.
-- Los cuadrados verdes que han sido completados y validados.
-- El resto de cuadrados están pendientes de completar o han sido previamente invalidados.
+- Línea malva normalmente visible en el perímetro del cuadrado de un proyecto indica la frontera del proyecto. Esta frontera sigue normalmente las imágenes disponibles, por lo que puede parecer una forma inusual. A pesar de eso el mapeo se puede completar fuera de esa frontera, no es un requisito y no será considerado por los validadores.  
+- Las zonas rosadas del mapa indican las zonas de mayor prioridad,  
+- Las cuadrículas de color amarillo se han completado,  
+- Un borde amarillo indica que se está trabajando ahora en el cuadrado,  
+- Los cuadrados verdes se han completado y "validado", y  
+- Los cuadrados restantes todavía tienen que ser completados, o han sido invalidados (los cuadrados invalidados son de un color más oscuro).  
 
-### Pestaña de Instrucciones (*Instructions Tab*)
+### Pestaña de instrucciones
+Esto muestra lo que se requiere en la tarea de mapeo. Las tareas varían en dificultad, apto para mapeadores principiantes, intermedios y avanzados - y las instrucciones explicarán esto. 
 
-Muestra qué se necesita trazar en esta tarea. El rango de dificultad de la tarea, apta para principiantes, intermedia o para colaboradores avanzados, y las instrucciones que lo explican.
+Asegúrese de leer y comprender esta sección. Hay muchos estilos de proyecto de mapeo, para muchos propósitos diferentes. Algunas de las actividades comunes del proyecto incluyen:
 
-Asegúrese de leer y entender este apartado. Hay distintos estilos de proyectos de mapas, para diferentes propósitos. Algunas actividades comunes en los proyectos son:
+- Redes de carreteras: Utilizado por las personas en el terreno para cargar datos en herramientas de navegación portátiles, y descubrir cómo acceder a zonas remotas
+- Mapeo de publos: A menudo se utiliza para identificar los lugares donde vive la gente y puede ser impactada
+- Mapeo de edificios: Se utiliza para la evaluación de daños o localización de los contactos con las enfermedades. También se utiliza para las estimaciones de población.
+- Mapeo de ríos, paredes y otras características
 
-- Redes de carreteras: Utilizadas por las gente que está sobre el terreno para tomar datos mediante dispositivos y herramientas de navegación portátiles, y que permiten saber cómo acceder a las zonas remotas.
-- Cartografiar poblaciones: Utilizadas a menudo para identificar las áreas donde vive la gente y que pueden ser afectadas.
-- Trazar edificios: Utilizado para evaluación de daños o el seguimiento de enfermedades por contacto.
-- Trazar ríos, valles y otros elementos.
+No todas las áreas del mundo son similares a la suya, por lo que puede recibir consejos de etiquetado específicos. Por ejemplo, la red de carreteras de África es muy diferente a los sistemas típicos de autopistas americanas o europeas.
 
-No todas las zonas del mundo son iguales a la nuestra, por lo que es necesario especificar la forma concreta que hay que utilizar para etiquetar los elementos del mapa en cada área. Por ejemplo, las redes de carreteras en África son muy diferentes de las redes de carreteras habituales en América o Europa.
+Habrá una sección que indica el **Comentario del conjunto de cambios** que debe asegurarse de que aparezca en su programa de edición al cargar/guardar los cambios, junto con la **fuente** de información que (dependiendo de su software de edición) debe copiar y pegar en el campo de origen al hacer cambios.
 
-Hay un apartado indicando el **Comentario del conjunto de cambios** (*Changeset comment* ), que habrá que copiar y pegar en el programa editor al guardar o subir los cambios, junto con la información de la **fuente** (*source*), información que, dependiendo del editor, puede ser necesario copiar y pegar también en el campo correspondiente del editor.
+A veces, puede haber imágenes específicas para la tarea disponibles - puede que tenga que aceptar una licencia para acceder a ellas.
+Las Instrucciones generalmente indicarán la forma más fácil de cargar esto en editores como JOSM.
 
-A veces hay disponibles imágenes específicas para una determinada tarea. Puede suceder que haya que aceptar algún acuerdo de licencia para poder acceder a ellas. Las instrucciones indican normalmente la manera más fácil de cargar estas imágenes en los editores, por ejemplo en JOSM.
+Al revisar un cuadrado marcado como completo, los validadores esperarán que los requisitos de la pestaña de instrucciones hayan sido completados. Puede que completar todo un cuadrado sea muy difícil - a continuación hay disponible una guía de como desbloquear un cuadrado; así como también proporcionar información útil para el próximo mapeador.
 
-Cuando se está comprobando un cuadrado marcado como completo, se supone que se comprueba que todos los requerimientos que se indican en la pestaña de instrucciones se han completado. Puede pasar que completar un cuadrado sea bastante difícil. Se proporciona una guía sobre cómo desbloquear cuadrados o sobre cómo proporcionar información útil al siguiente colaborador.
+### Pestaña de actividad  
+Esta muestra la actividad que ha tenido lugar dentro de la tarea en orden cronológico.  
 
-### Pestaña de Actividad (*Activity tab*)
-En esta pestaña se puede ver, en orden cronológico, la actividad que ha tenido lugar en esa tarea.
+### Pestaña de estadísticas  
+Contiene un gráfico del progreso y otra información. 
 
-### La pestaña de Status (*Stats tab*)
-Contiene un gráfico con el progreso y otras informaciones.
+La ficha de estadísticas también contiene una lista de mapeadores que han completado al menos un cuadrado dentro del proyecto - para ver qué cuadrados han completado, puede *pasar el cursor del ratón* sobre un nombre de usuario, y los cuadrados que han completado se convertirán en los único visibles (**usa esto para ubicar los cuadrados que ha completado previamente**).
 
-También tiene una lista de los colaboradores que han completado al menos un cuadrado dentro del proyecto. Para ver qué cuadrados han completado se puede pasar el cursor del ratón por encima del nombre del usuario y los cuadrados que haya completado serán los únicos visibles (**utilice esta técnica para localizar los cuadrados que ha completado usted mismo anteriormente**).
+Una vez que haya localizado el cuadrado al pasar el ratón sobre el nombre de usuario, puede hacer clic en un cuadrado para ver los comentarios que han dejado mapeadores y validadores del cuadrado, que es una forma útil de obtener retroalimentación de los validadores.  
 
-Una vez localizado el cuadrado pasando el ratón sobre el nombre de usuario, se puede pulsar en el cuadrado para ver los comentarios que han dejado para ese trabajo los colaboradores que han trazado y los validadores. Esta es una buena manera de obtener *feedback* de los validadores.
-
-### Pestaña de Contribuir (*Contribute tab*)
-Pulse cuando esté preparado para empezar a cartografiar. Se puede seleccionar el cuadrado para trazar, o seleccionando directamente un cuadrado en el mapa, o pulsando en el botón "Tarea aleatoria" (*Take a Task at random*).
+### Pestaña de contribución  
+Haga clic en cuando esté listo para comenzar a mapear. Usted puede elegir su cuadrado para trabajar seleccionándolo en el mapa, o haciendo clic en la opción "Tomar una tarea al azar". 
 
 ![Picking a task][]
 
-## Seleccionar un cuadrado para trazar
-![Assigned task square][]
-Una vez seleccionado un cuadrado se puede mirar si tiene alguna historia, ya que podría ser por ejemplo que algún colaborador ya hubiera comenzado con ese cuadrado, pero tal vez se dio cuenta de que no podía acabarlo.
+## Seleccionar un cuadrado a mapear  
+![Assigned task square][]  
+Después de haber seleccionado su cuadrado podrá ver si hay alguna historia en este cuadrado, como un mapeador que al empezar pudo darse cuenta que no tienen tiempo para completar el cuadrado.  
 
-Si selecciona un cuadrado accidentalmente, se puede liberar pulsando en el control azul para cerrar - **x** - que se muestra en la siguiente captura de pantalla.
+Si selecciona accidentalmente un cuadrado, lo puede liberar de nuevo haciendo clic en el control azul de cerrar - **x** - que se muestra en la imagen de arriba.
 
-Pulsando el botón *Start Mapping* se bloquea el cuadrado de forma que ningún otro colaborador pueda seleccionarlo hasta que el cuadrado sea liberado, iniciándose además un contador de tiempo de dos horas (120 minutos), al final del cual el cuadrado se liberará automáticamente.
+Al hacer clic en el botón **Comenzar mapeo** se bloquea el cuadrado para que ningún otro mapeador pueda seleccionarlo hasta que se libere de nuevo, y comienza un temporizador de cuenta atrás de 2 horas (120 minutos), al final del cual el cuadrado se libera automáticamente. 
+Es una buena práctica comprobar su temporizador de cuenta atrás de forma regular - es fácil llegar a ser absorbido por el mapeo y no darse cuenta de que su cuadrado ha sido liberado, y ha sido seleccionado por otro mapeador que ha comenzado a mapear también. Esto puede conducir a conflictos y problemas.
 
-Es una buena práctica comprobar regularmente el contador de tiempo, es fácil enfrascarse en el trabajo y no darse uno cuenta de que el cuadrado ha sido liberado y otro colaborador lo ha  seleccionado y ha comenzado a trazar en él. Esto puede ser una fuente de conflictos y problemas.
 
-### Alternativas para la edición
+### Opciones de edición
 
-Una vez bloqueado un cuadrado se nos mostrarán distintas opciones para editar:
+Diferentes opciones para la edición se presentan tan pronto como bloquea un cuadrado.
 
-![Editing options][]
+![Editing options][]  
 
-#### Editar con JOSM
-- Cuando se selecciona esta forma de editar, (y dando por hecho que se ha configurado JOSM para permitir el control remoto), se cargarán automáticamente los datos de OSM en JOSM (*asegúrese de que **no** tiene activado el complemento de 'descargar datos automáticamente', se puede desactivar desde el menú fichero*), y también se cargarán automáticamente las imágenes de fondo para poder trazar sobre ellas.
+#### Editar con JOSM  
+- Inicie JOSM antes de utilizar este enlace y cargará automáticamente los datos de OSM existentes en JOSM.  
+> 1. 'Activar control remoto' tiene que estar marcada - se encuentra en **Editar / Preferencias / Control remoto**
+  2. Si ha instalado el plug-in 'continuosDownload' lo mejor es desactivarlo (desmarque 'Descargar datos OSM continuamente' bajo el menú **Archivo** en JOSM. 
+  3. Si JOSM no carga las imágenes automáticamente, lo que normalmente se puede encontrar bajo el menú **Imágenes**. [Más información de las imágenes aquí](/es/josm/more-about-josm/#add-imagery)
 
-#### Editar con iD
-- Seleccionando el editor iD, automáticamente se abrirá una nueva pestaña o ventana en el navegador, con los datos existentes de OSM cargados. El navegador *Internet Explorer* no soporta aún el editor iD y carga automáticamente el editor Potlatch 2. La pestaña o ventana original con el *Task Manager* seguirá estando disponible en el navegador.
+#### Editor iD  
+- Seleccione esta opción para iniciar automáticamente una nueva pestaña o ventana del navegador web, con datos existentes de OSM cargados. El navegador web Internet Explorer no admite actualmente iD y cargará Potlatch 2 en su lugar. Su pestaña original o ventana con el Administrador de tareas todavía estará presente.  
 
-#### Editar con Potlatch 2
-- El editor se cargará en una nueva pestaña o ventana.
+#### Potlatch 2  
+- El editor se cargará en una nueva ventana o pestaña.  
+- Potlatch no mostrará automáticamente el cuadro de delimitación de tareas, pero puede hacerlo siguiendo este procedimiento:
+  1. En el Administrador de Tareas, seleccione una casilla y haga clic en Iniciar Mapeo para bloquearla
+  2. En el Administrador de Tareas, seleccione Editar con JOSM (si aparece una ventana diciendo "control remoto JOSM no respondió ..." simplemente haga clic en Aceptar).
+  3. Debajo del botón Editar con JOSM, el texto dirá "Sugerencia: Descargue el siguiente archivo .gpx ...". Descargue el archivo .gpx, y tenga en cuenta donde se guarda.
+  4. En el Administrador de Tareas, cambie Editar con JOSM a Editar con Potlatch 2. Potlatch debe abrirse en una nueva pestaña.
+  5. En Potlatch, seleccione Fondo, a continuación, Archivo vectorial...
+  6. En la ventana Cargar archivo vectorial, en la parte inferior junto a Archivo, haga clic en Abrir y vaya al archivo .gpx que acaba de descargar
+  7. En la ventana Cargar archivo vectorial, asegúrese de que la casilla de la columna Mostrar está marcada para el archivo .gpx, a continuación, cierre la ventana
+  8. Potlatch debe mostrar ahora el límite como un cuadrado (probablemente cían). Tenga en cuenta que Potlatch todavía carga datos fuera de los límites.
 
-#### *Walking Papers* / *Field Papers*
-- Esta opción está enfocada para utilizarse únicamente cuando se esté involucrado en un proyecto en el que un colaborador local va a realizar una toma de datos sobre el terreno anotando la información recogida en los mapas papel. Este mapa posteriormente puede escanearse y utilizarse como imagen de fondo por parte de un colaborador remoto para leer la información y actualizar los datos en OpenStreetMap.
+#### Walking Papers / Field Papers
+- Para su uso sólo cuando está involucrado en un proyecto donde un mapeador local, ha llevado a cabo un estudio de terreno y marcó en un mapa impreso información como nombres de calles. Este mapa puede ser escaneado de nuevo y utilizado como imagen de fondo para que un mapeador remoto o local lea la información y actualice los datos de OpenStreeetMap.  
 
-### Subdividiendo un cuadrado (*Splitting a square*)
-Una vez seleccionado un cuadrado y tras inspeccionarlo con las imágenes de fondo, puede suceder que requiera mucho trabajo de detalle para trazarlo. Un ejemplo podría ser trazar los edificios en áreas urbanas densas, o localizar pequeñas poblaciones en áreas muy extensas.
+### Dividir un cuadrado  
+Habiendo seleccionado su cuadrado e inspeccionado con las imágenes del lugar, puede darse cuenta de que hay demasiado detalle requerido para el mapeo. Un ejemplo de esto puede ser trazado de edificios en zonas urbanas densamente pobladas, o ubicar pequeños pueblos en grandes áreas.
 
-Como guía se puede considerar que si la tarea del cuadrado no se puede completar por una persona en las dos horas del contador de bloqueo, se puede subdividir el cuadrado en cuatro cuadrados más pequeños.
+Como orientación, donde no es posible para una persona para completar en el plazo 2 horas a menudo se puede dividir la tarea en 4 áreas más pequeñas.
 
-*Utilice con precaución* - Cuando los cuadrados son demasiado pequeños es difícil diferenciar los tipos de carreteras o caminos, así como identificar otros elementos del mapa.
+*Utilizar con precaución* - si / cuando los cuadrados se dividen demasiado, es difícil juzgar qué tipo de carretera está involucrada, y la identificación de otras características.
 
-Además, tenga en cuenta que los comentarios que hubiera sobre el cuadrado que subdividimos dejarán de estar disponibles.
+Tenga en cuenta que otros comentarios útiles sobre el trabajo previamente completado ya no estarán disponibles.
 
-### Liberar un cuadrado antes de haberlo completado
-Si comienza a trabajar en un cuadrado y, por algún motivo, no puede completar la tarea, es una buena costumbre dejar unos comentarios acerca de ese cuadrado.
+### Liberar un cuadrado antes de que se haya completado
+Si se empieza a trabajar en un cuadrado, pero no se puede completar por alguna razón, es una buena práctica dejar un comentario en el cuadrado.
 
-Solo hay que explicar lo que queda por hacer y elegir ***unlock***. Esté seguro de que los comentarios son importantes y su objetivo es ayudar al siguiente colaborador.
-
-Por ejemplo:
-
-    Casi completo, la pequeña población arriba
-    a la izquierda queda pendiente de trazar
-
-### Terminar un cuadrado
-Es difícil estar seguro de que se ha completado totalmente un cuadrado. Pero se puede marcar si se cree que está bastante completo, los contenidos se repasarán por otro colaborador durante la validación y cualquier pequeño añadido se podrá hacer en ese momento.
-
-Para que el trabajo se haga de una manera más efectiva, es mejor marcar los cuadrados como completos que dejarlos para que otros colaboradores, también inseguros, gasten también tiempo en repasarlos.
-
-Cuando haya terminado de editar y piense que el cuadrado está completo, guarde todos los cambios pendientes en el editor y vuelva al gestor de tareas.
-
-Añada comentarios en la caja detallando qué ha quedado acabado y, lo que es más importante, qué cosas no se han podido hacer. Por ejemplo: '*Completado hasta donde se puede ver, pero la esquina superior derecha está cubierta de nubes y no ha sido posible calcar ese área*'.
-
-Pulse sobre el botón "***Mark Task as Done***" y el trabajo quedará listo para ser revisado.
-
-### Enviar un mensaje desde la caja de comentarios
-Cuando se deja un comentario acerca de un cuadrado, se puede enviar el comentario como mensaje a un colaborador concreto.
-
-Se hace de manera similar a *Twitter*, simplemente escribiendo el símbolo @ (arroba) y a continuación el nombre del usuario. Esto hará que se envíe un mensaje al usuario conteniendo los comentarios de esa caja, más un enlace al cuadrado al que se refieren los comentarios.
+Simplemente detalle lo que queda y elija **desbloquear**. Asegúrese de que sus comentarios sean relevantes y apunten a ayudar al próximo mapeador.
 
 Por ejemplo:
 
-    @Tallguy gran trabajo aquí trazando los
-    detalles de los edificios. Se te pasó
-    un pequeño grupo de casas en la esquina
-    superior izquierda de la celda. He añadido
-    unas pocas, pero todavía faltan algunas
-    por trazar.
+    Casi completo, pequeño pueblo arriba a la izquierda 
+    del cuadrado para ser trazado
 
-Esto es muy útil cuando se está validando o añadiendo sobre un trabajo anterior, se puede proporcionar *feedback*, agradecimientos, etc.
+### Terminando un cuadrado
+Es muy difícil estar completamente seguro de que ha completado un cuadrado - sin embargo, es aceptable marcar el cuadrado como completa si está bastante seguro - los contenidos serán comprobados por otro mapeador al validar, y cualquier pequeño agregado se pueden hacer luego. 
 
-Tenga en cuenta que participa mucha gente de todo el mundo, por lo que es preferible utilizar un lenguaje claro y sencillo. Si se están mirando comentarios en otros idiomas, herramientas como el traductor de Google pueden ser razonablemente efectivas.
+Para que el proceso funcione con mayor eficacia, los mapeadores tienen que marcar cuadrados como completas en lugar de dejarlas para otros mapeadores "no seguros" que deben pasar el tiempo también verificando. 
 
-### Referirse a un cuadrado concreto al enviar un mensaje
-Si necesita enviar un mensaje, como puede ser un correo electrónico, y se quiere referir a un cuadrado concreto de un proyecto (a lo mejor para identificar algún detalle de la imagen satélite) puede proceder así:
+Cuando tenga la edición terminada y piense que el cuadrado está completo, guarde las ediciones restantes con su programa de edición, y luego vuelva al Administrador de tareas.
 
-1. Pulse en el cuadrado que se quiere mencionar
-2. Pulse en la barra de direcciones del navegador, que mostrará algo similar a 'http://tasks.hotosm.org/project/713#task/259'
-3. Seleccione todo el texto de la barra de direcciones con el ratón o con el atajo de teclado **Ctrl+A**, y a continuación cópielo al portapapeles (**Ctrl+C**).
-4. En el correo electrónico, mensaje IRC, u otro tipo de mensaje, pegue el texto copiado pulsando el botón derecho del ratón + *pegar* o mediante el atajo de teclado **Ctrl+V**, con lo que escribiremos el enlace al cuadrado concreto.
+Añada comentarios a la caja detallando lo que que logró y lo más importante, lo que tiene dudas. Por ejemplo; "Completé lo que pude ver, pero hay nube que cubre la esquina superior derecha del cuadrado y no puedo trazar esa área".
 
-### Obtener ayuda en directo
-![IRC_help][]
+Haga clic en el botón "Marcar tarea como lista", y su trabajo está listo para su revisión.
 
-Desde el Gestor de Tareas:
+### Envío de un mensaje de la caja de comentarios
+Al dejar un comentario sobre un cuadrado, puede hacer que el comentario sea enviado como un mensaje a un mapeador nombrado.
 
-1. Pulse el botón **OSM HOT IRC Channel #hot**
-2. Teclee un nombre de usuario (su nombre de usuario OSM?), o utilice los caracteres por defecto
-3. Seleccione al final de la lista desplegable **hot**
+Al igual que Twitter, simplemente utilice un @ seguido del nombre de usuario. Esto enviará un mensaje al usuario que contiene los comentarios de este cuadro, además de un enlace al cuadrado que se refiere el comentario. 
 
-![IRC using][]
+Por ejemplo:
 
-- A la derecha de la pantalla hay una lista con los usuarios que están conectados en ese momento
-- Teclee su mensaje en la caja que hay en la esquina inferior izquierda de la pantalla (la caja, a veces, aparece tapada por otros textos, que desaparecerán cuando la selecciona).
-- Para dirigir el mensaje a un usuario concreto, incluya en el mensaje el nombre de usuario que aparece en la lista de la derecha. Teclee y luego pulse la tecla *RETURN* para enviar el comentario. El sistema es en directo, así que espere la respuesta. Seguramente su nombre de usuario aparecerá en la respuesta para indicarle que el comentario va dirigido a usted. Normalmente se recibe la respuesta en unos segundos, así que, por favor, espere.
-- Una alternativa sencilla puede encontrarse en [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot).
-- Se puede encontrar información adicional acerca de cómo utilizar el *chat* IRC de OpenStreetMap en [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc).
-- Alternativamente se pueden utilizar otros clientes de IRC (Servidor=irc.oftc.net, y el canal=#hot).
+    @Tallguy buen trabajo trazando el edificio  
+    aquí. Se perdió un grupo pequeño  
+    de casas en la parte superior izquierda del cuadrado,  
+    He añadido unos cuantos, pero algunos todavía faltan.
 
-### Editar, trucos y consejos
+Esto es particularmente útil cuando se valida o agrega al trabajo previo de otro - puede proporcionar retroalimentación, agradecimientos o más.
 
-Hasta ahora usted ha adquirido un buen conocimiento acerca de qué es el Gestor de Tareas y algunas de las funciones que ofrece. En contra de la edición normal, esta opción se utiliza a veces para proyectos críticos en el tiempo y con un alto número de participantes. Esta opción es un poco diferente de lo que hemos visto hasta ahora.
+Es posible que desee proporcionar un enlace a un sitio que puede ayudar al mapeador, como <http://learnosm.org/es/coordination/remote-tracing/#buildings-walls-compounds-barriers>
 
-Algunas advertencias que conviene prestar atención cuando se trabaja con esta herramienta:
-
- * Evite trazar fuera de su cuadrado, otros colaboradores podrían estar trabajando en esos cuadrados, dando lugar a duplicación de esfuerzos. Es correcto trazar objetos que están sobre el borde, por ejemplo un edificio, pero no vaya más allá.
- * Extienda las carreteras, ríos u otros elementos lineales un poco más allá del borde, así el siguiente colaborador podrá extenderlos desde donde los deje usted.
- * Si tiene dudas acerca de un elemento concreto, use la sección de comentarios para preguntar o eche un vistazo al wiki.
- * Si comete un error importante, por ejemplo borrar un elemento de primer orden o una relación, utilice la caja de comentarios para pedir ayuda a otros colaboradores acerca de como revertir la situación. Procure incluir el conjunto de cambios ('changeset') o una descripción de qué ha ocurrido. Al tratarse de un trabajo colaborativo, hay muchos otros compañeros para ayudar. Es importante tener en cuenta que todo el mundo comete errores alguna vez.
- * No dude en pedir consejo, los compañeros que validan su trabajo pueden ser bruscos o directos, pero sabiéndolo, es correcto establecer un diálogo con ellos, el resultado será positivo para todas las partes.
- * No debe validar usted mismo su propio trabajo, otro par de ojos conduce siempre a una mejor calidad del mapa resultante.
- * No se preocupe si otros colaboradores son bruscos al validar su trabajo. Igual que usted, lo único que quieren es asegurarse de que todos los datos se trazan adecuadamente. El '*feedback*' se refiere siempre al trabajo pendiente, no es en absoluto una crítica al trabajo que ha realizado.
-
-Un paso más allá
-----------------
-
-Pulse el enlace correspondiente para lecturas adicionales acerca de:
-
-*  [Capítulo para principiantes en OSM y aprendiendo a trazar](/es/beginner/start-osm/)
-*  [Capítulo sobre la edición remota, cartografiado de salón o participación en un *mapatón*](/es/coordination/remote/)
+Tenga en cuenta que muchas personas de todo el mundo van a participar, por lo que prefieren un lenguaje sencillo y claro. Si se encuentra con comentarios en otros idiomas, herramientas como el traductor Google son razonablemente eficaces.
 
 
-[Gestor de Tareas Login]: /images/en/coordination/tasking_manager/tasking_manager_image01.png
-[Gestor de Tareas Username_list]: /images/en/coordination/tasking_manager/tasking_manager_image02.png
-[Authorizing access to OSM account by the Gestor de Tareas]: /images/en/coordination/tasking_manager/tasking_manager_image03.png
-[Job description]: /images/en/coordination/tasking_manager/tasking_manager_image04.png
-[Picking a task]: /images/en/coordination/tasking_manager/tasking_manager_image05.png
-[Assigned task square]: /images/en/coordination/tasking_manager/tasking_manager_image06.png
-[Editing options]: /images/en/coordination/tasking_manager/tasking_manager_image07.png
-[IRC_help]: /images/en/coordination/tasking_manager/tasking_manager_image08.png
-[IRC using]: /images/en/coordination/tasking_manager/tasking_manager_image09.png
-[Gestor de Tareas About]: /images/en/coordination/tasking_manager/tasking_manager_image011.png
-[Gestor de Tareas Languages]: /images/en/coordination/tasking_manager/tasking_manager_image012.png
+
+### Refiriéndose a un cuadrado en particular cuando se envía un correo electrónico  
+Si necesita enviar un mensaje, como un correo electrónico o un mensaje de IRC, y está consultando algo relativo a un cuadrado en particular dentro de un proyecto (tal vez necesita ayuda para identificar algo de las imágenes de satélite):  
+
+1. Haga clic en el cuadrado en cuestión  
+2. Haga clic en la barra de direcciones de su navegador web, que debería mostrar algo similar a 'http://tasks.hotosm.org/project/713#task/259'  
+3. Resalte con el ratón todo el texto en la barra de direcciones, o use la combinación de teclas **Ctrl+A** para seleccionar todo el texto, a continuación, utilizar las teclas de acceso directo **Ctrl+C** para copiar el texto  
+4. En su correo electrónico, mensaje de IRC, u otro mensaje,  
+o bien, haga clic derecho del ratón y pegar,  
+o la combinación de teclas **Ctrl+V**, para pegar el enlace en el mensaje. 
+
+### Cómo obtener ayuda en vivo 
+![IRC_help][] 
+
+Desde el administrador de tareas;  
+1. Haga clic en **OSM HOT IRC Channel #hot**  
+2. Introduzca un nombre de usuario (¿Su nombre de usuario de OSM?), o utilice los personajes predefinidos  
+3. En la parte inferior de la lista desplegable, seleccione **hot**  
+
+![IRC using][]  
+
+- A la derecha de la pantalla se muestra una lista de usuarios que están en línea ahora.  
+- Escriba su mensaje en el cuadro en la parte inferior izquierda de la pantalla (esto a veces se oscurece temporalmente por otro texto, pero va a desaparecer mientras selecciona la caja.  
+- Para dirigir un mensaje a un individuo en particular, incluya su nombre de usuario de la lista a la derecha dentro de su mensaje. Escriba y utilice la tecla Intro para enviar su comentario. El sistema es "en vivo" por lo que esperó la respuesta - su nombre de usuario a menudo se utiliza en la respuesta para mostrar que se dirige a usted. Normalmente recibirá una respuesta dentro de unos pocos segundos, así que por favor espere.  
+- Un sistema simple alternativo se puede encontrar en [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
+- Más información sobre el uso de IRC con OpenStreetMap se puede encontrar en [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
+- Alternativamente, puede utilizar un cliente de IRC de su elección (Servidor=irc.oftc.net, y canal=#hot)  
+
+
+### Consejos de edición y sugerencias
+Ahora tiene una buena comprensión de lo que es el Administrador de tareas, y algunas de las diversas funciones que soporta. A diferencia de la edición normal, esta herramienta se utiliza a menudo para proyectos de tiempo crítico con muchos participantes - esto puede ser un poco diferente a lo que estamos acostumbrados. 
+
+Algunos consejos generales para prestar atención al trabajar con esta herramienta:
+
+ * Evite el mapeo lejano fuera de su cuadrado - otros mapeadores pueden estar trabajando en esa área, lo que resulta en duplicación de esfuerzos. Está bien para mapear objetos como edificios superpuestos un límite, pero no ir más lejos - subir los cambios inmediatamente después de mapear algo en la frontera.
+ * Extender caminos, arroyos, u otras características ligeramente en los límites - esto permite que el próximo mapeador continuar donde lo dejó, pero suba los cambios tan pronto como haya terminado de editarlo.
+ * Si tiene alguna duda acerca de lo que es un elemento particular, utilice la sección de comentarios para hacer preguntas o consulte la wiki.
+ * Si comete un error grave - por ejemplo, borrar un elemento importante o una relación - use el IRC o la caja de comentarios de pedir a otros mapeadores ayuda para revertir esto. Trate de incluir el conjunto de cambios, o una descripción de lo que ocurrió. Al ser una tarea de colaboración, muchos otros creadores de mapas están para ayudarle - es importante recordar que todos cometemos errores a veces.
+ * No dude en pedir opinión - los mapeadores validando su trabajo pueden ser cortantes o ir directamente al punto, pero si saben que pueden dialogar, el resultado es a menudo mucho mejor para todos los involucrados. Puede ser difícil comunicarse en otro idioma, y es fácil parecer brusco cuando se tiene que traducir, así como pasar un mensaje en un idioma que no se es fluido.
+ * No debe validar su propio trabajo - un segundo par de ojos siempre conducirá a un mapeo de mejor calidad.
+ * No se preocupe si otros mapeadores son escueto al validar su trabajo - como usted, lo que quieren es asegurarse de que todos los datos están mapeados con precisión. La retroalimentación es siempre sobre el trabajo que falta, no la crítica de sus esfuerzos hasta ahora.
+
+[Tasking Manager Login]: /images/coordination/tasking_manager_image01.png
+[Tasking Manager Username_list]: /images/coordination/tasking_manager_image02.png
+[Authorizing access to OSM account by the Tasking Manager]: /images/coordination/tasking_manager_image03.png
+[Job description]: /images/coordination/tasking_manager_image04.png
+[Picking a task]: /images/coordination/tasking_manager_image05.png
+[Assigned task square]: /images/coordination/tasking_manager_image06.png
+[Editing options]: /images/coordination/tasking_manager_image07.png
+[IRC_help]: /images/coordination/tasking_manager_image08.png
+[IRC using]: /images/coordination/tasking_manager_image09.png
+[Tasking Manager About]: /images/coordination/tasking_manager_image011.png
+[Tasking Manager Languages]: /images/coordination/tasking_manager_image012.png
