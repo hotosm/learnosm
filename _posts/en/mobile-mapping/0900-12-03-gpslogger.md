@@ -228,9 +228,9 @@ Connect your Android device to a computer (also possible using a data cable, Blu
 
 Using the GPX tracks with the JOSM and iD editors are easy as dragging the files and dropping them into the application (or the browser tab, for iD). 
 
-For additional details for  iD users, see the section [Configuring the Background Layer](http://learnosm.org/en/editing/id-editor/#configuring-the-background-layer).
+For additional details for  iD users, see the section [Configuring the Background Layer](http://learnosm.org/en/beginner/id-editor/#configuring-the-background-layer).
 
-If the JOSM editor is used, you can find instructions on how to use the GPX track, along with the multimedia files in JOSM see the section [Open in JOSM](http://learnosm.org/en/beginner/using-gps/#open-in-josm).
+If the JOSM editor is used, you can find instructions on how to use the GPX track, along with the multimedia files in JOSM see the section [Open in JOSM](http://learnosm.org/en/mobile-mapping/using-gps/#open-in-josm).
 
 For other OpenStreetMap editors, please refer to your software’s documentation.
 

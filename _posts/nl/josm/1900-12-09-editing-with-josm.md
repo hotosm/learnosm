@@ -81,7 +81,7 @@ GPS-gegevens en Veldformulieren gebruiken
 In de hoofdstukken [Mapping with a Smartphone, GPS or Paper](/nl/mobile-mapping/) zagen we hoe gegevens te verzamelen met een GPS
 en Veldformulieren, en hoe die in JOSM te laden als een laag.
 
-Als u eenmaal veldonderzoek hebt gedaan metéén van deze gereedschappen, dient u nog steeds
+Als u eenmaal veldonderzoek hebt gedaan met één van deze gereedschappen, dient u nog steeds
 digitaal de informatie toe te voegen aan OpenStreetMap.
 
 U doet dit met hetzelfde proces als dat wat u eerder leerde - **downloaden,
@@ -103,7 +103,7 @@ notities, of een combinatie daarvan gebruiken.
 Tags
 ----
 Wanneer u een punt, lijn, of vorm tekent, heeft het een locatie, maar geen
-informatie over wat het is. Met andere woorden, we weten **waar* het
+informatie over wat het is. Met andere woorden, we weten **waar** het
 is, maar niet **wat** het is. Hiervoor gebruikten we items
 uit het menu Voorkeuzen om te definiëren **wat** het is. De manier
 waarop OpenStreetMap weet **wat** een object is is door **tags** te gebruiken.
