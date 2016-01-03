@@ -14,7 +14,7 @@ This guide is currently not available. It is being translated. Please refer to i
 [Deutsch](/de/beginner/moving-forward/),  
 [Español](/es/beginner/moving-forward/),  
 
-<-- [Bahasa Indonesia](/bi/beginner/moving-forward/),  
+<!-- [Bahasa Indonesia](/bi/beginner/moving-forward/),  
 [Hrvatski](/hr/beginner/moving-forward/),  
 [Italiano](/it/beginner/moving-forward/),  
 [日本語](/ja/beginner/moving-forward/),  

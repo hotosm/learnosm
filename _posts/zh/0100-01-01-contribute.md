@@ -3,26 +3,14 @@ layout: contribute
 permalink: /zh/contribute/
 lang: zh
 title: Contribute
-contributetitle: "帮助我们改善指南目录"
-startwith: "Ready to get started?"
-startA: "Send us feedback"
-startB: "Create a translation"
-startC: "Improve Language"
-startD: "Report issues and contribute"
+contributetitle: "帮助改进我们的指南"
+startwith: "准备好开始了吗？"
+startA: "发送反馈"
+startB: "创建翻译"
+startC: "改进语言"
+startD: "报告问题 参与贡献"
 nosearch: true
 ---
-This guide is created and maintained by the [OpenStreetMap](http://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](http://hotosm.org/) community. You can help us improve this guide by simply sending your feedback or by contributing directly to it via [Github](http://github.com/hotosm/learnosm).
+本指南由[OpenStreetMap](http://www.openstreetmap.org/)和[人道主义OpenStreetMap](http://hotosm.org/) 团队创建并维护。你可以通过发送反馈意见或直接通过[Github](http://github.com/hotosm/learnosm)协助我们改进本指南。
 
-<!--- This text is hidden. The words to translate are all of the ones in the speechmarks e.g..
-"Help improve our guides"
-"Ready to get started?"
-"Send us feedback"
-"Create a translation"
-"Improve Language"
-"Report issues and contribute"
-Replace the text in the header please.
-
-Also please translate
-This guide is created and maintained by the [OpenStreetMap](http://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](http://hotosm.org/) community. You can help us improve this guide by simply sending your feedback or by contributing directly to it via [Github](http://github.com/hotosm/learnosm).
-
-Thank you, end of hidden text --->
+<!--- This text is hidden.  end of hidden text --->
