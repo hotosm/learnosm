@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 permalink: /fa/josm/start-josm/
 lang: fa
 title: Start JOSM
