@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<html dir="rtl">
+<div id='ads' class='marginL cell9 padAll'>
+  <div class='ad1 cell8 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
+    <a href='{{site.baseurl}}/{{page.lang}}/beginner'>
+      <span class='ad-title'>{{ page.begspan }}</span>
+      <span class='ad-txt'>{{ page.beg }}</span>
+      <span class='door'></span>
+    </a>
+  </div>
+  <div class='ad2 cell4 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
+    <a href='{{page.interspanlink}}'>
+      <span class='ad-title'>{{page.interspan}}</span>
+      <span class='ad-txt'>{{ page.inter }}</span>
+    </a>
+  </div>
+  <div class='ad3 cell4 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
+    <a href='{{page.advspanlink}}'>
+      <span class='ad-title'>{{page.advspan}}</span>
+      <span class='ad-txt'>{{page.adv}}</span>
+    </a>
+  </div>
+</div>
+<div class='marginL cell9 padAll'>
+  <form class='searchbox rounded'>
+    <span class='logo logo-search'></span>
+    <input id='search-field' type='text' name='search' class='default-value cell10'></input>
+  </form>
+</div>
+<div id='front' class='marginL cell9 padAll'>
+  <div class='front-text cell6 marginR'>
+    <h4 class='tagtitle'>{{ page.fronttitle }}</h4>
+    <p class='tagwords'>{{ page.frontintro }}</p>
+  </div>
+  <div class='faqbox cell4'>
+    <h4>{{page.faq}}</h4>
+    <ul class='faq'>
+      <li><a href='{{site.baseurl}}/{{page.lang}}/beginner/introduction/'>{{page.faqA}}</a></li>
+      <li><a href='{{site.baseurl}}/{{page.lang}}/beginner/start-osm/#beginning-osm-create-an-openstreetmap-account'>{{page.faqC}}</a></li>
+      <li><a href='{{site.baseurl}}/{{page.lang}}/beginner/moving-forward/'>{{page.faqD}}</a></li>
+      <li><a href='{{site.baseurl}}/{{page.lang}}/contribute/'>{{page.faqB}}</a></li>
+  </div>
+</div>
+<script>
+// detect if ad is overflowing
+var spanTitle = $('span.ad-title','#ads');
+  $.each(spanTitle, function(i,el){
+  var titleParent = el.parentElement,
+      titleSister = el.nextElementSibling;
+  var titleHeight = el.offsetHeight,
+      txtHeight = titleSister.offsetHeight,
+      adHeight = titleParent.offsetHeight;
+  if (titleHeight + txtHeight > adHeight) {
+    titleSister.style.display = 'none'
+  } 
+});
+// format the search bar on the front
+var input = $(".searchbox input[type=text]"),
+  inputTitle = "{{page.searchtext}}"; //needs tranlation
+  input.val(inputTitle);
+
+input.blur(function() {
+if (input.val() === "") {
+    input.val(inputTitle); // restore default text
+    input.addClass("default-value");
+}
+}).focus(function() {
+  if (input.val() === inputTitle) {
+      input.val("");
+      input.removeClass("default-value");
+  }
+});
+</script>

@@ -28,6 +28,14 @@ translations:
     feedbackspan: "¿Este capítulo te resultó útil?"
     feedback: "¡Contacta con nosotros y ayúdanos a mejorar estas guías!"
     getstarted: "Comencemos"
+  fa:
+    tagline: "آموزش گام به گام OpenStreetMap"
+    contribute: "به بهبود راهنماهای ما کمک کنید"
+    trainingspan: "آیا مسئول برگزاری کارگاه آموزشی هستید؟"
+    training: "موارد آموزشی این راهنما را به زبان (انگلیسی) ببینید."
+    feedbackspan: "آیا این بخش مفید بود؟"
+    feedback: "با ما درمیان بگذارید و راهنماها را بهبود ببخشید!"
+    getstarted: "شروع به کار"
   fr:
     tagline: "Apprendre OpenStreetMap pas à pas"
     contribute: "Contribuer à ces guides"
