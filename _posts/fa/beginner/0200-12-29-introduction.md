@@ -9,8 +9,8 @@ category: beginner
 مقدمه
 ============
 
->این راهنما را می‌توان به صورت [beginner_introduction_fa.odt](/files/beginner_introduction_fa.odt) یا [beginner_introduction_fa.pdf](/files/beginner_introduction_fa.pdf) دانلود کرد  
-تاریخ بازبینی >۱۳۹۴/۰۴/۳۱  
+>این راهنما را می‌توان به صورت [beginner_introduction_fa.odt](/files/beginner_introduction_fa.odt) و یا [beginner_introduction_fa.pdf](/files/beginner_introduction_fa.pdf) دانلود کرد.  
+> تاریخ بازبینی ۱۳۹۴/۰۴/۳۱  
 
 داشتن اطلاعات یعنی قدرت بیشتر. هر فرد یا جامعه‌ای با داشتن اطلاعات مناسب و 
 آگاهی بیشتر، بهتر می‌تواند 
