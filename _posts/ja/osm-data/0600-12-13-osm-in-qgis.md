@@ -13,6 +13,7 @@ A slightly more recent version of this guide is available in;
 [English](/en/osm-data/osm-in-qgis/)  
 [Español](/es/osm-data/osm-in-qgis/)  
 [Netherlands](/nl/osm-data/osm-in-qgis/)  
+[فارسی](/fa/osm-data/osm-in-qgis/)  
 or [Deutsch](/de/osm-data/osm-in-qgis/) 
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
