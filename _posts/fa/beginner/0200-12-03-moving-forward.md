@@ -60,7 +60,7 @@ OpenStreetMap یک پروژه همکاری مشترک است و ما امیدو�
 
 برای ثبت‌نام در لیست پستی کشور خود، مرورگر اینترنت خود را 
     باز کنید و به آدرس 
-    [lists.openstreetmap.org](http://lists.openstreetmap.org/).
+[lists.openstreetmap.org](http://lists.openstreetmap.org/).
 
 ![Mailing list][]
 
@@ -78,12 +78,12 @@ OpenStreetMap یک پروژه همکاری مشترک است و ما امیدو�
 
 پس از اتمام کار، روی Subscribe کلیک کنید.
 حالا بایستی پست الکترونیک خود را باز کنید، و همانند آنچه که در ثبت‌نام 
-    OpenStreetMap دیدید یک نامه تأیید از لیست پستی در
+OpenStreetMap دیدید یک نامه تأیید از لیست پستی در
     صندوق ورودی‌تان وجود دارد.
 بر روی لینک تأیید کلیک کنید.
 حالا یک از اعضاء لیست پستی هستید.
 اکنون اگر می‌خواهید پیامی به لیست بفرستید، می‌توانید آنرا به 
-    [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org),
+[talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org),
     که در آن "id" را با نام کشور خود در لیست جایگزین کنید. همچنین پیامهای 
     سایر اعضاء که به لیست ارسال می‌کنند را می‌توانید ببینید.
 
