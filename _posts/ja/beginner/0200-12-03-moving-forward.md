@@ -10,7 +10,7 @@ category: beginner
 ========
 
 > This guide may be downloaded as [beginner_moving-forward_ja.odt](/files/beginner_moving-forward_ja.odt) or [beginner_moving-forward_ja.pdf](/files/beginner_moving-forward_ja.pdf)  
-> A more recent version of this guide is available in [English](/en/beginner/moving-forward) or [German](/de/beginner/moving-forward). To help produce translations for this site please go to <https://www.transifex.com/> and search for **HOT-OSM**.  
+> A more recent version of this guide is available in [English](/en/beginner/moving-forward), [Español](/es/beginner/moving-forward), [فارسی](/fa/beginner/moving-forward), [Italiano](/it/beginner/moving-forward), [简体中文](/zh/beginner/moving-forward) or [German](/de/beginner/moving-forward). To help produce translations for this site please go to <https://www.transifex.com/> and search for **HOT-OSM**.  
 
 長い道のり、おつかれさまでした！
 
@@ -72,6 +72,6 @@ OpenStreetMapのコミュニティとつながり、より多くの知識を得�
 
 ようこそ、楽しい地図作りの世界へ！ Happy Mapping！
 
-[MapOSMatic]: /images/jp/beginner/08_moving-forward/jp_beg_08_moving-forward_image00_maposmatic-homepage.png
-[Wiki]: /images/jp/beginner/08_moving-forward/jp_beg_08_moving-forward_image01_osm-wiki.png
-[Mailing list]: /images/jp/beginner/08_moving-forward/jp_beg_08_moving-forward_image02_osm-mailing-lists.png
+[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[Wiki]: /images/beginner/osm-wiki.png
+[Mailing list]: /images/beginner/osm-mailing-lists.png
