@@ -87,7 +87,7 @@ JOSM Ebenen
 
 Editieren
 ----
-- Der nächste Schritt besteht im Editieren der Karte und Hinzufügen neuer Objekte. Das ist am Anfang nicht gan einfach, aber mit der Zeit und mit Übung wirst du darin besser und besser werden.
+- Der nächste Schritt besteht im Editieren der Karte und Hinzufügen neuer Objekte. Das ist am Anfang nicht ganz einfach, aber mit der Zeit und mit Übung wirst du darin besser und besser werden.
 - Wenn du einen Punkt, eine Linie oder einen Grundriss bewegen möchtest, benutze das **Auswahlwerkzeug**. Klicke auf ein Objekt und ziehe es dorthin wo es sein sollte. Dies kann verwendet werden um die Position von Objekten zu korrigieren, welche an die falsche Stelle gesetzt wurden.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m2eb4096c_en.png)
@@ -101,9 +101,9 @@ Editieren
 Attribute
 ----
 
-- Wenn du einen Punkt zeichnest, oder eine Linie oder Grundriss, so ist lediglich bekannt **wo** sich das Objekt befindet, jedoch nicht **was** es ist. Bislang haben wir Objekte aus dem Vorlagenmenü verwendet um zu definieren **was** das Objekt ist. OpenSTreetMap verwendet **Attribute** um zu definieren **was** ein Objekt ist.
-- Ein Attribut ist wie ein Beschriftungsschild die du irgendwo anbringen kannst. Zum Beispiel, wenn du ein Quadrat zeichnest ist es nur ein Quadrat. Aber wenn du mehrere Attribute hinzufügst entsteht folgender Eintrag: Dieses Quadrat ist ein Gebäude, der Name dieses Gebäudes ist „Menara Thamrin“ und das Gebaüde hat 16 Stockwerke.
-- Du kannst soviele Attribute wie du möchtest zu einem Objekt hinzufügen. tags werden als Textpaare gespeichert, genannt **Schlüssel** und **Werte**. In OpenStreetMap würden die Attribute aus dem vorherigen Beispiel so aussehen:  `building = yes, name = Menara Thamrin, building:levels = 16`
+- Wenn du einen Punkt zeichnest, oder eine Linie oder Grundriss, so ist lediglich bekannt **wo** sich das Objekt befindet, jedoch nicht **was** es ist. Bislang haben wir Objekte aus dem Vorlagenmenü verwendet um zu definieren **was** das Objekt ist. OpenStreetMap verwendet **Attribute** um zu definieren **was** ein Objekt ist.
+- Ein Attribut ist wie ein Beschriftungsschild das du irgendwo anbringen kannst. Zum Beispiel, wenn du ein Quadrat zeichnest ist es nur ein Quadrat. Aber wenn du mehrere Attribute hinzufügst entsteht folgender Eintrag: Dieses Quadrat ist ein Gebäude, der Name dieses Gebäudes ist „Menara Thamrin“ und das Gebaüde hat 16 Stockwerke.
+- Du kannst soviele Attribute wie du möchtest zu einem Objekt hinzufügen. Attribute werden als Textpaare gespeichert, genannt **Schlüssel** und **Werte**. In OpenStreetMap würden die Attribute aus dem vorherigen Beispiel so aussehen:  `building = yes, name = Menara Thamrin, building:levels = 16`
 - Wenn du ein Objekt in JOSM auswählst, kannst du alle Attribute die zu diesem Objekt gehören in dem Eigenschaftsmenü auf der rechten Seite sehen.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m945ccee_en.png)
@@ -119,8 +119,8 @@ Attribute
 
 ### Häufiger Fehler: Attribute von Punkten bearbeiten anstatt von Linien oder Grundrissen
 
-- Wenn du Attribute zu einem Punkt hinzufügst, wählst du den Punkt aus und fügst dann die Attribute hinzu (oder benutzst das Vorlagenmenü). Wenn du Attribute zu einer Linie oder einem Grundriss hinzufügen möchtest, musst du darauf achten, die Linie auszuwählen nicht einen der Punkte, welche die Linie beschrieben.
-- Ein häufiger Fehler ist, das JOSM Auswahlwerkzeug zu verwenden um einen Rahmen um ein Objekt zu ziehen. Dadurch werden allerdings alles ausgewählt, die Linie **und** die Punkte und die Attribute werden auch zu den Punkten hinzugefügt. Stelle sicher, dass du **nur** Linien auswählst, wenn du Attribute zu ihnen hinzufügen möchtest.
+- Wenn du Attribute zu einem Punkt hinzufügst, wählst du den Punkt aus und fügst dann die Attribute hinzu (oder du benutzt das Vorlagenmenü). Wenn du Attribute zu einer Linie oder einem Grundriss hinzufügen möchtest, musst du darauf achten, die Linie auszuwählen. Nicht einen der Punkte, welche die Linie beschreiben.
+- Ein häufiger Fehler ist, das JOSM Auswahlwerkzeug zu verwenden um einen Rahmen um ein Objekt zu ziehen. Dadurch wird allerdings alles ausgewählt. Die Linie **und** die Punkte. Weiters werden auch die Attribute zu den Punkten hinzugefügt. Stelle sicher, dass du **nur** Linien auswählst, wenn du Attribute zu ihnen hinzufügen möchtest.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_2746cce8_en.png)
 
@@ -129,8 +129,8 @@ Attribute
 Änderungen hochladen
 --------------
 
-- Nachdem du einige Änderungen gemacht hast, um die Karte zu verbessern, lass uns nun diese Änderungen bei OpenStreetMap speichern. Um die Änderungen speichern können müssen wir mit dem Internet verbunden sein, da wir die Änderungen zu OpenStreetMap hochladen.
-- Klicke auf „Datei“ im oberen Menü und dann auf „Daten hochladen“, dadurch öffnet sich das Upload-Fenster. Dieses Fenster lässt sich auch durch einen Klick auf den Upload-Button öffnen, so wie in diesem Screenshot:
+- Nachdem du einige Änderungen gemacht hast, um die Karte zu verbessern, lass uns nun diese Änderungen bei OpenStreetMap speichern. Um die Änderungen speichern zu können müssen wir mit dem Internet verbunden sein, da wir die Änderungen zu OpenStreetMap hochladen.
+- Klicke auf „Datei“ im oberen Menü und dann auf „Daten hochladen“. Dadurch öffnet sich das Upload-Fenster. Dieses Fenster lässt sich auch durch einen Klick auf den Upload-Button öffnen, so wie in diesem Screenshot:
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_2e194887_en.png)
 
@@ -140,11 +140,11 @@ Attribute
 
 - Klicke auf „Änderungen hochladen“
 - Wenn du zum ersten Mal Änderungen bei OpenStreetmap speicherst, wirst du nach dem Benutzernamen und Kennwort gefragt, welche du in Kapitel angegeben hast.
-- Gib sie in dem Fenster ein, welches erscheint. Wenn du den Haken in dem Kästchen setzt, werden Benutzername und Kennwort gespeichert, sodass du sie in Zukunft nicht mehr eingeben musst. Klcike auf „Authentifizieren“.
+- Gib sie in dem Fenster ein, welches erscheint. Wenn du den Haken in dem Kästchen setzt, werden Benutzername und Kennwort gespeichert, sodass du sie in Zukunft nicht mehr eingeben musst. Klicke auf „Authentifizieren“.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
 
-- Nun musst du ein paar Sekunden warten währrend deine Änderungen hochgeladen werden und dann bist du fertig! Du hast deine ersten Änderungen bei OpenStreetMap gemacht. Du kannst weiter editieren und alle deine Punkte hinzufügen wenn du möchtest. Stelle nur sicher, dass du immer deine Änderungen hochlädst, bevor du OSM schliesst.
+- Nun musst du ein paar Sekunden warten während deine Änderungen hochgeladen werden. Dann hast du es geschafft! Du hast deine ersten Änderungen bei OpenStreetMap gemacht. Du kannst weiter editieren und alle deine Punkte hinzufügen, wenn du möchtest. Stelle nur sicher, dass du immer deine Änderungen hochlädst, bevor du OSM schliesst.
 
 Beobachte deine Änderungen auf der Karte
 ---------------------------
@@ -152,13 +152,13 @@ Beobachte deine Änderungen auf der Karte
 - Öffne deinen Internetbrowser und gehe zu [http://openstreetmap.org/](http://openstreetmap.org/)
 - Bewege die Karte zu dem Bereich den du editiert hast.
 - Du solltest deine Änderungen nun auf der Karte sehen! Falls nicht, versuche CTRL+R zu drücken um die Webseite neu zu laden. Manchmal aktualisiert sich die Karte nicht richtig und muss neu geladen werden.
-- Was ist, wenn du deine Änderungen nicht siehst? Keine Sorge - es kann einige Minuten dauern, bis die Änderungen auf der Karte angezeigt werden. Außerdem kannst du noch mal in JOSM nachprüfen, dass du deine Änderungen richtig hinzugefügt hast. Eine gute Daumenregel ist: Wenn dein Punkt ein Icon in JOSM hat, dann sollte es auf der Karte auf der OpenStreetMap Webseite zu sehen sein.
+- Was ist, wenn du deine Änderungen nicht siehst? Keine Sorge. Es kann einige Minuten dauern, bis die Änderungen auf der Karte angezeigt werden. Außerdem kannst du noch mal in JOSM nachprüfen, ob du deine Änderungen richtig hinzugefügt hast. Eine gute Daumenregel ist: Wenn dein Punkt ein Icon in JOSM hat, dann sollte es auf der Karte auf der OpenStreetMap Webseite zu sehen sein.
 
 OSM-Dateien speichern
 ----------------
 
 - Manchmal, nachdem du OSM-Daten heruntergeladen hast, kann es sein, dass du die Daten speichern möchtest. So kannst du offline daran arbeiten und später hochladen, wenn du wieder über eine Internetverbindung verfügst.
-- Um eine OSM-Datei zu speichern, stelle sicher, dass sie als aktive Ebene im Ebenenmenü ausgewählt ist. Klicke auf „Datei“ im oberen Menü und dann auf „Speichern“. Wähle einen Ort zum speichern und gib der Datei einen Namen. Du kannst auch speichern, indem du auf diesen Button drückst: ![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png)
+- Um eine OSM-Datei zu speichern, stelle sicher, dass sie als aktive Ebene im Ebenenmenü ausgewählt ist. Klicke auf „Datei“ im oberen Menü und dann auf „Speichern“. Wähle einen Ort um zu speichern und gib der Datei einen Namen. Du kannst auch speichern, indem du auf diesen Button drückst: ![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png)
 - Nun kannst du JOSM schliessen und deine Daten werden gespeichert. Wenn du die Datei wieder öffnen möchtest, starte einfach JOSM, wähle „Datei“ und dann „Öffnen“.
 
 Zusammenfassung
