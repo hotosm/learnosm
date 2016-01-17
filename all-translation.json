@@ -14,7 +14,19 @@
    		"url":""}
    	]
 },{
-	"lang":"en",
+	"lang":"cs",
+	"chapters":[
+	  {% for post in site.posts %}
+	  {% if {{post.lang}} == 'cs' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},{	"lang":"en",
 	"chapters":[
 	  {% for post in site.posts %}
 	  {% if {{post.lang}} == 'en' %}
