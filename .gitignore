@@ -1,4 +1,3 @@
-.gitignore
 *.swp
 .*.swp
 *.*~
@@ -8,3 +7,4 @@ _site/
 .DS_Store
 serve/
 jekyll_*log.txt
+_config.yml
