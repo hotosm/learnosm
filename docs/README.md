@@ -1,4 +1,4 @@
-# Contributing to the LearnOSM Guide
+# Contributing to the LearnOSM site guide
 
 ## Contribution Workflow
   Learn how to set up GitHub & Git, set up a local copy of the LearnOSM site, make changes and submit pull requests using GitHub and Git on the command line or GitHub Desktop.
