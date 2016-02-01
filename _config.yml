@@ -1,6 +1,8 @@
 #Jekyll configuration file
 
 #Build configuration, see http://jekyllrb.com/docs/configuration/#default-configuration
+auto: true
+server: true
 highlighter: pygments
 markdown: rdiscount
 rdiscount:
