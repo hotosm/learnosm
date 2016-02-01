@@ -1,16 +1,34 @@
-auto: true
-pygments: true
-server: true
+#Jekyll configuration file
+
+#Build configuration, see http://jekyllrb.com/docs/configuration/#default-configuration
+highlighter: pygments
 markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+
+#Permalink structure, see http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:title/
+
+#Front Matter, see http://jekyllrb.com/docs/configuration/#front-matter-defaults
 columnist:
   paths:
   - _posts
-baseurl: ''
-rdiscount:
-  extensions: [smart]
+
+#serving the site, see http://jekyllrb.com/docs/configuration/#default-configuration or http://jekyllrb.com/docs/github-pages/#project-page-url-structure
+baseurl: '' #does not include host name
+
+#Prose configurations, see https://github.com/prose/prose/wiki/Prose-Configuration
 prose:
   rooturl: '_posts'
+  siteurl: "http://learnosm.org/"
+  media: 'images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+
+#translations
 translations:
   en:
     tagline: "Learn OpenStreetMap Step by Step"
