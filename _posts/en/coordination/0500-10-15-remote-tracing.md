@@ -6,7 +6,14 @@ lang: en
 category: coordination
 ---
 
-Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT. 
+Tracing roads, buildings, water and landuse
+===========================================
+
+> This guide may be downloaded as [remote-tracing_en.odt](/files/remote-tracing_en.odt) or [remote-tracing_en.pdf](/files/remote-tracing_en.pdf)  
+> Reviewed 2016-02-08  
+
+Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
+
 
 Section Index
 =====
@@ -19,15 +26,11 @@ Section Index
 
 ## Roads
 
-Any type of roads from motorways to tracks and paths are labelled 'highway' in OpenStreetMap.
-It is important that highways are correctly added to the database (OpenStreetMap data) as they are used in so many ways:  
+Any type of roads from motorways to tracks and paths are labelled 'highway' in OpenStreetMap. It is important that highways are correctly added to the database (OpenStreetMap data) as they are used in so many ways:  
 
 -  Navigation software such as Garmin devices and apps. on smartphones such as Osmand can provide routing information over great distances if the correct information is loaded into them. As these rely on the gps within the device to locate the position in relation to the basemap loaded into them, it is important that the highways are actually within about 15 metres of the right place, or they will not work!  
-
 -  Planning the route for a large 'aid' lorry is much easier if you can differentiate between a path & a trunk road, with all the stages in between.  
-
 -  Knowing whether a road surface is asphalt or soft mud will make a difference to your route planning.
-
 -  When attempting to plot the spread of a disease, a victim's description of "near the crossroads" is significant if you can see the crossroads on the map.
 
 ### Highways - How to map
@@ -53,7 +56,6 @@ This screenshot shows JOSM with the HOT-OSM-Validate style in use [JOSM styles](
 3.  These sections of highway are 'isolated'. They do not connect to the town or to an other highways in any way. In their current format they are not very useful & will need further investigation to establish if they can be connected to the rest of the network, or if consideration should be given to deleting them.  
 
 
-
 **Highway or stream?**
 
 ![iD 5][]
@@ -65,7 +67,7 @@ highway=path
 seasonal=yes  
 surface=unpaved  
 2.  The path can be clearly seen going towards and into the band of trees and shrubland, but it is not possible to see its exact course through the trees. In these circumstances you can be certain the path, track or highway is present, it is just obscured from your view by the trees. I have mapped this by continuing the path I was tracing where it could be clearly seen on the ground as a straight line through the trees to the clearly visible continuation on the other side. Use this with caution, but in this instance it is obvious that the path is present and its path is likely to be very close to the line I have drawn. This is a more extreme usage - it is more usual to estimate the path of a highway for only a few metres where your view of it is obscured by one or two trees.  
-3.  Having deleted the path so that I could see the ground clearly, I can easily replace it by using the 'undo' feature of iD.
+3.  Having deleted the path so that I could see the ground clearly, I can easily replace it by using the 'undo' feature of iD.  
 
 ***
 
@@ -114,13 +116,14 @@ In the screenshot below, my square contains part of a landuse=residential bounda
 
 ![JOSM residential 1][]
 
-I will add extra nodes to the boundary, extending it horizontally across my square so that it goes around the buildings , and at the bottom I will continue the boundary as a straight line just inside the square below mine so that the person selecting the square below mine will be able to extend it around any buildings they may have. 
+I will add extra nodes to the boundary, extending it horizontally across my square so that it goes around the buildings , and at the bottom I will continue the boundary as a straight line just inside the square below mine so that the person selecting the square below mine will be able to extend it around any buildings they may have.  
 
-This is a difficult operation - you can see only a small part of the whole town / city / village and although you will do your best with the landuse=residential boundary it is extremely likely that a validator who has an overview of several squares will need to tidy up the boundary as best they can after the individual squares have been mapped. 
+This is a difficult operation - you can see only a small part of the whole town / city / village and although you will do your best with the landuse=residential boundary it is extremely likely that a validator who has an overview of several squares will need to tidy up the boundary as best they can after the individual squares have been mapped.  
 
 > There is a high risk of suffering from conflicts when working on a landuse=residential boundary, as it extends into other squares where mappers will also be editing it. It is advisable to save all your changes before editing the boundary, and then save your changes at very frequent intervals, such as after adding each 6 nodes.
 
 ***
+
 
 ## Buildings walls compounds barriers  
 
@@ -128,20 +131,22 @@ Buildings are added to the map data for a number of reasons;
 
 *  The density of buildings in an area gives a very good indication of the number of people residing there.  
 *  The size, shape & location of a building can help to identify it as a potential evacuation or treatment site.  
-*  The size, shape, and relative location of buildings can be used to identify particular locations such as wells, aid stations, schools, etc..
-*  There is the potential to estimate the degree of damage sustained by a building, which can be used to estimate the potential casualties & level of support that may be required - this is currently (January 2015) under discussion for future use. 
+*  The size, shape, and relative location of buildings can be used to identify particular locations such as wells, aid stations, schools, etc..  
+*  There is the potential to estimate the degree of damage sustained by a building, which can be used to estimate the potential casualties & level of support that may be required - this is currently (January 2015) under discussion for future use.  
+
 
 ### Buildings - How to Map
 
-The vast majority of buildings that require mapping by HOT are either based upon rectangular shapes with square corners, or are round. If a building appears to be a mixture of the two, it is more likely you are looking at a building who's outline is obscured by shadow, reflection, foliage or similar.
+The vast majority of buildings that require mapping by HOT are either based upon rectangular shapes with square corners, or are round. If a building appears to be a mixture of the two, it is more likely you are looking at a building who's outline is obscured by shadow, reflection, foliage or similar.  
 
 For some tasks where only an outline of an area is required, the task may specify that buildings can be mapped as nodes, but these situations are now rare.  
+
 
 #### building=yes
 
 Unless the project instructions specify otherwise, buildings should be tagged **building=yes**  
 
-*  There can often be a time delay between the satellite imagery being taken, and the mapping being carried out. There is the possibility that the building you are looking at that appears to have no roof, has now been completed & is now in habitation. It is also possible that you are looking at a building with several storeys, the bottom ones being lived in, and the top floor with no roof currently not being lived in.
+*  There can often be a time delay between the satellite imagery being taken, and the mapping being carried out. There is the possibility that the building you are looking at that appears to have no roof, has now been completed & is now in habitation. It is also possible that you are looking at a building with several storeys, the bottom ones being lived in, and the top floor with no roof currently not being lived in.  
 
 > **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes. If you're tracing is of a building with square corners, please take the time to square your traced item (highlight it and shortcut 's').  
 
@@ -164,7 +169,7 @@ This screenshot shows part of a square being edited. Note the scale at the botto
 
 1.  The satellite imagery above, is of a building, but the satellite was not directly overhead, so that the building appears distorted and an end wall is visible in the image. Because of this angle, the apex roof does not appear rectangular. The sun is practically directly above the building, so that the shadow of the building indicated by the arrows from figure 1 does confirm that the building is rectangular.  
 
-2.  To map this building, create a rectangle extending from the arrows of point 2, to where you estimate the building ends, indicated by point 3 in this image.
+2.  To map this building, create a rectangle extending from the arrows of point 2, to where you estimate the building ends, indicated by point 3 in this image.  
 
 
 ***
