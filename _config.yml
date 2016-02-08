@@ -3,9 +3,9 @@
 #Build configuration, see http://jekyllrb.com/docs/configuration/#default-configuration
 auto: true
 server: true
-highlighter: pygments
-markdown: rdiscount
-rdiscount:
+highlighter: rouge
+markdown: kramdown
+kramdown:
   extensions: [smart]
 
 #Permalink structure, see http://jekyllrb.com/docs/permalinks/
