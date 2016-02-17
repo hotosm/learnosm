@@ -6,7 +6,7 @@ lang: es
 category: coordination
 ---
 
-#Mapeo Humanitario
+# Mapeo Humanitario
 
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 
