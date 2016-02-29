@@ -7,14 +7,14 @@ category: coordination
 ---
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 
-#راهنمای واکنش از راه دور HOT  
+# راهنمای واکنش از راه دور HOT  
 
 > این راهنما را می‌توان به صورت [remote-mapping_fa.odt](/files/remote-mapping_fa.odt) و یا [remote-mapping_fa.pdf](/files/remote-mapping_fa.pdf) دانلود کرد.  
 تاریخ بازبینی ۱۳۹۴/۰۶/۱۷
 
 تیم بشر دوستانه OpenStreetMap که به اختصار HOT نامیده می‌شود جامعه‌ای جهانی است که داده‌های متن باز و اشتراک گزاری داده‌های آزاد را در واکنش به مسائل انسانی و در جهت توسعه اقتصادی در اختیار همگان قرار می‌دهد.
 
-###واکنش از راه دور چگونه کار می‌کند 
+### واکنش از راه دور چگونه کار می‌کند 
 
 ![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)
 
@@ -24,14 +24,14 @@ category: coordination
 
 [Syria Activation Example](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)
 
-###مدیریت وظایف در HOT 
+### مدیریت وظایف در HOT 
 
 [مدیریت وظایف HOT](http://tasks.hotosm.org/) ابزاری متن باز است که طراحی شده تا کار نقشه‌کشی را به وظایف کوچکتر تقسیم بندی کند تا سریعتر به اتمام برسد. این ابزار نشان می‌دهد که کدام مناطق نیاز به کشیدن نقشه دارند و کدام مناطق بایستی توسط سایرین تأیید شوند. این ابزار شامل دو قسمت [کارهای نقشه‌کشی در موارد حاد](http://wiki.openstreetmap.org/wiki/HOT_activation) و [پروژه‌های بشردوستانه](http://hot.openstreetmap.org/projects) بلند مدت می‌شود. 
 
 برای استفاده از مدیریت وظایف HOT بایستی به حساب کاربری خود در OSM با نام کاربری و رمز مربوطه وارد شوید. برای راهنمایی بیشتر قسمت [آموزش مدیریت وظایف](http://learnosm.org/fa/coordination/tasking-manager/) را بخوانید. 
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)
-###ابزارهای ویرایش 
+### ابزارهای ویرایش 
 
 [iD](http://learnosm.org/en/beginner/id-editor/) - یک ویرایشگر بر پایه وب است که توسط [Mapbox](www.mapbox.com) و با یک رابط کاربری بسیار کاربرپسند طراحی شده است. معمولاً به عنوان بهترین ابزار ویرایش در شروع کار از آن یاد می‌شود. می‌توانید به صفحه [آموزش تعاملی ویرایشگر iD](http://ideditor.com/) بروید تا با شیوه استفاده از آن آشنا شوید.
 
@@ -61,7 +61,7 @@ category: coordination
 
 این راهنما از منابع آموزشی گوناگون و راهنمای کار با HOT گردآوری و خلاصه شده است. می‌توانید در لینک‌های زیر منابع آموزشی بیشتری پیدا کنید. 
 
-###آموزش‌ها
+### آموزش‌ها
 
 [راهنمای نقشه‌کشی از راه دور LearnOSM](http://learnosm.org/fa/coordination/remote/)- یکی از جامعترین راهنماها  
 
@@ -69,7 +69,7 @@ category: coordination
 
 [HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - نوشته شده توسط پیتر ریچاردسون (@meetar) یک داوطلب واکنش از راه دور HOT با تجربه
 
-###درباره HOT 
+### درباره HOT 
 [صفحه ویکی HOT](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)- درباره چگونگی عملکرد HOT بیشتر بیاموزید و آخرین اخبار آنها را ببینید 
 
 [HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- فعالیتهای HOT را از وبسایت آنها بطور دقیقتر شرح می‌دهد. 

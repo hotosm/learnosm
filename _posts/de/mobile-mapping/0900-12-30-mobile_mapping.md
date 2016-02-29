@@ -2,48 +2,44 @@
 layout: doc
 permalink: /de/mobile-mapping/
 lang: de
-title: Kartierung mit Smartphone, GPS oder Papier
+title: Kartierung mit Smartphone, GPS oder Field Paper
 category: mobile-mapping
 cover: yes
 nosearch: true
 ---
 
-Kartierung mit Smartphone, GPS oder Papier
-===============================================
+Kartierung mit Smartphone, GPS oder Field Paper
+=============================
 
-The most recent version of this guide is only available in [English](/en/mobile-mapping/) or [Español](/es/mobile-mapping/). It is being translated.
+Diese Anleitung kann als [mobile-mapping_de.odt](/files/mobile-mapping_de.odt) or [mobile-mapping_de.pdf](/files/mobile-mapping_de.pdf) heruntergeladen werden  
+Geprüft 2015-07-14  
 
-To help produce translations for this site, go to [https://www.transifex.com](https://www.transifex.com) and search for **HOT-OSM**.
+Um eine wirklich genaue Karte zu erstellen müssen Sie das betreffende Gebiet vermessen. Die Anleitungen in diesem Kapitel erklären Ihnen, wie Sie das erreichen können:  
 
-Mehr und mehr Smartphones verfügen heutzutage über einen Chip, der die Signale von Satelliten-Navigationssystemen
-empfangen und daraus die Position bestimmen kann. Meist handelt es sich dabei um die Satelliten des von den USA
-betriebenen GPS-Systems. Geräte aus dem oberen Preissegment empfangen teilweise zusätzlich
-die Frequenzen der russischen GLONASS-Satelliten.
+- mit einem GPS-Gerät, was wahrscheinlich genauer als Ihr Mobiltelefon arbeitet,  
+- mit Field Paper, einem speziell aufbereiteten Ausdruck, auf dem Sie Notizen machen, diese hochladen und damit kartieren, oder  
+- mit Ihrem Mobiltelefon. Es gibt viele Apps für die Navigation mit OSM-Daten und viele Apps, die Ihnen beim Vermessen helfen. Unsere Aufzählung enthält nur einige, ihre Zahl wächst ständig und einige Hilfsorganisationen entwickeln eigene Apps um spezielle Daten zu erfassen.  
 
-Es gibt allerdings große Unterschiede in der Genauigkeit und Leistungsfähigkeit der eingesetzten Chips.
+Mehr und mehr Smartphones verfügen heutzutage über einen Chip, der die Signale von Satelliten-Navigationssystemen empfangen und daraus die Position bestimmen kann. Meist handelt es sich dabei um die Satelliten des von den USA betriebenen GPS-Systems. Geräte aus dem oberen Preissegment empfangen teilweise zusätzlich die Frequenzen der russischen GLONASS-Satelliten.  
 
-Geräte mit GPS-Empfängern können autonom arbeiten, auch außerhalb der Reichweite von Mobilfunk- und 
-Internet-Verbindungen. Geräte mit der Bezeichnung "“A-GPS only” (Assisted GPS) erfordern eine Datenverbindung 
-über ein Mobilfunknetz um richtig arbeiten zu können. A-GPS-Daten können auch eigenständigen GPS-Empfängern zu einer
-besseren Leistung verhelfen, da die ungefähre Position schneller über das Funknetz festgestellt werden kann.
+Es gibt allerdings große Unterschiede in der Genauigkeit und Leistungsfähigkeit der eingesetzten Chips.  
 
-In den meisten Fällen brauchen wir ein Smartphone mit einem eigenen GPS-Empfänger. Überprüfen Sie, ob Ihr Gerät
-diesen Spezifikationen entspricht oder ob es sich lediglich um ein A-GPS-Gerät handelt.
+Geräte mit GPS-Empfängern können autonom arbeiten, auch außerhalb der Reichweite von Mobilfunk- und Internet-Verbindungen. Geräte mit der Bezeichnung ““A-GPS only” (Assisted GPS) erfordern eine Datenverbindung über ein Mobilfunknetz um richtig arbeiten zu können. A-GPS-Daten können auch eigenständigen GPS-Empfängern zu einer besseren Leistung verhelfen, da die ungefähre Position schneller über das Funknetz festgestellt werden kann.  
 
-Es gibt eine ganze Reihe von (sowohl kostenlosen als auch kommerziellen) Kartographie-Anwendungen für die meisten 
-Smartphones. Jede hat ihre Vor- und Nachteile.
+In den meisten Fällen brauchen wir ein Smartphone mit einem eigenen GPS-Empfänger. Überprüfen Sie, ob Ihr Gerät diesen Spezifikationen entspricht oder ob es sich lediglich um ein A-GPS-Gerät handelt.  
 
-Im Hinblick auf die Eignung für OpenStreetMap kommt es auf diese Eigenschaften an:
+Es gibt eine ganze Reihe von (sowohl kostenlosen als auch kommerziellen) Kartographie-Anwendungen für die meisten Smartphones. Jede hat ihre Vor- und Nachteile.  
 
--   einfach zu bedienen; man kann sofort loslegen
--   Unterstützung für GPX-Dateien (Anlegen von Wegpunkten, konfigurierbares Speicherintervall)
--   direkte Anbindung an OSM (Hinzufügen, Bearbeiten, Hochladen von Daten)
--   Möglichkeit, OSM-Daten vorher auf das Gerät zu laden
--   Georeferenzierung von Multimedia-Daten (Anmerkungen, Fotos, Videos)
--   ständige Weiterentwicklung
+Im Hinblick auf die Eignung für OpenStreetMap kommt es auf diese Eigenschaften an:  
 
-Probieren Sie mehrere zu Ihrem Gerät kompatible Anwendungen aus, um sich mit der Benutzeroberfläche
-vertraut zu machen und herausfinden, welche davon Ihren Vorlieben und Vorgehensweisen am besten entspricht.
+- einfach zu bedienen; man kann sofort loslegen  
+- Unterstützung für GPX-Dateien (Anlegen von Wegpunkten, konfigurierbares Speicherintervall)  
+- direkte Anbindung an OSM (Hinzufügen, Bearbeiten, Hochladen von Daten)  
+- Möglichkeit, OSM-Daten vorher auf das Gerät zu laden  
+- Georeferenzierung von Multimedia-Daten (Anmerkungen, Fotos, Videos)  
+- ständige Weiterentwicklung  
+
+Probieren Sie mehrere zu Ihrem Gerät kompatible Anwendungen aus, um sich mit der Benutzeroberfläche vertraut zu machen und herausfinden, welche davon Ihren Vorlieben und Vorgehensweisen am besten entspricht.
 
 <!-- Commenting for now since tables doesn't look very nice!
 
@@ -63,11 +59,9 @@ Recommended Applications for Smartphones / PDAs
 
 O - supported, D - under development, m - mapping, n - navigation, p - POI editor, f - full editor
 
--->
+ -->
 
-In den nächsten Abschnitten führen wir Sie durch die Installation und die Bedienung von verschiedenen Anwendungen,
-mit denen Sie von Ihrem Smartphone an OpenStreetMap mitwirken können.
+In den nächsten Abschnitten führen wir Sie durch die Installation und die Bedienung von verschiedenen Anwendungen, mit denen Sie von Ihrem Smartphone an OpenStreetMap mitwirken können.
 
->   **Achtung:** Bevor Sie weiterlesen, stellen Sie sicher, dass Ihr Gerät über einen GPS-Empfänger verfügt
->   und dass dieser aktiviert ist. Denken Sie daran, dass GPS nicht innerhalb von Gebäuden funktioniert!
-
+> **Achtung:** Bevor Sie weiterlesen, stellen Sie sicher, dass Ihr Gerät über einen GPS-Empfänger verfügt und dass dieser aktiviert ist.  
+> Denken Sie daran, dass GPS nicht innerhalb von Gebäuden funktioniert!

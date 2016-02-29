@@ -6,7 +6,7 @@ lang: fa
 category: coordination
 ---
 
-#نقشه‌کشی انسان‌دوستانه
+# نقشه‌کشی انسان‌دوستانه
 
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 

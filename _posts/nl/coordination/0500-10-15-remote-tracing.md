@@ -6,7 +6,14 @@ lang: nl
 category: coordination
 ---
 
-Doorgaan vanaf het gedeelte [Remote, Armchair & Mapathon Section of LearnOSM](/nl/coordination/remote/), wat u nodig zult hebben indien u geen ervaring heeft met het in kaart brengen voor HOT. 
+Wegen, gebouwen, water en landgebruik traceren
+===========================================
+
+> Deze handleiding kan worden gedownload als  [remote-tracing_nl.odt](/files/remote-tracing_nl.odt) of [remote-tracing_nl.pdf](/files/remote-tracing_nl.pdf)  
+> Bijgewerkt op 08-02-2016  
+
+Doorgaan vanaf het gedeelte [Remote, Armchair & Mapathon Section of LearnOSM](/nl/coordination/remote/), wat u nodig zult hebben indien u geen ervaring heeft met het in kaart brengen voor HOT.  
+
 
 Index gedeelte
 =====
@@ -14,20 +21,16 @@ Index gedeelte
 [Wegen en hoofdwegen, inclusief paden & sporen](/nl/coordination/remote-tracing/#wegen)  
 [Het netwerk van wegen](/nl/coordination/remote-tracing/#het-netwerk-van-wegen)  
 [Grenzen residentieel landgebruik](/nl/coordination/remote-tracing/#grenzen-residentieel-landgebruik)  
-[Gebouwen, muren, hekwerken, nederzettingen en barrières](/nl/coordination/remote-tracing/#gebouwen-muren-nederzettingen-barrieres)  
+[Gebouwen, muren, hekwerken, nederzettingen en barrières](/nl/coordination/remote-tracing/#gebouwen-muren-nederzettingen-barrières)  
 
 
 ## Wegen
 
-Elk type weg, van autosnelwegen tot sporen en paden, worden gelabeld als 'highway' in OpenStreetMap.
-Het is belangrijk dat wegen juist worden toegevoegd aan de database (gegevens van OpenStreetMap) omdat zo op zo veel verschillende manieren worden gebruikt:  
+Elk type weg, van autosnelwegen tot sporen en paden, worden gelabeld als 'highway' in OpenStreetMap. Het is belangrijk dat wegen juist worden toegevoegd aan de database (gegevens van OpenStreetMap) omdat zij op zo veel verschillende manieren worden gebruikt:  
 
 -  Navigatiesoftware zoals apparaten van Garmin en apps op smartphones, zoals Osmand, kunnen route-informatie verschaffen voor grote afstanden als de juiste informatie er in is geladen. Omdat zij vertrouwen op de GPS in het apparaat om de positie te bepalen ten opzichte van de erin geladen basiskaart, is het belangrijk dat de wegen in feite binnen 15 meter van de juiste plaats af liggen, of zij zullen niet werken!  
-
 -  Plannen van de route voor een grote vrachtwagen met 'hulp' is veel eenvoudiger indien u verschil kunt zien tussen een pad en een verharde weg, met alle soorten daartussen.  
-
 -  Weten of een wegoppervlak asfalt is of zachte modder zal verschil,maken voor het plannen van uw route.
-
 -  Bij het pr0beren in kaart te brengen van de verspreiding van een ziekte, is de beschrijving van een slachtoffer als "nabij de kruising" significant als u de kruising kunt zien op de kaart.
 
 ### Wegen - Hoe in kaart te brengen
@@ -53,7 +56,6 @@ Deze schermafdruk laat JOSM zien met de stijl HOT-OSM-Validate in gebruik [JOSM 
 3.  Deze gedeelten van de weg zijn 'geïsoleerd'. Zijn zijn niet op enigerlei wijze verbonden met de stad of met andere wegen. In hun huidige opmaak zijn zij niet erg nuttig & en moeten nader worden onderzocht om vast te stellen of zij kunnen worden verbonden met de rest van het netwerk, of dat overwogen zou moeten worden om ze te verwijderen.  
 
 
-
 **Weg of stroom?**
 
 ![iD 5][]
@@ -65,7 +67,7 @@ highway=path
 seasonal=yes  
 surface=unpaved  
 2.  Het pad kan duidelijk worden gevolgd naar en in de rand met bomen en struikgewas, maar door de bomen is de exacte loop ervan niet te zien. In dit soort gevallen kunt u er zeker van zijn dat het pad, spoor of weg aanwezig is, maar dat het aan het zicht wordt onttrokken door de bomen. Ik heb dit in kaart gebracht door het pad dat ik traceerde door te trekken tot waar het duidelijk zichtbaar was op de grond als een rechte streep door de bomen naar de duidelijk zichtbare doorgang aan de andere kant. Gebruik dit met zorg, maar in dit geval is het duidelijk dat het pad aanwezig is en dat de loop ervan waarschijnlijk zeer dicht bij de lijn ligt die ik heb getekend. Dit is meer extreem gebruik - het is meer gewoon om de loop van een weg te schatten voor slechts een paar meter waar uw zicht wordt geblokkeerd door één of twee bomen.  
-3.  Door het pad te hebben verwijderd zodat ik de grond duidelijk kon zien, kan ik dat eenvoudig vervangen door de mogelijkheid 'undo' van iD te gebruiken.
+3.  Door het pad te hebben verwijderd zodat ik de grond duidelijk kon zien, kan ik dat eenvoudig vervangen door de mogelijkheid 'undo' van iD te gebruiken.  
 
 ***
 
@@ -114,13 +116,14 @@ In de schermafdruk hieronder, bevat mijn vierkant een deel van een grens landuse
 
 ![JOSM residential 1][]
 
-Ik zal extra knopen toevoegen aan de grens, het horizontaal uitbreidend over mijn vierkant zodat hij rondom de gebouwen loopt, en onderin zal ik de grens doorzetten als een rechte lijn net binnen het vierkant onder het mijne, zodat de persoon die het vierkant onder het mijne selecteert in staat zal zijn het uit te breiden rondom eventuele gebouwen die hij heeft. 
+Ik zal extra knopen toevoegen aan de grens, het horizontaal uitbreidend over mijn vierkant zodat hij rondom de gebouwen loopt, en onderin zal ik de grens doorzetten als een rechte lijn net binnen het vierkant onder het mijne, zodat de persoon die het vierkant onder het mijne selecteert in staat zal zijn het uit te breiden rondom eventuele gebouwen die hij heeft.  
 
-Dit is een moeilijke bewerking - u kunt slechts ene klein gedeelte zien van de gehele grote stad / stad / dorp en hoewel u uw best zult doen met de grens landuse=residential is het behoorlijk waarschijnlijk dat een validator, die een overzicht heeft van verschillende vierkanten, de grens op zal moeten knappen zo goed als hij kan nadat de individuele vierkanten in kaart zijn gebracht. 
+Dit is een moeilijke bewerking - u kunt slechts ene klein gedeelte zien van de gehele grote stad / stad / dorp en hoewel u uw best zult doen met de grens landuse=residential is het behoorlijk waarschijnlijk dat een validator, die een overzicht heeft van verschillende vierkanten, de grens op zal moeten knappen zo goed als hij kan nadat de individuele vierkanten in kaart zijn gebracht.  
 
 > Er bestaat een groot risico op conflicten bij het werken aan een grens landuse=residential, omdat die zich uitstrekt tot in andere vierkanten waar ook mappers er aan werken. Het wordt geadviseerd om al uw wijzigingen vóór het bewerken van de grens op te slaan, en dan uw wijzigingen met zeer regelmatige intervallen op te slaan, zoals bijvoorbeeld na het toevoegen van 6 knopen.
 
 ***
+
 
 ## Gebouwen muren nederzettingen barrières  
 
@@ -128,20 +131,22 @@ gebouwen worden aan de kaartgegevens toegevoegd om een aantal redenen;
 
 *  De dichtheid van de gebouwen in een gebied geeft een zeer goede indicatie van het anatal mensen dat daar woont.  
 *  De grootte, vorm & locatie van een gebouw kan helpen om het te identificeren als een potentiële plaats voor evacuatie of medische behandeling.  
-*  De grootte, vorm en relatieve locatie van gebouwen kan worden gebruikt om bepaalde locaties, zoals bronnen, hulpstations scholen, etc. te identificeren.
-*  Er bestaat potentieel om in te schatten hoe groot het percentage schade is voor een gebouw, wat kan worden gebruikt om het aantal potentiële gewonden & vereiste mate van ondersteuning die nodig is in te schatten - dit wordt momenteel (januari 2015) nader onderzocht voor gebruik in de toekomst. 
+*  De grootte, vorm en relatieve locatie van gebouwen kan worden gebruikt om bepaalde locaties, zoals bronnen, hulpstations scholen, etc. te identificeren.  
+*  Er bestaat potentieel om in te schatten hoe groot het percentage schade is voor een gebouw, wat kan worden gebruikt om het aantal potentiële gewonden & vereiste mate van ondersteuning die nodig is in te schatten - dit wordt momenteel (januari 2015) nader onderzocht voor gebruik in de toekomst.  
+
 
 ### Gebouwen - Hoe in kaart te brengen
 
-De overgrote meerderheid van gebouwen die voor HOT in kaart moeten worden gebracht zijn ofwel gebaseerd op rechthoekige vormen met vierkante hoeken, of zijn rond. Als een gebouw een mix van die twee lijkt te zijn, is het meer waarschijnlijk dat u kijkt naar een gebouw waarvan de omtrek aan het oog wordt onttrokken door schaduw, reflectie, gebladerte of iets dergelijks.
+De overgrote meerderheid van gebouwen die voor HOT in kaart moeten worden gebracht zijn ofwel gebaseerd op rechthoekige vormen met vierkante hoeken, of zijn rond. Als een gebouw een mix van die twee lijkt te zijn, is het meer waarschijnlijk dat u kijkt naar een gebouw waarvan de omtrek aan het oog wordt onttrokken door schaduw, reflectie, gebladerte of iets dergelijks.  
 
 Voor sommige taken waar alleen een omtrek van en gebied wordt vereist, zou de taak kunnen specificeren dat gebouwen in kaart mogen worden gebracht als knopen, maar die situaties zijn nogal zeldzaam.  
+
 
 #### building=yes
 
 Tenzij de instructies voor het project anders specificeren dienen gebouwen te worden getagd als **building=yes**  
 
-*  Er kan vaak een tijdsverschil bestaan tussen het tijdstip waarop de satellietafbeelding is genomen en dat waarop het in kaart brengen wordt uitgevoerd. Er bestaat de mogelijkheid dat het gebouw waar u naar kijkt geen dak schijnt te hebben, maar dat het nu is voltooid & wordt bewoond. Het is ook mogelijk dat u kijkt naar een gebouw met verschillende verdiepingen, waarvan de onderste worden bewoond, en de bovenste zonder dak momenteel niet wordt bewoond.
+*  Er kan vaak een tijdsverschil bestaan tussen het tijdstip waarop de satellietafbeelding is genomen en dat waarop het in kaart brengen wordt uitgevoerd. Er bestaat de mogelijkheid dat het gebouw waar u naar kijkt geen dak schijnt te hebben, maar dat het nu is voltooid & wordt bewoond. Het is ook mogelijk dat u kijkt naar een gebouw met verschillende verdiepingen, waarvan de onderste worden bewoond, en de bovenste zonder dak momenteel niet wordt bewoond.  
 
 > **Gebouwen in kaart brengen met iD** - wanneer u het gereedschap voor gebieden gebruikt in iD om de basisvorm te maken, moet u onthouden dat u de tag verandert naar building=yes. De standaard instelling zal de vorm gewoonlijk taggen als area=yes. Indien uw getraceerde gebouw vierkante hoeken heeft, neem dan ook even de tijd om uw getraceerde item te voorzien van rechte hoeken (accentueer het en sneltoets 's').  
 
@@ -164,7 +169,7 @@ Deze schermafdruk geeft een deel weer van een vierkant dat wordt bewerkt. Merk d
 
 1.  Bovenstaande satellietafbeelding is van een gebouw, maar de satelliet was er niet direct boven, zodat het gebouw vervormd lijkt en een eindmuur in de afbeelding wordt weergegeven. Vanwege deze hoek lijkt het dak van apex niet rechthoekig. De zon staat praktisch direct boven het gebouw, zodat de schaduw van het gebouw, die wordt aangegeven door de pijlen uit afbeelding 1, bevestigt dat het gebouw rechthoekig is.  
 
-2.  Maak een rechthoek die zich uitstrekt van de pijlen van punt 2 tot waar u schat dat het gebouw eindigt, aangegeven door punt 3 in deze afbeelding, om het gebouw in kaart te brengen.
+2.  Maak een rechthoek die zich uitstrekt van de pijlen van punt 2 tot waar u schat dat het gebouw eindigt, aangegeven door punt 3 in deze afbeelding, om het gebouw in kaart te brengen.  
 
 
 ***
