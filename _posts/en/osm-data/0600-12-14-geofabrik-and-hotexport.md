@@ -9,8 +9,8 @@ category: osm-data
 Using Geofabrik and HOT Export
 ================
 After learning how to add and edit data in OpenStreetMap (OSM), now
-maybe you want the data obtained as a backup or if you want process it
-into a Geography Information System software that is Open Source such as
+maybe you would like to obtain the data as a backup or to process it
+using Geographic Information System software that is Open Source, such as
 Quantum
 GIS ([www.qgis.org](http://www.google.com/url?q=http%3A%2F%2Fwww.qgis.org%2F&sa=D&sntz=1&usg=AFQjCNFCIP2pVPi5ohw-5H7tJ4CzApRQlg)).
 
@@ -24,27 +24,26 @@ following website:  
 
 ![download-geofabrik][]
 
-The data is divided into several regions, for Indonesia you can find
-at the part of Asia by clicking on the Asia sub region on the blue
+The data is divided into several regions. Indonesia can be found as part of Asia by clicking on the Asia sub-region on the blue
 table, and then the page will appear like this.
 
 ![geofabrik-asia][]
 
-After appearing at the top of the page look like the sub region
-divides into countries at Asia, to get the data you need to click
-the Indonesian state on the blue table and will appear like this.
+After appearing at the top of the page, see how the sub-region
+divides into countries of Asia. To get the data, you need to click
+the Indonesian state on the blue table, and it will appear like this.
 
 ![geofabrik-indonesia][]
 
-Then if you want to obtain the Indonesian data with shapefile (.shp)
-format, you click on the indonesia-latest.shp.zip link and the file
-will be downloaded. There are several formats that can be downloaded
-one popular formats such as shapefile (shp) with points, polyline,
+Then if you want to obtain the Indonesian data in shapefile (.shp)
+format, you click on the indonesia-latest.shp.zip link, and the file
+will be downloaded. There are several formats that can be downloaded;
+one popular format is shapefile (shp) with points, polyline,
 and polygon layer.
 
-You can check the last time data is updated. Please note, the server
-usually update the data once every 24 hours, so if you just upload data
-to OSM, the data does not appear automatically when you download it but
+You can check the last time data was updated. Please note, the server
+usually updates the data once every 24 hours, so if you just upload data
+to OSM, the data does not appear automatically when you download it, but
 you have to wait for the latest updates from the server.
 
 Getting OSM Data on HOT-Export Website
