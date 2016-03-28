@@ -14,6 +14,7 @@ that provide data extracts for an area of your choosing.
 
 Downloading Data Extracts
 --------------------------
+
 ### GeoFabrik
 [GeoFabrik](http://geofabrik.de) is a company which specializes in working
 with OpenStreetMap. They provide a variety of free extracts in shapefile and raw OSM format
@@ -22,23 +23,23 @@ GeoFabrik data is that it is updated every day, and it's easy and reliable. One 
 that the data is extracted by country, and not all countries are available.
 
 ### Metro Extracts
-[Another website created by Michal Migurksi](http://metro.teczno.com/) provides shapefiles for
-cities around the world. This is useful if you are looking for data extracts for a single city.
-The disadvantage to this site is that it is not updated regularly.
+[Another website maintained by Mapzen](https://mapzen.com/data/metro-extracts/) provides shapefiles for
+cities around the world, extracted weekly. This is useful if you are looking for data extracts for a single city.
 
->	Remember that features in OpenStreetMap have an unlimited number of "free" tags,
->	but shapefiles have attributes stored in a limited number of columns. This means
->	that when OSM data is converted into shapefiles, only the specified tags will be
->	included in the shapefile table. The websites listed above provide shapefiles
->	with a default set of common tags, but if you want to extract specific tags
->	you will need to use one of the more specialized services in the next section
->	or learn how to export the data yourself.
+>Remember that features in OpenStreetMap have an unlimited number of "free" tags,
+>but shapefiles have attributes stored in a limited number of columns. This means
+>that when OSM data is converted into shapefiles, only the specified tags will be
+>included in the shapefile table. The websites listed above provide shapefiles
+>with a default set of common tags, but if you want to extract specific tags
+>you will need to use one of the more specialized services in the next section
+>or learn how to export the data yourself.
 
 Customized Extracts
 -------------------
+
 ### HOT Exports
 The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users
-to select the area that they want to extract, and also use [JOSM Presets](/en/editing/josm-presets)
+to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
 to select custom tags to be included in the extract. The service is available to all countries where
 HOT works, at [export.hotosm.org](http://export.hotosm.org).
 
