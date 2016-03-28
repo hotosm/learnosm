@@ -14,6 +14,7 @@ yang menyediakan data ekstrak untuk sebuah daerah pilihan Anda.
 
 Mendownload Data Ekstrak
 ------------------------
+
 ### Geofabrik
 [GeoFabrik](http://geofabrik.de) adalah perusahaan yang mengkhususkan diri bekerja
 dengan OpenStreetMap. Mereka menyediakan berbagai ekstrak gratis pada shapefile dan 
@@ -27,21 +28,22 @@ diambil per negara, dan tidak semua negara tersedia.
 shapefile untuk kota diseluruh dunia. Hal ini berguna jika Anda mencari untuk data
 ekstrak suatu kota. Kelemahan situs ini adalah tidak diperbarui secara teratur.
 
->	Ingatlah bahwa fitur dalam OpenStreetMap memiliki jumlah tag "gratis" yang 
->	tidak terbatas, namun shapefile memiliki atribut yang disimpan dalam jumlah 
->	kolom yang terbatas. Hal ini dimaksudkan bahwa ketika data OSM dikonversi
->	ke dalam shapefile, hanya tag tertentu yang akan dimasukkan ke tabel shapefile.
->	Situs-situs yang tercantum di atas menyediakan shapefile dengan pengaturan
->	standar tag umum, tetapi jika Anda ingin mengekstrak tag tertentu Anda perlu
->	menggunakan salah satu layanan tertentu pada sesi selanjutnya atau mempelajari
->	bagaimana mengeksport data Anda sendiri.
+>Ingatlah bahwa fitur dalam OpenStreetMap memiliki jumlah tag "gratis" yang 
+>tidak terbatas, namun shapefile memiliki atribut yang disimpan dalam jumlah 
+>kolom yang terbatas. Hal ini dimaksudkan bahwa ketika data OSM dikonversi
+>ke dalam shapefile, hanya tag tertentu yang akan dimasukkan ke tabel shapefile.
+>Situs-situs yang tercantum di atas menyediakan shapefile dengan pengaturan
+>standar tag umum, tetapi jika Anda ingin mengekstrak tag tertentu Anda perlu
+>menggunakan salah satu layanan tertentu pada sesi selanjutnya atau mempelajari
+>bagaimana mengeksport data Anda sendiri.
 
 Ekstrak yang Disesuaikan
 -------------------------
+
 ### HOT Export
 [Humanitarian OpenStreetMap Team](http://hotosm.org) telah membuat layanan yang 
 memungkinakan pengguna memilih daerah yang mereka ingin ekstrak, dan juga menggunakan
-[JOSM Presets](/en/editing/josm-presets) untuk memilih tag yang sudah disesuaikan untuk
+[JOSM Presets](/bi/josm/josm-presets/) untuk memilih tag yang sudah disesuaikan untuk
 dimasukkan dalam ekstrak. Layanan yan tersedia untuk semua negara dimana HOT bekerja, di
 [export.hotosm.org](http://export.hotosm.org).
 
