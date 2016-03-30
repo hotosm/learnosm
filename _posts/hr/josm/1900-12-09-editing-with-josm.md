@@ -40,28 +40,28 @@ Slojevi koji se koriste kao reference, naprimjer, satelitske podloge, GPS tragov
 karte i slični se inače zovu "base layers" ili osnovni slojevi. OSM data sloj je onaj na
 kojem zapravo radiš. 
 
--   Za pomaknuti sloj, klikni na njega u Layers prozoru te klikni na strelice
-    gore ili dolje da bi ga pomaknuo
+- Za pomaknuti sloj, klikni na njega u Layers prozoru te klikni na strelice
+  gore ili dolje da bi ga pomaknuo
 
 ![Layers up down][]
 
--   Da bi sakrio sloj, odaberi ga uz pomoć miša i klikni na Show/Hide gumb:
+- Da bi sakrio sloj, odaberi ga uz pomoć miša i klikni na Show/Hide gumb:
 
 ![Layers show hide][]
 
--   Izabrani sloj se više nebi trebao vidjeti u glavnom prozoru. Ponovno klikni
+- Izabrani sloj se više nebi trebao vidjeti u glavnom prozoru. Ponovno klikni
     Show/Hide i on će se pojaviti nazad.
--   Možeš ukloniti sloj odabirući ga i koristeći gumb za brisanje:
+- Možeš ukloniti sloj odabirući ga i koristeći gumb za brisanje:
 
 ![Layers delete][]
 
--   Na kraju važno je znati da možeš uređivati samo sloj koji je označen kao
-    *aktivan* u JOSM-u. Ako ne možeš uređivati kartu u glavnom prozoru, vjerojatno
-    nemaš pravi sloj označen kao aktivan. Većinu slojeva kao GPS točke, Field
-    Papers, satelitske podloge i slične ne možeš uređivati. Jedini slojevi koje
-    možeš uređivati su OpenStreetMap podatci, koji obično imaju naziv “Data Layer 1”.
--   Da bi sloj postao aktivan, odaberi sloj u Layers prozoru, te klikni
-    na Activate gumb:
+- Na kraju važno je znati da možeš uređivati samo sloj koji je označen kao
+  *aktivan* u JOSM-u. Ako ne možeš uređivati kartu u glavnom prozoru, vjerojatno
+  nemaš pravi sloj označen kao aktivan. Većinu slojeva kao GPS točke, Field
+  Papers, satelitske podloge i slične ne možeš uređivati. Jedini slojevi koje
+  možeš uređivati su OpenStreetMap podatci, koji obično imaju naziv “Data Layer 1”.
+- Da bi sloj postao aktivan, odaberi sloj u Layers prozoru, te klikni
+  na Activate gumb:
 
 ![Layers activate][]
 
@@ -78,12 +78,12 @@ To radiš na isti način kao što si do sad naučio, - **preuzmi, uredi, spremi*
 Razlika je što sad osim korištenja satelitskih podloga možeš koristiti GPS tragove,
 Field Papers karte, bilješke, ili kombinaciju svih.
 
--   Na primjer, recimo da imaš svoje GPS točke kao pozadinski sloj u JOSM-u,
-    na GPS uređaju si snimio točku pod nazivom 030, a u bilješkama si zapisao
-    da je 030 škola. Da bi dodao tu točku u OpenStreetMap, odaberi alat za
-    crtanje, te dvaput klikni na točku 030 u glavnom prozoru. To će kreirati točku.
-    Idi na Presets izbornik, i nađi oznaku za školu. Unesi naziv škole i klikni
-    “Apply Preset”. Isto učini za sve ostale točke, linije i oblike.
+- Na primjer, recimo da imaš svoje GPS točke kao pozadinski sloj u JOSM-u,
+  na GPS uređaju si snimio točku pod nazivom 030, a u bilješkama si zapisao
+  da je 030 škola. Da bi dodao tu točku u OpenStreetMap, odaberi alat za
+  crtanje, te dvaput klikni na točku 030 u glavnom prozoru. To će kreirati točku.
+  Idi na Presets izbornik, i nađi oznaku za školu. Unesi naziv škole i klikni
+  “Apply Preset”. Isto učini za sve ostale točke, linije i oblike.
 
 ![GPS in JOSM][]
 
@@ -105,9 +105,9 @@ Možeš dodati koliko god želiš oznaka na objekt. Oznake se spremaju
 kao tekstualni par, **ključ** i **vrijednost**. U OpenStreetMap-u
 maloprije navedene oznake bi u stvari izgledale ovako:
 
--   building = yes
--   name = Cibona
--   building:levels = 16
+- building = yes
+- name = Cibona
+- building:levels = 16
 
 Ako odabereš objekt u JOSM-u, možeš vidjeti njegove oznake u Properties
 prozoru s desne strane. 
@@ -120,11 +120,11 @@ su tradicionalno na engleskom jeziku te ponekad mogu biti zbunjujuće, pa ih je 
 jednostavnije koristiti iz Presets izbornika. Kad dodaješ ili mijenjaš oznake,
 svojstva objekta se mijenjaju.
 
--   Za uređivanje oznake objekta, prvo ju odaberi
--   Zatim uredi oznaku na jedan od dva načina: (1) Koristeći Presets izbornik,
-    ili (2) uredi oznake direktno u Properties prozoru s desne strane.
+- Za uređivanje oznake objekta, prvo ju odaberi
+- Zatim uredi oznaku na jedan od dva načina: (1) Koristeći Presets izbornik,
+  ili (2) uredi oznake direktno u Properties prozoru s desne strane.
 
-###Česta greška: Označavanje točaka kad želiš označiti linije i poligone
+### Česta greška: Označavanje točaka kad želiš označiti linije i poligone
 Kad uređuješ svojstva točke, prvo odabereš točku i onda joj dodaš oznake
 putem Presets izbornika ili direktno u Properties prozoru. Česta greška
 je kod određivanja svojstva linije i oblika. Kod odabira objekta važno
@@ -156,16 +156,16 @@ te redovito slati promjene, postoje trenutci kad ćeš htjeti snimiti OSM podatk
 na računalo. Na primjer, ako imaš problematičnu veze na internet, htjet ćeš
 preuzeti podatke, spremiti ih, urediti, te kasnije poslati promjene.
 
--   Za snimiti OSM datoteku, provjeri je li to aktivni sloj u Layers
-    prozoru. Klikni "File" na gornjem izborniku, te klikni "Save".
-    Odaberi lokaciju gdje želiš snimiti dokument i daj mu ime. Također možeš
-    snimiti klikom na ovaj gumb:
+- Za snimiti OSM datoteku, provjeri je li to aktivni sloj u Layers
+  prozoru. Klikni "File" na gornjem izborniku, te klikni "Save".
+  Odaberi lokaciju gdje želiš snimiti dokument i daj mu ime. Također možeš
+  snimiti klikom na ovaj gumb:
 
 ![JOSM save button][]
 
--   Sad možeš zatvoriti JOSM i tvoji podatci će biti spremljeni. Kad ponovno
-    želiš otvoriti datoteku jednostavno otvori JOSM, idi na “File” izbornik,
-    te klikni “Open...”
+- Sad možeš zatvoriti JOSM i tvoji podatci će biti spremljeni. Kad ponovno
+  želiš otvoriti datoteku jednostavno otvori JOSM, idi na “File” izbornik,
+  te klikni “Open...”
 
 Sažetak
 -------

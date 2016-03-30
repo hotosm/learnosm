@@ -54,18 +54,18 @@ extensions.  This is fairly easy to setup using the One-Click Installer.
 	user has superuser privileges, meaning that they can do whatever they want, so don’t forget
 	the password that you use!
 
->	You can create as many databases as you want using Postgresql.  You might want a database for
->	your geographic data, and separate databases for other projects that you are working on.  And
->	you may want different people to have different types of access to these databases.  For this
->	purpose, every database that you create uses the concept of **users** and **roles**.  A database must
->	always be owned by a user, and usually that user will need a password in order to make changes
->	to the database.  Additional users can be given permission to access a database, and they can
->	be given certain roles.  For example, you may want a database user that can only read information
->	from the database, but cannot change it.  Or you may want a user that can add data, but does not
->	have permission to delete it.  With users and roles, this is possible.  For now we won’t worry too
->	much about this, just remember that your database is owned by a **user**, and to access the database
->	you will need the user’s name and password.  The first user we create (named postgres) is a **superuser**,
->	meaning they have permission to do everything with the databases.
+> You can create as many databases as you want using Postgresql.  You might want a database for
+> your geographic data, and separate databases for other projects that you are working on.  And
+> you may want different people to have different types of access to these databases.  For this
+> purpose, every database that you create uses the concept of **users** and **roles**.  A database must
+> always be owned by a user, and usually that user will need a password in order to make changes
+> to the database.  Additional users can be given permission to access a database, and they can
+> be given certain roles.  For example, you may want a database user that can only read information
+> from the database, but cannot change it.  Or you may want a user that can add data, but does not
+> have permission to delete it.  With users and roles, this is possible.  For now we won’t worry too
+> much about this, just remember that your database is owned by a **user**, and to access the database
+> you will need the user’s name and password.  The first user we create (named postgres) is a **superuser**,
+> meaning they have permission to do everything with the databases.
 
 -	After you have clicked through the wizard and accepted the default configuration options, the
 	wizard will install everything for you.  It may take a few minutes.

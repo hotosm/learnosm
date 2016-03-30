@@ -126,7 +126,7 @@ verbonden in het paneel Eigenschappen aan de rechterzijde.
 
 ![Properties panel][]
 
-###Tags bewerken
+### Tags bewerken
 U kunt tags toevoegen, bewerken of verwijderen vanuit het paneel Eigenschappen. De tags zijn echter
 traditioneel in het Engels en kunnen soms verwarrend zijn, dus is
 het vaak eenvoudiger om het menu Voorkeuzen te gebruiken. Wanneer u tags toevoegt of wijzigt, worden de attributen
@@ -136,7 +136,7 @@ van het object gewijzigd.
 -   Bewerk dan de tags op één van de twee manieren: (1) Gebruik het menu Voorkeuzen,
     of (2) bewerk de tags direct in het venster Eigenschappen aan de rechterzijde. 
 
-###Veel voorkomende fout: Taggen van knopen wanneer u lijnen of polygonen wilt taggen
+### Veel voorkomende fout: Taggen van knopen wanneer u lijnen of polygonen wilt taggen
 Wanneer u de attributen van een punt bewerkt, zult u eerst
 het punt selecteren en dan tags toevoegen, ofwel via het menu Voorkeuzen of direct
 in het paneel Eigenschappen. Een veel voorkomende fout gebeurt vaak bij het toevoegen van attributen aan een

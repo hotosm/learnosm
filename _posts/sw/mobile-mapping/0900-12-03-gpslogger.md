@@ -121,7 +121,7 @@ Under **Performance** is where the settings for *location providers*, *timings*,
 
 Uploading GPS traces is another way of contributing data to the OpenStreetMap project. A trace is a record of your location at various time or distance intervals, and recorded as geographic coordinates (longitude, latitude, altitude). They can be used as a background layer when editing maps, and is useful for adding features to the map, similar to aerial imagery.
 
-####OpenStreetMap options
+#### OpenStreetMap options
 
 ![osm0][]
 
@@ -200,21 +200,22 @@ This will display an input dialog box where you can enter the text details of th
 #### Log intervals
 Log intervals are determined by time or distance under the **Performance** menu. 
 
-#####By time
+##### By time
 **Time before logging** is set to 60 seconds by default. You can change this to five or ten seconds, when you are walking instead of riding in a vehicle. When you are in a car, you can set this to 1 second to generate very accurate logs.
 
-#####By distance
+##### By distance
 The **Distance filter** is set by default to zero. You can set this to something else, if you want to record the coordinates for every X number of units from the last point recorded.
 
 
 ​Uploading traces
 ------------------
-####to OpenStreetMap
+
+#### to OpenStreetMap
 Press the *Upload* button and select the *OpenStreetMap* option. A dialog window will appear where files are available for selection. Choose any you want to upload and hit the *Ok* button.
 
 ![upload0][]
 
-####to other options
+#### to other options
 There are other upload options you can explore, but are outside the scope of this guide. Refer to the GPSLogger for Android Project website for details.
 
 
@@ -245,15 +246,15 @@ Display Options
 -----------------
 The application can be displayed 3 different ways, whichever you find most appropriate for your use:
 
-####Simple View
+#### Simple View
 
 ![view0][]
 
-####Detailed View
+#### Detailed View
 
 ![view1][]
 
-####Big View
+#### Big View
 
 ![view2][]
 

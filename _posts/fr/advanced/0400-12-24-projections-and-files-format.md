@@ -277,8 +277,6 @@ ou cinq types de fichiers.
 -   index (recommandé), un fichier d’index qui est utile pour accélérer
     Mapnik.
 
-### 
-
 #### Fichiers SQL PostGIS (.sql)
 
 Utilisez PGAdmin III
@@ -452,8 +450,6 @@ zone.
 Pour enregistrer l’emplacement de la zone que vous exportez, copier
 simplement l’url de la page. Celui-ci contient les latitude, longitude
 et zoom de la zone.
-
-### 
 
 ### B. HOT Export
 

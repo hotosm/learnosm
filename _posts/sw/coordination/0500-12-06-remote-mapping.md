@@ -7,10 +7,10 @@ category: coordination
 ---
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
 
-#Muongozo wa HOT Remote Response 
+# Muongozo wa HOT Remote Response 
 HOT ni jamii ya kimataifa inayofanya kazi kwa misingi ya vyanzo huria na data huria kwa msaada wa kibinadamu na maendeleo ya kiuchumi.
 
-###Jinsi Remote Response Inavyofanya kazi
+### Jinsi Remote Response Inavyofanya kazi
 
 ![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)
 
@@ -20,7 +20,7 @@ Kuzingatia kiwango cha tatizo, HOT inatoa nyenzo muhimu na uwajibikaji unaungani
 
 [Syria Activation Example](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)
 
-###Muhundo wa kufanya kazi wa HOT
+### Muhundo wa kufanya kazi wa HOT
 
 Muhundo wa kazi wa HOT (http://tasks.hotosm.org/) ni wazi chombo imeundwa ili kugawanya kazi za ramani kazi kwenye majukumu madogo madogo ambayo yanaweza kukamilika kabisa kwa uharaka. Inaonyesha maeneo ambayo yanahitaji kuchorewa ramani na maeneo ambayo ya ramani yaliyosahihishwa na wengine. Inahusisha pamoja na majukumu ramani kwa ajili ya kuhamasisha (http://wiki.openstreetmap.org/wiki/HOT_activation) , na kudumu kwa Miradi ya kibinadamu (http://hot.openstreetmap.org/projects). 
 
@@ -28,7 +28,7 @@ Ili kutumia Meneja muhundo wa HOT yakupasa kujiunga na OpenStreetMap ( OSM ) uki
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)
 
-###Vifaa vya kuhariri
+### Vifaa vya kuhariri
 
 [ID](/en/beginner/id-editor/) - iliyotokana na Mapbox kwa mtumiaaji (www.mapbox.com) kiujumlau hiki kifaa kinachukua ubora wa kwanza katika kuhariri. Unaweza kuzindua hii mwingiliano iD ya mhariri dodoso ili kujua jinsi ya kuitumia (http://ideditor.com/).
 
@@ -39,7 +39,7 @@ Ili kutumia Meneja muhundo wa HOT yakupasa kujiunga na OpenStreetMap ( OSM ) uki
 
 ![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)
 
-###Ushauri & Neno la Kukupamoyo
+### Ushauri & Neno la Kukupamoyo
 
 >"Inashauriwa kujifunza zaidi kwa kuanza  eneo unalolijua na kuhariri, kama vile kuchora majengo yaliyopo eneo unaloishi."
 
@@ -51,12 +51,12 @@ Ili kutumia Meneja muhundo wa HOT yakupasa kujiunga na OpenStreetMap ( OSM ) uki
 
 >"Picha za anga mara nyingine ni ngumu kuzitafsiri, lakini usiwe na wasiwasi sana kuhusu kuchora mistari halisi au umbo – kazi yako itaonekana na kurekebishwa na wengine, na kuendekea kurekebishwa kwa mda. Na kumbuka, haya ni maeneo ya majanga, sio ya kukusanya kodi au kupigia kura – hizi ramani zitakuwa tayari kwa watu ambao watakuwa na haraka, kwenye giza, au kwenye hatari. Afrika magharibi, hata mstari usio na ubora ni moja ya matumaini kawo. Huko  Gaza, majengo mengi yakuchorwa kwenye ramani yameshaondoka; lakini tunayachukulia kama yanajengwa. Ubora ni mzuri, lakini sio pointi." -Peter (@meetar) 
  
-###Miongozo Mingine
+### Miongozo Mingine
 
 Huu muongozo umeandaliwa na kukusanywa kutoka kwenye vitabu mbalimbali vilivyokuwepo na muongozo uliofanyiwa kazi kutoka HOT. Unaweza ukapata miongozo mingine katika tovuti zifuatazo.
 
 
-####Mafunzo
+#### Mafunzo
 
 [LearnOSM's Remote Mapping Guide](/en/coordination/remote/)- Moja kati ya miongozo mizuri. 
 
@@ -64,7 +64,7 @@ Huu muongozo umeandaliwa na kukusanywa kutoka kwenye vitabu mbalimbali vilivyoku
 
 [HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - Imeandikwa na Peter Richardson (@meetar) mtaalamu wa kujitolea wa HOT Remote Response.
 
-####Kuhusu HOT 
+#### Kuhusu HOT 
 [HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)- Jifunze zaidi jinsi HOT inavyofanya kazi na habari zake mpya.
 
 [HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- Inaelezea kazi za HOT kiundani kutoka kwenye tovuti yao.

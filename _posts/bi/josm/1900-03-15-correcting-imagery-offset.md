@@ -235,9 +235,9 @@ menunjukkan dimana pergeseran satelit ada, seperti yang Anda lihat disini:
 Satu hal yang perlu diingat adalah jarak pergeseran satelit tidak sama dengan daerah lain! Hal ini terutama di daerah 
 yang memiliki banyak gunung dan bukit. Jadi, jika citra satelit bergeser berbeda di area yang lain, Anda harus menggesernya kembali.
 
->	Satu hal yang perlu diingat adalah jarak pergeseran satelit tidak sama dengan daerah lain!
->	Hal ini terutama di daerah yang memiliki banyak gunung dan bukit.
->	Jadi, jika citra satelit bergeser berbeda di area yang lain, Anda harus menggesernya kembali.
+> Satu hal yang perlu diingat adalah jarak pergeseran satelit tidak sama dengan daerah lain!
+> Hal ini terutama di daerah yang memiliki banyak gunung dan bukit.
+> Jadi, jika citra satelit bergeser berbeda di area yang lain, Anda harus menggesernya kembali.
 
 Ringkasan
 ----------

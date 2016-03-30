@@ -80,7 +80,7 @@ Unaweza kuongeza, kuhariri, na kufuta tags kwenye jopo la sifa. Hata hivyo, kija
 - Kuhariri tags za kitu, kwanza kichague.
 - Halafu hariri tags kwa moja kati ya hizi njia: (1) Tumia orodha ya Presets, au (2) hariri tags moja kwa moja katika dirisha   la sifa upande wa kulia.
 
-###Makosa ya kawaida: Kutag point wakati unataka kutambulisha mistari au pembe nyingi ‘polygons’
+### Makosa ya kawaida: Kutag point wakati unataka kutambulisha mistari au pembe nyingi ‘polygons’
 
 Wakati unahariri sifa za point, utaanza kwa kuchagua pointi na baada ya hapo  ‘add tags’ ama kwa njia ya  presets orodha ‘presets menu’ au moja kwa moja katika mali jopo ‘properties panel’. Makosa ya kawaida ni pale unapoongeza sifa za mstari au umbo. Wakati umechagua kitu, in muhimu kuchagua mstari wote na si pointi zinazoufanya huo mstari.
 

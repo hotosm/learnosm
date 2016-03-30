@@ -32,7 +32,7 @@ Index
 De HOT Tasking Manager <http://tasks.hotosm.org/>, is een intuïtieve tool die mappers kunnen gebruiken om een gebied op te delen in een grid en zo op een georganiseerde manier kunnen samenwerken. Mappers van over de hele wereld kunnen zo helpen bij het in kaart brengen van een specifiek gebied met een minimaal risico op dubbel werk. Mensen in het veld en op afstand kunnen zo effectief en snel werken en voorkomen dat zaken opnieuw gedaan moeten worden ivm conflicten.  
 
 
-##Overzicht van het proces
+## Overzicht van het proces
 
 1. Een administrator selecteert een gebied dat bijgewerkt moet worden in OpenStreetMap. Hij zorgt ervoor dat er geschikte satellietbeelden beschikbaar zijn voor de mappers op afstand en maakt een project aan voor het gebied. Het benodigde detailniveau en de urgentie worden aangegeven binnen het project, samen met andere benodigde informatie. Als de administrator tevreden is upload hij het project in de Tasking Manager [tasks.hotosm.org](http://tasks.hotosm.org) Soms maakt hij nog wijzigingen achteraf als dat nodig is.  
 2. Een remote mapper selecteert een vakje op de kaart, traceert de objecten en markeert de vakken als gereed wanneer hij klaar is.  
@@ -40,7 +40,7 @@ De HOT Tasking Manager <http://tasks.hotosm.org/>, is een intuïtieve tool die m
 4. De progressie van het project is te volgen middels de statistieken in het "stats" tabblad van het project. Het project kan worden teruggeschaald of gearchiveerd als dat nodig is door de beheerder.  
 
 
-##Opties & links
+## Opties & links
 
 De Task Manager opent automatisch in het Engels, om naar een andere taal over te schakelen kun je op **English** klikken in de rode banner, boven in het scherm.  
 
@@ -68,7 +68,7 @@ Je kunt de projecten bekijken als bezoeker, maar om actief deel te nemen moet je
 ![Authorizing access to OSM account by the Tasking Manager][]
 
 
-##Een project zoeken
+## Een project zoeken
 
 De huidige lijst met projecten kun je sorteren op:  
 
@@ -85,7 +85,7 @@ Klik op een blauwe titel van een project om meer informatie over dat project te 
 ![Job description][]
 
 
-##Beshrijving
+## Beshrijving
 
 Alles wat je van dit project moet weten staat hier!. Aan de linkerkant is een beschrijving van het project en wat er nodig is. Aan de rechterkant zie je het gebied dat in kaart gebracht moet worden;  
 
@@ -114,12 +114,12 @@ Soms zijn er taakspecifieke satellietbeelden beschikbaar - je zult een licentiev
 Wanneer je een vierkant als gereed markeert, zullen controleurs(validators) verwachten dat de vereisten uit de instructies aanwezig zijn. Je zult wellicht merken dat het volbrengen van een volledige task(square) moeilijk kan zijn, verderop zul je uitleg krijgen over het unlocken van tiles en over het feedback geven aan de volgende mapper.  
 
 
-###Activiteit tabblad  
+### Activiteit tabblad  
 
 Dit tabblad laat de activiteit zien binnen het project, op chronologische volgorde.  
 
 
-###Statistieken tabblad  
+### Statistieken tabblad  
 
 Dit tabblad bevat een grafiek van de progressie en andere informatie.  
 
@@ -128,14 +128,14 @@ Ook bevat het tabblad een lijst van mappers die op zijn minst één tile als ger
 Wanneer je eenmaal de tiles hebt gevonden voor een gebruiker, kun je op het vierkant klikken om de opmerkingen te bekijken. Hiermee kun je snel nuttige feedback bekijken van controleurs(validators).  
 
 
-###Bijdragen Tabblad  
+### Bijdragen Tabblad  
 
 Klik hierop wanneer je klaar bent om te gaan mappen. Je kunt een vierkant kiezen om aan te werken door op de kaart te klikken of door voor een willekeurige taak te kiezen middels de knop.  
 
 ![Picking a task][]  
 
 
-##Selecteer een tile om aan te werken  
+## Selecteer een tile om aan te werken  
 
 ![Assigned task square][]  
 
@@ -146,14 +146,14 @@ Als je per ongeluk een gebied selecteert, kun je het weer ontgrendelen door op d
 Door op de knop **Start Mapping** te klikken, wordt het gebied voor jou vergrendeld, zodat niemand anders er tegelijk aan kan werken tot je het weer hebt ontgrendeld, en start een teruglopende klok van 2 uur (120 minuten), waarna het gebied automatisch weer wordt ontgrendeld. Het is goed om je aan te wennen om regelmatig te controleren of de tijd nog niet is verstreken, het komt geregeld voor dat je zo opgaat in het in kaart brengen dat je je niet realiseert dat jouw vierkant weer is vrijgegeven, en er nog iemand anders aan kan gaan werken. Dit kan leiden tot conflicten en problemen.  
 
 
-###Editing Tools
+### Editing Tools
 
 Verschillende edit opties worden beschikbaar zodra je een tile vergrendeld hebt.
 
 ![Editing options][]  
 
 
-####Edit met JOSM  
+#### Edit met JOSM  
 
 Start JOSM voordat je deze link gebruikt en de bestaande gegevens van OSM  zullen automatisch worden ingeladen in JOSM.  
 
@@ -162,12 +162,12 @@ Start JOSM voordat je deze link gebruikt en de bestaande gegevens van OSM  zulle
 > 3. Als JOSM niet automatisch ook de satellietbeelden inlaadt, kun je die vinden onder het menu **Imagery**. [Hier staat meer informatie over afbeeldingen](en/josm/more-about-josm/#add-imagery)   
 
 
-####iD editor  
+#### iD editor  
 
 Selecteer dit om automatisch een nieuwe tab of venster te openen in je webbrowser, met bestaande gegevens van OSM geladen. Internet Explorer ondersteunt op dit moment het gebruik van iD niet, en het zal in plaats daarvan Potlatch 2 laden. Je originele venster of tab met de Task Manager zal aanwezig blijven.  
 
 
-####Potlatch 2  
+#### Potlatch 2  
 
 De bewerker zal laden in een nieuw venster of tab. Potlach zal niet automatisch de begrenzing van de taak laten zien, maar dit kun je met de volgende procedure doen:  
 
@@ -181,19 +181,19 @@ De bewerker zal laden in een nieuw venster of tab. Potlach zal niet automatisch 
 8. Potlatch zou nu de grenzen van het gebied moeten weergeven(waarschijnlijk lichtblauw). Potlach zal nog steeds data inladen buiten het gebied.  
 
 
-####Walking Papers / Field Papers  
+#### Walking Papers / Field Papers  
 
 Gebruik deze optie alleen als je betrokken bent bij een project waar een lokale mapper veldwerk heeft gedaan en papieren kaarten heeft gevuld met informatie, zoals straatnamen. Deze kaart kan worden ingescand & gebruikt als achtergrondafbeelding voor een mapper op afstand of ene lokale mapper om de informatie te lezen & de gegevens van OpenStreeetMap bij te werken [gedeelte Field papers van LearnOSM](/en/mobile-mapping/field-papers/).  
 
 
-###Een taak opsplitsen  
+### Een taak opsplitsen  
 
 Sommige taken zijn te groot om in 1 keer af te kunnen ronden, als er te veel objecten zijn om in kaart te brengen. Bijvoorbeeld als het grootste gedeelte bestaat uit gebouwen in dichtbebouwde stedelijke gebieden, of het lokaliseren van kleine dorpen in grote gebieden. Al richtlijn: waar het voor ene persoon niet mogelijk is om de taak te voltooien binnen de tijdslimiet van 2 uur, kunt u vaak de taak opsplitsen in 4 kleinere gebieden. *Gebruik dit voorzichtig* - als/wanneer vierkanten te klein gesplitst worden is het moeilijk te beoordelen om welk type weg het gaat, en om andere objecten te identificeren.  
 
 > Wees je ervan bewust dat bestaande opmerkingen over het eerder voltooide werk niet meer beschikbaar zullen zijn na het opsplitsen.
 
 
-###Een taak ontgrendelen voordat deze gereed is
+### Een taak ontgrendelen voordat deze gereed is
 
 Als je begint aan een taak, maar deze niet af kunt ronden, kun je de taak ontgrendelen en een opmerking voor het vierkant achterlaten. Geef aan wat er nog moet gebeuren en kies **ontgrendel** of **unlock**. Zorg ervoor dat je opmerkingen relevant zijn en de volgende mapper kunnen helpen.  
 
@@ -203,7 +203,7 @@ Bijvoorbeeld:
     in the square to be traced though
 
 
-###Een tile afronden
+### Een tile afronden
 
 Het is lastig om absoluut zeker te zijn dat je een tile hebt afgerond, het is acceptabel als je redelijk zeker weet dat je klaar bent, omdat een andere mapper zal controleren of dit het geval is en kleine wijzigingen zal toevoegen.  
 
@@ -215,7 +215,7 @@ Wanneer je klaar bent met editen en denkt dat het gebied gereed is, sla je wijzi
 + Klik op de knop "Markeer als gereed" of "Mark Task as Done" en is je werk klaar om gecontroleerd te worden.  
 
 
-###Een bericht sturen vanuit de comment box
+### Een bericht sturen vanuit de comment box
 
 Bij het vermelden van een opmerking voor een vierkant kun je de opmerking als een bericht verzenden naar een benoemde mapper. Net zoals bij Twitter, gebruik je hiervoor @ gevolgd door de gebruikersnaam. De gebruiker ontvangt vervolgens de opmerking en een link naar het vierkant waarbij de opmerking is geplaatst.  
 
@@ -244,7 +244,7 @@ Als je een bericht moet sturen, zoals een email of een IRC bericht, en je wilt i
     - of sneltoets **Ctrl+V** om de link in het bericht te plakken. 
 
 
-###Vraag om live hulp 
+### Vraag om live hulp 
 
 ![IRC_help][] 
 
@@ -263,7 +263,7 @@ In de tasking manger;
 - Je kunt ook een IRC client naar keuze gebruiken (Server=irc.oftc.net, kanaal=#hot)  
 
 
-###Editing hints en tips  
+### Editing hints en tips  
 
 Je hebt nu een goed beeld gekregen van de Tasking Manager en van enkele functies. In tegenstelling tot normale edits, wordt deze tool veel gebruikt voor kritische projecten met veel deelnemers, dit kan afwijken van wat je normaal gesproken gewend bent.  
 

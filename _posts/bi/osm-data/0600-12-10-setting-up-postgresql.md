@@ -54,19 +54,19 @@ PostGIS. Hal ini cukup mudah dilakukan pengaturan menggunakan One-Click Installe
 	ini memiliki hak superuser, yang berarti bahwa mereka dapat melakukan apapun sesuai dengan keinginan
 	mereka, jadi jangan lupa dengan kata sandi yang Anda gunakan!
 
->	Anda dapat membuat banyak database sesuai dengan keinginan Anda menggunakan Postgresql. Anda 
->	mungkin ingin membuat database untuk data geografis Anda, dan memisahkan database untuk proyek
->	lain yang sedang Anda kerjakan. Dan Anda ingin orang yang berbeda memiliki jenis akses ke database
->	ini. Untuk tujuan ini, setiap database yang Anda buat menggunakan konsep **pengguna** dan **peran**.
->	Database harus selalu dimiliki oleh pengguna, dan biasanya pengguna perlu kata sandi untuk membuat
->	perubahan ke database. Pengguna tambahan dapat diberikan izin untuk mengakses database, dan 
->	mereka dapat memberikan peran tertentu. Misalnya, Anda mungkin ingin pengguna database hanya dapat 
->	membaca informasi dari database, tetapi tidak dapat mengubahnya. Atau Anda ingin pengguna dapat 
->	menambahkan data, tetapi tidak diberikan izin untuk menghapusnya. Dengan pengguna dan peran, ini
->	mungkin terjadi. Untuk sekarang kita tidak perlu khawatir terlalu banyak tentang ini, ingat bahwa
->	database Anda dimiliki oleh **pengguna**, dan untuk mengakses database Anda perlu nama pengguna dan
->	kata sandi. Pengguna pertama yang kita buat (bernama postgres) adalah **superuser**, berarti mereka
->	memiliki izin untuk melakukan segalanya dengan database tersebut.
+> Anda dapat membuat banyak database sesuai dengan keinginan Anda menggunakan Postgresql. Anda 
+> mungkin ingin membuat database untuk data geografis Anda, dan memisahkan database untuk proyek
+> lain yang sedang Anda kerjakan. Dan Anda ingin orang yang berbeda memiliki jenis akses ke database
+> ini. Untuk tujuan ini, setiap database yang Anda buat menggunakan konsep **pengguna** dan **peran**.
+> Database harus selalu dimiliki oleh pengguna, dan biasanya pengguna perlu kata sandi untuk membuat
+> perubahan ke database. Pengguna tambahan dapat diberikan izin untuk mengakses database, dan 
+> mereka dapat memberikan peran tertentu. Misalnya, Anda mungkin ingin pengguna database hanya dapat 
+> membaca informasi dari database, tetapi tidak dapat mengubahnya. Atau Anda ingin pengguna dapat 
+> menambahkan data, tetapi tidak diberikan izin untuk menghapusnya. Dengan pengguna dan peran, ini
+> mungkin terjadi. Untuk sekarang kita tidak perlu khawatir terlalu banyak tentang ini, ingat bahwa
+> database Anda dimiliki oleh **pengguna**, dan untuk mengakses database Anda perlu nama pengguna dan
+> kata sandi. Pengguna pertama yang kita buat (bernama postgres) adalah **superuser**, berarti mereka
+> memiliki izin untuk melakukan segalanya dengan database tersebut.
 
 
 *	Setelah Anda mengklik melalui wizard dan menerima pilihan konfigurasi standar, wizard akan menginstal

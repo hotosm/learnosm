@@ -31,6 +31,7 @@ category: coordination
 برای استفاده از مدیریت وظایف HOT بایستی به حساب کاربری خود در OSM با نام کاربری و رمز مربوطه وارد شوید. برای راهنمایی بیشتر قسمت [آموزش مدیریت وظایف](http://learnosm.org/fa/coordination/tasking-manager/) را بخوانید. 
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)
+
 ### ابزارهای ویرایش 
 
 [iD](http://learnosm.org/en/beginner/id-editor/) - یک ویرایشگر بر پایه وب است که توسط [Mapbox](www.mapbox.com) و با یک رابط کاربری بسیار کاربرپسند طراحی شده است. معمولاً به عنوان بهترین ابزار ویرایش در شروع کار از آن یاد می‌شود. می‌توانید به صفحه [آموزش تعاملی ویرایشگر iD](http://ideditor.com/) بروید تا با شیوه استفاده از آن آشنا شوید.

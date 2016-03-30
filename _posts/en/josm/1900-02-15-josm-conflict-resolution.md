@@ -80,6 +80,7 @@ Conflicts only appear with two different edits at a time.  If there are three or
 
 Ways to Avoid Conflicts
 ------------------------
+
 ### Upload Frequently
 To minimize the chance and number of conflicts it is important to upload your edits regularly.  Conflicts appear more frequently for those who tend to save the area they are working on in their local server and wait a while to upload it.  It is best to download the area you are working on, edit it and then immediately upload it.  The longer the time between downloading data and uploading changes to that data, the more likely it is that someone has edited something in the meantime.
 

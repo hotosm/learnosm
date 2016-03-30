@@ -59,9 +59,9 @@ to make changes to the map, because the map is often being updated by other user
     lets you drag the map, and your scroll wheel allows you to zoom in and
     out.
 
->	Sometimes if you are working on a notebook computer it can be difficult
->	to scroll in and out. Working in JOSM is much easier if you have a mouse,
->	but most modern notebooks allow you to scroll using the touchpad.
+> Sometimes if you are working on a notebook computer it can be difficult
+> to scroll in and out. Working in JOSM is much easier if you have a mouse,
+> but most modern notebooks allow you to scroll using the touchpad.
 
 -	Draw a box around the area that you want to download. To draw a new box, click on the
     map, hold your left mouse button down, and drag your mouse to create
@@ -81,12 +81,14 @@ contributing to the map.
 -	To add the Bing satellite imagery in JOSM, click "Imagery" on the top menu of
     JOSM and selecting “Bing Sat.”
 
->   If you don't see Bing Sat on the Imagery menu, you may need to activate
->   it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
->   that says “WMS TMS”. You may need to click on the down arrow to find it.
+> If you don't see Bing Sat on the Imagery menu, you may need to activate
+> it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
+> that says “WMS TMS”. You may need to click on the down arrow to find it.
+> <br>
 >	![JOSM Preferences up down][]
 >	![JOSM Preferences WMS TMS][]
->   Click on “Bing Sat”. Then Click “Activate”.
+> <br>
+> Click on “Bing Sat”. Then Click “Activate”.
 
 
 ### Tour of JOSM
@@ -140,11 +142,11 @@ have seen previously - points, lines, and shapes that represent real-life locati
     Describe these objects by selecting from the Presets menu, as you
     did in the previous section. 
 
->  Never edit the map outside of the area you have downloaded. You  
->  can see the rectangular area you have downloaded has a solid background,  
->  while the area you have not downloaded has diagonal pinstriped lines.  
-
-![JOSM area downloaded][]
+> Never edit the map outside of the area you have downloaded. You  
+> can see the rectangular area you have downloaded has a solid background,  
+> while the area you have not downloaded has diagonal pinstriped lines. 
+> <br>  
+> ![JOSM area downloaded][]
 
 Save Changes
 --------------

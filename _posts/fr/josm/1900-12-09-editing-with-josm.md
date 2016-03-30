@@ -287,57 +287,57 @@ enregistrer ces modifications dans la base OpenStreetMap. Pour enregistrer les
 modifications, nous devons être connecté à Internet, parce que nous allons
 téléverser les modifications vers la base OpenStreetMap.
 
--   Cliquez sur «Fichier» dans le menu du haut, puis cliquez sur «Envoyer». Ceci
-    va ouvrir la fenêtre de téléchargement. Vous pouvez accéder à cette fenêtre
-    en cliquant simplement sur le bouton de téléchargement, illustré ici:
+- Cliquez sur «Fichier» dans le menu du haut, puis cliquez sur «Envoyer». Ceci
+  va ouvrir la fenêtre de téléchargement. Vous pouvez accéder à cette fenêtre
+  en cliquant simplement sur le bouton de téléchargement, illustré ici:
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_67f320b3_en.png)
+  ![]({{site.baseurl}}/images/EditingWithJOSM_html_67f320b3_en.png)
 
--   La fenêtre qui apparaît affiche la liste des objets que vous ajoutez et les
-    objets que vous modifiez ou supprimez. Dans la boîte en bas de la fenêtre,
-    vous êtes invité à fournir un commentaire sur les modifications que vous
-    avez apportées. Entrez une description de vos modifications. Dans un
-    contexte collaboratif comme OpenStreetMap, il est important de décrire de
-    façon générale l'objet de ces ajouts, modifications et suppressions.
+- La fenêtre qui apparaît affiche la liste des objets que vous ajoutez et les
+  objets que vous modifiez ou supprimez. Dans la boîte en bas de la fenêtre,
+  vous êtes invité à fournir un commentaire sur les modifications que vous
+  avez apportées. Entrez une description de vos modifications. Dans un
+  contexte collaboratif comme OpenStreetMap, il est important de décrire de
+  façon générale l'objet de ces ajouts, modifications et suppressions.
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
+  ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
 
--   Cliquez sur «Télécharger les modifications».
+- Cliquez sur «Télécharger les modifications».
 
--   Si c'est la première fois que vous apportez des modifications dans
-    OpenStreetMap à partir de JOSM, on vous demandera de fournir votre nom d'utilisateur et votre mot de passe que vous avez créé précédemment.
+- Si c'est la première fois que vous apportez des modifications dans
+  OpenStreetMap à partir de JOSM, on vous demandera de fournir votre nom d'utilisateur et votre mot de passe que vous avez créé précédemment.
 
--   Saisissez-les dans la fenêtre qui apparaît. Si vous cochez la case dans
-    cette fenêtre, votre nom d'utilisateur et votre mot de passe seront
-    sauvegardés et vous n'aurez pas besoin de les entrer à nouveau à l'avenir.
-    Cliquez sur «Authentification».
+- Saisissez-les dans la fenêtre qui apparaît. Si vous cochez la case dans
+  cette fenêtre, votre nom d'utilisateur et votre mot de passe seront
+  sauvegardés et vous n'aurez pas besoin de les entrer à nouveau à l'avenir.
+  Cliquez sur «Authentification».
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
+  ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
 
--   Vous devrez attendre quelques secondes pour que vos modifications soient 
-    transférées. Et voilà! Vous avez fait votre première modification à
-    OpenStreetMap. Vous pouvez continuer à éditer pour ajouter tous vos points
-    si vous le souhaitez. Assurez-vous toujours de téléverser vos modifications
-    avant de fermer JOSM.
+- Vous devrez attendre quelques secondes pour que vos modifications soient 
+  transférées. Et voilà! Vous avez fait votre première modification à
+  OpenStreetMap. Vous pouvez continuer à éditer pour ajouter tous vos points
+  si vous le souhaitez. Assurez-vous toujours de téléverser vos modifications
+  avant de fermer JOSM.
 
-## Voir vos modifications sur la carte
+## Voir vos modifications sur la carte
 
--   Ouvrez votre navigateur Internet et allez à
-    [http://openstreetmap.org/](http://openstreetmap.org/)
+- Ouvrez votre navigateur Internet et allez à
+  [http://openstreetmap.org/](http://openstreetmap.org/)
 
--   Déplacez la carte vers la zone que vous avez modifiée.
+- Déplacez la carte vers la zone que vous avez modifiée.
 
--   Vous devriez voir vos modifications apparaitre maintenant sur la carte!
-    Si vous ne les voyez pas, essayez d'appuyer sur «CTRL + R» pour actualiser
-    la page Web. Parfois, la carte ne se met pas à jour correctement et doit
-    être rechargée.
+- Vous devriez voir vos modifications apparaitre maintenant sur la carte!
+  Si vous ne les voyez pas, essayez d'appuyer sur «CTRL + R» pour actualiser
+  la page Web. Parfois, la carte ne se met pas à jour correctement et doit
+  être rechargée.
 
--   Que faire si vous ne voyez pas vos modifications ? Ne vous inquiétez pas. Ça
-    peut prendre plusieurs minutes avant que les changements apparaissent sur la
-    carte. En outre, vérifiez vos ajouts dans JOSM pour vous assurer que vous
-    les avez ajoutés correctement. Une bonne règle générale: si une icône est
-    associé à votre point dans JOSM, alors il devrait être vu sur la carte
-    principale sur le site OpenStreetMap.
+- Que faire si vous ne voyez pas vos modifications ? Ne vous inquiétez pas. Ça
+  peut prendre plusieurs minutes avant que les changements apparaissent sur la
+  carte. En outre, vérifiez vos ajouts dans JOSM pour vous assurer que vous
+  les avez ajoutés correctement. Une bonne règle générale: si une icône est
+  associé à votre point dans JOSM, alors il devrait être vu sur la carte
+  principale sur le site OpenStreetMap.
 
 ## Enregistrement des fichiers OSM
 
@@ -346,21 +346,20 @@ localement, par exemple pour pouvoir les éditer sans connexion Internet, puis
 téléverser les modifications plus tard quand vous avez de nouveau accès à
 Internet.
 
--   Pour enregistrer un fichier OSM, assurez-vous que c'est le calque actif dans
-    le panneau «Calques». Cliquez sur «Fichier» dans le menu du haut, puis
-    cliquez sur «Enregistrer». Choisissez un emplacement pour le fichier et
-    donnez-lui un nom. Vous pouvez également enregistrer en cliquant sur ce
-    bouton :
+- Pour enregistrer un fichier OSM, assurez-vous que c'est le calque actif dans
+  le panneau «Calques». Cliquez sur «Fichier» dans le menu du haut, puis
+  cliquez sur «Enregistrer». Choisissez un emplacement pour le fichier et
+  donnez-lui un nom. Vous pouvez également enregistrer en cliquant sur ce
+  bouton :
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png)
+  ![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png)
 
--   Vous pouvez maintenant fermer JOSM et vos données seront sauvegardées.
-    Lorsque vous voulez accéder au fichier à nouveau, il suffit d'ouvrir JOSM,
-    aller au menu «Fichier», et cliquer sur «Ouvrir».
+- Vous pouvez maintenant fermer JOSM et vos données seront sauvegardées.
+  Lorsque vous voulez accéder au fichier à nouveau, il suffit d'ouvrir JOSM,
+  aller au menu «Fichier», et cliquer sur «Ouvrir».
 
-
-## Résumé
-
+Résumé
+------
 Maintenant que vous avez vu comment ajouter des données à la base OpenStreetMap,
 quelle est la prochaine étape ? Rappelez-vous que les cartes OSM s'améliorent en
 permanence. Chacun des changements que vous apportez à la carte participe à

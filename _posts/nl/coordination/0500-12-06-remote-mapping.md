@@ -6,7 +6,7 @@ lang: nl
 category: coordination
 ---
 
-#HOT Remote Response Guide   
+# HOT Remote Response Guide   
 
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
 

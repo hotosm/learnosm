@@ -58,10 +58,10 @@ sering kali diperbarui oleh pengguna lain.
 	Tombol kanan mouse berguna untuk menggeser peta, dan roda gulir Anda
 	berguna untuk memperbesar dan memperkecil peta.
 
->	Biasanya jika Anda bekerja menggunakan komputer notebook akan lebih sulit
->	untuk menggulir peta. Bekerja di JOSM lebih mudah apabila Anda menggunakan mouse,
-> 	tetapi sekarang notebook lebih modern memungkinkan Anda untuk menggulir peta
->	menggunakan touchpad.
+> Biasanya jika Anda bekerja menggunakan komputer notebook akan lebih sulit
+> untuk menggulir peta. Bekerja di JOSM lebih mudah apabila Anda menggunakan mouse,
+> tetapi sekarang notebook lebih modern memungkinkan Anda untuk menggulir peta
+> menggunakan touchpad.
 
 *	Gambarlah kotak disekitar area yang Anda ingin download. Untuk menggambar kotak 
 	baru, klik pada peta, tahan tombol kiri mouse ke bawah, dan geser mouse Anda
@@ -81,12 +81,14 @@ pengguna OpenStreetMap sebagai referensi sementara dalam berkontribusi untuk pem
 *	Untuk menambahkan citra satelit Bing di JOSM, klik "Imagery" di bagian menu atas JOSM
 	dan pilihlah "Bing Sat".
 
->	Jika pada menu Imagery Anda tidak muncul Bing Sat, Anda perlu mengaktivasinya
->	di dalam pengaturan JOSM. Pergilah ke Edit -> Preferences dan klik pada ikon "WMS TMS".
->	Anda perlu mengklik pada panah bawah untuk menemukannya.
->	![JOSM Preferences up down][]
->	![JOSM Preferences WMS TMS][]
->	Klik pada "Bing Sat". Kemudian klik "Activate".
+> Jika pada menu Imagery Anda tidak muncul Bing Sat, Anda perlu mengaktivasinya
+> di dalam pengaturan JOSM. Pergilah ke Edit -> Preferences dan klik pada ikon "WMS TMS".
+> Anda perlu mengklik pada panah bawah untuk menemukannya.
+> <br>
+> ![JOSM Preferences up down][]
+> ![JOSM Preferences WMS TMS][]
+> <br>
+> Klik pada "Bing Sat". Kemudian klik "Activate".
 
 ### Mengenal JOSM lebih jauh
 Kita telah mendownload data OpenStreetMap dan menambahkan citra satelit Bing, 
@@ -140,10 +142,11 @@ yang kita lihat sebelumnya - titik, garis, dan poligon yang mewakili lokasi kehi
 	Deskripsikan objek tersebut dengan memilihnya dari menu Presets, karena Anda
 	telah melakukannya di bab sebelumnya.
 	
->	Jangan mengedit peta di luar area yang telah Anda download. Anda dapat 
->	melihat area persegi yang telah Anda download dengan memiliki latar belakang
->	yang gelap, sementara area Anda yang belum terdownload memiliki garis diagonal.
->	![JOSM area downloaded][]
+> Jangan mengedit peta di luar area yang telah Anda download. Anda dapat 
+> melihat area persegi yang telah Anda download dengan memiliki latar belakang
+> yang gelap, sementara area Anda yang belum terdownload memiliki garis diagonal.
+> <br>
+> ![JOSM area downloaded][]
 
 Menyimpan Perubahan
 -------------------
@@ -178,10 +181,10 @@ perubahan, kita harus terkoneksi dengan internet.
 	telah diupload, dan selesai! Anda telah mengedit peta di dalam
 	OpenStreetMap.
 	
->	Ketika Anda mengedit, pastikan untuk mengupload perubahan Anda sebelum Anda
->	menutup JOSM. Bahkan jika Anda telah mengedit lebih banyak, mengupload 
->	perubahan Anda, kemudian ulangi langkah ini apabila Anda memiliki waktu untuk 
->	mengedit. Jika Anda tidak ingin kehilangan pekerjaan Anda!
+> Ketika Anda mengedit, pastikan untuk mengupload perubahan Anda sebelum Anda
+> menutup JOSM. Bahkan jika Anda telah mengedit lebih banyak, mengupload 
+> perubahan Anda, kemudian ulangi langkah ini apabila Anda memiliki waktu untuk 
+> mengedit. Jika Anda tidak ingin kehilangan pekerjaan Anda!
 
 Melihat Perubahan Anda Di Peta
 ------------------------------

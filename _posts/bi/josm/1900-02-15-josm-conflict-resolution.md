@@ -84,6 +84,7 @@ Konflik hanya muncul dengan dua editan yang berbeda pada saat bersamaan. Jika te
 
 Cara Menghindari Konflik
 -------------------------
+
 ### Upload Secara Rutin
 Untuk meminimalkan kesempatan dan jumlah konflik adalah sangat penting untuk menguload editan Anda secara rutin. Konflik muncul lebih sering untuk mereka yang mengedit seluruh wilayahnya terlebih dahulu dan menunda untuk menguploadnya. Hal yang terbaik adalah, download wilayah yang anda kerjakan, edit, kemudian upload secepatnya secara berkala.
 Semakin lama Anda mendownload data dan mengupload perubahan untuk data itu, semakin besar kemungkinan seseorang telah mengedit sesuatu untuk sementara itu.

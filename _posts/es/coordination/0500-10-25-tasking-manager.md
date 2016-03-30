@@ -68,7 +68,7 @@ Puede ver el proyecto como visitante pero si quiere participar debes iniciar ses
 ![Authorizing access to OSM account by the Tasking Manager][]
 
 
-##Localizando un proyecto
+## Localizando un proyecto
 
 La lista actual de proyectos puede ser ordenada por:  
 

@@ -42,9 +42,9 @@ setiap waktu ketika Anda mendownload data di JOSM, tetapi menggunakan file ini u
 analisis dan mendesain peta tidaklah mudah. Namun, Anda lebih baik mengkonversi data tersebut
 ke format lain, atau mendapatkannya dari layanan yang mengkonversi data Anda. 
 
->	Data mentah OSM disimpan di dalam file **.osm**, tetapi mungkin Anda melihat juga file
->	berakhiran **.bz2** dan **.pbf**. Ini adalah file dasar **.osm** yang telah dikompres
->	untuk menghemat ruang, yang dapat sangat membantu ketika bekerja dengan file data yang besar
+> Data mentah OSM disimpan di dalam file **.osm**, tetapi mungkin Anda melihat juga file
+> berakhiran **.bz2** dan **.pbf**. Ini adalah file dasar **.osm** yang telah dikompres
+> untuk menghemat ruang, yang dapat sangat membantu ketika bekerja dengan file data yang besar
 
 Shapefile
 ---------

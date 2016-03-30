@@ -43,10 +43,10 @@ download data in JOSM, but using these files for analysis and map design is
 not easy. Hence you are better off converting the data into another format, or
 getting it from a service that converts the data for you.
 
->	Raw OSM data is stored in **.osm** files usually, but you may also see files
->	ending in **.bz2** and **.pbf**. These are essentially **.osm** files that have
->	been compressed to save space, which can be extremely helpful when working
->	with large data files.
+> Raw OSM data is stored in **.osm** files usually, but you may also see files
+> ending in **.bz2** and **.pbf**. These are essentially **.osm** files that have
+> been compressed to save space, which can be extremely helpful when working
+> with large data files.
 
 Shapefiles
 ----------

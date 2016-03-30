@@ -235,10 +235,10 @@ that visualizes where the offsets are located, as you can see here:
 
 ![http://offsets.textual.ru/][]
 
->	One last thing to remember is that the imagery may not be offset the same
->	distance everywhere!  This is especially true in regions where there are
->	lots of hills and mountains.  So if the imagery seems to be offset differently
->	in different areas, you’ll need to move it again.
+> One last thing to remember is that the imagery may not be offset the same
+> distance everywhere!  This is especially true in regions where there are
+> lots of hills and mountains.  So if the imagery seems to be offset differently
+> in different areas, you’ll need to move it again.
 
 Summary
 --------
