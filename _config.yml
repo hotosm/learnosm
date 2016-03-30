@@ -1,8 +1,8 @@
 #Jekyll configuration file
 
 #Build configuration, see http://jekyllrb.com/docs/configuration/#default-configuration
-auto: true
-server: true
+# auto: true
+# server: true
 highlighter: rouge
 markdown: kramdown
 kramdown:
