@@ -1,20 +1,20 @@
 ---
 layout: doc
-title: Primi Passi con JOSM
+title: Primi passi con JOSM
 permalink: /it/josm/start-josm/
 lang: it
 category: josm
 published: true
 ---
 
-Primi Passi con JOSM
+Primi passi con JOSM
 =============================  
 
 > Questa guida può essere scaricata come [josm_start-josm_it.odt](/files/josm_start-josm_it.odt) oppure [josm_start-josm_it.pdf](/files/josm_start-josm_it.pdf)  
-> Revisionato 2015-07-12  
+> Revisionato il 2015-07-12  
 
-Come scaricare e installare JOSM, l'editor di OpenStreetMap in Java, modificare alcune impostazioni, caricare una mappa di esempio e
-imparare alcune operazioni fondamentali del programma. Ricorda nel
+Come scaricare e installare JOSM, l'editor scritto in Java di OpenStreetMap, modificare alcune impostazioni, caricare una mappa di esempio e
+imparare alcune operazioni fondamentali del programma. Ricordi nel
 capitolo introduttivo quando ti abbiamo chiesto di disegnare una mappa del tuo paese o 
 della tua città? Concluderemo questo capitolo disegnando nuovamente la tua mappa, questa
 volta digitalmente. Dopo di che dovresti avere una buona capacità
@@ -31,11 +31,11 @@ Se non hai ancora JOSM, o vuoi l'ultima versione, apri
 Nella barra degli indirizzi in alto nella finestra, scrivi
   il seguente testo e premi invio: [josm.openstreetmap.de](http://josm.openstreetmap.de)
 Puoi raggiungere il sito di JOSM cercando "JOSM" con un motore di ricerca.
-IL sito web dovrebbe assomigliare a questo:
+Il sito web dovrebbe assomigliare a questo:
 
   ![JOSM website][]
 
-Se il tuo pc ha Windows, fai click su “Windows Installer” per scaricare JOSM.
+Se il tuo pc ha Windows, fai click su “Windows installer” per scaricare JOSM.
 
   ![Windows installer][]
 
@@ -56,7 +56,7 @@ Installa JOSM
 
 - Trova il file di installazione di JOSM sul tuo computer. Fai doppio clic
   per iniziare l'installazione.
-- Fai clic su “OK”, “Next”, “I Agree”, e “Install”. A installazione
+- Fai clic su “OK”, “Next”, “I Agree”, e “Install”. Ad installazione
   completata, fai clic su “Finish” per lanciare JOSM la prima volta.
   In seguito, quando vorrai lanciare JOSM, potrai farlo facendo clic sul
   menù di Start nella parte bassa a sinistra del tuo schermo e facendo clic
@@ -73,7 +73,7 @@ Preferenze di JOSM
 --------------------
 
 Ci sono differenti impostazioni che puoi modificare in JOSM. 
-Un'impostazione che vorresti sistemare è la lingua. JOSM è
+Un'impostazione che potresti voler cambiare è la lingua. JOSM è
 stato tradotto in varie lingue e magari vorresti
 lavorare con una lingua differente.
 
@@ -90,7 +90,7 @@ lavorare con una lingua differente.
   ![Look and feel][]
 
 - Fai click su OK.
-- E’ necessario far ripartire JOSM per confermare la tua scelta. Fai clic in alto a sinistra su “File”
+- È necessario far ripartire JOSM per confermare la tua scelta. Fai clic in alto a sinistra su “File”
   e poi su “Restart” verso il fondo del menù.
 
 Impara il disegno di base con JOSM
@@ -150,7 +150,7 @@ Impara il disegno di base con JOSM
    esattamente come una linea; l’unica differenza è che questa linea è chiusa, inizia
   nello stesso punto dove finisce.
 
-> E' facile pensare che una mappa può contenere tre tipi di oggetti - 
+> Una mappa può contenere tre tipi di oggetti - 
 > punti, linee e aree. In OpenStreetMap c'è un termine speciale
 > che imparerai ad usare in futuro. In OSM i punti sono chiamati
 > **nodi** e le linee **ways**.  Un'area è chiamata **closed way**
@@ -229,7 +229,7 @@ Fai clic sul secondo bottone, “Disegna”.
   cambiare colore o mostrare un simbolo. Questo succede perché hai definito
   ciò che rappresenta.
 
-Disegna La Tua Mappa
+Disegna la tua mappa
 -----------------
 
 - Ora disegniamo una mappa per impratichirci delle tecniche finora
