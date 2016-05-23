@@ -1,7 +1,7 @@
 ---
 layout: doc
 permalink: /fr/coordination/
-lang: fr
+lang : fr
 title: Coordination
 category: coordination
 cover: yes
@@ -12,12 +12,12 @@ nosearch: true
 Coordination
 ============
 
-Cette page n'est pas disponible en Français et doit être traduite. Vous pouvez aussi consulter les autres versions dans les langues suivantes:  
+> Ce guide peut être téléchargé : [coordination_fr.odt](/files/coordination_fr.odt) ou [coordination_fr.pdf](/files/coordination_fr.pdf)  
+> Examiné 2015-09-18
 
-[English](/en/coordination/),  
-[Deutsch](/de/coordination/), or  
-[Español](/es/coordination/).  
+De nombreuses personnes cartographient ensemble sur OpenStreetMap. Il est donc
+utile de savoir comment les contributeurs peuvent coordonner cette activité.
 
-To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
-
-
+Cette partie de learnOSM donne des informations sur les différents outils
+utilisés pour coordonner la cartographie, faciliter la communication entre les contributeurs
+et assurer la qualité des travaux.
