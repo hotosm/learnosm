@@ -12,7 +12,7 @@ Kartierung mit Smartphone, GPS oder Field Paper
 =============================
 
 Diese Anleitung kann als [mobile-mapping_de.odt](/files/mobile-mapping_de.odt) or [mobile-mapping_de.pdf](/files/mobile-mapping_de.pdf) heruntergeladen werden  
-Geprüft 2015-07-14  
+> Geprüft 2015-07-14  
 
 Um eine wirklich genaue Karte zu erstellen müssen Sie das betreffende Gebiet vermessen. Die Anleitungen in diesem Kapitel erklären Ihnen, wie Sie das erreichen können:  
 
@@ -41,23 +41,23 @@ Im Hinblick auf die Eignung für OpenStreetMap kommt es auf diese Eigenschaften 
 
 Probieren Sie mehrere zu Ihrem Gerät kompatible Anwendungen aus, um sich mit der Benutzeroberfläche vertraut zu machen und herausfinden, welche davon Ihren Vorlieben und Vorgehensweisen am besten entspricht.
 
-<!-- Commenting for now since tables doesn't look very nice!
+<!-- bisher auskommentiert, weil Tabelle nicht sehr gut aussieht
 
-Recommended Applications for Smartphones / PDAs
+Empfohlene Anwendungen für Smartphones / PDAs
 -----------------------------------------------------
 
-| Application      | Usage  | Android  | Blackberry | iOS     | Windows |
+| Anwendung | Benutzung | Android | Blackberry | iOS | Windows |
 | ---------------- | :----: | :------: | :--------: | :-----: | :-----: |
-| Geopaparazzi     | m      | O        |            |         |         |
-| GPS Essentials   | m      | O        |            |         |         |
-| MapZen           | m:p    | O        |            | O       |         |
-| Open GPS Tracker | m      | O        |            |         |         |
-| OruxMaps         | m      | O        |            |         |         |
-| OSMAnd           | m:n:p  | O        | O          | D       |         |
-| OSMTracker       | m      | O        |            |         | O       |
-| Vespucci         | m:f    | O        |            |         |         |
+| Geopaparazzi | m | O | | | |
+| GPS Essentials | m | O | | | |
+| MapZen | m:p | O | | O | |
+| Open GPS Tracker | m | O | | | |
+| OruxMaps | m | O | | | |
+| OSMAnd | m:n:p | O | O | D | |
+| OSMTracker | m | O | | | O |
+| Vespucci | m:f | O | | | |
 
-O - supported, D - under development, m - mapping, n - navigation, p - POI editor, f - full editor
+O - unterstützt, D - in Entwicklung, m - Kartieren, n - Navigation, p - POI Editor, f - Vollständiger Editor
 
  -->
 
