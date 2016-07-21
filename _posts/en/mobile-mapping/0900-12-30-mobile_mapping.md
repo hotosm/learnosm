@@ -14,6 +14,8 @@ Mapping with a Smartphone, GPS or Paper
 > This guide may be downloaded as [mobile-mapping_en.odt](/files/mobile-mapping_en.odt) or [mobile-mapping_en.pdf](/files/mobile-mapping_en.pdf)  
 > Reviewed 2015-07-14  
 
+test 
+
 To really create a detailed & accurate map, you need to carry out a survey in the area you are updating. The guides in this section deal with  carrying out a survey using either a;  
 
 - GPS  which will probably be more accurate than your mobile phone,  
