@@ -8,6 +8,8 @@ markdown: kramdown
 kramdown:
   extensions: [smart]
 
+url: "http://learnosm.org/"
+
 #Permalink structure, see http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:title/
 
