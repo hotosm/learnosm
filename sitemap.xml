@@ -1041,8 +1041,8 @@
         <lastmod>2016-03-30T13:46:35+01:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//en/osm-data/setting-up-postgresql/</loc>
-        <lastmod>2016-03-30T13:46:35+01:00</lastmod>
+        <loc>http://learnosm.org//en/osm-data/postgresql/</loc>
+        <lastmod>2016-09-10T23:31:53+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/osm-data/setting-up-postgresql/</loc>
@@ -1121,8 +1121,8 @@
         <lastmod>2016-01-15T18:41:08+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//osm-data/geofabrik-and-hot-export</loc>
-        <lastmod>2016-09-06T01:11:08+01:00</lastmod>
+        <loc>http://learnosm.org//en/osm-data/geofabrik-and-hot-export/</loc>
+        <lastmod>2016-09-11T09:57:06+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//bi/osm-data/getting-data/</loc>
@@ -1621,6 +1621,10 @@
         <lastmod>2016-01-15T18:41:08+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//en/josm/josm-adding-imagery/</loc>
+        <lastmod>2016-09-11T11:05:30+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//bi/josm/aerial-imagery/</loc>
         <lastmod>2016-01-15T18:41:08+00:00</lastmod>
     </url>
@@ -2046,7 +2050,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//</loc>
-        <lastmod>2016-09-06T01:11:08+01:00</lastmod>
+        <lastmod>2016-09-11T11:05:30+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//site.js</loc>
