@@ -1389,6 +1389,10 @@
         <lastmod>2016-01-15T18:41:08+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//nl/mobile-mapping/oruxmaps/</loc>
+        <lastmod>2016-09-11T20:59:53+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//en/mobile-mapping/osmand/</loc>
         <lastmod>2016-03-28T12:32:07+01:00</lastmod>
     </url>
@@ -1402,7 +1406,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//nl/mobile-mapping/osmand2/</loc>
-        <lastmod>2016-03-28T12:32:07+01:00</lastmod>
+        <lastmod>2016-09-11T21:33:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//bi/mobile-mapping/field-papers/</loc>
@@ -1725,8 +1729,8 @@
         <lastmod>2016-01-15T18:41:08+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//en/josm/more-tools/</loc>
-        <lastmod>2016-01-15T18:41:08+00:00</lastmod>
+        <loc>http://learnosm.org//en/josm/josm-more-plugins/</loc>
+        <lastmod>2016-09-16T23:07:46+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/more-tools/</loc>
@@ -1742,7 +1746,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/josm-plugins/</loc>
-        <lastmod>2016-01-15T18:41:08+00:00</lastmod>
+        <lastmod>2016-09-16T23:31:38+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/josm/josm-plugins/</loc>
@@ -2050,7 +2054,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//</loc>
-        <lastmod>2016-09-11T11:05:30+01:00</lastmod>
+        <lastmod>2016-09-16T23:31:38+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//site.js</loc>
