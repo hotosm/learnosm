@@ -28,7 +28,7 @@ Any time you want to install a new plugin, go to **Edit \> Preferences** and cli
 
 Some of our favorite plugins are:
 
-1. **[buildings_tools](en/josm/josm-more-plugins):** If you draw a lot of buildings, this will make the process faster and easier  
+1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier  
 
 2. **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM database, this plugin makes it easy.  
 
@@ -42,7 +42,7 @@ Some of our favorite plugins are:
 
 7. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
 
-8. **[utilsplugin2](en/josm/josm-more-plugins):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)  
+8. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)  
 
 
 
