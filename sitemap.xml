@@ -1042,7 +1042,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//en/osm-data/postgresql/</loc>
-        <lastmod>2016-09-10T23:31:53+01:00</lastmod>
+        <lastmod>2016-09-18T10:06:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/osm-data/setting-up-postgresql/</loc>
@@ -1055,6 +1055,10 @@
     <url>
         <loc>http://learnosm.org//ja/osm-data/setting-up-postgresql/</loc>
         <lastmod>2016-01-15T18:41:08+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//nl/osm-data/postgresql/</loc>
+        <lastmod>2016-09-18T11:21:41+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//bi/osm-data/osm-in-qgis/</loc>
@@ -1122,7 +1126,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//en/osm-data/geofabrik-and-hot-export/</loc>
-        <lastmod>2016-09-11T09:57:06+01:00</lastmod>
+        <lastmod>2016-09-18T10:06:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//bi/osm-data/getting-data/</loc>
@@ -1169,6 +1173,10 @@
         <lastmod>2016-01-15T18:41:08+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//nl/osm-data/file-formats/</loc>
+        <lastmod>2016-09-18T11:08:25+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//bi/osm-data/data-overview/</loc>
         <lastmod>2016-01-15T18:41:08+00:00</lastmod>
     </url>
@@ -1211,6 +1219,10 @@
     <url>
         <loc>http://learnosm.org//ja/osm-data/</loc>
         <lastmod>2016-01-15T18:41:08+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//nl/osm-data/</loc>
+        <lastmod>2016-09-18T11:02:53+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//bi/map-design/tilemill/</loc>
@@ -1275,6 +1287,10 @@
     <url>
         <loc>http://learnosm.org//en/mobile-mapping/gomap/</loc>
         <lastmod>2016-08-14T12:06:12+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//nl/mobile-mapping/gomap/</loc>
+        <lastmod>2016-09-17T12:54:52+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/mobile-mapping/gpsessentials/</loc>
@@ -1498,7 +1514,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//hr/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-01-15T18:41:08+00:00</lastmod>
+        <lastmod>2016-09-18T10:06:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/mobile-mapping/using-gps/</loc>
@@ -1714,7 +1730,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/josm-presets/</loc>
-        <lastmod>2016-01-15T18:41:08+00:00</lastmod>
+        <lastmod>2016-09-17T01:29:54+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/josm-presets/</loc>
@@ -1737,6 +1753,10 @@
         <lastmod>2016-01-15T18:41:08+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//nl/josm/josm-more-plugins/</loc>
+        <lastmod>2016-09-18T10:41:29+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//bi/josm/josm-plugins/</loc>
         <lastmod>2016-01-15T18:41:08+00:00</lastmod>
     </url>
@@ -1746,7 +1766,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/josm-plugins/</loc>
-        <lastmod>2016-09-16T23:31:38+01:00</lastmod>
+        <lastmod>2016-09-17T01:04:54+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/josm/josm-plugins/</loc>
@@ -1762,7 +1782,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/josm-plugins/</loc>
-        <lastmod>2016-01-15T18:41:08+00:00</lastmod>
+        <lastmod>2016-09-17T12:48:22+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/josm/josm-plugins/</loc>
@@ -1942,11 +1962,11 @@
     </url>
     <url>
         <loc>http://learnosm.org//fr/josm/start-josm/</loc>
-        <lastmod>2016-01-15T18:41:08+00:00</lastmod>
+        <lastmod>2016-09-18T10:06:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/josm/start-josm/</loc>
-        <lastmod>2016-01-15T18:41:08+00:00</lastmod>
+        <lastmod>2016-09-18T10:06:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/josm/start-josm/</loc>
@@ -2054,10 +2074,10 @@
     </url>
     <url>
         <loc>http://learnosm.org//</loc>
-        <lastmod>2016-09-16T23:31:38+01:00</lastmod>
+        <lastmod>2016-09-18T11:21:41+01:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//site.js</loc>
-        <lastmod>2015-02-22T17:34:13+00:00</lastmod>
+        <lastmod>2016-09-18T10:06:10+01:00</lastmod>
     </url>
 </urlset>

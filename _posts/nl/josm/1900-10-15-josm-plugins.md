@@ -12,56 +12,37 @@ Plug-ins voor JOSM
 > Deze handleiding kan gedownload worden als [josm-plugins_nl.odt](/files/josm-plugins_nl.odt) of [josm-plugins_nl.pdf](/files/josm-plugins_nl.pdf)  
 > Bijgewerkt op 14-07-2015  
 
-Als u steeds meer vordert in uw technieken van bewerken, wilt u misschien
-aanvullende mogelijkheden van JOSM gebruiken om uw
-vaardigheden voor het maken van kaarten te verbeteren. JOSM stelt u in staat een groot aantal plug-ins te installeren, die
-extra functionaliteit aan de software toevoegen.
+Wanneer u meer gevorderd raakt in uw bewerkingstechnieken, wilt u misschien aanvullende mogelijkheden voor JOSM gebruiken om uw vaardigheden voor het in kaart brengen te verbeteren. JOSM stelt u in staat vele plug-ins te installeren, die extra functionaliteiten aan de software toevoegen.  
 
-In dit gedeelte zullen we nader kijken hoe plug-ins te installeren,
-en naar enkele van de meest nuttige plug-ins die beschikbaar zijn.
+In dit gedeelte zullen we nader kijken hoe plug-ins te installeren en naar enkele van de meest nuttige plug-ins die beschikbaar zijn.
 
 Plug-ins installeren 
 -------------------
--   Ga, elke keer als u een nieuwe plug-in wilt installeren, naar **Bewerken \> Voorkeuren**
-    en klik op de tab **Plug-ins**.
+Ga, elke keer als u een nieuwe plug-in wilt installeren, naar **Bewerken \> Voorkeuren** en klik op de tab **Plugins**.  
 
 ![Plugins][]
 
--   Klik op **Lijst downloaden** als u geen lijst met beschikbare plug-ins ziet.
--   U moet, om een plug-in te installeren, eenvoudigweg het vakje ernaast selecteren
-    en op OK klikken aan de onderzijde.
--   Tenslotte dient u, met sommige versies van JOSM, misschien JOSM opnieuw te straten wanneer u nieuwe plug-ins installeert.
+* Klik op **Lijst downloaden** als u geen lijst met beschikbare plug-ins ziet.  
+* U moet, om een plug-in te installeren, eenvoudigweg het vakje ernaast selecteren en onderin op OK drukken.  
+* Tenslotte dient u, met sommige versies van JOSM, misschien JOSM opnieuw te starten wanneer u nieuwe plug-ins installeert.
 
 Enkele van onze favoriete plug-ins zijn:
 
-1.  **buildings_tools:** Als u veel gebouwen tekent zal deze dat proces sneller en eenvoudiger maken
+1. **[buildings_tools](nl/josm/josm-more-plugins/):** Als u veel gebouwen tekent zal deze dat proces sneller en eenvoudiger maken  
 
-2.  **DirectUpload:** Als u veel GPS-sporen verzamelt en ze zou willen opslaan in de
-    database van OSM, maakt deze plug-in dat makkelijker.
+2.  **DirectUpload:** Als u veel GPS-sporen verzamelt en ze zou willen opslaan in de database van OSM maakt deze plug-in dat eenvoudig.  
 
-3.  **editgpx:**
-    Als u GPS-sporen wilt uploaden vanaf een apparaat van Garmin, heeft u misschien deze
-    plug-in nodig. OSM zal geen GPS-sporen accepteren die zijn opgeslagen op een externe geheugenkaart
-    in een Garmin, maar deze plug-in kan de bestanden corrigeren zodat zij kunnen worden geüpload.
+3. **editgpx:** Indien u GPS-sporen wilt uploaden vanaf een apparaat van Garmin heeft u misschien deze plug-in nodig. OSM accepteert geen GPS-sporen die zijn opgeslagen op een externe geheugenkaart van een apparaat van Garmin, maar deze plug-in kan de bestanden corrigeren zodat zij kunnen worden geüpload.  
 
-4.  **fieldpapers:**
-    Deze plug-in laat u gescande Velddocumenten laden in JOSM.
+4. **fieldpapers:** Deze plug-in laat u gescande Field Papers laden in JOSM.  
 
-5.  **imagery_offset_db:**
-    Deze plug-in laat u samenwerken met andere makers van kaarten die vinden dat de Bing
-    satellietafbeeldingen enigszins verkeerd uitgelijnd zijn. Dit probleem wordt meer in detail behandeld
-    in een later hoofdstuk.
+5. **imagery_offset_db:** Deze plug-in laat u samenwerken met andere mappers die vinden dat de satellietafbeeldingen van Bing enigszins verschoven zijn. Dit probleem wordt meer in detail behandeld in een later hoofdstuk.  
 
-6.  **mirrored_download:**
-    Met deze plug-in kunt u een groter gebied met gegevens van OSM downloaden om te bewerken.
+6. **mirrored_download:** Met deze plug-in kunt u een groter gebied met gegevens van OSM downloaden om te bewerken.  
 
-7.  **print:**
-    Voegt een functie Afdrukken toe, voor het geval u snel iets wilt afdrukken
-    van een gebied, dat er niet bijzonder goed hoeft uit te zien.
+7. **print:** Voegt een functie Afdrukken toe, voor het geval u snel een gebied wilt afdrukken, maar dat het er niet bijzonder netjes hoeft uit te zien.  
 
-8.  **utilsplugin2:**
-    Voegt vele aanvullende gereedschappen en menu's toe aan JOSM voor gevorderde gebruikers. Dit wordt
-    meer in detail behandeld in het [volgende hoofdstuk](/nl/josm/more-tools)
+8. **[utilsplugin2](nl/josm/josm-more-plugins/):** Voegt vele aanvullende gereedschappen en menu's toe aan JOSM voor gevorderde gebruikers. Dit wordt meer in detail behandeld in het [volgende hoofdstuk](/nl/josm/josm-more-plugins)  
 
 
 
@@ -223,7 +204,7 @@ Toevoegen van uw GPS-sporen en punten naar de server van OSM is nuttig om
 vele redenen.
 __(Indien u niet wilt dat uw GPX-punten worden gezien door anderen hoeft u het volgende gedeelte niet te lezen.  U kunt eenvoudigweg uw GPX-bestanden weergeven in JOSM, en ze daarom lokaal opslaan).
 Ten eerste: GPS-sporen zijn de meest nuttige manier van het verzamelen en
-geo-verwijzen van objecten in OSM. Bekijk [Aerial Imagery](/en/josm/aerial-imagery/)
+geo-verwijzen van objecten in OSM. Bekijk [Aerial Imagery](/nl/josm/aerial-imagery/)
 GPS-apparaten hebben een grotere nauwkeurigheid dan satellietafbeeldingen en zijn daarom
 een nuttig gereedschap voor het controleren van hoe groot de verschuiving is. Het gebruiken van veel GPS-
 sporen (hoe groter het aantal sporen hoe groter de mogelijkheid om
