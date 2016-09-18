@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Upoznavanje sa JOSM
-permalink: "/hr/josm/start-josm/"
+permalink: /hr/josm/start-josm/
 lang: hr
 category: josm
 published: true

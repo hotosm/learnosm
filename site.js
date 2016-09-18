@@ -4,10 +4,11 @@ $(function() {
     var app = window.app;
     $('.language-switcher a').each(function(i, e) {
         if (app.permalink.length < 3) return;
+        var remainder = app.permalink.match(/(\/[^\/]+)(\/.*)/)[2];
         $(e).attr('href',
             app.baseurl + '/' +
             $(e).attr('lang') +
-            app.permalink.substr(3)
+            remainder
         );
     });
     $('.language-switcher a[lang=' + app.lang + ']').addClass('active');
