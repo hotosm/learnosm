@@ -66,13 +66,13 @@ translations:
     feedbackspan: "آیا این بخش مفید بود؟"
     feedback: "با ما درمیان بگذارید و راهنماها را بهبود ببخشید!"
     getstarted: "شروع به کار"
-  fr:
-    tagline: "Apprendre OpenStreetMap pas à pas"
-    contribute: "Contribuer à ces guides"
-    trainingspan: "Vous organisez des ateliers ?"
-    training: "Consulter le matérial d'apprentissage (en anglais)"
-    feedbackspan: "Avez-vous trouvé ce chapitre utile ?"
-    feedback: "Aidez-nous à améliorer ces guides en donnant vos impressions!"
+ fr:
+    tagline: "Apprendre OpenStreetMap étape par étape"
+    contribute: "Aidez-nous pour améliorer cette documentation"
+    trainingspan: "Organisez-vous des ateliers de cartographie ?"
+    training: "Check out training material for this guide (in English)"
+    feedbackspan: "Cette page était-elle utile ?"
+    feedback: "Faîtes-nous savoir comment améliorer ces guides !"
     getstarted: "Commencer"
   bi:
     overview: "Ringkasan"
