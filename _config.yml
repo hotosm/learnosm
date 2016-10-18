@@ -66,7 +66,7 @@ translations:
     feedbackspan: "آیا این بخش مفید بود؟"
     feedback: "با ما درمیان بگذارید و راهنماها را بهبود ببخشید!"
     getstarted: "شروع به کار"
- fr:
+  fr:
     tagline: "Apprendre OpenStreetMap étape par étape"
     contribute: "Aidez-nous pour améliorer cette documentation"
     trainingspan: "Organisez-vous des ateliers de cartographie ?"
@@ -174,3 +174,4 @@ translations:
     feedbackspan: "本章节有用吗？"
     feedback: "告诉我们并帮助我们改进本指南。"
     getstarted: "入门"
+
