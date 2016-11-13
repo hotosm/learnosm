@@ -82,7 +82,7 @@ Explanation:
 - `title` is the plain title of the document, must not be repeated in the document's body
 - `permalink` is the path to the document, must contain the language prefix (`en` in this case)
 - `lang` is the language prefix of the document and must be the same as in `permalink`. This is redundant with `permalink` for Jekyll specific reasons.
-- `category` contains the guide's shortname (currently there is only one guide in the Jekyll site: `beginner`).
+- `category` contains the guide's shortname (there are several categories available like `beginner`, `intermediate`, `coordination`, `josm`... For a more up to date list, please visit [`/_posts` folder on this repo](https://github.com/hotosm/learnosm/tree/gh-pages/_posts/en)).
 
 ### Structure, folders, file names
 https://github.com/hotosm/learnosm/wiki/File-naming-in-_posts-directory
