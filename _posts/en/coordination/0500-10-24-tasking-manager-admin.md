@@ -221,9 +221,9 @@ Proofread the various tabs to ensure wording and formatting are correct, and ins
 
 If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
 
-[TM Tile Sizes]: /images/coordination/TM_tile_sizes.png
-[TM New]: /images/coordination/TM_create_new.png
-[TM Draw or Import]: /images/coordination/TM_draw_or_import.png
-[TM Draw]: /images/coordination/TM_draw.png
-[TM Create Project]: /images/coordination/TM_create_project.png
-[TM Edit Project]: /images/coordination/TM_edit_link.png
+[TM Tile Sizes]: /images/coordination/tasking_manager_project_admin/tile_sizes.png
+[TM New]: /images/coordination/tasking_manager_project_admin/create_new.png
+[TM Draw or Import]: /images/coordination/tasking_manager_project_admin/draw_or_import.png
+[TM Draw]: /images/coordination/tasking_manager_project_admin/draw.png
+[TM Create Project]: /images/coordination/tasking_manager_project_admin/create_project.png
+[TM Edit Project]: /images/coordination/tasking_manager_project_admin/edit_link.png
