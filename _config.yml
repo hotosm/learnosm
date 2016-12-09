@@ -182,4 +182,12 @@ translations:
     feedbackspan: "本章节有用吗？"
     feedback: "告诉我们并帮助我们改进本指南。"
     getstarted: "入门"
+  zh-tw:
+    tagline: "一步一腳印學習開放街圖"
+    contribute: "幫忙改進我們的指南"
+    trainingspan: "你是工作坊活動組織者嗎？"
+    training: "查看本指南的訓練資料（英文）"
+    feedbackspan: "這個章節有用嗎？"
+    feedback: "讓我們了解以便我們改進這個指南！"
+    getstarted: "入門"
 
