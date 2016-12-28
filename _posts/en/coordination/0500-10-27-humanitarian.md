@@ -8,7 +8,7 @@ category: coordination
 
 # Humanitarian Mapping
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
+![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot_theme/logo.png)
 
 > This guide may be downloaded as [humanitarian_en.odt](/files/humanitarian_en.odt) or [humanitarian_en.pdf](/files/humanitarian_en.pdf)  
 > Reviewed 2015-09-18

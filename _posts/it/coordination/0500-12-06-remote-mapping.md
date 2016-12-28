@@ -5,7 +5,7 @@ permalink: /it/coordination/HOT-Remote-Response-Guide
 lang: it
 category: coordination
 ---
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
+![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot_theme/logo.png)
 
 #HOT Remote Response Guide  
 

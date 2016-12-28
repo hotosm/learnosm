@@ -8,7 +8,7 @@ category: coordination
 
 # Kartierung für humanitäre Zwecke
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
+![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot_theme/logo.png)
 
 > This guide may be downloaded as [humanitarian_de.odt](/files/humanitarian_de.odt) or [humanitarian_de.pdf](/files/humanitarian_de.pdf)  
 > Reviewed 2015-09-18
