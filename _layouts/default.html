@@ -35,29 +35,43 @@
   <!-- End Piwik Code -->
   </head>
   <body>
-  <div id='wrapper'>
+   <div id='wrapper'>
     <div class="fillG cell11" id="banner-top">
-      <small class='language-switcher marginL marginR cell11 cf'>
-        <a lang='en'>English</a> |
-        <a lang='cs'>Czech</a> |
-        <a lang='de'>Deutsch</a> |
-        <a lang='es'>Español</a> |
-        <a lang='fa'>فارسی</a> |
-        <a lang='fr'>Français</a> |
-        <a lang='hr'>Hrvatski</a> |
-        <a lang='bi'>Bahasa Indonesia</a> |
-        <a lang='it'>Italiano</a> |
-        <a lang='ja'>日本語</a> |
-        <a lang='my'>ဗမာ</a> |    
-        <a lang='nb'>Norsk</a> |
-        <a lang='nl'>Nederlands</a> |
-        <a lang='pt'>Português</a> |
-        <a lang='ru'>Русский</a> |
-        <a lang='sw'>Kiswahili</a> |
-        <a lang='uk'>Українська</a> |
-        <a lang='zh'>简体中文</a> |
-        <a lang='zh-tw'>繁體中文</a>
-      </small>
+      <div class="dropdown marginL"> <a> {{site.translations.[page.lang].language}} </a>
+        <div class='language-switcher dropdown-content'>
+          {% assign start_page = "/" | append: page.lang | append: "/" | strip %}
+          {% assign this_page = page.permalink | strip %}
+
+          {% if this_page == start_page %} <!-- always show title page -->
+            {% for lingua in site.translations %}
+              <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
+            {% endfor %}
+
+          {% else %}
+            {% assign supported = "" %}
+            {% assign remover = "/" | append: page.lang | append: "/" | append: page.category %}
+            {% assign page_name = page.permalink | remove: remover %}
+
+            <!-- find out which pages with the same name exist in which languages -->
+            {% for post in site.categories.[page.category] %}
+              {% assign remover = "/" | append: post.lang | append: "/" | append: post.category %}
+              {% assign testee = post.permalink | remove: remover %}
+              {% if page_name == testee %}
+                {% assign supported = supported | append: post.lang | append: ' ' %}
+              {% endif %}
+            {% endfor %}
+
+            <!-- make a link for those languages where the page exists, plain text otherwise -->
+            {% for lingua in site.translations %}
+              {% if supported contains lingua[0] %}
+              <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
+              {% else %}
+              <span class="unavailable">{{lingua[1].language}}</span><br>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
       <!-- small search bar does not appear on the front page -->
       {% unless page.fronttitle or page.contributetitle%}
       <form class='searchbox-default rounded'>
