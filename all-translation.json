@@ -1,10 +1,10 @@
 ---
 ---
 [{
-	"lang":"bi",
+	"lang":"id",
 	"chapters":[
 		{% for post in site.posts %}
-		{% if {{post.lang}} == 'bi' %}
+		{% if {{post.lang}} == 'id' %}
 		{% unless post.nosearch %}
 		  {% include post.json %},
 		{% endunless %}

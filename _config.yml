@@ -32,6 +32,9 @@ prose:
     - /_layouts
     - /_includes
 
+gems:
+  - jekyll-redirect-from
+
 #translations
 translations:
   en:
@@ -97,7 +100,7 @@ translations:
     feedbackspan: "Je li ovo poglavlje bilo korisno?"
     feedback: "Javite nam i pomozite nam poboljšati uputstva!"
     getstarted: "Započnite"
-  bi:
+  id:
     language: "Bahasa Indonesia"
     overview: "Ringkasan"
     tagline: "Pelajari OpenStreetMap Langkah Demi Langkah"
