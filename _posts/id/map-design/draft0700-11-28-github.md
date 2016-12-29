@@ -4,6 +4,7 @@ title: Menggunakan GitHub
 permalink: /id/map-design/github/
 redirect_from:
   - /bi/map-design/github
+  - /bi/map-design/github/
 lang: bu
 category: map-design
 ---

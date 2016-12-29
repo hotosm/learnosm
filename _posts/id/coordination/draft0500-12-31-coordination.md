@@ -3,6 +3,7 @@ layout: doc
 permalink: /id/coordination/
 redirect_from:
   - /bi/coordination
+  - /bi/coordination/
 lang: id
 title: Koordinasi
 category: coordination

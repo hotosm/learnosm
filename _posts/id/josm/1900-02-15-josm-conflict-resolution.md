@@ -4,6 +4,7 @@ title: Menyelesaikan Konflik
 permalink: /id/josm/conflict-resolution/
 redirect_from:
   - /bi/josm/conflict-resolution
+  - /bi/josm/conflict-resolution/
 lang: id
 category: josm
 ---

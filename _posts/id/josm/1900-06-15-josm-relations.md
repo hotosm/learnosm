@@ -4,6 +4,7 @@ title: Relasi JOSM
 permalink: /id/josm/josm-relations/
 redirect_from:
   - /bi/josm/josm-relations
+  - /bi/josm/josm-relations/
 lang: id
 category: josm
 ---

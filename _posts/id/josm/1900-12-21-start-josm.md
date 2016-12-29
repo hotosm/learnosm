@@ -4,6 +4,7 @@ title: Pengoperasian JOSM
 permalink: /id/josm/start-josm/
 redirect_from:
   - /bi/josm/start-josm
+  - /bi/josm/start-josm/
 lang: id
 category: josm
 ---

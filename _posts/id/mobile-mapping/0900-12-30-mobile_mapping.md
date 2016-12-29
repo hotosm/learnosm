@@ -3,6 +3,7 @@ layout: doc
 permalink: /id/mobile-mapping/
 redirect_from:
   - /bi/mobile-mapping
+  - /bi/mobile-mapping/
 lang: id
 title: Mapping with a SmartPhone, GPS or Paper
 category: mobile-mapping

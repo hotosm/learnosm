@@ -4,6 +4,7 @@ title: HOT Remote Mapping
 permalink: /id/coordination/HOT-Remote-Response-Guide
 redirect_from:
   - /bi/coordination/HOT-Remote-Response-Guide 
+  - /bi/coordination/HOT-Remote-Response-Guide /
 lang: id
 category: coordination
 ---

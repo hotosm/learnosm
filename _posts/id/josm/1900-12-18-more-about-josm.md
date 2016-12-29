@@ -4,6 +4,7 @@ title: Proses Mengedit dengan JOSM
 permalink: /id/josm/more-about-josm/
 redirect_from:
   - /bi/josm/more-about-josm
+  - /bi/josm/more-about-josm/
 lang: id
 category: josm
 ---

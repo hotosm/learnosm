@@ -4,6 +4,7 @@ title: Penjaminan Kualitas
 permalink: /id/coordination/quality-assurance/
 redirect_from:
   - /bi/coordination/quality-assurance
+  - /bi/coordination/quality-assurance/
 lang: id
 category: coordination
 ---

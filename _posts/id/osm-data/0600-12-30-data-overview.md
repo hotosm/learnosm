@@ -4,6 +4,7 @@ title: Gambaran Umum Data OSM
 permalink: /id/osm-data/data-overview/
 redirect_from:
   - /bi/osm-data/data-overview
+  - /bi/osm-data/data-overview/
 lang: id
 category: osm-data
 ---

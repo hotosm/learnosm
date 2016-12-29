@@ -4,6 +4,7 @@ title: Tasking Manager
 permalink: /id/coordination/tasking-manager/
 redirect_from:
   - /bi/coordination/tasking-manager
+  - /bi/coordination/tasking-manager/
 lang: id
 category: coordination
 ---

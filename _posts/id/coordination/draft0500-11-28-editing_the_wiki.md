@@ -4,6 +4,7 @@ title: Mengedit Wiki
 permalink: /id/coordination/editing_the_wiki/
 redirect_from:
   - /bi/coordination/editing_the_wiki
+  - /bi/coordination/editing_the_wiki/
 lang: id
 category: coordination
 ---

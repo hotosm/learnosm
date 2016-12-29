@@ -3,6 +3,7 @@ layout: contribute
 permalink: /id/contribute/
 redirect_from:
   - /bi/contribute
+  - /bi/contribute/
 lang: id
 title: Kontribusi
 contributetitle: "Bantu tingkatkan panduan kami!"

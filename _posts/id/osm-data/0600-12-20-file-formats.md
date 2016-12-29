@@ -4,6 +4,7 @@ title: Format File
 permalink: /id/osm-data/file-formats/
 redirect_from:
   - /bi/osm-data/file-formats
+  - /bi/osm-data/file-formats/
 lang: id
 category: osm-data
 ---

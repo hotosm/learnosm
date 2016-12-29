@@ -4,6 +4,7 @@ title: Tool JOSM Lainnya
 permalink: /id/josm/josm-more-plugins/
 redirect_from:
   - /bi/josm/josm-more-plugins
+  - /bi/josm/josm-more-plugins/
 lang: id
 category: josm
 ---

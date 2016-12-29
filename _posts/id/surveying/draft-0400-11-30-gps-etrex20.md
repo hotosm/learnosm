@@ -3,6 +3,7 @@ layout: doc
 permalink: /id/surveying/
 redirect_from:
   - /bi/surveyinggps-etrex20
+  - /bi/surveyinggps-etrex20/
 lang: id
 title: Surveying
 category: surveying

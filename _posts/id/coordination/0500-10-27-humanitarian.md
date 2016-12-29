@@ -4,6 +4,7 @@ title: Humanitarian Mapping
 permalink: /id/coordination/humanitarian/
 redirect_from:
   - /bi/coordination/humanitarian
+  - /bi/coordination/humanitarian/
 lang: id
 category: coordination
 ---
