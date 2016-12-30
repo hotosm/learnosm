@@ -94,5 +94,5 @@ In the following chapters we will see how you can download data in various forma
 the internet, and how you can use various tools to manipulate the raw data on your own.
 
 
-[example osm]: /images/en/osm-data/file-formats/example_osm.png
-[shapefile attributes]: /images/en/osm-data/file-formats/shapefile_attributes.png
+[example osm]: /images/osm-data/example_osm.png
+[shapefile attributes]: /images/osm-data/shapefile_attributes.png

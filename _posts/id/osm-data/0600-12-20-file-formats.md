@@ -95,5 +95,5 @@ Pada bab berikut kita akan melihat bagaimana Anda dapat mendownload data dalam b
 format dari internet, dan bagaimana Anda dapat menggunakan berbagai macam tool untuk
 memanipulasi data mentah yang Anda miliki.
 
-[example osm]: /images/en/osm-data/file-formats/example_osm.png
-[shapefile attributes]: /images/en/osm-data/file-formats/shapefile_attributes.png
+[example osm]: /images/osm-data/example_osm.png
+[shapefile attributes]: /images/osm-data/shapefile_attributes.png

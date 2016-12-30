@@ -215,13 +215,13 @@ i korištenjem Field Papers-a. Nakon toga ćemo se vratiti u JOSM, iskoristiti p
 te dodati sakupljene informacije u OpenStreetMap.
 
 
-[JOSM website]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image00_josm-website.png
-[Windows installer]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image01_windows-installer.png
-[JOSM splash page]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image02_josm-splash-page.png
-[Preferences window]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image03_preferences-window.png
-[Look and feel]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image04_look-and-feel.png
-[Open file]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image05_open-file.png
-[Sample file]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image06_sample-file.png
-[Scale bar]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image07_scale-bar.png
-[Select tool]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image08_select-tool.png
-[Draw tool]: /images/en/beginner/03_start-josm/en_beg_03_start-josm_image09_draw-tool.png
+[JOSM website]: /images/josm/josm-website.png
+[Windows installer]: /images/josm/windows-installer.png
+[JOSM splash page]: /images/josm/josm-splash-page.png
+[Preferences window]: /images/josm/josm_preferences.png
+[Look and feel]: /images/josm/josm_look-and-feel.png
+[Open file]: /images/josm/josm_open-file.png
+[Sample file]: /images/josm/josm_sample-file.png
+[Scale bar]: /images/josm/josm_scale-bar.png
+[Select tool]: /images/josm/josm_select-tool.png
+[Draw tool]: /images/josm/josm_draw-tool.png

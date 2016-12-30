@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Weitere Werkzeuge
-permalink: /de/josm/more-tools/
+permalink: /de/josm/josm-more-tools/
 lang: de
 category: josm
 ---
@@ -137,20 +137,20 @@ aus der aktuellen Auswahl. Wenn Sie durch Aufziehen eines Rechtecks viele Objekt
 Viel Erfolg!
 
 
-[Buildings tools plugin]: /images/de/editing/josm-more-tools/buildings_tools-plugin.png
-[Buildings tools button]: /images/en/editing/josm-more-tools/buildings_tools-button.png
-[Draw edge]: /images/en/editing/josm-more-tools/draw-edge.png
-[Extend building]: /images/en/editing/josm-more-tools/extend-building.png
-[Merge buildings]: /images/en/editing/josm-more-tools/merge-buildings.png
-[Set buildings size]: /images/de/editing/josm-more-tools/set-buildings-size.png
-[Set buildings size dialog]: /images/de/editing/josm-more-tools/set-buildings-size-dialog.png
-[Buildings advanced]: /images/de/editing/josm-more-tools/buildings-advanced.png
-[Utilsplugin2 plugin]: /images/de/editing/josm-more-tools/utilsplugin2-plugin.png
-[More tools menu]: /images/de/editing/josm-more-tools/more-tools-menu.png
-[Nodes interesection]: /images/en/editing/josm-more-tools/utilsplugin2-nodes-intersection.png
-[Copy tags]: /images/de/editing/josm-more-tools/utilsplugin2-copy-tags.png
-[Replace geometry]: /images/de/editing/josm-more-tools/utilsplugin2-replace-geometry.png
-[Selection menu]: /images/de/editing/josm-more-tools/selection-menu.png
-[Unselect nodes]: /images/en/editing/josm-more-tools/utilsplugin2-unselect-nodes.png
+[Buildings tools plugin]: /images/josm/buildings_tools-plugin.de.png
+[Buildings tools button]: /images/josm/buildings_tools-button.png
+[Draw edge]: /images/josm/draw-edge.png
+[Extend building]: /images/josm/extend-building.png
+[Merge buildings]: /images/josm/merge-buildings.png
+[Set buildings size]: /images/josm/set-buildings-size.de.png
+[Set buildings size dialog]: /images/josm/set-buildings-size-dialog.de.png
+[Buildings advanced]: /images/josm/buildings-advanced.de.png
+[Utilsplugin2 plugin]: /images/josm/utilsplugin2-plugin.de.png
+[More tools menu]: /images/josm/more-tools-menu.de.png
+[Nodes interesection]: /images/josm/utilsplugin2-nodes-intersection.png
+[Copy tags]: /images/josm/utilsplugin2-copy-tags.de.png
+[Replace geometry]: /images/josm/utilsplugin2-replace-geometry.de.png
+[Selection menu]: /images/josm/selection-menu.de.png
+[Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
 
 

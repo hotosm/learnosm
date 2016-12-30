@@ -55,4 +55,4 @@ more powerful ways of working with the data yourself. The remaining chapters in 
 quite technical, but show more advanced methods of manipulating and accessing OSM data.
 
 
-[hot exports]: /images/en/osm-data/getting-data/hot-exports.png
+[hot exports]: /images/osm-data/hot-exports.png

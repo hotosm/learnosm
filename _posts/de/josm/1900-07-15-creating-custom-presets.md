@@ -147,6 +147,6 @@ Eine ausführliche Beschreibung aller Elemente finden Sie [in der JOSM-Dokumenta
 Viel Erfolg!
 
 
-[sample building menu]: /images/en/editing/creating-custom-presets/sample-building-menu.png
-[sample presets form]: /images/en/editing/creating-custom-presets/sample-presets-form.png
-[sample presets file]: /images/en/editing/creating-custom-presets/sample-presets-file.png
+[sample building menu]: /images/josm/sample-building-menu.png
+[sample presets form]: /images/josm/sample-presets-form.png
+[sample presets file]: /images/josm/sample-presets-file.png

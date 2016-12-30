@@ -1,14 +1,14 @@
 ---
 layout: doc
 title: HOT Remote Mapping  
-permalink: /en/coordination/HOT-Remote-Response-Guide 
+permalink: /en/coordination/HOT-Remote-Response-Guide/ 
 lang: en
 category: coordination
 ---
 
 # HOT Remote Response Guide   
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot_theme/logo.png)  
+![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)  
 
 > This guide may be downloaded as [remote-mapping_en.odt](/files/remote-mapping_en.odt) or [remote-mapping_en.pdf](/files/remote-mapping_en.pdf)  
 > Reviewed 2015-09-18  

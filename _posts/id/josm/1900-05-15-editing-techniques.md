@@ -67,8 +67,8 @@ berisi kesalahan, Anda dapat memperbaiki kesalahan Anda dan mengupload perubahan
 kembali. Inilah hebatnya OSM: Anda dapat membuatnya selalu lebih baik!
 
 
-[road building no]: /images/en/editing/josm-editing-techniques/road-building-no.png
-[road building yes]: /images/en/editing/josm-editing-techniques/road-building-yes.png
-[road connecting nodes]: /images/en/editing/josm-editing-techniques/road-connecting-nodes.png
-[building overlap]: /images/en/editing/josm-editing-techniques/building-overlap.png
-[building landuse]: /images/en/editing/josm-editing-techniques/building-landuse.png
+[road building no]: /images/josm/road-building-no.png
+[road building yes]: /images/josm/road-building-yes.png
+[road connecting nodes]: /images/josm/road-connecting-nodes.png
+[building overlap]: /images/josm/building-overlap.png
+[building landuse]: /images/josm/building-landuse.png

@@ -104,18 +104,18 @@ Ketika Anda mengedit pada JOSM, Anda memiliki resiko berhadapan dengan konflik. 
 Ketika anda mengedit di JOSM, dimana anda mendownload salinan dari peta OSM, anda memiliki resiko berhadapan dengan konflik. Konflik terjadi apabila sebuah obyek atau lebih diedit oleh dua orang atau lebih pada saat yang sama. Dengan memahami apa itu konflik dan bagaimana menghadapinya, Anda dapat memastikan bahwa kemungkinan editan terbaik disimpan ke OpenStreetMp.
 
 
-[conflict detected]: /images/en/editing/conflict-resolution/conflict-detected.png
-[resolved automatically]: /images/en/editing/conflict-resolution/resolved-automatically.png
-[warning unresolved]: /images/en/editing/conflict-resolution/warning-unresolved.png
-[check on server]: /images/en/editing/conflict-resolution/check-on-server.png
-[still in use]: /images/en/editing/conflict-resolution/still-in-use.png
-[synchronize node]: /images/en/editing/conflict-resolution/synchronize-node.png
-[properties with conflicts]: /images/en/editing/conflict-resolution/properties-with-conflicts.png
-[conflicts resolved]: /images/en/editing/conflict-resolution/conflicts-resolved.png
-[synchronize node]: /images/en/editing/conflict-resolution/synchronize-node.png
-[command stack]: /images/en/editing/conflict-resolution/command-stack.png
-[one unresolved]: /images/en/editing/conflict-resolution/one-unresolved.png
-[edit outside area]: /images/en/editing/conflict-resolution/edit-outside-area.png
+[conflict detected]: /images/josm/conflict-detected.png
+[resolved automatically]: /images/josm/resolved-automatically.png
+[warning unresolved]: /images/josm/warning-unresolved.png
+[check on server]: /images/josm/check-on-server.png
+[still in use]: /images/josm/still-in-use.png
+[synchronize node]: /images/josm/synchronize-node.png
+[properties with conflicts]: /images/josm/properties-with-conflicts.png
+[conflicts resolved]: /images/josm/conflicts-resolved.png
+[synchronize node]: /images/josm/synchronize-node.png
+[command stack]: /images/josm/command-stack.png
+[one unresolved]: /images/josm/one-unresolved.png
+[edit outside area]: /images/josm/edit-outside-area.png
 
 
 <!-- More stuff, could go into an additional chapter -

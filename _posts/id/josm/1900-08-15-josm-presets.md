@@ -73,10 +73,10 @@ ditambahkan ke dalam JOSM.
 *	Klik OK.
 
 
-[tagging presets tab]: /images/en/editing/josm-presets/tagging-presets-tab.png
-[tagging presets menu]: /images/en/editing/josm-presets/tagging-presets-menu.png
-[example presets]: /images/en/editing/josm-presets/example-presets.png
-[indonesia building form]: /images/en/editing/josm-presets/indonesia-building-form.png
-[plus button]: /images/en/editing/josm-presets/plus-button.png
+[tagging presets tab]: /images/josm/tagging-presets-tab.png
+[tagging presets menu]: /images/josm/tagging-presets-menu.png
+[example presets]: /images/josm/example-presets.png
+[indonesia building form]: /images/josm/indonesia-building-form.png
+[plus button]: /images/josm/plus-button.png
 
 

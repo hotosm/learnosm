@@ -66,4 +66,4 @@ Bab-bab yang tersisa pada sesi ini sangatlah teknis, tetapi menunjukkan metode y
 canggih dalam memanipulasi dan mengakses data OSM.
 
 
-[hot exports]: /images/en/osm-data/getting-data/hot-exports.png
+[hot exports]: /images/osm-data/hot-exports.png

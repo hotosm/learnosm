@@ -147,15 +147,15 @@ Anda memiliki layer seperti ini di QGIS, ini mungkin untuk menyimpan mereka seba
 mengseksekusi filter dan query, dan sebagainya. 
 
 
-[download data]: /images/en/osm-data/osm-in-qgis/download_data.png
-[bounding box]: /images/en/osm-data/osm-in-qgis/bounding_box.png
-[download complete]: /images/en/osm-data/osm-in-qgis/download_complete.png
-[import from xml]: /images/en/osm-data/osm-in-qgis/import_topo_from_xml.png
-[import dialog]: /images/en/osm-data/osm-in-qgis/import_dialog.png
-[export topo]: /images/en/osm-data/osm-in-qgis/export_topo.png
-[input db file]: /images/en/osm-data/osm-in-qgis/input_db_file.png
-[export type]: /images/en/osm-data/osm-in-qgis/export_type.png
-[export full]: /images/en/osm-data/osm-in-qgis/export_full.png
-[cairo polygons]: /images/en/osm-data/osm-in-qgis/cairo_polygons.png
-[open attribute table]: /images/en/osm-data/osm-in-qgis/open_attribute_table.png
-[attribute table]: /images/en/osm-data/osm-in-qgis/attribute_table.png
+[download data]: /images/osm-data/download_data.png
+[bounding box]: /images/osm-data/bounding_box.png
+[download complete]: /images/osm-data/download_complete.png
+[import from xml]: /images/osm-data/import_topo_from_xml.png
+[import dialog]: /images/osm-data/import_dialog.png
+[export topo]: /images/osm-data/export_topo.png
+[input db file]: /images/osm-data/input_db_file.png
+[export type]: /images/osm-data/export_type.png
+[export full]: /images/osm-data/export_full.png
+[cairo polygons]: /images/osm-data/cairo_polygons.png
+[open attribute table]: /images/osm-data/open_attribute_table.png
+[attribute table]: /images/osm-data/attribute_table.png

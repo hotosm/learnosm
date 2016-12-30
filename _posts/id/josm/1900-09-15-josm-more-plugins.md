@@ -140,20 +140,20 @@ poligon.
 Good luck!
 
 
-[buildings_tools plugin]: /images/en/editing/josm-more-tools/buildings_tools-plugin.png
-[buildings_tools button]: /images/en/editing/josm-more-tools/buildings_tools-button.png
-[Draw edge]: /images/en/editing/josm-more-tools/draw-edge.png
-[Extend building]: /images/en/editing/josm-more-tools/extend-building.png
-[Merge buildings]: /images/en/editing/josm-more-tools/merge-buildings.png
-[Set buildings size]: /images/en/editing/josm-more-tools/set-buildings-size.png
-[Set buildings size dialog]: /images/en/editing/josm-more-tools/set-buildings-size-dialog.png
-[Buildings advanced]: /images/en/editing/josm-more-tools/buildings-advanced.png
-[utilsplugin2 plugin]: /images/en/editing/josm-more-tools/utilsplugin2-plugin.png
-[more tools menu]: /images/en/editing/josm-more-tools/more-tools-menu.png
-[nodes interesection]: /images/en/editing/josm-more-tools/utilsplugin2-nodes-intersection.png
-[copy tags]: /images/en/editing/josm-more-tools/utilsplugin2-copy-tags.png
-[replace geometry]: /images/en/editing/josm-more-tools/utilsplugin2-replace-geometry.png
-[selection menu]: /images/en/editing/josm-more-tools/selection-menu.png
-[unselect nodes]: /images/en/editing/josm-more-tools/utilsplugin2-unselect-nodes.png
+[buildings_tools plugin]: /images/josm/buildings_tools-plugin.png
+[buildings_tools button]: /images/josm/buildings_tools-button.png
+[Draw edge]: /images/josm/draw-edge.png
+[Extend building]: /images/josm/extend-building.png
+[Merge buildings]: /images/josm/merge-buildings.png
+[Set buildings size]: /images/josm/set-buildings-size.png
+[Set buildings size dialog]: /images/josm/set-buildings-size-dialog.png
+[Buildings advanced]: /images/josm/buildings-advanced.png
+[utilsplugin2 plugin]: /images/josm/utilsplugin2-plugin.png
+[more tools menu]: /images/josm/more-tools-menu.png
+[nodes interesection]: /images/josm/utilsplugin2-nodes-intersection.png
+[copy tags]: /images/josm/utilsplugin2-copy-tags.png
+[replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
+[selection menu]: /images/josm/selection-menu.png
+[unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
 
 

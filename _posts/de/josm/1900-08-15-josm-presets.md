@@ -74,10 +74,10 @@ abspeichern und dann zu JOSM hinzufügen.
 -	Klicken Sie auf OK.
 
 
-[tagging presets tab]: /images/en/editing/josm-presets/tagging-presets-tab.png
-[tagging presets menu]: /images/editing/josm-presets_tagging-presets-menu.de.png
-[example presets]: /images/editing/josm-presets_example-presets.de.png
-[tower preset]: /images/editing/josm-presets_tower-preset.de.png
-[plus button]: /images/en/editing/josm-presets/plus-button.png
+[tagging presets tab]: /images/josm/tagging-presets-tab.png
+[tagging presets menu]: /images/josm/tagging-presets-menu.de.png
+[example presets]: /images/josm/example-presets.de.png
+[tower preset]: /images/josm/tower-preset.de.png
+[plus button]: /images/josm/plus-button.png
 
 

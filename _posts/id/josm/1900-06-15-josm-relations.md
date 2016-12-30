@@ -148,20 +148,20 @@ menemukan informasi lebih lanjut pada Wiki OSM, untuk membantu Anda memetakan re
 
 
 
-[multipolygon ways]: /images/en/editing/josm-relations/multipolygon-ways.png
-[building preset]: /images/en/editing/josm-relations/building-preset.png
-[new relation]: /images/en/editing/josm-relations/new-relation.png
-[building relation]: /images/en/editing/josm-relations/building-relation.png
-[new relation]: /images/en/editing/josm-relations/new-relation.png
-[type multipolygon]: /images/en/editing/josm-relations/type-multipolygon.png
-[outer inner]: /images/en/editing/josm-relations/outer-inner.png
-[new multipolygon]: /images/en/editing/josm-relations/new-multipolygon.png
-[multipolygon mapnik]: /images/en/editing/josm-relations/multipolygon-mapnik.png
-[multipolygon demo]: /images/en/editing/josm-relations/multipolygon-demo.png
-[route relation]: /images/en/editing/josm-relations/route-relation.png
-[public transport preset]: /images/en/editing/josm-relations/public-transport-preset.png
-[bus route relation]: /images/en/editing/josm-relations/bus-route-relation.png
-[relation panel button]: /images/en/editing/josm-relations/relation-panel-button.png
+[multipolygon ways]: /images/josm/multipolygon-ways.png
+[building preset]: /images/josm/building-preset.png
+[new relation]: /images/josm/new-relation.png
+[building relation]: /images/josm/building-relation.png
+[new relation]: /images/josm/new-relation.png
+[type multipolygon]: /images/josm/type-multipolygon.png
+[outer inner]: /images/josm/outer-inner.png
+[new multipolygon]: /images/josm/new-multipolygon.png
+[multipolygon mapnik]: /images/josm/multipolygon-mapnik.png
+[multipolygon demo]: /images/josm/multipolygon-demo.png
+[route relation]: /images/josm/route-relation.png
+[public transport preset]: /images/josm/public-transport-preset.png
+[bus route relation]: /images/josm/bus-route-relation.png
+[relation panel button]: /images/josm/relation-panel-button.png
 
 
 

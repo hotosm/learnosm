@@ -46,8 +46,8 @@ Wir alle machen Fehler, aber mit größerer Erfahrung werden Sie weniger Fehler 
 Denken Sie daran, selbst wenn Sie fehlerhafte Daten hochladen, können Sie immer Ihre Fehler korrigieren und die geänderten Daten erneut hochladen. Das ist einer der Pluspunkte von OSM: Sie können es immer noch besser machen!
 
 
-[Road and building nodes are connected - NO]: /images/en/editing/josm-editing-techniques/road-building-no.png
-[Roads Building nodes are disconnected - YES]: /images/en/editing/josm-editing-techniques/road-building-yes.png
-[Intersecting roads should share nodes]: /images/en/editing/josm-editing-techniques/road-connecting-nodes.png
-[Correcting building overlaps]: /images/en/editing/josm-editing-techniques/building-overlap.png
-[Correcting building landuse]: /images/en/editing/josm-editing-techniques/building-landuse.png
+[Road and building nodes are connected - NO]: /images/josm/road-building-no.png
+[Roads Building nodes are disconnected - YES]: /images/josm/road-building-yes.png
+[Intersecting roads should share nodes]: /images/josm/road-connecting-nodes.png
+[Correcting building overlaps]: /images/josm/building-overlap.png
+[Correcting building landuse]: /images/josm/building-landuse.png

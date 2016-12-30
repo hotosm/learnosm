@@ -79,5 +79,5 @@ Daerah yang paling umum pada citra tidak akurat terletak pada perbukitan, daerah
 Pada [bab selanjutnya](/id/josm/correcting-imagery-offset) kita akan melihat bagaimana
 memperbaiki masalah ini.
 
-[orange resolution]: /images/en/editing/aerial-imagery/orange-resolution.png
-[low res high res]: /images/en/editing/aerial-imagery/low-res-high-res.png
+[orange resolution]: /images/josm/orange-resolution.png
+[low res high res]: /images/josm/low-res-high-res.png
