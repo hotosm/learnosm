@@ -32,9 +32,13 @@ prose:
     - /_layouts
     - /_includes
 
+gems:
+  - jekyll-redirect-from
+
 #translations
 translations:
   en:
+    language: "English"
     tagline: "Learn OpenStreetMap Step by Step"
     contribute: "Help improve our guides"
     trainingspan: "Are you a workshop organizer?"
@@ -43,6 +47,7 @@ translations:
     feedback: "Let us know and help us improve the guides!"
     getstarted: "Get started"
   cs:
+    language: "Česky"
     tagline: "Naučte se OpenStreetMap krok za krokem"
     contribute: "Pomožte vylepšit naše průvodce"
     trainingspan: "Organizujete workshopy?"
@@ -50,7 +55,17 @@ translations:
     feedbackspan: "Byla tato kapitola užitečná?"
     feedback: "Napište nám a pomožte nám zlepšit naše návody!"
     getstarted: "Začínáme"
+  de:
+    language: "Deutsch"
+    tagline: "Lernen Sie OpenStreetMap Schritt für Schritt kennen"
+    contribute: "Helfen Sie uns, die Anleitungen zu verbessern"
+    trainingspan: "Veranstalten Sie Workshops?"
+    training: "Sehen Sie sich unsere Unterlagen für diesen Kurs an (auf Englisch)"
+    feedbackspan: "War dieses Kapitel hilfreich?"
+    feedback: "Senden Sie uns Feedback und verbessern Sie die Anleitungen!"
+    getstarted: "weiter zum nächsten Kapitel"
   es:
+    language: "Español"
     tagline: "Aprende OpenStreetMap Paso a Paso"
     contribute: "Ayuda a mejorar las guías"
     trainingspan: "¿Eres el organizador de un taller?"
@@ -59,6 +74,7 @@ translations:
     feedback: "¡Contacta con nosotros y ayúdanos a mejorar estas guías!"
     getstarted: "Comencemos"
   fa:
+    language: "فارسی"
     tagline: "آموزش گام به گام OpenStreetMap"
     contribute: "به بهبود راهنماهای ما کمک کنید"
     trainingspan: "آیا مسئول برگزاری کارگاه آموزشی هستید؟"
@@ -67,6 +83,7 @@ translations:
     feedback: "با ما درمیان بگذارید و راهنماها را بهبود ببخشید!"
     getstarted: "شروع به کار"
   fr:
+    language: "Français"
     tagline: "Apprendre OpenStreetMap étape par étape"
     contribute: "Aidez-nous pour améliorer cette documentation"
     trainingspan: "Organisez-vous des ateliers de cartographie ?"
@@ -74,7 +91,17 @@ translations:
     feedbackspan: "Cette page était-elle utile ?"
     feedback: "Faîtes-nous savoir comment améliorer ces guides !"
     getstarted: "Commencer"
-  bi:
+  hr:
+    language: "Hrvatski"
+    tagline: "Naučite OpenStreetMap korak po korak"
+    contribute: "Pomozite poboljšati naša uputstva"
+    trainingspan: "Organizirate li radionicu?"
+    training: "Vidi trening materijale za ova uputstva(na engleskom)"
+    feedbackspan: "Je li ovo poglavlje bilo korisno?"
+    feedback: "Javite nam i pomozite nam poboljšati uputstva!"
+    getstarted: "Započnite"
+  id:
+    language: "Bahasa Indonesia"
     overview: "Ringkasan"
     tagline: "Pelajari OpenStreetMap Langkah Demi Langkah"
     contribute: "Bantu tingkatkan panduan kami!"
@@ -83,25 +110,8 @@ translations:
     feedbackspan: "Apakah bab ini bermanfaat?"
     feedback: "Beritahu kami dan bantu kami memperbaiki panduan!"
     getstarted: "Lanjutkan ke bab berikutnya"
-  ja:
-    overview: "概要"
-    tagline: "はじめてからのOpenStreetMapガイド"
-    contribute: "ガイドの拡充にご協力ください"
-    trainingspan: "ワークショップ開催を検討されるかたへ"
-    training: "このガイドの研修教材をチェック(英語)"
-    feedbackspan: "この章は役に立ちましたか？"
-    feedback: "ガイドの改善にご意見ください"
-    getstarted: "次の章に進む"
-  pt:
-    overview: "Sumário"
-    tagline: "Conheça sobre o OpenStreetMap, passo-a-passo."
-    contribute: "Ajude-nos a melhorar os nossos guias!"
-    trainingspan: "Você é um organizador de workshop?"
-    training: "Confira material de treinamento para este guia (em Inglês)"
-    feedbackspan: "Este capítulo foi útil?"
-    feedback: "Conte-nos e ajude a melhorar os guias!"
-    getstarted: "prosseguir para o próximo capítulo"
   it:
+    language: "Italiano"
     overview: "Riassunto"
     tagline: "Impara a conoscere OpenStreetMap passo dopo passo"
     contribute: "Aiutaci a migliorare le nostre guide!"
@@ -110,39 +120,18 @@ translations:
     feedbackspan: "Questa capitolo ti è stato utile?"
     feedback: "Contattaci ed aiutaci a migliorare le guide!"
     getstarted: "procedere al capitolo successivo"
-  de:
-    tagline: "Lerne OpenStreetMap Schritt für Schritt kennen"
-    contribute: "Hilf mit, unsere Anleitungen zu verbessern"
-    trainingspan: "Veranstaltest du Workshops?"
-    training: "Siehr dir unsere Unterlagen für diesen Kurs an (in Englisch)"
-    feedbackspan: "War dieses Kapitel hilfreich?"
-    feedback: "Sende uns Feedback und verbessere die Anleitungen!"
-    getstarted: "weiter zum nächsten Kapitel"
-  hr:
-    tagline: "Naučite OpenStreetMap korak po korak"
-    contribute: "Pomozite poboljšati naša uputstva"
-    trainingspan: "Organizirate li radionicu?"
-    training: "Vidi trening materijale za ova uputstva(na engleskom)"
-    feedbackspan: "Je li ovo poglavlje bilo korisno?"
-    feedback: "Javite nam i pomozite nam poboljšati uputstva!"
-    getstarted: "Započnite"
-  uk:
-    tagline: "Знайомимось з OpenStreetMap крок за кроком"
-    contribute: "Допоможіть покращити наші посібники"
-    trainingspan: "Ви проводите семінар?"
-    training: "Ознайомтесь з навчальними матеріалами для цього посібника (англ.)"
-    feedbackspan: "Чи був цей розділ корисним?"
-    feedback: "Повідомте нам і допоможіть нам покращити посібник!"
-    getstarted: "Розпочати"
-  ru:
-    tagline: "Изучаем OpenStreetMap шаг за шагом"
-    contribute: "Помогите улучшить наши руководства"
-    trainingspan: "Вы организатор?"
-    training: "Смотрите наши обучающие материалы по данному руководству (на английском)"
-    feedbackspan: "Был ли данный раздел полезным?"
-    feedback: "Посоветуйте и помогите нам улучшить руководства!"
-    getstarted: "Начало"
+  ja:
+    language: "日本語"
+    overview: "概要"
+    tagline: "はじめてからのOpenStreetMapガイド"
+    contribute: "ガイドの拡充にご協力ください"
+    trainingspan: "ワークショップ開催を検討されるかたへ"
+    training: "このガイドの研修教材をチェック(英語)"
+    feedbackspan: "この章は役に立ちましたか？"
+    feedback: "ガイドの改善にご意見ください"
+    getstarted: "次の章に進む"
   my:
+    language: "ဗမာ"
     tagline: "OpenStreetMap အားတစ်ဆင့်ပြီးတစ်ဆင့်လေ့လာခြင်း"
     contribute: "ကျွန်ုပ်တို့၏လမ်းညွှန်မှုများတိုးတက်အောင်ကူညီပါ။"
     trainingspan: "သင်သည် အလုပ်ရုံဆွေးနွေးပွဲအတွက်ဖြစ်မြောက်အောင်ဆောင်ရွက်သူတစ်ဦးဖြစ်ပါသလား။"
@@ -150,15 +139,8 @@ translations:
     feedbackspan: "ဤအခန်းသည် သင့်အတွက်အထောက်အကူပြုပါသလား။"
     feedback: "ကျွန်ုပ်တို့၏လမ်းညွှန်မှုများကိုတိုးတက်ကောင်းမွန်စေရန် ကျွန်ုပ်တို့အားအသိပေးခြင်းဖြင့်ကူညီပါ။"
     getstarted: "စတင်ရန်"
-  nb:
-    tagline: "Lær deg OpenStreetMap steg for steg"
-    contribute: "Hjelpe oss å forbedre våre guider"
-    trainingspan: "Kan du hjelpe til med å organisere workshops?"
-    training: "Se her for øvelser for denne guiden (på norsk)"
-    feedbackspan: "Var dette kapittelet nyttig?"
-    feedback: "Gi oss tilbakemelding og hjelp oss med å forbedre guidene!"
-    getstarted: "Kom i gang"
   nl:
+    language: "Nederlands"
     tagline: "Ontdek de mogelijkheden van OpenStreetMap"
     contribute: "Meehelpen met het verbeteren van handleidingen"
     trainingspan: "Workshops organizeren?"
@@ -166,7 +148,36 @@ translations:
     feedbackspan: "Was dit een goede handleiding?"
     feedback: "Laat ons weten hoe we de handleidingen kunnen verbeteren!"
     getstarted: "Beginnen"
+  nb:
+    language: "Norsk"
+    tagline: "Lær deg OpenStreetMap steg for steg"
+    contribute: "Hjelpe oss å forbedre våre guider"
+    trainingspan: "Kan du hjelpe til med å organisere workshops?"
+    training: "Se her for øvelser for denne guiden (på norsk)"
+    feedbackspan: "Var dette kapittelet nyttig?"
+    feedback: "Gi oss tilbakemelding og hjelp oss med å forbedre guidene!"
+    getstarted: "Kom i gang"
+  pt:
+    language: "Português"
+    overview: "Sumário"
+    tagline: "Conheça sobre o OpenStreetMap, passo-a-passo."
+    contribute: "Ajude-nos a melhorar os nossos guias!"
+    trainingspan: "Você é um organizador de workshop?"
+    training: "Confira material de treinamento para este guia (em Inglês)"
+    feedbackspan: "Este capítulo foi útil?"
+    feedback: "Conte-nos e ajude a melhorar os guias!"
+    getstarted: "prosseguir para o próximo capítulo"
+  ru:
+    language: "Русский"
+    tagline: "Изучаем OpenStreetMap шаг за шагом"
+    contribute: "Помогите улучшить наши руководства"
+    trainingspan: "Вы организатор?"
+    training: "Смотрите наши обучающие материалы по данному руководству (на английском)"
+    feedbackspan: "Был ли данный раздел полезным?"
+    feedback: "Посоветуйте и помогите нам улучшить руководства!"
+    getstarted: "Начало"
   sw:
+    language: "Kiswahili"
     tagline: "Jifunze OpenStreetMap hatua kwa hatua"
     contribute: "Saidia kuboresha miongozo yetu"
     trainingspan: "Je wewe ni muaandaaji wa mkutano?"
@@ -174,7 +185,17 @@ translations:
     feedbackspan: "Je hii sura ilikuwa na manufaa?"
     feedback: "Tujulishe na utusaidie kuboresha miongozo!"
     getstarted: "Anza"
+  uk:
+    language: "Українська"
+    tagline: "Знайомимось з OpenStreetMap крок за кроком"
+    contribute: "Допоможіть покращити наші посібники"
+    trainingspan: "Ви проводите семінар?"
+    training: "Ознайомтесь з навчальними матеріалами для цього посібника (англ.)"
+    feedbackspan: "Чи був цей розділ корисним?"
+    feedback: "Повідомте нам і допоможіть нам покращити посібник!"
+    getstarted: "Розпочати"
   zh:
+    language: "简体中文"
     tagline: "逐步学习OpenStreetMap"
     contribute: "帮助改进我们的指南"
     trainingspan: "是工作小组组织者吗？"
@@ -183,6 +204,7 @@ translations:
     feedback: "告诉我们并帮助我们改进本指南。"
     getstarted: "入门"
   zh-tw:
+    language: "繁體中文"
     tagline: "一步一腳印學習開放街圖"
     contribute: "幫忙改進我們的指南"
     trainingspan: "你是工作坊活動組織者嗎？"
@@ -190,4 +212,3 @@ translations:
     feedbackspan: "這個章節有用嗎？"
     feedback: "讓我們了解以便我們改進這個指南！"
     getstarted: "入門"
-

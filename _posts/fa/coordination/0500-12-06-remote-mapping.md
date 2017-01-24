@@ -5,7 +5,7 @@ permalink: /fa/coordination/HOT-Remote-Response-Guide
 lang: fa
 category: coordination
 ---
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
+![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot_theme/logo.png)
 
 # راهنمای واکنش از راه دور HOT  
 

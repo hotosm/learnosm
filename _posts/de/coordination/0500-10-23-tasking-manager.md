@@ -250,9 +250,9 @@ Unter diesen Links können Sie weiterlesen:
 [Picking a task]: /images/de/coordination/tasking_manager/tasking_manager_image05.png
 [Assigned task square]: /images/de/coordination/tasking_manager/tasking_manager_image06.png
 [Editing options]: /images/de/coordination/tasking_manager/tasking_manager_image07.png
-[IRC_help]: /images/en/coordination/tasking_manager/tasking_manager_image08.png
-[IRC using]: /images/en/coordination/tasking_manager/tasking_manager_image09.png
+[IRC_help]: /images/coordination/tasking_manager_image08.png
+[IRC using]: /images/coordination/tasking_manager_image09.png
 [Tasking Manager About]: /images/de/coordination/tasking_manager/tasking_manager_image011.png
-[Tasking Manager Languages]: /images/en/coordination/tasking_manager/tasking_manager_image012.png
+[Tasking Manager Languages]: /images/coordination/tasking_manager_image012.png
 
 

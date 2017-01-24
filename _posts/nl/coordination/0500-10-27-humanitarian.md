@@ -8,7 +8,7 @@ category: coordination
 
 # Mappen voor humanitaire organisaties
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
+![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot_theme/logo.png)
 
 > Deze handleiding kan gedownload worden als [humanitarian_nl.odt](/files/humanitarian_nl.odt) or [humanitarian_nl.pdf](/files/humanitarian_nl.pdf)  
 > Bijgewerkt 18-09-2015

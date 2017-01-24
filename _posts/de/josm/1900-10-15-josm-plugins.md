@@ -561,5 +561,5 @@ queue of files waiting to be inserted into the database.
 -->
 
 
-[Plugins]: /images/en/editing/josm-plugins/plugins-tab.png
+[Plugins]: /images/josm/josm-plugins-tab.png
 

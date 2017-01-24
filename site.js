@@ -2,6 +2,14 @@
 ---
 $(function() {
     var app = window.app;
+    $('.dropdown').hover(
+        function() {
+            $('.dropdown-content').addClass('active');
+        },
+        function() {
+            $('.dropdown-content').removeClass('active');
+        }
+    );
     $('.language-switcher a').each(function(i, e) {
         if (app.permalink.length < 3) return;
         var remainder = app.permalink.match(/(\/[^\/]+)(\/.*)/)[2];

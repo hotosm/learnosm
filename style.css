@@ -255,14 +255,30 @@ body {
   bottom:0;
   left:0;
 }
+.dropdown {
+  position:relative;
+  display:inline-block;
+}
+.dropdown-content {
+  display:none;
+}
+.dropdown-content.active {
+  display:block;
+  position:absolute;
+  background-color:#f0f0f0;
+  z-index:1;
+}
 .language-switcher {
   padding:6px 20px;
-  }
-  .language-switcher a.active {
-    color: #79bc5f;
-    text-decoration: none;
-    cursor: default;
-    }
+}
+.language-switcher a.active {
+  color: #79bc5f;
+  text-decoration: none;
+  cursor: default;
+}
+.unavailable {
+  color: #909090;
+}
 #header {
   padding:20px 0px;
   background: #fff url(./img/dot.png) repeat-x bottom;

@@ -5,7 +5,7 @@ permalink: /ru/coordination/HOT-Remote-Response-Guide
 lang: ru
 category: coordination
 ---
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
+![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot_theme/logo.png)
 
 # Рекомендации HOT по предоставлению дистанционной помощи
 Humanitarian OpenStreetMap Team (HOT) [Команда OpenStreetMap по оказанию

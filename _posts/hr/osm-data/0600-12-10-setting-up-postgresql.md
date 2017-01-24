@@ -205,28 +205,28 @@ database. We'll take a look at this in the [next chapter](/en/osm-data/osm2pgsql
 
 
 
-[postgresql website]: /images/en/osm-data/setting-up-postgresql/postgresql-website.png
-[postgresql download]: /images/en/osm-data/setting-up-postgresql/postgresql-download.png
-[postgresql version]: /images/en/osm-data/setting-up-postgresql/postgresql-version.png
-[install 1]: /images/en/osm-data/setting-up-postgresql/postgresql-install-1.png
-[install 2]: /images/en/osm-data/setting-up-postgresql/postgresql-install-2.png
-[install 3]: /images/en/osm-data/setting-up-postgresql/postgresql-install-3.png
-[install 4]: /images/en/osm-data/setting-up-postgresql/postgresql-install-4.png
-[install 5]: /images/en/osm-data/setting-up-postgresql/postgresql-install-5.png
-[install 6]: /images/en/osm-data/setting-up-postgresql/postgresql-install-6.png
-[pgadmin3]: /images/en/osm-data/setting-up-postgresql/pgadmin3.png
-[pgadmin3 start]: /images/en/osm-data/setting-up-postgresql/pgadmin3-start.png
-[postgresql connect]: /images/en/osm-data/setting-up-postgresql/postgresql-connect.png
-[enter password]: /images/en/osm-data/setting-up-postgresql/enter-password.png
-[new database]: /images/en/osm-data/setting-up-postgresql/new-database.png
-[new database form]: /images/en/osm-data/setting-up-postgresql/new-database-form.png
-[sql button]: /images/en/osm-data/setting-up-postgresql/sql-button.png
-[postgis command]: /images/en/osm-data/setting-up-postgresql/postgis-command.png
-[shapefile loader]: /images/en/osm-data/setting-up-postgresql/shapefile-loader.png
-[add shapefile]: /images/en/osm-data/setting-up-postgresql/add-shapefile.png
-[qgis add postgis button]: /images/en/osm-data/setting-up-postgresql/add-postgis-button.png
-[connection settings]: /images/en/osm-data/setting-up-postgresql/connection-settings.png
-[your data layer]: /images/en/osm-data/setting-up-postgresql/your-data-layer.png
+[postgresql website]: /images/osm-data/postgresql-website.png
+[postgresql download]: /images/osm-data/postgresql-download.png
+[postgresql version]: /images/osm-data/postgresql-version.png
+[install 1]: /images/osm-data/postgresql-install-1.png
+[install 2]: /images/osm-data/postgresql-install-2.png
+[install 3]: /images/osm-data/postgresql-install-3.png
+[install 4]: /images/osm-data/postgresql-install-4.png
+[install 5]: /images/osm-data/postgresql-install-5.png
+[install 6]: /images/osm-data/postgresql-install-6.png
+[pgadmin3]: /images/osm-data/pgadmin3.png
+[pgadmin3 start]: /images/osm-data/pgadmin3-start.png
+[postgresql connect]: /images/osm-data/postgresql-connect.png
+[enter password]: /images/osm-data/enter-password.png
+[new database]: /images/osm-data/new-database.png
+[new database form]: /images/osm-data/new-database-form.png
+[sql button]: /images/osm-data/sql-button.png
+[postgis command]: /images/osm-data/postgis-command.png
+[shapefile loader]: /images/osm-data/shapefile-loader.png
+[add shapefile]: /images/osm-data/add-shapefile.png
+[qgis add postgis button]: /images/osm-data/add-postgis-button.png
+[connection settings]: /images/osm-data/connection-settings.png
+[your data layer]: /images/osm-data/your-data-layer.png
 
 
 

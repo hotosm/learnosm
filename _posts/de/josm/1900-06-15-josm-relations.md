@@ -139,17 +139,17 @@ erworbene Wissen und die weiteren Informationen, die Sie im OSM Wiki finden.
 
 
 
-[Multipolygon ways]: /images/en/editing/josm-relations/multipolygon-ways.png
-[Building preset]: /images/editing/josm-relations_building-preset.de.png
-[New relation]: /images/editing/josm-relations_new-relation.de.png
-[Building relation]: /images/editing/josm-relations_building-relation.de.png
-[Type multipolygon]: /images/editing/josm-relations_type-multipolygon.de.png
-[Outer or inner role]: /images/editing/josm-relations_outer-inner.de.png
-[New multipolygon]: /images/en/editing/josm-relations/new-multipolygon.png
-[Multipolygon in mapnik]: /images/en/editing/josm-relations/multipolygon-mapnik.png
-[An example of a multipolygon]: /images/en/editing/josm-relations/multipolygon-demo.png
-[Route relation]: /images/en/editing/josm-relations/route-relation.png
-[Public transport preset]: /images/editing/josm-relations_public-transport-preset.de.png
-[Bus route relation]: /images/editing/josm-relations_bus-route-relation.de.png
-[relation panel button]: /images/en/editing/josm-relations/relation-panel-button.png
+[Multipolygon ways]: /images/josm/multipolygon-ways.png
+[Building preset]: /images/josm/building-preset.de.png
+[New relation]: /images/josm/new-relation.de.png
+[Building relation]: /images/josm/building-relation.de.png
+[Type multipolygon]: /images/josm/type-multipolygon.de.png
+[Outer or inner role]: /images/josm/outer-inner.de.png
+[New multipolygon]: /images/josm/new-multipolygon.png
+[Multipolygon in mapnik]: /images/josm/multipolygon-mapnik.png
+[An example of a multipolygon]: /images/josm/multipolygon-demo.png
+[Route relation]: /images/josm/route-relation.png
+[Public transport preset]: /images/josm/public-transport-preset.de.png
+[Bus route relation]: /images/josm/bus-route-relation.de.png
+[relation panel button]: /images/josm/relation-panel-button.png
 

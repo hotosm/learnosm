@@ -81,6 +81,6 @@ index of locations that are included in the area.
 ваши исследования и узнаете больше об OSM и сделаете свой вклад
 в проект. Удачи вам!
 
-[MapOSMatic]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image00_maposmatic-homepage.png
-[Wiki]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image01_osm-wiki.png
-[Mailing list]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image02_osm-mailing-lists.png
+[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[Wiki]: /images/beginner/osm-wiki.png
+[Mailing list]: /images/beginner/osm-mailing-lists.png
