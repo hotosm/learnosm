@@ -1,100 +1,100 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://learnosm.org//bi/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
         <loc>http://learnosm.org//cs/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/contribute/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/status/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//contribute/</loc>
@@ -102,2242 +102,2246 @@
     </url>
     <url>
         <loc>http://learnosm.org//it/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh-tw/contribute/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh-tw/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh-tw/status/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/beginner/moving-forward</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/beginner/moving-forward/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh-tw/beginner/moving-forward/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/beginner/glossary/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh-tw/beginner/glossary/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/beginner/id-editor</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/beginner/id-editor/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh-tw/beginner/id-editor/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/beginner/start-osm</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/beginner/start-osm/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh-tw/beginner/start-osm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/beginner/introduction/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh-tw/beginner/introduction/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/beginner/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh-tw/beginner/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/intermediate/private-data-storage/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/intermediate/creating-custom-preset/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/intermediate/editing-the-wiki/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/intermediate/editing-the-wiki/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/intermediate/tasking-manager/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/intermediate/quality-assurance/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/intermediate/using-orbview-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/intermediate/conflict-resolution/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/intermediate/editing-in-detail/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/intermediate/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/advanced/sqlite-databases/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/advanced/projections-and-files-format/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/advanced/private-data-storage/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/advanced/wms-service-configuration/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/advanced/github-sharing/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/advanced/cartography-with-tilemill/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/advanced/postgis-configuration/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/advanced/putting-maps-on-a-website/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/advanced/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/coordination/review/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/coordination/review/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/coordination/review/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/coordination/remote-tracing/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/coordination/remote-tracing</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/coordination/remote-tracing/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/coordination/remote-tracing/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/coordination/remote/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/coordination/remote/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/coordination/remote/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/coordination/remote/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/coordination/tasking-manager/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//en/coordination/tasking-manager-project-admin/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/coordination/tasking-manager/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/coordination/tasking-manager/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/coordination/tasking-manager</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/coordination/tasking-manager/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/coordination/tasking-manager/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/coordination/tasking-manager/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//bi/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//cs/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:20:45+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//cs/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//de/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:21:43+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//de/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//en/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:22:21+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//en/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//es/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//es/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:23:36+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/coordination/humanitarian/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-25T00:23:57+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//fr/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//fr/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:24:11+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//hr/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//hr/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:24:28+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//it/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//id/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:24:44+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//ja/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//it/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:24:58+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//my/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//ja/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:25:16+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//nb/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//my/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:25:38+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//nl/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//nb/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:25:57+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//pt/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//nl/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:26:12+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//ru/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//pt/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:26:27+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//uk/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//ru/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:26:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//zh/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//uk/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:27:26+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//zh/coordination/humanitarian/</loc>
+        <lastmod>2017-01-25T00:27:48+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh-tw/coordination/humanitarian</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/coordination/remote/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//en/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//en/coordination/HOT-Remote-Response-Guide/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/coordination/HOT-Remote-Response-Guide</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/coordination/HOT-Remote-Response-Guide/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/coordination/HOT-Remote-Response-Guide</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/coordination/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh-tw/coordination/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/osm-data/osmosis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/osm-data/osmosis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/osm-data/osmosis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/osm-data/osmosis/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/osm-data/osmosis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/osm-data/osmosis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/osm-data/osmosis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/osm-data/osmosis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/osm-data/osm2pgsql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/osm-data/osm2pgsql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/osm-data/osm2pgsql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/osm-data/osm2pgsql/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/osm-data/osm2pgsql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/osm-data/osm2pgsql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/osm-data/osm2pgsql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/osm-data/osm2pgsql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/osm-data/setting-up-postgresql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/osm-data/postgresql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/osm-data/setting-up-postgresql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/osm-data/setting-up-postgresql/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/osm-data/setting-up-postgresql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/osm-data/setting-up-postgresql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/osm-data/postgresql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/osm-data/postgresql/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/osm-data/osm-in-qgis/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/osm-data/osm-in-qgis/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/osm-data/geofabrik-and-hot-export/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/osm-data/geofabrik-and-hot-export/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/osm-data/geofabrik-and-hot-export/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/osm-data/getting-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/osm-data/getting-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/osm-data/getting-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/osm-data/getting-data/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/osm-data/getting-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/osm-data/getting-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/osm-data/getting-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/osm-data/getting-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/osm-data/file-formats/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/osm-data/file-formats/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/osm-data/file-formats/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/osm-data/file-formats/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/osm-data/file-formats/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/osm-data/file-formats/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/osm-data/file-formats/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/osm-data/file-formats/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/osm-data/data-overview/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/osm-data/data-overview/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/osm-data/data-overview/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/osm-data/data-overview/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/osm-data/data-overview/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/osm-data/data-overview/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/osm-data/data-overview/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/osm-data/data-overview/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/osm-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/osm-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/osm-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/osm-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/osm-data/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/osm-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/osm-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/osm-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/osm-data/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/map-design/tilemill/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/map-design/tilemill/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/map-design/tilemill/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/map-design/tilemill/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/map-design/tilemill/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/map-design/tilemill/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/map-design/mapbox/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/map-design/mapbox/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/map-design/mapbox/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/map-design/mapbox/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/map-design/mapbox/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/map-design/mapbox/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/map-design/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/map-design/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/map-design/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/map-design/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/map-design/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/map-design/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/mobile-mapping/gomap/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/mobile-mapping/gomap/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/mobile-mapping/gpsessentials/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/mobile-mapping/gpsessentials/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/mobile-mapping/gpsessentials/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/mobile-mapping/gpsessentials/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/mobile-mapping/gpsessentials/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/mobile-mapping/gpsessentials/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/mobile-mapping/gpslogger/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/mobile-mapping/gpslogger/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/mobile-mapping/osmtracker/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/mobile-mapping/osmtracker/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/mobile-mapping/osmtracker/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/mobile-mapping/osmtracker/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/mobile-mapping/osmtracker/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/mobile-mapping/osmtracker/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/mobile-mapping/oruxmaps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/mobile-mapping/oruxmaps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/mobile-mapping/oruxmaps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/mobile-mapping/oruxmaps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/mobile-mapping/osmand/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/mobile-mapping/osmand/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/mobile-mapping/osmand2/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/mobile-mapping/osmand2/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/mobile-mapping/osmand2/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/mobile-mapping/field-papers/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/mobile-mapping/field-papers/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/mobile-mapping/using-gps/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/mobile-mapping/using-gps/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/mobile-mapping/osmtracker/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/mobile-mapping/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nb/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/mobile-mapping/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/conflict-resolution/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/josm-conflict-resolution/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/conflict-resolution/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/conflict-resolution/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/josm-conflict-resolution/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/correcting-imagery-offset/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/correcting-imagery-offset/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/correcting-imagery-offset/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/correcting-imagery-offset/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/correcting-imagery-offset/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/correcting-imagery-offset/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/josm-adding-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/josm-adding-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/josm-adding-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/aerial-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/josm/aerial-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/aerial-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/josm/aerial-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/josm/aerial-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/aerial-imagery/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/aerial-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/aerial-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/aerial-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/josm/aerial-imagery/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/josm-editing-techniques/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/josm/josm-editing-techniques/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/josm-editing-techniques/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/josm-editing-techniques/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/josm-relations/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/josm/josm-relations/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/josm-relations/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/josm-relations/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/josm-relations/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/josm-relations/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/josm-relations/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/creating-presets/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/josm/creating-presets/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/creating-presets/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/creating-presets/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/creating-presets/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/creating-presets/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/creating-presets/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/josm-presets/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/josm/josm-presets/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/josm-presets/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/josm-presets/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/josm-presets/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/josm-presets/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//bi/josm/more-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//de/josm/more-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//de/josm/josm-more-tools/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/josm-more-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//ja/josm/more-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <loc>http://learnosm.org//id/josm/josm-more-plugins/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//ja/josm/josm-more-tools/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/josm-more-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/josm-more-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/josm-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/josm/josm-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/josm-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/josm/josm-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/josm/josm-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/josm-plugins/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/josm-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/josm-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/josm-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/josm/josm-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/josm/josm-plugins/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/josm-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/josm/josm-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/josm-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/josm/josm-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/josm/josm-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/josm-tools/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/josm-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/josm-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/josm-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/josm/josm-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/josm/josm-tools/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/editing-with-josm/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/josm/editing-with-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/josm/more-about-josm</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/more-about-josm/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/josm/more-about-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/josm/start-josm</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/start-josm/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/josm/start-josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
-    </url>
-    <url>
-        <loc>http://learnosm.org//bi/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//cs/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fa/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//fr/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//id/josm/</loc>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//it/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ja/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//my/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//pt/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//ru/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//sw/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//uk/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//zh/josm/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//404/</loc>
-        <lastmod>2016-12-07T11:27:06+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//all-translation.json</loc>
-        <lastmod>2016-12-07T11:24:46+00:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//</loc>
-        <lastmod>2016-11-25T17:58:48+00:00</lastmod>
+        <lastmod>2017-01-25T00:27:48+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//site.js</loc>
-        <lastmod>2016-09-18T10:06:10+01:00</lastmod>
+        <lastmod>2017-01-24T00:39:49+00:00</lastmod>
     </url>
 </urlset>
