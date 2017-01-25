@@ -1,12 +1,12 @@
 ---
 layout: doc
 title: Humanitarian Mapping
-permalink: /zh/coordination/humanitarian
+permalink: /zh/coordination/humanitarian/
 lang: zh
 category: coordination
 ---
 
-#Humanitarian Mapping
+# Humanitarian Mapping
 
 This guide is currently not available. It is being translated. Please refer to it in:  
 

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Mapping voor Humanitaire Organisaties
-permalink: /nl/coordination/humanitarian
+permalink: /nl/coordination/humanitarian/
 lang: nl
 category: coordination
 ---

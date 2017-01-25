@@ -1,6 +1,6 @@
 ---
 layout: doc
-permalink: /cs/coordination/humanitarian
+permalink: /cs/coordination/humanitarian/
 lang: cs
 title: Humanitarian Mapping
 category: coordination

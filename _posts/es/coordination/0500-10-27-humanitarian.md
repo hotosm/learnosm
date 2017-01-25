@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Mapeo Humanitario
-permalink: /es/coordination/humanitarian
+permalink: /es/coordination/humanitarian/
 lang: es
 category: coordination
 ---

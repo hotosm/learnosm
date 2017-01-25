@@ -4,12 +4,11 @@ title: Humanitarian Mapping
 permalink: /id/coordination/humanitarian/
 redirect_from:
   - /bi/coordination/humanitarian
-  - /bi/coordination/humanitarian/
 lang: id
 category: coordination
 ---
 
-#Humanitarian Mapping
+# Humanitarian Mapping
 
 This guide is currently not available. It is being translated. Please refer to it in:  
 

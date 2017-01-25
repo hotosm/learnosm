@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Kartierung für humanitäre Zwecke
-permalink: /de/coordination/humanitarian
+permalink: /de/coordination/humanitarian/
 lang: de
 category: coordination
 ---

@@ -1,12 +1,12 @@
 ---
 layout: doc
 title: Humanitarian Mapping
-permalink: /hr/coordination/humanitarian
+permalink: /hr/coordination/humanitarian/
 lang: hr
 category: coordination
 ---
 
-#Humanitarian Mapping
+# Humanitarian Mapping
 
 This guide is currently not available. It is being translated. Please refer to it in:  
 

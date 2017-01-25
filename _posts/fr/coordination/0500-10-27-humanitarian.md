@@ -1,12 +1,12 @@
 ---
 layout: doc
 title: Humanitarian Mapping
-permalink: /fr/coordination/humanitarian
+permalink: /fr/coordination/humanitarian/
 lang: fr
 category: coordination
 ---
 
-#Humanitarian Mapping
+# Humanitarian Mapping
 
 Cette page n'est pas disponible en Français et doit être traduite. Vous pouvez aussi consulter les autres versions dans les langues suivantes:  
 
