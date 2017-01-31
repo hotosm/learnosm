@@ -154,6 +154,9 @@ a {
   color: #404040;
   }
 
+.doc-nav a:visited {
+  color: #009973;
+}
 a:hover {
   color: #79bc5f;
 }
