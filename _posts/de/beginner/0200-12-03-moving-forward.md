@@ -9,8 +9,9 @@ category: beginner
 Weiterführende Literatur
 ===============
 
-Dieses Handbuch kann als [beginner_moving-forward_en.odt](files/beginner_moving-forward_en.odt) oder als [beginner_moving-forward_en.pdf](/files/beginner_moving-forward_en.pdf) heruntergeladen werden.  
-Geprüft am 2015-07-12  
+> Dieses Handbuch kann als [beginner_moving-forward_de.odt](files/beginner_moving-forward_de.odt) oder als [beginner_moving-forward_de.pdf](/files/beginner_moving-forward_de.pdf) heruntergeladen werden.  
+
+> Geprüft am 2015-07-12  
 
 Wenn Sie es bis hier hin geschafft haben - Glückwunsch! Sie sollten jetzt ein gutes Verständnis davon haben, wie man Karten mit OpenStreetMap erstellt. Aber was kann man noch alles mit OSM anstellen? Wie können Sie noch mehr lernen? Und wie können Sie mit der Gemeinschaft der “Kartographen” verbunden bleiben?  
 
