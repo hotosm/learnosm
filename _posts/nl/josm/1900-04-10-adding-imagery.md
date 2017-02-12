@@ -33,7 +33,7 @@ Klik op het pictogram ![WMS_TMS_button][]{: height="24px"} en in dit geval op he
 **Vak 1.** Plak de informatie die u kopieerde vanuit de tab Instructies van Tasking Manager in het eerste vak van het venster. JOSM zal het verifiëren en als het juist is zal het proces voor verifiëren de informatie herhalen in vak 3 (zie hieronder). Als het niet binnen een paar seconden verschijnt in vak 3, controleer dan of u niet per ongelijk enige letters mist of abusievelijk 'witruimte' heeft toegevoegd aan het begin of einde - alleen de echte link moet worden gekopieerd en geplakt.  
 **Vak 2.** Dit wordt normaal gesproken leeg gelaten, tenzij u andere instructies hebt ontvangen.  
 **Vak 3.** bevat nu een duplicaat van Vak 1, gegenereerd door het proces voor verificatie binnen JOSM.  
-**Vak 4.** Voer ene naam in voor de laag - omdat mijn afbeelding in de Tasking Manager werd vermeld als "Satellite imagery for this project is kindly provided by Digital Globe through their +Vivid service." heb ik mijn laag "Digital Globe + Vivid" genoemd.  
+**Vak 4.** Voer een naam in voor de laag - omdat mijn afbeelding in de Tasking Manager werd vermeld als "Satellite imagery for this project is kindly provided by Digital Globe through their +Vivid service." heb ik mijn laag "Digital Globe + Vivid" genoemd.  
 
 ![Preferences WMS TMS 4][]
 
