@@ -38,7 +38,7 @@ Para este tutorial usaremos la función de descarga integrada en QGIS.
 
 - Los datos de OSM se habrán guardado en la ubicación especificada.  
 
-> Este método para acceder a los datos de OSM es el mismo que si los descargara desde JOSM o en 	[openstreetmap.org](http://www.openstreetmap.org). Para extractos actualizados y más grandes, puede probar descargarlos desde el [sitio de exportaciones HOT](http://export.hotosm.org/es) o [bbbike.org](http://extract.bbbike.org/). Recuerde que si está descargando un archivo comprimido de OSM, primero necesitará descomprimirlo al formato **.osm** para los pasos siguientes.  
+> Este método para acceder a los datos de OSM es el mismo que si los descargara desde JOSM o en [openstreetmap.org](http://www.openstreetmap.org). Para extractos actualizados y más grandes, puede probar descargarlos desde el [sitio de exportaciones HOT](http://export.hotosm.org/es) o [bbbike.org](http://extract.bbbike.org/). Recuerde que si está descargando un archivo comprimido de OSM, primero necesitará descomprimirlo al formato **.osm** para los pasos siguientes.  
 
 
 Importar datos a SQLite

@@ -33,7 +33,7 @@ Elk type weg, van autosnelwegen tot sporen en paden, worden gelabeld als 'highwa
 -  Weten of een wegoppervlak asfalt is of zachte modder zal verschil,maken voor het plannen van uw route.
 -  Bij het pr0beren in kaart te brengen van de verspreiding van een ziekte, is de beschrijving van een slachtoffer als "nabij de kruising" significant als u de kruising kunt zien op de kaart.
 
-### Wegen - Hoe in kaart te brengen
+### <a name="highways-howto"></a> Wegen - Hoe in kaart te brengen
 
 ![iD 3][]
 
@@ -92,7 +92,7 @@ Residentiële grenzen wordne voor vele doelen gebruikt in OpenStreetMap.
 *  Plaatsnamen & grenzen worden vaak geïmporteerd vanuit andere bronnen, maar de locatie is niet altijd nauwkeurig. Als u eenmaal een residentiële grens heeft, kan de persoon die de import verzorgt zien waar de plaatsnaam waarschijnlijk moet staan.
 
 
-### landuse=residential - hoe in kaart te brengen
+### <a name="residential-howto"></a> landuse=residential - hoe in kaart te brengen
 
 
 ** In een ideale wereld **  
@@ -135,7 +135,7 @@ gebouwen worden aan de kaartgegevens toegevoegd om een aantal redenen;
 *  Er bestaat potentieel om in te schatten hoe groot het percentage schade is voor een gebouw, wat kan worden gebruikt om het aantal potentiële gewonden & vereiste mate van ondersteuning die nodig is in te schatten - dit wordt momenteel (januari 2015) nader onderzocht voor gebruik in de toekomst.  
 
 
-### Gebouwen - Hoe in kaart te brengen
+### <a name="buildings-howto"></a> Gebouwen - Hoe in kaart te brengen
 
 De overgrote meerderheid van gebouwen die voor HOT in kaart moeten worden gebracht zijn ofwel gebaseerd op rechthoekige vormen met vierkante hoeken, of zijn rond. Als een gebouw een mix van die twee lijkt te zijn, is het meer waarschijnlijk dat u kijkt naar een gebouw waarvan de omtrek aan het oog wordt onttrokken door schaduw, reflectie, gebladerte of iets dergelijks.  
 

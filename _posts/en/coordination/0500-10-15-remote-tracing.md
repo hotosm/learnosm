@@ -33,7 +33,7 @@ Any type of roads from motorways to tracks and paths are labelled 'highway' in O
 -  Knowing whether a road surface is asphalt or soft mud will make a difference to your route planning.
 -  When attempting to plot the spread of a disease, a victim's description of "near the crossroads" is significant if you can see the crossroads on the map.
 
-### Highways - How to map
+### <a name="highways-howto"></a> Highways - How to map
 
 ![iD 3][]
 
@@ -92,7 +92,7 @@ Residential boundaries are used for many purposes in OpenStreetMap.
 *  Place names & boundaries are often imported from other sources, but the location is not always accurate. Once you have a residential boundary the person doing the import can see where the place name should probably be.
 
 
-### landuse=residential - how to map
+### <a name="residential-howto"></a> landuse=residential - how to map
 
 
 ** In an ideal world **  
@@ -135,7 +135,7 @@ Buildings are added to the map data for a number of reasons;
 *  There is the potential to estimate the degree of damage sustained by a building, which can be used to estimate the potential casualties & level of support that may be required - this is currently (January 2015) under discussion for future use.  
 
 
-### Buildings - How to Map
+### <a name="buildings-howto"></a> Buildings - How to Map
 
 The vast majority of buildings that require mapping by HOT are either based upon rectangular shapes with square corners, or are round. If a building appears to be a mixture of the two, it is more likely you are looking at a building who's outline is obscured by shadow, reflection, foliage or similar.  
 

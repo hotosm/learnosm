@@ -46,6 +46,9 @@ translations:
     feedbackspan: "Was this chapter helpful?"
     feedback: "Let us know and help us improve the guides!"
     getstarted: "Get started"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
+
   cs:
     language: "Česky"
     tagline: "Naučte se OpenStreetMap krok za krokem"
@@ -55,6 +58,8 @@ translations:
     feedbackspan: "Byla tato kapitola užitečná?"
     feedback: "Napište nám a pomožte nám zlepšit naše návody!"
     getstarted: "Začínáme"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   de:
     language: "Deutsch"
     tagline: "Lernen Sie OpenStreetMap Schritt für Schritt kennen"
@@ -64,6 +69,8 @@ translations:
     feedbackspan: "War dieses Kapitel hilfreich?"
     feedback: "Senden Sie uns Feedback und verbessern Sie die Anleitungen!"
     getstarted: "weiter zum nächsten Kapitel"
+    returntotop: "Zum Anfang der Seite springen"
+    quickaccess: "Schnellzugriff"
   es:
     language: "Español"
     tagline: "Aprende OpenStreetMap Paso a Paso"
@@ -73,6 +80,8 @@ translations:
     feedbackspan: "¿Este capítulo te resultó útil?"
     feedback: "¡Contacta con nosotros y ayúdanos a mejorar estas guías!"
     getstarted: "Comencemos"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   fa:
     language: "فارسی"
     tagline: "آموزش گام به گام OpenStreetMap"
@@ -82,6 +91,8 @@ translations:
     feedbackspan: "آیا این بخش مفید بود؟"
     feedback: "با ما درمیان بگذارید و راهنماها را بهبود ببخشید!"
     getstarted: "شروع به کار"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   fr:
     language: "Français"
     tagline: "Apprendre OpenStreetMap étape par étape"
@@ -91,6 +102,8 @@ translations:
     feedbackspan: "Cette page était-elle utile ?"
     feedback: "Faîtes-nous savoir comment améliorer ces guides !"
     getstarted: "Commencer"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   hr:
     language: "Hrvatski"
     tagline: "Naučite OpenStreetMap korak po korak"
@@ -100,6 +113,8 @@ translations:
     feedbackspan: "Je li ovo poglavlje bilo korisno?"
     feedback: "Javite nam i pomozite nam poboljšati uputstva!"
     getstarted: "Započnite"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   id:
     language: "Bahasa Indonesia"
     overview: "Ringkasan"
@@ -110,6 +125,8 @@ translations:
     feedbackspan: "Apakah bab ini bermanfaat?"
     feedback: "Beritahu kami dan bantu kami memperbaiki panduan!"
     getstarted: "Lanjutkan ke bab berikutnya"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   it:
     language: "Italiano"
     overview: "Riassunto"
@@ -120,6 +137,8 @@ translations:
     feedbackspan: "Questa capitolo ti è stato utile?"
     feedback: "Contattaci ed aiutaci a migliorare le guide!"
     getstarted: "procedere al capitolo successivo"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   ja:
     language: "日本語"
     overview: "概要"
@@ -130,6 +149,8 @@ translations:
     feedbackspan: "この章は役に立ちましたか？"
     feedback: "ガイドの改善にご意見ください"
     getstarted: "次の章に進む"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   my:
     language: "ဗမာ"
     tagline: "OpenStreetMap အားတစ်ဆင့်ပြီးတစ်ဆင့်လေ့လာခြင်း"
@@ -139,6 +160,8 @@ translations:
     feedbackspan: "ဤအခန်းသည် သင့်အတွက်အထောက်အကူပြုပါသလား။"
     feedback: "ကျွန်ုပ်တို့၏လမ်းညွှန်မှုများကိုတိုးတက်ကောင်းမွန်စေရန် ကျွန်ုပ်တို့အားအသိပေးခြင်းဖြင့်ကူညီပါ။"
     getstarted: "စတင်ရန်"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   nl:
     language: "Nederlands"
     tagline: "Ontdek de mogelijkheden van OpenStreetMap"
@@ -148,6 +171,8 @@ translations:
     feedbackspan: "Was dit een goede handleiding?"
     feedback: "Laat ons weten hoe we de handleidingen kunnen verbeteren!"
     getstarted: "Beginnen"
+    returntotop: "Terug naar begin van de pagina"
+    quickaccess: "Snelle toegang"
   nb:
     language: "Norsk"
     tagline: "Lær deg OpenStreetMap steg for steg"
@@ -157,6 +182,8 @@ translations:
     feedbackspan: "Var dette kapittelet nyttig?"
     feedback: "Gi oss tilbakemelding og hjelp oss med å forbedre guidene!"
     getstarted: "Kom i gang"
+    returntotop: "Gå til toppen av siden"
+    quickaccess: "Hurtigtilgang"
   pt:
     language: "Português"
     overview: "Sumário"
@@ -167,6 +194,8 @@ translations:
     feedbackspan: "Este capítulo foi útil?"
     feedback: "Conte-nos e ajude a melhorar os guias!"
     getstarted: "prosseguir para o próximo capítulo"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   ru:
     language: "Русский"
     tagline: "Изучаем OpenStreetMap шаг за шагом"
@@ -176,6 +205,8 @@ translations:
     feedbackspan: "Был ли данный раздел полезным?"
     feedback: "Посоветуйте и помогите нам улучшить руководства!"
     getstarted: "Начало"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   sw:
     language: "Kiswahili"
     tagline: "Jifunze OpenStreetMap hatua kwa hatua"
@@ -185,6 +216,8 @@ translations:
     feedbackspan: "Je hii sura ilikuwa na manufaa?"
     feedback: "Tujulishe na utusaidie kuboresha miongozo!"
     getstarted: "Anza"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   uk:
     language: "Українська"
     tagline: "Знайомимось з OpenStreetMap крок за кроком"
@@ -194,6 +227,8 @@ translations:
     feedbackspan: "Чи був цей розділ корисним?"
     feedback: "Повідомте нам і допоможіть нам покращити посібник!"
     getstarted: "Розпочати"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   zh:
     language: "简体中文"
     tagline: "逐步学习OpenStreetMap"
@@ -203,6 +238,8 @@ translations:
     feedbackspan: "本章节有用吗？"
     feedback: "告诉我们并帮助我们改进本指南。"
     getstarted: "入门"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   zh-tw:
     language: "繁體中文"
     tagline: "一步一腳印學習開放街圖"
@@ -212,3 +249,5 @@ translations:
     feedbackspan: "這個章節有用嗎？"
     feedback: "讓我們了解以便我們改進這個指南！"
     getstarted: "入門"
+    returntotop: "回到頁面頂端"
+    quickaccess: "快速連結"
