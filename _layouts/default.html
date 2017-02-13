@@ -37,7 +37,7 @@
   <body>
    <div id='wrapper'>
     <div class="fillG cell11" id="banner-top">
-      <div class="dropdown language-switcher marginL"> <a> {{site.translations.[page.lang].language}} ... </a>
+      <div class="dropdown language-switcher marginL"> <span> {{site.translations.[page.lang].language}} ... </span>
         <div class='language-switcher dropdown-content'>
           {% assign start_page = "/" | append: page.lang | append: "/" | strip %}
           {% assign this_page = page.permalink | strip %}
