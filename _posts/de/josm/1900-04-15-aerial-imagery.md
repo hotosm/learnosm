@@ -15,7 +15,7 @@ leistungsfähige Art und Weise zu OpenStreetMap beizutragen. Besonders
 wenn eine hohe Auflösung und eine klarer Himmel bei der Aufnahme vorliegen,
 kann das Abdigitalisieren von Luft- und Satellitenbildern das Grundgerüst 
 für OSM-Karten liefern. Das ist sehr nützlich, da es das Überprüfen oder
-Erfassen von Attributdaten für Leute im Feld einfacher macht. 
+Erfassen von Details vor Ort einfacher macht. 
 
 Nichtsdestotrotz muss man einige Dinge beim Nachzeichen von Luft- und 
 Satellitenbildern beachten, damit Objekte nicht an der falschen Stelle
