@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM တွင်tms, wms သို့မဟုတ် wmts ဂြိုဟ်တုဓါတ်ပုံများထည့်သွင်းခြင်း
-permalink: /en/josm/josm-adding-imagery/
+permalink: /my/josm/josm-adding-imagery/
 lang: my
 category: josm
 ---
