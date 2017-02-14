@@ -48,7 +48,17 @@ translations:
     getstarted: "Get started"
     returntotop: "Return to top of page"
     quickaccess: "Quick access"
-
+  ca:
+    language: "Català"
+    tagline: "Apreneu sobre l'OpenStreetMap pas a pas"
+    contribute: "Ajudeu-nos a millorar les guies"
+    trainingspan: "Organitzeu tallers?"
+    training: "Feu una ullada al nostre material de formació per a aquesta guia (en anglès)"
+    feedbackspan: "Was this chapter helpful?"
+    feedback: "Feu-nos ho saber i ajudeu-nos a millorar les guies!"
+    getstarted: "Iniciació"
+    returntotop: "Return to top of page"
+    quickaccess: "Quick access"
   cs:
     language: "Česky"
     tagline: "Naučte se OpenStreetMap krok za krokem"
@@ -203,10 +213,10 @@ translations:
     trainingspan: "Вы организатор?"
     training: "Смотрите наши обучающие материалы по данному руководству (на английском)"
     feedbackspan: "Был ли данный раздел полезным?"
-    feedback: "Посоветуйте и помогите нам улучшить руководства!"
+    feedback: "Дайте нам знать и помогите улучшить руководства!"
     getstarted: "Начало"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
+    returntotop: "В начало страницы"
+    quickaccess: "Быстрый доступ"
   sw:
     language: "Kiswahili"
     tagline: "Jifunze OpenStreetMap hatua kwa hatua"
