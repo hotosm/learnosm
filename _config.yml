@@ -112,8 +112,8 @@ translations:
     feedbackspan: "Cette page était-elle utile ?"
     feedback: "Faîtes-nous savoir comment améliorer ces guides !"
     getstarted: "Commencer"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
+    returntotop: "Retourner en haut de la page"
+    quickaccess: "Accès rapide"
   hr:
     language: "Hrvatski"
     tagline: "Naučite OpenStreetMap korak po korak"

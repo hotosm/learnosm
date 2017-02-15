@@ -2,41 +2,80 @@
 layout: doc
 title: Introduction
 permalink: /fr/beginner/introduction/
-lang: fr
+lang : fr
 category: beginner
-otherguides: "Les autres niveaux"
 ---
 
-Introduction
+introduction
 ============
 
-> This guide may be downloaded as [beginner_introduction_fr.odt](/files/beginner_introduction_fr.odt) or [beginner_introduction_fr.pdf](/files/beginner_introduction_fr.pdf)  
+> Ce guide peut être téléchargé avec [beginner_introduction_fr.odt](/files/beginner_introduction_fr.odt) ou [beginner_introduction_fr.pdf](/files/beginner_introduction_fr.pdf)  
+> Mise à jour le 2015-07-12  
 
-L'information a de la valeur. Une information de qualité peut aider les individus et les communautés à améliorer leurs vies et prendre les bonnes décisions pour le futur. Il existe de nombreuses personnes et organisations qui prennent des décisions qui affectent nos vies. De bonnes informations permettent à ces ONG, gouvernements et simples citoyens de prendre de meilleures décisions pour peut-être améliorer nos vies. Les cartes peuvent être un excellent support pour diffuser ces informations.
-
-Les cartes sont un symbole visuel de notre monde. Elles sont souvent plus adaptées que des mots pour expliquer une idée. Elles peuvent apporter rapidement des réponses à des questions importantes. Où se trouve l'hôpital ou la mairie la plus proche ? Comment peut-on accéder à ces lieux ? Où la pauvreté pose-t-elle le plus de problème ? Les cartes sont souvent le meilleur moyen de trouver des réponses à ces questions.
-
-Vous pouvez faire l'exercice suivant : prenez un stylo et un morceau de papier, et dessinez une carte de votre quartier ou village. Quels sont les éléments les plus importants à inclure ? Quelles sont les informations les plus importantes ? Quand vous aurez terminé de dessiner rapidement votre carte, réfléchissez à l'importance des informations présentes dans votre carte, et à qui ces informations pourraient servir.
+L'information a de la valeur. Avec la bonne information et une bonne
+compréhension, les individus et communautés sont plus à même d'améliorer
+leurs vies et mieux anticiper l'avenir. De nombreuses
+personnes ou organisations prennent des décisions qui affectent nos vies. Une
+information efficace permet à ces ONG (Organisation Non-Gouvernementale), gouvernements et citoyens de prendre des décisions éclairées,
+qui éventuellement rendent nos vies meilleures. Les cartes sont un excellent support
+pour diffuser cette information. 
 
 ![A village in Indonesia][]
 
+Les cartes sont un symbole visuel de notre monde. Elles sont plus souvent 
+adaptées que des mots pour expliquer une idée. Ce qui en retour nous aide
+à répondre à des questions importantes. *Où est l'école ou l'hôpital le plus proche ? Qui
+a le moins accès à ces services ? Où la pauvreté est-elle la plus
+problématique ?* Ces questions peuvent souvent être mieux exprimées via des cartes,
+et celles-ci aident à trouver des solutions à ces questions. 
+
+Pour s'exercer, prenez un crayon et un papier, puis tracez une carte de votre ville ou village. Quelles sont les
+choses les plus importantes à mettre sur cette carte ? Quelle est
+l'information la plus importante ? Prenez quelques minutes pour faire votre carte, et quand vous avez
+fini, réfléchissez à la raison pour laquelle l'information que vous avez inclus est importante, et
+pour qui elle serait importante.
+
 ![Example of a hand-drawn map][]
 
-Vous avez probalement dessiné quelques lignes pour représenter les routes et chemins, ainsi qu'une rivière ou un ruisseau. Peut-être avez vous représenté quelques bâtiments importants, tels que des écoles et des administrations, des champs, ou des frontières. Vous avez probablement utilisé des symboles - une ligne pour une route, un rectangle pour un bâtiment, et ainsi de suite. Votre carte est une représentation de ce qui se trouve sur le sol.
+Si votre ville est comme beaucoup d'autres, vous avez sans doute tracé quelques lignes pour représenter
+les routes, parfois une rivière ou un ruisseau. Peut-être vous avez ajouté des bâtiments importants
+comme les écoles ou bureaux, les champs, ou les frontières. Peu importe ce que vous avez tracé,
+vous avez sans doute utilisé des symboles – une ligne pour symboliser une route, un carré pour
+symboliser un bâtiment, et ainsi de suite. Votre carte est une représentation de ce qu'il y a
+au sol.
 
 ![Examples of symbols][]
 
-Votre carte est informative. Vous pourriez utiliser une carte de ce genre pour expliquer à quelqu'un où trouver divers services, où se trouvent des problèmes dans votre communauté, ou simplement pour aider quelqu'un à trouver son chemin. L'utilité de votre carte est pourtant limitée. Il n'en existe qu'une seule copie, et la manière dont vous l'avez dessinée a du sens pour vous mais peut-être pas pour quelqu'un d'autre qui l'aurait dessinée différement. Il est difficile de diffuser les informations contenues sur votre carte parce qu'elle est en papier, pour cette raison une carte réalisée sur un ordinateur, de telle manière que n'importe qui peut y accéder, peut avoir beaucoup plus de valeur.
+Votre carte est informative. Vous pourriez utiliser une carte comme ça pour expliquer à
+quelqu'un où se trouvent les différents lieux, où des problèmes existent dans votre
+communauté, ou simplement aider quelqu'un à trouver son chemin. L'utilisation de
+votre carte est limitée cependant - il n'y a qu'une seule copie de votre carte. La
+façon dont vous l'avez tracée a du sens pour vous, mais peut-être pas pour quelqu'un d'autre
+qui aurait dessinée sa propre carte d'une autre manière. Parce que votre carte
+est simplement sur papier, il est difficile de passer cette information à d'autres.
+C'est pourquoi faire votre carte sur un ordinateur, d'une façon qui permet à chacun
+d'y accéder, a beaucoup plus de plus-value. 
 
-OpenStreetMap est un outil pour créer et partager des informations cartographiques. Tout le monde peut contribuer à OSM, et des milliers de personnes ajoutent des informations au projet tous les jours. Les utilisateurs dessinent des cartes sur leur ordinateur, plutôt que sur du papier, mais comme vous allez voir dans ce guide, dessiner une carte sur un ordinateur n'est pas fondamentalement différent que de la dessiner sur papier. Nous dessinons aussi des lignes pour représenter les routes, les contours des champs, et tout le reste, et nous représentons aussi les hôpitaux et les écoles avec des symboles. Le point important est que les cartes OSM sont enregistrées sur internet, et que chacun peut les consulter gratuitement à tout moment.
+![Mapping on Computer][]
 
+OpenStreetMap(OSM) est un outil pour créer et partager de l'information cartographique. 
+N'importe qui peut participer à OSM, et des milliers de personnes ajoutent au projet 
+chaque jour. Les utilisateurs tracent des cartes sur ordinateur plutôt que sur papier, mais comme nous 
+le verrons dans ce guide, tracer une carte sur ordinateur n'est pas si 
+différent du papier. On trace toujours des lignes pour représenter les routes,
+des champs, et n'importe quoi d'autre, et on représente toujours les écoles et hôpitaux 
+avec des symboles. La chose importante à retenir est que les cartes OSM sont sauvegardées 
+sur Internet, et n'importe qui peut y accéder à n'importe quel moment, gratuitement.
 
 ![Digital maps with OpenStreetMap][]
 
-Nous espérons que vous trouverez OpenStreetMap utile et intéressant pour votre travail. En suivant ce guide, vous devriez rapidement être capables de créer vos cartes numériques et de les ajouter au projet.
+Nous espérons que vous trouverez OpenStreetMap utile et intéressant pour votre
+travail. En suivant ce guide, vous devriez être capable de démarrer rapidement
+la création de cartes numériques avec OpenStreetMap.
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
 [Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
 [Examples of symbols]: /images/beginner/examples-of-symbols.png
+[Mapping on Computer]: /images/beginner/mapping-on-computer.png
 [Digital maps with OpenStreetMap]: /images/beginner/digital-maps-with-osm.png
