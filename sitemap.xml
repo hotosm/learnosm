@@ -809,6 +809,10 @@
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//de/hot-tips/copy-paste/</loc>
+        <lastmod>2017-02-16T23:43:29+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//en/hot-tips/copy-paste/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
@@ -837,12 +841,20 @@
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//de/hot-tips/enhance/</loc>
+        <lastmod>2017-02-16T23:50:11+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//en/hot-tips/enhance/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/hot-tips/enhance/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//de/hot-tips/tracing-round-buildings/</loc>
+        <lastmod>2017-02-16T23:20:48+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/hot-tips/tracing-round-buildings/</loc>
@@ -2217,6 +2229,10 @@
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//zh-tw/josm/editing-with-josm/</loc>
+        <lastmod>2017-02-16T23:33:33+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//cs/josm/more-about-josm</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
@@ -2430,7 +2446,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//</loc>
-        <lastmod>2017-02-15T22:50:15+00:00</lastmod>
+        <lastmod>2017-02-16T23:50:11+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//site.js</loc>
