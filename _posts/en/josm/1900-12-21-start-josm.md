@@ -62,8 +62,8 @@ Install JOSM
   Start Menu in the lower left corner of your computer, and clicking
   the program JOSM.
 - You may see a window pop up that asks if you want to update the
-  software.  You don’t need to update it since it is new.  Press the
-  button that says “Cancel.”  If you don’t ever want to see this
+  software.  You don’t need to update it since it is new.  Press the
+  button that says “Cancel.”  If you don’t ever want to see this
   message again, check the box at the bottom before pressing “Cancel.”
 - When JOSM starts, it will look something like this:
 
@@ -111,6 +111,9 @@ Learn Basic Drawing with JOSM
 - You should now see a sample map that looks like this:
 
   ![Sample file][]
+
+- You will use these data in order to try various editing techniques.
+  *You must however never upload these fictitious data to the database.*
 
 ### Basic Operations
 
@@ -240,6 +243,21 @@ Draw Your Own Map
   your objects are by selecting from the Presets menu.
 - When you are finished, you should have your own map, similar to the
   sample map that we opened in sample.osm.
+
+## Remove the sample layer
+
+Once you feel comfortable with these basic editing techniques you might want
+to turn your attention to mapping real features. 
+
+*It is very important that you first remove the layer with the sample data. 
+These data are fictitious and must not be uploaded to the OpenStreetMap 
+database (newer JOSM releases automatically prevent this).*
+
+In the Layers window on the upper right of the screen select the sample.osm layer. 
+Then click on the trash can icon in the lower right corner of that window. 
+Alternatively you can choose delete from the context menu of the layer. 
+In order to continue editing you first need to download real data. 
+This will be explained in the next chapter.
 
 Summary
 -------
