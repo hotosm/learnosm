@@ -4,6 +4,7 @@ title: Erste Schritte beim Editieren mit JOSM
 permalink: /de/josm/start-josm/
 lang: de
 category: josm
+published: true
 ---
 
 Erste Schritte beim Editieren mit JOSM
@@ -269,7 +270,7 @@ und wie man die Werkzeuge benutzt, um Karten zu zeichnen. Später werden wir
 [Windows installer]: /images/josm/windows-installer.png
 [JOSM splash page]: /images/josm/josm-splash-page.de.png
 [Preferences window]: /images/josm/josm_preferences.de.png
-[Look and feel]: /images/josm/josm_look-and-feel.de.png
+[Look and feel]: /images/josm/josm_look-and-feel.png
 [Open file]: /images/josm/josm_open-file.png
 [Sample file]: /images/josm/josm_sample-file.de.png
 [Scale bar]: /images/josm/josm_scale-bar.png
