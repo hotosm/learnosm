@@ -4,7 +4,7 @@
 	"lang":"id",
 	"chapters":[
 		{% for post in site.posts %}
-		{% if {{post.lang}} == 'id' %}
+		{% if post.lang == 'id' %}
 		{% unless post.nosearch %}
 		  {% include post.json %},
 		{% endunless %}
@@ -17,7 +17,7 @@
 	"lang":"cs",
 	"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'cs' %}
+	  {% if post.lang == 'cs' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -29,7 +29,7 @@
 },{	"lang":"en",
 	"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'en' %}
+	  {% if post.lang == 'en' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -42,7 +42,7 @@
 	"lang":"de",
 	"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'de' %}
+	  {% if post.lang == 'de' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -55,7 +55,7 @@
 	"lang":"es",
 	"chapter":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'es' %}
+	  {% if post.lang == 'es' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -68,7 +68,7 @@
 	"lang":"fa",
 	"chapter":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'fa' %}
+	  {% if post.lang == 'fa' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -81,7 +81,7 @@
 	"lang":"fr",
 	"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'fr' %}
+	  {% if post.lang == 'fr' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -94,7 +94,7 @@
 	"lang":"it",
 	"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'it' %}
+	  {% if post.lang == 'it' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -107,7 +107,7 @@
 	"lang":"ja",
 	"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'ja' %}
+	  {% if post.lang == 'ja' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -120,7 +120,7 @@
 	"lang":"pt",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'pt' %}
+	  {% if post.lang == 'pt' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -133,7 +133,7 @@
 	"lang":"hr",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'hr' %}
+	  {% if post.lang == 'hr' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -146,7 +146,7 @@
 	"lang":"my",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'my' %}
+	  {% if post.lang == 'my' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -159,7 +159,7 @@
 	"lang":"uk",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'uk' %}
+	  {% if post.lang == 'uk' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -172,7 +172,7 @@
 	"lang":"ru",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'ru' %}
+	  {% if post.lang == 'ru' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -185,7 +185,7 @@
 	"lang":"nb",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'nb' %}
+	  {% if post.lang == 'nb' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -198,7 +198,7 @@
 	"lang":"nl",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'nl' %}
+	  {% if post.lang == 'nl' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -211,7 +211,7 @@
 	"lang":"sw",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'sw' %}
+	  {% if post.lang == 'sw' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -224,7 +224,7 @@
 	"lang":"zh",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'zh' %}
+	  {% if post.lang == 'zh' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -237,7 +237,7 @@
 	"lang":"zh-tw",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'zh-tw' %}
+	  {% if post.lang == 'zh-tw' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}

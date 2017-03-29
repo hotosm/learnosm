@@ -4,10 +4,10 @@ layout: default
 <div class='doc-nav marginL cell3 padAll cf' id='doc-nav-left'>
       <ul>
 
-    {% for post in site.categories.[page.category] %}
-      {% if {{post.lang}} == {{page.lang}} %}{% unless post.hidden %}
+    {% for post in site.categories[page.category] %}
+      {% if post.lang == page.lang %}{% unless post.hidden %}
       <li class='doc rounded'>
-        <a class='title {% if {{post.cover}} %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
+        <a class='title {% if post.cover %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
           <span>{{ post.title }}</span>
         </a>
       </li>
@@ -18,7 +18,7 @@ layout: default
   <ul style="margin-top:40px;">
       <li class='doc rounded'>
         <a class='title cover'>
-          {% if {{page.otherguides}} %}
+          {% if page.otherguides %}
             <span>{{ page.otherguides }}</span>
           {% else %}
             <span>Other guides</span>
@@ -27,7 +27,7 @@ layout: default
       </li>
       
       {% for post in site.posts %}
-        {% if {{post.lang}} == {{page.lang}} %}{% unless post.hidden %}
+        {% if post.lang == page.lang %}{% unless post.hidden %}
         {% if post.cover %}{% unless post.category == page.category %}
           <li class='doc rounded'>
             <a class='title' href="{{site.baseurl}}{{ post.url }}">
@@ -42,19 +42,19 @@ layout: default
 </div>
 <div class='doc-main doc cell5 padAll'>
   {{content}}
-  {% if {{page.cover}} %}
+  {% if page.cover %}
     <div class='getstarted'>
-      <span><a class='start rounded'>{{site.translations.[page.lang].getstarted}}</a></span>
+      <span><a class='start rounded'>{{site.translations[page.lang].getstarted}}</a></span>
     </div>
   {% else %}
   <p>
-    <a href='{{page.permalink}}'><img src="{{site.baseurl}}/images/arrow-up.png" style="height:20px">&nbsp;{{site.translations.[page.lang].returntotop}}</a>
+    <a href='{{page.permalink}}'><img src="{{site.baseurl}}/images/arrow-up.png" style="height:20px">&nbsp;{{site.translations[page.lang].returntotop}}</a>
   </p>
   {% endif %}
-  {% unless {{page.cover}} %}
+  {% unless page.cover %}
   <div class='feedback padAll'>
-    <span>{{site.translations.[page.lang].feedbackspan}}</span>
-    <a href='{{site.baseurl}}/{{page.lang}}/contribute'>{{site.translations.[page.lang].feedback}}</a>
+    <span>{{site.translations[page.lang].feedbackspan}}</span>
+    <a href='{{site.baseurl}}/{{page.lang}}/contribute'>{{site.translations[page.lang].feedback}}</a>
   </div>
   {% endunless %}
 </div>
@@ -81,7 +81,7 @@ layout: default
   $('img').parent().addClass('has-image');
   
   // make title nav sticky
-  {% unless {{page.cover}} %} // excluding cover pages
+  {% unless page.cover %} // excluding cover pages
   $(document).ready(function(){
     var nav = $('.doc-nav'),
         navTop = nav.offset().top,

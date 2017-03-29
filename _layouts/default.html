@@ -37,7 +37,7 @@
   <body>
    <div id='wrapper'>
     <div class="fillG cell11" id="banner-top">
-      <div class="dropdown language-switcher marginL"> <span> {{site.translations.[page.lang].language}} ... </span>
+      <div class="dropdown language-switcher marginL"> <span> {{site.translations[page.lang].language}} ... </span>
         <div class='language-switcher dropdown-content'>
           {% assign start_page = "/" | append: page.lang | append: "/" | strip %}
           {% assign this_page = page.permalink | strip %}
@@ -53,7 +53,7 @@
             {% assign page_name = page.permalink | remove: remover %}
 
             <!-- find out which pages with the same name exist in which languages -->
-            {% for post in site.categories.[page.category] %}
+            {% for post in site.categories[page.category] %}
               {% assign remover = "/" | append: post.lang | append: "/" | append: post.category %}
               {% assign testee = post.permalink | remove: remover %}
               {% if page_name == testee %}
@@ -72,7 +72,7 @@
           {% endif %}
         </div>
       </div>
-      <div class="dropdown quick-access"> <a> {{site.translations.[page.lang].quickaccess}} </a>
+      <div class="dropdown quick-access"> <a> {{site.translations[page.lang].quickaccess}} </a>
         <div class='quick-access dropdown-content'>
           <!-- find out whether the remote-tracing guide exists in the current language; otherwise we will use English -->
           {% assign remote_tracing = "/" | append: page.lang | append: "/coordination/remote-tracing/" %}
@@ -128,10 +128,10 @@
       <div class='marginL cell9 padAll'>
         <div class='cell7 marginR'>
            <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
-           <span class='tagline'>{{site.translations.[page.lang].tagline}}</span>
+           <span class='tagline'>{{site.translations[page.lang].tagline}}</span>
         </div>
         <a class='banner hide-mobile'>
-          <span class='{{page.lang}}'>{{site.translations.[page.lang].contribute}}</span>
+          <span class='{{page.lang}}'>{{site.translations[page.lang].contribute}}</span>
         </a>
         <a class='banner-mobile hide-desktop show-mobile' href='{{site.baseurl}}/{{page.lang}}/contribute/'>
         </a>
@@ -141,7 +141,7 @@
         {{ content }}
     </div>
     <small id='footer' class='fillG cell12'>
-      <ul class='contact marginL marginR cell5 padAll'>
+      <ul class='contact marginL marginR cell3 padAll'>
         <li><a class='email' href="mailto:learnosm@hotosm.org">learnosm@hotosm.org</a></li>
         <li><a class='twitter' href="https://twitter.com/learnosm">@learnOSM</a></li>
         <li><a class='github' href='http://github.com/hotosm/learnosm'> Hosted on Github</a></li>
