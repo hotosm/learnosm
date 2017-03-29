@@ -229,8 +229,8 @@
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
-        <loc>http://learnosm.org//cs/beginner/moving-forward</loc>
-        <lastmod>2017-02-14T00:45:48+00:00</lastmod>
+        <loc>http://learnosm.org//cs/beginner/moving-forward/</loc>
+        <lastmod>2017-03-24T13:50:30+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/beginner/moving-forward/</loc>
@@ -250,7 +250,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//fr/beginner/moving-forward/</loc>
-        <lastmod>2017-02-14T00:45:48+00:00</lastmod>
+        <lastmod>2017-03-24T13:55:26+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//hr/beginner/moving-forward/</loc>
@@ -306,7 +306,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//cs/beginner/glossary/</loc>
-        <lastmod>2017-02-14T00:45:48+00:00</lastmod>
+        <lastmod>2017-03-24T13:50:30+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//de/beginner/glossary/</loc>
@@ -314,7 +314,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//en/beginner/glossary/</loc>
-        <lastmod>2017-02-14T00:45:48+00:00</lastmod>
+        <lastmod>2017-03-24T13:50:30+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/beginner/glossary/</loc>
@@ -825,12 +825,20 @@
         <lastmod>2017-02-14T18:08:18+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//de/hot-tips/tagging/</loc>
+        <lastmod>2017-02-21T23:44:46+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//en/hot-tips/tagging/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/hot-tips/tagging/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//de/hot-tips/saving/</loc>
+        <lastmod>2017-02-21T23:37:22+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/hot-tips/saving/</loc>
@@ -842,7 +850,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//de/hot-tips/enhance/</loc>
-        <lastmod>2017-02-16T23:50:11+00:00</lastmod>
+        <lastmod>2017-02-21T22:30:33+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/hot-tips/enhance/</loc>
@@ -865,6 +873,10 @@
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//de/hot-tips/tracing-rectangular-buildings/</loc>
+        <lastmod>2017-03-24T13:50:30+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//en/hot-tips/tracing-rectangular-buildings/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
@@ -873,12 +885,20 @@
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//de/hot-tips/getting-started/</loc>
+        <lastmod>2017-03-24T13:50:30+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//en/hot-tips/getting-started/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//nl/hot-tips/getting-started/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//de/hot-tips/</loc>
+        <lastmod>2017-03-24T13:50:30+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/hot-tips/</loc>
@@ -905,6 +925,10 @@
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//de/coordination/remote-tracing/</loc>
+        <lastmod>2017-03-24T13:50:30+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//en/coordination/remote-tracing/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
@@ -919,6 +943,10 @@
     <url>
         <loc>http://learnosm.org//nl/coordination/remote-tracing/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://learnosm.org//de/coordination/remote/</loc>
+        <lastmod>2017-03-24T13:55:26+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/coordination/remote/</loc>
@@ -1193,6 +1221,10 @@
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//de/osm-data/osmosis/</loc>
+        <lastmod>2017-03-24T13:55:26+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//en/osm-data/osmosis/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
@@ -1345,6 +1377,10 @@
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//de/osm-data/geofabrik-and-hot-export/</loc>
+        <lastmod>2017-03-24T13:50:30+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//en/osm-data/geofabrik-and-hot-export/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
@@ -1442,7 +1478,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//de/osm-data/</loc>
-        <lastmod>2017-02-14T00:45:48+00:00</lastmod>
+        <lastmod>2017-03-24T13:50:30+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/osm-data/</loc>
@@ -2065,6 +2101,10 @@
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
     <url>
+        <loc>http://learnosm.org//zh-tw/josm/josm-presets/</loc>
+        <lastmod>2017-03-24T13:55:26+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://learnosm.org//de/josm/josm-more-tools/</loc>
         <lastmod>2017-02-14T00:45:48+00:00</lastmod>
     </url>
@@ -2298,11 +2338,11 @@
     </url>
     <url>
         <loc>http://learnosm.org//de/josm/start-josm/</loc>
-        <lastmod>2017-02-14T00:45:48+00:00</lastmod>
+        <lastmod>2017-03-24T13:55:26+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//en/josm/start-josm/</loc>
-        <lastmod>2017-02-14T00:45:48+00:00</lastmod>
+        <lastmod>2017-03-24T13:50:30+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//es/josm/start-josm/</loc>
@@ -2446,7 +2486,7 @@
     </url>
     <url>
         <loc>http://learnosm.org//</loc>
-        <lastmod>2017-02-16T23:50:11+00:00</lastmod>
+        <lastmod>2017-03-24T13:55:26+00:00</lastmod>
     </url>
     <url>
         <loc>http://learnosm.org//site.js</loc>
