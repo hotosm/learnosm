@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<osm version='0.6' upload='true' generator='JOSM'>
+<osm version='0.6' upload='never' generator='JOSM'>
   <bounds minlat='23.7159358' minlon='90.400368' maxlat='23.7172226' maxlon='90.4017735' origin='CGImap 0.3.1 (24925 thorn-01.openstreetmap.org)' />
   <bounds minlat='23.7157389' minlon='90.3981337' maxlat='23.7183804' maxlon='90.4018569' origin='CGImap 0.3.1 (24932 thorn-01.openstreetmap.org)' />
   <node id='373391969' timestamp='2013-10-27T12:22:38Z' uid='1438418' user='moyna' visible='true' version='3' changeset='18565119' lat='23.7156983' lon='90.4025938' />
