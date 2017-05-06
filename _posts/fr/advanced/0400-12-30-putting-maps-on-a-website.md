@@ -10,6 +10,8 @@ otherguides: "Les autres niveaux"
 Intégrer des cartes dans un site web
 ======================================
 
+This section is known to be out of date and will either be updated or removed. Current information on Mapbox, with guides, are available at <http://mapbox.com/>
+
 Introduction
 ------------
 
