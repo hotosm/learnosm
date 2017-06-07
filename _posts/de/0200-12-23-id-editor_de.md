@@ -10,7 +10,7 @@ Der iD Editor
 =============
 
 > Diese Anleitung kann als [beginner_id-editor_de.odt](/files/beginner_id-editor_de.odt) oder als [beginner_id-editor_de.pdf](/files/beginner_id-editor_de.pdf) heruntergeladen werden.  
-Überprüft 2016-02-08  
+Überprüft 2016-03-30  
 
 - TOC
 {:toc}
@@ -84,7 +84,7 @@ Um einen neuen Punkt hinzuzufügen, klicken Sie auf die Schaltfläche **Punkt**.
 ![image22][]  
 - Sie können das Formular benutzen, um Detailinformationen über den Punkt einzugeben. Sie können den Namen des Krankenhauses, die Adresse und weitere zusätzliche Informationen eingeben. Beachten Sie, dass es bei jedem Objekttyp ein jeweils anderes Eingabeformular gibt, je nach dem, welches Attribut Sie im Eigenschafteneditor auswählen.  
 - Falls Sie einen Fehler machen, z. B. wenn Sie den Punkt falsch platziert haben, können Sie ihn an eine andere Stelle verschieben, indem Sie die linke Maustaste über dem Punkt gedrückt halten. Wenn Sie den Punkt entfernen möchten, klicken Sie mit der linken Maustaste auf den Punkt und dann auf den Knopf, der wie ein Mülleimer aussieht. ![image23][]{: height="24px"}  
-Ein "Punkt", der mit dem iD-Editor erstellt wurde, ist eigentlich ein alleinstehender "node" mit einer Reihe von "tags" auf ihm.  
+Ein "Punkt", der mit dem iD-Editor erstellt wurde, ist eigentlich ein alleinstehender "Knoten" mit einer Reihe von "tags" auf ihm.  
 
 ### Zeichnen von Linien  
 
@@ -170,6 +170,8 @@ iD versus JOSM
 [^fieldpaper]: Es gibt ein [Dokument in LearnOSM](/de/mobile-mapping/field-papers/) mit näheren Informationen über Field Paper.
 
 
+
+
 [image1]: /images/beginner/id-editor_image1.de.png 
 [image2]: /images/beginner/id-editor_image2.de.png
 [image3]: /images/beginner/id-editor_image3.de.png
@@ -214,6 +216,6 @@ iD versus JOSM
 [image41]: /images/beginner/id-editor_image41.png
 [image42]: /images/beginner/id-editor_image42.png
 [image43]: /images/beginner/id-editor_image43.png
-[image44]: /images/beginner/id-editor_image44.de.png
+[image44]: /images/beginner/id-editor_image44.depng
 [image45]: /images/beginner/id-editor_image45.de.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png

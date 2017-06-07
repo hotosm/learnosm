@@ -26,11 +26,11 @@ Folgendermaßen ist vorzugehen:
 - Die Größe ist wichtig - *Die Bevölkerungsschätzung basiert auf der addierten Grundfläche der Gebäude in dem jeweiligen Gebiet*,  
 - Zoomen Sie weit genug rein, um alle Details zu sehen - ein Zoom Maßstab von 20 Metern oder weniger ist normalerweise gut.  
 - **Gebäude finden** - suchen Sie mit einem Maßstab irgendwo zwischen 50 und 80 Metern. Achten Sie besonders auf Schatten und gerade Linie (runde Gebäude sind schwieriger zu finden!)  
-- Gebäude und Straßen, Flüsse, **landuse=residential** Grenzen oder andere Merkmale sollten sich nicht überschneiden.  
+- Gebäude sollten sich nicht mit Straßen, Flüssen, **landuse=residential** Grenzen oder anderen Merkmalen überschneiden.  
 - Wenn Sie einen Fehler machen, benutzen Sie den **Rückgängig** Button ![back arrow]{: height="26px"}, um deine letzten Änderungen rückgängig zu machen.  
 - Wir wollen alle die Karte verbessern. Wenn der vorherige Mapper die Gebäude in einer komischen Form oder sonst falsch eingezeichnet hat, verbessern Sie diese und überlegen Sie sich, ob Sie ihm eine freundliche Nachricht schicken wollen.  
 
-Bestimmung
+Gebäude identifizieren
 ---------------
 
 Runde Gebäude findet man meistens in einer zusammenhängende Anlage, innerhalb derer die Gebäude in Gruppen oder einzeln stehen können. Es kann schwierig herauszufinden sein, ob man auf ein rundes Gebäude guckt oder aber lediglich auf einen Strauch oder einen Felsen. Gebäude werden meistens in der Nähe einer Zufahrt, wie zum Beispiel eines Pfads oder eines Feldwegs stehen, auch wenn diese schwierig auf hartem Untergrund zu erkennen sind. Durch die Benutzung der Wege können diese jedoch daran erkannt werden, dass die Vegetation niedergetreten ist. In manchen Regionen der Welt können die Gebäude auch auf den einzigen trockenen Plätzen stehen und der Zugang nur über Boote über einen See oder Fluss erfolgen. Regelmäßig wird in der Umgebung von 2 oder 3 Kilometern zu Wohnstätten eine Wasserquelle zu finden sein. Auch wenn diese in vielen Teilen der Welt nicht durch das Vorhandensein von Wasser zu erkennen ist, kann man sie anhand einer stärkeren Vegetation auffinden.  
@@ -42,7 +42,7 @@ Dieses Bild zeigt sowohl einen Strauch, als auch ein rundes Gebäude. Schatten k
 
 Geben Sie ihr Bestes - selbst die Experten werden sich manchmal nicht einig darüber werden, was auf dem Bild zu sehen ist und manchmal wird es nötig sein, vor Ort zu beurteilen, worum es sich handelt. **Füge im Zweifel ein Gebäude hinzu.**  
 
-Gebäude Attribute
+ Attribute für Gebäude
 -------------
 
 Da wir Gebäude eintragen, die wir noch nie besucht haben und auch sonst nicht kennen, ist der sicherste und beste Weg alle Gebäude mit dem Attribut **building**=**yes** zu versehen, welches Sie bei richtig eingetragenen Gebäuden finden können, indem Sie zum Ende der Eigenschaftsübersicht scrollen und auf **Alle Eigenschaften** klicken.

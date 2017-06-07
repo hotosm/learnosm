@@ -8,7 +8,7 @@ category: coordination
 
 # HOT Fernkartierung   
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot_theme/logo.png)  
+![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
 
 > Diese Anleitung kann als [remote-mapping_de.odt](/files/remote-mapping_de.odt) oder als [remote-mapping_de.pdf](/files/remote-mapping_de.pdf) heruntergeladen werden  
 > Zuletzt geprüft 2015-09-18  
@@ -58,7 +58,7 @@ Diese Anleitung stellt eine Zusammenfassung aus anderen Dokumenten dar. Sie find
 
 #### Tutorials
 
-[LearnOSM Remote Mapping Guide](/en/coordination/remote/)- Sie sind gerade dabei, eine der umfangreichsten Anleitungen zu dem Thema zu lesen. Die englische Version enthält noch mehr Anleitungen dazu.  
+[LearnOSM Remote Mapping Guide](/de/coordination/remote/)- Sie sind gerade dabei, eine der umfangreichsten Anleitungen zu dem Thema zu lesen. Die englische Version enthält noch mehr Anleitungen dazu.  
 
 [MapGive Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- enthält auch einige Videos, die Sie für eigene Versuche anhalten können.  
 

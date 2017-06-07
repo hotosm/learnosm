@@ -24,30 +24,30 @@ Schnellstart
 2. Der Bildschirm zeigt nun Buttons an - warten Sie, bis sie nicht länger ausgegraut sind, was anzeigt, dass dem GPS eine Standortbestimmung gelungen ist  
 3. Drücken Sie die entsprechenden Buttons, wenn Sie genau an dem Objekt stehen, dass kartiert werden soll. Sie können mithilfe der Buttons auch Tonspuren, Fotos oder Notizen erstellen.  
 4. Wenn Sie fertig sind, drücken Sie auf das Diskettensymbol, um die Spur und die Wegpunkte abzuspeichern.  
-5. Um die Spur in eine GPX-Datei zu konvertieren, ziehen Sie es in die Liste und wählen Sie die entsprechende Option aus.  
+5. Um die Spur in eine GPX-Datei zu konvertieren, drücken Sie lange auf den Eintrag in der Liste und wählen Sie die entsprechende Option aus.  
 6. Übertragen Sie die Spur, die Bilder und Audiomitschnitte auf Ihren Rechner und aktualisieren Sie damit OSM.  
 
 
 Installation von OSMTracker
 -------------------------
 
-Installieren Sie OSMTracker von dem [Google play Store] (  
+Installieren Sie OSMTracker von dem [Google play Store](https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker).  
 ![OSMTracker Logo][]  
-Falls benötigt, kann [most recent application package](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) auch außerhalb des Google Play Stores heruntergeladen werden.  
+Falls benötigt, kann [das aktuellste Anwendungspaket](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) auch außerhalb des Google Play Stores heruntergeladen werden.  
 
 
-OSMTracker Einstellungen
+OSMTracker-Konfiguration
 ------------------------
 
 Starten Sie OSMTracker und drücken Sie auf den Menü-Button Ihres Android-Gerätes, wählen Sie anschließend **Einstellungen**.  
 
 - **Dauer Sprachaufnahme** - Ihre Wahl, aber der Autor hat 30 Sekunden eingestellt.  
-- **Sound aktivieren** - gibt einen Ton aus, um Sie zu warnen, ob Sprachaufnahme beginnt oder endet  
+- **Sound aktivieren** - gibt einen Ton aus, um Sie zu warnen, ob Sprachaufnahme beginnt oder endet.  
 - **OSM-Anmeldedaten zurücksetzen**. Dieser Button ist ausgegraut, bis Sie eine .gpx-Datei mit OSMTracker auf OpenStreetMap mit Ihren Anmeldedaten hochladen wollen.  
 - **GPS Einstellungen** Welche Methoden Ihr Android-Gerät benutzt, um Ihren Ort zu bestimmen. Es wird empfohlen, **hohe Genauigkeit** einzustellen, damit das Gerät GPS, WLAN und mobile Netzwerke nutzt, um den Ort zu bestimmen.  
 - **Prüfe GPS beim Start** Wenn Sie OSMTracker starten, wird überprüft, ob das GPS aus ist, und wenn es aus ist, fragt das Programm ob Sie es anstellen wollen.
 - **GPS Zeit ignorieren** Falls ausgewählt, wird das Gerät die interne Uhr nutzen und nicht die Zeit, die vom GPS Signal kommt.  
-- **GPS Intervall* Wählt Zeitraum aus, wie oft der Standort bestimmt wird - für die beste Genauigkeit wird 0 oder 1 empfohlen, da beides sekündliche Positionsbestimmung bedeutet.  
+- **GPS Intervall** Wählt den Zeitraum aus, wie oft der Standort bestimmt wird - für die beste Genauigkeit wird 0 oder 1 empfohlen, da beides sekündliche Positionsbestimmung bedeutet.  
 
 > Die Frequenz beeinflusst jedoch die Batteriekapazität, wenn die App benutzt wird. Ihr Bildschirm wird die meiste Zeit an sein, genau wie das GPS, und Sie werden Fotos und Audioaufnahmen machen - alles führt zu starker Reduktion der Batterielaufzeit.  
 

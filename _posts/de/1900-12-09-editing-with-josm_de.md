@@ -194,6 +194,6 @@ OpenStreetMap zu bearbeiten.
 [Layers delete]: /images/josm/josm_layers-panel-delete.png
 [Layers activate]: /images/josm/josm_layers-panel-activate.png
 [GPS in JOSM]: /images/josm/josm_gps-layer.png
-[Properties panel]: /images/josm/josm_properties-panel_de.png
+[Properties panel]: /images/josm/josm_properties-panel.png
 [Nodes mistake]: /images/josm/josm_nodes-selected-mistake.png
 [JOSM save button]: /images/josm/josm_save-button.png

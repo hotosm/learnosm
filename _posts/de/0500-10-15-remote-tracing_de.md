@@ -12,16 +12,17 @@ Straßen, Gebäude, Wasser und Bodenutzung einzeichnen
 > Diese Anleitung kann als [remote-tracing_de.odt](/files/remote-tracing_de.odt oder als [remote-tracing_de.pdf](/files/remote-tracing_de.pdf) heruntergeladen werden  
 Überprüft 2016-02-08  
 
-Diese Anleitung baut auf der [Anleitung über Fernkartographie und Mapathons](/en/coordination/remote/) auf, die Sie durcharbeiten sollten, wenn Sie keine Erfahrung mit der Arbeit für HOT haben.  
+Diese Anleitung baut auf der [Anleitung über Fernkartographie und Mapathons](/de/coordination/remote/) auf, die Sie durcharbeiten sollten, wenn Sie keine Erfahrung mit der Arbeit für HOT haben.  
 
 
-Inhalt
-======
+Inhaltsverzeichnis
+=====
 
-[Straßen und Wege](/de/coordination/remote-tracing/#straen)
-[Das Straßennetz](/de/coordination/remote-tracing/#das-straennetz)
-[Siedlungsbereiche](/de/coordination/remote-tracing/#siedlungsbereiche)
-[Gebäude und Mauern](/de/coordination/remote-tracing/#gebude-und-mauern)
+[Straßen einschließlich Pfade und Fahrwege](/de/coordination/remote-tracing/#roads)  
+[Das Straßennetz](/de/coordination/remote-tracing/#the-highway-network)  
+[Grenzen von Siedlungsgebieten](/de/coordination/remote-tracing/#residential-boundaries)  
+[Gebäude, Mauern, Zäune und Begrenzungen](/de/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
+
 
 ## Straßen
 
@@ -32,7 +33,7 @@ Alle Arten von Wegen, Autobahnen ebenso wie Pfade, werden in OpenStreetMap als '
 - Es macht auch einen Unterschied, ob die Straße asphaltiert oder eine Schlammpiste ist.
 - Um Ausbreitungsvorhersagen für Seuchen zu bekommen, hilft die Beschreibung eines Opfers "in der Nähe der Kreuzung" nur dann, wenn die Kreuzung auch auf der Karte zu sehen ist
 
-### <a name="highways-howto"></a> Straßen und Wege - Richtig erfassen
+### Straßen und Wege - Richtig erfassen
 
 ![iD 3][]
 
@@ -66,7 +67,7 @@ highway=path
 seasonal=yes  
 surface=unpaved  
 2. Bei diesem Pfad ist es klar, dass er durch die Büsche und Bäume verläuft auch wenn man den genauen Verlauf nicht erkennen kann. Es ist aber klar, dass es den Weg gibt, er ist nur durch die Bäume verdeckt. Ich habe hier die klar erkennbaren Abschnitte mit einer geraden Linie durch die Bäume verbunden. Seien Sie mit Ihrer Kreativität bitte zurückhaltend auch wenn es hier klar ist, dass der Pfad durch die Büsche verlaufen muss und wahrscheinlich mehr oder weniger der geraden Linie folgen wird. Dies ist schon ein extremes Beispiel - normalerweise wird man so Abschnitte von Wegen überbrücken, die nur wenige Meter lang sind und vielleicht von ein oder zwei Bäumen verdeckt werden.  
-3. Hier habe ich den Pfad gelöscht damit ich den Untergrund klar erkennen kann. Mit der Funktion "Änderung rückgängig machen" in iD kann man ihn schnell wiederherstellen.  
+3. Hier habe ich den Pfad gelöscht damit ich den Untergrund klar erkennen kann. Mit der Funktion "Änderung rückgängig machen' in iD kann man ihn schnell wiederherstellen.  
 
 ***
 
@@ -91,7 +92,7 @@ Es gibt viele Gründe, Siedlungsgebiete in OpenStreetMap einzutragen.
 * Ortsnamen und Grenzen werden oft aus anderen Quellen importiert. Die genaue Lage ist aber nicht immer bekannt. Sobald sie ein Siedlungsgebiet erfasst haben, kann derjenige der den Import durchführt erkennen, wo der Ortsname eingetragen werden soll.
 
 
-### <a name="residential-howto"></a> Siedlungsgebiete - Richtig eintragen
+### Siedlungsgebiete - Richtig eintragen
 
 
 ** In einer idealen Welt **  
@@ -134,7 +135,7 @@ Gebäude werden in der Datenbank aus verschiedenen Gründen benötigt:
 * Wenn man das Ausmaß der Schäden an einem Gebäude bestimmen kann, lassen sich daraus Informationen über mögliche Verunglückte und die benötigten Hilfsmaßnahmen gewinnen  
 
 
-### <a name="buildings-howto"></a> Gebäude - Richtig eintragen
+### Gebäude - Richtig eintragen
 
 Die überwiegende Mehrzahl der Gebäude, die für HOT-Projekte benötigt werden, sind entweder rechteckig oder rund. Wenn eine Gebäude anders aussieht, ist das Gebäude wahrscheinlich durch einen Schatten, eine Reflexion, Vegetation etc. teilweise verdeckt.  
 

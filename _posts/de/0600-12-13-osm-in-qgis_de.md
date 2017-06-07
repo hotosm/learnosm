@@ -22,7 +22,7 @@ Auf OpenStreetMap-Daten zugreifen
 ---------------------------
 
 Als erstes werden wir einige aktuelle OSM-Daten holen. Dafür gibt es mehrere Möglichkeiten. Natürlich ist das Abfragen der Daten durch den OSM-Server, so wie wir das im JOSM-Editor tun, beschränkt, sodass wir nicht eine sehr große Anzahl von Rohdaten auf einmal bekommen - jedoch gibt es mehrere Möglichkeiten, auf größere Datenmengen zuzugreifen, wie
-in früheren Kapiteln wie [Getting OSM Data](/en/osm-data/getting-data) oder [Using Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export) beschrieben.  
+in früheren Kapiteln wie [Getting OSM Data](/de/osm-data/getting-data) oder [Using Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export) beschrieben.  
 
 Für diese Anleitung nutzen wir die in QGIS integrierte Download-Funktion.  
 
