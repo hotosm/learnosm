@@ -35,29 +35,25 @@ Let's see how to create a multipolygon relation like the one shown above.
 ![Multipolygon ways][]
 
 - Select all of the polygons. Remember you can select multiple objects by holding SHIFT and clicking on each.  
-- Go to *Presets->Man Made->Man Made->Building*.  
+- Choose *Tools->Create multipolygon* from the menu.  
+- The tags window now contains the new multipolygon.
 
-![Building preset][]
+![New mp object][]
 
-- Click on "New Relation."  
+- Click on the edit button.  
 
-![New relation][]
-
-- You should now see the relations window. This is a little bit complex because now you are adding tags to a collection of ways.  
+- You should now see the relation editor window. This is a little bit complex because now you are adding tags to a collection of ways.  
 
 ![Building relation][]
 
 - Observe that at the top of the panel are the tags for the relation. These tags work the same way as tags always work.  
 - At the bottom is a list of the members of the relation. This relation has three members - that is, the three ways that are part of our relation.  
-- We need to do a couple of things to finish defining our multipolygon. First, notice that because we used the building preset we already have one tag defined for us, *building=yes*. We need to add one more tag that defines the **type** of the relation. We must add a tag that says *type=multipolygon*.  
+- Notice that we already have one tag defined for us, *type=multipolygon*. We need to add one more tag that defines the kind of object which the relation represents. We must add a tag that says *building=yes*.  
 - Click in the tag box and add this tag.  
 
-![Type multipolygon][]
+![Building yes][]
 
-- Next we need to define what are called **roles**. Each member of a relation has a role, which indicates what that member's purpose is. In this case, the role of the outside polygon must be defined as **outer** and the role of the two inner polygons must be defined as **inner**. These are the roles that are available for members of a multipolygon.  
-- In the lower left panel select each member in the list. You can see the member that is selected will be highlighted in the map window. Enter **outer** and **inner** for the correct polygons.  
-
-![Outer or inner role][]
+- The **roles** have already been properly assigned to the ways. Each member of a relation has a role, which indicates what that member's purpose is. In this case, the role of the outside polygon must be defined as **outer** and the role of the two inner polygons must be defined as **inner**. These are the roles that are available for members of a multipolygon.  
 
 - Click OK and your multipolygon relation is complete!  
 
@@ -101,13 +97,12 @@ Relations can be difficult to understand and do not need to be used often, but t
 
 
 [Multipolygon ways]: /images/josm/multipolygon-ways.png
-[Building preset]: /images/josm/building-preset.png
-[New relation]: /images/josm/new-relation.png
 [Building relation]: /images/josm/building-relation.png
 [New relation]: /images/josm/new-relation.png
-[Type multipolygon]: /images/josm/type-multipolygon.png
+[Building yes]: /images/josm/building-yes.png
 [Outer or inner role]: /images/josm/outer-inner.png
 [New multipolygon]: /images/josm/new-multipolygon.png
+[New mp object]: /images/josm/new-mp.png
 [Multipolygon in mapnik]: /images/josm/multipolygon-mapnik.png
 [An example of a multipolygon]: /images/josm/multipolygon-demo.png
 [Route relation]: /images/josm/route-relation.png
