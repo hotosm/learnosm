@@ -13,7 +13,7 @@ Primeros pasos en OpenStreetMap.org
 > Revisado 2015-07-12  
 
 En esta sección vamos a aprender paso a paso cómo navegar por el
-sitio web de OpenStreetMap, ver mapas, y registrar tu cuenta
+sitio web de OpenStreetMap, ver mapas, y registrar su cuenta
 de usuario. Luego de que tenga su propio nombre de usuario y contraseña, será capaz de
 contribuir sus primeros puntos en el mapa.
 
@@ -96,7 +96,7 @@ Crear una cuenta OpenStreetMap
 - En la tercera caja, introduzca el nombre de usuario que le gustaría tener.
     No podrá elegir un nombre de usuario que alguien más ha
     elegido antes, por lo que debe ser creativo. Si intenta introducir
-    algo simple, como tu nombre, es probable que alguien
+    algo simple, como su nombre, es probable que alguien
     ya haya tomado ese nombre.
 - Introduzca una nueva contraseña en las cajas cuarta y quinta. Debe introducir
     la misma contraseña en ambas cajas. No tiene por qué ser la misma que
@@ -184,14 +184,14 @@ una primer idea de cómo agregar puntos al mapa.
 
 
 
-[website]: /images/beginner/start-osm_website.es.png
+[website]: /images/beginner/start-osm_website.png
 [OpenStreetMap website with some main functions listed]: /images/beginner/osm-website-main-functions.png
-[Mouse navigation]: /images/beginner/mouse-navigation.es.png
+[Mouse navigation]: /images/beginner/mouse-navigation.png
 [Search]: /images/beginner/search.png
 [Layers button]: /images/beginner/layers.png
 [Transport map]: /images/beginner/transport-map.png
-[Registering an OpenStreetMap account]: /images/beginner/registering-account.es.png
-[Confirming your OpenStreetMap account]: /images/beginner/confirming-account.es.png
+[Registering an OpenStreetMap account]: /images/beginner/registering-account.png
+[Confirming your OpenStreetMap account]: /images/beginner/confirming-account.png
 [Click edit]: /images/beginner/click-edit.png
 [iD editor]: /images/beginner/id-editor.png
 [Point button]: /images/beginner/point-button.png

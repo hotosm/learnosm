@@ -64,7 +64,7 @@ El botón **Compartir** le permite elegir uno o más archivos de logs para compa
 ![Canvass2][]
 
 El botón **Iniciar registro** está en azul. Cuando presionas este botón para comenzar a grabar, se convierte a un botón verde.  
-El botón **Coordenadas** despliega el último punto GPS grabado y se actualiza cuando unas nuevas coordenadas están disponibles.  
+El botón **Coordenadas** despliega el último punto GPS grabado y se actualiza cuando unas nuevas coordenadas están disponibles.   
 El icono **Satelites** le mostrará cuántos satélites tiene en vista.  
 La **Elevación** muestra los datos de elevación.  
 La **Duración** muestra el tiempo total transcurrido desde que se pulsó el botón de inicio.  
@@ -119,7 +119,7 @@ Después de iniciar sesión, verá una página como la siguiente, para verificar
 
 ![osm3][]
 
-Al volver a la aplicación GPSLogger, la pantalla será ligeramente diferente, con opciones adicionales disponibles.  
+Al volver a la aplicación GPSLogger, la pantalla será ligeramente diferente, con opciones adicionales disponibles.
 
 ![osm1][]
 
@@ -181,7 +181,7 @@ También es posible llamar directamente el botón *Anotar* desde la Barra de Not
 
 ![annotate0][]
 
-Esto mostrará un cuadro de diálogo de entrada donde podrá introducir los detalles del texto de la nota.  
+Esto mostrará un cuadro de diálogo de entrada donde podrá introducir los detalles del texto de la nota.
 
 ![annotate1][]
 
@@ -239,7 +239,7 @@ Para otros editores de OpenStreetMap, consulte la documentación de su software.
 Mostrar Opciones
 -----------------
 
-La aplicación se puede visualizar de 3 maneras diferentes, lo que le resulte más adecuado para su uso:  
+La aplicación se puede visualizar de 3 maneras diferentes, lo que le resulte más adecuado para su uso:
 
 #### Vista Simple
 
@@ -269,7 +269,7 @@ En esta sección se introduce el concepto de usar GPSLogger para Android para re
 Documentación Oficial de GPSLogger para Android
 --------------------------------------------
 
-El proyecto mantiene una [FAQ] (http://code.mendhak.com/gpslogger/#faq) para las preguntas más frecuentes.  
+El proyecto mantiene una [FAQ] (http://code.mendhak.com/gpslogger/#faq) para las preguntas más frecuentes.
 
 [GPSLogger]: /images/mobile-mapping/gpslogger_000.en.png
 [Canvass1]: /images/mobile-mapping/gpslogger_001.en.png

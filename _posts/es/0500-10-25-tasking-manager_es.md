@@ -26,7 +26,7 @@ category: coordination
 -  [Envío de un mensaje de la caja de comentarios](/es/coordination/tasking-manager/#envo-de-un-mensaje-de-la-caja-de-comentarios)  
 -  [Refiriéndose a un cuadrado en particular cuando se envía un correo electrónico](/es/coordination/tasking-manager/#refirindose-a-un-cuadrado-en-particular-cuando-se-enva-un-correo-electrnico)  
 -  [Cómo obtener ayuda en vivo - IRC, Internet Relay Chat](/es/coordination/tasking-manager/#cmo-obtener-ayuda-en-vivo)  
--  [Consejos de edición y sugerencias](/es/coordination/tasking-manager/#consejos-de-edicin-y-sugerencias)  
+-  [Consejos de edición y sugerencias](/es/coordination/tasking-manager/#consejos-de-edicin-y-sugerencias)
 
 
 El HOT Tasking Manager, <http://tasks.hotosm.org/>, es una herramienta intuitiva que los mapeadores pueden usar para asignar un área dentro de una cuadrícula para trabajar junto con otros mapeadores para mapear un área de manera organizada. Esto le permite a los mapeadores alrededor del mundo ayudar a mapear una región definida con un riesgo mínimo de que las áreas en las que se trabaja se sobrepongan y también permite a las personas tanto en campo como vía remota (también conocidos como mapeadores de escritorio) colaborar efectiva y rápidamente, evitando así posible re-trabajo accidental debido a conflictos.  
@@ -44,9 +44,9 @@ El HOT Tasking Manager, <http://tasks.hotosm.org/>, es una herramienta intuitiva
 
 El Task Manager se despliega inicialmente en Inglés - para cambiar a otro idioma de clic en **English** en el banner superior de color rojo.   
 
-Para información acerca del Tasking Manager, patrocinadores de HOT, socios y ayuda, de clic en **About** en la parte superior de la página.  
+Para información acerca del Tasking Manager, patrocinadores de HOT, socios y ayuda, de clic en **About** en la parte superior de la página.
 
-Una vez que haya iniciado sesión, puede hacer clic en su nombre de usuario en la parte superior. Aquí puede:  
+Una vez que haya iniciado sesión, puede hacer clic en su nombre de usuario en la parte superior. Aquí puede:    
 
 - Acceder a la lista de proyectos para los cuales has completado cuadros.  
 - Ir a la pantalla de **Mensajes** dentro del Tasking Manager (esto no es lo mismo que el sistema de mensajes de OpenStreetMap)  
@@ -62,13 +62,13 @@ Puede ver el proyecto como visitante pero si quiere participar debes iniciar ses
 
 ![Tasking Manager Login][]
 
-- Haga clic en "Iniciar sesión en OpenStreetMap"  
-- Está de acuerdo en permitir a esta aplicación cierto acceso a su cuenta de OpenStreetMap. De clic en "Guardar Cambios."  
+- Haga clic en "Iniciar sesión en OpenStreetMap"    
+- Está de acuerdo en permitir a esta aplicación cierto acceso a su cuenta de OpenStreetMap. De clic en "Guardar Cambios."    
 
 ![Authorizing access to OSM account by the Tasking Manager][]
 
 
-## Localizando un proyecto
+##Localizando un proyecto
 
 La lista actual de proyectos puede ser ordenada por:  
 
@@ -80,7 +80,7 @@ Puede refinar más su lista dando clic en **Sus Proyectos**, para ver sólo los 
 
 Los proyectos son usualmente referidos por su número de proyecto, por ejemplo, [**#711 - Ebola Outbreak, Kayes, Mali - Pre-emptive building mapping**](http://tasks.hotosm.org/project/711), y en este caso puede buscar #711 para encontrar este proyecto.  
 
-De clic en un título azul de proyecto para ver más información acerca de dicho proyecto.  
+De clic en un título azul de proyecto para ver más información acerca de dicho proyecto.    
 
 ![Job description][]
 
@@ -98,7 +98,7 @@ De clic en un título azul de proyecto para ver más información acerca de dich
 
 
 ### Pestaña de instrucciones
-Esto muestra lo que se requiere en la tarea de mapeo. Las tareas varían en dificultad, apto para mapeadores principiantes, intermedios y avanzados - y las instrucciones explicarán esto.  
+Esto muestra lo que se requiere en la tarea de mapeo. Las tareas varían en dificultad, apto para mapeadores principiantes, intermedios y avanzados - y las instrucciones explicarán esto.    
 
 - Redes de carreteras: Utilizado por las personas en el terreno para cargar datos en herramientas de navegación portátiles, y descubrir cómo acceder a zonas remotas  
 - Mapeo de publos: A menudo se utiliza para identificar los lugares donde vive la gente y puede ser impactada  
@@ -155,16 +155,16 @@ Diferentes opciones para la edición se presentan tan pronto como bloquea un cua
 
 #### Editar con JOSM  
 
-Inicie JOSM antes de utilizar este enlace y cargará automáticamente los datos de OSM existentes en JOSM.  
+Inicie JOSM antes de utilizar este enlace y cargará automáticamente los datos de OSM existentes en JOSM.    
 
 > 1. 'Activar control remoto' tiene que estar marcada - se encuentra en **Editar / Preferencias / Control remoto**
 > 2. Si ha instalado el plug-in 'continuosDownload' lo mejor es desactivarlo (desmarque 'Descargar datos OSM continuamente' bajo el menú **Archivo** en JOSM.   
-> 3. Si JOSM no carga las imágenes automáticamente, lo que normalmente se puede encontrar bajo el menú **Imágenes**. [Más información de las imágenes aquí](/es/josm/more-about-josm/#add-imagery)  
+> 3. Si JOSM no carga las imágenes automáticamente, lo que normalmente se puede encontrar bajo el menú **Imágenes**. [Más información de las imágenes aquí](/es/josm/more-about-josm/#add-imagery)    
 
 
 #### Editor iD  
 
-Seleccione esta opción para iniciar automáticamente una nueva pestaña o ventana del navegador web, con datos existentes de OSM cargados. El navegador web Internet Explorer no admite actualmente iD y cargará Potlatch 2 en su lugar. Su pestaña original o ventana con el Administrador de tareas todavía estará presente.  
+Seleccione esta opción para iniciar automáticamente una nueva pestaña o ventana del navegador web, con datos existentes de OSM cargados. El navegador web Internet Explorer no admite actualmente iD y cargará Potlatch 2 en su lugar. Su pestaña original o ventana con el Administrador de tareas todavía estará presente.    
 
 
 #### Potlatch 2  
@@ -183,24 +183,24 @@ El editor se cargará en una nueva ventana o pestaña. Potlatch no mostrará aut
 
 #### Walking Papers / Field Papers  
 
-Para su uso sólo cuando está involucrado en un proyecto donde un mapeador local, ha llevado a cabo un estudio de terreno y marcó en un mapa impreso información como nombres de calles. Este mapa puede ser escaneado de nuevo y utilizado como imagen de fondo para que un mapeador remoto o local lea la información y actualice los datos de OpenStreeetMap.  
+Para su uso sólo cuando está involucrado en un proyecto donde un mapeador local, ha llevado a cabo un estudio de terreno y marcó en un mapa impreso información como nombres de calles. Este mapa puede ser escaneado de nuevo y utilizado como imagen de fondo para que un mapeador remoto o local lea la información y actualice los datos de OpenStreeetMap.    
 
 
 ### Dividir un cuadrado  
 
-Habiendo seleccionado su cuadrado e inspeccionado con las imágenes del lugar, puede darse cuenta de que hay demasiado detalle requerido para el mapeo. Un ejemplo de esto puede ser trazado de edificios en zonas urbanas densamente pobladas, o ubicar pequeños pueblos en grandes áreas. Como orientación, donde no es posible para una persona para completar en el plazo 2 horas a menudo se puede dividir la tarea en 4 áreas más pequeñas. *Utilizar con precaución* - si / cuando los cuadrados se dividen demasiado, es difícil juzgar qué tipo de carretera está involucrada, y la identificación de otras características.  
+Habiendo seleccionado su cuadrado e inspeccionado con las imágenes del lugar, puede darse cuenta de que hay demasiado detalle requerido para el mapeo. Un ejemplo de esto puede ser trazado de edificios en zonas urbanas densamente pobladas, o ubicar pequeños pueblos en grandes áreas. Como orientación, donde no es posible para una persona para completar en el plazo 2 horas a menudo se puede dividir la tarea en 4 áreas más pequeñas. *Utilizar con precaución* - si / cuando los cuadrados se dividen demasiado, es difícil juzgar qué tipo de carretera está involucrada, y la identificación de otras características.    
 
-> Tenga en cuenta que otros comentarios útiles sobre el trabajo previamente completado ya no estarán disponibles.  
+> Tenga en cuenta que otros comentarios útiles sobre el trabajo previamente completado ya no estarán disponibles.
 
 
 ### Liberar un cuadrado antes de que se haya completado
 
-Si se empieza a trabajar en un cuadrado, pero no se puede completar por alguna razón, es una buena práctica dejar un comentario en el cuadrado. Simplemente detalle lo que queda y elija **desbloquear**. Asegúrese de que sus comentarios sean relevantes y apunten a ayudar al próximo mapeador.  
+Si se empieza a trabajar en un cuadrado, pero no se puede completar por alguna razón, es una buena práctica dejar un comentario en el cuadrado. Simplemente detalle lo que queda y elija **desbloquear**. Asegúrese de que sus comentarios sean relevantes y apunten a ayudar al próximo mapeador.    
 
 Por ejemplo:  
 
-    Casi completo, pequeño pueblo arriba a la izquierda  
-    del cuadrado para ser trazado  
+    Casi completo, pequeño pueblo arriba a la izquierda 
+    del cuadrado para ser trazado
 
 
 ### Terminando un cuadrado
@@ -211,13 +211,13 @@ Para que el proceso funcione con mayor eficacia, los mapeadores tienen que marca
 
 Cuando tenga la edición terminada y piense que el cuadrado está completo, guarde las ediciones restantes con su programa de edición, y luego vuelva al Administrador de tareas.  
 
-+ Añada comentarios a la caja detallando lo que que logró y lo más importante, lo que tiene dudas. Por ejemplo; "Completé lo que pude ver, pero hay nube que cubre la esquina superior derecha del cuadrado y no puedo trazar esa área".  
-+ Haga clic en el botón "Marcar tarea como lista", y su trabajo está listo para su revisión.  
++ Añada comentarios a la caja detallando lo que que logró y lo más importante, lo que tiene dudas. Por ejemplo; "Completé lo que pude ver, pero hay nube que cubre la esquina superior derecha del cuadrado y no puedo trazar esa área".    
++ Haga clic en el botón "Marcar tarea como lista", y su trabajo está listo para su revisión.    
 
 
 ### Envío de un mensaje de la caja de comentarios
 
-Al dejar un comentario sobre un cuadrado, puede hacer que el comentario sea enviado como un mensaje a un mapeador nombrado. Al igual que Twitter, simplemente utilice un @ seguido del nombre de usuario. Esto enviará un mensaje al usuario que contiene los comentarios de este cuadro, además de un enlace al cuadrado que se refiere el comentario.  
+Al dejar un comentario sobre un cuadrado, puede hacer que el comentario sea enviado como un mensaje a un mapeador nombrado. Al igual que Twitter, simplemente utilice un @ seguido del nombre de usuario. Esto enviará un mensaje al usuario que contiene los comentarios de este cuadro, además de un enlace al cuadrado que se refiere el comentario.   
 
 Por ejemplo:  
 
@@ -228,8 +228,8 @@ Por ejemplo:
 
 Esto es particularmente útil cuando se valida o agrega al trabajo previo de otro - puede proporcionar retroalimentación, agradecimientos o más.  
 
-+ Es posible que desee proporcionar un enlace a un sitio que puede ayudar al mapeador, como <http://learnosm.org/es/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
-+ Tenga en cuenta que muchas personas de todo el mundo van a participar, por lo que prefieren un lenguaje sencillo y claro. Si se encuentra con comentarios en otros idiomas, herramientas como el traductor Google son razonablemente eficaces.  
++ Es posible que desee proporcionar un enlace a un sitio que puede ayudar al mapeador, como <http://learnosm.org/es/coordination/remote-tracing/#buildings-walls-compounds-barriers>    
++ Tenga en cuenta que muchas personas de todo el mundo van a participar, por lo que prefieren un lenguaje sencillo y claro. Si se encuentra con comentarios en otros idiomas, herramientas como el traductor Google son razonablemente eficaces.
 
 
 ### Refiriéndose a un cuadrado en particular cuando se envía un correo electrónico  
@@ -240,8 +240,8 @@ Si necesita enviar un mensaje, como un correo electrónico o un mensaje de IRC, 
 2. Haga clic en la barra de direcciones de su navegador web, que debería mostrar algo similar a 'http://tasks.hotosm.org/project/713#task/259'  
 3. Resalte con el ratón todo el texto en la barra de direcciones, o use la combinación de teclas **Ctrl+A** para seleccionar todo el texto, a continuación, utilizar las teclas de acceso directo **Ctrl+C** para copiar el texto  
 4. En su correo electrónico, mensaje de IRC, u otro mensaje,  
-    - o bien, haga clic derecho del ratón y pegar,  
-    - o la combinación de teclas **Ctrl+V**, para pegar el enlace en el mensaje.  
+    - o bien, haga clic derecho del ratón y pegar,    
+    - o la combinación de teclas **Ctrl+V**, para pegar el enlace en el mensaje.   
 
 
 ### Cómo obtener ayuda en vivo 
@@ -270,12 +270,12 @@ Ahora tiene una buena comprensión de lo que es el Administrador de tareas, y al
 Algunos consejos generales para prestar atención al trabajar con esta herramienta:  
 
 - Evite el mapeo lejano fuera de su cuadrado - otros mapeadores pueden estar trabajando en esa área, lo que resulta en duplicación de esfuerzos. Está bien para mapear objetos como edificios superpuestos un límite, pero no ir más lejos - subir los cambios inmediatamente después de mapear algo en la frontera.  
-- Extender caminos, arroyos, u otras características ligeramente en los límites - esto permite que el próximo mapeador continuar donde lo dejó, pero suba los cambios tan pronto como haya terminado de editarlo.  
-- Si tiene alguna duda acerca de lo que es un elemento particular, utilice la sección de comentarios para hacer preguntas o consulte la wiki.  
-- Si comete un error grave - por ejemplo, borrar un elemento importante o una relación - use el IRC o la caja de comentarios de pedir a otros mapeadores ayuda para revertir esto. Trate de incluir el conjunto de cambios, o una descripción de lo que ocurrió. Al ser una tarea de colaboración, muchos otros creadores de mapas están para ayudarle - es importante recordar que todos cometemos errores a veces.  
-- No dude en pedir opinión - los mapeadores validando su trabajo pueden ser cortantes o ir directamente al punto, pero si saben que pueden dialogar, el resultado es a menudo mucho mejor para todos los involucrados. Puede ser difícil comunicarse en otro idioma, y es fácil parecer brusco cuando se tiene que traducir, así como pasar un mensaje en un idioma que no se es fluido.  
-- No debe validar su propio trabajo - un segundo par de ojos siempre conducirá a un mapeo de mejor calidad.  
-- No se preocupe si otros mapeadores son escueto al validar su trabajo - como usted, lo que quieren es asegurarse de que todos los datos están mapeados con precisión. La retroalimentación es siempre sobre el trabajo que falta, no la crítica de sus esfuerzos hasta ahora.  
+- Extender caminos, arroyos, u otras características ligeramente en los límites - esto permite que el próximo mapeador continuar donde lo dejó, pero suba los cambios tan pronto como haya terminado de editarlo.    
+- Si tiene alguna duda acerca de lo que es un elemento particular, utilice la sección de comentarios para hacer preguntas o consulte la wiki.    
+- Si comete un error grave - por ejemplo, borrar un elemento importante o una relación - use el IRC o la caja de comentarios de pedir a otros mapeadores ayuda para revertir esto. Trate de incluir el conjunto de cambios, o una descripción de lo que ocurrió. Al ser una tarea de colaboración, muchos otros creadores de mapas están para ayudarle - es importante recordar que todos cometemos errores a veces.    
+- No dude en pedir opinión - los mapeadores validando su trabajo pueden ser cortantes o ir directamente al punto, pero si saben que pueden dialogar, el resultado es a menudo mucho mejor para todos los involucrados. Puede ser difícil comunicarse en otro idioma, y es fácil parecer brusco cuando se tiene que traducir, así como pasar un mensaje en un idioma que no se es fluido.    
+- No debe validar su propio trabajo - un segundo par de ojos siempre conducirá a un mapeo de mejor calidad.    
+- No se preocupe si otros mapeadores son escueto al validar su trabajo - como usted, lo que quieren es asegurarse de que todos los datos están mapeados con precisión. La retroalimentación es siempre sobre el trabajo que falta, no la crítica de sus esfuerzos hasta ahora.    
 
 [Tasking Manager Login]: /images/coordination/tasking_manager_image01.png
 [Tasking Manager Username_list]: /images/coordination/tasking_manager_image02.png

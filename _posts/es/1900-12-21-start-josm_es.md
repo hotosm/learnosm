@@ -63,7 +63,7 @@ Instalar JOSM
   el programa JOSM.
 - Es posible que aparezca una ventana emergente que le pregunte si desea actualizar el
   software. No es necesario actualizarlo ya que es nuevo. Presione el
-  botón que dice "Cancelar". Si no quiere volver a ver este
+  botón que dice "Cancelar". Si no quiere ver esto
   mensaje otra vez, marque la casilla en la parte inferior antes de pulsar "Cancelar".
 - Cuando se inicie JOSM, se verá como esto:
 
@@ -111,6 +111,9 @@ Aprender dibujo básico con JOSM
 - Ahora debería ver un mapa de ejemplo como este:
 
   ![Sample file][]
+
+- Utilizará estos datos para probar varias técnicas de edición.
+  *Sin embargo, nunca debe cargar estos datos ficticios a la base de datos.*
 
 ### Operaciones básicas
 
@@ -241,10 +244,25 @@ Dibuje su propio mapa
 - Cuando haya terminado, debería tener su propio mapa, similar al
   mapa de ejemplo que abrimos en sample.osm.
 
+## Eliminar la capa de muestra
+
+Una vez que se sienta cómodo con estas técnicas básicas de edición,
+querrá dirigir su atención al mapeo de elementos reales. 
+
+*Es muy importante que primero quite la capa con los datos de la muestra. 
+Estos datos son ficticios y no deben cargarse en OpenStreetMap. 
+(las versiones nuevas de JOSM impiden esto automáticamente).*
+
+En la ventana Capas, en la parte superior derecha de la pantalla, seleccione la capa sample.osm. 
+A continuación, haga clic en el icono de la papelera en la esquina inferior derecha de esa ventana. 
+Alternativamente, puede elegir eliminar del menú contextual de la capa. 
+Para continuar editando, primero necesita descargar datos reales. 
+Esto se explicará en el próximo capítulo.
+
 Resumen
 -------
 
-Excelente! Si todo ha ido bien ha aprendido a configurar JOSM en su
+¡Excelente! Si todo ha ido bien ha aprendido a configurar JOSM en su
 equipo y las herramientas básicas para la elaboración de mapas. En el próximo capítulo
 echaremos un vistazo más de cerca al proceso de editar el mapa OSM con JOSM.
 
