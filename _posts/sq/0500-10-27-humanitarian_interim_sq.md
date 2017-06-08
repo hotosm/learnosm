@@ -11,7 +11,7 @@ Humanitarian Mapping
 =============================  
 
 Kjo guidë nuk është e disponueshme tani. Ajo po përkthehet. Ju lutem referojuni asaj në  
-[English](/sq/coordination/humanitarian/)    <!--
+[English](/en/coordination/humanitarian/)    <!--
 [Bahasa Indonesia](/bi/coordination/humanitarian/),  
 [Catalan](/ca/coordination/humanitarian/)
 [Czech](/cs/coordination/humanitarian/),   -->  
@@ -23,13 +23,13 @@ Kjo guidë nuk është e disponueshme tani. Ajo po përkthehet. Ju lutem referoj
 [日本語](/ja/coordination/humanitarian/),  -->  
 [Myanmar](/my/coordination/humanitarian/),  <!--
 [Norsk](/nb/coordination/humanitarian/), -->  
-[Nederlands](/nl/coordination/humanitarian/).  
+[Nederlands](/nl_NL/coordination/humanitarian/).  
 [Português](/pt/coordination/humanitarian/),  <!--
 [Русский](/ru/coordination/humanitarian/),  
 [Kiswahili](/sw/coordination/humanitarian/), 
 [Shqip](/sq/coordination/humanitarian/),  
 [Українська](/uk/coordination/humanitarian/), 
-[简体中文](/zh/coordination/humanitarian/).-->  
-[繁體中文](/zh-tw/beginner/humanitarian/).  
+[简体中文](/zh_CN/coordination/humanitarian/).-->  
+[繁體中文](/zh_TW/beginner/humanitarian/).  
 
 To help produce translations for this site, go to [https://www.transifex.com](https://www.transifex.com) and search for **HOT-OSM**.
