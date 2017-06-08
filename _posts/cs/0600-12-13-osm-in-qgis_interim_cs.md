@@ -1,22 +1,23 @@
 ---
 layout: doc
-permalink: /cs/mobile-mapping/
+permalink: /cs/osm-data/osm-in-qgis
 lang: cs
-title: Mapping with a SmartPhone, GPS or Paper
-category: mobile-mapping
-cover: yes
-nosearch: true
+title: osm-in-qgis
+category: osm-data
+
 ---
 
-Mapping with a SmartPhone, GPS or Paper  
+osm-in-qgis  
 =================  
 
 Tento návod není dostupný. Je právě překládán. Prosím odkažte na něj v   
 
-[English](/en/mobile-mapping/),  
-[Español](/es/mobile-mapping/),  
+[English](/en/osm-data/osm-in-qgis),  
+[Deutsch](/de/osm-data/osm-in-qgis),  
+[Español](/es/osm-data/osm-in-qgis),  
 [فارسی](/fa/osm-data/osm-in-qgis),  
-[Nederlands](/nl/mobile-mapping/),  
+[Nederlands](/nl_NL/osm-data/osm-in-qgis),  
+
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 
 <!-- hidden text -->

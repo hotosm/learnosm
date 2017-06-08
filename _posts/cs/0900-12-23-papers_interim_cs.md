@@ -15,7 +15,7 @@ Tento návod není dostupný. Je právě překládán. Prosím odkažte na něj 
 [Deutsch](/de/mobile-mapping/field-papers),  
 [Español](/es/mobile-mapping/field-papers),  
 [Italiano](/it/mobile-mapping/field-papers),  
-[Nederlands](/nl/mobile-mapping/field-papers),  
+[Nederlands](/nl_NL/mobile-mapping/field-papers),  
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 

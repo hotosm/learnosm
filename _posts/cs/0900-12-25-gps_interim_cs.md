@@ -1,19 +1,20 @@
 ---
 layout: doc
-permalink: /cs/mobile-mapping/gpslogger/
+permalink: /cs/mobile-mapping/using-gps/
 lang: cs
-title: GPSLogger for Android
+title: Surveying with a Garmin GPS
 category: mobile-mapping
 ---
 
-GPSLogger for Android  
+Surveying with a Garmin GPS  
 =================  
 
 Tento návod není dostupný. Je právě překládán. Prosím odkažte na něj v   
 
-[English](/en/mobile-mapping/gpslogger),  
-[Español](/es/mobile-mapping/gpslogger),  
-[Nederlands](/nl/mobile-mapping/gpslogger),  
+[English](/en/mobile-mapping/using-gps),  
+[Español](/es/mobile-mapping/using-gps),  
+[Italiano](/it/mobile-mapping/using-gps),  
+[Nederlands](/nl_NL/mobile-mapping/using-gps),  
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 

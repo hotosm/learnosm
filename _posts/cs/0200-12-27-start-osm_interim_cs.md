@@ -20,12 +20,12 @@ Tento návod není dostupný. Je právě překládán. Prosím odkažte na něj 
 [Italiano](/it/beginner/start-osm),  
 [日本語](/ja/beginner/start-osm),  
 [Norsk](/nb/beginner/start-osm),  
-[Nederlands](/nl/beginner/start-osm),  
+[Nederlands](/nl_NL/beginner/start-osm),  
 [Português](/pt/beginner/start-osm),  
 [Русский](/ru/beginner/start-osm),  
 [Kiswahili](/sw/beginner/start-osm) or  
 [Українська](/uk/beginner/start-osm).  
-[简体中文](/zh/beginner/start-osm).  
+[简体中文](/zh_CN/beginner/start-osm).  
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 

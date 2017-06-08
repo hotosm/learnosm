@@ -1,21 +1,23 @@
 ---
 layout: doc
-permalink: /cs/josm/start-josm
+permalink: /cs/coordination/
 lang: cs
-title: start-josm
-category: josm
+title: Coordination
+category: coordination
+cover: yes
+nosearch: true
 
 ---
 
-start-josm  
+Coordination  
 =================  
 
 Tento návod není dostupný. Je právě překládán. Prosím odkažte na něj v   
 
-[English](/en/josm/start-josm/),   
-[Deutsch](/de/josm/start-josm/),  
-[Español](/es/josm/start-josm/),  
-[Nederlands](/nl/josm/start-josm/),  
+[English](/en/coordination/),  
+[Español](/es/coordination/),  
+[Italiano](/it/coordination/),  
+[Nederlands](/nl_NL/coordination/),  
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 

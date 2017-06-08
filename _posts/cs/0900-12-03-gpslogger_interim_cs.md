@@ -1,19 +1,19 @@
 ---
 layout: doc
-permalink: /cs/coordination/humanitarian/
+permalink: /cs/mobile-mapping/gpslogger/
 lang: cs
-title: Humanitarian Mapping
-category: coordination
-
+title: GPSLogger for Android
+category: mobile-mapping
 ---
 
-Humanitarian Mapping  
+GPSLogger for Android  
 =================  
 
 Tento návod není dostupný. Je právě překládán. Prosím odkažte na něj v   
 
-[English](/en/coordination/humanitarian/),  
-[Nederlands](/nl/coordination/humanitarian/),  
+[English](/en/mobile-mapping/gpslogger),  
+[Español](/es/mobile-mapping/gpslogger),  
+[Nederlands](/nl_NL/mobile-mapping/gpslogger),  
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 
