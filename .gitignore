@@ -8,3 +8,4 @@ _site/
 serve/
 jekyll_*log.txt
 _config.yml
+Gemfile.lock
