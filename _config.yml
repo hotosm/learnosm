@@ -160,17 +160,17 @@ translations:
     language: "ဗမာ"
     quickaccess: "ယခုပဲ အမြန်ဝင်ရောက်လိုက်ပါ။"
     returntotop: "စာမျက်နှာ၏ထိပ်သို့ပြန်သွားပါ။"
-  nl:
-    language: "Nederlands"
+  nl_NL:
     tagline: "Ontdek de mogelijkheden van OpenStreetMap"
     contribute: "Meehelpen met het verbeteren van handleidingen"
     trainingspan: "Workshops organizeren?"
-    training: "Materiaal voor deze handleiding (in het engels)"
+    training: "Materiaal voor deze handleiding (in het Engels)"
     feedbackspan: "Was dit een goede handleiding?"
     feedback: "Laat ons weten hoe we de handleidingen kunnen verbeteren!"
     getstarted: "Beginnen"
-    returntotop: "Terug naar begin van de pagina"
+    language: "Nederlands"
     quickaccess: "Snelle toegang"
+    returntotop: "Terug naar begin van de pagina"
   nb:
     tagline: "Lære OpenStreetMap steg for steg"
     contribute: "Hjelp oss med å forbedre våre veiledninger"
