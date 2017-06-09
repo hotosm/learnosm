@@ -238,7 +238,7 @@ translations:
     getstarted: "Розпочати"
     returntotop: "Return to top of page"
     quickaccess: "Quick access"
-  zh:
+  zh_CN:
     language: "简体中文"
     tagline: "逐步学习OpenStreetMap"
     contribute: "帮助改进我们的指南"

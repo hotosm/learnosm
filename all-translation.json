@@ -195,10 +195,10 @@
 	   "url":""}
 	]
 },{
-	"lang":"nl",
+	"lang":"nl_NL",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if post.lang == 'nl' %}
+	  {% if post.lang == 'nl_NL' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}
@@ -234,10 +234,10 @@
 	   "url":""}
 	]
 },{
-	"lang":"zh",
+	"lang":"zh_CN",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if post.lang == 'zh' %}
+	  {% if post.lang == 'zh_CN' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}

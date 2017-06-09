@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: JOSM入门
-permalink: /zh/josm/start-josm/
-lang: zh
+permalink: /zh_CN/josm/start-josm/
+lang: zh_CN
 category: josm
 published: true
 ---
@@ -10,7 +10,7 @@ published: true
 JOSM入门
 =============================  
 
-> 本指南有[josm_start-josm_zh.odt](/files/josm_start-josm_zh.odt)和[josm_start-josm_zh.pdf](/files/josm_start-josm_zh.pdf)两种格式可供下载。  
+> 本指南有[josm_start-josm_zh.odt](/files/josm_start-josm_zh_CN.odt)和[josm_start-josm_zh_CN.pdf](/files/josm_start-josm_zh_CN.pdf)两种格式可供下载。  
 > 2015年7月12日修订  
 
 本节介绍如何下载并安装Java OpenStreetMap编辑器JOSM、修改部分设置、打开示例地图、学习软件部分基本操作。还记得在引言章节中我们请你绘制你的城镇或村庄的地图吗？本章我们将再次绘制你的地图，不过这次

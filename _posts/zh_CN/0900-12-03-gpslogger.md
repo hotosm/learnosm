@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: GPSLogger for Android
-permalink: /zh/mobile-mapping/gpslogger/
-lang: zh
+permalink: /zh_CN/mobile-mapping/gpslogger/
+lang: zh_CN
 category: mobile-mapping
 ---
 

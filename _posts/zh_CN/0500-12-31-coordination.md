@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /zh/coordination/
-lang: zh
+permalink: /zh_CN/coordination/
+lang: zh_CN
 title: Coordination
 category: coordination
 cover: yes

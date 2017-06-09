@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /zh/mobile-mapping/
-lang: zh
+permalink: /zh_CN/mobile-mapping/
+lang: zh_CN
 title: Mapping with a SmartPhone, GPS or Paper
 category: mobile-mapping
 cover: yes

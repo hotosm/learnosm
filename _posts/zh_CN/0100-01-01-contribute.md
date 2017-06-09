@@ -1,7 +1,7 @@
 ---
 layout: contribute
-permalink: /zh/contribute/
-lang: zh
+permalink: /zh_CN/contribute/
+lang: zh_CN
 title: Contribute
 contributetitle: "帮助改进我们的指南"
 startwith: "准备好开始了吗？"
