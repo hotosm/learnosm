@@ -10,7 +10,7 @@ Glossário
 ============
 
 >Este Glossário está a ser actualizado e foi compilado a partir de numerosas fontes incluindo o site [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) e um guia escrito por Will Skora. Sinta-se à vontade para nos ajudar a actualizá-lo revendo [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) para saber como contribuir para o site. 
-> Reviewed 2015-07-18  
+> Revisto em 2015-07-18  
 
 Para pesquisar facilmente este Glossário, utilize a funcionalidade de pesquisa do seu navegador (browser), carregando na tecla de Control e ao mesmo tempo pressionar a tecla f (**Ctrl+f**).  
 
@@ -31,15 +31,15 @@ Para pesquisar facilmente este Glossário, utilize a funcionalidade de pesquisa 
 
 **DHN : Digital Humanitarian Network** ; organização que alavanca redes digitais para resposta humanitária.
 
-**Extract** : [OSM Data Overview](/en/osm-data/data-overview/) Um pedaço grande de dados OSM de uma área específica (como um estado, país, ou área geográfica).
+**Extract** : [OSM Data Overview](/pt/osm-data/data-overview/) Um pedaço grande de dados OSM de uma área específica (como um estado, país, ou área geográfica).
 
-**[Field Papers](/en/mobile-mapping/field-papers/)**: é uma ferramenta baseada na web para criar facilmente um mapa imprimível, para qualquer sítio no mundo, o qual pode ser impresso e anotado. Ver [http://fieldpapers.org/](http://fieldpapers.org/) para mais detalhes. 
+**[Field Papers](/pt/mobile-mapping/field-papers/)**: é uma ferramenta baseada na web para criar facilmente um mapa imprimível, para qualquer sítio no mundo, o qual pode ser impresso e anotado. Ver [http://fieldpapers.org/](http://fieldpapers.org/) para mais detalhes. 
 
 **FOD : Fundamental Operational Database** ; dados específicos da ativação i.e. instalações de saúde, escolas, instalações de água, limites de inundações, estragos de edifícios, etc.
 
 **GDACS :  Global Disaster Alert and Coordination System** ; GDACS é uma estrutura de cooperação sob o chapéu das Nações Unidas. Inclui sistemas mundiais de gestão de desastres e procura preencher a necessidade de informação e coordenação na primeira fase depois de grandes catástrofes. GDACS providencia acesso em tempo real aos sistemas de informação de catástrofes naseados na web e ferramentas de coordenação relacionadas.
 
-**[iD editor](/en/beginner/id-editor/)** - Editor OpenStreetMap baseado na web, fácil para iniciantes, criado pela Mapbox. 
+**[iD editor](/pt/beginner/id-editor/)** - Editor OpenStreetMap baseado na web, fácil para iniciantes, criado pela Mapbox. 
 
 **IDP : Internally Displaced Person** ; (pessoa deslocada internamente) é uma pessoa queé forçada a fugir de sua casa, continuando a estar dentro das fronteiras do seu país.
 
