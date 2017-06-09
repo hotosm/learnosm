@@ -436,7 +436,7 @@ La traduction de pages wiki importantes dans votre langue est toujours
 une contribution très utile. Comme vous avez pu le voir, de nombreuses
 pages wiki présentent en haut de page des liens permettant de changer de
 langue. Mais ceci n’est valable que pour les pages déjà traduites et qui
-comprennent la syntaxe wiki {{Languages|page\_name}} en haut de page.
+comprennent la syntaxe wiki en haut de page.
 
 Il est fondamental de traduire les principales pages du wiki OSM dans
 votre langue si vous souhaitez développer le projet OSM dans votre pays.

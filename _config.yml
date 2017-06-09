@@ -93,7 +93,6 @@ translations:
     returntotop: "Return to top of page"
     quickaccess: "Quick access"
   fr:
-    language: "Français"
     tagline: "Apprendre OpenStreetMap étape par étape"
     contribute: "Aidez-nous pour améliorer cette documentation"
     trainingspan: "Organisez-vous des ateliers de cartographie ?"
@@ -101,8 +100,9 @@ translations:
     feedbackspan: "Cette page était-elle utile ?"
     feedback: "Faîtes-nous savoir comment améliorer ces guides !"
     getstarted: "Commencer"
-    returntotop: "Retourner en haut de la page"
+    language: "Français"
     quickaccess: "Accès rapide"
+    returntotop: "Retourner en haut de la page"
   hr:
     language: "Hrvatski"
     tagline: "Naučite OpenStreetMap korak po korak"
