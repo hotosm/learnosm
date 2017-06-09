@@ -10,7 +10,7 @@ iD အသုံးပြုတည်းဖြတ်ခြင်း
 =============
 
 > ဤလမ်းညွှန်ချက်ကို [beginner_id-editor_my.odt](/files/beginner_id-editor_my.odt)   (သို့မဟုတ်) [beginner_id-editor_my.pdf](/files/beginner_id-editor_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
-> Reviewed 2016-02-08  
+> Reviewed 2016-03-30  
 
 - TOC
 {:toc}
@@ -168,6 +168,8 @@ iD Editor နှင့် JOSM ဆော့ဖ်ဝဲလ် တို့နှ
 - ကြိုတင်သတ်မှတ်ချက်များ ၊ သီးသန့်ရည်ညွှန်းချက်များ အတွက်အသုံးပြုလိုလျှင်
 
 [^fieldpaper]: ဤနေရာ[section of LearnOSM](/my/mobile-mapping/field-papers/) တွင် Field Papers အကြောင်းနှင့်ပါတ်သက်၍ သတင်းအချက်အလက်အစုံအလင်ရှိပါသည်။
+
+
 
 
 [image1]: /images/beginner/id-editor_image1.png 

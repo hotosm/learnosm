@@ -150,7 +150,6 @@ translations:
     returntotop: "Return to top of page"
     quickaccess: "Quick access"
   my:
-    language: "ဗမာ"
     tagline: "OpenStreetMap အားတစ်ဆင့်ပြီးတစ်ဆင့်လေ့လာခြင်း"
     contribute: "ကျွန်ုပ်တို့၏လမ်းညွှန်မှုများတိုးတက်အောင်ကူညီပါ။"
     trainingspan: "သင်သည် အလုပ်ရုံဆွေးနွေးပွဲအတွက်ဖြစ်မြောက်အောင်ဆောင်ရွက်သူတစ်ဦးဖြစ်ပါသလား။"
@@ -158,8 +157,9 @@ translations:
     feedbackspan: "ဤအခန်းသည် သင့်အတွက်အထောက်အကူပြုပါသလား။"
     feedback: "ကျွန်ုပ်တို့၏လမ်းညွှန်မှုများကိုတိုးတက်ကောင်းမွန်စေရန် ကျွန်ုပ်တို့အားအသိပေးခြင်းဖြင့်ကူညီပါ။"
     getstarted: "စတင်ရန်"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
+    language: "ဗမာ"
+    quickaccess: "ယခုပဲ အမြန်ဝင်ရောက်လိုက်ပါ။"
+    returntotop: "စာမျက်နှာ၏ထိပ်သို့ပြန်သွားပါ။"
   nl:
     language: "Nederlands"
     tagline: "Ontdek de mogelijkheden van OpenStreetMap"

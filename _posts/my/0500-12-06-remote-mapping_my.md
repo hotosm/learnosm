@@ -29,13 +29,13 @@ HOT ၏ တုံ့ပြန်လှုပ်ရှားဆောင်ရွ
 
 [HOT Tasking Manager](http://tasks.hotosm.org/) သည် လျှင်မြန်စွာဆောင်ရွက်ပြီးစီးနိုင်သော ပိုမိုသေးငယ်သည့်ဆောင်ရွက်ဖွယ်ရာများအဖြစ်သို့ မြေပုံထုတ်လုပ် ငန်းတစ်ခုအဖြစ် ခွဲထုတ်ပေးရန်စီစဉ်ထားသည့် အများပြည်သူအသုံး ပြုနိုင်သော ကိရိယာတစ်ခုဖြစ်သည်။ ယင်းမှာ မည်သည့်ဧရိယာများကို မြေပုံထုတ်ရန်လိုအပ်ကြောင်းနှင့် မည်သည့်ဧရိယာများ၏ မြေပုံထုတ်ထားခြင်းများကို အခြားသူများက မှန်ကန်ကြောင်းအတည်ပြုပေးရန်လိုအပ်ကြောင်း ပြသမည်ဖြစ်သည်။ ယင်း၌ [စတင်အသုံးပြုရန် အတည်ပြုခြင်းများ](http://wiki.openstreetmap.org/wiki/HOT_activation) နှင့် ပိုမိုကြာမြင့်စွာရပ်တည်မည့် [လူသားချင်းစာနာ ထောက်ထားမှုဆိုင်ရာ စီမံကိန်းများ](http://hot.openstreetmap.org/projects) အတွက် မြေပုံထုတ်ခြင်းလုပ်ငန်းများ ပါဝင်သည်။   
 
-HOT Tasking Manager ကိုအသုံးပြုရန်အလို့ငှာ သင်သည် အသုံးပြုသူအမည် (Username) နှင့် စကားဝှက် (Password) တို့ဖြင့် OSM တွင် အမည်စာရင်းသွင်းရန်လိုပါသည်။ အသေးစိတ်ညွှန်ကြားချက် များကိုထပ်မံသိရှိလိုပါက[Tasking Manager Tutorial](http://learnosm.org/en/coordination/tasking-manager/) ကို ဖတ်ပါ။   
+HOT Tasking Manager ကိုအသုံးပြုရန်အလို့ငှာ သင်သည် အသုံးပြုသူအမည် (Username) နှင့် စကားဝှက် (Password) တို့ဖြင့် OSM တွင် အမည်စာရင်းသွင်းရန်လိုပါသည်။ အသေးစိတ်ညွှန်ကြားချက် များကိုထပ်မံသိရှိလိုပါက[Tasking Manager Tutorial](http://learnosm.org/my/coordination/tasking-manager/) ကို ဖတ်ပါ။   
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### ပြင်ဆင်တည်းဖြတ်သည့်ကိရိယာများ 
 
-[iD](http://learnosm.org/en/beginner/id-editor/) - ဤကိရိယာသည် အသုံးပြုသူများအတွက်အလွန်အဆင်ပြေစေသည့် အဆင်အပြင်တစ်ခုနှင်အတူ [Mapbox](www.mapbox.com) ကဖန်တီးထားသည့် ဝက်ဘ်ဆိုက်အခြေပြု တည်းဖြတ်သည့်ကိရိယာဖြစ်သည်။ စတင်ရန်အတွက် အကောင်းဆုံးသောတည်းဖြတ်ကိရိယာအဖြစ် ယေဘုယျအားဖြင့်ယူဆထားကြသည်။ သင်သည် အသုံးပြုပုံကိုရင်းနှီးကျွမ်းဝင်လာစေရန် ဤ [interactive iD editor tutorial](http://ideditor.com/) ကိုစတင်နိုင်ပါသည်။   
+[iD](http://learnosm.org/my/beginner/id-editor/) - ဤကိရိယာသည် အသုံးပြုသူများအတွက်အလွန်အဆင်ပြေစေသည့် အဆင်အပြင်တစ်ခုနှင်အတူ [Mapbox](www.mapbox.com) ကဖန်တီးထားသည့် ဝက်ဘ်ဆိုက်အခြေပြု တည်းဖြတ်သည့်ကိရိယာဖြစ်သည်။ စတင်ရန်အတွက် အကောင်းဆုံးသောတည်းဖြတ်ကိရိယာအဖြစ် ယေဘုယျအားဖြင့်ယူဆထားကြသည်။ သင်သည် အသုံးပြုပုံကိုရင်းနှီးကျွမ်းဝင်လာစေရန် ဤ [interactive iD editor tutorial](http://ideditor.com/) ကိုစတင်နိုင်ပါသည်။   
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
@@ -58,7 +58,7 @@ HOT Tasking Manager ကိုအသုံးပြုရန်အလို့င
 
 #### သင်ကြားရေးအရင်းအမြစ်များ
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/)- သည် အကျယ်ပြန့်ဆုံးသော လမ်းညွှန်စာအုပ်များအနက် တစ်ခုဖြစ်သည်။   
+[LearnOSM's Remote Mapping Guide](http://learnosm.org/my/coordination/remote/)- သည် အကျယ်ပြန့်ဆုံးသော လမ်းညွှန်စာအုပ်များအနက် တစ်ခုဖြစ်သည်။   
 
 [MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)-  တွင် သင်လိုက်၍လုပ်ဆောင်နိုင်ရန် ရပ်တန့်နိုင်သောဗီဒီယိုများပါဝင်သည်။  
 
