@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Introductie
-permalink: /n_NLl/beginner/introduction/
+permalink: /nl_NL/beginner/introduction/
 lang: nl_NL
 category: beginner
 ---
