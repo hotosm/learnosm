@@ -47,7 +47,7 @@ Per consultare velocemente il glossario, utilizza la funzione di ricerca del bro
 
 *[Layer](http://wiki.openstreetmap.org/wiki/Layer)**: (Livello) una sorgente dati mostrata su una mappa scorrevole. 
 
-**NGO : Non Govermental Organisation / Agency** : (Organizzazione non governativa) una organizzazione senza fini di lucro di cittadini organizzati su scala locale, nazionale o internazionale.  
+**NGO : Non Govermental Organisation / Agency** : (Organizzazione non governativa) organizzazione senza fini di lucro composta da cittadini organizzata su scala locale, nazionale o internazionale.  
 
 **[Nodo](http://wiki.openstreetmap.org/wiki/Node)**: un nodo è un oggetto fondamentale del modello dati di OpenStreetMap. E' un singolo punto nello spazio, definito da latitudine,longitudine e identificatore. I nodi sono usati per definire caratteristiche puntiformi, ma spesso sono utilizzati per definire la forma o tracciato di una way. 
 
@@ -65,7 +65,7 @@ Per consultare velocemente il glossario, utilizza la funzione di ricerca del bro
 
 **Stylesheet** : (Foglio di stile) in molti casi specifica un file di testo che è usato per determinare quali oggetti (quali strade ?) devono essere mostrate e come (con che colore? La larghezza?) sulla mappa.
 
-**Tag**:  (Etichetta) Le etichete descrivono un punto, una linea o dei poligoni. Ogni tag contiene una chiave e un valore (in OSM scritte come 'key=value'): ad esempio highway=residential e name=Woodland Avenue. Inizialmente menzionata nella  [sezione iD](/it/beginner/id-editor/#basic-editing-with-id) . Punti, linne o poligoni generalmente hanno associate più di una tag. Talvolta scegliere la giusta tag può essere fuorviante:  [Taginfo](https://taginfo.openstreetmap.org/) aiuta mostrando statistiche su quali tag sono nel database, quante persone usano queste tag, dove sono utilizzate e così via. Prende anche informazioni sull tag dalla wiki e atre fonti.
+**Tag**:  (Etichetta) Le etichette descrivono un punto, una linea o dei poligoni. Ogni tag contiene una chiave e un valore (in OSM scritte come 'key=value'): ad esempio highway=residential e name=Woodland Avenue. Inizialmente menzionata nella  [sezione iD](/it/beginner/id-editor/#basic-editing-with-id) . Punti, linee o poligoni generalmente hanno associate più di una tag. Talvolta scegliere la giusta tag può essere fuorviante:  [Taginfo](https://taginfo.openstreetmap.org/) aiuta mostrando statistiche su quali tag sono nel database, quante persone usano queste tag, dove sono utilizzate e così via. Prende anche informazioni sull tag dalla wiki e da atre fonti.
 
 **TIGER** : Un database statale statunitense che è stato importato in OSM, nel 2007. Si tratta della fonte della maggior parte dei dati sugli Stati Uniti presenti in OSM.
 

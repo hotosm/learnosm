@@ -62,8 +62,8 @@ Installa JOSM
   menù di Start nella parte bassa a sinistra del tuo schermo e facendo clic
   sul programma JOSM.
 - Potrebbe uscire una finestra pop-up che ti richiede se vuoi aggiornare
-  il software. Non dovrebbe essere necessario aggiornarlo dal momento che è nuovo.  Premi il
-  bottone “Cancel”. Se non vuoi più vedere questo
+  il software. Non hai bisogno di aggiornare perchè è nuovo. Premi il
+  bottone che dice "Cancel". Se non vuoi più vedere questo
   messaggio, seleziona la casella in fondo alla finestra prima di premere “Cancel”.
 - Alla partenza di JOSM, dovresti vedere una finestra simile:
 
@@ -111,6 +111,9 @@ Impara il disegno di base con JOSM
 - Dovresti vedere una mappa d’esempio come nella figura:
 
   ![Sample file][]
+
+- Userai questi dati per provare diverse tecniche di editing.
+  *Tuttavia questi dati fittizi non dovranno mai essere caricati sul database*
 
 ### Operazioni di base
 
@@ -240,6 +243,21 @@ Disegna la tua mappa
   gli oggetti disegnati selezionando le caratteristiche dal menù “Preimpostazioni”.
 - Quando avrai finito, dovresti avere la tua mappa, simile alla
   mappa di esempio aperta con sample.osm.
+
+## Rimuovi lo strato dei dati di esempio
+
+Una volta che hai confidenza con queste tecniche di editing di base, potresti voler
+spostare la tua attenzione per mappare oggetti reali. 
+
+*è molto importante che tu rimuova prima lo strato con i dati di esempio. 
+Questi sono dati fittizi e non devono essere caricati nel database 
+OpenStreetMap (le nuove release di JOSM non lo fanno).*
+
+Nella finestra Livelli in alto a destra dello schermo, seleziona il livello sample.osm 
+Poi clicca sull'icona del cestino nello spigolo in basso a destra della finestra. 
+Oppure puoi scegliere "cancella" dal menù del livello. 
+Per poter continuare a mappare devi innanzitutto scaricare dei dati reali. 
+Questo ti sarà spiegato nel prossimo capitolo.
 
 Conclusioni
 -------

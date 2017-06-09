@@ -7,7 +7,7 @@ category: coordination
 ---
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot_theme/logo.png)
 
-#HOT Remote Response Guide  
+# HOT Remote Response Guide  
 
 
 This guide is currently not available. It is being translated. Please refer to it in:  
