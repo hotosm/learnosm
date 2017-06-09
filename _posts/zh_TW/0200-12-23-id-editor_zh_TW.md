@@ -1,16 +1,16 @@
 ---
 layout: doc
 title: iD 編輯器
-permalink: /zh-tw/beginner/id-editor/
-lang: zh-tw
+permalink: /zh_TW/beginner/id-editor/
+lang: zh_TW
 category: beginner
 ---
 
 iD 編輯器
 =============
 
-> 此一指南可供下載： [beginner_id-editor_zh-tw.odt](/files/beginner_id-editor_zh-tw.odt) 或 [beginner_id-editor_zh-tw.pdf](/files/beginner_id-editor_zh-tw.pdf)  
-> 審閲於 2016-02-08  
+> 此一指南可供下載： [beginner_id-editor_zh_TW.odt](/files/beginner_id-editor_zh_TW.odt) 或 [beginner_id-editor_zh_TW.pdf](/files/beginner_id-editor_zh_TW.pdf)  
+> Reviewed 2016-03-30  
 
 - TOC
 {:toc}
@@ -167,7 +167,9 @@ iD vs JOSM
 - 當你的網路連線不穩或是處於離線狀態
 - 當你使用特定的標籤規則 (或是客製化的預設組合)
 
-[^fieldpaper]: 關於 Field Papers，手冊中有 [section of LearnOSM](/zh-tw/mobile-mapping/field-papers/) 的章節。
+[^fieldpaper]：關於 Field Papers，手冊中有 [section of LearnOSM](/en/mobile-mapping/field-papers/) 的章節。
+
+
 
 
 [image1]: /images/beginner/id-editor_image1.png 

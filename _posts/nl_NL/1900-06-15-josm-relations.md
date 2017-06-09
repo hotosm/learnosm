@@ -1,18 +1,18 @@
 ---
 layout: doc
 title: JOSM Relaties
-permalink: /nl/josm/josm-relations/
-lang: nl
+permalink: /nl_NL/josm/josm-relations/
+lang: nl_NL
 category: josm
 ---
 
 Relaties
 ==========
 
-> Deze handleiding kan gedownload worden als [josm_relations_nl.odt](/files/josm_relations_nl.odt) of [josm_relations_nl.pdf](/files/josm_relations_nl.pdf)  
+> Deze handleiding kan gedownload worden als [josm_relations_nl_NL.odt](/files/josm_relations_nl_NL.odt) of [josm_relations_nl_NL.pdf](/files/josm_relations_nl_NL.pdf)  
 > Bijgewerkt 20-09-2015  
 
-In de [Handleiding voor beginners](/nl/beginner) legden we uit dat er drie typen objecten zijn die in OpenStreetMap kunnen worden getekend - punten (knopen), lijnen (wegen), en polygonen (gesloten wegen). Lijnen bevatten ontelbare punten en de lijn zelf draagt de attributen die definiëren wat het weergeeft. Polygonen zijn hetzelfde als lijnen, met uitzondering van het feit dat de lijn moet eindigen waar hij begint om een vorm te kunnen vormen.  
+In de [Handleiding voor beginners](/nl_NL/beginner) legden we uit dat er drie typen objecten zijn die in OpenStreetMap kunnen worden getekend - punten (knopen), lijnen (wegen), en polygonen (gesloten wegen). Lijnen bevatten ontelbare punten en de lijn zelf draagt de attributen die definiëren wat het weergeeft. Polygonen zijn hetzelfde als lijnen, met uitzondering van het feit dat de lijn moet eindigen waar hij begint om een vorm te kunnen vormen.  
 
 In feite hebben we tegen u gelogen, omdat er nog een type object in OpenStreetMap bestaat, genaamd relaties. Op dezelfde manier waarop een lijn bestaat uit andere
 punten, bevat een relatie een groep andere objecten, wat punten, lijnen, of polygonen mogen zijn. Als u uw vaardigheden voor het bewerken wilt uitbreiden, dan is het belangrijk te begrijpen en te weten hoe relaties op de juiste manier moeten worden bewerkt.  

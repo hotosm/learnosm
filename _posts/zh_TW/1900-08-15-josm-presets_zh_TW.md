@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: JOSM 預設組合
-permalink: /zh-tw/josm/josm-presets/
-lang: zh-tw
+permalink: /zh_TW/josm/josm-presets/
+lang: zh_TW
 category: josm
 ---
 
 JOSM 預設組合
 ============
 
-> 這份指南可在  [josm-presets_zh-tw.odt](/files/josm-presets_zh-tw.odt) 或是 [josm-presets_zh-tw.pdf](/files/josm-presets_zh-tw.pdf) 下載  
+> 這份指南可在  [josm-presets_zh_TW.odt](/files/josm-presets_zh_TW.odt) 或是 [josm-presets_zh_TW.pdf](/files/josm-presets_zh_TW.pdf) 下載  
 > 2016-09-17 審核  
 
 如果你已經使用 JOSM 一段時間的話，你現在應該懂一點標籤和預設組合。每一個物件由兩個東西定議－第一個是幾何 (無論是一個點、線段或是形狀，以及其位置)，第二個就是標籤所定義的屬性。  

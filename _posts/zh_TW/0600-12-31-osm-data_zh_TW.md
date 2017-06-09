@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /zh-tw/osm-data/
-lang: zh-tw
+permalink: /zh_TW/osm-data/
+lang: zh_TW
 title: OSM Data
 category: osm-data
 cover: yes

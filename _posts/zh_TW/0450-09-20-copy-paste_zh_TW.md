@@ -1,15 +1,15 @@
 ---
 layout: doc
-title: iD editor - 複製、貼上、旋轉
-permalink: /zh-tw/hot-tips/copy-paste/
-lang: zh-tw
+title: iD 編輯器 - 複製、貼上、旋轉
+permalink: /zh_TW/hot-tips/copy-paste/
+lang: zh_TW
 category: hot-tips
 ---
 
 iD editor - 複製、貼上、旋轉
 ============
 
-![copy-paste]{: width="520px"}
+![copy-paste][]
 
 > 此圖像 ![keymon]{: height="24px"} 會顯示您使用了滑鼠上的哪些按鈕或滾輪，以及按下了哪些鍵盤按鈕。  
 

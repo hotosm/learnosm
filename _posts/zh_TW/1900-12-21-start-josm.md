@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: 開始使用 JOSM 編輯
-permalink: /zh-tw/josm/start-josm/
-lang: zh-tw
+permalink: /zh_TW/josm/start-josm/
+lang: zh_TW
 category: josm
 published: true
 ---
@@ -10,7 +10,7 @@ published: true
 開始使用 JOSM 編輯器
 =============================  
 
-> 這份文件可以到 [josm_start-josm_zh-tw.odt](/files/josm_start-josm_zh-tw.odt) 或 [josm_start-josm_zh-tw.pdf](/files/josm_start-josm_zh-tw.pdf) 下載  
+> 這份文件可以到 [josm_start-josm_zh_TW.odt](/files/josm_start-josm_zh_TW.odt) 或 [josm_start-josm_zh_TW.pdf](/files/josm_start-josm_zh_TW.pdf) 下載  
 > 於 2015-07-12 審閲  
 
 怎麼下載和安裝 JOSM，Java 開放街圖編輯器，改一些設定，

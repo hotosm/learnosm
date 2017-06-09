@@ -247,10 +247,10 @@
 	   "url":""}
 	]
 },{
-	"lang":"zh-tw",
+	"lang":"zh_TW",
 		"chapters":[
 	  {% for post in site.posts %}
-	  {% if post.lang == 'zh-tw' %}
+	  {% if post.lang == 'zh_TW' %}
 	  {% unless post.nosearch %}
 	      {% include post.json %},
 	  {% endunless %}

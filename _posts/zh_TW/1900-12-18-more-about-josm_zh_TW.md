@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: JOSM 修改流程
-permalink: /zh-tw/josm/more-about-josm/
-lang: zh-tw
+permalink: /zh_TW/josm/more-about-josm/
+lang: zh_TW
 category: josm
 ---
 
 JOSM 修改流程
 ========================
 
-> 這份指南可以到 [josm_more-about-josm_zh-tw.odt](/files/josm_more-about-josm_zh-tw.odt) 或是 [josm_more-about-josm_zh-tw.pdf](/files/josm_more-about-josm_zh-tw.pdf) 下載  
+> 這份指南可以到 [josm_more-about-josm_zh_TW.odt](/files/josm_more-about-josm_zh_TW.odt) 或是 [josm_more-about-josm_zh_TW.pdf](/files/josm_more-about-josm_zh_TW.pdf) 下載  
 > Reviewed 2015-07-12  
 
 在前面的章節，

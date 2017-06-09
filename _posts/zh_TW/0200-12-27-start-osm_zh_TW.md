@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: OpenStreetMap.org
-permalink: /zh-tw/beginner/start-osm/
-lang: zh-tw
+permalink: /zh_TW/beginner/start-osm/
+lang: zh_TW
 category: beginner
 ---
 
 開始使用 OpenStreetMap.org
 ====================================
 
-> 此指南能以 [beginner_start-osm_zh-tw.odt](/files/beginner_start-osm_zh-tw.odt) or [beginner_start-osm_zh-tw.pdf](/files/beginner_start-osm_zh-tw.pdf) 下載  
+> 此指南能以 [beginner_start-osm_zh_TW.odt](/files/beginner_start-osm_zh_TW.odt) or [beginner_start-osm_zh_TW.pdf](/files/beginner_start-osm_zh_TW.pdf) 下載  
 > 2015-07-12 審閱  
 
 在這節我們會一步一步學會怎麼瀏覽
@@ -170,7 +170,7 @@ category: beginner
     開放街圖的資料庫裡。
 
 
-iD 編輯器是個簡單編輯開放街圖的好方法，你可以在 [iD 編輯器指南](/zh-tw/beginner/id-editor/) 找到更多關於它的使用。然而在 [JOSM 章節](/zh-tw/josm/)
+iD 編輯器是個簡單編輯開放街圖的好方法，你可以在 [iD 編輯器指南](/zh_TW/beginner/id-editor/) 找到更多關於它的使用。然而在 [JOSM 章節](/zh_TW/josm/)
 先來學功能強大，單機版的 JSOM。
 你仍可以繼續使用 iD 編輯器操作。一旦你編輯開放街圖的經驗增多後，
 再來決定那個編輯器最適合你。

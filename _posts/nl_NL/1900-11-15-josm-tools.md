@@ -1,18 +1,18 @@
 ---
 layout: doc
 title: Gereedschappen van JOSM
-permalink: /nl/josm/josm-tools/
-lang: nl
+permalink: /nl_NL/josm/josm-tools/
+lang: nl_NL
 category: josm
 ---
 
 Gereedschappen om mee te bewerken in JOSM
 ==================
 
-> Deze handleiding kan worden gedownload als [josm_josm-tools_nl.odt](/files/josm_josm-tools_nl.odt) of [josm_josm-tools_nl.pdf](/files/josm_josm-tools_nl.pdf)  
+> Deze handleiding kan worden gedownload als [josm_josm-tools_nl_NL.odt](/files/josm_josm-tools_nl_NL.odt) of [josm_josm-tools_nl_NL.pdf](/files/josm_josm-tools_nl_NL.pdf)  
 > Bijgewerkt op 14-07-2015  
 
-In de [gids Starten met JOSM](/nl/josm/start-josm/) behandelden we de basisprincipes voor het tekenen in
+In de [gids Starten met JOSM](/nl_NL/josm/start-josm/) behandelden we de basisprincipes voor het tekenen in
 JOSM, maar er zijn veel gereedschappen en technieken die niet werden gedemonstreerd.
 
 Hier zullen we kijken naar enkele van de beschikbare basisgereedschappen en -technieken

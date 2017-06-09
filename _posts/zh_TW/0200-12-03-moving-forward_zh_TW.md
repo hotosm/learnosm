@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: 閱讀更多
-permalink: /zh-tw/beginner/moving-forward/
-lang: zh-tw
+permalink: /zh_TW/beginner/moving-forward/
+lang: zh_TW
 category: beginner
 ---
 
 閱讀更多
 ===============
 
-> 此指南能以 [beginner_moving-forward_zh-tw.odt](/files/beginner_moving-forward_zh-tw.odt) or [beginner_moving-forward_zh-tw.pdf](/files/beginner_moving-forward_zh-tw.pdf) 下載  
+> 此指南能以 [beginner_moving-forward_zh_TW.odt](/files/beginner_moving-forward_zh_TW.odt) or [beginner_moving-forward_zh_TW.pdf](/files/beginner_moving-forward_zh_TW.pdf) 下載  
 > 2015-07-12 審閱  
 
 如果你讀到這一邊，恭喜你了！你應該很明白怎麼畫開放街圖了。還有什麼能在開放街圖上做的事情嗎？你要怎麼學習更多事情？你要怎麼維繫與其他社群成員的關係呢？  
@@ -19,9 +19,9 @@ learnOSM 的其他章節
 
 在 iD 編輯器章節的最後你聽說了 iD 和 JOSM 之間的差別，有[一個深入介紹 JOSM 的章節]能讓你學到發揮此編輯器的價值所需的細節。  
 
-目前為止，所有我們加到地圖上的編輯多出於背景圖像，但你能在走路或駕駛時收集到大量的資訊。[行動繪圖章節](/zh-tw/mobile-mapping/)解釋了如何用不同定位裝置或特殊設計的列印紙來收集資訊，也評論了一些開放街圖相關行動裝置應用程式。  
+目前為止，所有我們加到地圖上的編輯多出於背景圖像，但你能在走路或駕駛時收集到大量的資訊。[行動繪圖章節](/zh_TW/mobile-mapping/)解釋了如何用不同定位裝置或特殊設計的列印紙來收集資訊，也評論了一些開放街圖相關行動裝置應用程式。  
 
-開放街圖是大家合作努力的成果，我們希望你會是其中一員。其中一些成果由致力於人道救濟的[開放街圖人道主義團隊（Humanitarian OSM Team）](http://hotosm.org)支持。如果你想在尼泊爾地震之類的災難時刻幫助 HOT，請看[協作章節](/zh-tw/coordination/)。此文介紹了可以確保人們在相對較小的區域內一同工作而保持一致的工具，也包含一些你加入時會常遇到的一些典型任務的指引。  
+開放街圖是大家合作努力的成果，我們希望你會是其中一員。其中一些成果由致力於人道救濟的[開放街圖人道主義團隊（Humanitarian OSM Team）](http://hotosm.org)支持。如果你想在尼泊爾地震之類的災難時刻幫助 HOT，請看[協作章節](/zh_TW/coordination/)。此文介紹了可以確保人們在相對較小的區域內一同工作而保持一致的工具，也包含一些你加入時會常遇到的一些典型任務的指引。  
 
 
 學習更多

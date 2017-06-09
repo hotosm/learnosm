@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: 詞彙表 
-permalink: /zh-tw/beginner/glossary/
-lang: zh-tw
+permalink: /zh_TW/beginner/glossary/
+lang: zh_TW
 category: beginner
 ---
 
@@ -33,13 +33,13 @@ category: beginner
 
 **截取** : [OSM Data Overview](/en/osm-data/data-overview/) 特定區域(如省/州、國家或地區)的大量 OSM 資料。
 
-**[Field Papers](/zh-tw/mobile-mapping/field-papers/)**: 是一款基於網路的工具，可以輕鬆創建世界上任何地點的可列印地圖集，你可以列印這些地圖並增加筆記。詳情請參見[http://fieldpapers.org/](http://fieldpapers.org/) 。 
+**[Field Papers](/zh_TW/mobile-mapping/field-papers/)**: 是一款基於網路的工具，可以輕鬆創建世界上任何地點的可列印地圖集，你可以列印這些地圖並增加筆記。詳情請參見[http://fieldpapers.org/](http://fieldpapers.org/) 。 
 
 **FOD：基本行動資料庫(Fundamental Operational Database)**；關於動員的資料，像是醫療機構、學校、飲水設施、洪水範圍、建築損壞狀況等。
 
 **GDACS：全球災難預警和協調系統 (Global Disaster Alert and Coordination System)**；GDACS 是聯合國架構下的合作架構，包括災難管理和全球災難資訊系統，目標是在重大災難第一階段時，填補和協調資訊落差。GDACS 提供網路基礎的災難資訊系統的即時連線能力，以及其他相關的協調工具。
 
-**[iD 編輯器](/zh-tw/beginner/id-editor/)** - 由Mapbox 設計，基於網路，對新手友善的開放街圖編輯器。 
+**[iD 編輯器](/zh_TW/beginner/id-editor/)** - 由Mapbox 設計，基於網路，對新手友善的開放街圖編輯器。 
 
 **IDP：國內流離失所者 (Internally Displaced Person)**；一位被迫要離開家園的人，但仍舊在自己國家的國境內。
 
@@ -65,7 +65,7 @@ category: beginner
 
 **樣式表** : 多數情況下指用於決定所需顯示圖徵(如哪些道路)以及圖中要素顯示方式(道路顏色、線寬)的檔案文件。
 
-**標籤**: 標籤描述了點線面等形狀。每個標籤由一個鍵值對構成，在OSM中記作“鍵=值”。例如highway=residential和name=Woodland Avenue。在本站教學中首次出現在[iD編輯器部分](/zh-tw/beginner/id-editor/#basic-editing-with-id)。點線面通常有不止一個標籤。有時選擇恰當標籤是個令人困惑的事。 [Taginfo](https://taginfo.openstreetmap.org/)通過即時資料庫中的標籤統計資訊、標籤使用人數、標籤使用地點等幫助你選擇合適標籤。該網站還提供來自wiki或其他地方的標籤資訊。
+**標籤**: 標籤描述了點線面等形狀。每個標籤由一個鍵值對構成，在OSM中記作“鍵=值”。例如highway=residential和name=Woodland Avenue。在本站教學中首次出現在[iD編輯器部分](/zh_TW/beginner/id-editor/#basic-editing-with-id)。點線面通常有不止一個標籤。有時選擇恰當標籤是個令人困惑的事。 [Taginfo](https://taginfo.openstreetmap.org/)通過即時資料庫中的標籤統計資訊、標籤使用人數、標籤使用地點等幫助你選擇合適標籤。該網站還提供來自wiki或其他地方的標籤資訊。
 
 **TIGER** ：美國統計局於2007年導入OSM的數據源。這是OSM在美國地區最主要的資料來源。
 

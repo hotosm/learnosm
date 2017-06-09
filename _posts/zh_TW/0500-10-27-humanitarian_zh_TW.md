@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: 人道繪圖
-permalink: /zh-tw/coordination/humanitarian/
-lang: zh-tw
+permalink: /zh_TW/coordination/humanitarian/
+lang: zh_TW
 category: coordination
 ---
 
@@ -10,7 +10,7 @@ category: coordination
 
 ![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
 
-> 這份指南可以在 [humanitarian_zh-tw.odt](/files/humanitarian_zh-tw.odt) 或是 [humanitarian_zh-tw.pdf](/files/humanitarian_zh-tw.pdf) 下載  
+> 這份指南可以在 [humanitarian_zh_TW.odt](/files/humanitarian_zh_TW.odt) 或是 [humanitarian_zh_TW.pdf](/files/humanitarian_zh_TW.pdf) 下載  
 > Reviewed 2015-09-18
 
 謝謝你志願幫忙在地社群和援助組織，提供他們應對災難所需要的即時地圖。  

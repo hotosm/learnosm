@@ -249,8 +249,7 @@ translations:
     getstarted: "入门"
     returntotop: "Return to top of page"
     quickaccess: "Quick access"
-  zh-tw:
-    language: "繁體中文"
+  zh_TW:
     tagline: "一步一腳印學習開放街圖"
     contribute: "幫忙改進我們的指南"
     trainingspan: "你是工作坊活動組織者嗎？"
@@ -258,5 +257,6 @@ translations:
     feedbackspan: "這個章節有用嗎？"
     feedback: "讓我們了解以便我們改進這個指南！"
     getstarted: "入門"
-    returntotop: "回到頁面頂端"
+    language: "繁體中文"
     quickaccess: "快速連結"
+    returntotop: "回到頁面頂端"

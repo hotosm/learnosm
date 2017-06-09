@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: 編輯田野資料
-permalink: /zh-tw/josm/editing-with-josm/
-lang: zh-tw
+permalink: /zh_TW/josm/editing-with-josm/
+lang: zh_TW
 category: josm
 ---
 
 編輯田野資料
 ==================
 
-> 這篇指南有[josm_editing-with-josm_zh-tw.odt](/files/josm_editing-with-josm_zh-tw.odt) 和[josm_editing-with-josm_zh-tw.pdf](/files/josm_editing-with-josm_zh-tw.pdf) 兩種格式可供下載。  
+> 這篇指南有[josm_editing-with-josm_zh_TW.odt](/files/josm_editing-with-josm_zh_TW.odt) 和[josm_editing-with-josm_zh_TW.pdf](/files/josm_editing-with-josm_zh_TW.pdf) 兩種格式可供下載。  
 > Reviewed 2015-07-13  
 
 現在我們已經講完要如何在開放街圖繪製建築。
