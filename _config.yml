@@ -195,7 +195,6 @@ translations:
     returntotop: "Return to top of page"
     quickaccess: "Quick access"
   ru:
-    language: "Русский"
     tagline: "Изучаем OpenStreetMap шаг за шагом"
     contribute: "Помогите улучшить наши руководства"
     trainingspan: "Вы организатор?"
@@ -203,8 +202,9 @@ translations:
     feedbackspan: "Был ли данный раздел полезным?"
     feedback: "Дайте нам знать и помогите улучшить руководства!"
     getstarted: "Начало"
-    returntotop: "В начало страницы"
+    language: "Русский"
     quickaccess: "Быстрый доступ"
+    returntotop: "В начало страницы"
   sq:
     tagline: "Mësoni OpenStreetMap hap pas hapi"
     contribute: "Na ndihmoni të përmirësojmë guidën tonë"
