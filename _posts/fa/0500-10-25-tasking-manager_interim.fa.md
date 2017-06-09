@@ -1,18 +1,19 @@
 ---
 layout: doc-rtl
-permalink: /fa/coordination/remote-tracing
+permalink: /fa/coordination/tasking-manager
 lang: fa
-title: Remote Tracing
+title: Tasking Manager
 category: coordination
 
 ---
 
-Remote Tracing   
+Tasking Manager   
 =================  
 
 هنما فغلاْ در دسترس نیست. در حال ترجمه می‌باشد. لطفاْ:  
-[English](/en/coordination/remote-tracing),  
-[Nederlands](/nl/coordination/remote-tracing),  
+[English](/en/coordination/tasking-manager),  
+[Español](/es/coordination/tasking-manager),  
+[Nederlands](/nl_NL/coordination/tasking-manager),  
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 

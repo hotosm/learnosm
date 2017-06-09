@@ -1,21 +1,20 @@
 ---
 layout: doc-rtl
-permalink: /fa/beginner/id-editor/
+permalink: /fa/beginner/glossary/
 lang: fa
-title: iD editor
+title: Glossary
 category: beginner
 
 ---
 
-iD editor   
+Glossary   
 =================  
 
 هنما فغلاْ در دسترس نیست. در حال ترجمه می‌باشد. لطفاْ:  
-[English](/en/beginner/id-editor/),  
-[Deutsch](/de/beginner/id-editor/),  
-[Español](/es/beginner/id-editor/),  
-[Nederlands](/nl/beginner/id-editor/),  
-[简体中文](/zx/beginner/id-editor/).  
+[English](/en/beginner/glossary/),  
+[Deutsch](/de/beginner/glossary/),  
+[Español](/es/beginner/glossary/),  
+[Nederlands](/nl_NL/beginner/glossary/),  
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 
