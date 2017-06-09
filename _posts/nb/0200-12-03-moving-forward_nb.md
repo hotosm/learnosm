@@ -12,9 +12,6 @@ Videre lesing
 > Denne veiledningen kan lastes ned som [beginner_moving-forward_nb.odt](/files/beginner_moving-forward_nb.odt) eller [beginner_moving-forward_nb.pdf](/files/beginner_moving-forward_nb.pdf)  
 > Reviewed 2015-07-12  
 
-- TOC
-{:toc}
-
 Hvis du har kommet deg så langt, gratulerer! Du burde nå en good oversikt over hvordan man lager kart med OpenStreetMap. Hva annet kan du gjøre med OSM? Hvordan kan du lære mere? Hvordan kan du holde deg i kontakt med kart-fellesskapet?  
 
 Andre deler av LearnOSM

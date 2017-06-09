@@ -40,7 +40,7 @@ Naviger i kartet
     på det med venstre musetast, hold knappen nede og
     dra musepekeren rundt. (Se illustrasjon under)
 
-    ![Mouse navigation][]
+![Mouse navigation][]
 
 - Hvis du har en musepeker med scrollehjul, kan du zoome inn og ut av kartet
     ved å snurre på hjulet. Hvis du ikke har scrollehjul, bruker du +
@@ -53,7 +53,7 @@ Naviger i kartet
     stedet som ser ut som det du er på jakt etter. Kartet vil 
     automatisk flytte seg til stedet du har valgt.
 
-    ![Search][]
+![Search][]
    
 
 Se forskjellige kartstiler
@@ -66,7 +66,7 @@ som finnes på OSMs hjemmeside.
 
 - Klikk på Layers knappen på høyre side av kartet
 
-    ![Layers button][]
+![Layers button][]
 
 - Klikk på de forskjellige alternative stilene for kartet. Legg merke til hvordan kartet
     endrer seg med hver enkelt. Transportkartet, for eksempel, vektlegger
@@ -74,7 +74,7 @@ som finnes på OSMs hjemmeside.
     Alle dataene som kreves for å gjøre dette ligger i OSMs
     database
 
-    ![Transport map][] 
+![Transport map][] 
 
 Lag en OpenStreetMap konto
 -------------------------------
@@ -86,7 +86,7 @@ Lag en OpenStreetMap konto
     i høyre hjørne av siden.
 - Du burde få opp en ny side som ser slik ut:
 
-    ![Registering an OpenStreetMap account][]
+![Registering an OpenStreetMap account][]
 
 - Det er fem bokser på denne sidne som du må fylle ut for å
     registrere en konto hos OSM.
@@ -121,7 +121,7 @@ Lag en OpenStreetMap konto
     se ut som bildet under. Klikk på lenken som ser slik ut
     under:
 
-    ![Confirming your OpenStreetMap account][]
+![Confirming your OpenStreetMap account][]
 
 - Et nytt vindu vil åpne seg. Hvis alt gikk bra, vil du nå
     ha en OSM konto!
@@ -144,17 +144,17 @@ Legg til dine første punkter
     en drop down meny.
 - Trykk på "Rediger med iD (redigering i nettleseren)".
 
-    ![Click edit][]
+![Click edit][]
 
 - Den web-baserte editoren, kalt iD, åpnes. Den vil se omtrent slik ut.
 
-    ![iD editor][]
+![iD editor][]
 
 - Du kan legge til et punkt på kartet ved å trykke på knappen "Punkt" på
     toppen av vinduet. Trykk deretter på kartet, der du ønsker å legge til et nytt
     punkt.
 
-    ![Point button][]    
+![Point button][]    
 
 - Velg fra menyen til venstre, hva slags egenskaptype det er du 
     legger til på kartet. Du kan så fylle ut det tilhørende skjemaet, med egenskapens
@@ -163,7 +163,7 @@ Legg til dine første punkter
     rediger, kan du foretrekke å eksperimentere med redigeringsprogrammet. Ikke lagre endringene dine
     med mindre du er sikker på at de er riktige.
 
-    ![Save button][]    
+![Save button][]    
 
 - Hvis du bestemmer deg for å trykker "lagre", vil du bli spurt om en beskrivelse av endringene du gjorde.
     Trykk deretter "Lagre" en gang til, og dine endringer vil bli lagret til
