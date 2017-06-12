@@ -32,8 +32,8 @@ iD menu Help - altijd beschikbaar als u aan het bewerken bent, wat ook een optio
 
 Indien u nieuw bent bij OpenStreetMap zullen de volgende modules van ons gedeelte voor beginners nuttig voor u zijn;  
 
--  [Introductie](/nl/beginner/introduction/)  
--  [OpenStreetMap.org](/nl/beginner/start-osm/)
+-  [Introductie](/nl_NL/beginner/introduction/)  
+-  [OpenStreetMap.org](/nl_NL/beginner/start-osm/)
 
 
 

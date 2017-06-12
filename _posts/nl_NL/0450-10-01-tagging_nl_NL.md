@@ -42,7 +42,7 @@ Wanneer u exact weet wat het gebouw is, dan zou u een meer gedetailleerde tag ge
   **building   school**  
 of een van de vele andere tags. Voor meer gedetailleerde informatie over het taggen van gebouwen, zie <https://wiki.openstreetmap.org/wiki/Buildings>  
 
-Bekijk het [gedeelte Highways van deze HOT-tips](/nl/hot-tips/highways/) voor meer informatie over het taggen van highways.  
+Bekijk het [gedeelte Highways van deze HOT-tips](/nl_NL/hot-tips/highways/) voor meer informatie over het taggen van highways.  
 
 ### Relaties - zoals gebouwen met een binnenplaats of eilanden in een rivier ###
 
@@ -50,7 +50,7 @@ Sommige objecten hebben hun tags op een **Relatie** en niet op het object zelf. 
 
 Voor meer informatie over relaties (**geen onderwerp voor een beginner**) bekijk;  
 
-[LearnOSM - JOSM - Relaties](/nl/josm/josm-relations/) wat relaties uitlegt, maar een andere bewerker voor OSM gebruikt, of  
+[LearnOSM - JOSM - Relaties](/nl_NL/josm/josm-relations/) wat relaties uitlegt, maar een andere bewerker voor OSM gebruikt, of  
 <https://wiki.openstreetmap.org/wiki/Relation>
 
 Zie ook  

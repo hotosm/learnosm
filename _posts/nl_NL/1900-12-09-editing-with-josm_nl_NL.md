@@ -13,7 +13,7 @@ Gegevens uit het veld bewerken
 > Bijgewerkt op 13-07-2015  
 
 We hebben nu alle bouwblokken voor het maken van kaarten met OpenStreetMap behandeld.
-In het gedeelte [Mapping with a Smartphone, GPS or Paper](/nl/mobile-mapping/) kunt u zien hoe u mobiele gereedschappen gebruikt om een gebied te verkennen en vast te leggen.  
+In het gedeelte [Mapping with a Smartphone, GPS or Paper](/nl_NL/mobile-mapping/) kunt u zien hoe u mobiele gereedschappen gebruikt om een gebied te verkennen en vast te leggen.  
 
 In dit hoofdstuk keren we nog een keer terug naar JOSM en kijken we naar een aantal nieuwe
 concepten die we tot op heden nog niet behandeld hebben.
@@ -78,7 +78,7 @@ worden vaak "basislagen" genoemd. De laag met gegevens van OSM is de laag waar u
 
 GPS-gegevens en Veldformulieren gebruiken
 -------------------------------
-In de hoofdstukken [Mapping with a Smartphone, GPS or Paper](/nl/mobile-mapping/) zagen we hoe gegevens te verzamelen met een GPS
+In de hoofdstukken [Mapping with a Smartphone, GPS or Paper](/nl_NL/mobile-mapping/) zagen we hoe gegevens te verzamelen met een GPS
 en Veldformulieren, en hoe die in JOSM te laden als een laag.
 
 Als u eenmaal veldonderzoek hebt gedaan met één van deze gereedschappen, dient u nog steeds

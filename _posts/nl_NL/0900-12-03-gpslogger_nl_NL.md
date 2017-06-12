@@ -229,9 +229,9 @@ Verbind uw apparaat met Android aan een computer (ook mogelijk met behulp van en
 
 Gebruiken van de GPX-sporen met de bewerkers JOSM en iD is zo eenvoudig als het slepen van de bestanden en ze laten vallen in de toepassing (of de browsertab, voor iD).  
 
-Voor aanvullende details voor gebruikers van  iD, bekijk het gedeelte [Configureren van de achtergrondlaag](http://learnosm.org/nl/beginner/id-editor/##configureer-de-achtergrondlaag).  
+Voor aanvullende details voor gebruikers van  iD, bekijk het gedeelte [Configureren van de achtergrondlaag](http://learnosm.org/nl_NL/beginner/id-editor/##configureer-de-achtergrondlaag).  
 
-Als de bewerker JOSM wordt gebruikt, kunt u instructies over hoe het GPX-spoor te gebruiken, tezamen met de multimediabestanden, in JOSM bekijken in het gedeelte [Openen in JOSM](http://learnosm.org/nl/mobile mapping/using-gps/#open-in-josm).  
+Als de bewerker JOSM wordt gebruikt, kunt u instructies over hoe het GPX-spoor te gebruiken, tezamen met de multimediabestanden, in JOSM bekijken in het gedeelte [Openen in JOSM](http://learnosm.org/nl_NL/mobile mapping/using-gps/#open-in-josm).  
 
 Bekijk voor andere bewerkers van OpenStreetMap de documentatie van uw software.  
 

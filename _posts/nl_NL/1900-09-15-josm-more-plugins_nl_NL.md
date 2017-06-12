@@ -67,7 +67,7 @@ Tenslotte kunt u klikken op de knop Gevorderd als u aanvullende tags zou willen 
 Utilsplugin2
 -------------
 
-* Als u dat nog niet gedaan heeft, installeer dan deze plug-in volgens de instructies in [JOSM Plugins](/nl/josm/josm-plugins).  
+* Als u dat nog niet gedaan heeft, installeer dan deze plug-in volgens de instructies in [JOSM Plugins](/nl_NL/josm/josm-plugins).  
 
 ![Utilsplugin2 plugin][]
 

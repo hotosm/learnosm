@@ -69,7 +69,7 @@ Navigeer, om de versie voor Windows van osm2pgsql te downloaden, in uw webbrowse
 
 Ruwe gegevens van OSM ophalen
 ---------------------
-Vóór we **osm2pgsql** kunnen uitvoeren hebben we enige ruwe gegevens van OSM nodig om in een database te importeren. Als u nog geen **.osm**-bestand heeft dat u kunt gebruiken, probeer dan een bestand te downloaden van <https://mapzen.com/data/metro-extracts/>. Deze site host veel extracten uit OSM voor verschillende steden. Zoek een stad om te importeren en download het PBF-bestand daarvoor. PBF-bestanden zijn gecomprimeerde versies van de normale **.osm**-bestanden. U kunt elk van de services voor extracten gebruiken die zijn vermeld in het hoofdstuk over [Gegevens van OSM ophalen](/nl/osm-data/getting-data), als u de ruwe gegevens voor een ander gebied zou willen hebben.  
+Vóór we **osm2pgsql** kunnen uitvoeren hebben we enige ruwe gegevens van OSM nodig om in een database te importeren. Als u nog geen **.osm**-bestand heeft dat u kunt gebruiken, probeer dan een bestand te downloaden van <https://mapzen.com/data/metro-extracts/>. Deze site host veel extracten uit OSM voor verschillende steden. Zoek een stad om te importeren en download het PBF-bestand daarvoor. PBF-bestanden zijn gecomprimeerde versies van de normale **.osm**-bestanden. U kunt elk van de services voor extracten gebruiken die zijn vermeld in het hoofdstuk over [Gegevens van OSM ophalen](/nl_NL/osm-data/getting-data), als u de ruwe gegevens voor een ander gebied zou willen hebben.  
 
 Het Style-bestand ophalen
 ------------------

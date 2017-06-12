@@ -28,7 +28,7 @@ Ga, elke keer als u een nieuwe plug-in wilt installeren, naar **Bewerken \> Voor
 
 Enkele van onze favoriete plug-ins zijn:
 
-1. **[buildings_tools](nl/josm/josm-more-plugins/):** Als u veel gebouwen tekent zal deze dat proces sneller en eenvoudiger maken  
+1. **[buildings_tools](nl_NL/josm/josm-more-plugins/):** Als u veel gebouwen tekent zal dit dat proces sneller en eenvoudiger maken  
 
 2.  **DirectUpload:** Als u veel GPS-sporen verzamelt en ze zou willen opslaan in de database van OSM maakt deze plug-in dat eenvoudig.  
 
@@ -42,7 +42,7 @@ Enkele van onze favoriete plug-ins zijn:
 
 7. **print:** Voegt een functie Afdrukken toe, voor het geval u snel een gebied wilt afdrukken, maar dat het er niet bijzonder netjes hoeft uit te zien.  
 
-8. **[utilsplugin2](nl/josm/josm-more-plugins/):** Voegt vele aanvullende gereedschappen en menu's toe aan JOSM voor gevorderde gebruikers. Dit wordt meer in detail behandeld in het [volgende hoofdstuk](/nl/josm/josm-more-plugins)  
+8. **[utilsplugin2](nl_NL/josm/josm-more-plugins/):** Voegt vele aanvullende gereedschappen en menu's toe aan JOSM voor gevorderde gebruikers. Dit wordt meer in detail behandeld in het [volgende hoofdstuk](/nl_NL/josm/josm-more-plugins)  
 
 
 
@@ -64,7 +64,7 @@ hoofdstukken:
 
 ![Restart JOSM][]
 
-probeer een te klikken op “Restart JOSM” en bekijk hoe de software zichzelf opnieuw start.
+Probeer eens te klikken op “Opnieuw starten” en bekijk hoe de software zichzelf opnieuw start.
 
 Mirrored Download
 -----------------
@@ -204,7 +204,7 @@ Toevoegen van uw GPS-sporen en punten naar de server van OSM is nuttig om
 vele redenen.
 __(Indien u niet wilt dat uw GPX-punten worden gezien door anderen hoeft u het volgende gedeelte niet te lezen.  U kunt eenvoudigweg uw GPX-bestanden weergeven in JOSM, en ze daarom lokaal opslaan).
 Ten eerste: GPS-sporen zijn de meest nuttige manier van het verzamelen en
-geo-verwijzen van objecten in OSM. Bekijk [Aerial Imagery](/nl/josm/aerial-imagery/)
+geo-verwijzen van objecten in OSM. Bekijk [Aerial Imagery](/nl_NL/josm/aerial-imagery/)
 GPS-apparaten hebben een grotere nauwkeurigheid dan satellietafbeeldingen en zijn daarom
 een nuttig gereedschap voor het controleren van hoe groot de verschuiving is. Het gebruiken van veel GPS-
 sporen (hoe groter het aantal sporen hoe groter de mogelijkheid om

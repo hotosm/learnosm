@@ -149,7 +149,7 @@ Wanneer u de laag toevoegt dient u een coördinatensysteem te selecteren om uw g
 Samenvatting
 -------
 
-Nu u heeft gezien hoe PostgreSQL en PostGIS in te stellen, als ook hoe een nieuwe database te maken, bent u er klaar voor om de gereedschappen te proberen die ons in staat stellen ruwe gegevens van OSM in een database te laden. We zullen daar eens naar kijken in het [volgende hoofdstuk](/nl/osm-data/osm2pgsql).  
+Nu u heeft gezien hoe PostgreSQL en PostGIS in te stellen, als ook hoe een nieuwe database te maken, bent u er klaar voor om de gereedschappen te proberen die ons in staat stellen ruwe gegevens van OSM in een database te laden. We zullen daar eens naar kijken in het [volgende hoofdstuk](/nl_NL/osm-data/osm2pgsql).  
 
 
 

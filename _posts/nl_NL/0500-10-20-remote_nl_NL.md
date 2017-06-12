@@ -55,8 +55,8 @@ Editing Software
 
 Hoewel er meerdere programma's beschikbaar zijn, blijven we hier bij de twee belangrijkste. Lees de LearnOSM hoofdstukken door die hieronder staan beschreven en kies de editor die je wilt gaan gebruiken. Je kunt altijd later nog heel eenvoudig wisselen als je wilt:
 
-- De iD Editor [LearnOSM section on iD Editor](/nl_NL/beginner/id-editor/). Deze editor is ideaal voor degenen die nog niet bekend zijn met bijdragen aan OpenStreetMap en is gemakkelijk te leren. Het laatste hoofdstuk behandelt de verschillen tussen [iD & JOSM](/nl/beginner/id-editor/#id-versus-josm)  
-- JOSM, de Java OpenStreetMap editor [LearnOSM - installing & starting out with JOSM](/nl/josm/start-josm/)
+- De iD Editor [LearnOSM section on iD Editor](/nl_NL/beginner/id-editor/). Deze editor is ideaal voor degenen die nog niet bekend zijn met bijdragen aan OpenStreetMap en is gemakkelijk te leren. Het laatste hoofdstuk behandelt de verschillen tussen [iD & JOSM](/nl_NL/beginner/id-editor/#id-versus-josm)  
+- JOSM, de Java OpenStreetMap editor [LearnOSM - installing & starting out with JOSM](/nl_NL/josm/start-josm/)
 
 # Remote Mapping - Beginnen met bijdragen
 
@@ -123,7 +123,7 @@ Het volgende onderdeel van deze handleiding geeft aan hoe objecten zouden moeten
     highway=residential  
 3. De persoon die het naastgelegen gebied heeft gekozen, heeft een weg getekend net over de grens in mijn gebied en is toen gestopt. Dit is de juiste manier om een weg of object in te tekenen als het op de rand van je gebied ligt. Je draagt het over aan degene die het aanliggende gebied aan het mappen is. 
 
-Het volgende onderdeel van deze handleiding geeft aan hoe objecten zouden moeten worden ingetekend en getagd. [Wegen , gebouwen, water en landgebruik](/nl/coordination/remote-tracing/).  
+Het volgende onderdeel van deze handleiding geeft aan hoe objecten zouden moeten worden ingetekend en getagd. [Wegen , gebouwen, water en landgebruik](/nl_NL/coordination/remote-tracing/).  
 
 
 # Meer informatie

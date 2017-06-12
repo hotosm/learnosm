@@ -12,7 +12,7 @@ Wegen, gebouwen, water en landgebruik traceren
 > Deze handleiding kan worden gedownload als  [remote-tracing_nl_NL.odt](/files/remote-tracing_nl_NL.odt) of [remote-tracing_nl_NL.pdf](/files/remote-tracing_nl_NL.pdf)  
 > Bijgewerkt op 08-02-2016  
 
-Doorgaan vanaf het gedeelte [Remote, Armchair & Mapathon Section of LearnOSM](/nl/coordination/remote/), wat u nodig zult hebben indien u geen ervaring heeft met het in kaart brengen voor HOT.  
+Doorgaan vanaf het gedeelte [Remote, Armchair & Mapathon Section of LearnOSM](/nl_NL/coordination/remote/), wat u nodig zult hebben indien u geen ervaring heeft met het in kaart brengen voor HOT.  
 
 
 Index gedeelte

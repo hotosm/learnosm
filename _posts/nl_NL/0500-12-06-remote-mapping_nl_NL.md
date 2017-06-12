@@ -58,7 +58,7 @@ Deze handleiding is een samenvatting van verschillende bestaande handleidingen e
 
 #### Handleidingen
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/nl/coordination/remote/)- een van de meest eenvoudige handleidingen  
+[LearnOSM's Remote Mapping Guide](http://learnosm.org/nl_NL/coordination/remote/)- een van de meest eenvoudige handleidingen  
 
 [MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- bevat videos die je kunt pauzeren om te volgen   
 

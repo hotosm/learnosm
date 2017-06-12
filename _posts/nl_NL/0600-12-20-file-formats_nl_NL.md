@@ -46,7 +46,7 @@ Een shapefile moet zijn bestemd om slechts één type object te bevatten (punten
 
 ![Shapefile attributes][]
 
-Gegevens van OpenStreetMap kunnen worden geconverteerd naar shapefiles. Verscheidene websites verschaffen shapefiles die zijn geconverteerd vanuit gegevens van OSM. Deze worden besproken in het [volgende hoofdstuk](/nl/osm-data/getting-data).  
+Gegevens van OpenStreetMap kunnen worden geconverteerd naar shapefiles. Verscheidene websites verschaffen shapefiles die zijn geconverteerd vanuit gegevens van OSM. Deze worden besproken in het [volgende hoofdstuk](/nl_NL/osm-data/getting-data).  
 
 Databases
 ---------

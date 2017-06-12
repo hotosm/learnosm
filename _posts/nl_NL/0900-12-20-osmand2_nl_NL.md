@@ -261,15 +261,15 @@ Verbind uw apparaat met Android aan een computer (met behulp van een gegevenskab
 
 Gebruiken van de GPX-sporen met de bewerkers JOSM en iD is zo eenvoudig als het slepen van de bestanden en ze laten vallen in de toepassing (of de browsertab, voor iD).  
 
-- Meer informatie over  iD in [Configureren van de achtergrondlaag](/nl/beginner/id-editor/#configuring-the-background-layer).  
-- Meer informatie over JOSM op [Openen in JOSM](/nl/mobile-mapping/using-gps/#open-in-josm)  
+- Meer informatie over  iD in [Configureren van de achtergrondlaag](/nl_NL/beginner/id-editor/#configuring-the-background-layer).  
+- Meer informatie over JOSM op [Openen in JOSM](/nl_NL/mobile-mapping/using-gps/#open-in-josm)  
 - Bekijk voor andere bewerkers van OpenStreetMap de documentatie van uw software.  
 
 
 OsmAnd gebruiken met FieldPapers en JOSM
 --------------------------------------
 
-[FieldPapers](http://fieldpapers.org) is een van de favoriete, "lage-tech" gereedschappen, gebruikt door veel mappers. [Hier staat het LearnOSM trainingsmateriaal voor FieldPapers](/nl/mobile-mapping/field-papers/).  
+[FieldPapers](http://fieldpapers.org) is een van de favoriete, "lage-tech" gereedschappen, gebruikt door veel mappers. [Hier staat het LearnOSM trainingsmateriaal voor FieldPapers](/nl_NL/mobile-mapping/field-papers/).  
 
 > Het volgende protocol werd ontwikkeld gedurende een activiteit voor het in kaart brengen in het veld in Bangladesh. Bekijk de originele post [hier](https://wiki.openstreetmap.org/wiki/Field_Papers#How_to_use_with_OsmAnd).  
 
