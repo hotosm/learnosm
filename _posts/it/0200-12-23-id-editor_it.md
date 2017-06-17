@@ -172,9 +172,9 @@ Differenze tra iD e JOSM
 
 
 
-[image1]: /images/beginner/id-editor_image1.png 
-[image2]: /images/beginner/id-editor_image2.png
-[image3]: /images/beginner/id-editor_image3.png
+[image1]: /images/beginner/id-editor_image1_it.png 
+[image2]: /images/beginner/id-editor_image2_it.png
+[image3]: /images/beginner/id-editor_image3_it.png
 [image4]: /images/beginner/id-editor_image4.png
 [image5]: /images/beginner/id-editor_image5.png
 [image6]: /images/beginner/id-editor_image6.png
@@ -187,16 +187,16 @@ Differenze tra iD e JOSM
 [Map Data]: /images/beginner/id-editor_map_data.png
 [image13]: /images/beginner/id-editor_image13.png
 [image14]: /images/beginner/id-editor_image14.png
-[image15]: /images/beginner/id-editor_image15.png
+[image15]: /images/beginner/id-editor_image15_it.png
 [image16]: /images/beginner/id-editor_image16.png
-[image17]: /images/beginner/id-editor_image17.png
-[image18]: /images/beginner/id-editor_image18.png
+[image17]: /images/beginner/id-editor_image17_it.png
+[image18]: /images/beginner/id-editor_image18_it.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
-[image21]: /images/beginner/id-editor_image21.png
-[image22]: /images/beginner/id-editor_image22.png
+[image21]: /images/beginner/id-editor_image21_it.png
+[image22]: /images/beginner/id-editor_image22_it.png
 [image23]: /images/beginner/id-editor_image23.png
-[image24]: /images/beginner/id-editor_image24.png
+[image24]: /images/beginner/id-editor_image24_it.png
 [image25]: /images/beginner/id-editor_image25.png
 [image26]: /images/beginner/id-editor_image26.png
 [image27]: /images/beginner/id-editor_image27.png
@@ -206,9 +206,9 @@ Differenze tra iD e JOSM
 [image31]: /images/beginner/id-editor_image31.png
 [image32]: /images/beginner/id-editor_image32.png
 [image33]: /images/beginner/id-editor_image33.png
-[image34]: /images/beginner/id-editor_image34.png
-[image35]: /images/beginner/id-editor_image35.png
-[image36]: /images/beginner/id-editor_image36.png
+[image34]: /images/beginner/id-editor_image34_it.png
+[image35]: /images/beginner/id-editor_image35_it.png
+[image36]: /images/beginner/id-editor_image36_it.png
 [image37]: /images/beginner/id-editor_image37.png
 [image38]: /images/beginner/id-editor_image38.png
 [image39]: /images/beginner/id-editor_image39.png
@@ -217,5 +217,5 @@ Differenze tra iD e JOSM
 [image42]: /images/beginner/id-editor_image42.png
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.png
-[image45]: /images/beginner/id-editor_image45.png
-[osm gps traces]: /images/beginner/id-editor_gps_public.png
+[image45]: /images/beginner/id-editor_image45_it.png
+[osm gps traces]: /images/beginner/id-editor_gps_public_it.png

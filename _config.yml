@@ -82,7 +82,6 @@ translations:
     quickaccess: "Acceso rápido"
     returntotop: "Regresar al inicio de la página"
   fa:
-    language: "فارسی"
     tagline: "آموزش گام به گام OpenStreetMap"
     contribute: "به بهبود راهنماهای ما کمک کنید"
     trainingspan: "آیا مسئول برگزاری کارگاه آموزشی هستید؟"
@@ -90,8 +89,9 @@ translations:
     feedbackspan: "آیا این بخش مفید بود؟"
     feedback: "با ما درمیان بگذارید و راهنماها را بهبود ببخشید!"
     getstarted: "شروع به کار"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
+    language: "فارسی"
+    quickaccess: "دسترسی سریع"
+    returntotop: "بازگشت به ابتدای صفحه"
   fr:
     tagline: "Apprendre OpenStreetMap étape par étape"
     contribute: "Aidez-nous pour améliorer cette documentation"
