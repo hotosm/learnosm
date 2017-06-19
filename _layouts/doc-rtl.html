@@ -48,6 +48,10 @@ layout: default
     <div class='getstarted'>
       <span><a class='start rounded'>{{site.translations[page.lang].getstarted}}</a></span>
     </div>
+     {% else %}
+  <p>
+    <a href='{{page.permalink}}'><img src="{{site.baseurl}}/images/arrow-up.png" style="height:20px">&nbsp;{{site.translations[page.lang].returntotop}}</a>
+  </p>
   {% endif %}
   {% unless page.cover %}
   <div class='feedback padAll'>
