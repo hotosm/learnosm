@@ -22,7 +22,7 @@ Vedremo alcuni strumenti e tecniche fondamentali per mappare con JOSM e nei capi
 Scarica il file di esempio
 -------------------
 
-- Se desideri proseguire a fare pratica con gli struneti di JOSM, scarica il file [tools_menu_sample.osm](/files/tools_menu_sample.osm).  Lancia JOSM e apri il file. Dovresti vedere questo:
+- Se desideri proseguire a fare pratica con gli strumenti di JOSM, scarica il file [tools_menu_sample.osm](/files/tools_menu_sample.osm).  Lancia JOSM e apri il file. Dovresti vedere questo:
 
 ![tools_menu_sample.osm][]
 
@@ -59,7 +59,7 @@ Questo strumento fa l'opposto di Dividi percorso. Per unire due linee in una sin
 ![Combine way][]
 
 
-### Invert direzione e unisci  
+### Inverti direzione e unisci  
 
 Se stai unendo delle strade che hanno direzioni differenti, potresti ricevere questo avvertimento:
 
@@ -112,7 +112,7 @@ Questo strumento permette di staccare i nodi che sono connessi.  E' utile quando
 Scorciatoie da tastiera
 ------------------
 
-Quando cominci a modificare da un po' di tempo, ti accorgi di sprecare molto tempo cliccando su menù e sottomenù.  PEr risolvere questo problema, JOSM ha delle scorciatoie da tastiera quasi per tutto.
+Quando cominci a modificare da un po' di tempo, ti accorgi di sprecare molto tempo cliccando su menù e sottomenù.  Per risolvere questo problema, JOSM ha delle scorciatoie da tastiera quasi per tutto.
 
 In pratica anzichè cliccare un oggetto e procedere in una lunga scelta di menù, puoi semplicemente scegliere un oggetto e premere un tasto sulla testiera.
 
@@ -139,7 +139,7 @@ Per ruotare un oggetto, per prima cosa devi selezionarlo.  Tieni premuto **SHIFT
 
 ![Rotate demo][]
 
-Pper ridimensionare un oggetto (renderlo più grande o più piccolo), fai la stessa cosa, ma tieni premuto ALT+CTRL.
+Per ridimensionare un oggetto (renderlo più grande o più piccolo), fai la stessa cosa, ma tieni premuto ALT+CTRL.
 
 Queste itruzioni sono mostrate sulla barra informativa di JOSM in basso: 
 

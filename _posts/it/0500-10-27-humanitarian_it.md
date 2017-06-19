@@ -21,11 +21,11 @@ Stiamo costantemente aggiornando i software e le guide, ma questo ci prende un c
 
 Non è indispensabile che tu legga tutto il sito prima di poter iniziare ad usare il programma, però è necessario che tu studi almeno le basi del suo funzionamento:  
 
-1. Dovresti leggere attentamente le istruzioni del Tasking Manager per qualsiasi progetto di mappatura a cui vorresti partecipare. Esse possono variare, quindi leggile e comprendile ogni volta prima di iniziare. C'è una descrizione completa su come usare il Tasking Manager [qui dentro a LearnOSM(/it/coordination/tasking-manager/), e include anche il come ottenere aiuto in diretta da un mappatore esperto.  
+1. Dovresti leggere attentamente le istruzioni del Tasking Manager per qualsiasi progetto di mappatura a cui vorresti partecipare. Esse possono variare, quindi leggile e comprendile ogni volta prima di iniziare. C'è una descrizione completa su come usare il [Tasking Manager qui in LearnOSM](/it/coordination/tasking-manager/), e include anche il come ottenere aiuto in diretta da un mappatore esperto.  
 
 2. Assicurati di aver ingrandito la zona a sufficienza per vedere quello che stai effettivamente tracciando - [questo e molte altre cose sono spiegate qui.](/it/coordination/remote/)  
 
-3. Gli edifici devono essere mappati, e la forma della traccia deve corrispondere alla forma dell'edificio. [Questa sezione di LearnOSM](/it/coordination/remote-tracing/ spiega questo e come si creano le strade ed una rete stradale.  
+3. Gli edifici devono essere mappati, e la forma della traccia deve corrispondere alla forma dell'edificio. [Questa sezione di LearnOSM](/it/coordination/remote-tracing/) spiega questo e come si creano le strade ed una rete stradale.  
 
 Fai bene a leggere questo documento, ci auguriamo che il breve tempo necessario per farlo ti permetterà di usare gli strumenti molto meglio. Abbiamo bisogno di tutto l'aiuto che è possibile ottenere, e speriamo che tu possa aiutarci.  
 

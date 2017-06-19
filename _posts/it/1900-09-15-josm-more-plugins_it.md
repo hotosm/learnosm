@@ -17,7 +17,7 @@ I plugin **buildings_tools** e **utilsplugin2** aggiungono delle belle funzional
 Il Plugin **Building Tool**
 --------------------------
 
-Se non l'hai ancora fatto, installa questo plugin seguendo le istruzioni in [Plugins JOSM](/it/josm/josm-plugins).  
+Se non l'hai ancora fatto, installa questo plugin seguendo le istruzioni in [Plugin per JOSM](/it/josm/josm-plugins).  
 
 ![Buildings tools plugin][]
 
@@ -67,7 +67,7 @@ Infine, puoi cliccare sul bottone Avanzate (sempre in Dati -> Impostazioni avanz
 Utilsplugin2
 -------------
 
-* Se non l'hai già fatto, installa questo plugin seguendo le istruzioni in [JOSM Plugins](/it/josm/josm-plugins).  
+* Se non l'hai già fatto, installa questo plugin seguendo le istruzioni in [Plugin perJOSM](/it/josm/josm-plugins).  
 
 ![Utilsplugin2 plugin][]
 
@@ -98,7 +98,7 @@ Anche **Utilsplugin2** fornisce altri strumenti nel menu "Selezione". Fai delle 
 
 ![Selection menu][]
 
-Uno dei nostri strumenti di selezione preferiti è **Deseleziona Nodi.** Questo strumento toglie dalla selezione tutti i nodi. Questo è utile se disegnate un rettangolo per selezionre molti oggetti, ma non volete selezionare anche i nodi contenuti in tutte le linee e forme.  
+Uno dei nostri strumenti di selezione preferiti è **Deseleziona Nodi.** Questo strumento toglie dalla selezione tutti i nodi. Questo è utile se disegnate un rettangolo per selezionare molti oggetti, ma non volete selezionare anche i nodi contenuti in tutte le linee e forme.  
 
 ![Unselect nodes][]
 
@@ -106,18 +106,18 @@ Buona fortuna!
 
 
 [Buildings tools plugin]: /images/josm/buildings_tools-plugin.png
-[pulsante Disegna edifici]: /images/josm/buildings_tools-button.png
-[Disegna bordo]: /images/josm/draw-edge.png
-[Estendi edificio]: /images/josm/extend-building.png
-[Unisci edifici]: /images/josm/merge-buildings.png
-[Imposta dimensione edifici]: /images/josm/set-buildings-size.png
-[finestra Imposta dimensione edifici]: /images/josm/set-buildings-size-dialog.png
-[Impostazioni avanzate Edifici]: /images/josm/buildings-advanced.png
+[Buildings tools button]: /images/josm/buildings_tools-button.png
+[Draw edge]: /images/josm/draw-edge.png
+[Extend building]: /images/josm/extend-building.png
+[Merge buildings]: /images/josm/merge-buildings.png
+[Set buildings size]: /images/josm/set-buildings-size.png
+[Set buildings size dialog]: /images/josm/set-buildings-size-dialog.png
+[Buildings advanced]: /images/josm/buildings-advanced.png
 [Utilsplugin2 plugin]: /images/josm/utilsplugin2-plugin.png
-[menu Altri strumenti]: /images/josm/more-tools-menu.png
-[Intersezione nodi]: /images/josm/utilsplugin2-nodes-intersection.png
-[Copia etichette]: /images/josm/utilsplugin2-copy-tags.png
-[Sostituisci dimensioni e posizione]: /images/josm/utilsplugin2-replace-geometry.png
-[menu Selezione]: /images/josm/selection-menu.png
-[Deseleziona nodi]: /images/josm/utilsplugin2-unselect-nodes.png
+[More tools menu]: /images/josm/more-tools-menu.png
+[Nodes interesection]: /images/josm/utilsplugin2-nodes-intersection.png
+[Copy tags]: /images/josm/utilsplugin2-copy-tags.png
+[Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
+[Selection menu]: /images/josm/selection-menu.png
+[Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
 

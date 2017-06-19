@@ -14,7 +14,7 @@ Plugin per JOSM
 
 Diventando più esperto nelle tecniche di mappatura, potrebbe venirti la voglia di utilizzare funzioni aggiuntive di JOSM per migliorare le tue capacità di mappatore. JOSM ti permette di installare numerose estensioni (comunemente chiamate plugin), che aggiungono funzionalità extra al software.  
 
-In questa sezione vedremo come installare plugins, e alcuni dei plugin più utili che sono disponibili.
+In questa sezione vedremo come installare i plugin, e alcuni dei plugin più utili che sono disponibili.
 
 Installare i plugin
 -------------------
@@ -24,7 +24,7 @@ Quando vuoi installare (o rimuovere) un plugin, vai su **Modifica \> Preferenze*
 
 * Se non vedi una lista di plugin, clicca su **Scarica Lista**.  
 * Per installare un plugin basta che lo selezioni cliccando nel piccolo riquadro al suo fianco, poi clicchi su OK tra i bottoni in fondo.  
-* Infine, alcune versioni di JOSM ti possono chiedere il riavvio di JOSM stesso per installare nuovi plugin.
+* Infine, alcune versioni di JOSM ti possono chiedere il riavvio di JOSM stesso quando installi nuovi plugin.
 
 Alcuni dei nostri plugin preferiti sono:
 
@@ -42,7 +42,7 @@ Alcuni dei nostri plugin preferiti sono:
 
 7. **print:** Aggiunge una funzione di Stampa, nel caso vogliate fare delle veloci stampe di un'area, non avendo bisogno che siano di alta qualità.  
 
-8. **[utilsplugin2](it/josm/josm-more-plugins/):** Aggiunge molti strumenti e menu a JOSM, per utenti esperti. E' trattato più in dettaglio in [next chapter](/it/josm/josm-more-plugins)  
+8. **[utilsplugin2](it/josm/josm-more-plugins/):** Aggiunge molti strumenti e menu a JOSM, per utenti esperti. E' trattato più in dettaglio nel [prossimo capitolo](/it/josm/josm-more-plugins)  
 
 
 
@@ -257,7 +257,7 @@ Caricamento online delle tracce GPS
 1. Andate 
 su [http://www.openstreetmap.org/](http://www.openstreetmap.org/) e collegatevi con il vostro nome utente.
 
-Selezionate "Tracciati GPS" nel banner a sinistra.
+2. Selezionate "Tracciati GPS" nel banner a sinistra.
 
 ![Left Banner][]
 
