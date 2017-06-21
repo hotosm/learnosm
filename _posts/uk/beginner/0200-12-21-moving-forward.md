@@ -85,6 +85,6 @@ index of locations that are included in the area.
 у проект. Хай вам щастить!
 
 
-[MapOSMatic]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image00_maposmatic-homepage.png
-[Wiki]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image01_osm-wiki.png
-[Mailing list]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image02_osm-mailing-lists.png
+[MapOSMatic]: {{site.baseurl}}/images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image00_maposmatic-homepage.png
+[Wiki]: {{site.baseurl}}/images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image01_osm-wiki.png
+[Mailing list]: {{site.baseurl}}/images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image02_osm-mailing-lists.png

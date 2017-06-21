@@ -21,7 +21,11 @@ layout: default
           {% if {{page.otherguides}} %}
             <span>{{ page.otherguides }}</span>
           {% else %}
-            <span>Other guides</span>
+            {% if {{site.translations.[page.lang].otherguides}} %}
+              <span>{{site.translations.[page.lang].otherguides}}</span>
+            {% else %}
+              <span>Other guides</span>
+            {% endif %}
           {% endif %}
         </a>
       </li>

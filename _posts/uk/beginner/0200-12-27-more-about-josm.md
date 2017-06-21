@@ -130,13 +130,13 @@ category: beginner
 *  [Редагування зібраних даних](/uk/beginner/editing-with-josm/)
 
 
-[JOSM Download Button]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image00_download-button.png
-[JOSM Download Dialog]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image01_download-dialog.png
-[JOSM Preferences up down]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image02_preferences-up-down.png
-[JOSM Preferences WMS TMS]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image03_preferences-wms-tms.png
-[JOSM layout]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image04_layout.png
-[JOSM select tool]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image05_select-tool.png
-[JOSM area downloaded]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image06_area-downloaded.png
-[JOSM Upload Button]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image07_upload-button.png
-[JOSM Upload Dialog]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image08_upload-dialog.png
-[JOSM Authenticate]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image09_authenticate.png
+[JOSM Download Button]: {{site.baseurl}}/images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image00_download-button.png
+[JOSM Download Dialog]: {{site.baseurl}}/images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image01_download-dialog.png
+[JOSM Preferences up down]: {{site.baseurl}}/images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image02_preferences-up-down.png
+[JOSM Preferences WMS TMS]: {{site.baseurl}}/images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image03_preferences-wms-tms.png
+[JOSM layout]: {{site.baseurl}}/images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image04_layout.png
+[JOSM select tool]: {{site.baseurl}}/images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image05_select-tool.png
+[JOSM area downloaded]: {{site.baseurl}}/images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image06_area-downloaded.png
+[JOSM Upload Button]: {{site.baseurl}}/images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image07_upload-button.png
+[JOSM Upload Dialog]: {{site.baseurl}}/images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image08_upload-dialog.png
+[JOSM Authenticate]: {{site.baseurl}}/images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image09_authenticate.png
