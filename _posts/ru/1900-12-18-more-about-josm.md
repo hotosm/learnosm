@@ -209,9 +209,9 @@ Papers), которые используются для сбора картог�
 
 Перейдите по следующим ссылкам, чтобы узнать об:  
 
-*  [Использовании GPS](/ru/beginner/using-gps/)  
-*  [Обходных листах (Field Papers)](/ru/beginner/field-papers/)
-*  [Редактировании собранных данных](/ru/beginner/editing-with-josm/)
+*  [Использовании GPS](/ru/mobile-mapping/using-gps/)  
+*  [Обходных листах (Field Papers)](mobile-mapping/field-papers/)
+*  [Редактировании собранных данных](/ru/josm/editing-with-josm/)
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png
