@@ -112,7 +112,7 @@ Humanitarian OpenStreetMap Team (HOT) [Команда OpenStreetMap по ока�
 [LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/) —
 один из лучших справочников  
 
-[MapGive's Learn To Map tutorial](http://learnosm.org/en/coordination/remote/) –
+[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/) –
 содержит видео-материалы. Вы можете приостановить видео, чтобы потом продолжить.
 <!-- no video at this link :(-->
 
