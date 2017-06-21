@@ -277,13 +277,13 @@ Beachten Sie deshalb bitte diese allgemeinen Hinweise:
 - Überprüfen Sie niemals Ihre eigene Arbeit - ein zweites Paar Augen findet oft Dinge, die Sie übersehen haben. Dadurch steigt die Qualität unserer Arbeit.  
 - Haben Sie keine Angst, wenn andere Bearbeiter etwas unfreundlich klingen, wenn sie Ihre Arbeit prüfen - alle wollen genau wie Sie sicherstellen, dass die Realität bestmöglich in den Daten abgebildet wird. Deren Kommentare helfen auch Ihnen bei der zukünftigen Arbeit und sind nicht als Kritik an Ihren bisherigen Beiträgen zu verstehen.  
 
-[Tasking Manager Login]: /images/de/coordination/tasking_manager//tasking_manager_image01.png
-[Tasking Manager Username_list]: /images/de/coordination/tasking_manager/tasking_manager_image02.png
-[Authorizing access to OSM account by the Tasking Manager]: /images/de/coordination/tasking_manager/tasking_manager_image03.png
-[Job description]: /images/de/coordination/tasking_manager/tasking_manager_image04.png
-[Picking a task]: /images/coordination/tasking_manager_image05.png
-[Assigned task square]: /images/coordination/tasking_manager_image06.png
-[Editing options]: /images/coordination/tasking_manager_image07.png
+[Tasking Manager Login]: /images/coordination/tasking_manager_image01_de.png
+[Tasking Manager Username_list]: /images/coordination/tasking_manager_image02_de.png
+[Authorizing access to OSM account by the Tasking Manager]: /images/coordination/tasking_manager_image03_de.png
+[Job description]: /images/coordination/tasking_manager_image04_de.png
+[Picking a task]: /images/coordination/tasking_manager_image05_de.png
+[Assigned task square]: /images/coordination/tasking_manager_image06_de.png
+[Editing options]: /images/coordination/tasking_manager_image07_de.png
 [IRC_help]: /images/coordination/tasking_manager_image08.png
 [IRC using]: /images/coordination/tasking_manager_image09.png
 [Tasking Manager About]: /images/coordination/tasking_manager_image011.png
