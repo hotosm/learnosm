@@ -48,18 +48,18 @@ Navigieren auf der Karte
     unten)
 - Um nach einem Ort zu suchen, linksklicken Sie auf das Feld mit der Beschriftung "suchen" auf
     der linken Seite der Seite (siehe Bild oben). Geben Sie den Namen
-    Ihrer Stadt oder Ihres Dorfes ein und drücken Sie Enter. Ein Fenster sollte 
+    Ihrer Stadt oder Ihres Dorfes ein und drücken Sie Enter. Ein Fenster sollte
     links von der Karte erscheinen, mit den Ergebnissen Ihrer Suche. Klicken Sie auf
     den Ort, der so aussieht, als wäre er der, den Sie wollen. Die Karte wird
     automatisch zu dem Ort springen, den Sie ausgewählt haben.
 
     ![Search][]
-   
+
 
 Betrachten unterschiedlicher Kartenstile
 ------------------------
 
-OpenStreetMap enthält geographische Daten der gesamten Welt. Obwohl 
+OpenStreetMap enthält geographische Daten der gesamten Welt. Obwohl
 es nur eine Datenbank ist, können die Daten unterschiedlich interpretiert
 und dargestellt werden. Um das zu sehen, werfen wir einen Blick auf unterschiedliche Karten-"Stile",
 die auf der OSM-Website verfügbar sind.
@@ -69,7 +69,7 @@ die auf der OSM-Website verfügbar sind.
     ![Layers button][]
 
 - Klicken Sie auf unterschiedliche Kartenebenen. Achten Sie darauf, wie die Karte sich
-    verändert. Die Verkehrskarte z. B. betont 
+    verändert. Die Verkehrskarte z. B. betont
     Verkehrsrouten auf der Karte, die Radfahrerkarte betont Fahrrad-Strecken.
     Alle Daten, die das ermöglichen, sind in der OSM-Datenbank
     enthalten.
@@ -98,8 +98,8 @@ Klicken Sie auf der OpenStreetMap Website auf "Registrieren" in der oberen
     somit sollten Sie kreativ sein. Wenn Sie etwas einfaches,
     wie z. B. Ihren Vornamen eingeben, ist es wahrscheinlich,
     dass jemand diesen Namen schon hat.
-- Geben Sie ein neues Passwort in das vierte und fünfte Feld ein. Sie sollten 
-    das gleiche Passwort in beide Felder eingeben. Es braucht nicht das gleiche Passwort zu sein, 
+- Geben Sie ein neues Passwort in das vierte und fünfte Feld ein. Sie sollten
+    das gleiche Passwort in beide Felder eingeben. Es braucht nicht das gleiche Passwort zu sein,
     wie das von Ihrer Email.
 Sie wollen vielleicht Ihren OSM-Nutzernamen und Passwort notieren. Sie brauchen beides,
     um sich später anzumelden.
@@ -117,7 +117,7 @@ Sie wollen vielleicht Ihren OSM-Nutzernamen und Passwort notieren. Sie brauchen 
     - Beachten Sie, dass dies __nicht__ das gleiche ist wie Ihr OpenStreetMap-Nutzername und
     Passwort.
 - Wenn Ihre Registrierung erfolgreich war, sollten Sie
-    eine Email von OpenStreetMap in Ihrem Posteingang sehen. Öffnen Sie die Email. Sie sollte 
+    eine Email von OpenStreetMap in Ihrem Posteingang sehen. Öffnen Sie die Email. Sie sollte
     wie das Bild unten aussehen. Klicken Sie auf den Link, der im Bild unten
     dargestellt ist:
 
@@ -137,9 +137,9 @@ Hinzufügen der ersten Punkte
     können Sie den iD Editor benutzen, um Ihre ersten Punkte
     auf der Karte einzutragen.
 - Bewegen Sie die Karte auf einen Ort, den Sie sehr gut kennen, wie Ihre Stadt
-    oder Ihre Nachbarschaft. Es ist eine gute Idee, sicherzustellen, dass Ihr Zuhause (oder das Ihres Nachbarn) und Ihr Arbeitsplatz eingezeichnet sind und die richtige Adresse haben. 
+    oder Ihre Nachbarschaft. Es ist eine gute Idee, sicherzustellen, dass Ihr Zuhause (oder das Ihres Nachbarn) und Ihr Arbeitsplatz eingezeichnet sind und die richtige Adresse haben.
 - Vergrößern Sie den Bereich, auf dem Sie einen Punkt zur Karte hinzufügen wollen (vielleicht ein Restaurant oder ein Lebensmittelgeschäft in Ihrer Nähe, das noch nicht kartiert ist).
-- Gerade über der Karte links ist ein Feld namens “Bearbeiten“ mit einem kleinen 
+- Gerade über der Karte links ist ein Feld namens “Bearbeiten“ mit einem kleinen
     Dreieck daneben. Klicken Sie auf das kleine Dreieck. Sie sollten sehen, wie sich
     ein Menü öffnet.
 - Klicken Sie auf  "Bearbeiten mit iD (im Browser eingebetteter Editor)".
@@ -184,7 +184,7 @@ ein erstes Verständnis davon, wie Sie Punkte zur Karte hinzufügen.
 
 
 
-[Webseite]: /images/beginner/start-osm_website.png
+[Website]: /images/beginner/start-osm_website.png
 [OpenStreetMap website with some main functions listed]: /images/beginner/osm-website-main-functions.png
 [Mouse navigation]: /images/beginner/mouse-navigation.png
 [Search]: /images/beginner/search.png
