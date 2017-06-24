@@ -184,15 +184,15 @@ capito come aggiungere punti alla mappa.
 
 
 
-[website]: /images/beginner/start-osm_website.png
-[OpenStreetMap website with some main functions listed]: /images/beginner/osm-website-main-functions.png
-[Mouse navigation]: /images/beginner/mouse-navigation.png
-[Search]: /images/beginner/search.png
-[Layers button]: /images/beginner/layers.png
+[website]: /images/beginner/start-osm_website_it.png
+[OpenStreetMap website with some main functions listed]: /images/beginner/osm-website-main-functions_it.png
+[Mouse navigation]: /images/beginner/mouse-navigation_it.png
+[Search]: /images/beginner/search_it.png
+[Layers button]: /images/beginner/layers_it.png
 [Transport map]: /images/beginner/transport-map.png
-[Registering an OpenStreetMap account]: /images/beginner/registering-account.png
-[Confirming your OpenStreetMap account]: /images/beginner/confirming-account.png
-[Click edit]: /images/beginner/click-edit.png
-[iD editor]: /images/beginner/id-editor.png
-[Point button]: /images/beginner/point-button.png
+[Registering an OpenStreetMap account]: /images/beginner/registering-account_it.png
+[Confirming your OpenStreetMap account]: /images/beginner/confirming-account_it.png
+[Click edit]: /images/beginner/click-edit_it.png
+[iD editor]: /images/beginner/id-editor_it.png
+[Point button]: /images/beginner/point-button_it.png
 [Save button]: /images/beginner/save-button.png

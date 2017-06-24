@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Werkzeuge zum Editieren inJOSM
+Titel: JOSM Bearbeitung Werkzeuge
 permalink: /de/josm/josm-tools/
 lang: de
 category: josm
@@ -10,138 +10,114 @@ Werkzeuge zum Editieren in JOSM
 ==================
 
 > Diese Anleitung kann als  [josm_josm-tools_de.odt](/files/josm_josm-tools_de.odt) oder [josm_josm-tools_de.pdf](/files/josm_josm-tools_de.pdf) heruntergeladen werden  
-Geprüft 2015-07-14  
+> Gereviewed 2017-06-09  
 
-Im [Leitfaden für Anfänger](/de/josm/start-josm) haben wir die Grundlagen des Zeichnens in 
-JOSM behandelt, aber es gibt noch viele Werkzeuge und Techniken, die wir noch nicht gezeigt haben.
+- TOC
+{:toc}
 
-Wir werfen jetzt einen Blick auf die grundlegenden Werkzeuge und Techniken, 
-die zum Zeichnen von Objekten in JOSM zur Verfügung stehen und später werden wir 
-vertieft auf weiterführende Zeichenwerkzeuge eingehen.
+Im  [Leitfaden für JOSM](/en/josm/start-josm/)  decken wir die Grundlagen der Arbeit mit JOSM ab, es gibt aber viele Werkzeuge und Techniken welche wir nicht demonstrieren.
+
+Wir werden uns einige Standardwerkzeuge und Techniken zum Arbeiten mit JOSM anschauen. In den folgenden Kapiteln werden wir fortgeschrittene Werkzeuge tiefer beleuchten.
 
 Besorgen Sie sich die Beispieldaten
 -------------------
 
-- Wenn Sie die JOSM-Werkzeuge Schritt für Schritt ausprobieren möchten, dann laden Sie 
-    bitte [de_tools_menu_sample.osm](/files/de_tools_menu_sample.osm) herunter.
-- 
+- Zur Mitverfolgung und zum Üben, kann man [tools_menu_sample.osm](/files/tools_menu_sample.osm) herunterladen. JOSM starten und Datei öffnen. Es sollte wie folgt aussehen:
 
 ![tools_menu_sample.osm][]
 
 Zeichenwerkzeuge
 -------------
 
-Wenn Sie das Menü “Werkzeuge” oben in JOSM anwählen, sehen Sie, dass es 
-zahlreiche Funktionen gibt, die Ihnen dabei helfen, Linien und Formen zu zeichnen 
-und die Objekte in der Karte zu bearbeiten.
+Wenn Sie auf das "Werkzeug" Menu oben in JOSM klicken, sehen Sie zahlreiche Funktionen welche beim bearbeiten von Linien, Formen und Objekten auf der Karte helfen.
 
- 
- 
- 
+JOSM besitzt einige zusätzliche Werkzeuge zum einfachen bearbeiten von Linien und Formen. Diese Werkzeuge findet man im "Werkzeug" Menu oben in JOSM.
 
 ![Tools menu][]
 
-Um die Funktionen aus diesem Menü anzuwenden, müssen Sie zuerst 
-einen Punkt, eine Linie oder eine Form im Kartenfenster markieren. Die Beispieldatei enthält verschiedene 
-Objekte, die mit den Namen der verschiedenen Werkzeuge im Menü bezeichnet sind.
+Um diese Funktionen anzuwenden, muss man erst einen Punkt, eine Linie oder Form auf der Karte auswählen. Die Beispieldatei enthält einige Elemente mit Namen der unterschiedlichen Werkzeuge im Menu.
 
-- Versuchen Sie bitte, eines der Elemente in der Datei zu markieren. Dann wählen sie aus dem Werkzeug-Menü 
-    die Funktion, die bei dem von Ihnen 
-    markierten Element steht.
-- Klicken Sie z.B. auf den schlecht gezeichneten Kreis, um ihn zu markieren.
+### Nodes in einem Kreis anordnen  
+
+- Versuchen Sie ein Element in der Datei zu selektieren. Gehen Sie zum Werkzeug Menu und klicken Sie auf die Funktion ähnlich dem Element das sie selektiert haben. Klicken Sie zum Beispiel auf den schlecht gezeichneten Kreis, um ihn auszuwählen.
 
 ![Align nodes in circle][]
 
-- Dann wählen Sie den Menüpunkt “Werkzeuge->Punkte im Kreis anordnen” aus.
-- Der schlecht gezeichnete Kreis wird runder.
+- Gehen Sie nun zu Werkzeug - Nodes in kreis anordnen. Der schlecht gezeichnete Kreis wird zu einem richtigen Kreis.
 
-Probieren Sie bitte jedes der Werkzeuge mit Hilfe der Beispieldatei aus. Im Folgenden 
-finden Sie eine Beschreibung einiger Werkzeuge.
+Experimentieren Sie mit den Werkzeugen und den Elementen in der Beispieldatei. Eine Beschreibung für einige Werkzeuge folgt.
 
-1. **Linie aufspalten:** Damit können Sie eine Linie in zwei getrennte Linien aufspalten. 
-    Das benötigen Sie, wenn Sie verschiedenen Teilen einer Straße verschiedene 
-    Attribute zuweisen wollen, etwa einer Brücke. Um diese Funktion zu benutzen, 
-    markieren Sie einen Punkt mitten in der Linie, an dem Sie teilen möchten, wählen “Linie aufspalten” 
-    aus dem Werkzeuge-Menü und Ihre Linie sollte jetzt aus zwei Teilen bestehen.
+### Weg auftrennen  
 
-2. **Linien verbinden:** Diese Funktion macht das Gegenteil. Um zwei Linien zu einer 
-    zu verbinden müssen sie einen gemeinsamen Punkt haben. Markieren Sie 
-    die beiden zu verbindenden Linien. Dazu halten 
-    Sie die Umschalttaste auf Ihrer Tastatur gedrückt 
-    und klicken auf die Linien. Wenn Sie beide Linien markiert haben, 
-    wählen Sie “Linien verbinden” aus dem Werkzeuge-Menü.
+Dies ermöglicht eine Linie in zwei Linien zu trennen. Man braucht es, wenn man unterschiedliche Attribute an unterschiedliche Teile einer Straße setzen möchte, wie z.B. bei einer Brücke. Um die Funktion zu verwenden, selektieren Sie einen Punkt in der Mitte der Line welche Sie teilen möchten. Wählen Sie Trenne Weg vom Werkzeug Menu und Ihre Linie ist geteilt.
 
-    ![Combine way][]
 
-    Wenn Sie Wege mit unterschiedlichen Richtungen verbinden, erhalten Sie 
-    diese Warnung:
+### Wege zusammenführen
 
-    ![Reverse and combine][]
+Das ist das Gegenteil von Wege teilen. Um zwei Wege zusammenzuführen müssen diese einen Punkt teilen. Selektieren Sie beide Linien indem Sie die SHIFT Taste halten und die Linien mit der Maus anklicken. Wenn beide selektiert sind, wählen Sie Wege zusammenführen aus dem Werkzeug Menu.
 
-    Wenn die Wege verbunden sind und in dieselbe Richtung verlaufen sollen, wählen 
-    Sie “Drehen und Verbinden.”
+![Combine way][]
 
-3. **Linienrichtung umkehren:** Damit ändern Sie die Orientierung einer Linie. Alle Linien in 
-    OSM haben eine Richtung, die in JOSM durch Pfeile auf der Linie dargestellt wird. 
-    Normalerweise spielt die Richtung keine Rolle, außer bei Einbahnstraßen und 
-    Flüssen, die in eine bestimmte Richtung verlaufen. In diesen Fällen müssen Sie möglicherweise 
-    die Richtung umdrehen, damit der Weg in die richtige Richtung verläuft.
 
-    ![Way direction][]
+### Umdrehen und zusammenführen  
 
-4. **Linie vereinfachen**: Wenn Ihre Linie aus zu vielen Punkten besteht und Sie sie gerne 
-    vereinfachen möchten, entfernt dieses Werkzeug einige Punkte aus der Linie.
+Falls Sie Straße mit unterschiedlicher Richtung zusammenführen, bekommen Sie folgende Warnung:
 
-    ![Simplify way][]
+![Reverse and combine][]
 
-5. **Punkte im Kreis anordnen:** Wenn Sie eine runde Form zeichnen 
-    möchten, zeichnen Sie einen Kreis so gut Sie es können und markieren ihn. 
-    Diese Funktion ordnet die gezeichneten Punkte auf einem Kreis an.
+Falls die Straßen verbunden sind und in die gleiche Richtung gehen, wählen Sie "Umdrehen und weiter".
 
-6. **Kreis erstellen:** Alternativ dazu können Sie dieses Werkzeug 
-    verwenden, das einen genaueren Kreis erzeugt. Zeichnen Sie eine Linie, die dem 
-    Durchmesser Ihres Kreises entspricht und wenden Sie dann das Werkzeug an.
 
-    ![Create circle][]
+### Weg drehen
 
-7. **Punkte in einer Gerade anordnen:** Diese Funktion richtet eine Reihe von Punkten 
-    in einer geraden Linie aus. Bei langen Linien richten Sie am besten 
-    einzelne Abschnitte der Linie aus. Achten Sie darauf, dass das gerne 
-    die Linie ein bisschen verschiebt.
+Dies ändert die Richtung der Linie. Alle Linien in OSM haben Richtungen, JOSM zeigt dies durch einen Pfeil auf der Linie an. Die Richtung spielt normalerweise keine Rolle, außer wenn Straßen und Flüsse in eine bestimmte Richtung fließen. In diesem Fall müssen Sie gegebenenfalls die Richtung ändern, damit Sie wieder stimmt.
 
-    ![Align nodes in line][]
+![Way direction][]
 
-8. **Form rechtwinklig machen:** Diese Funktion ist sehr nützlich um 
-    regelmäßige Formen wie etwa Gebäude zu zeichnen. Wenn Sie die Fläche gezeichnet haben, 
-    richtet diese Funktion sie so aus, dass alle Ecken rechtwinklig sind.
+### Weg vereinfachen
 
-    ![Orthagonalize][]
+Falls eine Linie zu viele Punkte besitzt und Sie sie vereinfachen wollen, enternt dies einige Punkte von der Linie.
 
-9. **Linien trennen:** Mit diesem Werkzeug trennen Sie verbundene Punkte. 
-    Das ist dann nützlich, wenn zwei Objekte, die nicht verbunden sein sollten, 
-    einen Punkt gemeinsam haben. Beispielsweise sieht man öfter, dass eine Straße mit einem 
-    Gebäude einen Punkt gemeinsam hat. Üblicherweise verlaufen Straßen nicht durch Gebäude 
-    und sie können mit dieser Funktion die beiden Objekte voneinander 
-    trennen.
+![Simplify way][]
 
-    ![Unglue way][]
 
-    > Die Linie und der Punkt sind erst dann getrennt zu sehen, wenn Sie sie bewegen.
+### Kreis erstellen
+
+Verwenden Sie dieses Werkzeug um einen perfekten Kreis zu erstellen. Zeichnen Sie eine Linie, welche den Durchmesser Ihres Kreises darstellt und verwenden Sie anschließend dieses Werkzeug.
+
+![Create circle][]
+
+
+### Nodes in Linie anordnen
+
+Diese Funktion ordnet eine Serie von Punkten in einer Geraden. Bei langen Linien wählt man am Besten einen bereich der Linie aus. Bitte Vorsicht, dies verschiebt die Linie etwas in der Regel.
+
+![Align nodes in line][]
+
+### Form orthogonal anordnen
+
+Diese Funktion ist sehr hilfreich um reguläre Formen wie Gebäude zu zeichnen (** Siehe  [JOSM Gebäude Werkzeuge](/en/josm/josm-more-plugins/)**). Nachdem Sie eine Fläche gezeichnet haben, macht diese Funktion die Ecken rechtwinklig.
+
+![Orthagonalize][]
+
+
+### Wege trennen
+
+Dieses Werkzeug trennt Nodes welche verbunden sind. Es ist nützlich, wenn zwei Objekte einen Node teilen aber nicht sollen. Ein allgemeiner Fehler ist z.B. wenn eine Straße einen Node mit einer Ecke eines Gebäudes teilt. Straßen laufen nicht durch Gebäude normalerweise, so dass man dies voneinander trennen kann.
+
+![Unglue way][]
+
+*Die Linie und der Node erscheinen nicht separat, solange sie nicht bewegt werden.*
 
 Tastaturkürzel
 ------------------
 
-Wenn Sie öfter mit JOSM arbeiten, werden Sie schnell das Gefühl haben, 
-beim Klicken durch Menüs und Untermenüs eine Menge Zeit zu verlieren. Als Abhilfe verfügt JOSM über Tastaturkürzel 
-für nahezu jede Funktion.
+Wenn sie mit dem Editieren anfangen, werden Sie feststellen, dass die viel zeit mit klicken in Menus und Untermenus verschwenden. Um hier abzuhelfen, bietet JOSM Tastaturkürzel für jede Gelegenheit.
 
-Statt ein Objekt anzuklicken und sich danach durch die Menüs 
-durchzuhangeln, klicken Sie einfach auf das Objekt und drücken dann die entsprechende Taste.
+Anstatt ein Objekt auszuwählen und dann sich durch Menus zu klicken, kann man einfach das Objekt auswählen und eine Taste auf der Tastatur drücken.
 
-Alle Werkzeuge, die wir bisher besprochen haben, besitzen Tastaturkürzel, die 
-Sie im Menü rechts neben dem entsprechenden Eintrag sehen. Z.B. ist “O” 
-das Kürzel, um Punkte auf einem Kreis anzuordnen. Mit “L” ordnen Sie sie entlang einer Linie an. 
-Sie brauchen vielleicht etwas Zeit, bis Sie die Kürzel kennen, aber auf längere 
+Alle zuvor erwähnten Werkzeuge haben Tastaturkürzel, welche im Werkzeug Menu auf der rechten Seite gelistet werden. Zum Beispiel "O" ist das
+Tastaturkürzel um Nodes im Kreis anzuordnen. "L" ist das Kürzel um alle in einer Linie anzuordnen. es dauert etwas die Tastaturkürzel zu lernen, aber Sie werden herausfinden dass es spart
 Sicht zahlt sich das sicher aus.
 
 Hier stehen (**fettgedruckt**) noch einige der wichtigsten anderen Tastaturkürzel.
@@ -157,17 +133,13 @@ Hier stehen (**fettgedruckt**) noch einige der wichtigsten anderen Tastaturkürz
 Skalieren und Drehen
 ----------------
 
-Eine häufige Frage ist, wie man eine Linie oder Form drehen kann, nachdem 
-sie gezeichnet wurde.
+Eine häufige Frage ist, wie man eine Linie oder Form rotiert, nachdem man es gezeichnet hat.
 
-- Um ein Objekt zu drehen, markieren Sie es zuerst.
-- Halten Sie **Umschalt+Strg** auf Ihrer Tastatur gedrückt.
-- Klicken und ziehen Sie mit der Maus, um das Objekt zu drehen.
+Zum rotieren erst das Objekt auswählen. **SHIFT+STRG** auf der Tastatur drücken. Klicken und halten und Maus bewegen zum Rotieren.
 
 ![Rotate demo][]
 
-Um ein Objekt zu skalieren (es also größer oder kleiner zu machen), verwenden Sie die gleiche 
-Prozedur, halten aber stattdessen Alt+Strg gedrückt.
+Ein Objekt zu skalieren (größer oder kleiner machen) geht genauso, aber stattdessen ALT+CTRL drücken.
 
 Diese Anleitung sehen Sie auch in der Informationsleiste unten in JOSM:
 

@@ -35,7 +35,7 @@ Per usare il Tasking Manager di HOT devi registrarti su OpenStreetMap (OSM) con 
 
 ### Strumenti di editing 
 
-[iD](http://learnosm.org/it/beginner/id-editor/) - l'editor via web creato da [Mapbox](www.mapbox.com) con un'interfaccia molto amichevole. Di solito considerato come il miglior strumento iniziale per modificare. Potete eseguire questo [tutorial interattivo dell'editor iD](http://ideditor.com/) per famigliarizzare su come si usa.  
+[iD](http://learnosm.org/it/beginner/id-editor/) - l'editor via web creato da [Mapbox](http://www.mapbox.com) con un'interfaccia molto amichevole. Di solito considerato come il miglior strumento iniziale per modificare. Potete eseguire questo [tutorial interattivo dell'editor iD](http://ideditor.com/) per famigliarizzare su come si usa.  
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
@@ -58,7 +58,7 @@ Questa guida è stata riassunta e collezionata da vari tutorial esistenti e da u
 
 #### Tutorial
 
-[Guida alla mappatura remota di LearnOSM](http://learnosm.org/en/coordination/remote/)- una delle guide più complete  
+[Guida alla mappatura remota di LearnOSM](http://learnosm.org/it/coordination/remote/)- una delle guide più complete  
 
 [tutorial per imparare a mappare di MapGive](http://mapgive.state.gov/learn-to-map/)- include video che potete mettere in pausa mentre li seguite  
 

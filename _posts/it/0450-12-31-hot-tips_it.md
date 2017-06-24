@@ -30,7 +30,7 @@ Menù d'aiuto per iD - sempre disponibile mentre stai editando, include un tutor
 
 [La guida di Blake Girardot per mappare l'Africa Occidentale](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
 
-Se sei nuovo di OpenStreetMap i seguenti moduli della nostra sezione introduttiva ti saranno utili;  
+Se sei nuovo di OpenStreetMap i seguenti moduli della nostra sezione introduttiva ti saranno utili:  
 
 -  [Introduzione alla mappatura](/it/beginner/introduction/)  
 -  [OpenStreetMap.org](/it/beginner/start-osm/)

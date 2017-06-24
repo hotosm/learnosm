@@ -10,13 +10,13 @@ Plugin per JOSM
 ============
 
 > Questa guida può essere scaricata come [josm-plugins_it.odt](/files/josm-plugins_it.odt) oppure [josm-plugins_it.pdf](/files/josm-plugins_it.pdf)  
-> Revisionato il 2015-07-14  
+> Revisionato il 2017-06-21  
 
 Diventando più esperto nelle tecniche di mappatura, potrebbe venirti la voglia di utilizzare funzioni aggiuntive di JOSM per migliorare le tue capacità di mappatore. JOSM ti permette di installare numerose estensioni (comunemente chiamate plugin), che aggiungono funzionalità extra al software.  
 
-In questa sezione vedremo come installare i plugin, e alcuni dei plugin più utili che sono disponibili.
+In questa sezione vedremo come installare i plugin (estensioni), e alcuni dei plugin più utili che sono disponibili.
 
-Installare i plugin
+Installare i plugin (estensioni)
 -------------------
 Quando vuoi installare (o rimuovere) un plugin, vai su **Modifica \> Preferenze** e clicca sulla scheda **Estensioni**.  
 

@@ -212,5 +212,5 @@ können.
 [JOSM select tool]: /images/josm/josm_select-tool.png
 [JOSM area downloaded]: /images/josm/josm_area-downloaded.png
 [JOSM Upload Button]: /images/josm/josm_upload-button.png
-[JOSM Upload Dialog]: /images/josm/josm_upload-dialog.png
-[JOSM Authenticate]: /images/josm/josm_authenticate.png
+[JOSM Upload Dialog]: /images/josm/josm_upload-dialog_de.png
+[JOSM Authenticate]: /images/josm/josm_authenticate_de.png

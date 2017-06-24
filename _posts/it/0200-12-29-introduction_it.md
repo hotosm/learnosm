@@ -78,4 +78,4 @@ a creare mappe digitali con OpenStreetMap.
 [Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
 [Examples of symbols]: /images/beginner/examples-of-symbols.png
 [Mapping on Computer]: /images/beginner/mapping-on-computer.png
-[Digital maps with OpenStreetMap]: /images/beginner/digital-maps-with-osm.png
+[Digital maps with OpenStreetMap]: /images/beginner/digital-maps-with-osm_it.png

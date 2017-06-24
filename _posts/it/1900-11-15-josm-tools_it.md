@@ -96,7 +96,7 @@ Questo strumento allinea una serie di punti in una linea diritta.  Con linee lun
 
 ### Ortogonalizza figura
 
-Questo strumento è molto utile per disegnare forme regolari come i palazzi (**ma guarda anche  [Altri plugin di JOSM](/it/josm/josm-more-plugins/)**).  Dopo che avrai disegnato un'area, questo strumento la rimodellerà per avere gli angoli perpendicolari.
+Questo strumento è molto utile per disegnare forme regolari come i palazzi (**ma guarda anche  [JOSM building tools](/it/josm/josm-more-plugins/)**).  Dopo che avrai disegnato un'area, questo strumento la rimodellerà per avere gli angoli squadrati.
 
 ![Orthagonalize][]
 
