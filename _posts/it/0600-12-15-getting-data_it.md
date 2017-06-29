@@ -1,16 +1,16 @@
 ---
 layout: doc
-title: Ottenere i dati OSM
+title: Ottenere dati OSM
 permalink: /it/osm-data/getting-data/
 lang: it
 category: osm-data
 ---
 
-Ottenere i dati OSM
+Ottenere dati OSM
 =================  
 
 > Questa guida può essere scaricata come [Getting_OSM_Data_it.odt](/files/Getting_OSM_Data_it.odt) o [Getting_OSM_Data_it.pdf](/files/Getting_OSM_Data_it.pdf)  
-> Revisionato il 04-05-2016
+> Revisionato il 25-06-2017
 
 Quando vuoi ottenere i dati OpenStreetMap più recenti, il modo più semplice è scaricarne un estratto da un sito web. Ci sono diversi servizi web che forniscono estratti per un'area a tua scelta.  
 
@@ -49,7 +49,7 @@ per personalizzare la selezione dei tag da includere nell'estratto. Il servizio 
 
 ### BBBike  
 
-Tu puoi selezionare un'area di qualsiasi parte del mondo usando il servizio a [http://extract.bbbike.org/](http://extract.bbbike.org/). Lo svantaggio è che non puoi scegliere quali tag includere, inoltre la quantità di dati che puoi scaricare è limitata.    
+Tu puoi selezionare un'area di qualsiasi parte del mondo usando il servizio a [http://extract.bbbike.org/](http://extract.bbbike.org/). Lo svantaggio è che non puoi scegliere quali tag includere, inoltre la quantità di dati che puoi scaricare è limitata.  
 
 ### Overpass
 
@@ -86,7 +86,7 @@ url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$
 wget -O $file "$url"
 ```
 >Cosa succede qui (per il curioso che non vuole leggere la documentazione completa del linguaggio di interrogazione)?  
-nodi(...) seleziona tutti i nodi dentro un riquadro  
+nodi(...) seleziona tutti i nodi dentro un riquadro;  
 ><ricorsione all'insù completa, cioè seleziona tutte le way (linee) contenente questi nodi e tutte le relazioni contenenti questi nodi e way (linee);  
 >rel(br)seleziona tutte le relazioni-padre delle relazioni ottenute finora (altrimenti le relazioni superiori non sarebbero ottenute)
 >
@@ -96,7 +96,7 @@ nodi(...) seleziona tutti i nodi dentro un riquadro
 Sommario
 -------  
 
-I servizi citati in questo capitolo sono tutto ciò che l'utente medio ha bisogno per recuperare i dati OSM che vuole e per essere in grado di lavorarci con programmi GIS. Tuttavia, potresti voler imparare metodi più potenti di lavorare con gli stessi dati. I capitoli successivi di questa sezione sono molto tecnici, ma mostrano metodi avanzati per manipolare ed accedere ai dati OSM.  
+I servizi citati in questo capitolo sono tutto ciò che l'utente medio ha bisogno per recuperare i dati OSM che vuole e per essere in grado di lavorarci con programmi GIS. Tuttavia, potresti voler imparare metodi più potenti per lavorare con gli stessi dati. I capitoli successivi di questa sezione sono molto tecnici, ma mostrano metodi avanzati per manipolare ed accedere ai dati OSM.  
 
 
 [hot exports]: /images/osm-data/hot-exports.png

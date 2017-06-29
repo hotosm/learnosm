@@ -10,7 +10,7 @@ plugin JOSM Building Tools & Utilsplugin2
 ============
 
 > Questa guida può essere scaricata come [josm-more-plugins_it.odt](/files/josm-more-plugins_en.odt) oppure [josm-more-plugins_it.pdf](/files/josm-more-plugins_en.pdf)  
-> Rivisto il 2016-09-12  
+> Rivisto il 2017-06-25  
 
 I plugin **buildings_tools** e **utilsplugin2** aggiungono delle belle funzionalità aggiuntive a JOSM. In questa sezione vedremo da vicino quali funzionalità forniscono.  
 
@@ -77,7 +77,7 @@ Dopo aver installato il plugin e riavviato JOSM, troverai un nuovo menu in alto,
 
 Crea un nuovo livello e prova alcuni dei nuovi strumenti. Qui ne descriviamo qualcuno dei più utili:  
 
-1. **Aggiungi nodi in corrispondenza delle intersezioni**. Questo strumento è molto utile per aggiungere i nodi mancanti alle intersezioni delle linee selezionate. E' buona pratica che le strade abbiano sempre dei nodi in comune quando si intersecano.  
+1. **Aggiungi nodi in corrispondenza delle intersezioni**. Questo strumento è molto utile per aggiungere i nodi mancanti alle intersezioni delle linee selezionate. E' richiesto che le strade abbiano sempre un nodo in comune quando si intersecano.  
 
     ![Nodes interesection][]
 

@@ -12,19 +12,19 @@ Iniziare con un Tasking Manager - iD editor
 - TOC
 {:toc}
 
-Questa guida è scritta per [HOT Tasking Manager](http://tasks.hotosm.org/), ma i principi sono gli stessi per tutte le versioni.  
+Questa guida è scritta per [HOT Tasking Manager](http://tasks.hotosm.org/), ma i principi sono gli stessi per tutte le versioni, compresa l'istanza installata dalla [comunità italiana](http://osmit-tm.wmflabs.org/).  
 
 L'essenziale
 --------------
 
 ![TM Start][]
 
-> Questa immagine ![keymon]{: height="24px"} mostra quali pulsanti o ruota del mouse sono stati usati, e quali tasti sono stati premuti.  
+> Questa immagine ![keymon]{: height="24px"} mostra quali pulsanti o rotellina del mouse sono stati usati, e quali tasti sono stati premuti.  
 
 1. Andate ad un sito Tasking Manager (TM), per esempio <http://tasks.hotosm.org/>. Usando le vostre credenziali <http://www.openstreetmap.org>, autorizzate il Tasking Manager ad accedere al vostro account OpenStreetMap.  
 2. Iniziate con un progetto impostato per nuovi mappatori - questi sono sovente progetti 'solo edifici'.  
 3. Leggete la **Descrizione** e le **Istruzioni** e assicuratevi di aver capito cosa è necessario prima di iniziare. 
-4. La mappatura è controllata da 'validatori' che sovente mandano messaggi dando apprezzabile riscontro dei vostri contributi.  
+4. La mappatura è controllata da 'validatori' che sovente mandano messaggi dando apprezzabile riscontro ai vostri contributi.  
 ![TM-start-at-top]{: height="100px"}  
 **Suggerimento -** Molti validatori iniziano a lavorare dalla parte superiore della mappa e procedono verso il basso - è più probabile che riceviate riscontri già nella fase iniziale se usando la mappa selezionate un riquadro il più possibile in alto. (I riquadri gialli sono stati marcati come completi, e quelli verdi sono stati marcati come completi e validati). Selezionate un riquadro bianco o grigio chiaro - altre informazioni nella [Guida al Tasking Manager](/it/coordination/tasking-manager/).  
 5. Iniziate a mappare - potreste aver bisogno di leggere altre sezioni in questo capitolo Consigli per HOT prima di procedere. Le sezioni su [edifici circolari](/it/hot-tips/tracing-round-buildings/) o [Edifici con angoli squadrati](/it/hot-tips/tracing-rectangular-buildings/) possono essere utili.  

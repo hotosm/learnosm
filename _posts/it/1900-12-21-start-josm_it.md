@@ -266,13 +266,13 @@ Eccellente! Se tutto è andato bene dovresti aver imparato come impostare JOSM s
 computer e ad usare gli strumenti di base per tracciare le mappe. Nel prossimo capitolo
 approfondiremo il processo di editing della mappa OSM con JOSM.
 
-[JOSM website]: /images/josm/josm-website.png
-[Windows installer]: /images/josm/windows-installer.png
-[JOSM splash page]: /images/josm/josm-splash-page.png
-[Preferences window]: /images/josm/josm_preferences.png
-[Look and feel]: /images/josm/josm_look-and-feel.png
+[JOSM website]: /images/josm/josm-website_it.png
+[Windows installer]: /images/josm/windows-installer_it.png
+[JOSM splash page]: /images/josm/josm-splash-page_it.png
+[Preferences window]: /images/josm/josm_preferences_it.png
+[Look and feel]: /images/josm/josm_look-and-feel_it.png
 [Open file]: /images/josm/josm_open-file.png
-[Sample file]: /images/josm/josm_sample-file.png
+[Sample file]: /images/josm/josm_sample-file_it.png
 [Scale bar]: /images/josm/josm_scale-bar.png
 [Select tool]: /images/josm/josm_select-tool.png
 [Draw tool]: /images/josm/josm_draw-tool.png

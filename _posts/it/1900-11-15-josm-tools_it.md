@@ -45,7 +45,7 @@ Per utilizzare gli strumenti del menù, prima devi selezionare un punto, una lin
 
 - Poi, scegli Strumenti->Disponi i nodi in cerchio. Il cerchio disegnato malamente diventerà perfettamente circolare.
 
-Sperimenta ogni strumento utilizzando il file di esempio.  Una descrizione di alcuni di questi strumenti è fornita in seguito. 
+Sperimenta ogni strumento utilizzando il file di esempio.  Una descrizione di alcuni di questi strumenti è fornita in seguito.
 
 ### Dividi percorso  
 
@@ -76,7 +76,7 @@ Questo strumento cambia la direzione della linea. Tutte le linee in JOSM hanno u
 
 ### Semplifica percorso
 
-Se le linee hanno troppi punti e vorresti semplificarle, questo strumento rimuove alcuni punti da una linea.
+Se le linee hanno troppi punti e vorresti semplificarle, questo strumento rimuove alcuni punti da una linea. Eliminando dei punti da un percorso si introducono degli scostamenti dal percorso originale. Normalmente questo strumento è impostato per semplificare ottenendo uno scarto massimo di 3 metri rispetto al percorso originale; è possibile modificare lo scarto massimo introdotto modificando il parametro simplify-way.max-error che puoi trovare nelle Impostazioni avanzate (per accedere a questo menù occorre aver selezionato la Modalità avanzata.
 
 ![Simplify way][]
 
@@ -103,7 +103,7 @@ Questo strumento è molto utile per disegnare forme regolari come i palazzi (**m
 
 ### Disconnetti nodo da percorso
 
-Questo strumento permette di staccare i nodi che sono connessi.  E' utile quando due oggetti condividono un nodo anche se non dovrebbero.  Ad esempio un errore comune è quando una strada condivide un nodo con un angolo di una casa.  Normalmente le strade non entrano dentro le case, è un errore, così puoi scollegare un oggetto dall'altro.
+Questo strumento permette di staccare i nodi che sono connessi.  E' utile quando due oggetti condividono un nodo anche se non dovrebbero.  Ad esempio un errore comune è quando una strada condivide un nodo con un angolo di una casa.  Normalmente le strade non entrano dentro le case, è un errore, in questo modo puoi scollegare un oggetto dall'altro.
 
 ![Unglue way][]
 
@@ -114,16 +114,16 @@ Scorciatoie da tastiera
 
 Quando cominci a modificare da un po' di tempo, ti accorgi di sprecare molto tempo cliccando su menù e sottomenù.  Per risolvere questo problema, JOSM ha delle scorciatoie da tastiera quasi per tutto.
 
-In pratica anzichè cliccare un oggetto e procedere in una lunga scelta di menù, puoi semplicemente scegliere un oggetto e premere un tasto sulla testiera.
+In pratica anzichè cliccare un oggetto e procedere in una lunga scelta di menù, puoi semplicemente scegliere un oggetto e premere un tasto sulla tastiera.
 
 Tutti gli strumenti menzionati in precedenza hanno delle scorciatoie, che sono elencate nel menù Strumenti alla destra del nome dello strumento.  Ad esempio "O" è il
 tasto per allineare i nodi in cerchio.  "L" serve per allineare i nodi in linea.  Può volerci tempo per imparare le scorciatoie, ma vedrai che 
-risparmierai un sacco di tempo alla fine.
+alla fine risparmierai un sacco di tempo.
 
-Qui ci sono altre scorciatoie (in **grassetto**) tra le più importanti. 
+Qui ci sono altre scorciatoie (in **grassetto**) quelle più importanti. 
 
-1.  Attivare il dispositivo di selezione - **S**
-2.  Attivare il dispositivo di disegno - **A**
+1.  Attivare la modalità selezione - **S**
+2.  Attivare la modalità disegno - **A**
 3.  Attivare il dispositivo di zoom - **Z**
 4.  Cancellare gli oggetti selezionati - **CANC** (oppure **DEL*)
 5.  Ingrandire - **+**
@@ -135,13 +135,13 @@ Scalare e ruotare
 
 Una domanda comune è come ruotare una linea o ridimensionarla dopo che è stata disegnata.
 
-Per ruotare un oggetto, per prima cosa devi selezionarlo.  Tieni premuto **SHIFT+CTRL**. Fai clic e sposta il mouse per ruotare.
+Per ruotare un oggetto, per prima cosa devi selezionarlo.  Tieni premuto **SHIFT+CTRL**. Fai clic e sposta il mouse per ruotarlo.
 
 ![Rotate demo][]
 
 Per ridimensionare un oggetto (renderlo più grande o più piccolo), fai la stessa cosa, ma tieni premuto ALT+CTRL.
 
-Queste itruzioni sono mostrate sulla barra informativa di JOSM in basso: 
+Queste istruzioni sono mostrate sulla barra informativa di JOSM in basso: 
 
 ![Rotate instructions][]
 

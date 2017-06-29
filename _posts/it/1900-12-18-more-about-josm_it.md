@@ -205,12 +205,12 @@ territorio.
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png
-[JOSM Download Dialog]: /images/josm/josm_download-dialog.png
+[JOSM Download Dialog]: /images/josm/josm_download-dialog_it.png
 [JOSM Preferences up down]: /images/josm/josm_preferences-up-down.png
 [JOSM Preferences WMS TMS]: /images/josm/josm_preferences-wms-tms.png
-[JOSM layout]: /images/josm/josm_layout.png
+[JOSM layout]: /images/josm/josm_layout_it.png
 [JOSM select tool]: /images/josm/josm_select-tool.png
-[JOSM area downloaded]: /images/josm/josm_area-downloaded.png
+[JOSM area downloaded]: /images/josm/josm_area-downloaded_it.png
 [JOSM Upload Button]: /images/josm/josm_upload-button.png
-[JOSM Upload Dialog]: /images/josm/josm_upload-dialog.png
-[JOSM Authenticate]: /images/josm/josm_authenticate.png
+[JOSM Upload Dialog]: /images/josm/josm_upload-dialog_it.png
+[JOSM Authenticate]: /images/josm/josm_authenticate_it.png
