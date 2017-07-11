@@ -12,41 +12,41 @@ Formati di file
 > Questa guida può essere scaricata come [File_Formats_it.odt](/files/File_Formats_it.odt) oppure [File_Formats_it.pdf]/files/File_Formats_it.pdf)  
 > Revisionato il 05/09/2016
 
-Come per molti tipi di dati, ci sono molti metodi per salvare nel computer dati di tipo geografico. Si possono salvare all'interno di "database", ovvero sistemi in grado di salvare ed esportare dati, e all'interno dei "database" ce ne sono alcuni, specificatamente progettati per i dati geografici. Si può anche salvare dati geografici all'interno del computer come un file tradizionale, tuttavia esistono molti formati di file specifici per i dati geografici.   
+Come qualsiasi tipo di dato, ci sono molti metodi per salvare nel computer dati di tipo geografico. Si possono salvare all'interno di un database, ovvero sistemi in grado di salvare ed esportare dati, e all'interno dei database ce ne sono alcuni, specificatamente progettati per i dati geografici. Si può anche salvare dati geografici all'interno del computer come un file tradizionale, tuttavia esistono molti formati di file specifici per i dati geografici.   
 
 In questa sezione passeremo in rassegna alcuni modi di immagazzinare dati geografici, spiegando come lavorano e come vengono usati normalmente.  
 
 file .OSM
 -----------
 
-il formato di file **.osm** è specifico di OpenStreetMap. Non ci ti imbatti in altro modo. Se hai mai scaricato file usando JOSM e salvandoli come file, ti sarai potuto accorgere che non è facile aprire questi file usando software come QGIS.  
+il formato di file **.osm** è specifico di OpenStreetMap. Non lo incontri altrove. Se hai mai scaricato file usando JOSM e salvandoli come file, avrai notato che il file viene salvato con l'estensione **.osm**. Se sei un utente GIS ti sarai accorto che non è facile aprire questi file usando un software come QGIS.  
 
 Ma perchè OSM salva i dati in un formato che nessun altro usa? La risposta è che molti formati di dati geografici risalgono a prima dell'invenzione di internet, e sono progettati per accedervi velocemente e interrogarli come si interrogherebbe un database. I dati OSM invece sono progettati per poter essere trasmessi e ricevuti via internet in un formato standard. Perciò i file **.osm** sono codificati in XML, e contengono dati geografici in un formato ordinato e strutturato. Un file **.osm** se aperto con un editor di testo assomiglierebbe a questo:  
 
 ![Sample OSM XML file][]
 
-Ottenere dati in formato  **.osm** è facile - accade ogni volta che tu scarichi dati in JOSM, ma usare questi file per analisi e costruire mappe non è semplice. Per fare ciò è meglio che converti i dati in un altro formato, o li scarichi da un servizio che li converte per te.  
+Ottenere dati in formato  **.osm** è facile - accade ogni volta che tu scarichi dati in JOSM, ma usare questi file per analisi e costruire mappe non è semplice. Per fare ciò è meglio che converti i dati in un altro formato, o li scarichi da un servizio che li converta per te.  
 
 >I dati grezzi OSM sono normalmente immagazzinati in file **.osm**, ma puoi trovare anche file con estensioni **.bz2** e **.pbf**. Questi sono sempre file **.osm** che sono stati compressi per salvare spazio, che può essere molto utile quando lavori con grossi file di dati.  
 
 Shapefiles
 ----------
 
-Il **shapefile** è un formato ampiamente usato per immagazzinare dati geografici vettoriali. E' stato sviluppato dalla ESRI, la società che sviluppa ArcGIS, un popolare pacchetto di applicazioni GIS.  
+Lo **shapefile** è un formato ampiamente usato per immagazzinare dati geografici vettoriali. E' stato sviluppato dalla ESRI, la società che sviluppa ArcGIS, un popolare pacchetto di applicazioni GIS.  
 
 In realtà gli Shapefile sono una collezione di differenti file. Per esempio, uno shapefile che contiene edifici potrebbe avere file con le seguenti estensioni:  
 
--buildings.**shp**
-buildings.**shx**
--buildings.**dbf**
+-	buildings.**shp**
+-	buildings.**shx**
+-	buildings.**dbf**
 
 Gli Shapefile avranno spesso ulteriori file che contengono altre informazioni.  
 
-Uno shapefile deve essere progettato per contenere solo un tipo di caratteristiche (punti, linee o poligoni), e ogni caratteristica ha i suoi attributi contenuti in una tabella. Contrariamente al sistema OpenStreetMap in cui ogni oggetto può avere un numero illimitato di tag, gli attributi di una caratteristica in un shapefile devono stare all'interno della struttura definita della tabella dello shapefile, che potrebbe somigliare a questa:  
+Uno shapefile deve essere progettato per contenere un solo tipo di caratteristica (punto, linea o poligono) e ogni caratteristica ha i suoi attributi contenuti in una tabella. Contrariamente al sistema OpenStreetMap in cui ogni oggetto può avere un numero illimitato di tag, gli attributi di una caratteristica in un shapefile devono stare all'interno della struttura definita della tabella dello shapefile, che potrebbe somigliare a questa:  
 
 ![Shapefile attributes][]
 
-I dati OpenStreetMap possono essere convertiti in shapefile. Alcuni siti forniscono shapefile convertiti da dati OSM. Questi saranno discussi nel [prossimo capitolo](/en/osm-data/getting-data).  
+I dati OpenStreetMap possono essere convertiti in shapefile. Alcuni siti forniscono shapefile convertiti da dati OSM. Questi saranno discussi nel [prossimo capitolo](/it/osm-data/getting-data).  
 
 I database
 ---------
