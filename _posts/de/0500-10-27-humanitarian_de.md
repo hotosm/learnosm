@@ -11,7 +11,7 @@ category: coordination
 ![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
 
 > Dieses Handbuch kann als  [humanitarian_de.odt](/files/humanitarian_de.odt) oder als [humanitarian_de.pdf](/files/humanitarian_de.pdf) heruntergeladen werden.  
-> Reviewed 2015-09-18
+> Gereviewt am 2015-09-18
 
 Vielen Dank, dass Sie sich für die Leute vor Ort und für Hilfsorganisationen einsetzen und ihnen aktualisierte Kartendaten für die Bewältigung einer Krisensituation liefern.  
 

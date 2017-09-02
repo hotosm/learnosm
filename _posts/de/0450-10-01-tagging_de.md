@@ -19,7 +19,7 @@ Dieses Bild ![keymon]{: height="24px"} zeigt Ihnen, welche Knöpfe und Räder an
 Warum Attribute gebraucht werden
 -------------------
 
-Ohne ein Tag hat ein Element keine Bedeutung und Karten werden es nicht anzeigen. Das Tag erklärt dem Computer, was das Feature eigentlich ist. Wenn Sie etwas finden, wo das Tag "fehlt", fügen Sie bitte das Tag hinzu. Wenn ein Element getaggt ist, wird es eine Farbe haben, wie z. B. die rote Farbe des Gebäudes, das im obigen Bild markiert ist. **Wenn es weiß ist, untersuchen Sie es und fügen Sie das Tag hinzu, wenn es fehlt.**  
+Ohne ein Tag hat ein Element keine Bedeutung und Karten werden es nicht anzeigen. Das Tag erklärt dem Computer, was das Kartenelement eigentlich ist. Wenn Sie etwas finden, wo das Tag "fehlt", fügen Sie bitte das Tag hinzu. Wenn ein Element getaggt ist, wird es eine Farbe haben, wie z. B. die rote Farbe des Gebäudes, das im obigen Bild markiert ist. **Wenn es weiß ist, untersuchen Sie es und fügen Sie das Tag hinzu, wenn es fehlt.**  
 
 ![tagged-building][]  
 
@@ -46,7 +46,7 @@ Siehe [Highways section of this HOT-tips section](/de/hot-tips/highways/) für w
 
 ### Relationen - wie Gebäude mit einem Innenhof oder Inseln in einem Fluss ###
 
-Einige Features haben ihre Tags auf einer **Relation** und nicht auf dem Feature selbst. Wenn Sie auf Ihrem Bildschirm die Erwähnung einer Relation sehen, dann ist der beste Rat für einen absoluten Anfänger  es "in Ruhe zu lassen".  
+Einige Kartenelemente haben ihre Tags auf einer **Relation** und nicht auf dem Kartenelement selbst. Wenn Sie auf Ihrem Bildschirm die Erwähnung einer Relation sehen, dann ist der beste Rat für einen absoluten Anfänger  es "in Ruhe zu lassen".  
 
 Für weitere Informationen zu Relationen (**kein Anfänger Thema**) siehe:  
 

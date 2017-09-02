@@ -9,7 +9,7 @@ category: osm-data
 Geofabrik und den HOT Export benutzen
 ================
 
-> Diese Anleitung kann als [Geofabrik_and_HOT_Export_de.odt](/files/Geofabrik_and_HOT_Export_de.odt) or [Geofabrik_and_HOT_Export_de.pdf](/files/Geofabrik_and_HOT_Export_de.pdf) heruntergeladen werden  
+> Diese Anleitung kann als [Geofabrik_and_HOT_Export_de.odt](/files/Geofabrik_and_HOT_Export_de.odt) oder [Geofabrik_and_HOT_Export_de.pdf](/files/Geofabrik_and_HOT_Export_de.pdf) heruntergeladen werden  
 > Geprüft 2016-09-05  
 
 Nachdem wir gelernt haben, wie man Daten bearbeitet und zu OpenStreetMap (OSM) hinzufügt, möchten Sie diese Daten vielleicht bekommen, um sie als Sicherungskopie zu haben oder sie mit Hilfe von geographischen Informationssystemen, die Open Source sind, wie zum Beispiel Quantum GIS ([www.qgis.org](http://www.google.com/url?q=http%3A%2F%2Fwww.qgis.org%2F&sa=D&sntz=1&usg=AFQjCNFCIP2pVPi5ohw-5H7tJ4CzApRQlg)) zu verarbeiten.  

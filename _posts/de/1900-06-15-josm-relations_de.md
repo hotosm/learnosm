@@ -10,7 +10,7 @@ Relationen
 ==========
 
 > Diese Anleitung kann heruntergeladen werden als [josm_relations_en.odt](/files/josm_relations_en.odt) oder [josm_relations_en.pdf](/files/josm_relations_en.pdf)  
-> Reviewed 2017-06-06  
+> Gereviewt am 2017-06-06  
 
 Im [Beginner’s Guide](/en/beginner) haben wir erklärt, dass es drei Arten von erzeugbaren Objekten in OpenStreetMap gibt - Punkte (Nodes), Linien (Wege) und Polygone (geschlossene Wege). Linien beinhalten ein Anzahl von Punkten und die Linie selbst trägt die Attribute, die definieren was sie repräsentiert. Polygone sind ähnlich wie Linien, mit der Ausnahme, dass sie dort enden müssen wo sie beginnen, um einen Umriss zu bilden.  
 
@@ -68,7 +68,7 @@ Multipolygone können für komplexe Objekte verwendet werden, welche innere und 
 Routen Relationen
 ----------------
 
-Relationen sind auch sehr nützlich um lange Routen darzustellen. Eine Busroute oder Fahrradstrecke folgt etlichen Straßensegmenten zum Beispiel. Um eine solche Route zu definieren kann man eine Relation erstellen, welche alle Straßensegmente die Reil der Route sind enthält. Weitere Features können auch Teil der Routenrelation sein, z.B. Bushaltestellen.  
+Relationen sind auch sehr nützlich um lange Routen darzustellen. Eine Busroute oder Fahrradstrecke folgt etlichen Straßensegmenten zum Beispiel. Um eine solche Route zu definieren kann man eine Relation erstellen, welche alle Straßensegmente die Reil der Route sind enthält. Weitere Kartenelemente können auch Teil der Routenrelation sein, z.B. Bushaltestellen.  
 
 ![Route relation][]
 

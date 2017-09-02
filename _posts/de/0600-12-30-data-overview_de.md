@@ -10,8 +10,8 @@ OSM Datenübersicht
 ==================
 
 
-> Diese Anleitung kann heruntergeladen werden als [OSM_Data_Overview_en.odt](/files/OSM_Data_Overview_en.odt) or [OSM_Data_Overview_en.pdf](/files/OSM_Data_Overview_en.pdf)  
-> Reviewed 2016-09-05
+> Diese Anleitung kann heruntergeladen werden als [OSM_Data_Overview_en.odt](/files/OSM_Data_Overview_en.odt) oder [OSM_Data_Overview_en.pdf](/files/OSM_Data_Overview_en.pdf)  
+> Gereviewt am 2016-09-05
 
 <!-- In diesem Abschnitt werden wir betrachten wie OpenStreetMap arbeitet, was und dabei hilft zu verstehen wie die Daten aufgebaut sind und wie wir es am besten nutzen.-->
 
@@ -43,7 +43,7 @@ Das ist großartig, aber wie kommt man an die gewünschten Daten?
 In diesem Kapitel werden wir zeigen, wie man OSM Daten exportieren kann. Wir bleiben bei den Grundlagen, aber behalten im Hinterkopf, dass man zum effektiven Arbeiten mit den Daten vielleicht GIS Software benötigt,
 wie die freie Quantum GIS Software.  
 
-Bevor wir beginnen, brauchen wir einige Begriffe. Als erstes, **Exportieren** bedeutet Daten aus dem ursprünglichen XML Format in ein für sich passenderes Format zu konvertieren. Im unterschied bedeutet **Extrahieren** Daten aus einem ausgewählten Bereich auszuschneiden. Es kann auch bedeuten nur bestimmte Features aus einem Gebiet herauszuziehen. Wir verwenden diese Begriffe öfters in diesem Kapitel, daher ist es wichtig den Unterschied zu verstehen.  
+Bevor wir beginnen, brauchen wir einige Begriffe. Als erstes, **Exportieren** bedeutet Daten aus dem ursprünglichen XML Format in ein für sich passenderes Format zu konvertieren. Im unterschied bedeutet **Extrahieren** Daten aus einem ausgewählten Bereich auszuschneiden. Es kann auch bedeuten nur bestimmte Kartenelemente aus einem Gebiet herauszuziehen. Wir verwenden diese Begriffe öfters in diesem Kapitel, daher ist es wichtig den Unterschied zu verstehen.  
 
 Die OSM API
 ------------

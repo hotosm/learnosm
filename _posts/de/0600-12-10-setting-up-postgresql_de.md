@@ -10,7 +10,7 @@ PostgreSQL & PostGIS
 ====================
 
 > Diese Anleitungen kann heruntergeladen werden unter [PostgreSQL_en.odt](/files/PostgreSQL_en.odt) oder [PostgreSQL_en.pdf](/files/PostgreSQL_en.pdf)  
-> Reviewed 2016-09-10
+> Gereviewt am 2016-09-10
 
 In diesem Kapitel werden wir sehen wie man PostgreSQL unter Windows aufsetzt und eine Datenbank erstellt in der man geografische Daten speichern kann. Wir verwenden Open Source GIS Software QGIS in diesem Kapitel, es ist als hilfreich, wenn man bereits damit umgehen kann. Im folgenden Kapitel werden wir uns anschauen, wie man OpenStreetMap Daten in eine PostgreSQL Datenbank importiert.  
 
@@ -138,7 +138,7 @@ Man lädt nun die Daten aus der Datenbank in die QGIS Anwendung. Falls man kein 
 ![connection settings][]
 
 -	Man klickt **OK** um die Verbindungseinstellungen zu speichern.  Dann “Verbinden” um sich zum PostgreSQL Server zu verbinden. Man muss gegebenenfalls Benutzername und Passwort erneut angeben.  
--	Wenn alles korrekt gelaufen ist, sieht man den Shapefile Layer (oder mehrere Layer mit unterschiedlichen Feature Typen), welche man in die Datenbank geladen hat. Man wählt einen Layer und klickt "**Hinzufügen**" um ihn zur Karte hinzuzufügen.  
+-	Wenn alles korrekt gelaufen ist, sieht man den Shapefile Layer (oder mehrere Layer mit unterschiedlichen Kartenelementtypen), welche man in die Datenbank geladen hat. Man wählt einen Layer und klickt "**Hinzufügen**" um ihn zur Karte hinzuzufügen.  
 
 ![your data layer][]
 

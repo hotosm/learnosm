@@ -9,8 +9,8 @@ category: josm
 Bilder Offset
 ===============
 
-> Diese Anleitung kann heruntergeladen werden als  [correcting-imagery-offset_en.odt](/files/correcting-imagery-offset_en.odt) or [correcting-imagery-offset_en.pdf](/files/correcting-imagery-offset_en.pdf)  
-> Reviewed 2015-09-21  
+> Diese Anleitung kann heruntergeladen werden als  [correcting-imagery-offset_en.odt](/files/correcting-imagery-offset_en.odt) oder [correcting-imagery-offset_en.pdf](/files/correcting-imagery-offset_en.pdf)  
+> Gereviewt am 2015-09-21  
 
 Bilder Anbieter machen meistens einen gute Job bei der Georeferenzierung ihrer Bilder, aber gelegentlich können die Bilder von der Position abweichen. Dies geschieht meistens in hügelreichen oder bergigen Regionen, wo es schwer ist, flache Bilder über über eine konturenreiche Region der Erde zu legen. Lädt man Bilder in JOSM, können diese zehn Meter oder mehr von ihrer eigentlichen Position abweichen. Das nennt man **Bilder Offset**.  
 

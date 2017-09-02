@@ -9,8 +9,8 @@ category: josm
 Luftbilder
 ================
 
-> Diese Anleitung kann heruntergeladen werden als  [aerial-imagery_en.odt](/files/aerial-imagery_en.odt) or [aerial-imagery_en.pdf](/files/aerial-imagery_en.pdf)  
-> Reviewed 2015-09-21  
+> Diese Anleitung kann heruntergeladen werden als  [aerial-imagery_en.odt](/files/aerial-imagery_en.odt) oder [aerial-imagery_en.pdf](/files/aerial-imagery_en.pdf)  
+> Gereviewt am 2015-09-21  
 
 Bilder abzuzeichnen ist ein einfacher und mächtiger Weg zu OSM beizutragen. Bilder zu verwenden, um Punkte, Linien und Formen am Boden zu zeichnen nennt man **Sesselmappen**. Es kann oft getrennt werden vom Attribute Sammeln vor Ort, was man **Vor-Ort-Erhebung** nennt. Luftbilder abmalen bietet ein Gerüst für OSM Karten, was die Vort-Ort-Erhebung für Menschen im Feld erleichtert. In diesem Kapitel lernen wie ein bisschen mehr darüber, wie Luftbilder arbeiten.  
 

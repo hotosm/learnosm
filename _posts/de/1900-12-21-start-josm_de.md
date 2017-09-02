@@ -10,7 +10,7 @@ published: true
 Erste Schritte beim Editieren mit JOSM
 =============================  
 
-> Diese Anleitung kann unter [josm_start-josm_de.odt](/files/josm_start-josm_de.odt) or [josm_start-josm_de.pdf](/files/josm_start-josm_de.pdf) heruntergeladen werden  
+> Diese Anleitung kann unter [josm_start-josm_de.odt](/files/josm_start-josm_de.odt) oder [josm_start-josm_de.pdf](/files/josm_start-josm_de.pdf) heruntergeladen werden  
 > Geprüft 2015-07-12  
 
 In diesem Kapitel werden wir Schritt für Schritt lernen, wie man JOSM, den Java OpenStreetmap Editor, herunterlädt und installiert. Damit die Benutzung einfacher wird, werden wir ein paar Enstellungen verändern. Anschließend werden wir eine Beispielkarte öffnen, und einige der grundlegenden Arbeitsschritte der Software lernen.

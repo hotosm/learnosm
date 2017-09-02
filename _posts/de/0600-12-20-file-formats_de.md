@@ -9,8 +9,8 @@ category: osm-data
 Dateiformate
 =============
 
-> Diese Anleitung kann heruntergeladen werden als [File_Formats_en.odt](/files/File_Formats_en.odt) or [File_Formats_en.pdf](/files/File_Formats_en.pdf)  
-> Reviewed 2016-09-05
+> Diese Anleitung kann heruntergeladen werden als [File_Formats_en.odt](/files/File_Formats_en.odt) oder [File_Formats_en.pdf](/files/File_Formats_en.pdf)  
+> Gereviewt am 2016-09-05
 
 Wie bei anderen Daten auch, gibt es mehrere Arten wie man geografische Daten auf einem Computer speichern kann. Man kann sie in Datenbanken, spezialisierten System zum Speichern und Abrufen von Daten, speichern und natürlich gibt es Datenbanken speziell designt zum Speichern von geografischen Daten. Sie können auch in herkömmlichen Computerdateien gespeichert werden, wobei es viele unterschiedliche Dateiformate für geografische Daten gibt.  
 
@@ -42,7 +42,7 @@ Shapefiles sind tatsächlich eine Sammlung unterschiedlicher Dateien. Ein Shapef
 
 Shapefiles haben oft auch zusätzliche Dateien, welche andere Informationen beinhalten.  
 
-Ein Shapefile kann nur einen Featuretyp (Punkte, Linien oder Polygone) beinhalten und jedes Feature hat seine Attribute in einer Tabelle beinhaltet. Anders als bei OpenStreetMap, wo jedes Objekt eine unbegrenzte Anzahl von Tags haben kann, müssen Featureattribute in einem Shapefile der im Shapefile definierte Tabellenstruktur entsprechen, welche wie folgt aussehen kann:  
+Ein Shapefile kann nur einen Kartenelemententyp (Punkte, Linien oder Polygone) beinhalten und jedes Kartenelement hat seine Attribute in einer Tabelle beinhaltet. Anders als bei OpenStreetMap, wo jedes Objekt eine unbegrenzte Anzahl von Tags haben kann, müssen Kartenelemente Attribute in einem Shapefile der im Shapefile definierte Tabellenstruktur entsprechen, welche wie folgt aussehen kann:  
 
 ![Shapefile attributes][]
 

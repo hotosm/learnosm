@@ -9,8 +9,8 @@ category: josm
 JOSM - Luftbilder hinzufügen
 ================
 
-> Diese Anleitung kann heruntergeladen werden als [josm_adding_imagery_en.odt](/files/josm_adding_imagery_en.odt) or [josm_adding_imagery_en.pdf](/files/josm_adding_imagery_en.pdf)  
-> Reviewed 2016-09-09  
+> Diese Anleitung kann heruntergeladen werden als [josm_adding_imagery_en.odt](/files/josm_adding_imagery_en.odt) oder [josm_adding_imagery_en.pdf](/files/josm_adding_imagery_en.pdf)  
+> Gereviewt am 2016-09-09  
 
 Nicht alle Luftbilder sind im JOSM Bilder Menü, aber man kann welche leicht hinzufügen, falls man die Link Informationen hat.  
 

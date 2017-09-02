@@ -29,7 +29,7 @@ Datenauszüge herunterladen
 
 [BBBike](http://download.bbbike.org/osm/bbbike/) bietet etwas ähnliches wie Metro Extracts, aber für andere Städte. Die Daten werden ebenfalls wöchentlich aktualisiert.
 
->Man beachte, dass Features in OpenStreetMap eine unbegrenzte Anzahl "freier" Tags besitzen,
+>Man beachte, dass Kartenelemente in OpenStreetMap eine unbegrenzte Anzahl "freier" Tags besitzen,
 >aber Shapefiles Attribute in einer begrenzten Anzahl an Spalten speichern. Das bedeutet,
 >dass wenn OSM Daten zu Shapefiles konvertiert werden, nur spezifizierte Tags
 >in der Shapefile Tabelle beinhaltet sein werden. Die zuvor genannten Webseiten bieten Shapefiles
