@@ -10,9 +10,9 @@ Immagini Aeree
 ================
 
 > Questa guida può essere scaricata come [aerial-imagery_it.odt](/files/aerial-imagery_it.odt) oppure [aerial-imagery_it.pdf](/files/aerial-imagery_it.pdf)  
-> Revisionato il 2015-09-21  
+> Revisionato il 2017-07-25  
 
-Tracciare immagini aeree è un modo semplice e potente di contribuire a OSM. Usare le immagini per disegnare punti, linee e forme è detto **digitizing** (digitalizzazione). Questa può anche essere separato dall'attività di raccolta di dati sul posto che è spesso chiamato **ground-truthing** (lavoro sul campo). Digitalizzare un'immagine può fornire lo scheletro delle mappe OSM, il che renderà più semplice l'attività delle persone sul campo. In questo capitolo impareremoqualcosa in più su come funzionano le immagini aeree.  
+Ricalcare immagini aeree è un modo semplice e potente di contribuire a OSM. Usare le immagini per disegnare punti, linee e forme è detto **digitizing** (digitalizzazione). Questa può anche essere separato dall'attività di raccolta di dati sul posto che è spesso chiamato **ground-truthing** (lavoro sul campo). Digitalizzare un'immagine può fornire lo scheletro delle mappe OSM, il che renderà più semplice l'attività delle persone sul campo. In questo capitolo impareremo qualcosa in più su come funzionano le immagini aeree.  
 
 Cosa sono
 -------------
@@ -47,7 +47,7 @@ Pensiamo un attimo a come funziona la georeferenziazione, e a perchè è così i
 
 Tutto ciò appare abbastanza semplice ma pensiamo un attimo, la terra è sferica, tuttavia le fotografie sono piatte, bidimensionali. Questo significa che, quando mappiamo un'immagine piatta sulla Terra sferica, ci sarà sempre uno stiramento dell'immagine e un po' di distorsione. Immagina di provare ad appiattire la buccia di un'arancia. Non diventerà mai rettangolare. A causa di questo problema tutti i pixel di un'immagine aerea non saranno proprio perfettamente posizionati.  
 
-Fortunatamente, delle persone veramente intelligenti hanno ideato degli ingegnosi algoritmi per risolvere questo problema. Quindi l'immagine che vedi su Bing è abbastanza prossima all'essere precisa. In molti posti non sarà affatto male e sarà di sicuro adatta a realizzare delle mappe. Le zone più comuni in cui le immagini presentano errori di posizionamento sono le zone montuose, collinari. Nel capitolo [correggere lo scostamento delle immagini](/it/josm/correcting-imagery-offset) vedremo come correggere questo problema.  
+Fortunatamente, delle persone veramente intelligenti hanno ideato degli ingegnosi algoritmi per risolvere questo problema. Quindi l'immagine che vedi su Bing è abbastanza prossima all'essere precisa. In molti posti non sarà affatto male e sarà di sicuro adatta a realizzare delle mappe. Le zone più comuni in cui le immagini presentano errori di posizionamento sono le zone montuose, ocollinari. Nel capitolo [correggere lo scostamento delle immagini](/it/josm/correcting-imagery-offset) vedremo come correggere questo problema.  
 
 [Image resolution]: /images/josm/orange-resolution.png
 [Comparison of low and high resolution imagery]: /images/josm/low-res-high-res.png

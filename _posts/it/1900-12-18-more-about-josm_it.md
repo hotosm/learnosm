@@ -97,7 +97,7 @@ diamo un'altra occhiata all'interfaccia di JOSM.
 
 Le finestra principale con cui ha già familiarizzato è quella della mappa, e 
 qui è dove si svolge la maggior parte dell'azione. Qui vedrai, editerai e
-ggiungerai dati a OpenStreetMap.
+aggiungerai dati a OpenStreetMap.
 
 Alla destra della finestra della mappa c'è una serie di pannelli, ognuno dei quali ha
 una funzione specifica. Tipicamente quando installi JOSM diversi

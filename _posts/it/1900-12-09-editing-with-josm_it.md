@@ -136,7 +136,7 @@ dell'oggetto sono modificati.
 - Poi modifica i tag in uno dei due modi: (1) utilizzando il menù "Preimpostazioni"
     oppure (2) modificando i valori nella finestra "Proprietà" a destra. 
 
-### Errori comuni: assegnatre tag a nodi quando invece vuoi taggare linee o poligoni
+### Errori comuni: assegnare tag a nodi quando invece vuoi taggare linee o poligoni
 Quando modifichi gli attributi di un punto, prima selezioni
 il punto e poi aggiungi i tag attraverso il menù "Preimpostazioni" o direttamente
 nel pannello "Proprietà". Un errore comune capita quando si vuole aggiungere attributi ad una 
