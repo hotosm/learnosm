@@ -300,6 +300,7 @@ If you need to send a message, such as an email or an IRC message, and you are q
 
 ## Getting help 
 
+<!--   IRC option is no longer present, commenting this out
 ### Live text based help
 
 From the Learn page of the Tasking Manager:  
@@ -314,13 +315,14 @@ From the Learn page of the Tasking Manager:
 - Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
 - Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
 
-### Leaving a Project question / comment / contacting the Project creator
+### Leaving a Project question / comment / contacting the Project creator 
+end of comment -->
 
 Using the "Comments" tab for the project you can see other users' questions and comments and leave one of your own. You can also click the "Contact Project Manager" link and that will automatically direct your comment/question to the project creator. 
 
-All comments are public and it is not real time, live chat, use the IRC option above for realtime chat.
-
 ![TM comments][]
+
+All comments are public and it is not real time, live chat. If you need that, use [IRC](http://wiki.openstreetmap.org/wiki/IRC) and select the #hot channel.
 
 
 ## Editing hints and tips  
