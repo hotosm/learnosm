@@ -170,10 +170,15 @@ category: beginner
     開放街圖的資料庫裡。
 
 
-iD 編輯器是個簡單編輯開放街圖的好方法，你可以在 [iD 編輯器指南](/zh_TW/beginner/id-editor/) 找到更多關於它的使用。然而在 [JOSM 章節](/zh_TW/josm/)
-先來學功能強大，單機版的 JSOM。
-你仍可以繼續使用 iD 編輯器操作。一旦你編輯開放街圖的經驗增多後，
-再來決定那個編輯器最適合你。
+iD 編輯器是相當奇妙的方式來簡單編輯開放街圖， 
+你可以到 [iD 編輯器指南](/zh_TW/beginner/id-editor/)學習更多。
+你也可以跑過[新手教學](http://www.openstreetmap.org/edit?editor=id#walkthrough=true)， 
+是相當棒而且有互動性的方式來探索 iD 這個編輯器。
+
+然而，[JOSM 部分](/en/josm/)， 
+我們會研究提供更多功能，。單獨的應用程式
+你仍可以繼續使用 iD 編輯器。一旦你編輯開放街圖的經驗增多後， 
+你可以選擇你鐘愛的編輯器 - iD 或是 JOSM。
 
 總結
 -------
