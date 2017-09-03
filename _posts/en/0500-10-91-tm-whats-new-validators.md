@@ -1,6 +1,6 @@
 ---
 layout: doc
-permalink: /en/coordination/tm-whats-new-for-validators
+permalink: /en/coordination/tm-whats-new-for-validators/
 lang: en
 title: What is new for Validators in the Tasking Manager 3
 category: coordination
