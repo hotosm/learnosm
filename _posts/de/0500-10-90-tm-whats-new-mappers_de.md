@@ -7,7 +7,7 @@ category: coordination
 date: 0500-10-21 13:00:00
 ---
 
-Was hat sich beim Kartieren im Tasking Manager 3 geändert
+# Was hat sich beim Kartieren im Tasking Manager 3 geändert
 
 > Diese Anleitung kann unter [tm3-news-for-mappers_de.odt](/files/tm3-news-for-mappers_de.odt) oder [tm3-news-for-mappers_de.pdf](/files/tm3-news-for-mappers_de.pdf) heruntergeladen werden  
 
