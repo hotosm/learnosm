@@ -40,9 +40,15 @@
       <div class="dropdown language-switcher marginL"> <span> {{site.translations[page.lang].language}} ... </span>
         <div class='language-switcher dropdown-content'>
           {% assign start_page = "/" | append: page.lang | append: "/" | strip %}
+          {% assign contribute_page = "/" | append: page.lang | append: "/contribute/" | strip %}
           {% assign this_page = page.permalink | strip %}
 
           {% if this_page == start_page %} <!-- always show title page -->
+            {% for lingua in site.translations %}
+              <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
+            {% endfor %}
+
+          {% elsif this_page == contribute_page %} <!-- always show contribute page -->
             {% for lingua in site.translations %}
               <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
             {% endfor %}
