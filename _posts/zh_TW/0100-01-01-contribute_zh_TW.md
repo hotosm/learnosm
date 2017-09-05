@@ -1,9 +1,14 @@
-一步一腳印學習開放街圖
-幫忙改進我們的指南
-你是工作坊活動組織者嗎？
-contributetitle: "開放街圖是自由的全球道路等級地圖，由持續增長的社群成員創建繪製。"
-startwith: "任何人都可以繪製開放街圖。在這邊你可以在簡單易懂，一步一步指引的 LearnOSM 教材指引下，讓你能夠開始貢獻開放街圖，以及使用開放街圖和開放街圖的資料。如果你有興趣舉辦開放街圖的工作坊，請看 LearnOSM 訓練資源中心"
-startA: "我們的指南"
-startB: "你要找什麼呢？"
-startC: "開放街圖新手？"
-startD: "初學者指南"
+---
+layout: contribute
+permalink: /zh_TW/contribute/
+lang: zh_TW
+title: Contribute
+contributetitle: "幫忙改進我們的指南"
+startwith: "準備開始了嗎？"
+startA: "回饋意見"
+startB: "Help with translations"
+startC: "Improve Images - in your language!"
+startD: "回報問題及幫助"
+nosearch: true
+---
+本指南的建立及維護，由 [OpenStreetMap](http://www.openstreetmap.org/) 及 [Humanitarian OpenStreetMap](http://hotosm.org/) 社群。您可以幫助我們改善本指南，只需回饋意見或直接到 [Github](http://github.com/hotosm/learnosm) 給予我們幫助。

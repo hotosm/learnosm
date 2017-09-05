@@ -1,9 +1,14 @@
-Ontdek de mogelijkheden van OpenStreetMap
-Meehelpen met het verbeteren van handleidingen
-Workshops organizeren?
-contributetitle: "OpenStreetMap is een project met als doel om vrij beschikbare en vrij bewerkbare kaarten te maken. Dit doet OpenStreetMap met een groeiende groep vrijwilligers."
-startwith: "Iedereen kan meedoen met OpenStreetMap. Met LearnOSM leer je met behulp van eenvoudig te begrijpen handleidingen hoe je kunt meedoen, hoe je OpenStreetMap kunt toepassen en hoe je de gegevens uit OpenStreetMap kunt gebruiken. Zou je zelf graag een workshop willen organiseren? op LearnOSM vind je trainingsmateriaal voor workshops."
-startA: "Handleidingen"
-startB: "Wat zoek je?"
-startC: "Voor beginners"
-startD: "Handleiding voor beginners"
+---
+layout: contribute
+permalink: /nl_NL/contribute/
+lang: nl_NL
+title: Contribute
+contributetitle: "Meehelpen met het verbeteren van handleidingen"
+startwith: "Klaar om te beginnen?"
+startA: "Stuur ons feedback"
+startB: "Help with translations"
+startC: "Improve Images - in your language!"
+startD: "Rapporteer problemen en deelnemen"
+nosearch: true
+---
+Deze handleiding is gemaakt en wordt bijgehouden door de OpenStreetMap](http://www.openstreetmap.org/) en [Humanitarian OpenStreetMap](http://hotosm.org/) gemeenschap. Je kunt ons helpen om deze handleiding te verbeteren door ons feedback te sturen of direct bij te dragen via [Github](http://github.com/hotosm/learnosm).

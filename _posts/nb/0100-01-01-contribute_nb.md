@@ -1,9 +1,15 @@
-Lære OpenStreetMap steg for steg
-Hjelp oss med å forbedre våre veiledninger
-Organiserer du workshops?
-contributetitle: "OpenStreetMap er et gratis gatekart over verden, skapt av en stadig økende medlemsmasse bestående av kartleggere."
-startwith: "Hvem som helst kan redigere OpenStreetMap. Her kan du lære hvordan LearnOSM tilbyr lettfattelige steg-for-steg veiledere for at du skal kunne komme i gang med å bidra til OpenStreetMap og bruke OpenStreetMap data. Hvis du er interessert i å organisere en OpenStreetMap workshop, ta en titt på LearnOSMs opplæring for kursholdere."
-startA: "Våre veiledninger"
-startB: "Hva ser du etter?"
-startC: "Ny med OpenStreetMap?"
-startD: "begynnerveiledning"
+---
+layout: contribute
+permalink: /nb/contribute/
+lang: nb
+title: Contribute
+contributetitle: "Hjelp oss med å forbedre våre veiledninger"
+startwith: "Klar til å begynne?"
+startA: "Send oss tilbakemelding"
+startB: "Help with translations"
+startC: "Improve Images - in your language!"
+startD: "Rapporter en feil og bidra"
+nosearch: true
+---
+Denne veiledningen er laget og vedlikeholdt av [OpenStreetMap](http://www.openstreetmap.org/) og [Humanitarian OpenStreetMap](http://hotosm.org/)  i fellesskap. Du kan hjelpe oss med å forbedre denne veiledningen ved å sende oss tilbakemeldinger, eller bidra direkte via [Github](http://github.com/hotosm/learnosm).
+

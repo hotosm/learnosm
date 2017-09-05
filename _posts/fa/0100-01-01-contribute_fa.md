@@ -1,9 +1,14 @@
-آموزش گام به گام OpenStreetMap
-به بهبود راهنماهای ما کمک کنید
-آیا مسئول برگزاری کارگاه آموزشی هستید؟
-contributetitle: "OpenStreetMap یک نقشه جاده‌ای از دنیاست که توسط جامعه نقشه‌کش‌هایی که داپماْ در حال افزایش هستند ایجاد شده است."
-startwith: "هرکسی می‌تواند OpenStreetMap را ویرایش کند. در اینجا یاد می‌گیرید چگونه LearnOSM راهنماهای قابل فهم و گام به گامی برای شروع به استفاده و مشارکت و کاربرد داده‌های OpenStreetMap را به شما اراپه می‌دهد. اگر به راه‌اندازی کارگاه آموزشی OpenStreetMap علاقمند هستید قسمت منابع آموزش‌دهندگان LearnOSM را مشاهده کنید."
-startA: "راهنماهای ما"
-startB: "دنبال چه میگردید؟"
-startC: "آیا در OpenStreetMap تازه‌کار هستید؟"
-startD: "راهنمای مبتدیان"
+---
+layout: contribute-rtl
+permalink: /fa/contribute/
+lang: fa
+title: Contribute
+contributetitle: "به بهبود راهنماهای ما کمک کنید"
+startwith: "برای شروع آماده‌اید؟"
+startA: "بازخورد بفرستید"
+startB: "Help with translations"
+startC: "Improve Images - in your language!"
+startD: "گزارش مشکلات و مشارکت"
+nosearch: true
+---
+این راهنما توسط  [OpenStreetMap](http://www.openstreetmap.org/) و [جامعه انسان‌دوستانه OpenStreetMap](http://hotosm.org/) ایجاد شده است. با ارسال بازخوردها و مشارکت مستقیم در آن از طریق [Github](http://github.com/hotosm/learnosm) می‌توانید به بهبود و ارتقاء آن کمک کنید.

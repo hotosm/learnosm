@@ -1,9 +1,14 @@
-Apprendre OpenStreetMap étape par étape
-Aidez-nous pour améliorer cette documentation
-Organisez-vous des ateliers de cartographie ?
-contributetitle: "OpenStreetMap est une carte du monde en licence libre, créée par une communauté grandissante."
-startwith: "Tout le monde peut participer à OpenStreetMap. Le site LearnOSM met à disposition une série de guides simples et progressifs pour vous accompagner dans votre prise en main d'OpenStreetMap. Vous y apprendrez comment contribuer au projet, comment utiliser la carte et les données. Si vous voulez organiser des ateliers, référez-vous aux ressources pédagogiques du formateur."
-startA: "Nos guides"
-startB: "Que cherchez-vous ?"
-startC: "Vous découvrez OpenStreetMap ?"
-startD: "Guide du débutant"
+---
+layout: contribute
+permalink: /fr/contribute/
+lang: fr
+title: Contribute
+contributetitle: "Aidez-nous pour améliorer cette documentation"
+startwith: "Prêt à commencer ?"
+startA: "Envoyez-nous vos retours et commentaires"
+startB: "Help with translations"
+startC: "Improve Images - in your language!"
+startD: "Signaler des problèmes et contribuer"
+nosearch: true
+---
+Ce guide a été créé et est maintenu par la communauté [OpenStreetMap](http://www.openstreetmap.org/) et l’équipe humanitaire d’OpenStreetMap, [Humanitarian OpenStreetMap](http://hotosm.org/). Vous pouvez nous aider à l’améliorer simplement en donnant vos impressions ou en contribuant directement via [Github](http://github.com/hotosm/learnosm).
