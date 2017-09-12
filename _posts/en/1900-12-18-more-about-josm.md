@@ -9,8 +9,8 @@ category: josm
 The JOSM Editing Process
 ========================
 
-> This guide may be downloaded as [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) or [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf)  
-> Reviewed 2015-07-12  
+> This guide may be downloaded as [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) or [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf)
+> Reviewed 2015-07-12
 
 In the previous section you
 installed JOSM and began drawing your first points, lines, and shapes.
@@ -97,7 +97,7 @@ let's take another look at the interface of JOSM.
 
 ![JOSM layout][]
 
-The main window you are already familiar with - this is the map window, and 
+The main window you are already familiar with - this is the map window, and
 it is where most of the action takes place. Here you will view, edit, and
 add to the OpenStreetMap data.
 
@@ -140,12 +140,12 @@ have seen previously - points, lines, and shapes that represent real-life locati
 
 -  Use the **draw tool** to draw new points, lines, and shapes.
     Describe these objects by selecting from the Presets menu, as you
-    did in the previous section. 
+    did in the previous section.
 
-> Never edit the map outside of the area you have downloaded. You  
-> can see the rectangular area you have downloaded has a solid background,  
-> while the area you have not downloaded has diagonal pinstriped lines. 
-> <br>  
+> Never edit the map outside of the area you have downloaded. You
+> can see the rectangular area you have downloaded has a solid background,
+> while the area you have not downloaded has diagonal pinstriped lines.
+> <br>
 > ![JOSM area downloaded][]
 
 Save Changes
@@ -180,14 +180,14 @@ be connected to the internet.
 -	You will need to wait a few seconds for your changes to be uploaded,
     and then you are done! You have edited the map on OpenStreetMap.
 
-> When you are editing, always be sure to upload your changes before you close  
-> JOSM. Even if you still have more editing to do, upload your changes, and  
-> then go through the process again later when you have time to edit.  
+> When you are editing, always be sure to upload your changes before you close
+> JOSM. Even if you still have more editing to do, upload your changes, and
+> then go through the process again later when you have time to edit.
 > You don't want to lose your work!
 
 See your changes on the map
 ---------------------------
--  Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
+-  Open your internet browser and go to [https://www.openstreetmap.org/](https://www.openstreetmap.org/)
 -  Move the map to the area that you edited.
 -  You should see your changes now appearing on the map! If you don’t,
     try pressing CTRL+R to refresh the web page. Sometimes the map

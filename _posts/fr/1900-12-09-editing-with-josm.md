@@ -35,7 +35,7 @@ Dans ce chapitre, nous allons apprendre à modifier la carte sur OpenStreetMap
 et à les améliorer. Nous allons apprendre le cycle de base de la cartographie
 sur OSM:
 
-<!-- This text is hidden - 
+<!-- This text is hidden -
 1. **Télécharger** des données de la carte OSM actuelle
 
     -   [Tour de JOSM]({{site.baseurl}}/fr/beginner/editing-with-josm/#a-tour-of-josm)
@@ -89,11 +89,11 @@ carte OSM.
     dessin. les autres outils sont utiles pour zoomer, supprimer un objet,
     dessiner une forme, ou créer une ligne qui est parallèle à une autre ligne.
 
--   En dessous de ces outils, se retrouvent plusieurs autres boutons. Ceux-ci 
+-   En dessous de ces outils, se retrouvent plusieurs autres boutons. Ceux-ci
     contrôlent ce que vous voyez sur le côté droit de JOSM. Avec ces boutons
     vous pouvez ouvrir et fermer les boîtes à droite, comme les propriétés, la
     sélection et auteur.
-	 
+
 ## Télécharger des données OSM
 
 Rappelez-vous le cycle d'édition d'OpenStreetMap décrit dans l'introduction
@@ -164,7 +164,7 @@ end of hidden text-->
 -   Vous devriez voir la couche sélectionnée disparaître de la fenêtre «Carte».
     Cliquez sur «Afficher / Masquer» de nouveau, et elle réapparaîtra.
 
--   Vous pouvez fermer une couche en la sélectionnant et en cliquant sur le 
+-   Vous pouvez fermer une couche en la sélectionnant et en cliquant sur le
     bouton «Suppression» :
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m172543d8_en.png)
@@ -212,7 +212,7 @@ de mieux en mieux.
     l'attribut pour l'école. Entrez le nom de l'école et cliquez sur «Appliquez les attributs». Faites de même pour ajouter des lignes et des polygones.
 
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_1cb5aeb4_en.png)
-	
+
 ## Balises
 
 -   Lorsque vous dessinez un point, une ligne ou une forme, vous avez défini son
@@ -314,7 +314,7 @@ téléverser les modifications vers la base OpenStreetMap.
 
   ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
 
-- Vous devrez attendre quelques secondes pour que vos modifications soient 
+- Vous devrez attendre quelques secondes pour que vos modifications soient
   transférées. Et voilà! Vous avez fait votre première modification à
   OpenStreetMap. Vous pouvez continuer à éditer pour ajouter tous vos points
   si vous le souhaitez. Assurez-vous toujours de téléverser vos modifications
@@ -323,7 +323,7 @@ téléverser les modifications vers la base OpenStreetMap.
 ## Voir vos modifications sur la carte
 
 - Ouvrez votre navigateur Internet et allez à
-  [http://openstreetmap.org/](http://openstreetmap.org/)
+  [https://www.openstreetmap.org/](https://www.openstreetmap.org/)
 
 - Déplacez la carte vers la zone que vous avez modifiée.
 
