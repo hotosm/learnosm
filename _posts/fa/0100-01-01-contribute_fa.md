@@ -11,4 +11,4 @@ startC: "Improve Images - in your language!"
 startD: "گزارش مشکلات و مشارکت"
 nosearch: true
 ---
-این راهنما توسط  [OpenStreetMap](http://www.openstreetmap.org/) و [جامعه انسان‌دوستانه OpenStreetMap](http://hotosm.org/) ایجاد شده است. با ارسال بازخوردها و مشارکت مستقیم در آن از طریق [Github](http://github.com/hotosm/learnosm) می‌توانید به بهبود و ارتقاء آن کمک کنید.
+این راهنما توسط  [OpenStreetMap](http://www.openstreetmap.org/) و [جامعه انسان‌دوستانه OpenStreetMap](http://hotosm.org/) ایجاد شده است. با ارسال بازخوردها و مشارکت مستقیم در آن از طریق [GitHub](http://github.com/hotosm/learnosm) می‌توانید به بهبود و ارتقاء آن کمک کنید.
