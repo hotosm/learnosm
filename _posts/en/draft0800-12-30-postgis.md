@@ -16,7 +16,7 @@ of storing map data. Files that are opened and saved in JOSM have an
 .osm extension. These files store map data as XML, which is a great
 format for transmitting information across the internet. In QGIS, we
 often save map data as Shapefiles, with an .shp extension. These types
-of files provide faster access, and are commonly used for analysis. 
+of files provide faster access, and are commonly used for analysis.
 
 What we have not covered yet are databases, which are a very fast and
 useful way to store map data. Setting up a database is not something
@@ -27,7 +27,7 @@ data set. For example, the OpenStreetMap server uses a database to
 store its map data. It uses the database to receive edits from mappers,
 to send small pieces of the map as XML to users, and to render the map
 as image tiles on the main website -
-[openstreetmap.org](http://www.openstreetmap.org).
+[openstreetmap.org](https://www.openstreetmap.org).
 
 ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image02.png)
 
@@ -56,7 +56,7 @@ spatial extensions. This is fairly easy to setup using the One-Click
 Installer.
 
 1. Navigate your web browser to the postgresql website and find the
-   download page here: 
+   download page here:
    [http://www.postgresql.org/download/](http://www.postgresql.org/download/)
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image29.png)
 
@@ -78,7 +78,7 @@ Installer.
    does not allow you to add PostGIS through the StackBuilder utility,
    so we recommend that you download the Version 9.1.6 installer.
    Click on the button that says Win x86-32. This is the installer
-   for the 32-bit version of 
+   for the 32-bit version of
    Windows. ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image24.png)
 
 6. When it has finished downloading, run the One-Click Installer.
@@ -120,7 +120,7 @@ Installer.
 10. Now we’ve successfully installed PostgreSQL and we need to add the
     PostGIS extensions. When the StackBuilder wizard opens, select your
     PostgresSQL installation from the dropdown menu and click Next. It
-    will be something like PostgreSQL 9.1 on port 5432. 
+    will be something like PostgreSQL 9.1 on port 5432.
     ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image01.png)
 
 11. Open the “Spatial Extensions” tab and check the box next to PostGIS
@@ -137,7 +137,7 @@ Installer.
     in the next section. ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image21.png)
 
 14. To begin the PostGIS installation you will need to supply the
-    postgres password that you created when you installed 
+    postgres password that you created when you installed
     PostgreSQL.  ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image06.png)
 
 15. If you are asked to install the shp2pgsql graphical loader plugin,
@@ -152,7 +152,7 @@ Creating and Using a Database with QGIS
 Now that we have installed all of the necessary software, we will create
 a database, and then use it as a datasource in QGIS. We will use
 pgAdmin III, which is a graphical database client that is useful for
-querying and modifying databases.. 
+querying and modifying databases..
 
 ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image07.png)
 
@@ -162,19 +162,19 @@ create and manipulate databases from the command-line, but for now,
 pgAdmin III is an easy way to get started.
 
 1. Open pgAdmin III. It should be in the Start Menu under All Programs
-   -> PostgreSQL 9.1 -> pgAdmin III. 
+   -> PostgreSQL 9.1 -> pgAdmin III.
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image16.png)
 
 2. In the panel on the left under Servers, right-click where it says
-   PostgreSQL and click “Connect.” 
+   PostgreSQL and click “Connect.”
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image08.png)
 
 3. Enter the postgres user password that you created when you installed
-   the software. Remember that the username and password are required so that 
-   you can create and access a database. 
+   the software. Remember that the username and password are required so that
+   you can create and access a database.
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image37.png)
 
-4. Right-click on Databases and select New Database... 
+4. Right-click on Databases and select New Database...
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image23.png)
 
 5. You need to enter a few pieces of information to create the new
@@ -197,7 +197,7 @@ pgAdmin III is an easy way to get started.
    utility that converts shapefiles and loads them into the database.
 
 7. Make sure that your new database is selected and go to Plugins -\>
-   PostGIS Shapefile and DBF loader 1.5 
+   PostGIS Shapefile and DBF loader 1.5
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image10.png)
 
 8. Click “Add File” and find a shapefile on your filesystem. Feel free
@@ -205,13 +205,13 @@ pgAdmin III is an easy way to get started.
    ([beginning-qgis-samples.zip](http://www.learnosm.org/files/beginning-qgis-samples.zip)).
 
 9. Once you have selected a file, click “Import.” If everything goes
-   smoothly, the output will read “Shapefile import completed.” 
+   smoothly, the output will read “Shapefile import completed.”
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image17.png)
 
    Great, so we’ve created a database and we’ve imported a shapefile as a
    sample. Now let’s open QGIS and see how we can access our database.
 
-10. Open QGIS and click on the “Add PostGIS Layers” button. 
+10. Open QGIS and click on the “Add PostGIS Layers” button.
     ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image12.png)
 
 11. Under “Connections” at the top, click “New.”
@@ -253,7 +253,7 @@ database. The utility is easy to set-up, we simply need to download the
 program, and then we need to add its location to our system path.
 
 1. To download the windows version of osm2pgsql, navigate your web
-   browser to: [http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows](http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows) 
+   browser to: [http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows](http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows)
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image28.png)
 
 2. Download the file named osm2pgsql.zip
@@ -269,14 +269,14 @@ program, and then we need to add its location to our system path.
    “system path.” You should see an option named “Edit the system
    environment variables.” Click on it.
 
-5. Click on the button named “Environment Variables.” 
+5. Click on the button named “Environment Variables.”
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image34.png)
 
-6. At the bottom find the variable named “Path” and click “Edit...” 
+6. At the bottom find the variable named “Path” and click “Edit...”
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image38.png)
 
 7. Now you must add the directory where osm2pgsql.exe is located to the
-   Path variable. 
+   Path variable.
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image22.png)
 
 8. Add a semicolon to the end of the previous directory and then type
@@ -289,7 +289,7 @@ program, and then we need to add its location to our system path.
    Phew! That was the hard part. Now we just need to install a plugin in
    QGIS, and we can easily import OSM data into our database.
 
-10. Open QGIS and go to Plugins -> Fetch Python Plugins... 
+10. Open QGIS and go to Plugins -> Fetch Python Plugins...
     ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image14.png)
 
 11. We need to add a new plugin repository. Click the “Repositories” tab.
@@ -299,7 +299,7 @@ program, and then we need to add its location to our system path.
 13. Next to Name: type “dbsgeo.com”
 
 14. Next to plugins URL: type
-   “[http://qgis.dbsgeo.com](http://qgis.dbsgeo.com)” 
+   “[http://qgis.dbsgeo.com](http://qgis.dbsgeo.com)”
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image03.png)
 
 15. Click OK.
@@ -313,7 +313,7 @@ program, and then we need to add its location to our system path.
    “Plugin installed successfully.”
 
 19. Close the menus. You should see a new menu on your top menu bar
-    named “OSM Tools.” 
+    named “OSM Tools.”
     ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image40.png)
 
     Great! Now we can use the OSM Tools plugin to easily import data into
@@ -474,9 +474,9 @@ allow us to access the database from the same machine without a
 password. The configuration will look something like this:
 
     local   all         postgres                          trust
-    
+
     # TYPE  DATABASE    USER        CIDR-ADDRESS          METHOD
-    
+
     # "local" is for Unix domain socket connections only
     local   all         all                               trust
     # IPv4 local connections:
@@ -614,4 +614,4 @@ horribly out of date. The PPA listed on switch2osm.org should be used
 
 The Windows version is from 2010, does not support PDF and uses 32-bit
 node IDs which are estimated to break in early 2013.
---> 
+-->

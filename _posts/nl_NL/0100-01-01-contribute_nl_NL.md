@@ -11,4 +11,4 @@ startC: "Improve Images - in your language!"
 startD: "Rapporteer problemen en deelnemen"
 nosearch: true
 ---
-Deze handleiding is gemaakt en wordt bijgehouden door de OpenStreetMap](http://www.openstreetmap.org/) en [Humanitarian OpenStreetMap](http://hotosm.org/) gemeenschap. Je kunt ons helpen om deze handleiding te verbeteren door ons feedback te sturen of direct bij te dragen via [Github](http://github.com/hotosm/learnosm).
+Deze handleiding is gemaakt en wordt bijgehouden door de OpenStreetMap](https://www.openstreetmap.org/) en [Humanitarian OpenStreetMap](http://hotosm.org/) gemeenschap. Je kunt ons helpen om deze handleiding te verbeteren door ons feedback te sturen of direct bij te dragen via [Github](http://github.com/hotosm/learnosm).

@@ -9,8 +9,8 @@ category: beginner
 Kom i gang med OpenStreetMap.org
 ====================================
 
-> Denne guiden kan lastes ned som [beginner_start-osm_nb.odt](/files/beginner_start-osm_nb.odt) or [beginner_start-osm_nb.pdf](/files/beginner_start-osm_nb.pdf)  
-> Reviewed 2015-07-12  
+> Denne guiden kan lastes ned som [beginner_start-osm_nb.odt](/files/beginner_start-osm_nb.odt) or [beginner_start-osm_nb.pdf](/files/beginner_start-osm_nb.pdf)
+> Reviewed 2015-07-12
 
 I denne delen vil vi lære steg for steg hvordan man navigerer
 OpenStreetMaps webside, ser på kart og lager en brukerkonto
@@ -27,7 +27,7 @@ Før du begynner, må du forsikre deg om at datamaskinen din er tilkoblet intern
 Åpne opp din nettleser. Vanlige nettlesere er Firefox, Chrome, Opera, eller Internet Explorer.
     Hvis den allerede er åpen kan du lage en ny fane.
 I adressefeltet i toppen av vinduet, legger du inn følgende og trykker Enter:
-    [www.openstreetmap.org](http://www.openstreetmap.org/)
+    [www.openstreetmap.org](https://www.openstreetmap.org/)
 Når siden har lastet ferdig, vil du se noe som
     dette:
 
@@ -46,15 +46,15 @@ Naviger i kartet
     ved å snurre på hjulet. Hvis du ikke har scrollehjul, bruker du +
     og - knappene i det øvre høyre hjørnet av kartet. (Se figur
     under)
-- For å søke etter et sted, venstreklikk i boksen "Search" på 
+- For å søke etter et sted, venstreklikk i boksen "Search" på
     venstre kant av siden (Se figur over). Skriv inn navnet til
     hjembyen din eller nabolaget og trykk Enter. Et vindu skal nå åpne seg på
     venstre side av kartet med resultatet fra ditt søk. Klikk på det
-    stedet som ser ut som det du er på jakt etter. Kartet vil 
+    stedet som ser ut som det du er på jakt etter. Kartet vil
     automatisk flytte seg til stedet du har valgt.
 
     ![Search][]
-   
+
 
 Se forskjellige kartstiler
 ------------------------
@@ -74,7 +74,7 @@ som finnes på OSMs hjemmeside.
     Alle dataene som kreves for å gjøre dette ligger i OSMs
     database
 
-    ![Transport map][] 
+    ![Transport map][]
 
 Lag en OpenStreetMap konto
 -------------------------------
@@ -103,17 +103,17 @@ Lag en OpenStreetMap konto
     som eposten din.
 - Du vil kanskje skrive ned brukernavnet og passordet et sted. Du vil
     trenge det for å logge inn senere.
-- Etter at du har fylt ut alle boksene, klikk "Sign Up" på 
+- Etter at du har fylt ut alle boksene, klikk "Sign Up" på
     bunnen av siden.
 - Hvis det er noen problemer, vil en feilmelding åpne seg. Sjekk at
-    eposten din er den samme i de to første boksene, og 
+    eposten din er den samme i de to første boksene, og
     at passordet er det samme i de to nederste boksene. Hvis den tredje boksen
     er merket med rødt, betyr det at noen andre allerede har valgt
     brukernavnet ditt, og du må forsøke med et annet navn.
 - Åpne opp et nytt vindu eller fane i nettleseren din, og gå til
     eposten din. Vanlige epostleverandører er [mail.yahoo.com](http://mail.yahoo.com)
     og [www.gmail.com](http://www.gmail.com).
-- Legg inn epostadressen din og passordet ditt for å åpne eposten din. 
+- Legg inn epostadressen din og passordet ditt for å åpne eposten din.
     Legg merke til at dette _ikke_ er det samme som ditt OpenStreetMap brukernavn og
     passord.
 - Hvis alt var vellykket med din registrering, vil du se
@@ -134,10 +134,10 @@ Legg til dine første punkter
 ------------------------
 
 - Nå som du er logget inn med ditt brukernavn på OpenStreetMaps
-    hjemmeside, kan du bruke iD editoren for å legge til dine første punkter 
+    hjemmeside, kan du bruke iD editoren for å legge til dine første punkter
     til kartet.
-- Flytt kartet til et sted du kjenner godt, slik som din hjemby 
-    eller nabolag. En god idé er å sørge for at ditt hjem (eller naboens hjem) og arbeidssted er tegnet inn og gitt riktig adresse. 
+- Flytt kartet til et sted du kjenner godt, slik som din hjemby
+    eller nabolag. En god idé er å sørge for at ditt hjem (eller naboens hjem) og arbeidssted er tegnet inn og gitt riktig adresse.
 - Zoom inn på et sted hvor du du legge til et punkt på kartet. (Kanskje en restaurant eller butikk i nærheten ikke er kartlagt enda).
 - Rett over kartet, på venstre side, er det en fane med navn "Edit" med et lite
     triangel ved siden av. Trykk på det lille triangelet. Du skal da få
@@ -154,16 +154,16 @@ Legg til dine første punkter
     toppen av vinduet. Trykk deretter på kartet, der du ønsker å legge til et nytt
     punkt.
 
-    ![Point button][]    
+    ![Point button][]
 
-- Velg fra menyen til venstre, hva slags egenskaptype det er du 
+- Velg fra menyen til venstre, hva slags egenskaptype det er du
     legger til på kartet. Du kan så fylle ut det tilhørende skjemaet, med egenskapens
     navn og annen informasjon
-- For å lagre endringene dine, trykk på "Lagre" knappen på toppen av siden. Siden dette er din første 
+- For å lagre endringene dine, trykk på "Lagre" knappen på toppen av siden. Siden dette er din første
     rediger, kan du foretrekke å eksperimentere med redigeringsprogrammet. Ikke lagre endringene dine
     med mindre du er sikker på at de er riktige.
 
-    ![Save button][]    
+    ![Save button][]
 
 - Hvis du bestemmer deg for å trykker "lagre", vil du bli spurt om en beskrivelse av endringene du gjorde.
     Trykk deretter "Lagre" en gang til, og dine endringer vil bli lagret til

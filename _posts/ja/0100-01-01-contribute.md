@@ -11,4 +11,4 @@ startC: "誤訳の報告"
 startD: "サイトをForkして改善"
 nosearch: true
 ---
-このガイドの作成とメンテナンスは [OpenStreetMap](http://www.openstreetmap.org/) および [OpenStreetMap人道支援チーム](http://hotosm.org/) によって行われています。お気づきの点がありましたら、メールなどでご連絡をいただくか、あるいは直接 [Github](http://github.com/hotosm/learnosm) 経由で改善案をお送りください。
+このガイドの作成とメンテナンスは [OpenStreetMap](https://www.openstreetmap.org/) および [OpenStreetMap人道支援チーム](http://hotosm.org/) によって行われています。お気づきの点がありましたら、メールなどでご連絡をいただくか、あるいは直接 [Github](http://github.com/hotosm/learnosm) 経由で改善案をお送りください。

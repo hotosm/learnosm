@@ -9,14 +9,14 @@ category: osm-data
 QGISを使ったOSMデータ利用
 =================
 
-A slightly more recent version of this guide is available in;  
-[English](/en/osm-data/osm-in-qgis/)  
-[Español](/es/osm-data/osm-in-qgis/)  
-[Netherlands](/nl/osm-data/osm-in-qgis/)  
-[فارسی](/fa/osm-data/osm-in-qgis/)  
-or [Deutsch](/de/osm-data/osm-in-qgis/) 
+A slightly more recent version of this guide is available in;
+[English](/en/osm-data/osm-in-qgis/)
+[Español](/es/osm-data/osm-in-qgis/)
+[Netherlands](/nl/osm-data/osm-in-qgis/)
+[فارسی](/fa/osm-data/osm-in-qgis/)
+or [Deutsch](/de/osm-data/osm-in-qgis/)
 
-To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
+To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.
 
 2013年に新しいバージョンのQGISがリリースされ、OpenStreetMap生データの読み込みや処理がたいへん簡単になりました。すなわち、最新のOSMデータへその場でアクセスし、必要となるタグ情報を選択し、SQLiteやShapefileなどの取り回しやすい形式でエクスポートすることが簡単になったのです。
 
@@ -45,7 +45,7 @@ OpenStreetMapデータの取得と表示
 
 -   指定した場所にOSMデータが保存されています。
 
->   この方法は、JOSMや[openstreetmap.org](http://www.openstreetmap.org)を使ってダウンロードを行う方法と同じです。
+>   この方法は、JOSMや[openstreetmap.org](https://www.openstreetmap.org)を使ってダウンロードを行う方法と同じです。
 >   広範囲の最新データをダウンロードする場合、[HOT export site](http://export.hotosm.org)や[bbbike.org](http://extract.bbbike.org/)を使用してください。
 >   また、こうしたサイトからデータをダウンロードした場合、QGISで読み込む前にそのデータを解凍しておく必要があります。
 

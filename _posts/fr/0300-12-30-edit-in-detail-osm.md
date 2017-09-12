@@ -347,7 +347,7 @@ Vous verrez alors votre bâtiment représenté avec une surface solide et
 les polygones intérieurs représentés avec des vides. Les données
 sous-jacentes de la relation dans cet exemple sont visibles sur
 OpenStreetMap
-: [http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
+: [https://www.openstreetmap.org/browse/relation/2435797](https://www.openstreetmap.org/browse/relation/2435797).
 Le bâtiment est rendu par Mapnik comme sur cette image :
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image06.png)
@@ -367,7 +367,7 @@ les contours de la rivière et les éléments à exclure (les îles). Ce
 multipolygone comprend dix lignes avec les rôles inner et outer.
 
 La relation peut être consultée sur le site OpenStreetMap ici
-: [](http://www.openstreetmap.org/browse/relation/1046961.)[http://www.openstreetmap.org/browse/relation/1046961](http://www.openstreetmap.org/browse/relation/1046961).
+: [](https://www.openstreetmap.org/browse/relation/1046961.)[https://www.openstreetmap.org/browse/relation/1046961](https://www.openstreetmap.org/browse/relation/1046961).
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image12.png)![image](/images/fr/0300-12-30-edit-in-detail-osm/image42.png)
 
@@ -655,7 +655,7 @@ tableau de lignes d'attributs. Le reste peut être ignoré.
     bâtiment comme une forme solide avec les polygones intérieurs
     formant des trous. La donnée illustrant la relation dans cet exemple
     est visible sur OpenStreetMap
-    : [](http://www.openstreetmap.org/browse/relation/2435797)[http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
+    : [](https://www.openstreetmap.org/browse/relation/2435797)[https://www.openstreetmap.org/browse/relation/2435797](https://www.openstreetmap.org/browse/relation/2435797).
     Le bâtiment est rendu dans Mapnik comme sur cette image:
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image06.png)

@@ -9,40 +9,40 @@ category: josm
 Plugin per JOSM
 ============
 
-> Questa guida può essere scaricata come [josm-plugins_it.odt](/files/josm-plugins_it.odt) oppure [josm-plugins_it.pdf](/files/josm-plugins_it.pdf)  
-> Revisionato il 2017-06-21  
+> Questa guida può essere scaricata come [josm-plugins_it.odt](/files/josm-plugins_it.odt) oppure [josm-plugins_it.pdf](/files/josm-plugins_it.pdf)
+> Revisionato il 2017-06-21
 
-Diventando più esperto nelle tecniche di mappatura, potrebbe venirti la voglia di utilizzare funzioni aggiuntive di JOSM per migliorare le tue capacità di mappatore. JOSM ti permette di installare numerose estensioni (comunemente chiamate plugin), che aggiungono funzionalità extra al software.  
+Diventando più esperto nelle tecniche di mappatura, potrebbe venirti la voglia di utilizzare funzioni aggiuntive di JOSM per migliorare le tue capacità di mappatore. JOSM ti permette di installare numerose estensioni (comunemente chiamate plugin), che aggiungono funzionalità extra al software.
 
 In questa sezione vedremo come installare i plugin (estensioni), e alcuni dei plugin più utili che sono disponibili.
 
 Installare i plugin (estensioni)
 -------------------
-Quando vuoi installare (o rimuovere) un plugin, vai su **Modifica \> Preferenze** e clicca sulla scheda **Estensioni**.  
+Quando vuoi installare (o rimuovere) un plugin, vai su **Modifica \> Preferenze** e clicca sulla scheda **Estensioni**.
 
 ![Plugins][]
 
-* Se non vedi una lista di plugin, clicca su **Scarica Lista**.  
-* Per installare un plugin basta che lo selezioni cliccando nel piccolo riquadro al suo fianco, poi clicchi su OK tra i bottoni in fondo.  
+* Se non vedi una lista di plugin, clicca su **Scarica Lista**.
+* Per installare un plugin basta che lo selezioni cliccando nel piccolo riquadro al suo fianco, poi clicchi su OK tra i bottoni in fondo.
 * Infine, alcune versioni di JOSM ti possono chiedere il riavvio di JOSM stesso quando installi nuovi plugin.
 
 Alcuni dei nostri plugin preferiti sono:
 
-1. **[buildings_tools](it/josm/josm-more-plugins/):** Se disegni molti edifici, questo renderà il processo più semplice e veloce  
+1. **[buildings_tools](it/josm/josm-more-plugins/):** Se disegni molti edifici, questo renderà il processo più semplice e veloce
 
-2. **DirectUpload:** Se hai molte tracce GPS e le vuoi salvare nel database OSM, questo plugin facilita l'operazione.  
+2. **DirectUpload:** Se hai molte tracce GPS e le vuoi salvare nel database OSM, questo plugin facilita l'operazione.
 
-3. **editgpx:** Se vuoi caricare tracce GPS da un dispositivo Garmin, potresti aver bisogno di questo plugin. OSM non accetta tracce GPS che sono state salvate su una scheda di memoria esterna di un Garmin, ma questo plugin può correggere i file in modo da poter essere caricati.  
+3. **editgpx:** Se vuoi caricare tracce GPS da un dispositivo Garmin, potresti aver bisogno di questo plugin. OSM non accetta tracce GPS che sono state salvate su una scheda di memoria esterna di un Garmin, ma questo plugin può correggere i file in modo da poter essere caricati.
 
-4. **fieldpapers:** Questo plugin ti consente di caricare in JOSM dei Field Paper scannerizzati.  
+4. **fieldpapers:** Questo plugin ti consente di caricare in JOSM dei Field Paper scannerizzati.
 
-5. **imagery_offset_db:** Questo plugin consente di collaborare con altri mappatori che trovano le immagini satellitari di Bing leggermente disallineate. Questo argomento è trattato più dettagliatamente in un capitolo successivo.  
+5. **imagery_offset_db:** Questo plugin consente di collaborare con altri mappatori che trovano le immagini satellitari di Bing leggermente disallineate. Questo argomento è trattato più dettagliatamente in un capitolo successivo.
 
-6. **mirrored_download:** Con questo plugin puoi scaricare un'area più grande di dati OSM per fare modifiche.  
+6. **mirrored_download:** Con questo plugin puoi scaricare un'area più grande di dati OSM per fare modifiche.
 
-7. **print:** Aggiunge una funzione di Stampa, nel caso vogliate fare delle veloci stampe di un'area, non avendo bisogno che siano di alta qualità.  
+7. **print:** Aggiunge una funzione di Stampa, nel caso vogliate fare delle veloci stampe di un'area, non avendo bisogno che siano di alta qualità.
 
-8. **[utilsplugin2](it/josm/josm-more-plugins/):** Aggiunge molti strumenti e menu a JOSM, per utenti esperti. E' trattato più in dettaglio nel [prossimo capitolo](/it/josm/josm-more-plugins)  
+8. **[utilsplugin2](it/josm/josm-more-plugins/):** Aggiunge molti strumenti e menu a JOSM, per utenti esperti. E' trattato più in dettaglio nel [prossimo capitolo](/it/josm/josm-more-plugins)
 
 
 
@@ -104,11 +104,11 @@ Scrivete le parole chiave (separate da virgola, senza spazi) relative alla vostr
 traccia GPS nel riquadro "Etichette (separate da virgola)". Per esempio,
 "Nazione,regione,città,quartiere,nome strada". Indicate poi una
 descrizione delle vostre etichette. Una lista a scorrimento vi consentirà di riutilizzare
-precedenti etichette e descrizioni. Infine, scegliete il tipo di visibilità che 
-volete dare alla vostra traccia. Ci sono quattro livelli da privato a 
+precedenti etichette e descrizioni. Infine, scegliete il tipo di visibilità che
+volete dare alla vostra traccia. Ci sono quattro livelli da privato a
 identificabile (tutte spiegate più avanti in [Appendix]{{site.baseurl}}/learnosm/it/).
 
-Clicca su Carica Traccia. Se non siete connessi al vostro account OSM, 
+Clicca su Carica Traccia. Se non siete connessi al vostro account OSM,
 fatelo ora.
 
 Una volta caricato con successo, l'area Testo visualizzerà l'esito "OK"
@@ -122,7 +122,7 @@ Edit gpx
 
 **EditGpx** consente di aggiustare tracce registrate GPX
 prima di caricarle in OSM. Sovente le tracce hanno delle parti che
-volete rimuovere. Quindi questo plugin cancella dei punti delle tracce in 
+volete rimuovere. Quindi questo plugin cancella dei punti delle tracce in
 modo veloce ed elimina i marcatori di data-ora da una traccia.
 
 Una volta installato il plugin (e riavviato JOSM), vedrete
@@ -134,7 +134,7 @@ questo nuovo strumento nella barra degli strumenti sulla sinistra.
 
 ![Open GPX File][]
 
-2. Selezionate il nuovo pulsante nella barra dei pulsanti a sinistra 
+2. Selezionate il nuovo pulsante nella barra dei pulsanti a sinistra
 
 ![Edit Gpx Tool Icon][]
 
@@ -149,11 +149,11 @@ scompare.
 
 ![GPX Nodes Selected][]
 
-4. Clic con il pulsante destro sul nome del livello e scegliete \<\<Convert to GPX layer\>\> 
+4. Clic con il pulsante destro sul nome del livello e scegliete \<\<Convert to GPX layer\>\>
 nel menu \<\<Context\>\>.
 
 5. Ora potete salvare come file il livello normale GPX oppure caricare i dati su
-OSM (per es. usando il 
+OSM (per es. usando il
 plugin [DirectUpload](http://josm.openstreetmap.de/wiki/Plugins)).
 
 Print
@@ -203,7 +203,7 @@ Dettagli DirectUpload
 Aggiungere le vostre tracce GPS e waypoint sul server OSM è utile per
 molte ragioni.
 __(Se non volete che altri vedano le vostre tracce GPX tralasciate questo capitolo. Potete semplicemente visualizzare i vostri file GPX con JOSM, perciò salvateli localmente).
-Innanzi tutto, le tracce GPS sono il modo più utile per raccogliere e 
+Innanzi tutto, le tracce GPS sono il modo più utile per raccogliere e
 georeferenziare oggetti in OSM. Vedi [Aerial Imagery](/in/josm/aerial-imagery/)
 Le unità GPS hanno un'accuratezza maggiore delle foto satellitari e perciò sono
 uno strumento utile per controllare quanto scarto hanno le immagini satellitari. Usando
@@ -242,7 +242,7 @@ privata, tracciabile, pubblica o identificabile.
 1. **Tracciabile**: La traccia **non** comparirà in nessuna lista
     pubblica, ma i punti della traccia saranno ancora disponibili tramite le
     API GPS **con i marcatori di data-ora**. Altri utenti potranno
-    scaricare i punti della traccia che però non saranno a te 
+    scaricare i punti della traccia che però non saranno a te
     associabili .
 
 2. **Privata**: La traccia **non** comparirà in nessuna lista
@@ -254,22 +254,22 @@ privata, tracciabile, pubblica o identificabile.
 Caricamento online delle tracce GPS
 ---------------------------
 
-1. Andate 
-su [http://www.openstreetmap.org/](http://www.openstreetmap.org/) e collegatevi con il vostro nome utente.
+1. Andate
+su [https://www.openstreetmap.org/](https://www.openstreetmap.org/) e collegatevi con il vostro nome utente.
 
 2. Selezionate "Tracciati GPS" nel banner a sinistra.
 
 ![Left Banner][]
 
 3. Selezionate
-[carica un tracciato](http://www.openstreetmap.org/trace/create).
-Da qui potete anche **vedere solo i vostri tracciati** per rivedere le tracce GPS precedenti.  
+[carica un tracciato](https://www.openstreetmap.org/trace/create).
+Da qui potete anche **vedere solo i vostri tracciati** per rivedere le tracce GPS precedenti.
 
 4. Cercate il vostro file in "Scegli File". Descrivetelo nella casella
 Descrizione, associategli delle etichette, e scegliete il tipo di Visibilità che deve avere.
 Se avete molti file .gpx potete comprimerli in un file zip e
 caricare quest'ultimo. Sarà trattato come un unico, grande file gpx e sarà creata
-una sola riga nella lista delle tracce. 
+una sola riga nella lista delle tracce.
 
 ![Online Upload Traces Options][]
 
@@ -286,7 +286,7 @@ coda di file in attesa di essere inseriti nel database.
 [Upload Traces Item]: /images/josm/josm-plugins_image05_upload-traces-item.png
 [Upload Traces Window]: /images/josm/josm-plugins_image06_upload-traces-window.png
 [Edit Gpx]: /images/josm/josm-plugins_image07_edit-gpx.png
-[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png 
+[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png
 [Open GPX File]: /images/josm/josm-plugins_image09_open-gpx-file.png
 [GPX Nodes All]: /images/josm/josm-plugins_image10_gpx-nodes-all.png
 [GPX Nodes Selected]: /images/josm/josm-plugins_image11_gpx-nodes-selected.png

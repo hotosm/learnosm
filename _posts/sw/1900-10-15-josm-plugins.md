@@ -9,11 +9,11 @@ category: josm
  Plugins za JOSM
 ============
 
-Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
-tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md). 
+Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii,
+tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).
 
-> Huu muongozo unaweza kupakuliwa kama [josm-plugins_sw.odt](/files/josm-plugins_sw.odt) au [josm-plugins_sw.pdf](/files/josm-plugins_sw.pdf)  
-> Reviewed 2015-07-14  
+> Huu muongozo unaweza kupakuliwa kama [josm-plugins_sw.odt](/files/josm-plugins_sw.odt) au [josm-plugins_sw.pdf](/files/josm-plugins_sw.pdf)
+> Reviewed 2015-07-14
 
 Jinsi ulivyokuwa mtaalamu katika kutumia mbinu mbalimbali kuhariri, unaweza ukataka kutumia vifaa vingine vya JOSM kuongeza ujuzi wako wa kutengeneza ramani. JOSM inakuwezesha kuweka plugins mbalimbali , ambazo zinaonyesha kazi za zaidi kwa software.
 
@@ -42,7 +42,7 @@ Baadhi ya plugins zinazotumika:
     Kama unataka kuupload GPS tracks kutoka kwenye kifaa cha  Garmin, unahitaji hii plugin. OSM haitakubali GPS tracks amabzo zimehifadhiwa katika kifaa cha nje cha kuhifadhi taarifa cha Garmin, lakini hii plugin inaweza kurekebisha mafaili wa ajili ya kuupload.
 
 4.  **fieldpapers:**
-    Hii plugin inakusaidia kuona scanned Field Papers katika JOSM. 
+    Hii plugin inakusaidia kuona scanned Field Papers katika JOSM.
 
 5.  **imagery_offset_db:**
     Hii plugin inakusaidia kushirikiana na watengeneza ramani wengine ambao wamekuta picha ya anga imehama kidogo. Hili swala limeelezewa zaidi katika sura inayofuata.
@@ -148,7 +148,7 @@ see this new tool in the tool bar on the left.
 
 ![Open GPX File][]
 
-2. Press the new button in the left menu bar 
+2. Press the new button in the left menu bar
 
 ![Edit Gpx Tool Icon][]
 
@@ -269,21 +269,21 @@ Uploading GPS Traces Online
 ---------------------------
 
 1. Go
-to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
+to [https://www.openstreetmap.org/](https://www.openstreetmap.org/) and log in.
 
 2. Select "GPS Traces" found on the left banner.
 
 ![Left Banner][]
 
 3. Select
-[upload a trace](http://www.openstreetmap.org/trace/create).
-Here, you can also  **See just your traces** to review previous GPS tracks.  
+[upload a trace](https://www.openstreetmap.org/trace/create).
+Here, you can also  **See just your traces** to review previous GPS tracks.
 
 4. Find your file in "Choose File". Label it in the Description
 box, give it some Tags, and chose what type of Visibility it will have.
 If you have many .gpx files you can compress them into a zip archive and
 upload it. It will be treated as one large gpx file and only one entry
-on the trace list will be created. 
+on the trace list will be created.
 
 ![Online Upload Traces Options][]
 
@@ -300,7 +300,7 @@ queue of files waiting to be inserted into the database.
 [Upload Traces Item]: /images/josm/josm-plugins_image05_upload-traces-item.png
 [Upload Traces Window]: /images/josm/josm-plugins_image06_upload-traces-window.png
 [Edit Gpx]: /images/josm/josm-plugins_image07_edit-gpx.png
-[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png 
+[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png
 [Open GPX File]: /images/josm/josm-plugins_image09_open-gpx-file.png
 [GPX Nodes All]: /images/josm/josm-plugins_image10_gpx-nodes-all.png
 [GPX Nodes Selected]: /images/josm/josm-plugins_image11_gpx-nodes-selected.png

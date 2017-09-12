@@ -138,7 +138,7 @@ see this new tool in the tool bar on the left.
 
 ![Open GPX File][]
 
-2. Press the new button in the left menu bar 
+2. Press the new button in the left menu bar
 
 ![Edit Gpx Tool Icon][]
 
@@ -260,21 +260,21 @@ Uploading GPS Traces Online
 ---------------------------
 
 1. Go
-to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
+to [https://www.openstreetmap.org/](https://www.openstreetmap.org/) and log in.
 
 2. Select "GPS Traces" found on the left banner.
 
 ![Left Banner][]
 
 3. Select
-[upload a trace](http://www.openstreetmap.org/trace/create).
-Here, you can also  **See just your traces** to review previous GPS tracks.  
+[upload a trace](https://www.openstreetmap.org/trace/create).
+Here, you can also  **See just your traces** to review previous GPS tracks.
 
 4. Find your file in "Choose File". Label it in the Description
 box, give it some Tags, and chose what type of Visibility it will have.
 If you have many .gpx files you can compress them into a zip archive and
 upload it. It will be treated as one large gpx file and only one entry
-on the trace list will be created. 
+on the trace list will be created.
 
 ![Online Upload Traces Options][]
 
@@ -291,7 +291,7 @@ queue of files waiting to be inserted into the database.
 [Upload Traces Item]: /images/en/editing/josm-plugins/en_beg_04_josm-plugins_image05_upload-traces-item.png
 [Upload Traces Window]: /images/en/editing/josm-plugins/en_beg_04_josm-plugins_image06_upload-traces-window.png
 [Edit Gpx]: /images/en/editing/josm-plugins/en_beg_04_josm-plugins_image07_edit-gpx.png
-[Edit Gpx Tool Icon]: /images/en/editing/josm-plugins/en_beg_04_josm-plugins_image08_edit-gpx-tool-icon.png 
+[Edit Gpx Tool Icon]: /images/en/editing/josm-plugins/en_beg_04_josm-plugins_image08_edit-gpx-tool-icon.png
 [Open GPX File]: /images/en/editing/josm-plugins/en_beg_04_josm-plugins_image09_open-gpx-file.png
 [GPX Nodes All]: /images/en/editing/josm-plugins/en_beg_04_josm-plugins_image10_gpx-nodes-all.png
 [GPX Nodes Selected]: /images/en/editing/josm-plugins/en_beg_04_josm-plugins_image11_gpx-nodes-selected.png

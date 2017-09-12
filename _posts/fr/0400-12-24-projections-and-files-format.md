@@ -357,7 +357,7 @@ grand, plus l’image affichée sera petite.
 
 Vous pouvez changer la taille de l’échelle et de pixel des images de
 cartes sur le site
-[www.openstreetmap.org](http://www.openstreetmap.org).
+[www.openstreetmap.org](https://www.openstreetmap.org).
 
 La taille en pixels est calculée en fonction de la taille de la zone
 sélectionnée, ainsi que de l’échelle qui a été choisie. Cette taille va

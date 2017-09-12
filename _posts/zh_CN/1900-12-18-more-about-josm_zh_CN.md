@@ -9,8 +9,8 @@ category: josm
 JOSM编辑过程
 ========================
 
-> 本指南有[josm_more-about-josm_zh_CN.odt](/files/josm_more-about-josm_zh_CN.odt) 和[josm_more-about-josm_zh_CN.pdf](/files/josm_more-about-josm_zh_CN.pdf) 两种格式可供下载。  
-> 2015年7月12日修订  
+> 本指南有[josm_more-about-josm_zh_CN.odt](/files/josm_more-about-josm_zh_CN.odt) 和[josm_more-about-josm_zh_CN.pdf](/files/josm_more-about-josm_zh_CN.pdf) 两种格式可供下载。
+> 2015年7月12日修订
 
 在之前的小节中，
 你已经安装了JOSM并且开始绘制你的第一个点、线、面。
@@ -95,7 +95,7 @@ JOSM编辑过程
 
 ![JOSM layout][]
 
-主窗口你已经很熟悉了——这就是地图窗口， 
+主窗口你已经很熟悉了——这就是地图窗口，
 你将在这里进行多数操作，例如查看、编辑、
 向OSM添加数据等。
 
@@ -138,11 +138,11 @@ JOSM编辑过程
 
 - 请用**绘制工具**来绘制新的点线面。
     和前一节一样，请通过选择相应的预设组合菜单来
-    描述所绘制的对象。 
+    描述所绘制的对象。
 
-> 千万不要编辑你已下载区域以外的地图。  
-> 你可以看见已下载区域有个实线矩形框，  
-> 而未下载区域则标有平行的斜线。  
+> 千万不要编辑你已下载区域以外的地图。
+> 你可以看见已下载区域有个实线矩形框，
+> 而未下载区域则标有平行的斜线。
 
 ![JOSM area downloaded][]
 
@@ -178,14 +178,14 @@ OpenStreetMap数据库。要保存变更，必须
 -  上传所做变更需要等上一会儿，
     之后就上传好了！这样你就编辑了OpenStreetMap上的地图。
 
-> 在你编辑时，始终注意在关闭JOSM前上传修改。  
-> 尽管你还想再多画些，先上传这些变更。  
-> 以后再有时间编辑时重复上述过程即可。  
+> 在你编辑时，始终注意在关闭JOSM前上传修改。
+> 尽管你还想再多画些，先上传这些变更。
+> 以后再有时间编辑时重复上述过程即可。
 > 这样才不会丢失所做的工作！
 
 在地图上查看所做变更
 ---------------------------
--  打开浏览器，前往[http://www.openstreetmap.org](http://www.openstreetmap.org) 。
+-  打开浏览器，前往[https://www.openstreetmap.org](https://www.openstreetmap.org) 。
 - 把地图移动到你编辑过的区域。
 - 这时你应该看到你的修改出现在地图上了。如果没有，
     试试按下Ctrl+R组合键刷新网页。有时地图

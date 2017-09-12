@@ -9,8 +9,8 @@ category: beginner
 Primeros pasos en OpenStreetMap.org
 ====================================
 
-> Esta guía puede ser descargada como [beginner_start-osm_es.odt](/files/beginner_start-osm_es.odt) o [beginner_start-osm_es.pdf](/files/beginner_start-osm_es.pdf)  
-> Revisado 2015-07-12  
+> Esta guía puede ser descargada como [beginner_start-osm_es.odt](/files/beginner_start-osm_es.odt) o [beginner_start-osm_es.pdf](/files/beginner_start-osm_es.pdf)
+> Revisado 2015-07-12
 
 En esta sección vamos a aprender paso a paso cómo navegar por el
 sitio web de OpenStreetMap, ver mapas, y registrar su cuenta
@@ -27,7 +27,7 @@ Visite el sitio web de OpenStreetMap
 - Abra su navegador web. Los navegadores más comunes son Firefox, Chrome, Opera o Internet
     Explorer. Si ya está abierto entonces puede crear una nueva pestaña.
 - En la barra de direcciones en la parte superior de la ventana, escribe lo siguiente y presione Intro:
-    [www.openstreetmap.org](http://www.openstreetmap.org/)
+    [www.openstreetmap.org](https://www.openstreetmap.org/)
 - Cuando la página terminó de cargar, debería ver algo como
     esto:
 
@@ -54,7 +54,7 @@ Navegar por el mapa
     movido automáticamente a la ubicación elegida.
 
     ![Search][]
-   
+
 
 Ver diferentes estilos de mapa
 ------------------------
@@ -137,7 +137,7 @@ Añadiendo sus primeros puntos
     OpenStreetMap, puede utilizar el editor iD para añadir su primer punto al
     mapa.
 - Mueva el mapa a un lugar que conozca muy bien, como su ciudad
-    o barrio. Una buena idea es asegurarse que su casa (o la casa de su vecino) y el lugar de trabajo están dibujados y tienen la dirección correcta. 
+    o barrio. Una buena idea es asegurarse que su casa (o la casa de su vecino) y el lugar de trabajo están dibujados y tienen la dirección correcta.
 - Acercarse a un lugar donde le gustaría añadir un punto al mapa (tal vez un restaurante o la tienda de comestibles cercana que aún no están mapeadas).
 - Justo por encima del mapa de la izquierda, hay una pestaña llamada "Editar" con un pequeño
     triángulo. Haga clic en el pequeño triángulo. Debería ver un menú
@@ -154,7 +154,7 @@ Añadiendo sus primeros puntos
     la parte superior de la ventana. Luego, haga clic en el mapa donde desea añadir un nuevo
     punto.
 
-    ![Point button][]    
+    ![Point button][]
 
 - Seleccione en el menú de la izquierda qué tipo de lugar es el que está
     añadiendo al mapa. Puede rellenar el formulario correspondiente con el
@@ -163,7 +163,7 @@ Añadiendo sus primeros puntos
     primera edición, es posible que prefiera jugar con el editor. No guarde los cambios
     a menos que esté seguro de que son correctos.
 
-    ![Save button][]    
+    ![Save button][]
 
 - Si hace clic en Guardar, se le pedirá que proporcione una descripción de los cambios.
     Luego puede hacer clic en "Guardar" una vez más, y sus adiciones se guardarán en la

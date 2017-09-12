@@ -9,40 +9,40 @@ category: josm
 JOSM-Erweiterungen
 ============
 
-> Diese Anleitung kann unter [josm-plugins_de.odt](/files/josm-plugins_de.odt) oder [josm-plugins_de.pdf](/files/josm-plugins_de.pdf) heruntergeladen werden  
-Geprüft 2015-07-14  
+> Diese Anleitung kann unter [josm-plugins_de.odt](/files/josm-plugins_de.odt) oder [josm-plugins_de.pdf](/files/josm-plugins_de.pdf) heruntergeladen werden
+Geprüft 2015-07-14
 
-Sobald Sie schon etwas Erfahrung im Bearbeiten von Karten haben, weden Sie daran interessiert sein, weitere Techniken kennenzulernen, die JOSM bereitstellt. In JOSM können zahlreiche Erweiterungen installiert werden, die zusätzliche Funktionen bereitstellen.  
+Sobald Sie schon etwas Erfahrung im Bearbeiten von Karten haben, weden Sie daran interessiert sein, weitere Techniken kennenzulernen, die JOSM bereitstellt. In JOSM können zahlreiche Erweiterungen installiert werden, die zusätzliche Funktionen bereitstellen.
 
 In diesem Abschnitt zeigen wir Ihnen, wie man Erweiterungen installiert und weisen Sie auf einige der nützlichsten Erweiterungen hin.
 
 Erweiterungen installieren
 -------------------
-- Wenn Sie eine neue Erweiterung installieren möchten, wählen Sie den Menüpunkt **Bearbeiten > Einstellungen** und klicken Sie auf die Registerkarte **Erweiterungen**  
+- Wenn Sie eine neue Erweiterung installieren möchten, wählen Sie den Menüpunkt **Bearbeiten > Einstellungen** und klicken Sie auf die Registerkarte **Erweiterungen**
 
 ![Plugins][]
 
-- Wenn dort keine Liste der verfügbaren Erweiterungen angezeigt wird, klicken Sie auf **Liste herunterladen**.  
-- Um eine Erweiterung zu installieren kreuzen Sie einfach das Kästchen neben dem Namen der Erweiterung an und klicken Sie auf OK.  
+- Wenn dort keine Liste der verfügbaren Erweiterungen angezeigt wird, klicken Sie auf **Liste herunterladen**.
+- Um eine Erweiterung zu installieren kreuzen Sie einfach das Kästchen neben dem Namen der Erweiterung an und klicken Sie auf OK.
 - Zum Schluss müssen Sie JOSM manchmal neu starten um neue Erweiterungen zu installieren.
 
 Einige der beliebtesten Erweiterungen sind:
 
-1. **buildings_tools:** Wenn Sie viele Gebäude zeichnen, erleichtert Ihnen das die Arbeit  
+1. **buildings_tools:** Wenn Sie viele Gebäude zeichnen, erleichtert Ihnen das die Arbeit
 
-2. **DirectUpload:** Wenn Sie viele GPS-Spuren aufzeichnen und Sie diese in die OSM-Datenbank hochladen möchten,   
+2. **DirectUpload:** Wenn Sie viele GPS-Spuren aufzeichnen und Sie diese in die OSM-Datenbank hochladen möchten,
 
-3, **editgpx:** Wenn Sie GPS-Spuren von einem Garmin-Gerät hochladen wollen könnten Sie diese Erweiterung brauchen. OSM kann keine GPS-Spuren verarbeiten, die auf einer externen Speicherkarte gesichert wurden. Diese Erweiterung berichtigt die Dateien damit sie hochgeladen werden können.  
+3, **editgpx:** Wenn Sie GPS-Spuren von einem Garmin-Gerät hochladen wollen könnten Sie diese Erweiterung brauchen. OSM kann keine GPS-Spuren verarbeiten, die auf einer externen Speicherkarte gesichert wurden. Diese Erweiterung berichtigt die Dateien damit sie hochgeladen werden können.
 
-4. **fieldpapers:** Diese Erweiterung lädt eingescannte “Field Papers” in JOSM.  
+4. **fieldpapers:** Diese Erweiterung lädt eingescannte “Field Papers” in JOSM.
 
-5. **imagery_offset_db:** Diese Erweiterung verwaltet eine gemeinsame Datenbank zur Lagekorrektur von Satellitenbildern. Darauf wird in einem späteren Kapitel näher eingegangen  
+5. **imagery_offset_db:** Diese Erweiterung verwaltet eine gemeinsame Datenbank zur Lagekorrektur von Satellitenbildern. Darauf wird in einem späteren Kapitel näher eingegangen
 
-6. **mirrored_download:* Mit dieser Erweiterung können Sie OSM-Daten von größeren Bereichen zum Bearbeiten herunterladen.  
+6. **mirrored_download:* Mit dieser Erweiterung können Sie OSM-Daten von größeren Bereichen zum Bearbeiten herunterladen.
 
-7. **print:** Bietet eine Druckfunktion, wenn Sie einmal schnell einen Ausdruck brauchen,   
+7. **print:** Bietet eine Druckfunktion, wenn Sie einmal schnell einen Ausdruck brauchen,
 
-8. **[utilsplugin2](en/josm/josm-more-plugins/):** Bietet viele nützliche Werkzeuge für erfahrenere Benutzer. Nähere Informationen finden Sie in einem [anderen Kapitel](/de/josm/josm-more-plugins).  
+8. **[utilsplugin2](en/josm/josm-more-plugins/):** Bietet viele nützliche Werkzeuge für erfahrenere Benutzer. Nähere Informationen finden Sie in einem [anderen Kapitel](/de/josm/josm-more-plugins).
 
 
 
@@ -134,7 +134,7 @@ see this new tool in the tool bar on the left.
 
 ![Open GPX File][]
 
-2. Press the new button in the left menu bar 
+2. Press the new button in the left menu bar
 
 ![Edit Gpx Tool Icon][]
 
@@ -255,21 +255,21 @@ Uploading GPS Traces Online
 ---------------------------
 
 1. Go
-to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
+to [https://www.openstreetmap.org/](https://www.openstreetmap.org/) and log in.
 
 2. Select "GPS Traces" found on the left banner.
 
 ![Left Banner][]
 
 3. Select
-[upload a trace](http://www.openstreetmap.org/trace/create).
-Here, you can also  **See just your traces** to review previous GPS tracks.  
+[upload a trace](https://www.openstreetmap.org/trace/create).
+Here, you can also  **See just your traces** to review previous GPS tracks.
 
 4. Find your file in "Choose File". Label it in the Description
 box, give it some Tags, and chose what type of Visibility it will have.
 If you have many .gpx files you can compress them into a zip archive and
 upload it. It will be treated as one large gpx file and only one entry
-on the trace list will be created. 
+on the trace list will be created.
 
 ![Online Upload Traces Options][]
 
@@ -286,7 +286,7 @@ queue of files waiting to be inserted into the database.
 [Upload Traces Item]: /images/josm/josm-plugins_image05_upload-traces-item.png
 [Upload Traces Window]: /images/josm/josm-plugins_image06_upload-traces-window.png
 [Edit Gpx]: /images/josm/josm-plugins_image07_edit-gpx.png
-[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png 
+[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png
 [Open GPX File]: /images/josm/josm-plugins_image09_open-gpx-file.png
 [GPX Nodes All]: /images/josm/josm-plugins_image10_gpx-nodes-all.png
 [GPX Nodes Selected]: /images/josm/josm-plugins_image11_gpx-nodes-selected.png

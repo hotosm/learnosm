@@ -26,7 +26,7 @@ Visite o Site Web do OpenStreetMap
     Internet Explorer.
 -  Na barra de endereços no topo da janela, introduza o seguinte texto:
 
-  [www.openstreetmap.org](http://www.openstreetmap.org)
+  [www.openstreetmap.org](https://www.openstreetmap.org)
 
 -  Quando a página terminar de carregar, deverá ver algo semelhante a
     isto:
@@ -108,7 +108,7 @@ Criar uma Conta OpenStreetMap
     preencher a mesma senha nas duas caixas (novamente serve
     para despistar possíveis erros de digitação). Não precisa de ser a
     mesma senha da sua conta de email.
--  Talvez você queira escrever o nome de usuário e senha em algum lugar 
+-  Talvez você queira escrever o nome de usuário e senha em algum lugar
     para não os esquecer da próxima vez que for utilizar o site.
 -  Depois de ter completado todas as caixas, clique em “Continue” na
     parte inferior da página.

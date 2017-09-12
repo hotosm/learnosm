@@ -35,7 +35,7 @@ cartographiques, notamment pour recevoir les modifications des
 contributeurs, répondre aux requêtes des utilisateurs (dont l’envoi de
 portions de la carte au format XML), et d’avoir un rendu de la carte
 sous forme de mosaïques d’images sur le site principal
-[openstreetmap.org](http://www.openstreetmap.org).
+[openstreetmap.org](https://www.openstreetmap.org).
 
 ![image](/images/fr/0400-12-29-postgis-configuration/image28.png)
 
@@ -364,7 +364,7 @@ notre base de données.
 -   Utilisons le greffon pour importer des données OpenStreetMap dans
     notre base de données. Si vous n’avez pas encore de fichier .osm sur
     votre ordinateur, allez simplement à la page
-    [www.openstreetmap.org](http://www.openstreetmap.org), et cliquez
+    [www.openstreetmap.org](https://www.openstreetmap.org), et cliquez
     sur le bouton export pour y télécharger les données OSM d’une zone
     géographique.
 
