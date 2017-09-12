@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Partage de projets en ligne avec Github
+title: Partage de projets en ligne avec GitHub
 permalink: /fr/advanced/github-sharing/
 lang: fr
 category: advanced
 otherguides: "Les autres niveaux"
 ---
 
-Partage de projets en ligne avec Github
+Partage de projets en ligne avec GitHub
 =========================================
 
 Introduction
@@ -18,7 +18,7 @@ développement de logiciels basé sur le programme Git. De manière
 résumée, à travers GitHub vous pouvez accéder aux fichiers d’un projet
 que quelqu'un d’autre a créé ou bien créer votre projet et permettre à
 d’autres utilisateurs d’y accéder. L’historique de l’évolution des
-projets dans github est également conservé, ce qui, au besoin, permet de
+projets dans GitHub est également conservé, ce qui, au besoin, permet de
 pouvoir revenir à des versions antérieures. À cela s’ajoute bien
 d’autres fonctionnalités. L’objectif de ce chapitre est de donner des
 bases pour l’utilisation de GitHub.
@@ -28,7 +28,7 @@ bases pour l’utilisation de GitHub.
 
 -   Avec votre navigateur, accédez à la page d’accueil de GitHub :
     [http://www.github.com](http://www.github.com). Rappelons qu’il y a
-    une différence entre Github et Git. Git est un programme de suivi de
+    une différence entre GitHub et Git. Git est un programme de suivi de
     version qui peut transformer en repository tout dossier dans votre
     machine. Git prend en compte également le suivi de tous les
     changements qui s’opèrent dans un dépôt donné. GitHub est un service
@@ -101,7 +101,7 @@ chapitre.
 3. Qu’est-ce donc Git ?
 -----------------------
 
-Git et GitHub sont deux applications distinctes. Github est un site web
+Git et GitHub sont deux applications distinctes. GitHub est un site web
 pour héberger des dépôts et qui facilite ainsi la collaboration sur des
 projets entre plusieurs intervenants. Le site GitHub fonctionne avec Git
 qui est un programme qui permet à des utilisateurs de sauvegarder

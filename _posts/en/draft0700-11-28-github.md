@@ -10,11 +10,11 @@ category: map-design
 this chapter is a draft because it's not a priority
 -->
 
-Using Github
+Using GitHub
 ================
 
 GitHub is a website for storing and collaborating on projects, based on
-a program called Git. At it’s simplest, it is a place where you can get
+a program called Git. At its simplest, it is a place where you can get
 project files that someone else has created, and a place where you can
 upload projects of your own for others to use. You can also return to
 previous version of projects as well as open them up for other users to
@@ -27,11 +27,11 @@ GitHub and Repositories
 1. Navigate your web browser to
    [http://www.github.com](http://www.github.com) and you will see the
    home page of GitHub, the main online repository for storing
-   git projects. Note the difference between github and git. Git is a
+   Git projects. Note the difference between GitHub and Git. Git is a
    control system that can make any folder on your computer a
    repository, and it can track any changes that you make over time to
    that repository. GitHub is an online service that allows users to
-   share their git repositories and easily collaborate with others. If
+   share their Git repositories and easily collaborate with others. If
    this doesn't make sense right now, don’t worry. The main thing to
    remember is that GitHub allows users to save repositories, which can
    contain many files and folders within.
@@ -45,7 +45,7 @@ GitHub and Repositories
    contain.
 
 A repository is the equivalent of a project folder. When you view
-a repository on github, you are viewing the most recent state of the
+a repository on GitHub, you are viewing the most recent state of the
 files in that project.
 
 Repositories can be either public or private. Only users with paid
@@ -94,7 +94,7 @@ need to know! However, if you’d like to learn more about Git and
 GitHub, including how to create your own account and repositories, read
 on for more information.
 
-What is git?
+What is Git?
 -------------------
 
 Git and GitHub are not the same thing. GitHub we’ve now seen in action.
@@ -103,10 +103,10 @@ share project files. It is based on Git, which is a small computer
 program that allows users to save different versions of texts or code
 throughout a project’s lifetime.
 
-Let’s take a moment to understand how git works, because it can
+Let’s take a moment to understand how Git works, because it can
 initially be a difficult concept to understand. As already mentioned,
 git remembers the revision history of files. But rather than saving a
-file every time it changes, git saves a file once, and then each time
+file every time it changes, Git saves a file once, and then each time
 you save a new version, it saves all of the changes to that file. This
 makes storage far more efficient, and you can easily keep the entire
 history of a group of files without using a lot of disk space.
@@ -114,12 +114,12 @@ history of a group of files without using a lot of disk space.
 Git is also very helpful because you can keep your files safely stored
 on GitHub, but work on copies of the files offline on your computer.
 Then, when you want to commit your changes, you can do so and
-synchronize the changes with github. Also, when you store your projects
-on github, multiple people can copy and edit the files at the same time,
+synchronize the changes with GitHub. Also, when you store your projects
+on GitHub, multiple people can copy and edit the files at the same time,
 and because the project is hosted online, it is difficult to lose or
 accidentally erase any of your files.
 
-The workflow for editing a git repository is as follows:
+The workflow for editing a Git repository is as follows:
 
 1. clone the repository from GitHub onto your computer
 2. modify the files in the local directory
@@ -127,20 +127,20 @@ The workflow for editing a git repository is as follows:
 want to save
 4. commit the changes to your local repository, effectively
 saving all your changes
-5. sync the repository with the main project on github
+5. sync the repository with the main project on GitHub
 
-This is the basic process for working with a git project. Git is far
+This is the basic process for working with a Git project. Git is far
 more complex, allowing users to do just about anything in terms of
 merging and comparing edits, and branching repositories. We won’t throw
 too many new concepts at you at once, so next, let’s see how we can
 clone an existing repository to our local machines.
 
-Install GitHub (git)
+Install GitHub (Git)
 --------------------------
 
-1. You can easily install a GUI version of git by going to this address
+1. You can easily install a GUI version of Git by going to this address
    and downloading the installer. There are installers for various
-   operating systems. 
+   operating systems.
    [https://help.github.com/articles/set-up-git#platform-windows](https://help.github.com/articles/set-up-git#platform-windows)
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch4_image00.png)
 
@@ -195,7 +195,7 @@ Creating a New Repository
    were editing in TileMill in the previous chapter. This directory
    should be located in My Documents -> MapBox -> project.
 
-6. Go back to the GitHub program and click the arrow to the right of 
+6. Go back to the GitHub program and click the arrow to the right of
    your project name.
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch4_image03.png)
 
@@ -212,7 +212,7 @@ Creating a New Repository
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch4_image10.png)
 
 10. Go back to your web browser and look again at your repository on
-    github. You will see that all the files have been saved
+    GitHub. You will see that all the files have been saved
     successfully to the repository online.
     ![]({{site.baseurl}}/images/en/advanced/en_adv_ch4_image01.png)
 
@@ -238,10 +238,10 @@ should be the same.
 
 it would be nice to have a little explanation what happens if some
 people edit a repository at the same time and individually commit their
-changes... how does github treats the conflicts of having 2 different
+changes... how does GitHub treats the conflicts of having 2 different
 versions than... or what to consider when  working together on one
-project using github..
+project using GitHub..
 
 [[c]](#cmnt_ref3)Katrina Engelsted:
 Good source: http://nathanj.github.com/gitguide/tour.html
---> 
+-->
