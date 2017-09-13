@@ -7,25 +7,25 @@ category: osm-data
 ---
 
 Ottenere dati OSM
-=================  
+=================
 
-> Questa guida può essere scaricata come [Getting_OSM_Data_it.odt](/files/Getting_OSM_Data_it.odt) o [Getting_OSM_Data_it.pdf](/files/Getting_OSM_Data_it.pdf)  
+> Questa guida può essere scaricata come [Getting_OSM_Data_it.odt](/files/Getting_OSM_Data_it.odt) o [Getting_OSM_Data_it.pdf](/files/Getting_OSM_Data_it.pdf)
 > Revisionato il 25-06-2017
 
-Quando vuoi ottenere i dati OpenStreetMap più recenti, il modo più semplice è scaricarne un estratto da un sito web. Ci sono diversi servizi web che forniscono estratti per un'area a tua scelta.  
+Quando vuoi ottenere i dati OpenStreetMap più recenti, il modo più semplice è scaricarne un estratto da un sito web. Ci sono diversi servizi web che forniscono estratti per un'area a tua scelta.
 
 Scaricare estratti di dati
 --------------------------
 
 ### GeoFabrik
 
-[GeoFabrik](http://geofabrik.de) è una società specializzata nel lavorare con dati OpenStreetMap. Essi forniscono una varietà di estratti gratuiti in formato shapefile e in formato nativo OSM sul loro [sito download](http://download.geofabrik.de). Il vantaggio di scaricare dati da Geofabrik è che sono aggiornati ogni giorno, ed è facile e affidabile. Lo svantaggio è che i dati sono estratti per nazioni, e non tutte le nazioni sono disponibili. Per "l'Italia" è disponibile il servizio di [Wikimedia Italia](http://osm-estratti.wmflabs.org/estratti/) che fornisce nei formati shapefile, nativo OSM e Spatialite l'aggiornamento quotidiano degli estratti per singole regioni o singoli comuni.  
+[GeoFabrik](http://geofabrik.de) è una società specializzata nel lavorare con dati OpenStreetMap. Essi forniscono una varietà di estratti gratuiti in formato shapefile e in formato nativo OSM sul loro [sito download](http://download.geofabrik.de). Il vantaggio di scaricare dati da Geofabrik è che sono aggiornati ogni giorno, ed è facile e affidabile. Lo svantaggio è che i dati sono estratti per nazioni, e non tutte le nazioni sono disponibili. Per "l'Italia" è disponibile il servizio di [Wikimedia Italia](http://osm-estratti.wmflabs.org/estratti/) che fornisce nei formati shapefile, nativo OSM e Spatialite l'aggiornamento quotidiano degli estratti per singole regioni o singoli comuni.
 
 ### Metro Extracts
 
-[Un sito web gestito da Mapzen](https://mapzen.com/data/metro-extracts/) fornisce nei formati shapefiles e nativo OSM gli estratti di città del mondo, estratti settimanalmente. Questo è utile se cerchi estratti di dati di singole città.  
+[Un sito web gestito da Mapzen](https://mapzen.com/data/metro-extracts/) fornisce nei formati shapefiles e nativo OSM gli estratti di città del mondo, estratti settimanalmente. Questo è utile se cerchi estratti di dati di singole città.
 
-### BBBike  
+### BBBike
 
 [BBBike](http://download.bbbike.org/osm/bbbike/) offre qualcosa di simile ai Metro Extracts ma per una selezione di città differenti. Anche in questo caso i dati vengono aggiornati settimanalmente.
 
@@ -40,16 +40,16 @@ Scaricare estratti di dati
 Estratti personalizzati
 -------------------
 
-### Exports HOT   
+### Exports HOT
 
-Lo [Humanitarian OpenStreetMap Team](http://hotosm.org) ha creato un servizio che permette agli utenti di selezionare l'area che vogliono estrarre, e usa anche i [Presets JOSM](/en/josm/josm-presets/)
+Lo [Humanitarian OpenStreetMap Team](https://www.hotosm.org) ha creato un servizio che permette agli utenti di selezionare l'area che vogliono estrarre, e usa anche i [Presets JOSM](/en/josm/josm-presets/)
 per personalizzare la selezione dei tag da includere nell'estratto. Il servizio è disponibile in tutti i paesi in cui opera HOT, a [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 
-### BBBike  
+### BBBike
 
-Tu puoi selezionare un'area di qualsiasi parte del mondo usando il servizio a [http://extract.bbbike.org/](http://extract.bbbike.org/). Lo svantaggio è che non puoi scegliere quali tag includere, inoltre la quantità di dati che puoi scaricare è limitata.  
+Tu puoi selezionare un'area di qualsiasi parte del mondo usando il servizio a [http://extract.bbbike.org/](http://extract.bbbike.org/). Lo svantaggio è che non puoi scegliere quali tag includere, inoltre la quantità di dati che puoi scaricare è limitata.
 
 ### Overpass
 
@@ -85,18 +85,18 @@ leggi file
 url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;"
 wget -O $file "$url"
 ```
->Cosa succede qui (per il curioso che non vuole leggere la documentazione completa del linguaggio di interrogazione)?  
-nodi(...) seleziona tutti i nodi dentro un riquadro;  
-><ricorsione all'insù completa, cioè seleziona tutte le way (linee) contenente questi nodi e tutte le relazioni contenenti questi nodi e way (linee);  
+>Cosa succede qui (per il curioso che non vuole leggere la documentazione completa del linguaggio di interrogazione)?
+nodi(...) seleziona tutti i nodi dentro un riquadro;
+><ricorsione all'insù completa, cioè seleziona tutte le way (linee) contenente questi nodi e tutte le relazioni contenenti questi nodi e way (linee);
 >rel(br)seleziona tutte le relazioni-padre delle relazioni ottenute finora (altrimenti le relazioni superiori non sarebbero ottenute)
 >
 
 
 
 Sommario
--------  
+-------
 
-I servizi citati in questo capitolo sono tutto ciò che l'utente medio ha bisogno per recuperare i dati OSM che vuole e per essere in grado di lavorarci con programmi GIS. Tuttavia, potresti voler imparare metodi più potenti per lavorare con gli stessi dati. I capitoli successivi di questa sezione sono molto tecnici, ma mostrano metodi avanzati per manipolare ed accedere ai dati OSM.  
+I servizi citati in questo capitolo sono tutto ciò che l'utente medio ha bisogno per recuperare i dati OSM che vuole e per essere in grado di lavorarci con programmi GIS. Tuttavia, potresti voler imparare metodi più potenti per lavorare con gli stessi dati. I capitoli successivi di questa sezione sono molto tecnici, ma mostrano metodi avanzati per manipolare ed accedere ai dati OSM.
 
 
 [hot exports]: /images/osm-data/hot-exports.png

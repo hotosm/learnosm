@@ -14,4 +14,4 @@ startC: "Tingkatkan Bahasa"
 startD: "Percabangan dan meningkatkan situs"
 nosearch: true
 ---
-Panduan ini dibuat dan dikelola oleh komunitas [OpenStreetMap](https://www.openstreetmap.org/) dan [Tim Kemanusiaan OpenStreetMap](http://hotosm.org/) . Anda dapat membantu kami meningkatkan panduan ini hanya dengan mengirimkan kritik dan saran atau dengan memberikan kontribusi langsung melalui [Github](http://github.com/hotosm/learnosm).
+Panduan ini dibuat dan dikelola oleh komunitas [OpenStreetMap](https://www.openstreetmap.org/) dan [Tim Kemanusiaan OpenStreetMap](https://www.hotosm.org/) . Anda dapat membantu kami meningkatkan panduan ini hanya dengan mengirimkan kritik dan saran atau dengan memberikan kontribusi langsung melalui [Github](http://github.com/hotosm/learnosm).

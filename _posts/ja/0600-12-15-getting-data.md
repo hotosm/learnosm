@@ -32,7 +32,7 @@ OSMデータの取得
 -------------------
 
 ### HOT Exports
-[OpenStreetMap人道支援チーム (HOT)](http://hotosm.org)は、ユーザごとに対象地域の変更が可能なデータ抽出サイトと、抽出時に含める指定タグを選択した[JOSMプリセット](/ja/josm/josm-presets/)を提供しています。[export.hotosm.org](http://export.hotosm.org)は、HOTが活動しているすべての地域で利用可能です。
+[OpenStreetMap人道支援チーム (HOT)](https://www.hotosm.org)は、ユーザごとに対象地域の変更が可能なデータ抽出サイトと、抽出時に含める指定タグを選択した[JOSMプリセット](/ja/josm/josm-presets/)を提供しています。[export.hotosm.org](http://export.hotosm.org)は、HOTが活動しているすべての地域で利用可能です。
 
 ![hot exports][]
 

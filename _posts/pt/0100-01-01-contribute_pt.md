@@ -11,4 +11,4 @@ startC: "Improve Images - in your language!"
 startD: "Reportar erros e contribuir"
 nosearch: true
 ---
-Este guia é criado e mantido pelo [OpenStreetMap](https://www.openstreetmap.org/) e a comunidade [Humanitarian OpenStreetMap](http://hotosm.org/). Pode ajudar-nos a melhorar este guia enviando-nos as suas sugestões ou  contribuindo diretamente através do [Github](http://github.com/hotosm/learnosm).
+Este guia é criado e mantido pelo [OpenStreetMap](https://www.openstreetmap.org/) e a comunidade [Humanitarian OpenStreetMap](https://www.hotosm.org/). Pode ajudar-nos a melhorar este guia enviando-nos as suas sugestões ou  contribuindo diretamente através do [Github](http://github.com/hotosm/learnosm).

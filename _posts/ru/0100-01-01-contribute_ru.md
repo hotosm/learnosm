@@ -11,4 +11,4 @@ startC: "Improve Images - in your language!"
 startD: "Участвовать и сообщить об ошибках"
 nosearch: true
 ---
-Это руководство создано и поддерживается сообществами  [OpenStreetMap](https://www.openstreetmap.org/) и [Humanitarian OpenStreetMap](http://hotosm.org/). Вы можете помочь нам улучшить это руководство, просто сообщив ваши замечания и пожелания, либо непосредственно внося изменения на [Github](http://github.com/hotosm/learnosm).
+Это руководство создано и поддерживается сообществами  [OpenStreetMap](https://www.openstreetmap.org/) и [Humanitarian OpenStreetMap](https://www.hotosm.org/). Вы можете помочь нам улучшить это руководство, просто сообщив ваши замечания и пожелания, либо непосредственно внося изменения на [Github](http://github.com/hotosm/learnosm).

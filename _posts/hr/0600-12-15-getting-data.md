@@ -37,7 +37,7 @@ The disadvantage to this site is that it is not updated regularly.
 Customized Extracts
 -------------------
 ### HOT Exports
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users
+The [Humanitarian OpenStreetMap Team](https://www.hotosm.org) has created a service that allows users
 to select the area that they want to extract, and also use [JOSM Presets](/en/editing/josm-presets)
 to select custom tags to be included in the extract. The service is available to all countries where
 HOT works, at [export.hotosm.org](http://export.hotosm.org).

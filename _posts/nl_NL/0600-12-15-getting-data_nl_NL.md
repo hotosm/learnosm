@@ -7,25 +7,25 @@ category: osm-data
 ---
 
 Gegevens van OSM ophalen
-=================  
+=================
 
-> Deze handleiding kan gedownload worden als [Getting_OSM_Data_nl_NL.odt](/files/Getting_OSM_Data_nl_NL.odt) of [Getting_OSM_Data_nl_NL.pdf](/files/Getting_OSM_Data_nl_NL.pdf)  
+> Deze handleiding kan gedownload worden als [Getting_OSM_Data_nl_NL.odt](/files/Getting_OSM_Data_nl_NL.odt) of [Getting_OSM_Data_nl_NL.pdf](/files/Getting_OSM_Data_nl_NL.pdf)
 > Bijgewerkt op 05-04-2016
 
-Wanneer u de meest recente gegevens van OSM wilt ophalen, is de eenvoudigste manier om een extract van een website te downloaden. Er zijn verscheidene webservices die gegevensextracten voor een gebied van uw keuze verschaffen.  
+Wanneer u de meest recente gegevens van OSM wilt ophalen, is de eenvoudigste manier om een extract van een website te downloaden. Er zijn verscheidene webservices die gegevensextracten voor een gebied van uw keuze verschaffen.
 
 Gegevensextracten downloaden
 --------------------------
 
 ### GeoFabrik
 
-[GeoFabrik](http://geofabrik.de) is een bedrijf dat is gespecialiseerd in het werken met OpenStreetMap. Zij verschaffen een variëteit aan gratis extracten in shapefile- en ruwe OSM-indeling op hun [download website](http://download.geofabrik.de). Het voordeel van het downloaden van gegevens van GeoFabrik is dat zij elke dag worden bijgewerkt, en het is eenvoudig en betrouwbaar. Een nadeel is dat de gegevens per land geëxtraheerd zijn en niet alle landen zijn beschikbaar.  
+[GeoFabrik](http://geofabrik.de) is een bedrijf dat is gespecialiseerd in het werken met OpenStreetMap. Zij verschaffen een variëteit aan gratis extracten in shapefile- en ruwe OSM-indeling op hun [download website](http://download.geofabrik.de). Het voordeel van het downloaden van gegevens van GeoFabrik is dat zij elke dag worden bijgewerkt, en het is eenvoudig en betrouwbaar. Een nadeel is dat de gegevens per land geëxtraheerd zijn en niet alle landen zijn beschikbaar.
 
 ### Metro Extracts
 
-[Een andere website onderhouden door Mapzen](https://mapzen.com/data/metro-extracts/) verschaft shapefiles en ruwe OSM-indeling voor steden van over de gehele wereld, wekelijks geëxtraheerd. Dit is nuttig als u zoekt naar een gegevensextract voor één enkele stad.  
+[Een andere website onderhouden door Mapzen](https://mapzen.com/data/metro-extracts/) verschaft shapefiles en ruwe OSM-indeling voor steden van over de gehele wereld, wekelijks geëxtraheerd. Dit is nuttig als u zoekt naar een gegevensextract voor één enkele stad.
 
-### BBBike  
+### BBBike
 
 [BBBike](http://download.bbbike.org/osm/bbbike/) biedt iets soortgelijks als Metro Extracts maar voor een andere selectie steden. De gegevens wordne ook wekelijks bijgewerkt.
 
@@ -40,16 +40,16 @@ Gegevensextracten downloaden
 Aangepaste extracten
 -------------------
 
-### HOT Exports  
+### HOT Exports
 
-Het [Humanitarian OpenStreetMap Team](http://hotosm.org) heeft een service gemaakt die gebruikers in staat stelt het gebied te selecteren dat zij willen extraheren, en ook [voorkeuzen van JOSM gebruiken](/en/josm/josm-presets/)
+Het [Humanitarian OpenStreetMap Team](https://www.hotosm.org) heeft een service gemaakt die gebruikers in staat stelt het gebied te selecteren dat zij willen extraheren, en ook [voorkeuzen van JOSM gebruiken](/en/josm/josm-presets/)
 om aangepaste tags te selecteren die moeten worden opgenomen in het extract. De service is beschikbaar voor alle landen waar HOT werkt, op [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 
-### BBBike  
+### BBBike
 
-U kunt uw eigen gebied uit de gehele wereld selecteren selecteren met behulp van de service op [http://extract.bbbike.org/](http://extract.bbbike.org/). Nadelen zijn dat u geen aangepaste tags kunt selecteren en dat de hoeveelheid gegevens die u kunt downloaden begrensd is.  
+U kunt uw eigen gebied uit de gehele wereld selecteren selecteren met behulp van de service op [http://extract.bbbike.org/](http://extract.bbbike.org/). Nadelen zijn dat u geen aangepaste tags kunt selecteren en dat de hoeveelheid gegevens die u kunt downloaden begrensd is.
 
 ### Overpass
 
@@ -85,18 +85,18 @@ read file
 url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;"
 wget -O $file "$url"
 ```
->Wat gebeurt hier (voor de nieuwsgierigen die niet de volledige documentatie van de querytaal willen lezen)?  
->node(...) selecteert alle knopen binnen ene begrenzingsvak;  
->< herhaalt zich volledig, d.i. selecteert alle wegen die deze knopen bevatten en alle relaties die deze knopen en wegen bevatten;  
+>Wat gebeurt hier (voor de nieuwsgierigen die niet de volledige documentatie van de querytaal willen lezen)?
+>node(...) selecteert alle knopen binnen ene begrenzingsvak;
+>< herhaalt zich volledig, d.i. selecteert alle wegen die deze knopen bevatten en alle relaties die deze knopen en wegen bevatten;
 >rel(br) selecteert alle ouder-relaties van de tot dusverre verkregen relaties (anders zouden master-relaties niet worden verkregen)
 >
 
 
 
 Overzicht
--------  
+-------
 
-De in dit hoofdstuk vermelde services zijn alles wat de gemiddelde gebruiker nodig heeft om de gegevens van OSM te verkrijgen die hij wil en om er mee te  kunnen werken in software voor GIS. U wilt echter misschien meer leren over meer krachtige manieren om zelf met de gegevens te werken. De resterende hoofdstukken in dit gedeelte zijn nogal technisch, maar laten meer geavanceerde methoden zien voor het manipuleren en toegang krijgen tot gegevens van OSM.  
+De in dit hoofdstuk vermelde services zijn alles wat de gemiddelde gebruiker nodig heeft om de gegevens van OSM te verkrijgen die hij wil en om er mee te  kunnen werken in software voor GIS. U wilt echter misschien meer leren over meer krachtige manieren om zelf met de gegevens te werken. De resterende hoofdstukken in dit gedeelte zijn nogal technisch, maar laten meer geavanceerde methoden zien voor het manipuleren en toegang krijgen tot gegevens van OSM.
 
 
 [hot exports]: /images/osm-data/hot-exports.png

@@ -9,25 +9,25 @@ category: beginner
 Meer informatie
 ===============
 
-> Deze handleiding kan worden gedownload als [beginner_moving-forward_nl_NL.odt](/files/beginner_moving-forward_nl_NL.odt) of [beginner_moving-forward_nl_NL.pdf](/files/beginner_moving-forward_nl_NL.pdf)  
-> Bijgewerkt op 12-07-2015  
+> Deze handleiding kan worden gedownload als [beginner_moving-forward_nl_NL.odt](/files/beginner_moving-forward_nl_NL.odt) of [beginner_moving-forward_nl_NL.pdf](/files/beginner_moving-forward_nl_NL.pdf)
+> Bijgewerkt op 12-07-2015
 
-Als u het tot zover hebt kunnen volgen, gefeliciteerd! U zou nu een goed begrip moeten hebben van hoe kaarten te maken met OpenStreetMap. Wat kunt u nog meer doen met OSM? Hoe kunt u nog meer leren? Hoe kan ik in verbinding blijven met de gemeenschap van mappers?  
+Als u het tot zover hebt kunnen volgen, gefeliciteerd! U zou nu een goed begrip moeten hebben van hoe kaarten te maken met OpenStreetMap. Wat kunt u nog meer doen met OSM? Hoe kunt u nog meer leren? Hoe kan ik in verbinding blijven met de gemeenschap van mappers?
 
 Meer gedeelten van learnOSM
 ---------------------------
 
-Aan het einde van het hoofdstuk over de bewerker iD hoorde u over de verschillen tussen iD en JOSM. Er is een [geheel gedeelte gewijd aan JOSM](/nl_NL/josm/) waar u alle nodige details zult leren om volledig te profiteren van de mogelijkheden die die bewerker heeft te bieden.  
+Aan het einde van het hoofdstuk over de bewerker iD hoorde u over de verschillen tussen iD en JOSM. Er is een [geheel gedeelte gewijd aan JOSM](/nl_NL/josm/) waar u alle nodige details zult leren om volledig te profiteren van de mogelijkheden die die bewerker heeft te bieden.
 
-Tot dusverre waren alle bewerkingen die we aan de kaart hebben toegevoegd gebaseerd op achtergrondafbeeldingen. Maar u kunt een scala aan informatie verzamelen door rond te lopen of te rijden. Het [gedeelte over mobiel in kaart brengen](/en/mobile-mapping/) legt uit hoe informatie te verzamelen met verschillende op GPS gebaseerde apparaten of met behulp van speciaal ontworpen afdrukken. Het behandelt ook een aantal aan OpenStreetMap gerelateerde toepassingen voor mobiele apparaten.  
+Tot dusverre waren alle bewerkingen die we aan de kaart hebben toegevoegd gebaseerd op achtergrondafbeeldingen. Maar u kunt een scala aan informatie verzamelen door rond te lopen of te rijden. Het [gedeelte over mobiel in kaart brengen](/en/mobile-mapping/) legt uit hoe informatie te verzamelen met verschillende op GPS gebaseerde apparaten of met behulp van speciaal ontworpen afdrukken. Het behandelt ook een aantal aan OpenStreetMap gerelateerde toepassingen voor mobiele apparaten.
 
-OpenStreetMap is een gezamenlijke inspanning en we hopen dat u daar deel van wilt uitmaken. Sommige van deze inspanningen zijn gewijd aan humanitaire hulp onder de auspiciën van het [Humanitarian OSM Team](http://hotosm.org). Als u HOT zou willen helpen in het geval van ene ramp zoals de aardbeving in Nepal, bekijk dan het [gedeelte over coördinatie](/en/coordination/). Het behandelt de programma's die er voor zorgen dat meerdere mensen samen kunnen werken aan een relatief klein gebied op een consistente manier. Het bevat richtlijnen over enkele specifieke taken die u frequent zult tegenkomen bij het deelnemen aan deze inspanningen.  
+OpenStreetMap is een gezamenlijke inspanning en we hopen dat u daar deel van wilt uitmaken. Sommige van deze inspanningen zijn gewijd aan humanitaire hulp onder de auspiciën van het [Humanitarian OSM Team](https://www.hotosm.org). Als u HOT zou willen helpen in het geval van ene ramp zoals de aardbeving in Nepal, bekijk dan het [gedeelte over coördinatie](/en/coordination/). Het behandelt de programma's die er voor zorgen dat meerdere mensen samen kunnen werken aan een relatief klein gebied op een consistente manier. Het bevat richtlijnen over enkele specifieke taken die u frequent zult tegenkomen bij het deelnemen aan deze inspanningen.
 
 
 Lees meer
 ----------
 
-Er is heel veel informatie over OpenStreetMap beschikbaar op [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Hier kunt u informatie vinden over andere projecten die zijn gerelateerd aan OpenStreetMap, en documenten en handleidingen die u helpen meer te leren over OSM.  
+Er is heel veel informatie over OpenStreetMap beschikbaar op [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Hier kunt u informatie vinden over andere projecten die zijn gerelateerd aan OpenStreetMap, en documenten en handleidingen die u helpen meer te leren over OSM.
 
 ![Wiki][]
 
@@ -36,25 +36,25 @@ Er is heel veel informatie over OpenStreetMap beschikbaar op [wiki.openstreetmap
 Mailinglijsr
 ------------
 
-De beste manier om verbonden te blijven met de gebruikersgemeenschap van OpenStreetMap is om u te abonneren op uw lokale mailinglijst. Veel mensen schrijven zich in, gebruiken hun e-mailaccounts voor de mailing lijst van OSM. Als u eenmaal op de lijst zit, kunt u een e-mail naar de groep sturen als u een vraag heeft of wilt praten over OpenStreetMap.  
+De beste manier om verbonden te blijven met de gebruikersgemeenschap van OpenStreetMap is om u te abonneren op uw lokale mailinglijst. Veel mensen schrijven zich in, gebruiken hun e-mailaccounts voor de mailing lijst van OSM. Als u eenmaal op de lijst zit, kunt u een e-mail naar de groep sturen als u een vraag heeft of wilt praten over OpenStreetMap.
 
-Open, om je in te schrijven voor de mailinglijst van jouw land,  je browser en ga naar [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
+Open, om je in te schrijven voor de mailinglijst van jouw land,  je browser en ga naar [lists.openstreetmap.org](http://lists.openstreetmap.org/).
 
 ![Mailing list][]
 
-Scroll op de pagina naar beneden om de lijst te zoeken die is geassocieerd met uw land. De lijst voor de landen is genaamd "Talk-lg", waar lg het land voor die lijst weergeeft. "Talk-id" is, bijvoorbeeld, de lijst voor Indonesië.  
+Scroll op de pagina naar beneden om de lijst te zoeken die is geassocieerd met uw land. De lijst voor de landen is genaamd "Talk-lg", waar lg het land voor die lijst weergeeft. "Talk-id" is, bijvoorbeeld, de lijst voor Indonesië.
 
-- Klik op de lijst waar u lid van wilt worden.  
-- Vul de volgende informatie in in de vakken op de pagina:  
-    + uw e-mailadres  
-    + uw voornaam  
-    + een nieuw wachtwoord  
-    + herhaal het wachtwoord  
+- Klik op de lijst waar u lid van wilt worden.
+- Vul de volgende informatie in in de vakken op de pagina:
+    + uw e-mailadres
+    + uw voornaam
+    + een nieuw wachtwoord
+    + herhaal het wachtwoord
 - Als u klaar bent, klik dan op Subscribe.
-- Nu dient u uw e-mail te openen, net zoals u deed toen u zich inschreef bij OpenStreetMap. Er zal een e-mail met een bevestiging in uw Inbox staan van de mailinglijst.  
-- Klik op de bevestigingslink.  
-- Nu zou u lid moeten zijn van de mailinglijst.  
-- Wanneer u een bericht wilt sturen naar de lijst, kunt u die versturen naar [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), vervang "id" door het land van uw lijst. U zult ook e-mails ontvangen als andere leden een bericht naar de lijst sturen.  
+- Nu dient u uw e-mail te openen, net zoals u deed toen u zich inschreef bij OpenStreetMap. Er zal een e-mail met een bevestiging in uw Inbox staan van de mailinglijst.
+- Klik op de bevestigingslink.
+- Nu zou u lid moeten zijn van de mailinglijst.
+- Wanneer u een bericht wilt sturen naar de lijst, kunt u die versturen naar [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), vervang "id" door het land van uw lijst. U zult ook e-mails ontvangen als andere leden een bericht naar de lijst sturen.
 
 <!-- misschien iets uitbreiden en later plaatsen
 MapOSMatic
