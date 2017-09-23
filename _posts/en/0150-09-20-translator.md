@@ -33,7 +33,7 @@ We have a second site <http://nick-tallguy.github.io/> which we use for testing 
 
 When we are testing things out they will appear on the staging site - but sometimes they never appear on the main LearnOSM site - not all ideas are good! If we are considering altering the layout of pages, changing the margins, or otherwise altering the site it will appear here first. Modules which are being developed are also created on the staging site and reviewed before being placed on the main site, and into Transifex for your translation.  
 
-The staging site is also there for you to check on your progress and to make sure things are formatted correctly - if you accidentally alter the 'address' for an image, the image will not appear on the web page, but you can review your work here, return to Transifex and fix the problem. **Modules appear on the staging site when they are at least 10% translated.** If you can't find the module you've been translating, you've probably made a mistake which we hope you can correct using the information from this guide. We're still working out the best time(s) to update the site, and at present (June 2017) the site updates at least once a day.  
+The staging site is also there for you to check on your progress and to make sure things are formatted correctly - if you accidentally alter the 'address' for an image, the image will not appear on the web page, but you can review your work here, return to Transifex and fix the problem. **Modules appear on the staging site when they are at least 10% translated.** If you can't find the module you've been translating, you've probably made a mistake which we hope you can correct using the information from this guide. We're still working out the best time(s) to update the site, and at present (September 2017) the site updates more or less daily. <!--(June 2017) the site updates at least once a day. --> 
 
 Getting started
 ---------------
@@ -72,7 +72,7 @@ Please translate the following, preferably in this order;
 2. 0200-12-29-introduction.md  
 3. 0200-12-27-start-osm.md  
 
-**We will only add you're completed translations to the main LearnOSM site once you have translated *1-essential_setup.txt, 0200-12-31-beginner.md, 0200-12-29-introduction.md, and 0200-12-27-start-osm.md***  
+**We will only add your completed translations to the main LearnOSM site once you have translated *1-essential_setup.txt, 0200-12-31-beginner.md, 0200-12-29-introduction.md, and 0200-12-27-start-osm.md***  
 
 Translating a module - using 0200-12-31-beginner as an example  
 --------------------  
@@ -154,6 +154,14 @@ Copy this and do not change anything - it remains as;
 
       nosearch: true
 
+### date: 0500-10-21 13:00:00 
+
+      date: 0500-10-21 13:00:00
+
+If such a line appears at the beginning then do not change anything, *do not update the date* - this is not a creation or revision date but a virtual date used for sorting documents in the index. Just copy the line as it is:
+
+      date: 0500-10-21 13:00:00
+      
 ### Beginner's Guide
 
 Translate this - for Taiwanese it becomes;  
