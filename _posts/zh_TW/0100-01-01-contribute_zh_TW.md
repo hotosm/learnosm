@@ -6,8 +6,8 @@ title: Contribute
 contributetitle: "幫忙改進我們的指南"
 startwith: "準備開始了嗎？"
 startA: "回饋意見"
-startB: "Help with translations"
-startC: "Improve Images - in your language!"
+startB: "幫忙翻譯"
+startC: "用你的語言，改善照片！"
 startD: "回報問題及幫助"
 nosearch: true
 ---

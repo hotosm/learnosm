@@ -1,12 +1,13 @@
 ---
 layout: doc
-title: OSM Tasking Manager projectbeheer
+title: Tasking Manager 2 Projecten maken
 permalink: /nl_NL/coordination/tasking-manager-project-admin/
 lang: nl_NL
 category: coordination
 ---
 > Deze handleiding kan gedownload worden als zelfstandige module: [tasking-manager-admin_nl_NL.odt](/files/tasking-manager-admin_nl_NL.odt) of [tasking-manager-admin_nl_NL.pdf](/files/tasking-manager-admin_nl_NL.pdf) 
 
+**Deze gids beschrijft een oudere versie van de Tasking Manager. Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [de handleiding voor versie 3](/nl/coordination/tasking-manager3-project-admin) moeten consulteren**
 
 # OSM Tasking Manager projectbeheer
 
@@ -115,7 +116,7 @@ Klik op “Create Project” na het kiezen van een tegelgrootte.
 
 ![TM Create Project][]
 
-Dit maakt het project in de Tasking Manager en opent een scherm waar u de beschrijving, instructies en andere informatie over het project kunt opgeven. Onthoud dat dit niet moet worden onderschat. Een groot gedeelte van de mappers (in veel gevallen de meerderheid) zal geen eerdere ervaring hebben met OpenStreetMap en/of HOT en zal dus niet bekend zijn met richtlijnen voor taggen. Het is heel belangrijk dat de doelen van het project helder zijn en dat alle waarmee de mappers rekening zouden moeten houden daar worden uitgelegd. Het is vaak an te raden om één project toe te wijzen aan één klasse objecten die in kaart moeten worden gebracht. Indien u een basiskaart nodig heeft voor een gebied, is het beter die op te delen in verscheidene projecten, een voor de wegen, een voor de gebouwen etc. Dan kunnen beginners zich focussen op ene kleine klasse van objecten terwijl zij leren die juist in kaart te brengen. Anders zou u kunnen eindigen met heel veel tegels die een beetje van alles bevatten maar niets echt voltooid.
+Dit maakt het project in de Tasking Manager en opent een scherm waar u de beschrijving, instructies en andere informatie over het project kunt opgeven. Onthoud dat dit niet moet worden onderschat. Een groot gedeelte van de mappers (in veel gevallen de meerderheid) zal geen eerdere ervaring hebben met OpenStreetMap en/of HOT en zal dus niet bekend zijn met richtlijnen voor taggen. Het is heel belangrijk dat de doelen van het project helder zijn en dat alle waarmee de mappers rekening zouden moeten houden daar worden uitgelegd. Het is vaak an te raden om één project toe te wijzen aan één klasse objecten die in kaart moeten worden gebracht. Indien u een basiskaart nodig heeft voor een gebied, is het beter die op te delen in verscheidene projecten, een voor de wegen, een voor de gebouwen etc. Dan kunnen beginners zich focussen op een kleine klasse van objecten terwijl zij leren die juist in kaart te brengen. Anders zou u kunnen eindigen met heel veel tegels die een beetje van alles bevatten maar niets echt voltooid.
 
 Gebruik gewone taal omdat uw doelgroep niet hoeft te bestaan uit mensen voor wie Engels de eigen taal is.
 
@@ -158,7 +159,7 @@ Uploaden van een GeoJSON- of KML-bestand van het in kaart te brengen gebied
 
 Optie 1 - Tekenen
 Klik op de knop ‘Draw’,
-Teken in het kaartvenster een polygoon die het in kaart te brengen gebied weergeeft (klik met rechts; houd de rechter muisknop ingedrukt om de kaart te verplaatsen zonder ene knoop toe te voegen)
+Teken in het kaartvenster een polygoon die het in kaart te brengen gebied weergeeft (klik met rechts; houd de rechter muisknop ingedrukt om de kaart te verplaatsen zonder een knoop toe te voegen)
 Opmerking: de polygoon zou net aan het in kaart te brengen gebied moeten omvatten. Dit bespaart tijd bij het voltooien van tegels die niet van belang zijn (d.i. oceaan, bos)
 
 Dubbelklik om de polygoon te voltooien
@@ -191,7 +192,7 @@ Als u een taak maakt specifiek voor het project Missing Maps, neem dan het volge
 
 Op de tab ‘Instructions’:
 vermeld de objecten die in kaart moeten worden gebracht in het vak “Entities to Map”, bijv. buildings and primary roads.
-vermeld, in het vak ‘Changeset Comment’, de opmerking voor de wijzigingenset in die mappers zouden moeten gebruiken bij het uploaden van de gegevens die zij in kaart hebben gebracht.  De opmerkingen zouden verscheidene dingen over het project moeten aangeven.  Bijv. de opmerking ‘Bukama, #DRC #hotosm-project-1145 #MissingMaps #Bing’ gefet de locatie van de taak aa, het nummer van het project, dat het project specifiek voor Missing Maps is, en dat afbeeldingen van Bing worden gebruikt voor de taak.  Opmerkingen voor wijzigingensets zullen uiteraard per project verschillen, maar zouden in het algemeen moeten worden gebruikt als een snelle indicatie/beschrijving van het project.
+vermeld, in het vak ‘Changeset Comment’, de opmerking voor de wijzigingenset in die mappers zouden moeten gebruiken bij het uploaden van de gegevens die zij in kaart hebben gebracht.  De opmerkingen zouden verscheidene dingen over het project moeten aangeven.  Bijv. de opmerking ‘Bukama, #DRC #hotosm-project-1145 #MissingMaps #Bing’ geeft de locatie van de taak, het nummer van het project, dat het project specifiek voor Missing Maps is en dat afbeeldingen van Bing worden gebruikt voor de taak.  Opmerkingen voor wijzigingensets zullen uiteraard per project verschillen, maar zouden in het algemeen moeten worden gebruikt als een snelle indicatie/beschrijving van het project.
 vermeld gedetailleerde instructies die mappers dienen te volgen in het vak “Detailed Instructions”.  Gedetailleerde instructies moeten, tenminste, aangeven welke objecten in kaart gebracht moeten worden, hoe de objecten te taggen, en de te gebruiken bron van afbeeldingen voor dit project.  Andere details zouden moeten worden opgenomen indien van toepassing.  Opmerking: opmaak in het vak Description is gebaseerd op ‘Markdown’.  Tips voor het gebruiken van ‘Markdown’ zijn te vinden door te klikken op de link ‘Markdown’ onder het vak “Detailed Instructions”.
 Voeg aan de gedetailleerde instructies toe of er mogelijk bedekking van wolken is die het in kaart brengen van de tegels hindert. Verzoek mappers om de bedekking door wolken te vermelden in het veld voor opmerkingen en de taak als voltooid te markeren.
 Voeg, indien van toepassing, aanvullende informatie toe voor specifieke taken in het vak “Per Task Instructions (Optional)”.  Dit zal worden gebruikt als er iets specifieks dient te worden uitgevoerd voor individuele taken in het project.  
@@ -219,7 +220,7 @@ Lees de verschillende tabs nog eens door om er voor te zorgen dat de bewoordinge
 
 ![TM Edit Project][]
 
-Klik, als het project gereed is om in kaart te laten brengen, op de link ‘Publish’. Als het project eenmaal is gepubliceerd, is het beschikbaar om in kaart te brengen voor iedereen met een account voor OSM, tenzij ene groep gebruikers werd gespecificeerd op de tab ‘Allowed Users’, in welk geval alleen de toegestane gebruikers er aan zouden kunnen werken.  Indien nodig kan het project nog steeds worden bewerkt nadat het is gepubliceerd, door te klikken op de link ‘Edit’.
+Klik, als het project gereed is om in kaart te laten brengen, op de link ‘Publish’. Als het project eenmaal is gepubliceerd, is het beschikbaar om in kaart te brengen voor iedereen met een account voor OSM, tenzij een groep gebruikers werd gespecificeerd op de tab ‘Allowed Users’, in welk geval alleen de toegestane gebruikers er aan zouden kunnen werken.  Indien nodig kan het project nog steeds worden bewerkt nadat het is gepubliceerd, door te klikken op de link ‘Edit’.
 
 [TM Tile Sizes]: /images/coordination/TM_tile_sizes.png
 [TM New]: /images/coordination/TM_create_new.png

@@ -170,10 +170,15 @@ Inserire i tuoi primi punti
     database di OSM!
 
 
-L'editor iD è un modo fantastico per modificare facilmente OpenStreetMap e puoi trovare ulteriori informazioni nella [iD editor guide](/it/beginner/id-editor/).Comunque, nella [JOSM section](/it/josm/)
-esploreremo JOSM, un programma che offre molte caratteristiche aggiuntive. Sentiti libero
-di continuare ad esplorare iD. Una volta che avrai più esperienza, potrai scegliere
-quale editor preferisci.
+L'editor iD è un fantastico modo per editare facilmente OpenStreetMap, puoi trovare 
+maggiori informazioni per l'uso nella [iD editor guide](/en/beginner/id-editor/).
+Puoi anche provare la [guida passo-passo](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
+che è un modo buono e interattivo per scoprire l'editor.
+
+Comunque, nella [sezione JOSM](/it/josm/) troveremo una applicazione indipendente 
+che offre maggiori funzionalità.
+Continua pure a provare iD. Quando avrai più esperienza nel contribuire a OSM, 
+potrai scegliere quale editor - iD o JOSM -  sarà meglio per te.
 
 Conclusioni
 -------
