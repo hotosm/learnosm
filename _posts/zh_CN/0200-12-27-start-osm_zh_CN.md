@@ -9,8 +9,8 @@ category: beginner
 从OpenStreetMap.org入门
 ====================================
 
-> 本指南有[beginner_start-osm_zh_CN.odt](/files/beginner_start-osm_zh_CN.odt)和[beginner_start-osm_zh_CN.pdf](/files/beginner_start-osm_zh_CN.pdf)两种格式可供下载。  
-> 2015年7月12日修订  
+> 本指南有[beginner_start-osm_zh_CN.odt](/files/beginner_start-osm_zh_CN.odt)和[beginner_start-osm_zh_CN.pdf](/files/beginner_start-osm_zh_CN.pdf)两种格式可供下载。
+> 2015年7月12日修订
 
 本节我们将一步步地学习如何转到
 OpenStreetMap网站、浏览地图以及注册账号。
@@ -24,10 +24,10 @@ OpenStreetMap网站、浏览地图以及注册账号。
 
 - 开始之前，请确保你的电脑已连接到互联网。
     (如果你正在在线阅读本文，显然你肯定已经连接！)
-- 打开你的浏览器。常见的浏览器有Firefox、Chrome、Opera和Internet 
+- 打开你的浏览器。常见的浏览器有Firefox、Chrome、Opera和Internet
     Explorer。如果已经打开了浏览器，你可以创建一个新标签页。
 - 在窗口顶端的地址栏中输入下列内容并按回车：
-    [www.openstreetmap.org](http://www.openstreetmap.org/)
+    [www.openstreetmap.org](https://www.openstreetmap.org/)
 - 页面加载完成后你应该看到类似
     这样的内容：
 
@@ -54,7 +54,7 @@ OpenStreetMap网站、浏览地图以及注册账号。
     自动移动到你选择的位置。
 
     ![Search][]
-   
+
 
 查看不同地图样式
 ------------------------
@@ -137,7 +137,7 @@ OSM网站提供的众多地图“样式”。
     网站，你可以用iD编辑器来向地图添加你的
     第一个点。
 - 把地图移到一个你非常熟悉的地方，比如你的城镇
-    或者小区。画出你家(或者邻居的家)和你的工作地点并给出正确的地址会是个不错的主意。 
+    或者小区。画出你家(或者邻居的家)和你的工作地点并给出正确的地址会是个不错的主意。
 - 在你想添加点的地方(也许是你附近的一家没被标出的餐馆或小卖部)放大地图。
 - 在地图左上方，有一个名为“编辑”的标签，
     旁边有个小三角。点击三角符号，会看到一个菜单
@@ -154,7 +154,7 @@ OSM网站提供的众多地图“样式”。
     然后在你想地图上新增点的地方
     点一下。
 
-    ![Point button][]    
+    ![Point button][]
 
 - 从左侧的菜单中选择你刚刚添加到地图上的地点的类型。
     你可以接着填写该地点对应的表格，
@@ -163,7 +163,7 @@ OSM网站提供的众多地图“样式”。
     第一次编辑，你可能想玩一玩编辑器。在没确保编辑的正确性之前
     不要保存你的修改。
 
-    ![Save button][]    
+    ![Save button][]
 
 - 如果点击了保存，会要求你填写一个对你所做修改的描述。
     接着再点一次“保存”，你的增补就会被保存到

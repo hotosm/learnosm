@@ -9,8 +9,8 @@ category: beginner
 開始使用 OpenStreetMap.org
 ====================================
 
-> 此指南能以 [beginner_start-osm_zh_TW.odt](/files/beginner_start-osm_zh_TW.odt) or [beginner_start-osm_zh_TW.pdf](/files/beginner_start-osm_zh_TW.pdf) 下載  
-> 2015-07-12 審閱  
+> 此指南能以 [beginner_start-osm_zh_TW.odt](/files/beginner_start-osm_zh_TW.odt) or [beginner_start-osm_zh_TW.pdf](/files/beginner_start-osm_zh_TW.pdf) 下載
+> 2015-07-12 審閱
 
 在這節我們會一步一步學會怎麼瀏覽
 開放街圖網站、查閱地圖、註冊
@@ -27,7 +27,7 @@ category: beginner
 -   打開網頁瀏覽器，一般來說像是 Firefox、Chrome、Opera 或者 IE。
     如果你已經打開了，可以新增新頁籤。
 -   在視窗頂端的網址列，輸入下列網址後按 Enter：
-    [www.openstreetmap.org](http://www.openstreetmap.org/)
+    [www.openstreetmap.org](https://www.openstreetmap.org/)
 -   當頁面載入完成，你應該看到這樣的
     畫面：
 
@@ -54,7 +54,7 @@ category: beginner
     自動移到你選的地點。
 
     ![Search][]
-   
+
 
 觀看不同地圖樣式
 ------------------------
@@ -137,7 +137,7 @@ category: beginner
     網站，你可以用 iD 編輯器在開放街圖上增添第一個節點
     。
 -   移動地圖到你熟悉的地方，像是你居住的地方
-    或鄰近地區（或你鄰居的家）。讓你家（或你鄰居的家）和工作地點有被畫出來而且附上了正確地址是個好主意。 
+    或鄰近地區（或你鄰居的家）。讓你家（或你鄰居的家）和工作地點有被畫出來而且附上了正確地址是個好主意。
 -   放大到你想增添節點在地圖上的地方（或許你附近的某間餐廳或雜貨店還沒被畫出來）。
 -   地圖上面靠左邊的地方，有個帶有三角形的標籤叫「編輯」。
     按小三角形，你應該會看到
@@ -154,7 +154,7 @@ category: beginner
     增添節點，接著你可以在想添加節點的地方點一下新增至
     地圖上。
 
-    ![Point button][]    
+    ![Point button][]
 
 -   從左側的選單中選擇這個你想加到地圖上的地點
     是什麼類型，接著你可以填入該點適用的
@@ -163,21 +163,21 @@ category: beginner
     第一次編輯，也許想用編輯器先到處玩玩。
     只要確定你做的變動是正確的才儲存。
 
-    ![Save button][]    
+    ![Save button][]
 
 -   當你按下儲存，編輯器會叫你輸入這次編輯變動的敘述，
     按著你會再按一次「儲存」，你的敘述會連同一起存到
     開放街圖的資料庫裡。
 
 
-iD 編輯器是相當奇妙的方式來簡單編輯開放街圖， 
+iD 編輯器是相當奇妙的方式來簡單編輯開放街圖，
 你可以到 [iD 編輯器指南](/zh_TW/beginner/id-editor/)學習更多。
-你也可以跑過[新手教學](http://www.openstreetmap.org/edit?editor=id#walkthrough=true)， 
+你也可以跑過[新手教學](https://www.openstreetmap.org/edit?editor=id#walkthrough=true)，
 是相當棒而且有互動性的方式來探索 iD 這個編輯器。
 
-然而，[JOSM 部分](/en/josm/)， 
+然而，[JOSM 部分](/en/josm/)，
 我們會研究提供更多功能，。單獨的應用程式
-你仍可以繼續使用 iD 編輯器。一旦你編輯開放街圖的經驗增多後， 
+你仍可以繼續使用 iD 編輯器。一旦你編輯開放街圖的經驗增多後，
 你可以選擇你鐘愛的編輯器 - iD 或是 JOSM。
 
 總結

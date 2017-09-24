@@ -9,10 +9,10 @@ category: josm
 Editar con JOSM
 =================
 
-En [capítulo 3]({{site.baseurl}}/es/josm/start-josm/) instalaste el programa JOSM y dibujaste tus primeros puntos, líneas y polígonos. 
-Agregaste *predefinidos* a estos objetos para añadir información acerca de ellos. Al final pudiste dibujar de esta manera tu propio mapa en JOSM. 
+En [capítulo 3]({{site.baseurl}}/es/josm/start-josm/) instalaste el programa JOSM y dibujaste tus primeros puntos, líneas y polígonos.
+Agregaste *predefinidos* a estos objetos para añadir información acerca de ellos. Al final pudiste dibujar de esta manera tu propio mapa en JOSM.
 Dibujar los mapas en el capítulo 3 era un ejercicio para aprender a usar JOSM y
-aprender cómo colocar lugares en el mapa. Pero nuestros mapas no estaban bien, 
+aprender cómo colocar lugares en el mapa. Pero nuestros mapas no estaban bien,
 porque todavía no habíamos incluido su ubicación. En los
 dos capítulos anteriores hemos examinado dos herramientas: GPS y «Walking
 Papers» (papeles caminantes) los cuales nos permiten recopilar las
@@ -56,19 +56,19 @@ Recorrido por JOSM
 - Primero, para iniciar JOSM, dirígete al menú «Inicio» abajo a la
     izquierda y busca hasta que encuentres el programa JOSM.
 
-- Después carga tu archivo gpx y tu «Walking Paper» en JOSM. No es necesario 
+- Después carga tu archivo gpx y tu «Walking Paper» en JOSM. No es necesario
     abrir los dos, pero si quieres puedes hacerlo. Revisa los dos capítulos
     anteriores si no te acuerdas como abrirlos en JOSM.
 
-- Un pequeño recorrido por las características de JOSM: JOSM tiene muchos 
+- Un pequeño recorrido por las características de JOSM: JOSM tiene muchos
     elementos. La ventana principal en JOSM, la cual ya conoces, es la ventana del mapa y es donde pasan la mayor parte de las cosas. Aquí puedes ver, editar y agregar información a los datos de OpenStreetMap.
 
-- En lado derecho de la ventana del mapa hay varios paneles, cada cual con 
+- En lado derecho de la ventana del mapa hay varios paneles, cada cual con
     una función diferente. Típicamente, cuando instalas JOSM
     por primera vez, JOSM muestra algunos paneles por defecto, como «Capas»,
     «Propiedades / Miembros» y «Selección». Cuando seleccionas un punto, línea
-    o figura en la ventana del mapa, se mostrará en el panel de «Selección». 
-    En el panel de «Propiedades / Miembros» se mostrará información 
+    o figura en la ventana del mapa, se mostrará en el panel de «Selección».
+    En el panel de «Propiedades / Miembros» se mostrará información
     sobre el objeto seleccionado y el nombre de usuario del autor de este objeto
     se mostrará en el panel de «Autores».
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_46acf705_en.png)
@@ -76,23 +76,23 @@ Recorrido por JOSM
 - En la parte izquierda de JOSM hay varias barras de herramientas, cada una
     con muchos botones. En la parte de arriba hay diferentes botones que cambian
     lo que puedes hacer con el ratón. Ya conoces los dos primeros, la herramienta
-    de selección y la de dibujo. Las otras herramientas permiten acercarse o 
-    alejarse, borrar un objeto, dibujar una figura o crear una línea paralela a 
+    de selección y la de dibujo. Las otras herramientas permiten acercarse o
+    alejarse, borrar un objeto, dibujar una figura o crear una línea paralela a
     otra.
 
-- Debajo de estas herramientas hay más botones. Éstos controlan lo que se ve 
+- Debajo de estas herramientas hay más botones. Éstos controlan lo que se ve
     en la parte derecha de JOSM. Por medio de estos botones puedes abrir o cerrar los paneles de la derecha, como «Capas», «Propiedades / Miembros», «Selección» y «Autores».
 
 Descargar datos desde OSM
 -------------------------
 
--  ¿Recuerdas el ciclo de edición en OpenStreetMap explicado en la introducción 
+-  ¿Recuerdas el ciclo de edición en OpenStreetMap explicado en la introducción
     de este capitulo?
     **Descargar**, **editar**, **guardar**. Antes de que podamos editar el mapa
     necesitamos descargar datos existentes de OSM en nuestro entorno.
 
 -  Cuando abres una traza de gpx o un «Walking Paper», la ventana principal
-    mostrará lo que has abierto y automáticamente se desplazará a las 
+    mostrará lo que has abierto y automáticamente se desplazará a las
     coordenadas adecuadas. Después de haber abierto tus archivos,
     fíjate a en la esquina inferior izquierda de JOSM. Ahí puedes
     observar la latitud y longitud (coordenadas) de la punta del cursor.
@@ -101,7 +101,7 @@ Descargar datos desde OSM
 -  Debido a que la ventana del mapa ya nos muestra la zona que queremos
     editar, es fácil descargar los datos de OpenStreetMap para esta área.
     Haz clic en «Archivo» arriba a la izquierda de JOSM y escoge
-    «Descargar desde OSM». Se abrirá una ventanita de descarga. Puedes 
+    «Descargar desde OSM». Se abrirá una ventanita de descarga. Puedes
     acceder a esta ventana de una manera más simple incluso clic en el botón de descarga:
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m6f2281c2_en.png)
 
@@ -145,7 +145,7 @@ Capas en JOSM
     haz clic en el botón para cambiar el estado de la visibilidad la
     cual se ve así:
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_5c2e696f_en.png)
-    
+
 -  Puedes observar que la capa que habías seleccionado desaparece en la ventana
     del mapa. Haz clic en el mismo botón para cambiar el estado de la
     visibilidad de nuevo y reaparecerá.
@@ -169,12 +169,12 @@ Capas en JOSM
 Editar
 ------
 
--  El próximo paso es editar el mapa y agregar nuevos elementos. No es siempre 
+-  El próximo paso es editar el mapa y agregar nuevos elementos. No es siempre
     fácil al principio pero con la práctica mejorarás.
 
 -  Si quieres mover un punto, línea o figura, utiliza la herramienta
     de **selección**. Haz clic en un objeto y arrástralo a donde debería
-    estar. Así se puede corregir la ubicación de elementos que han sido 
+    estar. Así se puede corregir la ubicación de elementos que han sido
     puesto en un lugar equivocado.
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m2eb4096c_en.png)
 
@@ -230,12 +230,12 @@ Etiquetas
     etiquetas tradicionalmente se especifican en inglés, por lo que
     muchas veces es mejor utilizar los elementos del menú de
     predefinidos. Si agregas o cambias etiquetas, como de autopista
-    primaria a sendero, el estilo de representación del objeto cambiará 
+    primaria a sendero, el estilo de representación del objeto cambiará
     según la etiqueta.
 -  Para editar un objeto existente:
     -  Selecciónalo.
-    -  Después puedes editar las etiquetas de una de estas dos maneras: 
-    (1) Puedes utilizar el menú de predefinidos para abrir un formulario 
+    -  Después puedes editar las etiquetas de una de estas dos maneras:
+    (1) Puedes utilizar el menú de predefinidos para abrir un formulario
     y editar la información, o (2) puedes editar las etiquetas directamente
     desde el panel de «Propiedades / Miembros» de la derecha.
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_94da59a_en.png)
@@ -257,7 +257,7 @@ Etiquetas
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_2746cce8_en.png)
 
 -  Puedes encontrar más información sobre etiquetas y predeterminados
-   en la guía del nivel intermedio, en el capítulo 4: «XML y Predefinidos JOSM» 
+   en la guía del nivel intermedio, en el capítulo 4: «XML y Predefinidos JOSM»
    («XML and JOSM presets») que se encuentra disponible únicamente en inglés.
 
 Subir cambios
@@ -269,8 +269,8 @@ Subir cambios
     lo que queremos en realidad es subir los cambios directamente a los
     servidores de OpenStreetMap.
 
--  Haz clic en «Archivo» en el menú superior y luego en «Subir datos». 
-    Se abrirá la ventana de subida. Puedes también llegar a esta ventana 
+-  Haz clic en «Archivo» en el menú superior y luego en «Subir datos».
+    Se abrirá la ventana de subida. Puedes también llegar a esta ventana
     de una manera más sencilla haciendo clic en el botón respectivo de subida:
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_2e194887_en.png)
 
@@ -282,24 +282,24 @@ Subir cambios
 
 -  Haz clic en «Subir cambios».
 
--  Si es la primera vez que guardas algo en OpenStreetMap, se te pedirá 
-    tu usuario y contraseña de OpenStreetMap.org que habrás creado en 
-    capítulo 2. Introdúcelos en la pequeña ventana que aparece. 
+-  Si es la primera vez que guardas algo en OpenStreetMap, se te pedirá
+    tu usuario y contraseña de OpenStreetMap.org que habrás creado en
+    capítulo 2. Introdúcelos en la pequeña ventana que aparece.
     Si marcas la casilla de verificación en esta ventana, tu nombre
-    de usuario y la contraseña se guardarán y no necesitarás introducirla 
+    de usuario y la contraseña se guardarán y no necesitarás introducirla
     de nuevo en el futuro. Si usas una computadora compartida asegúrate de
     no marcar la casilla. Luego haz clic en «Autenticar».
     ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
 
--  Ahora esperara unos segundos para que tus cambios se suban a los servidores 
-    y ya está, ¡lo lograste! Has hecho tus primeras  modificaciones y mejoras 
+-  Ahora esperara unos segundos para que tus cambios se suban a los servidores
+    y ya está, ¡lo lograste! Has hecho tus primeras  modificaciones y mejoras
     a OpenStreetMap. Probablemente sigas editando para agregar todos tus puntos.
     Asegúrate de subir tus modificaciones antes de cerrar JOSM.
 
 Revisar las modificaciones en el mapa
 -------------------------------------
 
--  Abre tu navegador de internet y visita la página [http://openstreetmap.org/](http://openstreetmap.org/)
+-  Abre tu navegador de internet y visita la página [https://www.openstreetmap.org/](https://www.openstreetmap.org/)
 
 -  Desplaza el mapa a la región que hayas editado.
 

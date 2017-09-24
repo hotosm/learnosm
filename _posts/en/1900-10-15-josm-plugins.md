@@ -9,40 +9,40 @@ category: josm
 JOSM Plugins
 ============
 
-> This guide may be downloaded as [josm-plugins_en.odt](/files/josm-plugins_en.odt) or [josm-plugins_en.pdf](/files/josm-plugins_en.pdf)  
-> Reviewed 2015-07-14  
+> This guide may be downloaded as [josm-plugins_en.odt](/files/josm-plugins_en.odt) or [josm-plugins_en.pdf](/files/josm-plugins_en.pdf)
+> Reviewed 2015-07-14
 
-As you become more advanced in your editing techniques, you may want to use additional JOSM features to improve your mapping skills. JOSM allows you to install numerous plugins, which add extra functionality to the software.  
+As you become more advanced in your editing techniques, you may want to use additional JOSM features to improve your mapping skills. JOSM allows you to install numerous plugins, which add extra functionality to the software.
 
 In this section we will take a look at how to install plugins, and some of the most useful plugins that are available.
 
 Installing Plugins
 -------------------
-Any time you want to install a new plugin, go to **Edit \> Preferences** and click on the **Plugins** tab.  
+Any time you want to install a new plugin, go to **Edit \> Preferences** and click on the **Plugins** tab.
 
 ![Plugins][]
 
-* If you don’t see a list of available plugins, click **Download List**.  
-* To install a plugin you simply must check the box next to it and click OK at the bottom.  
+* If you don’t see a list of available plugins, click **Download List**.
+* To install a plugin you simply must check the box next to it and click OK at the bottom.
 * Lastly, with some versions of JOSM you may have to restart JOSM when you install new plugins.
 
 Some of our favorite plugins are:
 
-1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier  
+1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier
 
-2. **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM database, this plugin makes it easy.  
+2. **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM database, this plugin makes it easy.
 
-3. **editgpx:** If you want to upload GPS tracks from a Garmin device, you might need this plugin. OSM won't accept GPS tracks that have been saved on an external memory card in a Garmin, but this plugin can correct the files so they can be uploaded.  
+3. **editgpx:** If you want to upload GPS tracks from a Garmin device, you might need this plugin. OSM won't accept GPS tracks that have been saved on an external memory card in a Garmin, but this plugin can correct the files so they can be uploaded.
 
-4. **fieldpapers:** This plugin lets you load scanned Field Papers into JOSM.  
+4. **fieldpapers:** This plugin lets you load scanned Field Papers into JOSM.
 
-5. **imagery_offset_db:** This plugin lets you cooperate with other mappers who find that the Bing satellite imagery is a little bit misaligned. This issue is covered in more detail in a later chapter.  
+5. **imagery_offset_db:** This plugin lets you cooperate with other mappers who find that the Bing satellite imagery is a little bit misaligned. This issue is covered in more detail in a later chapter.
 
-6. **mirrored_download:** With this plugin you can download a larger area of OSM data for editing.  
+6. **mirrored_download:** With this plugin you can download a larger area of OSM data for editing.
 
-7. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
+7. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.
 
-8. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)  
+8. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)
 
 
 
@@ -134,7 +134,7 @@ see this new tool in the tool bar on the left.
 
 ![Open GPX File][]
 
-2. Press the new button in the left menu bar 
+2. Press the new button in the left menu bar
 
 ![Edit Gpx Tool Icon][]
 
@@ -255,21 +255,21 @@ Uploading GPS Traces Online
 ---------------------------
 
 1. Go
-to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
+to [https://www.openstreetmap.org/](https://www.openstreetmap.org/) and log in.
 
 2. Select "GPS Traces" found on the left banner.
 
 ![Left Banner][]
 
 3. Select
-[upload a trace](http://www.openstreetmap.org/trace/create).
-Here, you can also  **See just your traces** to review previous GPS tracks.  
+[upload a trace](https://www.openstreetmap.org/trace/create).
+Here, you can also  **See just your traces** to review previous GPS tracks.
 
 4. Find your file in "Choose File". Label it in the Description
 box, give it some Tags, and chose what type of Visibility it will have.
 If you have many .gpx files you can compress them into a zip archive and
 upload it. It will be treated as one large gpx file and only one entry
-on the trace list will be created. 
+on the trace list will be created.
 
 ![Online Upload Traces Options][]
 
@@ -286,7 +286,7 @@ queue of files waiting to be inserted into the database.
 [Upload Traces Item]: /images/josm/josm-plugins_image05_upload-traces-item.png
 [Upload Traces Window]: /images/josm/josm-plugins_image06_upload-traces-window.png
 [Edit Gpx]: /images/josm/josm-plugins_image07_edit-gpx.png
-[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png 
+[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png
 [Open GPX File]: /images/josm/josm-plugins_image09_open-gpx-file.png
 [GPX Nodes All]: /images/josm/josm-plugins_image10_gpx-nodes-all.png
 [GPX Nodes Selected]: /images/josm/josm-plugins_image11_gpx-nodes-selected.png

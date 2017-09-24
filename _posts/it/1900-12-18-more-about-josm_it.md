@@ -9,8 +9,8 @@ category: josm
 Editare con JOSM
 ========================
 
-> Questa guida può essere scaricata come [josm_more-about-josm_it.odt](/files/josm_more-about-josm_it.odt) oppure [josm_more-about-josm_it.pdf](/files/josm_more-about-josm_it.pdf)  
-> Revisionato 2015-07-12  
+> Questa guida può essere scaricata come [josm_more-about-josm_it.odt](/files/josm_more-about-josm_it.odt) oppure [josm_more-about-josm_it.pdf](/files/josm_more-about-josm_it.pdf)
+> Revisionato 2015-07-12
 
 Nella sezione precedente
 hai installato JOSM e hai iniziato a disegnare punti, linee ed aree.
@@ -56,10 +56,10 @@ fare cambiamenti alla mappa, perche' la mappa è aggiornata anche dagli altri ut
     scaricare per modificarla. Usa il mouse per spostarti su una zona
     che conosci bene, come la tua città o il tuo quartiere. I
     controlli sono gli stessi della finestra della mappa di JOSM. Il pulsante destro del mouse
-    ti permette di spostare la mappa e la rotella ti permette di ingrandire o ridurre 
+    ti permette di spostare la mappa e la rotella ti permette di ingrandire o ridurre
     la visuale.
 
->Se stai lavoranto su un portatile può risultare difficile 
+>Se stai lavoranto su un portatile può risultare difficile
 >zoommare. Il lavoro con JOSM può essere più agevole con un mouse,
 >ma i portatili più moderni ti permettono di spostare la visuale utilizzando il touchpad.
 
@@ -82,7 +82,7 @@ per contribuire alla mappa.
     JOSM e seleziona “Bing Sat”.
 
 > Se non vedi Bing Sat nel menù delle immagini aeree, lo devi attivare
-> nelle impostazioni di JOSM. Vai in Modifica -> Preferenze e fai click sull'icona 
+> nelle impostazioni di JOSM. Vai in Modifica -> Preferenze e fai click sull'icona
 con su scitto “WMS TMS”. Potresti dover cliccare sulla freccia in basso per trovarla.
 >  ![JOSM Preferences up down][]
 >  ![JOSM Preferences WMS TMS][]
@@ -95,7 +95,7 @@ diamo un'altra occhiata all'interfaccia di JOSM.
 
 ![JOSM layout][]
 
-Le finestra principale con cui ha già familiarizzato è quella della mappa, e 
+Le finestra principale con cui ha già familiarizzato è quella della mappa, e
 qui è dove si svolge la maggior parte dell'azione. Qui vedrai, editerai e
 aggiungerai dati a OpenStreetMap.
 
@@ -110,7 +110,7 @@ dell'autore dell'oggetto sarà mostrato nel pannello Autori.
 Questi pannelli possono essere aperti o chiusi facendo click sui vari pulsanti sul
 lato inferiore sinistro di JOSM. Sopra questi bottoni in alto a destra ci sono gli trumenti che
 cambiano ciò che puoi fare col mouse. Ne conosci già alcuni,
-il pulsante "Seleziona" e "Disegna". Sotto di essi ci sono pulsanti 
+il pulsante "Seleziona" e "Disegna". Sotto di essi ci sono pulsanti
 per ingrandire la visuale, cancellare un oggetto o creare una linea parallela
 ad un'altra linea.
 
@@ -138,17 +138,17 @@ visto in precedenza: punti, linee e aree, che rappresentano luoghi reali.
 
 - Usa lo strumento **Disegna** per disegnare nuovi punti, linee o forme.
     Descrivi questi oggetti selezionandoli dal menù Preimpostazioni, come
-    hai fatto già in precedenza. 
+    hai fatto già in precedenza.
 
-> Non editare mai la mappa al di fuori dell'area non scaricata. Puoi  
-> vedere l'area rettangolare scaricata con uno sfondo neutro,  
-> mentre l'area non scaricata ha linee diagonali tratteggiate.  
+> Non editare mai la mappa al di fuori dell'area non scaricata. Puoi
+> vedere l'area rettangolare scaricata con uno sfondo neutro,
+> mentre l'area non scaricata ha linee diagonali tratteggiate.
 
 ![JOSM area downloaded][]
 
 Salvare le modifiche
 --------------
-Il terzo e ultimo passo per completare le modifiche che abbiamo 
+Il terzo e ultimo passo per completare le modifiche che abbiamo
 fatto è caricarle sul database OpenStreetMap. Per caricarle devi essere
 connesso ad internet.
 
@@ -178,14 +178,14 @@ connesso ad internet.
 -  Devi aspettare finché non termina l’upload dei cambiamenti
     e hai finito! Hai fatto le tue prime modifiche a OpenStreetmap.
 
-> Quando editi, assicurati di caricare le modifiche prima di chiudere  
-< JOSM. Anche se devi fare altre modifiche, carica i cambiamenti e  
-> ripeti nuovamente il processo più tardi, quando avrai tempo per farlo.  
+> Quando editi, assicurati di caricare le modifiche prima di chiudere
+< JOSM. Anche se devi fare altre modifiche, carica i cambiamenti e
+> ripeti nuovamente il processo più tardi, quando avrai tempo per farlo.
 > Non vorrai mica perdere il lavoro fatto!
 
 Guarda le tue modifiche sulla mappa
 ---------------------------
-- Apri il tuo browser e vai su [http://openstreetmap.org/](http://openstreetmap.org/)
+- Apri il tuo browser e vai su [https://www.openstreetmap.org/](https://www.openstreetmap.org/)
 - Sposta la mappa sull’area che hai modificato.
 - Dovresti vedere le tue modifiche apparire sulla mappa! Se non succede,
     prova a premere CTRL+R per aggiornare la pagina. A volte la mappa

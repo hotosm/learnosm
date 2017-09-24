@@ -9,40 +9,40 @@ category: josm
 JOSM ဆော့လ်ဖ်ဝဲလ်သို့ ထပ်ပေါင်းဖြည့်စွက်နိုင်သည်များ (JOSM Plugins)
 ============
 
-> ဤလမ်းညွှန်ချက်ကို [josm-plugins_my.odt](/files/josm-plugins_my.odt) (သို့မဟုတ်) [josm-plugins_my.pdf](/files/josm-plugins_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
-> Reviewed 2015-07-14  
+> ဤလမ်းညွှန်ချက်ကို [josm-plugins_my.odt](/files/josm-plugins_my.odt) (သို့မဟုတ်) [josm-plugins_my.pdf](/files/josm-plugins_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။
+> Reviewed 2015-07-14
 
-မြေပုံပြင်ဆင်တည်းဖြတ်မှု နည်းစနစ်များ တိုးတက်လာသည်နှင့်အမျှ သင့်စွမ်းဆောင်ရည် တိုးတက်ရန်အတွက် အပိုထပ်ဆောင်း အသုံးပြုနိုင်သောအရာများကို JOSM ဆော့လ်ဖ်ဝဲလ်တွင် ထည့်သွင်းထားနိုင်သည်။  
+မြေပုံပြင်ဆင်တည်းဖြတ်မှု နည်းစနစ်များ တိုးတက်လာသည်နှင့်အမျှ သင့်စွမ်းဆောင်ရည် တိုးတက်ရန်အတွက် အပိုထပ်ဆောင်း အသုံးပြုနိုင်သောအရာများကို JOSM ဆော့လ်ဖ်ဝဲလ်တွင် ထည့်သွင်းထားနိုင်သည်။
 
 အသုံးဝင်သော အပိုဖြည့်စွက်ချက်များနှင့် ယင်းတို့ကို JOSM ဆော့လ်ဖ်ဝဲလ်အတွင်း ထည့်သွင်းခြင်းအကြောင်းကို ယခုအခန်းတွင် လေ့လာကြမည်ဖြစ်သည်။
 
 ဖြည့်စွက်မှုများကို ထည့်သွင်းခြင်း (Installing Plugins)
 -------------------
-ဖြည့်စွက်မှုအသစ်များ (Plugins) ကိုထည့်ပေါင်းလိုပါက menu ဘားတန်းရှိ **Edit မှ Preferences** ကိုရွေးချယ်ပြီး **Plugins** ကိုနှိပ်ပါ။  
+ဖြည့်စွက်မှုအသစ်များ (Plugins) ကိုထည့်ပေါင်းလိုပါက menu ဘားတန်းရှိ **Edit မှ Preferences** ကိုရွေးချယ်ပြီး **Plugins** ကိုနှိပ်ပါ။
 
 ![Plugins][]
 
-* ရယူသုံးစွဲနိုင်သော ဖြည့်စွက်မှုများကို မတွေ့မြင်ပါက **Download List** ကိုနှိပ်ပါ။  
-* ဖြည့်စွက်မှုများထည့်သွင်းရန်အတွက် ဘေးဘက်တွင်ဖော်ပြထားသော လေးထောင့်ကွက်ငယ်တွင် ရွေးချယ်မှုပေးပြီး အောက်ခြေရှိ OK ခလုတ်ကိုနှိပ်ရန်သာဖြစ်သည်။  
+* ရယူသုံးစွဲနိုင်သော ဖြည့်စွက်မှုများကို မတွေ့မြင်ပါက **Download List** ကိုနှိပ်ပါ။
+* ဖြည့်စွက်မှုများထည့်သွင်းရန်အတွက် ဘေးဘက်တွင်ဖော်ပြထားသော လေးထောင့်ကွက်ငယ်တွင် ရွေးချယ်မှုပေးပြီး အောက်ခြေရှိ OK ခလုတ်ကိုနှိပ်ရန်သာဖြစ်သည်။
 * နောက်ဆုံးအဆင့်အနေဖြင့် ဖြည့်စွက်မှုများ(Plugins) ထည့်သွင်းပြီးပါက JOSM ဆော့လ်ဖ်ဝဲလ် ဗားရှင်းအမျိုးအစားပေါ်မူတည်လျက် ဆော့လ်ဖ်ဝဲလ်ကို အဖွင့်အပိတ်တစ်ကြိမ်ပြုလုပ်ပေးရန် လိုအပ်ကောင်းလိုအပ်နိုင်ပါသည်။
 
 ကျွန်ုပ်တို့နှစ်သက်သော ဖြည့်စွက်မှု (Plugins) အချို့မှာအောက်ပါအတိုင်းဖြစ်သည်။
 
-၁။ **[buildings_tools](my/josm/josm-more-plugins/)** ။ ။ အဆောက်အဦပုံသဏ္ဍာန် ခပ်များများ ရေးဆွဲရာတွင် လွယ်ကူမြန်ဆန်စေသည်။  
+၁။ **[buildings_tools](my/josm/josm-more-plugins/)** ။ ။ အဆောက်အဦပုံသဏ္ဍာန် ခပ်များများ ရေးဆွဲရာတွင် လွယ်ကူမြန်ဆန်စေသည်။
 
-၂။ **DirectUpload** ။ ။ GPS လမ်းကြောင်းများ စုစည်းဖော်ပြမှုကို OpenStreetMap ဒေတာအချက်အလက်သိုမှီးမှုသို့ သိမ်းဆည်းရာတွင်လွယ်ကူစေသည်။  
+၂။ **DirectUpload** ။ ။ GPS လမ်းကြောင်းများ စုစည်းဖော်ပြမှုကို OpenStreetMap ဒေတာအချက်အလက်သိုမှီးမှုသို့ သိမ်းဆည်းရာတွင်လွယ်ကူစေသည်။
 
-၃။ **editgpx** ။ ။ GPS နည်းပညာအသုံးပြုထားသော နေရာပြစနစ်ဖြစ်သည့် Garmin စက်ပစ္စည်းများမှတစ်ဆင့် GPS လမ်းကြောင်းများကို ဝင်ရောက်သိမ်းဆည်းနိုင်ရန်အတွက် editgpx ထည့်သွင်းရန်လိုအပ်သည်။ အကြောင်းမှာ Garmin ပစ္စည်းများမှ  GPS လမ်းကြောင်းများကိုOpenStreetMap မှလက်ခံမှုမရှိခြင်းကြောင့်ဖြစ်သည်။  
+၃။ **editgpx** ။ ။ GPS နည်းပညာအသုံးပြုထားသော နေရာပြစနစ်ဖြစ်သည့် Garmin စက်ပစ္စည်းများမှတစ်ဆင့် GPS လမ်းကြောင်းများကို ဝင်ရောက်သိမ်းဆည်းနိုင်ရန်အတွက် editgpx ထည့်သွင်းရန်လိုအပ်သည်။ အကြောင်းမှာ Garmin ပစ္စည်းများမှ  GPS လမ်းကြောင်းများကိုOpenStreetMap မှလက်ခံမှုမရှိခြင်းကြောင့်ဖြစ်သည်။
 
-၄။ **fieldpapers** ။ ။ ကွန်ပျူတာအတွင်း သိမ်းဆည်းထားပြီးသော ကွင်းဆင်းမြေပုံများ( scanned Field Papers) ကို JOSM ဆော့ဖ်ဝဲလ်အတွင်း ထည့်သွင်းရန်အသုံးပြုသည်။  
+၄။ **fieldpapers** ။ ။ ကွန်ပျူတာအတွင်း သိမ်းဆည်းထားပြီးသော ကွင်းဆင်းမြေပုံများ( scanned Field Papers) ကို JOSM ဆော့ဖ်ဝဲလ်အတွင်း ထည့်သွင်းရန်အသုံးပြုသည်။
 
-၅။ **imagery_offset_db** ။ ။ OpenStreetMap မှအဓိကအသုံးပြုသော Bing ဂြိုဟ်တုပုံရိပ်တွင် တစုံတရာအမှားအယွင်းရှိနေကြောင်းသိရှိထားသော မြေပုံဆွဲသူတစ်ဦးဦးနှင့် ပေါင်းစပ်လုပ်ကိုင်နိုင်ရန်အတွက်အသုံးပြုသည်။ နောက်လာမည့်သင်ခန်းစာတစ်ခုတွင် ကျယ်ကျယ်ပြန့်ပြန့်သိရှိရမည်ဖြစ်သည်။  
+၅။ **imagery_offset_db** ။ ။ OpenStreetMap မှအဓိကအသုံးပြုသော Bing ဂြိုဟ်တုပုံရိပ်တွင် တစုံတရာအမှားအယွင်းရှိနေကြောင်းသိရှိထားသော မြေပုံဆွဲသူတစ်ဦးဦးနှင့် ပေါင်းစပ်လုပ်ကိုင်နိုင်ရန်အတွက်အသုံးပြုသည်။ နောက်လာမည့်သင်ခန်းစာတစ်ခုတွင် ကျယ်ကျယ်ပြန့်ပြန့်သိရှိရမည်ဖြစ်သည်။
 
-၆။ **mirrored_download** ။ ။ ပိုမိုကြီးမားသောဧရိယာအကျယ်အဝန်းရှိသည့် OSM ဒေတာများကို ရယူနိုင်ရန်အသုံးပြုသည်။  
+၆။ **mirrored_download** ။ ။ ပိုမိုကြီးမားသောဧရိယာအကျယ်အဝန်းရှိသည့် OSM ဒေတာများကို ရယူနိုင်ရန်အသုံးပြုသည်။
 
-၇။ **print:** ။ ။ တည်နေရာတစ်ခုကို မြန်ဆန်စွာပုံနှိပ်ထုတ်ယူရန်အတွက်အသုံးပြုသည်။  
+၇။ **print:** ။ ။ တည်နေရာတစ်ခုကို မြန်ဆန်စွာပုံနှိပ်ထုတ်ယူရန်အတွက်အသုံးပြုသည်။
 
-၈။ **[utilsplugin2](my/josm/josm-more-plugins/)** ။ ။ အဆင့်မြင့်အသုံးချသူများအတွက် JOSM ဆော့လ်ဖ်ဝဲလ်အတွင်းသို့ အသုံးချကိရိယာများနှင့် menu များထည့်သွင်းရန်အသုံးပြုသည်။ [နောက်လာမည့်သင်ခန်းစာ](/my/josm/josm-more-plugins) တွင်အသေးစိတ်ရှင်းပြထားပါသည်။  
+၈။ **[utilsplugin2](my/josm/josm-more-plugins/)** ။ ။ အဆင့်မြင့်အသုံးချသူများအတွက် JOSM ဆော့လ်ဖ်ဝဲလ်အတွင်းသို့ အသုံးချကိရိယာများနှင့် menu များထည့်သွင်းရန်အသုံးပြုသည်။ [နောက်လာမည့်သင်ခန်းစာ](/my/josm/josm-more-plugins) တွင်အသေးစိတ်ရှင်းပြထားပါသည်။
 
 
 
@@ -134,7 +134,7 @@ see this new tool in the tool bar on the left.
 
 ![Open GPX File][]
 
-2. Press the new button in the left menu bar 
+2. Press the new button in the left menu bar
 
 ![Edit Gpx Tool Icon][]
 
@@ -255,21 +255,21 @@ Uploading GPS Traces Online
 ---------------------------
 
 1. Go
-to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
+to [https://www.openstreetmap.org/](https://www.openstreetmap.org/) and log in.
 
 2. Select "GPS Traces" found on the left banner.
 
 ![Left Banner][]
 
 3. Select
-[upload a trace](http://www.openstreetmap.org/trace/create).
-Here, you can also  **See just your traces** to review previous GPS tracks.  
+[upload a trace](https://www.openstreetmap.org/trace/create).
+Here, you can also  **See just your traces** to review previous GPS tracks.
 
 4. Find your file in "Choose File". Label it in the Description
 box, give it some Tags, and chose what type of Visibility it will have.
 If you have many .gpx files you can compress them into a zip archive and
 upload it. It will be treated as one large gpx file and only one entry
-on the trace list will be created. 
+on the trace list will be created.
 
 ![Online Upload Traces Options][]
 
@@ -286,7 +286,7 @@ queue of files waiting to be inserted into the database.
 [Upload Traces Item]: /images/josm/josm-plugins_image05_upload-traces-item.png
 [Upload Traces Window]: /images/josm/josm-plugins_image06_upload-traces-window.png
 [Edit Gpx]: /images/josm/josm-plugins_image07_edit-gpx.png
-[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png 
+[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png
 [Open GPX File]: /images/josm/josm-plugins_image09_open-gpx-file.png
 [GPX Nodes All]: /images/josm/josm-plugins_image10_gpx-nodes-all.png
 [GPX Nodes Selected]: /images/josm/josm-plugins_image11_gpx-nodes-selected.png

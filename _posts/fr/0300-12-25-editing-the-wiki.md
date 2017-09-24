@@ -324,7 +324,7 @@ Enfin, si vous souhaitez créer un lien externe, il suffit de saisir
 l’URL qui s’affichera comme un lien. Si vous voulez changer le texte du
 lien, vous pouvez avoir recours à des crochets pour modifier le texte
 qui pointe vers votre URL [url-lien-externe texte-du-lien]. Soit par
-exemple [[http://openstreetmap.org/](http://openstreetmap.org/) Carte
+exemple [[https://www.openstreetmap.org/](https://www.openstreetmap.org/) Carte
 OSM].
 
 [](#)[](#)

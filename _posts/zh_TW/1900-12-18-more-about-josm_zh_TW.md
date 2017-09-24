@@ -9,8 +9,8 @@ category: josm
 JOSM 修改流程
 ========================
 
-> 這份指南可以到 [josm_more-about-josm_zh_TW.odt](/files/josm_more-about-josm_zh_TW.odt) 或是 [josm_more-about-josm_zh_TW.pdf](/files/josm_more-about-josm_zh_TW.pdf) 下載  
-> Reviewed 2015-07-12  
+> 這份指南可以到 [josm_more-about-josm_zh_TW.odt](/files/josm_more-about-josm_zh_TW.odt) 或是 [josm_more-about-josm_zh_TW.pdf](/files/josm_more-about-josm_zh_TW.pdf) 下載
+> Reviewed 2015-07-12
 
 在前面的章節，
 你安裝了 JOSM 並開始繪製你的第一個點、線與面。
@@ -95,7 +95,7 @@ JOSM 修改流程
 
 ![JOSM layout][]
 
-主視窗你應該已經很熟悉了，這是地圖視窗， 
+主視窗你應該已經很熟悉了，這是地圖視窗，
 也是大部分的操作所在的地方。這裡你可以看、編輯，
 並新增 OpenStreetMap 圖資。
 
@@ -138,11 +138,11 @@ JOSM 修改流程
 
 - 使用 **繪製工具** 畫新的點、線和區塊。
     從 Presets 選單選擇這些物件以描述它，
-    跟你在之前的章節做過的一樣。 
+    跟你在之前的章節做過的一樣。
 
-> 絕對不要編輯那些你並未下載的區域。  
-你可以看到，你下載過的矩形區域擁有固定的背景，  
-而那些你沒有下載的區域會有斜的細線在上面。  
+> 絕對不要編輯那些你並未下載的區域。
+你可以看到，你下載過的矩形區域擁有固定的背景，
+而那些你沒有下載的區域會有斜的細線在上面。
 
 ![JOSM area downloaded][]
 
@@ -178,14 +178,14 @@ JOSM 修改流程
 - 你將會需要稍等數秒以上傳你的修改，
     接著就完成了！你已經修改了 OpenStreetMap 的地圖。
 
-> 每次你編輯的時候，請確保在關閉 JOSM 之前上傳你的修改，  
-> 就算你還有很多修改沒有做也是一樣。  
-> 上傳你的修改，然後下次有時間修改的時候，再重新進行一次流程（下載圖資 → 修改 → 上傳）。  
+> 每次你編輯的時候，請確保在關閉 JOSM 之前上傳你的修改，
+> 就算你還有很多修改沒有做也是一樣。
+> 上傳你的修改，然後下次有時間修改的時候，再重新進行一次流程（下載圖資 → 修改 → 上傳）。
 > 你應該不會希望辛苦工作的成果消失不見吧！
 
 在地圖上看看你的修改
 ---------------------------
-- 打開你的瀏覽器，並前往 [http://openstreetmap.org/](http://openstreetmap.org/) 。
+- 打開你的瀏覽器，並前往 [https://www.openstreetmap.org/](https://www.openstreetmap.org/) 。
 - 把地圖移動到你編輯過的區域
 - 你應該會到你的修改出現在地圖上了！
     如果沒有，嘗試按下 CTRL+R 以重新載入網頁。

@@ -7,25 +7,25 @@ category: osm-data
 ---
 
 OSM-Daten beschaffen
-=================  
+=================
 
-> Diese Anleitung kann unter [Getting_OSM_Data_de.odt](/files/Getting_OSM_Data_de.odt) oder [Getting_OSM_Data_de.pdf](/files/Getting_OSM_Data_de.pdf) heruntergeladen werden  
+> Diese Anleitung kann unter [Getting_OSM_Data_de.odt](/files/Getting_OSM_Data_de.odt) oder [Getting_OSM_Data_de.pdf](/files/Getting_OSM_Data_de.pdf) heruntergeladen werden
 > Geprüft 2016-04-05
 
-Um an aktuellste OpenStreetMap Daten zu bekommen ist es am einfachsten, einen Auszug davon von einer Webseite herunterzuladen. Es gibt zahlreiche Webangebote, welche Datenauszüge für gewählte Gebiete anbieten.  
+Um an aktuellste OpenStreetMap Daten zu bekommen ist es am einfachsten, einen Auszug davon von einer Webseite herunterzuladen. Es gibt zahlreiche Webangebote, welche Datenauszüge für gewählte Gebiete anbieten.
 
 Datenauszüge herunterladen
 --------------------------
 
 ### GeoFabrik
 
-[GeoFabrik](http://geofabrik.de) ist eine Firma, die auf die Arbeit mit OpenStreetmap spezialisiert ist. Sie bieten eine Vielzahl an freien Auszügen als Shapefile oder im rohen OSM Format auf ihrer [Download Website](http://download.geofabrik.de) an.  Der Vorteil beim Herunterladen von GeoFabrik Daten ist, dass sie täglich aktualisiert werden und es leicht und zuverlässig ist. Ein Nachteil ist, dass die Daten länderbezogen und nicht alle Länder verfügbar sind.  
+[GeoFabrik](http://geofabrik.de) ist eine Firma, die auf die Arbeit mit OpenStreetmap spezialisiert ist. Sie bieten eine Vielzahl an freien Auszügen als Shapefile oder im rohen OSM Format auf ihrer [Download Website](http://download.geofabrik.de) an.  Der Vorteil beim Herunterladen von GeoFabrik Daten ist, dass sie täglich aktualisiert werden und es leicht und zuverlässig ist. Ein Nachteil ist, dass die Daten länderbezogen und nicht alle Länder verfügbar sind.
 
 ### Städte Auszüge
 
-[Die Webseite Metro Extracts wird durch Mapzen betrieben](https://mapzen.com/data/metro-extracts/) und bietet Shapefiles und rohes OSM Format für Städte weltweit, im wöchentlichen Rhythmus. Dies ist nützlich, wenn man Datenauszüge für einzelne Städte sucht.  
+[Die Webseite Metro Extracts wird durch Mapzen betrieben](https://mapzen.com/data/metro-extracts/) und bietet Shapefiles und rohes OSM Format für Städte weltweit, im wöchentlichen Rhythmus. Dies ist nützlich, wenn man Datenauszüge für einzelne Städte sucht.
 
-### BBBike  
+### BBBike
 
 [BBBike](http://download.bbbike.org/osm/bbbike/) bietet etwas ähnliches wie Metro Extracts, aber für andere Städte. Die Daten werden ebenfalls wöchentlich aktualisiert.
 
@@ -40,16 +40,16 @@ Datenauszüge herunterladen
 Angepasste Auszüge
 -------------------
 
-### HOT Exports  
+### HOT Exports
 
-Das [Humanitarian OpenStreetMap Team](http://hotosm.org) hat einen Dienst erstellt, der Benutzern erlaubt ein Gebiet auszuwählen und zu extrahieren und zugleich [JOSM Presets](/en/josm/josm-presets/) anzuwenden
+Das [Humanitarian OpenStreetMap Team](https://www.hotosm.org) hat einen Dienst erstellt, der Benutzern erlaubt ein Gebiet auszuwählen und zu extrahieren und zugleich [JOSM Presets](/en/josm/josm-presets/) anzuwenden
 angepasste Tags auszuwählen, welche im Auszug enthalten sein sollen. Der Dienst ist in allen Ländern in denen HOT verfügbar ist auch verfügbar unter [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 
-### BBBike  
+### BBBike
 
-Man kann bei folgendem Dienst sein eigenes Gebiet weltweit auswählen [http://extract.bbbike.org/](http://extract.bbbike.org/). Nachteile sind, dass man keine eigenen Tags auswählen und die Datenmenge die heruntergeladen werden kann begrenzt ist.  
+Man kann bei folgendem Dienst sein eigenes Gebiet weltweit auswählen [http://extract.bbbike.org/](http://extract.bbbike.org/). Nachteile sind, dass man keine eigenen Tags auswählen und die Datenmenge die heruntergeladen werden kann begrenzt ist.
 
 ### Overpass
 
@@ -85,18 +85,18 @@ read file
 url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;"
 wget -O $file "$url"
 ```
-> Was passiert hier (für Neugierige die nicht die ganze Query Language Dokumentation lesen wollen)?  
->node(...) wählt alle Nodes innerhalb einer Bounding Box;  
->< geht alles rekursiv durch, z.B. selektiert alle Wege, die diese Nodes beinhalten und alle Relationen, die diese Nodes und Wege enthalten;  
+> Was passiert hier (für Neugierige die nicht die ganze Query Language Dokumentation lesen wollen)?
+>node(...) wählt alle Nodes innerhalb einer Bounding Box;
+>< geht alles rekursiv durch, z.B. selektiert alle Wege, die diese Nodes beinhalten und alle Relationen, die diese Nodes und Wege enthalten;
 >rel(br) wählt alle bisher erhaltenen Elternrelationen von Relationen (ansonsten würde man Master Relationen nicht erhalten)
 >
 
 
 
 Zusammenfassung
--------  
+-------
 
-Alle in diesem Kapitel erwähnten Dienste können vom durchschnittliche Benutzer benötigt werden, um an die gewünschten OSM Daten zu kommen und damit in GIS Software zu arbeiten. Vielleicht möchte man aber auch mächtigere Arbeitswege um selbst mit den Daten zu arbeiten kennen lernen. Die verbleibenden Kapitel in diesem Abschnitt sind etwas technisch, zeigen aber fortgeschrittene Methoden zur Bearbeitung und für den Zugriff auf OSM Daten.  
+Alle in diesem Kapitel erwähnten Dienste können vom durchschnittliche Benutzer benötigt werden, um an die gewünschten OSM Daten zu kommen und damit in GIS Software zu arbeiten. Vielleicht möchte man aber auch mächtigere Arbeitswege um selbst mit den Daten zu arbeiten kennen lernen. Die verbleibenden Kapitel in diesem Abschnitt sind etwas technisch, zeigen aber fortgeschrittene Methoden zur Bearbeitung und für den Zugriff auf OSM Daten.
 
 
 [hot exports]: /images/osm-data/hot-exports.png

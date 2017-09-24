@@ -15,58 +15,58 @@ De kleuren of achtergrond verbeteren - iD editor
 Introductie
 ------------
 
-Deze module behandelt het wijzigen van de helderheid van satellietafbeeldingen, wat het eenvoudiger kan maken om de details er uit te pikken, maar behandelt ook het installeren van de extensie Stylish in de webbrowsers Firefox en Chrome, wat het mogelijk maakt verschillende kleurenschema's te installerten.  
+Deze module behandelt het wijzigen van de helderheid van satellietafbeeldingen, wat het eenvoudiger kan maken om de details er uit te pikken, maar behandelt ook het installeren van de extensie Stylish in de webbrowsers Firefox en Chrome, wat het mogelijk maakt verschillende kleurenschema's te installerten.
 
-Wijzigen van de kleuren van getraceerde gebouwen kan het eenvoudiger maken om ermee te werken in een gebied met gebouwen met rode daken, of een andere rode achtergrond  
+Wijzigen van de kleuren van getraceerde gebouwen kan het eenvoudiger maken om ermee te werken in een gebied met gebouwen met rode daken, of een andere rode achtergrond
 
-Andere extensies zijn ook beschikbaar. 
+Andere extensies zijn ook beschikbaar.
 
 Wijzigen van de helderheid van de satellietafbeelding
 --------------------------------------------------
 
 ![background][]
 
-Installeren van de extensie Stylish in Firefox  
+Installeren van de extensie Stylish in Firefox
 -------------------------------------------
 
-1.  Klik op het menu.  
+1.  Klik op het menu.
 ![Stylish-1]{: height="100px"}
 
-2.  Selecteer "Add-ons"  
+2.  Selecteer "Add-ons"
 ![Stylish-2]{: height="348px"}
 
-3.  Zoek naar stylish - eerste in de lijst van de schermafdruk,  
+3.  Zoek naar stylish - eerste in de lijst van de schermafdruk,
 ![Stylish-3][]
 
-4.  Installeren & opnieuw opstarten.  
+4.  Installeren & opnieuw opstarten.
 ![Stylish-4][]
 
-5.  Bezoek <http://www.openstreetmap.org/> en klik op het pictogram voor Stylish dat in uw menubalk zal staan. Kies nuttige extensies om te installeren & activeer ze zoals wordt gevraagd met behulp van het menu van het pictogram van Stylish.
+5.  Bezoek <https://www.openstreetmap.org/> en klik op het pictogram voor Stylish dat in uw menubalk zal staan. Kies nuttige extensies om te installeren & activeer ze zoals wordt gevraagd met behulp van het menu van het pictogram van Stylish.
 ![Stylish-5][]
 
-6.  Paarse getraceerde gebouwen  
+6.  Paarse getraceerde gebouwen
 ![Stylish-6][]
 
 
-Installeren van de extensie Stylish in Chrome  
+Installeren van de extensie Stylish in Chrome
 -------------------------------------------
 
-1.  Klik op het menu en **Instellingen**.  
+1.  Klik op het menu en **Instellingen**.
 ![Stylish-chrome-1]{: height="300px"}
 
-2.  Selecteer **Extensies** en **Get more extensions**  
+2.  Selecteer **Extensies** en **Get more extensions**
 ![Stylish-chrome-2]{: height="248px"}
 
-3.  Zoek naar stylish - eerste in de lijst van de schermafdruk,  
+3.  Zoek naar stylish - eerste in de lijst van de schermafdruk,
 ![Stylish-chrome-3][]
 
-4.  Installeren.  
+4.  Installeren.
 ![Stylish-chrome-4][]
 
-5.  Bezoek <http://www.openstreetmap.org/> en klik op het pictogram voor Stylish dat in uw menubalk zal staan. Kies nuttige extensies om te installeren & activeer ze zoals wordt gevraagd met behulp van het menu van het pictogram van Stylish. U dient misschien **Find more styles for this site** te selecteren om alle beschikbare stijlen te kunnen vinden.  
+5.  Bezoek <https://www.openstreetmap.org/> en klik op het pictogram voor Stylish dat in uw menubalk zal staan. Kies nuttige extensies om te installeren & activeer ze zoals wordt gevraagd met behulp van het menu van het pictogram van Stylish. U dient misschien **Find more styles for this site** te selecteren om alle beschikbare stijlen te kunnen vinden.
 ![Stylish-chrome-5][]
 
-6.  Paarse getraceerde gebouwen is één van de beschikbare opties. Het kan het waard zijn om met enige regelmaat te controleren of er inmiddels meer stijlen zijn ontwikkeld.   
+6.  Paarse getraceerde gebouwen is één van de beschikbare opties. Het kan het waard zijn om met enige regelmaat te controleren of er inmiddels meer stijlen zijn ontwikkeld.
 ![Stylish-chrome-6][]
 
 

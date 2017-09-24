@@ -46,13 +46,13 @@ Where can I find additional help?
 
 This guide may be downloaded as
 
-This guide is available in 
+This guide is available in
 
-or  
+or
 
-Please refer to it in 
+Please refer to it in
 
-This guide is currently unavailable. It is being translated. Please refer to it in 
+This guide is currently unavailable. It is being translated. Please refer to it in
 
 Send us feedback
 
@@ -62,7 +62,7 @@ Improve Language
 
 Report issues and contribute
 
-This guide is created and maintained by the [OpenStreetMap](http://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](http://hotosm.org/) community. You can help us improve this guide by simply sending your feedback or by contributing directly to it via [Github](http://github.com/hotosm/learnosm).
+This guide is created and maintained by the [OpenStreetMap](https://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](https://www.hotosm.org/) community. You can help us improve this guide by simply sending your feedback or by contributing directly to it via [Github](http://github.com/hotosm/learnosm).
 
 Ready to get started?
 

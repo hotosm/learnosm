@@ -12,7 +12,7 @@ Préférences et greffons JOSM
 
 À mesure que vous progressez dans votre technique d'édition des données,
 vous aurez envie d'ajouter des fonctionnalités à JOSM pour augmenter votre
-efficacité cartographique. Pour cela, JOSM vous offre de nombreux greffons 
+efficacité cartographique. Pour cela, JOSM vous offre de nombreux greffons
 (_plugins_) à installer, des outils supplémentaires dédiés à des tâches précises.
 Vous avez déjà installé plusieurs greffons si vous avez suivi ce tutoriel.
 Dans le chapitre précédent, vous avez installé un greffon dédié au SDS (Separate
@@ -22,7 +22,7 @@ certains des plus utiles dans ce chapitre.
 
 ![plug]({{site.baseurl}}/images/plugins_html_m76fc73bd_en.png)
 
-Chaque fois que vous voulez installer un nouveau greffon, cliquez sur 
+Chaque fois que vous voulez installer un nouveau greffon, cliquez sur
 Modifier --\> Préférences, puis sur l'onglet «Greffons». Si vous ne voyez pas une
 liste des greffons disponibles, cliquez sur «Télécharger la liste».
 Pour installer un greffon, cliquez sur la case à sa gauche puis sur Valider.
@@ -49,16 +49,16 @@ Mirrored Download
 ![]({{site.baseurl}}/images/plugins_html_m2c477766_en.png)
 
 __Mirrored Download__ vous permet de télécharger plus vite les données OSM.
-Au lieu d'utiliser le serveur OSM central, il vous permet de configurer un 
+Au lieu d'utiliser le serveur OSM central, il vous permet de configurer un
 miroir, qui est une réplique exacte des données, mais situé plus près de vous
 (en terme de réseau internet).
 
-Une fois ce greffon installé, vous obtenez une nouvelle entrée dans le 
+Une fois ce greffon installé, vous obtenez une nouvelle entrée dans le
 menu Fichier «Télécharger depuis un miroir OSM…»
 
 ![]({{site.baseurl}}/images/plugins_html_1f3d8d84_en.png)
 
-Ensuite, le téléchargement se passe exactement de la même manière que ce que 
+Ensuite, le téléchargement se passe exactement de la même manière que ce que
 vous avez déjà vu, mais avec un peu de chance, il sera beaucoup plus rapide !
 
 Direct Upload
@@ -77,7 +77,7 @@ Si vous cliquez dessus, cette fenêtre va apparaître :
 ![]({{site.baseurl}}/images/plugins_html_2e01a9a7_en.png)
 
 Dans le champ «Attributs», ajoutez des mots-clés (séparés par des virgules,
-sans espaces) précisant votre trace GPS. Par exemple, 
+sans espaces) précisant votre trace GPS. Par exemple,
 «Pays,région,commune,quartier,nom de rue».
 Ensuite, indiquez une description de vos attributs. Une liste déroulante vous
 permet de réutiliser des attributs et des descriptions précédemment entrés.
@@ -89,7 +89,7 @@ Cliquez sur le bouton «Envoyer la trace». Si vous n'êtes pas connecté à vot
 compte OSM, vous devez le faire maintenant.
 
 À la fin de l'envoi, un état «OK» apparaître dans la zone d'affichage et le bouton
-«Envoyer la trace» passera en grisé. Vous trouverez plus de détails sur 
+«Envoyer la trace» passera en grisé. Vous trouverez plus de détails sur
 ce greffon et les envois de traces GPS dans les [Annexes]{{site.baseurl}}/learnosm/fr/).
 
 
@@ -117,10 +117,10 @@ Chaque point de la trace sera surligné en jaune
 rectangle) à supprimer. Le surlignage jaune doit disparaître.
 ![]({{site.baseurl}}/images/plugins_html_m7e01ae1f_en.png)
 
-4. Faites un clic-droit sur le nom du calque et choisissez 
+4. Faites un clic-droit sur le nom du calque et choisissez
 «Convertir en calque GPX» dans le menu contextuel.
 
-5. Vous pouvez maintenant enregistrer le calque GPX normal comme fichier, ou l'envoyer 
+5. Vous pouvez maintenant enregistrer le calque GPX normal comme fichier, ou l'envoyer
 au serveur OSM (par exemple avec le greffon [DirectUpload](http://josm.openstreetmap.de/wiki/Plugins)).
 
 Print
@@ -140,7 +140,7 @@ qui ouvre la boîte de dialogue «Imprimer la carte», semblable à :
 ![]({{site.baseurl}}/images/plugins_html_49f16afc_en.png)
 
 Vous pouvez modifier les réglages d'impression. Si la page est vide (grise),
-cochez la case «Aperçu de la carte» à droite. Vous pouvez zoomer / dé-zoomer 
+cochez la case «Aperçu de la carte» à droite. Vous pouvez zoomer / dé-zoomer
 sur la carte grâce au champ «Échelle» et changer la résolution d'impression
 en ajustant le nombre de «ppi» (points par pouces).
 Quand vous êtes satisfait de vos réglages, cliquez sur le bouton «Imprimez».
@@ -149,9 +149,9 @@ Quand vous êtes satisfait de vos réglages, cliquez sur le bouton «Imprimez».
 Résumé
 ------
 
-Voilà quelques greffons parmi les plus utiles disponibles dans JOSM, mais 
-n'hésitez pas à en tester d'autres. Comme vous l'avez déjà vu, le menu 
-Préférences > Greffons précise pour chacun une courte description, et vous ouvre 
+Voilà quelques greffons parmi les plus utiles disponibles dans JOSM, mais
+n'hésitez pas à en tester d'autres. Comme vous l'avez déjà vu, le menu
+Préférences > Greffons précise pour chacun une courte description, et vous ouvre
 une page web avec tous les détails si vous cliquez sur le lien «plus d'infos…»
 
 
@@ -168,10 +168,10 @@ Détails sur DirectUpload
 ![]({{site.baseurl}}/images/plugins_html_m7e14a056_en.png)
 
 Envoyer vos traces GPS et waypoints au serveur OSM est utile pour plusieurs raisons.
-_(Si vous ne voulez pas que vos points GPX soient visibles par d'autres, 
+_(Si vous ne voulez pas que vos points GPX soient visibles par d'autres,
 vous pouvez passer cette section. Vous pouvez tout simplement afficher vos traces GPX
 dans JOSM en stockant localement les fichiers correspondant)._
-En premier lieu, les traces GPS sont le moyen le plus efficace de collecter et de 
+En premier lieu, les traces GPS sont le moyen le plus efficace de collecter et de
 géoréférencer des objets dans OSM.
 
 Les récepteurs GPS ont une meilleure précision que l'imagerie satellite et sont
@@ -184,25 +184,25 @@ ou qui ne possèdent tout simplement pas de récepteur GPS.
 Vous avez deux manières d'envoyer vos traces : 1) le plugin JOSM ou
 2) le site web principal d'OSM.
 
-> Note : les waypoints GPS waypoints ne peuvent pas être envoyés directement 
+> Note : les waypoints GPS waypoints ne peuvent pas être envoyés directement
 > dans la base OSM. Cependant, ils peuvent être convertis en traces et envoyés
 > temporairement, par exemple afin d'être utilisés comme couche de fond dans Potlatch.
 
-Après avoir ouvert votre fichier GPX dans JOSM et cliqué sur 
+Après avoir ouvert votre fichier GPX dans JOSM et cliqué sur
 «Outils» puis sur «Envoyer les traces», décrivez le fichier GPX
 avec quelques attributs. Pour la visibilité, vous pouvez choisir une valeur entre
 privé, public, traçable, identifiable.
 
-1.  **Identifiable** : Votre trace sera visible publiquement dans **vos traces GPS** 
-    et dans la liste des traces publiques. Les autres utilisateurs peuvent 
+1.  **Identifiable** : Votre trace sera visible publiquement dans **vos traces GPS**
+    et dans la liste des traces publiques. Les autres utilisateurs peuvent
     télécharger la trace brute et la relier à votre nom d'utilisateur.
     L'horodatage de vos points est aussi disponible via l'API GPS publique.
 
-2.  **Public** : Votre trace sera visible publiquement dans **vos traces GPS** 
-    et dans la liste des traces publiques. Les autres utilisateurs peuvent 
+2.  **Public** : Votre trace sera visible publiquement dans **vos traces GPS**
+    et dans la liste des traces publiques. Les autres utilisateurs peuvent
     toujours télécharger la trace brute et les horodatages contenus.
     Cependant, les données fournies par l'API ne référencent pas votre page,
-    et ne contiennent pas les horodatages, même si les points sont ordonnés 
+    et ne contiennent pas les horodatages, même si les points sont ordonnés
     chronologiquement.
 
 3.  **Traçable** : La trace ne sera **pas** affichée sur les listes publiques,
@@ -219,14 +219,14 @@ privé, public, traçable, identifiable.
 Envoyer les traces GPS en ligne
 -------------------------------
 
-1. Allez à l'adresse [http://www.openstreetmap.org/](http://www.openstreetmap.org/) 
+1. Allez à l'adresse [https://www.openstreetmap.org/](https://www.openstreetmap.org/)
 et connectez-vous.
 
 2. Sélectionnez «Traces GPS» à gauche de la bannière.![]({{site.baseurl}}/images/plugins_html_32e7d3be_en.png)
 
 3. Sélectionnez
-[Envoyer une trace](http://www.openstreetmap.org/trace/create).
-Vous pouvez également **Voir toutes vos traces** pour vérifier vos envois précédents. 
+[Envoyer une trace](https://www.openstreetmap.org/trace/create).
+Vous pouvez également **Voir toutes vos traces** pour vérifier vos envois précédents.
 
 4. Localisez votre fichier local avec le bouton dédié. Commentez-le dans les champs
 Description et Balises, et choisissez la Visibilité que vous préférez.

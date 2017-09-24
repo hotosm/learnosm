@@ -9,40 +9,40 @@ category: josm
 Plug-ins voor JOSM
 ============
 
-> Deze handleiding kan gedownload worden als [josm-plugins_nl_NL.odt](/files/josm-plugins_nl_NL.odt) of [josm-plugins_nl_NL.pdf](/files/josm-plugins_nl_NL.pdf)  
-> Bijgewerkt op 14-07-2015  
+> Deze handleiding kan gedownload worden als [josm-plugins_nl_NL.odt](/files/josm-plugins_nl_NL.odt) of [josm-plugins_nl_NL.pdf](/files/josm-plugins_nl_NL.pdf)
+> Bijgewerkt op 14-07-2015
 
-Wanneer u meer gevorderd raakt in uw bewerkingstechnieken, wilt u misschien aanvullende mogelijkheden voor JOSM gebruiken om uw vaardigheden voor het in kaart brengen te verbeteren. JOSM stelt u in staat vele plug-ins te installeren, die extra functionaliteiten aan de software toevoegen.  
+Wanneer u meer gevorderd raakt in uw bewerkingstechnieken, wilt u misschien aanvullende mogelijkheden voor JOSM gebruiken om uw vaardigheden voor het in kaart brengen te verbeteren. JOSM stelt u in staat vele plug-ins te installeren, die extra functionaliteiten aan de software toevoegen.
 
 In dit gedeelte zullen we nader kijken hoe plug-ins te installeren en naar enkele van de meest nuttige plug-ins die beschikbaar zijn.
 
 Plug-ins installeren
 -------------------
-Ga, elke keer als u een nieuwe plug-in wilt installeren, naar **Bewerken \> Voorkeuren** en klik op de tab **Plugins**.  
+Ga, elke keer als u een nieuwe plug-in wilt installeren, naar **Bewerken \> Voorkeuren** en klik op de tab **Plugins**.
 
 ![Plugins][]
 
-* Klik op **Lijst downloaden** als u geen lijst met beschikbare plug-ins ziet.  
-* U moet, om een plug-in te installeren, eenvoudigweg het vakje ernaast selecteren en onderin op OK drukken.  
+* Klik op **Lijst downloaden** als u geen lijst met beschikbare plug-ins ziet.
+* U moet, om een plug-in te installeren, eenvoudigweg het vakje ernaast selecteren en onderin op OK drukken.
 * Tenslotte dient u, met sommige versies van JOSM, misschien JOSM opnieuw te starten wanneer u nieuwe plug-ins installeert.
 
 Enkele van onze favoriete plug-ins zijn:
 
-1. **[buildings_tools](nl_NL/josm/josm-more-plugins/):** Als u veel gebouwen tekent zal dit dat proces sneller en eenvoudiger maken  
+1. **[buildings_tools](nl_NL/josm/josm-more-plugins/):** Als u veel gebouwen tekent zal dit dat proces sneller en eenvoudiger maken
 
-2.  **DirectUpload:** Als u veel GPS-sporen verzamelt en ze zou willen opslaan in de database van OSM maakt deze plug-in dat eenvoudig.  
+2.  **DirectUpload:** Als u veel GPS-sporen verzamelt en ze zou willen opslaan in de database van OSM maakt deze plug-in dat eenvoudig.
 
-3. **editgpx:** Indien u GPS-sporen wilt uploaden vanaf een apparaat van Garmin heeft u misschien deze plug-in nodig. OSM accepteert geen GPS-sporen die zijn opgeslagen op een externe geheugenkaart van een apparaat van Garmin, maar deze plug-in kan de bestanden corrigeren zodat zij kunnen worden geüpload.  
+3. **editgpx:** Indien u GPS-sporen wilt uploaden vanaf een apparaat van Garmin heeft u misschien deze plug-in nodig. OSM accepteert geen GPS-sporen die zijn opgeslagen op een externe geheugenkaart van een apparaat van Garmin, maar deze plug-in kan de bestanden corrigeren zodat zij kunnen worden geüpload.
 
-4. **fieldpapers:** Deze plug-in laat u gescande Field Papers laden in JOSM.  
+4. **fieldpapers:** Deze plug-in laat u gescande Field Papers laden in JOSM.
 
-5. **imagery_offset_db:** Deze plug-in laat u samenwerken met andere mappers die vinden dat de satellietafbeeldingen van Bing enigszins verschoven zijn. Dit probleem wordt meer in detail behandeld in een later hoofdstuk.  
+5. **imagery_offset_db:** Deze plug-in laat u samenwerken met andere mappers die vinden dat de satellietafbeeldingen van Bing enigszins verschoven zijn. Dit probleem wordt meer in detail behandeld in een later hoofdstuk.
 
-6. **mirrored_download:** Met deze plug-in kunt u een groter gebied met gegevens van OSM downloaden om te bewerken.  
+6. **mirrored_download:** Met deze plug-in kunt u een groter gebied met gegevens van OSM downloaden om te bewerken.
 
-7. **print:** Voegt een functie Afdrukken toe, voor het geval u snel een gebied wilt afdrukken, maar dat het er niet bijzonder netjes hoeft uit te zien.  
+7. **print:** Voegt een functie Afdrukken toe, voor het geval u snel een gebied wilt afdrukken, maar dat het er niet bijzonder netjes hoeft uit te zien.
 
-8. **[utilsplugin2](nl_NL/josm/josm-more-plugins/):** Voegt vele aanvullende gereedschappen en menu's toe aan JOSM voor gevorderde gebruikers. Dit wordt meer in detail behandeld in het [volgende hoofdstuk](/nl_NL/josm/josm-more-plugins)  
+8. **[utilsplugin2](nl_NL/josm/josm-more-plugins/):** Voegt vele aanvullende gereedschappen en menu's toe aan JOSM voor gevorderde gebruikers. Dit wordt meer in detail behandeld in het [volgende hoofdstuk](/nl_NL/josm/josm-more-plugins)
 
 
 
@@ -134,7 +134,7 @@ dit nieuwe gereedschap zien in de werkbalk aan de linkerkant.
 
 ![Open GPX File][]
 
-2. Druk op de nieuwe knop in de linker menubalk 
+2. Druk op de nieuwe knop in de linker menubalk
 
 ![Edit Gpx Tool Icon][]
 
@@ -255,21 +255,21 @@ Online GPS-sporen uploaden
 ---------------------------
 
 1. Ga
-naar [http://www.openstreetmap.org/](http://www.openstreetmap.org/) en log in.
+naar [https://www.openstreetmap.org/](https://www.openstreetmap.org/) en log in.
 
 2. Selecteer "GPS Traces", te vinden op de linker banner.
 
 ![Left Banner][]
 
 3. Selecteer
-[upload a trace](http://www.openstreetmap.org/trace/create).
-Hier, kunt u ook  **See just your traces** om eerdere GPS-sporen te bekijken.  
+[upload a trace](https://www.openstreetmap.org/trace/create).
+Hier, kunt u ook  **See just your traces** om eerdere GPS-sporen te bekijken.
 
 4. Zoek uw bestand op in "Choose File". Label het in het vak Description
 , geef het enkele tags, en kies welk type Visibility het moet hebben.
 Als u veel .gpx-bestanden heeft kunt u ze comprimeren in een zip-archief en
 dat uploaden. Het zal worden behandeld als één groot gpx-bestand en er zal slechts één item
-op de lijst met sporen worden gemaakt. 
+op de lijst met sporen worden gemaakt.
 
 ![Online Upload Traces Options][]
 
@@ -286,7 +286,7 @@ wachtrij van bestanden die nog in de database moeten worden ingevoegd.
 [Upload Traces Item]: /images/josm/josm-plugins_image05_upload-traces-item.png
 [Upload Traces Window]: /images/josm/josm-plugins_image06_upload-traces-window.png
 [Edit Gpx]: /images/josm/josm-plugins_image07_edit-gpx.png
-[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png 
+[Edit Gpx Tool Icon]: /images/josm/josm-plugins_image08_edit-gpx-tool-icon.png
 [Open GPX File]: /images/josm/josm-plugins_image09_open-gpx-file.png
 [GPX Nodes All]: /images/josm/josm-plugins_image10_gpx-nodes-all.png
 [GPX Nodes Selected]: /images/josm/josm-plugins_image11_gpx-nodes-selected.png

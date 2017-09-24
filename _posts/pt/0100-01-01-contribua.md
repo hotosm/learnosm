@@ -11,4 +11,4 @@ startC: "melhorar a Língua"
 startD: "Fork e melhorar local"
 nosearch: true
 ---
-Este guia é criado e mantido pela comunidade do [OpenStreetMap](http://www.openstreetmap.org/) e [Humanitarian OpenStreetMap](http://hotosm.org/). Você pode ajudar a melhorar este guia, basta você enviar seu feedback ou contribuir diretamente via [Github](http://github.com/hotosm/learnosm).
+Este guia é criado e mantido pela comunidade do [OpenStreetMap](https://www.openstreetmap.org/) e [Humanitarian OpenStreetMap](https://www.hotosm.org/). Você pode ajudar a melhorar este guia, basta você enviar seu feedback ou contribuir diretamente via [Github](http://github.com/hotosm/learnosm).

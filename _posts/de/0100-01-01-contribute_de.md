@@ -11,4 +11,4 @@ startC: "Verbessern Sie Abbildungen - in Ihrer Sprache!"
 startD: "Melden Sie Probleme und machen Sie mit"
 nosearch: true
 ---
-Diese Anleitung wird von der [OpenStreetMap] (http://www.openstreetmap.org/) und von der [Humanitarian OpenStreetMap] (http://hotosm.org/) Gemeinschaft erstellt und gepflegt. Sie können uns helfen, diese Anleitung zu verbessern, indem Sie uns einfach Ihre Rückmeldung schicken oder direkt selbst via [Github](http://github.com/hotosm/learnosm) mitmachen.
+Diese Anleitung wird von der [OpenStreetMap] (https://www.openstreetmap.org/) und von der [Humanitarian OpenStreetMap] (https://www.hotosm.org/) Gemeinschaft erstellt und gepflegt. Sie können uns helfen, diese Anleitung zu verbessern, indem Sie uns einfach Ihre Rückmeldung schicken oder direkt selbst via [Github](http://github.com/hotosm/learnosm) mitmachen.

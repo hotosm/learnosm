@@ -9,8 +9,8 @@ category: josm
 Het bewerkingsproces van JOSM
 ========================
 
-> Deze handleiding kan worden gedownload als [josm_more-about-josm_nl_NL.odt](/files/josm_more-about-josm_nl_NL.odt) of [josm_more-about-josm_nl_NL.pdf](/files/josm_more-about-josm_nl_NL.pdf)  
-> Bijgewerkt op 12-07-2015  
+> Deze handleiding kan worden gedownload als [josm_more-about-josm_nl_NL.odt](/files/josm_more-about-josm_nl_NL.odt) of [josm_more-about-josm_nl_NL.pdf](/files/josm_more-about-josm_nl_NL.pdf)
+> Bijgewerkt op 12-07-2015
 
 In het eerdere gedeelte heeft u
 JOSM geïnstalleerd en bent u uw eerste punten, lijnen en vormen gaan tekenen.
@@ -95,7 +95,7 @@ zullen we eens wat nader kijken naar de interface van JOSM.
 
 ![JOSM layout][]
 
-Het hoofdvenster waarmee u al bekend bent - dit is het kaartvenster, en 
+Het hoofdvenster waarmee u al bekend bent - dit is het kaartvenster, en
 dit is waar de meeste actie is te vinden. Hier zult u bekijken, bewerken en
 toevoegen aan de gegevens van OpenStreetMap.
 
@@ -138,11 +138,11 @@ eerder hebben gezien - punten, lijnen, en vormen die locaties in de echte wereld
 
 - Gebruik het **gereedschap Tekenen** om nieuwe punten, lijnen en vormen te tekenen.
     Beschrijf deze objecten door te kiezen uit het menu Voorkeuzen, zoals u
-    in het eerdere gedeelte deed. 
+    in het eerdere gedeelte deed.
 
->  Bewerk nooit de kaart buiten het gebied dat u heeft gedownload. U  
->  kunt het rechthoekige gebied dat u heeft gedownload zien als een vaste achtergrond,  
->  terwijl het gebied dat u niet heeft gedownload diagonale lijnen met strepen heeft.  
+>  Bewerk nooit de kaart buiten het gebied dat u heeft gedownload. U
+>  kunt het rechthoekige gebied dat u heeft gedownload zien als een vaste achtergrond,
+>  terwijl het gebied dat u niet heeft gedownload diagonale lijnen met strepen heeft.
 
 ![JOSM area downloaded][]
 
@@ -178,14 +178,14 @@ verbonden zijn met het internet.
 -    U zult een paar seconden moeten wachten voordat uw wijzigingen zullen zijn geüpload,
     en dan bent u klaar! U heeft de kaart op OpenStreetMap bewerkt.
 
-> Als u aan het bewerken bent, zorg er dan voor dat u uw wijzigingen uploadt vóórdat u  
-> JOSM sluit. Zelfs als u nog meer bewerkingen wilt uitvoeren, upload uw wijzigingen, en  
-> ga dan later opnieuw door het proces wanneer u tijd heeft om te bewerken.  
+> Als u aan het bewerken bent, zorg er dan voor dat u uw wijzigingen uploadt vóórdat u
+> JOSM sluit. Zelfs als u nog meer bewerkingen wilt uitvoeren, upload uw wijzigingen, en
+> ga dan later opnieuw door het proces wanneer u tijd heeft om te bewerken.
 > U wilt uw werk niet verliezen!
 
 Uw wijzigingen bekijken op de kaart
 ---------------------------
--  Open uw internetbrowser en ga naar [http://openstreetmap.org/](http://openstreetmap.org/)
+-  Open uw internetbrowser en ga naar [https://www.openstreetmap.org/](https://www.openstreetmap.org/)
 -  Verplaats de kaart naar het gebied dat u heeft bewerkt.
 -  U zou uw wijzigingen nu moeten zien verschijnen op de kaart! Als dat niet zo is,
     probeer dan door te drukken op CTRL+R de webpagina te vernieuwen. Soms wordt de kaart

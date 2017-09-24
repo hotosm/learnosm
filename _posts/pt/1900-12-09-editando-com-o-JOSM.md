@@ -173,7 +173,7 @@ Ver as suas Modificações no Mapa.
 ---------------------------------
 
 -  Abra o navegador Internet e vá a
-    [openstreetmap.org](http://openstreetmap.org)
+    [openstreetmap.org](https://www.openstreetmap.org)
 -  Mova o mapa para a área que editou.
 -  Deverá ver as suas modificações já no mapa! Se não estiverem lá,
     pressione CTRL+R para refrescar a página web. Por vezes o mapa não

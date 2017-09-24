@@ -9,8 +9,8 @@ category: beginner
 Getting started on OpenStreetMap.org
 ====================================
 
-> This guide may be downloaded as [beginner_start-osm_en.odt](/files/beginner_start-osm_en.odt) or [beginner_start-osm_en.pdf](/files/beginner_start-osm_en.pdf)  
-> Reviewed 2015-07-12  
+> This guide may be downloaded as [beginner_start-osm_en.odt](/files/beginner_start-osm_en.odt) or [beginner_start-osm_en.pdf](/files/beginner_start-osm_en.pdf)
+> Reviewed 2015-07-12
 
 In this section we will learn step by step how to navigate the
 OpenStreetMap website, view maps, and sign up for a user
@@ -27,7 +27,7 @@ Visit the OpenStreetMap Website
 -   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet
     Explorer. If it is already open then you can create a new tab.
 -   In the address bar at the top of the window, enter the following and press Enter:
-    [www.openstreetmap.org](http://www.openstreetmap.org/)
+    [www.openstreetmap.org](https://www.openstreetmap.org/)
 -   When the page has finished loading, you should see something like
     this:
 
@@ -54,7 +54,7 @@ Navigate the Map
     automatically move to the location you chose.
 
     ![Search][]
-   
+
 
 View Different Map Styles
 ------------------------
@@ -137,7 +137,7 @@ Adding Your First Points
     website, you can use the iD editor to add your first point to
     the map.
 -   Move the map to a place that you know very well, such as your town
-    or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
+    or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address.
 -   Zoom in to a place where you would like to add a point to the map (perhaps a restaurant or grocery store near you isn't yet mapped).
 -   Just above the map on the left, there is a tab named “Edit” with a small
     triangle besides it. Click the small triangle. You should see a menu
@@ -154,7 +154,7 @@ Adding Your First Points
     the top the window. Then click on the map where you would like to add a new
     point.
 
-    ![Point button][]    
+    ![Point button][]
 
 -   Select from the menu on the left what type of location it is that you are
     adding to the map. You can then fill in the appropriate form with the location's
@@ -163,21 +163,21 @@ Adding Your First Points
     first edit, you may prefer to play around with the editor. Don't save your changes
     unless you are sure they are correct.
 
-    ![Save button][]    
+    ![Save button][]
 
 -   If you do click Save, you will be asked to provide a description of your changes.
     Then you can click "Save" once more, and your additions will be saved to the
     OSM database!
 
 
-The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out 
+The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out
 more about using it in the [iD editor guide](/en/beginner/id-editor/).
-You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
+You can also play the [walkthrough](https://www.openstreetmap.org/edit?editor=id#walkthrough=true)
 which is a great and interactive manner to discover the editor.
 
-However, in the [JOSM section](/en/josm/) we will be looking at a standalone application 
+However, in the [JOSM section](/en/josm/) we will be looking at a standalone application
 that offers many more features.
-Feel free to continue playing with iD. Once you have more experience contributing to OSM, 
+Feel free to continue playing with iD. Once you have more experience contributing to OSM,
 you can choose which editor - iD or JOSM - you like using the best.
 
 Summary

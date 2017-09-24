@@ -11,4 +11,4 @@ startC: "Poboljšaj prijevod"
 startD: "Forkaj i poboljšaj stranicu"
 nosearch: true
 ---
-Ova uputstva su održavana od strane [OpenStreetMap](http://www.openstreetmap.org/) i [Humanitarian OpenStreetMap](http://hotosm.org/) zajednice. Možeš nam pomoći jednostavin slanjem svojih primjedbi ili direktno pomoći preko [Github](http://github.com/hotosm/learnosm).
+Ova uputstva su održavana od strane [OpenStreetMap](https://www.openstreetmap.org/) i [Humanitarian OpenStreetMap](https://www.hotosm.org/) zajednice. Možeš nam pomoći jednostavin slanjem svojih primjedbi ili direktno pomoći preko [Github](http://github.com/hotosm/learnosm).

@@ -9,13 +9,13 @@ category: coordination
 Gegevens van OSM nakijken
 ==================
 
-> Deze handleiding kan worden gedownload als [review_nl_NL.odt](/files/review_nl_NL.odt) of [review_nl_NL.pdf](/files/review_nl_NL.pdf)  
-> Bijgewerkt op 24-04-2017  
+> Deze handleiding kan worden gedownload als [review_nl_NL.odt](/files/review_nl_NL.odt) of [review_nl_NL.pdf](/files/review_nl_NL.pdf)
+> Bijgewerkt op 24-04-2017
 
 - Inhoud
 {:toc}
 
-**Dit gedeelte behandelt processen voor het controleren van de kwaliteit van gegevens, in het bijzonder in de context van een gecoördineerd project voor in kaart brengen in OSM, zoals die welke worden ondernomen door het [Humanitarian OpenStreetMap Team](http://hotosm.org) in verscheidene landen en projecten van  [Open Cities](http://opencitiesproject.com) in Bangladesh, Sri Lanka, en Nepal. De gedemonstreerde methoden kunnen ook nuttig zijn in een andere contexten, waar het nakijken van de kwaliteit van gegevens een normale taak is.**
+**Dit gedeelte behandelt processen voor het controleren van de kwaliteit van gegevens, in het bijzonder in de context van een gecoördineerd project voor in kaart brengen in OSM, zoals die welke worden ondernomen door het [Humanitarian OpenStreetMap Team](https://www.hotosm.org) in verscheidene landen en projecten van  [Open Cities](http://opencitiesproject.com) in Bangladesh, Sri Lanka, en Nepal. De gedemonstreerde methoden kunnen ook nuttig zijn in een andere contexten, waar het nakijken van de kwaliteit van gegevens een normale taak is.**
 
 Wanneer we proberen een volledige set van objecten en attributen in een gespecificeerd gebied in kaart te brengen, hebben we manieren nodig om te controleren op fouten en manieren om toegang te krijgen tot de nauwkeurigheid van het werk.  In deze handleiding zullen we verschillende methoden voor het controleren van gegevens behandelen, de stappen van de methoden uitleggen en de reden daarvoor.  Een goed beheerd project voor in kaart brengen zal al deze drie processen bevatten, zowel voor het evalueren en corrigeren van gegevens als voor rapporteren.
 
@@ -203,7 +203,7 @@ Pak de bestanden uit en laadt de twee shapefiles in QGIS.  We zullen beginnen me
 - Laten we vervolgens alleen de polygonen eruit filteren die gebouwen zijn en die werden verzameld als deel van dit project.
 - Klik met rechts op **planet_osm_polygon** en klik op “Filter...”
 - Voer de volgende query in:
-    
+
 *"building" != NULL AND "source" = 'Open Cities Dhaka Survey'*
 
 - Klik op OK.  Filteren van de gegevens met deze query zal alleen de polygonen weergeven die iets hebben vermeld in de kolom building.  Het verwijdert ook gebouwen die niet de brontag hebben die is geassocieerd met dit project.
@@ -217,7 +217,7 @@ We kunnen nu query's uitvoeren op de laag gebouwen om naar mogelijke fouten te z
 - name
 - building
 - building:levels
-- building:use                                            
+- building:use
 - building:vertical_irregularity
 - building:soft_storey
 - building:material
