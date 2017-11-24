@@ -40,11 +40,11 @@ The [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) has created
 
 ![hot-export-tool][]
 
-##QuickStart
+## QuickStart
 
 Anyone can create a custom OpenStreetMap export with the Export Tool - just register an account. You can register with an OpenStreetMap account from openstreetmap.org, and a valid email address, which will be used to send a link to your export once it is complete.
 
-##Identify Area of Interest
+## Identify Area of Interest
 
 There are multiple ways an Area of Interest (AOI) can be selected through the Export Tool. This includes the ability to type and search, specify the coordinates of a bounding box, draw a bounding box, free draw a polygon, use the current view or upload a geojson file.
 
@@ -54,21 +54,21 @@ Once you are ‘Logged In’ to the HOT Export Tool, the ‘Create’ tab will b
 
 ![export-tool-describe][]
 
-###Search Bar
+### Search Bar
 There are 6 ways to define an AOI for your export. The first and second use the search bar, which can either find a place by typing in its name and selecting it from the options below, or by defining the bounding box coordinates. The minimum X, minimum Y, maximum X and maximum Y (West, South, East, North) coordinates of a country can be found [in a CSV list provided by the Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
 
 ![export-tool-search][]
 ![export-tool-coordinates][]
 
 
-###Digitise 
+### Digitise 
 The third and fourth way that an AOI can be selected in the Export Tool, is by either drawing a bounding box by selecting the ‘Box’ option from the column of tools on the right of the screen. Or you can free draw a polygon directly on the map by selecting the ‘Draw’ tool.
 
 ![export-tool-area-bbox][]
 ![export-tool-area-draw][]
 
 
-###Upload Polygon
+### Upload Polygon
 The last two ways in which an AOI can be selected is through the ‘This View’ tool on the right hand side of the map, which captures the extent of the map’s current view, or by the ‘Import’ tool which enables you to upload a polygon of the area.  
 
 ![export-tool-area-view][]
@@ -87,7 +87,7 @@ The GeoJSON file needs to be edited slightly in order for it to be accepted by t
 ![export-tool-area-import2][]
 
 
-##Select File Formats
+## Select File Formats
 
 The tool allows OSM data to be extracted through the Overpass API in its native Protocol Buffer Binary (PBF) file format, before filtering the data for the map features and associated tags specified by the user. Once the data has been filtered it is then converted into the file formats chosen by the user.  
 
@@ -96,37 +96,37 @@ Currently the tool can convert OSM data into Shapefile .shp, GeoPackage .gpkg, G
 ![export-tool-file-formats][]
 
 
-###Shapefile .shp
+### Shapefile .shp
 Shapefiles are a tabular format developed by Esri. They are the most popular file format for GIS data. A shapefile is actually 3-4 individual files, commonly bundled together as a ZIP archive. Shapefiles do have certain limitations, such as the file size, capping at 2 gigabytes (GB) and a column name length limit of 10 characters. Read more about [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) in the Learn section.
 
 ![export-tool-shapefile][]
 
 
-###Geopackage .gpkg
+### Geopackage .gpkg
 OGC Geopackages store geospatial data in a single SQLite database. Geopackages are very similar to Spatialite-enabled SQLite databases. They should be usable in most major GIS applications. Geopackages support practically unlimited file sizes and numbers of columns in tables, and have full support for Unicode. They are especially ideal if you need to run SQL queries over the data. Read more about [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) in the Learn section.
 
 ![export-tool-sql][]
 
 
-###Garmin .img
+### Garmin .img
 A .IMG file contains all information needed to render a map onto a Garmin GPS mobile device. Please note that the cartographic .img style and feature choices of the map are not dependent on the feature selection submitted to the Export Tool - instead, a default style based on all OSM data is used. Read more about [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) in the Learn section.
 
 ![export-tool-garmin][]
 
 
-###Google Earth .kml
+### Google Earth .kml
 The Keyhole Markup Language (KML) is an XML-based format for modeling points, lines, polygons and associated attributes geographically. Google Earth is the most widely known earth view browsing platform using KML, which is also the reason why it was developed. Read more about [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) in the Learn section.
 
 ![export-tool-google-earth][]
 
 
-###OSM .pbf
+### OSM .pbf
 The canonical data format of OSM is an XML document of nodes, ways and relations. The Protocol Buffer Binary Format (PBF) is an optimised representation of OSM XML, which is smaller on disk and faster to read. This format is only compatible with OSM specific tools, such as OSM editing software. Each .PBF provided by the export tool should be referentially complete - that is, any node, way or relation referenced by a way or relation will appear in the PBF. Learn more about [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) in the Learn section.
 
 ![export-tool-xml-code][]
 
 
-###MAPS.ME .mwm
+### MAPS.ME .mwm
 Maps.me is a GPS Navigation and map application for Android and iOS smartphones and tablets, notably supporting offline mapping and navigation. Read more about [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) in the Learn section. To use a custom export with Maps.me on Android, please follow these steps:
 Open Maps.me and navigate to your region of interest
 Accept Maps.me's prompt and download the offered region
@@ -144,13 +144,13 @@ Open Maps.me
 ![export-tool-mapsme][]
 
 
-###OsmAnd .obf
+### OsmAnd .obf
 OsmAnd is also a GPS Navigation and map application for Android and iOS smartphones, as well as  tablets, notably supporting offline rendering, routing, and searching. Read more about the application and its numerous features of [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) from their main website. 
 
 ![export-tool-osmand][]
 
 
-###MBTiles .mbtiles
+### MBTiles .mbtiles
 MBTiles is a file format for storing map tiles in a single file. The Export Tool allows users to create MBTiles containing tiles from OSM, which can be used as sources of offline context within applications that support them. Please note that MBTiles will extract all the OSM features in the selected area of interest through the Export Tool, with the ‘3 Data’ tab automatically switching to a dropdown source option and zoom range, in place of the standard tree tag and YAML feature selection option. Read more about [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) in the Learn section.
 
 ![export-tool-mbtiles][]
@@ -160,7 +160,7 @@ Additional file formats are continuously being suggested and added to the Export
 
 
 
-##Customise Map Features
+## Customise Map Features
 
 The tool allows the user to customise the data selected within the defined area of interest. The OSM data is defined by using tag filters and key selections, with the Tag Tree or YAML Form. The Tag Tree is for common use cases, presenting a curated set of filters and selections, where the YAML configuration provides complete control over filters and selections, using a SQL-like filter definition.
 
@@ -175,7 +175,7 @@ Relations, which are sets of nodes, ways or other relations
 
 Each of these elements can have any number of key=value tags. For example, a post office may be represented by a way with the tags building=yes and amenity=post_office. Lets see how these tags can be defined in the Export Tool using the Tag Tree and YAML Form to filter OSM data.
 
-###Tag Tree
+### Tag Tree
 The Tag Tree is the simplest way to get started selecting features, simply by ticking the desired parent or child checkboxes. Please note that selecting a parent checkbox will add additional key=value tags associated to the theme, as well as the child checkboxes below it. Each parent checkbox has a different query to filter data, so it is highly recommended that the syntax for each theme is explored by hovering over the checkbox, which will provide an info box to the right. 
 
 ![export-tool-treetag-sql][]
@@ -190,7 +190,7 @@ The parent checkboxes do not always represent what is available as children belo
 ![export-tool-treetag-spreadsheet][]
 
 
-###YAML Form
+### YAML Form
 Using a YAML configuration provides complete control over applying filters to the OSM data, by using a SQL-like filter definition to apply key=value tags. Please note that the Tag Tree also generates syntax on the YAML Form, so any parent and child checkboxes selected will automatically be applied in the YAML box. This acts as a starting point for the query which can be further edited. 
 
 ![export-tool-treetag-yaml][]
@@ -236,7 +236,7 @@ Older versions of the Export Tool used JOSM Preset .XML files to define feature 
 
 
 
-###Configurations
+### Configurations
 
 YAML configurations can be defined and saved for future use through the ‘Configs’ page. It's useful to create one configuration for a project, which can then used on all exports related to that project. Give the configuration a ‘name’ and ‘description’ that will make it discoverable by other users. Unchecking the ‘Public’ checkbox will make the configuration visible to only the user. 
 
@@ -261,8 +261,8 @@ For further detailed information regarding feature selections and YAML, please v
 [export-tool-describe]: /images/osm-data/export-tool-describe.png
 [export-tool-search]: /images/osm-data/export-tool-search.png
 [export-tool-coordinates]: /images/osm-data/export-tool-coordinates.png
-[export-tool-area-bbox]: /images/osm-data/export-area-bbox.png
-[export-tool-area-draw  ]: /images/osm-data/export-area-draw.png
+[export-tool-area-bbox]: /images/osm-data/export-tool-area-bbox.png
+[export-tool-area-draw]: /images/osm-data/export-tool-area-draw.png
 [export-tool-area-view]: /images/osm-data/export-tool-area-view.png
 [export-tool-area-import1]: /images/osm-data/export-tool-area-import1.png
 [export-tool-geojson-io]: /images/osm-data/export-tool-geojson-io.png
@@ -272,12 +272,12 @@ For further detailed information regarding feature selections and YAML, please v
 [export-tool-file-formats]: /images/osm-data/export-tool-file-formats.png
 [export-tool-shapefile]: /images/osm-data/export-tool-shapefile.png
 [export-tool-sql]: /images/osm-data/export-tool-sql.png
-[export-tool-garmin]: /images/osm-data/export-tool-garmin.png
-[export-tool-google-earth]: /images/osm-data/export-tool-google-earth.png
+[export-tool-garmin]: /images/osm-data/export-tool-garmin.jpg
+[export-tool-google-earth]: /images/osm-data/export-tool-google-earth.jpg
 [export-tool-xml-code]: /images/osm-data/export-tool-xml-code.png
 [export-tool-mapsme]: /images/osm-data/export-tool-mapsme.png
 [export-tool-osmand]: /images/osm-data/export-tool-osmand.png
-[export-tool-mbtiles]: /images/osm-data/export-tool-mbtiles.png
+[export-tool-mbtiles]: /images/osm-data/export-tool-mbtiles.jpg
 [export-tool-treetag-tab]: /images/osm-data/export-tool-treetag-tab.png
 [export-tool-yaml-tab]: /images/osm-data/export-tool-yaml-tab.png
 [export-tool-treetag-sql]: /images/osm-data/export-tool-treetag-sql.png
