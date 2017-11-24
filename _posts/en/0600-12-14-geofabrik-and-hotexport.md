@@ -12,12 +12,12 @@ Using Geofabrik and HOT Export
 > This guide may be downloaded as [Geofabrik_and_HOT_Export_en.odt](/files/Geofabrik_and_HOT_Export_en.odt) or [Geofabrik_and_HOT_Export_en.pdf](/files/Geofabrik_and_HOT_Export_en.pdf)  
 > Reviewed 2016-09-05  
 
-After learning how to add and edit data in OpenStreetMap (OSM), now maybe you would like to obtain the data as a backup or to process it using Geographic Information System software that is Open Source, such as Quantum GIS ([www.qgis.org](http://www.google.com/url?q=http%3A%2F%2Fwww.qgis.org%2F&sa=D&sntz=1&usg=AFQjCNFCIP2pVPi5ohw-5H7tJ4CzApRQlg)).  
+After learning how to add and edit data in OpenStreetMap (OSM), now maybe you would like to obtain the data as a backup or to process it using Geographic Information System software that is Open Source, such as Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
 
 Getting OSM Data on Geofabrik Website
 -------------------------------------
 
-The OSM data can be obtained easily by downloading it from [http://download.geofabrik.de/openstreetmap/](http://www.google.com/url?q=http%3A%2F%2Fdownload.geofabrik.de%2Fopenstreetmap%2F&sa=D&sntz=1&usg=AFQjCNGtPxBJsD_G-JOi6U5hWJSqey8KCw)
+The OSM data can be obtained easily by downloading it from [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
 
 ![download-geofabrik][]
 
@@ -36,7 +36,7 @@ You can check the last time data was updated. Please note, the server usually up
 Getting OSM Data on HOT Export Tool Website
 --------------------------------------
 
-The [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) has created an online service that allows users to create custom OSM extracts anywhere in the world, by selecting an area of interest, map features and file formats. Within minutes, up-to-date OSM data is exported, filtered and converted. The following section  will guide you on how to use the Export Tool. This information can also be found through the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section at export.hotosm.org.
+The [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) has created an online service that allows users to create custom OSM extracts anywhere in the world, by selecting an area of interest, map features and file formats. Within minutes, up-to-date OSM data is exported, filtered and converted. The following section will guide you on how to use the Export Tool. This information can also be found through the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section at export.hotosm.org.
 
 ![hot-export-tool][]
 
@@ -44,7 +44,7 @@ The [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) has created
 
 Anyone can create a custom OpenStreetMap export with the Export Tool - just register an account. You can register with an OpenStreetMap account from openstreetmap.org, and a valid email address, which will be used to send a link to your export once it is complete.
 
-##Identify Area of Interest**
+##Identify Area of Interest
 
 There are multiple ways an Area of Interest (AOI) can be selected through the Export Tool. This includes the ability to type and search, specify the coordinates of a bounding box, draw a bounding box, free draw a polygon, use the current view or upload a geojson file.
 
@@ -55,14 +55,14 @@ Once you are ‘Logged In’ to the HOT Export Tool, the ‘Create’ tab will b
 ![export-tool-describe][]
 
 ###Search Bar
-There are 6 ways to define an AOI for your export. The first and second, use the search bar, which can either find a place by typing in its name and selecting it from the options below, or by defining the bounding box coordinates. The minimum X, minimum Y, maximum X and maximum Y (West, South, East, North) coordinates of a country can be found in a CSV list provided by the Humanitarian Data Exchange (HDX).
+There are 6 ways to define an AOI for your export. The first and second use the search bar, which can either find a place by typing in its name and selecting it from the options below, or by defining the bounding box coordinates. The minimum X, minimum Y, maximum X and maximum Y (West, South, East, North) coordinates of a country can be found [in a CSV list provided by the Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
 
 ![export-tool-search][]
 ![export-tool-coordinates][]
 
 
 ###Digitise 
-The third and fourth way that an AOI can be selected in the Export Tool, is by either drawing a bounding box by selecting the ‘Box’ option from the column of Tools on the right of the screen. Or you can free draw a polygon directly on the map by selecting the ‘Draw’ tool.
+The third and fourth way that an AOI can be selected in the Export Tool, is by either drawing a bounding box by selecting the ‘Box’ option from the column of tools on the right of the screen. Or you can free draw a polygon directly on the map by selecting the ‘Draw’ tool.
 
 ![export-tool-area-bbox][]
 ![export-tool-area-draw][]
@@ -81,7 +81,7 @@ The imported polygon must be a GeoJSON file in WGS84 geographic coordinates. One
 ![export-tool-geojson-edit1][]
 
 
-The GeoJSON file needs to be edited slightly in order for it to be accepted by the Export Tool. Please note that the file can not be multipolygons. In the most simplest form, the file only needs to state that it is a “type”: “Polygon” and list the coordinates of the points/nodes that identify the area. The GeoJSON file will then successfully be parsed by the tool and used to specify the AOI.
+The GeoJSON file needs to be edited slightly in order for it to be accepted by the Export Tool. Please note that the file can not be multipolygons. In the simplest form the file only needs to state that it is a “type: Polygon” and list the coordinates of the points/nodes that identify the area. The GeoJSON file will then successfully be parsed by the tool and used to specify the AOI.
 
 ![export-tool-geojson-edit2][]
 ![export-tool-area-import2][]
@@ -91,31 +91,31 @@ The GeoJSON file needs to be edited slightly in order for it to be accepted by t
 
 The tool allows OSM data to be extracted through the Overpass API in its native Protocol Buffer Binary (PBF) file format, before filtering the data for the map features and associated tags specified by the user. Once the data has been filtered it is then converted into the file formats chosen by the user.  
 
-Currently the tool has can convert OSM data into Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf, and MBTiles .mbtiles. At least one of the file formats must be selected to create the export, but there is no restriction as to how many can be chosen, which can be done by ticking multiple boxes.
+Currently the tool can convert OSM data into Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf, and MBTiles .mbtiles. At least one of the file formats must be selected to create the export, but there is no restriction as to how many can be chosen, which can be done by ticking multiple boxes.
 
 ![export-tool-file-formats][]
 
 
 ###Shapefile .shp
-Shapefiles are a tabular format developed by Esri. They are the most popular file format for GIS data. A shapefile is actually 3-4 individual files, commonly bundled together as a ZIP archive. Shapefiles doe have certain limitations, such as the file size, capping at 2 gigabytes (GB) and a column name length limit of 10 characters. Read more about [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) in the Learn section.
+Shapefiles are a tabular format developed by Esri. They are the most popular file format for GIS data. A shapefile is actually 3-4 individual files, commonly bundled together as a ZIP archive. Shapefiles do have certain limitations, such as the file size, capping at 2 gigabytes (GB) and a column name length limit of 10 characters. Read more about [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) in the Learn section.
 
 ![export-tool-shapefile][]
 
 
 ###Geopackage .gpkg
-OGC Geopackages store geospatial data in a single SQLite database. Geopackages are very similar to Spatialite-enabled SQLite databases. They should be usable in most major GIS applications. Geopackages support practically unlimited file sizes and numbers of columns in tables, and have full support for Unicode. They're especially ideal if you need to run SQL queries over the data. Read more about [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) in the Learn section.
+OGC Geopackages store geospatial data in a single SQLite database. Geopackages are very similar to Spatialite-enabled SQLite databases. They should be usable in most major GIS applications. Geopackages support practically unlimited file sizes and numbers of columns in tables, and have full support for Unicode. They are especially ideal if you need to run SQL queries over the data. Read more about [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) in the Learn section.
 
 ![export-tool-sql][]
 
 
 ###Garmin .img
-A .IMG file contains all information needed to render a map onto a Garmin GPS mobile device. Please note, that the cartographic .img style and feature choices of the map are not dependent on the feature selection submitted to the Export Tool - instead, a default style based on all OSM data is used. Read more about [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) in the Learn section.
+A .IMG file contains all information needed to render a map onto a Garmin GPS mobile device. Please note that the cartographic .img style and feature choices of the map are not dependent on the feature selection submitted to the Export Tool - instead, a default style based on all OSM data is used. Read more about [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) in the Learn section.
 
 ![export-tool-garmin][]
 
 
 ###Google Earth .kml
-The Keyhole Markup Language (KML) is an XML-based format for modeling points, lines, polygons and associated attributes geographically. Google Earth is the most widely known earther browsing platforms using KML, which is also the reason why it was developed. Read more about [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) in the Learn section.
+The Keyhole Markup Language (KML) is an XML-based format for modeling points, lines, polygons and associated attributes geographically. Google Earth is the most widely known earth view browsing platform using KML, which is also the reason why it was developed. Read more about [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) in the Learn section.
 
 ![export-tool-google-earth][]
 
@@ -129,7 +129,7 @@ The canonical data format of OSM is an XML document of nodes, ways and relations
 ###MAPS.ME .mwm
 Maps.me is a GPS Navigation and map application for Android and iOS smartphones and tablets, notably supporting offline mapping and navigation. Read more about [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) in the Learn section. To use a custom export with Maps.me on Android, please follow these steps:
 Open Maps.me and navigate to your region of interest
-Accept Maps.me's prompt and download the proffered region
+Accept Maps.me's prompt and download the offered region
 Force close Maps.me
 Create an MWM export
 Download the export, unzip it, and copy the .mwm file to your device
@@ -257,39 +257,39 @@ For further detailed information regarding feature selections and YAML, please v
 [geofabrik-asia]: /images/osm-data/geofabrik-asia.png
 [geofabrik-indonesia]: /images/osm-data/geofabrik-indonesia.png
 [hot-export-tool]: /images/osm-data/hot-export-tool.png
-[hot-export-tool]: /images/osm-data/export-tool-create.png
-[hot-export-tool]: /images/osm-data/export-tool-describe.png
-[hot-export-tool]: /images/osm-data/export-tool-search.png
-[hot-export-tool]: /images/osm-data/export-tool-coordinates.png
-[hot-export-tool]: /images/osm-data/export-area-bbox.png
-[hot-export-tool]: /images/osm-data/export-area-draw.png
-[hot-export-tool]: /images/osm-data/export-tool-area-view.png
-[hot-export-tool]: /images/osm-data/export-tool-area-import1.png
-[hot-export-tool]: /images/osm-data/export-tool-geojson-io.png
-[hot-export-tool]: /images/osm-data/export-tool-geojson-edit1.png
-[hot-export-tool]: /images/osm-data/export-tool-geojson-edit2.png
-[hot-export-tool]: /images/osm-data/export-tool-area-import2.png
-[hot-export-tool]: /images/osm-data/export-tool-file-formats.png
-[hot-export-tool]: /images/osm-data/export-tool-shapefile.png
-[hot-export-tool]: /images/osm-data/export-tool-sql.png
-[hot-export-tool]: /images/osm-data/export-tool-garmin.png
-[hot-export-tool]: /images/osm-data/export-tool-google-earth.png
-[hot-export-tool]: /images/osm-data/export-tool-xml-code.png
-[hot-export-tool]: /images/osm-data/export-tool-mapsme.png
-[hot-export-tool]: /images/osm-data/export-tool-osmand.png
-[hot-export-tool]: /images/osm-data/export-tool-mbtiles.png
-[hot-export-tool]: /images/osm-data/export-tool-treetag-tab.png
-[hot-export-tool]: /images/osm-data/export-tool-yaml-tab.png
-[hot-export-tool]: /images/osm-data/export-tool-treetag-sql.png
-[hot-export-tool]: /images/osm-data/export-tool-treetag-spreadsheet.png
-[hot-export-tool]: /images/osm-data/export-tool-treetag-yaml.png
-[hot-export-tool]: /images/osm-data/export-tool-yaml-code1.png
-[hot-export-tool]: /images/osm-data/export-tool-yaml-code2.png
-[hot-export-tool]: /images/osm-data/export-tool-yaml-code3.png
-[hot-export-tool]: /images/osm-data/export-tool-yaml-code4.png
-[hot-export-tool]: /images/osm-data/export-tool-load-preset.png
-[hot-export-tool]: /images/osm-data/export-tool-configuration-saved.png
-[hot-export-tool]: /images/osm-data/export-tool-configuration-stored.png
+[export-tool-create]: /images/osm-data/export-tool-create.png
+[export-tool-describe]: /images/osm-data/export-tool-describe.png
+[export-tool-search]: /images/osm-data/export-tool-search.png
+[export-tool-coordinates]: /images/osm-data/export-tool-coordinates.png
+[export-tool-area-bbox]: /images/osm-data/export-area-bbox.png
+[export-tool-area-draw  ]: /images/osm-data/export-area-draw.png
+[export-tool-area-view]: /images/osm-data/export-tool-area-view.png
+[export-tool-area-import1]: /images/osm-data/export-tool-area-import1.png
+[export-tool-geojson-io]: /images/osm-data/export-tool-geojson-io.png
+[export-tool-geojson-edit1]: /images/osm-data/export-tool-geojson-edit1.png
+[export-tool-geojson-edit2]: /images/osm-data/export-tool-geojson-edit2.png
+[export-tool-area-import2]: /images/osm-data/export-tool-area-import2.png
+[export-tool-file-formats]: /images/osm-data/export-tool-file-formats.png
+[export-tool-shapefile]: /images/osm-data/export-tool-shapefile.png
+[export-tool-sql]: /images/osm-data/export-tool-sql.png
+[export-tool-garmin]: /images/osm-data/export-tool-garmin.png
+[export-tool-google-earth]: /images/osm-data/export-tool-google-earth.png
+[export-tool-xml-code]: /images/osm-data/export-tool-xml-code.png
+[export-tool-mapsme]: /images/osm-data/export-tool-mapsme.png
+[export-tool-osmand]: /images/osm-data/export-tool-osmand.png
+[export-tool-mbtiles]: /images/osm-data/export-tool-mbtiles.png
+[export-tool-treetag-tab]: /images/osm-data/export-tool-treetag-tab.png
+[export-tool-yaml-tab]: /images/osm-data/export-tool-yaml-tab.png
+[export-tool-treetag-sql]: /images/osm-data/export-tool-treetag-sql.png
+[export-tool-treetag-spreadsheet]: /images/osm-data/export-tool-treetag-spreadsheet.png
+[export-tool-treetag-yaml]: /images/osm-data/export-tool-treetag-yaml.png
+[export-tool-yaml-code1]: /images/osm-data/export-tool-yaml-code1.png
+[export-tool-yaml-code2]: /images/osm-data/export-tool-yaml-code2.png
+[export-tool-yaml-code3]: /images/osm-data/export-tool-yaml-code3.png
+[export-tool-yaml-code4]: /images/osm-data/export-tool-yaml-code4.png
+[export-tool-load-preset]: /images/osm-data/export-tool-load-preset.png
+[export-tool-configuration-saved]: /images/osm-data/export-tool-configuration-saved.png
+[export-tool-configuration-stored]: /images/osm-data/export-tool-configuration-stored.png
 
 
 
