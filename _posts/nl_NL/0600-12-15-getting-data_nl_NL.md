@@ -27,25 +27,24 @@ Gegevensextracten downloaden
 
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) biedt iets soortgelijks als Metro Extracts maar voor een andere selectie steden. De gegevens wordne ook wekelijks bijgewerkt.
+[BBBike](http://download.bbbike.org/osm/bbbike/) biedt iets soortgelijks als Metro Extracts maar voor een andere selectie steden. De gegevens worden ook wekelijks bijgewerkt.
 
 >Onthoud dat objecten in OpenStreetMap een onbeperkt aantal "vrije" tags hebben,
 >maar shapefiles hebben attributen die zijn opgeslagen in een begrensd aantal kolommen. Dit betekent
 >dat wanneer gegevens van OSM worden geconverteerd naar shapefiles, zullen alleen de gespecificeerde tags worden
 >opgenomen in de tabel van het shapefile. De hierboven vermelde websites verschaffen shapefiles
 >met een standaard set van algemene tags, maar als u specifieke tags wilt extraheren
->dient u ene van de meer gespecialiseerde services in het volgende gedeelte te gebruiken
+>dient u een van de meer gespecialiseerde services in het volgende gedeelte te gebruiken
 >of te leren hoe  u de gegevens zelf exporteert.
 
 Aangepaste extracten
 -------------------
 
-### HOT Exports  
+### HOT Export Tool  
 
-Het [Humanitarian OpenStreetMap Team](http://hotosm.org) heeft een service gemaakt die gebruikers in staat stelt het gebied te selecteren dat zij willen extraheren, en ook [voorkeuzen van JOSM gebruiken](/en/josm/josm-presets/)
-om aangepaste tags te selecteren die moeten worden opgenomen in het extract. De service is beschikbaar voor alle landen waar HOT werkt, op [export.hotosm.org](http://export.hotosm.org).
+Het [Humanitarian OpenStreetMap Team](https://www.hotosm.org) heeft een online service gemaakt die het gebruikers mogelijk maakt aangepaste extracten uit OSM te maken, overal ter wereld, door een gebied, kaartobjecten en bestandsindelingen  te selecteren. De service is beschikbaar op [export.hotosm.org](https://export.hotosm.org/en/v3). Binnen minuten worden bijgewerkte gegevens van OpenStreetMap (OSM) geëxporteerd, gefilterd en geconverteerd. Gebieden (AOI) kunnen worden geselecteerd door middel van zoeken, coördinaten van begrenzingsvakken, het tekenen van een vak, vrij tekenen, met behulp van de weergave of het importeren van een GeoJSON-bestand. Huidige bestandsindelingen bevatten Shapefile (.shp), GeoPackage (.gpkg), Garmin (.img), Google Earth (.kml), OSM (.pbf), MAPS.ME (.mwm), OsmAnd (.obf) en MBTiles (.mbtiles). Kaartobjecten en specifieke tags kunnen ofwel worden geselecteerd in de boom met tags of door enige code voor YAML te configureren. Bekijk, om meer te weten te komen, het gedeelte ‘[Learn](https://export.hotosm.org/en/v3/learn)’ op export.hotosm.org.
 
-![hot exports][]
+![hot-export-tool][]
 
 ### BBBike  
 
@@ -86,7 +85,7 @@ url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$
 wget -O $file "$url"
 ```
 >Wat gebeurt hier (voor de nieuwsgierigen die niet de volledige documentatie van de querytaal willen lezen)?  
->node(...) selecteert alle knopen binnen ene begrenzingsvak;  
+>node(...) selecteert alle knopen binnen een begrenzingsvak;  
 >< herhaalt zich volledig, d.i. selecteert alle wegen die deze knopen bevatten en alle relaties die deze knopen en wegen bevatten;  
 >rel(br) selecteert alle ouder-relaties van de tot dusverre verkregen relaties (anders zouden master-relaties niet worden verkregen)
 >
@@ -99,5 +98,5 @@ Overzicht
 De in dit hoofdstuk vermelde services zijn alles wat de gemiddelde gebruiker nodig heeft om de gegevens van OSM te verkrijgen die hij wil en om er mee te  kunnen werken in software voor GIS. U wilt echter misschien meer leren over meer krachtige manieren om zelf met de gegevens te werken. De resterende hoofdstukken in dit gedeelte zijn nogal technisch, maar laten meer geavanceerde methoden zien voor het manipuleren en toegang krijgen tot gegevens van OSM.  
 
 
-[hot exports]: /images/osm-data/hot-exports.png
+[hot-export-tool]: /images/osm-data/hot-export-tool.png
 [overpass turbo]: /images/osm-data/overpass_turbo.png

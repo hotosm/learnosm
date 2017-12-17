@@ -91,6 +91,19 @@
 	   "url":""}
 	]
 },{
+	"lang":"hu",
+	"chapters":[
+	  {% for post in site.posts %}
+	  {% if post.lang == 'hu' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},{
 	"lang":"it",
 	"chapters":[
 	  {% for post in site.posts %}

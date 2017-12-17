@@ -40,12 +40,11 @@ Datenauszüge herunterladen
 Angepasste Auszüge
 -------------------
 
-### HOT Exports  
+### HOT Export  
 
-Das [Humanitarian OpenStreetMap Team](http://hotosm.org) hat einen Dienst erstellt, der Benutzern erlaubt ein Gebiet auszuwählen und zu extrahieren und zugleich [JOSM Presets](/en/josm/josm-presets/) anzuwenden
-angepasste Tags auszuwählen, welche im Auszug enthalten sein sollen. Der Dienst ist in allen Ländern in denen HOT verfügbar ist auch verfügbar unter [export.hotosm.org](http://export.hotosm.org).
+Das  [Humanitarian OpenStreetMap Team](https://www.hotosm.org) stellt einen Online-Dienst bereit, der es erlaubt, Abzüge von OSM-Daten von einem beliebigen Gebiet, mit wählbarem Inhalt und in verschiedenen Formaten zu erzeugen. Der Dienst steht unter [export.hotosm.org](https://export.hotosm.org/en/v3) zur Verfügung. Die Zusammenstellung, Filterung und Konversion der OpenStreetMap(OSM)-Daten dauert nur wenige Minuten. Das gewünschte Gebiet (AOI) kann durch Namenssuche, Koordinaten des umschließenden Rechtecks, Zeichnen eines Rechtecks, Zeichnen einer beliebigen Kontur, Benutzen der aktuellen Ansicht oder den Import einer GeoJSON-Datei definiert werden. Die verfügbaren Ausgabeformate sind Shapefile (.shp), GeoPackage (.gpkg), Garmin (.img), Google Earth (.kml), OSM (.pbf), MAPS.ME (.mwm), OsmAnd (.obf) und MBTiles (.mbtiles). Die gewünschten Elemente und Attribute können entweder aus einer Baumansicht ausgewählt oder durch einen YAML-Datei definiert werden. Nähere Informationen dazu befinden sich in der ‘[Hilfe](https://export.hotosm.org/en/v3/learn)’ zu export.hotosm.org.
 
-![hot exports][]
+![hot-export-tool][]
 
 ### BBBike  
 
@@ -99,5 +98,5 @@ Zusammenfassung
 Alle in diesem Kapitel erwähnten Dienste können vom durchschnittliche Benutzer benötigt werden, um an die gewünschten OSM Daten zu kommen und damit in GIS Software zu arbeiten. Vielleicht möchte man aber auch mächtigere Arbeitswege um selbst mit den Daten zu arbeiten kennen lernen. Die verbleibenden Kapitel in diesem Abschnitt sind etwas technisch, zeigen aber fortgeschrittene Methoden zur Bearbeitung und für den Zugriff auf OSM Daten.  
 
 
-[hot exports]: /images/osm-data/hot-exports.png
+[hot-export-tool]: /images/osm-data/hot-export-tool.png
 [overpass turbo]: /images/osm-data/overpass_turbo.png

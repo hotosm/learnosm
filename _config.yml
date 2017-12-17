@@ -104,6 +104,17 @@ translations:
     language: "Français"
     quickaccess: "Accès rapide"
     returntotop: "Retourner en haut de la page"
+  hu:
+    tagline: "Az OpenStreetMap megtanulása lépésről lépésre"
+    contribute: "Segíts az útmutatók javításában"
+    trainingspan: "Tanfolyamot szervezel?"
+    training: "Nézd meg az ehhez az útmutatóhoz tartozó képzési anyagot (angol)"
+    feedbackspan: "Hasznos volt-e ez a fejezet?"
+    feedback: "Írd meg az észrevételeid, és segíts, hogy tovább javíthassuk az útmutatókat!"
+    getstarted: "Kezdés"
+    language: "Magyar"
+    quickaccess: "Gyors elérés"
+    returntotop: "Vissza az oldal tetejére"
   it:
     tagline: "Impara ad usare OpenStreetMap passo dopo passo"
     contribute: "Aiutaci a migliorare le nostre guide"
