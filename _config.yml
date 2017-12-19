@@ -126,6 +126,17 @@ translations:
     language: "Italiano"
     quickaccess: "Accesso veloce"
     returntotop: "Ritorna ad inizio pagina"
+  ja:
+    tagline: "はじめてからのOpenStreetMapガイド"
+    contribute: "ガイドの拡充にご協力ください"
+    trainingspan: "ワークショップ開催を検討されるかたへ"
+    training: "このガイドの研修教材をチェック(英語)"
+    feedbackspan: "この章は役に立ちましたか？"
+    feedback: "ガイドの改善にご意見ください"
+    getstarted: "次の章に進む"
+    language: "日本語"
+    quickaccess: "Quick access"
+    returntotop: "Return to top of page"
   my:
     tagline: "OpenStreetMap အားတစ်ဆင့်ပြီးတစ်ဆင့်လေ့လာခြင်း"
     contribute: "ကျွန်ုပ်တို့၏လမ်းညွှန်မှုများတိုးတက်အောင်ကူညီပါ။"
