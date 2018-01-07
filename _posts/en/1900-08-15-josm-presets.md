@@ -37,7 +37,7 @@ Presets files can either be added from an online archive, or saved on your compu
 
 ![tagging presets menu][]
 
-* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will 	add the presets named "Buildings Indonesia by Kate Chapman."  
+* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
 
 ![example presets][]
 
@@ -45,11 +45,11 @@ Presets files can either be added from an online archive, or saved on your compu
 * Click OK.  
 * You will need to restart JOSM.  
 * Create a new layer and add a point or shape.  
-* Go to the Presets menu. Click on the item named "Building," which has now been added at the bottom of the menu.  
+* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
 
-![indonesia building form][]
+![additional tags preset[]
 
-* If you don't speak Indonesian, this might be hard to read, but nonetheless you have been successful and added a custom preset menu.  
+* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
 
 * If you have been given a custom presets file, you can add it to the menu in a similar way. Simply return to the Preferences menu, and instead of selecting from the list, click on the (+) button in the upper right.  
 
@@ -61,8 +61,8 @@ Presets files can either be added from an online archive, or saved on your compu
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png
 [tagging presets menu]: /images/josm/tagging-presets-menu.png
-[example presets]: /images/josm/example-presets.png
-[indonesia building form]: /images/josm/indonesia-building-form.png
+[example presets]: /images/josm/example-presets2.png
+[additional tags preset]: /images/josm/new-tags-preset.png
 [plus button]: /images/josm/plus-button.png
 
 

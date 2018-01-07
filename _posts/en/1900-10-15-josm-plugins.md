@@ -38,11 +38,9 @@ Some of our favorite plugins are:
 
 5. **imagery_offset_db:** This plugin lets you cooperate with other mappers who find that the Bing satellite imagery is a little bit misaligned. This issue is covered in more detail in a later chapter.  
 
-6. **mirrored_download:** With this plugin you can download a larger area of OSM data for editing.  
+6. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
 
-7. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
-
-8. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)  
+7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)  
 
 
 
