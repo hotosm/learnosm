@@ -47,7 +47,7 @@ Presets files can either be added from an online archive, or saved on your compu
 * Create a new layer and add a point or shape.  
 * Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
 
-![additional tags preset[]
+![additional tags preset][]
 
 * Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
 
