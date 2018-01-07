@@ -7,61 +7,77 @@ category: josm
 ---
 
 JOSM Vorlagen
-============
+=============
 
-> Diese Anleitung kann heruntergeladen werden als [josm-presets_en.odt](/files/josm-presets_en.odt) oder [josm-presets_en.pdf](/files/josm-presets_en.pdf)  
-> Gereviewt am 2016-09-17  
 
-Wenn man JOSM schon etwas länger verwendet, versteht man etwas von Tags und Vorlagen. Jedes Objekt wird durch zwei Dinge definiert - als erstes durch seine Geometrie (ob es ein Punkt, eine Linie oder ein Umriss ist und sein Standort) und zweitens durch seine Attribute in Form von Tags.  
+Wenn Sie schon länger mit JOSM arbeiten, kennen Sie sich sicher schon etwas mit Eigenschaften und Vorlagen aus. 
+Jedes Objekt wird durch zwei Dinge beschrieben: einmal durch seine Geometrie (handelt es sich um einen Punkt,
+eine Linie, einen geschlossenen Linienzug sowie seine Position), zum anderen durch seine Eigenschaften (englisch: tags).
 
-Wenn man ein Objekt mittels Vorlagenmenü zeichnet, werden die korrekten Tags automatisch dem Objekt zugeordnet.  
+Wenn Sie ein Objekt zeichnen und eine Vorlage aus dem Menü auswählen, werden die passenden Eigenschaften automatisch
+an das Objekt angefügt.
 
-Was passiert, wenn man Tags trotz der Verwendung von Vorlagen hinzufügen möchte, die nicht im Menü enthalten sind oder man eigene Tags anpassen möchte?  
+Was aber, wenn Sie gerne mit Vorlagen arbeiten und Eigenschaften hinzufügen möchten, die im Menü nicht vorhanden sind
+oder wenn Sie die vorhandenen Eigenschaften nach Ihren Wünschen verändern möchten?
 
-In diesem Fall kann man eigene Menüeintrage den Vorlagen hinzufügen. In diesem Abschnitt befassen wir uns damit. Im [folgenden Kapitel](/de/editing/creating-presets) werden wir uns mit dem Erstellen von eigenen Vorlagen befassen.  
+Für diesen Fall können Sie eigene Menüeinträge zu den Vorlagen hinzufügen. In diesem Kapitel zeigen wir Ihnen, 
+wie das geht. Im [nächsten Kapitel](/de/editing/creating-presets), behandeln wir die Erstellung eigener
+Vorlagendateien.
 
 
 Vorlagen hinzufügen
------------
+-------------------
 
-Die Menüs und Untermenüs des Vorlagenmenüs sind in Dateien gespeichert, die beschreiben, wie Menüs und Formulare erstellt werden, wenn man auf eine Vorlage klickt und welche Tags einem Objekt hinzugefügt werden, je nachdem wie das Formular ausgefüllt wird.  
+Die Menüstruktur für die Vorlagen ist in Dateien abgespeichert, die die Anweisungen enthalten, um die Menüs
+und Formulare darzustellen, die Sie sehen, wenn Sie die entsprechende Vorlage auf ein Objekt anwenden. In den
+Dateien ist auch festgelegt, welche Eigenschaften zu dem Objekt hinzugefügt werden, je nachdem, wie das Formular
+ausgefüllt wurde.
 
-Vorlagen können entweder von einer Onlinebibliothek aus oder lokal gespeichert und hinzugefügt werden in JOSM.  
+Sie können Vorlagendateien entweder aus einem Internet-Archiv hinzufügen oder zunächst auf Ihrem Rechner
+abspeichern und dann zu JOSM hinzufügen.
 
-* Um einen neuen Eintrag dem Vorlagenmenu hinzuzufügen, öffnet man JOSM und geht zu Bearbeiten->Einstellungen.  
-* Man klickt auf das dritte Tab, das wie ein Gitter über einem Planeten aussieht.  
+-	Um einen neuen Eintrag zum Vorlagenmenü hinzuzufügen wählen Sie in der JOSM-Menüzeile 
+	Bearbeiten->Einstellungen aus.
+-	Klicken Sie auf das dritte Icon von oben, das wie ein Gitternetz über der Weltkugel aussieht.
 
-![tagging presets tab][]
+	![tagging presets tab][]
 
-* Oben klickt man auf "Tagging Vorlagen".  
+-	Wählen Sie dann den Reiter "Objektvorlagen".
 
-![tagging presets menu][]
+	![tagging presets menu][]
 
-* Man fügt eine Vorlage aus dem Internet hinzu durch Auswahl in der Liste 	zur Linken und durch klicken auf den blauen Pfeil. In diesem Beispiel 	fügen wir die Vorlage "Buildings Indonesia by Kate Chapman" hinzu.  
+-	Aus der linken Liste können Sie Vorlagen aus dem Internet auswählen. Klicken Sie dann auf den blauen Pfeil. 
+	Für dieses Beispiel nehmen wir die Vorlage "Towers von Jens Windbladh".
 
-![example presets][]
+	![example presets][]
 
-* Man sieht einen neuen Eintrag erscheinen in der Liste auf der rechten Seite.  
-* Man klickt OK.  
-* Man startet JOSM neu.  
-* Man erstellt einen neuen Layer und fügt einen Punkt oder Umriss hinzu.  
-* Man geht ins Vorlagenmenü. Man klickt auf den Eintrag "Building", welches am Ende des Menüs hinzugefügt wurde.  
+-	Die Vorlage erscheint in der rechten Liste.
+-	Klicken Sie auf OK.
+-	Jetzt werden Sie gefragt, ob JOSM neu gestartet werden soll. Das ist bei einer Änderung der Menüstruktur
+	erforderlich, bestätigen Sie also die Frage.
+-	Legen Sie eine neue Ebene an und zeichnen Sie einen Punkt.
+-	Wählen Sie im Vorlagen-Menü aus dem Untermenü "Turm" eine der möglichen Varianten.
 
-![indonesia building form][]
+	![tower preset][]
 
-* Falls man kein indonesisch spricht, wird es schwer zu lesen sein, aber man hat trotzdem erfolgreich ein eigenes Vorlagenmenü hinzugefügt.  
+-	Es erscheint das entsprechende Formular, in dem Sie weitere Eigenschaften des Turms, etwa den Namen,
+	festlegen können.
 
-* Falls man eine angepasste Vorlagendatei bekommen hat, kann man es auf ähnlichem Weg dem Menü hinzufügen. Man kehrt zurück zum Einstellungen Menü und anstatt dass man etwas in der Liste auswählt, klickt man auf den (+) Button oben rechts.  
+-	Wenn Sie eine Vorlagendatei erhalten haben, können Sie sie so zum Menü hinzufügen:
+	Unter den Einstellungen zu den Objektvorlagen wählen Sie in diesem Fall nichts aus der Liste, 
+	sondern klicken auf (+) oben rechts.
 
-![plus button][]
+	![plus button][]
 
-* Man sucht die Datei und gibt ihr gegebenenfalls einen Namen.  
-* Man klickt OK.  
+-	Mit dem Knopf rechts der zweiten Zeile navigieren Sie zu Ihrer Datei, in der ersten Zeile können Sie noch
+	einen Namen für die Vorlage vergeben.
+-	Klicken Sie auf OK.
 
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png
-[tagging presets menu]: /images/josm/tagging-presets-menu.png
-[example presets]: /images/josm/example-presets.png
-[indonesia building form]: /images/josm/indonesia-building-form.png
+[tagging presets menu]: /images/josm/tagging-presets-menu.de.png
+[example presets]: /images/josm/example-presets.de.png
+[tower preset]: /images/josm/tower-preset.de.png
 [plus button]: /images/josm/plus-button.png
+
 
