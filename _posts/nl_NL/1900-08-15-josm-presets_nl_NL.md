@@ -37,7 +37,7 @@ Bestanden voor voorkeuzen kunnen ofwel worden toegevoegd vanuit een archief onli
 
 ![tagging presets menu][]
 
-* Voeg een bestand voor voorkeuzen toe vanaf het internet door er een te selecteren uit de lijst aan de linkerkant, en te klikken op de blauwe pijl. In dit voorbeeld zullen we de voorkeuze genaamd "Buildings Indonesia door Kate Chapman" toevoegen.  
+* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
 
 ![example presets][]
 
@@ -45,11 +45,11 @@ Bestanden voor voorkeuzen kunnen ofwel worden toegevoegd vanuit een archief onli
 * Klik op OK.  
 * U dient JOSM opnieuw op te starten.  
 * Maak een nieuwe laag en voeg een punt of vorm toe.  
-* Ga naar het menu Voorkeuzen. Klik op het item genaamd "Building," dat nu aan de onderzijde van het menu is toegevoegd.  
+* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
 
-![indonesia building form][]
+![additional tags preset][]
 
-* Als u geen Indonesisch spreekt is dit misschien moeilijk te lezen, maar niettegenstaande dat heeft u succes gehad en heeft u een aangepast menu voor voorkeuzen toegevoegd.  
+* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
 
 * Als u een aangepast bestand voor voorkeuzen hebt ontvangen, kunt u het op een soortgelijke manier toevoegen aan het menu. Ga eenvoudigweg terug naar het menu Voorkeuzen en, in plaats van te selecteren uit de lijst, klik op de knop (+) rechtsboven.  
 
@@ -61,7 +61,7 @@ Bestanden voor voorkeuzen kunnen ofwel worden toegevoegd vanuit een archief onli
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png
 [tagging presets menu]: /images/josm/tagging-presets-menu.png
-[example presets]: /images/josm/example-presets.png
-[indonesia building form]: /images/josm/indonesia-building-form.png
+[example presets]: /images/josm/example-presets2.png
+[additional tags preset]: /images/josm/new-tags-preset.png
 [plus button]: /images/josm/plus-button.png
 

@@ -28,7 +28,7 @@ Ga, elke keer als u een nieuwe plug-in wilt installeren, naar **Bewerken \> Voor
 
 Enkele van onze favoriete plug-ins zijn:
 
-1. **[buildings_tools](nl_NL/josm/josm-more-plugins/):** Als u veel gebouwen tekent zal dit dat proces sneller en eenvoudiger maken  
+1. **[buildings_tools](/nl_NL/josm/josm-more-plugins/#the-buildings-tools-plugin):** Als u veel gebouwen tekent zal dit dat proces sneller en eenvoudiger maken  
 
 2.  **DirectUpload:** Als u veel GPS-sporen verzamelt en ze zou willen opslaan in de database van OSM maakt deze plug-in dat eenvoudig.  
 
@@ -38,11 +38,9 @@ Enkele van onze favoriete plug-ins zijn:
 
 5. **imagery_offset_db:** Deze plug-in laat u samenwerken met andere mappers die vinden dat de satellietafbeeldingen van Bing enigszins verschoven zijn. Dit probleem wordt meer in detail behandeld in een later hoofdstuk.  
 
-6. **mirrored_download:** Met deze plug-in kunt u een groter gebied met gegevens van OSM downloaden om te bewerken.  
+6. **print:** Voegt een functie Afdrukken toe, voor het geval u snel een gebied wilt afdrukken, maar als dat het er niet bijzonder netjes hoeft uit te zien.  
 
-7. **print:** Voegt een functie Afdrukken toe, voor het geval u snel een gebied wilt afdrukken, maar dat het er niet bijzonder netjes hoeft uit te zien.  
-
-8. **[utilsplugin2](nl_NL/josm/josm-more-plugins/):** Voegt vele aanvullende gereedschappen en menu's toe aan JOSM voor gevorderde gebruikers. Dit wordt meer in detail behandeld in het [volgende hoofdstuk](/nl_NL/josm/josm-more-plugins)  
+7. **[utilsplugin2](/nl_NL/josm/josm-more-plugins/#more-selection-tools):** Voegt vele aanvullende gereedschappen en menu's toe aan JOSM voor gevorderde gebruikers. Dit wordt meer in detail behandeld in het [volgende hoofdstuk](/nl_NL/josm/josm-more-plugins)  
 
 
 
