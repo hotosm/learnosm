@@ -110,7 +110,7 @@ The next bit of our command says *--nkv keyValueList="amenity.school"*. You migh
 
       --nkv keyValueList="amenity.school"
 
-Lastly, we supply the name and format of the output file. We use the flag **-wx**, which is shorthand for **--write-xml**. Note that we could also use **--wbf**, which is the counterpart to **--rbf**, if we wanted to output the data again in PBF format.  
+Lastly, we supply the name and format of the output file. We use the flag **-wx**, which is shorthand for **--write-xml**. Note that we could also use **--wb**, which is the counterpart to **--rbf**, if we wanted to output the data again in PBF format.  
 
       --wx schools.osm
 
