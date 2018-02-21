@@ -203,6 +203,17 @@ translations:
     language: "Shqip"
     quickaccess: "Qasje e shpejtë"
     returntotop: "Kthehuni në krye të faqes"
+  vi:
+    tagline: "Từng bước học OpenStreetMap"
+    contribute: "Giúp chúng tôi cải thiện những hướng dẫn này"
+    trainingspan: "Bạn có phải là người tổ chức các hội thảo?"
+    training: "Kiểm tra các tài liệu tập huấn với hướng dẫn này"
+    feedbackspan: "Chương này có bổ ích hay không?"
+    feedback: "Hãy cho chúng tôi biết và giúp chúng tôi cỉa thiện những hướng dẫn này!"
+    getstarted: "Hãy bắt đầu"
+    language: "Tiếng Việt"
+    quickaccess: "Truy cập nhanh"
+    returntotop: "Quay về đầu trang"
   zh_CN:
     tagline: "逐步学习OpenStreetMap"
     contribute: "帮助改进我们的指南"

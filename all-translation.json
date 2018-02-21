@@ -247,6 +247,19 @@
 	   "url":""}
 	]
 },{
+	"lang":"vi",
+	"chapters":[
+	  {% for post in site.posts %}
+	  {% if post.lang == 'vi' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},{
 	"lang":"zh_CN",
 		"chapters":[
 	  {% for post in site.posts %}
