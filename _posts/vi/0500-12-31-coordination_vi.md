@@ -12,7 +12,7 @@ nosearch: true
 Phối hợp hoạt động
 ============
 
-> Hướng dẫn này có thể được tải tại đây [coordination_en.odt](/files/coordination_en.odt) or [coordination_en.pdf](/files/coordination_en.pdf)  
+> Hướng dẫn này có thể được tải tại đây [coordination_vi.odt](/files/coordination_vi.odt) or [coordination_vi.pdf](/files/coordination_vi.pdf)  
 > Reviewed 2015-09-18
 
 Bởi vì OpenStreetMap liên quan đến nhiều người lập bản đồ với nhau.
