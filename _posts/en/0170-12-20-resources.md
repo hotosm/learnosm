@@ -21,6 +21,7 @@ This is a commented list of pointers to other websites which we consider useful.
 ### iD
 
   * [iD's integrated tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) An interactive tutorial on using iD as part of the software
+  * [presentation slides covering the contents of our guide](/files/iD-editor-training.pptx) good material if you would like to give an introduction about iD e.g. at a mapathon
   * [HOT Video Tutorials](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) A collection of instructive videos mostly centered around mapping with iD and JOSM
   * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Some very short videos explaining how to accomplish common tasks
   * [Video lessons on OpenStreetMap data](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) lecture-like presentation of various aspects covering tags, layers, relations
