@@ -21,21 +21,27 @@ layout: default
           {% if page.otherguides %}
             <span>{{ page.otherguides }}</span>
           {% else %}
-            <span>Other guides</span>
+            {% if site.translations[page.lang].otherguides %}
+              <span>{{site.translations[page.lang].otherguides}}</span>
+            {% else %}
+              <span>Other guides</span>
+            {% endif %}
           {% endif %}
         </a>
       </li>
 
-      {% for post in site.posts %}
-        {% if post.lang == page.lang %}{% unless post.hidden %}
-        {% if post.cover %}{% unless post.category == page.category %}
-          <li class='doc rounded'>
-            <a class='title' href="{{site.baseurl}}{{ post.url }}">
-              <span>{{ post.title }}</span>
-            </a>
-          </li>
-        {% endunless %}{% endif %}
-        {% endunless %}{% endif %}
+      {% for category in site.priorities %}
+        {% for post in site.categories[category] %}
+          {% if post.lang == page.lang %}{% unless post.hidden %}
+          {% if post.cover %}{% unless post.category == page.category %}
+            <li class='doc rounded'>
+              <a class='title' href="{{site.baseurl}}{{ post.url }}">
+                <span>{{ post.title }}</span>
+              </a>
+            </li>
+          {% endunless %}{% endif %}
+          {% endunless %}{% endif %}
+        {% endfor %}
       {% endfor %}
   </ul>
 

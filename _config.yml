@@ -36,6 +36,16 @@ prose:
 gems:
   - jekyll-redirect-from
 
+# ranking of other guides in the navigation bar
+priorities:
+  - beginner
+  - josm
+  - coordination
+  - mobile-mapping
+  - osm-data
+  - hot-tips
+  - resources
+
 #translations
 translations:
   en:
