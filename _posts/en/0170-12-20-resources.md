@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: External Resources
+title: Other Resources
 permalink: /en/resources/
 lang: en
 cover: yes
 category: resources
 ---
 
-# External Resources
+# Other Resources
 
 > Reviewed 2018-02-24
 
