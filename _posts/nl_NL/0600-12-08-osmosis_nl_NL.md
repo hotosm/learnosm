@@ -110,7 +110,7 @@ het volgende gedeelte van onze opdracht zegt *--nkv keyValueList="amenity.school
 
       --nkv keyValueList="amenity.school"
 
-tenslotte geven we de naam en indeling van het uitvoerbestand op. We gebruiken de vlag **-wx**, wat een afkorting is voor **--write-xml**. Onthoud dat we ook **--wbf** zouden kunnen gebruiken, wat het tegenovergestelde is van **--rbf**, als we de uitgevoerde gegevens ook in de indeling PBF zouden willen hebben.  
+tenslotte geven we de naam en indeling van het uitvoerbestand op. We gebruiken de vlag **-wx**, wat een afkorting is voor **--write-xml**. Onthoud dat we ook **--wb** zouden kunnen gebruiken, wat het tegenovergestelde is van **--rbf**, als we de uitgevoerde gegevens ook in de indeling PBF zouden willen hebben.  
 
       --wx schools.osm
 
