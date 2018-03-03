@@ -175,7 +175,7 @@ và bạn có thể học cách sử dụng thêm với [Hướng dẫn sử d�
 Bạn cũng có thể sử dụng trình [tương tác iD editor](http://www.openstreetmap.org/edit?editor=id#walkthrough=true), 
 các thức tương tác tốt nhất để khám phá trình soạn thảo này.
 
-Tuy nhiên, trong phần sau, chúng ta sẽ xem xét đến [JOSM] (/vi/josm/), một ứng dụng độc lập 
+Tuy nhiên, trong phần sau, chúng ta sẽ xem xét đến [JOSM](/vi/josm/), một ứng dụng độc lập 
 cung cấp nhiều tiện ích hơn để chỉnh sửa bản đồ.
 Hãy tự do khám phá cách thức chỉnh sửa bản đồ với iD. 
 Khi bạn đã có nhiều kinh nghiệm hơn trong việc đóng góp vào OSM, bạn có thể lựa chọn trình biên tập bản đồ nào bạn muốn.

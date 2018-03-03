@@ -21,13 +21,9 @@ Scaricare estratti di dati
 
 [GeoFabrik](http://geofabrik.de) è una società specializzata nel lavorare con dati OpenStreetMap. Essi forniscono una varietà di estratti gratuiti in formato shapefile e in formato nativo OSM sul loro [sito download](http://download.geofabrik.de). Il vantaggio di scaricare dati da Geofabrik è che sono aggiornati ogni giorno, ed è facile e affidabile. Lo svantaggio è che i dati sono estratti per nazioni, e non tutte le nazioni sono disponibili. Per "l'Italia" è disponibile il servizio di [Wikimedia Italia](http://osm-estratti.wmflabs.org/estratti/) che fornisce nei formati shapefile, nativo OSM e Spatialite l'aggiornamento quotidiano degli estratti per singole regioni o singoli comuni.  
 
-### Metro Extracts
-
-[Un sito web gestito da Mapzen](https://mapzen.com/data/metro-extracts/) fornisce nei formati shapefiles e nativo OSM gli estratti di città del mondo, estratti settimanalmente. Questo è utile se cerchi estratti di dati di singole città.  
-
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) offre qualcosa di simile ai Metro Extracts ma per una selezione di città differenti. Anche in questo caso i dati vengono aggiornati settimanalmente.
+[BBBike](http://download.bbbike.org/osm/bbbike/) fornisce nei formati shapefiles e nativo OSM gli estratti di città del mondo, estratti settimanalmente. Questo è utile se cerchi estratti di dati di singole città.
 
 >Ricorda che le caratteristiche in OpenStreetMap hanno un numero illimitato di tag "liberi",
 >ma gli shapefiles hanno un numero limitato di colonne dove registrano gli attributi. Ciò significa
@@ -40,10 +36,10 @@ Scaricare estratti di dati
 Estratti personalizzati
 -------------------
 
-### Exports HOT   
+### Esportazioni HOT  
 
-Lo [Humanitarian OpenStreetMap Team](http://hotosm.org) ha creato un servizio che permette agli utenti di selezionare l'area che vogliono estrarre, e usa anche i [Presets JOSM](/en/josm/josm-presets/)
-per personalizzare la selezione dei tag da includere nell'estratto. Il servizio è disponibile in tutti i paesi in cui opera HOT, a [export.hotosm.org](http://export.hotosm.org).
+Lo [Humanitarian OpenStreetMap Team](http://hotosm.org) ha creato un servizio che permette agli utenti di selezionare l'area che vogliono estarre, ed usare anche le [preimpostazioni JOSM](/en/josm/josm-presets/)
+per selezionare i tag utente che devono essere inclusi nell'estrazione. Il servizio è disponibile in tutti i paesi dove opera HOT su [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 

@@ -36,10 +36,10 @@ TẢI XUỐNG DỮ LIỆU ĐƯỢC TRÍCH XUẤT
 CHIẾT XUẤT DỮ LIỆU THEO YÊU CẦU
 -------------------
 
-### HOT Exports  
+### Trích xuất dữ liệu bằng công cụ HOT Exports  
 
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
-to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
+[Nhóm nhân đạo OSM](http://hotosm.org) đã tạo ra một dịch vụ giúp người dùng lựa chọn khu vực mà họ muốn trích xuất dữ liệu, đồng thời sử dụng các [Cài đặt sẵn của JOSM](/vi/josm/josm-presets/)
+đẻ chọn các thẻ tùy chọn được sử dụng trong quá trình trích xuất dữ liệu. Công cụ này có thể được sử dụng tại tất cả các quốc gia mà HOT hoạt động, tại đường dẫn [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 
