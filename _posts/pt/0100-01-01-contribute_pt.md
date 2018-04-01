@@ -2,12 +2,12 @@
 layout: contribute
 permalink: /pt/contribute/
 lang: pt
-title: Contribute
+title: Contribua
 contributetitle: "Ajude a melhorar os nossos guias"
 startwith: "Pronto para começar?"
 startA: "Envie-nos sugestões"
-startB: "Help with translations"
-startC: "Improve Images - in your language!"
+startB: "Criar uma tradução"
+startC: "Melhore as Imagens - na sua língua!"
 startD: "Reportar erros e contribuir"
 nosearch: true
 ---
