@@ -167,6 +167,7 @@ strong {font-weight:700;}
 .doc  ul li,.doc ol li, .doc p { font-family:'Quattrocento',serif; }
 .doc li {margin-left:30px;}
 .doc li a, .doc p a {color: #79bc5f;}
+.doc-nav-secondary li {padding-left:60px;}
 
 small {
   font-size:12px;
@@ -532,6 +533,11 @@ a.license {
     }
     .doc .title span:before {
       content:'▸';
+      margin-right:8px;
+    }
+    .doc-nav-secondary .title span:before {
+      content:'▸';
+      margin-left:25px;
       margin-right:8px;
     }
   .doc .title.cover,
