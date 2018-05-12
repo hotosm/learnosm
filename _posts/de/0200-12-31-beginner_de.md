@@ -21,10 +21,10 @@ Informationen sammelt um sie zur Karte hinzuzufügen.
 Um damit vertraut zu werden und in der Lage zu sein, Kartendaten zu bearbeiten, empfehlen wir Ihnen, diese Anleitungen durchzuarbeiten:
  - die [Einleitung](/de/beginner/introduction/) präsentiert Hintergrundinformationen zu dem Projekt
  - Der [Einstieg](/de/beginner/start-osm/) erklärt Ihnen, wie Sie zu einem Benutzerkonto kommen und wie Sie einen Editor starten
- - Unter [iD Editor](/de/beginner/id-editor)) lernen Sie die Grundlagen der Bearbeitung von Kartendaten
+ - Unter [iD Editor](/de/beginner/id-editor) lernen Sie die Grundlagen der Bearbeitung von Kartendaten
 
 
-### Sie wissen schon, wie man mit einem Editor umgeht und möchten an humanitären Projekten mitarbeiten?
+### Sie wissen schon wie man mit einem Editor umgeht und möchten an humanitären Projekten mitarbeiten?
 
 Das Wichtigste ist, dass Sie wissen wie die Kartierung in diesem Umfeld koordiniert wird.
  - die [Anleitung zur Fernbearbeitung](/de/coordination/HOT-Remote-Response-Guide/) und die allgemeinen Information über [Kartierung für humanitäre Zwecke](/de/coordination/humanitarian/) erklären den Hintergrund
