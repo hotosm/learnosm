@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: JOSM tms, wms or wmts Bilder hinzufügen
+title: JOSM tms, wms oder wmts Bilder hinzufügen
 permalink: /de/josm/josm-adding-imagery/
 lang: de
 category: josm

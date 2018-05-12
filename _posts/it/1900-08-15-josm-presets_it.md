@@ -37,7 +37,7 @@ I file delle preimpostazioni possono essere aggiunti da un archivio online oppur
 
 ![tagging presets menu][]
 
-*Aggiungi un file di menù personalizzato da internet selezionandone uno dalla lista sulla ⇥sinistra, e cliccando sulla freccia blu. In questo esempio, aggiungeremo⇥il file delle preimpostazioni chiamato "Buildings Indonesia by Kate Chapman." Dopo aver provato questo file di preimpostazione ti potrebbe ad esempio interessare il file di preset del "C.A.I. (Club Alpino Italiano)": in tal caso segui le istruzione che trovi a questo [link](http://wiki.openstreetmap.org/wiki/CAI#JOSM_preset).  
+* Aggiungi un file di preimpostazioni scaricato da internet selezionandone uno dalla lista a 	sinistra, e cliccando sulla freccia blu. In questo esempio, aggiungeremo una preimpostazione chiamata “Nuovi tag”  
 
 ![example presets][]
 
@@ -45,11 +45,11 @@ I file delle preimpostazioni possono essere aggiunti da un archivio online oppur
 * Fai click su OK.  
 * Devi riavviare JOSM.  
 * Crea un nuovo livello (layer) e aggiungi un punto o un'area.  
-* Vai al menù Preimpostazioni (preset). Clicca sulla voce chiamata "Building", che è stata ora aggiunta in fondo al menù.  
+* Vai al menù delle preimpostazioni. Vedrai una voce aggiuntiva in fondo che produrrà diverse opzioni non disponibili con l’installazione standard di JOSM.  
 
-![indonesia building form][]
+![additional tags preset][]
 
-* Se non parli indonesiano questo menù ti sarà inutile e potrai eliminarlo, ma almeno hai aggiunto un menù personalizzato (preset) e ora sai come fare per eventuali personalizzazioni che in futuro potrebbero esserti utili per le tue mappature.  
+* Molte preimpostazioni riguardano casi molto specifici, sfoglia la lista per trovarne una che corrisponda ai tuoi interessi.  
 
 * Se ti hanno dato o indicato un file di preimpostazioni personalizzate (preset), tu puoi aggiungerle al menù con lo stesso metodo. Semplicemente torna al menù Preferenze, e invece di selezionarlo dalla lista, clicca sul bottone (+) sulla parte superiore destra.  
 
@@ -61,7 +61,7 @@ I file delle preimpostazioni possono essere aggiunti da un archivio online oppur
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png
 [tagging presets menu]: /images/josm/tagging-presets-menu.png
-[example presets]: /images/josm/example-presets.png
-[indonesia building form]: /images/josm/indonesia-building-form.png
+[example presets]: /images/josm/example-presets2.png
+[additional tags preset]: /images/josm/new-tags-preset.png
 [plus button]: /images/josm/plus-button.png
 
