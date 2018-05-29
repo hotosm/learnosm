@@ -18,7 +18,7 @@ When you draw an object and select from the Presets menu, the correct tags are a
 
 If you like using presets, what happens when you want to add tags that are not contained in the menu, or when you want to customize your own tags?  
 
-In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/editing/creating-presets), we will cover how to create custom presets files of your own.  
+In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
 
 
 Add Presets
