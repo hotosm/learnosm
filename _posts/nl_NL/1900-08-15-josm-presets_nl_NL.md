@@ -18,7 +18,7 @@ Wanneer u een object tekent en selecteert uit het menu Voorkeuzen, worden de jui
 
 Als u graag voorkeuzen gebruikt, wat gebeurt er dan als u tags wilt toevoegen die niet in het menu zijn opgenomen, of wanneer u uw eigen tags wilt aanpassen?  
 
-In dat geval kunt u aangepaste menu-items toevoegen aan het menu Voorkeuzen. In dit gedeelte zullen we laten zien hoe dit te doen. In het [volgende hoofdstuk](/nl_NL/editing/creating-presets) zullen we behandelen hoe aangepaste bestanden voor voorkeuzen zelf te maken.  
+In dat geval kunt u aangepaste menu-items toevoegen aan het menu Voorkeuzen. In dit gedeelte zullen we laten zien hoe dit te doen. In het [volgende hoofdstuk](/nl_NL/josm/creating-presets) zullen we behandelen hoe aangepaste bestanden voor voorkeuzen zelf te maken.  
 
 
 Voorkeuzen toevoegen
@@ -37,7 +37,7 @@ Bestanden voor voorkeuzen kunnen ofwel worden toegevoegd vanuit een archief onli
 
 ![tagging presets menu][]
 
-* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
+* Voeg een bestand voor voorkeuzen toe vanaf het internet door er een te selecteren uit de lijst aan 	 de linkerkant, en te klikken op de blauwe pijl. In dit voorbeeld zullen we de voorkeuze genaamd "New Tags" toevoegen.  
 
 ![example presets][]
 
@@ -45,11 +45,11 @@ Bestanden voor voorkeuzen kunnen ofwel worden toegevoegd vanuit een archief onli
 * Klik op OK.  
 * U dient JOSM opnieuw op te starten.  
 * Maak een nieuwe laag en voeg een punt of vorm toe.  
-* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
+* Ga naar het menu Voorkeuzen. U zult een aanvullend item aan de onderzijde zien dat zich uitbreidt tot een aantal verschillende opties die niet worden behandeld in de standaard installatie van JOSM.  
 
 ![additional tags preset][]
 
-* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
+* De meeste voorkeuzen behandelen vrij specifieke gebruiksgevallen dus blader door de lijst om er een te vinden die aan uw wensen voldoet.  
 
 * Als u een aangepast bestand voor voorkeuzen hebt ontvangen, kunt u het op een soortgelijke manier toevoegen aan het menu. Ga eenvoudigweg terug naar het menu Voorkeuzen en, in plaats van te selecteren uit de lijst, klik op de knop (+) rechtsboven.  
 
