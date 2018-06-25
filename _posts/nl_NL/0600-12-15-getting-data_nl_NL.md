@@ -21,20 +21,16 @@ Gegevensextracten downloaden
 
 [GeoFabrik](http://geofabrik.de) is een bedrijf dat is gespecialiseerd in het werken met OpenStreetMap. Zij verschaffen een variëteit aan gratis extracten in shapefile- en ruwe OSM-indeling op hun [download website](http://download.geofabrik.de). Het voordeel van het downloaden van gegevens van GeoFabrik is dat zij elke dag worden bijgewerkt, en het is eenvoudig en betrouwbaar. Een nadeel is dat de gegevens per land geëxtraheerd zijn en niet alle landen zijn beschikbaar.  
 
-### Metro Extracts
-
-[Een andere website onderhouden door Mapzen](https://mapzen.com/data/metro-extracts/) verschaft shapefiles en ruwe OSM-indeling voor steden van over de gehele wereld, wekelijks geëxtraheerd. Dit is nuttig als u zoekt naar een gegevensextract voor één enkele stad.  
-
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) biedt iets soortgelijks als Metro Extracts maar voor een andere selectie steden. De gegevens wordne ook wekelijks bijgewerkt.
+[BBBike](http://download.bbbike.org/osm/bbbike/) verschaft shapefiles en ruwe OSM-indeling voor steden van over de gehele wereld, wekelijks geëxtraheerd. Dit is nuttig als u zoekt naar een gegevensextract voor één enkele stad.
 
 >Onthoud dat objecten in OpenStreetMap een onbeperkt aantal "vrije" tags hebben,
 >maar shapefiles hebben attributen die zijn opgeslagen in een begrensd aantal kolommen. Dit betekent
 >dat wanneer gegevens van OSM worden geconverteerd naar shapefiles, zullen alleen de gespecificeerde tags worden
 >opgenomen in de tabel van het shapefile. De hierboven vermelde websites verschaffen shapefiles
 >met een standaard set van algemene tags, maar als u specifieke tags wilt extraheren
->dient u ene van de meer gespecialiseerde services in het volgende gedeelte te gebruiken
+>dient u een van de meer gespecialiseerde services in het volgende gedeelte te gebruiken
 >of te leren hoe  u de gegevens zelf exporteert.
 
 Aangepaste extracten
@@ -42,7 +38,7 @@ Aangepaste extracten
 
 ### HOT Exports  
 
-Het [Humanitarian OpenStreetMap Team](http://hotosm.org) heeft een service gemaakt die gebruikers in staat stelt het gebied te selecteren dat zij willen extraheren, en ook [voorkeuzen van JOSM gebruiken](/en/josm/josm-presets/)
+Het [Humanitarian OpenStreetMap Team](http://hotosm.org) heeft een service gemaakt die gebruikers in staat stelt het gebied te selecteren dat zij willen uitnemen, en ook [voorkeuzen van JOSM gebruiken](/nl_NL/josm/josm-presets/)
 om aangepaste tags te selecteren die moeten worden opgenomen in het extract. De service is beschikbaar voor alle landen waar HOT werkt, op [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
@@ -86,7 +82,7 @@ url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$
 wget -O $file "$url"
 ```
 >Wat gebeurt hier (voor de nieuwsgierigen die niet de volledige documentatie van de querytaal willen lezen)?  
->node(...) selecteert alle knopen binnen ene begrenzingsvak;  
+>node(...) selecteert alle knopen binnen een begrenzingsvak;  
 >< herhaalt zich volledig, d.i. selecteert alle wegen die deze knopen bevatten en alle relaties die deze knopen en wegen bevatten;  
 >rel(br) selecteert alle ouder-relaties van de tot dusverre verkregen relaties (anders zouden master-relaties niet worden verkregen)
 >

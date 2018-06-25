@@ -36,6 +36,16 @@ prose:
 gems:
   - jekyll-redirect-from
 
+# ranking of other guides in the navigation bar
+priorities:
+  - beginner
+  - josm
+  - coordination
+  - mobile-mapping
+  - osm-data
+  - hot-tips
+  - resources
+
 #translations
 translations:
   en:
@@ -104,6 +114,17 @@ translations:
     language: "Français"
     quickaccess: "Accès rapide"
     returntotop: "Retourner en haut de la page"
+  hu:
+    tagline: "Az OpenStreetMap megtanulása lépésről lépésre"
+    contribute: "Segíts az útmutatók javításában"
+    trainingspan: "Tanfolyamot szervezel?"
+    training: "Nézd meg az ehhez az útmutatóhoz tartozó képzési anyagot (angol)"
+    feedbackspan: "Hasznos volt-e ez a fejezet?"
+    feedback: "Írd meg az észrevételeid, és segíts, hogy tovább javíthassuk az útmutatókat!"
+    getstarted: "Kezdés"
+    language: "Magyar"
+    quickaccess: "Gyors elérés"
+    returntotop: "Vissza az oldal tetejére"
   it:
     tagline: "Impara ad usare OpenStreetMap passo dopo passo"
     contribute: "Aiutaci a migliorare le nostre guide"
@@ -115,6 +136,17 @@ translations:
     language: "Italiano"
     quickaccess: "Accesso veloce"
     returntotop: "Ritorna ad inizio pagina"
+  ja:
+    tagline: "はじめてからのOpenStreetMapガイド"
+    contribute: "ガイドの拡充にご協力ください"
+    trainingspan: "ワークショップ開催を検討されるかたへ"
+    training: "このガイドの研修教材をチェック(英語)"
+    feedbackspan: "この章は役に立ちましたか？"
+    feedback: "ガイドの改善にご意見ください"
+    getstarted: "次の章に進む"
+    language: "日本語"
+    quickaccess: "Quick access"
+    returntotop: "Return to top of page"
   my:
     tagline: "OpenStreetMap အားတစ်ဆင့်ပြီးတစ်ဆင့်လေ့လာခြင်း"
     contribute: "ကျွန်ုပ်တို့၏လမ်းညွှန်မှုများတိုးတက်အောင်ကူညီပါ။"
@@ -181,6 +213,17 @@ translations:
     language: "Shqip"
     quickaccess: "Qasje e shpejtë"
     returntotop: "Kthehuni në krye të faqes"
+  vi:
+    tagline: "Từng bước học OpenStreetMap"
+    contribute: "Giúp chúng tôi cải thiện những hướng dẫn này"
+    trainingspan: "Bạn có phải là người tổ chức các hội thảo?"
+    training: "Kiểm tra các tài liệu tập huấn với hướng dẫn này"
+    feedbackspan: "Chương này có bổ ích hay không?"
+    feedback: "Hãy cho chúng tôi biết và giúp chúng tôi cỉa thiện những hướng dẫn này!"
+    getstarted: "Hãy bắt đầu"
+    language: "Tiếng Việt"
+    quickaccess: "Truy cập nhanh"
+    returntotop: "Quay về đầu trang"
   zh_CN:
     tagline: "逐步学习OpenStreetMap"
     contribute: "帮助改进我们的指南"

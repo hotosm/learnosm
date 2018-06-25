@@ -46,14 +46,12 @@ to make changes to the map, because the map is often being updated by other user
 
 ![JOSM Download Button][]
 
--  When the download window opens, you should see a map with a pink box
-    drawn on it. If you don’t see the map, click on the tab marked
+-  When the download window opens, you should see a map. If you don’t see the map, click on the tab marked
     “Slippy map”.
 
 ![JOSM Download Dialog][]
 
--  The pink box represents the area of the map that we would like to
-    download for editing. Use your mouse to pan and zoom it to an area
+-  Use your mouse to pan and zoom it to an area
     that you know very well, such as your hometown or neighborhood. The
     controls are the same as in the JOSM map window. The right mouse button
     lets you drag the map, and your scroll wheel allows you to zoom in and

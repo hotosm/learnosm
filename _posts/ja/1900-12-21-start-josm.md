@@ -38,7 +38,7 @@ JOSMのインストール
 
 >  JOSMの動作にはJavaが必要であり、環境によってはJavaのインストールを求められることがあります。
 >  もしインストールを求められた場合、以下のページからJavaをインストールしてください。
->  [http://www.java.com/en/download/](http://www.java.com/en/download/
+>  [http://www.java.com/en/download/](http://www.java.com/en/download/)
 
 -  コンピュータにダウンロードしたJOSMのインストールファイルを探してください。ファイルをダブルクリックしてセットアップを開始します。
 -  "OK"→"Next"→"I Agree"→"Install"の順にクリックします。イントールが完了したら"Finish"をクリックして、JOSMを起動してください。以降、JOSMを起動するときは、画面左下のスタートメニューからJOSMをクリックすることで起動が可能です。

@@ -21,13 +21,9 @@ Datenauszüge herunterladen
 
 [GeoFabrik](http://geofabrik.de) ist eine Firma, die auf die Arbeit mit OpenStreetmap spezialisiert ist. Sie bieten eine Vielzahl an freien Auszügen als Shapefile oder im rohen OSM Format auf ihrer [Download Website](http://download.geofabrik.de) an.  Der Vorteil beim Herunterladen von GeoFabrik Daten ist, dass sie täglich aktualisiert werden und es leicht und zuverlässig ist. Ein Nachteil ist, dass die Daten länderbezogen und nicht alle Länder verfügbar sind.  
 
-### Städte Auszüge
-
-[Die Webseite Metro Extracts wird durch Mapzen betrieben](https://mapzen.com/data/metro-extracts/) und bietet Shapefiles und rohes OSM Format für Städte weltweit, im wöchentlichen Rhythmus. Dies ist nützlich, wenn man Datenauszüge für einzelne Städte sucht.  
-
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) bietet etwas ähnliches wie Metro Extracts, aber für andere Städte. Die Daten werden ebenfalls wöchentlich aktualisiert.
+[Die Website BBBike](http://download.bbbike.org/osm/bbbike/) bietet Shapefiles und rohes OSM Format für Städte weltweit, im wöchentlichen Rhythmus. Dies ist nützlich wenn man Datenauszüge für einzelne Städte sucht.
 
 >Man beachte, dass Kartenelemente in OpenStreetMap eine unbegrenzte Anzahl "freier" Tags besitzen,
 >aber Shapefiles Attribute in einer begrenzten Anzahl an Spalten speichern. Das bedeutet,
@@ -40,10 +36,10 @@ Datenauszüge herunterladen
 Angepasste Auszüge
 -------------------
 
-### HOT Exports  
+### HOT Exporte  
 
-Das [Humanitarian OpenStreetMap Team](http://hotosm.org) hat einen Dienst erstellt, der Benutzern erlaubt ein Gebiet auszuwählen und zu extrahieren und zugleich [JOSM Presets](/en/josm/josm-presets/) anzuwenden
-angepasste Tags auszuwählen, welche im Auszug enthalten sein sollen. Der Dienst ist in allen Ländern in denen HOT verfügbar ist auch verfügbar unter [export.hotosm.org](http://export.hotosm.org).
+Das [Humanitarian OpenStreetMap Team](http://hotosm.org) hat einen Service erstellt, der es Benutzern erlaubt ein Gebiet auszuwählen, das sie extrahieren wollen, dabei können [JOSM Presets](/en/josm/josm-presets/) verwendet werden
+um Benutzderfinierte Tags, welche im Extrakt beinhaltet sind, auszuwählen. Der Service ist in allen Ländern verfügbar, in denen HOT arbeitet, auf [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 

@@ -18,7 +18,7 @@ Wanneer u een object tekent en selecteert uit het menu Voorkeuzen, worden de jui
 
 Als u graag voorkeuzen gebruikt, wat gebeurt er dan als u tags wilt toevoegen die niet in het menu zijn opgenomen, of wanneer u uw eigen tags wilt aanpassen?  
 
-In dat geval kunt u aangepaste menu-items toevoegen aan het menu Voorkeuzen. In dit gedeelte zullen we laten zien hoe dit te doen. In het [volgende hoofdstuk](/nl_NL/editing/creating-presets) zullen we behandelen hoe aangepaste bestanden voor voorkeuzen zelf te maken.  
+In dat geval kunt u aangepaste menu-items toevoegen aan het menu Voorkeuzen. In dit gedeelte zullen we laten zien hoe dit te doen. In het [volgende hoofdstuk](/nl_NL/josm/creating-presets) zullen we behandelen hoe aangepaste bestanden voor voorkeuzen zelf te maken.  
 
 
 Voorkeuzen toevoegen
@@ -37,7 +37,7 @@ Bestanden voor voorkeuzen kunnen ofwel worden toegevoegd vanuit een archief onli
 
 ![tagging presets menu][]
 
-* Voeg een bestand voor voorkeuzen toe vanaf het internet door er een te selecteren uit de lijst aan de linkerkant, en te klikken op de blauwe pijl. In dit voorbeeld zullen we de voorkeuze genaamd "Buildings Indonesia door Kate Chapman" toevoegen.  
+* Voeg een bestand voor voorkeuzen toe vanaf het internet door er een te selecteren uit de lijst aan 	 de linkerkant, en te klikken op de blauwe pijl. In dit voorbeeld zullen we de voorkeuze genaamd "New Tags" toevoegen.  
 
 ![example presets][]
 
@@ -45,11 +45,11 @@ Bestanden voor voorkeuzen kunnen ofwel worden toegevoegd vanuit een archief onli
 * Klik op OK.  
 * U dient JOSM opnieuw op te starten.  
 * Maak een nieuwe laag en voeg een punt of vorm toe.  
-* Ga naar het menu Voorkeuzen. Klik op het item genaamd "Building," dat nu aan de onderzijde van het menu is toegevoegd.  
+* Ga naar het menu Voorkeuzen. U zult een aanvullend item aan de onderzijde zien dat zich uitbreidt tot een aantal verschillende opties die niet worden behandeld in de standaard installatie van JOSM.  
 
-![indonesia building form][]
+![additional tags preset][]
 
-* Als u geen Indonesisch spreekt is dit misschien moeilijk te lezen, maar niettegenstaande dat heeft u succes gehad en heeft u een aangepast menu voor voorkeuzen toegevoegd.  
+* De meeste voorkeuzen behandelen vrij specifieke gebruiksgevallen dus blader door de lijst om er een te vinden die aan uw wensen voldoet.  
 
 * Als u een aangepast bestand voor voorkeuzen hebt ontvangen, kunt u het op een soortgelijke manier toevoegen aan het menu. Ga eenvoudigweg terug naar het menu Voorkeuzen en, in plaats van te selecteren uit de lijst, klik op de knop (+) rechtsboven.  
 
@@ -61,7 +61,7 @@ Bestanden voor voorkeuzen kunnen ofwel worden toegevoegd vanuit een archief onli
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png
 [tagging presets menu]: /images/josm/tagging-presets-menu.png
-[example presets]: /images/josm/example-presets.png
-[indonesia building form]: /images/josm/indonesia-building-form.png
+[example presets]: /images/josm/example-presets2.png
+[additional tags preset]: /images/josm/new-tags-preset.png
 [plus button]: /images/josm/plus-button.png
 

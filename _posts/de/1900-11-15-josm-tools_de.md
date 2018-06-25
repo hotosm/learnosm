@@ -1,6 +1,6 @@
 ---
 layout: doc
-Titel: JOSM Bearbeitung Werkzeuge
+title: JOSM Bearbeitung Werkzeuge
 permalink: /de/josm/josm-tools/
 lang: de
 category: josm

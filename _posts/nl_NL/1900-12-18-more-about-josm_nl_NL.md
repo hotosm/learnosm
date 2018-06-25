@@ -46,24 +46,22 @@ maken aan de kaart, omdat de kaart vaak wordt bijgewerkt door andere gebruikers.
 
 ![JOSM Download Button][]
 
--  Wanneer het venster om te downloaden opent zou u een kaart moeten zien met een roze vak
-    erop getekend. Als u de kaart niet ziet, klik dan op de tab
+-  Wanneer het venster om te downloaden opent zou u een kaart moeten zien. Als u de kaart niet ziet, klik dan op de tab gemarkeerd
     “Slippy-kaart”.
 
 ![JOSM Download Dialog][]
 
--  Het roze vak vertegenwoordigt het gebied van de kaart dat we zouden willen
-    downloaden om te bewerken. Gebruik uw muis om naar gebied te panen en te zoomen
+Gebruik uw muis om naar gebied te pannen en te zoomen
     dat u goed kent, zoals uw eigen stad of wijk. De
     besturingselementen zijn hetzelfde als in het kaartvenster van JOSM. Met de rechter muisknop
     kunt u de kaart slepen, en uw scrolwiel stelt u in staat in en
     uit te zoomen.
 
->    Soms, als u werkt met een notebookcomputer kan het moeilijk zijn
->    om in en uit te scrollen. Werken in JOSM is veel eenvoudiger als u een  muis heeft,
->    maar de meeste moderne notebooks stellen u in staat te scrollen met het touchpad.
+> Soms, als u werkt met een notebookcomputer kan het moeilijk zijn
+> om in en uit te scrollen. Werken in JOSM is veel eenvoudiger als u een muis heeft,
+> maar de meeste moderne notebooks stellen u in staat te scrollen met het touchpad.
 
--    teken ene vak rondom het gebied dat u wilt downloaden. Klik, om een nieuw vak te tekenen, op de
+-    teken een vak rondom het gebied dat u wilt downloaden. Klik, om een nieuw vak te tekenen, op de
     kaart, houd uw linker muisknop ingedrukt, en sleep met uw muis om een
     vak te maken. Laat de muis los om het tekenen van het vak te beëindigen.
 -  Klik, wanneer u tevreden bent met de grootte en locatie van het vak,
@@ -81,12 +79,14 @@ zij bedragen aan de kaart.
 -    Klik, om satellietafbeeldingen van Bing in JOSM toe te voegen, op "Afbeeldingen" in het bovenste menu van
     JOSM en selecteer “Bing Sat.”
 
->   Indien u Bing luchtfotografie niet in uw menu Afbeeldingen ziet, moet u die misschien nog activeren
->   in de voorkeuren van JOSM. Ga naar Bewerken -> Voorkeuren en klik op het pictogram
->   dat zegt “WMS TMS”. U moet misschien op de pijl naar beneden klikken om die te vinden.
+> Indien u Bing luchtfotografie niet in uw menu Afbeeldingen ziet, moet u die misschien nog activeren
+> in de voorkeuren van JOSM. Ga naar Bewerken -> Voorkeuren en klik op het pictogram
+> dat zegt “WMS TMS”. U moet misschien op de pijl naar beneden klikken om die te vinden.
+> <br>
 >    ![JOSM Preferences up down][]
 >    ![JOSM Preferences WMS TMS][]
->   Klik op “Bing luchtfotografie”. Klik dan op “Activeren”.
+> <br>
+> Klik op “Bing luchtfotografie”. Klik dan op “Activeren”.
 
 
 ### Rondleiding in JOSM
@@ -140,11 +140,11 @@ eerder hebben gezien - punten, lijnen, en vormen die locaties in de echte wereld
     Beschrijf deze objecten door te kiezen uit het menu Voorkeuzen, zoals u
     in het eerdere gedeelte deed. 
 
->  Bewerk nooit de kaart buiten het gebied dat u heeft gedownload. U  
->  kunt het rechthoekige gebied dat u heeft gedownload zien als een vaste achtergrond,  
->  terwijl het gebied dat u niet heeft gedownload diagonale lijnen met strepen heeft.  
-
-![JOSM area downloaded][]
+> Bewerk nooit de kaart buiten het gebied dat u heeft gedownload. U  
+> kunt het rechthoekige gebied dat u heeft gedownload zien als een vaste achtergrond,  
+> terwijl het gebied dat u niet heeft gedownload diagonale lijnen met strepen heeft. 
+> <br>  
+> ![JOSM area downloaded][]
 
 Wijzigingen opslaan
 --------------
