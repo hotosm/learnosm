@@ -220,7 +220,7 @@ OSM.
 
 #### Planet OSM
 
-[http://planet.openstreetmap.org/](http://planet.openstreetmap.org/)
+[https://planet.openstreetmap.org/](https://planet.openstreetmap.org/)
 
 Ce fichier est une copie régulièrement mise à jour de la base de données
 complète d’OpenStreetMap. Elle fait plus de 30 Go.
