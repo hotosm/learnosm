@@ -1,17 +1,17 @@
 ---
-Layout: doc
-Titel: Andere Materialien
-Permalink: /de/resources/
+layout: doc
+title: Andere Hilfsmittel
+permalink: /de/resources/
 lang: de
 cover: yes
 category: resources
 ---
 
-# Andere Materialien
+# Andere Hilfsmittel
 
 > Geprüft am 2018-02-24
 
-Dies ist eine kommentierte Liste mit Links zu anderen Webseiten, die wir als hilfreich erachten. Alle Links wurden auf Funktion getestet, als dieses Dokument das letzte Mal geprüft wurde. Die Links führen in der Regel zu englischsprachigen Seiten.
+Dies ist eine kommentierte Liste mit Links zu anderen Webseiten, die wir als hilfreich erachten. Alle Links wurden auf Funktion getestet, als dieses Dokument das letzte Mal geprüft wurde.
 
   * [Eine Maptime Liste mit Links rund ums Mappen und zugehörigen geographischen Themen](http://maptime.io/lessons-resources/) Eine verständliche Liste an Links, nicht nur über OpenStreetMap, auch über Visualisierung, Kartenerstellung und das Mappen im Internet
 
