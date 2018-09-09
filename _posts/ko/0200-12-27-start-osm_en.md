@@ -1,118 +1,117 @@
 ---
 layout: doc
 title: OpenStreetMap.org
-permalink: /en/beginner/start-osm/
-lang: en
+permalink: /ko/beginner/start-osm/
+lang: ko
 category: beginner
 ---
 
-Getting started on OpenStreetMap.org
+OpenStreetMap.org에서 기여 시작하기
 ====================================
 
-> This guide may be downloaded as [beginner_start-osm_en.odt](/files/beginner_start-osm_en.odt) or [beginner_start-osm_en.pdf](/files/beginner_start-osm_en.pdf)  
-> Reviewed 2015-07-12  
+> 이 안내서는 [beginner_start-osm_ko.odt](/files/beginner_start-osm_ko.odt) 또는 [beginner_start-osm_ko.pdf](/files/beginner_start-osm_ko.pdf)로 다운로드할 수 있습니다  
+> 2015-07-12에 리뷰됨  
 
-In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
+이 단락에서 OSM 웹 사이트를 탐색하고, 지도를 보고, 계정을 만드는 법을 차례차례 배울 수 있습니다. 지도를 편집하려면 먼저 가입을 해야 합니다.
 
 ![website][]
 
-Visit the OpenStreetMap Website
+OSM 웹 사이트 방문하기
 -------------------------------
 
--   Before you begin, be sure your computer is connected to the internet.  (If you are reading this online, then you must be connected!)
--   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet Explorer. If it is already open then you can create a new tab.
--   In the address bar at the top of the window, enter the following and press Enter:
-    [www.openstreetmap.org](http://www.openstreetmap.org/)
--   When the page has finished loading, you should see something like this:
+-   시작하기 전에 컴퓨터가 인터넷에 연결되어 있는지 확인하세요.  (이 안내서를 온라인으로 읽고 있으면 확인할 필요 없습니다!)
+-   웹 브라우저를 엽니다. 보통 Firefox, Chrome, Opera, Internet Explorer를 사용합니다. 브라우저가 이미 열려 있으면 새 탭을 여세요.
+-   상단의 주소창에 [www.openstreetmap.org](http://www.openstreetmap.org/)를 입력하고 엔터 키를 누르세요.
+-   로딩이 끝나면, 다음 이미지처럼 화면이 보이게 됩니다.
 
     ![OpenStreetMap website with some main functions listed][]
 
-Navigate the Map
+지도 둘러보기
 ----------------
 
--   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
+-   일단 지도가 가장 중요합니다. 마우스 좌클릭을 하면서 마우스를 움직이면 지도가 움직입니다(아래 이미지 참고).
 
     ![Mouse navigation][]
 
--   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
--   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
+-   마우스에 휠이 달려 있다면 휠을 돌려서 지도를 확대·축소할 수 있습니다.
+-   장소를 검색하려면 "검색"이라고 쓰여 있는 상자에서 마우스 좌클릭을 한 다음 당신이 살고 있는 지역 이름을 입력하고 엔터 키를 누릅니다(아래 이미지 참고). 엔터 키를 누르고 나면 지도 왼쪽에 검색 결과 창이 뜹니다. 찾는 지역이 맞으면 장소를 누르세요. 누른 장소로 지도가 자동으로 움직입니다.
 
     ![Search][]
    
 
-View Different Map Styles
+다양한 지도 스타일 체험하기
 ------------------------
 
-OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
+OSM은 전 세계의 지리 데이터를 담고 있습니다. 데이터베이스 자체는 하나밖에 없지만, 다양한 지도 스타일을 통해서 다양한 방법으로 데이터베이스를 표현할 수 있습니다.
 
--   Click on the Layers button on the right side of the map window.
+-   지도 창 오른쪽에 있는 레이어 버튼을 클릭합니다.
 
     ![Layers button][]
 
--   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
+-   다양한 지도 스타일 중 하나를 선택합니다. 스타일을 교체했을 때 같은 지물이 어떻게 바뀌는지를 잘 봐 두세요. 예를 들어 대중교통 지도는 대중교통 노선을 강조해서 표시하고, 사이클 지도는 사이클 노선을 강조해서 표시합니다. OSM 데이터베이스가 있기 때문에 가능한 일입니다.
 
     ![Transport map][]
 
-Create an OpenStreetMap Account
+OSM 계정 만들기
 -------------------------------
 
--   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
--   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
--   You should see a new page that looks like this:
+-   OSM 웹 사이트가 어떻게 생겼는지 이미 한번 봤기 때문에 아마 쉽게 가입하고 지도에 첫 편집을 남길 수 있을 것입니다.
+-   OSM 웹 사이트 오른쪽 위에 있는 "가입하기"를 누르세요.
+-   다음 이미지처럼 창이 바뀔 것입니다.
 
     ![Registering an OpenStreetMap account][]
 
--   There are five boxes on this page that you need to fill in to register an account with OSM.
--   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
--   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
--   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. It does not need to be the same as the password for your email.
--   You may want to write down your OSM username and password. You will need it to log in later.
--   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
--   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you should try a different name.
--   Open a separate window or tab in your internet browser, and navigate to your email.  Common email sites are [mail.yahoo.com](http://mail.yahoo.com) and [www.gmail.com](http://www.gmail.com).
--   Enter your email address and your email password to open your email.  Note that this is __not__ the same as your OpenStreetMap username and password.
--   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
+-   OSM에 가입하려면 상자 5개를 채워야 합니다.
+-   이메일 주소를 첫 번째와 두 번째 상자에 입력하세요. 서로 똑같이 입력해야 합니다. 나중에 OSM 계정 인증을 받아야 하기 때문에 사용할 수 있는 이메일 주소를 입력해 주세요.
+-   세 번째 상자에는 사용자 이름을 입력하세요. 한 번 정하면 다시는 바꿀 수 없습니다. 독창적으로 지으세요. 한 번 정하면 다시는 바꿀 수 없습니다. 사용자 이름에 성만 넣어서 짓는 등, 단순하게 입력하면 이미 사용 중인 이름이라고 뜰 가능성이 높습니다.
+-   네 번째와 다섯 번째 상자에 비밀번호를 입력하세요. 서로 똑같이 입력해야 합니다. 이메일 비밀번호와 똑같이 지을 필요는 없습니다.
+-   아마 원하는 이름과 비밀번호를 정했을 것입니다. 이제부터 로그인할 때는 이름과 비밀번호로 로그인합니다.
+-   모든 상자를 다 채운 뒤 아래쪽에 있는 "가입하기" 버튼을 누르세요.
+-   만약 문제가 있다면 오류 메시지가 뜰 것입니다. 이메일 주소를 첫 번째와 두 번째 상자에 정확히 똑같이 입력했는지, 비밀번호를 네 번째와 다섯 번째 상자에 정확히 똑같이 입력했는지 확인하세요. 만약 세 번째 상자에 빨간 불이 들어왔다면, 입력한 이름을 이미 다른 사람이 사용하고 있다는 뜻입니다.
+-   이메일을 확인할 새 창이나 탭을 여세요. 메일 서비스는 [네이버](https://mail.naver.com)나 [gmail](https://mail.google.com)을 많이 씁니다.
+-   이메일 주소와 비밀번호를 입력해서 이메일을 확인하세요. 이메일 주소와 비밀번호는 OSM 이름과 비밀번호와 완전히 __다르다는__ 점을 알아 두세요.
+-   가입에 성공했다면, 메일함에 OSM에서 온 메일이 하나 있을 것입니다. 그 메일을 여세요. 아래 이미지처럼 생겼습니다. 아래 이미지를 참고해서 인증 링크를 여세요.
 
     ![Confirming your OpenStreetMap account][]
 
--   A new tab or window will open. If everything went well, you should have an OSM account!
--   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
+-   새 탭이나 창이 열립니다. 이 과정까지 끝났다면 계정 가입은 끝났습니다!
+-   OSM 웹 사이트 오른쪽 위에 있는 "로그인"을 누르세요. OSM 이름과 비밀번호를 입력하세요. 로그인되면 화면 오른쪽 위에 사용자 이름이 뜹니다.
 
-Adding Your First Points
+지도에 점 찍기
 ------------------------
 
--   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
--   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
--   Zoom in to a place where you would like to add a point to the map (perhaps a restaurant or grocery store near you isn't yet mapped).
--   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
--   Click “Edit with iD (in-browser editor)”.
+-   OSM 웹 사이트에 로그인했다면, 지도를 편집하기 위해 iD 편집기를 사용할 수 있습니다.
+-   당신이 잘 아는 지역으로 지도를 움직입니다. 지금 살고 있는 집(또는 옆집)을 그리고 주소를 붙이는 것이 쉬울 것입니다. 
+-   편집할 지역으로 지도를 확대하세요(아마 주변 식당이나 슈퍼도 지도에 없을 수 있습니다).
+-   화면 왼쪽 위에 삼각형이 붙은 "편집" 탭이 있습니다. 작은 삼각형을 누르세요. 메뉴가 아래에 뜹니다.
+-   "iD (브라우저 내 편집기)(으)로 편집"을 누르세요.
 
     ![Click edit][]
 
--   The online editor, named iD, should open. It will look something like this.
+-   iD 온라인 편집기가 열립니다. iD는 아래처럼 생겼습니다.
 
     ![iD editor][]
 
--   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
+-   화면 위에 있는 "점" 버튼을 클릭해서 지도에 점을 추가할 수 있습니다. 누른 다음 점을 추가할 위치에 마우스 좌클릭을 하세요.
 
     ![Point button][]    
 
--   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
--   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
+-   왼쪽 메뉴에서 점을 찍은 장소의 유형을 선택합니다. 장소의 이름 같은 정보를 채울 수도 있습니다.
+-   편집을 저장하려면 화면 위에 있는 "저장" 버튼을 누르세요. 이제 당신은 편집가입니다. 정확한 정보가 아니면 저장하지 마세요.
 
     ![Save button][]    
 
--   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
+-   저장 버튼을 눌렀다면, 기여 내역에 대해 간단히 설명해야 합니다. 내용을 입력한 후 "올리기" 버튼을 누르세요. 그러면 편집 내역이 OSM 데이터베이스에 올라갑니다!
 
 
-The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
+iD는 OSM을 쉽게 편집할 때는 환상적인 편집기입니다. [iD 편집기 안내서](/ko/beginner/id-editor/)에서 더 많은 정보를 찾을 수 있습니다. [튜토리얼](http://www.openstreetmap.org/edit?editor=id#walkthrough=true)을 해보는 것도 좋습니다.
 
-However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
+하지만, [JOSM](/ko/josm/)은 iD보다 더 많은 기능을 제공하는 강력한 편집기입니다. 물론 iD로 계속 편집해도 문제는 없습니다. 앞으로 OSM에 기여하다 보면 iD나 JOSM 중 하나를 이용할 것입니다. 자신에게 맞는 편집기를 선택하세요.
 
-Summary
+마치며
 -------
 
-Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
+축하합니다! OSM에 가입함으로써 OSM 웹 사이트를 둘러보고 지도에 점을 찍는 방법을 알 수 있었습니다.
 
 
 
