@@ -33,6 +33,10 @@ Downloading Data Extracts
 >you will need to use one of the more specialized services in the next section
 >or learn how to export the data yourself.
 
+### OSM Extracts by Interline
+
+[Interline Technologies](https://www.interline.io/) provides an [OSM Extracts](https://www.interline.io/osm/extracts/) service with extracts for over 200 metro regions and cities around the world. Extracts are available as [OSM PBF](https://wiki.openstreetmap.org/wiki/PBF_Format), GeoJSON, and GeoJSON Lines (one feature per line). Extracts are created daily. Download through stable URLs or using the [PlanetUtils](https://github.com/interline-io/planetutils) command-line interface. Registration is free but required.
+
 Customized Extracts
 -------------------
 
