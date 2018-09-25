@@ -180,6 +180,17 @@ translations:
     language: "Nederlands"
     quickaccess: "Snelle toegang"
     returntotop: "Terug naar begin van de pagina"
+  pl:
+    tagline: "Naucz się OpenStreetMap krok po kroku"
+    contribute: "Pomóż w ulepszaniu naszych przewodników"
+    trainingspan: "Czy jesteś organizatorem warsztatów?"
+    training: "Zobacz materiały szkoleniowe dla tego przewodnika (w języku angielskim)"
+    feedbackspan: "Czy ten rozdział był pomocny?"
+    feedback: "Daj nam znać i pomóż w ulepszeniu przewodników!"
+    getstarted: "Rozpocznij"
+    language: "Polski"
+    returntotop: "Powrót na górę strony"
+    quickaccess: "Szybki dostęp"
   pt:
     tagline: "Aprenda o OpenStreetMap Passo a Passo"
     contribute: "Ajude a melhorar os nossos guias"
