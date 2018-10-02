@@ -12,4 +12,4 @@ For minor edits *in English documents*, simply locate the post you are intereste
 
 Check out [CONTRIBUTING.md](CONTRIBUTING.md) for more on how to contribute directly to LearnOSM, run the site locally or develop new content.
 
-If you want to translate documents from English or improve one of the existing translations, please check out  http://learnosm.org/en/contribute/translator/
+**Important:** If you want to translate documents from English or improve one of the existing translations, please check out  http://learnosm.org/en/contribute/translator/. We no longer accept translated contents in pull requests but use Transifex in order to manage translations.
