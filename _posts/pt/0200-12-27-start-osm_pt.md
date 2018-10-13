@@ -117,14 +117,14 @@ Parabéns! Se tudo correu bem, agora tem uma nome de utilizador e uma palavra-ch
 
 
 [website]: /images/beginner/start-osm_website.png
-[Site do OpenStreetMap com uma lista de algumas funcionalidades]: /images/beginner/osm-website-main-functions.png
-[Navegação com o rato]: /images/beginner/mouse-navigation.png
-[Pesquisa]: /images/beginner/search.png
-[Botão de camadasn]: /images/beginner/layers.png
-[Mapa de Transportes Públicos]: /images/beginner/transport-map.png
-[Criar uma conta no OpenStreetMap]: /images/beginner/registering-account.png
-[Confirmar a sua conta do OpenStreetMap]: /images/beginner/confirming-account.png
-[Clicar em editar]: /images/beginner/click-edit.png
-[Editor iD]: /images/beginner/id-editor.png
-[Botão de adicionar Ponto]: /images/beginner/point-button.png
-[Botão de Gravar]: /images/beginner/save-button.png
+[OpenStreetMap website with some main functions listed]: /images/beginner/osm-website-main-functions.png
+[Mouse navigation]: /images/beginner/mouse-navigation.png
+[Search]: /images/beginner/search.png
+[Layers button]: /images/beginner/layers.png
+[Transport map]: /images/beginner/transport-map.png
+[Registering an OpenStreetMap account]: /images/beginner/registering-account.png
+[Confirming your OpenStreetMap account]: /images/beginner/confirming-account.png
+[Click edit]: /images/beginner/click-edit.png
+[iD editor]: /images/beginner/id-editor.png
+[Point button]: /images/beginner/point-button.png
+[Save button]: /images/beginner/save-button.png
