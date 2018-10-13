@@ -116,7 +116,7 @@ Congratulazioni! Se tutto è andato bene adesso hai uno username e una password 
 
 
 
-[website]: /images/beginner/start-osm_website_it.png
+[website]: /images/beginner/start-osm_website.png
 [OpenStreetMap website with some main functions listed]: /images/beginner/osm-website-main-functions_it.png
 [Mouse navigation]: /images/beginner/mouse-navigation_it.png
 [Search]: /images/beginner/search_it.png
