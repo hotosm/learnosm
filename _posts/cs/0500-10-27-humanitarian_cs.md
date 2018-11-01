@@ -8,7 +8,7 @@ category: coordination
 
 # Humanitární mapování
 
-![HotGuideLogo](/images/logo.png)
+![HotGuideLogo](/images/hot-logo.png)
 
 > Tato příručka může být stažena jako [humanitarian_cs.odt](/files/humanitarian_cs.odt) nebo  [humanitarian_cs.pdf](/files/humanitarian_cs.pdf)  
 > Zkontrolováno 2015-09-18

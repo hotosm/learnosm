@@ -8,7 +8,7 @@ category: coordination
 
 # Mapeo Humanitario
 
-![HotGuideLogo](/images/logo.png)
+![HotGuideLogo](/images/hot-logo.png)
 
 > Esta guía puede ser descargarda como [humanitarian_es.odt](/files/humanitarian_es.odt) o [humanitarian_es.pdf](/files/humanitarian_es.pdf)    
 > Revisado 2015-09-18  
