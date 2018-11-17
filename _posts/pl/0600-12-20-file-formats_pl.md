@@ -27,40 +27,40 @@ Więc dlaczego OSM przechowuje dane w formacie, którego nikt inny nie może uż
 
 Pozyskiwanie danych w formacie **.osm** jest proste - w rzeczywistości robisz to za każdym razem, kiedy pobierasz dane w JOSM, ale używanie tych danych do analizowania i projektowania mapy nie jest łatwe. Dlatego lepiej przekonwertować dane do innego formatu lub pobrać z usługi, która skonwertuje je dla Ciebie.  
 
-> Raw OSM data is stored in **.osm** files usually, but you may also see files ending in **.bz2** and **.pbf**. These are essentially **.osm** files that have been compressed to save space, which can be extremely helpful when working with large data files.  
+> Surowe dane OSM są przechowywane zazwyczaj w plikach **.osm**, ale możesz się spotkać z plikami **.bz2** i **.pbf**. Są to zasadniczo pliki **.osm**, które zostały skompresowane, aby oszczędzać miejsce, a które mogą być szczególnie przydatne przy pracy z dużą ilością danych.  
 
-Shapefiles
+Pliki shape
 ----------
 
-The **shapefile** is a widely used format for storing vector geographic data. It was developed by ESRI, the company that makes ArcGIS, a popular suite of GIS applications.  
+**Shapefile** jest formatem szeroko stosowanym do przechowywanie danych wektorowych. Został zaprojektowany przez ESRI, firmę, która stworzyła popularny zestaw aplikacji GIS o nazwie ArcGIS.  
 
-Shapefiles are actually a collection of several different files. For example, a shapefile that contains building data might have files with the following extensions:  
+Aktualnie pliki shape są zbiorem kilku różnych plików. Na przykład plik shape zawierający dane o budynkach może mieć pliki o następujących rozszerzeniach:  
 
--	buildings.**shp**
--	buildings.**shx**
--	buildings.**dbf**
+-	budynki.**shp**
+-	budynki.**shx**
+-	budynki.**dbf**
 
-Shapefiles will often have additional files too which contain other information.  
+Pliki shape mogą mieć zazwyczaj dodatkowe pliki, które zawierają inne informacje.  
 
-A shapefile must be designated to hold only one type of feature (points, lines, or polygons), and each feature has it's attributes contained in a table. Unlike the OpenStreetMap system in which every object can have an unlimited number of tags, the attributes of features in a shapefile must fit into the shapefile's defined table structure, which might look something like this:  
+Plik shape musi być przeznaczony tylko do jednego typu obiektów (punktów, linii lub wielokątów), a właściwości każdego z obiektów są zawarte w tabeli. Inaczej niż w systemie OpenStreetMap, gdzie każdy obiekt może mieć nieograniczoną liczbę tagów, właściwości obiektów w pliku shape muszą odpowiadać określonej strukturze tabeli, która może wyglądać tak:  
 
 ![Shapefile attributes][]
 
-OpenStreetMap data can be converted into shapefiles. Various websites provide shapefiles converted from OSM data. These are discussed in the [next chapter](/en/osm-data/getting-data).  
+Dane OpenStreetMap mogą być konwertowane do plików shape. Różne strony internetowe dostarczają pliki shape ze skonwertowanych danych OSM. W [następnym rozdziale](/pl/osm-data/getting-data) jest dyskusja temu poświęcona.  
 
-Databases
+Bazy danych
 ---------
 
-Many types of information are stored in database systems, which provide a logical way of organizing and accessing data. Geographic data is no different, although databases designed for geodata are specialized to handle the complex functions that querying geographic data requires.  
+Wiele rodzajów informacji jest przechowywanych w systemach bazodanowych, które są logicznym sposobem na organizowanie danych i dostęp do nich. Nie ma tu wyjątku dla danych geograficznych, jednakże bazy danych zaprojektowane dla nich są wyspecjalizowane pod kątem złożonych funkcji, których wymaga ich przeszukiwanie.  
 
-OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensions. This type of database provides fast access to the data and can be used easily with Mapnik, a piece of software that creates the map tiles used in web slippy maps. There are several tools available for importing raw OSM data into a PostgreSQL database.  
+Dane OpenStreetMap są najczęściej przechowywane w bazie danych PostgreSQL z rozszerzeniem PostGIS. Ten typ nazy danych pozwala na szybki dostęp do danych i może być łatwo użyty z Mapnikiem, który jest oprogramowaniem tworzącym kafelki mapy dla stron internetowych. Istnieje kilka narzędzi do importowania surowych danych OSM do bazy danych PostgreSQL.  
 
-Another type of database is known as SQLite, which provides similar functionality as a PostgreSQL database, but is all stored in a single file and doesn't require database software to be running. These are a little more difficult to create yourself, but can be easier to work with for small sets of data.  
+Inny typ bazy danych znany jako SQLite, posiada podobną funkcjonalność, co PostgreSQL, ale wszystkie dane znajdują się w jednym pliku i nie wymaga do działania oprogramowania bazodanowego. Jest trochę trudniej utworzyć swoją własną bazę, ale za to łatwiej się z nią pracuje przy małych zestawach danych.  
 
 Podsumowanie
 -------
 
-In the following chapters we will see how you can download data in various formats from the internet, and how you can use various tools to manipulate the raw data on your own.  
+W kolejnych rozdziałach zobaczymy, jak możesz pobierać dane z internetu w różnych formatach i jak używać różnych narzędzi, aby samemu móc przetwarzać surowe dane.  
 
 
 [Sample OSM XML file]: /images/osm-data/example_osm.png
