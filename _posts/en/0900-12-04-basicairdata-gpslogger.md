@@ -7,10 +7,12 @@ category: mobile-mapping
 ---
 
 BasicAirData GPS Logger
-=====================
+=======================
 
 > This guide may be downloaded as [basicairdata-gpslogger_en.odt](/files/basicairdata-gpslogger_en.odt) or [basicairdata-gpslogger_en.pdf](/files/basicairdata-gpslogger_en.pdf)
 > Reviewed 2018-11-28
+
+![BasicAirData-GPSLogger-000][]
 
 BasicAirData GPS Logger is a simple App to record your position and your path.<br>
 It's a basic and lightweight GPS tracker focused on accuracy, with an eye to power saving.<br>
@@ -45,6 +47,8 @@ Basic Usage
 
 If the GPS location is not active on your phone, activate it. Then go in an open area and start GPS Logger;
 
+![BasicAirData-GPSLogger-001][]
+
 1) Wait until the app finds the Fix. When available, the __GPS FIX__ tab will start to show the coordinates of the Fix. At this point (when possible) we suggest to wait at least another minute before proceed with the next phase, in order to allow the full stabilization of the signal; Click on the __Trackpoints__ button of the bottom panel to start recording track points. The button will become red. You can anytime toggle on/off the recording process by clicking on that button. The button shows the amount of the Trackpoints recorded.
 3) Go for a ride! Don’t forget your smartphone :P.
 You can go to the __TRACK__ tab to view in real time the statistics of your trip;
@@ -56,7 +60,11 @@ Exportation of GPX tracks to OpenStreetMap Editor
 
 When you are done collecting field data, you may import the GPX tracks for use in JOSM iD or another OpenStreetMap editor.
 
-Connect your Android device to a computer (using a data cable, Bluetooth, or an Internet connection) and copy the exported GPX tracks on your personal computer. In your device storage, look for the GPX track under folder /GPSLogger.
+You can copy a track on your Personal computer following one of the following ways:
+
+* Create the GPX file (go on the GPS Logger Tracklist, tap on the desired track and then click on __Export__; the GPX file will be saved on the /GPSLogger folder of your Android device); Then copy your GPX track on your PC (Connect your Android device to a computer using a USB cable, Bluetooth, or an Internet connection, and copy the exported GPX tracks on your personal computer. In your device storage, look for the GPX track under the exportation folder /GPSLogger);
+
+* As alternative, you can use the __Share__ feature to send the file to the PC (you can do it via email, or via FTP, and so on, depending on your Android Device).
 
 Using the GPX tracks with the JOSM and iD editors are easy as dragging the files and dropping them into the application (or the browser tab, for iD).
 
@@ -66,3 +74,8 @@ Official Documentation
 - For further information about this app you can read [this article](http://www.basicairdata.eu/projects/android/android-gps-logger/).<br>
 - [Here](http://www.basicairdata.eu/projects/android/android-gps-logger/getting-started-guide-for-gps-logger/) you can find a Getting Started Guide.<br>
 - Problems during the usage, or the configuration of GPS Logger? Read the [Frequently Asked Questions](https://github.com/BasicAirData/GPSLogger/blob/master/readme.md#frequently-asked-questions) page!
+
+
+[BasicAirData-GPSLogger-000]:  /images/mobile-mapping/basicairdata-gpslogger_000.en.jpg
+[BasicAirData-GPSLogger-001]:  /images/mobile-mapping/basicairdata-gpslogger_001.en.jpg
+
