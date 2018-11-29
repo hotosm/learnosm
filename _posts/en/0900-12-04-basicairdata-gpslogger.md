@@ -9,8 +9,7 @@ category: mobile-mapping
 BasicAirData GPS Logger
 =======================
 
-> This guide may be downloaded as [basicairdata-gpslogger_en.odt](/files/basicairdata-gpslogger_en.odt) or [basicairdata-gpslogger_en.pdf](/files/basicairdata-gpslogger_en.pdf)
-> Reviewed 2018-11-28
+> Reviewed 2018-11-29
 
 ![BasicAirData-GPSLogger-002][]
 
