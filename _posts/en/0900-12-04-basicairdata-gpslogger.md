@@ -21,9 +21,8 @@ You can record all your trips, view them in your preferred Viewer (it must be in
 
 The app is 100% Free and Open Source.
 
-The application is freely downloadable from [Google Play(tm)](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger).
-As alternative, the official APK is directly downloadable [here](https://github.com/BasicAirData/GPSLogger/releases/latest) in GPSLogger's GitHub repository.<br>
-You can install GPS Logger on your smartphone in one step, using the Google Store [QR-Code](https://github.com/BasicAirData/GPSLogger/blob/master/screenshots/qrcode%20-%20Google%20Store.png) or the Latest APK [QR-Code](https://github.com/BasicAirData/GPSLogger/blob/master/screenshots/qrcode.png);
+The application is freely downloadable from [Google Play(tm)](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger).<br>
+As alternative, the APK is directly downloadable in GPSLogger's [GitHub repository](https://github.com/BasicAirData/GPSLogger/releases/latest).
 
 Features
 --------
