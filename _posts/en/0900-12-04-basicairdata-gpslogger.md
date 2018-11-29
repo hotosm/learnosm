@@ -59,13 +59,14 @@ You can go to the __TRACK__ tab to view in real time the statistics of your trip
 Importation of GPX tracks in OpenStreetMap Editor
 -------------------------------------------------
 
-When you are done collecting field data, you may import the GPX tracks for use in JOSM iD or another OpenStreetMap editor using this simple procedure:
+When you are done collecting field data, you may import the GPX tracks for use in JOSM iD or another OpenStreetMap Editor.
+You can use this simple 2-steps procedure:
 
 1) Save the GPX track on your Personal computer, following one of the following ways:
 
 * Go on the GPS Logger Tracklist, tap on the desired track and then click on __Export__; the GPX file will be created and saved on the /GPSLogger folder of your Android device. Then connect the phone with your PC with the USB cable and move (or copy) your GPX tracks on your PC using the File Manager;
 
-* As alternative, you can use the __Share__ feature to send the file to the PC (you can do it via email, FTP, or via many Cloud storages. It depends on the third-party apps installed on your Android Device);
+* As alternative, you can use the __Share__ feature to send the file to the PC (you can do it via email, FTP, or via many Cloud services. The sharing possibilities depends on the third-party apps installed on your Android Device;
 
 2) Import the GPX track into your OpenStreetMap Editor: using the GPX tracks with the JOSM and iD editors are easy as dragging the files and dropping them into the application (or the browser tab, for iD).
 
