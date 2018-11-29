@@ -9,8 +9,6 @@ category: mobile-mapping
 BasicAirData GPS Logger
 =======================
 
-> Reviewed 2018-11-29
-
 ![BasicAirData-GPSLogger-002][]
 
 BasicAirData GPS Logger is a simple App to record your position and your path.<br>
