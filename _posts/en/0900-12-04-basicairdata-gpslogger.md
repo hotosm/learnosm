@@ -50,8 +50,8 @@ Basic Usage
 
 If the GPS location is not active on your phone, activate it. Then go in an open area and start GPS Logger;
 
-1) Wait until the app finds the Fix. When available, the __GPS FIX__ tab will start to show the coordinates of the Fix. At this point (when possible) we suggest to wait at least another minute before proceed with the next phase, in order to allow the full stabilization of the signal; Click on the __Trackpoints__ button of the bottom panel to start recording track points. The button will become red. You can anytime toggle on/off the recording process by clicking on that button. The button shows the amount of the Trackpoints recorded.
-3) Go for a ride! Don’t forget your smartphone :P.
+1) Wait until the app finds the Fix. When available, the __GPS FIX__ tab will start to show the coordinates of the Fix. At this point (when possible) we suggest to wait at least another minute before proceed with the next phase, in order to allow the full stabilization of the signal;
+2) Click on the __Trackpoints__ button of the bottom panel to start recording track points. The button will become red. You can anytime toggle on/off the recording process by clicking on that button. The button shows the amount of the Trackpoints recorded.<br> Go for a ride! Don’t forget your smartphone :P<br>
 You can go to the __TRACK__ tab to view in real time the statistics of your trip;
 4) When your trip is finished, double-tap on the little __V tick__ located near the upper right corner to finalize (finish) the active track;
 5) Go to the __TRACKLIST__ tab, where you will find the track you have just recorded. Tap on the track. A menu will appear. You can choose to share the track in many ways, view it using an installed external viewer, export it into /GPSLogger folder of your smartphone, or delete it from the tracklist.
