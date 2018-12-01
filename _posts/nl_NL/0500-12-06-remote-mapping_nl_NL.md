@@ -8,7 +8,7 @@ category: coordination
 
 #HOT Remote Response Guide   
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
+![HotGuideLogo](/images/hot-logo.png)  
 
 > Deze handleiding kan worden gedownload als  remote-mapping_nl_NL.odt](/files/remote-mapping_nl_NL.odt) of [remote-mapping_nl_NL.pdf](/files/remote-mapping_nl_NL.pdf)  
 > Bijgewerkt 18-09-2015  
