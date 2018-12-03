@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Удаленное редактирование HOT  
-permalink: /ru/coordination/HOT-Remote-Response-Guide
+permalink: /ru/coordination/HOT-Remote-Response-Guide/
 lang: ru
 category: coordination
 ---

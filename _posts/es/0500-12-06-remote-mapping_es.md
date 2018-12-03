@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Mapeo Remoto HOT  
-permalink: /es/coordination/HOT-Remote-Response-Guide 
+permalink: /es/coordination/HOT-Remote-Response-Guide/
 lang: es
 category: coordination
 ---

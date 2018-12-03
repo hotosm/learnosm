@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Lập bản đồ từ xa với HOT  
-permalink: /vi/coordination/HOT-Remote-Response-Guide 
+permalink: /vi/coordination/HOT-Remote-Response-Guide/
 lang: vi
 category: coordination
 ---

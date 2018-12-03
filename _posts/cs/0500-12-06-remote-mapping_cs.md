@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: HOT Vzdálené mapování  
-permalink: /cs/coordination/HOT-Remote-Response-Guide 
+permalink: /cs/coordination/HOT-Remote-Response-Guide/ 
 lang: cs
 category: coordination
 ---

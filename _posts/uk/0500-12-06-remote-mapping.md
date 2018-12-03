@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Віддалене редагування HOT  
-permalink: /uk/coordination/HOT-Remote-Response-Guide
+permalink: /uk/coordination/HOT-Remote-Response-Guide/
 lang: uk
 category: coordination
 ---

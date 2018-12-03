@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: HOT Remote Mapping  
-permalink: /nl_NL/coordination/HOT-Remote-Response-Guide 
+permalink: /nl_NL/coordination/HOT-Remote-Response-Guide/
 lang: nl_NL
 category: coordination
 ---
