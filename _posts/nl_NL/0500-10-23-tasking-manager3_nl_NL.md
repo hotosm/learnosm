@@ -292,10 +292,7 @@ Wanneer u een bericht moet sturen, zoals een e-mail of een IRC-bericht, en u wil
 
 1. Klik op het betreffende vierkant van de taak  
 2. Klik op de adresbalk van uw webbrowser die iets zou moeten laten zien als: 'http://tasks.hotosm.org/project/713?task=259'  
-3. Selecteer alle tekst in de adresbalk met uw muis of gebruik de sneltoetsen **Ctrl+A** om alles te selecteren en gebruik dan **Ctrl+C** om de tekst te kopiëren.  
-4. In uw e-mail, IRC-bericht of ander bericht,  
-    - ofwel rechter muisklik & plakken,  
-    - of sneltoets **Ctrl+V** om de link in het bericht te plakken. 
+3. Kopieer deze koppeling in het bericht. 
 
 
 ## Hulp krijgen 
