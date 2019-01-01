@@ -11,6 +11,8 @@ nosearch: true
 초보자 안내서
 ================
 
+> 이 안내서는 [beginner_ko.odt](/files/beginner_ko.odt) 또는 [beginner_ko.pdf](/files/beginner_ko.pdf)로 다운로드할 수 있습니다  
+> 2015-07-12에 검토됨  
 
 이 안내서에서는 OSM을 시작하는 방법을 단계별로 알려주고 있습니다.
 이제부터 어떻게 계정을 설정하는지,
