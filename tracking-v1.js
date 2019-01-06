@@ -1,6 +1,6 @@
 /* Add div content */
 var html = '<div id="optout-contents"> \
-  <p>This site uses Matomo to analyze traffic and help us improve your user experience. It is processing your IP address and stores cookies on your browser for 13 months. Those data are only processed by us and our web hosting platform. You may choose to opt of of this below. </p> \
+  <p>This site uses Matomo to analyze traffic and help us improve your user experience. It is processing your IP address and stores cookies on your browser for 13 months. Those data are only processed by us and our web hosting platform. You may choose to opt out of this below. </p> \
   <p><a id="privlink" href="https://hotosm.org/privacy"> Learn more about our Privacy Policy</a></p> \
     <div id="optout-buttons"><div class="optout-button" id="optout-disagree">Do not agree</div>   <div class="optout-button" id="optout-agree">Agree</div></div> \
 </div>';
