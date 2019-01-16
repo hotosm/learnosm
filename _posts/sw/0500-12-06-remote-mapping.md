@@ -1,11 +1,11 @@
 ---
 layout: doc
 title: HOT Remote Mapping  
-permalink: /sw/coordination/HOT-Remote-Response-Guide 
+permalink: /sw/coordination/HOT-Remote-Response-Guide/
 lang: sw
 category: coordination
 ---
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot_theme/logo.png)
+![HotGuideLogo](/images/hot-logo.png)
 
 # Muongozo wa HOT Remote Response 
 HOT ni jamii ya kimataifa inayofanya kazi kwa misingi ya vyanzo huria na data huria kwa msaada wa kibinadamu na maendeleo ya kiuchumi.

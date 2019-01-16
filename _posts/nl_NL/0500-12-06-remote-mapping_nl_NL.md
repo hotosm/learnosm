@@ -1,14 +1,14 @@
 ---
 layout: doc
 title: HOT Remote Mapping  
-permalink: /nl_NL/coordination/HOT-Remote-Response-Guide 
+permalink: /nl_NL/coordination/HOT-Remote-Response-Guide/
 lang: nl_NL
 category: coordination
 ---
 
 #HOT Remote Response Guide   
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
+![HotGuideLogo](/images/hot-logo.png)  
 
 > Deze handleiding kan worden gedownload als  remote-mapping_nl_NL.odt](/files/remote-mapping_nl_NL.odt) of [remote-mapping_nl_NL.pdf](/files/remote-mapping_nl_NL.pdf)  
 > Bijgewerkt 18-09-2015  

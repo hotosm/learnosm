@@ -1,11 +1,11 @@
 ---
 layout: doc
 title: Віддалене редагування HOT  
-permalink: /uk/coordination/HOT-Remote-Response-Guide
+permalink: /uk/coordination/HOT-Remote-Response-Guide/
 lang: uk
 category: coordination
 ---
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot_theme/logo.png)
+![HotGuideLogo](/images/hot-logo.png)
 
 # Настанови HOT з надання дистанційної допомоги
 Humanitarian OpenStreetMap Team (HOT)  [Команда OpenStreetMap з гуманітарної
