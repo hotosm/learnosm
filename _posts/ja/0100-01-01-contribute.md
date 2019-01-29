@@ -2,13 +2,13 @@
 layout: contribute
 permalink: /ja/contribute/
 lang: ja
-title: お手伝い
-contributetitle: "このガイドの改善にご協力ください！"
-startwith: "参加方法"
-startA: "ご意見ご感想"
-startB: "ページを翻訳"
-startC: "誤訳の報告"
-startD: "サイトをForkして改善"
+title: Contribute
+contributetitle: "ガイドの拡充にご協力ください"
+startwith: "準備はよろしいですか？"
+startA: "フィードバック"
+startB: "翻訳協力"
+startC: "別の言語の画面表示を提示"
+startD: "課題の報告と作業協力"
 nosearch: true
 ---
-このガイドの作成とメンテナンスは [OpenStreetMap](http://www.openstreetmap.org/) および [OpenStreetMap人道支援チーム](http://hotosm.org/) によって行われています。お気づきの点がありましたら、メールなどでご連絡をいただくか、あるいは直接 [Github](http://github.com/hotosm/learnosm) 経由で改善案をお送りください。
+このガイドは  [OpenStreetMap](http://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](http://hotosm.org/) によってメンテナンスされています。ガイドの内容改善のため、フィードバックをお寄せいただくか、[Github](http://github.com/hotosm/learnosm) から協力をいただけますと幸いです。

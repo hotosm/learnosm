@@ -8,7 +8,7 @@ category: coordination
 
 # نقشه‌کشی انسان‌دوستانه
 
-![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
+![HotGuideLogo](/images/hot-logo.png)
 
 > این راهنما را می‌توان به صورت [humanitarian_fa.odt](/files/humanitarian_fa.odt) و یا [humanitarian_fa.pdf](/files/humanitarian_fa.pdf) دانلود کرد.  
 تاریخ بازبینی ۱۳۹۴/۰۶/۱۷

@@ -12,6 +12,8 @@ Der iD Editor
 > Diese Anleitung kann als [beginner_id-editor_de.odt](/files/beginner_id-editor_de.odt) oder als [beginner_id-editor_de.pdf](/files/beginner_id-editor_de.pdf) heruntergeladen werden.  
 Überprüft 2016-03-30  
 
+Wollen Sie gerade mit dem Tasking Manager ein Projekt für HOT oder MissingMaps bearbeiten? Schauen Sie doch einmal in unsere [HOT-tips](/de/hot-tips/).  
+
 - TOC
 {:toc}
 
@@ -83,7 +85,7 @@ Um einen neuen Punkt hinzuzufügen, klicken Sie auf die Schaltfläche **Punkt**.
 - Beachten Sie, dass ein Punkt hinzugefügt wird. Gleichzeitig öffnet sich links ein Bedienungsfeld, bei dem Sie Attribute für das Objekt auswählen können. Klicken Sie auf **Krankenhausgelände**, um den Punkt als Krankenhaus zu kennzeichnen.  
 ![image22][]  
 - Sie können das Formular benutzen, um Detailinformationen über den Punkt einzugeben. Sie können den Namen des Krankenhauses, die Adresse und weitere zusätzliche Informationen eingeben. Beachten Sie, dass es bei jedem Objekttyp ein jeweils anderes Eingabeformular gibt, je nach dem, welches Attribut Sie im Eigenschafteneditor auswählen.  
-- Falls Sie einen Fehler machen, z. B. wenn Sie den Punkt falsch platziert haben, können Sie ihn an eine andere Stelle verschieben, indem Sie die linke Maustaste über dem Punkt gedrückt halten. Wenn Sie den Punkt entfernen möchten, klicken Sie mit der linken Maustaste auf den Punkt und dann auf den Knopf, der wie ein Mülleimer aussieht. ![image23][]{: height="24px"}  
+- Wenn Sie einen Fehler machen, etwa den Punkt falsch platzieren, können Sie den Punkt verschieben in dem Sie die linke Maustaste über dem Punkt gedrückt halten während Sie die Maus bewegen. Wenn Sie den Punkt löschen möchten klicken Sie mit der linken Maustaste auf den Punkt, aktivieren dann mit der rechten Maustaste das Kontextmenü und klicken schließlich auf das Icon, das wie ein Mülleimer aussieht. ![image23][]{: height="24px"}  
 Ein "Punkt", der mit dem iD-Editor erstellt wurde, ist eigentlich ein alleinstehender "Knoten" mit einer Reihe von "tags" auf ihm.  
 
 ### Zeichnen von Linien  
@@ -95,7 +97,7 @@ Um eine neue Linie hinzuzufügen, klicken Sie auf die Schaltfläche Linie. ![ima
 - Genau wie bei Punkten wählen Sie die entsprechenden Attribute für Ihre Linie aus.  
 - Sie können Punkte der Linie bewegen, indem Sie Ihre linke Maustaste drücken und den Punkt verschieben.  
 - Sie können auch die ganze Linie bewegen, indem Sie sie auswählen und das **Bewegungswerkzeug** auswählen. Ziehen Sie anschließend die Linie zu einer neuen Position. ![image30][]{: height="24px"}  
-- Wenn Sie Ihre linke Maustaste auf einem einzelnen Punkt (node) betätigen, werden Sie diese Werkzeuge sehen:  
+- Wenn Sie mit der linken Maustaste auf einen einzelnen Punkt (Knoten) der Linie klicken und dann mit einem rechten Mausklick das Kontextmenü aktivieren, sehen Sie diese Werkzeuge:  
 - Punkt von Linie entfernen ![image23][]{: height="24px"}  
 - Punkt von Linie trennen ![image26][]{: height="24px"}  
 - Die Linie am ausgewählten Punkt in zwei Teile teilen. ![image27][]{: height="24px"}  
@@ -117,9 +119,19 @@ Um eine Fläche zu zeichnen, klicken Sie auf **Fläche**. ![image34][]{: height=
 - Ihr Mauszeiger wird sich in ein Plus (+) verwandeln. Versuchen Sie zunächst, mithilfe der Bilder ein Gebäude einzuzeichnen.  
 - Sie werden feststellen, dass sich die Farbe der Fläche in Abhängigkeit der von Ihnen gewählten Attribute verändern wird.   
 ![image35][]  
-- Die Ihnen zur Verfügung stehenden Werkzeuge gleichen denen einer Linie, wenn Sie darauf klicken.  
+- Die Werkzeuge, die Ihnen nach dem Auswählen des Polygons und Aktivieren des Kontextmenüs mit der rechten Maustaste zur Verfügung stehen, sind ähnlich zu denen im Kontextmenü einer Linie.  
 
 Ein "Polygon" im iD-Editor ist eigentlich ein "geschlossener Weg" mit Attributen.
+
+### Zeichnen von Multipolygonen
+
+Manchmal müssen Sie ein Polygon zeichnen, das nicht nur eine äußere Kontur sondern auch eine oder mehrere innere Konturen besitzt. Denken Sie nur an Gebäude mit Innenhöfen oder Seen mit Inseln. *Zeichnen Sie nicht alle diese Konturen in einem Linienzug* so dass die inneren Konturen wie mit einem Faden an der äußeren Kontur aufgehängt sind. Zeichnen Sie alle Konturen bitte einzeln, weisen Attribute nur der äußeren Kontur zu, wählen alle Konturen aus und drücken **c** um sie zu einem sogenannten Multipolygon  zusammenzufassen.
+
+![create multipolygon][]
+
+Wenn Sie eine der Konturen des neu erzeugten Multipolygons auswählen, sehen Sie links, zu welchem Multipolygon sie gehört.
+
+![part of multipolygon][]
 
 Änderungen Speichern
 --------------------
@@ -150,6 +162,11 @@ Oder fügen Sie benutzerdefinierte Attribute hinzu, indem Sie auf **Alle Eigensc
 ![image45][]  
 - Klicken Sie auf Plus (+), um Attribute und Werte hinzuzufügen oder zu entfernen.
 
+Weitere Anleitungen
+------------------
+
+Auf unserer [Übersicht über externe Ressourcen](/de/resources/#iD) finden Sie eine Reihe von Video-Tutorials aus verschiedenen Quellen, allerdings meist auf Englisch.
+
 iD versus JOSM
 ---------------  
 
@@ -169,6 +186,7 @@ iD versus JOSM
 
 [^fieldpaper]: Es gibt ein [Dokument in LearnOSM](/de/mobile-mapping/field-papers/) mit näheren Informationen über Field Paper.
 
+Der Inhalt der englischen Fassung dieser Anleitung liegt als [Foliensatz](/files/iD-editor-training.pptx)  vor
 
 
 
@@ -218,4 +236,6 @@ iD versus JOSM
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.depng
 [image45]: /images/beginner/id-editor_image45.de.png
+[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
+[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png

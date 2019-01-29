@@ -8,7 +8,7 @@ category: coordination
 
 # Lập Bản đồ Nhân đạo
 
-![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
+![HotGuideLogo](/images/hot-logo.png)
 
 > Hướng dẫn này có thể được tải tại đây[humanitarian_vi.odt](/files/humanitarian_vi.odt) or [humanitarian_vi.pdf](/files/humanitarian_vi.pdf)  
 > Reviewed 2015-09-18

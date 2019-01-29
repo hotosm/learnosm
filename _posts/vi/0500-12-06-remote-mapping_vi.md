@@ -1,14 +1,14 @@
 ---
 layout: doc
 title: Lập bản đồ từ xa với HOT  
-permalink: /vi/coordination/HOT-Remote-Response-Guide 
+permalink: /vi/coordination/HOT-Remote-Response-Guide/
 lang: vi
 category: coordination
 ---
 
 # Hướng dẫn về Hồ trợ từ xa với HOT   
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
+![HotGuideLogo](/images/hot-logo.png)  
 
 > Hướng dẫn này có thể tải tại đây [remote-mapping_vi.odt](/files/remote-mapping_vi.odt) or [remote-mapping_vi.pdf](/files/remote-mapping_vi.pdf)  
 > Reviewed 2015-09-18  

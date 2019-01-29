@@ -12,6 +12,8 @@ De iD Editor
 >  Deze handleiding kan worden gedownload als [beginner_id-editor_nl_NL.odt](/files/beginner_id-editor_nl_NL.odt) of [beginner_id-editor_nl_NL.pdf](/files/beginner_id-editor_nl_NL.pdf)  
 > Bijgewerkt op 30-03-2016  
 
+Beginnen met in kaart brengen voor een Tasking Manager voor HOT of MissingMaps etc? Bekijk ons [gedeelte HOT-tips](/nl_NL/hot-tips/).  
+
 - TOC
 {:toc}
 
@@ -83,7 +85,7 @@ Klik op de knop **Punt** om een nieuw punt toe te voegen. ![image3][]{: height="
 -⇥ Je ziet dat een nieuw punt is toegevoegd. Tegelijk zal het linker paneel veranderen in een formulier waar je tags kunt toevoegen aan het punt. Klik **omgeving Ziekenhuis** om het punt aan te merken als ziekenhuis.  
 ![image22][]  
 -⇥ Je kunt de formulieren gebruiken om gedetailleerde informatie toe te voegen aan het punt. Je kunt de naam van het ziekenhuis toevoegen, een adres en/of andere informatie. Onthoud dat elk punt andere opties heeft, afhankelijk van welke tag je kiest uit het paneel met objecten.  
--⇥ Als je een fout maakt, zoals een verkeerde locatie, kun je het punt verplaatsen naar een nieuwe locatie door de linkermuisknop ingedrukt te houden op het punt en het te verslepen. Of, als je het punt wilt verwijderen, klik op het punt en klik op het pictogram dat op een prullenbak lijkt. ![image23][]{: height="24px"}  
+-	 Als je een fout maakt, zoals een verkeerde locatie, kun je het punt verplaatsen naar een nieuwe locatie door de linkermuisknop ingedrukt te houden op het punt en het te verslepen. Of, als je het punt wilt verwijderen, klik met de linker muisknop op het punt, activeer het contextmenu door met de rechter muisknop te klikken en klik dan op het pictogram dat op een prullenbak lijkt. ![image23][]{: height="24px"}  
 Een "punt", aangemaakt in de iD editor is een opzichzelf staande "node" met een aantal "tags" eraan.  
 
 ### Lijnen tekenen  
@@ -95,7 +97,7 @@ Klik op de knop **Lijn** om een nieuwe lijn toe te voegen. ![image4][]{: height=
 - Net als met het punt, selecteer de juiste tags voor je lijn.  
 - Je kunt punten van de lijn slepen door met de linker muisknop op een punt te klikken en dat te slepen.  
 - Je kunt ook de gehele lijn verplaatsen door die te selecteren en het gereedschap **Verplaats** te kiezen. Sleep dan de lijn naar een nieuwe positie. ![image30][]{: height="24px"}  
-- Als je op met de linker muisknop op een individueel punt (node) op de lijn klikt, zie je de volgende gereedschappen:  
+- Als je op met de linker muisknop op een individueel punt (node) op de lijn klikt en klikt met de rechter muisknop om het contextmenu te activeren, zie je de volgende gereedschappen:  
 - Verwijder punt van de lijn. ![image23][]{: height="24px"}  
 - Punt losmaken van de lijn. ![image26][]{: height="24px"}  
 - Lijn in twee lijnen splitsen vanaf het door u geselecteerde punt. ![image27][]{: height="24px"}  
@@ -117,9 +119,19 @@ Klik op de knop **Vlak** om een nieuw meerzijdig vlak toe te voegen. ![image34][
 - Je muisaanwijzer zal veranderen in een plusteken (+) . Probeer de omtrek van een gebouw te volgen met de luchtfoto als richtlijn.  
 - Je zult zien dat de kleur van je vlak zal veranderen, afhankelijk van de attributen die je daar aan toewijst.  
 ![image35][]  
-- De gereedschappen die beschikbaar zijn als je een vorm selecteert zijn gelijk aan die voor een lijn.  
+- De gereedschappen, die beschikbaar zijn als je een vorm selecteert en met de rechter muisknop het contextmenu activeert, zijn gelijk aan die wanneer u op een lijn klikt.  
 
 Een "vlak" in de iD editor is eigenlijk een "gesloten weg" met tags eraan gekoppeld.
+
+### Multipolygonen tekenen
+
+Soms moet u een polygoon tekenen die niet alleen ene buitenste omtrek heeft maar ook één of meer interne omtrekken. Denk aan gebouwen met daarbinnen gelegen tuinen of eilanden met meren. *Teken niet al deze wegen in één lijn* zodat de binnenste omtrekken de buitenste omtrek onderbreken. Teken in plaats daarvan die omtrekken afzonderlijk, plaats alleen tags op de buitenste omtrek, selecteer alle omtrekken en druk op **c** om ze te combineren tot wat een multipolygoon wordt genoemd.
+
+![create multipolygon][]
+
+Wanneer u een van de omtrekken van de nieuw gemaakte multipolygoon selecteert, kunt u aan de linkerkant zien tot welke multipolygonen die behoort
+
+![part of multipolygon][]
 
 Bewerkingen opslaan
 --------------------
@@ -150,6 +162,11 @@ Of je kunt aangepaste tags toevoegen door te klikken op **Alle tags**. ![image44
 ![image45][]  
 - Klik op het plusteken  (+) om sleutels en waarden toe te voegen of klik op het pictogram Prullenbak om tags te verwijderen.
 
+Meer handleidingen
+------------------
+
+[Onze pagina externe bronnen](/en/resources/#iD) verschaft links naar een aantal videohandleidingen van verschillende bronnen.
+
 iD versus JOSM
 ---------------  
 
@@ -169,6 +186,7 @@ iD versus JOSM
 
 [^fieldpaper]: Er is een [gedeelte van LearnOSM](/nl_NL/mobile-mapping/field-papers/) dat meer informatie geeft over Field Papers.
 
+De inhoud van deze handleiding is beschikbaar als een [presentatie](/files/iD-editor-training.pptx)
 
 
 
@@ -218,4 +236,6 @@ iD versus JOSM
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
+[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
+[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png

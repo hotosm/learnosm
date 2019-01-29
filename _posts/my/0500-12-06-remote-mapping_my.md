@@ -1,14 +1,14 @@
 ---
 layout: doc
 title: HOT Remote Mapping  
-permalink: /my/coordination/HOT-Remote-Response-Guide 
+permalink: /my/coordination/HOT-Remote-Response-Guide/
 lang: my
 category: coordination
 ---
 
 # HOT Remote Response လမ်းညွှန်   
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
+![HotGuideLogo](/images/hot-logo.png)  
 
 > ဤလမ်းညွှန်ချက်ကို [remote-mapping_my.odt](/files/remote-mapping_my.odt) (သို့မဟုတ်) [remote-mapping_my.pdf](/files/remote-mapping_my.pdf) တွင် download ပြုလုပ်၍ ရယူနိုင် ပါသည်။	  
 > Reviewed 2015-09-18  

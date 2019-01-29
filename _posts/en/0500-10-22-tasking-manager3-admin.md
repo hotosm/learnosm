@@ -267,6 +267,8 @@ Here are some suggested bits of information which you might include in the proje
 Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page. 
 If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
 
+Please go through the [checklist](/files/tasking-manager3-checklist.pdf) in order to make sure that you did not forget something important.
+
 [TM Tile Sizes]: /images/coordination/tm3_tile_sizes.png
 [TM New]: /images/coordination/tm3_create_new.png
 [TM Description]: /images/coordination/tm3_description.png

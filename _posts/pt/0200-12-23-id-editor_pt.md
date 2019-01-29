@@ -12,10 +12,12 @@ O Editor iD
 > Este guia pode ser descarregado como [beginner_id-editor_pt.odt](/files/beginner_id-editor_pt.odt) ou [beginner_id-editor_pt.pdf](/files/beginner_id-editor_pt.pdf)  
 > Revisto em 2016-03-30  
 
+Está a começar a mapear com o Gestor de Tarefas do HOT ou MissingMaps? Veja a [secção dicas HOT](/pt/hot-tips/).  
+
 - TOC
 {:toc}
 
-O editor iD é o editor padrão do OpenStreetMap integrado no navegador de internet. O iD é rápido e fácil de utilizar, e permite mapear a partir de várias fontes, tais como imagens de satélite e aéreas, GPS,  Field Papers ou Mapillary.  
+O editor iD é o editor padrão do OpenStreetMap integrado no navegador de internet. O iD é rápido e fácil de utilizar, e permite mapear a partir de várias fontes, tais como imagens de satélite e aéreas, GPS, Field Papers ou Mapillary.  
 
 O editor iD é uma boa ferramenta para fazer pequenas edições de forma fácil que não necessitem das funcionalidades avançadas do JOSM (um editor mais avançado e complexo). Este capítulo demonstra o básico da edição com o iD.  
 
@@ -23,8 +25,8 @@ Começar com o Editor iD
 ----------------------
 
 -	O editor iD necessita de uma ligação permanente à Internet.  
--	Abra o seu navegador de internet e aceda ao site do OpenStreetMap website em [http://www.openstreetmap.org](http://www.openstreetmap.org).  
--	**Entre na conta** utilizando os dados de acesso da sua conta no OpenStreetMap  
+-	Abra o seu navegador de internet e aceda ao site do OpenStreetMap em [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+-	**Inicie a Sessão** utilizando os dados de acesso da sua conta no OpenStreetMap  
 -	Desloque e aproxime o mapa na área que deseja editar. Pode deslocar o mapa clicando e mantendo premido o botão esquerdo do rato e deslocando o mapa para a área que quer editar.  
 -	Clique na pequena seta logo a seguir a **Editar** e clique na opção do menu que aparece **Editar com iD (editor no navegador)**.  
 
@@ -35,30 +37,30 @@ Interface do Editor iD
 -------------------------
 ![image2][]
 
-1. **Editar Painel de Características:** Este painel mostra etiquetas (tags) do objecto seleccionado no mapa.  
+1. **Painel de Editar Elementos:** Este painel mostra etiquetas (tags) do objeto selecionado no mapa.  
 	Pode adicionar ou editar etiquetas neste painel.  
 2. **Ferramentas:** Este painel mostra ferramentas básicas de edição:  
     Desenhar ponto (nó), *tecla de atalho* **1** ![image3][]{: height="24px"}  
     Desenhar linha (via), *tecla de atalho* **2** ![image4][]{: height="24px"}  
-    Desenhar forma (polígono), *tecla de atalho* **3** ![image5][]{: height="24px"}  
+    Desenhar área (polígono), *tecla de atalho* **3** ![image5][]{: height="24px"}  
     Desfazer, *teclas de atalho* **Ctrl+z** ![image6][]{: height="24px"}  
     Refazer, *teclas de atalho* **Ctrl+y** ![image7][]{: height="24px"}  
-    Guardar alterações, *teclas de atalho* **Ctrl+s** ![image8][]{: height="24px"}  
+    Gravar, *teclas de atalho* **Ctrl+s** ![image8][]{: height="24px"}  
 3. **Painel do mapa:** Este painel mostra várias funções de configuração:  
     Aproximar, *tecla de atalho* **+** ![image9][]{: height="24px"}  
     Afastar, *tecla de atalho* **-** ![image10][]{: height="24px"}  
-    Ir para a sua localização ![image11][]{: height="24px"}  
-    Configurar camada de fundo, *tecla de atalho* **b** ![image12][]{: height="24px"}  
-    Dados de Mapa, *tecla de atalho* **f** ![Map Data][]{: height="24px"}  
+    Mostrar a minha localização ![image11][]{: height="24px"}  
+    Configurar imagem de fundo, *tecla de atalho* **b** ![image12][]{: height="24px"}  
+    Dados dO Mapa, *tecla de atalho* **f** ![Map Data][]{: height="24px"}  
     Abrir o Menu de Ajuda, *tecla de atalho* **h** ![image13][]{: height="24px"}  
-4. **Painel de informação:** Este painel mostra informação variada, tal como a barra de escala e quais os utilizadores que contribuiram para a área.  
+4. **Painel de informação:** Este painel mostra informação variada, tal como a barra de escala e quais os utilizadores que contribuíram para a área.  
 
 Configurar a Camada de Fundo
 --------------------------------
 
-Clique o botão **Configuração de fundo** ou utilize a *tecla de atalho* **b**.![image14][]{: height="24px"}  
+Clique o botão **Configurar imagem de fundo** ou utilize a *tecla de atalho* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-Para alterar o **nível de brilho** clique em uma destas caixas, os níveis são 100%, 75%, 50%, e 25% ![image16][]{: height="24px"}  
+Para alterar o **nível de brilho** clique numa destas caixas, os níveis são 100%, 75%, 50%, e 25% ![image16][]{: height="24px"}  
 Também pode **alterar a camada de fundo** baseado no seu fornecedor de imagens preferido (o padrão é o Bing Aerial Imagery).  
 
 Pode adicionar as suas próprias telas de mapas clicando em  **Personalizado**. Por exemplo, se quiser **adicionar um Field Paper** [^fieldpaper], clique em **Personalizado** e então clique no ícone da lupa que está à direita para abrir a seguinte janela:-  
@@ -83,19 +85,19 @@ Para adicionar um novo ponto, clique no botão **Ponto**. ![image3][]{: height="
 - Note que é adicionado um novo ponto. Ao mesmo tempo, o painel lateral direito mostrará botões e campos onde pode selecionar e configurar atributos do objeto. Clique em **Hospital** para marcar o ponto como hospital.  
 ![image22][]  
 - Pode usar os campos para preencher informações sobre o ponto. Pode introduzir o nome de um hospital, morada e outras informações adicionais. Note que cada um dos elementos terão opções diferentes dependendo da etiqueta que escolher no painel lateral.  
-- Se cometer um erro, como uma localização errada, pode mover o ponto para uma nova localização mantendo premido o botão esquerdo do rato no ponto e arrastando-o. Se quiser eliminar o ponto, clique com o botão esquerdo do rato e depois clique no botão do caixote do lixo. ![image23][]{: height="24px"}  
+- Se cometer um erro, como uma localização errada, pode mover o ponto para uma nova localização mantendo premido o botão esquerdo do rato no ponto do mapa e arrastando-o com o rato. Ou se preferir, pode eliminar o ponto, clicando com o botão esquerdo do rato no ponto, e de seguida com o botão direito do rato que faz aparecer o menu de contexto onde pode clicar no ícone do caixote do lixo para apagar o ponto. ![image23][]{: height="24px"}  
 Um "ponto" criado no editor iD é na verdade um "nó" isolado com uma série de "etiquetas" nele.  
 
 ### Desenhar Linhas  
 
 Para adicionar uma nova linha, clique no botão **Linha**. ![image4][]{: height="24px"}  
 
-- O cursor do seu mouse irá mudar para o botão de mais (+). Encontre uma via que não esteja desenhada no mapa e trace-a. Clique no ponto onde a via se inicia, mova o mouse e clique para adicionar pontos. Dê um duplo clique para finalizar o desenho da via. Observe o painel no lado esquerdo.  
+- O cursor do rato irá mudar para o botão de mais (+). Encontre uma estrada que não esteja desenhada no mapa e desenhe-a. Clique no ponto onde o segmento da estrada começa, mova o rato e clique para adicionar mais pontos. Faça um clique duplo no último ponto para terminar o desenho da estrada. Observe o painel no lado esquerdo.  
 ![image24][]  
-- Tal como num ponto, selecione as etiquetas apropriadas para a linha.  
-- Pode arrastar pontos da linha clicando com o botão esquerdo do rato num ponto e arrastando-o de seguida.  
+- Tal como num ponto, selecione as etiquetas apropriadas para a linha desenhada.  
+- Pode arrastar os pontos da linha clicando com o botão esquerdo do rato num ponto e arrastando-o de seguida.  
 - Também pode mover toda a linha selecionando-a e escolhendo a **ferramenta Mover**. Então arraste a linha para uma nova localização. ![image30][]{: height="24px"}  
-- Quando clica com o botão esquerdo do rato num ponto individual (nó) na linha, irá ver estas ferramentas:  
+- Quando clica com o botão esquerdo do rato num ponto individual na linha e clica de seguida com o botão direito do rato para ativar o menu de contexto, irá ver estas ferramentas:  
 - Eliminar ponto da linha. ![image23][]{: height="24px"}  
 - Desligar ponto da linha. ![image26][]{: height="24px"}  
 - Dividir a linha em 2 linhas no ponto que selecionou. ![image27][]{: height="24px"}  
@@ -108,18 +110,28 @@ Para adicionar uma nova linha, clique no botão **Linha**. ![image4][]{: height=
 
 Uma "linha" criada no editor iD é na verdade uma "via" com "etiquetas" nela.
 
->Uma nota especial sobre **Eliminar**: Regra geral, deve evitar eliminar objetos que outras pessoas mapearam se estes apenas precisam de melhoramentos. Pode eliminar os seus próprios erros, mas deve tentar *ajustar* os objetos de outros mapeadores se estes precisarem de alterações. Isto preserva o histórico dos itens na base de dados do OSM e é um sinal de respeito para com outros utilizadores. Se acha que algo deve ser eliminado, considere perguntar à pessoa que o fez ou numa das listas de email sobre isso primeiro.
+>Uma nota especial sobre **Eliminar**: Regra geral, deve evitar eliminar objetos que outras pessoas mapearam se estes apenas precisam de melhoramentos. Pode eliminar os seus próprios erros, mas deve tentar *ajustar* os objetos de outros mapeadores se estes precisarem de alterações. Isto preserva o histórico dos itens na base de dados do OpenStreetMap e é um sinal de respeito para com outros utilizadores. Se acha que algo deve ser eliminado, considere perguntar à pessoa que o fez ou numa das listas de email sobre isso primeiro.
 
-### Desenhar Formas (Polígonos)
+### Desenhar Áreas (Polígonos)
 
-Para adicionar uma forma geométrica com vários lados, clique no botão **Área**. ![image34][]{: height="24px"}  
+Para adicionar uma área (forma geométrica com vários lados), clique no botão **Área**. ![image34][]{: height="24px"}  
 
 - O cursor do rato irá mudar para o símbolo mais (+). Tente desenhar um edifício utilizando as imagens de satélite como guia.  
 - Irá notar que a cor da forma geométrica irá mudar dependendo dos atributos que lhe der.  
 ![image35][]  
-- As ferramentas que estão disponíveis quando selecione uma forma geométrica são similares àquelas disponíveis quando clica numa linha.  
+- As ferramentas que estão disponíveis quando seleciona uma área e ativa o menu de contexto com o botão direito do rato são similares àquelas quando clica numa linha.  
 
 Um "polígono" no editor iD é na verdade uma "via fechada" com etiquetas nela.
+
+### Desenhar Multi-Polígonos
+
+Por vezes tem de desenhar um polígono que não tem só um contorno exterior como também um interior. Um bom exemplo disso é um edifício com um pátio interior no meio ou lagos/albufeiras com ilhéus. *Não desenhe os contornos numa só linha* de forma a que os contornos de dentro estejam ligados aos de fora. Em vez disso desenhe estes contornos separadamente e adicione as etiquetas apenas ao contorno exterior, selecione todos os contornos e carregue na tecla **c** para as combinar no que chamamos de um multi-polígono.
+
+![create multipolygon][]
+
+Quando seleciona qualquer um dos contornos do multi-polígono acabado de criar, pode ver do lado esquerdo a que multi-polígonos este pertence.
+
+![part of multipolygon][]
 
 Gravar as Suas Alterações
 --------------------
@@ -150,6 +162,11 @@ Ou pode adicionar etiquetas personalizadas clicando em **Todas as etiquetas**. !
 ![image45][]  
 - Clique no símbolo mais (+) para adicionar chaves e valores ou clique no botão do caixote do lixo para eliminar etiquetas.
 
+Tutoriais adicionais
+------------------
+
+[A nossa página de recursos externos](/pt/resources/#iD) fornece hiperligações para uma série de tutoriais em vídeo de várias fontes.
+
 iD versus JOSM
 ---------------  
 
@@ -162,13 +179,14 @@ iD versus JOSM
 
 **o JOSM é melhor...**
 
-- Quando está a adicionar muitos edifícios (ver módulo buildings_tool / Ferramenta de Edifícios)
+- Quando está a adicionar muitos edifícios (ver o módulo buildings_tool / Ferramenta de Edifícios)
 - Quando está a editar muitos polígonos ou linhas que já existam
 - Quando tem uma ligação à Internet fraca / com falhas ou está desligado
-- Quando está a suar um esquema de etiquetas específico (ou modelos de etiquetas personalizados)
+- Quando está a usar um esquema de etiquetas específico (ou modelos de etiquetas personalizados)
 
 [^fieldpaper]: Existe uma [secção no LearnOSM](/pt/mobile-mapping/field-papers/) que fornece mais informação sobre os Field Papers.
 
+O conteúdo deste guia está disponível como [apresentação](/files/iD-editor-training.pptx)
 
 
 
@@ -218,4 +236,6 @@ iD versus JOSM
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
-[osm gps traces]: /images/beginner/id-editor_gps_public.png
+[criar multi-polígono]: /images/beginner/id-editor_create_multipolygon.png
+[parte de multi-polígono]: /images/beginner/id-editor_part_of_multipolygon.png
+[trilhos gps osm]: /images/beginner/id-editor_gps_public.png

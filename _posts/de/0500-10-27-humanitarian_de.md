@@ -8,7 +8,7 @@ category: coordination
 
 # Kartierung für humanitäre Zwecke
 
-![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
+![HotGuideLogo](/images/hot-logo.png)
 
 > Dieses Handbuch kann als  [humanitarian_de.odt](/files/humanitarian_de.odt) oder als [humanitarian_de.pdf](/files/humanitarian_de.pdf) heruntergeladen werden.  
 > Gereviewt am 2015-09-18

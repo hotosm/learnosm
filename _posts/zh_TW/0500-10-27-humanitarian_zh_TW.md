@@ -8,7 +8,7 @@ category: coordination
 
 # 人道繪圖
 
-![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
+![HotGuideLogo](/images/hot-logo.png)
 
 > 這份指南可以在 [humanitarian_zh_TW.odt](/files/humanitarian_zh_TW.odt) 或是 [humanitarian_zh_TW.pdf](/files/humanitarian_zh_TW.pdf) 下載  
 > Reviewed 2015-09-18

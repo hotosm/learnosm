@@ -1,6 +1,6 @@
 ---
 layout: doc
-permalink: /de/coordination/tm-whats-new-for-mappers
+permalink: /de/coordination/tm-whats-new-for-mappers/
 lang: de
 title: Was hat sich beim Kartieren im Tasking Manager 3 geändert
 category: coordination

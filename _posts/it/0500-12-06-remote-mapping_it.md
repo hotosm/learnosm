@@ -1,14 +1,14 @@
 ---
 layout: doc
 title: Mappatura da remoto con HOT  
-permalink: /it/coordination/HOT-Remote-Response-Guide 
+permalink: /it/coordination/HOT-Remote-Response-Guide/
 lang: it
 category: coordination
 ---
 
 # Guida all'azione remota con HOT   
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
+![HotGuideLogo](/images/hot-logo.png)  
 
 > Questa guida può essere scaricata come [remote-mapping_it.odt](/files/remote-mapping_it.odt) oppure [remote-mapping_it.pdf](/files/remote-mapping_it.pdf)  
 > Revisionato 2017-06-25  
