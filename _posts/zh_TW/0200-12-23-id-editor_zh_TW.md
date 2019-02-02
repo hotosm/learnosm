@@ -9,8 +9,10 @@ category: beginner
 iD 編輯器
 =============
 
-> 此一指南可供下載： [beginner_id-editor_zh_TW.odt](/files/beginner_id-editor_zh_TW.odt) 或 [beginner_id-editor_zh_TW.pdf](/files/beginner_id-editor_zh_TW.pdf)  
-> Reviewed 2016-03-30  
+> 此指南能以 [beginner_id-editor_zh_TW.odt](/files/beginner_id-editor_zh_TW.odt) 或 [beginner_id-editor_zh_TW.pdf](/files/beginner_id-editor_zh_TW.pdf) 下載  
+> 審閲於 2016-03-30  
+
+你要用任務管理器為 HOT 或是 MissingMaps 等專案開始畫地圖嗎？請見我們的[HOT-技巧區](/en/hot-tips/)。  
 
 - TOC
 {:toc}
@@ -83,7 +85,7 @@ iD 編輯器使用者界面
 - 注意你加了新點了。同時在左邊面板會變成能夠填寫物件詳細資訊的表格型式。點**醫院用地**能夠將節點標示為醫院。  
 ![image22][]  
 - 你可以用表格來填寫你的節點詳細資訊。你可以填寫醫院名稱、地址、和/或其他附加資訊。注意每一個圖徵會有不同選項，端示選了圖徵面板中那個標籤。  
-- 如果你出錯的話，像是標錯地點，你可以按住滑鼠左鍵，將節點拖拉到新的位置。或者你想刪除點，對著點按住左鍵，然後按像是垃圾筒的按鈕。![image23][]{: height="24px"}  
+- 如果你出錯的話，像是標錯地點，你可以按住滑鼠左鍵，將節點拖拉到新的位置。或者你想刪除點，對著點按住左鍵，按右鍵啟用內容選單，然後按像是垃圾筒的按鈕。![image23][]{: height="24px"}  
 iD 編輯器的「點」其他是上面有特定「標籤』的獨立「節點」。  
 
 ### 繪製線條  
@@ -95,7 +97,7 @@ iD 編輯器的「點」其他是上面有特定「標籤』的獨立「節點�
 - 就像是加點，選擇對線段最適合的標籤。  
 - 你可以藉由用左鍵按線段的點，來拖拉線段的點。  
 - 你也可以選擇整個線段來移動整個線段，選擇**移動工具**，接著拖拉整個線段到新的位置。![image30][]{: height="24px"}  
-- 當你對著線段上單獨的節點按滑鼠左鍵，你會看到這些工具：  
+- 當你對著在線上單獨的點 (節點) 點滑鼠左鍵時，接著按滑鼠右鍵時會啟用內容選單，你會看到以下工具：  
 - 刪除線段上的點。![image23][]{: height="24px"}  
 - 從線段分離節點。![image26][]{: height="24px"}  
 - 從選取的點切割線段，變成兩個線段。![image27][]{: height="24px"}  
@@ -117,9 +119,19 @@ iD 編輯器的「線」通常是上面有標籤的「線段」。
 - 你滑鼠指標會變成加號(+)。試著用影像當參考描繪建築。  
 你會注意到形狀的顏色會隨著添加的屬性而會變。  
 ![image35][]  
-- 選擇形狀能夠使用的工具類似點選線的情形。  
+- 當你按滑鼠右鍵時，這些工具在你選擇形狀和啟用內容選單時可以用，就像你點線段時類似。  
 
 *多邊形*在 iD 編輯器裡實際上是有標籤的「封閉線段」。
+
+### 繪製多重多邊形
+
+有時候你需要畫不只有外部輪廓，還有內部輪廓的情形。你可以想到房子裡有內院，或者是湖中有島嶼。*不需要畫所有路徑變成單一線段*，這樣你的內部輪廓與外部輪廓斷絕。請分開畫這些輪廓，並且只在外部輪廓加標籤，接著選取所有輪廓並且按 **c**，諤所有東西合併為多重多邊形。
+
+![創建多重多邊形][]
+
+當你選擇新創建的多重多邊形輪廓的任何部分時，你可以在左側看到多重多邊形歸屬狀況
+
+![多重多邊形部分][]
 
 儲存您的編輯
 --------------------
@@ -150,6 +162,11 @@ iD 編輯器的「線」通常是上面有標籤的「線段」。
 ![image45][]  
 - 點選加號 (+) 增加鍵和值，或是點垃圾筒圖示刪除標籤。
 
+更多教學
+------------------
+
+[我們外部的資源頁面](/zh_TW/resources/#iD) 提供來自不同來源的數倍影片教學。
+
 iD vs JOSM
 ---------------  
 
@@ -169,6 +186,7 @@ iD vs JOSM
 
 [^fieldpaper]：關於 Field Papers，手冊中有 [section of LearnOSM](/en/mobile-mapping/field-papers/) 的章節。
 
+這份指南的內容部分，也在這份[簡報](/files/iD-editor-training.pptx)裡
 
 
 
@@ -218,4 +236,6 @@ iD vs JOSM
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
+[創建多重多邊形]: /images/beginner/id-editor_create_multipolygon.png
+[多重多邊形部分]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png

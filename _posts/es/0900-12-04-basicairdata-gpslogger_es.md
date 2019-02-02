@@ -6,7 +6,7 @@ lang: es
 category: mobile-mapping
 ---
 
-> Esta guía puede ser descargada como [basicairdata_gpslogger_en.odt](/files/basicairdata_gpslogger_en.odt) o [basicairdata_gpslogger_en.pdf](/files/basicairdata_gpslogger_en.pdf)  
+> Esta guía puede ser descargada como [basicairdata_gpslogger_es.odt](/files/basicairdata_gpslogger_es.odt) o [basicairdata_gpslogger_es.pdf](/files/basicairdata_gpslogger_es.pdf)  
 
 BasicAirData GPS Logger
 =======================
@@ -46,7 +46,7 @@ Uso básico
 
 Si la ubicación del GPS no está activa en su teléfono, actívela. Luego vaya a un área abierta e inicie GPS Logger.
 
-1. Espere hasta que la aplicación encuentre la solución. Cuando esté disponible, la pestaña __GPS FIX__ comenzará a mostrar las coordenadas. En este punto (cuando sea posible) debe esperar al menos otro minuto antes de continuar con la siguiente fase para permitir que la señal se estabilice
+1. Espere hasta que la aplicación encuentre la señal GPS. Cuando esté disponible, la pestaña __GPS FIX__ comenzará a mostrar las coordenadas. En este punto (cuando sea posible) debe esperar al menos otro minuto antes de continuar con la siguiente fase para permitir que la señal se estabilice
 2. Haga clic en el botón __Trackpoints__ del panel inferior para comenzar a registrar puntos de seguimiento. El botón se pondrá rojo. Puede activar y desactivar el proceso de grabación en cualquier momento haciendo clic en dicho botón. Este muestra el número de puntos de seguimiento grabados.
 Puede ir a la pestaña __TRACK__ para ver en tiempo real las estadísticas de su viaje.
 3. Cuando finalice su viaje, toque dos veces el pequeño __V tick__ ubicado cerca de la esquina superior derecha para finalizar (finalizar) la pista activa.
@@ -59,11 +59,11 @@ Cuando haya terminado de recopilar datos de campo, puede importar las trazas GPX
 Puede usar este simple procedimiento en dos pasos:
 
 1. Guarde la traza GPX en su computadora personal en alguna de las siguientes maneras:
-* Vaya a la lista de trazas del GPS Logger, toque la pista deseada y luego haga clic en __Export__; el archivo GPX se creará y guardará en la carpeta /GPSLogger de su dispositivo Android (asegúrese de que el formato GPX esté habilitado en la pantalla de configuración). Luego, conecte el teléfono con su PC con un cable USB y mueva (o copie) sus trazas GPX en su PC con el Administrador de archivos;
-* Como alternativa, puede usar la función __Share__ para enviar el archivo a la PC (puede hacerlo por correo electrónico, FTP o utilizando diversos servicios en la nube). Las posibilidades de uso compartido dependen de las aplicaciones de terceros instaladas en su dispositivo Android;
+* Vaya a la lista de trazas del GPS Logger, toque la pista deseada y luego haga clic en __Export__; el archivo GPX se creará y guardará en la carpeta /GPSLogger de su dispositivo Android (asegúrese de que el formato GPX esté habilitado en la pantalla de configuración). Luego, conecte el teléfono con su ordenador usando un cable USB y mueva (o copie) sus trazas GPX en el ordenador con el Administrador de archivos;
+* Como alternativa, puede usar la función __Share__ para enviar el archivo al ordenador (puede hacerlo por correo electrónico, FTP o utilizando diversos servicios en la nube). Las posibilidades de uso compartido dependen de las aplicaciones de terceros instaladas en su dispositivo Android;
 2.  Importe la traza GPX en el  Editor de OpenStreetMap: usando las trazas GPX con los editores JOSM e iD es fácil simplemente arrastrando los archivos y soltándolos en la aplicación (o en el caso de iD en la pestaña del navegador).
 
-Documentación oficial
+Documentación oficial (en inglés)
 ----------------------
 
 - Para mayor información acerca de esta aplicación puede leer [este artículo](http://www.basicairdata.eu/projects/android/android-gps-logger/).<br>

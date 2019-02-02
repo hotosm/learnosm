@@ -29,7 +29,7 @@ Toto je komentovaný seznam odkazů na jiné weby, které považujeme za užite�
 ## Mapatony a podobné události
 
   * [Wiki o Mapathonech pro Missing Maps](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) téměř kontrolní seznam, který vám dává představu, co chcete zvážit, pokud chcete uspořádat mapathon; ačkoli se zaměřuje na Missing Maps, většina z nich se vztahuje na mapathony obecně
-  * [Wiki záznam o Missing Maps Mapathonech v univerzitním prostředí] (http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) téměř stejný dokument jako předchozí, ale se specifickými náznaky, pokud jsou organizovány na vysoké škole
+  * [Wiki záznam o Missing Maps Mapathonech v univerzitním prostředí](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) téměř stejný dokument jako předchozí, ale se specifickými náznaky, pokud jsou organizovány na vysoké škole
   * [návod pro Mapathony na webu developmentSEED](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) Tento dokument je založen na diskuzi z konference o Stavu mapování  a o tom, jak pořádat mapathon
 
 ### Kontrolní seznamy pro plánování
