@@ -236,6 +236,6 @@ Le contenu de ce guide est disponible sous forme de[présentation](/files/iD-edi
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
-[créer des multipolygones]: /images/beginner/id-editor_create_multipolygon.png
-[partie de multipolygone]: /images/beginner/id-editor_part_of_multipolygon.png
+[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
+[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png

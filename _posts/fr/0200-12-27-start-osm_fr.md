@@ -110,7 +110,7 @@ Cependant, dans la [section JOSM](/fr/josm/), nous verrons une application auton
 En résumé
 -------
 
-Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
+Félicitations ! Si tout s'est bien passé, vous avez maintenant un nom d'utilisateur et un mot de passe OpenStreetMap, vous savez comment naviguer sur le site d'OSM, et vous possédez tous les outils nécessaires pour ajouter des points sur la carte.
 
 
 
