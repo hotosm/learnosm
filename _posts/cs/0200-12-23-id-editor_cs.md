@@ -165,7 +165,7 @@ Nebo můžete přidat vlastní značky kliknutím na položku **Všechny značky
 Další tutorialy
 ------------------
 
-Stránka našich externích zdrojů [Our external resources page](/en/resources/#iD) poskytuje odkazy na řadu video tutoriálů z různých zdrojů.
+[Stránka našich externích zdrojů](/cs/resources/#iD) poskytuje odkazy na řadu video tutoriálů z různých zdrojů.
 
 Srovnání iD a JOSM
 ---------------  
