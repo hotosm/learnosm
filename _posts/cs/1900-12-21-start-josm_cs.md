@@ -10,11 +10,11 @@ published: true
 Začínáme s JOSM
 =============================  
 
-> Tato příručka může být stažena jako soubor [josm_start-josm_en.odt](/files/josm_start-josm_en.odt) or [josm_start-josm_en.pdf](/files/josm_start-josm_en.pdf)  
+> Tento návod může být stažen jako soubor [josm_start-josm_en.odt](/files/josm_start-josm_en.odt) nebo [josm_start-josm_en.pdf](/files/josm_start-josm_en.pdf)  
 > Zkontrolováno 12.7.2015  
 
 Jak stahovat a instalovat JOSM, Javovský editor mapy OpenStreetMap, změnit některá nastavení, otevřít ukázkovou mapu a
-seznamte se se základními operacemi softwaru. Zapamatujte si
+seznamte se se základními operacemi softwaru. Pamatujete si
 úvodní kapitolu, když jsme vás požádali o kreslení mapy vašeho města nebo
 vesnice? Tuto kapitolu uzavřeme tím, že znovu vytvoříte svou mapu
 tentokrát digitálně. Poté byste měli dobře pochopit, jak
@@ -24,12 +24,12 @@ Stáhněte si JOSM
 -------------
 
 - Pokud máte kopii JOSM na CD nebo USB flash paměti, můžete to přeskočit
-  do další části, Nainstalujte JOSM.
+  do další části, Instalovat JOSM.
 - Pokud nemáte JOSM nebo chcete nejnovější verzi, otevřete
   váš webový prohlížeč - to může být Firefox, Chrome, Opera nebo Internet
   Explorer.
 - Na panelu s adresou v horní části okna zadejte následující
-  text a stiskněte Enter: [josm.openstreetmap.de] (http://josm.openstreetmap.de)
+  text a stiskněte Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
 - Internetovou stránku JOSM najdete také vyhledáváním internetu pro "JOSM".
 - Webová stránka by měla vypadat takto:
 
@@ -47,7 +47,7 @@ Stáhněte si JOSM
 Instalovat JOSM
 ------------
 
-> Možná máte problémy s instalací JOSM, pokud java ještě není
+> Možná máte problémy s instalací JOSM, pokud Java ještě není
 > nainstalovaná v počítači. Máte-li problémy v této části,
 > zkuste stáhnout a nainstalovat Javu. Můžete si ji stáhnout zde:
 >  [http://www.java.com/en/download/](http://www.java.com/en/download/)
@@ -77,7 +77,7 @@ Jedním z nastavení, které můžete upravit, je jazyk. JOSM
 byl přeložen do mnoha jazyků a můžete dát přednost 
 pracovat v jiném.
 
-- Chcete-li otevřít okno Předvolby, kliknout na Upravit -\> Předvolby.
+- Chcete-li otevřít okno Předvolby, kliknout na *Upravit -\> Předvolby*.
 
   ![Preferences window][]
 
@@ -100,7 +100,7 @@ Naučte se základní mapování s JOSM
   základních způsobů kreslení map s JOSM. Všimněte si, že tato mapa není skutečná,
   v tom, že to není skutečná mapa skutečného místa, takže ji nebudeme ukládat 
   do OpenStreetMap.
-- Stáhněte soubor zde: [sample.osm] (/files/sample.osm)
+- Stáhněte soubor zde: [sample.osm](/files/sample.osm)
 - Nyní otevřete ukázkový mapový soubor v JOSM. Kliknout na 
   tlačítko "Otevřít" vlevo nahoře.
 
@@ -269,7 +269,7 @@ blížeji podíváme na proces úpravy mapy OSM s JOSM.
 [JOSM website]: /images/josm/josm-website.png
 [Windows installer]: /images/josm/windows-installer.png
 [JOSM splash page]: /images/josm/josm-splash-page.png
-[Preferences window]: /images/josm/josm_preferences.png
+[Preferences window]: /images/josm/josm_preferences_cs.png
 [Look and feel]: /images/josm/josm_look-and-feel.png
 [Open file]: /images/josm/josm_open-file.png
 [Sample file]: /images/josm/josm_sample-file.png

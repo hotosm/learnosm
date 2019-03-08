@@ -1,29 +1,29 @@
 ---
 layout: doc
-title: JOSM pluginy Building Tools & Utilsplugin2
+title: JOSM doplňky Building Tools & Utilsplugin2
 permalink: /cs/josm/josm-more-plugins/
 lang: cs
 category: josm
 ---
 
-OSM pluginy Building Tools & Utilsplugin2
+JOSM doplňky Building Tools & Utilsplugin2
 ============
 
 > Tento návod můžete stáhnout jako [josm-more-plugins_en.odt](/files/josm-more-plugins_en.odt) nebo [josm-more-plugins_en.pdf](/files/josm-more-plugins_en.pdf)  
 > Zkontrolováno 12.9.2016  
 
-Pluginy **buildings_tools** a **utilsplugin2** přidávají skvělé funkce do JOSM. V této kapitole si je probereme.  
+Doplňky **buildings_tools** a **utilsplugin2** přidávají skvělé funkce do JOSM. V této kapitole si je probereme.  
 
-Plugin Buildings Tools
+Doplněk Buildings Tools
 --------------------------
 
-Pokud ho nemáte nainstalovaný, následujte instrukce v [JOSM Pluginy](/cs/josm/josm-plugins).  
+Pokud ho nemáte nainstalovaný, následujte instrukce v [JOSM Doplňky](/cs/josm/josm-plugins).  
 
 ![Buildings tools plugin][]
 
-Tento plugin je velmi nápomocný při digitalizaci budov. Umožňuje vyznačit polovinu pravoúhlé budovy a zbytek tvaru se dopočítá. Pokud digitalizujete mnoho budov, tak vám ušetří spoustu klikání a tím i čas.  
+Tento doplněk je velmi nápomocný při digitalizaci budov. Umožňuje vyznačit polovinu pravoúhlé budovy a zbytek tvaru se dopočítá. Pokud digitalizujete mnoho budov, tak vám ušetří spoustu klikání a tím i čas.  
 
-Jakmile je plugin nainstalovaný, objeví se v levé části okna JOSM nové tlačítko, které vypadá takhle: ![Buildings tools button][]{: height="29px"}
+Jakmile je doplněk nainstalovaný, objeví se v levé části okna JOSM nové tlačítko, které vypadá takhle: ![Buildings tools button][]{: height="29px"}
 
 Spusťte JOSM a stáhněte si oblast, ve které chcete vytvářet budovy.  
 
@@ -43,15 +43,15 @@ Komplikované budovy můžete vytvářet nakreslením několika překrývající
 
 * Nakreslete dvě překrývající se budovy ve tvaru písmene L.  
 * Vyberte obě budovy (podržte SHIFT pro výběr více objektů).  
-* Otevřete si nabídku Tools \> Join overlapping Areas nebo zmáčkněte SHIFT+J na klávesnici.  
+* Otevřete si nabídku *Nástroje ‣ Spojit překrývající se plochy* nebo zmáčkněte SHIFT+J na klávesnici.  
 
 ![Merge buildings][]
 
 ### Úprava nastavení
 
-Dále si můžete upravit nastavení pluginu podle sebe.  
+Dále si můžete upravit nastavení doplňku podle sebe.  
 
-* Jděte do nabídky Data \> Set buildings size. ![Set buildings size][]{: height="39px"}  
+* Jděte do nabídky *Data ‣ Nastavit rozměry budov*. ![Set buildings size][]{: height="39px"}  
 
 * Pokud vytváříte několik stejně velkých budov, můžete si nastavit konkrétní rozměry budovy, jako např. 6 x 10 metrů (jednotkou jsou metry).  
 
@@ -59,7 +59,7 @@ Dále si můžete upravit nastavení pluginu podle sebe.
 
 * Tímto nastavením budete vytvářet budovy na dvě kliknutí a to s přesnými rozměry.  
 
-Navíc si můžete pomocí tlačítka "Advanced..." přidat další tagy, které se automaticky přiřadí budově. Například se jedná o budovy ve stejné ulici, tak si přidáte tag s názvem ulice, který se pak bude vkládat automaticky.  
+Navíc si můžete pomocí tlačítka **Advanced...** přidat další tagy, které se automaticky přiřadí budově. Například se jedná o budovy ve stejné ulici, tak si přidáte tag s názvem ulice, který se pak bude vkládat automaticky.  
 
 ![Buildings advanced][]
 
@@ -67,38 +67,38 @@ Navíc si můžete pomocí tlačítka "Advanced..." přidat další tagy, které
 Utilsplugin2
 -------------
 
-Pokud ho nemáte nainstalovaný, následujte instrukce v [JOSM Pluginy](/cs/josm/josm-plugins).  
+Pokud ho nemáte nainstalovaný, následujte instrukce v [JOSM Doplňky](/cs/josm/josm-plugins).  
 
 ![Utilsplugin2 plugin][]
 
-Po instalaci pluginu a restartu JOSM se objeví nová nabídka v hlavním menu s názvem "More Tools."  
+Po instalaci dopllňku a restartu JOSM se objeví nová nabídka v hlavním menu s názvem **Další nátroje**.  
 
 ![More tools menu][]
 
 Vytvořte si novou vrstvu a vyzkoušejte si některé nové nástroje. Představíme vám ty nejužitečnější nástroje:  
 
-1. **Add Nodes at Intersections:**  Tento nástroj přidá chybějící body v křižovatkách vybraných cest. Cesty by vždy měly mít společný bod v místech, kde se protínají.  
+1. **Přidat uzly na průsečíky:**  Tento nástroj přidá chybějící body v křižovatkách vybraných cest. Cesty by vždy měly mít společný bod v místech, kde se protínají.  
 
     ![Nodes interesection][]
 
-2. **Copy Tags from Previous Selection:**  Tato funkce vám ulehčí kopírování tagů. Když vytváříte mnoho objektů se stejnými tagy, tak je první nakreslete. Poté přidejte tagy do jednoho objektu. Klikněte na jiný objekt a zmáčkněte Shift + R, čímž zkopírujete tagy z předchozího vybraného objektu. Tímto způsobem to můžete udělat se všemi objekty, které chcete stejně otagovat. Pamatujte, kopírujete tagy z předchozího objektu, takže když vyberete neotagovaný objekt, tak se žádný tag na následující objekt nepřenese.  
+2. **Kopírovat značky z předchozího výběru:**  Tato funkce vám ulehčí kopírování tagů. Když vytváříte mnoho objektů se stejnými tagy, tak je první nakreslete. Poté přidejte tagy do jednoho objektu. Klikněte na jiný objekt a zmáčkněte Shift + R, čímž zkopírujete tagy z předchozího vybraného objektu. Tímto způsobem to můžete udělat se všemi objekty, které chcete stejně otagovat. Pamatujte, kopírujete tagy z předchozího objektu, takže když vyberete neotagovaný objekt, tak se žádný tag na následující objekt nepřenese.  
 
     ![Copy tags][]
 
-3. **Add Source Tag:** Slouží ke zjednodušení přidávání tagu source (zdroj). Pamatuje si zdroj, který byl specifikován jako poslední a přidá ho jako zapamatovaný source tag k vašim objektům. Nyní můžete přidávat zdroj na jedno kliknutí.  
+3. **Přidat značku zdroje (source):** Slouží ke zjednodušení přidávání tagu source (zdroj). Pamatuje si zdroj, který byl specifikován jako poslední a přidá ho jako zapamatovaný source tag k vašim objektům. Nyní můžete přidávat zdroj na jedno kliknutí.  
 
-4. **Replace Geometry:** Skvělý nástroj, když chcete překreslit špatně tvarovaný objekt, ale zároveň chcete zachovat historii, atributy a ID číslo objektu. Například narazíte na budovu, která je složitá a špatně zakreslená, tak místo bolestivého opravování každého bodu, nakreslete budovu znovu, vyberte oba objekty a klikněte na "Replace Geometry", čímž přenesete všechny informace na nový objekt.  
+4. **Nahradit geometrii:** Skvělý nástroj, když chcete překreslit špatně tvarovaný objekt, ale zároveň chcete zachovat historii, atributy a ID číslo objektu. Například narazíte na budovu, která je složitá a špatně zakreslená, tak místo bolestivého opravování každého bodu, nakreslete budovu znovu, vyberte oba objekty a klikněte na "Replace Geometry", čímž přenesete všechny informace na nový objekt.  
 
     ![Replace geometry][]
 
 
 ### Více nástrojů pro výběr
 
-**Utilsplugin2** přidá více nástrojů i do menu "Selection". Zkuste si je projít.  
+**Utilsplugin2** přidá více nástrojů i do menu **Výběr**. Zkuste si je projít.  
 
 ![Selection menu][]
 
-Mezi naše oblíbené patří **Unselect Nodes:** Tento nástroj zruší výběr označených bodů. Je užitečný ve chvíli, kdy obkreslíte oblast s objekty, čímž je vyberete, ale nechcete mít ve výběru zahrnuté i body, které jsou uvnitř všech čar a tvarů.  
+Mezi naše oblíbené patří **Zrušit výběr uzlů:** Tento nástroj zruší výběr označených bodů. Je užitečný ve chvíli, kdy obkreslíte oblast s objekty, čímž je vyberete, ale nechcete mít ve výběru zahrnuté i body, které jsou uvnitř všech čar a tvarů.  
 
 ![Unselect nodes][]
 
