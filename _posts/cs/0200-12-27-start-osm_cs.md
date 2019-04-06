@@ -16,11 +16,11 @@ V této části se dozvíme krok za krokem navigaci na webové stránce OpenStre
 
 ![website][]
 
-Otevřít stránku OpenStreetMap
+Otevřete si stránku OpenStreetMap
 -------------------------------
 
 - Otevřete webový prohlížeč.
-- Do řádku adresy nahoře vyplňte následující adresu, a stiskněte Enter:
+- Do řádku adresy vyplňte následující adresu, a stiskněte Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 - Po dokončení načítání stránky byste měli vidět něco podobného:
 

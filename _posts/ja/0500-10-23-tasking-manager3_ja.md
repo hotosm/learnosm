@@ -229,7 +229,7 @@ OpenStreetMapの編集を行い、変更をアップロードする際に、エ�
 
 ##### Field Papers  
 
-For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned and used as a background image for a remote or local mapper to read the information and update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
+この機能は、対象地域で現地調査を行うマッパーが存在し、印刷した紙地図に道路の名前などが記載されている場合にのみ利用されます。書き込みが行われた地図は再スキャンされ、マッピングの際の背景画像としてOpenStreetMapデータの更新のため、遠隔あるいは現地のマッパーに利用されます。詳しくは [Field papers section of LearnOSM](/ja/mobile-mapping/field-papers/) を参照ください。  
 
 
 #### タスクの分割
@@ -269,123 +269,120 @@ For use only when you are involved in a project where a local mapper has carried
 衛星写真の品質が非常に荒い、あるいは雲で覆われているなどの理由で、選択したタスクをマッピングできない場合があります。その場合、エディタの編集画面を閉じて、タスクを "低品質の航空写真" としてマークし、マッピングができないことを記録してください。
 
 
-#### Sending a message from the comment box
+#### コメントボックスからメッセージを送付
 
-When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.  
+タスクにコメントを書き込む際に、個別のマッパーに対してメッセージを送ることも可能です。Twitterと同じように、単純に @ に続いて送りたい対象のマッパーのユーザ名を入力してください。このコメントはメッセージとして、このタスクへのリンクと一緒にユーザへ送付されます。  
 
 例:  
 
-    @HOTMppr nice work tracing the building  
+    @HOTMppr 建物のトレース、完璧です！  
     details here. You missed a small group  
     of houses on the upper left of the task square,  
     I added a few in, but some still remain.  
 
-This is particularly useful when validating or adding on another's previous work - you can provide feedback, thanks or more.  
+このコメントは検証作業や、前に誰かが作業した内容に追加編集を行う際 - フィードバックを送ったりありがとうを伝える際など、に有用です。  
 
-+ You may wish to provide a link to a site which may help the mapper, such as <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
-+ Be aware that many people from around the world will be participating, so prefer simple, clear language. If you come across comments in other languages, tools such as Google Translate are reasonably effective.
-
-
-#### Referring to a particular task when sending an email  
-
-If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular task within a project (perhaps you need help identifying something from the satellite imagery):  
-
-1. Click on the task square concerned  
-2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713?task=259'  
-3. Highlight with the mouse all of the text in the address bar, or use the shortcut keys **Ctrl+A** to select all the text, then use shortcut keys **Ctrl+C** to copy the text  
-4. In your email, IRC message, or other message,  
-    - either, mouse right click & paste,  
-    - or shortcut keys **Ctrl+V**, to paste the link into the message. 
++ 例えば  <http://learnosm.org/ja/coordination/remote-tracing/#buildings-walls-compounds-barriers> など、マッパーの編集作業に役立つようなリンクを提供することも可能です。  
++ Tasking Managerには世界中から様々なマッパーが参加しています。そのため、言葉遣いはシンプルで明確な言い回しを心がけてください。もしわからない言語でコメントがつけられた場合は、Google Translateなどのサービスで翻訳してみましょう。
 
 
-## Getting help 
+#### メール送付の際、特定のタスクに言及する  
 
-### Live text based help
+メールやIRCメッセージなどで、プロジェクト内の特定タスクについてなにかメッセージを送る（例えば衛星画像に何が写っているか判別に苦慮している場合）際には、以下の要領で行います:  
 
-From the Learn page of the Tasking Manager:  
-1. Click on **OSM HOT IRC Channel #hot**  
-2. Enter a username (your OSM username?), or use the preset characters  
-3. At the bottom of the dropdown list select **hot**  
+1. 対象のタスクの四角形をクリック  
+2. ウェブブラウザのなかで、'http://tasks.hotosm.org/project/713?task=259' のような文字列が表示されているアドレスバー部分をクリック  
+3. このリンクをメッセージのなかにコピー 
 
-- To the right of the screen is a list of users that are online now.  
-- Type your message in the box at the bottom left of the screen (this is sometimes temporarily obscured by other text, but this will disappear as you select the box.  
-- To direct a message to a particular individual, include their username from the list on the right within your message. Type, then use the return key to submit your comment. The system is 'live' so wait for an answer - your username will often be used in the reply to show you the comment is directed to you. You will normally receive a reply within a few seconds, so please wait.  
-- An alternative simple system can be found at [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
-- Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
-- Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
 
-### Leaving a Project question / comment / contacting the Project creator
+## ヘルプを求める 
 
-Using the "Comments" tab for the project you can see other users' questions and comments and leave one of your own. You can also click the "Contact Project Manager" link and that will automatically direct your comment/question to the project creator. 
+### テキストベースのヘルプ
 
-All comments are public and it is not real time, live chat, use the IRC option above for realtime chat.
+Tasking Managerの解説ページを表示し、以下の操作を行います:  
+1. **OSM HOT IRC CHannel #hot** の文字列をクリック  
+2. ユーザ名 (あるいはOSMユーザ名) を入力するか、もともと表示されている文字列を利用します  
+3. ドロップダウンの一覧から **hot** を選択  
+
+- 画面の右側は、現在オンラインのユーザ一覧です。  
+- 画面左下に表示されているテキストボックスに、メッセージを入力します (場合によっては他のテキストで隠されてしまっている場合もありますが、ボックスを選択するとそのテキストは消えます) 。  
+- 特定の個人にメッセージを送る場合は、画面右側に表示されているユーザ名から対象のユーザ名を含めてください。文章を入力し、リターンキーを押すとコメントが投稿されます。システムは '生中継' 状態ですので、答えがあるまで少し待ってください - 返答の中にあなたのユーザ名が含まれた状態でコメントが返されます。  
+- 別の方法でシンプルなものとしては [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot) があります  
+- OpenStreetMapに関連する他のIRCチャンネルは [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc) にも一覧があります  
+- 別のIRCクライアントを利用する場合は、設定として (Server=irc.oftc.net, and channel=#hot) を使ってください  
+
+### プロジェクトに関する質問 / コメント / プロジェクト作成者への連絡事項を投稿
+
+プロジェクトの"コメント"タブには、他のユーザから投稿された質問やコメントが記載され、そこに追加でコメントを残すことができます。また、"プロジェクトマネージャに連絡"のリンクをクリックすると、プロジェクトの作成者に直接コメントや質問を送ることが可能です。 
+
+すべてのコメントは公開されますが、リアルタイムチャットとは異なります。リアルタイムに回答が欲しい場合は上記のIRCなどのオプションを利用ください。
 
 ![TM comments][]
 
 
-## Editing hints and tips  
+## 編集のヒント  
 
-By now you have a good understanding of what the Tasking Manager is, and some of the various functions it supports. Unlike normal editing, this tool is often used for time critical projects with many participants - this may be a little bit different to what you are used to.  
+ここまでで、Tasking Managerと、その主な機能の解説は終わりです。通常の編集作業と異なり、このツールは多数の人々が参加するクリティカルなプロジェクトにしばしば利用されます。そのため、すこし手法や考え方が異なる点を理解してください。  
 
-Some general advice to heed when working in this tool:  
+このツールを使って作業する際に注意が必要な点として、以下のようなものがあります:  
 
-* Avoid mapping far outside of your task square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediately after mapping something at the border.  
-* Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off, but upload as soon as you finish editing it.  
-* If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.  
-* If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
-* Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
-* You must not validate your own work - a second pair of eyes will always lead to better quality mapping.  
-* Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
+* 作業対象の区域から遠く離れた場所をマッピングするのは避けましょう - 他のマッパーがその地域を作業しているかもしれず、結果として重複作業を引き起こします。区域の境界線をまたいでいる建物をマップするのはOKですが、それ以上のことは避け、区画の境界線上の地物はすぐにアップロードするようにしましょう。  
+* 道路、河川あるいはその他の地物を、区画の境界を超えて延長 - 他の区域まで延長したぶんは、その区域を担当するマッパーが引き継いでくれます。編集内容はできるだけ早くアップロードしましょう。  
+* 地物の判別ができかねる場合は、コメント欄にその旨を記載して質問するか、wikiを確認するようにしてください。  
+* 深刻な間違いをしてしまったことに気がついた場合 - 例えば大きな地物やリレーションを消してしまった場合など - は、IRCチャンネルやコメント欄で他のマッパーにヘルプを求め、リバート (編集の巻き戻し) を依頼してください。間違えてしまった変更セットのURLを伝えたり、何をしてしまったかの説明を一緒に伝えられるとよいでしょう。この作業は共同作業であり、多くの他のマッパーが手を貸してくれます。大切なことは、誰しも間違いをしてしまうものだ、ということです。  
+* 気軽に質問やフィードバックをしましょう - あなたの作業を検証してくれるマッパーは、時折対応がぶっきらぼうであったり、発言が短かったりします。ただ、対話がスタートされていていれば、その後の対応はよりよいものになることがほとんどです。普段使わない言語で話すのは非常に労力がかかるもので、なおかつ流暢ではない言語に翻訳しながらのやりとりは、時には粗野な言葉遣いに映るものです。  
+* 自分自身の作業を検証してはいけません - 二人以上のチェックを行うことで、マッピングの品質はより向上します。  
+* 他のマッパーがあなたの作業を検証する際に、無愛想な対応をされても気にしないでください - あなたと同じように、他の人もまた、すべてのデータが正確にマッピングされることを保証しようとしています。フィードバックはきまって、残っている作業に関することであり、あなたのこれまでの作業への批判ではありません。  
 
 
-## Validation
+## 検証作業
 
-Validation is the process of a second mapper reviewing the mapping of the initial mapper of a project task. It is designed to ensure complete, quality data and provide thanks, feedback and encouragment to mappers.
+検証作業とは、プロジェクトのタスクで最初に作業したマッパーの成果に対する、第二者によるレビューを指します。この工程によって、品質の高い作業を確実に完了させ、感謝やフィードバック、そしてマッパーへの激励の言葉を伝えることを行います。
 
-### Getting Started
+### 検証作業の開始
 
-Validation starts much the same way as mapping does, a volunteer finds a project they would like to work on, reads the instructions tab to be sure they understand what is called for and how it is expected to be mapped, but instead of selecting the mapping tab for the project, they select the "Validate" tab.
+検証作業の開始方法は、マッピングの作業とほぼ同じです。ボランティアは作業対象のタスクを決め、マッピング作業解説を読んで要望されている内容を理解し、どのようにそれらをマッピングするかを検討します。ただし、検証作業ではマッピングする場合と異なり、"検証"タブを選択します。
 
 ![TM select for validation][]
 
-The validator can select a task by clicking on an individual task square, clicking "Select a random Task", select by user or draw a polygon to select multiple, connected tasks.
+検証作業を行うマッパーは、それぞれのタスクの区画をクリックしたり、"ランダムにタスクを選択" をクリックしたり、あるいは地図上にポリゴンを描いて複数の隣接したタスクを一度に選択したりします。
 
-Unlike mappers, validators can select multiple tasks to perform validation on a larger scale than just one task.
+マッピング作業を行うマッパーとは異なり、検証作業者は複数のタスクを同時に選択する事が可能です。
 
-### Selecting Multiple Tasks for Validation
+### 複数のタスクを同時に検証
 
-New in the latest version of the Tasking Manager is the ability to select multiple tasks for validation, either by area or by user.
+Tasking Managerの最新版では検証作業の際に、エリアあるいはユーザ単位で複数のタスクを選択する機能があります。
 
-Depending on which editor you are using, this feature will behave differently.
+検証作業に利用するエディタによって機能の挙動は少し異なります。
 
-In JOSM, a second OSM data layer will be created titled "Task Boundaries - Do Not Edit or Upload" and it will have uploading disabled in recent versions of JOSM. JOSM **will not download the OSM data** because it could be a very large amount of data. Instead the validator will have to use the task boundaries as a guide and download the data to the active editing layer manually.
+JOSMでは "Task Boundaries - Do Not Edit or Upload" というタイトルの、JOSMからアップロードできない2番めのレイヤが作成されます。また、ダウンロードするデータの量が非常に多くなるため、JOSMは **OSMデータをダウンロードしません**。そのかわり、検証作業者はタスクの境界線を目印に対象の地域を手動でダウンロードすることになります。
 
-#### Select by drawing a polygon
+#### ポリゴンを描いて選択
 
-This option allows a validtor to draw a square around a group of tasks and check them all out at once.
+地図上にポリゴンを描くことで、複数のタスクを同時に選択し、検証作業を行うことができます。
 
-Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected Tasks.
+作業に利用するエディタを選択後、選んだタスクの領域に対して、**検証作業者は手動でOSMデータをダウンロードする必要があります**。これは、選択したタスクの領域すべてのOSMデータのダウンロードを抑制することが目的です。
 
 
-#### Select By User
+#### ユーザ単位で選択
 
-A list of mappers who have marked a task as done is presented. Hovering over anyone in the list will highlight the tasks they have marked as completed. The list also prensents three important pices of information about the mapper, their experience level, the number of days since they first started mapping using the Tasking Manager and the number of days since they last received feedback via validation. This allows the validator to specifically target new mappers, experienced mappers or mappers who have not had any feedback for an extended period of time.
+1つ以上のタスクを完了させたマッパーは一覧として表示されます。一覧にあるユーザ名にカーソルを乗せると、そのユーザが完了させたタスクがハイライト表示されます。この一覧からは3つの重要な情報、つまりそのマッパーのレベル、最初にTasking Managerを使ってマッピングを開始してからの日数、検証作業からフィードバックを最後に受け取ってからの日数、を読み取ることができます。これらの情報を使って、作業検証者はマッピングの初心者や熟練者、ここしばらくフィードバックを受け取っているかどうかを判断することができます。
 
-Clicking on the "Start Validating" button will lock all the tasks completed by that mapper and allow the validator to open them in their editor of choice.
+"検証開始"ボタンをクリックすると、対象のマッパーが完了させたすべてのタスクがロックされ、任意のエディタで検証を始めることができるようになります。
 
 ![TM multi selection][]
 
-Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected tasks.
+作業に利用するエディタを選択後、選んだタスクの領域に対して、**検証作業者は手動でOSMデータをダウンロードする必要があります**。これは、選択したタスクの領域すべてのOSMデータのダウンロードを抑制することが目的です。
 
-### Finalizing Validation
+### 検証作業の完了
 
-Once the validator has finished the validation process either for one task or multiple tasks, they should return to the Tasking Manager and select one of the three choices that reflect the mapping of the task:
+作業対象とした1つあるいは複数のタスクの検証が完了したら、Tasking Managerを再度表示させ、対象のタスクについての状況を以下の3つの中から選んでください:
 
-- Stop Validating - If you could not complete the validation process but must stop validating.
-- Mark (all) as Valid - If the mapping is complete and accurate
-- Mark (all) as Invalid - If the mapping is not complete or inaccurate.
+- 検証作業中断 - 検証が完全に完了したわけではなく、引き続き検証が必要
+- 検証済みとしてマーク - マッピングが完全に、正確に行われている
+- 差し戻し - マッピングが不完全であったり、不正確であったりする
 
-For the last two choices the validator can and should leave a friendly, encouraging comment addressed to the mapper(s) involved and provide thanks for their contributions and feedback on their mapping. Please be considerate before marking a task as invalid. If just a few bits are missing add them yourself, explain what was missing in your comment but nevertheless mark the task as valid. New mappers will consider their completed task marked as invalid as a fairly harsh comment.
+後者2つの選択肢のどちらかを選ぶ場合、検証作業者はマッピング作業に参加したマッパーに対し、優しい言葉で、ポジティブなコメントを送り、貢献への感謝やマッピングへのフィードバックを伝えるようにしてください。タスクを差し戻しする際にはよく考えてから行ってください。もし足りていない編集が少量で、自分でも追記ができる場合、タスクを検証済みとしてマークできなくとも、何が足りていないのかをコメントするようにしてください。新しく参加したマッパーは、彼の作業が完了したと感じており、その作業が差し戻されることは激しい言葉で彼自身が非難されていることと同じように感じることがあります。
 
 
 

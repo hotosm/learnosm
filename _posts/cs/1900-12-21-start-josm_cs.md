@@ -23,13 +23,13 @@ tvořit mapy v JOSM.
 Stáhněte si JOSM
 -------------
 
-- Pokud máte kopii JOSM na CD nebo USB flash paměti, můžete to přeskočit
-  do další části, Instalovat JOSM.
-- Pokud nemáte JOSM nebo chcete nejnovější verzi, otevřete
-  váš webový prohlížeč - to může být Firefox, Chrome, Opera nebo Internet
+- Pokud máte kopii JOSM na CD nebo USB flash paměti, můžete přeskočit
+  do sekce *Instalovat JOSM*.
+- Pokud nemáte JOSM nebo chcete nejnovější verzi, otevřete si
+  váš webový prohlížeč - Firefox, Chrome, Operu nebo Internet
   Explorer.
-- Na panelu s adresou v horní části okna zadejte následující
-  text a stiskněte Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
+- Do adresního řádku v horní části okna zadejte následující
+  adresu a stiskněte Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
 - Internetovou stránku JOSM najdete také vyhledáváním internetu pro "JOSM".
 - Webová stránka by měla vypadat takto:
 
@@ -44,7 +44,7 @@ Stáhněte si JOSM
   začít. V této kapitole budeme předpokládat, že používáte Windows,
   ale pokyny jsou podobné i u jiných operačních systémů.
 
-Instalovat JOSM
+Instalujeme JOSM
 ------------
 
 > Možná máte problémy s instalací JOSM, pokud Java ještě není
@@ -77,23 +77,23 @@ Jedním z nastavení, které můžete upravit, je jazyk. JOSM
 byl přeložen do mnoha jazyků a můžete dát přednost 
 pracovat v jiném.
 
-- Chcete-li otevřít okno Předvolby, kliknout na *Upravit -\> Předvolby*.
+- Chcete-li otevřít okno Předvolby, klikněte na *Edit ‣ Preferences*.
 
   ![Preferences window][]
 
 - Na levé straně kliknout na ikonu, která vypadá jako kbelík barvy a
   štětec.
-- V horní části okna kliknout na kartu s nápisem "Vzhled".
-- V rozbalovacím poli vyberte svůj jazyk vedle slova 
-  "Jazyk"
+- V horní části okna kliknout na kartu s nápisem **Look and Feel**.
+- V rozbalovacím poli vyberte svůj jazyk vedle slova
+  "Language"
   
   ![Look and feel][]
 
-- Kliknout na tlačítko OK.
-- Chcete-li uložit nastavení, musíte restartovat JOSM. Kliknout na "Soubor" v horním 
-  levém rohu a v dolní části nabídky kliknout na tlačítko "Restartovat".
+- Potvrďte tlačítkem OK.
+- Aby se nastavení uložilo, musíte restartovat JOSM. Kliknout na "File" v horním 
+  levém rohu a v dolní části nabídky kliknout na tlačítko "Restart".
 
-Naučte se základní mapování s JOSM
+Naučte se základy mapování s JOSM
 -----------------------------
 
 - Nyní otevřete ukázkový soubor OSM, který použijeme k naučení
@@ -133,50 +133,50 @@ Naučte se základní mapování s JOSM
   pár obchodů. Chcete-li vybrat objekt, musíte na něj kliknout levým
   tlačítkem myši.
 
-### Body, linie a tvary
+### Body, přímky a tvary
 
 - Když kliknete na různé objekty na ukázkové mapě, všimněte si, že tam
   jsou tři různé typy objektů na mapě. Jsou tu body,
-  čáry a tvary.
+  přímky a tvary.
 - Body jsou jednotlivá umístění, reprezentovaná symboly. Na tomto vzorku
   mapy, existují dva body, obchod s botami a supermarket.
   Prodejna s botami je reprezentována symbolem boty a obchod je
   představovaný nákupním vozíkem.
-- Na mapě je také několik čar, které představují silnice.
-  Pokud se podíváte pozorně, uvidíte, že v čarách jsou
-  body také. Tyto body neobsahují žádné symboly nebo jiné
+- Na mapě je také několik přímek, které představují silnice.
+  Pokud se podíváte pozorně, zjistíte, že přímky obsahují
+  také body. Tyto body neobsahují žádné symboly nebo jiné
   informace s nimi spojené, ale pomáhají definovat, kde
-  je čára nakreslená.
+  je přímka nakreslená.
 - Nakonec, na vzorové mapě existuje řada objektů, které reprezentují
   různá místa - les, řeku, park a budovy. Tvar
   se používá k reprezentaci oblasti, jako pole nebo budovy. Tvar je
-  přesně jako linka - jediný rozdíl je, že linka objektu začíná na
+  přesně jako přímka - jediný rozdíl je, že přímka objektu začíná na
   stejném bodu, kde končí.
 
 > Je snadné přemýšlet o mapě, která obsahuje tyto tři základní typy objektů - 
-> body, čáry a tvary. V OpenStreetMap existuje speciální terminologie
+> body, přímky a tvary. V OpenStreetMap existuje speciální terminologie
 > díky které se dozvíte, jak postupujete. V OSM jsou body vlastně nazývány jako
-> **uzly** a linie se nazývají **cesty**. Tvar je nazýván **uzavřenou cestou**
-> protože je to jen čára, která končí ve stejném místě, odkud začíná.
+> **uzly** a přímky se nazývají **cesty**. Tvar je nazýván **uzavřenou cestou**
+> protože je to jen přímka, která končí ve stejném místě, odkud začíná.
 
 - Můžete si všimnout, že když vyberete objekt, objeví se seznam
   vpravo od mapy v okně s názvem "Vlastnosti". Jsou známé jako
-  tagy. Tagy jsou informace, které jsou svázány s bodem, čárou nebo tvarem
+  tagy. Tagy jsou informace, které jsou svázány s bodem, přímkou nebo tvarem
   který popisuje, co to je. Další informace o značkách se dozvíme později
   Prozatím vše, co potřebujete vědět, je že tato
   informace pomáhá popsat, zda náš objekt je les, řeka,
   budova nebo něco jiného.
 - Přemýšlejte o ručním kreslení mapy a o tom, jakým způsobem kreslíte
-  body, čáry a tvary. Která další místa jsou nejlépe zastoupeny
-  body? Čarami? Tvary?
+  body, přímky a tvary. Která další místa jsou nejlépe zastoupeny
+  body? Přímkami? Tvary?
 
 ### Změna objektů
 
 - Vyberte lesy na levé straně mapy. Ujistěte se, že kliknete na
-  linii kolem lesa, ne jeden z bodů na čáře. Nyní
+  přímka kolem lesa, ne jeden z bodů na čáře. Nyní
   držte levé tlačítko myši a přetáhněte myší. Měli byste být
   schopni přesunout les na nové místo na mapě.
-- Klikněte na jeden z bodů na čáře kolem lesa. Držte
+- Klikněte na jeden z bodů na přímce kolem lesa. Držte
   levým tlačítkem myši a přetáhněte myš. Měli byste být schopni
   přesunout bod. Takto můžete změnit tvar objektu,
   nebo přesunout bod.
@@ -204,15 +204,15 @@ Naučte se základní mapování s JOSM
 
 - Najděte prázdnou oblast na mapě a poklepejte myší.
   Tím se nakreslí jeden bod.
-- Chcete-li nakreslit čáru, klikněte jednou myší. Pohybujte myší a
-  klikněte znovu. Pokračujte, dokud nebudete spokojeni s vaší linkou. Chcete-li ukončit
-  čáru, poklepejte myší.
-- Nakreslete tvar tak, jak kreslíte čáru, ale dokončete tvar
-  poklepáním na místo, kde jste začali kreslit čáru.
+- Chcete-li nakreslit přímku, klikněte myší. Pohybujte myší a
+  klikněte znovu. Pokračujte, dokud nebudete spokojeni s vaší přímkou. Chcete-li ukončit
+  přímku, poklepejte myší.
+- Nakreslete tvar tak, jak kreslíte přímku, ale dokončete tvar
+  poklepáním na místo, kde jste začali kreslit přímku.
 
 ### Přidat nastavení
 
-- Teď víme, jak nakreslit body, čáry a tvary, ale stále
+- Teď víme, jak nakreslit body, přímky a tvary, ale stále
   jsme neurčili, co reprezentují. Chceme říci že
   naše body jsou obchody, školy nebo něco jiného a že naše
   tvary jsou pole, budovy nebo něco jiného.
@@ -228,7 +228,7 @@ Naučte se základní mapování s JOSM
   chtít přidat některé důležité oblasti, jako je například název
   objektu.
 - Po dokončení zadávání informací klikněte na tlačítko Použít
-  Přednastavení". Pokud vše proběhne dobře, měl by váš bod, linie nebo tvar
+  Přednastavení". Pokud vše proběhne dobře, měl by váš bod, přímka nebo tvar
   změnit barvy nebo zobrazit symbol. Je to proto, že jste definovali
   co to je.
 
@@ -239,7 +239,7 @@ Nakreslete vlastní mapu
   se naučili. Možná budete chtít předtím načrtnout mapu, kterou jste na papíře nakreslili.
 - Přetáhněte mapu ze vzorové mapy. Držte pravé tlačítko myši
   a táhněte myší, dokud nebudete mít pěknou prázdnou plochu.
-- Pomocí nástroje Kreslení vytvoříte body, čáry a tvary. Popište co
+- Pomocí nástroje Kreslení vytvoříte body, přímky a tvary. Popište co
   jsou vaše objekty, vybráním z nabídky Předvolby.
 - Když skončíte, měli byste mít svou vlastní mapu podobnou
   ukázkové mapě, kterou jsme otevřeli v sample.osm.
@@ -266,7 +266,7 @@ Vynikající! Pokud jste všechno udělali dobře, tak jste se naučili, jak nas
 počítači a základní nástroje pro kreslení map. V další kapitole se 
 blížeji podíváme na proces úpravy mapy OSM s JOSM.
 
-[JOSM website]: /images/josm/josm-website.png
+[JOSM website]: /images/josm/josm-website_it.png
 [Windows installer]: /images/josm/windows-installer.png
 [JOSM splash page]: /images/josm/josm-splash-page.png
 [Preferences window]: /images/josm/josm_preferences_cs.png
