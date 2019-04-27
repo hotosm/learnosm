@@ -33,7 +33,7 @@ prose:
     - /_layouts
     - /_includes
 
-gems:
+plugins:
   - jekyll-redirect-from
 
 # ranking of other guides in the navigation bar

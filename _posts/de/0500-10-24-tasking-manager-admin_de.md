@@ -2,7 +2,7 @@
 layout: doc
 title: Erstellung und Verwaltung von Projekten auf dem OSM Tasking Manager
 permalink: /de/coordination/tasking-manager-project-admin/
-lang:de
+lang: de
 category: coordination
 ---
 Diese Anleitung kann als [tasking-manager-admin_de.odt](/files/tasking-manager-admin_de.odt) oder [tasking-manager-admin_de.pdf](/files/tasking-manager-admin_de.pdf) heruntergeladen werden 
