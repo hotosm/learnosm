@@ -6,34 +6,34 @@ lang: cs
 category: beginner
 ---
 
-Editor iD
+iD Editor
 =============
 
-> Tato příručka může být stažena jako [beginner_id-editor_cs.odt](/files/beginner_id-editor_cs.odt) nebo [beginner_id-editor_cs.pdf](/files/beginner_id-editor_cs.pdf)  
+> Tento návod může být stažen jako [beginner_id-editor_cs.odt](/files/beginner_id-editor_cs.odt) nebo [beginner_id-editor_cs.pdf](/files/beginner_id-editor_cs.pdf)  
 > Zkontrolováno 2016-03-30  
 
-Začínáte mapovat pomocí Tasking Manageru pro HOT nebo MissingMaps atd.? Podívejte se na sekci [HOT-tips section](/en/hot-tips/).  
+Začínáte mapovat pomocí Tasking Manageru pro HOT nebo MissingMaps atd.? Podívejte se na sekci [HOT-tipy](/cs/hot-tips/).  
 
 - TOC
 {:toc}
 
-iD editor je vlastně editor spustitelný ve webovém prohlížeči. iD je rychlý a jednoduchý k použití a dovoluje mapovat z různých zdrojů dat jako třeba satelitní a letecké snímky, GPS, dokumenty z terénu nebo z Mapillary.  
+iD editor je vlastně editor spustitelný ve webovém prohlížeči. iD editor je rychlý a jednoduchý k použití a dovoluje mapovat z různých zdrojů dat jako jsou třeba satelitní a letecké snímky, GPS, dokumenty z terénu nebo z Mapillary.  
 
-iD editor je dobrý způsob editace malých a jednoduchých změn, které nevyžadují pokročilé funkce editoru JOSM (pokročilejší mapovací nástroj pro mapování). Tato kapitola demonstruje základy editace pomocí iD.  
+iD editor je dobrý způsob editace malých a jednoduchých změn, které nevyžadují pokročilé funkce editoru JOSM (pokročilejší mapovací nástroj pro mapování). Tato kapitola demonstruje základy editace pomocí iD editoru.  
 
-Začínáme s iD editorem
+Začínáme s iD Editorem
 ----------------------
 
 -	iD editor vyžaduje aktivní internetové připojení.  
 -	Otevřete váš internetový prohlížeč a jděte na stránku OpenStreetMap na [http://www.openstreetmap.org](http://www.openstreetmap.org).  
 -	**Přihlašte se** pomocí vašeho OpenStreetMap účtu.  
 -	Přesuňte se a přibližte mapu nad místo, kde chcete něco upravovat. Přesouvat se můžete pomocí držení levého tlačítka myši a posouváním mapy do vámi hledané polohy.  
--	Klikněte na malou šipku vedle nápisu **Editovat*. Potom klikněte na **Editovat pomocí iD (editor v prohlížeči)**.  
+-	Klikněte na malou šipku vedle nápisu **Upravit**. Potom klikněte na **Upravit pomocí iD (editor v prohlížeči)**.  
 
 ![image1][]
 
 
-Uživatelské prostředí editoru iD
+Uživatelské prostředí iD editoru 
 -------------------------
 ![image2][]
 
@@ -67,9 +67,9 @@ Můžete přidat svoje vlastní mapové čtverce pomocí volby **Vlastní**. Nap
 ![image17][]   
 vložte vaši **URI snímku na FieldPaper**, který bude vypadat nějak takto: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
 Pro **zobrazení tras GPS z vašeho počítače** (GPX formát), chyťte a pusťte GPX soubor do iD editoru.  
-Pro zobrazení **GPS tras z OpenStreetmap** klikněte na čtvrteček. V obrázku níže, veřejně dostupní GPS trasy jsou zobrazeny v různých barvách určujících směr pohybu.  
+Pro zobrazení **GPS tras z OpenStreetmap** klikněte na čtvrteček. V obrázku níže, jsou  veřejně dostupné GPS trasy zobrazeny v různých barvách určujících směr pohybu.  
 ![osm gps traces][]  
-Pokud je [fotomapa posunutá](/en/josm/aerial-imagery), můžete **opravit posunutí** kliknutím na  **Opravit zarovnání**. ![image18][]  
+Pokud je [fotomapa posunutá](/cs/josm/aerial-imagery/), můžete **opravit posunutí** kliknutím na  **Opravit zarovnání**. ![image18][]  
 
 - Klikněte na navigační tlačítka pro přesun snímků. Klepnutím na tlačítko Reset se vrátíte do výchozí pozice. ![image20][]  
 
@@ -90,18 +90,18 @@ Chcete-li přidat nový bod, klikněte na tlačítko **Bod**. ![image3][]{: heig
 
 ### Kreslení čar  
 
-Chcete-li přidat novou čáru, klikněte na tlačítko **Čára**. ![image4][]{: height="24px"}  
+Chcete-li přidat novou čáru, klikněte na tlačítko **Linie**. ![image4][]{: height="24px"}  
 
 - Kurzor myši se změní na znaménko plus (+). Najděte cestu, která nebyla na mapě vykreslena, a obkreslete ji. Jedním kliknutím klikněte na místo, kde začíná úsek cesty, přesuňte myš a klepnutím přidáte další body. Poklepáním ukončíte proces kreslení. Všimněte si panelu vlevo.  
 ![image24][]  
-- Stejně jako bod, vyberte příslušné značky pro vaši linku.  
-- Můžete přetáhnout body z linky kliknutím levého tlačítka myši na bod a přetažením.  
+- Stejně jako bod, vyberte příslušné značky pro vaši čáru.  
+- Můžete přetáhnout body z čáry kliknutím levého tlačítka myši na bod a přetažením.  
 - Můžete také přesunout celou čáru jejím výběrem a zvolením nástroje **Přesunout**. Potom přetáhněte čáru na novou pozici. ![image30][]{: height="24px"}  
-- Když klepnete levým tlačítkem myši na jednotlivý bod (uzel) na řádku a kliknutím pravým tlačítkem myši aktivujete místní nabídku, uvidíte tyto nástroje:  
-- Smazat bod z čáry. ![image23][]{: height="24px"}  
+- Když klepnete levým tlačítkem myši na jednotlivý bod (uzel) na čáře a kliknutím pravým tlačítkem myši aktivujete místní nabídku, uvidíte tyto nástroje:  
+- Smazat bod z linie. ![image23][]{: height="24px"}  
 - Odpojit bod od čáry. ![image26][]{: height="24px"}  
-- Rozdělit čáru na dvě čáry od místa, které jste vybrali. ![image27][]{: height="24px"}  
-- Když kliknete levým tlačítkem myši na řádek (ale ne na bod), uvidíte tyto nástroje:  
+- Rozdělit linii na dvě linie od místa, které jste vybrali. ![image27][]{: height="24px"}  
+- Když kliknete levým tlačítkem myši na linii (ale ne na bod), uvidíte tyto nástroje:  
 -   Smazat čáru. ![image23][]{: height="24px"}  
 -   Vytvoření kruhu z čáry (aktivní pouze v případě, že je čára uzavřena) ![image29][]{: height="24px"}  
 -   Posunout čáru ![image30][]{: height="24px"}  
@@ -110,7 +110,7 @@ Chcete-li přidat novou čáru, klikněte na tlačítko **Čára**. ![image4][]{
 
 "Čára" vytvořená v iD editoru je vlastně "cesta" se "značkami" umístěnými na ní.
 
-> Zvláštní poznámka o **Vymazání**: Obecně byste se měli vyhnout vymazání mapování ostatních lidí, pokud se to jen potřebuje zlepšit. Můžete smazat vlastní chyby, ale měli byste se pokusit *upravovat* mapované objekty jiných lidí, pokud potřebují změny. To zachovává historii položek v databázi OSM a respektuje kolegy mapery. Pokud opravdu cítíte, že by mělo být něco vymazáno, zvažte kontaktovat nejprve originálního mapaře nebo jednoho z e-mailových seznamů OSM.
+> Zvláštní poznámka o **Vymazání**: Obecně byste se měli vyhnout vymazání mapování ostatních lidí, pokud se to jen potřebuje zlepšit. Můžete smazat vlastní chyby, ale měli byste se pokusit *upravovat* mapované objekty jiných lidí, pokud potřebují změny. To zachovává historii položek v databázi OSM a respektuje kolegy mapery. Pokud opravdu cítíte, že by mělo být něco vymazáno, zvažte kontaktovat nejprve původního mapaře nebo jednoho z e-mailových seznamů OSM.
 
 ### Kreslení tvarů (mnohoúhelníků)
 
@@ -165,12 +165,12 @@ Nebo můžete přidat vlastní značky kliknutím na položku **Všechny značky
 Další tutorialy
 ------------------
 
-Stránka našich externích zdrojů [Our external resources page](/en/resources/#iD) poskytuje odkazy na řadu video tutoriálů z různých zdrojů.
+[Stránka našich externích zdrojů](/cs/resources/#iD) poskytuje odkazy na řadu video tutoriálů z různých zdrojů.
 
 Srovnání iD a JOSM
 ---------------  
 
-**iD editor je vhodný pro ...**
+**iD editor je vhodný ...**
 
 - Když děláte jednoduché úpravy  
 - Pokud máte rychlý internet k načtení snímků a uložení úprav  
@@ -184,9 +184,9 @@ Srovnání iD a JOSM
 - Pokud máte nespolehlivé internetové připojení nebo jste offline
 - Pokud používáte konkrétní schéma označování značkami (nebo máte vlastní předvolby)
 
-[^fieldpaper]: Zde je sekce [section of LearnOSM](/en/mobile-mapping/field-papers/) poskytující více informací o terénních dokumentech.
+[^fieldpaper]: Zde je [sekce LearnOSM](/cs/mobile-mapping/field-papers/) poskytující více informací o terénních dokumentech.
 
-Obsah této příručky je k dispozici jako [presentation](/files/iD-editor-training.pptx)
+Obsah této příručky je k dispozici jako [prezentace](/files/iD-editor-training.pptx)
 
 
 

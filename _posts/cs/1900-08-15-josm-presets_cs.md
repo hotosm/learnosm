@@ -9,16 +9,16 @@ category: josm
 Předvolby JOSM
 ============
 
-> Tento návod může být stažen jako [josm-presets_en.odt](/files/josm-presets_en.odt) nebo [josm-presets_en.pdf](/files/josm-presets_en.pdf)  
-> Zkontrolováno 2016-09-17  
+> Tento návod můžete stáhnout jako [josm-presets_en.odt](/files/josm-presets_en.odt) nebo [josm-presets_en.pdf](/files/josm-presets_en.pdf)  
+> Zkontrolováno 17.9.2016  
 
-Pokud používáte JOSM dlouho, nyní už trochu rozumíte značkám a předvolbám. Každý objekt je definován dvěma věcmi - jednak jeho geometrií (ať už je to bod, čára nebo tvar a jeho poloha) a za druhé, jeho atributy, které přicházejí ve formě značek.  
+Pokud používáte JOSM dlouho, tak už trochu rozumíte tagům a předvolbám. Každý objekt je definován dvěma věcmi - geometrií (ať už je to bod, čára nebo tvar a jeho poloha) a jeho atributy, které se nastavují formou tagů.  
 
-Při kreslení objektu a výběru z nabídky Přednastavení se na objekt automaticky použijí správné značky.  
+Když nakreslíte objekt a vyberete něco z nabídky Předvolby, tak se mu automaticky přiřadí správné tagy.  
 
-Chcete-li používat přednastavení, co se stane, když chcete přidat značky, které nejsou obsaženy v nabídce nebo chcete upravit vlastní značky?  
+Chcete-li používat předvolby, co se stane, když chcete přidat značky, které nejsou obsaženy v nabídce nebo chcete upravit vlastní tagy?  
 
-V takovém případě můžete do přednastavení přidat vlastní položky nabídky. V této části uvidíme, jak to udělat. V [následující kapitole](/cs/josm/creating-presets) se budeme zabývat tvorbou vlastních přednastavených souborů.  
+V takovém případě můžete do předvoleb přidat vlastní položky nabídky. V této části se dozvíme, jak to udělat. V [následující kapitole](/cs/josm/creating-presets) se budeme zabývat tvorbou vlastních souborů předvoleb.  
 
 
 Přidat předvolby
@@ -26,36 +26,36 @@ Přidat předvolby
 
 Nabídky a podnabídky, které tvoří nabídku Předvolby, jsou uloženy v souborech, které popisují způsob vytváření nabídek a formulářů, které se objeví po klepnutí na přednastavení, a jak definovat, jaké značky jsou přidány k objektu podle toho, jak je formulář vyplněn.  
 
-Soubory předvoleb mohou být buď přidány z online archivu nebo uloženy v počítači místně a přidány do JOSM.  
+Soubory předvoleb mohou být buď přidány z online archivu nebo uloženy lokálně v počítači a přidány do JOSM.  
 
-* Chcete-li přidat novou položku do nabídky Předvolby, otevřete JOSM a přejděte na položku Upravit-> Předvolby.  
-* Klikněte na třetí záložku dole, která vypadá jako mřížka pokrývající planetu.  
+* Chcete-li přidat novou položku do nabídky Předvolby, otevřete JOSM a přejděte na položku Upravit-> Nastavení (neboli Předvolby).  
+* Vyberte třetí záložku, která vypadá jako mřížka pokrývající planetu.  
 
 ![tagging presets tab][]
 
-* V horní části klikněte na "Předvolby Označování."  
+* V horní části klikněte na "Předvolby značení."  
 
 ![tagging presets menu][]
 
-* Přidejte soubor předvolby z internetu výběrem jednoho v seznamu na levé straně a kliknutím na modrou šipku. V tomto příkladu přidáme předvolbu s názvem "Nové značky"  
+* Soubor předvoleb z Internetu přidáte výběrem ze seznamu vlevo a kliknutím na modrou šipku. V tomto příkladu přidáme předvolbu s názvem "New Tags" (Nové tagy)  
 
 ![example presets][]
 
-* Uvidíte novou položku v seznamu vpravo.  
+* Položka se přidá do seznamu vpravo.  
 * Klepněte na tlačítko OK.  
-* Budete muset restartovat JOSM.  
+* Bude potřeba restartovat JOSM.  
 * Vytvořte novou vrstvu a přidejte bod nebo tvar.  
-* Přejděte do nabídky Předvolby. V dolní části se zobrazí další položka, která se rozšiřuje na několik možností, které nejsou pokryty standardní instalací JOSM.  
+* Přejděte do nabídky Předvolby. V dolní části se zobrazí nová položka, která se zkládá z několika podnabídek, které nejsou v základní výbavě instalace JOSM.  
 
 ![additional tags preset][]
 
-* Většina předvoleb pokrývá poměrně specifické případy použití, takže procházejte seznamem, pokud najdete jeden, který odpovídá vašim zájmům.  
+* Většina předvoleb pokrývá poměrně specifické případy použití, tak si seznam projděte a třeba narazíte na tag, který využijete.  
 
-* Pokud jste dostali vlastní soubor s předvolbami, můžete ho podobným způsobem přidat do nabídky. Jednoduše se vraťte do nabídky Předvolby a namísto výběru ze seznamu klikněte na tlačítko (+) vpravo nahoře.  
+* Pokud máte vlastní soubor s předvolbami, můžete ho podobným způsobem přidat do nabídky. Jednoduše se vraťte do nabídky Předvolby a namísto výběru ze seznamu klikněte na tlačítko (+) vedle pravého seznamu.  
 
 ![plus button][]
 
-* Vyhledejte soubor a pojmenujte jej, pokud se vám líbí.  
+* Vyhledejte soubor a pojmenujte jej jak se vám zlíbí.  
 * Klepněte na tlačítko OK.  
 
 
