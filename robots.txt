@@ -1,1 +1,3 @@
+User-agent: *
+Disallow:
 Sitemap: http://learnosm.org/sitemap.xml
