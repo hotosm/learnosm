@@ -35,6 +35,7 @@ prose:
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 # ranking of other guides in the navigation bar
 priorities:
