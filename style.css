@@ -1,3 +1,29 @@
+@media screen {
+  div.print-watermark {
+    display: none;
+  }
+  div.print-watermark-reserved {
+    display: none;
+  }
+}
+@media print {
+  div.return-to-top {
+    display: none;
+  }
+  div.doc-content {
+    position: relative;
+    padding-top: 25px;
+  }
+  div.print-watermark {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  div.print-watermark-reserved {
+    height: 40px;
+  }
+}
+
 /* --------------------------------------------------------
   Grids and Rules
 -------------------------------------------------------- */
@@ -177,13 +203,9 @@ small {
 img {
   display: span;
   max-width:480px;
-  border:1px solid #ddd;
   background: #fff;
   padding:3px;
   margin:2px 0;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
   transition: all 200ms linear;
   -moz-transition: all 200ms linear;
   -webkit-transition: all 200ms linear;
@@ -244,6 +266,7 @@ body {
   padding:0;
   height:100%;
 }
+
 #wrapper {
   min-height:100%;
   position:relative;
@@ -526,37 +549,43 @@ a.license {
   display:block;
   padding:10px;
   background:#f0f0f0;
-  }
-  .doc .title.active {
-    background:#79bc5f;
-    color:#fff;
-    }
-    .doc .title span:before {
-      content:'▸';
-      margin-right:8px;
-    }
-    .doc-nav-secondary .title span:before {
-      content:'▸';
-      margin-left:25px;
-      margin-right:8px;
-    }
-  .doc .title.cover,
-  .doc .title.cover:hover,
-  .doc .title.cover.active {
-    font-size:12px;
-    text-transform:uppercase;
-    font-weight:700;
-    text-align:center;
-    background: #fff;
-    padding:8px;
-    color:#404040;
-    border-top: 4px solid   #f0f0f0;
-    border-left: 4px solid  #f0f0f0;
-    border-right: 4px solid #f0f0f0;
 }
-    .doc .cover span:before {
-      content:'';
-    }
+.doc .title.active {
+  background:#79bc5f;
+  color:#fff;
+}
+.doc .title span:before {
+  content:'▸';
+  margin-right:8px;
+}
+.doc-nav-secondary .title span:before {
+  content:'▸';
+  margin-left:25px;
+  margin-right:8px;
+}
+.doc-nav-secondary-rtl .title span:before {
+  content:'▸';
+  margin-right:25px;
+  margin-left:8px;
+}
+
+.doc .title.cover,
+.doc .title.cover:hover,
+.doc .title.cover.active {
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight:700;
+  text-align:center;
+  background: #fff;
+  padding:8px;
+  color:#404040;
+  border-top: 4px solid   #f0f0f0;
+  border-left: 4px solid  #f0f0f0;
+  border-right: 4px solid #f0f0f0;
+
+  .doc .cover span:before {
+    content:'';
+  }
 
 /* Ideas for "other guide" navigation menu */
   .doc .title.other {

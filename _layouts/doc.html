@@ -59,24 +59,43 @@ layout: default
 </div>
 
 <!-- On the right side we have... -->
+<!-- the table layout makes sure that the logo header and pagenumber footer appear on _every_ page -->
 
-<div class='doc-main doc cell5 padAll'>
-  {{content}}           <!-- ...first the contents of the current document -->
-  {% if page.cover %}   <!--    then the 'return to top' button and and our call for feedback -->
-    <div class='getstarted'>
-      <span><a class='start rounded'>{{site.translations[page.lang].getstarted}}</a></span>
-    </div>
-  {% else %}
-  <p>
-    <a href='{{page.permalink}}'><img src="{{site.baseurl}}/images/arrow-up.png" style="height:20px">&nbsp;{{site.translations[page.lang].returntotop}}</a>
-  </p>
-  {% endif %}
-  {% unless page.cover %}
-  <div class='feedback padAll'>
-    <span>{{site.translations[page.lang].feedbackspan}}</span>
-    <a href='{{site.baseurl}}/{{page.lang}}/contribute'>{{site.translations[page.lang].feedback}}</a>
-  </div>
-  {% endunless %}
+<div class='doc-main doc' cell5 padAll>
+  <table>
+    <thead>
+      <tr><td>
+        <div class='print-watermark-reserved'> &nbsp; </div>
+      </td></tr>
+    </thead>
+    <tbody>
+      <tr><td>
+        <div class='doc-content'>
+          {{content}}           <!-- ...first the contents of the current document -->
+        </div>
+        {% if page.cover %}   <!--    then the 'return to top' button and and our call for feedback -->
+          <div class='getstarted'>
+            <span><a class='start rounded'>{{site.translations[page.lang].getstarted}}</a></span>
+          </div>
+        {% else %}
+        <p>
+          <div class='return-to-top'>
+            <a href='{{page.permalink}}'><img src="{{site.baseurl}}/images/arrow-up.png" style="height:20px">&nbsp;{{site.translations[page.lang].returntotop}}</a>
+          </div>
+        </p>
+        {% endif %}
+        {% unless page.cover %}
+        <div class='feedback padAll'>
+          <span>{{site.translations[page.lang].feedbackspan}}</span>
+          <a href='{{site.baseurl}}/{{page.lang}}/contribute'>{{site.translations[page.lang].feedback}}</a>
+        </div>
+        {% endunless %}
+      </td></tr>
+    </tbody>
+  </table>
+</div>
+<div class='print-watermark'>
+<img src="{{site.baseurl}}/img/watermark.png">
 </div>
 
 <script>

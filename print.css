@@ -1,20 +1,50 @@
+p a {
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    page-break-after:avoid; 
+    page-break-inside:avoid; 
+}
+
+a {
+    page-break-inside: avoid;
+}
+blockquote {
+    page-break-inside: avoid;
+}
+pre { 
+    page-break-inside: avoid; 
+}
+ul, ol, dl  { 
+    page-break-before: avoid; 
+}
+
 html {
     height: inherit;
 }
 .doc-nav,
 #banner-top,
+#header,
 #footer,
 .feedback,
 .banner {
     display: none;
 }
-.doc-main {
+.doc-main,
+.doc-main-rtl {
     width: 96%;
     margin: 1%;
 }
-.logo:before {
-    content: "LearnOSM";
+h1 {
+    color: black;
+    font-size: 28px;
+    text-align: center;
 }
-#header span {
-    display: inline-block;
+img {
+    max-width: 100%;
+    height: auto;
+}
+a:after {
+    content: " [" attr(href) "] ";
 }
