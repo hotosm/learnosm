@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: تصاویر ماهواره ای
 permalink: /fa/josm/aerial-imagery/
 lang: fa

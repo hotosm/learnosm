@@ -24,7 +24,7 @@ Meer en meer van de huidige smartphones bevatten een radiochip die hen in staat 
 
 De kwaliteit van de in smartphones gebruikte chips kan variëren,evenals de nauwkeurigheid van de gegevens en uitvoering.  
 
-Apparaten met GPS-chips kunnen autonoom werken, los van het grid, en zonder een internetverbinding, waar apparaten die zijn gemarkeerd met “A-GPS only” (Assisted GPS) een gegevensverbinding naar eennetwerk vereisen (en een mobiel signaal van een telecommunicatieprovider) om juist te werken. Gegevens van A-GPS kunnen autonome GPS-chips helpen bij ene betere uitvoering door vooraf gegevens te cachen voor een betere uitvoering.  
+Apparaten met GPS-chips kunnen autonoom werken, los van het grid, en zonder een internetverbinding, waar apparaten die zijn gemarkeerd met “A-GPS only” (Assisted GPS) een gegevensverbinding naar een netwerk vereisen (en een mobiel signaal van een telecommunicatieprovider) om juist te werken. Gegevens van A-GPS kunnen autonome GPS-chips helpen bij een betere uitvoering door vooraf gegevens te cachen voor een betere uitvoering.  
 
 De gebruiker wordt geacht een smartphone met een autonome GPS-chip te hebben om de meeste toepassingen voor het maken van kaarten goed te laten werken. Controleer de specificaties van uw apparaat om te bevestigen of uw apparaat een autonome chip gebruikt, of een A-GPS only-apparaat is.  
 

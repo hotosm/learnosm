@@ -292,10 +292,7 @@ Wenn Sie in einer E-Mail oder bei IRC jemand etwas zu einer bestimmten Aufgabe i
 
 1. Klicken Sie auf die betreffende Aufgabe  
 2. Klicken Sie in die Adressleiste Ihres Internet-Browsers. Dort sollte etwas ähnliches wie ‘http://tasks.hotosm.org/project/3454?task=1573’ stehen  
-3. Kopieren Sie diesen Text, meistens geht das mit **Ctrl+A** und **Ctrl+C**  
-4. Fügen Sie den Text in Ihre Nachricht ein,   
-     - entweder mit Ihrer Maus oder  
-     - oder mit **Ctrl+V**, und Sie erhalten einen Link. 
+4. Kopieren Sie den Link in Ihre Nachricht.  
 
 
 ## Hilfe 

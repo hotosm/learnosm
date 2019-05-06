@@ -27,7 +27,7 @@ OpenStreetMap è un progetto collaborativo e speriamo tu ne voglia far parte. Al
 Impara di più
 ----------
 
-C’è un sacco di infomazioni accessibili nella wiki di OSM all’indirizzo [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Qui puoi trovare informazioni su progetti correlati con OpenStreetMap e documenti e tutorial che ti fanno imparare di più su OSM.  
+C’è un sacco di infomazioni accessibili nella wiki di OSM all’indirizzo [http://wiki.openstreetmap.org/wiki/IT:Pagina_Principale](http://wiki.openstreetmap.org/wiki/IT:Pagina_Principale). Qui puoi trovare informazioni su progetti correlati con OpenStreetMap e documenti e tutorial che ti fanno imparare di più su OSM.  
 
 ![Wiki][]
 

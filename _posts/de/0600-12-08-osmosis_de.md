@@ -110,7 +110,7 @@ Das nächste Stück unseres kommandos lautet *--nkv keyValueList="amenity.school
 
       --nkv keyValueList="amenity.school"
 
-Als letztes liefern wir den Namen und das Format der Asugabedatei. Wir verwenden das Flag **--wx**, welches eine Abkürzung für **--write-xml** ist. Beachte, dass wir genauso **--wbf** verwenden könnten als Gegenpart zu **--rbf**, wenn wir die Ausgabe wieder im PBF Format haben wollen.  
+Als letztes liefern wir den Namen und das Format der Ausgabedatei. Wir verwenden das Flag **--wx**, welches eine Abkürzung für **--write-xml** ist. Beachte, dass wir genauso **--wb** verwenden könnten als Gegenpart zu **--rbf**, wenn wir die Ausgabe wieder im PBF Format haben wollen.  
 
       --wx schools.osm
 

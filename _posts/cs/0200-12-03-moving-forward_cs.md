@@ -17,11 +17,11 @@ Pokud jste se dostali až sem, gratulujeme! Měli byste mít dobré porozumění
 Další sekce learnOSM
 ---------------------------
 
-Na konec kapitoly o editory iD jste slyšeli o rozdílech mezi iD a JOSM. Existuje [celá kapitola věnovaná JOSM](/cs/josm/), kde se budete moci naučit všechny detaily potřebné k využití všech výhod, které tento editor nabízí.  
+Na konci kapitoly o iD editoru jste slyšeli o rozdílech mezi iD editorem a JOSM. Existuje [celá kapitola věnovaná JOSM](/cs/josm/), kde se budete moci naučit všechny detaily potřebné k využití všech výhod, které tento editor nabízí.  
 
-Zatím, všechny změny přidané do mapy byly založené na fotografiích na pozadí. Vy ale můžete sbírat mnoho důležitých informací během chůze nebo ježdění kolem. [Kapitola o mobilním mapování](/cs/mobile-mapping/) vysvětluje jak sbírat informace pomocí různých GPS zařízení nebo speciálně navržených výtisků. Také vysvětluje několik aplikací souvisejících s OpenStreetMap pro mobilní telefony.  
+Zatím, všechny změny přidané do mapy byly založené na fotografiích na pozadí. Vy ale můžete sbírat mnoho důležitých informací během chůze nebo ježdění na kole. [Kapitola o mobilním mapování](/cs/mobile-mapping/) vysvětluje jak sbírat informace pomocí různých GPS zařízení nebo speciálně navržených výtisků. Také vysvětluje několik aplikací souvisejících s OpenStreetMap pro mobilní telefony.  
 
-OpenStreetMap je společný program a doufáme, že budete její součástí. Některé z těchto úkolů jsou věnovány humanitární podpoře pod záštitou [Humanitární OSM Tým](http://hotosm.org). Pokud byste chtěli pomoci HOT v případě katastrof jako zemětřesení v Nepálu, prosím, podívejte se na [kapitolu koordinace](/en/coordination/). Ta popisuje nástroje, které umožňují mnoha lidem pracovat společně na relativně malém prostoru sladěně. Také obsahuje rady k některým typickým úkolům, které často potkáte pokud se připojíte k tomuto programu.  
+OpenStreetMap je společný program a doufáme, že budete její součástí. Některé z těchto úkolů jsou věnovány humanitární podpoře pod záštitou [Humanitární OSM Tým](http://hotosm.org). Pokud byste chtěli pomoci HOT v případě katastrof jako zemětřesení v Nepálu, prosím, podívejte se na [kapitolu koordinace](/cs/coordination/). Ta popisuje nástroje, které umožňují mnoha lidem pracovat společně na relativně malém prostoru sladěně. Také obsahuje rady k některým typickým úkolům, které často potkáte pokud se připojíte k tomuto programu.  
 
 
 Číst více
@@ -60,17 +60,17 @@ Nyní otevřete váš email, stejně tak jak jste dělali když jste se registro
 MapOSMatic
 ----------
 
-One such project is called MapOSMatic, which you can access through your
-internet browser at [maposmatic.org](http://www.maposmatic.org/). This
-is a simple tool for printing a map of any area you choose. It will
-automatically create the map, along with a grid over the map, and an
+Jeden takový projekt se nazývá MapOSMatic, ke kterému máte přístup přes
+internetový prohlížeč na [maposmatic.org](http://www.maposmatic.org/). To
+je jednoduchý nástroj pro tisk mapy libovolné oblasti, kterou si vyberete. Bude
+automaticky tvořit mapu spolu s mřížkou nad mapou a
 index of locations that are included in the area.
 
 ![MapOSMatic][]
 -->
 
 
-Souhrn
+Shrnutí
 -------
 
 Toto jsou některé způsoby jak můžete zůstat ve spojení s OpenStreetmap komunitou a naučit se více. Doufáme, že budete pokračovat zkoumáním a učením se více o OSM a přispějete do projektu. Veselé mapování!

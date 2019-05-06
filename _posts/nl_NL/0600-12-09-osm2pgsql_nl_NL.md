@@ -27,7 +27,7 @@ Navigeer, om de versie voor Windows van osm2pgsql te downloaden, in uw webbrowse
 
 ![unzip it][]
 
-- In de map osm2pgsql die u heeft uitgepakt staat ene bestand genaamd osm2pgsql.exe. Dit is een programma dat we zullen uitvoeren om de gegevens te importeren, maar om Windows dat te laten vinden, moeten we de locatie ervan toevoegen aan het systeempad. Klik op het menu Start en type “omgevingsvariabelen.”  
+- In de map osm2pgsql die u heeft uitgepakt staat een bestand genaamd osm2pgsql.exe. Dit is een programma dat we zullen uitvoeren om de gegevens te importeren, maar om Windows dat te laten vinden, moeten we de locatie ervan toevoegen aan het systeempad. Klik op het menu Start en type “omgevingsvariabelen.”  
 
 ![system path][]
 

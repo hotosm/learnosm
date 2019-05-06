@@ -12,7 +12,7 @@ Disegnare edifici rettangolari - iD editor
 - TOC
 {:toc}
 
-<!-- > Questa guida può essere scaricata come [tm_starting_it.odt](/files/tm_starting_it.odt) oppure [tm_starting_it.pdf](/files/tm_starting_it.pdf)  
+> Questa guida può essere scaricata come [tm_starting_it.odt](/files/tm_starting_it.odt) oppure [tm_starting_it.pdf](/files/tm_starting_it.pdf)  
 > Creato il 2016-10-30  -->  
 
 Le basi
@@ -24,12 +24,12 @@ Le basi
 
 Punti da tenere a mente:  
 
-- Se l'edificio ha angoli retti, assicurati di disegnarlo con angoli retti oppure utilizza lo strumento ortogonalizza.  
+- Se l'edificio ha angoli retti, assicurati di disegnarlo con angoli retti oppure utilizza l'apposito strumento per ortogonalizzare gli angoli.  
 - Assicurati di aggiungere i tag!  
 - Le dimensioni contano - *le stime sulla popolazione sono basate sull'area complessiva degli edifici in una data zona*.  
 - Edifici delle giuste dimensioni e orientati correttamente, aiuteranno le persone ad individuare il loro paese.  
 - Ingrandisci abbastanza da vedere i dettagli - un livello di zoom di 20 metri è solitamente sufficiente.  
-- **Cercando edifici** - esamina la zona con un livello di zoom tra i 50 e gli 80 metri. Cerca ombre e linee rette (edifici circolari sono più difficili da individuare!)  
+- **Cercare gli edifici** - esamina la zona con un livello di zoom tra i 50 e gli 80 metri. Cerca ombre e linee rette (edifici circolari sono più difficili da individuare!)  
 - Edifici e strade, fiumi, confini di **landuse=residential** o altro non dovrebbero sovrapporsi.  
 - Se commetti un errore, usa il pulsante **Annulla** ![back arrow]{: height="26px"} per annullare l'ultimo/gli ultimi cambiamento/i.  
 - Stiamo tutti migliorando la mappa. Se il precedente mappatore ha dato agli edifici una forma strana o in qualche modo sbagliata, correggila e considera di mandargli un educato messaggio.  
@@ -39,7 +39,7 @@ Edifici nascosti o visti di lato
 
 ![building-obscured][]  
 
-È comune che le immagini satellitari siano riprese da un certo angolo facendo sembrare gli edifici distorti. Nell'immagine soprastante, la parte a destra mostra come dovrebbe essere disegnato l'edificio. La cosa più semplice è spesso tracciare il contorno del tetto, quindi spostarlo nel punto in cui il muro incontra il terreno - questa è la tecnica che è stata utilizzata per tracciare l'edificio qui sopra. Nota anche che l'edificio parzialmente nascosto dagli alberi è stato disegnato rettangolare. 
+È comune che le immagini satellitari siano riprese da un certo angolo facendo sembrare gli edifici distorti. Nell'immagine soprastante, la parte a destra mostra come dovrebbe essere disegnato l'edificio. La cosa più semplice è spesso tracciare il contorno del tetto, quindi spostarlo nel punto in cui il muro incontra il terreno - questa è la tecnica che è stata utilizzata per tracciare l'edificio qui sopra. Nota anche che l'edificio parzialmente nascosto dagli alberi è stato disegnato come rettangolare. 
 
 Edifici con tetto a falde
 ----------------------------
@@ -53,11 +53,11 @@ Questo edificio ha angoli retti ma ha il tetto a falde, si riconosce la linea di
 Questo edificio ha un albero che lo nasconde parzialmente. È di forma rettangolare.  
 
 In alcune zone del mondo è comune usare lamiere corrugate come tetto - queste, quando sono nuove, riflettono la luce del sole creando un **bagliore molto luminoso** nelle immagini satellitari. È comune che gli edifici abbiano una veranda o che siano a **forma di L** e devi assicurarti che il tuo tracciato segua la linea dell'edificio.  
-Quando tracci il contorno di un edificio devi provare a tracciarlo della giusta dimensione e nel punto in cui i suoi muri incontrano il terreno - fai del tuo meglio! In molte parti del mondo gli edifici sono costruiti solo parzialmente e lasciati senza tetto finchè non sono venduti, o utilizzati. Mappa questi edifici come normali edifici in quanto aggiungere il tetto non richiede molto tempo e potrebbe già essere stato aggiunto nel tempo passato da quando l'immagine satellitare è stata scattata.  
+Quando tracci il contorno di un edificio devi provare a tracciarlo della giusta dimensione e nel punto in cui i suoi muri incontrano il terreno - fai del tuo meglio! In molte parti del mondo gli edifici sono costruiti solo parzialmente e lasciati senza tetto finchè non sono venduti, o utilizzati. Mappa questi edifici come normali edifici in quanto aggiungere il tetto non richiede molto tempo e potrebbe già essere stato aggiunto nel tempo trascorso da quando l'immagine satellitare è stata scattata.  
 
 Fai del tuo meglio - persino gli esperti talvolta sono in disaccordo e talvolta è necessario andare sul posto per vedere esattamente cosa c'è. **Nel dubbio mappalo come un edificio.**  
 
-Taggare edifici
+Taggare gli edifici
 -------------
 
 Siccome stiamo mappando edifici che non abbiamo mai visitato e con cui non abbiamo familiarità, lo schema più sicuro e raccomandato con cui taggarli è **building**=**yes**, che puoi vedere su un edificio taggato correttamente se scorri fino alla fine del pannello laterale e clicchi su **Tutti i tag**.
@@ -72,10 +72,10 @@ Vedi anche
 
 
 
-[Rectangular building]: /images/hot-tips/rectangular_building.gif "Tracing a rectangular building, squaring the corners, and adding tags."
+[Rectangular building]: /images/hot-tips/rectangular_building.gif "Tracciare un edificio rettangolare, sistemare gli angoli, e aggiungere i tag."
 [keymon]:/images/hot-tips/keymon.png
 [building-ridge]: /images/hot-tips/building-ridge.png
 [back arrow]: /images/beginner/back-arrow.png
 [building-tree-ridge]: /images/hot-tips/building-tree-ridge.png
-[building-obscured]: /images/hot-tips/buildings-obscured-traced-1.png "Before & after - tracing a building seen at an angle"
-[building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"
+[building-obscured]: /images/hot-tips/buildings-obscured-traced-1.png "Prima & dopo - tracciare un edificio visto da un angolo"
+[building-video]: /images/hot-tips/building-video.png "Video tutorial Humanitarian OpenStreetMap Team - Aggiungere un edificio a OpenStreetMap"

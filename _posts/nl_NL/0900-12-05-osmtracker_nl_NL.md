@@ -124,7 +124,7 @@ GPS-sporen - GPX-bestanden
 
 ![OSMTracker JOSM][]  
 
-GPS-sporen in de vorm van GPX-bestanden zijn opgemaakt uit een aantal elementen, in principe een 'spoor' en 'waypoints'. De schermafdruk hierboven geeft een mapinhoud weer die is gemaakt met OSMTracker en die in JOSM is geladen, klaar om te wordne bewerkt, met een geladen satellietafbeelding om te helpen. Het vierkante pictogram in het midden van het spoor geeft aan dat er een foto, genomen op die locatie, beschikbaar is - klik eenvoudigweg op het vierkante pictogram om de foto weer te geven.  
+GPS-sporen in de vorm van GPX-bestanden zijn opgemaakt uit een aantal elementen, in principe een 'spoor' en 'waypoints'. De schermafdruk hierboven geeft een mapinhoud weer die is gemaakt met OSMTracker en die in JOSM is geladen, klaar om te worden bewerkt, met een geladen satellietafbeelding om te helpen. Het vierkante pictogram in het midden van het spoor geeft aan dat er een foto, genomen op die locatie, beschikbaar is - klik eenvoudigweg op het vierkante pictogram om de foto weer te geven.  
 
 Indien u navigeert en een GPS gebruikt om u aanwijzingen te geven, zult u merken dat die op sommige punten zal gaan 'herberekenen'. Dat is normaal omdat de interne GPS-locatie niet overeenkomt met waar het verwacht dat de weg of het pad is - er is een foutmarge, maar het is voor wegen en paden gemakkelijk om enigszins op de verkeerde plaats te worden gemaakt, of de weg te verplaatsen nadat de gegevens voor de kaart zijn gemaakt.  
 Vrijwilligers die OpenStreetMap bijwerken kunnen alle sporen voor een gebied die zijn geüpload weer downloaden, en ze gebruiken om:  

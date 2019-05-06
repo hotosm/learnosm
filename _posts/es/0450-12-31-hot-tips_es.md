@@ -2,13 +2,13 @@
 layout: doc
 permalink: /es/hot-tips/
 lang: es
-title: HOT Tips - Introducción para nuevos mapeadores - Editor iD
+title: HOT Tips - Introducción para nuevos mapeadores - Editor ID
 category: hot-tips
 cover: yes
 nosearch: true
 ---
 
-HOT Tips - Introducción para nuevos mapeadores: uso del editor iD y el Tasking Manager
+HOT Tips - Introducción para nuevos mapeadores: uso del editor ID y el Tasking Manager
 ================
 
 Esta serie de guías cortas está dirigido a voluntarios como ayuda para mapear para Agencias de Ayuda usando Tasking Manager, siendo los mismos principios para todos los mapeos de OpenStreetMap. Mapear es fácil, pero hagámoslo bien y mejoremos el mapa. 
@@ -22,7 +22,7 @@ Vea también
 *Subtítulos disponibles en algunos idiomas*  
 
 ![iD help]{: height="400px"}  
-Menú de ayuda de iD - siempre disponible cuando esté editando e incluye un tutorial opcional.    
+Menú de ayuda de ID - siempre disponible cuando esté editando e incluye un tutorial opcional.    
   
 [Lista de accesos rápidos de iD en Wiki](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
 

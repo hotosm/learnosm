@@ -225,7 +225,7 @@ Exporteren van sporen naar een bewerker voor OpenStreetMap
 
 Wanneer u gereed bent met het opnemen van sporen, kunnen de sporen worden geïmporteerd naar JOSM (of een andere bewerker voor OpenStreetMap, zoals iD).  
 
-Verbind uw apparaat met Android aan een computer (ook mogelijk met behulp van ene gegevenskabel, Bluetooth, of een internetverbinding) en kopieer de GPX-sporen en (en misschien multimediabestanden) die u heeft opgeslagen.  Zoek, in de opslag van uw apparaat, naar de GPX-sporen in de map /Android/data/com.mendhak.gpslogger/files  
+Verbind uw apparaat met Androïd aan een computer (ook mogelijk met behulp van een gegevenskabel, Bluetooth, of een internetverbinding) en kopieer de GPX-sporen en (en misschien multimediabestanden) die u heeft opgeslagen.  Zoek, in de opslag van uw apparaat, naar de GPX-sporen in de map /Android/data/com.mendhak.gpslogger/files  
 
 Gebruiken van de GPX-sporen met de bewerkers JOSM en iD is zo eenvoudig als het slepen van de bestanden en ze laten vallen in de toepassing (of de browsertab, voor iD).  
 

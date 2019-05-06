@@ -10,8 +10,8 @@ published: true
 開始使用 JSOM 編輯器
 =============================  
 
-> 這份文件可以到 [josm_start-josm_zh_TW.odt](/files/josm_start-josm_zh_TW.odt) 或 [josm_start-josm_zh_TW.pdf](/files/josm_start-josm_zh_TW.pdf) 下載  
-> 於 2015-07-12 審閲  
+> 此指南能以 [josm_start-josm_zh_TW.odt](/files/josm_start-josm_zh_TW.odt) 或 [josm_start-josm_zh_TW.pdf](/files/josm_start-josm_zh_TW.pdf) 下載  
+> 審閲於 2015-07-12  
 
 怎麼下載和安裝 JOSM，Java 開放街圖編輯器，改一些設定，
 開啟範例地圖和學習軟體的基本操作。

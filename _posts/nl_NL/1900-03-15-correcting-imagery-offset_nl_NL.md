@@ -18,7 +18,7 @@ Merk op dat in de volgende afbeelding twee afzonderlijke luchtfoto's voorzien zi
 
 ![Misaligned imagery][]
 
-We hebben twee belangrijke manieren geleerd voor het maken van kaarten - één door het gebruiken van luchtfoto's om objecten op de grond te identificeren, en een andere door GPS te gebruiken om sporen en waypoints op te nemen en die dan toe te voegen aan OpenStreetMap. Het voordeel van luchtfoto's is duidelijk. Het stelt u, de gene die in kaart brengt, in staat om de gehele foto te zien, verschillende details in de foto te bekijken, uw kennis over het gebied te beschouwen, en eenvoudig wegen, gebouwen en gebieden te traceren. Eén belangrijk voordeel van GPS is echter dat het geen last heeft van verschuiving zoals in een afbeelding. Een GPS zal u altijd voorzien van een juiste breedte- en lengtegraad. De enige uitzondering is wanneer de signalen van de satellieten worden onderbroken door hoge gebouwen of bergen, maar in dat geval is de fout eenvoudig te herkennen. Bekijk het GPS-spoor in deze afbeelding, vergeleken met de laag van de luchtfoto van Bing eronder:  
+We hebben twee belangrijke manieren geleerd voor het maken van kaarten - één door het gebruiken van luchtfoto's om objecten op de grond te identificeren, en een andere door GPS te gebruiken om sporen en waypoints op te nemen en die dan toe te voegen aan OpenStreetMap. Het voordeel van luchtfoto's is duidelijk. Het stelt u, degene die in kaart brengt, in staat om de gehele foto te zien, verschillende details in de foto te bekijken, uw kennis over het gebied te beschouwen, en eenvoudig wegen, gebouwen en gebieden te traceren. Eén belangrijk voordeel van GPS is echter dat het geen last heeft van verschuiving zoals in een afbeelding. Een GPS zal u altijd voorzien van een juiste breedte- en lengtegraad. De enige uitzondering is wanneer de signalen van de satellieten worden onderbroken door hoge gebouwen of bergen, maar in dat geval is de fout eenvoudig te herkennen. Bekijk het GPS-spoor in deze afbeelding, vergeleken met de laag van de luchtfoto van Bing eronder:  
 
 ![Aerial vs GPS][]
 
@@ -35,7 +35,7 @@ De beste verwijzingen voor het aanpassen van afbeeldingen zijn GPS-sporen die we
 
 - Selecteer het vak naast “Ruwe GPS-gegevens” ![Download raw GPS data][]{: height="24px"} aan de bovenzijde van het venster Downloaden. Selecteer uw gebied en klik op “Downloaden.”  
 
-- Dit zal een aanvullende laag downloaden naar JOSM die GPS-sporen bevat. Afhankelijk van hoeveel sporen zijn geüpload door gebruikers van OSM zou u ene aantal sporen kunnen zien (of zelfs geen sporen):  
+- Dit zal een aanvullende laag downloaden naar JOSM die GPS-sporen bevat. Afhankelijk van hoeveel sporen zijn geüpload door gebruikers van OSM zou u een aantal sporen kunnen zien (of zelfs geen sporen):  
 
 ![Few GPS tracks from OSM][]
 
@@ -148,7 +148,7 @@ Tenslotte, voor meer informatie over de database voor verschuivingen, kunt u de 
 Samenvatting
 --------
 
-Wanneer u net begint met OpenStreetMap hoeft u zich nog niet echt druk te maken om verschuivingen van afbeeldingen. Maar als u bewerkingen van andere mapper ziet die niet lijken uit te lijnen met de afbeelding, zou u altijd in gedachten ,moeten houden dat ern een verschuiving kan bestaan, vóórdat u begint met het wijzigen van hun objecten. En als u er nog niet klaar voor bent om verschuivingen af te handelen, onthoud dan dat het beter is een gebied in kaart te brengen met ene verschuiving van 20 of 30 meter dan om het in het geheel niet in kaart te brengen.  Maar onthoud, indien mogelijk, dat verschuivingen van afbeeldingen kunnen voorkomen, en gebruik de stappen in dit hoofdstuk om om ze te corrigeren indien nodig.
+Wanneer u net begint met OpenStreetMap hoeft u zich nog niet echt druk te maken om verschuivingen van afbeeldingen. Maar als u bewerkingen van andere mapper ziet die niet lijken uit te lijnen met de afbeelding, zou u altijd in gedachten ,moeten houden dat er een verschuiving kan bestaan, vóórdat u begint met het wijzigen van hun objecten. En als u er nog niet klaar voor bent om verschuivingen af te handelen, onthoud dan dat het beter is een gebied in kaart te brengen met een verschuiving van 20 of 30 meter dan om het in het geheel niet in kaart te brengen.  Maar onthoud, indien mogelijk, dat verschuivingen van afbeeldingen kunnen voorkomen, en gebruik de stappen in dit hoofdstuk om ze te corrigeren indien nodig.
 
 
 [Misaligned imagery]: /images/josm/misaligned-images.png

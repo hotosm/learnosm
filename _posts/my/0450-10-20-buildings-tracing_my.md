@@ -12,7 +12,7 @@ category: hot-tips
 - TOC
 {:toc}
 
-<!-- > ဤလမ်းညွှန်ချက်ကို [tm_starting_my.odt](/files/tm_starting_my.odt) (သို့မဟုတ်) [tm_starting_my.pdf](/files/tm_starting_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
+> This text may be ignored as it is no longer required and will not appear on the website.  
 > Created 2016-10-30  -->  
 
 အခြေခံလိုအပ်ချက်များ

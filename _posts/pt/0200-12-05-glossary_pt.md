@@ -9,25 +9,25 @@ category: beginner
 Glossário 
 ============
 
->Este Glossário está a ser actualizado e foi compilado a partir de numerosas fontes incluindo o site [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) e um guia escrito por Will Skora. Sinta-se à vontade para nos ajudar a actualizá-lo revendo [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) para saber como contribuir para o site. 
+>Este Glossário está a ser atualizado e foi compilado a partir de numerosas fontes incluindo o site [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) e um guia escrito por Will Skora. Sinta-se à vontade para nos ajudar a atualizá-lo revendo [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) para saber como contribuir para o site. 
 > Revisto em 2015-07-18  
 
 Para pesquisar facilmente este Glossário, utilize a funcionalidade de pesquisa do seu navegador (browser), carregando na tecla de Control e ao mesmo tempo pressionar a tecla f (**Ctrl+f**).  
 
 **3W** : Quem (Who), o Quê (What), Onde (When); Quem faz o Quê, Onde?  
 
-**AAR** : After Action Review - Depois da acção, revisão;  Uma actividade de grupo para avaliar um exercício ou actividade para aprender e melhorar.
+**AAR** : After Action Review - Depois da ação, revisão;  Uma atividade de grupo para avaliar um exercício ou atividade para aprender e melhorar.
 
-**Activation (termo HOT)** - Activação: Por vezes referida como resposta a uma emergência, crise ou desastre e geralmente caracterizada por um evento específico e/ou impacto humanitário antecipado com um tempo de resposta mais curto, associado com as fases de resposta e recuperação do ciclo do desastre, do que um Projecto Humanitário a longo termo.
+**Activation (termo HOT)** - Ativação: Por vezes referida como resposta a uma emergência, crise ou desastre e geralmente caracterizada por um evento específico e/ou impacto humanitário antecipado com um tempo de resposta mais curto, associado com as fases de resposta e recuperação do ciclo do desastre, do que um Projeto Humanitário a longo termo.
 
-**Activator(s)** : voluntários HOT volunteers que terminaram o treino e são aprovados por um "activator" existente para desempenhar funções no decurso de eventos. 
+**Activator(s)** : voluntários HOT que terminaram o treino e são aprovados por um "activator" existente para desempenhar funções no decurso de eventos. 
 
-**AOI : Area of Interest** ; Área de interesse, definida por coordenadores deactivação por consulta com parceiros humanitários, equipas de campod e comunidade HOT na sequência de um desastre.
+**AOI : Area of Interest** ; Área de interesse, definida por coordenadores de ativação por consulta com parceiros humanitários, equipas de campo da comunidade HOT na sequência de um desastre.
 
 
 **[Changeset](http://wiki.openstreetmap.org/wiki/Changeset)**: Um grupo de modificações que você fez a dados OSM. Uma vez carregados para o OSM, as suas edições ficam instantaneamente disponíveis para outros descarregarem. Podem levar uns minutos ou várias horas a aparecer no mapa.
 
-**COD : Common Operational Database** ; Inclui os dados geográficos de múltiplas activações humanitárias. Estes são principalmente: rede de transportes (estradas, pontes/vaus, portos, etc.), locais povoados (assentamentos), limites administrativos, hidrologia (rios e outros corpos de água) e hipsografia (elevações, curvas de nível). POdem incluir edifícios como fonte indireta de estatísticas populacionais. Utilizado pelo Gabinete das Nações Unidas para a coordenação dosAssuntos Humanitários.
+**COD : Common Operational Database** ; Inclui os dados geográficos de múltiplas ativações humanitárias. Estes são principalmente: rede de transportes (estradas, pontes/vaus, portos, etc.), locais povoados (assentamentos), limites administrativos, hidrologia (rios e outros corpos de água) e hipsografia (elevações, curvas de nível). Podem incluir edifícios como fonte indireta de estatísticas populacionais. Utilizado pelo Gabinete das Nações Unidas para a coordenação dos Assuntos Humanitários.
 
 **DHN : Digital Humanitarian Network** ; organização que alavanca redes digitais para resposta humanitária.
 
@@ -61,11 +61,11 @@ Para pesquisar facilmente este Glossário, utilize a funcionalidade de pesquisa 
 
 **SBTF : Stand-By Task-Force** ; uma organização que  coordena os voluntários digitais numa rede responsiva, treinada e preparada, pronta a ativar em crises.
 
-**Slippy Map** : O que vê quando está na página  <http://www.openstreetmap.org> ! Consiste numa layer e numa biblioteca de software que controla características interativas como "zoom" e "pan".
+**Slippy Map** : O que vê quando está na página  <http://www.openstreetmap.org> ! Consiste numa camada e numa biblioteca de software que controla características interativas como "zoom" e "pan".
 
 **Stylesheet** : Na maioria dos casos, consiste num ficheiro de texto que é usado para determinar que elementos (que estradas?) são mostrados, e como (de que cor deverá ser a estrada? A sua largura?) num mapa.
 
-**Tag**: As etiquetas (Tags) descrevem um ponto, linha ou polígono. Cada etiqueta contém uma chave (key) e valor (value) (escrito no OSM como 'key=value'). Por exemplo, highway=residential e name=Woodland Avenue. Inicialmente mencionado no Learnosm em [iD section](/en/beginner/id-editor/#basic-editing-with-id) . Um ponto, linha ou polígono normalmente têm mais de uma etiqueta. Por vezes escolher a etiqueta certa pode ser confuso. [Taginfo](https://taginfo.openstreetmap.org/) ajuda mostrando estatísticas acerca de quais etiquetas existem na base de dados, onde estão a ser usadas, quantas pessoas as usam, entre outros. Também vais buscar informação sobre as etiquetas a partir do wiki e de outros locais.
+**Tag**: As etiquetas (Tags) descrevem um ponto, linha ou polígono. Cada etiqueta contém uma chave (key) e valor (value) (escrito no OSM como 'key=value'). Por exemplo, highway=residential e name=Woodland Avenue. Inicialmente mencionado no LearnOSM na [secção iD](/pt/beginner/id-editor/#basic-editing-with-id). Um ponto, linha ou polígono normalmente têm mais de uma etiqueta. Por vezes escolher a etiqueta certa pode ser confuso. [Taginfo](https://taginfo.openstreetmap.org/) ajuda mostrando estatísticas sobre que etiquetas existem na base de dados, onde estão a ser usadas, quantas pessoas as usam, entre outros. Também vais buscar informação sobre as etiquetas a partir do wiki e de outros locais.
 
 **TIGER** : Uma fonte de dados do "US Census Bureau" que foi importado para o OSM em 2007. Esta é a fonte para a maior parte dos dados dos EUA no OSM.
 

@@ -19,8 +19,7 @@ In questa sezione impareremo passo dopo passo come navigare sul sito di OpenStre
 Visita il sito web di OpenStreetMap
 -------------------------------
 
--  Prima di iniziare, controlla che il tuo computer sia collegato a Internet. (se stai leggendo questo documento online, allora sei connesso per forza!)
--   Apri il tuo browser web. Esempi di browser sono Firefox, Chrome, Opera oppure Internet Explorer. Se è già aperto allora apri una nuova scheda.
+-   Apri il tuo browser web.
 - Nella barra degli indirizzi in alto, inserisci il seguente testo e premi Invio:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 -   Quando la pagina avrà finito il caricamento, dovresti vedere qualcosa del tipo:
@@ -65,12 +64,11 @@ Crea un account in OpenStreetMap
 -   Ci sono cinque caselle in questa pagina che dovrai compilare per registrare un account su OSM.
 -   Inserisci il tuo indirizzo email nelle prime due caselle. Dovresti inserire lo stesso indirizzo in entrambe. In seguito, dovrai aprire la tua email per confermare il tuo account su OpenStreetMap.
 -   Nella terza casella, inserisci lo username che vorresti avere.  Non puoi scegliere uno username che sia stato già scelto da qualcun altro, per cui scegline uno fantasioso. Se provi a inserire qualcosa di semplice, come il tuo nome, è molto probabile che un altro utente lo abbia già preso.
--   Inserisci una nuova password nella quarta e nella quinta casella. Dovresti scrivere la stessa password in entrambe. È sconsigliabile usare la stessa password della tua email.
+- Inserisci una nuova password nella quarta e quinta casella. Dovresti inserire la stessa password in entrambe le caselle. *Non* dovresti usarne una importante come la password della tua email.
 -   Dovresti annotare da qualche parte il tuo username e la tua password di OSM. Ti serviranno più tardi per effettuare l’accesso.
 -   Dopo aver compilato tutte le caselle, clicca “Registrati” in fondo alla pagina.
 -   In caso di problemi, verrà visualizzato un messaggio di errore. Controlla che la tua email sia la stessa nelle prime due caselle e che la password sia la stessa nelle ultime due caselle. Se la terza casella è evidenziata in rosso, significa che qualcun altro ha già scelto il tuo username e che dovrai sceglierne un altro.
--   Apri una finestra separata o una scheda del tuo browser e vai sulla tua email. I siti email più comuni sono [mail.yahoo.com](https://mail.yahoo.com) e [www.gmail.com](https://www.gmail.com).
--   Inserisci il tuo indirizzo email e la password della tua email per aprire l’email. Tieni presente che __non__ sono le stesse credenziali di OpenStreetMap.
+- Controlla le tue email.
 -   Se la tua registrazione è andata a buon fine, dovresti vedere una email nella tua cartella di posta in arrivo. Apri l’email. Dovrebbe apparire come l’immagine più sotto. Clicca il link che è indicato qui sotto:
 
     ![Confirming your OpenStreetMap account][]

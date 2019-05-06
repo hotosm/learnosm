@@ -11,7 +11,7 @@ category: coordination
 > Diese Anleitung kann unter [tasking-manager_de.odt](/files/tasking-manager_de.odt) oder [tasking-manager_de.pdf](/files/tasking-manager_de.pdf) heruntergeladen werden  
 > Geprüft 2015-08-26  
 
-**Diese Anleitung beschreibt eine ältere Version des Tasking Managers. Wenn sich die Benutzeroberfläche der Version, die Sie benutzen, von der hier beschriebenen unterscheidet, lesen Sie bitte [das Handbuch zu Version 3](/de/coordination/tasking-manager3)**
+**Diese Anleitung beschreibt eine ältere Version des Tasking Managers. Wenn sich die Benutzeroberfläche der Version, die Sie benutzen, von der hier beschriebenen unterscheidet, lesen Sie bitte [das Handbuch zu Version 3}/de/coordination/tasking-manager3)**
 
 Inhaltsübersicht
 -------------
@@ -269,23 +269,24 @@ Im Task Manager:
 
 Soweit haben Sie schon ein gutes Verständnis, worum es sich beim Task Manager handelt. Sie kennen auch bereits einige seiner Funktionen. Im Gegensatz zum normalen Editieren wird dieses Werkzeug häufig für zeitkritische Projekte mit vielen Teilnehmern verwendet - deshalb sind manche Vorgehensweisen etwas anders, als Sie es vielleicht gewohnt sind.  
 
-Beachten Sie deshalb bitte diese allgemeinen Hinweise:  
+**Beachten Sie deshalb bitte diese allgemeinen Hinweise:**  
 
-- Vermeiden Sie Bearbeitungen außerhalb Ihrer Kachel - jemand anders könnte dort gerade editieren, was zu Duplikaten führt. Sie sollten sich um Objekte kümmern, die auf dem Kachelrand liegen (jemand muss es schließlich tun) aber bearbeiten Sie keine Objekte, die vollständig außerhalb Ihrer Kachel liegen.  
-- Wenn Sie Wege, Wasserläufe oder ähnliche Objekte eintragen, zeichnen Sie sie etwas über den Kachelrand hinaus - dann kann der Bearbeiter der Nachbarkachel “den Faden aufnehmen”.  
-- Wenn Sie sich über den Charakter eines Objekts nicht im klaren sind, benutzen Sie die Changeset-Kommentare um Fragen zu stellen oder sehen Sie im Wiki nach.  
-- Wenn Ihnen ein Malheur passiert ist - Sie haben z.B. ein komplexeres Objekt oder eine Relation gelöscht - bitten Sie mit einem Changeset-Kommentar andere Bearbeiter um Hilfe beim Rückgängig Machen. Geben Sie die Nummer des Changesets an und eine Beschreibung, was passiert ist. An HOT-Projekten arbeiten viele Leute mit, darunter sind sicher einige, die Ihnen helfen können - jeder macht schließlich einmal einen Fehler. Schneller geht es vermutlich, wenn Sie sich an die Mailing-Liste zu HOT wenden oder im IRC nachfragen. Sollten Sie in so einem Fall Wert auf deutsch sprechende Ansprechpartner legen, es gibt zu OpenStreetMap allgemein auch eine [deutsche Mailing-Liste] (http://lists.openstreetmap.org/listinfo/talk-de).-   
-- Zögern Sie nicht, um Rückmeldung durch Überprüfung zu bitten - manche Prüfer mögen ein wenig grob klingen oder Fehler sehr direkt ansprechen. Aber wenn sie merken, dass Sie offen sind für Kommentare, lernen nicht selten beide Seiten dazu.  
-- Überprüfen Sie niemals Ihre eigene Arbeit - ein zweites Paar Augen findet oft Dinge, die Sie übersehen haben. Dadurch steigt die Qualität unserer Arbeit.  
-- Haben Sie keine Angst, wenn andere Bearbeiter etwas unfreundlich klingen, wenn sie Ihre Arbeit prüfen - alle wollen genau wie Sie sicherstellen, dass die Realität bestmöglich in den Daten abgebildet wird. Deren Kommentare helfen auch Ihnen bei der zukünftigen Arbeit und sind nicht als Kritik an Ihren bisherigen Beiträgen zu verstehen.  
+* Vermeiden Sie Bearbeitungen außerhalb Ihrer Kachel - jemand anders könnte dort gerade editieren, was zu Duplikaten führt. Sie sollten sich um Objekte kümmern, die auf dem Kachelrand liegen (jemand muss es schließlich tun) aber bearbeiten Sie keine Objekte, die vollständig außerhalb Ihrer Kachel liegen.  
+* Wenn Sie Wege, Wasserläufe oder ähnliche Objekte eintragen, zeichnen Sie sie etwas über den Kachelrand hinaus - dann kann der Bearbeiter der Nachbarkachel “den Faden aufnehmen”.  
+* Wenn Sie sich über den Charakter eines Objekts nicht im klaren sind, benutzen Sie die Changeset-Kommentare um Fragen zu stellen oder sehen Sie im Wiki nach.  
+* Wenn Ihnen ein Malheur passiert ist - Sie haben z.B. ein komplexeres Objekt oder eine Relation gelöscht - bitten Sie mit einem Änderungssatz-Kommentar andere Bearbeiter um Hilfe beim Rückgängig Machen. Geben Sie die Nummer des Änderungssatzes an und eine Beschreibung, was passiert ist. An HOT-Projekten arbeiten viele Leute mit, darunter sind sicher einige, die Ihnen helfen können - jeder macht schließlich einmal einen Fehler. Schneller geht es vermutlich, wenn Sie sich an die Mailing-Liste zu HOT wenden oder im IRC nachfragen. Sollten Sie in so einem Fall Wert auf deutsch sprechende Ansprechpartner legen, es gibt zu OpenStreetMap allgemein auch eine [deutsche Mailing-Liste] (http://lists.openstreetmap.org/listinfo/talk-de).-  
+* Zögern Sie nicht, um Rückmeldung durch Überprüfung zu bitten - manche Prüfer mögen ein wenig grob klingen oder Fehler sehr direkt ansprechen. Aber wenn sie merken, dass Sie offen sind für Kommentare, lernen nicht selten beide Seiten dazu.  
+* Überprüfen Sie niemals Ihre eigene Arbeit - ein zweites Paar Augen findet oft Dinge, die Sie übersehen haben. Dadurch steigt die Qualität unserer Arbeit.  
+* Haben Sie keine Angst, wenn andere Bearbeiter etwas unfreundlich klingen, wenn sie Ihre Arbeit prüfen - alle wollen genau wie Sie sicherstellen, dass die Realität bestmöglich in den Daten abgebildet wird. Deren Kommentare helfen auch Ihnen bei der zukünftigen Arbeit und sind nicht als Kritik an Ihren bisherigen Beiträgen zu verstehen.  
 
-[Tasking Manager Login]: /images/coordination/tasking_manager_image01_de.png
-[Tasking Manager Username_list]: /images/coordination/tasking_manager_image02_de.png
-[Authorizing access to OSM account by the Tasking Manager]: /images/coordination/tasking_manager_image03_de.png
-[Job description]: /images/coordination/tasking_manager_image04_de.png
-[Picking a task]: /images/coordination/tasking_manager_image05_de.png
-[Assigned task square]: /images/coordination/tasking_manager_image06_de.png
-[Editing options]: /images/coordination/tasking_manager_image07_de.png
+
+[Tasking Manager Login]: /images/de/coordination/tasking_manager//tasking_manager_image01.png
+[Tasking Manager Username_list]: /images/de/coordination/tasking_manager/tasking_manager_image02.png
+[Authorizing access to OSM account by the Tasking Manager]: /images/de/coordination/tasking_manager/tasking_manager_image03.png
+[Job description]: /images/de/coordination/tasking_manager/tasking_manager_image04.png
+[Picking a task]: /images/coordination/tasking_manager_image05.png
+[Assigned task square]: /images/coordination/tasking_manager_image06.png
+[Editing options]: /images/coordination/tasking_manager_image07.png
 [IRC_help]: /images/coordination/tasking_manager_image08.png
 [IRC using]: /images/coordination/tasking_manager_image09.png
 [Tasking Manager About]: /images/coordination/tasking_manager_image011.png

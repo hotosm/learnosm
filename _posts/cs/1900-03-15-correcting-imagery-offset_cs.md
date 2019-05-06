@@ -14,7 +14,7 @@ Posun snímků
 
 Poskytovatelé snímků většinou dělají dobrou práci při georeferencování jejich snímků, ale někdy snímky neodpovídají jejich GPS pozici. Stává se to zejména v kopcovitých či horských oblastech, kde může být obtížné roztáhnout plochý snímek na oblast zemského povrchu s mnoha obrysy. Když stáhnete snímky do JOSM, mohou se nacházet deset i více metrů mimo správnou pozici. Tomu se říká **posun snímků**.  
 
-V následujícím snímku s všimněte dvou různých fotografií oblasti, které byly georeferencovány a spojeny do jedné. Protože proces georeferencování není perfektní, snímky nemusí zapadnout perfektně do sebe.   Proto musí být minimálně jeden nepřesný.  
+V následujícím snímku si všimněte dvou různých fotografií oblasti, které byly georeferencovány a spojeny do jedné. Protože proces georeferencování není perfektní, snímky nemusí zapadnout perfektně do sebe.   Proto musí být minimálně jeden nepřesný.  
 
 ![Misaligned imagery][]
 
@@ -31,9 +31,9 @@ Odpovědí na předcházející otázku je posun snímků na pozici, ve které o
 
 Nejlepší předlohou pro upravení snímků jsou GPS trasy, které představují silnici. A čím více takových tras máte, tím přesněji budete schopni daný snímek zarovnat. Díky tomu, že uživatelé OSM začali nahrávat své GPS trasy do databáze OSM, my si je teď můžeme stáhnout a použít je k zarovnání snímků.  
 
-- Klikněte na tlačítko stáhnout. ![JOSM download button][]{: height="24px"}  
+- Klikněte na tlačítko **Stažení mapových dat...**. ![JOSM download button][]{: height="24px"}  
 
-- Zaškrtněte políčko u “GPS trasy” ![Download raw GPS data][]{: height="24px"} ve vrchní části okna. Vyberte oblast a klikněte na “Stáhnout”.  
+- Zaškrtněte políčko u **GPS trasy** ![Download raw GPS data][]{: height="24px"} ve vrchní části okna. Vyberte oblast a klikněte na **Stáhnout**.  
 
 - Tímto stáhnete do JOSM také vrstvu GPS tras. V závislosti na množství tras, které uživatelé OSM nahráli, můžete vidět několik tras (nebo taky žádnou).   
 
@@ -43,7 +43,7 @@ Nejlepší předlohou pro upravení snímků jsou GPS trasy, které představuj�
 
 ![Many GPS tracks from OSM][]
 
-- Ke zpřesnění vrstvy leteckých snímků, klikněte na tlačítko “Nastavit posunutí vrstvy mapového podkladu.” ![Adjust imagery offset button][]{: height="24px"}, nacházející se vpravo pod hlavní nabídkou JOSM.  
+- Ke zpřesnění vrstvy leteckých snímků, klikněte na tlačítko **Nastavit posunutí vrstvy mapového podkladu.** ![Adjust imagery offset button][]{: height="24px"}, nacházející se vpravo pod hlavní nabídkou JOSM.  
 
 - Ignorujte vyskakovací okno a pomocí myši uchopte vrstvu snímku a srovnejte ji s GPS trasami. Trasy by měly co nejpřesněji lícovat s cestami na snímku. Číselné informace o posunutí se zobrazí ve vyskakovacím okně.  
 
@@ -57,8 +57,8 @@ Co dělat, když v OpenStreetMap nejsou žádné GPS trasy a vy nemáte GPS? Bez
 Pokud jste schopni přesně určit zeměpisnou šířku a délku aspoň jednoho objektu na povrchu, pak můžete zajistit správné umístění snímků tímto způsobem:  
 
 1. Najděte daný objekt na snímku.  
-2. Klikněte na zeměpisnou šířku a délku v levém dolním rohu okan JOSM.![JOSM lat lon][]{: height="24px"}  
-3. Do dialogového okna zadejte zeměpisnou šířku a délku daného objektu, kterou znáte a přidejte nízké číslo do políčka Zvětšení, třeba 5 nebo 10.   
+2. Klikněte na zeměpisnou šířku a délku v levém dolním rohu okna JOSM.![JOSM lat lon][]{: height="24px"}  
+3. Do dialogového okna zadejte zeměpisnou šířku a délku daného objektu, kterou znáte a přidejte nízké číslo do políčka **Zvětšení**, třeba 5 nebo 10.   
 ![JOSM lat lon dialogue][]
 4. Tím se mapa přiblíží a vycentruje na vámi zadanou zeměpisnou šířku a délku. Nyní můžete posunout snímek tak, aby vám známý objekt ležel na správné pozici.  
 
@@ -70,13 +70,13 @@ Databáze posunutí snímků
 
 Nyní víte, jak se postarat o správný posun snímků, ale je tady jeden velký problém, kterému jsme dosud nevěnovali pozornost. Pokud každý uživatel OpenStreetMap posune snímek jiným směrem, tak každý bude mapovat nad trochu jiným pozadím.  
 
-Představte si, že mapujete malé město a uvědomili jste si, že snímek Bingu je posunutý o 15 metrů na sever. Tak si posunete snímek a poté začnete přesně mapovat celé město. Avšak potom chce někdo přidat něco do mapy, tak si stáhne data a nehraje snímky Bingu, ale neví o posunutí snímku, který jste objevili! Budou si myslet, že je něco špatně a všechny objekty ve městě jsou posunuty o 15 metrů a začne je přesouvat, což rozhodně není dobře! To může být pro mapová data města pohromou.  
+Představte si, že mapujete malé město a uvědomili jste si, že snímek Bingu je posunutý o 15 metrů na sever. Tak si posunete snímek a poté začnete přesně mapovat celé město. Avšak potom chce někdo přidat něco do mapy, tak si stáhne data a nahraje snímky Bingu, ale neví o posunutí snímku, který jste objevili! Bude si myslet, že je něco špatně a všechny objekty ve městě jsou posunuty o 15 metrů a začne je přesouvat, což rozhodně není dobře! To může být pro mapová data města pohromou.  
 
 Z tohoto důvodu je důležité varovat všechny uživatele, že snímky jsou posunuty a měli by si to zkontrolovat před mapováním v oblasti. Aby se vyřešil tento problém, pár chytrých lidí vytvořilo doplňek (plugin), který umožnil uživatelům uložit informace o posunu do databáze a sdílet ho s ostatními. Podívejme se, jak to funguje:  
 
-- Otevřete si Předvolby v JOSM a vyberte záložku Doplňky.![JOSM plugins tab][]{: height="24px"}  
+- Otevřete si **Předvolby** v JOSM a vyberte záložku **Doplňky**.![JOSM plugins tab][]{: height="24px"}  
 
-- Najděte doplněk s názvem “imagery_offset_db” a zaškrtněte u něj políčko.  
+- Najděte doplněk s názvem **imagery_offset_db** a zaškrtněte u něj políčko.  
 
 ![Imagery_offset_db plugin][]
 
@@ -103,15 +103,15 @@ Jakmile přidáte vrstvu leteckých snímků, nový doplněk vás upozorní, že
 
 ![Comparing imagery offset from GPS tracks][]
 
-- Jde vidět, že vrstva snímků je ve skutečnosti špatně zarovnána. Nechceme, aby ostatní využívali toto posunutí, tak bychom ho měli označit v databázi za nesprávné. Klikněte znovu na tlačítko "Posunutí" (už nebude mít na sobě červený vykřičník).  
+- Jde vidět, že vrstva snímků je ve skutečnosti špatně zarovnána. Nechceme, aby ostatní využívali toto posunutí, tak bychom ho měli označit v databázi za nesprávné. Klikněte znovu na tlačítko **Posunutí** (už nebude mít na sobě červený vykřičník).  
 
 ![Offsets button][]
 
-- Tentokrát, když se objeví dialogové okno, klikněte pravým tlačítkem na posunutí a vyberte “Prohlásit za zastaralý”.  
+- Tentokrát, když se objeví dialogové okno, klikněte pravým tlačítkem na posunutí a vyberte **Prohlásit za zastaralý**.  
 
 ![Deprecate offset][]
 
-- Potvrďte kliknutím na "Ano".  
+- Potvrďte kliknutím na **Ano**.  
 - Je potřeba odůvodnit vaše hlášení k tomuto posunutí.  
 
 ![Deprecate reason][]
@@ -122,7 +122,7 @@ Přidání posunutí snímků do databáze
 
 Když jsme označili posunutí tohoto uživatele za "zastaralé", měli bychom přidat lepší posunutí do databáze.  
 
-1. Klikněte na tlačítko "Nastavení posunutí mapového podkladu". ![Adjust imagery offset button][]{: height="24px"}  
+1. Klikněte na tlačítko **Nastavení posunutí mapového podkladu**. ![Adjust imagery offset button][]{: height="24px"}  
 2. Zarovnejte snímek s GPS trasami. Klikněte na OK.   
 3. Jděte do nabídky *Mapové podklady ‣ Uložit posuv mapového podkladu...*  
 ![Store imagery offset][]

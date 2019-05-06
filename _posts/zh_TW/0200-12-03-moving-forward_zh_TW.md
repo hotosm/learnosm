@@ -9,8 +9,8 @@ category: beginner
 閱讀更多
 ===============
 
-> 此指南能以 [beginner_moving-forward_zh_TW.odt](/files/beginner_moving-forward_zh_TW.odt) or [beginner_moving-forward_zh_TW.pdf](/files/beginner_moving-forward_zh_TW.pdf) 下載  
-> 2015-07-12 審閱  
+> 此指南能以 [beginner_moving-forward_zh_TW.odt](/files/beginner_moving-forward_zh_TW.odt) 或 [beginner_moving-forward_zh_TW.pdf](/files/beginner_moving-forward_zh_TW.pdf) 下載  
+> 審閲於 2015-07-12  
 
 如果你讀到這一邊，恭喜你了！你應該很明白怎麼畫開放街圖了。還有什麼能在開放街圖上做的事情嗎？你要怎麼學習更多事情？你要怎麼維繫與其他社群成員的關係呢？  
 

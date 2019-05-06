@@ -12,14 +12,14 @@ Videre lesing
 > Denne veiledningen kan lastes ned som [beginner_moving-forward_nb.odt](/files/beginner_moving-forward_nb.odt) eller [beginner_moving-forward_nb.pdf](/files/beginner_moving-forward_nb.pdf)  
 > Reviewed 2015-07-12  
 
-Hvis du har kommet deg så langt, gratulerer! Du burde nå en good oversikt over hvordan man lager kart med OpenStreetMap. Hva annet kan du gjøre med OSM? Hvordan kan du lære mere? Hvordan kan du holde deg i kontakt med kart-fellesskapet?  
+Hvis du har kommet deg så langt, gratulerer! Du burde nå en good oversikt over hvordan man lager kart med OpenStreetMap. Hva annet kan du gjøre med OSM? Hvordan kan du lære mer? Hvordan kan du holde deg i kontakt med kart-fellesskapet?  
 
 Andre deler av LearnOSM
 ---------------------------
 
 På slutten av kapitelet om iD, hørte du om forskjellen mellom iD og JOSM. Det er en [hel seksjon til bare JOMS](/nb/josm) hvor du vil lære alle detaljene for å ta fult utnytte av det denne editoren har å tilby.  
 
-Så langt, har alle endringene vi har gjort på kartet vært basert på bakgrunns-bilder. Men du kan samle en stor mengde informasjon mens du går eller kjører rundt. [Seksjonen](/nb/mobile-mapping/)  forklare hvordan man kan samle informasjon ved hjelp av forskjellige GPS-baserte enheter eller ved spesielt tilpassete utskrifter. Her får man også en oversikt over flere OpenStreetMap relaterte apper til mobilen.  
+Så langt, har alle endringene vi har gjort på kartet vært basert på bakgrunnsbilder. Men du kan samle en stor mengde informasjon mens du går eller kjører rundt. [Seksjonen](/nb/mobile-mapping/)  forklare hvordan man kan samle informasjon ved hjelp av forskjellige GPS-baserte enheter eller ved spesielt tilpassede utskrifter. Her får man også en oversikt over flere OpenStreetMap-relaterte apper til mobilen.  
 
 OpenStreetMap er et samarbeidsprosjekt som vi håper du vil være en del av. En  del av dette prosjektet er knyttet til humanitær hjelp, under [Humanitarian OSM Team](http://hotosm.org). Hvis du vil hjelpe HOT når det skjer en ulykke, sånn som jordskjelvet i Nepal, vennligst se [seksjon på koordinering](/nb/coordination/). Denne tar for seg verktøyene som bidrar til at mange mennesker kan jobbe med et relativt lite område på en sammenhengende måte. Den tar også for seg noen typiske oppgaver som man ofte møter når man driver med humanitær kartlegging.  
 

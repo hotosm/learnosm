@@ -47,12 +47,12 @@ iD 編輯器 - 儲存
 - **停止畫地圖**會讓方塊變成白色或是恢白色，顯示需要更多工作。留下評論則會讓下個圖客知道要做什麼，像是   
     - 「右下角的方框內有不少可以描繪的建築，但我沒時間」  
 
-The whole Tasking Manager process only works if mappers mark squares as complete - even if you are very new and not sure, when you think it is complete, click on the **Mark task as done** button. The worst thing that can happen is that someone thinks there is a lot more to be done and invalidates your square. Most of us that have carried out a lot of mapping on the Task Manager have had at least one square invalidated. *Sometimes the mapper who invalidated a square is wrong - perhaps they should have just completed the few things that were needed. - We all miss something at some point.*  
+整個任務分配管理器的過程，只有在圖客標示方框為完成 - 即便你是新手和不確定，你覺得已經完成，那就點**標示任務為完成**按鈕。最糟的狀況是有人認為還有不少東西能做，而取消審核你的方框。我們大部分人會畫不少塊，然後會有至少一塊方框會被取消審核。*有時候圖客取消審核方框是錯的 - 至少他們就補上少部分需要做的事情。我們總會在某一刻漏掉一些東西。*  
 
-OpenStreetMap has evolved because mappers are constantly improving the information. Sometimes new imagery becomes available making more detailed mapping possible, and sometimes a survey takes place and information is gained and added to the map.   
+開放街圖因為圖客而演化，大家持續不斷精進資訊。有時候有新的影像之後，造就更詳細的畫地圖可能，而有時候探察之後，收集到的資訊則加到地圖。   
 
 ### 任務分配管理器 - 傳送訊息給其他任務分配管理器使用者 ###
-You can send a message from this box to another Tasking Manager user by using **@** followed by the username - for instance "Thanks for your work on this @Tallguy I noticed you were having problems with round buildings - this link may help http://learnosm.org/en/hot-tips/tracing-round-buildings/. Keep up the good work! Regards Nick"  
+你可以用這個信箱寄訊息給其他任務分配管理器使用者，只要使用 **@** 然後接使用者名稱 - 像是「謝謝你的努力， @Tallguy 我注意到你沒有直角化你的建築 - 這個連結也許會幫到你 http://learnosm.org/en/hot-tips/tracing-round-buildings/。繼續努力！Nick 祝福」  
 
 參見  
 ---------

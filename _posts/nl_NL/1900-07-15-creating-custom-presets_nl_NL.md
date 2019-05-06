@@ -61,7 +61,7 @@ Laten we een voorbeeldbestand voor voorkeuzen aan JOSM toevoegen en analyseren h
 - Download het bestand [sample_presets.xml](/files/sample_presets.xml).  
 - Laad het dan in JOSM zoals beschreven in het [vorige hoofdstuk](/nl_NL/josm/josm-presets).  
 - Maak een nieuwe laag en een nieuw object.  
-- Ga naar het menu Voorkeuzen. Daar zal ene nieuw item staan, genaamd "Sample Building." Klik er op.  
+- Ga naar het menu Voorkeuzen. Daar zal een nieuw item staan, genaamd "Sample Building." Klik er op.  
 
 ![sample building menu][]
 
@@ -121,7 +121,7 @@ De beste manier om uw eigen bestand voor voorkeuzen te maken is door er een te n
 
 Vóórdta u begint met het maken van uw eigen voorkeuzen, dient u zorgvuldig na te denken over de tags die u gaat gebruiken. Nieuwe tags uitvinden is een onderwerp op zich. In het algemeen dient u zoveel mogelijk bestaande tags van OSM te gebruiken, als zij bestaan. De meeste bestaande tags zijn vermeld op de [pagina Map Features op de wiki van OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).  
 
-Dit voorbeeldbestand bevat de meeste elementen die u zult vinden in een bestand voor voorkeuzen voor JOSM - er zijn niet erg veel elementen voor formulieren. Als u zou willen experimenteren met ene meer complex bestand voor voorkeuzen, download dan hier het bestand [dhaka_presets.xml](/files/dhaka_presets.xml).  
+Dit voorbeeldbestand bevat de meeste elementen die u zult vinden in een bestand voor voorkeuzen voor JOSM - er zijn niet erg veel elementen voor formulieren. Als u zou willen experimenteren met een meer complex bestand voor voorkeuzen, download dan hier het bestand [dhaka_presets.xml](/files/dhaka_presets.xml).  
 
 Aanvullend is een gedetailleerde uitleg van alle mogelijke elementen [hier](http://josm.openstreetmap.de/wiki/TaggingPresets) te vinden.  
 

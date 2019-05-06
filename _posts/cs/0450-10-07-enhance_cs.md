@@ -9,7 +9,7 @@ category: hot-tips
 Zlepšení barev nebo pozadí - iD editor
 ============
 
-- Obsah
+- TOC
 {:toc}
 
 Úvod

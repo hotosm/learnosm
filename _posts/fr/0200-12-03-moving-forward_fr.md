@@ -10,7 +10,7 @@ Autres lectures
 ===============
 
 > Ce guide peut être téléchargé : [beginner_moving-forward_fr.odt](/files/beginner_moving-forward_fr.odt) ou [beginner_moving-forward_fr.pdf](/files/beginner_moving-forward_fr.pdf)  
-> Examiné 2015-07-12  
+> Examiné le 2015-07-12  
 
 Si vous avez tout lu jusqu’ici, bravo ! Vous devriez maintenant savoir comment faire des cartes avec OpenStreetMap. Que peut-on faire de plus avec OSM ? Comment en savoir plus ? Comment rester connecté avec la communauté de mappeurs ?  
 
@@ -33,7 +33,7 @@ Il y a beaucoup d'informations à propos d'OpenStreetMap disponible sur [wiki.op
 
 <!-- also more info on this site once it is prepared -->
 
-Mailing List
+Liste de distribution
 ------------
 
 Le meilleur moyen d'être en contact avec la communauté des contributeurs OpenStreetMap est de rejoindre votre mailing-list locale. De nombreuses personnes s'inscrivent, en utilisant leur compte e-mail pour la mailing-list OSM. Une fois que vous êtes sur la liste, vous pouvez envoyer un e-mail au groupe si vous avez une question et que vous voulez parler d'OpenStreetMap.  
@@ -46,8 +46,8 @@ Faites défiler la page vers le bas pour trouver la liste associées à votre pa
 
 - Cliquez sur la liste que vous souhaitez rejoindre.  
 - Entrez les informations suivantes dans les champs sur cette page:  
-    + votre adresse courriel  
-    + votre nom  
+    + votre courriel  
+    + votre prénom  
     + un nouveau mot de passe  
     + répéter votre mot de passe  
 - Lorsque vous avez terminé cliquez sur Abonner.

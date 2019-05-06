@@ -203,9 +203,9 @@ Vous avez plusieurs options pour faire vos modifications à partir du moment où
 
 Lancez JOSM avant d'utiliser ce lien, et il chargera automatiquement les données existantes d'OSM dans JOSM.  
 
->  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
->  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM).  
->  3. If JOSM does not load the imagery automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
+> 1. Vous devez cocher « Activer le contrôle à distance » — vous le trouverez dans **Édition / Préférences / Contrôle à distance**
+> 2. Si vous avez installé le greffon « continuosDownload » précédemment, il vaut mieux le désactiver (décochez « Télécharger les données OSM continuellement » dans le menu **Fichier** de JOSM).  
+> 3. Si JOSM ne charge pas l'imagerie automatiquement, cela se trouve dans le menu **Imagerie**. [Plus d'info sur l'imagerie](/fr/josm/more-about-josm/#add-imagery)  
   
 
 ##### Éditeur iD  
@@ -292,10 +292,7 @@ Si vous avez besoin d'envoyer un message (e-mail, IRC...) concernant une tâche 
 
 1. Cliquez sur la zone de la tâche concernée  
 2. Cliquez dans la barre d'adresse de votre navigateur Web, qui devrait afficher quelque chose de similaire à « http://tasks.hotosm.org/project/713?task=259 »  
-3. Sélectionner avec votre souris tout le texte de la barre d'adresse, ou utilisez le raccourci clavier **Ctrl+A**, puis utilisez le raccourci **Ctrl+C** pour copier le texte  
-4. Dans votre e-mail, message IRC, ou tout autre message,  
-    - soit faites un clic droit et « coller » ;  
-    - soit utilisez le raccourci clavier **Ctrl+V**, pour coller le lien dans le message. 
+3. Copiez le lien dans le message. 
 
 
 ## Obtenir de l'aide 

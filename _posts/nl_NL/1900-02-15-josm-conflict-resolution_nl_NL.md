@@ -19,7 +19,7 @@ Wat er gebeurde is dat u een aantal gegevens downloadde, die een punt punt bevat
 Conflicten
 ----------
 
-Soms is JOSM is in staat voor zichzelf uit te vogelen wat het met conflicten moet doen, en zal het u ene bericht als het volgende geven:  
+Soms is JOSM is in staat voor zichzelf uit te vogelen wat het met conflicten moet doen, en zal het u een bericht als het volgende geven:  
 ![resolved automatically][]  
 Dit betekent dat JOSM automatisch heeft besloten dat items in uw lokale gegevensset niet zullen worden geüpload naar de hoofdserver omdat zij al zijn verwijderd door een andere gebruiker. In sommige conflicten is er echter door JOSM geen gemakkelijke actie voor JOSM te ondernemen en laat het de beslissing over aan de gebruiker om te bepalen wat de beste te nemen actie is. Dit betekent dat het aan u is om de conflicten op te lossen.  
 
@@ -51,13 +51,13 @@ Als u eenmaal op deze knop hebt geklikt zult u een pop-upvenster krijgen met daa
 
 Conflicten verschijnen alleen met twee verschillende bewerkingen per keer. Als er drie of meer conflicten zijns, dan zal een reeks conflicten tevoorschijn komen. Daarom moet u er voor kiezen of samen te voegen met slechts twee conflicten per keer. U kunt kiezen voor uw versie, de andere versie of, soms, de twee samenvoegen.  
 
-In het onderstaande voorbeeld heeft u gene optie om ze samen te voegen. Klik op de eerste kolom, of Mijn versie als u er van overtuigd bent dat uw bewerkingen de juiste zijn. Klik op Hun versie als u denkt dat de andere bewerkingen beter zijn.  
+In het onderstaande voorbeeld heeft u geen optie om ze samen te voegen. Klik op de eerste kolom, of Mijn versie als u er van overtuigd bent dat uw bewerkingen de juiste zijn. Klik op Hun versie als u denkt dat de andere bewerkingen beter zijn.  
 ![conflicts resolved][]  
 
 Als u eenmaal hebt geselecteerd welke versie volgens u de beste is, klik dan op “Oplossing toepassen.” Er zullen nog enkele vensters verschijnen en u zult op weg zijn om uw bewerkingen te uploaden. Doe nog wat bewerkingen. Klik dan op ‘Uploaden’. U zult een pop-up krijgen die zegt:  
 ![command stack][]  
 
-In uw menu Vensters heeft u ene venster Conflict. Dat venster geeft een lijst met conflicten weer. Het totale aantal nog niet opgeloste conflicten wordt in de kop weergegeven. U kunt een conflict selecteren of oplossen door er op te klikken. Dit is handig als u veel conflicten hebt om af te handelen.  
+In uw menu Vensters heeft u een venster Conflict. Dat venster geeft een lijst met conflicten weer. Het totale aantal nog niet opgeloste conflicten wordt in de kop weergegeven. U kunt een conflict selecteren of oplossen door er op te klikken. Dit is handig als u veel conflicten hebt om af te handelen.  
 ![one unresolved][]  
 U kunt geen wijzigingen uploaden totdat deze lijst leeg is.  
 

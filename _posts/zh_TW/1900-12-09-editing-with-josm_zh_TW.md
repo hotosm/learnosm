@@ -9,8 +9,8 @@ category: josm
 編輯田野資料
 ==================
 
-> 這篇指南有[josm_editing-with-josm_zh_TW.odt](/files/josm_editing-with-josm_zh_TW.odt) 和[josm_editing-with-josm_zh_TW.pdf](/files/josm_editing-with-josm_zh_TW.pdf) 兩種格式可供下載。  
-> Reviewed 2015-07-13  
+> 此指南能以 [josm_editing-with-josm_zh_TW.odt](/files/josm_editing-with-josm_zh_TW.odt) 和[josm_editing-with-josm_zh_TW.pdf](/files/josm_editing-with-josm_zh_TW.pdf) 下載  
+> 審閲於 2015-07-13  
 
 現在我們已經講完要如何在開放街圖繪製建築。
 在[用手機、GPS 或紙本繪圖](/zh-tw/mobile-mapping/)的章節，你可以看到要如何使用行動工具來踏查一個地方。  

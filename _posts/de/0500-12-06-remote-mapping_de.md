@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: HOT Fernkartierung  
-permalink: /de/coordination/HOT-Remote-Response-Guide/
+permalink: /de/coordination/HOT-Remote-Response-Guide/ 
 lang: de
 category: coordination
 ---

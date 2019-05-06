@@ -1,7 +1,7 @@
 ---
 layout: doc-rtl
 title: نقشه‌کشی از راه دور HOT  
-permalink: /fa/coordination/HOT-Remote-Response-Guide/
+permalink: /fa/coordination/HOT-Remote-Response-Guide/ 
 lang: fa
 category: coordination
 ---

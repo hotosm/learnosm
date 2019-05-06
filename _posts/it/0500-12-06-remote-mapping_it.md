@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Mappatura da remoto con HOT  
-permalink: /it/coordination/HOT-Remote-Response-Guide/
+permalink: /it/coordination/HOT-Remote-Response-Guide/ 
 lang: it
 category: coordination
 ---

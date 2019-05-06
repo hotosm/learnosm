@@ -53,7 +53,7 @@ Auch hier hat sich Einiges geändert. Die wichtigste Änderung betrifft die Reit
 
     Mit dem Knopf in der rechten unteren Ecke der Projektseite können Sie zwischen einer Kartenansicht und einem Satellitenbild wechseln.
 
-3. **Fragen und Kommentare** - hier können Sie Fragen stellen und Anmerkungen schreiben, die für andere Benutzer oder den Projektmanager wichtig sind. Dabei sollten sich die Anmerkungen auf das ganze Projekt beziehen, nicht auf eine einzelne Aufgabe. Wenn Sie auf "Contact project manager" klicken, wird automatisch der Benutzername des Projektmanagers in den Kommentar eingefügt. Damit wird sichergestellt, dass er ihn auch zu sehen bekommt.
+3. **Fragen und Kommentare** - hier können Sie Fragen stellen und Anmerkungen schreiben, die für andere Benutzer oder den Projektmanager wichtig sind. Dabei sollten sich die Anmerkungen auf das ganze Projekt beziehen, nicht eine einzelne Aufgabe. Wenn Sie auf "Contact project manager" klicken, wird automatisch der Benutzername des Projektmanagers in den Kommentar eingefügt. Damit wird sichergestellt, dass er ihn auch zu sehen bekommt.
 
 [profile]:  /images/coordination/tm3_wnm_profile.png
 [projects]: /images/coordination/tm3_wnm_projects.png

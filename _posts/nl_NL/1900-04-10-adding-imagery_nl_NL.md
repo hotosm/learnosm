@@ -54,7 +54,7 @@ Een server voor WMS toevoegen
 
 Toevoegen van een server voor WMS is soortgelijk aan het toevoegen van een server voor TMS, met één belangrijk verschil. Servers voor WMS verschaffen gewoonlijk meer dan één laag om uit te kiezen en u dient ofwel een laag te selecteren bij het toevoegen van de server voor WMS in de voorkeuren, of specificeren dat u een laag zult selecteren om te gebruiken wanneer u de server selecteert in het menu Afbeeldingen in de hoofdinterface van JOSM.
 
-Open, om ene server voor WMS toe te voegen, het dialoogvensters voor de Voorkeuren voor de afbeeldingen in JOSM zoals hierboven weergegeven, maar klik deze keer op de knop "WMS toevoegen" ![wms_add_button][]
+Open, om een server voor WMS toe te voegen, het dialoogvenster voor de Voorkeuren voor de afbeeldingen in JOSM zoals hierboven weergegeven, maar klik deze keer op de knop "WMS toevoegen" ![wms_add_button][]
 
 Het resulterende dialoogvenster zal er uitzien zoals dat hieronder:
 ![wms_entry_dialog_numbered][]
@@ -64,7 +64,7 @@ Het resulterende dialoogvenster zal er uitzien zoals dat hieronder:
 **Vak 3.** Dit is waar de lijst met beschikbare lagen zal worden weergegeven. Er kunnen mappen zijn die moeten worden vergroot om de beschikbare lagen te kunnen zien  
 **Keuzemenu 4.** Afbeeldingsformaat - dit zal gewoonlijk automatisch worden geselecteerd nadat u heeft geklikt op één van de lagen in **Vak 3** het zou meer dan één type afbeeldingsindeling kunnen bieden, maar gewoonlijk is de indeling jpeg of png.  
 **Vak 5.** Dit wordt automatisch gegenereerd nadat u een laag selecteert in **Vak 3**. Het zal lang en gecompliceerd zijn en gewoonlijk is het gewoon goed en is het meer informatief en zou gewoonlijk niet bewerkt hoeven te worden.  
-**Vak 6.** Voer ene naam in voor de server of de laag. Een standaard naam zal worden ingevuld, gebaseerd op de URL, maar u kunt een meer betekenisvolle naam invoeren. Dit is de naam die zal verschijnen in het menu Afbeeldingen van JOSM  wanneer u de laag wilt toevoegen aan het lagenpaneel in de normale interface van JOSM.  
+**Vak 6.** Voer een naam in voor de server of de laag. Een standaard naam zal worden ingevuld, gebaseerd op de URL, maar u kunt een meer betekenisvolle naam invoeren. Dit is de naam die zal verschijnen in het menu Afbeeldingen van JOSM  wanneer u de laag wilt toevoegen aan het lagenpaneel in de normale interface van JOSM.  
 
 > Voorbeeld server voor WMS met veel interessante lagen: http://sedac.ciesin.columbia.edu/geoserver/wms  
 

@@ -46,22 +46,20 @@ wenn Sie die Kartendaten bearbeiten wollen, da ständig andere Benutzer an der K
 
 ![JOSM Download Button][]
 
-- In dem Download-Fenster sehen Sie eine Karte mit einem rosafarbenen Rechteck 
-    darüber. Sollten Sie keine Karte sehen, klicken Sie auf die Registerkarte 
+- In dem neuen Download-Fenster sehen Sie eine Karte. Wenn das nicht der Fall ist, klicken Sie auf den Reiter
     “Interaktive Karte”.
 
 ![JOSM Download Dialog][]
 
-- Das rosafarbene Rechteck entspricht dem Gebiet der Karte, das wir 
-    zur Bearbeitung herunterladen möchten. Verschieben und zoomen Sie mit der Maus zu einem Gebiet, 
+- Verschieben und zoomen Sie mit der Maus
     das Sie gut kennen, etwa Ihrer Wohngegend. Das 
     funktioniert genauso wie im Kartenfenster von JOSM. Mit der rechten Maustaste 
     können Sie die Karte verschieben, mit dem Scrollrad können Sie hinein- 
     und herauszoomen.
 
-> Auf einem Notebook kann man Probleme beim 
-> Zoomen bekommen. Wenn Sie mit JOSM arbeiten, tun Sie sich mit einer Maus wesentlich leichter. 
-> Auf den meisten modernen Notebooks kann man aber mit dem Touchpad auch ganz gut scrollen.
+> Wenn Sie mit einem Notebook arbeiten kann es schwierig sein
+> präzise zu zoomen. In JOSM erleichtern Sie sich die Bedienung mit einer Maus.
+> Die meisten modernen Notebooks haben aber auch ein Touchpad.
 
 - Zeichnen Sie ein Rechteck über dem gewünschten Gebiet. Um ein neues Rechteck zu zeichnen, klicken Sie in 
     die Karte, halten Sie die linke Maustaste gedrückt und ziehen Sie mit der Maus ein 
@@ -81,12 +79,14 @@ für OpenStreetMap zu verwenden.
 - Um die Bing-Satellitenbilder in JOSM anzuzeigen, klicken Sie auf “Hintergrundbild” in der Menüleiste von 
     JOSM und wählen Sie “Bing Luftbild”.
 
-> Wenn Sie diesen Eintrag nicht im Hintergrundbild-Menü sehen, müssen Sie ihn erst in den JOSM-Einstellungen aktivieren. 
-> Klicken Sie auf Bearbeiten -> Einstellungen und dann auf das Icon 
-> “WMS TMS”. Eventuell müssen Sie auf den Pfeil nach unten klicken um es zu sehen.
+> Wenn Sie die Bing-Satellitenbilder nicht im Menü finden, müssen Sie sie vielleicht
+> in den Einstellungen freischalten. Gehen Sie zu Bearbeiten -> Einstellungen und klicken Sie auf das Icon
+> "WMS TMS". Eventuell müssen Sie mit der Pfeiltaste in der linken Leiste bis zu dem Icon scrollen.
+> <br>
 >	![JOSM Preferences up down][]
 >	![JOSM Preferences WMS TMS][]
-> Klicken Sie auf “Bing Luftbild” und dann auf “Aktivieren”.
+> <br>
+> Klicken Sie auf "Bing Sat", dann auf "Aktivieren".
 
 
 ### Ein Überblick über JOSM
@@ -140,11 +140,11 @@ schon kennen (Punkte, Linien, Linienzüge) und sie repräsentieren real existier
     Wenden Sie eine Vorlage auf diese Objekte an, so wie sie es im 
     letzten Abschnitt gelernt haben. 
 
-> Bearbeiten Sie nie die Karte außerhalb des Gebiets, das Sie heruntergeladen haben.  
-> Das heruntergeladene Gebiet hat einen klaren Hintergrund,  
-> während das übrige Gebiet diagonal gestreift dargestellt wird  
-
-![JOSM area downloaded][]
+> Bearbeiten Sie niemals die Karte außerhalb des heruntergeladenen Bereichs. Der  
+> rechteckige Bereich, den Sie heruntergeladen haben hat einen klaren Hintergrund.  
+ > Dagegen liegt der übrige Bereich unter schrägen Streifen. 
+> <br>  
+> ![JOSM area downloaded][]
 
 Änderungen speichern
 --------------

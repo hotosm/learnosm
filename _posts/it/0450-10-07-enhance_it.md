@@ -72,7 +72,7 @@ Installare l'estensione Stylish in Chrome
 
 
 [background]:/images/hot-tips/background.gif
-[Stylish-1]:/images/hot-tips/Stylish-1.png
+Stylish-1]:/images/hot-tips/Stylish-1.png
 [Stylish-2]:/images/hot-tips/Stylish-2.png
 [Stylish-3]:/images/hot-tips/Stylish-3.png
 [Stylish-4]:/images/hot-tips/Stylish-4.png

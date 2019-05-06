@@ -9,7 +9,7 @@ category: josm
 Proces editace JOSM
 ========================
 
-> Tato příručka může být stažena jako [josm-more-about-josm_cs.odt](/files/josm-more-about-josm_cs.odt) or [josm-more-about-josm_cs.pdf](/files/josm-more-about-josm_cs.pdf)  
+> Tento návod může být stažen jako [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) nebo [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf)  
 > Zkontrolováno 12.7.2015  
 
 V předchozí části jste 
@@ -29,9 +29,9 @@ jsme viděli předtím. Ale protože JOSM je desktopová aplikace, funguje troch
  jinak. Proces editace a přidávání do OpenStreetMap s
 JOSM bude vždy následující:
 
-1. ** Stáhnout ** aktuální mapové údaje z OSM
-2. ** Upravit ** pomocí satelitních snímků, GPS, poznámek a jiných informací
-3. ** Uložit ** změny do OpenStreetMap
+1. **Stáhnout** aktuální mapové údaje z OSM
+2. **Upravit** pomocí satelitních snímků, GPS, poznámek a jiných informací
+3. **Uložit** změny do OpenStreetMap
 
 Stažení dat OSM
 --------------------

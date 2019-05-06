@@ -19,7 +19,7 @@ Overzicht van Field Papers
 
 Vóórdat we in detail ingaan op Field Papers, laten we eens kijken naar een overzicht van hoe het proces werkt:  
 
-1. Zoek het gebied waarvan u een kaart wilt hebben op op de website van Field Papers. Druk ene kaart af van dat gebied. U kunt er voor kiezen om het huidige gebied van de kaart af te drukken als op OpenStreetMap, of als een luchtfoto af te drukken, als die beschikbaar is voor uw gebied.  
+1. Zoek het gebied waarvan u een kaart wilt hebben op op de website van Field Papers. Druk een kaart af van dat gebied. U kunt er voor kiezen om het huidige gebied van de kaart af te drukken als op OpenStreetMap, of als een luchtfoto af te drukken, als die beschikbaar is voor uw gebied.  
 ![FieldPapers homepage][]
 
 2. Gebruik uw afgedrukte kaart om het gebied te verkennen. Voeg meer plaatsen toe door ze op de kaart te tekenen. Teken lijnen voor wegen, vormen voor gebouwen, enzovoort. Schrijf direct notities van elk van de locaties op de kaart of schrijf nummers op de kaart die corresponderen met nummers in uw notitieblok, waar u meer gedetailleerde informatie over elk object kunt opschrijven.  

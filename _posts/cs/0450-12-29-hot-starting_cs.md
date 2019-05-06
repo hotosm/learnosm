@@ -9,7 +9,7 @@ category: hot-tips
 Začínáme s Tasking Managerem - iD editor
 ============
 
-- Obsah
+- TOC
 {:toc}
 
 Tento návod je napsán pro [HOT Tasking Manager](http://tasks.hotosm.org/), ale zásady jsou stejné pro všechny verze.  

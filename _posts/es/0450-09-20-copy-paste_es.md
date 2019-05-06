@@ -7,7 +7,7 @@ category: hot-tips
 ---
 
 Copiado, Pegado & Rotación - editor iD
-============
+=============
 
 ![copy-paste][]
 

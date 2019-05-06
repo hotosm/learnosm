@@ -81,7 +81,7 @@ Maak een nieuwe laag en experimenteer met enkele van de nieuwe gereedschappen. H
 
     ![Nodes interesection][]
 
-2. **Kopieer tags uit eerder selectie:**  Deze functie maakt het kopiëren van tags eenvoudiger. Als u veel objecten met dezelfde tags wilt maken, teken dan eerst de objecten.  Voeg dan de tags toe aan één object.  Klik op een ander object en druk op Shift + R om de tags van het eerder geselecteerde object te kopiëren.  U kunt dit doen voor alle objecten die u wilt taggen.  Onthoud dat de tags zullen worden gekopieerd uit het eerder geselecteerde object, dus als u klikt op ene object dat nog niet getagd is en dan op een ander object dat niet getagd is, zult u niet in staat zijn tags te kopiëren.  
+2. **Kopieer tags uit eerder selectie:**  Deze functie maakt het kopiëren van tags eenvoudiger. Als u veel objecten met dezelfde tags wilt maken, teken dan eerst de objecten.  Voeg dan de tags toe aan één object.  Klik op een ander object en druk op Shift + R om de tags van het eerder geselecteerde object te kopiëren.  U kunt dit doen voor alle objecten die u wilt taggen.  Onthoud dat de tags zullen worden gekopieerd uit het eerder geselecteerde object, dus als u klikt op een object dat nog niet getagd is en dan op een ander object dat niet getagd is, zult u niet in staat zijn tags te kopiëren.  
 
     ![Copy tags][]
 

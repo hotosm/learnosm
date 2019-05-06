@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 permalink: /fa/osm-data/
 lang: fa
 title: داده های OSM

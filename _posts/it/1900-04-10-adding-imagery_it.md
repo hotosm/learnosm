@@ -10,9 +10,9 @@ JOSM - Aggiungere immagini aeree
 ================
 
 > Questa guida può essere scaricata come [josm_adding_imagery_it.odt](/files/josm_adding_imagery_it.odt) oppure [josm_adding_imagery_it.pdf](/files/josm_adding_imagery_it.pdf)  
-> Revisionato il 2016-09-09  
+> Revisionato il 2017-09-05  
 
-Non tutte le immagini aeree sono incluse nel menu immagini aeree di JOSM ma è semplice aggiungerle se ti è stato dato il link.  
+Non tutte le immagini aeree sono incluse nel menu immagini aeree di JOSM, ma è semplice aggiungerle se ti è stato dato il link.  
 
 In questo esempio stiamo lavorando dal [Tasking Manager HOT](http://tasks.hotosm.org/) e le immagini richieste per completare uno dei progetti devono essere aggiunte manualmente in JOSM. La procedura per aggiungere il link alle immagini è la stessa qualunque siano le modifiche a cui stai lavorando, fintanto che ti venga fornito il link. Ci sono anche dei casi in cui i link previsti non funzionano come ci si aspetterebbe e può essere necessario aggiungere le immagini manualmente.  
 
@@ -41,7 +41,7 @@ Clicca sul pulsante ![OK_button][]{: height="24px"} e le immagini che hai aggiun
 
 ![Preferences WMS TMS 5][]
 
-Clicca sul pulsante ![OK_button][]{: height="24px"} per chiudere la finestra e tornare a JOSM. Quando devi usare le immagini clicca su Immagini aeree nella barra dei menu in alto e selezionarle dall'elenco alfabetico. In alternativa, **Alt + I** dovrebbe mostrare il menu Immagini aeree (queste scorciatoie potrebbero variare in base alla lingua).  
+Clicca sul pulsante ![OK_button][]{: height="24px"} per chiudere la finestra e tornare a JOSM. Quando devi usare le immagini clicca su **Immagini aeree** nella barra dei menu in alto e selezionale dall'elenco alfabetico. In alternativa, la combinazione di tasti **Alt + I** dovrebbe mostrare il menu Immagini aeree (queste scorciatoie potrebbero variare in base alla lingua).  
 
 ![Preferences WMS TMS 6][]
 
@@ -64,14 +64,14 @@ La finestra di dialogo risultante sarà simile alla sottostante:
 **Box 3.** Questo è il box in cui sarà mostrato l'elenco dei livelli disponibili. Potrebbero esserci delle cartelle da espandere per vedere i livelli.  
 **Menu a discesa 4.** Formato immagine - sarà impostato automaticamente dopo che avrai selezionato uno dei livelli nel **Box 3**. Generalmente il formato è jpeg o png ma potrebbe offrirne diversi.  
 **Box 5.** Verrà generato automaticamente dopo che avrai selezionato uno dei livelli nel **Box 3**. Sarà lungo e complicato ma solitamente va bene e non va modificato, è più a titolo informativo.  
-**Box 6.** Inserisci il nome del livello o del server. Un nome predefinito sarà inserito in base all'URL, ma puoi scegliere un nome più esplicativo. Questo sarà il nome che conparirà nel menu delle immagini aeree di JOSM quando vorrai aggiungere il livello al tuo pannello livelli dell'interfaccia di JOSM.  
+**Box 6.** Inserisci il nome del livello o del server. Un nome predefinito sarà inserito in base all'URL, ma puoi scegliere un nome più esplicativo. Questo sarà il nome che comparirà nel menu delle immagini aeree di JOSM quando vorrai aggiungere il livello al tuo pannello livelli dell'interfaccia di JOSM.  
 
 > Un esempio di server WMS con tanti livelli interessanti: http://sedac.ciesin.columbia.edu/geoserver/wms  
 
 ![wms_select_layer_highlighted][]  
 Assicurati di cliccare su uno dei livelli se vuoi che l'elemento nel menu Immagini aeree carichi sempre lo stesso livello. Nell'esempio precedente, quando il livello è selezionato dal menu Immagini aeree carica sempre il livello "World Database of Protected Areas".
 
-Se vuoi selezionare quale livello caricare ogni volta che selezioni il server dal menu Immagini aeree e poter caricare più livelli dallo stesso server in modo semplice, ti basta spuntare la casella "Memorizza solamente il punto finale del WMS". Questo disabiliterà la selezione del livello e il campo di verifica dell'URL.
+Se vuoi scegliere quale livello caricare ogni volta che selezioni il server dal menu Immagini aeree e poter caricare più livelli dallo stesso server in modo semplice, ti basta spuntare la casella "Memorizza solamente il punto finale del WMS". Questo disabiliterà la selezione del livello e il campo di verifica dell'URL.
 
 ![wms_end_point_only_highlighted][]  
 
@@ -79,7 +79,7 @@ Clicca sul pulsante ![OK_button][]{: height="24px"} e le immagini che hai aggiun
 
 ![Preferences WMS TMS 5][]
 
-Clicca sul pulsante ![OK_button][]{: height="24px"} per chiudere la finestra e tornare a JOSM. Quando devi usare le immagini clicca su Immagini aeree nella barra dei menu in alto e selezionarle dall'elenco alfabetico. In alternativa, **Alt + I** dovrebbe mostrare il menu Immagini aeree (queste scorciatoie potrebbero variare in base alla lingua).  
+Clicca sul pulsante ![OK_button][]{: height="24px"} per chiudere la finestra e tornare a JOSM. Quando devi usare le immagini clicca su **Immagini aeree** nella barra dei menu in alto e selezionale dall'elenco alfabetico. In alternativa, la combinazione di tasti **Alt + I** dovrebbe mostrare il menu Immagini aeree (queste scorciatoie potrebbero variare in base alla lingua).  
 
 ![Preferences WMS TMS 6][]
 

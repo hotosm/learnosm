@@ -21,7 +21,7 @@ HOT 技巧 - 新手圖客入門使用 iD 和任務分配管理系統
 [![一分鐘教學影片]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - 一分鐘教學影片")  
 *目前有些語言是有字幕*  
 
-![iD 說明]{: height="400px"}  
+![iD help]{: height="400px"}  
 iD 說明選單 - 當你在編輯時都可以看，而且包括選擇性的新手教學。    
   
 [wiki 上的 iD 快速鍵](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
@@ -37,6 +37,6 @@ iD 說明選單 - 當你在編輯時都可以看，而且包括選擇性的新�
 
 
 
-[有文字的 HOT logo]:/images/hot-tips/Hot_logo_with_text.svg
-[iD 說明]:/images/hot-tips/iD-help.png "iD help menu - 當你在編輯時都可以看，而且包括選擇性的新手教學。 
+[HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
+[iD help]:/images/hot-tips/iD-help.png "iD help menu - 當你在編輯時都可以看，而且包括選擇性的新手教學。"
 [one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "HOT 一分鐘教學影片"

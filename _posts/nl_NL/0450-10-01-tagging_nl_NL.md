@@ -19,7 +19,7 @@ Taggen - iD editor
 Waarom tags nodig zijn
 -------------------
 
-Zonder tag heeft een item geen betekenis en kaarten zullen het niet weergeven. De tag legt aan de computer uit wat het object in feite is. Als u iets vindt waar de tag is 'weggelaten', voeg dan de tag toe. Als een item is getagd zal het ene kleur hebben, zoals de rode waas voor het gebouw dat is getagd in de afbeelding hierboven. **Als het wit is, onderzoek het en voeg de tag toe als die is weggelaten.**  
+Zonder tag heeft een item geen betekenis en kaarten zullen het niet weergeven. De tag legt aan de computer uit wat het object in feite is. Als u iets vindt waar de tag is 'weggelaten', voeg dan de tag toe. Als een item is getagd zal het een kleur hebben, zoals de rode waas voor het gebouw dat is getagd in de afbeelding hierboven. **Als het wit is, onderzoek het en voeg de tag toe als die is weggelaten.**  
 
 ![tagged-building][]  
 

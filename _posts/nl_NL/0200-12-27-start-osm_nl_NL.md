@@ -9,7 +9,7 @@ category: beginner
 Beginnen op OpenStreetMap.org
 ====================================
 
-Deze handleiding kan worden gedownload als [beginner_start-osm_nl_NL.odt](/files/beginner_start-osm_nl_NL.odt) of [beginner_start-osm_nl_NL.pdf](/files/beginner_start-osm_nl_NL.pdf)  
+> Deze handleiding kan worden gedownload als [beginner_start-osm_nl_NL.odt](/files/beginner_start-osm_nl_NL.odt) of [beginner_start-osm_nl_NL.pdf](/files/beginner_start-osm_nl_NL.pdf)  
 > Bijgewerkt op 2015-07-12  
 
 In dit gedeelte zullen we leren hoe door de website van OpenStreetMap te navigeren, kaarten te bekijken en hoe een gebruikersaccount aan te maken. Nadat u uw eigen gebruikersnaam en wachtwoord heeft zult u uw eerste punten aan de kaart bij kunnen dragen.
@@ -19,8 +19,7 @@ In dit gedeelte zullen we leren hoe door de website van OpenStreetMap te naviger
 Bezoek de OpenStreetMap Website.
 -------------------------------
 
-- Voordat u begint, verzeker uzelf ervan dat u met het internet verbonden bent.  (Als u dit online leest, dan moet u zijn verbonden!)
-- Open uw webbrowser. Bekende browsers zijn Firefox, Chrome, Opera of Internet Explorer. Als die al geopend is kunt u een nieuwe tab maken.
+- Open uw webbrowser.
 - In de adresbalk bovenin het scherm, voer het volgende in en toets enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 - Wanneer de pagina geladen is, zou u zoiets als het volgende moeten zien:
@@ -65,12 +64,11 @@ Maak een OpenStreetMap Account aan
 - Er zijn vijf velden op deze pagina die u moet invullen om een account bij OSM te registreren.
 -   Voer uw e-mailadres in in de eerste twee velden. U dient hetzelfde e-mailadres in beide velden in te vullen. Later zult u uw e-mail moeten openen om uw account bij OpenStreetMap te bevestigen.
 -   Voer, in het derde veld, de gebruikersnaam in die u zou willen hebben. U zult geen gebruikersnaam kunnen kiezen die al eerder door iemand anders is gekozen, wees dus creatief. Als u probeert iets eenvoudigs in te voeren, zoals bijvoorbeeld uw voornaam, is het zeer waarschijnlijk dat iemand anders die naam al gebruikt.
--   Voer een nieuw wachtwoord in in het vierde en vijfde veld. U dient hetzelfde wachtwoord in beide vakken in te vullen. Het hoeft niet hetzelfde wachtwoord te zijn als dat voor uw e-mail.
+-   Voer een nieuw wachtwoord in in het vierde en vijfde veld. U dient hetzelfde wachtwoord in beide vakken in te vullen. U zou *niet* hetzelfde wachtwoord moeten gebruiken als bijvoorbeeld dat voor uw e-mail.
 - Het kan handig zijn om uw gebruikersnaam en wachtwoord voor OSM op te schrijven. U zult het later nodig hebben om in te loggen.
 - Wanneer u alle velden hebt ingevuld, klik dan op "Registreren" onderaan de pagina.
--   Als er problemen zijn kan er een foutbericht naar voren komen. Controleer of uw e-mailadres hetzelfde is in de eerste twee velden, en of uw wachtwoord hetzelfde is in de laatste twee velden. Als het derde veld rood is geaccentueerd betekent dit dat iemand anders al de door u gekozen gebruikersnaam gebruikt en zult u een andere naam moeten kiezen.
--   Open een afzonderlijk venster of tab in uw internetbrowser en navigeer naar uw e-mail.  Veel voorkomende sites voor e-mail zijn [mail.yahoo.com](http://mail.yahoo.com) en [www.gmail.com](http://www.gmail.com).
--  Voer uw e-mailadres en e-mailwachtwoord in om uw e-mail te openen. Onthoud dat dit _niet_ hetzelfde hoeft te zijn als uw gebruikersnaam en wachtwoord voor OpenStreetMap. 
+-   Als er problemen zijn kan er een foutbericht verschijnen. Controleer of uw e-mailadres hetzelfde is in de eerste twee velden, en of uw wachtwoord hetzelfde is in de laatste twee velden. Als het derde veld rood is geaccentueerd betekent dit dat iemand anders al de door u gekozen gebruikersnaam gebruikt en zult u een andere naam moeten kiezen.
+-   Bekijk uw e-mail.
 -   Als alles met succes is uitgevoerd voor uw registratie, zou u een e-mail van OpenStreetMap in uw IN-box moeten zien. Open de e-mail. Het zou er uit moeten zien als de afbeelding hieronder. Klik op de link die hieronder wordt geïdentificeerd:
 
     ![Confirming your OpenStreetMap account][]

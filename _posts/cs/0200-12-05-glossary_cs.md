@@ -10,7 +10,7 @@ Slovníček
 ============
 
 Slovníček je v procesu aktualizace a byl postaven z několika různých zdrojů včetně [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) a průvodce napsaného Will Skora. Neostýchejte se pomoci vylepšit jej. Začněte prohlédnutím souboru [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md), který vám řekne jak přispívat. 
-> Reviewed 2015-07-18  
+> Zkontrolováno 18.7.2015  
 
 Pro jednoduché hledání ve slovníčku použijte funkci "hledat" ve vašem prohlížeči, pomocí současného držení klávesy Ctrl a stisknutí tlačítka F (většinou popisováno jako **Ctrl+f**)  
 
@@ -25,19 +25,19 @@ Pro jednoduché hledání ve slovníčku použijte funkci "hledat" ve vašem pro
 **AOI: Area of Interest**: (Místo zájmu) definováno aktivačními koordinátory během konzultace s humanitárními partnery, terénními týmy a HOT komunitou během začátku katastrofy.
 
 
-**[Changeset](http://wiki.openstreetmap.org/wiki/Changeset)**: (Sada změn) Skupina změn, které jste provedli v datech OSM. Jakmile je nahrána do OSM, vaše změny jsou okamžitě k dispozici ostatním, pokud si je stáhnou. Může trvat několik minut až několik hodin, než se objeví na mapě.
+**[Sada změn](http://wiki.openstreetmap.org/wiki/Changeset)**: Skupina změn, které jste provedli v datech OSM. Jakmile je nahrána do OSM, vaše změny jsou okamžitě k dispozici ostatním, pokud si je stáhnou. Může trvat několik minut až několik hodin, než se objeví na mapě.
 
 **COD : Common Operational Database** ; (Společná operační databáze) Skládá se z geografických dat pro několik humanitárních aktivací. To jsou hlavně: Dopravní síť (cesty, mosty/brody, přístavy, atd.), obydlená místa (osady), administrativní hranice, hydrologie (řeky a další množství vody), výškopis (stoupání/kontury). Může obsahovat budovy jako nepřímý zdroj statistik o populaci. Použité hlavně United Nations Office pro Coordination of Humanitarian Affairs.
 
 **DHN: Digital Humanitarian Network**: (Digitální humanitární síť) organizace, která využívá digitální síť pro humanitární odezvu.
 
-**Extract**: (Extrahovat):  [Přehled OSM Dat](/cs/osm-data/data-overview/) Velký balík OSM dat pro specifický prostor (jako země, stát, nebo geografické území).
+**Extrahovat**: [Přehled OSM Dat](/cs/osm-data/data-overview/) Velký balík OSM dat pro specifický prostor (jako země, stát, nebo geografické území).
 
-**[Field Papers](/cs/mobile-mapping/field-papers/)**: (Terénní dokumenty) je webový nástroj pro jednoduché tvoření tisknutelných atlasů pro jakékoliv místo na světě, které můžete vytisknout a přidávat do něj poznámky. Pro více informací, pokračujte na [http://fieldpapers.org/](http://fieldpapers.org/). 
+**[Terénní dokumenty](/cs/mobile-mapping/field-papers/)**: je webový nástroj pro jednoduché tvoření tisknutelných mapek a atlasů pro jakékoliv místo na světě, které můžete vytisknout a přidávat do něj poznámky. Pro více informací, pokračujte na [http://fieldpapers.org/](http://fieldpapers.org/). 
 
 **FOD : Fundamental Operational Database**: (Základní operační databáze) data, která jsou specifická pro aktivaci, například zdravotní zázemí, školy, zdroje vody, rozsah povodní, poškození budov, atd.
 
-**GDACS : Global Disaster Alert and Coordination System**: GDACS je kooperační soustava pod střechou Spojených Národů. Součástí jsou manažeři katastrof a informační systémy katastrof po celém světě a cílí na vyplnění informační a koordinačních rozdílů v prvních fázích po závažných katastrofách. GDACS poskytuje přístup  k informačním systémům a souvisejícím koordinačním nástrojům v reálném čase pomocí webového prohlížeče.
+**GDACS : Global Disaster Alert and Coordination System**: GDACS je kooperační soustava pod zastřešením Spojených Národů. Součástí jsou krizoví manažeři a informační systémy katastrof po celém světě a cílí na vyplnění informační a koordinačních mezer v prvních fázích po závažných katastrofách. GDACS poskytuje přístup k informačním systémům a souvisejícím koordinačním nástrojům v reálném čase pomocí webového prohlížeče.
 
 **[iD editor](/cs/beginner/id-editor/)** - OpenStreetMap editor ve webovém prohlížeči pro úplné začátečníky navržený firmou Mapbox. 
 
@@ -45,7 +45,7 @@ Pro jednoduché hledání ve slovníčku použijte funkci "hledat" ve vašem pro
 
 **[JOSM](https://josm.openstreetmap.de/)** vyslovováno jako "Jaws-um", OpenStreetMap editor napsaný v Javě. 
 
-**[Layer](http://wiki.openstreetmap.org/wiki/Layer)**: (Vrstva) Datový zdroj, který je zobrazen na mapě (často považováno jako skupina dlaždic slepených dohromady).
+**[Vrstva](http://wiki.openstreetmap.org/wiki/Layer)**: Datový zdroj, který je zobrazen na mapě (často považováno jako skupina dlaždic slepených dohromady).
 
 **NGO : Non Govermental Organisation / Agency** (Nevládní organizace/agentura) primárně nezisková skupina občanů, kteří jsou organizování na lokální, národní nebo mezinárodní úrovni.  
 

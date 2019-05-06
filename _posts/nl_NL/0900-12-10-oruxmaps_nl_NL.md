@@ -54,7 +54,7 @@ Vóórdat u begint met tracking, laten we eens enkele instellingen bekijken onde
 
 ![Tracklog settings][]
 
-Eén ding dat we moeten onthouden is, om te beginnen met tracking, dat we GPS Features in ons apparaat moeten aanzetten. Mogelijkheden in OruxMaps zoals **Start GPS** en **Start Rec** zullen niet beginnen tenzij u de GPS Features hebt geactiveerd. OruxMaps zal gene bericht weergeven als uw GPS nog steeds uitgeschakeld is en daarna zult u direct gaan naar **Location Setting** in uw apparaat. Nadat u de mogelijkheid Location in uw apparaat heeft aangezet, kunt u uw locatie herkennen door de mogelijkheid **Start GPS** (1) in het paneel rechts te gebruiken. Nadat uw locatie is opgehaald, kunt u beginnen met Tracking door **Start Rec.** (2) in het paneel rechts te gebruiken.  
+Eén ding dat we moeten onthouden is, om te beginnen met tracking, dat we GPS Features in ons apparaat moeten aanzetten. Mogelijkheden in OruxMaps zoals **Start GPS** en **Start Rec** zullen niet beginnen tenzij u de GPS Features hebt geactiveerd. OruxMaps zal geen bericht weergeven als uw GPS nog steeds uitgeschakeld is en daarna zult u direct gaan naar **Location Setting** in uw apparaat. Nadat u de mogelijkheid Location in uw apparaat heeft aangezet, kunt u uw locatie herkennen door de mogelijkheid **Start GPS** (1) in het paneel rechts te gebruiken. Nadat uw locatie is opgehaald, kunt u beginnen met Tracking door **Start Rec.** (2) in het paneel rechts te gebruiken.  
 
 ![Start track recording][]
 
@@ -73,11 +73,11 @@ Waypoints toevoegen
 
 ![Creating a waypoint][]
 
-Als u een waypoint wilt toevoegen dient u te gaan naar het symbool **Waypoint** (1) boven in de pagina en te gaan naar **Create** (2). Het zal u brengen naar de pagina om ene waypoint te maken en vul de naam voor uw waypoint in. U kunt extra informatie toevoegen, bijvoorbeeld ene beschrijving van uw waypoint en coördinaten van uw waypoint door de keuzelijst Coordinates te selecteren. Druk op Accept om uw waypoint op te slaan.  
+Als u een waypoint wilt toevoegen dient u te gaan naar het symbool **Waypoint** (1) boven in de pagina en te gaan naar **Create** (2). Het zal u brengen naar de pagina om een waypoint te maken en vul de naam voor uw waypoint in. U kunt extra informatie toevoegen, bijvoorbeeld een beschrijving van uw waypoint en de coördinaten van uw waypoint door de keuzelijst Coordinates te selecteren. Druk op Accept om uw waypoint op te slaan.  
 
 ![Waypoint creation settings][]
 
-Als u al uw waypoints wilt zien, kunt u gaan naar **Waypoint \>Manage**. Vanaf deze pagina kunt u de eigenschappen wijzigen, verwijderen en het waypoint exporteren. Selecteer, om al uw waypoints op de **kaart** te zien, de waypoints en ga naar show in map (1) en als u uw waypoints wilt exporteren, druk op **Export** (2). All uw geëxporteerde waypoints zullen wordne opgeslagen in de interne opslag (standaard worden ze opgeslagen in **oruxmaps/geocaches**).  
+Als u al uw waypoints wilt zien, kunt u gaan naar **Waypoint \>Manage**. Vanaf deze pagina kunt u de eigenschappen wijzigen, verwijderen en het waypoint exporteren. Selecteer, om al uw waypoints op de **kaart** te zien, de waypoints en ga naar show in map (1) en als u uw waypoints wilt exporteren, druk op **Export** (2). All uw geëxporteerde waypoints zullen worden opgeslagen in de interne opslag (standaard worden ze opgeslagen in **oruxmaps/geocaches**).  
 
 ![Managing save waypoints][]
 

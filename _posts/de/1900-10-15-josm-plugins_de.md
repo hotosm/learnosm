@@ -28,7 +28,7 @@ Erweiterungen installieren
 
 Einige der beliebtesten Erweiterungen sind:
 
-1. **buildings_tools:** Wenn Sie viele Gebäude zeichnen, erleichtert Ihnen das die Arbeit  
+1. **[buildings_tools](/de/josm/josm-more-plugins/#the-buildings-tools-plugin):** Wenn Sie viele Gebäude zeichnen, erleichtert Ihnen das die Arbeit.  
 
 2. **DirectUpload:** Wenn Sie viele GPS-Spuren aufzeichnen und Sie diese in die OSM-Datenbank hochladen möchten,   
 
@@ -38,11 +38,9 @@ Einige der beliebtesten Erweiterungen sind:
 
 5. **imagery_offset_db:** Diese Erweiterung verwaltet eine gemeinsame Datenbank zur Lagekorrektur von Satellitenbildern. Darauf wird in einem späteren Kapitel näher eingegangen  
 
-6. **mirrored_download:* Mit dieser Erweiterung können Sie OSM-Daten von größeren Bereichen zum Bearbeiten herunterladen.  
+6. **print:** Bietet eine Druckfunktion, wenn Sie einmal schnell einen Ausdruck brauchen,   
 
-7. **print:** Bietet eine Druckfunktion, wenn Sie einmal schnell einen Ausdruck brauchen,   
-
-8. **[utilsplugin2](en/josm/josm-more-plugins/):** Bietet viele nützliche Werkzeuge für erfahrenere Benutzer. Nähere Informationen finden Sie in einem [anderen Kapitel](/de/josm/josm-more-plugins).  
+7. **[utilsplugin2](de/josm/josm-more-plugins/):** Bietet viele nützliche Werkzeuge für erfahrenere Benutzer. Nähere Informationen finden Sie in einem [anderen Kapitel](/de/josm/josm-more-plugins).  
 
 
 

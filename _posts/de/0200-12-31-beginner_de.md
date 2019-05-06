@@ -11,10 +11,10 @@ nosearch: true
 Anleitung für Anfänger
 ================
 
+> Diese Anleitung kann als [beginner_de.odt](/files/beginner_de.odt) oder [beginner_de.pdf](/files/beginner_de.pdf) heruntergeladen werden  
+> Geprüft 2015-07-12  
 
-Diese Anleitung zeigt Schritt für Schritt, wie man mit OpenStreetMap umgeht. Sie werden lernen,
-wie man ein Benutzerkonto erstellt, wie man grundlegende Kartenbearbeitungssoftware benutzt, und in späteren Kapiteln können Sie lernen, wie man vor Ort
-Informationen sammelt um sie zur Karte hinzuzufügen. 
+Diese Anleitung zeigt Schritt für Schritt, wie man mit OpenStreetMap umgeht. Sie werden lernen, wie man ein Benutzerkonto erstellt, wie man grundlegende Kartenbearbeitungssoftware benutzt, und in späteren Kapiteln können Sie lernen, wie man vor Ort Informationen sammelt um sie zur Karte hinzuzufügen. 
 
 ### Ist OpenStreetMap neu für Sie und wollen Sie die Karte verbessern und Daten hinzufügen?
 

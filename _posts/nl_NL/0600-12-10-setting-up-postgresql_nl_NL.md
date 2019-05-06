@@ -58,7 +58,7 @@ Open de tab “Spatial Extensions” en selecteer het vak naast PostGIS. Bij het
 
 ![install 4][]
 
-Klik op **Next** om de extension te downloaden en te installeren. Klik, als daarnaar gevraagd wordt, op “**I Agree**” om de termen en voorwaarden te accepteren.  
+Klik op **Next** om de extensie te downloaden en te installeren. Klik, als daarnaar gevraagd wordt, op “**I Agree**” om de termen en voorwaarden te accepteren.  
 
 Het installatieprogramma voor PostGIS zal meer vragen stellen, maar over het algemeen zijn de standaard opties voldoende. U kunt het zeggen de eerste database automatisch te maken, maar we zullen nu leren hoe we dat zelf kunnen doen. U dient het wachtwoord voor postgres op te geven dat u heeft gemaakt toen u PostgreSQL installeerde om het installeren van PostGIS te starten.  
 
@@ -96,7 +96,7 @@ Klik met rechts op **Databases** en selecteer **New Database**...
 
 ![new database][]
 
-U dient een enige informatie op te geven om de nieuwe database te kunnen maken: naam en eigenaar.  Geef, op de tab Properties, de nieuwe database een naam. In dit voorbeeld noemen we onze database gisdb. We zouden onze database ook een eigenaar moeten geven. Omdat we nu slechts één gebruiker hebben, geven we postgres als owner voor de database. (Opmerking: om redenen van veiligheid is het gewoonlijk een goed idee om gebruikers te maken zonder echten als superuser, maar voor nu zullen we hier niet bij stilstaan.)  
+U dient enige informatie op te geven om de nieuwe database te kunnen maken: naam en eigenaar.  Geef, op de tab Properties, de nieuwe database een naam. In dit voorbeeld noemen we onze database gisdb. We zouden onze database ook een eigenaar moeten geven. Omdat we nu slechts één gebruiker hebben, geven we postgres als owner voor de database. (Opmerking: om redenen van veiligheid is het gewoonlijk een goed idee om gebruikers te maken zonder rechten als superuser, maar voor nu zullen we hier niet bij stilstaan.)  
 
 ![new database form][]
 

@@ -13,7 +13,7 @@ Gegevens uit het veld bewerken
 > Bijgewerkt op 13-07-2015  
 
 We hebben nu alle bouwblokken voor het maken van kaarten met OpenStreetMap behandeld.
-In het gedeelte [Mapping with a Smartphone, GPS or Paper](/nl_NL/mobile-mapping/) kunt u zien hoe u mobiele gereedschappen gebruikt om een gebied te verkennen en vast te leggen.  
+In het gedeelte [In kaart brengen met een smartphone, GPS of op papier](/nl_NL/mobile-mapping/) kunt u zien hoe u mobiele gereedschappen gebruikt om een gebied te verkennen en vast te leggen.  
 
 In dit hoofdstuk keren we nog een keer terug naar JOSM en kijken we naar een aantal nieuwe
 concepten die we tot op heden nog niet behandeld hebben.
@@ -22,7 +22,7 @@ Lagen in JOSM
 -----------
 Als u alles gevolgd heeft zou het u opgevallen kunnen zijn dat we allerlei soorten
 verschillende dingen kunnen toevoegen in JOSM. We kunnen gegevens van OSM downloaden, satellietafbeeldingen van Bing toevoegen,
-load GPS-sporen en punten laden, en Veldbeschrijvingen toevoegen - welke alle wordne weergegeven
+load GPS-sporen en punten laden, en Veldbeschrijvingen toevoegen - welke alle worden weergegeven
 in het kaartvenster van JOSM.
 
 Het zal u misschien zijn opgevallen dat, elke keer als u iets nieuws toevoegt aan JOSM, een aanvullend
@@ -39,7 +39,7 @@ de laag die werd gemaakt toen we onze Veldformulieren toevoegden aan JOSM.
 Indien u satellietafbeeldingen van Bing toevoegt, zal een nieuwe laag, genaamd "Bing Sat", in het Lagenpaneel verschijnen.
 
 Het concept van lagen is soms moeilijk te begrijpen. Een goede manier om het te visualiseren is dat elke
-laag is als een semi-doorzichtig stuk papier, en zijn zijn allemaal bovenop elkaar
+laag is als een semi-doorzichtig stuk papier, en zij zijn allemaal bovenop elkaar
 gestapeld. Elk stuk papier bevat een bepaald type informatie, en zijn kunnen opnieuw worden geschikt
 op elke manier die u wilt.
 
@@ -78,7 +78,7 @@ worden vaak "basislagen" genoemd. De laag met gegevens van OSM is de laag waar u
 
 GPS-gegevens en Veldformulieren gebruiken
 -------------------------------
-In de hoofdstukken [Mapping with a Smartphone, GPS or Paper](/nl_NL/mobile-mapping/) zagen we hoe gegevens te verzamelen met een GPS
+In de hoofdstukken [In kaart brengen met een smartphone, GPS of op papier](/nl_NL/mobile-mapping/) zagen we hoe gegevens te verzamelen met een GPS
 en Veldformulieren, en hoe die in JOSM te laden als een laag.
 
 Als u eenmaal veldonderzoek hebt gedaan met één van deze gereedschappen, dient u nog steeds

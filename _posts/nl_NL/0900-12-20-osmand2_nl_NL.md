@@ -33,7 +33,7 @@ In aanvulling op de bovenstaande bronnen, is een door de gemeenschap onderhouden
 Beginnen
 ---------------
 
-OsmAnd laat u live, online kaarten gebruiken, als ook offline databases van OpenStreetMap die geen internetverbinding vereisen. De laatste gaat er van uit dat de benodigde stappen om de offline database te downlaoden en op te slaan op uw apparaat zijn voltooid.  
+OsmAnd laat u live, online kaarten gebruiken, als ook offline databases van OpenStreetMap die geen internetverbinding vereisen. De laatste gaat er van uit dat de benodigde stappen om de offline database te downloaden en op te slaan op uw apparaat zijn voltooid.  
 
 De offline mogelijkheid voor OsmAnd is één van zijn sterke kanten. Daarom is één van de eerste taken die een nieuwe gebruiker zou willen is om de database(s) te downloaden. En, indien u geïnteresseerd bent in stem-assisterende navigatie, dient ook ook de bestanden voor de stemmen te downloaden.  
 
@@ -72,7 +72,7 @@ In aanvulling daarop, interacties met de knoppen van de interface:
 
 De knop **Configureer scherm** selecteert het te gebruiken profiel. U kunt kiezen uit: Kaart bladeren, Auto, Fiets, voetganger om te bepalen hoeveel of hoe weinig details worden weergegeven in het kaartvenster. Het geeft ook weer 
 hoe POI's, labels, GPX-track, OSM Notes & Favorites worden weergegeven of gerenderd in het kaartvenster.  
-- De **Oriëntatie** wijzigt de oriëntatie van de kaart in het kaartvenster, en zal een andere pictogram van ene kompas weergeven, afhankelijk van de methode voor de oriëntatie van het kaartvenster.  
+- De **Oriëntatie** wijzigt de oriëntatie van de kaart in het kaartvenster, en zal een andere pictogram van een kompas weergeven, afhankelijk van de methode voor de oriëntatie van het kaartvenster.  
 
 In het paneel aan de rechter onderkant van het kaartvenster vindt u **GPS Informatie**, wat het aantal satellieten weergeeft waarmee uw apparaat is verbonden, en het aantal zichtbare satellieten op de horizon. **Track Recording** is zichtbaar als de plug-in *Track Recording* is ingeschakeld. hetzelfde geldt voor de **Ruler Tool**, als de plug-in  *Distance Calculator & Planning Tool* is ingeschakeld. Aanvullende knoppenpanelen kunnen wel of niet zichtbaar zijn, afhankelijk van het feit of zij zijn ingesteld om weer te worden gegeven of dat bepaalde plug-ins al dan niet zijn ingeschakeld.  
 
@@ -173,7 +173,7 @@ Nu de POI's in het kaartvenster worden weergegeven als oranje stippen, zal een l
 - **POI aanpassen** voor bewerken, en  
 - **POI verwijderen**.  
 
-er zal ene venster verschijnen waarin u de velden van de POI kunt bijwerken, indien nodig. Het is een goede gewoonte om een opmerking of commentaar bij het indienen toe te voegen bij het aanpassen van POI's. De bewerker voor POI's is hetzelfde scherm als dat voor het toevoegen van POI's.  
+er zal een venster verschijnen waarin u de velden van de POI kunt bijwerken, indien nodig. Het is een goede gewoonte om een opmerking of commentaar bij het indienen toe te voegen bij het aanpassen van POI's. De bewerker voor POI's is hetzelfde scherm als dat voor het toevoegen van POI's.  
 
 ![poi edit1][]  
 
@@ -255,7 +255,7 @@ Hieronder staat een voorbeeld van hoe sporen en waypoints er uitzien op een kaar
 GPX-sporen exporteren naar de bewerker van OpenStreetMap
 --------------------------------------------
 
-Wanneer u gereed bent met het verzamelen van de gegevens in het veld, kunt u de GPX-sporen importeren om te gebruiken in JOSM, iD of een andere een andere bewerker voor OpenStreetMap.  
+Wanneer u gereed bent met het verzamelen van de gegevens in het veld, kunt u de GPX-sporen importeren om te gebruiken in JOSM, iD of een andere bewerker voor OpenStreetMap.  
 
 Verbind uw apparaat met Android aan een computer (met behulp van een gegevenskabel, Bluetooth, of een internetverbinding) en kopieer de GPX-sporen en (en misschien multimediabestanden) die u heeft vastgelegd. Zoek, in de opslag van uw apparaat, naar de GPX-sporen in de map /osmand/tracks, en de multimediabestanden in /osmand/avnotes.  
 

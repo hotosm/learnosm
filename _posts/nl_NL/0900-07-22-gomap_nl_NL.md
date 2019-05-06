@@ -40,7 +40,7 @@ In het kort
 Wanneer u Go Map!! voor het eerst start zal het u vragen om de GPS van uw apparaat te gebruiken om uw locatie
 te bepalen. Geef op "allow" en het zal zoomen naar uw positie en de satelliet-
 en gegevens van OpenStreetMap nabij u downloaden. Als u woont in een gebied dat al minutieus in kaart is gebracht, kan het
-downloaden enkele minuten duren en als u woont in ene gebied dat nog nagenoeg niet in kaart is gebracht, moet u misschien
+downloaden enkele minuten duren en als u woont in een gebied dat nog nagenoeg niet in kaart is gebracht, moet u misschien
 een beetje uitzoomen om details te zien. Druk eenvoudigweg op Zoomen en sleep om naar uw directe
 omgeving te verschuiven. Go Map!! downloadt automatisch aanvullende gegevens indien nodig als u
 rondom uw locatie verschuift.
@@ -126,7 +126,7 @@ met de eerste knoop. Plaats de tweede knoop en ga door met drukken op "+" om aan
 
 ![Create way]
 
-Plaats, om een gebied te maken, eenvoudigweg ene laatste knoop en sleep die dan bovenop de eerste knoop. Een cirkel
+Plaats, om een gebied te maken, eenvoudigweg een laatste knoop en sleep die dan bovenop de eerste knoop. Een cirkel
 van punten zal aangeven dat het wordt verbonden met de bestaande knoop. U kunt ook bestaande wegen samenvoegen door
 er overheen te slepen.
 

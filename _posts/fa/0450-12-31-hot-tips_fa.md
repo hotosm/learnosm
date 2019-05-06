@@ -39,4 +39,4 @@ nosearch: true
 
 [لوگوی HOT به همراه متن]:/images/hot-tips/Hot_logo_with_text.svg
 [منوی کمک iD]:/images/hot-tips/iD-help.png "منوی کمک iD - در حال ویرایش همیشه وجود دارد و شامل walkthrough اختیاری نیز می‌باشد."
-[فیلم‌های آموزشی یک دقیقهای]: /images/hot-tips/one-mnute-tutorial-videos.png "گروه بشردوستانه OpenStreetMap - فیلم‌های آموزشی یک دقیقه‌ای"
+[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "گروه بشردوستانه OpenStreetMap - فیلم‌های آموزشی یک دقیقه‌ای"

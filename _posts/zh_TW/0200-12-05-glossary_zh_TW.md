@@ -10,7 +10,7 @@ category: beginner
 ============
 
 > 本詞彙表處於不斷更新狀態，由眾多包括 [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) 網站和 Will Skora 編寫的指南在內的眾多其他資料來源編纂而成。歡迎協助我們更新本表，有關本站貢獻的詳情方式請參看 [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) 。 
-> 於 2015-07-18 審閲  
+> 審閲於 2015-07-18  
 
 為了方便搜尋本術語表，請使用瀏覽器內建的搜尋功能。按住 Ctrl 鍵的同時按下 F 鍵 (通常稱為 **Ctrl+F** )。  
 

@@ -4,7 +4,7 @@ permalink: /sq/hot-tips/
 lang: sq
 title: Këshilla të HOT - Të fillosh për hartëzuesit e rinj - iD editor
 category: hot-tips
-cover: po
+cover: yes
 nosearch: true
 ---
 
@@ -37,6 +37,6 @@ Nëse ju jeni i ri në OpenStreetMap modulet në vijim të seksionit tonë për 
 
 
 
-[HOT logo me tekst]:/images/hot-tips/Hot_logo_with_text.svg
+[HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
 [iD help]:/images/hot-tips/iD-help.png "Menuja e ndihmës në iD - gjithnjë në dispozicion kur po editoni e cila përfshin një guidë opsionale për fillestarët."
 [one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"

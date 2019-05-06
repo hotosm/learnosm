@@ -74,7 +74,7 @@ surface=unpaved
 
 ## Grenzen residentieel landgebruik
 
-Residentiële grenzen wordne voor vele doelen gebruikt in OpenStreetMap.  
+Residentiële grenzen worden voor vele doelen gebruikt in OpenStreetMap.  
 
 +  Het meest eenvoudige gebruik is om in staat te zijn de bewoonbare gebieden te zien in hogere zoomniveau's bij het bekijken van [OpenStreetMap.org](http://www.openstreetmap.org), waar zij vaalgrijs zijn gekleurd in de standaard weergave.  
 +  Waar geen tijd is om tot in detail in kaart te brengen vanaf het begin, zal het project binnen de Task Manager regelmatig zoiets als dit vereisen:  
@@ -107,7 +107,7 @@ Residentiële grenzen wordne voor vele doelen gebruikt in OpenStreetMap.
 De schermafdrukken voor iD & JOSM hierboven geven een correct in kaar gebracht grens landuse=residential weer.  
 
 1.  De grens dient te worden gesloten, zodat het beginpunt van de lijn (weg), samenvalt met het eindpunt.  
-2.  De segmenten en knopen van de grens zouden niet moeten zijn samengevoegd met wegen, waterwegen, gebouwen, of enig ander object. *d.i.* het zou gene knopen moeten delen. Maar zij mogen kruisen.  
+2.  De segmenten en knopen van de grens zouden niet moeten zijn samengevoegd met wegen, waterwegen, gebouwen, of enig ander object. *d.i.* het zou geen knopen moeten delen. Maar zij mogen kruisen.  
 3.  De grens zou vrij dicht langs de gebouwen & eventuele tuinen of binnenplaatsen die deel uitmaken van de groepering moeten lopen.  
 
 
@@ -118,7 +118,7 @@ In de schermafdruk hieronder, bevat mijn vierkant een deel van een grens landuse
 
 Ik zal extra knopen toevoegen aan de grens, het horizontaal uitbreidend over mijn vierkant zodat hij rondom de gebouwen loopt, en onderin zal ik de grens doorzetten als een rechte lijn net binnen het vierkant onder het mijne, zodat de persoon die het vierkant onder het mijne selecteert in staat zal zijn het uit te breiden rondom eventuele gebouwen die hij heeft.  
 
-Dit is een moeilijke bewerking - u kunt slechts ene klein gedeelte zien van de gehele grote stad / stad / dorp en hoewel u uw best zult doen met de grens landuse=residential is het behoorlijk waarschijnlijk dat een validator, die een overzicht heeft van verschillende vierkanten, de grens op zal moeten knappen zo goed als hij kan nadat de individuele vierkanten in kaart zijn gebracht.  
+Dit is een moeilijke bewerking - u kunt slechts een klein gedeelte zien van de gehele grote stad / stad / dorp en hoewel u uw best zult doen met de grens landuse=residential is het behoorlijk waarschijnlijk dat een validator, die een overzicht heeft van verschillende vierkanten, de grens op zal moeten knappen zo goed als hij kan nadat de individuele vierkanten in kaart zijn gebracht.  
 
 > Er bestaat een groot risico op conflicten bij het werken aan een grens landuse=residential, omdat die zich uitstrekt tot in andere vierkanten waar ook mappers er aan werken. Het wordt geadviseerd om al uw wijzigingen vóór het bewerken van de grens op te slaan, en dan uw wijzigingen met zeer regelmatige intervallen op te slaan, zoals bijvoorbeeld na het toevoegen van 6 knopen.
 
@@ -157,7 +157,7 @@ Tenzij de instructies voor het project anders specificeren dienen gebouwen te wo
 Deze schermafdruk geeft een deel weer van een vierkant dat wordt bewerkt. Merk de schaal van 15 meter op aan de onderzijde - ongeveer het getal waarop u zich zou moeten richten bij het bewerken van objecten. Bij het traceren dient u zich er op te richten het gebouw te plaatsen waar het de grond raak:  
 
 1.  **Ronde gebouwen.** In dit geval zijn zij redelijk laag qua hoogte en is hun schaduw nauwelijks zichtbaar. Als u er tussen zou staan zouden zij op halve bollen lijken. Ik heb één ervan in kaart gebracht & en tot zover getagd als **building=yes**.  Ik zou, om de resterende ronde gebouwen snel aan JOSM of iD toe te voegen, deze ene selecteren (accentueer het), sneltoets toetsenbord *CTRL+C*, mijn cursor verplaatsen naar het midden van een ander rond gebouw van dezelfde grootte, sneltoets toetsenbord *CTRL+V*. Wanneer al de ronde gebouwen van deze grootte zijn toegevoegd in mijn vierkant, plak ik een gebouw over een rond gebouw met een andere grootte, JOSM - gebruik *ALT+CTRL* & muis om de grootte te wijzigen naar de juiste grootte, kopieer het & en plak het dan over alle ronde gebouwen van dezelfde grootte.  
-2.  **Rechthoekige gebouwen.** Deze bijzonder gebouwen geven een op te merken schaduw. De schaduw kan helpen om de vorm van een gebouw te identificeren dat gedeeltelijk aan het oog wordt onttrokken door ene ander object. U zult merken dat veel van deze gebouwen niet zo eenvoudig zijn, en een veranda hebben of een 'L'-vorm hebben - u dient de feitelijke vorm van het gebouw te traceren omdat dat zal helpen bij het identificeren ervan wanneer namen & andere gegevens worden toegevoegd als deel van het proces van veldonderzoek.  
+2.  **Rechthoekige gebouwen.** Deze bijzonder gebouwen geven een op te merken schaduw. De schaduw kan helpen om de vorm van een gebouw te identificeren dat gedeeltelijk aan het oog wordt onttrokken door een ander object. U zult merken dat veel van deze gebouwen niet zo eenvoudig zijn, en een veranda hebben of een 'L'-vorm hebben - u dient de feitelijke vorm van het gebouw te traceren omdat dat zal helpen bij het identificeren ervan wanneer namen & andere gegevens worden toegevoegd als deel van het proces van veldonderzoek.  
 3.  **Barrières - muren (of heggen) van een nederzetting.** Bestuderen van de afbeelding, in- & uitzoomen totdat ik tevreden ben en dat de vorm van het object (gebruik ook de schaduw om het te identificeren), volgens mij een muur is, heb ik die getagd als **barrier=wall**. Alternatieven zijn onder andere barrier=fence en barrier=hedge.  
 4.  Ik heb de barrier=wall samengevoegd met building=yes aan de hoek van het gebouw.  
 

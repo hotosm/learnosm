@@ -33,12 +33,12 @@ Voor meer informatie over opmerkingen voor wijzigingensets, zie <https://wiki.op
 
 U bewerkingen zullen binnen een paar seconden verschijnen op <http://www.openstreetmap.org>.  
 
-Hoewel uw wijzigingen binnen ene paar seconden zijn geaccepteerd door OpenStreetMap, gebruiken sommige programma's, apps. en apparaten een opgeslagen versie van OpenStreetMap die misschien pas na enkele weken of maanden zal worden bijgewerkt.  
+Hoewel uw wijzigingen binnen een paar seconden zijn geaccepteerd door OpenStreetMap, gebruiken sommige programma's, apps. en apparaten een opgeslagen versie van OpenStreetMap die misschien pas na enkele weken of maanden zal worden bijgewerkt.  
 
 Tasking Manager - Voltooien van een vierkant, of stoppen met werken voordat een vierkant is voltooid  
 -------------------------------------------------------------------
 
-Wanneer u denkt dat een vierkant is voltooid, ga terug naar de tab Tasking Manager in uw browser, voeg ene opmerking toe & markeer het vierkant als voltooid. Kopieer niet de opmerking voor de wijzigingenset met hashtags die u gebruikte bij het opslaan.  
+Wanneer u denkt dat een vierkant is voltooid, ga terug naar de tab Tasking Manager in uw browser, voeg een opmerking toe & markeer het vierkant als voltooid. Kopieer niet de opmerking voor de wijzigingenset met hashtags die u gebruikte bij het opslaan.  
 ![mark task as done]{: height="250px"}  
 
 Als u selecteert;

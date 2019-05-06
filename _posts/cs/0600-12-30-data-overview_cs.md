@@ -17,11 +17,11 @@ Přehled dat OSM
 
 Jak OSM funguje
 --------------
-Zvažme, jak funguje OpenStreetMap. Tisíce uživatelů po celém světě nepřetržitě přidávají a upravují mapu, ale co se děje za zákulisí?  
+Zvažme, jak funguje OpenStreetMap. Tisíce uživatelů po celém světě nepřetržitě přidávají a upravují mapu, ale co se děje v zákulisí?  
 
-Když vy nebo kterýkoli jiný uživatel provedete změny pomocí softwaru pro úpravy, jako je JOSM nebo iD editoru, software komunikuje s centrálním serverem OpenStreetMap a upozorní je na vaše změny. Na tomto serveru je masivní databáze, která obsahuje všechny informace o poloze a atributy o všech geografických prvcích v rámci celého OpenStreetMap.  
+Když vy nebo kterýkoli jiný uživatel provedete změny pomocí softwaru pro úpravy, jako je JOSM nebo iD editor, software komunikuje s centrálním serverem OpenStreetMap a upozorní je na vaše změny. Na tomto serveru je masivní databáze, která obsahuje všechny informace o poloze a atributy o všech geografických prvcích v rámci celé OpenStreetMap.  
 
-Vzhledem k tomu, že OSM je volná a otevřená, je možné, aby si někdo stáhnout všechny údaje v této databázi. Nicméně, protože je tak masivní (*data je více než 30 GB, i když je komprimovaná*), je téměř nemožné pracovat se všemi daty najednou.  
+Vzhledem k tomu, že OSM je volná a otevřená, je možné, aby si kdokoliv mohl stáhnout všechny údaje z této databáze. Nicméně, protože je tak masivní (*dat je více než 30 GB, i když jsou komprimovaná*), je téměř nemožné pracovat se všemi daty najednou.  
 
 Kvůli tomuto omezení existují různé metody **exportu** a **extrahování** údajů, které jsou zahrnuty v této části. Export znamená konverzi dat OpenStreetMap z jejich původního formátu do formátu, který je pro vás vhodný. To se mírně liší od **extrahování dat**, což znamená vyjmout data z oblasti, kterou si zvolíte. To může také znamenat vytažení specifických funkcí, které chcete z oblasti. Tyto pojmy jsou často používány zaměnitelně. O tomto se dozvíme více v sekci Údaje OSM.  
 
