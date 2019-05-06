@@ -9,7 +9,6 @@ category: josm
 Editing Field Data
 ==================
 
-> This guide may be downloaded as [josm_editing-with-josm_en.odt](/files/josm_editing-with-josm_en.odt) or [josm_editing-with-josm_en.pdf](/files/josm_editing-with-josm_en.pdf)  
 > Reviewed 2015-07-13  
 
 We've now covered all the building blocks of mapping with OpenStreetMap.

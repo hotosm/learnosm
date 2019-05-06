@@ -9,7 +9,6 @@ date: 0500-10-21 13:00:00
 
 # What is new for Mappers in the Tasking Manager 3
 
-> This guide may be downloaded as [tm3-news-for-mappers_en.odt](/files/tm3-news-for-mappers_en.odt) or [tm3-news-for-mappers_en.pdf](/files/tm3-news-for-mappers_en.pdf)  
 
 ## Your User Profile
 

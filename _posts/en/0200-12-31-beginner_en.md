@@ -11,10 +11,9 @@ nosearch: true
 Beginner's Guide
 ================
 
+> Reviewed 2015-07-12  
 
-This guide shows step by step how to get started with OpenStreetMap. You will learn
-how to set up an account, how to use basic map editing software, and in later chapters you can learn how to go outside
-and collect information to put on the map. 
+This guide shows step by step how to get started with OpenStreetMap. You will learn how to set up an account, how to use basic map editing software, and in later chapters you can learn how to go outside and collect information to put on the map. 
 
 ### Are you new to OpenStreetMap and want to improve the map by adding data?
 

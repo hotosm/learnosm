@@ -10,7 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
-> This guide may be downloaded as [humanitarian_en.odt](/files/humanitarian_en.odt) or [humanitarian_en.pdf](/files/humanitarian_en.pdf)  
 > Reviewed 2015-09-18
 
 Thank you for volunteering to help the local communities and the Aid Organisations responding to this crisis by providing updated map data for them.  

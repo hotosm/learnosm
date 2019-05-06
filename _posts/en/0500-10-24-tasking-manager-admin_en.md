@@ -5,7 +5,6 @@ permalink: /en/coordination/tasking-manager-project-admin/
 lang: en
 category: coordination
 ---
-> This guide may be downloaded as a stand-alone module: [tasking-manager-admin_en.odt](/files/tasking-manager-admin_en.odt) or [tasking-manager-admin_en.pdf](/files/tasking-manager-admin_en.pdf) 
 
 **This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3-project-admin)**
 

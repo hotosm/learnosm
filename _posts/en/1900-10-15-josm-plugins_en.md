@@ -9,7 +9,6 @@ category: josm
 JOSM Plugins
 ============
 
-> This guide may be downloaded as [josm-plugins_en.odt](/files/josm-plugins_en.odt) or [josm-plugins_en.pdf](/files/josm-plugins_en.pdf)  
 > Reviewed 2015-07-14  
 
 As you become more advanced in your editing techniques, you may want to use additional JOSM features to improve your mapping skills. JOSM allows you to install numerous plugins, which add extra functionality to the software.  

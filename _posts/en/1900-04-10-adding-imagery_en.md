@@ -9,7 +9,6 @@ category: josm
 JOSM - Adding Aerial Imagery
 ================
 
-> This guide may be downloaded as [josm_adding_imagery_en.odt](/files/josm_adding_imagery_en.odt) or [josm_adding_imagery_en.pdf](/files/josm_adding_imagery_en.pdf)  
 > Reviewed 2016-09-09  
 
 Not all aerial imagery is within the JOSM imagery menu, but it is easy to add if you have been given the link information.  

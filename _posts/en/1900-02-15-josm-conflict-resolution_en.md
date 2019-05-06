@@ -9,7 +9,6 @@ category: josm
 JOSM Conflict Resolution
 ====================
 
-> This guide may be downloaded as [josm-conflict-resolution_en.odt](/files/josm-conflict-resolution_en.odt) or [josm-conflict-resolution_en.pdf](/files/josm-conflict-resolution_en.pdf)  
 > Reviewed 2016-09-27  
 
 Sometimes you are working in JOSM and when you upload all of your beautiful edits you get a nasty message complaining about a conflict.  

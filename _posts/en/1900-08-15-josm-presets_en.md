@@ -9,7 +9,6 @@ category: josm
 JOSM Presets
 ============
 
-> This guide may be downloaded as [josm-presets_en.odt](/files/josm-presets_en.odt) or [josm-presets_en.pdf](/files/josm-presets_en.pdf)  
 > Reviewed 2016-09-17  
 
 If you've been using JOSM for long, by now you understand a bit about tags and presets. Every object is defined by two things - first, its geometry (whether it's a point, line, or shape and its location), and second, its attributes which come in the form of tags.  
@@ -18,7 +17,7 @@ When you draw an object and select from the Presets menu, the correct tags are a
 
 If you like using presets, what happens when you want to add tags that are not contained in the menu, or when you want to customize your own tags?  
 
-In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
+In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/editing/creating-presets), we will cover how to create custom presets files of your own.  
 
 
 Add Presets
@@ -47,7 +46,7 @@ Presets files can either be added from an online archive, or saved on your compu
 * Create a new layer and add a point or shape.  
 * Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
 
-![additional tags preset][]
+![additional tags preset[]
 
 * Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
 

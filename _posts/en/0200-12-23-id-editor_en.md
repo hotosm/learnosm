@@ -9,7 +9,6 @@ category: beginner
 The iD Editor
 =============
 
-> This guide may be downloaded as [beginner_id-editor_en.odt](/files/beginner_id-editor_en.odt) or [beginner_id-editor_en.pdf](/files/beginner_id-editor_en.pdf)  
 > Reviewed 2016-03-30  
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  

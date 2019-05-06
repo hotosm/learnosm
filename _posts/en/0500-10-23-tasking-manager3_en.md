@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager 3
 
-> This guide may be downloaded as [tasking-manager3_en.odt](/files/tasking-manager3_en.odt) or [tasking-manager3_en.pdf](/files/tasking-manager3_en.pdf)  
 
 **This guide describes the current version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for the previous version](/en/coordination/tasking-manager)**
 
@@ -292,15 +291,11 @@ If you need to send a message, such as an email or an IRC message, and you are q
 
 1. Click on the task square concerned  
 2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713?task=259'  
-3. Highlight with the mouse all of the text in the address bar, or use the shortcut keys **Ctrl+A** to select all the text, then use shortcut keys **Ctrl+C** to copy the text  
-4. In your email, IRC message, or other message,  
-    - either, mouse right click & paste,  
-    - or shortcut keys **Ctrl+V**, to paste the link into the message. 
+3. Copy this link into the message. 
 
 
 ## Getting help 
 
-<!--   IRC option is no longer present, commenting this out
 ### Live text based help
 
 From the Learn page of the Tasking Manager:  
@@ -315,14 +310,13 @@ From the Learn page of the Tasking Manager:
 - Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
 - Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
 
-### Leaving a Project question / comment / contacting the Project creator 
-end of comment -->
+### Leaving a Project question / comment / contacting the Project creator
 
 Using the "Comments" tab for the project you can see other users' questions and comments and leave one of your own. You can also click the "Contact Project Manager" link and that will automatically direct your comment/question to the project creator. 
 
-![TM comments][]
+All comments are public and it is not real time, live chat, use the IRC option above for realtime chat.
 
-All comments are public and it is not real time, live chat. If you need that, use [IRC](http://wiki.openstreetmap.org/wiki/IRC) and select the #hot channel.
+![TM comments][]
 
 
 ## Editing hints and tips  

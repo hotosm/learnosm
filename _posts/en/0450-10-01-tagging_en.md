@@ -14,7 +14,6 @@ Tagging - iD editor
 
 ![tagging][]
 
-> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
 
 Why Tags are needed
 -------------------

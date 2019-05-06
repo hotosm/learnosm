@@ -9,7 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> This guide may be downloaded as [OSMTracker_en.odt](/files/OSMTracker_en.odt) or [OSMTracker_en.pdf](/files/OSMTracker_en.pdf)  
 > Reviewed 2016-02-08
   
 **This article relates to OSMTracker for Android - there is a similar product available for windows mobile.**  
@@ -31,7 +30,7 @@ Quick Start
 Install OSMTracker
 -------------------------
 
-Install OSMTracker from the [Google play Store](https://play.google.com/store/apps/details?id=net.osmtracker).  
+Install OSMTracker from the [Google play Store](https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker).  
 ![OSMTracker Logo][]  
 The [most recent application package](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) can be downloaded outside of Google play Store if need be.  
 

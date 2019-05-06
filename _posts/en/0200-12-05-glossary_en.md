@@ -9,7 +9,6 @@ category: beginner
 Glossary 
 ============
 
->This glossary is in the process of being updated and has been compiled from numerous other sources including the [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) site and a guide written by Will Skora. Feel free to help us update it by reviewing [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) for how to contribute to the site. 
 > Reviewed 2015-07-18  
 
 To easily search this Glossary, use the search feature within your browser, by holding down the control key and whilst doing so press the f key (usually described as **Ctrl+f**)  
@@ -47,7 +46,7 @@ To easily search this Glossary, use the search feature within your browser, by h
 
 **[Layer](http://wiki.openstreetmap.org/wiki/Layer)**: A data source that's displayed on a slippy map (often is thought of as a group of tiles stitched together).
 
-**NGO : Non Govermental Organisation / Agency** ; primarily a not for profit compulsory group of citizens who are organized on a local, national or international level.  
+**NGO : Non Govermental Organisation / Agency** ; primarly a not for profit compulsory group of citizens who are organized on a local, national or international level.  
 
 **[Node](http://wiki.openstreetmap.org/wiki/Node)**: A node is one of the core elements in the OpenStreetMap data model. It consists of a single point in space defined by its latitude, longitude and node id. Nodes can be used to define standalone point features, but are more often used to define the shape or "path" of a way.
 

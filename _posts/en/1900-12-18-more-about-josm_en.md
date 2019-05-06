@@ -9,7 +9,6 @@ category: josm
 The JOSM Editing Process
 ========================
 
-> This guide may be downloaded as [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) or [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf)  
 > Reviewed 2015-07-12  
 
 In the previous section you
