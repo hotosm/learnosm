@@ -9,7 +9,6 @@ category: coordination
 
 # در مدیریت وظایف ۳ چه چیز جدید برای اعتباردهنده وجود دارد
 
-> این راهنما را می‌توان به صورت [tm3-news-for-validators_fa.odt](/files/tm3-news-for-validators_fa.odt) و یا [tm3-news-for-validators_fa.pdf](/files/tm3-news-for-validators_fa.pdf) دانلود کرد.  
 
 ## پروفایل کاربری‌تان
 

@@ -9,7 +9,6 @@ category: beginner
 Uvod
 ====
 
-> This guide may be downloaded as [beginner_introduction_hr.odt](/files/beginner_introduction_hr.odt) or [beginner_introduction_hr.pdf](/files/beginner_introduction_hr.pdf)  
 
 Informacija je moć. S dobrim informacijama i pravim razumijevanjem, pojedinci 
 i zajednice mogu lakše poboljšati svoj život i donijeti bolje odluke o budućnosti.

@@ -10,8 +10,6 @@ Přehled dat OSM
 ==================
 
 
-> Tento návod může být ke stažení jako [OSM_Data_Overview_en.odt](/files/OSM_Data_Overview_en.odt) nebo [OSM_Data_Overview_en.pdf](/files/OSM_Data_Overview_en.pdf)  
-> Zkontrolováno 2016-09-05
 
 <!--In this section we'll consider how OpenStreetMap functions, which will help us to understand better how the data is structured, and how we can best utilize it.-->
 

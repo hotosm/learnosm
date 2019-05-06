@@ -11,8 +11,6 @@ nosearch: true
 使用手機、GPS 或紙本繪圖
 =============================
 
-> 此指南能以 [mobile-mapping_zh_TW.odt](/files/mobile-mapping_zh_TW.odt) 或 [mobile-mapping_zh_TW.pdf](/files/mobile-mapping_zh_TW.pdf) 下載  
-> 審閲於 2015-07-14  
 
 要真正建立詳細及準確的地圖，需要在你準備更新的區域進行調查。本節中的指南涉及使用：  
 

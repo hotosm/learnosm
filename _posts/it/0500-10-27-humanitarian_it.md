@@ -10,8 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
-> Questa guida può essere scaricata come [humanitarian_it.odt](/files/humanitarian_it.odt) oppure [humanitarian_it.pdf](/files/humanitarian_it.pdf)  
-> Revisionato 2017-06-25
 
 Grazie per esserti offerto volontario per aiutare le comunità locali e le Organizzazioni Umanitarie che intervengono in questa crisi fornendogli dati geografici aggiornati.  
 

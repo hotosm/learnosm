@@ -9,7 +9,6 @@ category: josm
 JOSM - Creare impostazioni personalizzate
 =======================
 
-> Questa guida può essere scaricata come  [creating-presets_it.odt](/files/creating-presets_it.odt) o come [creating-presets_it.pdf](/files/creating-presets_it.pdf)  
 > Revisionato 2015-09-20  
 
 Nel [capitolo precedente](/it/josm/josm-presets) abbiamo visto come aggiungere in JOSM i menu delle impostazioni personalizzate. In questo capitolo vedrai come puoi creare un tuo file con le impostazioni personalizzate.  

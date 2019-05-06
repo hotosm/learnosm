@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager 3
 
-> Tento návod může být stažen jako [tasking-manager3_en.odt](/files/tasking-manager3_en.odt) nebo [tasking-manager3_en.pdf](/files/tasking-manager3_en.pdf)  
 
 **Tento návod popisuje aktuální verzi Tasking Manageru. Pokud uživatelské rozhraní, které používáte, vypadá jinak než zde popsané, měli byste si prohlédnout [příručku pro předchozí verzi](/cs/coordination/tasking-manager)**
 
@@ -203,7 +202,6 @@ Různé možnosti editace se vám zobrazí hned poté, co uzamknete úkol.
 
 JOSM spusťte dřív než kliknete na tento odkaz a tím se automaticky stáhnou aktuální OSM data do JOSM .  
 
->  1. Políčko **Zapnout vzdálené ovládání** musí být zaškrtnuté - najdete ho v *Upravit ‣ Nastavení ‣ záložka Vzdálené ovládání*
 > 2. Pokud jste předtím nainstalovali doplněk **continuosDownload** je lepší ho vypnout (zrušit zaškrtnutí u **Stahovat OSM data kontinuálně** v nabídce **Soubor** v JOSM).  
 > 3. Pokud JOSM nezobrazí podkladové snímky automaticky, najdete je v nabídce **Mapové podklady**. [Více informací o snímcích](cs/josm/more-about-josm/#přidat-snímky)   
   

@@ -9,7 +9,6 @@ category: josm
 မြေပြင်အချက်အလက်များတွင်ပြင်ဆင်တည်းဖြတ်ခြင်း
 ==================
 
-> ဤလမ်းညွှန်ချက်ကို [josm_editing-with-josm_my.odt](/files/josm_editing-with-josm_my.odt) (သို့မဟုတ်) [josm_editing-with-josm_my.pdf](/files/josm_editing-with-josm_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2015-07-13  
 
 OpenStreetMap တွင်မြေပုံရေးဆွဲရန်အတွက် လိုအပ်သည်များကို လေ့လာခဲ့ပြီးဖြစ်သည်။ 

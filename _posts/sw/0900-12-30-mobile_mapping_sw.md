@@ -14,8 +14,6 @@ Mapping with a Smartphone, GPS or Paper
 Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
 tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md). 
 
-> This guide may be downloaded as [mobile-mapping_sw.odt](/files/mobile-mapping_sw.odt) or [mobile-mapping_sw.pdf](/files/mobile-mapping_sw.pdf)  
-> Reviewed 2015-07-14  
 
 To really create a detailed & accurate map, you need to carry out a survey in the area you are updating. The guides in this section deal with  carrying out a survey using either a;  
 

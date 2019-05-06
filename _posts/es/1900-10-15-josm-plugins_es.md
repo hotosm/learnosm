@@ -216,7 +216,6 @@ porque no tienen acceso a dispositivos GPS) ayudar en la digitalización. Hay
 dos formas más de subir trazas: 1) Mediante el complemento de JOSM o 2) en
 la página principal de OSM.
 
-> Nota: los puntos de referencia GPS no pueden subirse directamente a la 
 > base de datos de OSM. Sin embargo, pueden ser convertidas en trazas y después
 > ser subidas temporalmente, de forma que pueden ser mostrados como objetos
 > de fondo en Potlatch.

@@ -9,7 +9,6 @@ category: josm
 JOSM - Luchtfoto's toevoegen
 ================
 
-> Deze handleiding kan gedownload worden als [josm_adding_imagery_nl_NL.odt](/files/josm_adding_imagery_nl_NL.odt) of [josm_adding_imagery_nl_NL.pdf](/files/josm_adding_imagery_nl_NL.pdf)  
 > Bijgewerkt 09-09-2016  
 
 Niet alle luchtfoto's/satellietbeelden staan in het menu Afbeeldingen van JOSM, maar het is eenvoudig toe te voegen als u de informatie voor de link weet.  

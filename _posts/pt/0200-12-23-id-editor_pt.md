@@ -9,8 +9,6 @@ category: beginner
 O Editor iD
 =============
 
-> Este guia pode ser descarregado como [beginner_id-editor_pt.odt](/files/beginner_id-editor_pt.odt) ou [beginner_id-editor_pt.pdf](/files/beginner_id-editor_pt.pdf)  
-> Revisto em 2016-03-30  
 
 Está a começar a mapear com o Gestor de Tarefas do HOT ou MissingMaps? Veja a [secção dicas HOT](/pt/hot-tips/).  
 

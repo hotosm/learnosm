@@ -11,8 +11,6 @@ category: mobile-mapping
 Go Map!!
 ===================
 
-> Deze handleiding kan gedownload worden als [gomap_nl_NL.odt](/files/gomap_nl_NL.odt) of [gomap_nl_NL.pdf](/files/gomap_nl_NL.pdf)  
-> Bijgewerkt op 10-08-2016  
 
 Go Map!! is een toepassing voor iOS die u informatie in OpenStreetMap laat maken en bewerken.
 Go Map!! ondersteunt het bewerken van wegen en willekeurig taggen.

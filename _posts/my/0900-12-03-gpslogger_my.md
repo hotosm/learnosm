@@ -9,8 +9,6 @@ category: mobile-mapping
 Android  အတွက် GPSLogger
 =====================
 
-> ဤလမ်းညွှန်ချက်ကို  [gpslogger_my.odt](/files/gpslogger_my.odt) (သို့မဟုတ်) [gpslogger_my.pdf](/files/gpslogger_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
-> Reviewed 2015-12-06  
 
 ![GPSLogger][]
 

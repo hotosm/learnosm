@@ -10,7 +10,6 @@ Slovníček
 ============
 
 Slovníček je v procesu aktualizace a byl postaven z několika různých zdrojů včetně [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) a průvodce napsaného Will Skora. Neostýchejte se pomoci vylepšit jej. Začněte prohlédnutím souboru [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md), který vám řekne jak přispívat. 
-> Zkontrolováno 18.7.2015  
 
 Pro jednoduché hledání ve slovníčku použijte funkci "hledat" ve vašem prohlížeči, pomocí současného držení klávesy Ctrl a stisknutí tlačítka F (většinou popisováno jako **Ctrl+f**)  
 

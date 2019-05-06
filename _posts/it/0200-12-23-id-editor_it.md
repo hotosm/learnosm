@@ -9,7 +9,6 @@ category: beginner
 Editor iD
 =============
 
-> Questa guida può essere scaricata come [beginner_id-editor_it.odt](/files/beginner_id-editor_it.odt) oppure [beginner_id-editor_it.pdf](/files/beginner_id-editor_it.pdf)  
 Revisionato il 30-05-2016  
 
 Stai iniziando a mappare per il Tasking Manager HOT o per MissingMaps, etc. ? Vedi la [sezione Consigli per HOT](/it/hot-tips/).  
@@ -110,7 +109,6 @@ Crea un cerchio dalla linea (attivo solo se la linea è chiusa su sè stessa). !
 
 Una "linea" creata nell'editor iD è realmente una "way" (un percorso) con "tag" (descrittori) applicati su di essa.
 
->Una particolare avvertenza riguardo la **Cancellazione**: In generale dovresti evitare di cancellare i contributi degli altri utenti se desideri solo eseguire miglioramenti. Puoi cancellare i tuoi errori, ma dovresti provare a *sistemare* gli oggetti mappati da altri utenti se questi debbono essere migliorati. Questo preserva la storia degli oggetti nel database OSM ed è rispettoso degli altri membri della comunità. Se tu pensi che qualcosa debba proprio essere cancellato, chiedi prima al mappatore originale o a qualcuno nella mailing list OSM.
 
 ### Disegnare forme (Poligoni)
 

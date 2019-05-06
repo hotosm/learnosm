@@ -9,8 +9,6 @@ category: beginner
 Beginnen op OpenStreetMap.org
 ====================================
 
-> Deze handleiding kan worden gedownload als [beginner_start-osm_nl_NL.odt](/files/beginner_start-osm_nl_NL.odt) of [beginner_start-osm_nl_NL.pdf](/files/beginner_start-osm_nl_NL.pdf)  
-> Bijgewerkt op 2015-07-12  
 
 In dit gedeelte zullen we leren hoe door de website van OpenStreetMap te navigeren, kaarten te bekijken en hoe een gebruikersaccount aan te maken. Nadat u uw eigen gebruikersnaam en wachtwoord heeft zult u uw eerste punten aan de kaart bij kunnen dragen.
 

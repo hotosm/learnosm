@@ -19,7 +19,6 @@ L'essenziale
 
 ![TM Start][]
 
-> Questa immagine ![keymon]{: height="24px"} mostra quali pulsanti o rotellina del mouse sono stati usati, e quali tasti sono stati premuti.  
 
 1. Andate ad un sito Tasking Manager (TM), per esempio <http://tasks.hotosm.org/>. Usando le vostre credenziali <http://www.openstreetmap.org>, autorizzate il Tasking Manager ad accedere al vostro account OpenStreetMap.  
 2. Iniziate con un progetto impostato per nuovi mappatori - questi sono sovente progetti 'solo edifici'.  

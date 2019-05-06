@@ -19,7 +19,6 @@ De beginselen
 
 ![TM Start][]
 
-> Deze afbeelding ![keymon]{: height="24px"} laat u zien welke knopen of wiel op een muis moet worden gebruikt, en welke toetsen op het toetsenbord moeten worden ingedrukt.  
 
 1. Ga naar een site van Tasking Manager (TM), bijvoorbeeld <http://tasks.hotosm.org/>. Gebruik uw login voor <http://www.openstreetmap.org>, autoriseer de Tasking Manager om toegang te krijgen tot uw account voor OpenStreetMap.  
 2.  Begin met een project dat is ontworpen voor nieuwe mappers - dit zijn meestal projecten met 'buildings only'.  

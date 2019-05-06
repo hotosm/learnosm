@@ -9,7 +9,6 @@ category: josm
 JOSM ပုံရိပ်ပြတ်သားမှုဆိုင်ရာကွဲလွဲချက်
 ====================
 
-> ဤလမ်းညွှန်ချက်ကို [josm-conflict-resolution_my.odt](/files/josm-conflict-resolution_my.odt) (သို့မဟုတ်) [josm-conflict-resolution_my.pdf](/files/josm-conflict-resolution_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2016-09-27  
 
 JOSM ဆော့ဖ်ဝဲလ်အသုံးပြုလျက် ပြင်ဆင်တည်းဖြတ်မှုပြုလုပ်ပြီးနောက် သိမ်းဆည်းချိန်တွင် ကွဲလွဲမှုရှိနေကြောင်း အသိပေးချက်ကို အောက်ပါပုံအတိုင်း ရရှိလေ့ရှိတတ်သည်။  

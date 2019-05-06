@@ -9,7 +9,6 @@ category: josm
 Editační nástroje v JOSM
 ==================
 
-> Tento návod můžete stáhnout jako [josm_josm-tools_en.odt](/files/josm_josm-tools_en.odt) nebo [josm_josm-tools_en.pdf](/files/josm_josm-tools_en.pdf)  
 > Zkontrolováno 9.6.2017  
 
 - Obsah

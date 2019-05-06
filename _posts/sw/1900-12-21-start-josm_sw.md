@@ -7,7 +7,6 @@ category: josm
 published: true
 ---
 
-> Huu muongozo unaweza kupakuliwa kama  [josm_start-josm_sw.odt](/files/josm_start-josm_sw.odt) au [josm_start-josm_sw.pdf](/files/josm_start-josm_sw.pdf)  
 > Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
 tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).  
 

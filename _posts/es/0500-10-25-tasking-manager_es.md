@@ -8,8 +8,6 @@ category: coordination
 
 # Administrador de tareas
 
-> Esta guía puede ser descargada como [tasking-manager_es.odt](/files/tasking-manager_es.odt) o [tasking-manager_es.pdf](/files/tasking-manager_es.pdf)  
-> Revisado 2015-08-26  
 
 Índice de secciones
 -------------

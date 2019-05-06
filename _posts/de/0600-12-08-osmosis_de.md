@@ -9,7 +9,6 @@ category: osm-data
 Daten manipulieren mit Osmosis
 ===============================
 
-> Diese Anleitung kann heruntergeladen werden als [osmosis_de.odt](/files/osmosis_de.odt) oder [osmosis_de.pdf](/files/osmosis_de.pdf)  
 
 **Osmosis** ist ein mächtiges Kommandozeilenwerkzeug um **.osm** Daten zu manipulieren und zu verarbeiten. Es wird oft dazu verwendet größere Datendateien zu verarbeiten, OSM Dateien in kleinere Teile zu splitten, und um ein Changeset anzuwenden und eine bestehende Datei zu aktualisieren.  
 

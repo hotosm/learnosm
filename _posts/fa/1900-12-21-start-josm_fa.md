@@ -10,7 +10,6 @@ published: true
 شروع به کار با JOSM
 =============================  
 
-> این راهنما می‌توان را به صورت [josm_start-josm_fa.odt](/files/josm_start-josm_fa.odt) و یا [josm_start-josm_fa.pdf](/files/josm_start-josm_fa.pdf) دانلود کرد.  
 > تاریخ بازبینی ۱۳۹۴/۰۴/۳۱  
 
 روش دانلود و نصب JOSM، ویرایشگر جاوای OpenStreetMap، تغییر برخی تنظیمات آن و باز کردن یک نقشه نمونه و 

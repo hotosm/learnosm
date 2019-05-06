@@ -15,6 +15,5 @@ Muongozo huu unaonyesa hatua kwa hatua jinsi ya kuanza katika OpenStreetMap (Ram
 
 Kwa sura zinazofuata unaweza kujifunza jinsi ya kutoka nje na kukusanya taarifa za kuweka kwenye ramani.Sura zinazofuata zinataarifa kuhusu [HOT Remote Mapping](/en/coordination/)
 
-> Huu muongozo unaweza kupakuliwa kama  [beginner_sw.odt](/files/beginner_sw.odt) au [beginner_sw.pdf](/files/beginner_sw.pdf) 
 
 

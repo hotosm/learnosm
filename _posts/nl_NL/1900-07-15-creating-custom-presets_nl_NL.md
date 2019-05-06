@@ -9,7 +9,6 @@ category: josm
 JOSM - Aangepaste voorkeuzen maken
 =======================
 
-> Deze handleiding kan gedownload worden als [creating-presets_nl_NL.odt](/files/creating-presets_nl_NL.odt) of [creating-presets_nl_NL.pdf](/files/creating-presets_nl_NL.pdf)  
 > Bijgewerkt 20-09-2015  
 
 In het [vorige hoofdstuk](/nl_NL/josm/josm-presets) hebben we gekeken hoe menu's voor aangepaste voorkeuzen kunnen worden toegevoegd aan JOSM. In dit hoofdstuk zullen we behandelen hoe u uw eigen bestanden voor aangepaste voorkeuzen maakt.  

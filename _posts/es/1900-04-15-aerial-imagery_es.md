@@ -106,7 +106,6 @@ datos existentes (las carreteras) están colocados correctamente. La fotografía
 no está correctamente georreferenciada y tiene un desplazamiento en comparación
 con la realidad. Debe ser ajustada.
 
-> Que no te confunda si las trazas aparecen como una conjunto de líneas
 > y no como una única línea sólida. La mayoría de dispositivos GPS tienen una
 > precisión de 2-5 m, que es suficiente para las carreteras ya que no se conduce 
 > o camina por el centro de la carretera. Intenta imaginar una media de las 

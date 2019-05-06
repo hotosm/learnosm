@@ -9,8 +9,6 @@ category: coordination
 Trasování silnic, budov, vod a využití půdy
 ===========================================
 
-> Tento návod můžete stáhnout jako [remote-tracing_en.odt](/files/remote-tracing_en.odt) nebo [remote-tracing_en.pdf](/files/remote-tracing_en.pdf)  
-> Zkontrolováno 8.2.2016  
 
 Navazuje na část [Remote, Armchair & Mapathon sekce LearnOSM] (/cs/coordination/remote/) sekci, která je zaměřená na mapovače bez zkušeností s mapováním HOT.  
 

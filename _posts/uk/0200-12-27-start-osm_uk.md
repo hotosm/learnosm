@@ -9,7 +9,6 @@ category: beginner
 Перші кроки в OpenStreetMap.org
 ===============================
 
-> This guide may be downloaded as [beginner_start-osm_uk.odt](/files/beginner_start-osm_uk.odt) or [beginner_start-osm_uk.pdf](/files/beginner_start-osm_uk.pdf)
 
 У цьому розділі ми дізнаємось крок за кроком як орієнтуватись на сайті OpenStreetMap, переглядати та друкувати мапу, як створити свій обліковий запис. Після того, як ви отримаєте логін та пароль ви зможете додати свою першу точку на мапу.
 

@@ -9,7 +9,6 @@ category: josm
 JOSM voorkeuzen
 ============
 
-> Deze handleiding kan gedownload worden als [josm-presets_nl_NL.odt](/files/josm-presets_nl_NL.odt) of [josm-presets_nl_NL.pdf](/files/josm-presets_nl_NL.pdf)  
 > Bijgewerkt 17-09-2016  
 
 Als u JOSM al langere tijd gebruikt, zult u nu wel weten waar tags en voorkeuzen over gaan. Elk object wordt gedefinieerd door twee dingen - ten eerste: zijn geometrie (of het een punt, lijn of vorm is en de locatie ervan), en ten tweede: zijn attributen in de vorm van tags.  

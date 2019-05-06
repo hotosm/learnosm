@@ -9,8 +9,6 @@ category: beginner
 Débuter sur OpenStreetMap.org
 ====================================
 
-> Ce guide peut être téléchargé : [beginner_start-osm_fr.odt](/files/beginner_start-osm_fr.odt) ou [beginner_start-osm_fr.pdf](/files/beginner_start-osm_fr.pdf)  
-> Examiné 2015-07-12  
 
 Dans cette section, nous allons apprendre étape par étape comment naviguer sur le site OpenStreetMap, voir des cartes et créer un compte utilisateur. Une fois que vous aurez votre propre nom d'utilisateur et mot de passe, vous pourrez ajouter vos premiers points à la carte.
 

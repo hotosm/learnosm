@@ -12,7 +12,6 @@ JOSM Editing Tools
 Kifungu hiki cha LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
 tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md). 
 
-> Huu muongozo unaweza kupakuliwa kama [josm_josm-tools_sw.odt](/files/josm_josm-tools_sw.odt) or [josm_josm-tools_sw.pdf](/files/josm_josm-tools_sw.pdf)  
 > Imeangaliwa 2015-07-14  
 
 Katika [kuanza kutumia muongozo wa JOSM](/sw/josm/start-josm/) tumekamilisha vitu muhimu katika kuchora na 

@@ -5,7 +5,6 @@ permalink: /nl_NL/coordination/tasking-manager-project-admin/
 lang: nl_NL
 category: coordination
 ---
-> Deze handleiding kan gedownload worden als zelfstandige module: [tasking-manager-admin_nl_NL.odt](/files/tasking-manager-admin_nl_NL.odt) of [tasking-manager-admin_nl_NL.pdf](/files/tasking-manager-admin_nl_NL.pdf) 
 
 **Deze gids beschrijft een oudere versie van de Tasking Manager. Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [de handleiding voor versie 3](/nl/coordination/tasking-manager3-project-admin) moeten consulteren**
 
@@ -35,7 +34,6 @@ Klik op uw gebruikersnaam in de rechter bovenhoek, dan **Create a New Project.**
 
 ![TM Draw or Import][]
 
-> Importeren van een bestand met een gedefinieerd heeft altijd de voorkeur boven het met de hand tekenen van een project in Tasking Manager. Programma's als JOSM, QGIS, etc kunnen worden gebruikt om bestanden te maken voor het importeren in de Tasking Manager.
 
 #### Tekenen van een gebied voor het in kaart brengen
 

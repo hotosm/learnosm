@@ -9,8 +9,6 @@ category: beginner
 Kujifunza Zaidi
 ===============
 
-> Huu muongozo unaweza kupakuliwa kama [beginner_moving-forward_sw.odt](/files/beginner_moving-forward_sw.odt) au [beginner_moving-forward_sw.pdf](/files/beginner_moving-forward_sw.pdf)  
-> Reviewed 2015-07-12  
 
 Kama umefika mpaka hapa, hongera! Sasa utakuwa na uelewa mzuri jinsi gani ya kutengeneza ramani kwa OpenStreetMap.Vitu gani vingine  OSM inawez kufanya? Jinsi gani unaweza kuunganishwa na wanajamii wanaotengeneza ramani?
 

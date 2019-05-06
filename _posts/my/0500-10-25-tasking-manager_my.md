@@ -8,8 +8,6 @@ category: coordination
 
 # Tasking Manager
 
-> ဤလမ်းညွှန်ချက်ကို [tasking-manager_my.odt](/files/tasking-manager_my.odt) (သို့မဟုတ်) [tasking-manager_my.pdf](/files/tasking-manager_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
-> Reviewed 2015-08-26  
 
 အခန်းအလိုက် မာတိကာအညွှန်း
 -------------

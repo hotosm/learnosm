@@ -9,7 +9,6 @@ category: josm
 Gli strumenti di JOSM
 ==================
 
-> Questa guida può essere scaricata come [josm_josm-tools_it.odt](/files/josm_josm-tools_it.odt) oppure [josm_josm-tools_it.pdf](/files/josm_josm-tools_it.pdf)  
 > Revisionato il 2017-06-09  
 
 - TOC

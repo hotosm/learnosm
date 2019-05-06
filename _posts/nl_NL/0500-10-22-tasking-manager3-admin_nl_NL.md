@@ -8,7 +8,6 @@ category: coordination
 
 # OSM Tasking Manager Projecten maken en beheren
 
-> Deze handleiding kan gedownload worden als een zelfstandige module: [tasking-manager3-admin_nl_NL.odt](/files/tasking-manager3-admin_nl_NL.odt) or [tasking-manager3-admin_nl_NL.pdf](/files/tasking-manager3-admin_nl_NL.pdf) 
 
 **Deze handleiding beschrijft de huidige versie van de Tasking Manager. Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [de handleiding voor de vorige versie](/nl_NL/coordination/tasking-manager-project-admin) moeten consulteren**
 
@@ -52,7 +51,6 @@ U heeft het toegangsniveau Project Manager nodig om nieuwe projecten binnen TM3 
 
 Klik op uw gebruikersnaam in de rechter bovenhoek, dan **Create a New Project.** U kunt dan kiezen om het door u gewenste gebied (AoI) tekenen op een kaart of om een bepaald gebied (Area of Interest = AoI) te importeren vanuit een GeoJSON-bestand;  
 
-> Importeren van een bestand met een gedefinieerd heeft altijd de voorkeur boven het met de hand tekenen van een project in Tasking Manager. Programma's als JOSM, QGIS, etc kunnen worden gebruikt om bestanden te maken voor het importeren in de Tasking Manager. De voorgestelde werkstroom is om een .osm-bestand te maken van het AoI met behulp van JOSM en dan http://geojson.io/ gebruiken om een GeoJSON te genereren.
 
 ### Tekenen van een gebied voor het in kaart brengen
 

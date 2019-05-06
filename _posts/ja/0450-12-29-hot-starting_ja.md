@@ -19,7 +19,6 @@ Tasking Managerの使い方 - iDエディタ
 
 ![TM Start][]
 
-> この画像 ![keymon]{: height="24px"} は、マウスのボタンやホイール、あるいはキーボードのどのキーを使えばよいかを表しています。  
 
 1. Tasking Manager (TM) のウェブサイト <http://tasks.hotosm.org/> を表示します。<http://www.openstreetmap.org>でのあなたのユーザ名を使い、あなたのOpenStreetMapアカウントでTasking Managerの認証を行ってください。  
 2. 初心者マッパー向けのプロジェクトを開始します - しばしば '建物のみ/buildings only'  のプロジェクトがいくつか存在します。  

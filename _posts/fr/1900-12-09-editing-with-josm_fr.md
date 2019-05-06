@@ -277,7 +277,6 @@ ajouter des attributs.
 
 ![]({{site.baseurl}}/images/EditingWithJOSM_html_2746cce8_en.png)
 
-> Vous pouvez trouver plus d'information sur les attributs et les presets dans
 > le guide intermédiaire, «Chapitre 4: XML et attributs JOSM».
 
 ## Télécharger les modifications

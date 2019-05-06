@@ -17,7 +17,6 @@ Die Grundlagen
 
 ![Round Buildings][]  
 
-> Dieses Bild ![keymon]{: height="24px"} zeigt, welche Maustaste oder welches Mausrad genutzt wurde und welche Taste auf der Tastatur gedrückt wurde  
 
 Folgendermaßen ist vorzugehen:  
 

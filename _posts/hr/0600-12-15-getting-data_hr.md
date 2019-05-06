@@ -26,8 +26,6 @@ that the data is extracted by country, and not all countries are available.
 cities around the world. This is useful if you are looking for data extracts for a single city.
 The disadvantage to this site is that it is not updated regularly.
 
->	Remember that features in OpenStreetMap have an unlimited number of "free" tags,
->	but shapefiles have attributes stored in a limited number of columns. This means
 >	that when OSM data is converted into shapefiles, only the specified tags will be
 >	included in the shapefile table. The websites listed above provide shapefiles
 >	with a default set of common tags, but if you want to extract specific tags

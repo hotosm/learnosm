@@ -12,8 +12,6 @@ nosearch: true
 Koordination
 ============
 
-> Diese Anleitung kann als [coordination_en.odt](/files/coordination_en.odt) oder [coordination_en.pdf](/files/coordination_en.pdf) heruntergeladen werden  
-> Geprüft 2015-09-18
 
 Da bei OpenStreetMap viele Menschen zusammen an der Karte arbeiten, ist es wichtig zu wissen, wie wir unsere Aktivitäten koordinieren können.
 

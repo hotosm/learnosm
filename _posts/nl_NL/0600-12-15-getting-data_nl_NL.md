@@ -9,8 +9,6 @@ category: osm-data
 Gegevens van OSM ophalen
 =================  
 
-> Deze handleiding kan gedownload worden als [Getting_OSM_Data_nl_NL.odt](/files/Getting_OSM_Data_nl_NL.odt) of [Getting_OSM_Data_nl_NL.pdf](/files/Getting_OSM_Data_nl_NL.pdf)  
-> Bijgewerkt op 05-04-2016
 
 Wanneer u de meest recente gegevens van OSM wilt ophalen, is de eenvoudigste manier om een extract van een website te downloaden. Er zijn verscheidene webservices die gegevensextracten voor een gebied van uw keuze verschaffen.  
 

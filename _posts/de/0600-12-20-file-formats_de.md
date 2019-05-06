@@ -9,8 +9,6 @@ category: osm-data
 Dateiformate
 =============
 
-> Diese Anleitung kann heruntergeladen werden als [File_Formats_en.odt](/files/File_Formats_en.odt) oder [File_Formats_en.pdf](/files/File_Formats_en.pdf)  
-> Gereviewt am 2016-09-05
 
 Wie bei anderen Daten auch, gibt es mehrere Arten wie man geografische Daten auf einem Computer speichern kann. Man kann sie in Datenbanken, spezialisierten System zum Speichern und Abrufen von Daten, speichern und natürlich gibt es Datenbanken speziell designt zum Speichern von geografischen Daten. Sie können auch in herkömmlichen Computerdateien gespeichert werden, wobei es viele unterschiedliche Dateiformate für geografische Daten gibt.  
 

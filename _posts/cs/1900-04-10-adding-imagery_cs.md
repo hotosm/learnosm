@@ -9,7 +9,6 @@ category: josm
 JOSM - Přidání leteckých snímků
 ================
 
-> Tento návod můžete stáhnout jako [josm_adding_imagery_en.odt](/files/josm_adding_imagery_en.odt) nebo [josm_adding_imagery_en.pdf](/files/josm_adding_imagery_en.pdf)  
 > Zkontrolováno 9.9.2016  
 
 Všechny letecké snímky nejsou součástí menu **Podkladové mapy**, ale dají se jednoduše přidat, pokud na ně máte odkaz.  

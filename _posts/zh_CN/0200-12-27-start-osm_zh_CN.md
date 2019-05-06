@@ -9,8 +9,6 @@ category: beginner
 从OpenStreetMap.org入门
 ====================================
 
-> 本指南有[beginner_start-osm_zh_CN.odt](/files/beginner_start-osm_zh_CN.odt)和[beginner_start-osm_zh_CN.pdf](/files/beginner_start-osm_zh_CN.pdf)两种格式可供下载。  
-> 2015年7月12日修订  
 
 本节我们将一步步地学习如何转到
 OpenStreetMap网站、浏览地图以及注册账号。

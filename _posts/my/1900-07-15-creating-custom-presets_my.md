@@ -9,7 +9,6 @@ category: josm
 JOSM - သီးသန့်ပြင်ဆင်ထားသော Presets များကိုဖန်တီးခြင်း
 =======================
 
-> ဤလမ်းညွှန်ချက်ကို [creating-presets_my.odt](/files/creating-presets_my.odt) (သို့မဟုတ်)[creating-presets_my.pdf](/files/creating-presets_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2015-09-20  
 
 JOSM ဆော့ဖ်ဝဲလ်အတွင်းသို့ သီးသန့်ပြင်ဆင်ထားသော Presets menu ထည့်သွင်းခြင်းကို [ရှေ့သင်ခန်းစာ](/my/josm/josm-presets) ၌လေ့လာခဲ့ပြီးဖြစ်သည်။ ယခုသင်ခန်းစာတွင်ယင်း Presets ဖိုင်များဖန်တီးခြင်းကိုလေ့လာမည်ဖြစ်သည်။  

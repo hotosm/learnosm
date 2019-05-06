@@ -17,7 +17,6 @@ Základy
 
 ![Round Buildings][]  
 
-> Tento obrázek ![keymon]{: height="24px"} zobrazuje, zda bylo použito tlačítko, kolečko na myši, nebo byla zmáčknuta klávesa na klávesnici.   
 
 Hlavní body;  
 

@@ -11,8 +11,6 @@ category: mobile-mapping
 GPS Essentials
 ===================
 
-> ဤလမ်းညွှန်ချက်ကို [gps-essentials_my.odt](/files/gps-essentials_my.odt) (သို့မဟုတ်) [gps-essentials_my.pdf](/files/gps-essentials_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
-> Reviewed 2015-05-24  
 
 GPS Essentials တပ်ဆင်ခြင်း
 -------------

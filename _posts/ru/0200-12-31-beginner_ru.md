@@ -15,5 +15,4 @@ nosearch: true
 
 In later chapters you can learn how to go outside and collect information to put on the map. The coordination chapters contain information about **remote mapping**
 
-> This guide may be downloaded as [beginner_ru.odt](/files/beginner_ru.odt) or [beginner_ru.pdf](/files/beginner_ru.pdf)  
 

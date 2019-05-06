@@ -9,7 +9,6 @@ category: josm
 JOSM ဆော့ဖ်ဝဲလ်တွင်မြေပုံတည်းဖြတ်မှုပြုခြင်း
 ========================
 
-> ဤလမ်းညွှန်ချက်ကို [josm_more-about-josm_my.odt](/files/josm_more-about-josm_my.odt) (သို့မဟုတ်) [josm_more-about-josm_my.pdf](/files/josm_more-about-josm_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2015-07-12  
 
 JOSM ဆော့ဖ်ဝဲလ်ထည့်သွင်းခြင်း နှင့် အမှတ်၊ မျဉ်းကြောင်း၊ ပုံသဏ္ဍာန်တို့ရေးဆွဲခြင်းကို 

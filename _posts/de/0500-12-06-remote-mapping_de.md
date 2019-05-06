@@ -10,8 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
-> Diese Anleitung kann als [remote-mapping_de.odt](/files/remote-mapping_de.odt) oder als [remote-mapping_de.pdf](/files/remote-mapping_de.pdf) heruntergeladen werden  
-> Zuletzt geprüft 2015-09-18  
 
 Das Humanitarian OpenStreetMap Team (HOT) ist eine weltumspannende Gemeinschaft, die daran arbeitet, die Prinzipien von Open Source und Open Data Sharing (also lizenzfreier Quellen und Daten) auf die Bereiche humanitäre Hilfseinsätze und Entwicklungshilfe zu übertragen.  
 

@@ -9,8 +9,6 @@ category: beginner
 နိဒါန်း
 ============
 
-> ဤလမ်းညွှန်ချက်ကို [beginner_introduction_my.odt](/files/beginner_introduction_my.odt)   (သို့မဟုတ်) [beginner_introduction_my.pdf](/files/beginner_introduction_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
-> Reviewed 2015-07-12  
 
 သတင်းအချက်အလက်သည်စွမ်းအားကြီး၏။ကောင်းမွန်သောသတင်းအချက်အလက်ကို မှန်ကန်စွာ
 နားလည်ခြင်းဖြင့် လူတစ်ဦးချင်း သို့မဟုတ် လူ့အဖွဲ့အစည်းတို့တွင် နေထိုင်မှုဘဝပုံစံများဖွံ့ဖြိုးစေရန်နှင့်

@@ -9,8 +9,6 @@ category: beginner
 Více informací
 ===============
 
-> Tento návod může být stažen jako [beginner_moving-forward_cs.odt](/files/beginner_moving-forward_cs.odt) nebo [beginner_moving-forward_cs.pdf](/files/beginner_moving-forward_cs.pdf)  
-> Zkontrolováno 12.7.2015  
 
 Pokud jste se dostali až sem, gratulujeme! Měli byste mít dobré porozumění jak dělat mapy pomocí OpenStreetMap. Co jiného můžete dělat s OSM? Jak se naučit více? Jak můžete zůstat ve spojení s komunitou mapujících?  
 

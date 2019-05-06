@@ -35,7 +35,6 @@ Man klickt auf seinen Benutzernamen in der oberen rechte Ecke und dann auf **Cre
 
 ![TM Draw or Import][]
 
-> Der Import einer Datei mit einem definierten Gebiet ist dem händischen einzeichnen eines Gebietes für ein neues Tasking Manager Projekt immer vorzuziehen. Werkzeuge wie JOSM, QGIS etc. können zur Erstellung von Dateien zum Import in den Tasking Manager verwendet werden.
 
 #### Einzeichnen eines zu mappenden Gebietes
 

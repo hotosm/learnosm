@@ -10,7 +10,6 @@ GPSLogger für Android
 =====================
 
 Diese Anleitung kann heruntergeladen werden als [gpslogger_en.odt](/files/gpslogger_en.odt) oder [gpslogger_en.pdf](/files/gpslogger_en.pdf)  
-> Gereviewt am 2015-12-06  
 
 ![GPSLogger][]
 
@@ -20,7 +19,6 @@ Eine einfache, leichtgewichtige und minimalistische App zum Aufzeichnen von GPS 
 
 GPSLogger für Android ist ein frei verwendbare App und ein aktiv gepflegtes Open Source Projekt. Spenden werden gerne gesehen, um die App weiter zu verbessern. Falls man eingebunden werden möchte (z.B. zur Übersetzung in andere Sprachen, Fehlermeldungen oder für neue Features), kann man das [Repository](https://github.com/mendhak/gpslogger) besuchen.  
 
-> OpenGTS bezieht sich auf das [Open GPS Tracking System](http://opengts.sourceforge.net/) Projekt  
 
 
 Features

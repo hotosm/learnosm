@@ -9,7 +9,6 @@ category: josm
 Editare con JOSM
 ========================
 
-> Questa guida può essere scaricata come [josm_more-about-josm_it.odt](/files/josm_more-about-josm_it.odt) oppure [josm_more-about-josm_it.pdf](/files/josm_more-about-josm_it.pdf)  
 > Revisionato 2015-07-12  
 
 Nella sezione precedente

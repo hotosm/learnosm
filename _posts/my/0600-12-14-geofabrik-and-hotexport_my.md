@@ -9,8 +9,6 @@ category: osm-data
 Geofabrik အသုံးပြုခြင်းနှင့် HOT ထုတ်ယူခြင်း
 ================
 
-> ဤလမ်းညွှန်ချက်ကို [Geofabrik_and_HOT_Export_my.odt](/files/Geofabrik_and_HOT_Export_my.odt) (သို့မဟုတ်) [Geofabrik_and_HOT_Export_my.pdf](/files/Geofabrik_and_HOT_Export_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
-> Reviewed 2016-09-05  
 
 OpenStreetmap (OSM) တွင်ဘယ်လို data ထည့်မယ် ဘယ်လိုပြုပြင်မယ်ဆိုတာလေ့လာပြီးနောက် ယခု data တွေကို အရံ (back up) အဖြစ်ရယူချင်သည် (သို့မဟုတ်) Quantum GIS ([www.qgis.org](http://www.google.com/url?q=http%3A%2F%2Fwww.qgis.org%2F&sa=D&sntz=1&usg=AFQjCNFCIP2pVPi5ohw-5H7tJ4CzApRQlg)).ကဲ့သို့သော open source software လုပ်ငန်းလုပ်ဆောင်ကြည့်မည်ဆိုလျှင် ရကောင်းရနိုင်ပါသည်။  
 

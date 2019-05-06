@@ -10,8 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
-> Tento návod může být stažen jako [humanitarian_en.odt](/files/humanitarian_en.odt) nebo [humanitarian_en.pdf](/files/humanitarian_en.pdf)  
-> Zkontrolováno 2015-09-18
 
 Děkujeme za dobrovolnictví, abyste pomohli místním komunitám a organizacím poskytujícím pomoc reagovat na tuto krizi tím, že jim poskytnete aktualizované mapové údaje.  
 

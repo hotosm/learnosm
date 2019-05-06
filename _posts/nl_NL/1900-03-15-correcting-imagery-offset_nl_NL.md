@@ -9,7 +9,6 @@ category: josm
 Verschuiving van afbeeldingen
 ===============
 
-> Deze handleiding kan worden gedownload als  [correcting-imagery-offset_nl_NL.odt](/files/correcting-imagery-offset_nl_NL.odt) of [correcting-imagery-offset_nl_NL.pdf](/files/correcting-imagery-offset_nl_NL.pdf)  
 > Bijgewerkt 21-09-2015  
 
 Providers van afbeeldingen leveren meestal een goede prestatie bij het plaatsen van geoverwijzingen bij hun afbeeldingen, maar af en toe kunnen de afbeeldingen uit positie zijn. Dit is in het bijzonder waar voor heuvelachtige of bergachtige gebieden, waar het moeilijk kan zijn een platte afbeelding over een gebied op aarde met vele contouren uit te strekken. Wanneer u afbeeldingen in JOSM laadt, kan het soms tien meter of meer van zijn ware positie liggen. Dit wordt **verschuiving van de afbeelding** genoemd.  

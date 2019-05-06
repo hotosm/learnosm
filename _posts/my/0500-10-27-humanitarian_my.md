@@ -10,8 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
-> ဤလမ်းညွှန်ချက်ကို [humanitarian_my.odt](/files/humanitarian_my.odt) (သို့မဟုတ်) [humanitarian_my.pdf](/files/humanitarian_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
-> Reviewed 2015-09-18
 
 ဒေသခံပြည်သူလူထုကိုကူညီရန် စေတနာဖြင့်ကူညီပေးကြသူများ နှင့် ဤပဋိပက္ခနှင့်စပ်လျဉ်း၍ နောက်ဆုံးမြေပုံအချက်အလက်များ ပံ့ပိုးပေးကြသည့် အကူအညီပေးရေးအဖွဲ့အစည်းများကို ကျေးဇူးတင်ရှိပါသည်။   
 
