@@ -9,6 +9,8 @@ category: beginner
 术语表 
 ============
 
+> 本术语表处于不断更新之中，由众多包括 [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) 网站和 Will Skora 编写的指南在内的众多其他资料编纂而成。欢迎协助我们更新本表，有关向本站贡献的详情请参见 [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) 。 
+> 2015年7月18日修订  
 
 为了方便搜索本术语表，请使用浏览器内置的搜索功能。按住Ctrl键的同时按下F键 (通常称为 **Ctrl+F** )。  
 
