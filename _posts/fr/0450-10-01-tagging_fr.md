@@ -14,6 +14,7 @@ Tagging - iD editor
 
 ![tagging][]
 
+> Cette image !{ : height="24px"} vous montre quels clics ou molette de la souris ont été utilisés, et quels boutons du clavier ont été tapés.  
 
 Pourquoi les tags sont nécessaires
 -------------------

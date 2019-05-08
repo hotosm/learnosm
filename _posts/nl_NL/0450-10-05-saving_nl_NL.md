@@ -19,6 +19,7 @@ iD editor - opslaan
 
 ![saving][]
 
+> Deze afbeelding ![keymon]{: height="24px"} laat u zien welke knopen of wiel op een muis moet worden gebruikt, en welke toetsen op het toetsenbord moeten worden ingedrukt.  
 
 Klik op het pictogram ![save-icon]{: height="24px"}, controleer wat zal worden opgeslagen, voeg een opmerking voor de wijzigingenset toe (hashtag?) en klik dan op het pictogram ![upload]{: height="24px"} om uw wijzigingen op te slaan bij OpenStreetMap.  
 

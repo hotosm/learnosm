@@ -19,6 +19,7 @@ Nejdůležitější zásady
 
 ![TM Start][]
 
+> Tento obrázek ![keymon]{: height="24px"} ukazuje, která tlačítka nebo kolečko na myši byla použita, a která tlačítka klávesnice jsou stisknutá.  
 
 1. Přejděte na stránku Tasking Manager (TM), například <http://tasks.hotosm.org/>. Pomocí přihlašování <http://www.openstreetmap.org> autorizujte Tasking Manager přístup k vašemu účtu OpenStreetMap.  
 2. Začněte v projektu určeném pro nové mapovače - tyto projekty jsou často jen "budovy".  

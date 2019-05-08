@@ -17,6 +17,7 @@ De beginselen
 
 ![Round Buildings][]  
 
+> Deze afbeelding ![keymon]{: height="24px"} laat u zien welke knopen of wiel op een muis moet worden gebruikt, en welke toetsen op het toetsenbord moeten worden ingedrukt.  
 
 Punten om te onthouden;  
 

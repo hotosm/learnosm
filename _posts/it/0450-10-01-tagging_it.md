@@ -14,6 +14,7 @@ Tagging - iD editor
 
 ![tagging][]
 
+> Questa immagine ![keymon]{: height="24px"} mostra quali bottoni o rotellina del mouse è stata usata, e quale bottone della tastiera è stato pigiato.  
 
 Perchè sono necessari i tag?
 -------------------

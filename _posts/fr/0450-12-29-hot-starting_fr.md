@@ -19,6 +19,7 @@ Les points essentiels
 
 ![TM Start][]
 
+> Cette image ![keymon]{: height="24px"} vous montre quels boutons de la souris ont été utilisés et quelles touches du clavier ont été enfoncées.  
 
 1. Allez sur un site de gestion de tâches, par exemple <http://tasks.hotosm.org/>. Utilisez votre identifiant <http://www.openstreetmap.org>, autorisez le gestionnaire de tâches à accéder à votre compte OpenStreetMap.  
 2. Débutez sur un projet fait pour les nouveaux contributeurs - ce sont souvent des projets "Bâtiments seulement".  

@@ -19,6 +19,7 @@ category: hot-tips
 
 ![TM Start][]
 
+> 此圖像 ![keymon]{: height="24px"} 會顯示您使用了滑鼠上的哪些按鈕或滾輪，以及按下了哪些鍵盤按鈕。  
 
 1. 到任務分配管理器網站，像是 <http://tasks.hotosm.org/>。使用你的 <http://www.openstreetmap.org> 帳號登入，授權任務分配管理器連結開放街圖帳號。  
 2. 從設計給新圖客的專案開始動手－通常是'只有建築'的專案。  

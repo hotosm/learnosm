@@ -19,6 +19,7 @@ The Essentials
 
 ![TM Start][]
 
+> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
 
 1. Go to a Tasking Manager (TM) site, for example <http://tasks.hotosm.org/>. Using your <http://www.openstreetmap.org> login, authorise the Tasking Manager to access your OpenStreetMap account.  
 2.  Start on a project designed for new mappers - these are often 'buildings only' projects.  

@@ -19,6 +19,7 @@ Die Grundlagen
 
 ![TM Start][]
 
+> Dieses Bild ![keymon]{: height="24px"} zeigt, welche Maustaste oder welches Mausrad genutzt wurde und welche Taste auf der Tastatur gedrückt wurde  
 
 1. Gehen Sie zu einer Tasking Manager (TM) Seite, zum Beispiel <http://tasks.hotosm.org/>. Benutzen sie Ihre <http://www.openstreetmap.org> Anmeldeinformationen und autorisieren Sie den Tasking Manager, um Zugriff auf Ihren OpenStreetMap Account zu haben.  
 2. Beginnen Sie mit einem Projekt, dass sich an neue Mapper richtet - dieses sind meistens Projekte, bei denen nur Gebäude gemappt werden sollen.  

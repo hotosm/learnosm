@@ -17,6 +17,7 @@ Le basi
 
 ![Round Buildings][]  
 
+> Questa immagine ![keymon]{: height="24px"} ti mostra quali pulsanti del mouse sono stati usati e quali tasti della tastiera sono stati premuti.  
 
 Punti da tenere a mente:  
 

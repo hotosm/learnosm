@@ -17,6 +17,7 @@ category: hot-tips
 
 ![Round Buildings][]  
 
+> この画像 ![keymon]{: height="24px"} は、マウスのボタンやホイール、あるいはキーボードのどのキーを使えばよいかを表しています。  
 
 注意するポイント;  
 

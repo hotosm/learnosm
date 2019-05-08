@@ -12,6 +12,8 @@ Tracing rectangular buildings - iD editor
 - TOC
 {:toc}
 
+> Created 2016-10-30
+
 The Essentials
 ----------
 
