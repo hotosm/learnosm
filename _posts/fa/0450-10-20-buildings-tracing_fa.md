@@ -12,7 +12,6 @@ category: hot-tips
 - TOC
 {:toc}
 
-> This text may be ignored as it is no longer required and will not appear on the website.  
 > ایجاد شده در تاریخ ۱۳۹۵/۰۸/۰۹ -->  
 
 ملزومات

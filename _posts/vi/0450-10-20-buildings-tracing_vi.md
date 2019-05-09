@@ -12,8 +12,7 @@ Vẽ các toà nhà hình chữ nhật - iD editor
 - TOC
 {:toc}
 
-<!-- > Hướng dẫn này có thể tải tại đây[tm_starting_vi.odt](/files/tm_starting_vi.odt) or [tm_starting_vi.pdf](/files/tm_starting_vi.pdf)  
-> Created 2016-10-30  -->  
+> Created 2016-10-30  
 
 Các yếu tố cần thiết
 ----------

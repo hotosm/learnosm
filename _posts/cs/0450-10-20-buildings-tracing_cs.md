@@ -12,7 +12,6 @@ Vyznačení obdélníkových budov - iD editor
 - Obsah
 {:toc}
 
-> This text may be ignored as it is no longer required and will not appear on the website.  
 > Vytvořeno 2016-10-30 -->  
 
 Základy

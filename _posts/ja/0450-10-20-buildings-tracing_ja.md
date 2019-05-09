@@ -12,7 +12,6 @@ category: hot-tips
 - TOC
 {:toc}
 
-> このガイドは次の形式でダウンロードできます。 [tm_starting_ja.odt](/files/tm_starting_ja.odt) および [tm_starting_ja.pdf](/files/tm_starting_ja.pdf)  
 > Created 2016-10-30  -->  
 
 基礎
