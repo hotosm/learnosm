@@ -9,8 +9,8 @@ category: beginner
 Słowniczek 
 ============
 
->Ten słowniczek jest w trakcie ciągłego uzupełniania, a jest oparty na wielu innych źródłach uwzględniając stronę [Wiki OpenStreetMap](http://wiki.openstreetmap.org/wiki/Main_Page) i przewodnik napisany przez Will'iego Skora. Możesz pomóc nam uaktualniać go przeglądając [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md), aby dowiedzieć się jak wesprzeć tą stronę. 
-> Przejrzano 18.07.2015  
+> Ten słowniczek jest w trakcie ciągłego uzupełniania, a jest oparty na wielu innych źródłach uwzględniając stronę [Wiki OpenStreetMap](http://wiki.openstreetmap.org/wiki/Main_Page) i przewodnik napisany przez Will'iego Skora. Możesz pomóc nam uaktualniać go przeglądając [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md), aby dowiedzieć się jak wesprzeć tą stronę. 
+> Przejrzano 2015-07-18  
 
 Aby łatwo przeszukiwać ten Słowniczek, użyj funkcji wyszukiwania wbudowanej w Twoją przeglądarkę, przytrzymując klawisz control i naciskając klawisz f (zazwyczaj opisywane jako **Ctrl+f**)  
 
