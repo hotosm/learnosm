@@ -6,7 +6,6 @@ lang: nl
 category: mobile-mapping
 ---
 
-> Deze handleiding kan worden gedownload als [basicairdata_gpslogger_nl_NL.odt](/files/basicairdata_gpslogger_nl_NL.odt) of [basicairdata_gpslogger_nl_NL.pdf](/files/basicairdata_gpslogger_nl_NL.pdf)
 
 BasicAirData GPS-logger
 =======================

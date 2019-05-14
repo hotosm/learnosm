@@ -9,7 +9,6 @@ category: josm
 Het bewerkingsproces van JOSM
 ========================
 
-> Deze handleiding kan worden gedownload als [josm_more-about-josm_nl_NL.odt](/files/josm_more-about-josm_nl_NL.odt) of [josm_more-about-josm_nl_NL.pdf](/files/josm_more-about-josm_nl_NL.pdf)  
 > Bijgewerkt op 12-07-2015  
 
 In het eerdere gedeelte heeft u

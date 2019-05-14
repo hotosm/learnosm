@@ -9,7 +9,6 @@ category: josm
 Relazioni
 ==========
 
-> Questa guida può essere scaricata come [josm_relations_it.odt](/files/josm_relations_it.odt) oppure [josm_relations_it.pdf](/files/josm_relations_it.pdf)  
 > Revisionato il 2017-06-06  
 
 Nella [Guida per Principianti](/it/beginner) abbiamo spiegato che ci sono tre tipi di oggetti che possono essere disegnati in OpenStreetMap - punti (nodi), linee (way) e poligoni (aree). Le linee contengono numerosi punti e la linea stessa contiene gli attributi che definiscono cosa rappresenta.  I poligoni sono come le linee, con la differenza che la linea deve terminare dove è cominciata in modo da formare un'area.  

@@ -8,7 +8,6 @@ category: coordination
 
 # Gestionnaire de Tâches 3
 
-> Ce guide peut être téléchargé : [tasking-manager3_fr.odt](/files/tasking-manager3_fr.odt) ou [tasking-manager3_fr.pdf](/files/tasking-manager3_fr.pdf)  
 
 **Ce guide décrit la version actuelle du Gestionnaire de Tâches. Si l'interface utilisateur de la version que vous utilisez semble différente que celle décrite ici, vous devriez vous référer au [manuel de la version précédente](/fr/coordination/tasking-manager)**
 
@@ -203,7 +202,6 @@ Vous avez plusieurs options pour faire vos modifications à partir du moment où
 
 Lancez JOSM avant d'utiliser ce lien, et il chargera automatiquement les données existantes d'OSM dans JOSM.  
 
-> 1. Vous devez cocher « Activer le contrôle à distance » — vous le trouverez dans **Édition / Préférences / Contrôle à distance**
 > 2. Si vous avez installé le greffon « continuosDownload » précédemment, il vaut mieux le désactiver (décochez « Télécharger les données OSM continuellement » dans le menu **Fichier** de JOSM).  
 > 3. Si JOSM ne charge pas l'imagerie automatiquement, cela se trouve dans le menu **Imagerie**. [Plus d'info sur l'imagerie](/fr/josm/more-about-josm/#add-imagery)  
   

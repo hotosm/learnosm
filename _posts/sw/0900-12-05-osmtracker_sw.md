@@ -12,8 +12,6 @@ OSMTracker
 Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
 tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md). 
 
-> This guide may be downloaded as [OSMTracker_sw.odt](/files/OSMTracker_sw.odt) or [OSMTracker_sw.pdf](/files/OSMTracker_sw.pdf)  
-> Reviewed 2015-07-17
   
 **This article relates to OSMTracker for Android - there is a similar product available for windows mobile.**  
 OSMTracker allows the creation of a gpx trace of a journey, with the collection of 'waypoints' along the route. Voice recording, photographs and other notes may also be recorded, and all will be geolocated.

@@ -9,7 +9,6 @@ category: beginner
 Započeti s OpenStreetMap.org
 ============================
 
-> This guide may be downloaded as [beginner_start-osm_hr.odt](/files/beginner_start-osm_hr.odt) or [beginner_start-osm_hr.pdf](/files/beginner_start-osm_hr.pdf)
 
 U ovom djelu naučiti ćemo kako se snaći na OpenStreetMap web stranici, 
 pregledavati karte i registrirati se za korisnički račun. Kada dobijete 

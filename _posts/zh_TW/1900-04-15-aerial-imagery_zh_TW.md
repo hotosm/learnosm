@@ -9,7 +9,6 @@ category: josm
 空照圖
 ================
 
-> 此指南能以 [aerial-imagery_zh_TW.odt](/files/aerial-imagery_zh_TW.odt) 或 [aerial-imagery_zh_TW.pdf](/files/aerial-imagery_zh_TW.pdf) 下載  
 > 審閲於 2015-09-21  
 
 為開放街圖描繪影像是相當簡單和有力的貢獻方法。利用影像來畫地面上的點、線和形狀的工作稱作**數化**。數化常與實地收集資料的方法分開看待，稱做**實地探察**。數化影像能提供 OSM 地圖骨架，讓實地探察的人們更容易展開。在這一章我們將學到更多有關如何運用空照圖的方法。  

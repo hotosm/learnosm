@@ -9,8 +9,6 @@ category: beginner
 Kom i gang med OpenStreetMap.org
 ====================================
 
-> Denne guiden kan lastes ned som [beginner_start-osm_nb.odt](/files/beginner_start-osm_nb.odt) or [beginner_start-osm_nb.pdf](/files/beginner_start-osm_nb.pdf)  
-> Reviewed 2015-07-12  
 
 I denne delen vil vi lære steg for steg hvordan man navigerer
 OpenStreetMaps webside, ser på kart og lager en brukerkonto

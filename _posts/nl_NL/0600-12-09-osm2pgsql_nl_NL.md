@@ -9,7 +9,6 @@ category: osm-data
 osm2pgsql
 ==========
 
-> Deze handleiding kan gedownload worden als [osm2pgsql_nl_NL.odt](/files/osm2pgsql_nl_NL.odt) of [osm2pgsql_nl_NL.pdf](/files/osm2pgsql_nl_NL.pdf)  
 
 In het vorige hoofdstuk hebben we gezien hoe Postgresql met PostGIS in Windows in te stellen en hoe een database in te stellen en die te laden met gegevens uit een shapefile. U zou, om de gegevens van OpenStreetMap in een database te krijgen, de gegevens op moeten halen in de indeling shapefile en de shapefile-lader moeten gebruiken, maar dit zou misschien niet alle gegevens ophalen die u wilt. In dit hoofdstuk zullen we leren hoe **osm2pgsql** te gebruiken, een programma voor de opdrachtregel voor het laden van ruwe gegevens van OSM in een database van PostGIS.  
 
@@ -126,7 +125,6 @@ We kunnen testen of de import met succes is voltooid en de gegevens in onze data
 
 ![osm in qgis][]
 
-> Als u kijkt naar de attributentabellen van de lagen, zult u de attributen zien die zijn verbonden met tags van OSM. De specifieke tags die worden geïmporteerd zijn gedefinieerd gedurende het proces van importeren van **osm2pgsql**. Om specifieke tags, die niet standaard zijn opgenomen, toe te voegen, kunt u het *style*-bestand bewerken waarnaar osm2pgsql verwijst om het gegevensschema te definiëren.  
 
 
 Samenvatting

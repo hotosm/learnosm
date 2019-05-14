@@ -9,8 +9,6 @@ category: beginner
 引言
 ============
 
-> 本指南有[beginner_introduction_zh_CN.odt](/files/beginner_introduction_zh_CN.odt)和[beginner_introduction_zh_CN.pdf](/files/beginner_introduction_zh_CN.pdf)两种格式可供下载。  
-> 2015年8月22日修订  
 
 信息是强大的。有了好的信息和正确的 理解，人们可以更好地改善他们的生活、做出关于未来的优秀决策。有许多 人和机构会做着与我们生活息息相关的决策。优质的 信息使得这些NGO(非政府组织)、政府和居民做出更好的 决策，更有希望改善我们的生活。地图是 传递信息的一种良好方式。 
 

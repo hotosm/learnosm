@@ -9,8 +9,6 @@ category: osm-data
 Geofabrik en HOT Export gebruiken
 ================
 
-> Deze handleiding kan gedownload worden als  [Geofabrik_and_HOT_Export_nl_NL.odt](/files/Geofabrik_and_HOT_Export_nl_NL.odt) of [Geofabrik_and_HOT_Export_nl_NL.pdf](/files/Geofabrik_and_HOT_Export_nl_NL.pdf)  
-> Bijgewerkt 05-09-2016  
 
 Nadat u heeft geleerd gegevens toe te voegen en te bewerken in OpenStreetMap (OSM), wilt u nu misschien de gegevens verkrijgen als back-up of om verder te verwerken met behulp van software voor een Geografisch InformatieSysteem dat Open Source is, zoals QGIS ([www.qgis.org](http://www.qgis.org)).  
 

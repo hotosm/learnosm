@@ -9,8 +9,6 @@ category: beginner
 說明介紹
 ============
 
-> 此指南能以 [beginner_introduction_zh_TW.odt](/files/beginner_introduction_zh_TW.odt) 或 [beginner_introduction_zh_TW.pdf](/files/beginner_introduction_zh_TW.pdf) 下載  
-> 審閲於 2015-08-22  
 
 資訊就是力量。有了好的資訊以及正確 的認知，個人和社群能夠更有效的增進他們生活，以及對未來做出好的決策。許多 人和組織做出影響我們生活的決策。好 的資訊允許 NGO 組織、政府和公民做出更好的 決策，希望能讓我們有更好的生活。地圖就是良好 展現資訊的工具。 
 

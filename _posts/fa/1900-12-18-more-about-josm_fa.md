@@ -9,7 +9,6 @@ category: josm
 فرآیند ویرایش در JOSM
 ========================
 
-> این راهنما را می‌توان به صورت [josm_more-about-josm_fa.odt](/files/josm_more-about-josm_fa.odt) و یا [josm_more-about-josm_fa.pdf](/files/josm_more-about-josm_fa.pdf) دانلود کرد.  
 > تاریخ بازبینی ۱۳۹۴/۰۴/۳۱  
 
 در بخش قبل شما 

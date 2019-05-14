@@ -9,8 +9,6 @@ category: beginner
 Meer informatie
 ===============
 
-> Deze handleiding kan worden gedownload als [beginner_moving-forward_nl_NL.odt](/files/beginner_moving-forward_nl_NL.odt) of [beginner_moving-forward_nl_NL.pdf](/files/beginner_moving-forward_nl_NL.pdf)  
-> Bijgewerkt op 12-07-2015  
 
 Als u het tot zover hebt kunnen volgen, gefeliciteerd! U zou nu een goed begrip moeten hebben van hoe kaarten te maken met OpenStreetMap. Wat kunt u nog meer doen met OSM? Hoe kunt u nog meer leren? Hoe kan ik in verbinding blijven met de gemeenschap van mappers?  
 

@@ -10,7 +10,6 @@ published: true
 Primi passi con JOSM
 =============================  
 
-> Questa guida può essere scaricata come [josm_start-josm_it.odt](/files/josm_start-josm_it.odt) oppure [josm_start-josm_it.pdf](/files/josm_start-josm_it.pdf)  
 > Revisionato il 2015-07-12  
 
 Come scaricare e installare JOSM, l'editor scritto in Java di OpenStreetMap, modificare alcune impostazioni, caricare una mappa di esempio e

@@ -9,8 +9,6 @@ category: coordination
 Gegevens van OSM nakijken
 ==================
 
-> Deze handleiding kan worden gedownload als [review_nl_NL.odt](/files/review_nl_NL.odt) of [review_nl_NL.pdf](/files/review_nl_NL.pdf)  
-> Bijgewerkt op 24-04-2017  
 
 - Inhoud
 {:toc}

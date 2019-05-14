@@ -9,7 +9,6 @@ category: josm
 JOSM - Maßgeschneiderte Vorlagen erstellen
 =======================
 
-> Diese Anleitung kann heruntergeladen werden als [creating-presets_en.odt](/files/creating-presets_en.odt) oder [creating-presets_en.pdf](/files/creating-presets_en.pdf)  
 > Reviewed 2015-09-20  
 
 Im [vorherigen Kapitel](/de/josm/josm-presets) haben wir uns angeschaut, wie angepasste Vorlagenmenüs in JOSM hinzugefügt werden können. In diesem Kapitel werden wir behandeln, wie man eigene maßgeschneiderte Vorlagendateien erstellt.  

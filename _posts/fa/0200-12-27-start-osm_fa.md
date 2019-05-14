@@ -9,8 +9,6 @@ category: beginner
 شروع به کار در OpenStreetMap.org
 ====================================
 
->این راهنما را میتوان به صورت [beginner_start-osm_fa.odt](/files/beginner_start-osm_fa.odt) یا [beginner_start-osm_fa.pdf](/files/beginner_start-osm_fa.pdf) دانلود کرد  
-> تاریخ بازبینی ۱۳۹۴/۰۴/۲۱  
 
 در این بخش یاد خواهیم داد که چگونه گام به گام در وبسایت OpenStreetMap بچرخید، نقشه را ببینید و یک حساب کاربری ایجاد کنید. پس از اینکه نام کاربری و رمز مخصوص به خود را داشتید میتوانید تا گامهای ابتدایی مشارکت در نقشه را بردارید.
 

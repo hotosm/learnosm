@@ -6,7 +6,6 @@ lang: es
 category: mobile-mapping
 ---
 
-> Esta guía puede ser descargada como [basicairdata_gpslogger_es.odt](/files/basicairdata_gpslogger_es.odt) o [basicairdata_gpslogger_es.pdf](/files/basicairdata_gpslogger_es.pdf)  
 
 BasicAirData GPS Logger
 =======================

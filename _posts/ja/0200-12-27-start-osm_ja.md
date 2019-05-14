@@ -9,8 +9,6 @@ category: beginner
 OpenStreetMap.orgのはじめかた
 ====================================
 
-> このガイドは次の形式でダウンロードできます。 [beginner_start-osm_ja.odt](/files/beginner_start-osm_ja.odt) および [beginner_start-osm_ja.pdf](/files/beginner_start-osm_ja.pdf)  
-> 2018-12-05 レビュー  
 
 この章ではOpenStreetMapウェブサイトの使い方、例えばサイトの閲覧、印刷、ユーザアカウントの登録方法などを紹介します。このサイトでアカウントを登録することで、地図の上に最初のポイントが登録できるようになります。
 

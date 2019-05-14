@@ -17,4 +17,3 @@ hvordan du setter opp en konto, bruk av grunnleggende programvare, og senere vil
 for å samle inn informasjon til kartet. Koordineringskapittlene inneholder informasjon om [HOT Remote Mapping](/en/coordination/) 
 
 Denne veiledningen kan lastes ned som [beginner_nb.odt](/files/beginner_nb.odt) eller [beginner_nb.pdf](/files/beginner_nb.pdf)  
->Reviewed 2015-07-12  

@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager 3
 
-> Questa guida può essere scaricata come [tasking-manager3_it.odt](/files/tasking-manager3_it.odt) o come [tasking-manager3_it.pdf](/files/tasking-manager3_it.pdf)  
 
 **Questa guida descrive l'attuale versione del Tasking Manager. Se l'interfaccia utente della versione che vedi è differente da quella descritta qui allora dovresti consultare il [manuale della precedente versione](/it/coordination/tasking-manager)**
 
@@ -203,7 +202,6 @@ Nel momento in cui blocchi un task ti vengono presentate differenti possibilità
 
 Esegui JOSM prima di usare questo link in modo che carichi automaticamente i dati OSM dentro l'applicativo.  
 
-> 1. L'opzione 'Abilita controllo remoto' deve essere selezionata. Si trova sotto **Modifica / Preferenze / Controllo Remoto**
 > 2. Se hai precedentemente installato il plug-in 'continuosDownload' è meglio disabilitarlo (de-seleziona 'Download OSM Data continuously' nel menu **File** in JOSM).  
 > 3. Se JOSM non carica le immagini di sfondo automaticamente, puoi trovare la fonte di immagini nel menu **Immagini aeree**. [Maggiori informazioni sulle immagini qui](/it/josm/more-about-josm/#add-imagery)  
   

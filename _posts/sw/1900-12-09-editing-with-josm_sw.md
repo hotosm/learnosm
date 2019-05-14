@@ -6,7 +6,6 @@ lang: sw
 category: josm
 ---
 
-> Huu muongozo unaweza kupakuliwa kama  [josm_editing-with-josm_sw.odt](/files/josm_editing-with-josm_sw.odt) au [josm_editing-with-josm_sw.pdf](/files/josm_editing-with-josm_sw.pdf)  
 
 Kuhariri Taarifa za Kazi
 ==================

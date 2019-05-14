@@ -8,8 +8,6 @@ category: coordination
 
 # Einen Mapathon organisieren
 
-> Dieser Leitfaden kann heruntergeladen werden als [Manage_a_Mapathon_en.odt](/files/Manage_a_Mapathon_en.odt) oder [Manage_a_Mapathon_en.pdf](/files/Manage_a_Mapathon_en.pdf)  
-> Erstellt am 2017-01-30  
 
 - TOC
 {:toc}

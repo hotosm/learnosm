@@ -20,8 +20,6 @@ OSMデータの取得
 ### Metro Extracts
 [Michal Migurksiさん作のサイト](http://metro.teczno.com/)では、世界各地の都市のshapefileが配布されています。特定の都市のデータだけが必要な場合は、このデータが有用でしょう。ただし、このサイトは不定期更新なのが欠点といえます。
 
->Remember that features in OpenStreetMap have an unlimited number of "free" tags,
->but shapefiles have attributes stored in a limited number of columns. This means
 >that when OSM data is converted into shapefiles, only the specified tags will be
 >included in the shapefile table. The websites listed above provide shapefiles
 >with a default set of common tags, but if you want to extract specific tags

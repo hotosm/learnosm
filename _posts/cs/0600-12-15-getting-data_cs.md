@@ -9,8 +9,6 @@ category: osm-data
 Stahování dat z OSM
 =================  
 
-> Tento návod můžete stáhnout jako [Getting_OSM_Data_en.odt](/files/Getting_OSM_Data_en.odt) nebo [Getting_OSM_Data_en.pdf](/files/Getting_OSM_Data_en.pdf)  
-> Zkontrolováno 5.4.2016
 
 Pokud chcete získat nejnovější data z OpenStreetMap, nejjednodušším způsobem je stáhnout požadovanou oblast z webu. Existují různé webové služby, které poskytují tuto službu.  
 

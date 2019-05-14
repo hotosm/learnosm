@@ -9,7 +9,6 @@ category: josm
 Relace
 ==========
 
-> Tento návod můžete stáhnout jako [josm_relations_en.odt](/files/josm_relations_en.odt) nebo [josm_relations_en.pdf](/files/josm_relations_en.pdf)  
 > Zkontrolováno 6.6.2017  
 
 V kapitole [Příručka pro začátečníky](/cs/beginner) jsme si vysvětlili, že existují tři typy objektů, které můžete zakreslit do OpenStreetMap - body (uzly), přímky (cesty) a polygony (uzavřené cesty). Přímky obsahují několik bodů a atributy, které definují to, co reprezentují. Polygony jsou vpodstatě přímky, jen na rozdíl od nich musí končit tam kde začaly, aby vytvořili nějaký tvar.  

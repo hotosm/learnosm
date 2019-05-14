@@ -184,7 +184,6 @@ ou qui ne possèdent tout simplement pas de récepteur GPS.
 Vous avez deux manières d'envoyer vos traces : 1) le plugin JOSM ou
 2) le site web principal d'OSM.
 
-> Note : les waypoints GPS waypoints ne peuvent pas être envoyés directement 
 > dans la base OSM. Cependant, ils peuvent être convertis en traces et envoyés
 > temporairement, par exemple afin d'être utilisés comme couche de fond dans Potlatch.
 

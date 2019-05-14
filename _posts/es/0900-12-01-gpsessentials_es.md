@@ -11,8 +11,6 @@ category: mobile-mapping
 GPS Essentials
 ===================
 
-> Esta guía se puede descargar como [gps-essentials_es.odt](/files/gps-essentials_es.odt) o [gps-essentials_es.pdf](/files/gps-essentials_es.pdf)  
-> Revisada a 2015-05-24  
 
 Instalación de GPS Essentials
 -------------

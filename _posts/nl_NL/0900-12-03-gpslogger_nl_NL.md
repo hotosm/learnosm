@@ -9,8 +9,6 @@ category: mobile-mapping
 GPSLogger voor Android
 =====================
 
-> Deze handleiding kan worden gedownload als [gpslogger_nl_NL.odt](/files/gpslogger_nl_NL.odt) of [gpslogger_nl_NL.pdf](/files/gpslogger_nl_NL.pdf)  
-> Bijgewerkt 06-12-2015  
 
 ![GPSLogger][]
 

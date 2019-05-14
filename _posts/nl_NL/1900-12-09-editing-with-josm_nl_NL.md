@@ -9,7 +9,6 @@ category: josm
 Gegevens uit het veld bewerken
 ==================
 
-> Deze handleiding kan worden gedownload als [josm_editing-with-josm_nl_NL.odt](/files/josm_editing-with-josm_nl_NL.odt) of [josm_editing-with-josm_nl_NL.pdf](/files/josm_editing-with-josm_nl_NL.pdf)  
 > Bijgewerkt op 13-07-2015  
 
 We hebben nu alle bouwblokken voor het maken van kaarten met OpenStreetMap behandeld.

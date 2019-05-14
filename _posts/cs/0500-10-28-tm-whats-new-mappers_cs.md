@@ -9,7 +9,6 @@ date: 0500-10-21 13:00:00
 
 # Co je nového pro mapovače v Tasking Manageru 3
 
-> Tento návod může být stažen jako [tm3-news-for-mappers_en.odt](/files/tm3-news-for-mappers_en.odt) nebo [tm3-news-for-mappers_en.pdf](/files/tm3-news-for-mappers_en.pdf)  
 
 ## Váš uživatelský profil
 

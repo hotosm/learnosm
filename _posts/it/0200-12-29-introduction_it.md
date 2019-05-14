@@ -9,8 +9,6 @@ category: beginner
 Introduzione
 ============
 
-> Questa guida può essere scaricata come [beginner_introduction_it.odt](/files/beginner_introduction_it.odt) oppure [beginner_introduction_it.pdf](/files/beginner_introduction_it.pdf)  
-> Revisionato 2015-07-12  
 
 L’informazione è potere. Con buone informazioni e la giusta comprensione, individui e comunità possono migliorare le loro vite e prendere migliori decisioni per il futuro. Ci sono molte persone e organizzazioni che prendono decisioni che influenzano le nostre vite.  Una buona informazione permette a queste organizzazioni, governi o cittadini di prendere decisioni migliori e forse rendere migliori anche le nostre vite. Le mappe possono essere un buon modo per comunicare un’informazione. 
 

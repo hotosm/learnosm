@@ -9,7 +9,6 @@ category: coordination
 
 # جه جیز جدیدی در مدیریت وظایف ۳ برای نقشه‌کشها وجود دارد
 
-> این راهنما را می‌توان به صورت [tm3-news-for-mappers_fa.odt](/files/tm3-news-for-mappers_fa.odt) و یا [tm3-news-for-mappers_fa.pdf](/files/tm3-news-for-mappers_fa.pdf) دانلود کرد.  
 
 ## پروفایل کاربری شما
 

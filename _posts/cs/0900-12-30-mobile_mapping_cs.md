@@ -11,8 +11,6 @@ nosearch: true
 Mapování pomocí chytrého telefonu, GPSky nebo papíru
 =============================
 
-> Tento návod můžete stáhnout jako [mobile-mapping_en.odt](/files/mobile-mapping_en.odt) (anglicky) or [mobile-mapping_en.pdf](/files/mobile-mapping_en.pdf) (anglicky)  
-> Zkontrolováno 14-07-2015  
 
 K vytvoření detailních a přesných map musíte provézt průzkum přímo v oblasti, kterou chcete aktualizovat. Návody v této sekci vysvětlují průzkum pomocí;  
 

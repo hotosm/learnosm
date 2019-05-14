@@ -105,7 +105,6 @@ positionnées. Ce sont donc les images qui ne sont pas correctement
 géoréférencées, et qui sont donc décalées par rapport à la réalité. Ceci
 doit être ajusté.
 
-> Ne soyez par surpris parce que les différentes traces GPS ne sont pas
 > parfaitement superposées. La plupart des GPS ont une précision de 2 à
 > 5 mètres, ce qui est suffisant pour les routes puisqu'on ne conduit ou
 > marche pas au milieu de la route. Considérez que la route réelle se trouve

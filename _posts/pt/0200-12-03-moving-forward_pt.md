@@ -9,8 +9,6 @@ category: beginner
 Leitura Adicional
 ===============
 
-> Este guia pode ser descarregado no formato [beginner_moving-forward_pt.odt](/files/beginner_moving-forward_pt.odt) ou [beginner_moving-forward_pt.pdf](/files/beginner_moving-forward_pt.pdf)  
-> Revisto em 2015-07-12  
 
 Se chegou até aqui, parabéns! Já deve ter um bom entendimento de como fazer mapas com o OpenStreetMap. O que mais é possível fazer com o OSM? Como pode aprender mais? Como se manter ligado à comunidade de mapeadores?  
 

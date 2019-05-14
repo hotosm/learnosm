@@ -41,9 +41,7 @@ Ili kutumia Meneja muhundo wa HOT yakupasa kujiunga na OpenStreetMap ( OSM ) uki
 
 ### Ushauri & Neno la Kukupamoyo
 
->"Inashauriwa kujifunza zaidi kwa kuanza  eneo unalolijua na kuhariri, kama vile kuchora majengo yaliyopo eneo unaloishi."
 
->"Kazi nyingine ni rahisi kuliko nyingine; kama hujisikii kufanya mojawapo, unaweza ukaiacha na kujaribu nyingine." -Peter (@meetar) 
 
 >"Hamna tatizo kama hutamaliza kazi; unaweza kuupload kile ulichokifanya na kuifungua kazi ili wengine waifanyie kazi." -Peter (@meetar)  
 

@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager 3
 
-> Deze handleiding kan gedownload worden als  [tasking-manager3_nl_NL.odt](/files/tasking-manager3_nl_NL.odt) of [tasking-manager3_nl_NL.pdf](/files/tasking-manager3_nl_NL.pdf)  
 
 **Deze handleiding beschrijft de huidige versie van de Tasking Manager. Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [de handleiding voor de vorige versie](/nl_NL/coordination/tasking-manager) moeten consulteren**
 
@@ -203,7 +202,6 @@ Verschillende opties voor bewerken komen beschikbaar zodra u een taak vergrendel
 
 Start JOSM voordat u deze link gebruikt en de bestaande gegevens van OSM  zullen automatisch worden ingeladen in JOSM.  
 
->1. 'Afstandsbediening inschakelen' moet aan staan, dit kunt u vinden onder **Bewerken/Voorkeuren/Afstandsbediening**
 > 2. Als u de plug-in 'continuousDownload' hebt geïnstalleerd, kunt u die het beste uitschakelen (zet het vinkje uit bij 'Gegevens van OSM doorlopen downloaden' onder het menu **Bestand** in JOSM.  
 > 3. Als JOSM niet automatisch ook de satellietbeelden inlaadt, kunt u die vinden onder het menu **Afbeeldingen**. [Hier staat meer informatie over afbeeldingen](en/josm/more-about-josm/#add-imagery)  
   

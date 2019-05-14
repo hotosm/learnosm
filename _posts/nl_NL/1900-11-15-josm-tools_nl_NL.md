@@ -9,7 +9,6 @@ category: josm
 Gereedschappen om mee te bewerken in JOSM
 ==================
 
-> Deze handleiding kan worden gedownload als [josm_josm-tools_nl_NL.odt](/files/josm_josm-tools_nl_NL.odt) of [josm_josm-tools_nl_NL.pdf](/files/josm_josm-tools_nl_NL.pdf)  
 > Bijgewerkt op 09-06-2017  
 
 - TOC

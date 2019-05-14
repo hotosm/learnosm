@@ -9,7 +9,6 @@ category: beginner
 Der iD Editor
 =============
 
-> Diese Anleitung kann als [beginner_id-editor_de.odt](/files/beginner_id-editor_de.odt) oder als [beginner_id-editor_de.pdf](/files/beginner_id-editor_de.pdf) heruntergeladen werden.  
 Überprüft 2016-03-30  
 
 Wollen Sie gerade mit dem Tasking Manager ein Projekt für HOT oder MissingMaps bearbeiten? Schauen Sie doch einmal in unsere [HOT-tips](/de/hot-tips/).  
@@ -110,7 +109,6 @@ Um eine neue Linie hinzuzufügen, klicken Sie auf die Schaltfläche Linie. ![ima
 
 Eine "Linie" im iD-Editor ist eigentlich ein "Weg" mit "tags", also Attributen.
 
-> Ein Extrahinweis zum **Löschen**: Normalerweise sollten Sie das Löschen der Kartenbeiträge anderer vermeiden, wenn sie lediglich verbessert werden müssen. Sie können Ihre eigenen Fehler löschen, aber Sie sollten versuchen, die kartierten Objekte anderer *anzupassen*, wenn das nötig ist. Dies sichert die Geschichte von Gegenständen in der OSM-Datenbank und respektiert andere Kartierer. Wenn Sie wirklich der Auffassung sind, dass etwas gelöscht werden sollte, erwägen Sie, zuerst die Person zu kontaktieren oder auf einer der OSM Mailinglisten nachzufragen.
 
 ### Zeichnen von Flächen (Polygonen)
 

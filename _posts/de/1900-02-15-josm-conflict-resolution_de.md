@@ -9,7 +9,6 @@ category: josm
 JOSM Konflikt Behebung
 ====================
 
-> Diese Anleitungen kann heruntergeladen werden als [josm-conflict-resolution_en.odt](/files/josm-conflict-resolution_en.odt) oder [josm-conflict-resolution_en.pdf](/files/josm-conflict-resolution_en.pdf)  
 > Gereviewt am 2016-09-27  
 
 Wenn man mit JOSM arbeitet bekommt man manchmal, wenn man seine Änderungen hochlädt, eine Nachricht über Konflikte.  

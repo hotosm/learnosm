@@ -9,8 +9,6 @@ category: osm-data
 OSM ၏အချက်အလက်များအားရယူခြင်း
 =================  
 
-> ဤလမ်းညွှန်ချက်ကို [Getting_OSM_Data_my.odt](/files/Getting_OSM_Data_my.odt) (သို့မဟုတ်) [Getting_OSM_Data_my.pdf](/files/Getting_OSM_Data_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
-> Reviewed 2016-04-05
 
 မကြာသေးသောအချိန်ကာလမှ OpenStreetMap အချက်အလက်များကို သင်ရယူလိုသောအခါ အလွယ်ကူဆုံးနည်းလမ်းမှာ ဝက်ဘ်ဆိုက်ဒ် တစ်ခုမှ extract တစ်ခုကို Download လုပ်ယူရန်ဖြစ်သည်။ သင်ရွေးချယ်ထားသည့် နေရာဒေသတစ်ခုအတွက် Extract data များကို ဝန်ဆောင်မှုပေးနေသော ဝက်ဘ်ဆိုက်ဒ်များစွာရှိပါသည်။  
 

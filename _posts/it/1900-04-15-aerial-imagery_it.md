@@ -9,7 +9,6 @@ category: josm
 Immagini Aeree
 ================
 
-> Questa guida può essere scaricata come [aerial-imagery_it.odt](/files/aerial-imagery_it.odt) oppure [aerial-imagery_it.pdf](/files/aerial-imagery_it.pdf)  
 > Revisionato il 2017-07-25  
 
 Ricalcare immagini aeree è un modo semplice e potente di contribuire a OSM. Usare le immagini per disegnare punti, linee e forme è detto **digitizing** (digitalizzazione). Questa può anche essere separato dall'attività di raccolta di dati sul posto che è spesso chiamato **ground-truthing** (lavoro sul campo). Digitalizzare un'immagine può fornire lo scheletro delle mappe OSM, il che renderà più semplice l'attività delle persone sul campo. In questo capitolo impareremo qualcosa in più su come funzionano le immagini aeree.  

@@ -9,8 +9,6 @@ category: beginner
 iD Editor
 =============
 
-> Tento návod může být stažen jako [beginner_id-editor_cs.odt](/files/beginner_id-editor_cs.odt) nebo [beginner_id-editor_cs.pdf](/files/beginner_id-editor_cs.pdf)  
-> Zkontrolováno 2016-03-30  
 
 Začínáte mapovat pomocí Tasking Manageru pro HOT nebo MissingMaps atd.? Podívejte se na sekci [HOT-tipy](/cs/hot-tips/).  
 

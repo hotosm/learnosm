@@ -9,8 +9,6 @@ category: beginner
 深入阅读
 ===============
 
-> 本指南有[beginner_moving-forward_zh_CN.odt](/files/beginner_moving-forward_zh_CN.odt)和[beginner_moving-forward_zh_CN.pdf](/files/beginner_moving-forward_zh_CN.pdf)两种格式可供下载。  
-> 2015年7月12日修订  
 
 如果你读到了这里，祝贺你！你应该已经对如何利用OpenStreetMap制作地图有了不错的理解。还有什么可以在OSM做的吗？如何了解更多？如何与绘图者群体保持联络呢？  
 

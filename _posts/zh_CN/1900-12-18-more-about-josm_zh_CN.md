@@ -9,7 +9,6 @@ category: josm
 JOSM编辑过程
 ========================
 
-> 本指南有[josm_more-about-josm_zh_CN.odt](/files/josm_more-about-josm_zh_CN.odt) 和[josm_more-about-josm_zh_CN.pdf](/files/josm_more-about-josm_zh_CN.pdf) 两种格式可供下载。  
 > 2015年7月12日修订  
 
 在之前的小节中，

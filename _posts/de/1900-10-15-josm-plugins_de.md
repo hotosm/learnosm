@@ -9,7 +9,6 @@ category: josm
 JOSM-Erweiterungen
 ============
 
-> Diese Anleitung kann unter [josm-plugins_de.odt](/files/josm-plugins_de.odt) oder [josm-plugins_de.pdf](/files/josm-plugins_de.pdf) heruntergeladen werden  
 Geprüft 2015-07-14  
 
 Sobald Sie schon etwas Erfahrung im Bearbeiten von Karten haben, weden Sie daran interessiert sein, weitere Techniken kennenzulernen, die JOSM bereitstellt. In JOSM können zahlreiche Erweiterungen installiert werden, die zusätzliche Funktionen bereitstellen.  

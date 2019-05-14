@@ -9,7 +9,6 @@ category: osm-data
 Bewerken van gegevens met Osmosis
 ===============================
 
-> Deze handleiding kan gedownload worden als [osmosis_nl_NL.odt](/files/osmosis_nl_NL.odt) of [osmosis_nl_NL.pdf](/files/osmosis_nl_NL.pdf)  
 
 **Osmosis** is een krachtig gereedschap voor de opdrachtregel voor het bewerken en verwerken van ruwe gegevens voor **.osm**. Het wordt vaak gebruikt voor het verwerken van grote gegevensbestanden, voor het splitsen van bestanden van OSM in kleinere stukken, en voor het toepassen van een wijzigingenset om een bestaand bestand bij te werken.  
 

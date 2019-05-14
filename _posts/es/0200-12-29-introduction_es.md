@@ -9,8 +9,6 @@ category: beginner
 Introducción
 ============
 
-> Esta guía puede ser descargarda como [beginner_introduction_es.odt](/files/beginner_introduction_es.odt) o [beginner_introduction_es.pdf](/files/beginner_introduction_es.pdf)  
-> Revisado 2015-07-12  
 
 La información es poderosa. Con buena información y el correcto entendimiento, los individuos y las comunidades son más capaces de mejorar sus vidas y tomar buenas decisiones sobre el futuro. Hay muchas personas y organizaciones que toman decisiones que afectan nuestras vidas. Buena información permite a estas ONGs (organizaciones no gubernamentales), gobiernos y ciudadanos tomar mejores decisiones, y con suerte nos hacen la vida mejor. Los mapas son una buena manera de transmitir información. 
 

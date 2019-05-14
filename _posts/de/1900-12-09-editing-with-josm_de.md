@@ -9,7 +9,6 @@ category: josm
 Erfassen realer Objekte in JOSM
 ==================
 
-> Diese Anleitung kann unter [josm_editing-with-josm_de.odt](/files/josm_editing-with-josm_de.odt) oder [josm_editing-with-josm_de.pdf](/files/josm_editing-with-josm_de.pdf) heruntergeladen werden  
 > Geprüft 2015-07-13  
 
 Wir kennen jetzt die grundlegenden Techniken im Umgang mit OpenStreetMap.

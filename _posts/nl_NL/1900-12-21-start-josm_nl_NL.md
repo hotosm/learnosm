@@ -10,7 +10,6 @@ published: true
 Beginnen met JOSM
 =============================  
 
-> Deze handleiding kan worden gedownload als [josm_start-josm_n_NLl.odt](/files/josm_start-josm_nl_NL.odt) of [josm_start-josm_nl_NL.pdf](/files/josm_start-josm_nl_NL.pdf)  
 > Bijgewerkt op 12-07-2015  
 
 Deze handleiding leert je JOSM te downloaden en te installeren, instellingen aan te passen, een kaart te openen en

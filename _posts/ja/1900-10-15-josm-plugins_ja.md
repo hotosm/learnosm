@@ -222,7 +222,6 @@ they do not live in that area or they do not have access to a GPS
 devices, to help with digitizing. There are two ways to upload your
 traces: 1) JOSM Plugin or 2) on the main OSM website.
 
-> Note: GPS waypoints cannot be uploaded to the OSM database directly.
 > However, they can be converted to tracks and then be uploaded temporarily,
 > for example, so they can be displayed as background objects in Potlatch.
 

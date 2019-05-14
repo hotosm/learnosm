@@ -12,8 +12,6 @@ nosearch: true
 Coordenação
 ============
 
-> Este guia pode ser descarregado em [coordination_pt.odt](/files/coordination_pt.odt) ou [coordination_pt.pdf](/files/coordination_pt.pdf)  
-> Revisto em 2015-09-18
 
 Porque o OpenStreetMap envolve muitas pessoas a mapearem juntas, é útil saber como os utilizadores podem coordenar esta atividade.
 

@@ -9,7 +9,6 @@ category: josm
 Impostazioni predefinite di JOSM
 ============
 
-> Questa guida può essere scaricata come [josm-presets_it.odt](/files/josm-presets_it.odt) o [josm-presets_it.pdf](/files/josm-presets_it.pdf)  
 > Verificato il 2016-09-17  
 
 Se hai già usato un poco JOSM, ora conosci un poco di tag e di preset. Ogni oggetto è definito da due cose - primo, le sue coordinate geografiche (che sia un punto, una linea o un poligono), e secondo, i suoi attributi sotto forma di tags.  

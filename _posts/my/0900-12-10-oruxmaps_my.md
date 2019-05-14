@@ -9,8 +9,6 @@ category: mobile-mapping
 OruxMaps
 ===============
 
-> ဤ လမ်းညွှန်ချက်ကို [OruxMaps_my.odt](/files/OruxMaps_my.odt) (သို့မဟုတ်) [OruxMaps_my.pdf](/files/OruxMaps_my.pdf)တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
-> Reviewed 2016-08-04 နှင့် ယခုဖော်ပြချက်သည် out of date အနည်းငယ်ဖြစ်သော်လည်း application ၏လုပ်ဆောင်ချက်များမှာတူညီနေဆဲဖြစ်ပြီး ဆော့လ်ဖ်ဝဲလ်၏ မူရင်းအသုံးပြုသူလက်စွဲရှိရာ နေရာသို့ညွှန်ပြပေးသော link တစ်ခုလည်းပါဝင်ပါသည်။
 
 ဤအခန်းတွင် OruxMaps များပြုလုပ်နည်း၊ waypoints များဖန်တီးနည်း၊ tracklog ကြည့်နည်းနှင့် JOSM ထဲတွင် tracklog ကိုအသုံးပြုရန် export လုပ်နည်းတို့ကိုလေ့လာရမည်။  
 

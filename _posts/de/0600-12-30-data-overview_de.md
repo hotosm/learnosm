@@ -10,8 +10,6 @@ OSM Datenübersicht
 ==================
 
 
-> Diese Anleitung kann heruntergeladen werden als [OSM_Data_Overview_en.odt](/files/OSM_Data_Overview_en.odt) oder [OSM_Data_Overview_en.pdf](/files/OSM_Data_Overview_en.pdf)  
-> Gereviewt am 2016-09-05
 
 <!-- In diesem Abschnitt werden wir betrachten wie OpenStreetMap arbeitet, was und dabei hilft zu verstehen wie die Daten aufgebaut sind und wie wir es am besten nutzen.-->
 

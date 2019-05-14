@@ -12,7 +12,6 @@ Rechthoekige gebouwen traceren - iD editor
 - TOC
 {:toc}
 
-> This text may be ignored as it is no longer required and will not appear on the website.  
 > Gemaakt op 30-10-2016  -->  
 
 De beginselen
