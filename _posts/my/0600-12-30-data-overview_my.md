@@ -10,8 +10,6 @@ OSM ၏အချက်အလက်များအကြောင်းခြု�
 ==================
 
 
-> ဤ လမ်းညွှန်ချက်ကို   [OSM_Data_Overview_my.odt](/files/OSM_Data_Overview_my.odt) (သို့မဟုတ်) [OSM_Data_Overview_my.pdf](/files/OSM_Data_Overview_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
-> Reviewed 2016-09-05
 
 <!--In this section we'll consider how OpenStreetMap functions, which will help us to understand better how the data is structured, and how we can best utilize it.-->
 

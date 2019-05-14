@@ -10,8 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
-> Este guia pode ser descarregado como [humanitarian_pt.odt](/files/humanitarian_pt.odt) ou [humanitarian_pt.pdf](/files/humanitarian_pt.pdf)  
-> Revisto em 2015-09-18
 
 Obrigado por se voluntariar fornecendo dados de mapas atualizados para ajudar as comunidades locais e as Organizações de Auxílio que respondem a situações de emergência.  
 

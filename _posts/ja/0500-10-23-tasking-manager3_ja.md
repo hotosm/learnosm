@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager 3
 
-> このガイドは次の形式でダウンロードできます。 [tasking-manager3_ja.odt](/files/tasking-manager3_ja.odt) および [tasking-manager3_ja.pdf](/files/tasking-manager3_ja.pdf)  
 
 **このガイドは現行バージョンのTasking Managerについて解説を行っています。もしあなたが利用している画面がこのガイドと異なっている場合は、[以前のバージョンのマニュアル](/ja/coordination/tasking-manager)を参照するようにしてください。**
 
@@ -203,7 +202,6 @@ OpenStreetMapの編集を行い、変更をアップロードする際に、エ�
 
 このリンクを使う前にJOSMを起動しておき、そのJOSMにOSMデータを自動的に読み込みます。  
 
-> 1. JOSMで 'リモート操作を有効' 機能が有効化されている必要があります - 設定は **編集 / 設定 / リモート制御** にあります。
 > 2. 'continuousDownload' プラグインをインストールしている場合、プラグインを無効化したほうがよいでしょう (JOSMメニューの **ファイル** から 'Download OSM Data continuously' を無効化)  
 > 3. それでもJOSMが背景画像を自動的に読み込まない場合、**画像**メニューから画像を読み込んでください。 [背景画像に関するより詳しい情報はこちら](/ja/josm/more-about-josm/#add-imagery)  
   

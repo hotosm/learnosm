@@ -9,7 +9,6 @@ category: josm
 Conflicten oplossen in JOSM
 ====================
 
-> Deze handleiding kan gedownload worden als  [josm-conflict-resolution_nl_NL.odt](/files/josm-conflict-resolution_nl_NL.odt) of [josm-conflict-resolution_nl_NL.pdf](/files/josm-conflict-resolution_nl_NL.pdf)  
 > Bijgewerkt 27-09-2016  
 
 Soms werkt u in JOSM en wanneer u al uw prachtige bewerkingen uploadt, krijgt u een vervelend bericht dat klaagt over een conflict.  

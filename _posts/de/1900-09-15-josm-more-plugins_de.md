@@ -9,7 +9,6 @@ category: josm
 JOSM Gebäude Werkzeuge & Utilsplugin2 Plugins
 ============
 
-> Diese Anleitung kann heruntergeladen werden als [josm-more-plugins_en.odt](/files/josm-more-plugins_en.odt) oder [josm-more-plugins_en.pdf](/files/josm-more-plugins_en.pdf)  
 > Gereviewt am 2016-09-12  
 
 Die **buildings_tools** und *utilsplugin2* Plugins ergänzen JOSM um großartige Funktionen. In diesem Abschnitt schauen wir und die angebotenen Funktionen näher an.  

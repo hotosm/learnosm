@@ -10,7 +10,6 @@ category: beginner
 ==========
 
 
-> This guide may be downloaded as [beginner_introduction_ru.odt](/files/beginner_introduction_ru.odt) or [beginner_introduction_ru.pdf](/files/beginner_introduction_ru.pdf)  
 
 Информация – великая сила. С достоверной информацией и правильным пониманием,
 отдельные люди и сообщества имеют возможность улучшить собственную жизнь, а

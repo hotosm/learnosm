@@ -12,7 +12,6 @@ Rechteckige Gebäude zeichnen - iD editor
 - TOC
 {:toc}
 
-> Diese Anleitung kann als tm_starting_en.odt](/files/tm_starting_en.odt) oder [tm_starting_en.pdf](/files/tm_starting_en.pdf) heruntergeladen werden.  
 > Überprüft 2016-10-30 -->  
 
 Die Grundlagen

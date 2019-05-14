@@ -11,7 +11,6 @@ Débuter avec JOSM
 =============================  
 
 Ce guide peut être téléchargé à [josm_start-josm_fr.odt](/files/josm_start-josm_fr.odt) ou [josm_start-josm_fr.pdf](/files/josm_start-josm_fr.pdf)  
-> Examiné 2015-07-12  
 
 Comment télécharger et installer JOSM, changer les paramètres de l'éditeur Java OpenStreetMap, ouvrir une carte d'exemple et
 apprendre quelques opérations de base du logiciel. Vous vous rappelez dans le

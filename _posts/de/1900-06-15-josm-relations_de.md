@@ -9,7 +9,6 @@ category: josm
 Relationen
 ==========
 
-> Diese Anleitung kann heruntergeladen werden als [josm_relations_en.odt](/files/josm_relations_en.odt) oder [josm_relations_en.pdf](/files/josm_relations_en.pdf)  
 > Gereviewt am 2017-06-06  
 
 Im [Beginner’s Guide](/en/beginner) haben wir erklärt, dass es drei Arten von erzeugbaren Objekten in OpenStreetMap gibt - Punkte (Nodes), Linien (Wege) und Polygone (geschlossene Wege). Linien beinhalten ein Anzahl von Punkten und die Linie selbst trägt die Attribute, die definieren was sie repräsentiert. Polygone sind ähnlich wie Linien, mit der Ausnahme, dass sie dort enden müssen wo sie beginnen, um einen Umriss zu bilden.  

@@ -9,8 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> Esta guía puede ser descargada como [OSMTracker_es.odt](/files/OSMTracker_es.odt) o [OSMTracker_es.pdf](/files/OSMTracker_es.pdf)  
-> Revisado 2016-02-08
   
 **Este artículo se refiere a OSMTracker para Android - existe un producto similar disponible para Windows Mobile.**  
 OSMTracker permite crear una traza GPX de un viaje, con la colección de los 'puntos de ruta' a lo largo de la ruta. Grabaciones de voz, fotografías y otras notas también pueden ser registradas, y todas serán geolocalizadas.

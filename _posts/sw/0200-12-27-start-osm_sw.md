@@ -9,7 +9,6 @@ category: beginner
 Jinsi ya kuanza na OpenStreetMap.org
 ====================================
 
-> Huu muongozo unaweza kupakuliwa kama [beginner_start-osm_sw.odt](/files/beginner_start-osm_sw.odt) au [beginner_start-osm_sw.pdf](/files/beginner_start-osm_sw.pdf)
 
 Katika kipande hiki tutajifunza hatua kwa hatua namna ya kuzungusha 
 tovuti ya OpenStreetMap, kuangalia ramani, na kufungua akaunti ya 

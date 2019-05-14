@@ -9,7 +9,6 @@ category: josm
 JOSM - Tvorba vlastních předvoleb
 =======================
 
-> Tento návod můžete stáhnout jako [creating-presets_en.odt](/files/creating-presets_en.odt) or [creating-presets_en.pdf](/files/creating-presets_en.pdf)  
 > Zkontrolováno 20.9.2015  
 
 V [předchozí kapitole](/cs/josm/josm-presets) ja se nabídky vlastních předvoleb přidávají do JOSM. V této kapitole si vytvoříme vlastní soubor předvoleb.  

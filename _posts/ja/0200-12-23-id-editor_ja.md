@@ -9,8 +9,6 @@ category: beginner
 iD エディタ
 =============
 
-> このガイドは次の形式でダウンロードできます。 [beginner_id-editor_ja.odt](/files/beginner_id-editor_ja.odt) および [beginner_id-editor_ja.pdf](/files/beginner_id-editor_ja.pdf)  
-> 2018/12/05 レビュー  
 
 HOTやMissingMapsなどでTasking Managerを利用する際には、[HOT TIPSセクション](/ja/hot-tips/)も参照してください。  
 

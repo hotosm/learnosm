@@ -9,7 +9,6 @@ category: josm
 Der Ablauf beim Editieren mit JOSM
 ========================
 
-> Diese Anleitung kann unter  [josm_more-about-josm_de.odt](/files/josm_more-about-josm_de.odt) oder [josm_more-about-josm_de.pdf](/files/josm_more-about-josm_de.pdf) heruntergeladen werden.  
 > Geprüft 2015-07-12  
 
 Im vorhergehenden Abschnitt haben Sie 

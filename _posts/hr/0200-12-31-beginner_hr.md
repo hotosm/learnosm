@@ -17,5 +17,4 @@ In later chapters you can learn how to go outside and collect information to put
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**
 
-> This guide may be downloaded as [beginner_hr.odt](/files/beginner_hr.odt) or [beginner_hr.pdf](/files/beginner_hr.pdf)  
 

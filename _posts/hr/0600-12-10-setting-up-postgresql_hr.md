@@ -51,8 +51,6 @@ extensions.  This is fairly easy to setup using the One-Click Installer.
 	user has superuser privileges, meaning that they can do whatever they want, so don’t forget
 	the password that you use!
 
->	You can create as many databases as you want using Postgresql.  You might want a database for
->	your geographic data, and separate databases for other projects that you are working on.  And
 >	you may want different people to have different types of access to these databases.  For this
 >	purpose, every database that you create uses the concept of **users** and **roles**.  A database must
 >	always be owned by a user, and usually that user will need a password in order to make changes

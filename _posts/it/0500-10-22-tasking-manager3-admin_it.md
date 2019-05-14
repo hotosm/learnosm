@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager OSM - Creazione ed Amministrazione di un Progetto
 
-> Questa guida può essere scaricata come modulo a se' stante: [tasking-manager3-admin_it.odt](/files/tasking-manager3-admin_it.odt) oppure  [tasking-manager3-admin_it.pdf](/files/tasking-manager3-admin_it.pdf) 
 
 **Questa guida descrive l'attuale versione del Tasking Manager. Se l'interfaccia utente della versione che stai usando è differente da quella descritta qui allora dovresti consultare il [manuale della precedente versione](/it/coordination/tasking-manager-project-admin)**
 
@@ -52,7 +51,6 @@ Per creare nuovi progetti usando TM3 hai bisogno del livello di accesso Project 
 
 Clicca sul tuo nome utente nell'angolo superiore destro, poi **Crea un nuovo progetto.** Tu potrai poi scegliere tra il disegnare sulla mappa l'area interessata (Aol), o importare un'area di interesse da un file geojson;   
 
-> È sempre preferibile importare un file con un area definita piuttosto che disegnare a mano un progetto del Tasking Manager. Per creare questi file da importare nel Tasking Manager, possono essere usati strumenti come JOSM, QGIS, ecc. La sequenza suggerita è creare un file .osm dell'AOI con JOSM e poi usare http://geojson.io/ per generare un GeoJSON.
 
 ### Disegna un'area di interesse da mappare
 

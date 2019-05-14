@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager 3
 
-> Diese Anleitung kann unter [tasking-manager3_de.odt](/files/tasking-manager3_de.odt) oder [tasking-manager3_de.pdf](/files/tasking-manager3_de.pdf) heruntergeladen werden  
 
 **Diese Anleitung beschreibt die aktuelle Version des Tasking Managers. Wenn sich die Benutzeroberfläche der Version, die Sie benutzen, von der hier beschriebenen unterscheidet, lesen Sie bitte [das Handbuch zur vorherigen Version}/de/coordination/tasking-manager)**
 
@@ -203,7 +202,6 @@ Sobald Sie eine Aufgabe für sich reserviert haben, stehen Ihnen verschiedene M�
 
 Wenn Sie JOSM starten, bevor Sie diese Auswahl aktivieren, werden die bereits vorhandenen Daten automatisch in JOSM geladen.  
 
-> 1. 'Fernsteuerung aktivieren' muss dazu in JOSM unter **Bearbeiten / Einstellungen / Fernsteuerung** angekreuzt sein
 > 2. Wenn Sie früher das “continuousDownload”-Plugin aktiviert haben sollten Sie besser den entsprechenden Menüeintrag im Datei-Menü deaktivieren  
 > 3. Wenn in JOSM die Hintergrundbilder nicht automatisch geladen werden, müssen Sie das manuell im **Hintergrundbild**-Menü erledigen [nähere Informationen dazu finden Sie hier](/de/josm/more-about-josm/#add-imagery)  
   

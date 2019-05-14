@@ -9,7 +9,6 @@ category: josm
 Scostamento delle immagini
 ===============
 
-> Questa guida può essere scaricata come  [correcting-imagery-offset_it.odt](/files/correcting-imagery-offset_it.odt) o [correcting-imagery-offset_it.pdf](/files/correcting-imagery-offset_it.pdf)  
 > Revisionato 2017-09-15  
 
 I fornitori di foto aeree o satellitari normalmente fanno un buon lavoro nel georeferenziare le immagini, ma a volte queste immagini possono risultare leggermente traslate. Questo accada più spesso in aree collinari o montuose, dove può essere difficoltoso stirare un'immagine piatta su un'area con molti sbalzi di altitudine. Quando tu carichi una di queste immagini in JOSM, a volte in alcuni punti possono esserci scostamenti di 10 o più metri. Questo è chiamato **imagery offset** (scostamento dell'immagine).  

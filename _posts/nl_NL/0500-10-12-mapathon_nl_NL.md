@@ -8,8 +8,6 @@ category: coordination
 
 # Een mapathon beheren
 
-> Deze handleiding kan gedownload worden als [Manage_a_Mapathon_nl_NL.odt](/files/Manage_a_Mapathon_nl_NL.odt) of [Manage_a_Mapathon_nl_NL.pdf](/files/Manage_a_Mapathon_nl_NL.pdf)  
-> Gemaakt op 30-01-2017  
 
 - Inhoud
 {:toc}

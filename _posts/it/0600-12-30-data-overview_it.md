@@ -10,8 +10,6 @@ category: osm-data
 ==================
 
 
-> Questa guida può essere scaricata come [OSM_Data_Overview_it.odt](/files/OSM_Data_Overview_it.odt) oppure [OSM_Data_Overview_it.pdf](/files/OSM_Data_Overview_it.pdf)  
-> Rivisto il 2017-07-25
 
 <!--In questa sezione vedremo come funziona OpenStreetMap , questo ci aiuterà a capire bene come sono strutturati i dati e come possiamo utilizzarli al meglio. -->
 

@@ -9,8 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> Deze handleiding kan worden gedownload als [OSMTracker_nl.odt](/files/OSMTracker_nl_NL.odt) of [OSMTracker_nl_NL.pdf](/files/OSMTracker_nl_NL.pdf)_NL  
-> Bijgewerkt op 08-02-2016
   
 **Dit artikel beschrijft OSMTracker voor Android - er is een soortgelijk product beschikbaar voor Windows mobile.**  
 OSMTracker maakt het maken van een GPX-spoor voor een reis mogelijk, met het verzamelen van 'waypoints' langs de route. Geluid, foto's en andere notities kunnen ook worden opgenomen, en zullen allemaal worden voorzien van geoverwijzingen.

@@ -11,8 +11,6 @@ nosearch: true
 Příručka pro začátečníky
 ================
 
-> Tento návod může být stažen jako [beginner_en.odt](/files/beginner_en.odt) nebo [beginner_en.pdf](/files/beginner_en.pdf)  
-> Kontrolováno 2015-07-12  
 
 Tento návod vám krok za krokem ukáže, jak začít s OpenStreetMap. Naučíte se jak si založit účet, jak používat základní programy na editování, a nakonec se naučíte, jak vyrazit ven a shromažďovat informace, které je třeba umístit na mapu. 
 

@@ -9,7 +9,6 @@ category: josm
 JOSM ဆော့လ်ဖ်ဝဲလ်မှ Building Tools နှင့် Utilsplugin2 plugins တို့ကိုလေ့လာခြင်း
 ============
 
-> ဤလမ်းညွှန်ချက်ကို [josm-more-plugins_my.odt](/files/josm-more-plugins_my.odt) (သို့မဟုတ်) [josm-more-plugins_my.pdf](/files/josm-more-plugins_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2016-09-12  
 
 ယခုသင်ခန်းစာတွင် JOSM ဆော့လ်ဖ်ဝဲလ်၏လုပ်ဆောင်မှုစွမ်းရည်ကိုဖြည့်စွက်တိုးမြှင့်ပေးသော plugins နှစ်မျိုး၏လုပ်ဆောင်မှုများကို အသေးစိတ်လေ့လာကြမည်ဖြစ်သည်။ ယင်းတို့မှာ**buildings_tools** နှင့် **utilsplugin2** တို့ဖြစ်ကြသည်။  

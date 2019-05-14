@@ -42,7 +42,6 @@ Prvi korak uređivanja je preuzimanje podataka za područje u svijetu koje želi
     kao vaš rodni grad ili susjedstvo. Kartom upravljate kao i glavnom kartom u 
     JOSM-u. Desnom tipkom miša pomičete kartu, a kotačićem kartu približavate i udaljavate. 
 
->	Ponekad, ako radite na prijenosnom računalu, može biti teško
 >	manipulirati s kartom. Rad u JOSM-u je puno lakši ako imate miša,
 >	ali većina modernih prijenosnika vam omogućava pomicane karte pomoću touchpada
 

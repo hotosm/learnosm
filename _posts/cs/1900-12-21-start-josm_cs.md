@@ -10,7 +10,6 @@ published: true
 Začínáme s JOSM
 =============================  
 
-> Tento návod může být stažen jako soubor [josm_start-josm_en.odt](/files/josm_start-josm_en.odt) nebo [josm_start-josm_en.pdf](/files/josm_start-josm_en.pdf)  
 > Zkontrolováno 12.7.2015  
 
 Jak stahovat a instalovat JOSM, Javovský editor mapy OpenStreetMap, změnit některá nastavení, otevřít ukázkovou mapu a

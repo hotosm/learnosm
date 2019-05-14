@@ -9,7 +9,6 @@ category: josm
 JOSM - Aggiungere immagini aeree
 ================
 
-> Questa guida può essere scaricata come [josm_adding_imagery_it.odt](/files/josm_adding_imagery_it.odt) oppure [josm_adding_imagery_it.pdf](/files/josm_adding_imagery_it.pdf)  
 > Revisionato il 2017-09-05  
 
 Non tutte le immagini aeree sono incluse nel menu immagini aeree di JOSM, ma è semplice aggiungerle se ti è stato dato il link.  

@@ -9,7 +9,6 @@ category: josm
 JOSM 修改流程
 ========================
 
-> 這份指南可以到 [josm_more-about-josm_zh_TW.odt](/files/josm_more-about-josm_zh_TW.odt) 或是 [josm_more-about-josm_zh_TW.pdf](/files/josm_more-about-josm_zh_TW.pdf) 下載  
 > Reviewed 2015-07-12  
 
 在前面的章節，

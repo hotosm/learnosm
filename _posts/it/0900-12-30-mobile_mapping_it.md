@@ -11,8 +11,6 @@ nosearch: true
 Creare una mappa con smartphone, GPS o carte stampate
 =============================
 
-> Questa guida può essere scaricata come [mobile-mapping_it.odt](/files/mobile-mapping_it.odt) oppure [mobile-mapping_it.pdf](/files/mobile-mapping_it.pdf)  
-> Revisionato il 2015-07-14  
 
 Per creare una mappa dettagliata e accurata devi fare una ricognizione dell'area da aggiornare. Le guide di questa sezione ti aiuteranno ad organizzare una ricognizione utilizzando  
 

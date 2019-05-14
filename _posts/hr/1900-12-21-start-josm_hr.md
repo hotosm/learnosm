@@ -39,7 +39,6 @@ Preuzimanje JOSM softvera
 Instaliranje JOSM-a
 -------------------
 
->  Možda ćete imati problema instalirati JOSM ako Java već nije
 >  instalirana na vašem računalu. Ako imate problema u ovom dijelu, 
 >  pokušajte preuzeti i instalirati Javu. Možete je preuzeti ovdje:
 >  [http://www.java.com/en/download/](http://www.java.com/en/download/)

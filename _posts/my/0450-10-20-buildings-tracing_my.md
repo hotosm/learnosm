@@ -12,7 +12,6 @@ category: hot-tips
 - TOC
 {:toc}
 
-> This text may be ignored as it is no longer required and will not appear on the website.  
 > Created 2016-10-30  -->  
 
 အခြေခံလိုအပ်ချက်များ

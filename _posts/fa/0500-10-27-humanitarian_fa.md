@@ -10,7 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
-> این راهنما را می‌توان به صورت [humanitarian_fa.odt](/files/humanitarian_fa.odt) و یا [humanitarian_fa.pdf](/files/humanitarian_fa.pdf) دانلود کرد.  
 تاریخ بازبینی ۱۳۹۴/۰۶/۱۷
 
 از شما به خاطر پیوستن به داوطلبین کمک به جوامع محلی و سازمانهای امدادگر که در بحرانها وارد عمل می‌شوند و ارائه نقشه به روز به آنها متشکریم.  

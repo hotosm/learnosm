@@ -9,7 +9,6 @@ category: josm
 編輯田野資料
 ==================
 
-> 此指南能以 [josm_editing-with-josm_zh_TW.odt](/files/josm_editing-with-josm_zh_TW.odt) 和[josm_editing-with-josm_zh_TW.pdf](/files/josm_editing-with-josm_zh_TW.pdf) 下載  
 > 審閲於 2015-07-13  
 
 現在我們已經講完要如何在開放街圖繪製建築。

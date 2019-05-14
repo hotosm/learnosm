@@ -9,8 +9,6 @@ category: coordination
 လမ်းများ၊ အဆောက်အဦးများ၊ ရေနှင့် မြေအသုံးချမှုများကို ရှာဖွေခြင်း
 ===========================================
 
-> ဤလမ်းညွှန်ချက်ကို [remote-tracing_my.odt](/files/remote-tracing_my.odt) (သို့မဟုတ်) [remote-tracing_my.pdf](/files/remote-tracing_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
-> Reviewed 2016-02-08  
 
 အကယ်၍ သင်သည် HOT အတွက်မြေပုံရေးဆွဲခြင်းအတွေ့အကြုံမရှိပါက သင်လိုအပ်မည့် [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) အပိုင်းမှ လိုက်နာလုပ်ဆောင်ခြင်း။  
 

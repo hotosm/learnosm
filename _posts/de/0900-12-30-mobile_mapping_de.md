@@ -12,7 +12,6 @@ Kartierung mit Smartphone, GPS oder Field Paper
 =============================
 
 Diese Anleitung kann als [mobile-mapping_de.odt](/files/mobile-mapping_de.odt) oder [mobile-mapping_de.pdf](/files/mobile-mapping_de.pdf) heruntergeladen werden  
-> Geprüft 2015-07-14  
 
 Um eine wirklich genaue Karte zu erstellen müssen Sie das betreffende Gebiet vermessen. Die Anleitungen in diesem Kapitel erklären Ihnen, wie Sie das erreichen können:  
 
@@ -63,5 +62,4 @@ O - unterstützt, D - in Entwicklung, m - Kartieren, n - Navigation, p - POI Edi
 
 In den nächsten Abschnitten führen wir Sie durch die Installation und die Bedienung von verschiedenen Anwendungen, mit denen Sie von Ihrem Smartphone an OpenStreetMap mitwirken können.
 
-> **Achtung:** Bevor Sie weiterlesen, stellen Sie sicher, dass Ihr Gerät über einen GPS-Empfänger verfügt und dass dieser aktiviert ist.  
 > Denken Sie daran, dass GPS nicht innerhalb von Gebäuden funktioniert!

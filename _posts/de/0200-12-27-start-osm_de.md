@@ -9,7 +9,6 @@ category: beginner
 Einstieg in OpenStreetMap.org
 ====================================
 
-> Diese Anleitung kann als [beginner_start-osm_de.odt](/files/beginner_start-osm_de.odt) oder als [beginner_start-osm_de.pdf](/files/beginner_start-osm_de.pdf) heruntergeladen werden  
 Geprüft am 2015-07-12  
 
 In diesem Abschnitt lernen wir Schritt für Schritt wie man sich auf der OpenStreetMap-Webseite zurechtfindet, Karten betrachtet und ein Benutzerkonto anlegt. Sobald Sie ein Benutzerkonto und Passwort besitzen, können Sie Ihre ersten Beiträge zur Karte leisten.

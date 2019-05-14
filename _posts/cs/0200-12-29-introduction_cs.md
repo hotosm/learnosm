@@ -9,8 +9,6 @@ category: beginner
 Úvod
 ============
 
-> Tento návod si můžete stáhnout jako [beginner_introduction_cs.odt](/files/beginner_introduction_cs.odt) nebo [beginner_introduction_cs.pdf](/files/beginner_introduction_cs.pdf)  
-> Zkontrolováno 12.7.2015  
 
 Informace jsou mocné. Se správnými informacemi a správným porozuměním mohou jednotlivci i skupiny snáz zlepšit své životy a dobře rozhodovat o své budoucnosti. Je hodně lidí a organizací, co svými rozhodnutími ovlivňují náš život. Dobré informace pomáhají nevládním organizacím, státním úřadům a občanům dělat lepší rozhodnutí, a doufejme že i trochu zlepšit naše životy. Mapy jsou jedním z efektivních způsobů předávání informací. 
 

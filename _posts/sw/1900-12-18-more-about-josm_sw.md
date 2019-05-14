@@ -6,7 +6,6 @@ lang: sw
 category: josm
 ---
 
-> Huu muongozo unaweza kupakuliwa kama  [josm_more-about-josm_sw.odt](/files/josm_more-about-josm_sw.odt) au [josm_more-about-josm_sw.pdf](/files/josm_more-about-josm_sw.pdf)  
 > Kifungu hiki kya LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
 tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md).  
 

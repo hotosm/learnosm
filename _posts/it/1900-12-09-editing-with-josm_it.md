@@ -9,7 +9,6 @@ category: josm
 Editare i dati
 ==================
 
-> Questa guida può essere scaricata come [josm_editing-with-josm_it.odt](/files/josm_editing-with-josm_it.odt) oppure [josm_editing-with-josm_it.pdf](/files/josm_editing-with-josm_it.pdf)  
 > Reviewed 2015-07-13  
 
 Abbiamo finora coperto tutti i passi base di mappatura con OpenStreetMap.

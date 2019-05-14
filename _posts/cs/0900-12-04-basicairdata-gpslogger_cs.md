@@ -6,7 +6,6 @@ lang: cs
 category: mobile-mapping
 ---
 
-> Tento návod můžete stáhnout jako [basicairdata_gpslogger_en.odt](/files/basicairdata_gpslogger_en.odt) nebo [basicairdata_gpslogger_en.pdf](/files/basicairdata_gpslogger_en.pdf) 
 
 BasicAirData GPS Logger
 =======================

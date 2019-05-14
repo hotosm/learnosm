@@ -11,8 +11,6 @@ category: mobile-mapping
 GPS Essentials
 ===================
 
-> Deze handleiding kan worden gedownload als [gps-essentials_nl_NL.odt](/files/gps-essentials_nl_NL.odt) of [gps-essentials_nl_NL.pdf](/files/gps-essentials_nl_NL.pdf)  
-> Bijgewerkt op 24-05-2015  
 
 Installeren van GPS Essentials
 -------------

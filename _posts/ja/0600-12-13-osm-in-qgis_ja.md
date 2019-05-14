@@ -45,8 +45,6 @@ OpenStreetMapデータの取得と表示
 
 -   指定した場所にOSMデータが保存されています。
 
->   この方法は、JOSMや[openstreetmap.org](http://www.openstreetmap.org)を使ってダウンロードを行う方法と同じです。
->   広範囲の最新データをダウンロードする場合、[HOT export site](http://export.hotosm.org)や[bbbike.org](http://extract.bbbike.org/)を使用してください。
 >   また、こうしたサイトからデータをダウンロードした場合、QGISで読み込む前にそのデータを解凍しておく必要があります。
 
 SQLiteへのデータインポート

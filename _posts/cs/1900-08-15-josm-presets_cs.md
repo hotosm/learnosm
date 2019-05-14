@@ -9,7 +9,6 @@ category: josm
 Předvolby JOSM
 ============
 
-> Tento návod můžete stáhnout jako [josm-presets_en.odt](/files/josm-presets_en.odt) nebo [josm-presets_en.pdf](/files/josm-presets_en.pdf)  
 > Zkontrolováno 17.9.2016  
 
 Pokud používáte JOSM dlouho, tak už trochu rozumíte tagům a předvolbám. Každý objekt je definován dvěma věcmi - geometrií (ať už je to bod, čára nebo tvar a jeho poloha) a jeho atributy, které se nastavují formou tagů.  

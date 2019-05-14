@@ -9,7 +9,6 @@ category: josm
 Relaties
 ==========
 
-> Deze handleiding kan gedownload worden als [josm_relations_nl_NL.odt](/files/josm_relations_nl_NL.odt) of [josm_relations_nl_NL.pdf](/files/josm_relations_nl_NL.pdf)  
 > Bijgewerkt op 06-06-2017  
 
 In de [Handleiding voor beginners](/nl_NL/beginner) legden we uit dat er drie typen objecten zijn die in OpenStreetMap kunnen worden getekend - punten (knopen), lijnen (wegen), en polygonen (gesloten wegen). Lijnen bevatten ontelbare punten en de lijn zelf draagt de attributen die definiëren wat het weergeeft. Polygonen zijn hetzelfde als lijnen, met uitzondering van het feit dat de lijn moet eindigen waar hij begint om een vorm te kunnen vormen.  

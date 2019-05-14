@@ -9,7 +9,6 @@ category: josm
 JOSM ဆော့လ်ဖ်ဝဲလ်၏ ပြင်ဆင်တည်းဖြတ်မှုဆိုင်ရာ ကိရိယာများ
 ==================
 
-> ဤလမ်းညွှန်ချက်ကို [josm_josm-tools_my.odt](/files/josm_josm-tools_my.odt) (သို့မဟုတ်) [josm_josm-tools_my.pdf](/files/josm_josm-tools_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2015-07-14  
 
 JOSM ဆော့လ်ဖ်ဝဲလ်ကိုအသုံးပြုလျက် မြေပုံရေးဆွဲခြင်းအခြေခံများကို [JOSMကိုစတင်အသုံးပြုခြင်းလမ်းညွှန်](/my/josm/start-josm/) တွင်ဖော်ပြခဲ့ပြီးဖြစ်သည်။ 

@@ -10,7 +10,6 @@ Të fillosh në OpenStreetMap.org
 ====================================
 
 Kjo guidë mund të shkarkohet si [beginner_start-osm_sq.odt](/files/beginner_start-osm_sq.odt) ose [beginner_start-osm_sq.pdf](/files/beginner_start-osm_sq.pdf)  
-> Rishikuar 2015-07-12  
 
 Në këtë seksion ne do të mësojmë hap pas hapi se si të navigojmë
 Website-in e OpenStreetMap, të vëzhgojmë hartat dhe të regjistrohemi për një llogari përdoruesi.

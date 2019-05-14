@@ -9,7 +9,6 @@ category: josm
 Luchtfoto's
 ================
 
-> Deze handleiding kan gedownload worden als [aerial-imagery_nl_NL.odt](/files/aerial-imagery_nl_NL.odt) of [aerial-imagery_nl_NL.pdf](/files/aerial-imagery_nl_NL.pdf)  
 > Bijgewerkt 21-09-2015  
 
 Traceren vanaf afbeeldingen is een gemakkelijke en krachtige manier om bij te dragen aan OSM. Gebruiken van afbeeldingen om punten, lijnen en vormen op de grond te tekenen wordt **digitaliseren** genoemd. Het kan vaak worden onderscheiden van het verzamelen van gegevens van attributen op de grond, wat vaak **op de grond waarnemen** wordt genoemd. Digitaliseren van afbeeldingen kan de ruggengraat van kaarten voor OSM vormen, wat het waarnemen op de grond gemakkelijker kan maken voor mensen in het veld. In dit hoofdstuk zullen we iets meer leren over hoe luchtfoto's werken.  

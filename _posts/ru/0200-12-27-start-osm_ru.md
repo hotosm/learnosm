@@ -9,7 +9,6 @@ category: beginner
 Первые шаги в OpenStreetMap.org
 ===============================
 
-> This guide may be downloaded as [beginner_start-osm_ru.odt](/files/beginner_start-osm_ru.odt) or [beginner_start-osm_ru.pdf](/files/beginner_start-osm_ru.pdf)
 
 В этом разделе мы шаг за шагом узнаем, как ориентироваться на сайте
 OpenStreetMap, просматривать и печатать карту, как зарегистрироваться – создать

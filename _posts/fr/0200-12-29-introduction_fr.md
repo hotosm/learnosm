@@ -9,8 +9,6 @@ category: beginner
 introduction
 ============
 
-> Ce guide peut être téléchargé avec [beginner_introduction_fr.odt](/files/beginner_introduction_fr.odt) ou [beginner_introduction_fr.pdf](/files/beginner_introduction_fr.pdf)  
-> Mise à jour le 22/08/2015  
 
 L'information a de la valeur. Avec la bonne information et une bonne compréhension, les individus et communautés sont plus à même d'améliorer leurs vies et mieux anticiper l'avenir. De nombreuses personnes ou organisations prennent des décisions qui affectent nos vies. Une information efficace permet à ces ONG (Organisation Non-Gouvernementale), gouvernements et citoyens de prendre des décisions éclairées, qui peuvent rendre nos vies meilleures. Les cartes sont un excellent support pour diffuser cette information. 
 

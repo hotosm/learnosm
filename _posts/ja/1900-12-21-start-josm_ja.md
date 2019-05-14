@@ -36,7 +36,6 @@ JOSMのダウンロード
 JOSMのインストール
 -----------
 
->  JOSMの動作にはJavaが必要であり、環境によってはJavaのインストールを求められることがあります。
 >  もしインストールを求められた場合、以下のページからJavaをインストールしてください。
 >  [http://www.java.com/en/download/](http://www.java.com/en/download/)
 

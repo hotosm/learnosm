@@ -12,8 +12,6 @@ The iD Editor
 Kifungu hiki cha LearnOSM kipo katika mchakato wa kutafsiriwa. Kama ungependa kusaidia katika kutafsiri tovuti hii, 
 tafadhali tazama [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md). 
 
-> Huu muongozo unaweza kupakuliwa kama  [beginner_id-editor_sw.odt](/files/beginner_id-editor_sw.odt) au [beginner_id-editor_sw.pdf](/files/beginner_id-editor_sw.pdf)  
-> Imepitiwa 2015-08-22  
 
 
 iD editor ni mtandao msingi wa kuhariri OpenStreetMap. Hii iD ni haraka na rahisi kuitumia,na inakuruhusu kupata ramani kwa kutumia vyanzo mbalimbali vya data kama vile picha za anga, GPS, Field Papers au Mapillary.

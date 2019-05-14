@@ -11,8 +11,6 @@ nosearch: true
 Mapeando con un SmartPhone, GPS o papel
 =============================
 
-> Esta guía puede ser descargada como [mobile-mapping_es.odt](/files/mobile-mapping_es.odt) o [mobile-mapping_es.pdf](/files/mobile-mapping_es.pdf)  
-> Revisado 2015-07-14  
 
 Para crear un mapa detallado y preciso, necesitas llevar a cabo un reconocimiento del área que estás mapeando. Las guías en esta sección tratan sobre el mapeo haciendo uso de:  
 

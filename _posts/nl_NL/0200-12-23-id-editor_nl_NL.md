@@ -9,8 +9,6 @@ category: beginner
 De iD Editor
 =============
 
->  Deze handleiding kan worden gedownload als [beginner_id-editor_nl_NL.odt](/files/beginner_id-editor_nl_NL.odt) of [beginner_id-editor_nl_NL.pdf](/files/beginner_id-editor_nl_NL.pdf)  
-> Bijgewerkt op 30-03-2016  
 
 Beginnen met in kaart brengen voor een Tasking Manager voor HOT of MissingMaps etc? Bekijk ons [gedeelte HOT-tips](/nl_NL/hot-tips/).  
 

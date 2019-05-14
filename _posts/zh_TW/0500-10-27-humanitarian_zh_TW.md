@@ -10,8 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
-> 這份指南可以在 [humanitarian_zh_TW.odt](/files/humanitarian_zh_TW.odt) 或是 [humanitarian_zh_TW.pdf](/files/humanitarian_zh_TW.pdf) 下載  
-> Reviewed 2015-09-18
 
 謝謝你志願幫忙在地社群和援助組織，提供他們應對災難所需要的即時地圖。  
 

@@ -9,7 +9,6 @@ category: josm
 Werkzeuge zum Editieren in JOSM
 ==================
 
-> Diese Anleitung kann als  [josm_josm-tools_de.odt](/files/josm_josm-tools_de.odt) oder [josm_josm-tools_de.pdf](/files/josm_josm-tools_de.pdf) heruntergeladen werden  
 > Gereviewed 2017-06-09  
 
 - TOC

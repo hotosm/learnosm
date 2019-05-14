@@ -10,8 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
-> このガイドは次の形式でダウンロードできます。[remote-mapping_ja.odt](/files/remote-mapping_ja.odt) および [remote-mapping_ja.pdf](/files/remote-mapping_ja.pdf)  
-> Reviewed 2019-04-17  
 
 OpenStreetMap人道支援チーム (HOT, Humanitarian OpenStreetMap Team) は全世界のコミュニティであり、オープンソースとオープンデータの共有によって人道支援活動と経済発展という目的を達成しようと活動しています。  
 

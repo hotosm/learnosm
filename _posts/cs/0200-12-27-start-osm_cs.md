@@ -9,8 +9,6 @@ category: beginner
 Začínáme s OpenStreetMap.org
 ====================================
 
-> Tento návod si můžete stáhnout jako [beginner_start-osm_cs.odt](/files/beginner_start-osm_cs.odt) nebo [beginner_start-osm_cs.pdf](/files/beginner_start-osm_cs.pdf)  
-> Zkontrolováno 12.7.2015  
 
 V této části se dozvíme krok za krokem navigaci na webové stránce OpenStreetMap, zobrazení map a přihlášení k uživatelskému účtu. Poté, co máte vlastní uživatelské jméno a heslo, budete moci na mapě přidat své první body.
 
