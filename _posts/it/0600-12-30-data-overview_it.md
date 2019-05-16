@@ -10,6 +10,7 @@ category: osm-data
 ==================
 
 
+> Rivisto il 2017-07-25
 
 <!--In questa sezione vedremo come funziona OpenStreetMap , questo ci aiuterà a capire bene come sono strutturati i dati e come possiamo utilizzarli al meglio. -->
 

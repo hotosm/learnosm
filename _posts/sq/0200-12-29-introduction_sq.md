@@ -9,6 +9,7 @@ category: beginner
 Prezantim
 ============
 
+> Rishikuar 2015-07-12  
 
 Informacioni është fuqi. Me informim të mirë dhe saktësisht të kuptuar, individët dhe komunitetet janë më mirë në gjendje të përmirësojnë jetët e tyre dhe të marin vendimet e duhura për të ardhmen. Janë shumë njerëz dhe organizata të cilat marin vendime të cilat ndikojnë jetët tona. Informacioni i mirë lejon këto NGO's (organizatat jo qeveritare), qeveritë dhe qytetarët të marin vendime më të mira dhe duke shpresuar që të përmirësojnë jetën tonë. Hartat janë një mënyrë e mirë për të përçuar informacion 
 

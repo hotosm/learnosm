@@ -9,6 +9,7 @@ category: beginner
 Ulteriori letture
 ===============
 
+> Revisionato 2015-07-12  
 
 Se sei arrivato fino a qua, congratulazioni! Ora dovresti avere una buona comprensione di come produrre mappe con OpenStreetMap. Cos’altro puoi fare con OSM? Come puoi imparare di più? Come puoi stare in contatto con la comunità dei mappatori?  
 

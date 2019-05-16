@@ -9,6 +9,7 @@ category: osm-data
 Souborové formáty
 =============
 
+> Zkontrolováno 2016-09-05
 
 Stejně jako jakýkoli typ dat existují různé způsoby ukládání geografických dat do počítače. Může být uložen v databázi, která je specializovaným systémem pro ukládání a načítání dat, a ve skutečnosti existují databázové systémy speciálně určené pro ukládání geografických dat. Může být také uložen v tradičních počítačových souborech, i když existuje mnoho různých formátů souborů pro geografické údaje.  
 

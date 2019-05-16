@@ -11,6 +11,7 @@ category: mobile-mapping
 GPS Essentials
 ===================
 
+> Revisada a 2015-05-24  
 
 Instalación de GPS Essentials
 -------------

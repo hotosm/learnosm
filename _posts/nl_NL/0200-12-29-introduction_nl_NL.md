@@ -9,6 +9,7 @@ category: beginner
 Introductie
 ============
 
+> Bijgewerkt op 2015-07-12  
 
 Informatie is krachtig. Met goede informatie en het juiste begrip, zijn individuen en gemeenschappen beter in staat tot het verbeteren van hun levens en om goede beslissingen te maken voor de toekomst. Er zijn veel mensen en organisaties die beslissingen maken, die impact hebben op ons leven. Goede informatie stelt deze NGO's (non-gouvermentele organisaties), overheden en burgers in staat om betere beslissingen te nemen en hopelijk onze levens te verbeteren. Kaarten zijn een goede manier om informatie over te brengen. 
 

@@ -10,6 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
+> Zkontrolováno 2015-09-18  
 
 Humanitární tým OpenStreetMap (HOT) je globální komunita, která funguje na uplatňování principů otevřeného a otevřeného sdílení dat v oblasti humanitární pomoci a hospodářského rozvoje.  
 

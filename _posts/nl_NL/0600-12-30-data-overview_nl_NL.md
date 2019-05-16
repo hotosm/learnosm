@@ -10,6 +10,7 @@ Gegevens van OSM: Een overzicht
 ==================
 
 
+> Bijgewerkt 05-09-2016
 
 <!--In dit gedeelte zullen we functies van OpenStreetMap bekijken, die ons beter laten begrijpen hoe de gegevens zijn gestructureerd, en hoe we ze het best kunnen gebruiken.-->
 

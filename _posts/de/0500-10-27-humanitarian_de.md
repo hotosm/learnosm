@@ -10,6 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
+> Gereviewt am 2015-09-18
 
 Vielen Dank, dass Sie sich für die Leute vor Ort und für Hilfsorganisationen einsetzen und ihnen aktualisierte Kartendaten für die Bewältigung einer Krisensituation liefern.  
 

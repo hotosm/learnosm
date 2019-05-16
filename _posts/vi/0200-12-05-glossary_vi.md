@@ -9,7 +9,7 @@ category: beginner
 Bảng chú giải 
 ============
 
-> Bảng thuật ngữ này đang được cập nhật và đã được biên soạn từ nhiều nguồn khác bao gồm trang [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page)và một hướng dẫn do Will Skora viết. Hãy giúp chúng tôi cập nhật nó bằng cách xem lại tại [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) để biết cách đóng góp cho trang web. 
+>Bảng thuật ngữ này đang được cập nhật và đã được biên soạn từ nhiều nguồn khác bao gồm trang [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page)và một hướng dẫn do Will Skora viết. Hãy giúp chúng tôi cập nhật nó bằng cách xem lại tại [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) để biết cách đóng góp cho trang web. 
 > Cập nhật: 2015-07-18  
 
 Để dễ dàng tìm kiếm Bảng thuật ngữ này, hãy sử dụng tính năng tìm kiếm trong trình duyệt của bạn, bằng cách giữ phím "Ctrl" và phím f (thường được mô tả là **Ctrl+f**)  

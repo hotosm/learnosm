@@ -9,6 +9,7 @@ category: osm-data
 OSM-Daten in QGIS nutzen
 =================
 
+> Zuletzt geprüft 2015-07-09
 
 QGIS (früher als Quantum GIS bekannt) ist ein voll ausgestattetes plattformunabhängiges quelloffenes geographisches Informationssystem. Mit QGIS können Sie jederzeit auf aktuelle OSM-Daten zugreifen, die Attribute auswählen, die Sie miteinbeziehen wollen, und leicht als leicht zu benutzendes Shapefile oder SQLite-Datenbank exportieren.  
 

@@ -41,6 +41,7 @@ Alle Arten von Wegen, Autobahnen ebenso wie Pfade, werden in OpenStreetMap als '
 3. Die Straße wird mit dem Attribut 'higway=residential' versehen. Außerdem habe ich noch 'surface=unpaved' angefügt.  
 4. Eine nähere Beschreibung der Straßenklassifikation in Afrika finden Sie in englischer Sprache auf der Wiki-Seite [Highway Tag Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa).  
 
+> Wenn Sie Straßen bearbeiten, die in Kacheln führen, die von jemand anderem bearbeitet werden, kann es schnell zu Konflikten kommen, so dass Sie Ihre Arbeit nicht mehr speichern können. Es ist deshalb ratsam, Ihre bisherigen Änderungen zu speichern, bevor Sie die Straße bearbeiten. Speichern Sie auch oft während dieser Bearbeitung, etwa nach jeweils 6 hinzugefügten Punkten.
 
 
 ### Das Straßennetz

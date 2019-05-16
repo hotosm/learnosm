@@ -9,6 +9,7 @@ category: mobile-mapping
 OruxMaps
 ===============
 
+> Bijgewerkt 2016-08-04 en hoewel enigszins gedateerd nog steeds functioneel & bevat een link naar sites met de eigen handleiding van de software.
 
 In dit gedeelte zullen we leren hoe OruxMaps in te stellen, hoe waypoints te maken, hoe een tracklog te bekijken en hoe een tracklog te exporteren om te gebruiken in JOSM.  
 

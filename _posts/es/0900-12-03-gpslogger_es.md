@@ -9,6 +9,7 @@ category: mobile-mapping
 GPSLogger para Android
 =====================
 
+> Revisado 2015-12-06  
 
 ![GPSLogger][]
 

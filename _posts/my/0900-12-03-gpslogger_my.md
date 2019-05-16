@@ -9,6 +9,7 @@ category: mobile-mapping
 Android  အတွက် GPSLogger
 =====================
 
+> Reviewed 2015-12-06  
 
 ![GPSLogger][]
 

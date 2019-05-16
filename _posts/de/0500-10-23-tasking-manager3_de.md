@@ -202,6 +202,7 @@ Sobald Sie eine Aufgabe für sich reserviert haben, stehen Ihnen verschiedene M�
 
 Wenn Sie JOSM starten, bevor Sie diese Auswahl aktivieren, werden die bereits vorhandenen Daten automatisch in JOSM geladen.  
 
+> 1. 'Fernsteuerung aktivieren' muss dazu in JOSM unter **Bearbeiten / Einstellungen / Fernsteuerung** angekreuzt sein
 > 2. Wenn Sie früher das “continuousDownload”-Plugin aktiviert haben sollten Sie besser den entsprechenden Menüeintrag im Datei-Menü deaktivieren  
 > 3. Wenn in JOSM die Hintergrundbilder nicht automatisch geladen werden, müssen Sie das manuell im **Hintergrundbild**-Menü erledigen [nähere Informationen dazu finden Sie hier](/de/josm/more-about-josm/#add-imagery)  
   

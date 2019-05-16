@@ -51,6 +51,7 @@ Per creare nuovi progetti usando TM3 hai bisogno del livello di accesso Project 
 
 Clicca sul tuo nome utente nell'angolo superiore destro, poi **Crea un nuovo progetto.** Tu potrai poi scegliere tra il disegnare sulla mappa l'area interessata (Aol), o importare un'area di interesse da un file geojson;   
 
+> È sempre preferibile importare un file con un area definita piuttosto che disegnare a mano un progetto del Tasking Manager. Per creare questi file da importare nel Tasking Manager, possono essere usati strumenti come JOSM, QGIS, ecc. La sequenza suggerita è creare un file .osm dell'AOI con JOSM e poi usare http://geojson.io/ per generare un GeoJSON.
 
 ### Disegna un'area di interesse da mappare
 

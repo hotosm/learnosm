@@ -9,6 +9,7 @@ category: mobile-mapping
 GPSLogger voor Android
 =====================
 
+> Bijgewerkt 06-12-2015  
 
 ![GPSLogger][]
 

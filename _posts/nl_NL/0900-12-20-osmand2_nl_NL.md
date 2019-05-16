@@ -9,6 +9,7 @@ category: mobile-mapping
 OsmAnd 2.x
 ==========
 
+> Bijgewerkt op 08-08-2016  
 
 OsmAnd (OSM Automated Navigation Directions) is een open source-toepassing voor het bekijken van kaarten, bewerken, opnemen van sporen en toeren en gebruikt de database van OpenStreetMap (OSM) voor zowel online als offline gebruik. Het bevat ook mogelijkheid voor routeren en navigatie, met visuele en stemgids, dat is ook online en offline beschikbaar. OsmAnd stelt gebruikers in staat direct aan OpenStreetMap bij te dragen door problemen te rapporteren, GPX-sporen te uploaden, en toevoegen (of bewerken) van POI's.  
 

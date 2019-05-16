@@ -9,7 +9,7 @@ category: beginner
 Definities 
 ============
 
-> Deze lijst met definities wordt bijgewerkt en is samengesteld uit verschillende andere bronnen , waaronder de [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) en een handleiding geschreven door Will Skora. Voel je vrij om ons te helpen bij het bijwerken door [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) te bekijken en aan te vullen. 
+>Deze lijst met definities wordt bijgewerkt en is samengesteld uit verschillende andere bronnen , waaronder de [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) en een handleiding geschreven door Will Skora. Voel je vrij om ons te helpen bij het bijwerken door [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) te bekijken en aan te vullen. 
 > Bijgewerkt op 2015-07-18  
 
 Gebruik, om makkelijk in deze lijst met definities te zoeken, de zoekfunctie in je browser, druk tegelijkertijd op de Control-toets en de toets F (meestal beschreven als **Ctrl+f**)  

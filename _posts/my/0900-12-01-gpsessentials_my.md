@@ -11,6 +11,7 @@ category: mobile-mapping
 GPS Essentials
 ===================
 
+> Reviewed 2015-05-24  
 
 GPS Essentials တပ်ဆင်ခြင်း
 -------------

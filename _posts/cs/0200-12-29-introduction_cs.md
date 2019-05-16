@@ -9,6 +9,7 @@ category: beginner
 Úvod
 ============
 
+> Zkontrolováno 12.7.2015  
 
 Informace jsou mocné. Se správnými informacemi a správným porozuměním mohou jednotlivci i skupiny snáz zlepšit své životy a dobře rozhodovat o své budoucnosti. Je hodně lidí a organizací, co svými rozhodnutími ovlivňují náš život. Dobré informace pomáhají nevládním organizacím, státním úřadům a občanům dělat lepší rozhodnutí, a doufejme že i trochu zlepšit naše životy. Mapy jsou jedním z efektivních způsobů předávání informací. 
 

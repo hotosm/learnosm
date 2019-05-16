@@ -9,6 +9,7 @@ category: mobile-mapping
 OruxMaps
 ===============
 
+> Gereviewt am 2016-08-04 und obwohl leicht veraltet ist es immer noch brauchbar und enthält einen Link zum eigenen Softwarehandbuch der Seite.
 
 In diesem Abschnitt lernen wir OruxMaps aufzusetzen, Wegpunkte zu erstellen, ein Tracklog zu lesen und wie man ein Tracklog exportiert zur Verwendung in JOSM.  
 

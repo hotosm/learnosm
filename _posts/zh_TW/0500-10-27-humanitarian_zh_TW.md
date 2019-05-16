@@ -10,6 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
+> Reviewed 2015-09-18
 
 謝謝你志願幫忙在地社群和援助組織，提供他們應對災難所需要的即時地圖。  
 

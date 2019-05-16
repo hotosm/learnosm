@@ -8,6 +8,7 @@ category: coordination
 
 # Tasking Manager
 
+> Geprüft 2015-08-26  
 
 **Diese Anleitung beschreibt eine ältere Version des Tasking Managers. Wenn sich die Benutzeroberfläche der Version, die Sie benutzen, von der hier beschriebenen unterscheidet, lesen Sie bitte [das Handbuch zu Version 3}/de/coordination/tasking-manager3)**
 

@@ -12,6 +12,7 @@ nosearch: true
 Koordination
 ============
 
+> Geprüft 2015-09-18
 
 Da bei OpenStreetMap viele Menschen zusammen an der Karte arbeiten, ist es wichtig zu wissen, wie wir unsere Aktivitäten koordinieren können.
 

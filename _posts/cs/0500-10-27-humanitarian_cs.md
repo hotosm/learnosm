@@ -10,6 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
+> Zkontrolováno 2015-09-18
 
 Děkujeme za dobrovolnictví, abyste pomohli místním komunitám a organizacím poskytujícím pomoc reagovat na tuto krizi tím, že jim poskytnete aktualizované mapové údaje.  
 

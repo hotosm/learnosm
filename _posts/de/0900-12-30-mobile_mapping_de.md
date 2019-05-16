@@ -62,4 +62,5 @@ O - unterstützt, D - in Entwicklung, m - Kartieren, n - Navigation, p - POI Edi
 
 In den nächsten Abschnitten führen wir Sie durch die Installation und die Bedienung von verschiedenen Anwendungen, mit denen Sie von Ihrem Smartphone an OpenStreetMap mitwirken können.
 
+> **Achtung:** Bevor Sie weiterlesen, stellen Sie sicher, dass Ihr Gerät über einen GPS-Empfänger verfügt und dass dieser aktiviert ist.  
 > Denken Sie daran, dass GPS nicht innerhalb von Gebäuden funktioniert!

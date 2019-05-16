@@ -9,6 +9,7 @@ category: osm-data
 Využití OSM dat v QGIS
 =================
 
+> Zkontrolováno 19.7.2015
 
 QGIS (dříve Quantum GIS) je plnohodnotný, open-source, geografický informační systém, který funguje napříč platformami. S QGIS můžete přistupovat k aktuálním datům OSM kdykoliv chcete, vyberte značky, které chcete zahrnout a jednoduše je exportujte do snadno použitelné SQLite databáze nebo Shapefile.  
 

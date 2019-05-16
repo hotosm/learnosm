@@ -93,6 +93,7 @@ Wenn man spezielle Satellitenbilder für das Projekt zur Verfügung stellen will
 
 Sie können unterschiedliche Gittergrößen mit Hilfe des "Teilen"-Werkzeugs einstellen. Aufgabenquadrate können mehrfach aufgeteilt werden. Der Einsatz einer Luftbild-Ebene hilft beim Bestimmen, wo Aufgaben aufgeteilt werden sollen. Mit  "Zurücksetzen" werden alle gesplitteten Aufgaben zurückgesetzt. Die "Teilen (Polygon)"-Option lässt Sie ein Polygon über ein Gebiet zeichnen zur Erstellung kleinerer Aufgaben und die Option "Teilen (Punkt)" erlaubt es Ihnen, einzelne Aufgaben zum weiteren Aufteilen anzuklicken. Mit "Zurücksetzen" entfernen Sie  alle individuellen Aufteilungen.
 
+> Allgemein wird man kleine Quadratkacheln über dichtem Siedlungsgebiet für Gebäude bevorzugen. Das Ziel sollte sein, Projektaufgaben zu erstellen, die in 10-15 Minuten erledigt werden können.
 
 *** Anmerkungen zum Thema Kachelgrößen ***
 

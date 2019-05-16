@@ -9,6 +9,7 @@ category: osm-data
 Bestandsindelingen
 =============
 
+> Bijgewerkt 05-09-2016
 
 Net als met elk type gegevens zijn er verschillende manieren om geografische gegevens op een computer op te slaan. Het kan worden opgeslagen in een database, wat een gespecialiseerd systeem is voor het opslaan en ophalen van gegevens, en in feite zijn er databasesystemen die specifiek zijn ontworpen voor het opslaan van geografische gegevens. Het kan ook worden opgeslagen in traditionele computerbestanden, hoewel er veel verschillende bestandsindelingen voor geografische gegevens zijn.  
 

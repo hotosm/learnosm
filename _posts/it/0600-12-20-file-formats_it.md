@@ -9,6 +9,7 @@ category: osm-data
 Formati di file
 =============
 
+> Revisionato il 05/09/2016
 
 Come qualsiasi tipo di dato, ci sono molti metodi per salvare nel computer dati di tipo geografico. Si possono salvare all'interno di un database, ovvero sistemi in grado di salvare ed esportare dati, e all'interno dei database ce ne sono alcuni, specificatamente progettati per i dati geografici. Si può anche salvare dati geografici all'interno del computer come un file tradizionale, tuttavia esistono molti formati di file specifici per i dati geografici.   
 

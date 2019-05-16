@@ -9,6 +9,7 @@ category: beginner
 iD Editor
 =============
 
+> Zkontrolováno 2016-03-30  
 
 Začínáte mapovat pomocí Tasking Manageru pro HOT nebo MissingMaps atd.? Podívejte se na sekci [HOT-tipy](/cs/hot-tips/).  
 

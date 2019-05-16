@@ -9,6 +9,7 @@ category: mobile-mapping
 Onderzoek met behulp van veldformulieren
 =============================
 
+> Bijgewerkt op 10-08-2016  
 
 In dit hoofdstuk zullen we zien hoe we de coördinaten van plaatsen kunnen opnemen zonder een GPS. We zullen een gereedschap gebruiken, genaamd [Field Papers](http://fieldpapers.org/), dat u in staat stelt een kaart af te drukken van een gebied, daarop te tekenen en opmerkingen toe te voegen, en daarna het papier terug te laden in JOSM, waar u uw locaties kunt toevoegen aan OpenStreetMap. U kunt ook deze 8 minuten durende [video Tutorial Field Papers](http://www.youtube.com/watch?v=A_HGkBXZ69g&feature=youtu.be) bekijken over hoe een atlas te maken en een snapshot te uploaden.  
 

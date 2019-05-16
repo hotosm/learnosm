@@ -109,6 +109,7 @@ Um eine neue Linie hinzuzufügen, klicken Sie auf die Schaltfläche Linie. ![ima
 
 Eine "Linie" im iD-Editor ist eigentlich ein "Weg" mit "tags", also Attributen.
 
+> Ein Extrahinweis zum **Löschen**: Normalerweise sollten Sie das Löschen der Kartenbeiträge anderer vermeiden, wenn sie lediglich verbessert werden müssen. Sie können Ihre eigenen Fehler löschen, aber Sie sollten versuchen, die kartierten Objekte anderer *anzupassen*, wenn das nötig ist. Dies sichert die Geschichte von Gegenständen in der OSM-Datenbank und respektiert andere Kartierer. Wenn Sie wirklich der Auffassung sind, dass etwas gelöscht werden sollte, erwägen Sie, zuerst die Person zu kontaktieren oder auf einer der OSM Mailinglisten nachzufragen.
 
 ### Zeichnen von Flächen (Polygonen)
 

@@ -9,6 +9,7 @@ category: coordination
 Op afstand bewerken & de plaats daarvan binnen het team van HOT
 ==================
 
+> Bijgewerkt 18-09-2015
 
 Op afstand in kaart brengen wordt ook wel 'mappen vanuit je luie stoel' genoemd', en dit zal waarschijnlijk het type mapping zijn dat u zult uitvoeren wanneer u deelneemt an een mapathon. Het zal u helpen te begrijpen wat er nodig is als u meer weet over het gehele proces. Vele mensen over de gehele wereld zijn betrokken bij het er voor zorgen dat HOT werkt, en wanneer u begint met het op afstand in kaart brengen maakt ook u deel uit van dat team, dat vele beschikbare rollen kent, waaronder (dit is niet de volledige lijst!):
   

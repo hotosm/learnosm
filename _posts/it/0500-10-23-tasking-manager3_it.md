@@ -202,6 +202,7 @@ Nel momento in cui blocchi un task ti vengono presentate differenti possibilità
 
 Esegui JOSM prima di usare questo link in modo che carichi automaticamente i dati OSM dentro l'applicativo.  
 
+> 1. L'opzione 'Abilita controllo remoto' deve essere selezionata. Si trova sotto **Modifica / Preferenze / Controllo Remoto**
 > 2. Se hai precedentemente installato il plug-in 'continuosDownload' è meglio disabilitarlo (de-seleziona 'Download OSM Data continuously' nel menu **File** in JOSM).  
 > 3. Se JOSM non carica le immagini di sfondo automaticamente, puoi trovare la fonte di immagini nel menu **Immagini aeree**. [Maggiori informazioni sulle immagini qui](/it/josm/more-about-josm/#add-imagery)  
   

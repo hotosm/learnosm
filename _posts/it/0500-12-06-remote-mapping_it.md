@@ -10,6 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
+> Revisionato 2017-06-25  
 
 L'Humanitarian OpenStreetMap Team (HOT) è una comunità globale che lavora all'applicazione dei principi della condivisione di codice aperto e dati aperti a vantaggio dell'azione umanitaria e dello sviluppo economico.  
 

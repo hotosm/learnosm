@@ -9,6 +9,7 @@ category: osm-data
 Geofabrik und den HOT Export benutzen
 ================
 
+> Geprüft 2016-09-05  
 
 Nachdem Sie jetzt wissen, wie Sie Daten in OpenStreetMap (OSM) hinzufügen und bearbeiten können, möchten Sie nun vielleicht an die Daten herankommen, sei es als Backup oder zur Verarbeitung mit geografischen Informationssystemen wie z.B. dem Open-Source-Produkt Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
 

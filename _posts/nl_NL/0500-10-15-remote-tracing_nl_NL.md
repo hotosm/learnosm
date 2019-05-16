@@ -9,6 +9,7 @@ category: coordination
 Wegen, gebouwen, water en landgebruik traceren
 ===========================================
 
+> Bijgewerkt op 08-02-2016  
 
 Doorgaan vanaf het gedeelte [Remote, Armchair & Mapathon Section of LearnOSM](/nl_NL/coordination/remote/), wat u nodig zult hebben indien u geen ervaring heeft met het in kaart brengen voor HOT.  
 

@@ -10,6 +10,7 @@ OSM ၏အချက်အလက်များအကြောင်းခြု�
 ==================
 
 
+> Reviewed 2016-09-05
 
 <!--In this section we'll consider how OpenStreetMap functions, which will help us to understand better how the data is structured, and how we can best utilize it.-->
 

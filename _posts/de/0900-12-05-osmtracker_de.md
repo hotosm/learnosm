@@ -9,6 +9,7 @@ category: mobile-mapping
 OSMTracker
 ==============
 
+> Überprüft 2016-02-08
   
 **Dieser Artikel bezieht sich auf OSMTracker für Android - es gibt ein ähnliches Produkt für Windows Mobile.**  
 OSMTracker erlaubt das Erstellen einer GPX-Spur einer Reise, mit einer Sammlung von „Wegpunkten“ entlang der Route. Tonspuren, Fotos und andere Notizen können auch hinzugefügt werden, und allen wird eine räumliche Koordinate zugewiesen.

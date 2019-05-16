@@ -9,6 +9,7 @@ category: beginner
 Introdução
 ============
 
+> Revisto em 2015-07-12  
 
 Informação é poder. Com capacidade de análise e boa informação, indivíduos e comunidades são mais capazes de melhorar as suas vidas e tomar melhores decisões sobre o futuro. Há muitas pessoas e organizações que tomam decisões que afetam as nossas vidas. Informação de qualidade permite que governos, ONGs e cidadãos tomem melhores decisões em busca de tornarem nossas vidas melhores. Um mapa pode ser uma boa maneira de transmitir boa informação. 
 

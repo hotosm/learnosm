@@ -10,6 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
+> Bijgewerkt 18-09-2015
 
 Dank voor het vrijwillig helpen van de lokale gemeenschappen en Hulporganisaties die reageren op deze crisis, door hun bijgewerkte kaarten te geven  
 

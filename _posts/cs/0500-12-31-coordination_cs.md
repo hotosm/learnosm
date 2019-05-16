@@ -12,6 +12,7 @@ nosearch: true
 Koordinace
 ============
 
+> Zkontrolováno 2015-09-18
 
 Vzhledem k tomu, že OpenStreetMap vytváří mnoho lidí dohromady, je užitečné vědět, jak mapeři mohou tuto aktivitu zkoordinovat.
 

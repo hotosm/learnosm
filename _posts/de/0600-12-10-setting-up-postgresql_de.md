@@ -9,6 +9,7 @@ category: osm-data
 PostgreSQL & PostGIS
 ====================
 
+> Gereviewt am 2016-09-10
 
 In diesem Kapitel werden wir sehen wie man PostgreSQL unter Windows aufsetzt und eine Datenbank erstellt in der man geografische Daten speichern kann. Wir verwenden Open Source GIS Software QGIS in diesem Kapitel, es ist als hilfreich, wenn man bereits damit umgehen kann. Im folgenden Kapitel werden wir uns anschauen, wie man OpenStreetMap Daten in eine PostgreSQL Datenbank importiert.  
 

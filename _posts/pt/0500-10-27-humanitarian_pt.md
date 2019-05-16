@@ -10,6 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
+> Revisto em 2015-09-18
 
 Obrigado por se voluntariar fornecendo dados de mapas atualizados para ajudar as comunidades locais e as Organizações de Auxílio que respondem a situações de emergência.  
 

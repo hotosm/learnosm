@@ -12,6 +12,7 @@ nosearch: true
 Coordenação
 ============
 
+> Revisto em 2015-09-18
 
 Porque o OpenStreetMap envolve muitas pessoas a mapearem juntas, é útil saber como os utilizadores podem coordenar esta atividade.
 

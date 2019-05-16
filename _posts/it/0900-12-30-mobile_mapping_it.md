@@ -11,6 +11,7 @@ nosearch: true
 Creare una mappa con smartphone, GPS o carte stampate
 =============================
 
+> Revisionato il 2015-07-14  
 
 Per creare una mappa dettagliata e accurata devi fare una ricognizione dell'area da aggiornare. Le guide di questa sezione ti aiuteranno ad organizzare una ricognizione utilizzando  
 

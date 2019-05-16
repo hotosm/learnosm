@@ -11,6 +11,7 @@ category: mobile-mapping
 Go Map!!
 ===================
 
+> Bijgewerkt op 10-08-2016  
 
 Go Map!! is een toepassing voor iOS die u informatie in OpenStreetMap laat maken en bewerken.
 Go Map!! ondersteunt het bewerken van wegen en willekeurig taggen.

@@ -9,7 +9,7 @@ category: beginner
 Glosario 
 ============
 
-> Este glosario se encuentra en proceso de actualización y ha sido compilado de numerosas fuentes incluyendo el sitio [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) y la guía escrita por Will Skora. Siéntete libre de ayudarnos a actualizarlo revisando [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) para saber cómo contribuir con este sitio. 
+>Este glosario se encuentra en proceso de actualización y ha sido compilado de numerosas fuentes incluyendo el sitio [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) y la guía escrita por Will Skora. Siéntete libre de ayudarnos a actualizarlo revisando [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) para saber cómo contribuir con este sitio. 
 > Revisado 2015-07-18  
 
 Para buscar fácilmente en este glosario, utilice la barra de búsqueda de su navegador, mantenga presionada la tecla Ctrl mientras presiona la tecla f (generalmente descrito como **Ctrl+f**)  

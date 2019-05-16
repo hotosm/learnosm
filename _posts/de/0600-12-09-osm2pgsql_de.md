@@ -125,6 +125,7 @@ Man gibt den Benutzernamen postgres und sein Passwort ein.
 
 ![osm in qgis][]
 
+> Schaut man die Attributtabellen der Layer an, sieht man, dass die Attribute auf OSM Tags gemappt sind. Die entsprechenden Tags, die importiert wurde, wurden definiert während des **osm2pgsql** Importprozesses. Um spezifische Tags, welche nicht standardmäßig enthalten sind, hinzuzufügen, kann man die *Style* Datei bearbeiten, die osm2pgsql verwendet, um das Datenschema zu definieren.  
 
 
 Zusammenfassung

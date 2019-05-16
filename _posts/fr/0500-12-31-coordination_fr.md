@@ -12,6 +12,7 @@ nosearch: true
 Coordination
 ============
 
+> Examiné 2015-09-18
 
 De nombreuses personnes cartographient ensemble sur OpenStreetMap. Il est donc utile de savoir comment les contributeurs peuvent coordonner cette activité.
 

@@ -9,6 +9,7 @@ category: beginner
 Videre lesing
 ===============
 
+> Reviewed 2015-07-12  
 
 Hvis du har kommet deg så langt, gratulerer! Du burde nå en good oversikt over hvordan man lager kart med OpenStreetMap. Hva annet kan du gjøre med OSM? Hvordan kan du lære mer? Hvordan kan du holde deg i kontakt med kart-fellesskapet?  
 

@@ -109,6 +109,7 @@ Pour ajouter une nouvelle ligne, cliquer sur le bouton **Ligne**. ![image4][]{: 
 
 Une « ligne » créée dans l'éditeur iD est en fait un « chemin » (« way ») avec des « attributs » (« tags ») associés.
 
+>Note concernant la **Suppression** : en général, vous devriez améliorer les éléments de carte faits par d'autres personnes, plutôt que de les supprimer, si c'est possible. Vous pouvez supprimer vos propres erreurs, mais vous devriez essayer *d'ajuster* les objets de la carte créés par d'autres personnes, si nécessaire. Cela permet de préserver l'historique des modifications des éléments dans la base de données OSM, et c'est plus respectueux pour vos camarades cartographes. Si vous pensez vraiment que quelque chose devrait être supprimé, vous pouvez envisager de commencer par en parler au cartographe d'origine, ou à une des listes de diffusions OSM.
 
 ### Dessiner des Formes (Polygones)
 

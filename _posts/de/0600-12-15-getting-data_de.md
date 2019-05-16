@@ -9,6 +9,7 @@ category: osm-data
 OSM-Daten beschaffen
 =================  
 
+> Geprüft 2016-04-05
 
 Um an aktuellste OpenStreetMap Daten zu bekommen ist es am einfachsten, einen Auszug davon von einer Webseite herunterzuladen. Es gibt zahlreiche Webangebote, welche Datenauszüge für gewählte Gebiete anbieten.  
 

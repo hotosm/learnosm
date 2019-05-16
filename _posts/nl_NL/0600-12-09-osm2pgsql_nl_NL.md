@@ -125,6 +125,7 @@ We kunnen testen of de import met succes is voltooid en de gegevens in onze data
 
 ![osm in qgis][]
 
+> Als u kijkt naar de attributentabellen van de lagen, zult u de attributen zien die zijn verbonden met tags van OSM. De specifieke tags die worden geïmporteerd zijn gedefinieerd gedurende het proces van importeren van **osm2pgsql**. Om specifieke tags, die niet standaard zijn opgenomen, toe te voegen, kunt u het *style*-bestand bewerken waarnaar osm2pgsql verwijst om het gegevensschema te definiëren.  
 
 
 Samenvatting

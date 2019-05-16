@@ -8,6 +8,7 @@ category: coordination
 
 # Een mapathon beheren
 
+> Gemaakt op 30-01-2017  
 
 - Inhoud
 {:toc}

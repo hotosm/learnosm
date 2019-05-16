@@ -202,6 +202,7 @@ Verschillende opties voor bewerken komen beschikbaar zodra u een taak vergrendel
 
 Start JOSM voordat u deze link gebruikt en de bestaande gegevens van OSM  zullen automatisch worden ingeladen in JOSM.  
 
+>1. 'Afstandsbediening inschakelen' moet aan staan, dit kunt u vinden onder **Bewerken/Voorkeuren/Afstandsbediening**
 > 2. Als u de plug-in 'continuousDownload' hebt geïnstalleerd, kunt u die het beste uitschakelen (zet het vinkje uit bij 'Gegevens van OSM doorlopen downloaden' onder het menu **Bestand** in JOSM.  
 > 3. Als JOSM niet automatisch ook de satellietbeelden inlaadt, kunt u die vinden onder het menu **Afbeeldingen**. [Hier staat meer informatie over afbeeldingen](en/josm/more-about-josm/#add-imagery)  
   

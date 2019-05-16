@@ -9,6 +9,7 @@ category: coordination
 Trasování silnic, budov, vod a využití půdy
 ===========================================
 
+> Zkontrolováno 8.2.2016  
 
 Navazuje na část [Remote, Armchair & Mapathon sekce LearnOSM] (/cs/coordination/remote/) sekci, která je zaměřená na mapovače bez zkušeností s mapováním HOT.  
 
