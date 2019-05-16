@@ -11,7 +11,6 @@ category: mobile-mapping
 GPS Essentials
 ===================
 
-> Hướng dẫn này có thể được tải xuống dưới dạng [gps-essentials_vi.odt](/files/gps-essentials_vi.odt) or [gps-essentials_vi.pdf](/files/gps-essentials_vi.pdf)  
 > Reviewed 2015-05-24  
 
 Cài đặt GPS Essentials

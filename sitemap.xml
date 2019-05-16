@@ -6000,9 +6000,6 @@
 				               href="https://learnosm.org/zh/beginner/moving-forward"/>
 </url>
 <url>
-<loc>http://learnosm.org/sq/beginner/moving-forward/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/sw/beginner/moving-forward/</loc>
           <priority>0.6</priority>
             <changefreq>yearly</changefreq>
@@ -6614,9 +6611,6 @@
 				               href="https://learnosm.org/zh/beginner/glossary"/>
 </url>
 <url>
-<loc>http://learnosm.org/fa/beginner/glossary/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/fr/beginner/glossary/</loc>
           <priority>0.6</priority>
             <changefreq>yearly</changefreq>
@@ -6683,79 +6677,7 @@
 				               href="https://learnosm.org/zh/beginner/glossary"/>
 </url>
 <url>
-<loc>http://learnosm.org/hr/beginner/glossary/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/id/beginner/glossary/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/it/beginner/glossary/</loc>
-          <priority>0.6</priority>
-            <changefreq>yearly</changefreq>
-              <lastmod>2015-07-18T09:11:26+00:00</lastmod>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="cs"
-				               href="https://learnosm.org/cs/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="de"
-				               href="https://learnosm.org/de/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="en"
-				               href="https://learnosm.org/en/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="es"
-				               href="https://learnosm.org/es/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="fr"
-				               href="https://learnosm.org/fr/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="it"
-				               href="https://learnosm.org/it/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="ja"
-				               href="https://learnosm.org/ja/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="my"
-				               href="https://learnosm.org/my/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="nl"
-				               href="https://learnosm.org/nl/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="pl"
-				               href="https://learnosm.org/pl/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="pt"
-				               href="https://learnosm.org/pt/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="sw"
-				               href="https://learnosm.org/sw/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="uk"
-				               href="https://learnosm.org/uk/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="vi"
-				               href="https://learnosm.org/vi/beginner/glossary"/>
-				         <xhtml:link 
-				               rel="alternate"
-				               hreflang="zh"
-				               href="https://learnosm.org/zh/beginner/glossary"/>
-</url>
-<url>
-<loc>http://learnosm.org/ja/beginner/glossary/</loc>
           <priority>0.6</priority>
             <changefreq>yearly</changefreq>
               <lastmod>2015-07-18T09:11:26+00:00</lastmod>
@@ -6885,9 +6807,6 @@
 				               rel="alternate"
 				               hreflang="zh"
 				               href="https://learnosm.org/zh/beginner/glossary"/>
-</url>
-<url>
-<loc>http://learnosm.org/nb/beginner/glossary/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/nl/beginner/glossary/</loc>
@@ -7023,144 +6942,6 @@
 </url>
 <url>
 <loc>http://learnosm.org/pt/beginner/glossary/</loc>
-          <priority>0.6</priority>
-            <changefreq>yearly</changefreq>
-              <lastmod>2015-07-18T09:11:26+00:00</lastmod>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="cs"
-				               href="https://learnosm.org/cs/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="de"
-				               href="https://learnosm.org/de/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="en"
-				               href="https://learnosm.org/en/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="es"
-				               href="https://learnosm.org/es/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="fr"
-				               href="https://learnosm.org/fr/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="it"
-				               href="https://learnosm.org/it/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="ja"
-				               href="https://learnosm.org/ja/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="my"
-				               href="https://learnosm.org/my/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="nl"
-				               href="https://learnosm.org/nl/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="pl"
-				               href="https://learnosm.org/pl/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="pt"
-				               href="https://learnosm.org/pt/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="sw"
-				               href="https://learnosm.org/sw/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="uk"
-				               href="https://learnosm.org/uk/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="vi"
-				               href="https://learnosm.org/vi/beginner/glossary"/>
-				         <xhtml:link 
-				               rel="alternate"
-				               hreflang="zh"
-				               href="https://learnosm.org/zh/beginner/glossary"/>
-</url>
-<url>
-<loc>http://learnosm.org/ru/beginner/glossary/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/sq/beginner/glossary/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/sw/beginner/glossary/</loc>
-          <priority>0.6</priority>
-            <changefreq>yearly</changefreq>
-              <lastmod>2015-07-18T09:11:26+00:00</lastmod>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="cs"
-				               href="https://learnosm.org/cs/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="de"
-				               href="https://learnosm.org/de/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="en"
-				               href="https://learnosm.org/en/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="es"
-				               href="https://learnosm.org/es/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="fr"
-				               href="https://learnosm.org/fr/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="it"
-				               href="https://learnosm.org/it/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="ja"
-				               href="https://learnosm.org/ja/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="my"
-				               href="https://learnosm.org/my/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="nl"
-				               href="https://learnosm.org/nl/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="pl"
-				               href="https://learnosm.org/pl/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="pt"
-				               href="https://learnosm.org/pt/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="sw"
-				               href="https://learnosm.org/sw/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="uk"
-				               href="https://learnosm.org/uk/beginner/glossary"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="vi"
-				               href="https://learnosm.org/vi/beginner/glossary"/>
-				         <xhtml:link 
-				               rel="alternate"
-				               hreflang="zh"
-				               href="https://learnosm.org/zh/beginner/glossary"/>
-</url>
-<url>
-<loc>http://learnosm.org/uk/beginner/glossary/</loc>
           <priority>0.6</priority>
             <changefreq>yearly</changefreq>
               <lastmod>2015-07-18T09:11:26+00:00</lastmod>
@@ -7673,88 +7454,7 @@
 				               href="https://learnosm.org/zh/beginner/id-editor"/>
 </url>
 <url>
-<loc>http://learnosm.org/fa/beginner/id-editor/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/fr/beginner/id-editor/</loc>
-          <priority>0.6</priority>
-            <changefreq>yearly</changefreq>
-              <lastmod>2016-03-30T09:11:26+00:00</lastmod>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="cs"
-				               href="https://learnosm.org/cs/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="de"
-				               href="https://learnosm.org/de/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="en"
-				               href="https://learnosm.org/en/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="es"
-				               href="https://learnosm.org/es/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="fr"
-				               href="https://learnosm.org/fr/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="hr"
-				               href="https://learnosm.org/hr/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="id"
-				               href="https://learnosm.org/id/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="it"
-				               href="https://learnosm.org/it/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="ja"
-				               href="https://learnosm.org/ja/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="ko"
-				               href="https://learnosm.org/ko/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="my"
-				               href="https://learnosm.org/my/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="nl"
-				               href="https://learnosm.org/nl/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="pl"
-				               href="https://learnosm.org/pl/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="pt"
-				               href="https://learnosm.org/pt/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="sw"
-				               href="https://learnosm.org/sw/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="uk"
-				               href="https://learnosm.org/uk/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="vi"
-				               href="https://learnosm.org/vi/beginner/id-editor"/>
-				         <xhtml:link 
-				               rel="alternate"
-				               hreflang="zh"
-				               href="https://learnosm.org/zh/beginner/id-editor"/>
-</url>
-<url>
-<loc>http://learnosm.org/hr/beginner/id-editor/</loc>
           <priority>0.6</priority>
             <changefreq>yearly</changefreq>
               <lastmod>2016-03-30T09:11:26+00:00</lastmod>
@@ -8222,9 +7922,6 @@
 				               href="https://learnosm.org/zh/beginner/id-editor"/>
 </url>
 <url>
-<loc>http://learnosm.org/nb/beginner/id-editor/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/nl/beginner/id-editor/</loc>
           <priority>0.6</priority>
             <changefreq>yearly</changefreq>
@@ -8459,91 +8156,7 @@
 				               href="https://learnosm.org/zh/beginner/id-editor"/>
 </url>
 <url>
-<loc>http://learnosm.org/ru/beginner/id-editor/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/sq/beginner/id-editor/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/sw/beginner/id-editor/</loc>
-          <priority>0.6</priority>
-            <changefreq>yearly</changefreq>
-              <lastmod>2016-03-30T09:11:26+00:00</lastmod>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="cs"
-				               href="https://learnosm.org/cs/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="de"
-				               href="https://learnosm.org/de/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="en"
-				               href="https://learnosm.org/en/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="es"
-				               href="https://learnosm.org/es/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="fr"
-				               href="https://learnosm.org/fr/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="hr"
-				               href="https://learnosm.org/hr/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="id"
-				               href="https://learnosm.org/id/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="it"
-				               href="https://learnosm.org/it/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="ja"
-				               href="https://learnosm.org/ja/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="ko"
-				               href="https://learnosm.org/ko/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="my"
-				               href="https://learnosm.org/my/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="nl"
-				               href="https://learnosm.org/nl/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="pl"
-				               href="https://learnosm.org/pl/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="pt"
-				               href="https://learnosm.org/pt/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="sw"
-				               href="https://learnosm.org/sw/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="uk"
-				               href="https://learnosm.org/uk/beginner/id-editor"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="vi"
-				               href="https://learnosm.org/vi/beginner/id-editor"/>
-				         <xhtml:link 
-				               rel="alternate"
-				               hreflang="zh"
-				               href="https://learnosm.org/zh/beginner/id-editor"/>
-</url>
-<url>
-<loc>http://learnosm.org/uk/beginner/id-editor/</loc>
           <priority>0.6</priority>
             <changefreq>yearly</changefreq>
               <lastmod>2016-03-30T09:11:26+00:00</lastmod>
@@ -15842,43 +15455,13 @@
 <loc>http://learnosm.org/fr/intermediate/creating-custom-preset/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/de/intermediate/editing-the-wiki/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/en/intermediate/editing-the-wiki/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/es/intermediate/editing-the-wiki/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/fr/intermediate/editing-the-wiki/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/hr/intermediate/editing-the-wiki/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/id/intermediate/editing-the-wiki/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/it/intermediate/editing-the-wiki/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/ja/intermediate/editing-the-wiki/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/pt/intermediate/editing-the-wiki/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/ru/intermediate/editing-the-wiki/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/sw/intermediate/editing-the-wiki/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/uk/intermediate/editing-the-wiki/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/zh/intermediate/editing-the-wiki/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/fr/intermediate/tasking-manager/</loc>
@@ -16016,6 +15599,9 @@
 <loc>http://learnosm.org/en/hot-tips/saving/</loc>
 </url>
 <url>
+<loc>http://learnosm.org/fa/hot-tips/saving/</loc>
+</url>
+<url>
 <loc>http://learnosm.org/fr/hot-tips/saving/</loc>
 </url>
 <url>
@@ -16094,7 +15680,7 @@
 <loc>http://learnosm.org/pl/hot-tips/tracing-round-buildings/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/vi/hot-tips/tracing-round-buildings/</loc>
+<loc>http://learnosm.org/vin/hot-tips/tracing-round-buildings/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/cs/hot-tips/tracing-rectangular-buildings/</loc>
@@ -16214,9 +15800,6 @@
 <loc>http://learnosm.org/it/coordination/review/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/ja/coordination/review/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/my/coordination/review/</loc>
 </url>
 <url>
@@ -16244,37 +15827,13 @@
 <loc>http://learnosm.org/en/coordination/remote-tracing/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/es/coordination/remote-tracing/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/fa/coordination/remote-tracing/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/fr/coordination/remote-tracing/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/it/coordination/remote-tracing/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/my/coordination/remote-tracing/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/nb/coordination/remote-tracing/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/nl/coordination/remote-tracing/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/ru/coordination/remote-tracing/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/sq/coordination/remote-tracing/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/vi/coordination/remote-tracing/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/tw/coordination/remote-tracing/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/cs/coordination/remote/</loc>
@@ -16403,12 +15962,6 @@
 <loc>http://learnosm.org/es/coordination/tasking-manager/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/fa/coordination/tasking-manager</loc>
-</url>
-<url>
-<loc>http://learnosm.org/ja/coordination/tasking-manager/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/my/coordination/tasking-manager/</loc>
 </url>
 <url>
@@ -16433,40 +15986,19 @@
 <loc>http://learnosm.org/fa/coordination/humanitarian/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/fr/coordination/humanitarian/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/hr/coordination/humanitarian/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/id/coordination/humanitarian/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/it/coordination/humanitarian/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/ja/coordination/humanitarian/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/my/coordination/humanitarian/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/nb/coordination/humanitarian/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/nl/coordination/humanitarian/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/pt/coordination/humanitarian/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/ru/coordination/humanitarian/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/sq/coordination/humanitarian/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/uk/coordination/humanitarian/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/vi/coordination/humanitarian/</loc>
@@ -16499,12 +16031,6 @@
 <loc>http://learnosm.org/fa/coordination/HOT-Remote-Response-Guide/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/fr/coordination/HOT-Remote-Response-Guide</loc>
-</url>
-<url>
-<loc>http://learnosm.org/hr/coordination/HOT-Remote-Response-Guide</loc>
-</url>
-<url>
 <loc>http://learnosm.org/id/coordination/HOT-Remote-Response-Guide</loc>
 </url>
 <url>
@@ -16518,9 +16044,6 @@
 </url>
 <url>
 <loc>http://learnosm.org/nl/coordination/HOT-Remote-Response-Guide/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/pt/coordination/HOT-Remote-Response-Guide</loc>
 </url>
 <url>
 <loc>http://learnosm.org/ru/coordination/HOT-Remote-Response-Guide/</loc>
@@ -16556,9 +16079,6 @@
 <loc>http://learnosm.org/fr/coordination/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/hr/coordination/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/id/coordination/</loc>
 </url>
 <url>
@@ -16571,9 +16091,6 @@
 <loc>http://learnosm.org/my/coordination/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/nb/coordination/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/nl/coordination/</loc>
 </url>
 <url>
@@ -16583,16 +16100,7 @@
 <loc>http://learnosm.org/pt/coordination/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/ru/coordination/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/sq/coordination/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/sw/coordination/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/uk/coordination/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/vi/coordination/</loc>
@@ -16608,9 +16116,6 @@
 </url>
 <url>
 <loc>http://learnosm.org/en/osm-data/osmosis/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/hr/osm-data/osmosis/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/id/osm-data/osmosis/</loc>
@@ -16640,9 +16145,6 @@
 <loc>http://learnosm.org/en/osm-data/osm2pgsql/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/hr/osm-data/osm2pgsql/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/id/osm-data/osm2pgsql/</loc>
 </url>
 <url>
@@ -16670,9 +16172,6 @@
 <loc>http://learnosm.org/en/osm-data/postgresql/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/hr/osm-data/setting-up-postgresql/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/id/osm-data/setting-up-postgresql/</loc>
 </url>
 <url>
@@ -16697,9 +16196,6 @@
 <loc>http://learnosm.org/cs/osm-data/osm-in-qgis/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/cs/osm-data/osm-in-qgis</loc>
-</url>
-<url>
 <loc>http://learnosm.org/de/osm-data/osm-in-qgis/</loc>
 </url>
 <url>
@@ -16710,12 +16206,6 @@
 </url>
 <url>
 <loc>http://learnosm.org/fa/osm-data/osm-in-qgis/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/fr/osm-data/osm-in-qgis/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/hr/osm-data/osm-in-qgis/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/id/osm-data/osm-in-qgis/</loc>
@@ -16730,31 +16220,13 @@
 <loc>http://learnosm.org/my/osm-data/osm-in-qgis/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/nb/osm-data/osm-in-qgis/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/nl/osm-data/osm-in-qgis/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/pl/osm-data/osm-in-qgis/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/pt/osm-data/osm-in-qgis/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/ru/osm-data/osm-in-qgis/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/sw/osm-data/osm-in-qgis/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/uk/osm-data/osm-in-qgis/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/vi/osm-data/osm-in-qgis/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/zh/osm-data/osm-in-qgis/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/de/osm-data/geofabrik-and-hot-export/</loc>
@@ -16785,9 +16257,6 @@
 </url>
 <url>
 <loc>http://learnosm.org/en/osm-data/getting-data/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/hr/osm-data/getting-data/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/id/osm-data/getting-data/</loc>
@@ -16823,9 +16292,6 @@
 <loc>http://learnosm.org/fa/osm-data/file-formats/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/hr/osm-data/file-formats/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/id/osm-data/file-formats/</loc>
 </url>
 <url>
@@ -16857,9 +16323,6 @@
 </url>
 <url>
 <loc>http://learnosm.org/fa/osm-data/data-overview/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/hr/osm-data/data-overview/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/id/osm-data/data-overview/</loc>
@@ -16896,9 +16359,6 @@
 </url>
 <url>
 <loc>http://learnosm.org/fa/osm-data/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/hr/osm-data/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/id/osm-data/</loc>
@@ -16964,13 +16424,7 @@
 <loc>http://learnosm.org/nl/mobile-mapping/gpsessentials/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/sw/mobile-mapping/gpsessentials/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/vi/mobile-mapping/gpsessentials/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/cs/mobile-mapping/gpslogger/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/de/mobile-mapping/gpslogger/</loc>
@@ -16982,19 +16436,13 @@
 <loc>http://learnosm.org/es/mobile-mapping/gpslogger/</loc>
 </url>
 <url>
+<loc>http://learnosm.org/fa/mobile-mapping/gpslogger/</loc>
+</url>
+<url>
 <loc>http://learnosm.org/fr/mobile-mapping/gpslogger/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/hr/mobile-mapping/gpslogger/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/id/mobile-mapping/gpslogger/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/it/mobile-mapping/gpslogger/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/ja/mobile-mapping/gpslogger/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/my/mobile-mapping/gpslogger/</loc>
@@ -17003,19 +16451,7 @@
 <loc>http://learnosm.org/nl/mobile-mapping/gpslogger/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/ru/mobile-mapping/gpslogger/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/sw/mobile-mapping/gpslogger/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/uk/mobile-mapping/gpslogger/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/vi/mobile-mapping/gpslogger/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/zh/mobile-mapping/gpslogger/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/cs/mobile-mapping/basicairdata-gpslogger/</loc>
@@ -17028,6 +16464,9 @@
 </url>
 <url>
 <loc>http://learnosm.org/es/mobile-mapping/basicairdata-gpslogger/</loc>
+</url>
+<url>
+<loc>http://learnosm.org/fa/mobile-mapping/basicairdata-gpslogger/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/it/mobile-mapping/basicairdata-gpslogger/</loc>
@@ -17054,9 +16493,6 @@
 <loc>http://learnosm.org/nl/mobile-mapping/osmtracker/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/sw/mobile-mapping/osmtracker/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/vi/mobile-mapping/osmtracker/</loc>
 </url>
 <url>
@@ -17064,6 +16500,9 @@
 </url>
 <url>
 <loc>http://learnosm.org/en/mobile-mapping/oruxmaps/</loc>
+</url>
+<url>
+<loc>http://learnosm.org/fa/mobile-mapping/oruxmaps/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/ja/mobile-mapping/oruxmaps/</loc>
@@ -17079,9 +16518,6 @@
 </url>
 <url>
 <loc>http://learnosm.org/en/mobile-mapping/osmand/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/ja/mobile-mapping/osmand/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/de/mobile-mapping/osmand2/</loc>
@@ -17141,16 +16577,10 @@
 <loc>http://learnosm.org/ru/mobile-mapping/field-papers/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/sw/mobile-mapping/field-papers/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/uk/mobile-mapping/field-papers/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/vi/mobile-mapping/field-papers/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/zh/mobile-mapping/field-papers/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/cs/mobile-mapping/using-gps/</loc>
@@ -17192,9 +16622,6 @@
 <loc>http://learnosm.org/ru/mobile-mapping/using-gps/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/sw/mobile-mapping/using-gps/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/uk/mobile-mapping/using-gps/</loc>
 </url>
 <url>
@@ -17222,9 +16649,6 @@
 <loc>http://learnosm.org/fr/mobile-mapping/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/hr/mobile-mapping/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/id/mobile-mapping/</loc>
 </url>
 <url>
@@ -17240,22 +16664,10 @@
 <loc>http://learnosm.org/nl/mobile-mapping/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/pt/mobile-mapping/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/ru/mobile-mapping/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/sw/mobile-mapping/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/uk/mobile-mapping/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/vi/mobile-mapping/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/zh/mobile-mapping/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/tw/mobile-mapping/</loc>
@@ -17319,6 +16731,9 @@
 </url>
 <url>
 <loc>http://learnosm.org/en/josm/josm-adding-imagery/</loc>
+</url>
+<url>
+<loc>http://learnosm.org/fa/josm/josm-adding-imagery/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/it/josm/josm-adding-imagery/</loc>
@@ -17540,9 +16955,6 @@
 <loc>http://learnosm.org/vi/josm/josm-plugins/</loc>
 </url>
 <url>
-<loc>http://learnosm.org/zh/josm/josm-plugins/</loc>
-</url>
-<url>
 <loc>http://learnosm.org/cs/josm/josm-tools/</loc>
 </url>
 <url>
@@ -17577,9 +16989,6 @@
 </url>
 <url>
 <loc>http://learnosm.org/vi/josm/josm-tools/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/zh/josm/josm-tools/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/cs/josm/editing-with-josm/</loc>
@@ -17628,9 +17037,6 @@
 </url>
 <url>
 <loc>http://learnosm.org/vi/josm/editing-with-josm/</loc>
-</url>
-<url>
-<loc>http://learnosm.org/zh/josm/editing-with-josm/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/tw/josm/editing-with-josm/</loc>
@@ -18172,92 +17578,6 @@
 </url>
 <url>
 <loc>http://learnosm.org/fr/josm/</loc>
-          <priority>0.8</priority>
-            <changefreq>yearly</changefreq>
-              <lastmod>2015-07-12T09:11:26+00:00</lastmod>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="cs"
-				               href="https://learnosm.org/cs/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="de"
-				               href="https://learnosm.org/de/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="en"
-				               href="https://learnosm.org/en/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="es"
-				               href="https://learnosm.org/es/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="fa"
-				               href="https://learnosm.org/fa/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="fr"
-				               href="https://learnosm.org/fr/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="hr"
-				               href="https://learnosm.org/hr/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="id"
-				               href="https://learnosm.org/id/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="it"
-				               href="https://learnosm.org/it/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="ja"
-				               href="https://learnosm.org/ja/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="my"
-				               href="https://learnosm.org/my/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="nb"
-				               href="https://learnosm.org/nb/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="nl"
-				               href="https://learnosm.org/nl/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="pl"
-				               href="https://learnosm.org/pl/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="pt"
-				               href="https://learnosm.org/pt/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="ru"
-				               href="https://learnosm.org/ru/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="sw"
-				               href="https://learnosm.org/sw/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="uk"
-				               href="https://learnosm.org/uk/josm"/>
-				        <xhtml:link 
-				               rel="alternate"
-				               hreflang="vi"
-				               href="https://learnosm.org/vi/josm"/>
-				         <xhtml:link 
-				               rel="alternate"
-				               hreflang="zh"
-				               href="https://learnosm.org/zh/josm"/>
-</url>
-<url>
-<loc>http://learnosm.org/hr/josm/</loc>
           <priority>0.8</priority>
             <changefreq>yearly</changefreq>
               <lastmod>2015-07-12T09:11:26+00:00</lastmod>

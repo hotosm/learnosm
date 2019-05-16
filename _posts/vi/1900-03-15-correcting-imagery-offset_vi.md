@@ -9,7 +9,6 @@ category: josm
 Hiệu chỉnh ảnh
 ===============
 
-> Hướng dẫn này có thể được tải xuống tại đây: [correcting-imagery-offset_vi.odt](/files/correcting-imagery-offset_vi.odt) or [correcting-imagery-offset_vi.pdf](/files/correcting-imagery-offset_vi.pdf)  
 > Reviewed 2015-09-21  
 
 Các Nhà cung cấp hình ảnh thường làm một công việc khá tốt trong việc mô phỏng hình ảnh của họ, nhưng thỉnh thoảng hình ảnh có thể bị sai vị trí. Điều này đặc biệt đúng ở các vùng đồi núi, nơi rất khó để tạo ra một hình ảnh phẳng trên một diện tích Trái đất với nhiều đường đồng mức. Khi bạn tải hình ảnh trong JOSM cho các khu vực đồi núi, đôi khi nó có thể bị lệch mười mét hoặc hơn từ vị trí thực sự của nó. Đây được gọi là **imagery offset/ dịch chuyển ảnh**  

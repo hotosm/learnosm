@@ -9,7 +9,6 @@ category: josm
 JOSM - Thêm ảnh hàng không
 ================
 
-> Hướng dẫn này có thể được tải xuống tại đây: [josm_adding_imagery_vi.odt](/files/josm_adding_imagery_vi.odt) or [josm_adding_imagery_vi.pdf](/files/josm_adding_imagery_vi.pdf)  
 > Cập nhật: 2017-11-8  
 
 Không phải tất cả hình ảnh trên không đều nằm trong trình đơn hình ảnh của JOSM, nhưng bạn có thể dễ dàng thêm nếu bạn được cung cấp thông tin liên kết  

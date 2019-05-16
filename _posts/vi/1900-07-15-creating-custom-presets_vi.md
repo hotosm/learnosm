@@ -9,7 +9,6 @@ category: josm
 JOSM - Tạo các Cài sẵn Tùy chỉnh
 =======================
 
-> Hướng dẫn này có thể được tải xuống tại đây: [creating-presets_vi.odt](/files/creating-presets_vi.odt) or [creating-presets_vi.pdf](/files/creating-presets_vi.pdf)  
 > Cập nhật: 2017-11-06  
 
 Trong [Chương trước](/vi/josm/josm-presets) chúng ta đã xem xét cách thêm các trình đơn cài sẵn tùy chỉnh vào JOSM. Trong chương này, chúng tôi sẽ giới thiệu cách tạo các tập tin cài sẵn tùy chỉnh của riêng bạn  

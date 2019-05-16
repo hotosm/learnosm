@@ -9,7 +9,6 @@ Phân loại: osm-data
 osm2pgsql
 ==========
 
-> Hướng dẫn có thể được tải tại đây [osm2pgsql_vi.odt](/files/osm2pgsql_vi.odt) or [osm2pgsql_vi.pdf](/files/osm2pgsql_vi.pdf)  
 
 Trong chương trước, chúng ta đã thấy cách thiết lập Postgresql với PostGIS trong Win-dows và cách thiết lập một cơ sở dữ liệu và nạp nó với dữ liệu shapefile. Để có được dữ liệu OpenStreetMap vào cơ sở dữ liệu, bạn có thể lấy dữ liệu ở định dạng shapefile và sử dụng bộ nạp shapefile, nhưng điều này có thể để lại cho bạn mà không có tất cả dữ liệu mà bạn muốn. Trong chương này chúng ta sẽ học cách sử dụng **osm2pgsql**, một chương trình dòng lệnh để nạp dữ liệu OSM thô vào cơ sở dữ liệu PostGIS.  
 

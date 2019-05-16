@@ -9,7 +9,6 @@ category: josm
 JOSM Plugins
 ============
 
-> Hướng dẫn này có thể được tải xuống tại đây: [josm-plugins_vi.odt](/files/josm-plugins_vi.odt) or [josm-plugins_vi.pdf](/files/josm-plugins_vi.pdf)  
 > Cập nhật: 2017-11-06  
 
 Khi bạn trở nên thành thạo hơn trong kỹ thuật chỉnh sửa bản đồ, bạn có thể muốn sử dụng các tính năng bổ sung của JOSM để cải thiện kỹ năng lập bản đồ của mình. JOSM cho phép bạn cài đặt nhiều Công cụ bổ sung (Plugin) để thêm nhiều chức năng cho phần mềm.  

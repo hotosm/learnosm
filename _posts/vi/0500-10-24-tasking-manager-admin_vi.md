@@ -5,7 +5,6 @@ permalink: /vi/coordination/tasking-manager-project-admin/
 lang: vi
 category: coordination
 ---
-> Hướng dẫn này có thể được tải xuống dưới dạng mô-đun độc lập: [tasking-manager-admin_vi.odt](/files/tasking-manager-admin_vi.odt) or [tasking-manager-admin_vi.pdf](/files/tasking-manager-admin_vi.pdf) 
 
 **Hướng dẫn này mô tả một phiên bản kế thừa của Trình quản lý tác vụ. Nếu giao diện người dùng của phiên bản bạn sử dụng trông khác với mô tả ở đây thì bạn nên tham khảo [hướng dẫn sử dụng phiên bản 3](/vi/coordination/tasking-manager3-project-admin)**
 

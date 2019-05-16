@@ -9,7 +9,6 @@ category: josm
 Ảnh hàng không
 ================
 
-> Hướng dẫn này có thể được tải xuống tại đây: [aerial-imagery_vi.odt](/files/aerial-imagery_vi.odt) or [aerial-imagery_vi.pdf](/files/aerial-imagery_vi.pdf)  
 > Cập nhật: 2017-11-8  
 
 Vẽ theo hình ảnh là một cách dễ dàng và mạnh mẽ để đóng góp cho OSM. Sử dụng hình ảnh để vẽ các điểm, đường và hình dạng trên mặt đất được gọi là **digitizing/ số hóa bản đồ**. Nó thường có thể được tách ra từ hành động thu thập dữ liệu thuộc tính trên mặt đất, thường được gọi là **ground-truthing/ thu thập dữ liệu mặt đất**. Số hóa ảnh hàng không có thể tạo ra nội dung xương sống của bản đồ OSM, mà làm cho việc thu thập dữ liệu mặt đất dễ dàng hơn cho mọi người tại hiện trường. Trong chương này chúng ta sẽ học thêm một chút về cách hoạt động của hình ảnh hàng không.  

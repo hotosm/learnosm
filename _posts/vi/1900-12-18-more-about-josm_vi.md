@@ -9,7 +9,6 @@ category: josm
 The JOSM Editing Process
 ========================
 
-> Hướng dẫn này có thể được tải xuống tại đây: [josm_more-about-josm_vi.odt](/files/josm_more-about-josm_vi.odt) or [josm_more-about-josm_vi.pdf](/files/josm_more-about-josm_vi.pdf)  
 > Cập nhật: 2017-11-06  
 
 Trong chương trước,

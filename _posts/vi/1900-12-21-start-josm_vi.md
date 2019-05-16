@@ -10,7 +10,6 @@ published: true
 Getting Started with JOSM
 =============================  
 
-> Hướng dẫn này có thể được tải xuống tại đây: [josm_start-josm_vi.odt](/files/josm_start-josm_vi.odt) or [josm_start-josm_vi.pdf](/files/josm_start-josm_vi.pdf)  
 > Cập nhật: 2017-11-06  
 
 Chương này, chúng ta sẽ biết cách tải xuống và cài đặt JOSM,

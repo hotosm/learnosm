@@ -9,7 +9,6 @@ category: mobile-mapping
 GPSLogger từ Android
 =====================
 
-> Hướng dẫn này có thể được tải xuống dưới dạng [gpslogger_vi.odt](/files/gpslogger_vi.odt) or [gpslogger_vi.pdf](/files/gpslogger_vi.pdf)  
 > Reviewed 2015-12-06  
 
 ![GPSLogger][]

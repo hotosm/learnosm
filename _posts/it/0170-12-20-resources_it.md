@@ -20,7 +20,7 @@ Questo è un elenco commentato di collegamenti ad altri siti web che consideriam
 
 ### iD
 
-  * [tutorial integrato di iD](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) Un tutorial interattivo sull'uso di iD come parte del software
+  * [tutorial integrato di iD](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) Un tutorial interattivo sull'uso di iD come parte del software.
   * [slides sui contenuti della nostra guida](/files/iD-editor-training.pptx) materiale adatto se si vuole dare una introduzione su iD ad un mapathon
   * [Video tutorial per HOT](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) Una collezione di video istruttivi per lo più centrati sulla mappatura con iD e JOSM
   * [Video tutorial su iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Alcuni video molto brevi che spiegano come svolgere attività comuni

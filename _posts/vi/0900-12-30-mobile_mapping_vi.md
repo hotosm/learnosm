@@ -11,7 +11,6 @@ nosearch: true
 Lập bản đồ với điện thoại thông minh, GPS và bản đồ hiện trường
 =============================
 
-> Hướng dẫn này có thể tại tại đây [mobile-mapping_vi.odt](/files/mobile-mapping_vi.odt) or [mobile-mapping_vi.pdf](/files/mobile-mapping_vi.pdf)  
 > Reviewed 2015-07-14  
 
 Để thực sự tạo một bản đồ chi tiết và chính xác, bạn cần phải thực hiện một cuộc khảo sát trong khu vực bạn đang cập nhật. Các hướng dẫn trong phần này đề cập đến việc thực hiện một cuộc khảo sát bằng cách sử dụng một;  

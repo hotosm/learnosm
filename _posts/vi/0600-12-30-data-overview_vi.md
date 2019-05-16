@@ -10,7 +10,6 @@ Tổng quan về dữ liệu OpenStreetMap
 ==================
 
 
-> Hướng dẫn này có thể được tải xuống tại đây: [OSM_Data_Overview_vi.odt](/files/OSM_Data_Overview_vi.odt) hoặc [OSM_Data_Overview_vi.pdf](/files/OSM_Data_Overview_vi.pdf)  
 > Cập nhật: 2017-10-31
 
 <!--Trong phần này, chúng ta sẽ tìm hiểu cách thức vận hành của OpenStreetMap, điều sẽ giúp chúng ta hiểu rõ hơn cách thức tổ chức dữ liệu và làm thế nào để sử dụng dữ liệu đó tốt nhất.-->

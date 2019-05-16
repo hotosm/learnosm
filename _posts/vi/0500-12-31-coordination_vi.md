@@ -12,12 +12,8 @@ nosearch: true
 Phối hợp hoạt động
 ============
 
-> Hướng dẫn này có thể được tải tại đây [coordination_vi.odt](/files/coordination_vi.odt) or [coordination_vi.pdf](/files/coordination_vi.pdf)  
 > Reviewed 2015-09-18
 
-Bởi vì OpenStreetMap liên quan đến nhiều người lập bản đồ với nhau.
-Vì vậy, sẽ rất hữu ích khi biết cách những người lập bản đồ có thể phối hợp trong hoạt động này.
+Bởi vì OpenStreetMap liên quan đến nhiều người lập bản đồ với nhau. Vì vậy, sẽ rất hữu ích khi biết cách những người lập bản đồ có thể phối hợp trong hoạt động này.
 
-Phần này của LearnOSM cung cấp thông tin về các công cụ khác nhau
-được sử dụng để điều phối các hoạt động lập bản đồ, các phương tiện trao đổi thông tin,
-và đảm bảo chất lượng.
+Phần này của LearnOSM cung cấp thông tin về các công cụ khác nhau được sử dụng để điều phối các hoạt động lập bản đồ, các phương tiện trao đổi thông tin, và đảm bảo chất lượng.

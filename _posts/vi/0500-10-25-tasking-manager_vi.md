@@ -8,7 +8,6 @@ category: coordination
 
 # Trình quản lý tác vụ
 
-> Hướng dẫn này có thể tải tại đây [tasking-manager_vi.odt](/files/tasking-manager_vi.odt) or [tasking-manager_vi.pdf](/files/tasking-manager_vi.pdf)  
 > Reviewed 2017-12-19  
 
 **Hướng dẫn này mô tả một phiên bản kế thừa của Tasking Manager. Nếu giao diện người dùng của phiên bản bạn sử dụng trông khác với trình mô tả ở đây thì bạn nên tham khảo [sổ tay cho phiên bản 3](/vi/coordination/tasking-manager3)**

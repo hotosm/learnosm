@@ -9,7 +9,6 @@ category: mobile-mapping
 OruxMaps
 ===============
 
-> Hướng dẫn này có thể được tải xuống dưới dạng [OruxMaps_vi.odt](/files/OruxMaps_vi.odt) or [OruxMaps_vi.pdf](/files/OruxMaps_vi.pdf)  
 > Reviewed 2016-08-04 and although slightly out of date is still functional & contains a link to the sites own software manual.
 
 Trong phần này, chúng ta sẽ học làm thế nào để thiết lập OruxMaps, làm thế nào để tạo waypoint, làm thế nào để xem một tracklog, và làm thế nào để export một tracklog để sử dụng trong JOSM.  

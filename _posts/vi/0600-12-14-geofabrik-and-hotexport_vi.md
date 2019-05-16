@@ -9,7 +9,6 @@ category: osm-data
 Sử dụng Geofabrik và HOT Export
 ================
 
-> Hướng dẫn này có thể được tải xuống tại đây: [Geofabrik_and_HOT_Export_vi.odt](/files/Geofabrik_and_HOT_Export_vi.odt) or [Geofabrik_and_HOT_Export_vi.pdf](/files/Geofabrik_and_HOT_Export_vi.pdf)  
 > Cập nhật: 2017-12-24  
 
 Sau khi học cách thêm và chỉnh sửa dữ liệu trong OpenStreetMap (OSM), bây giờ có thể bạn muốn lấy dữ liệu làm bản sao lưu hoặc xử lý nó bằng phần mềm Hệ thống Thông tin Địa lý mã nguồn mở, chẳng hạn như Quantum GIS ([www.qgis.org](http://www.qgis.org)).  

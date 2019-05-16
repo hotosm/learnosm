@@ -8,7 +8,6 @@ category: coordination
 
 # Trình quản lý tác vụ 3
 
-> Hướng dẫn này có thể tải tại đây [tasking-manager3_vi.odt](/files/tasking-manager3_vi.odt) or [tasking-manager3_vi.pdf](/files/tasking-manager3_vi.pdf)  
 
 **Hướng dẫn này mô tả phiên bản hiện tại của Trình quản lý tác vụ. Nếu giao diện người dùng của phiên bản bạn sử dụng trông khác với trình mô tả ở đây thì bạn nên tham khảo [hướng dẫn sử dụng cho phiên bản trước đó](/vi/coordination/tasking-manager)**
 
@@ -292,10 +291,7 @@ Nếu bạn cần gửi một tin nhắn, chẳng hạn như email hoặc tin nh
 
 1. Nhấp vào hình vuông nhiệm vụ có liên quanClick on the task square concerned  
 2. Nhấp vào thanh địa chỉ trong trình duyệt web của bạn, trong đó sẽ hiển thị một cái gì đó tương tự như 'http://tasks.hotosm.org/project/713?task=259'  
-3. Đánh dấu bằng chuột tất cả các văn bản trong thanh địa chỉ, hoặc sử dụng các phím tắt **Ctrl+A** để chọn tất cả các văn bản, sau đó sử dụng phím tắt **Ctrl+C** để sao chép văn bản  
-4. Trong email, tin nhắn của IRC, hoặc tin nhắn khác,  
-    - một trong hai, click chuột phải và dán,  
-    - hoặc phím tắt **Ctrl+V**, để dán liên kết vào tin nhắn. 
+3. Copy this link into the message. 
 
 
 ## Trợ giúp 

@@ -9,7 +9,6 @@ category: josm
 Công cụ vẽ tòa nhà và công cụ Utilsplugin2 của JOSM
 ============
 
-> Hướng dẫn này có thể được tải xuống tại đây: [josm-more-plugins_vi.odt](/files/josm-more-plugins_vi.odt) or [josm-more-plugins_vi.pdf](/files/josm-more-plugins_vi.pdf)  
 > Cập nhật: 2017-11-06  
 
 Công cụ vẽ tòa nhà (**buildings_tools**) và công cụ **utilsplugin2** là sự bổ sung rất lớn cho các chức năng vào JOSM. Trong phần này, chúng ta sẽ xem xét sâu hơn các tính năng của các công cụ.  

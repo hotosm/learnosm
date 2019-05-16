@@ -9,7 +9,6 @@ category: osm-data
 Định dạng tệp tin
 =============
 
-> Hướng dẫn này có thể được tải xuống tại đây:  [File_Formats_vi.odt](/files/File_Formats_vi.odt) or [File_Formats_vi.pdf](/files/File_Formats_vi.pdf)  
 > Cập nhật: 2017-10-31
 
 Giống như bất kỳ loại dữ liệu nào, có nhiều cách khác nhau để lưu trữ dữ liệu địa lý trên máy tính. Nó có thể được lưu trong cơ sở dữ liệu, là một hệ thống chuyên biệt để lưu trữ và truy xuất dữ liệu, và trên thực tế có các hệ thống cơ sở dữ liệu được thiết kế đặc biệt để lưu trữ dữ liệu địa lý. Nó cũng có thể được lưu trữ trong các tệp máy tính truyền thống, mặc dù có nhiều định dạng tệp tin khác nhau cho dữ liệu địa lý.  

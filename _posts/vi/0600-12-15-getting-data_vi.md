@@ -9,7 +9,6 @@ category: osm-data
 Lấy dữ liệu OSM
 =================  
 
-> Hướng dẫn này có thể được tải xuống tại đây: [Getting_OSM_Data_vi.odt](/files/Getting_OSM_Data_vi.odt) hoặc [Getting_OSM_Data_vi.pdf](/files/Getting_OSM_Data_vi.pdf)  
 > Cập nhật: 2017-10-31
 
 Khi bạn muốn có được dữ liệu OpenStreetMap gần đây nhất, cách đơn giản nhất là sử dụng một công cụ web để trích xuất dữ liệu. Có nhiều dịch vụ web hỗ trợ chiết xuất dữ liệu cho một khu vực bạn chọn.  

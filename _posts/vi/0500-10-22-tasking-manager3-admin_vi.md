@@ -8,7 +8,6 @@ category: coordination
 
 # Trình quản lý tác vụ OSM - Tạo dự án và quản trị
 
-> Hướng dẫn này có thể được tải xuống dưới dạng mô-đun độc lập: [tasking-manager3-admin_vi.odt](/files/tasking-manager3-admin_vi.odt) or [tasking-manager3-admin_vi.pdf](/files/tasking-manager3-admin_vi.pdf) 
 
 **Hướng dẫn này mô tả phiên bản hiện tại của Trình quản lý tác vụ. Nếu phiên bản giao diện người dùng của bạn trông khác với trình mô tả ở đây thì bạn nên tham khảo [Hướng dẫn sử dụng cho phiên bản trước đó](/vi/coordination/tasking-manager-project-admin)**
 

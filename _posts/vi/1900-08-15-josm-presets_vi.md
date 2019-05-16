@@ -9,7 +9,6 @@ category: josm
 Các cài đặt trước của JOSM
 ============
 
-> Hướng dẫn này có thể được tải xuống tại đây: [josm-presets_vi.odt](/files/josm-presets_vi.odt) or [josm-presets_vi.pdf](/files/josm-presets_vi.pdf)  
 > Cập nhật: 2017-11-06  
 
 Nếu bạn đã sử dụng JOSM lâu, bây giờ bạn đã hiểu một chút về thẻ và cài đặt trước. Mỗi đối tượng được xác định bởi hai điều - đầu tiên, hình học của nó (cho dù nó là một điểm, đường, hoặc hình dạng và vị trí của nó), và thứ hai, các thuộc tính của nó dưới hình thức các thẻ thông tin.  

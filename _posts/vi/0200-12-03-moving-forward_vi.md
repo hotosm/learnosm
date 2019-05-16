@@ -9,7 +9,6 @@ category: beginner
 Đọc thêm
 ===============
 
-> Hướng dẫn này có thể được tải xuống tại đây: [beginner_moving-forward_vi.odt](/files/beginner_moving-forward_vi.odt) hoặc [beginner_moving-forward_vi.pdf](/files/beginner_moving-forward_vi.pdf)  
 > Cập nhật: 2017-10-31  
 
 Nếu bạn đã đọc đến chương này, xin chúc mừng! Bạn đã hiểu rõ về cách tạo bản đồ với OpenStreetMap. Bạn có thể làm gì khác với OSM? Làm sao bạn có thể học hỏi nhiều hơn? Bạn có thể kết nối với cộng đồng người lập bản đồ như thế nào?  

@@ -9,7 +9,6 @@ category: josm
 Các công cụ chỉnh sửa bản đồ của JOSM
 ==================
 
-> Hướng dẫn này có thể được tải xuống tại đây: [josm_josm-tools_vi.odt](/files/josm_josm-tools_vi.odt) or [josm_josm-tools_vi.pdf](/files/josm_josm-tools_vi.pdf)  
 > Cập nhật: 2017-11-06  
 
 - TOC

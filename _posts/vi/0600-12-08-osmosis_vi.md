@@ -9,7 +9,6 @@ category: osm-data
 Manipulating Data with Osmosis
 ===============================
 
-> This guide may be downloaded as [osmosis_vi.odt](/files/osmosis_vi.odt) or [osmosis_vi.pdf](/files/osmosis_vi.pdf)  
 
 **Osmosis** is a powerful command-line tool for manipulating and processing raw **.osm** data. It is often used for processing large data files, for splitting OSM files into smaller pieces, and for applying a changeset to update an existing file.  
 

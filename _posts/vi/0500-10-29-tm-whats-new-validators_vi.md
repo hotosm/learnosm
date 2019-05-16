@@ -9,7 +9,6 @@ date: 0500-10-21 12:00:00
 
 # Tính năng mới dành cho Người kiểm duyệt trong Trình quản lý tác vụ phiên bản 3
 
-> Hướng dẫn này có thể được tải tại đây [tm3-news-for-validators_vi.odt](/files/tm3-news-for-validators_vi.odt) or [tm3-news-for-validators_vi.pdf](/files/tm3-news-for-validators_vi.pdf)  
 
 ## Hồ sơ người dùng của bạn
 

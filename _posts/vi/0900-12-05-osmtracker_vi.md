@@ -9,7 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> Hướng dẫn này có thể được tải xuống dưới dạng [OSMTracker_vi.odt](/files/OSMTracker_vi.odt) or [OSMTracker_vi.pdf](/files/OSMTracker_vi.pdf)  
 > Reviewed 2016-02-08
   
 **Bài viết này liên quan đến OSMTracker cho Android - có một sản phẩm tương tự có sẵn cho Windows Mobile. **  

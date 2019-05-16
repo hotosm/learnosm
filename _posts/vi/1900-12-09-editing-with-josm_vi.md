@@ -9,7 +9,6 @@ category: josm
 Làm việc với dữ liệu hiện trường
 ==================
 
-> Hướng dẫn này có thể được tải xuống tại đây: [josm_editing-with-josm_vi.odt](/files/josm_editing-with-josm_vi.odt) or [josm_editing-with-josm_vi.pdf](/files/josm_editing-with-josm_vi.pdf)  
 > Cập nhật: 2017-11-06  
 
 Chúng ta đã có được bản đồ của tất cả các khối nhà trong OpenStreetMap.

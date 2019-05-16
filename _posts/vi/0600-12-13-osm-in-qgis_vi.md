@@ -9,7 +9,6 @@ category: osm-data
 Sử dụng dữ liệu OSM trong QGIS
 =================
 
-> Hướng dẫn này có thể được tải xuống tại đây: [Using_OSM_data_in_QGIS_vi.odt](/files/Using_OSM_data_in_QGIS_vi.odt) or [Using_OSM_data_in_QGIS_vi.pdf](/files/Using_OSM_data_in_QGIS_vi.pdf)  
 > Cập nhật: 2017-10-31
 
 QGIS (trước đây là Quantum GIS) là một hệ thống thông tin địa lý đa chức năng, mã nguồn mở, đa nền tảng. Với QGIS bạn có thể truy cập dữ liệu OSM cập nhật bất cứ khi nào bạn muốn, chọn các thẻ bạn muốn đưa vào, và dễ dàng xuất nó vào một cơ sở dữ liệu SQLite dễ sử dụng hoặc Shapefile.  

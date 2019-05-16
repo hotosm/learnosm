@@ -9,7 +9,6 @@ category: osm-data
 Cài đặt PostgreSQL & PostGIS
 ====================
 
-> Hướng dẫn này có thể được tải xuống tại đây: [PostgreSQL_vi.odt](/files/PostgreSQL_vi.odt) or [PostgreSQL_vi.pdf](/files/PostgreSQL_vi.pdf)  
 > Cập nhật: 2017-11-01
 
 Trong chương này chúng ta sẽ thấy làm thế nào để thiết lập PostgreSQL trên Windows và làm thế nào để tạo ra một cơ sở dữ liệu trong đó bạn có thể lưu trữ dữ liệu địa lý. Chúng tôi sẽ sử dụng phần mềm mã nguồn mở GIS QGIS trong chương này, vì vậy sẽ hữu ích nếu bạn đã quen với nó. Trong chương tiếp theo, chúng ta sẽ thấy làm thế nào để nhập dữ liệu OpenStreetMap vào một cơ sở dữ liệu PostgreSQL.  

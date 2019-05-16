@@ -9,7 +9,6 @@ category: josm
 Quan hệ giữa các đối tượng bản đồ
 ==========
 
-> Hướng dẫn này có thể được tải xuống tại đây: [josm_relations_vi.odt](/files/josm_relations_vi.odt) or [josm_relations_vi.pdf](/files/josm_relations_vi.pdf)  
 > Cập nhật: 2017-11-06  
 
 Trong [Hướng dẫn cho Người mới bắt đầu](/vi/beginner) chúng tôi đã giải thích rằng có ba loại đối tượng có thể được vẽ trong OpenStreetMap - các điểm (nút), các đường và đa giác (các đường đóng). Các đường chứa nhiều điểm, và đường chính nó mang các thuộc tính xác định nó đại diện. Đa giác giống như đường kẻ, ngoại trừ đường kẻ phải hoàn thành nơi nó bắt đầu để hình thành một hình.  
