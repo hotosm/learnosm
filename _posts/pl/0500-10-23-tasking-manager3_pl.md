@@ -8,8 +8,6 @@ category: coordination
 
 # Tasking Manager 3
 
-> Ten przewodnik może zostać pobrany jako [tasking-manager3_pl.odt](/files/tasking-manager3_pl.odt) lub [tasking-manager3_pl.pdf](/files/tasking-manager3_pl.pdf)  
-
 **Ten przewodnik opisuje aktualną wersję Tasking Managera. Jeżeli interfejs użytkownika wersji, którą używasz jest inny od opisanego tutaj, powinieneś spojrzeć na [podręcznik do poprzedniej wersji](/pl/coordination/tasking-manager)**
 
 Spis treści działu

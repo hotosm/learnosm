@@ -9,7 +9,6 @@ category: beginner
 Wprowadzenie
 ============
 
-> Ten przewodnik może zostać pobrany jako [beginner_introduction_pl.odt](/files/beginner_introduction_pl.odt) lub [beginner_introduction_pl.pdf](/files/beginner_introduction_pl.pdf)  
 > Przejrzano 12.07.2015  
 
 Informacje są potężne. Dzięki dobrym informacjom i odpowiedniemu

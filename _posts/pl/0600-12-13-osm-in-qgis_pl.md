@@ -9,7 +9,6 @@ category: osm-data
 Używanie danych OSM w QGIS
 =================
 
-> Ten przewodnik może zostać pobrany jako [Using_OSM_data_in_QGIS_pl.odt](/files/Using_OSM_data_in_QGIS_pl.odt) lub [Using_OSM_data_in_QGIS_pl.pdf](/files/Using_OSM_data_in_QGIS_pl.pdf)  
 > Przejrzano 19.07.2015
 
 QGIS (dawniej Quantum GIS) jest w pełni funkcjonalnym, otwartoźródłowym, międzyplatformowym Systemem Informacji Geograficznych (ang. Geographic Information System). W QGIS możesz uzyskać dostęp do aktualnych danych OSM kiedy tylko chcesz, wybierz tagi, które potrzebujesz i po prostu wyeksportuj je do łatwej w użyciu bazy danych SQLite lub pliku shape.  

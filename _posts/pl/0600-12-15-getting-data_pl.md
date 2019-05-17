@@ -9,7 +9,6 @@ category: osm-data
 Pozyskiwanie danych OSM
 =================  
 
-> Ten przewodnik może zostać pobrany jako [Getting_OSM_Data_pl.odt](/files/Getting_OSM_Data_pl.odt) lub [Getting_OSM_Data_pl.pdf](/files/Getting_OSM_Data_pl.pdf)  
 > Przejrzano 05.04.2016
 
 Kiedy potrzebujesz najnowszych danych OpenStreetMap, najłatwiejszym sposobem jest pobranie wyciągu ze strony internetowej. Są różne usługi internetowe, które dostarczają wyciąg danych dla wybranego obszaru.  

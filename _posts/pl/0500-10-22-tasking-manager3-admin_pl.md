@@ -8,8 +8,6 @@ category: coordination
 
 # OSM Tasking Manager - Tworzenie projektu i administrowanie nim
 
-> Ten przewodnik może zostać pobrany jako samodzielny moduł: [tasking-manager3-admin_pl.odt](/files/tasking-manager3-admin_pl.odt) lub [tasking-manager3-admin_pl.pdf](/files/tasking-manager3-admin_pl.pdf) 
-
 **Ten przewodnik opisuje aktualną wersję Tasking Managera. Jeżeli interfejs użytkownika wersji, którą używasz jest inny od opisanego tutaj, powinieneś spojrzeć na [podręcznik do poprzedniej wersji](/pl/coordination/tasking-manager-project-admin)**
 
 Spis treści działu

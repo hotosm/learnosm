@@ -12,7 +12,6 @@ category: beginner
 Bacaan Lebih Lanjut
 ===================
 
-> This guide may be downloaded as [beginner_moving-forward_id.odt](/files/beginner_moving-forward_id.odt) or [beginner_moving-forward_id.pdf](/files/beginner_moving-forward_id.pdf)  
 > A more recent version of this guide is available in [English](/en/beginner/moving-forward),  [Español](/es/beginner/moving-forward)  or [German](/de/beginner/moving-forward). To help produce translations for this site please go to <https://www.transifex.com/> and search for **HOT-OSM**.  
 
 Jika Anda telah berhasil sejauh ini, selamat! Anda seharusnya telah memahami 

@@ -9,7 +9,6 @@ category: beginner
 Edytor iD
 =============
 
-> Ten przewodnik może zostać pobrany jako [beginner_id-editor_pl.odt](/files/beginner_id-editor_pl.odt) lub [beginner_id-editor_pl.pdf](/files/beginner_id-editor_pl.pdf)  
 > Przejrzano 2016-03-30  
 
 Zaczynasz mapować z Tasking Managerem dla HOT lub MissingMaps? Zobacz naszą [sekcję ze wskazówkami dla HOT](/pl/hot-tips/).  

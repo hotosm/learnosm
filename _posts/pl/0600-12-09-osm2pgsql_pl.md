@@ -9,8 +9,6 @@ category: osm-data
 osm2pgsql
 ==========
 
-> Ten przewodnik może zostać pobrany jako [osm2pgsql_pl.odt](/files/osm2pgsql_pl.odt) lub [osm2pgsql_pl.pdf](/files/osm2pgsql_pl.pdf)  
-
 W poprzednim rozdziale zobaczyliśmy, jak zainstalować Postgresql z PostGIS w Windowsie oraz jak ustawić bazę danych i wypełnić ją danymi z plików shape. W celu pozyskania danych OpenStreetMap do bazy danych możesz wziąć dane w plikach shape i użyć wczytywania tych plików, ale może to skutkować tym, że nie zdobędziesz wszystkich danych, które chciałeś. W tym rozdziale nauczymy się, jak używać **osm2pgsql**, programu wiersza polecenia do ładowania surowych danych OSM do bazdy danych PostGIS.  
 
 Przejdziemy przez kroki do ustawienia osm2pgsql w Windowsie, chociaż mniej więcej tak samo powinno być na innym systemie operacyjnym, jeżeli ustawiłeś prawidłowo bazę (bazy) danych PostGIS.  

@@ -12,8 +12,6 @@ category: beginner
 Pengoperasian OSM
 =================
 
-> This guide may be downloaded as [beginner_start-osm_id.odt](/files/beginner_start-osm_id.odt) or [beginner_start-osm_id.pdf](/files/beginner_start-osm_id.pdf)
-
 Pada bab ini, kita akan mempelajari langkah-langkah bagaimana
 mengoperasikan situs OpenStreetMap, melihat dan mencetak peta,
 dan mendaftarkan untuk sebuah akun pengguna. Setelah Anda memiliki

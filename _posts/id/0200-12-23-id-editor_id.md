@@ -12,7 +12,6 @@ category: beginner
 iD Editor
 ==========
 
-> This guide may be downloaded as [beginner_id-editor_id.odt](/files/beginner_id-editor_id.odt) or [beginner_id-editor_id.pdf](/files/beginner_id-editor_id.pdf)  
 > Caution, this guide is not completely up to date. The latest version is only available in [English](/en/beginner/id-editor/), [Español](/es/beginner/id-editor/), [Kiswahili](/sw/beginner/id-editor/) or [German](/de/beginner/id-editor/). To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 
 iD editor adalah editor OpenStreetMap berbasis web baru (diluncurkan 2013) yang memudahkan kita untuk mengedit OpenStreetMap. iD begitu cepat dan mudah, dan memungkinkan Anda 

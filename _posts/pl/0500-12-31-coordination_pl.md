@@ -12,7 +12,6 @@ nosearch: true
 Koordynacja
 ============
 
-> Ten przewodnik może zostać pobrany jako [coordination_pl.odt](/files/coordination_pl.odt) lub [coordination_pl.pdf](/files/coordination_pl.pdf)  
 > Przejrzano 18.09.2015
 
 Ponieważ OpenStreetMap angażuje wielu ludzi mapujących wspólnie, jest

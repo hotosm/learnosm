@@ -9,7 +9,6 @@ category: osm-data
 Korzystanie z Geofabrik i HOT Export
 ================
 
-> Ten przewodnik może zostać pobrany jako [Geofabrik_and_HOT_Export_pl.odt](/files/Geofabrik_and_HOT_Export_pl.odt) lub [Geofabrik_and_HOT_Export_pl.pdf](/files/Geofabrik_and_HOT_Export_pl.pdf)  
 > Przejrzano 2016-09-05  
 
 Po nauce dodawania i edytowania danych w OpenStreetMap (OSM), możesz chcieć pozyskać te dane jako kopię zapasową lub do przetwarzania z wykorzystaniem oprogramowania Geographic Information System, które jest otwartoźródłowe takim, jak Quantum GIS ([www.qgis.org](http://www.qgis.org)).  

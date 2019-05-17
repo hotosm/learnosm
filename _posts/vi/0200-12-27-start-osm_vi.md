@@ -9,7 +9,6 @@ category: beginner
 Bắt đầu với OpenStreetMap.org
 ====================================
 
-> Hướng dẫn này có thể được tải xuống tại đây: [beginner_start-osm_vi.odt](/files/beginner_start-osm_vi.odt) or [beginner_start-osm_vi.pdf](/files/beginner_start-osm_vi.pdf)  
 > Cập nhật: 2017-10-31  
 
 Trong phần này, chúng ta sẽ học cách từng bước điều hướng trên website OpenStreetMap,

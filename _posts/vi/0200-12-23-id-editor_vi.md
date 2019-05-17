@@ -9,7 +9,6 @@ category: beginner
 Trình chỉnh sửa bản đồ iD Editor
 =============
 
-> Hướng dẫn này có thể được tải xuống tại đây: [beginner_id-editor_vi.odt](/files/beginner_id-editor_vi.odt) or [beginner_id-editor_vi.pdf](/files/beginner_id-editor_vi.pdf)  
 > Cập nhật: 2017-10-31  
 
 - TOC
