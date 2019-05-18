@@ -11,18 +11,18 @@ Getting OSM Data
 
 > Reviewed 2016-04-05
 
-When you want to get the most recent OpenStreetMap data, the easiest way is to download an extract from a website. There are various web services that provide data extracts for an area of your choosing.  
+When you want to get the most recent OpenStreetMap data, the easiest way is to download an extract from a website. There are various web  services that provide data extracts for an area of your choosing.  
 
 Downloading Data Extracts
 --------------------------
 
 ### GeoFabrik
 
-[GeoFabrik](http://geofabrik.de) is a company which specializes in working with OpenStreetMap. They provide a variety of free extracts in shapefile and raw OSM format on their [download website](http://download.geofabrik.de). The advantage of downloading GeoFabrik data is that it is updated every day, and it's easy and reliable. One disadvantage is that the data is extracted by country, and not all countries are available.  
+[GeoFabrik](http://geofabrik.de) is a company which specializes in working with OpenStreetMap. They provide a variety of free extracts in  shapefile and raw OSM format on their [download website](http://download.geofabrik.de). The advantage of downloading GeoFabrik data is that it  is updated every day, and it's easy and reliable. One disadvantage is that the data is extracted by country, and not all countries are  available.  
 
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) provides shapefiles and raw OSM format for cities around the world, extracted weekly. This is useful if you are looking for data extracts for a single city.
+[BBBike](http://download.bbbike.org/osm/bbbike/) provides shapefiles and raw OSM format for cities around the world, extracted weekly. This is  useful if you are looking for data extracts for a single city.
 
 >Remember that features in OpenStreetMap have an unlimited number of "free" tags,
 >but shapefiles have attributes stored in a limited number of columns. This means
@@ -37,18 +37,17 @@ Customized Extracts
 
 ### HOT Exports  
 
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
-to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
+The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract,  and also use [JOSM Presets](/en/josm/josm-presets/) to select custom tags to be included in the extract. The service is available to all  countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 
 ### BBBike  
 
-You can select your own area from any part of the world using the service at [http://extract.bbbike.org/](http://extract.bbbike.org/). Disadvantages are that you aren't able to select customizable tags and that the amount of data which you can download is limited.  
+You can select your own area from any part of the world using the service at [http://extract.bbbike.org/](http://extract.bbbike.org/).  Disadvantages are that you aren't able to select customizable tags and that the amount of data which you can download is limited.  
 
 ### Overpass
 
-Overpass is an API (Application Programming Interface) for extracting data from a read-only copy of the main OpenStreetMap database which can deliver an almost arbitrary amount of data. Using a query language you can customize which subset of the data you obtain. You can either use the API directly by generating a http-request or through the overpass turbo interface.
+Overpass is an API (Application Programming Interface) for extracting data from a read-only copy of the main OpenStreetMap database which can  deliver an almost arbitrary amount of data. Using a query language you can customize which subset of the data you obtain. You can either use the  API directly by generating a http-request or through the overpass turbo interface.
 
 #### Overpass Turbo
 
