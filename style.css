@@ -267,6 +267,11 @@ body {
   height:100%;
 }
 
+table {
+  table-layout: fixed; 
+  width: 100%;
+}
+
 #wrapper {
   min-height:100%;
   position:relative;
