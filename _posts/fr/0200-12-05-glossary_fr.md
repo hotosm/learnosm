@@ -39,9 +39,9 @@ Pour effectuer une recherche dans ce glossaire, utilisez la fonction de recherch
 
 **GDACS : Système mondial d'alerte et de coordination en cas de catastrophe** ; le GDACS est un cadre de coopération sous la direction de l'Organisation des Nations Unies. Il comprend des gestionnaires de catastrophes et des systèmes d'information sur les catastrophes dans le monde entier et vise à combler les lacunes en matière d'information et de coordination au cours de la première phase qui suit les catastrophes majeures. Le GDACS fournit un accès en temps réel aux systèmes d'information en ligne sur les catastrophes et aux outils de coordination apparentés.
 
-**iD editor](/fr/beginner/id-editor/)** - Un éditeur en ligne OpenStreetMap, conçu par Mapbox, pour les débutants sur Internet. 
+**[iD editor](/fr/beginner/id-editor/)** - Un éditeur en ligne OpenStreetMap, conçu par Mapbox, pour les débutants sur Internet. 
 
-**PDI : Personne Délogée Intérieurement ** ; est une personne qui est forcée de fuir son foyer tout en restant à l'intérieur des frontières de son pays.
+**PDI : Personne Délogée Intérieurement** ; est une personne qui est forcée de fuir son foyer tout en restant à l'intérieur des frontières de son pays.
 
 **[JOSM](https://josm.openstreetmap.de/)** prononcé "J.O.S.M.", éditeur logiciel OpenStreetMap écrit en Java. 
 
@@ -49,13 +49,13 @@ Pour effectuer une recherche dans ce glossaire, utilisez la fonction de recherch
 
 **ONG : Organisation Non Guvernementale** ; Groupe à but non lucratif de citoyens qui sont organisés au niveau local, national ou international.  
 
-**Nœud](http://wiki.openstreetmap.org/wiki/Node)** : Un nœud est l'un des éléments centraux du modèle de données OpenStreetMap. Il se compose d'un point unique dans l'espace défini par sa latitude, sa longitude et son attribut. Les nœuds peuvent être utilisés pour définir des éléments ponctuels isolés, mais sont plus souvent utilisés pour définir la forme ou le "tracé" d'une voie.
+**[Nœud](http://wiki.openstreetmap.org/wiki/Node)** : Un nœud est l'un des éléments centraux du modèle de données OpenStreetMap. Il se compose d'un point unique dans l'espace défini par sa latitude, sa longitude et son attribut. Les nœuds peuvent être utilisés pour définir des éléments ponctuels isolés, mais sont plus souvent utilisés pour définir la forme ou le "tracé" d'une voie.
 
 **BCAH : Bureau de la Coordination des Affaires Humanitaires des Nations Unies** ; le BCAH est la partie du Secrétariat des Nations Unies chargée de réunir les acteurs humanitaires pour assurer une réponse cohérente aux urgences. Le BCAH veille également à ce qu'il existe un cadre dans lequel chaque acteur puisse contribuer à l'effort global d'intervention.
 
 **PDC : Point De Contact** ; personne(s) avec qui communiquer pour toute demande de renseignements, questions, coordination, etc.
 
-**[Relation](http://wiki.openstreetmap.org/wiki/Relation)** : l'un des éléments de base des données qui consiste en un ou plusieurs attributs et aussi une liste ordonnée d'un ou plusieurs nœuds, voies et/ou relations comme liens. Le tout est utilisée pour définir des relations logiques ou géographiques entre les autres éléments. Pour des exemples, allez à la page wiki[Types de relations](http://wiki.openstreetmap.org/wiki/Types_of_relation). 
+**[Relation](http://wiki.openstreetmap.org/wiki/Relation)** : l'un des éléments de base des données qui consiste en un ou plusieurs attributs et aussi une liste ordonnée d'un ou plusieurs nœuds, voies et/ou relations comme liens. Le tout est utilisé pour définir des relations logiques ou géographiques entre les autres éléments. Pour des exemples, allez à la page wiki[Types de relations](http://wiki.openstreetmap.org/wiki/Types_of_relation). 
 
 **Rendu** : permet de convertir des données en image. Les données rendues forment une carte.
 

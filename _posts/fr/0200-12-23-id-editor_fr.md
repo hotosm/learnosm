@@ -23,11 +23,11 @@ L’Éditeur iD est un très bon moyen de contribuer de petites modifications qu
 Lancer l'éditeur iD
 ----------------------
 
-	L’Éditeur iD requiert une connexion internet active.  
-	﻿Ouvrez votre navigateur internet et allez sur le site web OpenStreetMap à l’adresse [http://www.openstreetmap.org](http://www.openstreetmap.org).  
-	**Connectez-vous** avec votre compte OpenStreetMap  
-	Centrez et zoomez la carte sur la zone que vous souhaitez éditer. Vous pouvez déplacer la vue en maintenant le bouton gauche de la souris enfoncé et en tirant la carte vers l’endroit désiré.  
-	Cliquez sur la petite flèche à côté de **Modifier**. Cliquez ensuite sur **Modifier avec iD (éditeur intégré au navigateur)**.  
+-	L’Éditeur iD requiert une connexion internet active.  
+-	Ouvrez votre navigateur internet et allez sur le site web OpenStreetMap à l’adresse [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+-	**Connectez-vous** avec votre compte OpenStreetMap  
+-	Centrez et zoomez la carte sur la zone que vous souhaitez éditer. Vous pouvez déplacer la vue en maintenant le bouton gauche de la souris enfoncé et en tirant la carte vers l’endroit désiré.  
+-	Cliquez sur la petite flèche à côté de **Modifier**. Cliquez ensuite sur **Modifier avec iD (éditeur intégré au navigateur)**.  
 
 ![image1][]
 
@@ -164,7 +164,7 @@ Vous pouvez aussi ajouter des attributs spécifiques en cliquant sur **All tags*
 Autres tutoriels
 ------------------
 
-[Notre page de ressources externes](/en/resources/#iD) fournit des liens vers un certain nombre de tutoriels vidéo de diverses sources.
+[Notre page de ressources externes](/fr/resources/#iD) fournit des liens vers un certain nombre de tutoriels vidéo de diverses sources.
 
 iD vs JOSM
 ----------  
