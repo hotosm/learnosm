@@ -68,7 +68,7 @@ Créer un compte OpenStreetMap
 - Après avoir rempli tous les champs, cliquer sur "S'inscrire" au bas de la page.
 - En cas de problème, un message d'erreur peut s'afficher. Vérifiez que votre courriel est le même dans les deux premiers champs et que votre mot de passe est le même dans les deux champs inférieurs. Si le troisième champ est surligné en rouge, cela signifie que quelqu'un d'autre a déjà choisi votre nom d'utilisateur et que vous devez essayer un autre nom.
 - Consulter votre email.
-- Si tout s'est bien passé avec votre inscription, vous recevrez un email d'OpenStreetMap dans votre boîte de réception. Ouvrer le courriel. Il devrait ressembler à l'image ci-dessous. Cliquer sur le lien ci-dessous :
+- Si tout s'est bien passé avec votre inscription, vous recevrez un email d'OpenStreetMap dans votre boîte de réception. Ouvrez le courriel. Il devrait ressembler à l'image ci-dessous. Cliquer sur le lien ci-dessous :
 
     ![Confirming your OpenStreetMap account][]
 
