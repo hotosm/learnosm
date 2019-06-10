@@ -47,7 +47,7 @@ Pour effectuer une recherche dans ce glossaire, utilisez la fonction de recherch
 
 **[Layer](http://wiki.openstreetmap.org/wiki/Layer)** : Une source de données qui est affichée sur une carte glissante (souvent considérée comme un groupe de tuiles reliées les unes aux autres).
 
-**NGO : Non Govermental Organisation / Agency** (Organisation Non Gouvernementale); Groupe à but non lucratif de citoyens qui sont organisés au niveau local, national ou international.  
+**NGO : Non Govermental Organisation / Agency** (ONG : Organisation Non Gouvernementale) ; Groupe à but non lucratif de citoyens qui sont organisés au niveau local, national ou international.  
 
 **[Node](https://wiki.openstreetmap.org/wiki/FR:Nœud)** : Un nœud est l'un des éléments centraux du modèle de données OpenStreetMap. Il se compose d'un point unique dans l'espace défini par sa latitude, sa longitude et son attribut. Les nœuds peuvent être utilisés pour définir des éléments ponctuels isolés, mais sont plus souvent utilisés pour définir la forme ou le "tracé" d'une voie.
 

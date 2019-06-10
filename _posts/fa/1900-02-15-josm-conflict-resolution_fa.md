@@ -1,7 +1,7 @@
 ---
 layout: doc-rtl
 title: حل تداخل در JOSM
-permalink: /fa/josm/josm-conflict-resolution/ 
+permalink: /fa/josm/josm-conflict-resolution/
 lang: fa
 category: josm
 ---

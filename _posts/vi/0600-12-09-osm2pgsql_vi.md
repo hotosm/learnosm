@@ -1,9 +1,9 @@
 ---
 layout: doc
-Tiêu đề: osm2pgsql
+title: osm2pgsql
 permalink: /vi/osm-data/osm2pgsql/
-Ngôn ngữ: vi
-Phân loại: osm-data
+lang: vi
+category: osm-data
 ---
 
 osm2pgsql

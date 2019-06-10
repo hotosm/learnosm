@@ -147,7 +147,7 @@ category: josm
 خلاصه
 --------
 
-When you are just beginning OpenStreetMap, you don’t need to worry too much about imagery offset.  But if you see another mapper’s edits that seem misaligned from the imagery, you should always consider that there may be an offset before you start changing their objects.  And if you aren't quite ready to deal with offsets yet, just remember that it’s better to map an area 20 or 30 meters offset than to not map it at all.  But when possible, do remember that imagery offset may occur, and use the steps in this chapter to correct it when needed.
+هنگامی که تازه در OpenStreetMap شروع به کار کرده‌اید، نیازی نیست در مورد اقست تصاویر زیاد نگران باشید. اما اگر ببینید که ویرایشهای نقشه‌کش دیگری نسبت به تصاویر ماهواره‌ای ناترازی زیادی دارند، همیشه قبل از شروع تغییر اشیاء آنها، در نظر داشته باشید که ممکن است افست تصاویر وجود داشته باشد. و اگر هنوز کاملاْ آماده برای کار با افستها نیستید، فقط به یاد داشته باشید که بهتر است یک منطقه نقشه‌ای با ۲۰ یا ۳۰ متر جابجایی داشته باشد تا اینکه اصلاْ هیچ نقشه‌ای نداشته باشد. اما در صورت امکان، به یاد داشته باشید که ممکن است افست تصویری رخ دهد و در صورت نیاز برای اصلاح آن از مراحل آموزش داده در این فصل استفاده کنید.
 
 
 [Misaligned imagery]: /images/josm/misaligned-images.png

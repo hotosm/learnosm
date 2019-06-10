@@ -18,7 +18,7 @@ Ce guide explique étape par étape comment bien démarrer avec OpenStreetMap. V
 ### Vous êtes nouveau sur OpenStreetMap et voulez améliorer la carte en y ajoutant des données ?
 
 Si vous souhaitez débuter et être capable d'éditer les données de la carte, nous vous recommandons de lire ces guides :
-- L'[introduction](/fr/beginner/introduction/) vous donnent quelques informations sur le projet
+- L'[introduction](/fr/beginner/introduction/) vous donne quelques informations sur le projet
 - [Commencer à valider](/fr/beginner/start-osm/) vous montre comment créer un compte et comment utiliser un éditeur
 - dans [Éditeur iD](/fr/beginner/id-editor/) vous apprendrez les bases de l'édition des données
 
@@ -26,7 +26,7 @@ Si vous souhaitez débuter et être capable d'éditer les données de la carte, 
 ### Vous savez déjà vous servir d'un éditeur et voulez contribuer à la cartographie humanitaire ?
 
 Le point le plus important est d'apprendre comment est coordonnée la cartographie dans ce contexte.
-- le [guide de la cartographie à distance](/fr/coordination/HOT-Remote-Response-Guide/) et les généralités sur la [cartographie humanitaire](/fr/coordination/humanitarian/) donnent quelques informations
+- le [guide de la cartographie à distance](/fr/coordination/HOT-Remote-Response-Guide/) et les généralités sur la [cartographie humanitaire](/fr/coordination/humanitarian/) donne quelques informations
 - notre cheval de bataille est le [Gestionnaire de Tâches](/fr/coordination/tasking-manager3/) avec lequel vous devez vous familiariser
 
 ### Vous voulez utiliser OpenStreetMap sur un appareil mobile ?
