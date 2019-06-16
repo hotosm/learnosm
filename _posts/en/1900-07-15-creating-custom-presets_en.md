@@ -103,13 +103,15 @@ The &lt;text&gt; element creates a blank field. When the form is created in JOSM
 
 The dropdown box on the form is defined in the following line:  
 
-      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
+      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" />
+      <display_values="Residential, Commercial, Industrial"/>
 
 A dropdown box is defined by the &lt;combo&gt; element. As with the &lt;text&gt; element, the attribute *key* defines the tag key. The value is then chosen from a list of possible *values*. The *display_values* attribute allows you to choose different names to be displayed in the dropdown box, which may be easier to understand than the OSM tag values.  
 
 Lastly, let's look at the line which defines the checkbox.  
 
-      <check key="building:vacant" text="Is the building vacant?" default="off" delete_if_empty="true" />
+      <check key="building:vacant" text="Is the building vacant?" default="off" /> 
+      <delete_if_empty="true" />
 
 The &lt;check&gt; element defines - you guessed it! - the checkbox. The attribute *default="off"* states that the box will be unchecked by default. The remaining attributes you have already seen.  
 
