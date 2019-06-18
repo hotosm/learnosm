@@ -2,9 +2,12 @@
 .*.swp
 *.*~
 *.mo
+vendor/
 _build/
 _site/
 .DS_Store
 serve/
 jekyll_*log.txt
 _config.yml
+Gemfile.lock
+.jekyll-metadata

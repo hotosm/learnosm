@@ -1,3 +1,29 @@
+@media screen {
+  div.print-watermark {
+    display: none;
+  }
+  div.print-watermark-reserved {
+    display: none;
+  }
+}
+@media print {
+  div.return-to-top {
+    display: none;
+  }
+  div.doc-content {
+    position: relative;
+    padding-top: 25px;
+  }
+  div.print-watermark {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  div.print-watermark-reserved {
+    height: 40px;
+  }
+}
+
 /* --------------------------------------------------------
   Grids and Rules
 -------------------------------------------------------- */
@@ -154,6 +180,9 @@ a {
   color: #404040;
   }
 
+.doc-nav a:visited {
+  color: #009973;
+}
 a:hover {
   color: #79bc5f;
 }
@@ -164,6 +193,7 @@ strong {font-weight:700;}
 .doc  ul li,.doc ol li, .doc p { font-family:'Quattrocento',serif; }
 .doc li {margin-left:30px;}
 .doc li a, .doc p a {color: #79bc5f;}
+.doc-nav-secondary li {padding-left:60px;}
 
 small {
   font-size:12px;
@@ -173,13 +203,9 @@ small {
 img {
   display: span;
   max-width:480px;
-  border:1px solid #ddd;
   background: #fff;
   padding:3px;
   margin:2px 0;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
   transition: all 200ms linear;
   -moz-transition: all 200ms linear;
   -webkit-transition: all 200ms linear;
@@ -240,6 +266,12 @@ body {
   padding:0;
   height:100%;
 }
+
+table {
+  table-layout: fixed; 
+  width: 100%;
+}
+
 #wrapper {
   min-height:100%;
   position:relative;
@@ -255,14 +287,31 @@ body {
   bottom:0;
   left:0;
 }
-.language-switcher {
+.dropdown {
   padding:6px 20px;
-  }
-  .language-switcher a.active {
-    color: #79bc5f;
-    text-decoration: none;
-    cursor: default;
-    }
+  position:relative;
+  display:inline-block;
+}
+.dropdown-content {
+  display:none;
+}
+.dropdown-content.active {
+  padding:6px 20px;
+  display:block;
+  position:absolute;
+  background-color:#f0f0f0;
+  z-index:1;
+}
+.dropdown-content.language-switcher { width: 20ch; }
+.dropdown-content.quick-access { width: 35ch; }
+.language-switcher a.active {
+  color: #79bc5f;
+  text-decoration: none;
+  cursor: default;
+}
+.unavailable {
+  color: #909090;
+}
 #header {
   padding:20px 0px;
   background: #fff url(./img/dot.png) repeat-x bottom;
@@ -505,32 +554,43 @@ a.license {
   display:block;
   padding:10px;
   background:#f0f0f0;
-  }
-  .doc .title.active {
-    background:#79bc5f;
-    color:#fff;
-    }
-    .doc .title span:before {
-      content:'▸';
-      margin-right:8px;
-    }
-  .doc .title.cover,
-  .doc .title.cover:hover,
-  .doc .title.cover.active {
-    font-size:12px;
-    text-transform:uppercase;
-    font-weight:700;
-    text-align:center;
-    background: #fff;
-    padding:8px;
-    color:#404040;
-    border-top: 4px solid   #f0f0f0;
-    border-left: 4px solid  #f0f0f0;
-    border-right: 4px solid #f0f0f0;
 }
-    .doc .cover span:before {
-      content:'';
-    }
+.doc .title.active {
+  background:#79bc5f;
+  color:#fff;
+}
+.doc .title span:before {
+  content:'▸';
+  margin-right:8px;
+}
+.doc-nav-secondary .title span:before {
+  content:'▸';
+  margin-left:25px;
+  margin-right:8px;
+}
+.doc-nav-secondary-rtl .title span:before {
+  content:'▸';
+  margin-right:25px;
+  margin-left:8px;
+}
+
+.doc .title.cover,
+.doc .title.cover:hover,
+.doc .title.cover.active {
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight:700;
+  text-align:center;
+  background: #fff;
+  padding:8px;
+  color:#404040;
+  border-top: 4px solid   #f0f0f0;
+  border-left: 4px solid  #f0f0f0;
+  border-right: 4px solid #f0f0f0;
+
+  .doc .cover span:before {
+    content:'';
+  }
 
 /* Ideas for "other guide" navigation menu */
   .doc .title.other {

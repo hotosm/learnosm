@@ -7,8 +7,13 @@ contributions. We can also coordinate work with ['issues' here on github](https:
 
 For minor edits (typos, spelling, etc), you can use the [online github editing tools](https://help.github.com/articles/editing-files-in-another-user-s-repository/) to propose changes.
 
-# Translations via Transifex
+The outline procedure for contributing contents in English is: [fork the LearnOSM repository](https://help.github.com/articles/fork-a-repo), improve content or site, then issue a [pull request](https://help.github.com/articles/using-pull-requests).
+
+## Translations via Transifex
 We are now using <https://www.transifex.com> to carry out the majority of our translations for LearnOSM. This is much simpler to manage for both the translator & the techie team. Please go to <https://www.transifex.com> and search for HOT-OSM, then LearnOSM if you can assist with any translations. 
+
+<!--
+START OF HIDDEN TEXT 
 
 # Translation workflow - new from November 2014  
 Choose from one of the three options. The file will need to be created & placed in the correct folder.   
@@ -49,20 +54,10 @@ It's handy to run the site locally when editing content or code - Jekyll documen
 
 For fresh translations always start with a copy of the English guide.
 
-### Quick install guide for Windows
+END OF HIODDEN TEXT
+-->
 
-- Download and install [Ruby 1.9](http://rubyinstaller.org/downloads/), enable the PATH setting during installation
-- Open a command prompt (cmd.exe) and install jekyll by typing `gem install jekyll`
-- Install rdiscount by typing `gem install rdiscount --platform=ruby -v 1.6.8`
-- Navigate to your local learnosm repository `cd C:\learnosm`
-- Start the local webserver by executing the following 2 commands, or save them to a .bat file and start:
-
-	```
-    chcp 65001
-    jekyll --rdiscount > jekyll_log.txt 2> jekyll_errorlog.txt
-    ```
-
-- Open a browser and go to localhost:4000
+## Further information
 
 ### Front matter for guide documents
 
@@ -82,7 +77,7 @@ Explanation:
 - `title` is the plain title of the document, must not be repeated in the document's body
 - `permalink` is the path to the document, must contain the language prefix (`en` in this case)
 - `lang` is the language prefix of the document and must be the same as in `permalink`. This is redundant with `permalink` for Jekyll specific reasons.
-- `category` contains the guide's shortname (currently there is only one guide in the Jekyll site: `beginner`).
+- `category` contains the guide's shortname (there are several categories available like `beginner`, `intermediate`, `coordination`, `josm`... For a more up to date list, please visit [`/_posts` folder on this repo](https://github.com/hotosm/learnosm/tree/gh-pages/_posts/en)).
 
 ### Structure, folders, file names
 https://github.com/hotosm/learnosm/wiki/File-naming-in-_posts-directory
@@ -102,3 +97,19 @@ Proposal at https://hackpad.com/Proposed-Style-Guide-for-LearnOSM-1JJxS8NIQSX
 Same as with content, to contribute, [fork this repository](https://help.github.com/articles/fork-a-repo), modify, then issue a [pull request](https://help.github.com/articles/using-pull-requests).
 
 The site is hosted using [GitHub Pages](http://pages.github.com/), any changes to the gh-pages branch automatically update the site within minutes.
+
+### Quick local install guide for Windows
+
+- Download and install [Ruby 1.9](http://rubyinstaller.org/downloads/), enable the PATH setting during installation
+- Open a command prompt (cmd.exe) and install jekyll by typing `gem install jekyll`
+- Install rdiscount by typing `gem install rdiscount --platform=ruby -v 1.6.8`
+- Navigate to your local learnosm repository `cd C:\learnosm`
+- Start the local webserver by executing the following 2 commands, or save them to a .bat file and start:
+
+	```
+    chcp 65001
+    jekyll --rdiscount > jekyll_log.txt 2> jekyll_errorlog.txt
+    ```
+
+- Open a browser and go to localhost:4000
+
