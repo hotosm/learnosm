@@ -83,143 +83,143 @@ category: coordination
 
 در بیشتر موارد ما از تصاویر استاندارد Bing استفاده می‌کنیم. اما شرایطی وجود دارد که ممکن است بخواهید یک منبع جایگزین را انتخاب کنید:
 
-1. بینگ پوشش با وضوح بالا برای منطقه مورد علاقه شما (AOI) ارائه نمی‌دهد.
-2. تصاویر بینگ پوشش ابری قابل توجهی در آن منطقه دارد.
-3. برای ارزیابی پس از فاجعه، تصاویر جدیدتری نیاز دارید.
+1. چنانچه بینگ پوشش با وضوح بالا برای منطقه مورد علاقه شما (AOI) ارائه نمی‌دهد.
+2. چنانچه تصاویر بینگ پوشش ابری قابل توجهی در آن منطقه داشته باشد.
+3. چنانچه برای ارزیابی پس از فاجعه، تصاویر جدیدتری نیاز دارید.
 
-اگر بینگ کافی نباشد، Mapbox انتخاب بعدی است. شما فقط باید در صورتی که هیچیک از این دو نیاز شما را برآورده نکند دنبال منابع دیگر بگردید.
+اگر بینگ کافی نباشد، Mapbox انتخاب بعدی است. شما فقط باید در صورتی که هیچیک از این دو نیاز شما را برآورده نکند، دنبال منابع دیگر بگردید.
 
-در چنین مواردی کافی نیست که یک منبع سازگار با مجوز را انتخاب کنید و آن را از طریق سرویس WMS یا TMS در دسترس قرار دهید. احتمالا AOI شما تا حدی با استفاده از Bing یا Mapbox تصویر شده است و ممکن است بین عکس های قابل توجهی از بین برود. شما باید مکان های مختلف AOI خود را دقیق نگاه دارید و تعویض بین تصاویر خود و داده های قبلا نقشه بندی را تعیین کنید. اگر داده های OSM موجود با توجه به تصاویر شما جبران می شوند، اما با توجه به تصاویر Bing مناسب است، معمولا فرض می کنیم که بینگ "استاندارد طلایی" است، مگر اینکه دارای ردیابی GPS باشد که ثابت کند این فرض اشتباه است.
+در چنین مواردی کافی نیست که یک منبع سازگار با مجوز را انتخاب کنید و آن را از طریق سرویس WMS یا TMS در دسترس قرار دهید. احتمالاْ AOI شما تا حدی با استفاده از تصاویر Bing یا Mapbox نقشه‌کشی شده باشد و ممکن است بین تصاویر ناترازی قابل توجهی وجود داشته باشد. باید نگاه دقیقی به مکانهای مختلف AOI خود بیندازید و بین تصاویرتان با داده‌های قبلاْ نقشه‌کشی شده میزان ناترازی را تعیین کنید. اگر داده‌های موجود  OSM با تصاویر شما افست دارد اما با تصاویر Bing تقریباْ تراز هستند در آن صورت معمولاْ تصاویر بینگ را "استاندارد طلایی" فرض می‌کنیم، مگر اینکه ردیابی‌های GPSای داشته باشیم که ثابت کند این فرض اشتباه است.
 
-اگر بین تصاویر خود و بینگ در سراسر AOI اختلاف منظمی وجود داشته باشد، این ممکن است بر روی سرور اصلاح شود تا تصاویری از منابع مختلف بارگذاری شده در ویرایشگر مطابقت داشته باشند. اگر این امکان پذیر نیست، اگر افست در سراسر AOI تغییر کند یا داده های موجود با منابع مختلف هماهنگ شوند، زمان برای برنامه B است:
+اگر بین تصاویرتان با تصاویر بینگ در سراسر AOI اختلاف یکنواختی وجود داشته باشد، این بایستی روی سرور اصلاح شود تا تصاویری که از منابع مختلف بارگذاری می‌شوند در ویرایشگر مطابقت داشته باشند. اگر اینکار امکان پذیر نیست، و  افست در سراسر AOI متغیر است و یا اینکه داده‌های موجود با منابع مختلف هماهنگ بود، آن زمان از برنامه B استفاده می‌کنیم:
 
-نکته مهم این است که شما باید یک استراتژی برای چگونگی مقابله با این مسائل و ارائه دستورالعمل های دقیق به mappers و validators ایجاد کنید. ما به شدت پیشنهاد می کنیم که چنین پروژه ای را «فقط برای نقشهداران با تجربه» اعلام کنید و توضیح دهید که تجربه در این مورد به این معنی نیست که نقشه های 200+ ساختمان را داشته باشد، اما قبلا مسائل مربوط به هماهنگی و منابع تصویری مختلف را مورد بررسی قرار داده است.
+نکته مهم این است که برای چگونگی مقابله با این مسائل و ارائه دستورالعمل‌های دقیق به نقشه‌کشها و اعتباردهنده‌ها بایستی یک استراتژی ایجاد کنید. ما به شدت پیشنهاد می‌کنیم که چنین پروژه‌ای را "فقط برای نقشه‌کشهای باتجربه" اعلام کنید و توضیح دهید که تجربه در این مورد به این معنی نیست که مثلاْ بیشتر از ۲۰۰ ساختمان را رسم کرده باشید بلکه این است که با مسائل تراز و منابع مختلف تصویری کار کرده باشید.
 
-یک راهبرد ممکن است این مراحل را شامل شود:
+یک راهبرد احتمالی شامل این مراحل است:
 
-1. به وضوح مشخص کنید که چه تصویری باید مرجع باشد که هر چیز دیگری باید تراز شود. در این صورت فرض کنیم مرجع Bing است.
-2. اطمینان حاصل کنید که تمام ویژگی های موجود که در Bing نیز قابل مشاهده هستند با تصاویر Bing هماهنگ می شوند، به عنوان مثال در صورت لزوم مجددا اصلاح شوند.
-3. تصویر های جایگزین را به ویژگی های موجود (و به این ترتیب به Bing) با استفاده از عملکرد افست تصویری ویرایشگر تطبیق دهید.
-4. اضافه کردن ویژگی های جدید از تصاویر جایگزین در حال حاضر به درستی تراز شده است.
+1. به وضوح مشخص کنید که چه تصویری باید مرجع باشد که هر چیز دیگری باید با آن تراز شود. در این مورد بگذارید فرض کنیم مرجع Bing است.
+2. اطمینان حاصل کنید که تمام ویژگی های موجود که در تصاویر Bing نیز قابل مشاهده هستند با آن تصاویر تراز هستند، یعنی اینکه در صورت لزوم مجدداْ تراز کنید.
+3. با استفاده از عملکرد افست تصاویر ویرایشگر، تصویرهای جایگزین را با ویژگی‌های موجود (و به این ترتیب با Bing) تطبیق دهید.
+4. عوارض جدید را با استفاده از تصاویر جایگزینی که حالا دیگر به درستی تراز شده‌اند اضافه کنید.
 
-مهم است که گام 3 برای هر کار پروژه تکرار شود و مربع های فردی نباید بیش از حد بزرگ باشند، زیرا تخفیف های تصویری می توانند بطور قابل توجهی در یک AOI متفاوت باشند، به خصوص اگر زمین مسطح نیست. حتی در یک پروژه ممکن است ناپایداری های تصویری رخ دهد - مراقب آنها باشید و مشارکتکنندگان چنین مشکلی را توصیه کنید.
+مهم است که گام ۳ برای هر وظیفه پروژه تکرار شود و هر مربع‌ نباید بیش از حد بزرگ باشند، زیرا افست تصاویر می‌تواند بطور قابل توجهی در یک AOI متفاوت باشند، به خصوص اگر زمین مسطح نمی‌باشد. حتی ناپایداری‌های تصویری در یک پروژه ممکن است رخ دهد - مراقب آنها باشید و چنین مشکلی را به مشارکت‌کنندگان گوشزد کنید.
 
-در اینجا برخی از بیت های پیشنهادی اطلاعاتی که ممکن است در دستورالعمل های پروژه ذکر کنید عبارتند از:
+در اینجا چند تکه اطلاعات پیشنهادی که در دستورالعملهای پروژه باید در نظر بگیرید عبارتند از:
 
-- [دستورالعمل های کلی برای سردبیران مختلف] (https://wiki.openstreetmap.org/wiki/Using_Imagery)
-- [GIF متحرک در تنظیم تصویر در iD] (https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [فصل هماهنگ سازی تصاویر در زبان های یادگیری] (http://learnosm.org/en/josm/correcting-imagery-offset)
+- [دستورالعمل های کلی برای ویرایشگران مختلف](https://wiki.openstreetmap.org/wiki/Using_Imagery)
+- [یک GIF متحرک درباره تنظیم تصویر در iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [فصل ترازکردن تصاویر در JOSM در learnOSM](http://learnosm.org/fa/josm/correcting-imagery-offset)
 
 ## ایجاد پروژه و اضافه کردن توضیحات
-پس از انتخاب یک اندازه کاشی، روی "ایجاد پروژه" کلیک کنید. 
+پس از انتخاب اندازه کاشی، روی "ایجاد پروژه" (Create Project) کلیک کنید. 
 
-! [ایجاد پروژه TM] []
+![TM Create Project][]
 
-این پروژه را در مدیریت وظیفه ایجاد می کند و یک صفحه ای باز می کند که شما می توانید توصیف ها، دستورالعمل ها و سایر اطلاعات مربوط به پروژه را ارائه دهید. به خاطر داشته باشید که این نباید زیر ارزش نباشد. سهم عادلانه نقشهدارها (در بسیاری موارد اکثریت) تجربه گذشته با OpenStreetMap و / یا HOT ندارند و بدین ترتیب با دستورالعمل های برچسب گذاری آشنا نخواهند شد. بسیار مهم است که اهداف پروژه واضح باشد و همه منابع که نقشه گیرندگان باید در نظر بگیرند، در اینجا قرار داده شده است. اغلب توصیه می شود که یک پروژه را به یک کلاس از اشیاء اختصاص داده شود. اگر شما نیاز به پایه یک منطقه دارید بهتر است آن را در پروژه های مختلف تقسیم کنید، یکی برای جاده ها، یکی برای ساختمان ها و غیره. اکنون مبتدی ها می توانند در یک کلاس کوچک از اشیا تمرکز کنند و یاد بگیرند که چگونه آنها را به درستی نقشه ببندند. در غیر این صورت شما ممکن است با بسیاری از کاشی ها که حاوی کمی از همه چیز هستند اما چیزی واقعا کامل نیست.
+اینکار پروژه را در مدیریت وظایف ایجاد می‌کند و صفحه‌ای باز می‌کند که می‌توانید توصیف‌ها، دستورالعمل‌ها و سایر اطلاعات مربوط به پروژه را ارائه کنید. به خاطر داشته باشید که نباید این را دست کم بگیرید. قسمت عادلانه‌ای از نقشه‌کشها (در بسیاری موارد اکثریت آنها) تجربه قبلی در OpenStreetMap و/یا HOT ندارند و بدین ترتیب با دستورالعملهای تگ‌گذاری آشنا نیستند. بسیار مهم است که اهداف پروژه واضح باشد و همه منابعی که نقشه‌کشها باید روی آن حساب کنند در اینجا قرار داده شده است. اغلب توصیه می‌شود که یک پروژه به یک کلاس از اشیاء اختصاص داده شود. اگر نیاز به نقشه پایه یک منطقه دارید بهتر است آن را به پروژه‌های مختلف تقسیم کنید، یکی برای جاده‌ها، یکی برای ساختمان‌ها و غیره. در اینصورت مبتدی‌ها می‌توانند روی یک کلاس کوچک از اشیا تمرکز کنند و یاد بگیرند که چگونه آنها را به درستی نقشه بکشند. در غیر این صورت ممکن است با تعداد زیادی کاشی که هر کدام حاوی تعداد کمی از هر چیزی هستند اما در واقع کامل نیستند مواجه شوید.
 
-لطفا از زبان ساده استفاده کنید، زیرا مخاطبان مورد نظر شما ممکن است از زبان مادری انگلیسی صحبت نکنند.
+لطفاْ از زبان ساده استفاده کنید، زیرا ممکن است زبان مادری مخاطبان مورد نظر شما انگلیسی نباشد.
 
-1. عنوان پروژه باید قبلا نشان دهد که چه کسانی باید نقشه برداری شوند. ترجیح دادن یک عنوان مانند 
-* 1396 - نقشه های گم شده: ایالت نیجر (شمال)، نیجریه (پروژه 1: جاده ها و مناطق مسکونی) *
-2. مهم ترین پیام ها باید در زبانه دستور در ابتدا ظاهر شوند تا اطمینان حاصل شود که آنها خوانده می شوند. این شامل تصاویر خاصی است که به جای Bing استفاده می شود. جملات اول می تواند ذکر کند که برای هر خانه تکمیل شده لازم نیست که پروژه مربوط به جاده ها و مناطق مسکونی باشد، برای مثال. یا این که لازم است هر خانه را به نقشه بسپارید اگر پروژه برای تخمین چگالی جمعیت استفاده شود. این ها پیامهایی هستند که باید در برگه توضیحات نیز نمایش داده شوند.
-3. سایر نکات روشن: اگر پروژه مناسب برای نقشهدارها با سطح معینی از تجربه باشد. به عنوان مثال، پروژه با استفاده از واردات و یا داده های موجود باید به ردیابی GPS و یا برخی از تصاویر دیگر (به جز بخش قبلی). عبارت آن را به طوری که mappers جدید احساس دعوت به مشارکت در پروژه های دیگر، اما درک کنند که تکنیک های پیشرفته در این مورد مورد نیاز است.
-4. دستورالعمل هایی وجود دارد که خطاهای معمولی را که می بینیم در حالی که اعتبار می گیرند وجود دارد. یکی از نمونه های آن، تالیف Blake Girardot در نقشه برداری در غرب آفریقا است. از لینک در دستورالعمل استفاده کنید و توضیح دهید که پیروی از این دستورالعمل ها لازم است.
-5. منبع قطعی در برچسب گذاری [ویکیم OpenStreetMap] (http://wiki.openstreetmap.org/wiki/Map_Features) است. برای بسیاری از وظایف مرتبط با HOT، صفحه در [ترافیک بزرگراه ها در آفریقا] (http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) تخصص ویژه و خواندن بسیار توصیه شده برای هر نقشه گیر است. اگر پروژه شما باید به استانداردهای برچسب زدن متفاوت باشد، یک صفحه مشابه را در ویکی ارسال کنید و آن را در دستورالعمل های خود پیوند دهید.
+1. عنوان پروژه باید نشان دهد که چه مواردی باید نقشه‌کشی شوند. عناوینی مانند ذیل را ارجح هستند 
+ *#1396 - نقشههای گمشده: ایالت نیجر (شمال)، نیجریه (پروژه ۱: جاده‌ها و مناطق مسکونی)*
+2. پیام‌های مهم باید در زبانه دستورالعمل در همان ابتدا نشان داده شوند تا اطمینان حاصل شود که خوانده می‌شوند. هرنوع تصاویر خاصی که به جای Bing استفاده می‌شود نیز باید در این توضیح گنجانده شود. برای مثال، در صورتیکه پروژه مربوط به جاده‌ها و مناطق مسکونی باشد در همان جملات اول می‌توان ذکر کرد که لزومی به تکمیل همه ساختمانها نیست. یا این که لازم است نقشه همه خانه‌ها کشیده شود اگر پروژه برای تخمین تراکم جمعیتی استفاده می‌شود. این‌ها پیامهایی هستند که باید در برگه توضیحات نیز نمایش داده شوند.
+3. سایر نکات شفاف‌سازی: اگر پروژه فقط مناسب نقشه‌کشهای با سطح معینی از تجربه است، عنوان کنید. مثلاْ، پروژه از ایمپورت استفاده می‌کند یا داده‌های موجود بایستی با تصاویر ماهواره‌ای دیگر یا ردیابی‌های GPS تراز شود (به بخش قبل رجوع کنید). به نحوی عنوان کنید که نقشه‌کشهای جدید احساس کنند دعوت به مشارکت در سایر پروژه‌ها شده‌اند، اما بفهمند که تکنیک‌های پیشرفته در این پروژه مورد نیاز است.
+4. دستورالعمل‌هایی وجود دارد که خطاهای رایجی که در طی اعتباردهی میبینیم را پوشش می‌دهد. یکی از نمونه‌های آن، تألیف Blake Girardot درباره [نقشه‌کشی در غرب آفریقا](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips) است. از لینک در دستورالعمل استفاده کنید و توضیح دهید که پیروی از این دستورالعمل‌ها الزامی است.
+5. منبع قطعی در برچسب‌گذاری [ویکی OpenStreetMap](http://wiki.openstreetmap.org/wiki/Map_Features) است. برای بسیاری از وظایف مرتبط با HOT، صفحه [تگ‌گذاری بزرگراه‌ها در آفریقا](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) صفحه تخصصی ویژه است و خواندن آن به همه نقشه‌کش‌ها بسیار توصیه می‌شود. اگر پروژه شما باید از استانداردهای برچسب‌گذاری متفاوتی پیروی کند، در آنصورت صفحه مشابهی را در ویکی بنویسید و لینک آن را در دستورالعمل‌هایتان قرار دهید.
 
 <!--Hidden Text - Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ 
 
 Youtube video concerning the development & code updates for TM = https://www.youtube.com/watch?v=hFFlrm9wKcA
 from email by Pete Masters
-سلام Polyglot، فقط در صورتی که مفید است، ما با Pierre Giraud کار کرد، زمانی که او از لندن برای انجام معرفی فنی به مدیر وظیفه بازدید کرد. اینجا اگر شما علاقه مند هستید: https://www.youtube.com/watch؟v=hFFlrm9wKcA
+Hi Polyglot, just in case it is useful, we worked with Pierre Giraud when he visited London to do a tech introduction to the tasking manager. It's here if you're interested: https://www.youtube.com/watch?v=hFFlrm9wKcA
 
-به سلامتی،
+Cheers,
 
-پیت
-
-
-قبل از ایجاد یک کار
-آیا این وظیفه یک کار نقشه گمشده است؟ 
-آیا پروژه دارای جزء نقشه برداری مستقیم میدان است؟
-آیا فاجعه پروژه مرتبط است؟ 
-اگر بله، باید یک پروژه HOT و نقشه های گمشده باشد. با سرپرست فعال تماس بگیرید
-آیا این پروژه توسط یکی از اعضای Maps Missing Maps پشتیبانی می شود؟
-کیفیت تصویر بدون ابر؟
-اگر هیچ ارتباطی با ARC برای دیدن اینکه آیا آنها می توانند تصاویر جدیدی از وزارت امور خارجه ایالات متحده دریافت کنند یا خیر
-فرایند ایجاد وظیفه
-برای ایجاد یک پروژه جدید، باید به Tasking Manager وارد شوید - از نام کاربری و رمز عبور حساب کاربری OpenStreetMap خود استفاده کنید. توجه داشته باشید که برای ایجاد یک پروژه جدید در Tasking Manager باید مجوزهای خاصی را به حساب OpenStreetMap اختصاص دهید. مرورگر اینترنت خود را باز کنید و به task.hotosm.org بروید. یک صفحه مانند این را خواهید دید:
+Pete
 
 
-هنگامی که وارد سیستم شوید، بر روی نام کاربری خود در گوشه سمت راست بالا کلیک کنید.
-در منوی کشویی روی "ایجاد یک پروژه جدید" کلیک کنید.
-
-دو گزینه برای ایجاد یک پروژه وجود دارد: 
-یک منطقه مورد علاقه را به نقشه بکشید
-فایل GeoJSON یا KML را از منطقه مورد علاقه برای نقشه برداری آپلود کنید
-
-گزینه 1 - قرعه کشی
-روی دکمه "Draw" کلیک کنید
-قرعه کشی یک چند ضلعی را نشان می دهد که منطقه مورد علاقه در قاب نقشه (کلیک راست؛ نگه داشتن کلیک راست را فشار دهید برای حرکت نقشه بدون اضافه کردن یک گره)
-توجه داشته باشید: چند ضلعی باید به شدت متناسب با زمینه مورد علاقه باشد. این موجب صرفه جویی در زمان برای تکمیل کاشی هایی است که مورد علاقه نیستند (به عنوان مثال اقیانوس، جنگل)
-
-برای تکمیل چند ضلعی دوبار کلیک کنید
-
-گزینه 2 - وارد کردن GeoJSON یا KML
-روی دکمه «وارد کردن» کلیک کنید
-
-مرور فایل خود را در پنجره آپلود فایل
-بر روی نام فایل کلیک کنید تا فایل را برجسته کرده و سپس روی «باز» کلیک کنید.
-
-ناحیه مورد نظر در فایل GeoJSON یا KML در فریم نقشه ظاهر می شود و از شما خواسته می شود تا انتخاب کنید که زمینه مورد علاقه به وظایف جداگانه تقسیم شده است. دو گزینه وجود دارد:
-Square Grid - AOI به صورت خودکار به سلول های شبکه تقسیم می شود و هر سلول یک کار می شود.
-هندسی های خودسرانه - هر یک از چند ضلعی فرد در AOI نشان دهنده یک کار فردی است. اگر AOI شامل یک چند ضلعی باشد، این پروژه تنها یک کار دارد.
-توجه: این راهنما تنها گزینه شبکه مربع را پوشش می دهد.
-
-گزینه Square Grid را انتخاب کرده و روی Next کلیک کنید.
-تعیین اندازه کاشی بهینه بر اساس پنج گزینه اندازه کاشی. مهم: اندازه کاشی نسبی است، یعنی اندازه یک اندازه یک پروژه بزرگ بزرگتر از یک کوچک است (بنابراین کاشی های "S" یا "M" همیشه از اندازه یکسان نیستند). توجه داشته باشید که هر یک از چند ضلعی به یک کار تبدیل می شود. به همین ترتیب، اندازه کاشی کوچکتر، وظایف بیشتری را در تصاویر زیر مشاهده می شود. بنابراین اندازه کاشی بهینه خواهد بود هر دو در اندازه منطقه (ایجاد کاشی های کوچک برای یک پروژه بزرگ) و تعدادی از ویژگی های که احتمالا باید در هر کاشی نقشه برداری. به طور کلی، به عنوان اندازه منطقه مورد علاقه و / یا تعداد ویژگی های احتمالی افزایش می یابد، اندازه کاشی انتخاب شده برای پروژه باید کاهش یابد. اندازه ایده آل یک مربع تقریبا 45 دقیقه - 1 ساعت کار است. در mapathons بزرگتر و یا در شهرستانهای متراکم تر کارهای کوچکتر (~ 20 دقیقه) بهتر است.
+Before Creating a Task
+Should this task be a Missing Maps Task? 
+Will the project have a direct field mapping component?
+Is the project disaster related? 
+If yes it should be a HOT project not Missing Maps. Contact the activation lead.
+Is the project backed by one of the existing Missing Maps members?
+Is the imagery high quality without clouds?
+If no contact ARC to see if they can help get new imagery from US Department of State
+Task Creation Process
+To create a new project, you must be logged into the Tasking Manager - use your OpenStreetMap account username & password. Note that you must have certain permissions assigned to your OpenStreetMap account in order to create a new project in the Tasking Manager.  Open your Internet browser and go to tasks.hotosm.org. You will see a page like this:
 
 
+Once you are logged in, click on your username in the upper right hand corner.
+In the drop down menu, click “Create a New Project”.
 
-پس از انتخاب یک اندازه کاشی، روی "ایجاد پروژه" کلیک کنید. این پروژه را در مدیر وظیفه ایجاد می کند و یک صفحه ای باز می کند که در صورت نیاز می توانید شرح، دستورالعمل و سایر اطلاعات مربوط به پروژه را ارائه دهید.  
-در برگه توضیح:
-اولویت را به طور مناسب تنظیم کنید
-نام پروژه را با استفاده از جعبه متن "نام پروژه" نامگذاری کنید
-اگر این کار به طور خاص برای تلاشهای Maps Missing Maps باشد، از کنفرانس نامگذاری زیر استفاده کنید: Maps missing: <Location / Project Name>
-شرح را در کادر «شرح» ارائه دهید. نکته: قالب بندی در جعبه توضیحات براساس 'Markdown' است. نکات استفاده از 'Markdown' را می توان با کلیک کردن بر روی لینک 'Markdown' زیر جعبه توضیحات یافت. توجه: لازم است یک خط خالی بین پاراگراف ها برای جدا سازی آنها اضافه شود.
-اگر کار خاصی را برای پروژه پروژه های گمشده ایجاد می کنید، این زبان زیر را به عنوان بخشی از توضیحات ذکر کنید: "پروژه نقشه های گمشده با هدف نقشه برداری از مکان های آسیب پذیر جهان (تحت تاثیر بحران های انسان دوستانه: بیماری های همه گیر، درگیری، طبیعی بلایای طبیعی، فقر، بحران های زیست محیطی). کار بر روی پروژه های آماده سازی فاجعه HOT، کارهای نقشه های گمشده، نقشه های پیشگیرانه از کشورهای اولویت را برای تسهیل پاسخگویی به فاجعه، فعالیت های پزشکی و تخصیص منابع زمانی که بحران ها رخ می دهد، تسهیل می کنند. "
+There are two options for creating a project: 
+Draw an area of interest to be mapped
+Upload a GeoJSON or KML file of the area of interest to be mapped
+
+Option 1 - Draw
+Click the ‘Draw’ button
+Draw a polygon representing the area of interest in the map frame (right click; keep the right click pressed to move the map without adding a node)
+Note: the polygon should tightly fit the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)
+
+Double click to complete the polygon
+
+Option 2 - Import GeoJSON or KML
+Click the ‘Import’ button
+
+Browse to your file in the File Upload window
+Click the file name to highlight the file and then click ‘Open’.
+
+The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.  There are two options:
+Square Grid - AOI is automatically split into grid cells and each cell becomes a task.
+Arbitrary Geometries - Each individual polygon in the AOI represents an individual task.  If the AOI consists of one polygon, the project will have just one task.
+Note: this guide only covers the square grid option.
+
+Select the Square Grid option and click next.
+Determine the optimal tile size based on the five Tile Size options. Important: the size of tiles is relative, i.e. the same size level will be bigger on a large project than on a small one (“S” or “M” tiles are thus not always of the same size). Note that each polygon will become a single task.  As such, a smaller tile size will result in more tasks as shown in the screenshots below.  The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile.  Generally speaking, as the size of the area of interest and/or the number of likely features increases, the tile size chosen for the project should decrease. The ideal size of a square is roughly 45 min - 1 hour of work. At larger mapathons or in denser cities smaller tasks (~20 min) are better.
 
 
 
-در برگه "دستورالعمل"
-لیستی از ویژگی هایی را که باید در جعبه "Entities to Map" نمایش داده شود، برای مثال ساختمان ها و جاده های اصلی
-در کادر «Changeset Comment»، نظريات تغييرات را وارد کنيد که Mappers ها بايد هنگام بارگذاري داده هايي که نقشه ها دارند، استفاده کنند. نظرات باید موارد مختلفی را در رابطه با پروژه بیان کنند. به عنوان مثال، نظر 'Bukama، #DRC # hotosm-project-1145 #MissingMaps #Bing' محل کار، شماره پروژه را نشان می دهد، که پروژه به طور خاص برای نقشه های گم شده است، و تصاویر بینگ برای این کار استفاده می شود . نظرات متفاوتی خواهد بود که به وضوح در پروژه متفاوت است، اما به طور کلی باید به عنوان یک شاخص / توصیف سریع پروژه مورد استفاده قرار گیرد.
-دستورالعمل های دقیق را وارد کنید که نقشه گیرها باید در کادر «دستورالعمل های دقیق» دنبال کنند. حداقل، دستورالعمل های دقیق باید نشان دهند چه ویژگی هایی برای نقشه، چگونگی تگ کردن ویژگی ها و منبع تصویری مورد استفاده در این پروژه است. سایر جزئیات باید به صورت مناسب گنجانده شود. نکته: قالب بندی در جعبه توضیحات براساس 'Markdown' است. نکات استفاده از 'Markdown' را می توان با کلیک روی لینک «Markdown» زیر کادر «دستورالعمل های دقیق» پیدا کنید.
-در صورت وجود پوشش ابر که ممکن است نقشه کاشی را مختل کند، دستورالعمل های دقیق را اضافه کنید. درخواست نقشه گذاران به ذکر پوشش ابر در زمینه نظر، و علامت وظیفه به عنوان انجام شده است.
-در صورت لزوم، اطلاعات اضافی مربوط به وظایف را در کادر «دستورالعملهای هر کار (اختیاری)» وارد کنید. این اگر مورد نیاز خاصی برای انجام وظایف فردی در پروژه باشد، استفاده می شود.  
+After choosing a tile size, click “Create Project”.  This establishes the project in the task manager and opens a screen where you can provide the descriptions, instructions and other information about the project if needed.  
+On the ‘Description’ tab:
+set the Priority appropriately
+name the project using the “Name of the Project” text box
+If the task is specifically for the Missing Maps effort, use the following naming convention:  Missing Maps: <Location/Project Name>
+provide a description in the ‘Description’ box.  Note: formatting in the Description box is based on ‘Markdown’.  Tips for using ‘Markdown’ can be found by clicking the ‘Markdown’ link below the Description box. Note: it is necessary to add a blank line between paragraphs to separate them.
+If you are creating a task specifically for the Missing Maps project, include the following language as part of the description: ‘The Missing Maps project aims to map the most vulnerable places in the world (affected by humanitarian crises: disease epidemics, conflict, natural disasters, poverty, environmental crises). Building on HOT's disaster preparedness projects, the Missing Maps tasks facilitate pre-emptive mapping of priority countries to better facilitate disaster response, medical activities and resource allocation when crises occur.’
 
 
-در برگه های «توضیح» و «دستورالعملها»، میتوانید با کلیک کردن بر روی نماد زبان در بالای جعبههای متن (en، fr و غیره)، محتوا را ترجمه کنید. اگر هیچ متن برای زبان وارد نشده باشد، زبان پیش فرض (انگلیسی) به جای آن ظاهر می شود. متوجه خواهید شد که جعبه های متنی مختلف هر وقت که آن را بر روی یکی از آنها انتخاب می کنید، زبان را تغییر ندهید، شما باید زبان مورد نظر خود را در هر کادر جداگانه ویرایش کنید.
 
-برگه 'Area' هنوز کار نمی کند
+On the ‘Instructions’ tab:
+list the features that need to be mapped in the “Entities to Map” box, e.g. buildings and primary roads.
+in the ‘Changeset Comment’ box, enter the changeset comment that mappers should use when uploading the data they have mapped.  The comments should indicate various things about the project.  E.g., the comment ‘Bukama, #DRC #hotosm-project-1145 #MissingMaps #Bing’ indicates the location of the task, the project number, that the project is specifically for Missing Maps, and that Bing imagery is being used for the task.  Changeset comments will obviously vary by project, but should generally be used as a quick indicator/description of the project.
+enter detailed instructions that the mappers need to follow in the “Detailed Instructions” box.  At a minimum, detailed instructions must indicate what features to map, how to tag the features, and the imagery source to be used in this project.  Other details should be included as appropriate.  Note: formatting in the Description box is based on ‘Markdown’.  Tips for using ‘Markdown’ can be found by clicking the ‘Markdown’ link below the “Detailed Instructions” box.
+Add to the detailed instructions if there is any cloud coverage that might hamper the mapping of tiles. Request mappers to mention cloud coverage in the comment field, and mark the task as done.
+If appropriate, enter additional information specific to tasks in the “Per Task Instructions (Optional)” box.  This will be used if anything needs specific needs to be done for individual tasks within the project.  
 
-Tab 'Imagery' می تواند مورد استفاده قرار گیرد اگر منبع تصویری به غیر از منابع تصویر OSM استاندارد در OSM نیاز به استفاده شود. گزینه های صدور مجوز های مختلف نیز از طریق مجوز مجوز مورد نیاز وجود دارد اگر مجوز خاص برای منبع تصویر متناظر مورد نیاز باشد.
 
-زبانه "حوزه های اولویت" برای تعریف حوزه های اولویت برای وظیفه در صورت لزوم استفاده می شود. این کار به صورت دستی کشیدن زمینه های اولویت در کادر نقشه انجام می شود. پس از نجات این مناطق به عنوان اولویت اول در نقشه بر روی صفحه اصلی پروژه نمایش داده خواهد شد. ابزارها همچنین در برگه «حوزه های اولویت» برای ویرایش یا حذف یک منطقه پراهمیت موجود وجود دارد.
+On both ‘Description’ and ‘Instructions’ tabs, you can translate the content by clicking on the language icon above the text boxes (en, fr, etc.). If no text is entered for language, the default language (English) will appear instead. You’ll notice that the different text boxes don’t switch languages at once when you select it on one, you’ll need to select the language you want to edit on each box individually.
 
-در صورت لزوم، دسترسی به پروژه جدید می تواند به یک گروه خاص از کاربران از طریق "مجاز کاربران" برگه محدود شود. برای محدود کردن دسترسی، ابتدا در کادر کنار "خصوصی" کلیک کنید. سپس نام کاربری کاربری را که باید در کادر ورود متن «مجاز کاربران» دسترسی داشته باشید وارد کنید و روی دکمه «افزودن کاربر» کلیک کنید. تکرار برای کاربران اضافی که نیاز به دسترسی دارند. توجه: برای اینکه نام کاربر در دسترس برای اضافه کردن به کاربران مجاز باشد - ابتدا باید از URL برای مثال خود از OSMTM دیدن کنند و اجازه دسترسی به حساب OpenStreetMap خود را داشته باشند. بعد از اینکه این کار را انجام دادید، نام کاربری آنها باید برای افزودن مدیر در دسترس باشد. 
+The ‘Area’ tab is not yet functional.
 
-برگه "متفرقه" گزینه هایی برای اضافه کردن یک تاریخ به موقع و یک پیش فرض JOSM فراهم می کند. تاریخ مصرف را می توان در جعبه "تاریخ پروژه" وارد کرد و نشان دهنده تاریخی است که پس از آن پروژه به صورت خودکار بایگانی می شود. کاربران همچنین می توانند یک فایل XML پیش فرض JOSM را برای کمک به برچسب گذاری در صورت لزوم بارگذاری کنند.  
+The ‘Imagery’ tab can be used if an imagery source other than the standard OSM imagery sources in OSM needs to be used.  There are also various licensing options via the Required License dropdown if a special license is required for the alternate imagery source.
 
-پس از وارد کردن توضیحات، دستورالعمل ها و اطلاعات لازم در برگه های دیگر، روی «ذخیره تغییرات» کلیک کنید، که شما را به صفحه اصلی پروژه می برد.  
+The “Priority Areas” tab is used to define priority areas for the task if necessary.  This is done by manually drawing the priority areas in the map frame.  Once saved these areas will be shown  as high priority on the map on the main project page.  Tools are also available on the ‘Priority Areas’ tab to edit or delete an existing high priority area.
 
-تاریخ ثبت اختراع ویکی - برای به روز رسانی زمانی که این راهنما کامل است http://wiki.openstreetmap.org/wiki/Tasking_manager_admin
-- پایان متن پنهان ->
+If necessary, access to the new project can be limited to a certain group of users via the “Allowed Users” tab.  In order to limit access, first click in the check box next to “Private”.  Then enter the username of a user that should have access in the “Allowed Users” text entry box and click the “Add User” button.  Repeat for additional users that need access.  Note: In order for the user's name to be available to add to the Allowed Users - they first must visit the URL for your instance of OSMTM and Authorize access to their OpenStreetMap account. After they've done this, their username should be available for the administrator to add. 
+
+The “Misc” tab provides options to add a due date and a JOSM preset.  The due date can be entered in the “Project due date” box and represents the date after which the project will automatically be archived.  Users can also load a JOSM preset XML file to assist with tagging if appropriate.  
+
+After entering the description, instructions, and any necessary information on the other tabs, click on “Save the Modifications”, which will take you back to the main project page.  
+
+Out of date wiki entry - for update when this guide complete  http://wiki.openstreetmap.org/wiki/Tasking_manager_admin
+- end of hidden text-->
   
 ### اصلاح و انتشار
-ویرایش زبانه های مختلف برای اطمینان از قالب بندی و قالب بندی درست است، و دستورالعمل ها روشن است. اگر شما نیاز به ایجاد تغییرات یا پالایش در پروژه خود دارید، روی لینک «ویرایش» در گوشه بالا سمت راست صفحه کلیک کنید. 
+زبانه‌های مختلف را برای اطمینان از صحت جمله‌بندی و قالب‌بندی و شفافیت دستورالعمل‌ها دوباره خوانده و ویرایش کنید. اگر نیاز به تغییرات یا پالایش در پروژه خود دارید، روی لینک ‘Edit’ در گوشه بالا سمت راست صفحه کلیک کنید. 
 
 ![TM Edit Project][]
 
-اگر پروژه آماده نقشه برداری باشد، روی پیوند «انتشار» کلیک کنید. هنگامی که پروژه منتشر می شود، برای نقشه برداری برای هر کسی که دارای یک حساب کاربری OSM است، مگر اینکه یک گروه از کاربران در برگه «مجاز کاربران» مشخص شود، در این صورت فقط کاربران مجاز قادر به کار بر روی آن خواهند بود. در صورت لزوم، بعد از انتشار، با کلیک روی پیوند «ویرایش»، هنوز می توان ویرایش ها را به پروژه انجام داد.
+اگر پروژه آماده نقشه‌کشی شد، روی پیوند ‘Publish’ کلیک کنید. به محض انتشار پروژه، پروژه برای نقشه‌کشی برای هر کسی که دارای یک حساب کاربری OSM است در دسترس است، مگر اینکه یک گروه خاص از کاربران در برگه ‘Allowed Users’ مشخص شده باشند، که در آن صورت فقط کاربران مجاز قادر به کار بر روی پروژه خواهند بود. در صورت لزوم، بعد از انتشار با کلیک روی لینک ‘Edit’، هنوز می‌توان پروژه را ویرایش کرد.
 
 [TM Tile Sizes]: /images/coordination/TM_tile_sizes.png
 [TM New]: /images/coordination/TM_create_new.png

@@ -9,7 +9,6 @@ category: josm
 JOSM - Aangepaste voorkeuzen maken
 =======================
 
-> Bijgewerkt 20-09-2015  
 
 In het [vorige hoofdstuk](/nl_NL/josm/josm-presets) hebben we gekeken hoe menu's voor aangepaste voorkeuzen kunnen worden toegevoegd aan JOSM. In dit hoofdstuk zullen we behandelen hoe u uw eigen bestanden voor aangepaste voorkeuzen maakt.  
 
@@ -103,13 +102,15 @@ Het element &lt;text&gt; maakt een blanco veld. Wanneer het formulier in JOSM wo
 
 Het vak voor het keuzemenu op het formulier wordt gedefinieerd op de volgende regel:  
 
-      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
+      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" />
+      <display_values="Residential, Commercial, Industrial"/>
 
 Een vak voor een keuzemenu wordt gedefinieerd door het element &lt;combo&gt;. Net als met het element &lt;text&gt;, definieert het attribuut *key* de sleutel voor de tag. De waarde wordt dan gekozen uit een lijst met mogelijke *values*. Het attribuut *display_values* stelt u in staat om te kiezen om verschillende namen weer te laten geven in het vak van het keuzemenu, wat gemakkelijker zou kunnen worden begrepen dan de waarden van de tags voor OSM.  
 
 Laten we tenslotte nog eens kijken naar de regel die het keuzevak definieert.  
 
-      <check key="building:vacant" text="Is the building vacant?" default="off" delete_if_empty="true" />
+      <check key="building:vacant" text="Is the building vacant?" default="off" /> 
+      <delete_if_empty="true" />
 
 Het element &lt;check&gt; definieert - u raadde het al! - het keuzevak. Het attribuut *default="off"* geeft aan dat het keuzevak standaard niet geselecteerd is. De resterende attributen heeft u al eerder gezien.  
 
@@ -118,7 +119,7 @@ Uw eigen bestand voor voorkeuzen maken
 
 De beste manier om uw eigen bestand voor voorkeuzen te maken is door er een te nemen dat al bestaat, en bewerk dat zodat het voldoet aan uw doel. U mag dit voorbeeldbestand vrijelijk bewerken en er mee experimenteren om de basisbeginselen te leren. Onthoud echter dat, elke keer als u het hebt opgeslagen, u JOSM opnieuw zult moeten starten om de wijzigingen te laden.  
 
-Vóórdta u begint met het maken van uw eigen voorkeuzen, dient u zorgvuldig na te denken over de tags die u gaat gebruiken. Nieuwe tags uitvinden is een onderwerp op zich. In het algemeen dient u zoveel mogelijk bestaande tags van OSM te gebruiken, als zij bestaan. De meeste bestaande tags zijn vermeld op de [pagina Map Features op de wiki van OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).  
+Vóórdat u begint met het maken van uw eigen voorkeuzen, dient u zorgvuldig na te denken over de tags die u gaat gebruiken. Nieuwe tags uitvinden is een onderwerp op zich. In het algemeen dient u zoveel mogelijk bestaande tags van OSM te gebruiken, als zij bestaan. De meeste bestaande tags zijn vermeld op de [pagina Map Features op de wiki van OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).  
 
 Dit voorbeeldbestand bevat de meeste elementen die u zult vinden in een bestand voor voorkeuzen voor JOSM - er zijn niet erg veel elementen voor formulieren. Als u zou willen experimenteren met een meer complex bestand voor voorkeuzen, download dan hier het bestand [dhaka_presets.xml](/files/dhaka_presets.xml).  
 

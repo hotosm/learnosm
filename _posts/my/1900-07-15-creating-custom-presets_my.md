@@ -9,7 +9,6 @@ category: josm
 JOSM - သီးသန့်ပြင်ဆင်ထားသော Presets များကိုဖန်တီးခြင်း
 =======================
 
-> Reviewed 2015-09-20  
 
 JOSM ဆော့ဖ်ဝဲလ်အတွင်းသို့ သီးသန့်ပြင်ဆင်ထားသော Presets menu ထည့်သွင်းခြင်းကို [ရှေ့သင်ခန်းစာ](/my/josm/josm-presets) ၌လေ့လာခဲ့ပြီးဖြစ်သည်။ ယခုသင်ခန်းစာတွင်ယင်း Presets ဖိုင်များဖန်တီးခြင်းကိုလေ့လာမည်ဖြစ်သည်။  
 
@@ -103,13 +102,15 @@ Presets ဖိုင်နမူနာပုံစံကိုဖွင့်လ
 
 ပုံစံ(form) ပေါ်ရှိ ရွေးချယ်ရန်အကွက်(dropdown box) ကိုမူ အောက်ပါအတိုင်းသတ်မှတ်ပေးနိုင်သည်။  
 
-      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
+      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" />
+      <display_values="Residential, Commercial, Industrial"/>
 
 Dropdown box  ကို &lt;combo&gt; element ဖြင့်ဖော်ပြသည်။ JOSM ဆော့ဖ်ဝဲလ်ရှိ အညွန်းဖော်ပြချက်များတွင် key နှင့် values ဟူ၍ပါဝင်ကြောင်း လေ့လာခဲ့ပြီးဖြစ်သည်။ &lt;text&gt; element ရှိ *key* attribute သည် JOSM မြေပုံရှိ အရာဝတ္ထု၏အညွန်းတွင်ပါသော key ကိုသတ်မှတ်ပေးပြီး value အတွက် *values* attribute များအတွင်း ထည့်သွင်းထားသည်များမှ ရွေးချယ်မှုကို ပြုလုပ်ခိုင်းသည်။ Dropdown box မှဖော်ပြပေးသောရွေးချယ်မှုများကို  *display_values* attribute ဖြင့်ထိန်းကွပ်ပေးသည်။  
 
 ဟုတ်၊မဟုတ် စစ်ဆေးသောတာဝန်ကိုယူထားသော checkbox  ကိုအောက်ပါအတိုင်းသတ်မှတ်သည်။   
 
-      <check key="building:vacant" text="Is the building vacant?" default="off" delete_if_empty="true" />
+      <check key="building:vacant" text="Is the building vacant?" default="off" /> 
+      <delete_if_empty="true" />
 
 checkbox ကိုသတ်မှတ်ဖော်ပြရန် &lt;check&gt; element ကိုအသုံးပြုသည်။ ပုံမှန်အားဖြင့် ရွေးချယ်မှုပြုလုပ်သောအကွက်ငယ်တွင် မည်သည့်ရွေးချယ်မှုမျှ ပါဝင်လေ့မရှိစေရန်အတွက် *default="off"* attribute ဖြင့်ရေးသားဖော်ပြသည်။  
 
