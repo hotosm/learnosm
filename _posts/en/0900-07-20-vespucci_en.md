@@ -52,7 +52,7 @@ To add OSM data using Vespucci, you are required to sign in to your OpenStreetMa
 ![Authorise OAuth][]
 ![Log in][]
 
-Vespucci will need access to your account. To authorize access to your account, tap "Grant Access" after loging in. Make sure all boxes are checked to maximize what you can do in Vespucci.
+Vespucci will need access to your account. To authorize access to your account, tap "Grant Access" after logging in. Make sure all boxes are checked to maximize what you can do in Vespucci.
 
 ![Grant Access][]
 
@@ -94,7 +94,7 @@ To create a way, choose add way and tap continuously on your screen until you ge
 ![Add way2][]
 ![Add way3][]
 
-To create a close way/polygon, create ways and simply tap on the first node of the first way you created to close the polygon. Tap the "Add preset" icon to add tags to your polygon. Untagged ways are fushia in color, while tagged ways are colored according to their tags/properties (i.e., tagged buildings are beige, tagged waterways are blue, etc.).
+To create a closed way/polygon, create ways and simply tap on the first node of the first way you created to close the polygon. Tap the "Add preset" icon to add tags to your polygon. Untagged ways are fushia in color, while tagged ways are colored according to their tags/properties (i.e., tagged buildings are beige, tagged waterways are blue, etc.).
 
 ![Add polygon][]
 
@@ -127,11 +127,11 @@ To redo, long press on the "Undo" icon. A list of operations you have undone wil
 
 ### Uploading your changes
 
-To upload your changes, tap the "Transfer" icon on the lower portion of the screen and select "Upload data to OSM server". A list of your changes will appear. Tap "Properties" to input your changeset comments, then tap "Upload". If the upload is successful, your changes will immediately appear in OSM.
+To upload your changes, tap the "Transfer" icon on the lower portion of the screen and select "Upload data to OSM server". A list of your changes will appear. Tap "Properties" to input your changeset comments, then tap "Upload". If the upload is successful, your changes will appear immediately in OSM.
 
 ![Upload][]
 ![Changes][]
-![[Changeset comments][]
+![Changeset comments][]
 
 Uploading your changes to OpenSteetMap requires you to be connected to the internet and be logged in to your OSM account so make sure you have signed in before editing.
 
@@ -140,7 +140,7 @@ Searching for places
 
 To locate your current location, tap the "GPS" icon on the lower portion of the screen and select "Go to current location". The screen will automatically zoom to your location. Note that your device's GPS should be on for this to work.
 
-![Current location[]
+![Current location]
 
 To locate for other locations, tap the "More options" icon and select Find. Type the name of your desired location and select search. Make sure that you are searching "with Nomatim" to perform a nomatim search of places.
 
@@ -176,7 +176,7 @@ You can also provide feedback to Vespucci developers using your GitHub or OSM ac
 [Download]: /images/mobile-mapping/vespucci_download.PNG
 [Locked]: /images/mobile-mapping/vespucci_locked.PNG
 [Unlocked]: /images/mobile-mapping/vespucci_unlocked.PNG
-[Add preset]: /images/mobile-mapping/vespuci_add_preset.PNG
+[Add preset]: /images/mobile-mapping/vespucci_add_preset.PNG
 [Edit properties]: /images/mobile-mapping/vespucci_edit_properties.PNG
 [Add object]: /images/mobile-mapping/vespucci_add_object.PNG
 [Objects]: /images/mobile-mapping/vespucci_objects.PNG
