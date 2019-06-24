@@ -23,11 +23,11 @@ Der iD-Editor stellt eine gute Möglichkeit zum Bearbeiten dar, wenn Sie kleine 
 Den iD Editor starten
 ----------------------
 
-- Der iD-Editor benötigt eine aktive Verbindung zum Internet.  
-- Öffnen Sie Ihren Webbrowser und navigieren Sie zu der OpenStreetMap-Website auf [http://www.openstreetmap.org](http://www.openstreetmap.org).  
-- **Melden Sie sich an** mit Ihrem OpenStreetMap-Benutzerkonto  
-- Verschieben und vergrößern Sie die Karte zu dem Bereich, den Sie bearbeiten wollen. Sie können verschieben, indem Sie die linke Maustaste gedrückt halten und die Karte zum gewünschten Bereich ziehen.  
-- Klicken Sie auf den kleinen Pfeil neben **Bearbeiten**. Dann klicken Sie auf **Bearbeiten mit iD (im Browser eingebetteter Editor)**.  
+-⇥ Der iD-Editor benötigt eine aktive Verbindung zum Internet.  
+-	 Öffnen Sie Ihren Webbrowser und navigieren Sie zu der OpenStreetMap-Website auf [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+-⇥**Melden Sie sich an** mit Ihrem OpenStreetMap-Benutzerkonto  
+-⇥Verschieben und vergrößern Sie die Karte zu dem Bereich, den Sie bearbeiten wollen. Sie können verschieben, indem Sie die linke Maustaste gedrückt halten und die Karte zum gewünschten Bereich ziehen.  
+-⇥ Klicken Sie auf den kleinen Pfeil neben **Bearbeiten**. Dann klicken Sie auf **Bearbeiten mit iD (im Browser eingebetteter Editor)**.  
 
 ![image1][]
 

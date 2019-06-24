@@ -12,7 +12,7 @@ Vyznačení obdélníkových budov - iD editor
 - Obsah
 {:toc}
 
-> Vytvořeno 2016-10-30 -->  
+> Vytvořeno 2016-10-30  
 
 Základy
 ----------

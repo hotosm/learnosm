@@ -32,7 +32,7 @@ Alle Arten von Wegen, Autobahnen ebenso wie Pfade, werden in OpenStreetMap als '
 - Es macht auch einen Unterschied, ob die Straße asphaltiert oder eine Schlammpiste ist.
 - Um Ausbreitungsvorhersagen für Seuchen zu bekommen, hilft die Beschreibung eines Opfers "in der Nähe der Kreuzung" nur dann, wenn die Kreuzung auch auf der Karte zu sehen ist
 
-### Straßen und Wege - Richtig erfassen
+### <a name="highways-howto"></a> Straßen und Wege - Richtig erfassen
 
 ![iD 3][]
 
@@ -91,7 +91,7 @@ Es gibt viele Gründe, Siedlungsgebiete in OpenStreetMap einzutragen.
 * Ortsnamen und Grenzen werden oft aus anderen Quellen importiert. Die genaue Lage ist aber nicht immer bekannt. Sobald sie ein Siedlungsgebiet erfasst haben, kann derjenige der den Import durchführt erkennen, wo der Ortsname eingetragen werden soll.
 
 
-### Siedlungsgebiete - Richtig eintragen
+### <a name="residential-howto"></a> Siedlungsgebiete - Richtig eintragen
 
 
 ** In einer idealen Welt **  
@@ -134,7 +134,7 @@ Gebäude werden in der Datenbank aus verschiedenen Gründen benötigt:
 * Wenn man das Ausmaß der Schäden an einem Gebäude bestimmen kann, lassen sich daraus Informationen über mögliche Verunglückte und die benötigten Hilfsmaßnahmen gewinnen  
 
 
-### Gebäude - Richtig eintragen
+### <a name="buildings-howto"></a> Gebäude - Richtig eintragen
 
 Die überwiegende Mehrzahl der Gebäude, die für HOT-Projekte benötigt werden, sind entweder rechteckig oder rund. Wenn eine Gebäude anders aussieht, ist das Gebäude wahrscheinlich durch einen Schatten, eine Reflexion, Vegetation etc. teilweise verdeckt.  
 
@@ -147,9 +147,9 @@ Wenn die Projektanweisungen nicht etwas anderes verlangen, sollten Gebäude mit 
 
 * Satellitenbilder sind oft schon etwas älter. Ein Gebäude, das ohne Dach zu sehen ist, ist möglicherweise bereits fertiggestellt und bewohnt. Es kann auch sein, dass ein derartiges Gebäude mehrere Stockwerke besitzt, wobei nur die unteren bewohnt sind und das oberste Stockwerk derzeit kein Dach hat.  
 
-> **Gebäude mit iD eintragen** - wenn Sie die Form des Gebäudes als Fläche eintragen müssen Sie daran denken, das Attribut der Fläche auf 'building=yes' zu ändern. Standardmäßig ist hier nur 'area=yes' eingestellt. Wenn Sie ein Gebäude mit rechtwinkligen Seiten eintragen, nehmen Sie sich bitte die Zeit, die Linien hinterher in die passende Form zu bringen (markieren Sie es und drücken Sie die Taste 's')  
+> **Gebäude mit iD eintragen** - wenn Sie die Form des Gebäudes als Fläche eintragen müssen Sie daran denken, das Attribut der Fläche auf 'building=yes' zu ändern. Standardmäßig ist hier nur 'area=yes' eingestellt. Wenn Sie ein Gebäude mit rechtwinkligen Seiten eintragen, nehmen Sie sich bitte die Zeit, die Linien hinterher in die passende Form zu bringen (markieren Sie es und drücken Sie die Taste 'q')  
 
-* Mit JOSM geht das Zeichnen von Gebäuden viel schneller - [hier wird die entsprechende Erweiterung für JOSM erklärt](/de/josm/josm-more-tools/#buildings-tools)  
+* Mit JOSM geht das Zeichnen von Gebäuden viel schneller - [hier wird die entsprechende Erweiterung für JOSM erklärt](/de/josm/josm-more-plugins/#das-gebäude-werkzeug-plugin)  
 
 ![Buildings iD][]
 

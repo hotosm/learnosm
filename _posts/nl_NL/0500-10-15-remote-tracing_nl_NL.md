@@ -32,7 +32,7 @@ Elk type weg, van autosnelwegen tot sporen en paden, worden gelabeld als 'highwa
 -  Weten of een wegoppervlak asfalt is of zachte modder zal verschil,maken voor het plannen van uw route.
 -  Bij het pr0beren in kaart te brengen van de verspreiding van een ziekte, is de beschrijving van een slachtoffer als "nabij de kruising" significant als u de kruising kunt zien op de kaart.
 
-### Wegen - Hoe in kaart te brengen
+### <a name="highways-howto"></a> Wegen - Hoe in kaart te brengen
 
 ![iD 3][]
 
@@ -91,7 +91,7 @@ Residentiële grenzen worden voor vele doelen gebruikt in OpenStreetMap.
 *  Plaatsnamen & grenzen worden vaak geïmporteerd vanuit andere bronnen, maar de locatie is niet altijd nauwkeurig. Als u eenmaal een residentiële grens heeft, kan de persoon die de import verzorgt zien waar de plaatsnaam waarschijnlijk moet staan.
 
 
-### landuse=residential - hoe in kaart te brengen
+### <a name="highways-howto"></a> landuse=residential - hoe in kaart te brengen
 
 
 ** In een ideale wereld **  
@@ -134,7 +134,7 @@ gebouwen worden aan de kaartgegevens toegevoegd om een aantal redenen;
 *  Er bestaat potentieel om in te schatten hoe groot het percentage schade is voor een gebouw, wat kan worden gebruikt om het aantal potentiële gewonden & vereiste mate van ondersteuning die nodig is in te schatten - dit wordt momenteel (januari 2015) nader onderzocht voor gebruik in de toekomst.  
 
 
-### Gebouwen - Hoe in kaart te brengen
+### <a name="buildings-howto"></a> Gebouwen - Hoe in kaart te brengen
 
 De overgrote meerderheid van gebouwen die voor HOT in kaart moeten worden gebracht zijn ofwel gebaseerd op rechthoekige vormen met vierkante hoeken, of zijn rond. Als een gebouw een mix van die twee lijkt te zijn, is het meer waarschijnlijk dat u kijkt naar een gebouw waarvan de omtrek aan het oog wordt onttrokken door schaduw, reflectie, gebladerte of iets dergelijks.  
 
@@ -147,9 +147,9 @@ Tenzij de instructies voor het project anders specificeren dienen gebouwen te wo
 
 *  Er kan vaak een tijdsverschil bestaan tussen het tijdstip waarop de satellietafbeelding is genomen en dat waarop het in kaart brengen wordt uitgevoerd. Er bestaat de mogelijkheid dat het gebouw waar u naar kijkt geen dak schijnt te hebben, maar dat het nu is voltooid & wordt bewoond. Het is ook mogelijk dat u kijkt naar een gebouw met verschillende verdiepingen, waarvan de onderste worden bewoond, en de bovenste zonder dak momenteel niet wordt bewoond.  
 
-> **Gebouwen in kaart brengen met iD** - wanneer u het gereedschap voor gebieden gebruikt in iD om de basisvorm te maken, moet u onthouden dat u de tag verandert naar building=yes. De standaard instelling zal de vorm gewoonlijk taggen als area=yes. Indien uw getraceerde gebouw vierkante hoeken heeft, neem dan ook even de tijd om uw getraceerde item te voorzien van rechte hoeken (accentueer het en sneltoets 's').  
+> **Gebouwen in kaart brengen met iD** - wanneer u het gereedschap voor gebieden gebruikt in iD om de basisvorm te maken, moet u onthouden dat u de tag verandert naar building=yes. De standaard instelling zal de vorm gewoonlijk taggen als area=yes. Indien uw getraceerde gebouw vierkante hoeken heeft, neem dan ook even de tijd om uw getraceerde item te voorzien van rechte hoeken (accentueer het en sneltoets 'q').  
 
-*  JOSM is veel sneller voor het in kaart brengen van gebouwen - [JOSM building tools wordt hier uitgelegd.](/en/josm/more-tools/#the-buildings-tools-plugin)  
+*  JOSM is veel sneller voor het in kaart brengen van gebouwen - [JOSM building tools wordt hier uitgelegd.](/nl_NL/josm/josm-more-plugins/#the-buildings-tools-plugin)  
 
 ![Buildings iD][]
 

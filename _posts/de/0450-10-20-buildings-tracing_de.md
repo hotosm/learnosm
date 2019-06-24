@@ -12,7 +12,7 @@ Rechteckige Gebäude zeichnen - iD editor
 - TOC
 {:toc}
 
-> Überprüft 2016-10-30 -->  
+> Überprüft 2016-10-30  
 
 Die Grundlagen
 ----------

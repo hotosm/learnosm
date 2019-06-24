@@ -9,6 +9,7 @@ category: beginner
 L’Éditeur iD
 =============
 
+> Dernière révision 10/06/2019
 
 Vous débutez la cartographie avec le gestionnaire de tâches pour HOT ou MissingMaps etc ? Voir notre section [HOT-conseils](/fr/hot-tips/).  
 

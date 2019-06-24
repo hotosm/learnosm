@@ -9,6 +9,7 @@ category: beginner
 De iD Editor
 =============
 
+> Bijgewerkt op 10-06-2019
 
 Beginnen met in kaart brengen voor een Tasking Manager voor HOT of MissingMaps etc? Bekijk ons [gedeelte HOT-tips](/nl_NL/hot-tips/).  
 

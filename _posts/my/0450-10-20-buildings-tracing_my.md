@@ -12,7 +12,7 @@ category: hot-tips
 - TOC
 {:toc}
 
-> Created 2016-10-30  -->  
+> Created 2016-10-30   
 
 အခြေခံလိုအပ်ချက်များ
 ----------

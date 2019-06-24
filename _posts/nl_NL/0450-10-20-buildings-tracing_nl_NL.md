@@ -12,7 +12,7 @@ Rechthoekige gebouwen traceren - iD editor
 - TOC
 {:toc}
 
-> Gemaakt op 30-10-2016  -->  
+> Gemaakt op 30-10-2016   
 
 De beginselen
 ----------

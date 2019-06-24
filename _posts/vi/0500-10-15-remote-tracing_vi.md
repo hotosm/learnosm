@@ -32,7 +32,7 @@ Bất kỳ loại đường nào từ đường cao tốc đến đường ray v
 -  Biết được bề mặt đường là đường nhựa hay bùn mềm sẽ tạo sự khác biệt cho việc lập kế hoạch tuyến đường của bạn.
 -  Khi cố gắng phác hoạ sự lây lan của bệnh, mô tả của một nạn nhân về "gần ngã tư" là đáng kể nếu bạn có thể nhìn thấy đường ngang trên bản đồ.
 
-### Đường cao tốc - Cách vẽ đường
+### <a name="highways-howto"></a> Đường cao tốc - Cách vẽ đường
 
 ![iD 3][]
 
@@ -91,7 +91,7 @@ Ranh giới khu dân cư được sử dụng cho nhiều mục đích trong Ope
 *  Đặt tên và ranh giới thường được nhập từ các nguồn khác, nhưng vị trí không phải lúc nào cũng chính xác. Một khi bạn đã có một ranh giới khu dân cư, người nhập dữ liệu có thể nhìn thấy nơi mà tên địa điểm nên được đặt.
 
 
-### landuse=residential - làm thế nào để lập bản đồ
+### <a name="residential-howto"></a> landuse=residential - làm thế nào để lập bản đồ
 
 
 ** Trong điều kiện lý tưởng **  
@@ -134,7 +134,7 @@ Các toà nhà được đưa vào bản đồ vì một số mục đích;
 *  Có khả năng ước tính mức độ thiệt hại của tòa nhà, có thể được sử dụng để ước tính số thương vong tiềm năng và mức độ hỗ trợ có thể được yêu cầu - hiện nay (tháng 1 năm 2015) đang được thảo luận để sử dụng trong tương lai.  
 
 
-### Toà nhà - Làm thế nào để thiết lập
+### <a name="buildings-howto"></a> Toà nhà - Làm thế nào để thiết lập
 
 Phần lớn các toà nhà có yêu cầu lập bản đồ bởi HOT đều dựa trên các hình chữ nhật có góc vuông hoặc tròn. Nếu tòa nhà có vẻ là hỗn hợp của hai tòa nhà, có vẻ như bạn đang nhìn vào một tòa nhà có vạch kẻ bị che khuất bởi bóng tối, sự phản chiếu, lá hoặc tương tự.  
 
@@ -147,9 +147,9 @@ Trừ khi các hướng dẫn của dự án chỉ định khác, các tòa nhà
 
 *  Thông thường có thể có sự chậm trễ thời gian giữa hình ảnh vệ tinh được thực hiện và lập bản đồ được thực hiện. Có khả năng tòa nhà mà bạn đang tìm kiếm dường như không có mái nhà, hiện đã được hoàn thành và bây giờ đang ở. Cũng có thể bạn đang nhìn vào một tòa nhà với nhiều tầng, những tầng dưới cùng đang được ở, và tầng trên cùng không có mái nhà hiện không được sống.  
 
-> **Thiết lập các toà nhà sử dụng iD** - khi bạn đang sử dụng công cụ khu vực trong iD để tạo ra hình dạng cơ bản, bạn phải nhớ để sau đó thay đổi thẻ để building= yes. Cài đặt mặc định sẽ chỉ gắn nhãn hình dạng là area = yes. Nếu bạn đang truy tìm là một tòa nhà có góc vuông, vui lòng dành thời gian để định vị mục truy tìm của bạn (đánh dấu và lối tắt 's').  
+> **Thiết lập các toà nhà sử dụng iD** - khi bạn đang sử dụng công cụ khu vực trong iD để tạo ra hình dạng cơ bản, bạn phải nhớ để sau đó thay đổi thẻ để building= yes. Cài đặt mặc định sẽ chỉ gắn nhãn hình dạng là area = yes. Nếu bạn đang truy tìm là một tòa nhà có góc vuông, vui lòng dành thời gian để định vị mục truy tìm của bạn (đánh dấu và lối tắt 'q').  
 
-*  JOSM có thể nhanh chóng thiết lập các toà nhà - [Công cụ JOSM building được giải thích tại đây](/vi/josm/more-tools/#the-buildings-tools-plugin)  
+*  JOSM có thể nhanh chóng thiết lập các toà nhà - [Công cụ JOSM building được giải thích tại đây](/vi/josm/josm-more-plugins/#the-buildings-tools-plugin)  
 
 ![Buildings iD][]
 
