@@ -147,7 +147,7 @@ surface=unpaved
 
 * اغلب اوقات تأخیر زمانی بین گرفتن تصاویر ماهواره‌ای تا انجام نقشه‌کشی وجود دارد. این امکان وجود دارد که ساختمانی که به آن نگاه می‌کنید سقف نداشته باشد، اما اکنون تکمیل شده و در آن زندگی می‌کنند. همچنین ممکن است که شما به یک ساختمان چندطبقه نگاه کنید، که در طبقات پایین آن زندگی می‌کنند و طبقه بالا بدون سقف باشد و در حال حاضر در آن زندگی نمی‌شود.  
 
-> **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes. If you're tracing is of a building with square corners, please take the time to square your traced item (highlight it and shortcut 'q').  
+> **استفاده از iD برای کشیدن ساختمانها** - زمانی که در iD از ابزار محوطه برای ایجاد شکلهای پایه استفاده می‌کنید، به یاد داشته باشید که تگ را به building=yes تغییر بدهید. تنظیمات پیش‌فرض تنها تگ area=yes را دارد. اگر ردیابی شما ساختمانی با گوشه‌های قائمه است، لطفاْ زمان گذاشته و آنرا قائمه کنید (آنرا انتخاب کرده و میانبر 'q' را بزنید).  
 
 * JOSM برای ساخت کشیدن ساختمانها بسیار سریعتر است - [ابزار ساختمان JOSM در اینجا توضیح داده شده است.](/fa/josm/more-plugins/#the-buildings-tools-plugin)  
 

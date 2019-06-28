@@ -9,7 +9,7 @@ category: beginner
 Editor iD
 =============
 
-> Revisionato il 30-05-2016  
+Revisionato il 30-05-2016  
 
 Stai iniziando a mappare per il Tasking Manager HOT o per MissingMaps, etc. ? Vedi la [sezione Consigli per HOT](/it/hot-tips/).  
 

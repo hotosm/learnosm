@@ -12,7 +12,7 @@ Disegnare edifici rettangolari - iD editor
 - TOC
 {:toc}
 
-> Creato il 2016-10-30   
+> Creato il 2016-10-30  
 
 Le basi
 ----------
