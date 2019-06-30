@@ -42,9 +42,9 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
 
 ## Quick Start Guide
 
-1. Create an account and login on http://openstreetmap.org/  
+1. If you do not have an OpenStreetMap account then go to https://openstreetmap.org and create one. This will be the login details you use to log in to the Tasking Manager. <br/>
   ![TM Quick Start 1][]
-2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and login via the upper right corner  
+2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and log in via the upper right corner  
   ![TM Quick Start 2][]
 3. Click on "Contribute" and find a mapping project to work on  
   ![TM Quick Start 3][]
@@ -146,13 +146,13 @@ Everything you need to know about the project is here! At the top is a full desc
 Below the description the screen is divided into a left and right section. The left section is a tabbed panel with tabs for "Instructions", "Map", "Validate" and "Questions and Comments". On the right is a map of the project and the individual tasks for mapping.
 
 - The uncolored tasks are ready and available for mapping
-- Pink areas of the map indicate higher priority areas
+- Pink grid squares have been invalidated by a validator and are again available for mapping
+- Red areas of the map indicate higher priority areas
 - Yellow/Gold grid squares have had the first pass of mapping completed and are ready for validation
-- A yellow border indicates the task selected by you
-- Blue Tasks are currently being worked on by another mapper 
+- Blue Tasks are currently being worked on
+- A dark blue border indicates the task selected by you
 - Green Tasks have had the 2nd pass of mapping completed and the mapping has been "validated"
 - Dark grey tasks have been looked at by a mapper and marked as not having acceptable imagery for mapping 
-- The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear as an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
 
 
 #### Instructions Tab
@@ -179,7 +179,7 @@ The summary contains a list of mappers who have completed at least one task with
 
 A log of all the comments left on individual tasks is at the bottom of the page. These are comments left on tasks and should not be confused with the "Questions and Comments" tab which are general questions and comments about the overall project.
 
-You can return the main project contribution page by clicking on the project title on the Activity and Stats page.
+You can return to the main project contribution page by clicking on the project title on the Activity and Stats page.
 
 #### Map Tab  
 
@@ -261,7 +261,7 @@ For the process to work most effectively, mappers need to mark tasks as "Mapped"
 When you have finished editing and think that the task is complete, save any remaining edits with your editing programme, then return to the Tasking Manager.  
 
 + Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the task & I cannot see to trace this area".  
-+ Click on the "Mark as Mapped" button, and your work is ready for review.  
++ Click on the "Mark as Completely Mapped" button, and your work is ready for review.  
 
 ##### Marking a Task as Bad Imagery
 
@@ -296,25 +296,20 @@ If you need to send a message, such as an email or an IRC message, and you are q
 
 ## Getting help 
 
+### E-Mail
+
+For questions which might require a little research to answer or more detailed explanations, usually the best channel is to write to mapper-support@hotosm.org
+
 ### Live text based help
 
-From the Learn page of the Tasking Manager:  
-1. Click on **OSM HOT IRC Channel #hot**  
-2. Enter a username (your OSM username?), or use the preset characters  
-3. At the bottom of the dropdown list select **hot**  
-
-- To the right of the screen is a list of users that are online now.  
-- Type your message in the box at the bottom left of the screen (this is sometimes temporarily obscured by other text, but this will disappear as you select the box.  
-- To direct a message to a particular individual, include their username from the list on the right within your message. Type, then use the return key to submit your comment. The system is 'live' so wait for an answer - your username will often be used in the reply to show you the comment is directed to you. You will normally receive a reply within a few seconds, so please wait.  
-- An alternative simple system can be found at [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
-- Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
-- Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
+1. Sign up at slack.hotosm.org. This will require filling in a form and might take a while to be accepted.
+2. Join the mapper-support channel
 
 ### Leaving a Project question / comment / contacting the Project creator
 
 Using the "Comments" tab for the project you can see other users' questions and comments and leave one of your own. You can also click the "Contact Project Manager" link and that will automatically direct your comment/question to the project creator. 
 
-All comments are public and it is not real time, live chat, use the IRC option above for realtime chat.
+All comments are public and it is not live chat. Use the Slack option above if you need immediate attention.
 
 ![TM comments][]
 
