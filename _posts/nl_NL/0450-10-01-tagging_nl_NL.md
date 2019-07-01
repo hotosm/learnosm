@@ -9,12 +9,13 @@ category: hot-tips
 Taggen - iD editor
 ============
 
+> Bijgewerkt op 28-06-2019
+
 - TOC
 {:toc}
 
 ![tagging][]
 
-> Deze afbeelding ![keymon]{: height="24px"} laat u zien welke knopen of wiel op een muis moet worden gebruikt, en welke toetsen op het toetsenbord moeten worden ingedrukt.  
 
 Waarom tags nodig zijn
 -------------------
