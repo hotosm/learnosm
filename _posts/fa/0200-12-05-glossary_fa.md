@@ -1,7 +1,7 @@
 ---
 layout: doc-rtl
 title: لغتنامه 
-permalink: /fa/beginner/glossary/
+/permalink: /fa/beginner/glossary
 lang: fa
 category: beginner
 ---
