@@ -30,9 +30,9 @@ Elk type weg, van autosnelwegen tot sporen en paden, worden gelabeld als 'highwa
 -  Navigatiesoftware zoals apparaten van Garmin en apps op smartphones, zoals Osmand, kunnen route-informatie verschaffen voor grote afstanden als de juiste informatie er in is geladen. Omdat zij vertrouwen op de GPS in het apparaat om de positie te bepalen ten opzichte van de erin geladen basiskaart, is het belangrijk dat de wegen in feite binnen 15 meter van de juiste plaats af liggen, of zij zullen niet werken!  
 -  Plannen van de route voor een grote vrachtwagen met 'hulp' is veel eenvoudiger indien u verschil kunt zien tussen een pad en een verharde weg, met alle soorten daartussen.  
 -  Weten of een wegoppervlak asfalt is of zachte modder zal verschil,maken voor het plannen van uw route.
--  Bij het pr0beren in kaart te brengen van de verspreiding van een ziekte, is de beschrijving van een slachtoffer als "nabij de kruising" significant als u de kruising kunt zien op de kaart.
+-  Bij het proberen in kaart te brengen van de verspreiding van een ziekte, is de beschrijving van een slachtoffer als "nabij de kruising" significant als u de kruising kunt zien op de kaart.
 
-### Wegen - Hoe in kaart te brengen
+### <a name="highways-howto"></a> Wegen - Hoe in kaart te brengen
 
 ![iD 3][]
 
@@ -50,7 +50,7 @@ Elk type weg, van autosnelwegen tot sporen en paden, worden gelabeld als 'highwa
 
 Deze schermafdruk laat JOSM zien met de stijl HOT-OSM-Validate in gebruik [JOSM stijlen](https://josm.openstreetmap.de/wiki/Styles). Hoewel die is ontworpen om validators te helpen, kan het zeer nuttig zijn bij het uitvoeren van het initiële in kaart brengen. Alles wat rood gekleurd is heeft een of ander probleem - de resterende kleuren worden verklaard in de sluetel van deze schermafdruk.  
 
-1.  Dit gedeelte van de weg is rood gekleurd omdat de tag onjuist is getypt en een hoofdletter is gebruikt. De tag zou moeteh zijn highway=unclassified, wat zou hebben geresulteerd in een vaalbruine kleur in de schermafdruk.  
+1.  Dit gedeelte van de weg is rood gekleurd omdat de tag onjuist is getypt en een hoofdletter is gebruikt. De tag zou moeten zijn highway=unclassified, wat zou hebben geresulteerd in een vaalbruine kleur in de schermafdruk.  
 2.  Dit maakt deel uit van het wegennetwerk voor de stad in het zuidwesten. Dit netwerk is verbonden met de rest van het wegennetwerk van Afrika.  
 3.  Deze gedeelten van de weg zijn 'geïsoleerd'. Zijn zijn niet op enigerlei wijze verbonden met de stad of met andere wegen. In hun huidige opmaak zijn zij niet erg nuttig & en moeten nader worden onderzocht om vast te stellen of zij kunnen worden verbonden met de rest van het netwerk, of dat overwogen zou moeten worden om ze te verwijderen.  
 
@@ -75,13 +75,13 @@ surface=unpaved
 
 Residentiële grenzen worden voor vele doelen gebruikt in OpenStreetMap.  
 
-+  Het meest eenvoudige gebruik is om in staat te zijn de bewoonbare gebieden te zien in hogere zoomniveau's bij het bekijken van [OpenStreetMap.org](http://www.openstreetmap.org), waar zij vaalgrijs zijn gekleurd in de standaard weergave.  
++  Het meest eenvoudige gebruik is om in staat te zijn de bewoonbare gebieden te zien in hogere zoomniveaus bij het bekijken van [OpenStreetMap.org](http://www.openstreetmap.org), waar zij vaalgrijs zijn gekleurd in de standaard weergave.  
 +  Waar geen tijd is om tot in detail in kaart te brengen vanaf het begin, zal het project binnen de Task Manager regelmatig zoiets als dit vereisen:  
 
 >    Breng essentiële infrastructuren in kaart, zoals scholen, godsdiensthuizen en markten.  
 >    Traceer de omtrekken van nederzettingen en begraafplaatsen.  
 >    We zullen wegen later traceren in een andere Task.   
-+  landuse=residential kan ook worden gebruikt voor statistische doeleinden, en nauwkeurig in kaart brnegen wordt dan belangrijk  
++  landuse=residential kan ook worden gebruikt voor statistische doeleinden, en nauwkeurig in kaart brengen wordt dan belangrijk  
 
 *  Indien u kunt vaststellen hoeveel mensen er normaal gesproken verblijven in elke nederzetting en  
  hoeveel nederzettingen er normaal gesproken worden gebouwd in een bepaald gebied, dan  
@@ -91,7 +91,7 @@ Residentiële grenzen worden voor vele doelen gebruikt in OpenStreetMap.
 *  Plaatsnamen & grenzen worden vaak geïmporteerd vanuit andere bronnen, maar de locatie is niet altijd nauwkeurig. Als u eenmaal een residentiële grens heeft, kan de persoon die de import verzorgt zien waar de plaatsnaam waarschijnlijk moet staan.
 
 
-### landuse=residential - hoe in kaart te brengen
+### <a name="highways-howto"></a> landuse=residential - hoe in kaart te brengen
 
 
 ** In een ideale wereld **  
@@ -128,13 +128,13 @@ Dit is een moeilijke bewerking - u kunt slechts een klein gedeelte zien van de g
 
 gebouwen worden aan de kaartgegevens toegevoegd om een aantal redenen;  
 
-*  De dichtheid van de gebouwen in een gebied geeft een zeer goede indicatie van het anatal mensen dat daar woont.  
+*  De dichtheid van de gebouwen in een gebied geeft een zeer goede indicatie van het aantal mensen dat daar woont.  
 *  De grootte, vorm & locatie van een gebouw kan helpen om het te identificeren als een potentiële plaats voor evacuatie of medische behandeling.  
 *  De grootte, vorm en relatieve locatie van gebouwen kan worden gebruikt om bepaalde locaties, zoals bronnen, hulpstations scholen, etc. te identificeren.  
 *  Er bestaat potentieel om in te schatten hoe groot het percentage schade is voor een gebouw, wat kan worden gebruikt om het aantal potentiële gewonden & vereiste mate van ondersteuning die nodig is in te schatten - dit wordt momenteel (januari 2015) nader onderzocht voor gebruik in de toekomst.  
 
 
-### Gebouwen - Hoe in kaart te brengen
+### <a name="buildings-howto"></a> Gebouwen - Hoe in kaart te brengen
 
 De overgrote meerderheid van gebouwen die voor HOT in kaart moeten worden gebracht zijn ofwel gebaseerd op rechthoekige vormen met vierkante hoeken, of zijn rond. Als een gebouw een mix van die twee lijkt te zijn, is het meer waarschijnlijk dat u kijkt naar een gebouw waarvan de omtrek aan het oog wordt onttrokken door schaduw, reflectie, gebladerte of iets dergelijks.  
 
@@ -147,15 +147,15 @@ Tenzij de instructies voor het project anders specificeren dienen gebouwen te wo
 
 *  Er kan vaak een tijdsverschil bestaan tussen het tijdstip waarop de satellietafbeelding is genomen en dat waarop het in kaart brengen wordt uitgevoerd. Er bestaat de mogelijkheid dat het gebouw waar u naar kijkt geen dak schijnt te hebben, maar dat het nu is voltooid & wordt bewoond. Het is ook mogelijk dat u kijkt naar een gebouw met verschillende verdiepingen, waarvan de onderste worden bewoond, en de bovenste zonder dak momenteel niet wordt bewoond.  
 
-> **Gebouwen in kaart brengen met iD** - wanneer u het gereedschap voor gebieden gebruikt in iD om de basisvorm te maken, moet u onthouden dat u de tag verandert naar building=yes. De standaard instelling zal de vorm gewoonlijk taggen als area=yes. Indien uw getraceerde gebouw vierkante hoeken heeft, neem dan ook even de tijd om uw getraceerde item te voorzien van rechte hoeken (accentueer het en sneltoets 's').  
+> **Gebouwen in kaart brengen met iD** - wanneer u het gereedschap voor gebieden gebruikt in iD om de basisvorm te maken, moet u onthouden dat u de tag verandert naar building=yes. De standaard instelling zal de vorm gewoonlijk taggen als area=yes. Indien uw getraceerde gebouw vierkante hoeken heeft, neem dan ook even de tijd om uw getraceerde item te voorzien van rechte hoeken (accentueer het en sneltoets 'q').  
 
-*  JOSM is veel sneller voor het in kaart brengen van gebouwen - [JOSM building tools wordt hier uitgelegd.](/en/josm/more-tools/#the-buildings-tools-plugin)  
+*  JOSM is veel sneller voor het in kaart brengen van gebouwen - [JOSM building tools wordt hier uitgelegd.](/nl_NL/josm/josm-more-plugins/#the-buildings-tools-plugin)  
 
 ![Buildings iD][]
 
 Deze schermafdruk geeft een deel weer van een vierkant dat wordt bewerkt. Merk de schaal van 15 meter op aan de onderzijde - ongeveer het getal waarop u zich zou moeten richten bij het bewerken van objecten. Bij het traceren dient u zich er op te richten het gebouw te plaatsen waar het de grond raak:  
 
-1.  **Ronde gebouwen.** In dit geval zijn zij redelijk laag qua hoogte en is hun schaduw nauwelijks zichtbaar. Als u er tussen zou staan zouden zij op halve bollen lijken. Ik heb één ervan in kaart gebracht & en tot zover getagd als **building=yes**.  Ik zou, om de resterende ronde gebouwen snel aan JOSM of iD toe te voegen, deze ene selecteren (accentueer het), sneltoets toetsenbord *CTRL+C*, mijn cursor verplaatsen naar het midden van een ander rond gebouw van dezelfde grootte, sneltoets toetsenbord *CTRL+V*. Wanneer al de ronde gebouwen van deze grootte zijn toegevoegd in mijn vierkant, plak ik een gebouw over een rond gebouw met een andere grootte, JOSM - gebruik *ALT+CTRL* & muis om de grootte te wijzigen naar de juiste grootte, kopieer het & en plak het dan over alle ronde gebouwen van dezelfde grootte.  
+1.  **Ronde gebouwen.** In dit geval zijn zij redelijk laag qua hoogte en is hun schaduw nauwelijks zichtbaar. Als u er tussen zou staan zouden zij op halve bollen lijken. Ik heb één ervan in kaart gebracht & en tot zover getagd als **building=yes**.  Ik zou, om de resterende ronde gebouwen snel aan JOSM of iD toe te voegen, deze ene selecteren (accentueer het), sneltoets toetsenbord *Ctrl+c*, mijn cursor verplaatsen naar het midden van een ander rond gebouw van dezelfde grootte, sneltoets toetsenbord *Ctrl+v*. Wanneer al de ronde gebouwen van deze grootte zijn toegevoegd in mijn vierkant, plak ik een gebouw over een rond gebouw met een andere grootte, JOSM - gebruik *Alt+Ctrl* & muis om de grootte te wijzigen naar de juiste grootte, kopieer het & en plak het dan over alle ronde gebouwen van dezelfde grootte.  
 2.  **Rechthoekige gebouwen.** Deze bijzonder gebouwen geven een op te merken schaduw. De schaduw kan helpen om de vorm van een gebouw te identificeren dat gedeeltelijk aan het oog wordt onttrokken door een ander object. U zult merken dat veel van deze gebouwen niet zo eenvoudig zijn, en een veranda hebben of een 'L'-vorm hebben - u dient de feitelijke vorm van het gebouw te traceren omdat dat zal helpen bij het identificeren ervan wanneer namen & andere gegevens worden toegevoegd als deel van het proces van veldonderzoek.  
 3.  **Barrières - muren (of heggen) van een nederzetting.** Bestuderen van de afbeelding, in- & uitzoomen totdat ik tevreden ben en dat de vorm van het object (gebruik ook de schaduw om het te identificeren), volgens mij een muur is, heb ik die getagd als **barrier=wall**. Alternatieven zijn onder andere barrier=fence en barrier=hedge.  
 4.  Ik heb de barrier=wall samengevoegd met building=yes aan de hoek van het gebouw.  

@@ -9,10 +9,10 @@ category: hot-tips
 Rechthoekige gebouwen traceren - iD editor
 ============
 
+> Bijgewerkt op 23-06-2019
+
 - TOC
 {:toc}
-
-> Gemaakt op 30-10-2016  -->  
 
 De beginselen
 ----------
@@ -23,7 +23,8 @@ De beginselen
 
 Punten om te onthouden;  
 
-- Als het gebouw vierkante hoeken dient te hebben, zorg er dan voor dat u het traceert met vierkante hoeken, of gebruik het gereedschap om de hoeken vierkant te maken.  
+- Voltooien van het traceren van een gebied: dubbelklik op het laatste punt,  
+- Als het gebouw vierkante hoeken dient te hebben, zorg er dan voor dat u het traceert met vierkante hoeken, of gebruik het gereedschap om de hoeken vierkant te maken (in Engels, sneltoets **q**).  
 - Zorg er voor dat u tags toevoegt!  
 - Grootte is van belang - *schattingen van bevolkingsaantallen zijn gebaseerd op het cumulatieve gebied met gebouwen in een bepaald gebied*,  
 - de juiste grootte van het gebouw op de juiste manier zal mensen helpen hun woonplaats te lokaliseren,  
@@ -59,7 +60,7 @@ Doe uw best - zelfs de experts zijn het soms niet met elkaar eens, en soms dient
 Tags voor gebouwen
 -------------
 
-Omdat we gebouwen taggen die we nooit hebben bezocht en waarmee we niet bekend zijn, is het veiligste en aanbevolen schema voor tags **building**=**yes** wat u kunt zien aan een correct getagd gebouw als u naar beneden scrollt tot onder in het paneel voor tags en klikt op **Alle tags**.
+Omdat we gebouwen taggen die we nooit hebben bezocht en waarmee we niet bekend zijn, is het veiligste en aanbevolen schema voor tags **building**=**yes** wat u kunt zien aan een correct getagd gebouw als u naar beneden scrollt tot onder in het paneel voor tags en klikt op **Alle tags**.  
 
 Zie ook  
 ---------

@@ -9,7 +9,6 @@ category: josm
 JOSM - Tạo các Cài sẵn Tùy chỉnh
 =======================
 
-> Cập nhật: 2017-11-06  
 
 Trong [Chương trước](/vi/josm/josm-presets) chúng ta đã xem xét cách thêm các trình đơn cài sẵn tùy chỉnh vào JOSM. Trong chương này, chúng tôi sẽ giới thiệu cách tạo các tập tin cài sẵn tùy chỉnh của riêng bạn  
 
@@ -103,13 +102,15 @@ Phần tử &lt;text&gt; tạo một trường trống. Khi form được tạo 
 
 Hộp thả xuống trên biểu mẫu được định nghĩa trong dòng sau:  
 
-      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
+      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" />
+      <display_values="Residential, Commercial, Industrial"/>
 
 Hộp thả xuống được xác định bởi phần tử &lt;combo&gt;. Giống như phần tử &lt;text&gt;, thuộc tính *key* xác định khóa của thẻ. Giá trị sau đó được chọn từ danh sách các *values*. Thuộc tính *display_values* cho phép bạn chọn tên khác nhau được hiển thị trong hộp thả xuống, có thể dễ dàng hơn so với hiểu giá trị trng thẻ OSM.  
 
 Cuối cùng, chúng ta hãy nhìn vào dòng xác định hộp kiểm  
 
-      <check key="building:vacant" text="Is the building vacant?" default="off" delete_if_empty="true" />
+      <check key="building:vacant" text="Is the building vacant?" default="off" /> 
+      <delete_if_empty="true" />
 
 Phần tử &lt;check&gt; - bạn có thể đoán được! - một hộp kiểm. Thuộc tính mặc định *default="off"* chỉ ra hộp kiểm mặc định không được chọn. Các thuộc tính còn lại bạn đã biết.  
 

@@ -9,10 +9,10 @@ category: hot-tips
 Tracing rectangular buildings - iD editor
 ============
 
+> Updated 2019-06-23
+
 - TOC
 {:toc}
-
-> Created 2016-10-30
 
 The Essentials
 ----------
@@ -23,7 +23,8 @@ The Essentials
 
 Points to note;  
 
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners.  
+- To finish tracing an area, double click on the last point,  
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
 - Make sure you tag!  
 - Size matters - *population estimates are based on the cumulative building area in a given area*,  
 - the right size building the right way round will help people locate their village,  
@@ -59,7 +60,7 @@ Do your best - even the experts will disagree sometimes, and sometimes you just 
 Building Tags
 -------------
 
-As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if you scroll to the bottom of the tagging pane and click on **All tags**.
+As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if you scroll to the bottom of the tagging pane and click on **All tags**.  
 
 See also  
 ---------

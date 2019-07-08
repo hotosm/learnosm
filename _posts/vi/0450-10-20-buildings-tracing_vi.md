@@ -12,7 +12,7 @@ Vẽ các toà nhà hình chữ nhật - iD editor
 - TOC
 {:toc}
 
-> Created 2016-10-30  -->  
+> Created 2016-10-30  
 
 Các yếu tố cần thiết
 ----------
