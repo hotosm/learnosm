@@ -20,7 +20,7 @@ At the end of the chapter on the iD editor you heard about the differences betwe
 
 So far, all the edits we added to the map were based on background imagery. But you can collect a wealth of information while walking or driving around. The [section on mobile mapping](/en/mobile-mapping/) explains how to collect information with different GPS-based devices or using specially designed printouts. It also reviews a number of OpenStreetMap-related applications for mobile devices.  
 
-OpenStreetMap is a collaborative effort and we hope that you will be part of it. Some of these efforts are devoted to humanitarian relief under the auspices of the [Humanitarian OSM Team](http://hotosm.org). If you would like to help HOT on the occasion of a disaster such as the Nepal earthquake please see the [section on coordination](/en/coordination/). It deals with the tools which make sure that many people can work together on a relatively small area in a consistent manner. It also contains guidance on some typical tasks you will frequently encounter when joining these efforts.  
+OpenStreetMap is a collaborative effort and we hope that you will be part of it. Some of these efforts are devoted to humanitarian relief under the auspices of the [Humanitarian OSM Team](http://hotosm.org). If you would like to help HOT in the event of a disaster such as the Nepal earthquake please see the [section on coordination](/en/coordination/). It deals with the tools which make sure that many people can work together on a relatively small area in a consistent manner. It also contains guidance on some typical tasks you will frequently encounter when joining these efforts.  
 
 
 Learn More
