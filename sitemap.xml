@@ -18108,6 +18108,9 @@
 <loc>http://learnosm.org/en/coordination/tasking-manager-project-admin/</loc>
 </url>
 <url>
+<loc>http://learnosm.org/fa/coordination/tasking-manager-project-admin/</loc>
+</url>
+<url>
 <loc>http://learnosm.org/nl_NL/coordination/tasking-manager-project-admin/</loc>
 </url>
 <url>
@@ -18303,6 +18306,9 @@
 <loc>http://learnosm.org/en/osm-data/osm2pgsql/</loc>
 </url>
 <url>
+<loc>http://learnosm.org/fa/osm-data/osm2pgsql/</loc>
+</url>
+<url>
 <loc>http://learnosm.org/id/osm-data/osm2pgsql/</loc>
 </url>
 <url>
@@ -18328,6 +18334,9 @@
 </url>
 <url>
 <loc>http://learnosm.org/en/osm-data/postgresql/</loc>
+</url>
+<url>
+<loc>http://learnosm.org/fa/osm-data/postgresql/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/id/osm-data/setting-up-postgresql/</loc>
@@ -21178,6 +21187,9 @@
 				               href="https://learnosm.org/vi/josm/creating-presets"/>
 </url>
 <url>
+<loc>http://learnosm.org/fa/josm/creating-presets/</loc>
+</url>
+<url>
 <loc>http://learnosm.org/id/josm/creating-presets/</loc>
           <priority>0.6</priority>
             <changefreq>yearly</changefreq>
@@ -22693,6 +22705,9 @@
 				               rel="alternate"
 				               hreflang="vi"
 				               href="https://learnosm.org/vi/josm/josm-plugins"/>
+</url>
+<url>
+<loc>http://learnosm.org/fa/josm/josm-plugins/</loc>
 </url>
 <url>
 <loc>http://learnosm.org/fr/josm/josm-plugins/</loc>

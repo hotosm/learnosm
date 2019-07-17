@@ -9,7 +9,6 @@ category: josm
 JOSM - Maßgeschneiderte Vorlagen erstellen
 =======================
 
-> Reviewed 2015-09-20  
 
 Im [vorherigen Kapitel](/de/josm/josm-presets) haben wir uns angeschaut, wie angepasste Vorlagenmenüs in JOSM hinzugefügt werden können. In diesem Kapitel werden wir behandeln, wie man eigene maßgeschneiderte Vorlagendateien erstellt.  
 
@@ -103,13 +102,15 @@ Das &lt;text&gt; Element erstellt ein leeres Feld. Wenn das Formular in JOSM auf
 
 Das Auswahlfeld im Formular ist durch die folgende Zeile definiert:  
 
-      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
+      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" />
+      <display_values="Residential, Commercial, Industrial"/>
 
 Ein Auswahlfeld wird durch das &lt;combo&gt; Element definiert. Wie beim &lt;text&gt; Element definiert das Attribut *key* den Tag Schlüssel. Der Wert wird aus einer Liste möglicher *Werte* ausgewählt. Das *display_values* Attribut erlaubt für die Anzeige im Auswahlfeld unterschiedliche Namen zu wählen, was die Auswahl einfacher macht, als wenn OSM Tag Werte verwendet würden.  
 
 Zuletzt schauen wir uns die Zeile an, die die Auswahlbox definiert.  
 
-      <check key="building:vacant" text="Is the building vacant?" default="off" delete_if_empty="true" />
+      <check key="building:vacant" text="Is the building vacant?" default="off" /> 
+      <delete_if_empty="true" />
 
 Das &lt;check&gt; Element definiert - man errät es -  die Auswahlbox. Das Attribut *default="off"* gibt an, dass die Box standardmäßig nicht markiert ist. Die weitere Attribute kennt man bereits.  
 

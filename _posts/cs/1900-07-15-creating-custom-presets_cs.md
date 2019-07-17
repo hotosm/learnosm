@@ -9,7 +9,6 @@ category: josm
 JOSM - Tvorba vlastních předvoleb
 =======================
 
-> Zkontrolováno 20.9.2015  
 
 V [předchozí kapitole](/cs/josm/josm-presets) ja se nabídky vlastních předvoleb přidávají do JOSM. V této kapitole si vytvoříme vlastní soubor předvoleb.  
 
@@ -103,13 +102,15 @@ Element &lt;text&gt; vytvoří prázdné pole. Když se formulář v JOSM objev�
 
 Rozbalovací seznam z formuláře je definován v tomto řádku:  
 
-      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
+      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" />
+      <display_values="Residential, Commercial, Industrial"/>
 
 Rozbalovací seznam je definován elementem &lt;combo&gt;. Stejně jako u elementu &lt;text&gt; atribut *key* definuje značku **key**. Jeho hodnota je pak vybrána ze seznamu možností *values*. Atribut *display_values* vám umožňuje zvolit jiné názvy v rozbalovacím seznamu, které mohou být srozumitelnější než hodnoty OSM značek.  
 
 Nakonec se podíváme na řádek, který definuje zaškrtávací políčko.  
 
-      <check key="building:vacant" text="Is the building vacant?" default="off" delete_if_empty="true" />
+      <check key="building:vacant" text="Is the building vacant?" default="off" /> 
+      <delete_if_empty="true" />
 
 Element &lt;check&gt; definuje - hádejte co! - zaškrtávací políčko. Atribut *default="off"* znamená, že ve výchozím stavu bude nezaškrtnuté. Ostatní atributy už znáte.  
 

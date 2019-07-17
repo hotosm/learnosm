@@ -9,7 +9,6 @@ category: josm
 JOSM - Creare impostazioni personalizzate
 =======================
 
-> Revisionato 2015-09-20  
 
 Nel [capitolo precedente](/it/josm/josm-presets) abbiamo visto come aggiungere in JOSM i menu delle impostazioni personalizzate. In questo capitolo vedrai come puoi creare un tuo file con le impostazioni personalizzate.  
 
@@ -103,13 +102,15 @@ L'elemento &lt;text&gt; crea un campo vuoto. Quando il modulo viene creato in JO
 
 Il menu a discesa nel modulo è definito dalla linea seguente:  
 
-      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
+      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" />
+      <display_values="Residential, Commercial, Industrial"/>
 
 Un menu a discesa è definito dall'elemento &lt;combo&gt;. Come per l'elemento &lt;text&gt;, l'attributo *key* definisce l'etichetta (tag) key. Il valore è quindi scelto da una lista di possibili *values*. L'attributo *display_values* permette di scegliere nomi differenti da visualizzare nel menu a discesa, che saranno più semplici da capire rispetto ai valori OSM delle etichette (tag).  
 
 Infine, diamo un occhiata alla linea che definisce il menu a discesa.  
 
-      <check key="building:vacant" text="Is the building vacant?" default="off" delete_if_empty="true" />
+      <check key="building:vacant" text="Is the building vacant?" default="off" /> 
+      <delete_if_empty="true" />
 
 L'elemento &lt;check&gt; definisce - hai indovinato! - la casella di spunta. L'attributo *default="off"* definisce che la casella è di default deselezionata. I rimanenti attributi sono già stati trattati.  
 

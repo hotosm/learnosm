@@ -9,12 +9,13 @@ category: hot-tips
 Kopiëren, plakken & roteren - iD editor
 ============
 
+> Bijgewerkt op 24-06-2019
+
 ![copy-paste][]
 
-> Deze afbeelding ![keymon]{: height="24px"} laat u zien welke knopen of wiel op een muis moet worden gebruikt, en welke toetsen op het toetsenbord moeten worden ingedrukt.  
 
 U kunt gemakkelijk objecten kopiëren, plakken en roteren, maar zorg er voor dat zij de juiste grootte hebben.  
-Selecteer met uw muis, dan **Ctrl+c** om te kopiëren, en **Ctrl+v** om te plakken.  
+Selecteer met uw muis, dan **Ctrl+c** om te kopiëren, en **Ctrl+v** om te plakken. Indien nodig kunt u een object 'reflecteren', ofwel langs zijn lange of zijn korte as.   
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png

@@ -32,7 +32,7 @@ Jakýkoliv druh cest, od dálnic, přes polní cesty a stezky jsou v OpenStreetM
 - Informace, zda je povrch vozovky asfaltový nebo měkké bláto, může znamenat rozdíl v plánování trasy.
 - Při pokusu o zamezení šíření nemoci je informace od oběti, že se nachází *poblíž křižovatky* významná, pokud si tu křižovatku můžete najít na mapě.
 
-### Silnice - Jak je mapovat
+### <a name="highways-howto"></a>Silnice - Jak je mapovat
 
 ![iD 3][]
 
@@ -91,7 +91,7 @@ Rezidenční hranice jsou v OpenStreetMap využívány pro mnohé účely.
 * Názvy míst a hranice jsou často importovány z jiných zdrojů, ale jejich umístění není vždy přesné. Jakmile je k dispozici ohraničení obydlené oblasti, osoba provádějící import, může správně nastavit umístění jejího názvu.
 
 
-### landuse=residential - jak mapovat
+### <a name="residential-howto"></a> landuse=residential - jak mapovat
 
 
 **V ideálním světě**  
@@ -134,7 +134,7 @@ Budovy jsou mapovány z několika důvodů;
 * Lze stanovit míru škod způsobených budovou, která může být použita k odhadu počtu potenciálních obětí a velikosti podpory, která by byla požadována - to se v současné době (leden 2015) projednává pro budoucí využití.  
 
 
-### Budovy - Jak mapovat
+### <a name="buildings-howto"></a> Budovy - Jak mapovat
 
 Drtivá většina budov, které vyžadují mapování HOT, jsou buď založena na obdélníkových tvarech s pravoúhlými nebo kulatými rohy. Pokud budova vypadá, že je směsí obou tvarů, pravděpodobně se díváte na budovu, jejíž obrysy jsou zkresleny stínem, odrazem, zelení nebo podobným způsobem.  
 
@@ -147,7 +147,7 @@ Pokud není v instrukcích u projektu uvedeno jinak, budovy by měly být označ
 
 * Mezi focením satelitních snímků a samotným mapováním může být často časové zpoždění. Je možné, že budova, na kterou se díváte, nemá střechu, ale teď už je dokončená a obydlená. Je také možné, že se díváte na budovu s několika podlažími, dolní patra jsou obydlená, ale nejvyšší patro je momentálně bez střechy a obyvatel.  
 
-> **Mapování budov pomocí iD** - když vytváříte základí tvar oblasti pomocí nástroje pro vytváření oblastí v iD editoru, nesmíte zapomět nastavit značku **building=yes**. Výchozí nastavení pouze označí tvar jako **area=yes**. Pokud vytváříte budovu s hranatými rohy, udělejte ji pravoúhlou (klikněte na ni a zmáčkněte klávesu 'S' ).  
+> **Mapování budov pomocí iD** - když vytváříte základí tvar oblasti pomocí nástroje pro vytváření oblastí v iD editoru, nesmíte zapomět nastavit značku **building=yes**. Výchozí nastavení pouze označí tvar jako **area=yes**. Pokud vytváříte budovu s hranatými rohy, udělejte ji pravoúhlou (klikněte na ni a zmáčkněte klávesu 'Q' ).  
 
 *  JOSM je pro mapování budov rychlejší - [JOSM building tools je vysvětlen zde.](/cs/josm/josm-more-plugins/#doplněk-buildings-tools)  
 
