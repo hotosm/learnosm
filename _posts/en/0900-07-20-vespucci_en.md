@@ -167,38 +167,38 @@ You can also provide feedback to Vespucci developers using your GitHub or OSM ac
 ![Feedback][]
 
 
-[Tools]: /images/mobile-mapping/vespucci_tools.PNG
-[Authorise OAuth]: /images/mobile-mapping/vespucci_oath.PNG
-[Log in]: /images/mobile-mapping/vespucci_login.PNG
-[Grant Access]: /images/mobile-mapping/vespucci_grant_access.PNG
-[Map background]: /images/mobile-mapping/vespucci_map_background.PNG
-[Background imagery]: /images/mobile-mapping/vespucci_imagery.PNG
-[Download]: /images/mobile-mapping/vespucci_download.PNG
-[Locked]: /images/mobile-mapping/vespucci_locked.PNG
-[Unlocked]: /images/mobile-mapping/vespucci_unlocked.PNG
-[Add preset]: /images/mobile-mapping/vespucci_add_preset.PNG
-[Edit properties]: /images/mobile-mapping/vespucci_edit_properties.PNG
-[Add object]: /images/mobile-mapping/vespucci_add_object.PNG
-[Objects]: /images/mobile-mapping/vespucci_objects.PNG
-[Add node]: /images/mobile-mapping/vespucci_add_node.PNG
-[Add way1]: /images/mobile-mapping/vespucci_add_way1.PNG
-[Add way2]: /images/mobile-mapping/vespucci_add_way2.PNG
-[Add way3]: /images/mobile-mapping/vespucci_add_way3.PNG
-[Add polygon]: /images/mobile-mapping/vespucci_add_polygon.PNG
-[Node2way 1]: /images/mobile-mapping/vespucci_add_node2way1.PNG
-[Node2way 2]: /images/mobile-mapping/vespucci_add_node2way2.PNG
-[Node2way 3]: /images/mobile-mapping/vespucci_add_node2way3.PNG
-[Square way]: /images/mobile-mapping/vespucci_square_way.PNG
-[Squared]: /images/mobile-mapping/vespucci_squared.PNG
-[Undo]: /images/mobile-mapping/vespucci_undo.PNG
-[Redo]: /images/mobile-mapping/vespucci_redo.PNG
-[Upload]: /images/mobile-mapping/vespucci_upload.PNG
-[Changes]: /images/mobile-mapping/vespucci_changes.PNG
-[Changeset comments]: /images/mobile-mapping/vespucci_changeset.PNG
-[Current location]: /images/mobile-mapping/vespucci_current_location.PNG
-[Find]: /images/mobile-mapping/vespucci_find.PNG
-[Search]: /images/mobile-mapping/vespucci_search.PNG
-[Preferences]: /images/mobile-mapping/vespucci_preferences.PNG
-[Align background]: /images/mobile-mapping/vespucci_align_background.PNG
-[Flush tiles]: /images/mobile-mapping/vespucci_flush_tiles.PNG
-[Feedback]: /images/mobile-mapping/vespucci_feedback.PNG
+[Tools]: /images/mobile-mapping/vespucci_tools.png
+[Authorise OAuth]: /images/mobile-mapping/vespucci_oath.png
+[Log in]: /images/mobile-mapping/vespucci_login.png
+[Grant Access]: /images/mobile-mapping/vespucci_grant_access.png
+[Map background]: /images/mobile-mapping/vespucci_map_background.png
+[Background imagery]: /images/mobile-mapping/vespucci_imagery.png
+[Download]: /images/mobile-mapping/vespucci_download.png
+[Locked]: /images/mobile-mapping/vespucci_locked.png
+[Unlocked]: /images/mobile-mapping/vespucci_unlocked.png
+[Add preset]: /images/mobile-mapping/vespucci_add_preset.png
+[Edit properties]: /images/mobile-mapping/vespucci_edit_properties.png
+[Add object]: /images/mobile-mapping/vespucci_add_object.png
+[Objects]: /images/mobile-mapping/vespucci_objects.png
+[Add node]: /images/mobile-mapping/vespucci_add_node.png
+[Add way1]: /images/mobile-mapping/vespucci_add_way1.png
+[Add way2]: /images/mobile-mapping/vespucci_add_way2.png
+[Add way3]: /images/mobile-mapping/vespucci_add_way3.png
+[Add polygon]: /images/mobile-mapping/vespucci_add_polygon.png
+[Node2way 1]: /images/mobile-mapping/vespucci_add_node2way1.png
+[Node2way 2]: /images/mobile-mapping/vespucci_add_node2way2.png
+[Node2way 3]: /images/mobile-mapping/vespucci_add_node2way3.png
+[Square way]: /images/mobile-mapping/vespucci_square_way.png
+[Squared]: /images/mobile-mapping/vespucci_squared.png
+[Undo]: /images/mobile-mapping/vespucci_undo.png
+[Redo]: /images/mobile-mapping/vespucci_redo.png
+[Upload]: /images/mobile-mapping/vespucci_upload.png
+[Changes]: /images/mobile-mapping/vespucci_changes.png
+[Changeset comments]: /images/mobile-mapping/vespucci_changeset.png
+[Current location]: /images/mobile-mapping/vespucci_current_location.png
+[Find]: /images/mobile-mapping/vespucci_find.png
+[Search]: /images/mobile-mapping/vespucci_search.png
+[Preferences]: /images/mobile-mapping/vespucci_preferences.png
+[Align background]: /images/mobile-mapping/vespucci_align_background.png
+[Flush tiles]: /images/mobile-mapping/vespucci_flush_tiles.png
+[Feedback]: /images/mobile-mapping/vespucci_feedback.png
