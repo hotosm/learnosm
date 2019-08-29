@@ -46,6 +46,7 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
   ![TM Quick Start 1][]
 2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and log in via the upper right corner  
   ![TM Quick Start 2][]
+  > You must provide a valid email address in your profile (accessible through the first entry in the menu in the upper right corner) before you can start mapping.
 3. Click on "Contribute" and find a mapping project to work on  
   ![TM Quick Start 3][]
 4. Read the instructions for the project  
@@ -82,7 +83,9 @@ Clicking on that button will take you to the OpenStreetMap website. There you wi
 
 ![TM login 3][]
 
-Once you are logged into OpenStreetMap you will be returned to the Tasking Manager, clicking on Contribute or Get Started will take you to a list of projects you can contribute to.
+Once you are logged into OpenStreetMap you will be returned to the Tasking Manager. Now is the time to add your email address to the profile. Click on your username in the upper right corner to open the menu and select the first entry, 'Your profile'. You can edit your contact details using the respective button in the top right part of the form. The Tasking Manager allows to send messages and it is therefore required to provide a valid email address before you can start mapping.
+
+Clicking on Contribute or Get Started will take you to a list of projects you can contribute to.
 
 ### Options & links
 
