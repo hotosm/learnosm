@@ -9,12 +9,13 @@ category: hot-tips
 Tagování - iD editor
 ============
 
+> Aktualizováno 2019-06-28
+
 - Obsah
 {:toc}
 
 ![tagging][]
 
-> Tento obrázek ![keymon]{: height="24px"} zobrazuje, zda bylo použito tlačítko, kolečko na myši, nebo byla zmáčknuta klávesa na klávesnici.   
 
 Proč jsou potřebné tagy
 -------------------
