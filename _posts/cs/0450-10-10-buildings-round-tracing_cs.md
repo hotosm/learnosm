@@ -9,19 +9,20 @@ category: hot-tips
 Vyznačení kulatých budov - iD editor
 ============
 
+> Aktualizováno 2019-06-24
+
 - Obsah
 {:toc}
 
-Základy
+Úvod
 ----------
 
-![Round Buildings][]  
+![Round Buildings][]
 
-> Tento obrázek ![keymon]{: height="24px"} zobrazuje, zda bylo použito tlačítko, kolečko na myši, nebo byla zmáčknuta klávesa na klávesnici.   
 
 Hlavní body;  
 
-- Umístěte body na místo, kde se stýká zeď se zemí - 3 body jsou minimum. Pak použijte nástroj na zakulacení.  
+- Umístěte body, kde se stěny dotýkají země - minimálně 3 body. Poklepejte na poslední bod a dokončete trasování oblasti. Použijte tento nástroj, aby byl kulatý - klávesová  zkratka **o** .  
 - Nezapomeňte popisovat!  
 - Na velikosti záleží - *odhad populace je založen na oblastech s větším množstvím budov*,  
 - Dostatečně si přibližte mapu, abyste viděli detaily - přiblížení na 20 metrů a méně je obvykle dostačující.  
@@ -29,6 +30,16 @@ Hlavní body;
 - Budovy by se neměly překrývat s řekami, cestami, **landuse=residential** hranicemi atd.  
 - Pokud uděláte chybu, použijte tlačítko **Zpět** ![back arrow]{: height="26px"} a tím se vrátíte o krok zpět   
 - Všichni vylepšujeme mapu. Pokud předchozí mapeři zanechali budovy podivného nebo špatného tvaru, opravte je a můžete jim o tom ze slušnosti poslat zprávu.  
+
+Budova - změna pravoúhlé na kruhovou
+-------------------------------------
+
+![Square to round][]  
+
+Pokud byla budova obkreslena jako pravoúhlá, ale vidíte, že by měla být kulatá, lze ji snadno přeměnit na kruhovou budovu;
+
+- umístěte všechny body na okraj kulaté budovy,
+- klepněte na pravé tlačítko a použijte nástroj k zakulacení **o** - možná je to jiné písmeno v jiných jazycích.  
 
 Identifikace
 ---------------
@@ -57,6 +68,7 @@ Shlédněte také
 
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "Demonstration of mapping a round building"
+[Square to round]: /images/hot-tips/square-round-building.gif "Ukázka změny hranaté budovy na kulatou"  
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Kulatá budova vedle keře" 
 [back arrow]: /images/beginner/back-arrow.png "Zpět" 
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team výukové videa - Přidání budovy do OpenStreetMap"

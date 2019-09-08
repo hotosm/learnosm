@@ -9,12 +9,12 @@ category: hot-tips
 Vyznačení obdélníkových budov - iD editor
 ============
 
+> Aktualizováno 2019-06-23
+
 - Obsah
 {:toc}
 
-> Vytvořeno 2016-10-30  
-
-Základy
+Úvod
 ----------
 
 ![Rectangular building][]  
@@ -23,7 +23,8 @@ Základy
 
 Hlavní body;  
 
-- Pokud je budova pravoúhlá, ujistěte se, že jste ji tak nakreslili, případně použijte nástroj na nastavení pravoúhlích rohů.  
+Trasování ukončíte dvojklikem na poslední bod,  
+- Pokud by budova měla mít pravoúhlé rohy, ujistěte se, že jste ji tak nekreslili, nebo použijte nástroj k jejich zarovnání ( v angličtině, klávesová zkratka **q**).  
 - Nezapomeňte popisovat!  
 - Na velikosti záleží - *odhad populace je založen na oblastech s větším množstvím budov*,  
 - správná velikost budovy a správně zakreslená cesta okolo pomůže lidem najít svoji vesnici,  
@@ -59,7 +60,7 @@ Dělejte, co umíte - dokonce i odborníci semtam nesouhlasí a někdy prostě m
 Popis budovy
 -------------
 
-Když popisujeme budovu, kterou jsme nikdy nenavštívili a neznáme ji, nejrychlejší a doporučené popisovací schéma je **building**=**yes**. Uvidíte ho na správně popsaných budovách, stačí sjet na konec panelu s popisem budovy a kliknout na **All tags**. 
+Když popisujeme budovu, kterou jsme nikdy nenavštívili a neznáme ji, nejrychlejší a doporučené popisovací schéma je **building**=**yes**. Uvidíte ho na správně popsaných budovách, stačí sjet na konec panelu s popisem budovy a kliknout na **All tags**.   
 
 Shlédněte také  
 ---------
