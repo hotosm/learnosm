@@ -9,7 +9,7 @@ category: beginner
 iD Editor
 =============
 
-> Zkontrolováno 2016-03-30  
+> Zkontrolováno 2019-06-10
 
 Začínáte mapovat pomocí Tasking Manageru pro HOT nebo MissingMaps atd.? Podívejte se na sekci [HOT-tipy](/cs/hot-tips/).  
 
@@ -44,23 +44,22 @@ Uživatelské prostředí iD editoru 
     Nakresli plochu (polygon), *klávesová zkratka* **3** ![image5][]{: height="24px"}  
     Vrátit zpět, *klávesová zkratka* **Ctrl+z** ![image6][]{: height="24px"}  
     Provést znovu, *klávesová zkratka* **Ctrl+y** ![image7][]{: height="24px"}  
-    Uložit změny, *klávesová zkratka* **Ctrl+s** ![image8][]{: height="24px"}  
+    Uložit změny, *klávesová zkratka* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **Panel mapy:** Tento panel zobrazuje různé možnosti nastavení:  
     Přiblížit, *klávesová zkratka* **+** ![image9][]{: height="24px"}  
     Oddálit, *klávesová zkratka* **-** ![image10][]{: height="24px"}  
     Jít na vaši pozici ![image11][]{: height="24px"}  
     Nastavit vrstvu pozadí, *klávesová zkratka* **b** ![image12][]{: height="24px"}  
     Mapová data, *klávesová zkratka* **f** ![Map Data][]{: height="24px"}  
+    Chyby, *klávesová zkratka* **i** ![Issues][]{: height="24px"}  
     Otevřít menu nápovědy, *klávesová zkratka* **h** ![image13][]{: height="24px"}  
 4. **Informační panel:** Tento panel zobrazuje různé informace, jako třeba měřítko a kteří uživatelé přispěli v této oblasti.  
 
-Nastavení vrstvy na pozadí
---------------------------------
+## Nastavení vrstvy pozadí
 
 Klikněte na tlačítko **Nastavení pozadí** nebo použijte klávesovou zkratku **b**.![image14][]{: height="24px"}  
 ![image15][]  
-Pro změnu **světlosti pozadí** klikněte na jeden z těchto čtverečků. Úrovně jsou 100%, 75%, 50% a 25% ![image16][]{: height="24px"}  
-Můžete také **změnit vrstvu na pozadí** podle různých poskytovatelů dat (výchozí jsou Bing fotomapy).  
+Můžete si **změnit vrstvu podkladu** na vámi požadovanou (přednastavené jsou Bing Aerial Imagery).  
 
 Můžete přidat svoje vlastní mapové čtverce pomocí volby **Vlastní**. Například, pokud chcete **přidat Field Paper** [^fieldpaper], klikněte na **Vlastní** poté klikněte na ikonu lupy (hledat) pro otevření následujícího okna:-  
 ![image17][]   
@@ -68,7 +67,10 @@ vložte vaši **URI snímku na FieldPaper**, který bude vypadat nějak takto: <
 Pro **zobrazení tras GPS z vašeho počítače** (GPX formát), chyťte a pusťte GPX soubor do iD editoru.  
 Pro zobrazení **GPS tras z OpenStreetmap** klikněte na čtvrteček. V obrázku níže, jsou  veřejně dostupné GPS trasy zobrazeny v různých barvách určujících směr pohybu.  
 ![osm gps traces][]  
-Pokud je [fotomapa posunutá](/cs/josm/aerial-imagery/), můžete **opravit posunutí** kliknutím na  **Opravit zarovnání**. ![image18][]  
+Chcete-li změnit **vzhled snímků** klikněte na **Volby zobrazení** (Display Options).  
+![DisplayOptions][]  
+Pokud jsou [snímky posunuté](/en/josm/aerial-imagery), můžete **posunutí opravit** kliknutím na **Zarovnat podklad** (Adjust imagery offset).  
+![image18][]  
 
 - Klikněte na navigační tlačítka pro přesun snímků. Klepnutím na tlačítko Reset se vrátíte do výchozí pozice. ![image20][]  
 
@@ -84,7 +86,7 @@ Chcete-li přidat nový bod, klikněte na tlačítko **Bod**. ![image3][]{: heig
 - Všimněte si, že je přidán nový bod. Současně se změní levý panel tak, aby zobrazoval formulář, ve kterém můžete vybrat atributy objektu. Klepnutím na položku **Nemocnice** označte místo jako nemocnici.  
 ![image22][]  
 - Formuláře můžete použít k vyplnění podrobných informací o vašem místě. Můžete vyplnit název nemocnice, adresu a / nebo další doplňující informace. Všimněte si, že každá funkce bude mít různé možnosti, v závislosti na tom, jakou značku vyberete z panelu funkcí.  
-- Pokud uděláte chybu, například špatné místo, můžete přemístit svůj bod na nové místo podržením levého tlačítka myši na místě a přetažením. Nebo pokud chcete smazat svůj bod, klepněte na levé tlačítko myši v bodě, aktivujte kontextové menu klepnutím pravým tlačítkem myši a poté klikněte na tlačítko, které vypadá jako koš. ![image23][]{: height="24px"}  
+- Pokud uděláte chybu, např. špatně něco umístíte, můžete to přesunout pomocí levého tlačítka myši. Pro smazání bodu ho levým tlačítkem vyberte, pravým vyvolejte kontextové menu a poté klikněte na ikonu vypadající jako koš. ![PointToolDelete][]{: height="24px"}  
 "Bod" vytvořený v iD editoru je ve skutečnosti samostatný "uzel" se souborem "značek" na něm.  
 
 ### Kreslení čar  
@@ -95,17 +97,22 @@ Chcete-li přidat novou čáru, klikněte na tlačítko **Linie**. ![image4][]{:
 ![image24][]  
 - Stejně jako bod, vyberte příslušné značky pro vaši čáru.  
 - Můžete přetáhnout body z čáry kliknutím levého tlačítka myši na bod a přetažením.  
-- Můžete také přesunout celou čáru jejím výběrem a zvolením nástroje **Přesunout**. Potom přetáhněte čáru na novou pozici. ![image30][]{: height="24px"}  
-- Když klepnete levým tlačítkem myši na jednotlivý bod (uzel) na čáře a kliknutím pravým tlačítkem myši aktivujete místní nabídku, uvidíte tyto nástroje:  
-- Smazat bod z linie. ![image23][]{: height="24px"}  
-- Odpojit bod od čáry. ![image26][]{: height="24px"}  
-- Rozdělit linii na dvě linie od místa, které jste vybrali. ![image27][]{: height="24px"}  
+- Když vyberete některý z bodů (node) na čáře a kliknete na něj pravým tlačítkem, nebo zmáčknete mezerník pro vyvolání kontextového menu, nabídnou se vám tyto nástroje:  
+  - Pokračovat čárou z tohoto bodu ![PointToolContinue][]{: height="24px"}  
+  - Rozpojit čáry v tomto bodě ![PointToolDisconnect][]{: height="24px"}  
+  - Rozdělit čáru na dvě v tomto bodě. ![PointToolSplit][]{: height="24px"}  
+  - Smazat bod. ![PointToolDelete][]{: height="24px"}  
 - Když kliknete levým tlačítkem myši na linii (ale ne na bod), uvidíte tyto nástroje:  
--   Smazat čáru. ![image23][]{: height="24px"}  
--   Vytvoření kruhu z čáry (aktivní pouze v případě, že je čára uzavřena) ![image29][]{: height="24px"}  
--   Posunout čáru ![image30][]{: height="24px"}  
--   Vytvořit pravoúhlý tvar z čáry (aktivní pouze v případě, že je čára uzavřena) ![image31][]{: height="24px"}  
--   Obrátí směr (dobré pro řeky a jednosměrné ulice) ![image32][]{: height="24px"}  
+  -   Vytvořit kruh z čáry (pouze pokud je čára uzavřená) ![LineToolCircularize][]{: height="24px"}  
+  -   Odpojit čáru od objektu ![LineToolDisconnect][]{: height="24px"}  
+  -   Přesunout čáru ![LineToolMove][]{: height="24px"}  
+  -   Udělat všechny úhly pravoúhlé ![LineToolSquare][]{: height="24px"}  
+  -   Zrcadlit prvek podle kratší strany ![LineToolReflectShort][]{: height="24px"}  
+  -   Zrcadlit prvek podle delší strany ![LineToolReflectLong][]{: height="24px"}  
+  -   Obrátit směr přímky (hodí se u řek a jednosměrných ulic) ![LineToolReverse][]{: height="24px"}  
+  -   Otočit čáru okolo jejího středu ![LineToolRotate][]{: height="24px"}  
+  -   Nárovnat čáru ![LineToolStraighten][]{: height="24px"}  
+  -   Smazat čáru. ![LineToolDelete][]{: height="24px"}  
 
 "Čára" vytvořená v iD editoru je vlastně "cesta" se "značkami" umístěnými na ní.
 
@@ -132,6 +139,14 @@ Když vyberete některý z obrysů nově vytvořeného multipolygonu, můžete v
 
 ![part of multipolygon][]
 
+## Chyby
+
+Editor provádí několik kontrol během vašich úprav. Pokud vyhodnotí, že vaše úpravy mohou vést k problémům, tak vás upozorní v záložce Chyby. Kdykoliv se u chybové ikony vpravo objeví žlutá (varování) nebo červená (chyba) tečka, měli byste si záložku otevřít a podívat se co hlásí. Tato informace je taktéž zobrazena u vlastnotí objektu v záložce vlevo, pokud je daný objekt vybrán. Zároveň jste varování o nevyřešených chybách při nahrávání data na server. 
+
+![Issue][] ![Error][]
+
+Ve spodní části záložky s chybama se nachází seznam pravidel, ve kterém si můžete hlášení zakázat, ale to se nedoporučuje.
+
 Uložení změn
 --------------------
 
@@ -145,17 +160,11 @@ Když (a pokud) chcete uložit své úpravy na OpenStreetMap, klikněte na tlač
 Další informace a vlastní značky
 ---------------------------------------
 
-Když upravujete objekt, uvidíte v dolní části panelu atributů ikonu. Další informace můžete přidat kliknutím na tyto ikony:
+Když upravujete objekt, můžete si v panelu vlastností všimnout kolonky "Přidat vlastnost:". Zde je možné přidat různé informace z dané nabídky (vrstva, nadmořská výška, wikipedie atd.).  
 
-- Přidat nadmořskou výšku ![image37][]{: height="24px"}  
-- Přidat poznámky ![image38][]{: height="24px"}  
-- Přidat kontakty / telefonní číslo ![image39][]{: height="24px"}  
-- Přidat označení zdroje ![image40][]{: height="24px"}  
-- Přidat webovou stranu ![image41][]{: height="24px"}  
-- Přidat informace o přístupnosti ![image42][]{: height="24px"}  
-- Přidat odkaz na Wikipedii ![image43][]{: height="24px"}  
+![AdditionalTags][]
 
-Nebo můžete přidat vlastní značky kliknutím na položku **Všechny značky**. ![image44][]{: height="24px"}  
+Nebo si můžete vytvořit vlastní tag kliknutím na **Všechny vlastnosti**. ![image44][]{: height="24px"}  
 
 - Zobrazí se tak všechny značky připojené k této funkci.  
 ![image45][]  
@@ -185,8 +194,6 @@ Srovnání iD a JOSM
 
 [^fieldpaper]: Zde je [sekce LearnOSM](/cs/mobile-mapping/field-papers/) poskytující více informací o terénních dokumentech.
 
-Obsah této příručky je k dispozici jako [prezentace](/files/iD-editor-training.pptx)
-
 
 
 [image1]: /images/beginner/id-editor_image1.png 
@@ -202,37 +209,38 @@ Obsah této příručky je k dispozici jako [prezentace](/files/iD-editor-traini
 [image11]: /images/beginner/id-editor_image11.png
 [image12]: /images/beginner/id-editor_image12.png
 [Map Data]: /images/beginner/id-editor_map_data.png
+[Issues]: /images/beginner/id-editor_issues.png
 [image13]: /images/beginner/id-editor_image13.png
 [image14]: /images/beginner/id-editor_image14.png
 [image15]: /images/beginner/id-editor_image15.png
-[image16]: /images/beginner/id-editor_image16.png
+[DisplayOptions]: /images/beginner/id-editor_display-options.png
 [image17]: /images/beginner/id-editor_image17.png
 [image18]: /images/beginner/id-editor_image18.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
 [image21]: /images/beginner/id-editor_image21.png
 [image22]: /images/beginner/id-editor_image22.png
-[image23]: /images/beginner/id-editor_image23.png
 [image24]: /images/beginner/id-editor_image24.png
-[image25]: /images/beginner/id-editor_image25.png
-[image26]: /images/beginner/id-editor_image26.png
-[image27]: /images/beginner/id-editor_image27.png
-[image28]: /images/beginner/id-editor_image28.png
-[image29]: /images/beginner/id-editor_image29.png
-[image30]: /images/beginner/id-editor_image30.png
-[image31]: /images/beginner/id-editor_image31.png
-[image32]: /images/beginner/id-editor_image32.png
-[image33]: /images/beginner/id-editor_image33.png
+[PointToolContinue]: /images/beginner/id-editor_point-tool-continue.png
+[PointToolDelete]: /images/beginner/id-editor_point-tool-delete.png
+[PointToolDisconnect]: /images/beginner/id-editor_point-tool-disconnect.png
+[PointToolSplit]: /images/beginner/id-editor_point-tool-split.png
+[LineToolCircularize]: /images/beginner/id-editor_line-tool-circularize.png
+[LineToolDelete]: /images/beginner/id-editor_line-tool-delete.png
+[LineToolDisconnect]: /images/beginner/id-editor_line-tool-disconnect.png
+[LineToolMove]: /images/beginner/id-editor_line-tool-move.png
+[LineToolReflectLong]: /images/beginner/id-editor_line-tool-reflect-long.png
+[LineToolReflectShort]: /images/beginner/id-editor_line-tool-reflect-short.png
+[LineToolReverse]: /images/beginner/id-editor_line-tool-reverse.png
+[LineToolRotate]: /images/beginner/id-editor_line-tool-rotate.png
+[LineToolSquare]: /images/beginner/id-editor_line-tool-square.png
+[LineToolStraighten]: /images/beginner/id-editor_line-tool-straighten.png
 [image34]: /images/beginner/id-editor_image34.png
 [image35]: /images/beginner/id-editor_image35.png
+[Issue]: /images/beginner/id-editor_issue.png
+[Error]: /images/beginner/id-editor_error.png
 [image36]: /images/beginner/id-editor_image36.png
-[image37]: /images/beginner/id-editor_image37.png
-[image38]: /images/beginner/id-editor_image38.png
-[image39]: /images/beginner/id-editor_image39.png
-[image40]: /images/beginner/id-editor_image40.png
-[image41]: /images/beginner/id-editor_image41.png
-[image42]: /images/beginner/id-editor_image42.png
-[image43]: /images/beginner/id-editor_image43.png
+[AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
 [create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
