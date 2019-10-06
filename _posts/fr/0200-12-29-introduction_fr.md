@@ -17,7 +17,7 @@ L'information a de la valeur. Avec la bonne information et une bonne compréhens
 
 Les cartes sont un symbole visuel de notre monde. Elles sont plus souvent adaptées que des mots pour expliquer une idée. Ce qui en retour nous aide à répondre à des questions importantes. *Où est l'école ou l'hôpital le plus proche ? Qui a le moins accès à ces services ? Où la pauvreté est-elle la plus problématique ?* Ces questions peuvent souvent être mieux exprimées via des cartes, et celles-ci aident à trouver des solutions à ces questions. 
 
-Pour s'exercer, prenez un crayon et un papier, puis tracez une carte de votre ville ou village. Quelles sont les choses les plus importantes à mettre sur cette carte ? Quelle est l'information la plus importante ? Prenez quelques minutes pour faire votre carte, et quand vous avezfini, réfléchissez à la raison pour laquelle l'information que vous avez inclus est importante, et pour qui elle serait importante.
+Pour s'exercer, prenez un crayon et un papier, puis tracez une carte de votre ville ou village. Quelles sont les choses les plus importantes à mettre sur cette carte ? Quelle est l'information la plus importante ? Prenez quelques minutes pour faire votre carte, et quand vous avez fini, réfléchissez à la raison pour laquelle l'information que vous avez inclus est importante, et pour qui elle serait importante.
 
 ![Example of a hand-drawn map][]
 

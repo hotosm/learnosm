@@ -9,12 +9,13 @@ category: hot-tips
 Attributieren - iD Editor
 ============
 
+> Aktualisiert am 28.6.2019
+
 - TOC
 {:toc}
 
 ![tagging][]
 
-Dieses Bild ![keymon]{: height="24px"} zeigt Ihnen, welche Knöpfe und Räder an der Maus benutzt und welche Tasten an der Tastatur gedrückt wurden.  
 
 Warum Attribute gebraucht werden
 -------------------
