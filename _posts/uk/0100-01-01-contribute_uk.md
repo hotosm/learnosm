@@ -2,13 +2,13 @@
 layout: contribute
 permalink: /uk/contribute/
 lang: uk
-title: Співпраця
-contributetitle: "Допомога в покращені керівництв"
+title: Contribute
+contributetitle: "Допоможіть покращити наші посібники"
 startwith: "Готові розпочати?"
-startA: "Надішліть нам відгук"
-startB: "Створити переклад"
-startC: "Покращити мову"
-startD: "Повідомити про помилки та прийняти участь"
+startA: "Залишіть відгук"
+startB: "Допоможіть з перекладом"
+startC: "Поліпшити ілюстрації - рідною мовою!"
+startD: "Повідомити про проблеми та зробити особистий вклад"
 nosearch: true
 ---
-Це керівництво створене та підтримується спільнотою [OpenStreetMap](http://www.openstreetmap.org/) та [Humanitarian OpenStreetMap](http://hotosm.org/). Ви можете допомогти покращити його надсилаючи нам ваші думки, чи шляхом безпосереднього внесення змін на [Github](http://github.com/hotosm/learnosm).
+Довідник створений та підтримується спільнотою [OpenStreetMap](http://www.openstreetmap.org/) та спільнотою [Humanitarian OpenStreetMap](http://hotosm.org/). Ви можете покращити цей довідник просто надіславши відгук або приєднавшись на [Github](http://github.com/hotosm/learnosm).

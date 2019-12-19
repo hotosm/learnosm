@@ -236,6 +236,17 @@ translations:
     language: "Shqip"
     quickaccess: "Qasje e shpejtë"
     returntotop: "Kthehuni në krye të faqes"
+  uk:
+    language: "Українська"
+    tagline: "Знайомимось з OpenStreetMap крок за кроком"
+    contribute: "Допоможіть покращити наші посібники"
+    trainingspan: "Ви організовуєте семінар?"
+    training: "Ознайомтесь із навчальними матеріалами до цього посібника (англійською)"
+    feedbackspan: "Чи був цей розділ корисним?"
+    feedback: "Дайте нам знати та допоможіть нам покращити цей посібник!"
+    getstarted: "Почнімо"
+    returntotop: "Повернутись до початку сторінки"
+    quickaccess: "Швидкий доступ"
   vi:
     tagline: "Từng bước học OpenStreetMap"
     contribute: "Giúp chúng tôi cải thiện những hướng dẫn này"
