@@ -10,86 +10,72 @@ category: beginner
 ---
 
 Bacaan Lebih Lanjut
-===================
+===============
 
-> A more recent version of this guide is available in [English](/en/beginner/moving-forward),  [Español](/es/beginner/moving-forward)  or [German](/de/beginner/moving-forward). To help produce translations for this site please go to <https://www.transifex.com/> and search for **HOT-OSM**.  
+> Direview 2015-07-12  
 
-Jika Anda telah berhasil sejauh ini, selamat! Anda seharusnya telah memahami 
-dengan baik sekarang mengenai bagaimana membuat peta dengan OpenStreetMap.
-Apa yang dapat Anda lakukan dengan OSM? Bagaimana Anda mempelajarinya lebih
-lanjut? Bagaimana Anda dapat tetap terhubung dengan komunitas pembuat peta?
+Jika Anda berhasil mengikuti sampai sejauh ini, selamat! Anda sudah memiliki pemahaman yang baik untuk membuat peta menggunakan OpenStreetMap. Hal apa lagi yang Anda dapat lakukan menggunakan OSM? Bagaimana caranya untuk Anda belajar lebih lanjut? Bagaimana caranya agar Anda dapat selalu terhubung dengan komunitas pembuat peta?  
 
-Pelajari Lebih Lanjut
----------------------
+Bab lainnya dari learnOSM
+---------------------------
 
-Ada banyak informasi tentang OpenStreetMap tersedia di [wiki.openstreetmap.org](http://wiki.openstreetmap.org/).
-Disini Anda dapat menemukan informasi tentang proyek lain yang berhubungan
-dengan OpenStreetMap, serta dokumentasi dan tutorial yang dapat membantu
-Anda mempelajari lebih lanjut mengenai OSM.
+Di akhir bab iD Editor Anda sudah mengetahui perbedaan antara iD dan JOSM. Tersedia [bab mengenai semua tentang JOSM](/en/josm/) dimana Anda dapat mempelajari semua detail yang diperlukan untuk memahami kemampuan yang dimiliki editor ini.  
+
+Sejauh ini, semua edit yang kita tambahkan ke dalam peta berdasarkan citra satelit. Anda dapat mengumpulkan banyak informasi sambil berjalan atau berkendara. Bab [section on mobile mapping](/en/mobile-mapping/) menjelaskan bagaimana cara mengumpulkan informasi menggunakan alat berbasis GPS berbeda atau menggunakan cetakan materi yang didesain khusus. Bab ini juga meliputi sejumlah aplikasi berbasis OpenStreetMap untuk perangkat seluler.  
+
+OpenStreetMap adalah sebuah usaha kolaboratif dan kami harap Anda menjadi bagian darinya. Beberapa usaha ini fokus kepada bantuan kemanusiaan di bawah naungan [Humanitarian OSM Team](http://hotosm.org). Jika Anda ingin membantu HOT dalam kejadian bencana seperti gempa bumi Nepal silakan lihat [bab koordinasi](/en/coordination/). Koordinasi ini berkaitan dengan alat yang memastikan banyak orang dapat bekerja bersama di area yang relatif kecil secara konsisten. Koordinasi ini juga memberikan panduan pada tugas yang biasa dihadapi saat bergabung dengan usaha kemanusiaan ini.  
+
+
+Belajar Lebih Lanjut
+----------
+
+Banyak informasi mengenai OpenStreetMap tersedia di [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Di sini Anda dapat menemukan informasi mengenai proyek lain yang berhubungan dengan OpenStreetMap serta dokumen dan tutorial yang dapat membantu Anda mempelajari OSM.  
 
 ![Wiki][]
 
-<!-- info lebih lanjut juga telah disediakan di situs ini -->
+<!-- also more info on this site once it is prepared -->
 
-Mailing List
+Milis
 ------------
 
-Cara terbaik untuk terhubung ke komunitas pengguna OpenStreetMap 
-adalah bergabung dengan mailing list lokal Anda. Banyak orang mendaftar,
-menggunakan akun email mereka ke mailing list OSM. Setelah Anda berada 
-dalam daftar, Anda dapat mengirim email ke kelompok jika Anda memiliki
-pertanyaan atau ingin berbicara tentang OpenStreetMap.
+Cara terbaik untuk tetap terhubung dengan komunitas pengguna OpenStreetMap adalah dengan bergabung di milis komunitas lokal. Banyak orang mendaftarkan email mereka ke milis OSM. Setelah Anda masuk ke dalam milis, Anda dapat mengirimkan email ke milis jika Anda memiliki pertanyaan atau sekadar ingin berbincang mengenai OpenStreetMap.  
 
-*	Untuk mendaftar ke mailing list negara Anda, buka browser internet
-	Anda dan pergi ke 
-	[lists.openstreetmap.org](http://lists.openstreetmap.org/).
+Untuk mendaftar ke milis negara Anda, buka browser lalu buka [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
 
 ![Mailing list][]
-	
-*	Gulir ke bawah halaman untuk mencari daftar yang terkait dengan negara
-	Anda. Daftar negara yang dinamakan "Talk-lg", dimana lg mewakili
-	negara yang terdaftar. Sebagai contoh, "Talk-id" adalah daftar untuk
-	Indonesia.
-*	Klik pada daftar yang Anda ingin bergabung
-*	Masukkan informasi berikut pada kotak di halaman ini:
-	
-	-	Alamat email Anda
-	-	Nama depan Anda
-	-	Kata sandi baru
-	-	Ulangi kata sandi
 
-*	Ketika Anda telah selesai, klik Subscribe.
-*	Sekarang Anda perlu membuka email Anda, seperti yang Anda lakukan ketika
-	Anda mendaftarkan ke OpenStreetMap. Akan ada email konfirmasi di inbox
-	Anda dari mailing list.
-*	Klik pada tautan konfirmasi.
-*	Anda sekarang seharusnya menjadi anggota mailing list.
-*	Sekarang ketika Anda ingin mengirim sebuah pesan ke mailing list, Anda
-	dapat mengirimnya ke [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org),
-	menggantikan "id" dengan negara untuk daftar Anda. Anda akan juga menerima
-	email ketika anggota lain mengirim sebuah pesan ke mailing list.
-	
+Geser halaman ke bawah untuk menemukan milis yang sesuai dengan negara Anda. Daftar nama negara bernama "Talk-lg", dimana lg menggambarkan nama negara pada daftar tersebut. Contohnya, "Talk-id" adalah milis untuk Indonesia.  
+
+- Klik pada milis dimana Anda ingin bergabung.  
+- Masukkan informasi berikut ini pada kotak di halaman ini:  
+    +  alamat email Anda  
+    +  nama depan Anda  
+    +  kata sandi baru  
+    +  ulangi kata sandi  
+- Ketika Anda selesai, klik Subscribe.
+- Sekarang silakan Anda buka email, seperti ketika Anda mendaftar OpenStreetMap pertama kalinya. Sebuah email konfirmasi dari milis akan muncul di inbox email Anda.  
+- Klik tautan pada email konfirmasi.  
+- Sekarang Anda sudah menjadi anggota milis.  
+- Saat Anda ingin mengirim sebuah email ke milis, Anda dapat mengirimkannya ke [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), ganti "id" dengan milis negara Anda. Anda juga akan mendapatkan email ketika anggota lain mengirimkan email ke milis.  
+
 <!-- maybe expand and put this back later
-
 MapOSMatic
 ----------
 
-Salah satu proyek yang dinamakan MapOSMatic, yang Anda dapat akses melalui browser
-inter di [maposmatic.org](http://www.maposmatic.org/). Ini merupakan sebuah tool
-sederhana untuk mencetak peta suatu wilayah yang Anda pilih. Ini akan secara 
-otomatis membuat peta, dengan sebuah grid di atas peta, dan sebuah indeks lokasi
-yang termasuk dalam wilayah.
+Sebuah proyek bernama MapOSMatic, dimana Anda dapat mengaksesnya melalui
+browser pada [maposmatic.org](http://www.maposmatic.org/). Ini
+adalah sebuah alat sederhana untuk membuat dan mencetak peta dari area mana saja yang Anda pilih. Alat ini akan
+secara otomatis membuat peta beserta gridnya dan sebuah
+indeks lokasi objek-objek yang terdapat di area peta tersebut.
 
 ![MapOSMatic][]
 -->
 
-Ringkasan
----------
 
-Ini adalah beberapa cara yang Anda dapat gunakan dan tetap terhubung dengan
-komunitas OpenStreetMap dan pelajari lebih lanjut. Kita berharap Anda akan 
-terus mengeksplorasi dan mempelajari lebih lanjut tentang OSM, dan berkontribusi
-pada proyek. Happy Mapping!
+Ringkasan
+-------
+
+Ada beberapa cara yang dapat Anda gunakan untuk tetap terhubung dengan komunitas OpenStreetMap dan mempelajari OpenStreetMap lebih lanjut. Kami harap Anda terus mengeksplorasi dan mempelajari lebih lanjut mengenai OSM serta terus berkontribusi ke OSM. Selamat memetakan!
 
 
 [MapOSMatic]: /images/beginner/maposmatic-homepage.png

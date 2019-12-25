@@ -9,78 +9,35 @@ lang: id
 category: beginner
 ---
 
-Pengenalan OpenStreetMap
-========================
+Pengenalan 
+============
 
-Informasi adalah salah satu bagian terpenting. Dengan infromasi yang baik dan pemahaman yang
-tepat, individu dan komunitas mampu mengembangkan kehidupannya ke arah yang lebih baik dan 
-membuat keputusan yang baik di masa depan.
-Banyak orang dan organisasi yang membuat keputusan dimana keputusan
-tersebut mempengaruhi kehidupan kita. Informasi yang baik dapat
-mempengaruhi LSM, pemerintah dan masyarakat untuk membuat keputusan yang
-lebih baik, dan serta membuat kehidupan kita lebih baik.
+> Reviewed 2015-08-22  
+
+Infomasi memiliki peranan yang sangat penting. Dengan adanya informasi dan pemahaman yang baik, individu dan komunitas dapat memiliki kemampuan untuk meningkatkan kualitas kehidupan serta dapat membuat keputusan yang tepat bagi masa depan mereka. Banyak sekali pihak dan organisasi memiliki tugas untuk mengambil keputusan yang berdampak kepada kehidupan kita. Informasi yang baik memungkinkan lembaga swasta, lembaga pemerintahan, dan masyarakat untuk dapat membuat keputusan yang lebih baik, dengan harapan dapat membuat kehidupan kita menjadi lebih baik. Peta adalah salah satu cara yang tepat untuk menyampaikan sebuah informasi.  
 
 ![A village in Indonesia][]
 
-Peta adalah simbol yang menggambarkan dunia kita. Dengan peta kita dapat menunjukkan 
-sebuah idea yang lebih baik dibandingkan menggunakan kata-kata. Hal ini dapat membantu 
-kita dalam menjawab pertanyaan-pertanyaan penting. Seperti dimana lokasi sekolah atau 
-rumah sakit terdekat? Siapa yang memiliki akses terjauh dengan fasilitas ini? Dimana lokasi 
-yang memiliki masalah kemiskinan? Pertanyaan-pertanyaan seperti ini dapat digambarkan melalui 
-peta, dan peta dapat membantu kita menemukan solusi dari pertanyaan tersebut. 
+Peta adalah wujud visual dari dunia kita. Seringkali peta dapat menyampaikan ide secara lebih baik daripada hanya sekadar kata-kata. Hal ini dapat membantu kita untuk menjawab pertanyaan penting. *Dimana letak sekolah atau rumah sakit terdekat? Siapa yang memiliki yang paling terbatas terhadap fasilitas tersebut? Di daerah mana saja kemiskinan menjadi masalah utama?* Pertanyaan seperti ini seringkali dapat dijawab secara lebih baik dengan peta, dan peta dapat membantu kita untuk mencari solusi terhadap masalah tersebut.  
 
-Untuk latihan, kita ambil pulpen atau pensil dan secarik kertas, kemudian gambarlah 
-sebuah peta yang menggambarkan kota atau desa tempat tinggal Anda. Hal apakah yang paling 
-penting untuk dimasukkan ke dalam peta? Informasi apakah yang paling penting? Luangkan waktu
-bberapa menit untuk membuat peta Anda, dan apabila peta Anda telah selesai, pikirkanlah 
-tentang mengapa informasi yang Anda masukan ke dalam peta Anda sangat penting, dan siapa saja
-yang memiliki kepentingan untuk informasi tersebut. 
+Sebagai latihan, ambil pulpen dan gambar peta kota atau desa dimana Anda tinggal. Hal penting apa yang harus muncul di dalam sebuah peta? Informasi penting apa yang sebaiknya muncul? Luangkan beberapa menit untuk menggambar peta, dan ketika Anda selesai, pikirkan alasan mengapa informasi yang Anda cantumkan menjadi penting, dan penting bagi siapa.
 
 ![Example of a hand-drawn map][]
 
-Jika Anda lebih banyak menggambarkan tentang kota Anda, mungkin Anda
-menggambarkan beberapa garis untuk merepresentasikan jalanan, atau
-sebuah aliran sungai. Mungkin Anda juga telah menambahkan
-bangunan-bangunan penting seperti sekolah dan kantor, lapangan, atau
-batas wilayah. Apapun yang Anda gambarkan, kemungkinan menggunakan
-simbol, sebuah garis untuk menyimbolkan jalan, sebuah persegi untuk
-menyimbolkan bangunan, dan seterusnya. Peta Anda merupakan sebuah
-representasi dari apa yang ada di permukaan bumi.
+Jika kota Anda sama seperti kondisi kota pada umumnya, Anda mungkin telah menggambarkan beberapa simbol garis yang menggambarkan jalan atau sungai. Mungkin Anda juga menambahkan bangunan-bangunan penting seperti sekolah, kantor, lapangan, atau batas wilayah. Objek apapun yang Anda gambar di peta, pasti diwakili dengan sebuah simbol - garis untuk menggambarkan jalan, persegi empat untuk menggambarkan bangunan, dan sebagainya. Peta Anda merupakan sebuah penggambaran dari apa yang ada di permukaan bumi. 
 
 ![Examples of symbols][]
 
-Peta Anda bersifat informatif. Anda mungkin akan menggunakan peta seperti
-ini untuk menjelaskan kepada seseorang dimana tempat-tempat berbeda
-berada, dimana permasalahan yang terdapat dalam komunitas Anda, atau
-lebih tepatnya untuk membantu seseorang menemukan tempat tujuannya.
-Namun, kegunaan peta Anda ini terbatas. Dimana hanya terdapat satu buah 
-salinan dari peta dan dari cara Anda menggambarkannya mungkin Anda memahami 
-isinya, tetapi tidak bagi orang lain yang menggambarkan peta tersebut dengan
-cara yang berbeda. Karena peta Anda ini digambarkan
-hanya pada secarik kertas, sangat sulit untuk menyampaikan informasi ini
-ke orang lain. Inilah mengapa Anda membuat peta pada sebuah komputer,
-dengan cara seperti itu semua orang dapat mengakses peta tersebut dan
-membuatnya lebih berharga.
+Peta Anda sangat informatif. Anda mungkin akan menggunakan peta seperti ini untuk menjelaskan kepada seseorang mengenai lokasi tertentu, lokasi permasalahan yang ada di komunitas Anda, atau bahkan sekadar membantu seseorang untuk menemukan tujuan mereka. Bagaimanapun, penggunaan peta seperti peta yang Anda gambar sekarang sangatlah terbatas - peta Anda hanya terdapat sebanyak satu lembar. Cara Anda menggambarkan peta tersebut mungkin memudahkan bagi Anda sendiri, namun belum tentu bagi orang lain. Bisa saja orang lain menggambarkan peta mereka dengan cara yang berbeda. Karena peta Anda hanya tergambar di atas secarik kertas, sangatlah sulit untuk membagikan informasi tersebut kepada orang lain. Oleh karena itu, akan lebih tepat jika peta Anda digambarkan menggunakan komputer, dimana terdapat sebauh cara agar orang lain juga dapat mengakses peta Anda.  
 
 ![Mapping on Computer][]
 
-OpenStreetMap adalah sebuah alat untuk membuat dan berbagi informasi
-dalam bentuk peta. Siapapun dapat berkontribusi untuk OSM, dan ribuan
-orang menambahkan proyek setiap harinya. Para pengguna menggambarkan
-peta pada komputer, dibandingkan dengan kertas, tetapi kita akan melihat
-pada panduan ini, menggambar sebuah peta pada sebuah komputer tidak jauh
-berbeda dengan menggambar peta pada secarik kertas. Kita masih
-menggambarkan garis untuk merepresentasikan jalan, lapangan, dan
-lain-lain, dan kita masih merepresentasikan sekolah dan rumah sakit
-dengan ssimbol. Hal yang paling penting adalah peta OSM disimpan di
-dalam internet, dan siapapun dapat mengakses peta tersebut kapanpun,
-gratis.  
+OpenStreetMap adalah sebuah alat untuk membuat dan berbagi informasi peta. Semua orang dapat berkontribusi ke dalam OSM, dan ribuan orang terus bergabung setiap harinya. Dengan OSM, para pengguna membuat peta menggunakan komputer, bukan kertas. Meskipun demikian, membuat peta menggunakan komputer kurang lebih memiliki konsep dan prinsip yang sama dengan menggambar peta di atas secarik kertas. Kita masih menggunakan garis untuk menggambarkan jalan, lapangan, dan hal lain, juga kita menggambarkan sekolah dan rumah sakit dengan sebuah simbol persegi. Hal terpenting adalah peta OSM akan tersimpan di internet, dan semua orang dapat mengaksesnya kapanpun, secara gratis. 
 
 ![Digital maps with OpenStreetMap][]
 
-Kami harap Anda tertarik menggunakan OpenStreetMap dan OpenStreetMap dapat
-berguna untuk pekerjaan Anda. Dengan mengikuti panduan ini, Anda dapat memulai 
-dengan cepat cara membuat peta digital dan menambahkannya pada OSM.
+Kami berharap Anda akan melihat bahwa OpenStreetMap sangatlah menarik serta memilki fungsi yang beragam terkait pekerjaan Anda. Dengan mengikuti panduan ini, Anda akan dengan mudah untuk membuat peta digital menggunakan OpenStreetMap. 
+
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
 [Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png

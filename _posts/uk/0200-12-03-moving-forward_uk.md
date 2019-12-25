@@ -28,7 +28,7 @@ OpenStreetMap - це спільні зусилля, і ми сподіваємо
 
 Багато інформації про OpenStreetMap міститься на [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Тут ви можете знайти інформацію про інші проєкти пов'язані з OpenStreetMap, а також документацію та довідники, які допоможуть вам дізнатись більше про OSM.  
 
-![Вікі][]
+![Wiki][]
 
 <!-- also more info on this site once it is prepared -->
 
