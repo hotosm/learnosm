@@ -13,7 +13,7 @@ OruxMaps
 
 V této sekci se naučíme nastavit OruxMaps, vytvoříme si výchozí body, podíváme se na záznam trasy a exportujeme ho pro použití v JOSM.  
 
-Instalace OruxMaps
+​Instalace OruxMaps
 ------------------
 
 Nainstalujte si aplikaci z Google Play Store vyhledáním **OruxMaps**, měla by se zobrazit mezi prvními v seznamu.  
@@ -37,7 +37,7 @@ V OruxMaps si můžete vybrat, jestli chcete používat online nebo offline mapy
 
 ![Interface overview][]
 
-Zdroj: [OruxMaps manuál anglická verze](http://www.oruxmaps.com/oruxmapsmanual_en.pdf)  
+Zdroj: [OruxMaps manuál anglická verze](http://www.google.com/url?q=http%3A%2F%2Fwww.oruxmaps.com%2Foruxmapsmanual_en.pdf&sa=D&sntz=1&usg=AFQjCNFY7Tk-Gzz9NFKy9WOsnfnn8x3Kwg)  
 Tento manuál je nejspíš aktuálnější než tento průvodce a možná je dostupný i v jiných jazycích.  
 
 Mapový podklad si můžete změnit v nabídce **Maps \> Switch Maps**. Poté si vyberte ze dvou možností - chcete-li použít **Online Mapy** nebo radši

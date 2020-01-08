@@ -1,6 +1,6 @@
 ---
 layout: doc
-Додаткова інформація
+title: Додаткова інформація
 permalink: /uk/resources/
 lang: uk
 cover: yes

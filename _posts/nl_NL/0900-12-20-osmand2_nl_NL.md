@@ -9,7 +9,6 @@ category: mobile-mapping
 OsmAnd 2.x
 ==========
 
-> Bijgewerkt op 08-08-2016  
 
 OsmAnd (OSM Automated Navigation Directions) is een open source-toepassing voor het bekijken van kaarten, bewerken, opnemen van sporen en toeren en gebruikt de database van OpenStreetMap (OSM) voor zowel online als offline gebruik. Het bevat ook mogelijkheid voor routeren en navigatie, met visuele en stemgids, dat is ook online en offline beschikbaar. OsmAnd stelt gebruikers in staat direct aan OpenStreetMap bij te dragen door problemen te rapporteren, GPX-sporen te uploaden, en toevoegen (of bewerken) van POI's.  
 
@@ -69,9 +68,9 @@ Het kaartvenster zal straten, wegen, landgebruik, POI's, waterwegen en vele ande
 
 In aanvulling daarop, interacties met de knoppen van de interface:  
 
-De knop **Configureer scherm** selecteert het te gebruiken profiel. U kunt kiezen uit: Kaart bladeren, Auto, Fiets, voetganger om te bepalen hoeveel of hoe weinig details worden weergegeven in het kaartvenster. Het geeft ook weer 
+- De knop **Configureer scherm** selecteert het te gebruiken profiel. U kunt kiezen uit: Kaart bladeren, Auto, Fiets, voetganger om te bepalen hoeveel of hoe weinig details worden weergegeven in het kaartvenster. Het geeft ook weer 
 hoe POI's, labels, GPX-track, OSM Notes & Favorites worden weergegeven of gerenderd in het kaartvenster.  
-- De **Oriëntatie** wijzigt de oriëntatie van de kaart in het kaartvenster, en zal een andere pictogram van een kompas weergeven, afhankelijk van de methode voor de oriëntatie van het kaartvenster.  
+- De **Oriëntatie** wijzigt de oriëntatie van de kaart in het kaartvenster, en zal een ander pictogram van een kompas weergeven, afhankelijk van de methode voor de oriëntatie van het kaartvenster.  
 
 In het paneel aan de rechter onderkant van het kaartvenster vindt u **GPS Informatie**, wat het aantal satellieten weergeeft waarmee uw apparaat is verbonden, en het aantal zichtbare satellieten op de horizon. **Track Recording** is zichtbaar als de plug-in *Track Recording* is ingeschakeld. hetzelfde geldt voor de **Ruler Tool**, als de plug-in  *Distance Calculator & Planning Tool* is ingeschakeld. Aanvullende knoppenpanelen kunnen wel of niet zichtbaar zijn, afhankelijk van het feit of zij zijn ingesteld om weer te worden gegeven of dat bepaalde plug-ins al dan niet zijn ingeschakeld.  
 
@@ -81,7 +80,7 @@ Wanneer de GPS of netwerkpositie is ingeschakeld in uw apparaat geeft een  **Pos
 
 **Schaal en zoomen** geeft het zoomniveau aan waar het kaartvenster momenteel in staat. De eenheden voor weergave kunnen worden ingesteld op Metrisch of Engels (in feet of yards), onder *Instellingen\>Algemene instellingen\>Maateenheid.*  
 
-De knop **Navigatie** opent een dialoogvenster foor het genereren van navigatieroutes Naar en Van die toepasselijk zijn voor de modus van transport die u selecteert (bijv. auto, fiets of voetganger)  
+De knop **Navigatie** opent een dialoogvenster voor het maken van navigatieroutes Naar en Van die toepasselijk zijn voor de soort transport die u selecteert (bijv. auto, fiets of voetganger)  
 
 De **Zoomknoppen** stellen u in staat op het kaartvenster in of uit te zoomen. Dubbeltikken op een gebied waarin u bent geïnteresseerd zal dat punt in het midden van het kaartvenster plaatsen, en ingezoomd om meer details weer te geven.  
 
@@ -104,12 +103,12 @@ Druk op deze pop-up om een **Contextmenu**  voor het gespecificeerde punt weer t
 
 #### Contextmenu
 
-Het Contextmenu geeft aanvullende opties weer, gerelateerd aan de seelectie van het gespecificeerde punt.  
+Het Contextmenu geeft aanvullende opties weer, gerelateerd aan de selectie van het gespecificeerde punt.  
 
 + **Naar, Van, GPX waypoint toevoegen** zijn opties die zijn gerelateerd aan het navigeren over routes.  
 + **Nabij hier zoeken** is bedoeld als gelokaliseerd zoeken, beperkt tot beschikbare POI's in de geïnstalleerde database.  
 
-Als de plug-in *Audio/Video opmerkingen* is ingeschakeld, worden ook aanvullende opties voor vastleggen van multimedia weergegeven: **Audio-opmerking opnemen, Video-opmerking opnemen**, en **Foto maken**.  
+Als de plug-in *Audio/Video opmerkingen* is ingeschakeld, worden ook aanvullende opties voor vastleggen van multimedia weergegeven: **Audio-opmerking opnemen, Video-opmerking opnemen**, en **Foto maken**.  
 
 Selecteer **POI maken** om een nieuwe POI direct aan OpenStreetMap toe te voegen met behulp van de gespecificeerde coördinaten. Gebruik **OSM Note openen** voor notities zoals rapporteren van problemen, of om opmerkingen voor andere mappers die in hetzelfde gebied werken achter te laten.  
 
@@ -172,7 +171,7 @@ Nu de POI's in het kaartvenster worden weergegeven als oranje stippen, zal een l
 - **POI aanpassen** voor bewerken, en  
 - **POI verwijderen**.  
 
-er zal een venster verschijnen waarin u de velden van de POI kunt bijwerken, indien nodig. Het is een goede gewoonte om een opmerking of commentaar bij het indienen toe te voegen bij het aanpassen van POI's. De bewerker voor POI's is hetzelfde scherm als dat voor het toevoegen van POI's.  
+Er zal een venster verschijnen waarin u de velden van de POI kunt bijwerken, waar nodig. Het is een goede gewoonte om een opmerking of commentaar bij het indienen toe te voegen bij het aanpassen van POI's. De bewerker voor POI's is hetzelfde scherm als dat voor het toevoegen van POI's.  
 
 ![poi edit1][]  
 
@@ -182,7 +181,7 @@ U bent beperkt tot het bewerken van POI's of puntobjecten. Polygonen en gebieden
 
 ### Opmerkingen en commentaren toevoegen, problemen rapporteren, problemen sluiten  
 
-Een andere manier om bij te dragen aan OpenStreeMap is door Opmerkingen achter te laten, als algemene terugkoppeling, of problemen te rapporteren die te gebruiken zijn door andere actieve mappers in het gebied. Druk, om de Opmerkingen weer te geven in het kaartvenster, op **Kaartconfiguratie** en zorg er voor dat **OSM Opmerkingen** zijn ingeschakeld. U dient ook online te zijn via een WiFi-verbinding of een mobiel abonnement.  
+Een andere manier om bij te dragen aan OpenStreetMap is door Opmerkingen achter te laten, als algemene terugkoppeling, of problemen te rapporteren die te gebruiken zijn door andere actieve mappers in het gebied. Druk, om de Opmerkingen weer te geven in het kaartvenster, op **Kaartconfiguratie** en zorg er voor dat **OSM Opmerkingen** zijn ingeschakeld. U dient ook online te zijn via een WiFi-verbinding of een mobiel abonnement.  
 
 ### Opmerkingen toevoegen en problemen rapporteren  
 
@@ -241,9 +240,9 @@ Vastleggen van een foto (of video- of audio-opmerking) van een bepaald object, d
 ​GPX-sporen weergeven 
 --------------------------------------------
 
-Druk op de knop **Kaartconfiguratie** en schakel de optie **GPX-spoor...** in om de GPX-sporen weer te geven. Dit zal een lijst met opties weergeven inclusief het huidige spoor dat u nu opneemt, of andere GPX-sporen die u eerder hebt opgenomen of opgeslagen in de map OsmAnd op uw apparaat.  
+Druk op de knop **Kaartconfiguratie** en schakel de optie **GPX-spoor…** in om de GPX-sporen weer te geven. Dit zal een lijst met opties weergeven inclusief het huidige spoor dat u nu opneemt, of andere GPX-sporen die u eerder hebt opgenomen of opgeslagen in de map OsmAnd op uw apparaat.  
 
-Weergeven van GPX-sporen in het kaartvenster is nuttig voor het bijhouden van uw voortgang als u in het veld bent, en om te controleren of u iets gemist heeft tijdens uw trip.  
+Weergeven van GPX-sporen in het kaartvenster is nuttig voor het bijhouden van uw voortgang als u in het veld bent, en om te controleren of u iets gemist heeft tijdens uw trip.  
 
 ![Display GPS tracks][]  
 
@@ -294,7 +293,7 @@ Dit gedeelte behandelt het concept van het gebruiken van OsmAnd voor het verzame
 Officiële documentatie voor OsmAnd
 -------------------
 
-Aadnvullende materialen zijn beschikbaar in het gedeelte [help](http://osmand.net/help/) van de website van OsmAnd.  
+Aanvullende materialen zijn beschikbaar in het gedeelte [help](http://osmand.net/help/) van de website van OsmAnd.  
 
 Details over de gebruikte legenda in de standaard kaartstijl, staat in hun [Extended Online Knowledge Base](http://osmand.net/help-online/map-legend).  
 

@@ -40,7 +40,7 @@ Toto je komentovaný seznam odkazů na jiné weby, které považujeme za užite�
 
   * [Podklady tištěných materiálů Missing Maps](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) většina letáků je označena jako Missing Maps, takže pokud byste je chtěli použít pro jinou událost, měli byste požádat o povolení k jejich úpravě
 
-## Statistika
+## Statistiky
 
   * [Wiki záznam k MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) Jednoduchý nástroj pro koordinaci otevřených zdrojů. Wiki říká, že již není aktivně udržovaný
   * [Průběh v reálném čase na OpenStreetMap](https://github.com/osmlab/show-me-the-way) Stránka readme na stránce github vysvětluje, jak filtrovat zobrazení tak, aby nebyl vidět celosvětový průběh změn
