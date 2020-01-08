@@ -2,9 +2,6 @@
 layout: doc
 title: Bacaan Lebih Lanjut
 permalink: /id/beginner/moving-forward/
-redirect_from:
-  - /bi/beginner/moving-forward
-  - /bi/beginner/moving-forward/
 lang: id
 category: beginner
 ---
