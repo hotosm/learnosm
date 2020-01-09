@@ -271,17 +271,17 @@ Oficiální dokumentace k GPSLogger pro Android
 Projekt poskytuje [FAQ](http://code.mendhak.com/gpslogger/#faq) pro nejčastěji kladené otázky.
 
 [GPSLogger]: /images/mobile-mapping/gpslogger_000.en.png
-[Canvass1]: /images/mobile-mapping/gpslogger_001.en.png
-[Canvass2]: /images/mobile-mapping/gpslogger_002.en.png
-[Menus]: /images/mobile-mapping/gpslogger_003.en.png
-[Menus1]: /images/mobile-mapping/gpslogger_003a.en.png
-[Menus2]: /images/mobile-mapping/gpslogger_003b.en.png
-[Menus3]: /images/mobile-mapping/gpslogger_003c.en.png
-[Menus4]: /images/mobile-mapping/gpslogger_003d.en.png
-[Menus5]: /images/mobile-mapping/gpslogger_003e.en.png
-[Menus6]: /images/mobile-mapping/gpslogger_003f.en.png
-[osm0]: /images/mobile-mapping/gpslogger_004.en.png
-[osm1]: /images/mobile-mapping/gpslogger_004a.en.png
+[Canvass1]: /images/mobile-mapping/gpslogger_001.cs.png
+[Canvass2]: /images/mobile-mapping/gpslogger_002.cs.png
+[Menus]: /images/mobile-mapping/gpslogger_003.cs.png
+[Menus1]: /images/mobile-mapping/gpslogger_003a.cs.png
+[Menus2]: /images/mobile-mapping/gpslogger_003b.cs.png
+[Menus3]: /images/mobile-mapping/gpslogger_003c.cs.png
+[Menus4]: /images/mobile-mapping/gpslogger_003d.cs.png
+[Menus5]: /images/mobile-mapping/gpslogger_003e.cs.png
+[Menus6]: /images/mobile-mapping/gpslogger_003f.cs.png
+[osm0]: /images/mobile-mapping/gpslogger_004.cs.png
+[osm1]: /images/mobile-mapping/gpslogger_004a.cs.png
 [osm2]: /images/mobile-mapping/gpslogger_004b.en.png
 [osm3]: /images/mobile-mapping/gpslogger_004c.en.png
 [upload0]: /images/mobile-mapping/gpslogger_005.en.png
@@ -290,4 +290,4 @@ Projekt poskytuje [FAQ](http://code.mendhak.com/gpslogger/#faq) pro nejčastěji
 [view1]: /images/mobile-mapping/gpslogger_007a.en.png
 [view2]: /images/mobile-mapping/gpslogger_007b.en.png
 [annotate0]: /images/mobile-mapping/gpslogger_008.en.png
-[annotate1]: /images/mobile-mapping/gpslogger_008a.en.png
+[annotate1]: /images/mobile-mapping/gpslogger_008a.cs.png
