@@ -121,11 +121,11 @@ Množství úkolů, které můžeme provádět pomocí Osmosis je obrovské a po
 Jeden příkaz může rozdělit velký zdrojový OSM soubor na menší části, ať už podle definovaných čtverců nebo ohraničujících polygonů. Základní informace se o tomto tématu můžete dozvědět na [stránce s přiklady v Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis/Examples)(anglicky).  
 
 [unzip it]: /images/osm-data/unzip-it.png
-[system path]: /images/osm-data/system-path.png
-[edit variables]: /images/osm-data/edit-environment-variables.png
-[env variables]: /images/osm-data/environment-variables.png
-[find path]: /images/osm-data/find-path.png
-[edit path]: /images/osm-data/edit-path-variable.png
+[system path]: /images/osm-data/system-path_cs.png
+[edit variables]: /images/osm-data/edit-environment-variables_cs.png
+[env variables]: /images/osm-data/environment-variables_cs.png
+[find path]: /images/osm-data/find-path_cs.png
+[edit path]: /images/osm-data/edit-path-variable_cs.png
 [cmd]: /images/osm-data/cmd.png
 [osmosis test]: /images/osm-data/osmosis-test.png
 [cd command]: /images/osm-data/cd-command.png
