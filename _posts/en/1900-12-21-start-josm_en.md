@@ -14,7 +14,8 @@ Getting Started with JOSM
 
 How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and learn some of the basic operations of the software. Remember in the introduction chapter when we asked you to draw a map of your town or village? We will conclude this chapter by drawing your map again, this time digitally. After this you should have a good understanding of how to draw maps in JOSM.
 
-## Download JOSM
+Download JOSM
+-------------
 
 -   If you have a copy of JOSM on a CD or usb flash drive, you can skip to the next section, Install JOSM.
 -   If you don’t have JOSM already, or want the newest version, open your web browser - this may be Firefox, Chrome, Opera, or Internet Explorer.
@@ -30,7 +31,8 @@ How to download and install JOSM, the Java OpenStreetMap editor, change some of 
 
 -   If you have a different operating system, click on the link for your system. Your download should begin. In this chapter we will assume that you are using Windows, but the instructions are similar for other operating systems.
 
-## Install JOSM
+Install JOSM
+------------
 
 >  You may have problems installing JOSM if Java is not already installed on your computer. If you have problems in this section, try downloading and installing Java. You can download it here: <http://www.java.com/en/download/>
 >
@@ -43,7 +45,8 @@ How to download and install JOSM, the Java OpenStreetMap editor, change some of 
 
     ![JOSM splash page][]
 
-## JOSM Preferences
+JOSM Preferences
+----------------
 
 There are many different settings that you can customize in JOSM.  One setting that you may want to adjust is the language. JOSM has been translated into numerous languages, and you may prefer to work in a different one.
 
@@ -60,7 +63,8 @@ There are many different settings that you can customize in JOSM.  One setting t
 -   Click OK.
 -   You need to restart JOSM to save your settings. Click “File” in the upper left corner, and Click “Restart” near the bottom of the menu.
 
-## Learn Basic Drawing with JOSM
+Learn Basic Drawing with JOSM
+-----------------------------
 
 -   Now let’s open up a sample OSM file which we will use to learn the basic ways to draw maps with JOSM. Note that this map is not real, in that it is not a real map of a real place, so we will not save it on OpenStreetMap.
 -   Download the file here: [sample.osm](/files/sample.osm)
@@ -133,14 +137,16 @@ There are many different settings that you can customize in JOSM.  One setting t
 -   When you click on a preset, a form will pop up asking you for more information. You do not have to fill in every field, but you may wish to add some of the important fields, such as the name of the object.
 -   When you are finished entering the information, click “Apply Preset”. If everything went well, your point, line, or shape should change colors or show a symbol. This is because you have defined what it is.
 
-## Draw Your Own Map
+Draw Your Own Map
+-----------------
 
 -   Now let’s draw a map in order to practice the techniques you have learned. You may wish to redraw the map that you drew on paper previously.
 -   Drag the map away from the sample map. Hold the right mouse button and drag your mouse, until you have a nice empty area to draw on.
 -   Use the Draw tool to create points, lines, and shapes. Describe what your objects are by selecting from the Presets menu.
 -   When you are finished, you should have your own map, similar to the sample map that we opened in sample.osm.
 
-## Remove the sample layer
+Remove the sample layer
+-----------------------
 
 Once you feel comfortable with these basic editing techniques you might want
 to turn your attention to mapping real features.
@@ -155,7 +161,8 @@ Alternatively you can choose delete from the context menu of the layer.
 In order to continue editing you first need to download real data.
 This will be explained in the next chapter.
 
-## Summary
+Summary
+-------
 
 Excellent! If all went well you have learned how to setup JOSM on your
 computer, and the basic tools for drawing maps. In the next chapter we will
