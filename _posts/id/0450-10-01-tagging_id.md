@@ -51,7 +51,7 @@ Beberapa fitur memiliki tag pada **Relation** bukan pada fiturnya sendiri. Jika 
 
 Untuk informasi lebih lanjut mengenai relations (**bukan materi untuk pemula**) lihat;  
 
-[LearnOSM - JOSM - Relations](/en/josm/josm-relations/) yang menjelaskan relation tetapi menggunakan OSM editor yang berbeda, atau  
+[LearnOSM - JOSM - Relations](/id/josm/josm-relations/) yang menjelaskan relation tetapi menggunakan OSM editor yang berbeda, atau  
 <https://wiki.openstreetmap.org/wiki/Relation>
 
 Lihat juga  

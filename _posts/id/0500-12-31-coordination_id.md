@@ -1,26 +1,19 @@
 ---
 layout: doc
 permalink: /id/coordination/
-redirect_from:
-  - /bi/coordination
-  - /bi/coordination/
 lang: id
-title: Coordination
+title: Koordinasi
 category: coordination
 cover: yes
 nosearch: true
 
 ---
 
-Coordination
+Koordinasi
 ============
 
-This guide is currently not available. It is being translated. Please refer to it in:  
+> Direview 2015-09-18
 
-[English](/en/coordination/),  
-[Deutsch](/de/coordination/), or  
-[Español](/es/coordination/).  
+OpenStreetMap melibatkan banyak orang memetakan bersama. Oleh karena itu, akan sangat berguna untuk memahami bagaimana pemeta dapat berkoordinasi dalam pemetaan.
 
-To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
-
-
+Bagian learnOSM ini menyediakan informasi jenis-jenis alat yang digunakan untuk mengkoordinasi kegiatan pemetaan, sistem komunikasi yang digunakan dan penjaminan kualitas.
