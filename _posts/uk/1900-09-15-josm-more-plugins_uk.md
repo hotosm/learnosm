@@ -36,29 +36,29 @@ category: josm
 
 * Це дозволить вам не тільки накреслити прямокутник в три кліки, а також додасть теґ **building=yes** до полігону будівлі.  
 
-### Complex Buildings
+### Будники складної форми
 
-You can also create more complicated buildings by first drawing several overlapping buildings and then merging them together.  
+Ви також можете додавати на мапу будинки складної форми, що не є простими прямокутниками. Для цього накресліть кілька прямокутників, що перекривають один одного, для кожної із частин, а потім об’єднайте їх.  
 
-* Draw two buildings which over lap, so that they form an L shape.  
-* Select both buildings (hold SHIFT to select more than one object).  
-* Go to Tools->Join overlapping Areas or press SHIFT+J on your keyboard.  
+* Накресліть два контури, щоб перекривають друг друга, так щоб вони утворили літеру L.  
+* Виділіть обидва будинки (натисніть та утримуйте SHIFT для того щоб виділити більше ніж один об’єкт).  
+* В меню Інструменти знайдіть пункт Об’єднати полігони, що перекриваються (Join overlapping Areas) або натисніть  SHIFT+J.  
 
 ![Merge buildings][]
 
-### Edit Settings
+### Зміна параметрів
 
-Furthermore, you can alter the default settings of the plugin.  
+Крім того, ви можете змінити стандартні налаштування втулка.  
 
-* Go to Data->Set buildings size. ![Set buildings size][]{: height="39px"}  
+* Перейдіть в меню Дані -> Встановити розмір будівель (Set buildings size). ![Set buildings size][]{: height="39px"}  
 
-* If you are creating many similarly sized buildings, you can set specific width and height dimensions of the buildings, such as 6 x 10 meters (the unit is in meters).  
+* Якщо вам потрібно додати багато однакових за розмірами будинків, ви можете встановити відповідні значення ширини та довжини будівлі, наприклад 6 x 10 метрів (одиниці виміру в метрах).  
 
 ![Set buildings size dialog][]
 
-* By setting the dimensions you will only need two clicks to create precisely sized buildings.  
+* Завдяки встановленню довжини та ширини, вам буде потрібно зробити тільки два кліки для додавання будинків бажаного розміру.  
 
-Lastly, you can click on the Advanced button if you would like to add additional tags that will automatically be applied to every building. For example, if every building you draw is on the same street, you might add a tag which identifies the street that will be automatically applied.  
+Нарешті, ви можете натиснути кнопку Додатково… (Advanced), якщо ви хочете вказати додаткові теґи, які будуть автоматично додаватись до кожної будівлі.  
 
 ![Buildings advanced][]
 
@@ -66,43 +66,41 @@ Lastly, you can click on the Advanced button if you would like to add additional
 Utilsplugin2
 -------------
 
-* If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+* Якщо ви ще не зробили цього, встановіть втулок використовуючи рекомендації з розділу про [Втулки JOSM](/uk/josm/josm-plugins).    
 
 ![Utilsplugin2 plugin][]
 
-After you have installed the plugin and restarted JOSM, you will have a new menu at the top named "More Tools."  
+Після встановлення втулка та перезапуску JOSM у вас з’явиться новий пункт меню “Ще інструменти”.  
 
 ![More tools menu][]
 
-Create a new layer and experiment with some of the new tools. Here we describe some of the most useful new tools:  
+Створіть новий шар та спробуйте роботу нових інструментів. Тут ми розкажемо вам про кілька найкорисніших з них:  
 
-1. **Add Nodes at Intersections:**  This tool is very helpful for adding missing nodes in intersections of selected ways.  It is good practice that roads should always have common nodes where they intersect.  
+1. **Додати точку на перетині ліній / Add Nodes at Intersections:**  Цей інструмент є дуже корисним для додавання відсутніх спільних точок в місцях перетину ліній, виділіть потрібні лінії для початку. Особливо це важливо для доріг, на перехрестях дороги повинні мати спільні точки, що робить можливим правильне прокладання маршрутів.  
 
     ![Nodes interesection][]
 
-2. **Copy Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
+2. **Вставити теґи із попереднього виділення / Copy Tags from Previous Selection:**  Цей інструмент спрощує  перенесення теґів між об’єктами. Якщо вам потрібно створювати багато об’єктів з однаковими теґами, накресліть їх. Потім позначте відповідним чином один з них. Тепер клацніть на наступний об’єкт та натисніть Shift + R, щоб скопіювати теґи з попередньо виділеного об’єкта до поточного. Повторіть це стільки раз скільки треба. Запам’ятайте, теґи копіюються з попереднього виділеного об’єкта, тож якщо ви випадково виділите об’єкт без теґів, а потім інший об’єкт без теґів, у вас не вийде перенести теґи, яких немає.  
 
     ![Copy tags][]
 
-3. **Add Source Tag:** This tool simplifies adding a source tag. It remembers the source that was specified last and adds it as remembered source tag to your objects.   You can insert the source with just one click.  
+3. **Додати теґ source / Add Source Tag:** Цей інструмент спрощує додавання теґу source. Він зберігає останнє додане значення і дозволяє додавати його до наступних об’єктів, тож ви можете додавати теґ в один клік.  
 
-4. **Replace Geometry:** This tool is great if you want to redraw a poorly shaped object, but want to keep the history, attributes and ID number of that object.  For example, if you come across a building that is complicated and drawn in a poor fashion, then instead of painfully changing each node, you can draw the object again, select the old and new objects, and select ¨Replace Geometry¨ to transfer all the information over.  
+4. **Замінити геометрію / Replace Geometry:** Цей інструмент є знахідкою у випадках, коли є потреба накреслити заново об’єкти, геометрія яких є дуже неточною або навіть помилковою, але вам потрібно зберегти історію змін цих об’єктів, їх теґи та ідентифікатори. Наприклад, якщо ви бачите будинок складної форми, який накреслено досить приблизно, замість того щоб змінювати його контур перетягуючи точку за точкою, накресліть його наново, виділіть новий та старий контури та скористуйтесь цим інструментом для перенесення всієї наявної інформації зі старого контуру на новий.  
 
     ![Replace geometry][]
 
+### Більше інструментів для виділення
 
-### More Selection Tools
-
-**Utilsplugin2** also provides more tools on the "Selection" menu. Try experimenting with them.  
+**Utilsplugin2** також надає додаткові інструменти в меню “Виділення” (“Selection”). Спробуйте їх також.  
 
 ![Selection menu][]
 
-One of our favorite selection tools is **Unselect Nodes:** This tool deselects all nodes. This can be useful if you draw a box to select many objects, but you do not want to select the nodes contained within all the lines and shapes.  
+Одним з популярних є інструмент **Зняти виділення з точок / Unselect Nodes**. Він дозволяє залишити виділеними тільки лінії та полігони після того, як ви виділили всі об’єкти на мапі з допомогою миші або клавішного скорочення.  
 
 ![Unselect nodes][]
 
-Good luck!  
-
+Хай щастить!  
 
 [Buildings tools plugin]: /images/josm/buildings_tools-plugin.png
 [Buildings tools button]: /images/josm/buildings_tools-button.png

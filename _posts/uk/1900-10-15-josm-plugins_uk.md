@@ -26,7 +26,7 @@ category: josm
 
 Ось кілька втулків, які ми рекомендуємо до встановлення:
 
-1. **[buildings_tools](/uk/josm/josm-more-plugins/#the-buildings-tools-plugin):** Якщо вам потрібно накреслити багато будинків, цей втулок допоможе спростити та пришвидшити цей процес.  
+1. **[buildings_tools](/uk/josm/josm-more-plugins/#втулок-buildings-tools):** Якщо вам потрібно накреслити багато будинків, цей втулок допоможе спростити та пришвидшити цей процес.  
 
 2. **DirectUpload:** За наявності у вас GPS-треків, цей втулок дозволить вам завантажити їх до сервера OSM.  
 
@@ -38,6 +38,6 @@ category: josm
 
 6. **print:** Додає можливість друку, якщо ви хочете зробити швидкий видрук ділянок, може бути далеким від ідеалу.  
 
-7. **[utilsplugin2](/uk/josm/josm-more-plugins/#more-selection-tools):** Додає багато додаткових інструментів та меню в JOSM для досвідчених користувачів. Про це в [наступному розділі](/uk/josm/josm-more-plugins)
+7. **[utilsplugin2](/uk/josm/josm-more-plugins/#більше-інструментів-для-виділення):** Додає багато додаткових інструментів та меню в JOSM для досвідчених користувачів. Про це в [наступному розділі](/uk/josm/josm-more-plugins)
 
 [Plugins]: /images/josm/josm-plugins_image00_plug-icon.png
