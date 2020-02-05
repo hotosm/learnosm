@@ -90,7 +90,6 @@ Utilsplugin2
 
     ![Replace geometry][]
 
-
 ### Більше інструментів для виділення
 
 **Utilsplugin2** також надає додаткові інструменти в меню “Виділення” (“Selection”). Спробуйте їх також.  
@@ -102,7 +101,6 @@ Utilsplugin2
 ![Unselect nodes][]
 
 Хай щастить!  
-
 
 [Buildings tools plugin]: /images/josm/buildings_tools-plugin.png
 [Buildings tools button]: /images/josm/buildings_tools-button.png
