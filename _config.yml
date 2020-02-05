@@ -126,6 +126,17 @@ translations:
     language: "Magyar"
     quickaccess: "Gyors elérés"
     returntotop: "Vissza az oldal tetejére"
+  id:
+    tagline: "Pelajari OpenStreetMap Langkah demi Langkah"
+    contribute: "Bantu memperbaiki panduan OSM"
+    trainingspan: "Apakah Anda seorang penyelenggara lokakarya"
+    training: "Lihat materi pelatihan untuk panduan ini"
+    feedbackspan: "Apakah bab ini bermanfaat?"
+    feedback: "Beri tahu kami, dan bantu kami memperbaiki panduan OSM!"
+    getstarted: "Memulai"
+    language: "bahasa Indonesia"
+    quickaccess: "Akses cepat"
+    returntotop: "Kembali ke bagian atas halaman"
   it:
     tagline: "Impara ad usare OpenStreetMap passo dopo passo"
     contribute: "Aiutaci a migliorare le nostre guide"

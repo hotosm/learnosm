@@ -1,158 +1,108 @@
 ---
 layout: doc
-title: Data OSM di QGIS
+title: Menggunakan Data OSM di QGIS
 permalink: /id/osm-data/osm-in-qgis/
-redirect_from:
-  - /bi/osm-data/osm-in-qgis
-  - /bi/osm-data/osm-in-qgis/
 lang: id
 category: osm-data
 ---
 
-Data OSM di QGIS
-================
+Menggunakan Data OSM di QGIS
+=================
 
-A slightly more recent version of this guide is available in [English](/en/osm-data/osm-in-qgis/), [Deutsch](/de/osm-data/osm-in-qgis/), [Español](/es/osm-data/osm-in-qgis/), [فارسی](/fa/osm-data/osm-in-qgis/), or [Nederlands](/nl/osm-data/osm-in-qgis/). To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
+> Direview 2015-07-19
 
-Dengan peluncuran QGIS pada tahun 2013, ini menjadi mudah untuk memuat dan bekerja
-dengan Data OpenStreetMap. Hal ini dimaksudkan bahwa Anda sekarang dapat mengakses data 
-OSM terbaru kapan pun yang Anda inginkan, pilih tag yang Anda ingin masukkan, dan 
-mengeksportnya dengan mudah ke dalam database SQLite atau Shapefile agar lebih mudah
-digunakan.
+QGIS (sebelumnya Quantum GIS) adalah sebuah platform SIG yang bersifat open-source. Dengan QGIS Anda dapat mengakses data OSM terbaru kapanpun, memilih tag yang Anda perlukan dan dengan mudah mengekspornya ke dalam database SQLite atau Shapefile.  
 
-Pada bab ini kita akan melalui langkah-langkah yang diperlukan untuk melakukan ini. 
-Kita asumsikan bahwa Anda sudah mendownload dan menginstal QGIS 2.x. Jika Anda belum
-menginstalnya, Anda dapat mendownloadnya [disini](http://www.qgis.org/en/site/forusers/download.html).
+Pada bagian ini kami akan memandu langkah-langkah yang diperlukan untuk melakukannya. Kami asumsikan Anda sudah mengunduh dan menginstal QGIS 2.x. Jika Anda belum menginstalnya, Anda dapat mengunduhnya di <http://www.qgis.org/en/site/forusers/download.html>.  
 
-Pada bab ini kita akan melakukan beberapa langkah untuk mendapatkan penyesuaian kita,
-perbaruan layer OSMdimuat di dalam QGIS. Pertama, kita akan mendapatkan data OSM terbaru
-dalam format **.osm**. Kemudian, kita akan mengkonversi data ini ke dalam database SQLite, 
-yang merupakan sistem database yang tersimpan dalam satu file di sistem Anda. Terakhir,
-kita akan membuat sebuah layer (atau beberapa layer) yang mencakup hanya jenis fitur 
-dan tag yang ingin kita akses. Layer-layer ini dapat digunakan atau disimpan dalam 
-format lain, seperti shapefile.
+Untuk membuka data OSM di QGIS, kita harus mendapatkan data OSM mentahnya di dalam format **.osm**. Lalu, kita dapat mengubah data ini menjadi database SQLite, yang merupakan sistem database ringan yang disimpan pada satu file. Terakhir, kita akan membuat sebuah layer (atau lebih dari satu layer) yang terdiri dari tipe fitur dan tag yang akan kita akses. Layer ini dapat digunakan di QGIS sebagai database SQLite atau disimpan sebagai format lain, seperti shapefile.  
 
-Memuat Data OpenStreetMap
--------------------------
-Hal pertama yang kita akan lakukan adalah mendapatkan beberapa data OSM terbaru. Kita dapat
-melakukan ini dengan berbagai cara. Tentu saja, meminta data dari server OSM, seperti 
-yang kita lakukan di JOSM, dimaksudkan bahwa kita tidak dapat menarik data dengan jumlah
-besar - namun, terdapat cara lain untuk mengakses data, seperti yang dideskripsikan pada
-[bab sebelumnya](/id/osm-data/getting-data).
+Mengakses Data OpenStreetMap
+---------------------------
 
-Mari kita mendownload fungsi yang dibangun di QGIS, karena kita akan bekerja dengan QGIS 
-di sisa bab ini. Fungsi download tidak terlalu nyaman untuk menulis ini, tetapi tujuan
-kita lebih baik. 
+Hal pertama yang harus dilakukan adalah mendapatkan data OSM terbaru. Banyak cara untuk mendapatkan data OSM terbaru. Tentu, mengambil data dari OSM server, seperti yang kita lakukan di JOSM Editor, sangat terbatas karena kita tidak dapat mengambil data besar sekaligus - namun, ada beberapa cara untu mengakses data besar,
+seperti yang dijelaskan pada bagian sebelumnya di [Mendapatkan Data OSM](/id/osm-data/getting-data) dan [Menggunakan Geofabrik dan HOT Export](/id/osm-data/geofabrik-and-hot-export).  
 
-*	Buka QGIS dan pergilah ke Vector -> OpenStreetMap -> Download data.
+Untuk tutorial ini kita akan menggunakan fitur download yang sudah ada pada QGIS.  
 
-![download data][]
-
-*	Anda dapat memilih dari beberapa pilihan disini - jika jendela Anda sudah menampilkan
-	sesuai dengan keinginan Anda, centang kotak di sebelah "From Map Canvas". Jika Anda
-	memiliki sebuah layer yang sesuai, pilih "From Layer" dan pilih layer yang Anda ingin
-	gunakan. Disini kita akan memilih "Manual" dan masukan titik koordinat yang membentuk 
-	**kotak pembatas** di sekitar daerah yang ingin kita akses. Anda dapat mengisi titik
-	koordinat yang menarik, tetapi ingatlah bahwa daerah tidak terlalu besar, atau Anda
-	tidak dapat mendownload semua data.
+- Buka QGIS dan klik Vector -> OpenStreetMap -> Download Data...  
+- Anda dapat memilih dari beberapa pilihan di sini - jika kanvas peta Anda sudah menampilkan luasan wilayah yang ingin Anda unduh, centang kotak "From map canvas." Jika Anda memiliki sebuah layer yang dibuka di QGIS dengan cakupan wilayah yang sudah sesuai dengan kebutuhan Anda, pilih "From layer" lalu pilih layer yang ingin Anda gunakan. Di sini kita akan memilih "Manual" dan masukkan latitude dan longitude yang akan membentuk sebuah **bounding box** di sekitar area yang	Anda ingin akses. Anda dapat mengisi latitude dan longitude untuk area yang ingin Anda unduh, tapi ingat area tersebut tidak dapat terlalu besar atau Anda tidak akan berhasil mengunduh data OSM nya.  
 
 ![bounding box][]
 
-*	Pilih nama dan lokasi untuk file output dan klik OK.
-*	Anda akan diberi informasi ketika download sudah lengkap. Klik "Close" untuk keluar dari
-	kotak dialog download.
+- Tulis nama dan lokasi untuk file output, gunakan format file **.osm** dan klik OK.  
+- Akan muncul pemberitahuan ketika proses unduhan telah selesai. Klik "Close" untuk menutup jendela Download.  
 
 ![download complete][]
 
-*	Data OSM akan disimpan di lokasi Anda.
+- Data OSM akan disimpan di direktori yang sudah Anda tentukan.  
 
->	Metode mengakses data OSM ini adalah sama seperti jika Anda mendownload data di JOSM atau
->	di [openstreetmap.org](http://www.openstreetmap.org). Untuk ekstrak lebih besar yang
->	terbaru, Anda mungkin mencoba mendownload dari [HOT export site](http://export.hotosm.org)
->	atau [bbbike.org](http://extract.bbbike.org/). Ingatlah bahwa jika Anda mendownload file
->	OSM yang dikompres, Anda terlebih dahulu dekompres ke dalam format **.osm** untuk langkah selanjutnya.
+> Metode mengakses data OSM ini sama seperti jika Anda mengunduhnya di JOSM atau pada [openstreetmap.org](http://www.openstreetmap.org). Untuk mengekstrak data yang lebih besar yang terbaru, Anda mungkin dapat mencobanya di [HOT export site](http://export.hotosm.org) atau [bbbike.org](http://extract.bbbike.org/). Ingat bahwa jika Anda mengunduh file OSM yang dikompres, Anda harus dekompres file tersebut ke dalam format file **.osm** untuk langkah berikutnya.  
 
-Mengimport Data ke SQLite
+
+Mengimpor Data ke SQLite
 ---------------------------
-Selanjutnya kita perlu mengmport file **.osm** kita ke dalam database SQLite.
 
-*	Pergilah ke Vector -> OpenStreetMap -> Import topology from XML
+Berikutnya kita akan mengimpor data mentah **.osm** ke dalam file database SQLite.  
 
-![import from xml][]
+- Klik menu Vector -> OpenStreetMap -> Import Topology from XML...  
+- Pada kolom pertama, pilih file **.osm** Anda.  
+- Anda dapat mengubah nama dari file output database jika perlu.  
+- Biarkan kotak "Create Connection..." tetap tercentang.  
 
-*	Di dalam field pertama, pilih file **.osm** Anda.
-*	Anda dapat mengubah nama file database output jika Anda suka.
-*	Biarkan kotak tercentang di sebelah "Create Connection..."
+![import dialog][]  
 
-![import dialog][]
+- Klik OK.  
+- Setelah selesai, klik "Close."  
 
-*	Klik OK.
-*	Ketika sudah selesai, klik "Close".
 
 Membuat Layer
----------------
-Terakhir, kita akan mendefinisikan layer yang dapat digunakan di QGIS, dikostumisasi sesuai dengan
-kebutuhan kita.
+--------------
 
-*	Pergilah ke Vector -> OpenStreetMap -> Export topology to Spatialite
+Terakhir, kita akan membuat layer sesuai kebutuhan kita yang dapat dibuka di QGIS.  
 
-![export topo][]
+- Klik menu Vector -> OpenStreetMap -> Export Topology to SpatiaLite...  
+- Pada kolom pertama, pilih database yang Anda buat pada langkah sebelumnya.  
 
-*	Pada field pertama, pilih database yang Anda sudah buat pada tahap sebelumnya.
+![input db file][]  
 
-![input db file][]
+- Di bawah "Export type," pilih tipe fitur yang ingin Anda buat layer nya. Di sini kita akan membuat layer menggunakan poligon.  
 
-*	Di bawah "Export type", pilih jenis fitur yang ingin Anda buat layernya. Disini kita
-	akan membuat sebuah layer menggunakan poligon.
+![export type][]  
 
-![export type][]	
+Ubah nama layer jika Anda mau.  
 
-*	Edit nama layer jika Anda mau.
+Di bawah "Exported tags" adalah dimana semuanya diatur. Di sini kita dapat memilih tag mana yang akan dimasukkan ke dalam layer output nya. Hal ini memberikan kita keleluasaan untuk memilih data mana yang mau kita akses.  
 
-Di bawah "Exported tags" dimana keajaiban akan terjadi. Disini kita dapat memilih tag yang akan
-dimasukkan di dalam layer output kita. Ini memberikan kita kemudahan untuk data yang kita ingin
-akses.
+- Klik "Load from DB" untuk melihat daftar tag yang tersedia pada database. Perbesar ukuran kotak dialog dengan menggeser sudutnya. Anda dapat melihat semua tag yang terdapat di data ini dan jumah fitur yang memiliki tag-tag tersebut.  
+- Beri centang pada kotak di sebelah tag yang mau Anda masukkan. Di sini kita akan memilih beberapa fitur yang berupa poligon dan menggambarkan bangunan.  
 
-*	Klik "Load from DB" untuk melihat daftar semua tag yang ada di dalam database. Anda dapat
-	melihat semua tag yang terkandung dalam data ini, dan juga sejumlah fitur yang masing-masing
-	memiliki tag. 
-*	Centang kotak di sebelah tag yang Anda ingin masukkan. Disini kita akan memilih sedikit fitur
-	yang berguna untuk membuat poligon.
+![export full][]  
 
-![export full][]
+Jika sudah selesai, klik OK.  Tutup kotak dialog. Layer Anda akan otomatis terbuka.  
 
-*	Ketika Anda sudah meyelesaikannya, klik OK.
-*	 Tutup kotak. Layer Anda seharusnya akan ditambahkan secara otomatis.
+![cairo polygons][]  
 
-![cairo polygons][]
+Klik kanan pada layer dan klik "Open Attribute Table."  
 
-*	Klik kanan pada layer dan klik "Open Attribute Table."
+![open attribute table][]  
 
-![open attribute table][]
+Anda dapat melihat tabel ini hanya memiliki atribut dari tag yang dipilih dari tag sebelumnya.  
 
-*	Anda dapat melihatnya disini bahwa kita memiliki sebuah tabel yang mencakup atribut yang kita
-	pilih.
+![attribute table][]  
 
-![attribute table][]
-
-Perhatikan bahwa kita belum membuat layer bangunan saja. Namun, kita akan membuat layer yang mencakup 
-semua poligon dari data asli kita, tetapi hanya mencakup tag yang kita pilih. Untuk menyaring 
-layer ini agar yang terlihat hanya bangunannya saja, kita perlu mengeksekusi sebuah query selanjutnya
-yang disaring hanya poligon building=yes.
-
-Ringkasan
----------
-Proses ini memudahkan kita mendapatkan data OSM yang terbaru dan menariknya ke dalam SIG Anda. Setelah
-Anda memiliki layer seperti ini di QGIS, ini mungkin untuk menyimpan mereka sebagai shapefile,
-mengseksekusi filter dan query, dan sebagainya. 
+Perhatikan bahwa kita tidak membuat layer yang berisi **hanya** bangunan. Kita membuat sebuah layer yang berisi semua poligon dari data awal, namun hanya mencakup semua tag yang kita pilih saja. Untuk memfilter layer ini agar menampilkan bangunan saja, kita harus memfilter menggunakan query yang memfilter poligon bertag building=yes.
 
 
-[download data]: /images/osm-data/download_data.png
+Rangkuman
+-------
+
+Proses ini memudahkan kita untuk mendapatkan data OSM terbaru dan membukanya di QGIS. Ketika Anda sudah memiliki layer seperti ini di QGIS, banyak yang dapat dilakukan terhadap layer tersebut seperti menyimpannya ke dalam format shapefile, menjalankan filter dan query dan sebagainya. Untuk informasi lebih lengkap mengenai fungsi-fungsi tersebut silakan lihat menu Bantuan/Help pada QGIS.  
+
+
 [bounding box]: /images/osm-data/bounding_box.png
 [download complete]: /images/osm-data/download_complete.png
-[import from xml]: /images/osm-data/import_topo_from_xml.png
 [import dialog]: /images/osm-data/import_dialog.png
-[export topo]: /images/osm-data/export_topo.png
 [input db file]: /images/osm-data/input_db_file.png
 [export type]: /images/osm-data/export_type.png
 [export full]: /images/osm-data/export_full.png

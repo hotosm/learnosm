@@ -1,25 +1,39 @@
 ---
 layout: doc
 permalink: /id/beginner/
-redirect_from:
-  - /bi/beginner
-  - /bi/beginner/
 lang: id
-title: Tingkat Dasar
+title: Panduan bagi pemula
 category: beginner
 cover: yes
 nosearch: true
 ---
 
-Panduan Tingkat Dasar
-=====================
+Panduan Bagi Pemula
+================
 
-Dalam panduan ini kita akan mempelajari langkah-langkah bagaimana mengoperasikan situs OpenStreetMap. Kemudian Anda juga akan mempelajari bagaimana cara mendaftar untuk sebuah akun pengguna, menggunakan perangkat lunak pengeditan peta, serta bagaimana melakukan survey lapang dan mengumpulkan informasi yang nantinya akan dimasukkan ke dalam peta.
+> 2015-07-12  
 
-In later chapters you can learn how to go outside
-and collect information to put on the map. The coordination chapters contain information about **remote mapping**  
+Panduan ini menjelaskan tentang langkah-langkah yang perlu Anda lakukan untuk mulai menggunakan OpenStreetMap. Anda akan belajar bagaimana cara membuat akun, menggunakan software pemetaan tingkat dasar, dan di bagian yang akan datang Anda akan belajar bagaimana cara pengumpulan data lapang untuk dimasukan ke dalam peta.  
 
-To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**
+### Apakah Anda baru pertama kali mengenal OpenStreetMap dan ingin berkontribusi dalam menambahkan data peta?
 
-> This guide may be downloaded as [beginner_id.odt](/files/beginner_id.odt) or [beginner_id.pdf](/files/beginner_id.pdf)  
+Jika Anda ingin memulai dan  ingin mahir dalam menambahkan data peta maka kami merekomendasikan Anda untuk membaca panduan berikut:
+- Bagian [introduction](/en/beginner/introduction/) memberikan Anda sedikit latar belakang mengenai proyek ini
+- [Getting started](/en/beginner/start-osm/) menjelaskan Anda untuk mendaftarkan akun dan menggunakan editor
+- dalam [iD editor](/en/beginner/id-editor/) Anda akan mempelajari dasar-dasar penambahan data
 
+
+### Anda telah mengetahui bagaimana cara menggunakan editor dan ingin berkontribusi dalam pemetaan dalam bidang kemanusiaan?
+
+Poin utama adalah untuk belajar bagaimana pemetaan dalam konteks ini dapat terkoordinasi dengan baik. 
+- [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) dan informasi umum tentang [humanitarian mapping](/en/coordination/humanitarian/) menyediakan sedikit latar belakang
+- alat tersebut adalah [Tasking Manager](/id/coordination/tasking-manager3/) yang cara kerjanya harus Anda pahami
+
+### Apakah Anda ingin menggunakan OpenStreetMap pada perangkat seluler?
+
+Terdapat bab yang dikhususkan untuk [mobile mapping](/en/mobile-mapping/)
+
+
+### Anda sudah familier dengan perangkat SIG dan ingin mendapatkan data mentah?
+
+Panduan pada [where to obtain data](/en/osm-data/getting-data/) dan [how to use Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export/) akan memberikan Anda beberapa hal mengenai bagaimana cara mendapatkan data dalam berbagai format database.

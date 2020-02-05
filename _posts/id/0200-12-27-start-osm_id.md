@@ -1,172 +1,116 @@
 ---
 layout: doc
-title: Pengoperasian OSM
+title: OpenStreetMap.org
 permalink: /id/beginner/start-osm/
-redirect_from:
-  - /bi/beginner/start-osm
-  - /bi/beginner/start-osm/
 lang: id
 category: beginner
 ---
 
-Pengoperasian OSM
-=================
+Memulai menggunakan OpenStreetMap.org
+====================================
 
-Pada bab ini, kita akan mempelajari langkah-langkah bagaimana
-mengoperasikan situs OpenStreetMap, melihat dan mencetak peta,
-dan mendaftarkan untuk sebuah akun pengguna. Setelah Anda memiliki
-nama pengguna dan kata sandi, Anda dapat menambahkan titik pertama Anda pada peta.
+> Reviewed 2015-07-12  
+
+Di bagian ini kita akan belajar langkah demi langkah cara menavigasi situs web OpenStreetMap, melihat peta, dan mendaftar untuk akun pengguna. Setelah Anda memiliki nama pengguna dan kata sandi Anda sendiri, Anda akan dapat berkontribusi untuk titik pertama Anda ke peta.
 
 ![website][]
 
-Mengunjungi website OpenStreetMap
----------------------------------
-*   Sebelum Anda memulai, pastikan komputer Anda sudah terkoneksi dengan internet
-	(Jika Anda membaca secara online, kemudian Anda harus terkoneksi dengan internet!) 
-*   Buka web browser Anda.  Browser yang biasanya digunakan adalah Firefox, Chrome, Opera, atau Internet
-    Explorer. Jika browser sudah terbuka kemudian Anda dapat membuat tab baru. 
-*   Pada kolom alamat di atas jendela, masukan teks berikut ini dan tekan Enter:
+Kunjungin situs OpenStreetMap
+-------------------------------
+
+- Buka browser web Anda
+- Pada alamat bar diatas jendela, ketikkan link berikut dan tekan Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
-*   Ketika halaman selesai memuat, Anda dapat melihat halaman seperti di bawah ini: 
+- Saat halaman sudah selesai memuat, Anda seharusnya melihat sesuatu seperti ini:
 
     ![OpenStreetMap website with some main functions listed][]
 
-Menavigasikan Peta
-------------------
-*	Hal utama yang seharusnya Anda lihat adalah peta. Geser peta tersebut dengan
-	mengklik di atasnya dengan tombol kiri mouse, tahan tombol
-	tersebut, dan geser mouse Anda (lihat gambar di bawah ini)
+Navigasikan peta
+----------------
 
-	![Mouse navigation][]
-	
-*	Jika Anda memiliki sebuah mouse dengan roda gulir, perbesar dan perkecil peta itu
-	dengan menggeser roda tersebut. Jika Anda tidak memiliki roda-gulir, gunakan tombol + dan - 
-	yang ada di pojok kanan atas di sebelah. (lihat gambar di bawah ini)
-*	Untuk melakukan pencarian tempat, klik kiri pada sebuah kotak yang bertuliskan “Search” 
-	pada sisi kiri halaman (lihat gambar di atas). Ketikan nama kota atau desa Anda dan tekan Enter.
-	Sebuah jendela akan muncul di sebelah kiri peta dengan hasil pencarian Anda. Klik pada lokasi 
-	yang seperti kriteria lokasi yang Anda cari. Peta secara otomatis akan menggeser ke lokasi yang Anda pilih. 
-	
-	![Search][]
+- Hal penting yang seharusnya Anda lihat adalah peta. Geser peta dengan cara klik peta menggunakan mouse sebelah kiri, tahan tombol mouse, dan geser mouse Anda (lihat gambar dibawah).
 
-Melihat Perbedaan Bentuk Peta
------------------------------
-OpenStreetMap berisi data geografis dari seluruh dunia. Walaupun ini adalah sebuah database tunggal, 
-data dapat dinterpretasikan dan dibentuk dengan cara yang berbeda-beda. Untuk melihatnya, kita lihat
-berbagai bentuk peta yang tersedia di dalam situs OSM.
+    ![Mouse navigation][]
 
-*   Klik pada tombol Layers pada sisi kanan jendela peta
+-   Apabila Anda memiliki mouse dengan roda gulir, perbesar dan perkecil tampilan peta dengan cara memutar roda mouse. Apabila Anda tidak mempunyai roda gulir, gunakan tombol + dan - pada ujung kanan atas pada peta (lihat gambar di bawah).
+- Untuk mencari tempat, klik kiri di kotak berlabel "Cari" di sisi kiri halaman (lihat gambar di atas). Ketikkan nama kota atau desa Anda dan tekan Enter. Sebuah jendela akan muncul di sebelah kiri peta dengan hasil pencarian Anda. Klik pada lokasi yang terlihat seperti yang Anda inginkan. Peta akan secara otomatis pindah ke lokasi yang Anda pilih.
+
+    ![Search][]
+   
+
+Lihat Berbagai Gaya Peta
+------------------------
+
+OpenStreetMap berisi data geografis dari seluruh dunia. Meskipun ini adalah database tunggal, data dapat ditafsirkan dan ditata dengan cara yang berbeda. Untuk melihat ini, mari kita lihat berbagai "gaya" peta yang tersedia di situs web OSM.
+
+- Klik pada tombol Lapisan di samping kanan jendela peta.
 
     ![Layers button][]
 
-*   Klik pada pilihan bentuk yang berbeda untuk peta. Perhatikan bagaimana peta berubah sesuai dengan 
-	pilihan bentuknya masing-masing. Sebagai contoh yaitu Transport Map, peta ini menggambarkan
-	rute transportasi, selain itu Cycle Map menggambarkan peta jalur sepeda. Semua data ini terdapat di 
-	databse OSM.
+- Klik pada opsi gaya yang berbeda untuk peta. Perhatikan bagaimana peta berubah dengan gaya masing-masing. Peta transportasi, misalnya, menekankan pada rute transportasi di peta, sementara peta sepeda menekankan rute bersepeda. Semua data untuk bisa membuat seperti ini terkandung dalam basis data OSM.
 
     ![Transport map][]
-	
-Membuat sebuah akun OpenStreetMap
----------------------------------
-*	Sekarang Anda telah melihat seperti apa situs utama terlihat, Anda
-	dapat mendaftarkan sebuah nama pengguna dan kata sandi  serta menambahkan
-	objek-objek pertama Anda pada peta.
-*	Kembali ke situs OpenStreetMap. Klik “sign up” pada pojok kanan atas
-	halaman.
-*	Anda dapat melihat halaman baru sebagai berikut:
 
-	![Registering an OpenStreetMap account][]
+Membuat Akun OpenStreetMap
+-------------------------------
 
-*	Terdapat lima box di halaman ini yang perlu Anda isi untuk mendaftarkan
-	sebuah akun OSM.
-*	Masukan alamat email Anda pada dua kotak pertama. Anda diharuskan mengisi
-	alamat email yang sama pada kedua kotak tersebut. Nanti, Anda harus
-	membuka email Anda untuk melakukan konfirmasi akun OpenStreetMap Anda.
-*	Pada kotak ketiga, masukan nama pengguna yang Anda inginkan. Anda tidak
-	akan dapat memilih nama pengguna yang orang lain sudah pilih sebelumnya,
-	jadi nama pengguna ini haruslah unik. Jika Anda mengetikkan sesuatu yang 
-	sederhana, misalnya nama pertama Anda, kemungkinan seseorang sudah mengklaim
-	nama tersebut.
-*	Masukan sebuah kata sandi baru pada kotak keempat dan kelima. Anda
-	harus mengisi kata sandi yang sama pada kedua kotak tersebut. Kata
-	sandi tidak diharuskan sama dengan kata sandi untuk email Anda.
-*	Anda harus mengingat nama pengguna dan kata sandi Anda. Apabila Anda ingin login
-	ke OSM nantinya.
-*	Setelah Anda melengkapi semua kotak tersebut, klik "Sign Up" di bagian bawah halaman.
-*	Jika Anda memiliki masalah, sebuah pesan kesalahan akan muncul. Pastikan alamat
-	email Anda sama pada kotak pertama maupun kotak kedua, dan kata sandi Anda sama pada
-	kedua kotak terakhir. Jika kotak ketiga berwarna merah, artinya seseorang telah memilih 
-	nama pengguna yang sama dengan Anda, dan Anda harus memasukan nama yang berbeda.
-*	Bukalah sebuah jendela baru atau tab baru pada browser internet
-	Anda, dan arahkan ke email Anda. Situs email yang umum adalah [mail.yahoo.com] (http://mail.yahoo.com)
-	dan [www.gmail.com](http://www.gmail.com).
-*	Masukan alamat email dan kata sandi email Anda untuk membuka email Anda.
-	Catatan bahwa ini __tidak__ sama dengan nama pengguna dan kata sandi OpenStreetMap.
-*	Jika semuanya telah sukses saat registrasi, Anda seharusnya melihat sebuah email 
-	dari OpenStreetMap pada inbox email Anda. Buka email tersebut. Seharusnya akan terlihat
-	seperti gambar di bawah. Klik pada tautan seperti yang ditunjukkan di bawah
-	ini:
+Sekarang setelah Anda melihat seperti apa situs utama, Anda dapat mendaftarkan akun menggunakan nama pengguna dan kata sandi, dan membuat perubahan pertama Anda ke peta.
+- Pada situs OpenStreetMao, klik "Daftar" di ujung kanan atas halaman.
+- Anda seharusnya melihat halaman baru yang terlihat seperti ini:
 
-	![Confirming your OpenStreetMap account][]
+    ![Registering an OpenStreetMap account][]
 
-*	Sebuah tab atau jendela baru akan terbuka. Jika semua berjalan
-	dengan lancar, Anda seharusnya telah memiliki akun OSM!
-*	Pada halaman OpenStreetMap, klik “log in” pada pojok kanan atas
-	halaman. Masukan nama pengguna dan kata sandi OpenStreetMap Anda kemudian tekan
-	Enter. Anda seharusnya sudah dapat log in. Anda akan melihat nama pengguna
-	Anda di pojok kanan atas halaman.
+- Terdapat lima kotak pada halaman ini yang Anda perlu isi untuk mendaftarkan sebuah akun pada OSM.
+-  Ketikkan alamat e-mail pada dua kotak pertama. Anda harus memasukkan alamat email yang sama pada kedua kotak tersebut. Kemudian, Anda perlu membuka email untuk mengkonfirmasi akun OpenStreetMap.
+-   Pada kotak ketiga, masukkan nama pengguna yang ingin anda punya. Anda tidak bisa memilih sebuah nama pengguna yang telah orang lain pilih, jadi harus kreatif. Apabila Anda mencoba dengan sesuatu yang sederhana, seperti nama pertama, seseorang bisa saja telah mengklaim nama tersebut.
+-   Masukkan kata sandi baru pada kotak keempat dan kelima. Anda harus memasukkan kata sandi yang sama pada kedua kotak tersebut. Anda seharusnya *tidak* menggunakan sesuatu yang penting seperti kata sandi email Anda.
+-   Anda mungkin ingin menulis nama pengguna OSM Anda dan kata sandi. Anda akan memerlukannya untuk masuk nanti.
+-   Setelah Anda melengkapi semua kotak, klik "Daftar" pada bagian bawah halaman.
+- Jika ada masalah, kotak pesan kesalahan akan muncul. Periksa dan pastikan email Anda sama di dua kotak pertama, dan kata kunci Anda sama di dua kotak di bawah. Jika kotak ketiga berwarna merah, berarti orang lain telah menggunakan nama pengguna Anda, dan Anda harus mencoba nama lain.
+-   Lihat pada email Anda.
+- Jika registrasi Anda semuanya sukses, Anda sebaiknya melihat email dari OpenStreetMap pada kotak masuk Anda. Buka email tersebut. Email Anda akan terlihat seperti gambar di bawah ini. Klik pada link seperti di bawah ini:
+
+    ![Confirming your OpenStreetMap account][]
+
+-   Sebuah tab atau jendela akan terbuka. Jika semua berjalan dengan baik, Anda telah memiliki akun OSM!
+-   Pada halaman OpenStreetMap, klik "Masuk" di pojok kanan atas. Masukkan nama pengguna OpenStreetMap dan kata sandi dan tekan Enter. Anda seharusnya sekarang telah masuk. Anda seharusnya melihat nama pengguna di pojok kanan atas halaman.
 
 Menambahkan Titik Pertama Anda
-------------------------------
-*	Sekarang Anda telah masuk dengan nama pengguna Anda pada situs
-	OpenStreetMap, Anda dapat menggunakan iD editor untuk menambahkan
-	titik pertama Anda pada peta.
-*	Geser peta pada sebuah tempat yang Anda ketahui, misalnya kota atau desa
-	tempat tinggal Anda.
-*	Perbesar pada suatu area yang ingin Anda tambahkan titiknya pada peta.
-*	Di atas peta sebelah kiri, terdapat sebuah tab “Edit” dengan segitiga kecil disebelahnya.
-	Klik segitiga kecil. Kemudian Anda akan melihat menu daftar pilihan.
-*	Klik “Edit with iD (pada browser editor)”.
+------------------------
 
-	![Click edit][]
+-   Sekarang Anda telah masuk dengan nama pengguna Anda pada situs OpenStreetMap, Anda dapat menggunakan editor iD untuk menambahkan titik pertama pada peta.
+-   Pindahkan tampilan peta menuju tempat yang Anda ketahui dengan baik, seperti kota atau lingkungan tempat tinggal Anda. Ide yang bagus adalah memastikan rumah Anda (atau rumah tetangga Anda) dan tempat kerja digambar dan diberi alamat yang benar. 
+-   Perbesar tampilan ke tempat dimana Anda ingin menambahkan titik pada peta (mungkin sebuah rumah makan atau toko grosir terdekat Anda yang belum dipetakan)
+-   Tepat di atas peta di sebelah kiri, ada tab bernama "Edit" dengan segitiga kecil di sampingnya. Klik segitiga kecil. Anda akan melihat menu drop down.
+-   Klik “Edit menggunakan iD (editor in-browser)”.
 
-*	Editor online, bernama iD, telah terbuka. Tampilannya akan terlihat seperti ini. 
-	
-	![iD editor][]
+    ![Click edit][]
 
-*	Anda dapat menambahkan titik pada peta dengan mengklik pada tombol "Point"
-	di atas jendela. Kemudian klik pada peta dimana Anda ingin menambahkan titik baru. 
+-   Editor online, namanya adalah iD, seharusnya terbuka. Itu akan terlihat seperti ini.
 
-	![Point button][]    
+    ![iD editor][]
 
-*	Pilihlah dari menu sebelah kiri kemudian ketikan lokasi yang akan Anda 
-	tambahkan ke peta. Kemudian Anda dapat mengisi informasi yang sesuai 
-	seperti nama lokasi dan informasi lainnya pada kotak isian. 
-*	Untuk menyimpan perubahan yang Anda buat, klik tombol "Save" di atas. Karena ini adalah
-	hasil perubahan pertama Anda, Anda dapat mencoba mempraktekan menggunakan editor ini. 
-	Jangan menyimpan perubahan Anda kecuali Anda sudah yakin dengan informasi yang Anda masukan sudah benar.
-	
-	![Save button][] 
+-   Anda dapat menambahkan titik pada peta dengan klik tombol dengan nama "Titik" pada bagian atas jendela. Lalu klik pada peta dimana Anda ingin menambahkan titik baru.
 
-*	Jika Anda mengklik Save, Anda akan diminta untuk memberikan deskripsi perubahan yang Anda tambahkan. 
-	Kemudian Anda dapat mengklik "Save" sekali lagi, dan penambahan Anda akan disimpan ke dalam database OSM!
+    ![Point button][]    
 
-<!-- tautan ke bab iD Editor ketika sudah siap -->
+-   Pilih dari menu di sebelah kiri jenis lokasi yang Anda tambahkan ke dalam peta. Anda kemudian dapat mengisi informasi yang sesuai dengan nama lokasi serta informasi lainnya.
+-   Untuk menyimpan perubahan, klik tombol "Save" di atas. Karena ini adalah perubahan yang Anda buat pertama kali, Anda mungkin lebih memilih untuk berlatih menggunakan editor ini. Jangan simpan perubahan yang Anda buat kecuali Anda yakin mereka sudah benar.
 
-iD editor adalah cara yang fantastis untuk mengedit OpenStreetMap dengan mudah. Namun, 
-dalam bab berikutnya kita akan mempelajari mengenai JOSM, sebuah aplikasi mandiri yang menawarkan berbagai
-macam fitur. Jangan ragu untuk melanjutkan praktek menggunakan iD. Setelah Anda memiliki
-lebih banyak pengalaman dalam berkontribusi menggunakan OSM, Anda dapat memilih editor terbaik yang Anda sukai.  
+    ![Save button][]    
+
+-   Jika Anda mengklik Save, Anda akan diminta untuk menambahkan deskripsi dari perubahan yang Anda buat.  Lalu Anda dapat mengklik "Save" sekali lagi dan perubahan Anda akan disimpan ke dalam database OSM!
+
+
+iD editor adalah sebuah editor yang mudah digunakan untuk mengedit OpenStreetMap dan Anda dapat mempelajari cara menggunakannya di [panduan iD editor](/id/beginner/id-editor/).  Anda juga dapat mempelajari [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) yang merupakan sebuah alat interaktif dan bagus untuk mempelajari editor.
+
+Namun, pada [bab JOSM](/id/josm/) kita akan melihat sebuah aplikasi yang menyediakan berbagai macam fitur.  Silakan lanjutkan berlatih menggunakan iD. Ketika Anda sudah memiliki pengalaman berkontribusi ke OSM, Anda dapat memilih editor mana yang paling Anda sukai - iD atau JOSM.
 
 Ringkasan
----------
+-------
 
-Selamat! Jika semua berjalan dengan lancar sekarang Anda telah memiliki
-nama pengguna dan kata sandi OpenStreetMap, Anda telah mengetahui bagaimana
-mengoperasikan situs OSM, dan Anda telah memiliki pemahaman bagaimana menambahkan titik ke dalam peta.
+Selamat! Jika semua berjalan lancar Anda sekarang memiliki username dan password OpenStreetMap, Anda mengetahui bagaimana menavigasi situs web OSM dan Anda sudah memahami bagaimana menambahkan titik ke dalam peta.
 
-Pada bab selanjutnya, kita akan menginstall editor desktop untuk OpenStreetMap, yang bernama JOSM, dan mempelajari
-bagaimana cara menggambar peta digital. 
 
 
 [website]: /images/beginner/start-osm_website.png
@@ -181,4 +125,3 @@ bagaimana cara menggambar peta digital.
 [iD editor]: /images/beginner/id-editor.png
 [Point button]: /images/beginner/point-button.png
 [Save button]: /images/beginner/save-button.png
-
