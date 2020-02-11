@@ -292,6 +292,11 @@ table {
   position:relative;
   display:inline-block;
 }
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
 .dropdown-content {
   display:none;
 }
@@ -302,8 +307,8 @@ table {
   background-color:#f0f0f0;
   z-index:1;
 }
-.dropdown-content.language-switcher { width: 20ch; }
-.dropdown-content.quick-access { width: 35ch; }
+.dropdown-content.language-switcher { width: 20ch; outline: 2px solid #79bc5f; }
+.dropdown-content.quick-access { width: 35ch; outline: 2px solid #79bc5f; }
 .language-switcher a.active {
   color: #79bc5f;
   text-decoration: none;
@@ -315,33 +320,37 @@ table {
 #header {
   padding:20px 0px;
   background: #fff url(./img/dot.png) repeat-x bottom;
-  }
+}
 .banner, .banner-mobile {
-    position:absolute;
-    right:0;
-    background: transparent url(./img/sprite.png)  -324px 0px;
-    width: 60px;
-    height: 76px;
-    transition: all 200ms linear;
-    -moz-transition: all 200ms linear;
-    -webkit-transition: all 200ms linear;
-    -o-transition: all 200ms linear;
-  }
-  .banner span {
-    display:none;
-    color: #79bc5f;
-    text-transform:uppercase;
-    font-size:12px;
-    font-weight:700;
-    padding:2px 18px 0 60px;
-  }
-  .banner span.en,.banner span.jp {padding-top:14px;}
-  .banner.active {
-    width:188px;
-  }
-  .banner span.active {
-    display:block;
-  }
+  position:absolute;
+  right:0;
+  background: transparent url(./img/sprite.png)  -324px 0px;
+  width: 60px;
+  height: 76px;
+  transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+}
+
+.banner span {
+  display:none;
+  color: #79bc5f;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:700;
+  padding:2px 18px 0 60px;
+}
+
+.banner span.en,.banner span.jp {padding-top:14px;}
+.banner.active {
+  width:188px;
+}
+
+.banner span.active {
+  display:block;
+}
+
 .ourguides span{
   font-weight:700;
 }
@@ -401,6 +410,10 @@ table {
     background-position:0px -115px;
     }
 
+#front {
+  margin-top: 16px;
+}
+
 /* footer */
 .license img {
   padding:0;
@@ -437,33 +450,48 @@ a.license {
   height:32px;
   border:4px solid #f0f0f0;
   }
-  .searchbox input {
-    border:none;
-    padding:4px 0px 4px 20px;
-    font-size:16px;
-    font-family:'Source Sans Pro',sans-serif;
-    background-color: #ffffff;
-  }
-  .logo-search {
-    float:left;
-    margin-left:3px;
-    width: 30px;
-    height: 28px;
-    background-position:-152px -150px;
-  }
-  input.default-value {
-    color:#ccc !important;
-    font-style: italic;
-  }
+
+.searchbox input {
+  border:none;
+  padding:4px 0px 4px 20px;
+  font-size:16px;
+  font-family:'Source Sans Pro',sans-serif;
+  background-color: #ffffff;
+}
+
+.searchbox input:focus {
+  outline: 2px solid #79bc5f;
+}
+
+.logo-search {
+  float:left;
+  margin-left:3px;
+  margin-top: 4px;
+  width: 30px;
+  height: 28px;
+  background-position:-152px -150px;
+}
+
+input.default-value {
+  color:#ccc !important;
+  font-style: italic;
+}
 .searchbox-default {
-  padding-right:08.3333%;
+  padding-right: 16px;
   float:right;
 }
 .searchbox-default input {
-  border:none;
-  margin-top:6px;
-  background-color: #ffffff;
+  border: none;
+  margin-top: 9px;
+  background-color:#ffffff;
+  height: 20px;
+  width: 132px;
 }
+
+.searchbox-default input:focus {
+  outline: 2px solid #79bc5f;
+}
+
 /* overriding default jquery ui css for autocomplete */
 .ui-corner-all {
   -moz-border-radius:   0px !important;
@@ -721,6 +749,9 @@ a.license {
 /* Mobile and tablet Layout
 ------------------------------------------------------- */
 @media screen and (max-width: 770px) {
+  #wrapper {
+    padding: .9rem;
+  }
   .cell1,
   .cell2,
   .cell3,
@@ -747,7 +778,7 @@ a.license {
   #ads .ad1 a, #ads .ad2 a, #ads .ad3 a {margin:0;}
   /*#ads .ad1 span.door {margin-top:-60px;}*/
   #footer {position:relative;}
-  .searchbox-default {padding-left:10px;float:left;}
+  .searchbox-default {padding-left:10px;float:right;}
   .searchbox {border-radius:0px; border:8px solid #f0f0f0;}
   .searchbox input {width:200px;}
   .doc-nav,.doc-nav.fixed {position:relative;margin-bottom:20px;}
