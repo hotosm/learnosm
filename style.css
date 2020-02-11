@@ -273,6 +273,8 @@ table {
 }
 
 #wrapper {
+  display: flex;
+  flex-direction: column;
   min-height:100%;
   position:relative;
 }
@@ -302,7 +304,7 @@ table {
   display:block;
   position:absolute;
   background-color:#f0f0f0;
-  z-index:1;
+  z-index: 999;
 }
 .dropdown-content.language-switcher { width: 20ch; outline: 2px solid #79bc5f; }
 .dropdown-content.quick-access { width: 35ch; outline: 2px solid #79bc5f; }
@@ -320,7 +322,7 @@ table {
 }
 .banner, .banner-mobile {
   position: fixed;
-  z-index: 999;
+  z-index: 99;
   right:0;
   background: transparent url(./img/sprite.png)  -324px 0px;
   width: 60px;
@@ -392,7 +394,7 @@ table {
   background:url(./img/sprite.png) no-repeat;
   width:16px;
   height:20px;
-  margin-right:20px;
+  margin-right:10px;
   }
 .logo {
   display:block;
@@ -463,8 +465,7 @@ a.license {
 
 .logo-search {
   float:left;
-  margin-left:3px;
-  margin-top: 4px;
+  margin: 4px 10px 10px 3px;
   width: 30px;
   height: 28px;
   background-position:-152px -150px;
@@ -476,14 +477,14 @@ input.default-value {
 }
 .searchbox-default {
   padding-right: 16px;
-  float:right;
+  float:left;
 }
 .searchbox-default input {
   border: none;
   margin-top: 9px;
   background-color:#ffffff;
   height: 20px;
-  width: 132px;
+  width: 280px;
 }
 
 .searchbox-default input:focus {
@@ -775,8 +776,8 @@ input.default-value {
   #ads .ad1 a, #ads .ad2 a, #ads .ad3 a {margin:0;}
   /*#ads .ad1 span.door {margin-top:-60px;}*/
   .searchbox-default {padding-left:10px;float:right;}
+  .searchbox-default input { width: 170px; outline: 2px solid #f0f0f0; }
   .searchbox {border-radius:0px; border:8px solid #f0f0f0;}
-  .searchbox input {width:200px;}
   .doc-nav,.doc-nav.fixed {position:relative;margin-bottom:20px;}
   .doc-main {margin-left:0%}
   .feedback {padding-top:20px;padding-left:15px;}
@@ -788,6 +789,10 @@ input.default-value {
   #footer { padding-left:15px; width: 98%; height: 16rem; }
   a.license {left:250px;top:10px;}
   .doc-nav.bottom { position: relative; }
+}
+
+@media screen and (max-width: 667px) {
+  .searchbox-default {padding-left:10px;float:left;}
 }
 
 .no-capitalize a {

@@ -27,7 +27,7 @@
   <body>
    <div id='wrapper'>
     <div class="fillG cell12" id="banner-top">
-      <div class="dropdown language-switcher marginL"> <span> {{site.translations[page.lang].language}} ... </span>
+      <div class="dropdown language-switcher"> <span> {{site.translations[page.lang].language}} ... </span>
         <div class='language-switcher dropdown-content'>
           {% assign start_page = "/" | append: page.lang | append: "/" | strip %}
           {% assign contribute_page = "/" | append: page.lang | append: "/contribute/" | strip %}
