@@ -195,7 +195,7 @@ strong {font-weight:700;}
 .doc li a, .doc p a {color: #79bc5f;}
 .doc-nav-secondary li {padding-left:60px;}
 
-small {
+footer {
   font-size:12px;
   line-height:16px;
 }
@@ -322,7 +322,8 @@ table {
   background: #fff url(./img/dot.png) repeat-x bottom;
 }
 .banner, .banner-mobile {
-  position:absolute;
+  position: fixed;
+  z-index: 999;
   right:0;
   background: transparent url(./img/sprite.png)  -324px 0px;
   width: 60px;
@@ -437,9 +438,9 @@ table {
     .github:hover:before {background-position:-80px -178px;}
 .sponsors span {display:block;}
   .sponsors span a {color:#fc3f51;}
+
 a.license {
-  position:absolute;
-  left:360px;
+  display: inline;
   }
 .sponsors a.logo {margin-top:30px;}
   .sponsors a.logo-hot {background-position:0 0;}
@@ -540,7 +541,6 @@ input.default-value {
 /* doc nav */
 .doc-nav {
   position:absolute;
-  padding-top: 30px;
 }
 .doc-nav.fixed {
   position:fixed;
