@@ -787,6 +787,7 @@ input.default-value {
   #content {padding-bottom:30px;}
   #footer { padding-left:15px; width: 98%; height: 16rem; }
   a.license {left:250px;top:10px;}
+  .doc-nav.bottom { position: relative; }
 }
 
 .no-capitalize a {
