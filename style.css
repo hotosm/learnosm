@@ -201,7 +201,7 @@ small {
 }
 
 img {
-  display: span;
+  display: block;
   max-width:480px;
   background: #fff;
   padding:3px;
@@ -519,7 +519,7 @@ a.license {
   top: 0;
 }
 .doc-nav.bottom {
-  positon:absolute;
+  position:absolute;
   bottom: 200px;
 }
 .doc-nav ul li a {
@@ -587,20 +587,21 @@ a.license {
   border-top: 4px solid   #f0f0f0;
   border-left: 4px solid  #f0f0f0;
   border-right: 4px solid #f0f0f0;
-
-  .doc .cover span:before {
-    content:'';
-  }
+}
+ 
+.doc .cover span:before {
+  content:'';
+}
 
 /* Ideas for "other guide" navigation menu */
-  .doc .title.other {
-    background: #efe;
-  }
+.doc .title.other {
+  background: #efe;
+}
 
-  .doc .title.cover.other,
-  .doc .title.cover.other:hover,
-  .doc .title.cover.other.active {
-    background: #dfd;
+.doc .title.cover.other,
+.doc .title.cover.other:hover,
+.doc .title.cover.other.active {
+  background: #dfd;
 }
 
 
@@ -719,7 +720,7 @@ a.license {
 
 /* Mobile and tablet Layout
 ------------------------------------------------------- */
-@media only screen and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .cell1,
   .cell2,
   .cell3,
@@ -731,7 +732,7 @@ a.license {
   .cell9,
   .cell10,
   .cell11,
-  .cell12 { width:100%; max-width:100%; }
+  .cell12 { width:100%; max-width:100%; float: none; }
   .marginL { margin-left:0%; }
   .marginR { margin-right: 0%;}
   .padAll,.padTB,.padLR { padding: 0px;}
@@ -740,7 +741,7 @@ a.license {
   .show-mobile { display: block;}
   h4 {margin:10px 0;}
   #header {background: none;}
-    #header > * {margin:0 -20px 0 20px;}
+  #header > * {margin:0 -20px 0 20px;}
   #ads a {border-radius:0;}
   #ads .ad1, #ads .ad2, #ads .ad3 {height:auto;}
   #ads .ad1 a, #ads .ad2 a, #ads .ad3 a {margin:0;}
@@ -759,7 +760,7 @@ a.license {
   #content {padding-bottom:50px;}
   #footer {padding-left:15px;}
   a.license {left:250px;top:10px;}
-  }
+}
 
 .no-capitalize a {
   text-transform: none !important;
