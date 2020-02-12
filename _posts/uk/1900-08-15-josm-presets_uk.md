@@ -3,7 +3,7 @@ layout: doc
 title: Заготовки теґів в JOSM
 permalink: /uk/josm/josm-presets/
 lang: uk
-категорія: josm
+category: josm
 ---
 
 Заготовки теґів в JOSM
