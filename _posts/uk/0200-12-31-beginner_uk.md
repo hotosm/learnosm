@@ -27,7 +27,7 @@ nosearch: true
 
 Основне завдання – навчитись координовано мапити разом з іншими.
 - [Керівництво по дистанційному мапінгу](/uk/coordination/HOT-Remote-Response-Guide/) та загальна інформація про [мапінг для гуманітарних потреб](/uk/coordination/humanitarian/) надасть певні пояснення 
-- Робоча конячка – [Tasking Manager](/en/coordination/tasking-manager3/), ви повинні ознайомитися як з ним працювати
+- Робоча конячка – [Tasking Manager](/uk/coordination/tasking-manager3/), ви повинні ознайомитися як з ним працювати
 
 ### Ви бажаєте використовувати OpenStreetMap на мобільний пристроях?
 
