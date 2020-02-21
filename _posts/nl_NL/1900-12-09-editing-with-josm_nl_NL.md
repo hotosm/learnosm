@@ -7,7 +7,7 @@ category: josm
 ---
 
 Gegevens uit het veld bewerken
-==================
+===================
 
 
 We hebben nu alle bouwblokken voor het in kaart brengen met OpenStreetMap behandeld. In het gedeelte [In kaart brengen met een smartphone, GPS of op papier](/nl_NL/mobile-mapping/) kunt u zien hoe u mobiele gereedschappen gebruikt om een gebied te verkennen en vast te leggen.
