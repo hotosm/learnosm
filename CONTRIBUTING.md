@@ -1,3 +1,4 @@
+<!--
 # Contributing to LearnOSM
 
 Thank you for your interest in contributing to [learnosm.org](http://learnosm.org). This file explains how to make
@@ -12,7 +13,6 @@ The outline procedure for contributing contents in English is: [fork the LearnOS
 ## Translations via Transifex
 We are now using <https://www.transifex.com> to carry out the majority of our translations for LearnOSM. This is much simpler to manage for both the translator & the techie team. Please go to <https://www.transifex.com> and search for HOT-OSM, then LearnOSM if you can assist with any translations. 
 
-<!--
 START OF HIDDEN TEXT 
 
 # Translation workflow - new from November 2014  
@@ -55,7 +55,6 @@ It's handy to run the site locally when editing content or code - Jekyll documen
 For fresh translations always start with a copy of the English guide.
 
 END OF HIODDEN TEXT
--->
 
 ## Further information
 
@@ -113,3 +112,4 @@ The site is hosted using [GitHub Pages](http://pages.github.com/), any changes t
 
 - Open a browser and go to localhost:4000
 
+-->
