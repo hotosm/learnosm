@@ -9,7 +9,7 @@ category: josm
 Complementos de JOSM Building Tools y Utilsplugin2
 ============
 
-Esta guía puede ser descargada como [josm-more-plugins_es.odt](/files/josm-more-plugins_es.odt) o [josm-more-plugins_es.pdf](/files/josm-more-plugins_es.pdf)  
+> Revisado 2016-09-12  
 
 Los complementos **buildings_tools** y **utilsplugin2** añaden a JOSM gran funcionalidad adicional. En esta sección veremos más de cerca las funciones que proporcionan.  
 
