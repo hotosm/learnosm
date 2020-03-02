@@ -9,21 +9,25 @@ category: beginner
 El Editor iD
 =============
 
+> Revisado 2019-06-10
+
+¿Comenzando a mapear con un administrador de tareas para HOT o MissingMaps, etc.? Vea nuestra [sección de consejos HOT](/es/hot-tips/).  
 
 - TOC
 {:toc}
 
-El editor iD es el editor de OpenStreetMap de facto, basado en navegador. iD es fácil y rápido de utilizar, y permite mapear desde diferentes fuentes de datos como imágenes de satélite y aéreas, GPS, Field Papers o Mapillary.
+El editor iD es el editor de OpenStreetMap de facto, basado en navegador. iD es fácil y rápido de utilizar, y permite mapear desde diferentes fuentes de datos como imágenes de satélite y aéreas, GPS, Field Papers o Mapillary.  
 
-Usar el editor iD es una buena manera de realizar cambios pequeños y sencillos que no requieren de las características avanzadas de JOSM (un editor de mapas más avanzado). Este capítulo muestra los conceptos básicos de la edición con iD. 
+Usar el editor iD es una buena manera de realizar cambios pequeños y sencillos que no requieren de las características avanzadas de JOSM (un editor de mapas más avanzado). Este capítulo muestra los conceptos básicos de la edición con iD.  
 
 Comenzando con el Editor iD
 ----------------------
--	El editor iD requiere una conexión activa a Internet.
--	Abra su navegador de Internet y vaya a la página web de OpenStreetMap en [http://www.openstreetmap.org](http://www.openstreetmap.org).
--	**Iniciar Sesión** usando su cuenta de OpenStreetMap
+
+-	El editor iD requiere una conexión activa a Internet.  
+-	Abra su navegador de Internet y vaya a la página web de OpenStreetMap en [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+-	**Iniciar Sesión** usando su cuenta de OpenStreetMap  
 -	Desplace y amplié el área en el mapa que desea editar. Puede desplazar el mapa manteniendo pulsado el botón izquierdo del ratón y arrastrando el mapa al área deseada.  
--	Haga clic en la flecha pequeña junto a **Editar**. Luego, haga clic en **Editar con iD (editor en el navegador)**.
+-	Haga clic en la flecha pequeña junto a **Editar**. Luego, haga clic en **Editar con iD (editor en el navegador)**.  
 
 ![image1][]
 
@@ -32,235 +36,167 @@ Interfaz de usuario de iD
 -------------------------
 ![image2][]
 
-1. **Panel de edición de elementos:** Este panel muestra las etiquetas del objeto que ha sido seleccionado en el mapa.
-	Puede agregar o editar las etiquetas desde este panel. 
-2. **Herramientas:** Este panel muestras las herramientas básicas de edición: 
-	- Dibujar un punto (nodo), *acceso directo* **1**  
- 	![image3][]  
+1. **Panel de edición de elementos:** Este panel muestra las etiquetas del objeto que ha sido seleccionado en el mapa.  
+	Puede agregar o editar las etiquetas desde este panel.  
+2. **Herramientas:** Este panel muestras las herramientas básicas de edición:  
+    Dibujar un punto (nodo), *atajo de teclado* **1** ![image3][]{: height="24px"}  
+    Dibuja una línea (camino), *atajo de teclado* **2** ![image4][]{: height="24px"}  
+    Dibuja una forma (polígono), *atajo de teclado* **3** ![image5][]{: height="24px"}  
+    Deshacer, *atajo de teclado* **Ctrl+z** ![image6][]{: height="24px"}  
+    Rehacer, *atajo de teclado* **Ctrl+y** ![image7][]{: height="24px"}  
+    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
+3. **Panel del mapa:** Este panel muestra varias funciones de configuración:  
+    Acercar, *atajo de teclado* **+** ![image9][]{: height="24px"}  
+    Alejar, *atajo de teclado* **-** ![image10][]{: height="24px"}  
+    Ir a tu ubicación ![image11][]{: height="24px"}  
+    Configurar la capa de fondo, *atajo de teclado* **b** ![image12][]{: height="24px"}  
+    Datos del mapa, *atajo de teclado* **f** ![Map Data][]{: height="24px"}  
+    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
+    Abrir el menú de ayuda, *atajo de teclado* **h** ![image13][]{: height="24px"}  
+4. **Panel de información:** Este panel muestra información diversa como, la barra de escala y qué usuarios han contribuido en esa área.  
 
+## Configuración de la capa de fondo
 
-	- Dibujar una línea (camino), *acceso directo* **2**  
- 	![image4][]  
-
-
- 	- Dibujar una forma (polígono), *acceso directo* **3**  
- 	![image5][]  
-
-
- 	- Deshacer, *acceso directo* **Ctrl+z**   
- 	![image6][]
-
- 	- Rehacer, *acceso directo* **Ctrl+y**   
- 	![image7][]  
-
-
- 	- Guardar cambios, *acceso directo* **Ctrl+s**   
- 	![image8][]  
-
-
-
-3. **Panel del mapa:** Este panel muestra varias funciones de configuración:
-  	- Acercar, *acceso directo* **+**   
- 	![image9][]  
-
-
- 	- Alejar, *acceso directo* **-**   
- 	![image10][]  
-
-
- 	- Mostrar su ubicación
- 	![image11][]  
-
-
- 	- Configurar la capa de fondo, *acceso directo* **b**   
- 	![image12][]
-
- 	- Datos del mapa, *acceso directo* **f**   
- 	![Map Data][]  
-
-
- 	- Abrir el menú de ayuda, *acceso directo* **h**   
- 	![image13][]  
-
-
-
-4. **Panel de información:** Este panel muestra información diversa como, la barra de escala y qué usuarios han contribuido en esa área. 
-
-Configurando la capa de fondo
---------------------------------
-Antes de comenzar a editar, puede cambiar la capa de fondo.
-
--	Haga clic en el botón de **Configuración del fondo** o utiliza el *acceso directo* **b**.
-![image14][]  
-
-
--	Verá un panel como este:
+Haga clic en el botón **Configuración del fondo** o utiliza el *atajo de teclado* **b**.![image14][]{: height="24px"}  
 ![image15][]  
+Puede **cambiar la capa de fondo** en función de su proveedor de tesela deseado (el predeterminado es Bing Aerial Imagery).  
 
- 
--	Puede cambiar el **nivel de brillo** haciendo clic en alguno de estos cuadros:
-![image16][]  
-
--	Hay 4 niveles diferentes de brillo - 100%, 75%, 50% y 25%. Haga clic en cada uno de ellos para ver la diferencia.
--	También puede **cambiar la capa de fondo** para usar su proveedor de teselas deseado
-	(el predeterminado es Bing Aerial Imagery). Pruebe las diferentes opciones disponibles de esta lista.
--	Puede agregar sus propias teselas haciendo clic en **Personalizado**.
--	Por ejemplo, si quiere **añadir un Field Paper**, haga clic en **Personalizado** y luego en el icono de la lupa (búsqueda) para abrir la siguiente ventana:  
-![image17][]
-
-e introduzca su **URL de instantánea Field Paper**, que será algo como esto: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>  
-
-
-
--	Puede **mostrar rutas de GPS desde su computadora** (formato GPX). Es tan simple como arrastrar y soltar el archivo GPX en el editor iD.
--	Puede habilitar **trazas GPS de OpenStreetMap** para mostrar trazas públicas de GPS disponibles para el área. En la imagen de abajo, las trazas GPS públicas se muestran en varios colores, lo que indica la dirección de desplazamiento.
-
-![osm gps traces][]
-
--	Si hay que [compensar las imágenes](/es/josm/aerial-imagery), puede **corregir el desfase de imágenes** haciendo clic en corregir la alineación.
+Puede agregar sus propias teselas de mapas haciendo clic en **Personalizado**. Por ejemplo, si desea **agregar un Field Paper** [^fieldpaper], haga clic en **Personalizado** y luego haga clic en el icono de lupa (búsqueda) para abrir la siguiente ventana:-  
+![image17][]   
+e ingrese su **URL de instantánea de FieldPaper**, que será algo como esto: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
+Para **mostrar las trazas de GPS desde su computadora** (formato GPX), arrastre y suelte el archivo GPX en el editor iD.  
+Para habilitar **trazas GPS de OpenStreetMap** haga clic en el cuadro. En la imagen a continuación, los rastros públicos de GPS se muestran en varios colores, lo que indica la dirección de viaje.  
+![osm gps traces][]  
+Para cambiar la **apariencia de las imágenes** haga clic en **Opciones de visualización**.  
+![DisplayOptions][]  
+Si hay [desplazamiento de imágenes](/es/josm/aerial-imagery), puede **corregir el desplazamiento de imágenes** haciendo clic en **Ajustar desplazamiento de imágenes**.  
 ![image18][]  
 
+- Haga clic en los botones de navegación para mover las imágenes. Haga clic en el botón de reinicio para volver a la posición predeterminada. ![image20][]  
 
-- Haga clic en los botones de navegación para mover la imagen. Haga clic en el botón de restaurar para volver a la posición predeterminada.  
-![image20][]  
+Edición básica con iD  
+----------------------  
 
+### Añadiendo puntos  
 
-Edición básica con iD
-----------------------
-Ahora empecemos a practicar con iD.
+Para agregar un nuevo punto, haga clic en el botón **Punto**. ![image3][]{: height = "24px"}  
 
-### Añadiendo puntos
--	Para añadir un punto nuevo, haga clic en el botón **Punto**.
+El cursor del mouse cambiará a signo más (+). Ahora, haga clic en una posición que conozca para marcar una ubicación. Por ejemplo, si sabe que hay un hospital en su área, haga clic en la posición del edificio del hospital.  
+![image21][]  
+- Tenga en cuenta que se agrega un nuevo punto. Al mismo tiempo, el panel izquierdo cambiará para mostrar un formulario donde puede seleccionar atributos para el objeto. Haga clic en **Terreno de Hospital** para etiquetar el punto como un hospital.  
+![image22][]  
+- Puede usar los formularios para completar información detallada sobre su punto. Puede completar el nombre, la dirección y/o otra información adicional del hospital. Tenga en cuenta que cada característica tendrá diferentes opciones, dependiendo de qué etiqueta elija en el panel de funciones.  
+- Si comete un error, como una ubicación incorrecta, puede mover su punto a una nueva ubicación manteniendo presionado el botón izquierdo del mouse sobre su punto y arrastrándolo. O, si desea eliminar su punto, haga clic con el botón izquierdo del mouse en el punto, active el menú contextual haciendo clic con el botón derecho del mouse y luego haga clic en el botón que parece una papelera. ![PointToolDelete][]{: height="24px"}  
+Un "punto" creado en el editor iD es en realidad un "nodo" independiente, asociado a un conjunto de "etiquetas".  
 
-![image3][]
+### Dibujando líneas  
 
--	El cursor de su ratón se transformará en el signo más (+). Ahora, haga clic en una posición que usted conoce para marcar una ubicación. Por ejemplo, si sabe que hay un hospital en su área, haga clic en la posición del mismo.
+Para añadir una nueva línea, clic en el botón **Línea**. ![image4][]{: height="24px"}  
 
-![image21][]
-
--	Note que un nuevo punto se ha añadido. Al mismo tiempo, en el panel izquierdo aparecerá un formulario donde puede seleccionar atributos para el objeto. Haga clic en **Hospital** para etiquetar el punto como un hospital.
-
-![image22][]
-
--	Puede usar los formularios para llenar información detallada acerca del punto. Puede rellenar el nombre del hospital, dirección, y otra información adicional. Note que cada elemento tendrá diferentes opciones, dependiendo de la etiqueta que seleccione del panel de elementos. 
--	Si comete un error, como por ejemplo una ubicación incorrecta, puede mover su punto a una nueva ubicación haciendo clic con el botón izquierdo del ratón sobre el punto y arrastrándolo. O, si desea eliminar su punto, haga clic con el botón izquierdo sobre el punto y luego haga clic en el botón que se parece a una papelera.
-
-![image23][]
-
-Un "punto" creado en el editor iD es en realidad un "nodo" independiente, asociado a un conjunto de "etiquetas".
-
-### Dibujando líneas
--	Para agregar una nueva línea, haga clic en el botón **Línea**.
-
-![image4][]
-
--	Su cursor se transformará en el signo más (+). Busque una ruta que no haya sido dibujada en el mapa y trácela. Haga un sólo clic en el punto donde el segmento de ruta comienza, mueva el ratón, y haga clic nuevamente para agregar puntos adicionales. Haga doble-clic para terminar el proceso de trazado. Observe el panel de la izquierda.
-
-![image24][]
-
--	Del mismo modo que con un punto, seleccione las etiquetas apropiadas para su línea.
--	Puede arrastrar puntos desde la línea haciendo clic con el botón izquierdo del ratón y arrastrándolo.
--	También puede mover la línea entera seleccionándola, y eligiendo la **Herramienta de movimiento**. Luego, arrastre la línea hacia su nueva posición.
-
-![image30][]
-
--	Cuando haga clic con el botón izquierdo del ratón en un punto individual (nodo) de la línea, verá estas herramientas: 
-
-	- Eliminar punto de la línea
-	![image23][]
-	- Desconectar punto de la línea
-	![image26][]
-	- Dividir la línea en dos a partir del punto seleccionado
-	![image27][]
-
-- Cuando haga clic con el botón izquierdo del ratón en una línea (pero no en un punto), verá estas herramientas:
-
-	- Eliminar línea
-	![image23][]
-	- Crear un círculo  a partir de una línea (activo solamente si la línea es cerrada)
-	![image29][]
-	- Mover línea
-	![image30][]
-	- Formar una figura cuadrada a partir de una línea (activo solamente si la línea es cerrada)
-	![image31][]
-	- Invertir la dirección de la línea (útil para ríos y calles de un solo sentido)
-	![image32][]
+- El cursor del mouse cambiará a signo más (+). Busca un camino que no se dibujó en el mapa y hazlo. Haga clic una vez en un punto donde comienza el segmento de carretera, mueva el mouse y haga clic para agregar puntos adicionales. Haga doble clic para finalizar el proceso de dibujo. Observe el panel de la izquierda.  
+![image24][]  
+- Al igual que con un punto, seleccione las etiquetas apropiadas para su línea.  
+- Puede arrastrar puntos desde la línea haciendo clic con el botón izquierdo del mouse en un punto y arrastrándolo.  
+- Cuando hace clic con el botón izquierdo del mouse en un punto individual (nodo) en la línea y hace clic en el botón derecho del mouse o presiona la barra espaciadora para activar el menú contextual, verá estas herramientas:  
+  - Continúar la línea desde este punto ![PointToolContinue][]{: height="24px"}  
+  - Desconectar las líneas en este punto ![PointToolDisconnect][]{: height="24px"}  
+  - Dividir una línea en dos líneas en este punto. ![PointToolSplit][]{: height="24px"}  
+  - Eliminar punto de la línea. ![PointToolDelete][]{: height="24px"}  
+- Cuando haga clic con el botón izquierdo del ratón en una línea (pero no en un punto), vaya a estas herramientas:  
+  -   Crear un círculo a partir de una línea (solo activo si la línea es cerrada) ![LineToolCircularize][]{: height="24px"}  
+  -   Desconectar la línea de otros objetos ![LineToolDisconnect][]{: height="24px"}  
+  -   Mover línea ![LineToolMove][]{: height="24px"}  
+  -   Escuadrar todas las esquinas ![LineToolSquare][]{: height="24px"}  
+  -   Reflejar la línea a través de su eje corto ![LineToolReflectShort][]{: height="24px"}  
+  -   Reflejar la línea a través de su eje largo ![LineToolReflectLong][]{: height="24px"}  
+  -   Invertir dirección de línea (buena para ríos y calles de sentido único) ![LineToolReverse][]{: height="24px"}  
+  -   Girar la línea alrededor de su centro ![LineToolRotate][]{: height="24px"}  
+  -   Enderezar la línea ![LineToolStraighten][]{: height="24px"}  
+  -   Eliminar línea. ![LineToolDelete][]{: height="24px"}  
 
 Una "línea" creada en el editor iD es en realidad una "vía" con "etiquetas" asociadas.
 
 >Una consideración con respecto a la **Eliminación**: En general, debería evitar eliminar mapeos de otras personas si solo necesitan mejoras. Puede borrar sus propios errores, pero debería intentar *corregir* los objetos mapeados de otras personas si es que necesitan cambios. Esto preserva la historia de los elementos en la base de datos de OSM y es respetuoso hacia otros mapeadores. Si realmente cree que algo debería ser eliminado, considere primero consultarlo con el mapeador original, o en alguna de las listas de correo de OSM.
 
 ### Dibujando formas (polígonos)
--	Para añadir un nuevo polígono, haga clic en el botón **Área**.
 
-![image34][]
+Para agregar una nueva forma de múltiples lados, haga clic en el botón **Área**. ![image34][]{: height="24px"}  
 
--	Su cursor se transformará en el signo más (+). Intente trazar un edificio usando la imagen como guía.
--	Notará que el color del polígono cambiará dependiendo de los atributos que le asigne al mismo.
-
-![image35][]
-
--	Las herramientas que están disponibles cuando selecciona un polígono son similares a aquellas que están disponibles cuando hace clic en una línea.
+- El cursor del mouse cambiará al signo más (+). Trata de rastrear un edificio usando las imágenes como guía.  
+- Notará que el color de su forma cambiará según los atributos que le asigne.  
+![image35][]  
+- Las herramientas que están disponibles cuando selecciona una forma y activa el menú contextual con el botón derecho del mouse son similares a aquellas cuando hace clic en una línea.  
 
 Un "polígono" en el editor iD es en realidad una "vía cerrada" con etiquetas asociadas.
 
+### Dibujando Multipolígonos
+
+A veces hay que dibujar un polígono que no solo tiene un contorno externo sino también uno o más contornos internos. Solo piense en edificios con patios interiores o lagos con islas. *No dibuje todas estas formas en una sola línea* para que los contornos internos se suspendan del contorno externo. En lugar de dibujar estos contornos por separado, asigne etiquetas solo al contorno exterior, seleccione todos los contornos y presione **c** para combinarlos en lo que se llama multipolígono.
+
+![crear multipolígono][]
+
+Cuando selecciona cualquiera de los contornos del multipolígono recién creado, puede ver a la izquierda a qué multipolígonos pertenece
+
+![parte de multipolígono][]
+
+## Problemas
+
+El editor realiza una serie de comprobaciones tan pronto como edita algo. Si cree que lo que hizo podría causar problemas, se lo notifica en la pestaña de problemas. Siempre que el ícono de problemas a la derecha tenga un punto amarillo (para advertencias) o rojo (para errores), debe abrir la pestaña y ver qué informa. Esta información también se muestra en la pestaña de características del objeto a la izquierda si se selecciona el objeto relevante. También se le advierte que hay problemas sin resolver cuando carga sus datos. 
+
+![Issue][] ![Error][]
+
+La parte inferior de la pestaña de problemas muestra las reglas disponibles y le permite deshabilitarlas individualmente, aunque esto no es recomendable.
+
 Guardando sus cambios
 --------------------
--	Cuando desee guardar sus cambios en OpenStreetMap (si es que así lo desea), haga clic en el botón
-	**Guardar**. El panel de la izquierda mostrará el panel de subida.
 
-![image36][]
+Cuando (y si) desea guardar sus modificaciones en OpenStreetMap, haga clic en el botón **Guardar**. El panel de la izquierda mostrará el panel de carga.  
+![image36][]  
 
--	Ingrese un comentario acerca de sus cambios y haga clic en **Guardar**.
+- Agregar un comentario acerca de sus modificaciones y haz clic en **Guardar**.  
 
+Si ha editado la misma función (punto, forma o área) al mismo tiempo que otra persona lo estaba editando, recibirá una advertencia de que sus ediciones no se pueden cargar hasta que haya resuelto los **conflictos**: elija cuáles ediciones aceptar y así subirlas. *La resolución de conflictos a menudo implica aceptar las ediciones de otras personas, en cuyo caso es probable que desee volver a la función en cuestión y editar nuevamente (**esta vez, guardar después de la edición para intentar evitar nuevamente un conflicto**).*
 
 Información adicional y etiquetas personalizadas
 ---------------------------------------
--	Cuando esté editando un objeto, verá una tira de iconos en la sección inferior del panel de atributos. Puede agregar información adicional haciendo clic en estos iconos:
 
-	- Añadir elevación
- 	![image37][]
- 	- Añadir notas
- 	![image38][]
- 	- Añadir contactos / número de teléfono
- 	![image39][]
- 	- Añadir etiqueta de origen
- 	![image40][]
- 	- Añadir sitio web
- 	![image41][]
- 	- Añadir información de accesibilidad
- 	![image42][]
- 	- Añadir enlace de Wikipedia
- 	![image43][]
+Cuando esté editando un objeto, verá un menú "Agregar campo" en la parte inferior del panel de atributos. Puede agregar diversa información adicional seleccionando una de las entradas (capa, elevación, wikipedia, etc.).  
 
--	O, puede añadir etiquetas personalizadas haciendo clic en **Todas las etiquetas**.
+![AdditionalTags][]
 
-![image44][]
+O puede agregar etiquetas personalizadas haciendo clic en **Todas las etiquetas**. ![image44][]{: height="24px"}  
 
--	Esto mostrará todas las etiquetas asociadas al elemento.
+- Esto mostrará todas las etiquetas relacionadas con este elemento.  
+![image45][]  
+- Haga clic en el signo (+) para añadir claves o valores o simplemente en el ícono de la papelera para eliminar etiquetas.
 
-![image45][]
+Otros tutoriales
+------------------
 
--	Haga clic en el signo más (+) para añadir claves y valores, o haga clic en el icono de la papelera para eliminar etiquetas.
+[Nuestra página de recursos externo](/es/resources/#iD) suministra enlaces a un número de video tutoriales desde varias fuentes.
 
 iD versus JOSM
----------------
-iD es bueno para... 
+---------------  
 
--	Cuando esté realizando cambios simples  
--	Cuando tiene Internet lo suficientemente rápida para cargar las imágenes y guardar los cambios  
--	Cuando quiere estar seguro de seguir un esquema de etiquetado simple y consistente  
--	Cuando no tenga la libertad de instalar un programa en la computadora que esté usando
+**iD es bueno para...**
 
-JOSM es mejor... 
+- Cuando está haciendo ediciones simples  
+- Cuando dispones de una internet rápida para cargar las imágenes y guardar sus modificaciones  
+- Cuando quiere asegurarse de seguir un esquema de etiquetado simple y consistente  
+- Cuando tiene prohibido instalar un programa en la computadora que está usando
 
--	Cuando esté añadiendo muchos edificios (refiérase al plugin buildings_tool)
--	Cuando esté editando muchos polígonos o líneas que ya existen
-- Cuando no tenga una conexión a Internet confiable o esté fuera de línea
--	Cuando utilice un esquema de etiquetado específico (o preajustes personalizados)
+**JOSM es mejor...**
+
+- Cuando está agregando varias construcciones (Ver complemento buildings_tool)
+- Cuando está modificando varios polígonos o líneas que ya existen.
+- Cuando está en una conexión a Internet no confiable o sin conexión
+- Cuando está utilizando un esquema de etiquetado específico (o ajustes predeterminados personalizados)
+
+[^fieldpaper]: hay una [sección de LearnOSM](/es/mobile-mapping/field-papers/) que brinda más información sobre Field Papers.
 
 
-[image1]: /images/beginner/id-editor_image1.png
+
+[image1]: /images/beginner/id-editor_image1.png 
 [image2]: /images/beginner/id-editor_image2.png
 [image3]: /images/beginner/id-editor_image3.png
 [image4]: /images/beginner/id-editor_image4.png
@@ -273,37 +209,40 @@ JOSM es mejor...
 [image11]: /images/beginner/id-editor_image11.png
 [image12]: /images/beginner/id-editor_image12.png
 [Map Data]: /images/beginner/id-editor_map_data.png
+[Issues]: /images/beginner/id-editor_issues.png
 [image13]: /images/beginner/id-editor_image13.png
 [image14]: /images/beginner/id-editor_image14.png
 [image15]: /images/beginner/id-editor_image15.png
-[image16]: /images/beginner/id-editor_image16.png
+[DisplayOptions]: /images/beginner/id-editor_display-options.png
 [image17]: /images/beginner/id-editor_image17.png
 [image18]: /images/beginner/id-editor_image18.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
 [image21]: /images/beginner/id-editor_image21.png
 [image22]: /images/beginner/id-editor_image22.png
-[image23]: /images/beginner/id-editor_image23.png
 [image24]: /images/beginner/id-editor_image24.png
-[image25]: /images/beginner/id-editor_image25.png
-[image26]: /images/beginner/id-editor_image26.png
-[image27]: /images/beginner/id-editor_image27.png
-[image28]: /images/beginner/id-editor_image28.png
-[image29]: /images/beginner/id-editor_image29.png
-[image30]: /images/beginner/id-editor_image30.png
-[image31]: /images/beginner/id-editor_image31.png
-[image32]: /images/beginner/id-editor_image32.png
-[image33]: /images/beginner/id-editor_image33.png
+[PointToolContinue]: /images/beginner/id-editor_point-tool-continue.png
+[PointToolDelete]: /images/beginner/id-editor_point-tool-delete.png
+[PointToolDisconnect]: /images/beginner/id-editor_point-tool-disconnect.png
+[PointToolSplit]: /images/beginner/id-editor_point-tool-split.png
+[LineToolCircularize]: /images/beginner/id-editor_line-tool-circularize.png
+[LineToolDelete]: /images/beginner/id-editor_line-tool-delete.png
+[LineToolDisconnect]: /images/beginner/id-editor_line-tool-disconnect.png
+[LineToolMove]: /images/beginner/id-editor_line-tool-move.png
+[LineToolReflectLong]: /images/beginner/id-editor_line-tool-reflect-long.png
+[LineToolReflectShort]: /images/beginner/id-editor_line-tool-reflect-short.png
+[LineToolReverse]: /images/beginner/id-editor_line-tool-reverse.png
+[LineToolRotate]: /images/beginner/id-editor_line-tool-rotate.png
+[LineToolSquare]: /images/beginner/id-editor_line-tool-square.png
+[LineToolStraighten]: /images/beginner/id-editor_line-tool-straighten.png
 [image34]: /images/beginner/id-editor_image34.png
 [image35]: /images/beginner/id-editor_image35.png
+[Issue]: /images/beginner/id-editor_issue.png
+[Error]: /images/beginner/id-editor_error.png
 [image36]: /images/beginner/id-editor_image36.png
-[image37]: /images/beginner/id-editor_image37.png
-[image38]: /images/beginner/id-editor_image38.png
-[image39]: /images/beginner/id-editor_image39.png
-[image40]: /images/beginner/id-editor_image40.png
-[image41]: /images/beginner/id-editor_image41.png
-[image42]: /images/beginner/id-editor_image42.png
-[image43]: /images/beginner/id-editor_image43.png
+[AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
+[crear multipolígono]: /images/beginner/id-editor_create_multipolygon.png
+[parte de multipolígono]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png
