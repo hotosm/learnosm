@@ -9,47 +9,31 @@ category: beginner
 Primeros pasos en OpenStreetMap.org
 ====================================
 
+> Revisado 2015-07-12  
 
-En esta sección vamos a aprender paso a paso cómo navegar por el
-sitio web de OpenStreetMap, ver mapas, y registrar su cuenta
-de usuario. Luego de que tenga su propio nombre de usuario y contraseña, será capaz de
-contribuir sus primeros puntos en el mapa.
+En esta sección, aprenderemos paso a paso cómo navegar por el sitio web de OpenStreetMap, ver mapas y registrarse para obtener una cuenta de usuario. Después de tener su propio nombre de usuario y contraseña, podrá contribuir con sus primeros puntos al mapa.
 
 ![website][]
 
 Visite el sitio web de OpenStreetMap
 -------------------------------
 
-- Antes de empezar, asegúrese que su equipo está conectado a Internet.
-    (Si está leyendo esto en línea, entonces debe estar conectado!)
-- Abra su navegador web. Los navegadores más comunes son Firefox, Chrome, Opera o Internet
-    Explorer. Si ya está abierto entonces puede crear una nueva pestaña.
-- En la barra de direcciones en la parte superior de la ventana, escribe lo siguiente y presione Intro:
+-   Abra su navegador web.
+- En la barra de direcciones en la parte superior de la ventana, escriba lo siguiente y presione Intro:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
-- Cuando la página terminó de cargar, debería ver algo como
-    esto:
+-   Cuando la página haya terminado de cargarse, debería ver algo como esto:
 
     ![OpenStreetMap website with some main functions listed][]
 
 Navegar por el mapa
 ----------------
 
-- Lo principal que debe ver es el mapa. Mueva el mapa haciendo clic
-    con el botón izquierdo del ratón, manteniendo pulsado el botón, y
-    arrastrando el ratón alrededor (ver figura debajo).
+-   Lo principal que debe ver es el mapa. Mueva el mapa haciendo clic en él con el botón izquierdo del mouse, manteniendo presionado el botón y arrastrando el mouse (consulte la figura a continuación).
 
     ![Mouse navigation][]
 
-- Si tiene un ratón con rueda de desplazamiento, acerque y aleje el mapa
-    girando la rueda. Si no tiene una rueda de desplazamiento, utiliza los
-    botones + y - en la esquina superior derecha del mapa. (ver la figura
-    debajo)
-- Para buscar un lugar, haga clic en la caja nombrada como “Buscar” en
-    el lado izquierdo de la página (ver figura anterior). Escriba el nombre de
-    su ciudad o pueblo y presione Intro. Una ventana debería aparecer a la
-    izquierda del mapa con los resultados de su búsqueda. Haga clic en la
-    ubicación que se parece a la que quiera. El mapa será
-    movido automáticamente a la ubicación elegida.
+-   Si tiene un mouse con una rueda de desplazamiento, acerque y aleje el mapa girando la rueda. Si no tiene una rueda de desplazamiento, use los botones + y - en la esquina superior derecha del mapa. (ver figura a continuación)
+-   Para buscar un lugar, haga clic con el botón izquierdo en el cuadro "Buscar" en el lado izquierdo de la página (consulte la figura anterior). Escriba el nombre de su pueblo o aldea y presione Intro. Debería aparecer una ventana a la izquierda del mapa con los resultados de su búsqueda. Haga clic en la ubicación que se parece a la que desea. El mapa se moverá automáticamente a la ubicación que elija.
 
     ![Search][]
    
@@ -57,89 +41,47 @@ Navegar por el mapa
 Ver diferentes estilos de mapa
 ------------------------
 
-OpenStreetMap contiene datos geográficos de todo el mundo. Aunque
-se trata de una sola base de datos, los datos pueden ser interpretados y decorados de
-diferentes maneras. Para ver esto en acción, vamos a ver diversos "estilos" de mapa
-disponibles en el sitio web de OSM.
+OpenStreetMap contiene datos geográficos de todo el mundo. Aunque es una base de datos única, los datos se pueden interpretar y diseñar de diferentes maneras. Para ver esto en acción, veamos varios "estilos" de mapas disponibles en el sitio web de OSM.
 
 - Haga clic en el botón Capas en la parte derecha de la ventana del mapa.
 
     ![Layers button][]
 
-- Haga clic en las diferentes opciones de estilo para el mapa. Observe cómo el mapa
-    cambia con cada uno de ellos. El mapa de transporte, por ejemplo, destaca
-    las rutas de transporte en el mapa mientras que el mapa de bicicleta destaca las rutas
-    de ciclismo. Todos los datos que hacen posible esto están contenidos en la
-    base de datos de OSM.
+-   Haga clic en las diferentes opciones de estilo para el mapa. Observe cómo cambia el mapa con cada uno. El mapa de transporte, por ejemplo, enfatiza las rutas de transporte en el mapa, mientras que el mapa de bicicletas enfatiza las rutas de ciclismo. Todos los datos para hacer esto posible están contenidos en la base de datos OSM.
 
     ![Transport map][]
 
 Crear una cuenta OpenStreetMap
 -------------------------------
 
-- Ahora que ha visto como es el sitio web principal, puede
-    registrarse para obtener un nombre de usuario y contraseña y hacer sus primeros añadidos
-    al mapa.
-- En la página web de OpenStreetMap, haga clic en "registrarse" en la esquina superior
-    derecha de la página.
+-   Ahora que ha visto cómo se ve el sitio web principal, puede registrarse para obtener un nombre de usuario y contraseña y hacer sus primeras adiciones al mapa.
+-   En el sitio web de OpenStreetMap, haga clic en "registrarse" en la esquina superior derecha de la página.
 - Debería ver una nueva página que tiene este aspecto:
 
     ![Registering an OpenStreetMap account][]
 
-- Hay cinco cajas en esta página que necesita llenar para
-    registrar una cuenta de OSM.
-- Introduzca su dirección de correo electrónico en las dos primeras cajas. Debe introducir
-    la misma dirección de correo electrónico en ambas cajas. Más adelante, tendrá que abrir
-    su correo electrónico para confirmar su cuenta con OpenStreetMap.
-- En la tercera caja, introduzca el nombre de usuario que le gustaría tener.
-    No podrá elegir un nombre de usuario que alguien más ha
-    elegido antes, por lo que debe ser creativo. Si intenta introducir
-    algo simple, como su nombre, es probable que alguien
-    ya haya tomado ese nombre.
-- Introduzca una nueva contraseña en las cajas cuarta y quinta. Debe introducir
-    la misma contraseña en ambas cajas. No tiene por qué ser la misma que
-    la contraseña de su correo electrónico.
-- Es posible que desee anotar su nombre de usuario y contraseña de OSM. Va a
-    necesitarlo para ingresar más tarde.
-- Después de haber completado todas las cajas, haga clic en "Registrarse" en la parte
-    inferior de la página.
-- Si hay algún problema, un mensaje de error puede aparecer. Compruebe para
-    asegúrese de que su correo electrónico es el mismo en las dos primeras cajas, y
-    la contraseña es la misma en las dos cajas inferiores. Si la tercera caja
-    es resaltada en rojo, significa que alguien ya eligió
-    su nombre de usuario, y deberá intentar un nombre diferente.
-- Abra una ventana o pestaña separada en su navegador de Internet y vaya
-    a su correo electrónico. Los sitios de correo electrónico más comunes son [mail.yahoo.com](http://mail.yahoo.com)
-    y [www.gmail.com](http://www.gmail.com).
-- Introduzca su dirección de correo electrónico y su contraseña de correo electrónico para abrir su correo electrónico.
-    Tenga en cuenta que estas __no__ son la misma que su nombre de usuario y
-    contraseña de OpenStreetMap.
-- Si todo fue un éxito con su registro, debería ver
-    un correo electrónico de OpenStreetMap en su bandeja de entrada. Abra el correo electrónico. Este debería
-    parecerse a la imagen de abajo. Haga clic en el enlace que se identifica
-    a continuación:
+-   Hay cinco casillas en esta página que debe completar para registrar una cuenta con OSM.
+-   Ingrese su dirección de correo electrónico en los primeros dos cuadros. Debe ingresar la misma dirección de correo electrónico en ambos cuadros. Más tarde, deberá abrir su correo electrónico para confirmar su cuenta con OpenStreetMap.
+-   En el tercer cuadro, ingrese el nombre de usuario que le gustaría tener. No podrá elegir un nombre de usuario que otra persona haya elegido antes, por lo que debe ser creativo. Si intenta ingresar algo simple, como su nombre de pila, es probable que alguien ya haya reclamado ese nombre.
+-   Ingrese una nueva contraseña en los cuadros cuarto y quinto. Debe ingresar la misma contraseña en ambos cuadros. No debe * usar * una importante, como la contraseña de su correo electrónico.
+-   Es posible que desee anotar su nombre de usuario y contraseña de OSM. Lo necesitará para iniciar sesión más tarde.
+-   Después de haber completado todos los cuadros, haga clic en "Registrarse" en la parte inferior de la página.
+-   Si hay algún problema, puede aparecer un mensaje de error. Asegúrese de que su correo electrónico sea el mismo en los dos primeros cuadros y que su contraseña sea la misma en los dos cuadros inferiores. Si el tercer cuadro está resaltado en rojo, significa que otra persona ya ha elegido su nombre de usuario, y debe probar con un nombre diferente.
+-   Eche un vistazo a tu correo electrónico.
+-   Si todo fue exitoso con su registro, debería ver un correo electrónico de OpenStreetMap en su bandeja de entrada. Abre el correo electrónico. Debería verse como la imagen de abajo. Haga clic en el enlace que se identifica a continuación:
 
     ![Confirming your OpenStreetMap account][]
 
-- Una nueva pestaña o ventana se abrirá. ¡Si todo ha ido bien, debería
-    tener una cuenta OSM!
-- En la página de OpenStreetMap, haga clic en "iniciar sesión" en la esquina superior derecha.
-    Introduzca su nombre de usuario y contraseña de OpenStreetMap y presione Intro.
-    Debería ahora estar conectado. Debería ver su nombre de usuario en la parte superior
-    derecha de la página.
+-   Se abrirá una nueva pestaña o ventana. Si todo salió bien, ¡debería tener una cuenta OSM!
+-   En la página OpenStreetMap, haga clic en "iniciar sesión" en la esquina superior derecha. Ingrese su nombre de usuario y contraseña de OpenStreetMap y presione Entrar. Ahora debe iniciar sesión. Debería ver su nombre de usuario en la esquina superior derecha de la página.
 
 Añadiendo sus primeros puntos
 ------------------------
 
-- Ahora que ya está conectado con su nombre de usuario en el sitio web de
-    OpenStreetMap, puede utilizar el editor iD para añadir su primer punto al
-    mapa.
-- Mueva el mapa a un lugar que conozca muy bien, como su ciudad
-    o barrio. Una buena idea es asegurarse que su casa (o la casa de su vecino) y el lugar de trabajo están dibujados y tienen la dirección correcta. 
-- Acercarse a un lugar donde le gustaría añadir un punto al mapa (tal vez un restaurante o la tienda de comestibles cercana que aún no están mapeadas).
-- Justo por encima del mapa de la izquierda, hay una pestaña llamada "Editar" con un pequeño
-    triángulo. Haga clic en el pequeño triángulo. Debería ver un menú
-    desplegable.
+-   Ahora que ha iniciado sesión con su nombre de usuario en el sitio web de OpenStreetMap, puede usar el editor de iD para agregar su primer punto al mapa.
+-   Mueva el mapa a un lugar que conozca muy bien, como su ciudad o vecindario. Una buena idea es asegurarse de que su hogar (o el hogar de su vecino) y el lugar de trabajo se dibujen y reciban la dirección correcta. 
+- Acercarse a un lugar donde le gustaría agregar un punto al mapa (tal vez un restaurante o la tienda de comestibles cercanos que aún no están mapeadas).
+-   Justo encima del mapa a la izquierda, hay una pestaña llamada "Editar" con un pequeño triángulo al lado. Haz clic en el pequeño triángulo. Debería ver un menú desplegable.
 - Haga clic en "Editar con iD (editor en el navegador)".
 
     ![Click edit][]
@@ -148,42 +90,26 @@ Añadiendo sus primeros puntos
 
     ![iD editor][]
 
-- Puede agregar un punto al mapa haciendo clic en el botón llamado "Punto" en
-    la parte superior de la ventana. Luego, haga clic en el mapa donde desea añadir un nuevo
-    punto.
+-   Puede agregar un punto al mapa haciendo clic en el botón llamado "Punto" en la parte superior de la ventana. Luego haga clic en el mapa donde desea agregar un nuevo punto.
 
     ![Point button][]    
 
-- Seleccione en el menú de la izquierda qué tipo de lugar es el que está
-    añadiendo al mapa. Puede rellenar el formulario correspondiente con el
-    nombre del lugar y otra información.
-- Para guardar los cambios, haga clic en el botón "Guardar" en la parte superior. Dado que es su
-    primera edición, es posible que prefiera jugar con el editor. No guarde los cambios
-    a menos que esté seguro de que son correctos.
+-   Seleccione en el menú de la izquierda qué tipo de ubicación está agregando al mapa. Luego puede completar el formulario correspondiente con el nombre de la ubicación y otra información.
+-   Para guardar sus cambios, haga clic en el botón "Guardar" en la parte superior. Dado que esta es su primera edición, puede preferir jugar con el editor. No guarde sus cambios a menos que esté seguro de que son correctos.
 
     ![Save button][]    
 
-- Si hace clic en Guardar, se le pedirá que proporcione una descripción de los cambios.
-    Luego puede hacer clic en "Guardar" una vez más, y sus adiciones se guardarán en la
-    base de datos de OSM!
+-   Si hace clic en Guardar, se le pedirá que proporcione una descripción de sus cambios. Luego puede hacer clic en "Guardar" una vez más, ¡y sus adiciones se guardarán en la base de datos OSM!
 
 
-El editor iD es una herramienta fantástica para editar fácilmente OSM, y podrá encontrar  
-más sobre como usarlo en [iD editor guide](/es/beginner/id-editor/)
-También puede usar el  [tutorial]((http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
-que es una buena forma interactiva de descubrir el editor.
+El editor iD es una manera fantástica de editar fácilmente OpenStreetMap, y puede obtener más información sobre su uso en la [guía del editor iD](/es/beginner/id-editor/). También puede reproducir el [tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true), que es una manera excelente e interactiva de descubrir el editor.
 
-No obstante, en [JOSM section](/es/josm/) encontramos la aplicación tutorial 
-que ofrece muchas más características.
-Siéntase libre de continuar jugando con iD. Una vez que obtenga más experiencia contribuya con OSM, 
-puede elegir que editor - iD o JOSM- prefiere utilizar.
+Sin embargo, en la [sección JOSM](/es/josm/) veremos una aplicación independiente que ofrece muchas más funciones. Siéntete libre de seguir jugando con iD. Una vez que tenga más experiencia contribuyendo a OSM, puede elegir qué editor, iD o JOSM, le gusta usar mejor.
 
 Resumen
 -------
 
-¡Felicitaciones! Si todo ha ido bien ahora tiene un nombre de usuario OpenStreetMap
-y contraseña, sabe cómo navegar en el sitio web de OSM, y tiene
-una primer idea de cómo agregar puntos al mapa.
+¡Felicidades! Si todo salió bien, ahora tiene un nombre de usuario y contraseña de OpenStreetMap, sabe cómo navegar por el sitio web de OSM y tiene su primer conocimiento de cómo agregar puntos al mapa.
 
 
 
