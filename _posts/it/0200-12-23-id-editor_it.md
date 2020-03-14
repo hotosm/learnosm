@@ -169,7 +169,7 @@ Ulteriori tutorial
 Differenze tra iD e JOSM
 ---------------  
 
-**iD è ideale ... **
+**iD è ideale ...**
 
 - Quando si devono fare delle modifiche semplici  
 - Quando hai una connessione internet veloce per caricare le immagini e salvare gli edit (le modifiche).  
