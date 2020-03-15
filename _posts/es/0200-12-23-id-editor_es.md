@@ -133,11 +133,11 @@ Un "polígono" en el editor iD es en realidad una "vía cerrada" con etiquetas a
 
 A veces hay que dibujar un polígono que no solo tiene un contorno externo sino también uno o más contornos internos. Solo piense en edificios con patios interiores o lagos con islas. *No dibuje todas estas formas en una sola línea* para que los contornos internos se suspendan del contorno externo. En lugar de dibujar estos contornos por separado, asigne etiquetas solo al contorno exterior, seleccione todos los contornos y presione **c** para combinarlos en lo que se llama multipolígono.
 
-![crear multipolígono][]
+![create multipolygon][]
 
 Cuando selecciona cualquiera de los contornos del multipolígono recién creado, puede ver a la izquierda a qué multipolígonos pertenece
 
-![parte de multipolígono][]
+![part of multipolygon][]
 
 ## Problemas
 
@@ -243,6 +243,6 @@ iD versus JOSM
 [AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
-[crear multipolígono]: /images/beginner/id-editor_create_multipolygon.png
-[parte de multipolígono]: /images/beginner/id-editor_part_of_multipolygon.png
+[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
+[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png
