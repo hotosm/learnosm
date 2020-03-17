@@ -355,7 +355,7 @@ table {
   font-weight:700;
 }
 
-#ads a{
+#topbtns a{
   display:block;
   color:#4d4d4d;
   padding:10px 20px;
@@ -368,17 +368,17 @@ table {
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
 }
-#ads a span:first-child {
+#topbtns a span:first-child {
   display:block;
   font-weight:700;
 }
-#ads a:hover {color:#101010;}
-#ads .ad1 a {height:204px;background:#92d07a;margin-right:20px;}
-#ads .ad2 a {height:80px; background:#ffd429;margin-bottom:20px;}
-#ads .ad3 a {height:84px; background:#7abeff;}
-  #ads .ad2 a:hover {background:#f0ca42;}
-  #ads .ad3 a:hover {background:#90c4f5;}
-  #ads .ad1 span.door {
+#topbtns a:hover {color:#101010;}
+#topbtns .tb1 a {height:204px;background:#92d07a;margin-right:20px;}
+#topbtns .tb2 a {height:80px; background:#ffd429;margin-bottom:20px;}
+#topbtns .tb3 a {height:84px; background:#7abeff;}
+  #topbtns .tb2 a:hover {background:#f0ca42;}
+  #topbtns .tb3 a:hover {background:#90c4f5;}
+  #topbtns .tb1 span.door {
     float: right;
     margin-right: -20px;
     margin-top: -35px;
@@ -387,7 +387,7 @@ table {
     background:transparent url(./img/sprite.png);
     background-position:-280px -160px;
   }
-    #ads .ad1 span.door:hover {
+    #topbtns .tb1 span.door:hover {
       background-position:-270px -193px;
     }
 .icon {
@@ -771,10 +771,11 @@ input.default-value {
   h4 {margin:10px 0;}
   #header {background: none;}
   #header > * {margin:0 -20px 0 20px;}
-  #ads a {border-radius:0;}
-  #ads .ad1, #ads .ad2, #ads .ad3 {height:auto;}
-  #ads .ad1 a, #ads .ad2 a, #ads .ad3 a {margin:0;}
-  /*#ads .ad1 span.door {margin-top:-60px;}*/
+  #topbtns a {border-radius:0;}
+  #topbtns .tb1, #topbtns .tb2, #topbtns .tb3 {height:auto;}
+  #topbtns .tb1 a, #topbtns .tb2 a, #topbtns .tb3 a {margin:0;}
+  /*#topbtns .tb1 span.door {margin-top:-60px;}*/
+  #footer {position:relative;}
   .searchbox-default {padding-left:10px;float:right;}
   .searchbox-default input { width: 170px; outline: 2px solid #f0f0f0; }
   .searchbox {border-radius:0px; border:8px solid #f0f0f0;}

@@ -2,24 +2,24 @@
 layout: default
 ---
 <html dir="rtl">
-<div id='ads' class='marginL cell9 padAll'>
-  <div class='ad1 cell8 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
+<div id='topbtns' class='marginL cell9 padAll'>
+  <div class='tb1 cell8 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
     <a href='{{site.baseurl}}/{{page.lang}}/beginner'>
-      <span class='ad-title'>{{ page.begspan }}</span>
-      <span class='ad-txt'>{{ page.beg }}</span>
+      <span class='tb-title'>{{ page.begspan }}</span>
+      <span class='tb-txt'>{{ page.beg }}</span>
       <span class='door'></span>
     </a>
   </div>
-  <div class='ad2 cell4 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
+  <div class='tb2 cell4 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
     <a href='{{page.interspanlink}}'>
-      <span class='ad-title'>{{page.interspan}}</span>
-      <span class='ad-txt'>{{ page.inter }}</span>
+      <span class='tb-title'>{{page.interspan}}</span>
+      <span class='tb-txt'>{{ page.inter }}</span>
     </a>
   </div>
-  <div class='ad3 cell4 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
+  <div class='tb3 cell4 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
     <a href='{{page.advspanlink}}'>
-      <span class='ad-title'>{{page.advspan}}</span>
-      <span class='ad-txt'>{{page.adv}}</span>
+      <span class='tb-title'>{{page.advspan}}</span>
+      <span class='tb-txt'>{{page.adv}}</span>
     </a>
   </div>
 </div>
@@ -45,7 +45,7 @@ layout: default
 </div>
 <script>
 // detect if ad is overflowing
-var spanTitle = $('span.ad-title','#ads');
+var spanTitle = $('span.tb-title','#topbtns');
   $.each(spanTitle, function(i,el){
   var titleParent = el.parentElement,
       titleSister = el.nextElementSibling;
