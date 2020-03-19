@@ -60,7 +60,7 @@ Haga su mejor esfuerzo: incluso los expertos estarán en desacuerdo a veces, y a
 Etiquetas de edificio
 -------------
 
-Como estamos etiquetando edificios que nunca hemos visitado y con los que no estamos familiarizados, el esquema de etiquetado más seguro y recomendado es *building**=**yes** que puede ver en un edificio etiquetado correctamente si se desplaza hacia la parte inferior de panel de etiquetado y haga clic en **Todas las etiquetas**.  
+Como estamos etiquetando edificios que nunca hemos visitado y con los que no estamos familiarizados, el esquema de etiquetado más seguro y recomendado es **building**=**yes** que puede ver en un edificio etiquetado correctamente si se desplaza hacia la parte inferior de panel de etiquetado y haga clic en **Todas las etiquetas**.  
 
 Vea también  
 ---------
@@ -72,7 +72,7 @@ Vea también
 
 
 
-[Rectangular building]: /images/hot-tips/rectangular_building.gif "Trazar un edificio rectangular, escuadrar las esquinas y agregar etiquetas".
+[Rectangular building]: /images/hot-tips/rectangular_building.gif "Trazar un edificio rectangular, escuadrar las esquinas y agregar etiquetas."
 [keymon]:/images/hot-tips/keymon.png
 [building-ridge]: /images/hot-tips/building-ridge.png
 [back arrow]: /images/beginner/back-arrow.png
