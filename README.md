@@ -1,6 +1,6 @@
 # LearnOSM
 
-Repository for http://learnosm.org 
+Repository for https://learnosm.org 
 
 ![homepage](https://raw.github.com/hotosm/learnosm/gh-pages/homepage.png)
 
@@ -16,4 +16,4 @@ If you want to rework a document, submit a new document, modify pictures please 
 Check out [CONTRIBUTING.md](CONTRIBUTING.md) for more on how to contribute directly to LearnOSM, run the site locally or develop new content.
 -->
 
-**Important:** If you want to translate documents from English or improve one of the existing translations, please check out  http://learnosm.org/en/contribute/translator/. We no longer accept translated contents in pull requests but use Transifex in order to manage translations.
+**Important:** If you want to translate documents from English or improve one of the existing translations, please check out  https://learnosm.org/en/contribute/translator/. We no longer accept translated contents in pull requests but use Transifex in order to manage translations.
