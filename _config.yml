@@ -361,3 +361,5 @@ translations:
 #    quickaccess: "Hitri dostop"
 #    returntotop: "Vrnite se na vrh strani"
 
+
+theme: jekyll-theme-minimal
