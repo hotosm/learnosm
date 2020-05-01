@@ -9,12 +9,13 @@ category: consigli utili
 Editor iD: Copiare, Incollare e Ruotare
 ============
 
+> Revisionato il 2019-06-24
+
 ![copy-paste][]
 
-Questa immagine ![keymon]{: height="24px"} ti mostra quali bottoni o rotelline del mouse sono stati usati, e quali tasti della tastiera sono stati premuti.  
 
 Puoi facilmente copiare, incollare e ruotare oggetti, ma accertati che siano della giusta dimensione.  
-Seleziona col mouse, poi **Ctrl+c** per copiare, e **Ctrl+v** per incollare.   
+Seleziona col mouse, poi **Ctrl+c** per copiare e **Ctrl+v** per incollare. Se necessario puoi 'riflettere' un oggetto rispetto il suo asse lungo e/o corto.   
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png

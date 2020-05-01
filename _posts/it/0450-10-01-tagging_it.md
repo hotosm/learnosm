@@ -9,12 +9,13 @@ category: hot-tips
 Tagging - iD editor
 ============
 
+> Revisionato il 2019-06-28
+
 - TOC
 {:toc}
 
 ![tagging][]
 
-> Questa immagine ![keymon]{: height="24px"} mostra quali bottoni o rotellina del mouse è stata usata, e quale bottone della tastiera è stato pigiato.  
 
 Perchè sono necessari i tag?
 -------------------

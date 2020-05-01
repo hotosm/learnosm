@@ -9,9 +9,9 @@ category: beginner
 Editor iD
 =============
 
-Revisionato il 30-05-2016  
+> Revisionato il 2019-06-10
 
-Stai iniziando a mappare per il Tasking Manager HOT o per MissingMaps, etc. ? Vedi la [sezione Consigli per HOT](/it/hot-tips/).  
+Stai iniziando a mappare per il Gestore attività (tasking manager) HOT o per MissingMaps, etc? Vedi la [sezione Consigli per HOT](/it/hot-tips/).  
 
 - CONTENUTO
 {:toc}
@@ -44,23 +44,22 @@ Interfaccia utente dell'editor iD
     Disegna una figura (un poligono), *scorciatoia da tastiera* **3** ![image5][]{: height="24px"}  
     Annulla azione, *scorciatoia da tastiera* **Ctrl+z** ![image6][]{: height="24px"}  
     Ripeti azione, *scorciatoia da tastiera* **Ctrl+y** ![image7][]{: height="24px"}  
-    Salva modifiche, *scorciatoia da tastiera* **Ctrl+s** ![image8][]{: height="24px"}  
+    Salva modifiche, *scorciatoia da tastiera* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **Pannello della mappa:** Questo pannello mostra le varie funzioni di configurazione:  
     Ingrandisci visuale, *scorciatoia da tastiera* **+** ![image9][]{: height="24px"}  
     Riduci visuale, *scorciatoia da tastiera* **-** ![image10][]{: height="24px"}  
     Salta alla tua posizione geografica ![image11][]{: height="24px"}  
     Configura il livello di sfondo, *tasto scorciatoia* **b** ![image12][]{: height="24px"}  
     Dati visualizzati sulla mappa, *tasto scorciatoia* **f** ![Map Data][]{: height="24px"}  
+    Problematiche, *scorciatoia da tastiera* **i** ![Issues][]{: height="24px"}  
     Apri il menu di aiuto, *scorciatoia da tastiera* **h** ![image13][]{: height="24px"}  
 4. **Pannello informazioni:** Questo pannello mostra diverse informazioni, quali l'indicatore della scala e quali utenti hanno contribuito all'area visualizzata.  
 
-Configura lo strato di sfondo
---------------------------------
+## Configurare il livello di sfondo
 
 Clicca sul tasto **Sfondo** o usa il *tasto scorciatoia* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-Per cambiare il **livello di luminosità**  clicca una di queste caselle, i livelli sono 100%, 75%, 50%, e 25% ![image16][]{: height="24px"}  
-Puoi anche **cambiare lo strato di sfondo** in base al fornitore di immagini che preferisci (di base vengono mostrate le immagini aeree di Bing).  
+Puoi **cambiare il livello di sfondo** in base al provider di immagini che preferisci (di base vengono mostrate le immagini aeree di Bing).  
 
 Puoi anche aggiungere un tuo strato di immagini di sfondo cliccando su **Personalizzato**. Per esempio, se vuoi **aggiungere un -fieldPapers** allora clicca sull'icona con lente d'ingrandimento (ricerca) per aprire la seguente finestra:-  
 ![image17][]   
@@ -68,7 +67,10 @@ e inserisci il tuo **indirizzo URL del Fieldpaper**, che sarà qualcosa simile a
 Per **visualizzare tue tracce GPS dal tuo computer** (in formato GPX), seleziona, trascina e rilascia il tuo file nella finestra dell'editor iD.  
 Per abilitare **le tracce GPS OpenStreetMap** clicca sul riquadro. Nell'immagine sotto sono mostrate delle tracce GPS pubbliche in diversi colori, è mostrato anche il senso di percorrenza.  
 ![osm gps traces][]  
-Se c'è un [disallineamento delle immagini](/en/josm/aerial-imagery), puoi **correggere lo scostamento** cliccando su **Correggi spostamento immagini**. ![image18][]  
+Per cambiare l'**aspetto delle immagini di sfondo** clicca **Impostazioni dello sfondo**.  
+![DisplayOptions][]  
+Se c'è un [disallineamento delle immagini](/en/josm/aerial-imagery), puoi **correggere lo scostamento** cliccando su **Correggi spostamento immagini**.  
+![image18][]  
 
 - Clicca sui bottoni di navigazione per muovere le immagini. Clicca sul bottone di reset per riportarle alla loro posizione iniziale.  ![image20][]  
 
@@ -84,7 +86,7 @@ Per inserire un nuovo punto, fai click sul bottone **Punto**. ![image3][]{: heig
 - Noterai che è stato aggiunto un punto. Allo stesso tempo il pannello di sinistra cambierà per mostrarti una maschera dove puoi selezionare gli attributi da applicare all'oggetto. Clicca su **Area Ospedaliera** per taggare (marcare) il punto come ospedale.  
 ![image22][]  
 - Puoi usare le maschere per inserire informazioni di dettaglio sui tuoi punti. Puoi inserire il nome dell'ospedale, e/o altre informazioni aggiuntive. Nota che ciascuna caratteristica avrà differenti opzioni, in base a quale tag hai scelto dal pannello di aggiunta/modifica.  
-- Se commetti un errore, come ad esempio una posizione sbagliata, puoi muovere il tuo punto in una nuova posizione tenendo premuto il tasto sinistro del mouse sul punto e trascinandolo. Oppure, se vuoi eliminare il tuo punto, clicca con il tasto sinistro del mouse sul punto, attiva il menù contestuale cliccando con il tasto destro del mouse e poi clicca il pulsante che assomiglia ad un cestino. ![image23][]{: height="24px"}  
+- Se commetti un errore, come ad esempio una posizione sbagliata, puoi muovere il tuo punto in una nuova posizione tenendo premuto il tasto sinistro del mouse sul punto e trascinandolo. Oppure, se vuoi eliminare il tuo punto, clicca con il tasto sinistro del mouse sul punto, attiva il menù contestuale cliccando con il tasto destro del mouse e poi clicca il pulsante che assomiglia ad un cestino. ![PointToolDelete][]{: height="24px"}  
 Un "punto" creato nell'editor iD è in realtà un "nodo" indipendente con uno o più tag applicati ad esso.  
 
 ### Disegnare linee  
@@ -95,17 +97,22 @@ Per inserire una nuova linea, fai click sul bottone **Linea**. ![image4][]{: hei
 ![image24][]  
 - Proprio come con un punto, seleziona il tag appropriato per la tua linea.  
 - Puoi trascinare punti dalla linea semplicemente cliccandoci sopra col tasto sinistro del mouse e trascinandoli.  
-- Puoi anche muovere l'intera linea selezionandola e scegliendo **Muovi**. Trascina quindi la linea nella nuova posizione. ![image30][]{: height="24px"}  
-- Quando clicchi con il tasto sinistro del mouse su un punto individuale (nodo) della linea e clicchi con il tasto destro del mouse per attivare il menù contestuale, vedrai i seguenti strumenti:  
-- Elimina il punto dalla linea. ![image23][]{: height="24px"}  
-- Disconnetti il punto dalla linea. ![image26][]{: height="24px"}  
-- Dividi una linea in due nel punto che hai selezionato. ![image27][]{: height="24px"}  
+- Quando clicchi con il tasto sinistro del mouse su un punto individuale (nodo) della linea e clicchi con il tasto destro del mouse o premi la barra spaziatrice per attivare il menù contestuale, vedrai i seguenti strumenti:  
+  - Continua la linea da questo punto ![PointToolContinue][]{: height="24px"}  
+  - Disconnetti le linee in questo punto ![PointToolDisconnect][]{: height="24px"}  
+  - Dividi una linea in questo punto. ![PointToolSplit][]{: height="24px"}  
+  - Elimina il punto dalla linea. ![PointToolDelete][]{: height="24px"}  
 - Quando clicchi con tasto sinistro del mouse su una linea (ma non su un punto) vedrai apparire questi strumenti:  
-- Cancella linea. ![image23][]{: height="24px"}  
-Crea un cerchio dalla linea (attivo solo se la linea è chiusa su sè stessa). ![image29][]{: height="24px"}  
-- Muovi la linea. ![image30][]{: height="24px"}  
-- Crea una forma quadrata dalla linea (attiva solo se la linea è chiusa su sè stessa). ![image31][]{: height="24px"}  
-- Inverti la direzione della linea (buono in caso di fiumi, strade a senso unico o muri di contenimento). ![image32][]{: height="24px"}  
+  -   Crea un cerchio dalla linea (attivo solo se la linea è chiusa) ![LineToolCircularize][]{: height="24px"}  
+  -   Disconnetti la linea dagli altri oggetti ![LineToolDisconnect][]{: height="24px"}  
+  -   Muovi la linea ![LineToolMove][]{: height="24px"}  
+  -   Rendi a spigolo vivo tutti gli angoli ![LineToolSquare][]{: height="24px"}  
+  -   Refletti la linea rispetto il suo asse corto ![LineToolReflectShort][]{: height="24px"}  
+  -   Refletti la linea rispetto il suo asse lungo  ![LineToolReflectLong][]{: height="24px"}  
+  -   Inverti la direzione della linea (utile per fiumi e strade a senso unico) ![LineToolReverse][]{: height="24px"}  
+  -   Ruota la linea intorno al suo centro ![LineToolRotate][]{: height="24px"}  
+  -   Raddrizza la linea ![LineToolStraighten][]{: height="24px"}  
+  -   Cancella la linea. ![LineToolDelete][]{: height="24px"}  
 
 Una "linea" creata nell'editor iD è realmente una "way" (un percorso) con "tag" (descrittori) applicati su di essa.
 
@@ -132,6 +139,14 @@ Quando selezioni un qualsiasi contorno del multipoligono appena creato puoi vede
 
 ![part of multipolygon][]
 
+## Problemi
+
+L'editor effettua un numero di controlli non appena viene modificato qualcosa. Se pensa che quello che hai fatto possa causare problemi lo notifica nella scheda problemi. Qualora l'icona problemi presenti un punto giallo (in caso di segnalazioni) o rosso (in caso si problemi) sarebbe opportuno aprire la scheda e visionare i messaggi che vengono riportati. Questa informazione è visualizzata anche nella scheda delle caratteristiche sulla sinistra quando l'oggetto è selezionato. Si viene anche avvertiti che sono presenti dei problemi quando si caricano le modifiche. 
+
+![Issue][] ![Error][]
+
+La parte inferiore della scheda dei problemi mostra le regole disponibili e ti permette di disabilitarle individualmente, anche se questo non è raccomandato.
+
 Salvare le modifiche
 --------------------
 
@@ -145,17 +160,11 @@ Quando (e se) vuoi salvare le tue modifiche su OpenStreetMap, clicca il bottone 
 Ulteriori informazioni e tag personalizzati
 ---------------------------------------
 
-Quando stai editando un oggetto, vedrai una striscia di icone in basso nel pannello degli attributi. Puoi aggiungere informazioni addizionali cliccando su queste icone:
+Quando stai editando un oggetto, vedrai un menu "Aggiungi Campo" sul fondo del pannello attributi. Puoi aggiungere varie informazioni addizionali selezionando una delle possibilità (piano, elevazione, wikipedia etc.).  
 
-- Aggiungere l'altezza ![image37][]{: height="24px"}  
-- Aggiungi note  ![image38][]{: height="24px"}  
-- Aggiungi contatti / numero telefonico ![image39][]{: height="24px"}  
-- Aggiungi il tag source (da dove proviene l'informazione che hai usato)  ![image40][]{: height="24px"}  
-- Aggiungere il sito ![image41][]{: height="24px"}  
-- Aggiungi informazioni sull'accessibilità  ![image42][]{: height="24px"}  
-- Aggiungere un link a Wikipedia ![image43][]{: height="24px"}  
+![AdditionalTags][]
 
-o puoi aggiungere altri tag cliccando su **Tutti i tag**. ![image44][]{: height="24px"}  
+Oppure puoi aggiungere tag personalizzati cliccando su **Tutti i tag**. ![image44][]{: height="24px"}  
 
 - Questo mostrerà tutti i tag associati all'oggetto.  
 ![image45][]  
@@ -169,7 +178,7 @@ Ulteriori tutorial
 Differenze tra iD e JOSM
 ---------------  
 
-**iD è ideale ... **
+**iD è ideale ...**
 
 - Quando si devono fare delle modifiche semplici  
 - Quando hai una connessione internet veloce per caricare le immagini e salvare gli edit (le modifiche).  
@@ -184,8 +193,6 @@ Differenze tra iD e JOSM
 - Quando stai usando un particolare schema di tag (o preset custom, quale ad esempio il preset CAI).
 
 [^fieldpaper]: C'è una sezione di [LearnOSM](/en/mobile-mapping/field-papers/) che da maggiori informazioni sui Field Papers.
-
-Il contenuto di questa guida è disponibile come [presentazione](/files/iD-editor-training.pptx)
 
 
 
@@ -202,37 +209,38 @@ Il contenuto di questa guida è disponibile come [presentazione](/files/iD-edito
 [image11]: /images/beginner/id-editor_image11.png
 [image12]: /images/beginner/id-editor_image12.png
 [Map Data]: /images/beginner/id-editor_map_data.png
+[Issues]: /images/beginner/id-editor_issues.png
 [image13]: /images/beginner/id-editor_image13.png
 [image14]: /images/beginner/id-editor_image14.png
 [image15]: /images/beginner/id-editor_image15_it.png
-[image16]: /images/beginner/id-editor_image16.png
+[DisplayOptions]: /images/beginner/id-editor_display-options.png
 [image17]: /images/beginner/id-editor_image17_it.png
 [image18]: /images/beginner/id-editor_image18_it.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
 [image21]: /images/beginner/id-editor_image21_it.png
 [image22]: /images/beginner/id-editor_image22_it.png
-[image23]: /images/beginner/id-editor_image23.png
 [image24]: /images/beginner/id-editor_image24_it.png
-[image25]: /images/beginner/id-editor_image25.png
-[image26]: /images/beginner/id-editor_image26.png
-[image27]: /images/beginner/id-editor_image27.png
-[image28]: /images/beginner/id-editor_image28.png
-[image29]: /images/beginner/id-editor_image29.png
-[image30]: /images/beginner/id-editor_image30.png
-[image31]: /images/beginner/id-editor_image31.png
-[image32]: /images/beginner/id-editor_image32.png
-[image33]: /images/beginner/id-editor_image33.png
+[PointToolContinue]: /images/beginner/id-editor_point-tool-continue.png
+[PointToolDelete]: /images/beginner/id-editor_point-tool-delete.png
+[PointToolDisconnect]: /images/beginner/id-editor_point-tool-disconnect.png
+[PointToolSplit]: /images/beginner/id-editor_point-tool-split.png
+[LineToolCircularize]: /images/beginner/id-editor_line-tool-circularize.png
+[LineToolDelete]: /images/beginner/id-editor_line-tool-delete.png
+[LineToolDisconnect]: /images/beginner/id-editor_line-tool-disconnect.png
+[LineToolMove]: /images/beginner/id-editor_line-tool-move.png
+[LineToolReflectLong]: /images/beginner/id-editor_line-tool-reflect-long.png
+[LineToolReflectShort]: /images/beginner/id-editor_line-tool-reflect-short.png
+[LineToolReverse]: /images/beginner/id-editor_line-tool-reverse.png
+[LineToolRotate]: /images/beginner/id-editor_line-tool-rotate.png
+[LineToolSquare]: /images/beginner/id-editor_line-tool-square.png
+[LineToolStraighten]: /images/beginner/id-editor_line-tool-straighten.png
 [image34]: /images/beginner/id-editor_image34_it.png
 [image35]: /images/beginner/id-editor_image35_it.png
+[Issue]: /images/beginner/id-editor_issue.png
+[Error]: /images/beginner/id-editor_error.png
 [image36]: /images/beginner/id-editor_image36_it.png
-[image37]: /images/beginner/id-editor_image37.png
-[image38]: /images/beginner/id-editor_image38.png
-[image39]: /images/beginner/id-editor_image39.png
-[image40]: /images/beginner/id-editor_image40.png
-[image41]: /images/beginner/id-editor_image41.png
-[image42]: /images/beginner/id-editor_image42.png
-[image43]: /images/beginner/id-editor_image43.png
+[AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45_it.png
 [Crea un multipoligono]: /images/beginner/id-editor_create_multipolygon.png
