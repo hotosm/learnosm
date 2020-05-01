@@ -34,7 +34,7 @@ layout: default
                      we need to reference the second guide of the current category for the 'proceed-to' link later -->
                   {% assign first_guide = "0" %}
                   {% for subpost in site.categories[page.category] %}
-                    {% if subpost.lang == page.lang %}{% unless subpost.cover or subpost.hidden %}
+                    {% if subpost.lang == page.lang %}{% unless subpost.cover or subpost.hidden or subpost.navigation == 'skip' %}
                     <li class='doc doc-nav-secondary rounded'>
                       {% if first_guide == "0" %}
                         <a class='title {% if page.url == subpost.url %}active{% endif %} doc-first-guide' href="{{site.baseurl}}{{ subpost.url }}">
