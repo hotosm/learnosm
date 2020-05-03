@@ -23,7 +23,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[Mapper guide](/en/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
+[User guide](/en/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
 </div>
 </div>
 
@@ -38,7 +38,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager3) [Project administration guide](/en/coordination/tasking-manager3-project-admin)
+[User guide](/en/coordination/tasking-manager3) [Administrator guide](/en/coordination/tasking-manager3-project-admin)
 </div>
 </div>
 
@@ -54,7 +54,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager) [Project administration guide](/en/coordination/tasking-manager-project-admin)
+[User guide](/en/coordination/tasking-manager) [Administrator guide](/en/coordination/tasking-manager-project-admin)
 </div>
 </div>
 
