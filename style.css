@@ -272,6 +272,24 @@ table {
   width: 100%;
 }
 
+figure {
+  margin-left: 10%;
+}
+
+.disambiguation-link {
+  margin-left: 10%
+}
+
+.disambiguation-link p a {
+  color: #ffffff;
+  background-color: #79bc5f;
+  padding: 10px;
+}
+
+.disambiguation-version {
+  margin-bottom: 100px;
+}
+
 #wrapper {
   display: flex;
   flex-direction: column;
@@ -320,6 +338,7 @@ table {
   padding:20px 0px;
   background: #fff url(./img/dot.png) repeat-x bottom;
 }
+
 .banner, .banner-mobile {
   position: fixed;
   z-index: 99;
@@ -403,12 +422,13 @@ table {
   height:60px;
   background:url(./img/sprite.png) no-repeat;
 }
-  .logo-learn {
-    width:170px;
-    height:42px;
-    margin-bottom:8px;
-    background-position:0px -115px;
-    }
+
+.logo-learn {
+  width:170px;
+  height:42px;
+  margin-bottom:8px;
+  background-position:0px -115px;
+}
 
 #front {
   margin-top: 16px;
@@ -475,14 +495,16 @@ input.default-value {
   color:#ccc !important;
   font-style: italic;
 }
+
 .searchbox-default {
   padding-right: 16px;
   float:left;
 }
+
 .searchbox-default input {
   border: none;
   margin-top: 9px;
-  background-color:#ffffff;
+  background-color: #ffffff;
   height: 20px;
   width: 280px;
 }
@@ -613,8 +635,8 @@ input.default-value {
   border-top: 4px solid   #f0f0f0;
   border-left: 4px solid  #f0f0f0;
   border-right: 4px solid #f0f0f0;
-}
- 
+  }
+
 .doc .cover span:before {
   content:'';
 }
@@ -686,6 +708,12 @@ input.default-value {
   .doc h2:hover:before,.doc h2:target:before,
   .doc h3:hover:before,.doc h3:target:before {
     background-position: -109px -183px;
+    }
+
+  .doc .highlighter-rouge {
+    background-color: #ccc;
+    font-weight: bold;
+    padding: 0 5px;
     }
 
 /* contribute page */
@@ -787,7 +815,7 @@ input.default-value {
   .doc h1, .doc p, .doc ul, .doc ol {margin-left:15px;width:95%;}
   .doc h2, .doc h3 {margin-left:30px;width:95%;}
   #content {padding-bottom:30px;}
-  #footer { padding-left:15px; width: 98%; height: 16rem; }
+  #footer {padding-left:15px; width: 98%; height: 16rem;}
   a.license {left:250px;top:10px;}
   .doc-nav.bottom { position: relative; }
 }
