@@ -9,31 +9,31 @@ category: beginner
 Bevezetés
 ============
 
-> Átnézve: 2015-07-12  
+> Állapot: 2015-07-12  
 
-Az információ hatalom. Megfelelő információkkal és ezek helyes értelmezésével az emberek és a közösségek még inkább képessé válnak arra, hogy jobbá tegyék életüket és a jövőjükre vonatkozóan előremutató döntéseket hozzanak. Sok ember és szervezet hoz az életünket valamilyen formában befolyásoló döntéseket. Jó minőségű információval ezek a civil szervezetek, kormányzatok és polgárok jobb döntéseket hozhatnak, és így remélhetőleg jobbá teszik az életünket. A térkép nagyon módja az információtovábbításnak. 
+Az információ hatalom. Megfelelő információkkal és ezek helyes értelmezésével az emberek és a közösségek még inkább képessé válnak arra, hogy jobbá tegyék életüket, és a jövőjükre vonatkozóan előremutató döntéseket hozzanak. Sok ember és szervezet hoz az életünket valamilyen formában befolyásoló döntéseket. Jó minőségű adatokkal ezek a civil szervezetek, kormányzatok és polgárok jobb döntéseket hozhatnak, és így remélhetőleg jobb lesz az életünket. Az információközvetítésnek egy kiváló módját jelentik a térképek. 
 
 ![A village in Indonesia][]
 
-A térkép világunk vizuális leképezése. Gyakran sokkal jobban tud megjeleníteni egy ötletet, mint a szavak. Segítségével tehát fontos kérdésekre adhatunk választ. *Hol van a legközelebbi iskola vagy kórház? Ki az, aki a legnehezebben fér hozzá ezekhez a létesítményekhez? A szegénység hol a legproblematikusabb?* Az ilyen és ehhez hasonló kérdéseket gyakran térképekkel lehet a legjobban kifejezni, és a térképek abban is segíthetnek, hogy ezekre a problémákra megoldást találjunk. 
+A térkép világunk vizuális leképezése. Gyakran sokkal jobban tud megjeleníteni egy ötletet, mint a szavak. Segítségével tehát fontos kérdésekre adhatunk választ. *Hol van a legközelebbi iskola vagy kórház? Ki az, aki a legnehezebben éri el ezeket a létesítményekhez? Hol a legproblematikusabb a szegénység?* Az ilyen és ehhez hasonló kérdéseket gyakran térképekkel lehet a legjobban kifejezni, és a térképek abban is segíthetnek, hogy ezekre a problémákra megoldást találjunk. 
 
-Kezdő gyakorlatkén fogj egy papírt és egy ceruzát, és rajzold le városod vagy falud térképét. Melyek a legfontosabb dolgok, amelyeket föl szeretnél tenni a térképre? Melyek a legfontosabb információk? Szánj rá néhány percet a térképed elkészítésére, és ha elkészült, gondolkozz el egy kicsit: Miért pont azok a legfontosabb információk, amelyeket feltüntettél? Kinek lehet mindez fontos?
+Kezdő gyakorlatként fogjon egy papírt és egy ceruzát, és rajzolja le városa vagy faluja térképét. Melyek a legfontosabb dolgok, amelyeket föl szeretne tenni a térképre? Melyek a legfontosabb információk? Szánjon néhány percet a térkép elkészítésére, és ha elkészült, gondolkozzék el egy kicsit: Miért pont azok a legfontosabb információk, amelyeket feltüntetett? Kinek lehet mindez fontos?
 
 ![Example of a hand-drawn map][]
 
-Ha a városod olyan, mint a többi, akkor alighanem rajzoltál néhány vonalat, hogy megjeleníts utakat, esetleg egy folyót vagy egy patakot. Talán hozzáadtál fontos épületeket is, például iskolákat és hivatalokat, területeket vagy határokat. Bármit is rajzoltál, valószínűleg szimbólumokat használtál – egy vonalat egy út megjelenítéséhez, egy négyzetet egy épület jelképeként és így tovább. A térképed annak a megjelenítése, ami a terepen van.
+Ha a városa olyan, mint a többi, akkor alighanem rajzolt néhány vonalat, hogy megjelenítsen utakat, esetleg egy folyót vagy egy patakot. Talán hozzáadott fontos épületeket is, például iskolákat és hivatalokat, területeket vagy határokat. Bármit is rajzolt, valószínűleg szimbólumokat használt – egy vonalat egy út megjelenítéséhez, egy négyzetet egy épület jelképeként és így tovább. Térképe annak a megjelenítése, ami a terepen van.
 
 ![Examples of symbols][]
 
-A térképed informatív. Talán arra is felhasználhatod, hogy elmagyarázd valakinek, hol találhatók különböző helyek, hol vannak problémák a közösségedben vagy egyszerűen csak hogy eltaláljon valahová. Térképed használhatósága mindazonáltal korlátozott: csupán egy példány van belőle. Az általad felrajzolt vonal számodra talán érthető, de lehet, hogy másvalakinek már nem, hiszen ő másként rajzolta volna meg a saját térképét. Mivel térképed csak papíron van meg, nehéz másoknak továbbadni az információt. Ezért ha számítógépen készíted el, oly módon, hogy bárki hozzáférhessen, akkor sokkal értékesebb lehet. 
+A térképe informatív. Talán arra is felhasználható, hogy valakinek elmagyarázza, hol találhatók különböző helyek, hol vannak problémák a közösségben vagy egyszerűen csak hogy eltaláljon valahová. Térképe használhatósága mindazonáltal korlátozott: csupán egy példány van belőle. Az Ön által felrajzolt vonal az Ön számára talán érthető, de lehet, hogy másvalakinek már nem, hiszen saját térképét ő másként rajzolta volna meg. Mivel térképe csak papíron létezik, nehéz másoknak továbbadni az információt. Ezért sokkal értékesebb lehet, ha számítógépen készíti el, hogy bárki hozzáférhessen. 
 
 ![Mapping on Computer][]
 
-Az OpenStreetMap egy térképi információ létrehozására és megosztására szolgáló eszköz. Bárki szerkesztheti az OSM-et, és emberek ezrei járulnak hozzá a projekthez nap mint nap. A felhasználók papír helyett számítógépen rajzolnak térképeket, de amint azt később ebben az útmutatóban is látni fogjuk, számítógépen térképet rajzolni egyáltalán nem különbözik olyan sokban a papírra rajzolástól. Az utak megjelenítéseként itt is vonalakat rajzolunk, aztán területeket és minden mást, ami itt is iskolákat és kórházakat jelöl szimbólumokkal. Ami fontos az az, hogy az OSM-térképek elmentésének helye az internet, és bárki bármikor ingyen elérheti őket.
+Az OpenStreetMap egy térképi információ létrehozására és megosztására szolgáló eszköz. Bárki szerkesztheti az OSM-et, és emberek ezrei működnek közre a projektben nap mint nap. A felhasználók papír helyett számítógépen rajzolnak térképeket, de amint azt később ebben az útmutatóban is látni fogjuk, számítógépen térképet rajzolni egyáltalán nem különbözik olyan nagyon a papírra rajzolástól. Az utak megjelenítéséhez itt is vonalakat rajzolunk, aztán területeket és minden mást, ami itt is iskolákat és kórházakat jelöl szimbólumokkal. Ami fontos az az, hogy az OSM-térképek elmentésének helye az internet, és bárki bármikor ingyen elérheti őket.
 
 ![Digital maps with OpenStreetMap][]
 
-Reméljük, az OpenStreetMapet hasznosnak és érdekesnek találod munkád során. Az útmutatót követve gyorsan képes leszel elkezdeni a digitális OpenStreetMap-térképek elkészítését.
+Reméljük, az munkája során hasznosnak és érdekesnek találja az OpenStreetMapet. Az útmutatót követve gyorsan képessé válik elkezdeni a digitális OpenStreetMap-térképek elkészítését.
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png

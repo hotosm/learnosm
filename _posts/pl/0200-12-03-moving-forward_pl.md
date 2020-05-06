@@ -9,7 +9,7 @@ category: beginner
 Dalsza lektura
 ===============
 
-> Przejrzano 12.07.2015  
+> Przejrzano 2015-07-12  
 
 Gratulacje, że udało Ci się zajść aż tutaj! Powinieneś teraz mieć spore rozeznanie, jak tworzyć mapy w OpenStreetMap. Co jeszcze możesz robić z OpenStreetMap? Jak możesz nauczyć się więcej? Jak pozostać w kontakcie ze społecznością maperów?  
 

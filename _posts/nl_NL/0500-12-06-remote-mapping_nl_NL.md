@@ -16,8 +16,6 @@ Het Humanitaire OpenSteetMap Team (HOT) is een wereldwijde gemeenschap die werkt
 
 ### Hoe Remote Response werkt 
 
-![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
-
 De meerderheid van de HOT response activiteiten vindt op afstand plaats. Na het voltrekken van een ramp, gaan HOT leden op zoek naar bestaande data en satellietbeelden. Permanente partners worden gevraagd om ODbL (licentie) compitabele data te leveren. Als de beelden binnen zijn, gaat de gemeenschap aan de slag om de beelden of bestaande kaarten te digitaliseren. Meestal ligt de focus op objecten die zinvol zijn voor het betreffende project (wegen, huizen, woongebieden, overstromingsgebieden etc.) en zo genereert de gemeenschap data en kaarten. Tijdens dit proces is er contact met organizaties die betrokken zijn en wordt er gevraagd naar hun behoeftes.  
 
 Op basis van de zwaarte van de crisis, verzamelt HOT de benodigde middelen en de response wordt gecoördineerd door een specifiek team of lid, die ervoor zorgt dat iedereen weet dat er nieuwe middelen beschikbaar zijn en waar de focus van het project ligt. HOT moedigt de medewerking van de OSM gemeenschap aan en als er lokale leden zijn worden die gevraagd om  tools zoals de Tasking Manager te gebruiken om de projecten te coördineren. Voorbeelden van dit soort activiteiten zijn Ivoorkust, Senegal, De Filippijnen en de Democratische Republiek Congo.  
@@ -30,7 +28,6 @@ De [HOT Tasking Manager](http://tasks.hotosm.org/) is een open source tool ontwo
 
 Om de Tasking Manager te gebruiken moet je inloggen met je OSM account. Meer informatie kun je vinden in de [Tasking Manager Handleiding](http://learnosm.org/nl_NL/coordination/tasking-manager/).  
 
-![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### Bewerkingsprogramma's 
 

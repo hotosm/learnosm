@@ -2,7 +2,7 @@
 layout: doc
 title: BasicAirData GPS-logger
 permalink: /nl_NL/mobile-mapping/basicairdata-gpslogger/
-lang: nl
+lang: nl_NL
 category: mobile-mapping
 ---
 

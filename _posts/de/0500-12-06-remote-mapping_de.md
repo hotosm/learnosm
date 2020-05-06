@@ -16,8 +16,6 @@ Das Humanitarian OpenStreetMap Team (HOT) ist eine weltumspannende Gemeinschaft,
 
 ### So funktioniert Fernkartierung 
 
-![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
-
 Die Mehrheit der Tätigkeiten von HOT besteht aus Fernkartierungen. Nach dem Ausbruch von Katastrophen suchen HOT-Mitglieder nach bestehenden Datenquellen und verfügbaren Satellitenbildern. Sobald die Bilder bezogen wurden, digitalisiert die Gemeinschaft die Bilder (normalerweise liegt der Schwerpunkt auf erkennbaren Objekten, die nützlich für humanitäre Zwecke sind, wie z. B. Straßen, Gebäude, blockierte Straßen, Überflutungsgebiete etc.) und erstellt Daten und Karten. Währenddessen werden Hilfsorganisationen kontaktiert, um deren Bedürfnisse zu ermitteln.  
 
 Je nach dem Ausmaß der Krise stellt HOT die erforderlichen Ressourcen zur Verfügung. Der Einsatz wird von einem eigenen Team oder Mitglied koordiniert um sicherzustellen, dass jeder die gleichen Informationen über neue Datenquellen oder mit Priorität zu bearbeitende Gebiete hat. HOT ermutigt die OSM-Gemeinschaft und Leute vor Ort dazu, mit dm Tasking Manager die Arbeit zu koordinieren. Bisher fanden Einsätze nach diesem Schema u.a. in der Elfenbeinküste, dem Senegal, auf den Philippinen und in der Demokratischen Republik Kongo statt.  
@@ -30,7 +28,6 @@ Der [HOT Tasking Manager](http://tasks.hotosm.org/) ist ein Open-Source-Werkzeug
 
 Um den HOT Tasking Manager zu benutzen müssen Sie sich mit Ihrem OpenStreetMap-Benutzernamen und Passwort einloggen. Nähere Informationen finden sie [in einer eigenen Anleitung](/de/coordination/tasking-manager/).  
 
-![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### Werkzeuge zum Kartieren 
 

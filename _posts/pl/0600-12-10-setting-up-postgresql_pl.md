@@ -9,7 +9,7 @@ category: osm-data
 PostgreSQL i PostGIS
 ====================
 
-> Przejrzano 10.09.2016
+> Przejrzano 2016-09-10
 
 W tym rozdziale zobaczymy, jak uruchomić PostgreSQL w systemie Windows i jak utworzyć bazę danych, w której będziesz mógł przechowywać dane geograficzne. Będziemy używać w tym rozdziale otwartoźródłowego programu GIS o nazwie QGIS, więc dobrze, jeśli już jesteś z nim zaznajomiony. W kolejnym rozdziale zobaczymy, jak zaimportować dane OpenStreetMap do bazy danych PostgreSQL.  
 

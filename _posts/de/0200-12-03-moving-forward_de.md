@@ -9,7 +9,7 @@ category: beginner
 Weiterführende Literatur
 ===============
 
-Dieses Handbuch kann als [beginner_moving-forward_de.odt](files/beginner_moving-forward_de.odt) oder als [beginner_moving-forward_de.pdf](/files/beginner_moving-forward_de.pdf) heruntergeladen werden.  
+
 Geprüft am 2015-07-12  
 
 Wenn Sie es bis hier hin geschafft haben - Glückwunsch! Sie sollten jetzt ein gutes Verständnis davon haben, wie man Karten mit OpenStreetMap erstellt. Aber was kann man noch alles mit OSM anstellen? Wie können Sie noch mehr lernen? Und wie können Sie mit der Gemeinschaft der “Kartographen” verbunden bleiben?  
@@ -33,7 +33,7 @@ Es gibt sehr viele Informationen über OpenStreetMap auf [wiki.openstreetmap.org
 
 <!-- auch mehr Informationen über diese Seite, sobald ausgearbeitet -->
 
-Mailing List
+Mailing-Liste
 ------------
 
 Der beste Weg um mit der OpenStreetMap-Nutzer-Community verbunden zu bleiben, ist, eine lokale Mailing-Liste zu abonnieren. Viele Benutzer haben das getan und es bietet eine gute Möglichkeit, um Fragen zu stellen oder sich über OpenStreetMap zu unterhalten.  

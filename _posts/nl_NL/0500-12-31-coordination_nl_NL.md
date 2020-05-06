@@ -16,4 +16,4 @@ Coordinatie
 
 Omdat er zoveel mensen aan OpenStreetMap bijdragen, is het handig om te weten hoe mappers deze activiteiten kunnen coördineren.
 
-Dit onderdeel van learnOSM geeft informatie over verschillende tools die gebruikt worden voor mapping activiteiten, communicatie middelen en kwaliteitswaarborging.
+Dit onderdeel van LearnOSM geeft informatie over verschillende gereedschappen die gebruikt worden voor activiteiten voor in kaart brengen, communicatie middelen en waarborgen van de kwaliteit.

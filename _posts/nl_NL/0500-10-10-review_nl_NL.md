@@ -282,4 +282,3 @@ In deze handleiding zijn we door een aantal effectieve methoden gegaan voor het 
 [QGIS Map Image 3]: /images/coordination/reviewing_osm_data_image22.png
 
 
-

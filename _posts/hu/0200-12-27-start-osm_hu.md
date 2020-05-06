@@ -9,49 +9,31 @@ category: beginner
 Első lépések az OpenStreetMap.org oldalon
 ====================================
 
-> Ez az útmutató letölthető: [beginner_start-osm_hu.odt](/files/beginner_start-osm_hu.odt) vagy [beginner_start-osm_hu.pdf](/files/beginner_start-osm_hu.pdf)  
 > Átnézve: 2015-07-12  
 
-Ebben a fejezetben lépésről lépésre megtanuljuk, hogyan igazodjunk el az
-OpenStreetMap weboldalán, hogyan nézzünk térképeket és hogyan hozzunk létre felhasználói
-fiókot. Miután létrehoztad saját felhasználónevedet és jelszavadat, te is képes leszel
-első pontjaidat elhelyezni a térképen.
+Ebben a szakaszban lépésről lépésre megtanuljuk, hogyan lehet navigálni az OpenStreetMap webhelyen, megtekinteni a térképeket és regisztrálni egy felhasználói fiókra. Miután megvan a saját felhasználóneve és jelszava, elhelyezheti a térképen első pontjait.
 
 ![website][]
 
 Az OpenStreetMap weboldal felkeresése
 -------------------------------
 
--   Mielőtt nekikezdenél, győződj meg róla, hogy számítógéped csatlakozik az internethez.
-    (Ha ez online olvasod, akkor biztosan csatlakoztál.)
--   Nyisd meg az internetböngészőt. Elterjedt böngésző a Firefox, a Chrome, az Opera vagy az Internet
-    Explorer. Ha már nyitva van, akkor hozz létre egy új fület.
--   Az ablak tetején a címsorba írd be a következőt és üss entert:
+-   Nyissa meg a böngészőt.
+-   Az ablak tetején található címsorba írja be a következőt, majd nyomja meg az Enter billentyűt:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   Amikor az oldal teljesen betöltődött, valami ilyesmit kell
-    látnod:
+-   Miután az oldal betöltése befejeződött, valami hasonlót kell látnia:
 
     ![OpenStreetMap website with some main functions listed][]
 
 Navigáció a térképen
 ----------------
 
--   A fő elem, amit látnod kell, az maga a térkép. Mozgasd a térképet úgy,
-    rákattintasz a bal egérgombbal, lenyomva tartod a gombot, és
-    odébb húzod az egeret (lásd a lenti ábrát).
+-   A legfontosabb, amit látnia kell, az maga a térkép. Mozgassa a térképet: kattintson rá a bal egérgombbal, tartsa lenyomva a gombot, és húzza az egeret körül (lásd az alábbi ábrát).
 
     ![Mouse navigation][]
 
--   Ha az egéren görgetőkerék is van, akkor a térképet nagyíthatod és kicsinyítheted
-    a kerék forgatásával. Görgetőkerék híján használhatod a +
-    és a – gombot a térkép jobb fölső sarkában. (Lásd a lenti
-    ábrát.)
--   Egy hely megkereséséhez kattints a „Keresés” feliratú dobozra
-    az oldal bal oldalán (lásd a fenti ábrát). Írd be a nevét
-    a saját városodnak vagy faludnak, és üss entert. Egy új ablaknak kell megjelennie
-    a térkép bal oldalán a keresés eredményével. Kattints
-    arra a helyre, amely szemlátomást megegyezik a keresett hellyel. A térkép
-    automatikusan a kiválasztott helyre ugrik.
+-   Ha van az egéren görgetőkerék, akkor annak elforgatásával nagyíthatja és kicsinyítheti a térképet. Ha nincs görgetőkereke, használja a + és - gombokat a térkép jobb felső sarkában. (Lásd az alábbi ábrát.)
+-   Egy hely megkereséséhez kattintson a „Keresés” feliratú dobozra az oldal bal oldalán (lásd a fenti ábrát). Írja be saját településének a nevét, és üsson Entert. Egy új ablaknak kell megjelennie a térkép bal oldalán a keresés eredményével. Kattintson arra a helyre, amely szemlátomást megegyezik a keresett hellyel. A térkép automatikusan a kiválasztott helyre ugrik.
 
     ![Search][]
    
@@ -59,90 +41,48 @@ Navigáció a térképen
 Különböző térképstílusok megtekintése
 ------------------------
 
-Az OpenStreetMap az egész világról tartalmaz földrajzi adatokat. Jóllehet
-ez egyetlen adatbázis, az adatok különféle módokon értelmezhetők
-és jeleníthetők meg. Ahhoz, hogy ezt a gyakorlatban is lássuk, nézzük meg a különféle „térképstílusokat”,
-amelyek az OSM-weboldalon érhetők el.
+Az OpenStreetMap a világ minden tájáról tartalmaz földrajzi adatokat. Noha ez egyetlen adatbázis, az adatok különféle módon értelmezhetők és különböző stílusokban jeleníthetők meg. Ha ezt a gyakorlatban is látni szeretné, vessen egy pillantást az OSM webhelyén elérhető különböző térképstílusokra.
 
--   Kattints a térképablak jobb oldalán lévő „Rétegek” gombra.
+-   Kattintson a térképablak jobb oldalán lévő „Rétegek” gombra.
 
     ![Layers button][]
 
--   Kattints a különböző térképstílusokra. Nézzük végig, hogy a térkép
-    hogyan változik. A közlekedési térképen például ki vannak emelve
-    a közlekedési útvonalak, míg a kerékpáros térkép a kerékpárutakat
-    hangsúlyozza. A mindezt lehetővé tevő adatok mind az OSM-adatbázisban
-    találhatók.
+-   Kattintson a térkép különböző stílusbeállításaira. Figyelje meg, hogyan változik a térkép az egyes stílusok megjelenésével. A közlekedési térkép például a közlekedési útvonalakat, míg a kerékpárostérkép a kerékpáros útvonalakat hangsúlyozza. Az összes ezt lehetővé tevő adat az OSM adatbázisban található.
 
     ![Transport map][]
 
 OpenStreetMap-fiók létrehozása
 -------------------------------
 
--   Miután megnéztük, hogyan néz ki a fő weboldal,
-    regisztrálhatsz, és létrehozhatsz egy felhasználónevet és egy jelszót, hogy megtehesd az első szerkesztéseidet
-    a térképen.
--   Az OpenStreetMap-weboldalon kattints a „Regisztráció” gombra
-    az oldal jobb fölső sarkában.
+-   Most, hogy meglátta, hogyan néz ki a fő webhely, regisztrálhat egy felhasználónevet és jelszót, és elvégezheti az első kiegészítéseit a térképen.
+-   Az OpenStreetMap webhelyen kattintson a „Regisztráció” gombra az oldal jobb felső sarkában.
 -   Egy új oldalt kell látnod, amely így néz ki:
 
     ![Registering an OpenStreetMap account][]
 
--   Az oldalon öt doboz van, amelyeket ki kell tölteni ahhoz, hogy
-    egy OSM-fiókot regisztrálhass.
--   Az első két dobozba írd be az e-mail címed.
-    Mindkét dobozban ugyanazt az e-mail címet kell feltüntetni. Később majd meg kell nyitnod
-    a levelezőprogramod az OpenStreetMap-fiókod megerősítéséhez.
--   A harmadik dobozba írd be a kívánt felhasználóneved.
-    Olyan felhasználónevet nem választhatsz, amelyet valaki más már
-    korábban kiválasztott, úgyhogy légy kreatív. Ha megpróbálsz
-    valami egyszerűt – például a keresztneved – beírni, akkor valószínű, hogy valaki
-    már megigényelte azt.
--   A negyedik és az ötödik dobozba írj egy jelszót.
-    Mindkét dobozba ugyanazt a jelszót kell írnod. Nem szükséges, hogy megegyezzék
-    az e-mail címedhez tartozó jelszóval.
--  Tanácsos felírnod valahová az OSM-felhasználónevedet és jelszavadat.
-    Később szükséged lesz rájuk, amikor majd be akarsz lépni.
--   Miután minden dobozt kitöltöttél, kattints a „Regisztráció” gombra az
-    az oldal alján.
--   Ha valami gond van, meg fog jelenni egy hibaüzenet. Ellenőrizd,
-    hogy ugyanazt az e-mail címet írtad az első két dobozba, és
-    hogy a jelszavad is ugyanaz az alsó két dobozban. Ha a harmadik doboz
-    pirossal ki van emelve, az azt jelenti, hogy már másvalaki kiválasztotta
-    a felhasználónevedet, így egy másik névvel kell próbálkoznod.
--   Nyiss az internetböngésződben egy új ablakot vagy fület, és lépj
-    az e-mail programodra. Ismert e-mail szolgáltató a [mail.yahoo.com](http://mail.yahoo.com)
-    és a [www.gmail.com](http://www.gmail.com).
--   Az e-mailek megtekintéséhez add meg az e-mail címed és a jelszavad.
-    Ne feledd, hogy ez __nem__ azonos az OpenStreetMap-felhasználóneveddel és
-    jelszavaddal.
--   Ha minden jól ment a regisztrációnál, akkor látnod kell
-    egy e-mailt, amely az OpenStreetMaptől érkezett. Nyisd meg a levelet.
-    Olyannak kell lennie, mint az alábbi képen. Kattints arra a linkre, amely
-    lent ki van emelve:
+-   Ezen az oldalon öt mező található, amelyeket egy OSM-fiók regisztrálásához ki kell töltenie.
+-   Az első két mezőbe írja be e-mail címét. Mindkét mezőbe ugyanazt az e-mail címet kell megadnia. Később meg kell nézni az e-mailjeit, hogy OpenStreetMap-fiókját megerősítse.
+-   A harmadik mezőbe írja be kívánt felhasználónevét. Nem fog tudni olya felhasználónevet választani, amelyet valaki más korábban választott, ezért kreatívnak kell lennie. Ha valami egyszerűt – például egy keresztnevet – próbál beírni, akkor valószínű, hogy azt valaki más már megigényelte.
+-   A negyedik és az ötödik mezőbe írjon be egy új jelszót. Mindkét mezőbe ugyanazt a jelszót kell megadnia. *Tilos* olyan fontos jelszót használni, mint például az e-mail jelszava.
+-   OSM felhasználónevét és jelszavát akár fel is írhatja valahová. Később is be kell majd jelentkeznie.
+-   Miután az összes mezőt kitöltötte, kattintson az oldal alján található „Regisztráció” elemre.
+-   Ha bármilyen probléma merül fel, hibaüzenet jelenhet meg. Ellenőrizze, hogy az e-mail címe megegyezik-e az első két mezőben, és a jelszava megegyezik-e a két alsó mezőben. Ha a harmadik négyzet piros, az azt jelenti, hogy valaki más már kiválasztotta azt a felhasználónevet, és más nevet kell kipróbálnia.
+-   Nézze meg e-mailjeit.
+-   Ha a regisztrációnál minden sikeres volt, akkor a postaládájában látnia kell egy e-mailt az OpenStreetMaptől. Nyissa meg; az alábbiak szerint kell kinéznie. Kattintson az alábbi ábrán kiemelt linkre:
 
     ![Confirming your OpenStreetMap account][]
 
--   Meg fog nyílni egy új fül vagy ablak. Ha minden rendben van, akkor
-    ezzel létrejött az OSM-fiókod.
--   Az OpenStreetMap-oldalon kattints a jobb fölső sarokban a „Bejelentkezés”-re.
-    Add meg az OpenStreetMap-felhasználóneved és a jelszavad, majd üss entert.
-    Ezzel beléptél a rendszerbe. A jobb felső sarokban látnod kell a felhasználónevedet.
-    az oldal jobb fölső sarkában.
+-   Meg fog nyílni egy új lap vagy ablak. Ha minden jól ment, akkor most már rendelkeznie kell egy OSM-fiókkal!
+-   Az OpenStreetMap-oldalon kattintson a „Bejelentkezés” gombra a jobb felső sarokban. Írja be az OpenStreetMap felhasználónevét és jelszavát, majd nyomja meg az Enter billentyűt. Most be kell jelentkeznie. Az oldal jobb felső sarkában látnia kell felhasználónevét.
 
-Az első pontjaid hozzáadása
+Az első pontok hozzáadása
 ------------------------
 
--   Most, hogy a felhasználóneveddel beléptél az OpenStreetMap-
-    weboldalra, az iD szerkesztőt használhatod arra, hogy az első pontodat elhelyezd
-    a térképen.
--   Mozgasd a térképet egy olyan helyre, amelyet jól ismersz, például a városodhoz
-    vagy városrészedhez. Jó ötlet például, ha gondoskodsz arról, hogy a házad (vagy a szomszédodé) és a munkahelyed fel legyen rajzolva a térképre, és a helyes címük is meg legyen adva. 
--   Közelíts arra a helyre, ahová szeretnél egy pontot tenni a térképre (talán van a közeledben egy étterem vagy egy zöldséges, amely még nincs rajta a térképen).
--   Közvetlenül a térkép fölött balra van egy „Szerkesztés” fül egy kis
-    lefelé mutató háromszöggel. Kattints a háromszögre. Egy kis menüt kell látnod
-    legördülni.
--   Kattints erre: „Szerkesztés a következővel: iD (böngészőben futó szerkesztő)”
+-   Most, hogy bejelentkezett a felhasználónevével az OpenStreetMap webhelyen, az iD szerkesztővel a térképre teheti első pontját.
+-   Vigye a térképet egy olyan helyre, amelyet nagyon jól ismer, például a településére vagy városrészére. Jó ötlet például, ha gondoskodik arról, hogy a háza (vagy a szomszédjáé) és a munkahelyee fel legyen rajzolva a térképre, és a helyes címük is meg legyen adva. 
+-   Közelítsen arra a helyre, ahová szeretne egy pontot tenni a térképen (talán van a közelében egy étterem vagy egy zöldséges, amely még nincs rajta a térképen).
+-   Közvetlenül térkép felett a bal oldalon van egy „Szerkesztés” fül, mellette pedig egy kis háromszög. Kattintson a kis háromszögre. Egy legördülő menüt kell látnia.
+-   Kattintson erre: „Szerkesztés a következővel: iD (böngészőben futó szerkesztő)”
 
     ![Click edit][]
 
@@ -150,42 +90,26 @@ Az első pontjaid hozzáadása
 
     ![iD editor][]
 
--   Egy pontot úgy tehetsz a térképre, ha a „Pont” gombra kattintasz
-    az ablak tetején. Aztán kattints a térképen oda, ahová tenni szeretnéd az új
-    pontot.
+-   Az ablak tetején található „Pont” gombra kattintva hozzáadhat egy pontot. Ez után kattintson a térképen oda, ahová az új pontot el szeretné helyezni.
 
     ![Point button][]    
 
--   A baloldali menüből jelöld ki, milyen típusú helyet szeretnél
-    hozzáadni a térképhez. Ez után kitöltheted a megjelenő űrlapot a hely
-    nevével és más információkkal.
--   A változtatásaid elmentéséhez kattints fönt a „Mentés” gombra. Mivel ez
-    a legelső szerkesztésed, lehet, hogy inkább játszanál még a szerkesztővel. Csak akkor mentsd el a változtatásaidat,
-    ha biztos vagy benne, hogy helyesek.
+-   A bal oldali menüből válassza ki, hogy milyen típusú helyet szeretne hozzáadni a térképhez. Ezután kitöltheti a megfelelő űrlapot a hely nevével és más információkkal.
+-   A módosítások mentéséhez kattintson a fenti „Mentés” gombra. Mivel ez az első szerkesztése, lehet, hogy inkább szívesebben játszhatana a szerkesztővel. Csak akkor mentse el a változtatásokat, ha biztos benne, hogy helyesek.
 
     ![Save button][]    
 
--   Ha a „Mentés”-re kattintasz, akkor kapsz egy felkérést, hogy adj egy leírást a változtatásaidról.
-    Ez után újra a „Mentés”-re kell kattintanod, és a szerkesztéseid elmentésre kerülnek
-    az OSM-adatbázisba!
+-   Ha a Mentés gombra kattint, felkérést kap a módosítások leírására. Ezután ismét rákattinthat a „Mentés” gombra, és a kiegészítéseket elmentődnek az OSM adatbázisba!
 
 
-Az iD-szerkesztő kiváló eszköz az OpenStreetMap egyszerű szerkesztésére, és 
-további tudnivalókat találhatsz róla az [iD-szerkesztő útmutatójában](/en/beginner/id-editor/).
-Végigjátszhatod a  [lépésenkénti útmutatót](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) is 
-ami a szerkesztő megismerésének nagyon jó és interaktív módja.
+Az iD szerkesztő fantasztikus módja az OpenStreetMap könnyű szerkesztésének Használatáról többet megtudhat az [iD szerkesztő útmutató]jából (/hu/beginner/id-editor/). Végigjátszhatja a [gyors útmutatót] (http://www.openstreetmap.org/edit?editor=id#walkthrough=true) is, amely kiváló és interaktív módja a szerkesztő felfedezésének.
 
-Mindemellett a [JOSM-ról szóló fejezetben](/en/josm/) egy önálló alkalmazással is meg fogunk ismerkedni, 
-amely sokkal több funkciót kínál.
-Nyugodtan játszogass az iD-vel. Miután szereztél valamennyi tapasztalatot az OSM szerkesztésével, 
-eldöntheted, melyik szerkesztőt – az iD-t vagy a JOSM-ot – használod szívesebben.
+A [JOSM fejezetben] (/hu/josm/) azonban meg fogunk ismerkedni egy önálló alkalmazással, amely még sokkal több funkciót kínál. Addig is folytassa nyugodtan az iD-vel való játékot. Miután már több tapasztalata lesz az OSM szerkesztésében, kiválaszthatja, melyik szerkesztőt – iD vagy JOSM – szereti legjobban használni.
 
 Összefoglaló
 -------
 
-Gratulálunk! Ha minden jól ment, akkor most már van egy OpenStreetMap-felhasználóneved
-és -jelszavad, tudod, hogyan kell navigálni az OSM-weboldalon, és
-van némi fogalmad arról, hogyan lehet pontokat elhelyezni a térképen.
+Gratulálunk! Ha minden jól ment, akkor most már van OpenStreetMap felhasználóneve és jelszava, tudja, hogyan kell navigálni az OSM webhelyén, és van némi fogalma arról, hogyan kell pontokat hozzáadni a térképhez.
 
 
 
