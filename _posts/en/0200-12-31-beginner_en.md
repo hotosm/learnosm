@@ -27,7 +27,7 @@ If you want to get started and be able to edit the map data then we recommend th
 
 The main point is to learn how mapping in this context is coordinated.
 - the [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) and the general information about [humanitarian mapping](/en/coordination/humanitarian/) provide some background
-- the workhorse is the [Tasking Manager](/en/coordination/tasking-manager3/) whose workflow you should get familiar with
+- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
 ### Would you like to use OpenStreetMap on mobile devices?
 
