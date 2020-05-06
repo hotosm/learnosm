@@ -9,7 +9,6 @@ category: beginner
 Weiterführende Literatur
 ===============
 
-
 Geprüft am 2015-07-12  
 
 Wenn Sie es bis hier hin geschafft haben - Glückwunsch! Sie sollten jetzt ein gutes Verständnis davon haben, wie man Karten mit OpenStreetMap erstellt. Aber was kann man noch alles mit OSM anstellen? Wie können Sie noch mehr lernen? Und wie können Sie mit der Gemeinschaft der “Kartographen” verbunden bleiben?  
