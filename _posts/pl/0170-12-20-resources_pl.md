@@ -9,11 +9,11 @@ category: resources
 
 # Inne źródła
 
-> Przejrzano 24.02.2018
+> Przejrzano 2018-02-24
 
 Jest to skomentowana lista odnośników do innych stron internetowych, które uważamy za użyteczne. Wszystkie odnośniki zostały zweryfikowane i działały, gdy ten dokument był ostatnio sprawdzany.
 
-  * [Lista linków dotyczących mapowania i tematów powiązanych z kartografią na stronie Maptime](http://maptime.io/lessons-resources/) Obszerna lista linków, nie tylko o OpenStreetMap, ale obejmująca również wizualizacje, tworzenie map i mapowanie sieciowe
+  * [Lista linków dotyczących mapowania i tematów powiązanych z kartografią na stronie Maptime](http://maptime.io/lessons-resources/) Obszerna lista linków, nie tylko o OpenStreetMap, ale obejmująca również wizualizacje, tworzenie map i mapowanie sieciowe.
 
 
 ## Edycja

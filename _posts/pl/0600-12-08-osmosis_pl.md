@@ -9,6 +9,7 @@ category: osm-data
 Przetwarzanie danych w Osmosis
 ===============================
 
+
 **Osmosis** jest potężnym narzędziem wiersza polecenia do przetwarzania surowych danych **.osm**. Jest ono często używane do przetwarzania wielkich plików z danymi, do dzielenia plików OSM na mniejsze kawałki i do stosowania zestawów zmian do aktualizacji istniejących plików.  
 
 W Osmosis jest dostępnych wiele wspaniałych funkcji, o których możesz przeczytać szczegółowo na [Wiki](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.41). Wiele funkcji jest dość skomplikowanych i trudnych do zrozumienia, zwłaszcza jeśli dopiero zaczynasz z programami konsolowymi i OpenStreetMap. Ten rozdział służy wprowadzeniu do Osmosis, instalowaniu go w Windowsie i rozpoczynaniu pracy z jego podstawowymi komendami.  

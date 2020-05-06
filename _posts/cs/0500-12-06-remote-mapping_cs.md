@@ -16,8 +16,6 @@ Humanitární tým OpenStreetMap (HOT) je globální komunita, která funguje na
 
 ### Jak funguje vzdálená odezva 
 
-![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
-
 Většina aktivit a reakcí HOT se děje vzdáleně. Po krizové události členové HOT hledají stávající data a dostupné satelitní snímky. Příslušní partneři jsou kontaktováni, aby poskytli snímky kompatibilní s ODbL. Po získání snímků je virtuální komunita digitalizuje nebo trasuje ze snímků (obvykle se zaměřuje na rozpoznatelné objekty, které jsou užitečné pro humanitární reakci, jako jsou silnice, budovy, blokované silnice, rozsah povodní atd.) a generuje data a mapy. Během této doby jsou také kontaktovány záchranné organizace, aby určily své potřeby.  
 
 Vzhledem k rozsahu krizové události přidává společnost HOT potřebné zdroje a reakce je koordinována konkrétním týmem nebo členem, který zajistí, aby všichni věděli, kdy jsou k dispozici nové zdroje, a kam zaměřit své úsilí. HOT podporuje zapojení komunit OSM, a pokud existují, i místní aktéři také používají nástroje, jako je Tasking Manager, sloužící ke koordinaci úsilí o reakci. Příklady zahrnují vzdálené aktivity prováděné na Pobřeží slonoviny, Senegalu, Filipínách a Demokratické republice Kongo.  
@@ -30,7 +28,6 @@ Vzhledem k rozsahu krizové události přidává společnost HOT potřebné zdro
 
 Abyste mohli používat HOT Tasking Manager, musíte se zaregistrovat pomocí OpenStreetMap (OSM) s uživatelským jménem a heslem. Další pokyny si přečtěte na [Tasking Manager Tutorial](http://learnosm.org/cs/coordination/tasking-manager/).  
 
-![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### Nástroje pro úpravy 
 

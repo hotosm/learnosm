@@ -9,12 +9,13 @@ category: hot-tips
 Tagging - iD editor
 ============
 
+> Mis à jour le 2019-06-28
+
 - TOC
 {:toc}
 
 ![tagging][]
 
-> Cette image !{ : height="24px"} vous montre quels clics ou molette de la souris ont été utilisés, et quels boutons du clavier ont été tapés.  
 
 Pourquoi les tags sont nécessaires
 -------------------

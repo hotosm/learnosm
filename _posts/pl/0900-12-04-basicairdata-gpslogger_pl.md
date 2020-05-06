@@ -6,6 +6,7 @@ lang: pl
 category: mobile-mapping
 ---
 
+
 BasicAirData GPS Logger
 =======================
 

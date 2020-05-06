@@ -1,19 +1,19 @@
 ---
 layout: doc
-permalink: /nl_NL/coordination/tm-disambiguation/
-lang: nl_NL
-title: Versies van Tasking Manager
+permalink: /cs/coordination/tm-disambiguation/
+lang: cs
+title: Verze Tasking Manageru
 category: coordination
 navigation: skip
 ---
 
-Versies van Tasking Manager
+Verze Tasking Manageru
 ============
 
-Deze pagina geeft u een overzicht van de versies van Tasking Manager waarvoor we documentatie aanbieden. Selecteer een van de handleidingen voor de versie waarvan de schermafdrukken overeenkomen met de software waarmee u wilt werken.
+Tato stránka nabízí přehled verzí Tasking Manageru, ke kterým je dostupná dokumentace. Vyberte jeden z návodů podle verze softwaru, se kterou zamýšlíte pracovat.
 
 <div class='disambiguation-version' markdown="1">
-## Versie 4 ##
+## Verze 4 ##
 
 <figure markdown="1">
 ![TM4-start][]
@@ -23,12 +23,12 @@ Deze pagina geeft u een overzicht van de versies van Tasking Manager waarvoor we
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[Gebruikershandleiding](/nl_NL/coordination/tm-user) [Handleiding Projectbeheer](/nl_NL/coordination/tm-admin)
+[Návod pro uživatele](/cs/coordination/tm-user) [Návod pro správce](/cs/coordination/tm-admin)
 </div>
 </div>
 
 <div class='disambiguation-version' markdown="1">
-## Versie 3 ##
+## Verze 3 ##
 
 <figure markdown="1">
 ![TM3-start][]
@@ -38,13 +38,13 @@ Deze pagina geeft u een overzicht van de versies van Tasking Manager waarvoor we
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[Gebruikershandleiding](/nl_NL/coordination/tasking-manager3) [Handleiding Projectbeheer](/nl_NL/coordination/tasking-manager3-project-admin)
+[Návod pro uživatele](/cs/coordination/tasking-manager3) [Návod pro správce](/cs/coordination/tasking-manager3-project-admin)
 </div>
 </div>
 
 
 <div class='disambiguation-version' markdown="1">
-## Versie 2 ##
+## Verze 2 ##
 
 <figure markdown="1">
 ![TM2-start][]
@@ -54,7 +54,7 @@ Deze pagina geeft u een overzicht van de versies van Tasking Manager waarvoor we
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[Gebruikershandleiding](/nl_NL/coordination/tasking-manager) [Handleiding Projectbeheer](/nl_NL/coordination/tasking-manager-project-admin)
+[Návod pro uživatele](/cs/coordination/tasking-manager) [Návod pro správce](/cs/coordination/tasking-manager-project-admin)
 </div>
 </div>
 

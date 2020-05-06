@@ -16,8 +16,6 @@ category: coordination
 
 ### 遠端支援是如何實現的呢？ 
 
-![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
-
 HOT 主要的反應活動大都在遠端進行。災難發生後，HOT 的成員搜尋已有的資料，還有衛星影像。相關的合作伙伴已經簽約要提供 ODbL 授權相容的影像。一旦取得影像，全球的數位社群開始數位化資料，或是從影像描繪 (一般來說，主要著重在辨識在人道救援行動時有用的物件，像是道路、建築、中斷的道路、洪水等) 產生資料和地圖。在這段時間時，救難單位也同時被諮詢決定什麼是需要做的事情。  
 
 顧慮災難的尺度，HOT 會分配必需的資源和成員或特定組織回應的狀況，確保每一個人都知道新的資源和那邊需要，以及那邊能集中精力。HOT 鼓勵與 OSM 社群接觸，而且如果可能，在地角色能使用像是任務分配管理器來協調救災行動。具體的例子包括遠端行動如象牙海岸、塞內加爾、菲律賓和岡古民主共和國。  
@@ -30,7 +28,6 @@ HOT 主要的反應活動大都在遠端進行。災難發生後，HOT 的成員
 
 要使用 HOT 任務分配管理器，你必須註冊開放街圖，有使用者名稱和密碼，更多的說明可以讀[任務分配管理器教學](http://learnosm.org/en/coordination/tasking-manager/)。  
 
-![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### 編輯工具 
 
