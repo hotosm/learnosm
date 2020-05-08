@@ -2,7 +2,7 @@
 layout: doc
 permalink: /nl_NL/beginner/
 lang: nl_NL
-title: Beginners handleiding
+title: Handleiding voor beginners
 category: beginner
 cover: yes
 nosearch: true

@@ -1,15 +1,15 @@
 ---
 layout: doc
-title: External Resources
+title: Other Resources
 permalink: /en/resources/
 lang: en
 cover: yes
 category: resources
 ---
 
-# External Resources
+# Other Resources
 
-> Reviewed 2018-02-24
+> Reviewed 2020-05-08
 
 This is a commented list of pointers to other websites which we consider useful. All links have been verified to work when this document was last reviewed.
 
@@ -45,4 +45,3 @@ This is a commented list of pointers to other websites which we consider useful.
   * [Wiki entry on MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) A simple open-source coordination tool. The wiki says that it is no longer actively maintained
   * [Real-time progress on OpenStreetMap](https://github.com/osmlab/show-me-the-way) The readme page on github explains how to filter the display so that you do not see progress worldwide
   * [Who is around me ](http://resultmaps.neis-one.org/oooc) map display about mappers who recently contributed in an area
-

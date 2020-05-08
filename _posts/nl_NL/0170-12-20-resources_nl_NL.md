@@ -9,7 +9,7 @@ category: resources
 
 # Andere bronnen
 
-> Bijgewerkt op 24-02-2018
+> Bijgewerkt op 08-05-2020
 
 Dit is een lijst met opmerkingen voor andere websites die wij nuttig achten. Alle links zijn geverifieerd dat zij werken toen dit document voor het laatst werd bijgewerkt.
 
