@@ -9,7 +9,7 @@ category: beginner
 Meer informatie
 ===============
 
-> Bijgewerkt op 12-07-2015  
+> Bijgewerkt op 08-05-2020  
 
 Als u het tot zover hebt kunnen volgen, gefeliciteerd! U zou nu een goed begrip moeten hebben van hoe kaarten te maken met OpenStreetMap. Wat kunt u nog meer doen met OSM? Hoe kunt u nog meer leren? Hoe kan ik in verbinding blijven met de gemeenschap van mappers?  
 
@@ -55,18 +55,16 @@ Scroll op de pagina naar beneden om de lijst te zoeken die is geassocieerd met u
 - Nu zou u lid moeten zijn van de mailinglijst.  
 - Wanneer u een bericht wilt sturen naar de lijst, kunt u die versturen naar [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), vervang "id" door het land van uw lijst. U zult ook e-mails ontvangen als andere leden een bericht naar de lijst sturen.  
 
-<!-- misschien iets uitbreiden en later plaatsen
-MapOSMatic
+
+Voorbeeld van gebruik - MyOSMatic
 ----------
 
-Een van deze projecten is MapOSMatic, wat u kunt bekijken via uw
-internetbrowser op [MyOSMatic.org](https://print.get-map.org/). Dit is
-een simpel gereedschap om een kaart te printen van een gebied naar keuze. Het maakt
-automatisch een kaart, samen met een raster over de kaart en een
-index van locaties die in het gebied zijn opgenomen.
+Één zo'n project is genaamd MyOSMatic, waar u toegang toe krijgt via uw internet webbrowser op [print.get-map.org](https://print.get-map.org/). Dit is een eenvoudig gereedschap voor het afdrukken van een kaart van een stad die u kiest. Het zal automatisch de kaart maken, samen met ene raster voor de kaart, en een index van locaties die zijn opgenomen in het gebied.
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+Verdere vormen van gebruik worden uitgel;egd in het [gedeelte Gegevens van OSM van LearnOSM](/nl_NL/osm-data/)
 
 
 Samenvatting
@@ -75,6 +73,6 @@ Samenvatting
 Dit zijn enkele manieren die u kunt gebruiken om verbonden te blijven met de gemeenschap van OpenStreetMap en meer kunt leren. We hopen dat u zult blijven verkennen en meer zult leren over OSM, en er aan deel zult nemen. Veel plezier bij het in kaart brengen!
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

@@ -11,7 +11,6 @@ nosearch: true
 Útmutató kezdőknek
 ================
 
-> Állapot: 2015-07-12  
 
 Ez az útmutató lépésről lépésre végigvezeti az OpenStreetMap kezdeti használatán. Meg fogja tanulni, hogyan hozzon létre egy fiókot, hogyan használja az alapvető térképszerkesztő szoftvereket, a későbbi fejezetekben pedig azt, hogyan mehet ki a terepre. 
 
@@ -27,7 +26,7 @@ Ha szeretné elkezdeni, és megtanulni a térképadatok szerkesztését, akkor a
 
 A lényeg annak elsajátítása, hogy ebben az összefüggésben hogyan koordinálják a térképezést.
 - a [távoli térképezési útmutatóból] (/hu/coordination/HOT-Remote-Response-Guide/) és a [humanitárius térképezésről](/hu/coordination/humanitarian/) szóló általános tájékoztatóból nagy vonalakban megismerheti a hátteret
-- az igáslovunk a [Tasking Manager feladatkezelő](/hu/coordination/tasking-manager3/), amelynek a munkafolyamatát meg kell ismernie
+- igáslovunk a [Tasking Manager feladatkezelő](/hu/coordination/tm-user/): fontos, hogy alaposan tisztában legyen a munkafolyamatával.
 
 ### Szeretné-e mobil eszközökön is használni az OpenStreetMapet?
 

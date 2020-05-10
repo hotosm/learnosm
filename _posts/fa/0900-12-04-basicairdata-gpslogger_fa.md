@@ -6,9 +6,10 @@ lang: fa
 category: mobile-mapping
 ---
 
-
 BasicAirData GPS Logger
 =======================
+
+> تاریخ بازبینی ۱۳۹۹/۰۲/۱۶
 
 ![BasicAirData-GPSLogger-002][]
 

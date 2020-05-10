@@ -39,7 +39,7 @@ Esta página le ofrece una visión de conjunto sobre las versiones del Tasking M
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/es/coordinación/tasking-manager3) [Administrator guide](/es/coordinación/tasking-manager3-proyecto-admin)
+[User guide](/es/coordination/tasking-manager3) [Administrator guide](/es/coordination/tasking-manager3-project-admin)
 </div>
 </div>
 
@@ -55,7 +55,7 @@ Esta página le ofrece una visión de conjunto sobre las versiones del Tasking M
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/es/coordinación/tasking-manager) [Administrator guide](/es/coordinación/tasking-manager-proyecto-admin)
+[User guide](/es/coordination/tasking-manager) [Administrator guide](/es/coordination/tasking-manager-project-admin)
 </div>
 </div>
 
