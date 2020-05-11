@@ -9,7 +9,7 @@ category: beginner
 Weiterführende Literatur
 ===============
 
-Geprüft am 2015-07-12  
+> Geprüft 2020-05-08  
 
 Wenn Sie es bis hier hin geschafft haben - Glückwunsch! Sie sollten jetzt ein gutes Verständnis davon haben, wie man Karten mit OpenStreetMap erstellt. Aber was kann man noch alles mit OSM anstellen? Wie können Sie noch mehr lernen? Und wie können Sie mit der Gemeinschaft der “Kartographen” verbunden bleiben?  
 
@@ -55,18 +55,16 @@ Suchen Sie auf der Seite die Liste, welche zu Ihrem Land passt. Die Listen sind 
 - Nun sollten Sie ein Mitglied der Mailing-Liste sein  
 - Wenn Sie eine E-Mail an die Liste senden wollen, verwenden Sie die Adresse [talk-de@openstreetmap.org](mailto:talk-de@openstreetmap.org), wobei Sie unter Umständen “de” gegen einen anderen Ländercode austauschen müssen, falls Ihre Nachricht nicht an die deutsche Mailing-Liste verschickt werden soll. Wenn ein anderes Mitglied der Mailing-Liste eine E-Mail an die Liste schickt, werden Sie diese ebenso erhalten.  
 
-<!-- vielleicht ausbauen und dies später zurücklegen
-MapOSMatic
+
+Beispiel OSM Anwendung - MyOSMatic
 ----------
 
-Ein solches Projekt heißt MapOSMatic,  das man durch Ihren
-Internet-Browser auf [maposmatic.org](http://www.maposmatic.org/) erreichen kann. Dies
-ist ein einfaches Werkzeug, um eine Karte jeder Gegend, die Sie auswählen, zu drucken. Es wird
-automatisch die Karte erstellen, entlang eines Gitters über der Karte, und einem
-Index von Orten, die auf dieser Fläche enthalten sind.
+Ein solches Projekt heisst MyOSMatic, welches mit deinem Internet Browser aufgerufen werden kann unter [print.get-map.org](https://print.get-map.org/). Es ist ein einfaches Werkzeug um eine Karte einer ausgewählten Stadt zu drucken. Es wird automatisch eine Karte mit einem Raster und einem Index der Örtlichkeiten auf der Karte erstellt.
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+Weitere Anwendungen von OpenStreetMap Daten werden erklärt in der [OSM-Data section of LearnOSM](/en/osm-data/)
 
 
 Zusammenfassung
@@ -75,6 +73,6 @@ Zusammenfassung
 Das sind nur ein paar Möglichkeiten, die Sie nutzen können, um mit der OpenStreetMap-Community verbunden zu bleiben und Ihr Wissen zu erweitern. Wir hoffen, dass Sie sich weiterhin mehr mit OSM beschäftigen und zu dem Projekt beitragen werden. Fröhliches Kartieren!
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

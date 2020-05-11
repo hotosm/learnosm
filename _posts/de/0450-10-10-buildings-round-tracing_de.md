@@ -9,19 +9,20 @@ category: hot-tips
 Runde Gebäude zeichnen - iD editor
 ============
 
+> Aktualisiert am 24.6.2019
+
 - TOC
 {:toc}
 
 Die Grundlagen
 ----------
 
-![Round Buildings][]  
+![Round Buildings][]
 
-> Dieses Bild ![keymon]{: height="24px"} zeigt, welche Maustaste oder welches Mausrad genutzt wurde und welche Taste auf der Tastatur gedrückt wurde  
 
 Folgendermaßen ist vorzugehen:  
 
-- Setzen Sie überall dort Knotenpunkte, wo die Gebäudemauer den Boden berührt - mindestens 3 Punkte. Benutzen Sie das Werkzeug, um es rund zu machen.  
+- Setzen Sie überall dort Knotenpunkte, wo die Gebäudemauer den Boden berührt - mindestens 3 Punkte. Benutzen Sie das Werkzeug, um es rund zu machen. Shortcut: "o"  
 - Vergessen Sie nicht, Eigenschaften hinzuzufügen!  
 - Die Größe ist wichtig - *Die Bevölkerungsschätzung basiert auf der addierten Grundfläche der Gebäude in dem jeweiligen Gebiet*,  
 - Zoomen Sie weit genug rein, um alle Details zu sehen - ein Zoom Maßstab von 20 Metern oder weniger ist normalerweise gut.  
@@ -29,6 +30,16 @@ Folgendermaßen ist vorzugehen:
 - Gebäude sollten sich nicht mit Straßen, Flüssen, **landuse=residential** Grenzen oder anderen Merkmalen überschneiden.  
 - Wenn Sie einen Fehler machen, benutzen Sie den **Rückgängig** Button ![back arrow]{: height="26px"}, um deine letzten Änderungen rückgängig zu machen.  
 - Wir wollen alle die Karte verbessern. Wenn der vorherige Mapper die Gebäude in einer komischen Form oder sonst falsch eingezeichnet hat, verbessern Sie diese und überlegen Sie sich, ob Sie ihm eine freundliche Nachricht schicken wollen.  
+
+Gebäude - Rechteckig nach rund konvertieren
+-------------------------------------
+
+![Square to round][]  
+
+Wenn ein Gebäude rechteckig erfasst wurde, aber rund sein sollte, kann man es leicht konvertieren;
+
+- bewege jede Ecke, so dass sie auf dem Umkreis des runden Gebäude liegen, 
+- mache einen Rechtsklick und verwende das Kreiswerkzeug, oder die Taste **o** - es kann ein andere Buchstabe in anderen Sprachen sein.  
 
 Gebäude identifizieren
 ---------------
@@ -57,6 +68,7 @@ Siehe auch
 
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "Demonstration, wie ein rundes Gebäude einzuzeichnen ist"
+[Square to round]: /images/hot-tips/square-round-building.gif "Zeige die Änderung eines rechtwinkligen zu einem runden Geäude"  
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Runde Gebäude neben einem Strauch"
 [back arrow]: /images/beginner/back-arrow.png "Undo"
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Einführungs Videos - Ein Gebäude zu OpenStreetMap hinzufügen"

@@ -6,9 +6,10 @@ lang: de
 category: mobile-mapping
 ---
 
-
 BasicAirData GPS Logger
 =======================
+
+> Geprüft 2020-05-05
 
 ![BasicAirData-GPSLogger-002][]
 

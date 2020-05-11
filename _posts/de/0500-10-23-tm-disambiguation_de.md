@@ -23,7 +23,7 @@ Diese Seite bietet Ihnen einen Überblick über die Versionen des Tasking Manage
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[Anleitung für Benutzer](/de/coordination/tm-user) [Anleitung für Projektmanager](/de/coordination/tm-admin)
+[Benutzerhandbuch](/de/coordination/tm-user) [Administrator Handbuch](/de/coordination/tm-admin)
 </div>
 </div>
 
@@ -38,7 +38,7 @@ Diese Seite bietet Ihnen einen Überblick über die Versionen des Tasking Manage
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[Anleitung für Benutzer](/de/coordination/tasking-manager3) [Anleitung für Projektmanager](/de/coordination/tasking-manager3-project-admin)
+[Benutzerhandbuch](/de/coordination/tasking-manager3) [Administrator Handbuch](/de/coordination/tasking-manager3-project-admin)
 </div>
 </div>
 
@@ -54,7 +54,7 @@ Diese Seite bietet Ihnen einen Überblick über die Versionen des Tasking Manage
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[Anleitung für Benutzer](/de/coordination/tasking-manager) [Anleitung für Projektmanager](/de/coordination/tasking-manager-project-admin)
+[Benutzerhandbuch](/de/coordination/tasking-manager) [Administrator Handbuch](/de/coordination/tasking-manager-project-admin)
 </div>
 </div>
 
