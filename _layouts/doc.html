@@ -4,7 +4,7 @@ layout: default
 
 <!-- First the navigation bar on the left side -->
 
-<div class='doc-nav marginL cell3 padAll cf' id='doc-nav-left'>
+<div class='doc-nav {% if page.lang == "fa" %} marginR {% else %} marginL {% endif %} cell3 padAll cf' id='doc-nav'>
   <ul>
       <li class='doc rounded'>
         <a class='title cover'>
@@ -152,6 +152,6 @@ layout: default
   $('a.start').attr('href',proceedTo);
   // Set the min-height of the page dynamically based on height of navigation div
   $('.doc-main').css("min-height", function() {
-    return $('#doc-nav-left').height() + 25;
+    return $('#doc-nav').height() + 25;
   });
 </script>

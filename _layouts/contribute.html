@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<div class='cell9 padAll marginL'>
-  <div class='cell7 marginR contribute-intro'>
+<div class='cell9 padAll {% if page.lang == "fa" %} marginR {% else %} marginL {% endif %}'>
+  <div class='cell7 {% if page.lang == "fa" %} marginL {% else %} marginR {% endif %} contribute-intro'>
     <h4>{{ page.contributetitle }}</h4>
     <p>{{ content }}</p>
   </div>
