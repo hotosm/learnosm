@@ -1,140 +1,8 @@
-<!DOCTYPE html>
-<html lang="{{page.lang}}">
-  <head>
-    <meta charset="UTF-8">
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'>
-    <title>LearnOSM</title>
-    <link href="{{ site.baseurl }}/reset.css" rel="stylesheet" type="text/css">
-    <link href="{{ site.baseurl }}/style.css" rel="stylesheet" type="text/css">
-    <link href="{{ site.baseurl }}/print.css" rel="stylesheet" type="text/css" media="print">
-    <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
-    <link href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" >
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Quattrocento+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <script src="{{ site.baseurl }}/vendor/jquery-1.8.2.min.js"></script>
-    <script src="{{ site.baseurl }}/vendor/jquery-ui-1.9.2.custom.js"></script>
-    <script>
-      window.app = window.app || {};
-      window.app.permalink = '{{page.permalink}}';
-      window.app.baseurl = '{{site.baseurl}}';
-      window.app.lang = '{{page.lang}}';
-    </script>
-    <script src="{{ site.baseurl }}/site.js"></script>
-    <!-- Matomo -->
-    <script type="application/javascript">var site_id="3";</script>
-    <script type="application/javascript" src="https://cdn.hotosm.org/tracking-v1.js"></script>
-    <!-- End Matomo -->
-  </head>
-  <body>
-   <div id='wrapper'>
-    <div class="fillG cell12" id="banner-top">
-      <div class="dropdown language-switcher marginL"> <span> {{site.translations[page.lang].language}} ... </span>
-        <div class='language-switcher dropdown-content'>
-          {% assign start_page = "/" | append: page.lang | append: "/" | strip %}
-          {% assign contribute_page = "/" | append: page.lang | append: "/contribute/" | strip %}
-          {% assign this_page = page.permalink | strip %}
-
-          {% if this_page == start_page %} <!-- always show title page -->
-            {% for lingua in site.translations %}
-              <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
-            {% endfor %}
-
-          {% elsif this_page == contribute_page %} <!-- always show contribute page -->
-            {% for lingua in site.translations %}
-              <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
-            {% endfor %}
-
-          {% else %}
-            {% assign supported = "" %}
-            {% assign remover = "/" | append: page.lang | append: "/" | append: page.category %}
-            {% assign page_name = page.permalink | remove: remover %}
-
-            <!-- find out which pages with the same name exist in which languages -->
-            {% for post in site.categories[page.category] %}
-              {% assign remover = "/" | append: post.lang | append: "/" | append: post.category %}
-              {% assign testee = post.permalink | remove: remover %}
-              {% if page_name == testee %}
-                {% assign supported = supported | append: post.lang | append: ' ' %}
-              {% endif %}
-            {% endfor %}
-
-            <!-- make a link for those languages where the page exists, plain text otherwise -->
-            {% for lingua in site.translations %}
-              {% if supported contains lingua[0] %}
-              <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
-              {% else %}
-              <span class="unavailable">{{lingua[1].language}}</span><br>
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-        </div>
-      </div>
-      <div class="dropdown quick-access"> <a> {{site.translations[page.lang].quickaccess}} </a>
-        <div class='quick-access dropdown-content'>
-          <!-- find out whether the remote-tracing guide exists in the current language; otherwise we will use English -->
-          {% assign remote_tracing = "/" | append: page.lang | append: "/coordination/remote-tracing/" %}
-          {% assign found = "0" %}
-          {% for post in site.categories['coordination'] %}
-            {% if post.permalink == remote_tracing %}
-              {% assign found = "1" %}
-              {% break %}
-            {% endif %}
-          {% endfor %}
-          {% if found == "1" %}
-            {% assign use_lang = page.lang %}
-          {% else %}
-            {% assign use_lang = "en" %}
-          {% endif %}
-          <!-- now build the menu proper -->
-          {% assign remote_tracing = "/" | append: use_lang | append: "/coordination/remote-tracing" %}
-          <a href="{{remote_tracing}}/#highways-howto">Highways - How to map</a><br>
-          <a href="{{remote_tracing}}/#residential-howto">landuse=residential - How to map</a><br>
-          <a href="{{remote_tracing}}/#buildings-howto">Buildings - How to map</a><br>
-          <hr>
-          <!-- find out which hot-tips exists in the current language; otherwise we will use English -->
-          {% assign local_tips = "" %}
-          {% assign remover = "/" | append: post.lang | append: "/hot-tips/" %}
-          {% for post in site.categories['hot-tips'] %}
-            {% if post.lang == page.lang %}
-              {% assign local_tip = post.permalink | remove: remover %}
-              {% assign local_tips = local_tips | append: local_tip | append: ' ' %}
-            {% endif %}
-          {% endfor %}
-          <!-- now build the menu proper -->
-          {% for post in site.categories['hot-tips'] %}
-            {% if post.lang == page.lang %}
-              <a href="{{post.permalink}}">{{post.title}}</a><br>
-            {% elsif post.lang == "en" %}
-              {% assign testee = post.permalink | remove: "/en/hot-tips/" %}
-              {% unless local_tips contains testee %}
-                <a href="{{post.permalink}}">{{post.title}}</a><br>
-              {% endunless %}
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-      <!-- small search bar does not appear on the front page -->
-      {% unless page.fronttitle or page.contributetitle%}
-      <form class='searchbox-default rounded'>
-        <span class='icon logo-search'></span>
-        <input id='search-field' type='text' name='search' class='default-value' />
-      </form>
-      {% endunless%}
-    </div>
-    <div id='header' class='cell12'>
-      <div class='marginL cell9 padAll'>
-        <div class='cell7 marginR'>
-           <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
-           <span class='tagline'>{{site.translations[page.lang].tagline}}</span>
-        </div>
-        <a class='banner hide-mobile'>
-          <span class='{{page.lang}}'>{{site.translations[page.lang].contribute}}</span>
-        </a>
-        <a class='banner-mobile hide-desktop show-mobile' href='{{site.baseurl}}/{{page.lang}}/contribute/'>
-        </a>
-      </div>
-    </div>
+---
+layout: default
+---
     <div id='content' class='cf'>
-      <div id='topbtns' class='marginL cell9 padAll'>
+      <div id='topbtns' class='{% if page.lang == "fa" %} marginR {% else %} marginL {% endif %} cell9 padAll'>
         <div class='tb1 cell8 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
           <a href='{{site.baseurl}}/{{page.lang}}/beginner'>
             <span class='tb-title'>{{ page.begspan }}</span>
@@ -155,14 +23,14 @@
           </a>
         </div>
       </div>
-      <div class='marginL cell9 padAll'>
+      <div class='{% if page.lang == "fa" %} marginR {% else %} marginL {% endif %} cell9 padAll'>
         <form class='searchbox rounded'>
           <span class='logo logo-search' style='margin-top: 0px;'></span>
           <input id='search-field' type='text' name='search' class='default-value cell10'></input>
         </form>
       </div>
-      <div id='front' class='marginL cell9 padAll'>
-        <div class='front-text cell7 marginR'>
+      <div id='front' class='{% if page.lang == "fa" %} marginR {% else %} marginL {% endif %} cell9 padAll'>
+        <div class='front-text cell7 {% if page.lang == "fa" %} marginL {% else %} marginR {% endif %}'>
           <h4 class='tagtitle'>{{ page.fronttitle }}</h4>
           <p class='tagwords'>{{ page.frontintro }}</p>
         </div>
@@ -206,46 +74,3 @@
       });
       </script>
     </div>
-    <footer id='footer' class='fillG cell12'>
-      <ul class='contact marginL marginR cell3 padAll'>
-        <li><a class='email' href="mailto:learnosm@hotosm.org">learnosm@hotosm.org</a></li>
-        <li><a class='twitter' href="https://twitter.com/learnosm">@learnOSM</a></li>
-        <li><a class='github' href='https://github.com/hotosm/learnosm'> Hosted on Github</a></li>
-        <li>
-          <a rel="license" class="license" href="https://creativecommons.org/publicdomain/zero/1.0/">
-            <img src="https://i.creativecommons.org/p/zero/1.0/80x15.png" alt="CC0" />
-          </a>
-      </li>
-      </ul>
-      <div class='sponsors cell6 padAll'>
-        <span>Official <a href='https://hot.openstreetmap.org/' target='_blank'>HOT OSM</a> learning materials</span>
-        <a class='logo logo-hot left' href='https://hot.openstreetmap.org/' target='_blank'></a>
-        <a class='logo logo-ausaid left' href='https://en.wikipedia.org/wiki/Australian_Aid' target='_blank'></a>
-        <a class='logo logo-bnpb left' href='https://www.bnpb.go.id/' target='_blank'></a>
-      </div>
-    </footer>
-  </div>
-  <div id="optout-form"></div>
-  </body>
-  <script>
-  // autocomplete search with all-translation json
-    $.getJSON("{{site.baseurl}}/all-translation.json",function(data){
-      console.log(data);
-      var lang = "{{page.lang}}";
-      data.forEach(function(o){
-        if (o.lang === lang){
-          var destination;
-          $( "#search-field" ).autocomplete({
-           autoFocus: true, // highlight the first search result in dropdown
-           delay: 0,
-           source: o.chapters,
-           select: function(event, ui) {
-             destination = '{{site.baseurl}}' + ui.item.url;
-             window.location = destination;
-           }
-          });
-        }
-      })
-  });
-  </script>
-</html>
