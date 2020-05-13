@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: ردیابی ساختمانهای چهارگوش - ویرایشگر iD
 permalink: /fa/hot-tips/tracing-rectangular-buildings/
 lang: fa

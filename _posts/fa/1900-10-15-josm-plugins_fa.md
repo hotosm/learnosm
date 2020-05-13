@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: افزونه‌های JOSM
 permalink: /fa/josm/josm-plugins/
 lang: fa

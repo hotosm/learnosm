@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: استفاده از داده‌های OSM در QGIS
 permalink: /fa/osm-data/osm-in-qgis/
 lang: fa

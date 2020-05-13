@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: مقدمه
 permalink: /fa/beginner/introduction/
 lang: fa

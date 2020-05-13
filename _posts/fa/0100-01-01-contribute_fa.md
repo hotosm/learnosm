@@ -1,5 +1,5 @@
 ---
-layout: contribute-rtl
+layout: contribute
 permalink: /fa/contribute/
 lang: fa
 title: Contribute

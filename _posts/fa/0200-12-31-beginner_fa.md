@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 permalink: /fa/beginner/
 lang: fa
 title: راهنمای مبتدیان

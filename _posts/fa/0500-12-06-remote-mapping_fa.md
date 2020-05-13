@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: نقشه‌کشی از راه دور HOT  
 permalink: /fa/coordination/HOT-Remote-Response-Guide/ 
 lang: fa

@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: قالبهای فایل
 permalink: /fa/osm-data/file-formats/
 lang: fa

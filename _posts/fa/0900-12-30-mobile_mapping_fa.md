@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 permalink: /fa/mobile-mapping/
 lang: fa
 title: نقشه‌کشی با گوشی هوشمند، دستگاه GPS و یا ورقه‌های میدانی

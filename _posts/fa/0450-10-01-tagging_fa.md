@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: تگ‌نویسی - ویرایشگر iD
 permalink: /fa/hot-tips/tagging/
 lang: fa

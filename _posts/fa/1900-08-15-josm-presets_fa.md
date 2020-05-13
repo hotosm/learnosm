@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: قالبهای آماده JOSM 
 permalink: /fa/josm/josm-presets/
 lang: fa

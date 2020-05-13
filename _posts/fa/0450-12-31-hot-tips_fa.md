@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 permalink: /fa/hot-tips/
 lang: fa
 title: ترفندهای HOT - شروع به کار به عنوان نقشه‌کش جدید - ویرایشگر iD

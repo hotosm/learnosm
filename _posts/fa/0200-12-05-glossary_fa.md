@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: لغتنامه 
 /permalink: /fa/beginner/glossary
 lang: fa

@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 permalink: /fa/coordination/
 lang: fa
 title: هماهنگ سازی

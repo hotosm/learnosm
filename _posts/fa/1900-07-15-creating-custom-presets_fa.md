@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: JOSM - ایجاد قالب آماده
 permalink: /fa/josm/creating-presets/
 lang: fa

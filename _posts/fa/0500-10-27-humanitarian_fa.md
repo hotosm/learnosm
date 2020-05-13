@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: نقشه‌کشی انساندوستانه
 permalink: /fa/coordination/humanitarian/
 lang: fa

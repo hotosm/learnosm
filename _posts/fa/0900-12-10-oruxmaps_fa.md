@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: OruxMaps
 permalink: /fa/mobile-mapping/oruxmaps/
 lang: fa

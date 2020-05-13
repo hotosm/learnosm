@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: شروع به کار با مدیریت وظایف - ویزایشگر iD
 permalink: /fa/hot-tips/getting-started/
 lang: fa

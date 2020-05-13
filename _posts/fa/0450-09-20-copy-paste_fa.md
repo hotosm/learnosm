@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: کپی، الصاق و چرخش - ویرایشگر iD
 permalink: /fa/hot-tips/copy-paste/
 lang: fa
