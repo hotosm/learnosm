@@ -616,11 +616,6 @@ input.default-value {
   margin-left:25px;
   margin-right:8px;
 }
-.doc-nav-secondary-rtl .title span:before {
-  content:'▸';
-  margin-right:25px;
-  margin-left:8px;
-}
 
 .doc .title.cover,
 .doc .title.cover:hover,
