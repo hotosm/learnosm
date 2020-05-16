@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{page.lang}}" {% if page.lang == "fa" %}dir="rtl"{% endif %}>
+<html lang="{{page.lang}}" {% if page.dir == "rtl" %}dir="rtl"{% endif %}>
   <head>
     <meta charset="UTF-8">
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'>
@@ -121,8 +121,8 @@
       {% endunless%}
     </div>
     <div id='header' class='cell12'>
-      <div class='{% if page.lang == "fa" %} marginR {% else %} marginL {% endif %} cell9 padAll'>
-        <div class='cell7 {% if page.lang == "fa" %} marginL {% else %} marginR {% endif %}'>
+      <div class='{% if page.dir == "rtl" %} marginR {% else %} marginL {% endif %} cell9 padAll'>
+        <div class='cell7 {% if page.dir == "rtl" %} marginL {% else %} marginR {% endif %}'>
            <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
            <span class='tagline'>{{site.translations[page.lang].tagline}}</span>
         </div>
@@ -149,9 +149,9 @@
       </ul>
       <div class='sponsors cell6 padAll'>
         <span>Official <a href='https://hot.openstreetmap.org/' target='_blank'>HOT OSM</a> learning materials</span>
-        <a class='logo logo-hot {% if page.lang == "fa" %} right{% else %} left{% endif %}' href='https://hot.openstreetmap.org/' target='_blank'></a>
-        <a class='logo logo-ausaid {% if page.lang == "fa" %} right{% else %} left{% endif %}' href='https://en.wikipedia.org/wiki/Australian_Aid' target='_blank'></a>
-        <a class='logo logo-bnpb {% if page.lang == "fa" %} right{% else %} left{% endif %}' href='https://www.bnpb.go.id/' target='_blank'></a>
+        <a class='logo logo-hot {% if page.dir == "rtl" %} right{% else %} left{% endif %}' href='https://hot.openstreetmap.org/' target='_blank'></a>
+        <a class='logo logo-ausaid {% if page.dir == "rtl" %} right{% else %} left{% endif %}' href='https://en.wikipedia.org/wiki/Australian_Aid' target='_blank'></a>
+        <a class='logo logo-bnpb {% if page.dir == "rtl" %} right{% else %} left{% endif %}' href='https://www.bnpb.go.id/' target='_blank'></a>
       </div>
     </footer>
   </div>

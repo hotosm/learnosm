@@ -2,7 +2,7 @@
 layout: default
 ---
     <div id='content' class='cf'>
-      <div id='topbtns' class='{% if page.lang == "fa" %} marginR {% else %} marginL {% endif %} cell9 padAll'>
+      <div id='topbtns' class='{% if page.dir == "rtl" %} marginR {% else %} marginL {% endif %} cell9 padAll'>
         <div class='tb1 cell8 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
           <a href='{{site.baseurl}}/{{page.lang}}/beginner'>
             <span class='tb-title'>{{ page.begspan }}</span>
@@ -23,14 +23,14 @@ layout: default
           </a>
         </div>
       </div>
-      <div class='{% if page.lang == "fa" %} marginR {% else %} marginL {% endif %} cell9 padAll'>
+      <div class='{% if page.dir == "rtl" %} marginR {% else %} marginL {% endif %} cell9 padAll'>
         <form class='searchbox rounded'>
           <span class='logo logo-search' style='margin-top: 0px;'></span>
           <input id='search-field' type='text' name='search' class='default-value cell10'></input>
         </form>
       </div>
-      <div id='front' class='{% if page.lang == "fa" %} marginR {% else %} marginL {% endif %} cell9 padAll'>
-        <div class='front-text cell7 {% if page.lang == "fa" %} marginL {% else %} marginR {% endif %}'>
+      <div id='front' class='{% if page.dir == "rtl" %} marginR {% else %} marginL {% endif %} cell9 padAll'>
+        <div class='front-text cell7 {% if page.dir == "rtl" %} marginL {% else %} marginR {% endif %}'>
           <h4 class='tagtitle'>{{ page.fronttitle }}</h4>
           <p class='tagwords'>{{ page.frontintro }}</p>
         </div>
