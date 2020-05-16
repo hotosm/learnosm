@@ -3,6 +3,7 @@ layout: doc
 title: راه اندازی PostgreSQL
 permalink: /fa/osm-data/postgresql/
 lang: fa
+dir: rtl
 category: osm-data
 ---
 

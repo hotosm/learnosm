@@ -3,6 +3,7 @@ layout: doc
 title: مقدمه
 permalink: /fa/beginner/introduction/
 lang: fa
+dir: rtl
 category: beginner
 ---
 

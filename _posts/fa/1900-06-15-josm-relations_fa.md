@@ -3,6 +3,7 @@ layout: doc
 title: رابطه‌های JOSM
 permalink: /fa/josm/josm-relations/
 lang: fa
+dir: rtl
 category: josm
 ---
 

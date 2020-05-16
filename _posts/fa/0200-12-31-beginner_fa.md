@@ -2,6 +2,7 @@
 layout: doc
 permalink: /fa/beginner/
 lang: fa
+dir: rtl
 title: راهنمای مبتدیان
 category: beginner
 cover: yes

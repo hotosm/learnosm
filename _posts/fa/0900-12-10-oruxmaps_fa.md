@@ -3,6 +3,7 @@ layout: doc
 title: OruxMaps
 permalink: /fa/mobile-mapping/oruxmaps/
 lang: fa
+dir: rtl
 category: mobile-mapping
 ---
 

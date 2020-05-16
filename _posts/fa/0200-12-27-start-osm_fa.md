@@ -3,6 +3,7 @@ layout: doc
 title: شروع به کار در OpenStreetMap.org
 permalink: /fa/beginner/start-osm/
 lang: fa
+dir: rtl
 category: beginner
 ---
 

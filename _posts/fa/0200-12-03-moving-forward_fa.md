@@ -3,6 +3,7 @@ layout: doc
 title: مطالعه بیشتر
 permalink: /fa/beginner/moving-forward/
 lang: fa
+dir: rtl
 category: beginner
 ---
 

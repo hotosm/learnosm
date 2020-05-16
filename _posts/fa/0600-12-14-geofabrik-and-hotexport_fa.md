@@ -3,6 +3,7 @@ layout: doc
 title: استفاده از Geofabrik و خروجی HOT
 permalink: /fa/osm-data/geofabrik-and-hot-export/
 lang: fa
+dir: rtl
 category: osm-data
 ---
 

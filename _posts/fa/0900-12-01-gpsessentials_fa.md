@@ -3,6 +3,7 @@ layout: doc
 title: GPS Essentials
 permalink: /fa/mobile-mapping/gpsessentials/
 lang: fa
+dir: rtl
 category: mobile-mapping
 --- 
 

@@ -3,6 +3,7 @@ layout: doc
 title: نگاه کلی به داده‌های OSM
 permalink: /fa/osm-data/data-overview/
 lang: fa
+dir: rtl
 category: osm-data
 ---
 

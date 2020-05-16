@@ -3,6 +3,7 @@ layout: doc
 title: تصاویر ماهواره ای
 permalink: /fa/josm/aerial-imagery/
 lang: fa
+dir: rtl
 category: josm
 ---
 

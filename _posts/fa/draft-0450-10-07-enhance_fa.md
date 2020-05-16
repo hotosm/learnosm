@@ -3,6 +3,7 @@ layout: doc
 title: افزایش رنگها یا پس زمینه - ویرایشگر iD
 permalink: /fa/hot-tips/enhance/
 lang: fa
+dir: rtl
 category: hot-tips
 ---
 

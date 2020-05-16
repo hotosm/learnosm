@@ -2,6 +2,7 @@
 layout: doc
 permalink: /fa/coordination/
 lang: fa
+dir: rtl
 title: هماهنگ سازی
 category: coordination
 cover: yes

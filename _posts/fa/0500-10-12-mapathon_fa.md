@@ -3,6 +3,7 @@ layout: doc
 title: برگزاری کارزار نقشه (Mapathon)
 permalink: /fa/coordination/mapathon/
 lang: fa
+dir: rtl
 category: coordination
 ---
 

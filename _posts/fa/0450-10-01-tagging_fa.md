@@ -3,6 +3,7 @@ layout: doc
 title: تگ‌نویسی - ویرایشگر iD
 permalink: /fa/hot-tips/tagging/
 lang: fa
+dir: rtl
 category: hot-tips
 ---
 

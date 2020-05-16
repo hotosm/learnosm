@@ -3,6 +3,7 @@ layout: doc
 title: کپی، الصاق و چرخش - ویرایشگر iD
 permalink: /fa/hot-tips/copy-paste/
 lang: fa
+dir: rtl
 category: hot-tips
 ---
 
