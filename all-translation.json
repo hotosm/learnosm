@@ -53,7 +53,7 @@
 	]
 },{
 	"lang":"es",
-	"chapter":[
+	"chapters":[
 	  {% for post in site.posts %}
 	  {% if post.lang == 'es' %}
 	  {% unless post.nosearch %}
@@ -66,7 +66,7 @@
 	]
 },{
 	"lang":"fa",
-	"chapter":[
+	"chapters":[
 	  {% for post in site.posts %}
 	  {% if post.lang == 'fa' %}
 	  {% unless post.nosearch %}
