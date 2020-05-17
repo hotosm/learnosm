@@ -350,6 +350,7 @@ figure {
   -moz-transition: all 200ms linear;
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
+  -ms-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
@@ -360,6 +361,7 @@ figure {
   font-size:12px;
   font-weight:700;
   padding:2px 60px 0 18px;
+  -ms-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
@@ -408,6 +410,7 @@ figure {
     width:100px;
     background:transparent url(./img/sprite.png);
     background-position:-280px -160px;
+    -ms-transform: scaleX(-1);
     transform: scaleX(-1);
   }
     #topbtns .tb1 span.door:hover {
@@ -493,6 +496,7 @@ a.license {
   width: 30px;
   height: 28px;
   background-position:-152px -150px;
+  -ms-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
@@ -560,6 +564,7 @@ input.default-value {
     height:20px;
     background:url(./img/sprite.png) 2px -165px no-repeat;
     overflow:hidden;
+    -ms-transform: scaleX(-1);
     transform: scaleX(-1);
     }
   .faq li a:hover:before {background-position:2px -185px;}
@@ -682,6 +687,7 @@ input.default-value {
       width: 70px;
       float:right;
       background: url(./img/sprite.png);
+      -ms-transform: scaleX(-1);
       transform: scaleX(-1);
     }
     .getstarted span:before {background-position: -350px -95px;margin-top:-10px;}
@@ -749,6 +755,7 @@ input.default-value {
     height:20px;
     background:url(./img/sprite.png) 2px -165px no-repeat;
     overflow:hidden;
+    -ms-transform: scaleX(-1);
     transform:scaleX(-1);
   }
   .contribute-links ul li a:hover:before {background-position:2px -185px}
