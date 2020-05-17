@@ -47,4 +47,5 @@ img {
 }
 a:after {
     content: " [" attr(href) "] ";
+    unicode-bidi: isolate;
 }
