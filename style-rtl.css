@@ -17,7 +17,7 @@
   div.print-watermark {
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
   }
   div.print-watermark-reserved {
     height: 40px;
