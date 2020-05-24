@@ -40,11 +40,11 @@
 .cell10 { float:left; width:83.3333%; }
 .cell11 { float:left; width:91.6666%; }
 .cell12 { float:left; width:100.0000%; }
-.right {float:right;}
-.left {float:left;}
+.end {float:right;}
+.start {float:left;}
 
-.marginL { margin-left: 08.3333%; }
-.marginR { margin-right:08.3333%; }
+.marginStart { margin-left: 08.3333%; }
+.marginEnd { margin-right:08.3333%; }
 .padAll {padding:10px;}
 .padTB {padding:20px 0;}
 .padLR {padding:0 20px;}
@@ -616,11 +616,6 @@ input.default-value {
   margin-left:25px;
   margin-right:8px;
 }
-.doc-nav-secondary-rtl .title span:before {
-  content:'▸';
-  margin-right:25px;
-  margin-left:8px;
-}
 
 .doc .title.cover,
 .doc .title.cover:hover,
@@ -790,8 +785,8 @@ input.default-value {
   .cell10,
   .cell11,
   .cell12 { width:100%; max-width:100%; float: none; }
-  .marginL { margin-left:0%; }
-  .marginR { margin-right: 0%;}
+  .marginStart { margin-left:0%; }
+  .marginEnd { margin-right: 0%;}
   .padAll,.padTB,.padLR { padding: 0px;}
   .hide-desktop {display:block;}
   .hide-mobile { display: none;}

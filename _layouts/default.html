@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html lang="{{page.lang}}">
+{% if page.lang == "fa" or page.lang == "ar" or page.lang == "he" %}
+  {% assign pagedirection = "rtl" %}
+{% endif %}
+<html lang="{{page.lang}}" {% if pagedirection == "rtl" %}dir="rtl"{% endif %}>
   <head>
     <meta charset="UTF-8">
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'>
+    <meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no'>
     <title>LearnOSM</title>
     <link href="{{ site.baseurl }}/reset.css" rel="stylesheet" type="text/css">
+    {% if pagedirection == "rtl" %}
+    <link href="{{ site.baseurl }}/style-rtl.css" rel="stylesheet" type="text/css">
+    {% else %}
     <link href="{{ site.baseurl }}/style.css" rel="stylesheet" type="text/css">
+    {% endif %}
     <link href="{{ site.baseurl }}/print.css" rel="stylesheet" type="text/css" media="print">
     <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
     <link href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" >
@@ -121,8 +128,8 @@
       {% endunless%}
     </div>
     <div id='header' class='cell12'>
-      <div class='marginL cell9 padAll'>
-        <div class='cell7 marginR'>
+      <div class='marginStart cell9 padAll'>
+        <div class='cell7 marginEnd'>
            <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
            <span class='tagline'>{{site.translations[page.lang].tagline}}</span>
         </div>
@@ -137,21 +144,19 @@
         {{ content }}
     </div>
     <footer id='footer' class='fillG cell12'>
-      <ul class='contact marginL marginR cell3 padAll'>
+      <ul class='contact marginStart marginEnd cell3 padAll'>
         <li><a class='email' href="mailto:learnosm@hotosm.org">learnosm@hotosm.org</a></li>
         <li><a class='twitter' href="https://twitter.com/learnosm">@learnOSM</a></li>
         <li><a class='github' href='https://github.com/hotosm/learnosm'> Hosted on Github</a></li>
-        <li>
-          <a rel="license" class="license" href="https://creativecommons.org/publicdomain/zero/1.0/">
-            <img src="https://i.creativecommons.org/p/zero/1.0/80x15.png" alt="CC0" />
-          </a>
-      </li>
+        <a rel="license" class="license" href="https://creativecommons.org/publicdomain/zero/1.0/">
+      	  <img src="https://i.creativecommons.org/p/zero/1.0/80x15.png" alt="CC0" />
+        </a>
       </ul>
       <div class='sponsors cell6 padAll'>
-        <span>Official <a href='https://hot.openstreetmap.org/' target='_blank'>HOT OSM</a> learning materials</span>
-        <a class='logo logo-hot left' href='https://hot.openstreetmap.org/' target='_blank'></a>
-        <a class='logo logo-ausaid left' href='https://en.wikipedia.org/wiki/Australian_Aid' target='_blank'></a>
-        <a class='logo logo-bnpb left' href='https://www.bnpb.go.id/' target='_blank'></a>
+        <span>Official <a href='https://www.hotosm.org' target='_blank'>HOT OSM</a> learning materials</span>
+        <a class='logo logo-hot start' href='https://www.hotosm.org' target='_blank'></a>
+        <a class='logo logo-ausaid start' href='https://en.wikipedia.org/wiki/Australian_Aid' target='_blank'></a>
+        <a class='logo logo-bnpb start' href='https://www.bnpb.go.id/' target='_blank'></a>
       </div>
     </footer>
   </div>

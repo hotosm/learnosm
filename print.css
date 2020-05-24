@@ -31,8 +31,7 @@ html {
 .banner {
     display: none;
 }
-.doc-main,
-.doc-main-rtl {
+.doc-main {
     width: 96%;
     margin: 1%;
 }
@@ -47,4 +46,5 @@ img {
 }
 a:after {
     content: " [" attr(href) "] ";
+    unicode-bidi: isolate;
 }

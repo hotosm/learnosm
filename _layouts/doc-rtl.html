@@ -1,11 +1,10 @@
 ---
 layout: default
 ---
-<html dir="rtl">
 
-<!-- First the navigation bar on the right side -->
+<!-- First the navigation bar on the left side -->
 
-<div class='doc-nav marginR cell3 padAll cf' id='doc-nav-left'>
+<div class='doc-nav marginStart cell3 padAll cf' id='doc-nav'>
   <ul>
       <li class='doc rounded'>
         <a class='title cover'>
@@ -36,7 +35,7 @@ layout: default
                   {% assign first_guide = "0" %}
                   {% for subpost in site.categories[page.category] %}
                     {% if subpost.lang == page.lang %}{% unless subpost.cover or subpost.hidden or subpost.navigation == 'skip' %}
-                    <li class='doc doc-nav-secondary-rtl rounded'>
+                    <li class='doc doc-nav-secondary rounded'>
                       {% if first_guide == "0" %}
                         <a class='title {% if page.url == subpost.url %}active{% endif %} doc-first-guide' href="{{site.baseurl}}{{ subpost.url }}">
                         <span>{{ subpost.title }}</span>
@@ -59,10 +58,10 @@ layout: default
   </ul>
 </div>
 
-<!-- On the left side we have... -->
+<!-- On the right side we have... -->
 <!-- the table layout makes sure that the logo header and pagenumber footer appear on _every_ page -->
 
-<div class='doc-main-rtl doc cell7 padAll'>
+<div class='doc-main doc cell6 padAll'>
   <table>
     <thead>
       <tr><td>
@@ -76,7 +75,7 @@ layout: default
         </div>
         {% if page.cover %}   <!--    then the 'return to top' button and and our call for feedback -->
           <div class='getstarted'>
-            <span><a class='start rounded'>{{site.translations[page.lang].getstarted}}</a></span>
+            <span><a class='getstart rounded'>{{site.translations[page.lang].getstarted}}</a></span>
           </div>
         {% else %}
         <p>
@@ -150,9 +149,9 @@ layout: default
   });
   // get the second url of the current-chapter-nav and make it the url of the 'proceed' link
   var proceedTo = $('.doc-first-guide').attr('href');
-  $('a.start').attr('href',proceedTo);
+  $('a.getstart').attr('href',proceedTo);
   // Set the min-height of the page dynamically based on height of navigation div
-  $('.doc-main-rtl').css("min-height", function() {
-    return $('#doc-nav-left').height() + 25;
+  $('.doc-main').css("min-height", function() {
+    return $('#doc-nav').height() + 25;
   });
 </script>
