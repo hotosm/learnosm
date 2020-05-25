@@ -31,6 +31,9 @@ html {
 .banner {
     display: none;
 }
+#wrapper {
+    display: block;
+}
 .doc-main {
     width: 96%;
     margin: 1%;
