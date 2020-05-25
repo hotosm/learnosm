@@ -600,7 +600,9 @@ input.default-value {
 }
 .doc .title{
   display:block;
-  padding:10px;
+  padding:4px;
+  padding-left:10px;
+  padding-right:10px;
   background:#f0f0f0;
 }
 .doc .title.active {
