@@ -2,7 +2,7 @@
 layout: doc
 title: Introduction
 permalink: /fr/beginner/introduction/
-lang : fr
+lang: fr
 category: beginner
 ---
 

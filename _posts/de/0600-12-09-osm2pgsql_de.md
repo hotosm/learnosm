@@ -1,8 +1,8 @@
 ---
 Layout: doc
 Titel: osm2pgsql
-Permalink: /en/osm-data/osm2pgsql/
-Sprache: en
+Permalink: /de/osm-data/osm2pgsql/
+Sprache: de
 Kategorie: osm-data
 ---
 

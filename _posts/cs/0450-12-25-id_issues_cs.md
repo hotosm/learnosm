@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Chyby - iD editor
-permalink: /en/hot-tips/issues/
+permalink: /cs/hot-tips/issues/
 lang: cs
 category: hot-tips
 ---
