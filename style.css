@@ -473,10 +473,11 @@ a.license {
 
 .searchbox input {
   border:none;
-  padding:4px 0px 4px 20px;
   font-size:16px;
   font-family:'Source Sans Pro',sans-serif;
   background-color: #ffffff;
+  width: 70%;
+  vertical-align: middle;
 }
 
 .searchbox input:focus {
