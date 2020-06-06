@@ -2,41 +2,41 @@
 layout: doc-rtl
 permalink: /fa/hot-tips/
 lang: fa
-title: ترفندهای HOT - شروع به کار به عنوان نقشه‌کش جدید - ویرایشگر iD
+title: نکات HOT - شروع به کار برای نقشه‌کش‌های جدید - ویرایشگر iD
 category: hot-tips
 cover: yes
 nosearch: true
 ---
 
-ترفندهای HOT - شروع به کار به عنوان نقشه‌کش جدید با استفاده از ویرایشگر iD و مدیر وظایف
+نکات HOT - شروع به کار نقشه‌کش‌های جدید با استفاده از ویرایشگر iD و Tasking Manager
 ================
 
-این مجموعه از راهنماهای مختصر با هدف کمک به داوطلبان جهت نقشه‌کشی برای سازمان‌هایی که از مدیر وظایف استفاده میکنند ارائه شده است، اما اصول همانند نقشه‌کشی در OpenStreetMap است. نقشه‌کشی آسان است، اما اجازه دهید آن را صحیح انجام داده و نقشه را بهبود ببخشیم!
+این مجموعه از راهنماهای مختصر با هدف کمک به داوطلبانی تهیه شده است که با استفاده از Tasking Manager برای یاری‌رسانی به سازمان‌های امدادی نقشه‌کشی می‌کنند. اصول کار همان اصول نقشه‌کشی در OpenStreetMap است. نقشه‌کشی آسان است، اما بیایید دقیق انجامش دهیم و نقشه را بهبود ببخشیم!
 
-از منو استفاده کنید تا نوع مورد نظر خود را انتخاب کنید.  
+از منو استفاده کنید تا طبق سلیقهٔ خود مطالب را بخوانید.  
 
 همچنین ببینید  
 ---------
 
 [![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "گروه بشردوستانه  OpenStreetMap - فیلم‌های آموزشی یک دقیقه‌ای")  
-*برای بعضی زبانها زیرنویس وجود دارد*  
+*برای بعضی زبان‌ها زیرنویس وجود دارد*  
 
-[iD help]{: height="400px"}!  
-منوی کمک iD - در حال ویرایش همیشه وجود دارد و شامل walkthrough اختیاری نیز می‌باشد.    
+![iD help]{: height="400px"}  
+منوی راهنما در iD - هنگامی که ویرایش می‌کنید همیشه در دسترستان است و یک **راهنمای تعاملی** نیز دارد.    
   
-[لیست میانبرهای iD در ویکی](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
+لیست میانبرهای iD در محیط ویرایشگر قابل‌مشاهده است. در محیط ویرایشگر دکمهٔ «راهنما» را بزنید و «میانبرهای صفحه‌کلید» را انتخاب کنید. کلید ترکیبی برای نمایش میانبرهای صفحه‌کلید **Shift+?‎** است.  
 
-[ویکی OpenStreetMap](https://wiki.openstreetmap.org/wiki/Main_Page)  
+[ویکی OpenStreetMap](https://wiki.openstreetmap.org/wiki/Fa:Main_Page?uselang=fa)  
 
-[راهنمای Blake Girardot در مورد نقشه‌کشی در غرب آفریقا](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
+[راهنمای Blake Girardot دربارهٔ نقشه‌کشی در غرب آفریقا](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
 
-اگر شما در OpenStreetMap تازه‌کار هستید قسمتهای ذیل در بخش راهنمای مبتدیان ما برایتان مفید خواهد بود؛  
+اگر در OpenStreetMap تازه‌کار هستید قسمت‌های زیر از فصل راهنمای مبتدیان برایتان مفید خواهد بود:  
 
 - [مقدمه‌ای بر نقشه‌کشی](/fa/beginner/introduction/)  
--  [OpenStreetMap.org](/fa/beginner/start-osm/)
+-  [شروع به کار در OpenStreetMap](/fa/beginner/start-osm/)
 
 
 
-[لوگوی HOT به همراه متن]:/images/hot-tips/Hot_logo_with_text.svg
-[منوی کمک iD]:/images/hot-tips/iD-help.png "منوی کمک iD - در حال ویرایش همیشه وجود دارد و شامل walkthrough اختیاری نیز می‌باشد."
-[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "گروه بشردوستانه OpenStreetMap - فیلم‌های آموزشی یک دقیقه‌ای"
+[HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
+[iD help]:/images/hot-tips/iD-help.png "iD help menu - always available when you are editing which includes an optional walkthrough."
+[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
