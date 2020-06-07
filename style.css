@@ -810,7 +810,7 @@ input.default-value {
   .feedback {padding-top:20px;padding-left:15px;}
   .notfound {width:300px;}
   img {max-width:300px;}
-  .doc h1, .doc p, .doc ul, .doc ol {margin-left:15px;width:95%;}
+  .doc h1, .doc p, .doc ul, .doc ol {margin-left:15px;}
   .doc h2, .doc h3 {margin-left:30px;width:95%;}
   #content {padding-bottom:30px;}
   #footer {padding-left:15px; width: 98%; height: 16rem;}
