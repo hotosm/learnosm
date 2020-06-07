@@ -725,6 +725,12 @@ input.default-value {
     background-color: #ccc;
     font-weight: bold;
     padding: 0 5px;
+    direction: ltr;
+    text-align: left;
+    }
+
+  .pre {
+    white-space: pre-wrap;
     }
 
 /* contribute page */
