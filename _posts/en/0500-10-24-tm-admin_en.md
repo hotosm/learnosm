@@ -198,6 +198,8 @@ See the below notes on creating good instructions.
 
 **Type of Mapping** - Used in project list filtering and helps mappers find projects they like to map.
 
+**iD Editor Presets** - If you choose one or more items from the drop-down list then mappers using iD will only be able to assign these features to the objects they mapped. This is recommended for beginner projects which are typically buildings-only and reduces the risk of erroneous tag assignments. If you use this feature then it is a good idea to let mappers know in the instructions that they cannot map anything else.
+
 **Organization** - The organization whose project managers should have administrative permissions for this project. The organization must have been previously registered with the Tasking Manager.
 
 **Interests** - Used to suggest projects to mappers. Mappers specify their interests in their profile.
