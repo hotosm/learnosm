@@ -127,18 +127,18 @@ The canonical data format of OSM is an XML document of nodes, ways and relations
 
 ### MAPS.ME .mwm
 Maps.me is a GPS Navigation and map application for Android and iOS smartphones and tablets, notably supporting offline mapping and navigation. Read more about [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) in the Learn section. To use a custom export with Maps.me on Android, please follow these steps:
-Open Maps.me and navigate to your region of interest
-Accept Maps.me's prompt and download the offered region
-Force close Maps.me
-Create an MWM export
-Download the export, unzip it, and copy the .mwm file to your device
-Using the Android File Manager, navigate to the location containing the .mwm file
-Long-press to select it and touch the "copy" or "cut" button
-Navigate to "MapsWithMe" and open the highest numbered folder (e.g. 170917)
-Copy/move your .mwm file into this directory by tapping the "paste" button
-Delete the existing .mwm file for your region of interest, taking note of its filename
-Rename your .mwm file to match the region that was downloaded by Maps.me (which you just deleted) by long-pressing (to select) and tapping the "more" button (3 vertical dots)
-Open Maps.me
+- Open Maps.me and navigate to your region of interest
+- Accept Maps.me's prompt and download the offered region
+- Force close Maps.me
+- Create an MWM export
+- Download the export, unzip it, and copy the .mwm file to your device
+- Using the Android File Manager, navigate to the location containing the .mwm file
+- Long-press to select it and touch the "copy" or "cut" button
+- Navigate to "MapsWithMe" and open the highest numbered folder (e.g. 170917)
+- Copy/move your .mwm file into this directory by tapping the "paste" button
+- Delete the existing .mwm file for your region of interest, taking note of its filename
+- Rename your .mwm file to match the region that was downloaded by Maps.me (which you just deleted) by long-pressing (to select) and tapping the "more" button (3 vertical dots)
+- Open Maps.me
 
 ![export-tool-mapsme][]
 
