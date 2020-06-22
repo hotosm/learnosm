@@ -9,7 +9,6 @@ category: osm-data
 Geofabrik en HOT Export gebruiken
 ================
 
-> Bijgewerkt 05-09-2016  
 
 Nadat u heeft geleerd gegevens toe te voegen en te bewerken in OpenStreetMap (OSM), wilt u nu misschien de gegevens verkrijgen als back-up of om verder te verwerken met behulp van software voor een Geografisch InformatieSysteem dat Open Source is, zoals QGIS ([www.qgis.org](http://www.qgis.org)).  
 
@@ -35,7 +34,7 @@ U kunt controleren wanneer de gegevens voor het laatst werden bijgewerkt. Onthou
 Gegevens van OSM ophalen via website HOT Export Tool
 --------------------------------------
 
-Het [Humanitarian OpenStreetMap Team](https://www.hotosm.org) heeft een online service gemaakt die het gebruikers mogelijk maakt aangepaste extracten uit OSM te maken, overal ter wereld, door een gebied, kaartobjecten en bestandsindelingen  te selecteren. Binnen minuten worden bijgewerkte gegevens van OpenStreetMap (OSM) geëxporteerd, gefilterd en geconverteerd. Het volgende gedeelte laat u zien hoe u het gereedschap Export Tool gebruikt. Deze informatie is ook te vinden in het gedeelte ‘[Learn](https://export.hotosm.org/en/v3/learn)’ op export.hotosm.org.
+Het [Humanitarian OpenStreetMap Team](https://www.hotosm.org) (HOT) heeft een online service gemaakt die het gebruikers mogelijk maakt aangepaste extracten uit OSM te maken, overal ter wereld, door een gebied, kaartobjecten en bestandsindelingen  te selecteren. Binnen minuten worden bijgewerkte gegevens van OSM geëxporteerd, gefilterd en geconverteerd. Het volgende gedeelte laat u zien hoe u het gereedschap Export Tool gebruikt. Deze informatie is ook te vinden in het gedeelte ‘[Learn](https://export.hotosm.org/en/v3/learn)’ op export.hotosm.org.
 
 ![hot-export-tool][]
 
@@ -61,7 +60,7 @@ Er zijn 6 manieren om een gebied (AOI) te definiëren voor uw export. De eerste 
 
 
 ### Digitaliseren 
-De derde en vierde manier waarop een AOI kunnen worden geselecteerd in de Export Tool, is door ofwel een begrenzingsvak te tekenen door de optie ‘Box’ te selecteren uit de kolom met gereedschappen aan de rechterkant van het scherm. Of u kunt direct een polygoon tekenen op de kaart door het gereedschap ‘Draw’ te selecteren.
+De derde en vierde manier waarop een AOI kan worden geselecteerd in de Export Tool, is door ofwel een begrenzingsvak te tekenen door de optie ‘Box’ te selecteren uit de kolom met gereedschappen aan de rechterkant van het scherm. Of u kunt direct een polygoon tekenen op de kaart door het gereedschap ‘Draw’ te selecteren.
 
 ![export-tool-area-bbox][]
 ![export-tool-area-draw][]
@@ -127,18 +126,18 @@ De canonische gegevensindeling van OSM is een XML-document van knopen, wegen en 
 
 ### MAPS.ME .mwm
 Maps.me is een GPS Navigatie- en kaarttoepassing voor Android en iOS smartphones en tablets, en ondersteunt offline mappen en navigeren. Lees meer over [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) in het gedeelte Learn. Volg deze stappen om een aangepaste export uit te voeren met Maps.me op Android: 
-Open Maps.me en navigeer naar uw gebied
-Accepteer de prompt van Maps.me en download het aangeboden gebied
-Sluit Maps.me geforceerd af
-Maak een export van MWM
-Download de export, unzip die, en kopieer het bestand .mwm naar uw apparaat
-Navigeer, met behulp van de Android File Manager, naar de locatie die het bestand .mwm bevat
-Druk lang om het te selecteren en druk op de knop "copy" of "cut"
-Navigeer naar "MapsWithMe" en open de hoogst genummerde map (bijv. 170917)
-Kopieer/verplaats uw bestand .mwm naar deze map door te drukken op de knop "paste"
-verwijder het bestaande bestand .mwm voor uw gebied, waarbij u wel de bestandsnaam onthoudt
-Hernoem uw bestand .mwm  zodat die overeenkomt met het gebied dat werd gedownload door Maps.me (die u zojuist hebt verwijderd) door er lang op te drukken (om te selecteren) en te drukken op de knop "more" (3 verticale punten)
-Open Maps.me
+- Open Maps.me en navigeer naar uw gebied
+- Accepteer de prompt van Maps.me en download het aangeboden gebied
+- Sluit Maps.me geforceerd af
+- Maak een export van MWM
+- Download de export, unzip die, en kopieer het bestand .mwm naar uw apparaat
+- Navigeer, met behulp van de Android File Manager, naar de locatie die het bestand .mwm bevat
+- Druk lang om het te selecteren en druk op de knop "copy" of "cut"
+- Navigeer naar "MapsWithMe" en open de hoogst genummerde map (bijv. 170917)
+- Kopieer/verplaats uw bestand .mwm naar deze map door te drukken op de knop "paste"
+- verwijder het bestaande bestand .mwm voor uw gebied, waarbij u wel de bestandsnaam onthoudt
+- Hernoem uw bestand .mwm  zodat die overeenkomt met het gebied dat werd gedownload door Maps.me (die u zojuist hebt verwijderd) door er lang op te drukken (om te selecteren) en te drukken op de knop "more" (3 verticale punten)
+- Open Maps.me
 
 ![export-tool-mapsme][]
 

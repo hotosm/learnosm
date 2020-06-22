@@ -9,7 +9,6 @@ category: osm-data
 Využití Geofabrik a export z HOT
 ================
 
-> Zkontrolováno 2016-09-05  
 
 Jakmile se naučíte přidat a upravit data v OpenStreetMap (OSM), nejspíš budete chtít data zálohovat nebo zpracovat pomocí softwaru Geographic Information System, který je pod licencí Open Source, stejně jako Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
 
@@ -127,18 +126,18 @@ Datový formát OSM vychází z XML dokumentu, který obsahuje body, cesty a rel
 
 ### MAPS.ME .mwm
 Maps.me je navigační a mapová GPS aplikace pro Android a iOS smarphony a tablety, doménou je podpora offline mapování a navigace. Více se o [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) dozvíte v sekci Learn na webu Export Tool. Pokud chcete vytvořit vlastní export s Maps.me na Androidu, následujte tento postup:
-Otevřete Maps.me a najděte si oblast, která vás zajímá.
-Přijměte upozornění od Maps.me a stáhněte si nabídnutou oblast.
-"Natvrdo" ukončete Maps.me.
-Vytvořte si MWM export.
-Stáhněte si export, rozbalte ho a zkopírujte .mwm soubor do svého zařízení.
-Ve Správci souborů v Androidu najděte umístění .mwm souboru.
-Dlouze ho zmáčkněte a poté vyberte možnost "kopírovat" nebo "vyjmout".
-Přejděte do "MapsWithMe" a otevřete adresář s nejvyšším číslem (např. 170917).
-Zkopírujte/přesuňte váš .mwm soubor do adresáře kliknutí na "Vložit".
-Smažte existující .mwm soubor pro vaši oblast zájmu, ale zapište si jeho název.
-Přejmenujte .mwm soubor tak, aby odpovídal oblasti, kterou jste si stáhli pomocí Maps.me (kterou jste právě smazali) dlouhým stisknutím (pro výběr) a klikněte na tlačítko "more" (3 vertikální tečky).
-Otevřete Maps.me.
+Otevřete Maps.me a najděte si oblast, která vás zajímá./- 
+- Přijměte upozornění od Maps.me a stáhněte si nabídnutou oblast.
+- "Natvrdo" ukončete Maps.me.
+- Vytvořte si MWM export.
+- Stáhněte si export, rozbalte ho a zkopírujte .mwm soubor do svého zařízení.
+- Ve Správci souborů v Androidu najděte umístění .mwm souboru.
+- Dlouze ho zmáčkněte a poté vyberte možnost "kopírovat" nebo "vyjmout".
+- Přejděte do "MapsWithMe" a otevřete adresář s nejvyšším číslem (např. 170917).
+- Zkopírujte/přesuňte váš .mwm soubor do adresáře kliknutí na "Vložit".
+- Smažte existující .mwm soubor pro vaši oblast zájmu, ale zapište si jeho název.
+- Přejmenujte .mwm soubor tak, aby odpovídal oblasti, kterou jste si stáhli pomocí Maps.me (kterou jste právě smazali) dlouhým stisknutím (pro výběr) a klikněte na tlačítko "more" (3 vertikální tečky).
+- Otevřete Maps.me.
 
 ![export-tool-mapsme][]
 

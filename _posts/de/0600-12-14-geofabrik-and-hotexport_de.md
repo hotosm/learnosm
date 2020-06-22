@@ -9,7 +9,6 @@ category: osm-data
 Geofabrik und den HOT Export benutzen
 ================
 
-> Geprüft 2016-09-05  
 
 Nachdem Sie jetzt wissen, wie Sie Daten in OpenStreetMap (OSM) hinzufügen und bearbeiten können, möchten Sie nun vielleicht an die Daten herankommen, sei es als Backup oder zur Verarbeitung mit geografischen Informationssystemen wie z.B. dem Open-Source-Produkt Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
 
@@ -127,18 +126,18 @@ Das Standard-Datenformat für OSM ist ein XML-Dokument aus Punkten, Linien und R
 
 ### MAPS.ME .mwm
 Maps.me ist eine GPS Navigations- und Kartenanwendung für Android- und iOS-Smartphones und -Tablets die offline-Kartendarstellung und -Navigation unterstützt. Im [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) Lernkapitel kann man mehr dazu lesen. Um einen eigenen Export mit Maps.me auf Android zu verwenden, folgen Sie den folgenden Schritten:
-Öffnen Sie Maps.me und navigieren Sie zu einer gewünschten Region.
-Akzeptieren Sie die Nachfrage von Maps.me und laden Sie die angebotene Region herunter.
-Schließen Sie Maps.me
-Erstellen Sie einen MWM-Export
-Laden Sie den Export herunter, entpacken Sie ihn und kopieren Sie die .mwm-Datei auf Ihr Gerät
-Navigieren Sie mit dem Android-Dateimanager zur .mwm-Datei
-Drücken Sie lange auf den Namen um sie auszuwählen und drücken Sie den "Kopieren"- oder "Ausschneiden"-Knopf
-Navigieren Sie zu "MapsWithMe" und öffnen Sie den am höchsten nummerierten Ordner (z.B. 170917)
-Kopieren/verschieben Sie die .mwm-Datei in diesen Ordner durch Drücken des "Einfügen"-Knopfes
-Löschen Sie die in Maps.me heruntergeladene ursprüngliche .mwm-Datei für Ihr Gebiet, merken Sie sich aber den Dateinamen
-Bennen Sie Ihre .mwm Datei um so dass sie der durch Maps.me heruntergeladenen Region entspricht (der Datei, die Sie gerade gelöscht haben) durch langes Drücken auf den Namen (zur Auswahl) und drücken Sie den "Mehr"-Knopf (3 vertikale Punkte)
-Öffnen Sie Maps.me
+- Öffnen Sie Maps.me und navigieren Sie zu einer gewünschten Region.
+- Akzeptieren Sie die Nachfrage von Maps.me und laden Sie die angebotene Region herunter.
+- Schließen Sie Maps.me
+- Erstellen Sie einen MWM-Export
+- Laden Sie den Export herunter, entpacken Sie ihn und kopieren Sie die .mwm-Datei auf Ihr Gerät
+- Navigieren Sie mit dem Android-Dateimanager zur .mwm-Datei
+- Drücken Sie lange auf den Namen um sie auszuwählen und drücken Sie den "Kopieren"- oder "Ausschneiden"-Knopf
+- Navigieren Sie zu "MapsWithMe" und öffnen Sie den am höchsten nummerierten Ordner (z.B. 170917)
+- Kopieren/verschieben Sie die .mwm-Datei in diesen Ordner durch Drücken des "Einfügen"-Knopfes
+- Löschen Sie die in Maps.me heruntergeladene ursprüngliche .mwm-Datei für Ihr Gebiet, merken Sie sich aber den Dateinamen
+- Bennen Sie Ihre .mwm Datei um so dass sie der durch Maps.me heruntergeladenen Region entspricht (der Datei, die Sie gerade gelöscht haben) durch langes Drücken auf den Namen (zur Auswahl) und drücken Sie den "Mehr"-Knopf (3 vertikale Punkte)
+- Öffnen Sie Maps.me
 
 ![export-tool-mapsme][]
 

@@ -9,7 +9,6 @@ category: osm-data
 Korzystanie z Geofabrik i HOT Export
 ================
 
-> Przejrzano 2016-09-05  
 
 Po nauce dodawania i edytowania danych w OpenStreetMap (OSM), możesz chcieć pozyskać te dane jako kopię zapasową lub do przetwarzania z wykorzystaniem oprogramowania Geographic Information System, które jest otwartoźródłowe takim, jak Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
 
@@ -127,18 +126,18 @@ Obowiązującym w OSM formatem danych jest dokument XML z węzłami, liniami i r
 
 ### MAPS.ME .mwm
 Maps.me to nawigacja GPS i aplikacja mapowa dla smartfonów i tabletów z Androidem oraz iOS, wspierająca zwłaszcza mapy i nawigację w trybie offline. Przeczytaj więcej o [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) w sekcji Nauka. Aby używać niestandardowych eksportów w Maps.me na Androidzie, wykonaj następujące kroki:
-Otwórz Maps.me i przejdź do interesującego Cię obszaru
-Zaakceptuj podpowiedź Maps.me i pobierz oferowany region
-Zamknij Maps.me
-Utwórz eksport MWM
-Pobierz eksport, rozpakuj go i skopiuj plik .mwm na swoje urządzenie
-Używając Menedżera plików Androida przejdź do lokalizacji zawierającej plik .mwm
-Przytrzymaj długo palec, aby go zaznaczyć i dotknij przycisk "kopiuj" lub "wytnij"
-Przejdź do "MapsWithMe" i otwórz folder o największym numerze (np. 170917)
-Skopiuj/przenieś swój plik .mwm do tego katalogu dotykając przycisku "wklej"
-Usuń istniejący plik .mwm wybranego wcześniej obszaru zapamiętując jego nazwę
-Zmień nazwę swojego pliku .mwm przez długie dotknięcie (zaznaczenie) i kliknięcie przycisku "więcej" (3 poziome kropki) tak, aby odpowiadał nazwie regionu pobranego przez Maps.me (ten który usunąłeś przed chwilą) 
-Otwórz Maps.me
+- Otwórz Maps.me i przejdź do interesującego Cię obszaru
+- Zaakceptuj podpowiedź Maps.me i pobierz oferowany region
+- Zamknij Maps.me
+- Utwórz eksport MWM
+- Pobierz eksport, rozpakuj go i skopiuj plik .mwm na swoje urządzenie
+- Używając Menedżera plików Androida przejdź do lokalizacji zawierającej plik .mwm
+- Przytrzymaj długo palec, aby go zaznaczyć i dotknij przycisk "kopiuj" lub "wytnij"
+-Przejdź do "MapsWithMe" i otwórz folder o największym numerze (np. 170917)
+- Skopiuj/przenieś swój plik .mwm do tego katalogu dotykając przycisku "wklej"
+- Usuń istniejący plik .mwm wybranego wcześniej obszaru zapamiętując jego nazwę
+- Zmień nazwę swojego pliku .mwm przez długie dotknięcie (zaznaczenie) i kliknięcie przycisku "więcej" (3 poziome kropki) tak, aby odpowiadał nazwie regionu pobranego przez Maps.me (ten który usunąłeś przed chwilą) 
+- Otwórz Maps.me
 
 ![export-tool-mapsme][]
 

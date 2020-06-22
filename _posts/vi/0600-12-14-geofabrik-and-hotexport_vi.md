@@ -9,7 +9,6 @@ category: osm-data
 Sử dụng Geofabrik và HOT Export
 ================
 
-> Cập nhật: 2017-12-24  
 
 Sau khi học cách thêm và chỉnh sửa dữ liệu trong OpenStreetMap (OSM), bây giờ có thể bạn muốn lấy dữ liệu làm bản sao lưu hoặc xử lý nó bằng phần mềm Hệ thống Thông tin Địa lý mã nguồn mở, chẳng hạn như Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
 
@@ -127,18 +126,18 @@ Các định dạng dữ liệu truyền thống của OSM là một tài liệu
 
 ### Định dạng MAPS.ME .mwm
 Maps.me là một ứng dụng Điều hướng GPS và Bản đồ dành cho điện thoại thông minh và máy tính bảng Android, đặc biệt là hỗ trợ lập bản đồ và điều hướng ngoại tuyến (không sử dụng kết nối internet). Đọc thêm về [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) trong phần Học. Để sử dụng các tùy biến trích xuất dữ liệu với Maps,me trong Android, hãy làm theo các bước sau:
-Mở Maps.me và điều hướng đến khu vực bạn quan tâm
-Chấp nhận lời nhắc của Maps.me và tải xuống khu vực được đưa ra
-Tắt hoàn toàn Maps.me
-Tạo một phiên trích xuất dữ liệu dạng MWM
-Tải xuống dữ liệu được trích xuất, giải nén và sao chép file .mwm vào thiết bị của bạn
-Sử dụng trình quản lý file trong Android, mở thư mục chứa file .mwm vừa sao chép
-Chạm và giữ để sao chép hoặc di chuyển file này
-Mở thư mục "MapsWithMe" và mở thư mục có số thứ tự lớn nhất (ví dụ: 170917)
-Sao chép hoặc di chuyển file .mwm của bạn vào thư mục này bằng cách chọn nút "Paste"
-Xóa file .mwm đã có cho khu vực bạn quan tâm ở trước đó nhưng ghi nhớ tên file đó
-Đổi tên file .mwm của bạn trùng với tên file bạn vừa xóa bằng cách chọn file (chạm và giữ) và nhấp vào nút 'More" (3 gạch)
-Mở Maps.me
+- Mở Maps.me và điều hướng đến khu vực bạn quan tâm
+- Chấp nhận lời nhắc của Maps.me và tải xuống khu vực được đưa ra
+- Tắt hoàn toàn Maps.me
+- Tạo một phiên trích xuất dữ liệu dạng MWM
+- Tải xuống dữ liệu được trích xuất, giải nén và sao chép file .mwm vào thiết bị của bạn
+- Sử dụng trình quản lý file trong Android, mở thư mục chứa file .mwm vừa sao chép
+- Chạm và giữ để sao chép hoặc di chuyển file này
+- Mở thư mục "MapsWithMe" và mở thư mục có số thứ tự lớn nhất (ví dụ: 170917)
+- Sao chép hoặc di chuyển file .mwm của bạn vào thư mục này bằng cách chọn nút "Paste"
+- Xóa file .mwm đã có cho khu vực bạn quan tâm ở trước đó nhưng ghi nhớ tên file đó
+- Đổi tên file .mwm của bạn trùng với tên file bạn vừa xóa bằng cách chọn file (chạm và giữ) và nhấp vào nút 'More" (3 gạch)
+- Mở Maps.me
 
 ![export-tool-mapsme][]
 
