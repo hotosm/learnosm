@@ -68,8 +68,6 @@ You may choose between defining the area of interest (mapping area) of your mapp
 
 ### Define mapping area
 
-![TM Draw AoI][]
-
 1. You may switch to other background layers using the buttons on the top. 
 1. Click the `Draw` button on the left.
 2. To draw a polygon representing the mapping area in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
@@ -93,7 +91,7 @@ After you've adjusted the base grid task size, you can selectively divide certai
 It is recommended to choose task sizes that you are confident mappers can complete them in 15-20 minutes.
 
 > Considerations for deciding on task sizes:
-> -  Beginner mappers roughly needs four times as long as an experienced mappers.
+> -  Beginner mappers roughly need four times as long as experienced mappers.
 > -  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
 > -  Beginner mappers face challenges tracing a lot similar features such as buildings.
 > -  A square may be split later on, but there is no option to join squares together.
@@ -138,13 +136,13 @@ Geospatial desktop applications like JOSM or QGIS allow mappers to more precisel
 After uploading a file to the Tasking Manager you can select if you want to define the tasks either as 
 
 1. `Square Grid`, with the functionality described above to define tasks.
-2. `Arbitrary Geometries`, coming from the file you just uploaded.
+2. `Arbitrary Geometries`, coming from the file you just uploaded. If this is what you want then activate the switch 'Set tasks using uploaded polygons'
+
+![TM New Polys][]
 
 **Define arbitrary geometries**
 
 If you uploaded a file to define your project area, that file may also contain the shapes for the individual tasks. E.g. if the area of interest consists of one polygon, the project will have just one task. This should only be used in special cases and for specific reasons. For example, an import of roads project might need custom task shapes or output from a mapping area reduction process.
-
-Please note, arbitrary geometries can not be split. They should only be used in special cases, as they have implications on the performance of the tool.
 
 ## Edit a mapping project
 
@@ -310,7 +308,7 @@ If the project is ready for mapping, click the ‘Publish’ link. Once the proj
 [TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png
 [TM Add Project]: /images/coordination/tm4_new_project.png
 [TM New]: /images/coordination/tm4_create_new.png
-[TM Draw AoI]: /images/coordination/tm4_draw_aoi.png
+[TM New Polys]: /images/coordination/tm4_create_new_polys.png
 [TM Trim]: /images/coordination/tm4_trim1.png
 [TM Trim coarse]: /images/coordination/tm4_trim2.png
 [TM Trim fine]: /images/coordination/tm4_trim3.png
