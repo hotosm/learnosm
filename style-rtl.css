@@ -257,6 +257,18 @@ blockquote p:before {
   -o-transition: all 200ms linear;
 }
 
+/* font configuration for Farsi */
+[lang="fa"] body,
+[lang="fa"] .doc ol > li:before,
+[lang="fa"] .doc ul > li:before,
+[lang="fa"] .doc  ul li,.doc ol li, .doc p,
+[lang="fa"] blockquote p,
+[lang="fa"] .searchbox input,
+[lang="fa"] .ui-menu-item {
+  font-family: Sahel, sans-serif !important;
+  font-size: 1em;
+}
+
 /* --------------------------------------------------------
   Layout
 -------------------------------------------------------- */
