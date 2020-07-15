@@ -10,16 +10,17 @@ nosearch: true
 
 OpenStreetMapデータ
 ==================
-OpenStreetMapは様々な地理データの巨大な集合体であり、すべてオープンで、自由な利用が可能です。しかし具体的に、そのデータにアクセスするにはどうしたらよいのでしょうか。この章では、OSMのデータがどのように構成されているのか、そしてそうしたOSMのデータへアクセスし、自分の望むように使いこなすにはどうしたらよいかを紹介します。
+
+OpenStreetMapは巨大な地理データのデータベースであり、すべてオープンで無料です。しかし、どうやってデータにアクセスするのでしょうか。このセクションでは、OSMのデータがどのように構成されているか、そして興味のあるデータにアクセスして利用する方法について詳しく説明します。  
 
 <!--
-We'll cover:
+記事の内容は以下のとおりです:
 
--	OSM Data: An Overview
--	Geographic File Formats and the .osm file
--	Getting Data
--	OSM Data and Databases
--	Manipulating OSM files with Osmosis
+-	OSMデータ: 概要
+-	地理空間ファイル形式と .osmファイル
+-	データの取得
+-	OSMデータとデータベース Data and Databases
+-	OSMファイルの操作とOsmosis
 -	The OverPass API
 
 -->
