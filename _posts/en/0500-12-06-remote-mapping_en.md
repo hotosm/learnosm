@@ -26,7 +26,7 @@ Considering the scale of the crisis, HOT allocates the necessary resources and t
 
 The [HOT Tasking Manager](http://tasks.hotosm.org/) is a open source tool designed to divide up a mapping job into smaller tasks that can be completed rapidly. It shows which areas need to be mapped and which areas need the mapping validated by others. It includes mapping tasks for [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), and longer standing [Humanitarian Projects](http://hot.openstreetmap.org/projects).  
 
-In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](http://learnosm.org/en/coordination/tasking-manager/).  
+In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](/en/coordination/tm-user/).  
 
 
 ### Editing Tools 

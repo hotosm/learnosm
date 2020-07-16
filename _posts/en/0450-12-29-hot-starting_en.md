@@ -35,7 +35,7 @@ The Essentials
 See also  
 ---------
 
-The [Tasking Manager 3 Guide on LearnOSM](/en/coordination/tasking-manager3/)  
+The [Tasking Manager Guide on LearnOSM](/en/coordination/tm-user/)  
 
 [![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
 *Subtitles available in some languages*  

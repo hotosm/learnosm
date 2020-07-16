@@ -20,7 +20,7 @@ We are constantly updating our software & training guides, but it does take time
 
 We don't need you to read all of this site before you start, but we do need you to understand the basics:  
 
-1.  You need to carefully read the Task Manager Instructions for any project you would like to help map. They can be different, so make sure you read & understand them. There is a full description of how to use the [Tasking Manager here within LearnOSM](/en/coordination/tasking-manager/), and it includes how to get live help from an experienced mapper.  
+1.  You need to carefully read the Task Manager Instructions for any project you would like to help map. They can be different, so make sure you read & understand them. There is a full description of how to use the [Tasking Manager here within LearnOSM](/en/coordination/tm-user/), and it includes how to get live help from an experienced mapper.  
 
 2.  Make sure you have zoomed in enough so that you can actually see what you should be tracing - [it and many other things are explained here.](/en/coordination/remote/)  
 
