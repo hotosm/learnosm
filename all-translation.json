@@ -52,6 +52,19 @@
 	   "url":""}
 	]
 },{
+	"lang":"el",
+	"chapters":[
+	  {% for post in site.posts %}
+	  {% if post.lang == 'el' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},{
 	"lang":"es",
 	"chapters":[
 	  {% for post in site.posts %}

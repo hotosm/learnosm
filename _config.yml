@@ -82,6 +82,17 @@ translations:
     language: "Deutsch"
     quickaccess: "Schnellzugriff"
     returntotop: "Zum Anfang der Seite springen"
+  el:
+    tagline: "Μάθετε το OpenStreetMap, Βήμα προς Βήμα"
+    contribute: "AΒοηθήστε να βελτιώσουμε τους Οδηγούς μας"
+    trainingspan: "Είστε διοργανωτής Εργαστηρίων;"
+    training: "Δείτε εκπαιδευτικό υλικό για αυτόν τον οδηγό (στα Ελληνικά)"
+    feedbackspan: "Ήταν χρήσιμο αυτό το κεφάλαιο;"
+    feedback: "Ενημερώστε μας και βοηθήστε μας να βελτιώσουμε τους οδηγούς!"
+    getstarted: "Ξεκινήστε"
+    language: "Ελληνικά"
+    quickaccess: "Γρήγορη πρόσβαση"
+    returntotop: "Επιστροφή στην κορυφή της σελίδας"
   es:
     tagline: "Aprenda OpenStreetMap paso a paso"
     contribute: "Ayude a mejorar nuestras guías"
