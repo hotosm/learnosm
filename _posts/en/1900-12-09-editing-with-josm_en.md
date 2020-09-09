@@ -25,7 +25,7 @@ You may have also noticed that every time you add something new to JOSM, an addi
 
 Each item in this list represents a different source of data that you have open in your map window. In this example, “Data Layer 1” is the OpenStreetMap data that we are editng. "Field Papers” is the layer created when we added our Field Paper into JOSM.
 
-If you add the Bing satellite imagery, a new layer will appear in the Layers panel named "Bing Sat."
+If you add the Bing satellite imagery, a new layer will appear in the Layers panel named "Bing aerial imagery"
 
 The idea of layers can often be hard to understand. A good way to imagine it is that each layer is like a semi-transparent piece of paper, and they are all stacked on top of one another. Each piece of paper has a certain type of information on it, and they can be rearranged any way you like.
 

@@ -11,7 +11,7 @@ Relations
 
 > Reviewed 2017-06-06  
 
-In the [Beginner’s Guide](/en/beginner) we explained that there are three types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and polygons (closed ways). Lines contain numerous points, and the line itself carries the attributes that define what it represents.  Polygons are the same as lines, except that the the line must finish where it begins in order to form a shape.  
+In the [Beginner’s Guide](/en/beginner) we explained that there are three types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and polygons (closed ways). Lines contain numerous points, and the line itself carries the attributes that define what it represents.  Polygons are the same as lines, except that the line must finish where it begins in order to form a shape.  
 
 In fact, we lied to you, because there is one other type of object in OpenStreetMap, called relations.  In the same way that a line consists of other
 points, a relation contains a group of other objects, be they points, lines, or polygons.  If you are looking to advance your editing skills, then understanding and knowing how to properly edit relations is important.  
