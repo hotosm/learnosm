@@ -44,7 +44,7 @@ The best references for adjusting imagery are GPS tracks that follow roads.  And
 
 - To adjust an imagery layer, click on the “Adjust imagery offset” button ![Adjust imagery offset button][]{: height="24px"} at the top of JOSM.  
 
-- Ignoring the box that pops up, use your mouse to drag the imagery layer so that it aligns correctly with the GPS tracks.  The GPS tracks should line up with the roads on the imagery as closely as possible.  You will see the offset numbers in the box change.  
+- Ignoring the box that pops up, use your left mouse button to drag the imagery layer so that it aligns correctly with the GPS tracks.  The GPS tracks should line up with the roads on the imagery as closely as possible.  You will see the offset numbers in the box change.  
 
 ![Adjust imagery offset][]
 
