@@ -38,7 +38,7 @@ In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (
 
 [JOSM](https://josm.openstreetmap.de/)- a Java app pronounced as "Jaws-um", which requires downloading the app and has a greater learning curve. Although it takes longer to setup and learn, it is super-fast for making more edits. Using a mouse is recommended for using this editor.  
 
-![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
+![JOSM](https://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
 ### Advice & Words of Encouragement
 
