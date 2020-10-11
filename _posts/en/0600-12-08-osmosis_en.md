@@ -23,7 +23,7 @@ You will also need some raw OSM data to work with. If you want to follow the exa
 
 Follow these steps to download and prepare Osmosis:  
 
-- First, download Osmosis [here](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip).  
+- First, download Osmosis [here](https://github.com/openstreetmap/osmosis/releases/latest).  
 - Unzip the folder and place it somewhere on your system where it will not be moved. We will need to add its location to the system path so that it can be run from the command line.  
 
 ![unzip it][]

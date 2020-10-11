@@ -23,7 +23,7 @@ Osmosis را نصب کنید
 
 برای دانلود و آماده‌سازی Osmosis مراحل زیر را دنبال کنید:  
 
-- ابتدا، Osmosis را از [اینجا](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip) دانلود کنید.  
+- ابتدا، Osmosis را از [اینجا](https://github.com/openstreetmap/osmosis/releases/latest) دانلود کنید.  
 - پوشه را از حالت فشرده خارج کنید و آن را در جایی از سیستم که جابه‌جا نمی‌شود قرار دهید. باید مکان آن را به system path اضافه کنیم تا بتوانیم آن را از خط فرمان اجرا نماییم.  
 
 ![unzip it][]

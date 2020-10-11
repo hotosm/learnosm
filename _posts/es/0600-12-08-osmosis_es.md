@@ -23,7 +23,7 @@ También necesitará algunos datos OSM sin procesar para trabajar. Si desea segu
 
 Siga estos pasos para descargar y preparar Osmosis:  
 
-- Primero, descargue Osmosis [aquí](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip).  
+- Primero, descargue Osmosis [aquí](https://github.com/openstreetmap/osmosis/releases/latest).  
 - Descomprima la carpeta y colóquela en algún lugar de su sistema donde no se mueva. Tendremos que agregar su ubicación a la ruta del sistema para que pueda ejecutarse desde la línea de comandos.  
 
 ![unzip it][]

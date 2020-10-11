@@ -33,7 +33,7 @@ mengikuti contoh pada bab ini, download file contoh [disini](/files/sample_osmos
 mungkin juga menggunakan file data mentah yang Anda pilih.
 
 Berikut ini adalah langkah-langkah untuk mendownload dan menyiapkan Osmosis:
-*	Pertama, download Osmosis [disini](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip).
+*	Pertama, download Osmosis [disini](https://github.com/openstreetmap/osmosis/releases/latest).
 *	Unzip folder dan menempatkannya pada sistem Anda dimana file tersebut tidak akan dipindah. Kita 
 	perlu menambahkan lokasi ini ke path sistem sehingga hal ini dapat dijalankan dari command line.
 

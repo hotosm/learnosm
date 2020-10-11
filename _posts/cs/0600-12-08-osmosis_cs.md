@@ -23,7 +23,7 @@ Budete taktéž potřebovat nějaká zdrojová data OSM, se kterými budete prac
 
 Pomocí následujících kroků si stáhněte a připravte Osmosis:  
 
-- Nejprve si [odsud](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip) stáhněte Osmosis.  
+- Nejprve si [odsud](https://github.com/openstreetmap/osmosis/releases/latest) stáhněte Osmosis.  
 - Rozbalte adresář někam na disk, odkud už se nebude přesouvat. Je potřeba přidat umístění tohoto adresáře do systémové cesty, tak abychom jej mohli spustit z příkazové řádky.  
 
 ![unzip it][]

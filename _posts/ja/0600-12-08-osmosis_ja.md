@@ -20,7 +20,7 @@ Omsosisのインストール
 
 以下の手順に従って、Osmosisのダウンロードと準備を行ってください: 
 
--   Osmosisを [こちら](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip) からダウンロードします。
+-   Osmosisを [こちら](https://github.com/openstreetmap/osmosis/releases/latest) からダウンロードします。
 -   ダウンロードしたファイルを解凍し、コンピュータのなかでどこかあまりファイルを動かさないディレクトリに配置してください。コマンドラインで動作をさせるため、ファイルの場所をシステムパスを追加する必要があります。
 
 

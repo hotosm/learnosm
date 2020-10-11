@@ -23,7 +23,7 @@ U zult ook enige ruwe gegevens van OSM nodig hebben om mee te werken. Als u de v
 
 Volg deze stappen voor het downloaden en voorbereiden van Osmosis:  
 
-- Download als eerste Osmosis [hier](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip).  
+- Download als eerste Osmosis [hier](https://github.com/openstreetmap/osmosis/releases/latest).  
 - Pak de map uit en plaats die ergens op uw systeem waar hij niet meer verplaatst behoeft te worden. We zullen de locatie ervan dienen toe te voegen aan het systeempad zodat het kan worden uitgevoerd vanaf de opdrachtregel.  
 
 ![unzip it][]

@@ -23,7 +23,7 @@ Du benötigst des Weiteren OSM Rohdaten für die Bearbeitung. Wenn du den Beispi
 
 Folge diesen Schritten um Osmosis herunterzuladen und vorzubereiten:  
 
-- Als Erstes, lade Osmosis [hier](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip) herunter.  
+- Als Erstes, lade Osmosis [hier](https://github.com/openstreetmap/osmosis/releases/latest) herunter.  
 - Entzippe das Verzeichnis an eine Stelle auf deinem System, wo es nicht verschoben wird. Wir müssen diese Stelle zum Systempfad hinzufügen, damit es von der Kommandozeile ausgeführt werden kann.  
 
 ![unzip it][]
