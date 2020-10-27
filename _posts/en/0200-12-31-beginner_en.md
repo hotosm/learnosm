@@ -29,6 +29,8 @@ The main point is to learn how mapping in this context is coordinated.
 - the [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) and the general information about [humanitarian mapping](/en/coordination/humanitarian/) provide some background
 - the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### Would you like to use OpenStreetMap on mobile devices?
 
 There is a whole chapter devoted to [mobile mapping](/en/mobile-mapping/)
