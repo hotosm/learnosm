@@ -11,6 +11,7 @@ nosearch: true
 Anleitung für Anfänger
 ================
 
+> Geprüft 2015-07-12  
 
 Diese Anleitung zeigt Schritt für Schritt, wie man mit OpenStreetMap umgeht. Sie werden lernen, wie man ein Benutzerkonto erstellt, wie man grundlegende Kartenbearbeitungssoftware benutzt, und in späteren Kapiteln können Sie lernen, wie man vor Ort Informationen sammelt um sie zur Karte hinzuzufügen. 
 
@@ -27,6 +28,8 @@ Um damit vertraut zu werden und in der Lage zu sein, Kartendaten zu bearbeiten, 
 Das Wichtigste ist, dass Sie wissen wie die Kartierung in diesem Umfeld koordiniert wird.
  - die [Anleitung zur Fernbearbeitung](/de/coordination/HOT-Remote-Response-Guide/) und die allgemeinen Information über [Kartierung für humanitäre Zwecke](/de/coordination/humanitarian/) erklären den Hintergrund
 - das Arbeitspferd ist der [Tasking Manager](/de/coordination/tm-user) mit dessen Arbeitsablauf Sie sich vertraut machen sollten
+
+Wenn Sie schon Erfahrung im Kartieren haben und mehr über das Thema Validierung erfahren möchten dann erklärt Ihnen ein [Abschnitt](/de/coordination/tm-user/#validation) in unserer Anleitung zum Tasking Manager den Prozess
 
 ### Möchten Sie OpenStreetMap auf mobilen Geräten nutzen?
 

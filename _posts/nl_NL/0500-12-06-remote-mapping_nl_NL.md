@@ -26,7 +26,7 @@ Op basis van de zwaarte van de crisis, verzamelt HOT de benodigde middelen en de
 
 De [HOT Tasking Manager](http://tasks.hotosm.org/) is een open source tool ontworpen om grote projecten op te splitsen in kleinere taken die snel gedaan kunnen worden. Het laat zien welke gebieden in kaart moeten worden gebracht en welke gebieden door anderen gevalideerd moeten worden. Het bevat mapping taken voor [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), en langlopende [Humanitaire Projecten](http://hot.openstreetmap.org/projects).  
 
-Om de Tasking Manager te gebruiken moet je inloggen met je OSM account. Meer informatie kun je vinden in de [Tasking Manager Handleiding](http://learnosm.org/nl_NL/coordination/tasking-manager/).  
+Om de Tasking Manager te gebruiken moet je inloggen met je OSM account. Meer informatie kun je vinden in de [Tasking Manager Handleiding](http://learnosm.org/nl_NL/coordination/tm-user/).  
 
 
 ### Bewerkingsprogramma's 
@@ -38,16 +38,18 @@ Om de Tasking Manager te gebruiken moet je inloggen met je OSM account. Meer inf
 
 [JOSM](https://josm.openstreetmap.de/)- een Java app uitgesproken als "Jaws-um", is een downloadbare editor een heeft een steile leercurve. Hoewel het meer tijd kost om ermee te leren werken, is het ontzettend snel om veel bewerkingen mee te doen. Het gebruik van een muis is aan te bevelen bij deze editor.  
 
-![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
+![JOSM](https://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
 ### Advies & aanmoedigingen
 
->"Om te oefenen wordt aanbevolen om in een gebied te beginnen dat je goed kent en een aantal bewerkingen proberen te doen, zoals het bijwerken van een gebouw in je buurt."  
-> "Sommige taken zijn makkelijker dan andere. Als je een taak niet meer leuk vindt, stop dan gewoon en probeer een andere!" - Peter (@meetar)  
-> "Het is geen probleem als je de taak niet afmaakt; sla eenvoudigweg op wat je hebt gedaan en ontgrendel de taak zodat anderen er verder aan kunnen werken" - Peter (@meetar)  
-> "Als je voorbeelden wilt zien van gewenste kwaliteit, bekijk dan een van de groene "gevalideerde" vierkanten. Schrik niet, het klikken op de knop "Review the work" verplicht je tot niets - het zorgt er alleen voor dat het gebied geblokkeerd is, net zoals bij het bewerken. Bekijk het gebied en ontgrendel het zoals gewoonlijk naderhand." - Peter (@meetar)  
-> "De satellietbeelden zijn soms lastig te interpreteren, maar maar je niet teveel zorgen over het perfect tekenen van een lijn of vorm. Je werk zal worden bekeken door andere, meer ervaren, mappers en indien nodig worden verbeterd. Onthoud ook dat het crisisgebieden zijn, geen belastinggegevens of kiesdistricten. De kaarten zullen worden gebruikt door mensen die onder tijdsdruk staan, in het donker of in gevaar. In West-Afrika is zelfs de meest grove lijn op een kaart hoopvol. In Gaza zijn veel van de getekende gebouwen allang verdwenen, maar we markeren het feit dat ze gebouwd zijn. Accuraat zijn is mooi, maar niet het belangrijkste" -Peter (@meetar)  
- 
+>"Om te oefenen wordt aanbevolen om in een gebied te beginnen dat je goed kent en een aantal bewerkingen proberen te doen, zoals het bijwerken van een gebouw in je buurt."
+
+> "Sommige taken zijn makkelijker dan andere. Als je een taak niet meer leuk vindt, stop dan gewoon en probeer een andere!" - Peter (@meetar)
+
+> "Het is geen probleem als je de taak niet afmaakt; sla eenvoudigweg op wat je hebt gedaan en ontgrendel de taak zodat anderen er verder aan kunnen werken" - Peter (@meetar)
+
+> "De satellietbeelden zijn soms lastig te interpreteren, maar maar je niet teveel zorgen over het perfect tekenen van een lijn of vorm. Je werk zal worden bekeken door andere, meer ervaren, mappers en indien nodig worden verbeterd. Onthoud ook dat het crisisgebieden zijn, geen belastinggegevens of kiesdistricten. De kaarten zullen worden gebruikt door mensen die onder tijdsdruk staan, in het donker of in gevaar. In West-Afrika is zelfs de meest grove lijn op een kaart hoopvol. In Gaza zijn veel van de getekende gebouwen allang verdwenen, maar we markeren het feit dat ze gebouwd zijn. Accuraat zijn is mooi, maar niet het belangrijkste" -Peter (@meetar)
+
 ### Andere bronnen 
 
 Deze handleiding is een samenvatting van verschillende bestaande handleidingen en een HOT handleiding. Je kunt meer bronnen vinden via de onderstaande links (Niet allemaal in het Nederlands)  
@@ -58,10 +60,10 @@ Deze handleiding is een samenvatting van verschillende bestaande handleidingen e
 
 [MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- bevat videos die je kunt pauzeren om te volgen   
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - geschreven door Peter Richardson (@meetar) een ervaren HOT Remote Response Vrijwilliger  
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - geschreven door Peter Richardson (@meetar) een ervaren HOT Remote Response Vrijwilliger 
 
 #### Over HOT 
 
-[HOT Wiki Pagina](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)-  lees meer over wat HOT doet en hun laatste nieuws (Engels)  
+[HOT Wiki Pagina](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  lees meer over wat HOT doet en hun laatste nieuws (Engels)  
 
-[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- beschrijft HOT activiteiten in detail op hun website (Engels)  
+[HOT Activities](https://www.hotosm.org/what-we-do) - beschrijft HOT activiteiten in detail op hun website (Engels)  
