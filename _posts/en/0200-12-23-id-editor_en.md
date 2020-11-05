@@ -77,6 +77,10 @@ If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the ima
 Basic Editing with iD  
 ----------------------  
 
+Beware that the ID Editor hides objects when zoomed out. You will see a blue notice in the bottom of your screen warning you that there are ¨hidden features¨.
+![image20a][]
+Zoom in until you see these features appear. Only then start mapping. Otherwise there is a chance you map objects on top of existing ones.
+
 ### Adding Points  
 
 To add a new point, click on the **Point** button. ![image3][]{: height="24px"}  
@@ -218,6 +222,7 @@ iD versus JOSM
 [image18]: /images/beginner/id-editor_image18.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
+[image20a]: /images/beginner/id-editor_image20a.png
 [image21]: /images/beginner/id-editor_image21.png
 [image22]: /images/beginner/id-editor_image22.png
 [image24]: /images/beginner/id-editor_image24.png
