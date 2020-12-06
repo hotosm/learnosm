@@ -19,11 +19,11 @@ From the Tasking Manager information tab, or your other source of the informatio
 
 ![TM Imagery][]
 
-Go to the Preferences menu of JOSM (**Edit / Preferences**, or on an Apple machine **JOSM / Preferences**)  
+Go to the Preferences menu of JOSM (**Edit / Preferences**, or on an Apple machine **JOSM / Preferences**) and select the imagery tab
+ 
+![WMS_TMS_button][]{: height="24px"}
 
-![Preferences WMS TMS 1][]
-
-Click on the ![WMS_TMS_button][]{: height="24px"} icon, and in this case the ![+TMS_button][]{: height="24px"} icon.  
+Then click on the ![+TMS_button][]{: height="24px"} icon.  
 
 > TMS URLs usually have {x}{y} and {z} in them, WMS URLs are typically very long and have {width} and {height}, WMTS URLs usually have WMTSCapabilities.xml in them. If you are not sure what type of imagery URL you have, you can try adding them as different types to see which one works.  
 
@@ -68,9 +68,9 @@ The resulting dialog box will look like the one below:
 > Example WMS server with a lot of interesting layers: http://sedac.ciesin.columbia.edu/geoserver/wms  
 
 ![wms_select_layer_highlighted][]  
-Make sure you actually click on a layer if would like to have the Imagery menu item always load the same layer. In the above example, when the layer is selected from the Imagery Menu, it will always load the "World Database of Protected Areas" layer.
+Make sure you actually click on a layer if you would like to have the Imagery menu item always load the same layer. In the above example, when the layer is selected from the Imagery Menu, it will always load the "World Database of Protected Areas" layer.
 
-If you would like to choose which layer to load each time you select the server from the Imagery Menu and be able to load multiple layers from the save server easily, just check to box that says "Store WMS endpoint only". That will also disable selecting a layer and the verify URL field.
+If you would like to choose which layer to load each time you select the server from the Imagery Menu and be able to load multiple layers from the same server easily, just check to box that says "Store WMS endpoint only". That will also disable selecting a layer and the verify URL field.
 
 ![wms_end_point_only_highlighted][]  
 

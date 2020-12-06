@@ -28,13 +28,9 @@ The menus and submenus that make up the Presets menu are stored in files which d
 Presets files can either be added from an online archive, or saved on your computer locally and added into JOSM.  
 
 * To add a new entry to the Presets menu, open JOSM and go to Edit->Preferences.  
-* Click on the third tab down, which looks like a grid covering the planet.  
+* Click on the tagging presets tab.  
 
 ![tagging presets tab][]
-
-* At the top, click on "Tagging Presets."  
-
-![tagging presets menu][]
 
 * Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
 

@@ -54,14 +54,13 @@ There are many different settings that you can customize in JOSM.  One setting t
 
     ![Preferences window][]
 
--   On the left side, click the icon that looks like a paint can and paint brush.
--   At the top of the window, click the tab that says “Look and Feel”.
+-   On the left side, click the language tab.
 -   Choose your language in the dropdown box next to the word “Language”.
 
-    ![Look and feel][]
+    ![language][]
 
 -   Click OK.
--   You need to restart JOSM to save your settings. Click “File” in the upper left corner, and Click “Restart” near the bottom of the menu.
+-   You need to restart JOSM to save your settings. Choose the respective option from the message box.
 
 Learn Basic Drawing with JOSM
 -----------------------------
@@ -176,7 +175,7 @@ take a closer look at the process of editing the OSM map with JOSM.
 
 [preferences window]: /images/josm/josm_preferences.png
 
-[look and feel]: /images/josm/josm_look-and-feel.png
+[language]: /images/josm/josm_language.png
 
 [open file]: /images/josm/josm_open-file.png
 
