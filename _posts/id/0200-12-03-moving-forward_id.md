@@ -9,7 +9,7 @@ category: beginner
 Bacaan Lebih Lanjut
 ===============
 
-> Direview 2015-07-12  
+> Ditinjau 2020-05-08  
 
 Jika Anda berhasil mengikuti sampai sejauh ini, selamat! Anda sudah memiliki pemahaman yang baik untuk membuat peta menggunakan OpenStreetMap. Hal apa lagi yang Anda dapat lakukan menggunakan OSM? Bagaimana caranya untuk Anda belajar lebih lanjut? Bagaimana caranya agar Anda dapat selalu terhubung dengan komunitas pembuat peta?  
 
@@ -55,18 +55,16 @@ Geser halaman ke bawah untuk menemukan milis yang sesuai dengan negara Anda. Daf
 - Sekarang Anda sudah menjadi anggota milis.  
 - Saat Anda ingin mengirim sebuah email ke milis, Anda dapat mengirimkannya ke [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), ganti "id" dengan milis negara Anda. Anda juga akan mendapatkan email ketika anggota lain mengirimkan email ke milis.  
 
-<!-- maybe expand and put this back later
-MapOSMatic
+
+Contoh penggunaan OSM - MyOSMatic
 ----------
 
-Sebuah proyek bernama MapOSMatic, dimana Anda dapat mengaksesnya melalui
-browser pada [maposmatic.org](http://www.maposmatic.org/). Ini
-adalah sebuah alat sederhana untuk membuat dan mencetak peta dari area mana saja yang Anda pilih. Alat ini akan
-secara otomatis membuat peta beserta gridnya dan sebuah
-indeks lokasi objek-objek yang terdapat di area peta tersebut.
+Satu contoh proyek bernama MyOSMatic, yang kamu bisa akses melalui perambah internet milikmu di [print.get-map.org](https://print.get-map.org/). Ini merupakan alat sederhana untuk mencetak peta sebuah kota yang kamu dapat pilih. Secara otomatis akan membuat peta, dengan grid di atas peta, dan sudah termasuk indeks lokasi area.
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+Penggunaan lanjutan data OpenStreetMap dijabarkan di [OSM-Data section of LearnOSM](/id/osm-data/)
 
 
 Ringkasan
@@ -75,6 +73,6 @@ Ringkasan
 Ada beberapa cara yang dapat Anda gunakan untuk tetap terhubung dengan komunitas OpenStreetMap dan mempelajari OpenStreetMap lebih lanjut. Kami harap Anda terus mengeksplorasi dan mempelajari lebih lanjut mengenai OSM serta terus berkontribusi ke OSM. Selamat memetakan!
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png
