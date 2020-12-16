@@ -76,7 +76,7 @@ You may choose between defining the area of interest (mapping area) of your mapp
 
 ### Define tasks
 
-After the overall mapping area has been defined, it is going be divded into smaller areas called *Tasks*. This tasks must have a good size so they can be completed rapidly and collaboratively, with many people contributing to a collective project goal.
+After the overall mapping area has been defined, it is going be divided into smaller areas called *Tasks*. This tasks must have a good size so they can be completed rapidly and collaboratively, with many people contributing to a collective project goal.
 
 ![TM Tile Sizes][]
 
@@ -86,9 +86,9 @@ The mapping area is automatically split into grid cells and each cell becomes a 
 
 After you've adjusted the base grid task size, you can selectively divide certain tasks into four smaller ones with the `Click to split` button. Or you can `Draw area to split`, and it will let you draw a polygon over an area and all tasks within it will be split into four new ones each. The Reset button will remove all of your custom splitting.
 
-**Task sizes**:  Please take you time and define very carefully suitable task sizes! The optimal task size depends heavily on the amount of objects that are requested for being mapped in each task. Tasks sizes on rural areas are usually larger than for mapping projects, which are about digitizing buildings in cities por dense settlement areas. Ideally, try mapping an area of the project yourself to see the challenges and effort to map it. This should help you to decide on an optimum square size.
+**Task sizes**:  Please take your time and define very carefully suitable task sizes! The optimal task size depends heavily on the amount of objects that are requested for being mapped in each task. Tasks sizes in rural areas are usually larger than for mapping projects, which are about digitizing buildings in cities or dense settlement areas. Ideally, try mapping an area of the project yourself to see the challenges and effort to map it. This should help you to decide on an optimum square size.
 
-It is recommended to choose task sizes that you are confident mappers can complete them in 15-20 minutes.
+It is recommended to choose task sizes that you are confident mappers can complete in 15-20 minutes.
 
 > Considerations for deciding on task sizes:
 > -  Beginner mappers roughly need four times as long as experienced mappers.
@@ -103,11 +103,11 @@ After finalizing the definition of task sizes, click `Next`.
 
 ![TM Trim][]
 
-After determining the task sizes you will have the option to trim the tasks to the extend of your mapping area. If you simply click on `Trim` then you skip all task squares which do not contain the mapping area
+After determining the task sizes you will have the option to trim the tasks to the extent of your mapping area. If you simply click on `Trim` then you skip all task squares which do not contain the mapping area
 
 ![TM Trim coarse][]
 
-If you check the box about trimming to the exact area before clicking on `Trim` then you obtain arbitrary task shapes at the fringe
+If you check the box about trimming to the exact area before clicking on `Trim` then you obtain arbitrary task shapes at the fringe.
 
 ![TM Trim fine][]
 
@@ -124,7 +124,7 @@ Learn more about how to add descriptions and instructions to the project and get
 
 Geospatial desktop applications like JOSM or QGIS allow mappers to more precisely draw the areas of interest, compared to the slippy web map inside the Tasking Manager. You can also determine special task shapes and sizes beforehand.
 
-> The Tasking Manager is a web application. Please make sure the file you upload is reduced in it's size. You might want to simplify geometries first and cut off too many digits of the coordinates.
+> The Tasking Manager is a web application. Please make sure the file you upload is reduced in its size. You might want to simplify geometries first and cut off too many digits of the coordinates.
 
 **Upload a GeoJSON or KML file of the area of interest to be mapped**
 
@@ -164,7 +164,7 @@ After a project has been initially set up and created, you have to edit its info
 
 ![TM Description][]
 
-This screen allows you set the project status as Draft, Published, or Archived, priority, a short description used in project listings and the long description available once a mapper has selected the project.
+This screen allows you to set the project status as Draft, Published, or Archived, priority, a short description used in project listings and the long description available once a mapper has selected the project.
 
 Both the short and long description should provide information about why the project exists, who will use the data and the expected the impact the mapping will have. These fields support Markdown text and can include images and videos.
 
@@ -226,7 +226,7 @@ License - Optionally, if there is a specific license required for the mapper to 
 
 **Validation permissions** - Allows you to require that a mapper is at the proper level to validate on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets. You may also require a validator to be part of a team. Teams can be selected below
 
-**Teams** - Select teams for mapping and validation. If you do so then you can restrict mapping and/or validation to team members using the controls above. You may select several teams for each role. Select a team, select a role and press 'Add'. Once you added a team you may edit its role or delete the assignment.
+**Teams** - Select teams for mapping and validation. If you do so then you can restrict mapping and/or validation to team members using the controls above. You may select several teams for each role. Select a team, select a role and press 'Add'. Once you add a team you may edit its role or delete the assignment.
 
 **Privacy** - This restricts access to the project to those users who are part of the team to which the project belongs.
 
@@ -244,7 +244,7 @@ License - Optionally, if there is a specific license required for the mapper to 
 
 ![TM Actions][]
 
-**Message all ccontributors** - Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a portfolio/campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
+**Message all contributors** - Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a portfolio/campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
 
 **Mapping, validation and invalidation** - This will set the status of all tasks to either mapped, validated or invalidated. Handle with care as there is no undo.
 
