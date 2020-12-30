@@ -43,9 +43,9 @@ The success of the London event is based on a number of factors but mainly the f
 -   It was a regular event on the first Tuesday of each month so they could take it into account in advance and keep that slot open when arranging their lives.
   A second event (Mid Month) and validator training at the monthly event gives the more experienced mappers a chance to tackle more advanced and interesting projects such as validating, experimental techniques and Field Papers.
   
-## Start working on your Mapathon at least a month before for organising and preparing the event.  
+## Start working on your Mapathon at least a month before for organising and preparing the event  
 
-### First step ... Preparing the format of your Mapathon.  
+### First step \- Preparing the format of your Mapathon  
 The size of the available venues and the availability of facilities at the venue will decide the factors for your Mapathon. A venue can be a local company, university or school, arts centre, library, hall. The points to note:  
 
 1.  Is the venue centrally situated and easy to get to? (note public transport or parking)  
@@ -59,7 +59,7 @@ The size of the available venues and the availability of facilities at the venue
 
 ![venue][]
 
-### Second step ... Planning the Mapathon
+### Second step \- Planning the Mapathon
 Now that you have enough information from your first steps to decide the numbers, location and available dates you can start planning your Mapathon.  
 
 1.  Set the date and time for the Mapathon in line with availability of venues (Be careful to check that it does not clash with some other major event that would affect you being able to attract volunteers and mappers to your event). Allow at least 2.5 to 3 hours minimum for your event (half an hour for speeches and training, half an hour for refreshments, two hours for mapping).  
