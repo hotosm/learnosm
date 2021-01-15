@@ -144,7 +144,7 @@ Maps.me is a GPS Navigation and map application for Android and iOS smartphones 
 
 
 ### OsmAnd .obf
-OsmAnd is also a GPS Navigation and map application for Android and iOS smartphones, as well as  tablets, notably supporting offline rendering, routing, and searching. Read more about the application and its numerous features of [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) from their main website. 
+OsmAnd is also a GPS Navigation and map application for Android and iOS smartphones, as well as  tablets, notably supporting offline rendering, routing, and searching. Read more about the application and its numerous features of [OsmAnd .obf](https://docs.osmand.net/en/main@latest/development/osmand-file-formats/osmand-obf) from their main website. 
 
 ![export-tool-osmand][]
 
@@ -154,7 +154,7 @@ MBTiles is a file format for storing map tiles in a single file. The Export Tool
 
 ![export-tool-mbtiles][]
 
-
+### Additional file formats
 Additional file formats are continuously being suggested and added to the Export Tool. If there is a file format that you would like to see added in the future, please make a comment on the [GitHub](https://github.com/hotosm/osm-export-tool/issues) repository. For further detailed information regarding each file format type, please visit the ‘File Formats’ page in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website.
 
 
