@@ -9,13 +9,12 @@ category: mobile-mapping
 GPSLogger voor Android
 =====================
 
-> Bijgewerkt 06-12-2015  
 
 ![GPSLogger][]
 
 Een eenvoudige, lichtgewicht en minimalistische app voor het opnemen van GPS-sporen op het Android platform. De eenvoudig te gebruiken interface met als enig doel het loggen van GPS en stil blijven zorgen voor een zeer batterij efficiënte toepassing die GPS-sporen kan opslaan in de indelingen GPX, KML, NEMA of als tekstbestand. Logbestanden kunnen automatisch worden geüpload naar OpenStreetMap, een server voor OpenGTS, DropBox, FTP-server, HTTP-server of worden verzonden aan een e-mailadres.  
 
-<https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=en>  
+<https://f-droid.org/en/packages/com.mendhak.gpslogger/>  
 
 GPSLogger for Android is een app die gratis is te gebruiken, en een actief onderhouden project voor open bron. Donaties zijn welkom om de app verder te verbeteren. Indien u wilt deelnemen (bijv. vertalingen in andere talen wilt bijdragen, problemen rapporteren, of verzoeken voor verbetering wilt indienen), bezoek dan de [repository](https://github.com/mendhak/gpslogger).  
 

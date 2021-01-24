@@ -9,13 +9,12 @@ category: mobile-mapping
 GPSLogger für Android
 =====================
 
-Diese Anleitung kann heruntergeladen werden als [gpslogger_en.odt](/files/gpslogger_en.odt) oder [gpslogger_en.pdf](/files/gpslogger_en.pdf)  
 
 ![GPSLogger][]
 
 Eine einfache, leichtgewichtige und minimalistische App zum Aufzeichnen von GPS Spuren auf Android. Die leicht anwendbare Oberfläche mit dem einzigen Anspruch GPS aufzuzeichnen und ansonsten ruhig zu bleiben macht es zu einer batteriefreundlichen Anwendung, die GPS Tracks in GPX, KML, NEMA und Textdatei Formate speichern kann. Log-Dateien können automatisch zu OpenStreetMap, einem OpenGTS Server, DropBox, FTP Server, HTTP Server hochgeladen oder an eine Email-Adresse versendet werden.  
 
-<https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=en>  
+<https://f-droid.org/en/packages/com.mendhak.gpslogger/>  
 
 GPSLogger für Android ist ein frei verwendbare App und ein aktiv gepflegtes Open Source Projekt. Spenden werden gerne gesehen, um die App weiter zu verbessern. Falls man eingebunden werden möchte (z.B. zur Übersetzung in andere Sprachen, Fehlermeldungen oder für neue Features), kann man das [Repository](https://github.com/mendhak/gpslogger) besuchen.  
 

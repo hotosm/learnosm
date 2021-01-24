@@ -9,13 +9,12 @@ category: mobile-mapping
 GPSLogger pro Android
 =====================
 
-> Zkontrolováno 2015-12-06  
 
 ![GPSLogger][]
 
 Jednoduchá, nenáročná a minimalistická aplikace pro záznam GPS tras pro platformu Android. Jednoduché uživatelské rozhraní, jediným účelem je záznam GPS a spotřebovávat tak co nejméně energie, k tomu možnost ukládat gps trasy do formátu GPX, KML, NEMA nebo textového. Soubory mohou být automaticky nahrány do OpenStreetMap, na OpenGTS server, DropBox, FTP server, HTTP server nebo odeslány na emailovou adresu.  
 
-<https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=en>  
+<https://f-droid.org/en/packages/com.mendhak.gpslogger/>  
 
 GPSLogger pro Android je zdarma a aktivně vyvíjený open source projekt. Sponzorské dary jsou vítány, podporují další vylepšování aplikace. Pokud se chcete zapojit (např. překladem do jiných jazyků, oznámit chybu, nebo navrhnout vylepšení), přejděte na [repozitář](https://github.com/mendhak/gpslogger).  
 

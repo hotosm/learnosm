@@ -9,13 +9,12 @@ category: mobile-mapping
 GPSLogger từ Android
 =====================
 
-> Reviewed 2015-12-06  
 
 ![GPSLogger][]
 
 Một ứng dụng đơn giản, nhẹ và nhỏ gọn để ghi lại dấu vết GPS trên nền tảng Android. Giao diện dễ sử dụng với mục đích duy nhất của việc ghi lại GPS và ở lại làm cho một ứng dụng rất pin hiệu quả có thể lưu các tracks gps trong GPX, KML, NEMA hoặc định dạng tập tin văn bản. Các tệp nhật ký có thể tự động được tải lên OpenStreetMap, một máy chủ OpenGTS, DropBox, máy chủ FTP, máy chủ HTTP hoặc được gửi đến một địa chỉ email.  
 
-<https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=en>  
+<https://f-droid.org/en/packages/com.mendhak.gpslogger/>  
 
 GPSLogger dành cho Android là một ứng dụng miễn phí để sử dụng và một dự án nguồn mở được duy trì tích cực. Các khoản đóng góp được hoan nghênh để nâng cao hơn nữa ứng dụng. Nếu bạn muốn tham gia (ví dụ như cung cấp bản dịch bằng ngôn ngữ khác, báo cáo lỗi hoặc gửi yêu cầu tính năng), hãy truy cập [repository](https://github.com/mendhak/gpslogger).  
 
