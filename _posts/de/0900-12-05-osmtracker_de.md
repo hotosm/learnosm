@@ -9,7 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> Überprüft 2016-02-08
   
 **Dieser Artikel bezieht sich auf OSMTracker für Android - es gibt ein ähnliches Produkt für Windows Mobile.**  
 OSMTracker erlaubt das Erstellen einer GPX-Spur einer Reise, mit einer Sammlung von „Wegpunkten“ entlang der Route. Tonspuren, Fotos und andere Notizen können auch hinzugefügt werden, und allen wird eine räumliche Koordinate zugewiesen.
@@ -30,9 +29,8 @@ Schnellstart
 Installation von OSMTracker
 -------------------------
 
-Installieren Sie OSMTracker von dem [Google play Store](https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker).  
+Installieren Sie OSMTracker von [F-Droid](https://f-droid.org/en/packages/net.osmtracker/).  
 ![OSMTracker Logo][]  
-Falls benötigt, kann [das aktuellste Anwendungspaket](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) auch außerhalb des Google Play Stores heruntergeladen werden.  
 
 
 OSMTracker-Konfiguration

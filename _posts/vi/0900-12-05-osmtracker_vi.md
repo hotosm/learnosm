@@ -9,7 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> Reviewed 2016-02-08
   
 **Bài viết này liên quan đến OSMTracker cho Android - có một sản phẩm tương tự có sẵn cho Windows Mobile. **  
 OSMTracker cho phép tạo ra một dấu vết gpx của một hành trình, với bộ sưu tập của 'waypoints' dọc theo tuyến đường. Ghi âm giọng nói, hình ảnh và các ghi chú khác cũng có thể được ghi lại, và tất cả sẽ được định vị địa lý.
@@ -30,9 +29,8 @@ Quick Start
 Cài đặt OSMTracker
 -------------------------
 
-Cài đặt OSMTracker từ [Cửa hàng Google Play] (https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker).  
+Cài đặt OSMTracker từ  [F-Droid](https://f-droid.org/en/packages/net.osmtracker/).  
 ![OSMTracker Logo][]  
-Bạn có thể tải xuống [gói ứng dụng gần đây nhất](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) bên ngoài Cửa hàng Google Play nếu cần.  
 
 
 Cấu hình OSMTracker

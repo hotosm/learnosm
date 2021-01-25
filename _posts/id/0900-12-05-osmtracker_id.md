@@ -9,7 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> Direview 2016-02-08
   
 **Artikel ini berhubungan dengan OSMTracker untuk Android - ada aplikasi yang serupa untuk windows mobile.**  
 OSMTracker memungkinkan Anda merekam trek gpx perjalanan Anda, dengan kumpulan 'waypoints' yang dapat ditambahkan ketika merekam perjalanan. Perekaman suara, pengambilan foto atau catatan dapat juga ditambahkan ketika merekam perjalanan dan semua akan tergeolokasi.
@@ -30,9 +29,8 @@ Mulai Cepat
 Instal OSMTracker
 -------------------------
 
-Instal OSMTracker dari [Google play Store](https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker).  
+Instal OSMTracker dari [F-Droid](https://f-droid.org/en/packages/net.osmtracker/).  
 ![OSMTracker Logo][]  
-Package [aplikasi terbaru](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) dapat diunduh dari sumber lain selain Google play Store jika diperlukan.  
 
 
 Konfigurasi OSMTracker

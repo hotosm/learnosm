@@ -9,7 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> Reviewed 2016-02-08
   
 **ဤဆောင်းပါးသည် OSMTracker for Android နှင့်ဆက်စပ်မှုရှိပါသည်။ Wiindows mobile အတွက် အလားတူ product တစ်ခုလည်းရရှိနိုင်ပါသည်။**   
 OSMTracker သည် လမ်းကြောင်းတစ်လျှောက် waypoints များစုစည်းမှုနှင့်အတူ gpx လမ်းကြောင်းတစ်ခုကို ဖြစ်ပေါ်လာစေပါသည်။ အသံဖမ်းခြင်း၊ ဓါတ်ပုံရိုက်ခြင်းနှင့် တခြားမှတ်စုများကိုမှတ်တမ်းတင်ခြင်းများပြုလုပ်ပေးပြီး အားလုံးသည် geolocate လုပ်ပေးထားပြီးဖြစ်သည်။
@@ -30,9 +29,8 @@ OSMTracker သည် လမ်းကြောင်းတစ်လျှော�
 OSM Tracker ကို Install လုပ်ခြင်း
 -------------------------
 
-[Google play Store](https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker) မှ OSM tracker ကို Install လုပ်ပါ။  
+[F-Droid](https://f-droid.org/en/packages/net.osmtracker/) မှ OSM tracker ကို Install လုပ်ပါ။.  
 ![OSMTracker Logo][]  
-အကယ်၍ လိုအပ်လျှင် မကြာသေးခင်ကမှ ထွက်ရှိထားသော application package (https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) ကို Google play store ပြင်ပမှ Download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 
 
 OSMTracker ဖွဲ့စည်းခြင်း

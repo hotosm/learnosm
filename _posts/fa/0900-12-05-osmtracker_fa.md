@@ -9,7 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> تاریخ بازبینی ۱۳۹۴/۱۱/۱۹
   
 **این متن مربوط به نرم‌افزار OSMTracker برای آندروئید است - برنامه مشابهی برای ویندوز موبایل نیز وجود دارد**  
 OSMTracker اجازه میدهد تا ایجاد یک مسیر ردیابی شده GPX از یک سفر به همراه مجموعه‌ای از نقاط بین‌راهی در طول مسیر را ضبط کنید. ضبط صوت، عکس و یادداشت دیگر نیز امکانپذیر بوده و همه آنها به صورت جغرافیایی قرار می گیرند.
@@ -30,9 +29,8 @@ OSMTracker اجازه میدهد تا ایجاد یک مسیر ردیابی شد
 نصب OSMTracker
 -------------------------
 
-OSMTracker را از [فروشگاه گوگل](https://play.google.com/store/apps/details؟id=me.guillaumin.android.osmtracker) نصب کنید.  
+نصب OSMTracker از [F-Droid] (https://f-droid.org/en/packages/net.osmtracker/).  
 ![OSMTracker Logo][]  
-در صورت نیاز [جدیدترین بسته نرم افزاری](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) را می‌توان خارج از فروشگاه گوگل دانلود نمود.  
 
 
 پیکربندی OSMTracker

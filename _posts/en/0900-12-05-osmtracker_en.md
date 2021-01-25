@@ -30,9 +30,8 @@ Quick Start
 Install OSMTracker
 -------------------------
 
-Install OSMTracker from the [Google play Store](https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker).  
+Install OSMTracker from the [F-Droid](https://f-droid.org/en/packages/net.osmtracker/).  
 ![OSMTracker Logo][]  
-The [most recent application package](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) can be downloaded outside of Google play Store if need be.  
 
 
 OSMTracker Configuration

@@ -9,7 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> Zkontrolováno 2016-02-08
   
 **Tento článek se týká aplikace OSMTracker pro Android - existuje podobný produkt pro Windows Mobile.**  
 OSMTracker umožňuje vytvoření gpx stopy z cesty se sbírkou „waypointu“ v průběhu cesty. Může být také zaznamenán hlasový záznam, fotografie a další poznámky a vše bude geolokováno.
@@ -30,9 +29,8 @@ Rychlý start
 Instalace OSMTracker
 -------------------------
 
-Nainstalujte OSMTracker z [Google play Store](https://play.google.com/store/apps/details?id=net.osmtracker&hl=cs).  
+ Nainstalujte OSMTracker z [F-Droid](https://f-droid.org/en/packages/net.osmtracker/).  
 ![OSMTracker Logo][]  
-[Nejnovější balíček aplikace](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) lze v případě potřeby stáhnout mimo obchod Google Play.  
 
 
 Konfigurace OSMTracker
