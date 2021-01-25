@@ -9,7 +9,7 @@ category: resources
 
 # Other Resources
 
-> Reviewed 2018-02-24
+> Revisionato il 2020-05-08
 
 Questo è un elenco commentato di collegamenti ad altri siti web che consideriamo utili. Tutti i collegamenti sono stati verificati come funzionanti alla data di revisione del documento.
 
