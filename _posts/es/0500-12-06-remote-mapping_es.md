@@ -26,7 +26,7 @@ Teniendo en cuenta la magnitud de la crisis, HOT asigna los recursos necesarios 
 
 El [Administrador de Tareas HOT] (http://tasks.hotosm.org/) es una herramienta de código abierto diseñado para dividir un trabajo de mapeo en tareas más pequeñas que se pueden completar rápidamente. Muestra qué áreas necesitan ser asignada y qué áreas necesitan el mapeo validado por otros. Incluye tareas de mapeo para [Activaciones] (http://wiki.openstreetmap.org/wiki/HOT_activation), y ya de pie [Proyectos Humanitarios] (http://hot.openstreetmap.org/projects).  
 
-Para utilizar el Administrador de Tareas HOT necesita registrarse con OpenStreetMap (OSM) con un nombre de usuario y contraseña. Para más instrucciones lee el [Tutorial del Administrador de Tareas] (http://learnosm.org/es/coordination/tasking-manager/).  
+Para utilizar el Administrador de Tareas HOT necesita registrarse con OpenStreetMap (OSM) con un nombre de usuario y contraseña. Para más instrucciones lee el [Tutorial del Administrador de Tareas] (http://learnosm.org/es/coordination/tm-user/).  
 
 
 ### Herramientas de Edición 
@@ -38,16 +38,18 @@ Para utilizar el Administrador de Tareas HOT necesita registrarse con OpenStreet
 
 [JOSM](https://josm.openstreetmap.de/)- una aplicación Java pronunciado como "Jaws-um", lo que requiere la descarga de la aplicación y tiene una mayor curva de aprendizaje. Aunque se necesita más tiempo para configurar y aprender, es súper rápido para hacer más ediciones. El uso de un ratón se recomienda para el uso de este editor.  
 
-![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
+![JOSM](https://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
 ### Asesoramiento y Palabras de Aliento
 
-> "Para practicarlo es recomendable que comience con un área local que conoce y pruebe algunas ediciones, como la actualización de un edificio local de su barrio."   
-> "Algunas tareas son más fáciles que otras; si no se siente a uno de ellos, simplemente cancele y pruebe con otro!" -Peter (@meetar)   
-> "No es ningún problema si no terminas la tarea; acaba de subir lo que has hecho y desbloquea la tarea para que otros puedan trabajar en ella." -Peter (@meetar)    
-> "Si desea ver ejemplos de la calidad del trabajo que pases a reunir, echa un vistazo a una de las tareas verdes "validadas". No te preocupes, al hacer clic en el botón "Examinar el trabajo" no le compromete a nada - sólo bloquea la tarea como si estuviera editando. Cárgalo como normal, y simplemente desbloquea la tarea de nuevo cuando haya terminado." -Peter (@meetar)    
-> "Las imágenes de satélite son a veces difíciles de interpretar, pero no se preocupe demasiado acerca de la elaboración de la línea perfecta o la forma - su trabajo será revisado y modificado por los demás, y mejorado con el tiempo. Y recuerde, estas son zonas de crisis, no los registros fiscales o distritos electorales - estos mapas serán leídos por personas que pueden estar en un apuro, en la oscuridad, o en peligro. En África occidental, incluso una línea dura sobre un mapa es una expresión de esperanza. En Gaza, muchos de los edificios para ser mapeados ya se han ido; pero marcamos el hecho de su construcción. La precisión es agradable, pero no es el punto." -Peter (@meetar)   
- 
+> "Para practicarlo es recomendable que comience con un área local que conoce y pruebe algunas ediciones, como la actualización de un edificio local de su barrio." 
+
+> "Algunas tareas son más fáciles que otras; si no se siente a uno de ellos, simplemente cancele y pruebe con otro!" -Peter (@meetar) 
+
+> "No es ningún problema si no terminas la tarea; acaba de subir lo que has hecho y desbloquea la tarea para que otros puedan trabajar en ella." -Peter (@meetar)  
+
+> "Las imágenes de satélite son a veces difíciles de interpretar, pero no se preocupe demasiado acerca de la elaboración de la línea perfecta o la forma - su trabajo será revisado y modificado por los demás, y mejorado con el tiempo. Y recuerde, estas son zonas de crisis, no los registros fiscales o distritos electorales - estos mapas serán leídos por personas que pueden estar en un apuro, en la oscuridad, o en peligro. En África occidental, incluso una línea dura sobre un mapa es una expresión de esperanza. En Gaza, muchos de los edificios para ser mapeados ya se han ido; pero marcamos el hecho de su construcción. La precisión es agradable, pero no es el punto." -Peter (@meetar) 
+
 ### Otros Recursos  
 
 Esta guía ha sido resumida y recolectada de una variedad de fuentes de tutoría existentes y una guía de trabajo HOT. Puede encontrar más recursos de aprendizaje en los siguientes enlaces.  
@@ -58,10 +60,10 @@ Esta guía ha sido resumida y recolectada de una variedad de fuentes de tutoría
 
 [Tutorial Aprende a Mapear MapGive](http://mapgive.state.gov/learn-to-map/)- incluye videos que puede pausar para seguirlo  
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - escrito por Peter Richardson (@meetar) un experimentado Voluntario HOT de Respuesta Remota  
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - escrito por Peter Richardson (@meetar) un experimentado Voluntario HOT de Respuesta Remota 
 
 #### Acerca de HOT  
 
-[Página Wiki de HOT](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)-  aprender más sobre cómo funciona HOT y algunas de sus últimas novedades  
+[Página Wiki de HOT](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  aprender más sobre cómo funciona HOT y algunas de sus últimas novedades  
 
-[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- describe las actividades HOT con más detalle desde su página web  
+[Actividades HOT](https://www.hotosm.org/what-we-do) - describe las actividades HOT con más detalle desde su página web  

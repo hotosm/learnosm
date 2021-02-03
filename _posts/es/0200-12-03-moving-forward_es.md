@@ -9,7 +9,7 @@ category: beginner
 Otras lecturas
 ===============
 
-> Revisado 2015-07-12  
+Revisado 2020-05-08  
 
 Si has llegado hasta aquí, ¡Felicitaciones! Debería tener un buen entendimiento ahora de cómo hacer mapas con OpenStreetMap. ¿Qué más puedes hacer con OSM? ¿Cómo se puede obtener más información? ¿Cómo puede mantenerte conectado a la comunidad de editores de mapas?  
 
@@ -55,18 +55,16 @@ La mejor manera de conectarse con la comunidad de usuarios de OpenStreetMap es u
 - Ahora debe ser un miembro de la lista de correo.  
 - Ahora, cuando desee enviar un mensaje a la lista, puede enviarlo a [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), reemplazando "id" con el país de su lista. También recibirá mensajes de correo electrónico cuando otros miembros envien un mensaje a la lista.  
 
-<!-- maybe expand and put this back later
-MapOSMatic
+
+Ejemplo de uso de OSM - MyOSMatic
 ----------
 
-Uno de estos proyectos se llama MapOSMatic, que se puede acceder a través de su
-navegador en [maposmatic.org](http://www.maposmatic.org/). Esta
-es una herramienta sencilla para imprimir un mapa de cualquier área que elija. Se
-creará automáticamente el mapa, junto con una rejilla sobre el mapa, y un
-índice de ubicaciones que se incluyen en la zona.
+Uno de esos proyectos se llama MyOSMatic, al que puedes acceder a través de un navegador internet en [print.get-map.org](https://print.get-map.org/). Esta es una herramienta simple para imprimir un mapa de cualquier ciudad que elijas. Creará automáticamente el mapa, junto con una cuadrícula sobre el mapa, y un índice de ubicaciones que están incluídas en el área.
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+Otros usos de los datos de OpenStreetMap se explican en la [secciónOSM-Data de LearnOSM] (/es/osm-data/)
 
 
 Resumen
@@ -75,6 +73,6 @@ Resumen
 Estas son algunas de las maneras que puede utilizar para mantenerse en contacto con la comunidad OpenStreetMap y aprender más. Esperamos que continúes explorarndo y aprendiendo más acerca de OSM, y contribuyas al proyecto. ¡Feliz Mapeo!
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png
