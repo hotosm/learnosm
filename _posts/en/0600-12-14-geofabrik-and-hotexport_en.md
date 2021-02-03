@@ -168,9 +168,9 @@ The tool allows the user to customise the data selected within the defined area 
 
 
 OSM is an open global database of tagged geographic features, with three types of elements:
-Nodes, which represent a point on the surface of the earth
-Ways, which are sets of nodes that can form lines or polygons
-Relations, which are sets of nodes, ways or other relations
+* Nodes, which represent a point on the surface of the earth
+* Ways, which are sets of nodes that can form lines or polygons
+* Relations, which are sets of nodes, ways or other relations
 
 Each of these elements can have any number of key=value tags. For example, a post office may be represented by a way with the tags building=yes and amenity=post_office. Lets see how these tags can be defined in the Export Tool using the Tag Tree and YAML Form to filter OSM data.
 
@@ -200,36 +200,35 @@ The use of YAML was chosen due to its simplicity and compatibility with SQL. The
 ![export-tool-yaml-code1][]
 
 
-YAML has Themes, and two data structures, Mapping and Lists
-Theme in the above example is: buildings
+YAML has Themes and two data structures, Mapping and Lists. Theme in the above example is: buildings.
 Mappings in the above example are: types and select 
-Lists in the above example are: child elements of select and types
+Lists in the above example are: child elements of select and types.
 
-YAML: Themes
+### YAML: Themes
 Themes are the top level keys in the YAML document, with valid characters including letters, numbers and underscores. 
 
-YAML: Geometry Types
+### YAML: Geometry Types
 The list values under the mapping types can be one or more of ‘- points’, ‘- lines’, ‘- polygons’. If the types key is omitted, all three geometry types will be included in the theme.
 
-YAML: Column Selections
+### YAML: Column Selections
 List items under the mapping select key determines the columns for each theme. The following example will populate the ‘name’ and ‘amenity’ columns with their values from OSM:
 
 ![export-tool-yaml-code2][]
 
 
-YAML: Filters
+### YAML: Filters
 Filters are under the where: key in each theme. They define what subset of OSM features belongs to that theme. The following example will filter the theme to only features where the key natural has the value waterway:
 
 ![export-tool-yaml-code3][]
 
 
-Please note It is almost always necessary to have some kind of filtering, otherwise the theme will simply include all OSM features for the given geometry types. A filter is specified using SQL-like syntax, with valid keywords IS NOT NULL, AND, OR, IN, =, !=.
+Please note it is almost always necessary to have some kind of filtering, otherwise the theme will simply include all OSM features for the given geometry types. A filter is specified using SQL-like syntax, with valid keywords IS NOT NULL, AND, OR, IN, =, !=.
 
 ![export-tool-yaml-code4][]
 
 
-JOSM Presets
-Older versions of the Export Tool used JOSM Preset .XML files to define feature selections. The new version uses YAML as it is more flexible in how it transforms OSM data. The new Export Tool, however can help convert JOSM presets into YAML configurations, by selecting the ‘Load from JOSM Preset .XML’ button. Please note If the preset is more complex, it may need to be written as a new YAML configuration based on the ‘item’ elements contained in the XML.
+### JOSM Presets
+Older versions of the Export Tool used JOSM Preset .XML files to define feature selections. The new version uses YAML as it is more flexible in how it transforms OSM data. The new Export Tool, however can help convert JOSM presets into YAML configurations by selecting the ‘Load from JOSM Preset .XML’ button. Please note if the preset is more complex, it may need to be written as a new YAML configuration based on the ‘item’ elements contained in the XML.
 
 ![export-tool-load-preset][]
 

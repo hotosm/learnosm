@@ -1,10 +1,10 @@
 ---
-layout:doc
-title:其它资源
+layout: doc
+title: 其它资源
 permalink: /zh_CN/resources/
-lang:zh_CN
-cover:yes
-category:resources
+lang: zh_CN
+cover: yes
+category: resources
 ---
 
 # 其它资源
