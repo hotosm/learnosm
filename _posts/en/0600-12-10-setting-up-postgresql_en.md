@@ -24,14 +24,14 @@ From here you can find installation instructions for different operating systems
 This page explains what the One-Click Installer will do.  It will install three different components:  
 
 * **PostgreSQL server**:  The database software, the core component  
-* **pgAdmin III**: The graphical interface for managing your databases  
+* **pgAdmin 4**: The graphical interface for managing your databases  
 * **StackBuilder**: A tool for adding additional applications; we will use this for adding the PostGIS extensions  
 
 Click on **Download**.  
 
 ![postgresql download][]
 
-You will see several different Installer options for different versions of the PostgreSQL software. Download the most recent version. As of this writing it is version 9.3.1. Click on the button that says **Win x86-32**.  This is the installer for the 32-bit version of Windows.  
+You will see several different Installer options for different versions of the PostgreSQL software. Download the most recent version for your Windows version.
 
 ![postgresql version][]
 
@@ -72,14 +72,14 @@ When the installation is completed, click “**Close**” and then “**Finish**
 Creating a Database
 --------------------
 
-Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin III, which is a graphical database client that is useful for querying and modifying
+Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin 4, which is a graphical database client that is useful for querying and modifying
 databases.  
 
 ![pgadmin3][]
 
-PgAdmin III is the official client for PostgreSQL and lets you use the SQL language to manipulate your data tables.  It is also possible to create and manipulate databases from the command-line, but for now, pgAdmin III is an easy way to get started.  
+PgAdmin 4 is the official client for PostgreSQL and lets you use the SQL language to manipulate your data tables.  It is also possible to create and manipulate databases from the command-line, but for now, pgAdmin 4 is an easy way to get started.  
 
-Open pgAdmin III.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin III.  
+Open pgAdmin 4.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin 4.  
 
 ![pgadmin3 start][]
 
@@ -101,7 +101,7 @@ You need to enter a few pieces of information to create the new database: name a
 
 <!-- Under the Definition tab, keep the defaults, but next to Template select template_postgis.  This will create our database with the proper spatial columns. -->
 
-Click **OK** to create the database.  You will now see your database listed under “**Databases**.” We need to run a command now to enable the database with PostGIS extensions. Click on ![sql button][]{: height="24px"} at the top of PgAdmin III.  
+Click **OK** to create the database.  You will now see your database listed under “**Databases**.” We need to run a command now to enable the database with PostGIS extensions. Click on ![sql button][]{: height="24px"} at the top of PgAdmin 4.  
 
 
 
@@ -118,7 +118,7 @@ Load Sample Data (optional)
 
 If you are comfortable so far and are familiar with QGIS, follow along as we load some data into our new database. To do this, we will use a utility that converts shapefiles and loads them into the database.  
 
-Make sure that your new database is selected in the panel on the left and go to **Plugins -> PostGIS Shapefile and DBF loader 2.1**.
+Make sure that your new database is selected in the panel on the left and go to **Plugins -> PostGIS Shapefile and DBF loader 2.x**.
 
 ![shapefile loader][]
 
