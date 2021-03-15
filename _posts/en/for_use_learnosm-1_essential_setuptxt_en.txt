@@ -14,9 +14,9 @@ Get started
 
 English
 
-OpenStreetMap is a free street level map of the world, created by an ever growing community of mappers.
+OpenStreetMap is a free map of the world, created by an ever growing community of mappers.
 
-Anyone can edit OpenStreetMap. Here you can learn how LearnOSM provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. If you are interested in running an OpenStreetMap workshop, check out the LearnOSM trainer resources.
+Anyone can edit OpenStreetMap. Here you can learn how. LearnOSM provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. If you are interested in running an OpenStreetMap workshop, check out the LearnOSM trainer resources.
 
 Our Guides
 
