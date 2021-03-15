@@ -9,7 +9,6 @@ category: osm-data
 PostgreSQL & PostGIS
 ====================
 
-> Bijgewerkt 10-09-2016
 
 In dit hoofdstuk zullen we laten zien hoe PostgreSQL in te stellen op Windows en hoe een database te maken waarin u geografische gegevens kunt opslaan. We zullen in dit hoofdstuk de open source GIS software QGIS gebruiken, dus het zou nuttig zijn als u daar al bekend mee bent. In het volgende hoofdstuk zullen we zien hoe gegevens van OpenStreetMap in een database van PostgreSQL te importeren.  
 
@@ -24,14 +23,14 @@ Hier vindt u de instructies voor installeren voor de verschillende besturingssys
 Deze pagina legt uit wat de One-Click Installer zal doen.  Het zal drie verschillende componenten installeren:  
 
 * **PostgreSQL server**:  De software voor de database, de broncomponent  
-* **pgAdmin III**: De grafische interface voor het beheren van uw databases  
+* **pgAdmin 4**: De grafische interface voor het beheren van uw databases  
 * **StackBuilder**: Een gereedschap voor het toevoegen van aanvullende toepassingen; we zullen die gebruiken voor het toevoegen van de extensie PostGIS  
 
 Klik op **Download**.  
 
 ![postgresql download][]
 
-U zult verscheidene opties voor installeren voor de verschillende versies van de software van PostgreSQL zien. Download de meest recente versie. Bij het schrijven van dit was dat versie 9.3.1. Klik op de knop **Win x86-32**. Dat is het installatieprogramma voor de 32-bit versie voor Windows.  
+U zult verscheidene opties voor installeren voor de verschillende versies van de software van PostgreSQL zien. Download de meest recente versie voor uw versie van Windows.
 
 ![postgresql version][]
 
@@ -41,7 +40,6 @@ Voer de One-Click Installer uit als die gereed is met downloaden.
 
 Klik op “**Next**” om door de Wizard voor installeren te navigeren. De standaard opties zouden moeten voldoen. U zult een wachtwoord moeten opgeven voor de eerste gebruiker van de database (de gebruiker is postgres). Deze gebruiker heeft rechten als superuser, wat betekent dat zij kunnen doen wat zij willen, dus vergeet het wachtwoord dat u opgeeft niet!  
 
-> U kunt net zoveel databases maken als u wilt met behulp van Postgresql. U wilt misschien een database voor uw geografische gegevens en afzonderlijke databases voor andere projecten waar u aan werkt. En u wilt misschien dat andere mensen andere toegangsrechten hebben tot deze databases. Voor dat doel gebruikt elke database die u maakt het concept van **users** en **roles**. Een database moet altijd eigendom zijn van een gebruiker en normaal gesproken zal die gebruiker een wachtwoord nodig hebben om wijzigingen in de database te maken.  Aanvullende gebruikers kunnen rechten worden gegeven om toegang te krijgen tot een database, en zij kunnen bepaalde rollen krijgen toegewezen. Bijvoorbeeld: u zou misschien een gebruiker willen die alleen informatie uit de database kan lezen, maar die niet kan wijzigen. Of u wilt misschien een gebruiker die gegevens kan toevoegen, maar geen rechten heeft om ze te verwijderen. Met gebruikers en rollen is dat mogelijk. Maak u voor dit moment niet teveel zorgen hierover, maar onthoud dat uw database eigendom is van een **user**, en om toegang tot de database te krijgen heeft u de naam van die gebruiker en zijn wachtwoord nodig. De eerste gebruiker die we maken (named postgres) is een **superuser**, wat betekent dat zij de rechten hebben om alles te doen met de databases.  
 
 Nadat u zich door de wizard hebt geklikt en de standaard opties voor de configuratie hebt geaccepteerd, zal de wizard alles voor u installeren. Dat kan enkele minuten duren.  
 
@@ -72,14 +70,14 @@ Klik op “**Close**” en dan op “**Finish**” als het installeren is voltoo
 Een database maken
 --------------------
 
-Nu we alle benodigde software hebben geïnstalleerd, zullen we een database gaan maken. We zullen pgAdmin III gebruiken, wat een grafische databasecliënt is die nuttig is voor het bevragen en aanpassen
+Nu we alle benodigde software hebben geïnstalleerd, zullen we een database gaan maken. We zullen pgAdmin 4 gebruiken, wat een grafische databasecliënt is die nuttig is voor het bevragen en aanpassen
 van databases.  
 
 ![pgadmin3][]
 
-PgAdmin III is de officiële cliënt voor PostgreSQL en laat u de taal SQL gebruiken om uw gegevenstabellen te bewerken. Het is ook mogelijk om databases te maken en te bewerken vanaf de opdrachtregel, maar voor nu is pgAdmin III een gemakkelijke manier om te beginnen.  
+PgAdmin 4 is de officiële cliënt voor PostgreSQL en laat u de taal SQL gebruiken om uw gegevenstabellen te bewerken. Het is ook mogelijk om databases te maken en te bewerken vanaf de opdrachtregel, maar voor nu is pgAdmin 4 een gemakkelijke manier om te beginnen.  
 
-Open pgAdmin III. Het zou moeten staan in het menu Start onder Alle programma's -> PostgreSQL 9.3 > pgAdmin III.  
+Open pgAdmin 4. Het zou moeten staan in het menu Start onder Alle programma's -> PostgreSQL 9.3 > pgAdmin 4.  
 
 ![pgadmin3 start][]
 
@@ -101,7 +99,7 @@ U dient enige informatie op te geven om de nieuwe database te kunnen maken: naam
 
 <!-- Op de tab Definition, behoud de standaarden, maar selecteer naast Template template_postgis. Dat zal uw database maken met de juiste ruimtelijke kolommen. -->
 
-Klik op **OK** om de database te maken. U zult nu zien dat uw database wordt vermeld onder “**Databases**.” We dienen nu een opdracht uit te voeren om de database in te schakelen met de extensie PostGIS. Klik op ![sql button][]{: height="24px"} bovenin PgAdmin III.  
+Klik op **OK** om de database te maken. U zult nu zien dat uw database wordt vermeld onder “**Databases**.” We dienen nu een opdracht uit te voeren om de database in te schakelen met de extensie PostGIS. Klik op ![sql button][]{: height="24px"} bovenin PgAdmin 4.  
 
 
 
@@ -118,7 +116,7 @@ Voorbeeldgegevens laden (optioneel)
 
 Als tot dusverre alles goed gaat en u bent bekend met QGIS, laten we dan doorgaan en enige gegevens in onze nieuwe database laden. We zullen, om dat te doen, een gereedschap gebruiken dat shapefiles converteert en die in de database laadt.  
 
-Zorg er voor dat uw nieuwe database is geselecteerd in het paneel links en ga naar **Plugins -> PostGIS Shapefile and DBF loader 2.1**.
+Zorg er voor dat uw nieuwe database is geselecteerd in het paneel links en ga naar **Plugins -> PostGIS Shapefile and DBF loader 2.x**.
 
 ![shapefile loader][]
 
