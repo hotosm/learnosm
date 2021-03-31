@@ -9,10 +9,10 @@ category: hot-tips
 Disegnare edifici rettangolari - iD editor
 ============
 
+> Revisionato il 2019-06-23
+
 - TOC
 {:toc}
-
-> Creato il 2016-10-30  
 
 Le basi
 ----------
@@ -23,7 +23,8 @@ Le basi
 
 Punti da tenere a mente:  
 
-- Se l'edificio ha angoli retti, assicurati di disegnarlo con angoli retti oppure utilizza l'apposito strumento per ortogonalizzare gli angoli.  
+- Per terminare la tracciatura di un’area, clicca due volte sull’ultimo punto,  
+- Se l'edificio ha angoli retti, assicurati di disegnarlo con angoli retti oppure utilizza l'apposito strumento per ortogonalizzare gli angoli (In inglese, la scorciatoia è **q**).  
 - Assicurati di aggiungere i tag!  
 - Le dimensioni contano - *le stime sulla popolazione sono basate sull'area complessiva degli edifici in una data zona*.  
 - Edifici delle giuste dimensioni e orientati correttamente, aiuteranno le persone ad individuare il loro paese.  
@@ -59,7 +60,7 @@ Fai del tuo meglio - persino gli esperti talvolta sono in disaccordo e talvolta 
 Taggare gli edifici
 -------------
 
-Siccome stiamo mappando edifici che non abbiamo mai visitato e con cui non abbiamo familiarità, lo schema più sicuro e raccomandato con cui taggarli è **building**=**yes**, che puoi vedere su un edificio taggato correttamente se scorri fino alla fine del pannello laterale e clicchi su **Tutti i tag**.
+Siccome stiamo mappando edifici che non abbiamo mai visitato e con cui non abbiamo familiarità, lo schema più sicuro e raccomandato con cui taggarli è **building**=**yes**, che puoi vedere su un edificio taggato correttamente se scorri fino alla fine del pannello laterale e clicchi su **Tutti i tag**.  
 
 Vedi anche  
 ---------

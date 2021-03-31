@@ -2,22 +2,18 @@
 layout: doc
 permalink: /zh_CN/coordination/
 lang: zh_CN
-title: Coordination
+title: 协作
 category: coordination
 cover: yes
 nosearch: true
 
 ---
 
-Coordination
+协作
 ============
 
-This guide is currently not available. It is being translated. Please refer to it in:  
+> 已审核 2015-09-18
 
-[English](/en/coordination/),  
-[Deutsch](/de/coordination/), or  
-[Español](/es/coordination/).  
+因为OpenStreetMap涉及到许多人一起测绘，所以了解测绘人员如何协调这项活动是很有用的。
 
-To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
-
-
+learnOSM的这一部分介绍了用于协调测绘活动的各种工具、通信手段和质量保证的信息。
