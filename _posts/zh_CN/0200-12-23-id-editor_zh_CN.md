@@ -9,9 +9,9 @@ category: beginner
 iD编辑器
 =============
 
-> Reviewed 2019-06-10
+> 已审核 2019-06-10
 
-准备开始用Tasking Manager为HOT和MissingMaps准备地图任务？查看 [HOT-tips section](/en/hot-tips/) 获得帮助  
+准备开始用Tasking Manager为HOT和MissingMaps准备地图任务？查看 [HOT提示章节](/zh_CN/hot-tips/) 获得帮助  
 
 - TOC
 {:toc}
@@ -24,8 +24,8 @@ iD编辑器是基于浏览器的事实标准OpenStreetMap编辑器。iD编辑器
 ----------------------
 
 -  iD编辑器需要持续有效的互联网连接。  
--  打开浏览器，前往OpenStreetMap网站 [http://www.openstreetmap.org](http://www.openstreetmap.org)。  
--  用你的OpenStreetMap账户**登录**  
+-	打开浏览器，前往OpenStreetMap网站 [http://www.openstreetmap.org](http://www.openstreetmap.org)。  
+-	用你的OpenStreetMap账户**登录**  
 -  将地图平移并缩放到想要编辑的区域。平移的方法是按住鼠标左键，拖动到想要的区域。  
 -  点击**编辑**旁边的小箭头，然后点击 **使用iD (浏览器内编辑器) 编辑**。  
 
@@ -69,7 +69,7 @@ iD编辑器用户界面
 ![osm gps traces][]  
 点击 **显示选项** 来改变 **图像外观**  
 ![DisplayOptions][]  
-如果有[imagery offset](/en/josm/aerial-imagery)选项，你可以点击 **天正图像偏移**来校正图片位置  
+如果有[imagery offset](/zh_CN/josm/aerial-imagery)选项，你可以点击 **调整影像偏移**来**校正影像位置**  
 ![image18][]  
 
 点击方向按钮可以移动影像，点击重置按钮可以恢复到默认位置。 ![image20][]  
@@ -150,7 +150,7 @@ iD基本编辑操作
 保存你的更改
 --------------------
 
-当你想把你的编辑保存到OpenStreetMap时，请点击 **保存**	按钮。左侧的面板会显示上传面板。  
+当你想把你的编辑保存到OpenStreetMap时，请点击**保存**按钮。左侧的面板会显示上传面板。  
 ![image36][]  
 
 - 输入对你编辑的注释并点击**保存**。  
@@ -173,9 +173,9 @@ iD基本编辑操作
 更多教程
 ------------------
 
-[Our external resources page](/en/resources/#iD) 有许多视频教程资源。
+[我们的外部资源页面](/zh_CN/resources/#iD) 有许多视频教程资源。
 
-iD vs. JOSM 对比
+iD与JOSM的比较
 ---------------  
 
 **iD适用于……**
@@ -192,7 +192,7 @@ iD vs. JOSM 对比
 - 网络连接不稳定或无网络时
 - 使用特定标签模式或自定义预设组合
 
-[^fieldpaper]:在[section of LearnOSM](/en/mobile-mapping/field-papers/) 有更多关于Field Papers的信息。
+[^fieldpaper]:在这个[LearnOSM的章节](/zh_CN/mobile-mapping/field-papers/) 有更多关于Field Papers的信息。
 
 
 

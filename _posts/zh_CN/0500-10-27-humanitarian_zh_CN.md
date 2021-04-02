@@ -1,16 +1,31 @@
 ---
 layout: doc
-title: Humanitarian Mapping
+title: 人道主义绘图
 permalink: /zh_CN/coordination/humanitarian/
 lang: zh_CN
 category: coordination
 ---
 
-# Humanitarian Mapping
+# 人道主义绘图
 
-This guide is currently not available. It is being translated. Please refer to it in:  
+![HotGuideLogo](/images/hot-logo.png)
 
-[English](/en/coordination/humanitarian), or  
-[Español](/es/coordination/humanitarian).  
+> 已审核 2015-09-18
 
-To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
+感谢您的志愿服务，通过为当地社区和援助组织提供最新的地图数据来帮助他们应对这场危机。  
+
+像你一样，我们希望尽快提供帮助，我们的工作真正有紧迫感。但是，援助组织依赖我们获取地图数据的原因是，我们需要时间来确保我们生产的产品是有用的，并能满足他们的需求。我们也需要你小心。尽管这会延迟您开始更新地图，但我们需要在开始之前了解如何以及完整地图的内容。请不要在先观看或阅读一些可用教程的情况下急于开始测绘。我们在绘图中清理错误所需的时间比创建错误需要更长的时间，而且这些错误可能会导致护理人员对我们制作的地图的可靠性产生怀疑。  
+
+我们不断更新我们的软件和培训指南，但这确实需要时间。Tasking Manager 中的软件将很快更新，以便只有经验丰富的人才能查看和“审核”上传的绘图，但目前我们要求将 “审核” 过程留给最有经验的测绘审核人员 - 请继续测绘，你有机会在未来为我们的测绘审核人员。**如果您选择任务区域和绿色按钮显示 “审核工作”，那么请点击另一个任务区域，因为该评论需要经验丰富的审核人员才能完成。**  
+
+在开始之前，我们不需要您阅读所有网站内容，但我们需要您了解一些基础知识：  
+
+1. 如果您想帮助改进地图，请仔细阅读Task Manager介绍，它们可能会有所不同，因此请务必阅读并理解它们。这里有一片关于如何使用Tasking Manager和如果从有经验的测绘人员获得帮助知识：[Tasking Manager here within LearnOSM](/zh_CN/coordination/tasking-manager/)  
+
+2.  确保你已经放大到足够的程度，这样你就可以实际看到你应该绘制的东西了 - [这和其他的问题都在这里解释](/zh_CN/coordination/remote/)  
+
+3.  建筑物必须有轨迹，轨迹的形状应与建筑物的形状相匹配。 [LearnOSM的这部分](/zh_CN/coordination/remote-tracing/) 说明了这一点，以及如何创建道路和道路网络。  
+
+感谢你阅读这篇文章，我们希望你能在短暂的时间内，确保你把重要的事情做好。我们需要尽可能的帮助，希望你能帮助我们。  
+
+请记住，虽然这次事件是最近发生的，但问题将持续很长时间。人们不再有住房，而是住在庇护所里，遭受更多的恶劣天气。卫生情况将变得糟糕，有可能出现疾病和其他与食物和水有关的问题。虽然你可能在新闻中看不到这些问题，但这些问题仍然会存在，援助人员将需要反映当前情况的地图。现在请帮助我们，但请记得以后也来帮助我们。 
