@@ -10,34 +10,34 @@ JOSM 插件
 ============
 
 
-As you become more advanced in your editing techniques, you may want to use additional JOSM features to improve your mapping skills. JOSM allows you to install numerous plugins, which add extra functionality to the software.  
+当你的编辑技术越来越高超时，你可能会想使用额外的JOSM功能来提高你的绘图技能。JOSM允许你安装许多插件，为软件增加额外的功能。  
 
-In this section we will take a look at how to install plugins, and some of the most useful plugins that are available.
+在本节中，我们将看看如何安装插件，以及一些最有用的插件。
 
 安装插件
 -------------------
-Any time you want to install a new plugin, go to **Edit \> Preferences** and click on the **Plugins** tab.  
+每当你想安装新的插件，都可以进入**编辑 /> 首选项**，点击**插件**标签栏。  
 
 ![Plugins][]
 
-* If you don’t see a list of available plugins, click **Download List**.  
-* To install a plugin you simply must check the box next to it and click OK at the bottom.  
-* Lastly, with some versions of JOSM you may have to restart JOSM when you install new plugins.
+* 如果你没有看到可用的插件列表，请点击**下载列表**。  
+* 要安装插件，你只需选中旁边的方框，然后点击底部的"确定"即可。  
+* 最后，对于某些版本的JOSM，当你安装新的插件时，可能需要重新启动JOSM。
 
 一些最受欢迎的插件：
 
-1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier  
+1. **[buildings_tools](/zh_CN/josm/josm-more-plugins/#the-buildings-tools-plugin)：**如果你要画很多建筑，这个工具会让过程变得更快更简单  
 
-2. **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM database, this plugin makes it easy.  
+2. **直接上传：**如果你收集了大量的GPS轨迹，并想把它们保存在OSM数据库中，这个插件可以让你轻松实现。  
 
-3. **editgpx:** If you want to upload GPS tracks from a Garmin device, you might need this plugin. OSM won't accept GPS tracks that have been saved on an external memory card in a Garmin, but this plugin can correct the files so they can be uploaded.  
+3. **editgpx：**如果你想从佳明(Garmin)设备上传GPS轨迹，你可能需要这个插件。OSM不接受保存在佳明(Garmin)外部存储卡上的GPS轨迹，但这个插件可以修正文件，使它们可以被上传。  
 
-4. **fieldpapers:** This plugin lets you load scanned Field Papers into JOSM.  
+4. **fieldpapers：**这个插件可以让你把扫描的Field Papers加载到JOSM中。  
 
-5. **imagery_offset_db:** This plugin lets you cooperate with other mappers who find that the Bing satellite imagery is a little bit misaligned. This issue is covered in more detail in a later chapter.  
+5. **imagery_offset_db：**这个插件可以让你与其他发现Bing卫星图像有点错位的测绘人员合作。这个问题会在后面的章节中详细介绍。  
 
-6. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
+6. **print：**增加了一个打印功能，如果你想快速打印出一个区域，不需要很好看。  
 
-7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)
+7. **[utilsplugin2](/zh_CN/josm/josm-more-plugins/#more-selection-tools):**为高级用户在JOSM中添加了许多额外的工具和菜单。在 [下一章](/zh_CN/josm/josm-more-plugins)中会有更详细的介绍。
 
 [Plugins]: /images/josm/josm-plugins_image00_plug-icon.png

@@ -15,37 +15,37 @@ nosearch: true
 
 要创建一个详细精确的地图，你需要在要更新的地图区域进行调查。本节涉及调查相关内容：  
 
-- GPS  which will probably be more accurate than your mobile phone,  
-- Field Papers, a method of taking a printed map you can write on, then upload & trace from, or  
-- Your mobile phone. There are many apps available for navigating using OSM data, and many apps to help you carry out your survey. Just a few are listed here but this list is growing daily, and some Aid Organisations are designing their own apps to gather specific data.  
+- GPS设备，这可能会比你的手机更准确，  
+- Field Papers，是一种打印地图打印在纸张上面，然后从中上传和绘制的方法，或者是  
+- 你的手机。有许多应用程序可用于浏览使用OSM数据，还有许多应用程序可帮助你进行调查。这里只列出了几个，但这个列表每天都在增加，一些援助组织正在设计自己的应用程序来收集特定的数据。  
 
-More and more smartphones today include a radio chip that allows them to receive signals from satellite navigation systems and determine their location. The most common chips receive signals from the U.S. GPS frequencies, while higher end models may include chips that can read frequencies from the Russian GLONASS satellites at the same time.  
+如今，越来越多的智能手机包含一个无线电芯片，使它们能够接收卫星导航系统的信号并确定其位置。最常见的芯片可以接收美国GPS频率的信号，而更高端的机型可能包括可以同时读取俄罗斯GLONASS卫星频率的芯片。  
 
-The quality of the chips used in smartphones may vary, and data accuracy and performance could vary as well.  
+智能手机所使用的芯片质量可能会有所不同，数据的准确性和性能也会有所不同。  
 
-Devices with GPS chips can work autonomously, off the grid, and without an Internet connection, while devices marked with “A-GPS only” (Assisted GPS) require a network data connection (and a mobile signal from a telecommunications company) to work correctly. A-GPS data can help autonomous GPS chips perform better by pre-caching data for better performance.  
+带有GPS芯片的设备可以脱离网络，没有互联网连接，自主工作，而标有"A-GPS only"(辅助GPS)的设备需要网络数据连接(以及电信公司的移动信号)才能正常工作。A-GPS数据可也以通过预缓存数据来帮助自主GPS芯片发挥更好地性能。  
 
-For most mapping applications to work as expected, the user is assumed to have a smartphone with an autonomous GPS chip. Check your device specifications to confirm whether your device uses an autonomous chip, or is A-GPS only device.  
+为了使大多数地图应用能够如期运行，假设用户的智能手机采用了自主GPS芯片。请检查您的设备规格，以确认您的设备是否使用自主芯片，或者是A-GPS专用设备。  
 
-There are a lot of mapping applications available (for free or paid) for most smartphones in the market. Each app has its own advantages and disadvantages.  
+市场上有很多地图应用（免费或付费），适用于大多数智能手机。每个应用程序都有自己的优势和缺点。  
 
-In choosing a mapping application for mapping in OpenStreetMap, you need to consider the following features.  
+在选择OpenStreetMap中的测绘应用时，你需要考虑以下功能。  
 
-- Easy to learn; immediately usable  
-- With GPX support (create waypoints, customizable log intervals)  
-- Allows OSM contribution (add, edit, upload data)  
-- Able to load OSM data offline  
-- Able to geo-tag multimedia files (notes, photos, videos)  
-- In active development  
+- 简单易学；立即可用  
+- 支持GPX（创建航点，可自定义日志间隔）  
+- 允许OSM贡献（添加、编辑、上传数据）  
+- 能够离线加载OSM数据  
+- 能够对多媒体文件进行地理标记（笔记、照片、视频）  
+- 正在积极发展中  
 
-Try several applications that are compatible with your phone to get familiar with the interface and choose the best app based on your personal preference and mapping approach.
+试用几款与手机兼容的应用，熟悉界面，根据个人喜好和测绘方式选择最佳应用。
 
-<!-- Commenting for now since tables doesn't look very nice!
+<!-- 暂时评论一下，因为表格看起来不是很好看！
 
 我们推荐的一些适用于智能手机和数字设备的应用程序
 -----------------------------------------------------
 
-| Application      | Usage  | Android  | Blackberry | iOS     | Windows |
+| 应用程序      | 使用方法  | Android  | Blackberry | iOS     | Windows |
 | ---------------- | :----: | :------: | :--------: | :-----: | :-----: |
 | Geopaparazzi     | m      | O        |            |         |         |
 | GPS Essentials   | m      | O        |            |         |         |
@@ -60,7 +60,7 @@ O - 已支持, D - 开发中, m - 绘图, n - 导航, p - POI 编辑器, f - 完
 
  -->
 
-The next sections will guide you through the installation and use of specific applications for you to contribute to OpenStreetMap using your smartphone.
+接下来的章节将指导你安装和使用特定的应用程序，让你使用智能手机为OpenStreetMap做贡献。
 
-> **Note:** Before proceeding any further, verify that GPS is available and active for the device. In Android, go to **Settings \> Location** and enable it.  
-> Remember, GPS doesn’t work inside buildings!
+> **注意：**在进行任何进一步操作之前，请确认设备的GPS是否可用且处于激活状态。在安卓系统中，进入**设置 \> 位置**并启用它。  
+> 请记住，GPS在建筑物内是不能工作的！

@@ -25,7 +25,7 @@ category: coordination
     -  [影像 - 绘制地图的基础](/zh_CN/coordination/tasking-manager3-project-admin/#imagery)
     -  [权限 - 允许谁h绘制和审核](/zh_CN/coordination/tasking-manager3-project-admin/#permissions)
     -  [帮助的提示 - 如何填写这些字段](/zh_CN/coordination/tasking-manager3-project-admin/#instruction-notes)
-    -  [发布 - 不要忘记，否则你永远无法完成工作](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
+    -  [发布 - 不要忘记，否则你永远无法完成工作](/zh_CN/coordination/tasking-manager3-project-admin/#proofread-and-publish)
 
 OpenStreetMap Tasking Manager对于执行地图马拉松、管理HOT动员或为新手测绘人员创建Tasking Manager至关重要。Tasking Manager将工作划分为可管理的地理区块，从而减少了编辑冲突，尤其是对于大量不同地区的测绘人员而言。Tasking Manager 还通过为测绘人员提供一套一致的指令（例如 '绘制所有道路和建筑物'），从而帮助测绘准确性和数据质量。简而言之，Tasking Manager是您设置和指导开放式绘图活动的工作流程的方式。本模块介绍了OSM  Tasking Manager的基本管理，以便成功开展测绘活动。 
 
@@ -153,7 +153,7 @@ AoI会自动分割成网格单元，每个单元成为一个任务。使用"较�
 
 > 要求绘制大量实体的项目对测绘人员来说很困难，也很难得到审核。它们需要更长的时间才能得到一个良好的可用数据集。不同的任务大小使不同类型的测绘有效地进行，例如，建筑物需要小的任务方块，而道路和水道需要较大的任务方块。在同一区域内做多个项目以获得建筑物和线性特征的绘制是一种最佳做法。
 
-**变更集注释** - 这是默认的变更集注释，将附加到每个上传到 OSM 的数据。它的内容通常包括一些标识项目所在的Tasking Manager和绘制的特征。它通常用于“哈希标签(hash tags)”，以帮助识别请求和/或进行映射的组织。它还可以描述正在进行的测绘，例如， “建筑物测绘”。
+**修改集注释** - 这是默认的修改集注释，将附加到每个上传到 OSM 的数据。它的内容通常包括一些标识项目所在的Tasking Manager和绘制的特征。它通常用于“哈希标签(hash tags)”，以帮助识别请求和/或进行映射的组织。它还可以描述正在进行的测绘，例如， “建筑物测绘”。
 
 > 应该指导用户对他们所绘制的内容填写有意义的评论，但用好的默认评论帮助他们是一个好主意。
 
@@ -195,7 +195,7 @@ URL字段 - 一个字段，它采用TMS URL，将自动传递给测绘人员或�
 
 ![TM Permissions][]
 
-测绘人员等级 - 允许你要求测绘人员处于适当的等级，以便在项目上进行绘制（屏幕上面的元数据）。测绘人员等级可以手动设置，但会根据总变更集自动应用。
+测绘人员等级 - 允许你要求测绘人员处于适当的等级，以便在项目上进行绘制（屏幕上面的元数据）。测绘人员等级可以手动设置，但会根据总修改集自动应用。
 
 要求审核者角色 - 这允许你要求做审核的人已经被评估为合格的审核者。这是一个同行评审的过程，然后指定某人为审核者。项目经理和现有的审核者可以将任何用户标记为合格的审核者。
 
@@ -225,47 +225,47 @@ URL字段 - 一个字段，它采用TMS URL，将自动传递给测绘人员或�
 
 1. 项目的标题应该已经揭示出应该绘制哪些实体。最好采用如下标题：
 *#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
-2. The most important messages should appear on the instruction tab first to ensure they are read. This would include any special imagery to use instead of Bing. The first sentences could mention that it is not required to map every single house if the project is about roads and residential areas, for example. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages that should also appear on the description tab.
-3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery (cf. the previous section). Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
-4. There are guidelines that cover common errors we see while validating. One example is Blake Girardot's compilation on [mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Use the link in the instructions and explain that adhering to these guidelines is required.
-5. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related tasks the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and highly recommended reading for every mapper. If your project must adhere to different tagging standards then write a similar page in the wiki and link it in your instructions.
+2. 最重要的信息应首先出现在说明标签栏上，以确保它们被阅读。这包括使用任何特殊的影像，而不是Bing。第一句话可以提到，例如，如果项目是关于道路和住宅区，则不需要绘制每一栋房子的地图。或者，如果项目要用于人口密度估计，则需要绘制每一栋房子的地图。这些信息也应该出现在描述标签栏上。
+3. 其他需要说明的问题。如果该项目只适合有一定经验的测绘人员。例如，该项目使用导入数据或现有数据应为GPS轨迹或其他一些影像（参见上一节）重新调整。措辞要让新的测绘人员感到被邀请为其他项目作出贡献，但要明白在这种情况下需要高级技术。
+4. 有一些准则涵盖了我们在验证时看到的常见错误。一个例子是Blake Girardot关于 [西非制图](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)的汇编。在说明中使用该链接，并解释说明需要遵守这些准则。
+5. 标记标签方面的权威资源是 [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features)。对于许多与HOT相关的任务， [标记非洲公路的标签](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)的网页是合适的专业资料，强烈建议每个测绘人员阅读。如果你的项目必须遵守不同的标记标签标准，那么就在wiki中写一个类似的页面，并在你的说明中链接它。
 
 
 ### 关于影像的注意事项
 
 在大多数情况下，我们使用 “标准” Bing图像。但是有些情况下你可能想要选择替代来源：
 
-1. Bing does not provide high-resolution coverage for your AoI.
+1. Bing不为你的AoI提供高分辨率覆盖。
 2.Bing在这个领域有相当大的云覆盖面。
 3.灾后评估需要更新的图像。
 
 如果Bing不足，那么 Mapbox 是下一个选择。只有当这两个来源都不符合您的要求时，您才应该寻找其他来源。
 
-In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your AoI has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your AoI and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
+在这种情况下，只选择一个与许可证兼容的来源并通过WMS或TMS服务提供是不够的。AoI可能已经使用Bing或Mapbox影像进行了部分测绘，图像之间可能存在明显的偏移。你必须仔细观察AoI的各个位置，并确定你的影像和以前测绘数据之间的偏移。如果现有的OSM数据与你的影像有偏移，但符合Bing影像，那么我们通常认为Bing是"黄金标准"，除非我们有GPS轨迹，证明这个假设是错误的。
 
-If there is a constant offset between your imagery and Bing across the AoI then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the AoI or if existing data are aligned with various sources then it is time for plan B:
+如果您的图像和Bing在整个AoI之间有一个恒定的偏移，那么这可能会在服务器上得到纠正，从而使编辑器中加载的各种来源的图像相匹配。如果偏移量在整个AoI上有所不同，或者现有的数据与各种来源的数据是一致的，那么是时候实施B计划了。
 
-The important point is that you must develop a strategy for how to cope with these issues and provide detailed instructions to mappers and validators. We strongly suggest that you declare such a project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
+重要的一点是，您必须制定一个如何应对这些问题的策略，并为测绘人员和审核者提供详细的指导。我们强烈建议你宣布这样的项目"只适合有经验的绘图者"，并解释说，在这种情况下，经验并不是已经绘制了200多栋建筑，而是已经处理了对齐问题和不同的影像来源。
 
-One possible strategy could include these steps:
+一个可能的策略可以包括以下步骤：
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
-2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
-3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
-4. Add new features from the now correctly aligned alternative imagery.
+1. 明确说明哪种影像被认为是参照物，其他任何东西都应该与之保持一致。在这种情况下，让我们假设参照物是Bing。
+2. 确保所有在Bing上能看到的现有特征与Bing影像保持一致，即必要时重新调整。
+3. 使用编辑器的影像偏移功能，将替代影像与现有特征(从而与Bing)对齐。
+4. 从正确对齐的替代影像中添加新的特征。
 
-It is important that step 3 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an AoI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+重要的是，项目的每项任务都要重复步骤3，而且单个任务方块不应过大，因为影像偏移在整个AoI中可能会有很大的不同，特别是在地形不平坦的情况下。甚至影像不连续的情况也可能在整个项目中出现 - 注意这些情况，并将这种问题告知贡献者。
 
-Here are some suggested bits of information which you might include in the project instructions:
+这里有一些建议，你可以在项目说明中加入：
 
-- [general guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
-- [an animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [the josm imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+- [编辑人员的一般准则](https://wiki.openstreetmap.org/wiki/Using_Imagery)
+- [关于iD中影像对齐的gif动画](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [learnOSM中的josm影像调整章节](http://learnosm.org/zh_CN/josm/correcting-imagery-offset)
 
 
-### Proofread and Publish
-Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page. 
-If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
+### 校对和发布
+校对各个选项栏，确保措辞和格式正确，说明清楚。如果你需要对项目进行修改或完善，请点击页面右上角的"编辑"链接。 
+如果项目已经准备好进行绘制，请点击"发布"链接。项目一旦发布，任何拥有OSM账户的人都可以进行绘制，除非在"允许用户"选项卡中指定了一组用户，在这种情况下，只有允许的用户才能进行绘制工作。如有必要，在发布后仍可通过点击"编辑"链接对项目进行编辑。
 
 [TM Tile Sizes]: /images/coordination/tm3_tile_sizes.png
 [TM New]: /images/coordination/tm3_create_new.png
