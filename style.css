@@ -107,7 +107,8 @@
       left:-3em;
       width:2em;
       font-family:'Source Sans Pro',sans-serif;
-      font-size:12px;
+      font-size:15px;
+      font-weight:700;
       text-align:center;
     }
     .doc ul > li:before {content:'◆'}
@@ -190,8 +191,14 @@ em {font-style:italic;}
 strong {font-weight:700;}
 
 .doc ul {margin: 20px 0;}
-.doc  ul li,.doc ol li, .doc p { font-family:'Quattrocento',serif; }
-.doc li {margin-left:30px;}
+.doc ul li,.doc ol li, .doc p { font-family:'Quattrocento',serif; }
+.doc li {
+  margin-left:30px;
+  margin-bottom:5px;
+}
+.has-image {
+  margin-bottom:20px !important;
+}
 .doc li a, .doc p a {color: #79bc5f;}
 .doc-nav-secondary li {padding-left:60px;}
 
@@ -268,7 +275,7 @@ body {
 }
 
 table {
-  table-layout: fixed; 
+  table-layout: fixed;
   width: 100%;
 }
 
