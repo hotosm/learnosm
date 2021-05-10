@@ -4,7 +4,7 @@ title: Tasking Manager 3 创建项目
 permalink: /zh_CN/coordination/tasking-manager3-project-admin/
 lang: zh_CN
 category: coordination
-导航：跳过
+navigation: skip
 ---
 
 # OSM Tasking Manager 3 项目创建和管理
