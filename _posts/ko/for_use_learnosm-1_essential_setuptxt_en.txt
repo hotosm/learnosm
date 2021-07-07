@@ -1,0 +1,74 @@
+Learn OpenStreetMap Step by Step
+
+Help improve our guides
+
+Are you a workshop organizer?
+
+Check out training material for this guide (in English)
+
+Was this chapter helpful?
+
+Let us know and help us improve the guides!
+
+Get started
+
+English
+
+OpenStreetMap is a free street level map of the world, created by an ever growing community of mappers.
+
+Anyone can edit OpenStreetMap. Here you can learn how LearnOSM provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. If you are interested in running an OpenStreetMap workshop, check out the LearnOSM trainer resources.
+
+Our Guides
+
+What are you looking for?
+
+New to OpenStreetMap?
+
+beginner's guide
+
+Humanitarian Mapping
+
+Remote mapping information
+
+More guides
+
+Guides in Document format
+
+Common Questions
+
+What is OpenStreetMap?
+
+Who created LearnOSM?
+
+How can I get started mapping?
+
+Where can I find additional help?
+
+This guide may be downloaded as
+
+This guide is available in 
+
+or  
+
+Please refer to it in 
+
+This guide is currently unavailable. It is being translated. Please refer to it in 
+
+Send us feedback
+
+Create a translation
+
+Improve Language
+
+Report issues and contribute
+
+This guide is created and maintained by the [OpenStreetMap](http://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](http://hotosm.org/) community. You can help us improve this guide by simply sending your feedback or by contributing directly to it via [Github](http://github.com/hotosm/learnosm).
+
+Ready to get started?
+
+A more recent version of this guide is available in
+
+Quick access
+
+Return to top of page
+
