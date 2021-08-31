@@ -1,0 +1,76 @@
+---
+layout: doc
+title: Saving - changeset comment & Task Manager finishing a square - iD editor
+permalink: /en/hot-tips/saving/
+lang: en
+category: hot-tips
+---
+
+Saving - changeset comment & Task Manager finishing a square - iD editor
+============
+
+> Updated 2019-06-25
+
+- TOC
+{:toc}
+
+iD editor - saving
+------------------
+
+### The Essentials of saving using the iD editor ###
+
+![saving OSM][]
+
+
+Click on the ![save-icon]{: height="24px"} icon, check what will be saved, add a comment explaining what you have added and then click on the ![upload]{: height="24px"} icon to save your changes to OpenStreetMap.  
+
+### Saving or Uploading to OpenStreetMap - the details ###
+
+Save your work regularly. Perhaps after tracing 6 buildings. This is especially important at a mapathon when lots of people are all working on the same thing at the same time.  
+
+Add a simple comment explaining what you have done at the end of the existing comments, for instance "**added a couple of buildings**".  
+
+### More information about saving to OpenStreetMap ###
+
+For more information about changeset comments see <https://wiki.openstreetmap.org/wiki/Good_changeset_comments>  
+
+Your edits will appear on <http://www.openstreetmap.org> within a few seconds of uploading or saving them.  
+
+Although your changes are accepted by OpenStreetMap within a few seconds, some programmes, apps. and devices use a saved version of OpenStreetMap which may not be updated for some weeks or months.  
+
+Tasking Manager Finishing a square or stopping work before the square is finished  
+-------------------------------------------------------------------
+
+When you think the square is finished, add a comment and mark the square as completely mapped.
+
+![Stop Mapping][]  
+
+If you select;
+
+- **¨Yes¨ on the question ¨Is this task completely mapped?¨** the square you were working on will turn blue to show it is complete and awaiting validation.  
+- **¨No¨ on the question ¨Is this task completely mapped?¨** the square will return to it's previous colour to show it needs more work. It is very helpful if your comment lets the next mapper know what needs to be done, such as  
+    - "There are more buildings to trace in the bottom right corner of the square, but I've run out of time"  
+
+The whole Tasking Manager process only works if mappers mark squares as complete - even if you are very new and not sure, when you think it is completely mapped, choose ¨Yes¨ on the question ¨Is this task completely mapped?¨. The worst thing that can happen is that someone thinks there is a lot more to be done and invalidates your square. Most of us that have carried out a lot of mapping on the Task Manager have had at least one square invalidated - We all miss something at some point.  
+
+OpenStreetMap has evolved because mappers are constantly improving the information. Sometimes new imagery becomes available making more detailed mapping possible, and sometimes a survey takes place and information is gained and added to the map.   
+
+See also  
+---------
+
+[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
+*Subtitles available in some languages*  
+
+
+
+[saving OSM]:/images/hot-tips/saving.gif
+[keymon]:/images/hot-tips/keymon.png
+[Stop Mapping]:/images/hot-tips/20190625-TM-stop-mapping-800px.png
+[id issues icon]: /images/hot-tips/id-issues.png
+[warn when mapping]: /images/hot-tips/20190625-warn-when-mapping.png
+[id issues]: /images/hot-tips/20190625-id-issues.png
+[id issues everywhere]: /images/hot-tips/20190625-id-issues-everywhere.png
+[save-icon]: /images/beginner/save-icon.png "Save icon"
+[upload]: /images/beginner/upload.png "Upload"
+[arrow-up]: /images/arrow-up.png
+[OSM-TM-video]: /images/hot-tips/OSM-TM-video.png "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos"
