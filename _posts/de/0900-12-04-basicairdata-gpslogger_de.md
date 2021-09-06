@@ -9,7 +9,7 @@ category: mobile-mapping
 BasicAirData GPS Logger
 =======================
 
-> Geprüft 2020-05-05
+> Stand 2021-06-12
 
 ![BasicAirData-GPSLogger-002][]
 
@@ -47,10 +47,10 @@ Grundlegende Bedienung
 Falls erforderlich aktivieren Sie den GPS-Modus auf Ihrem Gerät. Gehen Sie in das Freie und starten Sie den GPS-Logger.
 
 1. Warten Sie bis eine Standortbestimmung durchgeführt wurde. Sobald das der Fall ist, erscheinen die ermittelten Koordinaten unter der Registerkarte ___GPS FIX___. Warten Sie möglichst noch mindestens eine Minute bevor Sie fortfahren um ein stabiles Signal zu erhalten.
-2. Klicken Sie auf den Knopf ___Wegpunkte___ unten in der Anzeige um die Aufzeichnung zu starten. Der Knopf wird rot. Sie können durch mehrfaches Klicken dieses Knopfs die Aufzeichnung ein- und ausschalten. Der Knopf zeigt die Anzahl der aufgezeichneten Punkte an.
+2. Klicken Sie auf den Knopf ___Aufzeichnen___ unten in der Anzeige um die Aufzeichnung zu starten. Der Knopf wird rot. Sie können durch mehrfaches Klicken dieses Knopfs die Aufzeichnung ein- und ausschalten. Der Knopf zeigt die Anzahl der aufgezeichneten Punkte an.
 Unter der Registerkarte ___TRACK___ sehen sie in Echtzeit statistische Angaben zu Ihrer Aufzeichnung.
-3. Wenn Sie die Aufzeichnung beenden möchten, doppelklicken Sie auf den kleinen ___Haken___ in der oberen rechten Ecke um die aktive Aufzeichnung abzuschließen.
-4. Unter der Registerkarte ___TRACKLIST___ sehen Sie die gerade beendete Aufzeichnung. Ein Klick auf den Eintrag öffnet ein Menü. Sie können die Aufzeichnung auf verschiedene Arten mit anderen teilen, sie in einem externen Betrachter ansehen, sie in das /GPSLogger-Verzeichnis auf Ihrem Smartphone exportieren oder aus der Liste löschen. Die verfügbaren Export-Formate können unter den Einstellungen festgelegt werden.
+3. Wenn Sie am Ziel angekommen sind, klicken Sie auf den Knopf ___Stopp___ um die aktive Aufzeichnung zu beenden. Es erscheint ein Dialog, klicken Sie auf __OK__ um ihn zu bestätigen.
+4. Unter der Registerkarte ___TRACKLIST___ sehen Sie die gerade beendete Aufzeichnung. Ein Klick auf den Eintrag öffnet ein Menü. Sie können die Aufzeichnung auf verschiedene Arten mit anderen teilen, sie in einem externen Betrachter ansehen, Details der Aufzeichnung bearbeiten, sie in das /GPSLogger-Verzeichnis auf Ihrem Smartphone exportieren oder aus der Liste löschen. Die verfügbaren Export-Formate können unter den Einstellungen festgelegt werden.
 
 Import von GPX-Aufzeichnungen in einen OpenStreetMap-Editor
 --------------------------------------------
