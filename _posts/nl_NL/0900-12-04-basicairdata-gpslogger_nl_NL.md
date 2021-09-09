@@ -9,7 +9,7 @@ category: mobile-mapping
 BasicAirData GPS-logger
 =======================
 
-> Bijgewerkt op 05-05-2020
+> Bijgewerkt op 12-06-2021
 
 ![BasicAirData-GPSLogger-002][]
 
@@ -47,10 +47,10 @@ Basisgebruik
 Als de GPS-locatie niet actief is op uw telefoon, activeeer die dan. Ga dan naar een open gebied en start GPS Logger.
 
 1. Wacht totdat de app de fix vindt. Indien beschikbaar zal de tab __GPS FIX__  beginnen met het weergeven van de coördinaten van de fix. Op dat moment (indien mogelijk) zou u nog minstens een minuut moeten wachten voordat u doorgaat met de volgende fase om het signaal in staat te stellen te stabiliseren.
-2. Klik op de knop __Trackpoints__ in het onderste paneel om het opnemen van punten van het spoor te starten. De knop zal rood worden. U kunt op elk moment het proces van opnemen in- en uitschakelen door op de knop te klikken. De knop geeft het aantal opgenomen punten van spoor weer.
+2. Klik op de knop __Record__ in het onderste paneel om het opnemen van punten van het spoor te starten. De knop zal rood worden. U kunt op elk moment het proces van opnemen in- en uitschakelen door op die knop te klikken. Aan de bovenzijde van de knop geeft de app het aantal opgenomen punten van het spoor weer.
 U kunt naar de tab __TRACK__ gaan om real time de statistieken van uw trip te bekijken.
-3. Wanneer uw trip is voltooid, dubbeltik op het kleine vinkje __V tick__ nabij de rechter bovenhoek om het actieve spoor te voltooien (beéindigen).
-4. Ga naar de tab __TRACKLIST__  waar u het spoor zult vinden dat u zojuist hebt opgenomen. Tik op het spoor. Er zal een menu verschijnen. U kunt er voor kiezen het spoor op vele manieren te delen, het te bekijken op een geïnstalleerd extern programma, het exporteren naar de map /GPSLogger van uw smartphone, of het verwijderen uit de sporenlijst. De voor ecxporteren gebruikte indelingen kunnen worden geconfigureerd in het scherm voor de instellingen.
+3. Klik, als uw trip is voltooid, op de knop __Stop__ om het actieve spoor te beëindigen (voltooien). Een dialoogvenster zal verschijnen, klik op __OK__ om te bevestigen.
+4. Ga naar de tab __TRACKLIST__  waar u het spoor zult vinden dat u zojuist hebt opgenomen. Tik op het spoor. Er zal een menu verschijnen. U kunt er voor kiezen het spoor op vele manieren te delen, het te bekijken op een geïnstalleerd extern programma, de details van het spoor bewerken, het exporteren naar de map /GPSLogger van uw smartphone, of het verwijderen uit de sporenlijst. De voor exporteren gebruikte indelingen kunnen worden geconfigureerd in het scherm voor de instellingen.
 
 GPX-sporen importeren in bewerker voor OpenStreetMap
 --------------------------------------------

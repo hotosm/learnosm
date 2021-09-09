@@ -9,7 +9,7 @@ category: mobile-mapping
 BasicAirData GPS Logger
 =======================
 
-> Revisionato il 2020-05-05
+> Revisionato il 2021-06-12
 
 ![BasicAirData-GPSLogger-002][]
 
@@ -46,11 +46,11 @@ Utilizzo di base
 
 Se la posizione GPS non è attiva sul tuo dispositivo, attivala. Poi vai in un luogo aperto e avvia GPS Logger.
 
-1. Attendi che l'app agganci il segnale gps. Non appena trovato il segnale, la scheda __GPS FIX__ (FIX GPS) inizierà a visualizzare le coordinate del fix. A questo punto (quando possibile) è consigliabile attendere almeno un altro minuto prima di procedere con la fase successiva, al fine di consentire la stabilizzazione del segnale
-2. Clicca sul bottone __Trackpoints__ (Punti GPS) che trovi nel pannello inferiore per iniziare la registrazione dell'itinerario. Il bottone diventerà di colore rosso. Puoi interrompere e riprendere la registrazione in ogni momento cliccando su di esso. Il bottone mostra il numero di punti registrati.
-È possibile andare nella scheda __TRACK__ (ITINERARIO) per vedere le statistiche del percorso in tempo reale.
-3. Alla fine del viaggio, fai doppio click sul piccolo segno di spunta __V tick__ in alto a destra per terminare (finalizzare) l'itinerario registrato.
-4. Vai nella scheda __TRACKLIST__ (ARCHIVIO), dove troverai la traccia che hai appena registrato. Cliccando sulla card dell'itinerario, apparirà un menu. Puoi scegliere di condividere l'itinerario in molti modi, visualizzarlo usando un visualizzatore esterno tra quelli installati, esportarlo nella cartella /GPSLogger del tuo smartphone, o eliminarlo dall'archivio. I formati di esportazione possono essere configurati nelle impostazioni dell'applicazione
+1. Attendi che l'app agganci il segnale gps. Non appena trovato il segnale, la scheda __FIX GPS__ (GPS FIX) inizierà a visualizzare le coordinate del fix. A questo punto (quando possibile) è consigliabile attendere almeno un altro minuto prima di procedere con la fase successiva, al fine di consentire la stabilizzazione del segnale
+2. Clicca sul bottone __Registra__ (Record) che trovi nel pannello inferiore per iniziare la registrazione dell'itinerario. Il bottone diventerà di colore rosso. Puoi interrompere e riprendere la registrazione in ogni momento cliccando su di esso. Sopra al bottone l'app mostra il numero di punti registrati.
+È possibile andare nella scheda __ITINERARIO__ (TRACK) per vedere le statistiche del percorso in tempo reale.
+3. Alla fine del viaggio clicca su __Stop__ per finalizzare l'itinerario attivo. Apparirà una finestra dialogo, clicca __OK__ per confermare.
+4. Vai nella scheda __ARCHIVIO__ (TRACKLIST), dove troverai la traccia che hai appena registrato. Cliccando sull'itinerario apparirà un menu. Puoi scegliere di condividere l'itinerario in molti modi, visualizzarlo usando un visualizzatore esterno tra quelli installati, editarne i dettagli, esportarlo nella cartella /GPSLogger del tuo smartphone, o eliminarlo dall'archivio. I formati di esportazione sono configurabili nelle impostazioni dell'applicazione
 
 Importazione degli itinerari GPX nell'editor di OpenStreetMap
 --------------------------------------------
@@ -59,8 +59,8 @@ Terminata la raccolta dei dati sul campo, è possibile importare le tracce GPX p
 Puoi utilizzare questa semplice procedura:
 
 1. Salva l'itinerario in formato GPX sul tuo Personal Computer in uno dei seguenti modi:
-* Vai nell'archivio itinerari di GPS Logger, clicca sull'itinerario desiderato e nel menu che compare seleziona la voce __Export__ (Esporta); il file GPX verrà creato e salvato nella cartella /GPSLogger del tuo dispositivo Android (assicurati che il formato GPX sia abilitato nelle impostazioni di esportazione). Successivamente collega il tuo telefono con il PC tramite cavo USB e sposta (o copia) i files GPX usando il File Manager;
-* Come alternativa, puoi utilizzare la funzione __Share__ (Condividi) per inviare l'itinerario al PC (è possibile inviare gli itinerari via e-mail, FTP, o utilizzando diversi servizi cloud). Le possibilità di condivisione disponibili dipendono dalle applicazioni installate e configurate sul tuo dispositivo Android;
+* Vai nell'archivio itinerari di GPS Logger, clicca sull'itinerario desiderato e nel menu che compare seleziona la voce __Esporta__ (Export); il file GPX verrà creato e salvato nella cartella /GPSLogger del tuo dispositivo Android (assicurati che il formato GPX sia abilitato nelle impostazioni di esportazione). Successivamente collega il tuo telefono con il PC tramite cavo USB e sposta (o copia) i files GPX usando il File Manager;
+* Come alternativa, puoi utilizzare la funzione __Condividi__ (Share) per inviare l'itinerario al PC (è possibile inviare gli itinerari via e-mail, FTP, o utilizzando diversi servizi cloud). Le possibilità di condivisione disponibili dipendono dalle applicazioni installate e configurate sul tuo dispositivo Android;
 2. Importa il file GPX nell'editor OpenStreetMap: l'operazione è molto semplice, è sufficiente trascinare il file e rilasciarlo nell'editor (o nella scheda del browser, per iD).
 
 Documentazione ufficiale (in inglese)
