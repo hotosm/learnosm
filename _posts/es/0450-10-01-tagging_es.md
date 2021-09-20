@@ -20,7 +20,7 @@ Etiquetado - editor iD
 Por qué se necesitan Etiquetas
 -------------------
 
-Sin una etiqueta, un elemento no tiene significado y los mapas no lo mostrarán. La etiqueta explica a la computadora cuál es la característica en realidad. Si encuentra algo donde la etiqueta se ha "perdido", agregue la etiqueta. Si un elemento está etiquetado, tendrá un color, como el tono rojo del edificio etiquetado en la imagen de arriba. **Si es blanco, investigue y agregue la etiqueta si se ha perdido.**  
+Sin una etiqueta, un elemento no tiene significado y los mapas no lo mostrarán. La etiqueta explica a la computadora cuál es la característica del objeto en la realidad. Si encuentra algo sin etiqueta, agreguela. Si un elemento está etiquetado, tendrá un color, como el tono rojo del edificio etiquetado en la imagen de arriba. **Si es blanco, investigue y agregue la etiqueta si ésta falta.**  
 
 ![tagged-building][]  
 
