@@ -68,7 +68,7 @@ Para descargar la versión para Windows de osm2pgsql, navegue su navegador web a
 
 Obteniendo datos sin procesar de OSM
 ---------------------
-Antes de que podamos ejecutar **osm2pgsql** necesitamos tener algunos datos OSM sin procesar para importar a una base de datos. Si aún no tiene un archivo **.osm** que pueda usar, intente descargar un archivo desde <https://mapzen.com/data/metro-extracts/>. Este sitio alberga muchos extractos de OSM para diferentes ciudades. Encuentre una ciudad para importar y descargue el archivo PBF. Los archivos PBF son versiones comprimidas de los archivos normales **. Osm **. Puede usar cualquiera de los servicios de extracción enumerados en el capítulo sobre [obtención de datos](/es​/osm-data/getting-data), si desea los datos en bruto para otra área.  
+Antes de que podamos ejecutar **osm2pgsql**, necesitamos tener algunos datos OSM sin procesar para importarlos a una base de datos. Si aún no tiene un archivo **.osm** que pueda usar, intente descargar un archivo desde <https://download.bbbike.org/osm/bbbike/>. Este sitio alberga muchos extractos de OSM para diferentes ciudades. Busque una ciudad para importar y descargue el archivo PBF correspondiente. Los archivos PBF son versiones comprimidas de los archivos **.osm** normales. Puede utilizar cualquiera de los servicios de extracción enumerados en el capítulo sobre [obtener datos] (/en/osm-data/getting-data), si desea los datos sin procesar para otra área.   
 
 Obtenga el archivo de estilo
 ------------------
@@ -125,7 +125,6 @@ Podemos probar que la importación fue exitosa y ver los datos en nuestra base d
 
 ![osm in qgis][]
 
-> Si observa las tablas de atributos de las capas, verá que los atributos se asignan a las etiquetas OSM. Las etiquetas específicas que se importan se definen durante el proceso de importación ** osm2pgsql **. Para agregar etiquetas específicas que no están incluidas de manera predeterminada, puede editar el archivo * style * al que hace referencia osm2pgsql para definir el esquema de datos.  
 
 
 Resumen
