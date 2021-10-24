@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: herramientas de JOSM
+title: Herramientas de Edición en JOSM
 permalink: /es/josm/josm-tools/
 lang: es
 category: josm
@@ -9,138 +9,114 @@ category: josm
 Herramientas de Edición en JOSM
 ==================
 
-> Revisado 2015-07-14  
+> Revisado 2017-06-09  
 
-En la [Guía para comenzar a usar JOSM] hemos cubierto los conceptos básicos para dibujar en
-JOSM, pero hay varias herramientas y técnicas que no han sido demostradas.
+- TOC
+{:toc}
 
-Aquí presentaremos algunas herramientas y técnicas básicas disponibles en JOSM
-para dibujar las características del mapa, y en los capítulos siguientes veremos
-en más detalle las heramientas avanzadas.
+En la [guía para empezar a usar JOSM](/es/josm/start-josm/) cubrimos los aspectos básicos del dibujo en JOSM, pero hay muchas herramientas y técnicas que no se demuestran.
+
+Aquí veremos algunas de las herramientas y técnicas básicas disponibles para dibujar objetos espaciales de mapas en JOSM, y en los siguientes capítulos profundizaremos en las herramientas de dibujo avanzadas.
 
 Obtener archivo de muestra
 -------------------
 
- - Si quisieras seguir las instrucciones mientras practicas en JOSM, descarga
-    [tools_menu_sample.osm](/files/tools_menu_sample.osm).
- - Abre JOSM y el archivo también. Debes ver algo similar a esto:
+- Si quieres seguir y practicar el uso de las herramientas JOSM, descarga [tools_menu_sample.osm](/files/tools_menu_sample.osm). Inicia JOSM y abre el archivo. Debería tener el siguiente aspecto:
 
 ![tools_menu_sample.osm][]
 
 Herramientas de dibujo
 -------------
 
-Si hace clic en el menú "Herramientas" en la ventana principal, verá que hay
-muchas funciones que pueden ayudarte a dibujar líneas y formas, y 
-a editar objetos en el mapa.
+Si hace clic en el menú "Herramientas" de la parte superior de JOSM, verá que hay numerosas funciones que pueden ayudarle a dibujar líneas y formas, y a editar los objetos del mapa.
 
-JOSM tiene algunas herramientas adicionales para facilitar
-el dibujo de líneas y formas. Estas herramientas se encuentran en el menú "Herramientas"
-en la ventana principal de JOSM.
+JOSM dispone de algunas herramientas adicionales para facilitar el dibujo de líneas y formas. Estas herramientas se encuentran en el menú "Herramientas" en la parte superior de JOSM.
 
 ![Tools menu][]
 
-Para utilizar las funciones del menú, tiene que primero seleccionar
-un punto, una línea o una forma en el mapa. El archivo de muestra contiene varios
-elementos que están etiquetados con los nombres de las diferentes herramientas en el menú.
+Para aplicar las funciones de este menú, primero debe seleccionar un punto, una línea o una forma en la ventana del mapa. El archivo de ejemplo contiene varios elementos etiquetados con los nombres de las distintas herramientas del menú.
 
- - Seleccione uno de los elementos en el archivo. Después elija el menú de Herramientas
-    y haga clic en la función que ha identificado al lado del objeto
-    que seleccionaste.
- - Por ejemplo, haga clic en el círculo mal dibujado para seleccionarlo.
+### Alineación de nodos en un círculo  
+
+- Pruebe a seleccionar uno de los elementos del archivo. A continuación, vaya al menú Herramientas y haga clic en la función que se identifica junto al elemento que ha seleccionado. Por ejemplo, haga clic en el círculo mal dibujado para seleccionarlo.
 
 ![Align nodes in circle][]
 
- - Luego, ve a Herramientas -> Alinear Nodos en Círculo.
- - El círculo mal dibujado tendrá una forma más circular.
+- A continuación, vaya a Herramientas->Alinear Nodos en Círculo. El círculo mal dibujado se volverá más circular.
 
-Experimenta con cada una de las herramientas usando el archivo de muestra. Una descripción de 
-ciertas herramientas se encuentra a continuación.
+Experimente con cada una de las herramientas utilizando este archivo de ejemplo. A continuación se ofrece una descripción de algunas de las herramientas.
 
-1. **Dividir Vía:** Esto te permite dividir una línea en dos líneas separadas.
-    Esto es útil siquieres añadir diferentes atributos a varias
-    partes de una ruta, como un puente. Para usar esta función, seleccione un
-    punto en medio de la línea que quieres dividir, selecciona Dividir
-    Vía en el menú de Herramientas, y su línea debería dividirse en dos.
+### Particionar Vía  
 
-2. **Combinar Vías:** Esto hace lo contrario de Dividir Vía. Para combinar dos 
-    líneas en una única línea, tienen que compartir un único punto en común. Para usar
-    esta función, seleccione las dos líneas que desea combinar. Puede
-    seleccionar más de un objeto al mantener presionado SHIFT en su 
-    teclado mientras hace clic en cada línea. Cuando haya seleccionado ambas 
-    líneas, seleccione Combinar Vías en el menú de Herramientas.
+Esto le permite dividir una línea en dos líneas separadas. Esto es útil si quiere añadir diferentes atributos a diferentes partes de una carretera, como un puente. Para utilizar esta función, seleccione un punto en el centro de la línea que desea dividir, seleccione Dividir camino en el menú Herramientas, y su línea debería dividirse en dos.
 
-    ![Combine way][]
 
-    Si estás combinando caminos que tienen diferentes direcciones, es 
-    posible que leas esta advertencia:
+### Combinar Vía
 
-    ![Reverse and combine][]
+Esto hace lo contrario de Particionar Vía. Para combinar dos líneas en una sola, deben compartir un mismo punto. Para utilizar esta función, seleccione las dos líneas que desea combinar. Puede seleccionar más de un objeto manteniendo pulsada la tecla MAYÚSCULA de su teclado y haciendo clic en cada línea. Cuando haya seleccionado ambas líneas, seleccione Combinar Vía en el menú Herramientas.
 
-    Si las carreteras están conectadas y van en la misma dirección, entonces seleccione
-    "Inviertir y continuar".
+![Combine way][]
 
-3. **Invertir vía:** Esto va a cambiar la dirección de la línea. Todas las líneas en
-    OSM tiene una dirección, que se muestra en JOSM por las flechas en la línea.
-    Dirección no suele importar, excepto en el caso de vías mano única y
-    ríos que fluyen en una dirección determinada. En estos casos puede ser necesario
-    invertir la vía para que vaya en la dirección correcta.
 
-    ![Way direction][]
+### Revertir y combinar  
 
-4. **Simplificar vía:** Si su línea tiene demasiados puntos y le gustaría
-    que sea más simple, esto eliminará algunos de los puntos de la línea.
+Si está combinando carreteras que tienen diferentes direcciones, puede recibir esta advertencia:
 
-    ![Simplify way][]
+![Reverse and combine][]
 
-5. **Alinear nodos en círculo:** Si está tratando de hacer una
-    forma circular, dibuje el círculo lo mejor que pueda y luego seleccionelo.
-    Esta función le ayudará a organizar sus puntos en un círculo.
+Si las carreteras están conectadas y van en la misma dirección, elija "Invertir y continuar".
 
-6. **Crear círculo:** Como alternativa, puede utilizar esta herramienta, que
-    creará un círculo más perfecto. Dibuje una línea que represente el
-    diámetro de su círculo, y luego aplique esta herramienta.
 
-    ![Create circle][]
+### Revertir Vía
 
-7. **Alinear nodos en línea:** Esta función alineará una serie de puntos
-    en una línea recta. Con largas líneas lo mejor es seleccionar secciones
-    de la línea a enderezar. Tenga cuidado, ya que tiene la
-    tendencia a desplazar la línea un poco.
+Esto cambiará la dirección de la línea. Todas las líneas en OSM tienen una dirección, que se muestra en JOSM por las flechas en la línea. La dirección normalmente no importa, excepto en el caso de caminos de una sola dirección y ríos que fluyen en una dirección determinada. En estos casos es posible que tengas que invertir el camino para que vaya en la dirección correcta.
 
-    ![Align nodes in line][]
+![Way direction][]
 
-8. Ortogonalizar Forma: Esta función es muy útil para dibujar
-    formas regulares tales como edificios. Después de dibujar un área, esta
-    función la remodelará para que tenga esquinas cuadradas.
+### Simplificar Vía
 
-    ![Orthagonalize][]
+Si tu línea tiene demasiados puntos y quieres simplificarla, esto eliminará algunos de los puntos de una línea.
 
-9. Despegar vía: Esta herramienta le permite separar los nodos que estan
-    conectados. Es útil cuando dos objetos comparten un nodo y no deberían.
-    Por ejemplo, un error común es que una calle comparta un nodo
-    con la esquina de un edificio. Por supuesto las calles no se chocan con los edificios
-    en general, por lo que esto es un error, y se puede despegar los objetos uno
-    de otro.
+![Simplify way][]
 
-    ![Unglue way][]
 
-    > La línea y el nodo no aparecerán en realidad separados hasta que los mueva.
+### Crear un Círculo
+
+Utilice esta herramienta, que creará un círculo más perfecto. Dibuja una línea que represente el diámetro de tu círculo, y luego aplica esta herramienta.
+
+![Create circle][]
+
+
+### Alinear Nodos en Línea
+
+Esta función alineará una serie de puntos en una línea recta. Con líneas largas es mejor seleccionar secciones de la línea para enderezarlas. Tenga cuidado ya que esto tiene la tendencia a desplazar la línea un poco.
+
+![Align nodes in line][]
+
+### Ortogonalizar Forma
+
+Esta función es muy útil para dibujar formas regulares como edificios (**Pero vea también [JOSM building tools](/es/josm/josm-more-plugins/)**). Después de dibujar un área, esta función le dará nueva forma para que tenga esquinas cuadradas.
+
+![Orthagonalize][]
+
+
+### Despegar Vía
+
+Esta herramienta permite separar nodos que están conectados. Es útil cuando dos objetos comparten un nodo cuando no deberían hacerlo. Por ejemplo, un error común es que una carretera comparta un nodo con la esquina de un edificio. Por supuesto, las carreteras no suelen coincidir con los edificios, por lo que se trata de un error, y puede despegar los objetos entre sí.
+
+![Unglue way][]
+
+*La línea y el nodo no aparecerán realmente separados hasta que los muevas.*
 
 Atajos de teclado
 ------------------
 
-Una vez que empiece a editar mucho se dará cuenta que pierde mucho tiempo
-al hacer clic en los menús y submenús. Para superar esto, JOSM tiene atajos de teclado
-para casi todo.
+Cuando empieces a editar mucho te darás cuenta de que pierdes mucho tiempo haciendo clic en los menús y submenús. Para superar esto, JOSM tiene atajos de teclado para casi todo.
 
-Esto significa que en lugar de hacer clic en un objeto y luego pasar por un largo
-menú, puede simplemente seleccionar el objeto y pulsar una tecla del teclado.
+Esto significa que, en lugar de hacer clic en un objeto y pasar por un largo proceso de menú, puede simplemente seleccionar el objeto y pulsar una tecla del teclado.
 
-Todas las herramientas mencionadas en el apartado anterior tienen teclas de acceso directo, que
-aparece en el menú Herramientas a la derecha de cada nombre de la herramienta. Por ejemplo, "O" es el
-acceso directo para alinear los nodos en un círculo. "L" es el atajo para alinearlos en una línea.
-Puede tomar algún tiempo aprender las teclas de acceso directo, pero encontrará que ahorra
+Todas las herramientas mencionadas en la sección anterior tienen teclas de acceso directo, que aparecen en el menú Herramientas a la derecha del nombre de cada herramienta. Por ejemplo, "O" es el
+es el atajo de teclado para alinear los nodos en un círculo. "L" es el atajo para alinearlos en una línea. Puede llevar algún tiempo aprender las teclas de acceso rápido, pero descubrirá que le ahorra
 mucho tiempo a la larga.
 
 Aquí hay otras teclas de acceso directo (en **negrita**), que son algunas de los más importantes.
@@ -156,17 +132,13 @@ Aquí hay otras teclas de acceso directo (en **negrita**), que son algunas de lo
 Escala y Rotación
 ----------------
 
-Una pregunta común es cómo girar una línea o forma después de haberla
-dibujado.
+Una pregunta habitual es cómo girar una línea o forma después de haberla dibujado.
 
-- Para girar un objeto, primero seleccionelo.
-- Mantenta presionado **SHIFT+CTRL** en su teclado.
-- Haga clic y arrastre el ratón para rotar.
+Para girar un objeto, primero selecciónelo. Mantén pulsado **MAYÚSCULA+CTRL** en tu teclado. Haz clic y arrastra el ratón para girar.
 
 ![Rotate demo][]
 
-Para escalar un objeto (para hacerlo más grande o pequeño), siga el mismo
-proceso, pero en cambio mantenga ALT+CTRL.
+Para escalar un objeto (hacerlo más grande o más pequeño), sigue el mismo proceso, pero manteniendo ALT+CTRL en su lugar.
 
 Estas instrucciones se muestran en la barra de información en la parte inferior de JOSM:
 
