@@ -58,7 +58,7 @@ JOSM을 켜고 건물을 그릴 영역을 다운로드하세요.
 
 * 이제 마우스 클릭 두 번만으로 정확히 똑같은 크기의 건물을 그릴 수 있습니다.  
 
-Lastly, you can click on the Advanced button if you would like to add additional tags that will automatically be applied to every building. For example, if every building you draw is on the same street, you might add a tag which identifies the street that will be automatically applied.  
+마지막으로, 고급 버튼을 클릭하면 건물을 그릴 때마다 자동으로 추가되는 태그를 수정할 수 있습니다. 예를 들어, 하나의 도로를 따라서 건물을 그릴 경우에는 **addr:street** 태그를 추가할 수 있습니다.  
 
 ![Buildings advanced][]
 
@@ -66,42 +66,42 @@ Lastly, you can click on the Advanced button if you would like to add additional
 Utilsplugin2
 -------------
 
-* If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+아직 플러그인을 설치하지 않았다면, [JOSM 플러그인](/ko/josm/josm-plugins) 문서를 보면서 플러그인을 설치하세요.  
 
 ![Utilsplugin2 plugin][]
 
-After you have installed the plugin and restarted JOSM, you will have a new menu at the top named "More Tools."  
+플러그인을 설치하고 JOSM을 재시작하면 화면 상단에 '더 많은 도구'라는 메뉴가 새로 보일 것입니다.  
 
 ![More tools menu][]
 
-Create a new layer and experiment with some of the new tools. Here we describe some of the most useful new tools:  
+새로운 레이어를 만들어서 새롭게 추가한 플러그인의 기능을 한번 실험해 보도록 합시다.  
 
-1. **Add Nodes at Intersections:**  This tool is very helpful for adding missing nodes in intersections of selected ways.  It is good practice that roads should always have common nodes where they intersect.  
+1. **교차 지점에 점 추가:**  선택한 선들이 교차하는 지점에 점이 없을 경우에 유용한 기능입니다. 도로가 교차하는 지점에는 항상 공유하는 점을 붙이는 것이 좋은 습관입니다.  
 
     ![Nodes interesection][]
 
-2. **Copy Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
+2. **기존에 선택한 개체의 태그 붙여넣기:**  이 기능을 활용하면 태그를 더 쉽게 붙여넣을 수 있습니다. 만약 동일한 태그를 가지는 개체를 여러 개 그리고 싶으시다면, 먼저 개체를 그린 후 그 중 하나에 태그를 붙여넣으세요.  그러고 나서 나머지 개체를 선택한 후 Shift + R 단축키를 누르면 기존에 선택했던 개체의 태그가 붙여넣어집니다. 기존의 개체에 태그가 없었다면, 붙여넣기가 되지 않는다는 점을 기억하세요.  
 
     ![Copy tags][]
 
-3. **Add Source Tag:** This tool simplifies adding a source tag. It remembers the source that was specified last and adds it as remembered source tag to your objects.   You can insert the source with just one click.  
+3. **출처 태그 추가:** 출처 태그를 손쉽게 붙여주는 도구입니다. 마지막으로 사용한 출처 태그를 기억해 선택한 개체에 클릭 한 번만으로 똑같은 출처 태그를 삽입합니다.  
 
-4. **Replace Geometry:** This tool is great if you want to redraw a poorly shaped object, but want to keep the history, attributes and ID number of that object.  For example, if you come across a building that is complicated and drawn in a poor fashion, then instead of painfully changing each node, you can draw the object again, select the old and new objects, and select ¨Replace Geometry¨ to transfer all the information over.  
+4. **다각형 바꾸기:** 엉망으로 그려진 개체를 다시 그리면서 역사, 속성, ID를 보존하고 싶을 때 유용합니다. 예를 들어, 엉망으로 그려진 건물을 고치는 것보다 아예 새로 그리는 게 낫겠다 싶으면 먼저 새로운 다각형을 그리고, 이전 개체와 새로운 개체를 선택한 뒤, '다각형 바꾸기'를 클릭하면 이전 개체의 정보가 그대로 복사됩니다.  
 
     ![Replace geometry][]
 
 
-### More Selection Tools
+### 더 많은 선택 도구
 
-**Utilsplugin2** also provides more tools on the "Selection" menu. Try experimenting with them.  
+**Utilsplugin2**를 설치하면 '선택' 메뉴에 더 많은 항목이 추가됩니다. 한번 실험해 봅시다.  
 
 ![Selection menu][]
 
-One of our favorite selection tools is **Unselect Nodes:** This tool deselects all nodes. This can be useful if you draw a box to select many objects, but you do not want to select the nodes contained within all the lines and shapes.  
+자주 쓰는 선택 도구 중 하나는 **점 선택 해제**입니다. 이 도구는 말 그대로 선택되어 있는 점을 모두 선택 해제합니다. 여러 개체를 선택하고 싶어서 마우스 드래그로 상자를 그렸는데, 선이나 다각형에 속한 점은 선택하고 싶지 않을 때 유용합니다.  
 
 ![Unselect nodes][]
 
-Good luck!  
+행운을 빕니다!  
 
 
 [Buildings tools plugin]: /images/josm/buildings_tools-plugin.png
