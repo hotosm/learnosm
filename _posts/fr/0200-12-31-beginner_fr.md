@@ -1,7 +1,7 @@
 ---
 layout: doc
 permalink: /fr/beginner/
-lang : fr
+lang: fr
 title: Guide du débutant
 category: beginner
 cover: yes
@@ -9,7 +9,7 @@ nosearch: true
 ---
 
 Guide du débutant
-================
+=================
 
 > Révisé le 12-07-2015  
 
@@ -27,7 +27,9 @@ Si vous souhaitez débuter et être capable d'éditer les données de la carte, 
 
 Le point le plus important est d'apprendre comment est coordonnée la cartographie dans ce contexte.
 - le [guide de la cartographie à distance](/fr/coordination/HOT-Remote-Response-Guide/) et les généralités sur la [cartographie humanitaire](/fr/coordination/humanitarian/) donne quelques informations
-- notre cheval de bataille est le [Gestionnaire de Tâches](/fr/coordination/tasking-manager3/) avec lequel vous devez vous familiariser
+- Le travail principal est effectué au travers du [Tasking Manager](/en/coordination/tm-user/) dont vous devez vous familiariser avec le flux de travail
+
+Si vous êtes un mappeur expérimenté et que vous souhaitez en savoir plus sur la validation, alors un  [section](/en/coordination/tm-user/#validation) dans notre guide Tasking Manager vous explique le processus.
 
 ### Vous voulez utiliser OpenStreetMap sur un appareil mobile ?
 
