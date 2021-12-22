@@ -17,8 +17,7 @@ How to download and install JOSM, the Java OpenStreetMap editor, change some of 
 Download JOSM
 -------------
 
--   If you have a copy of JOSM on a CD or usb flash drive, you can skip to the next section, Install JOSM.
--   If you don’t have JOSM already, or want the newest version, open your web browser - this may be Firefox, Chrome, Opera, or Internet Explorer.
+-   If you don’t have JOSM already, or want the newest version, open your web browser - this may be Firefox, Chrome, Opera, or Edge.
 -   In the address bar at the top of the window, enter the following text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
 -   You can also find the JOSM website by searching the internet for “JOSM”.
 -   The website should look something like this:
