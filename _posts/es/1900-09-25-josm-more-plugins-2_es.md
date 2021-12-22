@@ -2,7 +2,7 @@
 layout: doc
 title: Complemento Opendata - datos de una hoja de cálculo
 permalink: /en/josm/opendata-plugin/
-lang: en
+lang: es
 category: josm
 ---
 
