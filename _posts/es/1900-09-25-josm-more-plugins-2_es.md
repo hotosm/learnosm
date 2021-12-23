@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Complemento Opendata - datos de una hoja de cálculo
-permalink: /en/josm/opendata-plugin/
-lang: en
+permalink: /es/josm/opendata-plugin/
+lang: es
 category: josm
 ---
 
