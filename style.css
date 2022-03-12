@@ -235,6 +235,7 @@ pre {
   padding: 10px;
   margin: 10px 0;
   font-family: monospace;
+  white-space: pre-wrap;
 }
 
 /* footnotes in the google docs */
