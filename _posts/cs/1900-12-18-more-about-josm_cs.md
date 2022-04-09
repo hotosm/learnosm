@@ -9,198 +9,116 @@ category: josm
 Proces editace JOSM
 ========================
 
-> Zkontrolováno 12.7.2015  
 
-V předchozí části jste 
-nainstalovali JOSM a začali kreslit své první body, čáry a tvary.
-Do těchto objektů jste přidali přednastavení, abyste mohli přidat informace o
-nich. Nakonec jste si mohli vytvořit vlastní mapu v JOSM.
+V předchozí části jste nainstalovali JOSM a začali kreslit své první body, čáry a tvary. K těmto objektům jste přidali nastavení, abyste k nim připojili informace. Nakonec jste si mohli vytvořit vlastní mapu v JOSM.
 
 To byla dobrá praxe a teď jsme připraveni upravovat OpenStreetMap.
 
-V této části se blížeji podíváme na rozhraní JOSM a uvidíme
-jak ho můžeme použít k úpravě mapy na OpenStreetMap.
+V této sekci se podrobněji podíváme na rozhraní JOSM a uvidíme, jak jej můžeme použít k úpravě mapy na OpenStreetMap.
 
 Cyklus úpravy
 ---------------------
-Editace OpenStreetMap s JOSM je podobná editaci s iD editorem jak 
-jsme viděli předtím. Ale protože JOSM je desktopová aplikace, funguje trochu
- jinak. Proces editace a přidávání do OpenStreetMap s
-JOSM bude vždy následující:
+Úpravy OpenStreetMap pomocí JOSM jsou podobné úpravám pomocí editoru iD, který jsme viděli dříve. Ale protože JOSM je desktopová aplikace, funguje trochu jinak. Proces úprav a přidání do OpenStreetMap s JOSM bude vždy následující:
 
-1. **Stáhnout** aktuální mapové údaje z OSM
-2. **Upravit** pomocí satelitních snímků, GPS, poznámek a jiných informací
-3. **Uložit** změny do OpenStreetMap
+1. **Stáhnutí** aktuálních mapových dat z OSM
+2. **Úprava** pomocí satelitní fotomapy, GPS, terénních map a poznámek jako pomocných dat
+3. **Uložení** změn na OpenStreetMap
 
 Stažení dat OSM
 --------------------
-Prvním editačním krokem je stahovat data pro oblast světa
-kterou chceme se zlepšit. Nezapomeňte, že to musíte provést pokaždé, když chcete
-udělat změny mapy, protože mapa je často aktualizována jinými uživateli.
+Prvním krokem úpravy je stažení dat pro oblast světa, kterou chceme vylepšit. Nezapomeňte, že to musíte udělat pokaždé, když chcete na mapě provést změny, protože mapu často aktualizují jiní uživatelé.
 
-- Klikněte na "Soubor" v levém horním rohu stránky JOSM a klikněte na "Stáhnout 
-    z OSM". Otevře se okno pro stahování. Můžete přistupovat
-    k tomuto oknu jednoduše kliknutím na tlačítko pro stažení zobrazené
-    zde:
+- Klikněte na „Soubor“ v levém horním rohu JOSM a poté na „Stáhnout z OSM“. Tím se otevře okno stahování. Do tohoto okna se dostanete snadněji kliknutím na tlačítko Stáhnout, které je zde:
 
 ![JOSM Download Button][]
 
-- Po otevření okna pro stahování by se měla zobrazit mapa. Pokud nevidíte mapu, klikněte na kartu označenou
-    “Slippy map”.
+- Když se otevře okno stahování, měla by se zobrazit mapa. Pokud mapu nevidíte, klikněte na kartu označenou „Slippy map“.
 
 ![JOSM Download Dialog][]
 
-- Použijte myš k posunutí a přiblížení na oblast
-    kterou znáte velmi dobře, jako je vaše rodné město, nebo okolí.
-    Ovládací prvky jsou stejné jako v okně mapy JOSM. Pravé tlačítko myši
-    umožňuje posunovat mapu a rolovací kolečko umožňuje přiblížení a
-    oddálení.
+- Pomocí myši posouvejte a přibližujte ji do oblasti, kterou dobře znáte, například do rodného města nebo okolí. Ovládací prvky jsou stejné jako v okně mapy JOSM. Pravým tlačítkem myši můžete přetáhnout mapu a rolovací kolečko umožňuje přibližování a oddalování.
 
-> Někdy, pokud pracujete na přenosném počítači, může být obtížné
-> posunovat a oddalovat mapu. Práce v JOSM je mnohem jednodušší, pokud máte myš,
-> ale většina moderních notebooků umožňuje posouvat pomocí touchpadu.
+> Někdy, pokud pracujete na notebooku, může být obtížné přibližovat se a oddalovat. Práce v JOSM je mnohem jednodušší, pokud máte myš, ale většina moderních notebooků vám umožňuje rolovat pomocí touchpadu.
 
-- Nakreslete rámeček kolem oblasti, kterou chcete stáhnout. Chcete-li nakreslit nový rámeček, klikněte na
-    mapu, držte levé tlačítko myši zmáčknuté a přetáhněte myš k vytvoření
-    rámečku. Uvolněte tlačítko myši a dokončete kreslení rámečku.
-- Pokud jste spokojeni s velikostí a polohou rámečku, klepněte na
-    "Stáhnout" ve spodní části okna. JOSM dostane data pro
-    tuto oblast z OpenStreetMap a otevřete ji v okně mapy k
-    úpravám. 
+- Kolem oblasti, kterou chcete stáhnout, nakreslete rámeček. Chcete-li nakreslit nový rámeček, klikněte na mapu, podržte stisknuté levé tlačítko myši a tažením myši vytvořte rámeček. Uvolněním tlačítka myši kreslení rámečku dokončíte.
+- Jakmile jste spokojeni s velikostí a umístěním schránky, klikněte na tlačítko "Stáhnout" v dolní části okna. JOSM získá data pro tuto oblast z OpenStreetMap a otevře je v okně mapy pro úpravy.
 
 ### Přidat snímky
-Pokud jste sledovali, jak jsme přidali první body s iD editorem,
-pamatujte si, že pod mapovými daty byl satelitní obraz, který pomohl
-identifikovat objekty na zemi. Tato fotografie pocházela od společnosti Microsoft Bing, která
-velkoryse poskytuje své snímky pro uživatele OpenStreetMap, aby se mohly využít při
-přispívání do mapy.
+Pokud jste sledovali, jak jsme přidávali první body pomocí editoru iD, vzpomínáte si, že pod mapovými daty byl satelitní snímek, který nám pomohl identifikovat objekty na zemi. Tento snímek pocházel od společnosti Microsoft Bing, která velkoryse poskytuje své snímky uživatelům OpenStreetMap, aby se na ně mohli při přispívání do mapy odvolávat.
 
-- Pokud chcete přidat satelitní snímky Bing v JOSM, klikněte na "Imagery" v horní nabídce
-    JOSM a vyberte "Bing Sat".
+- Chcete-li do systému JOSM přidat satelitní snímky Bing, klikněte v horním menu systému JOSM na položku "Imagery" a vyberte možnost "Bing Sat".
 
-> Pokud v nabídce Obrázky neobjevíte Bing Sat, možná je budete muset aktivovat
-> v předvolbách JOSM. Přejděte na položku Upravit -> Předvolby a klikněte na ikonu
-> "WMS TMS". Možná budete muset kliknout na šipku dolů a najít ji.
-> <br>
->	![JOSM Preferences up down][]
->	![JOSM Preferences WMS TMS][]
-> <br>
+> Pokud v nabídce Obrázky nevidíte službu Bing Sat, možná ji budete muset aktivovat v předvolbách JOSM. Přejděte do nabídky Upravit -> Předvolby a klikněte na ikonu s nápisem "WMS TMS". Možná budete muset kliknout na šipku dolů, abyste ji našli.
+>
+> ![JOSM Preferences up down][]
+> ![JOSM Preferences WMS TMS][]
+>
 > Klikněte na "Bing Sat". Pak klikněte na tlačítko "Aktivovat".
 
 
 ### Prohlídka JOSM
-Nyní, když jsme stáhli data z OpenStreetMap a přidali satelitní snímky Bing,
- podívejme se ještě jednou na rozhraní JOSM.
+Nyní, když jsme stáhli data OpenStreetMap a přidali satelitní snímky Bing, podívejme se znovu na rozhraní JOSM.
 
 ![JOSM layout][]
 
-Hlavní okno, které již znáte - toto je okno mapy a 
-to je místo, kde se většina akce odehrává. Zde si můžete prohlédnout, upravit a
-přidat nová data do OpenStreetMap.
+Hlavní okno již znáte - je to okno mapy, ve kterém se odehrává většina akce. Zde budete prohlížet, upravovat a přidávat data OpenStreetMap.
 
-Vpravo od okna mapy je řada panelů, z nichž každý má
-vlastní funkci. Typicky při první instalaci JOSM je několik
-panelů zobrazeno ve výchozím nastavení, například Vrstvy, Vlastnosti a
-Výběr. Když na mapě vyberete bod, čáru nebo tvar v mapovém 
-okně, zobrazí se v panelu Výběr. Informace o
-objektu se zobrazí v panelu Vlastnosti a uživatelské jméno
-autora daného objektu se zobrazí v panelu Autoři. 
+Vpravo od okna mapy se nachází řada panelů, z nichž každý má svou vlastní funkci. Při první instalaci JOSM se obvykle ve výchozím nastavení zobrazí několik panelů, například Vrstvy, Vlastnosti a Výběr. Když v mapovém okně vyberete bod, čáru nebo tvar, zobrazí se v panelu Výběr. Informace o objektu se zobrazí v panelu Vlastnosti a uživatelské jméno autora daného objektu se zobrazí v panelu Autoři.
 
-Tyto panely lze otevřít nebo zavřít kliknutím na různá tlačítka na
- dolní levé straně JOSM. Nad těmito tlačítky vpravo nahoře jsou nástroje, které
- mění, co můžete dělat pomocí myši. Jste již s některými z nich obeznámeni,
-např. nástroj Výběr a nástroj Kreslení. Pod nimi jsou nástroje, které usnadňují práci
-přiblížit, smazat objekt, nakreslit tvar nebo vytvořit rovnoběžnou čáru
-k jiné čáře.
+Tyto panely lze otevřít nebo zavřít kliknutím na různá tlačítka v levé dolní části systému JOSM. Nad těmito tlačítky v pravém horním rohu jsou nástroje, které mění možnosti práce s myší. Některé z nich již znáte: nástroj Výběr a nástroj Kreslení. Pod nimi jsou nástroje, které usnadňují přiblížení, odstranění objektu, nakreslení tvaru nebo vytvoření čáry rovnoběžné s jinou čárou.
 
 
 Upravit
 ----
-Takže jsme dokončili první krok v editačním procesu - stahování. Máme
-připravený JOSM se satelitními snímky jako referenci. Dalším krokem je úprava
-mapy a přidání nových položek.
+Tím jsme dokončili první krok procesu úprav - stahování. Připravili jsme JOSM se satelitními snímky jako referencí. Dalším krokem je úprava mapy a přidání nových položek.
 
-V závislosti na oblasti, kterou jste zvolili ke stažení, může být hodně nebo velmi
-málo existujících mapových dat. Všimněte si však, že se jedná o stejný druh dat jako jsme 
-již dříve viděli - body, čáry a tvary, které představují místa v reálném životě.
+V závislosti na oblasti, kterou jste si vybrali ke stažení, může být existujících mapových dat hodně nebo velmi málo. Všimněte si však, že se jedná o stejný druh dat, s jakými jsme se setkali již dříve - body, čáry a tvary, které představují skutečná místa.
 
--Použijte techniky, kterými jste se již naučili přidat na mapu několik bodů
-	na místa, které znáte. Pokud uvidíte nějaké chyby, zkuste je opravit.
-- Nemusíte být příliš agresivní, když se učíte. Pokud si nejste jisti
-	s něčím, co je lepší nechat tak, jak je.
-- Jestliže chcete přesunout bod, čáru nebo tvar, použijte
-    **nástroj výběru**. Klikněte na objekt a přetáhněte jej tam, kde 
-    by měl být. To lze použít k opravě umístění položek které 
-    byly postaveny na špatné místo.
+- Použijte techniky, které jste se již naučili, a přidejte do mapy několik bodů míst, která znáte. Pokud uvidíte nějaké chyby, pokuste se je opravit.
+- Při učení nemusíte být příliš agresivní. Pokud si nejste něčím jisti, je lepší to nechat tak, jak to je.
+- Pokud chcete přesunout bod, čáru nebo tvar, použijte nástroj **výběr**. Klikněte na objekt a přetáhněte jej tam, kde má být. Tento postup lze použít k opravě umístění položek, které byly umístěny na nesprávné místo.
 
 ![JOSM select tool][]
 
-- Použijte **kreslicí nástroj** pro kreslení nových bodů, čar a tvarů.
-    Popište tyto objekty výběrem z nabídky Předvolby, jako jste 
-    dělali v předchozí části. 
+- Pomocí nástroje **kreslení** můžete kreslit nové body, čáry a tvary. Tyto objekty popište výběrem z nabídky Předvolby, stejně jako v předchozí části.
 
-> Nikdy neupravujte mapu mimo oblast, kterou jste si stáhli.  
-> Můžete vidět obdélníkové oblasti, které jste si stáhli. Má hladké pozadí,  
-> zatímco oblast, kterou jste nestahovali, má diagonální zkosené šrafování. 
-> <br>  
+> Nikdy neupravujte mapu mimo oblast, kterou jste si stáhli. Vidíte, že obdélníková oblast, kterou jste stáhli, má jednolité pozadí, zatímco oblast, kterou jste nestáhli, má diagonální pruhované čáry.
+>
 > ![JOSM area downloaded][]
 
 Ukládání změn
 --------------
-Třetím a posledním krokem k dokončení našich úprav je nahrát změny, které máme
-zapsat do databáze OpenStreetMap. Chcete-li změny uložit, musíme
-být připojeni k internetu.
+Třetím a posledním krokem k dokončení úprav je nahrání provedených změn do databáze OpenStreetMap. Abychom mohli změny uložit, musíme být připojeni k internetu.
 
-- V horní nabídce klikněte na "Soubor" a klikněte na "Nahrát data". To
-    otevře okno pro nahrávání. K tomuto oknu můžete přistupovat také 
-    jednoduše kliknutím na tlačítko pro nahrání, které je uvedeno zde:
+- V horní nabídce klikněte na položku "Soubor" a poté na položku "Nahrát data". Tím se otevře okno pro nahrávání. Do tohoto okna se dostanete jednodušeji kliknutím na tlačítko upload, které je zobrazeno zde:
 
-![JOSM Upload Button][]
+    ![JOSM Upload Button][]
 
-- Zobrazené okno zobrazí seznam objektů, které jste
-    přidali a objektů, které jste upravili nebo odstranili. V kolonce na 
-    v dolní části budete požádáni, abyste uvedli komentář o změnách, které 
-    jste udělali. Zadejte tam popis úprav.
+- V zobrazeném okně se zobrazí seznam objektů, které přidáváte, a objektů, které upravujete nebo odstraňujete. V okně v dolní části jste vyzváni, abyste uvedli komentář k prováděným změnám. Zde zadejte popis svých úprav.
 
-![JOSM Upload Dialog][]
+    ![JOSM Upload Dialog][]
 
-- Klikněte na tlačítko Nahrát změny.
+- Klikněte na tlačítko "Nahrát změny".
 
--Jestliže se jedná o první ukládání změn na OpenStreetMap, budete
-    požádáni o své uživatelské jméno a heslo pro OpenStreetMap.
-- Zadejte je do zobrazeného okna. Pokud zaškrtnete políčko
-    v tomto okně, vaše uživatelské jméno a heslo budou uloženy a nebude
-    potřeba do budoucna je znovu vkládat. Klepněte na tlačítko Autentifikovat.
+- Pokud ukládáte změny do OpenStreetMap poprvé, budete požádáni o zadání uživatelského jména a hesla OpenStreetMap.
+- Zadejte je do zobrazeného okna. Pokud v tomto okně zaškrtnete políčko, vaše uživatelské jméno a heslo se uloží a v budoucnu je nebudete muset znovu zadávat. Klikněte na tlačítko "Ověřit".
 
-![JOSM Authenticate][]
+    ![JOSM Authenticate][]
 
-- Budete muset počkat několik vteřin, než se vaše změny nahrají,
-    a pak už jste hotovi! Upravili jste mapu na OpenStreetMap.
+- Musíte počkat několik sekund, než se změny nahrají, a pak je hotovo! Upravili jste mapu na OpenStreetMap.
 
-> Při editaci vždy nezapomeňte nahrát změny dříve, než zavřete  
-> JOSM. Dokonce i když máte ještě další úpravy, nahrajte změny a  
-> pak postupujte v procesu znovu později, když máte čas na úpravu.  
-> Nechcete přeci přijít o práci!
+> Při úpravách se vždy ujistěte, že jste změny nahráli před zavřením JOSM. I když máte ještě další úpravy, nahrajte své změny a později, až budete mít na úpravy čas, projděte celý proces znovu. Nechcete přece o svou práci přijít!
 
 Zobrazit změny na mapě
 ---------------------------
-- Otevřete internetový prohlížeč a přejděte na adresu [http://openstreetmap.org/](http://openstreetmap.org/)
-- Přesuňte mapu na oblast, kterou jste upravili.
-- Měli byste vidět změny, které se nyní zobrazují na mapě! Pokud ne,
-    zkuste stisknutím kláves CTRL + R obnovit webovou stránku. Někdy se mapa
-    neaktualizuje správně a musí být znovu načtena.
-- Co když se vaše změny nezobrazí? Nebojte se - může to trvat jen několik
-    minuty pro změny, které se mají zobrazit na mapě. Zkontrolujte také vaše
-    doplnění do JOSM, abyste se ujistili, že jste je správně přidali. Dobré
-    obecné pravidlo je, pokud má váš bod ikonu v JOSM, pak by to měl být
-    vidět na hlavní mapě na webu OpenStreetMap.
+- Otevřete internetový prohlížeč a přejděte na adresu [http://openstreetmap.org/](http://openstreetmap.org/).
+- Přesuňte mapu do oblasti, kterou jste upravili.
+- Na mapě by se měly objevit vaše změny! Pokud se tak nestane, zkuste stisknout CTRL+R a obnovit webovou stránku. Někdy se mapa neaktualizuje správně a je třeba ji znovu načíst.
+- Co když se vám změny nezobrazí? Nebojte se - může trvat několik minut, než se změny na mapě zobrazí. Zkontrolujte také své doplňky v JOSM, abyste se ujistili, že jste je přidali správně. Dobrým obecným pravidlem je, že pokud má váš bod ikonu v JOSM, měl by být vidět i na hlavní mapě na webu OpenStreetMap.
 
 Shrnutí
 -------
-Nyní, když jste viděli, jak přidat do OpenStreetMap, co bude dál? No, editace
-je skvělá, ale není to jediný aspekt vytváření map. Samozřejmě také vy
-se musíte naučit, jak jít ven a shromažďovat informace o místech v 
-terénu.
+Když už víte, jak přidávat do OpenStreetMap, co dál? No, editace je skvělá, ale není to jediný aspekt tvorby map. Samozřejmě se také musíte naučit, jak chodit ven a sbírat informace o místech v terénu.
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png
