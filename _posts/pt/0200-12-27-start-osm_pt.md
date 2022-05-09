@@ -9,6 +9,7 @@ category: beginner
 Começando com o OpenStreetMap.org
 ====================================
 
+> Revisto em 2015-07-12  
 
 Nesta secção iremos aprender passo a passo como navegar no site do OpenStreetMap, ver mapas e criar uma conta de utilizador. Após ter o seu nome de utilizador e palavra-chave, poderá contribuir com os primeiros pontos no mapa.
 
@@ -17,8 +18,7 @@ Nesta secção iremos aprender passo a passo como navegar no site do OpenStreetM
 Visite o site do OpenStreetMap
 -------------------------------
 
--   Antes de começar, certifique-se que o seu computador está ligado à internet (Se está a ler isto online, então deve estar conectado!)
--   Abra o seu navegador de internet. Os mais comuns são o Firefox, Chrome, Opera, ou o Internet Explorer / Edge. Se já estiver aberto então pode criar uma nova aba.
+-   Abra o seu navegador de internet.
 -   Na barra de endereços no topo da janela, introduza o seguinte endereço e carregue na tecla Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 -   Quando terminar o carregamento da página, deve ver algomo como isto:
@@ -63,12 +63,11 @@ Criar uma Conta no OpenStreetMap
 -   Existem 5 caixas de digitar texto nesta página que tem de preencher para criar uma conta no OpenStreetMap.
 -   Introduza o seu endereço de email nas primeiras 2 caixas. Deve introduzir o mesmo email em ambas. Mais tarde, terá de abrir o seu email para confirmar a sua conta com o OpenStreetMap.
 -   Na terceira caixa introduza o nome de utilizador que gostaria de ter Não poderá escolher um nome de utilizador que já tenha sido registado. Se tentar introduzir algo simples, como o seu primeiro nome, é bastante provável que alguém já o tenha escolhido.
--   Introduza a palavra-chave na quarta e quinta caixas. Deve introduzir a mesma palavra-chave em ambas as caixas. Não tem de ser a mesma palavra-chave utilizada na sua conta de email.
+- Introduz uma nova palavra-passe na quarta e quinta caixas. Deves introduzir a mesma palavra-passa em ambas as caixas. *Não* deves usar uma importante, como a palavra-passe do teu e-mail.
 -   Pode querer escrever o nome de utilizador e a palavra-chave do da conta no OpenStreetMap. Irá precisar delas mais tarde para entrar na sua conta.
 -   Após preencher todas as caixas, clique em "Criar Conta" no fundo da página.
 -   Se surgr aolgum problema, aparece uma mensagem de erro. Verifique se o seu email é o mesmo que o indicado nas 2 primeiras caixas de texto, e que a sua palavra-chave é a mesma em ambas as caixas de texto. Se a terceira caixa estiver destacada a vermelho, significa que outra pessoa já criou uma conta com o nome de utilizador que introduziu e deve tentar escolher outro nome.
--   Abra uma janela ou uma aba adicional no seu navegador de internet e aceda ao seu email. Os emails web mais comuns são [mail.yahoo.com](http://mail.yahoo.com) e [www.gmail.com](http://www.gmail.com).
--   Introduza o seu endereço e a palavra-chave do email para abrir a sua conta de email. Note que __não__são os mesmos dados da sua conta no OpenStreetMap.
+- Confere o teu e-mail.
 -   Se tudo correu bem com a criação da conta, irá ver um email enviado pelo OpenStreetMap na sua caixa de entrada. Deve ser parecido com a imagem abaixo. Clique na hiperligação que aparece abaixo:
 
     ![Confirming your OpenStreetMap account][]

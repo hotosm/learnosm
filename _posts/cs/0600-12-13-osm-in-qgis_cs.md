@@ -9,89 +9,93 @@ category: osm-data
 Využití OSM dat v QGIS
 =================
 
-> Zkontrolováno 19.7.2015
 
 QGIS (dříve Quantum GIS) je plnohodnotný, open-source, geografický informační systém, který funguje napříč platformami. S QGIS můžete přistupovat k aktuálním datům OSM kdykoliv chcete, vyberte značky, které chcete zahrnout a jednoduše je exportujte do snadno použitelné SQLite databáze nebo Shapefile.  
 
-V této kapitole projdeme k tomu potřebnými kroky. Předpokládáme, že jste již stáhli a nainstalovali QGIS 2.x. Pokud jste to ještě neučinili, můžete si jej stáhnout z <http://www.qgis.org/en/site/forusers/download.html>.  
+V této kapitole se seznámíme s kroky, které jsou k tomu potřeba. Předpokládáme, že jste si již stáhli a nainstalovali QGIS 3.x. Pokud jste tak ještě neučinili, můžete si jej stáhnout z adresy <http://www.qgis.org/en/site/forusers/download.html>.  
 
-Než bude možné nahrát naši upravenou aktuální OSM vrstvu do QGIS, musíme si nejdříve stáhnout OSM data v neupraveném **.osm** formátu. Poté data převedeme do SQLite databáze, což je nenáročný databázový systém uložený v jednom souboru ve vašem systému. Nakonec vytvoříme vrstvu (nebo více vrstev), která bude obsahovat pouze typy objektů a značek, ke kterým chceme přistupovat. Tyto vrstvy můžeme v QGIS využít ve stávajícím formátu nebo je uložit do jiného, např. shapefile.  
+K importu dat z databáze OpenStreetMap použijeme zásuvný modul QuickOSM. Chcete-li tento zásuvný modul nainstalovat, otevřete dialog Spravovat zásuvné moduly z nabídky Zásuvné moduly. Vyhledejte QuickOSM a nainstalujte jej. Tím se do nabídky Vektor přidá položka  
 
-Přístup k datům OpenStreetMap
+Získávání dat z databáze
 ---------------------------
 
-První si nachystáme nějaké aktuální OSM data. Jde to několika způsoby. Ziskat data z OSM serveru stejným způsobem, jako jsme to udělali v JOSM editoru nelze, protože množství zdrojových dat ke stažení je omezeno - avšak způsob, jak stáhnout velké množství dat existuje, jak
-jsme si řekli v předchozích kapitolách [Získání dat OSM](/cs/osm-data/getting-data) a [Použití programu Geofabrik a HOT Export](/cs/osm-data/geofabrik-and-hot-export).  
+Nejdříve získáme aktuální data OSM. To můžeme provést mnoha způsoby. Zásuvný modul QuickOSM nám umožňuje získat velké množství dat, protože využívá rozhraní Overpass api, a nikoli hlavní databázový server OSM.
 
-V tomto tutoriálu využijeme vestavěnou funkci QGIS určenou ke stahování.  
+- Otevřete QGIS a přejděte na Vektor -> QuickOSM -> QuickOSM...  
 
-- Spusťte QGIS a jděte do *Vector -> OpenStreetMap -> Download Data...*  
-- Zde si můžete vybrat z několika možností - pokud okno již zobrazuje požadovaný rozsah, zaškrtněte políčko vedle možnosti **From map canvas**. Pokud máte v QGIS vloženou vrstvu se správným rozsahem, zvolte **From layer** a vyberte vrstvu, kterou chcete použít. V našem případě vybereme možnost **Manual** (ručně) a vyplníme zeměpisné šířky a délky, které vytvoří **ohraničující rámeček** kolem oblasti, do které chceme přistupovat. Můžete vyplnit šířky a délky, které vás zajímají, ale nezapomeňte, že oblast nemůže být příliš velká neboť nebudete moci stáhnout všechna data.  
+![quickosm][]
 
-![bounding box][]
+- Zde si můžete vybrat z několika možností - pokud se ve vašem okně již zobrazuje požadovaný rozsah, přepněte kombinované pole, které ve výchozím nastavení zobrazuje "V", na "Rozsah plátna". Pokud máte v QGIS načtenou vrstvu se správným rozsahem, zvolte "Rozsah vrstvy" a vyberte vrstvu, kterou chcete použít. Použití výchozího "In" vyžaduje, aby existoval vztah nebo polygon s tímto názvem. V opačném případě zvolte "Kolem" a uzel s tímto názvem postačí. Kolem tohoto uzlu můžete zvolit obvod (výchozí 1000 m), do kterého se budou načítat data z databáze.
 
-- Zvolte si název a umístění výsledného souboru s příponou **.osm** a potvrďte OK.  
-- Dostanete oznámení, až se stahování dokončí. Dialog zavřete tlačítkem **Close.**  
+- Klikněte na "Spustit dotaz".  
+- Po dokončení stahování budete informováni. Data jsou uložena ve třech dočasných vrstvách, po jedné pro uzly, cesty a polygony.
 
-![download complete][]
-
-- OSM data jsou teď uložena v místě, které jste si vybrali.  
-
-> Tato metoda přístupu k OSM datům je stejná, jako při jejich stahování do JOSM nebo v [openstreetmap.org](http://www.openstreetmap.org). Pro získání většího objemu dat můžete zkusti použít [HOT export site](http://export.hotosm.org) nebo [bbbike.org](http://extract.bbbike.org/). Pamatujte si, že stahujete komprimovaný OSM soubor, nejprve ho bude potřeba rozbalit do formátu **.osm**, než přejdeme na další krok.  
+![quickosm loaded][]
 
 
-Import dat do SQLite
+Importování extrahovaných dat
 ---------------------------
 
-Teď je na řadě import zdrojového **.osm** souboru do souboru SQLite databáze.  
+Existuje několik možností, jak získat hotové výpisy z oblasti. <https://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts> obsahuje seznam několika webových stránek. Stačí si vybrat soubor **.osm** nebo **.pbf** a stáhnout jej. 
 
-- Jděte do *Vector -> OpenStreetMap -> Import Topology from XML...*  
-- Přes první políčko vyberte váš **.osm** soubor.  
-- Název výstupního databázového souboru si můžete změnit.  
-- Políčko u **Create Connection...** nechte zaškrtnuté.  
+K importu můžete použít QuickOSM kliknutím na "OSM File" v levém panelu. Jakmile použijete QuickOSM, soubory OSM by se měly dostat do QGIS a vy můžete použít běžný import vektorových vrstev:
 
-![import dialog][]  
+- Přejděte na Vrstva -> Přidat vrstvu -> Přidat vektorovou vrstvu...  
+- V poli zdroj vyberte svůj soubor a klikněte na tlačítko "Přidat".  
+- Z tohoto souboru můžete vybrat jeden nebo více typů vrstev.  
 
-Potvrďte OK.  
-- Až proces skončí, zavřete okno pomocí **Close**.  
+![import osm][]  
+
+- Po kliknutí na tlačítko "OK" můžete dialog zavřít a v okně QGIS se zobrazí nové vrstvy.  
+  
+
+![import osm loaded][]  
 
 
-Vytváření vrstev
+Exportování dat
 --------------
 
-Nakonec si definujeme vrstvy, které budeme v QGIS využívat, upravené přesně podle našich potřeb.  
+Chcete-li vrstvu exportovat, aktivujte její kontextové menu a vyberte Export -> Uložit funkce jako...
+Můžete si vybrat ze široké škály formátů včetně Shapefile, GeoJSON, PostgreSQL dump, SQLite. Další možnosti v dialogu se liší v závislosti na zvoleném formátu.
 
-- Jděte do *Vector -> OpenStreetMap -> Export Topology to SpatiaLite...*  
-- Do prvního políčka načtěte databázi, kterou jste vytvořili v předcházejícím kroku.  
+![export][]  
 
-![input db file][]  
+Exportovanou vrstvu můžete znovu importovat zaškrtnutím políčka v dolní části (ve výchozím nastavení je aktivováno).
 
-- V **Export type** vyberte typ objektů, pro které vrstvu vytváříte. V našem příkladu vytváříme vrstvu s polygony.  
+Práce s daty
+--------------------
 
-![export type][]  
+Nemůžeme vám poskytnout ani hrubý přehled o tom, co všechno můžete s QGIS dělat, a existuje mnoho vynikajících výukových programů a knih, které vás krok za krokem provedou zvládnutím tohoto softwaru. Protože však data OSM importovaná některou z výše popsaných metod mají své značky zakódované zvláštním způsobem, uvádíme příklad, jak s nimi pracovat (pro zvídavé: příkladem je pitcairn-islands-latest ze stránky Geofabrik ke stažení pro Austrálii a Oceánii). Data vektorové vrstvy můžete zkontrolovat pomocí příkazu "Otevřít atributovou tabulku" z kontextového menu vrstvy, v tomto případě vrstvy multipolygonů.
 
-Jestli chcete, změňte si název vrstvy.  
+![attribute table][]
 
-V poli **Exported tags** se děje to nejdůležitější. Tady si vybereme značky, které chceme zahrnout do naší vrstvy. To nám dává flexibilitu v tom, která data chceme zpřístupnit.  
+Vidíme, že všechny dvojice klíč-hodnota pro značky různých objektů jsou uspořádány ve speciálně formátovaném textovém řetězci v poli "other_tags". Tento způsob ukládání se v databázi PostgreSQL nazývá "hstore" a je standardem pro data OSM.
 
-- Kliknutím na "Load from DB" zobrazíte seznam všech dostupných tagů v databázi. Okno si můžete zvětšit tažením za pravý dolní roh, pokud to pomůže. Můžete vidět všechny značky obsažené v těchto datech a také počet objektů u jednotlivých značek.  
-- Zaškrtněte políčko u značek, které chcete zahrnout. V našem případě vybere ty, které budou užitečné pro polygony reprezentující budovy.  
+V tomto příkladu jsou polygony většinou ostrovy, lesy a budovy. Zpočátku jsou vykresleny stejným způsobem, což znamená, že ostrovy zakrývají vše ostatní. Vykreslíme je jinak, abychom získali představu, jak jednotlivé objekty identifikovat. Zbavte se atributové tabulky. Z kontextového menu vrstvy multipolygonů vyberte Vlastnosti a na tomto formuláři se přesuňte na kartu Symbologie. 
 
-![export full][]  
+![symbology][]
 
-Až budete hotovy, klikněte na OK. Zavřete okno. Vaše vrstva se automaticky přidá.  
+Nejprve změňte typ symbolu z " Jednoduchý symbol" na "Na základě pravidla" pomocí comboboxu v horní části formuláře. 
 
-![cairo polygons][]  
+![symbology rule based][]
 
-Klikněte pravým tlačítkem na vrstvu a vyberte **Open Attribute Table**.  
+Aktuální vykreslení se zobrazí jako pravidlo bez filtrů. Toto pravidlo můžeme upravit kliknutím na ikonu označenou na obrázku výše fialovým čtverečkem.
 
-![open attribute table][]  
+![symbology edit rule][]
 
-Zde vidíte, že máme tabulku, která obsahuje pouze atributy, které jsme vybrali.  
+Rádi bychom se k budovám chovali jinak. Zacházet různě znamená, že je třeba specifikovat pravidla podle vlastností vrstev. Vyhodnocení výrazů v QGIS neumí přímo pracovat s řetězci hstore. Na pomoc nám však přichází utilita a výraz filtru uvedený na obrázku `hstore_to_map(other_tags)['building'] is not NULL` převede řetězec 'other_tags' na mapu klíč-hodnota, kde vybereme hodnotu pro klíč 'building'. Podmínka zní, že hledáme objekty, jejichž klíč building není prázdný. Pro budovy můžeme definovat barvu a styl výplně. Po dokončení návrhu pravidla klikněte na tlačítko 'OK'. Nyní můžete přidávat další pravidla kliknutím na ikonu 'plus' ve spodní části karty Symbologie. Přidáme podobná pravidla pro lesy a travnaté plochy. Nakonec bude naše karta Symbologie vypadat takto:
 
-![attribute table][]  
+![symbology polygon rules][]
 
-Všimněte si, že jsme nevytvořili **pouze** vrstvu budov. Místo toho jsme vytvořili vrstvu, která obsahuje všechny polygony z našich původních dat, ale zahrnuje pouze námi vybrané značky. Aby bylo možné filtrovat tuto vrstvu tak, aby zobrazovala pouze budovy, museli bychom provést dotaz, který filtruje pouze polygony s atributem **building = yes**.
+Jako bonus můžeme získat rychlý počet objektů ke změření. Stiskněte nejpravější ikonu v řádku dole (symbol součtu) a vyplní se sloupec "počet", který nám řekne, že v této vrstvě máme 150 budov.
+
+Popisky můžete přidávat podobným způsobem, jako jsme to dělali se symboly. Další záložka "Štítky" se nachází ve vlastnostech vrstvy, hned pod záložkou Symboly. Ve většině případů chcete vytisknout daný název objektu. Do pole pro filtr zadáte výraz podobný těm, které se používají pro symboliku, a jako hodnotu použijete `hstore_to_map(other_tags)['name']`. 
+
+![labels][]
+
+Přiřazením těchto štítků vrstvám multipolygonu a bodů získáte následující obrázek:
+
+![done][]
 
 
 Shrnutí
@@ -100,12 +104,15 @@ Shrnutí
 Tento proces usnadňuje získání aktuálních OSM dat a jejich stažení do QGIS. Jakmile máte takové vrstvy v QGIS, je možné je uložit jako shapefiles, spouštět filtry, dotazy atd. Podrobnější informace o těchto funkcích naleznete v nabídce Nápovědy v QGIS.  
 
 
-[bounding box]: /images/osm-data/bounding_box.png
-[download complete]: /images/osm-data/download_complete.png
-[import dialog]: /images/osm-data/import_dialog.png
-[input db file]: /images/osm-data/input_db_file.png
-[export type]: /images/osm-data/export_type.png
-[export full]: /images/osm-data/export_full.png
-[cairo polygons]: /images/osm-data/cairo_polygons.png
-[open attribute table]: /images/osm-data/open_attribute_table.png
-[attribute table]: /images/osm-data/attribute_table.png
+[quickosm]: /images/osm-data/qgis-quickosm.png
+[quickosm loaded]: /images/osm-data/qgis-quickosm-loaded.png
+[import osm]: /images/osm-data/qgis-import-osm.png
+[import osm loaded]: /images/osm-data/qgis-import-osm-loaded.png
+[export]: /images/osm-data/qgis-export.png
+[attribute table]: /images/osm-data/qgis-layer-attributes.png
+[symbology]: /images/osm-data/qgis-layer-symbology.png
+[symbology rule based]: /images/osm-data/qgis-layer-symbology-rule.png
+[symbology edit rule]: /images/osm-data/qgis-layer-symbology-edit-rule.png
+[symbology polygon rules]: /images/osm-data/qgis-layer-symbology-poly-rules.png
+[labels]: /images/osm-data/qgis-layer-labels.png
+[done]: /images/osm-data/qgis-complete.png

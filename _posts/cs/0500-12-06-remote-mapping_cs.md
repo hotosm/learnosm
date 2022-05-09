@@ -26,7 +26,7 @@ Vzhledem k rozsahu krizové události přidává společnost HOT potřebné zdro
 
 [HOT Tasking Manager](http://tasks.hotosm.org/) je nástroj s otevřeným zdrojovým kódem určený k rozdělení úlohy mapování na menší úkoly, které lze rychle dokončit. Ukazuje, které oblasti je třeba mapovat a které oblasti potřebují mapování ověřené ostatními. Zahrnuje mapovací úlohy pro [Aktivace](http://wiki.openstreetmap.org/wiki/HOT_activation) a dlouhodobé [Humanitární projekty](http://hot.openstreetmap.org/projects).  
 
-Abyste mohli používat HOT Tasking Manager, musíte se zaregistrovat pomocí OpenStreetMap (OSM) s uživatelským jménem a heslem. Další pokyny si přečtěte na [Tasking Manager Tutorial](http://learnosm.org/cs/coordination/tasking-manager/).  
+Abyste mohli používat HOT Tasking Manager, musíte se zaregistrovat pomocí OpenStreetMap (OSM) s uživatelským jménem a heslem. Další pokyny si přečtěte na [Tasking Manager Tutorial](http://learnosm.org/cs/coordination/tm-user/).  
 
 
 ### Nástroje pro úpravy 
@@ -38,16 +38,18 @@ Abyste mohli používat HOT Tasking Manager, musíte se zaregistrovat pomocí Op
 
 [JOSM](https://josm.openstreetmap.de/) - javovská aplikace vyslovovaná jako "Jaws-um", která vyžaduje stažení aplikace a má větší křivku učení. Přestože nastavení a učení trvá déle, je pro zpracování dalších úprav super rychlé. Pro tento editor se doporučuje používat myš.   
 
-![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
+![JOSM](https://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
 ### Poradenství a slova povzbuzení
 
-> "Chcete-li trénovat, doporučujeme začít s místní oblastí, kterou znáte, a vyzkoušet nějaké úpravy, například aktualizaci místní budovy ve vašem okolí."  
-> "Některé úkoly jsou jednodušší než jiné. Pokud se necítíte na nějakou z nich, jednoduše ji přeskočte a zkuste další!" -Petr (@meetar)  
-> "Není problém, když nedokončíte úkol, stačí nahrát to, co jste udělali, a odemknout úkol, aby ostatní mohli na něm pracovat." -Petr (@meetar)  
-> "Pokud chcete vidět příklady kvalitní práce, která je vzorně zpracovaná, podívejte se na jeden ze zelených "ověřených" úkolů. Nebojte se, když klepnete na tlačítko "Zkontrolovat práci" - to prostě zablokuje úlohu, jako kdybyste ji upravovali. Načtěte ji jako obvykle a po dokončení jednoduše odemkněte úkol." -Petr (@meetar)  
-> "Satelitní snímky jsou někdy obtížně interpretovány, ale nemusíte se příliš bát o kreslení perfektní linky nebo tvaru - vaše práce bude přezkoumána a upravena ostatními a časem zdokonalena. A pamatujte, jsou to krizové oblasti, ne daňové záznamy nebo volební obvody - tyto mapy budou číst lidé, kteří mohou spěchat, v temnotě, nebo v ohrožení. V západní Africe je dokonce i hrubá čára na mapě výrazem naděje. Mnoho objektů v pásmu Gaza, které mají být namapované, jsou již pryč, ale označujeme jejich stavbu. "Přesnost je hezká, ale není to vždy pointa." -Petr (@meetar)  
- 
+> "Chcete-li trénovat, doporučujeme začít s místní oblastí, kterou znáte, a vyzkoušet nějaké úpravy, například aktualizaci místní budovy ve vašem okolí."
+
+> "Některé úkoly jsou jednodušší než jiné. Pokud se necítíte na nějakou z nich, jednoduše ji přeskočte a zkuste další!" -Petr (@meetar)
+
+> "Není problém, když nedokončíte úkol, stačí nahrát to, co jste udělali, a odemknout úkol, aby ostatní mohli na něm pracovat." -Petr (@meetar)
+
+> "Satelitní snímky jsou někdy obtížně interpretovány, ale nemusíte se příliš bát o kreslení perfektní linky nebo tvaru - vaše práce bude přezkoumána a upravena ostatními a časem zdokonalena. A pamatujte, jsou to krizové oblasti, ne daňové záznamy nebo volební obvody - tyto mapy budou číst lidé, kteří mohou spěchat, v temnotě, nebo v ohrožení. V západní Africe je dokonce i hrubá čára na mapě výrazem naděje. Mnoho objektů v pásmu Gaza, které mají být namapované, jsou již pryč, ale označujeme jejich stavbu. "Přesnost je hezká, ale není to vždy pointa." -Petr (@meetar)
+
 ### Jiné zdroje 
 
 Tato příručka byla shrnutá a shromážděna z různých stávajících zdrojů výuky a z pracovní příručky HOT. Další odkazy naleznete níže.  
@@ -58,10 +60,10 @@ Tato příručka byla shrnutá a shromážděna z různých stávajících zdroj
 
 [MapGive's Learn To Map tutoriál](http://mapgive.state.gov/learn-to-map/) - obsahuje videa, která si můžete pozastavit, abyste je mohli prozkoumat  
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - napsal Peter Richardson (@meetar) zkušený dobrovolník HOT Remote Response  
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - napsal Peter Richardson (@meetar) zkušený dobrovolník HOT Remote Response 
 
 #### O HOT 
 
-[HOT Wiki strana](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) - dozvíte se více o tom, jak funguje HOT a i některé z nejnovějších zpráv  
+[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) - dozvíte se více o tom, jak HOT funguje, a o některých novinkách.  
 
-[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities) - podrobněji popisuje činnosti HOT z jejich webových stránek  
+[HOT Activities](https://www.hotosm.org/what-we-do) - podrobněji popisuje činnosti HOT z jejich webových stránek  

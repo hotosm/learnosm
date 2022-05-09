@@ -9,7 +9,6 @@ category: osm-data
 PostgreSQL & PostGIS
 ====================
 
-> Zkontrolováno 2016-09-10
 
 V této kapitole si představíme PostgreSQL ve Windows, vytvoříme si databázi, ve které si můžete uložit geografická data. V této kapitole budeme používat open source GIS software QGIS, takže bylo by dobré, kdybyste se s ním už dříve seznámili. Taktéž si ukážeme, jak importovat OpenStreetMap data do PostgreSQL databáze.  
 
@@ -24,14 +23,14 @@ Zde můžete nalézt instrukce k instalaci pro různé operační systémy. Klik
 Tato stránka vysvětluje, co instalátor provede. Nainstalují se tři různé komponenty:  
 
 * **PostgreSQL server**:  Software databáze, hlavní komponent  
-* **pgAdmin III**: Grafické rozhraní pro správu vaší databáze  
+* **pgAdmin 4**: Grafické rozhraní pro správu databází  
 * **StackBuilder**: Nástroj pro přidávání dalších aplikací; Použijeme ho k přidání PostGIS rozšíření  
 
 Klikněte na **Download**.  
 
 ![postgresql download][]
 
-Zobrazí se vám několik různých variant instalátorů, pro různé verze softwaru PostgreSQL. Stáhněte si nejnovější verzi. V době psaní článku je to verze 9.3.1. Klikněte na tlačítko s nápisem **Win x86-32**. Je to instalátor pro 32-bitovou verzi Windows.  
+Zobrazí se několik různých možností instalátoru pro různé verze softwaru PostgreSQL. Stáhněte si nejnovější verzi pro vaši verzi systému Windows.
 
 ![postgresql version][]
 
@@ -72,14 +71,14 @@ Po dokončení instalace, klikněte na “**Close**” a poté “**Finish**.”
 Vytvoření databáze
 --------------------
 
-Teď, když máme nainstalovaný všechen potřebný software, vytvoříme si databázi. Použijeme k tomu pgAdmin III, což je klient grafické databáze pro dotazování a úpravy
+Nyní, když jsme nainstalovali veškerý potřebný software, vytvoříme databázi. Použijeme program pgAdmin 4, což je grafický databázový klient, který je užitečný pro dotazování a úpravy databází.
 databází.  
 
 ![pgadmin3][]
 
-PgAdmin III je oficiální klient pro PostgreSQL a umožňuje vám využít jazyk SQL k manipulaci s datovými tabulkami. Vytvářet a manipulovat s databázemi je možné i pomocí příkazové řádky, ale tentokrát půjdeme snadnější cestou v podobě pgAdmin III.  
+PgAdmin 4 je oficiální klient pro PostgreSQL a umožňuje používat jazyk SQL k manipulaci s tabulkami dat. Databáze je možné vytvářet a manipulovat s nimi také z příkazového řádku, ale prozatím je pgAdmin 4 snadným způsobem, jak začít.  
 
-Otevřete pgAdmin III. Měl by být ve Start Menu pod Všemi Programy -> PostgreSQL 9.3 -> pgAdmin III.  
+Otevřete pgAdmin 4. Měl by se nacházet v nabídce Start pod položkou Všechny programy -> PostgreSQL 9.3 > pgAdmin 4.  
 
 ![pgadmin3 start][]
 
@@ -101,7 +100,7 @@ Při vytváření databáze je potřeba zadat několik informací: název a vlas
 
 <!-- Under the Definition tab, keep the defaults, but next to Template select template_postgis.  This will create our database with the proper spatial columns. -->
 
-Kliknutím na **OK** vytvoříte databázi. Nově vytvořená databáze se vytvoří v seznamu “**Databases**.” Teď je potřeba spustit příkaz k povolení databáze s PostGIS rozšířením. Klikněte na ![sql button][]{: height="24px"} v horní části PgAdmin III.  
+Kliknutím na tlačítko **OK** vytvoříte databázi. Nyní uvidíte svou databázi v seznamu "**Databáze**". Nyní musíme spustit příkaz pro povolení databáze s rozšířeními PostGIS. Klikněte na ![tlačítko sql][]{: height="24px"} v horní části aplikace PgAdmin 4.  
 
 
 
@@ -118,7 +117,7 @@ Načtení ukázkových dat (nepovinné)
 
 Pokud jste to dosud zvládli v pohodě a rozumíte QGIS, pojďme nahrát nějaká data do naší nové databáze. Uděláme to pomocí nástroje, který převede shapefiles a načte je do databáze.  
 
-Ujistěte se, že máte vybranou vaši novou databázi vlevo v panelu a přejděte do **Plugins -> PostGIS Shapefile and DBF loader 2.1**.
+Ujistěte se, že je v panelu vlevo vybrána nová databáze, a přejděte na **Plugins -> PostGIS Shapefile and DBF loader 2.x**.
 
 ![shapefile loader][]
 

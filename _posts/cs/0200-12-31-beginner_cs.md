@@ -27,7 +27,9 @@ Pokud chcete začít a pak editovat mapová data, doporučujeme vám přečíst 
 
 Hlavním bodem je zjistit, jak je mapování v tomto kontextu koordinováno.
 - [remote mapping guide](/cs/coordination/HOT-Remote-Response-Guide/) a obecné informace o mapování [humanitární pomoci](/cs/coordination/humanitarian/) poskytne nějaké základní informace
-- silným pomocníkem je [Tasking Manager](/cs/coordination/tasking-manager3 /), s jehož pracovním postupem byste se měli seznámit
+- pracovním koněm je [Tasking Manager](/en/coordination/tm-user/), s jehož pracovním postupem byste se měli seznámit.
+
+Pokud jste zkušený mapovač a chcete se o ověřování dozvědět více, pak je tento proces vysvětlen v [sekci](/en/coordination/tm-user/#validation) v našem průvodci Tasking Managerem.
 
 ### Chcete používat OpenStreetMap v mobilních zařízeních?
 
