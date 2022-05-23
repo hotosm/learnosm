@@ -14,7 +14,7 @@ StreetComplete
 
 The app is made specifically for casual contributors and beginners as no prior knowledge about OpenStreetMap (such as tagging schemes) is required to contribute using the app.
 
-You can download it from Google Play Store, Amazon or F-Droid. Release and beta APKs of the app are also available from its GitHub repository.
+You can download it from Google Play Store or F-Droid. Release and beta APKs of the app are also available from its GitHub repository.
 
 The app displays places where data can be added to OpenStreetMap through the app as quest pins on a map. This app lists all question types available in a particular place depending on the already available data on OpenStreetMap.
 
