@@ -38,6 +38,7 @@ See also
 
 - [Project homepage](https://mapswipe.org/en/about.html)
 - [OSM wiki](https://wiki.openstreetmap.org/wiki/MapSwipe)
+- [Creating projects in MapSwipe](https://docs.google.com/presentation/d/1jJ0DVGctD657mVco9E1MIR7F9KLldnhvFMOuFypGitw/edit#slide=id.g50e0d37f6b_0_1)
 - [MapSwipe on YouTube](https://youtu.be/mwRdtnfFcUw)
 
 
