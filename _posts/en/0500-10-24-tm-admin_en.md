@@ -18,11 +18,9 @@ Section Index
 -  [Create a mapping project](/en/coordination/tm-admin/#create-a-mapping-project)
     -  [Define mapping area](/en/coordination/tm-admin/#define-mapping-area)
     -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
+    -  [Advanced: Define tasks with imported data](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-geodata)
     -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
-    -  [Save the project](/en/coordination/tm-admin/#save-the-project)
-    -  [Advanced: Define mapping project areas and tasks with imported geodata](/en/coordination/tm-admin/#advanced:-define-mapping-project-areas-and-tasks-with-imported-geodata)
-    -  [Upload a GeoJSON or KML file of the area of interest to be mapped](/en/coordination/tm-admin/#upload-a-geojson-or-kml-file-of-the-area-of-interest-to-be-mapped)
-    -  [Define arbitrary geometries](/en/coordination/tm-admin/#define-arbitrary-geometries)    
+    -  [Name the project](/en/coordination/tm-admin/#name-the-project)
 -  [Edit a mapping project](/en/coordination/tm-admin/#edit-a-mapping-project)
     -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
     -  [Instructions - what the users should do](/en/coordination/tm-admin/#instructions)
@@ -38,7 +36,7 @@ Section Index
 
 The Tasking Manager is the essential tool to coordinate mapping on OpenStreetMap. It supports humanitarian mapping initiatives, conducting mapathons or creating mapping tasks for students. The application divides an area of interest into manageable geographic chunks that can be completed rapidly and collaboratively. This approach allows the distribution of tasks to many individual mappers, while reducing possible editing conflicts. 
 
-The Software encourages accurate and quality mapping data by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. 
+The software encourages accurate and quality mapping data by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. 
 
 This guide describes the basic administration of the Tasking Manager. It covers instructions to create and modify mapping projects and handling permissions for mapping and review of crowd-sourced data.
 
@@ -48,31 +46,33 @@ In order to login to the Tasking Manager an OpenStreetMap (OSM) account is neede
 
 ## Permissions
 
-The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers
+The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers. 
 
-All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organizaiton mapping projects and teams can be created. An organization could e.g. represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance.
+All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organization mapping projects and teams can be created. An organization could represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance. See [HOT Tasking Manager Organizations](https://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team/HOT_Tasking_Manager_Organizations) for a list of organizations which are present on HOT's Tasking Manager. If your community or organization is not listed there and you'd like to create projects on HOT's Tasking Manager, please complete [this form](http://bit.ly/HOTTasking) to register your interest. 
 
-Every organization has one or more **administrators**. They have the permission to create and modify associated projects. All administration options can be accessed through the `Manage` section in the main navigation.
+Every organization has one or more **managers**. They have the permission to create and modify associated projects. All manager options can be accessed through the `Manage` section in the main navigation.
 
-Administrators of an organization can create **teams**. Teams are groups of users and they can be publicly visible or private. They also have one or more managers. Teams can be set up so that users can join a team on their own or 'invite only', which means that the team managers are notified about requests to join and must decide upon them.
+Managers of an organization can create **teams**. Teams are groups of OpenStreetMap users and they can be publicly visible or private. They also have one or more team managers. Teams can be set up so that users can join a team on their own or 'invite only', which means that the team managers are notified about requests to join and must decide upon them.
 
 For each project, administrators can assign specific teams to grant or restrict access to either mapping, define who can validate the data, or who else is able to edit the project's metadata.
 
 
 ## Create a mapping project
 
-To access the administation section, click on `Manage` in the navigation on the top, In the first row you see a space for 'Projects'. Next to it, click on the `Add` button to create one.
+Click on `Manage` in the navigation on the top, In the first row you see a space for 'Projects'. Next to it, click on the `Add` button to create one.
 
 ![TM Add Project][]
 
 You may choose between defining the area of interest (mapping area) of your mapping project by either:
 
-* Option 1: `Draw` the area of interest on a web map (preferred method)
-* Option 2: `Upload file` to import the area of interest from a geojson, KML or shapefile. This can also include specific task (find more information in the "Advanced project creation" part below)
+* Option 1: `Draw` the area of interest manually
+* Option 2: `Upload file` to import the area of interest as a geojson, KML or zipped shapefile
 
 ![TM New][]
 
 ### Define mapping area
+
+* Option 1: `Draw` the area of interest manually
 
 1. You may switch to other background layers using the buttons on the top. 
 1. Click the `Draw` button on the left.
@@ -80,103 +80,142 @@ You may choose between defining the area of interest (mapping area) of your mapp
 3. Click on your starting point to complete the polygon.
 4. Continue adding nodes with a single mouse click. A double mouse click will finish the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
 
+<br>
+
+* Option 2: `Upload file` to import the area of interest as a geojson, KML or zipped shapefile
+
+1. In the first step of creating a project click on option 2, the ‘Upload file’ button.
+2. Browse to your file in the File Upload window.
+3. Click the file name to highlight the file and then click ‘Open’.
+4. Imported areas of interest cannot be adjusted in Tasking Manager.
+
+You might be uploading a file that already has the tasks (small mapping squares) pre-defined. Find more information about this in the [Define tasks with imported data](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-geodata) section below.
+
+> NOTE: The Tasking Manager has limits! The maximum technical limit for a project is 5,000 km², although to ensure your project doesn't take too long to complete try and keep it under 1,000 km². If you need to map an area larger than this then you will need to create several projects. You'll be able to see the project size in the bottom left hand corner of the preview map. 
+
 ### Define tasks
 
-After the overall mapping area has been defined, it is going be divided into smaller areas called *Tasks*. This tasks must have a good size so they can be completed rapidly and collaboratively, with many people contributing to a collective project goal.
+After the overall mapping area has been defined, it is going be divided into smaller areas called *Tasks*. You must consider your project's task sizes very carefully. Well designed projects have appropriate task sizes, allowing them to be completed as efficiently as possible. 
 
 ![TM Tile Sizes][]
 
-The mapping area is automatically split into grid cells and each cell becomes a task. Use the `Larger` and `Smaller` buttons to adjust the overall size of the task squares.
+The project area is automatically split into grid cells and each cell becomes a task. Use the `Larger` and `Smaller` buttons to adjust the overall size of the task squares. The default task size is likely to be much too large, as you change the task size note the task size listed on the left next to 'The size of each task is approximately ... km²'.
 
-> Use an satellite imagery to determine a good task size is very helpful. You can switch between several background map layers with the buttons on the top of the map. <!-- If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url. -->
+**Task sizes**: Please take your time and set your task sizes very carefully! Try and aim to reduce your task size down to where you think it would take a confident mapper 15 minutes to complete. The optimal task size therefore entirely depends on the feature(s) you are asking mappers to identify and the density of those features. For example, a road mapping project in a rural area would have much larger tasks than a project that involves digitizing buildings in a dense settlement.
 
-After you've adjusted the base grid task size, you can selectively divide certain tasks into four smaller ones with the `Click to split` button. Or you can `Draw area to split`, and it will let you draw a polygon over an area and all tasks within it will be split into four new ones each. The Reset button will remove all of your custom splitting.
+> Zoom in and activate the Bing imagery to determine a good task size. You can switch between several background map layers with the buttons on the top of the map.
 
-**Task sizes**:  Please take your time and define very carefully suitable task sizes! The optimal task size depends heavily on the amount of objects that are requested for being mapped in each task. Tasks sizes in rural areas are usually larger than for mapping projects, which are about digitizing buildings in cities or dense settlement areas. Ideally, try mapping an area of the project yourself to see the challenges and effort to map it. This should help you to decide on an optimum square size.
-
-It is recommended to choose task sizes that you are confident mappers can complete in 15-20 minutes.
+After you've adjusted the overall grid task size, you can selectively split certain tasks into four smaller ones with the `Click to split` button. Or you can `Draw area to split`, and it will let you draw a polygon over an area to split all tasks within. These functions are particularly useful if the density of the feature that you want to map varies across your project area. For example there might be a densely built coastal area which need small tasks and an inland rural area that needs much larger tasks. The Reset button will remove all of your custom splitting.
 
 > Considerations for deciding on task sizes:
+> -  Tasks can be split, but there is no option to re-merge them once a project is created
+> -  Once a project is created, splitting tasks is very time consuming and has to be done one task at a time
+> -  On the edge and corners of tasks, there is always the potential to get in conflict with a neighbouring mapper. Smaller tasks means more corners and edges. There is a trade-off in the size to make it easy for mappers, but to not produce mapping conflicts between them.
+> -  Small tasks are easier to map, but more tasks means more time needs to be spent by mappers updating the status of each, and projects with tasks that are too small can therefore be inefficient.
 > -  Beginner mappers roughly need four times as long as experienced mappers.
 > -  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
-> -  Beginner mappers face challenges tracing a lot similar features such as buildings.
-> -  A square may be split later on, but there is no option to join squares together.
-> -  On the edge and corners of tasks, there is always the potential to get in conflict with a fellow mapper next to you. Smaller tasks means more corners and edges. There is a tradeoff in the size to make it easy for mappers, but to not produce mapping conflicts between them.
 
-After finalizing the definition of task sizes, click `Next`.
+Once you are happy with your task sizes, click `Next`.
+
+### Advanced: Define tasks with imported data
+
+If you uploaded a file to define your project area, that file may also contain the shapes for the individual tasks. For example, a completed project from MapSwipe which focuses on populated areas or a complex grid you have pre-created in QGIS. If that is the case, make sure to enable the 'Set tasks using uploaded polygons' toggle. This will skip straight to the naming stage of project creation. 
+
+![TM New Polys][]
 
 ### Project Area Trim
 
 ![TM Trim][]
 
-After determining the task sizes you will have the option to trim the tasks to the extent of your mapping area. If you simply click on `Trim` then you skip all task squares which do not contain the mapping area
+After determining the task sizes you will have the option to trim the tasks to the extent of your mapping area. You will almost certainly want to do this. Click on `Trim` to remove all task squares which do not overlap your project area. 
 
 ![TM Trim coarse][]
 
-If you check the box about trimming to the exact area before clicking on `Trim` then you obtain arbitrary task shapes at the fringe.
+If you toggle on 'Trim the tasks to define the exact Area of Interest for mapping.' before clicking on `Trim` the overlapping task portions at the edge of your area of interest will be trimmed sharply against your area of interest.
 
 ![TM Trim fine][]
 
-After finalizing a the mapping area trim, click `Next`.
+Trimming sharply may result in some extremely small tasks. These tiny tasks can confuse mappers. You can choose to remove them by selecting `Discard` when you see the message 'There are ... tasks smaller than 2,000m². Would you like to discard them?'
 
+> Take note of the number of tasks that your project has (look in the bottom left hand corner of your map). The maximum technical limit for the number of tasks in one Tasking Manager project is 5,000. However, to ensure your project doesn't take too long to complete, try and keep it under 1,000 tasks - if you need to map a larger area try splitting it into smaller projects. 
 
-### Save the project
+Click `Next`.
 
-Give the project a title (can be edited on the next screen) and click `Create`. First step is done.
+### Name the project
 
-Learn more about how to add descriptions and instructions to the project and get it published to the mappers in our "Edit a mapping project" chapter below.
+A project's name is one of its most important aspects when it comes to being discovered by the wider public. Try and include the name of the country the project is located (e.g. South Sudan), the reason for mapping (e.g. COVID Vaccination) and also the more specific location, maybe the district or settlement name (e.g. Yambio County). For example a full project name might be: _South Sudan, COVID Vaccination, Yambio County_. 
 
-### Advanced: Define mapping project areas and tasks with imported geodata
+Ensure your organization is selected under the 'Organization' field. 
 
-Geospatial desktop applications like JOSM or QGIS allow mappers to more precisely draw the areas of interest, compared to the slippy web map inside the Tasking Manager. You can also determine special task shapes and sizes beforehand.
+> Before completing this stage make sure you are happy with the project's area of interest and the overall number of tasks, these elements cannot be adjusted later on. 
 
-> The Tasking Manager is a web application. Please make sure the file you upload is reduced in its size. You might want to simplify geometries first and cut off too many digits of the coordinates.
-
-**Upload a GeoJSON or KML file of the area of interest to be mapped**
-
-1. In the first step of creating a project click on option 2, the ‘Upload file’ button.
-2. Browse to your file in the File Upload window.
-3. Click the file name to highlight the file and then click ‘Open’.
-4. Imported areas of interest can not be edited.
-
-After uploading a file to the Tasking Manager you can select if you want to define the tasks either as 
-
-1. `Square Grid`, with the functionality described above to define tasks.
-2. `Arbitrary Geometries`, coming from the file you just uploaded. If this is what you want then activate the switch 'Set tasks using uploaded polygons'
-
-![TM New Polys][]
-
-**Define arbitrary geometries**
-
-If you uploaded a file to define your project area, that file may also contain the shapes for the individual tasks. E.g. if the area of interest consists of one polygon, the project will have just one task. This should only be used in special cases and for specific reasons. For example, an import of roads project might need custom task shapes or output from a mapping area reduction process.
+Click `Create`. Your project will be created but it will not publish immediately - you'll be directed to the Edit menu of the project first. 
 
 ## Edit a mapping project
 
-After a project has been initially set up and created, you have to edit its information and settings:
+You'll now see the 'Edit' menu of your project. Before the project can be saved, you'll need to go through the 'Edit' menu carefully to complete setup. Here is a quick summary of the sub-menus you will see on the left hand side:
 
-- Description - Used for display in lists and motivational information for mappers
-- Instructions - Detailed instructions for what and how to map the needed objects/entities/features
-- Metadata - Additional information used for categorizing the Project. Often used in filtering the full list of projects.
-- Imagery - Place to provide a TMS URL and License required.
-- Priority Areas - Allows you to specify parts of the Project that should be mapped first.
+- Description - Set the status, priority and text description associated with your project.
+- Instructions - Detailed instructions for how to map the needed features and approach the project.
+- Metadata - Define the features that need to be mapped. Also includes information used for categorizing projects, used in filtering projects.
+- Priority Areas - Allows you to specify parts within the project area that should be mapped first.
+- Imagery - Choose the imagery that will load by default when volunteers map your project. 
 - Permissions - Allows you restrict access to the project for mapping and validation.
-- Settings - Project due date and JOSM Presets.
-- Actions - Send messages to contributors, validate and invalidate the entire project with one click.
+- Settings - Toggle alternative editors such as RapiD on/off.
+- Actions - Powerful bulk actions you can perform on your project, such as cloning or deleting.
 
-> Filling in this information carefully is an essential part of a successful mapping project. It is very important project objectives and resources are clearly communicated so mappers are aware of specific and important information. Keep in mind, mappers may not have previous experience with OpenStreetMap, and will not be familiar with tagging guidelines.
->  It is advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly.
+> Filling in this information carefully is an essential part of a successful mapping project. It is particularly important that the project description and instructions are clearly communicated so mappers are aware of the importance of data quality and best practice. Keep in mind, contributors may not have previous experience with OpenStreetMap and are unlikely to be familiar with tagging guidelines.
  
 ### Description
 
 ![TM Description][]
 
-This screen allows you to set the project status as Draft, Published, or Archived, priority, a short description used in project listings and the long description available once a mapper has selected the project.
+#### Status
 
-Both the short and long description should provide information about why the project exists, who will use the data and the expected the impact the mapping will have. These fields support Markdown text and can include images and videos.
+First is the project status. This can be set to either Draft, Published, or Archived.
+
+- Draft - Your project will start in draft mode. In this mode it will not be discoverable and it will not be possible for the public to contribute towards it. This is perfect while you are still setting your project up and testing it before release. 
+- Published - When you have completed your project setup, tested it and are happy for it to be publicly listed and open for mapping/validation.
+- Archived - All projects should end up archived. Archived projects are public but locked for contributions. You should consider archiving your project either if:
+  - It is 100% mapped and validated
+  - The instructions or imagery are substantially outdated
+  - The project was created more than a year ago
+  - Map data is no longer needed for humanitarian purposes in the project area
+
+#### Priority
+
+Next is the project priority. This dictates how close to the front of the Tasking Manager the project will be seen in the Explore Projects page. This can be set to either Urgent, High, Medium or Low.
+
+- Urgent - Only set this status if the project is in response to a disaster and the data needs are immediate. Very few projects have this priority level. 
+- High - For projects that are not necessarily in response to a disaster but the data is needed in a short time-frame. 
+- Medium - If the data is needed but not in a particularly short time-frame.
+- Low - If you want to publish your project but not make it particularly public and want to share your project to specific groups using the project URL.
+
+#### Short description
+
+Add at least two sentences that briefly describe your project. This is important because volunteers will read this to decide on whether to contribute. Try and clearly explain why the data is being collected and how the map data will be used. 
+
+> These fields support Markdown text and can include images (drag and drop) and videos (add a YouTube URL for automatic embedding).
+
+#### 'Long' Description
+
+You can go into more detail about your project here. Provide more information about why the project exists, who will use the data and the expected the impact the mapping will have. If the project involves any collaborations or partners you could expand on that here. 
+
+> For any of these text fields you can choose to add additional translations. The default field is in English, if you'd like to add a translation click on the two letter language code and enter the translated text. For users that have set the Tasking Manager to that language it will automatically display the project in that language. 
+
+#### Due date
+
+If you have a date by which you wish your project to be completely mapped and validated you could add that here. This is optional and once the date is exceeded it does not change anything for the project and volunteers can continue contributing afterwards. Contributors will see the due date listed next to the project. 
 
 ### Instructions
 
 ![TM Instructions][]
+
+#### Changeset comment
+
+Here you can add additional tracking tags which will automatically populate each time someone saves their work while mapping your project. For example, if you want to start tracking all contributions across all your organization's projects you might want to add a common tracking tag to them, e.g. #MSF or #cartONG. Please try to keep these tags short and do not add too many of them, cluttered changeset comments are confusing to interpret and space should be left for mappers to leave descriptive changeset comments. 
+
+> Please note that a unique project tracking tag will already be present, e.g. #hotosm-project-11188 - please leave this untouched, it is very important for tracking the progress of the project. The number at the end of the tag is your project's unique ID.
 
 **Entities to Map** - A list of the features you want users to map. Generally the fewer features the better as they are more likely to get completed.
 
@@ -197,6 +236,8 @@ See the below notes on creating good instructions.
 ![TM Metadata][]
 
 > All of these fields should be filled in and will become non-optional in future versions of the Tasking Manager.
+
+>  It is advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly.
 
 **Mapper Level** - This is an indication of the difficulty of the mapping project. There are 3 options Beginner, Intermediate and Advanced. This setting is an indication to the mapper what experience level they should have to be most successful in mapping the project. It can be used in project list filtering and the suggested level can be required in the Permissions screen.
 
