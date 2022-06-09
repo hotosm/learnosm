@@ -77,7 +77,7 @@ To easily search this Glossary, use the search feature within your browser, by h
 
 * An open way ![openwayimage](https://wiki.openstreetmap.org/w/images/thumb/2/2a/Mf_way.svg/20px-Mf_way.svg.png) is way describing a linear feature which does not share a first and last node. Many roads, streams and railway lines are open ways.
 
-### Disaster Response:
+### Disaster Types:
 
 The following list is the nomenclature for **Disaster Types** adopted at HOTOSM for disaster response. It is a direct reference from [ReliefWeb](https://reliefweb.int/taxonomy-descriptions) (with minor amendments)* and is used by the promotors of the GLobal IDEntifier Number ([GLIDE](https://glidenumber.net)) initiative:
  
@@ -107,11 +107,11 @@ The following list is the nomenclature for **Disaster Types** adopted at HOTOSM 
 
 **Other** *(GLIDE hazard code: OT)*: Other is defined as all natural disasters that do not fall into any of the other disaster types. Special situations such as energy crisis, etc.
 
-**Severe Local Storm** *(GLIDE hazard code: ST)*: A severe storm or thunderstorm (GLIDE hazard code: ST) is the result of convection and condensation in the lower atmosphere and the accompanying formation of a cumulonimbus cloud. A severe storm usually comes along with high winds, heavy precipitation (rain, sleet, hail), thunder and lightning.
+**Severe Local Storm** *(GLIDE hazard code: ST)*: A severe storm or thunderstorm is the result of convection and condensation in the lower atmosphere and the accompanying formation of a cumulonimbus cloud. A severe storm usually comes along with high winds, heavy precipitation (rain, sleet, hail), thunder and lightning.
 
-**Snow Avalanche** *(GLIDE hazard code: AV)*: Snow Avalanche (GLIDE hazard code: AV) is defined as mass of snow and ice falling suddenly down a mountain slope and often taking with it earth, rocks and rubble of every description. (CRED EM-DAT)
+**Snow Avalanche** *(GLIDE hazard code: AV)*: Snow Avalanche is defined as mass of snow and ice falling suddenly down a mountain slope and often taking with it earth, rocks and rubble of every description. (CRED EM-DAT)
 
-**Storm Surge** *(GLIDE hazard code: SS)*: Storm Surge (GLIDE hazard code: SS) is defined as the rise of the water level in the sea, an estuary or lake as result of strong wind driving the seawater towards the coast. This so-called wind setup is superimposed on the normal astronomical tide. The mean high water level can be exceeded by five and more metres. The areas threatened by storm surges are coastal lowlands. (CRED EM-DAT)
+**Storm Surge** *(GLIDE hazard code: SS)*: Storm Surge is defined as the rise of the water level in the sea, an estuary or lake as result of strong wind driving the seawater towards the coast. This so-called wind setup is superimposed on the normal astronomical tide. The mean high water level can be exceeded by five and more metres. The areas threatened by storm surges are coastal lowlands. (CRED EM-DAT)
 
 **Technological Disaster** *(GLIDE hazard code: AC)*: Technological disasters are only covered on a very exceptional basis, such as oil/toxic spills and gas explosions, when they have a major humanitarian impact in highly vulnerable countries.
 
@@ -121,7 +121,7 @@ The following list is the nomenclature for **Disaster Types** adopted at HOTOSM 
 
 **Volcano** *(GLIDE hazard code: VO)*: Volcanic eruption with disastrous effects: eruption and emission of gas and ashes, stone falls (pyroclast), flows of lava, etc.
 
-**Wild Fire** *(GLIDE hazard code: WF)*: Wild Fire (GLIDE hazard code: WF) is defined as ny uncontrolled and non-prescribed combustion or burning of plants in a natural setting such as a forest, grassland, brush land or tundra, which consumes the natural fuels and spreads based on environmental conditions (e.g., wind, topography). Wildﬁres can be triggered by lightning or human actions. (CRED EM-DAT)
+**Wild Fire** *(GLIDE hazard code: WF)*: Wild Fire is defined as ny uncontrolled and non-prescribed combustion or burning of plants in a natural setting such as a forest, grassland, brush land or tundra, which consumes the natural fuels and spreads based on environmental conditions (e.g., wind, topography). Wildﬁres can be triggered by lightning or human actions. (CRED EM-DAT)
 
 *Mud Slide to Mudslide and Land Slide to Landslide.
 More information on disaster classification at [CRED EM-DAT](https://www.emdat.be/classification#Geophysical).
