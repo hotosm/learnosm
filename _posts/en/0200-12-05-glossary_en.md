@@ -65,7 +65,7 @@ To easily search this Glossary, use the search feature within your browser, by h
 
 **Stylesheet** : In most instances, it means a text file that's used to determine what features (which roads ?) are displayed, and how (what color should the road be ? Its width ? ) on a map.
 
-**Tag**: Tags describe describe a point, line or polygons. Each tag contains a key and value (written in OSM as 'key=value'). For example, highway=residential and name=Woodland Avenue. Initially mentioned in Learnosm within [iD section](/en/beginner/id-editor/#basic-editing-with-id) A Point, line, or polygon usually have more than one tag on them. Sometimes choosing the right tag is confusing. [Taginfo](https://taginfo.openstreetmap.org/) helps you by showing statistics about which tags are actually in the database, how many people use those tags, where they are used and so on. It also gets information about tags from the wiki and from other places.
+**Tag**: Tags describe a point, line or polygons. Each tag contains a key and value (written in OSM as 'key=value'). For example, highway=residential and name=Woodland Avenue. Initially mentioned in Learnosm within [iD section](/en/beginner/id-editor/#basic-editing-with-id) A Point, line, or polygon usually have more than one tag on them. Sometimes choosing the right tag is confusing. [Taginfo](https://taginfo.openstreetmap.org/) helps you by showing statistics about which tags are actually in the database, how many people use those tags, where they are used and so on. It also gets information about tags from the wiki and from other places.
 
 **TIGER** : A data source from the US Census Bureau that was imported into OSM, in 2007. This is the source for most data in the USA in OSM.
 
