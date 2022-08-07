@@ -18,7 +18,7 @@ Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-
 
 The iD editor is the browser-based OpenStreetMap editor. iD is fast and easy to use, and allows mapping from various data sources such as satellite and aerial imageries, GPS, Field Papers or Mapillary.  
 
-The iD editor is a great way to edit for small and easy changes that don't require the advanced features of JOSM (a more advanced mapping editor). This chapter demonstrates the basics of editing with iD.  
+The iD editor is a great way to edit for small and easy changes that don't require the advanced features of [JOSM](/en/josm/) (a more advanced mapping editor). This chapter demonstrates the basics of editing with iD.  
 
 Starting the iD Editor
 ----------------------
