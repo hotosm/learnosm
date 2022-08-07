@@ -46,9 +46,11 @@ For roads, ***What surface does this piece of road have?***
 
 ![More quests][]
 
-To fill in some of this information, you need to either have prior knowledge about the building, place or be close enough to be able to answer the questions being asked.
+This app is designed to be used by people to map their surroundings.
 
+There is a "Can't say" option, sometimes within the "Other answers..." menu, which allows you to leave a note and attach a photo. This should be used when the object does not match any other option, for example StreetComplete asks about the surface of a footway which does no longer exist. Consider adding photos if possible as it makes fixing notes remotely much easier.
 
+For some objects it is possible to mark that object as not existing anymore within the app, without creating a note.
 
 [Welcome]:          /images/mobile-mapping/streetcomplete-welcome.png
 [Allow]:            /images/mobile-mapping/streetcomplete-allow.png
