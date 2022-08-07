@@ -10,8 +10,6 @@ nosearch: true
 Translators using Transifex - instructions
 ========================
 
-**This guide is still at the draft stage.**  
-
 - TOC
 {:toc}
 
