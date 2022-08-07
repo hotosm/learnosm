@@ -26,11 +26,10 @@ Starting the iD Editor
 -	The iD editor requires an active connection to the Internet.  
 -	Open your Internet browser, and go to the OpenStreetMap website at [http://www.openstreetmap.org](http://www.openstreetmap.org).  
 -	**Login** using your OpenStreetMap account  
--	Pan and zoom the map to the area that you wish to edit. You can pan by holding the left mouse button and dragging the map to your desired area.  
+-	Pan and zoom the map to the area that you wish to edit. You can pan by holding the left mouse button and dragging the map to your desired area. 
 -	Click on the small arrow next to **Edit**. Then click **Edit with iD (in-browser editor)**
+	![image1][]
 -	You can select a default editor in your user preferences (click on your username at the top right corner of your browser, then choose 'My preferences'). This allows you to start the editor by simply clicking on the **Edit** button.
-
-![image1][]
 
 
 iD Editor User Interface
