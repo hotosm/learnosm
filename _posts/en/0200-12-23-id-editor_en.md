@@ -16,7 +16,7 @@ Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-
 - TOC
 {:toc}
 
-The iD is the browser-based OpenStreetMap editor. iD is fast and easy to use, and allows mapping from various data sources such as local knowledge, aerial imageries, GPS, Field Papers or Mapillary.  
+The iD is the browser-based OpenStreetMap editor. iD is fast and easy to use, and allows mapping from various data sources such as local knowledge, aerial imagery, GPS, Field Papers or Mapillary.  
 
 The iD editor is a great way to edit for small and easy changes that don't require the advanced features of [JOSM](/en/josm/) (a more advanced mapping editor). This chapter demonstrates the basics of editing with iD.  
 
@@ -157,7 +157,7 @@ Saving Your Changes
 When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
 ![image36][]  
 
-- Add a short description what and why was changed and click **Save**. "Added houses based on aerial imagery" or "added adddresses based on survey" or "added footbridge based on survey, not yet visible in aerial imagery"
+- Add a short description what you changed and why and then click **Save**. "Added houses based on aerial imagery" or "added adddresses based on survey" or "added footbridge based on survey, not yet visible in aerial imagery"
 
 > If you have edited the same feature (point, way or area) at the same time as another person was editing it, you will receive a warning that your edits cannot be uploaded until you have resolved the **conflicts** - choose whose edits to accept & upload your changes. *Resolving conflicts often involves accepting the other persons edits, in which case you will probably wish to return to the feature in question and edit again (**this time save soon after the edit to try to avoid a conflict again!**).*
 
