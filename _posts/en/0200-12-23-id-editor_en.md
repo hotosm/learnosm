@@ -60,7 +60,7 @@ iD Editor User Interface
 
 Click the **Background settings** button or use the *shortcut key* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+You can **change the background layer** as another aerial imagery may be more detailed, newer or better aligned.  
 
 You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
 ![image17][]   
