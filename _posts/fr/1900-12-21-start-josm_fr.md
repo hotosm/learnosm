@@ -1,6 +1,6 @@
 ---
 layout: doc
-Title: Débuter avec JOSM
+title: Débuter avec JOSM
 permalink: /fr/josm/start-josm/
 lang: fr
 category: josm
@@ -8,259 +8,181 @@ published: true
 ---
 
 Débuter avec JOSM
-=============================  
+=============================
 
-Ce guide peut être téléchargé à [josm_start-josm_fr.odt](/files/josm_start-josm_fr.odt) ou [josm_start-josm_fr.pdf](/files/josm_start-josm_fr.pdf)  
 
-Comment télécharger et installer JOSM, changer les paramètres de l'éditeur Java OpenStreetMap, ouvrir une carte d'exemple et
-apprendre quelques opérations de base du logiciel. Vous vous rappelez dans le
-chapitre d'introduction lorsque nous vous demandions de dessiner une carte de votre ville ou 
-de votre village? Nous allons conclure ce chapitre en redessinant la carte à nouveau, cette
-fois numériquement. Après cela vous devriez avoir une bonne compréhension sur la façon de
-dessiner une carte avec JOSM.
+Comment télécharger et installer JOSM, l'éditeur Java OpenStreetMap, modifier certains des paramètres, ouvrir un exemple de carte et apprendre certaines des opérations de base du logiciel. Vous vous souvenez, dans le chapitre d'introduction, que nous vous avons demandé de dessiner une carte de votre ville ou village ? Nous terminerons ce chapitre en dessinant à nouveau votre cartographe, cette fois-ci numériquement. Après cela, vous devriez avoir une bonne compréhension de la façon de dessiner des cartes dans JOSM.
 
 Télécharger JOSM
 -------------
 
-- Si vous avez une copie de JOSM sur un lecteur de CD ou clé USB, vous pouvez passer à l'étape suivante,
-  Installer JOSM.
-- Si vous ne disposez pas déjà de l'application JOSM, ou que vous voulez la dernière version, ouvrez
-  dans votre navigateur web - ceci peut être Firefox, Chrome, Opera, ou Internet
-  Explorer.
-- Dans la barre d'adresse au sommet du navigateur, entrez le texte suivant
-  et appuyez sur Entrée: [josm.openstreetmap.de](http://josm.openstreetmap.de)
-- Vous pouvez aussi trouver le site web de JOSM en cherchant sur Internet "JOSM".
-Le site devrait ressembler à ceci :
+- Si vous avez une copie de JOSM sur un CD ou une clé USB, vous pouvez passer à la section suivante, Installer JOSM.
+- Si vous n'avez pas encore JOSM, ou si vous voulez la version la plus récente, ouvrez votre navigateur web - il peut s'agir de Firefox, Chrome, Opera ou Internet Explorer.
+- Dans la barre d'adresse située en haut de la fenêtre, saisissez le texte suivant et appuyez sur Entrée : [josm.openstreetmap.de](http://josm.openstreetmap.de)
+- Vous pouvez également trouver le site web du JOSM en cherchant "JOSM" sur Internet.
+- Le site web devrait ressembler à ceci :
 
-  ![JOSM website][]
+    ![JOSM website][]
 
-- Si vous utilisez Windows, cliquez sur le lien «Installeur Windows» pour télécharger JOSM.
+- Si Windows est installé sur votre ordinateur, cliquez sur "Windows Installer" pour télécharger JOSM.
 
-  ![Windows installer][]
+    ![Windows installer][]
 
-Si vous avez un autre système d'exploitation,
-  cliquez sur le lien adéquat. Votre téléchargement devrait
-  démarrer. Dans ce chapitre nous supposerons que vous utilisez Windows,
-  mais les instructions sont similaire pour les autres systèmes d'exploitations.
+- Si vous avez un système d'exploitation différent, cliquez sur le lien correspondant à votre système. Votre téléchargement devrait commencer. Dans ce chapitre, nous supposerons que vous utilisez Windows, mais les instructions sont similaires pour les autres systèmes d'exploitation.
 
 Installer JOSM
 ------------
 
-> Vous pouvez avoir des problèmes pour installer JOSM si Java n'est pas déjà
-> installé sur votre ordinateur. Si vous avez des soucis avec cette partie,
-> essayez de télécharger et installer Java. Vous pouvez le télécharger ici :
->  [http://www.java.com/fr/download/](http://www.java.com/fr/download/)
+> Vous risquez de rencontrer des problèmes lors de l'installation de JOSM si Java n'est pas déjà installé sur votre ordinateur. Si vous rencontrez des problèmes dans cette section, essayez de télécharger et d'installer Java. Vous pouvez le télécharger ici : <http://www.java.com/en/download/>
+>
+> Les utilisateurs de Mac peuvent avoir d'anciennes versions de Java. Veuillez consulter <http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> pour les options pour OSX 10.6 et 10.7.3+
 
-> Les utilisateurs Mac peuvent avoir des versions obsolètes de Java. Voir [http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation) pour les options pour OSX 10.6 et 10.7.3+.
+- Trouvez le fichier d'installation JOSM sur votre ordinateur. Double-cliquez dessus pour commencer l'installation.
+- Cliquez sur 'OK', 'Next', 'I Agree', et 'Install'. Lorsque l'installation est terminée, cliquez sur "Terminer" pour lancer JOSM pour la première fois. Plus tard, lorsque vous voudrez lancer JOSM, vous pourrez le faire en cliquant sur le menu Démarrer dans le coin inférieur gauche de votre ordinateur, puis sur le programme JOSM.
+- Vous verrez peut-être apparaître une fenêtre vous demandant si vous souhaitez mettre à jour le logiciel. Vous n'avez pas besoin de le mettre à jour puisqu'il est nouveau. Appuyez sur le bouton qui dit "Annuler". Si vous ne voulez plus jamais voir ce message, cochez la case en bas avant d'appuyer sur "Annuler".
+- Lorsque le JOSM démarre, il ressemble à quelque chose comme ceci :
 
-- Trouvez le fichier d'installation JOSM que vous avez téléchargé sur votre ordinateur. Double-cliquez pour
-  commencer l'installation.
-- Cliquez sur 'OK', 'Suivant', 'J'accepte', et 'Installer'. Quand l'installation
-   est terminée, cliquez sur 'Terminer' pour lancer JOSM pour la première fois.
-  Plus tard, quand vous voulez lancer JOSM, vous pouvez le faire en cliquant sur le
-  Menu Démarrer dans le coin en bas à gauche de votre ordinateur, et en cliquant
-  sur le programme JOSM.
-- Vous voyez peut-être un pop-up qui vous demande si vous voulez mettre à jour le
-  logiciel. Vous n'avez pas besoin de le mettre à jour puisqu'il est nouveau. Cliquez sur le
-  bouton qui indique “Annuler.”  Si vous ne souhaitez plus voir cela
-  message, cochez la case en bas juste avant d'appuyer sur "Annuler".
-- Lorsque JOSM démarre, voici à quoi cela ressemble :
-
-  ![JOSM splash page][]
+    ![JOSM splash page][]
 
 Les préférences de JOSM
---------------------
+----------------
 
-Il y a de nombreux réglages que vous pouvez personnaliser dans JOSM. 
-Un réglage que vous voudriez changer est la langue. JOSM a
-été traduit dans de nombreuses langues, et vous pourriez préférer
-travailler dans une différente.
+Il existe de nombreux paramètres différents que vous pouvez personnaliser dans JOSM. La langue est l'un des paramètres que vous voudrez peut-être ajuster. JOSM a été traduit dans de nombreuses langues, et vous pouvez préférer travailler dans une autre langue.
 
-- Pour accéder à la fenêtre des Préférences, cliquez sur Éditer -\> Préférences.
+- Pour accéder à la fenêtre des préférences, cliquez sur Edit -> Preferences.
 
-  ![Preferences window][]
+    ![Preferences window][]
 
-- Sur le côté gauche, cliquez sur l'icône qui ressemble à un pot de peinture et
-  un pinceau.
-- En haut de la fenêtre, cliquez sur l'onglet "Apparence".
-- Choisissez votre langue dans la boîte déroulante à côté du mot
-  "Langue".
-  
-  ![Look and feel][]
+- Sur le côté gauche, cliquez sur l'icône qui ressemble à un pot de peinture et à un pinceau.
+- En haut de la fenêtre, cliquez sur l'onglet " Aspect et apparence ".
+- Choisissez votre langue dans la liste déroulante située à côté du mot "Langue".
 
-- Cliquez sur Valider.
-- Vous devez redémarrer JOSM pour sauvegarder vos réglages. Cliquez sur "Fichier" dans le coin en haut à gauche,
-  et cliquez sur "Redémarrer" en bas de ce menu.
+    ![Look and feel][]
+
+- Cliquez sur OK.
+- Vous devez redémarrer JOSM pour enregistrer vos paramètres. Cliquez sur "Fichier" dans le coin supérieur gauche, et cliquez sur "Redémarrer" en bas du menu.
 
 Apprendre les bases du tracé avec JOSM
 -----------------------------
 
-- Maintenant ouvrons un fichier OSM d'exemple que nous allons utiliser pour apprendre les
-  bases pour tracer une carte avec JOSM. Notez que cette carte n'est pas réelle, 
-  c'est a dire que ce n'est pas une vraie carte d'un endroit réel, donc nous n'allons pas l'enregistrer
-  sur OpenStreetMap.
-- Télécharger le fichier ici : [sample.osm](/files/sample.osm)
-- Ouvrons maintenant le fichier d'exemple dans JOSM, Cliquez sur le
-  bouton “Ouvrir” en haut à gauche.
+- Ouvrons maintenant un exemple de fichier OSM que nous utiliserons pour apprendre les méthodes de base pour dessiner des cartes avec JOSM. Notez que cette carte n'est pas réelle, en ce sens qu'il ne s'agit pas d'une carte réelle d'un lieu réel, nous ne la sauvegarderons donc pas sur OpenStreetMap.
+-   Téléchargez le fichier ici : [sample.osm](/files/sample.osm)
+- Ouvrons maintenant le fichier de la carte type dans JOSM. Cliquez sur le bouton "Ouvrir" en haut à gauche.
 
-  ![Open file][]
+    ![Open file][]
 
-- Trouvez le fichier **sample.osm**. Il se trouvre probablement dans votre dossier "Téléchargement",
-  sauf si vous l'avez enregistrer ailleurs. Sélectionnez le, et cliquez sur “Ouvrir”.
-- Vous devriez maintenant voir une carte d'exemple qui ressemble à ça :
+- Trouvez le fichier **sample.osm**. Il se trouve probablement dans votre dossier Téléchargements, à moins que vous ne l'ayez enregistré ailleurs. Cliquez dessus, puis cliquez sur "Ouvrir".
+- Vous devriez maintenant voir un exemple de carte qui ressemble à ceci :
 
-  ![Sample file][]
+    ![Sample file][]
 
-- Vous allez utiliser ces données pour essayer plusieurs techniques d’édition.
-  *Il est cependant très important que vous n'envoyez pas ces données fictives vers la base de donnée OSM.*
+- Vous utiliserez ces données pour essayer différentes techniques d'édition. Vous ne devez cependant jamais télécharger ces données fictives dans la base de données.
 
 ### Opérations de base
 
-- Pour déplacer la carte vers la gauche, la droite, le haut ou le bas, garder le bouton droit
-  de votre souris enfoncé et déplacez votre souris.
-- Il y a plusieurs moyens de zoomer et dézommer la carte. Si vous avez une
-  souris, vous pouvez utiliser la molette pour zoomer et dézoomer. Si vous
-  utilisez un ordinateur portable et n'avez pas de souris, vous pouvez utiliser
-  la barre d’échelle qui se trouve dans le coin en haut a gauche de la carte. Faites glisser la barre vers la gauche
-  ou la droite en maintenant le bouton gauche de votre souris appuyé et en déplaçant la barre vers la gauche ou
-  la droite avec votre souris.
+- Pour déplacer la carte vers la gauche ou la droite, le haut ou le bas, maintenez le bouton droit de la souris enfoncé et déplacez votre souris.
+- Il existe plusieurs façons d'effectuer un zoom avant ou arrière sur la carte. Si vous avez une souris, vous pouvez utiliser la molette de défilement pour effectuer un zoom avant et arrière. Si vous utilisez un ordinateur portable et que vous n'avez pas de souris, vous pouvez effectuer un zoom avant et arrière en utilisant la barre d'échelle située dans le coin supérieur gauche de la fenêtre de la carte. Faites glisser la barre vers la gauche et la droite en maintenant le bouton gauche de votre souris enfoncé et en déplaçant la barre vers la gauche ou la droite avec votre souris.
 
-  ![Scale bar][]
+    ![Scale bar][]
 
-- Regardez la carte d'exemple. Il y a quelques types d'objets différents.
-  Il y a une rivière, une forêt, quelques bâtiments, plusieurs routes et
-  deux commerces. Pour sélectionner un objet, cliquez dessus avec le bouton gauche
-  de votre souris.
+- Regardez la carte d'exemple. Il y a plusieurs types d'objets différents. Il y a une rivière, une forêt, quelques bâtiments, plusieurs routes et quelques magasins. Pour sélectionner un objet, cliquez dessus avec le bouton gauche de votre souris.
 
 ### Points, lignes et polygones
 
-- Lorsque vous cliquez sur des objets differents sur le carte d'exemple, notez qu'il y
-  a 3 types d'objets différents sur la carte. Il y a des nœuds,
-  des chemins et des polygones.
-- Les nœuds représentent un seul emplacement par des symboles. Sur cette carte d'exemple,
-  il y a deux nœud, une boutique de chaussure et un supermarché. La
-  boutique de chaussure est représentée par un symbole de chaussure, et le supermarché est
-  représenté par un chariot.
-- Il y a aussi différents chemins sur la carte qui représentent des routes.
-  Si vous y regardez de plus près, vous verrez que les chemins sont composés de
-  nœuds eux aussi. Ces nœuds n'ont pas de symbole ou d'autre
-  information associées a eux, mais ils aident a définir ou les
-  chemins sont localisés.
-- Enfin, il y a de nombreux polygones sur la carte d'exemple, representant
-  des lieux - une forêt, une rivière, un parc, des bâtiments. Un polygone
-  est utilisé pour représenter une surface, telle qu'un champs ou un bâtiment. Un polygone est
-  exactement comme un chemin - la seule différence est que le chemin commence au
-  même nœud où il se termine.
+- En cliquant sur les différents objets de la carte, vous remarquerez qu'il existe trois types d'objets différents sur la carte. Il y a les points, les lignes et les polygones.
+- Les points sont un emplacement unique, représenté par des symboles. Sur cet exemple de carte, il y a deux points, un magasin de chaussures et un supermarché. Le magasin de chaussures est représenté par un symbole de chaussure, et le marché est représenté par un chariot.
+- Il y a également plusieurs lignes sur la carte, qui représentent des routes. Si vous regardez attentivement, vous verrez qu'à l'intérieur des lignes, il y a également des points. Ces points ne sont associés à aucun symbole ou autre information, mais ils aident à définir l'emplacement de la ligne.
+- Enfin, il y a de nombreuses polygones sur la carte modèle, qui représentent différents lieux - une forêt, une rivière, un parc et des bâtiments. Une polygone est utilisée pour représenter une zone, comme un champ ou un bâtiment. Une polygone est exactement comme une ligne - la seule différence est que la polygone commence au même point où elle se termine.
 
--   Vous avez peut-être remarqué la fenêtre «Attributs» qui apparaît sur la
-    droite quand vous sélectionnez un objet. Celle-ci liste ce qu'on appelle les
-    tags. Les tags sont associés un point, une ligne ou un polygone, et
-    permettent de les définir. Nous en apprendrons un peu plus sur les tags dans
-    le chapitre 7, «Édition avancée avec JOSM». Pour le moment, retenez que
-    les tags servent à déterminer si un objet est une forêt, une rivière, un
-    bâtiment, ou autre chose.
--   Pensez au cartes dessinées à la main, est-ce qu'on utilise pas là aussi
-    des points, des lignes et des polygones ? Quels lieux peuvent être
-    représentés par des points ? par des lignes ? par des polygones ?
+> Il est facile d'imaginer qu'une carte contient ces trois types d'objets de base -
+> points, lignes et polygones. Dans OpenStreetMap, il existe une terminologie spéciale
+> que vous apprendrez au fur et à mesure de votre progression. Dans OSM, les points sont en fait appelés
+> **nœuds**, et les lignes sont appelées **voies**. Une polygone est appelée une **voie fermée**
+> car c'est juste une ligne qui se termine au même endroit où elle commence.
+
+- Vous remarquerez peut-être que lorsque vous sélectionnez un objet, une liste apparaît à droite de la carte dans une fenêtre appelée "Propriétés". Il s'agit de balises. Les balises sont des informations liées à un point, une ligne ou un polygone qui décrivent ce qu'ils sont. Nous en apprendrons davantage sur les balises dans un chapitre ultérieur. Pour l'instant, tout ce que vous devez savoir, c'est que ces informations permettent de déterminer si notre objet est une forêt, une rivière, un bâtiment ou autre chose.
+- Pensez au fait que vous dessinez une carte à la main et que vous dessinez également des points, des lignes et des polygones. Quels autres endroits sont mieux représentés par des points ? Des lignes ? Des polygones ?
 
 ### Modifier les objets
 
--   Sélectionnez la forêt qui est sur la gauche de la carte. Faites bien
-    attention de cliquer sur la ligne qui entoure la forêt, et pas sur un des
-    points qui la constituent. En maintenant votre clic droit enfoncé et en
-    déplaçant votre souris, vous devriez être capable de changer la forêt de
-    position.
--   Cliquez maintenant sur un des points constituant le polygone de la forêt.
-    À l'aide de votre souris, en maintenant le clic gauche enfoncé, vous devriez
-    pouvoir déplacer ce point. C'est la façon de faire si vous avez besoin de
-    changer la forme d'un polygone, ou tout simplement pour changer la position
-    d'un point.
+- Sélectionnez la forêt sur le côté gauche de la carte. Veillez à cliquer sur la ligne qui entoure la forêt, et non sur l'un des points de la ligne. Maintenez maintenant le bouton gauche de votre souris enfoncé et faites glisser votre souris. Vous devriez être en mesure de déplacer la forêt vers un nouvel emplacement sur la carte.
+- Cliquez sur l'un des points de la ligne qui entoure la forêt. Maintenez le bouton gauche de votre souris enfoncé et faites glisser votre souris. Vous devriez être en mesure de déplacer le point. C'est ainsi que vous pouvez modifier la forme d'un objet ou déplacer un point.
 
 ### Tracer
 
-Tout à gauche de la fenêtre de JOSM, il y a une barre d'outils. Une partie
-de ces boutons permettent d'ouvrir des fenêtres à droite qui affichent des
-informations supplémentaires sur la carte. Mais les boutons qui nous
-intéressent pour le moment sont en haut de cette barre d'outils. Ces boutons
-permettent de définir ce que vous pouvez faire avec votre souris.
+- Sur le côté gauche de JOSM se trouve une colonne de boutons. Plusieurs de ces boutons ouvrent de nouvelles fenêtres sur le côté droit qui fournissent plus d'informations sur la carte. Les boutons les plus importants, cependant, se trouvent en haut de cette colonne. Ces boutons modifient ce que vous pouvez faire avec votre souris.
+- Les boutons du haut de cette colonne sont ceux que vous utiliserez le plus. Ils permettent de sélectionner des objets et d'en dessiner de nouveaux.
+- Jusqu'à présent, vous avez utilisé l'outil Sélectionner, qui ressemble à ceci :
 
-Les quatre boutons du haut sont les plus importants. Ils vous permettent de:
+    ![Select tool][]
 
--   Sélectionner
--   Tracer
--   Zoomer
--   Effacer
+- Avant de dessiner, vous devez vous assurer que rien n'est sélectionné. Cliquez dans l'espace noir de la carte, là où il est vide, pour vous assurer que rien n'est sélectionné.
+- Cliquez sur le deuxième bouton, l'outil Dessin.
 
--   Jusqu'à présent, vous avez utilisé l'outil de sélection, qui ressemble à
-    ceci:
+    ![Draw tool][]
 
-    ![]({{site.baseurl}}/images/start_josm_image00_en.png)
-
--   Avant de commencer à tracer, assurez-vous que rien n'est sélectionné. Pour
-    cela, toujours avec l'outil de sélection, cliquez dans une zone vide de la
-    carte.
--   Vous pouvez maintenant cliquer sur le deuxième bouton, celui pour tracer.
-
-    ![]({{site.baseurl}}/images/start_josm_image10_en.png)
-
--   Dans une zone vide de la carte, double-cliquez avec le bouton gauche de
-    votre souris. Vous venez de créer un point.
--   Pour tracer une ligne, faites un simple clic avec votre souris. Déplacez
-    votre souris et cliquez de nouveau. Continuez jusqu'à que vous ayez obtenu
-    le résultat souhaité. Pour finir la ligne, double-cliquez avec votre souris.
--   Le procédé est le même pour tracer un polygone, mais vous devez finir le
-    polygone en double-cliquant sur le premier point de la ligne.
+- Trouvez une zone vide sur la carte, et double-cliquez avec votre souris. Vous dessinerez ainsi un point unique.
+- Pour dessiner une ligne, cliquez une seule fois avec votre souris. Déplacez votre souris et cliquez à nouveau. Continuez jusqu'à ce que vous soyez satisfait de votre ligne. Pour terminer la ligne, double-cliquez sur votre souris.
+- Dessinez une forme de la même manière que vous dessinez une ligne, mais terminez la forme en double-cliquant sur le point où vous avez commencé la ligne.
 
 ### Utiliser les modèles d'attributs
 
-Nous savons désormais comment tracer des points, des lignes et des polygones,
-mais pour l'instant nous n'avons pas défini ce qu'ils représentent. Nous voulons
-être capable de dire qu'un point est une boutique, une école, ou autre chose, et
-de même si nos polygones sont des champs, des bâtiments, ou autre chose.
+- Nous savons maintenant comment dessiner des points, des lignes et des surfaces, mais nous n'avons toujours pas défini ce qu'ils représentent. Nous voulons être capables de dire que nos points sont des magasins, des écoles ou autre chose, et que nos surfaces sont des champs, des bâtiments ou autre chose.
+- Cliquez sur l'outil de sélection, dans la colonne des boutons à gauche.
 
--   Dans la barre d'outils à gauche, cliquez de nouveau sur l'outil de
-    sélection.
+    ![Select tool][]
 
-    ![]({{site.baseurl}}/images/start_josm_image00_en.png)
-
--   Sélectionnez un des objets que vous venez de tracer. Dans le menu du haut,
-    cliquez sur «Attributs». Déplacer votre souris dans les sous-menus jusqu'à
-    trouver le type de lieu que vous souhaitez.
--   Après avoir sélectionné un modèle d'attributs, une fenêtre devrait s'ouvrir
-    pour vous permettre d'ajouter des informations. Tous les champs ne sont pas
-    obligatoires, mais vous voudrez certainement ajouter les plus importants,
-    par exemple le nom de votre lieu.
--   Quand vous avez renseigné toutes les informations voulues, appuyer sur
-    «Appliquer les attributs». Si tout s'est bien passé, votre point, ligne ou
-    polygone devrait changer de couleur ou afficher un symbole. C'est parce que
-    vous avez maintenant défini de quoi il s'agit.
+- Sélectionnez l'un des objets que vous avez dessinés avec l'outil Dessin. Dans le menu supérieur, cliquez sur "Préréglages". Déplacez votre souris dans le sous-menu jusqu'au type d'emplacement que vous souhaitez définir.
+- Lorsque vous cliquez sur un préréglage, un formulaire s'affiche pour vous demander des informations complémentaires. Vous n'êtes pas obligé de remplir tous les champs, mais vous pouvez ajouter certains des champs importants, comme le nom de l'objet.
+- Lorsque vous avez fini de saisir les informations, cliquez sur "Appliquer le préréglage". Si tout s'est bien passé, votre point, ligne ou figure devrait changer de couleur ou afficher un symbole. C'est parce que vous avez défini ce qu'il est.
 
 Dessiner votre propre carte
-------------------
+-----------------
 
-Maintenant dessinons une carte histoire de pratiquer les techniques que vous avez
-  apprises. Vous souhaitez sans doute redessiner la carte précédemment dessinée sur papier.
--   À l'aide du bouton droit de votre souris, déplacez-vous dans une zone de la
-    carte totalement vide.
--   Utilisé l'outil de tracé pour créer des points, des lignes et des polygones.
-    N'oubliez pas de définir les objets en utilisant le menu «Attributs».
--   Quand vous aurez fini, vous devriez avoir une carte similaire à celle que
-    nous avons chargée avec le fichier «sample.osm».
+- Maintenant, dessinons une carte afin de mettre en pratique les techniques que vous avez apprises. Vous pouvez redessiner la carte que vous avez dessinée sur papier précédemment.
+- Faites glisser la carte pour l'éloigner du modèle de carte. Maintenez le bouton droit de la souris enfoncé et faites glisser votre souris jusqu'à ce que vous ayez une belle zone vide sur laquelle dessiner.
+- Utilisez l'outil Dessin pour créer des points, des lignes et des formes. Décrivez vos objets en les sélectionnant dans le menu Presets.
+- Lorsque vous aurez terminé, vous devriez avoir votre propre carte, semblable à la carte type que nous avons ouverte dans sample.osm.
+
+Retirer la couche d'échantillon
+-----------------------
+
+Une fois que vous vous sentirez à l'aise avec ces techniques d'édition de base, vous voudrez peut-être
+vous intéresser à la cartographie d'éléments réels.
+
+_Il est très important que vous supprimiez d'abord la couche contenant les données échantillons.
+Ces données sont fictives et ne doivent pas être téléchargées sur le site OpenStreetMap
+(les versions plus récentes de JOSM empêchent automatiquement cela)._
+
+Dans la fenêtre des couches, en haut à droite de l'écran, sélectionnez la couche sample.osm.
+Cliquez ensuite sur l'icône de la corbeille dans le coin inférieur droit de cette fenêtre.
+Vous pouvez également choisir de supprimer dans le menu contextuel de la couche.
+Afin de poursuivre l'édition, vous devez d'abord télécharger des données réelles.
+Cela sera expliqué dans le chapitre suivant.
 
 En résumé
----------
+-------
 
 Excellent ! Si tout s'est bien passé, vous avez appris comment mettre en place JOSM sur votre
 ordinateur, et les outils de base pour dessiner des cartes. Dans le prochain chapitre nous allons
 regarder de plus près le processus d'édition de la carte OSM avec JOSM.
 
-[JOSM website]: /images/josm/josm-website.png
-[Windows installer]: /images/josm/windows-installer.png
-[JOSM splash page]: /images/josm/josm-splash-page.png
-[Preferences window]: /images/josm/josm_preferences.png
-[Look and feel]: /images/josm/josm_look-and-feel.png
-[Open file]: /images/josm/josm_open-file.png
-[Sample file]: /images/josm/josm_sample-file.png
-[Scale bar]: /images/josm/josm_scale-bar.png
-[Select tool]: /images/josm/josm_select-tool.png
-[Draw tool]: /images/josm/josm_draw-tool.png
+[josm website]: /images/josm/josm-website.png
+
+[windows installer]: /images/josm/windows-installer.png
+
+[josm splash page]: /images/josm/josm-splash-page.png
+
+[preferences window]: /images/josm/josm_preferences.png
+
+[look and feel]: /images/josm/josm_look-and-feel.png
+
+[open file]: /images/josm/josm_open-file.png
+
+[sample file]: /images/josm/josm_sample-file.png
+
+[scale bar]: /images/josm/josm_scale-bar.png
+
+[select tool]: /images/josm/josm_select-tool.png
+
+[draw tool]: /images/josm/josm_draw-tool.png

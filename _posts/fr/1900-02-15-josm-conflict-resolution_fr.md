@@ -130,82 +130,82 @@ devez résoudre les différences dans la liste de
 [voies](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). Il 
 y a trois colonnes dans le panneau respectif (voir la capture d'écran ci-dessous) :
 
-1.  the leftmost table displays the list of nodes of the the local
-    object version
-2.  the rightmost table displays the list of nodes of the the server
-    object version
-3.  the table in the middle shows the list of nodes of the merged ways
+1. le tableau le plus à gauche affiche la liste des noeuds du réseau local
+    version de l'objet
+2. Le tableau le plus à droite affiche la liste des nœuds du serveur
+    version de l'objet
+3. le tableau au milieu montre la liste des nœuds des chemins fusionnés
 
-Initially, the middle table is empty. You should now decide which nodes
-to keep from the local dataset (the leftmost table) and which from the
-server dataset (the rightmost table).
+Initialement, la table du milieu est vide. Vous devez maintenant décider quels noeuds
+conserver dans l'ensemble de données local (le tableau le plus à gauche) et à conserver dans l'ensemble de données du
+serveur (le tableau le plus à droite).
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image24.png)
 
-### The standard workflow
+### Le processus standard
 
-The standard workflow to resolve conflicts in the node lists of two
-[object
-versions](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)consists
-of three steps:
+Le processus standard pour résoudre les conflits dans les listes de noeuds de deux
+[objet
+versions](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)consiste
+en trois étapes :
 
-1.  Pick nodes from either object version and reorder the resulting node
-    list if necessary
-2.  Freezethe resulting merged node list by clicking on the button
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). When you freeze the merged node list you
-    tell JOSM that all conflicts in the node list are resolved.
-3.  Apply the resolution
+1. Choisissez les nœuds dans l'une ou l'autre version de l'objet et réorganisez la liste de nœuds résultante
+    si nécessaire
+2. Figez la liste des nœuds fusionnés résultants en cliquant sur le bouton
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). Lorsque vous figez la liste des nœuds fusionnés, vous
+    indiquez à JOSM que tous les conflits dans la liste des nœuds sont résolus.
+3. Appliquer la résolution
 
-### A simple workflow: Keep the node list from your local object version
+### Un flux de travail simple : Conservez la liste des nœuds de votre version locale de l'objet
 
-The following example shows the workflow when you decide to keep all nodes in the same order from your local object version.
+L'exemple suivant montre le flux de travail lorsque vous décidez de conserver tous les nœuds dans le même ordre à partir de votre version locale de l'objet.
 
--   First, select all elements in the leftmost table (either using the mouse or by 
-    pressing Ctrl-A in the table) (see next screen shot):
+- Tout d'abord, sélectionnez tous les éléments dans le tableau le plus à gauche (soit à l'aide de la souris ou par 
+    en appuyant sur Ctrl-A dans le tableau) (voir la capture d'écran suivante) :
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image04.png)
 
--   Then, click 
+- Ensuite, cliquez 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image19.png)
-    to copy the selected nodes to the middle table with the merged nodes:
+    pour copier les noeuds sélectionnés dans la table centrale avec les noeuds fusionnés :
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image01.png)
 
--   Finally, click
+- Enfin, cliquez
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png)
-    to freeze the resulting merged node list:
+    pour figer la liste de nœuds fusionnés qui en résulte :
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image20.png)
 
-    The symbol in the nodes tab now switched to 
+    Le symbole dans l'onglet "nœuds" est maintenant changé en 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image00.png)
-    and you can apply the merge decisions.
+    et vous pouvez appliquer les décisions de fusion.
 
-### Support for comparing node lists
+### Support pour la comparaison des listes de noeuds
 
-It can be difficult to find the differences between the node list of of two object versions, in particular for ways with many nodes.
+Il peut être difficile de trouver les différences entre la liste de nœuds de deux versions d'objets, en particulier pour les voies comportant de nombreux nœuds.
 
-The Conflict Dialog supports you in finding the differences. It can compare two of the node lists displayed ("my" node list, the merged node list, and "their" node list) and it can render the differences between them with specific background colors.
+La boîte de dialogue de conflit vous aide à trouver les différences. Elle peut comparer deux des listes de nœuds affichées (ma liste de nœuds, la liste de nœuds fusionnés et leur liste de nœuds) et peut rendre les différences entre elles avec des couleurs de fond spécifiques.
 
-From the following combo box you can select which pair of node lists to compare:
+Dans la boîte combo suivante, vous pouvez sélectionner la paire de listes de nœuds à comparer :
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image15.png)
 
-1.  My with Their: compares the leftmost table with the rightmost table
-    in the Conflict Dialog
-2.  My with Merged: compares the leftmost table with the middle table in
-    the Conflict Dialog
-3.  Their with Merge: compares the middle table with the rightmost table
-    in the Conflict Dialog
+1. My avec Their : compare le tableau le plus à gauche avec le tableau le plus à droite
+    dans la boîte de dialogue du conflit
+2. My avec Merged : compare le tableau le plus à gauche avec le tableau du milieu
+    dans la boîte de dialogue du conflit
+3. Their avec Merge : compare le tableau du milieu avec le tableau le plus à droite
+    dans la boîte de dialogue du conflit
 
-Depending on the position of a node in the list different background
-colors are used:
+En fonction de la position d'un nœud dans la liste, différents couleurs de fonds
+sont utilisées :
 
-1.  The node is in this list only. It isn't present in the opposite list:
+1. Le nœud est présent dans cette liste uniquement. Il n'est pas présent dans la liste opposée :
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image13.png)
-2.  The node is in both lists, but it is on different positions:
+2. Le nœud figure dans les deux listes, mais à des positions différentes :
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image02.png)
-3.  White background means that a node is in both lists at the same
+3. Un fond blanc signifie qu'un nœud se trouve dans les deux listes en même 
     position.
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image17.png)
