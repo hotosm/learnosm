@@ -123,8 +123,8 @@
           <hr>
           {% for post in site.categories['coordination'] %}
             {% if post.lang == page.lang %}
-              {% if post.permalink contains "tm-user" %}
-                <a href="{{post.permalink}}#validation">Validation</a><br>
+              {% if post.permalink contains "validation" %}
+                <a href="{{post.permalink}}">{{post.title}}</a><br>
               {% endif %}
             {% endif %}
           {% endfor %}
