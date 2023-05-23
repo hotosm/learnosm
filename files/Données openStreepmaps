@@ -1,0 +1,12 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<osm version="0.6" generator="CGImap 0.8.8 (3930553 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<node id="10821302816" visible="true" version="24" changeset="136034079" timestamp="2023-05-12T20:21:07Z" user="Berete Baba" uid="18526835" lat="11.7285422" lon="-10.1890993">
+<tag k="gns:dsg_code" v="PPL"/>
+<tag k="GNS:dsg_name" v="populated place"/>
+<tag k="name" v="Tomba kanssa"/>
+<tag k="place" v="town"/>
+<tag k="source" v="GNS;aerial imagery;local knowledge"/>
+<tag k="wikidata" v="Q116464161"/>
+<tag k="wikipedia" v="en:Tomba Kanssa"/>
+</node>
+</osm>
