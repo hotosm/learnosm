@@ -31,7 +31,7 @@ Om de Tasking Manager te gebruiken moet je inloggen met je OSM account. Meer inf
 
 ### Bewerkingsprogramma's 
 
-[iD](http://learnosm.org/nl_NL/beginner/id-editor/) - is de  web-gebaseerde editor gemaakt door  [Mapbox](www.mapbox.com) met een gebruiksvriendelijke interface. Over het algemeen gezien als de beste tool om mee te beginnen. Start de [interactieve iD editor handleiding](http://ideditor.com/) om te leren werken met deze editor.  
+[iD](https://learnosm.org/nl_NL/beginner/id-editor/) - is de  web-gebaseerde editor gemaakt door  [Mapbox](www.mapbox.com) met een gebruiksvriendelijke interface. Over het algemeen gezien als de beste tool om mee te beginnen. Start de [interactieve iD editor handleiding](https://preview.ideditor.com/release#walkthrough=true) om te leren werken met deze editor.  
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 

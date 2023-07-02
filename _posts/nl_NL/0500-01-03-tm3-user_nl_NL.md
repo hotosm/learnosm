@@ -285,7 +285,7 @@ Bijvoorbeeld:
 
 Dit is met name nuttig bij het valideren of verder gaan met andermans werk - u kunt terugkoppeling geven of iemand bedanken of iets anders.  
 
-+ U kunt een link toevoegen naar een site die de mapper kan helpen, zoals <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
++ U kunt een link toevoegen naar een site die de mapper kan helpen, zoals <https://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
 + Denk eraan dat mensen van over de gehele wereld bijdragen, dus gebruik eenvoudige en begrijpelijke taal. Als u opmerkingen in andere talen tegenkomt, zijn programma's als Google Translate vaak een goede manier om te vertalen.
 
 

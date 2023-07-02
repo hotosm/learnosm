@@ -20,7 +20,7 @@ Bezoek de OpenStreetMap Website.
 
 - Open uw webbrowser.
 - In de adresbalk bovenin het scherm, voer het volgende in en toets enter:
-    [www.openstreetmap.org](http://www.openstreetmap.org/)
+    [www.openstreetmap.org](https://www.openstreetmap.org/)
 - Wanneer de pagina geladen is, zou u zoiets als het volgende moeten zien:
 
     ![OpenStreetMap website with some main functions listed][]
