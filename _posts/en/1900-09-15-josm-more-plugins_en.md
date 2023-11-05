@@ -26,6 +26,8 @@ Once the plugin has been installed you will see a new button on the left side of
 
 Start JOSM and download an area where you wish to trace buildings.  
 
+### Rectangular Buildings
+
 * Select the building tool and click twice to draw a line on the map.  
 
 ![Draw edge][]
@@ -35,6 +37,12 @@ Start JOSM and download an area where you wish to trace buildings.
 ![Extend building][]
 
 * This will not only create a rectangle with only three clicks, but it will also automatically apply the **building=yes** tag to the shape.  
+
+### Circular Buildings
+
+* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+
+![Round building][]
 
 ### Complex Buildings
 
@@ -119,5 +127,5 @@ Good luck!
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
-
+[Round building]: /images/josm/buildings_tools-round.png
 
