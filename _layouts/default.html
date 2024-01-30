@@ -120,6 +120,14 @@
               {% endunless %}
             {% endif %}
           {% endfor %}
+          <hr>
+          {% for post in site.categories['coordination'] %}
+            {% if post.lang == page.lang %}
+              {% if post.permalink contains "validation" %}
+                <a href="{{post.permalink}}">{{post.title}}</a><br>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
         </div>
       </div>
       <!-- small search bar does not appear on the front page -->

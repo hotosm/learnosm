@@ -24,7 +24,7 @@ Starten van de iD Editor
 ----------------------
 
 -	De iD vereist een werkende internetverbinding.  
--	Open je Internet browser, en ga naar de OpenStreetMap website op [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+-	Open je Internet browser, en ga naar de OpenStreetMap website op [https://www.openstreetmap.org](https://www.openstreetmap.org).  
 -	**Login** met je OpenStreetMap account  
 -	Verschuif en zoom in op de kaart naar het gebied dat je wilt bewerken. Je kunt de kaart verschuiven door je linkermuisknop ingedrukt te houden en de kaart te verschuiven naar het gewenste gebied.  
 -	Klik op de kleine pill naast **Bewerken**. En klik op **Edit with iD (in-browser editor)**.  
