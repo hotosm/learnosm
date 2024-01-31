@@ -31,6 +31,8 @@ To easily search this Glossary, use the search feature within your browser, by h
 
 **DHN : Digital Humanitarian Network** ; organization which leverages digital network for humanitarian response.
 
+**DWG : Data Working Group** ; composed of people who have a solid editing history and who are in charge of constructive interaction with the OSM community, problem-solving with others, repairing damage and writing changeset comments, also following the day-to-day work, to ensure the validity of the OSM data and make a positive contribution to decision making.
+
 **Extract** : [OSM Data Overview](/en/osm-data/data-overview/) A large chunk of OSM data for a specific area (like a state, country, or geographic area).
 
 **[Field Papers](/en/mobile-mapping/field-papers/)**: is a web-based tool for easily creating a printable map atlas for anywhere in the world that you can print and add notes to. See [https://fieldpapers.org/](https://fieldpapers.org/) for more details. 
@@ -39,6 +41,8 @@ To easily search this Glossary, use the search feature within your browser, by h
 
 **GDACS :  Global Disaster Alert and Coordination System** ; GDACS is a cooperation framework under the United Nations umbrella. It includes disaster managers and disaster information systems worldwide and aims at filling the information and coordination gap in the first phase after major disasters. GDACS provides real-time access to web‐based disaster information systems and related coordination tools.
 
+**GPS/GNSS : Global Positioning System (GPS)/ Global Navigation Satellite System (GNSS)** ; It is an umbrella term for all global satellite positioning systems.
+
 **[iD editor](/en/beginner/id-editor/)** - Web-based beginner-friendly OpenStreetMap editor designed by Mapbox. 
 
 **IDP : Internally Displaced Person** ; is a person that is forced to flee his or her home while continuing to remain within their country's borders.
@@ -46,6 +50,8 @@ To easily search this Glossary, use the search feature within your browser, by h
 **[JOSM](https://josm.openstreetmap.de/)** pronounced "Jaws-um", OpenStreetMap editor written in Java. 
 
 **[Layer](https://wiki.openstreetmap.org/wiki/Layer)**: A data source that's displayed on a slippy map (often is thought of as a group of tiles stitched together).
+
+**Mapper** ; person of the OSM community who contributes to the creation or digital update of the database and provides solutions to notes and inconsistencies. 
 
 **NGO : Non Govermental Organisation / Agency** ; primarily a not for profit compulsory group of citizens who are organized on a local, national or international level.  
 

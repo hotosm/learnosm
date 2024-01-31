@@ -6,6 +6,9 @@ lang: en
 category: beginner
 ---
 
+Creation of OSM Notes
+=====================
+
 One of the main components of OpenStreetMap is notes, which have been an integral part of the project since 2013.
 In this section, you will learn what notes are, their states, how to create notes to be produced in map changes, the communication that is generated from notes, the process of creating notes from different applications, and to finish with a bit of history of this functionality. 
 
@@ -205,15 +208,6 @@ Indeed, the notes were included in a later addition to this version.
 In 2013, the notes service was offered as part of the API.
 By 2014, all OpenStreetBugs reports had been migrated to the OSM database.
 In 2017, 1 million notes had already been created worldwide.
-
-# Glossary
-
-* DWG: Data Working Group, composed of people who have a solid editing history and who are in charge of constructive interaction with the OSM community, problem-solving with others, repairing damage and writing changeset comments, also following the day-to-day work, to ensure the validity of the OSM data and make a positive contribution to decision making.
-* GPS/GNSS: Global Positioning System (GPS)/ Global Navigation Satellite System (GNSS) or Global Navigation Satellite System (GNSS). It is an umbrella term for all global satellite positioning systems.
-GPS (Global Positioning System) is the world's most widely used GNSS system.
-The term describes any satellite constellation that provides positioning, navigation and timing (PNT) services on a global or regional scale.
-* Mapper: person of the OSM community who contributes to the creation or digital update of the map and provides solutions to notes and inconsistencies. 
-* OSM: OpenStreetMap.
 
 
 [States for a note]: /images/beginner/note-states.png
