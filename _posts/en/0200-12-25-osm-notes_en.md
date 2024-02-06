@@ -11,7 +11,7 @@ Creation of OSM Notes
 
 One of the main components of OpenStreetMap is notes, which have been an integral part of the project since 2013. In this section, you will learn what notes are, their states, how to create notes to be produced in map changes, the communication that is generated from notes, the process of creating notes from different applications, and to finish with a bit of history of this functionality. 
 
-Please note that we will only deal with note creation in this document. For note resolution, you can visit the note resolution section. Additionally, we have included a glossary of acronyms and terms at the end of this article.
+Please note that we will only deal with note creation in this document. For note resolution, you can visit the note resolution section.
 
 
 # What are Notes for?
