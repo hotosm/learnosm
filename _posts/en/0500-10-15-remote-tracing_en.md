@@ -166,9 +166,9 @@ This screenshot shows part of a square being edited. Note the scale at the botto
 
 ![Buildings_2][]
 
-1.  The satellite imagery above, is of a building, but the satellite was not directly overhead, so that the building appears distorted and an end wall is visible in the image. Because of this angle, the apex roof does not appear rectangular. The sun is practically directly above the building, so that the shadow of the building indicated by the arrows from figure 1 does confirm that the building is rectangular.  
+1.  The satellite imagery above, is of a building, but the satellite was not directly overhead, so that the building appears distorted and an end wall is visible in the image. Because of this angle, the apex roof does not appear rectangular. The sun is at an angle above the building so that the shadow of the building does not correspond to the building shape.
 
-2.  To map this building, create a rectangle extending from the arrows of point 2, to where you estimate the building ends, indicated by point 3 in this image.  
+2.  To map this building, map the roof first as indicated by the dashed line in the lower part of the image. Then shift the roof so that it matches the building footprint. The touching point is clearly recognizable at the top corners of the buildings.
 
 
 ***
@@ -191,4 +191,4 @@ More to follow - see the below links for more guidance.
 [JOSM residential]: /images/coordination/JOSM_residential.png
 [JOSM residential 1]: /images/coordination/JOSM_residential_1.png
 [Buildings iD]: /images/coordination/Buildings_iD.png
-[Buildings_2]: /images/coordination/Buildings_2.png
+[Buildings_2]: /images/coordination/Buildings_2_new.png
