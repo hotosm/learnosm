@@ -25,11 +25,11 @@ If your town is like most, you may have drawn some lines to represent roads, pos
 
 ![Examples of symbols][]
 
-Your map is informative. You might use a map like this to explain to someone where different places are, where problems are in your community, or merely to help someone find their way around. The use of your map is limited though - there is only one copy of the map.The way you drew it may make sense to you, but perhaps not to someone else who would have drawn their own map in a different way. Because your map is merely on paper, it is difficult to get that information to others.  This is why making your map on a computer, in such a way that anyone can access it, can be much more valuable. 
+Your map is informative. You might use a map like this to explain to someone where different places are, where problems are in your community, or merely to help someone find their way around. The use of your map is limited though - there is only one copy of the map. The way you drew it may make sense to you, but perhaps not to someone else who would have drawn their own map in a different way. Because your map is merely on paper, it is difficult to get that information to others.  This is why making your map on a computer, in such a way that anyone can access it, can be much more valuable. 
 
 ![Mapping on Computer][]
 
-OpenStreetMap is a tool for creating and sharing map information.  Anyone can contribute to OSM, and thousands of people add to the project every day. Users draw maps on computers, rather than paper, but as we will see in this guide, drawing a map on a computer is not all that different from drawing on paper. We still draw lines to represent roads, fields, and anything else, and we still represent schools and hospitals with symbols. The important thing is that OSM maps are saved on the internet, and anyone can access them at any time, totally free.
+OpenStreetMap is a tool for creating and sharing map information. Anyone can contribute to OSM, and thousands of people add to the project every day. Users draw maps on computers, rather than paper, but as we will see in this guide, drawing a map on a computer is not all that different from drawing on paper. We still draw lines to represent roads, fields, and anything else, and we still represent schools and hospitals with symbols. The important thing is that OSM maps are saved on the internet, and anyone can access them at any time, totally free.
 
 ![Digital maps with OpenStreetMap][]
 
