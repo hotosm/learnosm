@@ -184,7 +184,7 @@ mit dem Internet verbunden sein.
 
 Betrachten Sie Ihre Änderungen auf der Karte
 ---------------------------
-- Öffnen Sie [http://openstreetmap.org/]() in Ihrem Internet-Browser.
+- Öffnen Sie [https://openstreetmap.org/](https://openstreetmap.org/) in Ihrem Internet-Browser.
 - Navigieren Sie auf der Karte zu dem Gebiet, das Sie bearbeitet haben.
 - Sie sollten jetzt Ihre Änderungen auf der Karte sehen! Wenn nicht, 
     drücken Sie Strg+R um die Webseite neu zu laden. Manchmal wird die 
