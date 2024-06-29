@@ -1,199 +1,125 @@
 ---
 layout: doc
-title: Utilizar o JOSM para editar o OpenStreetMap
+title: Edição de dados de campo
 permalink: /pt/josm/editing-with-josm/
 lang: pt
 category: josm
 ---
 
-Utilizar o JOSM para editar o OpenStreetMap
-===========================================
+Edição de dados de campo
+==================
 
-No Capítulo 3 instalou o JOSM e começou a desenhar os seus primeiros
-pontos, linhas, e formas. Adicionou pré-configurações a estes objectos
-de forma a juntar informação acerca deles. Para o fim, foi capaz de
-desenhar o seu próprio mapa no JOSM.
 
-Desenhar mapas no Capítulo 3 foi um exercício para aprender JOSM e
-aprender a desenhar lugares no mapa. Mas os nossos mapas não eram
-precisos, porque ainda não tínhamos incluído localização. Nos dois
-capítulos seguintes examinámos duas ferramentas, GPS e ”Walking Papers”,
-que nos permitem recolher localizações reais de lugares. Estas
-localizações são representadas por coordenadas.
+Já cobrimos todos os blocos de edifícios do mapeamento com o OpenStreetMap. Na secção [Mapear com um telemóvel, GPS ou papel](/pt/mobile-mapping/) pode ver como utilizar ferramentas móveis para fazer o levantamento de uma área.
 
-Desenhar um mapa real, isto é, um mapa onde todos os pontos, linhas, e
-formas estão na sua localização correcta, não é diferente de desenhar os
-mapas que desenhámos no Capítulo 3. Mas agora, utilizaremos os nossos
-pontos e caminhos (tracks) GPS, e os nossos “Walking Papers”, para
-desenhar mapas similares, na sua localização correcta no planeta.
+Neste capítulo, voltaremos mais uma vez ao JOSM e analisaremos alguns conceitos novos que não foram abordados até agora.
 
-Neste capítulo aprenderemos como editar o mapa no OpenStreetMap
-adicionando os nossos melhoramentos. Aprenderemos o ciclo básico de
-mapear no OSM:
+Camadas JOSM
+-----------
+Se acompanhou o JOSM até agora, deve ter reparado que podemos adicionar todo o tipo de coisas diferentes ao JOSM. Podemos descarregar dados do OSM, adicionar imagens de satélite do Bing, carregar pontos de passagem e trilhos GPS e adicionar dados do Field Papers - tudo isto é apresentado na janela do mapa do JOSM.
 
-1) Descarregar (download) os dados correntes do mapa a partir do OSM
+Também deve ter reparado que sempre que adiciona algo novo ao JOSM, é adicionado um item adicional ao painel Camadas no lado direito do JOSM. Dependendo do que tiver aberto, o seu painel Camadas pode ter o seguinte aspeto:
 
-2) editar esses dados utilizando GPS, “Walking Papers”, e notas como
-guia
+![Layers panel][]
 
-3) Gravar (save) modificações ao OpenStreetMap
+Cada item desta lista representa uma fonte de dados diferente que tem aberta na janela do mapa. Neste exemplo, "Camada de dados 1" são os dados do OpenStreetMap que estamos a editar. "Field Papers" é a camada criada quando adicionámos o nosso Field Paper ao JOSM.
 
-No fim deste capítulo, seremos capazes de ver as nossas adições no mapa
-OSM.
+Se adicionar as imagens de satélite do Bing, aparecerá uma nova camada no painel Camadas com o nome "Bing - imagens aéreas"
 
-Preparar o JOSM
----------------
+A ideia de camadas pode muitas vezes ser difícil de compreender. Uma boa maneira de a imaginar é que cada camada é como uma folha de papel semi-transparente, empilhada uma sobre a outra. Cada pedaço de papel tem um determinado tipo de informação e pode ser reorganizado da forma que desejar.
 
--  Para iniciar o JOSM, clique no Menu “Start”no canto inferior
-    esquerdo do seu computador, e procure o programa JOSM.
+As camadas que são utilizadas como referência, tais como imagens de satélite, trilhos GPS e documentos de campo, são frequentemente designadas por "camadas de base". A camada de dados do OSM é a camada com a qual se trabalha efetivamente.
 
--  Agora carregue o seu ficheiro gpx e oseu “Walking Paper”. Não
-    precisa de abrir ambos, mas pode se quiser. Consulte os dois
-    capítulos anteriores se não se lembrar como abrir estes ficheiros no
-    JOSM.
+-   Para mover uma camada, clique na mesma no painel Camadas e clique na seta para cima ou para baixo para a mover.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch6_image09.png)
+![Layers up down][]
 
-Descarregue Dados OSM
----------------------
+-   Para ocultar uma camada, selecione-a com o rato e clique no botão Mostrar / Ocultar:
 
--  Lembra-se do ciclo de edição do OpenStreetMap descrito na
-    introduçãodeste capítulo? Descarregue (download), Edite, grave
-    (save). Antes de podermos editar o mapa, temos de descarregar os
-    dados OSM da nossa área.
+![Layers show hide][]
 
--  Quando abre o seu caminho gpx ou “Walking Paper”, a janela do mapa
-    mostrará oque abriu, e mover-se-á automaticamente para as
-    coordenadas correctas. Depois de abrir os seus ficheiros,olhe para o
-    canto inferior esquerdo do JOSM. Pode ver a latitude e longitude
-    (coordenadas) do seu cursor do rato.
+-   Deverá ver a camada que selecionou desaparecer na janela do mapa. Clique novamente em Mostrar / Ocultar e a camada voltará a aparecer.
+-   Pode remover uma camada selecionando-a e utilizando o botão eliminar:
 
-    ![]({{site.baseurl}}/images/pt_beg_ch6_image01.png)
+![Layers delete][]
 
--  Uma vez que a janela do mapa já está a mostrar a áreaque queremos
-    mapear, éfácil descarregar os dados OpenStreetMap para essa área.
-    Clique no menu “File” no canto superior esquerdo do JOSM e clique
-    “Download from OSM”. Isto abrirá a janela de “download”
-    (descarregar). Pode aceder a esta janela de forma mais simples
-    clicando no botão de descarregar, mostrado aqui:
+-   Por último, é importante saber que só pode editar a camada que é considerada *ativa* pelo JOSM. Se não conseguir editar o mapa na sua janela do mapa, provavelmente é porque não tem a camada correta definida como ativa. A maioria das camadas, tais como pontos GPS, Field Papers e imagens de satélite, não podem ser editadas. As únicas camadas que podem ser editadas são os dados do OpenStreetMap, que são normalmente designados por "Camada de dados 1".
+-   Para tornar uma camada ativa, selecione-a no painel Camadas e clique no botão Ativar:
 
-    ![]({{site.baseurl}}/images/pt_beg_ch6_image08.png)
+![Layers activate][]
 
--  Quando a janela de “download” abre, deverá ver um mapa com uma
-    janela rosa desenhada nele. Se não vir o mapa, clique na aba marcada
-    “Slippy map”.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch6_image02.png)
+Utilizar dados GPS e Field Papers
+-------------------------------
+No capítulo [Mapear com um telemóvel, GPS ou papel](/pt/mobile-mapping/) vimos como recolher dados com um GPS e Field Papers, e como carregá-los no JOSM como uma camada.
 
--  A janela rosa representa a área do mapa que gostaríamos de
-    descarregar para editar. A menos que tenha mexido a janela do mapa
-    desde que abriu o ficheiro gpx ou o “Walking Papers”, a caixa deverá
-    estar desenhada em torno da área correcta. No entanto se quiser
-    descarregar uma área maior, pode desenhar uma caixa nova. Para
-    desenhar uma nova caixa, clique no mapa, mantenha o botão esquerdo
-    do rato pressionado, e mexa o rato para criar uma caixa. Liberte o
-    botão do rato para terminar de desenhar a caixa.
--  Quando estiver satisfeito com o tamanho e localização da caixa,
-    clique “Download” (descarregar) no fundo da janela. JOSM irá buscar
-    os dados para esta área a partir do OpenStreetMap e irá abri-la na
-    sua janela de mapa para editar.
+Depois de fazer o levantamento com uma destas ferramentas, é necessário adicionar a informação ao OpenStreetMap de forma digital.
 
-Editar
-------
+Faz isto com o mesmo processo que aprendeu anteriormente - **descarregar, editar, guardar**. A diferença é que, em vez de utilizar apenas imagens de satélite como camada de base, também pode utilizar os seus dados GPS, documentos de campo, notas ou uma combinação de todos eles.
 
--  O próximo passo é editar o mapa e adicionar novos items. Isto nem
-    sempre é fácil a princípio, mas com prática irá ficar cada vez
-    melhor.
--  Se quiser mover um ponto, linha ou forma, utilize a ferramenta
-    “select” (seleccionar). Clique no objecto e arraste-o para onde
-    deveria estar. Isto pode ser utilizado para corrigir a localização
-    de items que foram colocados no lugar errado.
+-   Por exemplo, vamos assumir que tem os seus pontos de GPS como camada de fundo no JOSM, guardou um ponto de GPS com o nome 030, e escreveu no seu bloco de notas que 030 é uma escola. Para adicionar este ponto ao OpenStreetMap, selecione a ferramenta de desenho e faça duplo clique em cima do ponto 030 na sua janela do mapa. Isto irá criar um ponto. De seguida, vá ao menu Modelos de etiquetas e encontre o modelo para escola. Introduza o nome da escola e clique em "Aplicar etiquetas". Faça o mesmo para adicionar linhas e formas.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch6_image05.png)
+![GPS in JOSM][]
 
--  Utilize a ferramenta “draw” (desenhar) para desenhar novos pontos,
-    linhas ou formas. Descreva estes objectos seleccionando-os a partir
-    do menu “Presets” (pré-configurações), como fez no Capítulo 3.
--  Lembre-se de que os seus pontos GPS e o seu “Walking Papers” não vão
-    automaticamente para o OpenStreetMap. Precisa de adicioná-los
-    digitalmente no mapa OSM, utilizando a ferramenta “draw”. Mas os
-    seus pontos, caminhos, e “Walking Papers” podem ser vistos no fundo,
-    como guia.
--  Vamos assumir que gravou um ponto de referência (waypoint) chamado
-    “030”,  no seu GPS, e que escreveu no seu bloco de notas que “030” é
-    uma escola. Para adicionar este ponto ao OpenStreetMap, deve
-    selecionar a ferramenta “draw” (desenhar) e fazer duplo clique em
-    cima do ponto “030” na sua janela de mapa. Isto irá criar um ponto.
-    Depois vá ao menu “presets” (pré-configurações), e procure a
-    pré-configuração para “school” (escola). Introduza o nome da escola
-    e clique “Apply Presets” (aplicar pré-configuração). Faça o mesmo
-    para adicionar linhas e formas.
+Etiquetas
+----
+Quando se desenha um ponto, uma linha ou uma forma, esta tem uma localização, mas nenhuma informação sobre o que é. Por outras palavras, sabemos **onde** está, mas não **o que é**. Até agora, temos utilizado itens do menu Modelos de etiquetas para definir **o que é**. A forma como o OpenStreetMap sabe **o que é** um objeto é através da utilização de **etiquetas**.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch6_image04.png)
+Uma etiqueta é como um rótulo que se pode colocar numa coisa. Por exemplo, se desenharmos um quadrado, ele é apenas um quadrado. Mas depois adicionamos-lhe atributos que descrevem o que é: este quadrado é um edifício; o nome do edifício é "Menara Thamrin"; o edifício tem 16 andares.
 
-Carregar (Upload) Modoficações
-------------------------------
+Pode adicionar tantas etiquetas quantas quiser a um objeto. As etiquetas são guardadas como pares de texto, chamados **chaves** e os **valores**. No OpenStreetMap, as etiquetas escritas acima seriam:
 
--  Depois de fazer algumas modificações para melhorar o mapa, vamos
-    guardar essas alterações no OpenStreetMap. Para guardar as
-    alterações, precisamos de estar ligados à Internet, porque na
-    prática estamos a carrgar as modificações para o OpenStreetMap.
--  Clique “File” (ficheiro) no menu de topo, e depois clicar  “Upload
-    Data” (carrgar dados). Isto irá abrir a janela de “upload”
-    (carregamento). Pode aceder a esta janela de forma mais simples
-    clicando no botão “upload” (carregar), que se vê aqui:
+-   building = yes
+-   name = Menara Thamrin
+-   building:levels = 16
 
-    ![]({{site.baseurl}}/images/pt_beg_ch6_image00.png)
+Se selecionar um objeto no JOSM, pode ver todas as etiquetas que lhe estão associadas no painel Propriedades à direita.
 
--  A janela que aparece mostra uma lista dos objectos que está a
-    adicionar e os objectos que está a modificar ou a apagar. Na caixa
-    no fundo é-lhe pedido para fornecer um comentário acerca das
-    modificações que está a fazer. Escreva aqui a descrição das suas
-    edições.
+![Properties panel][]
 
-    ![]({{site.baseurl}}/images/pt_beg_ch6_image03.png)
+### Editar etiquetas
 
--  Clique “Upload Changes” (carregar modificações).
--  Se isto é a sua primeira vez a gravar modificações no OpenStreetMap,
-    ser-lhe-á pedido o nome de utilizador (username) e a palavra passe
-    (password) que criou no Capítulo 2. Introduza-os na janela que
-    aparece. Se selecionar a caixa nesta janela, o seu nome de
-    utilizador e palavra passe serão gravados e não precisará mais de
-    introduzi-los de futuro. Clique  “Authenticate” (autenticar).
+Pode adicionar, editar e eliminar etiquetas a partir do painel Propriedades. No entanto, as etiquetas estão tradicionalmente em inglês e podem, por vezes, ser confusas, pelo que é frequentemente mais fácil utilizar o menu Modelos de etiquetas. Quando adiciona ou altera etiquetas, os atributos do objeto são alterados.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch6_image06.png)
+-   Para editar as etiquetas de um objeto, comece por selecioná-lo.
+-   Em seguida, edite as etiquetas de uma de duas formas: (1) Utilize o menu Modelos de etiquetas ou (2) edite as etiquetas diretamente na janela Propriedades, à direita.
 
--  Precisará de esperar alguns segundos para que as modificações sejam
-    carregadas, e está pronto! Fez as suas primeiras edições no
-    OpenStreetMap. Pode continuar a editar para adicionar todos os seus
-    pontos, se quiser. Certifique-se sempre de que carregou as suas
-    edições antes de fechar o JOSM.
+### Erro comum: marcar nós quando se pretende marcar linhas ou polígonos
 
-Ver as suas Modificações no Mapa.
----------------------------------
+Quando estiver a editar os atributos de um ponto, deve primeiro selecionar o ponto e depois adicionar etiquetas através do menu Modelos de etiquetas ou diretamente no painel Propriedades. Um erro comum é quando se adicionam atributos a uma linha ou a uma forma. Ao selecionar o objeto, é importante que
+selecione a linha e NÃO os pontos que a compõem.
 
--  Abra o navegador Internet e vá a
-    [openstreetmap.org](http://openstreetmap.org)
--  Mova o mapa para a área que editou.
--  Deverá ver as suas modificações já no mapa! Se não estiverem lá,
-    pressione CTRL+R para refrescar a página web. Por vezes o mapa não
-    actualiza correctamente e precisa de ser recarregado.
--  E se mesmo assim não vir as suas modificações? Não se preocupe- pode
-    levar alguns minutos para que as mudanças apareçam no mapa. Além
-    disso, verifique as suas adições no JOSM para ter a certeza de que
-    as adicionou correctamente.Uma boa regra geral é,se o seu ponto tem
-    um icon no JOSM, então deverá estar visível no mapa principal na
-    página web do OpenStreetMap.
+Isto ocorre frequentemente porque os editores utilizam a ferramenta de seleção JOSM para desenhar uma caixa à volta de um objeto, o que faz com que tudo, tanto a linha **como** os nós, seja selecionado e, quando adiciona etiquetas, estas são aplicadas também aos nós. Certifique-se de selecionar linhas **apenas** quando quiser adicionar etiquetas a elas.
+
+![Nodes mistake][]
+
+Guardar ficheiros OSM
+----------------
+Quando está a editar no JOSM, é sempre uma boa ideia descarregar, editar e carregar as alterações num período de tempo razoavelmente curto. Não quer descarregar dados num dia e depois esperar alguns dias para carregar as suas edições. E se outra pessoa editar a mesma área durante esse tempo? Isso causará erros e conflitos.
+
+Não tenha receio de carregar as suas edições com frequência. Isto garante que as suas alterações serão guardadas na base de dados e que não perderá o seu trabalho árduo.
+
+Se estiver a trabalhar numa única área, é uma boa ideia descarregar os dados do mapa sempre que pretender editar, para o caso de outro utilizador ter feito alterações.
+
+Embora deva sempre tentar descarregar os dados OSM quando estiver pronto para editar e carregar as suas alterações frequentemente, pode haver casos em que queira guardar os dados do OpenStreetMap no seu computador. Por exemplo, se tiver uma ligação ocasional à Internet, pode querer descarregar os dados, guardá-los, editá-los e carregar as alterações mais tarde.
+
+-   Para guardar um ficheiro OSM, certifique-se de que é a camada ativa no painel Camadas. Clique em "Ficheiro" no menu superior e clique em "Guardar". Escolha uma localização para o ficheiro e dê-lhe um nome. Também pode guardar clicando neste botão:
+
+![JOSM save button][]
+
+-   Pode agora fechar o JOSM e os seus dados serão guardados. Quando quiser abrir o ficheiro novamente, basta abrir o JOSM, ir ao menu "Ficheiro" e clicar em "Abrir…"
 
 Sumário
 -------
+Neste capítulo, analisámos um pouco mais de perto a interface JOSM e aprendemos sobre camadas e etiquetas. Agora deve ter uma base sólida sobre como mapear e como editar o OpenStreetMap.
 
-Agora que viu como adicionar coisas ao OpenStreetMap, o que vem a
-seguir? Lembre-se que os mapas OSM melhoram com o tempo. De cada vez que
-faz melhorias aomapa, esssas modificaçºoes ficam e os dados ficam cada
-vez melhores. E assim como pode o trabalho de outros, eles também podem
-melhorar o seu.
 
-No próximo capítulo, iremos ver técnicas mais avançadas no JOSM.
-Aprenderemos como desenhar melhores formas, como utilizar ferramentas
-diferentes, e o que são todos os botões e janelas em volta do mapa!
+[Layers panel]: /images/josm/josm_layers-panel.png
+[Layers up down]: /images/josm/josm_layers-panel-up-down.png
+[Layers show hide]: /images/josm/josm_layers-panel-show-hide.png
+[Layers delete]: /images/josm/josm_layers-panel-delete.png
+[Layers activate]: /images/josm/josm_layers-panel-activate.png
+[GPS in JOSM]: /images/josm/josm_gps-layer.png
+[Properties panel]: /images/josm/josm_properties-panel.png
+[Nodes mistake]: /images/josm/josm_nodes-selected-mistake.png
+[JOSM save button]: /images/josm/josm_save-button.png

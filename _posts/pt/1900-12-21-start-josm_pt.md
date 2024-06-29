@@ -1,314 +1,188 @@
 ---
 layout: doc
-title: Iniciação ao JOSM
+title: Começar a utilizar o JOSM
 permalink: /pt/josm/start-josm/
 lang: pt
 category: josm
+published: true
 ---
 
-Iniciação ao JOSM
-=================
+Começar a utilizar o JOSM
+=============================
 
-Neste capítulo vamos aprender passo a passo como descarregar e instalar
-o JOSM, o editor Java do OpenStreetMap. Modificaremos algumas das
-configurações do JOSM para o tornar mais fácil de utilizar. Depois
-abriremos um mapa exemplo e aprenderemos algumas operações básicas
-do software. Lembra-se de quando pedimos, no capítulo 1, para desenhar
-um mapa da sua localidade? Concluiremos este capítulo desenhando esse
-mapa de novo, agora de forma digital. Depois disto, você terá um bom
-entendimento de como desenhar mapas no JOSM.
+
+Como descarregar e instalar o JOSM, o editor Java OpenStreetMap, alterar algumas das definições, abrir um mapa de exemplo e aprender algumas das operações básicas do software. Lembra-se, no capítulo de introdução, quando lhe pedimos para desenhar um mapa da sua cidade ou aldeia? Vamos concluir este capítulo desenhando novamente o seu mapa, desta vez digitalmente. Depois disto, deve ter uma boa compreensão de como desenhar mapas no JOSM.
 
 Descarregar o JOSM
-------------------
+-------------
 
--  Abra o seu navegador web - pode ser o Firefox, o Chrome, Opera, ou
-    Internet Explorer.
+-   Se tiver uma cópia do JOSM num CD ou numa unidade flash USB, pode passar à secção seguinte, Instalar o JOSM.
+-   Se ainda não tem o JOSM, ou se pretende a versão mais recente, abra o seu navegador Web - pode ser o Firefox, Chrome, Opera ou Edge.
+-   Na barra de endereço no topo da janela, introduza o seguinte texto e prima Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
+-   Também pode encontrar o sítio Web do JOSM pesquisando na Internet por "JOSM".
+-   O sítio Web deve ter um aspeto semelhante ao seguinte:
 
--  Na barra de endereços no topo da janela, escreva o seguinte texto e
-    pressione “Enter”:
+    ![JOSM website][]
 
-    [josm.openstreetmap.de](http://josm.openstreetmap.de)
+-   Se tiver o Windows instalado no seu computador, clique em "Windows Installer" para descarregar o JOSM.
 
--  Você pode também encontrar esta página web pesquisando por “JOSM” em um
-    motor de pesquisa.
--  A página web deverá ter o seguinte aspecto:
+    ![Windows installer][]
 
-  ![]({{site.baseurl}}/images/pt_beg_ch3_image04.png)
-
--  Se o seu computador tem o Windows instalado, escolha “Windows JOSM
-    Installer” para descarregar o JOSM. Se tem um sistema operativo
-    diferente clique no link para o seu sistema. O programa deverá
-    começar a ser descarregado. Neste capítulo assumiremos que está a
-    utilizar Windows, mas as instruções são similares para os outros
-    sistemas operativos.
+-   Se tiver um sistema operativo diferente, clique na hiperligação para o seu sistema. O descarregamento deve começar. Neste capítulo, partiremos do princípio de que está a utilizar o Windows, mas as instruções são semelhantes para outros sistemas operativos.
 
 Instalar o JOSM
----------------
+------------
 
--  Você pode ter alguns problemas a instalar o JOSM se o Java não estiver já
-    instalado no seu computador. Se tiver problemas, experimente
-    descarregar e instalar o Java. Pode descarregá-lo aqui:  página em
-    português -
-    [http://www.java.com/pt\_BR/](http://www.java.com/pt_BR/) ou página
-    em inglês
-    [http://www.java.com/en/download/](http://www.java.com/en/download/)
--  Procure o ficheiro de instalação do JOSM que acabou de descarregar.
-    Clique duas vezes rapidamente para iniciar a instalação. Aceite a
-    instalação em Inglês.
--  Clique ‘OK’, ‘Next’, ‘I Agree’, e ‘Install’. Quando a instalação
-    estiver terminada, clique “Finish’ para iniciar o JOSM pela primeira
-    vez. Mais tarde, quando quiser iniciar o JOSM, pode fazê-lo clicando
-    no menu “Iniciar” (ou “Start” na versão em inglês do Windows) no
-    canto inferior esquerdo do seu computador, e escolhendo o JOSM na
-    lista de programas que aparece.
--  Você pode ver uma janela que aparece a perguntar se quer atualizar o
-    programa (em inglês “update the software”). Se tiver acabado de
-    instalar não precisa fazer a atualização porque é o mais recente
-    (mas mais tarde se vir esse aviso, é conveniente ir atualizando
-    para poder dispor de melhorias no programa). Clique no botão que
-    diz “Cancelar”.  Se não quiser ver esta mensagem novamente, escolha a
-    opção na parte inferior da janela antes de pressionar “Cancelar” (é
-    recomendável deixar o aviso de disponibilidade de atualização e ir
-    atualizando a aplicação).
--  Quando o JOSM iniciar, terá o seguinte aspecto:
+>  Se tiver um sistema operativo diferente, clique na ligação para o seu sistema. A transferência deve começar. Neste capítulo, partiremos do princípio de que está a utilizar o Windows, mas as instruções são semelhantes para outros sistemas operativos.: <http://www.java.com/en/download/>
+>
+>  Os utilizadores de Mac podem ter versões antigas de Java. Consulte <http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> para ver as opções para OSX 10.6 e 10.7.3+
 
-  ![]({{site.baseurl}}/images/pt_beg_ch3_image06.png)
+-   Localize o ficheiro de instalação do JOSM no seu computador. Faça duplo clique no mesmo para iniciar a instalação.
+-   Clique em "OK", "Seguinte", "Concordo" e "Instalar". Quando a instalação estiver concluída, clique em "Concluir" para iniciar o JOSM pela primeira vez. Mais tarde, quando quiser iniciar o JOSM, pode fazê-lo clicando no Menu Iniciar no canto inferior esquerdo do seu computador e clicando no programa JOSM.
+-   Poderá aparecer uma janela a perguntar se pretende atualizar o software. Não é necessário atualizá-lo, uma vez que é recente. Prima o botão que diz "Cancelar". Se não quiser voltar a ver esta mensagem, selecione a caixa na parte inferior antes de premir “Cancelar.”
+-   Quando o JOSM é iniciado, terá um aspeto semelhante ao seguinte:
 
-Modificar a configuração do JOSM
-------------------------------
+    ![JOSM splash page][]
 
--  Antes de começar a utilizar o JOSM, é uma boa ideia modificar
-    algumas das suas configurações para facilitar a
-    utilização. Para modificar as configurações, clicar em “Editar” no menu
-    do topo, e depois escolher “Preferências”. Se preferir, pressione a tecla
-    F12.
+Preferências do JOSM
+----------------
 
-    ![]({{site.baseurl}}/images/pt_beg_ch3_image09.png)
+Existem muitas definições diferentes que podem ser personalizadas no JOSM. Uma definição que pode querer ajustar é o idioma. O JOSM foi traduzido para vários idiomas e pode preferir trabalhar num idioma diferente.
 
-### Adicionar o Plugin “Walking Papers”
+-   Para aceder à janela Preferências, clique em Editar -> Preferências.
 
--  Posteriormente, neste guia, aprenderemos a trabalhar com uma
-    ferramenta chamada “Walking Papers”, a qual nos permitirá imprimir o
-    mapa de uma área, desenhar nele e escrever notas, e depois colocar
-    isso no JOSM como pano de fundo. Depois podemos editar por cima
-    dessa imagem, introduzindo as nossas anotações no OpenStreetMap.
-    Agora iremos adicionar o plugin “Walking Papers” ao JOSM.
--  Você deverá estar com a janela de preferências aberta. Se
-    não estiver, clique em “Editar”\>”Preferências” para abrir a janela.
--  Do lado esquerdo, clique no ícone parecido com uma tomada elétrica.
+    ![Preferences window][]
 
-  ![]({{site.baseurl}}/images/pt_beg_ch3_image03.png)
+-   No lado esquerdo, clique no ícone que se assemelha a uma lata de tinta e a um pincel.
+-   Na parte central do lado esquerdo da janela, clique no separador "Idioma".
+-   Escolha o seu idioma na caixa pendente junto à palavra "Idioma".
 
--  Clique no botão que diz “Baixar lista” (descarregar a lista de
-    plugins). A lista será descarregada da Internet, e os plugins
-    serão relacionados nesta aba da janela.
--  Na caixa de pesquisa no topo, escreva “walking”. Isto irá mostrar só
-    items na lista que contêm “walking” no nome.
--  Clique na caixa ao lado do plugin walkingpapers e pressione “OK” no
-    fundo da janela.
--  O “Walking Papers” será descarregado e instalado. Não clique em
-    “Cancelar”.
+    ![Look and feel][]
 
-### Mudar de Linguagem
+-   Clique em OK.
+-   Tem de reiniciar o JOSM para guardar as suas definições. Clique em "Ficheiro" no canto superior esquerdo e clique em "Reiniciar" na parte inferior do menu.
 
--  O JOSM foi traduzido para muitos idiomas. Geralmente o JOSM já é carregado
-    no idioma padrão do sistema operacional. Se, contudo, você necessitar
-    alterar o idioma do software, siga as instruções abaixo.
--  Como o JOSM tem recebido melhorias de forma mais ou menos rápida,
-    vão aparecendo novos comandos e opções e a tradução desatualiza-se
-    com uma certa rapidez. Onde ainda não existe tradução os termos
-    aparecem em inglês.
--  Se não tiver com a janela de “Preferências” aberta, clique em “Editar” -\>
-    “Preferências”.
--  Do lado esquerdo, clique no ícone que se parece com uma lata de tinta
-    e um pincel.
--  No topo da janela, clique no separador que diz “Aparência”.
+Aprender desenho básico com JOSM
+-----------------------------
 
-  ![]({{site.baseurl}}/images/pt_beg_ch3_image01.png)
+-   Agora vamos abrir um ficheiro OSM de exemplo que iremos utilizar para aprender as formas básicas de desenhar mapas com o JOSM. Note que este mapa não é real, ou seja, não é um mapa real de um local real, por isso não o vamos enviar para o OpenStreetMap.
+-   Descarregue o ficheiro aqui: [sample.osm](/files/sample.osm)
+-   Agora vamos abrir o ficheiro de mapa de amostra no JOSM. Clique no botão "Abrir" no canto superior esquerdo.
 
--  Escolha a linguagem na lista apresentada: “português” ou “português (Brasil)”.
--  Clique em “OK”.
+    ![Open file][]
 
--  É necessário reiniciar o JOSM para gravar e ativar as configurações.
-    Clique em “Arquivo” no canto superior esquerdo, e clique em “Sair” no fundo
-    do menu.
--  Reinicie o JOSM outra vez indo ao menu “Start” do Windows no canto
-    inferior esquerdo. Procure o JOSM e clique nele para iniciar a
-    aplicação.
+-   Localize o ficheiro **sample.osm**. Provavelmente está na pasta Downloads / Transferências / Descarregamentos, a menos que o tenha guardado noutro local. Clique nele e, em seguida, clique em "Abrir".
+-   Deve agora ver um mapa de amostra com o seguinte aspeto:
 
-Aprender Desenho Básico com o JOSM
-----------------------------------
+    ![Sample file][]
 
--  Agora vamos abrir um ficheiro OSM de exemplo no qual utilizaremos as
-    formas básicas de desenhar mapas com o JOSM. Note que este mapa não
-    é real, no sentido que não é um mapa de um local real, por isso
-    não o iremos enviar para o OpenStreetMap.
--  Se lhe foi fornecido um conjunto de ficheiros pelo seu instrutor, já
-    deverá ter o ficheiro que iremos abrir, chamado sample.osm.
--  Se não tem o arquivo sample.osm no seu computador, pode
-    descarregá-lo da Internet: [sample.osm](/files/sample.osm)
+-   Utilizará estes dados para experimentar várias técnicas de edição. No entanto, nunca deve enviar estes dados fictícios para o OpenStreetMap._
 
--  Agora vamos abrir o arquivo do mapa de exemplo no JOSM. Abra o
-    JOSM. Clique no botão “Abrir” no lado superior esquerdo.
+### Operações básicas
 
-    ![]({{site.baseurl}}/images/pt_beg_ch3_image08.png)
+-   Para mover o mapa para a esquerda ou para a direita, para cima ou para baixo, mantenha o botão direito do rato premido e mova o rato.
+-   Existem várias formas de aumentar e diminuir o zoom do mapa. Se tiver um rato, pode utilizar o botão central do rato, se for uma roda de deslocamento, para aumentar e diminuir o zoom. Se estiver a utilizar um computador portátil e não tiver um rato, pode aumentar ou diminuir o zoom utilizando a barra de escala no canto superior esquerdo da janela do mapa. Arraste a barra para a esquerda e para a direita, mantendo premido o botão esquerdo do rato e movendo a barra para a esquerda ou para a direita com o rato.
 
--  Procure o ficheiro sample.osm. Clique nele, e depois clique “Abrir”.
--  Você deverá agora ver um mapa de exemplo semelhante a este:
+    ![Scale bar][]
 
-  ![]({{site.baseurl}}/images/pt_beg_ch3_image02.png)
+-   Veja o mapa de exemplo. Há aqui alguns tipos diferentes de objetos. Há um rio, uma floresta, alguns edifícios, várias estradas e algumas lojas. Para selecionar um objeto, clique nele com o botão esquerdo do rato.
 
-### Operações Básicas
+### Pontos, linhas e formas
 
--  Para mover o mapa para a esquerda ou direita, para cima ou para
-    baixo, mantenha o botão direito do rato (mouse) pressionado, e mova o rato
-    na direção pretendida.
--  Existem várias formas de alterar o zoom (aumentar ou diminuir) do mapa.
-    Se você tem um mouse, pode utilizar a roda de “scroll” para aproximar e
-    afastar a visualização do mapa. Se você utiliza um computador portátil e
-    não tem um mouse, pode alterar o zoom utilizando a barra de escala,
-    visível no canto superior esquerdo do JOSM. Arraste a
-    barra para a esquerda e para a direita, clicando na barra com o
-    botão esquerdo do mouse e mantendo-o pressionado.
+-   Ao clicar em diferentes objetos no mapa de amostra, observe que existem três tipos diferentes de objetos no mapa. Existem pontos, linhas e formas.
+-   Os pontos são uma localização única, representada por símbolos. Neste mapa de exemplo, existem dois pontos, uma sapataria e um supermercado. A sapataria é representada por um símbolo de sapato e o supermercado é representado por um carrinho de compras.
+-   Existem também várias linhas no mapa, que representam estradas. Se olhar com atenção, verá que dentro das linhas também existem pontos. Estes pontos não têm quaisquer símbolos ou outras informações associadas, mas ajudam a definir a localização da linha.
+-   Por último, existem várias formas no mapa de exemplo, que representam diferentes locais - uma floresta, um rio, um parque e edifícios. Uma forma é utilizada para representar uma área, como um campo ou um edifício. Uma forma é exatamente como uma linha - a única diferença é que a linha começa no mesmo ponto em que termina.
 
-![]({{site.baseurl}}/images/pt_beg_ch3_image10.png)
+> É fácil pensar num mapa como contendo estes três tipos básicos de objetos -
+> pontos, linhas e formas. No OpenStreetMap existe uma terminologia especial
+> que aprenderá à medida que for progredindo. No OSM, os pontos são de facto chamados
+> **nós** e as linhas são chamadas **vias**. Uma forma é chamada de **via fechada**
+> porque é apenas uma linha que termina no mesmo ponto em que começa.
 
--  Olhe para o mapa de exemplo. Existem diversos tipos de objetos no
-    mapa. Há um rio, uma floresta, alguns edifícios, algumas
-    estradas, e um par de lojas. Para selecionar um objeto, clique
-    nele com o botão esquerdo do rato.
+-   Pode reparar que, quando seleciona um objeto, aparece uma lista à direita do mapa numa janela chamada "Etiquetas / membros". Estas são conhecidas como etiquetas. As etiquetas são informações associadas a um ponto, linha ou forma que descrevem o que é. Aprenderemos mais sobre etiquetas num capítulo posterior. Por agora, tudo o que precisa de saber é que esta informação ajuda a descrever se o nosso objeto é uma floresta, um rio, um edifício ou outra coisa qualquer.
+-   Pense em desenhar um mapa à mão e em como está também a desenhar pontos, linhas e formas. Que outros sítios são melhor representados por pontos? Linhas? Formas?
 
-### Pontos, Linhas e Formas
+### Alteração de objetos
 
--  Conforme você clica nos objetos no mapa exemplo, repare que existem nele
-    três tipos diferentes de objeto. Existem nós (pontos), caminhos
-    (linhas) e áreas (polígonos).
--  Os nós ou pontos são uma localização singular, representada por símbolos.
-    Neste mapa de exemplo, existem dois pontos, uma loja de roupas e um
-    supermercado. A loja de roupa é representada por um símbolo de uma
-    camisa, e o mercado é representado por um carrinho de compras.
--  Existem também diversas linhas neste mapa,que representam estradas.
-    Se reparar atentamente, verificará que nas linhas existem também
-    nós. Estes nós não têm qualquer símbolo, ou outra informação
-    associada, ajudando apenas a localizar a linha, como vértices desta.
--  Por último, existem polígonos numerosos no mapa de exemplo, representando
-    locais diferentes - uma floresta, um rio, e edifícios. Geralmente,
-    um polígono reresenta uma área, como um campo ou um edifício.
-    Um polígono é exatamente como um caminho - a única diferença é que
-    ele termina no mesmo ponto em que começa.
--  Você pode notar ainda que, quando seleciona um objeto, aparece uma
-    lista à direita do mapa num diálogo com o título de “Propriedades / Associações”.
-    As informações que aparecem nesta lista são conhecidas como tags
-    (etiquetas). Tags são informações associadas a um nó, caminho ou área,
-    e é o modo através do qual identificamos e descrevemos tudo o que está
-    presente no mapa. Aprenderemos mais acerca de tags no Capítulo 7 - Edição Avançada.
-    Por agora tudo o que você precisa saber é que esta informação ajuda a
-    descrever se o objeto é uma floresta, um rio, um edifício, ou alguma outra coisa.
--  Pense como desenhar um mapa à mão, e como está também a desenhar
-    nós, caminhos e áreas. Que outros locais são melhor representados
-    por pontos? Linhas? Polígonos?
+-   Selecione a floresta no lado esquerdo do mapa. Certifique-se de que clica na linha que rodeia a floresta e não num dos pontos da linha. Agora, mantenha o botão esquerdo do rato premido e arraste o rato. Deverá ser possível mover a floresta para uma nova localização no mapa.
+-   Clique num dos pontos da linha que rodeia a floresta. Mantenha o botão esquerdo do rato premido e arraste o rato. Deverá ser possível mover o ponto. É assim que se pode alterar a forma de um objeto ou mover um ponto.
 
-### Modificando Objectos
+### Desenhar
 
--  Selecione a floresta no lado esquerdo do mapa. Assegure-se de haver
-    clicado na linha em torno da floresta, não em um dos pontos da linha
-    (caso tenha clicado corretamente, você deverá ver todos os pontos
-    da linha com o mesmo aspecto). Agora mantenha o botão esquerdo
-    do rato pressionado sobre a linha e mova o rato. Com isso, você poderá
-    mover a floresta para uma nova localização no mapa.
--  Clique num dos pontos da linha em torno da floresta. Mantenha o
-    botão esquerdo do mouse pressionado e mova o mouse. Você poderá mover o
-    ponto sem alterar o restante da linha. Esta é a maneira como podemos
-    editar linhas e formas de um objeto, ou mover um ponto.
+-   No lado esquerdo do JOSM existe uma coluna de botões. Muitos destes botões abrem novas janelas no lado direito que fornecem mais informações sobre o mapa. No entanto, os botões mais importantes encontram-se no topo desta coluna. Estes botões alteram o que pode fazer com o rato.
+-   Os botões superiores desta coluna são os mais utilizados. São utilizados para selecionar objetos e para desenhar novos objetos.
+-   Até agora, tem estado a utilizar a ferramenta Selecionar, que tem o seguinte aspeto:
 
-### Desenhando
+    ![Select tool][]
 
--  No lado esquerdo do JOSM existe uma coluna de botões. Muitos destes
-    botões abrem novas janelas do lado direito que mostram mais
-    informação acerca do mapa. Porém, os botões mais importantes estão no topo
-    desta coluna. Estes botões modificam aquilo que você pode fazer com o
-    rato.
--  Os quatro botões do topo nesta coluna são os mais importantes. Eles
-    permitem:
+-   Antes de desenhar, é necessário certificar-se de que nada está selecionado. Clique no espaço a preto do mapa, onde está vazio, para se certificar de que nada está selecionado.
+-   Clique no segundo botão, a ferramenta Desenhar.
 
-    1.  Selecionar, mover, escalar e rotacionar objetos
-    2.  Desenhar nós
-    3.  Ampliar e mover o mapa
-    4.  Apagar nós e caminhos
+    ![Draw tool][]
 
--  Até agora, você tem estado a utilizar a ferramenta de seleção,
-    cujo botão tem este aspecto:
+-   Encontre uma área vazia no mapa e faça duplo clique com o rato. Isto irá desenhar um único ponto.
+-   Para desenhar uma linha, faça um único clique com o rato. Mova o rato e clique novamente. Continue até ficar satisfeito com a sua linha. Para terminar a linha, faça duplo clique no rato.
+-   Desenhe uma forma da mesma forma que desenha uma linha, mas termine a forma fazendo duplo clique no ponto onde começou a linha.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch3_image00.png)
+### Adicionar modelos de etiquetas
 
--  Antes de desenhar, é necessário se certificar de que nada está
-    selecionado. Clique no espaço preto no mapa, onde não há nenhum
-    objeto, para garantir que nada está selecionado.
--  Clique no segundo botão, a ferramenta de desenho.
+-   Agora sabemos como desenhar pontos, linhas e formas, mas ainda não definimos o que representam. Queremos poder dizer que os nossos pontos são lojas, escolas ou outra coisa qualquer, e se as nossas formas são campos, edifícios ou outra coisa qualquer.
+-   Clique na ferramenta Selecionar, na coluna de botões à esquerda.
 
-  ![]({{site.baseurl}}/images/pt_beg_ch3_image07.png)
+    ![Select tool][]
 
--  Procure uma zona vazia no mapa, e faça um duplo-clique com o mouse
-    (clique duas vezes rapidamente com o botão esquerdo). Isto desenhará
-    um nó.
--  Para desenhar um caminho, clique uma vez só com o rato (botão
-    esquerdo). Mova o rato e clique novamente. Continue até estar
-    satisfeito com a sua linha. Para terminar o caminho, faça duplo-clique
-    (clique duas vezes rapidamente com o botão esquerdo). Pressionar a
-    tecla “Esc” (escape) no canto superior esquerdo do teclado também
-    faz com que você saia da criação de entidades ou da seleção que tiver
-    ativa.
--  Desenhe uma área da mesma maneira que você desenhou o caminho, mas termine
-    a área clicando no ponto inicial, onde você começou a desenhar.
--  
+-   Selecione um dos objetos que desenhou com a ferramenta Desenhar. No menu superior, clique em "Modelos de etiquetas". Mova o rato através do sub-menu para o tipo de localização que pretende definir.
+-   Quando clica num modelo de etiquetas, aparece um formulário que lhe pede mais informações. Não é necessário preencher todos os campos, mas pode querer adicionar alguns dos campos importantes, como o nome do objeto.
+-   Quando terminar de introduzir as informações, clique em "Aplicar etiquetas". Se tudo correu bem, o seu ponto, linha ou forma deve mudar de cor ou mostrar um símbolo. Isto deve-se ao facto de ter definido o que é.
 
-### Adicionado Predefinições
+Desenhe o seu próprio mapa
+-----------------
 
--  Agora já sabemos desenhar pontos, linhas e formas, mas ainda não
-    definimos o que estes representam. Queremos poder dizer que os nossos
-    pontos são lojas, escolas, ou qualquer outra coisa, e que as nossas
-    áreas são campos, edifícios, ou outra coisa.
--  Clique na ferramenta de seleção (Select), na coluna dos botões à
-    esquerda.
+-   Agora vamos desenhar um mapa para praticar as técnicas que aprendeu. Pode querer redesenhar o mapa que desenhou anteriormente no papel.
+-   Arraste o mapa para longe do mapa de amostra. Mantenha premido o botão direito do rato e arraste o rato até ter uma boa área vazia para desenhar.
+-   Utilize a ferramenta Desenhar para criar pontos, linhas e formas. Descreva os seus objetos selecionando-os no menu Modelos de etiquetas.
+-   Quando terminar, deverá ter o seu próprio mapa, semelhante ao mapa de amostra que abrimos em sample.osm.
 
-    ![]({{site.baseurl}}/images/pt_beg_ch3_image00.png)
+Remover a camada de amostra
+-----------------------
 
--  Selecione um dos objetos que você desenhou. No menu principal do JOSM,
-    clique em “Predefinições”. Mova o mouse através do sub-menu
-    para o tipo de local que você gostaria de definir.
--  Quando clicar numa predefinição, um formulário irá aparecer numa
-    janela, pedindo informações adicionais. Não é necessário preencher todos os
-    campos, mas é interessante adicionar informação em alguns dos campos mais
-    importantes, tais como o nome do objeto (por exemplo o nome da loja
-    ou o nome da rua).
--  Quando tiver terminado de preencher a informação, clique em “Aplicar
-    preferência” (aplicar predefinição). Se tudo ocorreu bem, o seu nó,
-    caminho ou área deverá mudar de cor ou apresentar um símbolo. Isto
-    acontece porque você definiu o que ele é.
+Quando se sentir à vontade com estas técnicas básicas de edição, pode querer
+para se concentrar no mapeamento das características reais.
 
-### Desenhe o Seu Próprio Mapa
+_É muito importante que remova primeiro a camada com os dados de amostra.
+Estes dados são fictícios e não devem ser enviados para a base de dados
+do OpenStreetMap (as versões mais recentes do JOSM impedem-no automaticamente)._
 
--  Agora vamos desenhar um mapa de forma a praticar as técnicas que
-    você aprendeu. Talvez você queira redesenhar o mapa que havia desenhado no
-    Capítulo 1.
--  Arraste o mapa para o lado do mapa de exemplo. Mantenha o botão
-    direito do rato pressionado e arraste o rato, até ver uma área vazia
-    suficiente para desenhar o seu novo mapa.
--  Utilize a ferramenta de desenho para criar nós, caminhos e
-    áreas. Descreva o que são os seus objetos, selecionando
-    propriedades a partir do menu de predefinição.
--  Quando tiver terminado, deverá ter o seu próprio mapa, similar ao
-    mapa exemplo que abrimos a partir do ficheiro sample.osm.
+No painel Camadas, no canto superior direito do ecrã, selecione a camada sample.osm.
+Em seguida, clique no ícone do caixote do lixo no canto inferior direito dessa janela.
+Em alternativa, pode selecionar Eliminar no menu de contexto da camada.
+Para continuar a editar, primeiro é necessário descarregar dados reais.
+Isto será explicado no próximo capítulo.
 
 Sumário
 -------
 
-Excelente! Se tudo ocorreu bem, você aprendeu a configurar o JOSM no seu
-computador, e as ferramentas básicas para desenhar mapas. Nos próximos
-dois capítulos, aprenderá como utilizar GPS e o “Walking Papers” para
-mapear à sua volta. No Capítulo 6, iremos voltar ao JOSM e utilizar a
-informação recolhida para adicionar objetos ao OpenStreetMap.
+Excelente! Se tudo correu bem, aprendeu a configurar o JOSM no seu
+computador e as ferramentas básicas para desenhar mapas. No próximo capítulo, iremos
+Veja mais de perto o processo de edição do mapa OSM com o JOSM.
 
-^[[a]](#cmnt1)^
+[josm website]: /images/josm/josm-website.png
 
-[[a]](#cmnt_ref1)jgr:
+[windows installer]: /images/josm/windows-installer.png
+
+[josm splash page]: /images/josm/josm-splash-page.png
+
+[preferences window]: /images/josm/josm_preferences.png
+
+[look and feel]: /images/josm/josm_look-and-feel.png
+
+[open file]: /images/josm/josm_open-file.png
+
+[sample file]: /images/josm/josm_sample-file.png
+
+[scale bar]: /images/josm/josm_scale-bar.png
+
+[select tool]: /images/josm/josm_select-tool.png
+
+[draw tool]: /images/josm/josm_draw-tool.png
