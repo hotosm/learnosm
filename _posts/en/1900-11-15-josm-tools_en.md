@@ -64,7 +64,7 @@ If you are combining roads that have different directions, you might get this wa
 
 ![Reverse and combine][]
 
-If the roads are connected and go in the same direction, then choose "Reverse and Continue."
+If the roads are connected and go in the same direction, then choose "Reverse and Combine."
 
 
 ### Reverse Way

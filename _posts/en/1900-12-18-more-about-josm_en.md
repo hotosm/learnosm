@@ -29,7 +29,7 @@ Downloading OSM Data
 --------------------
 The first editing step is to download the data for the area of the world that we want to improve. Remember that you need to do this every time that you want to make changes to the map, because the map is often being updated by other users.
 
--   Click on “File” in the top left corner of JOSM and click “Download from OSM”. This will open up the download window. You can access this window more simply by clicking on the download button, shown here:
+-   Click on “File” in the top left corner of JOSM and click “Download data...”. This will open up the download window. You can access this window more simply by clicking on the download button, shown here:
 
 ![JOSM Download Button][]
 
