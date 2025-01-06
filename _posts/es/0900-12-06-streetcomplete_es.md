@@ -10,39 +10,39 @@ StreetComplete
 ==============
 
 
-**StreetComplete** es un editor OpenStreetMap fácil de usar para teléfonos y tablets Android, usado para mapear en el campo completando las misiones disponibles que aparecen como marcadores en el mapa.
+**StreetComplete** es un editor OpenStreetMap fácil de usar para teléfonos y tablets Android, usado para mapear en el campo completando principalmente las "misiones" disponibles que aparecen como marcadores en el mapa.
 
 La aplicación está hecha específicamente para contribuidores ocasionales y principiantes ya que no se necesita ningún conocimiento previo sobre OpenStreetMap (como los esquemas de etiquetado) para contribuir usando la aplicación.
 
 Puedes descargarla desde Google Play Store, Amazon o F-Droid. Los lanzamientos y versiones beta de la aplicación están también disponibles en su repositorio Github.
 
-La aplicación muestra sitios a los que se puede añadir datos a OpenStreetMap a través de la aplicación como marcadores de misiones en el mapa. Esta aplicación lista todos los tipos de misión disponibles en un sitio particular dependiendo de los data ya existentes en OpenStreetMap.
+La aplicación muestra sitios a los que se puede añadir datos a OpenStreetMap a través de la aplicación como marcadores de misiones en el mapa. Esta aplicación lista todos los tipos de misión disponibles en un sitio particular dependiendo de los datos ya existentes en OpenStreetMap.
 
-**Añadir datos a  OpenStreetMap usando StreetComplete**
+**Añadir datos a OpenStreetMap usando StreetComplete**
 
-1. El contribuidor necesita una cuenta de OpenStreetMap antes de realizar ninguna contribución utilizando esta aplicación como con cualquier otra aplicación usada para contribuir a OpenStreetMap.
-2. Pantallas y páginas de Bienvenida
+1.  El contribuidor necesita una cuenta de OpenStreetMap antes de realizar ninguna contribución utilizando esta aplicación como con cualquier otra aplicación usada para contribuir a OpenStreetMap.
+2.  Pantallas y páginas de bienvenida
 
 ![Welcome][]
 
-3. Cuando clickas en "Vamos!" tienes que permitir que StreetComplete acceda a la ubicación del dispositivo.
+3.  Cuando pulsas en "¡Vamos!" tienes que permitir que StreetComplete acceda a la ubicación del dispositivo.
 
 ![Allow][]
 
-4. Haz click en las tres lineas de la esquina superior derecha, después haz click en Mi perfil y luego en iniciar sesión con tu cuenta de OpenStreetMap.
+4.  Pulsa en las tres líneas de la esquina superior derecha, después pulsa en Mi perfil y luego en Iniciar sesión con tu cuenta de OpenStreetMap.
 
 ![Menu+Login][]
 ![Login][]
 
-¿Qué son las misiones? Las misiones son simples puntos o lugares que han sido identificados por tener datos faltantes y están disponibles dependiendo de la ubicación.
+¿Qué son las misiones? Las misiones son simplemente puntos o lugares que han sido identificados por tener datos faltantes y están disponibles dependiendo de la ubicación.
 
 Las preguntas varían en función de la información faltante y del elemento cuya información falta.
 
 ![Building quest][]
 
-Por ejemplo, para edificios, podrín preguntar sobre ***¿Cuántas plantas por encima del sótano tiene este edificio?*** o ***¿Qué tipo de edificio es este?***
+Por ejemplo, para edificios, podrían preguntar sobre ***¿Cuántas plantas por encima del sótano tiene este edificio?*** o ***¿Qué tipo de edificio es este?***
 
-Para carreteras, ***¿Qué tipo de superfície tiene este trozo de (in town) calle / (out of town) carretera / (minor) camino?***
+Para carreteras, ***¿Qué tipo de superficie tiene esta carretera?***
 
 ![More quests][]
 

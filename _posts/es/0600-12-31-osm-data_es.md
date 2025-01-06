@@ -11,7 +11,7 @@ nosearch: true
 Datos OpenStreetMap
 ==================
 
-OpenStreetMap es una base de datos masiva de información geográfica, y es totalmente abierta y gratuita. Pero ¿cómo se accede a la información? En esta sección discutiremos de forma detallada como está organizada la información de OSM y como puede acceder y usar esa información en la que esté interesado.  
+OpenStreetMap es una base de datos masiva de información geográfica, y es totalmente abierta y gratuita. Pero ¿cómo accedes a la información? En esta sección, analizaremos con más detalle cómo se organizan los datos de OSM y cómo puedes acceder y utilizar los datos que te interesan.  
 
 <!--
 Cubriremos:

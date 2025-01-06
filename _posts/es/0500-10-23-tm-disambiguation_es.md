@@ -10,7 +10,7 @@ navigation: skip
 Versiones de Tasking Manager
 ============
 
-Esta página le ofrece una visión de conjunto sobre las versiones del Tasking Manager para los que les ofrecemos documentación. Seleccione la guía con las capturas de pantalla que correspondan con la versión del software con el cual desea trabajar.
+Esta página te ofrece una visión general de las versiones del Tasking Manager para las que ofrecemos documentación. Selecciona la guía con las capturas de pantalla que coincidan con la versión del software con la que quieres trabajar.
 
 <div class='disambiguation-version' markdown="1">
 ## Versión 4 ##
@@ -23,7 +23,7 @@ Esta página le ofrece una visión de conjunto sobre las versiones del Tasking M
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/es/coordination/tm-user) [Administrator guide](/es/coordination/tm-admin)
+[Guía de usuario](/es/coordination/tm-user) [Guía de administrador](/es/coordination/tm-admin)
 </div>
 </div>
 
@@ -39,7 +39,7 @@ Esta página le ofrece una visión de conjunto sobre las versiones del Tasking M
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/es/coordination/tasking-manager3) [Administrator guide](/es/coordination/tasking-manager3-project-admin)
+[Guía de usuario](/es/coordination/tasking-manager3) [Guía de administrador](/es/coordination/tasking-manager3-project-admin)
 </div>
 </div>
 
@@ -55,7 +55,7 @@ Esta página le ofrece una visión de conjunto sobre las versiones del Tasking M
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/es/coordination/tasking-manager) [Administrator guide](/es/coordination/tasking-manager-project-admin)
+[Guía de usuario](/es/coordination/tasking-manager) [Guía de administrador](/es/coordination/tasking-manager-project-admin)
 </div>
 </div>
 

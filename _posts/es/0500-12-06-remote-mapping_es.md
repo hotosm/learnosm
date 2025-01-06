@@ -12,58 +12,58 @@ category: coordination
 
 > Revisado 2015-09-18  
 
-El Equipo de OpenStreetMap Humanitario (Humanitarian OpenStreetMap Team - HOT) es una comunidad global que trabaja para aplicar los principios del código abierto y datos abiertos compartiendo hacia la respuesta humanitaria y el desarrollo económico.  
+El Equipo Humanitario de OpenStreetMap (Humanitarian OpenStreetMap Team - HOT) es una comunidad global que trabaja para aplicar los principios del código abierto y los datos abiertos, compartiéndolos para la respuesta humanitaria y el desarrollo económico.  
 
-### ¿Cómo funciona Respuesta Remota?  
+### ¿Cómo funciona la respuesta remota? 
 
-La mayoría de las actividades de respuesta de HOT se producen de forma remota. Después de un desastre, los miembros HOT buscan datos existentes y las imágenes de satélite disponibles. Socios pertinentes se ponen en contacto para proporcionar imágenes compatibles ODbL. Una vez que se obtiene la imagen la comunidad virtual se digitaliza, o rastros de las imágenes (normalmente, la atención se centra en objetos reconocibles que son útiles para la respuesta humanitaria, como carreteras, edificios, carreteras bloqueadas, extensión de la inundación, etc.) y genera los datos y mapas. Durante este tiempo, las organizaciones que respondieron también se ponen en contacto para determinar sus necesidades.  
+La mayoría de las actividades de respuesta de HOT se producen de forma remota. Después de un desastre, los miembros de HOT buscan datos existentes y las imágenes satelitales disponibles. Se contacta con los socios pertinentes para proporcionar imágenes compatibles con ODbL. Una vez que se obtienen las imágenes, la comunidad virtual digitaliza o traza a partir de las imágenes (normalmente, la atención se centra en los objetos reconocibles que son útiles para la respuesta humanitaria, como carreteras, edificios, carreteras bloqueadas, extensión de las inundaciones, etc.) y genera los datos y los mapas. Durante este tiempo, también se contacta con las organizaciones que responden para determinar sus necesidades.  
 
-Teniendo en cuenta la magnitud de la crisis, HOT asigna los recursos necesarios y la respuesta es coordinada por un equipo específico o miembro que se asegura que todo el mundo sepa que los nuevos recursos están disponibles, así como dónde concentrar los esfuerzos. HOT fomenta la participación de la comunidad OSM y, si existe, actores locales existentes para utilizar herramientas como el Administrador de Tareas para coordinar los esfuerzos de respuesta. Los ejemplos incluyen las actividades remotas hechas en Costa de Marfil, Senegal, Filipinas y la República Democrática del Congo.  
+Teniendo en cuenta la magnitud de la crisis, HOT asigna los recursos necesarios y la respuesta es coordinada por un equipo o miembro específico que se asegura de que todo el mundo sepa cuándo hay nuevos recursos disponibles, así como dónde concentrar los esfuerzos. HOT fomenta la participación de la comunidad OSM y, si existen, de los actores locales para utilizar herramientas como el Tasking Manager (Administrador de Tareas) para coordinar los esfuerzos de respuesta. Algunos ejemplos son las actividades remotas realizadas en Costa de Marfil, Senegal, Filipinas y la República Democrática del Congo.  
 
-[Ejemplo  de Activación en Siria](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
+[Ejemplo de activación en Siria](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
 
-### El Administrador de Tareas HOT 
+### El Tasking Manager de HOT 
 
-El [Administrador de Tareas HOT] (http://tasks.hotosm.org/) es una herramienta de código abierto diseñado para dividir un trabajo de mapeo en tareas más pequeñas que se pueden completar rápidamente. Muestra qué áreas necesitan ser asignada y qué áreas necesitan el mapeo validado por otros. Incluye tareas de mapeo para [Activaciones] (http://wiki.openstreetmap.org/wiki/HOT_activation), y ya de pie [Proyectos Humanitarios] (http://hot.openstreetmap.org/projects).  
+El [Tasking Manager (Administrador de Tareas) de HOT] (http://tasks.hotosm.org/) es una herramienta de código abierto diseñada para dividir un trabajo de mapeo en tareas más pequeñas que se pueden completar rápidamente. Muestra qué áreas necesitan ser mapeadas y qué áreas necesitan que el mapeo sea validado por otros. Incluye tareas de mapeo para [activaciones] (http://wiki.openstreetmap.org/wiki/HOT_activation) y [proyectos humanitarios] (http://hot.openstreetmap.org/projects) ya existentes.  
 
-Para utilizar el Administrador de Tareas HOT necesita registrarse con OpenStreetMap (OSM) con un nombre de usuario y contraseña. Para más instrucciones lee el [Tutorial del Administrador de Tareas] (http://learnosm.org/es/coordination/tm-user/).  
+Para utilizar el Tasking Manager de HOT, necesitas registrarte en OpenStreetMap (OSM) con un nombre de usuario y una contraseña. Para obtener más instrucciones, lee el [Tutorial del Tasking Manager](/es/coordination/tm-user/).  
 
 
-### Herramientas de Edición 
+### Herramientas de edición 
 
-[ID](http://learnosm.org/es/beginner/id-editor/) - el editor basado en web creado por [Mapbox](www.mapbox.com) con una interfaz muy fácil de usar. Generalmente considerado la mejor herramienta de edición para empezar. Puedes lanzar este [tutorial interactivo del editor iD](http://ideditor.com/) para conocer cómo usarlo.  
+[iD](http://learnosm.org/es/beginner/id-editor/) - El editor basado en web creado por [Mapbox](www.mapbox.com) con una interfaz muy fácil de usar. Generalmente se considera la mejor herramienta de edición para empezar. Puedes iniciar este [tutorial interactivo del editor iD](http://ideditor.com/) para familiarizarte con su uso.  
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
 
-[JOSM](https://josm.openstreetmap.de/)- una aplicación Java pronunciado como "Jaws-um", lo que requiere la descarga de la aplicación y tiene una mayor curva de aprendizaje. Aunque se necesita más tiempo para configurar y aprender, es súper rápido para hacer más ediciones. El uso de un ratón se recomienda para el uso de este editor.  
+[JOSM](https://josm.openstreetmap.de/) - Una aplicación Java que se pronuncia como "Jaws-um", que requiere la descarga de la aplicación y tiene una curva de aprendizaje mayor. Aunque lleva más tiempo configurarlo y aprenderlo, es superrápido para hacer más ediciones. Se recomienda utilizar un ratón para usar este editor.  
 
 ![JOSM](https://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
-### Asesoramiento y Palabras de Aliento
+### Consejos y palabras de ánimo
 
-> "Para practicarlo es recomendable que comience con un área local que conoce y pruebe algunas ediciones, como la actualización de un edificio local de su barrio." 
+> "Para practicar, se recomienda que comiences con un área local que conozcas y pruebes algunas ediciones, como actualizar un edificio local de tu barrio".
 
-> "Algunas tareas son más fáciles que otras; si no se siente a uno de ellos, simplemente cancele y pruebe con otro!" -Peter (@meetar) 
+> "Algunas tareas son más fáciles que otras; si no te sientes con ganas de hacer una de ellas, ¡simplemente cancela y prueba otra!". -Peter (@meetar)
 
-> "No es ningún problema si no terminas la tarea; acaba de subir lo que has hecho y desbloquea la tarea para que otros puedan trabajar en ella." -Peter (@meetar)  
+> "No hay problema si no terminas la tarea; simplemente sube lo que has hecho y desbloquea la tarea para que otros puedan trabajar en ella". -Peter (@meetar)
 
-> "Las imágenes de satélite son a veces difíciles de interpretar, pero no se preocupe demasiado acerca de la elaboración de la línea perfecta o la forma - su trabajo será revisado y modificado por los demás, y mejorado con el tiempo. Y recuerde, estas son zonas de crisis, no los registros fiscales o distritos electorales - estos mapas serán leídos por personas que pueden estar en un apuro, en la oscuridad, o en peligro. En África occidental, incluso una línea dura sobre un mapa es una expresión de esperanza. En Gaza, muchos de los edificios para ser mapeados ya se han ido; pero marcamos el hecho de su construcción. La precisión es agradable, pero no es el punto." -Peter (@meetar) 
+> "Las imágenes satelitales a veces son difíciles de interpretar, pero no te preocupes demasiado por dibujar la línea o la forma perfectas; tu trabajo será revisado y modificado por los demás, y mejorado con el tiempo. Y recuerda: estas son zonas de crisis, no registros fiscales o distritos electorales. Estos mapas serán leídos por personas que pueden tener prisa, estar en la oscuridad o en peligro. En África occidental, incluso una línea aproximada en un mapa es una expresión de esperanza. En Gaza, muchos de los edificios que se van a mapear ya han desaparecido, pero marcamos el hecho de su construcción. La precisión es buena, pero no es lo más importante". -Peter (@meetar)
 
-### Otros Recursos  
+### Otros recursos 
 
-Esta guía ha sido resumida y recolectada de una variedad de fuentes de tutoría existentes y una guía de trabajo HOT. Puede encontrar más recursos de aprendizaje en los siguientes enlaces.  
+Esta guía se ha resumido y recopilado a partir de diversas fuentes de tutoriales existentes y una guía de trabajo de HOT. Puedes encontrar más recursos de aprendizaje en los siguientes enlaces.  
 
 #### Tutoriales
 
-[Guía de Mapeo Remoto de LearnOSM](http://learnosm.org/es/coordination/remote/)- una de las guías más completas  
+[Guía de mapeo remoto de LearnOSM](http://learnosm.org/es/coordination/remote/) - Una de las guías más completas  
 
-[Tutorial Aprende a Mapear MapGive](http://mapgive.state.gov/learn-to-map/)- incluye videos que puede pausar para seguirlo  
+[Tutorial Learn to Map de MapGive](http://mapgive.state.gov/learn-to-map/) - Incluye vídeos que puedes pausar para seguirlos  
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - escrito por Peter Richardson (@meetar) un experimentado Voluntario HOT de Respuesta Remota 
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - Escrito por Peter Richardson (@meetar), un experimentado voluntario de respuesta remota de HOT. Atención: la información proporcionada está desactualizada, pero sigue siendo útil. 
 
-#### Acerca de HOT  
+#### Acerca de HOT 
 
-[Página Wiki de HOT](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  aprender más sobre cómo funciona HOT y algunas de sus últimas novedades  
+[Página wiki de HOT](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  Aprende más sobre cómo funciona HOT y algunas de sus últimas noticias  
 
-[Actividades HOT](https://www.hotosm.org/what-we-do) - describe las actividades HOT con más detalle desde su página web  
+[Actividades de HOT](https://www.hotosm.org/what-we-do) - Describe las actividades de HOT con más detalle desde su sitio web  

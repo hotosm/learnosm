@@ -15,166 +15,166 @@ GPS Essentials
 Instalación de GPS Essentials
 -------------
 
-1. Pulse el icono de la aplicación "Tienda Google Play" en la pantalla de inicio de su dispositivo Android para abrir el Android Market.
-2. Toque el icono "Buscar" en la esquina superior derecha.
-3. Utilice la barra de búsqueda de la parte superior para buscar "GPS Essentials".
-4. Pulse el icono de GPS Essentials y seleccione "Instalar". El icono tiene este aspecto:
+1.  Pulsa el ícono de la aplicación "Google Play Store" en la pantalla de inicio de tu dispositivo Android para abrir Android Market.
+2.  Pulsa el ícono "Buscar" en la esquina superior derecha.
+3.  Usa la barra de búsqueda en la parte superior para buscar "GPS Essentials".
+4.  Pulsa el ícono de GPS Essentials y selecciona "Instalar". El ícono se ve así:
 
     ![GPS Essentials logo][]
 
-Si no tienes acceso a Google Play o si quieres descargar versiones distintas a la estable, como versiones anteriores o la última beta, puedes descargar GPS Essentials desde <http://www.images.com>.
+Si no tienes acceso a Google Play o si quieres descargar versiones distintas a la versión estable, como versiones anteriores o la última beta, puedes descargar GPS Essentials desde <http://www.images.com>.
 
-Configurar GPS Essentials para trabajar sin conexión
+Configura GPS Essentials para trabajar sin conexión
 -------------
 
-1. Abra GPS Essentials. 2. Vaya a Configuración y seleccione Caché de mapa. 3. Mueve el límite de la caché al máximo.
+1.  Abre GPS Essentials. Ve a Ajustes y selecciona Caché de Mapa. Mueve el límite de caché al máximo.
 
     ![Map Cache][]
 
-2. Encuentre una conexión de red fuerte. 3. En la pantalla principal, seleccione "Mapas portátiles". Cada mapa que veas en el modo de mapas portátiles se guarda automáticamente en la memoria del Android. Guarde los mapas que vaya a necesitar fuera de línea con el mayor detalle posible, y acerque lentamente el zoom a cada waypoint.
+2.  Busca una conexión de red fuerte. Desde la pantalla principal, selecciona 'Mapas portátiles'. Cada mapa que veas en modo de mapa portátil se guarda automáticamente en la memoria del Android. Guarda los mapas que necesitarás sin conexión con el mayor detalle posible y acerca lentamente el zoom a cada punto de referencia.
 
-3. Desconéctese de la red y vea los mapas en modo de mapa portátil. Si algunos mapas carecen de detalles, vuelva a conectarse a una red y acerque lentamente la ubicación del mapa que necesita.
+3.  Desconéctate de la red y visualiza los mapas en modo de mapa portátil. Si a algunos mapas les falta detalle, vuelve a conectarte a una red y acerca lentamente el zoom a la ubicación del mapa que necesitas.
 
 Función GPS en el teléfono Android
 -------------
 
-Antes de utilizar la aplicación GPS Essentials, asegúrese de que el GPS en su teléfono Android está habilitado.
+Antes de usar la aplicación GPS Essentials, asegúrate de que el GPS de tu teléfono Android esté habilitado.
 
 ![Enable GPS in Android][]
 
-Adquiriendo satélites
+Adquisición de satélites
 -------------
 
-Antes de que un receptor GPS emita una localización (también llamada punto GPS), debe recibir señales de al menos cuatro satélites. Cuanto más bajo esté el satélite sobre el horizonte, más tiempo viajan sus señales a través de la atmósfera, por lo que los satélites situados a gran altura sobre el horizonte suelen tener mejores señales.
+Antes de que un receptor GPS emita una ubicación (también llamada corrección GPS), debe recibir señales de al menos cuatro satélites. Cuanto más bajo esté el satélite sobre el horizonte, más tiempo viajarán sus señales a través de la atmósfera, por lo que los satélites que están por encima del horizonte suelen tener mejores señales.
 
-Para comprobar los satélites en su área:
+Para comprobar los satélites en tu área:
 
-1. En el menú principal, seleccione Satélites.
+1.  En el menú principal, selecciona Satélites.
 
     ![Satellites page][]
 
-2. Si hay al menos cuatro satélites utilizados en la fijación, entonces puede empezar a utilizar las funciones de GPS Essentials.
+2.  Si hay al menos cuatro satélites utilizados en la corrección, entonces puedes empezar a usar las funciones de GPS Essentials.
 
 Creación de trazas
 -------------
 
-1. En el menú principal, seleccione Tracks.
+1.  En el menú principal, selecciona Trazas.
 
-2. Pulse en Inicio en la barra de herramientas. Se creará un nuevo track y comenzará a grabar. Espere unos segundos hasta que el punto de GPS esté disponible.
+2.  Pulsa en Iniciar en la barra de herramientas. Se creará una nueva traza y comenzará la grabación. Espera unos segundos hasta que la corrección GPS esté disponible.
 
     ![New Track][]
 
-3. Seleccione el botón de Pausa para pausar la grabación. Si desea continuar la grabación, púlselo de nuevo.
+3.  Selecciona el botón Pausar para pausar la grabación. Si quieres continuar grabando, presiónalo de nuevo.
 
-Creación de waypoints
+Creación de puntos de referencia
 -------------
 
-### Uso de Mapas portátiles
+### Usando Mapas Portátiles
 
-1. En el menú principal, seleccione Mapas Portátiles.
+1.  En el menú principal, selecciona Mapas portátiles.
 
-2. Mantenga pulsado el mapa para crear un nuevo cursor.
+2.  Mantén pulsado el mapa para crear un nuevo cursor.
 
     ![Waypoints1][]
 
-3. Arrastre el cursor hasta el lugar en el que desea el nuevo waypoint.
+3.  Arrastra el cursor a la ubicación donde quieres el nuevo punto de referencia.
 
-4. Pulse sobre Acciones para mostrar el panel de acciones. El icono de Acciones tiene el siguiente aspecto:
+4.  Pulsa en Acciones para mostrar el panel de acciones. El ícono de Acciones se ve así:
 
     ![Actions][]
 
-5. Seleccione la herramienta Añadir para crear el waypoint.
+5.  Selecciona la herramienta Añadir para crear el punto de referencia.
 
     ![Waypoints2][]
 
-### Uso de Google Maps
+### Usando Google Maps
 
-1. En el menú principal, seleccione Google Maps.
+1.  En el menú principal, selecciona Google Maps.
 
-2. Dirígete a la ubicación en la que quieres añadir tu waypoint.
+2.  Ve a la ubicación donde quieres añadir tu punto de referencia.
 
-3. Seleccione la herramienta Añadir para crear el waypoint. 4. Pulse sobre la ubicación en el mapa para crear un waypoint allí. Si desea crear un waypoint en su ubicación actual, pulse de nuevo el botón Añadir Waypoint.
+3.  Selecciona la herramienta Añadir para crear el punto de referencia. Pulsa en la ubicación del mapa para crear un punto de referencia allí. Si quieres crear un punto de referencia en tu ubicación actual, pulsa el botón Añadir punto de referencia de nuevo.
 
     ![GoogleMaps][]
 
-4. Repita los pasos b y c hasta que termine de grabar los waypoints deseados.
+4.  Repite los pasos b y c hasta que hayas terminado de registrar los puntos de referencia que deseas.
 
-### Uso de la página Waypoints
+### Usando la página de puntos de referencia
 
-1. En el menú principal, seleccione Waypoints.
+1.  En el menú principal, selecciona Puntos de referencia.
 
-2. Seleccione la herramienta Añadir para crear el waypoint.
+2.  Selecciona la herramienta Añadir para crear el punto de referencia.
 
     ![Waypointspage1][]
 
-3. Comenzará a grabar su primer waypoint. Puede cambiar los atributos del waypoint y luego pulsar Atrás para volver a la lista.
+3.  Comenzará a grabar tu primer punto de referencia. Puedes cambiar los atributos del punto de referencia y luego presionar Atrás para volver a la lista.
 
     ![Waypointspage2][]
 
-4. Cuando seleccione el panel Mapa, verá dónde se encuentra su waypoint en el mapa.
+4.  Cuando selecciones el panel Mapa, verás dónde se encuentra tu punto de referencia en el mapa.
 
     ![Waypointspage3][]
 
-5. Seleccione el icono Cerrar para guardar su waypoint. El icono Cerrar tiene el siguiente aspecto:
+5.  Selecciona el ícono Cerrar para guardar tu punto de referencia. El ícono Cerrar se ve así:
 
     ![Close][]
 
-Geoetiquetado de Fotos
+Geoetiquetado de fotos
 -------------
 
-1. En el menú principal, seleccione Cámara.
+1.  En el menú principal, selecciona Cámara.
 
-2. Tome una foto de la zona que desee para el geoetiquetado.
+2.  Toma una foto del área que deseas geoetiquetar.
 
-3. La foto que tomaste servirá como punto en la vía y se guardará automáticamente en la página de Portable Maps y Google Maps.
+3.  La foto que tomaste servirá como punto de referencia y se guardará automáticamente en la página de Mapas portátiles y Google Maps.
 
-4. Los datos (ubicación de la imagen y el nombre del archivo de la foto) también se registrarán en la página de puntos de ruta. 5. También puede elegir el icono que se utilizará para una imagen concreta. El icono se mostrará también en la página de Portable Maps y Google Maps.
+4.  Los datos (ubicación de la imagen y el nombre del archivo de la foto) también se registrarán en la página de Puntos de referencia. También puedes elegir qué ícono se usará para una imagen en particular. El ícono se mostrará también en la página de Mapas portátiles y Google Maps.
 
 Fotos guardadas
 -------------
 
-Todas tus imágenes están en la carpeta com.mictale.images de tu tarjeta SD. Puede eliminar imágenes de esta carpeta e incluso puede añadir otras nuevas. GPS Essentials escanea esta carpeta regularmente para ver qué hay de nuevo.
+Todas tus fotos están en la carpeta com.mictale.images de tu tarjeta SD. Puedes eliminar fotos de esta carpeta e incluso puedes añadir nuevas. GPS Essentials escanea esta carpeta regularmente para ver qué hay de nuevo.
 
-Exportar / Guardar Waypoints
+Exportar/Guardar puntos de referencia
 -------------
 
-1. En el menú principal, seleccione Puntos de ruta (Waypoints). Te mostrará la lista de puntos de ruta que has grabado.
+1.  En el menú principal, selecciona Puntos de referencia. Te mostrará la lista de puntos de referencia que has registrado.
 
-2. Para exportar todos los puntos de ruta, seleccione Exportar en el botón Opciones. Si desea exportar un solo punto de ruta, seleccione el punto de ruta deseado, haga clic en el botón Opciones y seleccione Exportar.
+2.  Para exportar todos los puntos de referencia, selecciona Exportar en el botón Opciones. Si quieres exportar un solo punto de referencia, selecciona el punto de referencia deseado, haz clic en el botón Opciones y selecciona Exportar.
 
-3. El cuadro desplegable le permitirá seleccionar el tipo de archivo que desea exportar. Por ahora, haz clic en KML (Google Earth).
+3.  El cuadro desplegable te permitirá seleccionar el tipo de archivo al que quieres exportar tus datos. Por ahora, haz clic en KML (Google Earth).
 
     ![Export file format][]
 
-4. Seleccione el icono de la tarjeta SD para seleccionar manualmente la ubicación deseada del archivo.
+4.  Selecciona el ícono de la tarjeta SD para seleccionar manualmente la ubicación deseada del archivo.
 
     ![Export to SD card][]
 
-5. Haga clic en este icono para guardar.
+5.  Haz clic en este ícono para Guardar.
 
     ![Arrow][]
 
-Exportar/Guardar trazas
+Exportar/Guardar rutas
 -------------
 
-1. En el menú principal, seleccione Trazas (Tracks). Esto muestra los datos de la traza actual que ha grabado.
+1.  En el menú principal, selecciona Rutas. Muestra los datos de la ruta actual que has registrado.
 
-2. Seleccione Exportar en el botón Opciones para escribir el contenido de la traza actual en un archivo.
+2.  Selecciona Exportar en el botón Opciones para escribir el contenido de la ruta actual en un archivo.
 
-3. Si desea exportar la traza anterior que grabó, seleccione el icono Trazas y elija la traza deseada. Haga clic en el botón Opciones y seleccione Exportar. El icono Trazas tiene el siguiente aspecto:
+3.  Si quieres exportar la ruta anterior que grabaste, selecciona el ícono Rutas y elige la ruta deseada. Haz clic en el botón Opciones y selecciona Exportar. El ícono Rutas se ve así:
 
     ![Footprints][]
 
 
-4. El cuadro desplegable le permitirá seleccionar el tipo de archivo que desea exportar. Por ahora, haz clic en KML (Google Earth).
+4.  El cuadro desplegable te permitirá seleccionar el tipo de archivo al que quieres exportar tus datos. Por ahora, haz clic en KML (Google Earth).
 
     ![Export1][]
 
-5. Seleccione el icono de la tarjeta SD para seleccionar manualmente la ubicación deseada del archivo.
+5.  Selecciona el ícono de la tarjeta SD para seleccionar manualmente la ubicación deseada del archivo.
 
     ![Export3][]
 
-6. Haga clic en este icono para guardar.
+6.  Haz clic en este ícono para Guardar.
 
     ![Arrow][]
 

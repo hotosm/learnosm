@@ -28,7 +28,7 @@ Stažení dat OSM
 --------------------
 Prvním krokem úpravy je stažení dat pro oblast světa, kterou chceme vylepšit. Nezapomeňte, že to musíte udělat pokaždé, když chcete na mapě provést změny, protože mapu často aktualizují jiní uživatelé.
 
-- Klikněte na „Soubor“ v levém horním rohu JOSM a poté na „Stáhnout z OSM“. Tím se otevře okno stahování. Do tohoto okna se dostanete snadněji kliknutím na tlačítko Stáhnout, které je zde:
+- Klikněte na „Soubor“ v levém horním rohu JOSM a poté na „Stáhnout data...“. Tím se otevře okno stahování. Do tohoto okna se dostanete snadněji kliknutím na tlačítko Stáhnout, které je zde:
 
 ![JOSM Download Button][]
 

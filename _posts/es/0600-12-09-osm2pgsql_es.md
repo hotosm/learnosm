@@ -10,118 +10,118 @@ osm2pgsql
 ==========
 
 
-En el capítulo anterior vimos cómo configurar Postgresql con PostGIS en Windows y cómo configurar una base de datos y cargarla con datos de archivos de forma. Para obtener los datos de OpenStreetMap en una base de datos, puede obtener los datos en formato shapefile y usar el cargador de archivos shapefile, pero esto puede dejarlo sin todos los datos que desea. En este capítulo aprenderemos cómo usar **osm2pgsql**, un programa de línea de comandos para cargar datos OSM sin procesar en una base de datos PostGIS.  
+En el capítulo anterior vimos cómo configurar Postgresql con PostGIS en Windows y cómo configurar una base de datos y cargarla con datos de archivos shapefile. Para obtener los datos de OpenStreetMap en una base de datos, podrías obtener los datos en formato shapefile y usar el cargador de archivos shapefile, pero esto puede dejarte sin todos los datos que deseas. En este capítulo aprenderemos cómo usar **osm2pgsql**, un programa de línea de comandos para cargar datos OSM sin procesar en una base de datos PostGIS.  
 
-Revisaremos los pasos para configurar osm2pgsql en Windows, aunque los pasos deberían ser más o menos los mismos en otro sistema operativo, suponiendo que haya configurado sus bases de datos PostGIS correctamente.  
+Revisaremos los pasos para configurar osm2pgsql en Windows, aunque los pasos deberían ser más o menos los mismos en otro sistema operativo, suponiendo que hayas configurado tus bases de datos PostGIS correctamente.  
 
 Obtener osm2pgsql
 -------------
 
-Para descargar la versión para Windows de osm2pgsql, navegue su navegador web a <http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows>.  
+Para descargar la versión para Windows de osm2pgsql, navega con tu navegador web a <http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows>.  
 
 ![windows binary][]
 
-- Descargue el archivo llamado **osm2pgsql.zip**  
-- Descomprima el archivo en su sistema. Debe mover la carpeta descomprimida a una ubicación donde no la moverá más adelante, porque necesitamos agregar su ubicación a la ruta del sistema.  
+- Descarga el archivo llamado **osm2pgsql.zip**.  
+- Descomprime el archivo en tu sistema. Debes mover la carpeta descomprimida a una ubicación donde no la moverás más adelante, porque necesitamos agregar su ubicación a la ruta del sistema.  
 
 ![unzip it][]
 
-- En el directorio osm2pgsql que descomprimiste hay un archivo llamado osm2pgsql.exe. Este es un programa que ejecutaremos para importar los datos, pero para que Windows los encuentre, necesitamos agregar su ubicación a la ruta del sistema. Haga clic en el menú Inicio y escriba "ruta del sistema".  
+- En el directorio osm2pgsql que descomprimiste hay un archivo llamado osm2pgsql.exe. Este es un programa que ejecutaremos para importar los datos, pero para que Windows lo encuentre, necesitamos agregar su ubicación a la ruta del sistema. Haz clic en el menú Inicio y escribe "ruta del sistema".  
 
 ![system path][]
 
-- Debería ver una opción llamada "Editar las variables de entorno del sistema". Haz click en eso.  
+- Deberías ver una opción llamada "Editar las variables de entorno del sistema". Haz clic en ella.  
 
 ![edit variables][]
 
-- Haga clic en el botón llamado "**Variables de entorno**"  
+- Haz clic en el botón llamado "**Variables de entorno**".  
 
 ![env variables][]
 
-- En la parte inferior, busque la variable llamada "**Ruta**" y haga clic en "**Editar...**"  
+- En la parte inferior, busca la variable llamada "**Ruta**" y haz clic en "**Editar...**".  
 
 ![find path][]
 
-- Debe agregar el directorio donde se encuentra osm2pgsql.exe a la variable Ruta.  
+- Debes agregar el directorio donde se encuentra osm2pgsql.exe a la variable Ruta.  
 
 ![edit path][]
 
-- Agregue un punto y coma al final del directorio anterior y luego escriba la ruta completa del directorio osm2pgsql.exe. Por ejemplo, si coloca la carpeta **osm2pgsql** directamente en el directorio **C:\\**, la ruta sería:  
+- Agrega un punto y coma al final del directorio anterior y luego escribe la ruta completa del directorio osm2pgsql.exe. Por ejemplo, si colocas la carpeta **osm2pgsql** directamente en el directorio **C:\\**, la ruta sería:  
 	
 **C:\osm2pgsql\Win32**  
 
-- Haga clic en Aceptar varias veces para guardar la nueva configuración.  
-- **osm2pgsql** debería estar funcionando ahora. Vamos a verlo  
-- Abra el símbolo del sistema de Windows. Puede hacer esto haciendo clic en el menú Inicio y escribiendo "**cmd**". Aparecerá la aplicación del símbolo del sistema y puede presionar Entrar o hacer clic en ella.  
+- Haz clic en Aceptar varias veces para guardar la nueva configuración.  
+- **osm2pgsql** debería estar funcionando ahora. Vamos a comprobarlo.  
+- Abre el símbolo del sistema de Windows. Puedes hacerlo haciendo clic en el menú Inicio y escribiendo "**cmd**". Aparecerá la aplicación del símbolo del sistema y puedes presionar Intro o hacer clic en ella.  
 
 ![cmd][]
 
-- En la ventana de comando negra que se abre, escriba:  
+- En la ventana de comandos negra que se abre, escribe:  
 
 **osm2pgsql**
 
-- Si todo funciona correctamente, debería recibir un mensaje como este:  
+- Si todo funciona correctamente, deberías recibir un mensaje como este:  
 
 ![osm2pgsql test][]
 
-- Si no ve un mensaje de error como este, y dice que no puede encontrar la aplicación **osm2pgsql**, es posible que haya ingresado la variable Path incorrectamente.  
+- Si no ves un mensaje de error como este y dice que no puede encontrar la aplicación **osm2pgsql**, es posible que hayas ingresado la variable Path incorrectamente.  
 
 Obteniendo datos sin procesar de OSM
 ---------------------
-Antes de que podamos ejecutar **osm2pgsql**, necesitamos tener algunos datos OSM sin procesar para importarlos a una base de datos. Si aún no tiene un archivo **.osm** que pueda usar, intente descargar un archivo desde <https://download.bbbike.org/osm/bbbike/>. Este sitio alberga muchos extractos de OSM para diferentes ciudades. Busque una ciudad para importar y descargue el archivo PBF correspondiente. Los archivos PBF son versiones comprimidas de los archivos **.osm** normales. Puede utilizar cualquiera de los servicios de extracción enumerados en el capítulo sobre [obtener datos] (/en/osm-data/getting-data), si desea los datos sin procesar para otra área.   
+Antes de que podamos ejecutar **osm2pgsql**, necesitamos tener algunos datos OSM sin procesar para importarlos a una base de datos. Si aún no tienes un archivo **.osm** que puedas usar, intenta descargar un archivo desde <https://download.bbbike.org/osm/bbbike/>. Este sitio alberga muchos extractos de OSM para diferentes ciudades. Busca una ciudad para importar y descarga el archivo PBF correspondiente. Los archivos PBF son versiones comprimidas de los archivos **.osm** normales. Puedes utilizar cualquiera de los servicios de extracción enumerados en el capítulo sobre [obtener datos](/es/osm-data/getting-data) si deseas los datos sin procesar para otra área.  
 
-Obtenga el archivo de estilo
+Obtener el archivo de estilo
 ------------------
-**osm2pgsql** requiere el uso de un archivo de estilo personalizado para definir qué etiquetas se incluyen en la base de datos durante la importación. Puede descargar el archivo de estilo predeterminado [aquí](/files/default.style).  
+**osm2pgsql** requiere el uso de un archivo de estilo personalizado para definir qué etiquetas se incluyen en la base de datos durante la importación. Puedes descargar el archivo de estilo predeterminado [aquí](/files/default.style).  
 
-Importando Datos
+Importar los datos
 -------------------
-Abra PgAdmin III y cree una nueva base de datos llamada **osm**, tal como lo hizo en el capítulo anterior. Para importar los datos, ejecutaremos el programa **osm2pgsql** a través de la línea de comando. 
+Abre PgAdmin III y crea una nueva base de datos llamada **osm**, tal como lo hiciste en el capítulo anterior. Para importar los datos, ejecutaremos el programa **osm2pgsql** a través de la línea de comandos. 
 
-- Haga clic en el menú Inicio y escriba "cmd" e Intro para abrir el símbolo del sistema.  
+- Haz clic en el menú Inicio, escribe "cmd" y presiona Intro para abrir el símbolo del sistema.  
 
 ![command prompt][]
 
-Aquí ejecutaremos la aplicación **osm2pgsql** con varias opciones. Necesitamos al menos suministrarlo con:  
+Aquí ejecutaremos la aplicación **osm2pgsql** con varias opciones. Necesitamos al menos proporcionarle:  
 
-- La ubicación del Archivo de Datos OSM  
+- La ubicación del archivo de datos OSM  
 - El nombre de la base de datos y el nombre de usuario de la base de datos.  
 - El archivo de estilo que define qué etiquetas OSM se importarán a la base de datos  
 
 Hemos colocado nuestro archivo OSM en el directorio **C:\\** para facilitar esto.  
 
-- Escriba el siguiente comando, reemplazando la ubicación del archivo OSM y el archivo de estilo con el suyo.
+- Escribe el siguiente comando, reemplazando la ubicación del archivo OSM y el archivo de estilo con los tuyos.
 
       osm2pgsql -c -d osm -U postgres -H localhost -S C:\default.style C:\bangkok.osm.pbf  
 
-- Presione Intro. Si todo va bien, el proceso debería comenzar a ejecutarse. Puede llevar algunos minutos cargar todos los datos en la base de datos.  
+- Presiona Intro. Si todo va bien, el proceso debería comenzar a ejecutarse. Puede llevar algunos minutos que todos los datos se carguen en la base de datos.  
 
 ![osm2pgsql output][]
 
-- Si su archivo OSM sin formato es grande, es posible que deba agregar memoria adicional al proceso de importación osm2pgsql. Para hacer esto, agregue lo siguiente al comando:  
+- Si tu archivo OSM sin formato es grande, es posible que debas agregar memoria adicional al proceso de importación de osm2pgsql. Para hacerlo, agrega lo siguiente al comando:  
 
       --cache 600
 
-Probándolo
+Probarlo
 -----------
 
 Podemos probar que la importación fue exitosa y ver los datos en nuestra base de datos usando QGIS.  
 
-- Abra QGIS y haga clic en el botón "Agregar capas PostGIS". ! [qgis agregar botón postgis] [] {: height = "24px"}
+- Abre QGIS y haz clic en el botón "Agregar capas PostGIS". ![qgis add postgis button][]{: height="24px"}
 
-- En "Conexiones" en la parte superior, haga clic en "**Nueva**".  
-- Dé un nombre a la nueva conexión. En base de datos, escriba **osm** (el nombre de su base de datos).  
-- Ingrese el nombre de usuario postgres y su contraseña a continuación.  
+- En "Conexiones", en la parte superior, haz clic en "**Nueva**".  
+- Dale un nombre a la nueva conexión. En "Base de datos", escribe **osm** (el nombre de tu base de datos).  
+- Ingresa el nombre de usuario postgres y tu contraseña a continuación.  
 
 ![connection settings][]
 
-- Haga clic en Aceptar para guardar la configuración de conexión. Luego haga clic en "Conectar" para conectarse a su servidor PostgreSQL.  
-- Haga clic al lado de "público" para ver todas las capas (tablas) en su base de datos. Observe que osm2pgsql crea una tabla separada para diferentes tipos de objetos: puntos, líneas y polígonos. También crea una tabla de carreteras, que contiene solo carreteras principales.  
+- Haz clic en Aceptar para guardar la configuración de conexión. Luego, haz clic en "Conectar" para conectarte a tu servidor PostgreSQL.  
+- Haz clic junto a "public" para ver todas las capas (tablas) de tu base de datos. Observa que osm2pgsql crea una tabla separada para diferentes tipos de objetos: puntos, líneas y polígonos. También crea una tabla de carreteras, que contiene solo las carreteras principales.  
 
 ![postgis layers][]
 
-- Seleccione una o más de las capas y haga clic en "Agregar". Si se le solicita, elija WGS84 como CRS.  
-- Si todo tiene éxito, verá las capas que seleccionó en QGIS.  
+- Selecciona una o más de las capas y haz clic en "Agregar". Si se te solicita, elige WGS84 como CRS.  
+- Si todo tiene éxito, verás las capas que seleccionaste en QGIS.  
 
 ![osm in qgis][]
 
@@ -130,11 +130,11 @@ Podemos probar que la importación fue exitosa y ver los datos en nuestra base d
 Resumen
 -------
 
-Cuando desee importar datos de OpenStreetMap a su propia base de datos, **osm2pgsql** es una gran herramienta. Puede ser extremadamente útil cuando necesita poder obtener los datos OSM más actualizados y personalizar los atributos que desea, o cuando trabaja en proyectos más complejos.  
+Cuando desees importar datos de OpenStreetMap a tu propia base de datos, **osm2pgsql** es una gran herramienta. Puede ser extremadamente útil cuando necesitas poder obtener los datos OSM más actualizados y personalizar los atributos que deseas, o cuando trabajas en proyectos más complejos.  
 
-Recientemente se ha desarrollado otra herramienta de importación, llamada [imposm](http://imposm.org/), y ofrece algo de velocidad y otras mejoras sobre osm2pgsql, aunque a partir de este escrito carece de otras funciones clave que se prometen en imposom versión 3 .  
+Recientemente se ha desarrollado otra herramienta de importación, llamada [imposm](http://imposm.org/), que ofrece algo de velocidad y otras mejoras sobre osm2pgsql, aunque a partir de este escrito carece de otras funciones clave que se prometen en imposom versión 3.  
 
-Para obtener más información sobre osm2pgsql, consulte el Wiki de OSM - <http://wiki.openstreetmap.org/wiki/Osm2pgsql>.  
+Para obtener más información sobre osm2pgsql, consulta la wiki de OSM: <http://wiki.openstreetmap.org/wiki/Osm2pgsql>.  
 
 
 [windows binary]: /images/osm-data/windows-binary.png

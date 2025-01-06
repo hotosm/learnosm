@@ -1,47 +1,47 @@
 ---
 layout: doc
-title: Otros Recursos
+title: Otros recursos
 permalink: /es/resources/
 lang: es
 cover: yes
 category: resources
 ---
 
-# Otros Recursos
+# Otros recursos
 
 > Revisado 2020-05-08
 
-Esta es una lista de marcadores comentados de otros sitios web que nosotros consideramos útiles. Todos los enlaces han sido verificados y funcionaban cuando se hizo la última revisión de este sitio.
+Esta es una lista con comentarios de enlaces a otros sitios web que consideramos útiles.  Todos los enlaces se verificaron y funcionaban cuando se revisó este documento por última vez.
 
-  *[Listado Maptime de enlaces sobre mapeo y temas cartográficos relacionados](http://maptime.io/lessons-resources/) Es una lista completa de enlaces que cubre no solo OpenStreetMap, sino también la visualización, la creación de mapas y el mapeo web.
+  * [Lista de Maptime de enlaces sobre mapeo y temas cartográficos relacionados](http://maptime.io/lessons-resources/) Una lista completa de enlaces, no solo sobre OpenStreetMap, sino que también cubre visualización, creación de mapas y mapeo web.
 
 
-## Editando
+## Edición
 
 ### iD
 
-  * [Tutorial de iD integrado](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) Un tutorial interactivo sobre el uso de iD como parte del software
-  * [Diapositivas que recorren todo el contenido de esta guía](/files/iD-editor-training.pptx) Es un buen material para brindar una introducción sobre iD, p. ej. en un mapathon
-  * [HOT Video Tutorials](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) Una colección de videos instructivos centrados principalmente en el mapeo con iD y JOSM
-  * [Tutoriales en video sobre iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Algunos videos muy breves que explican cómo realizar tareas comunes
-  * [Lecciones de video sobre datos de OpenStreetMap](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) presentación tipo conferencia de varios aspectos que cubren etiquetas, capas, relaciones
+  * [Tutorial integrado de iD](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) Un tutorial interactivo sobre el uso de iD como parte del software.
+  * [Diapositivas de presentación que cubren el contenido de nuestra guía](/files/iD-editor-training.pptx) Buen material si quieres hacer una introducción sobre iD, por ejemplo, en un mapatón.
+  * [Tutoriales en vídeo de HOT](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) Una colección de vídeos instructivos centrados principalmente en el mapeo con iD y JOSM.
+  * [Tutoriales en vídeo sobre iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Vídeos muy cortos que explican cómo realizar tareas comunes.
+  * [Lecciones en vídeo sobre datos de OpenStreetMap](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) Presentación tipo conferencia de varios aspectos que cubren etiquetas, capas y relaciones.
 
-## Mapathons y eventos similares
+## Mapatones y eventos similares
 
-  * [Entrada de Wiki sobre mapas perdidos Mapathons](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) casi una lista de verificación que le da una idea de qué considerar si desea organizar un mapaton; aunque dirigido a mapas faltantes, la mayor parte se aplica a los mapatones en general
-  * [Entrada de Wiki sobre mapas perdidos Mapathons en un entorno universitario](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) casi el mismo documento que el anterior pero con sugerencias específicas si se organizara en una universidad
-  * [guía de desarrollo de SEED para Mapatones](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) Este documento se basa en una conferencia sobre el estado del mapa y  cómo organizar y ejecutar un mapaton
+  * [Entrada wiki sobre mapatones de Missing Maps](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) Casi una lista de verificación que te da una idea de qué considerar si quieres organizar un mapatón; aunque está dirigido a Missing Maps, la mayor parte se aplica a los mapatones en general.
+  * [Entrada wiki sobre mapatones de Missing Maps en un entorno universitario](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) Casi el mismo documento que el anterior, pero con consejos específicos si se organiza en una universidad.
+  * [Guía de DevelopmentSeed para mapatones](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) Este documento se basa en una charla en la conferencia State of the Map sobre cómo organizar y llevar a cabo un mapatón.
 
 ### Listas de verificación para la planificación
 
   * [Lista de verificación de MapGive para un evento](https://mapgive.state.gov/box/#resources&event-checklist)
 
-### Folletos 
+### Material impreso 
 
-  * [Materiales de impresión de mapas faltantes](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) la mayoría de los folletos están marcados para mapas faltantes, por lo que si desea utilizarlos para un evento diferente, debe solicitar permiso para adaptarlos
+  * [Materiales impresos de Missing Maps](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) La mayoría de los folletos tienen la marca de Missing Maps, por lo que si quieres usarlos para un evento diferente, debes solicitar permiso para adaptarlos.
 
 ## Estadísticas
 
-  * [Entrada de Wiki en MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) Una sencilla herramienta de coordinación de código abierto. La wiki dice que ya no se mantiene activamente
-  * [Progreso en tiempo real en OpenStreetMap](https://github.com/osmlab/show-me-the-way) La página Léame en github explica cómo filtrar la pantalla para que no vea el progreso en todo el mundo
-  * [Quién está a mi alrededor](http://resultmaps.neis-one.org/oooc) muestra el mapa sobre los mapeadores que recientemente contribuyeron en un área
+  * [Entrada wiki sobre MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) Una sencilla herramienta de coordinación de código abierto. La wiki dice que ya no se mantiene activamente.
+  * [Progreso en tiempo real en OpenStreetMap](https://github.com/osmlab/show-me-the-way) El archivo README en GitHub explica cómo filtrar la visualización para que no veas el progreso en todo el mundo.
+  * [Quién está a mi alrededor](http://resultmaps.neis-one.org/oooc) Muestra en el mapa los mapeadores que contribuyeron recientemente en un área.
