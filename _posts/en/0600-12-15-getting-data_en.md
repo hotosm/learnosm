@@ -16,6 +16,16 @@ When you want to get the most recent OpenStreetMap data, the easiest way is to d
 Downloading Data Extracts
 --------------------------
 
+### Download OSM Data from the HOT Tasking Manager
+
+Each Tasking Manager project has a dedicated "Download OSM Data" section. Here pre-generated base map features can be exported in the formats GeoJSON, KML and SHP. You can find this section on the project home page.
+
+The exports are refreshed daily at 12 AM UTC, exclusively for published projects with user activity in the last 24 hours.
+
+They are accessible to everyone, with or without a Tasking Manager account.
+
+![download osm data][]
+
 ### GeoFabrik
 
 [GeoFabrik](http://geofabrik.de) is a company which specializes in working with OpenStreetMap. They provide a variety of free extracts in  shapefile and raw OSM format on their [download website](http://download.geofabrik.de). The advantage of downloading GeoFabrik data is that it  is updated every day, and it's easy and reliable. One disadvantage is that the data is extracted by country, and not all countries are  available.  
@@ -92,6 +102,6 @@ Summary
 
 The services mentioned in this chapter are all that the average user needs to get the OSM data they want and be able to work with it in GIS software. However, you may want to learn more powerful ways of working with the data yourself. The remaining chapters in this section are quite technical, but show more advanced methods of manipulating and accessing OSM data.  
 
-
+[download osm data]: /images/osm-data/download-osm-data.png
 [hot exports]: /images/osm-data/hot-exports.png
 [overpass turbo]: /images/osm-data/overpass_turbo.png
