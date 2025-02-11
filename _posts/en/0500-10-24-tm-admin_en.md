@@ -243,23 +243,23 @@ This is optional but it is possible to add a short snippet of additional instruc
 
 #### Mapper level
 
-This changes the difficultly level which is **displayed** for your project. Consider this very carefully, complex projects which are inappropriately set to Beginner difficulty **can result in significant data quality issues**. 
+This changes the difficultly level which is **displayed** for your project. Consider this very carefully, complex projects which are inappropriately set to Easy difficulty **can result in significant data quality issues**. 
 
 > Note that this does not change who can **actually contribute** to your project, those restrictions are implemented under the Permissions sub-menu.
 
-Most projects are set to either **Beginner** or **Intermediate** difficulty, a handful of projects are set to Advanced. 
+Most projects are set to either **Easy** or **Moderate** difficulty, a handful of projects are set to Challenging. 
 
-- **Beginner** - Consider this if your project is easy to map and:
+- **Easy** - Consider this if your project is easy to map and:
   - You are only asking contributors to map one feature, particularly **buildings only**
   - The density of features is low, i.e. in a **rural** area
   - There is a **low quantity** of existing OSM data in your project area
   - There are no imagery alignment issues
-- **Intermediate** - If your project is trickier to map, this should be considered if:
+- **Moderate** - If your project is trickier to map, this should be considered if:
   - You are asking contributors to map more than one feature, e.g. buildings **and** roads
   - There is a medium/high density of those features in your project area, i.e. **urban** areas
   - There is **substantial** existing OSM data in your project area
   - There might be **imagery alignment issues** or you ask contributors to use more than one imagery source
-- **Advanced** - If the project is extremely difficult to map, consider this if: 
+- **Challenging** - If the project is extremely difficult to map, consider this if: 
   - There is a very high density features in your project area, i.e. **central urban** areas
   - There is a **lot of** existing OSM data in your project area
   - There are **complex imagery alignment** issues
@@ -272,7 +272,7 @@ Toggle these on/off depending on the features that you wish to be mapped in your
 
 #### iD Editor Presets
 
-If you choose one or more items from the drop-down list then mappers using iD will only be able to assign these features to the objects they map. This is recommended for beginner, **buildings-only projects**. It will mean that contributors will not be able to tag other features, even if they try. Avoid using presets for more complex projects, as it can quickly become a burden. For example, a highway mapping project would need dozens of presets to be added to ensure all highway types could be mapped. 
+If you choose one or more items from the drop-down list then mappers using iD will only be able to assign these features to the objects they map. This is recommended for easy, **buildings-only projects**. It will mean that contributors will not be able to tag other features, even if they try. Avoid using presets for more complex projects, as it can quickly become a burden. For example, a highway mapping project would need dozens of presets to be added to ensure all highway types could be mapped. 
 
 #### Organization
 
@@ -304,7 +304,7 @@ From the dropdown menu choose the aerial imagery source that you want to load au
 
 > Note that Tasking Manager **cannot host custom imagery**, it needs to be hosted externally and linked using a TMS URL. If you are happy with your imagery being open for use please consider using [OpenAerialMap](https://openaerialmap.org/) to host your imagery.
 
-License - Optionally, if there is a specific license required for the mappers to accept when using the imagery, you can select it here. For example, for Maxar imagery this is 'DigitalGlobe Satellite EULA'. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+License - Optionally, if there is a specific license required for the mappers to accept when using the imagery, you can select it here. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
 
 ### Permissions
 
@@ -322,7 +322,7 @@ Under the 'Metadata' menu we could change the difficulty level that was **displa
 
 Here you can choose who can **map** your project:
 
-- If your project is easy to contribute towards and you consider it a beginner project you might want set this to **'Any user'**.
+- If your project is easy to contribute towards and you consider it an easy project you might want set this to **'Any user'**.
 - If your project is more complex and requires more experience, restrict mapping to **'Only users with intermediate or advanced level'**. 
 - If you want to be even more selective then you may also require a mapper to be part of a **team**. Teams must then be defined below.
 
@@ -430,10 +430,10 @@ Keep track of the mapping and validation progress of your projects. Remember tha
 
 ### Considerations concerning imagery
 
-Before creating your project, check the imagery in several different locations across your project area to make an imagery assessment. In most cases either Maxar or Bing imagery should suit your needs. However, there are situations where you might want to choose an alternative source. You may need to consider the following when choosing your imagery: 
+Before creating your project, check the imagery in several different locations across your project area to make an imagery assessment. In most cases either Esri or Bing imagery should suit your needs. However, there are situations where you might want to choose an alternative source. You may need to consider the following when choosing your imagery: 
 
 1. If careful, detailed mapping is needed choose the imagery that is clearest, with the highest resolution.
-2. If your priority is to have the most up-to-date imagery, flick between the standard imagery sources to look for the most recent imagery. Look for indications of development such as new buildings or land clearance to get an idea of the most up-to-date imagery. Recently Maxar has been the most up-to-date but this varies by location. 
+2. If your priority is to have the most up-to-date imagery, flick between the standard imagery sources to look for the most recent imagery. Look for indications of development such as new buildings or land clearance to get an idea of the most up-to-date imagery.
 3. Check for cloud cover, although one imagery source may suit your needs if it is very cloudy or hazy your mappers will struggle to map using it.
 4. Check for alignment, if there is plenty of existing OSM data that aligns to one set of satellite imagery then it may make sense to choose the same imagery. If there are alignment issues make sure to write clear instructions detailing how you expect contributors to deal with offsets/alignment issues. 
 
@@ -445,9 +445,9 @@ Your project area may have already been partially mapped using older imagery and
 
 There is not a standard set of instructions when it comes to imagery alignment issues. It is very dependent on context. Sometimes mappers are instructed to align to GPS traces, sometimes they are told to align to mapped linear features such as highways and waterways. Here is a sample approach: 
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Maxar.
-2. Make sure that all existing features which are also visible on Maxar are aligned with Maxar imagery, i.e. realign if necessary.
-3. Add new features from the now correctly aligned Maxar imagery.
+1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
+2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
+3. Add new features from the now correctly aligned to Bing imagery.
 
 Often mappers are instructed to look for _least effort_ when it comes to imagery alignment issues. Which means that contributors are told to vary their approach depending on the situation in their individual task: 
 
