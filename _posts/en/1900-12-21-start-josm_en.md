@@ -99,7 +99,7 @@ Learn Basic Drawing with JOSM
 > **nodes**, and lines are called **ways**. A shape is called a **closed way**
 > because it is just a line that ends at the same point where it begins.
 
--   You may notice that when you select an object, a list appears to the right of the map in a window called “Properties”. These are known as tags. Tags are information that is tied to a point, line or shape that describes what it is. We’ll learn more about tags in a later chapter. For now all you need to know is that this information helps describe whether our object is a forest, a river, a building, or something else.
+-   You may notice that when you select an object, a list appears to the right of the map in a window called “Tags/Memberships”. Tags are information that is tied to a point, line or shape that describes what it is. We’ll learn more about tags in a later chapter. For now all you need to know is that this information helps describe whether our object is a forest, a river, a building, or something else.
 -   Think about drawing a map by hand, and how you are also drawing points, lines, and shapes. What other places are best represented by points? Lines? Shapes?
 
 ### Changing Objects
