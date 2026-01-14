@@ -66,12 +66,12 @@ Now that you have enough information from your first steps to decide the numbers
 2.  Book the venue. Make sure the location of the venue is on Openstreetmap.  
 3.  Distribute invites to Mappers through local and online media to aim for good attendance. [Eventbrite](https://www.eventbrite.co.uk/) is a good way of booking places at the event.  
 4.  Will you be providing snacks/refreshments at the event? (Pizza has proved to be a popular choice but choose the popular foods for your part of the world).  
-5.  Set up a project for the event. Remember that your first Mapathon in your area will possibly comprise a large proportion of beginners. Suggest that you have two easy projects for beginners and two more challenging tasks for more experienced mappers. Contact the [Missing Maps Project](http://missingmaps.org) if you need help with setting up projects and also for Mapathon materials for the tables and direction signs for the corridors. The [Tasking Manager](http://tasks.hotosm.org) is a good source of useful projects.  
+5.  Set up a project for the event. Remember that your first Mapathon in your area will possibly comprise a large proportion of beginners. Suggest that you have two easy projects for beginners and two more challenging tasks for more experienced mappers. Contact the [Missing Maps Project](https://missingmaps.org) if you need help with setting up projects and also for Mapathon materials for the tables and direction signs for the corridors. The [Tasking Manager](https://tasks.hotosm.org) is a good source of useful projects.  
 6.  Suggested helpers that you may need for the event  
   *    An experienced mapper to talk them through the mapping process.  
   *    An IT person from the venue to trouble shoot any connectivity problems.  
   *    A guest speaker to talk about their experiences with Openstreetmap  
-  *    Ideally one experienced mapper per table to check that they know what to do and to answer any questions. Contact the [Missing Maps Project](http://missingmaps.org) to assist in finding helpers and also check for [experienced mappers in your area](http://resultmaps.neis-one.org/oooc)
+  *    Ideally one experienced mapper per table to check that they know what to do and to answer any questions. Contact the [Missing Maps Project](https://missingmaps.org) to assist in finding helpers and also check for [experienced mappers in your area](https://resultmaps.neis-one.org/oooc)
   *    A deputy to help with the arrangements and stand in for you as a back up.   
 7.  Add your event to the Mapathon calendar.
 8.   Have someone available from the local media to take photos and report the event.

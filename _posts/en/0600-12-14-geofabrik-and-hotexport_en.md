@@ -11,12 +11,12 @@ Using Geofabrik and HOT Export
 
 > Reviewed 2016-09-05  
 
-After learning how to add and edit data in OpenStreetMap (OSM), now maybe you would like to obtain the data as a backup or to process it using Geographic Information System software that is Open Source, such as Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
+After learning how to add and edit data in OpenStreetMap (OSM), now maybe you would like to obtain the data as a backup or to process it using Geographic Information System software that is Open Source, such as Quantum GIS ([www.qgis.org](https://www.qgis.org)).  
 
 Getting OSM Data on Geofabrik Website
 -------------------------------------
 
-The OSM data can be obtained easily by downloading it from [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
+The OSM data can be obtained easily by downloading it from [https://download.geofabrik.de/openstreetmap/](https://download.geofabrik.de/openstreetmap/)
 
 ![download-geofabrik][]
 
@@ -74,7 +74,7 @@ The last two ways in which an AOI can be selected is through the ‘This View’
 ![export-tool-area-import1][]
 
 
-The imported polygon must be a GeoJSON file in WGS84 geographic coordinates. One of the ways to create a GeoJSON file is to use the geojson.io site. Once the area has been selected in [geojson.io](http://geojson.io/), copy the text in the box to the right, paste it into an editor of choice, such as [Atom](https://atom.io/) and save your GeoJSON file.
+The imported polygon must be a GeoJSON file in WGS84 geographic coordinates. One of the ways to create a GeoJSON file is to use the geojson.io site. Once the area has been selected in [geojson.io](https://geojson.io/), copy the text in the box to the right, paste it into an editor of choice, such as [Atom](https://atom.io/) and save your GeoJSON file.
 
 ![export-tool-geojson-io][]
 ![export-tool-geojson-edit1][]

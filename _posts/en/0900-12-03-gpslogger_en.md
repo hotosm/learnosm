@@ -19,7 +19,7 @@ A simple, light-weight, and minimalistic app for recording GPS traces on the And
 
 GPSLogger for Android is an app that is free to use, and an actively maintained open source project. Donations are welcomed to further enhance the app. If you wish to get involved (e.g. providing translations in another language, bug reporting, or submitting feature requests), visit the [repository](https://github.com/mendhak/gpslogger).  
 
-> OpenGTS refers to the [Open GPS Tracking System](http://opengts.sourceforge.net/) project  
+> OpenGTS refers to the [Open GPS Tracking System](https://opengts.sourceforge.net/) project  
 
 
 Features
@@ -228,9 +228,9 @@ Connect your Android device to a computer (also possible using a data cable, Blu
 
 Using the GPX tracks with the JOSM and iD editors are easy as dragging the files and dropping them into the application (or the browser tab, for iD).  
 
-For additional details for  iD users, see the section [Configuring the Background Layer](http://learnosm.org/en/beginner/id-editor/#configuring-the-background-layer).  
+For additional details for  iD users, see the section [Configuring the Background Layer](https://learnosm.org/en/beginner/id-editor/#configuring-the-background-layer).  
 
-If the JOSM editor is used, you can find instructions on how to use the GPX track, along with the multimedia files in JOSM see the section [Open in JOSM](http://learnosm.org/en/mobile-mapping/using-gps/#open-in-josm).  
+If the JOSM editor is used, you can find instructions on how to use the GPX track, along with the multimedia files in JOSM see the section [Open in JOSM](https://learnosm.org/en/mobile-mapping/using-gps/#open-in-josm).  
 
 For other OpenStreetMap editors, please refer to your software’s documentation.  
 
@@ -268,7 +268,7 @@ This section introduced the concept of using GPSLogger for Android for collectin
 Official GPSLogger for Android Documentation
 --------------------------------------------
 
-The project maintains an [FAQ](http://code.mendhak.com/gpslogger/#faq) for commonly asked questions.
+The project maintains an [FAQ](https://code.mendhak.com/gpslogger/#faq) for commonly asked questions.
 
 [GPSLogger]: /images/mobile-mapping/gpslogger_000.en.png
 [Canvass1]: /images/mobile-mapping/gpslogger_001.en.png

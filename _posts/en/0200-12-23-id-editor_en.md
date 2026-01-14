@@ -24,7 +24,7 @@ Starting the iD Editor
 ----------------------
 
 -	The iD editor requires an active connection to the Internet.  
--	Open your Internet browser, and go to the OpenStreetMap website at [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+-	Open your Internet browser, and go to the OpenStreetMap website at [https://www.openstreetmap.org](https://www.openstreetmap.org).  
 -	**Login** using your OpenStreetMap account  
 -	Pan and zoom the map to the area that you wish to edit. You can pan by holding the left mouse button and dragging the map to your desired area. 
 -	Click on the small arrow next to **Edit**. Then click **Edit with iD (in-browser editor)**
@@ -63,7 +63,7 @@ You can **change the background layer** based on your desired tile provider (the
 
 You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
 ![image17][]   
-and enter your **FieldPaper snapshot URL**, which will be something like this: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
+and enter your **FieldPaper snapshot URL**, which will be something like this: <https://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
 To **display GPS tracks from your computer** (GPX format), drag and drop the GPX file into iD editor.  
 To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel.  
 ![osm gps traces][]  

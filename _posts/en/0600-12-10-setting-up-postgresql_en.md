@@ -16,7 +16,7 @@ In this chapter we will see how to set up PostgreSQL on Windows and how to creat
 Installing PostgreSQL and PostGIS
 ----------------------------------
 
-In this section we will install PostgreSQL and then add the PostGIS spatial extensions. This is fairly easy to setup using the One-Click Installer. Navigate your web browser to the PostgreSQL website and the download page <http://www.postgresql.org/download/>  
+In this section we will install PostgreSQL and then add the PostGIS spatial extensions. This is fairly easy to setup using the One-Click Installer. Navigate your web browser to the PostgreSQL website and the download page <https://www.postgresql.org/download/>  
 
 ![postgresql website][]
 
@@ -128,7 +128,7 @@ Make sure that your new database is selected in the panel on the left and go to 
 
 ![add shapefile][]
 
-Now let's load the data from our database into the QGIS application. If you don't have QGIS you can download it on the [QGIS website](http://www.qgis.org/site/forusers/download.html).  
+Now let's load the data from our database into the QGIS application. If you don't have QGIS you can download it on the [QGIS website](https://www.qgis.org/site/forusers/download.html).  
 
 -	Open QGIS and click the ![qgis add postgis button][]{: height="24px"} button.  
 -	Under “Connections” at the top, click “**New**.”  

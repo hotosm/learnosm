@@ -62,7 +62,7 @@ When you create a multipolygon like this it will be rendered on the map like so:
 
 ![Multipolygon in Mapnik][]
 
-Multipolygons can be used for any complex object that requires inner and outer polygons, like a building or a river with patches of land inside it. Detailed multipolygon information can be found on the [OSM Wiki](http://wiki.openstreetmap.org/wiki/Relation:multipolygon).  
+Multipolygons can be used for any complex object that requires inner and outer polygons, like a building or a river with patches of land inside it. Detailed multipolygon information can be found on the [OSM Wiki](https://wiki.openstreetmap.org/wiki/Relation:multipolygon).  
 
 Route Relations
 ----------------

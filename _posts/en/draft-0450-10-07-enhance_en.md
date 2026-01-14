@@ -41,7 +41,7 @@ Installing the Stylish extension in Firefox
 4.  Install & restart.  
 ![Stylish-4][]
 
-5.  Visit <http://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon.
+5.  Visit <https://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon.
 ![Stylish-5][]
 
 6.  Purple traced buildings  
@@ -63,7 +63,7 @@ Installing the Stylish extension in Chrome
 4.  Install.  
 ![Stylish-chrome-4][]
 
-5.  Visit <http://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon. You may have to select **Find more styles for this site** to find all of the available styles.  
+5.  Visit <https://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon. You may have to select **Find more styles for this site** to find all of the available styles.  
 ![Stylish-chrome-5][]
 
 6.  Purple traced buildings is one of the options available. It may be worth checking back at intervals as more styles are developed.   

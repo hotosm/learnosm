@@ -92,7 +92,7 @@ area.
 
 ### A. Set up an account
 
-​Visit [http://earthexplorer.usgs.gov/](http://earthexplorer.usgs.gov/) and
+​Visit [https://earthexplorer.usgs.gov/](https://earthexplorer.usgs.gov/) and
 create an account.  Click the ¨Register¨ button on the top right.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch3_image19.png)

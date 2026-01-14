@@ -18,7 +18,7 @@ Download JOSM
 -------------
 
 -   If you don’t have JOSM already, or want the newest version, open your web browser.
--   In the address bar at the top of the window, enter the following text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
+-   In the address bar at the top of the window, enter the following text and press Enter: [josm.openstreetmap.de](https://josm.openstreetmap.de)
 -   You can also find the JOSM website by searching the internet for “JOSM”.
 -   The website should look something like this:
 
@@ -33,9 +33,9 @@ Download JOSM
 Install JOSM
 ------------
 
->  You may have problems installing JOSM if Java is not already installed on your computer. If you have problems in this section, try downloading and installing Java. You can download it here: <http://www.java.com/en/download/>
+>  You may have problems installing JOSM if Java is not already installed on your computer. If you have problems in this section, try downloading and installing Java. You can download it here: <https://www.java.com/en/download/>
 >
->  Mac users may have old versions of Java. Please see <http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> for options for OSX 10.6 and 10.7.3+
+>  Mac users may have old versions of Java. Please see <https://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> for options for OSX 10.6 and 10.7.3+
 
 -   Find the JOSM install file on your computer. Double-click it to begin setup.
 -   Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation is complete, click ‘Finish’ to launch JOSM for the first time. Later, when you want to start JOSM, you can do so by clicking on the Start Menu in the lower left corner of your computer, and clicking the program JOSM.

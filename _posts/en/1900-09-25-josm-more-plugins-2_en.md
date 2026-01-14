@@ -38,7 +38,7 @@ Preparing the spreadsheet
 
 The wiki page at <https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData> provides more detailed information about formats which can be used. For our purposes we are assuming that the spreadsheet has been downloaded and passed to us in the proprietry **.xlsx** which will not load into the opendata plugin.  
 
-- Open the spreadsheet in an opensource programme such as LibreOffice which is available for most operating systems <http://www.libreoffice.org/>,  
+- Open the spreadsheet in an opensource programme such as LibreOffice which is available for most operating systems <https://www.libreoffice.org/>,  
 - and then save it in an opensource format. Our spreadsheet which was **shops.xlsx** becomes **shops.ods**.  
 
 Although it is possible to load the spreadsheet into josm now, it is better to carry out further amendments to make the process easier before doing so.  

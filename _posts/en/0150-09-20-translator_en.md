@@ -13,7 +13,7 @@ Translators using Transifex - instructions
 - TOC
 {:toc}
 
-This guide is an updated version of the guides currently located at <https://github.com/Nick-Tallguy/Nick-Tallguy.github.io/wiki/Translator-instructions-for-Transifex>. When these instructions are complete they will be added to the site at <http://learnosm.org/en/> and made to appear in all available languages.  
+This guide is an updated version of the guides currently located at <https://github.com/Nick-Tallguy/Nick-Tallguy.github.io/wiki/Translator-instructions-for-Transifex>. When these instructions are complete they will be added to the site at <https://learnosm.org/en/> and made to appear in all available languages.  
 
 Transifex
 ------------
@@ -24,12 +24,12 @@ The Two sites
 -------------
 
 ### LearnOSM
-The main LearnOSM site is at <http://learnosm.org/> and this is the site we are aiming to update. If you search on the internet, this is the site you will find. The modules on this site are all at 100% completion, but there are a few shortcuts in place to make sure that visitors do not get .404 errors.   
+The main LearnOSM site is at <https://learnosm.org/> and this is the site we are aiming to update. If you search on the internet, this is the site you will find. The modules on this site are all at 100% completion, but there are a few shortcuts in place to make sure that visitors do not get .404 errors.   
 
 There are also some translations on this site which were created before we started using Transifex. However, these modules are gradually becoming out of date, and we would like them replaced with new translations provided by you using Transifex.  
 
 ### The Staging or testing site
-We have a second site <http://nick-tallguy.github.io/> which we use for testing purposes, and which is used to allow translators to check on their progress and see how the site will appear in their language.  
+We have a second site <https://nick-tallguy.github.io/> which we use for testing purposes, and which is used to allow translators to check on their progress and see how the site will appear in their language.  
 
 When we are testing things out they will appear on the staging site - but sometimes they never appear on the main LearnOSM site - not all ideas are good! If we are considering altering the layout of pages, changing the margins, or otherwise altering the site it will appear here first. Modules which are being developed are also created on the staging site and reviewed before being placed on the main site, and into Transifex for your translation.  
 
@@ -215,7 +215,7 @@ The \> remains, **Reviewed** is translated, and the date is put into a format th
 
       Year-month-day of month  
 
- > Don't forget you can review your translations on <http://nick-tallguy.github.io/en/> - this site updates roughly once a day.  
+ > Don't forget you can review your translations on <https://nick-tallguy.github.io/en/> - this site updates roughly once a day.  
 
 
 ## 0200-12-29-introduction  
@@ -262,7 +262,7 @@ Any problems, please make contact
 -----------------------------------
 
 - send an email to <learnosm@hotosm.org>  
-- send an email from the contribute section of <http://nick-tallguy.github.io/en/>, or  
+- send an email from the contribute section of <https://nick-tallguy.github.io/en/>, or  
 - raise an issue on Github at <https://github.com/hotosm/learnosm/issues>, or  
 - raise an issue on Transifex  
 
@@ -275,7 +275,7 @@ Links to Transifex guides
 
 ## Below this line is waiting for review - the 'old instructions'
 
-You are viewing these instructions on a 'staging site', but the information is transferred frequently between this site and the main LearnOSM site. The [current staging site can be viewed here](http://nick-tallguy.github.io/en/). By using this staging site as an interim, we can check that we haven't lost any formatting marks in the translation process. Don't worry about losing the formatting - we'll put it back in afterwards, as long as we can work out where it goes.
+You are viewing these instructions on a 'staging site', but the information is transferred frequently between this site and the main LearnOSM site. The [current staging site can be viewed here](https://nick-tallguy.github.io/en/). By using this staging site as an interim, we can check that we haven't lost any formatting marks in the translation process. Don't worry about losing the formatting - we'll put it back in afterwards, as long as we can work out where it goes.
 
 LearnOSM has been using Transifex for a while, but we're still learning! Feedback is appreciated. At present we're not sure how many formatting marks will actually appear in the file that you view, or in the file which we download at the end of the process, so this guide is written on a very provisional basis.
 
@@ -283,7 +283,7 @@ There are limitations on how many languages we can actually display on LearnOSM.
 
 ## Priorities  
 
-We are carrying out a review of any guide before uploading it to Transifex, and you will see the date of that review at the head of the file. Some of these guides may already have been translated, but we can only offer the guide for translation from the latest version, which will be the one with the review date. It may be that only the context has altered where some guides have moved to different sections of LearnOSM. As there is no way for us to indicate that a particular module does not need translating in a particular language, you may wish to compare the modules against what is already on [LearnOSM](http://nick-tallguy.github.io/en/), in case it has already been translated. In a perfect world we would like each module translated, and another person to verify the translation - this is possible with the Transifex system, but only if enough people provide translations!
+We are carrying out a review of any guide before uploading it to Transifex, and you will see the date of that review at the head of the file. Some of these guides may already have been translated, but we can only offer the guide for translation from the latest version, which will be the one with the review date. It may be that only the context has altered where some guides have moved to different sections of LearnOSM. As there is no way for us to indicate that a particular module does not need translating in a particular language, you may wish to compare the modules against what is already on [LearnOSM](https://nick-tallguy.github.io/en/), in case it has already been translated. In a perfect world we would like each module translated, and another person to verify the translation - this is possible with the Transifex system, but only if enough people provide translations!
 
 
 

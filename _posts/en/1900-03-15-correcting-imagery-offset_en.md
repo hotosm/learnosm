@@ -138,9 +138,9 @@ Oh No!  Somebody mapped this area with misaligned imagery, so the area is not co
 Imagery Offset Database Website
 --------------------------------
 
-Lastly, for more information on the offset database, you can visit the website at [http://offsets.textual.ru/](http://offsets.textual.ru/).  This lists all the offsets that have been uploaded to the database, and it also has a cool map feature that visualizes where the offsets are located, as you can see here:  
+Lastly, for more information on the offset database, you can visit the website at [https://offsets.textual.ru/](https://offsets.textual.ru/).  This lists all the offsets that have been uploaded to the database, and it also has a cool map feature that visualizes where the offsets are located, as you can see here:  
 
-![http://offsets.textual.ru/][]
+![https://offsets.textual.ru/][]
 
 > One last thing to remember is that the imagery may not be offset the same distance everywhere!  This is especially true in regions where there are lots of hills and mountains.  So if the imagery seems to be offset differently in different areas, you’ll need to move it again.  
 
@@ -171,7 +171,7 @@ When you are just beginning OpenStreetMap, you don’t need to worry too much ab
 [Store imagery offset]: /images/josm/store-imagery-offset.png
 [Offset description]: /images/josm/offset-description.png
 [Corrected imagery]: /images/josm/correctly-placed.png
-[http://offsets.textual.ru/]: /images/josm/offset-website.png
+[https://offsets.textual.ru/]: /images/josm/offset-website.png
 
 
 

@@ -25,7 +25,7 @@ GitHub and Repositories
 ----------------------------
 
 1. Navigate your web browser to
-   [http://www.github.com](http://www.github.com) and you will see the
+   [https://www.github.com](https://www.github.com) and you will see the
    home page of GitHub, the main online repository for storing
    git projects. Note the difference between github and git. Git is a
    control system that can make any folder on your computer a
@@ -243,5 +243,5 @@ versions than... or what to consider when  working together on one
 project using github..
 
 [[c]](#cmnt_ref3)Katrina Engelsted:
-Good source: http://nathanj.github.com/gitguide/tour.html
+Good source: https://nathanj.github.com/gitguide/tour.html
 --> 

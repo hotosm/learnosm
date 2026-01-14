@@ -151,7 +151,7 @@ the \<\<Context\>\> menu.
 
 5. Now you can save the normal GPX layer as a file or upload the data to
 OSM (eg by using the
-plugin [DirectUpload](http://josm.openstreetmap.de/wiki/Plugins)).
+plugin [DirectUpload](https://josm.openstreetmap.de/wiki/Plugins)).
 
 Print
 -----
@@ -252,14 +252,14 @@ Uploading GPS Traces Online
 ---------------------------
 
 1. Go
-to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
+to [https://www.openstreetmap.org/](https://www.openstreetmap.org/) and log in.
 
 2. Select "GPS Traces" found on the left banner.
 
 ![Left Banner][]
 
 3. Select
-[upload a trace](http://www.openstreetmap.org/trace/create).
+[upload a trace](https://www.openstreetmap.org/trace/create).
 Here, you can also  **See just your traces** to review previous GPS tracks.  
 
 4. Find your file in "Choose File". Label it in the Description

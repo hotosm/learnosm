@@ -13,7 +13,7 @@ JOSM - Adding Aerial Imagery
 
 Not all aerial imagery is within the JOSM imagery menu, but it is easy to add if you have been given the link information.  
 
-In this example we are working from the [HOT Tasking Manager](http://tasks.hotosm.org/) and the imagery required to complete one of the projects needs to be manually added to JOSM. The principle of adding the image link is the same whatever the editing you are working on, as long as you are provided with the link. There are also occasions when the intended links do not work as expected and it may be necessary to add the imagery manually, if you can obtain the link information.  
+In this example we are working from the [HOT Tasking Manager](https://tasks.hotosm.org/) and the imagery required to complete one of the projects needs to be manually added to JOSM. The principle of adding the image link is the same whatever the editing you are working on, as long as you are provided with the link. There are also occasions when the intended links do not work as expected and it may be necessary to add the imagery manually, if you can obtain the link information.  
 
 From the Tasking Manager information tab, or your other source of the information, copy all of the Imagery section.  
 
@@ -65,7 +65,7 @@ The resulting dialog box will look like the one below:
 **Box 5.** This is auto generated after you select a layer in **Box 3**. It will be long and complicated, usually it is just fine and is more informational and typically should not be edited.  
 **Box 6.** Enter a name for the server or layer. A default name will be filled in based on the URL, but you can enter a more meaningful name. This is the name that will appear in the JOSM Imagery menu when you want to add the layer to your layers panel in the regular JOSM interface.  
 
-> Example WMS server with a lot of interesting layers: http://sedac.ciesin.columbia.edu/geoserver/wms  
+> Example WMS server with a lot of interesting layers: https://sedac.ciesin.columbia.edu/geoserver/wms  
 
 ![wms_select_layer_highlighted][]  
 Make sure you actually click on a layer if you would like to have the Imagery menu item always load the same layer. In the above example, when the layer is selected from the Imagery Menu, it will always load the "World Database of Protected Areas" layer.
