@@ -302,6 +302,17 @@ translations:
     language: "繁體中文"
     quickaccess: "快速連結"
     returntotop: "回到頁面頂端"
+  sr:
+    tagline: "Научите OpenStreetMap корак по корак"
+    contribute: "Помозите нам да побољшамо наше водиче"
+    trainingspan: "Да ли сте организатор радионица?"
+    training: "Погледајте материјале за обуку за овај водич (на енглеском)"
+    feedbackspan: "Да ли је ово поглавље било корисно?"
+    feedback: "Јавите нам и помозите да унапредимо водиче!"
+    getstarted: "Почнимо"
+    returntotop: "Повратак на врх странице"
+    language: "српски"
+    quickaccess: "Quick access"
 
 # Save this for later use - these languages are not yet installed
 
