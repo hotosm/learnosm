@@ -269,7 +269,7 @@ translations:
     returntotop: "Повратак на врх странице"
     language: "српски"
     quickaccess: "Quick access"
- uk:
+  uk:
     language: "Українська"
     tagline: "Знайомимось з OpenStreetMap крок за кроком"
     contribute: "Допоможіть покращити наші посібники"
