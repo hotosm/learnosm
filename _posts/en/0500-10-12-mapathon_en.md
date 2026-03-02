@@ -87,7 +87,7 @@ Now that you have enough information from your first steps to decide the numbers
 5.  Plan the layout for positioning of tables and chairs in respect to available power points and view of the large overhead screen.  
 6.  Check that you have current mapping projects for the event.  
 7.  Check that you have funding for the refreshments and any other costs.
-8.  Arrange for [Mapathon Materials](#printout-materials) (or create your own) to be printed off ready for the event.
+8.  Arrange for [Mapathon Materials](/en/resources/#handouts) (or create your own) to be printed off ready for the event.
 9.  Check that someone will be bringing any equipment (extension cords, spare mouse) and table aids that will be needed.  
 10.  Notify your helpers that you need them to be at the venue half an hour before the start to help put out the tables, chairs, extension cords, etc.  
 11.  Check that there is a log in to the wi-fi at the venue and a password is available for all to use.  
