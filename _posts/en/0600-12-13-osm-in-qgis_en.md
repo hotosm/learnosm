@@ -26,6 +26,10 @@ The first thing we will do is get some up-to-date OSM data. We can do this in nu
 
 ![quickosm][]
 
+- The initial page lets you select between several predefined presets which determine the kind of objects to download. This is most likely not what you want. You either want all objects or a selection of your own. Select the second item from the menu bar on the left, "Quick query".
+
+![quickosm-query][]
+
 - You can choose from several options here  - if your window already displays the extent you want, switch the combobox which by default shows "In" to "Canvas extent". If you have a layer loaded in QGIS with the correct extent, choose "Layer extent" and select the layer you want to use. Using the default "In" requires that a relation or polygon exists with this name. Otherwise choose "Around" and a node with this name suffices. You can select a perimeter (default 1000m) around this node where data will be loaded from the database.
 
 - Click on "Run Query".  
@@ -105,7 +109,8 @@ Summary
 This process makes it easy to get up-to-date OSM data and pull it into QGIS. Once you have layers like this in QGIS, it is possible to save them as shapefiles, execute filters and queries, and so forth. For more detail on these functions see the Help menu in QGIS.  
 
 
-[quickosm]: /images/osm-data/qgis-quickosm.png
+[quickosm]: /images/osm-data/qgis-quickosm-presets.png
+[quickosm-query]: /images/osm-data/qgis-quickosm-quick-query.png
 [quickosm loaded]: /images/osm-data/qgis-quickosm-loaded.png
 [import osm]: /images/osm-data/qgis-import-osm.png
 [import osm loaded]: /images/osm-data/qgis-import-osm-loaded.png
