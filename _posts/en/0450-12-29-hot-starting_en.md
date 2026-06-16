@@ -14,7 +14,7 @@ Starting with a Tasking Manager - iD editor
 - TOC
 {:toc}
 
-This guide is written for the [HOT Tasking Manager](http://tasks.hotosm.org/), but the principles are the same for all versions.  
+This guide is written for the [HOT Tasking Manager](https://tasks.hotosm.org/), but the principles are the same for all versions.  
 
 The Essentials
 --------------
@@ -22,7 +22,7 @@ The Essentials
 ![TM Start][]
 
 
-1. Go to a Tasking Manager (TM) site, for example <http://tasks.hotosm.org/>. Using your <http://www.openstreetmap.org> login, authorise the Tasking Manager to access your OpenStreetMap account.  
+1. Go to a Tasking Manager (TM) site, for example <https://tasks.hotosm.org/>. Using your <https://www.openstreetmap.org> login, authorise the Tasking Manager to access your OpenStreetMap account.  
 2.  Start on a project designed for new mappers - these are often 'buildings only' projects.  
 3.  Read the **Description** and **Instructions** and make sure you understand what is needed before you start. 
 4.  The mapping is checked by 'validators' who often send messages giving valuable feedback on your contributions.  

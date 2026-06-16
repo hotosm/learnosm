@@ -39,7 +39,7 @@ Any type of roads from motorways to tracks and paths are labelled 'highway' in O
 1.  When tracing highways, ensure you are zoomed in sufficiently. As a starting guide set the scale to about 20 metres, and trace the highway so that your tracing has sufficient points in it to keep it on, or very close to, the road you can see in your satellite imagery. In the screenshot above you can see I have traced the road that had been passed over to me, down, through the trees, and down to another building where it appears to stop. Where the trees are close to the road, and the imagery is obtained by an overhead camera, it appears as if the road narrows as it goes through the trees - however, it is just the effect of the trees obscuring the view, and the road is the same width throughout.  
 2.  I've also traced another section of road, making sure that it is connected at each end - iD shows this with a slightly larger and darker coloured dot at the junction. It is important that the roads join and 'share a common node' so that routing software will provide the correct guidance.  
 3.  The road is tagged as 'highway=residential', and I've also added 'surface=unpaved'.  
-4.  For a full description of tagging within Africa, refer to the wiki page [Highway Tag Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa).  
+4.  For a full description of tagging within Africa, refer to the wiki page [Highway Tag Africa](https://wiki.openstreetmap.org/wiki/Highway_Tag_Africa).  
 
 > There is a high risk of suffering from conflicts which will prevent you saving your work when working on any highway which extends into other squares where mappers will also be editing it. It is advisable to save all your changes before editing the highway, and then save your changes at very frequent intervals, such as after adding each 6 nodes.
 
@@ -75,7 +75,7 @@ surface=unpaved
 
 Residential boundaries are used for many purposes in OpenStreetMap.  
 
-+  The simplest use is to be able to see residential areas at higher zoom levels when viewing [OpenStreetMap.org](http://www.openstreetmap.org), where they are coloured pale grey in the standard view.  
++  The simplest use is to be able to see residential areas at higher zoom levels when viewing [OpenStreetMap.org](https://www.openstreetmap.org), where they are coloured pale grey in the standard view.  
 +  Where there is not time to map in detail from the outset, the project within the Task Manager will frequently require something similar to this:  
 
 >    Map essential infrastructures such as schools, place of worship and markets.  
@@ -179,10 +179,10 @@ More to follow - see the below links for more guidance.
 
 # Further Reading
 
--  [West African HOT Mapping Tips by user Bgirardot](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
--  [OSM wiki entry concerning validating](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data)  
--  [Highway Tag Africa - the preferred reference for highway tagging in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)  
--  [Short Tutorial in French for remote mapping](http://blog.cartong.org/2014/07/24/tuto-digitaliser-sous-openstreetmap-avec-le-tasking-manager-et-josm-premiers-pas/)
+-  [West African HOT Mapping Tips by user Bgirardot](https://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
+-  [OSM wiki entry concerning validating](https://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data)  
+-  [Highway Tag Africa - the preferred reference for highway tagging in Africa](https://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)  
+-  [Short Tutorial in French for remote mapping](https://blog.cartong.org/2014/07/24/tuto-digitaliser-sous-openstreetmap-avec-le-tasking-manager-et-josm-premiers-pas/)
 
 [iD 3]: /images/coordination/iD_3.png
 [JOSM 4]: /images/coordination/JOSM_4.png

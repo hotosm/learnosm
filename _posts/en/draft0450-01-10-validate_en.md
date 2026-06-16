@@ -20,11 +20,11 @@ Sending a link to a new mapper who does not know how to create round buildings
 
 The HOT Tips section that shows how to [create a round building using the iD editor is here](/en/hot-tips/tracing-round-buildings/). Your web browser will show the address as;  
 
-      http://learnosm.org/en/hot-tips/tracing-round-buildings/
+      https://learnosm.org/en/hot-tips/tracing-round-buildings/
 
 You can click on this in your web browser, highlight all of it, and then copy this for pasting into a link in the Tasking Manager.  
 
-Of course you may prefer to link to a guide on another site such as the tracing guides available at <http://hotosm.github.io/tracing-guides/> or even a user diary or some other source.  
+Of course you may prefer to link to a guide on another site such as the tracing guides available at <https://hotosm.github.io/tracing-guides/> or even a user diary or some other source.  
 
 ![validate][]
 

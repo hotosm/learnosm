@@ -21,13 +21,13 @@ OpenStreetMap wiki, a website where users can create different web pages
 about different topics and in different languages.  To see the OSM wiki,
 visit
 
-[http://wiki.openstreetmap.org](http://wiki.openstreetmap.org)
+[https://wiki.openstreetmap.org](https://wiki.openstreetmap.org)
 
 A wiki is a website where any user can add pages and edit existing
 pages.  It is based on the same principle as OpenStreetMap- the only
 difference is that with OSM users are editing maps, while wiki users are
 editing text.  The most famous wiki is Wikipedia
-([http://www.wikipedia.org),]() an online encyclopedia that covers
+([https://www.wikipedia.org),]() an online encyclopedia that covers
 almost every topic imaginable.
 
 The OpenStreetMap wiki contains information about everything related to
@@ -40,7 +40,7 @@ the OSM wiki pages, which describes all of the most common features that
 you can add to the map, and how they are commonly tagged.  This is the
 Map Features page:
 
-[http://wiki.openstreetmap.org/wiki/Map\_Features](http://wiki.openstreetmap.org/wiki/Map_Features)
+[https://wiki.openstreetmap.org/wiki/Map\_Features](https://wiki.openstreetmap.org/wiki/Map_Features)
 
 In this chapter we will learn how to add and edit pages on the OSM wiki.
  We will learn the guidlines for contributing, the special markup
@@ -52,7 +52,7 @@ wiki, such as translating important pages.
 
 ![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image09.png)
 
-Go to [http://wiki.openstreetmap.org](http://wiki.openstreetmap.org) to
+Go to [https://wiki.openstreetmap.org](https://wiki.openstreetmap.org) to
 see the main wiki page.  You’ll see a lot of things here, and many links
 to other pages on the wiki.  In the left column are links to some of the
 main pages.  At the top of the page are a list of all the languages in
@@ -287,7 +287,7 @@ Compare the wiki text to the way it is formatted when you are viewing
 it.
 
 You can find more information on editing at
-[http://wiki.openstreetmap.org/wiki/Help:Wiki-Editing](http://wiki.openstreetmap.org/wiki/Help:Wiki-Editing).
+[https://wiki.openstreetmap.org/wiki/Help:Wiki-Editing](https://wiki.openstreetmap.org/wiki/Help:Wiki-Editing).
 
 ​4.  Conventions and Guidelines
 ------------------------------
@@ -310,7 +310,7 @@ contribute.  Some key things to keep in mind are:
     spaces or dashes.  The Map Features page for example, is named
     Map\_Features, making the link:
 
-[http://wiki.openstreetmap.org/wiki/Map\_Features](http://wiki.openstreetmap.org/wiki/Map_Features)
+[https://wiki.openstreetmap.org/wiki/Map\_Features](https://wiki.openstreetmap.org/wiki/Map_Features)
 
 ### When Structuring a Page
 
@@ -341,18 +341,18 @@ The names of pages are always created in English, but different versions
 of the same page can be created by adding a language code into the URL.
  For example, the Map Features page is at
 
-[http://wiki.openstreetmap.org/wiki/Map\_Features](http://wiki.openstreetmap.org/wiki/Map_Features)
+[https://wiki.openstreetmap.org/wiki/Map\_Features](https://wiki.openstreetmap.org/wiki/Map_Features)
 
 If you want the Spanish version of this page, it is available at
 
-[http://wiki.openstreetmap.org/wiki/ES:Map\_Features](http://wiki.openstreetmap.org/wiki/ES:Map_Features)
+[https://wiki.openstreetmap.org/wiki/ES:Map\_Features](https://wiki.openstreetmap.org/wiki/ES:Map_Features)
 
 If a page exists that you want to translate, you simply visit the URL
 with your language code and a colon (:) preceding the page name.  For
 example, if we wanted to translate this page into Indonesian, we would
 visit
 
-[http://wiki.openstreetmap.org/wiki/ID:Map\_Features](http://wiki.openstreetmap.org/wiki/ID:Map_Features)
+[https://wiki.openstreetmap.org/wiki/ID:Map\_Features](https://wiki.openstreetmap.org/wiki/ID:Map_Features)
 
 Then we click “Edit” to create this page.
 

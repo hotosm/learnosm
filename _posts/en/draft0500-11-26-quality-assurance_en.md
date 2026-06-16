@@ -162,7 +162,7 @@ map the entire grid
 To see how the tasking manager works, let’s take a closer look.
 
 1.  Open your Internet browser and go to
-    [tasks.hotosm.org](http://tasks.hotosm.org). You will see a page
+    [tasks.hotosm.org](https://tasks.hotosm.org). You will see a page
     like this:
 
     ![]({{site.baseurl}}/images/en/intermediate/en_quality_assurance_image02.png)

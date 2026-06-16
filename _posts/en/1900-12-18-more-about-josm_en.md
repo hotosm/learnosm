@@ -112,7 +112,7 @@ The third and final step to complete our edits is to upload the changes we have 
 
 See your changes on the map
 ---------------------------
--   Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
+-   Open your internet browser and go to [https://openstreetmap.org/](https://openstreetmap.org/)
 -   Move the map to the area that you edited.
 -   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the browser still shows the old version and needs to be reloaded.
 -   What if you don’t see your changes? Don’t worry - it may take a few minutes for the changes to be shown on the map. Also, check your additions in JOSM to make sure that you added them correctly. A good general rule is, if your point has an icon in JOSM, then it should be seen on the main map at the OpenStreetMap website.

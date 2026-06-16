@@ -126,8 +126,8 @@ The values you've chosen will be applied and the dialog will be closed.
 
 If you see the symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in the tab Nodesthen you
 have to resolve differences in the list of
-[nodes](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)of two
-[ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). There
+[nodes](https://josm.openstreetmap.de/wiki/Help/Concepts/Object)of two
+[ways](https://josm.openstreetmap.de/wiki/Help/Concepts/Object). There
 are three columns in the respective panel (see screen shot below):
 
 1.  the leftmost table displays the list of nodes of the the local
@@ -146,7 +146,7 @@ server dataset (the rightmost table).
 
 The standard workflow to resolve conflicts in the node lists of two
 [object
-versions](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)consists
+versions](https://josm.openstreetmap.de/wiki/Help/Concepts/Object)consists
 of three steps:
 
 1.  Pick nodes from either object version and reorder the resulting node

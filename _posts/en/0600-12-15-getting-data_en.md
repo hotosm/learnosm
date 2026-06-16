@@ -28,11 +28,11 @@ They are accessible to everyone, with or without a Tasking Manager account.
 
 ### GeoFabrik
 
-[GeoFabrik](http://geofabrik.de) is a company which specializes in working with OpenStreetMap. They provide a variety of free extracts in  shapefile and raw OSM format on their [download website](http://download.geofabrik.de). The advantage of downloading GeoFabrik data is that it  is updated every day, and it's easy and reliable. One disadvantage is that the data is extracted by country, and not all countries are  available.  
+[GeoFabrik](https://geofabrik.de) is a company which specializes in working with OpenStreetMap. They provide a variety of free extracts in  shapefile and raw OSM format on their [download website](https://download.geofabrik.de). The advantage of downloading GeoFabrik data is that it  is updated every day, and it's easy and reliable. One disadvantage is that the data is extracted by country, and not all countries are  available.  
 
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) provides shapefiles and raw OSM format for cities around the world, extracted weekly. This is  useful if you are looking for data extracts for a single city.
+[BBBike](https://download.bbbike.org/osm/bbbike/) provides shapefiles and raw OSM format for cities around the world, extracted weekly. This is  useful if you are looking for data extracts for a single city.
 
 >Remember that features in OpenStreetMap have an unlimited number of "free" tags,
 >but shapefiles have attributes stored in a limited number of columns. This means
@@ -47,13 +47,13 @@ Customized Extracts
 
 ### HOT Exports  
 
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract,  and also use [JOSM Presets](/en/josm/josm-presets/) to select custom tags to be included in the extract. The service is available to all  countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
+The [Humanitarian OpenStreetMap Team](https://hotosm.org) has created a service that allows users to select the area that they want to extract,  and also use [JOSM Presets](/en/josm/josm-presets/) to select custom tags to be included in the extract. The service is available to all  countries where HOT works, at [export.hotosm.org](https://export.hotosm.org).
 
 ![hot exports][]
 
 ### BBBike  
 
-You can select your own area from any part of the world using the service at [http://extract.bbbike.org/](http://extract.bbbike.org/).  Disadvantages are that you aren't able to select customizable tags and that the amount of data which you can download is limited.  
+You can select your own area from any part of the world using the service at [https://extract.bbbike.org/](https://extract.bbbike.org/).  Disadvantages are that you aren't able to select customizable tags and that the amount of data which you can download is limited.  
 
 ### Overpass
 
@@ -61,7 +61,7 @@ Overpass is an API (Application Programming Interface) for extracting data from 
 
 #### Overpass Turbo
 
-[Overpass Turbo](http://overpass-turbo.eu/) is an interactive query generator where you should first zoom to the appropriate region on the map. Enter your query in the left field of the page and trigger any actions using the buttons at the top of the interface. If you are new to the query language then using the wizard should get you started. The OSM wiki contains a [full description](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) of the syntax of the query language as well as a [collection of examples](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example).
+[Overpass Turbo](http://overpass-turbo.eu/) is an interactive query generator where you should first zoom to the appropriate region on the map. Enter your query in the left field of the page and trigger any actions using the buttons at the top of the interface. If you are new to the query language then using the wizard should get you started. The OSM wiki contains a [full description](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) of the syntax of the query language as well as a [collection of examples](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example).
 
 The map will highlight all data selected by your query which you can then modify. Press "Run" to refresh the result display. Once you are satisfied with what you see then "Export" offers a number of choices, among them raw OSM data. If the amount of data is limited you may as well access them directly after switching between map view and data view using the rightmost buttons at the top. The export option *Query -> compact OverpassQL* generates a hyperlink to be used for the Overpass API.
 
@@ -71,7 +71,7 @@ If you want to engineer a fancy query in order to obtain a subset of the data fr
 
 #### Overpass API
 
-[Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) is a dedicated service optimized for querying but not writing OpenStreetMap data. Due to this optimization it operates very fast compared to the main database api and has virtually no limits on the amount of data transferred. Several instances of this service are available on the net, the one used in the following example also provides some information on [its homepage](http://overpass-api.de/)
+[Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API) is a dedicated service optimized for querying but not writing OpenStreetMap data. Due to this optimization it operates very fast compared to the main database api and has virtually no limits on the amount of data transferred. Several instances of this service are available on the net, the one used in the following example also provides some information on [its homepage](https://overpass-api.de/)
 
 If you have a working query-URL for submitting an http-request to the Overpass API then a tool such as [wget](https://www.gnu.org/software/wget/) - available for different operating systems, see [here](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - allows you to download the raw OSM data directly from the server and store them locally. The following snippet is a script for the bash shell common on Unix systems which obtains all data within a specified bounding box:
 
@@ -86,7 +86,7 @@ echo upper_right longitude
 read ur_lon
 echo output file
 read file
-url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;"
+url="https://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;"
 wget -O $file "$url"
 ```
 >What happens here (for the curious who do not want to read the full query language documentation)?  

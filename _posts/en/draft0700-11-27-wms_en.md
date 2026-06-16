@@ -36,7 +36,7 @@ When we want to communicate the information, we will usually create some
 type of raster image. A raster image is just like a photograph. It may
 contain a lot of meaning, but it is impossible for us to analyze it or
 edit the different pieces. When you look at the map on
-[openstreetmap.org](http://www.openstreetmap.org/), you are looking at a
+[openstreetmap.org](https://www.openstreetmap.org/), you are looking at a
 bunch of raster images. These images are must smaller in size than the
 data that they are made from, and they are made to look nice. This
 makes it easy to view the map, but there is no way to access the
@@ -53,7 +53,7 @@ layers in QGIS, ArcGIS, and JOSM.
 ![]({{site.baseurl}}/images/en/advanced/en_adv_ch5_image19.png)
 
 In this chapter we will learn how to install and set up MapServer
-([http://www.mapserver.org/](http://www.mapserver.org/)), an open-source
+([https://www.mapserver.org/](https://www.mapserver.org/)), an open-source
 platform for publishing maps, and using it as our own WMS server.
 
 We will build on the previous tutorial in which we created a PostGIS
@@ -75,7 +75,7 @@ Install MapServer Software
 
 1. It is easy to install MapServer and the Apache webserver on Windows
    using the MS4W installer. You can download the installer at
-   [http://www.maptools.org/ms4w/](http://www.maptools.org/ms4w/).
+   [https://www.maptools.org/ms4w/](https://www.maptools.org/ms4w/).
    Click on the Downloads tab and get the ms4w_3.0.x.zip file.
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch5_image20.png)
 
@@ -355,7 +355,7 @@ image.
 In this chapter we learned how to set up MapServer and configure it as a
 WMS server, using the data that we imported into PostGIS to create map
 images. You can get more information on the WMS architecture at
-[http://docs.geoserver.org/latest/en/user/services/wms/reference.html](http://docs.geoserver.org/latest/en/user/services/wms/reference.html).
+[https://docs.geoserver.org/latest/en/user/services/wms/reference.html](https://docs.geoserver.org/latest/en/user/services/wms/reference.html).
 
 In the next chapters we will look at other ways of styling and
 transmitting maps across the internet. If you’re interested in

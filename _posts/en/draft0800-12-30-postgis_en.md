@@ -27,7 +27,7 @@ data set. For example, the OpenStreetMap server uses a database to
 store its map data. It uses the database to receive edits from mappers,
 to send small pieces of the map as XML to users, and to render the map
 as image tiles on the main website -
-[openstreetmap.org](http://www.openstreetmap.org).
+[openstreetmap.org](https://www.openstreetmap.org).
 
 ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image02.png)
 
@@ -57,7 +57,7 @@ Installer.
 
 1. Navigate your web browser to the postgresql website and find the
    download page here: 
-   [http://www.postgresql.org/download/](http://www.postgresql.org/download/)
+   [https://www.postgresql.org/download/](https://www.postgresql.org/download/)
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image29.png)
 
 2. From here you can find installation instructions for different
@@ -202,7 +202,7 @@ pgAdmin III is an easy way to get started.
 
 8. Click “Add File” and find a shapefile on your filesystem. Feel free
    to use the sample data provided in the QGIS manual
-   ([beginning-qgis-samples.zip](http://www.learnosm.org/files/beginning-qgis-samples.zip)).
+   ([beginning-qgis-samples.zip](https://www.learnosm.org/files/beginning-qgis-samples.zip)).
 
 9. Once you have selected a file, click “Import.” If everything goes
    smoothly, the output will read “Shapefile import completed.” 
@@ -253,7 +253,7 @@ database. The utility is easy to set-up, we simply need to download the
 program, and then we need to add its location to our system path.
 
 1. To download the windows version of osm2pgsql, navigate your web
-   browser to: [http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows](http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows) 
+   browser to: [https://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows](https://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows) 
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image28.png)
 
 2. Download the file named osm2pgsql.zip
@@ -299,7 +299,7 @@ program, and then we need to add its location to our system path.
 13. Next to Name: type “dbsgeo.com”
 
 14. Next to plugins URL: type
-   “[http://qgis.dbsgeo.com](http://qgis.dbsgeo.com)” 
+   “[https://qgis.dbsgeo.com](https://qgis.dbsgeo.com)” 
    ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image03.png)
 
 15. Click OK.
@@ -323,16 +323,16 @@ program, and then we need to add its location to our system path.
 
     Let’s use the plugin to import OpenStreetMap data into our database. If
     you don’t already have a .osm file that you can use, try downloading a
-    file from [http://metro.teczno.com/](http://metro.teczno.com/). This
+    file from [https://metro.teczno.com/](https://metro.teczno.com/). This
     site hosts many OSM extracts for different cities. Find a city to
     import and download the BZ2 file for it. BZ2 files are compressed
     versions of the normal .osm files. PBF files are even smaller, but our
     Windows version of osm2pgsql won’t work with this type of file. If this
     website doesn’t have a city you are interested in, you can get larger
     country-wide extracts from
-    [http://download.geofabrik.de/osm/](http://download.geofabrik.de/osm/.),
+    [https://download.geofabrik.de/osm/](https://download.geofabrik.de/osm/.),
     or download a specific area from
-    [http://hot-export.geofabrik.de](http://hot-export.geofabrik.de).
+    [https://hot-export.geofabrik.de](https://hot-export.geofabrik.de).
 
     ![]({{site.baseurl}}/images/en/advanced/en_adv_ch1_image09.png)
 
@@ -544,7 +544,7 @@ data file, which you can easily download from the GeoFabrik website. To
 download an OSM extract, find the link to the file and use wget to
 download the file on your Ubuntu system. For example:
 
-    wget http://download.geofabrik.de/openstreetmap/asia/indonesia.osm.pbf
+    wget https://download.geofabrik.de/openstreetmap/asia/indonesia.osm.pbf
 
 Depending on the size of the extract it may take some minutes to
 download.
@@ -603,7 +603,7 @@ https://github.com/springmeyer/win-osm-workshop/blob/master/Tutorial.md
 Jeff Haack:
 
 also this for OSM bright and imposm:
-http://mapbox.com/tilemill/docs/guides/osm-bright-ubuntu-quickstart/\#step\_1\_set\_up\_a\_database\_for\_your\_osm\_data
+https://mapbox.com/tilemill/docs/guides/osm-bright-ubuntu-quickstart/\#step\_1\_set\_up\_a\_database\_for\_your\_osm\_data
 
 [[c]](#cmnt_ref3)Paul Norman:
 

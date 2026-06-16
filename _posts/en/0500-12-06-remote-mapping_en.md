@@ -20,18 +20,18 @@ The majority of HOT’s response activities occur remotely. After a disaster str
 
 Considering the scale of the crisis, HOT allocates the necessary resources and the response is coordinated by a specific team or member who makes sure everyone knows when new resources are available as well as where to focus efforts. HOT fosters the engagement of the OSM community and, if existing, local actors to use tools like the Tasking Manager to coordinate response efforts. Examples include the remote activities done in Ivory Coast, Senegal, Philippines, and the Democratic Republic of the Congo.  
 
-[Syria Activation Example](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
+[Syria Activation Example](https://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
 
 ### The HOT Tasking Manager 
 
-The [HOT Tasking Manager](http://tasks.hotosm.org/) is a open source tool designed to divide up a mapping job into smaller tasks that can be completed rapidly. It shows which areas need to be mapped and which areas need the mapping validated by others. It includes mapping tasks for [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), and longer standing [Humanitarian Projects](http://hot.openstreetmap.org/projects).  
+The [HOT Tasking Manager](https://tasks.hotosm.org/) is a open source tool designed to divide up a mapping job into smaller tasks that can be completed rapidly. It shows which areas need to be mapped and which areas need the mapping validated by others. It includes mapping tasks for [Activations](https://wiki.openstreetmap.org/wiki/HOT_activation), and longer standing [Humanitarian Projects](https://hot.openstreetmap.org/projects).  
 
 In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](/en/coordination/tm-user/).  
 
 
 ### Editing Tools 
 
-[iD](http://learnosm.org/en/beginner/id-editor/) - the web-based editor created by [Mapbox](https://www.mapbox.com) with a very user-friendly interface. Generally considered the best editing tool to start with. You can launch this [interactive iD editor tutorial](http://ideditor.com/) to get acquainted with how to use it.  
+[iD](https://learnosm.org/en/beginner/id-editor/) - the web-based editor created by [Mapbox](https://www.mapbox.com) with a very user-friendly interface. Generally considered the best editing tool to start with. You can launch this [interactive iD editor tutorial](https://ideditor.com/) to get acquainted with how to use it.  
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
@@ -56,14 +56,14 @@ This guide has been summarized and collected from a variety of existing tutorial
 
 #### Tutorials
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/)- one of the most comprehensive guides  
+[LearnOSM's Remote Mapping Guide](https://learnosm.org/en/coordination/remote/)- one of the most comprehensive guides  
 
-[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along  
+[MapGive's Learn To Map tutorial](https://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along  
 
 [HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - written by Peter Richardson (@meetar) an experienced HOT Remote Response Volunteer. Attention: the given information is outdated, but still useful. 
 
 #### About HOT 
 
-[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  learn more about how HOT operates and some of their latest news  
+[HOT Wiki Page](https://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  learn more about how HOT operates and some of their latest news  
 
 [HOT Activities](https://www.hotosm.org/what-we-do) - describes HOT activities in more detail from their website  

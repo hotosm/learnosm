@@ -105,15 +105,15 @@ Go through each of the images that you have uploaded a new image for, updating t
 Finally - the images will display within a day or two
 ------------------------------------------------------
 
-One of the site admin's will need to merge your pull request, and then your images will appear on the staging site at <http://nick-tallguy.github.io/en/>  
+One of the site admin's will need to merge your pull request, and then your images will appear on the staging site at <https://nick-tallguy.github.io/en/>  
 
-And once everyone is happy with the images and links, the changed files and new images will be added to <http://learnosm.org/en/>.  
+And once everyone is happy with the images and links, the changed files and new images will be added to <https://learnosm.org/en/>.  
 
 Any problems, please make contact   
 -----------------------------------
 
 - send an email to <learnosm@hotosm.org>  
-- send an email from the contribute section of <http://nick-tallguy.github.io/en/>, or  
+- send an email from the contribute section of <https://nick-tallguy.github.io/en/>, or  
 - raise an issue on Github at <https://github.com/hotosm/learnosm/issues>, or  
 - raise an issue on Transifex  
 
