@@ -67,12 +67,12 @@ source_lang = en
 type = TXT
 
 [o:hotosm:p:learnosm-1:r:0450-10-25-id_issues_enmd]
-file_filter = translations/0450-10-25-id_issues_<lang>.md
+file_filter = translations/0450-12-25-id_issues_<lang>.md
 source_lang = en
 type = GITHUBMARKDOWN
 
 [o:hotosm:p:learnosm-1:r:0450-10-27-id_imag_enmd]
-file_filter = translations/0450-10-27-id_imag_<lang>.md
+file_filter = translations/0450-12-27-id-imag_<lang>.md
 source_lang = en
 type = GITHUBMARKDOWN
 
