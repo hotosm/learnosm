@@ -35,5 +35,8 @@ Check out [CONTRIBUTING.md](CONTRIBUTING.md) for more on how to contribute direc
 - Fix translation mistakes in Transifex, not in this repo: `transifex-sync` is rebuilt every
   night, so edits made there are lost.
 - To hold back a translation, add its filename to [`.tx/hold.txt`](.tx/hold.txt).
-- To show something on staging only, push it to a branch named `staging/<name>`. Merge it into
-  `gh-pages` to publish it, or delete the branch to drop it.
+- To try a change on staging only, push it to a branch in this repo named `staging/<name>`
+  (e.g. `staging/playground`). Staging adds the changes from every `staging/*` branch on top of
+  the translations; a branch that conflicts is skipped. Staging rebuilds nightly, or
+  [on demand](https://github.com/hotosm/learnosm-staging/actions). Merge the branch into
+  `gh-pages` to publish it, or delete it to drop it.
