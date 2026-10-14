@@ -44,6 +44,11 @@ Transifex ── tx pull ──►│ DAILY  learnosm_transifex_sync.sh         
 
 Key properties:
 
+- **Staging-only changes go on `staging/*` branches.** Any branch named `staging/<name>` in
+  `hotosm/learnosm` is applied on top of the sync branch when staging builds, so it's visible on
+  staging.learnosm.org but not on learnosm.org. Merge it into `gh-pages` to go live, or delete it.
+  Staging rebuilds every night, or on demand from the Actions tab of `hotosm/learnosm-staging`.
+
 - **Stateless and rebuilt nightly.** Every run starts from prod `gh-pages` plus a fresh, full Transifex pull.
   The `transifex-sync` branch is always "prod + all pending translations". There are never merge
   conflicts, and after a merge the diff drops to zero by itself.
