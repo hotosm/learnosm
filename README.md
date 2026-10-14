@@ -17,3 +17,25 @@ Check out [CONTRIBUTING.md](CONTRIBUTING.md) for more on how to contribute direc
 -->
 
 **Important:** If you want to translate documents from English or improve one of the existing translations, please check out  https://learnosm.org/en/contribute/translator/. We no longer accept translated contents in pull requests but use Transifex in order to manage translations.
+
+## Translations and staging
+
+| Site | Built from |
+|---|---|
+| https://learnosm.org | `gh-pages` |
+| https://staging.learnosm.org | `transifex-sync` + any `staging/*` branches |
+
+1. Translators work in [Transifex](https://app.transifex.com/hotosm/learnosm-1/).
+2. Every night, translations that are at least 10% complete are pushed to the `transifex-sync`
+   branch, and staging is rebuilt.
+3. Check them on staging. When they look good,
+   [open a PR from `transifex-sync` to `gh-pages`](https://github.com/hotosm/learnosm/compare/gh-pages...transifex-sync)
+   and merge it to publish.
+
+- Fix translation mistakes in Transifex, not in this repo: `transifex-sync` is rebuilt every
+  night, so edits made there are lost.
+- To hold back a translation, add its filename to [`.tx/hold.txt`](.tx/hold.txt).
+- To show something on staging only, push it to a branch named `staging/<name>`. Merge it into
+  `gh-pages` to publish it, or delete the branch to drop it.
+
+More detail: [docs/translation-staging.md](docs/translation-staging.md).
