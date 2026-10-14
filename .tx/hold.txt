@@ -1,0 +1,8 @@
+# Translations to hold back from staging and the Transifex PR.
+# Read nightly by Windmill f/shared/learnosm_transifex_sync (hotosm/windmill-scripts).
+# One glob per line, matched against the Transifex output filename. '#' starts a comment.
+#
+# Hold one resource in one language:
+#   0200-12-27-start-osm_fr.md
+# Hold a whole language:
+#   *_ar.md

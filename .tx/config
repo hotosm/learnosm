@@ -1,0 +1,408 @@
+[main]
+host = https://www.transifex.com
+
+[o:hotosm:p:learnosm-1:r:0170-12-20-resourcesmd]
+file_filter = translations/0170-12-20-resources_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0200-12-03-moving-forwardmd]
+file_filter = translations/0200-12-03-moving-forward_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0200-12-05-glossarymd]
+file_filter = translations/0200-12-05-glossary_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0200-12-23-id-editormd]
+file_filter = translations/0200-12-23-id-editor_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0200-12-25-osm-notesmd]
+file_filter = translations/0200-12-25-osm-notes_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0200-12-27-start-osmmd]
+file_filter = translations/0200-12-27-start-osm_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0200-12-29-introductionmd]
+file_filter = translations/0200-12-29-introduction_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0200-12-31-beginnermd]
+file_filter = translations/0200-12-31-beginner_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0450-09-20-copy-pastemdtxt]
+file_filter = translations/0450-09-20-copy-paste_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0450-10-01-taggingmdtxt]
+file_filter = translations/0450-10-01-tagging_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0450-10-05-savingmdtxt]
+file_filter = translations/0450-10-05-saving_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0450-10-10-buildings-round-tracingmdtxt]
+file_filter = translations/0450-10-10-buildings-round-tracing_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0450-10-20-buildings-tracingmdtxt]
+file_filter = translations/0450-10-20-buildings-tracing_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0450-10-25-id_issues_enmd]
+file_filter = translations/0450-10-25-id_issues_<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:hotosm:p:learnosm-1:r:0450-10-27-id_imag_enmd]
+file_filter = translations/0450-10-27-id_imag_<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:hotosm:p:learnosm-1:r:0450-12-29-hot-startingmdtxt]
+file_filter = translations/0450-12-29-hot-starting_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0450-12-31-hot-tipsmdtxt]
+file_filter = translations/0450-12-31-hot-tips_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0500-01-01-tm2-user_enmd]
+file_filter = translations/0500-01-01-tm2-user_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0500-01-02-tm2-adminmd]
+file_filter = translations/0500-01-02-tm2-admin_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0500-01-03-tm3-user]
+file_filter = translations/0500-01-03-tm3-user_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0500-01-04-tm3-admin]
+file_filter = translations/0500-01-04-tm3-admin_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0500-10-10-reviewmdtxt]
+file_filter = translations/0500-10-10-review_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0500-10-12-mapathonmd]
+file_filter = translations/0500-10-12-mapathon_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0500-10-15-remote-tracingmd]
+file_filter = translations/0500-10-15-remote-tracing_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0500-10-20-remotemd]
+file_filter = translations/0500-10-20-remote_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0500-10-23-tm-disambiguation_enmd]
+file_filter = translations/0500-10-23-tm-disambiguation_<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:hotosm:p:learnosm-1:r:0500-10-24-tm-admin_enmd]
+file_filter = translations/0500-10-24-tm-admin_<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:hotosm:p:learnosm-1:r:0500-10-25-tm-user_enmd]
+file_filter = translations/0500-10-25-tm-user_<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:hotosm:p:learnosm-1:r:0500-10-27-humanitarianmd]
+file_filter = translations/0500-10-27-humanitarian_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0500-12-06-remote-mappingmd]
+file_filter = translations/0500-12-06-remote-mapping_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0500-12-31-coordinationmd]
+file_filter = translations/0500-12-31-coordination_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0600-12-08-osmosismdtxt]
+file_filter = translations/0600-12-08-osmosis_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0600-12-09-osm2pgsqlmdtxt]
+file_filter = translations/0600-12-09-osm2pgsql_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0600-12-10-setting-up-postgresqlmdtxt]
+file_filter = translations/0600-12-10-setting-up-postgresql_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0600-12-13-osm-in-qgismd]
+file_filter = translations/0600-12-13-osm-in-qgis_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0600-12-14-geofabrik-and-hotexportmdtxt]
+file_filter = translations/0600-12-14-geofabrik-and-hotexport_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0600-12-15-getting-datamdtxt]
+file_filter = translations/0600-12-15-getting-data_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0600-12-20-file-formatsmdtxt]
+file_filter = translations/0600-12-20-file-formats_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0600-12-30-data-overviewmdtxt]
+file_filter = translations/0600-12-30-data-overview_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0600-12-31-osm-datamdtxt]
+file_filter = translations/0600-12-31-osm-data_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-07-22-gomapmdtxt]
+file_filter = translations/0900-07-22-gomap_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-12-01-gpsessentialsmd]
+file_filter = translations/0900-12-01-gpsessentials_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-12-03-gpsloggermd]
+file_filter = translations/0900-12-03-gpslogger_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-12-04-basicairdata-gpsloggermd]
+file_filter = translations/0900-12-04-basicairdata-gpslogger_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-12-05-osmtrackermd]
+file_filter = translations/0900-12-05-osmtracker_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-12-06-streetcomplete]
+file_filter = translations/0900-12-06-streetcomplete_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-12-07-mapswipe]
+file_filter = translations/0900-12-07-mapswipe_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-12-10-oruxmapstxt]
+file_filter = translations/0900-12-10-oruxmaps_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-12-12-vespucci]
+file_filter = translations/0900-12-12-vespucci_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-12-20-osmand2md]
+file_filter = translations/0900-12-20-osmand2_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-12-23-papersmd]
+file_filter = translations/0900-12-23-papers_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-12-25-gpsmd]
+file_filter = translations/0900-12-25-gps_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:0900-12-30-mobile_mappingmd]
+file_filter = translations/0900-12-30-mobile_mapping_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1-essential_setuptxt]
+file_filter = translations/essential_setup_<lang>.txt
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-02-15-josm-conflict-resolutionmdtxt]
+file_filter = translations/1900-02-15-josm-conflict-resolution_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-03-15-correcting-imagery-offsetmdtxt]
+file_filter = translations/1900-03-15-correcting-imagery-offset_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-04-10-adding-imagerymdtxt]
+file_filter = translations/1900-04-10-adding-imagery_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-04-15-aerial-imagerymdtxt]
+file_filter = translations/1900-04-15-aerial-imagery_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-06-15-josm-relationsmdtxt]
+file_filter = translations/1900-06-15-josm-relations_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-07-15-creating-custom-presetsmdtxt]
+file_filter = translations/1900-07-15-creating-custom-presets_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-08-15-josm-presetsmdtxt]
+file_filter = translations/1900-08-15-josm-presets_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-09-15-josm-more-pluginsmdtxt]
+file_filter = translations/1900-09-15-josm-more-plugins_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-09-25-josm-more-plugins-2_enmdtxt]
+file_filter = translations/1900-09-25-josm-more-plugins-2_<lang>.md
+source_lang = en
+type = GITHUBMARKDOWN
+
+[o:hotosm:p:learnosm-1:r:1900-10-15-josm-pluginsmd]
+file_filter = translations/1900-10-15-josm-plugins_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-11-15-josm-toolsmd]
+file_filter = translations/1900-11-15-josm-tools_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-12-09-editing-with-josmmd]
+file_filter = translations/1900-12-09-editing-with-josm_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-12-18-more-about-josmmd]
+file_filter = translations/1900-12-18-more-about-josm_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-12-21-start-josmmd]
+file_filter = translations/1900-12-21-start-josm_<lang>.md
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:1900-12-31-josmmd]
+file_filter = translations/1900-12-31-josm_<lang>.md
+source_lang = en
+type        = TXT
+
+[o:hotosm:p:learnosm-1:r:adding-a-building-to-openstreetmapentxt]
+file_filter = translations/adding-a-building-to-openstreetmap_<lang>.txt
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:adding-a-road-in-openstreetmapentxt]
+file_filter = translations/adding-a-road-in-openstreetmap_<lang>.txt
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:drawing-buildings-in-josmentxt]
+file_filter = translations/drawing-buildings-in-josm_<lang>.txt
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:how-to-host-an-openstreetmap-mapathonentxt]
+file_filter = translations/how-to-host-an-openstreetmap-mapathon_<lang>.txt
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:how-to-sign-up-for-openstreetmapentxt]
+file_filter = translations/how-to-sign-up-for-openstreetmap_<lang>.txt
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:how-to-validate-on-openstreetmapentxt]
+file_filter = translations/how-to-validate-on-openstreetmap_<lang>.txt
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:intro-to-the-openstreetmap-wikientxt]
+file_filter = translations/intro-to-the-openstreetmap-wiki_<lang>.txt
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:the-openstreetmap-tasking-managerentxt]
+file_filter = translations/the-openstreetmap-tasking-manager_<lang>.txt
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:what-is-a-mapathonentxt]
+file_filter = translations/what-is-a-mapathonen_<lang>.txt
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:what-is-missing-mapsentxt]
+file_filter = translations/what-is-missing-maps_<lang>.txt
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:what-is-openstreetmapentxt]
+file_filter = translations/what-is-openstreetmap_<lang>.txt
+source_lang = en
+type = TXT
+
+[o:hotosm:p:learnosm-1:r:what-is-the-humanitarian-openstreetmap-teamentxt]
+file_filter = translations/what-is-the-humanitarian-openstreetmap-team_<lang>.txt
+source_lang = en
+type = TXT
+
