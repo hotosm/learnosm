@@ -154,7 +154,7 @@ The lower part of the issues tab show the available rules and allows you to disa
 Saving Your Changes
 --------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
+When (and if) you want to save your edits to OpenStreetMap, click the **Save** button in the upper right corner. The panel on the left will show the upload panel.  
 ![image36][]  
 
 - Add a short description what you changed and why and then click **Save**. "Added houses based on aerial imagery" or "added adddresses based on survey" or "added footbridge based on survey, not yet visible in aerial imagery"
