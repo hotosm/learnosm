@@ -194,6 +194,12 @@ Implementation notes:
   (e.g. `0450-10-25-id_issues_` + `pt_BR` + `.md`), so there's no hard-coded language list.
   Files that don't match a known prefix are skipped with a warning.
 - The `>`-strip exclusion list and the `0[1-9]*.md` / `19*.md` filter are ported 1:1.
+- Front-matter repair for translations: `lang:` is forced to the file's language, `/en/...`
+  permalinks become `/<lang>/...`, and a missing slash is restored (`/zh_CNjosm/` → `/zh_CN/josm/`).
+  Pages whose front matter has no `layout:`/`permalink:`/`lang:` (e.g. a translator translated the
+  keys themselves) are logged as `WARNING` and must be fixed in Transifex.
+- `.tx/config` differs from Nick's copy in two `file_filter`s (`0450-12-25-id_issues_`,
+  `0450-12-27-id-imag_`), matching the file names actually used on the site.
 - When nothing differs from `gh-pages` (all merged), the sync script deletes `transifex-sync`,
   which also closes any open PR, and staging falls back to building `gh-pages`.
 - When the content and base are unchanged since the last run, nothing is pushed, so any open PR
@@ -220,7 +226,16 @@ Implementation notes:
 - [ ] Parallel run 1–2 weeks against Nick's pipeline (§4.5)
 - [ ] Nick disables cron; update docs; archive old staging repo
 
-## 7. Things to verify during implementation
+## 7. Follow-ups outside the pipeline
+
+- **English source changes don't reach Transifex automatically.** When an `_posts/en/` file that
+  is a Transifex resource changes (e.g. the TM5 section in `tm-disambiguation`), someone with
+  Transifex access must update the source (`tx push --source -r <resource>`, or upload in the
+  Transifex UI). This was previously done by hand by the staging maintainers.
+- Fix in Transifex: the German `0600-12-09-osm2pgsql` translation has translated front-matter keys
+  (`Titel:`, `Sprache:` ...); fixed in prod, but the sync will bring it back until fixed upstream.
+
+## 8. Things to verify during implementation
 
 - ~~Pin a real `tx` release.~~ `v1.6.17` is the latest (checked 2026-10-14); amd64/arm64 assets picked by `uname -m`.
 - ~~Windmill internal variables API.~~ Uses `wmill variable get` + `jq`, already used by `f/shared/tm_sandbox_exports`.
