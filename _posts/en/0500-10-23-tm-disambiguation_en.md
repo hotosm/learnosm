@@ -13,6 +13,21 @@ Tasking Manager Versions
 This page gives you an overview over the versions of the Tasking Manager for which we offer documentation. Select one of the guides for the version whose screenshots match the software you want to work with.
 
 <div class='disambiguation-version' markdown="1">
+## Version 5 ##
+
+<figure markdown="1">
+![TM5-start][]
+</figure>
+<figure markdown="1">
+![TM5-project][]
+</figure>
+
+<div class='disambiguation-link' markdown="1">
+[User guide](/en/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
+</div>
+</div>
+
+<div class='disambiguation-version' markdown="1">
 ## Version 4 ##
 
 <figure markdown="1">
@@ -23,7 +38,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
+[User guide](/en/coordination/tm4-user) [Administrator guide](/en/coordination/tm4-admin)
 </div>
 </div>
 
@@ -65,3 +80,5 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 [TM3-project]: /images/coordination/tm3-project.png
 [TM4-start]: /images/coordination/tm4-start.png
 [TM4-project]: /images/coordination/tm4-project.png
+[TM5-start]: /images/coordination/tm5-start.png
+[TM5-project]: /images/coordination/tm5-project.png
