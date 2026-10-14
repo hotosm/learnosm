@@ -12,7 +12,7 @@ Translators - How to add local images for your language
 
 Most of the images on LearnOSM contain English words, but it is easy to add images which have the words in your language. This will also make understanding much easier for visitors to the site.  
 
-Although the eventual aim is to have your nice new images on the main LearnOSM site, initially it is best to add them to our testing site, which you can find on Github at <https://github.com/Nick-Tallguy/Nick-Tallguy.github.io>. Once the images are uploaded and working here, one of the site admin's will quickly add them to the main site for LearnOSM.  
+Images are added to the LearnOSM repository on Github at <https://github.com/hotosm/learnosm> with a pull request. Once one of the site admins has merged it, your images are on the main LearnOSM site, and you can check them alongside your translations on the staging site <https://staging.learnosm.org/en/>.  
 
 - TOC
 {:toc}
@@ -22,13 +22,13 @@ Login to Github
 
 You will need a login for <https://github.com/>  
 
-### Fork the staging site
+### Fork the LearnOSM repository
 
-Once you have a login to Github you will need to navigate to the testing and staging site at <https://github.com/Nick-Tallguy/Nick-Tallguy.github.io>  and **fork** the site by clicking on the **fork** button to the top right ![fork][]{: height="24px"}  
+Once you have a login to Github you will need to navigate to the LearnOSM repository at <https://github.com/hotosm/learnosm>  and **fork** the site by clicking on the **fork** button to the top right ![fork][]{: height="24px"}  
 
 ![Github 1][]
 
-Your fork of the site will be an exact copy of the site at the time you created it - as the site is updated, your fork will be *behind* the staging site, and you will have to update it - more on this later, and if you are uploading images only once, you may never have to update your fork.   
+Your fork of the site will be an exact copy of the site at the time you created it - as the site is updated, your fork will be *behind* the LearnOSM repository, and you will have to update it - more on this later, and if you are uploading images only once, you may never have to update your fork.   
 
 Images - preparation
 --------------------
@@ -46,7 +46,7 @@ Using **0200-12-27-start-osm.md** as an example and the image **start-osm_websit
 
 The files you have been translating are all in the **_posts** folder.  
 
-Navigate to the file on **your fork of the repository** - this link is for the testing site - make sure you go to your fork instead <https://github.com/Nick-Tallguy/Nick-Tallguy.github.io/blob/master/_posts/0200-12-27-start-osm.md> and look for the image you want to replace. When you find the image, click on it, and it will load as a separate page, and the image will be identified as **Nick-Tallguy.github.io/images/beginner/start-osm_website.png**  
+Navigate to the file on **your fork of the repository** - this link is for the main repository - make sure you go to your fork instead <https://github.com/hotosm/learnosm/blob/gh-pages/_posts/en/0200-12-27-start-osm_en.md> and look for the image you want to replace. When you find the image, click on it, and it will load as a separate page, and the image will be identified as **learnosm/images/beginner/start-osm_website.png**  
 
 Assuming you have a new image, and your language is **Italian** (Transifex identifies your language with the code **it**), you should name your new image **start-osm_website_it.png**.  In other words, you have taken the original filename and added **_it** to it, just before it's identifier of .png.  
 
@@ -65,7 +65,7 @@ At the top of the file **0200-12-27-start-osm.md** you will see the header infor
       category: beginner
       ---
 
-From this, you can see your category is **beginner**, and you should navigate to that folder within the images folder - <https://github.com/Nick-Tallguy/Nick-Tallguy.github.io/tree/master/images/beginner> - you should be able to see the original **start-osm_website.png** image in this folder.  
+From this, you can see your category is **beginner**, and you should navigate to that folder within the images folder - <https://github.com/hotosm/learnosm/tree/gh-pages/images/beginner> - you should be able to see the original **start-osm_website.png** image in this folder.  
  
 The top of the web page will look like this  
 
@@ -105,15 +105,13 @@ Go through each of the images that you have uploaded a new image for, updating t
 Finally - the images will display within a day or two
 ------------------------------------------------------
 
-One of the site admin's will need to merge your pull request, and then your images will appear on the staging site at <http://nick-tallguy.github.io/en/>  
-
-And once everyone is happy with the images and links, the changed files and new images will be added to <http://learnosm.org/en/>.  
+One of the site admins will need to merge your pull request. Your Transifex changes appear on the staging site <https://staging.learnosm.org/en/> within a day, and once everyone is happy with the images and links, the translated files will be added to <https://learnosm.org/en/>.  
 
 Any problems, please make contact   
 -----------------------------------
 
 - send an email to <learnosm@hotosm.org>  
-- send an email from the contribute section of <http://nick-tallguy.github.io/en/>, or  
+- send an email from the contribute section of <https://learnosm.org/en/>, or  
 - raise an issue on Github at <https://github.com/hotosm/learnosm/issues>, or  
 - raise an issue on Transifex  
 
