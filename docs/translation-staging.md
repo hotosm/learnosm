@@ -105,7 +105,7 @@ expiry entirely.
 | Path | Value |
 |---|---|
 | `f/shared/transifex_api_key` | Transifex API token (**already exists**; currently a personal token, swap for a service-account token) |
-| `f/shared/learnosm_github_token` | GitHub token above (**to create**) |
+| `f/shared/github-repo-rw` | GitHub token above (existing HOT token, read/write on hotosm repos) |
 
 Marked **secret**.
 
@@ -153,7 +153,7 @@ That's the standard protection against subdomain takeover. Existing records (ape
 
 ### 4.4 Windmill
 
-1. Add the secret variable `f/shared/learnosm_github_token` (§3).
+1. Check the secret variable `f/shared/github-repo-rw` covers the scopes in §3.
 2. Check the worker image has `git`, `curl`, `jq`, `tar`, `base64`, and GNU `sed`. If `jq` is
    missing, add it via a worker-group init script (`apt-get install -y jq`) or a custom image.
 3. Deploy the script `f/shared/learnosm_transifex_sync` (§5) from `hotosm/windmill-scripts`.
