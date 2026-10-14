@@ -94,6 +94,14 @@ For those two choices you can and should leave a friendly, encouraging comment a
 
 You can access a mapper’s statistics on their profile page at https://tasks.hotosm.org/users/_username_. <!-- If the mapper has been making a consistent mistake you can find the projects that mapper worked on by going to their project page and selecting My Tasks below their name. If you want to see all the tasks mapped by that mapper in a specific project you can search their tasks by project id. -->
 
+### Revalidation
+
+If you see a validated task that does not meet the requirements it is possible to have it revalidated. Click the "Request revalidation" button above the task-comments.
+
+The task will be reverted to the Mapped state. You should ask another validator to invalidate the task so that mappers can fix the issues and the task can be validated again.
+
+Do not forget to add a comment to the original validator to explain why you requested revalidation.
+
 ### OSMCha
 
 OpenStreetMap Changeset Analyser or OSMCha shows changesets in a very visual way. You easily see what a mapper has added, changed and even deleted. With OSMCha you are able to see things that are hidden or hard to spot compared to using other validation tools.
