@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM预设组合
-permalink: /zh_CNjosm/josm-presets/
+permalink: /zh_CN/josm/josm-presets/
 lang: zh_CN
 category: josm
 ---

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: 校正影像偏移
-permalink: /zh_CNjosm/correcting-imagery-offset/
+permalink: /zh_CN/josm/correcting-imagery-offset/
 lang: zh_CN
 category: josm
 ---

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM建筑物工具和Utilsplugin2插件
-permalink: /zh_CNjosm/josm-more-plugins/
+permalink: /zh_CN/josm/josm-more-plugins/
 lang: zh_CN
 category: josm
 ---

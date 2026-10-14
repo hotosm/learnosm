@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: 管理Mapathon
-permalink: /zh_CNcoordination/mapathon/
+permalink: /zh_CN/coordination/mapathon/
 lang: zh_CN
 category: coordination
 ---

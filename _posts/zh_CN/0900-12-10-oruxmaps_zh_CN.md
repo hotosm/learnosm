@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: OruxMaps
-permalink: /zh_CNmobile-mapping/oruxmaps/
+permalink: /zh_CN/mobile-mapping/oruxmaps/
 lang: zh_CN
 category: mobile-mapping
 navigation: skip

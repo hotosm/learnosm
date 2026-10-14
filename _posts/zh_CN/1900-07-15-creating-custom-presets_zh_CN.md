@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM - 创建自定义预设组合
-permalink: /zh_CNjosm/creating-presets/
+permalink: /zh_CN/josm/creating-presets/
 lang: zh_CN
 category: josm
 ---

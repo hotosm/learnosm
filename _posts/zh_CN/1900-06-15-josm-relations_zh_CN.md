@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM关系
-permalink: /zh_CNjosm/josm-relations/
+permalink: /zh_CN/josm/josm-relations/
 lang: zh_CN
 category: josm
 ---

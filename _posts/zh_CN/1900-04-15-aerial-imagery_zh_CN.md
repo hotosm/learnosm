@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: 航空影像
-permalink: /zh_CNjosm/aerial-imagery/
+permalink: /zh_CN/josm/aerial-imagery/
 lang: zh_CN
 category: josm
 ---

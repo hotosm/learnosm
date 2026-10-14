@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM添加tms、wms或wmts图像
-permalink: /zh_CNjosm/josm-adding-imagery/
+permalink: /zh_CN/josm/josm-adding-imagery/
 lang: zh_CN
 category: josm
 ---

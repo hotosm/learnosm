@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Creation of OSM Notes
-permalink: /en/beginner/notes/
+permalink: /cs/beginner/notes/
 lang: cs
 category: beginner
 ---
