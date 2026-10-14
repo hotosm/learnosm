@@ -37,5 +37,3 @@ Check out [CONTRIBUTING.md](CONTRIBUTING.md) for more on how to contribute direc
 - To hold back a translation, add its filename to [`.tx/hold.txt`](.tx/hold.txt).
 - To show something on staging only, push it to a branch named `staging/<name>`. Merge it into
   `gh-pages` to publish it, or delete the branch to drop it.
-
-More detail: [docs/translation-staging.md](docs/translation-staging.md).
