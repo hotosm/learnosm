@@ -16,8 +16,7 @@ published: true
 Завантаження JOSM
 -------------
 
--   Якщо ви вже маєте копію JOSM на флешці, ви можете переходити до наступного розділу, Встановлення JOSM.
--   Якщо у вас немає JOSM, або ви бажаєте мати свіжу версію, відкрийте ваш оглядач – це може бути Chrome, Opera, чи Internet Explorer.
+-   Якщо у вас немає JOSM, або ви бажаєте мати свіжу версію, відкрийте ваш оглядач.
 -  В адресному рядку, вгорі вікна, введіть наступний текст та натисніть Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
 -   Ви також можете відшукати веб-сайт JOSM в інтернеті за пошуковим словом “JOSM”.
 -   Він виглядатиме приблизно так, як на малюнку:
@@ -53,14 +52,13 @@ published: true
 
     ![Preferences window][]
 
--   Ліворуч, натисніть на вкладку із зображенням малярного пензля та фарбою.
--   Вгорі вікна натисніть вкладку “Зовнішній вигляд” (“Look and Feel”).
+-   On the left side, click the language tab.
 -   Оберіть вашу мову у списку, що розгортається, поруч зі словом “Мова” (“Language”).
 
-    ![Look and feel][]
+    ![language][]
 
 -   Натисніть Так (OK).
--   Вам потрібно перезапустити JOSM щоб ваші налаштування вступили в дію. В меню “Файл” (“File”) в горі ліворуч, оберіть пункт “Перезапустити” (“Restart”), ближче до нижньої частини меню.
+-   You need to restart JOSM to save your settings. Choose the respective option from the message box.
 
 Основи креслення в JOSM
 -----------------------------
@@ -175,7 +173,7 @@ _Дуже важливо переконатись, що ви вилучили ш
 
 [preferences window]: /images/josm/josm_preferences.png
 
-[look and feel]: /images/josm/josm_look-and-feel.png
+[language]: /images/josm/josm_language.png
 
 [open file]: /images/josm/josm_open-file.png
 

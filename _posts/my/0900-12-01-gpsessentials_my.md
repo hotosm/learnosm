@@ -4,41 +4,36 @@ title: GPS Essentials
 permalink: /my/mobile-mapping/gpsessentials/
 lang: my
 category: mobile-mapping
---- 
+---
 
 
 
 GPS Essentials
 ===================
 
-> Reviewed 2015-05-24  
 
 GPS Essentials တပ်ဆင်ခြင်း
 -------------
 
-- ၁။ သင်၏ Android home screen ပေါ်မှ Android market ကိုဖွင့်ရန် “Google play store” app icon ကိုနှိပ်လိုက်ပါ။
-- ၂။ ညာဘက်အပေါ်ထောင့်မှ “search” icon ကိုနှိပ်ပါ။
-- ၃။ ထိပ်ဆုံး တွင်ရှိသော Search bar ထဲတွင် “GPS essentials”  ဟုရိုက်၍ရှာပါ။
-- ၄။ “GPS essential” icon ကိုထိပြီး “install” ကိုရွေးချယ်ပါ။ icon သည်အောက်ပါပုံအတိုင်းဖြစ်လိမ့်မည်။
+1.  Tap the “Google Play Store” app icon on your Android device’s home screen to open the Android Market.
+2.  Tap the “Search” icon in the upper right corner.
+3.  Use the search bar at the top to search for “GPS Essentials”.
+4.  Tap the GPS Essentials icon and select "Install". The icon looks like this:
 
-   ![GPS Essentials logo][]
+    ![GPS Essentials logo][]
 
-Google play ကိုမရရှိနိုင်ပါက (သို့) ဗားရှင်းအဟောင်း သို့မဟုတ် နောက်ဆုံးပေါ်ဗားရှင်းများထက် 
-တခြားသောဗားရှင်းများကို download လုပ်လိုပါက http://www.images.com.တွင် GPS Essentials ကို download လုပ်နိုင်ပါသည်။
+If you don't have access to Google Play or if you want to download versions other than the stable release such as older versions or the latest beta, you can download GPS Essentials from <http://www.images.com>.
 
 GPS Essentials ကို Offline တွင်အလုပ်လုပ်နိုင်ရန် အတွက် ပြင်ဆင်ခြင်း
 -------------
 
-၁။ GPS Essentials ကိုဖွင့်ပါ။ Settings သို့သွားပြီး Map Cache ကိုရွေးပါ။ Cache ကန့်သတ်ချက်ကို Maximum သို့ ပြောင်းပါ။
+1.  Open GPS Essentials. Go to Settings and select Map Cache. Move the cache limit to maximum.
 
-   ![Map Cache][]
+    ![Map Cache][]
 
-၂။ လိုင်းဆွဲအားကောင်းသော အင်တာနက်လိုင်း တစ်ခုကိုရှာပါ။ Main screen မှ “portable maps” ကို ရွေးပါ။ 
-Portable map mode ထဲမှ သင်ကြည့်သော မြေပုံတိုင်းသည် Android’s memory ထဲတွင် အလိုအလျောက် သိမ်းဆည်းသွားမည်ဖြစ်သည်။ offline ဖြစ်သည့်အခါကြည့်ရန် မြေပုံ များကို save လုပ်ရာတွင် 
-အသေးစိတ်နိုင်သမျှ စိတ်ပါ။ ထို့နောက် waypoint တစ်ခုချင်းစီပေါ်သို့ ဖြည်းဖြည်းချင်းမြင်ကွင်းချဲ့ကြည့်ပါ။
+2.  Find a strong network connection. From main screen, select 'Portable Maps'. Every map you view in portable map mode automatically saves to the Android's memory. Save maps you will need offline in as much detail as possible, and slowly zoom in on each waypoint.
 
-၃။ အင်တာနက်လိုင်းဖြုတ်လိုက်ပါ။ မြေပုံများကို Portable map mode ထဲတွင် ကြည့်ပါ။ တချို့ မြေပုံများတွင် အချက်အလက်များ ပျောက်ပျက်နေပါက အင်တာနက်နှင့် ပြန်လည်ချိတ်ဆက်ကာ 
-သင်လိုအပ်သော တည်နေရာကို မြေပုံပေါ်တွင် ဖြည်းဖြည်းချင်း မြင်ကွင်းချဲ့ကြည့်ပါ။
+3.  Disconnect from the network and view maps in portable map mode. If some maps lack detail, re-connect to a network and slowly zoom in on the map location you need.
 
 Android phone ပေါ်မှ GPS ၏ပုံစံအသွင်အပြင်
 -------------
@@ -50,155 +45,138 @@ GPS essential application အသုံးမပြုမီ သင်၏ Android
 ဂြိုလ်တုများထံမှတည်နေရာအချက်အလက်များရယူခြင်း
 -------------
 
-GPS receiver သည်တည်နေရာတစ်ခု (GPS fix ဟုလည်းခေါ်ပါသည်) ကိုမထုတ်ပေးမီ အနည်းဆုံးဂြိုလ်တု လေးလုံးထံမှ အချက်ပေးချက် (signals) များကို လက်ခံရယူရမည်ဖြစ်သည်။ 
-ဂြိုလ်တုသည် မိုးကုတ်စက်ဝိုင်းရေပြင်ညီအနေအထားနှင့်နီးကပ်လေလေ ထိုဂြိုလ်တုမှ ထုတ်လွှတ်လိုက်သောအချက်ပေးချက်များ(signals) သည်လေထုကိုဖြတ်၍ အချိန်ကြာကြာသွားရလေလေဖြစ်သည်။ 
-ထို့ကြောင့် ဂြိုလ်တုများ မိုးကုတ်စက်ဝိုင်းရေပြင်ညီအနေအထား၏ မြင့်မြင့် တွင် ရှိနေလေလေ ပိုမိုကောင်းမွန်သော အချက်ပေးချက်များ(signals) ရရှိလေလေဖြစ်သည်။ 
+Before a GPS receiver emits a location (also called a GPS fix), it must receive signals from at least four satellites. The lower the satellite is above the horizon, the longer its signals travel through the atmosphere so satellites high above the horizon usually have better signals.
 
 သင့် ဧရိယာအတွင်းမှ ဂြိုလ်တုများကိုစစ်ဆေးရန်အတွက်
 
-၁။ Main menu မှ Satellites ကိုရွေးလိုက်ပါ။
+1.  From the main menu, select Satellites.
 
-   ![Satellites page][]
+    ![Satellites page][]
 
-၂။ အနည်းဆုံးဂြိုလ်တု လေးလုံးသည်အသုံးပြုရန်အဆင်သင့်ဖြစ်နေပြီဆိုပါက GPS essentials features ကို စတင်အသုံးပြု၍ရမည်ဖြစ်ပါသည်။
+2.  If there are at least four satellites used in the fix, then you may start using the GPS Essentials features.
 
 လမ်းကြောင်းများကိုဖန်တီးခြင်း
 -------------
 
-၁။ Main Menu မှ Tracks ကိုရွေးပါ။
+1.  From the main menu, select Tracks.
 
-၂။ Toolbar မှ Start ကိုထိပါ။ လမ်းကြောင်းအသစ်ကိုဖန်တီးပြီးလျှင် မှတ်တမ်းတင်ခြင်း(recording) စတင်ပါလိမ့်မည်။ GPS အသုံးပြုရန်အဆင်သင့်ဖြစ်သည်အထိ 
-စက္ကန့်အနည်းငယ်စောင့်ပါ။
+2.  Tap on Start from the toolbar. It will create a new track and start recording. Wait some seconds until GPS fix is available.
 
-   ![New Track][]
+    ![New Track][]
 
-၃။ မှတ်တမ်းတင်ခြင်း(Recording) ကိုခဏရပ်ရန် Pause ခလုတ်ကိုနှိပ်ပါ။
+3.  Select Pause button to pause recording. If you want to continue recording, press it again.
 
 Waypoints များကိုဖန်တီးခြင်း
 -------------
 
 ### Portable maps ကိုအသုံးပြုခြင်း
 
-၁။ Main menu မှ Portable maps ကိုရွေးလိုက်ပါ။
+1.  From the main menu, select Portable Maps.
 
-၂။ ညွှန်တံ (cursor) တစ်ခုကို ဖန်တီးရန် မြေပုံပေါ်တွင် ထိ၍ ဖိထားပါ။
+2.  Tap and hold on the map to create a new cursor.
 
-   ![Waypoints1][]
+    ![Waypoints1][]
 
-၃။ ညွှန်တံကို waypoint အသစ် လုပ်ချင်သော နေရာပေါ်သို့ ဆွဲချလာပါ။
+3.  Drag the cursor onto the location where you want the new waypoint.
 
-၄။ အောက်တွင်ပြထားသည့် ပြတင်းပေါက်ပုံကဲ့ သို့ သော Icon ကို ပြရန် Actions ပေါ်ကိုနှိပ်လိုက်ပါ။
-	
-   ![Actions][]
-	
-၅။ waypoint ဖန်တီးရန် Add Tool ကိုရွေးချယ်ပါ။
-	
-   ![Waypoints2][]
-	
+4.  Tap on Actions to show the actions pane. The Actions icon looks like this:
+
+    ![Actions][]
+
+5.  Select the Add Tool to create the waypoint.
+
+    ![Waypoints2][]
+
 ### Google မြေပုံများ(Google Maps) အသုံးပြုခြင်း
 
-၁။ Main menu မှ Google Maps ကိုရွေးပါ။
+1.  From the main menu, select Google Maps.
 
-၂။ သင် waypoint ထပ်ထည့်ချင်သော နေရာသို့ သွားပါ။
+2.  Go to the location where you want to add your waypoint.
 
-၃။ waypoint ဖန်တီးရန် Add Tool ကိုရွေးပါ။ သင်၏လက်ရှိတည်နေရာ ၌  
-   waypoint တစ်ခု ဖန်တီးလိုလျှင် Add waypoint 
-   ခလုတ်ကိုထပ်နှိပ်ပါ။
+3.  Select the Add Tool to create the waypoint. Tap on the location on the map to create a Waypoint there. If you want to create a waypoint at your current location, tap the Add Waypoint button again.
 
-   ![GoogleMaps][]
+    ![GoogleMaps][]
 
-၄။ သင်အလိုရှိသော waypoints များ record လုပ်ပြီးသည့်တိုင်အောင် အဆင့် B နှင့် C ကိုထပ်လုပ်ပါ။
+4.  Repeat steps b and c until you are finished recording your desired waypoints.
 
 ### Waypoints စာမျက်နှာအသုံးပြုခြင်း
 
-၁။ Main menu မှ waypoints ကိုရွေးပါ။
+1.  From the main menu, select Waypoints.
 
-၂။ Waypoint ကိုဖန်တီးရန် Add tool ကိုရွေးပါ။
+2.  Select the Add tool to create the waypoint.
 
-   ![Waypointspage1][]
+    ![Waypointspage1][]
 
-၃။ သင်၏ ပထမဆုံး waypoint ကို စတင်မှတ်တမ်းတင်ခြင်း (recording) လုပ်ဆောင်ပါလိမ့်မည်။ သင်သည် waypoint ၏ ပုံစံအသွင်အပြင်လက္ခဏာများကို ပြောင်းလဲနိုင်ပါသည်။ ထို့နောက် 
-   waypointစာရင်းသို့ပြန်သွားရန် Back ကိုနှိပ်ပါ။
-	
-   ![Waypointspage2][]
+3.  It will start recording your 1st waypoint. You may change the attributes of the waypoint and then press Back to get back to the list.
 
-၄။ Map pane ကိုရွေးသောအခါမြေပုံပေါ်တွင် သင်၏ waypoint တည်နေရာကိုတွေ့မြင်ရပါလိမ့်မည်။
-	
-   ![Waypointspage3][]
+    ![Waypointspage2][]
 
-၅။ သင် ၏ waypoint ကို သိမ်းမှတ်ရန် Close ကိုရွေးပါ။
-	
-   ![Close][]
+4.  When you select the Map pane, you will see where your waypoint is located on the map.
 
+    ![Waypointspage3][]
 
-	
+5.  Select Close icon to save your waypoint. The Close icon looks like this:
+
+    ![Close][]
+
 ဓါတ်ပုံများအား Geotag လုပ်ခြင်း
 -------------
 
-၁။ Main menu မှ Camera ကိုရွေးပါ။
+1.  From the main menu, select Camera.
 
-၂။ Geotag လုပ်ရန် သင်ဆန္ဒရှိသောနေရာဒေသကိုဓါတ်ပုံရိုက်ပါ။ 
+2.  Take a picture of your desired area for geotagging.
 
-၃။ သင် ရိုက်လိုက်သောပုံသည် Portable Maps နှင့် Google Maps စာမျက်နှာများတွင် အလိုအလျောက် သိမ်းမှတ်ပြီး Waypoint တစ်ခုအဖြစ် 
-ဆောင်ရွက်ပါလိမ့်မည်။
+3.  The photo you took will serve as a waypoint and automatically be saved on the Portable Maps and Google Maps page.
 
-၄။ တည်နေရာ၏ပုံ၊ ဓါတ်ပုံဖိုင်အမည် (Data) တို့သည် waypoints စာမျက်နှာပေါ်တွင် မှတ်တမ်းတင်သွားပါလိမ့်မည်။ 
-သင်သည် ဓါတ်ပုံတစ်ပုံချင်းစီအတွက် မည်သည့် icon သုံးမည်ဆိုသည်ကိုလည်းရွေးချယ်နိုင်ပါမည်။ 
-ထို icon သည် Portable Maps နှင့်Google Maps စာမျက်နှာတို့တွင်လည်းဖော်ပြနေလိမ့်မည်ဖြစ်ပါသည်။
+4.  The data (picture location and the photo file name) will also be logged on the Waypoints page. You may also choose which icon to be used for a particular image. The icon will be shown on the Portable Maps and Google Maps page as well.
 
 ဓါတ်ပုံများသိမ်းမှတ်(Save)ခြင်း
 -------------
 
-သင်၏ဓါတ်ပုံများအားလုံးသည် သင်၏ SD card ပေါ်ရှိ com.mictale.images ဆိုသည့် folder ထဲတွင်ရှိပါသည်။ ထို့ကြောင့် 
-ဤ folder ထဲမှဓါတ်ပုံများကို ဖျက်ပစ်နိုင်ပြီးဓါတ်ပုံအသစ်များကို ထပ်ထည့်နိုင်ပါသည်။ GPS Essentials  သည် 
-ဓါတ်ပုံအသစ်များကိုကြည့်ရှုနိုင်ရန်အတွက်  ဤ folder ကိုပုံမှန် scan လုပ်ပေးပါသည်။
+All your pictures are in the folder com.mictale.images on your SD card. You can delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder regularly to see what’s new.
 
 Waypoints များကို export လုပ်ခြင်း/ သိမ်းဆည်းခြင်း
 -------------
 
-၁။ Main menu မှ waypoints ကိုရွေးပါ။ ထိုအရာသည် သင် မှတ်တမ်းတင်ခြင်း(recording) ပြုလုပ်ခဲ့သော waypoints များ၏ စာရင်းကိုပြလိမ့်မည်ဖြစ်သည်။
+1.  From the main menu, select Waypoints. It will show you the list of waypoints you recorded.
 
-၂။  သင်၏ waypoints များအားလုံးကို export ပြုလုပ်ရန် Option ခလုတ်မှ Export ကိုရွေးပါ။ waypoint တစ်ခုထဲကိုသာ
-export ပြုလုပ်လိုပါက သင် ပြုလုပ်လိုသော waypoint ကိုရွေးချယ်ပြီး Options  ခလုတ်ကိုနှိပ်ပါ။ Export ကိုရွေးပါ။
+2.  To export all the waypoints, select Export from the Options button. If you want to export a single waypoint, select the desired waypoint, click the Options button and select Export.
 
-၃။ dropdown box သည် သင် export လုပ်လိုသော data များကို မည်သည့် ဖိုင်အမျိုးအစားနှင့် export လုပ်မည်လဲ ဆိုသည်ကိုရွေးချယ်ရန်ခွင့်ပြုပါလိမ့်မည်။ 
-ယခုတော့ KML (Google earth) ကိုသာနှိပ်လိုက်ပါ။
+3.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
 
-   ![Export file format][]
+    ![Export file format][]
 
-၄။ သင့်စိတ်ကြိုက်ဖြစ်သော file ထားမည့်နေရာကို ကိုယ်ကိုယ်တိုင်ရွေးချယ်ရန် SD card icon ကိုရွေးလိုက်ပါ။
+4.  Select the SD card icon to manually select your desired location of the file.
 
-   ![Export to SD card][]
+    ![Export to SD card][]
 
-၅။ သိမ်းဆည်း(Save) ရန် ဤiconကိုနှိပ်ပါ။
+5.  Click this icon to Save.
 
-   ![Arrow][]
+    ![Arrow][]
 
 လမ်းကြောင်းများအား Export လုပ်ခြင်း / သိမ်းဆည်းခြင်း
 -------------
 
-၁။ Main menu  မှ Tracks ကိုရွေးပါ။ ထိုအရာသည် သင် မှတ်တမ်းတင်ခြင်း(recording) ပြုလုပ်ခဲ့ သောလက်ရှိလမ်းကြောင်းမှ data ကိုပြပါသည်။
+1.  From the main menu, select Tracks. It shows the data from the current track you recorded.
 
-၂။ ဖိုင် တစ်ခုတွင် လက်ရှိလမ်းကြောင်း၏ ပါဝင်သောအရာများကိုမှတ်သားရန် Options ခလုတ် မှ Export ကိုရွေးချယ်ပါ။
+2.  Select Export from the Options button to write the contents of the current track to a file.
 
-၃။ သင် မှတ်တမ်းတင်ခြင်း (record) ပြုလုပ်ခဲ့ပြီးသော အရင်လမ်းကြောင်းကို export ပြုလုပ်လိုပါက Tracks icon ကိုနှိပ်ပါ။ သင် အလိုရှိသော track ကိုရွေးချယ်ပြီး Options ခလုတ်ကိုနှိပ်ပါ။ ထို့ နောက် Export ကိုရွေးလိုက်ပါ။ Tracks icon သည် အောက်ပါပုံကဲ့သို့ဖြစ်သည်။
-   Options ခလုတ်ကိုနှိပ်ပါ။ ထို့ နောက် Export ကိုရွေးလိုက်ပါ။ Tracks icon သည် အောက်ပါပုံကဲ့သို့ ဖြစ် သည်။
+3.  If you want to export the previous track you recorded, select Tracks icon and choose the desired track. Click the Options button and select Export. The Tracks icon looks like this:
 
-   ![Footprints][]
+    ![Footprints][]
 
 
-၄။ Dropdown box သည် export လုပ်ရန် သင်လိုချင်သော data ဖိုင်အမျိုးအစားကိုရွေးချယ်ခွင့်ပြုလိမ့်မည်။ ယခုတော့ KML (Google Earth) ကိုသာ ရွေးချယ်လိုက်ပါ။
-   ယခုတော့ KML (Google earth) ကိုသာနှိပ်လိုက်ပါ။
+4.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
 
-   ![Export1][]
+    ![Export1][]
 
-၅။ သင့်စိတ်ကြိုက်ဖြစ်သော file ထားမည့်နေရာကို ကိုယ်ကိုယ်တိုင်ရွေးချယ်ရန် SD card icon ကိုရွေး လိုက်ပါ။
+5.  Select the SD card icon to manually select your desired location of the file.
 
-   ![Export3][]
+    ![Export3][]
 
-၆။ သိမ်းဆည်း(Save) ရန် ဤ icon ကိုနှိပ်ပါ။
+6.  Click this icon to Save.
 
-   ![Arrow][]
+    ![Arrow][]
 
 [GPS Essentials logo]:  /images/mobile-mapping/gpsessentials-Logo.png
 [Map Cache]:  /images/mobile-mapping/gpsessentials-mapcache.png

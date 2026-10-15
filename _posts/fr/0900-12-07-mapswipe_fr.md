@@ -44,4 +44,4 @@ Voir aussi
 [TM]:       /images/mobile-mapping/mapswipe_tm.png
 [contains]: /images/mobile-mapping/mapswipe_contains.png
 [shape]:    /images/mobile-mapping/mapswipe_shape.png
-[modified]:  /images/mobile-mapping/mapswipe_changed.png
+[changed]:  /images/mobile-mapping/mapswipe_changed.png

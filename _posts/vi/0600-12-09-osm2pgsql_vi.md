@@ -68,7 +68,7 @@ Nhận osm2pgsql
 
 Lấy dữ liệu OSM thô
 ---------------------
-Trước khi chúng tôi có thể chạy **osm2pgsql** chúng ta cần có một số dữ liệu OSM thô để nhập vào cơ sở dữ liệu. Nếu bạn chưa có tệp **.osm** mà bạn có thể sử dụng, hãy thử tải xuống tệp từ <https://mapzen.com/data/metro-extracts/>. Trang web này chứa nhiều trích đoạn OSM cho các thành phố khác nhau. Tìm một thành phố để nhập và tải tập tin PBF về nó. Các tập tin PBF là các phiên bản nén của các tệp .osm bình thường . Bạn có thể sử dụng bất kỳ dịch vụ trích xuất nào được liệt kê trong chương về [lấy dữ liệu](/en/osm-data/getting-data), nếu bạn muốn dữ liệu thô cho một khu vực khác.  
+Before we can run **osm2pgsql** we need to have some raw OSM data to import into a database. If you don't already have a **.osm** file that you can use, try downloading a file from <https://download.bbbike.org/osm/bbbike/>. This site hosts many OSM extracts for different cities.  Find a city to import and download the PBF file for it. PBF files are compressed versions of the normal **.osm** files. You can use any of the extract services listed in the chapter on [getting data](/en/osm-data/getting-data), if you'd like the raw data for another area.  
 
 Nhận tệp kiểu
 ------------------
@@ -125,7 +125,6 @@ Chúng tôi có thể kiểm tra rằng nhập khẩu đã thành công và xem 
 
 ![osm in qgis][]
 
-> Nếu bạn nhìn vào các bảng thuộc tính của các lớp, bạn sẽ thấy rằng các thuộc tính được ánh xạ tới các thẻ OSM. Các thẻ cụ thể được nhập được định nghĩa trong quá trình nhập **osm2pgsql**. Để thêm các thẻ cụ thể không được bao gồm theo mặc định, bạn có thể chỉnh sửa tệp *Style* mà osm2pgsql tham chiếu để xác định giản đồ dữ liệu.  
 
 
 Tóm lược

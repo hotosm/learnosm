@@ -9,12 +9,13 @@ category: hot-tips
 Tagowanie - edytor iD
 ============
 
+> Updated 2019-06-28
+
 - TOC
 {:toc}
 
 ![tagging][]
 
-> Ten obrazek ![keymon]{: height="24px"} pokazuje, które przyciski lub kółko myszki zostały użyte i które klawisze były naciśnięte.  
 
 Dlaczego tagi są potrzebne
 -------------------

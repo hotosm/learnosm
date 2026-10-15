@@ -9,7 +9,7 @@ category: resources
 
 # Sumber Daya Lainnya
 
-> Ditinjau 2018-02-24
+> Reviewed 2020-05-08
 
 Berikut ini merupakan daftar beberapa website yang kami rasa cukup berguna. Seluruh tautan telah dicek dan dapat dibuka ketika terakhir dokumen ini diperiksa. 
 

@@ -53,7 +53,7 @@ Une fois que vous êtes 'connecté' à l'outil d'exportation HOT, l'onglet "Cré
 ![export-tool-describe][]
 
 ### Barre de recherche
-Il y a 6 façons de définir un AOI pour votre exportation. La première et la deuxième utilisent la barre de recherche, qui peut soit trouver un lieu en tapant son nom et en le sélectionnant dans les options ci-dessous, soit définir les coordonnées de la zone d'intérêt. Les coordonnées minimales X, minimales Y, maximales X et maximales Y (Ouest, Sud, Est, Nord) d'un pays peuvent être trouvées [dans une liste CSV fournie par le Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
+Il y a 6 façons de définir un AOI pour votre exportation. La première et la deuxième utilisent la barre de recherche, qui peut soit trouver un lieu en tapant son nom et en le sélectionnant dans les options ci-dessous, soit définir les coordonnées de la zone d'intérêt. Les coordonnées minimales X, minimales Y, maximales X et maximales Y (Ouest, Sud, Est, Nord) d'un pays peuvent être trouvées [dans une liste CSV fournie par le Humanitarian Data Exchange (HDX)] (https://data.humdata.org/dataset/bounding-boxes-for-countries).
 
 ![export-tool-search][]
 ![export-tool-coordinates][]

@@ -65,7 +65,7 @@ A janela principal, com a qual já está familiarizado, é a janela do mapa e é
 
 À direita da janela do mapa existe uma série de painéis, cada um com a sua própria função. Normalmente, quando instala o JOSM pela primeira vez, vários painéis são mostrados por defeito, tais como Camadas, Etiquetas / membros e Seleção. Quando seleciona um ponto, linha ou forma na janela do mapa, este é apresentado no painel Seleção. As informações sobre o objeto serão mostradas no painel Etiquetas / membros e o nome de utilizador do autor desse objeto será mostrado no painel Autores.
 
-Estes painéis podem ser abertos ou fechados clicando nos vários botões no canto inferior esquerdo do JOSM. Por cima destes botões, no canto superior direito, existem ferramentas que alteram o que pode fazer com o rato. Já está familiarizado com algumas delas, a ferramenta Selecionar e a ferramenta Desenhar. Abaixo destas estão as ferramentas que facilitam a ampliação, a eliminação de um objeto, o desenho de uma forma ou a criação de uma linha paralela a outra linha.
+These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper left are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
 
 
 Editar
@@ -113,7 +113,7 @@ Ver as suas alterações no mapa
 ---------------------------
 -   Abra o seu navegador de Internet e aceda a [http://openstreetmap.org/](http://openstreetmap.org/)
 -   Desloque o mapa para a área que editou.
--   Deverá ver as suas alterações a aparecer no mapa! Se isso não acontecer, tente premir CTRL+R para atualizar a página. Por vezes, o mapa não é atualizado corretamente e tem de ser recarregado.
+-   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the browser still shows the old version and needs to be reloaded.
 -   E se não vir as suas alterações? Não se preocupe - pode demorar alguns minutos até que as alterações sejam mostradas no mapa. Além disso, verifique as suas adições no JOSM para se certificar de que as adicionou corretamente. Uma boa regra geral é que, se o seu ponto tem um ícone no JOSM, então deve ser visto no mapa principal no sítio do OpenStreetMap.
 
 Sumário

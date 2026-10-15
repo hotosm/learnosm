@@ -9,7 +9,6 @@ category: josm
 JOSM建筑物工具和Utilsplugin2插件
 ============
 
-> 已审核 2016-09-12  
 
 **buildings_tools**和**utilsplugin2**插件为JOSM添加了大量的附加功能。在这一节中，我们将进一步了解它们提供的功能。   
 
@@ -26,6 +25,8 @@ JOSM建筑物工具和Utilsplugin2插件
 
 启动JOSM并下载一个你想追踪建筑物的区域。  
 
+### Rectangular Buildings
+
 * 选择建筑物工具，点击两次，在地图上画一条线。  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ JOSM建筑物工具和Utilsplugin2插件
 ![Extend building][]
 
 * 这不仅只需点击三次就能创建一个矩形，而且还会自动将**building=yes**标签应用到形状中。  
+
+### Circular Buildings
+
+* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+
+![Round building][]
 
 ### 复杂建筑物
 
@@ -50,7 +57,7 @@ JOSM建筑物工具和Utilsplugin2插件
 
 此外，你还可以改变插件的默认设置。  
 
-* 进入 Data->Set buildings size。 ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * 如果您正在创建许多类似大小的建筑物，您可以设置建筑物的特定宽度和高度尺寸，如6×10米（单位是米）。  
 
@@ -80,7 +87,7 @@ Utilsplugin2
 
     ![Nodes interesection][]
 
-2. **从上一个选区复制标签：**这个功能使复制标签变得更容易。如果你想创建许多具有相同标签的对象，首先绘制对象。然后将标签添加到一个对象上。点击另一个对象，按Shift + R键，复制之前所选对象的标签。您可以对所有要标记的对象进行此操作。记得，标签会从先前选择的物件复制，所以如果你点击一个未标签的对象，然后再点击另一个未标签的对象，你将无法复制任何标签。  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 
@@ -119,4 +126,5 @@ Utilsplugin2
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Round building]: /images/josm/buildings_tools-round.png
 

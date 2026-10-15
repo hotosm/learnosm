@@ -1,6 +1,6 @@
 ---
 layout: doc
-title:  Аерофотознімки
+title: Аерофотознімки
 permalink: /uk/josm/aerial-imagery/
 lang: uk
 category: josm

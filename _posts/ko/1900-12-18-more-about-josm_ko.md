@@ -65,7 +65,7 @@ iD 편집기 사용법을 보셨다면, 지도를 그리는 데 배경 이미지
 
 지도 창의 오른쪽에는 여러 패널이 있습니다. JOSM을 설치했을 때 기본적으로 활성화되는 패널은 레이어, 속성, 선택 패널입니다. 지도 창에서 점, 선, 도형을 클릭하면 선택 패널에 클릭한 개체가 표시됩니다. 또한 선택한 개체의 정보가 속성 패널에 표시되고, 선택한 개체를 편집한 사람의 닉네임은 편집자 패널에 표시됩니다.
 
-이들 패널은 JOSM 왼쪽 아래의 버튼을 클릭함으로써 끄고 켤 수 있습니다. 왼쪽 위의 버튼들은 마우스 동작을 정의합니다. 아마 선택 도구와 그리기 도구는 한 번 써 봐서 익숙할 것입니다. 그 외에도 확대, 개체 삭제, 도형 그리기, 평행선 그리기에 특화된 도구들이 JOSM 왼쪽 위에 있습니다.
+These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper left are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
 
 
 편집
@@ -113,7 +113,7 @@ iD 편집기 사용법을 보셨다면, 지도를 그리는 데 배경 이미지
 ---------------------------
 -   인터넷 브라우저를 열고 [http://openstreetmap.org/](http://openstreetmap.org/) 로 이동하세요.
 -   JOSM으로 편집한 구역으로 지도를 움직이세요.
--   편집한 지물이 지도에 보일 것입니다! 만약 보이지 않는다면 CTRL+R을 눌러 웹 페이지를 다시 불러오세요. 가끔씩 지도가 업데이트되지 않으면 이렇게 강제로 캐시를 지워야 할 수도 있습니다.
+-   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the browser still shows the old version and needs to be reloaded.
 -   변경 내역이 보이지 않는다고요? 걱정하지 마세요. 실제로 지도에 변경 내역이 표시되려면 몇 분 정도 걸립니다. 혹시 모르니 편집 내역이 확실히 업로드되었는지 JOSM에서 확인하세요. 참고로 JOSM에서 보이는 아이콘은 대부분 오픈스트리트맵 홈페이지 지도에서도 보입니다.
 
 마치며

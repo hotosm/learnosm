@@ -34,11 +34,11 @@ Hoewel we algemene richtlijnen kunnen geven hoe een mapathon te organiseren, zul
 
 ### Geschiedenis van een succesvolle mapathon
 De London Missing Maps Mapathons begon in 2014 als een kleine trainingsgroep voor nieuwe mappers. Zij hadden het voordeel dat zij in staat waren om veel grote zakelijke sponsoren met fantastische locaties met capaciteiten voor meer dan 80+ mappers er bij te betrekken.
-Het begon met de training van alle aanwezigen in het basale i kaart brengen met behulp van iD als de gekozen bewerker voor beginners.
-Het evenement werd eens per maand gehouden en mappers konden een gratis plek boeken via Eventbrite. Na een tijdje was bekend hoeveel aanwezigen terugkwamen voor meer in kaart brengen en training. De beslissing werd genomen de gebeurtenis te splitsen in training voor nieuwkomers op iD, om de terugkerende mappers te migreren naar JOSM en  ook werd training in valideren geïntroduceerd. Deze indeling heeft bewezen erg succesvol te zijn, maar het resultaat daarvan is dat mappers moeten worden geweigerd omdat het evenement vol is. een tweede mapathon werd opgestart, de Mid Month Mapathon voor de meer gevorderde gebruikers van JOSM die zich wilden concentreren op het meer geavanceerde in kaart brengen en om nieuwe ideeën uit te proberen.
+Het begon met de training van alle aanwezigen in het basale in kaart brengen met behulp van iD als de gekozen bewerker voor beginners.
+Het evenement werd eens per maand gehouden en mappers konden een gratis plek boeken via Eventbrite. Na een tijdje was bekend hoeveel aanwezigen terugkwamen voor meer in kaart brengen en training. De beslissing werd genomen de gebeurtenis te splitsen in training voor nieuwkomers op iD, om de terugkerende mappers te migreren naar JOSM en  ook werd training in valideren geïntroduceerd. Deze indeling heeft bewezen erg succesvol te zijn, maar het resultaat daarvan is dat mappers moeten worden geweigerd omdat het evenement vol is. Een tweede mapathon werd opgestart, de Mid Month Mapathon voor de meer gevorderde gebruikers van JOSM die zich wilden concentreren op het meer geavanceerd in kaart brengen en om nieuwe ideeën uit te proberen.
 Het succes van de gebeurtenis in Londen is gebaseerd op een aantal factoren, maar voornamelijk de volgende strategie...
 
--   Ervaring leerde ons dat de leercurve voor mensen zonder enige noemenswaardige ervaring erg steil is en kan teleurstellend en frustrerend zijn voor deze nieuwkomers als zij niet iets in kaart kunnen brengen tijden hun eerste evenement. Het is belangrijk om ze zo snel mogelijk in kaart te laten brengen, dus werd hen slechts het hele basale getoond met de eenvoudige bewerker iD, wat hen hun eigen bijzondere problemen tegen liet komen gedurende de loop van de avond waarbij zij in de gelegenheid werden gesteld hulp in te roepen.
+-   Ervaring leerde ons dat de leercurve voor mensen zonder enige noemenswaardige ervaring erg steil is en kan  voor deze nieuwkomers teleurstellend en frustrerend zijn, als zij niet iets in kaart kunnen brengen tijdens hun eerste evenement. Het is belangrijk om ze zo snel mogelijk in kaart te laten brengen, dus werd hen slechts het hele basale getoond met de eenvoudige bewerker iD, wat hen hun eigen bijzondere problemen tegen liet komen gedurende de loop van de avond waarbij zij in de gelegenheid werden gesteld hulp in te roepen.
 -   Het was veel eenvoudiger mappers de meer complexe bewerker JOSM uit te leren als zij al ervaring hadden met in kaart brengen met de bewerker iD of enig ander programma voor GIS. Het betekende ook dat we te maken hadden met een groep die er in was geïnteresseerd hun vaardigheden in het in kaart brengen uit te breiden dan alleen om uit te vinden waar het over ging en of zij het leuk vonden of niet.
 -   Het was een regelmatig evenement op de eerste dinsdag van elke maand, dus konden zij daar op voorhand rekening mee houden en die tijd blokken bij het plannen van hun leven.
   Een tweede evenement (Mid Month) en training voor valideren op de maandelijkse gebeurtenis geeft de meer gevorderde mappers een kans om meer geavanceerde en interessante projecten te tackelen, zoals het valideren, experimentele technieken en Field Papers.
@@ -62,7 +62,7 @@ De grootte van de beschikbare locaties en de beschikbaarheid van faciliteiten op
 ### Tweede stap ... De mapathon plannen 
 Nu u voldoende informatie heeft uit uw eerste stappen om het aantal deelnemers, de locatie en beschikbare datums te bepalen, kunt u beginnen met het plannen van uw mapathon.  
 
-1.  Bepaal de datum en de tijd voor de mapathon in lijn met de beschikbaarheid van de locaties (Wees voorzichtig door te controleren of het niet samen valt met enig andere belangrijk evenement dat het aantrekken van vrijhwilligers en bezoekers voor uw gebeurtenis zou kunnen beïnvloeden). Reserveer tenminste minimaal 2,5 tot 3 uur voor uw evenement (een half uur voor speeches en training, een half uur voor versnaperingen, twee uur om in kaart te brengen).  
+1.  Bepaal de datum en de tijd voor de mapathon in lijn met de beschikbaarheid van de locaties (Wees voorzichtig door te controleren of het niet samenvalt met enig andere belangrijk evenement dat het aantrekken van vrijwilligers en bezoekers voor uw gebeurtenis zou kunnen beïnvloeden). Reserveer tenminste minimaal 2,5 tot 3 uur voor uw evenement (een half uur voor speeches en training, een half uur voor versnaperingen, twee uur om in kaart te brengen).  
 2.  Boek de locatie. Overtuig u ervan dat de locatie is weergegeven op OpenStreetMap.  
 3.  Verdeel uitnodigingen aan mappers via lokale en online media om voldoende publiek te trekken. [Eventbrite](https://www.eventbrite.co.uk/) is een goede manier voor het boeken van plaatsen van het evenement.  
 4.  Zult u snacks/verfrissingen aanbieden op het evenement? (Pizza heeft bewezen een populaire keuze te zijn, maar kies vooral voor populaire snacks voor uw deel van de wereld).  
@@ -91,13 +91,13 @@ Nu u voldoende informatie heeft uit uw eerste stappen om het aantal deelnemers, 
 9.  Controleer of iemand de benodigde uitrusting (verlengsnoeren, extra muizen) en tafelbenodigdheden meeneemt.  
 10.  Laat uw helpers weten dat zij een half uur vóór het begin van het evenement aanwezig moeten zijn om u te helpen met het neerzetten van tafels, stoelen, verlengsnoeren, etc.  
 11.  Controleer of er een login is voor de wifi op de locatie en een wachtwoord dat voor iedereen te gebruiken is.  
-12.  maak een register dat meegenomen zou moeten worden naar elke mapathon om aanwezigen te registreren, hun gebruikersnamen en de bewerker die zij gebruiken. Dit zal een lopend record geven om bij te houden hoeveel mappers terugkomen voor een tweede sessie of meer, om te kunnen bepalen welke mappers doorgaan met in kaart brengen gedurende de periode tussen evenementen, de  mate van succes van blijvende mappers te bepalen enzovoort.
+12.  Maak een register dat meegenomen zou moeten worden naar elke mapathon om aanwezigen te registreren, hun gebruikersnamen en de bewerker die zij gebruiken. Dit zal een lopend record geven om bij te houden hoeveel mappers terugkomen voor een tweede sessie of meer, om te kunnen bepalen welke mappers doorgaan met in kaart brengen gedurende de periode tussen evenementen, de  mate van succes van blijvende mappers te bepalen enzovoort.
 13.  Neem tenminste twee dagen vóór het evenement contact op met de validators op afstand om hen te instrueren over de projecten waaraan zal worden gewerkt en eventuele andere details om hen te helpen bij de mapathon te helpen.
 14.  Bepaal een lokaal café of andere locatie om achteraf samen te komen en controleer of het op OpenStreetMap staat.
 
 ### Op de mapathon
 1. Kom vroeg op de locatie om te zien of alles is voorbereid voor de ontvangst van het evenement.  
-2. loop rond over de locatie om uzelf bekend te laten worden met het gebeid, toiletten, nooduitgangen , etc.  
+2. Loop rond over de locatie om uzelf bekend te laten worden met het gebied, toiletten, nooduitgangen, etc.  
 3. Brief de helpers met betrekking tot de lay-out van de ruimte en laat uw vervanger overzicht houden bij het opstellen van de tafels, stoelen en uitrusting, richtingborden neerzetten in gangen.  
 4. Controleer met de IT-persoon ter plaatse dat de internetverbindingen werken en de grote schermen zijn verbonden met de relevante laptops.
 5. Laat een helper aan de deur staan om de mappers te verwelkomen, ze hun naamtags te geven en hun plaatsen te wijzen.
@@ -106,7 +106,7 @@ Nu u voldoende informatie heeft uit uw eerste stappen om het aantal deelnemers, 
 ![mentoring][]
 
 ### Het evenement beginnen
-1. Vraag om stilte en begin met uw welkom, introductiespeech, programma voor het evenement, instructies voor evacuatie in geval van brand , positie van toiletten, etc.  
+1. Vraag om stilte en begin met uw welkom, introductiespeech, programma voor het evenement, instructies voor evacuatie in geval van brand, positie van toiletten, etc.  
 2. Introduceer uw ervaren mapper en begin het trainingsproces.
 3. Wees, gedurende het evenement, gereed om nuttige tips te geven als blijkt dat er een fout is gemaakt door enkele van de mappers (zoals het niet vierkant maken van gebouwen)
 4. <https://osmlab.github.io/show-me-the-way/bbox.html> is een leuke manier om voor de mappers iets op het grote scherm te laten zien: het live bewerken in actie.

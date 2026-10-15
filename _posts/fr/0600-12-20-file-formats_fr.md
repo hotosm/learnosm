@@ -62,5 +62,5 @@ Résumé
 Dans les chapitres suivants, nous verrons comment vous pouvez télécharger des données dans différents formats sur Internet et comment vous pouvez utiliser différents outils pour manipuler les données brutes par vous-même.  
 
 
-[Sample XML OSM file]: /images/osm-data/example_osm.png
+[Sample OSM XML file]: /images/osm-data/example_osm.png
 [Shapefile attributes]: /images/osm-data/shapefile_attributes.png

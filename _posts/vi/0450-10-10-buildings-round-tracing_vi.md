@@ -9,19 +9,20 @@ category: hot-tips
 Vẽ các toà nhà tròn- iD editor
 ============
 
+> Updated 2019-06-24
+
 - TOC
 {:toc}
 
 The Essentials
 ----------
 
-![Round Buildings][]  
+![Round Buildings][]
 
-> Hình ảnh này ![keymon]{: height="24px"} chỉ cho bạn thấy các nút và thao tác chuột cũng như các phím tắt trên bàn phím được sử dụng.  
 
 Chú ý;  
 
-- Đặt các điểm của bạn tại các góc tường chạm mặt đất - tối thiểu 3 điểm. Sử dụng công cụ để làm cho nó tròn.  
+- Place your points where the walls will reach the ground - 3 points is the minimum. Double click on the last point to finish tracing an area. Use the tool to make it round - shortcut **o** in English.  
 - Hãy gắn thẻ cho đối tượng!  
 - Kích thước - *ước tính dân số dựa trên diện tích xây dựng tích lũy trong một khu vực nhất định*,  
 - Phóng đủ to để nhìn rõ các chi tiết - phóng to tới tỉ lệ 20 mét hoặc nhỏ hơn.  
@@ -29,6 +30,16 @@ Chú ý;
 - Các toà nhà, đường xá, sông, ranh giới **sử dụng đất=khu dân cư** hoặc các đối tượng khác không nên trùng nên nhau.  
 - Nếu bạn phạm sai lầm, hãy sử dụng nút ** Hoàn tác **![back arrow]{: height="26px"} để hoàn tác thay đổi cuối cùng của bạn  
 - Tất cả chúng ta đang nâng cấp bản đồ. Nếu người lập bản đồ trước bỏ qua các toà nhà hay vẽ sai, hay vẽ đúng lại và gửi một tin nhắn lịch sự cho họ.  
+
+Building - converting square to round
+-------------------------------------
+
+![Square to round][]  
+
+If a building has been traced as rectangular, but you can see it should be round it is easy to convert to a round building;
+
+- move each of the corners so they are now on the perimeter of the round building,
+- right click and use the circularise tool, or shortcut **o** - may be a different character in other languages.  
 
 Nhận dạng
 ---------------
@@ -57,6 +68,7 @@ See also
 
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "Demonstration of mapping a round building"
+[Square to round]: /images/hot-tips/square-round-building.gif "Demonstrating changing a square to round building"  
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Round building next to a bush"
 [back arrow]: /images/beginner/back-arrow.png "Undo"
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"

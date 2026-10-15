@@ -2,7 +2,7 @@
 layout: doc
 title: GPSLogger pour Android
 permalink: /fr/mobile-mapping/gpslogger/
-lang : fr
+lang: fr
 category: mobile-mapping
 ---
 

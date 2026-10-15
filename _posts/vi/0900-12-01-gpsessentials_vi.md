@@ -4,41 +4,36 @@ title: GPS Essentials
 permalink: /vi/mobile-mapping/gpsessentials/
 lang: vi
 category: mobile-mapping
---- 
+---
 
 
 
 GPS Essentials
 ===================
 
-> Reviewed 2015-05-24  
 
 Cài đặt GPS Essentials
 -------------
 
-1. Nhấn biểu tượng ứng dụng "Cửa hàng Google Play" trên màn hình chính của thiết bị Android để mở Android Market.
-2. Chạm vào biểu tượng "Tìm kiếm" ở góc trên bên phải.
-3. Sử dụng thanh tìm kiếm ở trên cùng để tìm kiếm "GPS Essentials".
-4. Nhấn biểu tượng GPS Essentials và chọn "Install". Biểu tượng sẽ như sau:
+1.  Tap the “Google Play Store” app icon on your Android device’s home screen to open the Android Market.
+2.  Tap the “Search” icon in the upper right corner.
+3.  Use the search bar at the top to search for “GPS Essentials”.
+4.  Tap the GPS Essentials icon and select "Install". The icon looks like this:
 
-   ![GPS Essentials logo][]
+    ![GPS Essentials logo][]
 
-Nếu bạn không có quyền truy cập vào Google Play hoặc nếu bạn muốn tải xuống các phiên bản khác với bản phát hành ổn định
-chẳng hạn như các phiên bản cũ hơn hoặc bản beta mới nhất, bạn có thể tải về GPS Essentials từ http://www.images.com.
+If you don't have access to Google Play or if you want to download versions other than the stable release such as older versions or the latest beta, you can download GPS Essentials from <http://www.images.com>.
 
 Định cấu hình GPS Essentials để làm việc ngoại tuyến
 -------------
 
-1. Mở GPS Essentials. Chuyển đến Cài đặt và chọn Cache Bản đồ. Di chuyển giới hạn bộ nhớ cache đến mức tối đa.
+1.  Open GPS Essentials. Go to Settings and select Map Cache. Move the cache limit to maximum.
 
-   ![Map Cache][]
+    ![Map Cache][]
 
-2. Tìm một kết nối mạng mạnh mẽ. Từ màn hình chính, chọn 'Portable Maps'. Mỗi bản đồ bạn xem trong di động
-chế độ bản đồ sẽ tự động lưu vào bộ nhớ của Android. Lưu bản đồ bạn sẽ cần ngoại tuyến chi tiết càng nhiều càng tốt
-có thể, và từ từ phóng to về mỗi điểm đường.
+2.  Find a strong network connection. From main screen, select 'Portable Maps'. Every map you view in portable map mode automatically saves to the Android's memory. Save maps you will need offline in as much detail as possible, and slowly zoom in on each waypoint.
 
-3. Ngắt kết nối khỏi mạng và xem các bản đồ trong chế độ bản đồ di động. Nếu một số bản đồ thiếu chi tiết, hãy kết nối lại với một
-mạng và từ từ phóng to về vị trí bản đồ bạn cần.
+3.  Disconnect from the network and view maps in portable map mode. If some maps lack detail, re-connect to a network and slowly zoom in on the map location you need.
 
 Tính năng GPS trên điện thoại Android
 -------------
@@ -50,155 +45,138 @@ Trước khi sử dụng GPS Essentials Application, đảm bảo rằng GPS tro
 Tải ảnh vệ tinh
 -------------
 
-Trước khi GPS phát ra một vị trí (còn gọi là GPS fix), nó phải nhận tín hiệu từ ít nhất bốn vệ tinh.
-Các vệ tinh thấp hơn là ở trên đường chân trời, càng dài tín hiệu của nó đi qua bầu khí quyển để vệ tinh
-cao trên đường chân trời thường có tín hiệu tốt hơn. 
+Before a GPS receiver emits a location (also called a GPS fix), it must receive signals from at least four satellites. The lower the satellite is above the horizon, the longer its signals travel through the atmosphere so satellites high above the horizon usually have better signals.
 
 Để kiểm tra các vệ tinh trong khu vực của bạn:
 
-1. Từ menu chính, chọn vệ tinh.
+1.  From the main menu, select Satellites.
 
-   ![Satellites page][]
+    ![Satellites page][]
 
-2. Nếu có ít nhất bốn vệ tinh được sử dụng trong bản sửa lỗi thì bạn có thể bắt đầu sử dụng các tính năng GPS Essentials.
+2.  If there are at least four satellites used in the fix, then you may start using the GPS Essentials features.
 
 Tạo Tracks
 -------------
 
-1. Từ trình đơn chính, chọn Tracks.
+1.  From the main menu, select Tracks.
 
-2. Bấm vào Bắt đầu từ thanh công cụ. Nó sẽ tạo ra một ca khúc mới và bắt đầu thu âm. Chờ vài giây cho đến khi GPS khắc phục
-sẵn sàng
+2.  Tap on Start from the toolbar. It will create a new track and start recording. Wait some seconds until GPS fix is available.
 
-   ![New Track][]
+    ![New Track][]
 
-3. Chọn nút Tạm dừng để tạm dừng quay. Nếu bạn muốn tiếp tục thu âm, bấm lại lần nữa.
+3.  Select Pause button to pause recording. If you want to continue recording, press it again.
 
 Tạo các điểm đường đi
 -------------
 
 ### Sử dụng Portable Maps
 
-1. Từ trình đơn chính, chọn Portable Maps.
+1.  From the main menu, select Portable Maps.
 
-2. Bấm và giữ trên bản đồ để tạo một con trỏ mới.
+2.  Tap and hold on the map to create a new cursor.
 
-   ![Waypoints1][]
+    ![Waypoints1][]
 
-3. Kéo con trỏ vào vị trí mà bạn muốn điểm đường mới.
+3.  Drag the cursor onto the location where you want the new waypoint.
 
-4. Chạm vào Actions để hiển thị ngăn tác vụ. Biểu tượng Actions sẽ như sau:
-	
-   ![Actions][]
-	
-5. Chọn Công cụ Thêm để tạo điểm đường.
-	
-   ![Waypoints2][]
-	
+4.  Tap on Actions to show the actions pane. The Actions icon looks like this:
+
+    ![Actions][]
+
+5.  Select the Add Tool to create the waypoint.
+
+    ![Waypoints2][]
+
 ### Sử dụng Google Maps
 
-1. Từ trình đơn chính, chọn Google Maps.
+1.  From the main menu, select Google Maps.
 
-2. Đi đến vị trí nơi bạn muốn thêm điểm tham chiếu.
+2.  Go to the location where you want to add your waypoint.
 
-3. Chọn Thêm công cụ để tạo điểm tham chiếu. Chạm vào vị trí trên bản đồ để tạo 
-   Waypoint ở đó. Nếu bạn muốn tạo một điểm tham chiếu tại vị trí hiện tại của mình, bấm vào Add
-   Nút Waypoint lại.
+3.  Select the Add Tool to create the waypoint. Tap on the location on the map to create a Waypoint there. If you want to create a waypoint at your current location, tap the Add Waypoint button again.
 
-   ![GoogleMaps][]
+    ![GoogleMaps][]
 
-4.  Lặp lại các bước b và c cho đến khi bạn hoàn tất việc ghi lại các điểm tham chiếu mong muốn.
+4.  Repeat steps b and c until you are finished recording your desired waypoints.
 
 ### Sử dụng trang Waypoints
 
-1. Từ trình đơn chính, chọn Waypoints
+1.  From the main menu, select Waypoints.
 
-2. Chọn công cụ Thêm để tạo điểm tham chiếu.
+2.  Select the Add tool to create the waypoint.
 
-   ![Waypointspage1][]
+    ![Waypointspage1][]
 
-3. Nó sẽ bắt đầu ghi lại điểm đầu tiên của bạn. Bạn có thể thay đổi thuộc tính của điểm đường
-   và sau đó nhấn Quay lại để trở lại danh sách.
-	
-   ![Waypointspage2][]
+3.  It will start recording your 1st waypoint. You may change the attributes of the waypoint and then press Back to get back to the list.
 
-4. Khi bạn chọn ô Bản đồ, bạn sẽ thấy địa điểm của bạn nằm trên bản đồ.
-	
-   ![Waypointspage3][]
+    ![Waypointspage2][]
 
-5. Chọn biểu tượng Đóng để lưu điểm tham chiếu. Biểu tượng Đóng trông giống như sau:
-	
-   ![Close][]
+4.  When you select the Map pane, you will see where your waypoint is located on the map.
 
+    ![Waypointspage3][]
 
-	
+5.  Select Close icon to save your waypoint. The Close icon looks like this:
+
+    ![Close][]
+
 Gắn thẻ địa lý
 -------------
 
-1. Từ menu chính, chọn Camera.
+1.  From the main menu, select Camera.
 
-2. Chụp ảnh khu vực mong muốn của bạn để gắn thẻ địa lý.
+2.  Take a picture of your desired area for geotagging.
 
-3. Ảnh bạn chụp sẽ phục vụ như một điểm tham chiếu và tự động được lưu trên Portable Maps
-và trang Google Maps.
+3.  The photo you took will serve as a waypoint and automatically be saved on the Portable Maps and Google Maps page.
 
-4. Dữ liệu (vị trí hình ảnh và tên tệp ảnh) cũng sẽ được ghi lại trên trang Waypoints.
-Bạn cũng có thể chọn biểu tượng sẽ được sử dụng cho một hình ảnh cụ thể. Biểu tượng sẽ được hiển thị trên
-Portable Maps và trang Google Maps.
+4.  The data (picture location and the photo file name) will also be logged on the Waypoints page. You may also choose which icon to be used for a particular image. The icon will be shown on the Portable Maps and Google Maps page as well.
 
 Ảnh đã Lưu
 -------------
 
-Tất cả ảnh của bạn nằm trong thư mục com.mictale.images trên thẻ SD của bạn. Bạn có thể
-xóa ảnh khỏi thư mục này và thậm chí bạn có thể thêm những ảnh mới. GPS Essentials quét thư mục này
-thường xuyên để xem những gì mới.
+All your pictures are in the folder com.mictale.images on your SD card. You can delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder regularly to see what’s new.
 
 Xuất / lưu các Waypoints
 -------------
 
-1. Từ trình đơn chính, chọn Waypoints. Nó sẽ hiển thị cho bạn danh sách các điểm tham chiếu mà bạn đã ghi lại.
+1.  From the main menu, select Waypoints. It will show you the list of waypoints you recorded.
 
-2. Để xuất tất cả các điểm tham chiếu, chọn Xuất từ ​​nút Tùy chọn. Nếu bạn muốn xuất
-một điểm tham chiếu, chọn điểm mốc mong muốn, nhấp vào nút Tuỳ chọn và chọn Xuất.
+2.  To export all the waypoints, select Export from the Options button. If you want to export a single waypoint, select the desired waypoint, click the Options button and select Export.
 
-3. Hộp thả xuống sẽ cho phép bạn chọn loại tệp bạn muốn dữ liệu của mình được xuất.
-Bây giờ, hãy nhấp vào KML (Google Earth).
+3.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
 
-   ![Export file format][]
+    ![Export file format][]
 
-4. Chọn biểu tượng thẻ SD để tự chọn vị trí bạn mong muốn của tệp.
+4.  Select the SD card icon to manually select your desired location of the file.
 
-   ![Export to SD card][]
+    ![Export to SD card][]
 
-5. Nhấp vào biểu tượng này để Lưu.
+5.  Click this icon to Save.
 
-   ![Arrow][]
+    ![Arrow][]
 
 Xuất / Lưu Tracks
 -------------
 
-1. Từ trình đơn chính, chọn Tracks. Nó hiển thị dữ liệu từ bản nhạc hiện tại mà bạn đã ghi lại.
+1.  From the main menu, select Tracks. It shows the data from the current track you recorded.
 
-2. Chọn Xuất từ ​​nút Tuỳ chọn để ghi nội dung của bản nhạc hiện tại vào một tệp.
+2.  Select Export from the Options button to write the contents of the current track to a file.
 
-3. Nếu bạn muốn xuất bài hát trước đó mà bạn đã thu âm, hãy chọn biểu tượng Tracks và chọn bài hát bạn muốn.
-   Nhấp vào nút Tuỳ chọn và chọn Xuất. Biểu tượng Tracks giống như sau:
+3.  If you want to export the previous track you recorded, select Tracks icon and choose the desired track. Click the Options button and select Export. The Tracks icon looks like this:
 
-   ![Footprints][]
+    ![Footprints][]
 
 
-4. Hộp thả xuống sẽ cho phép bạn chọn loại tệp bạn muốn xuất dữ liệu của mình.
-   Bây giờ, hãy nhấp vào KML (Google Earth).
+4.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
 
-   ![Export1][]
+    ![Export1][]
 
-5. Chọn biểu tượng thẻ SD để tự chọn vị trí mong muốn của bạn về tệp.
+5.  Select the SD card icon to manually select your desired location of the file.
 
-   ![Export3][]
+    ![Export3][]
 
-6. Nhấp vào biểu tượng này để Lưu.
+6.  Click this icon to Save.
 
-   ![Arrow][]
+    ![Arrow][]
 
 [GPS Essentials logo]:  /images/mobile-mapping/gpsessentials-Logo.png
 [Map Cache]:  /images/mobile-mapping/gpsessentials-mapcache.png

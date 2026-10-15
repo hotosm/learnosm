@@ -9,198 +9,116 @@ category: josm
 JOSM 修改流程
 ========================
 
-> Reviewed 2015-07-12  
 
-在前面的章節，
-你安裝了 JOSM 並開始繪製你的第一個點、線與面。
-在這些物件上，你加入了一些邊框以加入更多有關物件的資訊。
-在最後，你可以開始用 JOSM 繪製你自己的地圖。
+In the previous section you installed JOSM and began drawing your first points, lines, and shapes. You added presets to these objects in order to attach information about them. By the end, you were able to draw your own map in JOSM.
 
 這些都是好的練習，而現在，我們準備要編輯開放街圖了。
 
-在這個章節，我們會更仔細地了解 JOSM 的介面，
-了解我們能怎麼使用這些介面來編輯開放街圖的地圖。
+In this section we will take a closer look at the interface of JOSM, and see how we can use it to edit the map on OpenStreetMap.
 
 修改的循環
 ---------------------
-用 JOSM 編輯 OpenStreetMap 和我們之前看過的 iD 編輯器非常類似。
-不過， JOSM 是個桌面應用程式，
-所以運作起來有些不一樣。
-用 JOSM 新增、編輯 OpenStreetMap 的流程一直像下面這樣：
+Editing OpenStreetMap with JOSM is similar to editing with the iD editor we saw previously. But because JOSM is a desktop application, it works a little bit differently. The process of editing and adding to OpenStreetMap with JOSM will always be as follows:
 
-1. 從 OSM **下載**當前的地圖資料
-2. 使用衛星影像、GPS、Field Papers **編輯** 它，並且標註資訊作為指引
-3. 把你的修改 **儲存** 到開放街圖
+1.  **Download** the current map data from OSM
+2.  **Edit** it using Satellite Imagery, GPS, Field Papers, and notes as a guide
+3.  **Save** changes to OpenStreetMap
 
 下載 OSM 地圖資料
 --------------------
-第一個編輯的步驟是下載你想要改進區域的地圖資料。
-請記得，每次你想要修改地圖的時候你都必須做一次，
-因為地圖常常會被其他使用這更新。
+The first editing step is to download the data for the area of the world that we want to improve. Remember that you need to do this every time that you want to make changes to the map, because the map is often being updated by other users.
 
-- 點擊左上方的「File」並點選「Download from OSM」。
-    這會打開一個下載對話窗，
-    點選下載按鈕可以簡單的操作這個對話窗，
-    顯示在這裡：
+-   Click on “File” in the top left corner of JOSM and click “Download data...”. This will open up the download window. You can access this window more simply by clicking on the download button, shown here:
 
 ![JOSM Download Button][]
 
-- 當下載視窗打開的時候，你應該看到一個地圖，並且有粉紅色的框覆蓋在上面。
-    如果你看不到地圖，點選標示為
-    「Slippy map」的分頁。
+-   When the download window opens, you should see a map. If you don’t see the map, click on the tab marked “Slippy map”.
 
 ![JOSM Download Dialog][]
 
-- 粉紅色的框呈現我們即將下載來編輯的地圖區域。
-    使用你的滑鼠上下移動並縮放到你非常熟悉的區域，
-    例如你的家鄉或鄰近區域。
-    這個控制方式就跟 JOSM 的地圖視窗一樣。
-    滑鼠右鍵可以拖拉地圖，
-    滾輪可以讓你縮放地圖大小。
+-   Use your mouse to pan and zoom it to an area that you know very well, such as your hometown or neighborhood. The controls are the same as in the JOSM map window. The right mouse button lets you drag the map, and your scroll wheel allows you to zoom in and out.
 
-> 如果你在筆記型電腦上，操作縮放有時候會十分困難。
->⇥t如果你有滑鼠，在 JOSM 上的操作會簡單一些；
->⇥不過現在的筆記型電腦一般都允許你使用觸控版操作滾輪。
+> Sometimes if you are working on a notebook computer it can be difficult to scroll in and out. Working in JOSM is much easier if you have a mouse, but most modern notebooks allow you to scroll using the touchpad.
 
--⇥拉出一個方框以框住你想要下載的區域。要拉一個方框，點擊地圖，
-    按住你的滑鼠左鍵，並移動你的滑鼠以建立一個方框。
-    當你拉好以後，放開滑鼠左鍵。
-- 當你對方框的位置與地點滿意後，點選視窗底部的「Download」。
-    JOSM 會從 OpenStreetMap 下載這個區域的資料，
-    並且把這個地圖呈現在地圖視窗
-    供你編輯。
+-   Draw a box around the area that you want to download. To draw a new box, click on the map, hold your left mouse button down, and drag your mouse to create a box. Release the mouse button to finish drawing the box.
+-   When you are satisfied with the size and location of the box, click “Download” at the bottom of the window. JOSM will get the data for this area from OpenStreetMap and open it in your map window for editing.
 
 ### 加入圖層
-如果你曾跟隨我們的腳步，使用 iD 編輯器加入第一個點，
-你應該記得地圖下方有個衛星圖資，
-可以幫助我們辨識地面上的物件。微軟的 Bing 慷慨地提供這個圖資，
-方便開放街圖使用者在繪製地圖資訊的時候
-參考。
+If you followed along when we added our first points with the iD editor, you remember that beneath the map data there was a satellite image that helped us identify objects on the ground. This imagery was from Microsoft Bing, which generously provides its imagery for OpenStreetMap users to reference while contributing to the map.
 
--⇥要在 JOSM 裡加入 Bing 的衛星圖資，點選 JOSM 上方選單的「Imagery」，
-    並選擇「“Bing Sat」。
+-   To add the Bing satellite imagery in JOSM, click "Imagery" on the top menu of JOSM and selecting “Bing Sat.”
 
-> 如果你沒有在「Imagery」選單中看到「Bing Sat」，
-> 你可能需要在 JOSM 的設定裡面開啟。前往 Edit 選單中的 Preferences ，
-> 並且點選寫著「WMS TMS」的圖示。你可能需要往下拉才能找到。
+> If you don't see Bing Sat on the Imagery menu, you may need to activate it in the JOSM preferences. Go to Edit -> Preferences and click on the icon that says “WMS TMS”. You may need to click on the down arrow to find it.
+>
 > ![JOSM Preferences up down][]
 > ![JOSM Preferences WMS TMS][]
-> 點擊「Bing Sat」，然後點「Activate」。
+>
+> Click on “Bing Sat”. Then Click “Activate”.
 
 
 ### JOSM 之旅
-現在，我們已經下載了 OpenStreetMap 圖資，並且加入了 Bing 的衛星圖資，
-接著讓我們看看 JOSM 的另一個介面。
+Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery, let's take another look at the interface of JOSM.
 
 ![JOSM layout][]
 
-主視窗你應該已經很熟悉了，這是地圖視窗， 
-也是大部分的操作所在的地方。這裡你可以看、編輯，
-並新增 OpenStreetMap 圖資。
+The main window you are already familiar with - this is the map window, and it is where most of the action takes place. Here you will view, edit, and add to the OpenStreetMap data.
 
-地圖視窗的右方有一系列面板，
-每個都有自己的功能。一般來說，當你第一次安裝 JOSM 後，
-有幾個面板就愈社會顯示，例如 Layers、Properties 與 Selection。
-當你點選了地圖視窗的點、線、面，
-它就會顯示在 Selection 面板；
-這個物件的資訊會顯示在 Properties 面板，
-物件作者的匿稱會顯示在 Authors 面板。
+To the right of the map window are a series of panels, each of which has its own function. Typically when you first install JOSM several panels are shown by default, such as Layers, Properties, and Selection. When you select a point, line, or shape in the map window, it will be shown in the Selection panel. Information about the object will be shown in the Properties panel, and the username of the author of that object will be shown in the Authors panel.
 
-點選 JOSM 左下角的數個按鈕，可以打開或關閉這些面板。
-在這些按鈕上面，在右上方，是可以改變滑鼠行為的工具。
-你已經熟悉其中的一些，
-比如選擇（Select）工具與繪製（Draw）工具。
-在他們下面，是一些工具讓你更容易縮放、刪除物件、繪製一個面、
-或建立一段平行於另一條線的線。
+These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper left are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
 
 
 編輯
 ----
-所以我們已經完成了編輯的第一個步驟－下載。
-我們已經準備了 JOSM，並有衛星圖資作為參考。
-下一步，就是編輯地圖，並新增物件。
+So we have completed step one of the editing process - Downloading. We have prepared JOSM with satellite imagery as a reference. The next step is to edit the map and add new items.
 
-根據你下載的地圖資料，上面可能已經有非常多，
-或只有一些已經存在的地圖資料。不過注意，
-這些資料跟我們之前看過的點、線、面是同一類資料，這些資料呈現了這個區域在真實世界的面貌。
+Depending on the area that you chose to download, there may be a lot or very little existing map data. But notice that it is the same sort of data that we have seen previously - points, lines, and shapes that represent real-life locations.
 
-- 使用你學過的這些技巧，去新增一些你認識的地點到地圖上。
-	如果你看到錯誤，可以嘗試修正它們。
-- 當你還在學習的時候，不用過於積極去編輯地圖。
-	如果你不確定你編輯的物件，最好的方法是保持原狀。
-- 如果你想要移動一個點、線或面，
-    使用 **選擇工具（select tool）** 。
-    點擊並拖拉物件到它應該在的位置。
-    這可以用來修正一些被放到錯誤位置的物件。
+-   Use the techniques you have already learned to add a couple points to the map of places that you know. If you see any mistakes, try to fix them.
+-   You don't need to be too aggressive while you are learning. If you are unsure about something it's better to leave it as it is.
+-   If you want to move a point, line, or shape, use the **select tool**. Click on an object and drag it where it should be. This can be used to correct the location of items that have been put in the wrong place.
 
 ![JOSM select tool][]
 
-- 使用 **繪製工具** 畫新的點、線和區塊。
-    從 Presets 選單選擇這些物件以描述它，
-    跟你在之前的章節做過的一樣。 
+-   Use the **draw tool** to draw new points, lines, and shapes. Describe these objects by selecting from the Presets menu, as you did in the previous section.
 
-> 絕對不要編輯那些你並未下載的區域。  
-你可以看到，你下載過的矩形區域擁有固定的背景，  
-而那些你沒有下載的區域會有斜的細線在上面。  
-
-![JOSM area downloaded][]
+> Never edit the map outside of the area you have downloaded. You can see the rectangular area you have downloaded has a solid background, while the area you have not downloaded has diagonal pinstriped lines.
+>
+> ![JOSM area downloaded][]
 
 存檔
 --------------
-第三個，也是最後一個完成編輯的步驟，
-是把這些我們做的修改上傳到 OpenStreetMap 資料庫。
-為了存檔，我們必須連線到網路。
+The third and final step to complete our edits is to upload the changes we have made to the OpenStreetMap database. To save the changes, we must be connected to the internet.
 
-- 點選上方選單的「File」按鈕，然後點選「Upload Data」。
-    這將會開啟一個上傳視窗。
-    你可以點選上傳按鈕，簡單的存取到這個視窗，如下：
+-   Click “File” on the top menu, and then click “Upload Data”. This will open up the upload window. You can access this window more simply by clicking on the upload button, shown here:
 
-![JOSM Upload Dialog][]
+    ![JOSM Upload Dialog][]
 
-- 視窗上會出現你新增、變動，
-    或是刪除的物件清單。
-    下面的方框則詢問你關於你做什麼變動。
-    請寫下你繪製編輯的描述。
+-   The window that appears shows a list of the objects that you are adding and the objects you are modifying or deleting. In the box at the bottom you are asked to provide a comment about the changes that you are making. Type in here a description of your edits.
 
-![JOSM Upload Dialog][]
+    ![JOSM Upload Dialog][]
 
-- 點選「Upload Changes」。
+-   Click “Upload Changes”.
 
-- 如果這是你第一次存檔到 OpenStreetMap ，
-    你將需要輸入你的 OpenStreetMap 帳戶與密碼。
-- 在顯示的視窗裡輸入帳號密碼。
-    如果你勾選視窗裡面的單選框，你的帳戶與密碼將會被記憶起來，
-    未來就不用重複輸入。點選「Authenticate」，以進行帳戶的驗證。
+-   If this is your first time saving changes to OpenStreetMap, you will be asked for your OpenStreetMap username and password.
+-   Enter them in the window that appears. If you check the box in this window, your username and password will be saved and you won’t need to enter them again in the future. Click “Authenticate”.
 
-![JOSM Authenticate][]
+    ![JOSM Authenticate][]
 
-- 你將會需要稍等數秒以上傳你的修改，
-    接著就完成了！你已經修改了 OpenStreetMap 的地圖。
+-   You will need to wait a few seconds for your changes to be uploaded, and then you are done! You have edited the map on OpenStreetMap.
 
-> 每次你編輯的時候，請確保在關閉 JOSM 之前上傳你的修改，  
-> 就算你還有很多修改沒有做也是一樣。  
-> 上傳你的修改，然後下次有時間修改的時候，再重新進行一次流程（下載圖資 → 修改 → 上傳）。  
-> 你應該不會希望辛苦工作的成果消失不見吧！
+> When you are editing, always be sure to upload your changes before you close JOSM. Even if you still have more editing to do, upload your changes, and then go through the process again later when you have time to edit. You don't want to lose your work!
 
 在地圖上看看你的修改
 ---------------------------
-- 打開你的瀏覽器，並前往 [http://openstreetmap.org/](http://openstreetmap.org/) 。
-- 把地圖移動到你編輯過的區域
-- 你應該會到你的修改出現在地圖上了！
-    如果沒有，嘗試按下 CTRL+R 以重新載入網頁。
-    有時候，地圖並沒有完整更新，需要重新整理。
-- 如果你沒有看到自己的修正，該怎麼辦？
-    別擔心－修正出現在地圖上可能需要幾分鐘的時間。
-    你也可以確認 JOSM 中你新增的部份，以確保你正確的加入他們。
-    一個好的通則是，如果你的點在 JOSM 上有個圖標，
-    這個點應該會出現在 OpenStreetMap 網站的主要地圖。
+-   Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
+-   Move the map to the area that you edited.
+-   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the browser still shows the old version and needs to be reloaded.
+-   What if you don’t see your changes? Don’t worry - it may take a few minutes for the changes to be shown on the map. Also, check your additions in JOSM to make sure that you added them correctly. A good general rule is, if your point has an icon in JOSM, then it should be seen on the main map at the OpenStreetMap website.
 
 總結
 -------
-現在你已經了解如何修改 OpenStreetMap，接下來呢？
-嗯，修改很棒，但這不是製作地圖的唯一方法。
-你也需要學習如何走到戶外，
-並收集地上有關的地點訊息。
+Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing is great, but it's not the only aspect of making maps. Of course you also need to learn how to go outside and collect information about places on the ground.
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png

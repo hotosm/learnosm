@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: JOSM: Cómo añadir imágenes TMS, WMS o WMTS
+title: "JOSM: Cómo añadir imágenes TMS, WMS o WMTS"
 permalink: /es/josm/josm-adding-imagery/
 lang: es
 category: josm

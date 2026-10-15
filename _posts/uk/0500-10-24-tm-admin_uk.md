@@ -243,23 +243,23 @@ Tasking Manager є необхідним інструментом для коор
 
 #### Досвідченість маперів
 
-Це змінює рівень складності, який **показується** для вашого проєкту. Ретельно обдумайте це, складні проєкти, які неправильно встановлені на початковий рівень, **можуть призвести до значних проблем з якістю даних**.
+This changes the difficultly level which is **displayed** for your project. Consider this very carefully, complex projects which are inappropriately set to Easy difficulty **can result in significant data quality issues**. 
 
 > Зверніть увагу, що це не впливає на те, хто **фактично може брати участь** у вашому проекту, ці обмеження реалізовані в підменю "Дозволи".
 
-Більшість проєктів встановлені на рівні **Beginner** або **Intermediate**, декілька проєктів встановлені на рівні Advanced.
+Most projects are set to either **Easy** or **Moderate** difficulty, a handful of projects are set to Challenging. 
 
-- **Початківець** – Розгляньте цей варіант, якщо ваш проєкт є не складними для мапінгу та:
+- **Easy** - Consider this if your project is easy to map and:
   - Ви лише просите учасників додати один тип обʼєктів, наприклад **лише будівлі**
   - Щільність обʼєктів низька, тобто в **сільській** місцевості
   - Існує **низька кількість** наявних даних OSM у вашій проєктній області.
   - Немає проблем з вирівнюванням зображень.
-- **Intermediate** – Якщо ваш проєкт є складнішим для мапінгу, це слід враховувати, якщо:
+- **Moderate** - If your project is trickier to map, this should be considered if:
   - Ви просите учасників додати до мапи більше одного обʼєкту, наприклад, будівлі **та** дороги
   - Існує середня / висока щільність таких обʼєктів у вашій проєктній області, тобто **міські** райони
   - У вашій проєктній області є **істотна кількість** даних OSM
   - Можливі **проблеми з вирівнюванням зображень** або ви можете попросити учасників використовувати більше одного джерела зображень.
-- **Advanced** – Якщо проєкт є складним для мапінгу, розгляньте цей варіант, якщо:
+- **Challenging** - If the project is extremely difficult to map, consider this if: 
   - Дуже висока щільність обʼєктів у вашій проєктній області, тобто **центральні міські** райони
   - Існує **багато** наявних даних OSM у вашій проєктній області.
   - Є складнощі з **вирівнюванням зображень**
@@ -272,7 +272,7 @@ Tasking Manager є необхідним інструментом для коор
 
 #### Заготовки редактора iD
 
-Якщо ви виберете один або кілька елементів зі списку, то мапери, які використовують iD, зможуть призначити ці функції лише обʼєктам, які вони додають. Це рекомендується для початківців, проєктів, що стосуються лише **будівель**. Це означатиме, що учасники не зможуть позначати інші обʼєкти, навіть якщо вони спробують. Уникайте використання заготовок для складніших проєктів, оскільки це може швидко стати тягарем. Наприклад, проєкт з мапінгу автомагістралей потребуватиме десятки шаблонів, щоб забезпечити можливість додавання всіх типів автомагістралей.
+If you choose one or more items from the drop-down list then mappers using iD will only be able to assign these features to the objects they map. This is recommended for easy, **buildings-only projects**. It will mean that contributors will not be able to tag other features, even if they try. Avoid using presets for more complex projects, as it can quickly become a burden. For example, a highway mapping project would need dozens of presets to be added to ensure all highway types could be mapped. 
 
 #### Організація
 
@@ -304,7 +304,7 @@ Tasking Manager є необхідним інструментом для коор
 
 > Зверніть увагу, що Tasking Manager **не може зберігати власні зображення**, вони повинні бути збережені зовнішньо та посилатися за допомогою URL-адреси TMS. Якщо ви задоволені тим, що ваші зображення відкриті для використання, розгляньте можливість використання [OpenAerialMap](https://openaerialmap.org/) для збереження вашого зображення.
 
-Ліцензія – за бажанням, якщо маперам потрібно погодитись з  конкретною ліцензією на зображення, ви можете вибрати її тут. Наприклад, для зображень від Maxar це є "DigitalGlobe Satellite EULA". Якщо вам потрібна ліцензія, яка недоступна, ви можете звернутися до адміністратора Tasking Manager і попросити його додати її.
+License - Optionally, if there is a specific license required for the mappers to accept when using the imagery, you can select it here. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
 
 ### Дозволи
 
@@ -322,7 +322,7 @@ Tasking Manager є необхідним інструментом для коор
 
 Тут ви можете вибрати, хто може **мапити** ваш проєкт.
 
-- Якщо у вашому проєкті легко брати участь і ви вважаєте його проєктом для початківців, ви, можливо, захочете встановити **'Будь-який користувач'**.
+- If your project is easy to contribute towards and you consider it an easy project you might want set this to **'Any user'**.
 - Якщо ваш проєкт є складнішим і вимагає більшого досвіду, обмежте мапінг лише **для користувачів що має досвідченими маперами або експертами**.
 - Якщо ви хочете бути ще більш вибірковими, то ви також можете вимагати, щоб мапер був частиною **команди**. Команди потрібно визначити нижче.
 
@@ -430,10 +430,10 @@ Tasking Manager є необхідним інструментом для коор
 
 ### Оцінка якості зображень
 
-Перед створенням вашого проєкту перевірте зображення в кількох різних місцях у вашій проєктній області, щоб зробити оцінку зображення. У більшості випадків зображення від Maxar або Bing повинні відповідати вашим потребам. Однак є ситуації, коли ви можливо захочете вибрати альтернативне джерело. Вам може знадобитися врахувати наступне при виборі зображення:
+Before creating your project, check the imagery in several different locations across your project area to make an imagery assessment. In most cases either Esri or Bing imagery should suit your needs. However, there are situations where you might want to choose an alternative source. You may need to consider the following when choosing your imagery: 
 
 1. Якщо потрібен детальний мапінг, оберіть зображення, яке є найчіткішим із найвищою роздільною здатністю.
-2. Якщо вашим пріоритетом є мати найсвіжіші зображення, перемикайтеся між джерелами стандартних зображень, щоб знайти найновіші зображення. Шукайте ознаки розвитку, такі як нові будівлі або очищення землі, щоб отримати уявлення про найсвіжіші зображення. Останнім часом Maxar був найсвіжішим, але це залежить від місця розташування.
+2. If your priority is to have the most up-to-date imagery, flick between the standard imagery sources to look for the most recent imagery. Look for indications of development such as new buildings or land clearance to get an idea of the most up-to-date imagery.
 3. Перевірте наявність хмар, хоча одне джерело зображень може відповідати вашим потребам, якщо дуже хмарно або туманно, ваші мапери будуть мати проблеми з мапінгом за його допомогою.
 4. Перевірте вирівнювання, якщо є достатньо наявних даних OSM, які вирівнюються з одним набором супутникових зображень, то може бути розумним вибрати ті самі зображення. Якщо є проблеми з вирівнюванням, обовʼязково напишіть чіткі інструкції, в яких детально пояснено, як ви очікуєте, що учасники будуть розвʼязувати проблеми зі зсувами/вирівнюванням.
 
@@ -445,9 +445,9 @@ Tasking Manager є необхідним інструментом для коор
 
 Не існує стандартного набору інструкцій щодо розвʼязання проблем з вирівнюванням зображень. Все сильно залежить від контексту. Іноді маперам наказують вирівнювати зображення по GPS-треках, іноді їм кажуть вирівнювати за вже нанесеними лінійними обʼєктами, такими як автостради та водойми. Ось приклад підходу:
 
-1. Чітко вкажіть, яке зображення слід вважати основним, до якого будь-що інше повинно бути вирівняне. У цьому випадку припустимо, що основним є Maxar.
-2. Переконайтеся, що всі наявні обʼєкти, які також видно на Maxar, вирівняні за зображеннями Maxar, тобто перевирівняйте, якщо потрібно.
-3. Додайте нові обʼєкти з коректно вирівняними зображеннями від Maxar.
+1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
+2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
+3. Add new features from the now correctly aligned to Bing imagery.
 
 Часто маперам наказують шукати _найменший зусилля_ щодо проблем з вирівнюванням зображень. Це означає, що учасникам кажуть варіювати свій підхід залежно від ситуації у їхньому окремому завданні:
 

@@ -227,7 +227,7 @@ category: mobile-mapping
 
 استفاده از مسیرهای GPX با ویرایشگر JOSM و iD به آسانی کشیدن فایل و رها کردن آنها درون محیط نرم افزار (و یا برای iD زبانه مرورگر) است.  
 
-برای جزئیات بیشتر برای کاربران iD، بخش [پیکربندی لایه پس زمینه(http://learnosm.org/en/beginner/id-editor/#configuring-the-background-layer) را ببینید.  
+برای جزئیات بیشتر برای کاربران iD، بخش [پیکربندی لایه پس زمینه(http://learnosm.org/fa/beginner/id-editor/#configuring-the-background-layer) را ببینید.  
 
 اگر از ویرایشگر JOSM استفاده می شود، می توانید دستورالعمل نحوه استفاده از مسیر GPX و فایل های چندرسانه ای در JOSM را در بخش [بازکردن در JOSM(http://learnosm.org/fa/mobile-mapping/using-gps/#open-in-josm) ببینید.  
 

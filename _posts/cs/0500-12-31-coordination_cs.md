@@ -6,7 +6,6 @@ title: Koordinace
 category: coordination
 cover: yes
 nosearch: true
-
 ---
 
 Koordinace

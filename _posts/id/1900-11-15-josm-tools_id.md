@@ -1,179 +1,146 @@
 ---
 layout: doc
-title: JOSM Tools
+title: Alat Editing JOSM
 permalink: /id/josm/josm-tools/
-redirect_from:
-  - /bi/josm/josm-tools
-  - /bi/josm/josm-tools/
 lang: id
 category: josm
 ---
 
-Tool Mengedit di JOSM
-======================
-Pada [panduan tingkat dasar](/id/josm/start-josm/) kita membahas dasar-dasar 
-menggambar di dalam JOSM, tetapi terdapat banyak tool dan teknik yang
-belum ditunjukkan.
+Alat Editing JOSM
+==================
 
-Disini kita akan melihat beberapa tool dasar dan teknik yang ada untuk
-menggambar fitur peta di JOSM, dan pada bab berikut kita akan melihat 
-lebih dalam untuk tool menggambar lanjutan.
+> Reviewed 2017-06-09  
 
-Mendapatkan File Contoh
------------------------
-*	Jika Anda suka untuk mengikuti dan mempraktikan penggunaan tool JOSM,
-	silakan Anda downloads [tools_menu_sample.osm](/files/tools_menu_sample.osm).
-*	Buka JOSM dan file yang telah didownload. Ini akan terlihat seperti ini:
+- TOC
+{:toc}
+
+Dalam [panduan memulai JOSM](/en/josm/start-josm/) kami mencakup dasar-dasar menggambar di JOSM, namun terdapat banyak sekali alat dan teknik yang tidak didemonstrasikan.
+
+Disini kita akan melihat beberapa alat dan teknik dasar yang bisa digunakan untuk menggambar peta di JOSM, dan di bab-bab selanjutnya kita akan melihat lebih dalam pada alat menggambar tingkat lanjut.
+
+Ambil File Contoh
+-------------------
+
+- Jika Anda ingin mengikuti dan berlatih menggunakan alat-alat di JOSM, download [tools_menu_sample.osm](/files/tools_menu_sample.osm). Buka JOSM dan buka file tersebut. File tersebut akan terlihat seperti ini:
 
 ![tools_menu_sample.osm][]
 
-Tool Menggambar
----------------
-Jika Anda mengklik pada menu "Tools" di bagian atas JOSM, Anda akan melihat 
-bahwa terdapat banyak fungsi yang dapat membantu Anda dalam menggambar garis
-dan poligon, dan mengedit objek pada peta.
+Alat Menggambar
+-------------
 
-JOSM memiliki beberapa tool tambahan untuk membuatnya lebih dalam menggambar
-garis dan poligon. Tool ini dapat ditemukan di menu "Tools" di bagian atas
-JOSM.
+Jika Anda mengklik pada menu "Tools" di bagian atas JOSM, Anda akan melihat banyak sekali fungsi yang dapat membantu Anda menggambar garis dan bentuk lainnya, dan juga mengedit objek lain di peta.
+
+JOSM memiliki beberapa alat tambahan yang dapat memudahkandalam menggambar garis dan bentuk. Alat-alat ini bisa ditemukan di menu "Tools" di bagian atas JOSM.
 
 ![Tools menu][]
 
-Dalam mengaplikasikan fungsi dalam menu ini, Anda terlebih dahulu harus memilih 
-sebuah titik, garis atau poligon pada jendela peta. File contoh yang berisi
-berbagai macam elemen yang berlabelkan nama tool yang berbeda-beda di dalam
-menu.
+Untuk menerapkan fungsi dalam menu ini, terlebih dahulu Anda harus memilih titik, garis, atau poligon di jendela peta. File contoh berisi banyak elemen yang diberi nama berbeda berdasrakan alat-alat yang ada di menu.
 
-*	Cobalah memilih salah satu elemen di file tersebut. Kemudian pergilah
-	ke menu Tools dan klik pada fungsi yang diidentifikasi di sebelah fitur
-	Anda telah pilih.
-*	Sebagai contoh, klik pada lingkaran yang tidak beraturan untuk memilihnya.
+### Membuat titik menjadi lingkaran  
+
+- Coba pilih salah satu elemen yang ada di file. Lalu pergi ke menu Tools dan klik fungsi yang sesuai dengan tulisan yang ada di objek terpilih. Sebagai contoh, klik pada lingkaran tidak sempurna tersebut. 
 
 ![Align nodes in circle][]
 
-*	Selanjutnya, pergilah ke Tools->Align Nodes in Circle.
-*	Lingkaran yang tidak beraturan akan menjadi lebih simetris.
+- Kemudian, oergi ke Tools->Align Nodes in Circle. Lingkaran yang tidak sempurna akan berbentuk lebih bulat sempurna.
 
-Percobaan dengan masing-masing tool menggunakan file contoh ini. Penjelasan
-mengenai beberapa tool lainnya disediakan di bawah ini.
+Cobalah masing-masing alat menggunakan file latihan ini. Deskripsi dari beberapa alat telah disediakan di bawah.
 
-1.	**Split Way:** Hal ini memungkinkan Anda untuk membagi sebuah garis menjadi
-	dua garis terpisah. Ini berguna jika Anda ingin menambahkan atribut ke bagian
-	jalan yang berbeda, seperti jembatan. Untuk menggunakan fungsi ini, pilih
-	sebuah titik di tengah garis yang Anda ingin potong, kemudian pilih Split
-	Way dari menu Tools, dan garis Anda seharusnya akan terpotong menjadi dua.
+### Memisahkan Garis  
 
-2.	**Combine Way:** Ini merupakan kebalikan dari Split Way. Untuk menggabungkan
-	dua garis menjadi satu garis, mereka harus berbagi satu titik. Untuk menggunakan
-	fungsi ini, pilih kedua garis yang ingin Anda gabungkan. Anda dapat memilih
-	lebih dari satu objek dengan menahan tombol SHIFT pada keyboard Anda dan
-	mengklik di setiap garisnya. Ketika Anda telah memilih kedua garis tersebut,
-	pilih Combine Way dari menu Tools.
-	
-    ![Combine way][]
+Fitur ini memungkinkan Anda untuk membagi sebuah garis menjadi dua garis berbeda. Hal ini berguna jika Anda ingin menambahkan atribut yang berbeda pada segmen jalan yang berbeda, seperti jembatan, Untuk menggunakan fungsi ini, pilih titik pada bagian tengah garis yang ingin Anda pisah, kemudian pilih Split Way dari menu Tools, dan garis tersebut seharusnya akan terpisah menjadi dua.  
 
-    Jika Anda menggabungkan jalan yang memiliki arah yang berbeda, Anda akan mendapatkan
-	peringatan ini: 
 
-    ![Reverse and combine][]
+### Menggabungkan Garis
 
-    Jika jalan yang terhubung dan pergilah ke arah yang sama, kemudian pilih "Reverse and Continue."
+Hal ini merupakan kebalikan dari Memisahkan Garis atau Split Way. Untuk menggunakan fungsi ini, pilih kedua garis yang ingin Anda gabung. Anda dapat memilih lebih dari satu objek dengan menekan tombol SHIFT pada keyboard Anda dan klik di masing-masing garis. Ketika Anda telah memilih kedua garis, pilih Combine Way dari menu Tools. 
 
-3.  **Reverse Way:** Hal ini akan mengubah arah pada garis. Semua garis di dalam OSM
-	memiliki sebuah arah, yang ditunjukkan di dalam JOSM dengan panah pada garis.
-	Arah biasanya bukan masalah,kecuali pada kasus dimana jalan satu arah dan
-	sungai yang mengalir dalam arah tertentu. Pada kasus ini Anda mungkin perlu
-	membalikkan jalan sehingga garis tersebut dalam arah yang benar. 
-	
-    ![Way direction][]
+![Combine way][]
 
-4.	**Simplify Way:** Jika garis Anda memiliki terlalu banyak titik di dalamnya dan
-	Anda ingin membuatnya lebih sederhana, ini akan menghapus beberapa titik dari
-	sebuah garis. 
 
-    ![Simplify way][]
+### Memutar balikan dan Menggabungkan  
 
-5.  **Align Nodes in Circle:** Jika Anda mencoba membuat sebuah bentuk lingkaran, 
-	gambarlah lingkaran semampu ANda dan kemudian pilih objeknya. Fungsi ini akan
-	membantu mengatur titik-titik Anda di dalam lingkaran tersebut. 
+If you are combining roads that have different directions, you might get this warning:
 
-6.  **Create Circle:** Sebagai alternatif, dapat menggunakan tool ini, tool ini akan
-	membuat lingkaran yang sempurna. Menggambar sebuah garis yang mewakili diameter
-	dari lingkaran Anda, dan kemudian aplikasikan tool ini. 
+![Reverse and combine][]
 
-    ![Create circle][]
+If the roads are connected and go in the same direction, then choose "Reverse and Continue."
 
-7.  **Align Nodes in Line:** Fungsi ini akan menyelaraskan rangkaian titik menjadi garis
-	lurus. Sebaiknya dengan garis yang panjang untuk memilih bagian dari garis yang akan
-	diluruskan. Hati-hati karena hal ini memiliki kecenderungan untuk pergeseran garis 
-	walaupun sedikit. 
 
-    ![Align nodes in line][]
+### Reverse Way
 
-8.  **Orthogonalize Shape:** Fungsi ini sangat berguna untuk menggambar bentuk teratur 
-	seperti bangunan. Setelah Anda menggambar sebuah area, fungsi ini akan membentuk 
-	kembali menjadi sudut-sudut persegi. 
+This will change the direction of the line. All lines in OSM have a direction, which is shown in JOSM by the arrows on the line. Direction doesn't usually matter, except in the case of one way roads and rivers that flow in a certain direction. In these cases you may need to reverse the way so that it goes in the correct direction.
 
-    ![Orthagonalize][]
+![Way direction][]
 
-9.  **Unglue way:** Tool ini memungkinkan Anda untuk melepaskan titik-titik yang 
-	terhubung. Ini berguna ketika dua objek berbagi titik padahal seharusnya 
-	mereka tidak menempel. Sebagai contoh, kesalahan umum adalah untuk sebuah jalan
-	berbagi titik dengan sudut bangunan. Tentu saja jalan tidak bergabung dengan
-	bangunan, sehingga ini adalah kesalahan, dan Anda dapat melepaskan objek satu dengan
-	yang lain. 
+### Simplify Way
 
-    ![Unglue way][]
+If your line has too many points in it and you’d like to make it simpler, this will remove some of the points from a line.
 
-    > Garis dan titik biasanya tidak akan muncul terpisah hingga Anda memisahkan mereka. 
+![Simplify way][]
+
+
+### Create a Circle
+
+Use this tool, which will create a more perfect circle. Draw a line which represents the diameter of your circle, and then apply this tool.
+
+![Create circle][]
+
+
+### Align Nodes in Line
+
+This function will align a series of points into a straight line.  With long lines it is best to select sections of the line to straighten.  Be careful as this does have the tendency to shift the line a little bit.
+
+![Align nodes in line][]
+
+### Orthogonalize Shape
+
+This function is very useful for drawing regular shapes such as buildings (**But see also [JOSM building tools](/en/josm/josm-more-plugins/)**). After you draw an area, this function will reshape it to have square corners.
+
+![Orthagonalize][]
+
+
+### Unglue way
+
+This tool allows you to detach nodes that are connected. It is useful when two object share a node when they should not. For example, a common mistake is for a road to share a node with the corner of a building. Of course roads don't run into buildings usually, so this is a mistake, and you can unglue the objects from one another.
+
+![Unglue way][]
+
+*The line and node will not actually appear separate until you move them.*
 
 Keyboard Shortcuts
 ------------------
-Setelah Anda mengedit banyak, Anda akan menyadari bahwa Anda telah membuang waktu untuk
-mengklik pada menu dan submenu. Untuk mengatasi hal ini, JOSM memiliki shortcut keyboard
-untuk segala hal.
 
-Hal ini dimaksudkan daripada mengklik sebuah objek dan kemudian akan melalui proses 
-meu yang panjang, Anda dapat memilih objek langsung dan menekan sebuah tombol pada 
-keyboard Anda.
+Once you start editing a lot you will realize that you waste a lot of time clicking on menus and submenus. To overcome this, JOSM has keyboard shortcuts for just about everything.
 
-Semua tool yang disebutkan dalam sesi sebelumnya memiliki tombol shortcut, yang
-terdaftar pada menu Tools di sebelah kanan setiap nama tool. Sebagai contoh, "O" adalah
-tombol shortcut untuk menyelaraskan titik-titik pada sebuah lingkaran. "L" adalah 
-shortcut untuk menyelaraskan titik-titik pada sebuah garis. Ini membutuhkan beberapa
-waktu untuk mempelajari tombol shortcut, tetapi Anda akan menemukan bahwa ini akan
-menghemat banyak waktu dalam jangka panjang.
+This means that instead of clicking an object and then going through a lengthy menu process, you can simply select the object and press a key on your keyboard.
 
-Disini ada beberapa tombol shortcut lain yang paling penting.
+All of the tools mentioned in the previous section have shortcut keys, which are listed on the Tools menu to the right of each tool name. For example, "O" is the
+shortcut key to align nodes in a circle. "L" is the shortcut to align them in a line. It can take some time to learn the shortcut keys, but you will find that it saves
+a lot of time in the long run.
 
-1.  Aktifkan Select Tool
-![Keyboard S][]
-2.  Aktifkan Draw Tool
-![Keyboard A][]
-3.  Aktifkan Zoom Tool
-![Keyboard Z][]
-4.  Hapus objek yang terpilih 
-![Keyboard Del][]
-5.  Zoom In
-![Keyboard plus][]
-6.  Zoom Out
-![Keyboard minus][]
+Here are other shortcut keys (in **bold**) which are some of the most important.
 
-Skala dan Rotasi
+1.  Activate the Select Tool - **S**
+2.  Activate the Draw Tool - **A**
+3.  Activate the Zoom Tool - **Z**
+4.  Delete the selected object(s) - **Delete**
+5.  Zoom In - **+**
+6.  Zoom Out - **-**
+
+
+Scale and Rotate
 ----------------
-Sebuah pertanyaan umum adalah bagaimana memutar sebuah garis atau poligon
-setelah objek tersebut tergambar.
 
-*	Untuk memutar sebuah objek, pertama pilih objeknya.
-*	Tahan SHIFT+CTRL pada keyboard Anda.
-*	Klik dan geser mouse untuk memutar.
+A common question is how to rotate a line or shape after it has been drawn.
+
+To rotate an object, first select it. Hold **SHIFT+CTRL** on your keyboard. Click and drag the mouse to rotate.
 
 ![Rotate demo][]
 
-Untuk skala sebuah objek (membuatnya lebih besar atau lebih kecil), ikuti 
-proses yang sama, dengan menahan ALT+CTRL.
+To scale an object (make it bigger or smaller), follow the same process, but hold ALT+CTRL instead.
 
-Instruksi ini akan ditampilkan pada bar informasi di bagian bawah JOSM:
+These instructions are displayed on the information bar at the bottom of JOSM:
 
 ![Rotate instructions][]
 

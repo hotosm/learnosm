@@ -68,7 +68,7 @@ Aby pobrać wersję osm2pgsql dla Windowsa, przejdź w przeglądarce do <http://
 
 Pobieranie surowych danych OSM
 ---------------------
-Zanim uruchomimy **osm2pgsql** potrzebujemy trochę surowych danych OSM do zaimportowania ich do bazy danych. Jeśli nie masz jeszcze pliku **.osm**, którego mógłbyś użyć, spróbuj pobrać plik z <https://mapzen.com/data/metro-extracts/>. Ta strona udostępnia wiele wyciągów z OSM dla różnych miast. Znajdź miasto do zaimportowania i pobierz dla niego plik PBF. Pliki PBF, to skompresowane wersje plików **.osm**. Możesz użyć którejkolwiek z usług wyciągów wymienionych w rozdziale o [pozyskiwaniu danych](/pl/osm-data/getting-data), jeśli wolisz surowe dane z innego obszaru.  
+Before we can run **osm2pgsql** we need to have some raw OSM data to import into a database. If you don't already have a **.osm** file that you can use, try downloading a file from <https://download.bbbike.org/osm/bbbike/>. This site hosts many OSM extracts for different cities.  Find a city to import and download the PBF file for it. PBF files are compressed versions of the normal **.osm** files. You can use any of the extract services listed in the chapter on [getting data](/en/osm-data/getting-data), if you'd like the raw data for another area.  
 
 Pobieranie pliku stylu
 ------------------
@@ -125,7 +125,6 @@ Możemy sprawdzić, czy import był udany i zobaczyć dane z naszej bazy używaj
 
 ![osm in qgis][]
 
-> Jeżeli spojrzysz na tabele właściwości warstw, to zobaczysz, że właściwości zostały zmapowane do tagów OSM. Określone tagi, które są zaimportowane, zostały zdefiniowane podczas procesu importowania w **osm2pgsql**. Aby dodać konkretne tagi, które nie są zawarte domyślnie, możesz edytować plik *stylu*, który jest odniesieniem do definicji schematu danych osm2pgsql.  
 
 
 Podsumowanie

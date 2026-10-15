@@ -27,7 +27,9 @@ nosearch: true
 
 중요한 것은 어떻게 인도주의적 지도 제작이 시작되었는지를 배우는 것입니다.
 - [원격 지도 제작 안내서](/ko/coordination/HOT-Remote-Response-Guide/)에서 배경 정보를, [인도주의적 지도 제작](/ko/coordination/humanitarian/)에서 일반적인 정보를 볼 수 있습니다.
-- [작업 관리자](/ko/coordination/tasking-manager3/)에서 작업 흐름을 볼 수 있습니다. 작업 흐름에 익숙해지는 것이 중요합니다.
+- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
+
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
 
 ### 모바일에서 오픈스트리트맵을 사용하고 싶나요?
 

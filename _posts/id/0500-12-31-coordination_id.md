@@ -6,7 +6,6 @@ title: Koordinasi
 category: coordination
 cover: yes
 nosearch: true
-
 ---
 
 Koordinasi

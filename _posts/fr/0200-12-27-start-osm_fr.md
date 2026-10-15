@@ -102,7 +102,7 @@ Ajouter Vos Premiers Points
 - Si vous cliquez sur Sauvegarder, il vous sera demandé de fournir une description de vos modifications. Ensuite, vous pouvez cliquer une fois de plus sur "Envoyer" et vos ajouts seront sauvegardés dans la base de données d'OSM !
 
 
-L'éditeur iD est un moyen fantastique d'éditer facilement OpenStreetMap, et vous pouvez en savoir plus sur son utilisation dans le[guide de l'éditeur iD] (/fr/beginner/id-editor/). Vous pouvez également jouer le[walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) qui est un excellent moyen interactif de découvrir l'éditeur.
+L'éditeur iD est un moyen fantastique d'éditer facilement OpenStreetMap, et vous pouvez en savoir plus sur son utilisation dans le [guide de l'éditeur iD](/fr/beginner/id-editor/). Vous pouvez également jouer le [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) qui est un excellent moyen interactif de découvrir l'éditeur.
 
 Cependant, dans la [section JOSM](/fr/josm/), nous verrons une application autonome qui offre de nombreuses autres fonctionnalités. N'hésitez pas à continuer à jouer avec iD. Une fois que vous aurez plus d'expérience à contribuer à OSM, vous pourrez choisir celui qui vous convient le mieux - iD ou JOSM - en utilisant le meilleur éditeur.
 

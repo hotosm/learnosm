@@ -1,126 +1,69 @@
 ---
 layout: doc
-title: Удаленное редактирование HOT  
+title: HOT Remote Mapping  
 permalink: /ru/coordination/HOT-Remote-Response-Guide/
 lang: ru
 category: coordination
 ---
-![HotGuideLogo](/images/hot-logo.png)
 
-# Рекомендации HOT по предоставлению дистанционной помощи
-Humanitarian OpenStreetMap Team (HOT) [Команда OpenStreetMap по оказанию
-гуманитарной помощи] – глобальное сообщество, которое работает над внедрением
-принципов открытых данных и их распространением для помощи в решении
-гуманитарных вопросов и вопросов экономического развития.
+# HOT Remote Response Guide   
 
-### Как оказывается дистанционная помощь
+![HotGuideLogo](/images/hot-logo.png)  
 
-![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)
+> Reviewed 2015-09-18  
 
-Большинство мероприятий HOT по оказанию помощи происходит дистанционно. После
-стихийных бедствий, участники HOT разыскивают имеющиеся данные и доступные
-спутниковые снимки; связываются с соответствующими партнерами, для получения
-снимков совместимых с лицензией ODBL. После того, как снимки получены,
-виртуальное сообщество превращает их в цифровой вид, обрисовывает снимки
-(обычно концентрируясь на узнаваемых объектах, которые могут пригодиться для
-оказания гуманитарной помощи таких как: дороги, дома, заблокированные проезды,
-распространение наводнений и т.д.) и генерируют данные и карты. Между тем,
-организации, которые непосредственно оказывают помощь, также выходят на связь,
-чтобы рассказать о своих нуждах.
+The Humanitarian OpenStreetMap Team (HOT) is a global community working to apply the principles of open source and open data sharing towards humanitarian response and economic development.  
 
-Учитывая масштабы кризиса, HOT выделяет необходимые ресурсы, а помощь
-координируется с соответствующими командами или участниками, которые делают всё
-необходимое, чтобы все знали, когда новые ресурсы будут доступны, и как и где
-сосредоточить усилия. Среди мероприятий по оказанию помощи можно отметить
-мероприятия в Кот-д’Ивуаре, Сенегале, на Филиппинах и в Демократической
-Республике Конго.
+### How Remote Response Works 
 
-[Пример деятельности HOT в Сирии](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)
+The majority of HOT’s response activities occur remotely. After a disaster strikes, HOT members search for existing data and available satellite imagery. Pertinent partners are contacted to provide ODbL compatible imagery. Once the imagery is obtained the virtual community digitizes, or traces from the imagery (normally, the focus is on recognizable objects that are useful for humanitarian response, like roads, buildings, blocked roads, flood extent, etc) and generates data and maps. During this time, responding organizations are also contacted to determine their needs.  
 
-### Менеджер задач HOT
+Considering the scale of the crisis, HOT allocates the necessary resources and the response is coordinated by a specific team or member who makes sure everyone knows when new resources are available as well as where to focus efforts. HOT fosters the engagement of the OSM community and, if existing, local actors to use tools like the Tasking Manager to coordinate response efforts. Examples include the remote activities done in Ivory Coast, Senegal, Philippines, and the Democratic Republic of the Congo.  
 
-[Менеджер задач HOT](http://tasks.hotosm.org/) – инструмент с открытым исходным
-кодом, созданный для распределения работы на небольшие задачи, выполнение
-которых не должно требовать много времени. Он показывает, какие участки нужно
-отметить на карте, а какие требуют проверки другими участниками. Он содержит
-задачи как для [Срочных](http://wiki.openstreetmap.org/wiki/HOT_activation),
-так и для длительных [Гуманитарных проектов](http://hot.openstreetmap.org/projects).
+[Syria Activation Example](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
 
-Для работы с Менеджером задач HOT вам нужно зарегистрироваться в OpenStreetMap.
-Для получения дополнительных инструкций ознакомьтесь со [Справочником менеджера задач](http://learnosm.org/en/coordination/tasking-manager/). _(англ)_
+### The HOT Tasking Manager 
 
-![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)
+The [HOT Tasking Manager](http://tasks.hotosm.org/) is a open source tool designed to divide up a mapping job into smaller tasks that can be completed rapidly. It shows which areas need to be mapped and which areas need the mapping validated by others. It includes mapping tasks for [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), and longer standing [Humanitarian Projects](http://hot.openstreetmap.org/projects).  
 
-### Инструменты для редактирования
-
-[iD](http://learnosm.org/en/editing/id-editor/) – веб-редактор, созданный
-[Mapbox](www.mapbox.com), который имеет удобный интерфейс. Вообще считается
-лучшим инструментом редактирования для начинающих. Вы можете запустить
-[интерактивное пособие по работе с iD](http://ideditor.com/), чтобы ознакомиться
-с тем, как его использовать.
-<!-- need to verify link for iD interactive guide-->
-
-![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)
+In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](/en/coordination/tm-user/).  
 
 
-[JOSM](https://josm.openstreetmap.de/) — Java-приложение (читается “ДжОСМ”),
-которое нужно загрузить на компьютер и требующее немного больше времени для
-изучения. Несмотря на то, что он требует некоторого времени на установку и
-изучение, он позволяет значительно ускорить работу над картой. Для работы с ним
-рекомендуется использовать мышь.
+### Editing Tools 
 
-![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)
+[iD](http://learnosm.org/en/beginner/id-editor/) - the web-based editor created by [Mapbox](www.mapbox.com) with a very user-friendly interface. Generally considered the best editing tool to start with. You can launch this [interactive iD editor tutorial](http://ideditor.com/) to get acquainted with how to use it.  
 
-### Советы и Поощрения
+![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
 
-> "Одни здания — легче, другие — сложнее; если вы ощущаете, что вы
-> не справитесь — отмените ваши правки и перейдите к другому заданию!" -Peter (@meetar)
+[JOSM](https://josm.openstreetmap.de/)- a Java app pronounced as "Jaws-um", which requires downloading the app and has a greater learning curve. Although it takes longer to setup and learn, it is super-fast for making more edits. Using a mouse is recommended for using this editor.  
 
-> "Не страшно, если вы не завершили задание; загрузите на сервер ту часть,
-> которую вы уже сделали и разблокируйте задание, для того, чтобы другие могли
-> его закончить." -Peter (@meetar)  
+![JOSM](https://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
-> "Если вам нужен пример качественного выполнения заданий, от мастеров,
-> посмотрите на зелёные “проверенные” задания. Не переживайте, нажимание на
-> кнопку "Review the work" (“Проверить задание”) не приводит ни к каким
-> действиям по его утверждению – происходит только его блокирование, как для
-> обычного исполнения. Загрузите его, как обычно, и потом разблокируйте, после
-> того, как закончите." -Peter (@meetar)  
+### Advice & Words of Encouragement
 
+> "To practice it's recommended you start with a local area you know and try some editing, such as updating a local building in your neighborhood."
 
-> "Спутниковые снимки иногда очень трудно интерпретировать, но слишком не
-> переживайте о безупречности линий и фигур – ваша работа будет со временем
-> проверена, и по необходимости, исправлена другими участниками. Также помните,
-> что это место катаклизма, а не отчёт в налоговую или избирательный участок – 
-> эта карта нужна людям, которые спешат в темноту и опасность. В Западной
-> Африке даже приблизительно нанесённая линия на карте есть символом надежды. В
-> Секторе Газа, большинство нанесённых на карту зданий уже исчезли; но мы
-> отмечаем сам факт их возведения. Точность – это хорошо, но не первоочередное
-> задание." -Peter (@meetar)
+> "Some tasks are easier than others; if you don't feel up to one of them, simply cancel out and try another!" -Peter (@meetar)
 
+> "It's no problem if you don't finish the task; just upload what you've done and unlock the task so others can work on it." -Peter (@meetar)
 
-### Другие ресурсы
+> "The satellite pictures are sometimes difficult to interpret, but don't worry too much about drawing the perfect line or shape – your work will be reviewed and modified by others, and improved with time. And remember, these are crisis areas, not tax records or voting districts – these maps will be read by people who may be in a hurry, in the dark, or in danger. In West Africa, even a rough line on a map is an expression of hope. In Gaza, many of the buildings to be mapped are already gone; but we mark the fact of their construction. Accuracy is nice, but it isn't the point." -Peter (@meetar)
 
-Это пособие является суммой справочных данных из других источников и Рабочего
-пособия HOT. Вы можете узнать о других справочных ресурсах по ссылкам ниже.
+### Other Resources 
 
-#### Пособия
+This guide has been summarized and collected from a variety of existing tutorial sources and a working HOT Guide. You can find more learning resources at the links below.  
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/) —
-один из лучших справочников  
+#### Tutorials
 
-[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/) –
-содержит видео-материалы. Вы можете приостановить видео, чтобы потом продолжить.
-<!-- no video at this link :(-->
+[LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/)- one of the most comprehensive guides  
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) —
-написаный Питером Ричардсоном (Peter Richardson (@meetar)) и улучшеный HOT
-Remote Response Volunteer
+[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along  
 
-#### О HOT
-[Вики-страница HOT](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) —
-узнайте больше о том, как работает HOT, и некоторые из последний новостей
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - written by Peter Richardson (@meetar) an experienced HOT Remote Response Volunteer. Attention: the given information is outdated, but still useful. 
 
-[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities) — более
-подробное описание мероприятий HOT с их сайта
+#### About HOT 
+
+[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  learn more about how HOT operates and some of their latest news  
+
+[HOT Activities](https://www.hotosm.org/what-we-do) - describes HOT activities in more detail from their website  

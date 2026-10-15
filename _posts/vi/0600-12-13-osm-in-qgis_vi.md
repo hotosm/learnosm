@@ -9,89 +9,93 @@ category: osm-data
 Sử dụng dữ liệu OSM trong QGIS
 =================
 
-> Cập nhật: 2017-10-31
 
 QGIS (trước đây là Quantum GIS) là một hệ thống thông tin địa lý đa chức năng, mã nguồn mở, đa nền tảng. Với QGIS bạn có thể truy cập dữ liệu OSM cập nhật bất cứ khi nào bạn muốn, chọn các thẻ bạn muốn đưa vào, và dễ dàng xuất nó vào một cơ sở dữ liệu SQLite dễ sử dụng hoặc Shapefile.  
 
-Trong chương này chúng ta sẽ đi qua các bước cần thiết để thực hiện việc này. Chúng tôi giả định rằng bạn đã tải xuống và cài đặt QGIS 2.x. Nếu bạn chưa làm điều này, bạn có thể tải xuống từ <http://www.qgis.org/en/site/forusers/download.html>.  
+In this chapter we'll walk through the steps necessary to do this. We assume that you've already downloaded and installed QGIS 3.x. If you haven't already done this, you can download it from <http://www.qgis.org/en/site/forusers/download.html>.  
 
-Để có được lớp OSM cập nhật, được cập nhật vào QGIS, trước tiên chúng ta sẽ có được dữ liệu OSM gần đây nhất ở định dạng .osm gốc. Sau đó, chúng ta sẽ chuyển dữ liệu này sang cơ sở dữ liệu SQLite, là một hệ thống cơ sở dữ liệu nhẹ được lưu trữ trong một tệp trên hệ thống của bạn. Cuối cùng, chúng tôi sẽ tạo một lớp (hoặc nhiều lớp) chỉ bao gồm các loại đối tượng địa lý và các thẻ mà chúng ta muốn truy cập. Các lớp này có thể được sử dụng trong QGIS  hoặc lưu ở định dạng khác, chẳng hạn như một shapefile.  
+We will use a plugin, QuickOSM, to import data from the OpenStreetMap database. To install this plugin open the Manage Plugins dialogue from the Plugins menu. Search for QuickOSM and install it. This will add an entry to the Vector menu  
 
-TRUY CẬP DỮ LIỆU OPENSTREETMAP
+Obtaining Data from the Database
 ---------------------------
 
-Điều đầu tiên chúng tôi làm là thu thập một số dữ liệu OSM cập nhật. Chúng ta có thể làm được điều này bằng nhiều cách. Tất nhiên, yêu cầu dữ liệu từ máy chủ OSM, như chúng tôi làm trong trình soạn thảo JOSM, có giới hạn để chúng tôi không thể kéo ra một số lượng lớn dữ liệu thô cùng một lúc -
-tuy nhiên, có nhiều cách để truy cập các bộ dữ liệu lớn hơn, như được mô tả trong các chương trước về [Lấy dữ liệu OSM](/vi/osm-data/getting-data) và [Sử dụng Geofabrik và HOT Export](/vi/osm-data/geofabrik-and-hot-export).  
+The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. The QuickOSM plugin allows us to extract large amounts of data as it uses the Overpass api and not the main OSM database server.
 
-Đối với hướng dẫn này, chúng tôi sẽ sử dụng chức năng tải về tích hợp sẵn trong QGIS.  
+- Open QGIS and go to Vector -> QuickOSM -> QuickOSM...  
 
-- Mở QGIS và vào Vector -> OpenStreetMap -> Download Data...  
-- Bạn có thể chọn từ một số tùy chọn ở đây - nếu cửa sổ của bạn đã hiển thị mức độ bạn muốn, đánh dấu hộp bên cạnh "From canvas map." Nếu bạn có một lớp được nạp trong QGIS với đúng mức độ, hãy chọn "From layer" và chọn lớp bạn muốn sử dụng. Ở đây chúng ta sẽ chọn "Manual" và nhập các vĩ độ và vĩ độ tạo thành một hộp bao quanh khu vực chúng ta muốn truy cập. Bạn có thể điền vào các lats và lons mà bạn quan tâm, nhưng hãy nhớ rằng khu vực không được quá lớn, hoặc bạn sẽ không thể tải về tất cả các dữ liệu.  
+![quickosm][]
 
-![Chọn vùng][]
+- You can choose from several options here  - if your window already displays the extent you want, switch the combobox which by default shows "In" to "Canvas extent". If you have a layer loaded in QGIS with the correct extent, choose "Layer extent" and select the layer you want to use. Using the default "In" requires that a relation or polygon exists with this name. Otherwise choose "Around" and a node with this name suffices. You can select a perimeter (default 1000m) around this node where data will be loaded from the database.
 
-- Chọn tên và vị trí cho tệp xuất, sử dụng phần mở rộng tệp **.osm** và nhấp vào OK.  
-- Bạn sẽ được thông báo khi quá trình tải xuống hoàn tất. Nhấp vào "Đóng" để thoát hộp thoại tải xuống.  
+- Click on "Run Query".  
+- You will be notified when the download is complete. The data are stored in three temporary layers, one for nodes, ways and polygons respectively.
 
-![Hoàn thành tải xuống][]
-
-- Dữ liệu OSM bây giờ sẽ được lưu ở vị trí bạn chỉ định.  
-
-> Phương pháp truy cập dữ liệu OSM này giống như khi bạn tải nó xuống trong JOSM hoặc trên trang web [openstreetmap.org](http://www.openstreetmap.org). Đối với các trích xuất lớn hơn và cập nhật, bạn có thể thử tải xuống từ [Trang web HOT export](http://export.hotosm.org) hoặc [bbbike.org](http://extract.bbbike.org/). Hãy nhớ rằng nếu bạn tải xuống dữ liệu OSM nén, trước tiên bạn cần giải nén nó vào định dạng **.osm** cho các bước tiếp theo.  
+![quickosm loaded][]
 
 
-NHẬP DỮ LIỆU VÀO SQLITE
+Importing extracts
 ---------------------------
 
-Tiếp theo chúng ta sẽ cần phải nhập tệp tin **.osm** gốc của chúng tôi vào một tệp SQLite Database.  
+There are several options how to obtain ready-made extracts of an area. <https://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts> contains a list of several websites. Just pick a **.osm** or **.pbf** file and download it. 
 
-- Chuyển tới Vector -> OpenStreetMap -> Import Topology from XML...  
-- Trong trường đầu tiên, chọn tệp tin **.osm** của bạn.  
-- Bạn có thể thay đổi tên của tệp cơ sở dữ liệu đầu ra nếu bạn muốn.  
-- Chọn hộp "Create Connection..."  
+You can either use QuickOSM to import it clicking on 'OSM File' in the left bar. Once you used QuickOSM OSM files should have been made known to QGIS and you can use the regular vector layer import:
 
-![Hộp hội thoại nhập][]  
+- Go to Layer -> Add Layer -> Add Vector Layer...  
+- In the source field, select your file and click "Add".  
+- You can select one or more type layers from that file.  
 
-- Nhấp OK.  
-- Sau khi hoàn tất, nhấp "Close."  
+![import osm][]  
+
+- After clicking "OK" you can close the dialogue and your QGIS window shows the new layers.  
+  
+
+![import osm loaded][]  
 
 
-TẠO LỚP
+Exporting data
 --------------
 
-Cuối cùng, chúng ta sẽ xác định các lớp có thể được sử dụng trong QGIS, tùy chỉnh theo nhu cầu của chúng ta.  
+To export a layer activate its context menu and select Export -> Save Features as...
+You can select from a wide range of formats including Shapefile, GeoJSON, PostgreSQL dump, SQLite. The other options on the dialogue vary depending on the format you selected.
 
-- Chuyển đến Vector -> OpenStreetMap -> Export Topology to SpatiaLite...  
-- Trong trường đầu tiên, chọn cơ sở dữ liệu bạn đã tạo ở bước trước.  
+![export][]  
 
-![Nhập tên file db][]  
+You can choose to re-import the exported layer by checking the box at the bottom (activated by default).
 
-- Trong "Export type", chọn loại đối tượng bạn muốn tạo một lớp cho. Ở đây chúng ta sẽ tạo ra một lớp đa giác.  
+Working with the Data
+--------------------
 
-![Loại đối tượng được trích xuất][]  
+We cannot give you even a rough overview over what you can do with QGIS and there are many excellent tutorials and books which will guide you step-by-step towards mastering the software. But as OSM data imported by one of the methods described above have their tags encoded in a special way here is an example how to deal with them (for the curious, the example is pitcairn-islands-latest from Geofabrik's download page for Australia and Oceania). You can inspect the data of a vector layer using 'Open Attribute table' from the context menu of a layer, in this case the multipolygon layer.
 
-Chỉnh sửa tên lớp nếu bạn muốn.  
+![Bảng thuộc tính/ attribute table][]
 
-Trong thẻ "Exported tags" là các lựa chọn khác cho việc trích xuất dữ liệu. Ở đây chúng ta có thể chọn những thẻ thông tin sẽ được bao gồm trong lớp được xuất ra. Điều này cho phép chúng ta linh hoạt hơn chính xác những dữ liệu nào chúng ta muốn truy cập.  
+We can see that all the key-value-pairs for the tags of the various objects are organized in a specially formatted text string in the field 'other_tags'. This kind of storage is called "hstore" in a PostgreSQL database and is the standard for OSM data.
 
-- Nhấp vào "Load from DB" để xem danh sách tất cả các thẻ sẵn có trong cơ sở dữ liệu. Mở rộng kích thước cửa sổ bằng cách kéo góc nếu điều đó giúp. Bạn có thể xem tất cả các thẻ chứa trong dữ liệu này, cũng như số lượng đối tượng mang mỗi thẻ.  
-- Chọn các hộp bên cạnh các thẻ mà bạn muốn đưa vào. Ở đây chúng tôi sẽ chọn một vài tính năng sẽ hữu ích cho đa giác đại diện cho các tòa nhà.  
+In this example polygons are mostly islands, forest and buildings. Initially they are rendered in the same way which means that islands cover everything else. Let us render them differently in order to get a feeling how to identify different objects. Discard the attribute table.  From the context menu of the multipolygon layer select Properties and on that form move to the Symbology tab. 
 
-![Xuất dữ liệu][]  
+![symbology][]
 
-Khi bạn hoàn tất, nhấp vào OK. Đóng hộp. Lớp của bạn nên được tự động thêm.  
+First change the type of the symbol from "Single symbol" to "Rule based" using the combobox at the top of the form. 
 
-![Lớp cairo polygons][]  
+![symbology rule based][]
 
-Nhấp chuột phải vào lớp và nhấp vào "Open Attribute Table".  
+The current rendering appears as a rule with no filters. We can modify this rule by clicking on the icon marked with a purple square in the image above.
 
-![Mở bảng thuộc tính/ attribute table][]  
+![symbology edit rule][]
 
-Bạn có thể thấy ở đây rằng chúng ta có một bảng chỉ bao gồm các thuộc tính mà chúng ta đã chọn.  
+We'd like to treat buildings differently. Treat differently means that rules need to be specified according to layer properties. QGIS' expression evaluation cannot directly deal with hstore strings. But a utility comes to our rescue and the filter expression shown in the image `hstore_to_map(other_tags)['building'] is not NULL` converts the 'other_tags' string into a key-value-map where we pick the value for the key 'building'. The condition reads that we look for objects whose building key is not empty. We can define a colour and fill style for the buildings. Click 'OK' when you are finished with your rule design. Now you can add further rules by clicking on the 'plus' icon at the bottom of the symbology tab. We add similar rules for woods and grassland. At the end our symbology tab will look like this:
 
-![Bảng thuộc tính/ attribute table][]  
+![symbology polygon rules][]
 
-Lưu ý rằng chúng tôi đã không tạo ra một lớp **chỉ có** các tòa nhà. Thay vào đó, chúng tôi đã tạo một lớp bao gồm tất cả các đa giác từ dữ liệu ban đầu của chúng tôi, nhưng chỉ bao gồm các thẻ mà chúng tôi đã chọn. Để lọc lớp này chỉ hiển thị các toà nhà, chúng ta cần phải thực hiện truy vấn chỉ lọc đa giác có thẻ building=yes.
+As an added bonus we can get a quick feature count for the rules. Press the rightmost icon in the row at the bottom (the sum symbol) and the 'count' column will be populated telling us that we have 150 buildings on this layer.
+
+You can add labels in a similar fashion how we dealt with symbols. 'Labels' is another tab on the properties of a layer, right below Symbology. In most cases you want to print the given name of a feature. You enter an expression similar to the ones used for symbology in the field for a filter and as value you would use `hstore_to_map(other_tags)['name']`. 
+
+![labels][]
+
+Assigning such labels to the multipolygon and the point layers you will end up with something like this:
+
+![done][]
 
 
 TÓM LƯỢC
@@ -100,12 +104,15 @@ TÓM LƯỢC
 Quá trình này giúp bạn dễ dàng cập nhật dữ liệu OSM và kéo nó vào QGIS. Một khi bạn đã có các lớp như thế này trong QGIS, bạn có thể lưu chúng như shapefiles, thực hiện các bộ lọc và các truy vấn, vân vân. Để biết thêm chi tiết về các chức năng này, hãy xem trình đơn Trợ giúp trong QGIS.  
 
 
-[Chọn vùng]: /images/osm-data/bounding_box.png
-[Hoàn thành tải xuống]: /images/osm-data/download_complete.png
-[Hộp hội thoại nhập]: /images/osm-data/import_dialog.png
-[Nhập tên file db]: /images/osm-data/input_db_file.png
-[Loại đối tượng được trích xuất]: /images/osm-data/export_type.png
-[Xuất dữ liệu]: /images/osm-data/export_full.png
-[Lớp cairo polygons]: /images/osm-data/cairo_polygons.png
-[Mở bảng thuộc tính/ attribute table]: /images/osm-data/open_attribute_table.png
-[Bảng thuộc tính/ attribute table]: /images/osm-data/attribute_table.png
+[quickosm]: /images/osm-data/qgis-quickosm.png
+[quickosm loaded]: /images/osm-data/qgis-quickosm-loaded.png
+[import osm]: /images/osm-data/qgis-import-osm.png
+[import osm loaded]: /images/osm-data/qgis-import-osm-loaded.png
+[export]: /images/osm-data/qgis-export.png
+[attribute table]: /images/osm-data/qgis-layer-attributes.png
+[symbology]: /images/osm-data/qgis-layer-symbology.png
+[symbology rule based]: /images/osm-data/qgis-layer-symbology-rule.png
+[symbology edit rule]: /images/osm-data/qgis-layer-symbology-edit-rule.png
+[symbology polygon rules]: /images/osm-data/qgis-layer-symbology-poly-rules.png
+[labels]: /images/osm-data/qgis-layer-labels.png
+[done]: /images/osm-data/qgis-complete.png

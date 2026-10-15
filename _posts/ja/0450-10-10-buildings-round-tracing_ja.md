@@ -9,19 +9,20 @@ category: hot-tips
 円形の建物を描くには - iDエディタ
 ============
 
+> Updated 2019-06-24
+
 - TOC
 {:toc}
 
 基礎
 ----------
 
-![Round Buildings][]  
+![Round Buildings][]
 
-> この画像 ![keymon]{: height="24px"} は、マウスのボタンやホイール、あるいはキーボードのどのキーを使えばよいかを表しています。  
 
 注意するポイント;  
 
-- 建物の壁と地面が接地している部分にポイントを描くようにします - 最低でも3つ以上のポイントが必要です。ツールを使って円形に修正を行います。  
+- Place your points where the walls will reach the ground - 3 points is the minimum. Double click on the last point to finish tracing an area. Use the tool to make it round - shortcut **o** in English.  
 - タグを付けるのを忘れずに！  
 - サイズの問題 - *人口推定作業は、対象のエリア内に占める建物のエリアの割合で計算します*。  
 - 詳細な情報を確認するため、適切に表示を拡大しましょう - 多くの場合、20メートルあるいはそれ以下の縮尺が適切です。  
@@ -29,6 +30,16 @@ category: hot-tips
 - 建物や道路、河川、**landuse=residential**の境界線など、地物はオーバーラップしないように描きましょう。  
 - もし間違ってしまった場合、**やり直し/Undo** ボタン ![back arrow]{: height="26px"} をクリックすると、最後に行った変更が取り消されます。  
 - 私達の目的は、地図を改善することです。もし以前に編集を行ったマッパーが、おかしな形や明らかに間違った建物の描き方をしてしまっていることを見つけた場合、その形状を修正し、その人に優しい言葉でメッセージを送ってみましょう。  
+
+Building - converting square to round
+-------------------------------------
+
+![Square to round][]  
+
+If a building has been traced as rectangular, but you can see it should be round it is easy to convert to a round building;
+
+- move each of the corners so they are now on the perimeter of the round building,
+- right click and use the circularise tool, or shortcut **o** - may be a different character in other languages.  
 
 建物の見分け方
 ---------------
@@ -57,6 +68,7 @@ category: hot-tips
 
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "Demonstration of mapping a round building"
+[Square to round]: /images/hot-tips/square-round-building.gif "Demonstrating changing a square to round building"  
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Round building next to a bush"
 [back arrow]: /images/beginner/back-arrow.png "Undo"
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"

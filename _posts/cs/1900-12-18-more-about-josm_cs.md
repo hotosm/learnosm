@@ -65,7 +65,7 @@ Hlavní okno již znáte - je to okno mapy, ve kterém se odehrává většina a
 
 Vpravo od okna mapy se nachází řada panelů, z nichž každý má svou vlastní funkci. Při první instalaci JOSM se obvykle ve výchozím nastavení zobrazí několik panelů, například Vrstvy, Vlastnosti a Výběr. Když v mapovém okně vyberete bod, čáru nebo tvar, zobrazí se v panelu Výběr. Informace o objektu se zobrazí v panelu Vlastnosti a uživatelské jméno autora daného objektu se zobrazí v panelu Autoři.
 
-Tyto panely lze otevřít nebo zavřít kliknutím na různá tlačítka v levé dolní části systému JOSM. Nad těmito tlačítky v pravém horním rohu jsou nástroje, které mění možnosti práce s myší. Některé z nich již znáte: nástroj Výběr a nástroj Kreslení. Pod nimi jsou nástroje, které usnadňují přiblížení, odstranění objektu, nakreslení tvaru nebo vytvoření čáry rovnoběžné s jinou čárou.
+Tyto panely lze otevřít nebo zavřít kliknutím na různá tlačítka v levé dolní části systému JOSM. Nad těmito tlačítky v levém horním rohu jsou nástroje, které mění možnosti práce s myší. Některé z nich již znáte: nástroj Výběr a nástroj Kreslení. Pod nimi jsou nástroje, které usnadňují přiblížení, odstranění objektu, nakreslení tvaru nebo vytvoření čáry rovnoběžné s jinou čárou.
 
 
 Upravit
@@ -113,7 +113,7 @@ Zobrazit změny na mapě
 ---------------------------
 - Otevřete internetový prohlížeč a přejděte na adresu [http://openstreetmap.org/](http://openstreetmap.org/).
 - Přesuňte mapu do oblasti, kterou jste upravili.
-- Na mapě by se měly objevit vaše změny! Pokud se tak nestane, zkuste stisknout CTRL+R a obnovit webovou stránku. Někdy se mapa neaktualizuje správně a je třeba ji znovu načíst.
+- Na mapě by se měly objevit vaše změny! Pokud se tak nestane, zkuste stisknout CTRL+R a obnovit webovou stránku. Někdy prohlížeč stále zobrazuje starou verzi a je třeba ji znovu načíst.
 - Co když se vám změny nezobrazí? Nebojte se - může trvat několik minut, než se změny na mapě zobrazí. Zkontrolujte také své doplňky v JOSM, abyste se ujistili, že jste je přidali správně. Dobrým obecným pravidlem je, že pokud má váš bod ikonu v JOSM, měl by být vidět i na hlavní mapě na webu OpenStreetMap.
 
 Shrnutí

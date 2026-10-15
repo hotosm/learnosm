@@ -8,55 +8,59 @@ category: josm
 
 JOSMプリセット
 ============
-JOSMを触っているうちに、タグとプリセットをなんとなく理解できるようになってくるかと思います。すべてのオブジェクトは、2つの要素から成り立っています。1つはジオメトリ(つまり、ポイントやライン、シェイプといったオブジェクトの種別と、その位置情報)。そして2つめは、タグ情報としてあらわされる、そのオブジェクトの属性情報です。
 
-オブジェクトを選択し、そこにプリセットメニューから情報の選択を行うことによって、そのオブジェクトに対して正しいタグが自動的に割り当てられます。
+> Reviewed 2016-09-17  
 
-プリセットを利用するにあたって、そのメニューにない項目を追加したい場合、あるいは、自分でタグをカスタマイズしたい場合はどうすればよいでしょうか？
+If you've been using JOSM for long, by now you understand a bit about tags and presets. Every object is defined by two things - first, its geometry (whether it's a point, line, or shape and its location), and second, its attributes which come in the form of tags.  
 
-この場合、プリセットメニューに自分で項目をカスタマイズして追加することが可能です。このセクションでは、その方法を紹介します。[次の章](/jp/josm/creating-presets)の内容では、自分自身でプリセットファイル自体を作成する方法をカバーします。
+When you draw an object and select from the Presets menu, the correct tags are automatically applied to the object.  
 
-プリセット追加
+If you like using presets, what happens when you want to add tags that are not contained in the menu, or when you want to customize your own tags?  
+
+In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
+
+
+Add Presets
 -----------
-プリセットで表示されるメニューとサブメニューは、それぞれのプリセット毎の設定ファイルに、項目とフォームが記載されています。それぞれの項目を選んだ際に適用されるタグを定義しているのも、このファイルです。
 
-オンラインで公開されている情報をプリセットファイルに追加したり、コンピュータに保存してJOSMで利用できるようにすることはとても簡単です。
+The menus and submenus that make up the Presets menu are stored in files which describe how to create the menus and forms that come up when you click on a preset, and how to define what tags are added to an object based on how the form is filled out.  
 
--	プリセットメニューに項目を追加するには、JOSMを起動し、編集 -> 環境設定 を選択します。
--	上から3つめ、地球の上をグリッドが覆っている形のタブをクリックします。
+Presets files can either be added from an online archive, or saved on your computer locally and added into JOSM.  
+
+* To add a new entry to the Presets menu, open JOSM and go to Edit->Preferences.  
+* Click on the third tab down, which looks like a grid covering the planet.  
 
 ![tagging presets tab][]
 
--	"タグ付けプリセット"のタブをクリックします。
+* At the top, click on "Tagging Presets."  
 
 ![tagging presets menu][]
 
--	ウェブ上で公開されているプリセットファイルを追加するには、左側に表示されているリストから対象のプリセットを選択し、青い矢印をクリックしてください。例えば、"Buildings Indonesia by Kate Chapman"というプリセットを追加するとします。
+* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
 
 ![example presets][]
 
--	右側のリストに、対象の項目が表示されます。
--	OKをクリックしてください。
--	JOSMの再起動を行います。
--	レイヤを新規作成し、ポイントかシェイプを作成してください。
--	プリセットメニューを選択し、メニューの一番下にある、今回追加された"Building"という項目をクリックします。
+* You will see a new item appear in the list on the right.  
+* Click OK.  
+* You will need to restart JOSM.  
+* Create a new layer and add a point or shape.  
+* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
 
-![indonesia building form][]
+![additional tags preset][]
 
--	インドネシア語がわからない場合、そこで表示される文字を読み取ることは難しいかもしれません。ただ、この作業で、対象のプリセットを読み込むことに成功したことは確かです。
+* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
 
--	独自に作成したプリセットファイルがある場合、同じ方法でメニューからそのファイルを追加することが可能です。環境設定項目をもういちど表示させ、リストから項目を選択するのではなく、右上に表示されている (+) ボタンをクリックしてください。
+* If you have been given a custom presets file, you can add it to the menu in a similar way. Simply return to the Preferences menu, and instead of selecting from the list, click on the (+) button in the upper right.  
 
 ![plus button][]
 
--	ファイルが格納されている場所を指定し、JOSM上で表示される名前を入力します。
--	OKをクリックしてください。
+* Locate your file and give it a name if you like.  
+* Click OK.  
 
 
-[tagging presets tab]: /images/jp/editing/josm-presets/tagging-presets-tab.png
-[tagging presets menu]: /images/jp/editing/josm-presets/tagging-presets-menu.png
-[example presets]: /images/jp/editing/josm-presets/example-presets.png
-[indonesia building form]: /images/jp/editing/josm-presets/indonesia-building-form.png
-[plus button]: /images/jp/editing/josm-presets/plus-button.png
-
+[tagging presets tab]: /images/josm/tagging-presets-tab.png
+[tagging presets menu]: /images/josm/tagging-presets-menu.png
+[example presets]: /images/josm/example-presets2.png
+[additional tags preset]: /images/josm/new-tags-preset.png
+[plus button]: /images/josm/plus-button.png
 

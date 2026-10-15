@@ -28,7 +28,7 @@ Télécharger les données OSM
 --------------------
 La première étape de l'édition consiste à télécharger les données de la région du monde que l'on souhaite améliorer. N'oubliez pas que vous devez effectuer cette opération chaque fois que vous souhaitez apporter des modifications à la carte, car celle-ci est souvent mise à jour par d'autres utilisateurs.
 
-- Cliquez sur "Fichier" dans le coin supérieur gauche de JOSM et cliquez sur "Télécharger depuis OSM". La fenêtre de téléchargement s'ouvre alors. Vous pouvez accéder à cette fenêtre plus simplement en cliquant sur le bouton de téléchargement, illustré ici :
+- Cliquez sur "Fichier" dans le coin supérieur gauche de JOSM et cliquez sur "Télécharger les données...". La fenêtre de téléchargement s'ouvre alors. Vous pouvez accéder à cette fenêtre plus simplement en cliquant sur le bouton de téléchargement, illustré ici :
 
 ![JOSM Download Button][]
 
@@ -65,7 +65,7 @@ La fenêtre principale vous est déjà familière - c'est la fenêtre de la cart
 
 À droite de la fenêtre de la carte se trouve une série de panneaux, chacun ayant sa propre fonction. En général, lorsque vous installez JOSM pour la première fois, plusieurs panneaux sont affichés par défaut, tels que Couches, Propriétés et Sélection. Lorsque vous sélectionnez un point, une ligne ou une forme dans la fenêtre de la carte, il s'affiche dans le panneau Sélection. Les informations sur l'objet seront affichées dans le panneau Propriétés, et le nom d'utilisateur de l'auteur de cet objet sera affiché dans le panneau Auteurs.
 
-Ces panneaux peuvent être ouverts ou fermés en cliquant sur les différents boutons situés dans la partie inférieure gauche de JOSM. Au-dessus de ces boutons, en haut à droite, se trouvent des outils qui modifient ce que vous pouvez faire avec votre souris. Vous êtes déjà familier avec certains d'entre eux, l'outil Sélectionner et l'outil Dessiner. En dessous de ces boutons se trouvent des outils qui facilitent le zoom, la suppression d'un objet, le dessin d'une forme ou la création d'une ligne parallèle à une autre ligne.
+These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper left are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
 
 
 Edition
@@ -113,7 +113,7 @@ Voir vos modifications sur la carte
 ---------------------------
 - Ouvrez votre navigateur internet et allez sur [http://openstreetmap.org/](http://openstreetmap.org/)
 - Déplacez la carte vers la zone que vous avez modifiée.
-- Vous devriez voir vos modifications apparaître sur la carte ! Si ce n'est pas le cas, essayez d'appuyer sur CTRL+R pour rafraîchir la page Web. Parfois, la carte ne se met pas à jour correctement et doit être rechargée.
+-   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the browser still shows the old version and needs to be reloaded.
 - Que faire si vous ne voyez pas vos modifications ? Ne vous inquiétez pas, il faut parfois quelques minutes pour que les modifications apparaissent sur la carte. Vérifiez également vos ajouts dans JOSM pour vous assurer que vous les avez ajoutés correctement. En règle générale, si votre point a une icône dans JOSM, il devrait être visible sur la carte principale du site Web d'OpenStreetMap.
 
 Résumé

@@ -57,7 +57,7 @@ Man kann auch komplizierte Gebäude erstellen, indem man zuerst mehrere überlap
 
 Man kann des Weiteren die Standardeinstellungen des Plugin ändern.  
 
-* Man geht zu Daten->Gebäudegröße setzen. ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * Falls man viele Gebäude ähnlicher Größe erstellt, kann man spezifische Höhen- und Breitenmaße  des Gebäudes angeben, wie z.B. 6 x 10 Meter (die Einheit ist in Meter).  
 
@@ -87,7 +87,7 @@ Man erstellt einen neuen Layer und experimentiert mit einigen der neuen Werkzeug
 
     ![Nodes interesection][]
 
-2. **Kopiere Tags aus vorheriger Selektion:** Diese Funktion erleichtert das Kopieren von Tags. Wenn man mehrere Objekte mit den gleichen Tags erstellen möchte, zeichnet man zuerst ein Objekt und fügt die Tags hinzu. Man klickt auf ein anderes Objekt und drückt Shift+R, um die Tags vom vorher selektierten Objekt zu kopieren. Dies funktioniert für alle Objekte mit Tags. Klickt man auf ein Objekt ohne Tags und möchte Tags auf ein weiteres Objekt ohne Tags kopieren, werden selbstverständlich keine Tags kopiert.  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 

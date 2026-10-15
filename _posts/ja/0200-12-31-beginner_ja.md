@@ -20,14 +20,16 @@ nosearch: true
 これから編集をはじめるかたは、地図データの編集を始める前に以下のガイドを一読しておくことをお勧めします:
 - [イントロダクション](/ja/beginner/introduction/)を読むことで、OpenStreetMapプロジェクトの背景を知ることができます
 - [最初の一歩](/ja/beginner/start-osm/)では、アカウントの取得方法とエディタの起動方法が解説されています
-- [iDエディタ] (/ja/beginner/id-editor/)ではデータ編集の基本操作が解説されています
+- [iDエディタ](/ja/beginner/id-editor/)ではデータ編集の基本操作が解説されています
 
 
 ### エディタの操作方法を理解していて、人道支援マッピングに興味があるかた
 
 人道支援マッピングで重要な点は、それぞれのマッピングの文脈で何が求められているかを理解することです。
 - [遠隔マッピングガイド](/ja/coordination/HOT-Remote-Response-Guide/)、および[人道支援マッピング](/ja/coordination/humanitarian/)の概要部分は、背景の理解に役に立ちます
-- [Tasking Manager](/en/coordination/tasking-manager3/)は非常に重要なシステムで、これを使ったワークフローには慣れておく必要があります
+- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
+
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
 
 ### 携帯端末でOpenStreetMapを使いたい
 

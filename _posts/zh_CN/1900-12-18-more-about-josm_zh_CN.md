@@ -28,7 +28,7 @@ JOSM编辑过程
 --------------------
 编辑的第一步是下载我们想改善的区域的数据。要牢记每当你要修改地图时你都要先下载， 因为地图经常被其他用户更新。
 
--   点击JOSM左上角的“文件”，再点击“从OSM下载”。 这将打开下载窗口。 你可以通过直接点击如下图所示位置的下载按钮 方便地打开下载窗口，图示：
+-   Click on “File” in the top left corner of JOSM and click “Download data...”. This will open up the download window. You can access this window more simply by clicking on the download button, shown here:
 
 ![JOSM Download Button][]
 
@@ -65,7 +65,7 @@ JOSM编辑过程
 
 地图窗口右侧是一系列面板，每个面板都有 自己的功能。一般而言你首次打开JOSM时，有几个面板是默认显示的，例如图层、属性、选择。当你在地图窗口里选中一个点、一条线或一个面时，这些对象将在选择面板显示。这些对象的信息 将在属性面板显示，这些对象的作者的用户名将在作者面板显示。
 
-这些面板可以通过点击JOSM左下方的诸多按钮开启或关闭。这些按钮的上方，也就是左上角的按钮，是用来改变鼠标功能的。其中的一些你已经不陌生了，比如选择工具和绘制工具。除此之外，它们下方还有用于放大视图、删除对象、绘制图形或绘制平行于已有线划的画线工具。
+These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper left are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
 
 
 编辑
@@ -113,7 +113,7 @@ JOSM编辑过程
 ---------------------------
 -   打开浏览器，前往 [http://openstreetmap.org/](http://openstreetmap.org/)
 -   把地图移动到你编辑过的区域。
--   这时你应该看到你的修改出现在地图上了。如果没有， 试试按下Ctrl+R组合键刷新网页。有时地图 无法正确刷新，因此需要重新加载。
+-   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the browser still shows the old version and needs to be reloaded.
 -   万一还没看到修改呢？别担心——可能要等上几分钟修改才会出现在地图上。此外，检查一下你在JOSM里的编辑，确保你都添加对了。一般情况下，如果你的点在JOSM里有图标显示，那么它就应该能在OpenStreetMap网站的主地图里看到。
 
 小结

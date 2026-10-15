@@ -57,7 +57,7 @@ category: josm
 
 Крім того, ви можете змінити стандартні налаштування втулка.  
 
-* Перейдіть в меню Дані -> Встановити розмір будівель (Set buildings size). ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * Якщо вам потрібно додати багато однакових за розмірами будинків, ви можете встановити відповідні значення ширини та довжини будівлі, наприклад 6 x 10 метрів (одиниці виміру в метрах).  
 
@@ -87,7 +87,7 @@ Utilsplugin2
 
     ![Nodes interesection][]
 
-2. **Вставити теґи із попереднього виділення / Copy Tags from Previous Selection:**  Цей інструмент спрощує  перенесення теґів між об’єктами. Якщо вам потрібно створювати багато об’єктів з однаковими теґами, накресліть їх. Потім позначте відповідним чином один з них. Тепер клацніть на наступний об’єкт та натисніть Shift + R, щоб скопіювати теґи з попередньо виділеного об’єкта до поточного. Повторіть це стільки раз скільки треба. Запам’ятайте, теґи копіюються з попереднього виділеного об’єкта, тож якщо ви випадково виділите об’єкт без теґів, а потім інший об’єкт без теґів, у вас не вийде перенести теґи, яких немає.  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 

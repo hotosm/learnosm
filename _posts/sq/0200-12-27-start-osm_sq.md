@@ -11,46 +11,29 @@ Të fillosh në OpenStreetMap.org
 
 Kjo guidë mund të shkarkohet si [beginner_start-osm_sq.odt](/files/beginner_start-osm_sq.odt) ose [beginner_start-osm_sq.pdf](/files/beginner_start-osm_sq.pdf)  
 
-Në këtë seksion ne do të mësojmë hap pas hapi se si të navigojmë
-Website-in e OpenStreetMap, të vëzhgojmë hartat dhe të regjistrohemi për një llogari përdoruesi.
-Pasi keni emrin tuaj të përdoruesit dhe fjalëkalimin, ju do të jeni të aftë 
-të kontribuoni pikat tuaja të para në hartë.
+In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
 
 ![website][]
 
 Vizitoni faqen në internet të OpenStreetMap
 -------------------------------
 
-- Përpara se të filloni, sigurohuni që kompjuteri juaj të jetë i lidhur në internet.
-    (Nëse po e lexoni këtë online, atëherë ju duhet të jeni lidhur!)
-- Hapni shfletuesin tuaj të web-it. Të zakonshëm janë Firefox, Chrome, Opera ose Internet
-    Explorer. Nëse është tashmë i hapur ju mund të krijoni një tab të ri.
+-   Open your web browser.
 - Në shiritin e adresave në krye të dritares, vendosni lidhjen e mëposhtme dhe shtypni tastën Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
-- Kur të ketë mbaruar ngarkimi i faqes, ju do të shihni diçka si 
-    kjo:
+-   When the page has finished loading, you should see something like this:
 
     ![OpenStreetMap website with some main functions listed][]
 
 Navigoni Hartën
 ----------------
 
-- Gjëja kryesore që ju duhet të shihni është harta. Lëvizni hartën duke klikuar
-    në të me butonin e majtë të mausit, duke mbajtur butonin shtypur 
-    dhe zvarritni mausin tuaj përreth (shihni figurën më poshtë).
+-   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
 
     ![Mouse navigation][]
 
--Nëse keni një maus me një rrotull lëvizëse, zmadhoni dhe zvogëloni në hartë
-    duke rrotulluar. Nëse skeni një rrotull lëvizëse, përdorni butonat + 
-    dhe - djathtas hartës. (shih figurën
-    më poshtë)
-- Për të kërkuar për një vend, klikoni me të majtën në kutinë e emërtuar "Search" në 
-    të majtë të faqes (shihni figurën më poshtë). Shkruajeni emrin e 
-    qytetit ose fshatit tuaj dhe shtypni Enter. Një dritare duhet të shfaqet në të
-    majtë të hartës me rezultatet e kërkimit tuaj. Klikoni në
-    vendodhjen e cila duket si ajo që kërkoni. Harta do të 
-    lëvizë automatikisht në vendodhjen që ju zgjodhët.
+-   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
+-   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
 
     ![Search][]
    
@@ -58,89 +41,47 @@ Navigoni Hartën
 Shikoni Modele të Ndryshme Hartash
 ------------------------
 
-OpenStreetmap përmban të dhëna gjeografike nga e githë bota. Meqenëse
-është një databazë e vetme, të dhënat mund të interpretohen dhe stilohen në 
-mënyra të ndryshme. Për ta parë këtë veprim, le të shofim disa tipe të ndryshme të hartave
-të disponueshme në website të OSM.
+OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
 
 - Klikoni në butonin e shtresave në të djathtë të dritares së hartës.
 
     ![Layers button][]
 
-- Klikoni në tipe në ndryshme modelesh për hartën. Vini re se si harta 
-    ndryshon me secilën prej tyre. Harta e transportit, për shembull, thekson 
-    linjat e transportit në hartë ndërsa harta e biçikletave thekson linjën e këtyre të fundit.
-    Të gjitha të dhënat për ta bërë këtë të mundur është përmbajtur në
-    databazën e OSM.
+-   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
 
     ![Transport map][]
 
 Krijoni një llogari në OpenStreetMap
 -------------------------------
 
-- Tani që keni parë se si faqja kryesore e internetit duket, ju mund 
-    të regjistroheni për një emër përdoruesi dhe një fjalëkalim dhe të shtoni objektet tuaj të parë
-    në hartë.
-- Në faqen e internetit të OpenStreetMap, klikoni "sign up" në krye
-    në cepin e djathë të faqes.
+-   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
+-   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
 - Ju do të shihni një faqe të re që duket si kjo:
 
     ![Registering an OpenStreetMap account][]
 
-- Aty janë pesë kuti në faqe që ju duhet ti plotësoni që të 
-    regjistroni një llogari me OSM.
-- Vendosni adresën tuaj elektronike në dy kutitë e para. Ju duhet të vendosni 
-    të njëjtën adresë elktronike në të dyja kutitë. Më vonë, ju do ju duhet të hapni 
-    email-in tuaj që të konfirmoni llogarinë tuaj me OpenStreetMap.
-- Në kutinë e tretë, vendosni emrin e përdoruesit që ju doni të keni.
-    Ju nuk do mund të zgjidhni një emër përdoruesi që dikush tjetër e ka
-    zgjedhur më parë, kështu që ai duhet të jetë kreativ. Nëse ju përpiqeni të vendosni
-    diçka të thjeshtë, si emri juaj, ka të ngjarë që dikush
-    e ka marrë tashmë këtë emër.
-- Vendosni një fjalëkalim të ri në kutitë katër dhe pesë. Ju duhet të vendosni
-    të njëjtin fjalëkalim në të dyja kutitë. Ai nuk ka pse të jetë i njëjtë me 
-    fjalëkalimin për email-in tuaj.
-- Mbase ju duhet ti shkruani diku emrin e përdoruesit dhe fjalëkalimin tuaj të OSM. Ju do ju 
-    duhen ato për tu hyrë në llograinë tuaj më vonë.
-- Pasi ju ti keni plotësuar të gjitha kutitë, klikoni "Sign Up" në
-    fund të faqes.
-- Nëse ka ndonjë problem, një mesazh gabimi mund të shfaqet. Kontrolloni për tu
-    siguruar që email-i është i njëjtë në dy kutitë e para dhe 
-    fjalëkalimi identik në dy kutitë e fundit. Nëse kutia e tretë 
-    është e theksuar me të kuqe, nënkupton se tashmë dikush e ka zgjedhur
-    emrin e përdoruesit që ju kërkuat dhe ju duhet të provoni një emër të ndryshëm.
-- Hapni një dritare të veçantë ose tab në shfletuesin tuaj të internetit dhe navigoni
-    tek email-i juaj. Faqet e zakonshme të email-eve janë [mail.yahoo.com](http://mail.yahoo.com)
-    dhe [www.gmail.com](http://www.gmail.com).
-- Vendosni adresën tuaj elektronike dhe fjalëkalimin për të hapur email-in tuaj.
-    Vini re se kjo nuk është e njëjta gjë me emrin e përdoruesit dhe
-    fjalëkalimin për OpenStreetMap.
-- Nëse gjithçka ishte e sukseshme  me regjistrimin tuaj, ju duhet të keni
-    një email nga OpenStreetMap në kutinë tuaj të mesazheve. Hapeni email-in. Ai duhet 
-    të duket si në imazhin më poshtë. Klikoni në linkun që është vendosur
-    poshtë;
+-   There are five boxes on this page that you need to fill in to register an account with OSM.
+-   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
+-   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
+-   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
+-   You may want to write down your OSM username and password. You will need it to log in later.
+-   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
+-   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you must try a different name.
+-   Have a look at your email.
+-   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
 
     ![Confirming your OpenStreetMap account][]
 
-- Një dritare e re do të hapet. Nëse gjithçka shkoi mirë, ju duhet 
-    të keni një llogari në OSM!
-- Në faqen e OpenStreetMap, klikoni "log in" në krye djathtas.
-    Vendosni emrin e përdoruesit dhe fjalëkalimin për OpenStreetMap dhe shtypni Enter. Ju
-    tashmë duhet të jeni kyçur. Ju duhet të shikoni emrin tuaj lart
-    në cepin e djathë të faqes.
+-   A new tab or window will open. If everything went well, you should have an OSM account!
+-   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
 
 Shtimi i Pikave të Para
 ------------------------
 
-- Tashmë që jeni kyçur me emrin tuaj të përdoruesit në faqen e internetit të OpenStreetMap
-    , ju mund të përdorni iD editor për të shtuar pikat tuaja në
-    hartë.
-- Zhvendoseni hartën në një vend që ju e njihni shumë mirë, si qyteti 
-    apo lagjia juaj. Një ide e mië është të sigurohesh që shtëpia juaj (ose lagjia pranë shtëpisë tënde) dhe vendi i punës janë vizatuar dhe u është vendosur adresa e saktë. 
+-   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
+-   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
 - Zmadhoni në një vend ku ju doni të shtoni një pikë në hartë (mbase një restaurant apo dyqan ushqimor pranë jush nuk është vendosur akoma në hartë).
-- Më sipër hartës në të majtë, është një buton i emëruar "Edit" me një 
-    trekëndësh të vogël pranë. Klikoni trekendëshin e vogël. Ju do të shihni një menu
-    të listuar poshtë.
+-   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
 -Klikoni "Edit with iD (in-browser editor)".
 
     ![Click edit][]
@@ -149,42 +90,26 @@ Shtimi i Pikave të Para
 
     ![iD editor][]
 
-- Ju mund të shtoni një pikë në hartë duke klikuar në butonin e emëruar "Point" në
-    krye të dritares. Pastaj klikoni në hartë ku doni ta shtoni një
-    pikë të re.
+-   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
 
     ![Point button][]    
 
-- Zgjidhni nga menuja në të majtë se çfarë tipi lokacioni është pika që ju po 
-    shtoni në hartë. Ju mund pastaj të plotësoni formën e duhur me 
-    emrin e lokacionit dhe informacione të tjera.
-- Për t'i ruajtur ndryshimet tuaja, klikoni butonin "Save" në krye. Duke qenë se ky është
-    editimi juaj i parë, ju mund të preferoni të luani vërdallë me editorin. Mos i ruani ndryshimet tuaja
-    përveç nëse jeni të sigurt që janë të sakta.
+-   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
+-   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
 
     ![Save button][]    
 
-- Nëse ju klikoni Save (ruaj), ju do t'ju kërkohet të mundësoni një përshkrim për ndryshimet që keni bërë.
-    Pastaj ju klikoni sërish "Save" dhe shtesat tuaja do të ruhen në
-    bazën e të dhënave të OSM.
+-   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
 
 
-Editori iD është një mënyrë  fantastike për të edituar lehtësisht OpenStreetMap, dhe ju mund të gjeni  
-më tepër rreth përdorimit të tij në  [iD editor guide](/sq/beginner/id-editor/).
-Ju gjithashtu mund të praktikoheni me  [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
-i cila është një mënyrë e shkëlqyer dhe iteraktive për të zbuluar editorin.
+The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
 
-Gjithsesi në [sesionin për JOSM](/sq/josm) ne do të shikojmë një aplikacion të pavarur. 
-i cili ofron shumë më tepër veçori.
-Ndihuni të lirë të vazhdoni të luani me iD. Pasi të keni më shumë eksperiencë duke kontribuar në OSM,  
-ju mund të zgjidhni cilin editor, iD apo JOSM ju pëlqen të përdorni më tepër.
+However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
 
 Përmbledhje
 -------
 
-Urime! Nëse gjithçka shkoi mirë, ju tani keni emrin tuaj të përdoruesit në OpenStreetMap
-dhe fjalëkalimin. ju dini si të navigoni në faqen e internetit të OSM, dhe ju keni 
-njohuritë fillestare se si të shtoni pika në hartë.
+Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
 
 
 

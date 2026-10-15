@@ -189,7 +189,7 @@ Start JOSM voordat u deze link gebruikt en de bestaande gegevens van OSM  zullen
 
 >  1. 'Afstandsbediening inschakelen' moet zijn geselecteerd - te vinden onder **Bewerken / Voorkeuren / Afstandsbediening**
 >  2. Als u al eerder de plug-in 'continuosDownload' hebt geïnstalleerd, is het het beste om die uit te schakelen (deselecteer 'Doorlopend gegevens van OSM downloaden' in het menu **Bestand** in JOSM).  
->  3. Als JOSM ook de afbeeldingen niet automatisch laadt, zijn die normaal gesproken te vinden in het menu **Afbeeldingen**. [Hier meer info over afbeeldingen](/nl_NL/josm/more-about-josm/#add-imagery)  
+>  3. Als JOSM ook de afbeeldingen niet automatisch laadt, zijn die normaal gesproken te vinden in het menu **Afbeeldingen**. [Hier meer info over afbeeldingen ](/nl_NL/josm/more-about-josm/#add-imagery)  
 
 
 ##### Bewerker iD
@@ -235,7 +235,7 @@ In beide gevallen zult u het stadium bereiken waar uw taak is vergrendeld, en uw
 
 - **VOLTOOID** waar u later zult aangeven waarom u deze taak hebt verlaten, zoals dat u het gevraagde in kaart brengen hebt voltooid, of dat u om een of andere reden niet in staat bent geweest om hem te voltooien - zorg er voor dat u een bericht achterlaat waarom, zoals " *Run out of time, I've done all of the top half of the square, but there is a lot more to be done in the bottom half* " voordat u **Een andere taak selecteren** selecteert.
 - **INSTRUCTIES** waar u opnieuw de instructies voor de taak kunt bekijken, als u zich enkele details niet kunt herinneren, misschien voor te gebruiken tags voor bepaalde objecten, of wat te doen met afbeeldingen, voordat u doorgaat met in kaart brengen.
-- **GESCHIEDENIS** lees, voor het beginnen met in kaart brengen, altijd de opmerkingen onder deze tab. Dit is nuttig om te controleren in gevallen dat er een opmerking is van een eerdere mapper, zoals dat zij alleen de bovenzijde van het vierkant hebben voltooid, en u zich dient te concentreren op de onderste helft. U kunt zien of er opmerkingen zijn als er een getal staat in een rode cirkel naast de tab. Mogelijk ziet u ook een waarschuwing. ̈Controleer dus de tab Geschiedenis op relevante opmerkingen ̈.
+- **GESCHIEDENIS** lees, vóór het beginnen met in kaart brengen, altijd de opmerkingen onder deze tab. Dit is nuttig om te controleren in gevallen dat er een opmerking is van een eerdere mapper, zoals dat zij alleen de bovenzijde van het vierkant hebben voltooid, en u zich dient te concentreren op de onderste helft. U kunt zien of er opmerkingen zijn als er een getal staat in een rode cirkel naast de tab. Mogelijk ziet u ook een waarschuwing. ̈Controleer dus de tab Geschiedenis op relevante opmerkingen ̈.
 
 ![TM4-history-tab][]
 

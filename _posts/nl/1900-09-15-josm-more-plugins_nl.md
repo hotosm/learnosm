@@ -1,0 +1,130 @@
+---
+layout: doc
+title: JOSM Building Tools & Utilsplugin2 plugins
+permalink: /nl/josm/josm-more-plugins/
+lang: nl
+category: josm
+---
+
+JOSM plug-ins Buildings Tools & Utilsplugin2
+============
+
+
+De plug-ins **buildings_tools** en **utilsplugin2** voegen veel aanvullende functionaliteit toe aan JOSM. In dit gedeelte zullen we eens nader kijken naar de functies die zij verschaffen.  
+
+De plug-in Buildings Tools
+--------------------------
+
+Als u dat nog niet gedaan heeft, installeer dan deze plug-in volgens de instructies in [JOSM Plugins](/nl_NL/josm/josm-plugins).  
+
+![Buildings tools plugin][]
+
+De plug-in Gebouwen tekenen is zeer nuttig voor het digitaliseren van gebouwen. Het stelt u in staat één zijde van een rechthoekig gebouw te traceren, en eenvoudig de vorm uit te breiden. Zelfs als u veel gebouwen digitaliseert, zal deze plug-in u klikken besparen, en u daarom ook tijd besparen.  
+
+Als de plug-in eenmaal is geïnstalleerd zult u een nieuwe knop zien aan de linkerkant van JOSM, die eruit ziet als dit: ![Buildings tools button][]{: height="29px"}
+
+Start JOSM en download een gebied waar u gebouwen wilt traceren.  
+
+### Rechthoekige gebouwen
+
+* Selecteer Gebouwen tekenen en klik tweemaal om een lijn op de kaart te tekenen.  
+
+![Draw edge][]
+
+* Verleng met de muis en klik opnieuw om een rechthoek te tekenen.  
+
+![Extend building][]
+
+* Dit zal niet alleen een rechthoek maken met slechts drie klikken maar het zal ook automatisch de tag **building=yes** aan de vorm toekennen.  
+
+### Ronde gebouwen
+
+* Selecteer, in "Meer gereedschappen"->"Modi Gebouwen tekenen", "Vorm van gebouw instellen op cirkel" of gebruik de sneltoets ALT+Z (gebruik ALT+R, bij het terugschakelen naar rechthoekige gebouwen). En teken de diameter van het gebouw.
+
+![Round building][]
+
+### Complexe gebouwen
+
+U kunt ook meer gecompliceerde gebouwen maken door eerst verscheidene overlappende gebouwen te tekenen en ze dan samen te voegen.  
+
+* Teken twee gebouwen die elkaar overlappen, zodat zij een L-vorm vormen.  
+* Selecteer beide gebouwen (houdt SHIFT ingedrukt om meer dan één object te selecteren).  
+* Ga naar Gereedschappen-> Overlappende gebieden samenvoegen of druk op SHIFT+J op uw toetsenbord.  
+
+![Merge buildings][]
+
+### Instellingen bewerken
+
+Verder kunt u de standaard instellingen van de plug-in wijzigen.  
+
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
+
+* Als u veel gebouwen van een soortgelijke grootte maakt kunt u specifieke dimensies instellen voor de breedte en grootte voor de gebouwen, zoals 6 x 10 meter (de eenheid is in meters).  
+
+![Set buildings size dialog][]
+
+* Door het instellen van de dimensies heeft u slechts twee klikken nodig om gebouwen van precieze grootte te maken.  
+
+Tenslotte kunt u klikken op de knop Gevorderd als u aanvullende tags zou willen toevoegen die automatisch zullen worden toegevoegd aan elk gebouw. Bijvoorbeeld: als elk gebouw dat u tekent in dezelfde straat ligt, zou u een tag kunnen toevoegen die de straat identificeert en automatisch zal worden toegepast.  
+
+![Buildings advanced][]
+
+
+Utilsplugin2
+-------------
+
+* Als u dat nog niet gedaan heeft, installeer dan deze plug-in volgens de instructies in [JOSM Plugins](/nl_NL/josm/josm-plugins).  
+
+![Utilsplugin2 plugin][]
+
+Nadat u de plug-in heeft geïnstalleerd en JOSM opnieuw heeft gestart, zult u een nieuw menu aan de bovenkant hebben, genaamd "Meer gereedschappen."  
+
+![More tools menu][]
+
+Maak een nieuwe laag en experimenteer met enkele van de nieuwe gereedschappen. Hier beschrijven we enkele van de meest nuttige nieuwe gereedschappen:  
+
+1. **Knopen bij kruisingen toevoegen:**  Dit gereedschap is bijzonder nuttig voor het toevoegen van ontbrekende knopen op kruisingen van geselecteerde wegen. Het is een goede gewoonte dat wegen altijd gedeelde knopen hebben waar zij elkaar kruisen.  
+
+    ![Nodes interesection][]
+
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
+
+    ![Copy tags][]
+
+3. **Brontag toevoegen:** Dit gereedschap vereenvoudigt het toevoegen van een tag voor de bron. Het onthoudt de bron die als laatste werd gespecificeerd en voegt die als onthouden brontag toe aan uw objecten. U kunt de bron met slechts één klik toevoegen.  
+
+4. **Geometrie vervangen:** Dit gereedschap is fantastisch als u een slecht vorm gegeven object opnieuw wilt tekenen, maar de geschiedenis, attributen en ID-nummer van dat object wilt behouden. Bijvoorbeeld: als u een gebouw tegenkomt dat gecompliceerd is en op een slechte manier is getekend, dan - in plaats van tijdrovend elke knoop te wijzigen - kunt u het object opnieuw tekenen, de oude en nieuwe objecten selecteren, en ¨Geometrie vervangen¨ selecteren om alle informatie over te dragen.  
+
+    ![Replace geometry][]
+
+
+### Meer gereedschappen voor selectie
+
+**Utilsplugin2** verschaft ook meer gereedschappen voor het menu "Selectie". Probeer ermee te experimenteren.  
+
+![Selection menu][]
+
+Eén van onze favoriete gereedschappen voor selectie is **Selectie van knopen opheffen:** Dit gereedschap heft het selecteren van alle knopen op. Dit kan handig zijn als u een vak tekent om veel objecten te selecteren, maar als u niet alle knopen wilt selecteren die zijn opgenomen in alle lijnen en vormen.  
+
+![Unselect nodes][]
+
+Veel succes!  
+
+
+[Buildings tools plugin]: /images/josm/buildings_tools-plugin.png
+[Buildings tools button]: /images/josm/buildings_tools-button.png
+[Draw edge]: /images/josm/draw-edge.png
+[Extend building]: /images/josm/extend-building.png
+[Merge buildings]: /images/josm/merge-buildings.png
+[Set buildings size]: /images/josm/set-buildings-size.png
+[Set buildings size dialog]: /images/josm/set-buildings-size-dialog.png
+[Buildings advanced]: /images/josm/buildings-advanced.png
+[Utilsplugin2 plugin]: /images/josm/utilsplugin2-plugin.png
+[More tools menu]: /images/josm/more-tools-menu.png
+[Nodes interesection]: /images/josm/utilsplugin2-nodes-intersection.png
+[Copy tags]: /images/josm/utilsplugin2-copy-tags.png
+[Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
+[Selection menu]: /images/josm/selection-menu.png
+[Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Buildings tools plugin]: /images/josm/buildings_tools-plugin.png
+

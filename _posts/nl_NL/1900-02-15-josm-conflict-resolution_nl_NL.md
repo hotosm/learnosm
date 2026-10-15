@@ -95,7 +95,7 @@ There are three tables displayed in this dialog, from left to right:
     in your local data set.
 2.  Merged version: shows the merged tags. This table is initially
     empty. The more tag conflicts you resolve, the more tag values will
-    we be displayed in this table.
+    zal worden weergegeven in deze tabel.
 3.  Their version: shows the tags of the second object version
     participating in this conflict. These are usually the tags of the
     object version currently stored on the server.

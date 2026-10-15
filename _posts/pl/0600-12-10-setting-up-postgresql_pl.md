@@ -9,7 +9,6 @@ category: osm-data
 PostgreSQL i PostGIS
 ====================
 
-> Przejrzano 2016-09-10
 
 W tym rozdziale zobaczymy, jak uruchomić PostgreSQL w systemie Windows i jak utworzyć bazę danych, w której będziesz mógł przechowywać dane geograficzne. Będziemy używać w tym rozdziale otwartoźródłowego programu GIS o nazwie QGIS, więc dobrze, jeśli już jesteś z nim zaznajomiony. W kolejnym rozdziale zobaczymy, jak zaimportować dane OpenStreetMap do bazy danych PostgreSQL.  
 
@@ -24,14 +23,14 @@ Znajdziesz tutaj wskazówki do instalacji w różnych systemach operacyjnych. Kl
 Ta strona wyjaśnia, co zrobi szybki instalator. Zainstaluje on trzy różne komponenty:  
 
 * **Serwer PostgreSQL**:  Oprogramowanie bazodanowe, główny komponent  
-* **pgAdmin III**: Interfejs graficzny do zarządzania Twoimi bazami danych  
+* **pgAdmin 4**: The graphical interface for managing your databases  
 * **StackBuilder**: Narzędzie do dodawania dodatkowych aplikacji; użyjemy tego, aby dodać rozszerzenie PostGIS  
 
 Kiknij **Download**.  
 
 ![postgresql download][]
 
-Zobaczysz kilka różnych opcji instalatorów dla różnych wersji oprogramowania PostgreSQL. Pobierz najnowszą wersję. W momencie pisania tego artykułu, jest to wersja 9.3.1. Kliknij na przycisku **Win x86-32**. Jest to instalator dla 32-bitowych wersji systemu Windows.  
+You will see several different Installer options for different versions of the PostgreSQL software. Download the most recent version for your Windows version.
 
 ![postgresql version][]
 
@@ -72,14 +71,14 @@ Po ukończeniu instalacji kliknij "**Close**", a anstępnie "**Finish**".
 Tworzenie bazy danych
 --------------------
 
-Teraz, kiedy mamy zainstalowane wszystkie potrzebne programy, możemy utworzyć bazę danych. Użyjemy pgAdmin III, który jest graficznym klientem bazodanowym i jest przydatny przy zapytaniach i modyikacjach
+Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin 4, which is a graphical database client that is useful for querying and modifying
 baz danych.  
 
 ![pgadmin3][]
 
-PgAdmin III jest oficjalnym klientem dla PostgreSQL i pozwala używać języka SQL do przetwarzania tabel z Twoimi danymi. Umożliwia również tworzenie i przetwarzanie baz danych z wiersza poleceń, ale póki co, pgAdmin III jest łatwym sposobem na rozpoczęcie.  
+PgAdmin 4 is the official client for PostgreSQL and lets you use the SQL language to manipulate your data tables.  It is also possible to create and manipulate databases from the command-line, but for now, pgAdmin 4 is an easy way to get started.  
 
-Otwórz pgAdmin III. Powinien znajdować się w menu Start we Wszystkie programy -> PostgreSQL 9.3 > pgAdmin III.  
+Open pgAdmin 4.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin 4.  
 
 ![pgadmin3 start][]
 
@@ -101,7 +100,7 @@ Musisz podać trochę informacji, aby utworzyć nową bazę danych: nazwę i wł
 
 <!-- W zakładce Definition pozostaw domyślne wartości, ale obok Template wybierz template_postgis. Pozwoli to utworzyć naszą bazę danych z odpowiednimi kolumnami przestrzennymi. -->
 
-Kliknij **OK**, aby utworzyć bazę danych. Zobaczysz teraz Twoją bazę na liście poniżej "**Databases**". Musimy teraz uruchomić polecenie, aby uaktywnić rozszerzenie PostGIS dla bazy. Kliknij ![sql button][]{: height="24px"} na górze PgAdmin III.  
+Click **OK** to create the database.  You will now see your database listed under “**Databases**.” We need to run a command now to enable the database with PostGIS extensions. Click on ![sql button][]{: height="24px"} at the top of PgAdmin 4.  
 
 
 
@@ -118,7 +117,7 @@ Następnie kliknij przycisk "**Execute query**".
 
 Jeżeli dobrze Ci poszło i znasz już QGIS, to chodźmy dalej i załadujmy dane do naszej nowej bazy. Aby to zrobić użyjemy funkcji, która konwertuje pliki shape i ładuje je do bazy danych.  
 
-Upewnij się, że w panelu po lewej jest wybrana Twoja nowa baza danych i przejdź do **Plugins -> PostGIS Shapefile and DBF loader 2.1**.
+Make sure that your new database is selected in the panel on the left and go to **Plugins -> PostGIS Shapefile and DBF loader 2.x**.
 
 ![shapefile loader][]
 

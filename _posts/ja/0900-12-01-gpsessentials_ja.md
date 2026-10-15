@@ -1,185 +1,182 @@
 ---
 layout: doc
-title: GPS Essentials
+title: GPSの基礎
 permalink: /ja/mobile-mapping/gpsessentials/
 lang: ja
 category: mobile-mapping
---- 
+---
 
 
 
-GPS Essentials
+GPSの基礎
 ===================
 
-GPS Essentialsのインストール
+
+Installation of GPS Essentials
 -------------
 
-1. Androidデバイスのホームスクリーンに表示されている“Google Playストア”のアプリケーションアイコンをタップし、Android Marketを開きます。
-2. 画面右上に表示されている"検索"アイコンをタップします。
-3. 画面上部の検索バーに “GPS Essentials”と入力し、検索します。
-4. GPS Essentialsのアイコンをタップし、"インストール"を選択します。アプリケーションのアイコンは以下のとおりです: 
+1.  Tap the “Google Play Store” app icon on your Android device’s home screen to open the Android Market.
+2.  Tap the “Search” icon in the upper right corner.
+3.  Use the search bar at the top to search for “GPS Essentials”.
+4.  Tap the GPS Essentials icon and select "Install". The icon looks like this:
 
-   ![GPS Essentials logo][]
+    ![GPS Essentials logo][]
 
-Google Playに接続できなかったり、例えば過去バージョンや最新開発版など、安定版以外のバージョンをダウンロードしたい場合には、http://www.images.comから直接 GPS Essentialsを入手することができます。
+If you don't have access to Google Play or if you want to download versions other than the stable release such as older versions or the latest beta, you can download GPS Essentials from <http://www.images.com>.
 
-オフラインでGPS Essentialsを使えるように設定
+Configure GPS Essentials to Work Offline
 -------------
 
-1. GPS Essentialsを開きます。Settingを表示させ、Map Cacheを選択します。キャッシュの最大容量を maximum(無制限)に変更します。
+1.  Open GPS Essentials. Go to Settings and select Map Cache. Move the cache limit to maximum.
 
-   ![Map Cache][]
+    ![Map Cache][]
 
-2. 回線が太く、安定したネットワーク回線を確保してください。メインスクリーンから、'Portable Maps'を選択します。ポータブルマップから表示させた地図画像が、自動的にAndroidのメモリに保存されます。オフラインで利用したい範囲のマップをできる限り表示させ、それぞれのウェイポイントの近辺に対してゆっくりとズームさせてください。
+2.  Find a strong network connection. From main screen, select 'Portable Maps'. Every map you view in portable map mode automatically saves to the Android's memory. Save maps you will need offline in as much detail as possible, and slowly zoom in on each waypoint.
 
-3. ネットワーク回線から切断し、ポータブルマップモードで表示させます。もし地図の詳細が表示されない場合、もう一度ネットワーク回線に接続し、その場所の近くでズームさせる作業を行ってください。
+3.  Disconnect from the network and view maps in portable map mode. If some maps lack detail, re-connect to a network and slowly zoom in on the map location you need.
 
-AndroidフォンのGPS機能
+GPS feature on Android phone
 -------------
 
-GPS Essentialsアプリケーションを使う前に、AndroidのGPS機能が有効化されていることを確認してください。
+Before using the GPS Essentials Application, make sure the GPS in your Android phone is enabled.
 
 ![Enable GPS in Android][]
 
-衛星からの信号の確保
+Acquiring Satellites
 -------------
 
-GPS受信機が位置を特定(別称: GPS位置補正/GPS fix)する場合、最低でも4つ以上の衛星からの信号を受信する必要があります。
-衛星が水平線上に近ければ近いほど、衛星からの信号は受信機までに長い距離を伝送されます。そのため、衛星が天頂に近ければ近いほど、その衛星の精度は高くなるということできます。
+Before a GPS receiver emits a location (also called a GPS fix), it must receive signals from at least four satellites. The lower the satellite is above the horizon, the longer its signals travel through the atmosphere so satellites high above the horizon usually have better signals.
 
+To check the satellites in your area:
 
-現在地の衛星の状態をチェック:
+1.  From the main menu, select Satellites.
 
-1. メインメニューから Satellitesを選択します。
-   ![Satellites page][]
+    ![Satellites page][]
 
-2. 位置の補正として最低限4つ以上の衛星を補足することができると、GPS Essentialsの各種機能を利用できるようになります。
+2.  If there are at least four satellites used in the fix, then you may start using the GPS Essentials features.
 
-軌跡の作成
+Creating Tracks
 -------------
 
-1. メインメニューから、Tracksを選択します。
+1.  From the main menu, select Tracks.
 
-2. ツールバーから Startを選択します。新しい軌跡のエントリが作成され、位置情報の記録が開始されます。GPS位置補正が有効化するまで、数秒待ってください。
+2.  Tap on Start from the toolbar. It will create a new track and start recording. Wait some seconds until GPS fix is available.
 
-   ![New Track][]
+    ![New Track][]
 
-3. 記録を一時停止する場合は、Pauseボタンを選択してください。記録を再開する場合、ボタンをもう一度押すと再開されます。
+3.  Select Pause button to pause recording. If you want to continue recording, press it again.
 
-ウェイポイントの作成
+Creating Waypoints
 -------------
 
-### ポータブルマップの利用
+### Using Portable Maps
 
-1. メインメニューから、Portable Mapsを選択します。
+1.  From the main menu, select Portable Maps.
 
-2. 地図をタップして長押しし、新しいカーソルを作成します。
+2.  Tap and hold on the map to create a new cursor.
 
-   ![Waypoints1][]
+    ![Waypoints1][]
 
-3. カーソルをドラッグし、新しくウェイポイントを作成したい場所に移動させます。
+3.  Drag the cursor onto the location where you want the new waypoint.
 
-4. Actionsボタンをタップすると、そこから行うことができる操作の一覧が表示されます。以下のアイコンがActionsアイコンです。
-	
-   ![Actions][]
-	
-5. Add Toolを選択すると、ウェイポイントが作成されます。
-	
-   ![Waypoints2][]
-	
-### Google Mapsの利用
+4.  Tap on Actions to show the actions pane. The Actions icon looks like this:
 
-1. メインメニューから、Google Mapsを選択します。
+    ![Actions][]
 
-2. ウェイポイントを追加したい場所に移動します。
+5.  Select the Add Tool to create the waypoint.
 
-3. Add Toolを選択し、ウェイポイントを作成します。ウェイポイントを作成する場所をタップしてください。ウェイポイントを現在地の緯度経度で作成したい場合、Add Waypointのボタンをもう一度タップします。
+    ![Waypoints2][]
 
-   ![GoogleMaps][]
+### Using Google Maps
 
-4. bとcのステップを繰り返すことで、複数のウェイポイントを記録することができます。
+1.  From the main menu, select Google Maps.
 
-### ウェイポイントページの利用
+2.  Go to the location where you want to add your waypoint.
 
-1. メインメニューから、Waypointsを選択します。
+3.  Select the Add Tool to create the waypoint. Tap on the location on the map to create a Waypoint there. If you want to create a waypoint at your current location, tap the Add Waypoint button again.
 
-2. Add Toolを選択して、ウェイポイントを作成します。
+    ![GoogleMaps][]
 
-   ![Waypointspage1][]
+4.  Repeat steps b and c until you are finished recording your desired waypoints.
 
-3. 1つめのウェイポイントが記録されます。この画面から、ウェイポイントの属性値の変更を行うことが可能です。もう一度リストに戻る場合は、Backボタンを押してください。
-	
-   ![Waypointspage2][]
+### Using Waypoints page
 
-4. Mapペインを選択すると、ウェイポイントが記録されている位置を地図上に表示することができます。
-	
-   ![Waypointspage3][]
+1.  From the main menu, select Waypoints.
 
-5. Select Close icon to save your waypoint. The Close icon looks like this:
-5. Closeアイコンを選択することで、ウェイポイントの保存が可能です。以下がCloseアイコンです。
+2.  Select the Add tool to create the waypoint.
 
-   ![Close][]
-	
-位置情報付きの写真
+    ![Waypointspage1][]
+
+3.  It will start recording your 1st waypoint. You may change the attributes of the waypoint and then press Back to get back to the list.
+
+    ![Waypointspage2][]
+
+4.  When you select the Map pane, you will see where your waypoint is located on the map.
+
+    ![Waypointspage3][]
+
+5.  Select Close icon to save your waypoint. The Close icon looks like this:
+
+    ![Close][]
+
+Geotagging Photos
 -------------
 
-1. メインメニューから、Cameraを選択します。
+1.  From the main menu, select Camera.
 
-2. 写真を撮影すると、その写真に位置情報が付与されます。
+2.  Take a picture of your desired area for geotagging.
 
-3. 写真の撮影を行った位置は自動的にウェイポイントとして記録され、ポータブルマップとGoogle Mapsページに保存されます。
+3.  The photo you took will serve as a waypoint and automatically be saved on the Portable Maps and Google Maps page.
 
-4. データ (写真の位置情報とファイル名) は、Waypointsページにも保存されます。
-撮影した画像をどのようなアイコンで表示させるかを選択することも可能です。アイコンを変更した場合、ポータブルマップとGoogle Mapsのページにも変更が反映されます。
+4.  The data (picture location and the photo file name) will also be logged on the Waypoints page. You may also choose which icon to be used for a particular image. The icon will be shown on the Portable Maps and Google Maps page as well.
 
-写真の保存
+Saved Photos
 -------------
 
-撮影された写真はすべて、SDカードの com.mictale.images フォルダに保存されます。このフォルダにある写真は、削除や追加を行ってもかまいません。GPS Essentialsは、写真の追加や削除があるかどうかを定期的にスキャンします。
+All your pictures are in the folder com.mictale.images on your SD card. You can delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder regularly to see what’s new.
 
-ウェイポイントのエクスポート/保存
+Exporting/Saving Waypoints
 -------------
 
-1. メインメニューから、Waypointsを選択します。記録されているウェイポイントの一覧が表示されます。
+1.  From the main menu, select Waypoints. It will show you the list of waypoints you recorded.
 
-2. すべてのウェイポイントをエクスポートする場合は、OptionsボタンからExportを選択します。単一のウェイポイントをエクスポートする場合は、対象のウェイポイントを選択した状態で、OptionsボタンからExportを選択してください。
+2.  To export all the waypoints, select Export from the Options button. If you want to export a single waypoint, select the desired waypoint, click the Options button and select Export.
 
-3. エクスポートする際のファイル形式を、ドロップダウンボックスで選択します。今回は、KML (Google Earth)をクリックします。
+3.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
 
-   ![Export file format][]
+    ![Export file format][]
 
-4. SDカードのアイコンを選択すると、ファイルの保存先を変更することが可能です。
+4.  Select the SD card icon to manually select your desired location of the file.
 
+    ![Export to SD card][]
 
-   ![Export to SD card][]
+5.  Click this icon to Save.
 
-5. このアイコンを選択すると、保存が行われます。
+    ![Arrow][]
 
-   ![Arrow][]
-
-軌跡のエクスポート/保存
+Exporting/Saving Tracks
 -------------
 
-1. メインメニューから、Tracksを選択します。現在記録されている軌跡の一覧が表示されます。
+1.  From the main menu, select Tracks. It shows the data from the current track you recorded.
 
-2. OptionsボタンからExportを選択すると、現在の軌跡の内容がファイルに書き込まれます。
+2.  Select Export from the Options button to write the contents of the current track to a file.
 
-3. 過去に記録した軌跡をエクスポートする場合は、Tracksアイコンを選択し、対象の軌跡を選んでください。Optionsボタンをクリックし、Exportを選択してください。Tracksアイコンは以下のアイコンです。
+3.  If you want to export the previous track you recorded, select Tracks icon and choose the desired track. Click the Options button and select Export. The Tracks icon looks like this:
 
-   ![Footprints][]
-
-4. エクスポートする際のファイル形式を、ドロップダウンボックスで選択します。今回は、KML (Google Earth)をクリックします。
-
-   ![Export1][]
-
-5. SDカードのアイコンを選択すると、ファイルの保存先を変更することが可能です。
+    ![Footprints][]
 
 
-   ![Export3][]
+4.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
 
-6. このアイコンを選択すると、保存が行われます。
+    ![Export1][]
 
-   ![Arrow][]
+5.  Select the SD card icon to manually select your desired location of the file.
+
+    ![Export3][]
+
+6.  Click this icon to Save.
+
+    ![Arrow][]
 
 [GPS Essentials logo]:  /images/mobile-mapping/gpsessentials-Logo.png
 [Map Cache]:  /images/mobile-mapping/gpsessentials-mapcache.png

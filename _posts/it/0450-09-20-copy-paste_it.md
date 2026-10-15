@@ -1,9 +1,9 @@
 ---
 layout: doc
-Edtor iD: Copiare, Incollare e Ruotare
+title: Copying, Pasting & Rotating - iD editor
 permalink: /it/hot-tips/copy-paste/
 lang: it
-category: consigli utili
+category: hot-tips
 ---
 
 Editor iD: Copiare, Incollare e Ruotare

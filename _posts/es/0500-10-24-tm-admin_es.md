@@ -243,23 +243,23 @@ Esto es opcional, pero puedes añadir un breve fragmento de instrucciones adicio
 
 #### Nivel de mapeador
 
-Esto cambia el nivel de dificultad que se **muestra** para tu proyecto. Considéralo con mucho cuidado; los proyectos complejos que se establecen inadecuadamente en la dificultad de principiante **pueden dar lugar a importantes problemas de calidad de los datos**. 
+Esto cambia el nivel de dificultad que se **muestra** para tu proyecto. Considéralo con mucho cuidado: los proyectos complejos que se marcan incorrectamente como Fáciles **pueden generar problemas significativos en la calidad de los datos**.
 
 > Ten en cuenta que esto no cambia quién puede **realmente contribuir** a tu proyecto; esas restricciones se implementan en el submenú Permisos.
 
-La mayoría de los proyectos están configurados con una dificultad de **Principiante** o **Intermedio**, y un puñado de proyectos están configurados en Avanzado. 
+La mayoría de los proyectos se clasifican como de dificultad **Fácil** o **Moderada**, y solo unos pocos se definen como Desafiantes.
 
-- **Principiante** - Considéralo si tu proyecto es fácil de mapear y:
+- **Fácil** – Considéralo si tu proyecto es fácil de mapear y:
   - Solo estás pidiendo a los contribuyentes que mapeen una característica, en particular **solo edificios**.
   - La densidad de objetos espaciales es baja, es decir, en una zona **rural**.
   - Hay una **baja cantidad** de datos OSM existentes en el área de tu proyecto
   - No hay problemas de alineación de imágenes
-- **Intermedio** - Si tu proyecto es más difícil de mapear, deberías considerarlo si:
+- **Moderado** – Si tu proyecto es un poco más complicado de mapear, deberías considerarlo si:
   - Estás pidiendo a los contribuyentes que mapeen más de una característica, por ejemplo, edificios **y** carreteras
   - Hay una densidad media/alta de esas características en la zona de tu proyecto, es decir, zonas **urbanas**.
   - Existen **datos sustanciales** de OSM en el área de tu proyecto
   - Puede haber **problemas de alineación de las imágenes** o pides a los colaboradores que utilicen más de una fuente de imágenes
-- **Avanzado** - Si el proyecto es extremadamente difícil de mapear, considéralo si:
+- **Desafiante** – Si el proyecto es extremadamente difícil de mapear, consideralo si:
   - En la zona de tu proyecto hay una densidad muy alta de características, es decir, **zonas urbanas centrales**.
   - Hay **muchos** datos OSM existentes en el área de tu proyecto
   - Hay problemas **complejos de alineación de imágenes**.
@@ -272,7 +272,7 @@ Activa o desactiva estas opciones en función de las características que desees
 
 #### Preconfiguraciones del Editor iD
 
-Si eliges uno o más elementos de la lista desplegable, los mapeadores que utilicen iD solo podrán asignar estas características a los objetos que mapeen. Esto se recomienda para los proyectos de principiantes, **solo de construcción**. Esto significa que los colaboradores no podrán etiquetar otras características, aunque lo intenten. Evita el uso de preajustes para proyectos más complejos, ya que puede convertirse rápidamente en una carga. Por ejemplo, un proyecto de mapeo de carreteras necesitaría que se añadieran docenas de preajustes para garantizar que todos los tipos de carreteras puedan ser mapeados. 
+Si eliges uno o más elementos del menú desplegable, los mapeadores que usen iD solo podrán asignar esas características a los objetos que mapeen. Esto se recomienda para proyectos fáciles, **exclusivos de edificios**. Significa que los colaboradores no podrán etiquetar otras características, incluso si lo intentan. Evita usar preajustes en proyectos más complejos, ya que puede volverse una carga rápidamente. Por ejemplo, un proyecto de mapeo de rutas necesitaría docenas de preajustes para poder cubrir todos los tipos de carreteras.
 
 #### Organización
 
@@ -304,7 +304,7 @@ En el menú desplegable, elige la fuente de imágenes aéreas que quieres que se
 
 > Ten en cuenta que el Tasking Manager **no puede alojar imágenes personalizadas**; estas deben alojarse externamente y enlazarse mediante una URL TMS. Si estás contento con que tus imágenes estén abiertas para su uso, considera la posibilidad de utilizar [OpenAerialMap](https://openaerialmap.org/) para alojar tus imágenes.
 
-Licencia: opcionalmente, si hay una licencia específica que los mapeadores deben aceptar al utilizar las imágenes, puedes seleccionarla aquí. Por ejemplo, para las imágenes de Maxar es "DigitalGlobe Satellite EULA". Si necesitas una licencia que no está disponible, puedes ponerte en contacto con un administrador de la instalación del Tasking Manager y pedirle que la añada.
+Licencia – Opcionalmente, si hay una licencia específica que los mapeadores deban aceptar para usar la imagen satelital, puedes seleccionarla acá. Si necesitas una licencia que no está disponible, puedes contactar a un administrador de la instalación del Tasking Manager y pedirle que la agregue.
 
 ### Permisos
 
@@ -322,7 +322,7 @@ En el menú "Metadatos", podíamos cambiar el nivel de dificultad que se **muest
 
 Aquí puedes elegir quién puede **mapear** tu proyecto:
 
-- Si tu proyecto es fácil de contribuir y lo consideras un proyecto para principiantes, es posible que quieras establecer esto en **'Cualquier usuario'**.
+- Si tu proyecto es fácil de contribuir y consideras que es un proyecto simple, tal vez quieras configurar esta opción como **'Cualquier usuario'**.
 - Si tu proyecto es más complejo y requiere más experiencia, restringe el mapeo a **'Solo usuarios con nivel intermedio o avanzado'**. 
 - Si quieres ser aún más selectivo, también puedes exigir que un mapeador forme parte de un **equipo**. Los equipos deben definirse a continuación.
 
@@ -430,10 +430,10 @@ Haz un seguimiento del progreso del mapeo y la validación de tus proyectos. Rec
 
 ### Consideraciones sobre las imágenes
 
-Antes de crear tu proyecto, comprueba las imágenes en varios lugares diferentes de la zona de tu proyecto para hacer una evaluación de las imágenes. En la mayoría de los casos, las imágenes de Maxar o Bing deberían satisfacer tus necesidades. Sin embargo, hay situaciones en las que podrías querer elegir una fuente alternativa. Es posible que tengas que tener en cuenta lo siguiente a la hora de elegir tus imágenes: 
+Antes de crear tu proyecto, revisa la imagen satelital en diferentes ubicaciones dentro del área de tu proyecto para evaluar su calidad. En la mayoría de los casos, la imagen de Esri o Bing debería ser suficiente. Sin embargo, hay situaciones donde podrías necesitar elegir otra fuente. Considera lo siguiente al seleccionar la imagen:
 
 1. Si se necesita una cartografía cuidadosa y detallada, elige las imágenes más claras y de mayor resolución.
-2. Si tu prioridad es disponer de las imágenes más actualizadas, alterna entre las fuentes de imágenes estándar para buscar las imágenes más recientes. Busca indicios de desarrollo, como nuevos edificios o desmonte de terrenos, para hacerte una idea de las imágenes más actualizadas. Últimamente, Maxar ha sido la más actualizada, pero esto varía según la ubicación. 
+2. Si tu prioridad es tener la imagen más actualizada, alterna entre las fuentes estándar para buscar la más reciente. Buscá señales de desarrollo, como nuevos edificios o terrenos despejados, para hacerte una idea de cuál es la imagen más actual.
 3. Comprueba la nubosidad; aunque una fuente de imágenes puede satisfacer tus necesidades, si está muy nublada o brumosa, tus mapeadores tendrán problemas para mapear con ella.
 4. Comprueba la alineación; si hay muchos datos OSM existentes que se alinean con un conjunto de imágenes satelitales, entonces puede tener sentido elegir las mismas imágenes. Si hay problemas de alineación, asegúrate de escribir instrucciones claras detallando cómo esperas que los contribuyentes se ocupen de los problemas de desplazamiento/alineación. 
 
@@ -445,9 +445,9 @@ Es posible que el área de tu proyecto ya haya sido parcialmente cartografiada u
 
 No existe un conjunto de instrucciones estándar cuando se trata de cuestiones de alineación de imágenes. Depende mucho del contexto. A veces se indica a los mapeadores que se alineen con las trazas del GPS, y otras veces se les dice que se alineen con los rasgos lineales cartografiados, como carreteras y vías fluviales. He aquí un ejemplo de enfoque: 
 
-1. Indica claramente qué imagen debe considerarse la referencia a la que debe alinearse todo lo demás. En este caso, supongamos que la referencia es Maxar.
-2. Asegúrate de que todas los objetos espaciales existentes que también son visibles en Maxar están alineados con las imágenes de Maxar, es decir, realinéalos si es necesario.
-3. Añade nuevos objetos espaciales a partir de las imágenes Maxar, ahora correctamente alineadas.
+1. Indica claramente cuál es la imagen que debe considerarse como referencia y con la cual todo lo demás debe alinearse. En este caso, supongamos que la referencia es Bing.
+2. Asegurate de que todos los elementos existentes que también sean visibles en Bing estén alineados con esa imagen; es decir, realinéalos si es necesario.
+3. Agrega nuevos elementos con la imagen de Bing, ahora correctamente alineada.
 
 A menudo se indica a los mapeadores que busquen el _menor esfuerzo_ cuando se trata de problemas de alineación de imágenes. Esto significa que los colaboradores deben variar su enfoque en función de la situación en su tarea individual: 
 

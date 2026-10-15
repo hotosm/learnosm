@@ -6,7 +6,6 @@ title: هماهنگ‌سازی
 category: coordination
 cover: yes
 nosearch: true
-
 ---
 
 هماهنگ‌سازی

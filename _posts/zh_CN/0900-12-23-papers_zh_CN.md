@@ -9,7 +9,6 @@ category: mobile-mapping
 使用Field Papers进行测量
 =============================
 
-> 已审核 2016-08-10  
 
 在本章中，我们将看到如何在没有GPS的情况下记录地方的坐标。我们将使用一个叫做[Field Papers](http://fieldpapers.org/)的工具，它允许你打印一个区域的地图，在上面绘图并添加注记，然后将纸张发送回JOSM，便可以将你的位置添加到OpenStreetMap中。你也可以观看这个8分钟的 [教程Field Papers视频教程](http://www.youtube.com/watch?v=A_HGkBXZ69g&feature=youtu.be)，了解如何创建地图集并上传快照。  
 
@@ -171,7 +170,7 @@ Field Papers对于仅有纸张的地图绘制非常有用，但它们并不是10
 
 ![Snapshot][]
 
-点击"确定"。如果一切顺利的话，你应该会看到你的Field Paper加载到JOSM中。在下一章中，我们将看到如何将您绘制的地点添加到OpenStreetMap中。  
+Click OK. If all went well, you should see your Field Paper load into JOSM. In order to learn how to add the places that you mapped into OpenStreetMap please refer to [the JOSM editing process](/en/josm/more-about-josm) and [editing field data](/en/josm/editing-with-josm).  
 
 ![Fieldpaper scan as a JOSM background][]
 

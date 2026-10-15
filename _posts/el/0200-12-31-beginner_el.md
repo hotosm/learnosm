@@ -29,6 +29,8 @@ nosearch: true
 - ο  [οδηγός απομακρυσμένης χαρτογράφησης](/el/coordination/HOT-Remote-Response-Guide/) και οι γενικές πληροφορίες σχετικά με την [ανθρωπιστική χαρτογράφηση](/el/coordination/humanitarian/) παρέχουν κάποιο υπόβαθρο
 - το βασικό εργαλείο είναι ο [Διαχειριστής Εργασιών](/el/coordination/tm-user/), με τη ροή εργασίας του οποίου θα πρέπει να εξοικειωθείτε
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### Θέλετε να χρησιμοποιήσετε το OpenStreetMap σε κινητές συσκευές;
 
 Υπάρχει ένα ολόκληρο κεφάλαιο αφιερωμένο στην [κινητή χαρτογράφηση](/el/mobile-mapping/)

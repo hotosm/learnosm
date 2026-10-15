@@ -9,198 +9,116 @@ category: josm
 The JOSM Editing Process
 ========================
 
-> Cập nhật: 2017-11-06  
 
-Trong chương trước,
-bạn đã biết cách cài đặt JOSM và bắt đầu vẽ các điểm, đường và vùng của mình trên bản đồ.
-Bạn đã thêm các cài đặt có sẵn cho các đối tượng này để bổ sung thông tin về gối tượng.
-Cuối cùng, bạn đã có thể vẽ bản đồ của riêng bạn bằng JOSM.
+In the previous section you installed JOSM and began drawing your first points, lines, and shapes. You added presets to these objects in order to attach information about them. By the end, you were able to draw your own map in JOSM.
 
 Đây là một thí dụ tốt về cách thức chỉnh sửa bản đồ OpenStreetMap.
 
-Trong chương này, chúng ta sẽ xem xét kỹ hơn giao diện của JOSM,
-và xem xét cách sử dụng chúng để chỉnh sửa bản đổ OpenStreetMap.
+In this section we will take a closer look at the interface of JOSM, and see how we can use it to edit the map on OpenStreetMap.
 
 Các hoạt động chỉnh sửa bản đồ
 ---------------------
-Chỉnh sửa bản đồ OpenStreetMap bằng JOSM cũng giống như là chỉnh sửa bản đồ trên iD editor mà chúng ta đã biết.
-Nhưng vì JOSM là ứng dụng cho máy để bàn
-nên sẽ cách thức làm việc sẽ hơi khác một chút.
-Trình tự chỉnh sửa và bổ sung bản đồ OpenStreetMap bằng JOSM luôn theo các bước sau:
+Editing OpenStreetMap with JOSM is similar to editing with the iD editor we saw previously. But because JOSM is a desktop application, it works a little bit differently. The process of editing and adding to OpenStreetMap with JOSM will always be as follows:
 
-1. **Tải xuống** dữ liệu bản đồ hiện tại từ OSM
-2. **Chỉnh sửa** dữ liệu bản đồ dựa trên ảnh vệ tinh, thiết bị GPS, Bản đồ hiện trường và các ghi chép khác
-3. **Lưu lại** các thay đổi vào trong OpenStreetMap
+1.  **Download** the current map data from OSM
+2.  **Edit** it using Satellite Imagery, GPS, Field Papers, and notes as a guide
+3.  **Save** changes to OpenStreetMap
 
 Tải xuống dữ liệu OSM
 --------------------
-Bước đầu tiên của quá trình chỉnh sửa bản đồ là tải xuống dữ liệu của khu vực mà bạn muốn bổ sung dữ liệu bản đồ.
-Xin nhớ rằng chúng ta sẽ tải xuống bản đỗ mỗi khi chúng ta muốn chỉnh sửa
-vì bản đồ luôn được cập nhật bởi những người dùng khác nhau.
+The first editing step is to download the data for the area of the world that we want to improve. Remember that you need to do this every time that you want to make changes to the map, because the map is often being updated by other users.
 
--   Nhấp chuột vào “File” ở góc trên bên trái của JOSM và chọn “Download from OSM”.
-    Điều này sẽ mở ra cửa sổ tải xuống.
-    Bạn có thể mở cửa sổ này đơn giản bằng cách nhấp chuột vào nút Download,
-    như hình dưới:
+-   Click on “File” in the top left corner of JOSM and click “Download data...”. This will open up the download window. You can access this window more simply by clicking on the download button, shown here:
 
 ![JOSM Download Button][]
 
-- Khi cửa sổ tải xuống được mở ra, bạn sẽ nhìn thấy một bản đồ.
-    Nếu bạn không nhìn thấy bản đồ, nhấp chuột vào trang “Slippy map”.
+-   When the download window opens, you should see a map. If you don’t see the map, click on the tab marked “Slippy map”.
 
 ![JOSM Download Dialog][]
 
-- Sử dụng chuột để di chuyển và phóng to bản đồ
-    đến khu vực mà bạn biết rõ như khu phố của bạn.
-    Cách thức di chuyển bản đồ cũng giống như di chuyển bản đồ
-    trong giao diện bản đồ của JOSM.
-    Nút phải chuột để kéo bản đồ, nút cuộn để phóng to và thu nhỏ.
+-   Use your mouse to pan and zoom it to an area that you know very well, such as your hometown or neighborhood. The controls are the same as in the JOSM map window. The right mouse button lets you drag the map, and your scroll wheel allows you to zoom in and out.
 
-> Đôi khi, sẽ khó khăn khi bạn làm việc trên một máy tính xách tay
-> để cuộn lên và xuống. Làm việc với JOSM dễ dàng hơn nhiều khi có chuột,
-> nhưng hầu hết các máy tính xách tay loại mới đều cho phép bạn cuộn bằng bàn cảm ứng.
+> Sometimes if you are working on a notebook computer it can be difficult to scroll in and out. Working in JOSM is much easier if you have a mouse, but most modern notebooks allow you to scroll using the touchpad.
 
--   Vẽ một ô chữ nhật quanh khu vực mà bạn muốn tải dữ liệu xuống.
-    Để vẽ ô chữ nhật mới, nhấp giữ trái chuột lên bản đồ và kéo con trỏ để tạo ô chữ nhật mới.
-    Nhả nút chuột sau khi vẽ xong.
--   Khi bạn thấy ô chữ nhật vừa vẽ phù hợp với yêu cầu của mình,
-    nhấp chuột vào nút “Download” ở góc dưới của cửa sổ.
-    JOSM sẽ tải xuống dữ liệu cho khu vực này từ OpenStreetMap
-    và đưa lên khung bản đồ để sẵn sàng chỉnh sửa.
+-   Draw a box around the area that you want to download. To draw a new box, click on the map, hold your left mouse button down, and drag your mouse to create a box. Release the mouse button to finish drawing the box.
+-   When you are satisfied with the size and location of the box, click “Download” at the bottom of the window. JOSM will get the data for this area from OpenStreetMap and open it in your map window for editing.
 
 ### Thêm ảnh nền
-Nếu bạn đã theo dõi quá trình thêm điểm đầu tiên lên bản đồ bằng iD editor,
-bạn nhớ rằng bên dưới dữ liệu bản đồ là một ảnh vệ tinh
-để giúp chúng ta xác định đối tượng trên mặt đất.
-Ảnh này là ảnh Microsoft Bing cung cấp
-cho người dùng OpenStreetMap tham khảo trong khi chỉnh sửa bản đồ.
+If you followed along when we added our first points with the iD editor, you remember that beneath the map data there was a satellite image that helped us identify objects on the ground. This imagery was from Microsoft Bing, which generously provides its imagery for OpenStreetMap users to reference while contributing to the map.
 
--	Để thêm ảnh vệ tinh Bing vào JOSM,
-    nhấp chuột vào menu “Imagery” của JOSM và chọn “Bing Sat.”
+-   To add the Bing satellite imagery in JOSM, click "Imagery" on the top menu of JOSM and selecting “Bing Sat.”
 
-> Nếu bạn không thấy Bing Sat trong menu Imagery, bạn sẽ phải kích hoạt
-> mục này trong phần Tùy chỉnh JOSM. Đi đến Edit -> Preferences và nhấp vào biểu tượng
-có chữ "WMS TMS". Bạn có thể phải nhấp vào mũi tên chỉ xuống để tìm biểu tượng này.
-<br>
->	![JOSM Preferences up down][]
->	![JOSM Preferences WMS TMS][]
-<br>
+> If you don't see Bing Sat on the Imagery menu, you may need to activate it in the JOSM preferences. Go to Edit -> Preferences and click on the icon that says “WMS TMS”. You may need to click on the down arrow to find it.
+>
+> ![JOSM Preferences up down][]
+> ![JOSM Preferences WMS TMS][]
+>
 > Nhấp vào "Bing Sat". Sau đó nhấn "Active"
 
 
 ### Tổng quan về JOSM
-Hiện tại, sau khi tải xuống dữ liệu OpenStreetMap và thêm ảnh vệ tinh Bing,
-chúng ta sẽ xem xét thêm các thành phần khác trong giao diện của JOSM.
+Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery, let's take another look at the interface of JOSM.
 
 ![JOSM layout][]
 
-Phần khung bản đồ bạn đã được làm quen – 
-đây là khung bản đồ mà hầu hết các hoạt động của chúng ta diễn ra ở đây.
-Bạn sẽ hiển thị, chỉnh sửa, bổ sung dữ liệu OpenStreetMap.
+The main window you are already familiar with - this is the map window, and it is where most of the action takes place. Here you will view, edit, and add to the OpenStreetMap data.
 
-Ở phía bên phải của bản đồ là các khung thông tin đặc trưng.
-Thông thường, khi bạn cài đặt JOSM lần đầu tiên,
-một số khung thông tin được mặc định như Lớp/ Layers, Thuộc tính/ Properties và Chọn/ Selection.
-Khi bạn chọn một điểm, đường hoặc hình trong khung bản đồ,
-đối tượng này sẽ hiển thị trong khung Chọn.
-Thông tin về đối tượng được hiển thị trong khung Thuộc tính
-và tên người dùng đã tạo ra đối tượng đó sẽ được hiển thị trong khung Tác giả/ Authors.
+To the right of the map window are a series of panels, each of which has its own function. Typically when you first install JOSM several panels are shown by default, such as Layers, Properties, and Selection. When you select a point, line, or shape in the map window, it will be shown in the Selection panel. Information about the object will be shown in the Properties panel, and the username of the author of that object will be shown in the Authors panel.
 
-Các khung thông tin này có thể được mở hoặc đóng bằng cách nhấp vào các nút ở góc dưới bên trái của JOSM.
-Phía trên của những nút này ở phía bên góc trái là các công cụ cho phép các chức năng
-mà bạn có thể thực hiện bằng con chuột của mình.
-Bạn có thể đã làm quen với chúng, công cụ Chọn và công cụ Vẽ.
-Bên dưới chúng là các công cụ trợ giúp bạn dễ dàng hơn để phóng to, thu nhỏ bản đồ,
-xóa một đối tượng, vẽ một hình hay tạo đường song song với một đường khác.
+These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper left are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
 
 
 Chỉnh sửa bản đồ
 ----
-Như vậy, chúng ta đã hoàn tất công đoạn đầu tiên của quá trình chỉnh sửa bản đồ, đó là tải xuống dữ liệu.
-Chúng ta đã mở JOSM với ảnh vệ tinh làm nền.
-Bước tiếp theo sẽ là chỉnh sửa bản đồ và thêm các đối tượng mới.
+So we have completed step one of the editing process - Downloading. We have prepared JOSM with satellite imagery as a reference. The next step is to edit the map and add new items.
 
-Tùy thuộc vào khu vực mà bạn đã chọn tải xuống dữ liệu, có thể có nhiều hoặc rất ít dữ liệu có sẵn.
-Nhưng bạn có thể thấy dữ liệu đó cũng cùng một dạng với dữ liệu mà chúng ta mở trước đây –
-đó là các điểm, đường và vùng nhằm thể hiện các đối tượng trên thực tế.
+Depending on the area that you chose to download, there may be a lot or very little existing map data. But notice that it is the same sort of data that we have seen previously - points, lines, and shapes that represent real-life locations.
 
--   Sử dụng các kỹ thuật mà bạn đã học được để thêm một vài điểm vào những vị trí mà bạn đã biết.
-	Nếu có sai sót gì, hãy cố gắng sửa nó.
--   Bạn không cần thiết phải làm tất cả trong quá trình học này.
-	Nếu bạn không chắc chắn về bất kỳ thứ gì, bạn có thể bỏ lại.
--   Nếu bạn muốn di chuyển một điểm, đường hay hình, sử dụng **công cụ Chọn**.
-    Nhấp chuột vào một đối tượng và kéo chúng đến vị trí đúng.
-    Việc này sẽ chỉnh sửa vị trí của đối tượng
-    nếu đối tượng đó bị đặt sai vị trí.
+-   Use the techniques you have already learned to add a couple points to the map of places that you know. If you see any mistakes, try to fix them.
+-   You don't need to be too aggressive while you are learning. If you are unsure about something it's better to leave it as it is.
+-   If you want to move a point, line, or shape, use the **select tool**. Click on an object and drag it where it should be. This can be used to correct the location of items that have been put in the wrong place.
 
 ![JOSM select tool][]
 
--  Sử dụng công cụ Vẽ để vẽ những điểm, đường và hình mới.
-    Mô tả đặc tính đối tượng bằng cách chọn từ menu Presets,
-    như bạn đã làm trước đây. 
+-   Use the **draw tool** to draw new points, lines, and shapes. Describe these objects by selecting from the Presets menu, as you did in the previous section.
 
-> Không bao giờ chỉnh sửa bản đồ ngoài phần bạn đã tải xuống.  
-> Bạn có thể thấy vùng chữ nhật mà bạn đã tải xuống dữ liệu có nền đen,  
-trong khi phần chưa tải xuống dữ liệu có nền gạch chéo. 
-<br>  
+> Never edit the map outside of the area you have downloaded. You can see the rectangular area you have downloaded has a solid background, while the area you have not downloaded has diagonal pinstriped lines.
+>
 > ![JOSM area downloaded][]
 
 Lưu các thay đổi
 --------------
-Bước thứ  3 và cũng là cuối cùng của việc chỉnh sửa bản đồ là
-tải các chỉnh sửa bản đồ của bạn lên CSDL của OSM.
-Để thực hiện tải lên, chúng ra cần kết nối internet.
+The third and final step to complete our edits is to upload the changes we have made to the OpenStreetMap database. To save the changes, we must be connected to the internet.
 
--  Nhấp chuột vào menu “File”, chọn “Upload Data”.
-    Cửa sổ tải lên sẽ được mở ra
-    hoặc bạn có thể mở đơn giản hơn bằng cách nhấp vào nút tải lên như ở dưới:
+-   Click “File” on the top menu, and then click “Upload Data”. This will open up the upload window. You can access this window more simply by clicking on the upload button, shown here:
 
-![JOSM Upload Button][]
+    ![JOSM Upload Button][]
 
--  Cửa sổ vừa mở hiển thị danh sách các đối tượng mà bạn bổ sung, chỉnh sửa hoặc xóa.
-    Ô phía dưới yêu cầu bạn bổ sung thông tin
-    về những thay đổi mà bạn đã thực hiện.
-    Nhập vào đây các mô tả về việc chỉnh sửa của bạn.
+-   The window that appears shows a list of the objects that you are adding and the objects you are modifying or deleting. In the box at the bottom you are asked to provide a comment about the changes that you are making. Type in here a description of your edits.
 
-![JOSM Upload Dialog][]
+    ![JOSM Upload Dialog][]
 
--   Nhấp chuột vào “Upload Changes”.
+-   Click “Upload Changes”.
 
--   Nếu đây là lần đầu tiên bạn lưu các thay đổi lên OpenStreetMap,
-    bạn sẽ được yêu cầu nhập tên đăng nhập và mật khẩu đăng nhập vào OpenStreetMap.
--   Nhập chúng vào cửa sổ mới hiện ra.
-    Nếu bạn chọn đánh dấu vào ô lưu mật khẩu, bạn sẽ không phải nhập lại chúng một lần nữa sau này.
-    Nhấp chuột vào “Authenticate”.
+-   If this is your first time saving changes to OpenStreetMap, you will be asked for your OpenStreetMap username and password.
+-   Enter them in the window that appears. If you check the box in this window, your username and password will be saved and you won’t need to enter them again in the future. Click “Authenticate”.
 
-![JOSM Authenticate][]
+    ![JOSM Authenticate][]
 
--   Bạn sẽ phải chờ vài giây để các thay đổi của mình được tải lên,
-    và như vậy bạn đã thực hiện việc chỉnh sửa bản đồ trong OpenStreetMap.
+-   You will need to wait a few seconds for your changes to be uploaded, and then you are done! You have edited the map on OpenStreetMap.
 
-> Khi bạn thực hiện chỉnh sửa bản đồ, hãy luôn chắc chắn là bạn tải lên các thay đổi trước khi bạn đóng JOSM.  
-> Ngay cả khi bạn thấy còn phải chỉnh sửa thêm, bạn cũng nên tải lên các thay đổi của mình và  
-> tiếp tục quay lại chỉnh sửa khi bạn có thời gian.  
-> Bạn sẽ không muốn mất toàn bộ công sức chỉnh sửa của mình!
+> When you are editing, always be sure to upload your changes before you close JOSM. Even if you still have more editing to do, upload your changes, and then go through the process again later when you have time to edit. You don't want to lose your work!
 
 Xem các thay đổi của bạn trên bản đồ
 ---------------------------
--  Mở trình duyệt của bạn và đến trang  [http://openstreetmap.org/](http://openstreetmap.org/)
-- Di chuyển bản đồ đến khu vực mà bạn đã chỉnh sửa.
-- Bạn sẽ thấy các chỉnh sửa của mình trên bản đồ!
-    Nếu không, hãy bấm phím CTRL+R để tải lại trang web.
-    Đôi khi, bản đồ không thực sự được cập nhật đúng và cần phải được tải lại.
-- Điều gì xảy ra nếu bạn không nhìn thấy những thay đổi của mình?
-    Đừng lo – có thể cần đến vài phút để các thay đổi này được hiển thị trên bản đồ.
-    Mặc dù vậy, hãy kiểm tra các bổ sung của mình trong JOSM để đảm bảo bạn đã thêm chúng một cách đúng đắn.
-    Một quy tắc luôn đúng là nếu điểm của bạn là một biểu tượng trên JOSM
-    thì nó sẽ được nhìn thấy trên bản đồ của trang web OpenStreetMap.
+-   Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
+-   Move the map to the area that you edited.
+-   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the browser still shows the old version and needs to be reloaded.
+-   What if you don’t see your changes? Don’t worry - it may take a few minutes for the changes to be shown on the map. Also, check your additions in JOSM to make sure that you added them correctly. A good general rule is, if your point has an icon in JOSM, then it should be seen on the main map at the OpenStreetMap website.
 
 Tóm lược
 -------
-Như vậy, bạn đã được thấy làm thế nào để thêm vào bản đồ OpenStreetMap,
-tiếp theo sẽ như thế nào?
-Thực tế là chỉnh sửa bản đồ thì rất tốt nhưng đó không phải là yếu tố duy nhất khi làm bản đồ.
-Dĩ nhiên, bạn cần phải biết cách ra ngoài thực địa để thu thập các thông tin về các địa điểm ngoài hiện trường.
+Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing is great, but it's not the only aspect of making maps. Of course you also need to learn how to go outside and collect information about places on the ground.
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png

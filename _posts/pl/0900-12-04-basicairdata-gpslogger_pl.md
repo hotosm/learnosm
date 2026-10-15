@@ -6,9 +6,10 @@ lang: pl
 category: mobile-mapping
 ---
 
-
 BasicAirData GPS Logger
 =======================
+
+> Reviewed 2021-06-12
 
 ![BasicAirData-GPSLogger-002][]
 
@@ -46,10 +47,10 @@ Zwykłe użycie
 Jeżeli lokalizacja GPS nie jest aktywna w Twoim telefonie, włącz ją. Następnie wyjdź na otwartą przestrzeń i włącz GPS Logger.
 
 1. Poczekaj, aż aplikacja znajdzie pozycję. Kiedy to nastąpi zakładka __GPS FIX__ zacznie pokazywać współrzędne Twojej pozycji. W tym momencie (jeżeli to możliwe) powinieneś poczekać kolejną minutę przed przejściem do następnej fazy w celu ustabilizowania sygnału.
-2. Kliknij na __Punkty śladu__ u dołu panelu, aby zacząć rejestrować punkty śladu. Przycisk zrobi się czerwony. Możesz włączać i wyłączać rejestrowanie w każdej chwili klikając na nim. Przycisk pokazuje liczbę zarejestrowanych punktów.
+2. Click the __Record__ button of the bottom panel to start recording track points. The button will become red. switch recording process on and off at any time by clicking on that button. At the top of the button the app shows the number of the trackpoints recorded.
 Możesz przejść do zakładki __ŚLAD__, aby zobaczyć statystyki swojej podróży w czasie rzeczywistym.
-3. Kiedy zakończysz podróż, kliknij dwukrotnie na małym __znaczku V__ położonym w okolicy prawego górnego rogu, aby zamknąć (zakończyć) aktywny ślad.
-4. Przejdź do zakładki __LISTA ŚLADÓW__, gdzie znajdziesz ostatnio zapisany ślad. Dotknij go. Pojawi się menu. Możesz wybrać udostępnianie śladu na wiele różnych sposobów, zobaczyć go w zainstalowanej zewnętrznej przeglądarce, wyeksportować go do folderu /GPSLogger na swoim smartfonie lub usunąć go z listy. Formaty używane do eksportu można skonfigurować na ekranie ustawień.
+3. When your trip is finished, click the __Stop__ button to finalize (finish) the active track. A dialog will appear, click __OK__ to confirm.
+4. Go to the __TRACKLIST__ tab, where you will find the track you have just recorded. Tap on the track. A menu will appear. You can choose to share the track in many ways, view it using an installed external viewer, edit the track details, export it into /GPSLogger folder of your smartphone, or delete it from the tracklist. The formats used for export can be configured on the settings screen.
 
 Importowanie śladów GPX w edytorze OpenStreetMap
 --------------------------------------------

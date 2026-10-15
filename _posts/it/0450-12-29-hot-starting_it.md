@@ -35,7 +35,7 @@ L'essenziale
 Vedi anche  
 ---------
 
-La [guida al Tasking Manager su LearnOSM](/it/coordination/tm-user/)  
+La [guida al Tasking Manager 3 su LearnOSM](/it/coordination/tasking-manager3/)  
 
 [![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
 *Sottotitoli disponibili in diverse lingue*  

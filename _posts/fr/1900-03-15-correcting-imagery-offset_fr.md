@@ -73,7 +73,7 @@ Imaginez que vous êtes en train de cartographier une petite ville, et que vous 
 
 C'est pourquoi il est important que tous les utilisateurs soient conscients du décalage des images et qu'ils le vérifient toujours avant de cartographier une zone. Pour résoudre ce problème, des personnes intelligentes ont créé un plugin qui permet aux utilisateurs de sauvegarder les informations de décalage dans une base de données et de les partager avec d'autres. Voyons comment cela fonctionne :  
 
-- Ouvrez le menu Préférences dans JOSM, et cliquez sur l'onglet Plugins ![onglet Plugins de JOSM][]{ : height="24px"}  
+- Ouvrez le menu Préférences dans JOSM, et cliquez sur l'onglet Plugins ![JOSM plugins tab][]{ : height="24px"}  
 
 - Trouvez le plugin nommé "imagery_offset_db" et cochez la case à côté.  
 

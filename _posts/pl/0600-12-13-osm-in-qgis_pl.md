@@ -9,89 +9,93 @@ category: osm-data
 Używanie danych OSM w QGIS
 =================
 
-> Przejrzano 2015-07-19
 
 QGIS (dawniej Quantum GIS) jest w pełni funkcjonalnym, otwartoźródłowym, międzyplatformowym Systemem Informacji Geograficznych (ang. Geographic Information System). W QGIS możesz uzyskać dostęp do aktualnych danych OSM kiedy tylko chcesz, wybierz tagi, które potrzebujesz i po prostu wyeksportuj je do łatwej w użyciu bazy danych SQLite lub pliku shape.  
 
-W tym rozdziale przejdziemy przez kroki potrzebne do zrobienia tego. Zakładamy, że pobrałeś i zainstalowałeś już QGIS 2.x. Jeżeli jeszcze tego nie zrobiłeś, możesz pobrać go z <http://www.qgis.org/pl/site/forusers/download.html>.  
+In this chapter we'll walk through the steps necessary to do this. We assume that you've already downloaded and installed QGIS 3.x. If you haven't already done this, you can download it from <http://www.qgis.org/en/site/forusers/download.html>.  
 
-Aby mieć nasze dostosowane, aktualne warstwy OSM załadowane do QGIS, najpierw pobierzemy najnowsze dane OSM w surowym formacie **.osm**. Następnie przekonwertujemy te dane do bazy danych SQLite, który jest lekkim systemem bazodanowym przechowywanym w jednym pliku w Twoim systemie. Na koniec utworzymy warstwę (lub warstwy), które będą zawierać tylko te obiekty i tagi, do których chcemy mieć dostęp. Te warstwy będą mogły być używane w QGIS tak, jak są lub zapisane w innym formacie, jak np. plik shape.  
+We will use a plugin, QuickOSM, to import data from the OpenStreetMap database. To install this plugin open the Manage Plugins dialogue from the Plugins menu. Search for QuickOSM and install it. This will add an entry to the Vector menu  
 
-Uzyskiwanie dostępu do danych OpenStreetMap
+Obtaining Data from the Database
 ---------------------------
 
-Pierwszą rzeczą, którą zrobimy jest pobranie aktualnych danych OSM. Możemy to zrobić na kilka sposobów. Oczywiście pobieranie danych z serwera OSM tak, jak to robimy w edytorze JOSM, jest ograniczone, więc nie możemy uzyskać bardzo dużej ilości danych za jednym razem - jednakże są sposoby na dostęp do dużych zestawów danych, jak
-opisane w poprzednim rozdziale [Pozyskiwanie danych OSM](/pl/osm-data/getting-data) i [Korzystanie z Geofabrik i HOT Export](/pl/osm-data/geofabrik-and-hot-export).  
+The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. The QuickOSM plugin allows us to extract large amounts of data as it uses the Overpass api and not the main OSM database server.
 
-W tym samouczku użyjemy funkcji pobierania wbudowanej w QGIS.  
+- Open QGIS and go to Vector -> QuickOSM -> QuickOSM...  
 
-- Otwórz QGIS i przejdź do Wektor -> OpenStreetMap -> Pobierz dane...  
-- Możesz tutaj wybrać z kilku dostępnych opcji - jeżeli Twoje okno wyświetla się w odpowiednim rozmiarze, zaznacz pole przy "Z mapy." Jeżeli masz wczytaną warstwę w QGIS w prawidłowym rozmiarze wybierz "Z warstwy" i wybierz, której warstwy chcesz użyć. Tutaj wybierzemy "Ręcznie" i podamy szerokości i długości **ramki granicznej** dookoła obszaru	, który chcemy pobrać. Możesz wpisać interesujące Cię szerokości i długości, ale pamiętaj, że obszar nie może być zbyt duży, bo nie będziesz mógł pobrać danych.  
+![quickosm][]
 
-![bounding box][]
+- You can choose from several options here  - if your window already displays the extent you want, switch the combobox which by default shows "In" to "Canvas extent". If you have a layer loaded in QGIS with the correct extent, choose "Layer extent" and select the layer you want to use. Using the default "In" requires that a relation or polygon exists with this name. Otherwise choose "Around" and a node with this name suffices. You can select a perimeter (default 1000m) around this node where data will be loaded from the database.
 
-- Wybierz nazwę i lokalizację pliku wyjściowego, używając rozszerzenia pliku **.osm** i kliknij OK.  
-- Otrzymasz powiadomienie o ukończonym pobieraniu. Kliknij "Zamknij", aby wyjść z okna pobierania.  
+- Click on "Run Query".  
+- You will be notified when the download is complete. The data are stored in three temporary layers, one for nodes, ways and polygons respectively.
 
-![download complete][]
-
-- Dane OSM zostaną zapisane w określonej przez Ciebie lokalizacji.  
-
-> Ta metoda dostępu do danych OSM jest taka sama, jak pobieranie ich w JOSM lub na [openstreetmap.org](http://www.openstreetmap.org). Dla dużych aktualnych wyciągów, możesz spróbować pobierać ze [strony HOT export](http://export.hotosm.org) lub [bbbike.org](http://extract.bbbike.org/). Pamiętaj, że jeśli pobierasz skompresowany plik OSM, musisz najpierw rozpakować go do formatu **.osm**, aby kontynuować.  
+![quickosm loaded][]
 
 
-Importowanie danych do SQLite
+Importing extracts
 ---------------------------
 
-Teraz musimy zaimportować nasz surowy plik **.osm** do pliku bazy danych SQLite.  
+There are several options how to obtain ready-made extracts of an area. <https://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts> contains a list of several websites. Just pick a **.osm** or **.pbf** file and download it. 
 
-- Przejdź do Wektor -> OpenStreetMap -> Importuj topologię z XML...  
-- W pierwszym polu wybierz swój plik **.osm**.  
-- Jeśli chcesz, możesz zmienić nazwę wyjściowego pliku bazy danych.  
-- Pozostaw zaznaczone pole przy "Utwórz połączenie..."  
+You can either use QuickOSM to import it clicking on 'OSM File' in the left bar. Once you used QuickOSM OSM files should have been made known to QGIS and you can use the regular vector layer import:
 
-![import dialog][]  
+- Go to Layer -> Add Layer -> Add Vector Layer...  
+- In the source field, select your file and click "Add".  
+- You can select one or more type layers from that file.  
 
-- Kliknij OK.  
-- Kiedy wszystko zostanie ukończone kilknij "Zamknij".  
+![import osm][]  
+
+- After clicking "OK" you can close the dialogue and your QGIS window shows the new layers.  
+  
+
+![import osm loaded][]  
 
 
-Tworzenie warstw
+Exporting data
 --------------
 
-Na koniec, zdefiniujemy warstwy, które będą mogły być użyte w QGIS, dostosowane do naszych potrzeb.  
+To export a layer activate its context menu and select Export -> Save Features as...
+You can select from a wide range of formats including Shapefile, GeoJSON, PostgreSQL dump, SQLite. The other options on the dialogue vary depending on the format you selected.
 
-- Przejdź do Wektor -> OpenStreetMap -> Eksportuj topologię do SpatiaLite...  
-- W pierwszym polu wybierz bazę danych utworzoną w poprzednim kroku.  
+![export][]  
 
-![input db file][]  
+You can choose to re-import the exported layer by checking the box at the bottom (activated by default).
 
-- Pod "Rodzaj eksportu" wybierz rodzaj obiektów, dla których chcesz utworzyć warstwę. Tutaj utworzymy warstwę używając wielokątów.  
+Working with the Data
+--------------------
 
-![export type][]  
+We cannot give you even a rough overview over what you can do with QGIS and there are many excellent tutorials and books which will guide you step-by-step towards mastering the software. But as OSM data imported by one of the methods described above have their tags encoded in a special way here is an example how to deal with them (for the curious, the example is pitcairn-islands-latest from Geofabrik's download page for Australia and Oceania). You can inspect the data of a vector layer using 'Open Attribute table' from the context menu of a layer, in this case the multipolygon layer.
 
-Jeśli chcesz, edytuj nazwę warstwy.  
+![attribute table][]
 
-Pod "Wyeksportowane tagi" zaczyna się magia. Tutaj możemy wybrać, które tagi będą uwzględnione na naszej warstwie wyjściowej. To daje nam elastyczność, których danych konkretnie chcemy użyć.  
+We can see that all the key-value-pairs for the tags of the various objects are organized in a specially formatted text string in the field 'other_tags'. This kind of storage is called "hstore" in a PostgreSQL database and is the standard for OSM data.
 
-- Kliknij "Wczytaj z BD", aby zobaczyć listę wszystkich dostępnych w bazie danych tagów. Powiększ okno przeciągając narożniki, jeśli to pomoże. Zobaczysz wszystkie tagi zawarte w tych danych, a liczbę obiektów z każdego tagu.  
-- Zaznacz pola przy tagach, które chcesz uwzględnić. Tutaj wybierzemy kilka obiektów, które będą przydatne dla wielokątów reprezentujących budynki.  
+In this example polygons are mostly islands, forest and buildings. Initially they are rendered in the same way which means that islands cover everything else. Let us render them differently in order to get a feeling how to identify different objects. Discard the attribute table.  From the context menu of the multipolygon layer select Properties and on that form move to the Symbology tab. 
 
-![export full][]  
+![symbology][]
 
-Kiedy skończysz kliknij OK. Zamknij okno. Twoja warstwa powinna zostać automatycznie dodana.  
+First change the type of the symbol from "Single symbol" to "Rule based" using the combobox at the top of the form. 
 
-![cairo polygons][]  
+![symbology rule based][]
 
-Kliknij prawym przyciskiem myszy na "Otwórz tabelę właściwości".  
+The current rendering appears as a rule with no filters. We can modify this rule by clicking on the icon marked with a purple square in the image above.
 
-![open attribute table][]  
+![symbology edit rule][]
 
-Możesz zobaczyć tutaj, że mamy tabelę, która zawiera tylko wybrane przez nas właściwości.  
+We'd like to treat buildings differently. Treat differently means that rules need to be specified according to layer properties. QGIS' expression evaluation cannot directly deal with hstore strings. But a utility comes to our rescue and the filter expression shown in the image `hstore_to_map(other_tags)['building'] is not NULL` converts the 'other_tags' string into a key-value-map where we pick the value for the key 'building'. The condition reads that we look for objects whose building key is not empty. We can define a colour and fill style for the buildings. Click 'OK' when you are finished with your rule design. Now you can add further rules by clicking on the 'plus' icon at the bottom of the symbology tab. We add similar rules for woods and grassland. At the end our symbology tab will look like this:
 
-![attribute table][]  
+![symbology polygon rules][]
 
-Zauważ, że nie utworzyliśmy warstwy z **samymi** budynkami. Zamiast tego stworzyliśmy warstwę zawierającą wszystkie wielokąty z naszych oryginalnych danych, ale mają one tylko wybrane przez nas tagi. Aby pokazać na tej warstwie tylko budynki, musielibyśmy wykonać zapytanie, które odfiltrowałoby jedynie wielokąty z building=yes.
+As an added bonus we can get a quick feature count for the rules. Press the rightmost icon in the row at the bottom (the sum symbol) and the 'count' column will be populated telling us that we have 150 buildings on this layer.
+
+You can add labels in a similar fashion how we dealt with symbols. 'Labels' is another tab on the properties of a layer, right below Symbology. In most cases you want to print the given name of a feature. You enter an expression similar to the ones used for symbology in the field for a filter and as value you would use `hstore_to_map(other_tags)['name']`. 
+
+![labels][]
+
+Assigning such labels to the multipolygon and the point layers you will end up with something like this:
+
+![done][]
 
 
 Podsumowanie
@@ -100,12 +104,15 @@ Podsumowanie
 Ten proces upraszcza pozyskanie aktualnych danych OSM i wciągnięcie ich do QGIS. Gdy już masz warstwy takie, jak ta w QGIS, można je zapisać jako pliki shape, wykonać filtry, zapytania i tak dalej. Więcej szczegółów dotyczących tych funkcji poznasz w menu Pomoc w QGIS.  
 
 
-[bounding box]: /images/osm-data/bounding_box.png
-[download complete]: /images/osm-data/download_complete.png
-[import dialog]: /images/osm-data/import_dialog.png
-[input db file]: /images/osm-data/input_db_file.png
-[export type]: /images/osm-data/export_type.png
-[export full]: /images/osm-data/export_full.png
-[cairo polygons]: /images/osm-data/cairo_polygons.png
-[open attribute table]: /images/osm-data/open_attribute_table.png
-[attribute table]: /images/osm-data/attribute_table.png
+[quickosm]: /images/osm-data/qgis-quickosm.png
+[quickosm loaded]: /images/osm-data/qgis-quickosm-loaded.png
+[import osm]: /images/osm-data/qgis-import-osm.png
+[import osm loaded]: /images/osm-data/qgis-import-osm-loaded.png
+[export]: /images/osm-data/qgis-export.png
+[attribute table]: /images/osm-data/qgis-layer-attributes.png
+[symbology]: /images/osm-data/qgis-layer-symbology.png
+[symbology rule based]: /images/osm-data/qgis-layer-symbology-rule.png
+[symbology edit rule]: /images/osm-data/qgis-layer-symbology-edit-rule.png
+[symbology polygon rules]: /images/osm-data/qgis-layer-symbology-poly-rules.png
+[labels]: /images/osm-data/qgis-layer-labels.png
+[done]: /images/osm-data/qgis-complete.png

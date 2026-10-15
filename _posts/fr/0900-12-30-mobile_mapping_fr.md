@@ -11,6 +11,8 @@ nosearch: true
 Cartographier à l'aide d'un smartphone, un GPS ou du papier
 =============================
 
+ce guide peut être téléchargé [mobile-mapping_fr.odt](/files/mobile-mapping_fr.odt) ou [mobile-mapping_fr.pdf](/files/mobile-mapping_fr.pdf)  
+
 Pour créer une carte détaillée et précise, vous aurez besoin de réaliser des enquêtes de terrain sur la zone que vous mettez à jour. Les guides de cette section abordent la réalisation d'enquêtes en utilisant soit :  
 
 -un GPS dédié, qui sera probablement plus précis que celui de votre téléphone  

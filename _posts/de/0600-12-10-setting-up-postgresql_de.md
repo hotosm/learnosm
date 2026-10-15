@@ -9,7 +9,6 @@ category: osm-data
 PostgreSQL & PostGIS
 ====================
 
-> Gereviewt am 2016-09-10
 
 In diesem Kapitel werden wir sehen wie man PostgreSQL unter Windows aufsetzt und eine Datenbank erstellt in der man geografische Daten speichern kann. Wir verwenden Open Source GIS Software QGIS in diesem Kapitel, es ist als hilfreich, wenn man bereits damit umgehen kann. Im folgenden Kapitel werden wir uns anschauen, wie man OpenStreetMap Daten in eine PostgreSQL Datenbank importiert.  
 
@@ -24,14 +23,14 @@ Her findet man Installationsanleitungen für verschiedene Betriebssysteme. Man k
 Die Seite erklärt, was das One-Click Installationsprogramm macht. Es installiert drei unterschiedliche Komponenten:  
 
 * **PostgreSQL Server**: Die Datenbank Software, die Kernkomponente  
-* **pgAdmin III**:  Das grafische Interface zur Datenbankverwaltung  
+* **pgAdmin 4**:  Das grafische Interface zur Datenbankverwaltung  
 * **StackBuilder**: Ein Werkzeug zum Hinzufügen weiterer Anwendungen; wir verwenden es um die PostGIS Erweiterungen hinzuzufügen  
 
 Man klickt auf **Download**.  
 
 ![postgresql download][]
 
-Man sieht unterschiedliche Installationsoptionen für unterschiedliche Versionen der PostgreSQL Software. Man lädt die aktuellste Version herunter. Aktuell ist es die Version 9.3.1. Man klickt auf den Button **Win x86-32**. Das ist das Installationsprogramm der 32-Bit Version für Windows.  
+Man sieht unterschiedliche Installationsoptionen für unterschiedliche Versionen der PostgreSQL Software. Man lädt die aktuellste Version herunter.
 
 ![postgresql version][]
 
@@ -72,14 +71,14 @@ Wenn die Installation komplett ist, klickt man "**Schließen" und dann "**Beende
 Eine Datenbank erstellen
 --------------------
 
-Da wir nun alle notwendige Software installiert haben, können wir eine Datenbank erstellen. Wir verwenden pgAdmin III, ein grafischer Datenbank Klient zur Abfrage und Änderung von
+Da wir nun alle notwendige Software installiert haben, können wir eine Datenbank erstellen. Wir verwenden pgAdmin 4, ein grafischer Datenbank Klient zur Abfrage und Änderung von
 Datenbanken.  
 
 ![pgadmin3][]
 
-PgAdmin III ist der offizielle Klient für PostgreSQL und erlaubt die Verwendung der SQL Sprache um Datentabellen zu bearbeiten. Man kann auch Datenbanken von der Kommandozeile aus erstellen und bearbeiten, aber im Moment ist pgAdmin III ein leichter Einstieg.  
+PgAdmin 4 ist der offizielle Klient für PostgreSQL und erlaubt die Verwendung der SQL Sprache um Datentabellen zu bearbeiten. Man kann auch Datenbanken von der Kommandozeile aus erstellen und bearbeiten, aber im Moment ist pgAdmin 4 ein leichter Einstieg.  
 
-Man öffnet pgAdmin III. Man findet es im Startmenü unter Alle Programme -> PostgreSQL 9.3 -> pgAdmin III.  
+Man öffnet pgAdmin 4. Man findet es im Startmenü unter Alle Programme -> PostgreSQL 9.3 -> pgAdmin 4.  
 
 ![pgadmin3 start][]
 
@@ -101,7 +100,7 @@ Man muss ein paar Informationen eingeben, um eine neue Datenbank zu erstellen: N
 
 <!-- Man behält die Standardeinstellungen im Definition Tab bei, aber neben Template wählt man template_postgis. Das erstellt unsere Datenbank mit den korrekten spatial Spalten. -->
 
-Man klickt **OK* zum Erstellen der Datenbank. Man findet nun die Datenbank unter "**Datenbanken**" gelistet. Man muss nun ein Kommando ausführen, um die Datenbank mit den PostGIS Erweiterungen zu aktivieren. Man klickt auf ![sql button][]{: height="24px"} oben im Fenster von PgAdmin III.  
+Man klickt **OK* zum Erstellen der Datenbank. Man findet nun die Datenbank unter "**Datenbanken**" gelistet. Man muss nun ein Kommando ausführen, um die Datenbank mit den PostGIS Erweiterungen zu aktivieren. Man klickt auf ![sql button][]{: height="24px"} oben im Fenster von PgAdmin 4.  
 
 
 
@@ -118,7 +117,7 @@ Man lädt die Beispieldaten (optional)
 
 Bleiben Sie dran, selbst wenn man soweit folgen konnte und mit QGIS umgehen kann, solange wir einige Daten in unsere neue Datenbank laden. Wir werden ein Werkzeug verwenden, welches Shapefiles konvertiert und in die Datenbank lädt.  
 
-Man stellt sicher, dass die neue Datenbank ausgewählt ist in der linken Leiste und geht zu  **Plugins -> PostGIS Shapefile and DBF loader 2.1**.
+Man stellt sicher, dass die neue Datenbank ausgewählt ist in der linken Leiste und geht zu  **Plugins -> PostGIS Shapefile and DBF loader 2.x**.
 
 ![shapefile loader][]
 

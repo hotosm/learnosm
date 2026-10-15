@@ -1,76 +1,39 @@
 ---
 layout: doc
-title: Вступление
+title: Введение
 permalink: /ru/beginner/introduction/
 lang: ru
 category: beginner
 ---
 
-Вступление
-==========
+Введение
+============
 
+> Проверено 2015-07-12  
 
+Знание -- сила. Благодаря качественным данным и глубокому пониманию, отдельные люди и сообщества способны в большей степени улучшать свою жизнь и принимать решения от которых зависит будущее. Существует множество людей и организаций, чьи решения влияют на нашу жизнь. Качественные данные позволяют этим  НПО (неправительственные организации), правительствам и гражданам принимать более оптимальные решения, ведущие, хочется верить, к улучшению нашей жизни. Карты -- отличный способ донести информацию. 
 
-Информация – великая сила. С достоверной информацией и правильным пониманием,
-отдельные люди и сообщества имеют возможность улучшить собственную жизнь, а
-также сделать правильный выбор в будущем. Существует множество людей и
-организаций, которые принимают решения, влияющие на нашу жизнь. Правильная
-информация позволяет неправительственным организациям, правительству и
-гражданам принимать взвешенные решения и, мы надеемся, делать нашу жизнь лучше.
-Карты являются отличным способом распространения информации.
+![Деревня в Индонезии][]
 
-![A village in Indonesia][]
+Maps are visual symbols of our world. They can often demonstrate an idea better than words. This in turn can help us answer important questions. *Where is the closest school or hospital? Who has the least access to these facilities? Where is poverty the most problematic?* Questions like these can often best be expressed with maps, and maps can help find solutions to these questions. 
 
-Карты – наглядное представление нашего мира. Они часто демонстрируют идеи
-лучше, чем слова. Что в свою очередь, также может помочь ответить на важные
-вопросы. Где находится ближайшая школа или больница? У кого затруднен доступ к
-ним? Где уровень бедности является наиболее высоким? Проблемы похожие на эти
-можно продемонстрировать на карте, а карта может помочь найти ответы на них.
-
-В качестве упражнения, возмите бумагу и карандаш, нарисуйте карту вашого города
-или деревни. Какие наиболее важные детали необходимо показать на карте? Какая
-информация является важной? Потратьте некоторое время создавая свою карту и,
-после того как вы закончите, подумайте, почему информация, которую вы добавили
-на карту является важной и для кого она будет нужна.
+As an exercise, get a pen and paper and draw a map of your town or village. What are the most important things to include on the map? What is the most important information? Spend a few minutes making your map, and when you’re finished, think about why the information you included is important, and who it might be important to.
 
 ![Example of a hand-drawn map][]
 
-Если ваш город такой же как и большинство других, вам прийдется начертить
-несколько линий, обозначающих дороги, возможно речку или ручей. Возможно, вы
-нанесете важные здания, такие как школы и организации, а также поля и границы.
-Что бы вы не начертили, вы, вероятно, воспользуетесь обозначениями – линией для
-обозначения дорог, прямоугольниками для домов и так далее. Ваша карта является
-отображением того, что есть на поверхности земли.
+If your town is like most, you may have drawn some lines to represent roads, possibly a river or stream. Perhaps you added important buildings such as schools and offices, fields, or boundaries. Whatever you drew, you probably used symbols – a line to symbolize a road, a square to symbolize a building, and so on. Your map is a representation of what is on the ground.
 
 ![Examples of symbols][]
 
-Ваша карта является информативной. Вы можете использовать её для того, чтобы
-объяснить кому-нибудь где находятся различные места, проблемные участки в вашем
-районе, или просто помочь кому-то найти дорогу. Но возможность использования
-вашей карты ограничена. Ваша карта существует только в одном экземпляре и, то
-как вы её начертили, имеет смысл только для вас, но, возможно, вы не один, кто
-нарисовал свою собственную карту, но по-другому. Потому что ваша карта
-нарисована на бумаге, довольно проблематично получить к ней доступ другим
-людям. Вот почему создание карты на компьютере, так чтобы доступ к ней имел
-каждый, является более полезным.
+Your map is informative. You might use a map like this to explain to someone where different places are, where problems are in your community, or merely to help someone find their way around. The use of your map is limited though - there is only one copy of the map.The way you drew it may make sense to you, but perhaps not to someone else who would have drawn their own map in a different way. Because your map is merely on paper, it is difficult to get that information to others.  This is why making your map on a computer, in such a way that anyone can access it, can be much more valuable. 
 
 ![Mapping on Computer][]
 
-OpenStreetMap – это инструмент для создания и распространения картографической
-информации. Кто угодно может внести свой вклад в OSM и тысячи людей добавляют
-информацию в проект каждый день. Участники проекта чертят карты на компьютере,
-не на бумаге, и, как это будет видно в этом руководстве далее, создание карты
-на компьютере не сильно отличается от создания карты на бумаге. Мы также чертим
-линии для того, чтобы обозначить дороги, поля и все остальное, мы также
-обозначаем школы и блольницы знаками. Важно то, что карта OSM хранится в
-Интернете и каждый может получить к ней доступ в любое время, абсолютно
-бесплатно.
+OpenStreetMap is a tool for creating and sharing map information.  Anyone can contribute to OSM, and thousands of people add to the project every day. Users draw maps on computers, rather than paper, but as we will see in this guide, drawing a map on a computer is not all that different from drawing on paper. We still draw lines to represent roads, fields, and anything else, and we still represent schools and hospitals with symbols. The important thing is that OSM maps are saved on the internet, and anyone can access them at any time, totally free.
 
 ![Digital maps with OpenStreetMap][]
 
-Мы надеемся, что OpenStreetMap станет полезным и пригодится вам в вашей работе.
-Придерживаясь этого руководства, вы сможете быстро начать создавать электронную
-карту и добавлять данные в OSM.
+We hope that you will find OpenStreetMap useful and interesting in your work. By following this guide, you should be able to quickly start making digital maps with OpenStreetMap.
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png

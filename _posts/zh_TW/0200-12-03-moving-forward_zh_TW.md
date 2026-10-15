@@ -9,7 +9,7 @@ category: beginner
 閱讀更多
 ===============
 
-> 審閲於 2015-07-12  
+> 審閲於 2020-05-08  
 
 如果你讀到這一邊，恭喜你了！你應該很明白怎麼畫開放街圖了。還有什麼能在開放街圖上做的事情嗎？你要怎麼學習更多事情？你要怎麼維繫與其他社群成員的關係呢？  
 
@@ -55,18 +55,16 @@ learnOSM 的其他章節
 - 現在你已經是郵件論壇的成員了。  
 - 如果你要寄信到論壇裡，你可以寄到 [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org)，將 "id" 換成你的國家代碼。你也會開始收到其他成員寄到論壇的訊息。  
 
-<!-- maybe expand and put this back later
-MapOSMatic
+
+OSM 使用範例 - MyOSMatic
 ----------
 
-One such project is called MapOSMatic, which you can access through your
-internet browser at [maposmatic.org](http://www.maposmatic.org/). This
-is a simple tool for printing a map of any area you choose. It will
-automatically create the map, along with a grid over the map, and an
-index of locations that are included in the area.
+有一個專案是 MyOSMatic，你能夠在瀏覽器到 [print.get-map.org](https://print.get-map.org/) 直接使用。這個簡單工具能夠列印你所選的城市，能夠自動創建地圖，並且還有附加格線的地圖，以及範圍內的地點索引。
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+更多如何使用開放街圖資料的範例能到這邊 [OSM-Data section of LearnOSM](/zh_TW/osm-data/) 取得
 
 
 總結
@@ -75,6 +73,6 @@ index of locations that are included in the area.
 你可以很多種方式使用和連結開放街圖社群，以及學習更多。我們希望你能繼續探索和深入探討關於開放街圖的種種，而且繼續貢獻心力。 祝畫圖愉快！
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

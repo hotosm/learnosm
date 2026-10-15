@@ -31,7 +31,7 @@ Um dieses Glossar einfach zu durchsuchen, nutzen Sie die Suchfunktion in Ihrem B
 
 **DHN: Digital Humanitarian Network**; Organisation, die digitale Netzwerke für humanitäre Zwecke nutzt.
 
-**Ausschnitt** : [OSM Daten Überblick](/de/osm-data/data-overview/) A großer OSM Datensatz für ein bestimmtes Gebiet (wie ein Bundesland, einen Staat oder ein geographisches Gebiet)
+**Ausschnitt** : [OSM Daten Überblick](/de/osm-data/data-overview/) Ein großer OSM-Datensatz für ein bestimmtes Gebiet (wie ein Bundesland, einen Staat oder ein geografisches Gebiet)
 
 **[Field Papers](/de/mobile-mapping/field-papers/)**: Ist eine webbasiertes Anwendung um einfach druckbare Karten für jeden beliebigen Ort der Welt herzustellen, auf denen anschließend Notizen gemacht werden können. Siehe  [http://fieldpapers.org/](http://fieldpapers.org/)  für weitere Informationen. 
 

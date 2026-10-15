@@ -9,12 +9,13 @@ category: hot-tips
 Sao chép, Dán và Quay đối tượng - iD editor
 ============
 
+> Updated 2019-06-24
+
 ![copy-paste][]
 
-> Ảnh này![keymon]{: height="24px"} chỉ cho bạn thấy các nút vào thao tác chuột cũng như trên bàn phím.  
 
 Bạn có thể dễ dàng sao chép, dán và xoay chiều đối tượng, nhưng hãy chắc chắn chúng đúng kích thước.  
-Lựa chọn bằng chuột của bạn và nhấn **Ctrl+c** để sao chép, and **Ctrl+v** để dán  
+Select with your mouse, then **Ctrl+c** to copy, and **Ctrl+v** to paste. If you need to you can 'reflect' an object along either its long or its short axis.   
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png

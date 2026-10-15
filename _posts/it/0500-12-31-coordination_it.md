@@ -6,7 +6,6 @@ title: Coordinamento
 category: coordination
 cover: yes
 nosearch: true
-
 ---
 
 Coordinamento

@@ -58,7 +58,7 @@ HOT的大部分响应活动都是远程进行的。灾害发生后，HOT成员�
 
 [LearnOSM的远程测绘指南](http://learnosm.org/zh_CN/coordination/remote/)- 最全面的指南之一  
 
-[MapGive的 “学习绘制地图”教程](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along  
+[MapGive的 “学习绘制地图”教程](http://mapgive.state.gov/learn-to-map/)- 包括可以暂停的视频，以便你跟上节奏  
 
 [Hot快速入门指南](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - 由Peter Richardson (@meetar)撰写，经验丰富的HOT远程响应志愿者。注意：给定的信息已过时，但仍然有用。 
 

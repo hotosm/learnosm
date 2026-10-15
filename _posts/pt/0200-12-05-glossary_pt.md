@@ -9,33 +9,33 @@ category: beginner
 Glossário 
 ============
 
-> Este Glossário está a ser atualizado e foi compilado a partir de numerosas fontes incluindo o site [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) e um guia escrito por Will Skora. Sinta-se à vontade para nos ajudar a atualizá-lo revendo [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) para saber como contribuir para o site. 
-> Revisto em 2015-07-18  
+> Este glossário está a ser atualizado e foi compilado a partir de numerosas fontes, incluindo a [Wiki do OpenStreetMap](http://wiki.openstreetmap.org/wiki/Main_Page) e um guia escrito por Will Skora. Sinta-se à vontade para nos ajudar a atualizá-lo, consultando [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) para saber como contribuir para o site. 
+> Revisto em 2024-01-31  
 
-Para pesquisar facilmente este Glossário, utilize a funcionalidade de pesquisa do seu navegador (browser), carregando na tecla de Control e ao mesmo tempo pressionar a tecla f (**Ctrl+f**).  
+Para pesquisar facilmente neste glossário, utilize a funcionalidade de pesquisa do seu navegador de internet, pressionando a tecla Control e a tecla f em simultâneo (normalmente descrito como **Ctrl+f**).  
 
 **3W** : Quem (Who), o Quê (What), Onde (When); Quem faz o Quê, Onde?  
 
-**AAR** : After Action Review - Depois da ação, revisão;  Uma atividade de grupo para avaliar um exercício ou atividade para aprender e melhorar.
+**AAR** : After Action Review - Após a Ação, Revisão;  Uma atividade de grupo para avaliar um exercício ou atividade para aprender e melhorar.
 
-**Activation (termo HOT)** - Ativação: Por vezes referida como resposta a uma emergência, crise ou desastre e geralmente caracterizada por um evento específico e/ou impacto humanitário antecipado com um tempo de resposta mais curto, associado com as fases de resposta e recuperação do ciclo do desastre, do que um Projeto Humanitário a longo termo.
+**Ativação (termo HOT)** - Por vezes referida como resposta a uma emergência, crise ou desastre, e geralmente caracterizada por um evento específico e/ou impacto humanitário antecipado, com um tempo de resposta mais curto associado às fases de resposta e recuperação do ciclo do desastre, do que um Projeto Humanitário a longo termo.
 
-**Activator(s)** : voluntários HOT que terminaram o treino e são aprovados por um "activator" existente para desempenhar funções no decurso de eventos. 
+**Ativador(es)** : voluntários HOT que concluíram a formação e são atribuídos por um ativador existente para realizar funções durante eventos. 
 
-**AOI : Area of Interest** ; Área de interesse, definida por coordenadores de ativação por consulta com parceiros humanitários, equipas de campo da comunidade HOT na sequência de um desastre.
+**AOI : Área de Interesse** ; Definida por coordenadores de ativação em consulta com parceiros humanitários, equipas de campo e pela comunidade HOT na sequência de um desastre.
 
 
-**[Changeset](http://wiki.openstreetmap.org/wiki/Changeset)**: Um grupo de modificações que você fez a dados OSM. Uma vez carregados para o OSM, as suas edições ficam instantaneamente disponíveis para outros descarregarem. Podem levar uns minutos ou várias horas a aparecer no mapa.
+**[Conjunto de alterações](http://wiki.openstreetmap.org/wiki/Changeset)**: Um grupo de modificações que você fez nos dados OSM. Uma vez enviadas para o OSM, as suas edições ficam imediatamente disponíveis para serem transferidas por outros. Podem levar minutos ou horas a aparecer no mapa.
 
-**COD : Common Operational Database** ; Inclui os dados geográficos de múltiplas ativações humanitárias. Estes são principalmente: rede de transportes (estradas, pontes/vaus, portos, etc.), locais povoados (assentamentos), limites administrativos, hidrologia (rios e outros corpos de água) e hipsografia (elevações, curvas de nível). Podem incluir edifícios como fonte indireta de estatísticas populacionais. Utilizado pelo Gabinete das Nações Unidas para a coordenação dos Assuntos Humanitários.
+**COD : Base de Dados Operacional Comum** ; Inclui os dados geográficos de múltiplas ativações humanitárias. Estes são, principalmente: rede de transportes (estradas, pontes/vaus, portos, etc.), locais povoados, limites administrativos, hidrologia (rios e outros corpos de água) e hipsografia (elevações, curvas de nível). Podem incluir edifícios como fonte indireta de estatísticas populacionais. Utilizado pelo Gabinete das Nações Unidas para a coordenação dos Assuntos Humanitários.
 
-**DHN : Digital Humanitarian Network** ; organização que alavanca redes digitais para resposta humanitária.
+**DHN : Rede Humanitária Digital** ; organização que alavanca as redes digitais para resposta humanitária.
 
-**Extract** : [OSM Data Overview](/pt/osm-data/data-overview/) Um pedaço grande de dados OSM de uma área específica (como um estado, país, ou área geográfica).
+**Extração** : [Visão Geral dos Dados OSM](/pt/osm-data/data-overview/) Um pedaço conjuntode dados OSM de uma área específica (como um estado, país ou área geográfica).
 
-**[Field Papers](/pt/mobile-mapping/field-papers/)**: é uma ferramenta baseada na web para criar facilmente um mapa imprimível, para qualquer sítio no mundo, o qual pode ser impresso e anotado. Ver [http://fieldpapers.org/](http://fieldpapers.org/) para mais detalhes. 
+**[Field Papers](/pt/mobile-mapping/field-papers/)**: é uma ferramenta baseada na web para criar facilmente um mapa imprimível de qualquer parte do mundo, o qual pode ser impresso e anotado. Ver [http://fieldpapers.org/](http://fieldpapers.org/) para mais detalhes. 
 
-**FOD : Fundamental Operational Database** ; dados específicos da ativação i.e. instalações de saúde, escolas, instalações de água, limites de inundações, estragos de edifícios, etc.
+**FOD : Base de Dados Operacional Fundamental** ; dados específicos para a ativação, ou seja, instalações de saúde, escolas, instalações de água, limites de inundações, estragos de edifícios, etc.
 
 **GDACS :  Global Disaster Alert and Coordination System** ; GDACS é uma estrutura de cooperação sob o chapéu das Nações Unidas. Inclui sistemas mundiais de gestão de desastres e procura preencher a necessidade de informação e coordenação na primeira fase depois de grandes catástrofes. GDACS providencia acesso em tempo real aos sistemas de informação de catástrofes naseados na web e ferramentas de coordenação relacionadas.
 

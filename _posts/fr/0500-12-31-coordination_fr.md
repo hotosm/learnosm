@@ -6,7 +6,6 @@ title: Coordination
 category: coordination
 cover: yes
 nosearch: true
-
 ---
 
 Coordination

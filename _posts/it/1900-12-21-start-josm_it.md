@@ -8,254 +8,154 @@ published: true
 ---
 
 Primi passi con JOSM
-=============================  
+=============================
 
-> Revisionato il 2015-07-12  
 
-Come scaricare e installare JOSM, l'editor scritto in Java di OpenStreetMap, modificare alcune impostazioni, caricare una mappa di esempio e
-imparare alcune operazioni fondamentali del programma. Ricordi nel
-capitolo introduttivo quando ti abbiamo chiesto di disegnare una mappa del tuo paese o 
-della tua città? Concluderemo questo capitolo disegnando nuovamente la tua mappa, questa
-volta digitalmente. Dopo di che dovresti avere una buona capacità
-nel disegnare le mappe in JOSM.
+How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and learn some of the basic operations of the software. Remember in the introduction chapter when we asked you to draw a map of your town or village? We will conclude this chapter by drawing your map again, this time digitally. After this you should have a good understanding of how to draw maps in JOSM.
 
 Scarica JOSM
 -------------
 
-- Se hai una copia di JOSM su un CD o una memoria USB puoi passare
-  alla sezione successiva, Installa JOSM.
-Se non hai ancora JOSM, o vuoi l'ultima versione, apri
-  il tuo browser - Firefox, Chrome, Opera o Internet
-  Explorer.
-Nella barra degli indirizzi in alto nella finestra, scrivi
-  il seguente testo e premi invio: [josm.openstreetmap.de](http://josm.openstreetmap.de)
-Puoi raggiungere il sito di JOSM cercando "JOSM" con un motore di ricerca.
-Il sito web dovrebbe assomigliare a questo:
+Se non hai ancora JOSM, o vuoi l'ultima versione, apri il tuo browser.
+-   In the address bar at the top of the window, enter the following text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
+-   You can also find the JOSM website by searching the internet for “JOSM”.
+-   The website should look something like this:
 
-  ![JOSM website][]
+    ![JOSM website][]
 
-Se il tuo pc ha Windows, fai click su “Windows installer” per scaricare JOSM.
+-   If you have Windows installed on your computer, click “Windows Installer” to download JOSM.
 
-  ![Windows installer][]
+    ![Windows installer][]
 
-- Se hai un diverso sistema
-  operativo, clicca sul link del tuo sistema. Il tuo download dovrebbe
-  iniziare. In questo capitolo partiremo dal presupposto che tu stia usando Windows,
-  ma le istruzioni fornite sono simili anche per gli altri sistemi operativi.
+-   If you have a different operating system, click on the link for your system. Your download should begin. In this chapter we will assume that you are using Windows, but the instructions are similar for other operating systems.
 
 Installa JOSM
 ------------
 
-> Potresti avere problemi a installare JOSM se Java non è già
-> installato sul tuo computer. Se hai problemi,
-> prova a scaricare e installare Java. Puoi scaricarlo qui:
->  [http://www.java.com/it/download/](http://www.java.com/it/download/)
+>  You may have problems installing JOSM if Java is not already installed on your computer. If you have problems in this section, try downloading and installing Java. You can download it here: <http://www.java.com/en/download/>
+>
+>  Mac users may have old versions of Java. Please see <http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> for options for OSX 10.6 and 10.7.3+
 
->  Gli utenti Mac possono avere versioni vecchie di Java. Per favore controlla [http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation) su opzioni per OSX 10.6 e 10.7.3+
+-   Find the JOSM install file on your computer. Double-click it to begin setup.
+-   Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation is complete, click ‘Finish’ to launch JOSM for the first time. Later, when you want to start JOSM, you can do so by clicking on the Start Menu in the lower left corner of your computer, and clicking the program JOSM.
+-   You may see a window pop up that asks if you want to update the software.  You don’t need to update it since it is new.  Press the button that says “Cancel.”  If you don’t ever want to see this message again, check the box at the bottom before pressing “Cancel.”
+-   When JOSM starts, it will look something like this:
 
-- Trova il file di installazione di JOSM sul tuo computer. Fai doppio clic
-  per iniziare l'installazione.
-- Fai clic su “OK”, “Next”, “I Agree”, e “Install”. Ad installazione
-  completata, fai clic su “Finish” per lanciare JOSM la prima volta.
-  In seguito, quando vorrai lanciare JOSM, potrai farlo facendo clic sul
-  menù di Start nella parte bassa a sinistra del tuo schermo e facendo clic
-  sul programma JOSM.
-- Potrebbe uscire una finestra pop-up che ti richiede se vuoi aggiornare
-  il software. Non hai bisogno di aggiornare perchè è nuovo. Premi il
-  bottone che dice "Cancel". Se non vuoi più vedere questo
-  messaggio, seleziona la casella in fondo alla finestra prima di premere “Cancel”.
-- Alla partenza di JOSM, dovresti vedere una finestra simile:
-
-  ![JOSM splash page][]
+    ![JOSM splash page][]
 
 Preferenze di JOSM
---------------------
+----------------
 
-Ci sono differenti impostazioni che puoi modificare in JOSM. 
-Un'impostazione che potresti voler cambiare è la lingua. JOSM è
-stato tradotto in varie lingue e magari vorresti
-lavorare con una lingua differente.
+There are many different settings that you can customize in JOSM.  One setting that you may want to adjust is the language. JOSM has been translated into numerous languages, and you may prefer to work in a different one.
 
-- Per cambiare le impostazioni, fai clic su Edit -\> Preferences.
+-   To access the Preferences window, click Edit -> Preferences.
 
-  ![Preferences window][]
+    ![Preferences window][]
 
-- Sul lato sinistro fai clic sull’icona del pennello
-  che sta dipingendo.
-- In alto nella finestra, fai clic sulla scheda chiamata “Look and Feel”.
-- Scegli la lingua dal menù a discesa vicino alla parola
-  “Language”.
-  
-  ![Look and feel][]
+-   On the left side, click the language tab.
+-   Choose your language in the dropdown box next to the word “Language”.
 
-- Fai click su OK.
-- È necessario far ripartire JOSM per confermare la tua scelta. Fai clic in alto a sinistra su “File”
-  e poi su “Restart” verso il fondo del menù.
+    ![language][]
+
+-   Click OK.
+-   You need to restart JOSM to save your settings. Choose the respective option from the message box.
 
 Impara il disegno di base con JOSM
 -----------------------------
 
-- Adesso apriamo un file OSM d’esempio, con il quale impareremo le
-  basi di come tracciare le mappe con JOSM. Nota che questa mappa non è reale,
-  cioè non è una mappa di un posto vero, quindi non caricheremo questi dati
-  su OpenStreetMap.
-- Scarica qui il file: [sample.osm](/files/sample.osm)
-- Adesso apriamo la mappa d’esempio in JOSM. Fai click
-  il bottone “Apri” in alto a sinistra.
+-   Now let’s open up a sample OSM file which we will use to learn the basic ways to draw maps with JOSM. Note that this map is not real, in that it is not a real map of a real place, so we will not save it on OpenStreetMap.
+-   Download the file here: [sample.osm](/files/sample.osm)
+-   Now let’s open the sample map file in JOSM. Click the “Open” button in the upper left.
 
-  ![Open file][]
+    ![Open file][]
 
-- Cerca il file **sample.osm**. Probabilmente è nella cartella Downloads,
-  a meno che tu non l'abbia salvato da un'altra parte.  Cliccaci sopra e premi “Apri”.
-- Dovresti vedere una mappa d’esempio come nella figura:
+-   Find the file **sample.osm**. It is probably in your Downloads folder, unless you saved it somewhere else. Click on it, and then click “Open”.
+-   You should now see a sample map that looks like this:
 
-  ![Sample file][]
+    ![Sample file][]
 
-- Userai questi dati per provare diverse tecniche di editing.
-  *Tuttavia questi dati fittizi non dovranno mai essere caricati sul database*
+-   You will use these data in order to try various editing techniques. _You must however never upload these fictitious data to the database._
 
 ### Operazioni di base
 
-- Per muovere la mappa a sinistra o a destra, su o giù, tieni premuto il tasto destro del mouse
-  e muovilo.
-- Ci sono molti modi per zoomare in avanti o indietro nella mappa. Se hai un
-  mouse, puoi usare la sua rotellina, ad esempio. Se stai
-  usando un portatile e non hai un mouse, puoi zoomare usando
-  la scala nell’angolo in alto a sinistra della mappa. Trascina la barra a sinistra
-  o a destra tenendo premuto il tasto sinistro del mouse e muovendo la barra a sinistra
-  o a destra.
+-   To move the map left or right, up or down, hold your right mouse button down, and move your mouse.
+-   There are several ways to zoom in and out of the map. If you have a mouse, you can use your scroll wheel to zoom in and out. If you are using a laptop and don’t have a mouse, you can zoom in and out using the scale bar in the upper left of the map window. Drag the bar left and right by holding your left mouse down and moving the bar left or right with your mouse.
 
-  ![Scale bar][]
+    ![Scale bar][]
 
-- Guarda la mappa di esempio. Ci sono diversi tipi di oggetti tracciati.
-  C’è un fiume, una foresta, alcuni edifici, varie strade e
-  un paio di negozi. Per selezionare un oggetto, cliccaci con il tasto sinistro
-  del mouse.
+-   Look at the sample map. There a few different types of objects here. There is a river, a forest, some buildings, several roads, and a couple of shops. To select an object, click on it with your left mouse button.
 
 ### Punti, linee e aree
 
-- Quando fai clic sui differenti oggetti della mappa d’esempio, noterai che ci
-  sono tre tipi di oggetti nella mappa. Ci sono punti,
-  linee e aree.
-- I punti sono un luogo singolo, rappresentato con simboli. Su questa
-  mappa d’esempio, ci sono due punti: un negozio di scarpe e un supermercato. Il
-  negozio di scarpe è rappresentato col simbolo di una scarpa mentre il supermercato è
-  rappresentato da un carrello per la spesa.
-- Ci sono molte linee sulla mappa, che rappresentano le strade.
-   Se osservi attentamente le linee, vedrai
-  che in esse ci sono dei punti. Questi punti non hanno simboli o altre
-  informazioni associate, ma aiutano a definire il
-  posizionamento della linea.
-- In ultimo, ci sono numerose aree nella mappa d’esempio: esse rappresentano
-  luoghi differenti come una foresta, un fiume e costruzioni. Un’area
-  in generale rappresenta uno spazio, come campi o costruzioni. Un’area è
-   esattamente come una linea; l’unica differenza è che questa linea è chiusa, inizia
-  nello stesso punto dove finisce.
+-   As you click different objects on the sample map, notice that there are three different types of objects on the map. There are points, lines, and shapes.
+-   Points are a single location, represented by symbols. On this sample map, there are two points, a shoe shop and a supermarket. The shoe shop is represented by a shoe symbol, and the market is represented by a shopping cart.
+-   There are several lines on the map as well, which represent roads. If you look closely you will see that within the lines, there are points as well. These points don’t have any symbols or other information associated with them, but they help to define where the line is located.
+-   Lastly, there are numerous shapes on the sample map, representing different places - a forest, a river, a park, and buildings. A shape is used to represent an area, like a field or a building. A shape is exactly like a line - the only difference is that the line begins at the same point where it ends.
 
-> Una mappa può contenere tre tipi di oggetti - 
+> Una mappa può contenere tre tipi di oggetti -
 > punti, linee e aree. In OpenStreetMap c'è un termine speciale
 > che imparerai ad usare in futuro. In OSM i punti sono chiamati
 > **nodi** e le linee **ways**.  Un'area è chiamata **closed way**
 > perchè è una linea che inizia e finisce nello stesso punto.
 
-- Avrai notato che quando selezioni un oggetto, una lista appare alla
-  destra della mappa, in una finestra chiamata “Proprietà”. Queste proprietà sono
-  conosciute come tags. I tag sono informazioni collegate ad un punto, a una linea o a un’area
-   che descrivono cosa sono. Impareremo di più sui tags in un successivo
-  capitolo. Per ora, tutto ciò che devi sapere è che queste
-  informazioni aiutano a descrivere se il tuo oggetto è una foresta, un fiume,
-  una costruzione o qualcos'altro.
-- Pensa a quando disegni una mappa a mano e come stai disegnando
-  punti, linee ed aree. Quali altri luoghi possono essere rappresentati con
-   punti, linee o aree?
+-   You may notice that when you select an object, a list appears to the right of the map in a window called “Properties”. These are known as tags. Tags are information that is tied to a point, line or shape that describes what it is. We’ll learn more about tags in a later chapter. For now all you need to know is that this information helps describe whether our object is a forest, a river, a building, or something else.
+-   Think about drawing a map by hand, and how you are also drawing points, lines, and shapes. What other places are best represented by points? Lines? Shapes?
 
 ### Cambiare gli oggetti
 
-- Seleziona la foresta nella parte sinistra della mappa. Assicurati di aver fatto clic sulla
-  linea intorno alla foresta, non su uno dei punti della linea. Ora
-  tieni premuto il tasto sinistro del mouse mentre sposti il mouse. Dovresti
-  poter muovere la foresta in un diverso luogo della mappa.
-- Fai clic su uno dei punti che compongono la linea intorno alla foresta. Tieni premuto
-  il tasto sinistro del mouse e sposta il mouse. Dovresti poter
-  muovere il punto. In questa maniera puoi cambiare la forma dell’oggetto
-  o muovere un punto.
+-   Select the forest on the left side of the map. Be sure to click on the line around the forest, not one of the points on the line. Now hold your left mouse button down and drag your mouse. You should be able to move the forest to a new location on the map.
+-   Click on one of the points on the line around the forest. Hold your left mouse button down and drag your mouse. You should be able to move the point. This is how you can change the shape of an object, or move a point.
 
 ### Disegnare
 
-- Sul lato sinistro di JOSM c’è una colonna di bottoni. Alcuni di questi
-  bottoni aprono una nuova finestra sulla destra che fornisce
-  più informazioni sulla mappa. I bottoni più importanti sono
-  quelli posti in alto. Questi bottoni cambiano le operazioni che puoi effettuare
-  con il mouse.
-- I bottoni alla cima della colonna sono quelli che userai di più.
-   Essi ti permetteranno di selezionare gli oggetti e disegnarne di nuovi.
-Fino ad ora, hai usato il comando di selezione, che assomiglia a
-  questo:
+-   On the left side of JOSM is a column of buttons. Many of these buttons open new windows on the right side that provide more information about the map. The most important buttons, however, are at the top of these column. These buttons change what you can do with your mouse.
+-   The top buttons in this column are the ones you will use the most. They are used for selecting objects and for drawing new ones.
+-   Until now, you have been using the Select tool, which looks like this:
 
-  ![Select tool][]
+    ![Select tool][]
 
-- Prima di disegnare, assicurati che nulla sia selezionato.
-  Fai click su un punto nero della mappa, dove è vuota, per essere sicuro
-  di non aver selezionato nulla.
-Fai clic sul secondo bottone, “Disegna”.
+-   Before you draw, you need to make sure that nothing is selected. Click in the black space on the map, where it is empty, to make sure nothing is selected.
+-   Click on the second button, the Draw tool.
 
-  ![Draw tool][]
+    ![Draw tool][]
 
-- Trova una zona vuota della mappa e fai doppio clic con il mouse.
-  In tal modo disegnerai un singolo punto.
-- Per disegnare una linea, fai un singolo clic col mouse. Sposta il mouse e
-  fai nuovamente clic. Continua fino a che non decidi di terminare la linea. Per terminare
-  la linea, fai doppio clic col mouse.
-- Disegna un’area con lo stesso sistema utilizzato per disegnare una linea, ma finisci
-  facendo doppio clic sul punto di partenza della linea.
+-   Find an empty area on the map, and double-click with your mouse. This will draw a single point.
+-   To draw a line, single-click with your mouse. Move your mouse and click again. Continue until you are happy with your line. To end the line, double-click your mouse.
+-   Draw a shape the same way that you draw a line, but finish the shape by double-clicking on the point where you started the line.
 
 ### Aggiungere le preimpostazioni
 
-- Ora sai come disegnare punti, linee o aree, ma non abbiamo ancora
-  definito cosa essi rappresentano. Vogliamo poter dire
-  i punti sono negozi, scuole o altro oppure se le nostre
-  aree rappresentano campi, costruzioni o altro.
-- Fai clic sul bottone “Seleziona” nella colonna a sinistra.
+-   Now we know how to draw points, lines and shapes, but we still haven’t defined what they represent. We want to be able to say that our points are shops, schools, or something else, and whether our shapes are fields, buildings, or something else.
+-   Click on the Select tool, in the column of buttons on the left.
 
-  ![Select tool][]
+    ![Select tool][]
 
-- Seleziona uno degli oggetti che hai disegnato in precedenza. Sul
-  menù in alto fai clic su “Preimpostazioni”. Spostati col mouse nei sotto-menù per scegliere
-  il tipo di oggetto da rappresentare.
-- Quando scegli una preimpostazione, apparirà una finestra in cui dovrai inserire
-  alcune informazioni. Non è necessario compilare tutti i campi richiesti, ma almeno
-  dovrai inserire alcune informazioni importanti, come il nome
-  dell'oggetto.
-- Quando avrai finito con l’inserimento delle informazioni, premi “Applica
-  Preimpostazione”. Se tutto ha funzionato, il tuo punto, linea o area dovrebbe
-  cambiare colore o mostrare un simbolo. Questo succede perché hai definito
-  ciò che rappresenta.
+-   Select one of the objects that you drew with the Draw tool. On the top menu, click “Presets”. Move your mouse through the sub-menu to the type of location you would like to define.
+-   When you click on a preset, a form will pop up asking you for more information. You do not have to fill in every field, but you may wish to add some of the important fields, such as the name of the object.
+-   When you are finished entering the information, click “Apply Preset”. If everything went well, your point, line, or shape should change colors or show a symbol. This is because you have defined what it is.
 
 Disegna la tua mappa
 -----------------
 
-- Ora disegniamo una mappa per impratichirci delle tecniche finora
-  apprese. Magari vorrai ridisegnare la mappa fatta precedentemente su carta.
-- Sposta la mappa lontano dalla mappa di esempio. Tieni premuto il tasto destro del mouse
-  e sposta il mouse finché non troverai una zona vuota per disegnare.
-- Usa il pulsante “Disegna” per creare punti, linee e aree. Descrivi
-  gli oggetti disegnati selezionando le caratteristiche dal menù “Preimpostazioni”.
-- Quando avrai finito, dovresti avere la tua mappa, simile alla
-  mappa di esempio aperta con sample.osm.
+-   Now let’s draw a map in order to practice the techniques you have learned. You may wish to redraw the map that you drew on paper previously.
+-   Drag the map away from the sample map. Hold the right mouse button and drag your mouse, until you have a nice empty area to draw on.
+-   Use the Draw tool to create points, lines, and shapes. Describe what your objects are by selecting from the Presets menu.
+-   When you are finished, you should have your own map, similar to the sample map that we opened in sample.osm.
 
-## Rimuovi lo strato dei dati di esempio
+Remove the sample layer
+-----------------------
 
 Una volta che hai confidenza con queste tecniche di editing di base, potresti voler
-spostare la tua attenzione per mappare oggetti reali. 
+spostare la tua attenzione per mappare oggetti reali.
 
-*è molto importante che tu rimuova prima lo strato con i dati di esempio. 
-Questi sono dati fittizi e non devono essere caricati nel database 
-OpenStreetMap (le nuove release di JOSM non lo fanno).*
+_It is very important that you first remove the layer with the sample data.
+Questi sono dati fittizi e non devono essere caricati nel database
+database (newer JOSM releases automatically prevent this)._
 
-Nella finestra Livelli in alto a destra dello schermo, seleziona il livello sample.osm 
-Poi clicca sull'icona del cestino nello spigolo in basso a destra della finestra. 
-Oppure puoi scegliere "cancella" dal menù del livello. 
-Per poter continuare a mappare devi innanzitutto scaricare dei dati reali. 
+Nella finestra Livelli in alto a destra dello schermo, seleziona il livello sample.osm
+Poi clicca sull'icona del cestino nello spigolo in basso a destra della finestra.
+Oppure puoi scegliere "cancella" dal menù del livello.
+Per poter continuare a mappare devi innanzitutto scaricare dei dati reali.
 Questo ti sarà spiegato nel prossimo capitolo.
 
 Conclusioni
@@ -265,13 +165,22 @@ Eccellente! Se tutto è andato bene dovresti aver imparato come impostare JOSM s
 computer e ad usare gli strumenti di base per tracciare le mappe. Nel prossimo capitolo
 approfondiremo il processo di editing della mappa OSM con JOSM.
 
-[JOSM website]: /images/josm/josm-website_it.png
-[Windows installer]: /images/josm/windows-installer_it.png
-[JOSM splash page]: /images/josm/josm-splash-page_it.png
-[Preferences window]: /images/josm/josm_preferences_it.png
-[Look and feel]: /images/josm/josm_look-and-feel_it.png
-[Open file]: /images/josm/josm_open-file.png
-[Sample file]: /images/josm/josm_sample-file_it.png
-[Scale bar]: /images/josm/josm_scale-bar.png
-[Select tool]: /images/josm/josm_select-tool.png
-[Draw tool]: /images/josm/josm_draw-tool.png
+[josm website]: /images/josm/josm-website.png
+
+[windows installer]: /images/josm/windows-installer.png
+
+[josm splash page]: /images/josm/josm-splash-page.png
+
+[preferences window]: /images/josm/josm_preferences.png
+
+[language]: /images/josm/josm_language.png
+
+[open file]: /images/josm/josm_open-file.png
+
+[sample file]: /images/josm/josm_sample-file.png
+
+[scale bar]: /images/josm/josm_scale-bar.png
+
+[select tool]: /images/josm/josm_select-tool.png
+
+[draw tool]: /images/josm/josm_draw-tool.png

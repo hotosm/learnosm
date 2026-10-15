@@ -9,7 +9,7 @@ category: resources
 
 # Autres ressources
 
-> Examiné 2018-02-24
+Révisé le 08/05/2020
 
 Il s'agit d'une liste commentée de pointeurs vers d'autres sites web que nous considérons utiles. Tous les liens ont été vérifiés la dernière fois que ce document a été examiné.
 

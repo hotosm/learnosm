@@ -9,6 +9,7 @@ category: osm-data
 OSM ၏အချက်အလက်များအားရယူခြင်း
 =================  
 
+> Reviewed 2016-04-05
 
 မကြာသေးသောအချိန်ကာလမှ OpenStreetMap အချက်အလက်များကို သင်ရယူလိုသောအခါ အလွယ်ကူဆုံးနည်းလမ်းမှာ ဝက်ဘ်ဆိုက်ဒ် တစ်ခုမှ extract တစ်ခုကို Download လုပ်ယူရန်ဖြစ်သည်။ သင်ရွေးချယ်ထားသည့် နေရာဒေသတစ်ခုအတွက် Extract data များကို ဝန်ဆောင်မှုပေးနေသော ဝက်ဘ်ဆိုက်ဒ်များစွာရှိပါသည်။  
 
@@ -19,13 +20,9 @@ EXTRACTS ပြုလုပ်ထားသော အချက်အလက်မ�
 
 [GeoFabrik](http://geofabrik.de) သည် ကုမ္ပဏီတစ်ခုဖြစ်ပြီး အထူးသဖြင့် OpenStreetMap နှင့်အတူ အလုပ်လုပ်ကိုင် နေသော ကုမ္ပဏီတစ်ခုဖြစ်ပါသည်။ အခမဲ့ extracts များ၏ အမျိုးအစားတစ်ခု ကို shapefile နှင့် OSM ၏အချက်အလက်ပုံစံကြမ်းများအဖြစ် ၎င်းကုမ္ပဏီ၏download ပြုလုပ် နိုင်သော ဝက်ဘ်ဆိုက်ဒ် [download website](http://download.geofabrik.de) တွင် ပေးထားပါသည်။ GeoFabrik ၏အချက်အလက်များကို download ပြုလုပ်ရာတွင် အားသာချက်များမှာ ၎င်းတို့၏ အချက်အလက်များကို နေ့တိုင်းအသစ်များသာ တင်ပေးခြင်း၊ download ပြုလုပ်ရသည်မှာ လွယ်ကူခြင်းနှင့် အချက်အလက်များမှာ ယုံကြည်စိတ်ချရမှုရှိခြင်း တို့ဖြစ်ပါသည်။ အားနည်းချက်တစ်ခုကတော့ အချက်အလက်များကို နိုင်ငံအလိုက်သာ extract ပြုလုပ်ရယူနိုင်ပြီး ကမ္ဘာပေါ်ရှိနိုင်ငံ အားလုံးအတွက်မူ မရရှိနိုင်သေးပါ။  
 
-### Metro Extracts
-
-ကမ္ဘာ့အနှံ့အပြားရှိ မြို့များအတွက် သီတင်းပတ်တိုင်း extract ပြုလုပ်ပေးထားသော  shapefiles များနှင့် OSM ၏အချက်အလက် ပုံစံကြမ်းများကို Mapzen မှ ထောက်ခံပေးထားသော အခြားသော  ဝက်ဘ်ဆိုက်ဒ်များ[Another website maintained by Mapzen](https://mapzen.com/data/metro-extracts/) တွင်ပေးထားပါသည်။  
-
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) သည်လည်း Metro Extracts ကဲ့သို့ပင် အချို့သောအချက်အလက်များကိုပေးပါသည်။ သို့သော်လည်း မြို့များထဲမှ မတူညီသောရွေးချယ်မှု တစ်ခုအတွက်သာ ပေးထားပါသည်။ အချက်အလက်များကိုလည်း သီတင်းပတ်တိုင်းအတွက် ကောင်းမွန်စွာ update လုပ်ပေးပါသည်။
+[BBBike](http://download.bbbike.org/osm/bbbike/) provides shapefiles and raw OSM format for cities around the world, extracted weekly. This is useful if you are looking for data extracts for a single city.
 
 >OpenStreetMap ထဲရှိ ပုံစံအသွင်အပြင်များတွင် လွတ်လပ်စွာတွဲဖက်မှုများ ("free" tags) ၏ အရေအတွက်သည် ကန့်သတ်မှုမရှိသည်ကို သတိရပါ။ 
 >သို့သော်လည်း shapefiles များ၏ attributes များတွင်မူ ကော်လံ (columns) အရေအတွက်ကို ကန့်သတ်ထားပါသည်။ 
@@ -40,8 +37,8 @@ EXTRACTS ပြုလုပ်ထားသော အချက်အလက်မ�
 
 ### HOT Exports  
 
- [လူသားချင်းစာနာထောက်ထားသော OpenStreetMap အဖွဲ့ (The Humanitarian OpenStreetMap Team)](http://hotosm.org) သည် အသုံးပြုသူများအနေဖြင့် ၎င်းတို့ extract ပြုလုပ်လိုသော ဧရိယာကို ရွေးချယ်ရန်ခွင့်ပြုပေးထားပြီး extract ထဲတွင်ပါဝင်နိုင်သော ကိုယ့်စိတ်ကြိုက်တွဲဖက်မှုများကို ရွေးချယ်နိုင်ရန်အတွက်  [JOSM Presets](/en/josm/josm-presets/) ကို 
-အသုံးပြုရန်လည်းပဲ ခွင့်ပြုပေးထားသော ဝန်ဆောင်မှုတစ်ခုကို ပြုလုပ်ဖန်တီးပေးခဲ့ပြီးဖြစ်ပါသည်။ ၎င်းဝန်ဆောင်မှုကို  HOT ၏အလုပ်များရှိသော နိုင်ငံအားလုံးတွင် ရရှိနိုင်ပါသည်။[export.hotosm.org](http://export.hotosm.org) တွင်ရရှိနိုင်သည်။
+The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
+to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 

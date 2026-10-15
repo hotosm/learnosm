@@ -243,23 +243,23 @@ Cette option est facultative, mais il est possible d'ajouter un court extrait d'
 
 #### Niveau du cartographe
 
-Cela modifie le niveau de difficulté qui est **affiché** pour votre projet. Faites bien attention, les projets complexes qui sont réglés de manière inappropriée sur le niveau de difficulté Débutant **peuvent entraîner des problèmes importants de qualité des données**. 
+This changes the difficultly level which is **displayed** for your project. Consider this very carefully, complex projects which are inappropriately set to Easy difficulty **can result in significant data quality issues**. 
 
 > Notez que cela ne change pas qui peut **réellement contribuer** à votre projet, ces restrictions sont mises en œuvre dans le sous-menu Permissions.
 
-La plupart des projets sont réglés sur la difficulté **Débutant** ou **Intermédiaire**, une poignée de projets sont réglés sur Avancé. 
+Most projects are set to either **Easy** or **Moderate** difficulty, a handful of projects are set to Challenging. 
 
-- **Débutant** - Considérez ceci si votre projet est facile à cartographier et :
+- **Easy** - Consider this if your project is easy to map and:
   - Vous ne demandez aux contributeurs que de cartographier une seule caractéristique, en particulier **les bâtiments uniquement**.
   - La densité des éléments est faible, c'est-à-dire dans une zone **rurale**.
   - Il existe une **faible quantité** de données OSM existantes dans votre zone de projet.
   - Il n'y a pas de problème d'alignement de l'imagerie
-- **Intermédiaire** - Si votre projet est plus difficile à cartographier, il faut l'envisager si :
+- **Moderate** - If your project is trickier to map, this should be considered if:
   - Vous demandez aux contributeurs de cartographier plus d'un élément, par exemple des bâtiments **et** des routes.
   - Il y a une densité moyenne/haute de ces éléments dans votre zone de projet, c'est-à-dire des zones **urbaines**.
   - Il existe des données OSM **substantielles** dans la zone de votre projet.
   - Il peut y avoir des **problèmes d'alignement d'images** ou vous demandez aux contributeurs d'utiliser plus d'une source d'images.
-- **Avancé** - Si le projet est extrêmement difficile à cartographier, envisagez cette option si : 
+- **Challenging** - If the project is extremely difficult to map, consider this if: 
   - Il existe des caractéristiques de très haute densité dans la zone de votre projet, c'est-à-dire des zones **centrales urbaines**.
   - Il y a **beaucoup** de données OSM existantes dans la zone de votre projet
   - Il y a des problèmes **complexes d'alignement d'images**
@@ -272,7 +272,7 @@ Activez ou désactivez ces options en fonction des fonctionnalités que vous sou
 
 #### Préréglages de l'éditeur iD
 
-Si vous choisissez un ou plusieurs éléments dans la liste déroulante, les cartographes utilisant iD ne pourront affecter ces caractéristiques qu'aux objets qu'ils cartographient. Cette option est recommandée pour les débutants, **les projets de bâtiments uniquement**. Cela signifie que les contributeurs ne seront pas en mesure de marquer d'autres caractéristiques, même s'ils essaient. Évitez d'utiliser des préréglages pour des projets plus complexes, car cela peut rapidement devenir un fardeau. Par exemple, un projet de cartographie des autoroutes nécessiterait l'ajout de dizaines de préréglages pour garantir que tous les types d'autoroutes puissent être cartographiés. 
+If you choose one or more items from the drop-down list then mappers using iD will only be able to assign these features to the objects they map. This is recommended for easy, **buildings-only projects**. It will mean that contributors will not be able to tag other features, even if they try. Avoid using presets for more complex projects, as it can quickly become a burden. For example, a highway mapping project would need dozens of presets to be added to ensure all highway types could be mapped. 
 
 #### Organisation
 
@@ -304,7 +304,7 @@ Dans le menu déroulant, choisissez la source d'imagerie aérienne que vous souh
 
 > Notez que le gestionnaire de tâches **ne peut pas héberger d'images personnalisées**, celles-ci doivent être hébergées en externe et liées à l'aide d'une URL TMS. Si vous souhaitez que votre imagerie soit ouverte à l'utilisation, veuillez envisager d'utiliser [OpenAerialMap] (https://openaerialmap.org/) pour héberger votre imagerie.
 
-Licence - En option, s'il existe une licence spécifique que les cartographes doivent accepter lorsqu'ils utilisent l'imagerie, vous pouvez la sélectionner ici. Par exemple, pour l'imagerie Maxar, il s'agit de "DigitalGlobe Satellite EULA". Si vous avez besoin d'une licence qui n'est pas disponible, vous pouvez contacter un administrateur de l'installation du gestionnaire de tâches et lui demander de l'ajouter.
+License - Optionally, if there is a specific license required for the mappers to accept when using the imagery, you can select it here. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
 
 ### Permissions
 
@@ -322,7 +322,7 @@ Dans le menu 'Métadonnées', nous avons pu modifier le niveau de difficulté qu
 
 Ici, vous pouvez choisir qui peut **cartographier** votre projet :
 
-- Si votre projet est facile à contribuer et que vous le considérez comme un projet pour débutants, vous pourriez vouloir mettre cette valeur à **"Tout utilisateur "**.
+- If your project is easy to contribute towards and you consider it an easy project you might want set this to **'Any user'**.
 - Si votre projet est plus complexe et nécessite plus d'expérience, limitez la cartographie à **"Uniquement les utilisateurs ayant un niveau intermédiaire ou avancé "**. 
 - Si vous voulez être encore plus sélectif, vous pouvez également exiger qu'un cartographe fasse partie d'une **équipe**. Les équipes doivent alors être définies ci-dessous.
 
@@ -430,10 +430,10 @@ Suivez l'évolution de la cartographie et de la validation de vos projets. N'oub
 
 ### Remarques concernant l'imagerie
 
-Avant de créer votre projet, vérifiez l'imagerie dans plusieurs endroits différents de la zone de votre projet afin de faire une évaluation de l'imagerie. Dans la plupart des cas, l'imagerie Maxar ou Bing devrait répondre à vos besoins. Cependant, il existe des situations où vous pouvez choisir une autre source. Vous devrez peut-être tenir compte des éléments suivants lors du choix de votre imagerie : 
+Before creating your project, check the imagery in several different locations across your project area to make an imagery assessment. In most cases either Esri or Bing imagery should suit your needs. However, there are situations where you might want to choose an alternative source. You may need to consider the following when choosing your imagery: 
 
 1. Si une cartographie minutieuse et détaillée est nécessaire, choisissez l'imagerie la plus claire et la plus haute résolution.
-2. Si votre priorité est de disposer de l'imagerie la plus récente, passez d'une source d'imagerie standard à l'autre pour rechercher l'imagerie la plus récente. Recherchez les signes de développement tels que les nouveaux bâtiments ou les défrichements pour avoir une idée de l'imagerie la plus récente. Récemment, Maxar a été la source d'images la plus récente, mais cela varie selon les endroits. 
+2. If your priority is to have the most up-to-date imagery, flick between the standard imagery sources to look for the most recent imagery. Look for indications of development such as new buildings or land clearance to get an idea of the most up-to-date imagery.
 3. Vérifiez la couverture nuageuse. Bien qu'une source d'imagerie puisse répondre à vos besoins, si elle est très nuageuse ou brumeuse, vos cartographes auront du mal à l'utiliser.
 4. Vérifiez l'alignement, s'il existe de nombreuses données OSM existantes qui s'alignent sur un jeu d'images satellites, il peut être judicieux de choisir les mêmes images. S'il y a des problèmes d'alignement, assurez-vous de rédiger des instructions claires détaillant comment vous attendez des contributeurs qu'ils traitent les problèmes de décalage/alignement. 
 
@@ -445,9 +445,9 @@ Votre zone de projet a peut-être déjà été partiellement cartographiée à l
 
 Il n'y a pas d'instructions standard lorsqu'il s'agit de problèmes d'alignement d'images. Cela dépend beaucoup du contexte. Parfois, on demande aux cartographes de s'aligner sur les traces GPS, parfois sur les éléments linéaires cartographiés tels que les autoroutes et les voies navigables. Voici un exemple d'approche : 
 
-1. Indiquez clairement quelle imagerie doit être considérée comme la référence sur laquelle tout le reste doit être aligné. Dans ce cas, supposons que la référence est Maxar.
-2. Assurez-vous que tous les éléments existants qui sont également visibles sur Maxar sont alignés avec l'imagerie Maxar, c'est-à-dire réalignez-les si nécessaire.
-3. Ajouter de nouvelles fonctionnalités à partir de l'imagerie Maxar, désormais correctement alignée.
+1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
+2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
+3. Add new features from the now correctly aligned to Bing imagery.
 
 Les cartographes ont souvent pour instruction de rechercher le _moindre effort_ lorsqu'il s'agit de problèmes d'alignement d'images. Ce qui signifie que les contributeurs sont invités à varier leur approche en fonction de la situation dans leur tâche individuelle : 
 

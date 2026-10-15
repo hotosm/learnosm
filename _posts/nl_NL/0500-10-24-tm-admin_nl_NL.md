@@ -243,13 +243,13 @@ Dit is optioneel, maar het is mogelijk een kort snipper van aanvullende instruct
 
 #### Niveau mapper
 
-Dit wijzigt het niveau voor de moeilijkheid dat wordt **weergegeven** voor uw project. Overweeg dit heel zorgvuldig, complexe projecten die onjuist zijn ingesteld op de moeilijkheid Beginner **kunnen resulteren in significante problemen met de kwaliteit van de gegevens**. 
+Dit wijzigt het niveau voor de moeilijkheid dat wordt **weergegeven** voor uw project. Overweeg dit heel zorgvuldig, complexe projecten die onjuist zijn ingesteld op de moeilijkheid Gemakkelijk **kunnen resulteren in significante problemen met de kwaliteit van de gegevens**. 
 
 > Onthoud dat dit niet wijzigt wie er **feitelijk kan bijdragen** aan uw project, deze beperkingen zijn geïmplementeerd onder het submenu Rechten.
 
-De meeste projecten zijn ingesteld op ofwel moeilijkheid  **Beginner** of **Gemiddeld**, een handjevol projecten zijn ingesteld op Gevorderd. 
+De meeste projecten zijn ingesteld op ofwel moeilijkheid  **Gemakkelijk** of **Gemiddeld**, een handjevol projecten zijn ingesteld op Gevorderd. 
 
-- **Beginner** - Overweeg of uw project gemakkelijk in kaart is te brengen en:
+- **Gemakkelijk** - Overweeg of uw project gemakkelijk in kaart is te brengen en:
   - U vraagt deelnemers om slechts één object in kaart te brengen, in het bijzonder **alleen gebouwen**
   - De dichtheid van de objecten is laag, d.i. in een **afgelegen** gebied
   - Er is een **lage kwantiteit** van bestaande gegevens voor OSM in uw projectgebied
@@ -272,7 +272,7 @@ Schakel deze in/uit, afhankelijk van de objecten die u in kaart wilt laten breng
 
 #### Voorkeuren bewerker iD
 
-Als u kiest om één of meer items uit de keuzelijst te kiezen dan zullen mappers die iD gebruiken alleen in staat zijn om deze objecten toe te wijzen aan de objecten die zij in kaart brengen. Dit is aanbevolen voor beginners, **project met Alleen gebouwen**. Het zal betekenen dat deelnemers niet in staat zullen zijn andere objecten te taggen, zelfs niet als zij het proberen. Vermijd het gebruiken van voorkeuren voor meer complexe projecten, omdat het al snel een last wordt. Een project voor het mappen van wegen zou, bijvoorbeeld, dozijnen aan voorkeuzen moeten hebben toegevoegd, om te zorgen dat alle type wegen in kaart zouden kunnen worden gebracht. 
+Als u kiest om één of meer items uit de keuzelijst te kiezen dan zullen mappers die iD gebruiken alleen in staat zijn om deze objecten toe te wijzen aan de objecten die zij in kaart brengen. Dit is aanbevolen als gemakkelijk, **project met Alleen gebouwen**. Het zal betekenen dat deelnemers niet in staat zullen zijn andere objecten te taggen, zelfs niet als zij het proberen. Vermijd het gebruiken van voorkeuren voor meer complexe projecten, omdat het al snel een last wordt. Een project voor het mappen van wegen zou, bijvoorbeeld, dozijnen aan voorkeuzen moeten hebben toegevoegd, om te zorgen dat alle typen wegen in kaart zouden kunnen worden gebracht. 
 
 #### Organisatie
 
@@ -304,7 +304,7 @@ Kies uit het keuzemenu de bron voor de lucht-/satellietfoto's die u automatisch 
 
 > Onthoud dat de Tasking Manager **geen aangepaste afbeeldingen kan hosten**, het dient extern te worden gehost en dan gelinkt met een URL voor TMS. Als u geen bezwaar hebt tegen het feit dat uw afbeeldingen openbaar zijn om te gebruiken, overweeg dan om [OpenAerialMap](https://openaerialmap.org/) om uw afbeeldingen te hosten.
 
-Licentie - Optioneel, als er een specifieke licentie is vereist die de mappers moet accepteren voor het gebruiken van de afbeeldingen, kunt u die hier selecteren. Voor afbeeldingen van Maxar is dit bijvoorbeeld 'DigitalGlobe Satellite EULA'.  Indien u een licentie nodig hebt die niet beschikbaar is, kunt u contact opnemen met een beheerder van de installatie van de Tasking Manager en die vragen om hem toe te voegen.
+Licentie - Optioneel, als er een specifieke licentie is vereist die de mappers moeten accepteren voor het gebruiken van de afbeeldingen, kunt u die hier selecteren. Indien u een licentie nodig hebt die niet beschikbaar is, kunt u contact opnemen met een beheerder van de installatie van de Tasking Manager en die vragen om hem toe te voegen.
 
 ### Rechten
 
@@ -322,7 +322,7 @@ In het menu 'Metadata' zouden we het niveau voor de moeilijkheid kunnen wijzigen
 
 Hier kunt u kiezen wie uw project **in kaart kan brengen**:
 
-- Als uw project gemakkelijk is om aan deel te nemen en u beschouwt het als een project voor beginners, wilt u dit instellen op **'Elke gebruiker'**.
+- Als uw project gemakkelijk is om aan deel te nemen en u beschouwt het als een gemakkelijk project, wilt u dit instellen op **'Elke gebruiker'**.
 - Als uw project meer complex is en meer ervaring vereist, beperk dan het in kaart brengen tot **'Alleen gebruikers met niveau Gemiddeld of Gevorderd'**. 
 - Als u nog selectiever wilt zijn, dan zou u kunnen eisen dat een mapper lid is van een **team**. Team moeten dan hieronder gedefinieerd worden.
 
@@ -430,10 +430,10 @@ Houd overzicht over de voortgang van het in kaart brengen en het valideren van u
 
 ### Overwegingen met betrekking tot afbeeldingen
 
-Controleer, voordat u uw project maakt, de afbeeldingen voor verscheidene verschillende locaties in uw projectgebied voor een beoordeling van de afbeeldingen. In de meeste gevallen zouden afbeeldingen van Maxar of Bing aan uw behoeften kunnen voldoen. Er zijn echter situaties waar u een alternatieve bron zou willen kiezen. U zou de volgende overwegingen moeten maken bij het kiezen van uw afbeeldingen: 
+Controleer, voordat u uw project maakt, de afbeeldingen voor verscheidene verschillende locaties in uw projectgebied voor een beoordeling van de afbeeldingen. In de meeste gevallen zouden afbeeldingen van Esri of Bing aan uw behoeften kunnen voldoen. Er zijn echter situaties waar u een alternatieve bron zou willen kiezen. U zou de volgende overwegingen moeten maken bij het kiezen van uw afbeeldingen: 
 
 1. Als zorgvuldig, gedetailleerd in kaart brengen nodig is, kies dan de afbeelding die het helderst is, met de hoogste resolutie.
-2. Als uw prioriteit is om de meest up-to-date afbeeldingen te hebben, klik dan tussen de standaard bronnen voor afbeeldingen om te zoeken naar de meest recente afbeeldingen. Zoek naar indicaties voor ontwikkeling, zoals nieuwe gebouwen of vrijgemaakt land om een idee te krijgen over de meest up-to-date afbeeldingen. Recent heeft Maxar de meest up-to-date, maar dit varieert per locatie. 
+2. Als uw prioriteit is om de meest up-to-date afbeeldingen te hebben, klik dan tussen de standaard bronnen voor afbeeldingen om te zoeken naar de meest recente afbeeldingen. Zoek naar indicaties voor ontwikkeling, zoals nieuwe gebouwen of vrijgemaakt land om een idee te krijgen over de meest up-to-date afbeeldingen.
 3. Controleer op bedekking door wolken, hoewel een bepaalde bron voor afbeeldingen aan uw behoeften zou kunnen voldoen, als het erg bewolkt of wazig is, zullen uw mappers moeite hebben om het in kaart te brengen.
 4. Controleer op uitlijning, als her genoeg bestaande gegevens van OSM zijn die uitlijnen op één set satellietafbeeldingen, dan is het logisch te kiezen voor dezelfde afbeeldingen. Als er problemen zijn met de uitlijning, zorg er dan voor heldere instructies te schrijven die in detail beschrijven hoe u verwacht dat deelnemers problemen met verschuiven/uitlijnen afhandelen. 
 
@@ -445,9 +445,9 @@ Uw projectgebied zou al gedeeltelijk in kaart kunnen zijn gebracht met oudere af
 
 Er is geen standaard set instructies als het aankomt op problemen met het uitlijnen van afbeeldingen. Het hangt erg af van de context. Soms worden mappers geïnstrueerd om uit te lijnen op GPS-sporen, soms wordt ze verteld om uit te lijnen op lineair in kaart gebracht objecten, zoals wegen en waterwegen. Hier is een voorbeeld van een benadering: 
 
-1. Vermeld duidelijk welke afbeelding geacht wordt de verwijzing te zijn waaraan al het andere zou moeten worden uitgelijnd. Laten we er in dit geval van uitgaan dat die verwijzing Maxar is.
-2. Zorg er voor dat alle reeds bestaande objecten die ook zichtbaar zijn op Maxar zijn uitgelijnd op de afbeelding van Maxar, d.i. lijn ze, indien nodig, opnieuw uit.
-3. Voeg nieuwe objecten toe uit de nu correct uitgelijnde afbeelding van Maxar.
+1. Vermeld duidelijk welke afbeelding geacht wordt de verwijzing te zijn waaraan al het andere zou moeten worden uitgelijnd. Laten we er in dit geval van uitgaan dat die verwijzing Bing is.
+2. Zorg ervoor dat alle reeds bestaande objecten die ook zichtbaar zijn op Bing zijn uitgelijnd op de afbeelding van Bing, d.i. lijn ze, indien nodig, opnieuw uit.
+3. Voeg nieuwe objecten toe uit de nu correct uitgelijnde afbeelding van Bing.
 
 Vaak worden mappers geïnstrueerd te zoeken naar _de minste inspanning_ als het aankomt op problemen met het uitlijnen van afbeeldingen. Wat betekent dat deelnemers wordt verteld hun benadering te variëren, afhankelijk van de situatie in hun individuele taak: 
 

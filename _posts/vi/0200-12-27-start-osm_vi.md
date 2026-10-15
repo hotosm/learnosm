@@ -11,46 +11,29 @@ Bắt đầu với OpenStreetMap.org
 
 > Cập nhật: 2017-10-31  
 
-Trong phần này, chúng ta sẽ học cách từng bước điều hướng trên website OpenStreetMap,
-xem bản đồ, và đăng ký một tài khoản người dùng.
-Sau khi bạn có tên đăng nhập và mật khẩu,
-bạn có thể bắt đầu đóng góp xây dựng bản đồ.
+In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
 
 ![Trang web][]
 
 Mở trang web OpenStreetMap
 -------------------------------
 
--   Trước khi bạn bắt đầu, hãy chắc chắn máy tính của bạn được kết nối internet.
-    (Trường hợp bạn đọc hướng dẫn này trực tuyến thì máy tính của bạn đã được kết nối!)
--   Mở trình duyệt web của bạn. Các trình duyệt web phổ biến là Firefox, Chrome, Opera, hoặc Internet Explorer.
-    Nếu nó đã được mở sẵn, hãy thêm một tab mới.
+-   Open your web browser.
 -   Gõ địa chỉ sau vào thanh địa chỉ phía trên của cửa sổ và nhấn Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   Khi trang web được tải đầy đủ, bạn sẽ nhìn thấy những thứ
-    như sau:
+-   When the page has finished loading, you should see something like this:
 
     ![Trang web OpenStreetMap với một số tính năng chính được liệt kê][]
 
 Điều hướng trên bản đồ
 ----------------
 
--   Bản đồ sẽ chiếm toàn bộ giao điện.
-    Di chuyển bản đồ bằng cách nhấn giữ trái chuột và
-    chuyển con trỏ (theo hình minh họa dưới đây).
+-   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
 
     ![Điều hướng bằng chuột][]
 
--   Nếu bạn có con chuột với bánh xe lăn, thực hiện phóng to và thu nhỏ bản đồ bằng cách lăn bánh xe.
-    Nếu bạn không có chuột có bánh xe lăn,
-    hãy sử dụng nút + và - ở góc trên bên phải bản đồ.
-    theo hình minh họa dưới đây)
--   Để tìm kiếm một địa điểm, nhấn chuột trái vào ô có nhãn “Search” ở góc trái của bản đồ
-    (theo hình minh họa phía trên).
-    Gõ tên thị trấn của bạn và nhấn Enter.
-    Một ô kết quả tìm kiếm sẽ hiện ra bên trái bản đồ.
-    Nhấn chuột vào dòng địa danh mà bạn muốn tìm.
-    Bản đồ sẽ tự động di chuyển đến vị trí bạn chọn.
+-   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
+-   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
 
     ![Tìm kiếm][]
    
@@ -58,89 +41,47 @@ Mở trang web OpenStreetMap
 Xem các loại hình bản đồ khác nhau
 ------------------------
 
-OpenStreetMap chứa đựng thông tin địa lý toàn cầu.
-Mặc dù đây chỉ là một cơ sở dữ liệu
-nhưng thông tin có thể được trình bày theo nhiều cách khác nhau.
-Để hiểu hơn về điều này, hãy xem các loại hình bản đồ có trên trang web của OSM.
+OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
 
 -   Nhấp chuột vào nút Layers ở phía phải của khung bản đồ.
 
     ![Nút Layers][]
 
--   Lựa chọn các hình thức bản đồ khác nhau để thấy bản đồ được thể hiện theo mỗi cách như thế nào.
-    Bản đồ giao thông, làm ví dụ, nhấn mạnh vào các lộ trình
-    trong khi bản đồ đường xe đạp lại nhấn mạnh các con đường dành cho xe đạp.
-    Tất cả các thông tin để có thể
-    thể hiện bản đồ đều nằm trong cơ sở dữ liệu OSM.
+-   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
 
     ![Bản đồ giao thông][]
 
 Tạo một tài khoản trên OpenStreetMap
 -------------------------------
 
--   Hiện tại, bạn đã thấy giao diện chính của trang chủ OSM như thế nào,
-    bạn có thể đăng ký một tài khoản người dùng
-    và bắt đầu thực hiện chỉnh sửa bản đồ.
--   Trên trang web của OpenStreetMap, nhấn vào “sign up”
-    góc trên bên phải của trang web.
+-   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
+-   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
 -   Một trang mới được hiển thị như sau:
 
     ![Đăng ký tài khoản người dùng OpenStreetMap][]
 
--   Có 5 ô chứa thông tin bạn phải điền
-    để đăng ký tài khoản người dùng trong OSM.
--   Nhập địa chỉ email của bạn trong 2 ô đầu tiên, lưu ý là 2 ô này phải giống nhau.
-    Sau này, bạn sẽ phải mở hòm thư của mình
-    để xác nhận việc đăng ký tài khoản người dùng với OpenStreetMap.
--   Trong ô thứ 3, điền tên tài khoản người dùng bạn muốn,
-    miễn là tên này chưa được đăng ký.
-    Bạn có thể sáng tạo hơn khi chọn tên tài khoản cho mình.
-    Nếu bạn chỉ điền những tên đơn giản như họ hay tên của bạn
-    thì có thể tên này đã có người đăng ký.
--   Nhập mật khẩu vào ô thứ 4 và thứ 5.
-    Mật khẩu được nhập phải giống nhau ở 2 ô này.
-    Không nhất thiết mật khẩu này trùng với mật khẩu email của bạn.
--   Nếu thấy cần thiết, bạn có thể ghi lại ra giấy
-    để sử dụng về sau.
--   Sau khi bạn đã nhập đầy đủ thông tin,
-    nhấn vào ô “Sign Up” ở phía dưới của trang này.
--   Nếu có bất kỳ lỗi gì, một thông báo lỗi sẽ hiện ra.
-    Hãy chắc chắn là bạn đã nhập cùng một email vào 2 ô trên cùng và
-    cùng một mật khẩu vào 2 ô phía dưới.
-    Nếu ô thứ 3 chuyển sang màu đỏ nghĩa là tên đăng nhập bạn chọn đã có người sử dụng,
-    bạn phải chọn tên khác.
--   Mở một cửa sổ trình duyệt khác để đăng nhập vào email của bạn.
-    Các trang web cung cấp email miễn phí phổ biến là [mail.yahoo.com](http://mail.yahoo.com)
-    và [www.gmail.com](http://www.gmail.com).
--   Đăng nhập vào hòm thư của bạn.
-    Lưu ý là địa chỉ email này không phải là tên đăng nhập
-    và mật khẩu OpenStreetMap của bạn.
--   Nếu bạn đăng ký thành công, bạn sẽ nhận được một email từ
-    OpenStreetMap giống như trong hình dưới đây.
-    Nhấp chuột vào liên kết trong email
-    để xác thực việc đăng ký:
+-   There are five boxes on this page that you need to fill in to register an account with OSM.
+-   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
+-   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
+-   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
+-   You may want to write down your OSM username and password. You will need it to log in later.
+-   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
+-   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you must try a different name.
+-   Have a look at your email.
+-   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
 
     ![Xác thực tài khoản OpenStreetMap][]
 
--   Một cửa sổ web mới được mở ra và nếu không có trục trặc gì,
-    bạn sẽ có một tài khoản người dùng OSM!
--   Ở trang web OpenStreetMap, nhấn chuột vào “log in” ở góc trên bên phải.
-    Nhập tên tài khoản người dùng (tên đăng nhập) OpenStreetMap và mật khẩu rồi gõ Enter.
-    Bây giờ, bạn đã đăng nhập vào hệ thống OSM và tên đăng nhập của bạn
-    góc trên bên phải của trang web.
+-   A new tab or window will open. If everything went well, you should have an OSM account!
+-   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
 
 Thêm các điểm nút đầu tiên của bạn vào bản đồ
 ------------------------
 
--   Hiện tại, bạn đã đăng nhập vào trang web OSM với tài khoản người dùng của mình,
-    bạn có thể sử dụng iD editor để thêm
-    điểm nút đầu tiên của mình lên bản đồ.
--   Di chuyển bản đồ đến khu vực bạn biết rất rõ như khu phố/ thị trấn của bạn.
-    Một cách đơn giản là di chuyển đến nhà hoặc văn phòng của bạn để chắc chắn chúng đã được vẽ trên bản đồ và nhập đúng địa chỉ. 
+-   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
+-   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
 -   Phóng to đến khu vực mà bạn muốn thêm điểm (có thể là nhà hàng hoặc tiệm tạp hóa gần bạn chưa được đưa lên bản đồ)
--   Ngay phía trên của bản đồ, bên trái,
-    là menu “Edit” với một tam giác nhỏ hướng xuống.
-    Nhấn vào tam giác đó và bạn sẽ thấy một menu dạng thả xuống.
+-   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
 -   Chọn “Edit with iD (in-browser editor)”.
 
     ![Nhấp chuột vào Edit][]
@@ -149,42 +90,26 @@ Thêm các điểm nút đầu tiên của bạn vào bản đồ
 
     ![iD editor][]
 
--   Bạn có thể thêm điểm nút vào bản đồ bằng cách nhấp chuột vào nút “Point”
-    ở phía trên bản đồ và sau đó,
-    nhấp chuột trên bản đồ vào vị trí mà bạn muốn đặt điểm nút mới.
+-   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
 
     ![Nút Point][]    
 
--   Chọn trong menu phía trái phân loại đối tượng mà bạn vừa đưa lên bản đồ.
-    Sau đó bạn có thể thêm các thông tin vào các trường tương ứng
-    như tên địa danh và các thông tin khác.
--   Để lưu các thây đổi của bạn, nhấp chuột vào nút “Save” ở phía trên.
-    Vì đây là lần đầu bạn chỉnh sửa bản đồ, bạn có thể thử các tính năng khác.
-    Lưu ý là không lưu bản đồ trừ phi bạn chắc chắn những gì mình chỉnh sửa là đúng.
+-   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
+-   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
 
     ![Nút Lưu/ Save][]    
 
--   Khi bạn nhấp chuột vào nút “Save”, bạn sẽ được yêu cầu cung cấp một số thông tin về những thay đổi bạn tạo ra.
-    Sau đó, nhấp chuột vào nút “Save” lần nữa để lưu các thay đổi của bạn
-    vào cơ sở dữ liệu của OSM!
+-   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
 
 
-Giao diện iD editor là cách thức dễ dàng nhất để chỉnh sửa bản đồ OSM, 
-và bạn có thể học cách sử dụng thêm với [Hướng dẫn sử dụng iD editor](/vi/beginner/id-editor/).
-Bạn cũng có thể sử dụng trình [tương tác iD editor](http://www.openstreetmap.org/edit?editor=id#walkthrough=true), 
-các thức tương tác tốt nhất để khám phá trình soạn thảo này.
+The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
 
-Tuy nhiên, trong phần sau, chúng ta sẽ xem xét đến [JOSM](/vi/josm/), một ứng dụng độc lập 
-cung cấp nhiều tiện ích hơn để chỉnh sửa bản đồ.
-Hãy tự do khám phá cách thức chỉnh sửa bản đồ với iD. 
-Khi bạn đã có nhiều kinh nghiệm hơn trong việc đóng góp vào OSM, bạn có thể lựa chọn trình biên tập bản đồ nào bạn muốn.
+However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
 
 Tóm lược
 -------
 
-Chúc mừng! Nếu mọi thứ diễn ra thuận lợi, hiện tại, bãn đã có một tài khoản người dùng trên OpenStreetMap,
-bạn đã biết cách điều hướng trên trang web OSM
-và biết cách thêm điểm nút vào bản đồ.
+Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
 
 
 

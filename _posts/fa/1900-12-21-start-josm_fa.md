@@ -16,8 +16,7 @@ published: true
 دانلود JOSM
 -------------
 
-- اگر نسخه‌ای از JOSM را روی فلش مموری یا CD دارید، می‌توانید به قسمت بعدی، یعنی نصب JOSM بروید.
-- اگر اکنون JOSM را ندارید، یا جدیدترین نسخه را می‌خواهید، مرورگر وب خود را باز کنید (مانند Firefox،‏ Chrome،‏ Opera یا Internet Explorer).
+- اگر اکنون JOSM را ندارید، یا جدیدترین نسخوب خود را باز کنید 
 - در نوار آدرس در بالای پنجره متن زیر را وارد کنید و Enter را فشار دهید: [josm.openstreetmap.de](http://josm.openstreetmap.de)
 - همچنین می‌توانید با جستجوی اینترنتی کلمهٔ JOSM، وبسایت JOSM را پیدا کنید.
 - وبسایت چیزی شبیه این است:
@@ -53,14 +52,13 @@ published: true
 
     ![Preferences window][]
 
-- در سمت چپ، روی آیکونی که مانند قوطی رنگ و قلموی نقاشی است کلیک کنید.
-- در بالای پنجره، روی زبانه با نام Look and Feel کلیک کنید.
+-   On the left side, click the language tab.
 - زبان خود را از منوی کشویی کنار کلمهٔ Language انتخاب کنید.
 
-    ![Look and feel][]
+    ![language][]
 
 - روی OK کلیک کنید.
-- برای ذخیره‌سازی تنظیمات باید JOSM را مجدداً باز کنید. روی File در گوشهٔ بالا سمت چپ کلیک کنید و روی Restart در نزدیکی پایین منو کلیک کنید.
+-   You need to restart JOSM to save your settings. Choose the respective option from the message box.
 
 یادگیری ترسیم‌های اولیه در JOSM
 -----------------------------
@@ -175,7 +173,7 @@ _بسیار مهم است که ابتدا لایهٔ حاوی دادهٔ نمو�
 
 [preferences window]: /images/josm/josm_preferences.png
 
-[look and feel]: /images/josm/josm_look-and-feel.png
+[language]: /images/josm/josm_language.png
 
 [open file]: /images/josm/josm_open-file.png
 

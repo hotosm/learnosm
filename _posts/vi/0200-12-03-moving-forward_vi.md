@@ -9,7 +9,7 @@ category: beginner
 Đọc thêm
 ===============
 
-> Cập nhật: 2017-10-31  
+> Reviewed 2020-05-08  
 
 Nếu bạn đã đọc đến chương này, xin chúc mừng! Bạn đã hiểu rõ về cách tạo bản đồ với OpenStreetMap. Bạn có thể làm gì khác với OSM? Làm sao bạn có thể học hỏi nhiều hơn? Bạn có thể kết nối với cộng đồng người lập bản đồ như thế nào?  
 
@@ -55,18 +55,16 @@ Cuộn xuống trang để tìm danh sách liên quan đến quốc gia của b�
 - Từ bây giờ bạn là một thành viên của danh sách gửi thư.  
 - Bây giờ khi bạn muốn gửi một tin nhắn đến danh sách, bạn có thể gửi nó tới [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), thay thế "id" với quốc gia cho danh sách của bạn. Bạn cũng sẽ nhận được email khi các thành viên khác gửi tin nhắn đến danh sách.  
 
-<!-- maybe expand and put this back later
-MapOSMatic
+
+Example of OSM use - MyOSMatic
 ----------
 
-Một dự án mang tên MapOSMatic, và bạn có thể truy cập theo đường link
-[maposmatic.org](http://www.maposmatic.org/).
-Đây là công cụ để đơn giản hóa việc in ấn bản đồ của một khu vực bất kỳ
-Công cụ sẽ giúp tạo ra bản đồ với lưới tọa độ và
-danh mục các địa điểm được bao gồm trên khu vực được in ra.
+One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
 
 
 TÓM LƯỢC
@@ -75,6 +73,6 @@ TÓM LƯỢC
 Đây là một số cách bạn có thể sử dụng và kết nối với cộng đồng OpenStreetMap và tìm hiểu thêm. Chúng tôi hy vọng bạn sẽ tiếp tục khám phá và học thêm về OSM và đóng góp cho dự án. Happy Mapping!
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

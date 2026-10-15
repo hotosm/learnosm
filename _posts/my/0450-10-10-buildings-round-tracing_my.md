@@ -9,19 +9,20 @@ category: hot-tips
 လုံးဝန်းသောပုံစံရှိသည့်အဆောက်အဦးများလိုက်ထပ်ရေးဆွဲခြင်း - iD editor
 ============
 
+> Updated 2019-06-24
+
 - TOC
 {:toc}
 
 အခြေခံလိုအပ်ချက်များ
 ----------
 
-![Round Buildings][]  
+![Round Buildings][]
 
-> ဤဓါတ်ပုံသည် ![keymon]{: height="24px"} မောက်စ်ပေါ်ရှိ ဘီး သို့မဟုတ် ခလုတ်များအသုံးပြုသွားပုံနှင့် ကီးဘုတ်ပေါ်ရှိမည်သည့်ခလုတ်များနှိပ်သွားသည်ကိုပြသခြင်းဖြစ်သည်။  
 
 မှတ်သားရန်အချက်များ -  
 
-- သင်၏အမှတ်များကို အဆောက်အဦး၏နံရံများနှင့်မြေကြီးထိစပ်နေသောနေရာများတွင်နေရာချပါ။ အမှတ်များသည် အနည်းဆုံး ၃ မှတ်ရှိရမည်။ ၎င်းအဆောက်အဦးကို လုံးဝန်းသောပုံစံ ပေါ်လာစေရန် အတွက် tool ကိုအသုံးပြုပါ။  
+- Place your points where the walls will reach the ground - 3 points is the minimum. Double click on the last point to finish tracing an area. Use the tool to make it round - shortcut **o** in English.  
 - သင် tag လုပ်ထားသည်ကိုသေချာပါစေ!  
 - အရွယ်အစားကိစ္စရပ်များ - *လူဦးရေခန့်မှန်းခြင်းများသည် ဧရိယာတစ်ခုအတွင်းရှိ တဖြည်းဖြည်း တိုးပွားလာသောအဆောက်အဦးဧရိယာအပေါ်တွင် မူတည်ပါသည်။*  
 - အသေးစိတ်များမြင်ရန်အတွက်မြင်ကွင်းချဲ့မှု - မြင်ကွင်းစကေးတစ်ခုသည် များသောအားဖြင့် ၂၀ မီတာ သို့မဟုတ် ထို့ထက်ပိုနည်းလျှင် မှန်ကန်ပါသည်။  
@@ -29,6 +30,16 @@ category: hot-tips
 - အဆောက်အဦးများနှင့်လမ်းများ၊ မြစ်များ၊ **မြေအသုံးချမှု= လူနေအိမ်နယ်နမိတ်များ(landuse=residential)** သို့မဟုတ် အခြားသောအင်္ဂါရပ်များသည် တစ်ခုနှင့်တစ်ခုထပ်လျက် အနေအထားမရှိသင့်ပါ။  
 - အကယ်၍သင့်အနေဖြင့် အမှားတစ်ခုကိုပြုလုပ်မိလျှင် သင်၏နောက်ဆုံးအခွင့်အရေး(များ)အနေဖြင့် ပြန်ပြင်ရန်အတွက် **Undo** ![back arrow]{: height="26px"} ခလုတ်ကိုအသုံးပြုပါ။  
 - ကျွန်ုပ်တို့အားလုံးသည် မြေပုံကိုတိုးတက်အောင်ပြုလုပ်နေကြပါသည်။ အကယ်၍ အရင်က ရေးဆွဲခဲ့သော မြေပုံဆွဲသူသည် အဆောက်အဦးများအား ရယ်စရာပုံသဏ္ဌာန်တစ်ခု သို့မဟုတ် တစ်နည်းနည်းဖြင့်မှားယွင်းရေးဆွဲထားခဲ့လျှင် အမှန်ပြင်လိုက်ပါ။ပြီးလျှင် ၎င်းတို့ကိုအသိပေးရန်အတွက် ယဉ်ကျေးသောသတင်းစကားတစ်ခုပေးပို့ရန်စဉ်းစားပါ။  
+
+Building - converting square to round
+-------------------------------------
+
+![Square to round][]  
+
+If a building has been traced as rectangular, but you can see it should be round it is easy to convert to a round building;
+
+- move each of the corners so they are now on the perimeter of the round building,
+- right click and use the circularise tool, or shortcut **o** - may be a different character in other languages.  
 
 အမျိုးအစားခွဲခြားသတ်မှတ်ခြင်း
 ---------------
@@ -57,6 +68,7 @@ category: hot-tips
 
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "Demonstration of mapping a round building"
+[Square to round]: /images/hot-tips/square-round-building.gif "Demonstrating changing a square to round building"  
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Round building next to a bush"
 [back arrow]: /images/beginner/back-arrow.png "Undo"
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"

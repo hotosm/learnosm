@@ -16,8 +16,7 @@ JOSM 입문하기
 JOSM 다운로드하기
 -------------
 
--   만약 CD나 USB 형태로 된 JOSM 프로그램 카피가 있다면, 'JOSM 설정' 단계로 바로 건너뛰세요.
--   아직 JOSM을 설치하지 않았거나, 최신 버전을 설치하고 싶으시다면 웹 브라우저(파이어폭스, 크롬, 오페라, 인터넷 익스플로러 등)를 여세요.
+-   If you don’t have JOSM already, or want the newest version, open your web browser.
 -   화면 위쪽의 주소 창에 [josm.openstreetmap.de](http://josm.openstreetmap.de)를 입력하세요.
 -   아니면 검색 엔진에 'JOSM'이라고 검색해서 JOSM 웹 사이트를 찾을 수도 있습니다.
 -   JOSM 웹 사이트는 다음과 같이 생겼습니다.
@@ -53,14 +52,13 @@ JOSM에는 많은 설정들이 있습니다. UI의 언어를 바꿀 수도 있�
 
     ![Preferences window][]
 
--   창 왼쪽에 있는 "언어" 아이콘을 클릭하세요.
--   창 위쪽의 "모양 및 기능"을 클릭하세요.
+-   On the left side, click the language tab.
 -   선택 박스를 클릭해서 원하는 언어를 선택하세요.
 
-    ![Look and feel][]
+    ![language][]
 
 -   확인을 클릭하세요.
--   설정을 변경하려면 JOSM을 재시작해야 합니다. 화면 왼쪽 위의 "파일"을 클릭하고, 메뉴 아래쪽의 "다시 시작"을 클릭하세요.
+-   You need to restart JOSM to save your settings. Choose the respective option from the message box.
 
 JOSM으로 기초적인 편집 하기
 -----------------------------
@@ -175,7 +173,7 @@ _그러려면 샘플 지도 데이터 레이어를 지워야 합니다.
 
 [preferences window]: /images/josm/josm_preferences.png
 
-[look and feel]: /images/josm/josm_look-and-feel.png
+[language]: /images/josm/josm_language.png
 
 [open file]: /images/josm/josm_open-file.png
 

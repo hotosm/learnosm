@@ -16,8 +16,7 @@ Hoe JOSM, de Java OpenStreetMap-bewerker, te downloaden en te installeren, enkel
 JOSM downloaden
 -------------
 
-- Als u al een kopie van JOSM op een CD of USB-drive hebt, kunt u doorgaan naar het volgende gedeelte, JOSM installeren.
-- Als u het programma JOSM nog niet hebt, of de nieuwste versie ervan wilt, open uw webbrowser - dat mag Firefox, Chrome, Opera, of Internet Explorer zijn.
+- Als u het programma JOSM nog niet hebt, of de nieuwste versie ervan wilt, open uw webbrowser.
 - Voer, in de adresbalk bovenin het scherm, het volgende in en druk op Enter: [josm.openstreetmap.de](https://josm.openstreetmap.de)
 -   U kunt ook zoeken naar de website van JOSM door op het internet te zoeken naar “JOSM”.
 -   De website zou er ongeveer zo uit moeten zien:
@@ -53,14 +52,13 @@ Er zijn veel verschillende instellingen in JOSM die u kunt aanpassen.  Één ins
 
     ![Preferences window][]
 
--   Klik, aan de linkerkant, op het pictogram dat er uitziet als een verfblik en kwast.
--   Klik, boven in het venster, op de tab “Weergave en vormgeving”.
+- Klik, aan de linkerkant, op het pictogram dat er uitziet als een verfblik en
 -   Kies uw taal in het keuzemenu naast het woord "Language".
 
-    ![Look and feel][]
+    ![language][]
 
 -   Klik op OK.
--   U moet JOSM opnieuw opstarten om uw instellingen op te slaan. Klik op “Bestand” in de linker bovenhoek en klik op “Opnieuw starten” nabij de onderzijde van het menu.
+- U moet JOSM opnieuw opstarten om uw instellingen op te slaan. Kies de respectievelijke optie uit het berichtenvak.
 
 Basis tekenen met JOSM leren
 -----------------------------
@@ -175,7 +173,7 @@ meer in detail kijken naar het proces van het bewerken van de kaart van OSM met 
 
 [preferences window]: /images/josm/josm_preferences.png
 
-[look and feel]: /images/josm/josm_look-and-feel.png
+[language]: /images/josm/josm_language.png
 
 [open file]: /images/josm/josm_open-file.png
 

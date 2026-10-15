@@ -2,242 +2,201 @@
 layout: doc
 title: iD Editor
 permalink: /id/beginner/id-editor/
-redirect_from:
-  - /bi/beginner/id-editor
-  - /bi/beginner/id-editor/
 lang: id
 category: beginner
 ---
 
 iD Editor
-==========
+=============
 
-> Caution, this guide is not completely up to date. The latest version is only available in [English](/en/beginner/id-editor/), [Español](/es/beginner/id-editor/), [Kiswahili](/sw/beginner/id-editor/) or [German](/de/beginner/id-editor/). To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
+> 2019-06-10
 
-iD editor adalah editor OpenStreetMap berbasis web baru (diluncurkan 2013) yang memudahkan kita untuk mengedit OpenStreetMap. iD begitu cepat dan mudah, dan memungkinkan Anda 
-untuk memetakan menggunakan berbagai macam sumber data seperti citra satelit, GPS, dan Field Papers.
+Ingin mulai memetakan menggunakan Tasking Manager untuk HOT atau MissingMaps? Lihat [HOT-tips section](/id/hot-tips/).  
 
-iD editor adalah cara yang tepat untuk mengedit ketika Anda ingin membuat perubahan kecil dan mudah, Anda tidak memerlukan semua kompleksitas dari JOSM. Bab ini mendemonstrasikan
-dasar-dasar mengedit dengan iD.
+- TOC
+{:toc}
+
+Pada dasarnya, iD editor adalah sebuah editor OpenStreetMap yang dapat dijalankan pada browser (browser-based). iD editor sangat mudah digunakan dan memungkinkan pengguna untuk dapat memetakan berdasarkan berbagai sumber data seperti satelit dan foto udara, GPS, Field Papers, atau Mapillary.   
+
+iD editor cocok digunakan jika Anda ingin melakukan editing kecil yang tidak membutuhkan fitur-fitur pada JOSM (perangkat editing tingkat lanjut). Bab ini akan menunjukkan pada Anda dasar-dasar editing dengan menggunakan iD editor.   
 
 Memulai iD Editor
------------------
-*	Untuk menggunakan iD Anda perlu terkoneksi ke internet.
-*	Buka browser internet Anda, dan pergilah ke situs OpenStreetMap di [http://www.openstreetmap.org](http://www.openstreetmap.org).
-*	**Login** menggunakan akun OpenStreetMap Anda
-*	Geser dan perbesar peta ke area yang Anda ingin edit.
-*	Klik pada tanda panah kecil di sebelah **Edit**. Kemudian klik **Edit with ID (in-browser editor)**.
+----------------------
+
+-	iD editor membutuhkan koneksi internet  
+-	Buka browser internet Anda, kemudian buka website OpenStreetMap pada halaman [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+-	**Login** menggunakan akun OpenStreetMap Anda  
+-	Arahkan dan perbesar tampilan peta Anda pada area yang ingin Anda petakan. Anda dapat menggeser peta dengan menekan dan menahan tombol klik kiri pada mouse dan geser tampilan peta pada area yang Anda inginkan.   
+-	Klik pada tanda panah kecil di sebelah tombol **Edit**. Kemudian klik **Edit with iD (in-browser editor)**.  
 
 ![image1][]
 
 
-Antarmuka Pengguna iD Editor 
------------------------------
+Tampilan Antar Muka iD Editor 
+-------------------------
 ![image2][]
 
-1. **Panel Fitur:** Panel ini menunjukkan tag dari objek yang terpilih pada peta. Anda dapat menambahkan atau mengedit tag dari panel ini.
-2. **Tools:** Panel ini menunjukkan tool dasar untuk mengedit: 
-	- Menggambar titik
- 	![image3][]
-	- Menggambar garis
- 	![image4][]
- 	- Menggambar poligon
- 	![image5][]
- 	- Undo
- 	![image6][]
- 	- Redo
- 	![image7][]
- 	- Menyimpan perubahan
- 	![image8][]
-3. **Panel Peta:** Panel ini menunjukkan berbagai fungsi konfigurasi:
-  	- Perbesar
- 	![image9][]
- 	- Perkecil
- 	![image10][]
- 	- Pergilah ke lokasi Anda
- 	![image11][]
- 	- Konfigurasi layer latar belakang 
- 	![image12][]
- 	- Buka menu bantuan
- 	![image13][]
-4. **Panel Informasi:** Panel ini menunjukkan berbagai informasi, seperti pengguna telah berkontribusi ke area tersebut. 
+1. **Edit Feature Panel:** Bagian ini menunjukkan informasi tag dari objek terpilih pada peta.   
+	Anda dapat menambahkan atau mengubah tag pada bagian ini.   
+2. **Tools:** Bagian ini menunjukkan alat-alat editing dasar:  
+    Gambar titik (node), *tombol pintas* **1** ![image3][]{: height="24px"}  
+    Gambar garis (way), *tombol pintas* **2** ![image4][]{: height="24px"}  
+    Gambar area (polygon), *tombol pintas* **3** ![image5][]{: height="24px"}  
+    Undo, *tombol pintas* **Ctrl+z** ![image6][]{: height="24px"}  
+    Redo, *tombol pintas* **Ctrl+y** ![image7][]{: height="24px"}  
+    Simpan perubahan, *tombol pintas* **Ctrl+s** ![image8][]{: height="32px"}  
+3. **Panel Peta;** Panel ini memperlihatkan berbagai fungsi konfigurasi:  
+    Perbesar tampilan, *shortcut key* **+** ![image9][]{: height="24px"}  
+    Memperkecil tampilan, *shortcut key* **-** ![image10][]{: height="24px"}  
+    Pergi ke lokasi Anda ![image11][]{: height="24px"}  
+    Konfigurasikan latar belakang , *shortcut key* **b** ![image12][]{: height="24px"}  
+    Data Peta, *shortcut key* **f** ![Data Peta ][]{: height="24px"}  
+    Isu, *shortcut key* **i** ![Isu][]{: height="24px"}  
+    Buka Menu Bantuan, *shortcut key* **h** ![image13][]{: height="24px"}  
+4. **Information panel:** Panel ini menunjukkan berbagai macam informasi, seperti skala dan kontributor yang sudah memetakan area tersebut.  
 
-Mengkonfigurasi Layer Latar Belakang
-------------------------------------
-Sebelum Anda mulai mengedit, Anda dapat mengubah layer latar belakang.
+## Mengatur Background Layer atau Lapisan Latar Belakang
 
-*	Klik tombol **Background settings**
+Klik tombol **Background settings** atau gunakan *shortcut key* **b**.![image14][]{: height="24px"}  
+![image15][]  
+Anda dapat **mengubah latar belakang** berdasarkan tampilan citra satelit yang tersedia (tampilan awal adalah Citra Satelit Bing).   
 
-![image14][]
+Anda dapat menambahkan map tiles Anda sendiri dengan mengklik **Custom**. Misalnya, Jka Anda ingin **menambahkan Field Paper** [^fieldpaper], klik **Custom** lalu klik ikon kaca pembesar (search) untuk membuka jendela berikut:-  
+![image17][]   
+dan masukkan **URL snapshot FieldPaper** Anda, yang tampak seperti ini: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
+Untuk  **menampilkan trek GPS dari komputer Anda** (format GPX), tarik dan jatuhkan (drag and drop) file GPX ke dalam iD editor.  
+Untuk mengaktifkan **jejak GPS di OpenStreetMap** klik pada kotak. Pada gambar di bawah, data GPS akan ditampilkan dalam berbagai warna, menunjukkan arah trek yang tersedia.   
+![osm gps traces][]  
+Untuk mengubah **tampilan citra satelit** klik **Display Options**.  
+![DisplayOptions][]  
+Jika terdapat [citra yang offset](/id/josm/aerial-imagery), Anda dapat **memperbaiki offset citra** dengan mengklik **Adjust imagery offset**.  
+![image18][]  
 
-*	Anda akan melihat sebuah panel seperti ini:
+- Klik tombol navigasi untuk memindahkan citra satelit. Klik tombol reset untuk mengembalikannya ke posisi semula. ![image20][]  
 
-![image15][]
- 
-*	Anda dapat mengubah **tingkat kecerahan** dengan mengklik salah satu kotak ini: 
+Editing Dasar dengan iD Editor  
+----------------------  
 
-![image16][]
+### Menambahkan Titik  
 
-*	Terdapat tiga tingkat kecerahan yang berbeda - 100%, 50%, dan 0%. Klik semua tingkat tersebut untuk melihat perbedaannya.
-*	Anda juga dapat **mengubah layer latar belakang** berdasarkan pada penyedia tile yang Anda inginkan.
-	(standar adalah Citra Satelit Bing). Cobalah berbagai pilihan yang tersedia dari daftar ini.
-*	Anda dapat menambahkan tiles peta Anda sendiri dengan mengklik pada **Custom**.
-*	COntohnya, jika Anda ingin **menambahkan Field Paper**, klik **Custom** dan masukan **FieldPaper snapshot URL** Anda, akan menjadi seperti ini:
+Untuk menambahkan titik baru, klik pada tombol **Titik**. ![image3][]{: height="24px"}  
 
-	[http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715](http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715)
+- Kursor mouse Anda akan berubah menjadi tanda plus (+). Sekarang, klik pada posisi dimana Anda menandai sebuah lokasi. Sebagai contoh, jika Anda mengetahui lokasi Rumah Sakit di area anda, klik pada posisi bangunan rumah sakit tersebut.   
+![image21][]  
+- Perhatikan bahwa sebuah titik baru telah ditambahkan. Di saat yang bersamaan, panel di sebelah kiri Anda akan menampilkan formulir dimana Anda dapat memilih atribut objek. Klik **Hospital Grounds** untuk menandai titik tersebut sebagai rumah sakit.   
+![image22][]  
+- Anda dapat menggunakan formulir ini untuk mengisi informasi detail tentang titik Anda. Anda dapat mengisi nama rumah sakit, alamat, dan/atau informasi tambahan lainnya. Perhatikan bahwa setiap fitur akan memiliki pilihan yang berbeda, tergantung pada tag apa yang Anda pilih dari panel fitur.   
+- Jika Anda membuat kesalahan, seperti kesalahan lokasi, Anda dapat memindahkan titik Anda ke lokasi yang benar dengan cara menekan dan menahan tombol klik kiri mouse pada titik yang ingin Anda pindahkan kemudian geser titik tersebut. Atau, jika Anda ingin menghapus titik, kllik kiri mouse Anda pada titik yang diinginkan, kemudian aktifkan menu tambahan dengan menekan tombol klik kanan dan pilih tombol dengan gambar tempat sampah. ![PointToolDelete][]{: height="24px"}  
+Sebuah "titik" yang dibuat di iD editor biasanya adalah sebuah "node" yang berdiri sendiri dengan serangkaian "tags" di dalamnya.  
 
-![image17][]
+### Menggambar Garis  
 
-*	Anda juga dapat **menampilkan trek GPS dari komputer Anda** (format GPX). Ini sangat mudah - hanya menggeser file GPX ke dalam iD editor.
-*	Jika terdapat [citra offset](/id/editing/aerial-imagery), Anda dapat **memperbaiki citra offset** dengan mengklik Fix Misalignment.
+Untuk menambahkan garis, klik pada tombol **Garis**. ![image4][]{: height="24px"}  
 
-![image18][]
+-  Kursor mouse Anda akan berubah menjadi tanda plus (+). Cari objek jalan yang belum digambarkan di peta lalu gambarkan objek jalan tersebut. Klik satu kali pada titik dimana segmen jalan tersebut dimulai, gerakan mouse Anda, dan klik lagi untuk menambahkan titik berikutnya Klik dua kali untuk mengakhiri proses menggambar. Perhatikan panel yang ada di sebelah kiri.  
+![image24][]  
+- Sama seperti objek titik, pilih tag yang sesuai untuk objek garis Anda.   
+- Anda dapat menggeser titik yang ada pada objek garis dengan meng-klik kiri mouse Anda pada titik yang dituju lalu geser titik tersebut.  
+- Ketika Anda klik kiri mouse pada titik di objek garis, klik kanan pada mouse atau tekan tombol spasi untuk mengaktifkan menu tambahan, seperti berikut:  
+  - Melanjutkan garis dari titik ini ![PointToolContinue][]{: height="24px"}  
+  - Putuskan garis pada titik ini ![PointToolDisconnect][]{: height="24px"}  
+  - Membagi garis menjadi dua pada titik ini. ![PointToolSplit][]{: height="24px"}  
+  - Menghapus titik dari garis. ![PointToolDelete][]{: height="24px"}  
+- Ketika Anda klik kiri mouse pada sebuah garis (bukan pada titik dari garis), Anda akan melihat beberapa alat seperti berikut:  
+  -   Membuat lingkaran dari garis (hanya aktif jika garis tertutup) ![LineToolCircularize][]{: height="24px"}  
+  -   Memutuskan garis dari objek lain ![LineToolDisconnect][]{: height="24px"}  
+  -   Memindahkan garis ![LineToolMove][]{: height="24px"}  
+  -   Kotakan suluruh sudut ![LineToolSquare][]{: height="24px"}  
+  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
+  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
+  -   Memutarbalikan arah garis (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
+  -   Memutar garis pada pusatnya ![LineToolRotate][]{: height="24px"}  
+  -   Meluruskan garis ![LineToolStraighten][]{: height="24px"}  
+  -   Menghapus garis. ![LineToolDelete][]{: height="24px"}  
 
-*	Klik tombol navigasi untuk memindahkan citra. Klik tombol reset untuk kembali ke posisi awal.
+A "line" created in the iD editor is actually a "way" with "tags" on it.
 
-![image20][]
+>Catatan khusus tentang **Menghapus**: Umumnya Anda harus menghindari untuk menghapus hasil pemetaan orang lain jika objek tersebut hanya butuh sedikit perbaikan. Anda dapat menghapus hasil kesalahan Anda sendiri, tapi sebaiknya Anda harus *memperbaiki* objek hasil pemetaan orang lain jika dibutuhkan. Hal ini menjaga rekam jejak dari objek yang ada di database OSM dan juga untuk menghargai sesama pemeta. Jika Anda merasa bahwa sebuah objek benar-benar harus dihapus, harap pertimbangkan untuk menanyakannya dulu kepada si pembuat atau salah satu daftar email OSM yang tersedia. 
 
-Dasar-Dasar Mengedit dengan iD
-------------------------------
-Sebelum kita mulai mempraktekkan dengan iD, **geser dan perbesar ke lokasi yang Anda kenal**. Anda dapat menggeser dengan menahan tombol mouse sebelah kiri dan menggeser peta ke daerah
-yang Anda inginkan.
+### Menggambar Area (Poligon)
 
-### Menambahkan Titik
-*	Untuk menambahkan titik baru, klik pada tombol **Point**.
+To add a new multi-sided shape, click on the **Area** button. ![image34][]{: height="24px"}  
 
-![image3][]
+- Kursor mouse Anda akan berubah menjadi tanda plus (+). Cobalah untuk menggambar bangunan menggunakan citra satelit sebagai panduan Anda.   
+- Anda akan melihat bahwa perubahan warna dari bentuk yang Anda gambar akan bergantung pada atribut yang Anda berikan.   
+![image35][]  
+- Alat-alat yang digunakan adalah akan tersedia jika Anda memilih sebuah poligon dan mengaktifkan menu tambahan dengan mengklik tombol klik kanan pada mouse.   
 
-*	Kursor mouse Anda akan berubah menjadi tanda plus (+). Sekarang, klik pada posisi yang Anda ketahui untuk menandakan sebuah lokasi. Contohnya, jika Anda mengetahui bahwa terdapat
-	sebuah rumah sakit di daerah Anda, klik pada bangunan rumah sakit.
+Sebuah "poligon" dalam iD editor adalah sebuah "garis yang tertutup" dengan tag di dalamnya.
 
-![image21][]
+### Menggambar Multipoligon
 
-*	Perhatikan bahwa sebuah titik baru yang ditambahkan. Pada saat yang sama, panel di bagian kiri akan berubah untuk menampilkan bentuk dimana Anda dapat memilih atribut pada
-	sebuah objek. Klik **HOspital** untuk memberi tag pada titik sebagai rumah sakit.
+Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
 
-![image22][]
+![create multipolygon][]
 
-*	Anda dapat menggunakan kolom isian untuk mengisi informasi secara rinci mengenai titik Anda. Anda dapat mengisi nama rumah sakit, alamat, dan/atau informasi tambahan lain. Catatan
-	bahwa setiap fitur memiliki kolom isian yang berbeda, tergantung pada tag apa yang Anda pilih dari panel fitur.
-*	Jika Anda membuat kesalahan, seperti memasukkan lokasi yang salah, Anda dapat menggeser titik Anda ke lokasi baru dengan menahan tombol mouse sebelah kiri pada titik Anda. Atau,
-	jika Anda ingin menghapus titik Anda dengan tombol mouse sebelah kiri pada titik dan kemudian klik tombol yang terlihat seperti tempat sampah.
-	
-![image23][]
+When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
 
-Sebuah "titik" yang dibuat pada iD editor yang sebenarnya sebuah "titik" yang berdiri sendiri dengan perangkat "tags" di dalamnya.
+![part of multipolygon][]
 
-### Menggambar Garis
-*	Untuk menambahkan garis baru, klik pada tombol "Line".
+## Issues
 
-![image4][]
+Editor akan melakukan pengecekan ketika Anda melakukan suatu perubahan. Jika editor menganggap bahwa terjadi masalah pada data Anda, editor akan memberitahukan hal tersebut di tab isu. Kapanpun ikon isu pada sebelah kanan memunculkan warna titik kuning (untuk warning) atau titik merah (untuk eror) Anda sebaiknya membuka tab isu dan lihat laporan apa yang tersedia. Informasi ini juga akan muncul pada tab fitur objek di sebelah kiri jika sebuah objek sedang terpilih. Anda juga akan diberi peringatan apabila terdapat masalah yang belum diselesaikan saat Anda ingin mengunggah data. 
 
-*	Kursor mouse Anda akan berubah menjadi tanda plus (+). Mencari sebuah jalan yang belum tergambar di dalam peta dan menelusurinya. Klik sekali pada sebuah titik dimana segmen jalan
-	dimulai, pindahkan mouse Anda, dan klik untuk menambahkan titik tambahan. Klik dua kali untuk mengakhiri proses menggambar. Perhatikan pada bagian kiri.
+![Issue][] ![Error][]
 
-![image24][]
+Bagian bawah dari tab isu menunjukkan beberapa aturan yang tersedia dan memungkinkan Anda untuk menon-aktifkan nya jika Anda rasa hal tersebut tidak sesuai. 
 
-*	Sama halnya dengan titik, pilih tag yang sesuai untuk garis Anda.
-*	Anda dapat menggeser titik dari garis dengan mengklik tombol mouse sbeelah kiri pada titik dan menggesernya.
-*	Anda juga dapat memindahkan garis seluruhnya dengan memilihnya, memilih **tool Move**. Kemudian menggeser garis ke posisi baru.
+Menyimpan Perubahan
+--------------------
 
-![image30][]
+Jika Anda ingin menyimpan hasil perubahan Anda ke dalam OpenStreetMap, klik tombol **Save**. Panel di sebelah kiri akan menampilkan panel unggah (upload).  
+![image36][]  
 
-*	Ketika Anda mengklik tombol mouse sebelah kiri pada titik dari garis, Anda akan melihat tool ini:
+- Tulis komentar Anda mengenai hasil edit Anda dan klik **Simpan**.  
 
-	- Menghapus titik dari garis 
-	![image23][]
-	- Memutus koneksi titik dari garis 
-	![image26][]
-	- Memotong garis menjadi dua garis dari titik yang Anda telah pilih
-	![image27][]
+> Jika anda melakukan perubahan terhadap objek yang sama (titik, garis atau area) dengan orang lain, Anda akan menerima pemberitahuan bahwa hasil perubahan Anda tidak dapat diunggah sampai Anda dapat menyelesaikan **konflik** - pilih hasil perubahan siapa yang ingin diterapkan & unggah perubahan Anda. *Menyelesaikan konflik seringkali melibatkan orang lain untuk menerima hasil perubahan orang lain, dimana Anda mungkin berharap hal ini tidak terjadi sehingga anda bisa memetakan objek lain (**kali ini simpan segera hasil perubahan Anda dan cobalah untuk menghindari konflik dengan data milik orang lain!**).*
 
-*	Ketika Anda mengklik tombol mouse sebelah kiri Anda pada garis, Anda akan melihat tool ini:
+Informasi Tambahan dan Penyesuaian Tag
+---------------------------------------
 
-	- Menghapus garis 
-	![image23][]
-	- Membuat sebuah lingkaran dari sebuah garis (hanya diaktifkan jika garis tertutup)
-	![image29][]
-	- Memindahkan garis
-	![image30][]
-	- Membentuk sebuah persegi dari sbeuah garis (hanya diaktifkan jika garis tertutup)
-	![image31][]
-	- Membalikkan arah garis 
-	![image32][]
+Ketika Anda memetakan sebuah objek, Anda akan melihat menu "Add Field" di bagian bawah dari panel atribut. Anda dapat menambahkan berbagai macam informasi tambahan dengan memilih salah satu isian (layer, ketinggian, wikipedia etc.).  
 
-Sebuah "garis" dibuat dalam iD editor yang sebenarnya sebuah "garis" dengan "tags" di dalamnya.
+![AdditionalTags][]
 
->A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first.  
+Atau Anda dapat menambahkan tag tertentu dengan cara meng-kllik tombol **All tags**. ![image44][]{: height="24px"}  
 
-### Menggambar Poligon
-*	Untuk menambahkan poligon baru, klik pada tombol **Area**.
+- Ini akan menampilkan seluruh tag terkait fitur tersebut.  
+![image45][]  
+- Klik tanda plus (+) untuk menambahkan key dan value atau klik tombol tempat sampah untuk menghapus tag. 
 
-![image34][]
+Tutorial lebih lanjut
+------------------
 
-*	Kursor mouse Anda akan berubah menjadi tanda plus (+). Cobalah untuk mendijitasi bangunan menggunakan citra 
-	sebagai panduannya.
-*	Anda akan melihat bahwa warna pada poligon Anda akan berubah menyesuaikan pada atribut yang Anda tentukan.
+[Halaman luar kami](/id/resources/#iD) menyediakan tautan ke video tutorial dari berbagai macam sumber.
 
-![image35][]
+iD versus JOSM
+---------------  
 
-*	Tools yang tersedia ketika Anda memilih sebuah poligon yang hampir apabila Anda mengklik pada sebuah garis.
+**iD baik digunakan untuk...**
 
-Sebuah "poligon" pada iD editor sebenarnya sebuah "garis tertutup" dengan tag di dalamnya.
+- Ketika Anda melakukan edit sederhana  
+- Ketika Anda memiliki internet yang cepat untuk memuat citra satelit dan menyimpan hasil perubahan  
+- Ketika Anda ingin mengikuti skema tagging yang simpel dan konsisten  
+- Ketika Anda memiliki keterbatasan untuk melakukan instalasi program pada komputer yang Anda gunakan
 
-Menyimpan Perubahan Anda
-------------------------
-*	Ketika (dan jika) Anda ingin menyimpan editan Anda ke OpenStreetMap, klik tombol **Save**. Panel di bagian kiri akan
-	menampilkan panel upload.
+**JOSM lebih baik...**
 
-![image36][]
+- Ketika Anda menambahkan banyak bangunan (Lihat buildings_tool plugin)
+- Ketika Anda mengedit banyak poligon atau garis yang sudah ada
+- Ketika Anda berada pada koneksi internet yang buruk atau bahkan offline
+- Ketika Anda menggunakan skema tagging yang spesifik (atau bahkan preset buatan sendiri)
 
-*	Masukkan komentar mengenai editan Anda dan klik **Save**.
-
-Informasi Tambahan dan Tag Kustom
-----------------------------------
-*	Ketika Anda mengedit sebuah objek, Anda akan melihat sebuah ikon di bagian bawah panel atribut. Anda dapat menambahkan informasi tambahan dengan mengklik ikon ini:
-
-	- Menambah ketinggian 
- 	![image37][]
- 	- Menambah catatan 
- 	![image38][]
- 	- Menambah kontak/nomor telepon
- 	![image39][]
- 	- Menambah tag sumber 
- 	![image40][]
- 	- Menambah situs 
- 	![image41][]
- 	- Menambah informasi aksesibilitas 
- 	![image42][]
- 	- Menambah tautan Wikipedia
- 	![image43][]
-
-*	Atau, Anda dapat menambah tag kustom dengan mengklik **semua tags**.
-
-![image44][]
-
-*	Ini akan menunjukkan semua tag yang terpasang ke fitur.
-
-![image45][]
-
-*	Klik tanda plus (+) untuk menambahkan key dan value atau klik ikon tempat sampah untuk menghapus tag.
-
-ID versus JOSM
----------------
-iD baik digunakan untuk...
-
-*	Ketika Anda melakukan editan sederhana
-*	Ketika Anda memiliki internet cepat untuk memuat citra dan menyimpan editan
-*	Ketika Anda ingin pastikan untuk mengikuti skema tag yang konsisten dan sederhana
-
-JOSM lebih baik digunakan untuk...
-
-*	Ketika Anda menambahkan banyak bangunan (tool bangunan di JOSM yang terbaik untuk itu)
-*	Ketika Anda menambahkan banyak poligon atau garis yang sudah tersedia
-*	Ketika Anda berada dikoneksi internet yang tidak dapat diandalkan atau offline
-*	Ketika Anda menggunakan skema tag tertentu (atau kustom preset)
+[^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
 
 
-[image1]: /images/beginner/id-editor_image1.png
+
+[image1]: /images/beginner/id-editor_image1.png 
 [image2]: /images/beginner/id-editor_image2.png
 [image3]: /images/beginner/id-editor_image3.png
 [image4]: /images/beginner/id-editor_image4.png
@@ -249,36 +208,41 @@ JOSM lebih baik digunakan untuk...
 [image10]: /images/beginner/id-editor_image10.png
 [image11]: /images/beginner/id-editor_image11.png
 [image12]: /images/beginner/id-editor_image12.png
+[Map Data]: /images/beginner/id-editor_map_data.png
+[Issues]: /images/beginner/id-editor_issues.png
 [image13]: /images/beginner/id-editor_image13.png
 [image14]: /images/beginner/id-editor_image14.png
 [image15]: /images/beginner/id-editor_image15.png
-[image16]: /images/beginner/id-editor_image16.png
+[DisplayOptions]: /images/beginner/id-editor_display-options.png
 [image17]: /images/beginner/id-editor_image17.png
 [image18]: /images/beginner/id-editor_image18.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
 [image21]: /images/beginner/id-editor_image21.png
 [image22]: /images/beginner/id-editor_image22.png
-[image23]: /images/beginner/id-editor_image23.png
 [image24]: /images/beginner/id-editor_image24.png
-[image25]: /images/beginner/id-editor_image25.png
-[image26]: /images/beginner/id-editor_image26.png
-[image27]: /images/beginner/id-editor_image27.png
-[image28]: /images/beginner/id-editor_image28.png
-[image29]: /images/beginner/id-editor_image29.png
-[image30]: /images/beginner/id-editor_image30.png
-[image31]: /images/beginner/id-editor_image31.png
-[image32]: /images/beginner/id-editor_image32.png
-[image33]: /images/beginner/id-editor_image33.png
+[PointToolContinue]: /images/beginner/id-editor_point-tool-continue.png
+[PointToolDelete]: /images/beginner/id-editor_point-tool-delete.png
+[PointToolDisconnect]: /images/beginner/id-editor_point-tool-disconnect.png
+[PointToolSplit]: /images/beginner/id-editor_point-tool-split.png
+[LineToolCircularize]: /images/beginner/id-editor_line-tool-circularize.png
+[LineToolDelete]: /images/beginner/id-editor_line-tool-delete.png
+[LineToolDisconnect]: /images/beginner/id-editor_line-tool-disconnect.png
+[LineToolMove]: /images/beginner/id-editor_line-tool-move.png
+[LineToolReflectLong]: /images/beginner/id-editor_line-tool-reflect-long.png
+[LineToolReflectShort]: /images/beginner/id-editor_line-tool-reflect-short.png
+[LineToolReverse]: /images/beginner/id-editor_line-tool-reverse.png
+[LineToolRotate]: /images/beginner/id-editor_line-tool-rotate.png
+[LineToolSquare]: /images/beginner/id-editor_line-tool-square.png
+[LineToolStraighten]: /images/beginner/id-editor_line-tool-straighten.png
 [image34]: /images/beginner/id-editor_image34.png
 [image35]: /images/beginner/id-editor_image35.png
+[Issue]: /images/beginner/id-editor_issue.png
+[Error]: /images/beginner/id-editor_error.png
 [image36]: /images/beginner/id-editor_image36.png
-[image37]: /images/beginner/id-editor_image37.png
-[image38]: /images/beginner/id-editor_image38.png
-[image39]: /images/beginner/id-editor_image39.png
-[image40]: /images/beginner/id-editor_image40.png
-[image41]: /images/beginner/id-editor_image41.png
-[image42]: /images/beginner/id-editor_image42.png
-[image43]: /images/beginner/id-editor_image43.png
+[AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
+[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
+[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
+[osm gps traces]: /images/beginner/id-editor_gps_public.png

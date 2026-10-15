@@ -9,7 +9,6 @@ category: josm
 JOSM Building Tools & Utilsplugin2 플러그인
 ============
 
-> 2016-09-12에 검토됨  
 
 **buildings_tools**와 **utilsplugin2** 플러그인은 훌륭한 부가 기능을 JOSM에 추가해 주는 플러그인입니다. 이 장에서는 두 플러그인이 제공하는 부가 기능을 자세히 알아보겠습니다.  
 
@@ -26,6 +25,8 @@ Buildings Tools 플러그인은 건물을 디지털화하는 데 매우 큰 도�
 
 JOSM을 켜고 건물을 그릴 영역을 다운로드하세요.  
 
+### Rectangular Buildings
+
 * 건물 도구를 선택하고 마우스 클릭 두 번으로 선을 그리세요.  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ JOSM을 켜고 건물을 그릴 영역을 다운로드하세요.
 ![Extend building][]
 
 * 마우스 버튼 클릭 세 번만으로 직사각형뿐만 아니라 **building=yes** 태그까지 추가되었습니다.  
+
+### Circular Buildings
+
+* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+
+![Round building][]
 
 ### 복잡한 모양의 건물
 
@@ -50,7 +57,7 @@ JOSM을 켜고 건물을 그릴 영역을 다운로드하세요.
 
 플러그인의 기본 설정을 바꿀 수도 있습니다.  
 
-* 데이터->건물 크기 설정으로 들어갑니다. ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * 비슷한 크기의 건물을 여러 개 만들고 싶으시다면, 건물의 가로 세로 값(예를 들어, 6 x 10 미터)을 설정하면 됩니다(단위는 미터입니다).  
 
@@ -80,7 +87,7 @@ Utilsplugin2
 
     ![Nodes interesection][]
 
-2. **기존에 선택한 개체의 태그 붙여넣기:**  이 기능을 활용하면 태그를 더 쉽게 붙여넣을 수 있습니다. 만약 동일한 태그를 가지는 개체를 여러 개 그리고 싶으시다면, 먼저 개체를 그린 후 그 중 하나에 태그를 붙여넣으세요.  그러고 나서 나머지 개체를 선택한 후 Shift + R 단축키를 누르면 기존에 선택했던 개체의 태그가 붙여넣어집니다. 기존의 개체에 태그가 없었다면, 붙여넣기가 되지 않는다는 점을 기억하세요.  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 
@@ -119,4 +126,5 @@ Utilsplugin2
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Round building]: /images/josm/buildings_tools-round.png
 

@@ -9,7 +9,7 @@ category: beginner
 Dalsza lektura
 ===============
 
-> Przejrzano 2015-07-12  
+> Reviewed 2020-05-08  
 
 Gratulacje, że udało Ci się zajść aż tutaj! Powinieneś teraz mieć spore rozeznanie, jak tworzyć mapy w OpenStreetMap. Co jeszcze możesz robić z OpenStreetMap? Jak możesz nauczyć się więcej? Jak pozostać w kontakcie ze społecznością maperów?  
 
@@ -55,18 +55,16 @@ Przewiń stronę w dół, aby znaleźć listę powiązaną z Twoim krajem. Listy
 - Powinieneś teraz być członkiem listy dyskusyjnej.  
 - Teraz, kiedy będziesz chciał wysłać wiadomość na listę, możesz ją wysłać do [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), zastępując "id", kodem kraju swojej listy. Otrzymasz również wiadomość, kiedy inni członkowie wyślą wiadomość na listę.  
 
-<!-- maybe expand and put this back later
-MapOSMatic
+
+Example of OSM use - MyOSMatic
 ----------
 
-One such project is called MapOSMatic, which you can access through your
-internet browser at [maposmatic.org](http://www.maposmatic.org/). This
-is a simple tool for printing a map of any area you choose. It will
-automatically create the map, along with a grid over the map, and an
-index of locations that are included in the area.
+One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
 
 
 Podsumowanie
@@ -75,6 +73,6 @@ Podsumowanie
 Jest kilka sposobów na pozostanie w kontakcie ze społecznością OpenStreetMap i nauczenia się nowych rzeczy. Mamy nadzieję, że będziesz dalej poszukiwał i dowiadywał się więcej o OSM, a także wesprzesz projekt. Wesołego mapowania!
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

@@ -9,89 +9,93 @@ category: osm-data
 QGIS ထဲတွင် OSM ဒေတာများအားအသုံးပြုခြင်း
 =================
 
-> Reviewed 2015-07-19
 
 QGIS (formerly Quantum GIS) သည် feature များအစုံအလင်ပါဝင်ပြီး လွယ်ကူစွာ အခမဲ့မျှဝေ သုံးစွဲနိုင်သော ပထဝီဝင်ဆိုင်ရာ အကြောင်းအရာ အချက်အလက်များနှင့်သက်ဆိုင်သည့် cross-platform စနစ်တစ်ခု ဖြစ်ပါသည်။ မည်သည့် အချိန်တွင်မဆို သင့်အနေဖြင့် QGIS ကို အသုံးပြုပြီး up-to-date ဖြစ်သော OSM ဒေတာများ ကို ရယူ အသုံးပြုနိုင်ပါသည်။ ထို့အပြင် QGIS ကို အသုံးပြု၍ ၎င်းဒေတာ များကို အလွယ်တကူ အသုံးပြု၍ရသော SQLite database (သို့) Shapefile အနေဖြင့် လွယ်ကူ စွာ ထုတ်ယူနိုင်သလို သင်ပါဝင်စေချင်သော tags များကို လည်း ရွေးချယ်နိုင်ပါသည်။  
 
-ဤအခန်းတွင် ကျွန်ုပ်တို့အနေဖြင့် ပြုလုပ်ရန်လိုအပ်သည့်အဆင့်များကို ဖော်ပြသွားလိမ့်မည်ဖြစ်ပါသည်။ သင့်အနေဖြင့် QGIS 2.x ကို download လုပ်ပြီး install ပြုလုပ်ပြီးပြီဟု ကျွန်ုပ်တို့ ယူဆပါသည်။ အကယ်၍ မပြုလုပ်ရသေးဘူးဆိုလျှင် ဆော့လ်ဖ်ဝဲလ်ကို <http://www.qgis.org/en/site/forusers/download.html> မှ download ပြုလုပ်၍ ရယူနိုင်ပါသည်။  
+In this chapter we'll walk through the steps necessary to do this. We assume that you've already downloaded and installed QGIS 3.x. If you haven't already done this, you can download it from <http://www.qgis.org/en/site/forusers/download.html>.  
 
-QGIS ထဲတွင် ကျွန်ုပ်တို့ စိတ်တိုင်းကျ ဆွဲတင်ထားသည့် up-to-date ဖြစ်သော OSM layers များကို ရယူနိုင်ရန်အတွက်**.osm** ဆိုသည့် raw format များအနေဖြင့် မကြာသေးသော အချိန်ကာလမှ ရရှိထား သော OSM ဒေတာများကိုကျွန်ုပ်တို့ ပထမဆုံးရယူ ရလိမ့်မည် ဖြစ်ပါသည်။ ထို့နောက် ၎င်းဒေတာများကို ကျွန်ုပ်တို့၏ system ပေါ်ရှိ ဖိုင်တစ်ခုထဲတွင် သိမ်းဆည်းထားပြီး သေးငယ်ပေါ့ပါးသည့် database system တစ်ခု ဖြစ်သော SQLite database တစ်ခု အဖြစ်သို့ ပြောင်းလဲရလိမ့်မည်ဖြစ်သည်။ နောက်ဆုံး တွင် ကျွန်ုပ်တို့ ရယူအသုံးပြုချင်သော အညွှန်း (tags) များနှင့် feature အမျိုးအစားများသာ ပါဝင်သည့် အလွှာ(layer) များစွာ (သို့) အလွှာတစ်လွှာ ကို ကျွန်ုပ်တို့ ဖန်တီး၍ရနိုင်ပါလိမ့်မည်။ ထိုအလွှာများကို shapefile အနေဖြင့် သိမ်းဆည်းနိုင်ပြီး QGIS ထဲတွင် အသုံးပြုနိုင်ပါသည်။  
+We will use a plugin, QuickOSM, to import data from the OpenStreetMap database. To install this plugin open the Manage Plugins dialogue from the Plugins menu. Search for QuickOSM and install it. This will add an entry to the Vector menu  
 
-OpenStreetMap ဒေတာများဆီသို့ ဝင်ရောက်ခြင်း
+Obtaining Data from the Database
 ---------------------------
 
-ကျွန်ုပ်တို့ ပထမဆုံးပြုလုပ်ရမည်မှာ up-to-date ဖြစ်သော OSM ဒေတာအချို့ကို ရယူရန်ဖြစ်သည်။ ထိုသို့ရယူရန်အတွက် ကျွန်ုပ်တို့တွင် နည်းလမ်းများစွာ ရှိပါသည်။ တကယ်တော့ OSM server မှ ဒေတာကို တောင်းခံရခြင်းမှာ ကျွန်ုပ်တို့သည် အလုပ်လုပ်ရာတွင် JOSM editor ဖြင့် အလုပ်လုပ်ခြင်းကြောင့်ဖြစ်သည်။ ၎င်းသည် အလွန်များပြားသော raw ဒေတာပမာဏများ ကို တစ်ကြိမ်တည်းဖြင့် မဆွဲယူနိုင်စေရန် ကန့်သတ်ထားသောကြောင့်ဖြစ်သည်။ သို့သော်လည်း ပြီးခဲ့သော 
-အခန်းရှိ[Getting OSM Data](/my/osm-data/getting-data) နှင့် [Using Geofabrik and HOT Export](/my/osm-data/geofabrik-and-hot-export) တို့တွင်ဖော်ပြခဲ့သကဲ့သို့  ပိုမိုကြီးမားသောဒေတာ set များကိုရယူရန် နည်းလမ်းမြောက်များစွာ ရှိပါသည်။  
+The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. The QuickOSM plugin allows us to extract large amounts of data as it uses the Overpass api and not the main OSM database server.
 
-ယခုသင်ခန်းစာအတွက် ကျွန်ုပ်တို့သည် QGIS ထဲတွင် နဂိုကတည်းကပါရှိသော download function ကို အသုံးပြုလိမ့်မည်ဖြစ်သည်။  
+- Open QGIS and go to Vector -> QuickOSM -> QuickOSM...  
 
-- QGIS ကိုဖွင့်ပါ။ ပြီးလျှင် Vector -> OpenStreetMap -> Download Data ... သို့သွားပါ။  
-- အကယ်၍ သင်၏ကွန်ပျူတာမျက်နှာပြင် window သည် သင်အလိုရှိသော မျက်နှာပြင် အကျယ်ပမာဏ ဖြင့် ပြနေပြီဆိုလျှင်ဤနေရာတွင် သင့်အနေဖြင့် များစွာသော options များမှနေ၍ ရွေးချယ်နိုင် ပါသည်။ "From map canvas"ကို သွားရန်အတွက် နောက်အကွက်တစ်ကွက်ကို အမှန်ခြစ်ပါ။ အကယ်၍ QGISထဲတွင်သင်၏ layer တစ်ခုသည် မှန်ကန်သော မျက်နှာပြင်အကျယ်ပမာဏဖြင့် ရှိနှင့်ပြီးသား ဖြစ်နေလျှင် "From layer" ကိုရွေးချယ်ပါ။ ပြီးလျှင် သင်အသုံးပြုချင်သော layer ကို ရွေးချယ်ပါ။ ဤနေရာတွင် ကျွန်ုပ်တို့အနေဖြင့်  "Manual" ကိုရွေးချယ်ရမည်ဆိုပါက ကျွန်ုပ်တို့⇥ဝင်ရောက်လိုသော ဧရိယာတစ်ဝိုက်ရှိ လတ္တီကျုနှင့် လောင်ဂျီကျုများရှိသော **bounding box** တစ်ခုသို့ဝင်ပါ။ သင် စိတ်ဝင်စားသော လတ္တီကျုနှင့် လောင်ဂျီကျုအမှတ်များကို ဖြည့်နိုင်ပါသည်။ သို့သော်လည်း အလွန် ကြီးမားသော ဧရိယာမရနိုင်သည်ကို သတိရပါ။ ထိုသို့မဟုတ်လျှင် သင့်အနေဖြင့် ဒေတာများအားလုံးကို download ပြုလုပ်၍ရနိုင်လိမ့်မည်မဟုတ်ပါ။  
+![quickosm][]
 
-![bounding box][]
+- You can choose from several options here  - if your window already displays the extent you want, switch the combobox which by default shows "In" to "Canvas extent". If you have a layer loaded in QGIS with the correct extent, choose "Layer extent" and select the layer you want to use. Using the default "In" requires that a relation or polygon exists with this name. Otherwise choose "Around" and a node with this name suffices. You can select a perimeter (default 1000m) around this node where data will be loaded from the database.
 
-- **.osm** ဖိုင်ပုံစံဖြင့် output ဖိုင်အတွက် နာမည်နှင့် သိမ်းဆည်းမည့်နေရာတို့ကို ရွေးချယ်ပါ။ ထို့နောက် OK ကို နှိပ်ပါ။  
-- Download ပြုလုပ်ခြင်းပြီးဆုံးသွားလျှင် သင်သည် သတိပေးမှုရရှိလိမ့်မည်ဖြစ်ပါသည်။ download dialog မှ ထွက်ရန်  "Close" ကို နှိပ်ပါ။  
+- Click on "Run Query".  
+- You will be notified when the download is complete. The data are stored in three temporary layers, one for nodes, ways and polygons respectively.
 
-![download complete][]
-
-- ယခုဆိုလျှင် သင်သတ်မှတ်ထားသော တည်နေရာအတွက်  OSM ဒေတာကို သိမ်းဆည်းပြီး ဖြစ်ပါလိမ့် မည်။  
-
-> ဤကဲ့သို့ OSM ဒေတာ ရယူခြင်းနည်းလမ်းသည် JOSM (သို့မဟုတ်) [openstreetmap.org](http://www.openstreetmap.org) တွင် download ပြုလုပ်ခဲ့သည်နှင့် အတူတူပင်ဖြစ်ပါသည်။ သင့်အနေဖြင့် up-to-date ဖြစ်သော ပိုမိုကြီးမားသည့် extracts များကို [HOT export site](http://export.hotosm.org) (သို့မဟုတ်) [bbbike.org](http://extract.bbbike.org/) တို့မှနေ၍ download ပြုလုပ်ရန် ကြိုးစားနိုင်ပါသည်။ အကယ်၍ သင်သည် ချုံ့ထားသော OSM ဖိုင်တစ်ခုကို download ပြုလုပ်လျှင် နောက်အဆင့်များအတွက် ပထမဦးစွာ ချုံ့ထားသော OSM ဖိုင်ကို **.osm** ဖိုင်ပုံစံအဖြစ်သို့  ပြန်လည် decompress ပြုလုပ်ပေးရန် သင့်အနေဖြင့် လိုအပ်လိမ့်မည်ဆိုသည်ကို သတိရပါ။  
+![quickosm loaded][]
 
 
-ဒေတာများကို SQLite ထဲသို့ ထည့်သွင်းခြင်း
+Importing extracts
 ---------------------------
 
-နောက်ပိုင်းတွင် ကျွန်ုပ်တို့အနေဖြင့် raw **.osm** ဖိုင်များကို SQLite Database ဖိုင်တစ်ခုထဲသို့ ထည့် သွင်းရန် လိုအပ်လိမ့်မည်ဖြစ်ပါသည်။  
+There are several options how to obtain ready-made extracts of an area. <https://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts> contains a list of several websites. Just pick a **.osm** or **.pbf** file and download it. 
 
-- ထိုသို့ပြုလုပ်ရန်အတွက် Vector -> OpenStreetMap -> Import Topology from XML... ကိုသွားပါ။  
-- ပထမအကွက်ထဲတွင် သင်၏ **.osm** ဖိုင်ကိုရွေးချယ်ပါ။  
-- သင့်အနေဖြင့် output database ဖိုင်၏နာမည်ကို သင်ကြိုက်နှစ်သက်သလို ပြောင်းလဲနိုင်ပါသည်။  
-- နောက်တစ်ခုတွင် "Create Connection ..." ၏ဘေးတွင်ရှိသော အကွက်ထဲတွင် အမှတ်ခြစ်ထားသည့် အတိုင်းထားပါ။  
+You can either use QuickOSM to import it clicking on 'OSM File' in the left bar. Once you used QuickOSM OSM files should have been made known to QGIS and you can use the regular vector layer import:
 
-![import dialog][]  
+- Go to Layer -> Add Layer -> Add Vector Layer...  
+- In the source field, select your file and click "Add".  
+- You can select one or more type layers from that file.  
 
-- OK ကို နှိပ်ပါ။  
-- ပြီးဆုံးသွားခဲ့လျှင် "Close" ကို နှိပ်ပါ။  
+![import osm][]  
+
+- After clicking "OK" you can close the dialogue and your QGIS window shows the new layers.  
+  
+
+![import osm loaded][]  
 
 
-အလွှာများ(Layers) ဖန်တီးခြင်း
+Exporting data
 --------------
 
-နောက်ဆုံး၌ QGIS ထဲတွင် အသုံးပြုနိုင်သည့် ကျွန်ုပ်တို့၏ လိုအပ်ချက်များအရ စိတ်ကြိုက် layers များကို သတ်မှတ်နိုင်လိမ့်မည်ဖြစ်ပါသည်။  
+To export a layer activate its context menu and select Export -> Save Features as...
+You can select from a wide range of formats including Shapefile, GeoJSON, PostgreSQL dump, SQLite. The other options on the dialogue vary depending on the format you selected.
 
-- Vector -> OpenStreetMap -> Export Topology to SpatiaLite ... ကိုသွားပါ။  
-- ပထမအကွက်ထဲတွင် ပြီးခဲ့သောအဆင့်က ဖန်တီးခဲ့သည့် database ကို ရွေးချယ်ပါ။  
+![export][]  
 
-![input db file][]  
+You can choose to re-import the exported layer by checking the box at the bottom (activated by default).
 
-- "Export type" ၏အောက်တွင် layer အတွက် သင်ဖန်တီးလိုသော features များ၏အမျိုးအစားကို ရွေးချယ်ပါ။ ဤနေရာတွင် ကျွန်ုပ်တို့အနေဖြင့် polygons ကိုရွေးချယ်၍ layer တစ်ခုကို ဖန်တီးလိမ့်မည် ဖြစ်သည်။  
+Working with the Data
+--------------------
 
-![export type][]  
+We cannot give you even a rough overview over what you can do with QGIS and there are many excellent tutorials and books which will guide you step-by-step towards mastering the software. But as OSM data imported by one of the methods described above have their tags encoded in a special way here is an example how to deal with them (for the curious, the example is pitcairn-islands-latest from Geofabrik's download page for Australia and Oceania). You can inspect the data of a vector layer using 'Open Attribute table' from the context menu of a layer, in this case the multipolygon layer.
 
-Layer၏အမည်ကို သင်ကြိုက်နှစ်သက်သလို ပြင်ဆင်နိုင်ပါသည်။  
+![attribute table][]
 
-"Exported tags" ၏အောက်တွင် မှော်ဆန်ဆန်အဖြစ်အပျက်များရှိပါသည်။ ဤနေရာမှတော့ ကျွန်ုပ်တို့၏output layer ထဲတွင်ပါဝင်မည့် tags များကို ရွေးချယ်နိုင်ပါသည်။ ကျွန်ုပ်တို့ ရယူချင်သော ဒေတာအပေါ် တွင်လည်း ပိုမိုတိကျစွာ ပြုပြင်ရလွယ်ကူမှုကို ကျွန်ုပ်တို့အားပေးပါသည်။  
+We can see that all the key-value-pairs for the tags of the various objects are organized in a specially formatted text string in the field 'other_tags'. This kind of storage is called "hstore" in a PostgreSQL database and is the standard for OSM data.
 
-- Database ထဲရှိ ရနိုင်သော tags များအားလုံး၏ စာရင်းကို ကြည့်ရန် "Load from DB" ကို နှိပ်ပါ။သင့်အတွက် အထောက်အကူရလျှင် ကွန်ပျူတာ၏မျက်နှာပြင် window အရွယ်အစားကို ထောင့်မှနေ၍ dragging လုပ်သွားခြင်းဖြင့် ချဲ့နိုင်ပါသည်။ ဤဒေတာထဲတွင်ပါဝင်သော အညွှန်းများ (tags) အားလုံးကို သင်မြင်နိုင်ပါသည်။ ပြီးလျှင် အညွှန်း (tag) တစ်ခုချင်းစီတွင်ရှိသော features များ၏အရေအတွက်ကို လည်းပဲ သင်မြင်နိုင်ပါသည်။  
-- နောက်ထပ်သင်ပါဝင်စေချင်သော အညွှန်းများ(tags) များ၏အကွက်များကို အမှန်ခြစ်ပေးပါ။  ဤနေရာ တွင် features အနည်းငယ်ကိုသာ ကျွန်ုပ်တို့ ရွေးချယ်မည် ဆိုပါက အဆောက်အဦးများကို ကိုယ်စားပြု သော polygons များအတွက် အသုံးဝင်လိမ့်မည်ဖြစ်သည်။  
+In this example polygons are mostly islands, forest and buildings. Initially they are rendered in the same way which means that islands cover everything else. Let us render them differently in order to get a feeling how to identify different objects. Discard the attribute table.  From the context menu of the multipolygon layer select Properties and on that form move to the Symbology tab. 
 
-![export full][]  
+![symbology][]
 
-သင်ပြီးဆုံးသွားပြီဆိုလျှင် OK ကို နှိပ်ပါ။ ၎င်း အကွက်ကို ပိတ်လိုက်ပါ။ သင်၏ layer သည် အလိုအလျောက် ပေါင်းထည့်သွားသင့်ပါသည်။  
+First change the type of the symbol from "Single symbol" to "Rule based" using the combobox at the top of the form. 
 
-![cairo polygons][]  
+![symbology rule based][]
 
-Layer ပေါ်တွင် ညာဖက်click ကို နှိပ်ပါ။ ပြီးလျှင် "Open Attribute Table" ကိုနှိပ်ပါ။   
+The current rendering appears as a rule with no filters. We can modify this rule by clicking on the icon marked with a purple square in the image above.
 
-![open attribute table][]  
+![symbology edit rule][]
 
-ဤနေရာတွင် ကျွန်ုပ်တို့ ရွေးချယ်ခဲ့သည့် attributes များသာပါဝင်သော ဇယားတစ်ခုရှိနေသည်ကို သင် မြင်နိုင်ပါသည်။  
+We'd like to treat buildings differently. Treat differently means that rules need to be specified according to layer properties. QGIS' expression evaluation cannot directly deal with hstore strings. But a utility comes to our rescue and the filter expression shown in the image `hstore_to_map(other_tags)['building'] is not NULL` converts the 'other_tags' string into a key-value-map where we pick the value for the key 'building'. The condition reads that we look for objects whose building key is not empty. We can define a colour and fill style for the buildings. Click 'OK' when you are finished with your rule design. Now you can add further rules by clicking on the 'plus' icon at the bottom of the symbology tab. We add similar rules for woods and grassland. At the end our symbology tab will look like this:
 
-![attribute table][]  
+![symbology polygon rules][]
 
-ကျွန်ုပ်တို့သည် အဆောက်အဦးသာလျှင်ပါဝင်သော (**only** buildings)  layer အား မဖန်တီးရသေးဘူး ဆိုသည်ကို သတိပြုပါ။ အမှန်တကယ်တွင် ကျွန်ုပ်တို့၏ မူလကရှိထားသော ဒေတာ မှ polygons များ ပါဝင်သော layer တစ်ခုကိုသာ ဖန်တီးပြီးထားခြင်းဖြစ်သည်။ သို့သော်လည်း ၎င်းတွင် ကျွန်ုပ်တို့ ရွေးချယ် ထားသော tags များသာပါဝင်ပါသည်။ အဆောက်အဦးများသာ ပြသော layer ကို စစ်ထုတ်စေရန် အတွက် ကျွန်ုပ်တို့အနေဖြင့် building=yes ဖြစ်နေသော polygons များကိုသာ စစ်ထုတ်ရန် query တစ်ခု ကို ပြီးဆုံးအောင်ပြုလုပ်ရန်လိုအပ်လိမ့်မည်ဖြစ်ပါသည်။
+As an added bonus we can get a quick feature count for the rules. Press the rightmost icon in the row at the bottom (the sum symbol) and the 'count' column will be populated telling us that we have 150 buildings on this layer.
+
+You can add labels in a similar fashion how we dealt with symbols. 'Labels' is another tab on the properties of a layer, right below Symbology. In most cases you want to print the given name of a feature. You enter an expression similar to the ones used for symbology in the field for a filter and as value you would use `hstore_to_map(other_tags)['name']`. 
+
+![labels][]
+
+Assigning such labels to the multipolygon and the point layers you will end up with something like this:
+
+![done][]
 
 
 အကျဉ်းချုပ်ဖော်ပြချက်
@@ -100,12 +104,15 @@ Layer ပေါ်တွင် ညာဖက်click ကို နှိပ်ပ
 ဤလုပ်ငန်းစဉ်သည် up-to-date ဖြစ်သော OSM ဒေတာကိုရယူရန်နှင့် ၎င်းကို QGIS ထဲသို့ဆွဲထည့်ရန် လွယ်ကူစေပါသည်။ QGIS ထဲတွင်ဤကဲ့သို့သော layers များသင့်ထံတွင်တစ်ကြိမ်မျှရှိလျှင်၎င်းတို့ကို shapefiles များအနေဖြင့်သိမ်းဆည်းရန်၊ စစ်ထုတ်ခြင်းများနှင့် queries ပြုလုပ်ခြင်းများကိုပြီးဆုံးအောင်ပြုလုပ်ရန်စသည်တို့ဖြစ်နိုင်ပါသည်။   
 
 
-[bounding box]: /images/osm-data/bounding_box.png
-[download complete]: /images/osm-data/download_complete.png
-[import dialog]: /images/osm-data/import_dialog.png
-[input db file]: /images/osm-data/input_db_file.png
-[export type]: /images/osm-data/export_type.png
-[export full]: /images/osm-data/export_full.png
-[cairo polygons]: /images/osm-data/cairo_polygons.png
-[open attribute table]: /images/osm-data/open_attribute_table.png
-[attribute table]: /images/osm-data/attribute_table.png
+[quickosm]: /images/osm-data/qgis-quickosm.png
+[quickosm loaded]: /images/osm-data/qgis-quickosm-loaded.png
+[import osm]: /images/osm-data/qgis-import-osm.png
+[import osm loaded]: /images/osm-data/qgis-import-osm-loaded.png
+[export]: /images/osm-data/qgis-export.png
+[attribute table]: /images/osm-data/qgis-layer-attributes.png
+[symbology]: /images/osm-data/qgis-layer-symbology.png
+[symbology rule based]: /images/osm-data/qgis-layer-symbology-rule.png
+[symbology edit rule]: /images/osm-data/qgis-layer-symbology-edit-rule.png
+[symbology polygon rules]: /images/osm-data/qgis-layer-symbology-poly-rules.png
+[labels]: /images/osm-data/qgis-layer-labels.png
+[done]: /images/osm-data/qgis-complete.png

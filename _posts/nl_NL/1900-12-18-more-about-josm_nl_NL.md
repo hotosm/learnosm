@@ -65,7 +65,7 @@ Het hoofdvenster kennen we al - dit is het kaartvenster en daar vindt de meeste 
 
 Rechts van het kaartvenster staat een reeks panelen, met elk zijn eigen functie. Wanneer u JOSM voor de eerste keer installeert worden verscheidene panelen al standaard weergegeven, zoals Lagen, Eigenschappen en Selectie. Wanneer u een punt, lijn of vorm selecteert in het kaartvenster, zal het worden weergegeven in het paneel Selectie. Informatie over het object zal worden weergegeven in het paneel Eigenschappen, en de gebruikersnaam van de auteur van dat object zal worden weergegeven in het paneel Auteurs.
 
-Deze panelen kunnen worden geopend of gesloten door te klikken op de verschillende knoppen aan de linker onderzijde van JOSM. Boven deze knoppen aan de rechter bovenzijde staan gereedschappen die wijzigen wat u kunt doen met uw muis. U kent er al enkele van, het gereedschap Selecteren en het gereedschap Tekenen. Daaronder staan gereedschappen die het eenvoudiger maken om in te zoomen, een object te verwijderen, een vorm te tekenen, of een lijn te maken die parallel staat aan een andere lijn.
+Deze panelen kunnen worden geopend of gesloten door te klikken op de verschillende knoppen aan de linker onderzijde van JOSM. Boven deze knoppen aan de linker bovenzijde staan gereedschappen die wijzigen wat u kunt doen met uw muis. U kent er al enkele van, het gereedschap Selecteren en het gereedschap Tekenen. Daaronder staan gereedschappen die het eenvoudiger maken om in te zoomen, een object te verwijderen, een vorm te tekenen, of een lijn te maken die parallel staat aan een andere lijn.
 
 
 Bewerken
@@ -113,7 +113,7 @@ Uw wijzigingen bekijken op de kaart
 ---------------------------
 -  Open uw internetbrowser en ga naar [https://openstreetmap.org/](https://openstreetmap.org/)
 -  Verplaats de kaart naar het gebied dat u heeft bewerkt.
--   U zou nu uw wijzigingen moeten zien verschijnen op de kaart! Als dat niet zo is, druk dan eens op CTRL+R om de webpagina te vernieuwen. Soms werkt de kaart zich niet juist bij en moet die opnieuw worden geladen.
+-   U zou nu uw wijzigingen moeten zien verschijnen op de kaart! Als dat niet zo is, druk dan eens op CTRL+R om de webpagina te vernieuwen. Soms laat de browser nog steeds de oude versie zien en moet die opnieuw worden geladen.
 -   Wat als u uw wijzigingen niet ziet? Geen zorgen - het kan een aantal minuten duren voordat de wijzigingen op de kaart worden weergegeven. Controleer ook uw toevoegingen in JOSM om er voor te zorgen dat u ze correct heeft toegevoegd. Een goede algemene regel is, als uw punt een pictogram heeft in JOSM, dan zou dat zichtbaar moeten zijn op de hoofdkaart op de website van OpenStreetMap.
 
 Samenvatting

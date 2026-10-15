@@ -1,42 +1,39 @@
 ---
 layout: doc
-title: Introduction
+title: Introduksjon
 permalink: /nb/beginner/introduction/
 lang: nb
 category: beginner
-published: true
 ---
-
 
 Introduksjon
 ============
 
+Denne veiledningen kan lastes ned som [beginner_introduction_nb.odt](/files/beginner_introduction_nb.odt) eller [beginner_introduction_nb.pdf](/files/beginner_introduction_nb.pdf)  
 
-Informasjon er makt. Med god informasjon og riktig forståelse, kan individer og samfunn lettere forbedre livene sine og ta gode avgjørelser om fremtiden. Det er mange mennesker og organisasjoner som tar beslutninger som påvirker livene våre, god informasjon gjør det mulig for dissee ikke-statlige organisasjonene, myndighetene og enkeltpersonene å ta gode avgjørelser, og forhåpentligvis forbedre livene våre. Kart er i så måte en god måte å formidle informasjon.
+Informasjon er makt. Med god informasjon og den riktige forståelsen, kan enkeltindivider og samfunn forbedre egne liv og ta gode avgjørelse for fremtiden. Det er mange mennesker og organisasjoner som tar avgjørelser som påvirker livene våre. God informasjon gir disse NGOene (Ikke-statlige organisasjoner), myndigheter og borgere mulighet til å ta bedre avgjørelser, og forhåpentligvis gjøre livene våre bedre. Kart er en god måte å formidle informasjon på. 
 
 ![A village in Indonesia][]
 
-Kart er visuelle symboler over verdenen vår. De kan ofte vise ting bedre enn ord alene. Hvor er den nærmeste skolen eller sykehuset? Hvem har dårligst tilgang til disse fasilitetene? Hvor er fattigdom den største utfordringen? Slike spørsmål kan ofte uttrykkes ved hjelp av kart, og kart kan hjelpe oss med å finne svarene på disse spørsmålene.
+Kart er visuelle symboler av vår verden. De kan ofte vise en tanke eller idè bedre enn ord. Dette kan i tillegg hjelpe oss med å besvare viktige spørsmål. *Hvor er nærmeste skole eller sykehus? Hvem har dårligst tilgang til disse fasilitetene? Hvor er fattigdom mest utfordrende?* Spørsmål som dette kan ofte beskrives best ved hjelp av kart, og kart kan finne løsningen på disse spørsmålene. 
 
-Som en øvelse, finn fram pen og papir og tegn et kart over din bydel eller nabolag. Hva er de viktigste tingene å inkludere? Hva er den viktigste informasjonen? Bruk noen minutter på å lage ditt eget kart, og når du er ferdig, tenk gjennom hvorfor informasjonen du har lagt til er viktig, og hvem den kan være viktig for.
+Som en øvelse, hent en pen og et papir og tegn et kart over området du bor i. Hva er de mest viktige tingene å inkludere på kartet? Hva er den viktigste informasjonen? Bruk noen minutter på å lage kartet ditt, og når du er ferdig, tenk over hvorfor informasjonen du har inkludert på kartet er viktig, og hvem som kan ha nytte av informasjonen.
 
 ![Example of a hand-drawn map][]
 
-Hvis byen din er som de fleste andre, har du kanskje tegnet linjer for å representere veier, kanskje en elv eller bekk. Kanskje du har lagt til viktige bygninger som skoler og kontorer, åkre eller avgrensninger. Uansett hva du tegnet, så brukte du sannsynligvis symboler - en linje for å symbolisere en vei, en firkant for å symnbolisere en bygning og så videre. Kartet ditt er en representasjon av hva som finnes på bakken.
+If your town is like most, you may have drawn some lines to represent roads, possibly a river or stream. Perhaps you added important buildings such as schools and offices, fields, or boundaries. Whatever you drew, you probably used symbols – a line to symbolize a road, a square to symbolize a building, and so on. Your map is a representation of what is on the ground.
 
 ![Examples of symbols][]
 
-Kartet ditt er informativt. Du vil kanskje bruke kartet for å forklare noen hvor forskjellige steder er, hvor problemer i ditt nabolag er, eller kanskje bare for å hjelpe noen med å finne frem. Men kartet ditt har en begrensning. Det finnes bare en kopi og måten det er tegnet på gir mening for deg, men kanskje ikke for andre som ville ha tegnet sitt eget kart på en annen måte.
-Fordi kartet ditt bare er på papir, er det vanskelig å formidle informasjonen til andre. Dette er grunnen til at det å lage et kart på en datamaskin, slik at hvem som helst kan få tilgang til det, er så verdifullt.
+Your map is informative. You might use a map like this to explain to someone where different places are, where problems are in your community, or merely to help someone find their way around. The use of your map is limited though - there is only one copy of the map.The way you drew it may make sense to you, but perhaps not to someone else who would have drawn their own map in a different way. Because your map is merely on paper, it is difficult to get that information to others.  This is why making your map on a computer, in such a way that anyone can access it, can be much more valuable. 
 
 ![Mapping on Computer][]
 
-OpenStreetMap er et verktøy for å lage og dele kartinformasjon. Hvem som helst kan bidra til OSM, og tusenvis av folk bidrar til prosjektet hver dag. Brukerne tegner kart på datamaskiner fremfor på papir, men som du vil se i denne veiledningene, det å tegne kart på en datamaskin er ikke så forskjellig fra å tegne på papir. Vi tegner fortsatt linjer for å representere veier, åkre, og alt annet, og vi tegner fortsatt skoler og sykehus med symboler. Det viktigste er at OSM baserte kart er lagret på internett, og hvem som helst kan få tilgang til kartene, helt gratis. 
-
+OpenStreetMap is a tool for creating and sharing map information.  Anyone can contribute to OSM, and thousands of people add to the project every day. Users draw maps on computers, rather than paper, but as we will see in this guide, drawing a map on a computer is not all that different from drawing on paper. We still draw lines to represent roads, fields, and anything else, and we still represent schools and hospitals with symbols. The important thing is that OSM maps are saved on the internet, and anyone can access them at any time, totally free.
 
 ![Digital maps with OpenStreetMap][]
 
-Vi håper du syns OpenStreetMap er nyttig og interessant i ditt arbeid. Ved å følge denne veiledningen, vil du raskt kunne komme i gang med å lage digitale kart med OpenStreetMap.
+We hope that you will find OpenStreetMap useful and interesting in your work. By following this guide, you should be able to quickly start making digital maps with OpenStreetMap.
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png

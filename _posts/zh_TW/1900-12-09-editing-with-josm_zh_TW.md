@@ -9,182 +9,109 @@ category: josm
 編輯田野資料
 ==================
 
-> 審閲於 2015-07-13  
 
-現在我們已經講完要如何在開放街圖繪製建築。
-在[用手機、GPS 或紙本繪圖](/zh-tw/mobile-mapping/)的章節，你可以看到要如何使用行動工具來踏查一個地方。  
+We've now covered all the building blocks of mapping with OpenStreetMap. In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) section you can see how to use mobile tools to survey an area.
 
-在本章節，我們將再次用到 JOSM，
-來學習一些之前沒有講到的新概念。
+In this chapter we'll return once again to JOSM and look at a couple of new concepts which we have not covered thus far.
 
 JOSM 圖層
 -----------
-如果你是按部就班學到這裡，你會發現各種不同型式的東西都能加進JOSM裡。
-我們可以下載 OSM 資料，添加 Bing 衛星影像，
-載入 GPS 軌跡和軌跡點，以及增加 Field Papers——
-這些全都能顯示在 JOSM 的地圖視窗。
+If you've followed along so far, you may have noticed that we can add all sorts of different things into JOSM. We can download OSM data, add Bing satellite imagery, load GPS tracks and waypoints, and add Field Papers - all of which are displayed in the map window of JOSM.
 
-你還會注意到每次在 JOSM 增加新內容時，
-JOSM右側欄的圖層面板會增加一個條目。
-視你打開的內容不同，你的圖層面板可能會是這樣：
+You may have also noticed that every time you add something new to JOSM, an additional item is added to the Layers panel on the right side of JOSM. Depending on what you have opened, your Layers panel may look something like this:
 
 ![Layers panel][]
 
-這個列表裡的每一項代表了一項你在地圖視窗中打開的資料來源。
-在此例中，「Data Layer 1(資料圖層1)」
-是我們正在編輯的開放街圖資料。
- 「Field Papers」是我們將 Field Paper 加進 JOSM 時創建的圖層。
+Each item in this list represents a different source of data that you have open in your map window. In this example, “Data Layer 1” is the OpenStreetMap data that we are editng. "Field Papers” is the layer created when we added our Field Paper into JOSM.
 
 如果你增加了 Bing 衛星影像，圖層面板上會有另一個「Bing Sat」的圖層。
 
-圖層的概念可能不太好理解。
-可以把每個圖層想像成一張半透明的紙，
-它們一層層地疊在一起。
-每張紙上都有某種類型的信息，可以根據你的需要調整它們的順序。
+The idea of layers can often be hard to understand. A good way to imagine it is that each layer is like a semi-transparent piece of paper, and they are all stacked on top of one another. Each piece of paper has a certain type of information on it, and they can be rearranged any way you like.
 
-用於參考的圖層，比如衛星影像、GPS 軌跡、Field Papers
-通常稱為「底圖 (base layers)」。 OSM 資料圖層才是你實際操作的圖層。
+Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers are often called "base layers." The OSM data layer is the layer that you actually work with.
 
-- 要移動圖層，在圖層面板中點一下該圖層，
-    或點一下上下箭頭按鈕移動圖層順序。
+-   To move a layer, click on it in the Layers panel and click on the up or down arrow to move it.
 
 ![Layers up down][]
 
-- 要關閉圖層顯示，先用滑鼠選擇，
-    再點一下顯示/隱藏按鈕：
+-   To hide a layer, select it with your mouse and click the Show/Hide button:
 
 ![Layers show hide][]
 
-- 這時你會看到你選中的圖層在地圖視窗消失了。
-    在點一次顯示/隱藏按鈕，該圖層就會重新顯示。
-- 你還可以通過選擇圖層再點刪除按鈕來
-    移除圖層：
+-   You should see the layer that you selected disappear in the map window. Click Show/Hide again, and it will reappear.
+-   You can remove a layer by selecting it and using the delete button:
 
 ![Layers delete][]
 
-- 最後一點很重要，你只能編輯
-    當前JOSM「使用中」的圖層。如果你無法編輯地圖視窗中的地圖，
-    很可能是因為你沒有活躍恰當的圖層。
-    大多數圖層，比如 GPS 點、Field Papers 或衛星影像，
-    是不能編輯的。唯一能編輯的圖層是
-    開放資料資料圖層，通常記作
-    「資料圖層1」。
-- 要變成使用中圖層，在圖層面板上選中它，
-    點使用中按鈕：
+-   Lastly, it’s important to know that you can only edit the layer that is considered *active* by JOSM. If you are unable to edit the map in your map window, it’s probably because you don’t have the correct layer set as active. Most layers, such as GPS points, Field Papers, and satellite imagery, can’t be edited. The only layers that can be edited are data from OpenStreetMap, which are usually called “Data Layer 1”.
+-   To make a layer active, select it in the Layers panel, and click on the Activate button:
 
 ![Layers activate][]
 
 
 使用 GPS 資料和 Field Papers
 -------------------------------
-在[用手機、GPS或紙圖繪圖](/zh-tw/mobile-mapping/) 章節，我們學習如何用 GPS 和 Field Papers 採集資料，
-以及如何將採集的資料加入 JOSM 成為圖層。
+In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) chapters we saw how to collect data with a GPS and Field Papers, and how to load it into JOSM as a layer.
 
-一旦你用上述工具進行了測量，
-你就還需要用數位化的方法在OpenStreetMap增加資訊。
+Once you have surveyed with one of these tools, you still need to add the information into OpenStreetMap digitally.
 
-你可以通過和之前所學過程一樣的方法增加資料——
-**下載、編輯、儲存**。區別在於，你可以不只用衛星
-影像作為底圖，還可以利用你的 GPS 資料、Field Papers、
-筆記，或者它們中的組合來作為底圖參考。
+You do this with the same process you learned previously - **download, edit, save**. The difference is that instead of using only satellite imagery as a base layer, you can also use your GPS data, Field Papers, notes, or a combination of them all.
 
-- 例如，假設你用自己的 GPS 軌跡作為 JOSM 的底圖，
-    你在你的 GPS上 保存過一個叫做 030 的軌跡點，
-    你還在筆記中記錄了 030 是一所學校。
-    要把這個點加入開放街圖，你要選擇繪圖工具，
-    再在你的地圖視窗上點兩下 030 點。
-    這樣就創建了一個點。然後打開預設組合選單，
-    找到學校的預設組合。輸入學校的名字並點一下「套用預設組合」。
-    增加線段和區域的方法是一樣的。
+-   For example, let's assume you have your GPS waypoints as a background layer in JOSM, you saved a waypoint on your GPS with the name 030, and you wrote in your notebook that 030 is a school. To add this point into OpenStreetMap, you will select the draw tool, and double-click on top of point 030 in your map window. This will create a point. Then go to the Presets menu, and find the preset for school. Enter the name of the school and click “Apply Preset”. Do the same to add lines and shapes.
 
 ![GPS in JOSM][]
 
 標籤
 ----
-當你畫完一個點、一條線或一個區域時，你已經有位置資訊了，
-但是卻沒有關於這些區域的相關資訊。換言之，我們知道它**在哪裡**，
-卻不知道它**是什麼**。
-此前我們用過預設組合選單裡的選單選項來定義**是什麼**。
-開放街圖透過**標籤**來知道一個物件**是什麼**。
+When you draw a point, line, or shape, it has a location, but no information about what it is. In other words, we know **where** it is, but not **what** it is. Before now, we have been using items from the Presets menu to define **what** it is. The way OpenStreetMap knows **what** an object is is by using **tags**.
 
-這裡的標籤就像你貼在東西上的那種標籤一樣。
-例如我們畫了一個方框，它就只是個方框而已。
-但隨著我們為它增加屬性、描述它是什麼的時候，這個方框就成為了一棟建築，
-它的名字就變成了「優盛大廈」，有 16 層樓高。
+A tag is like a label that you can put on something. For example, if we draw a square, it’s only a square. But then we add attributes to it that describe what it is: this square is a building; the name of the building is “Menara Thamrin”; the building is 16 levels high.
 
-你可以為物件增加無數個標籤。
-標籤被儲存為成對的文定，稱為**鍵值對**(key-value pair)。
-在開放街圖中，上述標籤實際上是：
+You can add as many tags as you want to an object. Tags are saved as pairs of text, called **keys** and the **values**. In OpenStreetMap, the tags written above would in fact be:
 
 - building = yes
 - name = 優盛大廈
 - building:levels = 16
 
-如果你在JOSM中選中了一個物件，
-你可以在右側屬性面板中看到它所有標籤。
+If you select an object in JOSM, you can see all the tags that are attached to it in the Properties panel on the right.
 
 ![Properties panel][]
 
 ### 編輯標籤
-你可以在屬性面板增加、修改、刪除標籤。
-然而，標籤通常都是英文，有些意思比較容易搞混，
-因此用預設組合選單一般會更方便。
-當你增加或修改標籤時，物件的屬性會隨之改變。
+
+You can add, edit, and delete tags from the Properties panel. However, the tags are traditionally in English and can sometimes be confusing, so it is often easier to use the Presets menu. When you add or change tags, the attributes of the object are changed.
 
 - 要編輯物件的標籤，先選中它。
-- 再用以下兩種方式之一編輯標籤：(1) 使用預設組合選單，
-    或是 (2) 直接在右側屬性視窗修改。 
+-   Then edit the tags in one of two ways: (1) Use the Presets menu, or (2) edit the tags directly in the Properties window on the right.
 
 ### 常見錯誤：誤將本來用在線或面的標籤打在節點上
-當你想編輯點的屬性時，你要先挑選它，
-然後再透過預設組合選單或直接在屬性面板增加標籤。
-一種常見的錯誤是向線或面增加標籤時加到了點上面。
-這在選取物件時要非常注意，
+
+When you are editing the attributes of a point, you will first select the point and then add tags either through the Presets menu or directly in the Properties panel. A common mistake is when adding attributes to a line or a shape. When selecting the object, it is important that you
 自己選中的應該是線，而不是構成線的點。
 
-這是很容易發生的錯誤，因為當你用 JOSM 的選取工具拉框選擇物件時，
-軟體會將線**和**點同時選中，
-這時你再增加標籤，點也會被加上。
-請確保在增加標籤時**只**選中了
-線。
+This frequently occurs because editors use the JOSM select tool to draw a box around an object, which causes everything, both the line **and** the nodes to be selected, and when you add tags they are applied to the nodes as well. Be sure to **only** select lines when you want to add tags to them.
 
 ![Nodes mistake][]
 
 儲存 OSM 檔案
 ----------------
-當你在 JOSM 編輯時，在一小段時間內下載、編輯和上傳變更是相當好的主意。
-你不會想要在一天下載，
-然後等了幾天後再上傳你的編輯。
-如果有其他人編輯在這段時間同時編輯一樣的區域怎麼辦？這會造成錯誤和衝突。
+When you are editing in JOSM, it is always a good idea to download, edit, and upload changes in a reasonably short period of time. You do not want to download data one day, and then wait until a few days later to upload your edits. What if someone else edits the same area during that time? This will cause errors and conflicts.
 
-不要害怕常常上傳你編輯過的東西。
-這麼做會確保能夠儲存到資料庫裡，而你也不會遺失你辛苦得來的工作成果。
+Don't be afraid to upload your edits frequently. This ensures that your changes will be saved to the database and you will not lose your hard work.
 
-如果你編輯一塊單一區域，每次都下載這一區的地圖資料是相當好的主意，
-避免其他人也做了變動。
+If you are working in a single area, it's a good idea to download the map data every time you want to edit, in case another user has made changes.
 
-儘管你總能在準備編輯時下載 OSM 資料，
-而且能時時上傳變動，有時候你會想把 OSM 資料儲存到你的電腦上。
-舉例來說，如果你不能時時連到網路，
-你也許會希望下載資料，儲存資料，編輯，
-之後才上傳變動。
+Although you should always try to download OSM data when you are ready to edit, and upload your changes frequently, there may be cases in which you want to save the OSM data on your computer. For example, if you have intermittent connectivity to the internet, you may wish to download data, save it, edit, and then upload your changes later on.
 
-- 要儲存 OSM 檔案，你必須確定你現在用的是在圖層版中，是活躍的那個圖層。
-    最上面的選單，點選「檔案」，接著點「儲存」。
-    選擇檔案儲存位置，接著為檔案取名。
-    你也可以按這個按鈕也能夠儲存：
+-   To save an OSM file, make sure that it is the active layer in the the Layers panel. Click “File” on the top menu, and click “Save”. Choose a location for the file and give it a name. You can also save by clicking this button:
 
 ![JOSM save button][]
 
-你的資料已經存下來了，現在可以關閉 JOSM 程式。
-    當你想再次開啟檔案，只要開啟 JOSM，到「檔案」選單，
-    接著按「開啟...」
+-   You can now close JOSM and your data will be saved. When you want to open the file again, simply open JOSM, go to the “File” menu, and click “Open...”
 
 總結
 -------
-在這一章中，我們更深入研究 JOSM 的介面，
-和學到圖層和標籤的概念。
-你現在應該有堅強的基礎知識，知道怎麼繪圖，以及怎麼編輯開放街圖了。
+In this chapter we looked a little bit closer at the JOSM interface and learned about layers and tags. You should now have a solid footing in how to map and how to edit OpenStreetMap.
 
 
 [Layers panel]: /images/josm/josm_layers-panel.png

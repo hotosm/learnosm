@@ -44,7 +44,7 @@ Voor u begint
 Neem een paar minuten de tijd om naar de volgende punten te kijken -  een korte tekst waarmee u grofweg te weten komt waar we het over hebben en waar u op terug kan vallen als het nodig is:
  
 - [gedeelte OpenStreetMap.org van LearnOSM](/nl_NL/beginner/start-osm/). Dit onderdeel behandelt de basis van OpenStreetMap, het lezen hiervan zal u op weg helpen. Het is geen lang hoofdstuk, dus u bent er snel doorheen. Gebruik, terwijl u dit leest, de informatie om een account voor OSM aan te maken en te bevestigen via uw e-mail. Zorg er voor dat u uw gebruikersnaam en wachtwoord ergens bewaart.
-- [gedeelte Tasking Manager van LearnOSM](/nl_NL/coordination/tasking-manager/). Om bij te kunnen dragen zult u moeten inloggen in de Tasking Manager, een bepaald project zoeken, een vierkant selecteren en weten wat daarmee te doen. U moet het hele hoofdstuk lezen!  
+- [gedeelte Tasking Manager van LearnOSM](/nl_NL/coordination/tm-user/). U zult moeten weten hoe in te loggen in de Tasking Manager, een bepaald project zoeken, een vierkant selecteren en weten wat daarmee te doen. U moet het hele hoofdstuk lezen!  
 
 U zou misschien ook de korte video's van [MapGive](http://mapgive.state.gov/learn-to-map/) willen bekijken - onthoud dat de Tasking Manager een update heeft gehad sinds het opnemen van de video - de principes zijn hetzelfde, maar de kleuren zijn veranderd.
 
@@ -69,7 +69,18 @@ Nu gaan we een vierkant kiezen in een project en beginnen met bijdragen. Als u b
 
 Als u het project hebt geselecteerd, kunt u een vierkant kiezen en het, met de keuzelijst, laden in de door u gekozen bewerker. 
 
-## Beginscherm - JOSM
+## Beginscherm 
+### iD
+
+![iD 1][]
+
+1. De grenzen van uw vierkant/gebied wordt aangegeven door de paarse lijn. Er is een lichte overlapping tussen de vierkanten, een object aan de rand van uw gebied zal dus ook zichtbaar zijn in het aangrenzende gebied. U zou alleen de objecten in kaart moeten brengen die in uw vierkant liggen om 'conflicten', die later worden uitgelegd, te voorkomen.  
+2. De schaal van uw weergave is hier aangegeven. Dit is een erg klein vierkant, de 100 m-lijn is veel langer in verhouding tot het vierkant - dit getal is meestal enkele kilometers.  
+3. Verschillende objecten bestaan al in de database van OpenStreetMap en die zijn geladen. We zullen ze straks gaan verkennen.
+4. Afbeeldingen van Bing zijn al geladen als achtergrond.  
+
+
+### JOSM
 
 ![JOSM 1][]
 
@@ -79,41 +90,23 @@ Als u het project hebt geselecteerd, kunt u een vierkant kiezen en het, met de k
 3. Verschillende objecten bestaan al in de database van OpenStreetMap en die zijn geladen. We zullen ze straks gaan verkennen.
 4. Er is in dit geval geen satellietafbeelding voor de achtergrond geladen, dus moeten we die voor dit project handmatig inladen - de instructies voor dit project zeggen dat we afbeeldingen van Bing moeten laden, en deze kunnen snel worden ingeladen door op 'Afbeeldingen' en dan Bing te klikken in de keuzelijst van het menu. U zou kunnen merken dat uitzoomen (rol het muiswiel naar u toe) en dan opnieuw inzoomen helpt om de afbeeldingen snel te laden. 
 
-## Alternatief beginscherm - JOSM
+## Alternatief beginscherm 
+### iD
+
+![iD 4][]
+
+1. Begrenzing van het vierkant.  
+2. Voor dit vierkant is de schaal aangegeven als 5 km, op welke schaal de knoppen voor bewerken aan de bovenkant van het scherm zijn uitgegrijsd en niet te selecteren.
+
+### JOSM
 
 ![JOSM 3][]
 
 1. De begrenzing van dit vierkant wordt aangegeven door de arcering, afbeelding van Bing is geladen, maar op dit zoomniveau is de afbeelding niet gedetailleerd.  
 2. De schaalbalk geeft aan 2.61 km - dit is een zeer groot bedekkingsgebied. 
 
-
-## Beginscherm - ID
-
-![iD 1][]
-
-1. De grenzen van uw vierkant/gebied wordt aangegeven door de paarse lijn. Er is een lichte overlapping tussen de vierkanten, een object aan de rand van uw gebied zal dus ook zichtbaar zijn in het aangrenzende gebied. U zou alleen de objecten in kaart moeten brengen die in uw vierkant liggen om 'conflicten', die later worden uitgelegd, te voorkomen.  
-2. De schaal van uw weergave is hier aangegeven. Dit is een erg klein vierkant, de 100 m-lijn is veel langer in verhouding tot het vierkant - dit getal is meestal enkele kilometers.  
-3. Verschillende objecten bestaan al in de database van OpenStreetMap en die zijn geladen. We zullen ze straks gaan verkennen.
-4. Afbeeldingen van Bing zijn al geladen als achtergrond.  
-
-## Alternatief beginscherm - iD
-
-![iD 4][]
-
-1. Begrenzing van het vierkant.  
-2. Voor dit vierkant is de schaal aangegeven als 5 km, op welke schaal de knoppen voor bewerken aan de bovenkant van het scherm zijn uitgegrijsd en niet te selecteren.
-## De bestaande data bekijken - JOSM
-
-![JOSM 2][]
-
-1. Ik heb op een van de bestaande objecten in de gegevens van OSM geklikt en dat is nu rood gekleurd in onderstaande schermafdruk.  
-2. In het paneel **Tags / Leden** aan de rechterkant, kunt u zien dat dit object is getagd met de sleutel highway en de waarde residential. Om het simpel te houden zouden we hiernaar kunnen verwijzen als:  
-    highway=residential  
-
-Het volgende onderdeel van deze handleiding geeft aan hoe objecten zouden moeten worden ingetekend en getagd.
-
-
-## De bestaande data bekijken - iD
+## De bestaande data bekijken 
+### iD
 
 ![iD 2][]
 
@@ -123,6 +116,17 @@ Het volgende onderdeel van deze handleiding geeft aan hoe objecten zouden moeten
 3. De persoon die het naastgelegen gebied heeft gekozen, heeft een weg getekend net over de grens tot in mijn gebied en is toen gestopt. Dit is de juiste manier om een weg of object 'over te dragen' als het op de rand van uw vierkant ligt.
 
 Het volgende gedeelte van deze handleiding geeft aan hoe objecten zouden moeten worden ingetekend en getagd. [Wegen , gebouwen, water en landgebruik](/nl_NL/coordination/remote-tracing/).  
+
+
+### JOSM
+
+![JOSM 2][]
+
+1. Ik heb op een van de bestaande objecten in de gegevens van OSM geklikt en dat is nu rood gekleurd in onderstaande schermafdruk.  
+2. In het paneel **Tags / Leden** aan de rechterkant, kunt u zien dat dit object is getagd met de sleutel highway en de waarde residential. Om het simpel te houden zouden we hiernaar kunnen verwijzen als:  
+    highway=residential  
+
+Het volgende onderdeel van deze handleiding geeft aan hoe objecten zouden moeten worden ingetekend en getagd.
 
 
 # Meer informatie

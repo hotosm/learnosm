@@ -57,7 +57,7 @@ Também pode criar edifícios mais complicados desenhando primeiro vários edif�
 
 Além disso, pode alterar as configurações predefinidas do módulo.  
 
-* Vá a Dados->Definir tamanho dos edifícios. ![Set buildings size][]{: height="39px"} Caso não encontre, vá a "+ferramentas"->"Modos de desenhar edifícios"->"Opções da ferramenta de edifícios"  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * Se estiver a criar muitos edifícios de tamanho semelhante, pode definir dimensões específicas de largura e altura dos edifícios, como 6 x 10 metros (a unidade está em metros).  
 
@@ -87,7 +87,7 @@ Crie uma nova camada e experimente algumas das novas ferramentas. De seguida, de
 
     ![Nodes interesection][]
 
-2. **Colar etiquetas da seleção anterior:** esta função facilita a cópia de etiquetas. Se quiser criar muitos objetos com as mesmas etiquetas, desenhe primeiro os objetos. Depois adicione as etiquetas a um objeto. Clique noutro objeto e prima Shift + R para copiar as etiquetas do objeto anteriormente selecionado. Pode fazer isto para todos os objetos que pretende etiquetar. Lembre-se que as etiquetas serão copiadas do objeto previamente selecionado, por isso, se clicar num objeto não etiquetado e depois noutro objeto não etiquetado, não poderá copiar quaisquer etiquetas.  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 

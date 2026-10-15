@@ -35,7 +35,7 @@ Les points essentiels
 Voir aussi  
 ---------
 
-Le [Guide du Gestionnaire des Tâches sur LearnOSM] (/fr/coordination/tm-user/)  
+Le [Guide du Gestionnaire des Tâches 3 sur LearnOSM] (/fr/coordination/tasking-manager3/)  
 
 [![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tutorials vidéo du Tasking Manager")  
 *Sous-titres disponibles dans certaines langues*  

@@ -9,47 +9,31 @@ category: beginner
 OpenStreetMap.org ကိုစတင်လေ့လာခြင်း
 ====================================
 
+> Reviewed 2015-07-12  
 
-ယခုအပိုင်းတွင် OpenStreetMap(OSM) အင်တာနက်စာမျက်နှာသို့ဝင်ရောက်ခြင်း၊
-မြေပုံကြည့်ခြင်းနှင့် ကိုယ်ပိုင်အကောင့် (user account) တစ်ခုဖွင့်လှစ်ခြင်းတို့ကို တစ်ဆင့်ချင်း လေ့လာကြမည်ဖြစ်သည်။ 
-မိမိကိုယ်ပိုင်အကောင့်တစ်ခုရရှိမှသာ OSM မြေပုံရေးဆွဲရာတွင် 
-ပေါင်းစပ်ပါဝင်နိုင်မည် ဖြစ်သည်။
+In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
 
 ![website][]
 
 OpenStreetMap အင်တာနက်စာမျက်နှာသို့ဝင်ရောက်ခြင်း
 --------------------------------
 
-- ပထမဦးဆုံးအနေဖြင့် သင့်ကွန်ပျူတာကို အင်တာနက်ချိတ်ဆက်ထားရန်လိုသည်။
-    (အကယ်၍ ယခုလမ်းညွန်ချက်များကို အင်တာနက်မှတစ်ဆင့်ဖတ်ရှုနေပါက သင့်ကွန်ပျူတာသည် အင်တာနက်ချိတ်ဆက်ပြီးဖြစ်၏။)
-- အင်တာနက်ချိတ်ဆက်ပြီးပါက Mozilla Firefox, Google Chrome  တို့ကဲ့သို့ web browser တစ်ခုခုကိုဖွင့်ပါ။
-     ထို့နောက် စာမျက်နှာအသစ်(new tab)တစ်ခုကို ထပ်မံဖွင့်လှစ်ပါ။ 
+-   Open your web browser.
  - (browser တွင် စာမျက်နှာအသစ်တခုဖွင့်ရန် "Ctrl" key နှင့် “t” key ကိုအတူတွဲနှိပ်ရန်)။ ပေါ်လာသော စာမျက်နှာရှိ address bar နေရာတွင်
      [www.openstreetmap.org](http://www.openstreetmap.org/) ဟုရိုက်ပြီး Enter key နှိပ်ပါ။
-- ထို့နောက် အောက်ပါပုံအတိုင်းတွေ့မြင်
-    ရမည်ဖြစ်သည်။
+-   When the page has finished loading, you should see something like this:
 
     ![OpenStreetMap website with some main functions listed][]
 
 မြေပုံကိုလေ့လာခြင်း
 -----------------
 
-- အဓိကမြင်တွေ့ရမည်မှာ မြေပုံတစ်ခုဖြစ်၏။
-    မြေပုံပေါ်တွင်သင့်ကွန်ပျူတာရှိ mouse ၏ဘယ်ဘက်ခလုတ်ကိုဖိနှိပ်ထားလျက်
-    မိမိအလိုရှိရာနေရာသို့ ရွှေ့လျားသွားလာနိုင်သည်။ (အောက်ပါပုံတွင်ရှု)
+-   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
 
     ![Mouse navigation][]
 
-- သင့်ကွန်ပျူတာရှိ mouse တွင် scroll-wheel ခေါ်ဘီးလုံးပါရှိပါက မြေပုံမြင်ကွင်း အနီး၊အဝေးချိန်ညှိရန် ယင်းဘီးလုံးကိုအသုံးပြုနိုင်၏။
-     သို့မဟုတ်ပါက မြေပုံ၏ညာဘက်အပေါ်ထောင့်ရှိ “+” 
-    နှင့် “-” ခလုတ်များကို 
-    အသုံးပြုချိန်ညှိနိုင်သည်။(အောက်ပါပုံတွင်ရှု)
-- တည်နေရာတစ်ခုကိုရှာဖွေရန်အတွက် ဝက်ဘ်ဆိုဒ်စာမျက်နှာ၏ဘယ်ဘက်တွင်ရှိသော Search Box ဟု
-    ဖော်ပြထားသော အကွက်ငယ်ထဲသို့ mouse ၏ဘယ်ဘက်ခလုတ်ကို နှိပ်ချပေးပါ(အထက်ပါပုံတွင်ရှု)။
-    သင်၏မြို့ (သို့) ကျေးရွာ၏အမည်ကိုရိုက်၍  Enter key နှိပ်ပါ။
-    သင့်ရှာဖွေမှုရလာဒ်အား မြေပုံ၏ဘယ်ဘက်ဘေးနေရာတွင် ဖော်ပြပေးသည်ကို တွေ့မြင်နိုင်၏။
-    သင်ရှာဖွေလိုသောနေရာဖြစ်သည်ဆိုပါက ဖော်ပြပါနေရာပေါ်တွင် click နှိပ်ပါ။
-     သင်ရွေးချယ်ထားသောနေရာကို မြေပုံက အလိုအလျောက် ပြသပေးမည်ဖြစ်သည်။
+-   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
+-   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
 
     ![Search][]
    
@@ -57,89 +41,47 @@ OpenStreetMap အင်တာနက်စာမျက်နှာသို့ဝ
 မြေပုံကို ကွဲပြားသောအသွင်အပြင်များဖြင့် ကြည့်ရှုခြင်း
 -------------------------
 
-OSM တွင် ကမ္ဘာအရပ်ရပ်မှပထဝီဝင်အချက်အလက်များ ပါ၀င်သည်။
- အချက်အလက်သိုမှီးမှုမှာ တစ်မျိုးတစ်စားတည်းဖြစ်သော်လည်း
-ယင်းအချက်အလက်များကို အသွင်သဏ္ဍာန်အမျိုးမျိုးဖြင့် ကြည့်ရှုနိုင်ရန်စီမံထား၏။ ယင်းလုပ်ဆောင် ချက်ကိုတွေ့မြင်နိုင်ရန်
- OSM အင်တာနက်စာမျက်နှာရှိ မြေပုံအသွင်သဏ္ဍာန်အမျိုးမျိုးကို ကြည့်ရှုနိုင်သည်။
+OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
 
 - မြေပုံ၏ညာဘက်ဘေးတွင်ရှိသော Layers ခလုတ်ကိုနှိပ်ပါ။(အောက်ပုံတွင်ရှု)
 
     ![Layers button][]
 
-- မြေပုံအတွက် ကွဲပြားသောရွေးချယ်မှုပုံသဏ္ဍာန်(different style options) ကို နှိပ်ပါ။
-     ရွေးချယ်မှုတိုင်းအတွက် မြေပုံအသွင်သဏ္ဍာန်ပြောင်းလဲမှုများကို သတိပြုနိုင်ပါသည်။
-     ဥပမာ- သယ်ယူပို့ဆောင်ရေးအတွက်မြေပုံတွင် ပို့ဆောင်ရေး လမ်းကြောင်းများကို အဓိကဖော်ပြမည်ဖြစ်ပြီး စက်ဘီးစီးလမ်းကြောင်းမြေပုံတွင် ယင်းလမ်းကြောင်းကိုသာ အသားပေးဖော်ပြမည် ဖြစ်သည်။
-     ထိုကဲ့သို့ပြောင်းလဲမှုများအတွက် OSM အချက်အလက်သိုမှီးမှုထဲတွင် 
-    ပါဝင်ထားပြီးဖြစ်သည်။
+-   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
 
     ![Transport map][]
 
 OpenStreetMap အကောင့်ဖွင့်ခြင်း(Create OSM account)
 --------------------------------
 
-- OpenStreetMap ကိုအသုံးပြုလျက် မြေပုံများဖြည့်စွက်ထည့်သွင်းရန်အတွက်
-    အဆိုပါဝက်ဘ်ဆိုဒ်တွင် 
-    မှတ်ပုံတင်ထားရန် လိုအပ်သည်။
-- ဝက်ဘ်ဆိုဒ်စာမျက်နှာ၏ညာဘက်အပေါ်ထောင့်ရှိ “sign up” 
-    ခလုတ်ကိုနှိပ်ပါ။
+-   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
+-   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
 - အောက်ပါပုံအတိုင်းတွေ့မြင်နိုင်ပါသည်။
 
     ![Registering an OpenStreetMap account][]
 
-- OSM account တစ်ခုမှတ်ပုံတင်ဖြည့်စွက်ရန်အတွက် အကွက်ငယ် ၅ ခုကို
-    အဆိုပါဝက်ဘ်ဆိုဒ်စာမျက်နှာတွင်တွေ့မြင်နိုင်၏။
-- အပေါ်ဆုံးရှိ အကွက်ငယ် ၂ ခုတွင် သင့် email လိပ်စာကိုဖြည့်စွက်ပါ။ 
-    လိပ်စာတစ်ခုတည်းကိုသာဖြည့်စွက်ပေးရပါမည်။ (မှတ်ပုံတင်ခြင်းအဆင့်ပြီးဆုံးပါက 
-    OpenStreetMap အဖွဲ့၏ အတည်ပြုချက်ရယူရန် ယခုဖြည့်စွက်ခဲ့သော သင့် email ကိုဖွင့်လှစ်စစ်ဆေးပါ။)
-- Username အဖြစ်အသုံးပြုရန် သင်နှစ်သက်ရာ နာမည်တစ်ခုကို တတိယအကွက်ငယ်တွင် ဖြည့်စွက်ပါ။ 
-    OSM အဖွဲ့၏မူဝါဒအရ သင်ရွေးချယ်ထားသော နာမည်သည် 
-    အခြားသူတဦး၏ရွေးချယ်မှုနှင့်တူညီခွင့်မရှိပါ။ 
-    သင့်နာမည်၏ ပထမဆုံးစာလုံးကို ရွေးချယ်မည်ဆိုပါက အခြားအသုံးပြုသူတဦးဦးနှင့်တူညီရန် 
-    ဖြစ်နိုင်ချေများပြီး ရယူသုံးစွဲခွင့်နည်းပါးနိုင်ပါသည်။ ထို့ကြောင့် ကွဲပြားသောနာမည်တစ်မျိုးမျိုးကို အသုံးပြုရန် အကြံပြုပါသည်။
-- စတုတ္ထနှင့်ပဉ္စမအကွက်ငယ်တို့တွင် စကားဝှက် (password) ရိုက်ထည့်ပါ။ 
-    ထည့်သွင်းလိုက်သော password သည်အကွက် ၂ ခုလုံးတွင်တူညီရန်လိုအပ်သည်။ password အတွက် နှစ်သက်ရာကို အသုံးပြုနိုင်ပြီး 
-    သင့် email လိပ်စာတွင် အသုံးပြုသော password ဖြစ်ရန်မလိုပေ။
-- OpenStreetMap ဝက်ဘ်ဆိုဒ်တွင် ဝင်ရောက်အသုံးပြုရန်အတွက် သင့် username နှင့် password ကို 
-    မှတ်သားမိရန်လိုသည်။
-- လိုအပ်သောဖြည့်စွက်မှုများကို ပြုလုပ်ပြီးပါက အောက်ခြေရှိ "Sign Up"  
-    ခလုတ်ကိုနှိပ်ပါ။
-- မှတ်ပုံတင်ခြင်းအဆင့်တွင် အဆင်မပြေမှုများရှိပါက မှားယွင်းကြောင်းသတိပေးချက်များ မြင်တွေ့ရနိုင်သည်။ 
-    ထိုသို့ကြုံတွေ့ပါက ဖြည့်စွက်မှုများကို ပြန်လည်စစ်ဆေးရန်လိုအပ်သည်။ 
-    အကယ်၍ တတိယအကွက်ငယ်တွင် အနီရောင်သတိပေးချက်မြင်တွေ့ပါက 
-    နာမည်တူတစ်ခုရှိကြောင်း သတိပေးခြင်းဖြစ်ပြီး 
-    အခြားနာမည်တစ်ခုကို အသုံးပြုဖြည့်စွက်ရန်လိုသည်။
-- သီးခြားစာမျက်နှာတစ်ခု(သို့) သီးခြား window တစ်ခုကို သင်၏အင်တာနက် browser တွင်ဖွင့်ပါ။ 
-    ထို့နောက် သင်၏email လိပ်စာသို့လမ်းညွှန်ထားပါ။ လူသုံးများသော email sites များမှာ [mail.yahoo.com](http://mail.yahoo.com) 
-    နှင့် [www.gmail.com](http://www.gmail.com) တို့ဖြစ်ပါသည်။
-- ထို့နောက် အတည်ပြုချက်ရယူရန် သင့် email ကိုဖွင့်ပါ။ 
-    သင်၏OpenStreetMap username နှင့် password သည် သင်၏ Email username 
-    နှင့် password တို့နှင့် မတူညီသည်ကိုသတိထားပါ။ 
-- မှတ်ပုံတင်မှုအောင်မြင်ပါက OpenStreetMap အဖွဲ့မှပေးပို့သော 
-    စာတစ်စောင်ကို အောက်ပါအတိုင်းတွေ့မြင်နိုင်ပါသည်။ 
-    အတည်ပြုချက်အတွက်ဖော်ပြထားသော Link ဆက်ကြောင်းကို နှိပ်ပါက OpenStreetMap အင်တာနက်စာမျက်နှာသို့ 
-     ရောက်ရှိသွားမည်ဖြစ်သည်။ (မြားအမည်းရောင်ဖြင့်ပြထားသည်)
+-   There are five boxes on this page that you need to fill in to register an account with OSM.
+-   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
+-   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
+-   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
+-   You may want to write down your OSM username and password. You will need it to log in later.
+-   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
+-   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you must try a different name.
+-   Have a look at your email.
+-   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
 
     ![Confirming your OpenStreetMap account][]
 
--   ထို့နောက် အရာအားလုံးအဆင်ပြေသွားလျှင် သင့်ထံတွင် OSM account တစ်ခုရှိပြီဖြစ်ပါသည်။ 
-    ထို့နောက် စာမျက်နှာအသစ်တစ်ခု (သို့) window အသစ်တစ်ခု ပွင့်လာပါလိမ့်မည်။
-- ထိုသို့ရောက်ရှိပါက ညာဘက်အပေါ်နားရှိ “log in” ခလုတ်ကိုနှိပ်၍ 
-    သင်၏ OSM username နှင့် password ထည့်သွင်းပြီး Enter key နှိပ်ပါ။
-    ယင်းနောက် သင်ဖြည့်စွက်ခဲ့သောနာမည်ကို ညာဘက်အပေါ်ထောင့်တွင် တွေ့မြင်နိုင်ပါသည်။
-    ခလုတ်ကိုနှိပ်ပါ။
+-   A new tab or window will open. If everything went well, you should have an OSM account!
+-   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
 
 နေရာညွှန်ကိန်းများကို ကိုယ်တိုင်ထည့်သွင်းခြင်း
 -------------------------
 
-- OpenStreetMap ဝက်ဘ်ဆိုဒ်သို့ သင့်ကိုယ်ပိုင်အကောင့်ကို အသုံးပြုဝင်ရောက်ပါ။ 
-    ထို့နောက် ယင်းဝက်ဘ်ဆိုဒ်ရှိ iD editor ဟုခေါ်သော အချက်အလက်တည်းဖြတ်မှုခလုတ် အသုံးပြု၍ တည်နေရာတစ်ခုကို ဦးဆုံးအနေဖြင့် 
-    ထည့်သွင်းကြည့်နိုင်ပါသည်။
-- သင့်မြို့ သို့မဟုတ် ရင်းနှီးကျွမ်းဝင်သော ပတ်ဝန်းကျင်သို့ရောက်အောင် မြေပုံကိုရွှေ့ပါ။ 
-    သင့်အိမ် သို့မဟုတ် အိမ်နီးနားချင်း၏အိမ် နှင့် အလုပ်လုပ်ကိုင်ရာနေရာတို့သို့ ရွှေ့ယူလျက် လိပ်စာတိကျစွာဖော်ပြခြင်းသည် စိတ်ကူးကောင်းတစ်ခုဖြစ်နိုင်ပါသည်။ 
+-   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
+-   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
 - မြေပုံပေါ်တွင် သင်ထည့်သွင်းလိုသောနေရာညွှန်ကိန်းရှိရာသို့ မြင်ကွင်းချဲ့ကြည့်ပါ။ သင်နေထိုင်ရာအနီးရှိ စားသောက်ဆိုင်တစ်ခုခု၊ ကုန်စုံဆိုင် စသည့် မြေပုံပေါ်တွင် မပါဝင်သေးသော နေရာများကိုလည်း အသုံးပြုနိုင်သည်။
-- မြေပုံ၏အပေါ်ဘယ်ဘက်နားတွင် Edit ဟုအမည်ပေးထားသော ခလုတ်တစ်ခုနှင့် ယင်း၏ဘေးတွင် 
-    မြားခေါင်းအောက်စိုက်နေပုံ တြိဂံငယ်တစ်ခုကိုမြင်တွေ့ရမည်ဖြစ်သည်။ 
-    တြိဂံငယ်ကိုနှိပ် လိုက်ပါက menu တစ်ခုပေါ်လာသည်ကိုတွေ့ရမည်ဖြစ်ပြီး 
+-   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
 - ယင်းအထဲမှ “Edit with iD(in-browser editor)” ဟုရေးထားသောစာကြောင်းကိုနှိပ်ပါ။
 
     ![Click edit][]
@@ -148,37 +90,26 @@ OpenStreetMap အကောင့်ဖွင့်ခြင်း(Create OSM acc
 
     ![iD editor][]
 
-- မြေပုံ၏အပေါ်နားတွင်ရှိသော Point ဟုအမည်တပ်ထားသည့်ခလုတ်ကိုနှိပ်ပြီး 
-    သင်ထည့်သွင်း လိုသောနေရာကိုရွေးလျက် မြေပုံပေါ်သို့အမှတ်အသားပြုပေးခြင်းဖြင့် 
-    နေရာညွှန်ကိန်းအသစ် တစ်ခုကို ဖြည့်သွင်းနိုင်ပါသည်။
+-   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
 
     ![Point button][]    
 
-- မြေပုံပေါ်တွင် သင်ထည့်သွင်းထားသော တည်နေရာသည် မည်သည့်အမျိုးအစားဖြစ်သည်ကို 
-    ဘယ်ဖက်အပေါ်ထောင့်ရှိ Menu မှတစ်ဆင့်ရွေးချယ်ပေးပါ။ 
-    ထို့နောက် တည်နေရာ၏နာမည်နှင့် အခြားသတင်းအချက်အလက်များကို ပုံစံထဲတွင် ဖြည့်နိုင်ပါသည်။
-- သင့်ဖြည့်စွက်ချက်ကို သိမ်းဆည်းရန်အတွက် မြေပုံ၏အပေါ်ဘက်တွင်ရှိသော Save ခလုတ်ကိုနှိပ်ပါ။ 
-    ပထမဆုံးပြင်ဆင်မှုအတွေ့အကြုံဖြစ်ပါက သင်ဖြည့်သွင်းသော အချက်အလက်များအတွက် သေချာမှုရှိရန် နောက်တစ်ကြိမ်ပြန်လည် စစ်ဆေးသင့်သည်။ သေချာမှုမရှိပါက 
-    အချက်အလက်သိမ်းဆည်းမှုကို မပြုလုပ်သင့်ပေ။
+-   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
+-   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
 
     ![Save button][]    
 
-- Save ခလုတ်နှိပ်လိုက်ပါက သင်ပြုလုပ်သောပြင်ဆင်ချက်အတွက် သေချာမှုရှိရန်မေးခွန်းမေးမည်ဖြစ်ပြီး 
-    ယင်းခလုတ်ကို နောက်တစ်ကြိမ်ထပ်နှိပ်ပါက OSM ၏အချက်အလက်သိုမှီးရာနေရာတွင် 
-    သိမ်းဆည်းပေးသွားမည်ဖြစ်သည်။ 
+-   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
 
 
-iD Editor သည် Open Street Map တွင်မြေပုံပြင်ဆင်တည်းဖြတ်ရာ၌ လွယ်ကူအသုံးဝင်သော နည်းလမ်းတစ်ရပ်ဖြစ်သည်။ သို့သော်လည်း အင်တာနက်ချိတ်ဆက်ရန်မလိုဘဲ 
-သွင်ပြင်လက္ခဏာရပ်များစွာလည်း ထည့်သွင်းအသုံးပြုနိုင်သော JOSM အမျိုးအစားကို မိတ်ဆက်ဖော်ပြဦးမည်ဖြစ်သည်။
-OSM သို့ ပါဝင်ရေးဆွဲမှု အတွေ့အကြုံများပြားလာသည်နှင့်အမျှ မည်သည့် အမျိုးအစားသည် 
-သင်နှင့်ကိုက်ညီမှုအရှိဆုံးဖြစ်သည်ကို သင်ကိုယ်တိုင်ရွေးချယ်သုံးစွဲတတ်လာမည်ဖြစ်၏။
+The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
+
+However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
 
 အကျဉ်းချုပ်ဖော်ပြချက်
 -------
 
-ဂုဏ်ယူပါတယ်။ အခုဆိုရင် OpenStreetMap  ဝက်ဘ်ဆိုဒ်တွင်သင့်ကိုယ်ပိုင်အကောင့်တခု ဖွင့်လှစ်နိုင်ခဲ့ပြီး 
-ယင်းဝက်ဘ်ဆိုဒ်ကိုလေ့လာစူးစမ်းကာ 
-မြေပုံပေါ်တွင် နေရာညွှန်းကိန်းတစ်ခု ထည့်သွင်းနိုင်ခဲ့ပြီဖြစ်ကြောင်းယုံကြည်ပါသည်။
+Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
 
 
 

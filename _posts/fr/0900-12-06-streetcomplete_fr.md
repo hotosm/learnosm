@@ -54,5 +54,5 @@ Pour compléter certaines de ces informations, vous devez avoir une connaissance
 [Allow]:            /images/mobile-mapping/streetcomplete-allow.png
 [Menu+Login]:       /images/mobile-mapping/streetcomplete-menu_login.png
 [Login]:            /images/mobile-mapping/streetcomplete-login.png
-[Building quests]:  /images/mobile-mapping/streetcomplete-building-quest.png
+[Building quest]:   /images/mobile-mapping/streetcomplete-building-quest.png
 [More quests]:      /images/mobile-mapping/streetcomplete-more-quests.png

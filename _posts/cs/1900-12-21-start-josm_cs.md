@@ -16,8 +16,7 @@ Jak stáhnout a nainstalovat JOSM, editor Java OpenStreetMap, změnit některá 
 Stáhněte si JOSM
 -------------
 
-- Pokud máte kopii JOSM na CD nebo USB flash disku, můžete přejít k další části, Instalace JOSM.
-- Pokud ještě nemáte JOSM nebo chcete nejnovější verzi, otevřete webový prohlížeč - může to být Firefox, Chrome, Opera nebo Internet Explorer.
+- Pokud ještě nemáte JOSM nebo chcete nejnovější verzi, otevřete webový prohlížeč.
 - Do adresního řádku v horní části okna zadejte následující text a stiskněte klávesu Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de).
 - Webové stránky JOSM najdete také po zadání hesla "JOSM" na internetu.
 - Webové stránky by měly vypadat přibližně takto:
@@ -53,14 +52,13 @@ V JOSM lze upravit mnoho různých nastavení. Jedním z nastavení, které mů�
 
     ![Preferences window][]
 
-- Na levé straně klikněte na ikonu, která vypadá jako plechovka s barvou a štětec.
-- V horní části okna klikněte na kartu "Look and Feel".
+- Na levé straně klikněte na kartu Jazyk.
 - V rozevíracím poli vedle slova " Jazyk " vyberte svůj jazyk.
 
-    ![Look and feel][]
+    ![language][]
 
 - Klikněte na OK.
-- Pro uložení nastavení je třeba restartovat JOSM. Klikněte na "Soubor" v levém horním rohu a klikněte na "Restartovat" v dolní části nabídky.
+- Pro uložení nastavení je třeba restartovat JOSM. V okně se zprávou vyberte příslušnou možnost.
 
 Naučte se základy mapování s JOSM
 -----------------------------
@@ -175,7 +173,7 @@ blížeji podíváme na proces úpravy mapy OSM s JOSM.
 
 [preferences window]: /images/josm/josm_preferences.png
 
-[look and feel]: /images/josm/josm_look-and-feel.png
+[language]: /images/josm/josm_language.png
 
 [open file]: /images/josm/josm_open-file.png
 

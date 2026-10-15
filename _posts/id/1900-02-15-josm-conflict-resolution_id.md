@@ -1,108 +1,216 @@
 ---
 layout: doc
-title: Menyelesaikan Konflik
+title: Penyelesaian Konflik di JOSM
 permalink: /id/josm/conflict-resolution/
-redirect_from:
-  - /bi/josm/conflict-resolution
-  - /bi/josm/conflict-resolution/
 lang: id
 category: josm
 ---
 
-Pengantar 
-==========
-Terkadang ketika Anda sedang bekerja di JOSM dan ketika Anda mengupload peta yang telah diedit, Anda mendapatkan pesan seperti ini:
+Penyelesaian Konflik di JOSM
+====================
 
-![conflict detected][]
+> Reviewed 2016-09-27  
 
-Apa yang terjadi apabila Anda mendownload sekumpulan data, berisi sebuah titik yang kita sebut Node A. Kemudian selama Anda mengedit, orang lain juga mendownload Node A, mengubahnya,
-dan menyimpan perubahannya kembali di OpeStreetMap. Sekarang Anda mencoba untuk mengupload versi Node A Anda, ini berbeda dengan yang disimpan pada OSM. Oleh karena itu JOSM
-tidak tahu versi mana Node A yang harus disimpan.
+Kadang ketika Anda bekerja di JOSM dan mengupload hasil edit Anda, mungkin Anda akan mendapatkan pesan konflik yang menyebalkan.  
+![conflict detected][]  
+Yang terjadi adalah Anda mendownload data titik yang akan kita namakan Titik A. Lalu ketika Anda mengedit, orang lain juga mendownload Titik A, mengubahnya, dan menyimpan perubahan tersebut kembali ke OpenStreetMap. Sekarang saat Anda mencoba mengupload Titik A versi Anda, titik tersebut berbeda dari yang telah tersimpan di OSM. Maka dari itu, JOSM tidak tahu versi Titik A mana yang harus disimpan.  
 
 Konflik
+----------
+
+Kadang, JOSM dapat mengetahui apa yang harus dilakukan terhadap konflik, dan akan menampilkan pesan seperti ini:  
+![resolved automatically][]  
+Ini berarti JOSM secara otomatis memilih objek yang ada di dataset lokal supaya tidak dapat diupload ke server karena objek tersebut telah dihapus oleh pengguna lain. Pada beberapa konflik, bagaimanapun, tidak ada langkah mudah bagi JOSM untuk menyelesaikannya sehingga penyelesaian harus dilakukan oleh pengguna untuk menentukan tindakan apa yang terbaik. Ini berarti penyelesaian konflik tergantung dari Anda.  
+
+Ini menyarankan Anda untuk melihat ke semua konflik yang ada di Layer 1 pada kotak **Dialog List**:  
+![warning unresolved][]  
+
+Jendela ini membantu Anda memberikan peringatan ketika Anda menemukan konflik. Jika Anda mengecek ke server Anda dapat memperbaiki masalah ini:  
+![check on server][]  
+
+Peringatan ini memberitahu Anda bahwa JOSM gagal menghapus titik karena masih terkait dengan sebuah garis. Untuk mengatasi ini, pengguna harus kembali ke JOSM dan menyelesaikan konflik yang terjadi sebelum dapat mengupload data:  
+![still in use][]  
+
+Penyelesaian Konflik
+--------------------
+
+Proses penyelesaian konflik cukup sederhana, meskipun dapat juga membingungkan jika baru pertama kali mengalaminya di JOSM. Pada dasarnya, setiap konflik di JOSM akan menyediakan dua pilihan - objek versi Anda atau versi yang ada di server. Anda harus memilih apakah ingin menyimpan versi Anda, atau versi yang di server.   
+Anda mungkin berpikir, "tentu saja versi saya akan jauh lebih baik!" Dan mungkin juga Anda benar. Tapi pikirkan kembali contoh yang diberikan di awal. Mungkin pada saat Anda sibuk mengedit, pengguna lain juga menambahkan banyak informasi ke salah satu titik di set data Anda. Jika Anda memilih versi Anda dibandinkan versi mereka, Anda akan kehilangan semua informasi yang mereka tambahkan. Oleh karena itu Anda harus mempertimbangkan untuk menyimpan versi mereka, atau menggabungkannya dengan milik Anda.  
+Saat jendela pemberitahuan konflik muncul, pilihan terbaik yang bisa Anda pilih adalah menekan tombol "Synchronize ... only." Anda mungkin harus melakukan ini lebih dari satu objek, tapi ini merupakan cara terbaik untuk memperbaiki konflik satu per satu.   
+![synchronize node][]  
+Ketika Anda mengklik tombol ini, akan muncul jendela yang menjelaskan mengenai konflik Anda. Pesan error nya mungkin terlihat rumit, tapi kali ini cukup sederhana. Anda akan tahu tipe konflik apa yang Anda miliki dari kotak merah yang ada di bagian atas. Konflik di bagian bawah merujuk ke bagian properti, seperti lokasi dan keberadaan objek, Ini alasan kenapa koordinat dan status yang dihapus terdaftar.  
+
+**Tipe Konflik:**
+
+- **Properties:**  Objek telah dipindahkan (koordinat) atau dihapus  
+- **Tags:**  Tag tidak cocok  
+- **Nodes:**  There is a differences in the list of nodes in two ways  
+- **Members:**  Ada perbedaan pada daftar member di relasi  
+![properties with conflicts][]  
+
+Konflik hanya muncul pada dua hasil edit yang berbeda. Jika terdapat tiga atau lebih konflik, maka rantai konflik akan muncul. Untuk itu Anda harus memilih atau menggabungkannya dengan dua konflik pada saat bersamaan. Anda dapat memilih versi Anda, versi lain atau, menggabungkan keduanya.   
+
+Pada contoh di bawah Anda tidak memiliki pilihan untuk menggabungkan. Klik kolom pertama, atau My version jika Anda percaya bahwa hasil edit Anda benar. Klik pada Their version jika Anda pikir hasil edit orang lain lebih baik.   
+![conflicts resolved][]  
+
+Ketika Anda memilih versi mana yang Anda pikir lebih baik, lalu klik "Apply Resolution." Beberapa jendela akan muncul dan Anda harus mengerjakan beberapa hal sendiri. Perbaiki beberapa editing. Lalu klik 'Upload'. Anda akan mendapatkan pesan muncul yang mengatakan:   
+![command stack][]  
+
+Pada menu Windows Anda memiliki Conflict List Dialog . Jendela ini memunculkan daftar konflik yang terjadi. Total jumlah dari konflik yang belum terselesaikan muncul di bagian atas. Anda dapat memilih atau memperbaiki konflik dengan mengklik bagian tersebut. Hal ini berguna ketika Anda memiliki banyak konflik yang harus diselesaikan.   
+![one unresolved][]  
+Anda tidak dapat mengupload perubahan hingga daftar ini kosong.   
+
+Cara untuk Menghindari Konflik
+------------------------
+
+### Upload Berkala
+
+To minimize the chance and number of conflicts it is important to upload your edits regularly.  Conflicts appear more frequently for those who tend to save the area they are working on in their local server and wait a while to upload it.  It is best to download the area you are working on, edit it and then immediately upload it.  The longer the time between downloading data and uploading changes to that data, the more likely it is that someone has edited something in the meantime. If you are at a Mapathon & editing a feature such as a highway which may be worked on by others as well, upload very frequently, perhaps every 6 edits!  
+
+### Edit in the Area You Download
+
+Editing in the specific area you have downloaded minimizes conflict risk.  Make sure you do not edit outside of the area that you have downloaded.  You can easily see which areas outside your download area in JOSM, because the background is made up of diagonal lines instead of being solid black.  
+
+![edit outside area][]  
+
+Summary
 --------
-Meskipun begitu, JOSM dapat mendeteksi beberapa konflik yang terjadi, dan Anda akan menemukan pesan seperti ini:
+When you edit in JOSM, you run the risk of running into conflicts.  Conflicts occur when an object has been edited by two people at a similar time.  By understanding what a conflict is and how to deal with it, you will be able to ensure that the best possible edits are saved to OpenStreetMap.  
 
-![resolved automatically][]
 
-Ini berarti JOSM secara otomatis memutuskan bahwa objek-objek pada set data lokal Anda tidak akan diupload ke server utama karena mereka telah dihapus terlebih dahulu oleh pengguna yang lain.
+<!-- More stuff, could go into an additional chapter - DO NOT TRANSLATE
+## Appendix. More Specific Conflicts
 
-Dalam beberapa konflik, tidak ada cara yang mudah untuk JOSM mengatasinya dan keputusan sesuai dengan pengguna untuk menentukan kebutuhan yang terbaik. 
+### Tag Conflicts
 
-*	Ini menunjukkan Anda harus melihat semua konflik Anda pada Layer 1 di kotak **Dialog List**:
-![warning unresolved][]
+If the tags of one version of an objects are different from the tags of
+another version, the Conflict dialog shows a ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in
+the tab Tags. Click on the tab to display a dialog for resolving tag
+conflicts.
 
-*	Jendela ini menyediakan sebuah peringatan yang kemungkinan akan Anda hadapi ketika konflik editing terjadi. Jika Anda memeriksa pada server Anda mampu untuk memperbaiki masalah 
-	editing yang akan muncul:
-![check on server][]
+There are three tables displayed in this dialog, from left to right:
 
-*	Peringatan ini menunjukan bahwa JOSM gagal untuk menghapus sebuah node karena node tersebut masih terhubung dengan sebuah garis. Untuk mengatasi hal ini, pengguna harus kembali ke
-	JOSM dan menyelesaikan konflik sebelum melakukan upload data.
-![still in use][]
+1.  My version: shows the tags of the first object version participating
+    in this conflict. These are usually the tags of the object version
+    in your local data set.
+2.  Merged version: shows the merged tags. This table is initially
+    empty. The more tag conflicts you resolve, the more tag values will
+    we be displayed in this table.
+3.  Their version: shows the tags of the second object version
+    participating in this conflict. These are usually the tags of the
+    object version currently stored on the server.
 
-Menyelesaikan Konflik
-----------------------
+In the example below both versions have a tag "name". The values in the
+two object versions are different, though, and JOSM therefore displays
+the row with a red background. The value of the first version is
+"Secondary School", the opposite version has a value "Elementary
+School". You now have to decide which of these values you want to keep
+and which you want to discard.
 
-Proses menyelesaikan sebuah konflik sangat sederhana, walaupun hal ini awalnya membingungkan dalam JOSM. Dasarnya, untuk setiap konflik JOSM akan muncul dalam dua pilihan - versi  Anda dan versi server. Anda harus memilih apakah tetap menggunakan versi Anda, atau apakah menggunakan versi baru pada server.
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image07.png)
 
-Anda mungkin berpikir, "Tentu saja versi saya yang lebih baik!" dan mungkin Anda benar. Tetapi pikirkan kembali untuk contoh kita pada awal bab ini. Mungkin saat Anda sibuk mengedit, pembuat peta lain telah menambahkan banyak informasi pada salah satu node dalam set data Anda. Jika Anda memilih versi Anda di atas versi mereka, Anda akan kehilangan semua informasi
-yang berharga yang telah mereka tambahkan. Oleh karena itu Anda harus mempertimbangkan menjaga versi mereka, atau menggabungkannya dengan versi Anda. 
+Click on the value you want to keep, in the example for instance on the
+value on the left. If you either double-click on the value or click on
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), you decide to keep the value and to discard the
+opposite value. The table in the middle now displays the value to keep
+and the background color turns to green.
 
-*	Kemudian akan muncul jendela konflik, yang terbaik adalah memilih tombol “Synchronize ... only.” Anda mungkin perlu melakukan ini untuk lebih dari satu objek, tetapi yang terbaik 
-	adalah menyelesaikan konflik satu per satu. 
-	
-![synchronize node][]
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image10.png)
 
-Setelah Anda mengklik tombol ini, Anda akan mendapatkan sebuah jendela yang menrinci konflik Anda. Pesan kesalahan meungkin terlihat rumit, tetapi ini terlihat sederhana. Anda 
-akan mengetahui jenis konflik apa yang Anda miliki dengan simbol kotak berwarna merah pada tab bagian atas. Konflik pada contoh ini mengacu pada properti, seperti lokasi dan objek 
-yang ada. Inilah sebabnya kenapa koordinat dan status keberadaan dihapus.
+When the button Apply Resolutionis enabled you can apply your decision.
+The values you've chosen will be applied and the dialog will be closed.
 
-**Jenis Konflik:**
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image03.png)
 
-*	**Properties:** Objek yang telah dipindahkan (koordinat) atau dihapus
-*	**Tags:** Tags tidak sesuai
-*	**Nodes:** Terdapat perbedaan pada daftar nodes dalam dua garis
-*	**Members:** Terdapat perbedaan pada daftar anggota dalam sebuah relasi
+## Resolving differences in the node list of two versions of a way
 
-![properties with conflicts][]
+If you see the symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in the tab Nodesthen you
+have to resolve differences in the list of
+[nodes](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)of two
+[ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). There
+are three columns in the respective panel (see screen shot below):
 
-Konflik hanya muncul dengan dua editan yang berbeda pada saat bersamaan. Jika terdapat tiga atau lebih konflik, kemudian rantai konflik akan muncul. Oleh karena itu Anda harus memilih atau menggabungkan dengan hanya dua konflik pada saat bersamaan. Anda dapat memilih versi Anda, atau versi lain, pada saat bersamaan, menggabungkan keduanya.
+1.  the leftmost table displays the list of nodes of the the local
+    object version
+2.  the rightmost table displays the list of nodes of the the server
+    object version
+3.  the table in the middle shows the list of nodes of the merged ways
 
-*	Pada contoh ini Anda tidak memiliki pilihan menggabungkan. Klik pada kolom pertama, atau versi Anda jika Anda percaya bahwa perubahan Anda adalah benar. Klik pada version mereka 
-	jika Anda berpikir bahwa perubahan lain adalah lebih baik. 
+Initially, the middle table is empty. You should now decide which nodes
+to keep from the local dataset (the leftmost table) and which from the
+server dataset (the rightmost table).
 
-![conflicts resolved][]
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image24.png)
 
-*	Setelah Anda memilih versi mana yang Anda anggap lebih baik, kemudian klik "Apply Resolution". Beberapa jendela lebih akan muncul dan Anda dapat mengupload editan Anda.
-*	Lakukan editing lebih lanjut. Kemudian klik 'Upload'. Anda akan melihat jendela yang mengatakan:
+### The standard workflow
 
-![command stack][]
+The standard workflow to resolve conflicts in the node lists of two
+[object
+versions](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)consists
+of three steps:
 
-*	Pada menu Windows Anda memiliki sebuah Dialog Daftar zkonflik. Jendela ini menampilkan sebuah daftar konflik. Jumlah konflik yang belum terselesaikan secara keseluruhan yang 
-	ditampilkan pada header. Anda dapat memilih atau menyelesaikan sebuah konflik dengan mengklik pada konflik tersebut. Ini bermanfaat ketika Anda memiliki banyak konflik.
-	
-![one unresolved][]
+1.  Pick nodes from either object version and reorder the resulting node
+    list if necessary
+2.  Freezethe resulting merged node list by clicking on the button
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). When you freeze the merged node list you
+    tell JOSM that all conflicts in the node list are resolved.
+3.  Apply the resolution
 
-*	Anda tidak dapat mengupload perubahan Anda hingga daftar ini kosong.
+### A simple workflow: Keep the node list from your local object version
 
-Cara Menghindari Konflik
--------------------------
+The following example shows the workflow when you decide to keep all nodes in the same order from your local object version.
 
-### Upload Secara Rutin
-Untuk meminimalkan kesempatan dan jumlah konflik adalah sangat penting untuk menguload editan Anda secara rutin. Konflik muncul lebih sering untuk mereka yang mengedit seluruh wilayahnya terlebih dahulu dan menunda untuk menguploadnya. Hal yang terbaik adalah, download wilayah yang anda kerjakan, edit, kemudian upload secepatnya secara berkala.
-Semakin lama Anda mendownload data dan mengupload perubahan untuk data itu, semakin besar kemungkinan seseorang telah mengedit sesuatu untuk sementara itu.
+-   First, select all elements in the leftmost table (either using the mouse or by 
+    pressing Ctrl-A in the table) (see next screen shot):
 
-### Edit pada Area yang Anda Download
-Mengedit pada area tertentu yang telah Anda download meminimalkan resiko konflik. Pastikan Anda tidak mengedit diluar area yang Anda telah download. Anda dapat dengan mudah 
-melihat area diluar area yang Anda download pada JOSM, kerena latar belakang terdiri dari garis diagonal bukan hitam solid.
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image04.png)
 
-![edit outside area][]
+-   Then, click 
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image19.png)
+    to copy the selected nodes to the middle table with the merged nodes:
 
-Ringkasan
----------
-Ketika Anda mengedit pada JOSM, Anda memiliki resiko berhadapan dengan konflik. Konflik terjadi apabila sebuah objek yang telah diedit oleh dua orang pada saat yang bersamaan 
-Ketika anda mengedit di JOSM, dimana anda mendownload salinan dari peta OSM, anda memiliki resiko berhadapan dengan konflik. Konflik terjadi apabila sebuah obyek atau lebih diedit oleh dua orang atau lebih pada saat yang sama. Dengan memahami apa itu konflik dan bagaimana menghadapinya, Anda dapat memastikan bahwa kemungkinan editan terbaik disimpan ke OpenStreetMp.
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image01.png)
 
+-   Finally, click
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png)
+    to freeze the resulting merged node list:
+
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image20.png)
+
+    The symbol in the nodes tab now switched to 
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image00.png)
+    and you can apply the merge decisions.
+
+### Support for comparing node lists
+
+It can be difficult to find the differences between the node list of of two object versions, in particular for ways with many nodes.
+
+The Conflict Dialog supports you in finding the differences. It can compare two of the node lists displayed ("my" node list, the merged node list, and "their" node list) and it can render the differences between them with specific background colors.
+
+From the following combo box you can select which pair of node lists to compare:
+
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image15.png)
+
+1.  My with Their: compares the leftmost table with the rightmost table
+    in the Conflict Dialog
+2.  My with Merged: compares the leftmost table with the middle table in
+    the Conflict Dialog
+3.  Their with Merge: compares the middle table with the rightmost table
+    in the Conflict Dialog
+
+Depending on the position of a node in the list different background
+colors are used:
+
+1.  The node is in this list only. It isn't present in the opposite list:
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image13.png)
+2.  The node is in both lists, but it is on different positions:
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image02.png)
+3.  White background means that a node is in both lists at the same
+    position.
+
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image17.png)
+
+-->
 
 [conflict detected]: /images/josm/conflict-detected.png
 [resolved automatically]: /images/josm/resolved-automatically.png
@@ -116,138 +224,3 @@ Ketika anda mengedit di JOSM, dimana anda mendownload salinan dari peta OSM, and
 [command stack]: /images/josm/command-stack.png
 [one unresolved]: /images/josm/one-unresolved.png
 [edit outside area]: /images/josm/edit-outside-area.png
-
-
-<!-- More stuff, could go into an additional chapter -
-## Lampiran. Konflik Lebih Spesifik
-
-### Tag Konflik
-
-Jika tag dari satu versi sebuah objek yang berbeda dari tag versi lain, dialog
-Konflik menampilkan ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)
-pada tab Tags. Klil pada tab untuk menampilkan dialog dalam menyelesaikan tag konflik.
-
-Terdapat tiga tabel yang ditampilkan pada dialog ini, dari kiri ke kanan:
-
-1.	My version: menunjukkan tag-tag dari versi objek pertama yang berpartisipasi
-	dalam konflik ini. Ini biasanya tag dari versi objek dalam set data lokal Anda.
-2.	Merged version: menunjukkan tag-tag yang bergabung. Tabel ini awalnya kosong.
-	Semakin banyak konflik tag yang diselesaikan, semakin banyak value tag yang
-	akan ditampilkan dalam tabel ini.
-3.	Their version: menunjukkan tag-tag versi objek kedua yang berpartisipasi 
-	dalam konflik ini. Ini biasanya tag-tag dari versi objek saat ini yang
-	disimpan dalam server.
-	
-Pada contoh dibawah kedua versi memiliki sebuah tag "name". Value dalam 
-versi objek kedua berbeda, meskipun, JOSM menunjukkan baris dengan latar
-belakang merah. Value versi pertama adalah "Secondary School", versi 
-yang berlawanan memiliki value "Elementary School". Anda saat ini harus
-memutuskan value ini yang ingin Anda simpan dan yang ingin Anda buang.
-
-![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image07.png)
-
-Klik pada value yang Anda ingin simpan, misalnya untuk value di sebelah 
-kiri. Jika Anda mengklik dua kali pada value atau klik pada ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png)
-, Anda memutuskan untuk menyimpan value tersebut dan membuang value yang 
-berlawanan. Tabel di tengah saat ini menampilkan value yang disimpan dan
-warna latar belakang berubah menjadi hijau.
-
-![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image10.png)
-
-Ketika tombol Apply Resolution diaktifkan Anda dapat menerapkan pilihan Anda.
-Value yang Anda pilih akan diterapkan dan dialog akan ditutup.
-
-![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image03.png)
-
-## Menyelesaikan perbedaan dalam daftar node dengan dua versi cara
-
-Jika Anda melihat simbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)
-pada tab Nodes kemudian Anda harus menyelesaikan perbedaan dalam daftar 
-[nodes](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)dari dua
-[ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object).
-Terdapat tiga kolom dalam panel masing-masing (lihat gambar di bawah):
-
-1.	Tabel paling kiri menampilkan daftar node dari versi objek lokal
-2.	Tabel paling kanan menampilkan daftar node dari versi objek server
-3.	Tabel di tengah menunjukkan daftar node dari gabungan cara
-
-Awalnya, tabel tengah adalah kosong. Anda seharusnya memutuskan node yang
-disimpan dari dataset lokal (tabel paling kiri) dan dari dataset server 
-(tabel paling kanan).
-
-![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image24.png)
-
-### Alur kerja standar
-
-Alur kerja standar untuk menyelesaikan konflik-konflik dalam daftar node dari
-dua [versi objek](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)
-terdiri dari tiga langkah:
-
-1.	Pilih node dari versi objek dan menyusun ulang node yang dihasilkan daftar
-	jika perlu
-2.	Freeze daftar node gabungan yang dihasilkan dengan mengklik pada tombol
-	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png).
-	Ketika Anda freeze daftar node gabungan Anda memberitahu JOSM bahwa semua
-	konflik pada daftar node sudah diselesaikan.
-3.	Aplikasikan resolusi
-
-### Alur kerja sederhana: Simpan daftar node dari versi objek lokal Anda
-
-Contoh berikut menunjukkan alur kerja ketika Anda memutuskan menyimpan semua
-node dalam urutan yang sama dari versi objek lokal Anda.
-
-*	Pertama, pilih semua elemen dalam tabel paling kiri (baik menggunakan mouse atau
-	dengan menekan Ctrl-A dalam tabel) (lihat gambar selanjutnya):
-	
-	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image04.png)
-	
-*	Kemudian, klik
-	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image19.png)
-	untuk meng-copy node yang dipilih ke tabel tengah dengan node gabungan:
-	
-	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image01.png)
-	
-*	Terakhir, klik
-	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png)
-	untuk mem-freeze daftar node gabungan yang dihasilkan:
-	 
-	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image20.png)
-	
-	Simbol pada tab node sekarang diganti ke 
-	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image00.png)
-	dan Anda dapat menerapkan keputusan gabungan.
-
-### Dukungan untuk membandingkan daftar node
-
-Ini akan sulit untuk menemukan perbedaan antara daftar node dari dua versi objek, khususnya
-untuk cara dengan  banyak node.
-
-Dialog Konflik mendukung Anda dalam menemukan perbedaan. Ini dapat membandingkan dua daftar
-node yang ditampilkan ("my" daftar node, daftar node gabungan, dan "their" daftar node) dan
-ini dapat me-render perbedaan antara mereka dengan warna latar belakang tertentu.
-
-Dari combo box berikut Anda dapat memilih sepasang daftar node untuk membandingkan:
-
-![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image15.png)
-
-1.	My dengan Their: membandingkan tabel paling kiri dengan tabel paling kanan
-	pada Dialog Konflik
-2.	My dengan Merged: membandingkan tabel paling kiri dengan tabel tengah pada 
-	Dialog Konflik
-3.	Their dengan Merge: membandingkan tabel tengah dengan tabel paling kanan
-	pada Dialog Konflik
-	
-Tergantung pada posisi sebuah node dalam daftar latar belakang yang berbeda warna
-yang digunakan:
-
-1.	Node hanya dalam daftar ini. Hal ini tidak ada dalam daftar yang berlawanan:
-	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image13.png)
-2.	Node di kedua daftar, tetapi pada posisi yang berbeda:
-	![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image02.png)
-3.	Latar belakang putih artinya sebuah node dalam kedua daftar pada posisi yang
-	sama.
-	
-
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image17.png)
-
--->

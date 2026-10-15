@@ -6,7 +6,6 @@ title: Coordenação
 category: coordination
 cover: yes
 nosearch: true
-
 ---
 
 Coordenação

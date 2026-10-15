@@ -9,7 +9,7 @@ category: beginner
 Videre lesing
 ===============
 
-> Reviewed 2015-07-12  
+> Reviewed 2020-05-08  
 
 Hvis du har kommet deg så langt, gratulerer! Du burde nå en good oversikt over hvordan man lager kart med OpenStreetMap. Hva annet kan du gjøre med OSM? Hvordan kan du lære mer? Hvordan kan du holde deg i kontakt med kart-fellesskapet?  
 
@@ -55,18 +55,16 @@ Bla ned på siden og finn listen som er assosiert med ditt land. Landslistene er
 - Nå bør du være et medlem på epostlisten.  
 - Nå når du vil sende en epost til listen kan du sende til  [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), bare at du bytter ut "id" med landskoden for din liste. Du vil også motta eposter fra andre medlemmer som sender meldinger til listen.  
 
-<!-- maybe expand and put this back later
-MapOSMatic
+
+Example of OSM use - MyOSMatic
 ----------
 
-Et slik prosjekt heter MapOSMatic, som du kan prøve gjennom din
-webleser [maposmatic.org](http://www.maposmatic.org/). Dette
-er et enkelt verktøy for å skrive ut et kart for et vilkårlig område. Det vil
-automatisk lage kartet, i tillegg til en rute-oppdeling av kartet og en
-oversikt over steder som er inkludert i området.
+One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
 
 
 Sammendrag
@@ -75,6 +73,6 @@ Sammendrag
 Dette er noen av måtene du kan bruke og holde deg oppdatert med OpenStreetMapmiljøet og lære mer. Vi håper du vil fortsette å utforske og lære mer om OSM og bidra til prosjektet. God kartlegging!
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

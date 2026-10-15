@@ -57,7 +57,7 @@ Komplikované budovy můžete vytvářet nakreslením několika překrývající
 
 Dále si můžete upravit nastavení doplňku podle sebe.  
 
-* Jděte do nabídky *Data ‣ Nastavit rozměry budov*. ![Set buildings size][]{: height="39px"}  
+* Přejděte na "Další nástroje"->"Režimy kreslení budov"->Nastavení velikosti budov.
 
 * Pokud vytváříte několik stejně velkých budov, můžete si nastavit konkrétní rozměry budovy, jako např. 6 x 10 metrů (jednotkou jsou metry).  
 
@@ -87,7 +87,7 @@ Vytvořte si novou vrstvu a vyzkoušejte si některé nové nástroje. Představ
 
     ![Nodes interesection][]
 
-2. **Kopírovat značky z předchozího výběru:**  Tato funkce vám ulehčí kopírování tagů. Když vytváříte mnoho objektů se stejnými tagy, tak je první nakreslete. Poté přidejte tagy do jednoho objektu. Klikněte na jiný objekt a zmáčkněte Shift + R, čímž zkopírujete tagy z předchozího vybraného objektu. Tímto způsobem to můžete udělat se všemi objekty, které chcete stejně otagovat. Pamatujte, kopírujete tagy z předchozího objektu, takže když vyberete neotagovaný objekt, tak se žádný tag na následující objekt nepřenese.  
+2. **Vložit značky z předchozího výběru:** Tato funkce usnadňuje kopírování značek. Pokud chcete vytvořit mnoho objektů se stejnými tagy, nejprve objekty nakreslete. Poté přidejte značky k jednomu objektu. Klikněte na jiný objekt a stisknutím klávesové zkratky Shift + R zkopírujte značky z dříve vybraného objektu. Takto můžete postupovat u všech objektů, které chcete označit. Nezapomeňte, že tagy budou zkopírovány z dříve vybraného objektu, takže pokud kliknete na neoznačený objekt a poté na jiný neoznačený objekt, nebudete moci zkopírovat žádné tagy.  
 
     ![Copy tags][]
 

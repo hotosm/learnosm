@@ -9,10 +9,10 @@ category: hot-tips
 Rysowanie prostokątnych budynków - edytor iD
 ============
 
+> Updated 2019-06-23
+
 - TOC
 {:toc}
-
-> Utworzono 30.10.2016  -->  
 
 Podstawy
 ----------
@@ -23,7 +23,8 @@ Podstawy
 
 Do zanotowania;  
 
-- Jeżeli budynek powinien mieć kąty proste w narożnikach, to upewnij się, że rysujesz go z takimi kątami lub użyj do tego narzędzia.  
+- To finish tracing an area, double click on the last point,  
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
 - Upewnij się, że dodałeś tagi!  
 - Rozmiar ma znaczenie - *szacowanie zaludnienia opiera się na zsumowanej powierzchni budynków w danym obszarze*,  
 - prawidłowy rozmiar budynku, to prawidłowe statystyki, co pomoże ludziom znaleźć ich wioskę.  
@@ -59,7 +60,7 @@ Rób najlepiej, jak umiesz - nawet eksperci mogą czasami się nie zgadzać i cz
 Tagi budynków
 -------------
 
-Gdy tagujemy budynki, których nigdy nie odwiedziliśmy, i których nie znamy, najbezpieczniejszym i zalecanym schematem jest **building**=**yes**, który możesz zobaczyć na prawidłowo otagowanym budynku, jeżeli przewiniesz panel tagowania do samego dołu i klikniesz **Wszystkie tagi**.
+Gdy tagujemy budynki, których nigdy nie odwiedziliśmy, i których nie znamy, najbezpieczniejszym i zalecanym schematem jest **building**=**yes**, który możesz zobaczyć na prawidłowo otagowanym budynku, jeżeli przewiniesz panel tagowania do samego dołu i klikniesz **Wszystkie tagi**.  
 
 Zobacz również  
 ---------

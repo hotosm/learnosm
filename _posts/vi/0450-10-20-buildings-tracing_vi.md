@@ -9,10 +9,10 @@ category: hot-tips
 Vẽ các toà nhà hình chữ nhật - iD editor
 ============
 
+> Updated 2019-06-23
+
 - TOC
 {:toc}
-
-> Created 2016-10-30  
 
 Các yếu tố cần thiết
 ----------
@@ -23,7 +23,8 @@ Các yếu tố cần thiết
 
 Điểm cần lưu ý;  
 
-- Nếu tòa nhà nên có góc vuông, hãy chắc chắn rằng bạn vẽ nó với góc vuông, hoặc sử dụng công cụ để chắc chắn nó vuông góc.  
+- To finish tracing an area, double click on the last point,  
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
 - Đảm bảo bạn gắn thẻ!  
 - Kích thước - * ước lượng dân số được dựa trên diện tích tích lũy xây dựng trong một khu vực *,  
 - Đúng kích cỡ xây dựng sẽ giúp người dân xác định vị trí thôn,  
@@ -59,7 +60,7 @@ Hãy làm hết sức mình - ngay cả những chuyên gia sẽ không đồng 
 Gắn thẻ các toà nhà
 -------------
 
-Khi chúng tôi gắn thẻ các tòa nhà mà chúng tôi chưa bao giờ truy cập và không quen thuộc, chương trình gắn thẻ an toàn và đề xuất là ** building ** = ** yes ** mà bạn có thể nhìn thấy trên một tòa nhà được gắn thẻ chính xác nếu bạn cuộn xuống cuối trang gắn thẻ cửa sổ và nhấp vào ** Tất cả các thẻ **.
+Khi chúng tôi gắn thẻ các tòa nhà mà chúng tôi chưa bao giờ truy cập và không quen thuộc, chương trình gắn thẻ an toàn và đề xuất là ** building ** = ** yes ** mà bạn có thể nhìn thấy trên một tòa nhà được gắn thẻ chính xác nếu bạn cuộn xuống cuối trang gắn thẻ cửa sổ và nhấp vào ** Tất cả các thẻ **.  
 
 See also  
 ---------

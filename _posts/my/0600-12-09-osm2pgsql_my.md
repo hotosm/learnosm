@@ -68,7 +68,7 @@ Windows များအတွက် osm2pgsql version ကို download ပြ�
 
 OSM Data အချက်အလက်အကြမ်းများအားရယူခြင်း
 ---------------------
-ကျွန်ုပ်တို့အနေဖြင့် **osm2pgsql** နှင့်စတင်အလုပ်မလုပ်မီ OSM အချက်အလက်များကို database အတွင်းသို့ထည့်သွင်း(import) ထားရန်လိုအပ်ပါသည်။ အသုံးပြုရန် **.osm** ဖိုင်မရှိပါက<https://mapzen.com/data/metro-extracts/> တွင် download ပြုလုပ်၍ရယူပါ။ ၎င်းဝက်ဘ်ဆိုက်ဒ်မှတစ်ဆင့် မြို့ရွာများစွာ၏ OSM အချက်အလက်များကိုထုတ်ယူရရှိနိုင်ပါသည်။ ထိုသို့ပြုလုပ်ရန်အတွက်  PBF file ကို import နှင့် download ပြုလုပ်ရန်မြို့တစ်မြို့ကိုရှာပါ။ PBF ဖိုင်များသည်**.osm** ဖိုင်များ အတွက် ဇစ်ဖိုင်ပုံစံ (zipfile format) ဖြစ်ပါသည်။ သင့်အနေဖြင့် အခြားသောနေရာများအတွက် အချက်အလက် (data) များလိုချင်လျှင် ဤသင်ခန်းစာထဲရှိ [getting data](/en/osm-data/getting-data) ၏တချို့အခန်းများမှထုတ်ယူ၍ရပါသည်။  
+Before we can run **osm2pgsql** we need to have some raw OSM data to import into a database. If you don't already have a **.osm** file that you can use, try downloading a file from <https://download.bbbike.org/osm/bbbike/>. This site hosts many OSM extracts for different cities.  Find a city to import and download the PBF file for it. PBF files are compressed versions of the normal **.osm** files. You can use any of the extract services listed in the chapter on [getting data](/en/osm-data/getting-data), if you'd like the raw data for another area.  
 
 Style ဖိုင်ကိုရယူခြင်း
 ------------------
@@ -125,7 +125,6 @@ PgAdmin III ကိုဖွင့်ပါ။ ပြီးခဲ့သည့်�
 
 ![osm in qgis][]
 
-> Layers ၏ attribute table ကိုကြည့်လျှင် OSM tags တွင် attributes များအား မြေပုံထုတ်ထားသည်ကိုမြင်နိုင်မည်ဖြစ်ပါသည်။ **osm2pgsql**၏ အချက်အလက်ထည့်သွင်းခြင်းလုပ်ငန်းစဉ် ပြုလုပ်နေသည့်အတောအတွင်း ထည့်သွင်း (import) ထားခဲ့ပြီးသောသီးခြားအညွှန်းများ(tags)ကိုသတ်မှတ်ထားရမည်။ သင့်အနေဖြင့် default သက်မှတ်ထားခြင်းမရှိသည့် သီးခြားအညွှန်းများ(tags) ကိုထည့်သွင်းရန်အတွက် ပုံဖြင့်ဖော်ပြရာတွင်သုံးသည့် osm2pgsql အချက်အလက်များဖြစ်သော *style* ဖိုင်ကိုပြောင်းလဲပြင်ဆင်နိုင်သည်။  
 
 
 အကျဉ်းချုပ်ဖော်ပြချက်

@@ -111,7 +111,7 @@ Zoeken in JOSM is een krachtige manier om gegevens na te kijken.  Het stelt u in
 ![JOSM Menu Search][]
 
 - Er zijn een groot aantal typen query's waarmee u hier kunt zoeken, en u kunt details en voorbeelden zien in het zoekvak zelf en door te klikken op de knop “Help”.
-- laten we, voor nu, alle gebouwen proberen te selecteren.  Bijna elk gebouw zal de tag ***building=yes*** hebben en enkele zullen ***building=construction*** hebben.  Dat betekent dat we een query kunnen bouwen die leest als:
+- Laten we, voor nu, alle gebouwen proberen te selecteren.  Bijna elk gebouw zal de tag ***building=yes*** hebben en enkele zullen ***building=construction*** hebben.  Dat betekent dat we een query kunnen bouwen die leest als:
 
     *building = yes* OR *building=construction*
 
@@ -138,7 +138,7 @@ Dat is fantastisch, maar hoe helpt dat ons om de gegevens na te kijken?  Wel, nu
 
 - Merk op dat alle items, in vet weergegeven, een nummer tussen haakjes naast zich hebben staan  Dat zijn het aantal geselecteerde objecten die deze tagwaarde hebben.
 
-We kunnen die vergelijken met de tags van OpenStreetMap die in ons gegevensmodel in kaart zijn gebracht, en zoeken naar fouten.  Deze tag geeft bijvoorbeeld het gebruik van het gebouw weer.  Eerder in het project Open Cities Dhaka (waarvan deze gegevens afkomstig zijn) was er nog geen zekerheid of een gebouw met gemengd gebruik moest worden getagd las ***building:use=multipurpose*** of ***building:use=mixed***.  Omdat de eerste tag eerder in andere landen werd gebruikt, werd die geselecteerd.  We zien hier echter dat één van de gebouwen is getagd als ***mixed***.  We dienen dit te corrigeren.  (Andere duidelijke fouten zijn de drie verschillende termen voor ***garage***, maar die zullen we hier niet corrigeren.)
+We kunnen die vergelijken met de tags van OpenStreetMap die in ons gegevensmodel in kaart zijn gebracht, en zoeken naar fouten.  Deze tag geeft bijvoorbeeld het gebruik van het gebouw weer.  Eerder in het project Open Cities Dhaka (waarvan deze gegevens afkomstig zijn) was er nog geen zekerheid of een gebouw met gemengd gebruik moest worden getagd als ***building:use=multipurpose*** of als ***building:use=mixed***.  Omdat de eerste tag eerder in andere landen werd gebruikt, werd die geselecteerd.  We zien hier echter dat één van de gebouwen is getagd als ***mixed***.  We dienen dit te corrigeren.  (Andere duidelijke fouten zijn de drie verschillende termen voor ***garage***, maar die zullen we hier niet corrigeren.)
 
 - We kunnen het object, dat de tag ***building:use=mixed*** heeft, hier niet wijzigen, omdat we honderden objecten hebben geselecteerd.  Dus, om de fout te kunnen corrigeren, moeten we hem eerst vinden.  Hoe?  U raadde het al - met het gereedschap Zoeken.
 - Klik op “Annuleren” om dit dialoogvenster te verlaten.  **Onthoud: klikken op OK kan gevaarlijk zijn.**
@@ -159,7 +159,7 @@ Dus, een goed project zal een proces bevatten voor het opnieuw onderzoeken van e
 
 Natuurlijk heeft het geen zin in het opnieuw onderzoeken van elk gebouw in een doelgebied, maar 5-10% van de gebouwen zouden opnieuw onderzocht moeten worden.  De na te kijken gebieden zouden moeten worden gekozen uit verschillende gebieden om te kunnen vergelijken tussen onderzoeksteams.  Onderzoeksteams kunnen elkaars werk opnieuw onderzoeken, of mogelijk kunnen meer ervaren managers het nakijken op zich nemen.  Het komt in de praktijk vaak voor dat managers één dag per week spenderen aan het opnieuw onderzoeken van delen van het doelgebied.
 
-### Fouten correcigeren
+### Fouten corrigeren
 Wat zou er moeten worden gedaan als er fouten worden gevonden?
 
 Als er een klein aantal fouten is (minder dan 5% van de gebouwen), zouden de problemen moeten worden voorgelegd aan het originele team dat ze in kaart heeft gebracht, zodat zij ervan weten en dezelfde fouten niet opnieuw maken.  De gegevens zouden moeten worden gecorrigeerd in OpenStreetMap en de resultaten van het heronderzoek zouden moeten worden vastgelegd.

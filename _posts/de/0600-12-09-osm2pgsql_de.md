@@ -68,7 +68,7 @@ Die Windows Version von osm2pgsql kann im Browser heruntergeladen werden unter <
 
 An OSM Rohdaten gelangen
 ---------------------
-Bevor man **osm2pgdql** startet braucht man OSM Rohdaten, um diese in eine Datenbank importieren zu können. Falls man noch keine **.osm** Datei hat, kann man eine Datei herunterladen von <https://mapzen.com/data/metro-extracts/>. Diese Seite bietet viele OSM Extrakte für verschiedene Städte an. Man findet eine Stadt zum Importieren und lädt die PBF Datei dafür herunter. PBF Dateinen sind komprimierte Versionen der **.osm** Dateien. Man kann beliebige Dienste für OSM Extrakte aus der Liste von [getting data](/en/osm-data/getting-data) nutzen, falls man andere Rohdaten für andere Gebiete möchte.  
+Bevor man **osm2pgsql** startet braucht man OSM Rohdaten, um diese in eine Datenbank importieren zu können. Falls man noch keine **.osm** Datei hat, kann man eine Datei herunterladen von <https://download.bbbike.org/osm/bbbike/>. Diese Seite bietet viele OSM Extrakte für verschiedene Städte an. Man findet eine Stadt zum Importieren und lädt die PBF Datei dafür herunter. PBF Dateinen sind komprimierte Versionen der **.osm** Dateien. Man kann beliebige Dienste für OSM Extrakte aus der Liste von [getting data](/en/osm-data/getting-data) nutzen, falls man andere Rohdaten für andere Gebiete möchte.  
 
 An Style Dateien gelangen
 ------------------
@@ -125,7 +125,6 @@ Man gibt den Benutzernamen postgres und sein Passwort ein.
 
 ![osm in qgis][]
 
-> Schaut man die Attributtabellen der Layer an, sieht man, dass die Attribute auf OSM Tags gemappt sind. Die entsprechenden Tags, die importiert wurde, wurden definiert während des **osm2pgsql** Importprozesses. Um spezifische Tags, welche nicht standardmäßig enthalten sind, hinzuzufügen, kann man die *Style* Datei bearbeiten, die osm2pgsql verwendet, um das Datenschema zu definieren.  
 
 
 Zusammenfassung

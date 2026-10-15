@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: 适用于安卓的 GPSLogger
+title: GPSLogger for Android
 permalink: /zh_CN/mobile-mapping/gpslogger/
 lang: zh_CN
 category: mobile-mapping
 ---
 
-适用于安卓的 GPSLogger
+GPSLogger for Android
 =====================
 
 
@@ -16,7 +16,7 @@ category: mobile-mapping
 
 <https://f-droid.org/en/packages/com.mendhak.gpslogger/>  
 
-适用于 Android 的 GpsLogger 是一款免费使用的应用程序，也是一个积极维护的开源项目。欢迎捐款以进一步增强应用程序。如果您希望参与（例如提供其他语言的翻译、错误报告或提交功能请求），请访问 [repository](https://github.com/mendhak/gpslogger)。  
+GPSLogger for Android是一款免费使用的应用程序，也是一个积极维护的开源项目。欢迎捐款以进一步增强应用程序。如果您希望参与（例如提供其他语言的翻译、错误报告或提交功能请求），请访问 [repository](https://github.com/mendhak/gpslogger)。  
 
 > OpenGTS是指 [Open GPS Tracking System](http://opengts.sourceforge.net/)项目  
 
@@ -207,7 +207,7 @@ GPS轨迹有几个*可见性*选项。*Private*轨迹以匿名形式共享包含
 
 #### 到其他选项
 
-您可以探索其他上传选项，但不在本指南的范围之内。有关详细信息，请参阅适用于 Android 项目的 GPSLogger 网站。  
+您可以探索其他上传选项，但不在本指南的范围之内。有关详细信息，请参阅GPSLogger for Android网站。  
 
 
 分享轨迹 
@@ -257,14 +257,14 @@ GPS轨迹有几个*可见性*选项。*Private*轨迹以匿名形式共享包含
 
 很棒！你已经被介绍了一款轻量级、节能电池的应用程序，你可以保留在 Android 设备中来录制轨迹，然后上传到 OSM，或者在你最喜欢的 OpenStreetMap 编辑器中使用。  
 
-Android 版 GPSLogger 是另一种在没有专用 GPS 接收器的情况下收集现场数据的工具。并且在没有活动的互联网连接的情况下收集数据。  
+GPSLogger for Android是另一种在没有专用GPS接收器的情况下收集现场数据的工具。并且在没有活动的互联网连接的情况下收集数据。  
 
 开始采集真实数据之前，请花一些时间练习并熟悉应用程序。  
 
-本节介绍了使用适用于 Android 的 GpsLogger 来收集 GPS 轨迹、将轨迹上传到 OpenStreetMap 以及将这些日志传输到 PC 的概念。  
+本节介绍了使用GPSLogger for Android来收集GPS轨迹、将轨迹上传到OpenStreetMap以及将这些日志传输到PC的概念。  
 
 
-适用于安卓的 GPSLogger的官方文档
+GPSLogger for Android的官方文档
 --------------------------------------------
 
 项目常见问题列表 [FAQ] (http://code.mendhak.com/gpslogger/#faq)。

@@ -9,7 +9,7 @@ category: beginner
 ဆက်လက်လေ့လာခြင်း
 ===============
 
-> Reviewed 2015-07-12  
+> Reviewed 2020-05-08  
 
 သင့်အနေနဲ့ OpenStreetMap တွင် မြေပုံထည့်သွင်းပေါင်းစပ်ခြင်းကို ကောင်းစွာနားလည်သိရှိပြီဟု ကျွန်ုပ်တို့မျှော်လင့်ပါသည်။ OSM ကိုအသုံးချလျက် မည်သည်တို့ကိုလုပ်ဆောင်နိုင်သနည်း။ ပိုမိုလေ့လာသိရှိအောင်မည်သို့လုပ်ဆောင်မည်နည်း။ မြေပုံထုတ်သူအချင်းချင်း မည်သို့မည်ပုံဆက်သွယ်ချိတ်ဆက်နိုင်ပါမည်နည်း။  
 
@@ -55,18 +55,16 @@ OpenStreetMap အသုံးပြုသူများအချင်းချ
 - သင်သည်မှတ်ပုံတင်ထားသောစာပို့စာရင်းတွင် အဖွဲ့ဝင်အဖြစ်ရောက်ရှိသွားပါလိမ့်မည်။  
 - ထို့နောက် သင့်အနေဖြင့်စာပို့စာရင်းသို့စာပို့လိုက ပို့နိုင်ပြီဖြစ်သည်။ လိပ်စာနေရာတွင်  [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org) ဟုရိုက်ထည့်ပါ။ “id” ၏နေရာတွင် သင့်နိုင်ငံအတွက်ကိုယ်စားပြုသော အက္ခရာစာလုံးကိုပြောင်းလဲထည့်သွင်းရမည်ဖြစ်သည်။ အခြားအဖွဲ့ဝင်တစ်ဦးမှပေးပို့သောစာကိုလည်း သင့်အနေဖြင့်လက်ခံရရှိနိုင်ပြီဖြစ်သည်။  
 
-<!-- maybe expand and put this back later
-MapOSMatic
+
+Example of OSM use - MyOSMatic
 ----------
 
-One such project is called MapOSMatic, which you can access through your
-internet browser at [maposmatic.org](http://www.maposmatic.org/). This
-is a simple tool for printing a map of any area you choose. It will
-automatically create the map, along with a grid over the map, and an
-index of locations that are included in the area.
+One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
 
 
 အကျဉ်းချုပ်ဖော်ပြချက်
@@ -75,6 +73,6 @@ index of locations that are included in the area.
 ဖော်ပြပါအကြောင်းအရာများသည် OpenStreetMap အဖွဲ့အစည်းအတွင်း တစ်ဦးနှင့်တစ်ဦး ဆက်သွယ်နိုင်ရန် နည်းလမ်းများနှင့် ဆက်လက်လေ့လာရန်တို့ဖြစ်သည်။ သင့်အနေဖြင့် OSM အကြောင်း ကို ဆက်လက်ရှာဖွေလေ့လာပြီး OSM project ကိုလည်းကူညီထောက်ပံ့လိမ့်မည်ဟု ကျွန်ုပ်တို့မျှော်လင့်ပါသည်။ မြေပုံရေးဆွဲမှုတွင် ပျော်ရွှင်နိုင်ပါစေ။
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

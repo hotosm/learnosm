@@ -1,182 +1,117 @@
 ---
 layout: doc
-title: Editing OpenStreetMap dengan JOSM
+title: Mengedit Data Lapangan
 permalink: /id/josm/editing-with-josm/
-redirect_from:
-  - /bi/josm/editing-with-josm
-  - /bi/josm/editing-with-josm/
 lang: id
 category: josm
 ---
 
-Editing OpenStreetMap dengan JOSM
-=================================
+Mengedit Data Lapangan
+==================
 
-Sekarang kita telah memetakan blok bangunan dengan OpenStreetMap. Kita telah
-mempelajari bagaimana menggunakan GPS dan Field Papers untuk survey suatu 
-wilayah, dan bagaimana kita dapat menggunakan JOSM untuk mengedit titik, garis,
-dan poligon yang membentuk peta kita.
 
-Pada bab ini kita akan kembali sekali lagi ke JOSM dan melihat beberapa konsep
-baru yang belum kita bahas sejauh ini.
+We've now covered all the building blocks of mapping with OpenStreetMap. In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) section you can see how to use mobile tools to survey an area.
+
+In this chapter we'll return once again to JOSM and look at a couple of new concepts which we have not covered thus far.
 
 Layer JOSM
-----------
-Jika Anda telah mengikuti sejauh ini, Anda telah memperhatikan bahwa kita dapat 
-menambahkan berbagai jenis hal-hal yang berbeda di dalam JOSM. Kita dapat mendownload
-data OSM, menambahkan citra satelit Bing, membuka trek dan waypoint GPS, dan menambah
-Field Papers - semua yang telah ditampilkan di dalam jendela peta JOSM.
+-----------
+If you've followed along so far, you may have noticed that we can add all sorts of different things into JOSM. We can download OSM data, add Bing satellite imagery, load GPS tracks and waypoints, and add Field Papers - all of which are displayed in the map window of JOSM.
 
-Anda mungkin telah memperhatikan bahwa setiap waktu Anda dapat menambahkan sesuatu yang 
-baru ke JOSM, tambahan item telah ditambahkan ke panel Layers pada sisi kanan JOSM.
-Tergantung pada apa yang telah Anda buka, panel Layers Anda mungkin terlihat seperti ini:
+You may have also noticed that every time you add something new to JOSM, an additional item is added to the Layers panel on the right side of JOSM. Depending on what you have opened, your Layers panel may look something like this:
 
 ![Layers panel][]
 
-Setiap item dalam daftar ini merupakan sumber data yang berbeda yang Anda telah buka pada
-jendela peta Anda. Pada contoh ini, "Data Layer 1" adalah data OpenStreetMap yang kita
-edit. "Field Papers" adalah layer yang telah dibuat ketika kita menambahkan Field Paper
-kita ke dalam JOSM.
+Each item in this list represents a different source of data that you have open in your map window. In this example, “Data Layer 1” is the OpenStreetMap data that we are editng. "Field Papers” is the layer created when we added our Field Paper into JOSM.
 
-Jika Anda menambahkan citra satelit Bing, sebuah layer baru akan muncul di panel Layers 
-bernama "Bing Sat".
+Jika Anda menambahkan citra satelit Bing, sebuah layer baru akan muncul pada panel Layers panel bernama "Bing Sat."
 
-Gagasan layer sering kali sulit dipahami. Cara yang terbaik untuk membayangkan ini adalah
-bahwa setiap layer seperti sepotong semi-transparan kertas, dan mereka semua ditumpuk 
-di bagian atas satu sama lain. Setiap potongan kertas memiliki jenis tertentu dari informasi
-mengenai itu, dan mereka dapat disusun kembali dengan cara apapun yang Anda suka.
+The idea of layers can often be hard to understand. A good way to imagine it is that each layer is like a semi-transparent piece of paper, and they are all stacked on top of one another. Each piece of paper has a certain type of information on it, and they can be rearranged any way you like.
 
-Layer-layer yang telah digunakan sebagai referensi, seperti citra satelit, trek GPS, dan
-Field Papers sering kali disebut "base layers". Layer data OSM adalah layer yang benar-benar
-Anda bekerja dengannya.
-	
-*	Untuk memindahkan sebuah layer, klik pada layer tersebut di panel Layer dan klik ke arah
-	atas atau bawah untuk memindahkannya.
-			
-	![Layers up down][]
-	
-*	Untuk menghilangkan sebuah layer, pilih layer dengan mouse Anda dan klik tombol Show/Hide:
+Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers are often called "base layers." The OSM data layer is the layer that you actually work with.
 
-	![Layers show hide][]
-	
-*	Anda seharusnya melihat layer yang Anda telah pilih menghilang pada jendela peta.
-	Klik Show/Hide kembali, dan ini akan muncul kembali.
-*	Anda dapat menghapus sebuah layer dengan memilihnya dan menggunakan tombol *delete*:
+-   To move a layer, click on it in the Layers panel and click on the up or down arrow to move it.
 
-	![Layers delete][]
+![Layers up down][]
 
-*	Terakhir, ini penting untuk mengetahui bahwa Anda hanya dapat mengedit layer yang dianggap
-	*aktif* oleh JOSM. Jika Anda tidak dapat mengedit peta di dalam jendela peta Anda, ini 
-	mungkin karena Anda tidak memiliki layer yang aktif. Kebanyakan layer, seperti titik GPS,
-	Field Papers, dan citra satelit, tidak dapat diedit. Satu-satunya layer yang dapat diedit
-	adalah data dari OpenStreetMap, yang biasanya bernama "Data Layer 1".
-*	Untuk membuat layer aktif, pilihlah pada panel Layer, dan klik pada tombol Activate:
+-   To hide a layer, select it with your mouse and click the Show/Hide button:
 
-	![Layers activate][]
+![Layers show hide][]
 
-Menggunakan Data GPS dan Field Papers
--------------------------------------
-Pada bab sebelumnya kita melihat bagaimana cara mengumpulkan data dengan sebuah GPS dan Field 
-Papers, dan bagaimana membukanya di dalam JOSM sebagai sebuah layer.
+-   You should see the layer that you selected disappear in the map window. Click Show/Hide again, and it will reappear.
+-   You can remove a layer by selecting it and using the delete button:
 
-Setelah Anda mensurvey dengan salah satu tool ini, Anda tetap perlu menambahkan informasi ke dalam
-OpenStreetMap secara digital. 
+![Layers delete][]
 
-Anda melakukan ini dengan proses yang sama yang telah Anda pelajari sebelumnya - **download, edit, simpan**.
-Perbedaannya adalah alih-alih hanya menggunakan citra satelit sebagai layer dasar, Anda juga dapat
-menggunakan data GPS Anda, Field Papers, catatan, atau kombinasi dari mereka semua.
-	
-*	Sebagai contoh, mari asumsikan Anda memiliki waypoint GPS Anda sebagai layer latar belakang di 
-	JOSM, Anda telah menyimpan sebuah waypoint pada GPS Anda dengan nama 030, dan Anda telah menulisnya
-	di dalam buku catatan Anda bahwa 030 adalah sebuah sekolah. Untuk menambahkan titik ini ke dalam
-	OpenStreetMap, Anda akan memilih alat menggambar, dan klik dua kali di bagian atas titik 030 pada
-	jendela peta Anda. Hal ini akan membuat sebuah titik. Kemudian pergi ke menu Preset, dan cari 
-	preset untuk sekolah. Masukan nama sekolah dan klik "Apply Preset". Lakukan hal yang sama untuk
-	menambahkan garis dan poligon. 
+-   Lastly, it’s important to know that you can only edit the layer that is considered *active* by JOSM. If you are unable to edit the map in your map window, it’s probably because you don’t have the correct layer set as active. Most layers, such as GPS points, Field Papers, and satellite imagery, can’t be edited. The only layers that can be edited are data from OpenStreetMap, which are usually called “Data Layer 1”.
+-   To make a layer active, select it in the Layers panel, and click on the Activate button:
 
-	![GPS in JOSM][]
+![Layers activate][]
+
+
+Menggunakan Data GPS Data dan Field Papers
+-------------------------------
+In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) chapters we saw how to collect data with a GPS and Field Papers, and how to load it into JOSM as a layer.
+
+Once you have surveyed with one of these tools, you still need to add the information into OpenStreetMap digitally.
+
+You do this with the same process you learned previously - **download, edit, save**. The difference is that instead of using only satellite imagery as a base layer, you can also use your GPS data, Field Papers, notes, or a combination of them all.
+
+-   For example, let's assume you have your GPS waypoints as a background layer in JOSM, you saved a waypoint on your GPS with the name 030, and you wrote in your notebook that 030 is a school. To add this point into OpenStreetMap, you will select the draw tool, and double-click on top of point 030 in your map window. This will create a point. Then go to the Presets menu, and find the preset for school. Enter the name of the school and click “Apply Preset”. Do the same to add lines and shapes.
+
+![GPS in JOSM][]
 
 Tag
----
-Ketika Anda menggambar sebuah titik, garis, atau poligon, memiliki lokasi, tetapi tidak ada informasi
-tentangnya. Dengan kata lain, kita tahu **dimana** lokasinya, tetapi tidak tahu **apa** informasinya.
-Sekarang, kita telah menggunakan item dari menu Preset untuk mendefinisikan **apa** itu. Cara OpenStreetMap
-untuk mengetahui objek **apa** dengan menggunakan **tag**.
+----
+When you draw a point, line, or shape, it has a location, but no information about what it is. In other words, we know **where** it is, but not **what** it is. Before now, we have been using items from the Presets menu to define **what** it is. The way OpenStreetMap knows **what** an object is is by using **tags**.
 
-Sebuah tag adalah seperti sebuah label yang Anda dapat letakkan ke suatu objek. Misalnya, jika kita
-menggambar sebuah persegi, ini hanya sebuah persegi. Tetapi ketika kita menambahkan atribut untuk
-mendeskripsikannya: persegi ini adalah sebuah bangunan; nama bangunan adalah "Menara Thamrin"; bangunan
-16 tingkat.
+A tag is like a label that you can put on something. For example, if we draw a square, it’s only a square. But then we add attributes to it that describe what it is: this square is a building; the name of the building is “Menara Thamrin”; the building is 16 levels high.
 
-Anda dapat menambahkan sebanyak tag yang Anda inginkan ke sebuah objek. Tag disimpan sebagai sepasang teks,
-bernama **key** dan **values**. Di OpenStreetMap, tag ditulis di atas sesuai faktanya: 
+You can add as many tags as you want to an object. Tags are saved as pairs of text, called **keys** and the **values**. In OpenStreetMap, the tags written above would in fact be:
 
-*	building = yes
-*	name = Menara Thamrin
-*	building:levels = 16
+-   building = yes
+-   name = Menara Thamrin
+-   building:levels = 16
 
-Jika Anda memilih sebuah objek di JOSM, Anda dapat melihat semua teks yang dilampirkan ke objeknya pada 
-panel Properties di sebelah kanan. 
+If you select an object in JOSM, you can see all the tags that are attached to it in the Properties panel on the right.
 
 ![Properties panel][]
-	
-### Mengedit Tag
-Anda dapat menambah, mengedit, dan menghapus tag dari panel Properties. Namun, tag secara manual 
-dalam bahasa Inggris dan kadang-kadang dapat membingungkan, sehingga sering lebih mudah menggunakan
-menu Preset. Ketika Anda menambah atau mengubah tag, atribut objek berubah.
 
-*	Untuk mengedit tag objek, pertama pilih objeknya.
-*	Kemudian edit tag dengan salah satu dari dua cara: (1) Menggunakan menu Preset, atau (2) mengedit 
-	tag secara langsung di jendela Properties di sebelah kanan.
+### Mengubah Tag
 
-### Kesalahan Umum: Men-tag node ketika Anda ingin men-tag garis atau poligon. Ketika Anda mengedit atribut 
-pada titik, pertama Anda akan memilih titik dan kemudian menambahkan tag melalui menu Preset atau secara 
-langsung di panel Properties. Kesalahan umum adalah ketika menambahkan atribut ke sebuah garis atau poligon.
-Ketika memilih objek, hal terpenting adalah Anda memilih garis, dan BUKAN pada titik-titik yang membentuk
-garis.
+You can add, edit, and delete tags from the Properties panel. However, the tags are traditionally in English and can sometimes be confusing, so it is often easier to use the Presets menu. When you add or change tags, the attributes of the object are changed.
 
-Hal ini sering terjadi karena editor menggunakan tool Select pada JOSM untuk menggambar sebuah persegi sekitar
-objek, yang menyebabkan segalanya, baik garis **dan** node terpilih, dan ketika Anda menambah tag mereka 
-diterapkan ke node juga. Pastikan Anda **hanya** memilih garis ketika Anda ingin menambah tag ke objek.
+-   Untuk mengubah tag dari sebuah objek, pertama pilih objek tersebut.
+-   Then edit the tags in one of two ways: (1) Use the Presets menu, or (2) edit the tags directly in the Properties window on the right.
+
+### Kesalahan Umum: Menambahkan tag pada titik ketika Anda ingin menambahkan tag pada garis atau poligon
+
+When you are editing the attributes of a point, you will first select the point and then add tags either through the Presets menu or directly in the Properties panel. A common mistake is when adding attributes to a line or a shape. When selecting the object, it is important that you
+memilih garisnya dan BUKAN titik yang menghubungkan garis tersebut.
+
+This frequently occurs because editors use the JOSM select tool to draw a box around an object, which causes everything, both the line **and** the nodes to be selected, and when you add tags they are applied to the nodes as well. Be sure to **only** select lines when you want to add tags to them.
 
 ![Nodes mistake][]
 
 Menyimpan file OSM
-------------------
-Ketika Anda mengedit di JOSM, merupakan ide yang bagus untuk mendownload, mengedit, dan mengupload perubahan
-dalam waktu yang cukup singkat. Anda tidak ingin mendownload data selama satu hari, dan kemudian menunggu
-hingga beberapa hari kemudian untuk mengupload hasil editan Anda. Bagaimana apabila orang lain mengedit 
-pada wilayah yang sama dalam waktu yang sama? Ini akan menyebabkan kesalahan dan konflik.
+----------------
+When you are editing in JOSM, it is always a good idea to download, edit, and upload changes in a reasonably short period of time. You do not want to download data one day, and then wait until a few days later to upload your edits. What if someone else edits the same area during that time? This will cause errors and conflicts.
 
-Jangan takut untuk mengupload editan Anda sesering mungkin. Hal ini memastikan bahwa perubahan Anda akan
-disimpan ke dalam database dan Anda tidak akan kehilangan hasil kerja keras Anda.
+Don't be afraid to upload your edits frequently. This ensures that your changes will be saved to the database and you will not lose your hard work.
 
-Jika Anda bekerja di wilayah tunggal, itu adalah ide yang bagus untuk mendownload data peta setiap kali 
-Anda ingin mengedit, pada kasus lain pengguna telah membuat perubahan pada wilayah tersebut.
+If you are working in a single area, it's a good idea to download the map data every time you want to edit, in case another user has made changes.
 
-Meskipun Anda harus selalu mencoba untuk mendownload data OSM ketika Anda siap untuk mengedit, dan upload
-perubahan Anda sesering mungkin, terdapat kasus dimana Anda ingin menyimpan data OSM pada komputer Anda.
-Misalnya, jika Anda memiliki konektivitas ke internet, Anda mungkin berharap untuk mendownload data,
-menyimpannya, mengedit, dan kemudiam mengupload perubahan Anda nanti.
+Although you should always try to download OSM data when you are ready to edit, and upload your changes frequently, there may be cases in which you want to save the OSM data on your computer. For example, if you have intermittent connectivity to the internet, you may wish to download data, save it, edit, and then upload your changes later on.
 
-*	Untuk menyimpan file OSM, pastikan bahwa itu adalah layer aktif di panel Layers. Klik "File" pada menu
-	bagian atas, dan klik "Save". Pilih lokasi untuk menyimpan file dan berilah nama. Anda juga dapat
-	menyimpan dengan mengklik tombol ini:
+-   To save an OSM file, make sure that it is the active layer in the the Layers panel. Click “File” on the top menu, and click “Save”. Choose a location for the file and give it a name. You can also save by clicking this button:
 
 ![JOSM save button][]
 
-*	Anda sekarang dapat menutup JOSM dan data Anda akan tersimpan. Ketika Anda ingin membuka file itu kembali,
-	buka JOSM kembali, kemudian pergilah ke menu "File", dan klik “Open...”
+-   You can now close JOSM and your data will be saved. When you want to open the file again, simply open JOSM, go to the “File” menu, and click “Open...”
 
-Ringkasan
----------
-Pada bab ini kita melihat sedikit lebih dekat dengan antarmuka JOSM dan belajar mengenai layer dan tag. 
-Anda sekarang harus memiliki pijakan yang kokoh dalam bagaimana membuat peta dan bagaimana mengedit 
-OpenStreetMap.
-
-Pada sesi terakhir panduan ini kita akan melihat sumber informasi lain yang Anda dapat pelajari pada
-saat Anda melangkah ke depan. Ketika Anda berlatih apa yang telah Anda pelajari disini dan mengeksplorasi
-lebih lanjut, Anda akan mendapatkan lebih baik dalam membuat peta dengan OpenStreetMap.
+Rangkuman
+-------
+In this chapter we looked a little bit closer at the JOSM interface and learned about layers and tags. You should now have a solid footing in how to map and how to edit OpenStreetMap.
 
 
 [Layers panel]: /images/josm/josm_layers-panel.png
@@ -188,4 +123,3 @@ lebih lanjut, Anda akan mendapatkan lebih baik dalam membuat peta dengan OpenStr
 [Properties panel]: /images/josm/josm_properties-panel.png
 [Nodes mistake]: /images/josm/josm_nodes-selected-mistake.png
 [JOSM save button]: /images/josm/josm_save-button.png
-

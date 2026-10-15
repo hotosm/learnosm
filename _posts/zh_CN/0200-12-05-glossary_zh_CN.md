@@ -9,7 +9,7 @@ category: beginner
 术语表 
 ============
 
-> 本术语表处于不断更新之中，由众多包括 [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) 网站和 Will Skora 编写的指南在内的众多其他资料编纂而成。欢迎协助我们更新本表，有关向本站贡献的详情请参见 [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) 。 
+> 本术语表处于不断更新之中，由众多包括 [OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/Main_Page) 网站和 Will Skora 编写的指南在内的众多其他资料编纂而成。欢迎协助我们更新本表，有关向本站贡献的详情请参见 [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) 。 
 > 2015年7月18日修订  
 
 为了方便搜索本术语表，请使用浏览器内置的搜索功能。按住Ctrl键的同时按下F键 (通常称为 **Ctrl+F** )。  
@@ -22,12 +22,12 @@ category: beginner
 
 **动员者**：完成训练的HOT志愿者，被其他先前的启动者认可能够在事件时担任工作。 
 
-**AOI : 兴趣区**: 在灾难爆发时由行动协调者咨询人道主义合作伙伴、外业团队和HOT社群定义。
+**AOI : 兴趣区**: 在灾难爆发时由动员协调者咨询人道主义合作伙伴、外业团队和HOT社群定义。
 
 
-**[Changeset](http://wiki.openstreetmap.org/wiki/Changeset) 修改集合**: 你对OSM做的一组改动。一旦上传到OSM，你的编辑立即向其他人开放下载。人们可能要等几分钟到几小时后修改才会显示在地图上。
+**[修改集(Changeset)](https://wiki.openstreetmap.org/wiki/Changeset)**: 你对OSM做的一组改动。一旦上传到OSM，你的编辑立即向其他人开放下载。变更可能要等待几分钟到几小时后才会显示在地图上。
 
-** COD：公共操作数据库（Common Operational Database）**;包括多个人道救援组织活动的地理资料。他们主要是：大众运输网路（道路，桥/渡口，港口），住民地（ 聚落），行政边界，水文（河流和其他水体），和高度（等高线）。也许会包括非直接的人口统计来源的建筑。主要是联合国联合国人道事务协调厅使用的资料。
+**COD：公共操作数据库（Common Operational Database）**；包括多个人道救援组织活动的地理资料。他们主要是：大众运输网路（道路、桥/渡口、港口）、住民地（ 聚落）、行政边界、水文（河流和其他水体）和高度（等高线）。也许会包括非直接的人口统计来源的建筑。主要是联合国联合国人道事务协调厅使用的资料。
 
 ** DHN：数字人道主义网络（Digital Humanitarian Network）**；组织人道救援的数字网络组织。
 
@@ -65,7 +65,7 @@ category: beginner
 
 **样式表** : 多数情况下指用于决定所需显示要素(如哪些道路)以及图中要素显示方式(道路颜色、线宽)的文本文件。
 
-**标签**: 标签描述了点线面等形状。每个标签由一个键值对构成，在OSM中记作“键=值”。例如highway=residential和name=Woodland Avenue。在本站教程中首次出现在[iD编辑器部分](/zh/beginner/id-editor/#basic-editing-with-id)。点线面通常有不止一个标签。有时选择恰当标签是个令人困惑的事。[Taginfo](https://taginfo.openstreetmap.org/)通过实际数据库中的标签统计信息、标签使用人数、标签使用地点等帮助你选择合适标签。该网站还提供来自维基或其他地方的标签信息。
+**标签**: 标签描述了点线面等形状。每个标签由一个键值对构成，在OSM中记作“键=值”。例如highway=residential和name=Woodland Avenue。在本站教程中首次出现在[iD编辑器部分](/zh_CN/beginner/id-editor/#basic-editing-with-id)。点线面通常有不止一个标签。有时选择恰当标签是个令人困惑的事。[Taginfo](https://taginfo.openstreetmap.org/)通过实际数据库中的标签统计信息、标签使用人数、标签使用地点等帮助你选择合适标签。该网站还提供来自维基或其他地方的标签信息。
 
 **TIGER** : 美国统计局于2007年导入OSM的数据源。这是OSM美国地区最主要的数据源。
 

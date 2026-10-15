@@ -9,7 +9,6 @@ category: osm-data
 Cài đặt PostgreSQL & PostGIS
 ====================
 
-> Cập nhật: 2017-11-01
 
 Trong chương này chúng ta sẽ thấy làm thế nào để thiết lập PostgreSQL trên Windows và làm thế nào để tạo ra một cơ sở dữ liệu trong đó bạn có thể lưu trữ dữ liệu địa lý. Chúng tôi sẽ sử dụng phần mềm mã nguồn mở GIS QGIS trong chương này, vì vậy sẽ hữu ích nếu bạn đã quen với nó. Trong chương tiếp theo, chúng ta sẽ thấy làm thế nào để nhập dữ liệu OpenStreetMap vào một cơ sở dữ liệu PostgreSQL.  
 
@@ -24,14 +23,14 @@ Từ đây bạn có thể tìm hướng dẫn cài đặt cho các hệ điều
 Trang này giải thích điều mà One-Click Installer sẽ làm. Nó sẽ cài đặt ba thành phần khác nhau:  
 
 * **PostgreSQL server**:  Phần mềm cơ sở dữ liệu, thành phần cốt lõi  
-* **pgAdmin III**: Giao diện đồ họa để quản lý cơ sở dữ liệu của bạn  
+* **pgAdmin 4**: The graphical interface for managing your databases  
 * **StackBuilder**: Một công cụ để thêm các ứng dụng bổ sung; chúng ta sẽ sử dụng nó để thêm các phần mở rộng PostGIS  
 
 Nhấp chuột vào **Download**.  
 
 ![Tải xuống PostgreSQL][]
 
-Bạn sẽ thấy một số tùy chọn Trình cài đặt khác nhau cho các phiên bản khác nhau của phần mềm PostgreSQL. Tải về phiên bản mới nhất. Khi viết bài này, nó là phiên bản 10. Chọn phiên bản phù hợp với hệ điều hành của bạn, thí dụ **Win x86-32** dành cho hệ điều hành Windows 32-bit.  
+You will see several different Installer options for different versions of the PostgreSQL software. Download the most recent version for your Windows version.
 
 ![Phiên bản của PostgreSQL][]
 
@@ -72,14 +71,14 @@ Khi quá trình cài đặt hoàn tất, hãy nhấp vào “**Close**” và sa
 TẠO CƠ SỞ DỮ LIỆU
 --------------------
 
-Bây giờ chúng ta đã cài đặt tất cả các phần mềm cần thiết, chúng ta sẽ tạo ra một cơ sở dữ liệu.
+Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin 4, which is a graphical database client that is useful for querying and modifying
 Chúng tôi sẽ sử dụng pgAdmin III, một máy khách cơ sở dữ liệu đồ họa có ích để truy vấn và sửa đổi cơ sở dữ liệu.  
 
 ![pgadmin3][]
 
-PgAdmin III là ứng dụng chính thức của PostgreSQL và cho phép bạn sử dụng ngôn ngữ SQL để thao tác các bảng dữ liệu của bạn. Cũng có thể tạo và thao tác cơ sở dữ liệu từ dòng lệnh, nhưng bây giờ, pgAdmin III là một cách dễ dàng để bắt đầu.  
+PgAdmin 4 is the official client for PostgreSQL and lets you use the SQL language to manipulate your data tables.  It is also possible to create and manipulate databases from the command-line, but for now, pgAdmin 4 is an easy way to get started.  
 
-Mở pgAdmin III.  Nó nằm trong Start Menu trong All Programs -> PostgreSQL 10 -> pgAdmin III.  
+Open pgAdmin 4.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin 4.  
 
 ![pgadmin3 start][]
 
@@ -101,7 +100,7 @@ Bạn cần nhập một vài thông tin để tạo ra cơ sở dữ liệu m�
 
 <!-- Under the Definition tab, keep the defaults, but next to Template select template_postgis.  This will create our database with the proper spatial columns. -->
 
-Click **OK** để tạo cơ sở dữ liệu. Bây giờ chúng ta cần phải chạy một lệnh để cho phép cơ sở dữ liệu có các phần mở rộng PostGIS. Nhấp vào ![sql button][]{: height="24px"} ở phía trên giao diện của PgAdmin III.  
+Click **OK** to create the database.  You will now see your database listed under “**Databases**.” We need to run a command now to enable the database with PostGIS extensions. Click on ![sql button][]{: height="24px"} at the top of PgAdmin 4.  
 
 
 
@@ -118,7 +117,7 @@ TẢI DỮ LIỆU MẪU (TÙY CHỌN)
 
 Nếu bạn cảm thấy thoải mái cho đến nay và đã quen thuộc với QGIS, hãy làm theo khi chúng tôi tải một số dữ liệu vào cơ sở dữ liệu mới của chúng tôi. Để làm điều này, chúng ta sẽ sử dụng một tiện ích chuyển đổi shapefiles và nạp chúng vào cơ sở dữ liệu.  
 
-Đảm bảo rằng cơ sở dữ liệu mới của bạn được chọn trong bảng ở bên trái và đi tới **Plugins -> PostGIS Shapefile and DBF loader**.
+Make sure that your new database is selected in the panel on the left and go to **Plugins -> PostGIS Shapefile and DBF loader 2.x**.
 
 ![shapefile loader][]
 

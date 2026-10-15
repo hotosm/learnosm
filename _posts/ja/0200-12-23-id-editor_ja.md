@@ -9,7 +9,7 @@ category: beginner
 iD エディタ
 =============
 
-> 2018/12/05 レビュー  
+> Reviewed 2019-06-10
 
 HOTやMissingMapsなどでTasking Managerを利用する際には、[HOT TIPSセクション](/ja/hot-tips/)も参照してください。  
 
@@ -44,23 +44,22 @@ iDエディタのユーザインターフェース
     シェイプ（ポリゴン/面）を描く *ショートカットキー* **3** ![image5][]{: height="24px"}  
     やり直し *ショートカットキー* **Ctrl+z** ![image6][]{: height="24px"}  
     やり直しの取り消し *ショートカットキー* **Ctrl+y** ![image7][]{: height="24px"}  
-    変更の保存 *ショートカットキー* **Ctrl+s** ![image8][]{: height="24px"}  
+    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **マップパネル:** 各種設定を行なうためのパネル:  
     ズームイン *ショートカットキー* **+** ![image9][]{: height="24px"}  
     ズームアウト *ショートカットキー* **-** ![image10][]{: height="24px"}  
     現在地を表示 ![image11][]{: height="24px"}  
     背景画像レイヤを変更 *ショートカットキー* **b** ![image12][]{: height="24px"}  
     地図データ *ショートカットキー* **f** ![Map Data][]{: height="24px"}  
+    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
     ヘルプメニューを表示 *ショートカットキー* **h** ![image13][]{: height="24px"}  
 4. **情報パネル:** このパネルには多くの情報が表示されます。例えば、表示中の地域を過去に編集したユーザの一覧などです。  
 
-背景画像レイヤの変更
---------------------------------
+## Configuring the Background Layer
 
 Click the **背景設定**ボタンをクリックするか、*ショートカットキー* **b**を使います .![image14][]{: height="24px"}  
 ![image15][]  
-以下のボタンをクリックすると **背景画質の調整**を行うことができます。調節な可能なレベルは 100%, 75% そして25%です ![image16][]{: height="24px"}  
-また  **背景図レイヤを切り替える** ことも可能です。これにより、任意のタイル画像を背景図として利用することが可能です(デフォルトはBing衛星写真)。  
+You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
 
 **カスタム** の項目から自身の地図タイルを追加することができます。例えば**Field Paperを追加する** [^fieldpaper] 場合、**カスタム**をクリックした後、虫眼鏡のボタン (検索) アイコンをクリックして、以下のウィンドウを開きます:-  
 ![image17][]   
@@ -68,7 +67,10 @@ Click the **背景設定**ボタンをクリックするか、*ショートカ�
 **コンピュータに保存されているGPSトラックを表示させる** ことも可能です。(GPXフォーマット) この操作はとても簡単で、単にGPXファイルをiDエディタにドラッグするだけです。  
 **OpenStreetMap上のGPSにトラック** を有効化する場合、以下のボタンをクリックしてください。画面下側のように、公開状態のGPSトレースが様々な色で表示されます。  
 ![osm gps traces][]  
-もし[画像オフセット](/ja/josm/aerial-imagery)がある場合、**位置を調整**をクリックすることで **画像のオフセットを修正** することが可能です。![image18][]  
+To change the **appearance of the imagery** click **Display Options**.  
+![DisplayOptions][]  
+If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+![image18][]  
 
 - ナビゲーションボタンをクリックすると、背景画像が移動します。リセットボタンを押すと、表示位置がデフォルトに戻ります。 ![image20][]  
 
@@ -84,7 +86,7 @@ iDエディタ編集の基礎
 - 新しくポイントが作成されたことがわかるでしょうか。作成と同時に画面左側へパネルが表示され、そのオブジェクトがどのような属性を持っているかを選択することが可能になります。 **病院** をクリックして、そのポイント情報を病院としてタグ付けしましょう。  
 ![image22][]  
 - 作成したポイントに対し、フォームから詳細な情報を追加することもできます。例えば病院の名称や住所、あるいはもし知っていれば、その他の情報を追加することもできます。入力フォームの表示は、その地物に付与されているタグ種類によって異なります。  
-- ポイントを置く場所を間違えてしまった場合は、そのポイントの上でマウスを左クリックし、そのまま正しい位置までポイントをドラッグして移動させてください。また、ポイントを削除する場合、ポイントの上で左クリックして対象を選択した状態で右クリックを行ってください。その後、右クリック後に円型のメニューから、ゴミ箱の形をしたアイコンを選んでください。 ![image23][]{: height="24px"}  
+- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
 iDで作成された "ポイント" は、OSMデータ上では、なにかしらの "タグ" が付与されたスタンドアローンの "ノード" 情報として扱われます。  
 
 ### ラインの描き方  
@@ -95,17 +97,22 @@ iDで作成された "ポイント" は、OSMデータ上では、なにかし�
 ![image24][]  
 - ポイントのときと同じように、ラインを表現するために適切とおもわれるタグを選択します。  
 - ラインに含まれるポイントデータは、そのポイントの場所で左クリックしてドラッグすることで移動させることができます。  
-- ライン全体を移動させることも可能です。 **移動ツール** を選択すると、ラインを新しい位置へ移動させることができます。 ![image30][]{: height="24px"}  
-- ラインに所属しているそれぞれのポイント (ノード) の上で左クリックし、続いて右クリックすることで、以下のようなコンテキストメニューを起動することができます:  
-- ラインから対象のポイントを削除 ![image23][]{: height="24px"}  
-- ラインから対象のポイントを分離 ![image26][]{: height="24px"}  
-- 選択したポイントを起点として、1本のラインを2本に分割 ![image27][]{: height="24px"}  
+- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
+  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
+  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
+  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
+  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
 - ライン（上のポイントではない部分）をクリックすることで、以下のツールを利用することができます:  
--   ラインの削除 ![image23][]{: height="24px"}  
--  対象のラインで円形を作成 (ラインが閉じている場合にのみ有効) ![image29][]{: height="24px"}  
--  ラインを移動 ![image30][]{: height="24px"}  
--  対象のラインの角を四角形にする (ラインが閉じている場合にのみ有効) ![image31][]{: height="24px"}  
--  ラインの向きを逆転 (河川や水路、一方通行の道路に便利) ![image32][]{: height="24px"}  
+  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
+  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
+  -   Move line ![LineToolMove][]{: height="24px"}  
+  -   Square all corners ![LineToolSquare][]{: height="24px"}  
+  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
+  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
+  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
+  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
+  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
+  -   Delete line. ![LineToolDelete][]{: height="24px"}  
 
 iDで作成された "ライン" は、OSMデータ上では、なにかしらの "タグ" が付与された "ウェイ" 情報として扱われます。
 
@@ -132,6 +139,14 @@ iDで作成された "ポリゴン" は、OSMデータ上では、なにかし�
 
 ![part of multipolygon][]
 
+## Issues
+
+The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+
+![Issue][] ![Error][]
+
+The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+
 編集結果の保存
 --------------------
 
@@ -145,17 +160,11 @@ OpenStreetMapデータの編集が終わり、内容を保存する場合は、 
 追加情報、リストにないタグの追加など
 ---------------------------------------
 
-オブジェクトの編集を行う際、属性入力パネルの下の方にいくつかのアイコンが並んで表示されています。これらのアイコンをクリックすることで、そのオブジェクトに細かい情報を追加することが可能です:
+When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
 
-- 標高を追加 ![image37][]{: height="24px"}  
-- ノートを追加 ![image38][]{: height="24px"}  
-- 連絡先/電話番号を追加 ![image39][]{: height="24px"}  
-- 情報源 (sourceタグ) を追加 ![image40][]{: height="24px"}  
-- ウェブサイトを追加 ![image41][]{: height="24px"}  
-- アクセシビリティ情報を追加 ![image42][]{: height="24px"}  
-- Wikipediaリンクを追加 ![image43][]{: height="24px"}  
+![AdditionalTags][]
 
-**すべてのタグ** をクリックすることで、選択肢にないタグを付与することも可能です。 ![image44][]{: height="24px"}  
+Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
 
 - その地物に付与されているすべてのタグが表示されます。  
 ![image45][]  
@@ -185,8 +194,6 @@ iDとJOSMの違い
 
 [^fieldpaper]: Field Paperについては、本ガイドの [専用セクション](/en/mobile-mapping/field-papers/) も参照ください。
 
-このガイドの内容は[プレゼンテーション]](/files/iD-editor-training.pptx)としても利用できます。
-
 
 
 [image1]: /images/beginner/id-editor_image1.png 
@@ -202,37 +209,38 @@ iDとJOSMの違い
 [image11]: /images/beginner/id-editor_image11.png
 [image12]: /images/beginner/id-editor_image12.png
 [Map Data]: /images/beginner/id-editor_map_data.png
+[Issues]: /images/beginner/id-editor_issues.png
 [image13]: /images/beginner/id-editor_image13.png
 [image14]: /images/beginner/id-editor_image14.png
 [image15]: /images/beginner/id-editor_image15.png
-[image16]: /images/beginner/id-editor_image16.png
+[DisplayOptions]: /images/beginner/id-editor_display-options.png
 [image17]: /images/beginner/id-editor_image17.png
 [image18]: /images/beginner/id-editor_image18.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
 [image21]: /images/beginner/id-editor_image21.png
 [image22]: /images/beginner/id-editor_image22.png
-[image23]: /images/beginner/id-editor_image23.png
 [image24]: /images/beginner/id-editor_image24.png
-[image25]: /images/beginner/id-editor_image25.png
-[image26]: /images/beginner/id-editor_image26.png
-[image27]: /images/beginner/id-editor_image27.png
-[image28]: /images/beginner/id-editor_image28.png
-[image29]: /images/beginner/id-editor_image29.png
-[image30]: /images/beginner/id-editor_image30.png
-[image31]: /images/beginner/id-editor_image31.png
-[image32]: /images/beginner/id-editor_image32.png
-[image33]: /images/beginner/id-editor_image33.png
+[PointToolContinue]: /images/beginner/id-editor_point-tool-continue.png
+[PointToolDelete]: /images/beginner/id-editor_point-tool-delete.png
+[PointToolDisconnect]: /images/beginner/id-editor_point-tool-disconnect.png
+[PointToolSplit]: /images/beginner/id-editor_point-tool-split.png
+[LineToolCircularize]: /images/beginner/id-editor_line-tool-circularize.png
+[LineToolDelete]: /images/beginner/id-editor_line-tool-delete.png
+[LineToolDisconnect]: /images/beginner/id-editor_line-tool-disconnect.png
+[LineToolMove]: /images/beginner/id-editor_line-tool-move.png
+[LineToolReflectLong]: /images/beginner/id-editor_line-tool-reflect-long.png
+[LineToolReflectShort]: /images/beginner/id-editor_line-tool-reflect-short.png
+[LineToolReverse]: /images/beginner/id-editor_line-tool-reverse.png
+[LineToolRotate]: /images/beginner/id-editor_line-tool-rotate.png
+[LineToolSquare]: /images/beginner/id-editor_line-tool-square.png
+[LineToolStraighten]: /images/beginner/id-editor_line-tool-straighten.png
 [image34]: /images/beginner/id-editor_image34.png
 [image35]: /images/beginner/id-editor_image35.png
+[Issue]: /images/beginner/id-editor_issue.png
+[Error]: /images/beginner/id-editor_error.png
 [image36]: /images/beginner/id-editor_image36.png
-[image37]: /images/beginner/id-editor_image37.png
-[image38]: /images/beginner/id-editor_image38.png
-[image39]: /images/beginner/id-editor_image39.png
-[image40]: /images/beginner/id-editor_image40.png
-[image41]: /images/beginner/id-editor_image41.png
-[image42]: /images/beginner/id-editor_image42.png
-[image43]: /images/beginner/id-editor_image43.png
+[AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
 [create multipolygon]: /images/beginner/id-editor_create_multipolygon.png

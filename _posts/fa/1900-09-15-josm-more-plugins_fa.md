@@ -9,7 +9,6 @@ category: josm
 افزونه‌های Building Tools و Utilsplugin2 در JOSM
 ============
 
-> تاریخ بازبینی ۱۳۹۵/۰۶/۲۲  
 
 افزونه‌های **buildings_tools** و **utilsplugin2** عملکردهای بسیار عالی به JOSM اضافه می‌کنند. در این بخش نگاه نزدیک‌تری به قابلیت‌های آن‌ها می‌اندازیم.  
 
@@ -26,6 +25,8 @@ category: josm
 
 JOSM را باز کنید و ناحیه‌ای را که می‌خواهید ساختمان‌هایش را بکشید دانلود کنید.  
 
+### Rectangular Buildings
+
 * ابزار ساختمان را انتخاب کنید و دو بار کلیک کنید تا یک خط روی نقشه بکشید.  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ JOSM را باز کنید و ناحیه‌ای را که می‌خواهید س�
 ![Extend building][]
 
 * با این کار نه‌تنها مستطیل را فقط با سه کلیک ایجاد می‌کنید، بلکه به‌طور خودکار برچسب **building=yes** نیز به شکل داده می‌شود.  
+
+### Circular Buildings
+
+* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+
+![Round building][]
 
 ### ساختمان‌های پیچیده
 
@@ -50,7 +57,7 @@ JOSM را باز کنید و ناحیه‌ای را که می‌خواهید س�
 
 علاوه بر این، می‌توانید تنظیمات پیش‌فرض افزونه را تغییر دهید.  
 
-* به Data ->‏ Set buildings size بروید. ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * چنانچه ساختمان‌های زیادی با شکل و اندازهٔ یکسان ایجاد می‌کنید، می‌توانید طول و عرض ساختمان‌ها را مشخص کنید، مثلاً ۶×۱۰ متر (واحد به متر است).  
 
@@ -80,7 +87,7 @@ Utilsplugin2
 
     ![Nodes interesection][]
 
-2. **کپی‌کردن برچسب‌ها از انتخاب قبلی:** این عملکرد باعث می‌شود که تگ‌ها را راحت‌تر کپی کنید. اگر می‌خواهید اشیای زیادی را با تگ‌های یکسان ایجاد کنید، ابتدا اشیا را رسم کنید. سپس برچسب‌ها را به یک شی اضافه کنید. روی شی دیگری کلیک کنید و Shift+R را بزنید تا برچسب‌ها از شیء قبلی کپی شود. می‌توانید این کار را برای تمام اشیائی که می‌خواهید برچسب‌گذاری کنید انجام دهید. به یاد داشته باشید که برچسب‌ها از شیء انتخاب‌شدهٔ قبلی کپی می‌شوند، بنابراین اگر روی یک شیء بدون برچسب کلیک کنید و سپس روی یک شیء بدون برچسب دیگر کلیک کنید، نمی‌توانید هیچ تگی را کپی کنید.  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 
@@ -119,4 +126,5 @@ Utilsplugin2
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Round building]: /images/josm/buildings_tools-round.png
 

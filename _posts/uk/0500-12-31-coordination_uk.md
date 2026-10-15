@@ -6,7 +6,6 @@ title: Координація зусиль
 category: coordination
 cover: yes
 nosearch: true
-
 ---
 
 Координація зусиль

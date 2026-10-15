@@ -10,7 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
-> Hướng dẫn này có thể được tải tại đây[humanitarian_vi.odt](/files/humanitarian_vi.odt) or [humanitarian_vi.pdf](/files/humanitarian_vi.pdf)  
 > Reviewed 2015-09-18
 
 Cảm ơn bạn đã tình nguyện giúp đỡ cộng đồng địa phương và các Tổ chức Hỗ trợ ứng phó với sự biến động này bằng cách cung cấp dữ liệu bản đồ cập nhật cho họ  

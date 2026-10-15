@@ -9,198 +9,116 @@ category: josm
 JOSM ဆော့ဖ်ဝဲလ်တွင်မြေပုံတည်းဖြတ်မှုပြုခြင်း
 ========================
 
-> Reviewed 2015-07-12  
 
-JOSM ဆော့ဖ်ဝဲလ်ထည့်သွင်းခြင်း နှင့် အမှတ်၊ မျဉ်းကြောင်း၊ ပုံသဏ္ဍာန်တို့ရေးဆွဲခြင်းကို 
-ယခင်သင်ခန်းစာတွင်လေ့လာခဲ့ပြီးဖြစ်သည်။
-ရေးဆွဲသောအရာများ၏ အချက်အလက်ကို ဖော်ညွှန်းသတ်မှတ်မှုများလည်း ပြုလုပ်ခဲ့ပြီးဖြစ်သည်။ 
-အဆုံးတွင် ကိုယ်ပိုင်မြေပုံတခုကို JOSM ဆော့ဖ်ဝဲလ်အသုံးပြုလျက်ရေးဆွဲနိုင်ခဲ့ပြီဖြစ်၏။
+In the previous section you installed JOSM and began drawing your first points, lines, and shapes. You added presets to these objects in order to attach information about them. By the end, you were able to draw your own map in JOSM.
 
 ထိုသို့အလေ့အကျင့်ကောင်းများပြုလုပ်ခဲ့ပြီးနောက် OpenStreetMap တွင် မြေပုံတည်းဖြတ်ခြင်း ပြုလုပ်ရန်အသင့်ဖြစ်ပြီ ဖြစ်၏။
 
-JOSM ဆော့ဖ်ဝဲလ်ကိုအသုံးပြုပြီး မြေပုံတည်းဖြတ်ရန်အတွက် အသေးစိတ်အချက်အလက်များကို 
-ယခုသင်ခန်းစာတွင်လေ့လာကြမည်ဖြစ်သည်။
+In this section we will take a closer look at the interface of JOSM, and see how we can use it to edit the map on OpenStreetMap.
 
 တည်းဖြတ်မှုဖြစ်စဉ်
 ---------------------
-JOSM ဆော့ဖ်ဝဲလ်မှာ အင်တာနက်ချိတ်ဆက်မထားသော ကွန်ပျူတာများတွင်ပါအသုံးပြုနိုင် သဖြင့် လုပ်ထုံးလုပ်နည်းအနည်းငယ်ကွာဟသော်လည်း 
-JOSM ဆော့ဖ်ဝဲလ်ကိုအသုံးပြုပြီး မြေပုံတည်းဖြတ်ခြင်းသည်   iD အသုံးပြု မြေပုံတည်းဖြတ်ခြင်းနှင့် အတူတူပင်ဖြစ်၏။ 
-JOSM ဆော့ဖ်ဝဲလ်ကိုအသုံးပြုပြီး မြေပုံတည်းဖြတ်ပေါင်းစပ်ခြင်းဖြစ်စဉ်သည် 
-အောက်ပါအတိုင်းဖြစ်၏။
+Editing OpenStreetMap with JOSM is similar to editing with the iD editor we saw previously. But because JOSM is a desktop application, it works a little bit differently. The process of editing and adding to OpenStreetMap with JOSM will always be as follows:
 
-- ၁။ OSM တွင်လက်ရှိအသုံးပြုနေသော မြေပုံအချက်အလက်ကို အင်တာနက်မှတဆင့် **Download** ပြုလုပ်၍ရယူပါ။
-- ၂။ သင်ခန်းစာများတွင် ညွှန်ကြားသည့်အတိုင်း **တည်းဖြတ်မှု** (Edit) ပြုလုပ်ပါ။
-- ၃။ ထို့နောက် ပြင်ဆင်တည်းဖြတ်ထားသောမြေပုံကို OpenStreetMap တွင် **သိမ်းဆည်းပါ**။ (Save)
+1.  **Download** the current map data from OSM
+2.  **Edit** it using Satellite Imagery, GPS, Field Papers, and notes as a guide
+3.  **Save** changes to OpenStreetMap
 
 OSM မှမြေပုံအချက်အလက်များရယူခြင်း
 --------------------
-ပထမအဆင့်အနေဖြင့် မိမိပြင်ဆင်လိုသောနေရာဒေသ၏အချက်အလက်ကို အင်တာနက်မှ တဆင့်ရယူပါ။
-အခြားအသုံးပြုသူများလည်း ပြင်ဆင်ဖြည့်စွက်ထားနိုင်သဖြင့် မိမိပြင်ဆင်လိုသည့်အခါတိုင်း 
-ပြင်လိုသောနေရာ၏ အချက်အလက်ရယူခြင်းကို ပြင်ဆင်မှုပြုသည့်အကြိမ်တိုင်းအတွက် ကြိုတင်ရယူထားသင့်သည်။
+The first editing step is to download the data for the area of the world that we want to improve. Remember that you need to do this every time that you want to make changes to the map, because the map is often being updated by other users.
 
-- JOSM ဆော့ဖ်ဝဲလ်မျက်နှာပြင်၏ ဘယ်ဘက်အပေါ်ထောင့်ရှိ “File” ဟုရေးထားသောနေရာတွင် တစ်ချက်နှိပ်ပါ။
-    ပေါ်လာသောဖော်ပြချက်များမှ “Download from OSM” ကိုနှိပ်ပါ။ အင်တာနက်မှ တစ်ဆင့်ရယူရန် ဖော်ပြချက်စာမျက်နှာတစ်ခု ပွင့်လာမည်ဖြစ်သည်။
-    အောက်တွင်မြင်တွေ့ရသော ပုံအတိုင်းရှိသည့် ခလုတ်ကိုနှိပ်၍လည်း 
-    အလွယ်တကူ ရယူနိုင်ပါသည်။
+-   Click on “File” in the top left corner of JOSM and click “Download data...”. This will open up the download window. You can access this window more simply by clicking on the download button, shown here:
 
 ![JOSM Download Button][]
 
-- အင်တာနက်မှ တစ်ဆင့်ရယူရန်ဖော်ပြချက်စာမျက်နှာပွင့်လာပါက ပန်းရောင်ခြယ်ထားသော 
-    အကွက်တစ်ခုပါသော မြေပုံတစ်ခုကိုတွေ့ရပါလိမ့်မည်။ မတွေ့ရှိပါက
-    “Slippy map” ဟုရေးထားသော အညွှန်းကွက်ကို တချက်နှိပ်ပါ။
+-   When the download window opens, you should see a map. If you don’t see the map, click on the tab marked “Slippy map”.
 
 ![JOSM Download Dialog][]
 
-- မြေပုံပေါ်တွင် သင်ရယူမည့်တည်နေရာကို ပန်းရောင်ခြယ်အကွက်က ဖော်ပြပေးသည်။ 
-    သင်ရယူလိုသည့်နေရာသို့ရောက်ရန် mouse ကိုအသုံးပြုရွှေ့လျားပါ။ 
-    ထိန်းချုပ်အလုပ်လုပ်မှုများသည် JOSM ဆော့ဖ်ဝဲလ်မှာကဲ့သို့ပင်ဖြစ်ပြီး
-    mouse ၏ညာဘက်ခလုတ်ကိုဖိလျက် မြေပုံကိုဆွဲရွှေ့ရန်နှင့်
-    မြင်ကွင်းချုံ့၊ချဲ့မှုအတွက် mouse ၏
-    ဘီးလုံးကိုအသုံးပြုရန်ဖြစ်သည်။
+-   Use your mouse to pan and zoom it to an area that you know very well, such as your hometown or neighborhood. The controls are the same as in the JOSM map window. The right mouse button lets you drag the map, and your scroll wheel allows you to zoom in and out.
 
-> လက်ဆွဲကွန်ပျူတာ(laptop,notebook)အသုံးပြုသူများအတွက် mouse တပ်ဆင်မထားလျှင် 
-> မြင်ကွင်းချုံ့၊ချဲ့ရာတွင် အခက်ခဲရှိနိုင်သည်။ 
-> နောက်ပိုင်းထွက်ပေါ်လာသော လက်ဆွဲကွန်ပျူတာအများစုတွင် touchpad ကိုအသုံးပြုနိုင်သည်။
+> Sometimes if you are working on a notebook computer it can be difficult to scroll in and out. Working in JOSM is much easier if you have a mouse, but most modern notebooks allow you to scroll using the touchpad.
 
-- မိမိရယူလိုသောနေရာတဝိုက်တွင် ဘောင်ကွက်တစ်ခုဆွဲပါ။ မြေပုံပေါ်တွင် mouse ၏ဘယ်ဘက် ခလုတ်ကို
-    တစ်ချက်ဖိနှိပ်ထားလျက် ဘောင်ကွက်တစ်ခုဖြစ်သည်အထိရွှေ့ပါ။ 
-    ထို့နောက် mouse ခလုတ်ကို ပြန်လွှတ်လိုက်ရမည်။
-- လိုချင်သောနေရာနှင့်အကျယ်အဝန်းကိုရရှိပါက အောက်ဖက်တွင်ရှိသော 
-    “Download” ကိုနှိပ်ပါ။ ရရှိလာသော OpenStreetMap မြေပုံကို
-    JOSM ဆော့ဖ်ဝဲလ်တွင်ဖွင့်လှစ်၍ 
-    တည်းဖြတ်မှုပြုလုပ်ပါ။
+-   Draw a box around the area that you want to download. To draw a new box, click on the map, hold your left mouse button down, and drag your mouse to create a box. Release the mouse button to finish drawing the box.
+-   When you are satisfied with the size and location of the box, click “Download” at the bottom of the window. JOSM will get the data for this area from OpenStreetMap and open it in your map window for editing.
 
 ### ဂြိုဟ်တုဓါတ်ပုံထည့်သွင်းခြင်း
-iD အသုံးပြုတည်းဖြတ်မှုပြုစဉ်က မြေပြင်ပေါ်ရှိအရာဝတ္ထုများကိုဂြိုလ်တုပုံရိပ်တစ်ခုက 
-မြေပုံအချက်အလက်အဖြစ် ဖော်ပြပေးနေသည်ကို သတိရပါ။
-OpenStreetMap အတွက်အသုံးပြုသော 
-ပုံရိပ်များမှာ
-Microsoft Bing မှဖြစ်သည်။
+If you followed along when we added our first points with the iD editor, you remember that beneath the map data there was a satellite image that helped us identify objects on the ground. This imagery was from Microsoft Bing, which generously provides its imagery for OpenStreetMap users to reference while contributing to the map.
 
-- JOSM ဆော့ဖ်ဝဲလ်တွင် Bing ပုံရိပ်ထည့်သွင်းရန်အတွက် menu ဘားတန်းမှ “Imagery” ကိုနှိပ်ပြီး
-    “Bing Sat” ကိုရွေးချယ်ပါ။
+-   To add the Bing satellite imagery in JOSM, click "Imagery" on the top menu of JOSM and selecting “Bing Sat.”
 
-> Bing Sat ကိုမတွေ့ရှိပါက menu ဘားတန်းရှိ 
-> Edit ကိုနှိပ်ပြီး Preferences ကိုရွေးပါ။ 
-> အောက်တွင်ပြထားသည့်အတိုင်း  “WMS TMS” စာသားပါသော ရုပ်ပုံငယ်ကိုနှိပ်ပါ။
->	![JOSM Preferences up down][]
->	![JOSM Preferences WMS TMS][]
-> ထို့နောက် “Bing Sat” တွင်တချက်နှိပ်ပြီး “Activate” ခလုတ်ကိုနှိပ်ပါ။
+> If you don't see Bing Sat on the Imagery menu, you may need to activate it in the JOSM preferences. Go to Edit -> Preferences and click on the icon that says “WMS TMS”. You may need to click on the down arrow to find it.
+>
+> ![JOSM Preferences up down][]
+> ![JOSM Preferences WMS TMS][]
+>
+> Click on “Bing Sat”. Then Click “Activate”.
 
 
 ### JOSM ဆော့ဖ်ဝဲလ်ကိုလေ့လာခြင်း
-မြေပုံနှင့် ဂြိုလ်တုပုံရိပ်တို့ကိုထည့်သွင်းရယူပြီးနောက် 
-ဆော့ဖ်ဝဲလ်မျက်နှာပြင်အသွင်အပြင်ကို လေ့လာကြည့်ပါမည်။
+Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery, let's take another look at the interface of JOSM.
 
 ![JOSM layout][]
 
-ဆော့ဖ်ဝဲလ်၏မူလမျက်နှာပြင်ကို ရင်းနှီးပြီးဖြစ်ပါလိမ့်မည်။ 
-ယင်းနေရာတွင် မြေပုံတည်းဖြတ်ခြင်း၊ သိမ်းဆည်းခြင်း 
-စသည့်အလုပ်များကို လုပ်ဆောင်မည်ဖြစ်သည်။
+The main window you are already familiar with - this is the map window, and it is where most of the action takes place. Here you will view, edit, and add to the OpenStreetMap data.
 
-မြေပုံ၏ညာဘက်တွင် အလုပ်တာဝန်အသီးသီးကိုဖော်ပြသည့် 
-အကွက်ဘောင်ငယ်များတွေ့ရမည်ဖြစ်ပြီး 
-Layers၊ Properties နှင့် Selection စသည့် အကွက်ဘောင်ငယ်များကို ပြသနေမည်ဖြစ်သည်။ 
-မြေပုံတွင်ရွေးချယ်လိုက်သောအရာများကို 
-Selection ကွက်အတွင်း၊ အမျိုးအစားအချက်အလက်များကို
-Properties ကွက်အတွင်းနှင့် အရာဝတ္တုတစ်ခုရေးဆွဲသူ(author) ၏
-username ကို Authors အကွက်အတွင်း စသည်ဖြင့် ပြသပါလိမ့်မည်။
+To the right of the map window are a series of panels, each of which has its own function. Typically when you first install JOSM several panels are shown by default, such as Layers, Properties, and Selection. When you select a point, line, or shape in the map window, it will be shown in the Selection panel. Information about the object will be shown in the Properties panel, and the username of the author of that object will be shown in the Authors panel.
 
-ထိုအကွက်ငယ်များ အဖွင့်၊ အပိတ်ပြုလုပ်ရန်အတွက် ဆော့ဖ်ဝဲလ်မျက်နှာပြင်၏ ဘယ်ဘက်ခြမ်းတွင် 
-သက်ဆိုင်ရာခလုတ်ငယ်များ ပါရှိသည်။ ယင်းခလုတ်များ အပေါ်ဘက်ဆုံးတွင် 
-အသုံးပြုကိရိယာငယ်များအတွက် ခလုတ်များပါရှိသည်။ ရွေးချယ်ခြင်းနှင့် ပုံဆွဲခြင်းတို့အတွက် အသုံးပြုသောခလုတ်များကို ရင်းနီးပြီးဖြစ်ပါလိမ့်မည်။ 
-အောက်ဖက်တွင် မြင်ကွင်းချဲ့ခြင်း၊ ပယ်ဖျက်ခြင်း၊ ပုံသဏ္ဍာန်ရေးဆွဲခြင်း နှင့် 
-မျဉ်းပြိုင်ဆွဲ ခြင်းတို့အတွက် ခလုတ်များကို 
-အစဉ်အတိုင်းတွေ့ရမည်ဖြစ်၏။
+These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper left are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
 
 
 တည်းဖြတ်ခြင်း
 ----
-တည်းဖြတ်မှုဖြစ်စဉ်၏ ပထမအဆင့်ဖြစ်သော မြေပုံရယူခြင်းကို လုပ်ဆောင်ခဲ့ပြီးဖြစ်သည်။ 
-မြေပုံညွှန်းအဖြစ် ဂြိုလ်တုပုံရိပ်ကိုအသုံးပြုထား၏။ မြေပုံတည်းဖြတ်ခြင်းကို 
-စတင်ပြုလုပ်နိုင်ပြီဖြစ်သည်။
+So we have completed step one of the editing process - Downloading. We have prepared JOSM with satellite imagery as a reference. The next step is to edit the map and add new items.
 
-သင်ရွေးချယ်သောနေရာပေါ်မူတည်၍ မြေပုံအချက်အလက်ပါဝင်မှု ကွာဟနိုင်သည်။ 
-သို့သော် လက်တွေ့မြေပြင်အနေအထားရှိအရာများကို ပြညွှန်းရန်အတွက်
-အမှတ်၊ မျဉ်းကြောင်း နှင့် ပုံသဏ္ဍာန်တို့ကိုသာ အသုံးပြုဖော်ပြမည်ဖြစ်သည်။
+Depending on the area that you chose to download, there may be a lot or very little existing map data. But notice that it is the same sort of data that we have seen previously - points, lines, and shapes that represent real-life locations.
 
-- နေရာများကိုသတ်မှတ်ရန်အတွက် လေ့လာခဲ့ပြီးသော နည်းနာများအတိုင်း မြေပုံပေါ်တွင်အမှတ် နှစ်ခုချမှတ်ပါ။ 
-	အမှားလုပ်ဆောင်မိပါက ပြန်လည်ပြင်ဆင်ပါ။
-- လေ့လာသူအဆင့်တွင်ရှိဆဲဖြစ်ပါက မိမိမသေချာသောအရာများကို 
-	ချန်လှပ်ထားခဲ့နိုင်ပါသည်။
-- အမှတ်၊ မျဉ်းကြောင်း နှင့် ပုံသဏ္ဍာန်များကို တစ်နေရာမှ 
-    တစ်နေရာသို့ပြောင်းရွှေ့လိုလျှင်
-    အောက်တွင်ဖော်ပြထားသောပုံအတိုင်း
-    **select tool**ကိုရွေးပါ။
+-   Use the techniques you have already learned to add a couple points to the map of places that you know. If you see any mistakes, try to fix them.
+-   You don't need to be too aggressive while you are learning. If you are unsure about something it's better to leave it as it is.
+-   If you want to move a point, line, or shape, use the **select tool**. Click on an object and drag it where it should be. This can be used to correct the location of items that have been put in the wrong place.
 
 ![JOSM select tool][]
 
-- အမှတ်၊ မျဉ်းကြောင်းနှင့် ပုံသဏ္ဍာန်များရေးဆွဲရန် **draw tool** ကိုရွေးပြီး 
-    အရှေ့သင်ခန်းတွင်လေ့လာခဲ့သည့်အတိုင်း အရာဝတ္ထုများ၏
-    ဖော်ပြချက်များကို ဖြည့်သွင်းပါ။ 
+-   Use the **draw tool** to draw new points, lines, and shapes. Describe these objects by selecting from the Presets menu, as you did in the previous section.
 
-> သတိပြုရန်မှာ တည်းဖြတ်မှုပြုရန်အတွက် သင်ရယူထားသောအပိုင်းမှလွဲ၍ ကျန်နေရာများကို မထိခိုက်မိရန်ဖြစ်သည်။   
-> မြေပုံတွင် သင်ရယူထားသောနေရာကို ထောင့်မှန်စတုဂံပုံဖြင့်ဖော်ပြပေး ထားပြီးနောက်ခံပုံရိပ်ရှင်းလင်းပြတ်သားနေပေလိမ့်မည်။  
-> ကျန်နေရာများတွင် ထောင့်ဖြတ်မျဉ်းငယ် များဖြင့်ပိုင်းခြားပြသထားမည်ဖြစ်သည်။ (အောက်ပုံတွင်ရှု)  
-
-![JOSM area downloaded][]
+> Never edit the map outside of the area you have downloaded. You can see the rectangular area you have downloaded has a solid background, while the area you have not downloaded has diagonal pinstriped lines.
+>
+> ![JOSM area downloaded][]
 
 တည်းဖြတ်မှုကိုသိမ်းဆည်းခြင်း
 --------------
-ကျွန်ုပ်တို့၏ မြေပုံတည်းဖြတ်မှုကို OpenStreetMap ၏အချက်လက်သိုမှီးမှုသို့ 
-သွားရောက်သိမ်းဆည်းခြင်းသည် နောက်ဆုံးအဆင့်ဖြစ်ပါသည်။ 
-အချက်အလက်သိမ်းဆည်းရန်အတွက် အင်တာနက်ချိတ်ဆက်မှုရှိရန်လိုအပ်သည်။ 
+The third and final step to complete our edits is to upload the changes we have made to the OpenStreetMap database. To save the changes, we must be connected to the internet.
 
-- ဆော့ဖ်ဝဲလ်မျက်နှာပြင်၏ အပေါ်ဘက်တွင်ရှိသော “File” menu ကိုနှိပ်၍ “Upload Data”  ကိုရွေးပါ။
-    အောက်တွင်မြင်ရသည့် ရုပ်ပုံငယ်ကိုနှိပ်၍လည်း
-    လျှင်မြန်စွာဆောင်ရွက်နိုင်သည်။
+-   Click “File” on the top menu, and then click “Upload Data”. This will open up the upload window. You can access this window more simply by clicking on the upload button, shown here:
 
-![JOSM Upload Button][]
+    ![JOSM Upload Button][]
 
-- ထပ်မံပေါ်ထွက်လာသော မျက်နှာပြင်တွင် 
-    မိမိမွမ်းမံဖြည့်သွင်းလိုသော သို့မဟုတ် ပယ်ဖျက်လိုသော အရာများ၏စာရင်းကို ဖော်ပြပေးပါလိမ့်မည်။ 
-    သင်ဖြည့်စွက်ထားသော အကြောင်းအရာနှင့်ပတ်သတ်သော 
-    ဖော်ပြချက်စာသားများအတွက် အကွက်ငယ်တစ်ခုတွင် ရေးသားဖြည့်သွင်း ဖော်ပြနိုင်သည်။
+-   The window that appears shows a list of the objects that you are adding and the objects you are modifying or deleting. In the box at the bottom you are asked to provide a comment about the changes that you are making. Type in here a description of your edits.
 
-![JOSM Upload Dialog][]
+    ![JOSM Upload Dialog][]
 
-- ထို့နောက် “Upload Changes” ကို နှိပ်ပါ။
+-   Click “Upload Changes”.
 
-- ပထမဆုံးအကြိမ်ဖြည့်စွက်ခြင်းဖြစ်ပါက OpenStreetMap
-    အကောင့် နာမည်(username) နှင့် ဝှက်စာ(password) ကိုမေးပါလိမ့်မည်။
-- မှန်ကန်စွာဖြည့်စွက်ပြီးပါက “Authenticate” ကို နှိပ်ပါ။ 
-    နောက်တစ်ကြိမ်ဖြည့်စွက်မှုများအတွက် ထိုသို့မေးမြန်းခြင်းကို ရှောင်ရှားလိုပါက
-    “Save user and password” တွင် အမှတ်အသားပြုပေးခဲ့နိုင်ပါသည်။
+-   If this is your first time saving changes to OpenStreetMap, you will be asked for your OpenStreetMap username and password.
+-   Enter them in the window that appears. If you check the box in this window, your username and password will be saved and you won’t need to enter them again in the future. Click “Authenticate”.
 
-![JOSM Authenticate][]
+    ![JOSM Authenticate][]
 
-- သိမ်းဆည်းမှုပြီးမြောက်ရန် ခေတ္တစောင့်ဆိုင်းပါ။
-    မြေပုံတည်းဖြတ်ခြင်း ပြုလုပ်ထားနိုင်ခဲ့ပြီဖြစ်ပါလိမ့်မည်။
+-   You will need to wait a few seconds for your changes to be uploaded, and then you are done! You have edited the map on OpenStreetMap.
 
-> သင်ပြင်ဆင်တည်းဖြတ်မှုပြုလုပ်နေသောအခါ သင်ပြုလုပ်သောပြောင်းလဲမှုများကို JOSM ဆော့ဖ်ဝဲလ်မပိတ်မီ upload အမြဲတစေပြုလုပ်နေရမည်ဖြစ်သည်။   
-> သင့်အနေဖြင့် ပြင်ဆင်တည်းဖြတ်စရာများစွာရှိနေလျှင်တောင်မှ အချိန်ရှိလျှင် သင့်ပြောင်းလဲမှုများကို upload   
-> ပြုလုပ်ပေးပြီးမှ ပြင်ဆင်တည်းဖြတ်ခြင်းလုပ်ငန်းစဉ်ကို တဖန်ပြန်လည်စတင်ပါ။  
-> သင်ပြုလုပ်ထားသောလုပ်ငန်းများဆုံးရှုံးရန် သင်အလိုရှိမည်မဟုတ်ပါ။
+> When you are editing, always be sure to upload your changes before you close JOSM. Even if you still have more editing to do, upload your changes, and then go through the process again later when you have time to edit. You don't want to lose your work!
 
 တည်းဖြတ်မှုကိုမြေပုံတွင်ကြည့်ရှုရန်
 ---------------------------
-- အင်တာနက်အသုံးပြုလျှက် [http://openstreetmap.org/](http://openstreetmap.org/) ကိုဖွင့်လှစ်ပါ။
-- သင်တည်းဖြတ်ခဲ့သောအပိုင်းကို မြေပုံတွင်ရှာဖွေပါ။
-- သင်၏ပြုပြင်ပြောင်းလဲမှုကို မြေပုံတွင်တွေ့မြင်နိုင်သည်။ သို့မဟုတ်ပါက 
-    ကွန်ပျူတာကီးဘုတ်မှ CTRL + R ကိုတွဲနှိပ်လျက် အင်တာနက်စာမျက်နှာကို နောက်တစ်ကြိမ်ပြန်အသက်သွင်းပါ။ တခါတရံတွင် 
-    အသစ်ထည့်သွင်းလိုက်သော ပြောင်းလဲမှုများကို အလျဉ်းသင့်မဖော်ပြသည်ကိုတွေ့ရ တတ်သောကြောင့်ဖြစ်၏။
-- တည်းဖြတ်ပြောင်းလဲမှုကို ဖော်ပြရန်အတွက် မိနစ်အနည်းငယ်ကြာမြင့်တတ်သဖြင့် သင်၏တည်းဖြတ်မှုကို မတွေ့မြင်ရသေးလျှင် စိတ်မပူပါနှင့်။ - ပြင်ဆင်ဖြည့်စွက်မှုများမှန်၊မမှန်
-     JOSM ဆော့ဖ်ဝဲလ်တွင်ပြန်လည်စစ်ဆေးပါ။ 
-    ဆော့ဖ်ဝဲလ်တွင်မှန်ကန်စွာဖော်ပြထားပါက 
-    OpenStreetMap တွင်လည်း
-    မြင်တွေ့ရမည်ဖြစ်သည်။
+-   Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
+-   Move the map to the area that you edited.
+-   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the browser still shows the old version and needs to be reloaded.
+-   What if you don’t see your changes? Don’t worry - it may take a few minutes for the changes to be shown on the map. Also, check your additions in JOSM to make sure that you added them correctly. A good general rule is, if your point has an icon in JOSM, then it should be seen on the main map at the OpenStreetMap website.
 
 အကျဉ်းချုပ်ဖော်ပြချက်
 -------
-ယခုဆိုလျှင် မြေပုံတည်းဖြတ်ခြင်းနှင့် ပေါင်းထည့်သိမ်းဆည်းခြင်းကို လေ့လာခဲ့ပြီးဖြစ်သည်။ 
-မြေပြင်ပေါ်ရှိနေရာများကို 
-သွားလာရင်း အချက်အလက်စုဆောင်းခြင်း စသည့် 
-ကျန်သောကဏ္ဍများကို ဆက်လက်လေ့လာရပါဦးမည်။ 
+Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing is great, but it's not the only aspect of making maps. Of course you also need to learn how to go outside and collect information about places on the ground.
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png

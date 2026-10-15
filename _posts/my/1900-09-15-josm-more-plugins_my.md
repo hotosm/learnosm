@@ -9,7 +9,6 @@ category: josm
 JOSM ဆော့လ်ဖ်ဝဲလ်မှ Building Tools နှင့် Utilsplugin2 plugins တို့ကိုလေ့လာခြင်း
 ============
 
-> Reviewed 2016-09-12  
 
 ယခုသင်ခန်းစာတွင် JOSM ဆော့လ်ဖ်ဝဲလ်၏လုပ်ဆောင်မှုစွမ်းရည်ကိုဖြည့်စွက်တိုးမြှင့်ပေးသော plugins နှစ်မျိုး၏လုပ်ဆောင်မှုများကို အသေးစိတ်လေ့လာကြမည်ဖြစ်သည်။ ယင်းတို့မှာ**buildings_tools** နှင့် **utilsplugin2** တို့ဖြစ်ကြသည်။  
 
@@ -26,6 +25,8 @@ Buildings Tools plugin သည် ဒီဂျစ်တယ်နည်းပည�
 
 JOSM ဆော့လ်ဖ်ဝဲလ်ကိုဖွင့်ပြီး သင်ပုံဖော်ရေးဆွဲလိုသော အဆောက်အဦရှိရာနေရာကိုရယူပါ။  
 
+### Rectangular Buildings
+
 * building tool plugin ကိုရွေးချယ်ပြီး မြေပုံပေါ်တွင်မျဉ်းတစ်ကြောင်းရေးဆွဲရန်အတွက် ကလစ်နှစ်ကြိမ်နှိပ်ပါ။  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ JOSM ဆော့လ်ဖ်ဝဲလ်ကိုဖွင့်ပြီး �
 ![Extend building][]
 
 * ထိုနည်းအတိုင်းရေးဆွဲခြင်းသည် ထောင့်မှန် စတုဂံပုံတစ်ခုအလွယ်တကူပေါ်ထွက်လာရုံမျှမကဘဲ ပုံသဏ္ဍာန်အညွှန်းတွင်ပါ **အဆောက်အဦဖြစ်ကြောင်း (building=yes)** ကို အလိုအလျောက်ဖော်ပြပေးမည်ဖြစ်သည်။  
+
+### Circular Buildings
+
+* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+
+![Round building][]
 
 ### ဖွဲ့စည်းပုံရှုပ်ထွေးသော အဆောက်အဦများ
 
@@ -50,7 +57,7 @@ JOSM ဆော့လ်ဖ်ဝဲလ်ကိုဖွင့်ပြီး �
 
 Plugin တွင် မူရင်းပါအပြင်အဆင်များကိုလည်း မိမိနှစ်သက်သလိုပြောင်းလဲသတ်မှတ်နိုင်သည်။  
 
-* Data menu ရှိ Set building size ကိုသွားပါ။ ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * အရွယ်အစားတူသောအဆောက်အဦများကို ဖန်တီးရေးဆွဲလိုပါက အဆောက်အဦတို့၏ အလျား၊ အနံ တို့ကိုသီးသန့်ပိုင်းခြားသတ်မှတ်ပေးထားနိုင်သည်။ ဥပမာ။ ၆ x ၁၀ မီတာ (အကွာအဝေးအတိုင်းအတာကို မီတာဖြင့်သာဖော်ပြပါမည်။)  
 
@@ -80,7 +87,7 @@ Utilsplugin2 ကိုထည့်သွင်းပြီးနောက် JOS
 
     ![Nodes interesection][]
 
-၂။ **အညွန်းများကူးယူဖော်ပြခြင်း** ။ ။ အညွန်းကူးယူရာတွင်လွယ်ကူချောမွေ့စေသည်။ အညွှန်းဖော်ပြချက်တူညီသောအရာဝတ္ထုများကို ရေးဆွဲရန်အတွက် အရာဝတ္ထုများကို ဦးစွာရေးဆွဲပြီး အညွှန်းဖော်ပြချက်ကိုထည့်သွင်းရသည်။ အခြားအရာဝတ္ထုတစ်ခုကိုရွေးချယ်ထားပြီး Shift နှင့် R ခလုတ်များကိုတွဲနှိပ်ကာ ယခင်ရွေးထားသောအရာဝတ္ထုတစ်ခုထံမှအညွှန်းကူးယူပါ။ ယင်းလုပ်ဆောင်ချက်ကို အကြိမ်ရေအကန့်အသတ်မရှိအသုံးပြုနိုင်သည်။ အညွှန်းတပ်ပြီးသောအရာတစ်ခုဆီမှကူးယူရသည့်အတွက် အညွှန်းမတပ်ရသေးသော အရာများအကြားတွင်အသုံးမပြုနိုင်ကြောင်းသတိပြုရန်လိုအပ်သည်။  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 
@@ -119,4 +126,5 @@ Utilsplugin2 ကိုထည့်သွင်းပြီးနောက် JOS
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Round building]: /images/josm/buildings_tools-round.png
 

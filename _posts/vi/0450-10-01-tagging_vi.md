@@ -9,12 +9,13 @@ category: hot-tips
 Gắn Thẻ thông tin - iD editor
 ============
 
+> Updated 2019-06-28
+
 - TOC
 {:toc}
 
 ![tagging][]
 
-> This image ![keymon]{: height="24px"} chỉ ra các nút và thao tác chuột được sử dụng và dùng trên bàn phím.  
 
 Tại sao gắn thẻ lại cần thiết
 -------------------

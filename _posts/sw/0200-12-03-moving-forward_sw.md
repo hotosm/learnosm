@@ -1,80 +1,78 @@
 ---
 layout: doc
-title: Further Reading
+title: Kusoma Zaidi
 permalink: /sw/beginner/moving-forward/
 lang: sw
 category: beginner
 ---
 
-Kujifunza Zaidi
+Further Reading
 ===============
 
+> Reviewed 2020-05-08  
 
-Kama umefika mpaka hapa, hongera! Sasa utakuwa na uelewa mzuri jinsi gani ya kutengeneza ramani kwa OpenStreetMap.Vitu gani vingine  OSM inawez kufanya? Jinsi gani unaweza kuunganishwa na wanajamii wanaotengeneza ramani?
+If you have made it this far, congratulations! You should have a good understanding now of how to make maps with OpenStreetMap. What else can you do with OSM? How can you learn more? How can you stay connected to the community of mappers?  
 
- Sehemu nyingine ya JifunzeOSM
+Other sections of learnOSM
 ---------------------------
 
-At the end of the chapter on the iD editor you heard about the differences between iD and JOSM. 
-There is an [entire section devoted to JOSM](/en/josm/) where you will learn all the details necessary 
-to fully benefit from the capabilities this editor has to offer.
+At the end of the chapter on the iD editor you heard about the differences between iD and JOSM. There is an [entire section devoted to JOSM](/en/josm/) where you will learn all the details necessary to fully benefit from the capabilities this editor has to offer.  
 
-Mwisho wa hii sura ya iD editor umesikia kuhusu tofauti kati ya iD na JOSM. Pia kuna [sehemu yote imehamishiwa JOSM](/en/josm/) ambapo utajifunza mambo yote ya msingi ya kukuwezesha kufaidika na uwezo unaopatikana katika hii editor.
+So far, all the edits we added to the map were based on background imagery. But you can collect a wealth of information while walking or driving around. The [section on mobile mapping](/en/mobile-mapping/) explains how to collect information with different GPS-based devices or using specially designed printouts. It also reviews a number of OpenStreetMap-related applications for mobile devices.  
 
-Kwahiyo,mabadiliko yote yaliyoongezwa kwenye ramani yanategemea na picha ya anga. Lakini unaweza kukusanya taarifa nyingi ukiwa unatembea  au unaendesha gari. Hii [sehemu ya  mobile mapping](/en/mobile-mapping/) inaeleza jisi gani ya kukusanya taarifa tofauti na kifaa cha GPS au kwa kutumia vitu maalum vilivyotengenezwa.Pia inaonyesha njia mbalimbali za OpenStreetMap application kwa simu za mkononi. 
- 
-OpenStreetMap ni njia ya kushirikiana na tunaimani utakuwa sehemu ya waliochangia. Baadhi ya hizi juhudi ni za kujitolea chini ya [Humanitarian OSM Team](http://hotosm.org).Kama unapenda kusaidia HOT katika kazi za majanga kama vile Nepal earthquake tafadhali angalia [section on coordination](/en/coordination/). Inahusika na vifaa kuhakikisha kwamba watu wengi wanaweza kufanya kazi pamoja katika eneo dogo na kwa mpangilio unaofaa. Pia inakuwa na muongozo kwa baadhi ya kazi utakazokuwa unafanya unapoungana na hizi kazi.
+OpenStreetMap is a collaborative effort and we hope that you will be part of it. Some of these efforts are devoted to humanitarian relief under the auspices of the [Humanitarian OSM Team](http://hotosm.org). If you would like to help HOT on the occasion of a disaster such as the Nepal earthquake please see the [section on coordination](/en/coordination/). It deals with the tools which make sure that many people can work together on a relatively small area in a consistent manner. It also contains guidance on some typical tasks you will frequently encounter when joining these efforts.  
 
-Jifunze Zaidi
+
+Learn More
 ----------
 
-Kuna taarifa nyingi kuhusu OpenStreetMap zinapatikana katika [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Hapa unaweza kutafuta taarifa kuhusu miradi mingine inayoendana na OpenStreetMap, na document na tutorial ambazo zinasaidia kujifunza zaidi kuhusu OSM.
+There is a lot of information about OpenStreetMap available at [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Here you can find information about other projects that are related to OpenStreetMap, and documents and tutorials that can help you learn more about OSM.  
+
 ![Wiki][]
 
-<!--pia taarifa zaidi itapatikana hapa ikishaandaliwa  --> 
+<!-- also more info on this site once it is prepared -->
 
-Listi za Anwani za Barua pepe
+Mailing List
 ------------
 
-Njia bora yakujumuika na jumuiya ya watuamiaji wa OpenStreetMap ni kujiunganisha kwenye listi za anwani za barua pepe. Watu wengi wanajiunga kwa kutumia barua pepe zao kwenye listi hizi za OSM , hivi utakapojiunga na Listi hiyo utaweza kutuma barua pepe zako mbali mbali zenye maswali au michango kuhusu OpenStreetMap  kwa kundi hilo. 
+The best way to get connected to the OpenStreetMap user community is to join your local mailing list. Many people sign up, using their email accounts to the OSM mailing list. Once you are on the list, you can send an email to the group if you have a question or want to talk about OpenStreetMap.  
 
-- Kujiunga kwenye listi za barua pepe za watumiaji wa OpenStreetMap , fungua ukurasa ufuatao ukiwa kweny mtandao   
-    [lists.openstreetmap.org](http://lists.openstreetmap.org/).
+To sign up for your country's mailing list, open your internet browser and go to [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
 
 ![Mailing list][]
 
--  Utaona ukurasa hapo juu, tafuta listi ya nchi yako kwa kuperuzi kwa kupanda au kushuka kwenye ukurasa huu. Majina ya listi    za nchi husika huwa na mfumo kama “Talk-id”, ambapo neno “id” ni ufupisho wa nchi hiyo , ambapo kwa mfano huo ni listi ya    nchi ya Indonesia .
-  
--   Chagua listi unayotaka kujiunga nayo.
+Scroll down the page to find the list associated with your country. The country lists are named "Talk-lg", where lg represents the country of that list. For example, "Talk-id" is the list for Indonesia.  
 
--   Jaza taarifa husika kwenye viboksi vifuatavyo:
-
-    -   Barua pepe yako
-    -   Jina lako la kwanza
-    -   Nenosiri jipya
-    -   Rudia nenosiri
-
--   Ukishamaliza bonyeza kitufe SUBSCRIBE, ili kujiunga.
-
--   Sasa fungua barua pepe yako, kama ulivyofanya ulipojiunga na OpenStreetMap.Kutakua na barua pepe kutoka kwenye Listi         za barua pepe ulizochagua ili uthibitishe.
-
--   Bonya linki utakayoiona, ili kuhakiki na kukubali kuunganisha na Kundi listi hilo la barua pepe za Openstreetmap kwa        nchi uliyochagua.
-
--   Sasa utakuwa  mwanachama  wa listi hiyo. 
--   Sasa ukitaka kutuma barua pepe kwenye listi hiyo, tuma kwa anuani          [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), ukibadilisha “id” na ufupisho wa nchi husika, pia na wewe utapata barua pepe kutoka kwa wanachama wengine wanaotuma barua pepe kwenye kundi hilo.
+- Click on the list you want to join.  
+- Enter the following information in the boxes on this page:  
+    +  your email address  
+    +  your first name  
+    +  a new password  
+    +  repeat the password  
+- When you are finished, click Subscribe.
+- Now you need to open your email, just as you did when you signed up for OpenStreetMap. There will be a confirmation email in your inbox from the mailing list.  
+- Click on the confirmation link.  
+- You should now be a member of the mailing list.  
+- Now when you want to send a message to the list, you can send it to [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), replacing "id" with the country for your list. You will also receive emails when other members send a message to the list.  
 
 
-<!-- maybe expand and put this back later
-MapOSMatic
+Example of OSM use - MyOSMatic
 ----------
-Moja kati ya miradi inaitwa MapOSMatic, ambapo unaweza kufuatilia kwa mtandao katika [maposmatic.org](http://www.maposmatic.org/). Hapo kuna vifaa rahisi kwa ajili ya kuprint katika ramani kwa eneo lolote utakalochagua. Hii moja kwa moja itatengeneza ramani, pamoja na grid katika ramani, na eneo la index litaonekana katika eneo. 
-![MapOSMatic][]
--->
 
-Ufupisho.
+One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
+
+![MyOSMatic][]
+
+
+Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
+
+
+Summary
 -------
-Hizi ni baadhi ya njia unaoweza kuzitumia kujifunza zaidi na kuendelea kuwa karibu na jumuiya ya OpenStreetMap. Tunatumai utaendelea kudadisi na kujifunza zaidi kuhusu OSM na kuendelea kuchangia mradi huu. Tunakutakia uchoraji mwema wa ramani zako!
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+These are some of the ways that you can use and stay connected with the OpenStreetMap community and learn more. We hope you'll continue exploring and learning more about OSM, and contribute to the project. Happy Mapping!
+
+
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

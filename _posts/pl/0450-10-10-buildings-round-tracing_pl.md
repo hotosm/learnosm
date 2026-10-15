@@ -9,19 +9,20 @@ category: hot-tips
 Rysowanie okrągłych budynków - edytor iD
 ============
 
+> Updated 2019-06-24
+
 - TOC
 {:toc}
 
 Podstawy
 ----------
 
-![Round Buildings][]  
+![Round Buildings][]
 
-> Ten obrazek ![keymon]{: height="24px"} pokazuje, które przyciski lub kółko myszki zostały użyte i które klawisze były naciśnięte.  
 
 Do zanotowania;  
 
-- Umieść punkty w miejscach, gdzie ściany dotykają gruntu - minimum 3. Użyj narzędzia do utworzenia okręgu.  
+- Place your points where the walls will reach the ground - 3 points is the minimum. Double click on the last point to finish tracing an area. Use the tool to make it round - shortcut **o** in English.  
 - Upewnij się, że dodałeś tagi!  
 - Rozmiar ma znaczenie - *szacowanie zaludnienia opiera się na zsumowanej powierzchni budynków w danym obszarze*.  
 - Przybliż widok tak, aby zobaczyć szczegóły - stopień przybliżenia około 20 metrów lub mniej jest zazwyczaj odpowiedni.  
@@ -29,6 +30,16 @@ Do zanotowania;
 - Budynki i drogi, rzeki, granice **landuse=residential** lub inne obiekty nie powinny się pokrywać.  
 - Jeśli zrobisz błąd, użyj przycisku **Cofnij** ![back arrow]{: height="26px"}, aby wycofać swoją ostatnią zmianę(zmiany).  
 - Wszyscy ulepszamy mapę. Jeżeli poprzedni maper zostawił budynki o śmiesznych kształtach lub w jakiś sposób błędne, popraw je i rozważ wysłanie mu grzecznej wiadomości.  
+
+Building - converting square to round
+-------------------------------------
+
+![Square to round][]  
+
+If a building has been traced as rectangular, but you can see it should be round it is easy to convert to a round building;
+
+- move each of the corners so they are now on the perimeter of the round building,
+- right click and use the circularise tool, or shortcut **o** - may be a different character in other languages.  
 
 Identyfikacja
 ---------------
@@ -57,6 +68,7 @@ Zobacz również
 
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "Przykład mapowania okrągłego budynku"
+[Square to round]: /images/hot-tips/square-round-building.gif "Demonstrating changing a square to round building"  
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Okrągły budynek obok krzaków"
 [back arrow]: /images/beginner/back-arrow.png "Cofnij"
 [building-video]: /images/hot-tips/building-video.png "Samouczki wideo Humanitarian OpenStreetMap Team - Dodawanie budynku do OpenStreetMap"

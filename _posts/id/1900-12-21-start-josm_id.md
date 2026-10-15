@@ -8,254 +8,154 @@ published: true
 ---
 
 Memulai JOSM
-=============================  
+=============================
 
-> Reviewed 2015-07-12  
 
-Cara mendownload dan menginstal JOSM, Java OpenStreetMap editor, mengubah beberapa pengaturan, membuka peta contoh dan
-belajar beberapa dasar pengoperasian software. Ingat pada 
-bagian pengenalan ketika kita meminta Anda untuk menggambar peta kota Anda
-desa? Kita akan merampungkan bagian ini dengan menggambar peta Anda lagi, kali
-ini secara digital. Setelah ini Anda seharusnya telah memiliki pemahaman bagaimana 
-menggambarkan peta di JOSM.
+How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and learn some of the basic operations of the software. Remember in the introduction chapter when we asked you to draw a map of your town or village? We will conclude this chapter by drawing your map again, this time digitally. After this you should have a good understanding of how to draw maps in JOSM.
 
 Download JOSM
 -------------
 
-- Jika Anda mempunyai file instalasi JOSM di CD atau flash disk, silakan Anda lewati
-  ke bagian selanjutnya, Instalasi JOSM.
-- Jika Anda tidak mempunya JOSM, atau menginginkan JOSM versi terbaru, buka
-  browser - bisa Firefox, Chrome, Opera, atau Internet
-  Explorer.
-- Pada address bar di sebelah atas layar, silakan ketik
-  teks berikut dan tekan Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
-- Anda juga dapat menemukan website JOSM dengan mencarinya di internet dengan kata kunci "JOSM".
-- Website nya akan terlihat seperti berikut:
+- Jika Anda tidak mempunya JOSM, atau menginginkan JOSM versi terbaru, buka web browser Anda.
+-   In the address bar at the top of the window, enter the following text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
+-   You can also find the JOSM website by searching the internet for “JOSM”.
+-   The website should look something like this:
 
-  ![JOSM website][]
+    ![JOSM website][]
 
-- Jika Anda memiliki sistem operasi Windows di komputer ANda, klik "Windows Installer" untuk mendownload JOSM.
+-   If you have Windows installed on your computer, click “Windows Installer” to download JOSM.
 
-  ![Windows installer][]
+    ![Windows installer][]
 
-- Jika Anda memiliki sistem
-  operasi lain, klik pada link sesuai sistem operasi Anda. Unduhan Anda seharusnya 
-  mulai. Pada bagian ini kita asumsikan bahwa Anda semua menggunakan Windows,
-  tapi instruksinya kurang lebih sama untuk sistem operasi lain.
+-   If you have a different operating system, click on the link for your system. Your download should begin. In this chapter we will assume that you are using Windows, but the instructions are similar for other operating systems.
 
 Install JOSM
 ------------
 
-> Anda mungkin memiliki masalah saat instalasi JOSM jika Java Anda belum tersedia
-> di komputer Anda. Jika Anda memiliki masalah di bagian ini, 
-> coba download dan instal Java. Anda dapat mendownloadnya disini:
->  [http://www.java.com/en/download/](http://www.java.com/en/download/)
+>  You may have problems installing JOSM if Java is not already installed on your computer. If you have problems in this section, try downloading and installing Java. You can download it here: <http://www.java.com/en/download/>
+>
+>  Mac users may have old versions of Java. Please see <http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> for options for OSX 10.6 and 10.7.3+
 
->  Pengguna Mac mungkin memiliki Java versi terdahulu. Silakan lihat [http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation) for options for OSX 10.6 and 10.7.3+
+-   Find the JOSM install file on your computer. Double-click it to begin setup.
+-   Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation is complete, click ‘Finish’ to launch JOSM for the first time. Later, when you want to start JOSM, you can do so by clicking on the Start Menu in the lower left corner of your computer, and clicking the program JOSM.
+-   You may see a window pop up that asks if you want to update the software.  You don’t need to update it since it is new.  Press the button that says “Cancel.”  If you don’t ever want to see this message again, check the box at the bottom before pressing “Cancel.”
+-   When JOSM starts, it will look something like this:
 
-- Cari file instalasi JOSM di komputer Anda. Klik dua kali di file tersebut untuk
-  memulai pengaturan.
-- Klik ‘OK’, ‘Next’, ‘I Agree’, dan ‘Install’. Ketika instalasi
-  selesai, klik 'Finish' untuk menjalankan JOSM pertama kali.
-  Nanti, pada saat Anda ingin menjalankan JOSM, Anda dapat melakukannya dengan mengklik pada
-  Menu Start di sebelah kiri bawah layar komputer ANda, dan klik
-  program JOSM.
-- Anda mungkin melihat satu jendela muncul yang menanyakan apakah Anda ingin melakukan update
-  software. Anda tidak perlu melakukannya karena software Anda sudah yang paling baru. Tekan 
-  tombol "Cancel." Jika Anda tidak ingin melihat
-  pesan in lagi, centang kotak di sebelah bawah sebelum menekan tombol "Cancel."
-- Ketika JOSM terbuka, akan terlihat seperti ini:
-
-  ![JOSM splash page][]
+    ![JOSM splash page][]
 
 Pengaturan JOSM
---------------------
+----------------
 
-Terdapat banyak sekali pengaturan yang dapat Anda ubah di JOSM. 
-Salah satu pengaturan yang mungkin ingin Anda ubah adalah pengaturan bahasa. JOSM telah
-diterjemahkan ke dalam banyak bahasa, dan Anda mungkin lebih memilih untuk 
-menggunakan JOSM dengan bahasa lain.
+There are many different settings that you can customize in JOSM.  One setting that you may want to adjust is the language. JOSM has been translated into numerous languages, and you may prefer to work in a different one.
 
-- Untuk mengakses jendela Preferences, klik Edit -\> Preferences.
+-   To access the Preferences window, click Edit -> Preferences.
 
-  ![Preferences window][]
+    ![Preferences window][]
 
-- Di sisi sebelah kiri, klik simbol yang terlihat seperti kaleng cat dan 
-  kuas.
-- Di jendela sebelah atas, klik tab yang bertuliskan "Look and Feel".
-- Pilih bahasa yang diinginkan di dropdown box yang berada di sebelah tulisan
-  “Language”.
-  
-  ![Look and feel][]
+-   On the left side, click the language tab.
+-   Choose your language in the dropdown box next to the word “Language”.
 
-- Klik OK.
-- Anda harus memulai ulang atau merestart JOSM untuk menyimpan pengaturan tersebut. Klik "File" di sebelah 
-  sudut kiri atas, Klik "Restart" di sebelah bawah.
+    ![language][]
+
+-   Click OK.
+-   You need to restart JOSM to save your settings. Choose the respective option from the message box.
 
 Belajar Dasar-Dasar Menggambar menggunakan JOSM
 -----------------------------
 
-- Sekarang mari buka cointoh data OSM yang akan kita gunakan untuk belajar
-  cara sederhana menggambar peta dengan JOSM. Ingat bahwa peta ini tidak nyata, 
-  bukan lokasi yang sesungguhnya, jadi kita tidak akan menyimpannya. 
-  di OpenStreetMap.
-- Download file tersebut disini: [sample.osm](/files/sample.osm)
-- Sekarang buka file contoh peta tersebut di JOSM. Klik
-  "Open" di sebelah kiri atas. 
+-   Now let’s open up a sample OSM file which we will use to learn the basic ways to draw maps with JOSM. Note that this map is not real, in that it is not a real map of a real place, so we will not save it on OpenStreetMap.
+-   Download the file here: [sample.osm](/files/sample.osm)
+-   Now let’s open the sample map file in JOSM. Click the “Open” button in the upper left.
 
-  ![Open file][]
+    ![Open file][]
 
-- Cari file **sample.osm**. Mungkin file tersebut berada di folder Download, 
-  kecuali jika Anda menyimpannya di tempat lain. Klik file tersebut, lalu klik "Open".
-- Anda seharusnya saat ini dapat melihat tampilan peta seperti ini:
+-   Find the file **sample.osm**. It is probably in your Downloads folder, unless you saved it somewhere else. Click on it, and then click “Open”.
+-   You should now see a sample map that looks like this:
 
-  ![Sample file][]
+    ![Sample file][]
 
-- Anda menggunakan data ini untuk mempelajari berbagai teknik editing.
-  *Anda tidak diperbolehkan untuk mengupload seluruh data buatan ini ke dalam database.*
+-   You will use these data in order to try various editing techniques. _You must however never upload these fictitious data to the database._
 
 ### Pengoperasian Dasar
 
-- Untuk menggeser peta ke kiri atau ke kanan, ke atas atau ke bawah, klik kanan dan tahan tombol 
-  mouse, dan geser mouse Anda. 
-- Terdapat beberapa cara untuk memperbesar dan memperkeil peta. Jika Anda memiliki
-  mouse, Anda dapat menggunakan roda gulir atau scroll wheel untuk memperbesar dan memperkecil tampilan. Jika Anda
-  menggunakan laptop dan tidak memiliki mouse, Anda dapat memperbesar dan memperkecil peta menggunakan
-  skala bar yang ada di sebelah kiri atas layar. Geser skala bar tersebut ke kiri
-  dan ke kanan dengan menekan dan tahan tombol klik kiri muse dan geser skala bar tersebut ke kiri atau 
-  ke kanan dengan mouse. 
+-   To move the map left or right, up or down, hold your right mouse button down, and move your mouse.
+-   There are several ways to zoom in and out of the map. If you have a mouse, you can use your scroll wheel to zoom in and out. If you are using a laptop and don’t have a mouse, you can zoom in and out using the scale bar in the upper left of the map window. Drag the bar left and right by holding your left mouse down and moving the bar left or right with your mouse.
 
-  ![Scale bar][]
+    ![Scale bar][]
 
-- Lihat pada contoh peta. Terdapat beberapa tipe objek yang berbeda. 
-  Ada sungai, hutan, beberapa bangunan, jalan, dan
-  beberapa toko. Untuk memilih objek, klik objek tersebut dengan tomol klik kiri
-  mouse Anda.
+-   Look at the sample map. There a few different types of objects here. There is a river, a forest, some buildings, several roads, and a couple of shops. To select an object, click on it with your left mouse button.
 
 ### Titik, Garis, dan Poligon
 
-- Pada saat Anda mengklik objek yang berbeda di peta contoh, perhatikan bahwa terdapat
-  tiga tipe objek pada peta. Ada titik, 
-  garis, dan poligon.
-- Titik adalah lokasi tunggal, direpresentasikan oleh simbol. Pada peta
-  contoh, terdapat dua titik, sebuah toko sepatu dan supermarket. 
-  Toko sepatu direpresentasikan dengan simbol sepatu dan supermarket 
-  direpresentasikan oleh simbol keranjang belanja.
-- Terdapat juga beberapa garis di dalam peta, yang merepresentasikan jalan.
-  Jika Anda lihat lebih dekat Anda akan melihat bahwa di dalam garis tersebut, juga terdapat
-  titik. Titik-titik ini tidak memiliki simbol atau informasi
-  lain yang berasosiasi dengannya, tapi titik-titik tersebut membantu mendefinisikan dimana
-  garis tersebut berada.
-- Terakhir, terdapat beberapa poligon di peta contoh, merepresentasikan 
-  tempat yang berbeda - hutan, sungai, taman, dan bangunan. Poligon
-  digunakan untuk merepresentasikan area, seperti lapangan atau bangunan. Poligon
-  sama seperti garis - perbedaannya hanyalah titik awal 
-  dan titik akhir harus bertemu. 
+-   As you click different objects on the sample map, notice that there are three different types of objects on the map. There are points, lines, and shapes.
+-   Points are a single location, represented by symbols. On this sample map, there are two points, a shoe shop and a supermarket. The shoe shop is represented by a shoe symbol, and the market is represented by a shopping cart.
+-   There are several lines on the map as well, which represent roads. If you look closely you will see that within the lines, there are points as well. These points don’t have any symbols or other information associated with them, but they help to define where the line is located.
+-   Lastly, there are numerous shapes on the sample map, representing different places - a forest, a river, a park, and buildings. A shape is used to represent an area, like a field or a building. A shape is exactly like a line - the only difference is that the line begins at the same point where it ends.
 
-> Sangat mudah untuk berfikir bahwa sebuah peta terdiri dari ketiga tipe objek dasar -  
+> Sangat mudah untuk berfikir bahwa sebuah peta terdiri dari ketiga tipe objek dasar - 
 > titik, garis, dan poligon. Di OpenStreetMap terdapat terminologi khusus
 > dimana Anda akan memahaminya seiring Anda berproses. Di OSM, titik biasanya disebut
 > **nodes**, dan garis disebut **ways**. Poligon disebut **closed way**
 > karena poligon sebenarnya adalah garis yang tertutup di titik awal dan akhir garisnya. 
 
-- Anda mungkin menyadari ketika Anda memilih suatu objek, muncul sebuah daftar di 
-  sebelah kanan peta di jendela yang disebut "Properties". Hal ini disebut sebagai 
-  tag. Tag merupakan informasi pada titik, garis atau poligon 
-  yang mendeskripsikan apa objek tersebut. Kita akan mempelajari lebih lanjut mengenai tag di bagian
-  berikutnya. Saat ini yang perlu Anda ketahui adalah 
-  informasi ini membantu untuk mendeskripsikan apakah objek yang kita gambar sebuah hutan, sungai,
-  bangunan, atau hal lain.
-- pikirkan apabila Anda menggambar peta dengan tangan, dan Anda juga menggambarkan 
-  titik, garis, dan poligon di dalamnya. Tempat apa lagi yang sebaiknya dilambangkan dengan
-  titik? Garis? Poligon?
+-   You may notice that when you select an object, a list appears to the right of the map in a window called “Properties”. These are known as tags. Tags are information that is tied to a point, line or shape that describes what it is. We’ll learn more about tags in a later chapter. For now all you need to know is that this information helps describe whether our object is a forest, a river, a building, or something else.
+-   Think about drawing a map by hand, and how you are also drawing points, lines, and shapes. What other places are best represented by points? Lines? Shapes?
 
 ### Mengubah Objek
 
-- Pilih objek hutan di sisi sebelah kiri peta. Pastikan untuk mengklik pada
-  garis objek hutan, bukan pada titik garisnya. Sekarang
-  klik kiri dan tahan mouse Anda lalu geser. Anda seharusnya 
-  dapat memindahkan objek hutan ke lokasi baru pada peta. 
-- Klik pada salah satu titik yang ada di garis objek hutan. Klik kiri 
-  dan tahan tombol klik kiri dan geser mouse Anda. Anda seharusnya dapat
-  menggeser titiknya. Ini menunjukkan bahwa Anda dapat mengubah bentuk dari suatu objek, 
-  atau memindahkan sebuah titik. 
+-   Select the forest on the left side of the map. Be sure to click on the line around the forest, not one of the points on the line. Now hold your left mouse button down and drag your mouse. You should be able to move the forest to a new location on the map.
+-   Click on one of the points on the line around the forest. Hold your left mouse button down and drag your mouse. You should be able to move the point. This is how you can change the shape of an object, or move a point.
 
 ### Menggambar
 
-- Pada sisi kiri JOSM terdapat beberapa tombol. Banyak tombol
-  ini membuka jendela baru di sebelah kanan layar yang menyediakan informasi
-  tambahan mengenai peta. Tombol-tombol yang paling penting, biar bagaimanapun, adalah
-  tombol-tombol yang berada di bagian atas. Tombol-tombol ini akan mengubah 
-  mouse Anda. 
-- Tombol di bagian atas kolom adalah tombol-tombol yang akan paling sering Anda gunakan. 
-  Tombol-tombol ini digunakan memilih objek dan menggambar objek baru. 
-- Sampai sekarang, Anda telah menggunakan Select tool, yang terlihat seperti
-  ini:
+-   On the left side of JOSM is a column of buttons. Many of these buttons open new windows on the right side that provide more information about the map. The most important buttons, however, are at the top of these column. These buttons change what you can do with your mouse.
+-   The top buttons in this column are the ones you will use the most. They are used for selecting objects and for drawing new ones.
+-   Until now, you have been using the Select tool, which looks like this:
 
-  ![Select tool][]
+    ![Select tool][]
 
-- Sebelum Anda menggambar, Anda harus memastikan tidak ada objek yang sedang terpilih.
-  Klik di area kosong pada peta, yang kosong, untuk memastikan
-  tidak ada objek yang terpilih.
-- Klik pada tombol kedua, Draw tool.
+-   Before you draw, you need to make sure that nothing is selected. Click in the black space on the map, where it is empty, to make sure nothing is selected.
+-   Click on the second button, the Draw tool.
 
-  ![Draw tool][]
+    ![Draw tool][]
 
-- Cari area kosong pada peta, dan klik dua kali dengan mouse Anda.
-  Ini akan menghasilkan gambar titik tunggal.
-- Untuk menggambar garis, klik satu kali dengan mouse Anda. Gerakkan mouse Anda dan
-  Klik lagi. Lanjutkan hingga Anda merasa cukup puas dengan hasil garis Anda. Untuk mengakhiri
-  garis, klik dua kali menggunakan mouse Anda. 
-- Menggambar poligon sama dengan menggambar garis, namun sempurnakan bentuk area 
-  dengan klik dua kali pada titik dimana Anda mulai menggambar.
+-   Find an empty area on the map, and double-click with your mouse. This will draw a single point.
+-   To draw a line, single-click with your mouse. Move your mouse and click again. Continue until you are happy with your line. To end the line, double-click your mouse.
+-   Draw a shape the same way that you draw a line, but finish the shape by double-clicking on the point where you started the line.
 
 ### Menambahkan Preset
 
-- Sekarang kita tahu bagaimana cara menggambarkan titik, garis dan poligon, tapi kita
-  belum mendefinisikan informasi objek tersebut. Kita perlu mengidentifikasi apakah 
-  titik yang kita gambar adalah toko, sekolah, atau hal lain, dan apakah
-  poligon kita adalah lapangan, bangunan, atau hal lain.
--Klik pada Select tool, di kolom tombol sebelah kiri.
+-   Now we know how to draw points, lines and shapes, but we still haven’t defined what they represent. We want to be able to say that our points are shops, schools, or something else, and whether our shapes are fields, buildings, or something else.
+-   Click on the Select tool, in the column of buttons on the left.
 
-  ![Select tool][]
+    ![Select tool][]
 
-- Pilih salah satu objek yang Anda gambar tadi menggunakan Draw tool. Pada
-  menu bagian atas, klik "Presets". Gerakkan mouse Anda ke bagian sub-menu
-  dimana Anda ingin mendefinisikan objek Anda sebagai apa. 
-- Ketika Anda klik preset, sebuah form isian akan muncul dan menanyakan informasi lebih
-  detil. Anda tiak perlu mengisi semua bagian, tapi mungkin Anda 
-  ingin mengisi beberapa bagian penting seperti nama
-  objek.
-- Ketika Anda selesai mengisi informasi, klik "Apply
-  Preset". Jika semuanya benar, titik, garis, atau poligon Anda akan
-  berganti warna atau menunjukkan simbol. Ini disebabkan Anda telah mendefinisikan 
-  objek apakah itu.
+-   Select one of the objects that you drew with the Draw tool. On the top menu, click “Presets”. Move your mouse through the sub-menu to the type of location you would like to define.
+-   When you click on a preset, a form will pop up asking you for more information. You do not have to fill in every field, but you may wish to add some of the important fields, such as the name of the object.
+-   When you are finished entering the information, click “Apply Preset”. If everything went well, your point, line, or shape should change colors or show a symbol. This is because you have defined what it is.
 
 Menggambar Peta Anda Sendiri
 -----------------
 
-- Sekarang mari menggambar peta untuk berlatih teknik yang telah Anda
-  pelajari.
-- Geser peta menjauhi peta contoh. Klik kanan dan tahan 
-  dan geser mouse Anda, hingga Anda mempunyai area kosong untuk digambar.
-- Gunakan Draw tool untuk menggambar titik, garis, dan poligon. Deskripsikan apa
-  yang Anda gambar dengan memilihnya dari menu Presets.
-- Ketika Anda selesai, Anda seharusnya telah memiliki peta Anda sendiri, sama seperti
-  peta contoh yang kita bubka di sample.osm.
+-   Now let’s draw a map in order to practice the techniques you have learned. You may wish to redraw the map that you drew on paper previously.
+-   Drag the map away from the sample map. Hold the right mouse button and drag your mouse, until you have a nice empty area to draw on.
+-   Use the Draw tool to create points, lines, and shapes. Describe what your objects are by selecting from the Presets menu.
+-   When you are finished, you should have your own map, similar to the sample map that we opened in sample.osm.
 
-## Menghilangkan layer contoh
+Remove the sample layer
+-----------------------
 
 Ketika Anda telah menguasai teknik dasar editing Anda mungkin ingin 
-lebih fokus untuk memetakan objek nyata. 
+lebih fokus untuk memetakan objek nyata.
 
-*Sangat penting bagi Anda untuk menghapus layer yang berisi data contoh. 
-Data-data ini adalah data fiktif dan tidak diperbolehkan untuk diupload ke database 
-OpenStreetMap (versi JOSM terbaru secara otomatis mencegah hal ini).*
+_It is very important that you first remove the layer with the sample data.
+Data-data ini adalah data fiktif dan tidak diperbolehkan untuk diupload ke database
+database (newer JOSM releases automatically prevent this)._
 
-Di jendela Layer di sebelah kanan atas layar pilih layer sample.osm. 
-Lalu klik tombol dengan gambar tempat sampah di sebelah kanan bawah jendela tersebut. 
-Sebagi alternatif Anda dapat menghapus menggunakan context menut di bagian layer. 
-Untuk melanjutkan editing Anda perlu mendownload data asli. 
+Di jendela Layer di sebelah kanan atas layar pilih layer sample.osm.
+Lalu klik tombol dengan gambar tempat sampah di sebelah kanan bawah jendela tersebut.
+Sebagi alternatif Anda dapat menghapus menggunakan context menut di bagian layer.
+Untuk melanjutkan editing Anda perlu mendownload data asli.
 Hal ini akan dijelaskan di bab berikutnya.
 
 Ringkasan
@@ -265,13 +165,22 @@ Luar biasa! Jika segalanya berjalan baik Anda telah berhasil mempelajari bagaima
 komputer Anda, dan alat-alat dasar untuk menggambar peta. Di bab selanjutnya kita akan 
 melihat lebih dekat pada proses editing peta OSM menggunakan JOSM.
 
-[JOSM website]: /images/josm/josm-website.png
-[Windows installer]: /images/josm/windows-installer.png
-[JOSM splash page]: /images/josm/josm-splash-page.png
-[Preferences window]: /images/josm/josm_preferences.png
-[Look and feel]: /images/josm/josm_look-and-feel.png
-[Open file]: /images/josm/josm_open-file.png
-[Sample file]: /images/josm/josm_sample-file.png
-[Scale bar]: /images/josm/josm_scale-bar.png
-[Select tool]: /images/josm/josm_select-tool.png
-[Draw tool]: /images/josm/josm_draw-tool.png
+[josm website]: /images/josm/josm-website.png
+
+[windows installer]: /images/josm/windows-installer.png
+
+[josm splash page]: /images/josm/josm-splash-page.png
+
+[preferences window]: /images/josm/josm_preferences.png
+
+[language]: /images/josm/josm_language.png
+
+[open file]: /images/josm/josm_open-file.png
+
+[sample file]: /images/josm/josm_sample-file.png
+
+[scale bar]: /images/josm/josm_scale-bar.png
+
+[select tool]: /images/josm/josm_select-tool.png
+
+[draw tool]: /images/josm/josm_draw-tool.png

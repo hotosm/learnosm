@@ -1,194 +1,52 @@
 ---
 layout: doc
-title: Utiliser l'imagerie aérienne
+title: Aerial Imagery
 permalink: /fr/josm/aerial-imagery/
 lang: fr
 category: josm
-otherguides: "Les autres niveaux"
 ---
 
-Utiliser l'imagerie aérienne
-============================
+Imagerie aérienne
+================
 
-Tracer à partir d'images aériennes est un moyen simple et efficace de
-contribuer à OSM. Si la résolution est élevée et que le ciel est clair,
-c'est un bon moyen pour mettre en place le squelette de la carte OSM. C'est
-une étape très utile, qui rend plus facile la vérification et la collecte
-des données sur le terrain. 
+> Révisé le 21 septembre 2015  
 
-Néanmoins, utiliser les images aériennes demande quelques précautions pour
-ne pas tracer les objets au mauvais endroit. En particulier, deux aspects
-doivent être considérés avec attention:
+Le traçage de l'imagerie est un moyen facile et puissant de contribuer à OSM. L'utilisation de l'imagerie pour dessiner des points, des lignes et des surfaces sur le terrain est appelée **digitalisation**. Elle peut souvent être séparée de l'acte de collecte des données d'attributs sur le terrain, qui est souvent appelé **vérification au sol**. La numérisation de l'imagerie peut fournir le squelette des cartes OSM, ce qui facilite la vérification au sol pour les personnes sur le terrain. Dans ce chapitre, nous allons en apprendre un peu plus sur le fonctionnement de l'imagerie aérienne.  
 
-1.  La résolution: la résolution détermine la précision d'une image, en 
-    d'autres termes le nombre de pixels qui la composent. Un pixel 
-    représente la plus petite unité d'une image. Plus le pixel est petit, 
-    plus la résolution est élevée. De plus petits pixels permettent de mieux
-    distinguer les objets au sol, comme le montre l'infographie ci-dessous.
-    Sur la gauche, une image de basse résolution, donc moins de pixels. 
-    Distinguer la pièce de puzzle n'est pas évident puisque l'image est
-    presque entièrement recouverte par sa représentation. De son côté,
-    l'image de droite, de haute résolution, a un pixel plus petit, 
-    permettant de mieux distinguer les contours de la pièce de puzzle.
-    Avec OSM, vous utiliserez généralement des images de haute
-    résolution. Les images provenant des satellites civils ont une
-    résolution inférieure à "1 mètre", ce qui veut dire que chaque pixel
-    représente un carré d'un mètre carré. C'est pas mal!
+A propos de l'imagerie
+-------------
 
-    ![puzzle][]
+L'imagerie aérienne est le terme que l'on utilise pour décrire les photographies qui sont prises depuis le ciel. Elles peuvent être prises à partir d'avions, de drones, d'hélicoptères ou même de cerfs-volants et de ballons, mais la source la plus courante d'imagerie provient de satellites en orbite autour de la Terre.  
 
-2.  Le géoréférencement: le géoréférencement représente l'alignement de
-    l'image, ou en d'autres termes les pixels de l'image sont proches
-    des points correspondants sur le terrain. C'est un processus complexe,
-    et plus le terrain a de variation et de relief, plus le géoréférencement
-    sera complexe. Les satellites sont à des centaines de kilomètres de la
-    surface de la Terre, et leurs photos "aplatissent" une planète ronde,
-    ce qui conduit forcément à des distorsions et des décalages. Les
-    décalages sont particulièrement visibles quand on peut passer d'une
-    image à une autre couvrant la même zone, par exemple en zoomant ou
-    dézoomant. Pouvez-vous percevoir des variations dans les objets
-    affichés?
+[Dans le chapitre sur le GPS](/fr/mobile-mapping/using-gps), nous avons découvert les dizaines de satellites en orbite autour de la Terre qui permettent à nos récepteurs GPS d'identifier notre latitude et notre longitude. En plus de ces satellites GPS, il existe également des satellites qui prennent des photos de la Terre. Ces photos sont ensuite manipulées pour pouvoir être utilisées dans des logiciels SIG (cartographie). L'imagerie aérienne de Bing est constituée de photos satellites.  
 
-Pour mieux comprendre pourquoi il y a des décalages, vous pouvez faire
-l'expérience suivante: prenez la photo d'une statue et essayez de la
-déformer pour lui donner la forme de la statue. C'est en gros ce en quoi
-consiste le géoréférencement.
+Résolution
+----------
 
-Heureusement, la précision des instruments des satellites va en s'améliorant
-et donc la résolution est toujours plus élevée (l'unité est souvent en
-centimètres). D'un autre côté, le géoréférencement souffre encore d'un
-manque de précision, ce qui fait que la résolution des images finales est
-toujours supérieure à un mètre. Un géoréférencement de 5 à 10 mètres est
-considéré de bonne qualité.
+Toutes les photographies numériques sont composées de pixels. Si vous zoomez de très près sur une photographie, vous remarquerez que l'image commence à devenir floue, et vous finirez par voir qu'une image est constituée de milliers de petits carrés de couleur différente. Cela est vrai, que la photographie soit prise avec un appareil photo portatif, un téléphone portable ou un satellite en orbite autour de la Terre.  
 
-Si vous voulez cartographier avec précision une zone en utilisant les images
-satellite, ayez en tête que leur résolution n'est pas le seul paramètre
-qui permet un positionnement précis. Presque tous les objets de la carte
-sont décalés par rapport à leur réelle position.
+![Image resolution][]
 
-Des méthodes permettent de réduire l'imprécision des images aériennes. Elles
-dépendent de deux principaux cas de figure:
+La résolution fait référence au nombre de pixels de largeur par le nombre de pixels de hauteur d'une image. Plus il y a de pixels, plus la résolution est élevée, ce qui signifie que vous êtes en mesure de voir plus de détails dans la photographie. La résolution des appareils photo portatifs est souvent mesurée en mégapixels. Plus votre appareil est capable d'enregistrer de mégapixels, plus la résolution de vos photos est élevée.  
 
-1. vous cartographiez une zone qui a déjà été en partie cartographiée dans
-OSM
+L'imagerie aérienne est identique, sauf que nous parlons généralement de résolution différemment. La mesure est importante avec les photographies aériennes - ainsi, un pixel représente une certaine distance sur le sol. Nous décrivons généralement l'imagerie comme une "imagerie de résolution de deux mètres", ce qui signifie qu'un pixel équivaut à deux mètres sur le sol. Les images d'un mètre de résolution ont une résolution plus élevée que cela, et celles de 50 cm sont encore plus élevées. Il s'agit généralement de la gamme d'images fournies par Bing, bien qu'elle varie d'un endroit à l'autre. Dans de nombreux endroits, la résolution est inférieure à deux mètres, et il devient alors difficile d'identifier les objets sur l'image.  
 
-2. vous cartographiez une zone pour laquelle aucune donnée n'existe dans OSM
+![Comparison of low and high resolution imagery][]
 
+Plus la résolution d'une image aérienne est élevée, plus elle est facile à utiliser pour la réalisation de cartes.  
 
-Gérer l'alignement quand il y a déjà des données dans OSM
----------------------------------------------------------
+Géoréférencement
+---------------
 
-Parfois, après avoir chargé les données OSM, ajouté les images aériennes, et
-zoomé jusqu'à la meilleure résolution, vous réalisez que les données d'OSM,
-en particulier les routes, ne sont pas parfaitement alignés avec les images.
+Chaque pixel d'une photographie aérienne a une taille, et chaque pixel a également un emplacement. Comme nous l'avons mentionné plus haut, ceci est dû au fait que les photographies aériennes sont géoréférencées.  
 
-![existing data][]
+Tout comme un point GPS a une latitude et une longitude, il en va de même pour les pixels d'une image aérienne. Cependant, tout comme une mauvaise résolution peut poser des problèmes de cartographie, les images mal géoréférencées peuvent également poser des problèmes.  
 
-Beaucoup de mappeurs débutants pensent que les routes ont mal été tracées et
-donc les déplacent vers ce qui leur semble un meilleur positionnement. C'était peut-être une __TRÈS__ mauvaise idée! Il est tout à fait probable
-que les images soient moins bien alignées que les données OSM.
+Réfléchissons un instant au fonctionnement du géoréférencement et aux raisons pour lesquelles il est difficile à réaliser. Lorsque quelqu'un géoréférence une image, il identifie d'abord une poignée de pixels dans l'image qui sont des emplacements connus. Si nous avons une photographie carrée, nous pouvons identifier les coordonnées des quatre coins, ce qui permet de placer correctement l'ensemble de l'image.  
 
-Une façon de vérifier le décalage des images est d'utiliser des traces GPS.
-Pour cela, ajoutez des __traces déjà existantes__ (les vôtres ou celles
-d'autres mappeurs -- pour plus d'informations sur le sujet, consulter le
-document [AddingGPSDatatoOSMserver](https://docs.google.com/a/engelsted.co/document/d/1jjlthSuc9yltWxQDKxeQD4OO9LvH_DaGwEsdlxSE6l8/edit))
-pour la zone en cours d'édition. Cliquez sur ![download][], puis
-sélectionnez «Données GPS» en haut de la fenêtre «Télécharger». Une fois
-les données téléchargées, un nouveau claque «Données GPS téléchargées»
-doit apparaître.
+Tout cela semble très simple, mais considérez ceci : La Terre est ronde, les lentilles des appareils photo sont rondes, mais les photographies sont plates et bidimensionnelles. Cela signifie que lorsqu'une image plate est reproduite sur la Terre ronde, il y aura toujours un étirement de l'image et une distorsion. Imaginez que vous essayez d'aplatir une peau d'orange. Elle ne sera pas rectangulaire. À cause de ce problème, tous les pixels d'une image aérienne peuvent ne pas être parfaitement placés.  
 
-![downloaded GPX][]
+Heureusement, des personnes très intelligentes ont mis au point des algorithmes astucieux pour résoudre ce problème, de sorte que l'imagerie que vous voyez sur Bing est pratiquement exacte. Dans la plupart des endroits, les erreurs ne sont pas perceptibles, et elles conviennent parfaitement à la réalisation de cartes. Les zones les plus courantes où l'imagerie est inexacte sont les zones vallonnées et montagneuses. Dans le chapitre [Correction du décalage de l'imagerie](/fr/josm/correction du décalage de l'imagerie), nous verrons comment corriger ce problème.  
 
-Cet exemple montre que les traces GPS (en rouge) permettent de vérifier que
-les données existantes (en l'occurrence, les routes) sont correctement
-positionnées. Ce sont donc les images qui ne sont pas correctement
-géoréférencées, et qui sont donc décalées par rapport à la réalité. Ceci
-doit être ajusté.
-
-> parfaitement superposées. La plupart des GPS ont une précision de 2 à
-> 5 mètres, ce qui est suffisant pour les routes puisqu'on ne conduit ou
-> marche pas au milieu de la route. Considérez que la route réelle se trouve
-> sur la médiane des traces.
-
-Pour réaligner les images aériennes, faites un clic droit sur le calque
-de l'imagerie, ou, dans le menu «Imagerie», sélectionnez «Décalage de
-l'imagerie», ou utilisez le bouton d'ajustement de l'imagerie
-![adjust button][] sur la barre d'outils de gauche. Faites ensuite glisser
-les images de sorte à les aligner correctement avec les traces. Notez que
-pour certains projets, il est d'usage de publier les décalages nécessaires,
-par exemple dans le wiki, de sorte à ce que plusieurs personnes travaillant
-sur le même projet puisse utiliser les mêmes valeurs. Si vous pensez
-réutiliser le même offset plus tard, vous pouvez compléter le champ «Nom du signet» pour le mettre en favori. Vous pourrez le réactiver via le menu «Décalage de l'imagerie».
-
-![adjust window][]
-
-![downloaded GPX][]
-
-Maintenant que l'imagerie est correctement alignée, vous pouvez l'utiliser
-pour tracer. Si les traces GPS vous gênent pour travailler, vous pouvez
-masquer le calque «Données GPS téléchargées».
-
-![adding to existing data][]
-
-Une dernière chose à avoir en tête: le décalage peut ne pas être homogène
-pour la zone sur laquelle vous travaillez! Ceci est particulièrement vrai
-pour les régions avec un important relief. Il faudra donc peut-être répéter
-tout le processus si les images semblent décalées de nouveau.
-
-Gérer l'alignement quand aucune donnée OSM n'existe
----------------------------------------------------
-
-Il peut arriver que vous soyez le premier à cartographier une zone, par
-exemple dans les régions rurales reculées ou dans les pays en voies de
-développement. En conséquence, aucune donnée ou trace GPS ne peut être
-téléchargée.
-
-![no data][]
-
-Comment faire puisque vous n'avez aucune référence permettant de vérifier
-le décalage de l'imagerie? Il y a deux pistes possibles:
-
-1.  Aller sur place: si vous (ou quelqu'un d'autre) avez la possibilité
-    d'utiliser un GPS sur la zone couverte, prenez des waypoints des
-    principales infrastructures ou d'objets remarquables qui seront
-    visibles sur l'imagerie, ou prenez les traces des routes, et ajoutez
-    ces données dans JOSM.
-
-2.  Utiliser des données tierces: si vous ne pouvez pas aller sur le 
-    terrain, une autre option est de collecter d'autres __données sous
-    licence ODbl (Open Database License)__. Le mieux étant de pouvoir
-    contrôler les images à partir d'autres images. Dans ce cas, le plus
-    facile est d'utiliser la transparence. Pour cela, cliquez simplement
-    sur la ligne de gradient et changez l'opacité du calque.
-
-    ![change opacity][]
-
-En général, les images provenant de l'administration ont une très basse
-résolution, et peuvent donc être de moins bonne qualité que l'imagerie à
-disposition.
-
-Si vous avez accès à des données vectorielles, les routes, lacs, rivières
-et bâtiments sont les meilleures options pour mesurer le décalage de
-l'imagerie. Tâchez de ne pas utiliser les limites administratives, elles
-sont rarement fiables pour ce besoin précis.
-
-En résumé
----------
-
-Tracer avec une imagerie est une technique permettant de cartographie de
-façon rapide et efficace. Néanmoins, cette technique demande de précision
-et précaution. Il arrive que les images à votre disposition pour
-cartographie une zone ne donnent pas satisfaction. Que soit parce qu'elles
-sont de faible résolution ou parce qu'elles sont mal géoréférencées, il y a
-des méthodes pour travailler avec des images manquant de précision. La
-principale consiste à utiliser des données GPS pour les recaler.
-
-[puzzle]: {{site.baseurl}}/images/offset_puzzle_en.png
-[existing data]: {{site.baseurl}}/images/offset_existing_data_en.png
-[download]: {{site.baseurl}}/images/offset_tool_download_en.png
-[downloaded GPX]: {{site.baseurl}}/images/offset_downloaded_gpx_en.png
-[adjust button]: {{site.baseurl}}/images/offset_tool_adjust_en.png
-[adjust window]: {{site.baseurl}}/images/offset_adjust_window_en.png
-[adding to existing data]: {{site.baseurl}}/images/offset_add_to_data_en.png
-[no data]: {{site.baseurl}}/images/offset_no_data_en.png
-[change opacity]: {{site.baseurl}}/images/offset_change_opacity_en.png
+[Résolution de l'image]: /images/josm/orange-resolution.png
+[Comparaison de l'imagerie à basse et haute résolution]: /images/josm/low-res-high-res.png
