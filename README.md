@@ -18,25 +18,20 @@ Check out [CONTRIBUTING.md](CONTRIBUTING.md) for more on how to contribute direc
 
 **Important:** If you want to translate documents from English or improve one of the existing translations, please check out  https://learnosm.org/en/contribute/translator/. We no longer accept translated contents in pull requests but use Transifex in order to manage translations.
 
-## Translations and staging
+## Staging
 
-| Site | Built from |
+| Site | Repo (`gh-pages` branch) |
 |---|---|
-| https://learnosm.org | `gh-pages` |
-| https://staging.learnosm.org | `transifex-sync` + any `staging/*` branches |
+| https://learnosm.org | [hotosm/learnosm](https://github.com/hotosm/learnosm) |
+| https://staging.learnosm.org | [hotosm/learnosm-staging](https://github.com/hotosm/learnosm-staging) |
 
-1. Translators work in [Transifex](https://app.transifex.com/hotosm/learnosm-1/).
-2. Every night, translations that are at least 10% complete are pushed to the `transifex-sync`
-   branch, and staging is rebuilt.
-3. Check them on staging. When they look good,
-   [open a PR from `transifex-sync` to `gh-pages`](https://github.com/hotosm/learnosm/compare/gh-pages...transifex-sync)
-   and merge it to publish.
+learnosm-staging is a fork of this repo. Staging is where work happens; learnosm.org is what's published.
 
-- Fix translation mistakes in Transifex, not in this repo: `transifex-sync` is rebuilt every
-  night, so edits made there are lost.
-- To hold back a translation, add its filename to [`.tx/hold.txt`](.tx/hold.txt).
-- To try a change on staging only, push it to a branch in this repo named `staging/<name>`
-  (e.g. `staging/playground`). Staging adds the changes from every `staging/*` branch on top of
-  the translations; a branch that conflicts is skipped. Staging rebuilds nightly, or
-  [on demand](https://github.com/hotosm/learnosm-staging/actions). Merge the branch into
-  `gh-pages` to publish it, or delete it to drop it.
+- **English content:** edit `_posts/en` in learnosm-staging directly (GitHub's edit button is fine).
+- **Translations:** made in [Transifex](https://app.transifex.com/hotosm/learnosm-1/). Every night,
+  translations at least 10% complete are committed to learnosm-staging. Fix mistakes in Transifex,
+  not in the repo, or they get overwritten. To hold one back, add its filename to `.tx/hold.txt`.
+- Staging redeploys on every commit, usually within a few minutes.
+- **Publish:** [open a PR from learnosm-staging to learnosm](https://github.com/hotosm/learnosm/compare/gh-pages...hotosm:learnosm-staging:gh-pages)
+  and merge it. Everything on staging goes live.
+- Changes merged straight into learnosm (e.g. typo PRs) are merged back into staging every night.

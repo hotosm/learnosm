@@ -1,0 +1,53 @@
+name: Staging
+
+# Only runs in hotosm/learnosm-staging (this file also exists in hotosm/learnosm, where it's inert).
+on:
+  push:
+    branches: [gh-pages]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  STAGING_URL: https://staging.learnosm.org/  # trailing slash matches prod _config.yml
+
+jobs:
+  build:
+    if: github.repository == 'hotosm/learnosm-staging'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Apply staging overrides (build-time only, never committed)
+        run: |
+          rm -f CNAME
+          sed -i "s|^url: .*|url: \"${STAGING_URL}\"|" _config.yml
+          printf 'User-agent: *\nDisallow: /\n' > robots.txt
+          sed -i '/tracking-v3\.js/d' _layouts/default.html
+          banner="<div style=\"background:#d73f3f;color:#fff;text-align:center;padding:6px;font-weight:bold\">STAGING: not the live site. <a style=\"color:#fff;text-decoration:underline\" href=\"https://learnosm.org\">Go to learnosm.org</a></div>"
+          sed -i "0,/<body>/s|<body>|<body>\n${banner}|" _layouts/default.html
+
+      - uses: actions/configure-pages@v5
+      # Same builder as classic GitHub Pages, so the output matches prod
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - uses: actions/upload-pages-artifact@v4
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,4 +1,4 @@
-# Translations to hold back from staging and the Transifex PR.
+# Translations to hold back from staging.
 # Read nightly by Windmill f/shared/learnosm_transifex_sync (hotosm/windmill-scripts).
 # One glob per line, matched against the Transifex output filename. '#' starts a comment.
 #
